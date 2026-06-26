@@ -33,7 +33,7 @@
 ## 总体结论
 
 - 世界目录总数:63
-- 基线完整：63
+- 基线完整：63（62 assumed + 1 已归档+已校验）
 - 部分：0
 - 缺失：0
 - 人物清单建立:63
@@ -117,7 +117,7 @@
 | toaru | 基线完整 | 是 | 是 | 卷号剧情/变量文本较多;需后续复核未把控制文本写入正文。 |
 | tokyo-ghoul | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
 | toriko | 基线完整 | 是 | 是 | 本轮新增补齐后仅做存在性检查;需后续复核终局/隐藏设定可见性与 JSON/schema。 |
-| type-moon-nasuverse | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
+| type-moon-nasuverse | ✅ 已归档+已校验 | 是 | ✅ | 318角色+51故事章节+7基线+Layer2/3，全量原文内嵌 |
 | world-god-only-knows | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
 | xianjian-1 | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
 | zero-no-tsukaima | 基线完整 | 是 | 是 | `{{user}}` 槽位需后续复核未固化为原作人物。 |

@@ -1,0 +1,397 @@
+{
+  "schema": "rp-world-v1",
+  "worldId": "type-moon-nasuverse",
+  "worldName": "型月世界 (TYPE-MOON Nasuverse)",
+  "genre": [
+    "奇幻",
+    "现代魔术",
+    "都市超能",
+    "神话战争"
+  ],
+  "summary": "奈须蘑菇构建的多元宇宙——以魔术、英灵、圣杯战争、根源和人类恶为核心的幻想体系。多平行世界线共存（FSN/Zero/Apocrypha/EXTRA/strange Fake/FGO/月姬/空境/魔夜/伊莉雅），各作品在共同世界观下独立叙事。",
+  "sandboxPrinciple": "剧情不固定，角色行动与事件自然演化。世界内规则（抑止力、神秘衰退、人理剪定）按设定生效。",
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": true,
+  "powerSystems": [
+    {
+      "id": "ps-magecraft",
+      "name": "魔术体系",
+      "summary": "通过魔术回路将生命力转化为魔力，连接魔术基盘（神话/宗教/学术体系）施展术式。核心组件：魔术回路、魔术刻印、魔术基盘、魔力（大源Mana/小源Od）。"
+    },
+    {
+      "id": "ps-true-magic",
+      "name": "五大魔法",
+      "summary": "超越魔术的'奇迹'——直接连接根源的法则干涉。现存：第二法（泽尔里奇，平行世界干涉）、第三法（爱因兹贝伦，灵魂物质化/天之杯）、第五法（苍崎青子，时间相关）。"
+    },
+    {
+      "id": "ps-noble-phantasm",
+      "name": "宝具系统",
+      "summary": "从者持有、英雄传说结晶化的最终武装。需真名解放完全释放。分类：对人/对军/对城/对国/结界/对肃正/对界。"
+    },
+    {
+      "id": "ps-servant-classes",
+      "name": "从者职阶",
+      "summary": "英灵召唤时装入的'容器'。基础七职阶：Saber/Archer/Lancer/Rider/Caster/Assassin/Berserker。额外职阶：Ruler/Avenger/Alterego/MoonCancer/Foreigner/Pretender等。"
+    },
+    {
+      "id": "ps-heroic-spirit",
+      "name": "英灵与从者系统",
+      "summary": "英灵是死后升华为超越时间存在的灵魂本体，记录于英灵之座。从者是英灵本体的'分身'——复制情报装入职阶容器，与御主契约获取魔力。"
+    },
+    {
+      "id": "ps-reality-marble",
+      "name": "固有结界",
+      "summary": "将使用者的心象世界具现化侵蚀现实的最高等级大魔术，接近魔法。维持消耗巨量魔力。案例：无限剑制(卫宫士郎)、王之军势(伊斯坎达尔)。"
+    },
+    {
+      "id": "ps-mystic-eyes",
+      "name": "魔眼",
+      "summary": "通过视线干涉外界的异能。等级：普通→宝石→黄金→虹→神级。代表：直死之魔眼（两仪式/远野志贵），可看到万物'死之线'并沿线切割。"
+    },
+    {
+      "id": "ps-dead-apostle",
+      "name": "死徒与真祖",
+      "summary": "死徒：被吸血种转变为不老不死的存在，划分为二十七祖。真祖：自然产生的吸血种，朱月（TYPE-MOON）为其原型。"
+    },
+    {
+      "id": "ps-beast",
+      "name": "人类恶 / Beast",
+      "summary": "被人类史排斥的七个'人类爱'的灾厄。并非纯粹邪恶，而是'人类必须跨越的试炼'。冠位从者是针对Beast的专用对界武装。"
+    },
+    {
+      "id": "ps-fairy-system",
+      "name": "妖精体系（异闻带不列颠）",
+      "summary": "妖精国不列颠的独特生命体系。妖精无寿命概念，诞生有'目的'，遗失目的则摩斯化。六大氏族，亚铃为始祖级存在。"
+    }
+  ],
+  "rules": [
+    {
+      "id": "rule-root",
+      "name": "根源之涡",
+      "summary": "存在于所有次元之上的'万物之源'——记录一切事象的原因与结果。到达根源即全知全能。圣杯战争的最初目的为打开通往根源的孔。"
+    },
+    {
+      "id": "rule-counter-force",
+      "name": "抑止力",
+      "summary": "地球或人类为回避'毁灭'命运的无意识安全装置。盖亚（地球意志）与阿赖耶（人类集体求生欲）。通过守护者（Counter Guardian）代行抹除威胁。"
+    },
+    {
+      "id": "rule-throne",
+      "name": "英灵之座",
+      "summary": "存在于时间轴之外的'英灵数据库'。所有英雄灵魂死后被提升至此独立于时间流。英灵召唤是复制'情报'装入职阶容器。"
+    },
+    {
+      "id": "rule-mystery",
+      "name": "神秘",
+      "summary": "基本法则——神秘在更强大的神秘面前无效化，且随科技发展整体衰退。神代魔术远强于现代魔术。"
+    },
+    {
+      "id": "rule-holy-grail",
+      "name": "圣杯战争",
+      "summary": "七位魔术师（Master）召唤七骑英灵（Servant）进行至死方休的厮杀，胜者获得万能许愿器'圣杯'。实质为第三法·天之杯的大规模仪式。"
+    }
+  ],
+  "factions": [
+    {
+      "id": "fac-mage-association",
+      "name": "魔术协会",
+      "summary": "管理魔术师、隐匿神秘的国际组织。总部时钟塔（伦敦）。三大分支：时钟塔（西欧）、阿特拉斯院（埃及）、彷徨海（北欧）。"
+    },
+    {
+      "id": "fac-clock-tower",
+      "name": "时钟塔十二学部",
+      "summary": "魔术协会核心。分为全体基础科→十二学部的金字塔结构。君主（Lord）为最高位阶。矿石科为最大学部。"
+    },
+    {
+      "id": "fac-holy-church",
+      "name": "圣堂教会",
+      "summary": "与魔术协会对抗的超凡组织。以抹除异端为天职。下辖埋葬机关（代行者/处刑人），使用黑键和洗礼咏唱。"
+    },
+    {
+      "id": "fac-burial-agency",
+      "name": "埋葬机关",
+      "summary": "圣堂教会的实战派代行者组织。处理魔术协会无法处理的'超规格异端'。成员含代行者（言峰绮礼/米雷亚等）和处刑人。"
+    },
+    {
+      "id": "fac-three-families",
+      "name": "御三家",
+      "summary": "冬木圣杯战争的创始家族：爱因兹贝伦（提供圣杯容器/第三法）、远坂（提供灵地）、间桐/玛奇里（构建令咒系统）。"
+    },
+    {
+      "id": "fac-atlas-institute",
+      "name": "阿特拉斯院",
+      "summary": "魔术协会三大分支之一（埃及），以炼金术和未来预测为主。不参与常规魔术事务，专注'回避人类灭亡'的研究。"
+    },
+    {
+      "id": "fac-el-melloi",
+      "name": "艾尔梅罗派系",
+      "summary": "时钟塔十二君主之一。矿石科象征。当前君主：莱妮丝·艾尔梅罗·阿奇佐尔缇（代理），实际运作由埃尔梅罗Ⅱ世（韦伯·维尔维特）主理。"
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc-fuyuki",
+      "name": "冬木市",
+      "summary": "日本地方都市。四次圣杯战争的舞台。关键地点：圆藏山（大圣杯所在）、柳洞寺、远坂邸、间桐邸、卫宫邸、穗群原学园、冬木教会、未远川。"
+    },
+    {
+      "id": "loc-museum-street",
+      "name": "伦敦·博物馆街",
+      "summary": "魔术协会时钟塔的隐藏入口。维多利亚时代砖墙下的铁门，门楣铜牌写着'斯拉·马格努斯'。"
+    },
+    {
+      "id": "loc-misaki",
+      "name": "三咲町",
+      "summary": "月姬故事的主要舞台。远野家领地。"
+    },
+    {
+      "id": "loc-kanko",
+      "name": "观布子市",
+      "summary": "空之境界故事舞台。两仪家所在地。"
+    }
+  ],
+  "events": [
+    {
+      "id": "ev-hgw-4",
+      "name": "第四次圣杯战争",
+      "time": "1994年",
+      "summary": "卫宫切嗣（Saber）、远坂时臣（Archer）、间桐雁夜（Berserker）、肯尼斯（Lancer）、韦伯（Rider）、言峰绮礼（Assassin）、雨生龙之介（Caster）。冬木大火终结。"
+    },
+    {
+      "id": "ev-hgw-5",
+      "name": "第五次圣杯战争",
+      "time": "2004年",
+      "summary": "卫宫士郎（Saber）、远坂凛（Archer）、间桐慎二/樱（Rider）、伊莉雅（Berserker）、葛木/美狄亚（Caster）、言峰绮礼（Lancer+Gilgamesh）、佐佐木小次郎（Assassin非正规召唤）。三条路线：Fate/UBW/HF。"
+    },
+    {
+      "id": "ev-fgo-incineration",
+      "name": "人理烧却",
+      "time": "2016年",
+      "summary": "FGO第一部。所罗门王/盖提亚发动人理烧却式，将人类史焚烧为七个特异点。迦勒底逐一修复。"
+    },
+    {
+      "id": "ev-fgo-lostbelt",
+      "name": "异闻带战争",
+      "time": "2017年",
+      "summary": "FGO第二部。异星之神降下空想树，七个被剪定的世界以\"异闻带\"形式与泛人类史争夺生存权。Crypter/A组为各异闻带管理者。"
+    }
+  ],
+  "timelines": [
+    {
+      "id": "tl-fsn",
+      "name": "Fate/stay night",
+      "summary": "基础世界线。第五次圣杯战争。"
+    },
+    {
+      "id": "tl-zero",
+      "name": "Fate/Zero",
+      "summary": "FSN前传。第四次圣杯战争。"
+    },
+    {
+      "id": "tl-ubw",
+      "name": "Fate/Unlimited Blade Works",
+      "summary": "FSN分支。远坂凛路线。"
+    },
+    {
+      "id": "tl-hf",
+      "name": "Fate/Heaven's Feel",
+      "summary": "FSN分支。间桐樱路线。最黑暗的路线。"
+    },
+    {
+      "id": "tl-apocrypha",
+      "name": "Fate/Apocrypha",
+      "summary": "平行世界。七骑vs七骑大圣杯战争。"
+    },
+    {
+      "id": "tl-extra",
+      "name": "Fate/EXTRA",
+      "summary": "平行世界。Moon Cell内的圣杯战争。魔术已衰退。"
+    },
+    {
+      "id": "tl-fgo",
+      "name": "Fate/Grand Order",
+      "summary": "人理保障机关迦勒底。人理烧却→人理冻结→异闻带。序章至终局7特异点→亚种1-4→Lostbelt 1-7→奏章。"
+    },
+    {
+      "id": "tl-prototype",
+      "name": "Fate/Prototype",
+      "summary": "原始概念世界线。男性亚瑟王，女性御主。"
+    },
+    {
+      "id": "tl-sf",
+      "name": "Fate/strange Fake",
+      "summary": "平行世界。美国雪原市的'伪圣杯战争'。"
+    }
+  ],
+  "extensions": {
+    "noblePhantasms": [
+      {
+        "name": "誓约胜利之剑 (Excalibur)",
+        "rank": "A++",
+        "type": "对城宝具",
+        "owner": "阿尔托莉雅·潘德拉贡"
+      },
+      {
+        "name": "遥远的理想乡 (Avalon)",
+        "rank": "EX",
+        "type": "结界宝具",
+        "owner": "阿尔托莉雅·潘德拉贡"
+      },
+      {
+        "name": "天地乖离开辟之星 (Ea)",
+        "rank": "EX",
+        "type": "对界宝具",
+        "owner": "吉尔伽美什"
+      },
+      {
+        "name": "王之财宝 (Gate of Babylon)",
+        "rank": "E~A++",
+        "type": "对人宝具",
+        "owner": "吉尔伽美什"
+      },
+      {
+        "name": "无限剑制 (Unlimited Blade Works)",
+        "rank": "E~A++",
+        "type": "固有结界",
+        "owner": "卫宫士郎/英灵卫宫"
+      },
+      {
+        "name": "王之军势 (Ionian Hetairoi)",
+        "rank": "EX",
+        "type": "对军/固有结界",
+        "owner": "伊斯坎达尔"
+      },
+      {
+        "name": "穿刺城塞 (Kazikli Bey)",
+        "rank": "C",
+        "type": "对军宝具",
+        "owner": "弗拉德三世"
+      },
+      {
+        "name": "骑英之缰绳 (Bellerophon)",
+        "rank": "A+",
+        "type": "对军宝具",
+        "owner": "美杜莎"
+      },
+      {
+        "name": "破魔的红蔷薇 (Gae Dearg)",
+        "rank": "B",
+        "type": "对人宝具",
+        "owner": "迪尔姆德"
+      },
+      {
+        "name": "突穿死翔之枪 (Gae Bolg)",
+        "rank": "B+",
+        "type": "对人宝具",
+        "owner": "库丘林"
+      }
+    ],
+    "servantClasses": {
+      "base": [
+        "Saber",
+        "Archer",
+        "Lancer",
+        "Rider",
+        "Caster",
+        "Assassin",
+        "Berserker"
+      ],
+      "extra": [
+        "Ruler",
+        "Avenger",
+        "Alterego",
+        "MoonCancer",
+        "Foreigner",
+        "Pretender",
+        "Shielder",
+        "Beast"
+      ]
+    },
+    "commandSeals": {
+      "summary": "令咒是对从者的绝对命令权。每位御主三划，使用后不可恢复。用途：强制命令/空间传送/魔力爆发强化。"
+    },
+    "magicSystem": {
+      "trueMagics": [
+        {
+          "number": 1,
+          "name": "第一魔法",
+          "status": "不明"
+        },
+        {
+          "number": 2,
+          "name": "第二魔法·平行世界干涉",
+          "user": "泽尔里奇",
+          "status": "现存"
+        },
+        {
+          "number": 3,
+          "name": "第三魔法·天之杯",
+          "user": "爱因兹贝伦",
+          "status": "现存"
+        },
+        {
+          "number": 4,
+          "name": "第四魔法",
+          "status": "不明"
+        },
+        {
+          "number": 5,
+          "name": "第五魔法·青",
+          "user": "苍崎青子",
+          "status": "现存"
+        }
+      ],
+      "magecraftFoundation": "魔术基盘——支撑魔术在现代发动的'集体信仰'与'学术系统'。咏唱本质是向基盘发起申请。",
+      "magicCrest": "魔术刻印——家族历代研究成果的结晶，以刻印形式移植给继承人的外置魔术引擎。"
+    },
+    "deadApostles": {
+      "summary": "死徒是通过吸血获得不老不死的存在，划分为二十七祖。真祖是自然产生的吸血种。死徒与真祖之间存在等级体系和相克关系。",
+      "keyEntities": [
+        "朱月（TYPE-MOON）",
+        "黑翼公",
+        "白翼公",
+        "ORT（TYPE-MERCURY）"
+      ]
+    },
+    "beastEvils": {
+      "summary": "七个Beast，人类恶的实质是'人类爱'——因过于爱人类而被人类史排斥的存在。冠位从者（Grand Servant）是针对Beast的专用对界武装。",
+      "keyEntities": [
+        "Beast I: 盖提亚",
+        "Beast II: 提亚马特",
+        "Beast III/R: 杀生院祈荒",
+        "Beast III/L: 迦摩/魔罗",
+        "Beast IV: 芙芙（凯茜帕鲁格）",
+        "Beast V: 特斯卡特利波卡"
+      ]
+    }
+  },
+  "energyEnvironment": {
+    "primaryEnergy": "魔力（Mana/大源 + Od/小源）",
+    "distribution": "全球分布，受灵地（Leyline）质量影响。冬木市为顶级灵地。",
+    "modernTrend": "随科技发展，神秘（Mystery）持续衰退。神代魔力浓度远高于现代。"
+  },
+  "publicEvents": [
+    {
+      "id": "ev-hgw-1",
+      "name": "第一次圣杯战争",
+      "summary": "御三家（爱因兹贝伦/远坂/玛奇里）创始仪式。基础框架建立。"
+    },
+    {
+      "id": "ev-hgw-2",
+      "name": "第二次圣杯战争",
+      "summary": "引入令咒（Command Spell）系统。"
+    },
+    {
+      "id": "ev-hgw-3",
+      "name": "第三次圣杯战争",
+      "summary": "引入Ruler职阶。爱因兹贝伦违规召唤Avenger（安哥拉曼纽），战败后被大圣杯吸收，导致圣杯被污染。"
+    }
+  ],
+  "hiddenEvents": [
+    {
+      "id": "ev-grail-corruption",
+      "name": "大圣杯污染",
+      "summary": "第三次圣杯战争中Avenger被吸收后，大圣杯被\"此世全部之恶\"（Angra Mainyu）污染。此后任何通过圣杯实现的愿望都将以\"毁灭\"方式达成。"
+    }
+  ]
+}

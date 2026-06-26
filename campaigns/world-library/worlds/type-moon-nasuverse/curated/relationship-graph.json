@@ -1,0 +1,453 @@
+{
+  "schema": "rp-relationship-graph-v1",
+  "worldId": "type-moon-nasuverse",
+  "generatedAt": "2026-06-26",
+  "nodes": [
+    {
+      "id": "node-char-artoria",
+      "label": "阿尔托莉雅·潘德拉贡",
+      "type": "character",
+      "characterRef": "char-artoria-pendragon-saber"
+    },
+    {
+      "id": "node-char-shirou",
+      "label": "卫宫士郎",
+      "type": "character"
+    },
+    {
+      "id": "node-char-rin",
+      "label": "远坂凛",
+      "type": "character"
+    },
+    {
+      "id": "node-char-sakura",
+      "label": "间桐樱",
+      "type": "character"
+    },
+    {
+      "id": "node-char-illya",
+      "label": "伊莉雅丝菲尔·冯·爱因兹贝伦",
+      "type": "character"
+    },
+    {
+      "id": "node-char-gilgamesh",
+      "label": "吉尔伽美什",
+      "type": "character"
+    },
+    {
+      "id": "node-char-kirei",
+      "label": "言峰绮礼",
+      "type": "character"
+    },
+    {
+      "id": "node-char-kiritsugu",
+      "label": "卫宫切嗣",
+      "type": "character"
+    },
+    {
+      "id": "node-char-irisviel",
+      "label": "爱丽丝菲尔·冯·爱因兹贝伦",
+      "type": "character"
+    },
+    {
+      "id": "node-char-iskandar",
+      "label": "伊斯坎达尔",
+      "type": "character"
+    },
+    {
+      "id": "node-char-waver",
+      "label": "韦伯·维尔维特",
+      "type": "character"
+    },
+    {
+      "id": "node-char-medusa",
+      "label": "美杜莎",
+      "type": "character"
+    },
+    {
+      "id": "node-char-medea",
+      "label": "美狄亚",
+      "type": "character"
+    },
+    {
+      "id": "node-char-cu",
+      "label": "库丘林",
+      "type": "character"
+    },
+    {
+      "id": "node-char-heracles",
+      "label": "赫拉克勒斯",
+      "type": "character"
+    },
+    {
+      "id": "node-char-kojiro",
+      "label": "佐佐木小次郎",
+      "type": "character"
+    },
+    {
+      "id": "node-char-zouken",
+      "label": "间桐脏砚",
+      "type": "character"
+    },
+    {
+      "id": "node-char-shinji",
+      "label": "间桐慎二",
+      "type": "character"
+    },
+    {
+      "id": "node-char-kuzuki",
+      "label": "葛木宗一郎",
+      "type": "character"
+    },
+    {
+      "id": "node-char-taiga",
+      "label": "藤村大河",
+      "type": "character"
+    },
+    {
+      "id": "node-char-tokiomi",
+      "label": "远坂时臣",
+      "type": "character"
+    },
+    {
+      "id": "node-char-kariya",
+      "label": "间桐雁夜",
+      "type": "character"
+    },
+    {
+      "id": "node-char-kenis",
+      "label": "肯尼斯·埃尔梅罗·阿奇博尔德",
+      "type": "character"
+    },
+    {
+      "id": "node-char-lancelot",
+      "label": "兰斯洛特",
+      "type": "character"
+    },
+    {
+      "id": "node-fac-clock-tower",
+      "label": "时钟塔",
+      "type": "faction",
+      "factionRef": "fac-clock-tower"
+    },
+    {
+      "id": "node-fac-holy-church",
+      "label": "圣堂教会",
+      "type": "faction",
+      "factionRef": "fac-holy-church"
+    },
+    {
+      "id": "node-fac-three-families",
+      "label": "御三家",
+      "type": "faction",
+      "factionRef": "fac-three-families"
+    },
+    {
+      "id": "node-fac-el-melloi",
+      "label": "艾尔梅罗派系",
+      "type": "faction",
+      "factionRef": "fac-el-melloi"
+    }
+  ],
+  "edges": [
+    {
+      "from": "node-char-shirou",
+      "to": "node-char-artoria",
+      "types": [
+        "master-servant",
+        "trust",
+        "affection"
+      ],
+      "dimensions": {
+        "trust": {
+          "level": "high"
+        },
+        "affection": {
+          "level": "high"
+        }
+      },
+      "summary": "第五次圣杯战争主从，从契约到深刻羁绊",
+      "visibility": "public"
+    },
+    {
+      "from": "node-char-kiritsugu",
+      "to": "node-char-artoria",
+      "types": [
+        "master-servant",
+        "conflict"
+      ],
+      "dimensions": {
+        "trust": {
+          "level": "low"
+        },
+        "suspicion": {
+          "level": "high"
+        }
+      },
+      "summary": "第四次圣杯战争主从，理念严重冲突",
+      "visibility": "public"
+    },
+    {
+      "from": "node-char-shirou",
+      "to": "node-char-kiritsugu",
+      "types": [
+        "family"
+      ],
+      "dimensions": {
+        "loyalty": {
+          "level": "high"
+        }
+      },
+      "summary": "切嗣收养了士郎，传承'正义的伙伴'理想",
+      "visibility": "public"
+    },
+    {
+      "from": "node-char-kiritsugu",
+      "to": "node-char-irisviel",
+      "types": [
+        "family",
+        "trust"
+      ],
+      "dimensions": {
+        "affection": {
+          "level": "high"
+        },
+        "trust": {
+          "level": "high"
+        }
+      },
+      "summary": "夫妻，爱丽丝菲尔为切嗣的代理御主",
+      "visibility": "public"
+    },
+    {
+      "from": "node-char-illya",
+      "to": "node-char-kiritsugu",
+      "types": [
+        "family"
+      ],
+      "summary": "父女，伊莉雅被抛弃后对切嗣有复杂感情",
+      "visibility": "public"
+    },
+    {
+      "from": "node-char-rin",
+      "to": "node-char-shirou",
+      "types": [
+        "ally",
+        "affection"
+      ],
+      "summary": "第五次圣杯战争盟友，UBW路线发展为恋人",
+      "visibility": "public"
+    },
+    {
+      "from": "node-char-rin",
+      "to": "node-char-sakura",
+      "types": [
+        "family"
+      ],
+      "summary": "远坂姐妹，樱被过继到间桐家",
+      "visibility": "public",
+      "notes": "凛一直不知樱的身份，HF线揭露真相"
+    },
+    {
+      "from": "node-char-sakura",
+      "to": "node-char-shinji",
+      "types": [
+        "family"
+      ],
+      "summary": "名义上的兄妹，间桐家的扭曲关系",
+      "visibility": "public"
+    },
+    {
+      "from": "node-char-zouken",
+      "to": "node-char-sakura",
+      "types": [
+        "command"
+      ],
+      "summary": "脏砚对樱进行虫化改造和残忍操控",
+      "visibility": "public",
+      "notes": "刻印虫寄生于樱体内"
+    },
+    {
+      "from": "node-char-gilgamesh",
+      "to": "node-char-artoria",
+      "types": [
+        "enemy",
+        "obsession"
+      ],
+      "summary": "第四次圣杯战争中交手，对Saber产生执念",
+      "visibility": "public"
+    },
+    {
+      "from": "node-char-gilgamesh",
+      "to": "node-char-kirei",
+      "types": [
+        "master-servant",
+        "temptation"
+      ],
+      "summary": "第四次圣杯战争主从，金闪闪引导麻婆走向追求愉悦",
+      "visibility": "public"
+    },
+    {
+      "from": "node-char-tokiomi",
+      "to": "node-char-rin",
+      "types": [
+        "family",
+        "mentor"
+      ],
+      "summary": "父女，时臣教授凛魔术",
+      "visibility": "public"
+    },
+    {
+      "from": "node-char-tokiomi",
+      "to": "node-char-kirei",
+      "types": [
+        "mentor"
+      ],
+      "summary": "师徒，时臣是麻婆的魔术导师，后被麻婆所杀",
+      "visibility": "public"
+    },
+    {
+      "from": "node-char-kariya",
+      "to": "node-char-sakura",
+      "types": [
+        "protector"
+      ],
+      "summary": "雁夜为救樱参加第四次圣杯战争",
+      "visibility": "public"
+    },
+    {
+      "from": "node-char-lancelot",
+      "to": "node-char-artoria",
+      "types": [
+        "loyalty",
+        "guilt"
+      ],
+      "summary": "圆桌骑士，背叛使王陷入自责",
+      "visibility": "public"
+    },
+    {
+      "from": "node-char-iskandar",
+      "to": "node-char-waver",
+      "types": [
+        "master-servant",
+        "mentor"
+      ],
+      "summary": "第四次圣杯战争主从，大帝教会韦伯何为王者",
+      "visibility": "public"
+    },
+    {
+      "from": "node-char-kenis",
+      "to": "node-char-waver",
+      "types": [
+        "rival"
+      ],
+      "summary": "师生关系，肯尼斯轻视韦伯，韦伯以成绩证明自己",
+      "visibility": "public"
+    },
+    {
+      "from": "node-char-medusa",
+      "to": "node-char-sakura",
+      "types": [
+        "master-servant",
+        "protector"
+      ],
+      "summary": "第五次圣杯战争主从，Rider忠诚守护樱",
+      "visibility": "public"
+    },
+    {
+      "from": "node-char-medea",
+      "to": "node-char-kuzuki",
+      "types": [
+        "master-servant",
+        "affection"
+      ],
+      "summary": "第五次圣杯战争主从，Caster唯一信任的人类",
+      "visibility": "public"
+    },
+    {
+      "from": "node-char-kojiro",
+      "to": "node-char-medea",
+      "types": [
+        "master-servant"
+      ],
+      "summary": "Caster违规召唤的Assassin",
+      "visibility": "public"
+    },
+    {
+      "from": "node-char-heracles",
+      "to": "node-char-illya",
+      "types": [
+        "master-servant",
+        "protector"
+      ],
+      "summary": "第五次圣杯战争主从，狂暴外表下的忠诚守护",
+      "visibility": "public"
+    },
+    {
+      "from": "node-char-cu",
+      "to": "node-char-kirei",
+      "types": [
+        "master-servant"
+      ],
+      "summary": "第五次圣杯战争主从，Lancer被令咒自杀",
+      "visibility": "public"
+    },
+    {
+      "from": "node-char-taiga",
+      "to": "node-char-shirou",
+      "types": [
+        "guardian"
+      ],
+      "summary": "监护人，士郎的英语老师和实际监护人",
+      "visibility": "public"
+    },
+    {
+      "from": "node-char-irisviel",
+      "to": "node-char-illya",
+      "types": [
+        "family"
+      ],
+      "summary": "母女",
+      "visibility": "public"
+    },
+    {
+      "from": "node-char-artoria",
+      "to": "node-fac-three-families",
+      "types": [],
+      "summary": "爱因兹贝伦为第四次圣杯战争准备的Saber御主是切嗣",
+      "visibility": "public"
+    },
+    {
+      "from": "node-char-tokiomi",
+      "to": "node-fac-three-families",
+      "types": [],
+      "summary": "远坂家当主",
+      "visibility": "public"
+    },
+    {
+      "from": "node-char-zouken",
+      "to": "node-fac-three-families",
+      "types": [],
+      "summary": "间桐/玛奇里家实际掌控者",
+      "visibility": "public"
+    },
+    {
+      "from": "node-char-waver",
+      "to": "node-fac-el-melloi",
+      "types": [],
+      "summary": "继承埃尔梅罗教室，成为二世",
+      "visibility": "public"
+    },
+    {
+      "from": "node-char-kirei",
+      "to": "node-fac-holy-church",
+      "types": [],
+      "summary": "代行者出身，监督者身份参加圣杯战争",
+      "visibility": "public"
+    }
+  ],
+  "indices": {
+    "byCharacter": {},
+    "byFaction": {}
+  }
+}

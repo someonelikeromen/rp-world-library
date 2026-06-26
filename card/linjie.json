@@ -1,0 +1,76 @@
+{
+  "name": "林界",
+  "aliases": ["界"],
+  "gender": "male",
+  "age": 18,
+  "appearance": "黑发黑瞳，身形精悍结实。七年训练把孤儿院时期的瘦弱削尽，动作沉稳精确。",
+  "identity": { "type": "first-generation-magus", "world": "type-moon-nasuverse", "status": "时钟塔现代魔术科毕业，无家系无刻印" },
+  "personality": { "core": "前世成年心智与十八岁身体已完全融合。人前克制精准。", "drive": "参加并改变第四次圣杯战争。探索多元世界。", "bottomLine": "不滥杀无辜、不背叛信任之人" },
+  "memory": { "type": "宿慧者", "detail": "7岁觉醒。Fate全剧情+大量ACG设定。精确日期/细节偶模糊。" },
+
+  "magic": {
+    "circuits": {
+      "count": 48, "maxOutputPerCircuit": 294, "maxCapacity": 16957, "currentReserve": 16957,
+      "panelLevel": "Lv.15（93023/819200）",
+      "traits": ["扩容回路","魔力压缩","魔力回流","回路分流","魔力炉心","回路增殖"]
+    },
+    "knownSpells": [
+      { "id": "reinforcement", "name": "强化魔术", "panelLevel": "Lv.15（156810/819200）",
+        "effect": "物体约6.0倍，自身约6.0+0.5(自体Ⅱ)+0.3(共鸣)=6.8倍+过载+0.5。自体瞬强0.1秒发动。可反向削弱目标0.5倍。",
+        "traits": ["精密强化","自体共鸣","魔力过载","自体强化Ⅱ","反向强化","自体瞬强"] },
+      { "id": "gradation-air", "name": "投影魔术", "panelLevel": "Lv.9（19800/25600）",
+        "traits": ["精密投影","多重投影","高速投影"] },
+      { "id": "hypnosis", "name": "催眠魔术", "panelLevel": "Lv.7（2970/6400）·停练", "traits": ["快速诱导","群体暗示"] },
+      { "id": "charm", "name": "魅惑魔术", "panelLevel": "Lv.7（2790/6400）·停练", "traits": ["情绪诱导","感官植入"] },
+      { "id": "structural-analysis", "name": "结构分析", "panelLevel": "Lv.15（3210/819200）",
+        "traits": ["材质判读","术式解析","弱点评级","术式记忆","即时解析","战斗预判"] }
+    ]
+  },
+
+  "attributes": {
+    "output": { "score": 395, "proficiency": "79/100" },
+    "durability": { "score": 699, "proficiency": "76/100" },
+    "reaction": { "score": 452, "proficiency": "63/100" },
+    "control": { "score": 1407, "proficiency": "94/100" },
+    "perception": { "score": 667, "proficiency": "89/100" },
+    "mentalStrength": { "score": 345, "proficiency": "94/100" },
+    "computation": { "score": 355, "proficiency": "14/100" }
+  },
+
+  "combatRating": {
+    "overall": { "rating": "N5 街区级 低段", "score": 2100 },
+    "offense": { "rating": "N5 街区级 高段", "score": 3400, "basis": "自体瞬强0.1s+自身6.8~7.3倍+洪拳寸劲" },
+    "defense": { "rating": "N5 街区级 中段", "score": 2700 },
+    "durability": { "rating": "N6 城镇级 低段", "score": 4300, "basis": "储量16957+魔力回流+分流被动" },
+    "reaction": { "rating": "N3 房屋级 巅峰", "score": 980, "basis": "反应452+战斗预判+急停变向+自体瞬强" },
+    "mobility": { "rating": "N4 建筑级 低段", "score": 1200, "basis": "疾跑Lv.9+瞬步+爆发冲刺+踏壁" },
+    "control": { "rating": "N6 城镇级 低段", "score": 4100, "basis": "控制1407+结构分析Lv.15" },
+    "perception": { "rating": "N4 建筑级 中段", "score": 1450, "basis": "感知667+战斗预判+术式记忆" },
+    "mental": { "rating": "N3 房屋级 低段", "score": 720, "basis": "精神345+宿慧者" },
+    "hax": { "rating": "N3 房屋级 低段", "score": 700, "basis": "反向强化+自体瞬强+面板无限" },
+    "resource": { "rating": "N6 城镇级", "mana": { "capacity": 16957, "current": 16957 }, "money": "~28万英镑" }
+  },
+
+  "abilities": [
+    { "id": "status-panel", "name": "状态面板", "types": ["Talent"] },
+    { "id": "transmigrator", "name": "穿越者", "types": ["Talent","Authority"], "principle": "未激活" },
+    { "id": "short-sleep", "name": "短眠", "panelLevel": "Lv.8（5390/6400）", "traits": ["快速入眠","深度短眠","清醒短眠"] },
+    { "id": "sprint", "name": "疾跑", "panelLevel": "Lv.9（12485/12800）", "traits": ["急停变向","踏壁","爆发冲刺","瞬步"] },
+    { "id": "hung-ga", "name": "洪拳", "panelLevel": "Lv.7（561/6400）", "traits": ["桥手硬化","寸劲"] },
+    { "id": "nutrition", "name": "营养吸收", "panelLevel": "Lv.3（66/400）", "traits": ["高效代谢"] }
+  ],
+
+  "resources": [
+    { "id": "mana", "name": "魔力", "capacity": 16957, "current": 16957, "unit": "单位" },
+    { "id": "money", "name": "资金", "current": "~28万英镑", "unit": "英镑" }
+  ],
+
+  "relationships": [
+    { "id": "calder", "name": "考尔德", "currentRelation": "赛马代理人，半退休" },
+    { "id": "porter", "name": "波特", "currentRelation": "投资管理人，~28万英镑" },
+    { "id": "waver", "name": "韦伯·维尔维特", "currentRelation": "时钟塔同学，已建立联系" }
+  ],
+
+  "currentStatus": { "world": "type-moon-nasuverse", "location": "伦敦时钟塔", "time": "1993年1月", "condition": "18岁。强化魔术Lv.15。回路48条/16957。N5街区级。距第四次圣杯战争约1年。" },
+  "notes": "1993.1。目标：一年内准备圣遗物+英灵召唤，参加1994年第四次圣杯战争。"
+}

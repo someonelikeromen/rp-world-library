@@ -1,0 +1,22 @@
+# Infrastructure branch .gitignore
+# Exclude only what we don't want
+
+# Raw worldbooks (already in git from master — keep tracking)
+# campaigns/world-library/imports/worldviews/ — keep tracking
+
+# Exclude large raw data
+campaigns/world-library/imports/worldbooks-pending/
+campaigns/world-library/imports/images/
+campaigns/world-library/imports/reports/
+campaigns/world-library/reports/
+
+# Exclude project noise
+node_modules/
+.idea/
+backup/
+novel/
+knowledge/
+nul
+*.png
+*.webp
+.VSCodeCounter/
