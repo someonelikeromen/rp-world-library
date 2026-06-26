@@ -6,7 +6,9 @@
 
 ## 标准产物索引说明
 
-每个完成世界的 `curated/` 目录应包含：
+每个完成世界的 `curated/` 目录需满足 **7 项最小基线**，可在此基础上任意扩展额外文件。
+
+最小基线：
 
 - `README.md`
 - `world.json`
@@ -18,20 +20,20 @@
 
 索引字段：
 
-- `完整`：7 个标准产物均存在。
+- `基线完整`：7 项最小基线均存在（额外文件不限）。
 - `人物`：`characters-index.json` 存在。
 - `图谱`：`knowledge-graph.json` 与 `relationship-graph.json` 均存在。
 
 ## 汇总
 
 - 世界目录总数：63
-- 完整 curated 世界：63
+- 基线完整 curated 世界：63
 - 部分 curated 世界：0
 - 缺失 curated 世界：0
 
-## 完整 curated 世界
+## 基线完整 curated 世界
 
-| 世界 slug | curated 路径 | 完整 | 人物 | 图谱 |
+| 世界 slug | curated 路径 | 基线完整 | 人物 | 图谱 |
 |---|---|---:|---:|---:|
 | absolute-duo | `campaigns/world-library/worlds/absolute-duo/curated/` | 是 | 是 | 是 |
 | acg-character-database | `campaigns/world-library/worlds/acg-character-database/curated/` | 是 | 是 | 是 |
@@ -99,7 +101,7 @@
 
 ## 部分/缺失世界
 
-无。当前 63 个世界均发现 7 个标准产物。
+无。当前 63 个世界均满足 7 项最小基线。
 
 ## 后续 QA 索引
 

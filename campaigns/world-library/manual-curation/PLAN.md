@@ -21,7 +21,9 @@
 
 ## 每个世界的标准产物
 
-每个 `campaigns/world-library/worlds/<worldSlug>/curated/` 至少输出：
+以下 7 个为**最小基线**，每个世界必须包含。可根据世界特点任意扩展额外文件（如 `timeline.json`、`locations-index.json`、`power-systems.json`、`events-log.md`、`terminology.md` 等），不受限制。
+
+每个 `campaigns/world-library/worlds/<worldSlug>/curated/` 最小基线：
 
 1. `README.md`
    - 本世界整理状态、来源范围、未解决问题、下一步。
@@ -37,6 +39,8 @@
    - 按 `rp-relationship-graph-v1` 建人物/势力节点和关系边。
 7. `curation-notes.md`
    - 人工判断、冲突、低置信、未归类项。
+
+超过上述 7 个基线的任意额外文件均为合法扩展，不影响"基线完整"判定。
 
 ## 人物清单字段
 
@@ -159,7 +163,7 @@
 
 ## 验收标准
 
-单个世界视为阶段完成，需要满足：
+单个世界视为**基线完成**，需要满足（7 项最小基线 + 扩展自由）：
 
 - 有 `curated/README.md` 标记来源和整理程度。
 - 有可读的世界主档 `world.json`。
@@ -168,3 +172,4 @@
 - 有知识图谱和关系图谱。
 - 有冲突/低置信/未解决记录。
 - 不覆盖原始归档。
+- **额外文件不限**：可根据世界需要自由添加 `timeline.json`、`locations-index.json`、`power-systems.json`、`events-log.md`、`terminology.md` 等任意扩展产物。
