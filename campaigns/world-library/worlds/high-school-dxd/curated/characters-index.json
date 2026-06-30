@@ -117,7 +117,16 @@
         "恶魔高校.worldbook.json:entry 1",
         "dxd_card.worldbook.json:entry 103"
       ],
-      "notes": "系列绝对主角。成长线：普通高中生→下级恶魔→中层恶魔→上级恶魔→魔王候补。战力从N3提升至N16+级别。"
+      "notes": "系列绝对主角。成长线：普通高中生→下级恶魔→中层恶魔→上级恶魔→魔王候补。战力从N3提升至N16+级别。",
+      "psyche": {
+        "primary": "热血",
+        "primaryScore": 52,
+        "secondary": [],
+        "confidence": "high",
+        "forbiddenRules": [
+          "在所有场景中都保持高燃状态——日常中可以是正常的，关键时刻的燃烧才有冲击力"
+        ]
+      }
     },
     {
       "id": "ophis",
@@ -184,7 +193,26 @@
       "sourceRefs": [
         "dxd_card.worldbook.json:entry 37"
       ],
-      "notes": "DxD最强级存在之一。原力量N22+，现力量削减后N16-N18。"
+      "notes": "DxD最强级存在之一。原力量N22+，现力量削减后N16-N18。",
+      "psyche": {
+        "primary": "高傲",
+        "primaryScore": 30,
+        "secondary": [
+          {
+            "model": "王道",
+            "score": 30
+          },
+          {
+            "model": "支配",
+            "score": 15
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在劣势时表现出小人得志或无能狂怒",
+          "对明显的下位者进行无意义的欺凌——那太掉价了"
+        ]
+      }
     },
     {
       "id": "vali-lucifer",
@@ -260,7 +288,26 @@
         "dxd_card.worldbook.json:entry 14",
         "恶魔高校.worldbook.json:entry 9"
       ],
-      "notes": "二天龙之一的白龙皇。战力评级N12-N16+。Empireo Juggernaut Overdrive可达N18+。"
+      "notes": "二天龙之一的白龙皇。战力评级N12-N16+。Empireo Juggernaut Overdrive可达N18+。",
+      "psyche": {
+        "primary": "高傲",
+        "primaryScore": 32,
+        "secondary": [
+          {
+            "model": "王道",
+            "score": 32
+          },
+          {
+            "model": "支配",
+            "score": 17
+          }
+        ],
+        "confidence": "high",
+        "forbiddenRules": [
+          "在劣势时表现出小人得志或无能狂怒",
+          "对明显的下位者进行无意义的欺凌——那太掉价了"
+        ]
+      }
     },
     {
       "id": "rias-gremory",
@@ -345,7 +392,14 @@
         "dxd_card.worldbook.json:entry 6",
         "恶魔高校.worldbook.json:entry 1"
       ],
-      "notes": "战力：上级恶魔。毁灭魔力对大多数防御有穿透效果，战力评级N8-N10级别。"
+      "notes": "战力：上级恶魔。毁灭魔力对大多数防御有穿透效果，战力评级N8-N10级别。",
+      "psyche": {
+        "primary": "温柔",
+        "primaryScore": 52,
+        "secondary": [],
+        "confidence": "high",
+        "forbiddenRules": []
+      }
     },
     {
       "id": "gasper-vladi",
@@ -424,7 +478,22 @@
         "dxd_card.worldbook.json:entry 11",
         "恶魔高校.worldbook.json:entry 6"
       ],
-      "notes": "持有Longinus之一。时间停止能力极其恐怖。成长前战力N2-N3，成长后N8-N10+（依赖黑兽）。"
+      "notes": "持有Longinus之一。时间停止能力极其恐怖。成长前战力N2-N3，成长后N8-N10+（依赖黑兽）。",
+      "psyche": {
+        "primary": "高傲",
+        "primaryScore": 30,
+        "secondary": [
+          {
+            "model": "冷酷",
+            "score": 15
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在劣势时表现出小人得志或无能狂怒",
+          "对明显的下位者进行无意义的欺凌——那太掉价了"
+        ]
+      }
     },
     {
       "id": "koneko-toujou",
@@ -510,7 +579,22 @@
         "dxd_card.worldbook.json:entry 9",
         "恶魔高校.worldbook.json:entry 4"
       ],
-      "notes": "Rook强化+仙术的独特组合。白音形态下魔力爆发力极强。战力评级N6-N8。"
+      "notes": "Rook强化+仙术的独特组合。白音形态下魔力爆发力极强。战力评级N6-N8。",
+      "psyche": {
+        "primary": "毒舌",
+        "primaryScore": 55,
+        "secondary": [
+          {
+            "model": "御姐",
+            "score": 52
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "使用生殖器相关的低级脏话或泼妇骂街",
+          "每一句话都是毒舌——那不是毒舌，是语言暴力。毒舌是在关键时刻精准输出，不是机关枪扫射"
+        ]
+      }
     },
     {
       "id": "akeno-himejima",
@@ -595,7 +679,17 @@
         "dxd_card.worldbook.json:entry 8",
         "恶魔高校.worldbook.json:entry 3"
       ],
-      "notes": "Queen级别战力。融合光雷后战力评级N7-N8。堕天使血脉提供了S属性高魔力输出。"
+      "notes": "Queen级别战力。融合光雷后战力评级N7-N8。堕天使血脉提供了S属性高魔力输出。",
+      "psyche": {
+        "primary": "御姐",
+        "primaryScore": 52,
+        "secondary": [],
+        "confidence": "high",
+        "forbiddenRules": [
+          "表现为扭捏、犹豫不决或过度依赖他人",
+          "把御姐写成\"什么都懂的完美圣母\"——她的可靠是真的，但可靠不等于没有极限"
+        ]
+      }
     },
     {
       "id": "ddraig",
@@ -674,7 +768,16 @@
         "dxd_card.worldbook.json:entry 1",
         "dxd_card.worldbook.json:entry 262"
       ],
-      "notes": "灵魂体，无法独立行动。通过神器与一诚沟通。远古本体战力N18+。"
+      "notes": "灵魂体，无法独立行动。通过神器与一诚沟通。远古本体战力N18+。",
+      "psyche": {
+        "primary": "热血",
+        "primaryScore": 52,
+        "secondary": [],
+        "confidence": "high",
+        "forbiddenRules": [
+          "在所有场景中都保持高燃状态——日常中可以是正常的，关键时刻的燃烧才有冲击力"
+        ]
+      }
     },
     {
       "id": "cao-cao",
@@ -739,7 +842,22 @@
       "sourceRefs": [
         "dxd_card.worldbook.json:entry 18"
       ],
-      "notes": "最强Longinus持有者。纯人类无种族加成，纯靠神器和技巧达到魔王级。战力评级N10-N12。"
+      "notes": "最强Longinus持有者。纯人类无种族加成，纯靠神器和技巧达到魔王级。战力评级N10-N12。",
+      "psyche": {
+        "primary": "理性",
+        "primaryScore": 52,
+        "secondary": [
+          {
+            "model": "支配",
+            "score": 52
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "写成满嘴专业术语、毫无感情波动的AI机器人。理性的底色依然是人类，有七情六欲，只是自控力极强",
+          "让她轻易被空泛的口号说服——她只看重可行性、代价与最终的收益，她的行动必须有逻辑支撑"
+        ]
+      }
     },
     {
       "id": "kiba-yuuto",
@@ -813,7 +931,14 @@
         "dxd_card.worldbook.json:entry 10",
         "恶魔高校.worldbook.json:entry 5"
       ],
-      "notes": "速度型近战专家。以速度弥补力量不足。禁手后可同时使用圣剑和魔剑，战力评级N6-N7。"
+      "notes": "速度型近战专家。以速度弥补力量不足。禁手后可同时使用圣剑和魔剑，战力评级N6-N7。",
+      "psyche": {
+        "primary": "温柔",
+        "primaryScore": 52,
+        "secondary": [],
+        "confidence": "high",
+        "forbiddenRules": []
+      }
     },
     {
       "id": "xenovia",
@@ -890,7 +1015,25 @@
         "dxd_card.worldbook.json:entry 13",
         "恶魔高校.worldbook.json:entry 7"
       ],
-      "notes": "持有圣剑杜兰朵——传说级武器。圣魔剑对恶魔/黑暗生物有双倍克制。战力评级N7-N8。"
+      "notes": "持有圣剑杜兰朵——传说级武器。圣魔剑对恶魔/黑暗生物有双倍克制。战力评级N7-N8。",
+      "psyche": {
+        "primary": "腹黑",
+        "primaryScore": 15,
+        "secondary": [
+          {
+            "model": "高傲",
+            "score": 15
+          },
+          {
+            "model": "王道",
+            "score": 15
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在小事上浪费算计。只有涉及核心利益时才启动全力模式"
+        ]
+      }
     },
     {
       "id": "asia-argento",
@@ -973,7 +1116,21 @@
         "dxd_card.worldbook.json:entry 7",
         "恶魔高校.worldbook.json:entry 2"
       ],
-      "notes": "DxD中最珍贵的治疗者。战力极低(N1-N2)，但治疗能力无可替代。"
+      "notes": "DxD中最珍贵的治疗者。战力极低(N1-N2)，但治疗能力无可替代。",
+      "psyche": {
+        "primary": "天然呆",
+        "primaryScore": 53,
+        "secondary": [
+          {
+            "model": "温柔",
+            "score": 52
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在生死关头依然毫无紧张感——天然呆在真正危险的时候是会害怕的，只是她害怕的反应也可能比别人慢半拍"
+        ]
+      }
     },
     {
       "id": "sirzechs-lucifer",
@@ -1041,7 +1198,25 @@
       "sourceRefs": [
         "dxd_card.worldbook.json:entry 16"
       ],
-      "notes": "战力：超越者级（Super Devil）。可达毁灭星球级别的力量。战力评级N18-N20。"
+      "notes": "战力：超越者级（Super Devil）。可达毁灭星球级别的力量。战力评级N18-N20。",
+      "psyche": {
+        "primary": "腹黑",
+        "primaryScore": 17,
+        "secondary": [
+          {
+            "model": "妹控",
+            "score": 17
+          },
+          {
+            "model": "王道",
+            "score": 15
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在小事上浪费算计。只有涉及核心利益时才启动全力模式"
+        ]
+      }
     },
     {
       "id": "irina-shidou",
@@ -1113,7 +1288,26 @@
         "dxd_card.worldbook.json:entry 15",
         "恶魔高校.worldbook.json:entry 8"
       ],
-      "notes": "转生天使后可在圣力环境中发挥真正战力。天使→恶魔恋爱线是被允许的特殊案例。战力评级N6-N7。"
+      "notes": "转生天使后可在圣力环境中发挥真正战力。天使→恶魔恋爱线是被允许的特殊案例。战力评级N6-N7。",
+      "psyche": {
+        "primary": "高傲",
+        "primaryScore": 15,
+        "secondary": [
+          {
+            "model": "温柔",
+            "score": 15
+          },
+          {
+            "model": "王道",
+            "score": 15
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在劣势时表现出小人得志或无能狂怒",
+          "对明显的下位者进行无意义的欺凌——那太掉价了"
+        ]
+      }
     },
     {
       "id": "rossweisse",
@@ -1185,7 +1379,22 @@
       "sourceRefs": [
         "dxd_card.worldbook.json:entry 19"
       ],
-      "notes": "防御型Rook。北欧魔法盾防御力极高。战力评级N6-N7。防御评级N8+。"
+      "notes": "防御型Rook。北欧魔法盾防御力极高。战力评级N6-N7。防御评级N8+。",
+      "psyche": {
+        "primary": "高傲",
+        "primaryScore": 15,
+        "secondary": [
+          {
+            "model": "中二病",
+            "score": 5
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在劣势时表现出小人得志或无能狂怒",
+          "对明显的下位者进行无意义的欺凌——那太掉价了"
+        ]
+      }
     },
     {
       "id": "ravel-phoenix",
@@ -1245,7 +1454,22 @@
       "sourceRefs": [
         "dxd_card.worldbook.json:entry 17"
       ],
-      "notes": "不死鸟之力的再生能力极为稀有。战力评级N5-N6但实际无法被击杀（只要魔力存在）。"
+      "notes": "不死鸟之力的再生能力极为稀有。战力评级N5-N6但实际无法被击杀（只要魔力存在）。",
+      "psyche": {
+        "primary": "大小姐",
+        "primaryScore": 55,
+        "secondary": [
+          {
+            "model": "傲娇",
+            "score": 52
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "写成单纯的恶毒反派。大小姐的\"失礼\"来自无知而非恶意",
+          "让大小姐在短时间内完全\"接地气\"——认知的重建是缓慢的，而且她的大小姐底子永远不会完全消失"
+        ]
+      }
     },
     {
       "id": "azazel",
@@ -1306,7 +1530,22 @@
       "sourceRefs": [
         "dxd_card.worldbook.json:entry 35"
       ],
-      "notes": "总督级战力。学术/战斗双修。战力评级N12-N14。"
+      "notes": "总督级战力。学术/战斗双修。战力评级N12-N14。",
+      "psyche": {
+        "primary": "高傲",
+        "primaryScore": 15,
+        "secondary": [
+          {
+            "model": "温柔",
+            "score": 15
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在劣势时表现出小人得志或无能狂怒",
+          "对明显的下位者进行无意义的欺凌——那太掉价了"
+        ]
+      }
     },
     {
       "id": "albion",
@@ -1367,7 +1606,22 @@
       "sourceRefs": [
         "dxd_card.worldbook.json:entry 1"
       ],
-      "notes": "与德莱格同级。远古本体战力N18+。"
+      "notes": "与德莱格同级。远古本体战力N18+。",
+      "psyche": {
+        "primary": "高傲",
+        "primaryScore": 52,
+        "secondary": [
+          {
+            "model": "热血",
+            "score": 52
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在劣势时表现出小人得志或无能狂怒",
+          "对明显的下位者进行无意义的欺凌——那太掉价了"
+        ]
+      }
     },
     {
       "id": "kuroka",
@@ -1434,7 +1688,21 @@
       "sourceRefs": [
         "dxd_card.worldbook.json:entry 20"
       ],
-      "notes": "S级通缉犯身份已解除。最强仙术使用者之一。战力评级N8-N10。"
+      "notes": "S级通缉犯身份已解除。最强仙术使用者之一。战力评级N8-N10。",
+      "psyche": {
+        "primary": "姐控",
+        "primaryScore": 20,
+        "secondary": [
+          {
+            "model": "腹黑",
+            "score": 15
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "对姐姐产生真正的反抗或否定"
+        ]
+      }
     },
     {
       "id": "x2674",
@@ -1471,7 +1739,22 @@
       "sourceRefs": [
         "dxd_card.worldbook.json:entry 26"
       ],
-      "notes": ""
+      "notes": "",
+      "psyche": {
+        "primary": "高傲",
+        "primaryScore": 15,
+        "secondary": [
+          {
+            "model": "王道",
+            "score": 15
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在劣势时表现出小人得志或无能狂怒",
+          "对明显的下位者进行无意义的欺凌——那太掉价了"
+        ]
+      }
     },
     {
       "id": "x8878",
@@ -1507,7 +1790,22 @@
       "sourceRefs": [
         "dxd_card.worldbook.json:entry 35"
       ],
-      "notes": ""
+      "notes": "",
+      "psyche": {
+        "primary": "高傲",
+        "primaryScore": 15,
+        "secondary": [
+          {
+            "model": "怪才",
+            "score": 15
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在劣势时表现出小人得志或无能狂怒",
+          "对明显的下位者进行无意义的欺凌——那太掉价了"
+        ]
+      }
     },
     {
       "id": "x2176",
@@ -1544,7 +1842,25 @@
       "sourceRefs": [
         "dxd_card.worldbook.json:entry 34"
       ],
-      "notes": ""
+      "notes": "",
+      "psyche": {
+        "primary": "腹黑",
+        "primaryScore": 15,
+        "secondary": [
+          {
+            "model": "知性",
+            "score": 15
+          },
+          {
+            "model": "王道",
+            "score": 15
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在小事上浪费算计。只有涉及核心利益时才启动全力模式"
+        ]
+      }
     },
     {
       "id": "x3716",
@@ -1584,7 +1900,26 @@
       "sourceRefs": [
         "dxd_card.worldbook.json:entry 20"
       ],
-      "notes": ""
+      "notes": "",
+      "psyche": {
+        "primary": "理性",
+        "primaryScore": 15,
+        "secondary": [
+          {
+            "model": "腹黑",
+            "score": 15
+          },
+          {
+            "model": "元气",
+            "score": 15
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "写成满嘴专业术语、毫无感情波动的AI机器人。理性的底色依然是人类，有七情六欲，只是自控力极强",
+          "让她轻易被空泛的口号说服——她只看重可行性、代价与最终的收益，她的行动必须有逻辑支撑"
+        ]
+      }
     },
     {
       "id": "x5928",
@@ -1621,7 +1956,21 @@
       "sourceRefs": [
         "dxd_card.worldbook.json:entry 18"
       ],
-      "notes": ""
+      "notes": "",
+      "psyche": {
+        "primary": "腹黑",
+        "primaryScore": 15,
+        "secondary": [
+          {
+            "model": "王道",
+            "score": 15
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在小事上浪费算计。只有涉及核心利益时才启动全力模式"
+        ]
+      }
     },
     {
       "id": "x952",
@@ -1658,7 +2007,22 @@
       "sourceRefs": [
         "dxd_card.worldbook.json:entry 27"
       ],
-      "notes": ""
+      "notes": "",
+      "psyche": {
+        "primary": "高傲",
+        "primaryScore": 30,
+        "secondary": [
+          {
+            "model": "腹黑",
+            "score": 15
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在劣势时表现出小人得志或无能狂怒",
+          "对明显的下位者进行无意义的欺凌——那太掉价了"
+        ]
+      }
     },
     {
       "id": "barakiel",
@@ -1732,7 +2096,22 @@
         "dxd_card.worldbook.json:entry 36",
         "dxd_card.worldbook.json:entry 120"
       ],
-      "notes": "堕天使干部级战力。雷光对恶魔有效。战力评级N10-N12。"
+      "notes": "堕天使干部级战力。雷光对恶魔有效。战力评级N10-N12。",
+      "psyche": {
+        "primary": "高傲",
+        "primaryScore": 15,
+        "secondary": [
+          {
+            "model": "温柔",
+            "score": 15
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在劣势时表现出小人得志或无能狂怒",
+          "对明显的下位者进行无意义的欺凌——那太掉价了"
+        ]
+      }
     },
     {
       "id": "sona-sitri",
@@ -1796,7 +2175,17 @@
         "dxd_card.worldbook.json:entry 12",
         "恶魔高校.worldbook.json:entry 10"
       ],
-      "notes": "战术型上级恶魔。战力评级N6-N7。"
+      "notes": "战术型上级恶魔。战力评级N6-N7。",
+      "psyche": {
+        "primary": "理性",
+        "primaryScore": 57,
+        "secondary": [],
+        "confidence": "high",
+        "forbiddenRules": [
+          "写成满嘴专业术语、毫无感情波动的AI机器人。理性的底色依然是人类，有七情六欲，只是自控力极强",
+          "让她轻易被空泛的口号说服——她只看重可行性、代价与最终的收益，她的行动必须有逻辑支撑"
+        ]
+      }
     },
     {
       "id": "x1066",
@@ -1834,7 +2223,26 @@
       "sourceRefs": [
         "dxd_card.worldbook.json:entry 24"
       ],
-      "notes": ""
+      "notes": "",
+      "psyche": {
+        "primary": "高傲",
+        "primaryScore": 15,
+        "secondary": [
+          {
+            "model": "温柔",
+            "score": 15
+          },
+          {
+            "model": "热血",
+            "score": 15
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在劣势时表现出小人得志或无能狂怒",
+          "对明显的下位者进行无意义的欺凌——那太掉价了"
+        ]
+      }
     },
     {
       "id": "x7451",
@@ -1872,7 +2280,27 @@
       "sourceRefs": [
         "恶魔高校.worldbook.json:entry 36"
       ],
-      "notes": ""
+      "notes": "",
+      "psyche": {
+        "primary": "王道",
+        "primaryScore": 30,
+        "secondary": [
+          {
+            "model": "理性",
+            "score": 15
+          },
+          {
+            "model": "腹黑",
+            "score": 15
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "以恐惧、威胁或权术作为主要手段来聚拢人心。领导力必须建立在\"被追随者自愿\"的基础上。偶尔的强硬决断不是威胁，是责任。",
+          "变成完美无缺的圣人——越是有人味的缺陷（贪吃、爱哭、笨手笨脚），关键时刻的王者决断才越有冲击力",
+          "让王道变成说教——他不是用道理说服人，是用行动和存在本身感染人"
+        ]
+      }
     },
     {
       "id": "x2584",
@@ -1909,7 +2337,16 @@
       "sourceRefs": [
         "dxd_card.worldbook.json:entry 22"
       ],
-      "notes": ""
+      "notes": "",
+      "psyche": {
+        "primary": "腹黑",
+        "primaryScore": 15,
+        "secondary": [],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在小事上浪费算计。只有涉及核心利益时才启动全力模式"
+        ]
+      }
     },
     {
       "id": "x1305",
@@ -1948,7 +2385,25 @@
       "sourceRefs": [
         "dxd_card.worldbook.json:entry 10"
       ],
-      "notes": ""
+      "notes": "",
+      "psyche": {
+        "primary": "腹黑",
+        "primaryScore": 15,
+        "secondary": [
+          {
+            "model": "高傲",
+            "score": 15
+          },
+          {
+            "model": "元气",
+            "score": 15
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在小事上浪费算计。只有涉及核心利益时才启动全力模式"
+        ]
+      }
     },
     {
       "id": "x8032",
@@ -2009,7 +2464,19 @@
         "dxd_card.worldbook.json:entry 36",
         "dxd_card.worldbook.json:entry"
       ],
-      "notes": ""
+      "notes": "",
+      "psyche": {
+        "primary": "冷酷",
+        "primaryScore": 54,
+        "secondary": [
+          {
+            "model": "温柔",
+            "score": 54
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": []
+      }
     },
     {
       "id": "x9167",
@@ -2046,7 +2513,22 @@
       "sourceRefs": [
         "恶魔高校.worldbook.json:entry 23"
       ],
-      "notes": ""
+      "notes": "",
+      "psyche": {
+        "primary": "高傲",
+        "primaryScore": 15,
+        "secondary": [
+          {
+            "model": "温柔",
+            "score": 15
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在劣势时表现出小人得志或无能狂怒",
+          "对明显的下位者进行无意义的欺凌——那太掉价了"
+        ]
+      }
     },
     {
       "id": "x2799",
@@ -2085,7 +2567,25 @@
       "sourceRefs": [
         "dxd_card.worldbook.json:entry 29"
       ],
-      "notes": ""
+      "notes": "",
+      "psyche": {
+        "primary": "腹黑",
+        "primaryScore": 15,
+        "secondary": [
+          {
+            "model": "高傲",
+            "score": 15
+          },
+          {
+            "model": "知性",
+            "score": 15
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在小事上浪费算计。只有涉及核心利益时才启动全力模式"
+        ]
+      }
     },
     {
       "id": "x5511",
@@ -2121,7 +2621,17 @@
       "sourceRefs": [
         "dxd_card.worldbook.json:entry 25"
       ],
-      "notes": ""
+      "notes": "",
+      "psyche": {
+        "primary": "假小子",
+        "primaryScore": 5,
+        "secondary": [],
+        "confidence": "low",
+        "forbiddenRules": [
+          "把假小子写成\"讨厌女性\"——她不讨厌女性，她只是不知道怎么做一个\"标准\"的女孩子",
+          "让她在短时间内变得完全女性化——这个变化如果发生，一定是缓慢的、笨拙的、充满抗拒和好奇交织的"
+        ]
+      }
     },
     {
       "id": "x5877",
@@ -2163,7 +2673,27 @@
       "sourceRefs": [
         "dxd_card.worldbook.json:entry 28"
       ],
-      "notes": ""
+      "notes": "",
+      "psyche": {
+        "primary": "王道",
+        "primaryScore": 30,
+        "secondary": [
+          {
+            "model": "妹控",
+            "score": 17
+          },
+          {
+            "model": "理性",
+            "score": 15
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "以恐惧、威胁或权术作为主要手段来聚拢人心。领导力必须建立在\"被追随者自愿\"的基础上。偶尔的强硬决断不是威胁，是责任。",
+          "变成完美无缺的圣人——越是有人味的缺陷（贪吃、爱哭、笨手笨脚），关键时刻的王者决断才越有冲击力",
+          "让王道变成说教——他不是用道理说服人，是用行动和存在本身感染人"
+        ]
+      }
     },
     {
       "id": "greyfia-lucifuge",
@@ -2226,7 +2756,25 @@
       "sourceRefs": [
         "恶魔高校.worldbook.json:entry 11"
       ],
-      "notes": "魔王级Queen。战力评级N12-N14。"
+      "notes": "魔王级Queen。战力评级N12-N14。",
+      "psyche": {
+        "primary": "腹黑",
+        "primaryScore": 15,
+        "secondary": [
+          {
+            "model": "王道",
+            "score": 15
+          },
+          {
+            "model": "支配",
+            "score": 15
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在小事上浪费算计。只有涉及核心利益时才启动全力模式"
+        ]
+      }
     },
     {
       "id": "x2265",
@@ -2266,7 +2814,25 @@
       "sourceRefs": [
         "dxd_card.worldbook.json:entry 31"
       ],
-      "notes": ""
+      "notes": "",
+      "psyche": {
+        "primary": "腹黑",
+        "primaryScore": 15,
+        "secondary": [
+          {
+            "model": "王道",
+            "score": 15
+          },
+          {
+            "model": "支配",
+            "score": 15
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在小事上浪费算计。只有涉及核心利益时才启动全力模式"
+        ]
+      }
     },
     {
       "id": "x7245",
@@ -2305,7 +2871,25 @@
       "sourceRefs": [
         "dxd_card.worldbook.json:entry 32"
       ],
-      "notes": ""
+      "notes": "",
+      "psyche": {
+        "primary": "腹黑",
+        "primaryScore": 15,
+        "secondary": [
+          {
+            "model": "王道",
+            "score": 15
+          },
+          {
+            "model": "支配",
+            "score": 15
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在小事上浪费算计。只有涉及核心利益时才启动全力模式"
+        ]
+      }
     },
     {
       "id": "x2660",
@@ -2342,7 +2926,21 @@
       "sourceRefs": [
         "dxd_card.worldbook.json:entry 21"
       ],
-      "notes": ""
+      "notes": "",
+      "psyche": {
+        "primary": "腹黑",
+        "primaryScore": 15,
+        "secondary": [
+          {
+            "model": "王道",
+            "score": 15
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在小事上浪费算计。只有涉及核心利益时才启动全力模式"
+        ]
+      }
     },
     {
       "byFaction": {
@@ -2507,7 +3105,19 @@
       ],
       "sourceKeys": [
         "未知"
-      ]
+      ],
+      "psyche": {
+        "primary": "冷酷",
+        "primaryScore": 54,
+        "secondary": [
+          {
+            "model": "温柔",
+            "score": 54
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": []
+      }
     }
   ],
   "totalCharacters": 41

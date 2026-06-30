@@ -55,7 +55,14 @@
         "冒险者",
         "团长"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "温柔",
+        "primaryScore": 52,
+        "secondary": [],
+        "confidence": "high",
+        "forbiddenRules": []
+      }
     },
     {
       "id": "hestia",
@@ -106,7 +113,23 @@
         "女神",
         "团长"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "小恶魔",
+        "primaryScore": 25,
+        "secondary": [
+          {
+            "model": "傲娇",
+            "score": 15
+          },
+          {
+            "model": "假小子",
+            "score": 15
+          }
+        ],
+        "confidence": "low",
+        "forbiddenRules": []
+      }
     },
     {
       "id": "ais_wallenstein",
@@ -161,7 +184,22 @@
         "副团长",
         "干部"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "假小子",
+        "primaryScore": 55,
+        "secondary": [
+          {
+            "model": "忠诚",
+            "score": 52
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "把假小子写成\"讨厌女性\"——她不讨厌女性，她只是不知道怎么做一个\"标准\"的女孩子",
+          "让她在短时间内变得完全女性化——这个变化如果发生，一定是缓慢的、笨拙的、充满抗拒和好奇交织的"
+        ]
+      }
     },
     {
       "id": "liliruca_arde",
@@ -209,7 +247,17 @@
         "神",
         "团长"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "正直",
+        "primaryScore": 52,
+        "secondary": [],
+        "confidence": "high",
+        "forbiddenRules": [
+          "将正直写成没见过世面的天真。正直角色可以知道世界是复杂的，但他选择不复杂",
+          "让正直变成说教。他的感染力来自行动，不是来自道理"
+        ]
+      }
     },
     {
       "id": "welf_crozzo",
@@ -264,7 +312,21 @@
         "女神",
         "团长"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "热血",
+        "primaryScore": 5,
+        "secondary": [
+          {
+            "model": "狂气",
+            "score": 3
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在所有场景中都保持高燃状态——日常中可以是正常的，关键时刻的燃烧才有冲击力"
+        ]
+      }
     },
     {
       "id": "yamato_mikoto",
@@ -318,7 +380,21 @@
         "女神",
         "团长"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "热血",
+        "primaryScore": 5,
+        "secondary": [
+          {
+            "model": "狂气",
+            "score": 3
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在所有场景中都保持高燃状态——日常中可以是正常的，关键时刻的燃烧才有冲击力"
+        ]
+      }
     },
     {
       "id": "sanjouno_haruhime",
@@ -379,7 +455,21 @@
         "怪人",
         "异端儿",
         "龙"
-      ]
+      ],
+      "psyche": {
+        "primary": "热血",
+        "primaryScore": 5,
+        "secondary": [
+          {
+            "model": "狂气",
+            "score": 3
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在所有场景中都保持高燃状态——日常中可以是正常的，关键时刻的燃烧才有冲击力"
+        ]
+      }
     },
     {
       "id": "ryu_lion",
@@ -436,7 +526,25 @@
         "副团长",
         "干部"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "天然呆",
+        "primaryScore": 56,
+        "secondary": [
+          {
+            "model": "忠诚",
+            "score": 55
+          },
+          {
+            "model": "高傲",
+            "score": 52
+          }
+        ],
+        "confidence": "low",
+        "forbiddenRules": [
+          "在生死关头依然毫无紧张感——天然呆在真正危险的时候是会害怕的，只是她害怕的反应也可能比别人慢半拍"
+        ]
+      }
     },
     {
       "id": "freya",
@@ -492,7 +600,19 @@
         "女神",
         "干部"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "散漫",
+        "primaryScore": 56,
+        "secondary": [
+          {
+            "model": "理性",
+            "score": 52
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": []
+      }
     },
     {
       "id": "loki",
@@ -551,7 +671,16 @@
         "团长",
         "干部"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "中二病",
+        "primaryScore": 3,
+        "secondary": [],
+        "confidence": "high",
+        "forbiddenRules": [
+          "把中二病写成真正的妄想症——她在日常生活中能正常运作，只是用中二的方式解读一切"
+        ]
+      }
     },
     {
       "id": "finn_deimne",
@@ -608,7 +737,21 @@
         "女神",
         "团长"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "热血",
+        "primaryScore": 5,
+        "secondary": [
+          {
+            "model": "狂气",
+            "score": 3
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在所有场景中都保持高燃状态——日常中可以是正常的，关键时刻的燃烧才有冲击力"
+        ]
+      }
     },
     {
       "id": "riveria_ljos_alf",
@@ -664,7 +807,16 @@
         "神",
         "干部"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "母性",
+        "primaryScore": 52,
+        "secondary": [],
+        "confidence": "high",
+        "forbiddenRules": [
+          "将母性写成毫无原则的溺爱——该严厉的时候会严厉，但严厉之后一定会补上温柔"
+        ]
+      }
     },
     {
       "id": "gareth_landrock",
@@ -719,7 +871,21 @@
         "女神",
         "团长"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "热血",
+        "primaryScore": 5,
+        "secondary": [
+          {
+            "model": "狂气",
+            "score": 3
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在所有场景中都保持高燃状态——日常中可以是正常的，关键时刻的燃烧才有冲击力"
+        ]
+      }
     },
     {
       "id": "bete_loga",
@@ -771,7 +937,21 @@
         "女神",
         "团长"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "热血",
+        "primaryScore": 5,
+        "secondary": [
+          {
+            "model": "狂气",
+            "score": 3
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在所有场景中都保持高燃状态——日常中可以是正常的，关键时刻的燃烧才有冲击力"
+        ]
+      }
     },
     {
       "id": "lefiya_viridis",
@@ -825,7 +1005,22 @@
         "副团长",
         "干部"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "假小子",
+        "primaryScore": 55,
+        "secondary": [
+          {
+            "model": "忠诚",
+            "score": 52
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "把假小子写成\"讨厌女性\"——她不讨厌女性，她只是不知道怎么做一个\"标准\"的女孩子",
+          "让她在短时间内变得完全女性化——这个变化如果发生，一定是缓慢的、笨拙的、充满抗拒和好奇交织的"
+        ]
+      }
     },
     {
       "id": "tiona_hiryute",
@@ -878,7 +1073,22 @@
         "副团长",
         "干部"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "假小子",
+        "primaryScore": 55,
+        "secondary": [
+          {
+            "model": "忠诚",
+            "score": 52
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "把假小子写成\"讨厌女性\"——她不讨厌女性，她只是不知道怎么做一个\"标准\"的女孩子",
+          "让她在短时间内变得完全女性化——这个变化如果发生，一定是缓慢的、笨拙的、充满抗拒和好奇交织的"
+        ]
+      }
     },
     {
       "id": "tione_hiryute",
@@ -931,7 +1141,22 @@
         "副团长",
         "干部"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "假小子",
+        "primaryScore": 55,
+        "secondary": [
+          {
+            "model": "忠诚",
+            "score": 52
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "把假小子写成\"讨厌女性\"——她不讨厌女性，她只是不知道怎么做一个\"标准\"的女孩子",
+          "让她在短时间内变得完全女性化——这个变化如果发生，一定是缓慢的、笨拙的、充满抗拒和好奇交织的"
+        ]
+      }
     },
     {
       "id": "ottar",
@@ -986,7 +1211,16 @@
         "女神",
         "团长"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "忠诚",
+        "primaryScore": 52,
+        "secondary": [],
+        "confidence": "high",
+        "forbiddenRules": [
+          "变成没有自我意志的提线木偶——沉默的服从中必须偶尔闪过属于自己的情感"
+        ]
+      }
     },
     {
       "id": "syr_flover",
@@ -1042,7 +1276,14 @@
         "店员",
         "眷族主神"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "温柔",
+        "primaryScore": 52,
+        "secondary": [],
+        "confidence": "high",
+        "forbiddenRules": []
+      }
     },
     {
       "id": "eina_tulle",
@@ -1093,7 +1334,23 @@
         "女神",
         "支援者"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "多情",
+        "primaryScore": 6,
+        "secondary": [
+          {
+            "model": "忠诚",
+            "score": 4
+          },
+          {
+            "model": "弱气",
+            "score": 3
+          }
+        ],
+        "confidence": "low",
+        "forbiddenRules": []
+      }
     },
     {
       "id": "hephaestus",
@@ -1144,7 +1401,14 @@
         "冒险者",
         "神"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "性格标签型",
+        "primaryScore": 0,
+        "secondary": [],
+        "confidence": "low",
+        "forbiddenRules": []
+      }
     },
     {
       "id": "tsubaki_collbrande",
@@ -1195,7 +1459,22 @@
         "团长",
         "锻造师"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "元气",
+        "primaryScore": 4,
+        "secondary": [
+          {
+            "model": "自我牺牲",
+            "score": 4
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "进行复杂的阴谋算计或展现出深沉的抑郁",
+          "把元气写成\"没有脑子\"——她可能学习不好、不爱动脑，但在直觉、实战、人际方面可能有惊人的天赋"
+        ]
+      }
     },
     {
       "id": "takemikazuchi",
@@ -1244,7 +1523,21 @@
         "神",
         "团长"
       ],
-      "importance": "secondary"
+      "importance": "secondary",
+      "psyche": {
+        "primary": "天然呆",
+        "primaryScore": 4,
+        "secondary": [
+          {
+            "model": "忠诚",
+            "score": 4
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在生死关头依然毫无紧张感——天然呆在真正危险的时候是会害怕的，只是她害怕的反应也可能比别人慢半拍"
+        ]
+      }
     },
     {
       "id": "aisha_belka",
@@ -1292,7 +1585,16 @@
         "团长",
         "干部"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "忠诚",
+        "primaryScore": 52,
+        "secondary": [],
+        "confidence": "high",
+        "forbiddenRules": [
+          "变成没有自我意志的提线木偶——沉默的服从中必须偶尔闪过属于自己的情感"
+        ]
+      }
     },
     {
       "id": "daphne_lauros",
@@ -1338,7 +1640,22 @@
         "神",
         "团长"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "高傲",
+        "primaryScore": 52,
+        "secondary": [
+          {
+            "model": "温柔",
+            "score": 52
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在劣势时表现出小人得志或无能狂怒",
+          "对明显的下位者进行无意义的欺凌——那太掉价了"
+        ]
+      }
     },
     {
       "id": "cassandra_illion",
@@ -1383,7 +1700,22 @@
         "神",
         "团长"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "高傲",
+        "primaryScore": 52,
+        "secondary": [
+          {
+            "model": "温柔",
+            "score": 52
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在劣势时表现出小人得志或无能狂怒",
+          "对明显的下位者进行无意义的欺凌——那太掉价了"
+        ]
+      }
     },
     {
       "id": "hermes",
@@ -1434,7 +1766,21 @@
         "女神",
         "团长"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "热血",
+        "primaryScore": 5,
+        "secondary": [
+          {
+            "model": "狂气",
+            "score": 3
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在所有场景中都保持高燃状态——日常中可以是正常的，关键时刻的燃烧才有冲击力"
+        ]
+      }
     },
     {
       "id": "asfi_al_andromeda",
@@ -1483,7 +1829,14 @@
         "团长",
         "副团长"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "散漫",
+        "primaryScore": 4,
+        "secondary": [],
+        "confidence": "high",
+        "forbiddenRules": []
+      }
     },
     {
       "id": "uranus",
@@ -1538,7 +1891,21 @@
         "女神",
         "团长"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "热血",
+        "primaryScore": 5,
+        "secondary": [
+          {
+            "model": "狂气",
+            "score": 3
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在所有场景中都保持高燃状态——日常中可以是正常的，关键时刻的燃烧才有冲击力"
+        ]
+      }
     },
     {
       "id": "ottar_freya_elites_note",
@@ -1600,7 +1967,14 @@
         "副团长",
         "干部"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "冷酷",
+        "primaryScore": 52,
+        "secondary": [],
+        "confidence": "high",
+        "forbiddenRules": []
+      }
     },
     {
       "id": "mia_grand",
@@ -1657,7 +2031,25 @@
         "副团长",
         "干部"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "天然呆",
+        "primaryScore": 56,
+        "secondary": [
+          {
+            "model": "忠诚",
+            "score": 55
+          },
+          {
+            "model": "高傲",
+            "score": 52
+          }
+        ],
+        "confidence": "low",
+        "forbiddenRules": [
+          "在生死关头依然毫无紧张感——天然呆在真正危险的时候是会害怕的，只是她害怕的反应也可能比别人慢半拍"
+        ]
+      }
     }
   ],
   "worldId": "danmachi",

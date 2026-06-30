@@ -69,7 +69,22 @@
         "首领",
         "杀手"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "理性",
+        "primaryScore": 56,
+        "secondary": [
+          {
+            "model": "冷酷",
+            "score": 56
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "写成满嘴专业术语、毫无感情波动的AI机器人。理性的底色依然是人类，有七情六欲，只是自控力极强",
+          "让她轻易被空泛的口号说服——她只看重可行性、代价与最终的收益，她的行动必须有逻辑支撑"
+        ]
+      }
     },
     {
       "id": "kanzaki-h-aria",
@@ -135,7 +150,16 @@
         "S级武侦",
         "首领"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "傲娇",
+        "primaryScore": 61,
+        "secondary": [],
+        "confidence": "high",
+        "forbiddenRules": [
+          "全程毒舌无缝隙，每段攻击性对话中必须留出至少一个破绽"
+        ]
+      }
     },
     {
       "id": "hotogi-shirayuki",
@@ -196,7 +220,25 @@
         "武侦",
         "超侦"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "病娇",
+        "primaryScore": 57,
+        "secondary": [
+          {
+            "model": "腹黑",
+            "score": 57
+          },
+          {
+            "model": "支配",
+            "score": 54
+          }
+        ],
+        "confidence": "low",
+        "forbiddenRules": [
+          "24小时处于疯狂状态——她可以在正常和疯狂之间无缝切换"
+        ]
+      }
     },
     {
       "id": "mine-riko",
@@ -257,7 +299,25 @@
         "A级武侦",
         "杀手"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "腹黑",
+        "primaryScore": 62,
+        "secondary": [
+          {
+            "model": "小恶魔",
+            "score": 61
+          },
+          {
+            "model": "冷酷",
+            "score": 57
+          }
+        ],
+        "confidence": "low",
+        "forbiddenRules": [
+          "在小事上浪费算计。只有涉及核心利益时才启动全力模式"
+        ]
+      }
     },
     {
       "id": "reki",
@@ -322,7 +382,22 @@
         "武侦",
         "S级武侦"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "理性",
+        "primaryScore": 56,
+        "secondary": [
+          {
+            "model": "忠诚",
+            "score": 52
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "写成满嘴专业术语、毫无感情波动的AI机器人。理性的底色依然是人类，有七情六欲，只是自控力极强",
+          "让她轻易被空泛的口号说服——她只看重可行性、代价与最终的收益，她的行动必须有逻辑支撑"
+        ]
+      }
     },
     {
       "id": "jeanne-darc-xxx",
@@ -387,7 +462,25 @@
         "武侦",
         "超侦"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "天然呆",
+        "primaryScore": 61,
+        "secondary": [
+          {
+            "model": "傲娇",
+            "score": 57
+          },
+          {
+            "model": "理性",
+            "score": 57
+          }
+        ],
+        "confidence": "low",
+        "forbiddenRules": [
+          "在生死关头依然毫无紧张感——天然呆在真正危险的时候是会害怕的，只是她害怕的反应也可能比别人慢半拍"
+        ]
+      }
     },
     {
       "id": "tohyama-kinichi",
@@ -442,7 +535,23 @@
         "师团",
         "巴斯克维尔"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "冷酷",
+        "primaryScore": 54,
+        "secondary": [
+          {
+            "model": "傲娇",
+            "score": 52
+          },
+          {
+            "model": "元气",
+            "score": 52
+          }
+        ],
+        "confidence": "low",
+        "forbiddenRules": []
+      }
     },
     {
       "id": "tohyama-kinzo-giii",
@@ -496,7 +605,25 @@
       "roles": [
         "武侦"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "傲娇",
+        "primaryScore": 57,
+        "secondary": [
+          {
+            "model": "兄控",
+            "score": 57
+          },
+          {
+            "model": "弟控",
+            "score": 57
+          }
+        ],
+        "confidence": "low",
+        "forbiddenRules": [
+          "全程毒舌无缝隙，每段攻击性对话中必须留出至少一个破绽"
+        ]
+      }
     },
     {
       "id": "tohyama-kaname-giv",
@@ -544,7 +671,14 @@
       "roles": [
         "武侦"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "性格标签型",
+        "primaryScore": 0,
+        "secondary": [],
+        "confidence": "low",
+        "forbiddenRules": []
+      }
     },
     {
       "id": "hiraga-aya",
@@ -592,7 +726,16 @@
       "roles": [
         "武侦"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "热血",
+        "primaryScore": 5,
+        "secondary": [],
+        "confidence": "high",
+        "forbiddenRules": [
+          "在所有场景中都保持高燃状态——日常中可以是正常的，关键时刻的燃烧才有冲击力"
+        ]
+      }
     },
     {
       "id": "shiranui-ryo",
@@ -643,7 +786,25 @@
         "武侦",
         "A级武侦"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "腹黑",
+        "primaryScore": 64,
+        "secondary": [
+          {
+            "model": "傲娇",
+            "score": 57
+          },
+          {
+            "model": "冷酷",
+            "score": 57
+          }
+        ],
+        "confidence": "low",
+        "forbiddenRules": [
+          "在小事上浪费算计。只有涉及核心利益时才启动全力模式"
+        ]
+      }
     },
     {
       "id": "mutou-gouki",
@@ -697,7 +858,21 @@
         "超侦",
         "A级武侦"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "热血",
+        "primaryScore": 60,
+        "secondary": [
+          {
+            "model": "正直",
+            "score": 57
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在所有场景中都保持高燃状态——日常中可以是正常的，关键时刻的燃烧才有冲击力"
+        ]
+      }
     },
     {
       "id": "fuuma-hina",
@@ -753,7 +928,21 @@
         "武侦",
         "B级武侦"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "天然呆",
+        "primaryScore": 56,
+        "secondary": [
+          {
+            "model": "忠诚",
+            "score": 55
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在生死关头依然毫无紧张感——天然呆在真正危险的时候是会害怕的，只是她害怕的反应也可能比别人慢半拍"
+        ]
+      }
     },
     {
       "id": "mamiya-akari",
@@ -800,7 +989,25 @@
         "S级武侦",
         "A级武侦"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "病娇",
+        "primaryScore": 59,
+        "secondary": [
+          {
+            "model": "暴力女",
+            "score": 56
+          },
+          {
+            "model": "兄控",
+            "score": 54
+          }
+        ],
+        "confidence": "low",
+        "forbiddenRules": [
+          "24小时处于疯狂状态——她可以在正常和疯狂之间无缝切换"
+        ]
+      }
     },
     {
       "id": "sasaki-shino",
@@ -842,7 +1049,21 @@
         "S级武侦",
         "犯罪者"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "病娇",
+        "primaryScore": 59,
+        "secondary": [
+          {
+            "model": "温柔",
+            "score": 54
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "24小时处于疯狂状态——她可以在正常和疯狂之间无缝切换"
+        ]
+      }
     },
     {
       "id": "hino-raika",
@@ -884,7 +1105,21 @@
         "S级武侦",
         "犯罪者"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "病娇",
+        "primaryScore": 59,
+        "secondary": [
+          {
+            "model": "温柔",
+            "score": 54
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "24小时处于疯狂状态——她可以在正常和疯狂之间无缝切换"
+        ]
+      }
     },
     {
       "id": "takachiho-urara",
@@ -928,7 +1163,25 @@
         "武侦",
         "S级武侦"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "自我牺牲",
+        "primaryScore": 63,
+        "secondary": [
+          {
+            "model": "高傲",
+            "score": 62
+          },
+          {
+            "model": "温柔",
+            "score": 56
+          }
+        ],
+        "confidence": "low",
+        "forbiddenRules": [
+          "让角色对自己的牺牲毫无自觉——角色可能意识到这种倾向是不健康的，但无法停止"
+        ]
+      }
     },
     {
       "id": "shima-kirin",
@@ -970,7 +1223,21 @@
         "S级武侦",
         "犯罪者"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "病娇",
+        "primaryScore": 59,
+        "secondary": [
+          {
+            "model": "温柔",
+            "score": 54
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "24小时处于疯狂状态——她可以在正常和疯狂之间无缝切换"
+        ]
+      }
     },
     {
       "id": "sherlock-holmes",
@@ -1019,7 +1286,19 @@
         "武侦",
         "首领"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "冷酷",
+        "primaryScore": 52,
+        "secondary": [
+          {
+            "model": "温柔",
+            "score": 52
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": []
+      }
     },
     {
       "id": "kagataka-kikuyo",
@@ -1069,7 +1348,26 @@
         "武侦",
         "首领"
       ],
-      "importance": "primary"
+      "importance": "primary",
+      "psyche": {
+        "primary": "大小姐",
+        "primaryScore": 58,
+        "secondary": [
+          {
+            "model": "腹黑",
+            "score": 54
+          },
+          {
+            "model": "冷酷",
+            "score": 52
+          }
+        ],
+        "confidence": "low",
+        "forbiddenRules": [
+          "写成单纯的恶毒反派。大小姐的\"失礼\"来自无知而非恶意",
+          "让大小姐在短时间内完全\"接地气\"——认知的重建是缓慢的，而且她的大小姐底子永远不会完全消失"
+        ]
+      }
     }
   ],
   "worldId": "hidan-no-aria",
