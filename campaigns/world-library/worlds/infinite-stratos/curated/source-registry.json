@@ -25,25 +25,66 @@
       "credibility": "B",
       "scope": "world, plot, relationship, academy-details, rp-mechanics",
       "notes": "原文件标题写作‘无限斯特托拉斯’，应为‘无限斯特拉托斯’。源内含大量模板、NSFW/写作流程提示和空白Part条目；curation仅抽取可用于世界设定、角色关系、地点、技术与剧情钩子的内容。"
+    },
+    {
+      "id": "linovelib-is-vol-11-12-local-mhtml",
+      "type": "local-saved-chapter-html",
+      "url": "https://www.linovelib.com/novel/203/vol_258911.html",
+      "path": "imports/working/infinite-stratos/linovelib-vol-11-12/",
+      "description": "User-saved view-source MHTML pages from Linovelib/Bili light novel for IS official volumes 11 and 12. Parsed locally into curated stories/vol-11 and stories/vol-12.",
+      "fileCount": 14,
+      "entryCount": 14,
+      "extractionTool": "local MHTML quoted-printable parser (2026-07-01)",
+      "extractionDate": "2026-07-01",
+      "credibility": "A-for-local-saved-text",
+      "scope": "story-body:vol-11,vol-12",
+      "notes": "Used because direct site access returns Cloudflare/403 or browser timeout in agent environment. Raw MHTML copies are stored under raw-mhtml; manifest records URL/title/file/chars."
+    },
+    {
+      "id": "wenku8-is-original-scrape-corrected",
+      "type": "canonical-text-scrape-corrected",
+      "path": "imports/working/is-volumes.json",
+      "description": "Earlier Wenku8 scrape for IS. User corrected that BD3特典 and a short-story group had been counted as volumes, so the scrape only covered 10 main volumes plus supplemental groups.",
+      "fileCount": 1,
+      "entryCount": 58,
+      "extractionDate": "2026-06-30",
+      "credibility": "A-for-downloaded-text-with-numbering-correction",
+      "scope": "story-body:vol-1-through-vol-10-and-supplemental",
+      "notes": "stories/index.json now maps old vol-11 group to正文第10卷, and moves BD3特典/短篇 to supplemental IDs. Official vol-11/12 are from linovelib local MHTML."
     }
   ],
   "keySourceRefs": {
-    "worldSetting": ["is-st-worldbook:entry 4", "is-st-worldbook:entry 7"],
-    "plotOutline": ["is-st-worldbook:entry 6"],
-    "initialRelationships": ["is-st-worldbook:entry 9"],
-    "aestheticAndRules": ["is-st-worldbook:entry 11"],
-    "detailLocations": ["is-st-worldbook:entry 7"]
+    "worldSetting": [
+      "is-st-worldbook:entry 4",
+      "is-st-worldbook:entry 7"
+    ],
+    "plotOutline": [
+      "is-st-worldbook:entry 6"
+    ],
+    "initialRelationships": [
+      "is-st-worldbook:entry 9"
+    ],
+    "aestheticAndRules": [
+      "is-st-worldbook:entry 11"
+    ],
+    "detailLocations": [
+      "is-st-worldbook:entry 7"
+    ]
   },
   "conflicts": [
     {
       "id": "source-au-001",
-      "sources": ["is-st-worldbook"],
+      "sources": [
+        "is-st-worldbook"
+      ],
       "description": "源世界观将主舞台命名为‘青羽学园/Aethelgard Academy’并提到‘浮空都市艾茵多克’，这不是《Infinite Stratos》通常作品常识中的标准名称。",
       "resolution": "baseline curated默认采用‘IS学园’；‘青羽学园/艾茵多克’作为源内AU别名或可选沙盒变体记录，标注evidenceLevel C或notes。"
     },
     {
       "id": "source-rp-002",
-      "sources": ["is-st-worldbook"],
+      "sources": [
+        "is-st-worldbook"
+      ],
       "description": "源中‘端白星AI’、好感度数值、地下设施细节、部分待机饰品等含明显RP扩展或未能从常识直接确认的设定。",
       "resolution": "作为可选RP机制保留，标注B/C，不覆盖核心作品事实。"
     }

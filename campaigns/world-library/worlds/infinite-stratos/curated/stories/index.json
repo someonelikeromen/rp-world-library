@@ -1,7 +1,10 @@
 {
   "schema": "rp-story-index-v1",
   "worldId": "infinite-stratos",
-  "totalStories": 12,
+  "totalStories": 14,
+  "mainVolumes": 12,
+  "supplementalStories": 2,
+  "numberingCorrection": "BD3特典和短篇曾被 Wenku8 抓取流程单独计卷；本索引将正文第10卷、linovelib本地保存第11/12卷与补充故事分开。",
   "stories": [
     {
       "id": "vol-1",
@@ -289,79 +292,166 @@
     },
     {
       "id": "vol-10",
-      "title": "第10卷 (1话)",
+      "title": "第10卷（Wenku8 原误列为第11组）",
+      "sourceNote": "原 Wenku8 抓取中 BD3特典被误计为第10组，导致本卷曾误编号为 vol-11；现按用户校正归为正文第10卷。",
       "arcs": [
         {
-          "id": "第零话「心坠入情网的声音」（knock'n&#8231;on&#8231;you＆you）",
-          "name": "第零话「心坠入情网的声音」（knock'n&#8231;on&#8231;you＆you）",
-          "file": "vol-10/第零话「心坠入情网的声音」（knock'n&#8231;on&#8231;you＆you）.md"
+          "id": "第一话「情敌警报」（hamster&#8231;cluster）",
+          "name": "第一话「情敌警报」（hamster&#8231;cluster）",
+          "file": "vol-10/第一话「情敌警报」（hamster&#8231;cluster）.md"
+        },
+        {
+          "id": "第二话「冲吧，秋季大运动会！」（fighting&#8231;now）",
+          "name": "第二话「冲吧，秋季大运动会！」（fighting&#8231;now）",
+          "file": "vol-10/第二话「冲吧，秋季大运动会！」（fighting&#8231;now）.md"
+        },
+        {
+          "id": "第三话「肥皂泡泡&#8231;Daydream」",
+          "name": "第三话「肥皂泡泡&#8231;Daydream」",
+          "file": "vol-10/第三话「肥皂泡泡&#8231;Daydream」.md"
+        },
+        {
+          "id": "第四话「少女的秘密是最高机密」（this's&#8231;a&#8231;fantastic）",
+          "name": "第四话「少女的秘密是最高机密」（this's&#8231;a&#8231;fantastic）",
+          "file": "vol-10/第四话「少女的秘密是最高机密」（this's&#8231;a&#8231;fantastic）.md"
+        },
+        {
+          "id": "终章「像恋爱一样乞求，像坠入情网一样相逢」（like‧a‧love‧like‧a‧virgin）",
+          "name": "终章「像恋爱一样乞求，像坠入情网一样相逢」（like‧a‧love‧like‧a‧virgin）",
+          "file": "vol-10/终章「像恋爱一样乞求，像坠入情网一样相逢」（like‧a‧love‧like‧a‧virgin）.md"
         }
       ]
     },
     {
       "id": "vol-11",
-      "title": "第11卷 (5话)",
+      "title": "第11卷（linovelib 本地保存原文）",
+      "sourceNote": "用户从 linovelib 保存的 view-source MHTML，经本地解析为正文。",
       "arcs": [
         {
-          "id": "第一话「情敌警报」（hamster&#8231;cluster）",
-          "name": "第一话「情敌警报」（hamster&#8231;cluster）",
-          "file": "vol-11/第一话「情敌警报」（hamster&#8231;cluster）.md"
+          "id": "设定",
+          "name": "设定",
+          "file": "vol-11/设定.md"
         },
         {
-          "id": "第三话「肥皂泡泡&#8231;Daydream」",
-          "name": "第三话「肥皂泡泡&#8231;Daydream」",
-          "file": "vol-11/第三话「肥皂泡泡&#8231;Daydream」.md"
+          "id": "序章 少女的觉醒，圣剑的光辉",
+          "name": "序章 少女的觉醒，圣剑的光辉",
+          "file": "vol-11/序章 少女的觉醒，圣剑的光辉.md"
         },
         {
-          "id": "第二话「冲吧，秋季大运动会！」（fighting&#8231;now）",
-          "name": "第二话「冲吧，秋季大运动会！」（fighting&#8231;now）",
-          "file": "vol-11/第二话「冲吧，秋季大运动会！」（fighting&#8231;now）.md"
+          "id": "第N章 圣诞将至！圣诞节，即将来临",
+          "name": "第N章 圣诞将至！圣诞节，即将来临",
+          "file": "vol-11/第N章 圣诞将至！圣诞节，即将来临.md"
         },
         {
-          "id": "第四话「少女的秘密是最高机密」（this's&#8231;a&#8231;fantastic）",
-          "name": "第四话「少女的秘密是最高机密」（this's&#8231;a&#8231;fantastic）",
-          "file": "vol-11/第四话「少女的秘密是最高机密」（this's&#8231;a&#8231;fantastic）.md"
+          "id": "第一章 圆桌骑士",
+          "name": "第一章 圆桌骑士",
+          "file": "vol-11/第一章 圆桌骑士.md"
         },
         {
-          "id": "终章「像恋爱一样乞求，像坠入情网一样相逢」（like&#8231;a&#8231;love&#8231;like&#82",
-          "name": "终章「像恋爱一样乞求，像坠入情网一样相逢」（like&#8231;a&#8231;love&#8231;like&#82",
-          "file": "vol-11/终章「像恋爱一样乞求，像坠入情网一样相逢」（like&#8231;a&#8231;love&#8231;like&#82.md"
+          "id": "第二章 跨越彩虹",
+          "name": "第二章 跨越彩虹",
+          "file": "vol-11/第二章 跨越彩虹.md"
+        },
+        {
+          "id": "第三章 王者之剑，荣耀的金〇之刃",
+          "name": "第三章 王者之剑，荣耀的金〇之刃",
+          "file": "vol-11/第三章 王者之剑，荣耀的金〇之刃.md"
+        },
+        {
+          "id": "第四章 刺穿湛蓝苍穹，蓝〇泪雨",
+          "name": "第四章 刺穿湛蓝苍穹，蓝〇泪雨",
+          "file": "vol-11/第四章 刺穿湛蓝苍穹，蓝〇泪雨.md"
+        },
+        {
+          "id": "尾声 童话般的白尾",
+          "name": "尾声 童话般的白尾",
+          "file": "vol-11/尾声 童话般的白尾.md"
         }
       ]
     },
     {
       "id": "vol-12",
-      "title": "第12卷 (6话)",
+      "title": "第12卷（linovelib 本地保存原文）",
+      "sourceNote": "用户从 linovelib 保存的 view-source MHTML，经本地解析为正文。",
+      "arcs": [
+        {
+          "id": "设定",
+          "name": "设定",
+          "file": "vol-12/设定.md"
+        },
+        {
+          "id": "第N章 残留的激〇",
+          "name": "第N章 残留的激〇",
+          "file": "vol-12/第N章 残留的激〇.md"
+        },
+        {
+          "id": "第一章 大喊「我我我」的公主",
+          "name": "第一章 大喊「我我我」的公主",
+          "file": "vol-12/第一章 大喊「我我我」的公主.md"
+        },
+        {
+          "id": "第二章 美丽的决斗者",
+          "name": "第二章 美丽的决斗者",
+          "file": "vol-12/第二章 美丽的决斗者.md"
+        },
+        {
+          "id": "第三章 绯红之烟、雪、月、花",
+          "name": "第三章 绯红之烟、雪、月、花",
+          "file": "vol-12/第三章 绯红之烟、雪、月、花.md"
+        },
+        {
+          "id": "第四章 末日世界中的喘息",
+          "name": "第四章 末日世界中的喘息",
+          "file": "vol-12/第四章 末日世界中的喘息.md"
+        }
+      ]
+    },
+    {
+      "id": "extra-bd3-special",
+      "title": "BD3特典/第零话（Wenku8 原误计卷）",
+      "sourceNote": "原 Wenku8 抓取误计为一个卷组；保留为补充故事，不作为正文卷号。",
+      "arcs": [
+        {
+          "id": "第零话「心坠入情网的声音」（knock'n&#8231;on&#8231;you＆you）",
+          "name": "第零话「心坠入情网的声音」（knock'n&#8231;on&#8231;you＆you）",
+          "file": "extra-bd3-special/第零话「心坠入情网的声音」（knock'n&#8231;on&#8231;you＆you）.md"
+        }
+      ]
+    },
+    {
+      "id": "extra-short-kyoto",
+      "title": "短篇/京都篇（Wenku8 原误计卷）",
+      "sourceNote": "原 Wenku8 抓取误计为一个卷组；按用户校正移出正文卷号。",
       "arcs": [
         {
           "id": "第一话「对了，去京都吧」（go&#8231;west）",
           "name": "第一话「对了，去京都吧」（go&#8231;west）",
-          "file": "vol-12/第一话「对了，去京都吧」（go&#8231;west）.md"
-        },
-        {
-          "id": "第三话「古都，燃烧」（letter&#8231;from&#8231;the&#8231;inferno）",
-          "name": "第三话「古都，燃烧」（letter&#8231;from&#8231;the&#8231;inferno）",
-          "file": "vol-12/第三话「古都，燃烧」（letter&#8231;from&#8231;the&#8231;inferno）.md"
+          "file": "extra-short-kyoto/第一话「对了，去京都吧」（go&#8231;west）.md"
         },
         {
           "id": "第二话「时而古风，品味雅致」（double&#8231;classic）",
           "name": "第二话「时而古风，品味雅致」（double&#8231;classic）",
-          "file": "vol-12/第二话「时而古风，品味雅致」（double&#8231;classic）.md"
+          "file": "extra-short-kyoto/第二话「时而古风，品味雅致」（double&#8231;classic）.md"
         },
         {
-          "id": "第五话「现在，再次莂往京都」（Re- go&#8231;west）",
-          "name": "第五话「现在，再次莂往京都」（Re- go&#8231;west）",
-          "file": "vol-12/第五话「现在，再次莂往京都」（Re- go&#8231;west）.md"
+          "id": "第三话「古都，燃烧」（letter&#8231;from&#8231;the&#8231;inferno）",
+          "name": "第三话「古都，燃烧」（letter&#8231;from&#8231;the&#8231;inferno）",
+          "file": "extra-short-kyoto/第三话「古都，燃烧」（letter&#8231;from&#8231;the&#8231;inferno）.md"
         },
         {
           "id": "第四话「少女们的展翅」（girls&#8231;over）",
           "name": "第四话「少女们的展翅」（girls&#8231;over）",
-          "file": "vol-12/第四话「少女们的展翅」（girls&#8231;over）.md"
+          "file": "extra-short-kyoto/第四话「少女们的展翅」（girls&#8231;over）.md"
+        },
+        {
+          "id": "第五话「现在，再次莂往京都」（Re go‧west）",
+          "name": "第五话「现在，再次莂往京都」（Re go‧west）",
+          "file": "extra-short-kyoto/第五话「现在，再次莂往京都」（Re go‧west）.md"
         },
         {
           "id": "终章「龙吻」（dragon&#8231;kiss）",
           "name": "终章「龙吻」（dragon&#8231;kiss）",
-          "file": "vol-12/终章「龙吻」（dragon&#8231;kiss）.md"
+          "file": "extra-short-kyoto/终章「龙吻」（dragon&#8231;kiss）.md"
         }
       ]
     }

@@ -128,6 +128,42 @@
       "type": "character",
       "characterRef": "madoka-orimura",
       "importance": "primary"
+    },
+    {
+      "id": "chelsea",
+      "label": "切尔西",
+      "type": "character",
+      "importance": "major"
+    },
+    {
+      "id": "exia-blanket",
+      "label": "埃克西亚·布兰克特",
+      "type": "character",
+      "importance": "major"
+    },
+    {
+      "id": "iris-luxembourg",
+      "label": "艾莉丝·比阿特丽斯·德·卢森堡",
+      "type": "character",
+      "importance": "major"
+    },
+    {
+      "id": "jibril",
+      "label": "吉布里尔",
+      "type": "character",
+      "importance": "major"
+    },
+    {
+      "id": "forte-sapphire",
+      "label": "福尔特·萨菲尔",
+      "type": "character",
+      "importance": "secondary"
+    },
+    {
+      "id": "daryl-casey",
+      "label": "达里尔·凯西",
+      "type": "character",
+      "importance": "secondary"
     }
   ],
   "edges": [
@@ -474,6 +510,78 @@
       "summary": "一夏注意到圆长得与千冬相似；圆执念于“织斑”身份。",
       "sourceRefs": [
         "wenku8:vol12"
+      ],
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "chelsea",
+      "to": "cecilia-alcott",
+      "type": "household-bond",
+      "label": "切尔西是塞西莉亚身边女仆/亲近者，第11卷中二人的羁绊与冲突构成主线。",
+      "strength": "source-backed",
+      "direction": "bidirectional",
+      "sourceRefs": [
+        "linovelib-is-vol-11-12-local-mhtml"
+      ],
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "chelsea",
+      "to": "exia-blanket",
+      "type": "sisters",
+      "label": "切尔西称埃克西亚为妹妹，并向塞西莉亚解释其与奥尔科特家族计划相关。",
+      "strength": "source-backed",
+      "direction": "bidirectional",
+      "sourceRefs": [
+        "linovelib-is-vol-11-12-local-mhtml"
+      ],
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "exia-blanket",
+      "to": "cecilia-alcott",
+      "type": "support-linked",
+      "label": "埃克西亚与塞西莉亚父母为塞西莉亚准备的秘密支援计划相关。",
+      "strength": "source-backed",
+      "direction": "bidirectional",
+      "sourceRefs": [
+        "linovelib-is-vol-11-12-local-mhtml"
+      ],
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "iris-luxembourg",
+      "to": "jibril",
+      "type": "princess-knight",
+      "label": "吉布里尔效忠艾莉丝公主。",
+      "strength": "source-backed",
+      "direction": "bidirectional",
+      "sourceRefs": [
+        "linovelib-is-vol-11-12-local-mhtml"
+      ],
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "iris-luxembourg",
+      "to": "ichika-orimura",
+      "type": "abduction-claim",
+      "label": "艾莉丝抵达日本后宣称要把一夏带往卢森堡作为男仆。",
+      "strength": "source-backed",
+      "direction": "bidirectional",
+      "sourceRefs": [
+        "linovelib-is-vol-11-12-local-mhtml"
+      ],
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "forte-sapphire",
+      "to": "daryl-casey",
+      "type": "mission-pair",
+      "label": "福尔特·萨菲尔与达里尔·凯西共同执行王者之剑接触任务。",
+      "strength": "source-backed",
+      "direction": "bidirectional",
+      "sourceRefs": [
+        "linovelib-is-vol-11-12-local-mhtml"
       ],
       "evidenceLevel": "A"
     }
