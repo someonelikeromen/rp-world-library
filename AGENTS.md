@@ -7,6 +7,38 @@
 - 常驻提示词保持极简；重内容按需读取，避免每轮加载过多提示词。
 - RP 核心由 `.pi/skills/` 中的正式 skill 驱动，pi 自动发现并条件加载，不需要每轮手动读规则文件。
 - `tavern2agent/`、`AIRP_ClaudeCode/`、`pi-stage/`、`AIRP-MCP-Server/`、`output-phrasing-engineering/` 是备用参考仓库，不作为本项目每轮 RP 的常驻上下文。
+- **双版本架构**：`E:/pi-st` 是测试/开发版，`E:/pi-rp` 是发布版（正式 RP 在此运行）。测试通过后运行 `bash tools/sync-release.sh` 同步，详见 `RELEASE.md`。
+
+## 核心工具（AI 可直接调用）
+
+### card_edit — 角色卡读写
+| Action | 用途 |
+|--------|------|
+| `cards` | 列出所有已注册角色卡（含 NPC） |
+| `get` | 读取卡数据，支持 dot path |
+| `status` | **轻量摘要**（魔法/战斗/资源/关系摘要，适合 RP 实时参考） |
+| `set/merge/append/upsert/remove` | 编辑卡 JSON |
+| `batch` | 批量原子操作 |
+| `validate` | 一致性校验（路径+自定义规则） |
+| `register` | 注册 NPC 卡到配置 |
+
+**强制规则**：每次推进剧情后必须用 `card_edit { action: "status" }` 检查状态，用 `card_edit { action: "batch" }` 同步更新动态字段。写入后自动触发 memory-sync 钩子（无需手动记住）。
+
+### world_query — 世界书查询
+| Action | 用途 |
+|--------|------|
+| `worlds` | 列出所有世界观 |
+| `overview` | 世界观总览（力量体系/派系/规则/地点/故事） |
+| `search` | 关键词搜索，`allWorlds: true` 可跨世界 |
+| `get` | 按 ref 精确取条目 |
+| `characters` | 角色索引列表/搜索 |
+| `stories` | 故事章节索引/内容 |
+| **`aggregate`** | **跨文件聚合查询**——输入实体名，返回完整聚合（角色+世界条目+故事+规则+原始） |
+| **`graph`** | **关系图谱遍历**——从角色出发，查同派系/同力量体系/故事登场 |
+
+### 编辑/写入后自动同步
+- `card_edit` 写入成功后自动运行 `postUpdateHooks`：记录变更日志到 `memory/`，同步状态快照到 `memory/card-status-snapshot.md`
+- 无需手动记住同步 memory，钩子自动完成
 
 ## 目录
 
@@ -19,7 +51,7 @@
 - `style/`：文风文件、禁用词、叙事偏好。
 - `rules/`：叙事规则（破限、质检、杀八股、防全知、输出格式、多语言）。
 - `memory/`：长期记忆、剧情进度、玩家状态、关系变化。
-- **【强制】每次推进剧情后必须同步更新 `card/linjie.json` 的动态字段**：`age`、`magic.circuits.currentReserve`、`magic.knownSpells[].panelLevel`、`combatRating` 各项 `score`、`resources[].current`、`inventory`、`relationships[].currentRelation`、`currentStatus`。不可只更新 memory 而漏掉 card JSON。
+- **【强制】每次推进剧情后必须同步更新 `card/linjie.json` 的动态字段**：`age`、`magic.circuits.currentReserve`、`magic.knownSpells[].panelLevel`、`combatRating` 各项 `score`、`resources[].current`、`inventory`、`relationships[].currentRelation`、`currentStatus`。优先使用项目本地工具 `card_edit` 写入；不可只更新 memory 而漏掉 card JSON。
 - `backup/`：原始素材备份（含 `backup/skill-legacy/`——已迁移的旧 skill 参考）。
 
 ### 已移除

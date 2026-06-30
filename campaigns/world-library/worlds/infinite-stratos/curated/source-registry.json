@@ -1,0 +1,52 @@
+{
+  "schema": "rp-source-registry-v1",
+  "worldId": "infinite-stratos",
+  "sources": [
+    {
+      "id": "is-import-readme",
+      "type": "import-index",
+      "path": "campaigns/world-library/imports/worldviews/infinite-stratos/README.md",
+      "description": "Infinite Stratos / 无限斯特拉托斯导入目录说明，记录可用worldbook文件与entry数量。",
+      "fileCount": 1,
+      "entryCount": 0,
+      "credibility": "A",
+      "scope": "source-metadata",
+      "notes": "README声明Worldbook files: 1，文件名为‘无限斯特托拉斯.worldbook.json’，entries: 38。"
+    },
+    {
+      "id": "is-st-worldbook",
+      "type": "adapted-source",
+      "path": "campaigns/world-library/imports/worldviews/infinite-stratos/worldbooks/无限斯特托拉斯.worldbook.json",
+      "description": "SillyTavern导出的Infinite Stratos RP世界书。包含大量写卡/模式提示、AU化世界设定、剧情大纲、学园细节与初始关系网。",
+      "sourceFile": "worldbook-candidates/无限斯特托拉斯.json",
+      "sourceKind": "worldbook-top-level-object-entries",
+      "fileCount": 1,
+      "entryCount": 38,
+      "credibility": "B",
+      "scope": "world, plot, relationship, academy-details, rp-mechanics",
+      "notes": "原文件标题写作‘无限斯特托拉斯’，应为‘无限斯特拉托斯’。源内含大量模板、NSFW/写作流程提示和空白Part条目；curation仅抽取可用于世界设定、角色关系、地点、技术与剧情钩子的内容。"
+    }
+  ],
+  "keySourceRefs": {
+    "worldSetting": ["is-st-worldbook:entry 4", "is-st-worldbook:entry 7"],
+    "plotOutline": ["is-st-worldbook:entry 6"],
+    "initialRelationships": ["is-st-worldbook:entry 9"],
+    "aestheticAndRules": ["is-st-worldbook:entry 11"],
+    "detailLocations": ["is-st-worldbook:entry 7"]
+  },
+  "conflicts": [
+    {
+      "id": "source-au-001",
+      "sources": ["is-st-worldbook"],
+      "description": "源世界观将主舞台命名为‘青羽学园/Aethelgard Academy’并提到‘浮空都市艾茵多克’，这不是《Infinite Stratos》通常作品常识中的标准名称。",
+      "resolution": "baseline curated默认采用‘IS学园’；‘青羽学园/艾茵多克’作为源内AU别名或可选沙盒变体记录，标注evidenceLevel C或notes。"
+    },
+    {
+      "id": "source-rp-002",
+      "sources": ["is-st-worldbook"],
+      "description": "源中‘端白星AI’、好感度数值、地下设施细节、部分待机饰品等含明显RP扩展或未能从常识直接确认的设定。",
+      "resolution": "作为可选RP机制保留，标注B/C，不覆盖核心作品事实。"
+    }
+  ],
+  "curationDate": "2026-06-30"
+}

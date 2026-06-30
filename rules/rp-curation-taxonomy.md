@@ -137,7 +137,7 @@
 |------|------|------|
 | **Tier A** | 是通用 RP 架构模式（MVU 状态管理、事件控制器、变量体系、分布式思维链） | → 写入 `engine-review-analysis.md`，建议迁移到框架 |
 | **Tier B** | 仅型月世界有参考价值（世界特有输出格式、状态栏模板、文风推荐） | → 写入 `engine-review-analysis.md`，保留为策划参考 |
-| **Tier C** | 纯粹 ST 机械规则（sex 协议、好感度数值公式等） | → 在 curation-notes.md 记录后丢弃 |
+| **Tier C** | ST 机械规则（sex 协议、好感度数值公式、NSFW 系统等） | → 保留，写入世界特定规则文件或 curation-notes.md 记录 |
 
 ---
 

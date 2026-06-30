@@ -33,11 +33,12 @@
 ## 总体结论
 
 - 世界目录总数:63
-- 基线完整：63（62 assumed + 1 已归档+已校验）
+- 基线完整：63（61 待归档 + 2 已归档+已校验）
 - 部分：0
 - 缺失：0
 - 人物清单建立:63
 - 图谱建立:63
+- 已归档+已校验:2 (type-moon-nasuverse, high-school-dxd)
 
 本轮刷新后，先前待补的 4 个世界均已达到 7 项最小基线存在性完整：
 
@@ -45,6 +46,10 @@
 - `campaigns/world-library/worlds/date-a-live/curated/`
 - `campaigns/world-library/worlds/toriko/curated/`
 - `campaigns/world-library/worlds/madan-no-ou/curated/`
+
+## 最新更新
+
+- 2026-06-27: high-school-dxd 完成手工归档，7基线到位。
 
 ## 未解决项与风险
 
@@ -81,7 +86,7 @@
 | gundam-seed | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
 | haganai | 基线完整 | 是 | 是 | 源内非人物/成人化条目较多;需后续抽样复核剥离质量。 |
 | hidan-no-aria | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| high-school-dxd | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
+| high-school-dxd | ✅ 已归档 | 是 | ✅ | 22角色+7基线完整，2026-06-27手工整理。 |
 | honkai-impact-3rd | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
 | ikki-tousen | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
 | infinite-stratos | 基线完整 | 是 | 是 | 源内写卡/状态栏/成人偏好模板较多;需后续抽样复核剥离质量。 |

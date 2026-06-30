@@ -1,0 +1,40 @@
+{
+  "schema": "rp-source-registry-v1",
+  "worldId": "high-school-dxd",
+  "sources": [
+    {
+      "id": "dxd-card-worldbook",
+      "type": "adapted-source",
+      "path": "imports/worldviews/high-school-dxd/worldbooks/dxd_card.worldbook.json",
+      "description": "SillyTavern character-card worldbook for High School DxD RP. Contains character profiles, plot summaries, locations, systems, and items.",
+      "fileCount": 1,
+      "entryCount": 379,
+      "extractionTool": "tavern2agent worldbook extraction",
+      "extractionDate": "2026-06-20",
+      "credibility": "B",
+      "scope": "all",
+      "notes": "Derived from a SillyTavern character card worldbook. Contains RP-adapted content (MC-centric framing, some ST-specific mechanics). Canon accuracy is high for main cast, moderate for side characters. Contains 33 empty entries."
+    },
+    {
+      "id": "dxd-standalone-worldbook",
+      "type": "adapted-source",
+      "path": "imports/worldviews/high-school-dxd/worldbooks/恶魔高校.worldbook.json",
+      "description": "Standalone SillyTavern worldbook for High School DxD. Contains character profiles, gameplay systems, locations, items, and style guidance with {{user}} slot placeholders.",
+      "fileCount": 1,
+      "entryCount": 63,
+      "extractionTool": "tavern2agent worldbook extraction",
+      "extractionDate": "2026-06-20",
+      "credibility": "B",
+      "scope": "all",
+      "notes": "Standalone worldbook with {{user}} placeholders for RP adaptation. Canon accuracy is moderate. Overlaps partially with dxd_card.worldbook.json."
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "conflict-001",
+      "sources": ["dxd-card-worldbook", "dxd-standalone-worldbook"],
+      "description": "Both worldbooks contain character profiles for the same characters with slightly different framing. Where overlap exists, dxd_card.worldbook.json is treated as primary due to higher detail and entry count.",
+      "resolution": "Merged into single character entries with sourceRefs to both sources."
+    }
+  ]
+}

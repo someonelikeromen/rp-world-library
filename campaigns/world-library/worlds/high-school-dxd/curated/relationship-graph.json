@@ -1,0 +1,119 @@
+{
+  "schema": "rp-relationship-graph-v1",
+  "worldId": "high-school-dxd",
+  "nodes": [
+    { "id": "issei-hyoudou", "label": "兵藤一诚", "type": "character", "characterRef": "issei-hyoudou" },
+    { "id": "rias-gremory", "label": "莉雅丝·吉蒙里", "type": "character", "characterRef": "rias-gremory" },
+    { "id": "asia-argento", "label": "爱西亚·阿基多", "type": "character", "characterRef": "asia-argento" },
+    { "id": "akeno-himejima", "label": "姬岛朱乃", "type": "character", "characterRef": "akeno-himejima" },
+    { "id": "koneko-toujou", "label": "塔城小猫", "type": "character", "characterRef": "koneko-toujou" },
+    { "id": "kiba-yuuto", "label": "木场佑斗", "type": "character", "characterRef": "kiba-yuuto" },
+    { "id": "gasper-vladi", "label": "加斯帕·弗拉迪", "type": "character", "characterRef": "gasper-vladi" },
+    { "id": "xenovia", "label": "杰诺瓦", "type": "character", "characterRef": "xenovia" },
+    { "id": "irina-shidou", "label": "紫藤伊莉娜", "type": "character", "characterRef": "irina-shidou" },
+    { "id": "rossweisse", "label": "罗丝薇瑟", "type": "character", "characterRef": "rossweisse" },
+    { "id": "ravel-phoenix", "label": "蕾维儿·菲尼克斯", "type": "character", "characterRef": "ravel-phoenix" },
+    { "id": "vali-lucifer", "label": "瓦利·路西法", "type": "character", "characterRef": "vali-lucifer" },
+    { "id": "azazel", "label": "阿撒塞勒", "type": "character", "characterRef": "azazel" },
+    { "id": "sirzechs-lucifer", "label": "瑟杰克斯·路西法", "type": "character", "characterRef": "sirzechs-lucifer" },
+    { "id": "cao-cao", "label": "曹操", "type": "character", "characterRef": "cao-cao" },
+    { "id": "sona-sitri", "label": "支取苍那", "type": "character", "characterRef": "sona-sitri" },
+    { "id": "gremory-family", "label": "吉蒙里家族", "type": "faction", "factionRef": "gremory-family" },
+    { "id": "devil-underworld", "label": "恶魔/冥界", "type": "faction", "factionRef": "devil-underworld" },
+    { "id": "heaven-angels", "label": "天界", "type": "faction", "factionRef": "heaven-angels" },
+    { "id": "fallen-angels", "label": "堕天使", "type": "faction", "factionRef": "fallen-angels" },
+    { "id": "khaos-brigade", "label": "祸之团", "type": "faction", "factionRef": "khaos-brigade" },
+    { "id": "vali-team", "label": "瓦利队", "type": "faction", "factionRef": "vali-team" },
+    { "id": "sitri-family", "label": "西迪家族", "type": "faction", "factionRef": "sitri-family" },
+    { "id": "norse-mythology", "label": "北欧神族", "type": "faction", "factionRef": "norse-mythology" },
+    { "id": "greek-mythology", "label": "希腊神族", "type": "faction", "factionRef": "greek-mythology" },
+    { "id": "japanese-mythology", "label": "日本势力", "type": "faction", "factionRef": "japanese-mythology" }
+  ],
+  "edges": [
+    {
+      "from": "issei-hyoudou", "to": "rias-gremory",
+      "types": ["romantic", "master-servant", "alliance"], "dimensions": { "trust": { "level": "absolute", "notes": "生死相依的绝对信任" }, "affection": { "level": "deep-love", "notes": "第一婚约者，彼此深爱" }, "loyalty": { "level": "absolute", "notes": "King与Pawn的契约关系已超越身份" } },
+      "summary": "莉雅丝以8枚Pawn棋子将一诚转生为恶魔眷属。一诚从救命恩人/主人逐渐发展为第一恋人。二人共同经历无数次生死战斗，感情极为深厚。",
+      "visibility": "public", "evidenceLevel": "A", "sourceRefs": ["dxd_card.worldbook.json:entry 6"]
+    },
+    {
+      "from": "issei-hyoudou", "to": "asia-argento", "types": ["romantic", "alliance"], "dimensions": { "trust": { "level": "absolute", "notes": "一诚是爱西亚的救赎" }, "affection": { "level": "deep-love", "notes": "婚约者" } },
+      "summary": "一诚从堕天使手中救下爱西亚，她成为莉雅丝的Bishop眷属。爱西亚是第一个毫无保留爱上一诚的女孩。",
+      "visibility": "public", "evidenceLevel": "A", "sourceRefs": ["dxd_card.worldbook.json:entry 7"]
+    },
+    {
+      "from": "issei-hyoudou", "to": "akeno-himejima", "types": ["romantic", "alliance"], "dimensions": { "affection": { "level": "deep-love", "notes": "婚约者" }, "loyalty": { "level": "strong" } },
+      "summary": "朱乃最初以玩弄一诚为乐，后逐渐真心爱上他。一诚帮助朱乃克服了对堕天使血脉的自我厌恶。",
+      "visibility": "public", "evidenceLevel": "A", "sourceRefs": ["dxd_card.worldbook.json:entry 8"]
+    },
+    {
+      "from": "issei-hyoudou", "to": "koneko-toujou", "types": ["romantic", "alliance"], "dimensions": { "trust": { "level": "deep", "notes": "一诚帮助小猫接受猫又之力" }, "affection": { "level": "deep-love", "notes": "婚约者" } },
+      "summary": "小猫从对一诚的性骚扰感到厌烦到逐渐依赖。一诚帮助她接受了自己的猫又身份和仙术天赋。",
+      "visibility": "public", "evidenceLevel": "A", "sourceRefs": ["dxd_card.worldbook.json:entry 9"]
+    },
+    {
+      "from": "issei-hyoudou", "to": "kiba-yuuto", "types": ["friendship", "alliance"], "dimensions": { "trust": { "level": "deep", "notes": "并肩作战的最佳搭档" }, "loyalty": { "level": "strong" } },
+      "summary": "作为仅有的男性眷属，一诚和木场既是战友也是好友。一诚帮助木场走出圣剑计划的复仇阴影。",
+      "visibility": "public", "evidenceLevel": "A", "sourceRefs": ["dxd_card.worldbook.json:entry 10"]
+    },
+    {
+      "from": "issei-hyoudou", "to": "vali-lucifer", "types": ["rivalry", "alliance"], "dimensions": { "rivalry": { "level": "intense", "notes": "宿命对手（二天龙之争）" }, "trust": { "level": "moderate", "notes": "亦敌亦友" } },
+      "summary": "赤龙帝与白龙皇的宿命对手。从最初生死搏杀到逐渐形成亦敌亦友的竞争关系。后期在多场大战中并肩作战。",
+      "visibility": "public", "evidenceLevel": "A", "sourceRefs": ["dxd_card.worldbook.json:entry 14"]
+    },
+    {
+      "from": "issei-hyoudou", "to": "azazel", "types": ["mentorship", "friendship"], "dimensions": { "trust": { "level": "deep", "notes": "一诚最尊敬的导师之一" }, "loyalty": { "level": "strong" } },
+      "summary": "堕天使总督阿撒塞勒是神器研究权威，担任一诚的神器使用导师。趣味相投（都喜欢胸部的话题），师徒关系融洽。",
+      "visibility": "public", "evidenceLevel": "A", "sourceRefs": ["dxd_card.worldbook.json:entry 35"]
+    },
+    {
+      "from": "sirzechs-lucifer", "to": "rias-gremory", "types": ["familial"], "dimensions": { "affection": { "level": "deep", "notes": "溺爱妹妹的魔王兄长" }, "loyalty": { "level": "absolute" } },
+      "summary": "瑟杰克斯是莉雅丝的亲生哥哥，以「魔王路西法」身份统治冥界。极度溺爱妹妹，对一诚也持认可态度。",
+      "visibility": "public", "evidenceLevel": "A", "sourceRefs": ["dxd_card.worldbook.json:entry 16"]
+    },
+    {
+      "from": "rias-gremory", "to": "gremory-family", "types": ["membership", "leadership"], "dimensions": { "loyalty": { "level": "absolute", "notes": "吉蒙里家继承人" } },
+      "summary": "莉雅丝是吉蒙里公爵家的下一任当主，率领眷属恶魔在排名游戏中争取地位。",
+      "visibility": "public", "evidenceLevel": "A", "sourceRefs": ["dxd_card.worldbook.json:entry 6"]
+    },
+    {
+      "from": "cao-cao", "to": "khaos-brigade", "types": ["membership", "leadership"], "dimensions": { "loyalty": { "level": "conditional", "notes": "英雄派领袖，利用祸之团" } },
+      "summary": "曹操是祸之团下属「英雄派」的领袖，持有最强神灭具「黄昏的圣枪」。以人类至上为理念。",
+      "visibility": "public", "evidenceLevel": "A", "sourceRefs": ["dxd_card.worldbook.json:entry 18"]
+    },
+    {
+      "from": "vali-lucifer", "to": "vali-team", "types": ["membership", "leadership"], "dimensions": { "loyalty": { "level": "strong", "notes": "瓦利队创始人与领袖" } },
+      "summary": "瓦利脱离祸之团后组建了独立团队。成员包括美猴、亚瑟、勒菲、黑歌等。",
+      "visibility": "public", "evidenceLevel": "A", "sourceRefs": ["dxd_card.worldbook.json:entry 14"]
+    },
+    {
+      "from": "devil-underworld", "to": "heaven-angels", "types": ["alliance"], "dimensions": { "trust": { "level": "moderate", "notes": "三方和平协定" }, "suspicion": { "level": "residual", "notes": "历史仇恨未完全消除" } },
+      "summary": "远古死敌，在三方和平协定后转为战略合作伙伴，共同应对超越三方的威胁。",
+      "visibility": "public", "evidenceLevel": "A", "sourceRefs": ["dxd_card.worldbook.json:entry 45"]
+    },
+    {
+      "from": "devil-underworld", "to": "fallen-angels", "types": ["alliance"], "dimensions": { "trust": { "level": "moderate" }, "suspicion": { "level": "residual" } },
+      "summary": "战后转为合作关系。阿撒塞勒与恶魔高层建立了良好的个人关系。",
+      "visibility": "public", "evidenceLevel": "A", "sourceRefs": ["dxd_card.worldbook.json:entry 45"]
+    },
+    {
+      "from": "gremory-family", "to": "sitri-family", "types": ["alliance", "rivalry"], "dimensions": { "trust": { "level": "strong", "notes": "世代友好" }, "rivalry": { "level": "friendly", "notes": "良性竞争" } },
+      "summary": "吉蒙里和西迪是世代友好的公爵家族。莉雅丝和苍那既是好友也是排名游戏中的竞争对手。",
+      "visibility": "public", "evidenceLevel": "A", "sourceRefs": ["dxd_card.worldbook.json:entry 12"]
+    },
+    {
+      "from": "japanese-mythology", "to": "gremory-family", "types": ["alliance"], "dimensions": { "trust": { "level": "strong", "notes": "同盟协定" } },
+      "summary": "京都妖怪势力与吉蒙里家有同盟关系。八坂之女九重与一诚等人关系良好。",
+      "visibility": "public", "evidenceLevel": "A", "sourceRefs": ["dxd_card.worldbook.json:entry 48"]
+    },
+    {
+      "from": "sona-sitri", "to": "rias-gremory", "types": ["friendship", "rivalry"], "dimensions": { "trust": { "level": "deep", "notes": "青梅竹马" }, "rivalry": { "level": "friendly", "notes": "排名游戏对手" } },
+      "summary": "苍那与莉雅丝自幼相识，同为公爵家继承人兼好友。在驹王学园分别担任学生会会长和神秘学研究社社长。",
+      "visibility": "public", "evidenceLevel": "A", "sourceRefs": ["dxd_card.worldbook.json:entry 12"]
+    }
+  ],
+  "indices": {
+    "byCharacter": {},
+    "byFaction": {}
+  }
+}

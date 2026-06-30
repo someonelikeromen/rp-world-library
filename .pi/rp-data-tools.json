@@ -1,0 +1,90 @@
+{
+  "version": 2,
+  "worldLibrary": {
+    "root": "campaigns/world-library",
+    "index": ".wl-index.json",
+    "curatedDir": "worlds",
+    "rawWorldviewsDir": "imports/worldviews",
+    "refKinds": [
+      "char",
+      "world",
+      "story",
+      "rule",
+      "source",
+      "raw",
+      "graph"
+    ],
+    "extensionSlots": {
+      "customSearchProviders": [],
+      "customRefResolvers": [],
+      "rankingRules": [
+        { "prioritize": "curated", "weight": 1 },
+        { "prioritize": "character", "weight": 1 },
+        { "prioritize": "importance", "weight": 2 }
+      ]
+    }
+  },
+  "cards": {
+    "protagonist": {
+      "path": "card/linjie.json",
+      "schema": "rp-character-v1",
+      "label": "主角人物卡：林界",
+      "aliases": [
+        "linjie",
+        "林界",
+        "主角"
+      ],
+      "requiredPaths": [
+        "age",
+        "magic.circuits.currentReserve",
+        "magic.knownSpells[].panelLevel",
+        "combatRating.*.score",
+        "resources[].current",
+        "relationships[].currentRelation",
+        "currentStatus",
+        "inventory"
+      ],
+      "idArrays": {
+        "magic.knownSpells": "id",
+        "abilities": "id",
+        "resources": "id",
+        "relationships": "id",
+        "inventory": "id"
+      },
+      "syncHints": [
+        "magic.circuits.currentReserve should stay consistent with resources[id=mana].current and combatRating.resource.mana.current",
+        "resources[id=money].current should stay consistent with combatRating.resource.money when changed",
+        "currentStatus should summarize world/location/time/condition after each plot advance"
+      ],
+      "extensionSlots": {
+        "customValidators": [
+          { "type": "range", "path": "magic.circuits.currentReserve", "min": 0, "max": "magic.circuits.maxReserve" },
+          { "type": "range", "path": "age", "min": 1, "max": 9999 },
+          { "type": "required", "path": "name" },
+          { "type": "required", "path": "currentStatus" }
+        ],
+        "derivedFields": [
+          { "source": "magic.circuits.currentReserve", "target": "resources[id=mana].current" },
+          { "expression": "combatRatingFromStats" }
+        ],
+        "postUpdateHooks": [
+          {
+            "type": "log",
+            "prefix": "card-edit",
+            "dir": "memory",
+            "includeSnapshot": true,
+            "includeChanges": true
+          },
+          {
+            "type": "memory-sync",
+            "dir": "memory",
+            "file": "card-status-snapshot.md"
+          }
+        ]
+      }
+    }
+  },
+  "npcs": {},
+  "allowUnregisteredCardFiles": true,
+  "backupDir": "backup/card-edits"
+}

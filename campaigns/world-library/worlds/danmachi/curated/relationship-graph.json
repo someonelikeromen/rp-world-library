@@ -1,0 +1,377 @@
+{
+  "schema": "pi-rp-relationship-graph-v1",
+  "worldSlug": "danmachi",
+  "nodes": [
+    {
+      "id": "bell_cranel",
+      "label": "贝尔·克朗尼",
+      "type": "character"
+    },
+    {
+      "id": "hestia",
+      "label": "赫斯缇雅/赫斯提亚",
+      "type": "deity"
+    },
+    {
+      "id": "ais_wallenstein",
+      "label": "艾丝·华伦斯坦",
+      "type": "character"
+    },
+    {
+      "id": "liliruca_arde",
+      "label": "莉莉露卡·厄德",
+      "type": "character"
+    },
+    {
+      "id": "welf_crozzo",
+      "label": "韦尔夫·克罗佐",
+      "type": "character"
+    },
+    {
+      "id": "yamato_mikoto",
+      "label": "倭·命",
+      "type": "character"
+    },
+    {
+      "id": "sanjouno_haruhime",
+      "label": "三条野·春姬",
+      "type": "character"
+    },
+    {
+      "id": "ryu_lion",
+      "label": "琉·璃昂",
+      "type": "character"
+    },
+    {
+      "id": "freya",
+      "label": "芙蕾雅",
+      "type": "deity"
+    },
+    {
+      "id": "syr_flover",
+      "label": "希儿·福罗瓦",
+      "type": "character/identity"
+    },
+    {
+      "id": "loki",
+      "label": "洛基",
+      "type": "deity"
+    },
+    {
+      "id": "finn_deimne",
+      "label": "芬恩·迪姆那",
+      "type": "character"
+    },
+    {
+      "id": "riveria_ljos_alf",
+      "label": "里维莉雅",
+      "type": "character"
+    },
+    {
+      "id": "gareth_landrock",
+      "label": "格瑞斯/加雷斯",
+      "type": "character"
+    },
+    {
+      "id": "lefiya_viridis",
+      "label": "蕾菲亚",
+      "type": "character"
+    },
+    {
+      "id": "tiona_hiryute",
+      "label": "蒂奥娜",
+      "type": "character"
+    },
+    {
+      "id": "tione_hiryute",
+      "label": "蒂奥涅",
+      "type": "character"
+    },
+    {
+      "id": "bete_loga",
+      "label": "伯特",
+      "type": "character"
+    },
+    {
+      "id": "ottar",
+      "label": "奥塔",
+      "type": "character"
+    },
+    {
+      "id": "eina_tulle",
+      "label": "埃伊娜·祖尔",
+      "type": "character"
+    },
+    {
+      "id": "hephaestus",
+      "label": "赫菲斯托丝",
+      "type": "deity"
+    },
+    {
+      "id": "tsubaki_collbrande",
+      "label": "椿·柯布兰德",
+      "type": "character"
+    },
+    {
+      "id": "hestia_familia",
+      "label": "赫斯缇雅眷族",
+      "type": "organization"
+    },
+    {
+      "id": "loki_familia",
+      "label": "洛基眷族",
+      "type": "organization"
+    },
+    {
+      "id": "freya_familia",
+      "label": "芙蕾雅眷族",
+      "type": "organization"
+    },
+    {
+      "id": "guild",
+      "label": "公会",
+      "type": "organization"
+    },
+    {
+      "id": "hostess",
+      "label": "丰饶的女主人",
+      "type": "location/organization"
+    }
+  ],
+  "edges": [
+    {
+      "from": "hestia",
+      "to": "hestia_familia",
+      "type": "patron-of",
+      "summary": "赫斯缇雅是眷族主神。",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "S3:眷族详情 - 赫斯提亚眷族"
+      ]
+    },
+    {
+      "from": "bell_cranel",
+      "to": "hestia_familia",
+      "type": "captain/member-of",
+      "summary": "贝尔是赫斯缇雅眷族团长。",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "liliruca_arde",
+      "to": "hestia_familia",
+      "type": "member-of",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "welf_crozzo",
+      "to": "hestia_familia",
+      "type": "member-of",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "yamato_mikoto",
+      "to": "hestia_familia",
+      "type": "member-of-after-transfer",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "sanjouno_haruhime",
+      "to": "hestia_familia",
+      "type": "member-of-after-rescue",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "hestia",
+      "to": "bell_cranel",
+      "type": "patron-protective-love",
+      "summary": "赫斯缇雅保护并爱慕贝尔。",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "bell_cranel",
+      "to": "ais_wallenstein",
+      "type": "admiration-growth-trigger",
+      "summary": "贝尔对艾丝的憧憬触发/维持一心憧憬。",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "ais_wallenstein",
+      "to": "bell_cranel",
+      "type": "mentor-interest",
+      "summary": "艾丝对贝尔成长感兴趣并曾训练他。",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "freya",
+      "to": "bell_cranel",
+      "type": "obsession",
+      "summary": "芙蕾雅被贝尔纯净灵魂吸引并产生执念。",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "syr_flover",
+      "to": "bell_cranel",
+      "type": "affection/help",
+      "summary": "希儿关心并帮助贝尔；身份线与芙蕾雅相关。",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "ryu_lion",
+      "to": "hostess",
+      "type": "works-at",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "syr_flover",
+      "to": "hostess",
+      "type": "works-at",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "ryu_lion",
+      "to": "syr_flover",
+      "type": "rescued-by/close",
+      "summary": "希儿救助过琉，二人在酒馆共同生活工作。",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "loki",
+      "to": "loki_familia",
+      "type": "patron-of",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "finn_deimne",
+      "to": "loki_familia",
+      "type": "captain-of",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "ais_wallenstein",
+      "to": "loki_familia",
+      "type": "member-of",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "riveria_ljos_alf",
+      "to": "loki_familia",
+      "type": "executive-of",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "gareth_landrock",
+      "to": "loki_familia",
+      "type": "executive-of",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "lefiya_viridis",
+      "to": "riveria_ljos_alf",
+      "type": "student-successor",
+      "summary": "蕾菲亚被里维莉雅寄予魔法继承期待。",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "lefiya_viridis",
+      "to": "ais_wallenstein",
+      "type": "admires",
+      "summary": "蕾菲亚憧憬艾丝。",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "tiona_hiryute",
+      "to": "tione_hiryute",
+      "type": "twin-sisters",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "tione_hiryute",
+      "to": "finn_deimne",
+      "type": "romantic-obsession",
+      "summary": "蒂奥涅爱慕芬恩。",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "bete_loga",
+      "to": "tiona_hiryute",
+      "type": "bickering-comrades",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "freya",
+      "to": "freya_familia",
+      "type": "patron-of",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "ottar",
+      "to": "freya_familia",
+      "type": "captain-of",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "ottar",
+      "to": "freya",
+      "type": "absolute-loyalty",
+      "summary": "奥塔对芙蕾雅忠诚，源中强调其爱近似母子。",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "freya_familia",
+      "to": "loki_familia",
+      "type": "rivalry/top-balance",
+      "summary": "两者并列欧拉丽顶级势力。",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "hestia",
+      "to": "hephaestus",
+      "type": "friends/debt",
+      "summary": "赫菲斯托丝是赫斯缇雅好友兼债主。",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "welf_crozzo",
+      "to": "hephaestus",
+      "type": "former-patron/respect",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "tsubaki_collbrande",
+      "to": "hephaestus",
+      "type": "captain-of-familia",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "bell_cranel",
+      "to": "eina_tulle",
+      "type": "adventurer-advisor",
+      "summary": "埃伊娜是公会顾问，可作为贝尔与公会的连接点。",
+      "evidenceLevel": "B"
+    },
+    {
+      "from": "guild",
+      "to": "hestia_familia",
+      "type": "regulates",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "guild",
+      "to": "loki_familia",
+      "type": "regulates/tasks",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "guild",
+      "to": "freya_familia",
+      "type": "regulates/political-balance",
+      "evidenceLevel": "B"
+    }
+  ],
+  "relationshipNotes": [
+    "角色等级和部分称号会随卷数/时间点变化；运行RP前应锁定时间段。",
+    "希儿、芙蕾雅、海伦相关身份线含剧透，若使用早期时间线应降为秘密。",
+    "赫斯缇雅/赫斯提亚、格瑞斯/加雷斯等译名差异已合并处理。"
+  ],
+  "worldId": "danmachi"
+}

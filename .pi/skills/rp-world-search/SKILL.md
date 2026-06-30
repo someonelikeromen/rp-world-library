@@ -2,6 +2,8 @@
 
 世界信息索引、搜索与渐进式加载。RP中需要查询世界观设定时使用。
 
+> 优先使用项目本地扩展工具 `world_query`（`.pi/extensions/world-query.ts`）。该工具面向 AI 渐进式查询世界书：先查 curated 结构化产物，再 fallback 到 raw worldbook，并返回可再次 `get` 的 ref。只有在工具未加载或需要人工调试时才使用 grep/read 手动查询。
+
 ## 触发条件
 
 - RP中剧情涉及具体世界观细节

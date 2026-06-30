@@ -1,0 +1,282 @@
+{
+  "schema": "pi-rp-knowledge-graph-v1",
+  "worldSlug": "danmachi",
+  "nodes": [
+    {
+      "id": "orario",
+      "label": "迷宫都市欧拉丽",
+      "type": "location",
+      "summary": "唯一地下城所在都市，眷族、公会与冒险经济中心。",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "S3:环境 - 欧拉丽与世界概览"
+      ]
+    },
+    {
+      "id": "dungeon",
+      "label": "地下城",
+      "type": "location/system",
+      "summary": "位于巴别塔下的活体迷宫，诞生怪物并产出魔石与素材。",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "S3:地点 - 地下城概述"
+      ]
+    },
+    {
+      "id": "babel",
+      "label": "巴别塔",
+      "type": "landmark",
+      "summary": "欧拉丽中心巨塔，地下城入口与城市象征。",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "S3:地点 - 主要地标与区域"
+      ]
+    },
+    {
+      "id": "guild",
+      "label": "公会",
+      "type": "organization",
+      "summary": "管理冒险者、任务、魔石兑换、情报与城市秩序。",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "S3:组织 - 公会"
+      ]
+    },
+    {
+      "id": "falna",
+      "label": "神之恩惠/法尔纳",
+      "type": "power-system",
+      "summary": "神赐凡人的成长祝福，记录状态、技能、魔法、发展能力和眷族归属。",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "S3:核心规则 - 法尔纳(恩惠)体系概述"
+      ]
+    },
+    {
+      "id": "familia_system",
+      "label": "眷族制度",
+      "type": "social-system",
+      "summary": "一位神明领导凡人成员的组织，是下界政治、经济和战力基本单位。",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "S3:核心规则 - 眷族系统"
+      ]
+    },
+    {
+      "id": "status",
+      "label": "等级与能力值",
+      "type": "mechanic",
+      "summary": "Level与力量、耐久、灵巧、敏捷、魔力五项基础能力；升级后数值重置为隐藏基础。",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "S2:cot",
+        "S3:力量体系 - 基础能力结构与等级"
+      ]
+    },
+    {
+      "id": "skills_magic",
+      "label": "技能、魔法与发展能力",
+      "type": "mechanic",
+      "summary": "技能源自本质和经历；魔法消耗精神力并受咏唱影响；发展能力是升级专精。",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "S2:发展能力、技能与魔法",
+        "S3:力量体系 - 技能详解",
+        "S3:力量体系 - 魔法详解"
+      ]
+    },
+    {
+      "id": "magic_stone_economy",
+      "label": "魔石经济",
+      "type": "economy",
+      "summary": "怪物魔石与掉落物兑换法利，支撑装备、魔道具、药剂和远征物资市场。",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "S3:物品与资源",
+        "S2:战利品、魔石与法利"
+      ]
+    },
+    {
+      "id": "hestia_familia",
+      "label": "赫斯缇雅/赫斯提亚眷族",
+      "type": "familia",
+      "summary": "贝尔所属新兴眷族，凝聚力强。",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "S3:眷族详情 - 赫斯提亚眷族"
+      ]
+    },
+    {
+      "id": "loki_familia",
+      "label": "洛基眷族",
+      "type": "familia",
+      "summary": "欧拉丽最强眷族之一，深层远征主力。",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "S3:眷族详情 - 洛基眷族"
+      ]
+    },
+    {
+      "id": "freya_familia",
+      "label": "芙蕾雅眷族",
+      "type": "familia",
+      "summary": "与洛基并列顶点，成员对芙蕾雅狂热忠诚。",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "S3:眷族详情 - 芙蕾雅眷族"
+      ]
+    },
+    {
+      "id": "hephaestus_familia",
+      "label": "赫菲斯托丝眷族",
+      "type": "familia",
+      "summary": "顶级锻造眷族，掌握高品质装备市场。",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "S3:组织 - 主要眷族概览"
+      ]
+    },
+    {
+      "id": "xenos",
+      "label": "异端儿",
+      "type": "special-entity",
+      "summary": "有智慧和情感的怪物群体，引发共存伦理与秘密战争。",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "S3:特殊存在 - 异端儿 (Xenos) 概述"
+      ]
+    },
+    {
+      "id": "evilus",
+      "label": "暗派阀",
+      "type": "threat-faction",
+      "summary": "过去引发欧拉丽大动乱的邪神与眷族势力。",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "S3:事件 - 已知重要事件与历史"
+      ]
+    },
+    {
+      "id": "oebd",
+      "label": "独眼黑龙",
+      "type": "legendary-threat",
+      "summary": "古代三大委托中最终未被讨伐的传说级威胁，与艾丝宿命线相关。",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "S3:事件 - 已知重要事件与历史",
+        "S3:人物 - 艾丝·华伦斯坦"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "babel",
+      "to": "dungeon",
+      "type": "contains-entrance-to",
+      "summary": "地下城入口位于巴别塔之下。",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "orario",
+      "to": "babel",
+      "type": "has-landmark",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "orario",
+      "to": "guild",
+      "type": "governed-by",
+      "summary": "公会是欧拉丽最高管理机构。",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "dungeon",
+      "to": "magic_stone_economy",
+      "type": "supplies",
+      "summary": "地下城怪物产出魔石与素材。",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "guild",
+      "to": "magic_stone_economy",
+      "type": "monopolizes-exchange",
+      "summary": "公会垄断魔石兑换。",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "familia_system",
+      "to": "falna",
+      "type": "requires",
+      "summary": "眷族成员通过主神赐予法尔纳建立契约。",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "falna",
+      "to": "status",
+      "type": "records",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "falna",
+      "to": "skills_magic",
+      "type": "unlocks",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "hestia_familia",
+      "to": "familia_system",
+      "type": "instance-of",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "loki_familia",
+      "to": "familia_system",
+      "type": "instance-of",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "freya_familia",
+      "to": "familia_system",
+      "type": "instance-of",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "hephaestus_familia",
+      "to": "magic_stone_economy",
+      "type": "converts-resources-into-equipment",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "xenos",
+      "to": "dungeon",
+      "type": "originates-in",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "evilus",
+      "to": "orario",
+      "type": "historical-threat-to",
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "oebd",
+      "to": "loki_familia",
+      "type": "long-term-target",
+      "summary": "洛基眷族远征与艾丝个人目标最终指向黑龙。",
+      "evidenceLevel": "B"
+    },
+    {
+      "from": "freya_familia",
+      "to": "loki_familia",
+      "type": "rival-power",
+      "summary": "两者并列欧拉丽最强层级。",
+      "evidenceLevel": "A"
+    }
+  ],
+  "rpQueryHints": [
+    "新手地下城：orario -> guild -> dungeon -> magic_stone_economy -> falna/status",
+    "眷族政治：familia_system -> hestia_familia/loki_familia/freya_familia -> guild",
+    "深层威胁：dungeon -> xenos/oebd/evilus -> loki_familia/freya_familia"
+  ],
+  "worldId": "danmachi"
+}

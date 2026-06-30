@@ -1,0 +1,72 @@
+{
+  "schema": "pi-rp-source-registry-v1",
+  "world": "hidan-no-aria",
+  "title": "绯弹的亚里亚 / Hidan no Aria",
+  "createdByStep": "archive-aria",
+  "sources": [
+    {
+      "id": "readme",
+      "type": "import-readme",
+      "path": "campaigns/world-library/imports/worldviews/hidan-no-aria/README.md",
+      "summary": "导入说明：Slug 为 hidan-no-aria；包含 1 个 worldbook 文件；记录条目数为 192。",
+      "entryCount": null,
+      "evidenceLevel": "A"
+    },
+    {
+      "id": "wb",
+      "type": "sillytavern-worldbook-json",
+      "path": "campaigns/world-library/imports/worldviews/hidan-no-aria/worldbooks/緋彈的婭莉婭.worldbook.json",
+      "title": "緋彈的婭莉婭",
+      "schema": "rp-imported-worldbook-v1",
+      "sourceKind": "worldbook-top-level-object-entries",
+      "entryCount": 192,
+      "sourceFileField": "worldbook-candidates/緋彈的婭莉婭.json",
+      "notes": "导入文件 top-level entries。引用格式 wb:<index> 对应该 JSON entries[].index。",
+      "evidenceLevel": "A"
+    }
+  ],
+  "entryRefs": [
+    {"ref": "wb:0", "comment": "世界观与核心设定总览"},
+    {"ref": "wb:1", "comment": "HSS (爆发模式) 生理与战术机制"},
+    {"ref": "wb:2", "comment": "色金"},
+    {"ref": "wb:3", "comment": "全球势力与组织架构"},
+    {"ref": "wb:4", "comment": "武侦职级体系与教育机构"},
+    {"ref": "wb:5", "comment": "远山流战术与特种战斗技艺"},
+    {"ref": "wb:6", "comment": "特殊武装、载具与道具库"},
+    {"ref": "wb:7", "comment": "深层组织与血脉谱系"},
+    {"ref": "wb:8", "comment": "业界黑话与特殊概念词典"},
+    {"ref": "wb:68", "comment": "远山金次"},
+    {"ref": "wb:69", "comment": "镜高菊代"},
+    {"ref": "wb:70", "comment": "神崎·H·亚里亚"},
+    {"ref": "wb:71", "comment": "星伽白雪"},
+    {"ref": "wb:72", "comment": "峰理子"},
+    {"ref": "wb:73", "comment": "蕾姬"},
+    {"ref": "wb:75", "comment": "平贺文"},
+    {"ref": "wb:77", "comment": "不知火亮"},
+    {"ref": "wb:78", "comment": "武藤刚气"},
+    {"ref": "wb:79", "comment": "风魔阳菜"},
+    {"ref": "wb:84", "comment": "间宫明里"},
+    {"ref": "wb:86", "comment": "佐佐木志乃"},
+    {"ref": "wb:87", "comment": "火野莱卡"},
+    {"ref": "wb:88", "comment": "高千穗丽"},
+    {"ref": "wb:90", "comment": "岛麒麟"},
+    {"ref": "wb:120", "comment": "远山金一"},
+    {"ref": "wb:122", "comment": "贞德"},
+    {"ref": "wb:123", "comment": "远山金三"},
+    {"ref": "wb:124", "comment": "远山金女"},
+    {"ref": "wb:145", "comment": "夏洛克·福尔摩斯"}
+  ],
+  "curatedOutputs": [
+    "campaigns/world-library/worlds/hidan-no-aria/curated/README.md",
+    "campaigns/world-library/worlds/hidan-no-aria/curated/world.json",
+    "campaigns/world-library/worlds/hidan-no-aria/curated/source-registry.json",
+    "campaigns/world-library/worlds/hidan-no-aria/curated/characters-index.json",
+    "campaigns/world-library/worlds/hidan-no-aria/curated/knowledge-graph.json",
+    "campaigns/world-library/worlds/hidan-no-aria/curated/relationship-graph.json",
+    "campaigns/world-library/worlds/hidan-no-aria/curated/curation-notes.md"
+  ],
+  "validation": {
+    "jsonSyntax": "not_executed",
+    "reason": "当前工具集无 JSON 解析/命令执行工具；文件按严格 JSON 手写，建议上游用 jq 或项目校验器复验。"
+  }
+}
