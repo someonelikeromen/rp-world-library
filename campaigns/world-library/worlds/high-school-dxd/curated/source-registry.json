@@ -41,6 +41,34 @@
       "credibility": "A-for-toc-only",
       "scope": "story-index-coverage",
       "notes": "Confirms main volumes 1-25 and several DX/BD/EX/HERO groups are covered, but many side stories are aggregate summaries rather than independent story files."
+    },
+    {
+      "id": "wenku8-true-dxd-toc-audit",
+      "type": "canonical-toc-audit",
+      "url": "https://www.wenku8.net/novel/2/2618/index.htm",
+      "path": "imports/working/high-school-dxd/wenku8-dxd-related-toc-comparison.md",
+      "description": "Wenku8 True High School DxD table-of-contents crawl. Stores TOC metadata only and verifies current curated True DxD story entries.",
+      "fileCount": 1,
+      "entryCount": 5,
+      "extractionTool": "imports/working/high-school-dxd/compare-wenku8-related-sources.mjs",
+      "extractionDate": "2026-06-30",
+      "credibility": "A-for-toc-only",
+      "scope": "story-index-coverage:true-dxd",
+      "notes": "Confirms True DxD volumes 1-4 correspond to current curated stories; Wenku8 also has a short-story group not yet represented as an independent story file."
+    },
+    {
+      "id": "wenku8-slashdog-toc-audit",
+      "type": "canonical-toc-audit",
+      "url": "https://www.wenku8.net/novel/2/2524/index.htm",
+      "path": "imports/working/high-school-dxd/wenku8-dxd-related-toc-comparison.md",
+      "description": "Wenku8 SlashDog table-of-contents crawl. Stores TOC metadata only and verifies current curated SlashDog/刃狗 prequel story entries.",
+      "fileCount": 1,
+      "entryCount": 3,
+      "extractionTool": "imports/working/high-school-dxd/compare-wenku8-related-sources.mjs",
+      "extractionDate": "2026-06-30",
+      "credibility": "A-for-toc-only",
+      "scope": "story-index-coverage:slashdog",
+      "notes": "Confirms SlashDog three source volumes correspond by order to current curated prequel stories; source volume titles are generic while curated titles are descriptive."
     }
   ],
   "conflicts": [

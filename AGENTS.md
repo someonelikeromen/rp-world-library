@@ -82,4 +82,5 @@
 - 如果角色卡包含复杂 MVU、变量、状态栏、世界书触发等机制，再参考 `tavern2agent/` 进行迁移设计。
 - 如果需要 pi 扩展式上下文装配/状态管理，再评估 `pi-stage/`。
 - 如果需要 MCP 数据服务器管理角色卡、世界书、会话、记忆，再评估 `AIRP-MCP-Server/`。
+- 后续继续归档/审计世界观时，优先遵循 `docs/world-archive-playbook.md`：先保留原始来源，source-backed 补全，`count=0` 删除/修正，图谱与索引闭环验证后再同步 release。
 - `backup/yokenken-editor.SKILL.md` 和 `4.28叶啃啃skill/` 是中文写作/编辑风格备用资料，不默认加载。

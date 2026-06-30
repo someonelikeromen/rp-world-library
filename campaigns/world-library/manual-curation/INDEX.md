@@ -4,6 +4,11 @@
 
 用途：作为 `campaigns/world-library/worlds/*/curated/` 手工整理产物的总索引。详细完成度与未解决项见 `campaigns/world-library/manual-curation/STATUS.md`。
 
+相关目录文档：
+
+- `campaigns/world-library/manual-curation/STATUS.md`：归档完成度与风险状态。
+- `campaigns/world-library/manual-curation/SOURCE-ORIGINALS.md`：按“有小说原著 / 非小说原著 / 混合型”记录 63 个世界，并标注本地原文状态，便于后续补找原文。
+
 ## 标准产物索引说明
 
 每个完成世界的 `curated/` 目录需满足 **7 项最小基线**，可在此基础上任意扩展额外文件。
