@@ -446,7 +446,7 @@ function runPostUpdateHooks(card: any, def: any, config: any, operation: string,
 				const status = statusSummary(card, def);
 				const md = [
 					`# Card Status Snapshot — ${new Date().toISOString()}`,
-					`",
+					``,
 					`- Name: ${status.basic?.name}`,
 					`- Status: ${status.currentStatus || "—"}`,
 					`- Magic: ${status.magic?.currentReserve}/${status.magic?.maxReserve} (${status.magic?.activeSpells} active spells)`,
