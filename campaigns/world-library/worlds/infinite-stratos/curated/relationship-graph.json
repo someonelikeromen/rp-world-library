@@ -71,8 +71,10 @@
     {
       "id": "hoshi-shirube-ai",
       "label": "端白星AI",
-      "type": "optional-ai",
-      "importance": "optional-major"
+      "type": "character",
+      "importance": "optional-major",
+      "subtype": "optional-ai",
+      "characterRef": "hoshi-shirube-ai"
     },
     {
       "id": "is-academy",
@@ -93,11 +95,39 @@
       "importance": "major"
     },
     {
-      "id": "hoshi-shirube-ai",
-      "label": "端白星AI",
+      "id": "goten-dan",
+      "label": "五反田弹",
       "type": "character",
-      "characterRef": "hoshi-shirube-ai",
-      "importance": "optional-major"
+      "characterRef": "goten-dan",
+      "importance": "secondary"
+    },
+    {
+      "id": "goten-ran",
+      "label": "五反田兰",
+      "type": "character",
+      "characterRef": "goten-ran",
+      "importance": "secondary"
+    },
+    {
+      "id": "squall-meusel",
+      "label": "斯可儿·谬赛尔",
+      "type": "character",
+      "characterRef": "squall-meusel",
+      "importance": "major"
+    },
+    {
+      "id": "autumn",
+      "label": "秋天",
+      "type": "character",
+      "characterRef": "autumn",
+      "importance": "secondary"
+    },
+    {
+      "id": "madoka-orimura",
+      "label": "织斑圆",
+      "type": "character",
+      "characterRef": "madoka-orimura",
+      "importance": "primary"
     }
   ],
   "edges": [
@@ -340,6 +370,110 @@
       "sourceRefs": [
         "is-st-worldbook:entry 6",
         "is-st-worldbook:entry 9"
+      ],
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "ichika-orimura",
+      "to": "goten-dan",
+      "type": "middle-school-friend",
+      "label": "国中好友/损友",
+      "strength": "medium",
+      "direction": "bidirectional",
+      "summary": "弹是一夏国中好友，常打探IS学园生活。",
+      "sourceRefs": [
+        "wenku8:vol2/ch1"
+      ],
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "ichika-orimura",
+      "to": "goten-ran",
+      "type": "younger-girl-crush",
+      "label": "好友妹妹/朦胧好感",
+      "strength": "weak",
+      "direction": "goten-ran -> ichika-orimura",
+      "summary": "兰是弹的妹妹，对一夏有好感并紧张。",
+      "sourceRefs": [
+        "wenku8:vol2/ch1"
+      ],
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "goten-dan",
+      "to": "goten-ran",
+      "type": "siblings",
+      "label": "兄妹",
+      "strength": "strong",
+      "direction": "bidirectional",
+      "summary": "五反田兄妹。",
+      "sourceRefs": [
+        "wenku8:vol2/ch1"
+      ],
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "phantom-task",
+      "to": "squall-meusel",
+      "type": "action-unit-leader",
+      "label": "黑白化身首领",
+      "strength": "strong",
+      "direction": "phantom-task -> squall-meusel",
+      "summary": "斯可儿率领亡国机业行动部队“黑白化身”。",
+      "sourceRefs": [
+        "wenku8:vol11-12"
+      ],
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "squall-meusel",
+      "to": "autumn",
+      "type": "intimate-comrades",
+      "label": "亲密同伴/恋人式关系",
+      "strength": "strong",
+      "direction": "bidirectional",
+      "summary": "秋天关心斯可儿机械身体的痛苦，文本称其体贴恋人斯可儿。",
+      "sourceRefs": [
+        "wenku8:vol11"
+      ],
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "tabane-shinonono",
+      "to": "madoka-orimura",
+      "type": "creator-of-black-knight",
+      "label": "束为圆打造黑骑士",
+      "strength": "strong",
+      "direction": "tabane-shinonono -> madoka-orimura",
+      "summary": "束展示“黑骑士”，称其为小圆的专用机。",
+      "sourceRefs": [
+        "wenku8:vol11-12"
+      ],
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "madoka-orimura",
+      "to": "ichika-orimura",
+      "type": "hostile-targeting",
+      "label": "敌对目标：取一夏性命",
+      "strength": "very-strong",
+      "direction": "madoka-orimura -> ichika-orimura",
+      "summary": "织斑圆自称为杀一夏而来，并多次强袭。",
+      "sourceRefs": [
+        "wenku8:vol12"
+      ],
+      "evidenceLevel": "A"
+    },
+    {
+      "from": "madoka-orimura",
+      "to": "chifuyu-orimura",
+      "type": "identity-shadow",
+      "label": "与千冬外貌/身份阴影相关",
+      "strength": "medium",
+      "direction": "bidirectional",
+      "summary": "一夏注意到圆长得与千冬相似；圆执念于“织斑”身份。",
+      "sourceRefs": [
+        "wenku8:vol12"
       ],
       "evidenceLevel": "A"
     }

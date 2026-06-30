@@ -86,7 +86,37 @@ function norm(s: unknown): string {
 }
 
 function includesQuery(value: unknown, q: string): boolean {
-	return norm(value).includes(q);
+	const hay = norm(value);
+	if (!q) return true;
+	if (hay.includes(q)) return true;
+	const tokens = q.split(/\s+/).map(t => t.trim()).filter(Boolean);
+	return tokens.length > 1 && tokens.every(t => hay.includes(t));
+}
+
+function toArray(val: any): any[] {
+	if (!val) return [];
+	if (Array.isArray(val)) return val;
+	if (typeof val === "object") return Object.entries(val).map(([id, v]: any) => (v && typeof v === "object" ? { id: v.id || id, ...v } : { id, name: id, summary: String(v) }));
+	return [{ id: String(val), name: String(val), summary: String(val) }];
+}
+
+const WORLD_SECTION_ALTS: Record<string, string[]> = {
+	powerSystems: ["powerSystems", "divinityAndFamiliaSystem", "falnaAndGrowth", "technologyAndEnergyEnvironment", "buteiSystem"],
+	factions: ["factions", "factionsAndCrime", "majorFamilias", "departments"],
+	rules: ["rules", "socialRulesForRP", "economyAndGuild", "rankSystem"],
+	locations: ["locations"],
+	events: ["events", "publicEvents", "hiddenEvents", "knownRisks", "rpGuidelines", "sandboxEntryPoints", "rpBaselineBoundaries"],
+	timelines: ["timelines", "timeline", "timelineHighlights", "timelineEvents"],
+};
+
+function worldSection(wj: any, key: string): any[] {
+	const keys = WORLD_SECTION_ALTS[key] || [key];
+	if (key === "events") return keys.flatMap(k => toArray(wj?.[k]));
+	for (const k of keys) {
+		const arr = toArray(wj?.[k]);
+		if (arr.length) return arr;
+	}
+	return [];
 }
 
 function previewText(value: unknown, max = 320): string {
@@ -177,11 +207,8 @@ function overview(params: any, maxBytes: number): ToolResult {
 	const storyIds = flatStoryIndex?.stories
 		? flatStoryIndex.stories.map((s: any) => s.id)
 		: (existsSync(storiesDir) ? readdirSync(storiesDir).filter(s => existsSync(join(storiesDir, s, "index.json"))) : []);
-	function len(val: any): number { if (Array.isArray(val)) return val.length; if (val && typeof val === "object") return Object.keys(val).length; return 0; }
-	function arr(val: any): any[] { if (Array.isArray(val)) return val; if (val && typeof val === "object") return [val]; return []; }
-	const alt: Record<string, string[]> = { powerSystems: ["powerSystems", "divinityAndFamiliaSystem", "falnaAndGrowth", "technologyAndEnergyEnvironment", "buteiSystem"], factions: ["factions", "factionsAndCrime", "majorFamilias", "departments"], rules: ["rules", "socialRulesForRP", "economyAndGuild", "rankSystem"], locations: ["locations"], events: ["events", "publicEvents", "hiddenEvents", "knownRisks", "rpGuidelines", "sandboxEntryPoints", "rpBaselineBoundaries"], timelines: ["timelines", "timeline", "timelineHighlights", "timelineEvents"] };
-	function resolve(key: string): any[] { for (const k of alt[key]||[key]) { const v = worldJson[k]; if (v !== undefined) return arr(v); } return []; }
-		const category = (params.category || "all") as QueryCategory;
+	function resolve(key: string): any[] { return worldSection(worldJson, key); }
+	const category = (params.category || "all") as QueryCategory;
 	const base: any = {
 		ok: true,
 		world: slug,
@@ -242,8 +269,8 @@ function searchCurated(slug: string, query: string, category: QueryCategory, lim
 	if ((category === "all" || category === "world") && existsSync(join(cdir, "world.json"))) {
 		const wj = safeJson(join(cdir, "world.json")) || {};
 		const sections: Array<[string, any[]]> = [
-			["powerSystems", wj.powerSystems || []], ["factions", wj.factions || []], ["rules", wj.rules || []], ["locations", wj.locations || []],
-			["events", [...(wj.events || []), ...(wj.publicEvents || []), ...(wj.hiddenEvents || [])]], ["timelines", wj.timelines || []],
+			["powerSystems", worldSection(wj, "powerSystems")], ["factions", worldSection(wj, "factions")], ["rules", worldSection(wj, "rules")], ["locations", worldSection(wj, "locations")],
+			["events", worldSection(wj, "events")], ["timelines", worldSection(wj, "timelines")],
 		];
 		for (const [section, items] of sections) for (const item of items) {
 			if (includesQuery(item, q)) push({ type: "world", section, ref: `world:${slug}:${section}:${item.id || item.name}`, id: item.id, name: item.name, summary: item.summary || item.description || previewText(item) });
@@ -573,7 +600,7 @@ function graphTraversal(params: any, maxBytes: number): ToolResult {
 
 	// resolve faction details from world.json
 	const factionDetails = (ch.factions || []).map((fn: string) => {
-		const sections: Array<[string, any[]]> = [["factions", wj.factions || []], ["locations", wj.locations || []], ["events", [...(wj.events || []), ...(wj.publicEvents || []), ...(wj.hiddenEvents || [])]]];
+		const sections: Array<[string, any[]]> = [["factions", worldSection(wj, "factions")], ["locations", worldSection(wj, "locations")], ["events", worldSection(wj, "events")]];
 		for (const [section, items] of sections) {
 			const found = items.find((x: any) => norm(x.name || x.id).includes(norm(fn)));
 			if (found) return { name: fn, section, detail: found };

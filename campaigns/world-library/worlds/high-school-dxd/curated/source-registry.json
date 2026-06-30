@@ -27,12 +27,29 @@
       "credibility": "B",
       "scope": "all",
       "notes": "Standalone worldbook with {{user}} placeholders for RP adaptation. Canon accuracy is moderate. Overlaps partially with dxd_card.worldbook.json."
+    },
+    {
+      "id": "wenku8-dxd-toc-audit",
+      "type": "canonical-toc-audit",
+      "url": "https://www.wenku8.net/novel/1/1034/index.htm",
+      "path": "imports/working/high-school-dxd/wenku8-dxd-toc-comparison.md",
+      "description": "Wenku8 High School DxD table-of-contents crawl and comparison against current curated story index. Contains no chapter body text; used only to verify volume/short-story coverage and title mapping.",
+      "fileCount": 1,
+      "entryCount": 38,
+      "extractionTool": "imports/working/high-school-dxd/compare-wenku8-index.mjs",
+      "extractionDate": "2026-06-30",
+      "credibility": "A-for-toc-only",
+      "scope": "story-index-coverage",
+      "notes": "Confirms main volumes 1-25 and several DX/BD/EX/HERO groups are covered, but many side stories are aggregate summaries rather than independent story files."
     }
   ],
   "conflicts": [
     {
       "id": "conflict-001",
-      "sources": ["dxd-card-worldbook", "dxd-standalone-worldbook"],
+      "sources": [
+        "dxd-card-worldbook",
+        "dxd-standalone-worldbook"
+      ],
       "description": "Both worldbooks contain character profiles for the same characters with slightly different framing. Where overlap exists, dxd_card.worldbook.json is treated as primary due to higher detail and entry count.",
       "resolution": "Merged into single character entries with sourceRefs to both sources."
     }

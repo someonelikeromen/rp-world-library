@@ -27,6 +27,32 @@ function saveIndex(idx) {
   fs.writeFileSync(INDEX_PATH, JSON.stringify(idx, null, 2));
 }
 
+function asArray(value) {
+  if (!value) return [];
+  if (Array.isArray(value)) return value;
+  if (typeof value === 'object') return Object.entries(value).map(([id, v]) => {
+    if (v && typeof v === 'object') return { id: v.id || id, name: v.name || v.title || id, ...v };
+    return { id, name: id, summary: String(v) };
+  });
+  return [{ id: String(value), name: String(value), summary: String(value) }];
+}
+
+function firstSections(obj, keys) {
+  for (const k of keys) {
+    const arr = asArray(obj[k]);
+    if (arr.length) return arr;
+  }
+  return [];
+}
+
+function sectionEntry(x) {
+  return {
+    id: x.id || x.slug || x.name || x.title || x.event || 'item',
+    name: x.name || x.title || x.event || x.id || 'item',
+    summary: (x.summary || x.description || x.core || x.detail || x.text || '').substring(0, 100)
+  };
+}
+
 // ============== BUILD ==============
 function build() {
   console.log('Building world library index...');
@@ -82,13 +108,22 @@ function build() {
       if (fs.existsSync(worldPath)) {
         try {
           const w = JSON.parse(fs.readFileSync(worldPath, 'utf-8'));
+          const events = [
+            ...firstSections(w, ['events']),
+            ...asArray(w.publicEvents),
+            ...asArray(w.hiddenEvents),
+            ...asArray(w.knownRisks),
+            ...asArray(w.rpGuidelines),
+            ...asArray(w.sandboxEntryPoints),
+            ...asArray(w.rpBaselineBoundaries)
+          ];
           world.world = {
-            powerSystems: (w.powerSystems || []).map(p => ({ id: p.id, name: p.name, summary: (p.summary||'').substring(0, 100) })),
-            factions: (w.factions || []).map(f => ({ id: f.id, name: f.name, summary: (f.summary||'').substring(0, 100) })),
-            rules: (w.rules || []).map(r => ({ id: r.id, name: r.name, summary: (r.summary||'').substring(0, 100) })),
-            locations: (w.locations || []).map(l => ({ id: l.id, name: l.name, summary: (l.summary||'').substring(0, 100) })),
-            events: (w.events || []).concat(w.publicEvents || []).concat(w.hiddenEvents || []).map(e => ({ id: e.id, name: e.name, summary: (e.summary||'').substring(0, 100) })),
-            timelines: (w.timelines || []).map(t => ({ id: t.id, name: t.name, summary: (t.summary||'').substring(0, 100) })),
+            powerSystems: firstSections(w, ['powerSystems', 'divinityAndFamiliaSystem', 'falnaAndGrowth', 'technologyAndEnergyEnvironment', 'buteiSystem']).map(sectionEntry),
+            factions: firstSections(w, ['factions', 'factionsAndCrime', 'majorFamilias', 'departments']).map(sectionEntry),
+            rules: firstSections(w, ['rules', 'socialRulesForRP', 'economyAndGuild', 'rankSystem']).map(sectionEntry),
+            locations: firstSections(w, ['locations']).map(sectionEntry),
+            events: events.map(sectionEntry),
+            timelines: firstSections(w, ['timelines', 'timeline', 'timelineHighlights', 'timelineEvents']).map(sectionEntry),
             extensions: Object.keys(w.extensions || {})
           };
         } catch (e) { console.log('  WARN ' + slug + ' world: ' + e.message); }
@@ -109,10 +144,24 @@ function build() {
         } catch (e) {}
       }
 
-      // Stories
+      // Stories: supports both flat curated/stories/index.json and nested curated/stories/<id>/index.json.
       const storiesDir = path.join(curatedPath, 'stories');
       if (fs.existsSync(storiesDir)) {
         world.stories = {};
+        const flatIndex = path.join(storiesDir, 'index.json');
+        if (fs.existsSync(flatIndex)) {
+          try {
+            const si = JSON.parse(fs.readFileSync(flatIndex, 'utf-8'));
+            for (const s of (si.stories || [])) {
+              const arcs = s.arcs || s.chapters || [];
+              world.stories[s.id || s.title || 'story'] = {
+                title: s.title || s.name || s.id || 'story',
+                chapters: arcs.length || (s.file ? 1 : 0),
+                arcs: arcs.map(a => ({ id: a.id, name: a.name || a.title || a.id, summary: a.summary, file: a.file })).concat(s.file ? [{ id: s.id, name: s.title || s.id, file: s.file }] : [])
+              };
+            }
+          } catch (e) { console.log('  WARN ' + slug + ' flat stories: ' + e.message); }
+        }
         for (const storyId of fs.readdirSync(storiesDir)) {
           const indexFile = path.join(storiesDir, storyId, 'index.json');
           if (fs.existsSync(indexFile)) {
@@ -120,7 +169,7 @@ function build() {
               const si = JSON.parse(fs.readFileSync(indexFile, 'utf-8'));
               world.stories[storyId] = {
                 title: si.title || storyId,
-                chapters: si.totalChapters || 0,
+                chapters: si.totalChapters || (si.arcs || []).length || 0,
                 arcs: (si.arcs || []).map(a => ({ id: a.id, name: a.name, summary: a.summary, file: a.file }))
               };
             } catch (e) {}
