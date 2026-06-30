@@ -173,8 +173,15 @@ function overview(params: any, maxBytes: number): ToolResult {
 	const worldJson = safeJson(join(cdir, "world.json")) || {};
 	const sources = safeJson(join(cdir, "source-registry.json"));
 	const storiesDir = join(cdir, "stories");
-	const storyIds = existsSync(storiesDir) ? readdirSync(storiesDir).filter(s => existsSync(join(storiesDir, s, "index.json"))) : [];
-	const category = (params.category || "all") as QueryCategory;
+	const flatStoryIndex = safeJson(join(storiesDir, "index.json"));
+	const storyIds = flatStoryIndex?.stories
+		? flatStoryIndex.stories.map((s: any) => s.id)
+		: (existsSync(storiesDir) ? readdirSync(storiesDir).filter(s => existsSync(join(storiesDir, s, "index.json"))) : []);
+	function len(val: any): number { if (Array.isArray(val)) return val.length; if (val && typeof val === "object") return Object.keys(val).length; return 0; }
+	function arr(val: any): any[] { if (Array.isArray(val)) return val; if (val && typeof val === "object") return [val]; return []; }
+	const alt: Record<string, string[]> = { powerSystems: ["powerSystems", "divinityAndFamiliaSystem", "technologyAndEnergyEnvironment"], factions: ["factions", "factionsAndCrime", "majorFamilias"], rules: ["rules", "socialRulesForRP", "economyAndGuild"], locations: ["locations"], events: ["events", "publicEvents", "hiddenEvents", "timelineEvents", "knownRisks"], timelines: ["timelines", "timeline", "timelineHighlights"] };
+	function resolve(key: string): any[] { for (const k of alt[key]||[key]) { const v = worldJson[k]; if (v !== undefined) return arr(v); } return []; }
+		const category = (params.category || "all") as QueryCategory;
 	const base: any = {
 		ok: true,
 		world: slug,
@@ -183,12 +190,12 @@ function overview(params: any, maxBytes: number): ToolResult {
 		worldName: worldJson.worldName,
 		summary: worldJson.summary,
 		sections: {
-			powerSystems: (worldJson.powerSystems || []).length,
-			factions: (worldJson.factions || []).length,
-			rules: (worldJson.rules || []).length,
-			locations: (worldJson.locations || []).length,
-			events: [...(worldJson.events || []), ...(worldJson.publicEvents || []), ...(worldJson.hiddenEvents || [])].length,
-			timelines: (worldJson.timelines || []).length,
+				powerSystems: resolve("powerSystems").length,
+			factions: resolve("factions").length,
+			rules: resolve("rules").length,
+			locations: resolve("locations").length,
+			events: resolve("events").length,
+			timelines: resolve("timelines").length,
 			stories: storyIds,
 			sources: sources?.sources?.length,
 			characters: w.characters?.count,
@@ -204,8 +211,8 @@ function overview(params: any, maxBytes: number): ToolResult {
 		else if (category === "story") base.stories = storyIds.map(id => safeJson(join(storiesDir, id, "index.json")));
 		else if (category === "world") {
 			base.world = {
-				powerSystems: worldJson.powerSystems || [], factions: worldJson.factions || [], rules: worldJson.rules || [], locations: worldJson.locations || [],
-				events: [...(worldJson.events || []), ...(worldJson.publicEvents || []), ...(worldJson.hiddenEvents || [])], timelines: worldJson.timelines || [],
+				powerSystems: resolve("powerSystems"), factions: resolve("factions"), rules: resolve("rules"), locations: resolve("locations"),
+				events: resolve("events"), timelines: resolve("timelines"),
 			};
 		}
 	}
@@ -407,15 +414,35 @@ function stories(params: any, maxBytes: number): ToolResult {
 	if (!existsSync(cdir)) return errorResult(`No curated story data for world: ${slug}`, maxBytes);
 	const storiesRoot = join(cdir, "stories");
 	if (!existsSync(storiesRoot)) return errorResult(`stories/ not found for world: ${slug}`, maxBytes);
+
+	// check for flat index format: stories/index.json (DxD style)
+	const flatIndex = safeJson(join(storiesRoot, "index.json"));
+	const isFlat = !!(flatIndex?.stories && Array.isArray(flatIndex.stories));
+
 	const storyId = params.storyId;
 	const chapter = params.chapter;
+
 	if (!storyId) {
+		if (isFlat) {
+			const list = flatIndex.stories.map((s: any) => ({ storyId: s.id, title: s.title, sourceRef: s.sourceRef }));
+			return textResult({ ok: true, world: slug, format: "flat", stories: list, totalStories: flatIndex.totalStories || list.length, next: list.map(s => `world_query { action: "stories", world: "${slug}", storyId: "${s.storyId}" }`) }, { ok: true, action: "stories", world: slug, format: "flat", count: list.length }, maxBytes);
+		}
 		const list = readdirSync(storiesRoot).filter(s => existsSync(join(storiesRoot, s, "index.json"))).map(id => {
 			const si = safeJson(join(storiesRoot, id, "index.json")) || {};
 			return { storyId: id, title: si.title, totalChapters: si.totalChapters };
 		});
-		return textResult({ ok: true, world: slug, stories: list, next: list.map(s => `world_query { action: "stories", world: "${slug}", storyId: "${s.storyId}" }`) }, { ok: true, action: "stories", world: slug, count: list.length }, maxBytes);
+		return textResult({ ok: true, world: slug, format: "nested", stories: list, next: list.map(s => `world_query { action: "stories", world: "${slug}", storyId: "${s.storyId}" }`) }, { ok: true, action: "stories", world: slug, format: "nested", count: list.length }, maxBytes);
 	}
+
+	// handle flat format chapter lookup
+	if (isFlat) {
+		const story = flatIndex.stories.find((s: any) => s.id === storyId || s.title === storyId);
+		if (!story) return errorResult(`Story not found: ${slug}/${storyId}`, maxBytes);
+		const file = join(cdir, story.file);
+		return textResult({ ok: true, world: slug, storyId: story.id, title: story.title, sourceRef: story.sourceRef, format: "flat", path: rel(file), content: existsSync(file) ? readFileSync(file, "utf8") : "" }, { ok: true, action: "stories", world: slug, storyId, format: "flat", path: rel(file) }, maxBytes);
+	}
+
+	// nested format: stories/{storyId}/index.json
 	const sdir = join(storiesRoot, storyId);
 	const si = safeJson(join(sdir, "index.json"));
 	if (!si) return errorResult(`Story not found: ${slug}/${storyId}`, maxBytes);
