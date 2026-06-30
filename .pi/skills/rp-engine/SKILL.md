@@ -190,11 +190,11 @@ NPC内心用 `*` 包裹穿插正文。触发：言行反差/重大决定/情绪�
 - `rp-curation`：世界归档
 
 ### 心理模型库
-- `campaigns/world-library/worlds/character-psyche/` — 46个ACG角色心理模型
-- 生成新NPC时：用 `world_query { action: "characters", world: "character-psyche", query: "标签" }` 查找对应心理模型
-- 角色一致性检查：对比角色当前行为与模型中的"禁止规则"
-- 角色演化：参考模型间 evolves-to 关系，设计角色成长弧线
-- 组合：两个以上模型可组合（如"傲娇+大小姐"），查看 knowledge-graph 中的 combines-with 关系
+- `knowledge/character-psyche/` — 46个ACG角色心理模型
+- 生成新NPC时：读取对应心理模型的 detail 字段获取完整行为规则
+- 角色一致性检查：对比角色当前行为与模型中的"禁止规则"（`psyche.forbiddenRules`）
+- 角色演化：参考 `knowledge-graph.json` 中的 evolves-to 关系
+- 组合：`knowledge-graph.json` 中的 combines-with 关系
 
 ### 思维链规则
 - `rules/rp-distributed-thinking.md` — 战斗/社交/暗线/世界四域思维链
