@@ -52,30 +52,18 @@ fi
 CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
 DEV_COMMIT=$(git rev-parse HEAD)
 
-# --- 4. 合并到 release 分支 ---
-log "切换到 release 分支..."
-git checkout release
-log "合并 $CURRENT_BRANCH → release..."
+# --- 4. 在发布目录中合并 ---
+log "在 $RELEASE_DIR 中合并 $CURRENT_BRANCH → release..."
+cd "$RELEASE_DIR"
 if git merge "$CURRENT_BRANCH" --no-edit; then
     log "合并成功"
 else
     err "合并冲突！请手动解决后重新运行"
-    git checkout "$CURRENT_BRANCH"
+    cd "$DEV_DIR"
     exit 1
 fi
 
 RELEASE_COMMIT=$(git rev-parse HEAD)
-git checkout "$CURRENT_BRANCH"
-
-# --- 5. 更新发布目录 ---
-log "更新发布目录 $RELEASE_DIR ..."
-cd "$RELEASE_DIR"
-git pull origin release 2>/dev/null || git merge release --no-edit 2>/dev/null || {
-    # 如果远程不可用，直接 checkout 到最新
-    git fetch origin release 2>/dev/null || true
-    git reset --hard "origin/release" 2>/dev/null || git checkout release
-}
-
 cd "$DEV_DIR"
 
 # --- 6. 输出结果 ---
