@@ -1,117 +1,55 @@
-# World Query Tool
+# world_query — 世界书库渐进查询工具
 
-项目本地 Pi 扩展：`.pi/extensions/world-query.ts`
+项目扩展工具，AI 可直接调用。配置文件：`.pi/rp-data-tools.json`
 
-配置入口：`.pi/rp-data-tools.json`
+## Actions
 
-用途：给 AI 一个专门的世界书查询工具，避免每次手动 `grep/read` 大型 JSON。工具按当前归档结构渐进式加载：
+| Action | 参数 | 用途 |
+|--------|------|------|
+| `worlds` | `status?`, `query?`, `limit?` | 列出所有世界观（63个=5精选+58原始） |
+| `overview` | `world`, `category?` | 世界观总览：力量体系/派系/规则/地点/事件/时间线/故事/角色统计 |
+| `search` | `world`, `query`, `category?`, `allWorlds?`, `limit?` | 关键词搜索。allWorlds=true 跨世界搜索 |
+| `get` | `ref` | 按 ref 精确取条目内容 |
+| `characters` | `world`, `query?`, `limit?` | 角色索引列表/搜索 |
+| `stories` | `world`, `storyId?`, `chapter?` | 故事章节索引/内容（支持 flat 和 nested 两种索引格式） |
+| `aggregate` | `world`, `query` | 跨文件聚合查询：一次搜索返回实体的完整信息（角色+世界条目+故事+原始） |
+| `graph` | `entityRef` | 关系图谱遍历：从角色出发查同派系/同力量体系/故事登场 |
 
-1. 查询 `campaigns/world-library/.wl-index.json`。
-2. 若世界为 `curated`，优先查：
-   - `world.json`
-   - `characters-index.json`
-   - `stories/*/index.json` 与章节 `.md`
-   - `world-rules/*.md`
-   - `source-registry.json`
-3. 若世界为 `raw`，fallback 到：
-   - `campaigns/world-library/imports/worldviews/<slug>/worldbooks/*.json`
-4. 返回稳定 `ref`，后续用 `action: "get"` 精确取全文。
-5. 自动截断大输出，并把完整结果保存到临时文件。
+## Ref 体系
 
-## 工具名
+| 前缀 | 格式 | 示例 |
+|------|------|------|
+| `char:` | `char:{world}:{charId}` | `char:type-moon-nasuverse:fsn-rin` |
+| `world:` | `world:{world}:{section}:{id}` | `world:high-school-dxd:factions:gremory` |
+| `story:` | `story:{world}:{storyId}:{chapter}` | `story:high-school-dxd:第一卷:1` |
+| `rule:` | `rule:{world}:{filename}` | `rule:high-school-dxd:combat-framework` |
+| `source:` | `source:{world}:{sourceId}` | `source:type-moon-nasuverse:fate-stay-night` |
+| `raw:` | `raw:{world}:{filename}:{index}` | `raw:naruto:火影忍者.json:42` |
 
-`world_query`
+## Schema 兼容
 
-## 参数
+`overview()` 自动识别多种 world.json schema 格式：
+- 数组格式：`powerSystems: [{...}, ...]`
+- 对象格式：`powerSystems: { key: {...} }`
+- 别名映射：`divinityAndFamiliaSystem` → `powerSystems`，`factionsAndCrime` → `factions` 等
 
-```ts
-{
-  action: "worlds" | "overview" | "search" | "get" | "characters" | "stories",
-  world?: string,
-  query?: string,
-  ref?: string,
-  category?: "all" | "character" | "world" | "story" | "rule" | "raw" | "source" | "graph",
-  storyId?: string,
-  chapter?: string,
-  status?: "all" | "curated" | "raw",
-  limit?: number,
-  includeContent?: boolean,
-  maxBytes?: number
-}
-```
+## Stories 索引格式
 
-## 常用调用
+支持两种格式：
+- **Flat**（DxD/danmachi/aria）：`stories/index.json`，stories 数组平铺
+- **Nested**（型月）：`stories/{storyId}/index.json`，每线独立目录
 
-### 列出世界
+## 跨世界搜索
 
 ```json
-{ "action": "worlds" }
+{ "action": "search", "query": "Saber", "allWorlds": true, "limit": 20 }
 ```
 
-### 搜索世界
+搜索所有 63 个世界，返回结果含世界观名称和状态。
 
-```json
-{ "action": "search", "world": "type-moon-nasuverse", "query": "远坂凛" }
-```
+## 排序规则
 
-### 取搜索结果全文
-
-```json
-{ "action": "get", "ref": "char:type-moon-nasuverse:fsn-rin" }
-```
-
-### 查角色列表
-
-```json
-{ "action": "characters", "world": "high-school-dxd", "query": "莉雅丝" }
-```
-
-### 查故事索引
-
-```json
-{ "action": "stories", "world": "type-moon-nasuverse" }
-```
-
-### 查某故事章节列表
-
-```json
-{ "action": "stories", "world": "type-moon-nasuverse", "storyId": "fgo" }
-```
-
-### 读某章节
-
-```json
-{ "action": "stories", "world": "type-moon-nasuverse", "storyId": "fgo", "chapter": "冬木" }
-```
-
-## 启用方式
-
-扩展位于项目本地 `.pi/extensions/`，保存后在 Pi 中执行 `/reload`，随后工具应出现在 AI 可用工具列表中。
-
-## 自扩展方式
-
-世界书根目录、索引位置、curated/raw 目录和未来扩展槽都在 `.pi/rp-data-tools.json` 的 `worldLibrary` 下配置：
-
-```json
-{
-  "worldLibrary": {
-    "root": "campaigns/world-library",
-    "index": ".wl-index.json",
-    "curatedDir": "worlds",
-    "rawWorldviewsDir": "imports/worldviews",
-    "extensionSlots": {
-      "customSearchProviders": [],
-      "customRefResolvers": [],
-      "rankingRules": []
-    }
-  }
-}
-```
-
-后续可在扩展槽中加入自定义检索器、ref 解析器、排序规则；当前版本先保留配置位，核心逻辑仍内置于 `.pi/extensions/world-query.ts`。
-
-## 注意
-
-- `characters-index.json` 可能很大，AI 应优先 `search` / `characters`，不要直接 read 全文件。
-- `raw` 世界尚未结构化，工具只能按 worldbook entry 搜索并返回原条目。
-- 用户修正 > curated > raw worldbook。
+通过 `.pi/rp-data-tools.json` 的 `rankingRules` 配置：
+- curated 优先于 raw
+- character 优先于 world section
+- importance 权重排序

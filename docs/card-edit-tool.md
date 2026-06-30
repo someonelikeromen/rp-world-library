@@ -1,215 +1,70 @@
-# Card Edit Tool
+# card_edit — 角色卡读写工具
 
-项目本地 Pi 扩展：`.pi/extensions/card-edit.ts`
+项目扩展工具，AI 可直接调用。配置文件：`.pi/rp-data-tools.json`
 
-用途：给 AI 一个通用的 RP 人物卡快速查询/修改工具。默认注册主角卡 `card/linjie.json`，但结构通过 `.pi/rp-data-tools.json` 配置，可继续扩展到更多角色卡或新字段结构。
+## Actions
 
-## 工具名
+| Action | 参数 | 用途 |
+|--------|------|------|
+| `cards` | — | 列出所有已注册角色卡（含 NPC） |
+| `get` | `card?`, `path?` | 读取卡数据，支持 dot path |
+| `status` | `card?` | 轻量摘要：基本信息/魔力/战斗/资源/关键关系/物品摘要 |
+| `set` | `card?`, `path`, `value` | 设置精确值 |
+| `merge` | `card?`, `path?`, `value` | 深度合并对象 |
+| `append` | `card?`, `path`, `value` | 追加到数组 |
+| `upsert` | `card?`, `path`, `item`, `id?`, `idField?` | 插入或更新（按 id 匹配） |
+| `remove` | `card?`, `path`, `id?`, `idField?` | 删除（支持按 id 选择数组元素） |
+| `batch` | `card?`, `operations` | 批量原子操作 |
+| `validate` | `card?` | 一致性校验（路径+自定义规则+cross-field） |
+| `register` | `card`, `cardPath`, `cardLabel?`, `cardAliases?` | 注册 NPC 卡到配置 |
 
-`card_edit`
+## Dot Path 语法
 
-## 配置入口
+| 语法 | 示例 | 说明 |
+|------|------|------|
+| 简单路径 | `age` | 直接字段 |
+| 嵌套路径 | `magic.circuits` | 多级嵌套 |
+| 数组索引 | `relationships[0]` | 按索引选择 |
+| ID 选择器 | `resources[id=mana].current` | 按数组元素的 id 字段选择 |
+| 通配符 | `combatRating.*.score` | 校验时遍历所有子对象 |
 
-`.pi/rp-data-tools.json`
+## 自动钩子 (postUpdateHooks)
 
-当前注册：
+写入成功后自动执行（配置在 `.pi/rp-data-tools.json`）：
 
-```json
-{
-  "cards": {
-    "protagonist": {
-      "path": "card/linjie.json",
-      "schema": "rp-character-v1",
-      "aliases": ["linjie", "林界", "主角"],
-      "idArrays": {
-        "magic.knownSpells": "id",
-        "abilities": "id",
-        "resources": "id",
-        "relationships": "id"
-      }
-    }
+| 钩子 | 行为 |
+|------|------|
+| `log` | 记录变更到 `memory/card-edit-{timestamp}.json`（含快照和变更列表） |
+| `memory-sync` | 更新 `memory/card-status-snapshot.md`（轻量状态摘要） |
+
+## 自动计算 (derivedFields)
+
+| 规则 | 行为 |
+|------|------|
+| `resources[id=mana].current` | 自动同步自 `magic.circuits.currentReserve` |
+| `combatRatingFromStats` | 根据各分项 score 自动计算 overall 综合评分 |
+
+## 校验 (customValidators)
+
+| 类型 | 示例 |
+|------|------|
+| `range` | `magic.circuits.currentReserve` 必须在 0 到 maxReserve 之间 |
+| `required` | `name` 和 `currentStatus` 不能为空 |
+| `equal` | 两个路径的值必须相等 |
+
+## RP 使用流程（强制）
+
+每次推进剧情后：
+
+```
+1. card_edit { action: "status" }          → 查看当前状态摘要
+2. card_edit { action: "batch",            → 批量更新所有变更
+    operations: [
+      { action: "set", path: "age", value: 19 },
+      { action: "set", path: "magic.circuits.currentReserve", value: 15000 },
+      ...
+    ]
   }
-}
 ```
 
-## 参数
-
-```ts
-{
-  action: "cards" | "get" | "set" | "merge" | "append" | "upsert" | "remove" | "batch" | "validate",
-  card?: string,
-  path?: string,
-  value?: any,
-  item?: any,
-  id?: string,
-  idField?: string,
-  operations?: Array<Operation>,
-  dryRun?: boolean,
-  backup?: boolean,
-  note?: string,
-  maxBytes?: number
-}
-```
-
-## 路径语法
-
-支持：
-
-```text
-age
-currentStatus.location
-magic.circuits.currentReserve
-resources[id=mana].current
-magic.knownSpells[id=reinforcement].panelLevel
-relationships[id=waver].currentRelation
-abilities[0].name
-```
-
-数组可用：
-
-- `[0]`：数字索引。
-- `[id=mana]`：按字段选择，字段和值可替换。
-- `idField`：对 `upsert/remove` 指定数组 id 字段；不填时使用 `.pi/rp-data-tools.json` 中 `idArrays`，再 fallback 到 `id`。
-
-## 常用调用
-
-### 列出已注册人物卡
-
-```json
-{ "action": "cards" }
-```
-
-### 读取整张主角卡
-
-```json
-{ "action": "get", "card": "protagonist" }
-```
-
-### 读取单个字段
-
-```json
-{ "action": "get", "card": "protagonist", "path": "currentStatus" }
-```
-
-### 修改年龄
-
-```json
-{ "action": "set", "card": "protagonist", "path": "age", "value": 19 }
-```
-
-### 修改魔力当前值
-
-```json
-{ "action": "batch", "card": "protagonist", "operations": [
-  { "action": "set", "path": "magic.circuits.currentReserve", "value": 15000 },
-  { "action": "set", "path": "resources[id=mana].current", "value": 15000 },
-  { "action": "set", "path": "combatRating.resource.mana.current", "value": 15000 }
-] }
-```
-
-### 更新技能等级
-
-```json
-{
-  "action": "set",
-  "card": "protagonist",
-  "path": "magic.knownSpells[id=reinforcement].panelLevel",
-  "value": "Lv.16（0/1638400）"
-}
-```
-
-### 更新关系
-
-```json
-{
-  "action": "set",
-  "card": "protagonist",
-  "path": "relationships[id=waver].currentRelation",
-  "value": "时钟塔同学，关系升温，互相信任"
-}
-```
-
-### 添加或更新资源/能力/关系
-
-```json
-{
-  "action": "upsert",
-  "card": "protagonist",
-  "path": "resources",
-  "item": { "id": "command-seal", "name": "令咒", "current": 3, "unit": "划" }
-}
-```
-
-### 批量更新当前状态
-
-```json
-{
-  "action": "merge",
-  "card": "protagonist",
-  "path": "currentStatus",
-  "value": {
-    "world": "type-moon-nasuverse",
-    "location": "伦敦时钟塔",
-    "time": "1993年2月",
-    "condition": "完成一次训练结算，魔力小幅消耗。"
-  }
-}
-```
-
-### 先 dry-run 再真正写入
-
-```json
-{
-  "action": "set",
-  "card": "protagonist",
-  "path": "resources[id=mana].current",
-  "value": 16000,
-  "dryRun": true
-}
-```
-
-### 校验同步状态
-
-```json
-{ "action": "validate", "card": "protagonist" }
-```
-
-## 写入行为
-
-- 默认每次修改前备份到 `backup/card-edits/`。
-- 写入是临时文件 + rename 的原子写入。
-- `dryRun: true` 不写文件，只返回变化预览和校验结果。
-- 修改后自动运行基础校验：必需路径、魔力/资金一致性等。
-
-## 每轮 RP 后的主角卡同步要求
-
-剧情推进后优先用 `card_edit` 同步：
-
-- `age`
-- `magic.circuits.currentReserve`
-- `magic.knownSpells[].panelLevel`
-- `combatRating.*.score`
-- `resources[].current`
-- `inventory`（如果后续加入）
-- `relationships[].currentRelation`
-- `currentStatus`
-
-## 自扩展方式
-
-后续要新增人物卡，只需在 `.pi/rp-data-tools.json` 的 `cards` 下增加：
-
-```json
-"some-card": {
-  "path": "card/some-card.json",
-  "schema": "rp-character-v1",
-  "label": "某角色",
-  "aliases": ["某角色"],
-  "requiredPaths": ["name", "currentStatus"],
-  "idArrays": { "resources": "id", "relationships": "id" },
-  "extensionSlots": {
-    "customValidators": [],
-    "derivedFields": [],
-    "postUpdateHooks": []
-  }
-}
-```
+写入后自动触发 memory 同步，无需手动更新 memory 文件。
