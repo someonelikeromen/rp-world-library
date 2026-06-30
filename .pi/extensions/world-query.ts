@@ -179,7 +179,7 @@ function overview(params: any, maxBytes: number): ToolResult {
 		: (existsSync(storiesDir) ? readdirSync(storiesDir).filter(s => existsSync(join(storiesDir, s, "index.json"))) : []);
 	function len(val: any): number { if (Array.isArray(val)) return val.length; if (val && typeof val === "object") return Object.keys(val).length; return 0; }
 	function arr(val: any): any[] { if (Array.isArray(val)) return val; if (val && typeof val === "object") return [val]; return []; }
-	const alt: Record<string, string[]> = { powerSystems: ["powerSystems", "divinityAndFamiliaSystem", "technologyAndEnergyEnvironment"], factions: ["factions", "factionsAndCrime", "majorFamilias"], rules: ["rules", "socialRulesForRP", "economyAndGuild"], locations: ["locations"], events: ["events", "publicEvents", "hiddenEvents", "timelineEvents", "knownRisks"], timelines: ["timelines", "timeline", "timelineHighlights"] };
+	const alt: Record<string, string[]> = { powerSystems: ["powerSystems", "divinityAndFamiliaSystem", "falnaAndGrowth", "technologyAndEnergyEnvironment", "buteiSystem"], factions: ["factions", "factionsAndCrime", "majorFamilias", "departments"], rules: ["rules", "socialRulesForRP", "economyAndGuild", "rankSystem"], locations: ["locations"], events: ["events", "publicEvents", "hiddenEvents", "knownRisks", "rpGuidelines", "sandboxEntryPoints", "rpBaselineBoundaries"], timelines: ["timelines", "timeline", "timelineHighlights", "timelineEvents"] };
 	function resolve(key: string): any[] { for (const k of alt[key]||[key]) { const v = worldJson[k]; if (v !== undefined) return arr(v); } return []; }
 		const category = (params.category || "all") as QueryCategory;
 	const base: any = {
