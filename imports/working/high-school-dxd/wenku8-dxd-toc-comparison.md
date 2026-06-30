@@ -1,11 +1,11 @@
 # Wenku8《恶魔高校DxD》目录爬取与当前世界数据核对报告
 
 - 爬取源：https://www.wenku8.net/novel/1/1034/index.htm
-- 爬取时间：2026-06-30T15:04:12.135Z
+- 爬取时间：2026-06-30T15:16:11.666Z
 - 范围：仅保存目录/章节标题元数据，未保存正文。
 - 源目录分组：38 个；章节链接：430 个。
 - 当前 curated stories/index.json 条目：35 个。
-- 当前 source-registry 来源：dxd-card-worldbook, dxd-standalone-worldbook, wenku8-dxd-toc-audit。
+- 当前 source-registry 来源：dxd-card-worldbook, dxd-standalone-worldbook, wenku8-dxd-toc-audit, wenku8-true-dxd-toc-audit, wenku8-slashdog-toc-audit。
 
 ## 覆盖统计
 

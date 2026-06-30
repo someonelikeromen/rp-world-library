@@ -41,8 +41,26 @@
 - **外传混入**：时间轴和人物条目混入《剑姬神圣谭》等外传事件；不是错误，但应在剧情定位中说明。
 - **部分细节为常识性归纳**：例如某些角色关系的简化描述为 B 级证据，完整细节需回查源条目或原作。
 
+## 2026-06-30 外部目录源迭代
+
+新增登记 5 个 Wenku8 外部目录源，作为“卷章目录/元数据”对照，不保存小说正文：
+
+- 本篇：`sources/wenku8/danmachi-main.toc.json`，397 条目录项。
+- 剑姬神圣谭：`sources/wenku8/sword-oratoria.toc.json`，203 条目录项。
+- 眷族编年史：`sources/wenku8/familia-chronicle.toc.json`，35 条目录项。
+- 阿尔戈英雄谭：`sources/wenku8/argonaut.toc.json`，32 条目录项。
+- 阿斯特莉亚回忆录英雄谭：`sources/wenku8/astraea-record.toc.json`，61 条目录项。
+
+新增产物：
+
+- `stories/original-toc-index.json`：统一原著目录索引。
+- `stories/original-toc-summary.md`：目录摘要。
+- `danmachi-archive-iteration-report.md`：外部目录源入库、归档对比与后续迭代任务。
+
+对比结论：当前 `curated/stories/` 已有 timeline、战斗体系、事件提醒、黄金城赌场篇等 RP 资料，但并非按本篇/外传/英雄谭完整卷章重建；后续应先做目录标准化与摘要层补齐，再把关键事件、角色、地点挂接到图谱。
+
 ## 验证状态
 
 - 已创建/覆盖 7 个要求文件。
-- JSON 文件按手工检查保持合法语法结构；本环境未提供命令执行工具，未运行 JSON parser 验证。
-- 所有写入均位于 `campaigns/world-library/worlds/danmachi/curated/`。
+- 2026-06-30：新增外部目录源索引、统一目录索引与迭代报告；JSON 结构已通过本地脚本读取/写入。
+- 所有正文向世界书归档的写入仍位于 `campaigns/world-library/worlds/danmachi/curated/`；外部目录源索引位于 `campaigns/world-library/worlds/danmachi/sources/wenku8/`。
