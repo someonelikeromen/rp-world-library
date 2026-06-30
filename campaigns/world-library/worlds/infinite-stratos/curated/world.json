@@ -2,13 +2,30 @@
   "schema": "rp-world-v1",
   "worldId": "infinite-stratos",
   "worldName": "IS〈Infinite Stratos〉 / 无限斯特拉托斯",
-  "aliases": ["Infinite Stratos", "无限斯特拉托斯", "IS", "无限斯特托拉斯(源文件误写)"],
-  "genre": ["near-future", "mecha", "academy", "action", "romantic-comedy", "harem"],
+  "aliases": [
+    "Infinite Stratos",
+    "无限斯特拉托斯",
+    "IS",
+    "无限斯特托拉斯(源文件误写)"
+  ],
+  "genre": [
+    "near-future",
+    "mecha",
+    "academy",
+    "action",
+    "romantic-comedy",
+    "harem"
+  ],
   "summary": "近未来地球因泛用强化外骨骼兵器IS（Infinite Stratos）而改变。IS战力强大、核心稀少，且通常只有女性能启动，因此女性驾驶员、国家代表候补生与IS相关产业获得极高政治与军事价值。织斑一夏作为唯一已知能驾驶IS的男性被送入IS学园，与来自各国的候补生共同学习、竞争、卷入不明机体与国际阴谋。RP重点是学园日常、IS训练/竞技、国家与企业围绕IS核心的争夺，以及‘唯一男性驾驶员’引发的认知冲击与关系重构。",
   "sandboxPrinciple": "以IS学园为安全主舞台，允许从学生、候补生、教师、维修/研究员、企业代理、国际组织观察员或原创特殊驾驶员切入；世界事件按IS核心稀缺、国家利益、学园规章和角色动机自然演化。",
   "hasFixedFate": false,
   "foreignPowerSuppressionDefault": false,
-  "sourceRefs": ["is-st-worldbook:entry 4", "is-st-worldbook:entry 6", "is-st-worldbook:entry 7", "is-st-worldbook:entry 9"],
+  "sourceRefs": [
+    "is-st-worldbook:entry 4",
+    "is-st-worldbook:entry 6",
+    "is-st-worldbook:entry 7",
+    "is-st-worldbook:entry 9"
+  ],
   "evidenceLevel": "B",
   "corePremise": {
     "publicFacts": [
@@ -45,53 +62,305 @@
       ]
     },
     "notableTechnologies": [
-      { "id": "absolute-defense", "name": "绝对防御", "description": "IS保护驾驶员的核心安全机制；适合RP中作为竞技安全边界与危机时的最后保护。", "evidenceLevel": "A" },
-      { "id": "vt-system", "name": "VT系统", "description": "源剧情提及被阿拉斯加条约禁忌化的系统，可与银色福音/亡国机业阴谋相连。", "evidenceLevel": "B" },
-      { "id": "ai-hoshi-shirube", "name": "端白星AI", "description": "源世界书为白式配置的辅助AI，初始冰冷，随互动提升人性化；适合作为RP状态栏/伙伴机制。", "evidenceLevel": "B" },
-      { "id": "training-sim", "name": "IS训练模拟舱", "description": "学园用于基础操作、极端环境、战术配合与禁止技术反制训练的模拟设施。", "evidenceLevel": "B" }
+      {
+        "id": "absolute-defense",
+        "name": "绝对防御",
+        "description": "IS保护驾驶员的核心安全机制；适合RP中作为竞技安全边界与危机时的最后保护。",
+        "evidenceLevel": "A"
+      },
+      {
+        "id": "vt-system",
+        "name": "VT系统",
+        "description": "源剧情提及被阿拉斯加条约禁忌化的系统，可与银色福音/亡国机业阴谋相连。",
+        "evidenceLevel": "B"
+      },
+      {
+        "id": "ai-hoshi-shirube",
+        "name": "端白星AI",
+        "description": "源世界书为白式配置的辅助AI，初始冰冷，随互动提升人性化；适合作为RP状态栏/伙伴机制。",
+        "evidenceLevel": "B"
+      },
+      {
+        "id": "training-sim",
+        "name": "IS训练模拟舱",
+        "description": "学园用于基础操作、极端环境、战术配合与禁止技术反制训练的模拟设施。",
+        "evidenceLevel": "B"
+      }
     ]
   },
   "factions": [
-    { "id": "is-academy", "name": "IS学园", "type": "international-academy", "description": "培养IS驾驶员的国际化学园。兼具学校、训练基地、外交缓冲区与技术管制节点。教师与学生会对学园秩序有较强影响力。", "locations": ["is-academy"], "evidenceLevel": "A" },
-    { "id": "national-representatives", "name": "各国代表候补生体系", "type": "state-program", "description": "各国培养并派遣精英少女驾驶员。候补生代表国家颜面、军事潜力和技术路线，常在学园内形成竞争与合作。", "locations": ["is-academy", "national-bases"], "evidenceLevel": "A" },
-    { "id": "shinonono-lab", "name": "篠之之束/私人技术网络", "type": "research-network", "description": "IS发明者束的个人技术圈与隐秘实验资源。可推动红椿、白式升级、核心异常与恶作剧事件。", "locations": ["hidden-labs", "is-academy-underground"], "evidenceLevel": "B" },
-    { "id": "dunois-industry", "name": "德诺阿社/法国企业线", "type": "corporation", "description": "与夏洛特相关的IS企业/家族势力。可用于企业利益、伪装任务、机体测试和继承压力剧情。", "locations": ["france", "is-academy"], "evidenceLevel": "A" },
-    { "id": "german-black-rabbit", "name": "德国黑兔部队", "type": "military-unit", "description": "劳拉出身的德国特殊部队/强化兵训练体系，强调任务、纪律与战斗效率。", "locations": ["germany", "is-academy"], "evidenceLevel": "A" },
-    { "id": "phantom-task", "name": "亡国机业/Phantom Task", "type": "covert-organization", "description": "围绕IS核心、实验机与驾驶员发动袭击和阴谋的秘密组织；适合作为中后期敌对主线。", "locations": ["global"], "evidenceLevel": "A" },
-    { "id": "alaska-treaty-system", "name": "阿拉斯加条约/国际IS管制", "type": "treaty-regime", "description": "源剧情用来约束IS军事用途、研究共享和VT系统禁忌的国际框架；可作为国家企业行动边界。", "locations": ["global"], "evidenceLevel": "B" }
+    {
+      "id": "is-academy",
+      "name": "IS学园",
+      "description": "世界唯一IS驾驶员培育机构，位于人工岛。学生约600人全为女性(除一夏)。各国代表候补生在此学习。教职员含前代表织斑千冬。"
+    },
+    {
+      "id": "phantom-task",
+      "name": "亡国机业(Phantom Task)",
+      "description": "国际IS恐怖组织。企图夺取高性能IS核心和技术，多次袭击IS学园。首领为马迪亚斯，后由圆/马迪亚斯·雷·因·维塔接替。拥有无人IS银色福音等。"
+    },
+    {
+      "id": "shinonono-heavy-industry",
+      "name": "筱之之重工",
+      "description": "日本IS开发企业，由筱之之束创立。掌握IS核心技术和白式的开发。与各国政府密切合作，在学园地下秘密机库进行研发。"
+    },
+    {
+      "id": "national-representatives",
+      "name": "各国代表候补生制度",
+      "description": "各国派遣至IS学园的精英IS驾驶员。持有专用第三世代IS和专属支援团队。包括:英国(西西莉亚)、中国(凰铃音)、法国(夏洛特)、德国(拉芙拉)、俄罗斯(塔妮亚)。"
+    },
+    {
+      "id": "is-academy-student-council",
+      "name": "IS学园学生会",
+      "description": "学园自治组织，会长更识楯无，副会长更识簪。掌握学园内部的非正式权力网络。"
+    }
   ],
   "locations": [
-    { "id": "is-academy", "name": "IS学园", "type": "academy", "description": "主要舞台。设有教学楼、训练场、竞技场、宿舍、机库、学生会室、医务室、食堂与商业街。国际化、女性学生为绝大多数。", "evidenceLevel": "A", "sourceRefs": ["is-st-worldbook:entry 4", "is-st-worldbook:entry 7"] },
-    { "id": "central-arena", "name": "中央竞技场/训练竞技场", "type": "combat-arena", "description": "举办班级代表战、对抗赛和公开演习的空间；有观众席、防护系统与可变战斗场地。", "evidenceLevel": "B", "sourceRefs": ["is-st-worldbook:entry 7"] },
-    { "id": "hangar", "name": "IS机库", "type": "technical-facility", "description": "存放训练机、专用机维护设备、换装Package与检查系统。适合机体故障、数据泄露、夜间潜入剧情。", "evidenceLevel": "B", "sourceRefs": ["is-st-worldbook:entry 7"] },
-    { "id": "student-dormitory", "name": "学生宿舍", "type": "daily-life", "description": "各国学生生活与私下交流地点；可体现文化差异、料理、房间布置、恋爱喜剧误会。", "evidenceLevel": "B", "sourceRefs": ["is-st-worldbook:entry 7"] },
-    { "id": "student-council-room", "name": "学生会室", "type": "political-social", "description": "更识楯无处理事务、收集情报、调度学园事件的据点。", "evidenceLevel": "B", "sourceRefs": ["is-st-worldbook:entry 7"] },
-    { "id": "underground-complex", "name": "学园地下设施/束的秘密实验室(AU)", "type": "secret-lab", "description": "源世界书设定束隐藏在学园地下并与千冬秘密联络。作为AU或沙盒暗线使用。", "evidenceLevel": "C", "sourceRefs": ["is-st-worldbook:entry 7", "is-st-worldbook:entry 9"] },
-    { "id": "national-bases", "name": "各国IS研究基地", "type": "global-sites", "description": "英、中、法、德、俄等国家/企业的IS研究、军方训练或代表候补生背景地点。", "evidenceLevel": "B" },
-    { "id": "global-stage", "name": "全球IS舞台", "type": "macro-setting", "description": "国际竞赛、核心失窃、企业并购、恐怖袭击和条约谈判发生的外部世界。", "evidenceLevel": "B", "sourceRefs": ["is-st-worldbook:entry 6"] }
+    {
+      "id": "is-academy-island",
+      "name": "IS学园人工岛",
+      "description": "位于太平洋的人工岛，IS学园所在地。包含教学区、竞技场、宿舍、整备库等设施。地下有筱之之束建造的秘密机库。"
+    },
+    {
+      "id": "third-arena",
+      "name": "第三竞技场",
+      "description": "IS实战训练和班级对抗赛专用场地。配备能量护盾和实弹模拟系统。"
+    },
+    {
+      "id": "dormitory",
+      "name": "一年级宿舍",
+      "description": "学生生活区。一夏和箒为室友(同室不同床)。男女区域分开，但一夏是唯一的例外。"
+    },
+    {
+      "id": "is-hangar",
+      "name": "IS整备库",
+      "description": "各班级和个人的IS机体存放和维护场所。专用机有独立格纳库。"
+    },
+    {
+      "id": "goten-household",
+      "name": "五反田家",
+      "description": "东京某处的一夏好友五反田弹的家。一夏偶尔来访。弹的妹妹兰在此生活。"
+    }
   ],
   "rules": [
-    { "id": "female-only-rule", "name": "IS女性适配铁则", "description": "常规认知中只有女性能启动IS；男性驾驶员一夏是震动全球的例外。", "evidenceLevel": "A" },
-    { "id": "core-scarcity", "name": "核心稀缺", "description": "IS核心数量有限，专用机配置是政治与军事资源。原创角色若持有专用机需解释国家/企业/束/非法势力来源。", "evidenceLevel": "A" },
-    { "id": "academy-safety", "name": "学园安全与竞技规则", "description": "日常战斗以训练、竞技、演习为主；绝对防御、裁判系统与教师介入防止无意义死亡。", "evidenceLevel": "A" },
-    { "id": "national-interest", "name": "国家利益约束", "description": "代表候补生不是纯个人战力，背后有国家、军方、企业和外交压力。", "evidenceLevel": "B" },
-    { "id": "no-free-power", "name": "不免费突破规则", "description": "新能力、One-off Ability、Package、AI进化和核心网络访问需要训练、事件、风险或来源解释。", "evidenceLevel": "B" }
+    {
+      "id": "female-only-rule",
+      "name": "IS女性适配铁则",
+      "description": "常规认知中只有女性能启动IS；男性驾驶员一夏是震动全球的例外。",
+      "evidenceLevel": "A"
+    },
+    {
+      "id": "core-scarcity",
+      "name": "核心稀缺",
+      "description": "IS核心数量有限，专用机配置是政治与军事资源。原创角色若持有专用机需解释国家/企业/束/非法势力来源。",
+      "evidenceLevel": "A"
+    },
+    {
+      "id": "academy-safety",
+      "name": "学园安全与竞技规则",
+      "description": "日常战斗以训练、竞技、演习为主；绝对防御、裁判系统与教师介入防止无意义死亡。",
+      "evidenceLevel": "A"
+    },
+    {
+      "id": "national-interest",
+      "name": "国家利益约束",
+      "description": "代表候补生不是纯个人战力，背后有国家、军方、企业和外交压力。",
+      "evidenceLevel": "B"
+    },
+    {
+      "id": "no-free-power",
+      "name": "不免费突破规则",
+      "description": "新能力、One-off Ability、Package、AI进化和核心网络访问需要训练、事件、风险或来源解释。",
+      "evidenceLevel": "B"
+    }
   ],
   "timeline": [
-    { "id": "is-invention", "label": "IS发明与世界秩序改变", "description": "束发明IS后，女性驾驶员与IS核心成为战略资源，社会性别与国际权力结构被改写。", "evidenceLevel": "A" },
-    { "id": "white-knight-incident", "label": "白骑士事件", "description": "IS早期重大事件，织斑千冬作为白骑士相关传奇人物被广泛崇敬；源把白骑士核心与白式联系起来，需谨慎作为RP暗线。", "evidenceLevel": "B" },
-    { "id": "ichika-activation", "label": "一夏误入测试并启动IS", "description": "一夏意外启动白式，被认定为唯一男性IS驾驶员，转入IS学园。", "evidenceLevel": "A", "sourceRefs": ["is-st-worldbook:entry 6"] },
-    { "id": "academy-entry", "label": "IS学园入学与班级代表战", "description": "一夏入学后与箒重逢，遭遇塞西莉亚挑战并在代表战中证明自己。", "evidenceLevel": "A", "sourceRefs": ["is-st-worldbook:entry 6", "is-st-worldbook:entry 9"] },
-    { "id": "new-representatives", "label": "各国少女集结", "description": "铃音、夏洛特、劳拉、楯无、簪等以同学、任务对象、对手或前辈身份进入关系网。", "evidenceLevel": "A" },
-    { "id": "silver-gospel", "label": "银色福音/不明机事件", "description": "军用或不明IS暴走/袭击导致一夏与伙伴协同作战，牵出禁忌技术和秘密组织。", "evidenceLevel": "B", "sourceRefs": ["is-st-worldbook:entry 6"] },
-    { "id": "phantom-task-arc", "label": "亡国机业暗线", "description": "围绕核心、VT系统、专用机与驾驶员的阴谋扩展到全球。", "evidenceLevel": "A" }
+    {
+      "id": "is-invention",
+      "label": "IS发明与世界秩序改变",
+      "description": "束发明IS后，女性驾驶员与IS核心成为战略资源，社会性别与国际权力结构被改写。",
+      "evidenceLevel": "A"
+    },
+    {
+      "id": "white-knight-incident",
+      "label": "白骑士事件",
+      "description": "IS早期重大事件，织斑千冬作为白骑士相关传奇人物被广泛崇敬；源把白骑士核心与白式联系起来，需谨慎作为RP暗线。",
+      "evidenceLevel": "B"
+    },
+    {
+      "id": "ichika-activation",
+      "label": "一夏误入测试并启动IS",
+      "description": "一夏意外启动白式，被认定为唯一男性IS驾驶员，转入IS学园。",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6"
+      ]
+    },
+    {
+      "id": "academy-entry",
+      "label": "IS学园入学与班级代表战",
+      "description": "一夏入学后与箒重逢，遭遇塞西莉亚挑战并在代表战中证明自己。",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
+    },
+    {
+      "id": "new-representatives",
+      "label": "各国少女集结",
+      "description": "铃音、夏洛特、劳拉、楯无、簪等以同学、任务对象、对手或前辈身份进入关系网。",
+      "evidenceLevel": "A"
+    },
+    {
+      "id": "silver-gospel",
+      "label": "银色福音/不明机事件",
+      "description": "军用或不明IS暴走/袭击导致一夏与伙伴协同作战，牵出禁忌技术和秘密组织。",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6"
+      ]
+    },
+    {
+      "id": "phantom-task-arc",
+      "label": "亡国机业暗线",
+      "description": "围绕核心、VT系统、专用机与驾驶员的阴谋扩展到全球。",
+      "evidenceLevel": "A"
+    }
   ],
   "sandboxEntryPoints": [
-    { "id": "new-student", "name": "原创转学生/候补生", "pitch": "作为某国候补生或交换生进入一年级，与一夏同班或邻班，在训练赛与日常中建立关系。" },
-    { "id": "academy-staff", "name": "教师/维修员/研究员", "pitch": "负责一夏或专用机数据记录，在保护学生、服从上级和阻止技术滥用间选择。" },
-    { "id": "corporate-agent", "name": "企业代理/情报员", "pitch": "代表IS企业调查白式或核心网络，在商业利益与学园伦理间拉扯。" },
-    { "id": "phantom-defector", "name": "亡国机业脱离者", "pitch": "带着被盗核心或禁忌系统情报寻求庇护，引发追击与信任考验。" },
-    { "id": "support-ai", "name": "白式/训练系统AI交互线", "pitch": "使用源世界书的‘端白星’机制，围绕AI人性化、战术建议和核心记忆异常展开。" },
-    { "id": "slice-of-life", "name": "学园日常与文化交流", "pitch": "食堂国家主题周、学园祭、宿舍料理、训练后复盘、学生会委托等低风险事件。" }
+    {
+      "id": "new-student",
+      "name": "原创转学生/候补生",
+      "pitch": "作为某国候补生或交换生进入一年级，与一夏同班或邻班，在训练赛与日常中建立关系。"
+    },
+    {
+      "id": "academy-staff",
+      "name": "教师/维修员/研究员",
+      "pitch": "负责一夏或专用机数据记录，在保护学生、服从上级和阻止技术滥用间选择。"
+    },
+    {
+      "id": "corporate-agent",
+      "name": "企业代理/情报员",
+      "pitch": "代表IS企业调查白式或核心网络，在商业利益与学园伦理间拉扯。"
+    },
+    {
+      "id": "phantom-defector",
+      "name": "亡国机业脱离者",
+      "pitch": "带着被盗核心或禁忌系统情报寻求庇护，引发追击与信任考验。"
+    },
+    {
+      "id": "support-ai",
+      "name": "白式/训练系统AI交互线",
+      "pitch": "使用源世界书的‘端白星’机制，围绕AI人性化、战术建议和核心记忆异常展开。"
+    },
+    {
+      "id": "slice-of-life",
+      "name": "学园日常与文化交流",
+      "pitch": "食堂国家主题周、学园祭、宿舍料理、训练后复盘、学生会委托等低风险事件。"
+    }
+  ],
+  "powerSystems": [
+    {
+      "id": "is-core",
+      "name": "IS核心",
+      "description": "IS机体的核心单元，全球仅467个。决定机体性能和特性，可与驾驶员精神同步。核心网络可共享数据。"
+    },
+    {
+      "id": "personal-is",
+      "name": "专用机持有",
+      "description": "代表候补生持有各国专属开发的第三世代IS。日本:白式(近战)、英国:蓝色眼泪(狙击)、中国:甲龙(炮击)、德国:黑雨(重装)、法国:迷雾淑女(多用途)、俄罗斯:沉默西风(电子战)。"
+    },
+    {
+      "id": "one-off-ability",
+      "name": "一击必杀(O.O.A.)",
+      "description": "第三世代IS机体的特殊能力。每机一个，发动条件苛刻但命中即终结战斗。白式:零落白夜(能量转化一击斩)、蓝色眼泪:泪光射线等。"
+    },
+    {
+      "id": "second-shift",
+      "name": "第二形态(Second Shift)",
+      "description": "IS在驾驶员精神高度集中或危机时进化的强化形态。性能大幅提升，外观改变。白式第二形态机动力增强但消耗极快。"
+    },
+    {
+      "id": "is-generation",
+      "name": "IS世代体系",
+      "description": "第一世代:基本飞行装甲(千冬时代)。第二世代:多功能武器系统。第三世代:专用机+一击必杀。第四世代:折叠装甲+空间收纳(束的最新技术)。"
+    }
+  ],
+  "events": [
+    {
+      "id": "class-league",
+      "name": "班级对抗赛",
+      "description": "年度班级间IS实战对抗赛。各班代表一对一决斗，联赛积分制。一年级一夏代表一班。"
+    },
+    {
+      "id": "silver-gospel-incident",
+      "name": "银色福音事件",
+      "description": "无人暴走IS银色福音袭击学园。实为亡国机业阴谋。各国代表候补生联合将其击破。白色骑士形态的福音拥有极高机动性。"
+    },
+    {
+      "id": "phantom-task-raid",
+      "name": "亡国机业袭击",
+      "description": "亡国机业多次袭击学园夺取机体/核心。包括利用自动人形渗透、绑架夏洛特(法国代表候补生)、袭击地下机库等。"
+    },
+    {
+      "id": "mondo-grosso",
+      "name": "MONDO GROSSO世界大赛",
+      "description": "IS驾驶员最高竞技舞台。织斑千冬在第一届全胜夺冠后突然退役。各国代表候补生以此为目标训练。"
+    }
+  ],
+  "timelines": [
+    {
+      "date": "约11年前",
+      "event": "IS由筱之之束开发完成，公诸于世"
+    },
+    {
+      "date": "约10年前",
+      "event": "阿拉斯加条约签署，IS运用协定成立。全球军事平衡崩溃，女尊男卑体制开始形成。"
+    },
+    {
+      "date": "约10年前",
+      "event": "第一届MONDO GROSSO，织斑千冬以第一世代机全胜夺冠。随后突然宣布退役并隐姓埋名。"
+    },
+    {
+      "date": "一夏入学前",
+      "event": "一夏误入IS学园考场，启动白式成为世界唯一男性IS驾驶员。"
+    },
+    {
+      "date": "一夏入学第一年",
+      "event": "班级对抗赛中与西西莉亚对决并获胜，成为班代表。"
+    },
+    {
+      "date": "一夏入学第一年",
+      "event": "凰铃音转入一夏班级(中国代表候补生)。"
+    },
+    {
+      "date": "一夏入学第一年",
+      "event": "银色福音事件，各国代表候补生首次联合战斗。"
+    },
+    {
+      "date": "一夏入学第一年",
+      "event": "亡国机业首次袭击学园，夏洛特身份暴露(实为法国代表候补生)。"
+    },
+    {
+      "date": "一夏入学第一年",
+      "event": "白式进化为第二形态。"
+    },
+    {
+      "date": "一夏入学第一年",
+      "event": "更识楯无就任学生会长，更识簪为副会长。"
+    },
+    {
+      "date": "一夏入学第一年",
+      "event": "亡国机业再次袭击，圆(马迪亚斯)现身并试图夺取白式。"
+    },
+    {
+      "date": "一夏入学第二年",
+      "event": "世界各地开始出现IS相关恐怖活动和军事冲突。"
+    },
+    {
+      "date": "一夏入学第二年",
+      "event": "亡国机业大规模袭击，各国代表候补生全面对抗。"
+    }
   ]
 }
