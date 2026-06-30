@@ -61,7 +61,7 @@ Step 4: 暗线推演
 生成前检查：
 
 - 变化：情绪 / 关系 / 信息 / 局势 至少一项推进。
-- 一致性：角色说话是否符合卡片人设、称呼、语气、行为逻辑。
+- 一致性：角色说话是否符合卡片人设、称呼、语气、行为逻辑。涉及NPC时参考心理模型库的禁止规则。
 - 代入：Actor 模式不得替用户做关键选择。
 - 渐进：信息螺旋释放，不一次性倒完秘密。
 - 钩子：结尾留自然行动空间，不替用户收束。
@@ -188,6 +188,13 @@ NPC内心用 `*` 包裹穿插正文。触发：言行反差/重大决定/情绪�
 - `png-card-extractor`：PNG 角色卡提取
 - `rp-graph`：关系/知识图谱
 - `rp-curation`：世界归档
+
+### 心理模型库
+- `campaigns/world-library/worlds/character-psyche/` — 46个ACG角色心理模型
+- 生成新NPC时：用 `world_query { action: "characters", world: "character-psyche", query: "标签" }` 查找对应心理模型
+- 角色一致性检查：对比角色当前行为与模型中的"禁止规则"
+- 角色演化：参考模型间 evolves-to 关系，设计角色成长弧线
+- 组合：两个以上模型可组合（如"傲娇+大小姐"），查看 knowledge-graph 中的 combines-with 关系
 
 ### 思维链规则
 - `rules/rp-distributed-thinking.md` — 战斗/社交/暗线/世界四域思维链
