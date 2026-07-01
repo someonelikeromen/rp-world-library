@@ -1,0 +1,137 @@
+{
+  "schema": "rp-subagent-chapter-archive-plan-v1",
+  "createdAt": "2026-07-01",
+  "policy": {
+    "chapterReadMode": "full-text-required",
+    "chapterOrderWithinVolume": "serial",
+    "networkCrawling": "serial-only",
+    "rawTextMeaning": "本地保存的小说正文 .txt 源文件，只是来源层，不等于人工归档、章节元数据或核心图谱。",
+    "noAutoCoreGraphOverwrite": true,
+    "noLongVerbatimExcerpts": true,
+    "relationshipCandidatesAreNotFormalGraph": true
+  },
+  "states": {
+    "volume": [
+      "pending",
+      "reading-chapters",
+      "chapter-archived",
+      "volume-validating",
+      "volume-failed",
+      "retrying-failed-chapters",
+      "volume-passed",
+      "volume-refining",
+      "volume-finalized"
+    ],
+    "world": [
+      "pending",
+      "series-running",
+      "series-validating",
+      "world-integrating",
+      "world-validating",
+      "complete",
+      "needs-human-review"
+    ]
+  },
+  "subagents": [
+    {
+      "name": "Chapter Archivist",
+      "scope": "one volume",
+      "task": "逐章阅读全文，读完一章立刻写 chapter archive JSON/MD。",
+      "outputs": [
+        "curated/stories/chapter-archives/<series>/vol-XX/ch-YYY.json",
+        "curated/stories/chapter-archives/<series>/vol-XX/ch-YYY.md"
+      ]
+    },
+    {
+      "name": "Volume Validator",
+      "scope": "one volume",
+      "task": "检查 manifest/章节归档覆盖、结构完整性、长段复写风险、命名冲突、失败项。",
+      "outputs": [
+        "curated/stories/volume-archives/<series>/vol-XX.validation.json",
+        "curated/stories/volume-archives/<series>/vol-XX.lessons.md"
+      ]
+    },
+    {
+      "name": "Volume Refiner",
+      "scope": "one passed volume",
+      "task": "把章级归档汇总为卷摘要、事件链、实体增量、关系候选、时间线增量。",
+      "outputs": [
+        "curated/stories/volume-refined/<series>/vol-XX.json",
+        "curated/stories/volume-refined/<series>/vol-XX.md"
+      ]
+    },
+    {
+      "name": "Series Auditor",
+      "scope": "one series",
+      "task": "审计全系列卷顺序、跨卷命名、重复/冲突事件和 blocked/too-short 解释。",
+      "outputs": [
+        "curated/stories/series-archive/<series>.json",
+        "curated/stories/series-archive/<series>.validation.json",
+        "curated/stories/series-archive/<series>.lessons.md"
+      ]
+    },
+    {
+      "name": "World Integrator",
+      "scope": "one world",
+      "task": "生成 original 派生层、运行包、检索索引、时间线和人工复核队列，不覆盖人工核心图谱。",
+      "outputs": [
+        "curated/original-chapter-archive-index.json",
+        "curated/original-volume-archive-index.json",
+        "curated/original-entity-index.json",
+        "curated/original-relationship-candidates.json",
+        "curated/original-timeline.json",
+        "curated/original-search-index.json",
+        "curated/original-runtime-pack.json",
+        "curated/original-archive-validation.json",
+        "curated/original-archive-lessons.md"
+      ]
+    }
+  ],
+  "retryPolicy": {
+    "chapterReadFailureMaxAttempts": 3,
+    "fieldCompletionMaxAttempts": 2,
+    "semanticUncertainty": "human-review",
+    "queuePath": "curated/stories/retry-queues/<series>/vol-XX.retry.json"
+  },
+  "pilotVolumes": [
+    {
+      "world": "campione",
+      "worldName": "弑神者！",
+      "series": "campione-main",
+      "volume": "vol-01",
+      "sourceDir": "campaigns/world-library/worlds/campione/sources/raw-text/campione-main/vol-01",
+      "priorityReason": "有 raw-text，但缺人工核心角色/关系/知识图，需要先验证逐章归档流程。"
+    },
+    {
+      "world": "rakudai-kishi",
+      "worldName": "落第骑士英雄谭",
+      "series": "rakudai-kishi-main",
+      "volume": "vol-01",
+      "sourceDir": "campaigns/world-library/worlds/rakudai-kishi/sources/raw-text/rakudai-kishi-main/vol-01",
+      "priorityReason": "有 raw-text，但缺人工核心角色/关系/知识图，需要先验证逐章归档流程。"
+    },
+    {
+      "world": "saijaku-muhai-bahamut",
+      "worldName": "最弱无败神装机龙",
+      "series": "saijaku-muhai-bahamut-main",
+      "volume": "vol-01",
+      "sourceDir": "campaigns/world-library/worlds/saijaku-muhai-bahamut/sources/raw-text/saijaku-muhai-bahamut-main/vol-01",
+      "priorityReason": "有 raw-text，但缺人工核心角色/关系/知识图，需要先验证逐章归档流程。"
+    }
+  ],
+  "finalReportColumns": [
+    "世界",
+    "世界名",
+    "raw-text正文源文件数",
+    "章级归档文件数",
+    "卷级归档文件数",
+    "卷级校验通过数",
+    "失败/跳过章节数",
+    "人工核心角色数",
+    "自动派生角色候选数",
+    "人工核心关系边数",
+    "自动关系候选边数",
+    "原著运行包状态",
+    "人工复核待办数"
+  ]
+}
