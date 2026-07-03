@@ -1,667 +1,1229 @@
 {
   "schema": "rp-relationship-graph-v1",
   "worldId": "high-school-dxd",
+  "generatedAt": "2026-07-02T13:21:17.200Z",
+  "source": "human-read character/worldbook relationship statements; not co-occurrence candidates",
+  "reviewMethod": "manual semantic promotion from explicit relationship statements in character source entries",
   "nodes": [
     {
       "id": "issei-hyoudou",
-      "label": "兵藤一诚",
+      "name": "兵藤一诚",
       "type": "character",
-      "characterRef": "issei-hyoudou"
-    },
-    {
-      "id": "rias-gremory",
-      "label": "莉雅丝·吉蒙里",
-      "type": "character",
-      "characterRef": "rias-gremory"
-    },
-    {
-      "id": "asia-argento",
-      "label": "爱西亚·阿基多",
-      "type": "character",
-      "characterRef": "asia-argento"
-    },
-    {
-      "id": "akeno-himejima",
-      "label": "姬岛朱乃",
-      "type": "character",
-      "characterRef": "akeno-himejima"
-    },
-    {
-      "id": "koneko-toujou",
-      "label": "塔城小猫",
-      "type": "character",
-      "characterRef": "koneko-toujou"
-    },
-    {
-      "id": "kiba-yuuto",
-      "label": "木场佑斗",
-      "type": "character",
-      "characterRef": "kiba-yuuto"
-    },
-    {
-      "id": "gasper-vladi",
-      "label": "加斯帕·弗拉迪",
-      "type": "character",
-      "characterRef": "gasper-vladi"
-    },
-    {
-      "id": "xenovia",
-      "label": "杰诺瓦",
-      "type": "character",
-      "characterRef": "xenovia",
-      "importance": "medium"
-    },
-    {
-      "id": "irina-shidou",
-      "label": "紫藤伊莉娜",
-      "type": "character",
-      "characterRef": "irina-shidou"
-    },
-    {
-      "id": "rossweisse",
-      "label": "罗丝薇瑟",
-      "type": "character",
-      "characterRef": "rossweisse",
-      "importance": "medium"
-    },
-    {
-      "id": "ravel-phoenix",
-      "label": "蕾维儿·菲尼克斯",
-      "type": "character",
-      "characterRef": "ravel-phoenix"
-    },
-    {
-      "id": "vali-lucifer",
-      "label": "瓦利·路西法",
-      "type": "character",
-      "characterRef": "vali-lucifer"
-    },
-    {
-      "id": "azazel",
-      "label": "阿撒塞勒",
-      "type": "character",
-      "characterRef": "azazel"
-    },
-    {
-      "id": "sirzechs-lucifer",
-      "label": "瑟杰克斯·路西法",
-      "type": "character",
-      "characterRef": "sirzechs-lucifer"
-    },
-    {
-      "id": "cao-cao",
-      "label": "曹操",
-      "type": "character",
-      "characterRef": "cao-cao"
-    },
-    {
-      "id": "sona-sitri",
-      "label": "支取苍那",
-      "type": "character",
-      "characterRef": "sona-sitri",
-      "importance": "medium"
-    },
-    {
-      "id": "gremory-family",
-      "label": "吉蒙里家族",
-      "type": "faction",
-      "factionRef": "gremory-family"
-    },
-    {
-      "id": "devil-underworld",
-      "label": "恶魔/冥界",
-      "type": "faction",
-      "factionRef": "devil-underworld"
-    },
-    {
-      "id": "heaven-angels",
-      "label": "天界",
-      "type": "faction",
-      "factionRef": "heaven-angels"
-    },
-    {
-      "id": "fallen-angels",
-      "label": "堕天使",
-      "type": "faction",
-      "factionRef": "fallen-angels"
-    },
-    {
-      "id": "khaos-brigade",
-      "label": "祸之团",
-      "type": "faction",
-      "factionRef": "khaos-brigade"
-    },
-    {
-      "id": "vali-team",
-      "label": "瓦利队",
-      "type": "faction",
-      "factionRef": "vali-team"
-    },
-    {
-      "id": "sitri-family",
-      "label": "西迪家族",
-      "type": "faction",
-      "factionRef": "sitri-family"
-    },
-    {
-      "id": "norse-mythology",
-      "label": "北欧神族",
-      "type": "faction",
-      "factionRef": "norse-mythology"
-    },
-    {
-      "id": "greek-mythology",
-      "label": "希腊神族",
-      "type": "faction",
-      "factionRef": "greek-mythology"
-    },
-    {
-      "id": "japanese-mythology",
-      "label": "日本势力",
-      "type": "faction",
-      "factionRef": "japanese-mythology"
+      "importance": "critical",
+      "factions": [
+        "gremory-family",
+        "devil-underworld"
+      ],
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 4",
+        "恶魔高校.worldbook.json:entry 1",
+        "dxd_card.worldbook.json:entry 103"
+      ]
     },
     {
       "id": "ophis",
-      "label": "奥菲斯",
+      "name": "奥菲斯",
       "type": "character",
-      "characterRef": "ophis",
-      "importance": "critical"
+      "importance": "critical",
+      "factions": [
+        "gremory-family"
+      ],
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 37"
+      ]
+    },
+    {
+      "id": "vali-lucifer",
+      "name": "瓦利·路西法",
+      "type": "character",
+      "importance": "critical",
+      "factions": [
+        "vali-team"
+      ],
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 14",
+        "恶魔高校.worldbook.json:entry 9"
+      ]
+    },
+    {
+      "id": "rias-gremory",
+      "name": "莉雅丝·吉蒙里",
+      "type": "character",
+      "importance": "critical",
+      "factions": [
+        "gremory-family",
+        "devil-underworld"
+      ],
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 6",
+        "恶魔高校.worldbook.json:entry 1"
+      ]
+    },
+    {
+      "id": "gasper-vladi",
+      "name": "加斯帕·弗拉迪",
+      "type": "character",
+      "importance": "high",
+      "factions": [
+        "gremory-family",
+        "devil-underworld"
+      ],
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 11",
+        "恶魔高校.worldbook.json:entry 6"
+      ]
+    },
+    {
+      "id": "koneko-toujou",
+      "name": "塔城小猫",
+      "type": "character",
+      "importance": "high",
+      "factions": [
+        "gremory-family",
+        "devil-underworld"
+      ],
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 9",
+        "恶魔高校.worldbook.json:entry 4"
+      ]
+    },
+    {
+      "id": "akeno-himejima",
+      "name": "姬岛朱乃",
+      "type": "character",
+      "importance": "high",
+      "factions": [
+        "gremory-family",
+        "devil-underworld",
+        "fallen-angels"
+      ],
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 8",
+        "恶魔高校.worldbook.json:entry 3"
+      ]
     },
     {
       "id": "ddraig",
-      "label": "德莱格",
+      "name": "德莱格",
       "type": "character",
-      "characterRef": "ddraig",
-      "importance": "high"
-    },
-    {
-      "id": "albion",
-      "label": "阿鲁比恩",
-      "type": "character",
-      "characterRef": "albion",
-      "importance": "high"
-    },
-    {
-      "id": "kuroka",
-      "label": "黑歌",
-      "type": "character",
-      "characterRef": "kuroka",
-      "importance": "high"
-    },
-    {
-      "id": "x2674",
-      "label": "亚瑟·潘德拉刚",
-      "type": "character",
-      "characterRef": "x2674",
-      "importance": "medium"
-    },
-    {
-      "id": "x8878",
-      "label": "八坂",
-      "type": "character",
-      "characterRef": "x8878",
-      "importance": "medium"
-    },
-    {
-      "id": "x2176",
-      "label": "勒菲·潘德拉刚",
-      "type": "character",
-      "characterRef": "x2176",
-      "importance": "medium"
-    },
-    {
-      "id": "x3716",
-      "label": "匙元士郎",
-      "type": "character",
-      "characterRef": "x3716",
-      "importance": "medium"
-    },
-    {
-      "id": "x5928",
-      "label": "塞拉欧格·巴力",
-      "type": "character",
-      "characterRef": "x5928",
-      "importance": "medium"
-    },
-    {
-      "id": "x952",
-      "label": "奥丁",
-      "type": "character",
-      "characterRef": "x952",
-      "importance": "medium"
-    },
-    {
-      "id": "barakiel",
-      "label": "巴拉基勒",
-      "type": "character",
-      "characterRef": "barakiel",
-      "importance": "medium"
-    },
-    {
-      "id": "x1066",
-      "label": "杜利欧·杰苏阿尔多",
-      "type": "character",
-      "characterRef": "x1066",
-      "importance": "medium"
-    },
-    {
-      "id": "x7451",
-      "label": "椿姬真罗",
-      "type": "character",
-      "characterRef": "x7451",
-      "importance": "medium"
-    },
-    {
-      "id": "x2584",
-      "label": "泽克拉姆·巴力",
-      "type": "character",
-      "characterRef": "x2584",
-      "importance": "medium"
-    },
-    {
-      "id": "x9167",
-      "label": "米迦勒",
-      "type": "character",
-      "characterRef": "x9167",
-      "importance": "medium"
-    },
-    {
-      "id": "x5511",
-      "label": "美猴",
-      "type": "character",
-      "characterRef": "x5511",
-      "importance": "medium"
-    },
-    {
-      "id": "greyfia-lucifuge",
-      "label": "葛瑞菲雅·路基弗格斯",
-      "type": "character",
-      "characterRef": "greyfia-lucifuge",
-      "importance": "medium"
-    },
-    {
-      "id": "x7245",
-      "label": "赛拉芙露·利维坦",
-      "type": "character",
-      "characterRef": "x7245",
-      "importance": "medium"
-    },
-    {
-      "id": "x2660",
-      "label": "迪豪瑟·彼列",
-      "type": "character",
-      "characterRef": "x2660",
-      "importance": "medium"
-    }
-  ],
-  "edges": [
-    {
-      "from": "issei-hyoudou",
-      "to": "rias-gremory",
-      "types": [
-        "romantic",
-        "master-servant",
-        "alliance"
+      "importance": "high",
+      "factions": [
+        "gremory-family"
       ],
-      "dimensions": {
-        "trust": {
-          "level": "absolute",
-          "notes": "生死相依的绝对信任"
-        },
-        "affection": {
-          "level": "deep-love",
-          "notes": "第一婚约者，彼此深爱"
-        },
-        "loyalty": {
-          "level": "absolute",
-          "notes": "King与Pawn的契约关系已超越身份"
-        }
-      },
-      "summary": "莉雅丝以8枚Pawn棋子将一诚转生为恶魔眷属。一诚从救命恩人/主人逐渐发展为第一恋人。二人共同经历无数次生死战斗，感情极为深厚。",
-      "visibility": "public",
-      "evidenceLevel": "A",
       "sourceRefs": [
-        "dxd_card.worldbook.json:entry 6"
+        "dxd_card.worldbook.json:entry 1",
+        "dxd_card.worldbook.json:entry 262"
       ]
     },
     {
-      "from": "issei-hyoudou",
-      "to": "asia-argento",
-      "types": [
-        "romantic",
-        "alliance"
+      "id": "cao-cao",
+      "name": "曹操",
+      "type": "character",
+      "importance": "high",
+      "factions": [
+        "hero-faction",
+        "khaos-brigade"
       ],
-      "dimensions": {
-        "trust": {
-          "level": "absolute",
-          "notes": "一诚是爱西亚的救赎"
-        },
-        "affection": {
-          "level": "deep-love",
-          "notes": "婚约者"
-        }
-      },
-      "summary": "一诚从堕天使手中救下爱西亚，她成为莉雅丝的Bishop眷属。爱西亚是第一个毫无保留爱上一诚的女孩。",
-      "visibility": "public",
-      "evidenceLevel": "A",
-      "sourceRefs": [
-        "dxd_card.worldbook.json:entry 7"
-      ]
-    },
-    {
-      "from": "issei-hyoudou",
-      "to": "akeno-himejima",
-      "types": [
-        "romantic",
-        "alliance"
-      ],
-      "dimensions": {
-        "affection": {
-          "level": "deep-love",
-          "notes": "婚约者"
-        },
-        "loyalty": {
-          "level": "strong"
-        }
-      },
-      "summary": "朱乃最初以玩弄一诚为乐，后逐渐真心爱上他。一诚帮助朱乃克服了对堕天使血脉的自我厌恶。",
-      "visibility": "public",
-      "evidenceLevel": "A",
-      "sourceRefs": [
-        "dxd_card.worldbook.json:entry 8"
-      ]
-    },
-    {
-      "from": "issei-hyoudou",
-      "to": "koneko-toujou",
-      "types": [
-        "romantic",
-        "alliance"
-      ],
-      "dimensions": {
-        "trust": {
-          "level": "deep",
-          "notes": "一诚帮助小猫接受猫又之力"
-        },
-        "affection": {
-          "level": "deep-love",
-          "notes": "婚约者"
-        }
-      },
-      "summary": "小猫从对一诚的性骚扰感到厌烦到逐渐依赖。一诚帮助她接受了自己的猫又身份和仙术天赋。",
-      "visibility": "public",
-      "evidenceLevel": "A",
-      "sourceRefs": [
-        "dxd_card.worldbook.json:entry 9"
-      ]
-    },
-    {
-      "from": "issei-hyoudou",
-      "to": "kiba-yuuto",
-      "types": [
-        "friendship",
-        "alliance"
-      ],
-      "dimensions": {
-        "trust": {
-          "level": "deep",
-          "notes": "并肩作战的最佳搭档"
-        },
-        "loyalty": {
-          "level": "strong"
-        }
-      },
-      "summary": "作为仅有的男性眷属，一诚和木场既是战友也是好友。一诚帮助木场走出圣剑计划的复仇阴影。",
-      "visibility": "public",
-      "evidenceLevel": "A",
-      "sourceRefs": [
-        "dxd_card.worldbook.json:entry 10"
-      ]
-    },
-    {
-      "from": "issei-hyoudou",
-      "to": "vali-lucifer",
-      "types": [
-        "rivalry",
-        "alliance"
-      ],
-      "dimensions": {
-        "rivalry": {
-          "level": "intense",
-          "notes": "宿命对手（二天龙之争）"
-        },
-        "trust": {
-          "level": "moderate",
-          "notes": "亦敌亦友"
-        }
-      },
-      "summary": "赤龙帝与白龙皇的宿命对手。从最初生死搏杀到逐渐形成亦敌亦友的竞争关系。后期在多场大战中并肩作战。",
-      "visibility": "public",
-      "evidenceLevel": "A",
-      "sourceRefs": [
-        "dxd_card.worldbook.json:entry 14"
-      ]
-    },
-    {
-      "from": "issei-hyoudou",
-      "to": "azazel",
-      "types": [
-        "mentorship",
-        "friendship"
-      ],
-      "dimensions": {
-        "trust": {
-          "level": "deep",
-          "notes": "一诚最尊敬的导师之一"
-        },
-        "loyalty": {
-          "level": "strong"
-        }
-      },
-      "summary": "堕天使总督阿撒塞勒是神器研究权威，担任一诚的神器使用导师。趣味相投（都喜欢胸部的话题），师徒关系融洽。",
-      "visibility": "public",
-      "evidenceLevel": "A",
-      "sourceRefs": [
-        "dxd_card.worldbook.json:entry 35"
-      ]
-    },
-    {
-      "from": "sirzechs-lucifer",
-      "to": "rias-gremory",
-      "types": [
-        "familial"
-      ],
-      "dimensions": {
-        "affection": {
-          "level": "deep",
-          "notes": "溺爱妹妹的魔王兄长"
-        },
-        "loyalty": {
-          "level": "absolute"
-        }
-      },
-      "summary": "瑟杰克斯是莉雅丝的亲生哥哥，以「魔王路西法」身份统治冥界。极度溺爱妹妹，对一诚也持认可态度。",
-      "visibility": "public",
-      "evidenceLevel": "A",
-      "sourceRefs": [
-        "dxd_card.worldbook.json:entry 16"
-      ]
-    },
-    {
-      "from": "rias-gremory",
-      "to": "gremory-family",
-      "types": [
-        "membership",
-        "leadership"
-      ],
-      "dimensions": {
-        "loyalty": {
-          "level": "absolute",
-          "notes": "吉蒙里家继承人"
-        }
-      },
-      "summary": "莉雅丝是吉蒙里公爵家的下一任当主，率领眷属恶魔在排名游戏中争取地位。",
-      "visibility": "public",
-      "evidenceLevel": "A",
-      "sourceRefs": [
-        "dxd_card.worldbook.json:entry 6"
-      ]
-    },
-    {
-      "from": "cao-cao",
-      "to": "khaos-brigade",
-      "types": [
-        "membership",
-        "leadership"
-      ],
-      "dimensions": {
-        "loyalty": {
-          "level": "conditional",
-          "notes": "英雄派领袖，利用祸之团"
-        }
-      },
-      "summary": "曹操是祸之团下属「英雄派」的领袖，持有最强神灭具「黄昏的圣枪」。以人类至上为理念。",
-      "visibility": "public",
-      "evidenceLevel": "A",
       "sourceRefs": [
         "dxd_card.worldbook.json:entry 18"
       ]
     },
     {
-      "from": "vali-lucifer",
-      "to": "vali-team",
-      "types": [
-        "membership",
-        "leadership"
+      "id": "kiba-yuuto",
+      "name": "木场佑斗",
+      "type": "character",
+      "importance": "high",
+      "factions": [
+        "gremory-family",
+        "devil-underworld"
       ],
-      "dimensions": {
-        "loyalty": {
-          "level": "strong",
-          "notes": "瓦利队创始人与领袖"
-        }
-      },
-      "summary": "瓦利脱离祸之团后组建了独立团队。成员包括美猴、亚瑟、勒菲、黑歌等。",
-      "visibility": "public",
-      "evidenceLevel": "A",
       "sourceRefs": [
-        "dxd_card.worldbook.json:entry 14"
+        "dxd_card.worldbook.json:entry 10",
+        "恶魔高校.worldbook.json:entry 5"
       ]
     },
     {
-      "from": "devil-underworld",
-      "to": "heaven-angels",
-      "types": [
-        "alliance"
+      "id": "xenovia",
+      "name": "杰诺瓦",
+      "type": "character",
+      "importance": "high",
+      "factions": [
+        "gremory-family",
+        "devil-underworld",
+        "恶魔/冥界"
       ],
-      "dimensions": {
-        "trust": {
-          "level": "moderate",
-          "notes": "三方和平协定"
-        },
-        "suspicion": {
-          "level": "residual",
-          "notes": "历史仇恨未完全消除"
-        }
-      },
-      "summary": "远古死敌，在三方和平协定后转为战略合作伙伴，共同应对超越三方的威胁。",
-      "visibility": "public",
-      "evidenceLevel": "A",
       "sourceRefs": [
-        "dxd_card.worldbook.json:entry 45"
+        "dxd_card.worldbook.json:entry 13",
+        "恶魔高校.worldbook.json:entry 7",
+        "dxd_card.worldbook.json:entry 10"
       ]
     },
     {
-      "from": "devil-underworld",
-      "to": "fallen-angels",
-      "types": [
-        "alliance"
+      "id": "asia-argento",
+      "name": "爱西亚·阿基多",
+      "type": "character",
+      "importance": "high",
+      "factions": [
+        "gremory-family",
+        "devil-underworld"
       ],
-      "dimensions": {
-        "trust": {
-          "level": "moderate"
-        },
-        "suspicion": {
-          "level": "residual"
-        }
-      },
-      "summary": "战后转为合作关系。阿撒塞勒与恶魔高层建立了良好的个人关系。",
-      "visibility": "public",
-      "evidenceLevel": "A",
       "sourceRefs": [
-        "dxd_card.worldbook.json:entry 45"
+        "dxd_card.worldbook.json:entry 7",
+        "恶魔高校.worldbook.json:entry 2"
       ]
     },
     {
-      "from": "gremory-family",
-      "to": "sitri-family",
-      "types": [
-        "alliance",
-        "rivalry"
+      "id": "sirzechs-lucifer",
+      "name": "瑟杰克斯·路西法",
+      "type": "character",
+      "importance": "high",
+      "factions": [
+        "devil-underworld",
+        "gremory-family"
       ],
-      "dimensions": {
-        "trust": {
-          "level": "strong",
-          "notes": "世代友好"
-        },
-        "rivalry": {
-          "level": "friendly",
-          "notes": "良性竞争"
-        }
-      },
-      "summary": "吉蒙里和西迪是世代友好的公爵家族。莉雅丝和苍那既是好友也是排名游戏中的竞争对手。",
-      "visibility": "public",
-      "evidenceLevel": "A",
       "sourceRefs": [
-        "dxd_card.worldbook.json:entry 12"
+        "dxd_card.worldbook.json:entry 16"
       ]
     },
     {
-      "from": "japanese-mythology",
-      "to": "gremory-family",
-      "types": [
-        "alliance"
+      "id": "irina-shidou",
+      "name": "紫藤伊莉娜",
+      "type": "character",
+      "importance": "high",
+      "factions": [
+        "heaven-angels"
       ],
-      "dimensions": {
-        "trust": {
-          "level": "strong",
-          "notes": "同盟协定"
-        }
-      },
-      "summary": "京都妖怪势力与吉蒙里家有同盟关系。八坂之女九重与一诚等人关系良好。",
-      "visibility": "public",
-      "evidenceLevel": "A",
       "sourceRefs": [
-        "dxd_card.worldbook.json:entry 48"
+        "dxd_card.worldbook.json:entry 15",
+        "恶魔高校.worldbook.json:entry 8"
       ]
     },
     {
-      "from": "sona-sitri",
-      "to": "rias-gremory",
-      "types": [
-        "friendship",
-        "rivalry"
+      "id": "rossweisse",
+      "name": "罗丝薇瑟",
+      "type": "character",
+      "importance": "high",
+      "factions": [
+        "gremory-family",
+        "devil-underworld",
+        "norse-mythology",
+        "恶魔/冥界",
+        "北欧神族"
       ],
-      "dimensions": {
-        "trust": {
-          "level": "deep",
-          "notes": "青梅竹马"
-        },
-        "rivalry": {
-          "level": "friendly",
-          "notes": "排名游戏对手"
-        }
-      },
-      "summary": "苍那与莉雅丝自幼相识，同为公爵家继承人兼好友。在驹王学园分别担任学生会会长和神秘学研究社社长。",
-      "visibility": "public",
-      "evidenceLevel": "A",
       "sourceRefs": [
-        "dxd_card.worldbook.json:entry 12"
+        "dxd_card.worldbook.json:entry 19",
+        "dxd_card.worldbook.json:entry 29"
+      ]
+    },
+    {
+      "id": "ravel-phoenix",
+      "name": "蕾维儿·菲尼克斯",
+      "type": "character",
+      "importance": "high",
+      "factions": [
+        "gremory-family"
+      ],
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 17"
+      ]
+    },
+    {
+      "id": "azazel",
+      "name": "阿撒塞勒",
+      "type": "character",
+      "importance": "high",
+      "factions": [
+        "fallen-angels"
+      ],
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 35"
+      ]
+    },
+    {
+      "id": "albion",
+      "name": "阿鲁比恩",
+      "type": "character",
+      "importance": "high",
+      "factions": [
+        "vali-team"
+      ],
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 1"
+      ]
+    },
+    {
+      "id": "kuroka",
+      "name": "黑歌",
+      "type": "character",
+      "importance": "high",
+      "factions": [
+        "vali-team",
+        "gremory-family"
+      ],
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 20"
+      ]
+    },
+    {
+      "id": "x2674",
+      "name": "亚瑟·潘德拉刚",
+      "type": "character",
+      "importance": "medium",
+      "factions": [
+        "瓦利队"
+      ],
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 26"
+      ]
+    },
+    {
+      "id": "x8878",
+      "name": "八坂",
+      "type": "character",
+      "importance": "medium",
+      "factions": [
+        "日本神道/妖怪势力"
+      ],
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 35"
+      ]
+    },
+    {
+      "id": "x2176",
+      "name": "勒菲·潘德拉刚",
+      "type": "character",
+      "importance": "medium",
+      "factions": [
+        "瓦利队"
+      ],
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 34"
+      ]
+    },
+    {
+      "id": "x3716",
+      "name": "匙元士郎",
+      "type": "character",
+      "importance": "medium",
+      "factions": [
+        "恶魔/冥界",
+        "西迪家族"
+      ],
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 20"
+      ]
+    },
+    {
+      "id": "x5928",
+      "name": "塞拉欧格·巴力",
+      "type": "character",
+      "importance": "medium",
+      "factions": [
+        "恶魔/冥界"
+      ],
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 18"
+      ]
+    },
+    {
+      "id": "x952",
+      "name": "奥丁",
+      "type": "character",
+      "importance": "medium",
+      "factions": [
+        "北欧神族"
+      ],
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 27"
+      ]
+    },
+    {
+      "id": "barakiel",
+      "name": "巴拉基勒",
+      "type": "character",
+      "importance": "medium",
+      "factions": [
+        "fallen-angels"
+      ],
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 36",
+        "dxd_card.worldbook.json:entry 120"
+      ]
+    },
+    {
+      "id": "sona-sitri",
+      "name": "支取苍那",
+      "type": "character",
+      "importance": "medium",
+      "factions": [
+        "sitri-family",
+        "devil-underworld",
+        "恶魔/冥界",
+        "西迪家族"
+      ],
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 12",
+        "恶魔高校.worldbook.json:entry 10",
+        "dxd_card.worldbook.json:entry 28"
+      ]
+    },
+    {
+      "id": "x1066",
+      "name": "杜利欧·杰苏阿尔多",
+      "type": "character",
+      "importance": "medium",
+      "factions": [
+        "天界/天使"
+      ],
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 24"
+      ]
+    },
+    {
+      "id": "x7451",
+      "name": "椿姬真罗",
+      "type": "character",
+      "importance": "medium",
+      "factions": [
+        "恶魔/冥界",
+        "西迪家族",
+        "英雄派"
+      ],
+      "sourceRefs": [
+        "恶魔高校.worldbook.json:entry 36",
+        "dxd_card.worldbook.json:entry 36"
+      ]
+    },
+    {
+      "id": "x2584",
+      "name": "泽克拉姆·巴力",
+      "type": "character",
+      "importance": "medium",
+      "factions": [
+        "恶魔/冥界"
+      ],
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 22"
+      ]
+    },
+    {
+      "id": "x9167",
+      "name": "米迦勒",
+      "type": "character",
+      "importance": "medium",
+      "factions": [
+        "天界/天使"
+      ],
+      "sourceRefs": [
+        "恶魔高校.worldbook.json:entry 23"
+      ]
+    },
+    {
+      "id": "x5511",
+      "name": "美猴",
+      "type": "character",
+      "importance": "medium",
+      "factions": [
+        "瓦利队"
+      ],
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 25"
+      ]
+    },
+    {
+      "id": "greyfia-lucifuge",
+      "name": "葛瑞菲雅·路基弗格斯",
+      "type": "character",
+      "importance": "medium",
+      "factions": [
+        "devil-underworld",
+        "gremory-family",
+        "恶魔/冥界",
+        "吉蒙里家族",
+        "瓦利队"
+      ],
+      "sourceRefs": [
+        "恶魔高校.worldbook.json:entry 11",
+        "dxd_card.worldbook.json:entry 31"
+      ]
+    },
+    {
+      "id": "x7245",
+      "name": "赛拉芙露·利维坦",
+      "type": "character",
+      "importance": "medium",
+      "factions": [
+        "恶魔/冥界",
+        "西迪家族"
+      ],
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 32"
+      ]
+    },
+    {
+      "id": "x2660",
+      "name": "迪豪瑟·彼列",
+      "type": "character",
+      "importance": "medium",
+      "factions": [
+        "恶魔/冥界"
+      ],
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 21"
       ]
     }
   ],
-  "indices": {
-    "byCharacter": {},
-    "byFaction": {}
+  "edges": [
+    {
+      "id": "rel:issei-hyoudou--related--rias-gremory",
+      "source": "issei-hyoudou",
+      "target": "rias-gremory",
+      "type": "related",
+      "sourceName": "兵藤一诚",
+      "targetName": "莉雅丝·吉蒙里",
+      "nature": "romantic-master",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 4",
+        "恶魔高校.worldbook.json:entry 1",
+        "dxd_card.worldbook.json:entry 103"
+      ]
+    },
+    {
+      "id": "rel:issei-hyoudou--related--asia-argento",
+      "source": "issei-hyoudou",
+      "target": "asia-argento",
+      "type": "related",
+      "sourceName": "兵藤一诚",
+      "targetName": "爱西亚·阿基多",
+      "nature": "romantic",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 4",
+        "恶魔高校.worldbook.json:entry 1",
+        "dxd_card.worldbook.json:entry 103"
+      ]
+    },
+    {
+      "id": "rel:issei-hyoudou--rival--vali-lucifer",
+      "source": "issei-hyoudou",
+      "target": "vali-lucifer",
+      "type": "rival",
+      "sourceName": "兵藤一诚",
+      "targetName": "瓦利·路西法",
+      "nature": "rival",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 4",
+        "恶魔高校.worldbook.json:entry 1",
+        "dxd_card.worldbook.json:entry 103"
+      ]
+    },
+    {
+      "id": "rel:issei-hyoudou--related--azazel",
+      "source": "issei-hyoudou",
+      "target": "azazel",
+      "type": "related",
+      "sourceName": "兵藤一诚",
+      "targetName": "阿撒塞勒",
+      "nature": "mentor",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 4",
+        "恶魔高校.worldbook.json:entry 1",
+        "dxd_card.worldbook.json:entry 103"
+      ]
+    },
+    {
+      "id": "rel:ophis--related--issei-hyoudou",
+      "source": "ophis",
+      "target": "issei-hyoudou",
+      "type": "related",
+      "sourceName": "奥菲斯",
+      "targetName": "兵藤一诚",
+      "nature": "friendship",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 37"
+      ]
+    },
+    {
+      "id": "rel:vali-lucifer--rival--issei-hyoudou",
+      "source": "vali-lucifer",
+      "target": "issei-hyoudou",
+      "type": "rival",
+      "sourceName": "瓦利·路西法",
+      "targetName": "兵藤一诚",
+      "nature": "rival",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 14",
+        "恶魔高校.worldbook.json:entry 9"
+      ]
+    },
+    {
+      "id": "rel:vali-lucifer--related--azazel",
+      "source": "vali-lucifer",
+      "target": "azazel",
+      "type": "related",
+      "sourceName": "瓦利·路西法",
+      "targetName": "阿撒塞勒",
+      "nature": "mentor-foster-father",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 14",
+        "恶魔高校.worldbook.json:entry 9"
+      ]
+    },
+    {
+      "id": "rel:rias-gremory--related--issei-hyoudou",
+      "source": "rias-gremory",
+      "target": "issei-hyoudou",
+      "type": "related",
+      "sourceName": "莉雅丝·吉蒙里",
+      "targetName": "兵藤一诚",
+      "nature": "romantic-servant",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 6",
+        "恶魔高校.worldbook.json:entry 1"
+      ]
+    },
+    {
+      "id": "rel:rias-gremory--related--sirzechs-lucifer",
+      "source": "rias-gremory",
+      "target": "sirzechs-lucifer",
+      "type": "related",
+      "sourceName": "莉雅丝·吉蒙里",
+      "targetName": "瑟杰克斯·路西法",
+      "nature": "sibling",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 6",
+        "恶魔高校.worldbook.json:entry 1"
+      ]
+    },
+    {
+      "id": "rel:rias-gremory--rival--sona-sitri",
+      "source": "rias-gremory",
+      "target": "sona-sitri",
+      "type": "rival",
+      "sourceName": "莉雅丝·吉蒙里",
+      "targetName": "支取苍那",
+      "nature": "friend-rival",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 6",
+        "恶魔高校.worldbook.json:entry 1"
+      ]
+    },
+    {
+      "id": "rel:gasper-vladi--related--issei-hyoudou",
+      "source": "gasper-vladi",
+      "target": "issei-hyoudou",
+      "type": "related",
+      "sourceName": "加斯帕·弗拉迪",
+      "targetName": "兵藤一诚",
+      "nature": "idolizes",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 11",
+        "恶魔高校.worldbook.json:entry 6"
+      ]
+    },
+    {
+      "id": "rel:gasper-vladi--related--koneko-toujou",
+      "source": "gasper-vladi",
+      "target": "koneko-toujou",
+      "type": "related",
+      "sourceName": "加斯帕·弗拉迪",
+      "targetName": "塔城小猫",
+      "nature": "friendship",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 11",
+        "恶魔高校.worldbook.json:entry 6"
+      ]
+    },
+    {
+      "id": "rel:koneko-toujou--related--issei-hyoudou",
+      "source": "koneko-toujou",
+      "target": "issei-hyoudou",
+      "type": "related",
+      "sourceName": "塔城小猫",
+      "targetName": "兵藤一诚",
+      "nature": "romantic",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 9",
+        "恶魔高校.worldbook.json:entry 4"
+      ]
+    },
+    {
+      "id": "rel:koneko-toujou--related--kuroka",
+      "source": "koneko-toujou",
+      "target": "kuroka",
+      "type": "related",
+      "sourceName": "塔城小猫",
+      "targetName": "黑歌",
+      "nature": "sibling",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 9",
+        "恶魔高校.worldbook.json:entry 4"
+      ]
+    },
+    {
+      "id": "rel:koneko-toujou--related--rias-gremory",
+      "source": "koneko-toujou",
+      "target": "rias-gremory",
+      "type": "related",
+      "sourceName": "塔城小猫",
+      "targetName": "莉雅丝·吉蒙里",
+      "nature": "master-servant",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 9",
+        "恶魔高校.worldbook.json:entry 4"
+      ]
+    },
+    {
+      "id": "rel:akeno-himejima--related--issei-hyoudou",
+      "source": "akeno-himejima",
+      "target": "issei-hyoudou",
+      "type": "related",
+      "sourceName": "姬岛朱乃",
+      "targetName": "兵藤一诚",
+      "nature": "romantic",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 8",
+        "恶魔高校.worldbook.json:entry 3"
+      ]
+    },
+    {
+      "id": "rel:akeno-himejima--related--rias-gremory",
+      "source": "akeno-himejima",
+      "target": "rias-gremory",
+      "type": "related",
+      "sourceName": "姬岛朱乃",
+      "targetName": "莉雅丝·吉蒙里",
+      "nature": "master-servant-friend",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 8",
+        "恶魔高校.worldbook.json:entry 3"
+      ]
+    },
+    {
+      "id": "rel:akeno-himejima--related--barakiel",
+      "source": "akeno-himejima",
+      "target": "barakiel",
+      "type": "related",
+      "sourceName": "姬岛朱乃",
+      "targetName": "巴拉基勒",
+      "nature": "father",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 8",
+        "恶魔高校.worldbook.json:entry 3"
+      ]
+    },
+    {
+      "id": "rel:ddraig--related--issei-hyoudou",
+      "source": "ddraig",
+      "target": "issei-hyoudou",
+      "type": "related",
+      "sourceName": "德莱格",
+      "targetName": "兵藤一诚",
+      "nature": "partner",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 1",
+        "dxd_card.worldbook.json:entry 262"
+      ]
+    },
+    {
+      "id": "rel:ddraig--rival--albion",
+      "source": "ddraig",
+      "target": "albion",
+      "type": "rival",
+      "sourceName": "德莱格",
+      "targetName": "阿鲁比恩",
+      "nature": "eternal-rival",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 1",
+        "dxd_card.worldbook.json:entry 262"
+      ]
+    },
+    {
+      "id": "rel:cao-cao--related--issei-hyoudou",
+      "source": "cao-cao",
+      "target": "issei-hyoudou",
+      "type": "related",
+      "sourceName": "曹操",
+      "targetName": "兵藤一诚",
+      "nature": "nemesis",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 18"
+      ]
+    },
+    {
+      "id": "rel:kiba-yuuto--related--issei-hyoudou",
+      "source": "kiba-yuuto",
+      "target": "issei-hyoudou",
+      "type": "related",
+      "sourceName": "木场佑斗",
+      "targetName": "兵藤一诚",
+      "nature": "friendship",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 10",
+        "恶魔高校.worldbook.json:entry 5"
+      ]
+    },
+    {
+      "id": "rel:kiba-yuuto--related--rias-gremory",
+      "source": "kiba-yuuto",
+      "target": "rias-gremory",
+      "type": "related",
+      "sourceName": "木场佑斗",
+      "targetName": "莉雅丝·吉蒙里",
+      "nature": "master-servant",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 10",
+        "恶魔高校.worldbook.json:entry 5"
+      ]
+    },
+    {
+      "id": "rel:xenovia--related--issei-hyoudou",
+      "source": "xenovia",
+      "target": "issei-hyoudou",
+      "type": "related",
+      "sourceName": "杰诺瓦",
+      "targetName": "兵藤一诚",
+      "nature": "romantic",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 13",
+        "恶魔高校.worldbook.json:entry 7",
+        "dxd_card.worldbook.json:entry 10"
+      ]
+    },
+    {
+      "id": "rel:xenovia--rival--irina-shidou",
+      "source": "xenovia",
+      "target": "irina-shidou",
+      "type": "rival",
+      "sourceName": "杰诺瓦",
+      "targetName": "紫藤伊莉娜",
+      "nature": "friendship-rival",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 13",
+        "恶魔高校.worldbook.json:entry 7",
+        "dxd_card.worldbook.json:entry 10"
+      ]
+    },
+    {
+      "id": "rel:asia-argento--related--issei-hyoudou",
+      "source": "asia-argento",
+      "target": "issei-hyoudou",
+      "type": "related",
+      "sourceName": "爱西亚·阿基多",
+      "targetName": "兵藤一诚",
+      "nature": "romantic",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 7",
+        "恶魔高校.worldbook.json:entry 2"
+      ]
+    },
+    {
+      "id": "rel:asia-argento--related--rias-gremory",
+      "source": "asia-argento",
+      "target": "rias-gremory",
+      "type": "related",
+      "sourceName": "爱西亚·阿基多",
+      "targetName": "莉雅丝·吉蒙里",
+      "nature": "master-servant",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 7",
+        "恶魔高校.worldbook.json:entry 2"
+      ]
+    },
+    {
+      "id": "rel:sirzechs-lucifer--related--rias-gremory",
+      "source": "sirzechs-lucifer",
+      "target": "rias-gremory",
+      "type": "related",
+      "sourceName": "瑟杰克斯·路西法",
+      "targetName": "莉雅丝·吉蒙里",
+      "nature": "sister",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 16"
+      ]
+    },
+    {
+      "id": "rel:sirzechs-lucifer--related--greyfia-lucifuge",
+      "source": "sirzechs-lucifer",
+      "target": "greyfia-lucifuge",
+      "type": "related",
+      "sourceName": "瑟杰克斯·路西法",
+      "targetName": "葛瑞菲雅·路基弗格斯",
+      "nature": "spouse",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 16"
+      ]
+    },
+    {
+      "id": "rel:irina-shidou--related--issei-hyoudou",
+      "source": "irina-shidou",
+      "target": "issei-hyoudou",
+      "type": "related",
+      "sourceName": "紫藤伊莉娜",
+      "targetName": "兵藤一诚",
+      "nature": "romantic-childhood-friend",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 15",
+        "恶魔高校.worldbook.json:entry 8"
+      ]
+    },
+    {
+      "id": "rel:irina-shidou--related--xenovia",
+      "source": "irina-shidou",
+      "target": "xenovia",
+      "type": "related",
+      "sourceName": "紫藤伊莉娜",
+      "targetName": "杰诺瓦",
+      "nature": "friendship",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 15",
+        "恶魔高校.worldbook.json:entry 8"
+      ]
+    },
+    {
+      "id": "rel:rossweisse--related--issei-hyoudou",
+      "source": "rossweisse",
+      "target": "issei-hyoudou",
+      "type": "related",
+      "sourceName": "罗丝薇瑟",
+      "targetName": "兵藤一诚",
+      "nature": "romantic",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 19",
+        "dxd_card.worldbook.json:entry 29"
+      ]
+    },
+    {
+      "id": "rel:ravel-phoenix--related--issei-hyoudou",
+      "source": "ravel-phoenix",
+      "target": "issei-hyoudou",
+      "type": "related",
+      "sourceName": "蕾维儿·菲尼克斯",
+      "targetName": "兵藤一诚",
+      "nature": "romantic-manager",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 17"
+      ]
+    },
+    {
+      "id": "rel:albion--related--vali-lucifer",
+      "source": "albion",
+      "target": "vali-lucifer",
+      "type": "related",
+      "sourceName": "阿鲁比恩",
+      "targetName": "瓦利·路西法",
+      "nature": "partner",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 1"
+      ]
+    },
+    {
+      "id": "rel:albion--rival--ddraig",
+      "source": "albion",
+      "target": "ddraig",
+      "type": "rival",
+      "sourceName": "阿鲁比恩",
+      "targetName": "德莱格",
+      "nature": "eternal-rival",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 1"
+      ]
+    },
+    {
+      "id": "rel:kuroka--related--koneko-toujou",
+      "source": "kuroka",
+      "target": "koneko-toujou",
+      "type": "related",
+      "sourceName": "黑歌",
+      "targetName": "塔城小猫",
+      "nature": "sister",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 20"
+      ]
+    },
+    {
+      "id": "rel:kuroka--related--issei-hyoudou",
+      "source": "kuroka",
+      "target": "issei-hyoudou",
+      "type": "related",
+      "sourceName": "黑歌",
+      "targetName": "兵藤一诚",
+      "nature": "romantic",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 20"
+      ]
+    },
+    {
+      "id": "rel:barakiel--related--akeno-himejima",
+      "source": "barakiel",
+      "target": "akeno-himejima",
+      "type": "related",
+      "sourceName": "巴拉基勒",
+      "targetName": "姬岛朱乃",
+      "nature": "father",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 36",
+        "dxd_card.worldbook.json:entry 120"
+      ]
+    },
+    {
+      "id": "rel:sona-sitri--rival--rias-gremory",
+      "source": "sona-sitri",
+      "target": "rias-gremory",
+      "type": "rival",
+      "sourceName": "支取苍那",
+      "targetName": "莉雅丝·吉蒙里",
+      "nature": "friend-rival",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "dxd_card.worldbook.json:entry 12",
+        "恶魔高校.worldbook.json:entry 10",
+        "dxd_card.worldbook.json:entry 28"
+      ]
+    },
+    {
+      "id": "rel:greyfia-lucifuge--related--sirzechs-lucifer",
+      "source": "greyfia-lucifuge",
+      "target": "sirzechs-lucifer",
+      "type": "related",
+      "sourceName": "葛瑞菲雅·路基弗格斯",
+      "targetName": "瑟杰克斯·路西法",
+      "nature": "spouse",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "恶魔高校.worldbook.json:entry 11",
+        "dxd_card.worldbook.json:entry 31"
+      ]
+    },
+    {
+      "id": "rel:greyfia-lucifuge--related--rias-gremory",
+      "source": "greyfia-lucifuge",
+      "target": "rias-gremory",
+      "type": "related",
+      "sourceName": "葛瑞菲雅·路基弗格斯",
+      "targetName": "莉雅丝·吉蒙里",
+      "nature": "sister-in-law",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "恶魔高校.worldbook.json:entry 11",
+        "dxd_card.worldbook.json:entry 31"
+      ]
+    }
+  ],
+  "unmatchedRelationshipMentions": [
+    {
+      "source": "奥菲斯",
+      "targetRaw": "great-red",
+      "nature": "nemesis",
+      "description": "",
+      "evidenceSource": "characters-index.relationships"
+    }
+  ],
+  "stats": {
+    "nodes": 35,
+    "edges": 41,
+    "relationshipBlocksRead": 21,
+    "unmatchedMentions": 1
   }
 }

@@ -1,0 +1,104 @@
+{
+  "objective": "绯弹的亚里亚 Phase 6: 5种图谱（知识/关系/剧情/地点/战斗）",
+  "authority": {
+    "allowFilesystemRead": true,
+    "allowMutationTools": true,
+    "allowShellTools": false,
+    "allowProjectCode": true
+  },
+  "library": {
+    "sources": [
+      "project"
+    ]
+  },
+  "limits": {
+    "concurrency": 4
+  },
+  "steps": [
+    {
+      "id": "p6-kg",
+      "agent": {
+        "system": "绯弹图谱构建员。构建 knowledge-graph.json。使用结构化JSON输出。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "构建知识图谱JSON。\n从Phase 1~4成果中提取：\n- 节点：角色(144人)+地点(44)+势力(32)+力量(18)+术语(37)+事件(464)\n- 边：角色→地点(所在地)、角色→势力(所属)、角色→力量(拥有)、角色→事件(参与)\n\n格式：\n{\n  \"nodes\": [{\"id\":\"...\",\"type\":\"character|location|faction|power|term|event\",\"label\":\"...\",\"group\":\"...\"}],\n  \"edges\": [{\"source\":\"...\",\"target\":\"...\",\"type\":\"located_in|belongs_to|has_ability|participates_in\",\"sourceRef\":\"vol-XX\"}]\n}\n\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p6-output/knowledge-graph.json\n参考E:/pi-st/campaigns/world-library/manual-curation/hidan-p1-output/（角色档案）和hidan-p2-output/（事件）和hidan-p4-output/（世界观）。",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p6-output/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "p6-rg",
+      "agent": {
+        "system": "绯弹图谱构建员。构建 relationship-graph.json。使用结构化JSON输出。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "构建关系图谱JSON。\n从Phase 1角色档案中提取角色间关系：\n- 节点：角色\n- 边：角色A→角色B|关系类型(family/friend/enemy/lover/rival/ally/mentor)|详情|sourceRef\n\n格式：\n{\n  \"nodes\": [{\"id\":\"...\",\"label\":\"...\"}],\n  \"edges\": [{\"source\":\"...\",\"target\":\"...\",\"type\":\"...\",\"description\":\"...\",\"sourceRef\":\"vol-XX\"}]\n}\n门禁：边数≥角色数×2（≥288）\n\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p6-output/relationship-graph.json\n参考E:/pi-st/campaigns/world-library/manual-curation/hidan-p1-output/（角色档案）和hidan-p2-output/（事件）和hidan-p4-output/（世界观）。",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p6-output/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "p6-plot",
+      "agent": {
+        "system": "绯弹图谱构建员。构建 plot-graph.json。使用结构化JSON输出。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "构建剧情图谱JSON。\n从Phase 2事件链路中构建剧情链条：\n- 节点：事件\n- 边：事件→下一事件(cause/after/parallel)\n\n格式：\n{\n  \"nodes\": [{\"id\":\"hidan-e00-0\",\"title\":\"...\",\"vol\":\"...\",\"type\":\"...\"}],\n  \"edges\": [{\"source\":\"...\",\"target\":\"...\",\"type\":\"cause|after\",\"description\":\"...\"}]\n}\n\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p6-output/plot-graph.json\n参考E:/pi-st/campaigns/world-library/manual-curation/hidan-p1-output/（角色档案）和hidan-p2-output/（事件）和hidan-p4-output/（世界观）。",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p6-output/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "p6-loc",
+      "agent": {
+        "system": "绯弹图谱构建员。构建 location-graph.json。使用结构化JSON输出。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "构建地点图谱JSON。\n从Phase 4地点+Phase 2/3位置变迁提取地点连接：\n- 节点：地点\n- 边：地点间路线/包含关系\n\n格式：\n{\n  \"nodes\": [{\"id\":\"...\",\"label\":\"...\",\"type\":\"school|city|building|region\",\"description\":\"...\"}],\n  \"edges\": [{\"source\":\"...\",\"target\":\"...\",\"type\":\"near|inside|route_to|contains\"}]\n}\n\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p6-output/location-graph.json\n参考E:/pi-st/campaigns/world-library/manual-curation/hidan-p1-output/（角色档案）和hidan-p2-output/（事件）和hidan-p4-output/（世界观）。",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p6-output/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "p6-battle",
+      "agent": {
+        "system": "绯弹图谱构建员。构建 battle-log.json。使用结构化JSON输出。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "构建战斗日志JSON。\n从Phase 2事件中提取≥10场重要战斗：\n\n格式：\n{\n  \"battles\": [{\n    \"id\": \"...\",\n    \"vol\": \"vol-XX\",\n    \"title\": \"...\",\n    \"participants\": [{\"name\":\"...\",\"role\":\"attacker|defender|ally\",\"status\":\"victory|defeat|retreat|stalemate\"}],\n    \"location\": \"...\",\n    \"outcome\": \"...\",\n    \"techniques\": [\"...\"],\n    \"significance\": \"...\"\n  }]\n}\n门禁：≥10场战斗\n\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p6-output/battle-log.json\n参考E:/pi-st/campaigns/world-library/manual-curation/hidan-p1-output/（角色档案）和hidan-p2-output/（事件）和hidan-p4-output/（世界观）。",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p6-output/",
+      "cwd": "E:/pi-st"
+    }
+  ]
+}

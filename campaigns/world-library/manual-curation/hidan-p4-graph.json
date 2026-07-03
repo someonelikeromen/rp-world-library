@@ -1,0 +1,87 @@
+{
+  "objective": "绯弹的亚里亚 Phase 4: 世界观提取（力量/地点/势力/术语）",
+  "authority": {
+    "allowFilesystemRead": true,
+    "allowMutationTools": true,
+    "allowShellTools": false,
+    "allowProjectCode": true
+  },
+  "library": {
+    "sources": [
+      "project"
+    ]
+  },
+  "limits": {
+    "concurrency": 4
+  },
+  "steps": [
+    {
+      "id": "p4-powers",
+      "agent": {
+        "system": "绯弹世界观分析员。提取 力量体系。\n格式：\n---WORLD_ITEM---\nNAME: \nTYPE: powers\nDESCRIPTION: >=100字\nSIGNIFICANCE: \nSOURCE_REF: vol-XX\nAFFILIATED: <势力/角色>\n---\n\n参考已读的源文本范围：vol-01~45 + AA vol-01~04。每项精确标注首次出现的卷号。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "提取绯弹的亚里亚里所有力量体系（武侦技能、爆发模式、绯弹、伊·U武装等）。每项≥100字描述+sourceRef。\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p4-output/p4-powers.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p4-output/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "p4-locations",
+      "agent": {
+        "system": "绯弹世界观分析员。提取 主要地点。\n格式：\n---WORLD_ITEM---\nNAME: \nTYPE: locations\nDESCRIPTION: >=100字\nSIGNIFICANCE: \nSOURCE_REF: vol-XX\nAFFILIATED: <势力/角色>\n---\n\n参考已读的源文本范围：vol-01~45 + AA vol-01~04。每项精确标注首次出现的卷号。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "提取绯弹的亚里亚里所有重要地点（武侦高中、东京武侦、伊·U基地等）。每项≥100字描述+sourceRef。\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p4-output/p4-locations.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p4-output/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "p4-factions",
+      "agent": {
+        "system": "绯弹世界观分析员。提取 势力组织。\n格式：\n---WORLD_ITEM---\nNAME: \nTYPE: factions\nDESCRIPTION: >=100字\nSIGNIFICANCE: \nSOURCE_REF: vol-XX\nAFFILIATED: <势力/角色>\n---\n\n参考已读的源文本范围：vol-01~45 + AA vol-01~04。每项精确标注首次出现的卷号。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "提取绯弹的亚里亚里所有势力组织（武侦局、伊·U、巴斯克维尔、武侦高中各科等）。每项≥100字描述+sourceRef+成员。\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p4-output/p4-factions.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p4-output/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "p4-terms",
+      "agent": {
+        "system": "绯弹世界观分析员。提取 术语/科技/武器。\n格式：\n---WORLD_ITEM---\nNAME: \nTYPE: terms\nDESCRIPTION: >=100字\nSIGNIFICANCE: \nSOURCE_REF: vol-XX\nAFFILIATED: <势力/角色>\n---\n\n参考已读的源文本范围：vol-01~45 + AA vol-01~04。每项精确标注首次出现的卷号。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "提取绯弹的亚里亚里特有术语、科技、重要武器（绯弹、M9000、武侦技能等）。每项≥100字描述+sourceRef。\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p4-output/p4-terms.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p4-output/",
+      "cwd": "E:/pi-st"
+    }
+  ]
+}

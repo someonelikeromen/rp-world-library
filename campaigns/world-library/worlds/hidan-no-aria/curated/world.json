@@ -1,409 +1,790 @@
 {
-  "schema": "pi-rp-curated-world-v1",
-  "slug": "hidan-no-aria",
-  "title": "绯弹的亚里亚 / Hidan no Aria",
-  "language": "zh-CN",
-  "curationStatus": "baseline",
-  "sourceRegistry": "source-registry.json",
-  "summary": "现代日本与国际社会表层维持普通法治秩序，里层则存在持枪合法化的武侦、犯罪组织、古老血脉、超侦与色金等超常力量。RP 基线建议以东京武侦高中、巴斯克维尔小队、伊·幽后权力真空与极东战役为主要舞台。",
-  "evidencePolicy": {
-    "A": "原始 README 或 worldbook 条目直接支持",
-    "B": "原始条目支持并结合常识性作品知识整理",
-    "C": "源内表述不稳定、过度细节化或需 GM 自行确认"
+  "schema": "rp-world-v1",
+  "worldId": "hidan-no-aria",
+  "worldName": "绯弹的亚里亚",
+  "genre": ["轻小说", "战斗", "学园", "超自然", "枪战", "后宫", "悬疑"],
+  "summary": "《绯弹的亚里亚》是赤松中学创作的轻小说系列，讲述远山金次——一个只想平凡生活的少年，因与S级武侦神崎·H·亚莉亚的相遇，被卷入名为「伊·U」的伟人后代秘密结社、色金争夺、极东战役和异世界接轨的宏大冒险。故事以东京武侦高中为舞台，融合了写实的枪械战斗、超自然色金力量体系、历史名人的后代恩怨、以及高速轻小说特有的搞笑与热血的交织。全篇以远山金次的第一人称视角叙事，贯穿「武侦宪章第一条：同伴之间要互信互助」的精神。",
+  "sandboxPrinciple": "角色行动与事件自然演化，严格遵循绯弹的亚里亚第一人称有限视角叙事，爆发模式HSS必须有触发条件和消耗代价，武侦法第九条「不得杀害任何人」是核心约束。",
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": false,
+  "volumeRange": {
+    "main": "vol-01~45",
+    "aa": "AA vol-01~04",
+    "totalVolumes": 49
   },
-  "corePremise": {
-    "surfaceWorld": "表层世界近似现代法治社会；普通警察、政府与国际准则仍然存在，多数民众不直接理解里层超常冲突。",
-    "innerWorld": "里层世界由武侦、国际犯罪组织、超能力者、古老家族与色金相关势力构成。重大历史与安全事件常由这些力量暗中左右。",
-    "rpTone": [
-      "枪战与近身格斗",
-      "校园任务",
-      "侦探/反恐行动",
-      "超常血脉与宿命",
-      "轻喜剧与严肃阴谋并存"
-    ],
-    "evidenceLevel": "A",
-    "sourceRefs": [
-      "wb:0"
-    ]
-  },
-  "buteiSystem": {
-    "definition": "武侦（武装侦探）是获得国家许可、可携带武器并在特定条件下执行逮捕与调查的特殊职业，用来填补普通警力与军队之间的灰色地带。",
-    "legalNorms": [
-      "武侦法/武侦宪章强调相信并帮助伙伴。",
-      "面向世界协作，不以国籍和人种划线。",
-      "任务中原则上追求逮捕和非致死压制，不能无正当理由杀戮。",
-      "学生执行任务通常需要兼顾学分、报酬、学校纪律与执照责任。"
-    ],
-    "evidenceLevel": "A",
-    "sourceRefs": [
-      "wb:0",
-      "wb:3",
-      "wb:4"
-    ]
-  },
-  "tokyoButeiHigh": {
-    "name": "东京武侦高中",
-    "location": "东京湾人工浮岛",
-    "nature": "半军事化教育机构，具备独立武装自治与实务训练体制。学生被要求携带武装，并通过校内训练与校外委托积累经验。",
-    "campusUseForRP": [
-      "日常课堂、科别训练、任务委托板、枪械维护与模拟战。",
-      "战徒/战姊妹制度可作为高低年级结对、指导、保护或竞争剧情触发器。",
-      "徽章战、决斗、科别排名与任务失败惩罚可驱动校园冲突。"
-    ],
-    "evidenceLevel": "A",
-    "sourceRefs": [
-      "wb:0",
-      "wb:4"
-    ]
-  },
-  "departments": [
+
+  "powerSystems": [
     {
-      "id": "assault",
-      "name": "强袭科",
-      "focus": "突击逮捕、近身格斗、强行突破；高风险高死亡率。",
-      "sourceRefs": [
-        "wb:4"
+      "id": "hss",
+      "name": "爆发模式 / HSS (Hysteria Savant Syndrome)",
+      "category": "遗传体质",
+      "principle": "远山家男性在性亢奋或极端情绪刺激下，大脑分泌约常人30倍的β脑内啡，戏剧性亢进中枢神经活动，逻辑思考、反射神经、战术演算能力飞跃性提升。根植于「繁衍后代」本能，发动后对女性表现超常温柔和保护欲。",
+      "energySource": "β脑内啡（β-endorphin）+ 色金遗传共鸣",
+      "hasExternalEnergy": false,
+      "externalEnergyName": null,
+      "energyTraits": ["性亢奋触发", "消耗体力", "事后极度疲劳", "对卒副作用"],
+      "levelMapping": [
+        {"localLevel": "通常爆发", "description": "性刺激触发的标准HSS，全能力数倍提升", "universalRange": {"rank": "A-S", "minScore": 70, "maxScore": 90}, "typicalAttributes": {"reflexBoost": "5x", "mentalAccel": "10x"}},
+        {"localLevel": "狂怒爆发", "description": "极度愤怒/保护重要之人时触发，战力约标准爆发1.7倍", "universalRange": {"rank": "S", "minScore": 90, "maxScore": 95}, "typicalAttributes": {"reflexBoost": "7x", "attackPower": "12x"}},
+        {"localLevel": "垂死爆发", "description": "濒死重伤极限状态下触发，短暂极限战力", "universalRange": {"rank": "S+", "minScore": 95, "maxScore": 100}, "typicalAttributes": {"reflexBoost": "10x", "duration": "极短"}},
+        {"localLevel": "半进爆发", "description": "性亢奋受干扰时的中间状态，能力提升幅度较小", "universalRange": {"rank": "B-A", "minScore": 50, "maxScore": 70}, "typicalAttributes": {"reflexBoost": "3x", "sideEffect": "较轻"}}
       ]
     },
     {
-      "id": "inquesta",
-      "name": "侦探科",
-      "focus": "推理、调查、证据搜集与案件分析。",
-      "sourceRefs": [
-        "wb:4"
+      "id": "scarlet-bullet",
+      "name": "绯弹（绯绯色金）",
+      "category": "地外高维金属生命",
+      "principle": "两千年前坠落地球的地外高维知性金属生命体，可干涉物理常数。夏洛克·福尔摩斯4世将绯绯色金结晶物理性植入神崎·H·亚莉亚心脏附近，使其成为「绯弹适应者」。绯绯色金属性为「战争」与「恋爱」，当宿主情感共鸣时能力觉醒增强。",
+      "energySource": "绯绯色金结晶+宿主情感共鸣",
+      "hasExternalEnergy": true,
+      "externalEnergyName": "绯绯色金",
+      "energyTraits": ["人格侵蚀风险", "绯绯神化可能", "需要壳金封印"],
+      "levelMapping": [
+        {"localLevel": "绯弹适应者", "description": "植入绯绯色金但壳金完整，能力受控", "universalRange": {"rank": "S", "minScore": 80, "maxScore": 90}, "typicalAttributes": {"bodyEnhance": "3x", "perception": "5x"}},
+        {"localLevel": "绯绯神化", "description": "壳金全部被夺，宿主被绯绯神夺舍", "universalRange": {"rank": "SSS", "minScore": 200, "maxScore": 500}, "typicalAttributes": {"power": "破坏神级", "control": "失控"}}
       ]
     },
     {
-      "id": "sniper",
-      "name": "狙击科",
-      "focus": "远程支援、弹道计算与非致死压制。",
-      "sourceRefs": [
-        "wb:4"
+      "id": "irokane-system",
+      "name": "色金体系（绯绯·璃璃·琉琉）",
+      "category": "地外高维金属生命体系",
+      "principle": "三种色金是坠落地球的姊妹型地外高维知性生命体，存在于基本粒子层面。绯绯色金（日本，属性：战争与恋爱）喜欢人类感情；璃璃色金（俄罗斯/乌鲁斯，属性：精神与波动）厌恶人心，粒子抑制超能力者；琉琉色金（美国51区，属性：时空与观测）介于两者之间。每种色金有对应人格化神祇。",
+      "energySource": "色金粒子共振",
+      "hasExternalEnergy": true,
+      "externalEnergyName": "色金粒子",
+      "energyTraits": ["色金公害抑制超能力", "心系/法系连接"],
+      "levelMapping": [
+        {"localLevel": "色金持有者", "description": "与色金建立连接获得能力", "universalRange": {"rank": "S-SSS", "minScore": 80, "maxScore": 300}, "typicalAttributes": {"powerType": "variable"}},
+        {"localLevel": "色金巫女", "description": "与色金心灵相通的纯粹宿主，如蕾姬（璃璃）", "universalRange": {"rank": "S+", "minScore": 90, "maxScore": 120}, "typicalAttributes": {"synchronicity": "max"}}
       ]
     },
     {
-      "id": "lezzad",
-      "name": "谍报科",
-      "focus": "潜入、伪装、情报搜集。",
-      "sourceRefs": [
-        "wb:4"
+      "id": "shell-gold",
+      "name": "壳金与绯壳七星",
+      "category": "封印技术",
+      "principle": "古代星伽巫女创造的特殊镀金外壳，可阻绝人类与绯绯色金的「心系」（心灵连接）。共七枚呈七星配置包裹亚莉亚胸中绯弹。壳金完好时压制绯绯神化风险。",
+      "energySource": "古代巫女术法",
+      "hasExternalEnergy": false,
+      "externalEnergyName": null,
+      "energyTraits": ["封印性质", "可被法术破解"],
+      "levelMapping": []
+    },
+    {
+      "id": "psychic-g",
+      "name": "超侦与G等级体系",
+      "category": "超能力评级",
+      "principle": "超能力武侦在国际分类中使用G等级评定，G后数字越大等级越高。G17等级全球仅数人可达。魔女冰能力约G6~G8。超能力受璃璃色金粒子浓度影响。",
+      "energySource": "个体异能",
+      "hasExternalEnergy": false,
+      "externalEnergyName": null,
+      "energyTraits": ["受色金公害抑制"],
+      "levelMapping": [
+        {"localLevel": "G1-G5", "description": "低阶超能力，街头艺人级别", "universalRange": {"rank": "C-B", "minScore": 10, "maxScore": 30}, "typicalAttributes": {}},
+        {"localLevel": "G6-G10", "description": "中阶超能力，魔女级别", "universalRange": {"rank": "B-A", "minScore": 30, "maxScore": 60}, "typicalAttributes": {}},
+        {"localLevel": "G11-G16", "description": "高阶超能力，精英超侦级别", "universalRange": {"rank": "A-S", "minScore": 60, "maxScore": 80}, "typicalAttributes": {}},
+        {"localLevel": "G17+", "description": "顶级超能力，全球个位数", "universalRange": {"rank": "S+", "minScore": 80, "maxScore": 100}, "typicalAttributes": {}}
       ]
     },
     {
-      "id": "dagula",
-      "name": "审讯科",
-      "focus": "心理战、拷问与犯罪剖析。",
-      "sourceRefs": [
-        "wb:4"
+      "id": "butei-rank",
+      "name": "武侦等级制度",
+      "category": "职业评级",
+      "principle": "基于实战成绩和测验结果的评等体系。E/D/C/B/A五级，A之上有S级（特别等级，精英级战力），全球仅约7人的R级（Royal，国家级护卫/大队级对抗能力）。",
+      "energySource": null,
+      "hasExternalEnergy": false,
+      "externalEnergyName": null,
+      "energyTraits": [],
+      "levelMapping": [
+        {"localLevel": "E", "description": "最低等级，金次在侦探科的常规等级", "universalRange": {"rank": "E", "minScore": 0, "maxScore": 20}, "typicalAttributes": {}},
+        {"localLevel": "D-C", "description": "普通武侦学生", "universalRange": {"rank": "D-C", "minScore": 20, "maxScore": 50}, "typicalAttributes": {}},
+        {"localLevel": "B-A", "description": "优秀武侦", "universalRange": {"rank": "B-A", "minScore": 50, "maxScore": 80}, "typicalAttributes": {}},
+        {"localLevel": "S", "description": "精英武侦，可单人对抗特种部队中队", "universalRange": {"rank": "S", "minScore": 80, "maxScore": 95}, "typicalAttributes": {}},
+        {"localLevel": "R", "description": "Royal级，全球仅个位数，大队级对抗能力", "universalRange": {"rank": "R", "minScore": 95, "maxScore": 100}, "typicalAttributes": {}}
       ]
     },
     {
-      "id": "repier",
-      "name": "鉴识科",
-      "focus": "现场取证、法医鉴定与痕迹分析。",
-      "sourceRefs": [
-        "wb:4"
-      ]
+      "id": "butei-divisions",
+      "name": "武侦科别与专业技能体系",
+      "category": "职业分工",
+      "principle": "东京武侦高中设八大科别：强袭科（正面突击）、侦探科（推理调查）、狙击科（远程压制）、谍报科（潜入情报）、审讯科、鉴识科、装备/车辆/通信/卫生科、超能力搜查研究科（SSR/S研）。",
+      "energySource": null,
+      "hasExternalEnergy": false,
+      "externalEnergyName": null,
+      "energyTraits": [],
+      "levelMapping": []
     },
     {
-      "id": "amdo-logi-connect-medica",
-      "name": "装备/车辆/通信/卫生科",
-      "focus": "后勤装备、载具、通讯与医疗支援。",
-      "sourceRefs": [
-        "wb:4"
-      ]
+      "id": "baritsu",
+      "name": "巴流术（Baritsu）",
+      "category": "格斗术",
+      "principle": "福尔摩斯家世代相传的实战格斗术，源自19世纪英国巴顿术（Bartitsu），融合柔术、拳击、杖术等。灵活多变，善于利用对手力量反击，在狭小空间尤为有效。",
+      "energySource": null,
+      "hasExternalEnergy": false,
+      "externalEnergyName": null,
+      "energyTraits": [],
+      "levelMapping": []
     },
     {
-      "id": "ssr-cvr",
-      "name": "超能力搜查研究科/特殊搜查研究科",
-      "focus": "超侦能力、色诱渗透或非正规调查；具体运作建议按角色与剧情谨慎使用。",
-      "sourceRefs": [
-        "wb:4",
-        "wb:71"
-      ]
+      "id": "super-super-power",
+      "name": "超超能力（琉琉色金网络/尼莫一族）",
+      "category": "基因改造能力",
+      "principle": "尼莫一族通过莫里亚蒂教授的「琉色研究」获得基因手术改造，可单方面吸收琉琉色金力量。通过基因中软体程式（虚拟SIM）与琉琉色金网络建立无线连接隔空接收魔力。能力包括瞬间移动、时间跳跃、防御魔术等，发动时呈水蓝色光芒。",
+      "energySource": "琉琉色金网络",
+      "hasExternalEnergy": true,
+      "externalEnergyName": "琉琉色金碎片",
+      "energyTraits": ["无线连接", "信号范围限制", "能量耗尽失效"],
+      "levelMapping": []
+    },
+    {
+      "id": "iu-abilities",
+      "name": "伊·U武装与眷属异能",
+      "category": "血统异能",
+      "principle": "眷属成员多拥有非人种族异能：吸血鬼希尔达操控高压电流（虫洞原理）；魔女连队使用冰/水/血等自然力魔法；鬼族拥有超常体力与再生能力。",
+      "energySource": "血统/种族天赋",
+      "hasExternalEnergy": false,
+      "externalEnergyName": null,
+      "energyTraits": ["受璃璃色金粒子抑制"],
+      "levelMapping": []
+    },
+    {
+      "id": "kidojutsu",
+      "name": "鬼道术/星伽巫女传承",
+      "category": "神道术法",
+      "principle": "星伽神社代代相传的巫女战斗技术体系，融合日本古神道咒术、火术与剑术。可操控火焰奔流、设置结界、咒文治愈。武装巫女模式下性情大变成为恶鬼般战士。",
+      "energySource": "灵力+色金共鸣",
+      "hasExternalEnergy": false,
+      "externalEnergyName": null,
+      "energyTraits": ["与绯绯色金守护传统相关"],
+      "levelMapping": []
+    },
+    {
+      "id": "counter-i",
+      "name": "反色金技术/人工色金（COUNTER-I）",
+      "category": "人造科技",
+      "principle": "美国洛斯阿拉莫斯国家实验室以琉琉色金为基础开发的人工色金，白色构造。属于美军「绝地计划」的一部分。植入者可不被色金探测到。",
+      "energySource": "人工色金合成",
+      "hasExternalEnergy": true,
+      "externalEnergyName": "人工色金",
+      "energyTraits": ["反探测", "人造产物"],
+      "levelMapping": []
+    },
+    {
+      "id": "shidan-corp-powers",
+      "name": "师团联合阵线能力",
+      "category": "联盟战斗体系",
+      "principle": "融合日本神道（玉藻大妖怪级术法、驱鬼结界）、欧洲魔术（冰属性魔法等）、星伽巫女鬼道术、共济会知识传承、正规武侦火器战斗技术的多元战斗体系。",
+      "energySource": "多方势力协同",
+      "hasExternalEnergy": false,
+      "externalEnergyName": null,
+      "energyTraits": ["多元体系融合"],
+      "levelMapping": []
+    },
+    {
+      "id": "lactea-engage",
+      "name": "N组织/列库忒亚接轨",
+      "category": "异世界融合",
+      "principle": "莫里亚蒂教授推动的「第三次接轨」，加速地球与异世界列库忒亚（Lactea）融合。列库忒亚是平行异世界，拥有精灵、妖精、魔兽等超自然生物和特有的魔法体系。接轨自古有大小不同规模的移动发生。",
+      "energySource": "异世界法则+色金",
+      "hasExternalEnergy": true,
+      "externalEnergyName": "列库忒亚",
+      "energyTraits": ["文明级变革", "不可逆性"],
+      "levelMapping": []
     }
   ],
-  "rankSystem": {
-    "normalRanks": [
-      "E",
-      "D",
-      "C",
-      "B",
-      "A"
-    ],
-    "eliteRanks": {
-      "S": "极少数精英，源条目称可单人对抗约特种部队中队级战力。",
-      "R": "Royal，最高层级，源条目称全球仅个位数/约 7 人，具国家级护卫或大队级对抗能力。"
+
+  "factions": [
+    {
+      "id": "fac-iu",
+      "name": "伊·U（伊·幽）",
+      "type": "国际秘密结社",
+      "description": "由世界顶级历史伟人后代组成的国际秘密结社，拥有核子潜艇东方号。首领夏洛克·福尔摩斯一世，围绕色金展开研究和争夺。极东战役后分裂为师团与眷属两大阵营。",
+      "status": "active",
+      "keyMembers": ["夏洛克·福尔摩斯一世", "神崎·H·亚莉亚（下任首领）", "远山金一/加奈", "佩特拉", "弗拉德", "鬼"],
+      "affiliatedLocations": ["伊·U核潜艇东方号"],
+      "sourceRef": "vol-01~45"
     },
-    "superButei": "使用超能力的武侦称超侦，源条目采用 G+数字描述能力等级，数字越大越强。",
-    "evidenceLevel": "A",
-    "sourceRefs": [
-      "wb:4"
-    ]
-  },
-  "powerSystems": {
-    "hss": {
-      "name": "Hysteria Savant Syndrome / 爆发模式",
-      "description": "远山家特有的遗传性生理特征，在特定心理/生理刺激或危机下使大脑与神经系统极度活性化，思考、反应与战术演算大幅提升。",
-      "uses": [
-        "高速弹道演算",
-        "近身枪斗与反击",
-        "远山流秘技",
-        "战术领导与危机破局"
-      ],
-      "costs": [
-        "身体负荷高",
-        "长期/频繁使用可能导致对卒等脑神经损伤",
-        "触发条件可能造成战术弱点"
-      ],
-      "evidenceLevel": "A",
-      "sourceRefs": [
-        "wb:1",
-        "wb:5",
-        "wb:68"
-      ]
+    {
+      "id": "fac-tokyo-butei",
+      "name": "东京武侦高中",
+      "type": "教育机构",
+      "description": "位于东京湾学园岛上的武装侦探培训学校，设有强袭科、侦探科、狙击科、SSR等多个学科。故事主要舞台，主角团队的出身学校。由绿松武尊担任校长。",
+      "status": "active",
+      "keyMembers": ["绿松武尊", "高天原佑彩", "兰豹", "缀梅子", "小夜鸣", "远山金次", "神崎·H·亚莉亚", "星伽白雪"],
+      "affiliatedLocations": ["学园岛", "强袭科", "侦探科", "男生宿舍", "女生宿舍"],
+      "sourceRef": "vol-01"
     },
-    "irokane": {
-      "name": "色金 / Irokane",
-      "description": "源条目将色金定义为坠落地球的地外高维知性金属生命体，在地球上表现为高能金属结晶，可通过宿主干涉物理常数。",
-      "knownTypes": [
-        {
-          "name": "绯绯色金",
-          "themes": [
-            "战争",
-            "热能",
-            "绯弹",
-            "绯绯神"
-          ],
-          "hostOrLink": "神崎·H·亚里亚",
-          "risk": "人格侵蚀与夺舍风险"
-        },
-        {
-          "name": "璃璃色金",
-          "themes": [
-            "精神",
-            "波动",
-            "璃巫女",
-            "色金公害"
-          ],
-          "hostOrLink": "蕾姬/兀鲁斯族相关",
-          "risk": "影响情感与能力环境"
-        },
-        {
-          "name": "瑠瑠色金",
-          "themes": [
-            "时空",
-            "观测",
-            "因果微调"
-          ],
-          "hostOrLink": "远山金三等后期线索",
-          "risk": "时空尺度设定复杂，RP 中应限量使用"
-        }
-      ],
-      "supportTerms": [
-        "壳金：稳定或封印色金能量的辅助触媒",
-        "逆色金技术：人类试图解析/对抗色金的技术方向"
-      ],
-      "evidenceLevel": "A",
-      "sourceRefs": [
-        "wb:2",
-        "wb:6",
-        "wb:70",
-        "wb:73",
-        "wb:123"
-      ]
+    {
+      "id": "fac-baskerville",
+      "name": "巴斯克维尔小队",
+      "type": "武侦小队",
+      "description": "以远山金次为队长、亚莉亚为副队长的五人精英武侦小队。正式成立于第七卷新干线事件后。极东战役中作为师团阵营第一线战斗单位。小队名源自福尔摩斯经典案件。",
+      "status": "active",
+      "keyMembers": ["远山金次", "神崎·H·亚莉亚", "星伽白雪", "峰·理子·罗苹4世", "蕾姬", "丽莎·艾薇·杜·安克"],
+      "affiliatedLocations": ["东京武侦高中", "学园岛"],
+      "sourceRef": "vol-07"
     },
-    "magicAndPsychic": {
-      "description": "存在鬼道术、冰魔法、念动力、血脉能力与古武术等体系。多数能力仍应受环境、媒介、体力、准备动作或色金粒子影响。",
-      "examples": [
-        "星伽白雪的火系鬼道术",
-        "贞德的冰属性超能力",
-        "蕾姬的璃巫女/狙击感知",
-        "理子的色金发技"
-      ],
-      "evidenceLevel": "A",
-      "sourceRefs": [
-        "wb:2",
-        "wb:5",
-        "wb:71",
-        "wb:72",
-        "wb:73",
-        "wb:122"
-      ]
+    {
+      "id": "fac-shidan",
+      "name": "师团（Corps）",
+      "type": "超自然联盟",
+      "description": "极东战役中维护世界秩序的联盟，由伊·U钻研派余党、梵蒂冈圣女梅雅、玉藻、星伽巫女、自由石匠等组成。核心策略是通过外交与武力阻止第三次接轨。",
+      "status": "active",
+      "keyMembers": ["贞德·达鲁克30世", "玉藻", "星伽风雪", "L·华生", "梅雅·罗曼诺", "巴斯克维尔小队"],
+      "affiliatedLocations": ["梵蒂冈", "星伽神社", "空地岛"],
+      "sourceRef": "vol-07~08"
+    },
+    {
+      "id": "fac-kenzoku",
+      "name": "眷属（Retainers）",
+      "type": "超自然联盟",
+      "description": "极东战役中希望利用加速接轨改变世界的阵营，包括魔女连队、吸血鬼、鬼族等超自然种族。围绕壳金和色金展开争夺。内部并非铁板一块。",
+      "status": "active",
+      "keyMembers": ["佩特拉", "卡羯·葛菈塞", "希尔达·德古拉", "莎拉·汉", "阎", "霸美"],
+      "affiliatedLocations": ["巴黎", "欧洲各据点"],
+      "sourceRef": "vol-07~08"
+    },
+    {
+      "id": "fac-n-org",
+      "name": "N组织（诺亚/Nautilus）",
+      "type": "犯罪组织",
+      "description": "后期核心敌对组织，由莫里亚蒂教授领导，目标是引发第三次接轨使异世界列库忒亚与地球融合。拥有核子潜艇诺契勒斯号等舰队。成员佩戴代表阶级的N戒指。",
+      "status": "active",
+      "keyMembers": ["莫里亚蒂教授", "尼莫·林卡伦", "伊藤茉斩", "路西菲莉亚·莫里亚蒂四世", "瓦尔基丽雅"],
+      "affiliatedLocations": ["诺契勒斯号", "纳维加托利亚号", "红鹤寺"],
+      "sourceRef": "vol-12~45"
+    },
+    {
+      "id": "fac-majo-regiment",
+      "name": "魔女连队（Regiment Hexe）",
+      "type": "超自然军事组织",
+      "description": "纳粹德国遗留的超自然魔女部队，由蕾芬洁上校创立。使用自然力魔法，曾与纳粹合作研发超自然武器。部分成员后倒向金次一方。",
+      "status": "dormant",
+      "keyMembers": ["蕾芬洁上校", "卡羯·葛菈塞", "佩特拉", "莎拉·汉", "伊碧丽塔·伊士特尔"],
+      "affiliatedLocations": ["欧洲各据点", "冰山航母哈巴谷号"],
+      "sourceRef": "vol-14~35"
+    },
+    {
+      "id": "fac-blue-gang",
+      "name": "蓝帮（Blue Gang）",
+      "type": "犯罪组织",
+      "description": "以香港为基地的国际犯罪组织，拥有海上堡垒蓝帮城。核心战力为眧眧四姊妹，与孙悟空（绯绯神碎片）有深度合作。后与金次关系转为亦敌亦友。",
+      "status": "active",
+      "keyMembers": ["诸葛静幻", "眧眧四姊妹", "猴/孙"],
+      "affiliatedLocations": ["蓝帮城", "香港"],
+      "sourceRef": "vol-13~14"
+    },
+    {
+      "id": "fac-zero-division",
+      "name": "前公安零课",
+      "type": "政府特务机关",
+      "description": "日本政府废弃的超机密特务机关残党，专门处理超自然威胁。成员均为精英，拥有超越常规武侦的战力。后期与金次从敌对转为合作。",
+      "status": "active",
+      "keyMembers": ["狮堂虎严", "滩", "伊藤可鹉韦", "原田静刃/妖刕", "大门坊"],
+      "affiliatedLocations": ["东京"],
+      "sourceRef": "vol-22~40"
+    },
+    {
+      "id": "fac-g-bloodline",
+      "name": "G的血族",
+      "type": "人工天才系列",
+      "description": "以远山金叉DNA为基础、经洛斯阿拉莫斯尖端科学研究所制造的人工天才系列。拥有远超常人的战斗力。远山五兄妹在后期结盟。",
+      "status": "active",
+      "keyMembers": ["GⅢ/远山金三", "GⅣ/远山金女", "GⅤ/远山金天", "远山金叉"],
+      "affiliatedLocations": ["美国", "罗马", "东京"],
+      "sourceRef": "vol-10~45"
+    },
+    {
+      "id": "fac-giusto",
+      "name": "Giusto（正义）",
+      "type": "英雄组织",
+      "description": "GⅢ在罗马建立的英雄组织，本部设在卡斯特提亚城。成员以数字编号区分，核心为「一位数」。金次加入后获「武士零号」编号。",
+      "status": "active",
+      "keyMembers": ["GⅢ/远山金三", "安洁丽卡·斯塔尔", "奥古斯塔", "远山金次"],
+      "affiliatedLocations": ["卡斯特提亚城", "罗马"],
+      "sourceRef": "vol-41~43"
+    },
+    {
+      "id": "fac-oni-clan",
+      "name": "鬼族",
+      "type": "超自然种族",
+      "description": "日本传统妖怪族群，母系社会结构，女性成年后长犄角获得完整力量。最初作为N组织关联战力登场，后转为中立。与异世界列库忒亚有深层联系。",
+      "status": "active",
+      "keyMembers": ["阎", "霸美", "津羽鬼"],
+      "affiliatedLocations": ["鬼之国"],
+      "sourceRef": "vol-17~36"
+    },
+    {
+      "id": "fac-lactea-guild",
+      "name": "列库忒亚公会（Lactea Guild）",
+      "type": "异世界移民互助组织",
+      "description": "从异世界列库忒亚来到地球的移民组建的秘密互助组织。成员通过魔法阵或自然形成的「门」穿越。对第三次接轨持不同立场（门派vs砦派）。",
+      "status": "active",
+      "keyMembers": ["南丁·楔拉诺希亚", "恩蒂米菈", "萜萜蒂", "列萜蒂", "远山雪花"],
+      "affiliatedLocations": ["红鹤寺", "东京港区"],
+      "sourceRef": "vol-16~45"
+    },
+    {
+      "id": "fac-freemasons",
+      "name": "自由石匠（Freemasons）",
+      "type": "秘密结社",
+      "description": "古老秘密结社，师团一方的重要盟友。拥有遍布全球的情报网络和财务资源。凯撒和L·华生为主要登场成员。",
+      "status": "active",
+      "keyMembers": ["凯撒", "L·华生"],
+      "affiliatedLocations": ["欧洲总部"],
+      "sourceRef": "vol-08~37"
+    },
+    {
+      "id": "fac-sbz",
+      "name": "杀巴宗（SBZ / Slay Baskerville）",
+      "type": "暗杀组织",
+      "description": "第四十五卷末新登场的敌对组织，全名「誓杀巴斯克维尔宗」。由朱帮武侠少女赵云带领，以逐个猎杀巴斯克维尔小队成员为目标。",
+      "status": "active",
+      "keyMembers": ["赵云", "莉", "虎娘", "修女", "金发影女"],
+      "affiliatedLocations": ["台北101", "东京"],
+      "sourceRef": "vol-45"
+    },
+    {
+      "id": "fac-zhu-gang",
+      "name": "朱帮",
+      "type": "华人武斗组织",
+      "description": "与蓝帮并立的华人超自然武斗组织，以台湾台北为据点。成员包括武侠少女赵云等。杀巴宗极可能为其下属暗杀小队。",
+      "status": "active",
+      "keyMembers": ["赵云", "莉"],
+      "affiliatedLocations": ["台北101", "台湾"],
+      "sourceRef": "vol-45"
+    },
+    {
+      "id": "fac-vatican",
+      "name": "梵蒂冈教廷驱魔体系",
+      "type": "宗教超自然应对组织",
+      "description": "拥有独立的驱魔师部队和圣遗物部队，对超自然力量持排斥立场。总体立场接近师团。",
+      "status": "active",
+      "keyMembers": ["梅雅·圣·米歇尔", "驱魔师部队"],
+      "affiliatedLocations": ["梵蒂冈"],
+      "sourceRef": "vol-09"
+    },
+    {
+      "id": "fac-ulus",
+      "name": "乌鲁斯族",
+      "type": "游牧民族后裔",
+      "description": "成吉思汗（源义经）的一支血脉，全族仅存47名女性，世代守护璃璃色金。蕾姬是该族最后的末裔公主。",
+      "status": "extinct",
+      "keyMembers": ["蕾姬"],
+      "affiliatedLocations": [],
+      "sourceRef": "vol-06~07"
+    },
+    {
+      "id": "fac-arprosecutor",
+      "name": "武装检察局（武检）",
+      "type": "政府监察机构",
+      "description": "监督武侦行为、调查武侦违法案件的特殊检察机关。武装检察官拥有高于常规武侦的权限。",
+      "status": "active",
+      "keyMembers": ["不破", "猿田邦彦/中川"],
+      "affiliatedLocations": ["东京"],
+      "sourceRef": "vol-21~39"
+    },
+    {
+      "id": "fac-holmes-family",
+      "name": "福尔摩斯家族",
+      "type": "名门家族",
+      "description": "夏洛克·福尔摩斯血脉传承的家族。亚莉亚为福尔摩斯4世，梅露爱特为福尔摩斯4世。家族与伊·U、伦敦武侦局有深厚关联。",
+      "status": "active",
+      "keyMembers": ["夏洛克·福尔摩斯一世", "神崎·H·亚莉亚", "梅露爱特·福尔摩斯"],
+      "affiliatedLocations": ["伦敦"],
+      "sourceRef": "vol-01~45"
+    },
+    {
+      "id": "fac-toyama-family",
+      "name": "远山家",
+      "type": "武命名门",
+      "description": "传承HSS与色金武术的武侦名门。代代男性拥有爆发模式遗传体质，数百年作为「正义使者」战斗。家族成员分散全球各势力。",
+      "status": "active",
+      "keyMembers": ["远山金次", "远山金一/加奈", "远山金叉", "远山金三/GⅢ", "远山金女/GⅣ", "远山金天/GⅤ", "远山雪花"],
+      "affiliatedLocations": ["东京·远山家本家"],
+      "sourceRef": "vol-01~45"
+    },
+    {
+      "id": "fac-hoshiga-family",
+      "name": "星伽神社/星伽一族",
+      "type": "巫女家族",
+      "description": "星伽一族世代守护星伽神社和绯绯色金的武装巫女家族。拥有鬼道术和色金杀女等传承力量。白雪为当代主要继承者。",
+      "status": "active",
+      "keyMembers": ["星伽白雪", "星伽粉雪", "星伽风雪", "星伽华雪", "玉藻"],
+      "affiliatedLocations": ["星伽神社", "青森"],
+      "sourceRef": "vol-01~45"
+    },
+    {
+      "id": "fac-reunion",
+      "name": "同窗会联盟（Reunion）",
+      "type": "临时联盟",
+      "description": "夏洛克·福尔摩斯一世在第三十七卷召集的跨势力临时联盟，以第二届伊·U同学会名义召集。核心目标是夺回华生一世。",
+      "status": "dissolved",
+      "keyMembers": ["夏洛克·福尔摩斯一世", "远山金次", "猴/孙悟空", "路西菲莉亚", "希尔达", "华生四世"],
+      "affiliatedLocations": ["印度"],
+      "sourceRef": "vol-37"
     }
+  ],
+
+  "energyEnvironment": {
+    "primaryEnergy": "色金（绯绯/璃璃/琉琉三色）",
+    "energyDistribution": {
+      "japan": "绯绯色金（战争与恋爱属性）",
+      "russia_ulus": "璃璃色金（精神与波动属性，抑制超能力）",
+      "usa_51_area": "琉琉色金（时空与观测属性）"
+    },
+    "energySuppression": "璃璃色金粒子浓度高时全面抑制超能力者",
+    "artificialEnergy": "反色金/人工色金（COUNTER-I，美国洛斯阿拉莫斯研发）"
   },
-  "factionsAndCrime": {
-    "buteiSystem": "合法表层秩序的一部分，但常与政府、警察、跨国犯罪和超常势力发生管辖冲突。",
-    "iu": "伊·幽（I-U）是旧有里层秩序/犯罪组织，源条目称其瓦解后引发权力真空并推动极东战役。",
-    "division": "师团：由情报机构、正派武侦和古老秩序维护者构成的联合阵线，目标是维持现秩序并封印/管控超常力量。",
-    "retainers": "眷属：由伊·幽残党、异人种族与激进能力者等组成，目标包括打破人类中心秩序或争取超常种族生存空间。",
-    "organizationN": "N / Nautilus：源条目称由莫里亚蒂及继承者推动，目标是第三次接轨、加速地球与莱克忒亚融合，以文明崩溃筛选进化种。",
-    "blueGang": "蓝帮：中国/东亚地下财阀与武力集团，拥有庞大世俗影响力与古武术传承。",
-    "publicSecurityZero": "公安0课：日本政府黑色行动部队/秘密警察，试图将超自然力量纳入国家机器，对不受控武侦保持戒备。",
-    "vatican": "梵蒂冈教廷：源条目提到驱魔师、圣遗物部队与对超自然力量的排斥/利用。",
-    "evidenceLevel": "A",
-    "sourceRefs": [
-      "wb:3",
-      "wb:7",
-      "wb:68",
-      "wb:77",
-      "wb:122"
-    ]
-  },
+
   "locations": [
     {
-      "name": "东京武侦高中/东京湾人工浮岛",
-      "use": "主校园、训练、委托与小队日常",
-      "evidenceLevel": "A",
-      "sourceRefs": [
-        "wb:0",
-        "wb:4"
-      ]
+      "id": "loc-tokyo-butei-high",
+      "name": "东京武侦高中",
+      "type": "school",
+      "region": "东京湾学园岛",
+      "description": "位于东京湾彩虹桥南方人工浮岛上的武装侦探培训学校，设强袭科、侦探科、狙击科、SSR等。全系列核心舞台。",
+      "notableFeatures": ["学园岛人工浮岛", "强袭科训练设施", "地下仓库", "教务科"],
+      "affiliatedFactions": ["东京武侦高中", "巴斯克维尔小队"],
+      "sourceRef": "vol-01"
     },
     {
-      "name": "东京湾与都市圈",
-      "use": "追车、港湾、人工岛、恐袭或超常事件发生地",
-      "evidenceLevel": "A",
-      "sourceRefs": [
-        "wb:4",
-        "wb:23"
-      ]
+      "id": "loc-gakuenjima",
+      "name": "学园岛",
+      "type": "region",
+      "region": "东京湾",
+      "description": "南北长约2公里、东西宽约500公尺的人工浮岛，东京武侦高中所在地。北端有单轨电车浮岛北车站。",
+      "notableFeatures": ["彩虹桥", "空地岛"],
+      "affiliatedFactions": ["东京武侦高中"],
+      "sourceRef": "vol-01"
     },
     {
+      "id": "loc-iu-submarine",
+      "name": "伊·U核潜艇（东方号）",
+      "type": "vehicle",
+      "region": "全球海域",
+      "description": "由大日本帝国海军与纳粹德国在二战期间合作建造的巨大核动力潜水航母，航速47节。舰内空间广阔，拥有教室、金库等设施。",
+      "notableFeatures": ["核动力", "潜航能力", "47节航速"],
+      "affiliatedFactions": ["伊·U"],
+      "sourceRef": "vol-05"
+    },
+    {
+      "id": "loc-skytree",
+      "name": "天空树（东京晴空塔）",
+      "type": "landmark",
+      "region": "东京墨田区",
+      "description": "高634米的地标性电波塔。第九卷高潮战斗发生地——金次与华生激战、理子濒死事件、希尔达引发大规模停电。",
+      "notableFeatures": ["450米第二观景台"],
+      "affiliatedFactions": [],
+      "sourceRef": "vol-09"
+    },
+    {
+      "id": "loc-lambang-city",
+      "name": "蓝帮城",
+      "type": "stronghold",
+      "region": "香港近海",
+      "description": "长约200米、宽约50米的三层漂浮海上堡垒。清朝以前蓝帮的移动基地，装饰金碧辉煌。第十四卷核心舞台。",
+      "notableFeatures": ["海上堡垒", "豪华宴会厅"],
+      "affiliatedFactions": ["蓝帮"],
+      "sourceRef": "vol-14"
+    },
+    {
+      "id": "loc-oni-no-kuni",
+      "name": "鬼之国",
+      "type": "region",
+      "region": "日本近海",
+      "description": "被茂密红树林覆盖的神秘孤岛，约200米见方。鬼族根据地，霸美统治。最后一枚壳金所在地，决定亚莉亚命运的关键地点。",
+      "notableFeatures": ["红树林", "鬼族馆舍"],
+      "affiliatedFactions": ["鬼族"],
+      "sourceRef": "vol-20"
+    },
+    {
+      "id": "loc-51-area",
+      "name": "51区",
+      "type": "military_base",
+      "region": "美国内华达州",
+      "description": "美国空军秘密基地，保管琉琉色金。GⅢ在此参与夺回琉琉色金的作战。",
+      "notableFeatures": ["琉琉色金保管", "绝地计划基地"],
+      "affiliatedFactions": ["美军", "G的血族"],
+      "sourceRef": "vol-18~19"
+    },
+    {
+      "id": "loc-lactea",
+      "name": "列库忒亚（异世界）",
+      "type": "dimension",
+      "region": "异世界",
+      "description": "平行异世界，拥有精灵、妖精、魔兽等超自然生物。与地球之间存在接轨现象。N组织企图引发第三次接轨。",
+      "notableFeatures": ["七位女神", "魔法体系", "超自然生物"],
+      "affiliatedFactions": ["列库忒亚公会", "N组织"],
+      "sourceRef": "vol-33~45"
+    },
+    {
+      "id": "loc-shishimi-shrine",
       "name": "星伽神社",
-      "use": "星伽一族、巫女、绯绯色金守护与联姻传统",
-      "evidenceLevel": "A",
-      "sourceRefs": [
-        "wb:3",
-        "wb:7",
-        "wb:71"
+      "type": "shrine",
+      "region": "青森县",
+      "description": "星伽一族的根据地，世代武装巫女守护神体。供奉铭刀绯金菖蒲等神宝。白雪的故乡。",
+      "notableFeatures": ["武装巫女传承", "色金杀女"],
+      "affiliatedFactions": ["星伽神社", "星伽一族"],
+      "sourceRef": "vol-01"
+    },
+    {
+      "id": "loc-red-crane-temple",
+      "name": "红鹤寺",
+      "type": "temple",
+      "region": "东京港区",
+      "description": "列库忒亚公会活动据点，异世界移民在地球的秘密集会场所。",
+      "notableFeatures": ["异世界移民据点", "魔法阵"],
+      "affiliatedFactions": ["列库忒亚公会"],
+      "sourceRef": "vol-35~36"
+    },
+    {
+      "id": "loc-giusto-castle",
+      "name": "Giusto本部卡斯特提亚城",
+      "type": "stronghold",
+      "region": "意大利罗马",
+      "description": "GⅢ建立的英雄组织Giusto的总部，组织活动中心。",
+      "notableFeatures": ["英雄基地", "一位数集会"],
+      "affiliatedFactions": ["Giusto"],
+      "sourceRef": "vol-41"
+    },
+    {
+      "id": "loc-benikan",
+      "name": "红鸣馆",
+      "type": "mansion",
+      "region": "横滨",
+      "description": "德古拉伯爵弗拉德的西洋洋馆，铜墙铁壁的要塞。第三卷核心舞台，理子在此被囚禁。",
+      "notableFeatures": ["三次元红外线防盗网", "地下金库"],
+      "affiliatedFactions": [],
+      "sourceRef": "vol-03"
+    },
+    {
+      "id": "loc-nautilus",
+      "name": "诺契勒斯号（鹦鹉螺号）",
+      "type": "vehicle",
+      "region": "全球海域",
+      "description": "N组织的核子潜艇，由提督尼莫指挥。第三十六卷后脱离N组织升起初代尼莫旗帜。",
+      "notableFeatures": ["核子动力", "超超能力搭载"],
+      "affiliatedFactions": ["N组织"],
+      "sourceRef": "vol-28~36"
+    },
+    {
+      "id": "loc-todai",
+      "name": "东京大学本乡校区",
+      "type": "school",
+      "region": "东京文京区",
+      "description": "日本最高学府。金次在第四十五卷考上东大并参加入学典礼，武侦与高等教育体系在此接轨。",
+      "notableFeatures": ["安田讲堂", "小柴礼堂"],
+      "affiliatedFactions": [],
+      "sourceRef": "vol-45"
+    }
+  ],
+
+  "keyTerms": [
+    {
+      "id": "term-butei",
+      "name": "武侦（Armed Detective）",
+      "description": "为对抗凶恶化犯罪而设立的国际资格，领有执照者可携带武器并享有逮捕权。武侦是「便利屋」，不同于警察。",
+      "category": "核心制度",
+      "sourceRef": "vol-01"
+    },
+    {
+      "id": "term-butei-charter",
+      "name": "武侦宪章",
+      "description": "武侦行业道德和行为准则。第一条「同伴之间要互信互助」贯穿全作。",
+      "category": "核心制度",
+      "sourceRef": "vol-01~02"
+    },
+    {
+      "id": "term-butei-law-9",
+      "name": "武侦法第九条",
+      "description": "「武侦不论在任何情况下，都不得在武侦活动中杀害任何人。」武侦行业铁律。",
+      "category": "核心制度",
+      "sourceRef": "vol-01"
+    },
+    {
+      "id": "term-iu",
+      "name": "伊·U（伊·幽）",
+      "description": "历史上伟人后代组成的国际秘密结社，名字源自Eureka。拥有核潜艇和超时代科技。极东战役后分裂为师团与眷属。",
+      "category": "核心组织",
+      "sourceRef": "vol-01~45"
+    },
+    {
+      "id": "term-shidan-kenzoku",
+      "name": "师团与眷属",
+      "description": "伊·U在极东战役前夕分裂的两大联盟。师团维护秩序，眷属追求变革。第八卷宣战会议正式确立阵营划分。",
+      "category": "势力格局",
+      "sourceRef": "vol-08"
+    },
+    {
+      "id": "term-few",
+      "name": "极东战役（Far East Campaign）",
+      "description": "伊·U分裂为师团与眷属后的首次全面冲突，以东京和学园岛为主要舞台。亚莉亚壳金七星在此战中散落。",
+      "category": "历史事件",
+      "sourceRef": "vol-08~09"
+    },
+    {
+      "id": "term-hss",
+      "name": "爆发模式/HSS（Hysteria Savant Syndrome）",
+      "description": "远山家男性代相传的特殊体质，性亢奋时分泌常人30倍β脑内啡，能力飞跃性提升。持续数十分钟，事后极度疲劳。",
+      "category": "核心能力",
+      "sourceRef": "vol-01"
+    },
+    {
+      "id": "term-color-gold",
+      "name": "色金（Irogami）",
+      "description": "坠落地球的地外高维知性金属，包括绯绯（战争与恋爱）、璃璃（精神与波动）、琉琉（时空与观测）三种。构成绯弹世界超自然力量基础。",
+      "category": "核心设定",
+      "sourceRef": "vol-07~28"
+    },
+    {
+      "id": "term-shell-gold",
+      "name": "壳金七星",
+      "description": "古代星伽巫女创造的封印外壳，七枚呈七星配置包裹亚莉亚心脏附近的绯弹。极东战役中被希尔达破解散落。",
+      "category": "核心道具",
+      "sourceRef": "vol-08~09"
+    },
+    {
+      "id": "term-third-engage",
+      "name": "第三次接轨",
+      "description": "N组织推动的异世界列库忒亚与地球的融合计划，莫里亚蒂教授为之努力了两千年。",
+      "category": "核心事件",
+      "sourceRef": "vol-28~33"
+    },
+    {
+      "id": "term-invisible-bullet",
+      "name": "不可视子弹",
+      "description": "远山金一的究极枪技，以超高速拔枪使对手完全看不到手枪存在和射击过程。仅爆发模式下可施展。",
+      "category": "战斗技能",
+      "sourceRef": "vol-04"
+    },
+    {
+      "id": "term-dual-sword-gun",
+      "name": "双剑双枪",
+      "description": "亚莉亚的标志性战斗风格，同时使用两把手枪和两把刀进行战斗。需高度左右脑协同。",
+      "category": "战斗技能",
+      "sourceRef": "vol-01"
+    },
+    {
+      "id": "term-fighting-sister",
+      "name": "战姊妹制度",
+      "description": "武侦高中高年级学姐（战姐）指导低年级学妹（战妹）的师徒制度，为期一年。AA系列核心制度。",
+      "category": "校园制度",
+      "sourceRef": "AA vol-01"
+    }
+  ],
+
+  "coreCharacters": [
+    {"id": "c0", "name": "远山金次", "role": "主角", "group": "巴斯克维尔小队", "aliases": ["武士零号", "哿"], "type": "HSS持有者", "volFirstAppear": "vol-01"},
+    {"id": "c1", "name": "星伽白雪", "role": "女主角", "group": "巴斯克维尔小队", "aliases": ["绯巫女"], "type": "星伽巫女/SSR超侦", "volFirstAppear": "vol-01"},
+    {"id": "c2", "name": "神崎·H·亚莉亚", "role": "女主角", "group": "巴斯克维尔小队", "aliases": ["绯弹", "福尔摩斯4世"], "type": "绯弹持有者/S级武侦", "volFirstAppear": "vol-01"},
+    {"id": "c3", "name": "蕾姬", "role": "女主角", "group": "巴斯克维尔小队", "aliases": ["一发子弹", "璃巫女"], "type": "狙击科S级/乌鲁斯族末裔", "volFirstAppear": "vol-01"},
+    {"id": "c4", "name": "峰·理子·罗苹4世", "role": "女主角", "group": "巴斯克维尔小队", "aliases": ["怪盗罗苹四世"], "type": "怪盗/S级武侦", "volFirstAppear": "vol-01"},
+    {"id": "c5", "name": "不知火亮", "role": "重要配角", "group": "东京武侦高中/公安零课", "aliases": [], "type": "政府代理人/侦探科", "volFirstAppear": "vol-01"},
+    {"id": "c6", "name": "武藤刚气", "role": "重要配角", "group": "东京武侦高中", "aliases": ["爆炸摔"], "type": "车辆科A级", "volFirstAppear": "vol-01"},
+    {"id": "c7", "name": "帕特拉（佩特拉）", "role": "重要配角", "group": "眷属", "aliases": ["沙砾魔女", "克丽欧佩特拉7世转生"], "type": "魔女/远山家媳妇", "volFirstAppear": "vol-03"},
+    {"id": "c9", "name": "风魔阳菜", "role": "重要配角", "group": "东京武侦高中", "aliases": ["马尾辫", "金次战妹"], "type": "风魔忍者/谍报科", "volFirstAppear": "vol-AA"},
+    {"id": "c10", "name": "玉藻", "role": "重要配角", "group": "师团", "aliases": ["天狐"], "type": "九尾狐/高阶妖怪", "volFirstAppear": "vol-07"},
+    {"id": "c13", "name": "莫里亚蒂教授", "role": "最终反派", "group": "N组织", "aliases": ["N之始祖", "接轨协调者"], "type": "永生者/犯罪帝王", "volFirstAppear": "vol-12"},
+    {"id": "c15", "name": "夏洛克·福尔摩斯一世", "role": "重要角色", "group": "伊·U", "aliases": ["教授"], "type": "伟大侦探/伊·U首领", "volFirstAppear": "vol-04"},
+    {"id": "c16", "name": "远山金叉", "role": "重要角色", "group": "远山家/美军", "aliases": ["Golden Cross", "Silent Orgo"], "type": "GⅡ/美国顶级特务", "volFirstAppear": "vol-30"},
+    {"id": "c18", "name": "尼莫·林卡伦", "role": "重要角色", "group": "N组织", "aliases": ["提督"], "type": "超超能力者/舰长", "volFirstAppear": "vol-24"},
+    {"id": "c28", "name": "希尔达·德古拉", "role": "重要角色", "group": "眷属", "aliases": ["紫电魔女", "德古拉女伯爵"], "type": "吸血鬼/高压电流操控", "volFirstAppear": "vol-03"},
+    {"id": "c29", "name": "远山金三（GⅢ）", "role": "重要角色", "group": "G的血族", "aliases": ["GⅢ", "R级武侦"], "type": "人工天才/Giusto首领", "volFirstAppear": "vol-11"},
+    {"id": "c31", "name": "间宫明里", "role": "AA主角", "group": "东京武侦高中", "aliases": [], "type": "D级强袭科/亚莉亚战妹", "volFirstAppear": "AA vol-01"},
+    {"id": "c32", "name": "远山雪花", "role": "重要角色", "group": "远山家", "aliases": [], "type": "旧日军中校/异世界归来", "volFirstAppear": "vol-32"},
+    {"id": "c33", "name": "远山金一/加奈", "role": "重要角色", "group": "远山家", "aliases": ["加奈", "GⅠ"], "type": "HSS完全制御者", "volFirstAppear": "vol-04"},
+    {"id": "c34", "name": "贞德·达鲁克30世", "role": "重要角色", "group": "师团", "aliases": ["银冰魔女", "魔剑", "星座小队队长"], "type": "圣女后裔/冰魔法", "volFirstAppear": "vol-02"},
+    {"id": "c37", "name": "L·华生", "role": "重要角色", "group": "师团/自由石匠", "aliases": ["约翰·H·华生四世"], "type": "转装生/华生后裔", "volFirstAppear": "vol-08"},
+    {"id": "c45", "name": "远山金女（GⅣ）", "role": "重要角色", "group": "G的血族", "aliases": ["金女"], "type": "人工天才/单分子震动刀", "volFirstAppear": "vol-10"},
+    {"id": "c64", "name": "伊藤茉斩", "role": "重要角色", "group": "N组织", "aliases": [], "type": "白金指环干部", "volFirstAppear": "vol-24"},
+    {"id": "c63", "name": "狮堂虎严", "role": "重要角色", "group": "公安零课", "aliases": [], "type": "先天肌纤维乘能力者/队长", "volFirstAppear": "vol-22"},
+    {"id": "c79", "name": "霸美", "role": "重要角色", "group": "鬼族", "aliases": [], "type": "鬼族总大将", "volFirstAppear": "vol-20"},
+    {"id": "c92", "name": "猴/孙（孙悟空）", "role": "重要角色", "group": "蓝帮", "aliases": ["孙悟空"], "type": "绯绯神碎片/如意棒使用者", "volFirstAppear": "vol-13"},
+    {"id": "c107", "name": "丽莎·艾薇·杜·安克", "role": "重要角色", "group": "巴斯克维尔小队", "aliases": ["热沃当之兽"], "type": "眷属叛逃者/金次女仆", "volFirstAppear": "vol-16"},
+    {"id": "c128", "name": "远山金天（GⅤ）", "role": "重要角色", "group": "G的血族", "aliases": ["金天"], "type": "第二世代人工天才/反色金携带", "volFirstAppear": "vol-27"},
+    {"id": "c134", "name": "路西菲莉亚·莫里亚蒂四世", "role": "重要角色", "group": "N组织", "aliases": [], "type": "莫里亚蒂之女", "volFirstAppear": "vol-35"},
+    {"id": "c130", "name": "卡羯·葛菈塞", "role": "重要角色", "group": "眷属/魔女连队", "aliases": ["厄水魔女"], "type": "水魔法魔女", "volFirstAppear": "vol-14"}
+  ],
+
+  "timelines": [
+    {
+      "id": "main-timeline",
+      "name": "正传主线时间轴",
+      "arcs": [
+        {"name": "相遇篇", "volumes": "vol-01~02", "keyEvents": ["武侦杀手事件", "金次与亚莉亚相遇", "理子怪盗身份暴露", "白雪贞德登场"]},
+        {"name": "伊·幽篇", "volumes": "vol-03~04", "keyEvents": ["红鸣馆潜入", "弗拉德对决", "远山金一/加奈登场", "大哥对决"]},
+        {"name": "绯弹起源篇", "volumes": "vol-05~06", "keyEvents": ["夏洛克真相揭晓", "历镜与绯弹射入", "蕾姬求婚"]},
+        {"name": "壳金篇/极东战役", "volumes": "vol-07~08", "keyEvents": ["巴斯克维尔小队成立", "宣战会议", "壳金七星被希尔达破解", "师团vs眷属宣战"]},
+        {"name": "天空树/G的血族篇", "volumes": "vol-09~10", "keyEvents": ["天空树决战", "理子濒死", "金女登场"]},
+        {"name": "GⅢ·东池袋篇", "volumes": "vol-11~12", "keyEvents": ["GⅢ对决", "金次退学", "东池袋高中生活"]},
+        {"name": "香港蓝帮篇", "volumes": "vol-13~14", "keyEvents": ["蓝帮城", "孙悟空决战", "诸葛静幻"]},
+        {"name": "欧洲战线篇", "volumes": "vol-15~16", "keyEvents": ["星座小队", "魔女连队追击", "白朗峰战斗", "龙之港战役"]},
+        {"name": "绯绯神觉醒篇", "volumes": "vol-17~18", "keyEvents": ["亚莉亚绯绯神化", "51区琉琉色金", "璃璃色金女神附身蕾姬"]},
+        {"name": "伦敦·鬼之国篇", "volumes": "vol-19~20", "keyEvents": ["紫绀之城", "鬼之国决战", "绯绯神契约"]},
+        {"name": "公安零课·N组织篇", "volumes": "vol-21~28", "keyEvents": ["香苗获释", "前零课追捕", "伊·U同学会", "N组织浮出水面"]},
+        {"name": "寻父·N舰队篇", "volumes": "vol-29~36", "keyEvents": ["阿尼亚斯学院潜入", "美国寻父", "鄂霍次克海海战", "诺契勒斯脱离N"]},
+        {"name": "Reunion·最终章", "volumes": "vol-37~45", "keyEvents": ["第二届伊·U同学会", "印度篇解救华生一世", "Giusto", "雷霆教团", "东大入学", "杀巴宗登场"]}
       ]
     },
     {
-      "name": "东方号 / Vostok",
-      "use": "前伊·幽根据地，核潜艇与移动基地型舞台",
-      "evidenceLevel": "A",
-      "sourceRefs": [
-        "wb:6"
-      ]
-    },
-    {
-      "name": "上海/东亚蓝帮势力圈",
-      "use": "地下财阀、黑帮、武术家与跨国案件",
-      "evidenceLevel": "A",
-      "sourceRefs": [
-        "wb:3",
-        "wb:7"
-      ]
-    },
-    {
-      "name": "莱克忒亚",
-      "use": "异世界/接轨根源。建议作为高阶战役背景而非日常舞台。",
-      "evidenceLevel": "A",
-      "sourceRefs": [
-        "wb:0",
-        "wb:2",
-        "wb:3"
-      ]
-    },
-    {
-      "name": "纽约武侦高/五一区等海外据点",
-      "use": "G 之血族、美国绝地计划、国际武侦网络；具体细节按剧情需要裁剪。",
-      "evidenceLevel": "B",
-      "sourceRefs": [
-        "wb:68",
-        "wb:123",
-        "wb:124"
+      "id": "aa-timeline",
+      "name": "AA外传时间轴",
+      "arcs": [
+        {"name": "AA篇", "volumes": "AA vol-01~04", "keyEvents": ["间宫明里成为亚莉亚战妹", "攻击少女队GGG作战", "夹竹桃事件", "战姊妹制度详细展开"]}
       ]
     }
   ],
-  "socialRulesForRP": [
-    "武侦任务优先逮捕与保护平民；杀戮会带来法律、校方与同伴层面的后果。",
-    "枪械、刀具与超能力可公开存在于武侦校园内，但在普通社会中仍受强烈规制。",
-    "搭档信任是核心规则：背后交给同伴、战术互补与临场救援应优先于单人炫技。",
-    "HSS、色金与超侦能力不可无限滥用：必须体现触发条件、身体/精神代价、社会关注或被敌方针对的风险。",
-    "校园喜剧与高烈度战役可以并存，但重大世界线设定（N、第三次接轨、色金神化）建议由 GM 明确授权后启用。"
+
+  "publicEvents": [
+    {"id": "e000", "title": "武侦杀手连环事件", "vol": "vol-01", "type": "案件", "description": "针对武侦的连环犯罪，金次和亚莉亚相遇的契机。"},
+    {"id": "e001", "title": "AN600劫机事件", "vol": "vol-01", "type": "劫持", "description": "理子劫持客机，金次爆发模式迫降空地岛。"},
+    {"id": "e002", "title": "极东战役宣战", "vol": "vol-08", "type": "战役", "description": "空地岛宣战会议，师团与眷属正式划分阵营。"},
+    {"id": "e003", "title": "壳金七星破解", "vol": "vol-08", "type": "事件", "description": "希尔达破解亚莉亚体内壳金，七枚散落被眷属夺走。"},
+    {"id": "e004", "title": "天空树决战", "vol": "vol-09", "type": "战斗", "description": "金次vs华生，理子濒死，希尔达大规模停电。"},
+    {"id": "e005", "title": "香港蓝帮城战役", "vol": "vol-14", "type": "战斗", "description": "巴斯克维尔突破蓝帮城三层楼，决战孙悟空。"},
+    {"id": "e006", "title": "龙之港决战", "vol": "vol-17", "type": "战役", "description": "师团逆转击败眷属大军，极东战役停战。"},
+    {"id": "e007", "title": "鬼之国最终决战", "vol": "vol-20", "type": "战斗", "description": "亚莉亚绯绯神化危机，最后一枚壳金回收。"},
+    {"id": "e008", "title": "鄂霍次克海海战", "vol": "vol-35", "type": "战役", "description": "N舰队vs伊·U核潜艇的大规模海战。"},
+    {"id": "e009", "title": "印度Reunion作战", "vol": "vol-37", "type": "行动", "description": "跨势力联盟解救华生一世，击败卡邦克鲁。"},
+    {"id": "e010", "title": "杀巴宗狩猎开始", "vol": "vol-45", "type": "事件", "description": "赵云率领杀巴宗在东京大学入学典礼日发动袭击。"}
   ],
-  "timelineEvents": [
-    {
-      "order": 1,
-      "event": "两千年前左右，色金坠落地球并与人类血脉、神话和超常体系发生关联。",
-      "evidenceLevel": "A",
-      "sourceRefs": [
-        "wb:2",
-        "wb:7"
-      ]
-    },
-    {
-      "order": 2,
-      "event": "武侦制度在现代国家体系中合法化，东京湾人工岛的东京武侦高中成为核心训练舞台。",
-      "evidenceLevel": "A",
-      "sourceRefs": [
-        "wb:0",
-        "wb:4"
-      ]
-    },
-    {
-      "order": 3,
-      "event": "远山金次与神崎·H·亚里亚因武侦杀手事件相遇，形成核心搭档关系。",
-      "evidenceLevel": "B",
-      "sourceRefs": [
-        "wb:68",
-        "wb:70",
-        "wb:72"
-      ]
-    },
-    {
-      "order": 4,
-      "event": "巴斯克维尔小队成形：金次、亚里亚、白雪、理子、蕾姬等承担越来越多跨科别与跨国事件。",
-      "evidenceLevel": "A",
-      "sourceRefs": [
-        "wb:7",
-        "wb:68",
-        "wb:70",
-        "wb:71",
-        "wb:72",
-        "wb:73"
-      ]
-    },
-    {
-      "order": 5,
-      "event": "伊·幽瓦解，旧有里层秩序出现权力真空，师团与眷属在极东战役中对立。",
-      "evidenceLevel": "A",
-      "sourceRefs": [
-        "wb:0",
-        "wb:3"
-      ]
-    },
-    {
-      "order": 6,
-      "event": "绯绯色金/绯绯神、璃璃色金与其他色金引发更大规模超常危机，亚里亚与金次等人多次阻止人格侵蚀与世界级灾害。",
-      "evidenceLevel": "A",
-      "sourceRefs": [
-        "wb:2",
-        "wb:68",
-        "wb:70",
-        "wb:73"
-      ]
-    },
-    {
-      "order": 7,
-      "event": "N 组织与莫里亚蒂线索推动莱克忒亚接轨危机，适合作为高阶战役或长期主线。",
-      "evidenceLevel": "A",
-      "sourceRefs": [
-        "wb:0",
-        "wb:3"
-      ]
+
+  "hiddenEvents": [
+    {"id": "he-001", "title": "远山金叉假死真相", "vol": "vol-30~31", "description": "金叉因对卒并发症进入假死，被美军消除记忆改造为顶级特务。"},
+    {"id": "he-002", "title": "莫里亚蒂两千年真相", "vol": "vol-20", "description": "莫里亚蒂教授是经历无数次接轨失败的永生协调者。"},
+    {"id": "he-003", "title": "列库忒亚七女神命结", "vol": "vol-37", "description": "莫里亚蒂通过命结之术从七位女神各获一条生命。"},
+    {"id": "he-004", "title": "乌鲁斯族灭族真相", "vol": "vol-07", "description": "蕾姬全族被曹操系势力屠杀殆尽。"}
+  ],
+
+  "rules": [
+    {"id": "rule-pov", "name": "第一人称有限视角", "description": "严格以远山金次的第一人称叙事，读者所知≤金次所知。其他角色内心只能通过表情动作推断。"},
+    {"id": "rule-hss-trigger", "name": "爆发模式必须有触发条件", "description": "不能随意开启爆发模式，必须有性兴奋/极端情绪/濒死等明确触发条件，且有消耗代价。"},
+    {"id": "rule-hss-duration", "name": "爆发模式持续时间限制", "description": "通常仅持续数十分钟，解除后极度疲劳需长时间睡眠恢复。"},
+    {"id": "rule-butei-law-9", "name": "武侦法第九条约束", "description": "武侦不得杀害任何人，战斗必须以活捉/压制为目标。"},
+    {"id": "rule-no-multi-pov", "name": "禁止多视角混切", "description": "只能从金次视角感知战场全局，不能写其他角色内心独白。"},
+    {"id": "rule-humour-switch", "name": "日常与战斗的快速切换", "description": "日常喜剧用口语短句+内心吐槽；危机出现时瞬间转为紧张风格；战斗结束后立刻恢复吐槽模式。"}
+  ],
+
+  "styleReference": {
+    "constraintsFile": "style-constraints.md",
+    "narrativeMode": "严格第一人称（远山金次）",
+    "dialogueStyle": "快速对话，边行动边说话，角色各有明确口癖",
+    "combatStyle": "高速战术解析风格，爆发模式下理性分析对手套路",
+    "forbiddenTerms": ["HP/MP系统", "杀意感知", "内力/真气", "法力/灵力", "开挂/爆种", "领域", "传送/瞬移", "我流", "读心术"],
+    "termReplacements": {
+      "爆发模式": "HSS/Hysteria Savant Syndrome",
+      "绯弹": "绯绯色金弹丸",
+      "壳金": "绯壳七星封印",
+      "伊·U": "伊·幽/Eiyū"
     }
-  ],
-  "rpBaselineBoundaries": {
-    "recommendedStart": "主角团在东京武侦高中活跃、巴斯克维尔小队已成形，但高阶色金与 N 组织危机尚可按 GM 需要逐步展开。",
-    "avoidWithoutConsent": [
-      "大规模世界毁灭/接轨完成",
-      "色金永久夺舍主要角色",
-      "未经协商改变原作核心人物生死与血缘"
-    ],
-    "notes": "源 worldbook 包含大量后期与跨作设定，baseline 文件将其保留为可选高阶模块，而非默认全部激活。"
   },
-  "worldId": "hidan-no-aria"
+
+  "extensions": {
+    "spinOffs": [
+      {"name": "绯弹的亚里亚AA", "volumes": "AA vol-01~04", "protagonist": "间宫明里", "description": "以战姊妹制度为核心的衍生作品。"}
+    ],
+    "relatedWorks": [
+      {"name": "东京最凶武侦传说", "type": "同世界观"}
+    ]
+  }
 }

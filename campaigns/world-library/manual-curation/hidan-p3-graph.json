@@ -1,0 +1,444 @@
+{
+  "objective": "绯弹的亚里亚 Phase 3: 时间轴（49卷）",
+  "authority": {
+    "allowFilesystemRead": true,
+    "allowMutationTools": true,
+    "allowShellTools": false,
+    "allowProjectCode": true
+  },
+  "library": {
+    "sources": [
+      "project"
+    ]
+  },
+  "limits": {
+    "concurrency": 4
+  },
+  "steps": [
+    {
+      "id": "t00",
+      "agent": {
+        "system": "绯弹时间轴员。阅读1-2卷，输出每卷时间轴条目。\n格式：\n---TIMELINE---\nVOLUME: <vol>\nTIMESPAN: <时间跨度>\nSUMMARY: 100-200字\nMAJOR_EVENTS: 事件1→事件2→事件3\nCHARACTER_ARCS: 角色A|变化\nLOCATION_SHIFTS: 地点A→地点B\nPOWER_PROGRESSIONS: 角色A|能力变化\n---\n若多个vol，每个vol独立一条。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main/vol-01 和 hidan-no-aria-main/vol-02 的full.txt。\n输出每卷时间轴条目。\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/t00-timeline.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "t01",
+      "agent": {
+        "system": "绯弹时间轴员。阅读1-2卷，输出每卷时间轴条目。\n格式：\n---TIMELINE---\nVOLUME: <vol>\nTIMESPAN: <时间跨度>\nSUMMARY: 100-200字\nMAJOR_EVENTS: 事件1→事件2→事件3\nCHARACTER_ARCS: 角色A|变化\nLOCATION_SHIFTS: 地点A→地点B\nPOWER_PROGRESSIONS: 角色A|能力变化\n---\n若多个vol，每个vol独立一条。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main/vol-03 和 hidan-no-aria-main/vol-04 的full.txt。\n输出每卷时间轴条目。\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/t01-timeline.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "t02",
+      "agent": {
+        "system": "绯弹时间轴员。阅读1-2卷，输出每卷时间轴条目。\n格式：\n---TIMELINE---\nVOLUME: <vol>\nTIMESPAN: <时间跨度>\nSUMMARY: 100-200字\nMAJOR_EVENTS: 事件1→事件2→事件3\nCHARACTER_ARCS: 角色A|变化\nLOCATION_SHIFTS: 地点A→地点B\nPOWER_PROGRESSIONS: 角色A|能力变化\n---\n若多个vol，每个vol独立一条。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main/vol-05 和 hidan-no-aria-main/vol-06 的full.txt。\n输出每卷时间轴条目。\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/t02-timeline.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "t03",
+      "agent": {
+        "system": "绯弹时间轴员。阅读1-2卷，输出每卷时间轴条目。\n格式：\n---TIMELINE---\nVOLUME: <vol>\nTIMESPAN: <时间跨度>\nSUMMARY: 100-200字\nMAJOR_EVENTS: 事件1→事件2→事件3\nCHARACTER_ARCS: 角色A|变化\nLOCATION_SHIFTS: 地点A→地点B\nPOWER_PROGRESSIONS: 角色A|能力变化\n---\n若多个vol，每个vol独立一条。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main/vol-07 和 hidan-no-aria-main/vol-08 的full.txt。\n输出每卷时间轴条目。\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/t03-timeline.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "t04",
+      "agent": {
+        "system": "绯弹时间轴员。阅读1-2卷，输出每卷时间轴条目。\n格式：\n---TIMELINE---\nVOLUME: <vol>\nTIMESPAN: <时间跨度>\nSUMMARY: 100-200字\nMAJOR_EVENTS: 事件1→事件2→事件3\nCHARACTER_ARCS: 角色A|变化\nLOCATION_SHIFTS: 地点A→地点B\nPOWER_PROGRESSIONS: 角色A|能力变化\n---\n若多个vol，每个vol独立一条。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main/vol-09 和 hidan-no-aria-main/vol-10 的full.txt。\n输出每卷时间轴条目。\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/t04-timeline.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "t05",
+      "agent": {
+        "system": "绯弹时间轴员。阅读1-2卷，输出每卷时间轴条目。\n格式：\n---TIMELINE---\nVOLUME: <vol>\nTIMESPAN: <时间跨度>\nSUMMARY: 100-200字\nMAJOR_EVENTS: 事件1→事件2→事件3\nCHARACTER_ARCS: 角色A|变化\nLOCATION_SHIFTS: 地点A→地点B\nPOWER_PROGRESSIONS: 角色A|能力变化\n---\n若多个vol，每个vol独立一条。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main/vol-11 和 hidan-no-aria-main/vol-12 的full.txt。\n输出每卷时间轴条目。\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/t05-timeline.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "t06",
+      "agent": {
+        "system": "绯弹时间轴员。阅读1-2卷，输出每卷时间轴条目。\n格式：\n---TIMELINE---\nVOLUME: <vol>\nTIMESPAN: <时间跨度>\nSUMMARY: 100-200字\nMAJOR_EVENTS: 事件1→事件2→事件3\nCHARACTER_ARCS: 角色A|变化\nLOCATION_SHIFTS: 地点A→地点B\nPOWER_PROGRESSIONS: 角色A|能力变化\n---\n若多个vol，每个vol独立一条。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main/vol-13 和 hidan-no-aria-main/vol-14 的full.txt。\n输出每卷时间轴条目。\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/t06-timeline.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "t07",
+      "agent": {
+        "system": "绯弹时间轴员。阅读1-2卷，输出每卷时间轴条目。\n格式：\n---TIMELINE---\nVOLUME: <vol>\nTIMESPAN: <时间跨度>\nSUMMARY: 100-200字\nMAJOR_EVENTS: 事件1→事件2→事件3\nCHARACTER_ARCS: 角色A|变化\nLOCATION_SHIFTS: 地点A→地点B\nPOWER_PROGRESSIONS: 角色A|能力变化\n---\n若多个vol，每个vol独立一条。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main/vol-15 和 hidan-no-aria-main/vol-16 的full.txt。\n输出每卷时间轴条目。\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/t07-timeline.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "t08",
+      "agent": {
+        "system": "绯弹时间轴员。阅读1-2卷，输出每卷时间轴条目。\n格式：\n---TIMELINE---\nVOLUME: <vol>\nTIMESPAN: <时间跨度>\nSUMMARY: 100-200字\nMAJOR_EVENTS: 事件1→事件2→事件3\nCHARACTER_ARCS: 角色A|变化\nLOCATION_SHIFTS: 地点A→地点B\nPOWER_PROGRESSIONS: 角色A|能力变化\n---\n若多个vol，每个vol独立一条。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main/vol-17 和 hidan-no-aria-main/vol-18 的full.txt。\n输出每卷时间轴条目。\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/t08-timeline.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "t09",
+      "agent": {
+        "system": "绯弹时间轴员。阅读1-2卷，输出每卷时间轴条目。\n格式：\n---TIMELINE---\nVOLUME: <vol>\nTIMESPAN: <时间跨度>\nSUMMARY: 100-200字\nMAJOR_EVENTS: 事件1→事件2→事件3\nCHARACTER_ARCS: 角色A|变化\nLOCATION_SHIFTS: 地点A→地点B\nPOWER_PROGRESSIONS: 角色A|能力变化\n---\n若多个vol，每个vol独立一条。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main/vol-19 和 hidan-no-aria-main/vol-20 的full.txt。\n输出每卷时间轴条目。\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/t09-timeline.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "t10",
+      "agent": {
+        "system": "绯弹时间轴员。阅读1-2卷，输出每卷时间轴条目。\n格式：\n---TIMELINE---\nVOLUME: <vol>\nTIMESPAN: <时间跨度>\nSUMMARY: 100-200字\nMAJOR_EVENTS: 事件1→事件2→事件3\nCHARACTER_ARCS: 角色A|变化\nLOCATION_SHIFTS: 地点A→地点B\nPOWER_PROGRESSIONS: 角色A|能力变化\n---\n若多个vol，每个vol独立一条。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main/vol-21 和 hidan-no-aria-main/vol-22 的full.txt。\n输出每卷时间轴条目。\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/t10-timeline.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "t11",
+      "agent": {
+        "system": "绯弹时间轴员。阅读1-2卷，输出每卷时间轴条目。\n格式：\n---TIMELINE---\nVOLUME: <vol>\nTIMESPAN: <时间跨度>\nSUMMARY: 100-200字\nMAJOR_EVENTS: 事件1→事件2→事件3\nCHARACTER_ARCS: 角色A|变化\nLOCATION_SHIFTS: 地点A→地点B\nPOWER_PROGRESSIONS: 角色A|能力变化\n---\n若多个vol，每个vol独立一条。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main/vol-23 和 hidan-no-aria-main/vol-24 的full.txt。\n输出每卷时间轴条目。\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/t11-timeline.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "t12",
+      "agent": {
+        "system": "绯弹时间轴员。阅读1-2卷，输出每卷时间轴条目。\n格式：\n---TIMELINE---\nVOLUME: <vol>\nTIMESPAN: <时间跨度>\nSUMMARY: 100-200字\nMAJOR_EVENTS: 事件1→事件2→事件3\nCHARACTER_ARCS: 角色A|变化\nLOCATION_SHIFTS: 地点A→地点B\nPOWER_PROGRESSIONS: 角色A|能力变化\n---\n若多个vol，每个vol独立一条。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main/vol-25 和 hidan-no-aria-main/vol-26 的full.txt。\n输出每卷时间轴条目。\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/t12-timeline.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "t13",
+      "agent": {
+        "system": "绯弹时间轴员。阅读1-2卷，输出每卷时间轴条目。\n格式：\n---TIMELINE---\nVOLUME: <vol>\nTIMESPAN: <时间跨度>\nSUMMARY: 100-200字\nMAJOR_EVENTS: 事件1→事件2→事件3\nCHARACTER_ARCS: 角色A|变化\nLOCATION_SHIFTS: 地点A→地点B\nPOWER_PROGRESSIONS: 角色A|能力变化\n---\n若多个vol，每个vol独立一条。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main/vol-27 和 hidan-no-aria-main/vol-28 的full.txt。\n输出每卷时间轴条目。\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/t13-timeline.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "t14",
+      "agent": {
+        "system": "绯弹时间轴员。阅读1-2卷，输出每卷时间轴条目。\n格式：\n---TIMELINE---\nVOLUME: <vol>\nTIMESPAN: <时间跨度>\nSUMMARY: 100-200字\nMAJOR_EVENTS: 事件1→事件2→事件3\nCHARACTER_ARCS: 角色A|变化\nLOCATION_SHIFTS: 地点A→地点B\nPOWER_PROGRESSIONS: 角色A|能力变化\n---\n若多个vol，每个vol独立一条。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main/vol-29 和 hidan-no-aria-main/vol-30 的full.txt。\n输出每卷时间轴条目。\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/t14-timeline.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "t15",
+      "agent": {
+        "system": "绯弹时间轴员。阅读1-2卷，输出每卷时间轴条目。\n格式：\n---TIMELINE---\nVOLUME: <vol>\nTIMESPAN: <时间跨度>\nSUMMARY: 100-200字\nMAJOR_EVENTS: 事件1→事件2→事件3\nCHARACTER_ARCS: 角色A|变化\nLOCATION_SHIFTS: 地点A→地点B\nPOWER_PROGRESSIONS: 角色A|能力变化\n---\n若多个vol，每个vol独立一条。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main/vol-31 和 hidan-no-aria-main/vol-32 的full.txt。\n输出每卷时间轴条目。\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/t15-timeline.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "t16",
+      "agent": {
+        "system": "绯弹时间轴员。阅读1-2卷，输出每卷时间轴条目。\n格式：\n---TIMELINE---\nVOLUME: <vol>\nTIMESPAN: <时间跨度>\nSUMMARY: 100-200字\nMAJOR_EVENTS: 事件1→事件2→事件3\nCHARACTER_ARCS: 角色A|变化\nLOCATION_SHIFTS: 地点A→地点B\nPOWER_PROGRESSIONS: 角色A|能力变化\n---\n若多个vol，每个vol独立一条。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main/vol-33 和 hidan-no-aria-main/vol-34 的full.txt。\n输出每卷时间轴条目。\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/t16-timeline.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "t17",
+      "agent": {
+        "system": "绯弹时间轴员。阅读1-2卷，输出每卷时间轴条目。\n格式：\n---TIMELINE---\nVOLUME: <vol>\nTIMESPAN: <时间跨度>\nSUMMARY: 100-200字\nMAJOR_EVENTS: 事件1→事件2→事件3\nCHARACTER_ARCS: 角色A|变化\nLOCATION_SHIFTS: 地点A→地点B\nPOWER_PROGRESSIONS: 角色A|能力变化\n---\n若多个vol，每个vol独立一条。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main/vol-35 和 hidan-no-aria-main/vol-36 的full.txt。\n输出每卷时间轴条目。\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/t17-timeline.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "t18",
+      "agent": {
+        "system": "绯弹时间轴员。阅读1-2卷，输出每卷时间轴条目。\n格式：\n---TIMELINE---\nVOLUME: <vol>\nTIMESPAN: <时间跨度>\nSUMMARY: 100-200字\nMAJOR_EVENTS: 事件1→事件2→事件3\nCHARACTER_ARCS: 角色A|变化\nLOCATION_SHIFTS: 地点A→地点B\nPOWER_PROGRESSIONS: 角色A|能力变化\n---\n若多个vol，每个vol独立一条。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main/vol-37 和 hidan-no-aria-main/vol-38 的full.txt。\n输出每卷时间轴条目。\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/t18-timeline.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "t19",
+      "agent": {
+        "system": "绯弹时间轴员。阅读1-2卷，输出每卷时间轴条目。\n格式：\n---TIMELINE---\nVOLUME: <vol>\nTIMESPAN: <时间跨度>\nSUMMARY: 100-200字\nMAJOR_EVENTS: 事件1→事件2→事件3\nCHARACTER_ARCS: 角色A|变化\nLOCATION_SHIFTS: 地点A→地点B\nPOWER_PROGRESSIONS: 角色A|能力变化\n---\n若多个vol，每个vol独立一条。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main/vol-39 和 hidan-no-aria-main/vol-40 的full.txt。\n输出每卷时间轴条目。\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/t19-timeline.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "t20",
+      "agent": {
+        "system": "绯弹时间轴员。阅读1-2卷，输出每卷时间轴条目。\n格式：\n---TIMELINE---\nVOLUME: <vol>\nTIMESPAN: <时间跨度>\nSUMMARY: 100-200字\nMAJOR_EVENTS: 事件1→事件2→事件3\nCHARACTER_ARCS: 角色A|变化\nLOCATION_SHIFTS: 地点A→地点B\nPOWER_PROGRESSIONS: 角色A|能力变化\n---\n若多个vol，每个vol独立一条。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main/vol-41 和 hidan-no-aria-main/vol-42 的full.txt。\n输出每卷时间轴条目。\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/t20-timeline.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "t21",
+      "agent": {
+        "system": "绯弹时间轴员。阅读1-2卷，输出每卷时间轴条目。\n格式：\n---TIMELINE---\nVOLUME: <vol>\nTIMESPAN: <时间跨度>\nSUMMARY: 100-200字\nMAJOR_EVENTS: 事件1→事件2→事件3\nCHARACTER_ARCS: 角色A|变化\nLOCATION_SHIFTS: 地点A→地点B\nPOWER_PROGRESSIONS: 角色A|能力变化\n---\n若多个vol，每个vol独立一条。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main/vol-43 和 hidan-no-aria-main/vol-44 的full.txt。\n输出每卷时间轴条目。\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/t21-timeline.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "t22",
+      "agent": {
+        "system": "绯弹时间轴员。阅读1-2卷，输出每卷时间轴条目。\n格式：\n---TIMELINE---\nVOLUME: <vol>\nTIMESPAN: <时间跨度>\nSUMMARY: 100-200字\nMAJOR_EVENTS: 事件1→事件2→事件3\nCHARACTER_ARCS: 角色A|变化\nLOCATION_SHIFTS: 地点A→地点B\nPOWER_PROGRESSIONS: 角色A|能力变化\n---\n若多个vol，每个vol独立一条。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main/vol-45 和 hidan-no-aria-aa/vol-01 的full.txt。\n输出每卷时间轴条目。\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/t22-timeline.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "t23",
+      "agent": {
+        "system": "绯弹时间轴员。阅读1-2卷，输出每卷时间轴条目。\n格式：\n---TIMELINE---\nVOLUME: <vol>\nTIMESPAN: <时间跨度>\nSUMMARY: 100-200字\nMAJOR_EVENTS: 事件1→事件2→事件3\nCHARACTER_ARCS: 角色A|变化\nLOCATION_SHIFTS: 地点A→地点B\nPOWER_PROGRESSIONS: 角色A|能力变化\n---\n若多个vol，每个vol独立一条。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-aa/vol-02 和 hidan-no-aria-aa/vol-03 的full.txt。\n输出每卷时间轴条目。\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/t23-timeline.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "t24",
+      "agent": {
+        "system": "绯弹时间轴员。阅读1-2卷，输出每卷时间轴条目。\n格式：\n---TIMELINE---\nVOLUME: <vol>\nTIMESPAN: <时间跨度>\nSUMMARY: 100-200字\nMAJOR_EVENTS: 事件1→事件2→事件3\nCHARACTER_ARCS: 角色A|变化\nLOCATION_SHIFTS: 地点A→地点B\nPOWER_PROGRESSIONS: 角色A|能力变化\n---\n若多个vol，每个vol独立一条。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-aa/vol-04 的full.txt。\n输出每卷时间轴条目。\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/t24-timeline.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/",
+      "cwd": "E:/pi-st"
+    }
+  ]
+}

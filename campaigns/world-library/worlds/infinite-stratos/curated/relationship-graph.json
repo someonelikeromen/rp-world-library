@@ -1,589 +1,1117 @@
 {
   "schema": "rp-relationship-graph-v1",
   "worldId": "infinite-stratos",
+  "generatedAt": "2026-07-02T13:21:17.200Z",
+  "source": "human-read character/worldbook relationship statements; not co-occurrence candidates",
+  "reviewMethod": "manual semantic promotion from explicit relationship statements in character source entries",
   "nodes": [
     {
       "id": "ichika-orimura",
-      "label": "织斑一夏",
+      "name": "织斑一夏",
       "type": "character",
-      "importance": "critical"
+      "importance": "critical",
+      "factions": [
+        "is-academy"
+      ],
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
     },
     {
       "id": "houki-shinonono",
-      "label": "篠之之箒",
+      "name": "篠之之箒",
       "type": "character",
-      "importance": "critical"
+      "importance": "critical",
+      "factions": [
+        "is-academy",
+        "shinonono-lab"
+      ],
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
     },
     {
       "id": "cecilia-alcott",
-      "label": "塞西莉亚·奥尔科特",
+      "name": "塞西莉亚·奥尔科特",
       "type": "character",
-      "importance": "critical"
+      "importance": "critical",
+      "factions": [
+        "is-academy",
+        "national-representatives"
+      ],
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
     },
     {
       "id": "lingyin-huang",
-      "label": "凰铃音",
+      "name": "凰铃音",
       "type": "character",
-      "importance": "critical"
+      "importance": "critical",
+      "factions": [
+        "is-academy",
+        "national-representatives"
+      ],
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
     },
     {
       "id": "charlotte-dunois",
-      "label": "夏洛特·德诺阿",
+      "name": "夏洛特·德诺阿",
       "type": "character",
-      "importance": "critical"
+      "importance": "critical",
+      "factions": [
+        "is-academy",
+        "national-representatives",
+        "dunois-industry"
+      ],
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
     },
     {
       "id": "laura-bodewig",
-      "label": "劳拉·博德维希",
+      "name": "劳拉·博德维希",
       "type": "character",
-      "importance": "critical"
+      "importance": "critical",
+      "factions": [
+        "is-academy",
+        "national-representatives",
+        "german-black-rabbit"
+      ],
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
     },
     {
       "id": "chifuyu-orimura",
-      "label": "织斑千冬",
+      "name": "织斑千冬",
       "type": "character",
-      "importance": "critical"
+      "importance": "critical",
+      "factions": [
+        "is-academy",
+        "alaska-treaty-system"
+      ],
+      "sourceRefs": [
+        "is-st-worldbook:entry 4",
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
     },
     {
       "id": "tabane-shinonono",
-      "label": "篠之之束",
+      "name": "篠之之束",
       "type": "character",
-      "importance": "critical"
+      "importance": "critical",
+      "factions": [
+        "shinonono-lab"
+      ],
+      "sourceRefs": [
+        "is-st-worldbook:entry 4",
+        "is-st-worldbook:entry 7",
+        "is-st-worldbook:entry 9"
+      ]
     },
     {
       "id": "tatenashi-sarashiki",
-      "label": "更识楯无",
+      "name": "更识楯无",
       "type": "character",
-      "importance": "major"
+      "importance": "major",
+      "factions": [
+        "is-academy",
+        "national-representatives"
+      ],
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 7",
+        "is-st-worldbook:entry 9"
+      ]
     },
     {
       "id": "kanzashi-sarashiki",
-      "label": "更识簪",
+      "name": "更识簪",
       "type": "character",
-      "importance": "major"
+      "importance": "major",
+      "factions": [
+        "is-academy",
+        "national-representatives"
+      ],
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
     },
     {
       "id": "maya-yamada",
-      "label": "山田真耶",
+      "name": "山田真耶",
       "type": "character",
-      "importance": "supporting"
+      "importance": "supporting",
+      "factions": [
+        "is-academy"
+      ],
+      "sourceRefs": [
+        "is-st-worldbook:entry 9"
+      ]
     },
     {
       "id": "hoshi-shirube-ai",
-      "label": "端白星AI",
+      "name": "端白星AI",
       "type": "character",
       "importance": "optional-major",
-      "subtype": "optional-ai",
-      "characterRef": "hoshi-shirube-ai"
-    },
-    {
-      "id": "is-academy",
-      "label": "IS学园",
-      "type": "organization",
-      "importance": "critical"
-    },
-    {
-      "id": "shinonono-lab",
-      "label": "篠之之束技术网络",
-      "type": "organization",
-      "importance": "major"
-    },
-    {
-      "id": "phantom-task",
-      "label": "亡国机业",
-      "type": "organization",
-      "importance": "major"
+      "factions": [
+        "is-academy",
+        "shinonono-lab"
+      ],
+      "sourceRefs": [
+        "is-st-worldbook:entry 7",
+        "is-st-worldbook:entry 9"
+      ]
     },
     {
       "id": "goten-dan",
-      "label": "五反田弹",
+      "name": "五反田弹",
       "type": "character",
-      "characterRef": "goten-dan",
-      "importance": "secondary"
+      "importance": "secondary",
+      "factions": [
+        "IS学园关联者"
+      ],
+      "sourceRefs": [
+        "wenku8:vol-2/ch1"
+      ]
     },
     {
       "id": "goten-ran",
-      "label": "五反田兰",
+      "name": "五反田兰",
       "type": "character",
-      "characterRef": "goten-ran",
-      "importance": "secondary"
+      "importance": "secondary",
+      "factions": [
+        "IS学园关联者"
+      ],
+      "sourceRefs": [
+        "wenku8:vol-2/ch1"
+      ]
     },
     {
       "id": "squall-meusel",
-      "label": "斯可儿·谬赛尔",
+      "name": "斯可儿·谬赛尔",
       "type": "character",
-      "characterRef": "squall-meusel",
-      "importance": "major"
+      "importance": "major",
+      "factions": [
+        "亡国机业(Phantom Task)",
+        "黑白化身"
+      ],
+      "sourceRefs": [
+        "wenku8:vol11-12"
+      ]
     },
     {
       "id": "autumn",
-      "label": "秋天",
+      "name": "秋天",
       "type": "character",
-      "characterRef": "autumn",
-      "importance": "secondary"
+      "importance": "secondary",
+      "factions": [
+        "亡国机业(Phantom Task)"
+      ],
+      "sourceRefs": [
+        "wenku8:vol11-12"
+      ]
     },
     {
       "id": "madoka-orimura",
-      "label": "织斑圆",
+      "name": "织斑圆",
       "type": "character",
-      "characterRef": "madoka-orimura",
-      "importance": "primary"
+      "importance": "primary",
+      "factions": [
+        "亡国机业关联",
+        "筱之之束关联"
+      ],
+      "sourceRefs": [
+        "wenku8:vol12"
+      ]
     },
     {
       "id": "chelsea",
-      "label": "切尔西",
+      "name": "切尔西",
       "type": "character",
-      "importance": "major"
+      "importance": "major",
+      "factions": [
+        "alcott-household"
+      ],
+      "sourceRefs": [
+        "linovelib-is-vol-11-12-local-mhtml"
+      ]
     },
     {
       "id": "exia-blanket",
-      "label": "埃克西亚·布兰克特",
+      "name": "埃克西亚·布兰克特",
       "type": "character",
-      "importance": "major"
+      "importance": "major",
+      "factions": [
+        "alcott-household"
+      ],
+      "sourceRefs": [
+        "linovelib-is-vol-11-12-local-mhtml"
+      ]
     },
     {
       "id": "iris-luxembourg",
-      "label": "艾莉丝·比阿特丽斯·德·卢森堡",
+      "name": "艾莉丝·比阿特丽斯·德·卢森堡",
       "type": "character",
-      "importance": "major"
+      "importance": "major",
+      "factions": [
+        "luxembourg"
+      ],
+      "sourceRefs": [
+        "linovelib-is-vol-11-12-local-mhtml"
+      ]
     },
     {
       "id": "jibril",
-      "label": "吉布里尔",
+      "name": "吉布里尔",
       "type": "character",
-      "importance": "major"
+      "importance": "major",
+      "factions": [
+        "luxembourg"
+      ],
+      "sourceRefs": [
+        "linovelib-is-vol-11-12-local-mhtml"
+      ]
     },
     {
       "id": "forte-sapphire",
-      "label": "福尔特·萨菲尔",
+      "name": "福尔特·萨菲尔",
       "type": "character",
-      "importance": "secondary"
+      "importance": "secondary",
+      "factions": [],
+      "sourceRefs": [
+        "linovelib-is-vol-11-12-local-mhtml"
+      ]
     },
     {
       "id": "daryl-casey",
-      "label": "达里尔·凯西",
+      "name": "达里尔·凯西",
       "type": "character",
-      "importance": "secondary"
+      "importance": "secondary",
+      "factions": [],
+      "sourceRefs": [
+        "linovelib-is-vol-11-12-local-mhtml"
+      ]
     }
   ],
   "edges": [
     {
-      "from": "ichika-orimura",
-      "to": "chifuyu-orimura",
-      "type": "family-teacher",
-      "label": "弟弟/姐姐、学生/教师、被保护者/监护人",
-      "strength": "very-strong",
-      "direction": "bidirectional",
-      "initialState": "一夏尊敬并依赖千冬；千冬严厉训练并保护一夏，隐瞒部分白骑士与IS秘密。",
-      "rpUse": "家庭责任、训练、秘密揭露、危机救援。",
-      "sourceRefs": [
-        "is-st-worldbook:entry 9"
-      ],
-      "evidenceLevel": "A"
-    },
-    {
-      "from": "ichika-orimura",
-      "to": "houki-shinonono",
-      "type": "childhood-friend-romantic-tension",
-      "label": "青梅竹马与暧昧张力",
-      "strength": "strong",
-      "direction": "bidirectional",
-      "initialState": "多年后在IS学园重逢；箒深藏爱慕，一夏迟钝但亲近。源初始好感度：箒1200/10000。",
-      "rpUse": "重逢、剑道训练、情敌冲突、红椿与白式协同。",
-      "sourceRefs": [
-        "is-st-worldbook:entry 9"
-      ],
-      "evidenceLevel": "A"
-    },
-    {
-      "from": "ichika-orimura",
-      "to": "lingyin-huang",
-      "type": "childhood-friend-self-declared-fiancee",
-      "label": "小学同学与约定/婚约误会",
-      "strength": "strong",
-      "direction": "bidirectional",
-      "initialState": "铃音把儿时约定视为婚约并热烈进攻；一夏将其更多当作儿时玩笑。源初始好感度：铃音1300/10000。",
-      "rpUse": "料理、宣示主权、班级对抗、情敌喜剧。",
-      "sourceRefs": [
-        "is-st-worldbook:entry 9"
-      ],
-      "evidenceLevel": "A"
-    },
-    {
-      "from": "ichika-orimura",
-      "to": "cecilia-alcott",
-      "type": "rival-to-friend-romantic-interest",
-      "label": "精英审视到承认",
-      "strength": "medium",
-      "direction": "bidirectional",
-      "initialState": "塞西莉亚以英国代表候补生自尊审视唯一男性驾驶员；班级代表战是关系转折。源初始好感度：50/10000。",
-      "rpUse": "代表战、礼仪冲突、红茶/贵族日常、远程战术教学。",
+      "id": "rel:ichika-orimura--related--chifuyu-orimura",
+      "source": "ichika-orimura",
+      "target": "chifuyu-orimura",
+      "type": "related",
+      "sourceName": "织斑一夏",
+      "targetName": "织斑千冬",
+      "nature": "sibling-guardian-teacher",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
       "sourceRefs": [
         "is-st-worldbook:entry 6",
         "is-st-worldbook:entry 9"
-      ],
-      "evidenceLevel": "A"
+      ]
     },
     {
-      "from": "ichika-orimura",
-      "to": "charlotte-dunois",
-      "type": "secret-target-to-trust",
-      "label": "伪装任务与信任建立",
-      "strength": "medium",
-      "direction": "bidirectional",
-      "initialState": "夏洛特可能以查尔斯身份接近一夏，内心对任务不安又好奇。源初始好感度：60/10000。",
-      "rpUse": "身份揭露、同宿舍误会、企业压力、互相庇护。",
+      "id": "rel:ichika-orimura--related--houki-shinonono",
+      "source": "ichika-orimura",
+      "target": "houki-shinonono",
+      "type": "related",
+      "sourceName": "织斑一夏",
+      "targetName": "篠之之箒",
+      "nature": "childhood-friend",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
       "sourceRefs": [
         "is-st-worldbook:entry 6",
         "is-st-worldbook:entry 9"
-      ],
-      "evidenceLevel": "A"
+      ]
     },
     {
-      "from": "ichika-orimura",
-      "to": "laura-bodewig",
-      "type": "target-rival-to-ally",
-      "label": "战略异常点到情感学习对象",
-      "strength": "medium",
-      "direction": "bidirectional",
-      "initialState": "劳拉从军方情报中把一夏视为待评估目标，情感极淡。源初始好感度：30/10000。",
-      "rpUse": "挑战、军人价值观冲突、千冬崇拜、自我情感觉醒。",
+      "id": "rel:ichika-orimura--related--lingyin-huang",
+      "source": "ichika-orimura",
+      "target": "lingyin-huang",
+      "type": "related",
+      "sourceName": "织斑一夏",
+      "targetName": "凰铃音",
+      "nature": "childhood-friend-promised",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
+    },
+    {
+      "id": "rel:ichika-orimura--rival--cecilia-alcott",
+      "source": "ichika-orimura",
+      "target": "cecilia-alcott",
+      "type": "rival",
+      "sourceName": "织斑一夏",
+      "targetName": "塞西莉亚·奥尔科特",
+      "nature": "classmate-rival-to-friend",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
+    },
+    {
+      "id": "rel:ichika-orimura--related--charlotte-dunois",
+      "source": "ichika-orimura",
+      "target": "charlotte-dunois",
+      "type": "related",
+      "sourceName": "织斑一夏",
+      "targetName": "夏洛特·德诺阿",
+      "nature": "classmate-secret-approach",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
+    },
+    {
+      "id": "rel:ichika-orimura--rival--laura-bodewig",
+      "source": "ichika-orimura",
+      "target": "laura-bodewig",
+      "type": "rival",
+      "sourceName": "织斑一夏",
+      "targetName": "劳拉·博德维希",
+      "nature": "target-rival-to-ally",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
+    },
+    {
+      "id": "rel:ichika-orimura--related--tatenashi-sarashiki",
+      "source": "ichika-orimura",
+      "target": "tatenashi-sarashiki",
+      "type": "related",
+      "sourceName": "织斑一夏",
+      "targetName": "更识楯无",
+      "nature": "senpai-observer",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
+    },
+    {
+      "id": "rel:ichika-orimura--related--kanzashi-sarashiki",
+      "source": "ichika-orimura",
+      "target": "kanzashi-sarashiki",
+      "type": "related",
+      "sourceName": "织斑一夏",
+      "targetName": "更识簪",
+      "nature": "distant-curiosity",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
+    },
+    {
+      "id": "rel:ichika-orimura--related--tabane-shinonono",
+      "source": "ichika-orimura",
+      "target": "tabane-shinonono",
+      "type": "related",
+      "sourceName": "织斑一夏",
+      "targetName": "篠之之束",
+      "nature": "research-interest",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
+    },
+    {
+      "id": "rel:houki-shinonono--related--ichika-orimura",
+      "source": "houki-shinonono",
+      "target": "ichika-orimura",
+      "type": "related",
+      "sourceName": "篠之之箒",
+      "targetName": "织斑一夏",
+      "nature": "childhood-friend-romantic-tension",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
+    },
+    {
+      "id": "rel:houki-shinonono--related--tabane-shinonono",
+      "source": "houki-shinonono",
+      "target": "tabane-shinonono",
+      "type": "related",
+      "sourceName": "篠之之箒",
+      "targetName": "篠之之束",
+      "nature": "sisters-complicated",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
+    },
+    {
+      "id": "rel:houki-shinonono--related--chifuyu-orimura",
+      "source": "houki-shinonono",
+      "target": "chifuyu-orimura",
+      "type": "related",
+      "sourceName": "篠之之箒",
+      "targetName": "织斑千冬",
+      "nature": "admires",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
+    },
+    {
+      "id": "rel:houki-shinonono--rival--lingyin-huang",
+      "source": "houki-shinonono",
+      "target": "lingyin-huang",
+      "type": "rival",
+      "sourceName": "篠之之箒",
+      "targetName": "凰铃音",
+      "nature": "romantic-rival",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
+    },
+    {
+      "id": "rel:cecilia-alcott--rival--ichika-orimura",
+      "source": "cecilia-alcott",
+      "target": "ichika-orimura",
+      "type": "rival",
+      "sourceName": "塞西莉亚·奥尔科特",
+      "targetName": "织斑一夏",
+      "nature": "rival-to-romantic-interest",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
+    },
+    {
+      "id": "rel:cecilia-alcott--related--houki-shinonono",
+      "source": "cecilia-alcott",
+      "target": "houki-shinonono",
+      "type": "related",
+      "sourceName": "塞西莉亚·奥尔科特",
+      "targetName": "篠之之箒",
+      "nature": "classmate-competitor",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
+    },
+    {
+      "id": "rel:cecilia-alcott--related--lingyin-huang",
+      "source": "cecilia-alcott",
+      "target": "lingyin-huang",
+      "type": "related",
+      "sourceName": "塞西莉亚·奥尔科特",
+      "targetName": "凰铃音",
+      "nature": "classmate-competitor",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
+    },
+    {
+      "id": "rel:lingyin-huang--related--ichika-orimura",
+      "source": "lingyin-huang",
+      "target": "ichika-orimura",
+      "type": "related",
+      "sourceName": "凰铃音",
+      "targetName": "织斑一夏",
+      "nature": "childhood-friend-self-declared-fiancee",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
+    },
+    {
+      "id": "rel:lingyin-huang--rival--houki-shinonono",
+      "source": "lingyin-huang",
+      "target": "houki-shinonono",
+      "type": "rival",
+      "sourceName": "凰铃音",
+      "targetName": "篠之之箒",
+      "nature": "romantic-rival",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
+    },
+    {
+      "id": "rel:lingyin-huang--rival--cecilia-alcott",
+      "source": "lingyin-huang",
+      "target": "cecilia-alcott",
+      "type": "rival",
+      "sourceName": "凰铃音",
+      "targetName": "塞西莉亚·奥尔科特",
+      "nature": "classmate-rival",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
+    },
+    {
+      "id": "rel:charlotte-dunois--related--ichika-orimura",
+      "source": "charlotte-dunois",
+      "target": "ichika-orimura",
+      "type": "related",
+      "sourceName": "夏洛特·德诺阿",
+      "targetName": "织斑一夏",
+      "nature": "target-to-trusted-friend-romantic-interest",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
+    },
+    {
+      "id": "rel:charlotte-dunois--related--cecilia-alcott",
+      "source": "charlotte-dunois",
+      "target": "cecilia-alcott",
+      "type": "related",
+      "sourceName": "夏洛特·德诺阿",
+      "targetName": "塞西莉亚·奥尔科特",
+      "nature": "classmate",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
+    },
+    {
+      "id": "rel:laura-bodewig--related--ichika-orimura",
+      "source": "laura-bodewig",
+      "target": "ichika-orimura",
+      "type": "related",
+      "sourceName": "劳拉·博德维希",
+      "targetName": "织斑一夏",
+      "nature": "evaluation-target-to-romantic-interest",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
+    },
+    {
+      "id": "rel:laura-bodewig--related--chifuyu-orimura",
+      "source": "laura-bodewig",
+      "target": "chifuyu-orimura",
+      "type": "related",
+      "sourceName": "劳拉·博德维希",
+      "targetName": "织斑千冬",
+      "nature": "admires-mentor-ideal",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
+    },
+    {
+      "id": "rel:chifuyu-orimura--related--ichika-orimura",
+      "source": "chifuyu-orimura",
+      "target": "ichika-orimura",
+      "type": "related",
+      "sourceName": "织斑千冬",
+      "targetName": "织斑一夏",
+      "nature": "older-sister-guardian-teacher",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "is-st-worldbook:entry 4",
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
+    },
+    {
+      "id": "rel:chifuyu-orimura--related--tabane-shinonono",
+      "source": "chifuyu-orimura",
+      "target": "tabane-shinonono",
+      "type": "related",
+      "sourceName": "织斑千冬",
+      "targetName": "篠之之束",
+      "nature": "old-acquaintance-complicated",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "is-st-worldbook:entry 4",
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
+    },
+    {
+      "id": "rel:chifuyu-orimura--related--houki-shinonono",
+      "source": "chifuyu-orimura",
+      "target": "houki-shinonono",
+      "type": "related",
+      "sourceName": "织斑千冬",
+      "targetName": "篠之之箒",
+      "nature": "teacher-admired-by",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "is-st-worldbook:entry 4",
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
+    },
+    {
+      "id": "rel:chifuyu-orimura--related--tatenashi-sarashiki",
+      "source": "chifuyu-orimura",
+      "target": "tatenashi-sarashiki",
+      "type": "related",
+      "sourceName": "织斑千冬",
+      "targetName": "更识楯无",
+      "nature": "cooperative-tension",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "is-st-worldbook:entry 4",
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
+    },
+    {
+      "id": "rel:tabane-shinonono--related--houki-shinonono",
+      "source": "tabane-shinonono",
+      "target": "houki-shinonono",
+      "type": "related",
+      "sourceName": "篠之之束",
+      "targetName": "篠之之箒",
+      "nature": "older-sister-complicated-care",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "is-st-worldbook:entry 4",
+        "is-st-worldbook:entry 7",
+        "is-st-worldbook:entry 9"
+      ]
+    },
+    {
+      "id": "rel:tabane-shinonono--related--chifuyu-orimura",
+      "source": "tabane-shinonono",
+      "target": "chifuyu-orimura",
+      "type": "related",
+      "sourceName": "篠之之束",
+      "targetName": "织斑千冬",
+      "nature": "old-acquaintance-obsessive-friendship",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "is-st-worldbook:entry 4",
+        "is-st-worldbook:entry 7",
+        "is-st-worldbook:entry 9"
+      ]
+    },
+    {
+      "id": "rel:tabane-shinonono--related--ichika-orimura",
+      "source": "tabane-shinonono",
+      "target": "ichika-orimura",
+      "type": "related",
+      "sourceName": "篠之之束",
+      "targetName": "织斑一夏",
+      "nature": "research-target-interest",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "is-st-worldbook:entry 4",
+        "is-st-worldbook:entry 7",
+        "is-st-worldbook:entry 9"
+      ]
+    },
+    {
+      "id": "rel:tatenashi-sarashiki--related--ichika-orimura",
+      "source": "tatenashi-sarashiki",
+      "target": "ichika-orimura",
+      "type": "related",
+      "sourceName": "更识楯无",
+      "targetName": "织斑一夏",
+      "nature": "observer-teaser-mentor",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 7",
+        "is-st-worldbook:entry 9"
+      ]
+    },
+    {
+      "id": "rel:tatenashi-sarashiki--related--kanzashi-sarashiki",
+      "source": "tatenashi-sarashiki",
+      "target": "kanzashi-sarashiki",
+      "type": "related",
+      "sourceName": "更识楯无",
+      "targetName": "更识簪",
+      "nature": "older-sister-protective",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 7",
+        "is-st-worldbook:entry 9"
+      ]
+    },
+    {
+      "id": "rel:tatenashi-sarashiki--related--chifuyu-orimura",
+      "source": "tatenashi-sarashiki",
+      "target": "chifuyu-orimura",
+      "type": "related",
+      "sourceName": "更识楯无",
+      "targetName": "织斑千冬",
+      "nature": "cooperative-tension",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 7",
+        "is-st-worldbook:entry 9"
+      ]
+    },
+    {
+      "id": "rel:kanzashi-sarashiki--related--tatenashi-sarashiki",
+      "source": "kanzashi-sarashiki",
+      "target": "tatenashi-sarashiki",
+      "type": "related",
+      "sourceName": "更识簪",
+      "targetName": "更识楯无",
+      "nature": "younger-sister-dependent-pressure",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
+    },
+    {
+      "id": "rel:kanzashi-sarashiki--related--ichika-orimura",
+      "source": "kanzashi-sarashiki",
+      "target": "ichika-orimura",
+      "type": "related",
+      "sourceName": "更识簪",
+      "targetName": "织斑一夏",
+      "nature": "distant-curiosity-to-friend",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ]
+    },
+    {
+      "id": "rel:maya-yamada--related--ichika-orimura",
+      "source": "maya-yamada",
+      "target": "ichika-orimura",
+      "type": "related",
+      "sourceName": "山田真耶",
+      "targetName": "织斑一夏",
+      "nature": "teacher-student-support",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
       "sourceRefs": [
         "is-st-worldbook:entry 9"
-      ],
-      "evidenceLevel": "A"
+      ]
     },
     {
-      "from": "ichika-orimura",
-      "to": "tatenashi-sarashiki",
-      "type": "senpai-observer-teaser",
-      "label": "学生会长的观察与引导",
-      "strength": "medium",
-      "direction": "tatenashi-sarashiki -> ichika-orimura",
-      "initialState": "楯无早已注意到一夏，准备将他纳入观察视野。源初始好感度/兴趣：200/10000。",
-      "rpUse": "学生会委托、情报引导、调侃、俄罗斯/国际线。",
+      "id": "rel:maya-yamada--related--chifuyu-orimura",
+      "source": "maya-yamada",
+      "target": "chifuyu-orimura",
+      "type": "related",
+      "sourceName": "山田真耶",
+      "targetName": "织斑千冬",
+      "nature": "colleague-respects",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
       "sourceRefs": [
         "is-st-worldbook:entry 9"
-      ],
-      "evidenceLevel": "A"
+      ]
     },
     {
-      "from": "ichika-orimura",
-      "to": "kanzashi-sarashiki",
-      "type": "distant-curiosity-to-friend",
-      "label": "内向的远距离好奇",
-      "strength": "weak",
-      "direction": "kanzashi-sarashiki -> ichika-orimura",
-      "initialState": "簪从姐姐处听闻一夏，胆怯好奇但不敢主动接触。源初始好感度：80/10000。",
-      "rpUse": "技术协助、打铁二式修复、自信成长、姐姐阴影。",
-      "sourceRefs": [
-        "is-st-worldbook:entry 9"
-      ],
-      "evidenceLevel": "A"
-    },
-    {
-      "from": "ichika-orimura",
-      "to": "tabane-shinonono",
-      "type": "research-interest",
-      "label": "珍贵实验样本/有趣变量",
-      "strength": "strong",
-      "direction": "tabane-shinonono -> ichika-orimura",
-      "initialState": "束对一夏表面常规好感很低，但研究/娱乐兴趣极高；可能准备白式惊喜。",
-      "rpUse": "机体升级、恶作剧、核心秘密、千冬与束的博弈。",
-      "sourceRefs": [
-        "is-st-worldbook:entry 9"
-      ],
-      "evidenceLevel": "B"
-    },
-    {
-      "from": "ichika-orimura",
-      "to": "hoshi-shirube-ai",
-      "type": "pilot-ai",
-      "label": "驾驶员与辅助AI",
-      "strength": "medium",
-      "direction": "bidirectional",
-      "initialState": "端白星初始冰冷高效，人性化等级10/1000；一夏把它当作工具/系统提示。",
-      "rpUse": "状态栏、战术提示、AI成长、核心网络异常。",
+      "id": "rel:hoshi-shirube-ai--related--ichika-orimura",
+      "source": "hoshi-shirube-ai",
+      "target": "ichika-orimura",
+      "type": "related",
+      "sourceName": "端白星AI",
+      "targetName": "织斑一夏",
+      "nature": "pilot-assistant",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
       "sourceRefs": [
         "is-st-worldbook:entry 7",
         "is-st-worldbook:entry 9"
-      ],
-      "evidenceLevel": "B"
+      ]
     },
     {
-      "from": "houki-shinonono",
-      "to": "tabane-shinonono",
-      "type": "sisters-complicated",
-      "label": "姐妹：敬佩、压力与被摆布感",
-      "strength": "strong",
-      "direction": "bidirectional",
-      "initialState": "箒敬佩又不满束；束以自己的方式关爱并推动箒的人生戏剧性。",
-      "rpUse": "红椿交付、姐姐阴影、家庭冲突。",
+      "id": "rel:hoshi-shirube-ai--related--tabane-shinonono",
+      "source": "hoshi-shirube-ai",
+      "target": "tabane-shinonono",
+      "type": "related",
+      "sourceName": "端白星AI",
+      "targetName": "篠之之束",
+      "nature": "possible-creator-or-maintainer",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
       "sourceRefs": [
+        "is-st-worldbook:entry 7",
         "is-st-worldbook:entry 9"
-      ],
-      "evidenceLevel": "A"
+      ]
     },
     {
-      "from": "chifuyu-orimura",
-      "to": "tabane-shinonono",
-      "type": "old-acquaintance-complicated",
-      "label": "旧识/共犯/互相头痛",
-      "strength": "very-strong",
-      "direction": "bidirectional",
-      "initialState": "千冬与束维持外人难懂的秘密联络；千冬警惕束，束对千冬执着。",
-      "rpUse": "白骑士事件、IS起源、白式与红椿升级、秘密谈判。",
-      "sourceRefs": [
-        "is-st-worldbook:entry 9"
-      ],
-      "evidenceLevel": "A"
-    },
-    {
-      "from": "tatenashi-sarashiki",
-      "to": "kanzashi-sarashiki",
-      "type": "sisters-protective-pressure",
-      "label": "姐姐保护与妹妹压力",
-      "strength": "strong",
-      "direction": "bidirectional",
-      "initialState": "楯无保护并锻炼簪；簪依赖又敬畏姐姐。",
-      "rpUse": "簪个人线、学生会安排、姐妹和解。",
-      "sourceRefs": [
-        "is-st-worldbook:entry 9"
-      ],
-      "evidenceLevel": "A"
-    },
-    {
-      "from": "houki-shinonono",
-      "to": "lingyin-huang",
-      "type": "romantic-rivals",
-      "label": "一夏相关头号情敌气氛",
-      "strength": "medium",
-      "direction": "bidirectional",
-      "initialState": "铃音视箒的青梅竹马位置为威胁；箒警惕铃音的直白攻势。",
-      "rpUse": "轻喜剧争执、合作战斗后缓和。",
-      "sourceRefs": [
-        "is-st-worldbook:entry 9"
-      ],
-      "evidenceLevel": "B"
-    },
-    {
-      "from": "maya-yamada",
-      "to": "chifuyu-orimura",
-      "type": "colleagues",
-      "label": "同事与尊敬/畏惧",
-      "strength": "medium",
-      "direction": "maya-yamada -> chifuyu-orimura",
-      "initialState": "真耶尊敬甚至有点畏惧千冬的威严和实力。",
-      "rpUse": "教师会议、训练安排、事故处理。",
-      "sourceRefs": [
-        "is-st-worldbook:entry 9"
-      ],
-      "evidenceLevel": "A"
-    },
-    {
-      "from": "phantom-task",
-      "to": "ichika-orimura",
-      "type": "hostile-targeting",
-      "label": "觊觎白式/唯一男性驾驶员",
-      "strength": "strong",
-      "direction": "phantom-task -> ichika-orimura",
-      "initialState": "中后期可将一夏、白式与核心数据列为目标。",
-      "rpUse": "袭击、绑架、核心夺取、叛逃者求助。",
-      "sourceRefs": [
-        "is-st-worldbook:entry 6"
-      ],
-      "evidenceLevel": "A"
-    },
-    {
-      "from": "is-academy",
-      "to": "ichika-orimura",
-      "type": "institutional-containment",
-      "label": "学园保护/观察特例",
-      "strength": "strong",
-      "direction": "is-academy -> ichika-orimura",
-      "initialState": "一夏被安排入学以接受培养、保护和研究观察。",
-      "rpUse": "规则边界、训练日程、国际压力。",
-      "sourceRefs": [
-        "is-st-worldbook:entry 6",
-        "is-st-worldbook:entry 9"
-      ],
-      "evidenceLevel": "A"
-    },
-    {
-      "from": "ichika-orimura",
-      "to": "goten-dan",
-      "type": "middle-school-friend",
-      "label": "国中好友/损友",
-      "strength": "medium",
-      "direction": "bidirectional",
-      "summary": "弹是一夏国中好友，常打探IS学园生活。",
-      "sourceRefs": [
-        "wenku8:vol2/ch1"
-      ],
-      "evidenceLevel": "A"
-    },
-    {
-      "from": "ichika-orimura",
-      "to": "goten-ran",
-      "type": "younger-girl-crush",
-      "label": "好友妹妹/朦胧好感",
-      "strength": "weak",
-      "direction": "goten-ran -> ichika-orimura",
-      "summary": "兰是弹的妹妹，对一夏有好感并紧张。",
-      "sourceRefs": [
-        "wenku8:vol2/ch1"
-      ],
-      "evidenceLevel": "A"
-    },
-    {
-      "from": "goten-dan",
-      "to": "goten-ran",
-      "type": "siblings",
-      "label": "兄妹",
-      "strength": "strong",
-      "direction": "bidirectional",
-      "summary": "五反田兄妹。",
-      "sourceRefs": [
-        "wenku8:vol2/ch1"
-      ],
-      "evidenceLevel": "A"
-    },
-    {
-      "from": "phantom-task",
-      "to": "squall-meusel",
-      "type": "action-unit-leader",
-      "label": "黑白化身首领",
-      "strength": "strong",
-      "direction": "phantom-task -> squall-meusel",
-      "summary": "斯可儿率领亡国机业行动部队“黑白化身”。",
-      "sourceRefs": [
-        "wenku8:vol11-12"
-      ],
-      "evidenceLevel": "A"
-    },
-    {
-      "from": "squall-meusel",
-      "to": "autumn",
-      "type": "intimate-comrades",
-      "label": "亲密同伴/恋人式关系",
-      "strength": "strong",
-      "direction": "bidirectional",
-      "summary": "秋天关心斯可儿机械身体的痛苦，文本称其体贴恋人斯可儿。",
-      "sourceRefs": [
-        "wenku8:vol11"
-      ],
-      "evidenceLevel": "A"
-    },
-    {
-      "from": "tabane-shinonono",
-      "to": "madoka-orimura",
-      "type": "creator-of-black-knight",
-      "label": "束为圆打造黑骑士",
-      "strength": "strong",
-      "direction": "tabane-shinonono -> madoka-orimura",
-      "summary": "束展示“黑骑士”，称其为小圆的专用机。",
-      "sourceRefs": [
-        "wenku8:vol11-12"
-      ],
-      "evidenceLevel": "A"
-    },
-    {
-      "from": "madoka-orimura",
-      "to": "ichika-orimura",
-      "type": "hostile-targeting",
-      "label": "敌对目标：取一夏性命",
-      "strength": "very-strong",
-      "direction": "madoka-orimura -> ichika-orimura",
-      "summary": "织斑圆自称为杀一夏而来，并多次强袭。",
-      "sourceRefs": [
-        "wenku8:vol12"
-      ],
-      "evidenceLevel": "A"
-    },
-    {
-      "from": "madoka-orimura",
-      "to": "chifuyu-orimura",
-      "type": "identity-shadow",
-      "label": "与千冬外貌/身份阴影相关",
-      "strength": "medium",
-      "direction": "bidirectional",
-      "summary": "一夏注意到圆长得与千冬相似；圆执念于“织斑”身份。",
-      "sourceRefs": [
-        "wenku8:vol12"
-      ],
-      "evidenceLevel": "A"
-    },
-    {
-      "from": "chelsea",
-      "to": "cecilia-alcott",
-      "type": "household-bond",
-      "label": "切尔西是塞西莉亚身边女仆/亲近者，第11卷中二人的羁绊与冲突构成主线。",
-      "strength": "source-backed",
-      "direction": "bidirectional",
+      "id": "rel:chelsea--related--cecilia-alcott",
+      "source": "chelsea",
+      "target": "cecilia-alcott",
+      "type": "related",
+      "sourceName": "切尔西",
+      "targetName": "塞西莉亚·奥尔科特",
+      "nature": "mistress-servant-family-tie",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
       "sourceRefs": [
         "linovelib-is-vol-11-12-local-mhtml"
-      ],
-      "evidenceLevel": "A"
+      ]
     },
     {
-      "from": "chelsea",
-      "to": "exia-blanket",
-      "type": "sisters",
-      "label": "切尔西称埃克西亚为妹妹，并向塞西莉亚解释其与奥尔科特家族计划相关。",
-      "strength": "source-backed",
-      "direction": "bidirectional",
+      "id": "rel:exia-blanket--related--chelsea",
+      "source": "exia-blanket",
+      "target": "chelsea",
+      "type": "related",
+      "sourceName": "埃克西亚·布兰克特",
+      "targetName": "切尔西",
+      "nature": "sister",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
       "sourceRefs": [
         "linovelib-is-vol-11-12-local-mhtml"
-      ],
-      "evidenceLevel": "A"
+      ]
     },
     {
-      "from": "exia-blanket",
-      "to": "cecilia-alcott",
-      "type": "support-linked",
-      "label": "埃克西亚与塞西莉亚父母为塞西莉亚准备的秘密支援计划相关。",
-      "strength": "source-backed",
-      "direction": "bidirectional",
+      "id": "rel:exia-blanket--related--cecilia-alcott",
+      "source": "exia-blanket",
+      "target": "cecilia-alcott",
+      "type": "related",
+      "sourceName": "埃克西亚·布兰克特",
+      "targetName": "塞西莉亚·奥尔科特",
+      "nature": "support-linked",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
       "sourceRefs": [
         "linovelib-is-vol-11-12-local-mhtml"
-      ],
-      "evidenceLevel": "A"
+      ]
     },
     {
-      "from": "iris-luxembourg",
-      "to": "jibril",
-      "type": "princess-knight",
-      "label": "吉布里尔效忠艾莉丝公主。",
-      "strength": "source-backed",
-      "direction": "bidirectional",
+      "id": "rel:jibril--allegiance--iris-luxembourg",
+      "source": "jibril",
+      "target": "iris-luxembourg",
+      "type": "allegiance",
+      "sourceName": "吉布里尔",
+      "targetName": "艾莉丝·比阿特丽斯·德·卢森堡",
+      "nature": "loyal-knight",
+      "description": "",
+      "direction": "directed-source-statement",
+      "evidenceLevel": "A",
+      "reviewStatus": "human-read-promoted",
+      "evidenceSource": "characters-index.relationships",
       "sourceRefs": [
         "linovelib-is-vol-11-12-local-mhtml"
-      ],
-      "evidenceLevel": "A"
-    },
-    {
-      "from": "iris-luxembourg",
-      "to": "ichika-orimura",
-      "type": "abduction-claim",
-      "label": "艾莉丝抵达日本后宣称要把一夏带往卢森堡作为男仆。",
-      "strength": "source-backed",
-      "direction": "bidirectional",
-      "sourceRefs": [
-        "linovelib-is-vol-11-12-local-mhtml"
-      ],
-      "evidenceLevel": "A"
-    },
-    {
-      "from": "forte-sapphire",
-      "to": "daryl-casey",
-      "type": "mission-pair",
-      "label": "福尔特·萨菲尔与达里尔·凯西共同执行王者之剑接触任务。",
-      "strength": "source-backed",
-      "direction": "bidirectional",
-      "sourceRefs": [
-        "linovelib-is-vol-11-12-local-mhtml"
-      ],
-      "evidenceLevel": "A"
+      ]
     }
-  ]
+  ],
+  "unmatchedRelationshipMentions": [
+    {
+      "source": "夏洛特·德诺阿",
+      "targetRaw": "dunois-industry",
+      "nature": "family-corporate-pressure",
+      "description": "",
+      "evidenceSource": "characters-index.relationships"
+    },
+    {
+      "source": "劳拉·博德维希",
+      "targetRaw": "german-black-rabbit",
+      "nature": "military-origin",
+      "description": "",
+      "evidenceSource": "characters-index.relationships"
+    },
+    {
+      "source": "篠之之束",
+      "targetRaw": "is-system",
+      "nature": "creator",
+      "description": "",
+      "evidenceSource": "characters-index.relationships"
+    }
+  ],
+  "stats": {
+    "nodes": 23,
+    "edges": 43,
+    "relationshipBlocksRead": 15,
+    "unmatchedMentions": 3
+  }
 }

@@ -22,7 +22,7 @@
 
 ## 已登记外部原文/目录链接（Wenku8）
 
-> 这些链接记录为“待核查/待导入的外部目录源”。本地仍未视为已入库；只有原文正文实际保存进项目并登记来源后，才把“本地原文状态”改为已入库。
+> 这些链接最初记录为“待核查/待导入的外部目录源”。2026-06-30 第一轮爬取后，除 `hidan-no-aria` 本篇因版权屏蔽未取得正文外，其余已标注链接均已保存正文到对应 `sources/raw-text/`。质检报告见 `campaigns/world-library/manual-curation/reports/raw-text-qc.md`。
 
 | 对应世界 slug | 子作品/系列 | 链接 | 备注 |
 |---|---|---|---|
@@ -53,21 +53,21 @@
 |---|---|---|---|---|---|
 | `absolute-duo` | 绝对双刃 | raw | 轻小说 | 未入库 | 找轻小说卷章原文/目录。 |
 | `black-bullet` | 漆黑的子弹 | raw | 轻小说 | 未入库 | 找轻小说卷章原文/目录。 |
-| `campione` | 弑神者！ | raw | 轻小说 | 未入库 | 已登记 Wenku8 本篇与关联作品目录链接；待核查并导入原文/目录。 |
+| `campione` | 弑神者！ | raw | 轻小说 | 已入库 raw-text | Wenku8 本篇与《神域的弑神者们》正文已爬取到 `sources/raw-text/`；下一步做卷章摘要与世界归档。 |
 | `chunibyo` | 中二病也要谈恋爱！ | raw | 轻小说 | 未入库 | 找轻小说卷章原文/目录。 |
-| `danmachi` | 在地下城寻求邂逅是否搞错了什么 | curated | 轻小说 | 有章节资料，待核原文 | 已登记 Wenku8 本篇、外传、英雄谭目录链接；核查 `curated/stories/` 是原文、摘要还是世界书整理后再导入/对齐。 |
+| `danmachi` | 在地下城寻求邂逅是否搞错了什么 | curated | 轻小说 | 已入库 raw-text | 本篇、剑姬神圣谭、眷族编年史、阿尔戈、阿斯特莉亚回忆录正文已爬取到 `sources/raw-text/`；下一步与 `curated/stories/` 对齐并抽摘要/图谱。 |
 | `dantalian-no-shoka` | 丹特丽安的书架 | raw | 轻小说 | 未入库 | 找轻小说卷章原文/目录。 |
 | `date-a-live` | 约会大作战 | raw | 轻小说 | 未入库 | 找轻小说卷章原文/目录。 |
 | `gate-jsdf` | GATE 奇幻自卫队 | raw | Web 小说 / 小说 | 未入库 | 找 Web 版/书籍版来源并区分版本。 |
 | `haganai` | 我的朋友很少 | raw | 轻小说 | 未入库 | 找轻小说卷章原文/目录。 |
-| `hidan-no-aria` | 绯弹的亚里亚 | curated | 轻小说 | 未入库 | 已登记 Wenku8 本篇与 AA 目录链接；当前仅见 stories 索引，待核查并导入原文/目录。 |
+| `hidan-no-aria` | 绯弹的亚里亚 | curated | 轻小说 | 部分入库 / 本篇屏蔽 | AA 正文已入库；本篇章节页返回版权屏蔽/空正文，已清理占位文件并保留 `sources/raw-text/hidan-no-aria-main/BLOCKED.md`。 |
 | `high-school-dxd` | 恶魔高校 DxD | curated | 轻小说 | 有章节资料，待核原文 | 核查 `curated/stories/`、`imports/working/high-school-dxd/` 对照资料；补完整卷章源。 |
 | `infinite-stratos` | IS〈Infinite Stratos〉 | curated | 轻小说 | 有章节资料，待核原文 | 核查 `curated/stories/vol-*` 是原文、摘要还是整理稿；补完整卷章源。 |
 | `madan-no-ou` | 魔弹之王与战姬 | raw | 轻小说 | 未入库 | 找轻小说卷章原文/目录，并注意本篇/IF 线。 |
 | `majo-no-tabitabi` | 魔女之旅 | raw | 轻小说 | 未入库 | 找轻小说卷章原文/目录。 |
 | `overlord` | OVERLORD / 不死者之王 | raw | Web 小说 / 轻小说 | 未入库 | 找 Web 版与书籍版并区分版本差异。 |
-| `rakudai-kishi` | 落第骑士英雄谭 | raw | 轻小说 | 未入库 | 已登记 Wenku8 目录链接；待核查并导入原文/目录。 |
-| `saijaku-muhai-bahamut` | 最弱无败神装机龙 | raw | 轻小说 | 未入库 | 已登记 Wenku8 目录链接；待核查并导入原文/目录。 |
+| `rakudai-kishi` | 落第骑士英雄谭 | raw | 轻小说 | 已入库 raw-text | Wenku8 正文已爬取到 `sources/raw-text/`；下一步做卷章摘要与世界归档。 |
+| `saijaku-muhai-bahamut` | 最弱无败神装机龙 | raw | 轻小说 | 已入库 raw-text | Wenku8 正文已爬取到 `sources/raw-text/`；下一步做卷章摘要与世界归档。 |
 | `seikoku-no-dragonar` | 星刻的龙骑士 | raw | 轻小说 | 未入库 | 找轻小说卷章原文/目录。 |
 | `spice-and-wolf` | 狼与香辛料 | raw | 轻小说 | 未入库 | 找轻小说卷章原文/目录。 |
 | `strike-the-blood` | 噬血狂袭 | raw | 轻小说 | 未入库 | 找轻小说卷章原文/目录。 |
@@ -129,7 +129,7 @@
 
 > 2026-06-30 记录。
 
-- **全局限速**：所有外部源爬取必须串行，每次请求间隔 ≥ 3 秒。
+- **全局限速**：所有外部源爬取必须串行，每次请求间隔 ≥ 10 秒。
 - **不并发**：任何时候不同时发起两个及以上请求到同一域名。
 - **分批**：每组不超过 30 个页面，批次间等待 ≥ 60 秒。
 - **优先爬取**：按限速规则逐页爬取章节正文到本地；用户下载整本 TXT 作为备选方案，仅在爬取长期不可行时采用。

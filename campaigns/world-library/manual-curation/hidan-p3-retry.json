@@ -1,0 +1,18 @@
+{
+  "objective": "绯弹Phase 3 补跑t21（vol-43~44）",
+  "authority": { "allowFilesystemRead": true, "allowMutationTools": true, "allowShellTools": false, "allowProjectCode": true },
+  "library": { "sources": ["project"] },
+  "limits": { "concurrency": 2 },
+  "steps": [
+    {
+      "id": "t21",
+      "agent": {
+        "system": "绯弹时间轴员。阅读2卷，输出每卷时间轴条目。\n格式：\n---TIMELINE---\nVOLUME: <数字>\nTIMESPAN: <时间跨度>\nSUMMARY: 100-200字\nMAJOR_EVENTS: \nCHARACTER_ARCS: \nLOCATION_SHIFTS: \nPOWER_PROGRESSIONS: \n---\n两个vol各一条。",
+        "tools": ["read","grep","find","ls","edit","write"]
+      },
+      "task": "阅读 hidan-no-aria-main/vol-43 和 hidan-no-aria-main/vol-44 的full.txt。\n输出每卷时间轴条目。\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/t21-timeline.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p3-output/",
+      "cwd": "E:/pi-st"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "objective": "绯弹Phase 4 补跑p4-terms",
+  "authority": {
+    "allowFilesystemRead": true,
+    "allowMutationTools": true,
+    "allowShellTools": false,
+    "allowProjectCode": true
+  },
+  "library": {
+    "sources": [
+      "project"
+    ]
+  },
+  "limits": {
+    "concurrency": 1
+  },
+  "steps": [
+    {
+      "id": "r-terms",
+      "agent": {
+        "system": "绯弹术语/科技/武器分析员。提取绯弹的亚里亚里重要术语、科技、武器。\n格式：\n---WORLD_ITEM---\nNAME: \nTYPE: terms\nDESCRIPTION: >=100字\nSIGNIFICANCE: \nSOURCE_REF: vol-XX\n---\n覆盖范围：vol-01~45 + AA vol-01~04。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "提取绯弹的亚里亚里特有术语、科技、重要武器（绯弹、M9000、武侦技能、爆发模式、伊·U技术等）。每项≥100字描述+sourceRef。\n输出：E:/pi-st/campaigns/world-library/manual-curation/hidan-p4-output/p4-terms.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p4-output/",
+      "cwd": "E:/pi-st"
+    }
+  ]
+}

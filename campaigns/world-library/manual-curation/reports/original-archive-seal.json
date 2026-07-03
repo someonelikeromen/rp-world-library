@@ -1,0 +1,78 @@
+{
+  "createdAt": "2026-07-01T16:19:29.749Z",
+  "archiveStatus": "sealed-complete",
+  "totals": {
+    "worlds": 5,
+    "series": 10,
+    "volumes": 127,
+    "chapterEvents": 1267,
+    "entities": 183,
+    "relationshipCandidates": 2358,
+    "relationshipGraphNodes": 75,
+    "relationshipGraphEdges": 115,
+    "searchEntries": 3945,
+    "searchKeywords": 1678,
+    "timelineLanes": 10,
+    "timelineEntries": 1267,
+    "provenanceFiles": 1481,
+    "sourceFiles": 1267,
+    "sourceBytes": 44193587,
+    "jsonFilesChecked": 396,
+    "badJson": 0,
+    "runtimeIssues": 0,
+    "worldArtifactIssues": 0
+  },
+  "worlds": [
+    {
+      "world": "campione",
+      "nodes": 15,
+      "edges": 12,
+      "formalRelationshipGraphExists": false,
+      "curatedFiles": 60,
+      "sourceFiles": 262
+    },
+    {
+      "world": "danmachi",
+      "nodes": 29,
+      "edges": 65,
+      "formalRelationshipGraphExists": true,
+      "curatedFiles": 152,
+      "sourceFiles": 745
+    },
+    {
+      "world": "hidan-no-aria",
+      "nodes": 11,
+      "edges": 9,
+      "formalRelationshipGraphExists": true,
+      "curatedFiles": 47,
+      "sourceFiles": 66
+    },
+    {
+      "world": "rakudai-kishi",
+      "nodes": 11,
+      "edges": 14,
+      "formalRelationshipGraphExists": false,
+      "curatedFiles": 52,
+      "sourceFiles": 153
+    },
+    {
+      "world": "saijaku-muhai-bahamut",
+      "nodes": 9,
+      "edges": 15,
+      "formalRelationshipGraphExists": false,
+      "curatedFiles": 52,
+      "sourceFiles": 196
+    }
+  ],
+  "requiredReports": [
+    "campaigns/world-library/manual-curation/reports/original-refinement-final-report.md",
+    "campaigns/world-library/manual-curation/reports/original-full-archive-completion-audit.md",
+    "campaigns/world-library/manual-curation/reports/original-curation-closeout.md",
+    "campaigns/world-library/manual-curation/reports/original-relationship-graph-report.md",
+    "campaigns/world-library/manual-curation/reports/original-relationship-semantic-merge-plan-report.md",
+    "campaigns/world-library/manual-curation/reports/original-derived-content-safety-report.md",
+    "campaigns/world-library/manual-curation/reports/original-provenance-report.md",
+    "campaigns/world-library/manual-curation/reports/original-search-index-report.md",
+    "campaigns/world-library/manual-curation/reports/original-timeline-report.md"
+  ]
+}

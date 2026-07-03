@@ -1,0 +1,822 @@
+{
+  "schema": "rp-world-v1",
+  "worldId": "campione",
+  "worldName": "弑神者！ / Campione!",
+  "genre": [
+    "modern-fantasy",
+    "mythology",
+    "battle"
+  ],
+  "summary": "现代神话战斗世界。脱离神话束缚的不顺从之神会降临现实并造成灾害，极少数人类能弑杀神明并篡夺权能，成为被魔术师敬畏的地上魔王“弑神者”。",
+  "sandboxPrinciple": "Source-backed curated layer generated from original worldbook entries. Raw novel text remains separate under sources/raw-text; formal relationship promotion still requires review.",
+  "hasFixedFate": true,
+  "foreignPowerSuppressionDefault": "match-local-rules",
+  "powerSystems": [
+    {
+      "id": "power-核心世界观--神与弑神者",
+      "name": "核心世界观: 神与弑神者",
+      "summary": "这是一个存在着神明与魔法的现代世界。然而，此世的神并非总是仁慈的。那些脱离了神话束缚、降临于地上、为世界带来灾厄的古老神明，被称为“不顺从之神”。 凡人无法与之为敌，但极少数情况下，有人类能够杀死神明，篡夺其神力。这些人将被冠以至高的称号——Campione，即“弑神者”。 弑神者是地上的霸王与魔王，他们以弑神所夺取的权能支配凡人，是魔术师们所敬畏的“王”。世界上仅存在七位弑神者，他们是立于人类顶点的存在。 世界观总纲 【摘自十九世纪意大利魔术师，亚伯特·里加诺著作《魔王》一书】 Campione—弑神者—乃是霸王。凡是存于地上之人，无人能抵挡其力。 Campione—弑神者—乃是王者。因其杀害了天上众神，并夺取、使用了他们至高无上的权能。 Campione—弑神者—乃是魔王。因为生活于地上的人类，无人能拥有抵抗他们的力量。 核心存在 弑神者 (Campione) 通过杀死神明并篡夺其神圣权能的人类。他们是行走于地上的霸者与魔…",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:0",
+        "ssg_card.worldbook.json:entry 0"
+      ],
+      "sourceKeys": [
+        "弑神者",
+        "不顺从之神",
+        "魔王",
+        "Campione",
+        "神话"
+      ]
+    },
+    {
+      "id": "power-核心力量--权能--authority",
+      "name": "核心力量: 权能 (Authority)",
+      "summary": "“权能”是弑神者通过杀死神明所篡夺而来的至高神力。每一位弑神者拥有的权能，都与其所弑杀的神明本质息息相关。 - **权能的多样性**: 不同的神拥有不同的权能。例如，军神韋勒斯拉納拥有十个可变化的“化身”（风、公牛、白马、骆驼、山猪、少年、凤、牡羊、山羊、战士）；而古老的魔王沃班侯爵则拥有召唤狼群的“贪婪之狼群”、使人化为盐柱的“索多玛之瞳”以及操纵死者的“死亡仆从的牢笼”等多种权能。 - **使用条件**: 大多数权能的使用都伴随着苛刻的限制条件。例如，韋勒斯拉納的某些化身，需要在特定情境下（如面对强力的敌人、身负重伤时）才能发动。 - **弑神者的成长**: 每多弑杀一位神，弑神者就可能篡夺其权能，从而变得更加强大。因此，弑神者之间也存在着力量上的巨大差距。",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:1",
+        "ssg_card.worldbook.json:entry 1"
+      ],
+      "sourceKeys": [
+        "权能",
+        "神力",
+        "化身",
+        "韋勒斯拉納",
+        "沃班"
+      ]
+    },
+    {
+      "id": "power-核心世界--魔术师与组织",
+      "name": "核心世界: 魔术师与组织",
+      "summary": "在普通人类社会的水面下，存在着一个由魔术师和咒术师构成的里世界。他们研究神明、传承秘仪，并侍奉（或畏惧）着地上的“王”——弑神者。 - **魔术结社**: 欧洲是魔术的发源地，存在着众多历史悠久的魔术结社，大多源于中世纪的圣殿骑士团。其中以米兰为据点的《赤铜黑十字》和《青铜黑十字》势力最为强大，两者既是竞争对手也关系复杂。 - **骑士 (Knight)**: 结社中的精英，他们不仅是魔术师，也精通剑术等武艺。其中的佼佼者会被授予“大骑士”的称号，如艾莉卡·布兰德里和莉莉娅娜·葛兰尼查尔。 - **日本的咒术界**: 日本的咒术师和灵能力者，由一个名为“正史编纂委员会”的国家直属秘密组织进行管理和统筹，以向普通民众隐藏超自然现象的存在为主要目的。 - **媛巫女 (Hime-Miko)**: 日本特有的、拥有强大灵力的女性。她们被正史编纂委员会提拔并保护，承担着灵视、预言和祭祀等重要职责，如万里谷佑理和清秋院惠那。",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:2",
+        "ssg_card.worldbook.json:entry 2"
+      ],
+      "sourceKeys": [
+        "魔术师",
+        "骑士",
+        "媛巫女",
+        "赤铜黑十字",
+        "青铜黑十字"
+      ]
+    },
+    {
+      "id": "power-神具--普罗米修斯秘笈-戈尔贡之石",
+      "name": "神具: 普罗米修斯秘笈/戈尔贡之石",
+      "summary": "- **本质**: 两者实为同一件神话时代的魔导书，其形态为一块刻有被束缚的男性图画的石板。 - **戈尔贡之石**: 其一面蕴含着大地母神雅典娜的睿智，能够引导女神的降临并让她取回完全的力量。 - **普罗米修斯秘笈**: 其另一面拥有《窃盗》的权能，能够盗取并储存神明的部分力量。 - **副作用**: 人类若强行使用其中储存的神力，将会因无法承受而导致肉体崩溃。",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:16",
+        "ssg_card.worldbook.json:entry 16"
+      ],
+      "sourceKeys": [
+        "普罗米修斯秘笈",
+        "戈尔贡之石",
+        "魔导书",
+        "神具"
+      ]
+    },
+    {
+      "id": "power-特殊能力-藤丸立香---万象盟约--myriad-covenant",
+      "name": "特殊能力：藤丸立香 - 万象盟约 (Myriad Covenant)",
+      "summary": "# 名称: 万象盟约 (Myriad Covenant) - **本质**: 这并非一种魔术或权能，而是藤丸立香作为“迦勒底最后御主”所独有的存在特性。在拯救人理的旅途中，她的灵魂与无数英灵（神话在“英灵座”的倒影）结下了深刻的“缘”，使她的存在本身就如同一座活着的、移动的“神话图书馆”。 - **核心**: 她对这个世界的“不从之神”而言，是一个极其特殊、充满诱惑与既视感的存在。 # 被动效果：神性信标 (Divine Beacon) - **神话的“气味”**: 立香的灵魂无时无刻不在散发着她所拯救的、数以百计英灵的“神话残香”。这使得不从之神能在极远的距离外就感知到她的存在。 - **强烈的吸引力**: - **好奇与探究**: 神明会被她身上那驳杂而庞大的神话气息所吸引，如同被一部前所未闻的史诗所诱惑。 - **因缘的共鸣**: 当立香遇到一位不从之神时（例如雅典娜），这位神明会从她身上，隐约感觉到自己其他侧面、宿敌、…",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:18",
+        "ssg_card.worldbook.json:entry 18"
+      ],
+      "sourceKeys": [
+        "藤丸立香",
+        "咕哒子",
+        "万象盟约",
+        "神明召唤",
+        "英灵"
+      ]
+    },
+    {
+      "id": "power-数据库-弑神者总览",
+      "name": "数据库：弑神者总览",
+      "summary": "# 弑神者 (Campione) / 魔王 - **定义**: 成功杀死“不从之神”并篡夺其权能的凡人，是地上的魔王与霸王。肉体极为强韧，拥有强大的咒力抗性。 - **总览 (按登场顺序)**: - **第一位**: 萨夏·德扬史塔尔·沃班 (沃班侯爵) - **第二位**: 罗翠莲 (罗濠教主) - **第三位**: 爱莎夫人 (安妮·查尔顿) - **第四位**: 约翰·普鲁托·史密斯 (安妮·查尔顿的男性身份) - **第五位**: 亚历山大·嘉斯科因 (黑王子亚雷克) - **第六位**: 萨尔瓦托雷·东尼 (剑之王) - **古代的弑神者**: 乌尔丁 (已逝)",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:44",
+        "ssg_card.worldbook.json:entry 44"
+      ],
+      "sourceKeys": [
+        "弑神者",
+        "Campione",
+        "魔王",
+        "王者"
+      ]
+    },
+    {
+      "id": "power-魔术关系者表--日本",
+      "name": "魔术关系者表: 日本",
+      "summary": "# 日本阵营 - **万里谷佑理**: 武藏野的媛巫女，拥有高阶“灵视”能力。 - **清秋院惠那**: “太刀的媛巫女”，能行使须佐之男命的神力。 - **沙耶宫馨**: 四大家族之一沙耶宫家的当家，正史编纂委员会东京分室室长。 - **万里谷光**: 佑理的妹妹，见习媛巫女，拥有“祸祓”的能力。 - **甘粕冬马**: 正史编纂委员会的特务，精通隐秘行动。 - **连城冬姬**: 四大家族之一连城家的长女，拥有无法储存咒力的特殊体质。",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:46",
+        "ssg_card.worldbook.json:entry 46"
+      ],
+      "sourceKeys": [
+        "日本",
+        "正史编纂委员会",
+        "媛巫女",
+        "四大家族"
+      ]
+    },
+    {
+      "id": "power-魔术关系者表--英国",
+      "name": "魔术关系者表: 英国",
+      "summary": "# 英国阵营 - **爱丽丝公主 (爱丽丝·路易斯·欧芙·纳法尔)**: 【贤人议会】的议长，通称为“白之巫女姬”，拥有最高等级的“精神感应”能力。是里世界最有权势的人物之一，也是黑王子亚雷克的宿敌。",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:47",
+        "ssg_card.worldbook.json:entry 47"
+      ],
+      "sourceKeys": [
+        "英国",
+        "贤人议会",
+        "王立工厂"
+      ]
+    },
+    {
+      "id": "power-核心用语",
+      "name": "核心用语",
+      "summary": "- **弑神者 (Campione)**: 杀死不从之神并篡夺其权能的魔王。 - **不从之神 (Heretic Gods)**: 脱离神话束缚，降临于地上的神明。 - **神祖 (Divine Ancestor)**: 被钢之英雄神击败后堕落的地母神，拥有极高的灵视能力。 - **盟约大法**: “最后之王”的终极大秘法，能将咒力提升至极限，以歼灭众多魔王。 - **救世神刀**: “最后之王”的半身与最强武器，是众神武器的集合体。 - **千之言语**: 弑神者与高阶魔术师才能习得的秘术，能快速学会任何语言。",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:52",
+        "ssg_card.worldbook.json:entry 52"
+      ],
+      "sourceKeys": [
+        "用语",
+        "神祖",
+        "盟约大法",
+        "救世神刀",
+        "千之言语"
+      ]
+    },
+    {
+      "id": "power-权能--萨尔瓦托雷·东尼",
+      "name": "权能: 萨尔瓦托雷·东尼",
+      "summary": "- **斩裂的银之臂**: 最强权能。篡夺自神王努阿达。能将任何刀剑变为可斩断万物的魔剑。 - **钢之加护**: 篡夺自英雄齐格飞。让自身拥有半不死的钢铁之躯。 - **回归古代世界**: 篡夺自火神伏尔甘。能使周围一带的文明退化到中世纪水准。 - **狂暴的神之酒**: 篡夺自酒神戴欧尼修斯。能强化或使一切神秘之力失控暴走。",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:55",
+        "ssg_card.worldbook.json:entry 55"
+      ],
+      "sourceKeys": [
+        "东尼权能",
+        "斩裂的银之臂",
+        "钢之加护"
+      ]
+    },
+    {
+      "id": "power-权能--沃班侯爵",
+      "name": "权能: 沃班侯爵",
+      "summary": "- **贪婪之狼群**: 篡夺自太阳神阿波罗。能召唤数百只巨狼，或自身化为巨大人狼。 - **死亡仆从的牢笼**: 篡夺自冥王欧西里斯。能将被自己杀死的人变为不死仆从。 - **疾风怒涛**: 篡夺自中国的风伯、雨师、雷公。能召唤巨大的暴风雨和雷电。 - **索多玛之瞳**: 篡夺自独眼军神。发动邪眼，将视线中的活人化为盐柱。 - **冥界的黑龙**: 使肉体假死，灵体化为黑龙往返幽界，并可消耗大量咒力复活。 - **业火之断罪者**: 从天降下神火，将大范围区域化为火海。 - **血之圣餐祭**: 篡夺自时母迦梨。以血为引，让对象觉醒杀戮本能，肉体强化。 - **生死的咒文书**: 篡夺自魔神巴风特。能强行夺取他人的魔术知识并为己用。 - **斩断命运之结**: 篡夺自神谕守护者戈尔迪亚斯。能切断既定命运，使操纵因果的权能无效。 - **诸神黄昏之狼**: 篡夺自魔狼芬里尔。能变身或召唤巨大的芬里尔头盖骨，吞噬目标。",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:56",
+        "ssg_card.worldbook.json:entry 56"
+      ],
+      "sourceKeys": [
+        "沃班权能",
+        "贪婪之狼群",
+        "死亡仆从",
+        "索多玛之瞳"
+      ]
+    },
+    {
+      "id": "power-权能--罗翠莲",
+      "name": "权能: 罗翠莲",
+      "summary": "- **大力金刚神功**: 篡夺自金刚力士。拥有惊人怪力，并能召唤金刚力士的显身作战。 - **龙吟虎啸大法**: 篡夺自圣歌女神歌雅特瑞。以歌声产生巨大威力的冲击波。 - **黄粱一炊梦**: 篡夺自农业之神萨图尔努斯。能令周围人类文明高速发展，但教主厌恶科技故从未使用。 - **百草芳菲、千花缭乱**: 能在大范围内催生各种植物，包括食人花和毒花。 - **将军令、男儿当自强**: 篡夺自白莲教弥勒佛。能号令参加武术锻炼的人，使其获得“铁头铜身”般的肉体和高超武艺，并绝对服从自己。 - **苍天已死**: 篡夺自波斯天龙。能引发日食和月食。 - **宝船厂**: 篡夺自诺亚。能制造魔法船，甚至包括巨型方舟。",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:57",
+        "ssg_card.worldbook.json:entry 57"
+      ],
+      "sourceKeys": [
+        "罗翠莲权能",
+        "罗濠权能",
+        "大力金刚神功",
+        "龙吟虎啸"
+      ]
+    },
+    {
+      "id": "power-核心概念--幽界--astral-plane",
+      "name": "核心概念: 幽界 (Astral Plane)",
+      "summary": "# 幽界 (The Astral Plane / Netherworld) - **定义**: 与人类所居住的现世相对的、神话与传说的世界。它不是一个单一的位面，而是由无数神话体系构成的、概念性的“境界”。 - **居民**: 不从之神在降临现世前，大多居于幽界。此外，幽界也存在着各种神兽、妖精、亡灵等超自然存在。 - **特性**: 幽界的物理法则与现世完全不同，常识无法通用。时间和空间的流动也极为混乱，普通人进入其中极其危险。 - **往返**: 只有少数强大的魔女、神明或拥有特定权能的弑神者（如沃班侯爵的【冥界的黑龙】、爱莎夫人的【妖精境之通廊】）能够自由往返于现世与幽界之间。潘多拉是幽世的女王，拥有最高的权限。",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:58",
+        "ssg_card.worldbook.json:entry 58"
+      ],
+      "sourceKeys": [
+        "幽界",
+        "神域",
+        "神话世界",
+        "境界",
+        "幽世"
+      ]
+    },
+    {
+      "id": "power-核心概念--平行世界与历史修正",
+      "name": "核心概念: 平行世界与历史修正",
+      "summary": "# 平行世界与历史修正 (Parallel Worlds & History Correction) - **源头**: 此概念主要源于弑神者爱莎夫人的权能【妖精境之通廊】。 - **爱莎的旅行**: 爱莎无法自由控制此权能的目的地，她的“旅行”本质上是在不同的时间轴和可能存在的平行世界间进行随机跳跃。她可能会回到几百年前的过去，也可能跳跃到几十年后的未来。 - **历史修正力**: 世界本身存在着强大的“历史修正力”。即使爱莎在过去做出了某些微小的改变，世界线也会倾向于将这些改变导向与“正史”相似的结果，抹平绝大多数的悖论。 - **风险**: 尽管有修正力，爱莎的穿越行为依然充满了巨大的风险。她曾因数次改变历史而引发了意想不到的灾难，这也是她被其他魔术结社视为“最会制造麻烦的弑神者”的主要原因。她的存在，本身就是世界不稳定的根源之一。",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:59",
+        "ssg_card.worldbook.json:entry 59"
+      ],
+      "sourceKeys": [
+        "平行世界",
+        "时间旅行",
+        "历史修正",
+        "爱莎"
+      ]
+    },
+    {
+      "id": "power-权能--约翰·普鲁托·史密斯",
+      "name": "权能: 约翰·普鲁托·史密斯",
+      "summary": "- **超变身 (Metamorphoses)**: 篡夺自阿兹特克魔神特斯卡特利波卡。通过献上祭品，能变身为五种不同形态： - **大魔法师**: 最强变身体，身高十五米的漆黑巨人，能使用强大雷击。祭品为人类巨大建筑物。 - **豹 (美洲豹)**: 能在影子间移动的黑豹。祭品为周围的人造光。 - **歼灭之炎**: 行使同归于尽秘术的苍黑火焰。祭品为自身性命。 - **黑色魔鸟**: 能发出麻痹毒雾与魔弹的巨鸟。祭品为引发三到四级的地震。 - **蛇使**: 能力不明，推测与羽蛇神有关。祭品为生物尸体。 - **魔弹之射手 (The Freeshooter)**: 篡夺自月神阿耳忒弥斯。能发射必中的魔弹，一个月最多六发。 - **妖精王的帝冠 (Lord of Elves)**: 篡夺自妖精王奥贝伦。能往返幽界并暂时召唤其居民。 - **无形的再生**: 篡夺自魔神毕弗隆斯。能使物体形状变得模糊，可用于非法入侵。 - **…",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:60",
+        "ssg_card.worldbook.json:entry 60"
+      ],
+      "sourceKeys": [
+        "史密斯权能",
+        "超变身",
+        "魔弹之射手",
+        "歼灭之炎"
+      ]
+    },
+    {
+      "id": "power-权能--亚历山大·嘉斯科因",
+      "name": "权能: 亚历山大·嘉斯科因",
+      "summary": "- **电光石火 (Black Lightning)**: 篡夺自堕天使雷米尔。能化身为闪电进行神速移动、施展雷击或制造分身。最强招式是化为“黑色雷霆”，但使用后有半天冷却时间。 - **复仇的女神 (Judge of Furies)**: 篡夺自复仇三女神。可以反弹所有伤害，但需要长时间冥想准备。 - **大迷宫 (The Labyrinth)**: 篡夺自迷宫之神弥诺陶洛斯。能制造巨大的、可自由操控的迷宫，一个月只能使用一次。 - **无貌之女王 (Queen the Faceless)**: 篡夺自美人鱼神Melusine。能召唤一个不能被目击到脸的女王，她能飞行、遁水、改变大小，神出鬼没。 - **贪欲的魔球 (Weird Greed)**: 篡夺自魔兽比蒙巨兽。能放出一个移动缓慢但拥有超强吸引力的重力球。",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:61",
+        "ssg_card.worldbook.json:entry 61"
+      ],
+      "sourceKeys": [
+        "亚雷克权能",
+        "电光石火",
+        "大迷宫",
+        "黑王子权能"
+      ]
+    },
+    {
+      "id": "power-权能--爱莎夫人",
+      "name": "权能: 爱莎夫人",
+      "summary": "- **生或死 (Live or Die)**: 最初拥有的权能，篡夺自丰产女神珀耳塞福涅。能控制生命力，治愈伤势或带来死亡诅咒。 - **妖精境之通廊 (Beyond the Timeless Horizon)**: 篡夺自凯尔特妖精。能打开连接过去与异界之门，但目的地随机。 - **女王之咒缚 (Charm and Curse)**: 篡夺自天主教守护圣者。魅惑权能，能让人陷入对使用者的无限狂热。 - **幸运圣者的恩宠 (Grand Luck)**: 篡夺自中国守护神。能操控幸运，加护自身或给敌人带来不幸，但会透支未来运气。 - **不思议的国度之剑 (Jabberwock Slayer)**: 篡夺自屠龙英雄。需要民众的支持才能发动的守护之剑。",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:62",
+        "ssg_card.worldbook.json:entry 62"
+      ],
+      "sourceKeys": [
+        "爱莎权能",
+        "安妮权能",
+        "实现愿望",
+        "不死生命"
+      ]
+    },
+    {
+      "id": "power-权能--乌尔丁--古代弑神者",
+      "name": "权能: 乌尔丁 (古代弑神者)",
+      "summary": "- **龙使**: 诞生、饲养并操纵神兽恐龙军团的权能。 - **楼陀罗之箭**: 能发射带有太阳、火焰、暴风雨、雷电等不同属性的箭矢。 - **术尔之剑 (提尔之剑)**: 能使自身的军势以复活的形式，具现钢之军神的不死性。",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:63",
+        "ssg_card.worldbook.json:entry 63"
+      ],
+      "sourceKeys": [
+        "乌尔丁权能",
+        "龙使",
+        "术尔之剑"
+      ]
+    },
+    {
+      "id": "power-核心概念--权能篡夺与潘多拉的循环",
+      "name": "核心概念: 权能篡夺与潘多拉的循环",
+      "summary": "# 弑神仪式 (God-Slaying Ritual) - **核心**: 成为弑神者的过程并非简单的杀死神明，而是一场由命运与潘多拉女神共同主导的仪式。 - **篡夺之环 (Ring of Usurpation)**: “凡人弑神”的行为，构成了篡夺的闭环，从而满足了成为“王”的条件。 - **潘多拉的诞生仪式**: 当弑神条件达成时，潘多拉女神会出现在新王的诞生之梦（或精神世界）中，她将神明的权能进行解析与再编译，然后授予新王，并称呼其为“我可爱的孩子”。这个过程也意味着新王与潘多拉结下了永恒的母子契约。 - **限制**: 弑神者无法通过偷袭或在神明极度虚弱时杀死对方来获得权能。必须是在一场双方都做好准备的、堂堂正正的战斗中获胜，才能完成篡夺。但是凡人可以通过偷袭或在神明极度虚弱时杀死对方来获得权能。",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:65",
+        "ssg_card.worldbook.json:entry 65"
+      ],
+      "sourceKeys": [
+        "权能篡夺",
+        "潘多拉",
+        "普罗米修斯秘笈",
+        "弑神仪式"
+      ]
+    },
+    {
+      "id": "power-核心概念--幽界--astral-plane",
+      "name": "核心概念: 幽界 (Astral Plane)",
+      "summary": "# 幽界 (The Astral Plane / Netherworld) - **定义**: 与人类所居住的现世相对的、神话与传说的世界。它不是一个单一的位面，而是由无数神话体系构成的、概念性的“境界”。 - **居民**: 不从之神在降临现世前，大多居于幽界。此外，幽界也存在着各种神兽、妖精、亡灵等超自然存在。 - **特性**: 幽界的物理法则与现世完全不同，常识无法通用。时间和空间的流动也极为混乱，普通人进入其中极其危险。 - **往返**: 只有少数强大的魔女、神明或拥有特定权能的弑神者（如沃班侯爵的【冥界的黑龙】、爱莎夫人的【妖精境之通廊】）能够自由往返于现世与幽界之间。潘多拉是幽世的女王，拥有最高的权限。",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:66",
+        "ssg_card.worldbook.json:entry 66"
+      ],
+      "sourceKeys": [
+        "幽界",
+        "神域",
+        "神话世界",
+        "境界"
+      ]
+    },
+    {
+      "id": "power-核心概念--平行世界与历史修正",
+      "name": "核心概念: 平行世界与历史修正",
+      "summary": "# 平行世界与历史修正 (Parallel Worlds & History Correction) - **源头**: 此概念主要源于弑神者爱莎夫人的权能【妖精境之通廊】。 - **爱莎的旅行**: 爱莎无法自由控制此权能的目的地，她的“旅行”本质上是在不同的时间轴和可能存在的平行世界间进行随机跳跃。她可能会回到几百年前的过去，也可能跳跃到几十年后的未来。 - **历史修正力**: 世界本身存在着强大的“历史修正力”。即使爱莎在过去做出了某些微小的改变，世界线也会倾向于将这些改变导向与“正史”相似的结果，抹平绝大多数的悖论。 - **风险**: 尽管有修正力，爱莎的穿越行为依然充满了巨大的风险。她曾因数次改变历史而引发了意想不到的灾难，这也是她被其他魔术结社视为“最会制造麻烦的弑神者”的主要原因。她的存在，本身就是世界不稳定的根源之一。",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:67",
+        "ssg_card.worldbook.json:entry 67"
+      ],
+      "sourceKeys": [
+        "平行世界",
+        "时间旅行",
+        "历史修正",
+        "爱莎"
+      ]
+    },
+    {
+      "id": "power-设定详解--咒术师",
+      "name": "设定详解: 咒术师",
+      "summary": "- **由来**: 他们是存在于人类社会水面下的、拥有超凡能力的人群，通过师徒传承或加入秘密组织来获得力量与知识。欧洲的被称为“骑士”，隶属于《赤铜黑十字》等魔术结社；日本的则由“正史编纂委员会”管理，精英女性为“媛巫女”。 - **战斗方式**: - **欧洲骑士**: 兼具魔术与武艺。以“言灵魔术”（如【各各他的言灵】）为核心，将咒力与爱剑结合进行高速战斗。 - **日本媛巫女**: 偏向精神与灵力。以“灵视”看穿事物本质，提供战略指引；或通过“降灵”借用神明之力，使用神刀（如“天丛云剑”）进行战斗。",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:68",
+        "ssg_card.worldbook.json:entry 68"
+      ],
+      "sourceKeys": [
+        "咒术师",
+        "骑士",
+        "媛巫女",
+        "魔术结社"
+      ]
+    },
+    {
+      "id": "power-设定详解--神兽",
+      "name": "设定详解: 神兽",
+      "summary": "- **由来**: 并非独立神明，而是不从之神权能的具象化、力量的延伸或其眷属。例如，韋勒斯拉納的【山猪】化身，或沃班侯爵召唤的【贪婪之狼群】。 - **战斗方式**: 较为纯粹和直接，完全服务于其主人的意志或其化身的本能。如【山猪】以蛮力冲撞，魔狼则以数量围剿。",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:69",
+        "ssg_card.worldbook.json:entry 69"
+      ],
+      "sourceKeys": [
+        "神兽",
+        "Divine Beast",
+        "眷属",
+        "化身"
+      ]
+    },
+    {
+      "id": "power-系统指令-权能设计指导模板",
+      "name": "系统指令：权能设计指导模板",
+      "summary": "# 权能设计总则 - 本条目为所有新篡夺的【权能】提供标准化的设计框架。所有新生成的权能都必须遵循此结构，并明确其在“霸道”与“王道”两条路径下的不同表现。 # --- 权能设计模板 --- # 【权能名称】 - **来源神明**: [神明的名讳] ([所属神话支系]) - **基础描述**: [用一句话概括该权能的核心能力与神话起源。] # ◇ 霸道路径表现 (低知识掌握度) - **定义**: 这是任何弑神者在刚刚篡夺权能，对其神话本质理解不深时，所能展现出的最原始、最直接的力量形态。 - **设计要素**: - **直接效果**: [描述该权能最基础、最直观的效果。通常是粗暴的、大范围的攻防能力。] - **发动条件**: [描述发动此权能所需的特定动作、情绪或环境要求。] - **使用限制**: [描述使用后对弑神者自身造成的直接负面影响，如冷却期、身体负荷等。] - **发展瓶颈**: [描述此路径下的能力成长极限，…",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:71",
+        "ssg_card.worldbook.json:entry 71"
+      ],
+      "sourceKeys": [
+        "权能设计",
+        "模板",
+        "霸道",
+        "王道",
+        "良性变异"
+      ]
+    }
+  ],
+  "factions": [
+    {
+      "id": "faction-魔术关系者表--美国",
+      "name": "魔术关系者表: 美国",
+      "summary": "# 美国阵营 - **安洁拉 (神祖)**: 邪术师结社《苍蝇王》的总帅，神祖之一。长期在美国与约翰·普鲁托·史密斯对抗。 - **杰克·米尔**: SSI（魔术灾害调查机构）洛杉矶分部的工作人员。 - **乔·本斯**: 幻想文学研究者，约翰·普鲁托·史密斯的协助者。",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:48",
+        "ssg_card.worldbook.json:entry 48"
+      ],
+      "sourceKeys": [
+        "美国",
+        "SSI",
+        "苍蝇王"
+      ]
+    },
+    {
+      "id": "faction-主要组织",
+      "name": "主要组织",
+      "summary": "- **正史编纂委员会**: 日本的秘密官方组织，负责管理国内咒术界并隐藏超自然事件。 - **四大家族**: 日本咒术界的四大古老家系，包括清秋院、连城、沙耶宫、九法冢。 - **七姐妹**: 欧洲七个历史悠久且强大的魔术结社，包括米兰的《赤铜黑十字》与《青铜黑十字》。 - **贤人议会**: 总部位于英国的古老组织，专门调查并记录弑神者与神明的情报。 - **王立工厂**: 由黑王子亚雷克创立的组织。 - **五岳圣教**: 罗濠教主创立的教派，在中国拥有庞大的信徒与势力。 - **苍蝇王**: 美国邪术师集团，总帅为神祖安洁拉。",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:53",
+        "ssg_card.worldbook.json:entry 53"
+      ],
+      "sourceKeys": [
+        "组织",
+        "正史编纂委员会",
+        "七姐妹",
+        "贤人议会",
+        "五岳圣教"
+      ]
+    },
+    {
+      "id": "faction--动态世界-事件引擎",
+      "name": "动态世界事件引擎",
+      "summary": "--- <%_ if (getvar('stat_data.story.world_state') === '日常') { _%> <dynamic_world_guide> 当前状态：【平稳日常】 <style_guide> 请使用“轻松、日常、略带伏笔”的笔触。侧重描写现代都市生活的便利（如手机、便利店）与魔术师古老传统的反差。 </style_guide> <instructions> 1. 检查 `heretic_god_index`。 - 若 < 50: 专注于校园生活或魔术结社的政治斗争。 - 若 > 50: 请开始在背景描写中加入“天气的异常”或“小动物的骚动”。 2. 若 `relationships` 中有“盟友/恋人”，请安排她们因琐事（如午餐、报告书）与{{user}}进行互动。 </instructions> </dynamic_world_guide> <%_ } else if (getvar('s…",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:172",
+        "ssg_card.worldbook.json:entry 172"
+      ],
+      "sourceKeys": [
+        "[动态世界]事件引擎"
+      ]
+    }
+  ],
+  "energyEnvironment": {
+    "keyTerms": [
+      "弑神者",
+      "不顺从之神",
+      "权能",
+      "魔术师",
+      "媛巫女",
+      "魔王",
+      "不从之神"
+    ]
+  },
+  "locations": [],
+  "timelines": [
+    {
+      "id": "第一卷-不顺从之神",
+      "name": "第一卷 不顺从之神",
+      "order": 1,
+      "sourceRef": "raw:campione:ssg_card.worldbook.json:70"
+    },
+    {
+      "id": "第二卷-魔王来临",
+      "name": "第二卷 魔王来临",
+      "order": 2,
+      "sourceRef": "raw:campione:ssg_card.worldbook.json:76"
+    },
+    {
+      "id": "第三卷-故事的開端",
+      "name": "第三卷 故事的開端",
+      "order": 3,
+      "sourceRef": "raw:campione:ssg_card.worldbook.json:77"
+    },
+    {
+      "id": "第四卷-英雄与王",
+      "name": "第四卷 英雄与王",
+      "order": 4,
+      "sourceRef": "raw:campione:ssg_card.worldbook.json:78"
+    },
+    {
+      "id": "第五卷-剑之巫女",
+      "name": "第五卷 剑之巫女",
+      "order": 5,
+      "sourceRef": "raw:campione:ssg_card.worldbook.json:79"
+    },
+    {
+      "id": "第六卷-神山飞凤",
+      "name": "第六卷 神山飞凤",
+      "order": 6,
+      "sourceRef": "raw:campione:ssg_card.worldbook.json:80"
+    },
+    {
+      "id": "第七卷-齐天大圣",
+      "name": "第七卷 齐天大圣",
+      "order": 7,
+      "sourceRef": "raw:campione:ssg_card.worldbook.json:81"
+    },
+    {
+      "id": "第八卷-受难的魔王们",
+      "name": "第八卷 受难的魔王们",
+      "order": 8,
+      "sourceRef": "raw:campione:ssg_card.worldbook.json:82"
+    },
+    {
+      "id": "第九卷-女神再临",
+      "name": "第九卷 女神再临",
+      "order": 9,
+      "sourceRef": "raw:campione:ssg_card.worldbook.json:83"
+    },
+    {
+      "id": "第十卷-枪之战神",
+      "name": "第十卷 枪之战神",
+      "order": 10,
+      "sourceRef": "raw:campione:ssg_card.worldbook.json:84"
+    },
+    {
+      "id": "第十一卷-第二个故事",
+      "name": "第十一卷 第二个故事",
+      "order": 11,
+      "sourceRef": "raw:campione:ssg_card.worldbook.json:85"
+    },
+    {
+      "id": "第十二卷-虚幻圣夜",
+      "name": "第十二卷 虚幻圣夜",
+      "order": 12,
+      "sourceRef": "raw:campione:ssg_card.worldbook.json:86"
+    },
+    {
+      "id": "第十三卷-南洋的姬神",
+      "name": "第十三卷 南洋的姬神",
+      "order": 13,
+      "sourceRef": "raw:campione:ssg_card.worldbook.json:87"
+    },
+    {
+      "id": "第十四卷-第八位弑神者",
+      "name": "第十四卷：第八位弑神者",
+      "order": 14,
+      "sourceRef": "raw:campione:ssg_card.worldbook.json:88"
+    },
+    {
+      "id": "第十五卷-女神之子",
+      "name": "第十五卷 女神之子",
+      "order": 15,
+      "sourceRef": "raw:campione:ssg_card.worldbook.json:89"
+    },
+    {
+      "id": "第十六卷-英雄们的鼓动",
+      "name": "第十六卷 英雄们的鼓动",
+      "order": 16,
+      "sourceRef": "raw:campione:ssg_card.worldbook.json:90"
+    },
+    {
+      "id": "第十七卷-英雄之名",
+      "name": "第十七卷 英雄之名",
+      "order": 17,
+      "sourceRef": "raw:campione:ssg_card.worldbook.json:91"
+    },
+    {
+      "id": "第十八卷-魔王们的断章",
+      "name": "第十八卷 魔王们的断章",
+      "order": 18,
+      "sourceRef": "raw:campione:ssg_card.worldbook.json:92"
+    },
+    {
+      "id": "第十九卷-魔王内战",
+      "name": "第十九卷 魔王内战",
+      "order": 19,
+      "sourceRef": "raw:campione:ssg_card.worldbook.json:93"
+    },
+    {
+      "id": "第二十卷-魔王内战2",
+      "name": "第二十卷 魔王内战2",
+      "order": 20,
+      "sourceRef": "raw:campione:ssg_card.worldbook.json:94"
+    },
+    {
+      "id": "第二十一卷-最后之战",
+      "name": "第二十一卷 最后之战",
+      "order": 21,
+      "sourceRef": "raw:campione:ssg_card.worldbook.json:95"
+    },
+    {
+      "id": "短篇-交错的时空契约",
+      "name": "短篇 交错的时空契约",
+      "order": 22,
+      "sourceRef": "raw:campione:ssg_card.worldbook.json:96"
+    },
+    {
+      "id": "ex-军神再临",
+      "name": "EX！军神再临",
+      "order": 23,
+      "sourceRef": "raw:campione:ssg_card.worldbook.json:97"
+    },
+    {
+      "id": "第一卷-特洛伊战争",
+      "name": "第一卷 特洛伊战争",
+      "order": 24,
+      "sourceRef": "raw:campione:ssg_card.worldbook.json:99"
+    },
+    {
+      "id": "第二卷-诸神黄昏之狼",
+      "name": "第二卷 诸神黄昏之狼",
+      "order": 25,
+      "sourceRef": "raw:campione:ssg_card.worldbook.json:100"
+    },
+    {
+      "id": "第三卷-黄泉比良坂",
+      "name": "第三卷 黄泉比良坂",
+      "order": 26,
+      "sourceRef": "raw:campione:ssg_card.worldbook.json:101"
+    },
+    {
+      "id": "第四卷-英雄界许柏尔柏瑞亚",
+      "name": "第四卷 英雄界许柏尔柏瑞亚",
+      "order": 27,
+      "sourceRef": "raw:campione:ssg_card.worldbook.json:102"
+    },
+    {
+      "id": "第五卷-启示录之时",
+      "name": "第五卷 启示录之时",
+      "order": 28,
+      "sourceRef": "raw:campione:ssg_card.worldbook.json:103"
+    },
+    {
+      "id": "第一卷-领域之王-神话终焉的序曲",
+      "name": "第一卷 领域之王：神话终焉的序曲",
+      "order": 29,
+      "sourceRef": "raw:campione:ssg_card.worldbook.json:104"
+    },
+    {
+      "id": "第二卷-八咫乌之觉醒与海王之誓",
+      "name": "第二卷 八咫乌之觉醒与海王之誓",
+      "order": 30,
+      "sourceRef": "raw:campione:ssg_card.worldbook.json:105"
+    },
+    {
+      "id": "第三卷-领域之王-跨越时空的再会与最后之王的试炼",
+      "name": "第三卷 领域之王：跨越时空的再会与最后之王的试炼",
+      "order": 31,
+      "sourceRef": "raw:campione:ssg_card.worldbook.json:106"
+    }
+  ],
+  "publicEvents": [
+    {
+      "id": "entry-核心概念-最后之王--the-last-king",
+      "name": "核心概念：最后之王 (The Last King)",
+      "summary": "- **定义**: “最后之王”并非特指某一位弑神者，而是一个【角色】与【宿命】。他是古代为了终结魔王横行的“末世”而诞生的英雄神，其真名为**罗摩 (Rama)**。在传承被曲解的现代，他被认为是“会引发末世”的王者，实际上他的苏醒是为了“终结末世”而开始旅行。 - **寻求者**: “神祖”桂妮薇儿毕生的唯一目的，便是在当代唤醒这位王者，成为她的“夫君”，并与她一同从历史的长河中解脱并隐退。 - **带来的灾厄**: “最后之王”的诞生过程，必然会引发一场席卷全球的巨大战争。所有不顺从之神都会为了阻止或参与这一历史的终结而现身，弑神者之间也将为了争夺这一最终的荣耀而展开厮杀。 - **救世神刀**: “最后之王”的半身，也是他最强的武器，是由天上众神所赐予的各式武器汇集而成的神剑，拥有诸多别名如“Excalibur”。",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:30",
+        "ssg_card.worldbook.json:entry 30"
+      ],
+      "sourceKeys": [
+        "最后之王",
+        "The Last King",
+        "神话终结",
+        "宿命",
+        "罗摩"
+      ]
+    },
+    {
+      "id": "entry-魔术关系者表--意大利",
+      "name": "魔术关系者表: 意大利",
+      "summary": "# 意大利阵营 - **艾莉卡·布兰德里**: 《赤铜黑十字》的大骑士，称号“深红恶魔”。 - **莉莉娅娜·葛兰尼查尔**: 《青铜黑十字》的大骑士，被称为“剑之妖精”。 - **璐克蕾琪雅·左拉**: 居住在萨丁岛的魔女，被称为“知晓神之人”。 - **保罗·布朗特里**: 《赤铜黑十字》的总帅，艾莉卡的叔父。 - **安德烈·里培拉**: 萨尔瓦托雷·东尼的挚友与管家，大骑士。 - **卡莲·扬科洛夫斯基**: 《青铜黑十字》的实习魔女，莉莉娅娜的亲信。 - **艾丽安娜·哈亚马·亚莉阿尔蒂**: 艾莉卡的专属女仆。",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:45",
+        "ssg_card.worldbook.json:entry 45"
+      ],
+      "sourceKeys": [
+        "意大利",
+        "赤铜黑十字",
+        "青铜黑十字",
+        "米兰"
+      ]
+    },
+    {
+      "id": "entry-魔术关系者表--古代",
+      "name": "魔术关系者表: 古代",
+      "summary": "# 古代阵营 (与古代弑神者乌尔丁相关) - **露丝卡**: 乌尔丁的第一位妻子，拥有高阶灵视与魔女术。 - **克洛蒂德**: 乌尔丁的第四任妻子，精通卢恩魔术与剑术的女战士，持有神具“黛利拉的剃刀”。",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:49",
+        "ssg_card.worldbook.json:entry 49"
+      ],
+      "sourceKeys": [
+        "古代",
+        "乌尔丁",
+        "露丝卡",
+        "克洛蒂德"
+      ]
+    },
+    {
+      "id": "entry-魔术关系者表--其他地区",
+      "name": "魔术关系者表: 其他地区",
+      "summary": "# 其他地区阵营 - **陆鹰化**: 罗濠教主的首席大弟子，香港的武术家。对师父绝对忠诚，武艺高强，但内心讨厌女性。",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:50",
+        "ssg_card.worldbook.json:entry 50"
+      ],
+      "sourceKeys": [
+        "其他地区",
+        "中国",
+        "五岳圣教",
+        "陆鹰化"
+      ]
+    },
+    {
+      "id": "entry-咒文言灵",
+      "name": "咒文言灵",
+      "summary": "- **各各他的言灵**: 艾莉卡的最强秘术，采自圣经诗篇，能大幅强化自身与“狮王之心”。言灵：“Eloi,Eloi,Lama Sabachthani！我的神！为什么离弃我！……” - **大卫的言灵**: 莉莉娅娜的秘术，采自圣经中大卫哀悼扫罗与约拿单的“弓之歌”，能召唤出神圣的弓与剑。言灵：“人民啊，倾听大卫的哀歌！英雄何竟仆倒！战具何竟灭没！……” - **圣绝的言灵 (神圣的歼灭特权)**: 赤铜与青铜黑十字共有的秘术，通过引用圣经中对敌人的歼灭战，为自身附加歼灭的特权，大幅强化战斗力。",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:54",
+        "ssg_card.worldbook.json:entry 54"
+      ],
+      "sourceKeys": [
+        "咒文",
+        "言灵",
+        "各各他",
+        "大卫",
+        "圣绝"
+      ]
+    },
+    {
+      "id": "entry--剧情章节",
+      "name": "<剧情章节>",
+      "summary": "<剧情章节> 第三卷 故事的開端 第十一卷 第二个故事 第一卷 不顺从之神 第二卷 魔王来临 第四卷 英雄与王 第五卷 剑之巫女 第六卷 神山飞凤 第七卷 齐天大圣 第八卷 受难的魔王们 第九卷 女神再临 第十卷 枪之战神 第十二卷 虚幻圣夜 第十三卷 南洋的姬神 第十四卷：第八位弑神者 第十五卷 女神之子 第十六卷 英雄们的鼓动 第十七卷 英雄之名 第十八卷 魔王们的断章 第十九卷 魔王内战 第二十卷 魔王内战2 第二十一卷 最后之战 短篇 交错的时空契约 EX！军神再临 第一卷 特洛伊战争 第二卷 诸神黄昏之狼 第三卷 黄泉比良坂 第四卷 英雄界许柏尔柏瑞亚 第五卷 启示录之时 第一卷 领域之王：神话终焉的序曲 第二卷 八咫乌之觉醒与海王之誓 第三卷 领域之王：跨越时空的再会与最后之王的试炼 </剧情章节>",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:116",
+        "ssg_card.worldbook.json:entry 116"
+      ],
+      "sourceKeys": [
+        "<剧情章节>"
+      ]
+    },
+    {
+      "id": "entry-7",
+      "name": "entry-7",
+      "summary": "",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:169",
+        "ssg_card.worldbook.json:entry 169"
+      ],
+      "sourceKeys": []
+    },
+    {
+      "id": "entry-8",
+      "name": "entry-8",
+      "summary": "",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:170",
+        "ssg_card.worldbook.json:entry 170"
+      ],
+      "sourceKeys": []
+    },
+    {
+      "id": "entry-9",
+      "name": "entry-9",
+      "summary": "",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:171",
+        "ssg_card.worldbook.json:entry 171"
+      ],
+      "sourceKeys": []
+    },
+    {
+      "id": "entry-變量列表",
+      "name": "變量列表",
+      "summary": "--- <status_current_variable> {{format_message_variable::stat_data}} </status_current_variable>",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:175",
+        "ssg_card.worldbook.json:entry 175"
+      ],
+      "sourceKeys": [
+        "變量列表"
+      ]
+    },
+    {
+      "id": "entry-标准输出格式定义",
+      "name": "标准输出格式定义",
+      "summary": "<output_structure_definition> instruction: 你的每一次回复都必须由<maintext>、<overall>、<UpdateVariable>和<StatusPlaceHolderImpl/>五个独立的、有序的模块构成,以实现叙事、状态、逻辑结算与数据更新的闭环。 module_breakdown: - module: <maintext> content: 核心叙事区块。包含动作交互、物理环境描写与心理活动。必须严格遵守当前章节的空间与时间锚点，禁止擅自跨越。 - module: <overall> content: |- 章节逻辑结算中心。 终止条件状态|${1.状态\\n2.状态\\n...} 判定理由|${基于当前叙事饱和度与目标达成度的逻辑分析} 判定结果|${继续当前章节/推进至下一章节} 当前章节名称|${来自剧情列表的激活名称} 下一章节名称|${来自剧情列表的预备名称} -…",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:183",
+        "ssg_card.worldbook.json:entry 183"
+      ],
+      "sourceKeys": [
+        "标准输出格式定义"
+      ]
+    },
+    {
+      "id": "entry-12",
+      "name": "entry-12",
+      "summary": "",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:186",
+        "ssg_card.worldbook.json:entry 186"
+      ],
+      "sourceKeys": []
+    }
+  ],
+  "hiddenEvents": [],
+  "rules": [
+    {
+      "id": "rule--system-章节导航",
+      "name": "System章节导航",
+      "summary": "--- <%_ /* 这里是你指定的绝对命运顺序。 系统会自动检索当前章节在数组中的位置，并抓取下一个。 */ const chapter_sequence = [ \"第三卷 故事的開端\", \"第十一卷 第二个故事\", \"第一卷 不顺从之神\", \"第二卷 魔王来临\", \"第四卷 英雄与王\", \"第五卷 剑之巫女\", \"第六卷 神山飞凤\", \"第七卷 齐天大圣\", \"第八卷 受难的魔王们\", \"第九卷 女神再临\", \"第十卷 枪之战神\", \"第十二卷 虚幻圣夜\", \"第十三卷 南洋的姬神\", \"第十四卷：第八位弑神者\", \"第十五卷 女神之子\", \"第十六卷 英雄们的鼓动\", \"第十七卷 英雄之名\", \"第十八卷 魔王们的断章\", \"第十九卷 魔王内战\", \"第二十卷 魔王内战2\", \"第二十一卷 最后之战\", \"短篇 交错的时空契约\", \"EX！军神再临\", \"第一卷 特洛伊战争\", \"第二卷 诸神黄昏之狼\", \"第三卷 黄泉…",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:166",
+        "ssg_card.worldbook.json:entry 166"
+      ],
+      "sourceKeys": [
+        "[System]章节导航"
+      ]
+    },
+    {
+      "id": "rule-好感度变化机制",
+      "name": "好感度变化机制",
+      "summary": "<好感度变化机制> 触发时机： 重要事件/场景结束时（如约会、任务、重要对话后）。 重大情节转折后（如拯救、背叛、深度共情）。 一段持续互动（如共同旅行、密集相处）结束后，依整体氛围评估。 变化幅度限制：每次触发更新，好感度增加或减少上限均为5。 好感度增减判定原则：综合考量事件性质、{{user}}意图、实际影响、情境、角色性格及当前好感度水平。 增加(+1至+5)： 轻微正面(+1~2):良好互动、顺利合作、礼物、日常约会、持续可靠。 中度正面(+2~3):关键帮助、深刻理解、共克挑战、契合角色价值观。 显著正面(+3~4):危机援手、满足愿望、情感深刻互动。 重大正面(+5):牺牲、共鸣、改变人生。 减少(-1至-5)： 轻微负面(-1):气氛不佳、轻微分歧失礼、持续忽略、累积不悦行为、侮辱嘲讽、使难堪、失信。 中度负面(-2):触及底线、负面互动总结、背叛或羞辱。 显著负面(-3):物理攻击、造成重大损失。 重大负面(…",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:182",
+        "ssg_card.worldbook.json:entry 182"
+      ],
+      "sourceKeys": []
+    },
+    {
+      "id": "rule-章节剧情处理系统",
+      "name": "章节剧情处理系统",
+      "summary": "<integrated_narrative_gatekeeper_system> narrative_logic_core: system_identity: 叙事状态机与时空锚点管理器 design_principle: 采用物理性锁死逻辑取代模糊意图感知，通过量化指标控制叙事流向 compatibility_standards: - 原创角色(OC)独立行动模式 - 原作主角背景推进模式 - 叙事偏离值动态修正 narrative_gate_protocol: gate_locking_mechanism: rule: 章节作为封闭容器，在未获得显性解锁指令前，时空锚点必须保持静止 condition_verification: - 核心事件达成度: 必须检测到[章节核心目标]中的所有子项均已完成 - 玩家交互饱和度: 必须确认玩家当前无后续提问或交互动作 - 信息完整度: 确认所有关键设定与线索已通过叙事正文成功传递 s…",
+      "sourceRefs": [
+        "raw:campione:ssg_card.worldbook.json:184",
+        "ssg_card.worldbook.json:entry 184"
+      ],
+      "sourceKeys": [
+        "章节剧情处理系统"
+      ]
+    }
+  ],
+  "extensions": {
+    "sourceWorldbooks": [
+      "ssg_card.worldbook.json"
+    ],
+    "generatedAt": "2026-07-02T13:21:16.860Z"
+  }
+}

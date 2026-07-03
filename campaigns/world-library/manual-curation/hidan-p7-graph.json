@@ -1,0 +1,70 @@
+{
+  "objective": "绯弹的亚里亚 Phase 7: 索引文件+世界文件+校验",
+  "authority": {
+    "allowFilesystemRead": true,
+    "allowMutationTools": true,
+    "allowShellTools": false,
+    "allowProjectCode": true
+  },
+  "library": {
+    "sources": [
+      "project"
+    ]
+  },
+  "limits": {
+    "concurrency": 2
+  },
+  "steps": [
+    {
+      "id": "p7-char-index",
+      "agent": {
+        "system": "角色索引构建员。从Phase 1的角色档案中提取结构化索引JSON。\n格式：\n{\n  \"characters\": [{\n    \"id\": \"c0\",\n    \"name\": \"远山金次\",\n    \"aliases\": [\"金次\",\"爆发模式\"],\n    \"type\": \"protagonist\",\n    \"volumes\": [\"vol-01\",\"vol-02\",...],\n    \"summary\": \"30-50字\"\n  }]\n}\n门禁：角色数≥144",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "读取 hidan-p1-output/ 所有c*.txt，将每个人的ID/姓名/别名/类型/登场卷号/摘要提取为JSON。\n输出：E:/pi-st/campaigns/world-library/worlds/hidan-no-aria/curated/characters-index.json",
+      "mutationScope": "E:/pi-st/campaigns/world-library/worlds/hidan-no-aria/curated/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "p7-world",
+      "agent": {
+        "system": "世界文件构建员。从Phase 1-6输出中构建完整world.json。\n参考格式：E:/pi-st/templates/rp-framework/world-template.json\n\n包含：\n- 基本信息（名称/描述/卷数）\n- 力量体系\n- 势力组织\n- 重要地点\n- 重要术语\n- 核心角色列表\n- 风格约束引用",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-p4-output/（世界观）、hidan-p1-output/（前几个角色档案）、hidan-p6-output/（图谱概要）。\n输出：E:/pi-st/campaigns/world-library/worlds/hidan-no-aria/curated/world.json",
+      "mutationScope": "E:/pi-st/campaigns/world-library/worlds/hidan-no-aria/curated/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "p7-validate",
+      "agent": {
+        "system": "校验员。验证所有输出文件是否符合门禁。\n检查清单：\n1. characters-index.json 角色数≥144\n2. world.json 非空且包含基本信息\n3. Phase 1-6的输出文件存在\n4. knowledge-graph.json 节点≥144\n5. relationship-graph.json 边≥288\n6. battle-log.json 战斗≥10\n7. style-constraints.md 行数≥100\n8. 时间轴条目≥49\n9. 世界观条目（力量≥5/地点≥5/势力≥3/术语≥5）\n\n输出校验报告。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "校验所有Phase 0-6的输出。\n参考目录：\n- hidan-p1-output/（角色档案）\n- hidan-p2-output/（事件）\n- hidan-p3-output/（时间轴）\n- hidan-p4-output/（世界观）\n- hidan-p6-output/（图谱）\n- hidan-no-aria/curated/（最终文件）\n\n输出：E:/pi-st/campaigns/world-library/worlds/hidan-no-aria/curated/validation-report.md",
+      "mutationScope": "E:/pi-st/campaigns/world-library/worlds/hidan-no-aria/curated/",
+      "cwd": "E:/pi-st"
+    }
+  ]
+}

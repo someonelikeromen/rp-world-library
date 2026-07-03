@@ -1,0 +1,444 @@
+{
+  "objective": "绯弹的亚里亚 Phase 0: 阅读全部49卷",
+  "authority": {
+    "allowFilesystemRead": true,
+    "allowMutationTools": true,
+    "allowShellTools": false,
+    "allowProjectCode": true
+  },
+  "library": {
+    "sources": [
+      "project"
+    ]
+  },
+  "limits": {
+    "concurrency": 4
+  },
+  "steps": [
+    {
+      "id": "h01",
+      "agent": {
+        "system": "绯弹的亚里亚精读员。阅读指定卷的full.txt，为每卷输出结构化笔记。\n\n每卷格式：\n---\nVOLUME: hidan-no-aria-main/vol-XX\nTITLE: \nSUMMARY: 200-400字事件摘要\nCHARS: 角色名*(角色类型)|角色名(角色类型)\n  * = 首次登场, 类型: main/support/cameo/mention\nLOCATIONS: 地点1|地点2\nTERMS: 术语1|术语2\nEVENTS: 事件/类型(catalyst/setup/conflict/revelation/climax/resolution)\n---\n\n读完所有卷后，单独输出角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main vol-01~02 每卷的full.txt。\n阅读笔记（含CHARS行）→E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/h01-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/hidan-charlist/h01-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "h02",
+      "agent": {
+        "system": "绯弹的亚里亚精读员。阅读指定卷的full.txt，为每卷输出结构化笔记。\n\n每卷格式：\n---\nVOLUME: hidan-no-aria-main/vol-XX\nTITLE: \nSUMMARY: 200-400字事件摘要\nCHARS: 角色名*(角色类型)|角色名(角色类型)\n  * = 首次登场, 类型: main/support/cameo/mention\nLOCATIONS: 地点1|地点2\nTERMS: 术语1|术语2\nEVENTS: 事件/类型(catalyst/setup/conflict/revelation/climax/resolution)\n---\n\n读完所有卷后，单独输出角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main vol-03~04 每卷的full.txt。\n阅读笔记（含CHARS行）→E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/h02-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/hidan-charlist/h02-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "h03",
+      "agent": {
+        "system": "绯弹的亚里亚精读员。阅读指定卷的full.txt，为每卷输出结构化笔记。\n\n每卷格式：\n---\nVOLUME: hidan-no-aria-main/vol-XX\nTITLE: \nSUMMARY: 200-400字事件摘要\nCHARS: 角色名*(角色类型)|角色名(角色类型)\n  * = 首次登场, 类型: main/support/cameo/mention\nLOCATIONS: 地点1|地点2\nTERMS: 术语1|术语2\nEVENTS: 事件/类型(catalyst/setup/conflict/revelation/climax/resolution)\n---\n\n读完所有卷后，单独输出角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main vol-05~06 每卷的full.txt。\n阅读笔记（含CHARS行）→E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/h03-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/hidan-charlist/h03-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "h04",
+      "agent": {
+        "system": "绯弹的亚里亚精读员。阅读指定卷的full.txt，为每卷输出结构化笔记。\n\n每卷格式：\n---\nVOLUME: hidan-no-aria-main/vol-XX\nTITLE: \nSUMMARY: 200-400字事件摘要\nCHARS: 角色名*(角色类型)|角色名(角色类型)\n  * = 首次登场, 类型: main/support/cameo/mention\nLOCATIONS: 地点1|地点2\nTERMS: 术语1|术语2\nEVENTS: 事件/类型(catalyst/setup/conflict/revelation/climax/resolution)\n---\n\n读完所有卷后，单独输出角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main vol-07~08 每卷的full.txt。\n阅读笔记（含CHARS行）→E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/h04-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/hidan-charlist/h04-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "h05",
+      "agent": {
+        "system": "绯弹的亚里亚精读员。阅读指定卷的full.txt，为每卷输出结构化笔记。\n\n每卷格式：\n---\nVOLUME: hidan-no-aria-main/vol-XX\nTITLE: \nSUMMARY: 200-400字事件摘要\nCHARS: 角色名*(角色类型)|角色名(角色类型)\n  * = 首次登场, 类型: main/support/cameo/mention\nLOCATIONS: 地点1|地点2\nTERMS: 术语1|术语2\nEVENTS: 事件/类型(catalyst/setup/conflict/revelation/climax/resolution)\n---\n\n读完所有卷后，单独输出角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main vol-09~10 每卷的full.txt。\n阅读笔记（含CHARS行）→E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/h05-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/hidan-charlist/h05-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "h06",
+      "agent": {
+        "system": "绯弹的亚里亚精读员。阅读指定卷的full.txt，为每卷输出结构化笔记。\n\n每卷格式：\n---\nVOLUME: hidan-no-aria-main/vol-XX\nTITLE: \nSUMMARY: 200-400字事件摘要\nCHARS: 角色名*(角色类型)|角色名(角色类型)\n  * = 首次登场, 类型: main/support/cameo/mention\nLOCATIONS: 地点1|地点2\nTERMS: 术语1|术语2\nEVENTS: 事件/类型(catalyst/setup/conflict/revelation/climax/resolution)\n---\n\n读完所有卷后，单独输出角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main vol-11~12 每卷的full.txt。\n阅读笔记（含CHARS行）→E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/h06-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/hidan-charlist/h06-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "h07",
+      "agent": {
+        "system": "绯弹的亚里亚精读员。阅读指定卷的full.txt，为每卷输出结构化笔记。\n\n每卷格式：\n---\nVOLUME: hidan-no-aria-main/vol-XX\nTITLE: \nSUMMARY: 200-400字事件摘要\nCHARS: 角色名*(角色类型)|角色名(角色类型)\n  * = 首次登场, 类型: main/support/cameo/mention\nLOCATIONS: 地点1|地点2\nTERMS: 术语1|术语2\nEVENTS: 事件/类型(catalyst/setup/conflict/revelation/climax/resolution)\n---\n\n读完所有卷后，单独输出角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main vol-13~14 每卷的full.txt。\n阅读笔记（含CHARS行）→E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/h07-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/hidan-charlist/h07-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "h08",
+      "agent": {
+        "system": "绯弹的亚里亚精读员。阅读指定卷的full.txt，为每卷输出结构化笔记。\n\n每卷格式：\n---\nVOLUME: hidan-no-aria-main/vol-XX\nTITLE: \nSUMMARY: 200-400字事件摘要\nCHARS: 角色名*(角色类型)|角色名(角色类型)\n  * = 首次登场, 类型: main/support/cameo/mention\nLOCATIONS: 地点1|地点2\nTERMS: 术语1|术语2\nEVENTS: 事件/类型(catalyst/setup/conflict/revelation/climax/resolution)\n---\n\n读完所有卷后，单独输出角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main vol-15~16 每卷的full.txt。\n阅读笔记（含CHARS行）→E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/h08-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/hidan-charlist/h08-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "h09",
+      "agent": {
+        "system": "绯弹的亚里亚精读员。阅读指定卷的full.txt，为每卷输出结构化笔记。\n\n每卷格式：\n---\nVOLUME: hidan-no-aria-main/vol-XX\nTITLE: \nSUMMARY: 200-400字事件摘要\nCHARS: 角色名*(角色类型)|角色名(角色类型)\n  * = 首次登场, 类型: main/support/cameo/mention\nLOCATIONS: 地点1|地点2\nTERMS: 术语1|术语2\nEVENTS: 事件/类型(catalyst/setup/conflict/revelation/climax/resolution)\n---\n\n读完所有卷后，单独输出角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main vol-17~18 每卷的full.txt。\n阅读笔记（含CHARS行）→E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/h09-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/hidan-charlist/h09-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "h10",
+      "agent": {
+        "system": "绯弹的亚里亚精读员。阅读指定卷的full.txt，为每卷输出结构化笔记。\n\n每卷格式：\n---\nVOLUME: hidan-no-aria-main/vol-XX\nTITLE: \nSUMMARY: 200-400字事件摘要\nCHARS: 角色名*(角色类型)|角色名(角色类型)\n  * = 首次登场, 类型: main/support/cameo/mention\nLOCATIONS: 地点1|地点2\nTERMS: 术语1|术语2\nEVENTS: 事件/类型(catalyst/setup/conflict/revelation/climax/resolution)\n---\n\n读完所有卷后，单独输出角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main vol-19~20 每卷的full.txt。\n阅读笔记（含CHARS行）→E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/h10-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/hidan-charlist/h10-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "h11",
+      "agent": {
+        "system": "绯弹的亚里亚精读员。阅读指定卷的full.txt，为每卷输出结构化笔记。\n\n每卷格式：\n---\nVOLUME: hidan-no-aria-main/vol-XX\nTITLE: \nSUMMARY: 200-400字事件摘要\nCHARS: 角色名*(角色类型)|角色名(角色类型)\n  * = 首次登场, 类型: main/support/cameo/mention\nLOCATIONS: 地点1|地点2\nTERMS: 术语1|术语2\nEVENTS: 事件/类型(catalyst/setup/conflict/revelation/climax/resolution)\n---\n\n读完所有卷后，单独输出角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main vol-21~22 每卷的full.txt。\n阅读笔记（含CHARS行）→E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/h11-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/hidan-charlist/h11-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "h12",
+      "agent": {
+        "system": "绯弹的亚里亚精读员。阅读指定卷的full.txt，为每卷输出结构化笔记。\n\n每卷格式：\n---\nVOLUME: hidan-no-aria-main/vol-XX\nTITLE: \nSUMMARY: 200-400字事件摘要\nCHARS: 角色名*(角色类型)|角色名(角色类型)\n  * = 首次登场, 类型: main/support/cameo/mention\nLOCATIONS: 地点1|地点2\nTERMS: 术语1|术语2\nEVENTS: 事件/类型(catalyst/setup/conflict/revelation/climax/resolution)\n---\n\n读完所有卷后，单独输出角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main vol-23~24 每卷的full.txt。\n阅读笔记（含CHARS行）→E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/h12-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/hidan-charlist/h12-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "h13",
+      "agent": {
+        "system": "绯弹的亚里亚精读员。阅读指定卷的full.txt，为每卷输出结构化笔记。\n\n每卷格式：\n---\nVOLUME: hidan-no-aria-main/vol-XX\nTITLE: \nSUMMARY: 200-400字事件摘要\nCHARS: 角色名*(角色类型)|角色名(角色类型)\n  * = 首次登场, 类型: main/support/cameo/mention\nLOCATIONS: 地点1|地点2\nTERMS: 术语1|术语2\nEVENTS: 事件/类型(catalyst/setup/conflict/revelation/climax/resolution)\n---\n\n读完所有卷后，单独输出角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main vol-25~26 每卷的full.txt。\n阅读笔记（含CHARS行）→E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/h13-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/hidan-charlist/h13-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "h14",
+      "agent": {
+        "system": "绯弹的亚里亚精读员。阅读指定卷的full.txt，为每卷输出结构化笔记。\n\n每卷格式：\n---\nVOLUME: hidan-no-aria-main/vol-XX\nTITLE: \nSUMMARY: 200-400字事件摘要\nCHARS: 角色名*(角色类型)|角色名(角色类型)\n  * = 首次登场, 类型: main/support/cameo/mention\nLOCATIONS: 地点1|地点2\nTERMS: 术语1|术语2\nEVENTS: 事件/类型(catalyst/setup/conflict/revelation/climax/resolution)\n---\n\n读完所有卷后，单独输出角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main vol-27~28 每卷的full.txt。\n阅读笔记（含CHARS行）→E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/h14-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/hidan-charlist/h14-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "h15",
+      "agent": {
+        "system": "绯弹的亚里亚精读员。阅读指定卷的full.txt，为每卷输出结构化笔记。\n\n每卷格式：\n---\nVOLUME: hidan-no-aria-main/vol-XX\nTITLE: \nSUMMARY: 200-400字事件摘要\nCHARS: 角色名*(角色类型)|角色名(角色类型)\n  * = 首次登场, 类型: main/support/cameo/mention\nLOCATIONS: 地点1|地点2\nTERMS: 术语1|术语2\nEVENTS: 事件/类型(catalyst/setup/conflict/revelation/climax/resolution)\n---\n\n读完所有卷后，单独输出角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main vol-29~30 每卷的full.txt。\n阅读笔记（含CHARS行）→E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/h15-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/hidan-charlist/h15-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "h16",
+      "agent": {
+        "system": "绯弹的亚里亚精读员。阅读指定卷的full.txt，为每卷输出结构化笔记。\n\n每卷格式：\n---\nVOLUME: hidan-no-aria-main/vol-XX\nTITLE: \nSUMMARY: 200-400字事件摘要\nCHARS: 角色名*(角色类型)|角色名(角色类型)\n  * = 首次登场, 类型: main/support/cameo/mention\nLOCATIONS: 地点1|地点2\nTERMS: 术语1|术语2\nEVENTS: 事件/类型(catalyst/setup/conflict/revelation/climax/resolution)\n---\n\n读完所有卷后，单独输出角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main vol-31~32 每卷的full.txt。\n阅读笔记（含CHARS行）→E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/h16-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/hidan-charlist/h16-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "h17",
+      "agent": {
+        "system": "绯弹的亚里亚精读员。阅读指定卷的full.txt，为每卷输出结构化笔记。\n\n每卷格式：\n---\nVOLUME: hidan-no-aria-main/vol-XX\nTITLE: \nSUMMARY: 200-400字事件摘要\nCHARS: 角色名*(角色类型)|角色名(角色类型)\n  * = 首次登场, 类型: main/support/cameo/mention\nLOCATIONS: 地点1|地点2\nTERMS: 术语1|术语2\nEVENTS: 事件/类型(catalyst/setup/conflict/revelation/climax/resolution)\n---\n\n读完所有卷后，单独输出角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main vol-33~34 每卷的full.txt。\n阅读笔记（含CHARS行）→E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/h17-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/hidan-charlist/h17-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "h18",
+      "agent": {
+        "system": "绯弹的亚里亚精读员。阅读指定卷的full.txt，为每卷输出结构化笔记。\n\n每卷格式：\n---\nVOLUME: hidan-no-aria-main/vol-XX\nTITLE: \nSUMMARY: 200-400字事件摘要\nCHARS: 角色名*(角色类型)|角色名(角色类型)\n  * = 首次登场, 类型: main/support/cameo/mention\nLOCATIONS: 地点1|地点2\nTERMS: 术语1|术语2\nEVENTS: 事件/类型(catalyst/setup/conflict/revelation/climax/resolution)\n---\n\n读完所有卷后，单独输出角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main vol-35~36 每卷的full.txt。\n阅读笔记（含CHARS行）→E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/h18-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/hidan-charlist/h18-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "h19",
+      "agent": {
+        "system": "绯弹的亚里亚精读员。阅读指定卷的full.txt，为每卷输出结构化笔记。\n\n每卷格式：\n---\nVOLUME: hidan-no-aria-main/vol-XX\nTITLE: \nSUMMARY: 200-400字事件摘要\nCHARS: 角色名*(角色类型)|角色名(角色类型)\n  * = 首次登场, 类型: main/support/cameo/mention\nLOCATIONS: 地点1|地点2\nTERMS: 术语1|术语2\nEVENTS: 事件/类型(catalyst/setup/conflict/revelation/climax/resolution)\n---\n\n读完所有卷后，单独输出角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main vol-37~38 每卷的full.txt。\n阅读笔记（含CHARS行）→E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/h19-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/hidan-charlist/h19-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "h20",
+      "agent": {
+        "system": "绯弹的亚里亚精读员。阅读指定卷的full.txt，为每卷输出结构化笔记。\n\n每卷格式：\n---\nVOLUME: hidan-no-aria-main/vol-XX\nTITLE: \nSUMMARY: 200-400字事件摘要\nCHARS: 角色名*(角色类型)|角色名(角色类型)\n  * = 首次登场, 类型: main/support/cameo/mention\nLOCATIONS: 地点1|地点2\nTERMS: 术语1|术语2\nEVENTS: 事件/类型(catalyst/setup/conflict/revelation/climax/resolution)\n---\n\n读完所有卷后，单独输出角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main vol-39~40 每卷的full.txt。\n阅读笔记→E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/h20-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/hidan-charlist/h20-chars.txt\n\n注意：AA外传的路径是 hidan-no-aria-aa/vol-XX/full.txt 不是 hidan-no-aria-main/",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "h21",
+      "agent": {
+        "system": "绯弹的亚里亚精读员。阅读指定卷的full.txt，为每卷输出结构化笔记。\n\n每卷格式：\n---\nVOLUME: hidan-no-aria-main/vol-XX\nTITLE: \nSUMMARY: 200-400字事件摘要\nCHARS: 角色名*(角色类型)|角色名(角色类型)\n  * = 首次登场, 类型: main/support/cameo/mention\nLOCATIONS: 地点1|地点2\nTERMS: 术语1|术语2\nEVENTS: 事件/类型(catalyst/setup/conflict/revelation/climax/resolution)\n---\n\n读完所有卷后，单独输出角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main vol-41~42 每卷的full.txt。\n阅读笔记→E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/h21-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/hidan-charlist/h21-chars.txt\n\n注意：AA外传的路径是 hidan-no-aria-aa/vol-XX/full.txt 不是 hidan-no-aria-main/",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "h22",
+      "agent": {
+        "system": "绯弹的亚里亚精读员。阅读指定卷的full.txt，为每卷输出结构化笔记。\n\n每卷格式：\n---\nVOLUME: hidan-no-aria-main/vol-XX\nTITLE: \nSUMMARY: 200-400字事件摘要\nCHARS: 角色名*(角色类型)|角色名(角色类型)\n  * = 首次登场, 类型: main/support/cameo/mention\nLOCATIONS: 地点1|地点2\nTERMS: 术语1|术语2\nEVENTS: 事件/类型(catalyst/setup/conflict/revelation/climax/resolution)\n---\n\n读完所有卷后，单独输出角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main vol-43~44 每卷的full.txt。\n阅读笔记→E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/h22-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/hidan-charlist/h22-chars.txt\n\n注意：AA外传的路径是 hidan-no-aria-aa/vol-XX/full.txt 不是 hidan-no-aria-main/",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "h23",
+      "agent": {
+        "system": "绯弹的亚里亚精读员。阅读指定卷的full.txt，为每卷输出结构化笔记。\n\n每卷格式：\n---\nVOLUME: hidan-no-aria-main/vol-XX\nTITLE: \nSUMMARY: 200-400字事件摘要\nCHARS: 角色名*(角色类型)|角色名(角色类型)\n  * = 首次登场, 类型: main/support/cameo/mention\nLOCATIONS: 地点1|地点2\nTERMS: 术语1|术语2\nEVENTS: 事件/类型(catalyst/setup/conflict/revelation/climax/resolution)\n---\n\n读完所有卷后，单独输出角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-main vol-45 每卷的full.txt。\n阅读笔记→E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/h23-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/hidan-charlist/h23-chars.txt\n\n注意：AA外传的路径是 hidan-no-aria-aa/vol-XX/full.txt 不是 hidan-no-aria-main/",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "h24",
+      "agent": {
+        "system": "绯弹的亚里亚AA精读员。阅读指定卷的full.txt。格式同正传。注意这是AA外传。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-aa vol-01~02。\n阅读笔记→E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/h24-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/hidan-charlist/h24-chars.txt\n\n注意：AA外传的路径是 hidan-no-aria-aa/vol-XX/full.txt 不是 hidan-no-aria-main/",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "h25",
+      "agent": {
+        "system": "绯弹的亚里亚AA精读员。阅读指定卷的full.txt。格式同正传。注意这是AA外传。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 hidan-no-aria-aa vol-03~04。\n阅读笔记→E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/h25-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/hidan-charlist/h25-chars.txt\n\n注意：AA外传的路径是 hidan-no-aria-aa/vol-XX/full.txt 不是 hidan-no-aria-main/",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/hidan-p0/",
+      "cwd": "E:/pi-st"
+    }
+  ]
+}

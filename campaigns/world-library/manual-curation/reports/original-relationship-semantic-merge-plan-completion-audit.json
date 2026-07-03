@@ -1,0 +1,65 @@
+{
+  "createdAt": "2026-07-01T15:41:37.593Z",
+  "jsonFilesChecked": 385,
+  "badJson": [],
+  "runtimeIssues": [],
+  "sectionCounts": {
+    "statusMain": 1,
+    "indexMain": 1,
+    "statusRelationship": 1,
+    "indexRelationship": 1
+  },
+  "totals": {
+    "draftEdges": 115,
+    "formalGraphWorlds": 2,
+    "byDecision": {
+      "no-formal-graph-create-or-curate-first": 41,
+      "possible-existing-formal-edge-review-duplicate": 65,
+      "candidate-new-edge-needs-human-confirmation": 7,
+      "needs-node-mapping-before-merge": 2
+    }
+  },
+  "reports": [
+    {
+      "world": "campione",
+      "formalGraph": false,
+      "draftEdges": 12,
+      "byDecision": {
+        "no-formal-graph-create-or-curate-first": 12
+      }
+    },
+    {
+      "world": "danmachi",
+      "formalGraph": true,
+      "draftEdges": 65,
+      "byDecision": {
+        "possible-existing-formal-edge-review-duplicate": 65
+      }
+    },
+    {
+      "world": "hidan-no-aria",
+      "formalGraph": true,
+      "draftEdges": 9,
+      "byDecision": {
+        "candidate-new-edge-needs-human-confirmation": 7,
+        "needs-node-mapping-before-merge": 2
+      }
+    },
+    {
+      "world": "rakudai-kishi",
+      "formalGraph": false,
+      "draftEdges": 14,
+      "byDecision": {
+        "no-formal-graph-create-or-curate-first": 14
+      }
+    },
+    {
+      "world": "saijaku-muhai-bahamut",
+      "formalGraph": false,
+      "draftEdges": 15,
+      "byDecision": {
+        "no-formal-graph-create-or-curate-first": 15
+      }
+    }
+  ]
+}

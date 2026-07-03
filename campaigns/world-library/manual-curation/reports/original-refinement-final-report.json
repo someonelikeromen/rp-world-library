@@ -1,0 +1,185 @@
+{
+  "createdAt": "2026-07-01T16:15:37.213Z",
+  "reports": [
+    {
+      "world": "campione",
+      "series": 2,
+      "volumes": 26,
+      "chapterEvents": 233,
+      "entities": 34,
+      "relationshipCandidates": 453,
+      "searchEntries": 748,
+      "searchKeywords": 308,
+      "timelineLanes": 2,
+      "timelineEntries": 233,
+      "timelineNextEdges": 231,
+      "graphNodes": 293,
+      "graphEdges": 1174,
+      "issues": [],
+      "provenanceFiles": 276,
+      "sourceFiles": 233,
+      "sourceBytes": 8925065,
+      "safetyIssues": 0,
+      "safetySummariesChecked": 26
+    },
+    {
+      "world": "danmachi",
+      "series": 5,
+      "volumes": 55,
+      "chapterEvents": 681,
+      "entities": 77,
+      "relationshipCandidates": 1111,
+      "searchEntries": 1929,
+      "searchKeywords": 804,
+      "timelineLanes": 5,
+      "timelineEntries": 681,
+      "timelineNextEdges": 676,
+      "graphNodes": 1391,
+      "graphEdges": 5036,
+      "issues": [],
+      "provenanceFiles": 764,
+      "sourceFiles": 681,
+      "sourceBytes": 21926392,
+      "safetyIssues": 0,
+      "safetySummariesChecked": 55
+    },
+    {
+      "world": "hidan-no-aria",
+      "series": 1,
+      "volumes": 4,
+      "chapterEvents": 50,
+      "entities": 23,
+      "relationshipCandidates": 223,
+      "searchEntries": 301,
+      "searchKeywords": 106,
+      "timelineLanes": 1,
+      "timelineEntries": 50,
+      "timelineNextEdges": 49,
+      "graphNodes": 145,
+      "graphEdges": 533,
+      "issues": [],
+      "provenanceFiles": 68,
+      "sourceFiles": 50,
+      "sourceBytes": 1012643,
+      "safetyIssues": 0,
+      "safetySummariesChecked": 4
+    },
+    {
+      "world": "rakudai-kishi",
+      "series": 1,
+      "volumes": 21,
+      "chapterEvents": 130,
+      "entities": 26,
+      "relationshipCandidates": 325,
+      "searchEntries": 503,
+      "searchKeywords": 212,
+      "timelineLanes": 1,
+      "timelineEntries": 130,
+      "timelineNextEdges": 129,
+      "graphNodes": 177,
+      "graphEdges": 733,
+      "issues": [],
+      "provenanceFiles": 165,
+      "sourceFiles": 130,
+      "sourceBytes": 5713778,
+      "safetyIssues": 0,
+      "safetySummariesChecked": 21
+    },
+    {
+      "world": "saijaku-muhai-bahamut",
+      "series": 1,
+      "volumes": 21,
+      "chapterEvents": 173,
+      "entities": 23,
+      "relationshipCandidates": 246,
+      "searchEntries": 464,
+      "searchKeywords": 248,
+      "timelineLanes": 1,
+      "timelineEntries": 173,
+      "timelineNextEdges": 172,
+      "graphNodes": 217,
+      "graphEdges": 783,
+      "issues": [],
+      "provenanceFiles": 208,
+      "sourceFiles": 173,
+      "sourceBytes": 6615709,
+      "safetyIssues": 0,
+      "safetySummariesChecked": 21
+    }
+  ],
+  "validation": {
+    "filesChecked": 395,
+    "bad": []
+  },
+  "totals": {
+    "series": 10,
+    "volumes": 127,
+    "chapterEvents": 1267,
+    "entities": 183,
+    "relationships": 2358,
+    "searchEntries": 3945,
+    "searchKeywords": 1678,
+    "timelineLanes": 10,
+    "timelineEntries": 1267,
+    "provenanceFiles": 1481,
+    "sourceFiles": 1267,
+    "sourceBytes": 44193587,
+    "safetyIssues": 0,
+    "safetySummariesChecked": 127,
+    "graphNodes": 2223,
+    "graphEdges": 8259
+  },
+  "completion": {
+    "badJson": 0,
+    "issues": 0,
+    "safetyIssues": 0
+  },
+  "relationshipReview": {
+    "candidates": 2358,
+    "priority": 240,
+    "anchors": 465,
+    "searchSignals": 379
+  },
+  "relationshipReviewPackets": {
+    "packets": 750,
+    "byStatus": {
+      "ready-for-human-semantic-review": 240,
+      "context-anchor-review": 347,
+      "search-signal-only": 123,
+      "review-with-limited-evidence": 40
+    }
+  },
+  "relationshipReviewWorklist": {
+    "packets": 750,
+    "eligible": 240,
+    "batches": 13,
+    "deferred": 510
+  },
+  "relationshipSemanticHints": {
+    "hints": 240,
+    "byConfidence": {
+      "hint-rich": 115,
+      "direct-cooccurrence-only": 83,
+      "weak": 42
+    }
+  },
+  "relationshipSemanticDraft": {
+    "nodes": 56,
+    "edges": 115
+  },
+  "relationshipSemanticMergePlan": {
+    "draftEdges": 115,
+    "formalGraphWorlds": 2,
+    "byDecision": {
+      "no-formal-graph-create-or-curate-first": 41,
+      "possible-existing-formal-edge-review-duplicate": 65,
+      "candidate-new-edge-needs-human-confirmation": 7,
+      "needs-node-mapping-before-merge": 2
+    }
+  },
+  "originalRelationshipGraph": {
+    "nodes": 75,
+    "edges": 115,
+    "formalGraphWorlds": 2
+  }
+}
