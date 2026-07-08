@@ -81,6 +81,18 @@ function rawDir(slug: string): string {
 	return join(IMPORTS_DIR, slug, "worldbooks");
 }
 
+function extractedDir(slug: string): string {
+	return join(WORLDS_DIR, slug, "extracted");
+}
+
+function extractedEntityFile(slug: string, type: string, id: string): string {
+	return join(WORLDS_DIR, slug, "extracted", type, id + ".json");
+}
+
+function safeReaddir(dir: string): string[] {
+	try { return readdirSync(dir); } catch { return []; }
+}
+
 function norm(s: unknown): string {
 	return String(s ?? "").toLowerCase();
 }
@@ -226,6 +238,10 @@ function overview(params: any, maxBytes: number): ToolResult {
 			stories: storyIds,
 			sources: sources?.sources?.length,
 			characters: w.characters?.count,
+			extracted: safeReaddir(extractedDir(slug)).filter(f => f !== "README.md" && f !== "tools" && f !== "graph-viewer.html").map(t => {
+				const cnt = (() => { try { return readdirSync(join(extractedDir(slug), t)).filter(f => f.endsWith(".json")).length; } catch { return 0; } })();
+				return { type: t, count: cnt };
+			}).filter(e => e.count > 0),
 		},
 		next: [
 			`world_query { action: "search", world: "${slug}", query: "关键词" }`,
@@ -308,6 +324,48 @@ function searchCurated(slug: string, query: string, category: QueryCategory, lim
 	return results;
 }
 
+function searchExtracted(slug: string, query: string, category: QueryCategory, limit: number): any[] {
+	const q = norm(query);
+	const edir = extractedDir(slug);
+	if (!existsSync(edir)) return [];
+	const results: any[] = [];
+	const types = category === "all"
+		? ["characters", "abilities", "events", "items", "locations", "factions", "systems", "knowledge"]
+		: category === "character" ? ["characters"]
+		: category === "world" ? ["locations", "factions", "systems", "knowledge"]
+		: [];
+	for (const type of types) {
+		const dir = join(edir, type);
+		if (!existsSync(dir)) continue;
+		for (const fn of readdirSync(dir).sort()) {
+			if (!fn.endsWith(".json")) continue;
+			const data = safeJson(join(dir, fn));
+			if (!data) continue;
+			const id = data[type === "characters" ? "character_id" : type === "abilities" ? "ability_id" : type === "events" ? "event_id" : type === "items" ? "item_id" : type === "locations" ? "location_id" : type === "factions" ? "faction_id" : type === "systems" ? "system_id" : "knowledge_id"] || fn.replace(".json", "");
+			const p0 = (data.periods || [])[0] || {};
+			const zhName = typeof p0.name === "object" ? p0.name?.zh || "" : p0.name || "";
+			const enName = typeof p0.name === "object" ? p0.name?.en || "" : "";
+			const aliases = p0.aliases || data.aliases || [];
+			const hay = [id, zhName, enName, ...aliases, type, p0.summary || "", p0.description || ""].join("\n");
+			if (includesQuery(hay, q)) {
+				results.push({
+					type: "extracted",
+					entityType: type,
+					ref: "entity:" + slug + ":" + type + ":" + id,
+					id,
+					name: zhName || enName || id,
+					summary: (p0.summary || "").substring(0, 320),
+					aliases,
+					volume: p0.volume || data.volume || "",
+					sourceRefs: data.source_refs || p0.sourceRef ? [p0.sourceRef] : [],
+				});
+				if (results.length >= limit) return results;
+			}
+		}
+	}
+	return results;
+}
+
 function searchRaw(slug: string, query: string, limit: number): any[] {
 	const q = norm(query);
 	const dir = rawDir(slug);
@@ -338,7 +396,13 @@ function search(params: any, maxBytes: number): ToolResult {
 	const category = (params.category || "all") as QueryCategory;
 	const limit = capLimit(params.limit);
 	let results: any[] = [];
-	if (w.status === "curated" && category !== "raw") results = searchCurated(slug, query, category, limit);
+	// Priority 1: extracted entities
+	if (w.status === "curated" && category !== "raw") results = searchExtracted(slug, query, category, limit);
+	// Priority 2: curated data
+	if (results.length < limit && w.status === "curated" && category !== "raw") {
+		results.push(...searchCurated(slug, query, category, limit - results.length));
+	}
+	// Priority 3: raw worldbook entries
 	if ((w.status === "raw" || category === "raw" || (category === "all" && results.length < Math.min(5, limit))) && results.length < limit) {
 		results.push(...searchRaw(slug, query, limit - results.length));
 	}
@@ -404,6 +468,15 @@ function getRef(params: any, maxBytes: number): ToolResult {
 		const src = (sr?.sources || []).find((s: any) => String(s.id) === id);
 		if (!src) return errorResult(`Source not found: ${ref}`, maxBytes);
 		return textResult({ ok: true, type: "source", ref, source: src }, { ok: true, action: "get", ref }, maxBytes);
+	}
+	if (kind === "entity") {
+		const entityType = parts[2]; // characters, abilities, etc.
+		const entityId = parts.slice(3).join(":");
+		const fp = extractedEntityFile(slug, entityType, entityId);
+		if (!existsSync(fp)) return errorResult(`Entity not found: ${ref}`, maxBytes);
+		const data = safeJson(fp);
+		if (!data) return errorResult(`Failed to read entity: ${ref}`, maxBytes);
+		return textResult({ ok: true, type: "extracted", ref, entityType, entity: data }, { ok: true, action: "get", ref, path: fp.replace(ROOT, "").replace(/\\/g, "/") }, maxBytes);
 	}
 	if (kind === "raw") {
 		const fn = decodeURIComponent(parts[2] || "");
@@ -512,38 +585,50 @@ function aggregateResults(params: any, maxBytes: number): ToolResult {
 	const w = worldInfo(slug);
 	if (!w) return errorResult(`World not found: ${slug}`, maxBytes);
 
-	// Phase 1: search all categories
-	const charResults = searchCurated(slug, query, "character", 30);
-	const worldResults = searchCurated(slug, query, "world", 20);
-	const storyResults = searchCurated(slug, query, "story", 20);
-	const ruleResults = searchCurated(slug, query, "rule", 10);
-	const rawResults = searchRaw(slug, query, 20);
+	const limit = capLimit(params.limit || 20);
+	let results: any[] = [];
 
-	const allRefs = [...charResults, ...worldResults, ...storyResults, ...ruleResults, ...rawResults];
-	if (allRefs.length === 0) return textResult({ ok: true, query, world: slug, entityCount: 0, entities: [], message: "No results found across all categories" }, { ok: true, action: "aggregate", world: slug, query }, maxBytes);
+	// Phase 1: extracted entities first (richest data)
+	results.push(...searchExtracted(slug, query, "all", limit));
+	// Phase 2: curated fallback
+	if (results.length < limit) {
+		results.push(...searchCurated(slug, query, "all", limit - results.length));
+	}
+	// Phase 3: raw fallback
+	if (results.length < limit) {
+		results.push(...searchRaw(slug, query, limit - results.length));
+	}
 
-	// Phase 2: resolve each ref to full-ish content
-	const resolved = allRefs.map(r => {
+	if (results.length === 0) return textResult({ ok: true, query, world: slug, entityCount: 0, entities: [], message: "No results found" }, { ok: true, action: "aggregate", world: slug, query }, maxBytes);
+
+	// Phase 4: load full entity data for extracted refs
+	const loaded = results.map(r => {
+		if (r.type === "extracted") {
+			const fp = extractedEntityFile(slug, r.entityType, r.id);
+			const data = safeJson(fp);
+			return { ...r, entity: data };
+		}
+		// resolve curated refs
 		try {
-			const g = getRef({ ref: r.ref, maxBytes: Math.floor(maxBytes / Math.max(allRefs.length, 1)) }, maxBytes);
+			const g = getRef({ ref: r.ref, maxBytes: Math.floor(maxBytes / Math.max(results.length, 1)) }, maxBytes);
 			const text = g.content?.[0]?.text || "";
 			const payload = text.startsWith("{") ? JSON.parse(text) : { text };
 			return { ...r, resolved: payload };
 		} catch { return { ...r, resolved: { error: "failed to resolve" } }; }
 	});
 
-	// Phase 3: cluster by entity name overlap
+	// Phase 5: cluster by entity name overlap
 	const clusters: Array<{ name: string; refs: any[] }> = [];
 	const clustered = new Set<number>();
-	for (let i = 0; i < resolved.length; i++) {
+	for (let i = 0; i < loaded.length; i++) {
 		if (clustered.has(i)) continue;
-		const cluster: any[] = [resolved[i]];
-		const name = resolved[i].name || resolved[i].id || `result-${i}`;
-		for (let j = i + 1; j < resolved.length; j++) {
+		const cluster: any[] = [loaded[i]];
+		const name = loaded[i].name || loaded[i].id || `result-${i}`;
+		for (let j = i + 1; j < loaded.length; j++) {
 			if (clustered.has(j)) continue;
-			const otherName = resolved[j].name || resolved[j].id || "";
+			const otherName = loaded[j].name || loaded[j].id || "";
 			if (overlapScore(name, otherName) > 0.5) {
-				cluster.push(resolved[j]);
+				cluster.push(loaded[j]);
 				clustered.add(j);
 			}
 		}
@@ -551,55 +636,92 @@ function aggregateResults(params: any, maxBytes: number): ToolResult {
 		clustered.add(i);
 	}
 
-	// Phase 4: build output — per entity, group by category
+	// Phase 6: for each cluster, also load graph relationships if available
 	const entities = clusters.map(c => {
-		const characters = c.refs.filter(r => r.type === "character").map(r => ({ ref: r.ref, id: r.id, name: r.name, summary: r.summary, importance: r.importance, detail: r.resolved?.character || r.resolved }));
-		const worldSections = c.refs.filter(r => r.type === "world").map(r => ({ ref: r.ref, section: r.section, id: r.id, name: r.name, detail: r.resolved }));
-		const stories = c.refs.filter(r => r.type === "story").map(r => ({ ref: r.ref, storyId: r.storyId, chapterId: r.chapterId, name: r.name, summary: r.summary }));
-		const rules = c.refs.filter(r => r.type === "rule").map(r => ({ ref: r.ref, file: r.file, preview: r.preview }));
-		const raw = c.refs.filter(r => r.type === "raw").map(r => ({ ref: r.ref, file: r.file, preview: r.preview }));
-		return { name: c.name, characters, worldSections, stories, rules, raw, totalRefs: c.refs.length };
+		const entityId = c.refs.find(r => r.id)?.id || c.name;
+		const graphFile = join(extractedDir(slug), "graph", "char-relations.json");
+		const completeGraphFile = join(extractedDir(slug), "graph", "complete-graph.json");
+		let relations: any[] = [];
+		let graphInfo: any = {};
+		// Check char-relations for this entity
+		const charRelData = safeJson(graphFile);
+		if (charRelData?.relationships) {
+			relations = charRelData.relationships
+				.filter((r: any) => r.source === entityId || r.target === entityId)
+				.slice(0, 20);
+		}
+		// Check complete graph for this entity
+		const compData = safeJson(completeGraphFile);
+		if (compData?.nodes && compData?.edges) {
+			const node = compData.nodes.find((n: any) => n.id === entityId);
+			const nodeEdges = compData.edges.filter((e: any) => e.source === entityId || e.target === entityId).slice(0, 30);
+			graphInfo = { node: node || null, edges: nodeEdges };
+		}
+		const extracted = c.refs.filter(r => r.type === "extracted").map(r => ({
+			ref: r.ref, id: r.id, name: r.name, entityType: r.entityType, entity: r.entity
+		}));
+		const curated = c.refs.filter(r => r.type !== "extracted").map(r => ({
+			ref: r.ref, type: r.type, id: r.id, name: r.name, summary: r.summary, detail: r.resolved
+		}));
+		return { name: c.name, entityId, extracted, curated, relations: relations.length > 0 ? relations : undefined, graph: graphInfo.edges?.length > 0 ? graphInfo : undefined, totalRefs: c.refs.length };
 	});
 
-	return textResult({ ok: true, query, world: slug, entityCount: entities.length, entities }, { ok: true, action: "aggregate", world: slug, query, entityCount: entities.length }, maxBytes);
+	return textResult({ ok: true, query, world: slug, entityCount: entities.length, entities, graphAvailable: entities.some(e => e.graph) }, { ok: true, action: "aggregate", world: slug, query, entityCount: entities.length }, maxBytes);
 }
 
 // ─── graph: relation traversal from a character ───
 function graphTraversal(params: any, maxBytes: number): ToolResult {
 	const entityRef = params.entityRef || params.ref;
-	if (!entityRef) return errorResult("action=graph requires entityRef or ref (character ref)", maxBytes);
+	if (!entityRef) return errorResult("action=graph requires entityRef or ref", maxBytes);
 
 	const parts = entityRef.split(":");
-	if (parts[0] !== "char") return errorResult("graph requires a char: ref", maxBytes);
+	const kind = parts[0];
 	const slug = parts[1];
-	const charId = parts.slice(2).join(":");
+	if (!kind || !slug) return errorResult(`Invalid ref: ${entityRef}`, maxBytes);
 
 	const w = worldInfo(slug);
-	if (!w || w.status !== "curated") return errorResult(`No curated data for world: ${slug}`, maxBytes);
+	if (!w) return errorResult(`World not found: ${slug}`, maxBytes);
 
-	const ch = findCharacter(slug, charId);
-	if (!ch) return errorResult(`Character not found: ${entityRef}`, maxBytes);
+	let charId = "";
+	let entityData: any = null;
+	let charData: any = null;
+
+	if (kind === "entity") {
+		charId = parts.slice(3).join(":");
+		const fp = extractedEntityFile(slug, parts[2], charId);
+		entityData = safeJson(fp);
+	} else if (kind === "char") {
+		charId = parts.slice(2).join(":");
+		const fp = extractedEntityFile(slug, "characters", charId);
+		entityData = safeJson(fp);
+		charData = findCharacter(slug, charId);
+	}
+
+	if (!entityData && !charData) return errorResult(`Not found: ${entityRef}`, maxBytes);
 
 	const chars = safeJson(join(curatedDir(slug), "characters-index.json"));
 	const allCharacters = chars?.characters || [];
 	const wj = safeJson(join(curatedDir(slug), "world.json")) || {};
 
-	// collect related by faction
+	// factions, powerSystems, factionDetails, storyAppearances (curated fallback)
+	const chars = safeJson(join(curatedDir(slug), "characters-index.json"));
+	const allCharacters = chars?.characters || [];
+	const wj = safeJson(join(curatedDir(slug), "world.json")) || {};
+
 	const sameFaction: any[] = [];
-	for (const f of ch.factions || []) {
-		const members = allCharacters.filter((c: any) => c.id !== ch.id && (c.factions || []).includes(f));
-		for (const m of members) sameFaction.push({ faction: f, character: { ref: `char:${slug}:${m.id}`, id: m.id, name: m.name, summary: m.summary, importance: m.importance } });
-	}
-
-	// collect related by power system
 	const samePower: any[] = [];
-	for (const ps of ch.powerSystems || []) {
-		const users = allCharacters.filter((c: any) => c.id !== ch.id && (c.powerSystems || []).includes(ps));
-		for (const u of users) samePower.push({ powerSystem: ps, character: { ref: `char:${slug}:${u.id}`, id: u.id, name: u.name, summary: u.summary, importance: u.importance } });
+	if (charData) {
+		for (const f of charData.factions || []) {
+			const members = allCharacters.filter((c: any) => c.id !== charId && (c.factions || []).includes(f));
+			for (const m of members) sameFaction.push({ faction: f, character: { ref: `char:${slug}:${m.id}`, id: m.id, name: m.name, summary: m.summary, importance: m.importance } });
+		}
+		for (const ps of charData.powerSystems || []) {
+			const users = allCharacters.filter((c: any) => c.id !== charId && (c.powerSystems || []).includes(ps));
+			for (const u of users) samePower.push({ powerSystem: ps, character: { ref: `char:${slug}:${u.id}`, id: u.id, name: u.name, summary: u.summary, importance: u.importance } });
+		}
 	}
 
-	// resolve faction details from world.json
-	const factionDetails = (ch.factions || []).map((fn: string) => {
+	const factionDetails = (charData?.factions || []).map((fn: string) => {
 		const sections: Array<[string, any[]]> = [["factions", worldSection(wj, "factions")], ["locations", worldSection(wj, "locations")], ["events", worldSection(wj, "events")]];
 		for (const [section, items] of sections) {
 			const found = items.find((x: any) => norm(x.name || x.id).includes(norm(fn)));
@@ -608,26 +730,103 @@ function graphTraversal(params: any, maxBytes: number): ToolResult {
 		return { name: fn, section: "unknown" };
 	});
 
-	// cross-reference: find characters mentioned in the same story arcs
 	const relatedStories: any[] = [];
-	if (w.stories) {
+	if (w.stories && charData) {
 		for (const [storyId, story] of Object.entries(w.stories || {}) as any) {
 			for (const arc of story.arcs || []) {
 				const nameHaystack = norm(arc.name || "") + " " + norm(arc.summary || "");
-				if (nameHaystack.includes(norm(ch.id)) || (ch.aliases || []).some((a: string) => nameHaystack.includes(norm(a)))) {
+				if (nameHaystack.includes(norm(charData.id)) || (charData.aliases || []).some((a: string) => nameHaystack.includes(norm(a)))) {
 					relatedStories.push({ storyId, title: story.title, arc: arc.id, name: arc.name, summary: arc.summary });
 				}
 			}
 		}
 	}
 
+	// === extracted data: relationships, abilities, items ===
+	let extractedRelations: any[] = [];
+	let extractedAbilities: any[] = [];
+	let extractedItems: any[] = [];
+	if (entityData?.periods) {
+		for (const p of entityData.periods) {
+			if (p.relationships) {
+				for (const [target, val] of Object.entries(p.relationships)) {
+					const relType = typeof val === "object" && val !== null ? (val.type || val.relation || "") : String(val);
+					if (relType) extractedRelations.push({ target, type: relType, volume: p.volume });
+				}
+			}
+			if (p.abilities_owned) {
+				for (const a of p.abilities_owned) extractedAbilities.push({ ability: a, volume: p.volume });
+			}
+			if (p.possessions_owned) {
+				for (const i of p.possessions_owned) extractedItems.push({ item: i, volume: p.volume });
+			}
+		}
+	}
+
+	// === graph files ===
+	const graphDir = join(extractedDir(slug), "graph");
+	const charRelGraph = safeJson(join(graphDir, "char-relations.json"));
+	const completeGraph = safeJson(join(graphDir, "complete-graph.json"));
+	const abilityGraph = safeJson(join(graphDir, "ability-graph.json"));
+	const eventGraph = safeJson(join(graphDir, "event-graph.json"));
+
+	let graphRelations: any[] = [];
+	if (charRelGraph?.relationships) {
+		graphRelations = charRelGraph.relationships.filter((r: any) => r.source === charId || r.target === charId).slice(0, 50);
+	}
+	let graphEdges: any[] = [];
+	let graphNode: any = null;
+	if (completeGraph?.edges) {
+		graphEdges = completeGraph.edges.filter((e: any) => e.source === charId || e.target === charId).slice(0, 50);
+		graphNode = completeGraph.nodes?.find((n: any) => n.id === charId) || null;
+	}
+
+	let ownedAbilities: any[] = [];
+	if (abilityGraph?.abilities) {
+		const abIds = new Set(extractedAbilities.map(a => a.ability));
+		ownedAbilities = abilityGraph.abilities.filter((a: any) => abIds.has(a.id)).slice(0, 30);
+	}
+
+	let relatedEvents: any[] = [];
+	if (eventGraph?.events) {
+		const eIds = new Set(graphEdges.filter(e => e.category === "involvement").map(e => e.source === charId ? e.target : e.source));
+		relatedEvents = eventGraph.events.filter((e: any) => eIds.has(e.id)).slice(0, 20);
+	}
+
+	// Resolve target names
+	const resolvedExtractedRelations = extractedRelations.map(r => {
+		const targetData = safeJson(extractedEntityFile(slug, "characters", r.target));
+		const p0 = targetData?.periods?.[0] || {};
+		const zhName = typeof p0.name === "object" ? p0.name?.zh || r.target : p0.name || r.target;
+		return { ...r, targetName: zhName };
+	});
+
+	// Narrative timeline
+	let narrativeTimeline: any[] = [];
+	if (entityData?.periods) {
+		narrativeTimeline = entityData.periods.filter((p: any) => p.volume || p.time)
+			.map((p: any) => ({ volume: p.volume, time: p.time, label: p.label, summary: (p.summary || "").substring(0, 200), keyEvents: (p.key_events || []).slice(0, 5) }));
+	}
+
 	return textResult({
 		ok: true,
-		character: { ref: entityRef, id: ch.id, name: ch.name, summary: ch.summary, importance: ch.importance, factions: ch.factions, powerSystems: ch.powerSystems, sourceRefs: ch.sourceRefs },
-		factionMembers: sameFaction,
-		powerSystemPeers: samePower,
-		factionDetails,
+		character: {
+			ref: entityRef, id: charId,
+			name: entityData ? (typeof entityData.periods?.[0]?.name === "object" ? entityData.periods[0].name?.zh || charId : entityData.periods?.[0]?.name || charId) : charData?.name || charId,
+			summary: entityData?.periods?.[0]?.summary || charData?.summary || "",
+			importance: charData?.importance, factions: charData?.factions,
+			powerSystems: charData?.powerSystems, sourceRefs: entityData?.source_refs || charData?.sourceRefs,
+			extractedVolumes: entityData?.periods?.length || 0,
+		},
+		extractedRelations: resolvedExtractedRelations,
+		extractedAbilities, extractedItems,
+		graphRelations: graphRelations.slice(0, 30),
+		graphEdges: graphEdges.slice(0, 30),
+		graphNode,
+		ownedAbilities, relatedEvents,
+		factionMembers: sameFaction, powerSystemPeers: samePower, factionDetails,
 		storyAppearances: relatedStories.slice(0, 20),
+		narrativeTimeline: narrativeTimeline.slice(0, 15),
 	}, { ok: true, action: "graph", world: slug, ref: entityRef }, maxBytes);
 }
 
@@ -650,7 +849,10 @@ function crossWorldSearch(params: any, maxBytes: number): ToolResult {
 		const w = idx.worlds[slug];
 		let partial: any[] = [];
 		if (w.status === "curated") {
-			partial = searchCurated(slug, query, "all", Math.min(limit - results.length, 5));
+			partial = searchExtracted(slug, query, "all", Math.min(limit - results.length, 5));
+		}
+		if (partial.length < Math.min(5, limit - results.length) && w.status === "curated") {
+			partial.push(...searchCurated(slug, query, "all", Math.min(limit - results.length - partial.length, 5)));
 		}
 		if (partial.length < Math.min(5, limit - results.length)) {
 			partial.push(...searchRaw(slug, query, Math.min(limit - results.length - partial.length, 5)));
