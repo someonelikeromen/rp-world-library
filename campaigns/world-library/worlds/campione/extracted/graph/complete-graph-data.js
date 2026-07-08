@@ -1,0 +1,3850 @@
+window.__graphData = {
+  "nodes": [
+    {
+      "id": "amakasu",
+      "type": "character",
+      "group": "character"
+    },
+    {
+      "id": "yuri",
+      "type": "character",
+      "group": "character"
+    },
+    {
+      "id": "godou",
+      "type": "character",
+      "group": "character"
+    },
+    {
+      "id": "erica",
+      "type": "character",
+      "group": "character"
+    },
+    {
+      "id": "history-compilation-committee",
+      "type": "character",
+      "group": "character"
+    },
+    {
+      "id": "andre",
+      "type": "character",
+      "group": "character"
+    },
+    {
+      "id": "doni",
+      "type": "character",
+      "group": "character"
+    },
+    {
+      "id": "liliana",
+      "type": "character",
+      "group": "character"
+    },
+    {
+      "id": "ariana",
+      "type": "character",
+      "group": "character"
+    },
+    {
+      "id": "karen",
+      "type": "character",
+      "group": "character"
+    },
+    {
+      "id": "athena",
+      "type": "character",
+      "group": "character"
+    },
+    {
+      "id": "perseus-mithras",
+      "type": "character",
+      "group": "character"
+    },
+    {
+      "id": "naples-dragon",
+      "type": "character",
+      "group": "character"
+    },
+    {
+      "id": "diana",
+      "type": "character",
+      "group": "character"
+    },
+    {
+      "id": "voban",
+      "type": "character",
+      "group": "character"
+    },
+    {
+      "id": "gennaro",
+      "type": "character",
+      "group": "character"
+    },
+    {
+      "id": "ichiro",
+      "type": "character",
+      "group": "character"
+    },
+    {
+      "id": "shizuka",
+      "type": "character",
+      "group": "character"
+    },
+    {
+      "id": "lucrezia",
+      "type": "character",
+      "group": "character"
+    },
+    {
+      "id": "pandora",
+      "type": "character",
+      "group": "character"
+    },
+    {
+      "id": "magic-swordsmanship",
+      "type": "ability",
+      "group": "ability"
+    },
+    {
+      "id": "athena-earth-darkness",
+      "type": "ability",
+      "group": "ability"
+    },
+    {
+      "id": "athena-healing-kiss",
+      "type": "ability",
+      "group": "ability"
+    },
+    {
+      "id": "professor",
+      "type": "ability",
+      "group": "ability"
+    },
+    {
+      "id": "spiritual-vision",
+      "type": "ability",
+      "group": "ability"
+    },
+    {
+      "id": "doni-silver-arm",
+      "type": "ability",
+      "group": "ability"
+    },
+    {
+      "id": "doni-steel-protection",
+      "type": "ability",
+      "group": "ability"
+    },
+    {
+      "id": "return-to-medieval-style",
+      "type": "ability",
+      "group": "ability"
+    },
+    {
+      "id": "godou-ten-forms",
+      "type": "ability",
+      "group": "ability"
+    },
+    {
+      "id": "bull",
+      "type": "ability",
+      "group": "ability"
+    },
+    {
+      "id": "white-stallion",
+      "type": "ability",
+      "group": "ability"
+    },
+    {
+      "id": "raptor",
+      "type": "ability",
+      "group": "ability"
+    },
+    {
+      "id": "warrior",
+      "type": "ability",
+      "group": "ability"
+    },
+    {
+      "id": "goat",
+      "type": "ability",
+      "group": "ability"
+    },
+    {
+      "id": "boar",
+      "type": "ability",
+      "group": "ability"
+    },
+    {
+      "id": "camel",
+      "type": "ability",
+      "group": "ability"
+    },
+    {
+      "id": "ram",
+      "type": "ability",
+      "group": "ability"
+    },
+    {
+      "id": "liliana-flight",
+      "type": "ability",
+      "group": "ability"
+    },
+    {
+      "id": "liliana-david-words",
+      "type": "ability",
+      "group": "ability"
+    },
+    {
+      "id": "perseus-snake-slaying",
+      "type": "ability",
+      "group": "ability"
+    },
+    {
+      "id": "mithras-sun-seal",
+      "type": "ability",
+      "group": "ability"
+    },
+    {
+      "id": "perseus-light-resurrection",
+      "type": "ability",
+      "group": "ability"
+    },
+    {
+      "id": "voban-wolves",
+      "type": "ability",
+      "group": "ability"
+    },
+    {
+      "id": "sodom-eyes",
+      "type": "ability",
+      "group": "ability"
+    },
+    {
+      "id": "raging-storm",
+      "type": "ability",
+      "group": "ability"
+    },
+    {
+      "id": "death-servants",
+      "type": "ability",
+      "group": "ability"
+    },
+    {
+      "id": "revelation",
+      "type": "ability",
+      "group": "ability"
+    },
+    {
+      "id": "lionheart",
+      "type": "item",
+      "group": "item"
+    },
+    {
+      "id": "silver-master",
+      "type": "item",
+      "group": "item"
+    },
+    {
+      "id": "yuri-phone",
+      "type": "item",
+      "group": "item"
+    },
+    {
+      "id": "a-ji-li-si-zhen-wang",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "aftermath-ena-withdraws",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "aftermath-summer-tension",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "aggrippina-household-and-rumors",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "aisha-akihabara-maid-cafe",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "aisha-artio-negotiation-fails",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "aisha-ceiling-collapse-escape",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "aisha-doni-plutarch-arrival",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "aisha-frankish-army-marches",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "aisha-frankish-queen-enthronement",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "aisha-jabberwock-slayer-vs-salvation-snake",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "aisha-luck-corridor-to-kumotori",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "aisha-mass-charm-odaiba-riot",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "aisha-meets-black-prince",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "aisha-odaiba-tourism-and-alec-confrontation",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "aisha-party-hachioji-flight",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "aisha-recovers-power-through-history",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "aisha-rhine-flight-recapture",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "aisha-shinjuku-night-out",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "akihabara-brother-talk",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "alec-arrives-tokyo-with-ice-man",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "alec-joins-exile-plan",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "alec-maze-doni-furies-duel",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "alek-alice-lucretia-inquiry",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "alek-borrows-dragonbone-la",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "alek-cecilia-taipei-investigation",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "alek-kills-minos",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "alek-steals-ama-no-sakahoko",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "alice-alec-intelligence-pact",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "alice-greenwich-meeting",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "alice-rescues-astral-party",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "ama-no-sakahoko-excavation-and-guinevere-contact",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "ama-no-sakahoko-surveillance",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "amakasu-erica-intel",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "ameno-sakahoko-los-angeles-test",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "ancient-gaul-bath-negotiation",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "ancient-lancelot-last-king-encounter",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "annie-identity-revealed",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "annie-retrieves-smith-spear",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "ao-lin-pa-si-hun-zhan",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "ao-lin-pa-si-shen-pan",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "artio-possessed-doni-bear-army-spotted",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "artio-sacrifice-last-king-final-return",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "artio-summons-last-king",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "asakusa-erica-yuri-tour",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "astral-luohao-godou-battle",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "asuka-hears-godou-rumors",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "athena-bargain",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "athena-darkens-tokyo",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "雅典娜",
+      "type": "unknown",
+      "group": "unknown"
+    },
+    {
+      "id": "甘粕冬马",
+      "type": "character",
+      "group": "character"
+    },
+    {
+      "id": "万里谷佑理",
+      "type": "unknown",
+      "group": "unknown"
+    },
+    {
+      "id": "athena-defeats-godou-first",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "草薙护堂",
+      "type": "character",
+      "group": "character"
+    },
+    {
+      "id": "艾莉卡·布兰德里",
+      "type": "unknown",
+      "group": "unknown"
+    },
+    {
+      "id": "athena-departs-to-underworld",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "athena-final-duel-and-death",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "athena-godou-voyage",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "athena-petrifies-tokyo-bay",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "athena-regains-gorgon-stone",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "athena-spared-and-leaves",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "barcelona-last-king-discussion",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "bear-battle-erica-ena-return",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "bear-battle-meets-doni",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "bimawen-unsealing-started",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "black-prince-age-guessing",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "black-sword-destroys-magic-island",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "boar-destroys-amakumo",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "boar-yokohama-bay-bridge-crisis",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "cagliari-mages-acknowledge-seventh-king",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "cagliari-meets-verethragna",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "campiones-meet-ramayana-heroes",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "casentino-aisha-report-alice-arrival",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "chidorigafuchi-battle",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "christmas-cleanup-vacation-dispute",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "circe-hut-abduction",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "circe-odysseus-final-duel",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "circe-steals-godou-authorities",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "colosseum-damaged",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "山猪化身",
+      "type": "unknown",
+      "group": "unknown"
+    },
+    {
+      "id": "committee-meets-ena",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "companions-break-curse-and-return",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "corridor-banishes-smith-and-heroes",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "date-futsal-failure",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "david-book-copy",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "doni-amnesia-follow",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "doni-casentino-hunt-setup",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "doni-cuts-fortress",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "doni-cuts-hera-pillar",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "doni-defeats-luo",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "doni-dionysus-corridor-incident",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "doni-frankish-conquest-revealed",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "doni-franks-artio-backstory",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "doni-kills-perseus",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "doni-meteor-sword-hachioji",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "doni-raphael-duel",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "doni-sardinia-intercept-zamparini",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "doni-secret-departure-pursuit",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "doni-survives-erica-reinstated",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "doni-tokyo-bay-fishing-armament",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "doni-voban-forest-fight-fog",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "dorgali-goat-bird-battle",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "eastern-miko-oharai-ceremony",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "ena-call-curse-break",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "ena-departs-for-secret-treasure",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "ena-erica-vs-guinevere",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "ena-hikari-campione-talk",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "ena-introduction-yushima",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "ena-receives-seven-branched-sword",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "ena-return-dinner-bear",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "ena-school-spell-prep",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "epilogue-alek-lucretia-odysseus-result",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "erica-confrontation-boar",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "erica-duel-verethragna",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "erica-ena-astral-duel",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "erica-ena-escape-aisha-charm",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "erica-ena-first-clash",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "erica-gets-david-book-access",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "erica-karen-trade",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "erica-leaves-red-copper-for-godou",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "erica-liliana-alliance",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "erica-manji-ambush",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "erica-rescues-godou-eastern-magi",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "erica-sardinia-mission",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "erica-shizuka-coffee-encounter",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "erica-summons-godou-to-rome",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "erica-transfers-to-jounan",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "erica-valentine-night-sardinia",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "erlang-first-attack-sumida",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "erlang-mountain-duel",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "erlang-possesses-kaoru",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "event-001-魔王内战终结",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "event-002-护堂与哈奴曼之战",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "event-003-护堂击败哈奴曼",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "event-004-罗摩在富士山复活",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "event-005-遇见普罗米修斯",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "event-006-东京袭击",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "event-007-进入命运之神领域",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "event-008-护堂与罗摩见面",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "event-009-护堂与罗摩联手",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "event-010-击败命运推动者",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "event-011-承担救世主命运",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "event-012-罗摩踏上新旅程",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "event-013-上海生活",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "event-014-京都隐居修炼",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "event-015-回归日本",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "event-annie-joins-okunikko-team",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "安妮·查鲁顿",
+      "type": "unknown",
+      "group": "unknown"
+    },
+    {
+      "id": "沙耶宫馨",
+      "type": "character",
+      "group": "character"
+    },
+    {
+      "id": "event-boy-blessing-ritual-party",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "清秋院惠那",
+      "type": "character",
+      "group": "character"
+    },
+    {
+      "id": "琍琍亚娜·葛兰尼查尔",
+      "type": "unknown",
+      "group": "unknown"
+    },
+    {
+      "id": "event-committee-quarantines-nikko",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "正史编纂委员会",
+      "type": "unknown",
+      "group": "unknown"
+    },
+    {
+      "id": "event-first-lake-chuzenji-duel-and-flood",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "齐天大圣·孙悟空",
+      "type": "unknown",
+      "group": "unknown"
+    },
+    {
+      "id": "event-guinevere-alec-steel-clue",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "桂妮薇亚",
+      "type": "unknown",
+      "group": "unknown"
+    },
+    {
+      "id": "黑王子亚雷克",
+      "type": "unknown",
+      "group": "unknown"
+    },
+    {
+      "id": "event-kirifuri-retreat-and-decision",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "event-mount-nantai-three-demons-break-bimawen",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "猪刚鬣",
+      "type": "unknown",
+      "group": "unknown"
+    },
+    {
+      "id": "深沙神",
+      "type": "unknown",
+      "group": "unknown"
+    },
+    {
+      "id": "弼马温灵体",
+      "type": "unknown",
+      "group": "unknown"
+    },
+    {
+      "id": "event-senjogahara-rescue-hikari",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "万里谷光",
+      "type": "character",
+      "group": "character"
+    },
+    {
+      "id": "event-shinkyo-flood-and-shensha-appears",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "event-smith-rescues-party-from-divine-apes",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "约翰·布鲁托·史密斯",
+      "type": "unknown",
+      "group": "unknown"
+    },
+    {
+      "id": "event-three-campiones-defeat-wukong",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "罗濠",
+      "type": "unknown",
+      "group": "unknown"
+    },
+    {
+      "id": "event-wukong-possesses-hikari-and-stone-prison",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "安洁菈",
+      "type": "unknown",
+      "group": "unknown"
+    },
+    {
+      "id": "fairy-corridor-exile-activation",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "fake-minos-sardinia-battle",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "father-meets-erica",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "ferry-melqart-warning",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "final-last-king-covenant-battle",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "first-kasai-confrontation-curse-flashback",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "first-last-king-battle-corridor-escape",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "first-perseus-duel",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "four-girls-artio-knowledge-transfer",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "full-moon-departure-from-gaul",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "fuyuhime-second-search",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "garden-party-godou-debut",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "gaul-party-returns-modern-casentino",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "glass-princess-dream-warning",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "glass-princess-observes-last-king-thread",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-alek-ghost-ship-duel",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-alek-nezushrine-confrontation",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-arrives-ancient-gaul",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-athena-vs-lancelot",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-baseball-past",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-becomes-campione",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "乌鲁斯拉格纳",
+      "type": "unknown",
+      "group": "unknown"
+    },
+    {
+      "id": "godou-black-sword-air-battle",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-boar-vs-smith-great-magician",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-breaks-taishui-forest",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-chooses-save-athena",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-classroom-kidnapping",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-companions-reunite",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-december-memory-anomaly",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-defeats-incomplete-last-king",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-defeats-pianki-and-boar-cagliari-rampage",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-defeats-verethragna",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-defeats-voban",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-doni-first-duel-retreat",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-doni-second-duel",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-empty-lu-base-kabukicho",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-ena-shared-sword-ritual",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-erica-baseball-deduction",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-erica-defeat-artemis-beast",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-erica-duel",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "紫之骑士",
+      "type": "unknown",
+      "group": "unknown"
+    },
+    {
+      "id": "雌狼统帅",
+      "type": "unknown",
+      "group": "unknown"
+    },
+    {
+      "id": "老贵妇人统帅",
+      "type": "unknown",
+      "group": "unknown"
+    },
+    {
+      "id": "godou-erica-melqart-knowledge-transfer",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-erica-monza-reunion",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-erica-nuada-knowledge-transfer",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-exiles-doni-black-arrow",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-final-battle-athena",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-first-melqart-duel-solunto",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-intimidates-kuhozuka",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-learns-niah-corridor-origin",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-liliana-enter-crown",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-liliana-investigate-ueno",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-liliana-night-walk",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-luo-vs-rama-first-battle",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-luohao-rematch",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-meets-aisha-saint",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-meets-athena-in-rome",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "亚莉安娜",
+      "type": "unknown",
+      "group": "unknown"
+    },
+    {
+      "id": "godou-meets-susanoo",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-mercenary-commander",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-milan-challenge-red-copper",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-phone-call-erica-break",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-rebirth-and-captivity",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-recovery-hut-and-scouting",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-rescues-ena-oku-chichibu",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-restores-power-against-bear",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-return-japan",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-revives-athena",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-summons-lancelot-vs-perseus",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-tuscany-boar-hunt-flashback",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-uk-lancelot-investigation",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-wothin-alliance-negotiation",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-wothin-raurica-duel",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-yuri-knowledge-kiss",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-yuri-reconciliation-message",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "godou-yuri-stranded-island-life",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "gorgon-stone-to-japan",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "grail-sword-link-and-athena-self-petrification",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "guinevere-dragon-duel-defeat",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "guinevere-fake-minos-breaks-maze",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "guinevere-last-prayer-grail-rebirth",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "guinevere-locates-last-king",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "guinevere-offers-angela-to-luohao",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "haneda-seven-campiones-gathering",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "hanuman-lakshmana-final-return",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "he-ke-tuo-er-jue-dou",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "hera-pillar-consultation",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "heroic-gods-reappear-sardinia",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "highway-wolf-chase",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "hikari-meets-godou",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "hikari-valentine-promise",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "hospital-aftermath",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "ice-man-vs-liliana-yuri-support",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "ichiro-slate-mission",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "inubosaki-iron-bow-investigation",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "italian-council-gorgon-stone",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "jack-infiltrates-angela-ritual",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "japan-return-baseball-and-tokyo-attack",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "japan-return-final-war-omen",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "jonan-school-festival-commotion",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "kantan-maid-dream",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "kaoru-fuyuhime-resolution",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "kasai-final-battle-begins",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "kimigahama-circe-first-battle",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "kings-negotiation-hunt",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "knights-shoot-leviathan",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "kogetsudou-identity-cover",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "kota-kinabalu-local-briefing",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "kuhozuka-abduction",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "kusanagi-christmas-party",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "kusanagi-family-dinner-plan",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "kusanagi-gambling",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "la-leviathan-selfdestruct",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "lake-garda-godou-doni-duel",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "lakshmana-ambushes-godou",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "lakshmana-mandala-ena-intervention",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "lancelot-athena-thrace-battle",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "lancelot-becomes-disobedient",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "lancelot-final-duel",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "lancelot-memory-seal-encounter",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "lancelot-rescues-guinevere",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "library-vision",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "liliana-dangozaka-spirit-search",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "liliana-kusanagi-home-cooking-cleaning",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "liliana-school-transfer",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "liliana-steward-role",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "liliana-vacation-cancel",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "liliana-vow-professor",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "lu-yinghua-guinevere-warning",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "lu-yinghua-vs-erica-odaiba",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "lu-yinghua-winter-solstice-warning",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "lucretia-argo-clue",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "lucretia-revelation",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "luo-creates-shinjuku-gyoen-forest",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "luo-cuilian-baihong-guanri",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "luo-cuilian-vs-hanuman",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "luo-hao-aisha-surveillance-order",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "luo-hao-lushan-crown-reveal",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "luo-hao-meets-young-aisha",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "luo-hao-skytree-dawn",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "luo-seals-aisha-on-kumotori",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "luo-voban-return-from-corridor",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "magatsu-harai-demonstration",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "magic-island-yacht-abduction",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "maid-cafe-resolution",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "melqart-underground-encounter",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "modern-athena-recruits-wind-king",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "mountain-river-guidance-contact",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "nanatsuou-gray-santa-briefing",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "nanatsuou-yuri-reprimand",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "naples-dragon-perseus",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "odaiba-gray-figure-suicide",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "okutama-old-king-duel-reopens",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "old-and-young-campione-alliances",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "old-kings-attack-plutarch-house",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "old-kings-break-maze",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "otama-centipede-battle",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "palermo-bay-melqart-final-battle",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "pallas-athena-declaration-sardinia",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "pallas-athena-kisarazu-landing",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "pallas-athena-vs-rama",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "pandora-border-guidance",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "pandora-warning",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "parallel-world-exile-plan",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "paul-raphael-defeat-deformation-beast",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "pianki-geomancy-reveals-melqart-sicily",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "plebiscito-duel",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "pool-peeping-collapse",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "prewar-smith-el-shaddan-ruri-meeting",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "pushpaka-vimana-final-battle",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "raft-escape-from-circe",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "rama-heroes-okutama-hideout",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "rama-revival-on-floating-island",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "rescue-godou-curse-broken",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "rome-colosseum-debut-aftermath",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "rome-night-walk-valediction-kiss",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "roppongi-school-battle",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "sabarini-erica-lover-ruse",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "saint-raphael-reveals-aisha-corridor",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "saitenguu-visit-and-audience",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "sakura-magic-consultation",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "salvation-blade-explosion-doni-possessed",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "salvation-sword-revived-thrace",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "sardinia-doni-delay",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "sardinia-villa-tension",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "saturnalia-crown-sealed-white-horse",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "saturnus-half-tree-giant-rebirth",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "sayanomiya-meeting-saturnus-fruits",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "school-distance-from-knights",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "school-investigation-and-abduction",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "school-life-escalation",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "sforza-castle-destruction",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "shenhu-kongjian-niuqu-shi-jian",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "shiba-tower-duel",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "shizuka-stall-venture",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "smith-alec-vs-godou-aisha-odaiba",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "smith-alek-los-angeles-negotiation",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "smith-astral-fairy-king-preparation",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "smith-bianchi-los-angeles-raid",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "smith-godou-fairy-council",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "smith-plutarch-house-mission",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "smith-return-and-angela-defeat",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "smith-returns-from-ultra-ancient",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "smith-war-council-civil-war-decision",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "solunto-ruins-sunk-by-melqart",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "somerset-megalith-vision",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "study-session-bar",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "sumida-shrine-salt-statue-restoration",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "summer-escape-frame",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "sun-wukong-possesses-hikari",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "susanoo-summoning-godou-king-recognition",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "sword-trial-begins",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "te-luo-yi-mu-ma-ye-xi",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "tea-room-marriage-commotion",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "three-campione-fairyland-fall",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "three-campione-london",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "three-idiots-kidnap-attempt",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "tokyo-bay-crown-godtree-encounter",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "tokyo-bay-floating-island-appears",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "tokyo-tower-sniping",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "tuscany-artemis-beast-awakening",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "ueno-gray-santa-first-incident",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "umi-hotaru-athena-battle",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "voban-attacks-aisha-shinjuku",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "voban-brenner-london-duel",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "voban-hires-young-aisha",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "voban-japan-summons",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "voban-luo-roppongi-alliance",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "voban-summons-liliana-embassy",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "white-stallion-stolen",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "wothin-attacks-augusta-raurica",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "wothin-attempts-aisha-abduction",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "wothin-fortress-banquet",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "wothin-hostage-fortress-capture",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "wothin-wives-defect",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "wothin-wives-release-godou",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "youth-blessing-erica",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "yuri-astral-projection-crown-vision",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "yuri-empowers-godou-final-sword",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "yuri-ena-meeting-nanatsuou",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "yuri-godou-astral-knowledge-kiss",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "yuri-identifies-athena",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "yuri-investigates-godou",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "yuri-kidnapping",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "yuri-liliana-modern-rescue-scry",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "yuri-liliana-rescue",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "yuri-liliana-save-godou-bonn",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "yuri-rescues-godou-classroom",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "yuri-reveals-circe",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "yuri-revelation-kiss",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "yuri-unlocks-black-sword",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "yusei-ritual-rama-name",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "zhong-zhang-xin-wei-xie",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "双胞胎的出生与离别",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "密特拉的召唤与消散",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "护堂与韦勒斯拉纳的再战",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "爱莎的封印与解放",
+      "type": "event",
+      "group": "event"
+    },
+    {
+      "id": "结社Campiones的建立",
+      "type": "event",
+      "group": "event"
+    }
+  ],
+  "edges": [
+    {
+      "source": "amakasu",
+      "target": "yuri",
+      "relation": "联络对象，经常以工作与恋爱建议诱导她",
+      "category": "relationship"
+    },
+    {
+      "source": "amakasu",
+      "target": "godou",
+      "relation": "希望维持可交涉关系的日本弑神者",
+      "category": "relationship"
+    },
+    {
+      "source": "amakasu",
+      "target": "erica",
+      "relation": "互相试探的对象",
+      "category": "relationship"
+    },
+    {
+      "source": "amakasu",
+      "target": "history-compilation-committee",
+      "relation": "所属组织",
+      "category": "relationship"
+    },
+    {
+      "source": "andre",
+      "target": "doni",
+      "relation": "主人、朋友兼必须监督的麻烦王",
+      "category": "relationship"
+    },
+    {
+      "source": "andre",
+      "target": "liliana",
+      "relation": "把多尼交接给她照看",
+      "category": "relationship"
+    },
+    {
+      "source": "andre",
+      "target": "erica",
+      "relation": "联络并警告萨丁岛危险",
+      "category": "relationship"
+    },
+    {
+      "source": "andre",
+      "target": "yuri",
+      "relation": "与艾莉卡一行共同行动",
+      "category": "relationship"
+    },
+    {
+      "source": "ariana",
+      "target": "erica",
+      "relation": "主人兼照顾对象",
+      "category": "relationship"
+    },
+    {
+      "source": "ariana",
+      "target": "godou",
+      "relation": "每天早晨接待的客人",
+      "category": "relationship"
+    },
+    {
+      "source": "ariana",
+      "target": "erica",
+      "relation": "主人",
+      "category": "relationship"
+    },
+    {
+      "source": "ariana",
+      "target": "godou",
+      "relation": "被她料理威胁到而主动接手厨房",
+      "category": "relationship"
+    },
+    {
+      "source": "ariana",
+      "target": "karen",
+      "relation": "私交良好的女仆朋友，互通主人动向",
+      "category": "relationship"
+    },
+    {
+      "source": "athena",
+      "target": "godou",
+      "relation": "曾经败给他的敌人，本卷把他当作待锻炼的猎物",
+      "category": "relationship"
+    },
+    {
+      "source": "athena",
+      "target": "perseus-mithras",
+      "relation": "杀蛇钢之英雄，天然相克的仇敌",
+      "category": "relationship"
+    },
+    {
+      "source": "athena",
+      "target": "liliana",
+      "relation": "魔女巫女，曾从她言灵中获得灵视启示",
+      "category": "relationship"
+    },
+    {
+      "source": "athena",
+      "target": "naples-dragon",
+      "relation": "地母神系眷属，被她回收到自身怀抱",
+      "category": "relationship"
+    },
+    {
+      "source": "diana",
+      "target": "liliana",
+      "relation": "弟子与青铜黑十字同伴",
+      "category": "relationship"
+    },
+    {
+      "source": "diana",
+      "target": "karen",
+      "relation": "共同行动的实习魔女",
+      "category": "relationship"
+    },
+    {
+      "source": "diana",
+      "target": "doni",
+      "relation": "被请来处理石柱却失控的王",
+      "category": "relationship"
+    },
+    {
+      "source": "diana",
+      "target": "godou",
+      "relation": "提供庇护与神话知识的对象",
+      "category": "relationship"
+    },
+    {
+      "source": "doni",
+      "target": "godou",
+      "relation": "擅自认定的挚友兼宿敌",
+      "category": "relationship"
+    },
+    {
+      "source": "doni",
+      "target": "voban",
+      "relation": "四年前夺走其猎物的对手",
+      "category": "relationship"
+    },
+    {
+      "source": "doni",
+      "target": "liliana",
+      "relation": "意大利骑士，事件后给予政治保护",
+      "category": "relationship"
+    },
+    {
+      "source": "doni",
+      "target": "erica",
+      "relation": "同属意大利魔术界势力范围",
+      "category": "relationship"
+    },
+    {
+      "source": "doni",
+      "target": "godou",
+      "relation": "视为朋友与宿敌，故意让其独自苦战以促成长",
+      "category": "relationship"
+    },
+    {
+      "source": "doni",
+      "target": "liliana",
+      "relation": "因请愿而被带到拿坡里，之后击倒阻止他的她",
+      "category": "relationship"
+    },
+    {
+      "source": "doni",
+      "target": "andre",
+      "relation": "管家兼监督人，被他绑住拖延",
+      "category": "relationship"
+    },
+    {
+      "source": "doni",
+      "target": "erica",
+      "relation": "在萨丁岛击败并阻止支援",
+      "category": "relationship"
+    },
+    {
+      "source": "doni",
+      "target": "perseus-mithras",
+      "relation": "最终以剑斩杀的神",
+      "category": "relationship"
+    },
+    {
+      "source": "erica",
+      "target": "godou",
+      "relation": "主君、恋爱目标与战斗搭档",
+      "category": "relationship"
+    },
+    {
+      "source": "erica",
+      "target": "yuri",
+      "relation": "竞争者兼可信赖盟友，允许但严密警戒",
+      "category": "relationship"
+    },
+    {
+      "source": "erica",
+      "target": "liliana",
+      "relation": "宿敌兼可操纵的老友",
+      "category": "relationship"
+    },
+    {
+      "source": "erica",
+      "target": "ariana",
+      "relation": "助手兼女仆",
+      "category": "relationship"
+    },
+    {
+      "source": "erica",
+      "target": "voban",
+      "relation": "敌对的古老王",
+      "category": "relationship"
+    },
+    {
+      "source": "erica",
+      "target": "godou",
+      "relation": "主人兼恋人式同伴，对其失踪与亲吻他人强烈不满",
+      "category": "relationship"
+    },
+    {
+      "source": "erica",
+      "target": "liliana",
+      "relation": "青梅竹马兼劲敌，本卷竞争升级为护堂身边地位之争",
+      "category": "relationship"
+    },
+    {
+      "source": "erica",
+      "target": "yuri",
+      "relation": "共同担心护堂并在萨丁岛追查异变",
+      "category": "relationship"
+    },
+    {
+      "source": "erica",
+      "target": "doni",
+      "relation": "以压倒性实力击败她并阻止支援",
+      "category": "relationship"
+    },
+    {
+      "source": "erica",
+      "target": "ariana",
+      "relation": "女仆兼助手",
+      "category": "relationship"
+    },
+    {
+      "source": "gennaro",
+      "target": "godou",
+      "relation": "少数能随意和护堂交谈的意大利骑士朋友",
+      "category": "relationship"
+    },
+    {
+      "source": "gennaro",
+      "target": "erica",
+      "relation": "认为她会带坏女儿而拒绝她进入家门",
+      "category": "relationship"
+    },
+    {
+      "source": "godou",
+      "target": "erica",
+      "relation": "第一骑士兼自称恋人，既依赖又警戒她的进攻",
+      "category": "relationship"
+    },
+    {
+      "source": "godou",
+      "target": "yuri",
+      "relation": "被保护对象与灵视支援者，决战中形成命运共同体",
+      "category": "relationship"
+    },
+    {
+      "source": "godou",
+      "target": "voban",
+      "relation": "被沃邦认定为未来必须认真狩猎的敌人",
+      "category": "relationship"
+    },
+    {
+      "source": "godou",
+      "target": "liliana",
+      "relation": "临时倒戈加入的骑士",
+      "category": "relationship"
+    },
+    {
+      "source": "godou",
+      "target": "doni",
+      "relation": "被多尼擅自认定为挚友兼宿敌",
+      "category": "relationship"
+    },
+    {
+      "source": "godou",
+      "target": "liliana",
+      "relation": "新任个人骑士与教授魔术支援者，决战后被她宣誓效忠",
+      "category": "relationship"
+    },
+    {
+      "source": "godou",
+      "target": "erica",
+      "relation": "第一骑士兼恋人式同伴，事后因琍琍亚娜加入而产生竞争",
+      "category": "relationship"
+    },
+    {
+      "source": "godou",
+      "target": "yuri",
+      "relation": "灵视支援者，萨丁岛期间持续担忧护堂安危",
+      "category": "relationship"
+    },
+    {
+      "source": "godou",
+      "target": "athena",
+      "relation": "曾经敌人，本卷强行将护堂卷入试炼并留下未来交易",
+      "category": "relationship"
+    },
+    {
+      "source": "godou",
+      "target": "perseus-mithras",
+      "relation": "本卷主要神敌，先击败护堂后被护堂击退",
+      "category": "relationship"
+    },
+    {
+      "source": "godou",
+      "target": "doni",
+      "relation": "自称挚友兼宿敌，多尼故意阻断支援以促使护堂成长",
+      "category": "relationship"
+    },
+    {
+      "source": "ichiro",
+      "target": "godou",
+      "relation": "孙子，被认为与年轻时的一朗相似",
+      "category": "relationship"
+    },
+    {
+      "source": "ichiro",
+      "target": "shizuka",
+      "relation": "孙女",
+      "category": "relationship"
+    },
+    {
+      "source": "ichiro",
+      "target": "erica",
+      "relation": "欣赏其社交能力并接纳为客人",
+      "category": "relationship"
+    },
+    {
+      "source": "ichiro",
+      "target": "yuri",
+      "relation": "接待过的孙子友人",
+      "category": "relationship"
+    },
+    {
+      "source": "karen",
+      "target": "liliana",
+      "relation": "主人兼教育对象，经常毒舌推动她行动",
+      "category": "relationship"
+    },
+    {
+      "source": "karen",
+      "target": "diana",
+      "relation": "拿坡里行动中的魔女同伴",
+      "category": "relationship"
+    },
+    {
+      "source": "karen",
+      "target": "ariana",
+      "relation": "私交良好的情报来源",
+      "category": "relationship"
+    },
+    {
+      "source": "karen",
+      "target": "godou",
+      "relation": "被她视为可让琍琍亚娜取得政治与情感优势的王",
+      "category": "relationship"
+    },
+    {
+      "source": "liliana",
+      "target": "erica",
+      "relation": "宿敌、老友与天敌",
+      "category": "relationship"
+    },
+    {
+      "source": "liliana",
+      "target": "godou",
+      "relation": "暂时承认的王与保护女性的正义一方",
+      "category": "relationship"
+    },
+    {
+      "source": "liliana",
+      "target": "voban",
+      "relation": "原随从，后因骑士道背离",
+      "category": "relationship"
+    },
+    {
+      "source": "liliana",
+      "target": "doni",
+      "relation": "意大利盟主，事件后为她背书",
+      "category": "relationship"
+    },
+    {
+      "source": "liliana",
+      "target": "yuri",
+      "relation": "四年前仪式时见过的巫女",
+      "category": "relationship"
+    },
+    {
+      "source": "liliana",
+      "target": "godou",
+      "relation": "宣誓效忠的主人，兼需要她支援与规范的王",
+      "category": "relationship"
+    },
+    {
+      "source": "liliana",
+      "target": "erica",
+      "relation": "长期竞争对手，本卷在护堂身边地位上正面交锋",
+      "category": "relationship"
+    },
+    {
+      "source": "liliana",
+      "target": "karen",
+      "relation": "毒舌女仆兼策士，多次推动她面对感情与使命",
+      "category": "relationship"
+    },
+    {
+      "source": "liliana",
+      "target": "diana",
+      "relation": "魔女导师与拿坡里同伴",
+      "category": "relationship"
+    },
+    {
+      "source": "liliana",
+      "target": "perseus-mithras",
+      "relation": "神敌，曾受其支配言灵影响但成功反抗",
+      "category": "relationship"
+    },
+    {
+      "source": "lucrezia",
+      "target": "godou",
+      "relation": "被她捉弄的客人",
+      "category": "relationship"
+    },
+    {
+      "source": "lucrezia",
+      "target": "yuri",
+      "relation": "被她灌输偏颇男女知识的对象",
+      "category": "relationship"
+    },
+    {
+      "source": "lucrezia",
+      "target": "erica",
+      "relation": "共同留守萨丁岛并判断异变",
+      "category": "relationship"
+    },
+    {
+      "source": "lucrezia",
+      "target": "ariana",
+      "relation": "同住别墅成员",
+      "category": "relationship"
+    },
+    {
+      "source": "naples-dragon",
+      "target": "liliana",
+      "relation": "将其从海啸中救起的对象",
+      "category": "relationship"
+    },
+    {
+      "source": "naples-dragon",
+      "target": "athena",
+      "relation": "地母神眷属，被她回收",
+      "category": "relationship"
+    },
+    {
+      "source": "naples-dragon",
+      "target": "perseus-mithras",
+      "relation": "作为杀蛇英雄的猎物遭其重创",
+      "category": "relationship"
+    },
+    {
+      "source": "naples-dragon",
+      "target": "doni",
+      "relation": "因其斩断石柱而诞生并以海啸卷走他",
+      "category": "relationship"
+    },
+    {
+      "source": "pandora",
+      "target": "godou",
+      "relation": "称其为孩子并给予有限警告",
+      "category": "relationship"
+    },
+    {
+      "source": "pandora",
+      "target": "perseus-mithras",
+      "relation": "将其归入钢之神格与弑神者宿敌",
+      "category": "relationship"
+    },
+    {
+      "source": "perseus-mithras",
+      "target": "godou",
+      "relation": "认可为宿敌的弑神者，对其战斗方式又赞赏又不满",
+      "category": "relationship"
+    },
+    {
+      "source": "perseus-mithras",
+      "target": "athena",
+      "relation": "地母神与蛇之女王，是神话层面的仇敌",
+      "category": "relationship"
+    },
+    {
+      "source": "perseus-mithras",
+      "target": "liliana",
+      "relation": "试图以英雄支配力收服的魔女巫女",
+      "category": "relationship"
+    },
+    {
+      "source": "perseus-mithras",
+      "target": "doni",
+      "relation": "最终斩杀他的弑神者",
+      "category": "relationship"
+    },
+    {
+      "source": "shizuka",
+      "target": "godou",
+      "relation": "被她严密监视的不检点哥哥",
+      "category": "relationship"
+    },
+    {
+      "source": "shizuka",
+      "target": "yuri",
+      "relation": "茶道部学姐，认为比艾莉卡更可接受",
+      "category": "relationship"
+    },
+    {
+      "source": "shizuka",
+      "target": "erica",
+      "relation": "强烈警戒的金发恋人候补",
+      "category": "relationship"
+    },
+    {
+      "source": "shizuka",
+      "target": "ichiro",
+      "relation": "祖父",
+      "category": "relationship"
+    },
+    {
+      "source": "voban",
+      "target": "godou",
+      "relation": "被承认为敌人和未来猎物",
+      "category": "relationship"
+    },
+    {
+      "source": "voban",
+      "target": "yuri",
+      "relation": "召唤仪式所需巫女，被其自我牺牲意志扫兴",
+      "category": "relationship"
+    },
+    {
+      "source": "voban",
+      "target": "liliana",
+      "relation": "临时随从，后因骑士道倒戈",
+      "category": "relationship"
+    },
+    {
+      "source": "voban",
+      "target": "doni",
+      "relation": "四年前抢走猎物的年轻王",
+      "category": "relationship"
+    },
+    {
+      "source": "voban",
+      "target": "erica",
+      "relation": "利用话术激怒他的敌方骑士",
+      "category": "relationship"
+    },
+    {
+      "source": "yuri",
+      "target": "godou",
+      "relation": "保护者与命运共同体，战后称呼转为护堂同学",
+      "category": "relationship"
+    },
+    {
+      "source": "yuri",
+      "target": "erica",
+      "relation": "竞争者兼战斗盟友",
+      "category": "relationship"
+    },
+    {
+      "source": "yuri",
+      "target": "shizuka",
+      "relation": "茶道部学妹兼恋爱建议来源",
+      "category": "relationship"
+    },
+    {
+      "source": "yuri",
+      "target": "amakasu",
+      "relation": "委员会联络人，经常被其诱导",
+      "category": "relationship"
+    },
+    {
+      "source": "yuri",
+      "target": "voban",
+      "relation": "四年前仪式关联者与本卷绑架者",
+      "category": "relationship"
+    },
+    {
+      "source": "yuri",
+      "target": "godou",
+      "relation": "担心并训诫的对象，对其亲吻行为严厉责备",
+      "category": "relationship"
+    },
+    {
+      "source": "yuri",
+      "target": "erica",
+      "relation": "共同行动的同伴，在优先级上提醒其骑士义务",
+      "category": "relationship"
+    },
+    {
+      "source": "yuri",
+      "target": "lucrezia",
+      "relation": "被其灌输男女关系知识而误会护堂",
+      "category": "relationship"
+    },
+    {
+      "source": "yuri",
+      "target": "doni",
+      "relation": "被其绑住以拖延支援",
+      "category": "relationship"
+    },
+    {
+      "source": "andre",
+      "target": "magic-swordsmanship",
+      "relation": "has_ability",
+      "category": "ownership"
+    },
+    {
+      "source": "athena",
+      "target": "athena-earth-darkness",
+      "relation": "has_ability",
+      "category": "ownership"
+    },
+    {
+      "source": "athena",
+      "target": "athena-healing-kiss",
+      "relation": "has_ability",
+      "category": "ownership"
+    },
+    {
+      "source": "diana",
+      "target": "professor",
+      "relation": "has_ability",
+      "category": "ownership"
+    },
+    {
+      "source": "diana",
+      "target": "spiritual-vision",
+      "relation": "has_ability",
+      "category": "ownership"
+    },
+    {
+      "source": "doni",
+      "target": "doni-silver-arm",
+      "relation": "has_ability",
+      "category": "ownership"
+    },
+    {
+      "source": "doni",
+      "target": "doni-steel-protection",
+      "relation": "has_ability",
+      "category": "ownership"
+    },
+    {
+      "source": "doni",
+      "target": "return-to-medieval-style",
+      "relation": "has_ability",
+      "category": "ownership"
+    },
+    {
+      "source": "erica",
+      "target": "magic-swordsmanship",
+      "relation": "has_ability",
+      "category": "ownership"
+    },
+    {
+      "source": "gennaro",
+      "target": "magic-swordsmanship",
+      "relation": "has_ability",
+      "category": "ownership"
+    },
+    {
+      "source": "godou",
+      "target": "godou-ten-forms",
+      "relation": "has_ability",
+      "category": "ownership"
+    },
+    {
+      "source": "godou",
+      "target": "bull",
+      "relation": "has_ability",
+      "category": "ownership"
+    },
+    {
+      "source": "godou",
+      "target": "white-stallion",
+      "relation": "has_ability",
+      "category": "ownership"
+    },
+    {
+      "source": "godou",
+      "target": "raptor",
+      "relation": "has_ability",
+      "category": "ownership"
+    },
+    {
+      "source": "godou",
+      "target": "warrior",
+      "relation": "has_ability",
+      "category": "ownership"
+    },
+    {
+      "source": "godou",
+      "target": "goat",
+      "relation": "has_ability",
+      "category": "ownership"
+    },
+    {
+      "source": "godou",
+      "target": "boar",
+      "relation": "has_ability",
+      "category": "ownership"
+    },
+    {
+      "source": "godou",
+      "target": "camel",
+      "relation": "has_ability",
+      "category": "ownership"
+    },
+    {
+      "source": "godou",
+      "target": "ram",
+      "relation": "has_ability",
+      "category": "ownership"
+    },
+    {
+      "source": "karen",
+      "target": "spiritual-vision",
+      "relation": "has_ability",
+      "category": "ownership"
+    },
+    {
+      "source": "liliana",
+      "target": "magic-swordsmanship",
+      "relation": "has_ability",
+      "category": "ownership"
+    },
+    {
+      "source": "liliana",
+      "target": "liliana-flight",
+      "relation": "has_ability",
+      "category": "ownership"
+    },
+    {
+      "source": "liliana",
+      "target": "professor",
+      "relation": "has_ability",
+      "category": "ownership"
+    },
+    {
+      "source": "liliana",
+      "target": "liliana-david-words",
+      "relation": "has_ability",
+      "category": "ownership"
+    },
+    {
+      "source": "liliana",
+      "target": "spiritual-vision",
+      "relation": "has_ability",
+      "category": "ownership"
+    },
+    {
+      "source": "lucrezia",
+      "target": "spiritual-vision",
+      "relation": "has_ability",
+      "category": "ownership"
+    },
+    {
+      "source": "perseus-mithras",
+      "target": "perseus-snake-slaying",
+      "relation": "has_ability",
+      "category": "ownership"
+    },
+    {
+      "source": "perseus-mithras",
+      "target": "mithras-sun-seal",
+      "relation": "has_ability",
+      "category": "ownership"
+    },
+    {
+      "source": "perseus-mithras",
+      "target": "perseus-light-resurrection",
+      "relation": "has_ability",
+      "category": "ownership"
+    },
+    {
+      "source": "voban",
+      "target": "voban-wolves",
+      "relation": "has_ability",
+      "category": "ownership"
+    },
+    {
+      "source": "voban",
+      "target": "sodom-eyes",
+      "relation": "has_ability",
+      "category": "ownership"
+    },
+    {
+      "source": "voban",
+      "target": "raging-storm",
+      "relation": "has_ability",
+      "category": "ownership"
+    },
+    {
+      "source": "voban",
+      "target": "death-servants",
+      "relation": "has_ability",
+      "category": "ownership"
+    },
+    {
+      "source": "yuri",
+      "target": "spiritual-vision",
+      "relation": "has_ability",
+      "category": "ownership"
+    },
+    {
+      "source": "yuri",
+      "target": "revelation",
+      "relation": "has_ability",
+      "category": "ownership"
+    },
+    {
+      "source": "erica",
+      "target": "lionheart",
+      "relation": "owns",
+      "category": "ownership"
+    },
+    {
+      "source": "liliana",
+      "target": "silver-master",
+      "relation": "owns",
+      "category": "ownership"
+    },
+    {
+      "source": "yuri",
+      "target": "yuri-phone",
+      "relation": "owns",
+      "category": "ownership"
+    },
+    {
+      "source": "athena-darkens-tokyo",
+      "target": "雅典娜",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "athena-darkens-tokyo",
+      "target": "甘粕冬马",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "athena-darkens-tokyo",
+      "target": "万里谷佑理",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "athena-defeats-godou-first",
+      "target": "草薙护堂",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "athena-defeats-godou-first",
+      "target": "艾莉卡·布兰德里",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "athena-defeats-godou-first",
+      "target": "雅典娜",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "athena-regains-gorgon-stone",
+      "target": "雅典娜",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "athena-regains-gorgon-stone",
+      "target": "万里谷佑理",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "athena-spared-and-leaves",
+      "target": "草薙护堂",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "athena-spared-and-leaves",
+      "target": "雅典娜",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "athena-spared-and-leaves",
+      "target": "艾莉卡·布兰德里",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "athena-spared-and-leaves",
+      "target": "万里谷佑理",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "colosseum-damaged",
+      "target": "草薙护堂",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "colosseum-damaged",
+      "target": "山猪化身",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "erica-summons-godou-to-rome",
+      "target": "艾莉卡·布兰德里",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "erica-summons-godou-to-rome",
+      "target": "草薙护堂",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "erica-transfers-to-jounan",
+      "target": "艾莉卡·布兰德里",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "erica-transfers-to-jounan",
+      "target": "草薙护堂",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "erica-transfers-to-jounan",
+      "target": "万里谷佑理",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-annie-joins-okunikko-team",
+      "target": "安妮·查鲁顿",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-annie-joins-okunikko-team",
+      "target": "草薙护堂",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-annie-joins-okunikko-team",
+      "target": "甘粕冬马",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-annie-joins-okunikko-team",
+      "target": "沙耶宫馨",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-boy-blessing-ritual-party",
+      "target": "草薙护堂",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-boy-blessing-ritual-party",
+      "target": "艾莉卡·布兰德里",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-boy-blessing-ritual-party",
+      "target": "万里谷佑理",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-boy-blessing-ritual-party",
+      "target": "清秋院惠那",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-boy-blessing-ritual-party",
+      "target": "琍琍亚娜·葛兰尼查尔",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-committee-quarantines-nikko",
+      "target": "沙耶宫馨",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-committee-quarantines-nikko",
+      "target": "甘粕冬马",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-committee-quarantines-nikko",
+      "target": "正史编纂委员会",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-first-lake-chuzenji-duel-and-flood",
+      "target": "草薙护堂",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-first-lake-chuzenji-duel-and-flood",
+      "target": "齐天大圣·孙悟空",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-first-lake-chuzenji-duel-and-flood",
+      "target": "艾莉卡·布兰德里",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-first-lake-chuzenji-duel-and-flood",
+      "target": "琍琍亚娜·葛兰尼查尔",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-first-lake-chuzenji-duel-and-flood",
+      "target": "万里谷佑理",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-guinevere-alec-steel-clue",
+      "target": "桂妮薇亚",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-guinevere-alec-steel-clue",
+      "target": "黑王子亚雷克",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-kirifuri-retreat-and-decision",
+      "target": "草薙护堂",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-kirifuri-retreat-and-decision",
+      "target": "万里谷佑理",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-kirifuri-retreat-and-decision",
+      "target": "艾莉卡·布兰德里",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-kirifuri-retreat-and-decision",
+      "target": "琍琍亚娜·葛兰尼查尔",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-kirifuri-retreat-and-decision",
+      "target": "沙耶宫馨",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-mount-nantai-three-demons-break-bimawen",
+      "target": "齐天大圣·孙悟空",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-mount-nantai-three-demons-break-bimawen",
+      "target": "猪刚鬣",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-mount-nantai-three-demons-break-bimawen",
+      "target": "深沙神",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-mount-nantai-three-demons-break-bimawen",
+      "target": "弼马温灵体",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-senjogahara-rescue-hikari",
+      "target": "草薙护堂",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-senjogahara-rescue-hikari",
+      "target": "万里谷光",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-senjogahara-rescue-hikari",
+      "target": "齐天大圣·孙悟空",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-senjogahara-rescue-hikari",
+      "target": "万里谷佑理",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-senjogahara-rescue-hikari",
+      "target": "艾莉卡·布兰德里",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-shinkyo-flood-and-shensha-appears",
+      "target": "甘粕冬马",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-shinkyo-flood-and-shensha-appears",
+      "target": "深沙神",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-shinkyo-flood-and-shensha-appears",
+      "target": "齐天大圣·孙悟空",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-smith-rescues-party-from-divine-apes",
+      "target": "约翰·布鲁托·史密斯",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-smith-rescues-party-from-divine-apes",
+      "target": "草薙护堂",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-smith-rescues-party-from-divine-apes",
+      "target": "艾莉卡·布兰德里",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-smith-rescues-party-from-divine-apes",
+      "target": "琍琍亚娜·葛兰尼查尔",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-smith-rescues-party-from-divine-apes",
+      "target": "清秋院惠那",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-three-campiones-defeat-wukong",
+      "target": "草薙护堂",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-three-campiones-defeat-wukong",
+      "target": "约翰·布鲁托·史密斯",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-three-campiones-defeat-wukong",
+      "target": "罗濠",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-three-campiones-defeat-wukong",
+      "target": "齐天大圣·孙悟空",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-three-campiones-defeat-wukong",
+      "target": "猪刚鬣",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-three-campiones-defeat-wukong",
+      "target": "深沙神",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-wukong-possesses-hikari-and-stone-prison",
+      "target": "齐天大圣·孙悟空",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-wukong-possesses-hikari-and-stone-prison",
+      "target": "万里谷光",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-wukong-possesses-hikari-and-stone-prison",
+      "target": "草薙护堂",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-wukong-possesses-hikari-and-stone-prison",
+      "target": "罗濠",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "event-wukong-possesses-hikari-and-stone-prison",
+      "target": "安洁菈",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "godou-becomes-campione",
+      "target": "草薙护堂",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "godou-becomes-campione",
+      "target": "乌鲁斯拉格纳",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "godou-erica-duel",
+      "target": "草薙护堂",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "godou-erica-duel",
+      "target": "艾莉卡·布兰德里",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "godou-erica-duel",
+      "target": "紫之骑士",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "godou-erica-duel",
+      "target": "雌狼统帅",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "godou-erica-duel",
+      "target": "老贵妇人统帅",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "godou-final-battle-athena",
+      "target": "草薙护堂",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "godou-final-battle-athena",
+      "target": "雅典娜",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "godou-final-battle-athena",
+      "target": "艾莉卡·布兰德里",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "godou-final-battle-athena",
+      "target": "万里谷佑理",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "godou-meets-athena-in-rome",
+      "target": "草薙护堂",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "godou-meets-athena-in-rome",
+      "target": "雅典娜",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "godou-meets-athena-in-rome",
+      "target": "亚莉安娜",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "gorgon-stone-to-japan",
+      "target": "草薙护堂",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "gorgon-stone-to-japan",
+      "target": "艾莉卡·布兰德里",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "gorgon-stone-to-japan",
+      "target": "雅典娜",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "italian-council-gorgon-stone",
+      "target": "艾莉卡·布兰德里",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "italian-council-gorgon-stone",
+      "target": "紫之骑士",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "italian-council-gorgon-stone",
+      "target": "老贵妇人统帅",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "italian-council-gorgon-stone",
+      "target": "雌狼统帅",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "yuri-identifies-athena",
+      "target": "万里谷佑理",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "yuri-identifies-athena",
+      "target": "草薙护堂",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "yuri-identifies-athena",
+      "target": "艾莉卡·布兰德里",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "yuri-investigates-godou",
+      "target": "万里谷佑理",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "yuri-investigates-godou",
+      "target": "甘粕冬马",
+      "relation": "participant",
+      "category": "involvement"
+    },
+    {
+      "source": "yuri-investigates-godou",
+      "target": "草薙护堂",
+      "relation": "participant",
+      "category": "involvement"
+    }
+  ]
+};

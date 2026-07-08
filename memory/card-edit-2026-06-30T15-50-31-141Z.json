@@ -1,0 +1,141 @@
+{
+  "timestamp": "2026-06-30T15:50:31.141Z",
+  "card": "主角人物卡：新主角",
+  "action": "batch",
+  "note": "Add neutral placeholder entries for new protagonist initialization and validation until full character setup is provided.",
+  "snapshot": {
+    "basic": {
+      "name": "未命名主角",
+      "age": 18,
+      "gender": "未定",
+      "identity": {
+        "type": "待设定",
+        "world": "待选择",
+        "status": "新建主角，待初始化"
+      }
+    },
+    "currentStatus": {
+      "world": "待选择",
+      "location": "待定",
+      "time": "待定",
+      "condition": "新建主角，等待设定完成"
+    },
+    "magic": {
+      "circuits": {
+        "count": 0,
+        "maxOutputPerCircuit": 0,
+        "maxCapacity": 0,
+        "currentReserve": 0,
+        "panelLevel": "N/A",
+        "traits": [],
+        "maxReserve": 0
+      },
+      "currentReserve": 0,
+      "maxReserve": 0,
+      "activeSpells": 0,
+      "totalSpells": 1,
+      "keySpells": []
+    },
+    "combat": {
+      "overall": {
+        "score": "C"
+      },
+      "offense": {
+        "rating": "待评估",
+        "score": 0
+      },
+      "defense": {
+        "rating": "待评估",
+        "score": 0
+      },
+      "durability": {
+        "rating": "待评估",
+        "score": 0
+      },
+      "reaction": {
+        "rating": "待评估",
+        "score": 0
+      },
+      "mobility": {
+        "rating": "待评估",
+        "score": 0
+      },
+      "control": {
+        "rating": "待评估",
+        "score": 0
+      },
+      "perception": {
+        "rating": "待评估",
+        "score": 0
+      },
+      "mental": {
+        "rating": "待评估",
+        "score": 0
+      },
+      "hax": {
+        "rating": "待评估",
+        "score": 0
+      }
+    },
+    "resources": [
+      {
+        "id": "mana",
+        "name": "能量/魔力",
+        "current": 0
+      },
+      {
+        "id": "money",
+        "name": "资金",
+        "current": "待定"
+      }
+    ],
+    "keyRelations": [],
+    "inventoryHighlights": []
+  },
+  "changes": [
+    {
+      "op": {
+        "action": "upsert",
+        "path": "magic.knownSpells",
+        "id": "none",
+        "idField": "id",
+        "item": {
+          "id": "none",
+          "name": "无/待定",
+          "panelLevel": "N/A",
+          "traits": []
+        }
+      },
+      "result": {
+        "action": "inserted",
+        "after": {
+          "id": "none",
+          "name": "无/待定",
+          "panelLevel": "N/A",
+          "traits": []
+        }
+      }
+    },
+    {
+      "op": {
+        "action": "upsert",
+        "path": "relationships",
+        "id": "none",
+        "idField": "id",
+        "item": {
+          "id": "none",
+          "name": "待定",
+          "currentRelation": "待建立"
+        }
+      },
+      "result": {
+        "action": "inserted",
+        "after": {
+          "id": "none",
+          "name": "待定",
+          "currentRelation": "待建立"
+        }
+      }
+    }
+  ]
+}

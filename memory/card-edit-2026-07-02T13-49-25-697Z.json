@@ -1,0 +1,695 @@
+{
+  "timestamp": "2026-07-02T13:49:25.697Z",
+  "card": "主角人物卡：新主角",
+  "action": "batch",
+  "note": "Start new Hidan no Aria story 1 in Actor mode; reset Type-Moon placeholder to Hidan placeholder.",
+  "snapshot": {
+    "basic": {
+      "name": "未命名主角",
+      "age": "待定（东京武侦高中入学/转入年龄待设定）",
+      "gender": "待定",
+      "identity": {
+        "type": "butei-student-or-candidate",
+        "world": "hidan-no-aria",
+        "status": "《绯弹的亚里亚》新故事1主角；Actor模式，用户控制主角。默认舞台为东京武侦高中及其周边的现代都市暗面。主角身份、科别、等级、能力、背景与开局关系待生成。"
+      }
+    },
+    "currentStatus": {
+      "world": "hidan-no-aria",
+      "location": "日本·东京·东京武侦高中周边（具体地点待开场确定）",
+      "time": "新故事1开局；是否与原作主线同期待确认",
+      "condition": "新档初始化：用户控制主角。舞台为持枪武侦、犯罪组织、超侦与色金等暗面交错的《绯弹的亚里亚》世界。下一步通过入学/转入/委托/危机现场等开局方式确定主角身份、科别、武侦等级、能力与第一幕事件。"
+    },
+    "magic": {
+      "circuits": {
+        "count": 0,
+        "maxOutputPerCircuit": 0,
+        "maxCapacity": 0,
+        "currentReserve": 0,
+        "panelLevel": "不适用",
+        "traits": [],
+        "maxReserve": 0
+      },
+      "currentReserve": 0,
+      "maxReserve": 0,
+      "activeSpells": 0,
+      "totalSpells": 1,
+      "keySpells": []
+    },
+    "combat": {
+      "overall": {
+        "score": "C"
+      },
+      "offense": {
+        "rating": "待评估",
+        "score": 0
+      },
+      "defense": {
+        "rating": "待评估",
+        "score": 0
+      },
+      "durability": {
+        "rating": "待评估",
+        "score": 0
+      },
+      "reaction": {
+        "rating": "待评估",
+        "score": 0
+      },
+      "mobility": {
+        "rating": "待评估",
+        "score": 0
+      },
+      "control": {
+        "rating": "待评估",
+        "score": 0
+      },
+      "perception": {
+        "rating": "待评估",
+        "score": 0
+      },
+      "mental": {
+        "rating": "待评估",
+        "score": 0
+      },
+      "hax": {
+        "rating": "待评估",
+        "score": 0
+      }
+    },
+    "resources": [
+      {
+        "id": "stamina",
+        "name": "体力",
+        "current": "待定"
+      },
+      {
+        "id": "ammo",
+        "name": "弹药/装备余量",
+        "current": "待定"
+      },
+      {
+        "id": "money",
+        "name": "资金",
+        "current": "待定"
+      }
+    ],
+    "keyRelations": [],
+    "inventoryHighlights": []
+  },
+  "changes": [
+    {
+      "op": {
+        "action": "set",
+        "path": "name",
+        "value": "未命名主角"
+      },
+      "result": {
+        "before": "未命名主角",
+        "after": "未命名主角"
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "aliases",
+        "value": []
+      },
+      "result": {
+        "before": [],
+        "after": []
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "gender",
+        "value": "待定"
+      },
+      "result": {
+        "before": "待定",
+        "after": "待定"
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "age",
+        "value": "待定（东京武侦高中入学/转入年龄待设定）"
+      },
+      "result": {
+        "before": 15,
+        "after": "待定（东京武侦高中入学/转入年龄待设定）"
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "appearance",
+        "value": "待设定"
+      },
+      "result": {
+        "before": "待设定",
+        "after": "待设定"
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "identity",
+        "value": {
+          "type": "butei-student-or-candidate",
+          "world": "hidan-no-aria",
+          "status": "《绯弹的亚里亚》新故事1主角；Actor模式，用户控制主角。默认舞台为东京武侦高中及其周边的现代都市暗面。主角身份、科别、等级、能力、背景与开局关系待生成。"
+        }
+      },
+      "result": {
+        "before": {
+          "type": "reincarnated-with-past-life-memory",
+          "world": "type-moon-nasuverse",
+          "status": "型月世界新篇章主角；转生宿慧者。时代与路线为第四次圣杯战争前的伦敦时钟塔学生线：与韦伯·维尔维特同龄，并一同进入全体基础科。出身为没落表世界贵族、第四代魔术师家系；家族四代前偶然发现传承并踏入魔术界，直到主角这一代才实际进入时钟塔。主角依靠宿慧的先知先觉获取了大量表世界资金。"
+        },
+        "after": {
+          "type": "butei-student-or-candidate",
+          "world": "hidan-no-aria",
+          "status": "《绯弹的亚里亚》新故事1主角；Actor模式，用户控制主角。默认舞台为东京武侦高中及其周边的现代都市暗面。主角身份、科别、等级、能力、背景与开局关系待生成。"
+        }
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "personality",
+        "value": {
+          "core": "待设定",
+          "drive": "待设定",
+          "bottomLine": "待设定"
+        }
+      },
+      "result": {
+        "before": {
+          "core": "待设定",
+          "drive": "待设定",
+          "bottomLine": "待设定"
+        },
+        "after": {
+          "core": "待设定",
+          "drive": "待设定",
+          "bottomLine": "待设定"
+        }
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "memory",
+        "value": {
+          "type": "新故事1初始化",
+          "detail": "不沿用型月档或其他旧故事经历、能力、关系、资源。本篇以《绯弹的亚里亚》世界观重新开档。"
+        }
+      },
+      "result": {
+        "before": {
+          "type": "转生宿慧者",
+          "detail": "拥有前世记忆。前世对型月属于深度设定党与设定党混合：知道大量作品、角色、时间线、魔术体系、圣杯战争、英灵、御三家、根源、死徒、魔法等大框架和隐藏设定；但具体细节可能遗忘、混淆或只剩关键词，且不保证当前世界线与前世认知完全一致。"
+        },
+        "after": {
+          "type": "新故事1初始化",
+          "detail": "不沿用型月档或其他旧故事经历、能力、关系、资源。本篇以《绯弹的亚里亚》世界观重新开档。"
+        }
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "magic",
+        "value": {
+          "circuits": {
+            "count": 0,
+            "maxOutputPerCircuit": 0,
+            "maxCapacity": 0,
+            "currentReserve": 0,
+            "panelLevel": "不适用",
+            "traits": [],
+            "maxReserve": 0
+          },
+          "knownSpells": [
+            {
+              "id": "none",
+              "name": "无/不适用",
+              "panelLevel": "不适用",
+              "traits": []
+            }
+          ]
+        }
+      },
+      "result": {
+        "before": {
+          "circuits": {
+            "count": 0,
+            "maxOutputPerCircuit": 0,
+            "maxCapacity": 0,
+            "currentReserve": 0,
+            "panelLevel": "待定",
+            "traits": [],
+            "maxReserve": 0
+          },
+          "knownSpells": [
+            {
+              "id": "none",
+              "name": "无/待定",
+              "panelLevel": "待定",
+              "traits": []
+            }
+          ]
+        },
+        "after": {
+          "circuits": {
+            "count": 0,
+            "maxOutputPerCircuit": 0,
+            "maxCapacity": 0,
+            "currentReserve": 0,
+            "panelLevel": "不适用",
+            "traits": [],
+            "maxReserve": 0
+          },
+          "knownSpells": [
+            {
+              "id": "none",
+              "name": "无/不适用",
+              "panelLevel": "不适用",
+              "traits": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "attributes",
+        "value": {
+          "baseline": "待设定",
+          "physicalPotential": "待设定",
+          "neuralProcessing": "待设定",
+          "environmentalAdaptation": "待设定",
+          "weaknessPolicy": "待设定",
+          "growthProfile": "待设定"
+        }
+      },
+      "result": {
+        "before": {
+          "baseline": "待设定",
+          "physicalPotential": "待设定",
+          "neuralProcessing": "待设定",
+          "environmentalAdaptation": "待设定",
+          "weaknessPolicy": "待设定",
+          "growthProfile": "待设定"
+        },
+        "after": {
+          "baseline": "待设定",
+          "physicalPotential": "待设定",
+          "neuralProcessing": "待设定",
+          "environmentalAdaptation": "待设定",
+          "weaknessPolicy": "待设定",
+          "growthProfile": "待设定"
+        }
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "combatRating",
+        "value": {
+          "overall": {
+            "score": "C"
+          },
+          "offense": {
+            "rating": "待评估",
+            "score": 0
+          },
+          "defense": {
+            "rating": "待评估",
+            "score": 0
+          },
+          "durability": {
+            "rating": "待评估",
+            "score": 0
+          },
+          "reaction": {
+            "rating": "待评估",
+            "score": 0
+          },
+          "mobility": {
+            "rating": "待评估",
+            "score": 0
+          },
+          "control": {
+            "rating": "待评估",
+            "score": 0
+          },
+          "perception": {
+            "rating": "待评估",
+            "score": 0
+          },
+          "mental": {
+            "rating": "待评估",
+            "score": 0
+          },
+          "hax": {
+            "rating": "待评估",
+            "score": 0
+          },
+          "resource": {
+            "rating": "待评估",
+            "stamina": {
+              "capacity": 0,
+              "current": 0
+            },
+            "ammo": "待设定",
+            "money": "待设定"
+          }
+        }
+      },
+      "result": {
+        "before": {
+          "overall": {
+            "score": "C"
+          },
+          "offense": {
+            "rating": "待评估",
+            "score": 0
+          },
+          "defense": {
+            "rating": "待评估",
+            "score": 0
+          },
+          "durability": {
+            "rating": "待评估",
+            "score": 0
+          },
+          "reaction": {
+            "rating": "待评估",
+            "score": 0
+          },
+          "mobility": {
+            "rating": "待评估",
+            "score": 0
+          },
+          "control": {
+            "rating": "待评估",
+            "score": 0
+          },
+          "perception": {
+            "rating": "待评估",
+            "score": 0
+          },
+          "mental": {
+            "rating": "待评估",
+            "score": 0
+          },
+          "hax": {
+            "rating": "待评估",
+            "score": 0
+          },
+          "resource": {
+            "rating": "待评估",
+            "mana": {
+              "capacity": 0,
+              "current": 0
+            },
+            "money": "充足（表世界资金，具体规模待量化）"
+          }
+        },
+        "after": {
+          "overall": {
+            "score": "待评估"
+          },
+          "offense": {
+            "rating": "待评估",
+            "score": 0
+          },
+          "defense": {
+            "rating": "待评估",
+            "score": 0
+          },
+          "durability": {
+            "rating": "待评估",
+            "score": 0
+          },
+          "reaction": {
+            "rating": "待评估",
+            "score": 0
+          },
+          "mobility": {
+            "rating": "待评估",
+            "score": 0
+          },
+          "control": {
+            "rating": "待评估",
+            "score": 0
+          },
+          "perception": {
+            "rating": "待评估",
+            "score": 0
+          },
+          "mental": {
+            "rating": "待评估",
+            "score": 0
+          },
+          "hax": {
+            "rating": "待评估",
+            "score": 0
+          },
+          "resource": {
+            "rating": "待评估",
+            "stamina": {
+              "capacity": 0,
+              "current": 0
+            },
+            "ammo": "待设定",
+            "money": "待设定"
+          }
+        }
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "abilities",
+        "value": []
+      },
+      "result": {
+        "before": [
+          {
+            "id": "past-life-foresight-finance",
+            "name": "宿慧·表世界先知先觉",
+            "description": "主角利用前世记忆中对表世界经济、技术、市场或事件趋势的认知，在不直接暴露神秘的前提下积累了大量表世界资金。具体投资路径、资金规模、代理人和可追溯风险待设定。",
+            "panelLevel": "N/A",
+            "traits": [
+              "前世记忆",
+              "表世界资金积累",
+              "信息优势",
+              "非魔术能力",
+              "存在追溯与合规风险"
+            ]
+          }
+        ],
+        "after": []
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "resources",
+        "value": [
+          {
+            "id": "stamina",
+            "name": "体力",
+            "capacity": "待定",
+            "current": "待定",
+            "unit": "待定"
+          },
+          {
+            "id": "ammo",
+            "name": "弹药/装备余量",
+            "capacity": "待定",
+            "current": "待定",
+            "unit": "待定"
+          },
+          {
+            "id": "money",
+            "name": "资金",
+            "current": "待定",
+            "unit": "待定"
+          },
+          {
+            "id": "mana"
+          }
+        ]
+      },
+      "result": {
+        "before": [
+          {
+            "id": "mana",
+            "name": "魔力",
+            "capacity": 0,
+            "current": 0,
+            "unit": "待定"
+          },
+          {
+            "id": "money",
+            "name": "资金",
+            "current": "充足（表世界资金，具体规模待量化）",
+            "unit": "待定"
+          }
+        ],
+        "after": [
+          {
+            "id": "stamina",
+            "name": "体力",
+            "capacity": "待定",
+            "current": "待定",
+            "unit": "待定"
+          },
+          {
+            "id": "ammo",
+            "name": "弹药/装备余量",
+            "capacity": "待定",
+            "current": "待定",
+            "unit": "待定"
+          },
+          {
+            "id": "money",
+            "name": "资金",
+            "current": "待定",
+            "unit": "待定"
+          }
+        ]
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "inventory",
+        "value": []
+      },
+      "result": {
+        "before": [],
+        "after": []
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "relationships",
+        "value": []
+      },
+      "result": {
+        "before": [
+          {
+            "id": "none",
+            "name": "待定",
+            "currentRelation": "待建立"
+          }
+        ],
+        "after": []
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "currentStatus",
+        "value": {
+          "world": "hidan-no-aria",
+          "location": "日本·东京·东京武侦高中周边（具体地点待开场确定）",
+          "time": "新故事1开局；是否与原作主线同期待确认",
+          "condition": "新档初始化：用户控制主角。舞台为持枪武侦、犯罪组织、超侦与色金等暗面交错的《绯弹的亚里亚》世界。下一步通过入学/转入/委托/危机现场等开局方式确定主角身份、科别、武侦等级、能力与第一幕事件。"
+        }
+      },
+      "result": {
+        "before": {
+          "world": "type-moon-nasuverse",
+          "location": "伦敦·时钟塔·全体基础科（入学期）",
+          "time": "第四次圣杯战争前；与韦伯·维尔维特同龄、同届进入全体基础科（具体年份与年龄待校准）",
+          "condition": "新型月篇章初始化中；主角为转生宿慧者，前世对型月具备深度但不完美的设定知识。开局路线为第四次圣杯战争前的伦敦时钟塔学生线：与韦伯·维尔维特同龄，同届进入全体基础科。出身已确定为没落表世界贵族、第四代魔术师家系；资金相对充足，来自宿慧带来的表世界先知先觉。下一步确定家族传承方向、回路资质与入学方式。"
+        },
+        "after": {
+          "world": "hidan-no-aria",
+          "location": "日本·东京·东京武侦高中周边（具体地点待开场确定）",
+          "time": "新故事1开局；是否与原作主线同期待确认",
+          "condition": "新档初始化：用户控制主角。舞台为持枪武侦、犯罪组织、超侦与色金等暗面交错的《绯弹的亚里亚》世界。下一步通过入学/转入/委托/危机现场等开局方式确定主角身份、科别、武侦等级、能力与第一幕事件。"
+        }
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "rpMode",
+        "value": {
+          "viewMode": "Actor",
+          "userInputHandling": "加工转述和判断",
+          "oocGate": "如果用户输入明显 OOC、违背角色能力/状态/世界规则、越过当前信息或强行成功不合理，先提示原因，不执行该行为，并给出更合理替代。",
+          "actorBoundary": "不替用户做关键选择；不擅自追加用户未表达的核心意图。",
+          "stylePolicy": "以日式视觉小说为主，融合现代校园、枪械动作、都市暗面与设定尊重。"
+        }
+      },
+      "result": {
+        "before": {
+          "viewMode": "Actor",
+          "userInputHandling": "加工转述和判断",
+          "oocGate": "如果用户输入明显 OOC、违背角色能力/状态/世界规则、越过当前信息或强行成功不合理，先提示原因，不执行该行为，并给出更合理替代。",
+          "actorBoundary": "不替用户做关键选择；不擅自追加用户未表达的核心意图。",
+          "stylePolicy": "不固定单一文风；根据场景、情绪、节奏与世界观需要自行切换并融合。"
+        },
+        "after": {
+          "viewMode": "Actor",
+          "userInputHandling": "加工转述和判断",
+          "oocGate": "如果用户输入明显 OOC、违背角色能力/状态/世界规则、越过当前信息或强行成功不合理，先提示原因，不执行该行为，并给出更合理替代。",
+          "actorBoundary": "不替用户做关键选择；不擅自追加用户未表达的核心意图。",
+          "stylePolicy": "以日式视觉小说为主，融合现代校园、枪械动作、都市暗面与设定尊重。"
+        }
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "notes",
+        "value": "《绯弹的亚里亚》新故事1主角生成占位。已确认：世界为 hidan-no-aria；模式为 Actor，用户控制主角。尚待确认：姓名、性别、年龄、东京武侦高中科别、武侦等级、背景、能力/血脉/装备、与原作角色关系、开局时间点。"
+      },
+      "result": {
+        "before": "型月世界新篇章主角生成占位。此档完全独立于旧故事，不沿用任何旧角色设定。已确认：主角为转生宿慧者；前世对型月具备深度设定知识，但细节可能遗忘、混淆，且当前世界线不保证与前世认知完全一致；开局路线为伦敦时钟塔线；时代锚点为第四次圣杯战争前，主角与韦伯·维尔维特同龄，并一同进入全体基础科；出身为没落表世界贵族、第四代魔术师家系，家族四代前偶然发现传承并踏入魔术界，直到主角这一代才进入时钟塔；主角依靠宿慧的表世界先知先觉积累了大量资金。下一步通过问答确定：家族传承方向、回路资质、入学方式、核心欲望、底线、关系与开局场景。",
+        "after": "《绯弹的亚里亚》新故事1主角生成占位。已确认：世界为 hidan-no-aria；模式为 Actor，用户控制主角。尚待确认：姓名、性别、年龄、东京武侦高中科别、武侦等级、背景、能力/血脉/装备、与原作角色关系、开局时间点。"
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "origin",
+        "value": {
+          "socialClass": "待设定",
+          "buteiLineage": "待设定",
+          "history": "待设定",
+          "currentStanding": "待设定",
+          "funding": "待设定"
+        }
+      },
+      "result": {
+        "before": {
+          "socialClass": "没落表世界贵族家族",
+          "mageLineage": "第四代魔术师",
+          "history": "四代之前，家族偶然发现宅邸或旧藏中的魔术传承；当代先祖恰好具备魔术资质，因此踏入魔术世界。此后数代保有零散传承，但家族资源与表世界贵族地位持续衰落，直到主角这一代才实际进入伦敦时钟塔。",
+          "currentStanding": "有旧贵族名义与少量魔术传承，但在时钟塔主流贵族体系内地位薄弱，容易被视为新兴或边缘家系。",
+          "funding": "主角依靠宿慧带来的先知先觉，在表世界获取大量资金；具体规模、方式和风险待量化。"
+        },
+        "after": {
+          "socialClass": "待设定",
+          "buteiLineage": "待设定",
+          "history": "待设定",
+          "currentStanding": "待设定",
+          "funding": "待设定"
+        }
+      }
+    }
+  ]
+}

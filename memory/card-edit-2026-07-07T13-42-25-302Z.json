@@ -1,0 +1,595 @@
+{
+  "timestamp": "2026-07-07T13:42:25.302Z",
+  "card": "主角人物卡：新主角",
+  "action": "batch",
+  "note": "写入顾遥新主角设定，修正资源id以通过校验。",
+  "snapshot": {
+    "basic": {
+      "name": "顾遥",
+      "age": 24,
+      "gender": "男",
+      "identity": {
+        "type": "普通人穿越者",
+        "world": "漫威电影宇宙",
+        "status": "纽约市立大学布鲁克林学院计算机科学本科生；本地转学生身份，学校ID、医保卡与银行账户齐全。"
+      }
+    },
+    "currentStatus": {
+      "world": "漫威电影宇宙",
+      "location": "纽约皇后区阿斯托里亚一居室",
+      "time": "2008年；托尼·斯塔克在阿富汗失踪前一个月；凌晨雨夜",
+      "condition": "刚穿越并完成本地身份导入；身体未受伤；获得查克拉种子但尚未训练。"
+    },
+    "magic": {
+      "circuits": {
+        "count": 0,
+        "maxOutputPerCircuit": 0,
+        "maxCapacity": 10,
+        "currentReserve": 0,
+        "panelLevel": "种子",
+        "traits": [
+          "查克拉种子",
+          "未训练",
+          "跨世界能量体系"
+        ],
+        "maxReserve": 10
+      },
+      "currentReserve": 0,
+      "maxReserve": 10,
+      "activeSpells": 0,
+      "totalSpells": 1,
+      "keySpells": []
+    },
+    "combat": {
+      "overall": {
+        "rating": "F级普通人（持有C级潜力种子）",
+        "score": 1,
+        "note": "当前仍是普通人实战水平；查克拉种子尚未训练，只提供初期强化与感知潜力。"
+      }
+    },
+    "resources": [
+      {
+        "id": "mana",
+        "name": "查克拉储备",
+        "current": 0,
+        "max": 10
+      },
+      {
+        "id": "money",
+        "name": "可用资金合计",
+        "current": 4100
+      },
+      {
+        "id": "cash",
+        "name": "现金",
+        "current": 2000
+      },
+      {
+        "id": "bank",
+        "name": "银行余额",
+        "current": 2100
+      },
+      {
+        "id": "residence",
+        "name": "住宅",
+        "current": "纽约皇后区阿斯托里亚一间带小厨房的一居室"
+      }
+    ],
+    "keyRelations": [
+      {
+        "name": "本地身份网络",
+        "relation": "稳定但来历未知",
+        "importance": "secondary"
+      }
+    ],
+    "inventoryHighlights": [
+      {
+        "id": "laptop",
+        "name": "轻薄笔记本电脑",
+        "quantity": 1
+      },
+      {
+        "id": "backup-phone",
+        "name": "备用手机",
+        "quantity": 1
+      },
+      {
+        "id": "figure-box",
+        "name": "手办盒",
+        "quantity": 1
+      },
+      {
+        "id": "campus-card",
+        "name": "校园门禁卡",
+        "quantity": 1
+      },
+      {
+        "id": "local-documents",
+        "name": "本地身份文件",
+        "quantity": 1
+      }
+    ]
+  },
+  "changes": [
+    {
+      "op": {
+        "action": "merge",
+        "value": {
+          "abilities": [
+            {
+              "description": "体内出现可提炼查克拉的种子，可学习基础查克拉控制。初期主要用于爆发移动、攀爬、平衡、基础感知与身体强化，尚未掌握忍术。",
+              "diceEffects": [
+                "爆发移动/攀爬/平衡/基础感知 +2骰",
+                "相关行动默认10-again",
+                "通过训练或成就可开启忍术路线"
+              ],
+              "id": "chakra-seed",
+              "level": "C级初始奖励",
+              "name": "查克拉种子",
+              "source": "火影忍者",
+              "state": "已获得，未训练",
+              "type": "跨世界成就奖励 / 能量体系种子"
+            }
+          ],
+          "age": 24,
+          "aliases": [
+            "Yao Gu"
+          ],
+          "appearance": "待细化；男性大学生宅男，体能普通，日常气质低存在感，平常显得比较无欲无求。",
+          "attributes": {
+            "base": {
+              "意志": 3,
+              "感知": 2,
+              "敏捷": 2,
+              "智识": 3,
+              "社交": 1,
+              "身体": 2
+            },
+            "baseMeaning": "普通男性大学生宅男起点；计算机/设定分析相关较强，体能和街头暴力经验较弱。",
+            "growthProfile": "成就系统成长；以已有世界观奖励为主，其他世界观为辅。",
+            "scale": {
+              "description": "F/E/D/C/B/A/S/SS/EX多世界战斗分级；检定使用d10骰池，8+计1成功，默认10-again。",
+              "type": "多世界战斗分级 + d10骰池"
+            },
+            "statusMultipliers": []
+          },
+          "combatRating": {
+            "overall": {
+              "note": "当前仍是普通人实战水平；查克拉种子尚未训练，只提供初期强化与感知潜力。",
+              "rating": "F级普通人（持有C级潜力种子）",
+              "score": 1
+            },
+            "resource": {
+              "mana": {
+                "current": 0,
+                "max": 10,
+                "name": "查克拉储备"
+              },
+              "money": 4100
+            }
+          },
+          "currentStatus": {
+            "condition": "刚穿越并完成本地身份导入；身体未受伤；获得查克拉种子但尚未训练。",
+            "location": "纽约皇后区阿斯托里亚一居室",
+            "time": "2008年；托尼·斯塔克在阿富汗失踪前一个月；凌晨雨夜",
+            "world": "漫威电影宇宙"
+          },
+          "gender": "男",
+          "identity": {
+            "status": "纽约市立大学布鲁克林学院计算机科学本科生；本地转学生身份，学校ID、医保卡与银行账户齐全。",
+            "type": "普通人穿越者",
+            "world": "漫威电影宇宙"
+          },
+          "inventory": [
+            {
+              "id": "laptop",
+              "importance": "primary",
+              "name": "轻薄笔记本电脑",
+              "note": "学习、检索、编程、信息收集用。",
+              "quantity": 1,
+              "type": "电子设备"
+            },
+            {
+              "id": "backup-phone",
+              "importance": "secondary",
+              "name": "备用手机",
+              "note": "可用于通讯与应急。",
+              "quantity": 1,
+              "type": "电子设备"
+            },
+            {
+              "id": "figure-box",
+              "importance": "secondary",
+              "name": "手办盒",
+              "note": "宅男身份痕迹。",
+              "quantity": 1,
+              "type": "个人物品"
+            },
+            {
+              "id": "campus-card",
+              "importance": "primary",
+              "name": "校园门禁卡",
+              "note": "纽约市立大学布鲁克林学院身份凭证。",
+              "quantity": 1,
+              "type": "身份物品"
+            },
+            {
+              "id": "local-documents",
+              "importance": "primary",
+              "name": "本地身份文件",
+              "note": "学校ID、医保卡、银行账户等记录齐全。",
+              "quantity": 1,
+              "type": "证件"
+            }
+          ],
+          "magic": {
+            "circuits": {
+              "count": 0,
+              "currentReserve": 0,
+              "maxCapacity": 10,
+              "maxOutputPerCircuit": 0,
+              "maxReserve": 10,
+              "panelLevel": "种子",
+              "traits": [
+                "查克拉种子",
+                "未训练",
+                "跨世界能量体系"
+              ]
+            },
+            "knownSpells": [
+              {
+                "description": "尚未掌握；通过训练可学习提炼、流动感知与基础身体强化。",
+                "id": "chakra-basic-control",
+                "name": "基础查克拉控制",
+                "panelLevel": 0,
+                "source": "火影忍者",
+                "status": "未训练"
+              }
+            ],
+            "type": "chakra_seed"
+          },
+          "name": "顾遥",
+          "notes": "本局新主角。普通人穿越到MCU，开局时间为托尼·斯塔克在阿富汗失踪前一个月。初始奖励选择C级《火影忍者》查克拉种子。",
+          "personality": {
+            "bottomLine": "待确认；当前默认不主动伤害无辜者。",
+            "combatState": "战斗时会释放压抑的狂气，专注度、攻击性与决断力明显增强。",
+            "core": "平常显得比较无欲无求，低欲望、低存在感；压力越大越容易进入专注状态。",
+            "drive": "在陌生的漫威世界中先活下去，理解局势，利用宅系知识和计算机专业优势寻找安全路线。",
+            "oocAnchors": [
+              "英语日常够用但紧张时会卡壳",
+              "体能普通，长跑和力量都不突出",
+              "平常无欲无求，不会无理由主动高调惹事",
+              "压力越大越专注，危机中可能表现出异常冷静",
+              "战斗中会释放压抑的狂气，但仍由用户决定具体行动"
+            ]
+          },
+          "relationships": [
+            {
+              "currentRelation": "稳定但来历未知",
+              "id": "local-identity-network",
+              "importance": "secondary",
+              "name": "本地身份网络",
+              "note": "学校、银行、医保等记录存在；是否有隐藏来源待剧情探索。"
+            }
+          ],
+          "resources": [
+            {
+              "current": 0,
+              "id": "mana",
+              "max": 10,
+              "name": "查克拉储备",
+              "note": "由magic.circuits.currentReserve同步；目前未训练，暂不可稳定调用。",
+              "unit": "reserve"
+            },
+            {
+              "current": 4100,
+              "id": "money",
+              "name": "可用资金合计",
+              "note": "$2,000现金 + $2,100银行余额。",
+              "unit": "USD"
+            },
+            {
+              "current": 2000,
+              "id": "cash",
+              "name": "现金",
+              "note": "初始现金。",
+              "unit": "USD"
+            },
+            {
+              "current": 2100,
+              "id": "bank",
+              "name": "银行余额",
+              "note": "账户与本地身份匹配。",
+              "unit": "USD"
+            },
+            {
+              "current": "纽约皇后区阿斯托里亚一间带小厨房的一居室",
+              "id": "residence",
+              "name": "住宅",
+              "note": "租金压力较大，但可作为安全据点。",
+              "unit": "租约"
+            }
+          ],
+          "rpMode": {
+            "actorBoundary": "不替用户做关键选择；用户行动需判断可行性、OOC、信息条件、能力条件与现实阻力。",
+            "stylePolicy": "混合文风；根据场景切换，一个场景内可混用电影感白描、真实感身体叙事、推理悬疑、政治惊悚、战斗全感官等。",
+            "userInputHandling": "安科 / 安价 / 类跑团混合；用户控制主角，AI控制NPC、环境、事件。",
+            "viewMode": "Actor"
+          }
+        }
+      },
+      "result": {
+        "before": {
+          "name": "未设定",
+          "aliases": [
+            "郑云",
+            "查理曼的融合者"
+          ],
+          "gender": "未设定",
+          "age": null,
+          "appearance": "未设定",
+          "identity": {
+            "type": "unset",
+            "world": "unset",
+            "status": "待设定"
+          },
+          "personality": {
+            "core": "未设定",
+            "drive": "未设定",
+            "bottomLine": "未设定"
+          },
+          "magic": {
+            "type": "unset",
+            "circuits": {
+              "count": 0,
+              "maxOutputPerCircuit": 0,
+              "maxCapacity": 0,
+              "currentReserve": 0,
+              "panelLevel": "不适用",
+              "traits": [],
+              "maxReserve": 0
+            },
+            "knownSpells": []
+          },
+          "attributes": {
+            "scale": {
+              "type": "unset",
+              "description": "未设定"
+            },
+            "base": {},
+            "baseMeaning": "未设定",
+            "statusMultipliers": [],
+            "growthProfile": "未设定"
+          },
+          "combatRating": {
+            "overall": {
+              "rating": "未设定",
+              "score": 0,
+              "note": "待设定"
+            }
+          },
+          "abilities": [],
+          "resources": [],
+          "inventory": [],
+          "relationships": [],
+          "currentStatus": {
+            "world": "unset",
+            "location": "未设定",
+            "time": "未设定",
+            "condition": "待设定"
+          },
+          "rpMode": {
+            "viewMode": "待确认",
+            "userInputHandling": "待确认",
+            "actorBoundary": "待确认",
+            "stylePolicy": "待确认"
+          },
+          "notes": "重置卡。上次RP进度已按用户要求删除。"
+        },
+        "after": {
+          "name": "顾遥",
+          "aliases": [
+            "Yao Gu"
+          ],
+          "gender": "男",
+          "age": 24,
+          "appearance": "待细化；男性大学生宅男，体能普通，日常气质低存在感，平常显得比较无欲无求。",
+          "identity": {
+            "type": "普通人穿越者",
+            "world": "漫威电影宇宙",
+            "status": "纽约市立大学布鲁克林学院计算机科学本科生；本地转学生身份，学校ID、医保卡与银行账户齐全。"
+          },
+          "personality": {
+            "core": "平常显得比较无欲无求，低欲望、低存在感；压力越大越容易进入专注状态。",
+            "drive": "在陌生的漫威世界中先活下去，理解局势，利用宅系知识和计算机专业优势寻找安全路线。",
+            "bottomLine": "待确认；当前默认不主动伤害无辜者。",
+            "combatState": "战斗时会释放压抑的狂气，专注度、攻击性与决断力明显增强。",
+            "oocAnchors": [
+              "英语日常够用但紧张时会卡壳",
+              "体能普通，长跑和力量都不突出",
+              "平常无欲无求，不会无理由主动高调惹事",
+              "压力越大越专注，危机中可能表现出异常冷静",
+              "战斗中会释放压抑的狂气，但仍由用户决定具体行动"
+            ]
+          },
+          "magic": {
+            "type": "chakra_seed",
+            "circuits": {
+              "count": 0,
+              "maxOutputPerCircuit": 0,
+              "maxCapacity": 10,
+              "currentReserve": 0,
+              "panelLevel": "种子",
+              "traits": [
+                "查克拉种子",
+                "未训练",
+                "跨世界能量体系"
+              ],
+              "maxReserve": 10
+            },
+            "knownSpells": [
+              {
+                "description": "尚未掌握；通过训练可学习提炼、流动感知与基础身体强化。",
+                "id": "chakra-basic-control",
+                "name": "基础查克拉控制",
+                "panelLevel": 0,
+                "source": "火影忍者",
+                "status": "未训练"
+              }
+            ]
+          },
+          "attributes": {
+            "scale": {
+              "type": "多世界战斗分级 + d10骰池",
+              "description": "F/E/D/C/B/A/S/SS/EX多世界战斗分级；检定使用d10骰池，8+计1成功，默认10-again。"
+            },
+            "base": {
+              "意志": 3,
+              "感知": 2,
+              "敏捷": 2,
+              "智识": 3,
+              "社交": 1,
+              "身体": 2
+            },
+            "baseMeaning": "普通男性大学生宅男起点；计算机/设定分析相关较强，体能和街头暴力经验较弱。",
+            "statusMultipliers": [],
+            "growthProfile": "成就系统成长；以已有世界观奖励为主，其他世界观为辅。"
+          },
+          "combatRating": {
+            "overall": {
+              "rating": "F级普通人（持有C级潜力种子）",
+              "score": 1,
+              "note": "当前仍是普通人实战水平；查克拉种子尚未训练，只提供初期强化与感知潜力。"
+            },
+            "resource": {
+              "mana": {
+                "current": 0,
+                "max": 10,
+                "name": "查克拉储备"
+              },
+              "money": 4100
+            }
+          },
+          "abilities": [
+            {
+              "description": "体内出现可提炼查克拉的种子，可学习基础查克拉控制。初期主要用于爆发移动、攀爬、平衡、基础感知与身体强化，尚未掌握忍术。",
+              "diceEffects": [
+                "爆发移动/攀爬/平衡/基础感知 +2骰",
+                "相关行动默认10-again",
+                "通过训练或成就可开启忍术路线"
+              ],
+              "id": "chakra-seed",
+              "level": "C级初始奖励",
+              "name": "查克拉种子",
+              "source": "火影忍者",
+              "state": "已获得，未训练",
+              "type": "跨世界成就奖励 / 能量体系种子"
+            }
+          ],
+          "resources": [
+            {
+              "current": 0,
+              "id": "mana",
+              "max": 10,
+              "name": "查克拉储备",
+              "note": "由magic.circuits.currentReserve同步；目前未训练，暂不可稳定调用。",
+              "unit": "reserve"
+            },
+            {
+              "current": 4100,
+              "id": "money",
+              "name": "可用资金合计",
+              "note": "$2,000现金 + $2,100银行余额。",
+              "unit": "USD"
+            },
+            {
+              "current": 2000,
+              "id": "cash",
+              "name": "现金",
+              "note": "初始现金。",
+              "unit": "USD"
+            },
+            {
+              "current": 2100,
+              "id": "bank",
+              "name": "银行余额",
+              "note": "账户与本地身份匹配。",
+              "unit": "USD"
+            },
+            {
+              "current": "纽约皇后区阿斯托里亚一间带小厨房的一居室",
+              "id": "residence",
+              "name": "住宅",
+              "note": "租金压力较大，但可作为安全据点。",
+              "unit": "租约"
+            }
+          ],
+          "inventory": [
+            {
+              "id": "laptop",
+              "importance": "primary",
+              "name": "轻薄笔记本电脑",
+              "note": "学习、检索、编程、信息收集用。",
+              "quantity": 1,
+              "type": "电子设备"
+            },
+            {
+              "id": "backup-phone",
+              "importance": "secondary",
+              "name": "备用手机",
+              "note": "可用于通讯与应急。",
+              "quantity": 1,
+              "type": "电子设备"
+            },
+            {
+              "id": "figure-box",
+              "importance": "secondary",
+              "name": "手办盒",
+              "note": "宅男身份痕迹。",
+              "quantity": 1,
+              "type": "个人物品"
+            },
+            {
+              "id": "campus-card",
+              "importance": "primary",
+              "name": "校园门禁卡",
+              "note": "纽约市立大学布鲁克林学院身份凭证。",
+              "quantity": 1,
+              "type": "身份物品"
+            },
+            {
+              "id": "local-documents",
+              "importance": "primary",
+              "name": "本地身份文件",
+              "note": "学校ID、医保卡、银行账户等记录齐全。",
+              "quantity": 1,
+              "type": "证件"
+            }
+          ],
+          "relationships": [
+            {
+              "currentRelation": "稳定但来历未知",
+              "id": "local-identity-network",
+              "importance": "secondary",
+              "name": "本地身份网络",
+              "note": "学校、银行、医保等记录存在；是否有隐藏来源待剧情探索。"
+            }
+          ],
+          "currentStatus": {
+            "world": "漫威电影宇宙",
+            "location": "纽约皇后区阿斯托里亚一居室",
+            "time": "2008年；托尼·斯塔克在阿富汗失踪前一个月；凌晨雨夜",
+            "condition": "刚穿越并完成本地身份导入；身体未受伤；获得查克拉种子但尚未训练。"
+          },
+          "rpMode": {
+            "viewMode": "Actor",
+            "userInputHandling": "安科 / 安价 / 类跑团混合；用户控制主角，AI控制NPC、环境、事件。",
+            "actorBoundary": "不替用户做关键选择；用户行动需判断可行性、OOC、信息条件、能力条件与现实阻力。",
+            "stylePolicy": "混合文风；根据场景切换，一个场景内可混用电影感白描、真实感身体叙事、推理悬疑、政治惊悚、战斗全感官等。"
+          },
+          "notes": "本局新主角。普通人穿越到MCU，开局时间为托尼·斯塔克在阿富汗失踪前一个月。初始奖励选择C级《火影忍者》查克拉种子。"
+        }
+      }
+    }
+  ]
+}
