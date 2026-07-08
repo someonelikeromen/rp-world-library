@@ -1,0 +1,367 @@
+{
+  "_schema": "rp-world-volume-v1",
+  "world": "hidan-no-aria",
+  "volume": "vol-36",
+  "periods": [
+    {
+      "period_id": "vol-36",
+      "volume": "vol-36",
+      "time": "第三十六卷 飞向绮罗月",
+      "name": {
+        "zh": "绯弹的亚莉亚 第三十六卷 飞向绮罗月",
+        "en": "Aria the Scarlet Ammo Vol.36",
+        "jp": "緋弾のアリア 36"
+      },
+      "genre": [
+        "学园武侦",
+        "超自然",
+        "军事",
+        "科幻潜艇",
+        "异世界政治"
+      ],
+      "summary": "本卷从丁暴露列库忒亚公会开始，金次等人在红鹤寺发现列库忒亚裔互助社群及其背后的列库忒亚共和联盟。丁试图借七折凶星与水月婚成为路西菲莉亚，金次、亚莉亚和尼莫阻止其计划，路西菲莉亚消耗一条寿命复活并显示第二形态。金次随后宣布走门派稳健融合路线，促使尼莫率诺契勒斯脱离莫里亚蒂的N。后半卷描写诺契勒斯作为战斗舰与学习舰的内部生活，金次逐渐理解列库忒亚人与人类融合的困难，并向尼莫揭示莫里亚蒂真正企图以战争推动第三次接轨。卷末诺契勒斯抵达孟买，蕾姬、夏洛克信件和伊·U出现，引向第二届伊·U同学会。",
+      "core_conflict": "列库忒亚人与人类应通过恐怖主义/战争建国、莫里亚蒂式激进接轨，还是通过学习、爱与稳健融合共存。",
+      "atmosphere": "前半为寺院阴谋与高速空战，后半转为核潜艇密闭生活、文化冲突与政治阴谋，结尾以孟买港新危机收束。",
+      "timeline": [
+        {
+          "event_id": "lectea-guild-investigation",
+          "summary": "金次等参加红鹤寺列库忒亚公会集会。",
+          "sourceRef": "hidan-no-aria-main/vol-36/full.txt:438"
+        },
+        {
+          "event_id": "republican-alliance-proposal",
+          "summary": "丁揭示列库忒亚共和联盟并邀请路西菲莉亚建国。",
+          "sourceRef": "hidan-no-aria-main/vol-36/full.txt:898"
+        },
+        {
+          "event_id": "water-moon-marriage-battle",
+          "summary": "九十九里空战阻止水月婚。",
+          "sourceRef": "hidan-no-aria-main/vol-36/full.txt:2115"
+        },
+        {
+          "event_id": "nautilus-defection",
+          "summary": "尼莫宣布诺契勒斯脱离N。",
+          "sourceRef": "hidan-no-aria-main/vol-36/full.txt:3130"
+        },
+        {
+          "event_id": "nemo-moriarty-revelation",
+          "summary": "金次向尼莫揭示莫里亚蒂战争计划。",
+          "sourceRef": "hidan-no-aria-main/vol-36/full.txt:5048"
+        },
+        {
+          "event_id": "mumbai-arrival",
+          "summary": "诺契勒斯抵达孟买，伊·U出现。",
+          "sourceRef": "hidan-no-aria-main/vol-36/full.txt:5291"
+        }
+      ],
+      "rules": [
+        "sourceRef采用hidan-no-aria-main/vol-36/full.txt:行号",
+        "每实体独立文件",
+        "跨实体引用使用纯ID"
+      ],
+      "history_eras": [
+        "第三次接轨前夜",
+        "N内部分裂"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-36/full.txt:1",
+        "hidan-no-aria-main/vol-36/full.txt:5412"
+      ]
+    },
+    {
+      "period_id": "vol-37",
+      "name": "印度WATSON行动",
+      "summary": "Vol-37 shifts the anti-N/Moriarty campaign to India. Sherlock brings I-U to Mumbai, creates the mixed Reunion alliance with Nautilus, and sends Kinji's team inland under the pretext of recovering a 'Wonder absolute true strongest overwhelming noggin'. The mission uncovers Carbuncle, a Rekuthia earth goddess split by Sherlock a century earlier, whose life had been stolen to block Moriarty's seven-life immortality chain. Carbuncle abducts Meluette and Hilda, but Kinji's team reaches Chhat, exhausts Carbuncle's magic, defeats and reconciles with her, survives a corrupt police/army assault, and diverts a missile into a magic array. The supposed treasure is revealed as WATSON: John H. Watson I, living under the name Titaro-Dado, who held Carbuncle's life for 98 years and now rejoins Sherlock as the 'third man'.",
+      "major_locations": [
+        "mumbai",
+        "taj-mahal-palace-hotel",
+        "zandra",
+        "chhat-village",
+        "chhat-ruins",
+        "carbuncle-basin",
+        "carbuncle-shrine"
+      ],
+      "major_factions": [
+        "reunion",
+        "i-u",
+        "nautilus",
+        "n",
+        "rekuthia-gods",
+        "chhat-security-police"
+      ],
+      "major_events": [
+        "mumbai-iu-nautilus-rendezvous",
+        "second-iu-reunion",
+        "zandra-investigation",
+        "carbuncle-raid-zandra",
+        "chhat-ruins-infiltration",
+        "carbuncle-duel",
+        "security-police-attack",
+        "missile-to-magic-circle",
+        "watson-reveal"
+      ],
+      "status_changes": [
+        "I-U and Nautilus enter a practical alliance through Reunion.",
+        "Carbuncle severs ties with Moriarty and leaves for Rekuthia after recovering/repairing her life.",
+        "Moriarty remains deprived of Carbuncle's life link, preserving a key weakness in his immortality system.",
+        "John H. Watson I is revealed and reunites with Sherlock, greatly increasing Sherlock's future effectiveness.",
+        "Meluette, Hilda and the Chhat women are freed; local police attack ends after their mistaken target is revealed."
+      ],
+      "sourceRef": "hidan-no-aria-main/vol-37/full.txt:1"
+    },
+    {
+      "period_id": "vol-38",
+      "volume": "vol-38",
+      "time": "福尔摩斯与华生重逢后，金次回日本备考并赴山形山渊隐居期间",
+      "name": {
+        "zh": "不会忘记爱",
+        "en": "I Won't Forget Love",
+        "jp": ""
+      },
+      "genre": [
+        "武侦动作",
+        "都市异能",
+        "政治阴谋",
+        "乡土神秘",
+        "恋爱喜剧"
+      ],
+      "summary": "本卷从印度赞达剌的福尔摩斯与华生一世重组开始。金次为赶上东京大学学警武侦自荐面试，借尼莫的相位跳跃、伊・U的ICBM改造舱北极星、海保直升机和不知火的人脉，从印度高速返回东京。随后他因备考环境被白雪、理子、金女、蕾姬等人打扰，携远山金四郎遗刀光影前往山形请南丁修补，并在无人村山渊邂逅与亡母同名且酷似母亲的秋庭原悠树菜。牛义乡的荒胫巾信仰、公安对悠树菜的追捕、旧公安零课与武装检察官的介入，将隐居备考变成新的冲突。",
+      "core_conflict": "金次在东大升学与对卒求生的长期目标、对母亲之爱的渴望、对秋庭原悠树菜身份的疑惑，以及日本政府/公安围绕荒胫巾与国难的行动之间被撕扯。",
+      "atmosphere": "前半段高速喜剧与行动戏密集，后半段转为山村宁静、母性幻影与乡土神秘并存，最终以公安围捕和强者对峙收束。",
+      "timeline": [
+        {
+          "event_id": "holmes-watson-reunion",
+          "summary": "赞达剌街头，夏洛克与华生一世重逢，契合度使夏洛克能力大幅提升。",
+          "sourceRef": "hidan-no-aria-main/vol-38/full.txt:17"
+        },
+        {
+          "event_id": "kinji-polestar-return",
+          "summary": "金次为了东大学警武侦自荐，在一小时半内从印度经北极星和海保回到东京。",
+          "sourceRef": "hidan-no-aria-main/vol-38/full.txt:338"
+        },
+        {
+          "event_id": "todai-self-recommendation",
+          "summary": "金次在东大第二本部大楼向鬼冢教授提交自荐信并接受简短面谈。",
+          "sourceRef": "hidan-no-aria-main/vol-38/full.txt:641"
+        },
+        {
+          "event_id": "yamabuchi-arrival",
+          "summary": "金次为修补光影来到山形牛义乡山渊，开始无人村隐居读书。",
+          "sourceRef": "hidan-no-aria-main/vol-38/full.txt:1830"
+        },
+        {
+          "event_id": "yukina-first-meeting",
+          "summary": "金次在山渊溪边邂逅秋庭原悠树菜，发现她的名字与气质触及亡母记忆。",
+          "sourceRef": "hidan-no-aria-main/vol-38/full.txt:2090"
+        },
+        {
+          "event_id": "ushiyoshi-shrine-festival",
+          "summary": "金次与悠树菜参加牛义神社祭典，知晓荒胫巾监视恶事、喜爱孩子的地方信仰。",
+          "sourceRef": "hidan-no-aria-main/vol-38/full.txt:3610"
+        },
+        {
+          "event_id": "public-security-raid-yamabuchi",
+          "summary": "旧公安零课与武装检察官在山渊森林围捕悠树菜，金次为保护她与狮堂班对峙。",
+          "sourceRef": "hidan-no-aria-main/vol-38/full.txt:4240"
+        }
+      ],
+      "rules": [
+        "福尔摩斯与华生一世的极端契合度能让夏洛克的能力值急剧上升。",
+        "远山家的爆发模式伴随对卒风险，过度使用脑部会引发剧烈头痛甚至致死。",
+        "学警武侦可作为大学录取制度的一部分，平时隐蔽身份保护校园。",
+        "牛义乡荒胫巾信仰认为神会监视成人恶行、喜爱孩子，并以稻交制裁邪恶。",
+        "旧公安零课和武装检察官在国家安全案件中拥有极高行动自由度，能越过普通警察程序。"
+      ],
+      "history_eras": [
+        "莫里亚蒂/N对抗阶段",
+        "金次东大备考阶段",
+        "牛义乡荒胫巾事件开端"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-38/full.txt:17",
+        "hidan-no-aria-main/vol-38/full.txt:338",
+        "hidan-no-aria-main/vol-38/full.txt:2090",
+        "hidan-no-aria-main/vol-38/full.txt:4240"
+      ]
+    },
+    {
+      "period_id": "vol-39-main",
+      "volume": "vol-39",
+      "time": "荒胫巾事件与梅梅特到来",
+      "name": {
+        "zh": "绯弹的亚莉亚 第三十九卷 荒胫巾的巫女",
+        "en": "Aria the Scarlet Ammo Vol.39",
+        "jp": "緋弾のアリア 39 荒脛巾の巫女"
+      },
+      "genre": [
+        "学园武侦",
+        "超自然",
+        "宗教神话",
+        "兄妹喜剧",
+        "家庭伦理"
+      ],
+      "summary": "金次为修理刀来到山形山渊，遭遇自称悠树菜的粉金发女性。武装检察官不破与旧公安零课追踪而至，揭示悠树菜实为列库忒亚女神阿烈波波岐（荒胫巾）的显现。金次与零课结盟、在迷家中与不破决斗、最终用拥抱阻止了被总意控制的神罚，完成与亡母的约定后告别。回到东京后，金次被佩特拉的妹妹梅梅特以\"哥哥奴隶\"身份支配，了解她第二型超能力不稳定的创伤，带她去丰岛园庆生。卷末金女与梅梅特的妹妹大战后，金次收到莎拉传信：诺契勒斯与伊·U已被击沉。",
+      "core_conflict": "国家试图将超自然存在用于军事 vs 个人情感与保护；妹妹争夺哥哥的统治权",
+      "atmosphere": "前半山形红叶中的枪剑对决与神域超自然，转为东京台场的毒舌妹妹喜剧，结尾以潜艇沉没的悬念收束",
+      "timeline": [
+        {
+          "event_id": "bus-stop-abduction",
+          "summary": "金次在公车站被不破用KOLOKOL-1麻醉，悠树菜被带走。",
+          "sourceRef": "hidan-no-aria-main/vol-39/full.txt:1"
+        },
+        {
+          "event_id": "zero-section-alliance",
+          "summary": "金次说服旧零课组成怪兽军团对抗不破。",
+          "sourceRef": "hidan-no-aria-main/vol-39/full.txt:471"
+        },
+        {
+          "event_id": "kogei-delivery",
+          "summary": "丁在深夜交付重修光影。",
+          "sourceRef": "hidan-no-aria-main/vol-39/full.txt:471"
+        },
+        {
+          "event_id": "fire-dogu-rescue",
+          "summary": "金次与大门从火焰土偶中救出悠树菜并坠入迷家。",
+          "sourceRef": "hidan-no-aria-main/vol-39/full.txt:925"
+        },
+        {
+          "event_id": "mayoiga-revelation",
+          "summary": "悠树菜揭示自己为阿烈波波岐女神身份。",
+          "sourceRef": "hidan-no-aria-main/vol-39/full.txt:925"
+        },
+        {
+          "event_id": "kinji-fuwa-duel",
+          "summary": "金次在迷家中与不破决斗被逼至斩首边缘。",
+          "sourceRef": "hidan-no-aria-main/vol-39/full.txt:925"
+        },
+        {
+          "event_id": "arepopoki-rampage-reconciliation",
+          "summary": "金次用Stop Near+景躲过稻叉后拥抱阿烈波波岐使其恢复平静。",
+          "sourceRef": "hidan-no-aria-main/vol-39/full.txt:925"
+        },
+        {
+          "event_id": "farewell-yukina",
+          "summary": "金次在河边与悠树菜（母亲形象）完成永远的告别。",
+          "sourceRef": "hidan-no-aria-main/vol-39/full.txt:925"
+        },
+        {
+          "event_id": "memet-arrival-and-enslavement",
+          "summary": "金次在乃木坂见到梅梅特，被以诬告威胁成为哥哥奴隶。",
+          "sourceRef": "hidan-no-aria-main/vol-39/full.txt:2395"
+        },
+        {
+          "event_id": "memet-ssr-trauma-reveal",
+          "summary": "梅梅特在隅田川露台坦白诅咒之女创伤，金次带她去丰岛园。",
+          "sourceRef": "hidan-no-aria-main/vol-39/full.txt:3813"
+        },
+        {
+          "event_id": "toshimaen-youtuber-arrest",
+          "summary": "金次与梅梅特在丰岛园逮捕迷惑YouTuber六人组。",
+          "sourceRef": "hidan-no-aria-main/vol-39/full.txt:3813"
+        },
+        {
+          "event_id": "sister-war-kinjo-memet",
+          "summary": "金女闯入与梅梅特爆发妹妹大战，结婚登记书被金次吃掉。",
+          "sourceRef": "hidan-no-aria-main/vol-39/full.txt:4709"
+        },
+        {
+          "event_id": "nemo-message-nautilus-iu-sunk",
+          "summary": "莎拉传信：诺契勒斯与伊·U已被击沉。",
+          "sourceRef": "hidan-no-aria-main/vol-39/full.txt:4709"
+        }
+      ],
+      "rules": [
+        "sourceRef采用hidan-no-aria-main/vol-39/full.txt:行号",
+        "每实体独立文件",
+        "跨实体引用使用纯ID"
+      ],
+      "history_eras": [
+        "阿烈波波岐监视周期完成",
+        "梅梅特留学时期",
+        "第三次接轨前哨战"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-39/full.txt:1",
+        "hidan-no-aria-main/vol-39/full.txt:4854"
+      ]
+    },
+    {
+      "period_id": "vol-40",
+      "volume": "vol-40",
+      "time": "第四十卷",
+      "name": {
+        "zh": "绯弹的亚莉亚 第四十卷 长尾巴的女人",
+        "en": "Hidan no Aria Volume 40: The Long-Tailed Woman",
+        "jp": "緋弾のアリア XL"
+      },
+      "genre": [
+        "武侦动作",
+        "异能战斗",
+        "国际冒险",
+        "阴谋"
+      ],
+      "summary": "金次收到莎拉传来的‘鹦鹉螺号和伊·U被击沉’口信后，带金女、梅梅特、贞德赴埃及追踪莎拉。队伍在开罗和吉萨经历游客骗局、市场追逐、金字塔大战并俘获莎拉，得知第二次苏伊士监视委托。金次等人前往苏伊士途中遭铁轨破坏和警官哈桑诈骗，却得到贝都因人穆斯塔法与拉拉无偿帮助穿越东方沙漠。抵达苏伊士后，拉斯普丁纳作为第一层‘长尾巴的女人’现身复仇并被金次、金女、梅梅特和乘短程北极星赶到的亚莉亚击败。卷末，拉斯普丁纳带金次和亚莉亚来到陶菲克Merrow旅馆，真正的尾巴女人人鱼勒维亚桑与莫里亚蒂教授现身。",
+      "core_conflict": "金次必须确认潜艇同伴安危，同时突破莎拉、拉斯普丁纳、勒维亚桑与莫里亚蒂组成的层层代理人情报战。",
+      "atmosphere": "埃及沙尘、伊斯兰都市、古代遗迹、沙漠星空与苏伊士战场遗迹交织；喜剧式文化冲击下隐藏N主线阴谋。",
+      "timeline": [
+        {
+          "event_id": "sarah-skype-warning",
+          "summary": "莎拉传达潜艇击沉情报。"
+        },
+        {
+          "event_id": "egypt-team-formation",
+          "summary": "埃及追踪队伍组建。"
+        },
+        {
+          "event_id": "cairo-arrival-old-cairo-hideout",
+          "summary": "抵达开罗并建立藏身处。"
+        },
+        {
+          "event_id": "giza-sarah-capture",
+          "summary": "吉萨与胡夫金字塔追捕莎拉。"
+        },
+        {
+          "event_id": "sarah-interrogation-suez-decision",
+          "summary": "莎拉透露第二次苏伊士监视委托。"
+        },
+        {
+          "event_id": "bedouin-desert-crossing",
+          "summary": "贝都因骆驼队带队穿越沙漠。"
+        },
+        {
+          "event_id": "suez-rasputina-battle",
+          "summary": "苏伊士炮台遗址击败拉斯普丁纳。"
+        },
+        {
+          "event_id": "merrow-leviasan-moriarty-encounter",
+          "summary": "勒维亚桑与莫里亚蒂现身。"
+        }
+      ],
+      "rules": [
+        "苏伊士运河通过时潜艇必须浮上，故可肉眼确认也会暴露。",
+        "埃及伊斯兰社会中头巾/罩袍、礼拜和男女接触规则影响行动。",
+        "远山家爆发模式可发展出姐对和镜拳等变异。",
+        "莱克忒亚系敌人拥有龙、人鱼等非人身体特征和魔术能力。"
+      ],
+      "history_eras": [
+        "现代埃及军政与旅游社会",
+        "苏伊士战争遗迹与中东战争记忆",
+        "N与莱克忒亚主线延续"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-40/full.txt"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-36/full.txt:1",
+    "hidan-no-aria-main/vol-37/full.txt:1",
+    "hidan-no-aria-main/vol-38/full.txt:17",
+    "hidan-no-aria-main/vol-39/full.txt:1",
+    "hidan-no-aria-main/vol-40/full.txt"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "fuma-firelock-sniping",
+  "volume": "vol-30",
+  "source_refs": [
+    "hidan-no-aria-main/vol-30/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-30",
+      "volume": "vol-30",
+      "time": "第三十卷",
+      "name": {
+        "zh": "风魔火绳枪狙击"
+      },
+      "type": "archaic firearm marksmanship",
+      "description": "风魔使用种子岛火绳枪与早合纸弹壳进行射击；她自称风魔的枪一发必中。",
+      "known_users": [
+        "fuma-hina"
+      ],
+      "principles": "大口径铅丸近距离威力巨大，早合可将装填时间缩短至约15秒。",
+      "limitations": [
+        "单发且装填极慢",
+        "滑膛枪远距离精度差",
+        "走火风险与误伤风险高"
+      ],
+      "key_events": [
+        "narita-cromedelle-departure",
+        "gas-station-mafia-attack",
+        "bates-silo-fight"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-30/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-31",
+      "volume": "vol-31",
+      "time": "第三十一卷",
+      "name": {
+        "zh": "风魔火绳枪狙击",
+        "en": "Fuma firelock sniping"
+      },
+      "aliases": [
+        "一发必中",
+        "火绳枪"
+      ],
+      "type": "skill / shooting / ninja",
+      "description": "风魔使用家传火绳枪进行一发必中式狙击；铅弹不受贝茨姊妹磁力影响，成为终局胜因。",
+      "details": {
+        "user": "fuma-hina",
+        "item": "fuma-tanegashima",
+        "ammunition": "铅球弹"
+      },
+      "activation": {
+        "condition": "需装填、点火与稳定射线",
+        "incantation": "风魔的枪乃一发必中",
+        "time": "单发射击",
+        "cost": "装填慢，但可用早合缩短"
+      },
+      "effects": [
+        "击碎诺玛与珊蒂各一只角",
+        "打断贝茨姊妹磁力输出与战意"
+      ],
+      "power_level": {
+        "initial": "高",
+        "peak": "连穿两名超能力者角部目标",
+        "evolution": []
+      },
+      "known_feats": [
+        "尼加拉河战中决定性制伏贝茨姊妹"
+      ],
+      "shared_by": [
+        "fuma-hina"
+      ],
+      "see_also": [
+        "fuma-tanegashima",
+        "bates-magnetokinesis"
+      ],
+      "countered_by": [],
+      "counters": [
+        "bates-magnetokinesis",
+        "bates-demonic-output"
+      ],
+      "variations": [
+        "早合装填"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-31/chapters/ch-005-第三十一卷_寂静之鬼_5弹_寸步不退.txt:1370"
+      ]
+    }
+  ]
+}

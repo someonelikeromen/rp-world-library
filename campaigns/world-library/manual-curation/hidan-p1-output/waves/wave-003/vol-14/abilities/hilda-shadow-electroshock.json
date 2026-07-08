@@ -1,0 +1,52 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "hilda-shadow-electroshock",
+  "volume": "vol-14",
+  "periods": [
+    {
+      "period_id": "vol-14-main",
+      "volume": "vol-14",
+      "time": "蓝帮城死亡游戏",
+      "name": {
+        "zh": "希尔达影子放电",
+        "en": "Hilda Shadow Electroshock"
+      },
+      "aliases": [
+        "影子电击",
+        "高压电流地雷"
+      ],
+      "type": "supernatural / vampire ability",
+      "description": "希尔达以影子潜入敌人脚下，再释放60～90万伏特级高压电流，借黄金阶梯的导电性击倒女仆盾阵。",
+      "details": {
+        "voltage": "60～90万伏特",
+        "medium": "黄金阶梯导电性强，扩大效果",
+        "countermeasure": "炮娘用瓷壶绝缘踏脚规避"
+      },
+      "activation": {
+        "condition": "夜间、影子可接触敌阵脚下",
+        "cost": "电力有限，第二次开始有节约迹象"
+      },
+      "effects": [
+        "击倒女仆队",
+        "迫使炮娘暂退",
+        "为巴斯克维尔上楼争取时间"
+      ],
+      "shared_by": [
+        "hilda"
+      ],
+      "countered_by": [
+        "ceramic-jar-insulation"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-14/chapters/ch-003-第十四卷_不请自来的海雾_3弹_死亡游戏.txt:819",
+        "hidan-no-aria-main/vol-14/chapters/ch-003-第十四卷_不请自来的海雾_3弹_死亡游戏.txt:843",
+        "hidan-no-aria-main/vol-14/chapters/ch-003-第十四卷_不请自来的海雾_3弹_死亡游戏.txt:947"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-14/chapters/ch-003-第十四卷_不请自来的海雾_3弹_死亡游戏.txt:843"
+  ]
+}

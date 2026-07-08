@@ -1,0 +1,45 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "robot-arm-operation",
+  "volume": "vol-21",
+  "source_refs": [
+    "hidan-no-aria-main/vol-21/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-21",
+      "volume": "vol-21",
+      "time": "第二十一卷",
+      "name": {
+        "zh": "太空机械臂操作",
+        "en": "Orbiter robot arm operation"
+      },
+      "aliases": [
+        "LHC操纵器操作"
+      ],
+      "type": "technology / piloting",
+      "description": "冈萨雷兹操作太空梭机械臂，将绯绯色金从货物舱搬出并稳定到释放位置。",
+      "details": {
+        "device": "机械手臂/LHC"
+      },
+      "activation": {
+        "condition": "轨道器货舱任务"
+      },
+      "effects": [
+        "移动大型货物",
+        "定位释放点"
+      ],
+      "known_feats": [
+        "将绯绯色金移出货舱"
+      ],
+      "shared_by": [
+        "gonzalez"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-21/full.txt"
+      ]
+    }
+  ]
+}

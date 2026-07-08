@@ -1,0 +1,656 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "beretta",
+  "volume": "vol-24",
+  "time_range": {
+    "start": "vol-24",
+    "end": "vol-24"
+  },
+  "sub_arcs": [
+    "rome-transfer",
+    "beretta-revolution-gun",
+    "rosetta-rivalry"
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-24/chapters/ch-001-第二十四卷_狂逸的同学会_1弹_帕里奥利的手枪技师.txt:10",
+    "hidan-no-aria-main/vol-24/chapters/ch-005-第二十四卷_狂逸的同学会_4弹_贝瑞塔·金次样式.txt:1360"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-24-main",
+      "volume": "vol-24",
+      "time": "罗马篇",
+      "label": "贝瑞塔公司大小姐、罗马武侦高中E3班学生",
+      "name": {
+        "zh": "贝瑞塔·贝瑞塔",
+        "en": "Beretta Beretta",
+        "jp": ""
+      },
+      "aliases": [
+        "贝瑞塔小妹妹",
+        "大小姐",
+        "一四一公分量尺"
+      ],
+      "titles": [
+        "贝瑞塔公司大小姐",
+        "前装备科S级",
+        "罗马武侦高中最优秀武侦奖获得者"
+      ],
+      "gender": "女",
+      "species": "人类",
+      "nationality": "意大利",
+      "occupation": "罗马武侦高中学生、枪械技师、发明家、贝瑞塔公司继承候补",
+      "affiliation": "贝瑞塔公司；罗马武侦高中E3班/车辆科",
+      "status": {
+        "physical": "健康；身材娇小但常携大量隐藏武器",
+        "social": "因金次坏债卷入继承权与公司声誉危机",
+        "emotional": "外强中干，承受死亡商人与妹妹罗洁塔羞辱的压力"
+      },
+      "appearance": {
+        "overview": "娇小金发少女，蓝绿色眼睛，常穿罗马武侦高中黑制服与迷你裙。",
+        "distinctive": [
+          "金发轻飘",
+          "身高约141cm",
+          "会从裙底与袖口展开枪械"
+        ],
+        "attire": {
+          "default": "黑色武侦制服与迷你裙",
+          "combat": "枪座裙和多把革命枪"
+        }
+      },
+      "personality": {
+        "summary": "暴躁、拜金、虐待狂式嘴硬；本质认真、有向上心并渴望正义。",
+        "core_traits": [
+          "傲娇式强硬",
+          "枪械天才",
+          "喜欢日本动画和日本文化",
+          "对金钱敏感",
+          "对阿兰和同学有柔软面"
+        ],
+        "values": [
+          "技术品质",
+          "偿还债务",
+          "努力克服弱点",
+          "正义使者式理想"
+        ],
+        "flaws": [
+          "情绪化",
+          "驾驶差",
+          "对身高胸围自卑",
+          "容易用暴力表达"
+        ],
+        "inner_conflict": "作为枪械制造商继承候补，她既以武器产业为傲，又被死亡商人评价刺伤，内心向往正义英雄。"
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {
+          "kinji": "猪/狗/金次",
+          "lisa": "丽莎",
+          "rosetta": "罗洁塔"
+        },
+        "register": {
+          "normal": "尖锐、命令式、夹杂意大利语",
+          "soft": "对阿兰或被爆发金触动时变得害羞"
+        },
+        "catchphrases": [
+          "Mamma mia!",
+          "Allora",
+          "Bene"
+        ]
+      },
+      "habits": {
+        "mannerisms": [
+          "做掷球入场般的愤怒手势",
+          "用笔记本记录日文和日本文化",
+          "压力大时Cosplay水手火星"
+        ],
+        "preferences": {
+          "food": "比萨、义式奶冻、日本料理和手工便当",
+          "media": "日本动画，尤其美少女战士和机器人动画"
+        }
+      },
+      "background": {
+        "birth": {
+          "family": [
+            "贝瑞塔家族",
+            "同父异母妹妹罗洁塔"
+          ]
+        },
+        "education": {
+          "former": "罗马武侦高中装备科S级",
+          "current": "车辆科E级班"
+        },
+        "pre_story": "曾为亚莉亚改造手枪，提出给金次的奖学金；金次留级导致贷款变为债务。"
+      },
+      "abilities_owned": [
+        "beretta-gunsmithing",
+        "weapon-engineering",
+        "gun-seat-skirt-operation"
+      ],
+      "possessions_owned": [
+        "beretta-revolution-gun",
+        "beretta-gun-seat-skirt",
+        "beretta-ferrari-california",
+        "beretta-tactical-pen",
+        "beretta-cross-necklace",
+        "sailor-mars-cosplay",
+        "beretta-workshop",
+        "kinji-beretta-kinji-model"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "债权人/饲主式同居监视对象；逐渐信赖",
+          "summary": "讨债拘禁金次，但在他保护阿兰、维护自己并理解正义心后逐渐对他心软。"
+        },
+        "lisa": {
+          "type": "家中女仆协力者",
+          "summary": "接受丽莎做日本料理来抵利息，允许其留在宅邸。"
+        },
+        "reki": {
+          "type": "雇佣狙击手",
+          "summary": "雇佣蕾姬监视金次。"
+        },
+        "sarah": {
+          "type": "雇佣弓手",
+          "summary": "雇佣莎拉监视金次。"
+        },
+        "elma": {
+          "type": "部下/侍从",
+          "summary": "艾尔玛服侍并协助贝瑞塔处理车辆与资料。"
+        },
+        "rosetta": {
+          "type": "同父异母妹妹/继承权竞争者",
+          "summary": "罗洁塔利用金次债务丑闻攻击贝瑞塔，并煽动A1班霸凌她。"
+        },
+        "aria": {
+          "type": "旧同学/旧客户",
+          "summary": "亚莉亚曾在罗马武侦高中就读，手枪全自动化由贝瑞塔改造；两人在罗马重逢。"
+        },
+        "e3-class": {
+          "type": "同班同伴",
+          "summary": "E3班虽然懒散，却在阿兰事件中支持贝瑞塔。"
+        }
+      },
+      "knowledge": [
+        "beretta-loan-default",
+        "revolutionary-gun-secret",
+        "weapons-maker-ethics",
+        "rosetta-inheritance-rumor"
+      ],
+      "secrets": [
+        "喜欢Cosplay水手火星来减压",
+        "罗洁塔是父亲与情妇所生的异母妹妹"
+      ],
+      "summary": "贝瑞塔是本卷核心人物。她以债权人身份拘禁金次，却逐渐暴露出枪械发明家的才华、被继承权斗争压迫的脆弱、对日本动画和正义理想的憧憬。她发明革命枪和枪座裙，准备公司简报，同时因金次坏债和罗洁塔挑衅承受压力。",
+      "key_events": [
+        {
+          "event_id": "rome-airport-debt-capture",
+          "summary": "在罗马机场以蕾姬、莎拉和枪座裙拘捕金次讨债。",
+          "sourceRef": "hidan-no-aria-main/vol-24/full.txt:10"
+        },
+        {
+          "event_id": "beretta-workshop-weapon-disassembly",
+          "summary": "在地下工作室拆解金次武装，展示枪械技师才能与革命枪构想。",
+          "sourceRef": "hidan-no-aria-main/vol-24/full.txt:701"
+        },
+        {
+          "event_id": "a1-bullying-beretta-textbook",
+          "summary": "被罗洁塔和A1班以死亡商人之名羞辱，车辆科课本被撕毁。",
+          "sourceRef": "hidan-no-aria-main/vol-24/full.txt:3470"
+        },
+        {
+          "event_id": "beretta-cosplay-righteous-heart",
+          "summary": "被金次撞见水手火星Cosplay，金次指出她拥有正义之心。",
+          "sourceRef": "hidan-no-aria-main/vol-24/full.txt:4038"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-24/chapters/ch-001-第二十四卷_狂逸的同学会_1弹_帕里奥利的手枪技师.txt:10",
+        "hidan-no-aria-main/vol-24/chapters/ch-001-第二十四卷_狂逸的同学会_1弹_帕里奥利的手枪技师.txt:701",
+        "hidan-no-aria-main/vol-24/chapters/ch-004-第二十四卷_狂逸的同学会_3弹_义士的球探.txt:134",
+        "hidan-no-aria-main/vol-24/chapters/ch-004-第二十四卷_狂逸的同学会_3弹_义士的球探.txt:702",
+        "hidan-no-aria-main/vol-24/chapters/ch-005-第二十四卷_狂逸的同学会_4弹_贝瑞塔·金次样式.txt:86"
+      ]
+    },
+    {
+      "period_id": "vol-25",
+      "volume": "vol-25",
+      "time": "第二十五卷 罗马的军神星",
+      "label": "历史分歧点与茹斯特创始人",
+      "name": {
+        "zh": "贝瑞塔·贝瑞塔",
+        "en": "Beretta Beretta",
+        "jp": "ベレッタ・ベレッタ"
+      },
+      "aliases": [
+        "贝瑞塔",
+        "同志贝瑞塔"
+      ],
+      "titles": [
+        "贝瑞塔公司千金",
+        "天才枪械技师",
+        "茹斯特初代长官"
+      ],
+      "gender": "female",
+      "species": "human",
+      "nationality": "Italian",
+      "occupation": "枪械技师/学生/茹斯特创始人",
+      "affiliation": "贝瑞塔家族/茹斯特",
+      "status": {
+        "physical": "曾被衰变铀弹引发心肺停止后复苏",
+        "social": "被公司革职后复学；茹斯特计划获得重新讨论机会",
+        "mental": "从死亡商人价值观转向限制武器与正义使者理想"
+      },
+      "appearance": {
+        "overview": "金发、蓝绿色眼睛、娇小体型；常穿罗马武侦高或东京武侦高风格制服。",
+        "distinctive": [
+          "水手火星变身棒护身符",
+          "尖锐犬齿般的咬击"
+        ]
+      },
+      "personality": {
+        "summary": "自尊强、天才且现实，经历中弹后决定改变自身和武器产业方向。",
+        "core_traits": [
+          "高傲",
+          "勤勉",
+          "技术天才",
+          "意志坚强"
+        ],
+        "values": [
+          "未来",
+          "正义",
+          "技术责任"
+        ],
+        "flaws": [
+          "生活能力薄弱",
+          "容易逞强"
+        ]
+      },
+      "abilities_owned": [
+        "beretta-gunsmithing",
+        "juste-concept-design"
+      ],
+      "possessions_owned": [
+        "revolution-gun-md-series",
+        "sailor-mars-wand",
+        "beretta-tactical-pen"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "debtor/protected-person/romantic-feeling",
+          "summary": "替金次垫付债务并爱上他；离别时要求其日后亲自回罗马还债。"
+        },
+        "aria": {
+          "type": "friend",
+          "summary": "接受亚莉亚对现实与正义的激励。"
+        },
+        "rosetta": {
+          "type": "half-sister/rival",
+          "summary": "简报竞争后被罗洁塔利用又由其补救。"
+        },
+        "elma": {
+          "type": "supporter",
+          "summary": "艾尔玛和公司女员工在她失势后继续支援。"
+        },
+        "nemo": {
+          "type": "targeted-by",
+          "summary": "被N认定为人类历史分歧点，先招揽后试图杀害/再度绑架。"
+        },
+        "granduca": {
+          "type": "kidnapper",
+          "summary": "被古兰督卡和伊欧当诱饵带到竞技场。"
+        }
+      },
+      "knowledge": [
+        "beretta-history-bifurcation-point",
+        "revolution-gun-md-series-secret",
+        "juste-founding-ideal"
+      ],
+      "secrets": [
+        "MD系列设计原本可用3D打印低价扩散枪械，她亲手销毁设计资料。"
+      ],
+      "summary": "贝瑞塔是本卷核心人物。N欲利用她作为让文明倒退的分歧点，因她拥有以3D列印枪械改变全球武器流通的才华。她被自己制造的衰变铀弹击中后醒悟，销毁MD系列资料，向贝瑞塔公司提出停止扩散武器并创立无偿正义使者组织『茹斯特』的理念。失去公司地位后，她仍在特拉斯提弗列重新起步，打造八岐大蛇给金次，并在竞技场用战术笔反击伊欧。",
+      "key_events": [
+        {
+          "event_id": "beretta-md-series-destroyed",
+          "summary": "销毁革命枪MD系列设计资料，放弃成为死亡商人的道路。",
+          "sourceRef": "hidan-no-aria-main/vol-25/full.txt"
+        },
+        {
+          "event_id": "juste-presentation",
+          "summary": "在公司简报中提出停止大量生产武器与建立茹斯特。",
+          "sourceRef": "hidan-no-aria-main/vol-25/full.txt"
+        },
+        {
+          "event_id": "airport-farewell-debt-contract",
+          "summary": "撕毁债务契约并向金次告白后送其回国。",
+          "sourceRef": "hidan-no-aria-main/vol-25/full.txt"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-25/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-41-referenced",
+      "volume": "vol-41",
+      "time": "Angelica/Giusto references",
+      "label": "Giusto founder and weapons designer",
+      "name": {
+        "zh": "贝瑞塔·贝瑞塔",
+        "en": "Beretta Beretta",
+        "jp": "ベレッタ"
+      },
+      "aliases": [
+        "Giusto长官",
+        "长官"
+      ],
+      "gender": "female",
+      "species": "human",
+      "occupation": "weapons designer; NGO founder",
+      "affiliation": "Giusto",
+      "status": {
+        "alive": true,
+        "offscreen": true
+      },
+      "summary": "Beretta is referenced as founder/commander of the NGO Giusto and designer of Angelica's modified STI Falcons, drone gear, Arco bullets and carrot missiles; Angelica reports to her as Giusto 1.",
+      "abilities_owned": [
+        "beretta-weapons-engineering"
+      ],
+      "possessions_owned": [
+        "giusto-arsenal"
+      ],
+      "relationships": {
+        "angelica-starr": {
+          "type": "commander/designer"
+        },
+        "kinji": {
+          "type": "former ally/Giusto 0"
+        }
+      },
+      "key_events": [
+        {
+          "event_id": "angelica-delta-mortal-duel",
+          "summary": "her weapons are used by Angelica against Kinji",
+          "sourceRef": "hidan-no-aria-main/vol-41/full.txt"
+        }
+      ],
+      "source_refs": [
+        "hidan-no-aria-main/vol-41/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-42",
+      "volume": "vol-42",
+      "time": "Giusto扩张与危机期",
+      "name": {
+        "zh": "贝瑞塔·贝瑞塔",
+        "en": "Beretta Beretta",
+        "jp": "ベレッタ"
+      },
+      "aliases": [
+        "Giusto长官",
+        "贝瑞塔长官"
+      ],
+      "gender": "female",
+      "species": "human",
+      "nationality": "意大利",
+      "occupation": "Giusto创设者兼长官；武侦高中学生/装备科助教",
+      "affiliation": "Giusto；罗马武侦高中；贝瑞塔公司背景",
+      "status": {
+        "organization": "将Giusto由NGO推进为商业化英雄企业",
+        "emotional": "与金次重逢后仍有明显留恋",
+        "location": "罗马"
+      },
+      "abilities_owned": [
+        "beretta-engineering",
+        "giusto-management"
+      ],
+      "possessions_owned": [
+        "giusto-car-ferrari",
+        "samurai-zero-mask",
+        "giusto-cards"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "former love-interest/ally",
+          "status": "以合同将金次登记为Giusto 0号，晚餐重温旧情但未越线"
+        },
+        "angelica": {
+          "type": "subordinate/hero",
+          "status": "信任其作为1号与外派主力"
+        },
+        "augusta": {
+          "type": "subordinate/key hero",
+          "status": "依赖其人气，同时警惕其权力扩大"
+        },
+        "elma": {
+          "type": "assistant",
+          "status": "艾尔玛忠诚辅佐组织运营"
+        },
+        "g3": {
+          "type": "guest",
+          "status": "邀请其交流英雄组织经验"
+        }
+      },
+      "knowledge": [
+        "giusto-commercial-model",
+        "hero-mask-secret-identity"
+      ],
+      "summary": "贝瑞塔是Giusto的长官，将武侦、英雄活动、角色商业与广告收入结合，使组织迅速扩张。她为金次设计武士零号面具，并在英雄狩猎危机中主持记者会前的1位数会议。",
+      "key_events": [
+        {
+          "event_id": "giusto-headquarters-reunion",
+          "summary": "在卡斯特提亚城与金次重逢。",
+          "sourceRef": "hidan-no-aria-main/vol-42/full.txt:619"
+        },
+        {
+          "event_id": "samurai-zero-contract",
+          "summary": "促成金次作为武士零号签约。",
+          "sourceRef": "hidan-no-aria-main/vol-42/full.txt:619"
+        },
+        {
+          "event_id": "kinji-beretta-dinner",
+          "summary": "与金次在Poldina晚餐，旧情浮现但金次选择离开。",
+          "sourceRef": "hidan-no-aria-main/vol-42/full.txt:1791"
+        },
+        {
+          "event_id": "hero-hunt-crisis",
+          "summary": "面对Giusto上市后立即爆发的袭击危机。",
+          "sourceRef": "hidan-no-aria-main/vol-42/full.txt:3323"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-42/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-43",
+      "volume": "vol-43",
+      "time": "Rome incident",
+      "label": "Giusto长官",
+      "name": {
+        "zh": "贝瑞塔·贝瑞塔",
+        "en": "Beretta Beretta",
+        "jp": ""
+      },
+      "aliases": [
+        "贝瑞塔女士",
+        "贝瑞塔长官"
+      ],
+      "titles": [
+        "Giusto经营者/长官",
+        "手枪技师"
+      ],
+      "gender": "female",
+      "species": "human",
+      "nationality": "Italian",
+      "occupation": "Giusto CEO; firearms engineer",
+      "affiliation": "Giusto",
+      "status": {
+        "alive": true,
+        "condition": "Giusto经历内奸丑闻与雷霆教团袭击后仍继续经营",
+        "location": "Rome"
+      },
+      "appearance": {
+        "overview": "身材娇小的金发少女长官",
+        "physical": {
+          "height": "141cm noted",
+          "build": "small",
+          "hair": {
+            "color": "blonde"
+          },
+          "eyes": {}
+        },
+        "attire": {
+          "default": "Giusto/军官风格服装",
+          "combat": "无人机与技术支援"
+        },
+        "voice_quality": {},
+        "distinctive": [
+          "小个子却有强大领导力"
+        ]
+      },
+      "personality": {
+        "summary": "正直透明、勇敢且富经营才干；愿公开组织丑闻承担后果。",
+        "core_traits": [
+          "坦诚",
+          "勇敢",
+          "经营者责任",
+          "浪漫"
+        ],
+        "values": [
+          "正义",
+          "透明性",
+          "伙伴"
+        ],
+        "fears": [
+          "Giusto失去公信力"
+        ],
+        "desires": [
+          "把Giusto发展为英雄事业",
+          "与金次重逢"
+        ],
+        "strengths": [
+          "技术发明",
+          "组织动员",
+          "公众沟通"
+        ],
+        "flaws": [
+          "军事指挥经验不足",
+          "过度公开信息导致安全风险"
+        ],
+        "inner_conflict": "正义事业与个人爱情之间的矛盾。",
+        "decision_pattern": {
+          "scandal": "公开事实而非掩盖"
+        }
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {
+          "kinji": "金次/零号"
+        },
+        "register": {
+          "default": "认真而温柔"
+        },
+        "catchphrases": [
+          "for justice"
+        ],
+        "quote_samples": [
+          "但正义之种同样不会断绝。"
+        ]
+      },
+      "habits": {
+        "mannerisms": [
+          "用无人机支援现场",
+          "迅速安排SNS公告"
+        ],
+        "daily_routine": "经营Giusto并上武侦高中",
+        "quirks": [],
+        "preferences": {
+          "heroes": "Giusto卡片与英雄文化"
+        }
+      },
+      "background": {
+        "birth": {
+          "place": "Italy",
+          "family": []
+        },
+        "upbringing": "与武侦高和枪械制造相关",
+        "education": {
+          "school": "Butei High attended during stay"
+        },
+        "formative_events": [
+          "曾被尼莫利用路线盯上"
+        ],
+        "pre_story": "创立/经营民营英雄企业Giusto"
+      },
+      "abilities_owned": [
+        "firearms-engineering",
+        "giusto-organizational-leadership"
+      ],
+      "possessions_owned": [
+        "beretta-silent-drone",
+        "giusto-beretta-ssr-card",
+        "ferrari-california-key"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "love-interest/hero",
+          "status": "送别时接吻并约定再会"
+        },
+        "angelica": {
+          "type": "executive ally",
+          "status": "共同支撑Giusto"
+        },
+        "augusta": {
+          "type": "subordinate/star hero",
+          "status": "原谅其会议失礼并改革信息公开体制"
+        },
+        "father": {
+          "type": "former comrade/enemy",
+          "status": "公开其背叛并接受组织声誉损失"
+        },
+        "elma": {
+          "type": "staff aide",
+          "status": "信任但其信息公开被神父利用"
+        }
+      },
+      "knowledge": [
+        "father-betrayal-truth",
+        "giusto-info-security-failure"
+      ],
+      "secrets": [
+        "爱超越正义这一感情只与金次共享"
+      ],
+      "summary": "贝瑞塔在Giusto遭遇雷霆教团与5号神父背叛后仍选择透明公开，继续招募新英雄。她与卸任前的金次互换Giusto卡并在机场吻别。",
+      "key_events": [
+        {
+          "event_id": "thunder-sect-declaration-and-kidnap",
+          "summary": "立即组织Giusto直播澄清，并用无人机追踪超能辣妹。",
+          "sourceRef": "hidan-no-aria-main/vol-43/full.txt:359"
+        },
+        {
+          "event_id": "father-arrest-aftermath",
+          "summary": "决定公开神父真相，承受股价与声誉暴跌。",
+          "sourceRef": "hidan-no-aria-main/vol-43/full.txt:2531"
+        },
+        {
+          "event_id": "beretta-kinji-farewell",
+          "summary": "在菲乌米奇诺机场与金次吻别并谈及超越正义的爱。",
+          "sourceRef": "hidan-no-aria-main/vol-43/full.txt:3065"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-43/chapters/ch-001-第四十三卷_于罗马归还(Oltre_Giusto)_第一弹_博尔扎诺的樱花.txt:291",
+        "hidan-no-aria-main/vol-43/chapters/ch-002-第四十三卷_于罗马归还(Oltre_Giusto)_第二弹_超越正义之物(Oltre_Giust.txt:1191",
+        "hidan-no-aria-main/vol-43/chapters/ch-002-第四十三卷_于罗马归还(Oltre_Giusto)_第二弹_超越正义之物(Oltre_Giust.txt:1725"
+      ]
+    }
+  ]
+}

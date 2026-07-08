@@ -1,0 +1,59 @@
+{
+  "_schema": "rp-item-volume-v1",
+  "world": "hidan-no-aria",
+  "item_id": "beretta-revolution-gun",
+  "volume": "vol-24",
+  "periods": [
+    {
+      "period_id": "vol-24-main",
+      "volume": "vol-24",
+      "time": "罗马篇",
+      "name": {
+        "zh": "革命枪",
+        "en": "Revolution Gun"
+      },
+      "aliases": [
+        "塑胶掌心雷",
+        "单发样品枪"
+      ],
+      "type": "weapon",
+      "description": "贝瑞塔发明的白色塑胶小型手枪样品，外观棱角分明；单发版只是样品，真正革命性的连射版仍为秘密。",
+      "details": {
+        "ammunition": "可使用非穿孔性衰变铀弹，威力为一般FMJ两倍",
+        "secret": "真正价值只存在于贝瑞塔脑中，以防黑客盗走"
+      },
+      "owner": "beretta",
+      "status": "active",
+      "features": [
+        "小型塑胶枪身",
+        "样品单发型",
+        "可搭配枪座裙展开"
+      ],
+      "associated_abilities": [
+        "beretta-revolution-gun-design",
+        "gun-seat-skirt-operation"
+      ],
+      "history": [
+        {
+          "event_id": "rome-airport-debt-capture",
+          "summary": "贝瑞塔在机场从袖口和裙底展开多把革命枪威胁金次。",
+          "sourceRef": "hidan-no-aria-main/vol-24/full.txt:150"
+        },
+        {
+          "event_id": "beretta-workshop-weapon-disassembly",
+          "summary": "贝瑞塔在工作室解释革命枪的真正价值尚保密。",
+          "sourceRef": "hidan-no-aria-main/vol-24/full.txt:760"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-24/chapters/ch-001-第二十四卷_狂逸的同学会_1弹_帕里奥利的手枪技师.txt:150",
+        "hidan-no-aria-main/vol-24/chapters/ch-001-第二十四卷_狂逸的同学会_1弹_帕里奥利的手枪技师.txt:760"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-24/chapters/ch-001-第二十四卷_狂逸的同学会_1弹_帕里奥利的手枪技师.txt:150",
+    "hidan-no-aria-main/vol-24/chapters/ch-001-第二十四卷_狂逸的同学会_1弹_帕里奥利的手枪技师.txt:760"
+  ]
+}

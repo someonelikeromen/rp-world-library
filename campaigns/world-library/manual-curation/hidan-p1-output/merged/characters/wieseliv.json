@@ -1,0 +1,60 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "wieseliv",
+  "volume": "vol-41",
+  "source_refs": [
+    "hidan-no-aria-main/vol-41/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-41-main",
+      "volume": "vol-41",
+      "time": "Referenced / treatment destination",
+      "label": "Wind and medical goddess",
+      "name": {
+        "zh": "薇泽丽芙",
+        "en": "Wieseliv",
+        "jp": "ヴィゼリヴ"
+      },
+      "aliases": [
+        "风之女神",
+        "医疗和治愈女神"
+      ],
+      "gender": "female",
+      "species": "Lectea goddess",
+      "occupation": "medical goddess",
+      "affiliation": "Lectea forest/goddess society",
+      "status": {
+        "alive": true,
+        "offscreen": "accepts China for about one year of treatment"
+      },
+      "summary": "Wieseliv is the shy medical wind goddess in Lectea who normally treats patients only through clan connections. Through Entymila and the Tedtikun twins, China is sent to her forest for chronic lethal hour syndrome treatment.",
+      "abilities_owned": [
+        "wieseliv-healing-wind"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "china": {
+          "type": "patient"
+        },
+        "livia": {
+          "type": "negotiating goddess"
+        },
+        "entymila": {
+          "type": "clan/referral connection"
+        }
+      },
+      "key_events": [
+        {
+          "event_id": "china-departure-to-lectea",
+          "summary": "China is sent toward Wieseliv for treatment",
+          "sourceRef": "hidan-no-aria-main/vol-41/full.txt"
+        }
+      ],
+      "source_refs": [
+        "hidan-no-aria-main/vol-41/full.txt"
+      ]
+    }
+  ]
+}

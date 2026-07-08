@@ -1,0 +1,121 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "riko",
+  "volume": "vol-08",
+  "time_range": {
+    "start": "秋季",
+    "end": "秋季"
+  },
+  "sub_arcs": [
+    "白银的ICBM",
+    "变装食堂"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-08-main",
+      "volume": "vol-08",
+      "time": "秋季",
+      "label": "审判支援与希尔达恐惧",
+      "name": {
+        "zh": "峰理子",
+        "en": "Mine Riko",
+        "jp": "峰理子"
+      },
+      "aliases": [
+        "理子",
+        "理子四世",
+        "4世"
+      ],
+      "titles": [
+        "巴斯克维尔成员",
+        "亚森·罗宾后裔"
+      ],
+      "gender": "女性",
+      "species": "人类",
+      "nationality": "日本/法国系",
+      "occupation": "东京武侦高中学生",
+      "affiliation": "东京武侦高中/巴斯克维尔",
+      "status": {
+        "physical": "健康",
+        "mental": "面对希尔达仍有被弗拉德家囚禁的恐惧，但会为了亚莉亚挺身而出",
+        "social": "参与神崎香苗审判支援，日常负责变装食堂服装制作"
+      },
+      "appearance": {
+        "overview": "娇小萝莉风少女，本卷扮成西部枪手",
+        "attire": {
+          "default": "武侦高中轻飘制服",
+          "costume": "牛仔帽、皮背心、西部枪手装"
+        },
+        "distinctive": [
+          "双马尾可持刀",
+          "萝莉风打扮"
+        ]
+      },
+      "personality": {
+        "summary": "理子在神崎香苗审判中陪同金次与亚莉亚，希尔达袭击时克服恐惧挺身阻止却被催眠。日常部分她积极参与变装食堂，替亚莉亚制作小学生服装并调侃她。",
+        "core_traits": [
+          "狡黠",
+          "爱热闹",
+          "重视同伴",
+          "面对旧创伤仍会行动"
+        ],
+        "strengths": [
+          "双枪双刀",
+          "变装与裁缝",
+          "临场判断"
+        ],
+        "flaws": [
+          "容易起哄",
+          "对弗拉德家相关人物有心理阴影"
+        ],
+        "inner_conflict": "逃离弗拉德阴影后，仍必须面对希尔达这个德古拉家新主人。"
+      },
+      "abilities_owned": [
+        "disguise-technique",
+        "double-swords-guns"
+      ],
+      "possessions_owned": [
+        "walther-p99",
+        "riko-hair-knives",
+        "hilda-bat-earring"
+      ],
+      "relationships": {
+        "kinji": "team_member；日常亲近并共同支援亚莉亚",
+        "aria": "friend/rival；帮亚莉亚做小学生服装并在危机中保护她",
+        "hilda": "trauma/enemy；被希尔达催眠压制并戴上蝙蝠耳环",
+        "kanzaki-kanae": "trial_support；协助其审判证据链"
+      },
+      "knowledge": [
+        "far-east-warfare-rules"
+      ],
+      "summary": "理子陪同亚莉亚参加母亲高院审判。希尔达袭击押送车时，她以双枪双刀阻止希尔达，却因直视其眼睛而中催眠，被迫放下武器并收下蝙蝠耳环。后续日常中她为变装食堂准备西部枪手装，并制作亚莉亚的小学生服装。",
+      "key_events": [
+        {
+          "event_id": "kanae-high-court-sentencing",
+          "summary": "出席香苗审判并观察异常判决",
+          "sourceRef": "hidan-no-aria-main/vol-08/full.txt:3343"
+        },
+        {
+          "event_id": "hilda-attacks-prison-van",
+          "summary": "试图阻止希尔达但被催眠压制",
+          "sourceRef": "hidan-no-aria-main/vol-08/full.txt:3686"
+        },
+        {
+          "event_id": "costume-cafe-draw",
+          "summary": "抽到西部枪手并替亚莉亚制作小学生服装",
+          "sourceRef": "hidan-no-aria-main/vol-08/full.txt:2081"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-08/chapters/ch-003-第八卷_螺旋的天空树_3弹_白银的ICBM.txt:17",
+        "hidan-no-aria-main/vol-08/chapters/ch-003-第八卷_螺旋的天空树_3弹_白银的ICBM.txt:360",
+        "hidan-no-aria-main/vol-08/chapters/ch-002-第八卷_螺旋的天空树_2弹_变装食堂.txt:901"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-08/full.txt"
+  ]
+}

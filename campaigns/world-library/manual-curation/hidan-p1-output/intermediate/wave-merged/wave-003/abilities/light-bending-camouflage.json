@@ -1,0 +1,107 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "light-bending-camouflage",
+  "volume": "vol-12",
+  "source_refs": [
+    "hidan-no-aria-main/vol-12/chapters/ch-002-第十二卷_洒落狼犬之雪_2弹_普通人·金次.txt:981"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-12-main",
+      "volume": "vol-12",
+      "time": "2009年12月上旬",
+      "name": {
+        "zh": "光曲折迷彩",
+        "en": "Light-Bending Camouflage"
+      },
+      "aliases": [
+        "透明大衣",
+        "隐身装备"
+      ],
+      "type": "technology / combat",
+      "description": "GⅢ使用的隐形装备，可让自身在学校和镜高组本家附近近乎透明，便于跟踪和潜入。",
+      "details": {
+        "observed_uses": [
+          "在学校附近隐身跟踪金次",
+          "在镜高组本家内隐身切断绳索并救出菊代"
+        ]
+      },
+      "activation": {
+        "condition": "穿戴迷彩大衣或相关装备",
+        "incantation": "",
+        "time": "持续",
+        "cost": "解除时会出现类似闪烁日光灯的声音与视觉变化"
+      },
+      "effects": [
+        "隐形潜入",
+        "暗中跟踪",
+        "突袭救援"
+      ],
+      "power_level": {
+        "initial": "普通人和黑道难以察觉",
+        "peak": "金次若不专注也会漏掉双重跟踪",
+        "evolution": []
+      },
+      "known_feats": [
+        {
+          "feat": "GⅢ隐身在学校旁询问是否杀掉不良少年",
+          "sourceRef": "hidan-no-aria-main/vol-12/full.txt:1587"
+        },
+        {
+          "feat": "GⅢ隐身进入镜高组本家并切断绳索",
+          "sourceRef": "hidan-no-aria-main/vol-12/full.txt:5681"
+        }
+      ],
+      "shared_by": [
+        "g3"
+      ],
+      "see_also": [
+        "g3-armor"
+      ],
+      "countered_by": [
+        "footprint-and-sound-tracking"
+      ],
+      "counters": [
+        "ordinary-visual-surveillance"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-12/chapters/ch-002-第十二卷_洒落狼犬之雪_2弹_普通人·金次.txt:981",
+        "hidan-no-aria-main/vol-12/chapters/ch-005-第十二卷_洒落狼犬之雪_5弹_顿悟之空.txt:1401"
+      ]
+    },
+    {
+      "period_id": "vol-13-main",
+      "volume": "vol-13",
+      "time": "开场夜晚",
+      "name": {
+        "zh": "光曲折迷彩",
+        "en": "Light-Bending Camouflage"
+      },
+      "aliases": [
+        "隐形迷彩斗篷"
+      ],
+      "type": "technology",
+      "description": "GⅢ阵营使用的光学隐形技术，黑鹰直升机和九九藻斗篷都可借此从夜空中隐形接近。",
+      "effects": [
+        "隐形接近",
+        "隐藏大型载具轮廓"
+      ],
+      "known_feats": [
+        "黑鹰像从异次元出现一样现形",
+        "九九藻脱下光曲折迷彩斗篷现身"
+      ],
+      "shared_by": [
+        "g3",
+        "kukuumo-inari"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-13/chapters/ch-001-第十三卷_反击的九龙_1弹_Dry_eyes.txt:179",
+        "hidan-no-aria-main/vol-13/chapters/ch-001-第十三卷_反击的九龙_1弹_Dry_eyes.txt:185"
+      ]
+    }
+  ]
+}

@@ -68,3 +68,38 @@
 ```
 
 写入后自动触发 memory 同步，无需手动更新 memory 文件。
+
+## 目录型统一角色卡
+
+统一角色卡是多文件目录结构，不依赖单个角色 JSON。初始化会从多世界战斗框架模板一次性创建所有模块文件。
+
+### 新增 Actions
+
+| Action | 参数 | 用途 |
+|--------|------|------|
+| `init` | `card`, `cardPath?`, `template?` | 从统一模板初始化完整角色卡目录并注册 |
+| `modules` | `card` | 列出目录型角色卡的所有模块文件 |
+
+### 模块读写
+
+`get/set/merge/append/upsert/remove/batch/validate/status` 支持目录型角色卡。目录型角色卡可通过 `module` 指定模块文件，通过 `path` 精确到模块内任意层级字段或列表项。
+
+示例：
+
+```json
+{ "action": "init", "card": "hero", "cardPath": "card/hero", "template": "unified-character-v1" }
+```
+
+```json
+{ "action": "get", "card": "hero", "module": "combatRating", "path": "combatRating.offense.score" }
+```
+
+```json
+{ "action": "set", "card": "hero", "module": "resources", "path": "resources[id=mana].current", "value": 120 }
+```
+
+```json
+{ "action": "upsert", "card": "hero", "module": "abilities", "path": "abilities", "id": "shadow-step", "item": { "id": "shadow-step", "name": "影步", "types": ["Technique"], "rank": "C" } }
+```
+
+模块别名来自 `.pi/rp-data-tools.json > cardTemplates.templates.unified-character-v1.modules`，也可以直接传模块相对路径，例如 `combat/resources.json`。

@@ -1,0 +1,54 @@
+{
+  "_schema": "rp-location-volume-v1",
+  "world": "hidan-no-aria",
+  "location_id": "isola-sacra",
+  "volume": "vol-42",
+  "source_refs": [
+    "hidan-no-aria-main/vol-42/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-42",
+      "volume": "vol-42",
+      "time": "12月",
+      "name": {
+        "zh": "伊索拉·撒克拉",
+        "en": "Isola Sacra"
+      },
+      "type": "town",
+      "description": "位于台伯河河口的海边小镇，有水上住宅。武士通用的本地英雄管辖区域。以博尔扎诺广场为中心，退役的直升机登陆舰博尔扎诺号被用作土地。",
+      "controlled_by": "Giusto本地英雄(武士通用)",
+      "significance": "金次抵达罗马后第一次解决事件的地点，Giusto0号首次曝光。",
+      "key_events": [
+        "arrival-in-rome",
+        "isola-sacra-hostage"
+      ],
+      "hazards": [
+        "粉丝网站记者跟踪",
+        "假挟持事件"
+      ],
+      "source_refs": [
+        "hidan-no-aria-main/vol-42/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-43",
+      "location_id": "isola-sacra",
+      "volume": "vol-43",
+      "name": {
+        "zh": "伊索拉·撒克拉",
+        "en": "Isola Sacra"
+      },
+      "type": "district",
+      "summary": "罗马近海的海滨小镇/区域。退役直升机登陆舰博尔扎诺号停靠在台伯河口后与此地陆地连接。该舰与陆地连接的广场（博尔扎诺广场）是本卷战斗的核心舞台。雷霆教团在此发动暴动，后博尔扎诺号脱离陆地出海。",
+      "sig_events": [
+        "samurai-generic-last-stand",
+        "isola-sacra-battle",
+        "kinji-bolzano-explosive-jump"
+      ],
+      "source_refs": [
+        "hidan-no-aria-main/vol-43/chapters/ch-001-第四十三卷_于罗马归还(Oltre_Giusto)_第一弹_博尔扎诺的樱花.txt:890"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "system",
+  "entityId": "extreme-east-war",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-08",
+  "periods": [
+    {
+      "periodId": "vol-08",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-08/full.txt:213",
+        "hidan-no-aria-main/vol-08/full.txt:243",
+        "hidan-no-aria-main/vol-08/full.txt:265",
+        "hidan-no-aria-main/vol-08/full.txt:545"
+      ],
+      "snapshot": {
+        "name": "极东战役",
+        "aliases": [
+          "FEW",
+          "Far East Warfare",
+          "师团与眷属战争"
+        ],
+        "type": "hidden-war-system",
+        "description": "伊·U瓦解后，过去由伊·U中立威慑维持的地下组织均势崩溃，各组织在空地岛宣战会议上重新进入师团与眷属两大阵营的决斗式战争。",
+        "rules": {
+          "combat": "任何一方可主动挑起战端，允许偷袭、暗算、间谍、奇术和侮辱。",
+          "limited_war": "禁止派遣无资格决斗的杂兵上阵，以避免无限杀戮。",
+          "alliances": "组织可宣言加入师团或眷属，也可中立；变节不被禁止但会遭强烈报复。"
+        },
+        "participants": [
+          "shidan",
+          "kenzoku",
+          "baskerville",
+          "freemasonry",
+          "dracula-family",
+          "witch-corps",
+          "blue-gang",
+          "i-u-remnants"
+        ],
+        "key_events": [
+          "declaration-war-conference"
+        ],
+        "evidence_level": "S"
+      }
+    },
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:3605",
+        "hidan-no-aria-main/vol-09/full.txt:4960",
+        "hidan-no-aria-main/vol-09/full.txt:5105",
+        "hidan-no-aria-main/vol-09/full.txt:5480"
+      ],
+      "snapshot": {
+        "name": "极东战役",
+        "aliases": [
+          "FEW",
+          "师团与眷属战争",
+          "台面下战争"
+        ],
+        "type": "hidden war system",
+        "description": "师团与眷属在世界台面下进行的不可见光战争。本卷由玉藻向白雪、金次和亚莉亚说明其规则：双方争夺所追求之物和力量再分配，允许战败者归入敌方，结束条件为全灭或投降。",
+        "rules": {
+          "core_goal": "争夺宝物、色金和优秀士兵等资源",
+          "defection": "战败者可为避免被杀而转投敌方",
+          "ending": "一方全灭或选择投降，包括附条件投降",
+          "current_focus": "现代最重要争夺物为色金与亚莉亚壳金"
+        },
+        "participants": [
+          "shidan",
+          "kenzoku",
+          "baskerville",
+          "freemasonry"
+        ],
+        "key_events": [
+          "tamamo-extreme-east-war-briefing",
+          "sky-tree-hilda-showdown"
+        ],
+        "evidence_level": "S"
+      }
+    },
+    {
+      "period_id": "vol-10-main",
+      "volume": "vol-10",
+      "time": "2009年11月上旬",
+      "name": {
+        "zh": "极东战役",
+        "en": "Extreme East War"
+      },
+      "aliases": [
+        "战役"
+      ],
+      "type": "faction-conflict",
+      "description": "围绕师团、眷属和无所属强者展开的战役规则体系。本卷中GⅢ/GⅣ以无所属身份介入，玉藻强调战役中偷袭不等于违规，强力中立对象可被拉拢。",
+      "rules": [
+        "战役中任何挑战与偷袭都可能被视为战争行为",
+        "未表明敌意的无所属势力仍有交涉和拉拢余地",
+        "强大中立者加入可改变阵营平衡"
+      ],
+      "participants": [
+        "legion",
+        "baskerville",
+        "g3",
+        "tooyama-kaname"
+      ],
+      "related_events": [
+        "legion-council-g3-g4"
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "hidan-no-aria-main/vol-10/chapters/ch-002-第十卷_禁忌的双极_2弹_师团会议.txt:1"
+      ]
+    }
+  ]
+}

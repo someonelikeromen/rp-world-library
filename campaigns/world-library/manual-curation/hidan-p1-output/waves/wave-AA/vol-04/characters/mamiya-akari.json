@@ -1,0 +1,44 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "mamiya-akari",
+  "volume": "vol-04",
+  "time_range": { "start": "七月七日与暑假", "end": "猫滨海岸任务后" },
+  "sub_arcs": ["summer-festival", "mamiya-hikari", "umineko-sama"],
+  "periods": [
+    {
+      "period_id": "vol-04",
+      "volume": "vol-04",
+      "time": "暑假",
+      "label": "从祭典到猫滨警卫任务的明里",
+      "name": { "zh": "间宫明里", "en": "Mamiya Akari", "jp": "間宮あかり" },
+      "aliases": ["明里", "明里同学", "明里学姊", "小不点"],
+      "titles": ["东京武侦高中1-A学生", "神崎·H·亚莉亚的战妹", "间宫本家晓座长女"],
+      "gender": "female",
+      "species": "human",
+      "nationality": "Japanese",
+      "occupation": "武侦高中学生",
+      "affiliation": "tokyo-butei-high; mamiya-family-akatsuki-za",
+      "status": { "alive": true, "rank": "D级武侦", "current_goal": "通过连务提升到C级并接近亚莉亚", "condition": "在与日里的唯一契约中获胜；猫滨任务后平安" },
+      "appearance": { "overview": "身高约139公分、娃娃脸、体型娇小。祭典穿浴衣，猫滨穿深蓝校园泳装。", "physical": { "height": "139cm", "build": "娇小", "hair": { "style": "双短马尾" }, "eyes": {} }, "attire": { "default": "武侦高中制服", "combat": "防弹制服或任务指定泳装" }, "voice_quality": { "tone": "天真开朗" }, "distinctive": ["常被误认为小学生", "在关键时刻胜负运强"] },
+      "personality": { "summary": "温柔、天然、能把周围的人卷入同伴圈；不执着功绩，优先保护人。", "core_traits": ["善良", "直觉敏锐", "包容", "关键时刻勇敢"], "values": ["同伴", "正确使用力量", "不伤害他人", "让人走向阳光下"], "fears": ["同伴受伤", "间宫秘术外传造成杀人"], "desires": ["成为更接近亚莉亚的武侦", "保护间宫一族和朋友"], "strengths": ["女性人望", "间宫晓座秘术", "胜负运", "即时判断"], "flaws": ["学科与实用技术常被评价差", "天然迟钝"], "inner_conflict": "曾差点以危险秘术杀敌，本卷以此劝阻日里不要误用间宫力量。", "decision_pattern": { "style": "先相信并包容对方，再在必要时亲自承担战斗" } },
+      "voice": { "self_reference": "我", "address_pattern": { "sakura": "小樱", "hikari": "小日", "aria": "亚莉亚学姊" }, "register": { "default": "亲切口语" }, "catchphrases": [], "quote_samples": ["武侦高中是学习如何正确使用力量的场所。", "没有意外发生才比较好呀。"] },
+      "habits": { "mannerisms": ["主动牵手", "露出让人放松的笑脸"], "daily_routine": "暑假返校、参加自由选修和任务", "quirks": ["偶然用嘴接住物品", "容易把人际关系变成热闹团体"], "preferences": { "food": ["祭典点心", "民宿鱼料理"] } },
+      "background": { "birth": { "place": "间宫镇", "family": ["mamiya-family", "mamiya-hikari", "mamiya-nonoka", "mamiya-misuzu"] }, "upbringing": "间宫本家晓座长女，幼年在间宫镇成长，镇被伊·U毁灭后离散。", "education": { "school": "东京武侦高中" }, "formative_events": ["彩虹大桥对夹竹桃时学会把鹰卷转化为不杀手段"], "pre_story": "已成为亚莉亚战妹并聚集志乃、莱卡、麒麟等同伴。" },
+      "abilities_owned": ["female-popularity", "takamaki", "flat-takamaki", "fukuro-kujiki", "mamiya-martial-arts"],
+      "possessions_owned": ["akari-phone", "akari-school-swimsuit"],
+      "relationships": { "kanzaki-aria": { "type": "war-sister", "summary": "崇拜的战姊，目标是接近她的等级。" }, "inui-sakura": { "type": "prospective-war-sister-group-member", "summary": "接受樱的帮助和敬仰，鼓励她加入团体。" }, "sasaki-shino": { "type": "close-friend", "summary": "志乃极度执着于明里并支援她。" }, "hino-raika": { "type": "friend", "summary": "同伴，常一起行动。" }, "shima-kirin": { "type": "friend", "summary": "同伴，参加祭典和猫滨任务。" }, "mamiya-hikari": { "type": "cousin/rival", "summary": "堂妹与儿时伙伴；通过唯一契约阻止她外传秘术。" }, "mamiya-nozomi": { "type": "relative", "summary": "日里的异母姐姐，曾受命拖住志乃。" }, "mamiya-kodama": { "type": "relative", "summary": "日里的妹妹，曾受命拖住莱卡。" }, "sashimi": { "type": "case-subject", "summary": "识破其假扮海猫大人后替她保密。" } },
+      "knowledge": ["mamiya-public-technique-plan", "umineko-sama-truth", "c-rank-renmu"],
+      "secrets": ["知道亚莉亚使用胸垫但决定保密"],
+      "summary": "本卷明里把樱自然纳入同伴圈，阻止日里公开间宫秘术的计划，又在猫滨选择保护刺身美而非争取评价。",
+      "key_events": [
+        { "event_id": "summer-festival-sakura-bonds", "summary": "通过祭典让樱理解先成为团体再登记战姊妹团体。", "sourceRef": "hidan-no-aria-aa/vol-04/full.txt" },
+        { "event_id": "mamiya-unique-contract-duel", "summary": "以枭挫反弹日里的鹫抂并赢得唯一契约。", "sourceRef": "hidan-no-aria-aa/vol-04/full.txt" },
+        { "event_id": "umineko-sama-case", "summary": "猫滨任务中清扫海岸并包容假扮妖怪的刺身美。", "sourceRef": "hidan-no-aria-aa/vol-04/full.txt" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["hidan-no-aria-aa/vol-04/full.txt"]
+    }
+  ],
+  "source_refs": ["hidan-no-aria-aa/vol-04/full.txt"]
+}

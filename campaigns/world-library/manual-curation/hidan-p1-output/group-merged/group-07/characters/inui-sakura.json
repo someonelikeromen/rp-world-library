@@ -1,0 +1,186 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "inui-sakura",
+  "volume": "vol-27",
+  "time_range": {
+    "start": "vol-27",
+    "end": "vol-27"
+  },
+  "sub_arcs": [
+    "kinten-arrival",
+    "school-life"
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-27/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-27",
+      "volume": "vol-27",
+      "time": "第二十七卷",
+      "label": "巡逻女警学妹",
+      "name": {
+        "zh": "乾樱",
+        "en": "Sakura Inui",
+        "jp": "乾桜"
+      },
+      "aliases": [
+        "乾",
+        "乾巡查"
+      ],
+      "titles": [
+        "武侦高中一年级",
+        "警视厅架桥生/巡查"
+      ],
+      "gender": "female",
+      "species": "human",
+      "nationality": "Japanese",
+      "occupation": "高中生女警/武侦",
+      "affiliation": "东京武侦高中；警视厅",
+      "status": {
+        "physical": "健康",
+        "social": "负责第十九区到第二十区巡逻"
+      },
+      "appearance": {
+        "overview": "黑发两束，穿女警制服。",
+        "distinctive": [
+          "正式巡查权限",
+          "对金次持怀疑眼神"
+        ]
+      },
+      "personality": {
+        "summary": "认真正经，按警察程序盘问金次。",
+        "core_traits": [
+          "认真",
+          "守法",
+          "观察敏锐"
+        ],
+        "values": [
+          "治安",
+          "保护未成年人"
+        ],
+        "strengths": [
+          "盘问与巡逻",
+          "警察权限"
+        ],
+        "flaws": [
+          "受间宫等对金次评价影响"
+        ]
+      },
+      "abilities_owned": [
+        "police-questioning"
+      ],
+      "possessions_owned": [
+        "inui-police-uniform",
+        "inui-radio"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "senpai/suspect",
+          "summary": "多次怀疑金次偷窥小学或藏匿小女孩，但被妹妹设定说服。"
+        },
+        "kinten": {
+          "type": "protected-child",
+          "summary": "记录金天信息并提醒她遇事打110。"
+        }
+      },
+      "knowledge": [],
+      "summary": "乾樱两次以警察身份出现在金次周边：先因邻居通报盘问金次和金天，后在附小附近发现偷窥学校的金次。她的巡逻压力迫使金次给金天建立妹妹和附小学生身份。",
+      "key_events": [
+        {
+          "event_id": "kinten-arrival-and-naming",
+          "summary": "盘问金次时促成GV被命名为远山金天。",
+          "sourceRef": "hidan-no-aria-main/vol-27/full.txt:900"
+        },
+        {
+          "event_id": "kinten-school-enrollment",
+          "summary": "在附小外发现过度保护的金次。",
+          "sourceRef": "hidan-no-aria-main/vol-27/full.txt:1320"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-27/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-35",
+      "volume": "vol-35",
+      "time": "第三十五卷",
+      "name": {
+        "zh": "乾樱",
+        "en": "Sakura Inui",
+        "jp": "乾桜"
+      },
+      "aliases": [
+        "樱",
+        "女警架桥生",
+        "皮波喵"
+      ],
+      "gender": "female",
+      "species": "human",
+      "nationality": "Japan",
+      "occupation": "警察/武侦高中架桥生/强袭科一年级",
+      "affiliation": [
+        "警视厅",
+        "东京武侦高中强袭科"
+      ],
+      "status": {
+        "life": "alive",
+        "condition": "作为地区负责警察调查亚莉亚宿舍异常，后参与交通安全教室",
+        "role": "警方怀疑与交通安全教室搜查替代方案的触发者"
+      },
+      "appearance": {
+        "overview": "娇小女高中生兼女警，双撮头发，穿警察制服或武侦高中制服。"
+      },
+      "personality": {
+        "summary": "一板一眼、守法、嗅觉敏锐，盯上目标后不轻易放弃。",
+        "core_traits": [
+          "认真",
+          "怀疑心强",
+          "守程序",
+          "不擅长即兴演出"
+        ],
+        "abilities_note": "具备闻出邪恶气味的特殊能力传闻。"
+      },
+      "abilities_owned": [
+        "inui-evil-scent-detection"
+      ],
+      "possessions_owned": [
+        "police-radio",
+        "piponya-costume"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "suspect/senior",
+          "description": "多次因可疑状况怀疑金次；知道他在女生宿舍后要求说明。"
+        },
+        "aria": {
+          "type": "senior/known-butei",
+          "description": "因亚莉亚是正义女武侦而对宿舍搜查判断产生犹豫。"
+        },
+        "ranbyou": {
+          "type": "instructor/contact",
+          "description": "向兰豹报告异常，间接促成交通安全教室代班方案。"
+        }
+      },
+      "key_events": [
+        {
+          "event_id": "inui-police-suspicion",
+          "summary": "因宿舍异常声响和邪恶气味怀疑亚莉亚宿舍有犯罪组织相关人物。",
+          "sourceRef": "hidan-no-aria-main/vol-35/full.txt"
+        },
+        {
+          "event_id": "butei-elementary-traffic-class",
+          "summary": "穿皮波喵布偶装主持交通安全教室，在混乱中努力维持剧情。",
+          "sourceRef": "hidan-no-aria-main/vol-35/full.txt"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-35/full.txt"
+      ]
+    }
+  ]
+}

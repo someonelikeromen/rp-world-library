@@ -1,0 +1,75 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "social-manipulation",
+  "volume": "vol-21",
+  "source_refs": [
+    "hidan-no-aria-main/vol-21/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-21",
+      "volume": "vol-21",
+      "time": "第二十一卷",
+      "name": {
+        "zh": "社交诱导",
+        "en": "Social manipulation"
+      },
+      "aliases": [
+        "拖延与话术"
+      ],
+      "type": "skill / social",
+      "description": "不知火用朋友关系、旧委托和玩笑话拖住金次，使其留在逮捕地点。",
+      "details": {},
+      "activation": {
+        "condition": "需要控制对方行动"
+      },
+      "effects": [
+        "分散注意",
+        "延迟行动",
+        "引出反应"
+      ],
+      "known_feats": [
+        "在七点前于分岔点拦下金次"
+      ],
+      "shared_by": [
+        "shiranui"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-21/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-24-main",
+      "volume": "vol-24",
+      "time": "罗洁塔冲突",
+      "name": {
+        "zh": "社交操控",
+        "en": "Social manipulation"
+      },
+      "aliases": [
+        "舆论操纵",
+        "追随者操控"
+      ],
+      "type": "skill / social",
+      "description": "罗洁塔利用美貌、家世和言辞操纵A1班男生，并将金次坏债丑闻转化为继承权斗争武器。",
+      "effects": [
+        "煽动A1班霸凌",
+        "控制罗密欧等追随者",
+        "破坏贝瑞塔声誉"
+      ],
+      "shared_by": [
+        "rosetta"
+      ],
+      "see_also": [
+        "a1-command"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-24/chapters/ch-004-第二十四卷_狂逸的同学会_3弹_义士的球探.txt:64",
+        "hidan-no-aria-main/vol-24/chapters/ch-004-第二十四卷_狂逸的同学会_3弹_义士的球探.txt:264"
+      ]
+    }
+  ]
+}

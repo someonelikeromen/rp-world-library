@@ -1,0 +1,47 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "ribbon-weapon",
+  "volume": "vol-04",
+  "source_refs": [
+    "hidan-no-aria-aa/vol-04/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-04",
+      "volume": "vol-04",
+      "time": "本卷首次展示",
+      "name": {
+        "zh": "缎带武器术",
+        "en": "Ribbon Weapon Technique"
+      },
+      "aliases": [],
+      "type": "combat",
+      "description": "鯱使用的体操缎带作为武器的技术。缎带强度如同绳索，可通过灵巧挥动在空气中形成文字信号，也能快速缠绕对手颈部将其吊起。",
+      "details": {
+        "technique": "将缎带挂在红绿灯横杆上，利用体重下坠的滑轮原理将对手吊至空中",
+        "note": "缎带材质特殊，扯也扯不断"
+      },
+      "activation": {
+        "condition": "持有高强度缎带",
+        "time": "瞬间"
+      },
+      "effects": [
+        "空中书写文字信号（如Stop）",
+        "缠绕颈部吊起目标",
+        "可固定到结构物上"
+      ],
+      "used_in": "鯱在台场以缎带写Stop、缠绕日里脖子将其吊起",
+      "countered_by": [
+        "蕾姬以狙击弹精准射断缎带"
+      ],
+      "shared_by": [
+        "shachi-kuniko"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-aa/vol-04/full.txt"
+      ]
+    }
+  ]
+}

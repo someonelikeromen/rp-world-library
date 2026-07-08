@@ -1,0 +1,82 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "tooyama-sengan",
+  "volume": "vol-32",
+  "periods": [
+    {
+      "period_id": "vol-32-main",
+      "volume": "vol-32",
+      "time": "尼加拉与地下品川",
+      "name": {
+        "zh": "扇贯",
+        "en": "Sengan"
+      },
+      "aliases": [
+        "冲击波雷射",
+        "炸霸应用"
+      ],
+      "type": "combat / skill",
+      "description": "将炸霸型冲击波收束为直线，使冲击波像雷射一样向前贯穿并清除路径的远山家应用招式。",
+      "details": {
+        "principle": "一手发出冲击波，另一手发出反位相防止自伤，并转动手腕缩小圆锥顶角。"
+      },
+      "activation": {
+        "condition": "掌握炸霸与冲击波控制",
+        "incantation": "",
+        "time": "瞬间",
+        "cost": "高难度，威力与稳定性受使用者熟练度限制"
+      },
+      "effects": [
+        "直线吹飞障碍物",
+        "击倒隐形龙",
+        "为弓箭制造射击线"
+      ],
+      "power_level": {
+        "initial": "金叉能用手指级精度施展",
+        "peak": "金次在地下品川成功开出直径约一公尺通道",
+        "evolution": [
+          "金次从尼加拉观察金叉后在决战中首次实用化"
+        ]
+      },
+      "known_feats": [
+        {
+          "summary": "金叉用扇贯击飞GⅢ，金次记住理论。",
+          "sourceRef": "hidan-no-aria-main/vol-32/full.txt:300"
+        },
+        {
+          "summary": "金次在地下品川用扇贯排除障碍物和隐形龙，为恩蒂米菈开射线。",
+          "sourceRef": "hidan-no-aria-main/vol-32/full.txt:5265"
+        }
+      ],
+      "shared_by": [
+        "tooyama-kincha",
+        "kinji"
+      ],
+      "see_also": [
+        "tooyama-hundred-techniques",
+        "elven-archery"
+      ],
+      "countered_by": [
+        "威力衰减",
+        "路径障碍过多"
+      ],
+      "counters": [
+        "密集障碍物",
+        "隐形龙的空间遮挡"
+      ],
+      "variations": [
+        "炸霸"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-32/chapters/ch-001-第三十二卷_苍穹的密使_1弹_Catch_you_later.txt:300",
+        "hidan-no-aria-main/vol-32/chapters/ch-005-第三十二卷_苍穹的密使_5弹_魔之全集.txt:565"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-32/chapters/ch-001-第三十二卷_苍穹的密使_1弹_Catch_you_later.txt:300",
+    "hidan-no-aria-main/vol-32/chapters/ch-005-第三十二卷_苍穹的密使_5弹_魔之全集.txt:565"
+  ]
+}

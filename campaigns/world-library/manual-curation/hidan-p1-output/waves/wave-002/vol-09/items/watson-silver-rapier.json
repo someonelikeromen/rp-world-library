@@ -1,0 +1,49 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "item",
+  "entityId": "watson-silver-rapier",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-09",
+  "periods": [
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:87",
+        "hidan-no-aria-main/vol-09/full.txt:141",
+        "hidan-no-aria-main/vol-09/full.txt:970"
+      ],
+      "snapshot": {
+        "name": "华生的十字箔剑",
+        "aliases": [
+          "银剑",
+          "十字箔剑",
+          "法化武装"
+        ],
+        "type": "anti-vampire weapon",
+        "description": "华生持有的银质/法化对吸血鬼武装。希尔达明显忌惮此剑，华生在雷击重伤后交给金次，随后亚莉亚用它刺击希尔达但被电鞭缠住并甩出观景台。",
+        "details": {
+          "owner": "watson",
+          "material": "银/法化处理",
+          "combat_role": "对希尔达和吸血鬼回复力有克制效果"
+        },
+        "owner": "watson",
+        "status": "天空树战中被希尔达甩出观景台，暂时失落",
+        "features": [
+          "希尔达惧怕",
+          "普通武器难以替代",
+          "可配合华生对吸血鬼知识使用"
+        ],
+        "associated_abilities": [
+          "vampire-regeneration-magic-organs"
+        ],
+        "history": [
+          "华生交给金次作为对希尔达武装",
+          "亚莉亚挣脱铁链后拔出十字箔剑攻击希尔达",
+          "希尔达用电鞭缠住并将其投出塔外"
+        ],
+        "evidence_level": "S"
+      }
+    }
+  ],
+  "_schema": "rp-item-volume-v1"
+}

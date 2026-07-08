@@ -1,0 +1,32 @@
+{
+  "_schema": "rp-world-volume-v1",
+  "world": "hidan-no-aria",
+  "volume": "vol-01",
+  "periods": [
+    {
+      "period_id": "vol-01-main",
+      "volume": "vol-01",
+      "time": "东京武侦高中二年级开学前后至台风夜后",
+      "name": { "zh": "绯弹的亚莉亚 第一卷", "en": "Aria the Scarlet Ammo Vol. 1", "jp": "緋弾のアリア I" },
+      "genre": ["轻小说", "学园", "枪战", "侦探", "动作", "超自然血统"],
+      "summary": "远山金次试图离开武侦高中、成为普通人，却因与S级强袭科武侦神崎·H·亚莉亚相遇，被卷入武侦杀手、神崎香苗冤案、伊·幽与福尔摩斯/罗苹后裔宿怨。金次的HSS爆发模式在亚莉亚危机中被迫发动，两人最终结成伙伴关系。",
+      "core_conflict": "金次逃避武侦人生与亚莉亚追寻伙伴/救母的目标冲突；暗中由峰理子操纵的武侦杀手事件将两人推向共同战斗。",
+      "atmosphere": "荒诞校园日常、枪械与炸弹危机、台风夜空战迫降、傲娇喜剧与创伤动机并存。",
+      "timeline": [
+        { "event_id": "bike-hijack-first-meet", "summary": "金次脚踏车被装减速爆炸物，亚莉亚从空中介入，二人在体育仓库内并肩逃过遥控武器。", "sourceRef": "hidan-no-aria-main/vol-01/full.txt:307" },
+        { "event_id": "bus-hijacking", "summary": "武侦高中公车被挟持，亚莉亚、金次、蕾姬、武藤合力救下学生。", "sourceRef": "hidan-no-aria-main/vol-01/full.txt:3297" },
+        { "event_id": "ana600-hijack", "summary": "理子伪装空服员劫持ANA600并向亚莉亚宣战，金次和亚莉亚击退她后迫降空地岛。", "sourceRef": "hidan-no-aria-main/vol-01/full.txt:4845" },
+        { "event_id": "partner-choice", "summary": "亚莉亚准备回伦敦时金次追上她，承认自己愿意做她的伙伴。", "sourceRef": "hidan-no-aria-main/vol-01/full.txt:6583" }
+      ],
+      "rules": [
+        { "system_id": "butei-system", "summary": "武侦持照可携武器并享逮捕权，但必须在武侦法范围内行动。", "sourceRef": "hidan-no-aria-main/vol-01/full.txt:287" },
+        { "system_id": "butei-charter", "summary": "武侦宪章第一条要求同伴互信互助，第二条要求遵守委托契约。", "sourceRef": "hidan-no-aria-main/vol-01/full.txt:457" },
+        { "system_id": "hss-system", "summary": "远山家遗传HSS会在性刺激等条件下极大提升思考和反射能力，同时改变对女性的态度。", "sourceRef": "hidan-no-aria-main/vol-01/full.txt:1083" }
+      ],
+      "history_eras": ["福尔摩斯与罗苹一族百年前对决留下后裔宿怨", "远山家数百年来以爆发模式从事正义使者职业"],
+      "evidence_level": "S",
+      "source_refs": ["hidan-no-aria-main/vol-01/full.txt:283", "hidan-no-aria-main/vol-01/full.txt:6833", "hidan-no-aria-main/vol-01/full.txt:3955"]
+    }
+  ],
+  "source_refs": ["hidan-no-aria-main/vol-01/full.txt:1"]
+}

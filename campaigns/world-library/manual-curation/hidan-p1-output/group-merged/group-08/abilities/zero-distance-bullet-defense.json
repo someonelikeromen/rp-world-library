@@ -1,0 +1,102 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "zero-distance-bullet-defense",
+  "volume": "vol-15",
+  "source_refs": [
+    "hidan-no-aria-main/vol-15/chapters/ch-001-第十五卷_哿与银冰_1弹_真空炸弹.txt:349"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-15-main",
+      "volume": "vol-15",
+      "time": "西玛·哈里号船桥战",
+      "name": {
+        "zh": "零距离子弹减速防御",
+        "en": "Zero-distance Bullet Defense"
+      },
+      "aliases": [
+        "橘花、秋水、绝牢、樱花连动防御",
+        "头盖骨减速防御"
+      ],
+      "type": "combat / technique",
+      "description": "金次在爆发模式下利用枪管内尚有距离这一点，将身体、脊椎和腿部连动技反向使用，使头部顺着子弹方向移动并以亚音速动作削减相对速度，随后反击踢飞卡羯手枪。",
+      "details": {
+        "components": [
+          "橘花",
+          "秋水",
+          "绝牢",
+          "樱花"
+        ],
+        "target": "卡羯零距离鲁格P08射击",
+        "result": "子弹擦破头皮未贯穿，金次空翻落地并破坏手枪"
+      },
+      "activation": {
+        "condition": "爆发模式下遭贴头射击",
+        "incantation": "无",
+        "time": "子弹经过枪管刹那",
+        "cost": "头皮大量出血与高度身体负担"
+      },
+      "effects": [
+        "降低子弹相对速度",
+        "避免头盖骨被贯穿",
+        "将敌方攻击转化为反击动能"
+      ],
+      "power_level": {
+        "initial": "远山家体术极限应用",
+        "peak": "零距离防住鲁格手枪",
+        "evolution": []
+      },
+      "known_feats": [
+        "在油轮船桥挡下卡羯处刑射击"
+      ],
+      "shared_by": [
+        "kinji"
+      ],
+      "see_also": [
+        "hss"
+      ],
+      "countered_by": [],
+      "counters": [
+        "point-blank-pistol-shot"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-15/chapters/ch-001-第十五卷_哿与银冰_1弹_真空炸弹.txt:305",
+        "hidan-no-aria-main/vol-15/chapters/ch-001-第十五卷_哿与银冰_1弹_真空炸弹.txt:349",
+        "hidan-no-aria-main/vol-15/chapters/ch-001-第十五卷_哿与银冰_1弹_真空炸弹.txt:369"
+      ]
+    },
+    {
+      "period_id": "vol-17-main",
+      "volume": "vol-17",
+      "time": "本卷背景",
+      "name": {
+        "zh": "零距离子弹减速防御",
+        "en": "Zero-distance bullet defense"
+      },
+      "aliases": [
+        "徒手抓弹原理"
+      ],
+      "type": "combat",
+      "description": "金次系通过顺应弹速减速并处理子弹的技巧。本卷用于对比阎、津羽鬼等鬼族抓弹能力。",
+      "effects": [
+        "解释金次对枪弹反应的基础",
+        "凸显鬼族抓弹不完全同源"
+      ],
+      "known_feats": [
+        "阎靠蛮力或狼牙棒处理子弹，津羽鬼则更接近顺速抓弹"
+      ],
+      "shared_by": [
+        "kinji",
+        "tsubaki"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-17/chapters/ch-001-第十七卷_绯弹的宣叙曲_1弹_热沃当与哿.txt:260",
+        "hidan-no-aria-main/vol-17/chapters/ch-003-第十七卷_绯弹的宣叙曲_3弹_忍者虽有闲暇时.txt:930"
+      ]
+    }
+  ]
+}

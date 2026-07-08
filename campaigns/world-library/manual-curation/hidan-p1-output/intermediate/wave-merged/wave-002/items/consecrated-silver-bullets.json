@@ -1,0 +1,50 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "item",
+  "entityId": "consecrated-silver-bullets",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-09",
+  "_schema": "rp-item-volume-v1",
+  "periods": [
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:141",
+        "hidan-no-aria-main/vol-09/full.txt:1545",
+        "hidan-no-aria-main/vol-09/full.txt:1975"
+      ],
+      "snapshot": {
+        "name": "法化银弹",
+        "aliases": [
+          "银弹",
+          "对吸血鬼银弹",
+          "法化武装弹药"
+        ],
+        "type": "ammunition / anti-vampire",
+        "description": "华生交给金次的对吸血鬼弹药。对希尔达的翅膀与魔脏回复具有显著抑制效果，理子以贝瑞塔发射后可造成不自然的大孔与缓慢恢复。",
+        "details": {
+          "material": "纯银并经法化处理",
+          "owner": "watson临时交给kinji",
+          "usage": "装填入金次贝瑞塔，由理子和金次在天空树战中使用"
+        },
+        "owner": "kinji",
+        "status": "天空树战中大部分消耗",
+        "features": [
+          "可阻碍希尔达瞬间回复",
+          "击中翼膜会造成大面积孔洞",
+          "可被大蛇夹住并回射"
+        ],
+        "associated_abilities": [
+          "bullet-return",
+          "vampire-regeneration-magic-organs"
+        ],
+        "history": [
+          "华生说明十字箔剑与法化银弹是希尔达害怕的物质",
+          "理子用银弹打断希尔达双翼机动",
+          "金次用最后一发银弹完成子弹回射"
+        ],
+        "evidence_level": "S"
+      }
+    }
+  ]
+}

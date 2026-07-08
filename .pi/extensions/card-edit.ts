@@ -1,13 +1,13 @@
-import { existsSync, mkdirSync, readFileSync, renameSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, readdirSync, renameSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { StringEnum } from "@earendil-works/pi-ai";
 import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";
 import { Type } from "typebox";
 
-type CardAction = "cards" | "get" | "set" | "merge" | "append" | "upsert" | "remove" | "batch" | "validate" | "status" | "register";
+type CardAction = "cards" | "init" | "modules" | "get" | "set" | "merge" | "append" | "upsert" | "remove" | "batch" | "validate" | "status" | "register";
 
 type Operation = {
-	action: Exclude<CardAction, "cards" | "get" | "batch" | "validate"> | "set" | "merge" | "append" | "upsert" | "remove";
+	action: Exclude<CardAction, "cards" | "init" | "modules" | "get" | "batch" | "validate" | "status" | "register"> | "set" | "merge" | "append" | "upsert" | "remove";
 	path?: string;
 	value?: any;
 	item?: any;
@@ -19,11 +19,13 @@ const ROOT = process.cwd();
 const CONFIG_PATH = join(ROOT, ".pi", "rp-data-tools.json");
 
 const CardEditParams = Type.Object({
-	action: StringEnum(["cards", "get", "set", "merge", "append", "upsert", "remove", "batch", "validate", "status", "register"] as const, {
-		description: "cards=list registered cards; get=read; set/merge/append/upsert/remove=edit JSON; batch=multiple edits; validate=consistency checks; status=lightweight summary; register=add NPC card",
+	action: StringEnum(["cards", "init", "modules", "get", "set", "merge", "append", "upsert", "remove", "batch", "validate", "status", "register"] as const, {
+		description: "cards=list registered cards; init=create directory card from template; modules=list directory card modules; get=read; set/merge/append/upsert/remove=edit JSON; batch=multiple edits; validate=consistency checks; status=lightweight summary; register=add NPC card",
 	}),
 	card: Type.Optional(Type.String({ description: "Registered card key or alias. Default: protagonist" })),
-	path: Type.Optional(Type.String({ description: "Dot path. Supports arrays by index or id selector: resources[id=mana].current, abilities[0].name" })),
+	path: Type.Optional(Type.String({ description: "Dot path inside card JSON or selected module. Supports arrays by index or id selector: resources[id=mana].current, abilities[0].name" })),
+	module: Type.Optional(Type.String({ description: "Directory-card module path or alias, e.g. combat/resources.json or resources. When present, get/edit targets that module file." })),
+	template: Type.Optional(Type.String({ description: "Template key for init action. Default: unified-character-v1" })),
 	value: Type.Optional(Type.Any({ description: "Value for set/merge/append" })),
 	item: Type.Optional(Type.Any({ description: "Object for upsert, or value for append" })),
 	id: Type.Optional(Type.String({ description: "Item id/name for upsert/remove in an array path" })),
@@ -37,10 +39,10 @@ const CardEditParams = Type.Object({
 		idField: Type.Optional(Type.String()),
 	}), { description: "Batch operations, applied atomically" })),
 	dryRun: Type.Optional(Type.Boolean({ description: "Preview changes without writing. Default false" })),
-	backup: Type.Optional(Type.Boolean({ description: "Write timestamped backup before mutation. Default true" })),
+	backup: Type.Optional(Type.Boolean({ description: "Write timestamped backup before mutation. Default true. For init, backup:false allows overwriting an existing target directory." })),
 	note: Type.Optional(Type.String({ description: "Human note stored in tool details" })),
 	maxBytes: Type.Optional(Type.Number({ description: "Max returned bytes. Default 16000; max 50000" })),
-	cardPath: Type.Optional(Type.String({ description: "File path for register action, relative to project root" })),
+	cardPath: Type.Optional(Type.String({ description: "File path for register action, or directory path for init action, relative to project root" })),
 	cardLabel: Type.Optional(Type.String({ description: "Human label for register action" })),
 	cardAliases: Type.Optional(Type.Array(Type.String(), { description: "Search aliases for register action" })),
 });
@@ -268,6 +270,146 @@ function removeAt(root: any, cardDef: any, path: string, id?: string, idField?: 
 	throw new Error("remove with selector should use id/path to array");
 }
 
+
+function isDirectoryCard(def: any): boolean {
+	return def?.storage === "directory" || !!def?.modules;
+}
+
+function moduleMap(def: any): Record<string, string> {
+	return def?.modules || {};
+}
+
+function resolveTemplate(config: any, template?: string): { key: string; def: any; dir: string } {
+	const key = template || config.cardTemplates?.default || "unified-character-v1";
+	const def = config.cardTemplates?.templates?.[key];
+	if (!def) throw new Error("Unknown card template: " + key);
+	return { key, def, dir: join(ROOT, def.path) };
+}
+
+function copyDirRecursive(src: string, dst: string): void {
+	if (!existsSync(src)) throw new Error("Template directory not found: " + rel(src));
+	mkdirSync(dst, { recursive: true });
+	for (const entry of readdirSync(src, { withFileTypes: true })) {
+		const sp = join(src, entry.name);
+		const dp = join(dst, entry.name);
+		if (entry.isDirectory()) copyDirRecursive(sp, dp);
+		else writeFileSync(dp, readFileSync(sp, "utf8"), "utf8");
+	}
+}
+
+function collectJsonFiles(dir: string): string[] {
+	const out: string[] = [];
+	if (!existsSync(dir)) return out;
+	for (const entry of readdirSync(dir, { withFileTypes: true })) {
+		const p = join(dir, entry.name);
+		if (entry.isDirectory()) out.push(...collectJsonFiles(p));
+		else if (entry.isFile() && entry.name.endsWith(".json")) out.push(p);
+	}
+	return out.sort();
+}
+
+function resolveModuleFile(cardFile: string, def: any, moduleName?: string): { module: string; file: string } {
+	if (!moduleName) return { module: "", file: cardFile };
+	if (!isDirectoryCard(def)) throw new Error("module parameter requires a directory-style card");
+	const modules = moduleMap(def);
+	const relModule = modules[moduleName] || moduleName;
+	if (relModule.includes("..") || relModule.startsWith("/") || /^[A-Za-z]:/.test(relModule)) throw new Error("Unsafe module path: " + moduleName);
+	return { module: relModule, file: join(cardFile, relModule) };
+}
+
+function readModuleJson(cardFile: string, def: any, moduleName?: string): { module: string; file: string; data: any } {
+	const target = resolveModuleFile(cardFile, def, moduleName);
+	if (!existsSync(target.file)) throw new Error("Module file not found: " + rel(target.file));
+	return { ...target, data: readJson(target.file) };
+}
+
+function directoryCardModules(cardFile: string, def: any): any[] {
+	const declared = moduleMap(def);
+	const declaredRows = Object.entries(declared).map(([key, relPath]) => ({ key, path: relPath, file: rel(join(cardFile, relPath as string)), exists: existsSync(join(cardFile, relPath as string)) }));
+	const declaredPaths = new Set(Object.values(declared));
+	const baseRel = rel(cardFile);
+	const extraRows = collectJsonFiles(cardFile)
+		.map(f => rel(f).slice(baseRel.length + 1))
+		.filter(p => !declaredPaths.has(p))
+		.map(p => ({ key: p, path: p, file: rel(join(cardFile, p)), exists: true, extra: true }));
+	return [...declaredRows, ...extraRows];
+}
+
+function validateDirectoryCard(cardFile: string, def: any): { ok: boolean; errors: string[]; warnings: string[]; modules: any[] } {
+	const errors: string[] = [];
+	const warnings: string[] = [];
+	const modules = directoryCardModules(cardFile, def);
+	for (const mod of modules) {
+		if (!mod.exists) { errors.push("Missing module: " + mod.path); continue; }
+		try { JSON.parse(readFileSync(join(cardFile, mod.path), "utf8")); }
+		catch (e: any) { errors.push("Invalid JSON in " + mod.path + ": " + (e?.message || e)); }
+	}
+	for (const p of def.requiredModules || []) {
+		if (!existsSync(join(cardFile, p))) errors.push("Missing required module: " + p);
+	}
+	return { ok: errors.length === 0, errors, warnings, modules };
+}
+
+function directoryStatusSummary(cardFile: string, def: any): any {
+	function safeRead(moduleName: string) {
+		try { return readModuleJson(cardFile, def, moduleName).data; } catch { return undefined; }
+	}
+	const index = safeRead("index") || {};
+	const identity = safeRead("identity") || {};
+	const session = safeRead("session") || {};
+	const rating = safeRead("combatRating") || {};
+	const resources = safeRead("resources") || {};
+	const states = safeRead("states") || {};
+	const relationships = safeRead("relationships") || {};
+	const inventory = safeRead("inventory") || {};
+	return {
+		index,
+		basic: identity.identity || identity,
+		currentStatus: session.currentStatus || session,
+		combat: rating.combatRating || rating,
+		resources: resources.resources || resources,
+		states: states.states || states,
+		keyRelations: relationships.relationships || relationships,
+		inventoryHighlights: inventory.items || inventory.inventory || inventory,
+	};
+}
+
+function initDirectoryCard(config: any, params: any): any {
+	if (!params.card) throw new Error("init requires card key");
+	const cardPath = params.cardPath || "card/" + params.card;
+	const dst = join(ROOT, cardPath);
+	if (existsSync(dst) && params.backup !== false) throw new Error("Refusing to initialize over existing path without backup:false override: " + cardPath);
+	const tpl = resolveTemplate(config, params.template);
+	copyDirRecursive(tpl.dir, dst);
+
+	const indexPath = join(dst, "index.json");
+	if (existsSync(indexPath)) {
+		const idx = readJson(indexPath);
+		idx.cardId = params.card;
+		idx.label = params.cardLabel || idx.label || params.card;
+		idx.template = tpl.key;
+		idx.createdAt = idx.createdAt || new Date().toISOString();
+		atomicWriteJson(indexPath, idx);
+	}
+
+	const entry = {
+		path: cardPath,
+		storage: "directory",
+		schema: tpl.def.schema || "rp-unified-character-v1",
+		label: params.cardLabel || params.card,
+		aliases: params.cardAliases || [params.card],
+		template: tpl.key,
+		modules: tpl.def.modules || {},
+		requiredModules: tpl.def.requiredModules || Object.values(tpl.def.modules || {}),
+		idArrays: tpl.def.idArrays || {},
+		extensionSlots: tpl.def.extensionSlots || { customValidators: [], derivedFields: [], postUpdateHooks: [] },
+	};
+	if (!config.cards) config.cards = {};
+	config.cards[params.card] = entry;
+	writeFileSync(CONFIG_PATH, JSON.stringify(config, null, 2) + "\n", "utf8");
+	return { card: params.card, cardPath, template: tpl.key, registered: entry, modules: directoryCardModules(dst, entry) };
+}
+
 function makeBackup(config: any, file: string): string {
 	const backupRoot = join(ROOT, config.backupDir || "backup/card-edits");
 	mkdirSync(backupRoot, { recursive: true });
@@ -493,8 +635,13 @@ export default function (pi: ExtensionAPI) {
 			try {
 				const config = loadConfig();
 				if (params.action === "cards") {
-					const cards = Object.fromEntries(Object.entries(config.cards || {}).map(([k, v]: any) => [k, { path: v.path, label: v.label, aliases: v.aliases, schema: v.schema, requiredPaths: v.requiredPaths, extensionSlots: v.extensionSlots }]));
-					return result({ ok: true, cards, allowUnregisteredCardFiles: config.allowUnregisteredCardFiles }, { ok: true, action: "cards" }, maxBytes);
+					const cards = Object.fromEntries(Object.entries(config.cards || {}).map(([k, v]: any) => [k, { path: v.path, storage: v.storage || "file", label: v.label, aliases: v.aliases, schema: v.schema, requiredPaths: v.requiredPaths, modules: v.modules, requiredModules: v.requiredModules, extensionSlots: v.extensionSlots }]));
+					return result({ ok: true, cards, cardTemplates: config.cardTemplates, allowUnregisteredCardFiles: config.allowUnregisteredCardFiles }, { ok: true, action: "cards" }, maxBytes);
+				}
+
+				if (params.action === "init") {
+					const initialized = initDirectoryCard(config, params);
+					return result({ ok: true, initialized }, { ok: true, action: "init", card: params.card, path: initialized.cardPath }, maxBytes);
 				}
 
 			if (params.action === "register") {
@@ -503,10 +650,53 @@ export default function (pi: ExtensionAPI) {
 			}
 
 				const { key, def, file } = resolveCard(config, params.card);
-				if (!existsSync(file)) return errorResult(`Card file not found: ${rel(file)}`, maxBytes, { card: key, path: rel(file) });
+				if (!existsSync(file)) return errorResult(`Card path not found: ${rel(file)}`, maxBytes, { card: key, path: rel(file) });
+
+				if (isDirectoryCard(def)) {
+					if (params.action === "modules") {
+						const modules = directoryCardModules(file, def);
+						return result({ ok: true, card: key, dir: rel(file), modules }, { ok: true, action: "modules", card: key, dir: rel(file) }, maxBytes);
+					}
+					if (params.action === "get") {
+						if (!params.module) return result({ ok: true, card: key, dir: rel(file), modules: directoryCardModules(file, def), status: directoryStatusSummary(file, def) }, { ok: true, action: "get", card: key, dir: rel(file) }, maxBytes);
+						const target = readModuleJson(file, def, params.module);
+						const value = params.path ? getAt(target.data, params.path) : target.data;
+						return result({ ok: true, card: key, module: target.module, file: rel(target.file), path: params.path || "", value }, { ok: true, action: "get", card: key, module: target.module, file: rel(target.file), path: params.path }, maxBytes);
+					}
+					if (params.action === "status") {
+						const status = directoryStatusSummary(file, def);
+						return result({ ok: true, card: key, dir: rel(file), status }, { ok: true, action: "status", card: key, dir: rel(file) }, maxBytes);
+					}
+					if (params.action === "validate") {
+						const validation = validateDirectoryCard(file, def);
+						return result({ ok: validation.ok, card: key, dir: rel(file), validation }, { ok: validation.ok, action: "validate", card: key, dir: rel(file) }, maxBytes);
+					}
+					if (!params.module) return errorResult("Directory-style card mutations require module", maxBytes, { action: params.action, card: key });
+					const target = readModuleJson(file, def, params.module);
+					const originalText = readFileSync(target.file, "utf8");
+					const moduleData = JSON.parse(originalText);
+					const ops: Operation[] = params.action === "batch" ? (params.operations || []) as Operation[] : [{ action: params.action as any, path: params.path, value: params.value, item: params.item, id: params.id, idField: params.idField }];
+					if (ops.length === 0) return errorResult("No operations provided", maxBytes, { action: params.action, card: key, module: target.module });
+					const working = clone(moduleData);
+					const changes = ops.map(op => ({ op, result: applyOperation(working, def, op) }));
+					const beforeHash = Buffer.from(originalText).toString("base64").slice(0, 16);
+					const afterText = JSON.stringify(working, null, 2) + "\n";
+					const afterHash = Buffer.from(afterText).toString("base64").slice(0, 16);
+					let backupPath: string | undefined;
+					if (!params.dryRun) {
+						if (params.backup !== false) backupPath = makeBackup(config, target.file);
+						atomicWriteJson(target.file, working);
+					}
+					const validation = validateDirectoryCard(file, def);
+					return result({ ok: true, card: key, module: target.module, file: rel(target.file), dryRun: !!params.dryRun, backup: backupPath ? rel(backupPath) : undefined, changes, validation, note: params.note }, { ok: true, action: params.action, card: key, module: target.module, file: rel(target.file), dryRun: !!params.dryRun, backup: backupPath ? rel(backupPath) : undefined, beforeHash, afterHash, note: params.note }, maxBytes);
+				}
+
 				const originalText = readFileSync(file, "utf8");
 				const card = JSON.parse(originalText);
 
+				if (params.action === "modules") {
+					return result({ ok: true, card: key, file: rel(file), modules: [{ key: "root", path: rel(file), file: rel(file), exists: true }] }, { ok: true, action: "modules", card: key, file: rel(file) }, maxBytes);
+				}
 				if (params.action === "get") {
 					const value = params.path ? getAt(card, params.path) : card;
 					return result({ ok: true, card: key, file: rel(file), path: params.path || "", value }, { ok: true, action: "get", card: key, file: rel(file), path: params.path }, maxBytes);

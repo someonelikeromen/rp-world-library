@@ -1,0 +1,50 @@
+{
+  "_schema": "rp-item-volume-v1",
+  "world": "hidan-no-aria",
+  "item_id": "beretta-workshop",
+  "volume": "vol-24",
+  "periods": [
+    {
+      "period_id": "vol-24-main",
+      "volume": "vol-24",
+      "time": "罗马篇",
+      "name": {
+        "zh": "贝瑞塔地下工作室",
+        "en": "Beretta workshop"
+      },
+      "aliases": [
+        "地下枪械工作室"
+      ],
+      "type": "key-item / equipment",
+      "description": "贝瑞塔宅邸地下的个人枪械研发空间，含多种加工设备和电脑，用于拆解金次武装、研发革命枪与准备简报。",
+      "details": {
+        "location_ref": "beretta-workshop"
+      },
+      "owner": "beretta",
+      "status": "active",
+      "features": [
+        "枪械加工",
+        "样品研发",
+        "资料准备"
+      ],
+      "associated_abilities": [
+        "beretta-gunsmithing",
+        "weapon-engineering"
+      ],
+      "history": [
+        {
+          "event_id": "beretta-workshop-weapon-disassembly",
+          "summary": "贝瑞塔在此拆解分析金次武装。",
+          "sourceRef": "hidan-no-aria-main/vol-24/full.txt:680"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-24/chapters/ch-001-第二十四卷_狂逸的同学会_1弹_帕里奥利的手枪技师.txt:680"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-24/chapters/ch-001-第二十四卷_狂逸的同学会_1弹_帕里奥利的手枪技师.txt:680"
+  ]
+}

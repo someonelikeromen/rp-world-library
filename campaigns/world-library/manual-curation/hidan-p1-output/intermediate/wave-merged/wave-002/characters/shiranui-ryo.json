@@ -1,0 +1,94 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "character",
+  "entityId": "shiranui-ryo",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-09",
+  "_schema": "rp-character-volume-v1",
+  "periods": [
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:3950",
+        "hidan-no-aria-main/vol-09/full.txt:6338"
+      ],
+      "snapshot": {
+        "name": "不知火亮",
+        "aliases": [
+          "不知火",
+          "师奶偶像飞行员"
+        ],
+        "gender": "男",
+        "status": "存活；文化祭中扮演飞行员并参加美男子选拔获得准优胜",
+        "role": "金次同学与友人；文化祭配角",
+        "affiliations": [
+          "东京武侦高中",
+          "二年级"
+        ],
+        "abilities_owned": [
+          "social-charm",
+          "butei-training"
+        ],
+        "possessions_owned": [],
+        "equipment": [
+          "飞行员制服"
+        ],
+        "relationships": [
+          {
+            "target": "kinji",
+            "type": "友人",
+            "detail": "文化祭第二天与金次、武藤一起逛校庆。"
+          },
+          {
+            "target": "mutou",
+            "type": "同学",
+            "detail": "同为金次文化祭行动伙伴。"
+          }
+        ],
+        "summary": "不知火在文化祭第一天以飞行员制服参加变装食堂，第二天在美男子选拔会上获得准优胜，并与金次、武藤一起逛文化祭。",
+        "evidence_level": "C",
+        "source_refs": []
+      }
+    },
+    {
+      "period_id": "vol-10-main",
+      "volume": "vol-10",
+      "time": "2009年11月上旬",
+      "name": {
+        "zh": "不知火亮",
+        "en": "Shiranui Ryo"
+      },
+      "aliases": [
+        "不知火"
+      ],
+      "gender": "male",
+      "species": "human",
+      "occupation": "强袭科学生",
+      "affiliation": "东京武侦高中",
+      "status": {
+        "role": "金次少数友人之一；目击华生复健训练后的误会场面"
+      },
+      "personality": {
+        "summary": "人格优良、口风紧、体贴，面对误会选择保密。"
+      },
+      "abilities_owned": [],
+      "possessions_owned": [],
+      "relationships": {
+        "kinji": "好友，误会其与华生关系但发誓保密",
+        "l-watson": "误会对象之一"
+      },
+      "summary": "不知火在选修科目大楼偶然撞见金次和衣衫凌乱的华生从美术器材室出来，误会两人关系，但以宽容态度表示不会告诉任何人。",
+      "key_events": [
+        {
+          "event_id": "watson-rehab-incident",
+          "summary": "撞见复健训练后的误会现场并承诺保密",
+          "sourceRef": "hidan-no-aria-main/vol-10/full.txt:5114"
+        }
+      ],
+      "evidence_level": "B",
+      "source_refs": [
+        "hidan-no-aria-main/vol-10/chapters/ch-004-第十卷_禁忌的双极_4弹_悖德的三岔路.txt:1080"
+      ]
+    }
+  ]
+}

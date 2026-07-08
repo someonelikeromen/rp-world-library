@@ -1,0 +1,62 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "ability",
+  "entityId": "hss-bousou-mode",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-04",
+  "periods": [
+    {
+      "periodId": "vol-04",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-04/full.txt:1559",
+        "hidan-no-aria-main/vol-04/full.txt:4129",
+        "hidan-no-aria-main/vol-04/full.txt:5833",
+        "hidan-no-aria-main/vol-04/full.txt:6729"
+      ],
+      "snapshot": {
+        "name": "爆发模式/HSS",
+        "aliases": [
+          "爆发(HSS)",
+          "Hyper SensorSensory",
+          "半进爆发",
+          "Hereditary Super Senses"
+        ],
+        "type": "innate / genetic",
+        "description": "远山家代代遗传的特殊体质，通过性亢奋触发，使身心能力提升至常态约30倍。金次的HSS在本卷确认由亚莉亚触发。金一可通过变身成女性『加奈』维持常驻HSS。",
+        "details": {
+          "activation_mechanism": "性亢奋触发，对象多为女性；金次首次确认亚莉亚是他的触发对象",
+          "boost_factor": "约30倍常人能力",
+          "recovery_need": "HSS解除后需要超长时间睡眠恢复神经负担",
+          "semi_activation": "变化途中被打断时会出现『半进爆发』状态，能力小幅提升但不完全"
+        },
+        "activation": {
+          "condition": "异性接触或性刺激",
+          "incantation": "无",
+          "time": "数秒至数分钟",
+          "cost": "神经疲劳；长时间维持需要超长睡眠恢复"
+        },
+        "effects": [
+          "身体能力全面提升约30倍",
+          "反射神经大幅加快，能看见通常不可视的子弹轨迹",
+          "对女性的言谈和态度变得温柔且游刃有余"
+        ],
+        "known_feats": [
+          "金一可通过加奈形态维持常驻HSS",
+          "金次在爆发模式下创造出『镜击』反制不可视子弹",
+          "金次曾通过咬住子弹幸存"
+        ],
+        "shared_by": [
+          "tooyama-kinichi",
+          "tooyama-kinshiro-i"
+        ],
+        "counters": [
+          "超长睡眠期的弱点",
+          "半进爆发时能力不完全"
+        ],
+        "evidence_level": "S",
+        "source_refs": []
+      }
+    }
+  ],
+  "_schema": "rp-ability-volume-v1"
+}

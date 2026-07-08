@@ -1,0 +1,45 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "squad-command",
+  "volume": "vol-21",
+  "source_refs": [
+    "hidan-no-aria-main/vol-21/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-21",
+      "volume": "vol-21",
+      "time": "第二十一卷",
+      "name": {
+        "zh": "小队指挥",
+        "en": "Squad command"
+      },
+      "aliases": [
+        "Delta队形命令"
+      ],
+      "type": "combat / command",
+      "description": "狮堂对可鹉韦、滩、原田、大门坊等人下达Delta攻击性阵列命令，统一逮捕行动。",
+      "details": {
+        "formation": "Delta队形，攻击性阵列"
+      },
+      "activation": {
+        "condition": "多人战术行动"
+      },
+      "effects": [
+        "整合小队杀气",
+        "形成包围与压制"
+      ],
+      "known_feats": [
+        "卷末狮堂命令五人队形压制金次"
+      ],
+      "shared_by": [
+        "shidou"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-21/full.txt"
+      ]
+    }
+  ]
+}

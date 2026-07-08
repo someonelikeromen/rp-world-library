@@ -1,0 +1,47 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "ability",
+  "entityId": "watson-espionage-combat",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-09",
+  "periods": [
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:25",
+        "hidan-no-aria-main/vol-09/full.txt:87",
+        "hidan-no-aria-main/vol-09/full.txt:141"
+      ],
+      "snapshot": {
+        "name": "华生谍报与格斗能力",
+        "aliases": [
+          "超一流谍报员战斗力",
+          "华生拳击/剑术",
+          "自由石匠战斗术"
+        ],
+        "type": "espionage / close combat",
+        "description": "华生自称超一流谍报员，能与狂怒爆发状态的金次缠斗近二十三分钟。她使用十字箔剑、萨克逊剑、耐电装备、药物和谍报交涉技术，但本卷遭希尔达雷球击倒。",
+        "known_users": [
+          "watson"
+        ],
+        "effects": [
+          "高强度近身战",
+          "反吸血鬼装备运用",
+          "谍报伪装与交涉",
+          "现场医疗与战术说明"
+        ],
+        "limitations": [
+          "面对希尔达高压雷球仍会被一击重创",
+          "被希尔达利用为诱饵"
+        ],
+        "associated_items": [
+          "watson-silver-rapier",
+          "nebula-stimulant",
+          "consecrated-silver-bullets"
+        ],
+        "evidence_level": "A"
+      }
+    }
+  ],
+  "_schema": "rp-ability-volume-v1"
+}

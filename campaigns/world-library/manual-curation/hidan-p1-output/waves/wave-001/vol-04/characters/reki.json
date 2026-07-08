@@ -1,0 +1,63 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "character",
+  "entityId": "reki",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-04",
+  "periods": [
+    {
+      "periodId": "vol-04",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-04/full.txt:2925",
+        "hidan-no-aria-main/vol-04/full.txt:3024",
+        "hidan-no-aria-main/vol-04/full.txt:3643",
+        "hidan-no-aria-main/vol-04/full.txt:4469",
+        "hidan-no-aria-main/vol-04/full.txt:5391"
+      ],
+      "snapshot": {
+        "name": "蕾姬",
+        "aliases": [
+          "机器人蕾姬",
+          "狙击科神童"
+        ],
+        "gender": "女",
+        "status": "存活；赌场任务后留在后方支援",
+        "role": "狙击科S级狙击手；赌场警卫小队成员",
+        "affiliations": [
+          "东京武侦高中",
+          "狙击科"
+        ],
+        "abilities": [
+          "超远距离狙击",
+          "风感知",
+          "轮盘精准投掷",
+          "近距离刺刀应急"
+        ],
+        "equipment": [
+          "德拉古诺夫狙击枪",
+          "刺刀",
+          "庄家服装"
+        ],
+        "relationships": [
+          {
+            "target": "emaki",
+            "type": "伙伴",
+            "detail": "银狼艾马基服从她并协助侦测、攻击虫人偶。"
+          },
+          {
+            "target": "kinji",
+            "type": "同伴",
+            "detail": "借金次肩膀作为枪座射击虫人偶，并准备其B装备。"
+          },
+          {
+            "target": "petra",
+            "type": "敌对",
+            "detail": "在台场以最后一发子弹击破佩特拉的狙击替身。"
+          }
+        ],
+        "summary": "蕾姬在本卷以庄家身份参与赌场警卫，用异常精准的轮盘和狙击显示才能。她察觉邪恶之风，配合银狼与金次抵御虫人偶，并在海上危机中远距离击穿佩特拉沙分身。"
+      }
+    }
+  ],
+  "_schema": "rp-character-volume-v1"
+}

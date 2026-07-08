@@ -1,0 +1,63 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "reki-sniping",
+  "volume": "vol-01",
+  "periods": [
+    {
+      "period_id": "vol-01-main",
+      "volume": "vol-01",
+      "time": "公车挟持事件",
+      "name": {
+        "zh": "一发子弹·狙击",
+        "en": "The Single Bullet - Sniping"
+      },
+      "aliases": [
+        "一发子弹",
+        "狙击术"
+      ],
+      "type": "combat",
+      "description": "蕾姬的狙击技术已达天才级别，其座右铭是'我是一发子弹。子弹没有人心，故不会思考——只会一味地朝目标飞去。'她能在极端天气条件和大风下进行高精度狙击，包括狙击炸弹使其与载体分离。",
+      "details": {
+        "special_ritual": "每次狙击前吟诵'我是一发子弹'的短诗",
+        "vision": "双眼视力均为6.0",
+        "weapon": "SVD德拉古诺夫轻型半自动狙击步枪"
+      },
+      "activation": {
+        "condition": "观察到目标后吟诵咒文即射击",
+        "incantation": "'我是一发子弹。子弹没有人心。故不会思考——只会一味地朝目标飞去。'",
+        "time": "数秒",
+        "cost": ""
+      },
+      "effects": [
+        "极高精度远距离狙击",
+        "下着大雨台风天仍可命中炸弹组件",
+        "可精确打中高速移动车辆上的武器系统"
+      ],
+      "power_level": {
+        "initial": "S级",
+        "peak": "",
+        "evolution": []
+      },
+      "known_feats": [
+        "在公车挟持事件中从直升机上连续射击，先摧毁无人雷诺跑车枪座、再分离公车底部炸弹组件、最后将引爆炸弹使其落入海中"
+      ],
+      "shared_by": [
+        "蕾姬"
+      ],
+      "see_also": [],
+      "countered_by": [],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-01/chapters/ch-004-第一卷_3弹_强袭科.txt:971",
+        "hidan-no-aria-main/vol-01/chapters/ch-004-第一卷_3弹_强袭科.txt:977",
+        "hidan-no-aria-main/vol-01/chapters/ch-004-第一卷_3弹_强袭科.txt:525"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-01/chapters/ch-004-第一卷_3弹_强袭科.txt:521"
+  ]
+}

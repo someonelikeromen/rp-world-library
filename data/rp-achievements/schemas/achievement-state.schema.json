@@ -1,0 +1,40 @@
+{
+  "schema": "rp-achievements-state-schema-v1",
+  "requiredTopLevel": [
+    "schema",
+    "mode",
+    "owner",
+    "visibility",
+    "panel",
+    "characterId",
+    "achievements",
+    "rewardRolls",
+    "pendingClaims",
+    "instantCandidateRecords"
+  ],
+  "panelVisibleSections": [
+    "unlockedAchievements",
+    "currentCharacterStatus",
+    "claimableRewards"
+  ],
+  "rewardStates": [
+    "pendingClaim",
+    "claimed",
+    "granted",
+    "stored",
+    "trainingRequired",
+    "adaptationRequired",
+    "active",
+    "unstable",
+    "incompatible",
+    "converted",
+    "consumed"
+  ],
+  "panelHiddenSections": [
+    "lockedAchievements",
+    "hiddenConditions",
+    "instantCandidateRecords",
+    "missedRollResults",
+    "futureRewards"
+  ]
+}

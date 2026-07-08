@@ -1,0 +1,91 @@
+{
+  "_schema": "rp-item-volume-v1",
+  "world": "hidan-no-aria",
+  "item_id": "kinji-beretta-m92fs",
+  "volume": "vol-27",
+  "source_refs": [
+    "hidan-no-aria-main/vol-27/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-27",
+      "volume": "vol-27",
+      "time": "第二十七卷",
+      "name": {
+        "zh": "金次的贝瑞塔M92FS",
+        "en": "Kinji's Beretta M92FS"
+      },
+      "aliases": [
+        "贝瑞塔·金次样式"
+      ],
+      "type": "weapon",
+      "description": "金次常用9mm手枪，本卷在公寓战、高尾基地和羽田战中使用。",
+      "details": {
+        "caliber": "9mm",
+        "system": "yamata-no-orochi"
+      },
+      "owner": "kinji",
+      "status": "active",
+      "features": [
+        "可连射",
+        "配合八岐大蛇使用"
+      ],
+      "associated_abilities": [
+        "hachi-soubi-yamata-no-orochi"
+      ],
+      "history": [
+        {
+          "summary": "金次在ZII公寓战中拔枪。",
+          "sourceRef": "hidan-no-aria-main/vol-27/full.txt:650"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-27/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-29",
+      "volume": "vol-29",
+      "time": "第二十九卷 盟约的谍候",
+      "name": {
+        "zh": "金次的贝瑞塔92FS",
+        "en": "Kinji's Beretta 92FS"
+      },
+      "aliases": [
+        "贝瑞塔",
+        "92FS"
+      ],
+      "type": "weapon",
+      "description": "金次常用半自动手枪，本卷潜入时最初藏在书包，后改用枪套携带。",
+      "details": {
+        "caliber": "9mm",
+        "concealment": "阿尼亚斯潜入时藏于背后枪套或书包"
+      },
+      "owner": "kinji",
+      "status": "active",
+      "features": [
+        "长期使用磨耗明显",
+        "可与部分武侦弹配合",
+        "米泽丽曾误认作模型枪"
+      ],
+      "associated_abilities": [
+        "hss"
+      ],
+      "history": [
+        {
+          "event_id": "agnes-double-council-gun-exposure",
+          "summary": "在双与会室从书包掉出，被米泽丽误认模型枪。"
+        },
+        {
+          "event_id": "hydra-duel-asclepios-capture",
+          "summary": "海卓拉决战中配合沙漠之鹰开火。"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-29/full.txt"
+      ]
+    }
+  ]
+}

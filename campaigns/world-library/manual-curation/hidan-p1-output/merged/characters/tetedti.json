@@ -1,0 +1,74 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "tetedti",
+  "volume": "vol-41",
+  "source_refs": [
+    "hidan-no-aria-main/vol-41/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-41-main",
+      "volume": "vol-41",
+      "time": "Odaiba and Lectea departure",
+      "label": "Tanuki-like twin servant",
+      "name": {
+        "zh": "萜萜蒂",
+        "en": "Tetedti",
+        "jp": "テテディ"
+      },
+      "aliases": [
+        "古狗狸双胞胎之一"
+      ],
+      "gender": "female",
+      "species": "Tedtikun beast-girl from Lectea",
+      "occupation": "servant of Entymila; temporary pursuer of Rasputina",
+      "affiliation": "Entymila household / Angelica temporary team",
+      "status": {
+        "alive": true,
+        "destination": "returns to Lectea to ask Entymila for help"
+      },
+      "summary": "Tetedti tracks Rasputina's scent with Rezetti, mistakenly seizes China as hostage, accepts Livia's legal/penal reasoning, then helps escort China to Lectea because her connection to Entymila can open a route to Wieseliv.",
+      "abilities_owned": [
+        "tedtikun-scent-tracking",
+        "tetedti-blade-and-bolas"
+      ],
+      "possessions_owned": [
+        "tetedti-rezetti-blades",
+        "tetedti-bolas"
+      ],
+      "relationships": {
+        "rezetti": {
+          "type": "twin"
+        },
+        "entymila": {
+          "type": "mistress"
+        },
+        "china": {
+          "type": "former enemy/escort"
+        },
+        "angelica-starr": {
+          "type": "temporary commander"
+        },
+        "kinji": {
+          "type": "former acquaintance/opponent"
+        }
+      },
+      "key_events": [
+        {
+          "event_id": "angelica-delta-mortal-duel",
+          "summary": "participates in seizing China before Angelica's confrontation",
+          "sourceRef": "hidan-no-aria-main/vol-41/full.txt"
+        },
+        {
+          "event_id": "china-departure-to-lectea",
+          "summary": "escorts China through water transfer to Lectea",
+          "sourceRef": "hidan-no-aria-main/vol-41/full.txt"
+        }
+      ],
+      "source_refs": [
+        "hidan-no-aria-main/vol-41/full.txt"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "cendrillon",
+  "volume": "vol-33",
+  "source_refs": [
+    "hidan-no-aria-main/vol-33/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-33",
+      "volume": "vol-33",
+      "time": "第三十三卷 花冠的归国兵",
+      "name": {
+        "zh": "仙杜丽昂",
+        "en": "Cendrillon"
+      },
+      "aliases": [
+        "蕾芬洁的代理人"
+      ],
+      "gender": "female",
+      "species": "human",
+      "status": "alive; 协助蕾芬洁抵达日本并逃脱",
+      "affiliation": [
+        "蕾芬洁支援团体",
+        "魔女连队周边"
+      ],
+      "occupation": "代理人/照护者/驾驶员",
+      "abilities_owned": [],
+      "possessions_owned": [
+        "cendrillon-smoke-bomb"
+      ],
+      "relationships": {
+        "rapunzel": {
+          "type": "caretaker/agent",
+          "description": "负责蕾芬洁的身体照料、邮件联络、驾驶Kettenkrad Icebell，并按暗号使用烟雾弹协助逃脱。"
+        },
+        "kinji": {
+          "type": "noncombatant contact",
+          "description": "金次提醒她若只是普通司机不要卷入会谈；她表现紧张但仍执行蕾芬洁指令。"
+        }
+      },
+      "key_events": [
+        "rapunzel-war-plan-revealed",
+        "yuzawa-ski-chase-cliffhanger"
+      ],
+      "summary": "仙杜丽昂是蕾芬洁身边看似普通但关键的代理人，负责实际交通、照护与战术撤离。",
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-33/chapters/ch-005-第三十三卷_花冠的归国兵_5弹_花冠的归国兵.txt:1"
+      ]
+    },
+    {
+      "period_id": "vol-34",
+      "volume": "vol-34",
+      "time": "第34卷",
+      "name": {
+        "zh": "仙杜丽昂",
+        "en": "Cendrillon",
+        "jp": ""
+      },
+      "aliases": [
+        "灰姑娘",
+        "N铁戒指成员"
+      ],
+      "gender": "female",
+      "species": "human",
+      "nationality": "unknown/European",
+      "occupation": "N基层成员；蕾芬洁代理人与协助者",
+      "affiliation": "N；蕾芬洁协力阵营",
+      "status": {
+        "physical": "哈巴谷号沉没后生还，被金次等人救上浮冰",
+        "mental": "胆小、怕死，遭讯问后大量供述N情报"
+      },
+      "abilities_owned": [],
+      "possessions_owned": [
+        "cendrillon-iron-ring"
+      ],
+      "relationships": {
+        "lefenge": {
+          "type": "assistant",
+          "summary": "作为N与蕾芬洁之间的联络、资金和后勤协助者。"
+        },
+        "kinji": {
+          "type": "captor/interrogator",
+          "summary": "被金次和雪花在衣柜中抓获，并被讯问出N和哈巴谷号情报。"
+        },
+        "sekka": {
+          "type": "captor",
+          "summary": "被雪花以旧军人方式威吓讯问。"
+        },
+        "moriarty": {
+          "type": "superior",
+          "summary": "称莫里亚蒂为教授，恐惧其惩罚并供述N的召唤体系。"
+        }
+      },
+      "summary": "仙杜丽昂是N派来支援蕾芬洁的铁戒指成员。她没有明显战斗能力，试图磨掉戒指文字销毁身份，却被金次识破；随后供出蕾芬洁由N召回、哈巴谷号由N资金支援、以及N长期组织人与列库忒亚往返的事实。",
+      "key_events": [
+        {
+          "event_id": "cendrillon-interrogation",
+          "summary": "在哈巴谷号衣柜中被抓获，N戒指暴露后交代N和蕾芬洁协力关系。",
+          "sourceRef": "hidan-no-aria-main/vol-34/full.txt:2415"
+        },
+        {
+          "event_id": "lefenge-rescue",
+          "summary": "穿救生衣漂流后被金次等人一并救上浮冰。",
+          "sourceRef": "hidan-no-aria-main/vol-34/full.txt:4500"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-34/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-35",
+      "volume": "vol-35",
+      "time": "第三十五卷",
+      "name": {
+        "zh": "仙杜丽昂",
+        "en": "Cendrillon",
+        "jp": "サンドリヨン"
+      },
+      "aliases": [
+        "一般民众",
+        "蕾芬洁的部下"
+      ],
+      "gender": "female",
+      "species": "human",
+      "nationality": "unknown",
+      "occupation": "蕾芬洁部下/逃亡者",
+      "affiliation": [
+        "魔女连队残党"
+      ],
+      "status": {
+        "life": "alive",
+        "condition": "在鄂霍次克海战中多次昏倒又清醒；负责照料蕾芬洁后从医院逃走",
+        "risk": "小喽啰级别，暂未被视作重大威胁"
+      },
+      "appearance": {
+        "overview": "面对海战与翼龙时反应最普通，经常尖叫或昏倒。"
+      },
+      "personality": {
+        "summary": "胆小但忠于蕾芬洁，危机中会立即奔向主人。",
+        "core_traits": [
+          "忠诚",
+          "惊慌",
+          "行动力"
+        ],
+        "desires": [
+          "保护蕾芬洁",
+          "逃离拘束"
+        ]
+      },
+      "abilities_owned": [],
+      "possessions_owned": [
+        "n-communicator"
+      ],
+      "relationships": {
+        "reifenke": {
+          "type": "subordinate/devoted",
+          "description": "称蕾芬洁大人，重伤时抱起并试图止血。"
+        },
+        "kinji": {
+          "type": "temporary ally/contact",
+          "description": "金次抢过其对讲机与N舰队通话，后把对讲机塞入口袋。"
+        }
+      },
+      "key_events": [
+        {
+          "event_id": "okhotsk-n-fleet-battle",
+          "summary": "在浮冰上经历N舰队海战，多次因恐惧昏倒。",
+          "sourceRef": "hidan-no-aria-main/vol-35/full.txt"
+        },
+        {
+          "event_id": "reifenke-retires-from-witch-corps",
+          "summary": "医院中趁卡羯打瞌睡逃离。",
+          "sourceRef": "hidan-no-aria-main/vol-35/full.txt"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-35/full.txt"
+      ]
+    }
+  ]
+}

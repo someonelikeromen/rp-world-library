@@ -1,0 +1,139 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "character",
+  "entityId": "tooyama-kinichi",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-04",
+  "_schema": "rp-character-volume-v1",
+  "periods": [
+    {
+      "periodId": "vol-04",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-04/full.txt:57",
+        "hidan-no-aria-main/vol-04/full.txt:125",
+        "hidan-no-aria-main/vol-04/full.txt:1541",
+        "hidan-no-aria-main/vol-04/full.txt:4431",
+        "hidan-no-aria-main/vol-04/full.txt:6163"
+      ],
+      "snapshot": {
+        "name": "远山金一",
+        "aliases": [
+          "加奈",
+          "远山金一武侦",
+          "前武侦厅特命武侦",
+          "金次的大哥"
+        ],
+        "gender": "男；以加奈形态行动时呈女性外貌",
+        "status": "存活；潜入伊·U钻研派，卷末被教授以远距离不可视子弹击伤",
+        "role": "金次的兄长；传说级武侦；伊·U内部破坏者",
+        "affiliations": [
+          "远山家",
+          "伊·U钻研派",
+          "前武侦厅"
+        ],
+        "abilities": [
+          "常驻HSS",
+          "不可视子弹",
+          "蝎尾",
+          "空中装弹",
+          "医疗与战术指挥"
+        ],
+        "equipment": [
+          "柯尔特SAA和平制造者",
+          "蝎尾大镰刀",
+          "蝴蝶刀"
+        ],
+        "relationships": [
+          {
+            "target": "kinji",
+            "type": "兄长/考验者",
+            "detail": "试探金次与亚莉亚的牵绊，并在太阳船上被金次的镜击击败。"
+          },
+          {
+            "target": "aria",
+            "type": "目标/可能的首领候选",
+            "detail": "认为若无法暗杀教授，就必须杀死亚莉亚以制造伊·U权力空白。"
+          },
+          {
+            "target": "petra",
+            "type": "上司/暧昧压制",
+            "detail": "能以HSS魅力与战斗力压制佩特拉，后协助金次争取救援机会。"
+          },
+          {
+            "target": "sherlock-holmes-i",
+            "type": "敌方首领/暗杀目标",
+            "detail": "企图以分化内斗摧毁教授统率下的伊·U。"
+          }
+        ],
+        "summary": "金一以加奈形态回归，先声称要杀亚莉亚，后揭示自己潜入伊·U是为分化内斗。他在『第一可能性』与『第二可能性』之间摇摆，最终再次押注金次与亚莉亚的牵绊，现身金字塔牵制佩特拉。"
+      }
+    },
+    {
+      "period_id": "vol-22",
+      "volume": "vol-22",
+      "time": "山根云雀揭露前史时",
+      "label": "被记者追查过的哥哥",
+      "name": {
+        "zh": "远山金一",
+        "en": "Kinichi Tooyama",
+        "jp": "遠山金一"
+      },
+      "aliases": [
+        "哥哥",
+        "加奈关联人物"
+      ],
+      "titles": [
+        "金次的兄长"
+      ],
+      "gender": "男",
+      "species": "人类；远山家男性",
+      "nationality": "日本",
+      "occupation": "武侦关联人物",
+      "affiliation": "tooyama-family",
+      "status": {
+        "alive_or_status": "本卷未直接说明",
+        "vol22": "被山根云雀作为前年独家报道线索追问"
+      },
+      "appearance": {
+        "overview": "本卷未直接登场。"
+      },
+      "personality": {
+        "summary": "作为金次兄长与『加奈』线索，成为记者云雀追查金次的切入口。"
+      },
+      "abilities_owned": [
+        "hss"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "kinji": {
+          "relation": "兄长",
+          "status": "云雀询问金次是否有名为金一的哥哥。",
+          "sourceRef": "hidan-no-aria-main/vol-22/full.txt:6901"
+        },
+        "yamane-hibari": {
+          "relation": "报道对象",
+          "status": "云雀曾循加奈线索追查金一并写出安蓓丽奴号相关独家报道。",
+          "sourceRef": "hidan-no-aria-main/vol-22/full.txt:6901"
+        }
+      },
+      "knowledge": [
+        "yamane-hibari-reporter-identity"
+      ],
+      "secrets": [
+        "与加奈身份和安蓓丽奴号报道相关"
+      ],
+      "summary": "远山金一通过山根云雀的追问被重新拉入主线，说明云雀并非普通同学，而是曾经写过远山家相关报道的记者。",
+      "key_events": [
+        {
+          "event_id": "yamane-reporter-reveal",
+          "summary": "云雀以金一名字逼近金次过去。",
+          "sourceRef": "hidan-no-aria-main/vol-22/full.txt:6901"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-22/chapters/ch-005-第二十二卷_愿彗星沉睡于白日梦_Go_For_The_NEXT!!!.txt:183"
+      ]
+    }
+  ]
+}

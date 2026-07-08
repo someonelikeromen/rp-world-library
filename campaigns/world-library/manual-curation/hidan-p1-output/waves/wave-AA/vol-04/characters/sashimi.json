@@ -1,0 +1,41 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "sashimi",
+  "volume": "vol-04",
+  "time_range": { "start": "猫滨事件", "end": "后日" },
+  "sub_arcs": ["umineko-sama"],
+  "periods": [
+    {
+      "period_id": "vol-04",
+      "volume": "vol-04",
+      "time": "暑假",
+      "label": "假扮海猫大人守护沙滩的地元少女",
+      "name": { "zh": "刺身美", "en": "Sashimi", "jp": "刺身美" },
+      "aliases": [],
+      "titles": ["民宿海舍老板娘之女", "海猫大人扮演者"],
+      "gender": "female",
+      "species": "human",
+      "nationality": "Japanese",
+      "occupation": "中学生",
+      "affiliation": "cat-bay",
+      "status": { "alive": true, "condition": "被明里等人宽恕并原谅" },
+      "appearance": { "overview": "短发卷曲、脖子有特征性黑痣；穿水手服。海猫变装时穿黑色连体泳衣、海草假发、猫耳、爪套和尾巴。", "physical": { "hair": { "style": "短发卷曲" }, "distinctive": ["脖子上的黑痣被志乃用手电筒识破"] } },
+      "personality": { "summary": "对家乡有强烈爱意，因看不惯外地年轻人污染沙滩而独自扮妖怪赶人。", "core_traits": ["爱乡心强", "行动力高", "冲动但知错能改"], "values": ["家乡清洁", "大海干净"], "fears": [], "desires": ["保护猫滨海岸", "守护民宿"], "strengths": ["游泳", "潜水", "扮装"], "flaws": ["以扮妖怪方式解决问题过于极端"] },
+      "voice": { "register": { "default": "不良少女口吻" }, "catchphrases": ["不要把什么东西都归还大地喵！"] },
+      "habits": { "mannerisms": ["对观光客有敌意"], "quirks": ["在海猫大人模式下用猫语"] },
+      "background": { "birth": { "place": "猫滨" }, "family": ["母亲（民宿女将）"] },
+      "possessions_owned": ["sashimi-costume"],
+      "relationships": { "mamiya-akari": { "type": "case-subject/beneficiary", "summary": "明里替她保密不再追究，让她免于被逮捕。" }, "inui-sakura": { "type": "admonished", "summary": "被樱识破封印并听她说教。" } },
+      "knowledge": ["umineko-sama-truth"],
+      "secrets": ["假扮海猫大人驱赶观光客"],
+      "summary": "刺身美是假扮成海猫大人妖怪的少女，试图以此赶走污染沙滩的不良年轻人；被明里识破后用巴投摔倒，最后在明里求情下免于报告警察。",
+      "key_events": [
+        { "event_id": "umineko-sama-case", "summary": "假扮海猫大人被明里和志乃识破，在屋顶被樱手铐擒获，受明里庇护免于告发。", "sourceRef": "hidan-no-aria-aa/vol-04/full.txt" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["hidan-no-aria-aa/vol-04/full.txt"]
+    }
+  ],
+  "source_refs": ["hidan-no-aria-aa/vol-04/full.txt"]
+}

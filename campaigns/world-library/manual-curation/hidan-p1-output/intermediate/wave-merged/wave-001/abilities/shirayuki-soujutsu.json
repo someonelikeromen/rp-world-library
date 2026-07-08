@@ -1,0 +1,55 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "ability",
+  "entityId": "shirayuki-soujutsu",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-04",
+  "_schema": "rp-ability-volume-v1",
+  "periods": [
+    {
+      "periodId": "vol-04",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-04/full.txt:3720",
+        "hidan-no-aria-main/vol-04/full.txt:5945",
+        "hidan-no-aria-main/vol-04/full.txt:6011",
+        "hidan-no-aria-main/vol-04/full.txt:6055"
+      ],
+      "snapshot": {
+        "name": "星伽候天流·鬼道术",
+        "aliases": [
+          "星伽巫女术",
+          "式神",
+          "绯焰符",
+          "风神术"
+        ],
+        "type": "supernatural / magic",
+        "description": "白雪作为星伽神社巫女所掌握的日本古代鬼道术。可使用符咒、纸鹤、扇子等进行攻击和防御，同时精通二刀流剑术。",
+        "details": {
+          "techniques_displayed": [
+            "伍法绯焰符：五张符咒化作火球集中攻击",
+            "绋火星鹤幕：纸鹤化作燃烧火鸟",
+            "星伽巫扇·风神驳：大扇制造强风吹散沙尘",
+            "星伽候天流·风条拨止：刀剑弹开沙金飞刀",
+            "绯炫昆·双琥：双刀附火焰攻防一体",
+            "绋火虞锤·焰二重：附火焰的双刀斩击",
+            "星伽候天流奥义·绯火星伽神·双重流星：双刀十字交叉释放深红X斩击",
+            "式神替身：以纸人制造自身分身迷惑敌人"
+          ],
+          "limitations": "火属性被沙克制；强力术消耗大量体力如同全力奔跑"
+        },
+        "activation": {
+          "condition": "咏唱＋符咒或扇子等法器",
+          "cost": "体力消耗随术的强度增加"
+        },
+        "equipment": [
+          "绋金菖蒲（本卷被偷后夺回）",
+          "杜兰朵改造剑",
+          "符咒",
+          "白扇"
+        ],
+        "evidence_level": "S",
+        "source_refs": []
+      }
+    }
+  ]
+}

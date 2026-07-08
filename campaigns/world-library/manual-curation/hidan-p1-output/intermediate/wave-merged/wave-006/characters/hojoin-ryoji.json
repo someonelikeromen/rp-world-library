@@ -1,0 +1,97 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "hojoin-ryoji",
+  "volume": "vol-26",
+  "time_range": {
+    "start": "vol-26",
+    "end": "vol-26"
+  },
+  "sub_arcs": [
+    "hojoin-conspiracy"
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-26/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-26",
+      "volume": "vol-26",
+      "time": "第二十六卷 穿破黑暗的巨蟒",
+      "label": "前参议院议员·中间党员",
+      "name": {
+        "zh": "宝城院良司",
+        "en": "Ryoji Hojoin",
+        "jp": "宝城院良司"
+      },
+      "aliases": [
+        "宝城院老师",
+        "宝城院议员"
+      ],
+      "titles": [
+        "前参议院议员（中间党）",
+        "中间党党魁"
+      ],
+      "gender": "male",
+      "species": "human",
+      "nationality": "Japanese",
+      "occupation": "前政治家",
+      "affiliation": "中间党",
+      "status": {
+        "political": "中间党党魁，因武器扩张阴谋暴露后以『病引退』方式脱离",
+        "legal": "与地检进行司法交易逃过起诉"
+      },
+      "appearance": {
+        "overview": "白皮肤瘦男子，穿简易铠甲般的西装，戴眼镜。",
+        "voice_quality": "京都腔"
+      },
+      "personality": {
+        "summary": "极右翼政治家，主张『日本第一主义』『全民武装』『恢复征兵制』；实际是美国NRA（全美步枪协会）的傀儡。",
+        "core_traits": [
+          "极端保守",
+          "权力狂热",
+          "美国傀儡"
+        ]
+      },
+      "relationships": {
+        "akutsu-tamaho": {
+          "type": "investigation-target",
+          "summary": "阿久津受武侦厅委托卧底调查他。"
+        },
+        "nazcas-police": {
+          "type": "co-conspirator",
+          "summary": "与原宿警察组织犯罪对策课日向合谋，通过操纵治安恶化推动警察武装化和武器购入。"
+        },
+        "nra": {
+          "type": "funder",
+          "summary": "受全美步枪协会捐款，是美国对日武器出口加速政策的一环。"
+        },
+        "kinji": {
+          "type": "inadvertent-obstacle",
+          "summary": "金次的武侦包改善了表参道治安，威胁到其治安恶化计划的推进。"
+        }
+      },
+      "knowledge": [
+        "japan-police-weaponization-plan",
+        "omotesando-crime-manipulation"
+      ],
+      "summary": "宝城院良司是中间党前参议院议员，主张全民武装的极右政治家。本卷中在原宿警察日向的组织犯罪对策课协助下，通过故意放任表参道一带治安恶化来煽动人民危机意识，以此为名推动警察装备强化（M4卡宾枪、M20装甲车等）。他受美国NRA捐款，是加速对日武器出口政策的一环。最终因阿久津的卧底搜集证据而倒台，但与地检进行司法交易后以『病引退』逃过起诉。",
+      "key_events": [
+        {
+          "event_id": "hojoin-conspiracy-meeting",
+          "summary": "在阿久津大楼三楼会议室与须坂、日向密谈，讨论治安操作和武器购入计划。",
+          "sourceRef": "hidan-no-aria-main/vol-26/full.txt"
+        },
+        {
+          "event_id": "hojoin-fall",
+          "summary": "阴谋暴露后与地检司法交易，以病引退方式逃过刑事起诉。",
+          "sourceRef": "hidan-no-aria-main/vol-26/full.txt"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-26/full.txt"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "twin-coordination",
+  "volume": "vol-03",
+  "source_refs": [
+    "hidan-no-aria-aa/vol-03/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-03",
+      "volume": "vol-03",
+      "time": "明里争夺战",
+      "name": {
+        "zh": "双胞胎默契",
+        "en": "Twin Coordination"
+      },
+      "aliases": [
+        "心电感应般配合"
+      ],
+      "type": "skill",
+      "description": "爱泽汤汤与夜夜作为同卵双胞胎表现出的任务配合，文中称夜夜可靠心电感应知道汤汤确认到的事情。",
+      "activation": {
+        "condition": "双胞胎共同执行任务",
+        "time": "持续",
+        "cost": "无"
+      },
+      "effects": [
+        "同步侦察",
+        "双人接待",
+        "武装警戒"
+      ],
+      "known_feats": [
+        "两人配合布置玫瑰、驾驶侧斗机车、持M11进入客厅"
+      ],
+      "shared_by": [
+        "aizawa-toutou",
+        "aizawa-yaya"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-aa/vol-03/full.txt"
+      ]
+    }
+  ]
+}

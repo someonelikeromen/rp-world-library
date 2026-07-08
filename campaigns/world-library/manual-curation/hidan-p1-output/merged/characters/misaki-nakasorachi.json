@@ -1,0 +1,83 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "misaki-nakasorachi",
+  "volume": "vol-06",
+  "source_refs": [
+    "hidan-no-aria-main/vol-06/chapters/ch-003-第六卷_绝对半径2051_3弹_校外教学.txt:627"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-06-main",
+      "volume": "vol-06",
+      "time": "蕾姬调查阶段",
+      "label": "通过电话人格才能正常交流的通信科声音分析专家",
+      "name": {
+        "zh": "中空知美咲",
+        "en": "Nakasorachi Misaki",
+        "jp": "中空知美咲"
+      },
+      "aliases": [
+        "中空知"
+      ],
+      "titles": [
+        "东京武侦高中通信科二年级",
+        "通信操作员"
+      ],
+      "gender": "女",
+      "species": "人类",
+      "occupation": "学生武侦；通信操作员",
+      "affiliation": "东京武侦高中通信科",
+      "status": {
+        "physical": "无伤",
+        "social": "当面极度怕生；通过手机通话则清晰专业",
+        "rank": "B级"
+      },
+      "appearance": {
+        "overview": "长刘海、银框眼镜，视力差且行动笨拙；声音极为清晰悦耳。"
+      },
+      "personality": {
+        "summary": "面对男性严重怯场，但经通信设备后能展现完美操作员素质。",
+        "core_traits": [
+          "怕生",
+          "口吃",
+          "专业",
+          "听觉敏锐"
+        ],
+        "mode_shift": "面对面慌乱，电话中如播报员般清楚。"
+      },
+      "abilities_owned": [
+        "nakasorachi-sound-analysis",
+        "communications-operator"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "kinji": {
+          "type": "协助者",
+          "status": "通过手机与金次对话并分析蕾姬录音"
+        },
+        "jeanne": {
+          "type": "朋友",
+          "status": "受贞德委托协助"
+        },
+        "reki": {
+          "type": "同班/分析对象",
+          "status": "识别蕾姬常用耳机型号并分析录音地点"
+        }
+      },
+      "summary": "中空知分析蕾姬MP3中的风声录音，仅凭声音推断录音地点为蒙古北部到东西伯利亚之间的高海拔草原，附近有针叶林、蒙古马、苔原狼，以及混合俄文、日文、古蒙古语的人声。",
+      "key_events": [
+        {
+          "event_id": "reki-investigation-nakasorachi",
+          "summary": "通过电话人格分析蕾姬风声录音并推定其故乡环境。",
+          "sourceRef": "hidan-no-aria-main/vol-06/full.txt:3563"
+        }
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "hidan-no-aria-main/vol-06/chapters/ch-003-第六卷_绝对半径2051_3弹_校外教学.txt:627",
+        "hidan-no-aria-main/vol-06/chapters/ch-003-第六卷_绝对半径2051_3弹_校外教学.txt:669"
+      ]
+    }
+  ]
+}

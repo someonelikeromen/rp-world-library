@@ -1,0 +1,78 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "mash",
+  "volume": "vol-19",
+  "source_refs": [
+    "hidan-no-aria-main/vol-19/chapters/ch-001-第十九卷_共跳一段小步舞曲_1弹_琉璃色的姊妹神.txt:220"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-19",
+      "volume": "vol-19",
+      "time": "第十九卷前段",
+      "name": {
+        "zh": "马许",
+        "en": "Mash",
+        "jp": "マッシュ"
+      },
+      "aliases": [
+        "Area 51临时防卫负责人",
+        "前NSA相关人士"
+      ],
+      "titles": [
+        "人工天才"
+      ],
+      "gender": "male",
+      "species": "human",
+      "nationality": "American",
+      "occupation": "intelligence analyst / strategist",
+      "affiliation": "formerly U.S. side; joins GIII Alliance",
+      "status": {
+        "alive": true,
+        "location": "United States / GIII Alliance",
+        "condition": "turns rogue after Area 51 failure"
+      },
+      "abilities_owned": [
+        "intelligence-analysis",
+        "loo-command"
+      ],
+      "possessions_owned": [
+        "loo-gyne",
+        "mash-hmd-glasses"
+      ],
+      "relationships": {
+        "g3": {
+          "type": "new employer / classmate-like artificial genius",
+          "status": "joins his alliance"
+        },
+        "loo-gyne": {
+          "type": "controller/handler",
+          "status": "brings her as asset"
+        },
+        "kinji": {
+          "type": "temporary ally",
+          "status": "helps with encrypted message to Aria"
+        }
+      },
+      "summary": "马许原为51区方面负责人，因琉琉色金防卫失败和内部告发风险，带着LOO转投GⅢ同盟，之后帮金次向亚莉亚发送加密秘文。",
+      "key_events": [
+        {
+          "event_id": "mash-joins-g3",
+          "summary": "带LOO向GⅢ求职并加入同盟。",
+          "sourceRef": "hidan-no-aria-main/vol-19/full.txt:220"
+        },
+        {
+          "event_id": "encrypted-mail-to-aria",
+          "summary": "协助把琉琉色金入手消息加密发送给亚莉亚。",
+          "sourceRef": "hidan-no-aria-main/vol-19/full.txt:460"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-19/chapters/ch-001-第十九卷_共跳一段小步舞曲_1弹_琉璃色的姊妹神.txt:220",
+        "hidan-no-aria-main/vol-19/chapters/ch-001-第十九卷_共跳一段小步舞曲_1弹_琉璃色的姊妹神.txt:460"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,390 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "lisa",
+  "volume": "vol-35",
+  "source_refs": [
+    "hidan-no-aria-main/vol-35/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-35",
+      "volume": "vol-35",
+      "time": "第三十五卷",
+      "name": {
+        "zh": "丽莎·艾薇·杜·安克",
+        "en": "Lisa Ave du Ang",
+        "jp": "リサ・アヴェ・デュ・アンク"
+      },
+      "aliases": [
+        "丽莎",
+        "女仆",
+        "生活将军",
+        "小狗惠扮演者"
+      ],
+      "gender": "female",
+      "species": "werewolf / human-like",
+      "nationality": "Netherlands",
+      "occupation": "女仆/救护科学生",
+      "affiliation": [
+        "东京武侦高中救护科",
+        "金次相关生活支援"
+      ],
+      "status": {
+        "life": "alive",
+        "condition": "应金次请求入住亚莉亚宿舍，负责料理、清洁、调停与生活稳定",
+        "role": "共同生活战线的生活专家和调停核心"
+      },
+      "appearance": {
+        "overview": "温柔女仆气质，翠绿色眼睛；可变出狼耳尾，身材丰满。"
+      },
+      "personality": {
+        "summary": "温柔、万能、极善于侍奉和调解；会以女仆身份自然化解紧张局面。",
+        "core_traits": [
+          "体贴",
+          "高家务力",
+          "外交式奉承",
+          "镇定",
+          "对金次忠诚"
+        ],
+        "desires": [
+          "侍奉金次",
+          "维持共同生活和平",
+          "被认作不可替代的女仆"
+        ],
+        "strengths": [
+          "料理",
+          "清洁",
+          "待客",
+          "照顾多文化对象",
+          "组织游戏和日常活动"
+        ]
+      },
+      "abilities_owned": [
+        "lisa-maid-diplomacy",
+        "lisa-werewolf-transformation"
+      ],
+      "possessions_owned": [
+        "lisa-bicycle",
+        "lisa-cooking-supplies",
+        "lisa-board-games"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "maid/master",
+          "description": "被金次请来解决生活战线问题，误会金次把自己摆在第一后更积极侍奉。"
+        },
+        "aria": {
+          "type": "support/housemate",
+          "description": "帮助亚莉亚宿舍恢复清洁和餐食秩序。"
+        },
+        "lucifelia": {
+          "type": "servant/diplomat",
+          "description": "初见时通过奉承路西菲莉亚为神，成功取得其许可称金次为主人。"
+        },
+        "nemo": {
+          "type": "housemate/support",
+          "description": "用法语礼貌问候尼莫，并在共同生活中照顾她。"
+        }
+      },
+      "key_events": [
+        {
+          "event_id": "lisa-joins-cohabitation-front",
+          "summary": "携带食材与家务用品入住亚莉亚宿舍，迅速改善饮食与清洁。",
+          "sourceRef": "hidan-no-aria-main/vol-35/full.txt"
+        },
+        {
+          "event_id": "cohabitation-stabilization",
+          "summary": "通过料理、下午茶、游戏与学习支援缓和亚莉亚、尼莫、路西菲莉亚关系。",
+          "sourceRef": "hidan-no-aria-main/vol-35/full.txt"
+        },
+        {
+          "event_id": "butei-elementary-traffic-class",
+          "summary": "在交通安全教室中扮演警察姐姐和小狗角色，并多次即兴收拾舞台混乱。",
+          "sourceRef": "hidan-no-aria-main/vol-35/full.txt"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-35/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-36",
+      "volume": "vol-36",
+      "time": "红鹤寺至诺契勒斯",
+      "label": "女仆与秂狼协力者",
+      "time_range": {
+        "start": "vol-36",
+        "end": "vol-36"
+      },
+      "sub_arcs": [
+        "red-crane-temple",
+        "nautilus"
+      ],
+      "name": {
+        "zh": "丽莎·艾薇·杜·安克",
+        "en": "Lisa Ave du Ankh",
+        "jp": ""
+      },
+      "aliases": [
+        "丽莎"
+      ],
+      "titles": [
+        "女仆",
+        "秂狼"
+      ],
+      "gender": "female",
+      "species": "werewolf/Lectea血统",
+      "nationality": "荷兰相关",
+      "occupation": "女仆/武侦相关协力者",
+      "affiliation": "金次小队；诺契勒斯临时伙房支援",
+      "status": {
+        "alive": true,
+        "location_end": "诺契勒斯/孟买"
+      },
+      "appearance": {
+        "overview": "金发女仆，可显露狼耳狼尾与兽化手足。",
+        "physical": {
+          "height": "少女",
+          "build": "丰满",
+          "hair": {
+            "color": "金色"
+          },
+          "eyes": {
+            "color": "绿色"
+          }
+        },
+        "attire": {
+          "default": "水手女仆装",
+          "combat": "女仆风莫辛·纳干步枪"
+        },
+        "voice_quality": {},
+        "distinctive": [
+          "狼耳与狼尾",
+          "与米莎外貌酷似"
+        ]
+      },
+      "personality": {
+        "summary": "忠诚、温柔、擅长家务与料理，始终称金次为主人。",
+        "core_traits": [
+          "忠诚",
+          "温柔",
+          "勤勉",
+          "害羞"
+        ],
+        "values": [
+          "侍奉主人",
+          "同伴安全"
+        ],
+        "fears": [
+          "无法帮上忙"
+        ],
+        "desires": [
+          "陪伴金次",
+          "在餐厅/厨房工作"
+        ],
+        "strengths": [
+          "气味追踪",
+          "料理",
+          "兽化感官",
+          "步枪射击"
+        ],
+        "flaws": [
+          "过度自我牺牲"
+        ],
+        "inner_conflict": "想以同龄身份亲近金次，却仍坚持女仆身份。",
+        "decision_pattern": {}
+      },
+      "voice": {
+        "self_reference": "丽莎",
+        "address_pattern": {
+          "kinji": "主人",
+          "aria": "亚莉亚大人"
+        },
+        "register": {
+          "default": "敬语"
+        },
+        "catchphrases": [
+          "是，主人"
+        ],
+        "quote_samples": [
+          "无论要前往什么样的场所，丽莎都会追随主人的。"
+        ]
+      },
+      "habits": {
+        "mannerisms": [
+          "鞠躬",
+          "尾巴表达情绪"
+        ],
+        "daily_routine": "料理、清扫、照顾同伴",
+        "quirks": [
+          "兽化时会犬吠"
+        ],
+        "preferences": {
+          "work": "厨房与餐厅"
+        }
+      },
+      "background": {
+        "birth": {
+          "place": "荷兰相关",
+          "family": [
+            "艾薇·杜·安克族"
+          ]
+        },
+        "upbringing": "女仆教育与秂狼血统",
+        "education": {
+          "school": "女仆专门学校"
+        },
+        "formative_events": [
+          "布尔坦赫潜伏生活",
+          "与金次在布鲁塞尔相遇"
+        ],
+        "pre_story": "长期作为金次的女仆协力者行动。"
+      },
+      "abilities_owned": [
+        "werewolf-transformation",
+        "scent-tracking"
+      ],
+      "possessions_owned": [
+        "lisa-mosin-nagant"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "master/servant beloved",
+          "summary": "称金次为主人，在隔音室共困时协助其开锁。"
+        },
+        "aria": {
+          "type": "ally",
+          "summary": "听从亚莉亚指挥追击丁。"
+        },
+        "misha": {
+          "type": "distant relative",
+          "summary": "在诺契勒斯遇见外貌与语言相近的米莎。"
+        },
+        "nemo": {
+          "type": "host",
+          "summary": "随尼莫瞬移到诺契勒斯并在厨房帮忙。"
+        }
+      },
+      "knowledge": [
+        "werewolf-lectea-origin"
+      ],
+      "secrets": [],
+      "summary": "丽莎在红鹤寺后以秂狼嗅觉追踪丁，在诺契勒斯与远亲米莎相遇并帮忙伙房；被困隔音室时与金次协力脱险，展示出对金次的深厚忠诚。",
+      "key_events": [
+        {
+          "event_id": "lisa-tracking-ding",
+          "summary": "以嗅觉追踪丁。",
+          "sourceRef": "hidan-no-aria-main/vol-36/full.txt:1800"
+        },
+        {
+          "event_id": "soundproof-room-escape",
+          "summary": "与金次协力从隔音室脱困。",
+          "sourceRef": "hidan-no-aria-main/vol-36/full.txt:3826"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-36/chapters/ch-002-第三十六卷_飞向绮罗月_2弹_不可知刀刃.txt:416",
+        "hidan-no-aria-main/vol-36/chapters/ch-005-第三十六卷_飞向绮罗月_5弹_假如能办到.txt:172"
+      ]
+    },
+    {
+      "period_id": "vol-38",
+      "volume": "vol-38",
+      "time": "金次回国前",
+      "label": "在诺契勒斯甲板",
+      "name": {
+        "zh": "丽莎",
+        "en": "Lisa",
+        "jp": "リサ"
+      },
+      "aliases": [],
+      "titles": [],
+      "gender": "女",
+      "species": "人类",
+      "nationality": "",
+      "occupation": "伊·U乘员",
+      "affiliation": "伊·U",
+      "status": {
+        "physical": "健康",
+        "mental": "在金次登北极星前交给他装了护照的包包",
+        "location": "孟买诺契勒斯甲板"
+      },
+      "appearance": {
+        "overview": "在诺契勒斯甲板等候金次等人。",
+        "physical": {},
+        "attire": {
+          "default": "水手服"
+        },
+        "voice_quality": {},
+        "distinctive": []
+      },
+      "personality": {
+        "summary": "在金次等人登北极星前，将装了护照的包包交给金次。",
+        "core_traits": [
+          "细致",
+          "负责"
+        ],
+        "values": [],
+        "fears": [],
+        "desires": [],
+        "strengths": [],
+        "flaws": [],
+        "inner_conflict": "",
+        "decision_pattern": {}
+      },
+      "voice": {
+        "self_reference": "",
+        "address_pattern": {},
+        "register": {},
+        "catchphrases": [],
+        "quote_samples": [
+          {
+            "quote": "主人，这个！",
+            "sourceRef": "hidan-no-aria-main/vol-38/full.txt:354"
+          }
+        ]
+      },
+      "habits": {
+        "mannerisms": [],
+        "daily_routine": "",
+        "quirks": [],
+        "preferences": {}
+      },
+      "background": {
+        "birth": {
+          "place": "",
+          "family": []
+        },
+        "upbringing": "",
+        "education": {},
+        "formative_events": [],
+        "pre_story": ""
+      },
+      "abilities_owned": [],
+      "possessions_owned": [],
+      "relationships": {
+        "kinji": {
+          "type": "主人/乘员",
+          "status": "在金次登北极星前提供护照"
+        }
+      },
+      "knowledge": [],
+      "secrets": [],
+      "summary": "在孟买诺契勒斯甲板上将护照包交给金次，协助他登北极星回国。",
+      "key_events": [
+        {
+          "event_id": "kinji-polestar-return",
+          "summary": "在甲板上将护照交给金次。",
+          "sourceRef": "hidan-no-aria-main/vol-38/full.txt:354"
+        }
+      ],
+      "evidence_level": "B",
+      "source_refs": [
+        "hidan-no-aria-main/vol-38/chapters/ch-001-第三十八卷_不会忘记爱_1弹_最后的线.txt:354"
+      ]
+    }
+  ]
+}

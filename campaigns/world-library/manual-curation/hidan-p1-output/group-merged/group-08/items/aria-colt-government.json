@@ -1,0 +1,238 @@
+{
+  "_schema": "rp-item-volume-v1",
+  "world": "hidan-no-aria",
+  "item_id": "aria-colt-government",
+  "volume": "vol-01",
+  "source_refs": [
+    "hidan-no-aria-main/vol-01/chapters/ch-004-第一卷_3弹_强袭科.txt:707"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-01-main",
+      "volume": "vol-01",
+      "time": "全卷",
+      "name": {
+        "zh": "柯尔特Government（银·黑双枪）",
+        "en": "Colt Government (Silver & Black)"
+      },
+      "aliases": [
+        "银色Government",
+        "黑色Government",
+        "双枪"
+      ],
+      "type": "weapon",
+      "description": "神崎·H·亚莉亚使用的两支大型手枪，美国柯尔特（Colt）公司的著名武器Government特制版。一把银色、一把黑色。枪把处有珍珠贝浮雕，其上雕刻的女性侧脸貌似亚莉亚的母亲神崎香苗。弹匣容量7发+1发预装填。",
+      "details": {
+        "maker": "Colt（美国）",
+        "caliber": ".45 ACP（推测）",
+        "capacity": "7+1发",
+        "special": "枪把珍珠贝浮雕刻有香苗女士的侧脸"
+      },
+      "owner": "神崎·H·亚莉亚",
+      "status": "active",
+      "features": [
+        "双枪同款不同色",
+        "珍珠贝枪把装饰",
+        "藏于裙下大腿枪套"
+      ],
+      "associated_abilities": [
+        "abilities/quadrupler.json"
+      ],
+      "history": [
+        "亚莉亚从伦敦武侦局时期起使用",
+        "初次登场时在体育仓库外双枪击毁电动滑板车的乌兹",
+        "在教室用双枪射击天花板制止流言",
+        "在公车上用双枪破坏雷诺的武器",
+        "在ANA600上银黑双枪指向理子宣布逮捕"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-01/chapters/ch-002-第一卷_1弹_La_bambina_da_I'ARIA_从天而降的少女.txt:111",
+        "hidan-no-aria-main/vol-01/chapters/ch-004-第一卷_3弹_强袭科.txt:707",
+        "hidan-no-aria-main/vol-01/chapters/ch-006-第一卷_5弹_欧尔梅斯.txt:1153"
+      ]
+    },
+    {
+      "period_id": "vol-13-main",
+      "volume": "vol-13",
+      "time": "2009年12月下旬",
+      "name": {
+        "zh": "亚莉亚的双柯尔特Government",
+        "en": "Aria's Dual Colt Government"
+      },
+      "aliases": [
+        "白银与漆黑的Government"
+      ],
+      "type": "weapon",
+      "description": "亚莉亚惯用双枪。本卷在OZONE与金次冲突时拔出，体现其愤怒和威慑。",
+      "details": {
+        "count": 2
+      },
+      "owner": "aria",
+      "status": "active",
+      "features": [
+        "双枪",
+        "近距离威慑"
+      ],
+      "associated_abilities": [
+        "butei-combat"
+      ],
+      "history": [
+        "金次归来后亚莉亚愤怒时拔出"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-13/chapters/ch-003-第十三卷_反击的九龙_3弹_猴与孙.txt:799"
+      ]
+    },
+    {
+      "period_id": "vol-22",
+      "volume": "vol-22",
+      "time": "理子生日夜",
+      "name": {
+        "zh": "亚莉亚的双枪Government",
+        "en": "Aria Colt Government Pistols"
+      },
+      "aliases": [
+        "白银与漆黑双枪",
+        "Government"
+      ],
+      "type": "weapon",
+      "description": "亚莉亚惯用的双枪，在本卷用于闯入理子房间追捕金次，并在混战中射击牵制。",
+      "details": {
+        "caliber": ".45ACP关联",
+        "pair": "白银与漆黑"
+      },
+      "owner": "aria",
+      "status": "active",
+      "features": [
+        "双枪速射",
+        "近距离威慑",
+        "与亚莉亚的强袭风格相配"
+      ],
+      "associated_abilities": [
+        "hihi-bullet-residual-power"
+      ],
+      "history": [
+        {
+          "summary": "亚莉亚握双枪闯入理子房间。",
+          "sourceRef": "hidan-no-aria-main/vol-22/full.txt:3103"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-22/chapters/ch-002-第二十二卷_愿彗星沉睡于白日梦_2弹_晚安，深爱的人.txt:1091"
+      ]
+    },
+    {
+      "period_id": "vol-25",
+      "volume": "vol-25",
+      "time": "第二十五卷",
+      "name": {
+        "zh": "亚莉亚的Colt Government",
+        "en": "Aria's Colt Government"
+      },
+      "aliases": [
+        "Government双枪"
+      ],
+      "type": "weapon",
+      "description": "亚莉亚惯用的双持Colt Government手枪，本卷用于广场威慑、追击伊欧与竞技场配合金次。",
+      "details": {
+        "caliber": ".45 ACP",
+        "style": "双枪"
+      },
+      "owner": "aria",
+      "status": "active",
+      "features": [
+        "双持射击",
+        "牵制超速敌人",
+        "与亚莉亚直觉配合"
+      ],
+      "associated_abilities": [
+        "hihiirokane-laser-teleport"
+      ],
+      "history": [
+        "竞技场中亚莉亚以Government射击阻止伊欧，配合金次对古兰督卡发动弧弹。"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-25/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-29",
+      "volume": "vol-29",
+      "time": "第二十九卷 盟约的谍候",
+      "name": {
+        "zh": "亚莉亚的Colt Government双枪",
+        "en": "Aria's Colt Government Pistols"
+      },
+      "aliases": [
+        "Government",
+        "双枪"
+      ],
+      "type": "weapon",
+      "description": "亚莉亚的标志性双枪，本卷潜入时藏于裙下，决战中使用三连发、武侦弹和烟雾/闪光信号。",
+      "details": {
+        "count": 2,
+        "ammo": "普通弹、贯穿弹、武侦弹、烟雾弹、闪光弹"
+      },
+      "owner": "aria",
+      "status": "active",
+      "features": [
+        "高速双枪射击",
+        "可发射武侦弹",
+        "用于发出V字胜利信号"
+      ],
+      "associated_abilities": [
+        "s-rank-butei-combat",
+        "aria-psychokinesis-laser"
+      ],
+      "history": [
+        {
+          "event_id": "baskerville-briefing-wangshanlou",
+          "summary": "金次阻止亚莉亚拔枪时握住击锤。"
+        },
+        {
+          "event_id": "hydra-duel-asclepios-capture",
+          "summary": "射击海卓拉并向F-4发射V字烟雾。"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-29/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-35",
+      "volume": "vol-35",
+      "time": "第三十五卷",
+      "name": {
+        "zh": "亚莉亚的双Government",
+        "en": "Aria's Dual Colt Governments"
+      },
+      "aliases": [
+        "白银与漆黑的Government"
+      ],
+      "type": "weapon",
+      "description": "亚莉亚惯用双手枪，本卷在战斧飞弹上向纳维加托利亚弹幕反击。",
+      "owner": "aria",
+      "status": "active",
+      "features": [
+        "双枪",
+        ".45ACP弹",
+        "可与金次弹子戏法协同"
+      ],
+      "associated_abilities": [
+        "hss"
+      ],
+      "history": [
+        "与金次贝瑞塔配合偏开可能命中战斧和两人的机枪弹。"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-35/full.txt"
+      ]
+    }
+  ]
+}

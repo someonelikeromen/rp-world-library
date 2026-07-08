@@ -1,0 +1,62 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "fuma-kawarimi",
+  "volume": "vol-31",
+  "source_refs": [
+    "hidan-no-aria-main/vol-31/chapters/ch-005-第三十一卷_寂静之鬼_5弹_寸步不退.txt:1370"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-31",
+      "volume": "vol-31",
+      "time": "第三十一卷",
+      "name": {
+        "zh": "风魔替身术",
+        "en": "Fuma substitution"
+      },
+      "aliases": [
+        "替身术"
+      ],
+      "type": "skill / ninja",
+      "description": "利用敌人攻击动作到命中之间的瞬间，把自身与其他物体替换。本卷风魔用沙袋替身避开诺玛炸裂弹。",
+      "details": {
+        "user": "fuma-hina",
+        "substitute": "船上沙袋"
+      },
+      "activation": {
+        "condition": "敌人注意力集中于攻击结果时",
+        "incantation": "",
+        "time": "瞬间",
+        "cost": "需要预判和高速移动"
+      },
+      "effects": [
+        "避开炸裂弹直击",
+        "让风魔重新占据火绳枪射击位置"
+      ],
+      "power_level": {
+        "initial": "高",
+        "peak": "在贝茨姊妹近距离枪击中成功骗过对方",
+        "evolution": []
+      },
+      "known_feats": [
+        "诺玛射中沙袋后风魔已移动到右舷"
+      ],
+      "shared_by": [
+        "fuma-hina"
+      ],
+      "see_also": [
+        "fuma-suiton"
+      ],
+      "countered_by": [],
+      "counters": [
+        "bates-chief-special-revolvers"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-31/chapters/ch-005-第三十一卷_寂静之鬼_5弹_寸步不退.txt:1370"
+      ]
+    }
+  ]
+}

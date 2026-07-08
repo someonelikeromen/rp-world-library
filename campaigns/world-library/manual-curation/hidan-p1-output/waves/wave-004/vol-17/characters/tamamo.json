@@ -1,0 +1,118 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "tamamo",
+  "volume": "vol-17",
+  "time_range": {
+    "start": "亚莉亚角显现",
+    "end": "给予3月31日期限"
+  },
+  "sub_arcs": [
+    "温室对峙",
+    "绯绯神化警告"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-17-main",
+      "volume": "vol-17",
+      "time": "2月14日深夜前",
+      "label": "监视绯绯色金的师团顾问",
+      "name": {
+        "zh": "玉藻",
+        "en": "Tamamo",
+        "jp": "玉藻"
+      },
+      "aliases": [
+        "玉藻前",
+        "狐狸少女"
+      ],
+      "titles": [
+        "师团顾问",
+        "超自然观察者"
+      ],
+      "gender": "女性",
+      "species": "妖狐/长寿异类",
+      "nationality": "日本",
+      "occupation": "师团顾问/神社系存在",
+      "affiliation": "师团; 星伽系超自然网络",
+      "status": {
+        "mission": "监视亚莉亚绯绯神化进度，在温室准备必要时讨伐。",
+        "deadline": "允许金次尝试夺回壳金，但只等到3月31日。"
+      },
+      "appearance": {
+        "overview": "外表像小学生的狐耳少女，穿梅花纹迷你和服，持绯色和伞。",
+        "attire": {
+          "default": "迷你裙和服、单齿木屐、和伞"
+        },
+        "distinctive": [
+          "狐耳",
+          "五彩线球变化",
+          "随身香油钱箱",
+          "本卷佩短刀"
+        ]
+      },
+      "personality": {
+        "summary": "古风、严厉但可沟通。她重视防止绯绯神灾害，也不愿与金次为敌。",
+        "core_traits": [
+          "古风",
+          "谨慎",
+          "现实",
+          "重视规则",
+          "可接受诚意"
+        ],
+        "strengths": [
+          "绯绯色金知识",
+          "预知与超自然判断",
+          "战斗威慑"
+        ],
+        "flaws": [
+          "用词古老难懂",
+          "会以讨伐作为最终手段"
+        ],
+        "inner_conflict": "想守护世界免于绯绯神灾害，同时也不愿立刻杀死金次和亚莉亚。"
+      },
+      "abilities_owned": [
+        "tamamo-divination",
+        "hihiirokane-diagnosis"
+      ],
+      "possessions_owned": [
+        "tamamo-red-short-sword",
+        "tamamo-oil-money-box"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "conditional-ally",
+          "summary": "给金次期限与警告，默许其个人讨鬼但不提供师团支援。"
+        },
+        "aria": {
+          "type": "monitor/possible-target",
+          "summary": "判断亚莉亚已无可救药，必要时会与白雪联手讨伐。"
+        },
+        "shirayuki": {
+          "type": "seiga-countermeasure",
+          "summary": "说明过期限后会与星伽巫女共同讨伐。"
+        }
+      },
+      "knowledge": [
+        "aria-horns-hihiirokane-fusion",
+        "hihii-gami-deadline",
+        "shidan-ceasefire-limits"
+      ],
+      "summary": "玉藻在武侦高中温室以五彩线球姿态暗中观察亚莉亚，发现其头部长出角后判断绯绯神化已加速。她一度准备与金次共同讨伐亚莉亚，但在金次宣言会负责夺回壳金后让步，给出3月31日最后期限，并明确师团不能协助金次破坏停战。",
+      "key_events": [
+        {
+          "event_id": "tamamo-deadline-warning",
+          "summary": "在温室警告亚莉亚绯绯神化，并给金次3月31日的期限。",
+          "sourceRef": "hidan-no-aria-main/vol-17/full.txt:5000"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-17/chapters/ch-005-第十七卷_绯弹的宣叙曲_5弹_乃木坂事件.txt:114"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-17/chapters/ch-005-第十七卷_绯弹的宣叙曲_5弹_乃木坂事件.txt:114"
+  ]
+}

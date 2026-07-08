@@ -1,0 +1,49 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "ability",
+  "entityId": "aru-cata-close-combat",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-09",
+  "periods": [
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:1605",
+        "hidan-no-aria-main/vol-09/full.txt:1625",
+        "hidan-no-aria-main/vol-09/full.txt:1725"
+      ],
+      "snapshot": {
+        "name": "亚鲁·卡达近身枪战",
+        "aliases": [
+          "亚鲁卡达",
+          "近身枪战",
+          "理子近战枪斗"
+        ],
+        "type": "gun-fu / close combat",
+        "description": "理子曾在伊·U与武侦高中磨练的近身枪战技巧。本卷她以亚鲁·卡达配合双刀、贝瑞塔和剑，把希尔达逼退并打残双翼。",
+        "details": {
+          "movement": "近距离快速变向、下潜、翻滚和枪剑混合攻击",
+          "vol09_usage": "在希尔达电力不足阶段以贝瑞塔银弹打穿翅膀，再用剑切断双翼"
+        },
+        "known_users": [
+          "riko"
+        ],
+        "effects": [
+          "压制机动型敌人",
+          "短距离连续射击",
+          "制造敌人防御破绽"
+        ],
+        "limitations": [
+          "需要可用枪弹；法化银弹数量有限",
+          "对第三型态全身带电希尔达无法直接近身"
+        ],
+        "associated_items": [
+          "beretta-m92f-kinji",
+          "consecrated-silver-bullets"
+        ],
+        "evidence_level": "A"
+      }
+    }
+  ],
+  "_schema": "rp-ability-volume-v1"
+}

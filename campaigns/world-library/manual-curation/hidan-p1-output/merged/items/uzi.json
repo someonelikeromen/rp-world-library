@@ -1,0 +1,84 @@
+{
+  "_schema": "rp-item-volume-v1",
+  "world": "hidan-no-aria",
+  "item_id": "uzi",
+  "volume": "vol-07",
+  "source_refs": [
+    "hidan-no-aria-main/vol-07/chapters/ch-003-第七卷_火与风的华尔兹_3弹_第三位双剑双枪.txt:334",
+    "hidan-no-aria-main/vol-07/chapters/ch-003-第七卷_火与风的华尔兹_3弹_第三位双剑双枪.txt:674"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-07-main",
+      "volume": "vol-07",
+      "time": "车顶战",
+      "name": {
+        "zh": "乌兹冲锋枪",
+        "en": "Uzi Submachine Gun"
+      },
+      "type": "weapon/firearm",
+      "description": "炮娘使用的冲锋枪，可在高速车顶形成连射弹幕，并精确避开同伴。",
+      "owner": "cao-cao-gunner",
+      "status": "lost/confiscated",
+      "features": [
+        "长弹匣",
+        "高速连射",
+        "适合交叉火力"
+      ],
+      "history": [
+        "对金次和蕾姬使用",
+        "被蕾姬从直升机上射飞一把"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-07/chapters/ch-003-第七卷_火与风的华尔兹_3弹_第三位双剑双枪.txt:334",
+        "hidan-no-aria-main/vol-07/chapters/ch-003-第七卷_火与风的华尔兹_3弹_第三位双剑双枪.txt:674"
+      ]
+    },
+    {
+      "period_id": "vol-14-main",
+      "volume": "vol-14",
+      "time": "蓝帮城死亡游戏",
+      "name": {
+        "zh": "乌兹冲锋枪",
+        "en": "Uzi Submachine Gun"
+      },
+      "aliases": [
+        "以色列短机关枪",
+        "乌兹"
+      ],
+      "type": "weapon",
+      "description": "炮娘在蓝帮城死亡游戏中佩带的短机关枪。她在黄金阶梯防线被希尔达破坏后，用乌兹扫射逼退金次等人。",
+      "details": {
+        "owner": "cao-cao-gunner",
+        "role": "近中距离火力压制"
+      },
+      "owner": "cao-cao-gunner",
+      "status": "active",
+      "features": [
+        "短机关枪",
+        "扫射压制"
+      ],
+      "associated_abilities": [
+        "uzi-gunplay"
+      ],
+      "history": [
+        {
+          "event": "blue-gang-death-game",
+          "summary": "炮娘在腰带上佩带乌兹。",
+          "sourceRef": "hidan-no-aria-main/vol-14/full.txt:4025"
+        },
+        {
+          "event": "blue-gang-death-game",
+          "summary": "炮娘用乌兹扫射逼退金次等人。",
+          "sourceRef": "hidan-no-aria-main/vol-14/full.txt:4247"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-14/chapters/ch-003-第十四卷_不请自来的海雾_3弹_死亡游戏.txt:741",
+        "hidan-no-aria-main/vol-14/chapters/ch-003-第十四卷_不请自来的海雾_3弹_死亡游戏.txt:963"
+      ]
+    }
+  ]
+}

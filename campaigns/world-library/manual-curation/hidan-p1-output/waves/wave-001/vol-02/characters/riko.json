@@ -1,0 +1,83 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "riko",
+  "volume": "vol-02",
+  "time_range": { "start": "卷末", "end": "卷末" },
+  "sub_arcs": ["再登场"],
+  "periods": [
+    {
+      "period_id": "vol-02-main",
+      "volume": "vol-02",
+      "time": "亚特希雅杯闭幕当晚",
+      "label": "再登场",
+      "name": { "zh": "峰·理子·罗苹4世", "en": "Mine Riko Rupan 4th", "jp": "峰・理子・ロピン4世" },
+      "aliases": ["武侦杀手", "理子"],
+      "titles": ["罗苹4世", "伊·幽成员"],
+      "gender": "女性",
+      "species": "人类",
+      "nationality": "不明（多国籍背景）",
+      "occupation": "武侦杀手（前伊·幽成员）",
+      "affiliation": "前伊·幽（已被退学）",
+      "status": {
+        "physical": "健康",
+        "mental": "兴奋、狡猾",
+        "social": "被伊·幽退学"
+      },
+      "appearance": {
+        "overview": "蜂蜜色长卷发，双眼皮大眼睛，身材丰满，擅长变装",
+        "physical": { "height": "约160cm", "build": "丰满", "hair": { "color": "蜂蜜色", "style": "长卷发" }, "eyes": { "color": "如星辰般闪烁" } },
+        "attire": { "default": "高超变装，本卷中伪造成亚莉亚", "combat": "水手服" },
+        "voice_quality": { "tone": "活泼挑逗", "pitch": "中高" },
+        "distinctive": ["丰满胸部", "擅长多种变装", "双重学籍"]
+      },
+      "personality": {
+        "summary": "亚森·罗苹第四代后裔，前伊·幽成员。狡黠、性感、善于操纵人心。对金次有特殊兴趣。",
+        "core_traits": ["狡猾", "性感", "善于操纵", "享受游戏"],
+        "values": ["自由", "乐趣", "复仇"],
+        "fears": [],
+        "desires": ["报复亚莉亚和金次", "享受鱼水之欢"],
+        "strengths": ["变装术", "巴流术", "炸弹制造"],
+        "flaws": ["过度自信", "玩心太重"],
+        "decision_pattern": "追求乐趣和刺激"
+      },
+      "voice": {
+        "self_reference": "理子",
+        "address_pattern": { "kinji": "钦钦" },
+        "register": { "default": "活泼挑逗", "serious": "时会带上犯罪者的冷酷" },
+        "catchphrases": ["钦钦", "我是理子理子", "嗯呵呵"],
+        "quote_samples": [
+          "钦钦，我们来享受鱼水之欢吧？",
+          "理子想拜托钦钦，所以才用我妈妈教我的让男生听话的方法。"
+        ]
+      },
+      "background": {
+        "birth": { "place": "不明", "family": ["亚森·罗苹4世"] },
+        "upbringing": "罗苹家系培养的犯罪者",
+        "formative_events": [
+          { "event": "劫机事件逃脱", "summary": "遭金次和亚莉亚击败后逃脱", "sourceRef": "hidan-no-aria-main/vol-01/full.txt" }
+        ],
+        "pre_story": "在上卷劫机事件中被金次和亚莉亚击败后逃脱"
+      },
+      "abilities_owned": [],
+      "possessions_owned": [],
+      "relationships": {
+        "kinji.enemy": "敌人兼目标",
+        "aria.enemy": "敌人",
+        "jeanne.associate": "前伊·幽同伙（传授变装术给她）"
+      },
+      "secrets": ["已被伊·幽退学"],
+      "summary": "本卷末突然登场，伪装成亚莉亚将金次诱骗至女生宿舍。自称被伊·幽退学，利用金次爆发模式下无法拒绝女性的特点，提出鱼水之欢的邀请。",
+      "key_events": [
+        { "event_id": "aria-riko-switch", "summary": "伪装成亚莉亚诱骗金次至女生宿舍", "sourceRef": "hidan-no-aria-main/vol-02/full.txt:7073" }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-02/full.txt"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-02/full.txt"
+  ]
+}

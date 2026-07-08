@@ -1,0 +1,122 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "tooyama-zessan",
+  "volume": "vol-30",
+  "source_refs": [
+    "hidan-no-aria-main/vol-30/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-30",
+      "volume": "vol-30",
+      "time": "第三十卷",
+      "name": {
+        "zh": "绝闩",
+        "ja": "絶闩"
+      },
+      "type": "tooyama defensive secret technique",
+      "description": "远山家以生命为代价一步不退的防御招式，将敌人攻击动能强行诱导到脚下地面，使双脚如钉子般陷入地面并守住入口。",
+      "known_users": [
+        "kinza"
+      ],
+      "principles": "由绝牢派生，不以旋转反射为主，而是将多方向攻击的动能导入地面，适合守城门、道路、房门等通道。",
+      "limitations": [
+        "肉体负担极大",
+        "可致死",
+        "使用者会被固定在原地"
+      ],
+      "key_events": [
+        "makiri-seki-interrogation"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-30/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-31",
+      "volume": "vol-31",
+      "time": "第三十一卷",
+      "name": {
+        "zh": "绝闩",
+        "en": "Zessan"
+      },
+      "aliases": [
+        "绝闩",
+        "寸步不退之招"
+      ],
+      "type": "combat / defense",
+      "description": "远山家以自身为城门闩、寸步不退承受攻击的防御密技。金次在尼加拉河国界上使用此招保护茉斩。",
+      "details": {
+        "user": "kinji",
+        "risk": "历史上多名远山家成员死于此招；会将冲击导入脚下并损伤身体"
+      },
+      "activation": {
+        "condition": "需爆发模式集中力与决死意志",
+        "incantation": "绝闩",
+        "time": "持续防御状态",
+        "cost": "全身肌肉关节损伤，并强烈诱发对卒"
+      },
+      "effects": [
+        "反弹贝茨姊妹船锚磁力炮",
+        "守住国界线不后退",
+        "保护身后无法行动的茉斩"
+      ],
+      "power_level": {
+        "initial": "极高风险",
+        "peak": "连续承受十余发百公斤船锚级攻击",
+        "evolution": []
+      },
+      "known_feats": [
+        "金次承受并反弹第十五、第十六发船锚攻击后逼迫贝茨姊妹耗尽磁力"
+      ],
+      "shared_by": [
+        "kinji",
+        "kinza"
+      ],
+      "see_also": [
+        "hss",
+        "tooyama-family-techniques"
+      ],
+      "countered_by": [
+        "卒/对卒发作"
+      ],
+      "counters": [
+        "bates-magnetokinesis"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-31/chapters/ch-005-第三十一卷_寂静之鬼_5弹_寸步不退.txt:1042"
+      ]
+    },
+    {
+      "period_id": "vol-34",
+      "volume": "vol-34",
+      "time": "哈巴谷号决战",
+      "name": {
+        "zh": "绝闩",
+        "en": "Zessan"
+      },
+      "aliases": [
+        "绝闩",
+        "焰绝闩"
+      ],
+      "type": "combat / defensive-secret-art",
+      "description": "远山家秘奥义之一，将所有攻击承受于自身并把冲击导向脚下，以牺牲自身为代价保护背后同伴。本卷雪花用焰绝闩保护金次，金次随后反过来用绝闩保护雪花。",
+      "effects": [
+        "专守防卫",
+        "可将冲击释放至地面",
+        "代价是严重肉体损伤与出血"
+      ],
+      "shared_by": [
+        "kinji",
+        "sekka"
+      ],
+      "source_refs": [
+        "hidan-no-aria-main/vol-34/chapters/ch-004-第三十四卷_早天的响导舰_4弹_第七种爆发模式.txt:1"
+      ]
+    }
+  ]
+}

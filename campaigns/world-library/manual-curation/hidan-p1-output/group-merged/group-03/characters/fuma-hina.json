@@ -1,0 +1,125 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "fuma-hina",
+  "volume": "vol-21",
+  "source_refs": [
+    "hidan-no-aria-main/vol-21/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-21",
+      "volume": "vol-21",
+      "time": "第二十一卷",
+      "name": {
+        "zh": "风魔阳菜",
+        "en": "Hina Fuma",
+        "jp": "風魔陽菜"
+      },
+      "aliases": [
+        "风魔",
+        "战妹"
+      ],
+      "gender": "female",
+      "species": "human",
+      "occupation": "武侦高中谍报科一年级学生",
+      "affiliation": "东京武侦高中",
+      "status": {
+        "end": "受金次委托监视其房间无人时机，并报告丽莎与白雪相遇经过"
+      },
+      "abilities_owned": [
+        "ninja-surveillance",
+        "espionage"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "kinji": {
+          "type": "kouhai/assistant",
+          "summary": "为金次监视房间是否无人，帮助他回房睡觉"
+        },
+        "lisa": {
+          "type": "observer",
+          "summary": "目击丽莎称白雪为夫人并化解杀气"
+        },
+        "shirayuki": {
+          "type": "observer",
+          "summary": "报告白雪与丽莎初遇时的杀气"
+        }
+      },
+      "summary": "风魔阳菜在本卷作为谍报科学妹执行生活支援式侦察，替金次确认房间安全空档，并补充白雪与丽莎关系缓和的幕后经过。",
+      "key_events": [
+        {
+          "event_id": "kinji-school-return",
+          "summary": "监视金次房间并协助他避开闯入者睡觉",
+          "sourceRef": "hidan-no-aria-main/vol-21/full.txt"
+        }
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "hidan-no-aria-main/vol-21/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-30",
+      "volume": "vol-30",
+      "time": "第三十卷",
+      "name": {
+        "zh": "风魔阳菜"
+      },
+      "aliases": [
+        "风魔",
+        "阳菜",
+        "金次的战妹/徒弟"
+      ],
+      "gender": "female",
+      "species": "human/ninja lineage",
+      "status": "unconscious after Bates Sisters' psychokinesis strike; alive when caught by Kinji",
+      "affiliation": [
+        "风魔一族",
+        "神奈川/东京武侦相关"
+      ],
+      "abilities_owned": [
+        "fuma-hagakure",
+        "fuma-kawarimi",
+        "fuma-suiton",
+        "fuma-kaginawa",
+        "fuma-shuriken-kunai",
+        "fuma-firelock-sniping",
+        "fuma-rope-escape"
+      ],
+      "possessions_owned": [
+        "fuma-tanegashima",
+        "fuma-gps-burrs",
+        "fuma-kaginawa",
+        "fuma-kunai-shuriken",
+        "fuma-go-shiki-rice"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "disciple/loyal ally",
+          "description": "无条件接受金次危险委托，视其为终生师父。"
+        },
+        "g3": {
+          "type": "ally",
+          "description": "GⅢ对她的忍者身份极度兴奋并尊称其能力。"
+        },
+        "bates-sisters": {
+          "type": "enemy",
+          "description": "在飞弹发射井中被贝茨姊妹念力使铁板击中头部而昏迷。"
+        }
+      },
+      "key_events": [
+        "fuma-recruitment",
+        "narita-cromedelle-departure",
+        "la-casita-search",
+        "gas-station-mafia-attack",
+        "bates-silo-fight"
+      ],
+      "notes": "本卷承担女性帮手、忍者追踪、火绳枪与搞笑失误等多重功能。",
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-30/full.txt"
+      ]
+    }
+  ]
+}

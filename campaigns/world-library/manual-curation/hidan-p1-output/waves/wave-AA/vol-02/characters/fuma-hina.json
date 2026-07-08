@@ -1,0 +1,39 @@
+{
+  "_schema": "rp-entity-character-v1",
+  "id": "fuma-hina",
+  "name": {
+    "zh": "风魔阳菜",
+    "ja": "風魔 陽菜",
+    "en": "Fuma Hina"
+  },
+  "type": "major",
+  "volume": "vol-02",
+  "description": "高千穗小队的成员，风魔忍者后裔。使用苦无与忍术。四对四战中与莱卡激战。后揭示符丁毒原为风魔秘术，被夹竹桃以毒抢毒夺得。",
+  "appearance": "黑发双马尾，口有面罩遮盖。穿忍者风格的制服。",
+  "personality": "冷静沉着，恪守忍者之道。对风魔一族的耻辱耿耿于怀。",
+  "role_in_volume": "四对四战中与莱卡交手。揭示符丁毒的来源——原为风魔一族秘术，被夹竹桃以毒抢毒夺得。",
+  "relationships": [
+    {
+      "target": "takachiho-rei",
+      "type": "小队成员",
+      "description": "高千穗小队的成员"
+    },
+    {
+      "target": "hino-raika",
+      "type": "对手",
+      "description": "四对四战中激战"
+    },
+    {
+      "target": "kyochikuto",
+      "type": "敌对",
+      "description": "夹竹桃夺走了风魔秘术符丁毒"
+    }
+  ],
+  "abilities": [
+    "fuma-ninjutsu"
+  ],
+  "source_refs": [
+    "hidan-no-aria-aa/vol-02/chapters/ch-004-第二卷_17弹_四对四战①.txt:1",
+    "hidan-no-aria-aa/vol-02/chapters/ch-006-第二卷_19弹_四对四战③.txt:448"
+  ]
+}

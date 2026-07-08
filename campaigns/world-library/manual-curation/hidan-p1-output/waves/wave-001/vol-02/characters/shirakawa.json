@@ -1,0 +1,96 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "shirakawa",
+  "volume": "vol-02",
+  "time_range": { "start": "合宿归来", "end": "亚特希雅杯闭幕" },
+  "sub_arcs": ["武装巫女暴走", "被囚禁的笼中鸟"],
+  "periods": [
+    {
+      "period_id": "vol-02-main",
+      "volume": "vol-02",
+      "time": "5月",
+      "label": "魔剑事件期间",
+      "name": { "zh": "星伽白雪", "en": "Shinga Shirakawa", "jp": "星伽 白雪" },
+      "aliases": ["绯巫女"],
+      "titles": ["武装巫女", "大和抚子", "学生会长", "狂战士"],
+      "gender": "女性",
+      "species": "人类",
+      "nationality": "日本",
+      "occupation": "武侦高中超能力搜查研究科学生",
+      "affiliation": "东京武侦高中超能力搜查研究科（SSR）/ 星伽神社",
+      "status": {
+        "physical": "健康",
+        "mental": "初期慌乱、嫉妒，后期逐渐坚定",
+        "social": "与亚莉亚水火不容但危机时互助"
+      },
+      "appearance": {
+        "overview": "黑长发的传统美人，身材高挑丰满，穿巫女服或制服时都极为美丽",
+        "physical": { "height": "约165cm以上", "build": "丰满、成熟的高中女生体型", "hair": { "color": "漆黑有光泽", "style": "长直发，有时束起" }, "eyes": { "color": "黑曜石般的黑色" } },
+        "attire": { "default": "武侦高中女生制服", "combat": "巫女服（白小袖+绯袴）或啦啦队服" },
+        "voice_quality": { "tone": "悦耳如女播报员", "pitch": "适中" },
+        "distinctive": ["妹妹头刘海", "常穿决胜黑色内衣", "木屐"]
+      },
+      "personality": {
+        "summary": "表面是大和抚子般的完美淑女，实则内心强烈依恋金次。平常温柔顺从，但一旦遇到亚莉亚接近金次就会变成狂战士模式。被星伽神社的各种制约束缚，是渴望自由的笼中鸟。",
+        "core_traits": ["外表温柔内心炽热", "极度嫉妒", "顺从但有时爆发", "责任感强"],
+        "values": ["金次", "星伽的传统", "服务他人"],
+        "fears": ["失去金次", "被金次讨厌", "使用超能力后变得可怕"],
+        "desires": ["和金次在一起", "得到金次的爱", "保护金次"],
+        "strengths": ["G17级超能力者（封印状态）", "武装巫女剑术高超", "家事全能", "治愈能力"],
+        "flaws": ["过于顺从", "容易暴走", "用谎言掩盖真实想法"],
+        "inner_conflict": "渴望自由飞翔但被星伽神社的传统束缚，想为金次付出但又怕被讨厌",
+        "decision_pattern": "通常顺从他人，但涉及金次时会变得异常坚定"
+      },
+      "voice": {
+        "self_reference": "我/白雪",
+        "address_pattern": { "kinji": "小金/小金大人", "aria": "亚莉亚/小偷猫" },
+        "register": { "default": "柔和恭敬", "angry": "恐怖低沉", "combat": "凛然" },
+        "catchphrases": ["小金！", "我要杀了亚莉亚之后再自杀！", "天诛！"],
+        "quote_samples": [
+          "只要小金可以幸福……就算在暗处也好，我想要支持小金。",
+          "星伽的巫女是守护巫女。从生到死，身心都不能离开星伽。",
+          "我的讳名，真正的名字是——'绯巫女'。"
+        ]
+      },
+      "habits": {
+        "mannerisms": ["紧张时会整理刘海", "被夸奖时会用托盘遮脸", "妄想时会呢喃"],
+        "daily_routine": "去学校→学生会工作→回金次房间做饭打扫",
+        "quirks": ["在决胜日穿黑色性感内衣", "用花朵占卜金次的事情"],
+        "preferences": { "食物": "中华料理", "活动": "插花、学生会、园艺" }
+      },
+      "background": {
+        "birth": { "place": "青森星伽神社", "family": ["星伽神社一族"] },
+        "upbringing": "在星伽神社长大，从未离开神社和巫女学校，是真正的笼中鸟",
+        "education": { "current": "东京武侦高中超能力搜查研究科二年级" },
+        "formative_events": [
+          { "event": "幼时与金次相遇", "summary": "4-5岁时金次带她离开神社看烟火，是她第一次外出", "sourceRef": "hidan-no-aria-main/vol-02/full.txt:2693" },
+          { "event": "入学考试", "summary": "被金次在爆发模式下所救，自此爱上他", "sourceRef": "hidan-no-aria-main/vol-01/full.txt" }
+        ],
+        "pre_story": "从星伽神社来到武侦高中读超能力搜查研究科，是优等生但被神社的众多制约束缚"
+      },
+      "abilities_owned": ["kidojutsu", "hi-miko-seal"],
+      "possessions_owned": ["iroka-ayame"],
+      "relationships": {
+        "kinji.childhood_friend": "青梅竹马，深爱金次",
+        "aria.rival": "情敌，在危机中互相救援",
+        "tsumugi.teacher": "班主任缀老师"
+      },
+      "knowledge": ["maken-truth"],
+      "secrets": ["实际是G17级超能力者（世界仅几人）", "偷偷穿决胜内衣", "暗中处理钢琴线等陷阱"],
+      "summary": "白雪是本卷核心角色。因误会金次与亚莉亚同居而暴走袭击，后被迫接受保镖护卫。她暗恋金次但因星伽的传统束缚而不敢表达。在葛西临海公园向金次表白并请求接吻。被魔剑利用她对金次的感情诱骗至地下仓库，最终解除封印展现绯巫女的火焰能力，与金次和亚莉亚联手击败贞德。亚特希雅杯闭幕典礼上突破自我参加了啦啦队表演。",
+      "key_events": [
+        { "event_id": "shirakawa-attacks-aria", "summary": "因误会袭击亚莉亚，后搬入金次房间", "sourceRef": "hidan-no-aria-main/vol-02/full.txt:1" },
+        { "event_id": "kasai-park-fireworks", "summary": "与金次去葛西临海公园看烟火，表白感情", "sourceRef": "hidan-no-aria-main/vol-02/full.txt:4177" },
+        { "event_id": "underground-warehouse-battle", "summary": "被贞德伪装绑架，展现绯巫女火焰能力", "sourceRef": "hidan-no-aria-main/vol-02/full.txt:5657" }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-02/full.txt"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-02/full.txt"
+  ]
+}

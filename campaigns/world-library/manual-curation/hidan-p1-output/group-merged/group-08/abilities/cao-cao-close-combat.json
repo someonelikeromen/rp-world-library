@@ -1,0 +1,64 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "cao-cao-close-combat",
+  "volume": "vol-06",
+  "source_refs": [
+    "hidan-no-aria-main/vol-06/chapters/ch-002-第六卷_绝对半径2051_2弹_泼水节.txt:279"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-06-main",
+      "volume": "vol-06",
+      "time": "泼水祭当天",
+      "name": {
+        "zh": "昭昭的近身格斗/双蛇刎颈崩",
+        "en": "Cao Cao Close Combat / Twin Snake Neck Break"
+      },
+      "aliases": [
+        "亚鲁·卡达",
+        "双蛇刎颈崩",
+        "醉鬼般不规则动作"
+      ],
+      "type": "martial-art",
+      "description": "昭昭使用不规则、柔软且极度贴身的格斗技巧，用四肢和双马尾复杂缠绕对手，能从裸绞发展为挫开颈椎的双蛇刎颈崩。",
+      "details": {
+        "style": "中国系/亚鲁·卡达近身格斗",
+        "signature": "双蛇刎颈崩",
+        "range": "极近距离，压制枪械拔出"
+      },
+      "activation": {
+        "condition": "贴近目标并缠住手臂、颈部和身体",
+        "incantation": "双蛇刎颈崩",
+        "cost": "需要成功贴身"
+      },
+      "effects": [
+        "阻止目标拔枪",
+        "绞杀或挫开颈椎",
+        "使爆发模式金次也一度无力回天"
+      ],
+      "known_feats": [
+        "在校内小路从背后缠住金次",
+        "连手带发压制金次颈部与双手",
+        "艾马基介入才让金次逃过颈椎折断"
+      ],
+      "shared_by": [
+        "cao-cao"
+      ],
+      "see_also": [
+        "cao-cao-wanwu"
+      ],
+      "countered_by": [
+        "emaki"
+      ],
+      "counters": [
+        "handgun-close-range"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-06/chapters/ch-002-第六卷_绝对半径2051_2弹_泼水节.txt:279",
+        "hidan-no-aria-main/vol-06/chapters/ch-002-第六卷_绝对半径2051_2弹_泼水节.txt:347"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "kaiten-heart-restart",
+  "volume": "vol-21",
+  "source_refs": [
+    "hidan-no-aria-main/vol-21/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-21",
+      "volume": "vol-21",
+      "time": "第二十一卷",
+      "name": {
+        "zh": "回天心脏重启",
+        "en": "Kaiten heart restart"
+      },
+      "aliases": [
+        "回天"
+      ],
+      "type": "combat / survival",
+      "description": "金次在濒死时以亚音速震荡自己的心脏，进行极端粗暴的心脏按摩并恢复行动。",
+      "details": {
+        "trigger": "心脏停止后的垂死爆发"
+      },
+      "activation": {
+        "condition": "濒死、武侦宪章第十条式的不放弃意志"
+      },
+      "effects": [
+        "短暂重启心跳",
+        "恢复最后一步行动能力"
+      ],
+      "known_feats": [
+        "在绯绯色金烈焰中断气后重启心脏并接近亚莉亚"
+      ],
+      "shared_by": [
+        "kinji"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-21/full.txt"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "logical-prediction",
+  "volume": "vol-25",
+  "source_refs": [
+    "hidan-no-aria-main/vol-25/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-25",
+      "volume": "vol-25",
+      "time": "第二十五卷 罗马的军神星",
+      "name": {
+        "zh": "条理预知",
+        "en": "Logical Prediction"
+      },
+      "aliases": [
+        "推理预知"
+      ],
+      "type": "skill / intel",
+      "description": "通过极高推理能力预测未来分支的能力，夏洛克和莫里亚蒂均以此操盘战局。",
+      "details": {
+        "vol25": "夏洛克能预见自己会死但分支模糊；莫里亚蒂可把小因子连成蝴蝶效应。"
+      },
+      "activation": {
+        "condition": "情报收集与推理",
+        "incantation": "",
+        "time": "从瞬时到长期",
+        "cost": "面对不合理/特异点时失效或模糊"
+      },
+      "effects": [
+        "预测战斗展开",
+        "设计会谈地点",
+        "牵引历史因子"
+      ],
+      "power_level": {
+        "initial": "夏洛克可预测粗分支",
+        "peak": "莫里亚蒂可操控蝴蝶效应",
+        "evolution": []
+      },
+      "known_feats": [
+        "夏洛克预知广场会谈会演变为战斗",
+        "莫里亚蒂预判夏洛克发言"
+      ],
+      "shared_by": [
+        "sherlock",
+        "moriarty"
+      ],
+      "see_also": [
+        "moriarty-butterfly-effect"
+      ],
+      "countered_by": [
+        "hss",
+        "disenable"
+      ],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-25/full.txt"
+      ]
+    }
+  ]
+}

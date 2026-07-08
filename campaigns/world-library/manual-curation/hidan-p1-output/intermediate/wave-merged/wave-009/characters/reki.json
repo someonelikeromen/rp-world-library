@@ -1,0 +1,154 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "reki",
+  "volume": "vol-41",
+  "source_refs": [
+    "hidan-no-aria-main/vol-41/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-41-main",
+      "volume": "vol-41",
+      "time": "Tokyo childcare support",
+      "label": "Quiet supporter",
+      "name": {
+        "zh": "雷姬",
+        "en": "Reki",
+        "jp": "レキ"
+      },
+      "aliases": [
+        "雷漆 (China's mispronunciation)"
+      ],
+      "gender": "female",
+      "species": "human",
+      "occupation": "Butei sniper",
+      "affiliation": "Baskerville",
+      "status": {
+        "alive": true,
+        "has_assignment": "Singapore work soon after birthday"
+      },
+      "summary": "Reki silently assists the China support front, sends Haimaki to carry China, buys supplies, brings a sketchbook, and participates in birthday and farewell scenes.",
+      "abilities_owned": [
+        "reki-sniping",
+        "reki-animal-rapport"
+      ],
+      "possessions_owned": [
+        "haimaki",
+        "reki-sketchbook"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "teammate"
+        },
+        "china": {
+          "type": "caretaker",
+          "summary": "lets China ride Haimaki and joins birthday party"
+        },
+        "aria": {
+          "type": "teammate"
+        }
+      },
+      "key_events": [
+        {
+          "event_id": "baskerville-childcare-front",
+          "summary": "supports childcare through errands and Haimaki",
+          "sourceRef": "hidan-no-aria-main/vol-41/full.txt"
+        },
+        {
+          "event_id": "china-birthday-party",
+          "summary": "provides sketchbook and attends party",
+          "sourceRef": "hidan-no-aria-main/vol-41/full.txt"
+        }
+      ],
+      "source_refs": [
+        "hidan-no-aria-main/vol-41/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-45",
+      "volume": "vol-45",
+      "time": "2011-02 to 2011-04",
+      "label": "沉默支援与缺席毕业",
+      "name": {
+        "zh": "蕾姬",
+        "en": "Reki",
+        "jp": "レキ"
+      },
+      "aliases": [
+        "蕾姬"
+      ],
+      "titles": [
+        "巴斯克维尔狙击手"
+      ],
+      "gender": "female",
+      "species": "human",
+      "nationality": "Urus/unknown",
+      "occupation": "武侦狙击手",
+      "affiliation": "巴斯克维尔",
+      "status": {
+        "social": "因工作前往丹麦，缺席武侦高毕业典礼",
+        "mental": "寡言直接，给金次朴素应援"
+      },
+      "appearance": {
+        "overview": "抱德拉贡诺夫步枪，表情少。"
+      },
+      "personality": {
+        "summary": "沉默、直接、预判能力强。",
+        "core_traits": [
+          "冷静",
+          "天然",
+          "观察力"
+        ],
+        "strengths": [
+          "狙击",
+          "预判",
+          "受身"
+        ],
+        "flaws": [
+          "读空气能力弱"
+        ]
+      },
+      "abilities_owned": [
+        "reki-sniping",
+        "predictive-evasion"
+      ],
+      "possessions_owned": [
+        "reki-dragunov",
+        "reki-herb-seeds"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "teammate/friend",
+          "summary": "参与金次查榜应援，赠送香草种子。"
+        },
+        "aria": {
+          "type": "teammate",
+          "summary": "毕业典礼因工作缺席但仍是巴斯克维尔成员。"
+        },
+        "riko": {
+          "type": "teammate",
+          "summary": "在金次房间共同等待结果。"
+        },
+        "shirayuki": {
+          "type": "teammate",
+          "summary": "共同应援。"
+        }
+      },
+      "summary": "蕾姬在金次房间直说占卜结果为末吉，第一阶段通过后赠送香草种子。她因工作至3月中旬在丹麦，缺席毕业典礼。卷末安田讲堂出现两个与她极相似、持德拉贡诺夫的SBZ成员。",
+      "key_events": [
+        {
+          "event_id": "baskerville-first-screening-cheer",
+          "summary": "参与占卜和查榜应援。",
+          "sourceRef": "hidan-no-aria-main/vol-45/full.txt:803"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-45/chapters/ch-002-第2弹_莫回头.txt:137",
+        "hidan-no-aria-main/vol-45/chapters/ch-002-第2弹_莫回头.txt:477",
+        "hidan-no-aria-main/vol-45/chapters/ch-007-Go_For_The_NEXT!!!_SBZ——你运气太差了.txt:53"
+      ]
+    }
+  ]
+}

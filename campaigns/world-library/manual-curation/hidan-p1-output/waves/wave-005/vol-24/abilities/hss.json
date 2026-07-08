@@ -1,0 +1,74 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "hss",
+  "volume": "vol-24",
+  "periods": [
+    {
+      "period_id": "vol-24-main",
+      "volume": "vol-24",
+      "time": "罗马篇",
+      "name": {
+        "zh": "HSS/爆发模式",
+        "en": "Hysteria Savant Syndrome"
+      },
+      "aliases": [
+        "爆发模式",
+        "HSS"
+      ],
+      "type": "innate / combat / genetic",
+      "description": "远山金次在受到女性相关刺激时进入的特殊状态，战斗、判断、语言和魅力大幅提升。",
+      "details": {
+        "vol_24_observation": "金次可借丽莎主动触发HSS，随后在阿兰事件中压倒罗密欧；也推测对卒风险与高负荷持续时间有关。"
+      },
+      "activation": {
+        "condition": "女性刺激、回想或幻梦诱导",
+        "incantation": "",
+        "time": "短时间",
+        "cost": "可能导致对卒风险、事后疲劳和伦理心理负担"
+      },
+      "effects": [
+        "身体能力提升",
+        "战斗判断高速化",
+        "射击与格斗精度上升",
+        "言行变得绅士化并容易撩动女性"
+      ],
+      "power_level": {
+        "initial": "普通金次无法抗衡A1强袭科罗密欧",
+        "peak": "HSS状态一击击败罗密欧并完成背面弹子戏法",
+        "evolution": [
+          "本卷确认可由丽莎主动辅助触发"
+        ]
+      },
+      "known_feats": [
+        {
+          "event_id": "alan-hostage-and-romeo-duel",
+          "summary": "进入HSS后摆脱手铐、夺取铁球、击败罗密欧并救下阿兰。",
+          "sourceRef": "hidan-no-aria-main/vol-24/full.txt:4570"
+        }
+      ],
+      "shared_by": [
+        "kinji"
+      ],
+      "see_also": [
+        "phantom-dream-hss",
+        "kinji-possible-maker"
+      ],
+      "countered_by": [],
+      "counters": [
+        "a1-assault-combat"
+      ],
+      "variations": [
+        "phantom-dream-hss"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-24/chapters/ch-005-第二十四卷_狂逸的同学会_4弹_贝瑞塔·金次样式.txt:186",
+        "hidan-no-aria-main/vol-24/chapters/ch-005-第二十四卷_狂逸的同学会_4弹_贝瑞塔·金次样式.txt:416"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-24/chapters/ch-005-第二十四卷_狂逸的同学会_4弹_贝瑞塔·金次样式.txt:186"
+  ]
+}

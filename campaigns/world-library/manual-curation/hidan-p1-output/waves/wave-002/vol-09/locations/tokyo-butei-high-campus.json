@@ -1,0 +1,57 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "location",
+  "entityId": "tokyo-butei-high-campus",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-09",
+  "periods": [
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:3773",
+        "hidan-no-aria-main/vol-09/full.txt:5193",
+        "hidan-no-aria-main/vol-09/full.txt:6869"
+      ],
+      "snapshot": {
+        "name": "东京武侦高中学园岛",
+        "aliases": [
+          "武侦高中",
+          "学园岛",
+          "文化祭会场"
+        ],
+        "type": "school campus",
+        "description": "本卷后半主要日常舞台。文化祭期间道路成为行人专区，强袭科、寻问科、车辆科、SSR、鉴识科、学生食堂和体育馆等对外开放或举办活动。",
+        "details": {
+          "festival_features": [
+            "变装食堂",
+            "车辆科直升机参观",
+            "狙击科空气枪摊",
+            "SSR占卜博物馆",
+            "CVR音乐剧",
+            "章鱼烧摊",
+            "武侦锅庆功会"
+          ],
+          "security_note": "见不得光的设施会在文化祭期间藏到地下或清扫遮蔽"
+        },
+        "controlled_by": "东京武侦高中",
+        "key_events": [
+          "butei-high-culture-festival-day-one",
+          "aria-kinji-culture-festival-date",
+          "baskerville-butei-hotpot-party",
+          "kinji-transfer-application",
+          "g-bloodline-ambush"
+        ],
+        "notable_residents": [
+          "kinji",
+          "aria",
+          "shirayuki",
+          "riko",
+          "reki",
+          "watson"
+        ],
+        "evidence_level": "S"
+      }
+    }
+  ],
+  "_schema": "rp-location-volume-v1"
+}

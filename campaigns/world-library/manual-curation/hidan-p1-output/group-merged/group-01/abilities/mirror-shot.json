@@ -1,0 +1,44 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "ability",
+  "entityId": "mirror-shot",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-04",
+  "_schema": "rp-ability-volume-v1",
+  "periods": [
+    {
+      "periodId": "vol-04",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-04/full.txt:5263",
+        "hidan-no-aria-main/vol-04/full.txt:5293"
+      ],
+      "snapshot": {
+        "name": "镜击",
+        "aliases": [
+          "Mirror Shot",
+          "弹子戏法改良版"
+        ],
+        "type": "combat / technique",
+        "description": "金次在太阳船对决中创造的攻防一体枪击技巧。结合了开学日破坏电动滑板车乌兹的经验与弗拉德战的『弹子戏法』，用贝瑞塔的故障三连发模式——实质两发几乎同时发射的子弹：第一发从正面弹回敌人的不可视子弹，将其送回敌人枪口；第二发以弹子戏法打偏弹回自己枪口的第一发子弹。",
+        "details": {
+          "origin": "综合开学日电动滑板车战斗（弹回子弹）与弗拉德战弹子戏法的经验",
+          "benefit": "利用风沙中对手子弹划开的沙痕轨迹预判射击方向",
+          "bug_advantage": "利用贝瑞塔改造故障的三连发实质双弹同时发射"
+        },
+        "activation": {
+          "condition": "HSS爆发模式下 + 风沙环境增强预判",
+          "time": "零点一秒"
+        },
+        "effects": [
+          "第一发弹回对手子弹至其枪口摧毁武器",
+          "第二发消除弹回自身枪口的威胁"
+        ],
+        "counters": [
+          "invisible-bullet"
+        ],
+        "evidence_level": "S",
+        "source_refs": []
+      }
+    }
+  ]
+}

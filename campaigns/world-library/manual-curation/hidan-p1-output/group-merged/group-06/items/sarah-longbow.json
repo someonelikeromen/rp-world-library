@@ -1,0 +1,88 @@
+{
+  "_schema": "rp-item-volume-v1",
+  "world": "hidan-no-aria",
+  "item_id": "sarah-longbow",
+  "volume": "vol-16",
+  "source_refs": [
+    "hidan-no-aria-main/vol-16/chapters/ch-004-第十六卷_星之堡垒的秂狼_4弹_台风中的魔剑.txt:901"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-16-main",
+      "volume": "vol-16",
+      "time": "布尔坦赫与V-2处刑",
+      "name": {
+        "zh": "莎拉的西洋弓",
+        "en": "Sarah's Longbow"
+      },
+      "aliases": [
+        "孔雀羽毛弓箭",
+        "台风的莎拉之弓"
+      ],
+      "type": "weapon",
+      "description": "莎拉持有的长弓与带孔雀羽毛的箭矢，可在风术操控下像导弹般变轨。",
+      "details": {
+        "arrows": "孔雀羽毛箭矢",
+        "range": "传闻可达两公里级精准命中"
+      },
+      "owner": "sarah-han",
+      "status": "active",
+      "features": [
+        "风导箭矢",
+        "远距狙击",
+        "死刑执行"
+      ],
+      "associated_abilities": [
+        "sarah-wind-archery"
+      ],
+      "history": [
+        {
+          "event": "在布尔坦赫射出变轨箭压制金次",
+          "sourceRef": "hidan-no-aria-main/vol-16/full.txt:4697"
+        },
+        {
+          "event": "V-2处刑前射中丽莎背部",
+          "sourceRef": "hidan-no-aria-main/vol-16/full.txt:6027"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-16/chapters/ch-004-第十六卷_星之堡垒的秂狼_4弹_台风中的魔剑.txt:901",
+        "hidan-no-aria-main/vol-16/chapters/ch-005-第十六卷_星之堡垒的秂狼_5弹_远山金次将2度死亡.txt:1049"
+      ]
+    },
+    {
+      "period_id": "vol-17-main",
+      "volume": "vol-17",
+      "time": "龙之港与富岳",
+      "name": {
+        "zh": "莎拉的西洋长弓",
+        "en": "Sarah longbow"
+      },
+      "aliases": [
+        "罗宾汉长弓",
+        "裸弓"
+      ],
+      "type": "weapon",
+      "description": "莎拉极为珍惜的弓，富岳上被拆解收在格纹手提箱内。金次威胁丢弃它时莎拉情绪崩溃。",
+      "owner": "sarah",
+      "status": "active",
+      "features": [
+        "可拆解",
+        "配合风魔法与箭矢导向"
+      ],
+      "associated_abilities": [
+        "sarah-wind-magic-archery",
+        "cannonball-trick-counter"
+      ],
+      "history": [
+        "龙之港用于反制金次子弹；富岳上险些被金次丢出机外"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-17/chapters/ch-001-第十七卷_绯弹的宣叙曲_1弹_热沃当与哿.txt:180",
+        "hidan-no-aria-main/vol-17/chapters/ch-004-第十七卷_绯弹的宣叙曲_4弹_富岳的女帝.txt:260"
+      ]
+    }
+  ]
+}

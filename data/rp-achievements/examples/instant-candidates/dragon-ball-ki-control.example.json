@@ -1,0 +1,27 @@
+{
+  "schema": "rp-achievement-instant-reward-candidate-example-v1",
+  "exampleOnly": true,
+  "generationMode": "instantGeneratedCandidate",
+  "note": "示例不是基础奖励池。奖励内容与成就内容无关，只由即时随机与校验流程决定。",
+  "candidate": {
+    "id": "reward-dragon-ball-ki-control-basic",
+    "name": "龙珠世界 · 气的基础控制体系",
+    "type": "technique",
+    "rewardRating": {
+      "rating": "N4 建筑级",
+      "score": 1200,
+      "segment": "mid",
+      "relativeToCurrentWorld": "currentWorldRating",
+      "basis": "示例假设当前世界锚点为 N4 建筑级，最低稳定战斗表现按同级中段记录，实际随修炼增长。"
+    },
+    "canon": {
+      "required": true,
+      "sourceType": "manga|anime|official-setting",
+      "work": "龙珠",
+      "appearsAs": "气的感知与控制",
+      "holderOrUser": "多名武道家",
+      "evidence": "原著反复出现的基础战斗体系"
+    },
+    "targetModules": ["abilities", "knowledge", "resources"]
+  }
+}

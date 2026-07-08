@@ -1,0 +1,57 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "equipment-engineering",
+  "volume": "vol-08",
+  "periods": [
+    {
+      "period_id": "vol-08-main",
+      "volume": "vol-08",
+      "time": "秋季",
+      "name": {
+        "zh": "装备科工程技术",
+        "en": "Equipment Engineering"
+      },
+      "aliases": [
+        "武器改造",
+        "装备制作"
+      ],
+      "type": "technical_skill",
+      "description": "平贺文等装备科学生用于制作、改造武侦装备的技术。本卷体现在‘大蛇’左手延期和金次右手大蛇实战使用上。",
+      "details": {
+        "products": "大蛇防具、枪械改造等",
+        "constraint": "制作受工期和付款影响"
+      },
+      "activation": {
+        "condition": "装备科工作环境与材料",
+        "incantation": "无",
+        "time": "按装备复杂度",
+        "cost": "材料费与工时"
+      },
+      "effects": [
+        "制作特殊防具",
+        "改造武器",
+        "提升武侦战斗生存率"
+      ],
+      "known_feats": [
+        "金次因资金不足请求大蛇左手延期交货"
+      ],
+      "shared_by": [
+        "hiraga"
+      ],
+      "see_also": [
+        "orochi-glove"
+      ],
+      "countered_by": [],
+      "variations": [],
+      "evidence_level": "A",
+      "source_refs": [
+        "hidan-no-aria-main/vol-08/chapters/ch-003-第八卷_螺旋的天空树_3弹_白银的ICBM.txt:1524",
+        "hidan-no-aria-main/vol-08/chapters/ch-004-第八卷_螺旋的天空树_4弹_高度350公尺的螺旋.txt:1074"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-08/chapters/ch-003-第八卷_螺旋的天空树_3弹_白银的ICBM.txt:1524"
+  ]
+}

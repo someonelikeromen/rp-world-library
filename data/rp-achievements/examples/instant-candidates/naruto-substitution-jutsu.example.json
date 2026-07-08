@@ -1,0 +1,32 @@
+{
+  "schema": "rp-achievement-instant-reward-candidate-example-v1",
+  "exampleOnly": true,
+  "generationMode": "instantGeneratedCandidate",
+  "note": "示例不是基础奖励池。实际 RP 中命中奖励时即时生成候选、核实、去重、再进入 pendingClaim。",
+  "candidate": {
+    "id": "reward-naruto-substitution-jutsu-001",
+    "name": "火影世界 · 替身术",
+    "type": "ability",
+    "rewardRating": {
+      "rating": "N1 街头级",
+      "score": 180,
+      "segment": "mid",
+      "relativeToCurrentWorld": "currentWorldRating -1",
+      "basis": "基础忍术，主要提升战术规避而非破坏力。"
+    },
+    "canon": {
+      "required": true,
+      "sourceType": "manga|anime|official-databook",
+      "work": "火影忍者",
+      "appearsAs": "替身术",
+      "holderOrUser": "忍者基础术",
+      "evidence": "原著多次出现的基础忍术"
+    },
+    "targetModules": ["abilities", "resources", "knowledge"],
+    "minimumUseGrant": {
+      "resources": ["能施展一次替身术的最低查克拉量"],
+      "skills": ["最低查克拉操控技巧", "基础结印", "替换时机判断"],
+      "knowledge": ["替身术基础施术知识"]
+    }
+  }
+}

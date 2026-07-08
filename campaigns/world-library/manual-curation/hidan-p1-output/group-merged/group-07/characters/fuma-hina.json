@@ -1,0 +1,361 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "fuma-hina",
+  "volume": "vol-21",
+  "source_refs": [
+    "hidan-no-aria-main/vol-21/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-21",
+      "volume": "vol-21",
+      "time": "第二十一卷",
+      "name": {
+        "zh": "风魔阳菜",
+        "en": "Hina Fuma",
+        "jp": "風魔陽菜"
+      },
+      "aliases": [
+        "风魔",
+        "战妹"
+      ],
+      "gender": "female",
+      "species": "human",
+      "occupation": "武侦高中谍报科一年级学生",
+      "affiliation": "东京武侦高中",
+      "status": {
+        "end": "受金次委托监视其房间无人时机，并报告丽莎与白雪相遇经过"
+      },
+      "abilities_owned": [
+        "ninja-surveillance",
+        "espionage"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "kinji": {
+          "type": "kouhai/assistant",
+          "summary": "为金次监视房间是否无人，帮助他回房睡觉"
+        },
+        "lisa": {
+          "type": "observer",
+          "summary": "目击丽莎称白雪为夫人并化解杀气"
+        },
+        "shirayuki": {
+          "type": "observer",
+          "summary": "报告白雪与丽莎初遇时的杀气"
+        }
+      },
+      "summary": "风魔阳菜在本卷作为谍报科学妹执行生活支援式侦察，替金次确认房间安全空档，并补充白雪与丽莎关系缓和的幕后经过。",
+      "key_events": [
+        {
+          "event_id": "kinji-school-return",
+          "summary": "监视金次房间并协助他避开闯入者睡觉",
+          "sourceRef": "hidan-no-aria-main/vol-21/full.txt"
+        }
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "hidan-no-aria-main/vol-21/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-30",
+      "volume": "vol-30",
+      "time": "第三十卷",
+      "name": {
+        "zh": "风魔阳菜"
+      },
+      "aliases": [
+        "风魔",
+        "阳菜",
+        "金次的战妹/徒弟"
+      ],
+      "gender": "female",
+      "species": "human/ninja lineage",
+      "status": "unconscious after Bates Sisters' psychokinesis strike; alive when caught by Kinji",
+      "affiliation": [
+        "风魔一族",
+        "神奈川/东京武侦相关"
+      ],
+      "abilities_owned": [
+        "fuma-hagakure",
+        "fuma-kawarimi",
+        "fuma-suiton",
+        "fuma-kaginawa",
+        "fuma-shuriken-kunai",
+        "fuma-firelock-sniping",
+        "fuma-rope-escape"
+      ],
+      "possessions_owned": [
+        "fuma-tanegashima",
+        "fuma-gps-burrs",
+        "fuma-kaginawa",
+        "fuma-kunai-shuriken",
+        "fuma-go-shiki-rice"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "disciple/loyal ally",
+          "description": "无条件接受金次危险委托，视其为终生师父。"
+        },
+        "g3": {
+          "type": "ally",
+          "description": "GⅢ对她的忍者身份极度兴奋并尊称其能力。"
+        },
+        "bates-sisters": {
+          "type": "enemy",
+          "description": "在飞弹发射井中被贝茨姊妹念力使铁板击中头部而昏迷。"
+        }
+      },
+      "key_events": [
+        "fuma-recruitment",
+        "narita-cromedelle-departure",
+        "la-casita-search",
+        "gas-station-mafia-attack",
+        "bates-silo-fight"
+      ],
+      "notes": "本卷承担女性帮手、忍者追踪、火绳枪与搞笑失误等多重功能。",
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-30/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-31",
+      "volume": "vol-31",
+      "time": "第三十一卷",
+      "name": {
+        "zh": "风魔阳菜"
+      },
+      "aliases": [
+        "风魔",
+        "阳菜",
+        "金次的徒弟/前战妹"
+      ],
+      "gender": "female",
+      "species": "human/ninja lineage",
+      "status": "alive; 在尼加拉河战中立下决定性功劳",
+      "affiliation": [
+        "风魔一族",
+        "金次小队"
+      ],
+      "occupation": "忍者/武侦协力者",
+      "abilities_owned": [
+        "fuma-suiton",
+        "fuma-kawarimi",
+        "fuma-firelock-sniping",
+        "fuma-rope-escape"
+      ],
+      "possessions_owned": [
+        "fuma-tanegashima",
+        "fuma-shuriken-kunai",
+        "fuma-medicinal-herbs"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "master/disciple",
+          "description": "因认为自己无功而痛哭，获金次爆发模式下重新确认师徒关系；最终被承认为独当一面的武侦。"
+        },
+        "g3": {
+          "type": "ally",
+          "description": "GⅢ多次担心她的安全，并在尼加拉河战中试图救她。"
+        },
+        "makiri": {
+          "type": "ally by circumstance",
+          "description": "在尼加拉河战后为茉斩止血、拔除碎片并使用风魔药草。"
+        },
+        "norma-bates": {
+          "type": "enemy",
+          "description": "以脱绳术、水遁、替身术和火绳枪奇袭制伏诺玛。"
+        },
+        "sandy-bates": {
+          "type": "enemy",
+          "description": "用手里剑同时击落姐妹手枪，并击碎两人各一只角。"
+        }
+      },
+      "key_events": [
+        {
+          "event_id": "loogyne-ai-training",
+          "summary": "在平贺家负责教导露吉恩、蕾东达、加勒艾露日常生活和料理。",
+          "sourceRef": "hidan-no-aria-main/vol-31/full.txt:1073"
+        },
+        {
+          "event_id": "kinji-fuma-reconciliation",
+          "summary": "因自责无功被金次安慰，并在师徒关系上重新获得位置。",
+          "sourceRef": "hidan-no-aria-main/vol-31/full.txt:2300"
+        },
+        {
+          "event_id": "fuma-bates-capture",
+          "summary": "在尼加拉河船战最后用水遁潜伏、手里剑和火绳枪完成决定性奇袭。",
+          "sourceRef": "hidan-no-aria-main/vol-31/full.txt:4800"
+        }
+      ],
+      "summary": "风魔从自责无功到完成关键战果，构成本卷的成长线；她的忍术最终破解贝茨姊妹的最后枪击。",
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-31/chapters/ch-002-第三十一卷_寂静之鬼_2弹_老哥有朋友？.txt:321",
+        "hidan-no-aria-main/vol-31/chapters/ch-003-第三十一卷_寂静之鬼_3弹_强行突破.txt:558",
+        "hidan-no-aria-main/vol-31/chapters/ch-005-第三十一卷_寂静之鬼_5弹_寸步不退.txt:1370"
+      ]
+    },
+    {
+      "period_id": "vol-32-main",
+      "volume": "vol-32",
+      "time": "北美远征结束",
+      "label": "风魔忍者支援者",
+      "name": {
+        "zh": "风魔阳菜",
+        "en": "Hina Fuma",
+        "jp": "風魔陽菜"
+      },
+      "aliases": [
+        "风魔",
+        "忍蛋"
+      ],
+      "titles": [
+        "风魔一族忍者",
+        "金次的弟子/协力者"
+      ],
+      "gender": "female",
+      "species": "human",
+      "nationality": "Japanese",
+      "occupation": "忍者、武侦协力者",
+      "affiliation": "风魔一族；金次一方",
+      "status": {
+        "physical": "尼加拉行动后平安回国",
+        "financial": "收取金次补足的酬劳"
+      },
+      "appearance": {
+        "overview": "穿水手服的忍者少女，行动隐密。",
+        "physical": {
+          "height": "娇小",
+          "build": "忍者型",
+          "hair": {},
+          "eyes": {}
+        },
+        "attire": {
+          "default": "水手服",
+          "combat": "火绳枪与忍具"
+        },
+        "voice_quality": {
+          "style": "古风、恭敬"
+        },
+        "distinctive": [
+          "使用花霞隐身",
+          "游泳和绳索能力强"
+        ]
+      },
+      "personality": {
+        "summary": "忠诚、讲究师徒礼节，北美行动中多次救援金次。",
+        "core_traits": [
+          "恭敬",
+          "忍耐",
+          "专业"
+        ],
+        "values": [
+          "师命",
+          "任务完成"
+        ],
+        "fears": [],
+        "desires": [
+          "被师父认可"
+        ],
+        "strengths": [
+          "忍术",
+          "火绳枪",
+          "游泳救援"
+        ],
+        "flaws": [
+          "战力受旧式武器限制"
+        ],
+        "inner_conflict": "在金次与父亲交锋时仍遵从金次不协助茉斩或金叉的指示。",
+        "decision_pattern": {
+          "support": "在背后隐身并救援"
+        }
+      },
+      "voice": {
+        "self_reference": "在下",
+        "address_pattern": {
+          "kinji": "师父"
+        },
+        "register": {
+          "default": "古风敬语"
+        },
+        "catchphrases": [
+          "遵命"
+        ],
+        "quote_samples": [
+          "师父，请下觉悟。"
+        ]
+      },
+      "habits": {
+        "mannerisms": [
+          "结印消失",
+          "用古风语尾"
+        ],
+        "daily_routine": "完成北美护卫后回家。",
+        "quirks": [
+          "花霞离场时会留下向日葵花瓣"
+        ],
+        "preferences": {}
+      },
+      "background": {
+        "birth": {
+          "place": "Japan",
+          "family": [
+            "风魔一族"
+          ]
+        },
+        "upbringing": "忍者家系训练。",
+        "education": {
+          "skills": "忍术、游泳、火绳枪"
+        },
+        "formative_events": [],
+        "pre_story": "受金次雇佣参与北美远征。"
+      },
+      "abilities_owned": [
+        "fuma-ninjutsu",
+        "matchlock-shooting"
+      ],
+      "possessions_owned": [
+        "fuma-matchlock"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "teacher/student-like",
+          "status": "称其师父并受其额外酬谢"
+        },
+        "g3": {
+          "type": "ally",
+          "status": "共同逃离尼加拉"
+        },
+        "endimira-ti": {
+          "type": "temporary ally",
+          "status": "从水中救回昏迷的恩蒂米菈"
+        }
+      },
+      "knowledge": [],
+      "secrets": [],
+      "summary": "风魔在尼加拉用火绳枪、忍术和水中救援支援金次，回国后收取补足酬劳并离开。",
+      "key_events": [
+        {
+          "event_id": "niagara-escape",
+          "summary": "从瀑布落水后以绳索救回恩蒂米菈。",
+          "sourceRef": "hidan-no-aria-main/vol-32/full.txt:560"
+        },
+        {
+          "event_id": "haneda-return",
+          "summary": "在羽田机场与金次道别并以花霞离去。",
+          "sourceRef": "hidan-no-aria-main/vol-32/full.txt:1117"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-32/chapters/ch-001-第三十二卷_苍穹的密使_1弹_Catch_you_later.txt:250",
+        "hidan-no-aria-main/vol-32/chapters/ch-001-第三十二卷_苍穹的密使_1弹_Catch_you_later.txt:560",
+        "hidan-no-aria-main/vol-32/chapters/ch-002-第三十二卷_苍穹的密使_2弹_金钱、人类、精灵.txt:1"
+      ]
+    }
+  ]
+}

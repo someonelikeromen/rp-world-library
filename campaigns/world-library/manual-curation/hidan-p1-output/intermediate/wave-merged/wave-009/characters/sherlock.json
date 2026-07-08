@@ -1,0 +1,63 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "sherlock",
+  "volume": "vol-41",
+  "source_refs": [
+    "hidan-no-aria-main/vol-41/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-41-main",
+      "volume": "vol-41",
+      "time": "Suez communication / background intel",
+      "label": "I-U commander and Lectea intel source",
+      "name": {
+        "zh": "夏洛克·福尔摩斯",
+        "en": "Sherlock Holmes",
+        "jp": "シャーロック・ホームズ"
+      },
+      "aliases": [
+        "夏洛克"
+      ],
+      "gender": "male",
+      "species": "human superhuman",
+      "occupation": "detective / commander",
+      "affiliation": "I-U",
+      "status": {
+        "alive": true
+      },
+      "summary": "Sherlock is referenced as the source of information on Lectea goddesses and commands I-U through Suez, responding to Aria's communication after the smoke signal.",
+      "abilities_owned": [
+        "sherlock-logical-prediction"
+      ],
+      "possessions_owned": [
+        "iu-submarine"
+      ],
+      "relationships": {
+        "aria": {
+          "type": "ancestor/ally"
+        },
+        "kinji": {
+          "type": "ally/intel source"
+        },
+        "nemo": {
+          "type": "parallel submarine commander"
+        },
+        "moriarty": {
+          "type": "archenemy"
+        }
+      },
+      "key_events": [
+        {
+          "event_id": "suez-submarine-warning",
+          "summary": "I-U receives the warning as it surfaces near Suez",
+          "sourceRef": "hidan-no-aria-main/vol-41/full.txt"
+        }
+      ],
+      "source_refs": [
+        "hidan-no-aria-main/vol-41/full.txt"
+      ]
+    }
+  ]
+}

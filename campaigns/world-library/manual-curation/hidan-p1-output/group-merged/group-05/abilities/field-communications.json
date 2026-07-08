@@ -1,0 +1,44 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "field-communications",
+  "volume": "vol-03",
+  "source_refs": [
+    "hidan-no-aria-aa/vol-03/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-03",
+      "volume": "vol-03",
+      "time": "AA作战",
+      "name": {
+        "zh": "现场通讯指挥",
+        "en": "Field Communications"
+      },
+      "aliases": [],
+      "type": "skill",
+      "description": "以个人无线通讯装置、增幅器、地图和发讯器追踪敌人并协调小队的支援技能。",
+      "activation": {
+        "condition": "通讯设备与队友耳麦联通",
+        "time": "持续",
+        "cost": "设备和操作员"
+      },
+      "effects": [
+        "追踪目标",
+        "共享位置",
+        "战况整理",
+        "救援调度"
+      ],
+      "known_feats": [
+        "麒麟在悍马H1中追踪夹竹桃身上的150MHz发讯器"
+      ],
+      "shared_by": [
+        "kirin"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-aa/vol-03/full.txt"
+      ]
+    }
+  ]
+}

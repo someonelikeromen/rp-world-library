@@ -1,0 +1,66 @@
+{
+  "_schema": "rp-faction-volume-v1",
+  "world": "hidan-no-aria",
+  "faction_id": "shinga-shrine",
+  "volume": "vol-07",
+  "periods": [
+    {
+      "period_id": "vol-07-main",
+      "volume": "vol-07",
+      "time": "京都分社救治期间",
+      "name": {
+        "zh": "星伽神社",
+        "en": "Shinga Shrine"
+      },
+      "type": "shrine_network/supernatural_guardian",
+      "base": "shinga-kyoto-branch",
+      "members": [
+        "shirakawa",
+        "fuyuki"
+      ],
+      "resources": [
+        "京都分社",
+        "救护殿",
+        "宠巫女",
+        "专属医师",
+        "卑弥呼敞篷车",
+        "栉抚防弹车",
+        "OH-1侦查直升机",
+        "星伽史西闻"
+      ],
+      "summary": "星伽神社在京都分社接收重伤蕾姬并提供防护、医疗和色金情报。白雪与风雪说明星伽知道色金存在，并通过史书解释璃璃色金与乌鲁斯的关联。",
+      "relationships": {
+        "urus-tribe": "古代起交换色金情报并记录璃璃色金史料",
+        "tokyo-butei-high": "白雪等人就读并支援武侦行动",
+        "baskerville-squad": "救助其核心成员蕾姬和金次"
+      },
+      "key_events": [
+        {
+          "event_id": "reki-star-shrine-treatment",
+          "summary": "在京都分社救护殿救治蕾姬。",
+          "sourceRef": "hidan-no-aria-main/vol-07/full.txt:195"
+        },
+        {
+          "event_id": "urus-riri-revelation",
+          "summary": "白雪与风雪说明色金、璃璃色金与乌鲁斯。",
+          "sourceRef": "hidan-no-aria-main/vol-07/full.txt:607"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-07/chapters/ch-001-第七卷_火与风的华尔兹_1弹_状况E8.txt:195",
+        "hidan-no-aria-main/vol-07/chapters/ch-001-第七卷_火与风的华尔兹_1弹_状况E8.txt:203",
+        "hidan-no-aria-main/vol-07/chapters/ch-001-第七卷_火与风的华尔兹_1弹_状况E8.txt:377",
+        "hidan-no-aria-main/vol-07/chapters/ch-001-第七卷_火与风的华尔兹_1弹_状况E8.txt:607",
+        "hidan-no-aria-main/vol-07/chapters/ch-001-第七卷_火与风的华尔兹_1弹_状况E8.txt:713"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-07/chapters/ch-001-第七卷_火与风的华尔兹_1弹_状况E8.txt:195",
+    "hidan-no-aria-main/vol-07/chapters/ch-001-第七卷_火与风的华尔兹_1弹_状况E8.txt:203",
+    "hidan-no-aria-main/vol-07/chapters/ch-001-第七卷_火与风的华尔兹_1弹_状况E8.txt:377",
+    "hidan-no-aria-main/vol-07/chapters/ch-001-第七卷_火与风的华尔兹_1弹_状况E8.txt:607",
+    "hidan-no-aria-main/vol-07/chapters/ch-001-第七卷_火与风的华尔兹_1弹_状况E8.txt:713"
+  ]
+}

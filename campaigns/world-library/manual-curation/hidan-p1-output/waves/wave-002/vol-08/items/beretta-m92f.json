@@ -1,0 +1,50 @@
+{
+  "_schema": "rp-item-volume-v1",
+  "world": "hidan-no-aria",
+  "item_id": "beretta-m92f",
+  "volume": "vol-08",
+  "periods": [
+    {
+      "period_id": "vol-08-main",
+      "volume": "vol-08",
+      "time": "秋季",
+      "name": {
+        "zh": "贝瑞塔M92F",
+        "en": "Beretta M92F"
+      },
+      "aliases": [
+        "金次的配枪"
+      ],
+      "type": "weapon",
+      "description": "金次常用9mm手枪，本卷在希尔达袭击与天空树决斗中使用；在与华生决斗时弹匣被华生偷走并射出塔外。",
+      "details": {
+        "caliber": "9mm",
+        "usage": "金次主武器之一"
+      },
+      "owner": "kinji",
+      "status": "active but magazine stolen during skytree duel",
+      "features": [
+        "9mm弹药",
+        "适配华生给出的9mm银弹弹匣"
+      ],
+      "history": [
+        {
+          "event": "押送车袭击中金次拔枪掩护亚莉亚",
+          "sourceRef": "hidan-no-aria-main/vol-08/full.txt:3600"
+        },
+        {
+          "event": "天空树决斗中华生偷走弹匣使其无法继续使用",
+          "sourceRef": "hidan-no-aria-main/vol-08/full.txt:6900"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-08/chapters/ch-003-第八卷_螺旋的天空树_3弹_白银的ICBM.txt:274",
+        "hidan-no-aria-main/vol-08/chapters/ch-004-第八卷_螺旋的天空树_4弹_高度350公尺的螺旋.txt:1424"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-08/chapters/ch-003-第八卷_螺旋的天空树_3弹_白银的ICBM.txt:274"
+  ]
+}

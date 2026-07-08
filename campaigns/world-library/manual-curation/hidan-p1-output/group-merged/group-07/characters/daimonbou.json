@@ -1,0 +1,224 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "daimonbou",
+  "volume": "vol-21",
+  "source_refs": [
+    "hidan-no-aria-main/vol-21/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-21",
+      "volume": "vol-21",
+      "time": "第二十一卷",
+      "name": {
+        "zh": "大门坊",
+        "en": "Daimonbou",
+        "jp": ""
+      },
+      "aliases": [
+        "穿和服的光头巨汉"
+      ],
+      "gender": "male",
+      "species": "human",
+      "occupation": "狮堂小队成员",
+      "affiliation": "东京地检特搜部相关逮捕小队",
+      "status": {
+        "end": "卷末随狮堂现身并参与Delta攻击性阵列"
+      },
+      "abilities_owned": [
+        "elite-combat",
+        "monk-like-strength"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "shidou": {
+          "type": "squad-leader",
+          "summary": "听从狮堂队形命令"
+        },
+        "kinji": {
+          "type": "target",
+          "summary": "参与逮捕金次行动"
+        },
+        "harada-seiba": {
+          "type": "squadmate",
+          "summary": "同属狮堂小队"
+        }
+      },
+      "summary": "大门坊是狮堂小队的和服光头巨汉，卷末作为让金次本能寻找退路的强大压迫感来源之一。",
+      "key_events": [
+        {
+          "event_id": "kinji-arrested-by-shidou",
+          "summary": "随狮堂五人队现身并压迫金次",
+          "sourceRef": "hidan-no-aria-main/vol-21/full.txt"
+        }
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "hidan-no-aria-main/vol-21/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-22",
+      "volume": "vol-22",
+      "time": "第十三区前零课行动",
+      "label": "僧兵型前零课成员",
+      "name": {
+        "zh": "大门坊",
+        "en": "Daimonbou",
+        "jp": ""
+      },
+      "aliases": [
+        "大门"
+      ],
+      "titles": [
+        "前公安零课成员",
+        "降妖僧兵"
+      ],
+      "gender": "男",
+      "species": "人类",
+      "nationality": "日本",
+      "occupation": "前零课成员；僧兵型战斗人员",
+      "affiliation": "former-public-security-zero",
+      "status": {
+        "alive": true,
+        "vol22": "随狮堂行动，面对希尔达时与妖刕负责超常敌人处理"
+      },
+      "appearance": {
+        "overview": "壮硕和尚体格，布衣、粗腰带与铁屐，平时表情温和。",
+        "distinctive": [
+          "念珠",
+          "结印",
+          "经文"
+        ]
+      },
+      "personality": {
+        "summary": "语气稳重、守佛教戒律但作为前零课战力参与行动。",
+        "core_traits": [
+          "沉稳",
+          "守戒",
+          "协作",
+          "对杀生有顾虑"
+        ]
+      },
+      "abilities_owned": [
+        "monk-exorcism-combat"
+      ],
+      "possessions_owned": [
+        "daimonbou-prayer-beads"
+      ],
+      "relationships": {
+        "shidou": {
+          "relation": "队长",
+          "status": "听从狮堂指挥并在其撤退时随队离开。",
+          "sourceRef": "hidan-no-aria-main/vol-22/full.txt:1657"
+        },
+        "harada-shizuka": {
+          "relation": "协同降魔者",
+          "status": "准备与妖刕联手对付希尔达。",
+          "sourceRef": "hidan-no-aria-main/vol-22/full.txt:1513"
+        },
+        "hilda": {
+          "relation": "降魔对象",
+          "status": "称降妖除魔为职责。",
+          "sourceRef": "hidan-no-aria-main/vol-22/full.txt:1521"
+        }
+      },
+      "knowledge": [],
+      "secrets": [],
+      "summary": "大门坊是前零课中负责宗教/降魔侧应对的成员，在希尔达现身后与妖刕共同上前，显示前零课能对付吸血鬼等超常目标。",
+      "key_events": [
+        {
+          "event_id": "hilda-rescue-and-prosecutor-intervention",
+          "summary": "与妖刕准备迎战希尔达，被武装检察官介入中止。",
+          "sourceRef": "hidan-no-aria-main/vol-22/full.txt:1513"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-22/chapters/ch-001-第二十二卷_愿彗星沉睡于白日梦_1弹_无名氏之死.txt:1513",
+        "hidan-no-aria-main/vol-22/chapters/ch-001-第二十二卷_愿彗星沉睡于白日梦_1弹_无名氏之死.txt:1657"
+      ]
+    },
+    {
+      "period_id": "vol-23",
+      "volume": "vol-23",
+      "time": "第二十三卷",
+      "label": "僧兵型前零课成员",
+      "name": {
+        "zh": "大门坊",
+        "en": "Daimonbou",
+        "jp": "大門坊"
+      },
+      "aliases": [
+        "大门",
+        "大门先生"
+      ],
+      "titles": [
+        "僧兵",
+        "前公安零课三式班成员"
+      ],
+      "gender": "男",
+      "species": "人类/超能力僧兵",
+      "nationality": "日本",
+      "occupation": "僧兵/前零课成员",
+      "affiliation": "前公安零课三式班; 佛教系战斗者",
+      "status": {
+        "physical": "存活；卷中随狮堂出国前聚会",
+        "role": "宴会中协助料理并护送醉酒狮堂"
+      },
+      "appearance": {
+        "overview": "约两米巨汉，布衣袈裟、铁屐、大念珠，身体结实"
+      },
+      "personality": {
+        "summary": "礼貌、虔诚、温和但具强大战斗力",
+        "core_traits": [
+          "虔诚",
+          "可靠",
+          "礼貌",
+          "巨体强韧"
+        ]
+      },
+      "abilities_owned": [
+        "monk-combat",
+        "psychic-exorcism"
+      ],
+      "possessions_owned": [
+        "daimonbou-prayer-beads",
+        "iron-geta"
+      ],
+      "relationships": {
+        "shidou": {
+          "type": "上司/同伴",
+          "detail": "为狮堂盖毛毯并开车护送"
+        },
+        "kinji": {
+          "type": "宴会同席",
+          "detail": "与金次谈及葬礼和极乐净土"
+        },
+        "shidou-mika": {
+          "type": "护送对象",
+          "detail": "与美香一起把醉酒狮堂带回家"
+        }
+      },
+      "summary": "大门坊是狮堂部下之一，僧兵型巨汉，卷中在妖刕家帮忙做菜、参加宴会，并在狮堂醉倒后负责驾驶Mercury Couger送其父女回家。",
+      "key_events": [
+        {
+          "event_id": "zero-party-n-warning",
+          "summary": "到妖刕家参加宴会并展示僧兵身份",
+          "sourceRef": "hidan-no-aria-main/vol-23/full.txt:2861"
+        },
+        {
+          "event_id": "shidou-mika-pickup",
+          "summary": "护送醉酒狮堂和美香离开",
+          "sourceRef": "hidan-no-aria-main/vol-23/full.txt:3383"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-23/chapters/ch-003-第二十三卷_不可知子弹_3弹_Take_note_『N』.txt:153",
+        "hidan-no-aria-main/vol-23/chapters/ch-003-第二十三卷_不可知子弹_3弹_Take_note_『N』.txt:675"
+      ]
+    }
+  ]
+}

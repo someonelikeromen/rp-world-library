@@ -1,0 +1,59 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "hilda-hypnosis",
+  "volume": "vol-08",
+  "periods": [
+    {
+      "period_id": "vol-08-main",
+      "volume": "vol-08",
+      "time": "秋季",
+      "name": {
+        "zh": "希尔达催眠眼",
+        "en": "Hilda Hypnotic Eyes"
+      },
+      "aliases": [
+        "催眠术",
+        "金红眼催眠"
+      ],
+      "type": "vampire_supernatural",
+      "description": "希尔达以略带金色光辉的红色眼眸诱导目标直视并下达命令，使目标违反自身意志放下武器。",
+      "details": {
+        "trigger": "诱导目标看着她的眼睛",
+        "vol08_target": "理子"
+      },
+      "activation": {
+        "condition": "目标直视希尔达眼睛",
+        "incantation": "口头诱导",
+        "time": "短时间内生效",
+        "cost": "目标若避免视线接触可规避"
+      },
+      "effects": [
+        "解除武装",
+        "短暂支配行动",
+        "制造恐惧与无力感"
+      ],
+      "known_feats": [
+        "理子看向希尔达眼睛后放下华尔瑟和头发上的小刀"
+      ],
+      "shared_by": [
+        "hilda"
+      ],
+      "see_also": [
+        "hilda-shadow-electricity"
+      ],
+      "countered_by": [
+        "避免直视",
+        "外部打断"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-08/chapters/ch-003-第八卷_螺旋的天空树_3弹_白银的ICBM.txt:394"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-08/chapters/ch-003-第八卷_螺旋的天空树_3弹_白银的ICBM.txt:394"
+  ]
+}

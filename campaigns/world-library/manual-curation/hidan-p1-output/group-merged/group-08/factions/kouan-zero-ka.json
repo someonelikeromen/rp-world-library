@@ -1,0 +1,51 @@
+{
+  "_schema": "rp-faction-volume-v1",
+  "world": "hidan-no-aria",
+  "faction_id": "kouan-zero-ka",
+  "volume": "vol-26",
+  "source_refs": [
+    "hidan-no-aria-main/vol-26/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-26",
+      "volume": "vol-26",
+      "time": "第二十六卷 穿破黑暗的巨蟒",
+      "label": "公安零课",
+      "name": {
+        "zh": "公安零课",
+        "en": "Public Security Zero Division",
+        "jp": "公安零課"
+      },
+      "aliases": [
+        "零课",
+        "公安零课"
+      ],
+      "type": "日本公安情报机关",
+      "status": {
+        "active": "本卷中视察远山武侦事务所"
+      },
+      "summary": "公安零课成员滩、可鹉韦、大门坊本卷中到访远山武侦事务所。滩以和果子职人身份指导金次包子技法；可鹉韦和大门坊陪同观察。",
+      "key_members_vol26": [
+        "滩",
+        "可鹉韦",
+        "大门坊",
+        "狮堂（未直接出场）"
+      ],
+      "relationships": {
+        "tooyama-butei-office": {
+          "type": "interest/monitoring",
+          "summary": "狮堂曾试图挖角金次加入零课，本卷中三人组来访观察其创业进展。"
+        },
+        "shio": {
+          "type": "member",
+          "summary": "滩既是零课成员又是和果子世家传人，在金次的公司内展示了职人技法。"
+        }
+      },
+      "evidence_level": "A",
+      "source_refs": [
+        "hidan-no-aria-main/vol-26/full.txt"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "event",
+  "entityId": "riko-icu-recovery-and-hilda-transfusion",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-09",
+  "periods": [
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:2533",
+        "hidan-no-aria-main/vol-09/full.txt:2595",
+        "hidan-no-aria-main/vol-09/full.txt:2685",
+        "hidan-no-aria-main/vol-09/full.txt:2825"
+      ],
+      "snapshot": {
+        "name": "理子ICU复苏与希尔达输血",
+        "aliases": [
+          "武侦医院治疗",
+          "理子解毒",
+          "希尔达救命输血"
+        ],
+        "type": "aftermath / medical",
+        "location": "butei-hospital-icu",
+        "summary": "天空树决战后理子一度心肺停止，华生在第一观景台进行紧急治疗并送入武侦医院；矢常吕依琳协助解毒后理子苏醒。华生同时救治严重烧伤坠落的希尔达，提出其稀有Klasies-river B型血液不足，最终理子主动为希尔达输血。",
+        "cause": "理子耳环毒蛇腺液发作，希尔达被霰弹破坏魔脏后燃烧坠落，双方都濒死。",
+        "process": "华生用药让理子暂时假死并维持生命→救护直升机送往武侦医院→华生与矢常吕老师完成解毒→华生取出希尔达体内107颗霰弹并缝合魔脏→发现希尔达血型稀有且理子同型→理子伸手允许抽血。",
+        "outcome": "理子存活并与金次、亚莉亚和解；希尔达也因理子输血获得继续存活机会；华生获得魔脏组织用于吸血鬼抑制剂研究。",
+        "participants": [
+          "riko",
+          "watson",
+          "aria",
+          "kinji",
+          "hilda",
+          "yatoro-irin"
+        ],
+        "key_items": [
+          "dracula-poison-earring"
+        ],
+        "significance": "理子真正摆脱希尔达的支配，并以救敌行动确认自己获得自由；希尔达存活成为俘虏和潜在证人。",
+        "evidence_level": "S"
+      }
+    }
+  ],
+  "_schema": "rp-event-volume-v1"
+}

@@ -1,0 +1,61 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "rasputina-fire-breath",
+  "volume": "vol-40",
+  "source_refs": [
+    "hidan-no-aria-main/vol-40/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-40",
+      "volume": "vol-40",
+      "time": "第四十卷",
+      "name": {
+        "zh": "龙息火焰",
+        "en": "Dragon Fire Breath"
+      },
+      "aliases": [
+        "喷火"
+      ],
+      "type": "magic/combat",
+      "description": "拉斯普丁纳从喉胸部发热源与可燃气体组合喷火，试图灼瞎金次眼睛。",
+      "details": {
+        "counter": "金次用接吻方式抽走其肺部空气，扰乱喷火准备。"
+      },
+      "activation": {
+        "condition": "深吸气、喉胸部火种发光、提取可燃气体",
+        "incantation": "",
+        "time": "短蓄势",
+        "cost": "被堵住呼吸会反噬/中断"
+      },
+      "effects": [
+        "近距离灼烧",
+        "致盲威胁"
+      ],
+      "power_level": {
+        "initial": "打火机到喷焰级",
+        "peak": "瞄准眼睛的致残攻击",
+        "evolution": []
+      },
+      "known_feats": [
+        "苏伊士战中被金次人类震爆弹式接吻破解"
+      ],
+      "shared_by": [
+        "rasputina"
+      ],
+      "see_also": [
+        "kinji-human-stun-grenade"
+      ],
+      "countered_by": [
+        "kinji-human-stun-grenade"
+      ],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-40/full.txt"
+      ]
+    }
+  ]
+}

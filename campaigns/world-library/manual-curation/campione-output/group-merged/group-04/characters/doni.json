@@ -1,0 +1,104 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "campione",
+  "character_id": "doni",
+  "volume": "vol-02",
+  "periods": [
+    {
+      "period_id": "vol-02-main",
+      "name": {
+        "zh": "萨尔巴特雷·多尼",
+        "en": "Salvatore Doni",
+        "jp": "サルバトーレ・ドニ"
+      },
+      "aliases": [
+        "剑之王",
+        "托托",
+        "意大利的王"
+      ],
+      "role": "南欧弑神者；护堂的自称挚友与宿敌",
+      "status": {
+        "physical": "两个月前伤势刚愈，卷末在锡耶纳钓鱼",
+        "mental": "好战、轻浮，把护堂视为命运宿敌",
+        "social": "意大利魔术结社盟主"
+      },
+      "summary": "多尼通过电话提醒护堂沃邦已到日本，却仍以挑衅方式要求护堂去找沃邦麻烦。他四年前抢走沃邦召唤出的神，间接构成本卷冲突背景。卷末他为琍琍亚娜背书，并期待与成长后的护堂再战。",
+      "relationships": {
+        "godou": "擅自认定的挚友兼宿敌",
+        "voban": "四年前夺走其猎物的对手",
+        "liliana": "意大利骑士，事件后给予政治保护",
+        "erica": "同属意大利魔术界势力范围"
+      },
+      "key_events": [
+        {
+          "event_id": "voban-japan-summons",
+          "summary": "电话警告护堂沃邦来到日本"
+        },
+        {
+          "event_id": "aftermath-summer-tension",
+          "summary": "听取琍琍亚娜报告并追认其行动"
+        }
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "campione-main/vol-02/chapters/ch-003-第二章 暴风雨前的宁静.txt",
+        "campione-main/vol-02/chapters/ch-009-终章.txt"
+      ]
+    },
+    {
+      "period_id": "vol-04-main",
+      "name": {
+        "zh": "萨尔巴特雷·多尼",
+        "en": "Salvatore Doni",
+        "jp": "サルバトーレ・ドニ"
+      },
+      "aliases": [
+        "剑之王",
+        "意大利的弑神者"
+      ],
+      "role": "弑神者；混乱制造者与最终善后者",
+      "status": {
+        "physical": "被海啸卷走后仍游到萨丁岛，最终赶回拿坡里",
+        "mental": "为了战斗和护堂成长而故意乱来，缺乏常识约束",
+        "social": "被安德烈监督，却多次逃避管束"
+      },
+      "summary": "多尼被琍琍亚娜请来处理赫拉石柱，却擅自半夜潜入地下神殿并以斩裂的银之臂砍断石柱，引发绿龙与珀耳修斯显现。随后他被海啸冲到萨丁岛，发动回归古代世界阻断艾莉卡等人支援护堂。最终他赶回拿坡里，斩杀已被护堂削弱的珀耳修斯，但因并非完整弑神战而未获得新权能。",
+      "abilities_owned": [
+        "doni-silver-arm",
+        "doni-steel-protection",
+        "return-to-medieval-style"
+      ],
+      "relationships": {
+        "godou": "视为朋友与宿敌，故意让其独自苦战以促成长",
+        "liliana": "因请愿而被带到拿坡里，之后击倒阻止他的她",
+        "andre": "管家兼监督人，被他绑住拖延",
+        "erica": "在萨丁岛击败并阻止支援",
+        "perseus-mithras": "最终以剑斩杀的神"
+      },
+      "key_events": [
+        {
+          "event_id": "hera-pillar-consultation",
+          "summary": "应邀前往拿坡里查看赫拉石柱"
+        },
+        {
+          "event_id": "doni-cuts-hera-pillar",
+          "summary": "擅自斩断石柱引发神灾"
+        },
+        {
+          "event_id": "sardinia-doni-delay",
+          "summary": "在萨丁岛封锁现代文明并拖延救援"
+        },
+        {
+          "event_id": "doni-kills-perseus",
+          "summary": "击杀残存的珀耳修斯但未取得权能"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "campione-main/vol-04/chapters/ch-003-第二章 魔女们和剑之王.txt",
+        "campione-main/vol-04/chapters/ch-006-第五章 行踪不明的王者们.txt",
+        "campione-main/vol-04/chapters/ch-008-第七章 粗暴的魔王、太阳的勇者.txt"
+      ]
+    }
+  ]
+}

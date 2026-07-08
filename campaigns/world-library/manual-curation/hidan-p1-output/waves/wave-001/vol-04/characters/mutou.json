@@ -1,0 +1,56 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "character",
+  "entityId": "mutou",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-04",
+  "periods": [
+    {
+      "periodId": "vol-04",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-04/full.txt:717",
+        "hidan-no-aria-main/vol-04/full.txt:845",
+        "hidan-no-aria-main/vol-04/full.txt:5563",
+        "hidan-no-aria-main/vol-04/full.txt:7364"
+      ],
+      "snapshot": {
+        "name": "武藤刚气",
+        "aliases": [
+          "武藤",
+          "车辆科武藤",
+          "载具狂人"
+        ],
+        "gender": "男",
+        "status": "存活；后方整备与救援支援",
+        "role": "金次好友；车辆科王牌；载具支援者",
+        "affiliations": [
+          "东京武侦高中",
+          "车辆科"
+        ],
+        "abilities": [
+          "载具驾驶与整备",
+          "高速改造",
+          "后勤支援"
+        ],
+        "equipment": [
+          "东方号模型潜艇",
+          "奥尔库斯改造设备"
+        ],
+        "relationships": [
+          {
+            "target": "kinji",
+            "type": "好友/损友",
+            "detail": "恶作剧代发祭典邀请邮件，后认真改造奥尔库斯支援救援。"
+          },
+          {
+            "target": "shiranui",
+            "type": "同谋好友",
+            "detail": "与不知火推动金次和亚莉亚去夏日祭。"
+          }
+        ],
+        "summary": "武藤本卷先与平贺展示东方号模型并恶作剧牵线金次亚莉亚，后在亚莉亚被掳后通宵改造潜航艇奥尔库斯，体现关键后勤作用。"
+      }
+    }
+  ],
+  "_schema": "rp-character-volume-v1"
+}

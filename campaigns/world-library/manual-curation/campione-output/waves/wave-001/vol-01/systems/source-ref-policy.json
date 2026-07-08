@@ -1,0 +1,21 @@
+{
+  "_schema": "rp-system-volume-v1",
+  "world": "campione",
+  "system_id": "source-ref-policy",
+  "volume": "vol-01",
+  "periods": [
+    {
+      "period_id": "vol-01-main",
+      "volume": "vol-01",
+      "name": {
+        "zh": "本批次来源引用规则"
+      },
+      "aliases": [],
+      "summary": "本目录所有实体以章节文件行号为sourceRef，格式为campione-main/vol-01/chapters/ch-XXX-标题.txt:行号。",
+      "sourceRef": "campione-main/vol-01/chapters/ch-001-序章.txt:1"
+    }
+  ],
+  "source_refs": [
+    "campione-main/vol-01/chapters/ch-001-序章.txt:1"
+  ]
+}

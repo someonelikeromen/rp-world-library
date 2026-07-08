@@ -1,0 +1,81 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "angelica",
+  "volume": "vol-42",
+  "source_refs": [
+    "hidan-no-aria-main/vol-42/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-42",
+      "volume": "vol-42",
+      "time": "Giusto罗马会议前后",
+      "name": {
+        "zh": "安洁丽卡·斯塔尔",
+        "en": "Angelica Starr",
+        "jp": "アンジェリカ"
+      },
+      "aliases": [
+        "Giusto 1号",
+        "安洁"
+      ],
+      "gender": "female",
+      "species": "human",
+      "nationality": "英国/欧洲贵族背景",
+      "occupation": "R级武侦；Giusto 1号；英国联络将校",
+      "affiliation": "Giusto；伦敦武侦高；斯塔尔伯爵家",
+      "status": {
+        "physical": "活跃，后赴巴黎任务",
+        "role": "Giusto门面英雄之一"
+      },
+      "abilities_owned": [
+        "angelica-reflection",
+        "angelica-combat-skill"
+      ],
+      "possessions_owned": [
+        "angelica-sti-hawk",
+        "angelica-ferrari-ad"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "ally/client",
+          "status": "请求金次暗查Giusto内部Villain与神父疑案"
+        },
+        "beretta": {
+          "type": "subordinate",
+          "status": "作为1号支撑Giusto声誉"
+        },
+        "augusta": {
+          "type": "fellow leading hero",
+          "status": "人气竞争与同伴关系"
+        },
+        "the-father": {
+          "type": "respected predecessor",
+          "status": "怀疑其被毒害或已遭杀害"
+        }
+      },
+      "knowledge": [
+        "father-poisoning-suspicion",
+        "giusto-villain-traitor"
+      ],
+      "summary": "安洁丽卡作为Giusto 1号迎接GIII和金次，并在离开罗马前私下委托金次调查5号神父疑似中毒、转院失踪与内部Villain可能性。",
+      "key_events": [
+        {
+          "event_id": "giusto-headquarters-reunion",
+          "summary": "在总部与GIII、金次会面。",
+          "sourceRef": "hidan-no-aria-main/vol-42/full.txt:619"
+        },
+        {
+          "event_id": "father-poisoning-briefing",
+          "summary": "将5号疑似中毒与内部叛徒风险告知金次。",
+          "sourceRef": "hidan-no-aria-main/vol-42/full.txt:1791"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-42/full.txt"
+      ]
+    }
+  ]
+}

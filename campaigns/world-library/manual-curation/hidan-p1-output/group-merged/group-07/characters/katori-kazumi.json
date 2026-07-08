@@ -1,0 +1,81 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "katori-kazumi",
+  "volume": "vol-35",
+  "source_refs": [
+    "hidan-no-aria-main/vol-35/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-35",
+      "volume": "vol-35",
+      "time": "第三十五卷",
+      "name": {
+        "zh": "鹿取一美",
+        "en": "Kazumi Katori",
+        "jp": "鹿取一美"
+      },
+      "aliases": [
+        "鹿取",
+        "车辆科鹿取"
+      ],
+      "gender": "female",
+      "species": "human",
+      "nationality": "Japan",
+      "occupation": "车辆科学生/运输GA成员",
+      "affiliation": [
+        "东京武侦高中车辆科",
+        "运输GA"
+      ],
+      "status": {
+        "life": "alive",
+        "condition": "在十六号车库参与装备维修，卡车货架作为高机密维修场所",
+        "role": "车辆与维修支援"
+      },
+      "appearance": {
+        "overview": "雷鬼头，用扳手搔头；常换卡车。"
+      },
+      "personality": {
+        "summary": "直率爱调侃，发现路西菲莉亚后立刻吐槽金次花心。",
+        "core_traits": [
+          "直爽",
+          "调侃",
+          "车辆技术"
+        ],
+        "desires": [
+          "完成维修委托"
+        ]
+      },
+      "abilities_owned": [],
+      "possessions_owned": [
+        "katori-truck-workbench"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "acquaintance/teasing",
+          "description": "见到金次带路西菲莉亚来后调侃他又钓到美女。"
+        },
+        "muto": {
+          "type": "transport-ga-teammate",
+          "description": "共同在车库工作。"
+        },
+        "hiraga-bun": {
+          "type": "technical-collaborator",
+          "description": "其卡车货架用于隐藏高机密维修品。"
+        }
+      },
+      "key_events": [
+        {
+          "event_id": "vehicle-garage-equipment-repair",
+          "summary": "在十六号车库协助展示并维护亚莉亚和GⅢ的装备。",
+          "sourceRef": "hidan-no-aria-main/vol-35/full.txt"
+        }
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "hidan-no-aria-main/vol-35/full.txt"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "_schema": "rp-entity-location-v1",
+  "id": "butei-hospital",
+  "name": {
+    "zh": "武侦医院",
+    "en": "Butei Hospital"
+  },
+  "type": "medical",
+  "volume": "vol-02",
+  "description": "与救护科设立在一起的武侦高中附属医院。亚莉亚在公车劫持事件后住院（谢绝会面）。乃乃香符丁毒发作后也在此住院。明里在此被亚莉亚阻止自我牺牲。",
+  "source_refs": [
+    "hidan-no-aria-aa/vol-02/chapters/ch-011-第二卷_24弹_夹竹桃①.txt:204"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-03",
+      "volume": "vol-03",
+      "time": "26弹",
+      "name": {
+        "zh": "武侦医院病房",
+        "en": "Butei Hospital Ward"
+      },
+      "aliases": [
+        "病房"
+      ],
+      "type": "facility",
+      "description": "明里向同伴公开间宫家秘密、乃乃香接受治疗的病房。",
+      "geography": {
+        "region": "东京武侦高中相关医疗设施"
+      },
+      "population": {},
+      "controlled_by": "tokyo-butei-high",
+      "affiliation": "tokyo-butei-high",
+      "significance": "夹竹桃篇的情报揭示与AA作战宣言地点。",
+      "notable_residents": [
+        "nonoka"
+      ],
+      "key_events": [
+        "mamiya-secret-revelation",
+        "operation-aa-declared"
+      ],
+      "related_locations": [
+        "tokyo-butei-high-second-ground"
+      ],
+      "hazards": [],
+      "secrets": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-aa/vol-03/full.txt"
+      ]
+    }
+  ]
+}

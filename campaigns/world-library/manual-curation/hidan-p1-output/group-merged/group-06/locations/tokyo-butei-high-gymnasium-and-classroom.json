@@ -1,0 +1,39 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "location",
+  "entityId": "tokyo-butei-high-gymnasium-and-classroom",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-08",
+  "periods": [
+    {
+      "periodId": "vol-08",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-08/full.txt:1905",
+        "hidan-no-aria-main/vol-08/full.txt:2201",
+        "hidan-no-aria-main/vol-08/full.txt:2635",
+        "hidan-no-aria-main/vol-08/full.txt:2901"
+      ],
+      "snapshot": {
+        "name": "东京武侦高中体育馆与2年A班教室",
+        "aliases": [
+          "变装食堂抽签会场",
+          "文化祭服装准备教室",
+          "2年A班阳台"
+        ],
+        "type": "school / event venue",
+        "description": "二年级学生为文化祭变装食堂抽签和制作服装的地点。体育馆内决定金次警官、亚莉亚小学生、白雪教师等装扮；教室夜间用于制作服装，金次取得大蛇手套并与亚莉亚在阳台望见天空树。",
+        "controlled_by": "东京武侦高中",
+        "key_events": [
+          "butei-costume-diner-prep"
+        ],
+        "features": [
+          "体育馆抽签箱",
+          "临时更衣屏风",
+          "2年A班阳台",
+          "可望见建设中的天空树"
+        ],
+        "evidence_level": "S"
+      }
+    }
+  ]
+}

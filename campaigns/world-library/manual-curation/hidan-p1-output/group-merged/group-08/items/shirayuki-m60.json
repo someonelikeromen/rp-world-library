@@ -1,0 +1,85 @@
+{
+  "_schema": "rp-item-volume-v1",
+  "world": "hidan-no-aria",
+  "item_id": "shirayuki-m60",
+  "volume": "vol-13",
+  "source_refs": [
+    "hidan-no-aria-main/vol-13/chapters/ch-005-第十三卷_反击的九龙_5弹_跃动的香港电车.txt:547"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-13-main",
+      "volume": "vol-13",
+      "time": "12月23日",
+      "name": {
+        "zh": "白雪的折叠式M60机关枪",
+        "en": "Shirayuki's Folding M60 Machine Gun"
+      },
+      "aliases": [
+        "M60"
+      ],
+      "type": "weapon",
+      "description": "白雪藏于制服裙中的改造折叠式M60机关枪，在百货公司战斗中展开并对孙进行压制扫射。",
+      "details": {
+        "caliber": "7.62×51mm NATO",
+        "deployment": "裙中取出并弹簧组装"
+      },
+      "owner": "shirayuki",
+      "status": "active",
+      "features": [
+        "折叠式重机枪",
+        "长弹链",
+        "强火力压制"
+      ],
+      "associated_abilities": [
+        "shrine-maiden-combat"
+      ],
+      "history": [
+        "百货公司花店附近展开并扫射孙"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-13/chapters/ch-005-第十三卷_反击的九龙_5弹_跃动的香港电车.txt:547",
+        "hidan-no-aria-main/vol-13/chapters/ch-005-第十三卷_反击的九龙_5弹_跃动的香港电车.txt:567"
+      ]
+    },
+    {
+      "period_id": "vol-29",
+      "volume": "vol-29",
+      "time": "第二十九卷 盟约的谍候",
+      "name": {
+        "zh": "白雪的折叠式M60机关枪",
+        "en": "Shirayuki's Folding M60"
+      },
+      "aliases": [
+        "M60",
+        "机关枪"
+      ],
+      "type": "weapon",
+      "description": "白雪为决战准备的折叠式M60机关枪，使用普通弹、穿甲弹和曳光弹牵制海卓拉多头。",
+      "details": {
+        "ammo": "M61穿甲弹与M62曳光弹等"
+      },
+      "owner": "shirayuki",
+      "status": "active",
+      "features": [
+        "折叠组装",
+        "持续火力",
+        "适合压制大型目标"
+      ],
+      "associated_abilities": [
+        "shirayuki-fire-magic"
+      ],
+      "history": [
+        {
+          "event_id": "hydra-duel-asclepios-capture",
+          "summary": "在金次突入时压制海卓拉脖子。"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-29/full.txt"
+      ]
+    }
+  ]
+}
