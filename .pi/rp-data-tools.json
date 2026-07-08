@@ -12,15 +12,20 @@
       "rule",
       "source",
       "raw",
-      "graph"
+      "graph",
+      "entity"
     ],
     "extensionSlots": {
       "customSearchProviders": [],
       "customRefResolvers": [],
       "rankingRules": [
         {
+          "prioritize": "extracted",
+          "weight": 3
+        },
+        {
           "prioritize": "curated",
-          "weight": 1
+          "weight": 2
         },
         {
           "prioritize": "character",
