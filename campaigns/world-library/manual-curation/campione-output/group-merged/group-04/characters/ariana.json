@@ -1,0 +1,85 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "campione",
+  "character_id": "ariana",
+  "volume": "vol-02",
+  "periods": [
+    {
+      "period_id": "vol-02-main",
+      "name": {
+        "zh": "亚莉安娜·哈亚马·亚莉阿尔蒂",
+        "en": "Arianna Hayama Arialdi",
+        "jp": "アリアンナ・ハヤマ・アリアルディ"
+      },
+      "aliases": [
+        "安娜"
+      ],
+      "role": "艾莉卡助手兼女仆；赤铜黑十字实习魔术师",
+      "status": {
+        "physical": "健康",
+        "mental": "开朗善良但料理有危险面",
+        "social": "与艾莉卡同住高级公寓"
+      },
+      "summary": "亚莉安娜负责艾莉卡在日本的生活起居，早晨接待护堂并准备午餐。她的普通料理很优秀，但炖煮料理味道异常，是护堂避之不及的风险。",
+      "relationships": {
+        "erica": "主人兼照顾对象",
+        "godou": "每天早晨接待的客人"
+      },
+      "key_events": [
+        {
+          "event_id": "school-life-escalation",
+          "summary": "协助护堂叫醒艾莉卡并准备便当"
+        },
+        {
+          "event_id": "aftermath-summer-tension",
+          "summary": "参与讨论艾莉卡与护堂暑假旅行"
+        }
+      ],
+      "evidence_level": "B",
+      "source_refs": [
+        "campione-main/vol-02/chapters/ch-002-第一章 不成好日的每一天.txt",
+        "campione-main/vol-02/chapters/ch-009-终章.txt"
+      ]
+    },
+    {
+      "period_id": "vol-04-main",
+      "name": {
+        "zh": "亚莉安娜·哈亚马·亚莉阿尔蒂",
+        "en": "Arianna Hayama Arialdi",
+        "jp": "アリアンナ・ハヤマ・アリアルディ"
+      },
+      "aliases": [
+        "安娜",
+        "艾莉卡的女仆"
+      ],
+      "role": "支援角色；艾莉卡助手",
+      "status": {
+        "physical": "留守萨丁岛别墅",
+        "mental": "开朗认真但料理能力危险",
+        "social": "与卡莲保持女仆间情报联系"
+      },
+      "summary": "亚莉安娜随艾莉卡在萨丁岛度假，负责家务与料理，但其料理让护堂感到危机。她最先注意到瓦斯无法使用，并通过与卡莲的私人联系成为拿坡里一方获取萨丁岛情报的渠道之一。",
+      "abilities_owned": [],
+      "relationships": {
+        "erica": "主人",
+        "godou": "被她料理威胁到而主动接手厨房",
+        "karen": "私交良好的女仆朋友，互通主人动向"
+      },
+      "key_events": [
+        {
+          "event_id": "sardinia-villa-tension",
+          "summary": "在别墅中负责餐食并暴露料理风险"
+        },
+        {
+          "event_id": "sardinia-doni-delay",
+          "summary": "发现瓦斯异常，提示萨丁岛进入文明封锁"
+        }
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "campione-main/vol-04/chapters/ch-002-第一章 追求失去的时光.txt",
+        "campione-main/vol-04/chapters/ch-005-第四章 来自东方的男人.txt"
+      ]
+    }
+  ]
+}

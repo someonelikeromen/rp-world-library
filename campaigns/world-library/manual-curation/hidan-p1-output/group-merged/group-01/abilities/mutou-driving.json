@@ -1,0 +1,116 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "mutou-driving",
+  "volume": "vol-01",
+  "source_refs": [
+    "hidan-no-aria-main/vol-01/chapters/ch-003-第一卷_2弹_神崎.H.亚莉亚.txt:109"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-01-main",
+      "volume": "vol-01",
+      "time": "公车挟持事件/迫降支援",
+      "name": {
+        "zh": "万能驾驶术",
+        "en": "Omnivehicle Mastery"
+      },
+      "aliases": [],
+      "type": "skill",
+      "description": "武藤刚气身为车辆科优等生，拥有驾驭任何交通工具的能力——从速克达到火箭。他精通车辆规格、油料管理和极端驾驶技巧，能在不熟悉的车款上立即上手操作。",
+      "details": {
+        "known_vehicles": [
+          "汽车",
+          "公车",
+          "直升机",
+          "火箭",
+          "速克达"
+        ],
+        "expertise": "车辆规格参数、油料泄漏判断、极端天气驾驶"
+      },
+      "activation": {
+        "condition": "需要驾驶任何交通工具时",
+        "incantation": "",
+        "time": "即时",
+        "cost": ""
+      },
+      "effects": [
+        "可驾驶任何交通工具",
+        "能实时计算飞机跑道需求（B737-350在特定风速下的滑行距离）",
+        "通过对讲机指导非飞行员进行飞机操作"
+      ],
+      "power_level": {
+        "initial": "车辆科优等生",
+        "peak": "",
+        "evolution": []
+      },
+      "known_feats": [
+        "在公车挟持中在高速和故障条件下驾驶校车并指挥学生配重防止翻车",
+        "仅根据油料读数530计算出只剩15分钟",
+        "算出B737-350在风速41.2m/s下滑行距离缩短为2050m",
+        "组织汽艇和手电筒为ANA600做夜间诱导灯"
+      ],
+      "shared_by": [
+        "武藤刚气"
+      ],
+      "see_also": [],
+      "countered_by": [],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-01/chapters/ch-003-第一卷_2弹_神崎.H.亚莉亚.txt:111",
+        "hidan-no-aria-main/vol-01/chapters/ch-004-第一卷_3弹_强袭科.txt:859",
+        "hidan-no-aria-main/vol-01/chapters/ch-006-第一卷_5弹_欧尔梅斯.txt:1297",
+        "hidan-no-aria-main/vol-01/chapters/ch-006-第一卷_5弹_欧尔梅斯.txt:1593"
+      ]
+    },
+    {
+      "period_id": "vol-06-main",
+      "volume": "vol-06",
+      "time": "开学与校外教学背景",
+      "name": {
+        "zh": "武藤的驾驶/车辆科技能",
+        "en": "Mutou Driving"
+      },
+      "aliases": [
+        "车辆科技能",
+        "驾驶"
+      ],
+      "type": "technical-combat-support",
+      "description": "武藤作为车辆科学生的驾驶与车辆知识。本卷主要体现在车辆科背景、四轮传动车被狙击损坏，以及给金次提供校外教学路线/地点情报。",
+      "details": {
+        "user": "mutou",
+        "department": "车辆科",
+        "vehicle": "四轮传动车"
+      },
+      "activation": {
+        "condition": "驾驶或车辆支援场景",
+        "incantation": "无",
+        "cost": "车辆可能被卷入金次事件损坏"
+      },
+      "effects": [
+        "车辆支援",
+        "交通与地点情报",
+        "后勤小队构想"
+      ],
+      "known_feats": [
+        "四轮传动车玻璃被蕾姬射穿",
+        "向金次提供三十三间堂人少情报"
+      ],
+      "shared_by": [
+        "mutou"
+      ],
+      "see_also": [
+        "field-training-i-system"
+      ],
+      "countered_by": [],
+      "counters": [],
+      "evidence_level": "B",
+      "source_refs": [
+        "hidan-no-aria-main/vol-06/chapters/ch-002-第六卷_绝对半径2051_2弹_泼水节.txt:49",
+        "hidan-no-aria-main/vol-06/chapters/ch-003-第六卷_绝对半径2051_3弹_校外教学.txt:923"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "sakura-techniques",
+  "volume": "vol-22",
+  "periods": [
+    {
+      "period_id": "vol-22",
+      "volume": "vol-22",
+      "time": "vol-22",
+      "name": {
+        "zh": "樱花系远山招式",
+        "en": "Sakura Techniques"
+      },
+      "aliases": [
+        "樱花",
+        "八倍樱花",
+        "橘花辅助"
+      ],
+      "type": "combat / martial-art",
+      "description": "远山家通过身体多点连续加速制造亚音速乃至多重冲击的打击技术体系。",
+      "details": {
+        "vol22": "金次以樱花、八倍樱花对抗狮堂，后以橘花抓住可鹉韦双臂并用樱花头槌取胜。"
+      },
+      "activation": {
+        "condition": "爆发模式或高度身体控制",
+        "incantation": "无",
+        "time": "瞬间",
+        "cost": "需要姿势、起点和加速链完整"
+      },
+      "effects": [
+        "亚音速打击",
+        "可破坏普通人体和防御",
+        "八倍樱花可制造巨大震波"
+      ],
+      "power_level": {
+        "initial": "单发樱花",
+        "peak": "八倍樱花",
+        "evolution": [
+          "狮堂教会金次不应让对手使出必杀技；金次之后在可鹉韦战中预判并抢招"
+        ]
+      },
+      "known_feats": [
+        {
+          "feat": "八倍樱花震碎大楼玻璃但被狮堂挡下。",
+          "sourceRef": "hidan-no-aria-main/vol-22/full.txt:1085"
+        },
+        {
+          "feat": "樱花头槌击倒可鹉韦。",
+          "sourceRef": "hidan-no-aria-main/vol-22/full.txt"
+        }
+      ],
+      "shared_by": [
+        "kinji"
+      ],
+      "see_also": [
+        "hss",
+        "daydream-burst"
+      ],
+      "countered_by": [
+        "shidou-muscle-multiplier",
+        "startup-point-disruption"
+      ],
+      "counters": [
+        "kamui-noto"
+      ],
+      "variations": [
+        "eightfold-sakura",
+        "sakura-headbutt"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-22/chapters/ch-001-第二十二卷_愿彗星沉睡于白日梦_1弹_无名氏之死.txt:1085",
+        "hidan-no-aria-main/vol-22/full.txt"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-22/chapters/ch-001-第二十二卷_愿彗星沉睡于白日梦_1弹_无名氏之死.txt:1085"
+  ]
+}

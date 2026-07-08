@@ -18,73 +18,96 @@
       "customSearchProviders": [],
       "customRefResolvers": [],
       "rankingRules": [
-        { "prioritize": "curated", "weight": 1 },
-        { "prioritize": "character", "weight": 1 },
-        { "prioritize": "importance", "weight": 2 }
+        {
+          "prioritize": "curated",
+          "weight": 1
+        },
+        {
+          "prioritize": "character",
+          "weight": 1
+        },
+        {
+          "prioritize": "importance",
+          "weight": 2
+        }
       ]
     }
   },
-  "cards": {
-    "protagonist": {
-      "path": "card/linjie.json",
-      "schema": "rp-character-v1",
-      "label": "主角人物卡：林界",
-      "aliases": [
-        "linjie",
-        "林界",
-        "主角"
-      ],
-      "requiredPaths": [
-        "age",
-        "magic.circuits.currentReserve",
-        "magic.knownSpells[].panelLevel",
-        "combatRating.*.score",
-        "resources[].current",
-        "relationships[].currentRelation",
-        "currentStatus",
-        "inventory"
-      ],
-      "idArrays": {
-        "magic.knownSpells": "id",
-        "abilities": "id",
-        "resources": "id",
-        "relationships": "id",
-        "inventory": "id"
-      },
-      "syncHints": [
-        "magic.circuits.currentReserve should stay consistent with resources[id=mana].current and combatRating.resource.mana.current",
-        "resources[id=money].current should stay consistent with combatRating.resource.money when changed",
-        "currentStatus should summarize world/location/time/condition after each plot advance"
-      ],
-      "extensionSlots": {
-        "customValidators": [
-          { "type": "range", "path": "magic.circuits.currentReserve", "min": 0, "max": "magic.circuits.maxReserve" },
-          { "type": "range", "path": "age", "min": 1, "max": 9999 },
-          { "type": "required", "path": "name" },
-          { "type": "required", "path": "currentStatus" }
-        ],
-        "derivedFields": [
-          { "source": "magic.circuits.currentReserve", "target": "resources[id=mana].current" },
-          { "expression": "combatRatingFromStats" }
-        ],
-        "postUpdateHooks": [
-          {
-            "type": "log",
-            "prefix": "card-edit",
-            "dir": "memory",
-            "includeSnapshot": true,
-            "includeChanges": true
-          },
-          {
-            "type": "memory-sync",
-            "dir": "memory",
-            "file": "card-status-snapshot.md"
-          }
-        ]
-      }
-    }
-  },
+  "cards": {},
   "npcs": {},
   "allowUnregisteredCardFiles": true,
-  "backupDir": "backup/card-edits"
+  "backupDir": "backup/card-edits",
+  "cardTemplates": {
+    "default": "unified-character-v1",
+    "templates": {
+      "unified-character-v1": {
+        "path": ".pi/skills/rp-combat/framework/card-template/unified-character-v1",
+        "schema": "rp-unified-character-v1",
+        "label": "多世界战斗框架统一角色卡模板",
+        "modules": {
+          "index": "index.json",
+          "identity": "identity.json",
+          "narrative": "narrative.json",
+          "session": "session.json",
+          "attributes": "combat/attributes.json",
+          "combatRating": "combat/combat-rating.json",
+          "speedProfile": "combat/speed-profile.json",
+          "lifeProfile": "combat/life-profile.json",
+          "resources": "combat/resources.json",
+          "abilities": "combat/abilities.json",
+          "resistances": "combat/resistances.json",
+          "states": "combat/states.json",
+          "worldAdaptation": "combat/world-adaptation.json",
+          "combatLog": "combat/combat-log.json",
+          "relationships": "social/relationships.json",
+          "inventory": "inventory/items.json",
+          "knowledge": "knowledge/knowledge.json",
+          "achievements": "progression/achievements.json"
+        },
+        "requiredModules": [
+          "index.json",
+          "identity.json",
+          "narrative.json",
+          "session.json",
+          "combat/attributes.json",
+          "combat/combat-rating.json",
+          "combat/speed-profile.json",
+          "combat/life-profile.json",
+          "combat/resources.json",
+          "combat/abilities.json",
+          "combat/resistances.json",
+          "combat/states.json",
+          "combat/world-adaptation.json",
+          "combat/combat-log.json",
+          "social/relationships.json",
+          "inventory/items.json",
+          "knowledge/knowledge.json",
+          "progression/achievements.json"
+        ],
+        "idArrays": {
+          "abilities": "id",
+          "resources": "id",
+          "resistances": "id",
+          "states": "id",
+          "adaptations": "abilityId",
+          "combatLogs": "id",
+          "relationships": "id",
+          "items": "id",
+          "knowledge": "id",
+          "secrets": "id",
+          "rumors": "id",
+          "achievements": "id",
+          "pendingClaims": "rewardId",
+          "claimedRewards": "rewardId",
+          "rewardRolls": "id",
+          "worldRollTables": "id"
+        },
+        "extensionSlots": {
+          "customValidators": [],
+          "derivedFields": [],
+          "postUpdateHooks": []
+        }
+      }
+    }
+  }
 }

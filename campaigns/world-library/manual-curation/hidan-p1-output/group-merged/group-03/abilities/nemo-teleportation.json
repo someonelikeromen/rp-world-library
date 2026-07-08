@@ -1,0 +1,69 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "nemo-teleportation",
+  "volume": "vol-27",
+  "source_refs": [
+    "hidan-no-aria-main/vol-27/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-27",
+      "volume": "vol-27",
+      "time": "第二十七卷",
+      "name": {
+        "zh": "尼莫瞬间移动",
+        "en": "Nemo Teleportation"
+      },
+      "aliases": [
+        "蓝色雾气瞬移"
+      ],
+      "type": "supernatural / authority",
+      "description": "尼莫以蓝色发光粒子/雾气包覆对象进行空间转移，边界危险，可将人体切断。卷末因金次意外触碰胸部扰乱精神而失控，转移到未知孤岛海域。",
+      "details": {
+        "visual": "蓝色粒子分裂为雾",
+        "danger": "雾气内外交界可撕裂身体",
+        "failure": "注意力扰乱导致目的地偏离"
+      },
+      "activation": {
+        "condition": "尼莫集中精神并产生蓝雾",
+        "incantation": "",
+        "time": "数秒",
+        "cost": "不能被打扰"
+      },
+      "effects": [
+        "空间转移自己和他人",
+        "战术撤退/绑架"
+      ],
+      "power_level": {
+        "initial": "可带两人移动",
+        "peak": "鱼鹰上试图带走金次",
+        "evolution": [
+          "卷末失控落海"
+        ]
+      },
+      "known_feats": [
+        {
+          "summary": "鱼鹰机顶尼莫试图带金次瞬移，因意外扰乱失败。",
+          "sourceRef": "hidan-no-aria-main/vol-27/full.txt:5500"
+        }
+      ],
+      "shared_by": [
+        "nemo"
+      ],
+      "see_also": [
+        "nemo-possession"
+      ],
+      "countered_by": [
+        "physical-disruption",
+        "hss-unpredictability"
+      ],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-27/full.txt"
+      ]
+    }
+  ]
+}

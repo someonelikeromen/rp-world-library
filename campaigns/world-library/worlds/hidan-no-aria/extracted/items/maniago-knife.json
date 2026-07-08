@@ -1,0 +1,82 @@
+{
+  "_schema": "rp-item-volume-v1",
+  "world": "hidan-no-aria",
+  "item_id": "maniago-knife",
+  "volume": "vol-24",
+  "source_refs": [
+    "hidan-no-aria-main/vol-24/chapters/ch-001-第二十四卷_狂逸的同学会_1弹_帕里奥利的手枪技师.txt:620"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-24-main",
+      "volume": "vol-24",
+      "time": "罗马篇初期",
+      "name": {
+        "zh": "马尼亚戈短刀",
+        "en": "Maniago knife"
+      },
+      "aliases": [
+        "短刀"
+      ],
+      "type": "weapon",
+      "description": "金次随身短刀，在贝瑞塔家中被解除武装并与其他武器一起被没收。",
+      "details": {
+        "origin": "意大利马尼亚戈风格/制品的短刀"
+      },
+      "owner": "kinji",
+      "status": "given-away",
+      "features": [
+        "近战刀具",
+        "随身武装"
+      ],
+      "associated_abilities": [],
+      "history": [
+        {
+          "event_id": "beretta-house-disarmament",
+          "summary": "蕾姬与莎拉从金次身上取下马尼亚戈短刀。",
+          "sourceRef": "hidan-no-aria-main/vol-24/full.txt:620"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-24/chapters/ch-001-第二十四卷_狂逸的同学会_1弹_帕里奥利的手枪技师.txt:620"
+      ]
+    },
+    {
+      "period_id": "vol-25",
+      "volume": "vol-25",
+      "time": "第二十五卷 罗马的军神星",
+      "name": {
+        "zh": "马尼亚戈短刀",
+        "en": "Maniago Knife"
+      },
+      "aliases": [
+        "短刀",
+        "Ragnarok残骸重锻短刀"
+      ],
+      "type": "weapon",
+      "description": "金次随身短刀，本卷被整合进八岐大蛇的快速送出动作，用于弧弹削弹。",
+      "details": {
+        "origin": "由Ragnarok残骸重锻而成",
+        "vol25_usage": "金次以短刀尖端削过出膛子弹，使其划弧命中古兰督卡。"
+      },
+      "owner": "kinji",
+      "status": "active",
+      "features": [
+        "近战刀具",
+        "可与枪击同步使用",
+        "弧弹关键组件"
+      ],
+      "associated_abilities": [
+        "curved-bullet"
+      ],
+      "history": [
+        "竞技场战中与贝瑞塔·金次样式同步，创造决定性弧弹。"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-25/full.txt"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "matchlock-shooting",
+  "volume": "vol-32",
+  "source_refs": [
+    "hidan-no-aria-main/vol-32/chapters/ch-001-第三十二卷_苍穹的密使_1弹_Catch_you_later.txt:250"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-32-main",
+      "volume": "vol-32",
+      "time": "尼加拉战斗",
+      "name": {
+        "zh": "火绳枪射击",
+        "en": "matchlock shooting"
+      },
+      "aliases": [
+        "早合装填"
+      ],
+      "type": "combat / skill",
+      "description": "风魔使用火绳枪阻止金叉脚步，并尝试以传统火器支援战斗。",
+      "details": {
+        "weapon": "fuma-matchlock"
+      },
+      "activation": {
+        "condition": "火绳点燃、装填早合",
+        "incantation": "",
+        "time": "装填后射击",
+        "cost": "受火源和天气影响"
+      },
+      "effects": [
+        "牵制目标脚步",
+        "提供远距离威胁"
+      ],
+      "power_level": {
+        "initial": "可阻止金叉踏步一瞬",
+        "peak": "被金叉矢指熄灭导火绳克制",
+        "evolution": []
+      },
+      "known_feats": [
+        {
+          "summary": "风魔用火绳枪射击金叉鞋尖前方阻止其前进。",
+          "sourceRef": "hidan-no-aria-main/vol-32/full.txt:250"
+        }
+      ],
+      "shared_by": [
+        "fuma-hina"
+      ],
+      "see_also": [
+        "fuma-ninjutsu"
+      ],
+      "countered_by": [
+        "矢指熄灭导火绳",
+        "现代高速战斗"
+      ],
+      "counters": [
+        "普通近身推进"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-32/chapters/ch-001-第三十二卷_苍穹的密使_1弹_Catch_you_later.txt:250"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "encounter-intensity",
+  "name": "遭遇强度表",
+  "type": "d100",
+  "entries": [
+    { "range": [1, 15], "id": "quiet", "text": "无直接遭遇，只出现环境线索" },
+    { "range": [16, 40], "id": "minor", "text": "轻微阻碍或低风险接触" },
+    { "range": [41, 70], "id": "standard", "text": "标准遭遇，需消耗行动或资源处理" },
+    { "range": [71, 90], "id": "danger", "text": "高压遭遇，敌对或强阻碍登场" },
+    { "range": [91, 100], "id": "escalation", "text": "局势升级，触发势力反应或隐藏风险" }
+  ]
+}

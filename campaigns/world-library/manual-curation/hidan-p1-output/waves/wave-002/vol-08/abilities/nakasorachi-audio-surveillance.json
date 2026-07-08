@@ -1,0 +1,59 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "nakasorachi-audio-surveillance",
+  "volume": "vol-08",
+  "periods": [
+    {
+      "period_id": "vol-08-main",
+      "volume": "vol-08",
+      "time": "秋季",
+      "name": {
+        "zh": "中空知音响搜查",
+        "en": "Nakasorachi Audio Surveillance"
+      },
+      "aliases": [
+        "极指向性雷射麦克风监听",
+        "远距离音响搜查"
+      ],
+      "type": "technical_surveillance",
+      "description": "中空知使用女生宿舍屋顶的极指向性雷射麦克风和音响设备，从约三公里外捕捉室内玻璃振动并还原对话。",
+      "details": {
+        "range": "半径约三公里地面方向",
+        "extra_analysis": "可从脚步声、心跳、呼吸推断体脂肪、心理反应和昏睡状态"
+      },
+      "activation": {
+        "condition": "设备架设、目标方向明确",
+        "incantation": "无",
+        "time": "实时监听",
+        "cost": "需要高度集中"
+      },
+      "effects": [
+        "远距监听包厢对话",
+        "追踪车辆与路线",
+        "分析心跳和呼吸状态"
+      ],
+      "known_feats": [
+        "监听华生和亚莉亚在台场饭店餐厅包厢谈话",
+        "判断亚莉亚处于药物造成的昏睡状态"
+      ],
+      "shared_by": [
+        "nakasorachi"
+      ],
+      "see_also": [],
+      "countered_by": [
+        "超出声音捕捉范围",
+        "封闭电梯或高速移动"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-08/chapters/ch-004-第八卷_螺旋的天空树_4弹_高度350公尺的螺旋.txt:509",
+        "hidan-no-aria-main/vol-08/chapters/ch-004-第八卷_螺旋的天空树_4弹_高度350公尺的螺旋.txt:754"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-08/chapters/ch-004-第八卷_螺旋的天空树_4弹_高度350公尺的螺旋.txt:509"
+  ]
+}

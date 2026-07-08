@@ -1,0 +1,68 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "character",
+  "entityId": "reki",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-09",
+  "periods": [
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:3920",
+        "hidan-no-aria-main/vol-09/full.txt:6420",
+        "hidan-no-aria-main/vol-09/full.txt:6740",
+        "hidan-no-aria-main/vol-09/full.txt:6888",
+        "hidan-no-aria-main/vol-09/full.txt:7048"
+      ],
+      "snapshot": {
+        "name": "蕾姬",
+        "aliases": [
+          "蕾姬",
+          "狙击科王牌",
+          "风之女"
+        ],
+        "gender": "女",
+        "status": "存活但卷末被G血族击倒；其手机被艾马基带给金次",
+        "role": "巴斯克维尔小队成员；狙击手；艾马基主人",
+        "affiliations": [
+          "巴斯克维尔小队",
+          "东京武侦高中",
+          "狙击科"
+        ],
+        "abilities_owned": [
+          "sniping",
+          "extreme-composure",
+          "reki-artistic-realism"
+        ],
+        "possessions_owned": [
+          "reki-dragunov"
+        ],
+        "equipment": [
+          "德拉古诺夫狙击枪",
+          "黄绿色防水手机",
+          "艾马基"
+        ],
+        "relationships": [
+          {
+            "target": "kinji",
+            "type": "同伴",
+            "detail": "其手机在卷末成为GⅢ/GⅣ向金次发送人质影像的媒介。"
+          },
+          {
+            "target": "amaki",
+            "type": "主人/搭档",
+            "detail": "艾马基重伤后仍把蕾姬手机交给金次。"
+          },
+          {
+            "target": "baskerville",
+            "type": "小队成员",
+            "detail": "文化祭锅会中参与处罚签火锅，并因海报投稿获得第一名。"
+          }
+        ],
+        "summary": "本卷中蕾姬在文化祭展现意外绘画才能，以梦魔写实画赢得海报投票第一。她在巴斯克维尔庆功锅中保持冷静甚至吃下大量辣椒。卷末她的德拉古诺夫与其他成员武器被G血族堆放展示，蕾姬本人重伤倒地，其手机由艾马基带回给金次。",
+        "evidence_level": "A"
+      }
+    }
+  ],
+  "_schema": "rp-character-volume-v1"
+}

@@ -1,0 +1,65 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "zetsurou",
+  "volume": "vol-19",
+  "source_refs": [
+    "hidan-no-aria-main/vol-19/chapters/ch-004-第十九卷_共跳一段小步舞曲_4弹_时钟塔的双剑双枪.txt:1978"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-19",
+      "volume": "vol-19",
+      "time": "第十九卷",
+      "name": {
+        "zh": "绝牢",
+        "en": "Zetsurou"
+      },
+      "type": "combat",
+      "description": "吸收、传递并返还对手力道的高等体术。金次与阎在大笨钟上以多重绝牢持续互换杀伤力。",
+      "known_feats": [
+        "第二十七重绝牢后金次以头槌击败阎"
+      ],
+      "shared_by": [
+        "kinji",
+        "en"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-19/chapters/ch-004-第十九卷_共跳一段小步舞曲_4弹_时钟塔的双剑双枪.txt:1978"
+      ]
+    },
+    {
+      "period_id": "vol-21",
+      "volume": "vol-21",
+      "time": "第二十一卷",
+      "name": {
+        "zh": "绝牢",
+        "en": "Zetsurou"
+      },
+      "aliases": [],
+      "type": "combat / martial",
+      "description": "金次用以旋转弹开绯绯神亚莉亚双马尾攻击的近身防御技术。",
+      "details": {
+        "usage": "旋转卸力并打开近身路径"
+      },
+      "activation": {
+        "condition": "近身格斗接触瞬间"
+      },
+      "effects": [
+        "弹开夹击",
+        "创造接触目标的窗口"
+      ],
+      "known_feats": [
+        "在绯色火焰中弹开左右双马尾形成的大拳头"
+      ],
+      "shared_by": [
+        "kinji"
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "hidan-no-aria-main/vol-21/full.txt"
+      ]
+    }
+  ]
+}

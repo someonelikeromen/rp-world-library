@@ -1,0 +1,111 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "kotani",
+  "volume": "vol-17",
+  "time_range": {
+    "start": "便利店扒窃惯犯",
+    "end": "目睹鬼族与金次真面目"
+  },
+  "sub_arcs": [
+    "医院便利店潜伏"
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-17/chapters/ch-003-第十七卷_绯弹的宣叙曲_3弹_忍者虽有闲暇时.txt:640"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-17-main",
+      "volume": "vol-17",
+      "time": "金次便利店打工期间",
+      "label": "被鬼族袭击吓坏的不良少女",
+      "name": {
+        "zh": "小谷",
+        "en": "Kotani",
+        "jp": "小谷"
+      },
+      "aliases": [
+        "布丁头少女",
+        "扒窃女中学生"
+      ],
+      "titles": [
+        "住院患者/问题顾客"
+      ],
+      "gender": "女性",
+      "species": "人类",
+      "nationality": "日本",
+      "occupation": "中学生/医院患者",
+      "affiliation": "无",
+      "status": {
+        "physical": "左手骨折吊在胸前，实际近乎痊愈。",
+        "social": "小九超商黑名单上的梅子口香糖扒窃惯犯。",
+        "trauma": "亲眼见到鬼族、金次枪战和武侦身份后受到强烈惊吓。"
+      },
+      "appearance": {
+        "overview": "国中二年级左右的娇小美少女，不良打扮，金发根部长出黑色布丁头。",
+        "attire": {
+          "default": "外套与不良少女风格装扮"
+        },
+        "distinctive": [
+          "右手口袋藏伸缩刀",
+          "爱嚼梅子口香糖"
+        ]
+      },
+      "personality": {
+        "summary": "嘴硬、虚张声势、爱挑衅便利店员，真实胆量有限。",
+        "core_traits": [
+          "虚张声势",
+          "不良少女气质",
+          "缺乏安全感",
+          "欺软怕硬"
+        ],
+        "strengths": [
+          "扒窃手法熟练",
+          "观察逃避监视器"
+        ],
+        "flaws": [
+          "幼稚",
+          "面对真正危险会崩溃"
+        ],
+        "inner_conflict": "用暴力言行伪装强大，但在鬼族面前暴露脆弱。"
+      },
+      "abilities_owned": [
+        "kotani-shoplifting"
+      ],
+      "possessions_owned": [
+        "kotani-switchblade"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "protected-by",
+          "summary": "欺负金次时不知其武侦身份，鬼族出现后被金次从阎脚下救走。"
+        },
+        "owada-store-manager": {
+          "type": "store-blacklist-target",
+          "summary": "被店内视为扒窃惯犯。"
+        }
+      },
+      "knowledge": [
+        "kinji-butei-identity-exposed"
+      ],
+      "summary": "小谷是医科研医院小九超商的惯窃少女，经常挑衅金次并逼他辞职。霸美、阎、津羽鬼进入便利店时，她被阎险些踢中，金次冒险将她拖开救命。她随后目睹金次与鬼族高速战斗，终于理解金次并非普通废物店员。",
+      "key_events": [
+        {
+          "event_id": "hospital-convenience-infiltration",
+          "summary": "作为便利店问题顾客反复挑衅金次。",
+          "sourceRef": "hidan-no-aria-main/vol-17/full.txt:3000"
+        },
+        {
+          "event_id": "convenience-store-oni-raid",
+          "summary": "被金次从阎脚下救出并目睹鬼族战斗。",
+          "sourceRef": "hidan-no-aria-main/vol-17/full.txt:3200"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-17/chapters/ch-003-第十七卷_绯弹的宣叙曲_3弹_忍者虽有闲暇时.txt:640",
+        "hidan-no-aria-main/vol-17/chapters/ch-003-第十七卷_绯弹的宣叙曲_3弹_忍者虽有闲暇时.txt:840"
+      ]
+    }
+  ]
+}

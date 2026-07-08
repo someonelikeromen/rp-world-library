@@ -1,74 +1,49 @@
 # RP Dice
 
-掷骰子系统。用于 RP 中的随机判定、检定、伤害掷骰。
+项目随机判定系统。核心使用项目级独立包 `packages/rp-random/`，默认采用 WoD 风格 d10 骰池。用于跑团判定、安科表、安价候选辅助、NPC 反应、遭遇、调查、战斗变数。
 
 ## 触发条件
 
-- 需要随机判定结果
-- 战斗伤害掷骰
-- 属性检定、技能检定
-- 用户输入"掷骰""骰子""d20""1d6"等
+- 用户要求“掷骰”“骰子”“检定”“跑团”“安科”“安价”。
+- 当前行动需要风险裁定、对抗、随机遭遇、NPC 反应或事件强度。
+- 战斗、调查、潜入、追踪、交涉、仪式等需要透明判定。
 
-## 使用方式
+## 默认骰池规则
 
-用 Python 一行掷骰，不需要脚本文件。
+- 骰子：d10 骰池。
+- 成功阈值：固定 `8+`。
+- 加骰：默认 `10-again`。
+- 能力强化：可改为 `9-again` / `8-again`，最低只到 `8-again`。
+- 难度：使用 `DC`，成功数达到 DC 即成功。
+- 结果：成功 / 失败 / 大失败。
+- 大失败：最终总成功数为 0。
+- `1` 默认不抵消成功。
+- 骰子明细默认公开。
+- seed：即时秒级时间 + 内部随机盐；不接受用户指定，不提供复现。
 
-### 基本掷骰
-
-```bash
-# 单次掷骰：XdY 格式
-python -c "import random; print(f'1d20 = {random.randint(1,20)}')"
-python -c "import random; print(f'2d6 = {random.randint(1,6)+random.randint(1,6)}')"
-python -c "import random; print(f'3d8+5 = {sum(random.randint(1,8) for _ in range(3))+5}')"
-```
-
-### 多次掷骰
-
-```bash
-# 通用掷骰表达式（支持修饰符）
-python -c "
-import random,re
-expr='3d8+2'
-m=re.match(r'(\d+)d(\d+)([+-]\d+)?$',expr)
-n,sides,mod=int(m[1]),int(m[2]),int(m[3]or 0)
-rolls=[random.randint(1,sides) for _ in range(n)]
-print(f'{expr}: rolls={rolls} sum={sum(rolls)}{mod:+d}={sum(rolls)+mod}' if m[3] else f'{expr}: rolls={rolls} sum={sum(rolls)}')
-"
-```
-
-### 优势/劣势
+## CLI 用法
 
 ```bash
-# 优势（掷两个取大）
-python -c "import random; a=[random.randint(1,20) for _ in range(2)]; print(f'优势 d20: {a} → max={max(a)}')"
-
-# 劣势（掷两个取小）
-python -c "import random; a=[random.randint(1,20) for _ in range(2)]; print(f'劣势 d20: {a} → min={min(a)}')"
+node packages/rp-random/bin/rp-random.js pool --pool 7 --dc 3
+node packages/rp-random/bin/rp-random.js pool --pool 7 --dc 3 --again 8
+node packages/rp-random/bin/rp-random.js contest --actor-pool 6 --opponent-pool 4
+node packages/rp-random/bin/rp-random.js table data/rp-tables/npc-reactions.json
+node packages/rp-random/bin/rp-random.js anka data/rp-tables/encounter-intensity.json
 ```
 
-### 对抗检定
+## 判定流程
 
-```bash
-# 双方 d20 + 修正
-python -c "
-import random
-a=random.randint(1,20)+3
-b=random.randint(1,20)+1
-print(f'玩家 d20+3={a} vs NPC d20+1={b} → {\"玩家胜\" if a>b else \"NPC胜\" if b>a else \"平局\"}')"
-```
-
-### 常用掷骰模板
-
-| 场景 | 命令模式 |
-|------|---------|
-| 属性检定 | `python -c "import random; print(f'd20+{修正}={random.randint(1,20)+修正}')"` |
-| 伤害掷骰 | `python -c "import random; print(f'{n}d{面}{修正:+}={sum(random.randint(1,{面}) for _ in range({n}))+修正}')"` |
-| 优势检定 | `python -c "import random; a=[random.randint(1,20) for _ in range(2)]; print(f'优势: {a} max={max(a)}')"` |
-| 劣势检定 | `python -c "import random; a=[random.randint(1,20) for _ in range(2)]; print(f'劣势: {a} min={min(a)}')"` |
+1. 明确行动目标和失败代价。
+2. 检查角色知识、能力、资源、感知、心理、动机、关系和世界规则。
+3. 构成骰池：属性 + 技能 + 能力/装备/准备/环境修正 - 伤势/压力/干扰。
+4. 设定 DC。
+5. 掷骰并公开结果。
+6. 将成功 / 失败 / 大失败落地到叙事与状态。
+7. 重要变化写入角色卡模块或 memory。
 
 ## 原则
 
-- 掷骰结果是公开信息，直接展示给用户。
-- 不要伪造或重掷不理想的结果。
-- 如果用户想自定义难度等级（DC），先确认 DC 再掷。
-- 战斗时配合 `rp-combat` skill 使用。
+- 不伪造、不重掷不理想结果。
+- 骰子不能突破角色能力、资源、感知和世界规则。
+- 大失败不能凭空制造 OOC；后果必须从当前局势自然推出。
+- 安科/安价结果仍需通过角色内生推演和 OOC 检查。

@@ -1,0 +1,45 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "ability",
+  "entityId": "dual-sword-dual-gun",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-09",
+  "periods": [
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:314",
+        "hidan-no-aria-main/vol-09/full.txt:1845",
+        "hidan-no-aria-main/vol-09/full.txt:7040"
+      ],
+      "snapshot": {
+        "name": "双剑双枪",
+        "aliases": [
+          "双剑双枪的亚莉亚",
+          "双Government与双刀",
+          "强袭科枪刀战"
+        ],
+        "type": "combat style",
+        "description": "亚莉亚的代表性战斗方式，结合两把Government手枪与两把日本刀。本卷中她虽多次处于被俘或麻痹状态，仍以隐藏弹药重启双枪参与四点同时攻击；卷末其双枪与日本刀被敌方夺取展示。",
+        "known_users": [
+          "aria"
+        ],
+        "effects": [
+          "双枪同时射击",
+          "枪刀并用的强袭科压制",
+          "可用隐藏备用弹继续作战"
+        ],
+        "limitations": [
+          "遭雷击或暗示术控制时难以发挥",
+          "枪械被夺会使战斗力大幅下降"
+        ],
+        "associated_items": [
+          "colt-government-aria",
+          "aria-hidden-hairpin-ammo"
+        ],
+        "evidence_level": "S"
+      }
+    }
+  ],
+  "_schema": "rp-ability-volume-v1"
+}

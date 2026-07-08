@@ -1,0 +1,55 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "i-class-alcohol-recovery",
+  "volume": "vol-08",
+  "periods": [
+    {
+      "period_id": "vol-08-main",
+      "volume": "vol-08",
+      "time": "秋季",
+      "name": {
+        "zh": "I级超能力者酒精补给",
+        "en": "I-Class Alcohol Recovery"
+      },
+      "aliases": [
+        "酒精补给",
+        "战后饮酒"
+      ],
+      "type": "metabolic_requirement",
+      "description": "梅雅说明I级超能力者通过削弱自身身体来使用能力，战斗后必须大量摄取特定物质；她本人需要酒精，否则会丧命。",
+      "details": {
+        "substances": "不同能力者需要糖分、蛋白质、维他命C等不同补给；梅雅需要酒精",
+        "constitution": "梅雅体质千杯不倒"
+      },
+      "activation": {
+        "condition": "战斗后消耗身体",
+        "incantation": "无",
+        "time": "战后补给",
+        "cost": "必须暴饮补给物质"
+      },
+      "effects": [
+        "维持能力者生命活动",
+        "补充能力消耗"
+      ],
+      "known_feats": [
+        "梅雅在金次房间连续喝烈酒并解释机制"
+      ],
+      "shared_by": [
+        "meiya-romano"
+      ],
+      "see_also": [
+        "meiya-exorcism"
+      ],
+      "countered_by": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-08/chapters/ch-002-第八卷_螺旋的天空树_2弹_变装食堂.txt:75"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-08/chapters/ch-002-第八卷_螺旋的天空树_2弹_变装食堂.txt:75"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "_schema": "world-library.character.v1",
+  "world": "hidan-no-aria",
+  "character_id": "meluette",
+  "volume": "vol-37",
+  "periods": [
+    {
+      "period_id": "vol-37",
+      "name": "梅露爱特·福尔摩斯",
+      "aliases": [
+        "梅露爱特",
+        "Meluette"
+      ],
+      "gender": "female",
+      "species": "human; Holmes family",
+      "status": "alive; abducted and released; survives Chhat battle",
+      "affiliations": [
+        "holmes-family",
+        "reunion",
+        "butei-high"
+      ],
+      "locations": [
+        "mumbai",
+        "zandra",
+        "chhat-ruins"
+      ],
+      "abilities_owned": [
+        "holmes-deduction",
+        "rifle-marksmanship"
+      ],
+      "possessions_owned": [
+        "meluette-wheelchair",
+        "meluette-lee-enfield",
+        "meluette-bayonet",
+        "meluette-gaming-laptop",
+        "meluette-pipe"
+      ],
+      "relationships": {
+        "aria": {
+          "type": "sister",
+          "status": "reunites in Mumbai and supports the Holmes side",
+          "sourceRef": "hidan-no-aria-main/vol-37/full.txt:746"
+        },
+        "sherlock-holmes": {
+          "type": "great-grandfather",
+          "status": "invited by Sherlock; performs Holmes-style confirmation deductions",
+          "sourceRef": "hidan-no-aria-main/vol-37/full.txt:1145"
+        },
+        "kinji": {
+          "type": "ally/commander",
+          "status": "joins Kinji's team and is rescued by him",
+          "sourceRef": "hidan-no-aria-main/vol-37/full.txt:1324"
+        },
+        "l-watson": {
+          "type": "caretaker/partner",
+          "status": "Watson pushes her wheelchair and protects her",
+          "sourceRef": "hidan-no-aria-main/vol-37/full.txt:746"
+        },
+        "hilda": {
+          "type": "ally after friction",
+          "status": "initially rejects Hilda but later thanks and bonds with her during battle",
+          "sourceRef": "hidan-no-aria-main/vol-37/full.txt:4305"
+        },
+        "carbuncle": {
+          "type": "hostage-taker",
+          "status": "Carbuncle abducts her as revenge against Sherlock; later releases her",
+          "sourceRef": "hidan-no-aria-main/vol-37/full.txt:2550"
+        }
+      },
+      "key_events": [
+        {
+          "event_id": "second-iu-reunion",
+          "role": "Holmes analyst and team strategist",
+          "sourceRef": "hidan-no-aria-main/vol-37/full.txt:1145"
+        },
+        {
+          "event_id": "carbuncle-raid-zandra",
+          "role": "abducted hostage",
+          "sourceRef": "hidan-no-aria-main/vol-37/full.txt:2550"
+        },
+        {
+          "event_id": "security-police-attack",
+          "role": "snipes the targeting drone, ending accurate mortar fire",
+          "sourceRef": "hidan-no-aria-main/vol-37/full.txt:4300"
+        }
+      ],
+      "notes": "Meluette's presence triggers Carbuncle's vengeance against the Holmes line. Her marksmanship and analysis prove critical after rescue.",
+      "sourceRef": "hidan-no-aria-main/vol-37/chapters/ch-006-第三十七卷_第三个男人_6弹_宝锤──九宝金刚杵.txt:830"
+    }
+  ]
+}

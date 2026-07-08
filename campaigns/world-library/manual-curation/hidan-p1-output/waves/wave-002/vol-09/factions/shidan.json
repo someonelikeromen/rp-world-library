@@ -1,0 +1,53 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "faction",
+  "entityId": "shidan",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-09",
+  "periods": [
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:141",
+        "hidan-no-aria-main/vol-09/full.txt:309",
+        "hidan-no-aria-main/vol-09/full.txt:4505",
+        "hidan-no-aria-main/vol-09/full.txt:4960"
+      ],
+      "snapshot": {
+        "name": "师团",
+        "aliases": [
+          "师团阵营",
+          "极东战役师团方"
+        ],
+        "type": "war faction",
+        "description": "极东战役中与眷属对立的一方。本卷中金次因击败夏洛克、弗拉德和希尔达而实质站到师团侧，自由石匠总会所也决定加入师团，玉藻和星伽白雪提供超常支援。",
+        "known_members": [
+          "tamamo",
+          "shirayuki"
+        ],
+        "affiliated_allies": [
+          "baskerville",
+          "watson",
+          "freemasonry"
+        ],
+        "opponents": [
+          "kenzoku",
+          "hilda",
+          "g-third",
+          "g-fourth"
+        ],
+        "goals": [
+          "与眷属争夺色金和优秀战力",
+          "回收亚莉亚壳金",
+          "阻止眷属主战派继续扩大战役"
+        ],
+        "key_events": [
+          "tamamo-extreme-east-war-briefing",
+          "sky-tree-hilda-showdown"
+        ],
+        "evidence_level": "S"
+      }
+    }
+  ],
+  "_schema": "rp-faction-volume-v1"
+}

@@ -1,0 +1,55 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "visual-teleport-kintoun",
+  "volume": "vol-20",
+  "source_refs": [
+    "hidan-no-aria-main/vol-20/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-20",
+      "volume": "vol-20",
+      "time": "第二十卷",
+      "name": {
+        "zh": "视野内瞬间移动",
+        "en": "Kintoun visual teleport"
+      },
+      "aliases": [
+        "筋斗云",
+        "视野内瞬移"
+      ],
+      "type": "supernatural / irokane",
+      "description": "绯绯色金系能力，将光云包覆范围内的对象移动到视野可见坐标。猴称出口坐标只能设定在眼睛看见之处，一昼夜通常仅一次。",
+      "details": {
+        "limits": [
+          "目的地必须可见",
+          "可载重量有限",
+          "每个化身似乎一昼夜一次"
+        ]
+      },
+      "activation": {
+        "incantation": "猴使用时念来了来了等中文发音",
+        "condition": "生成金色光粒包围目标"
+      },
+      "effects": [
+        "远距离瞬移",
+        "可用高处扩大可见距离"
+      ],
+      "known_feats": [
+        "霸美从富岳带亚莉亚、孙、金次瞬移到磁浮列车",
+        "猴从铁塔把金次送到星伽山附近"
+      ],
+      "shared_by": [
+        "hihi-gami",
+        "hou",
+        "bami",
+        "aria"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-20/full.txt"
+      ]
+    }
+  ]
+}

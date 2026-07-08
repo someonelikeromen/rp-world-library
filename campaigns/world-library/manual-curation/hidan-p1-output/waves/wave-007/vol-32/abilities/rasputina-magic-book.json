@@ -1,0 +1,78 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "rasputina-magic-book",
+  "volume": "vol-32",
+  "periods": [
+    {
+      "period_id": "vol-32-main",
+      "volume": "vol-32",
+      "time": "地下品川决战",
+      "name": {
+        "zh": "魔之全集",
+        "en": "Complete Magic Book"
+      },
+      "aliases": [
+        "魔书",
+        "十三色魔书"
+      ],
+      "type": "magic / authority",
+      "description": "拉斯普丁纳抢夺并装订古代人民各族魔书形成的全集，可使用龙召唤、火、风、雷、魔法阵跳跃等多系统魔术。",
+      "details": {
+        "chapters": "不同颜色纸张代表不同魔术体系",
+        "risk": "在特定粒子环境下大规模术法可能失控"
+      },
+      "activation": {
+        "condition": "翻开对应颜色页面并咏唱",
+        "incantation": "因页面而异",
+        "time": "从瞬间到需画阵",
+        "cost": "依赖魔书本体；魔书受损会导致施法失败"
+      },
+      "effects": [
+        "召唤隐形龙",
+        "喷火与火焰环",
+        "闪电麻痹",
+        "世界跳跃魔法阵"
+      ],
+      "power_level": {
+        "initial": "单人同时威胁金次、恩蒂米菈和双胞胎",
+        "peak": "若无人破坏魔书可压倒战场",
+        "evolution": []
+      },
+      "known_feats": [
+        {
+          "summary": "拉斯普丁纳在地下品川连续使用魔书多种魔术。",
+          "sourceRef": "hidan-no-aria-main/vol-32/full.txt:5000"
+        }
+      ],
+      "shared_by": [
+        "rasputina"
+      ],
+      "see_also": [
+        "invisible-dragon-summoning",
+        "magic-array-world-jump"
+      ],
+      "countered_by": [
+        "恩蒂米菈复合弓贯穿魔书",
+        "失去魔书后被龙反噬"
+      ],
+      "counters": [
+        "普通枪械与近战"
+      ],
+      "variations": [
+        "火焰页面",
+        "闪电页面",
+        "风页面",
+        "白色跳跃页面"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-32/chapters/ch-005-第三十二卷_苍穹的密使_5弹_魔之全集.txt:300",
+        "hidan-no-aria-main/vol-32/chapters/ch-005-第三十二卷_苍穹的密使_5弹_魔之全集.txt:565"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-32/chapters/ch-005-第三十二卷_苍穹的密使_5弹_魔之全集.txt:300"
+  ]
+}

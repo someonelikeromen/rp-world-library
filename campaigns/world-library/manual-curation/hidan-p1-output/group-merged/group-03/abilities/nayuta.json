@@ -1,0 +1,128 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "nayuta",
+  "volume": "vol-27",
+  "source_refs": [
+    "hidan-no-aria-main/vol-27/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-27",
+      "volume": "vol-27",
+      "time": "第二十七卷",
+      "name": {
+        "zh": "那由多",
+        "en": "Nayuta"
+      },
+      "aliases": [
+        "樱花饱和攻击",
+        "双汽缸樱花"
+      ],
+      "type": "combat / martial-art",
+      "description": "金次开发的连续樱花拳，将左右半身交替蓄力与发劲，把樱花间隔压到近乎为零，以饱和打击压制重型敌人。",
+      "details": {
+        "user": "kinji",
+        "basis": "樱花",
+        "mechanism": "右半身发劲时左半身蓄力，反之亦然"
+      },
+      "activation": {
+        "condition": "爆发模式下精密控制身体",
+        "incantation": "那由多",
+        "time": "连续数秒",
+        "cost": "负荷极大，会诱发对卒"
+      },
+      "effects": [
+        "连续击打高质量目标",
+        "把墨丘利推出建筑外",
+        "造成使用者头痛与昏倒风险"
+      ],
+      "power_level": {
+        "initial": "可将水银女打到变形后推出屋外",
+        "peak": "配合GIII流星把墨丘利击出本营",
+        "evolution": []
+      },
+      "known_feats": [
+        {
+          "summary": "金次在高尾基地用那由多连续殴打墨丘利。",
+          "sourceRef": "hidan-no-aria-main/vol-27/full.txt:3450"
+        }
+      ],
+      "shared_by": [
+        "kinji"
+      ],
+      "see_also": [
+        "hss",
+        "sakura"
+      ],
+      "countered_by": [],
+      "counters": [
+        "mercurius-liquid-metal-body"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-27/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-29",
+      "volume": "vol-29",
+      "time": "第二十九卷 盟约的谍候",
+      "name": {
+        "zh": "那由多/玖那由多",
+        "en": "Nayuta / Ninefold Nayuta"
+      },
+      "aliases": [
+        "贰那由多",
+        "肆那由多",
+        "玖那由多"
+      ],
+      "type": "combat",
+      "description": "连续樱花拳击的远山家攻击循环。本卷金次从双拳那由多扩展为手脚额头肘膝并用的玖那由多，强行挖穿海卓拉。",
+      "details": {
+        "mechanics": "用身体多个部位连续装弹与释放亚音速冲击，像挖隧道般削开液状防御。"
+      },
+      "activation": {
+        "condition": "HSS与极限近战状态",
+        "incantation": "那由多",
+        "time": "持续攻击",
+        "cost": "巨量体力与身体负担"
+      },
+      "effects": [
+        "连续破坏目标表层",
+        "可对抗高恢复液状生物"
+      ],
+      "power_level": {
+        "initial": "双拳贰那由多",
+        "peak": "玖那由多突破海卓拉到阿斯库勒庇欧斯面前",
+        "evolution": [
+          "由双汽缸提升到九方向攻击"
+        ]
+      },
+      "known_feats": [
+        "海卓拉决战最终突破"
+      ],
+      "shared_by": [
+        "kinji"
+      ],
+      "see_also": [
+        "hss",
+        "sakura-sonic-step"
+      ],
+      "countered_by": [
+        "rapid-regeneration"
+      ],
+      "counters": [
+        "hydra-slime-body"
+      ],
+      "variations": [
+        "ninefold-nayuta"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-29/full.txt"
+      ]
+    }
+  ]
+}

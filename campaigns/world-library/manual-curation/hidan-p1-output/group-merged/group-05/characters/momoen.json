@@ -1,0 +1,65 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "momoen",
+  "volume": "vol-41",
+  "source_refs": [
+    "hidan-no-aria-main/vol-41/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-41-main",
+      "volume": "vol-41",
+      "time": "Child Nursery Tamachi",
+      "label": "Nursery director",
+      "name": {
+        "zh": "桃园",
+        "en": "Momoen",
+        "jp": "桃園"
+      },
+      "aliases": [
+        "桃园园长",
+        "桃园老师"
+      ],
+      "gender": "female",
+      "species": "human",
+      "occupation": "nursery director/caregiver",
+      "affiliation": "Child Nursery Tamachi",
+      "status": {
+        "alive": true
+      },
+      "summary": "Momoen accepts China for extended care despite the facility's staffing shortages, mediates child conflicts, notices China's hearing/smell problems, and later hires Livia under the alias Satomi Asako as nursery assistant.",
+      "abilities_owned": [
+        "nursery-care"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "china": {
+          "type": "teacher/caregiver"
+        },
+        "kinji": {
+          "type": "guardian contact"
+        },
+        "livia": {
+          "type": "employer",
+          "summary": "hires Livia as Satomi Asako"
+        }
+      },
+      "key_events": [
+        {
+          "event_id": "china-nursery-first-day",
+          "summary": "admits China and handles the first-day conflict",
+          "sourceRef": "hidan-no-aria-main/vol-41/full.txt"
+        },
+        {
+          "event_id": "livia-nursery-employment",
+          "summary": "hires Livia as a childcare assistant",
+          "sourceRef": "hidan-no-aria-main/vol-41/full.txt"
+        }
+      ],
+      "source_refs": [
+        "hidan-no-aria-main/vol-41/full.txt"
+      ]
+    }
+  ]
+}

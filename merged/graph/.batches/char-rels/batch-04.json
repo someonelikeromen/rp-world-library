@@ -1,0 +1,990 @@
+{
+  "schema": "hidan-character-relations-batch-v1",
+  "batch_id": 4,
+  "character_range": {
+    "start": 91,
+    "end": 120,
+    "index_base": 1,
+    "source": "campaigns/world-library/manual-curation/hidan-p1-output/merged/graph/character-index.json"
+  },
+  "characters": [
+    "gedronika",
+    "giii",
+    "gobuin",
+    "gojo",
+    "gonzalez",
+    "gouo",
+    "granduca",
+    "habi",
+    "haga-keiichi",
+    "harada-seiba",
+    "harada-shizuka",
+    "harpy",
+    "hashimoto-aoi",
+    "hayakawa-mako",
+    "hibari-yamane",
+    "hibiki",
+    "hibiki-amezi",
+    "hihi-gami",
+    "hihi-god",
+    "hihii-gami",
+    "hilda",
+    "himeyoshi",
+    "hino-laika",
+    "hino-raika",
+    "hiraga",
+    "hiraga-aya",
+    "hiraga-bun",
+    "hiraga-fumi",
+    "hojoin-ryoji",
+    "hoshiga-hanayuki"
+  ],
+  "relationships": [
+    {
+      "source": "gedronika",
+      "target": "china",
+      "type": "descendant/vessel",
+      "summary": "uses her as coordinate and temporary body",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/gedronika.json"
+    },
+    {
+      "source": "gedronika",
+      "target": "livia",
+      "type": "fellow goddess/negotiator",
+      "summary": "recognizes and negotiates with Livia",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/gedronika.json"
+    },
+    {
+      "source": "gedronika",
+      "target": "kinji",
+      "type": "opponent/respected threat",
+      "summary": "金次以Yamato斩断其尾部并促成莉维娅斡旋后的契约离去。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/gedronika.json"
+    },
+    {
+      "source": "giii",
+      "target": "kinji",
+      "type": "brother/mission-partner/ally",
+      "summary": "作为兄弟与任务搭档反复支援金次：赴美寻父、尼加拉路线、雪花事件、罗马与雷霆教团线均提供战术、交通或人脉支援。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/giii.json"
+    },
+    {
+      "source": "giii",
+      "target": "kinme",
+      "type": "sibling/companion",
+      "summary": "金女是其妹妹/前部下，仍与金次及GⅢ保持亲近。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/giii.json"
+    },
+    {
+      "source": "giii",
+      "target": "kintan",
+      "type": "family/support",
+      "summary": "金天为其同伴/家族支援者，多次承担转送物资和家庭线联络。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/giii.json"
+    },
+    {
+      "source": "giii",
+      "target": "angus",
+      "type": "butler/pilot",
+      "summary": "安格斯作为执事兼飞行员服务GⅢ。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/giii.json"
+    },
+    {
+      "source": "giii",
+      "target": "kinza",
+      "type": "father/search-target",
+      "summary": "与金次一起寻找父亲并确认其生死与风险。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/giii.json"
+    },
+    {
+      "source": "giii",
+      "target": "fuma-hina",
+      "type": "ally/protective",
+      "summary": "共同赴美与尼加拉行动，多次担心风魔安危。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/giii.json"
+    },
+    {
+      "source": "giii",
+      "target": "zii",
+      "type": "artificial-genius-counterpart",
+      "summary": "起初不合，后因ZⅡ以气功疗法治疗而关系缓和。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/giii.json"
+    },
+    {
+      "source": "giii",
+      "target": "norma-bates",
+      "type": "enemy",
+      "summary": "尼加拉河战斗中的敌对对象。",
+      "confidence": "B",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/giii.json"
+    },
+    {
+      "source": "giii",
+      "target": "sekka",
+      "type": "kin",
+      "summary": "与雪花初见并解释远山家美国国籍相关情况。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/giii.json"
+    },
+    {
+      "source": "giii",
+      "target": "bronson",
+      "type": "contact-chain",
+      "summary": "通过美国方面关系链促成卡尔·文森号协力。",
+      "confidence": "B",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/giii.json"
+    },
+    {
+      "source": "giii",
+      "target": "yukihana",
+      "type": "new-adoptive-mother",
+      "summary": "金次告知其雪花成为远山家母亲。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/giii.json"
+    },
+    {
+      "source": "giii",
+      "target": "livia",
+      "type": "encountered-mermaid",
+      "summary": "中国离开后拜访金次时提及/遭遇人鱼莉维娅。",
+      "confidence": "B",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/giii.json"
+    },
+    {
+      "source": "giii",
+      "target": "dorothy-solomon",
+      "type": "friend/admirer",
+      "summary": "多萝西追随GⅢ并以私人飞机协助兄弟赴罗马。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/giii.json"
+    },
+    {
+      "source": "giii",
+      "target": "augusta",
+      "type": "ally",
+      "summary": "Giusto相关调查线中的协力者。",
+      "confidence": "B",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/giii.json"
+    },
+    {
+      "source": "giii",
+      "target": "remielia",
+      "type": "host/reluctant-caretaker",
+      "summary": "回国后收留雷米艾莉雅，将洛嘉房间暂借给她。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/giii.json"
+    },
+    {
+      "source": "giii",
+      "target": "remi-ellia",
+      "type": "monitor/housemate",
+      "summary": "护送雷米艾莉雅到煌并避免其街头暴走。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/giii.json"
+    },
+    {
+      "source": "giii",
+      "target": "kinjo",
+      "type": "housemate",
+      "summary": "六本木住所中的同住同伴。",
+      "confidence": "B",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/giii.json"
+    },
+    {
+      "source": "gobuin",
+      "target": "kinji",
+      "type": "administrator/temporary-teacher",
+      "summary": "与临时教师金次多次冲突，最后稍微感谢其整顿二年四班。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/gobuin.json"
+    },
+    {
+      "source": "gobuin",
+      "target": "ohtsu",
+      "type": "principal/subordinate",
+      "summary": "辅佐校长处理问题班。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/gobuin.json"
+    },
+    {
+      "source": "gobuin",
+      "target": "gouo",
+      "type": "discipline-target",
+      "summary": "将豪尾视作学校行政纪律对象。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/gobuin.json"
+    },
+    {
+      "source": "gojo",
+      "target": "kinji",
+      "type": "senior",
+      "summary": "教金次拉客并帮他接皋月桌，对金次诚实与武力感到惊讶。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/gojo.json"
+    },
+    {
+      "source": "gojo",
+      "target": "jin-ya",
+      "type": "colleague",
+      "summary": "一起教金次拉客并经历黑道龙二事件。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/gojo.json"
+    },
+    {
+      "source": "gojo",
+      "target": "remi-ellia",
+      "type": "helper/guest-service",
+      "summary": "在接待客人时提供帮手式协助。",
+      "confidence": "B",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/gojo.json"
+    },
+    {
+      "source": "gonzalez",
+      "target": "aria",
+      "type": "mission-passenger",
+      "summary": "允许亚莉亚参与释放绯绯色金的最后操作。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/gonzalez.json"
+    },
+    {
+      "source": "gonzalez",
+      "target": "kinji",
+      "type": "mission-passenger",
+      "summary": "允许金次参与释放绯绯色金的最后操作。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/gonzalez.json"
+    },
+    {
+      "source": "gouo",
+      "target": "kinji",
+      "type": "student/teacher",
+      "summary": "从威胁金次转为信赖其不会抛弃学生。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/gouo.json"
+    },
+    {
+      "source": "gouo",
+      "target": "kojima-serina",
+      "type": "crush",
+      "summary": "喜欢芹奈并听她的话。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/gouo.json"
+    },
+    {
+      "source": "gouo",
+      "target": "bads",
+      "type": "extortion-threat",
+      "summary": "被teamer Bads勒索并转向偷卖赃物。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/gouo.json"
+    },
+    {
+      "source": "granduca",
+      "target": "io",
+      "type": "daughter",
+      "summary": "伊欧是其独生女，战斗中多次被Granduca保护。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/granduca.json"
+    },
+    {
+      "source": "granduca",
+      "target": "kinji",
+      "type": "enemy-respected",
+      "summary": "与金次在竞技场决斗，被弧弹击败后承认其有趣。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/granduca.json"
+    },
+    {
+      "source": "granduca",
+      "target": "aria",
+      "type": "enemy",
+      "summary": "在N相关竞技场冲突中与亚莉亚阵营敌对。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/granduca.json"
+    },
+    {
+      "source": "habi",
+      "target": "hilda",
+      "type": "ally",
+      "summary": "同属眷属阵营。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/habi.json"
+    },
+    {
+      "source": "habi",
+      "target": "jeanne",
+      "type": "conference-host",
+      "summary": "接受贞德主持的会议规则。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/habi.json"
+    },
+    {
+      "source": "habi",
+      "target": "aria",
+      "type": "potential-enemy/desired-vessel",
+      "summary": "会议后亚莉亚闯入时准备战斗；后续作为绯绯神侧目标/容器线的一环。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/habi.json"
+    },
+    {
+      "source": "habi",
+      "target": "yan",
+      "type": "retainer/protector",
+      "summary": "阎绝对忠诚并负责抱持与护卫她。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/habi.json"
+    },
+    {
+      "source": "habi",
+      "target": "tsubaki",
+      "type": "retainer",
+      "summary": "津羽鬼称其为霸美大人并听从讨伐命令。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/habi.json"
+    },
+    {
+      "source": "haga-keiichi",
+      "target": "kinji",
+      "type": "diplomatic-contact",
+      "summary": "劝金次不要再非法接触金叉。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/haga-keiichi.json"
+    },
+    {
+      "source": "haga-keiichi",
+      "target": "saruta-kunihiko",
+      "type": "government-side-contact",
+      "summary": "接收猿田口头报告。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/haga-keiichi.json"
+    },
+    {
+      "source": "haga-keiichi",
+      "target": "zenigata-nori",
+      "type": "ministry-colleague",
+      "summary": "日本驻加拿大大使线中的省厅同僚。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/haga-keiichi.json"
+    },
+    {
+      "source": "harada-seiba",
+      "target": "kinji",
+      "type": "enemy",
+      "summary": "曾在比利时险些暗杀金次，卷末再次对峙。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/harada-seiba.json"
+    },
+    {
+      "source": "harada-seiba",
+      "target": "shidou",
+      "type": "squad-member",
+      "summary": "听从狮堂小队阵列命令。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/harada-seiba.json"
+    },
+    {
+      "source": "harada-seiba",
+      "target": "nada",
+      "type": "squadmate",
+      "summary": "狮堂小队同伴。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/harada-seiba.json"
+    },
+    {
+      "source": "harada-shizuka",
+      "target": "kinji",
+      "type": "past-killer/temporary-landlord/contact",
+      "summary": "给金次电话号码，后来收留金次。",
+      "confidence": "S",
+      "source_ref": "hidan-no-aria-main/vol-22/full.txt:1769",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/harada-shizuka.json"
+    },
+    {
+      "source": "harada-shizuka",
+      "target": "nue",
+      "type": "housemate",
+      "summary": "与鵺共同生活，并称她比自己年长数百岁且异能万能。",
+      "confidence": "S",
+      "source_ref": "hidan-no-aria-main/vol-22/full.txt:5319",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/harada-shizuka.json"
+    },
+    {
+      "source": "harpy",
+      "target": "valkyrja",
+      "type": "master/pet",
+      "summary": "由瓦尔基丽雅操纵的飞行作战单位，类似驯鹰关系。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/harpy.json"
+    },
+    {
+      "source": "harpy",
+      "target": "kinji",
+      "type": "target",
+      "summary": "奉命袭击金次，抓住金次飞至高空后被其反击。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/harpy.json"
+    },
+    {
+      "source": "harpy",
+      "target": "makuzo-ito",
+      "type": "colleague",
+      "summary": "同属瓦尔基丽雅侧作战单位/同僚。",
+      "confidence": "B",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/harpy.json"
+    },
+    {
+      "source": "hashimoto-aoi",
+      "target": "kojima-serina",
+      "type": "friend",
+      "summary": "草字头三人组成员。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hashimoto-aoi.json"
+    },
+    {
+      "source": "hashimoto-aoi",
+      "target": "nishino-akane",
+      "type": "friend",
+      "summary": "草字头三人组成员。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hashimoto-aoi.json"
+    },
+    {
+      "source": "hashimoto-aoi",
+      "target": "kinji",
+      "type": "student/teacher",
+      "summary": "作为上目黑中学二年四班问题学生，被金次承担偷窃责任并介入教育。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hashimoto-aoi.json"
+    },
+    {
+      "source": "hayakawa-mako",
+      "target": "tooyama-yukika",
+      "type": "government-support-subject",
+      "summary": "代表政府准备历史说明、户籍恢复和生活支援。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hayakawa-mako.json"
+    },
+    {
+      "source": "hayakawa-mako",
+      "target": "kinji",
+      "type": "government-liaison",
+      "summary": "在远山家向金次说明归国兵特别措施与监护安排。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hayakawa-mako.json"
+    },
+    {
+      "source": "hayakawa-mako",
+      "target": "shiranui-ryo",
+      "type": "coordinator",
+      "summary": "与不知火共同协调雪花归国相关政府安排。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hayakawa-mako.json"
+    },
+    {
+      "source": "hibari-yamane",
+      "target": "kinji",
+      "type": "interview-subject/protector/ambiguous-interest",
+      "summary": "采访并追踪金次，卷末被金次诱导为专属于他的记者。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hibari-yamane.json"
+    },
+    {
+      "source": "hibari-yamane",
+      "target": "kamui-ito",
+      "type": "dangerous-investigation-subject",
+      "summary": "因拍到金次与可鹉韦枪战而差点触及可鹉韦秘密。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hibari-yamane.json"
+    },
+    {
+      "source": "hibari-yamane",
+      "target": "shiranui",
+      "type": "school-observation-subject",
+      "summary": "同校观察对象。",
+      "confidence": "B",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hibari-yamane.json"
+    },
+    {
+      "source": "hihi-gami",
+      "target": "aria",
+      "type": "perfect-vessel/host-contractor",
+      "summary": "曾完全覆盖亚莉亚显现为绯弹的亚莉亚；后被亚莉亚反向附身并订约。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hihi-gami.json"
+    },
+    {
+      "source": "hihi-gami",
+      "target": "hou",
+      "type": "imperfect-vessel",
+      "summary": "可作为孙操控但最终舍弃。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hihi-gami.json"
+    },
+    {
+      "source": "hihi-gami",
+      "target": "bami",
+      "type": "imperfect-vessel",
+      "summary": "霸美是不完全凭依/容器相关对象。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hihi-gami.json"
+    },
+    {
+      "source": "hihi-gami",
+      "target": "kinji",
+      "type": "first-love/former-enemy",
+      "summary": "对金次产生初恋感情，离别时要求他不要忘记自己。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hihi-gami.json"
+    },
+    {
+      "source": "hihi-gami",
+      "target": "shirayuki",
+      "type": "warden/enemy",
+      "summary": "白雪承担封印/看守与敌对职责。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hihi-gami.json"
+    },
+    {
+      "source": "hihi-god",
+      "target": "aria",
+      "type": "host/target",
+      "summary": "逐渐有覆盖亚莉亚的风险。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hihi-god.json"
+    },
+    {
+      "source": "hihi-god",
+      "target": "kinji",
+      "type": "enemy-to-arrest-rather-than-kill",
+      "summary": "金次坚持逮捕而不是杀死她。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hihi-god.json"
+    },
+    {
+      "source": "hihi-god",
+      "target": "lulu-god",
+      "type": "sister/enemy",
+      "summary": "与琉琉神为姐妹关系并处于敌对立场。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hihi-god.json"
+    },
+    {
+      "source": "hihii-gami",
+      "target": "aria",
+      "type": "host",
+      "summary": "利用亚莉亚对金次的恋爱情绪突破壳金限制并夺身。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hihii-gami.json"
+    },
+    {
+      "source": "hihii-gami",
+      "target": "kinji",
+      "type": "desired-war-partner/enemy",
+      "summary": "称赞金次促成觉醒并邀请他随自己引发战争，被金次以亚莉亚伙伴身份敌对。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hihii-gami.json"
+    },
+    {
+      "source": "hihii-gami",
+      "target": "monkey",
+      "type": "former-host",
+      "summary": "此前曾以猴/孙为宿主。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hihii-gami.json"
+    },
+    {
+      "source": "hilda",
+      "target": "riko",
+      "type": "former-captor/ally/protector",
+      "summary": "曾以耳环和童年创伤支配理子，后被理子救命并多次作为协力者保护理子。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hilda.json"
+    },
+    {
+      "source": "hilda",
+      "target": "kinji",
+      "type": "enemy-to-reluctant-ally",
+      "summary": "从天空树敌人转为金次阵营的临时/不情愿协力者，多次被其指挥或称赞后出手。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hilda.json"
+    },
+    {
+      "source": "hilda",
+      "target": "aria",
+      "type": "prey/enemy/former-enemy-ally",
+      "summary": "曾咬伤亚莉亚并夺走壳金，后来作为强力后盾保护亚莉亚替身计划。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hilda.json"
+    },
+    {
+      "source": "hilda",
+      "target": "l-watson",
+      "type": "enemy/provoker",
+      "summary": "曾被华生银武器逼退，后也被华生精准激将参与救援。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hilda.json"
+    },
+    {
+      "source": "hilda",
+      "target": "vlad",
+      "type": "father",
+      "summary": "以弗拉德仇敌为复仇目标。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hilda.json"
+    },
+    {
+      "source": "hilda",
+      "target": "meluette",
+      "type": "ally-after-prejudice",
+      "summary": "起初贬低其战斗能力，后在无人机射击后向她道谢。",
+      "confidence": "S",
+      "source_ref": "hidan-no-aria-main/vol-37/full.txt:4305",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hilda.json"
+    },
+    {
+      "source": "hilda",
+      "target": "shirayuki",
+      "type": "temporary-ally/rescue-target",
+      "summary": "香港与品川战中协力或救援白雪。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hilda.json"
+    },
+    {
+      "source": "hilda",
+      "target": "jeanne-darc",
+      "type": "rescue-target",
+      "summary": "品川战中被激将后协助救援贞德。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hilda.json"
+    },
+    {
+      "source": "hilda",
+      "target": "kage-glasse",
+      "type": "ally/enemy",
+      "summary": "曾同为眷属方魔物阵营，后在香港油轮线转为敌对。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hilda.json"
+    },
+    {
+      "source": "hilda",
+      "target": "petra",
+      "type": "enemy",
+      "summary": "香港油轮中与佩特拉敌对。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hilda.json"
+    },
+    {
+      "source": "hilda",
+      "target": "cao-cao-gunner",
+      "type": "combat-opponent",
+      "summary": "蓝帮城战中与炮娘/女仆队追击线敌对。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hilda.json"
+    },
+    {
+      "source": "himeyoshi",
+      "target": "china",
+      "type": "nursery-friend",
+      "summary": "称中国为朋友并邀请她一起吃饭。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/himeyoshi.json"
+    },
+    {
+      "source": "himeyoshi",
+      "target": "asama-sisters",
+      "type": "younger-sister/ward",
+      "summary": "由浅间三姐妹照顾的妹妹/被监护者。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/himeyoshi.json"
+    },
+    {
+      "source": "hino-laika",
+      "target": "kinji",
+      "type": "senpai/acquaintance",
+      "summary": "向金次询问父亲近况并提醒他给理子打电话。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hino-laika.json"
+    },
+    {
+      "source": "hino-laika",
+      "target": "hino-burt",
+      "type": "father",
+      "summary": "父亲是美国著名武侦，莱卡似乎很少与其见面。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hino-laika.json"
+    },
+    {
+      "source": "hino-laika",
+      "target": "riko",
+      "type": "schoolmate",
+      "summary": "台场偶遇中提示理子在自由女神像附近。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hino-laika.json"
+    },
+    {
+      "source": "hino-raika",
+      "target": "mamiya-akari",
+      "type": "friend",
+      "summary": "明里死党/团体核心成员，喜欢捉弄明里但关键时刻可靠。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hino-raika.json"
+    },
+    {
+      "source": "hino-raika",
+      "target": "sasaki-shino",
+      "type": "friend",
+      "summary": "明里三人组中的一员。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hino-raika.json"
+    },
+    {
+      "source": "hino-raika",
+      "target": "shima-kirin",
+      "type": "war-sister/hero-rescuer",
+      "summary": "被麒麟攻略后收其为战妹，后深爱战妹并在猫滨海滩因称赞害羞逃开。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hino-raika.json"
+    },
+    {
+      "source": "hino-raika",
+      "target": "fuma-hina",
+      "type": "combat-opponent",
+      "summary": "四对四战中与风魔阳菜激战。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hino-raika.json"
+    },
+    {
+      "source": "hiraga",
+      "target": "kinji",
+      "type": "acquaintance/customer/ally",
+      "summary": "为金次改造贝瑞塔、响应危机拆除爆泡，并制作大蛇等装备。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hiraga.json"
+    },
+    {
+      "source": "hiraga",
+      "target": "riko",
+      "type": "customer/ally",
+      "summary": "接收理子的无线情报以设计拆弹方案。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hiraga.json"
+    },
+    {
+      "source": "hiraga",
+      "target": "muto",
+      "type": "cooperator",
+      "summary": "新干线/装备科协作线中的合作对象。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hiraga.json"
+    },
+    {
+      "source": "hiraga",
+      "target": "mutou",
+      "type": "schoolmate",
+      "summary": "车辆科同学圈成员。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hiraga.json"
+    },
+    {
+      "source": "hiraga-aya",
+      "target": "kinji",
+      "type": "classmate/customer/friend/technical-support",
+      "summary": "向金次交付大蛇手套、纤维弹等试作品，并多次提供拆弹、改造和装备支援。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hiraga-aya.json"
+    },
+    {
+      "source": "hiraga-aya",
+      "target": "riko",
+      "type": "friend/equipment-support",
+      "summary": "作为朋友为理子准备饯别装备，并在多次行动中配合其情报。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hiraga-aya.json"
+    },
+    {
+      "source": "hiraga-aya",
+      "target": "aria",
+      "type": "client",
+      "summary": "为亚莉亚制造并交付YHS/02、滞空裙甲等装备。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hiraga-aya.json"
+    },
+    {
+      "source": "hiraga-aya",
+      "target": "reiji",
+      "type": "equipment-service-client",
+      "summary": "出售巴雷特M82并代理枪检。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hiraga-aya.json"
+    },
+    {
+      "source": "hiraga-aya",
+      "target": "reiki",
+      "type": "equipment-service-client",
+      "summary": "提供短管霰弹枪枪检相关服务。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hiraga-aya.json"
+    },
+    {
+      "source": "hiraga-aya",
+      "target": "shirayuki",
+      "type": "equipment-support",
+      "summary": "为M60枪检提供支持。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hiraga-aya.json"
+    },
+    {
+      "source": "hiraga-aya",
+      "target": "mutou-gouki",
+      "type": "transport-ga-teammate",
+      "summary": "运输GA队长与队友。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hiraga-aya.json"
+    },
+    {
+      "source": "hiraga-aya",
+      "target": "katori-kazumi",
+      "type": "transport-ga-teammate",
+      "summary": "运输GA队友。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hiraga-aya.json"
+    },
+    {
+      "source": "hiraga-aya",
+      "target": "anzai-masaru",
+      "type": "transport-ga-teammate",
+      "summary": "运输GA队友。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hiraga-aya.json"
+    },
+    {
+      "source": "hiraga-aya",
+      "target": "jeanne",
+      "type": "equipment-provider",
+      "summary": "通过理子为贞德准备猫耳型指向性集音器。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hiraga-aya.json"
+    },
+    {
+      "source": "hiraga-aya",
+      "target": "shiranui",
+      "type": "friend",
+      "summary": "装备科/同校友人关系。",
+      "confidence": "B",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hiraga-aya.json"
+    },
+    {
+      "source": "hiraga-bun",
+      "target": "kinji",
+      "type": "ally/technician",
+      "summary": "向金次说明YHS/03、奥尔库斯和加布林维修情况。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hiraga-bun.json"
+    },
+    {
+      "source": "hiraga-bun",
+      "target": "aria",
+      "type": "repair-client",
+      "summary": "按亚莉亚要求给滞空裙甲加入限制解除和高速形态。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hiraga-bun.json"
+    },
+    {
+      "source": "hiraga-bun",
+      "target": "giii",
+      "type": "equipment-repairer",
+      "summary": "负责GⅢ相关装备修理。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hiraga-bun.json"
+    },
+    {
+      "source": "hiraga-fumi",
+      "target": "kinji",
+      "type": "customer/modifier/equipment-provider/creditor",
+      "summary": "曾改造金次贝瑞塔，也因大蛇左手费用成为金次债权人。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hiraga-fumi.json"
+    },
+    {
+      "source": "hiraga-fumi",
+      "target": "mutou",
+      "type": "collaborator/kitchen-partner",
+      "summary": "与武藤一起测试东方号模型核潜艇，并在文化祭中共同负责料理。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hiraga-fumi.json"
+    },
+    {
+      "source": "hojoin-ryoji",
+      "target": "akutsu-tamaho",
+      "type": "investigation-target",
+      "summary": "阿久津受武侦厅委托卧底调查他。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hojoin-ryoji.json"
+    },
+    {
+      "source": "hojoin-ryoji",
+      "target": "nazcas-police",
+      "type": "co-conspirator",
+      "summary": "与原宿警察组织犯罪对策课日向合谋，通过操纵治安恶化推动警察武装化和武器购入。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hojoin-ryoji.json"
+    },
+    {
+      "source": "hojoin-ryoji",
+      "target": "nra",
+      "type": "funder",
+      "summary": "实际受美国NRA资金/利益操纵。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hojoin-ryoji.json"
+    },
+    {
+      "source": "hoshiga-hanayuki",
+      "target": "hoshiga-shirayuki",
+      "type": "younger-sister",
+      "summary": "白雪的妹妹，对姐姐腹黑面感到恐惧。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hoshiga-hanayuki.json"
+    },
+    {
+      "source": "hoshiga-hanayuki",
+      "target": "hoshiga-konayuki",
+      "type": "sister",
+      "summary": "与粉雪是姐妹。",
+      "confidence": "S",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hoshiga-hanayuki.json"
+    },
+    {
+      "source": "hoshiga-hanayuki",
+      "target": "sasaki-shino",
+      "type": "test-guide/evaluator",
+      "summary": "与粉雪一起在鸟居处对志乃进行入门测试。",
+      "confidence": "A",
+      "source_file": "campaigns/world-library/manual-curation/hidan-p1-output/merged/characters/hoshiga-hanayuki.json"
+    }
+  ],
+  "empty_or_unresolved_characters": [
+    {
+      "id": "hibiki",
+      "reason": "未在角色文件中检出 relationships 字段。"
+    },
+    {
+      "id": "hibiki-amezi",
+      "reason": "未在角色文件中检出 relationships 字段。"
+    }
+  ],
+  "relationship_count": 111,
+  "validation": {
+    "status": "pending",
+    "notes": "Batch generated from per-character relationship fields and nearby summaries; validate JSON syntax after write."
+  }
+}

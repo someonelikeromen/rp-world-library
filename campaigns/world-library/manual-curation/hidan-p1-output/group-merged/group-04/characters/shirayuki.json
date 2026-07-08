@@ -1,0 +1,267 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "shirayuki",
+  "volume": "vol-31",
+  "source_refs": [
+    "hidan-no-aria-main/vol-31/chapters/ch-003-第三十一卷_寂静之鬼_3弹_强行突破.txt:1"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-31",
+      "volume": "vol-31",
+      "time": "第三十一卷",
+      "name": {
+        "zh": "星伽白雪",
+        "ja": "星伽白雪"
+      },
+      "aliases": [
+        "白雪",
+        "星伽家的巫女",
+        "金次的从表妹"
+      ],
+      "gender": "female",
+      "species": "human / Hotogi miko with supernatural power",
+      "status": "alive; 与ZⅡ逃离Mayfair",
+      "affiliation": [
+        "星伽神社",
+        "巴斯克维尔小队"
+      ],
+      "occupation": "巫女/武侦/金次协力者",
+      "abilities_owned": [
+        "shirayuki-healing-magic",
+        "zii-dowsing"
+      ],
+      "possessions_owned": [
+        "hotogi-supernatural-handcuffs"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "relative/romantic obsession/ally",
+          "description": "远渡美国寻找金次，为其治疗重伤并交给对超能力者手铐。"
+        },
+        "zii": {
+          "type": "co-informant",
+          "description": "与ZⅡ共同以寻龙棒找到金次，并说明接轨情势。"
+        },
+        "fuma-hina": {
+          "type": "tolerant co-helper",
+          "description": "将风魔视为可容忍的小妾类存在，并在平贺家共同照顾AI。"
+        }
+      },
+      "key_events": [
+        {
+          "event_id": "zii-shirayuki-third-engage-briefing",
+          "summary": "补充星伽、玉藻、伏见与日本妖怪方对第三次接轨的态度。",
+          "sourceRef": "hidan-no-aria-main/vol-31/full.txt:1743"
+        },
+        {
+          "event_id": "washington-hiraga-hideout",
+          "summary": "用强力治疗术治愈金次全身重伤，并在FBI突破时协助。",
+          "sourceRef": "hidan-no-aria-main/vol-31/full.txt:2063"
+        }
+      ],
+      "summary": "白雪在本卷提供接轨侧的宗教/妖怪视角，并以治疗与手铐支援后续贝茨姊妹战。",
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-31/chapters/ch-003-第三十一卷_寂静之鬼_3弹_强行突破.txt:1",
+        "hidan-no-aria-main/vol-31/chapters/ch-003-第三十一卷_寂静之鬼_3弹_强行突破.txt:321"
+      ]
+    },
+    {
+      "period_id": "vol-33",
+      "volume": "vol-33",
+      "time": "第三十三卷 花冠的归国兵",
+      "name": {
+        "zh": "星伽白雪",
+        "jp": "星伽白雪"
+      },
+      "aliases": [
+        "白雪"
+      ],
+      "gender": "female",
+      "species": "human",
+      "status": "alive; 参与雪花杀刻治疗与门砦思想说明",
+      "affiliation": [
+        "星伽神社",
+        "巴斯克维尔小队"
+      ],
+      "occupation": "巫女/武侦",
+      "abilities_owned": [
+        "hotogi-hihihoshigakami"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "kinji": {
+          "type": "childhood friend",
+          "description": "向金次解释存在劣化症候群、杀刻、泛种之门与砦派分歧。"
+        },
+        "tooyama-yukika": {
+          "type": "healer/support",
+          "description": "雪花高热时与玉藻、伏见同来远山家进行超自然治疗。"
+        },
+        "tamamo": {
+          "type": "shrine ally",
+          "description": "共同处理雪花从列库忒亚返回后的杀刻问题。"
+        },
+        "fushimi": {
+          "type": "shrine ally",
+          "description": "共同进行祈祷驱邪。"
+        }
+      },
+      "key_events": [
+        "yukika-lethal-hour-exorcism"
+      ],
+      "summary": "白雪负责把杀刻和泛种之门/砦派背景解释给金次，是本卷超自然规则的重要说明者。",
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-33/chapters/ch-001-第三十三卷_花冠的归国兵_1弹_海楼的密使.txt:1"
+      ]
+    },
+    {
+      "period_id": "vol-38",
+      "volume": "vol-38",
+      "time": "金次回国后第一天",
+      "label": "暖桌服装制作与晚餐",
+      "name": {
+        "zh": "白雪",
+        "en": "Shirayuki",
+        "jp": "白雪"
+      },
+      "aliases": [
+        "星伽白雪"
+      ],
+      "titles": [
+        "武装巫女"
+      ],
+      "gender": "女",
+      "species": "人类",
+      "nationality": "日本",
+      "occupation": "武侦",
+      "affiliation": "东京武侦高中/星伽神社/巴斯克维尔",
+      "status": {
+        "physical": "健康",
+        "mental": "将金次当丈夫看待",
+        "location": "金次公寓"
+      },
+      "appearance": {
+        "overview": "穿着修女服（变装餐厅用），身材丰满性感。",
+        "physical": {
+          "hair": {},
+          "build": "丰满"
+        },
+        "attire": {
+          "default": "修女服"
+        },
+        "voice_quality": {},
+        "distinctive": [
+          "沉重的爱",
+          "监视行为"
+        ]
+      },
+      "personality": {
+        "summary": "在金次公寓安装了窃听器。参与变装餐厅服装制作（穿修女服）。在金次厨房煮火锅，唱“既成事实卡”的歌词。",
+        "core_traits": [
+          "执着",
+          "奉献",
+          "独占欲强"
+        ],
+        "values": [
+          "金次",
+          "做饭"
+        ],
+        "fears": [
+          "失去金次"
+        ],
+        "desires": [
+          "与金次结婚"
+        ],
+        "strengths": [
+          "巫女能力",
+          "料理"
+        ],
+        "flaws": [
+          "过度监视",
+          "沉重发言"
+        ],
+        "inner_conflict": "",
+        "decision_pattern": {
+          "approach": "通过做饭和照顾来展现价值"
+        }
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {
+          "kinji": "小金/亲爱的"
+        },
+        "register": {
+          "style": "沉重甜蜜",
+          "singing": "既成事实卡的歌词"
+        },
+        "catchphrases": [],
+        "quote_samples": [
+          {
+            "quote": "今晚煮火锅喔。照顾小金大人就是我的生存意义。",
+            "sourceRef": "hidan-no-aria-main/vol-38/full.txt:882"
+          },
+          {
+            "quote": "你从以前就很清楚我喜欢的调味呢。明明我没有对你说过。",
+            "sourceRef": "hidan-no-aria-main/vol-38/full.txt:953"
+          }
+        ]
+      },
+      "habits": {
+        "mannerisms": [
+          "在金次房间设窃听器",
+          "唱歌包含沉重夫妻宣言"
+        ],
+        "daily_routine": "给金次打电话五十次",
+        "quirks": [
+          "窃听金次",
+          "极端关心"
+        ],
+        "preferences": {
+          "food": "石狩锅"
+        }
+      },
+      "background": {
+        "birth": {
+          "place": "星伽",
+          "family": []
+        },
+        "upbringing": "星伽巫女家族",
+        "education": {
+          "school": "东京武侦高中"
+        },
+        "formative_events": [],
+        "pre_story": ""
+      },
+      "abilities_owned": [],
+      "possessions_owned": [],
+      "relationships": {
+        "kinji": {
+          "type": "爱慕对象/未婚夫自称",
+          "status": "以妻子自称，在金次公寓装窃听器"
+        }
+      },
+      "knowledge": [],
+      "secrets": [
+        "在金次公寓装了窃听器",
+        "发行既成事实卡"
+      ],
+      "summary": "在金次公寓参与变装服装制作（穿修女服），煮火锅并为金次盛饭。在金次房间多处装窃听器。",
+      "key_events": [
+        {
+          "event_id": "apartment-cosplay-interruption",
+          "summary": "在金次公寓参与变装服装制作并煮火锅。",
+          "sourceRef": "hidan-no-aria-main/vol-38/full.txt:882"
+        }
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "hidan-no-aria-main/vol-38/chapters/ch-002-第三十八卷_不会忘记爱_2弹_鬼门铃.txt:84",
+        "hidan-no-aria-main/vol-38/chapters/ch-002-第三十八卷_不会忘记爱_2弹_鬼门铃.txt:155"
+      ]
+    }
+  ]
+}

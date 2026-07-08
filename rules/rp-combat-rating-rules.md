@@ -34,3 +34,20 @@
 
 - 常态评级只采用同水平战斗中 2 次正常出手速度之内的表现。
 - 超过窗口的蓄力、仪式、布阵、提前准备只计入条件评级或场地优势。
+
+## 多世界战斗框架模块化加载规则
+
+- “多世界战斗框架”指 `.pi/skills/rp-combat/framework/README.md` 索引下的无损模块集合，以及需要时的完整母版 `docs/world-combat-framework.md`。
+- 处理跨世界战斗、战力评级、能力适配、词条/抗性碰撞、资源消耗、战斗结算、战斗日志时，可按需自由加载这些模块，不需要逐项确认。
+- 优先读取索引，再读取目标模块；不要默认一次性加载完整母版。
+- 模块正文不得摘要、精简、改写原意；如需修改正文，必须同步维护母版与对应模块。
+- 可按任务自由组合加载 `rp-combat`、`rp-dice`、`rp-world-search`、`rp-engine`、`rp-graph`、`rp-psyche` 与角色卡状态工具说明。
+
+
+## 角色卡模块落盘规则
+
+- 多世界战斗相关状态必须写入目录型统一角色卡对应模块。
+- 属性与评级写入 `attributes`、`combatRating`、`speedProfile`、`lifeProfile`。
+- 能力、词条、抗性、资源、状态、跨世界适配分别写入 `abilities`、`resistances`、`resources`、`states`、`worldAdaptation`。
+- 战斗过程与结果写入 `combatLog`，关系变化写入 `relationships`，物品变化写入 `inventory`，新知识写入 `knowledge`。
+- 修改时使用 `card_edit` 的 `module + path` 精确定位字段或列表项，不手写整卡覆盖。

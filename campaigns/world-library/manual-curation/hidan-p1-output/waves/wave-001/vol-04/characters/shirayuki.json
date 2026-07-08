@@ -1,0 +1,69 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "character",
+  "entityId": "shirayuki",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-04",
+  "periods": [
+    {
+      "periodId": "vol-04",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-04/full.txt:2866",
+        "hidan-no-aria-main/vol-04/full.txt:3209",
+        "hidan-no-aria-main/vol-04/full.txt:5481",
+        "hidan-no-aria-main/vol-04/full.txt:6121",
+        "hidan-no-aria-main/vol-04/full.txt:7017"
+      ],
+      "snapshot": {
+        "name": "星伽白雪",
+        "aliases": [
+          "白雪",
+          "小金的青梅竹马",
+          "星伽巫女",
+          "绯巫女"
+        ],
+        "gender": "女",
+        "status": "存活；在佩特拉战中力竭但成功牵制与救援",
+        "role": "金次的青梅竹马；SSR科/星伽神社武装巫女；救援队核心战力",
+        "affiliations": [
+          "东京武侦高中",
+          "星伽神社",
+          "SSR"
+        ],
+        "abilities": [
+          "鬼道术",
+          "火焰术",
+          "星伽候天流",
+          "式神替身",
+          "占卜与灵感知"
+        ],
+        "equipment": [
+          "绯金菖蒲",
+          "杜兰朵短剑",
+          "符咒",
+          "封布",
+          "M60机关枪"
+        ],
+        "relationships": [
+          {
+            "target": "kinji",
+            "type": "青梅竹马/执着爱慕",
+            "detail": "因占卜『兔子难』回到东京，保护金次并主动参与救援。"
+          },
+          {
+            "target": "aria",
+            "type": "情敌/同伴",
+            "detail": "虽与亚莉亚争风吃醋，但承认要保护对金次重要的亚莉亚。"
+          },
+          {
+            "target": "petra",
+            "type": "术者敌对",
+            "detail": "佩特拉以圣甲虫侵入星伽并偷走绯金菖蒲，白雪与其在金字塔中交战。"
+          }
+        ],
+        "summary": "白雪本卷由星伽回归，发现佩特拉圣甲虫与虫术，加入赌场任务并在最终战中以火焰、风扇、式神和双刀术牵制佩特拉，为金次接近亚莉亚争取时间。"
+      }
+    }
+  ],
+  "_schema": "rp-character-volume-v1"
+}

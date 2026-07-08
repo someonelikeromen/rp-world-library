@@ -1,0 +1,49 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "campione",
+  "character_id": "naples-dragon",
+  "volume": "vol-04",
+  "periods": [
+    {
+      "period_id": "vol-04-main",
+      "name": {
+        "zh": "拿坡里绿龙",
+        "en": "Naples Emerald Dragon",
+        "jp": "ナポリの竜"
+      },
+      "aliases": [
+        "赫拉石柱之龙",
+        "绿宝石色神兽"
+      ],
+      "role": "神兽；赫拉石柱咒力具现",
+      "status": {
+        "physical": "由赫拉石柱释放的地水精气形成，后被珀耳修斯重创并由雅典娜吸收",
+        "mental": "守护魔女与石柱一方，没有明确语言沟通",
+        "social": "被视作地母神与魔女阵营眷属"
+      },
+      "summary": "多尼斩断赫拉石柱后，积蓄的地与水咒力化成绿宝石色巨龙。它引发海啸卷走多尼，并救起琍琍亚娜，但随后被显现的珀耳修斯迅速斩伤。雅典娜将濒死的龙作为蛇与地母神眷属收回怀抱。",
+      "abilities_owned": [],
+      "relationships": {
+        "liliana": "将其从海啸中救起的对象",
+        "athena": "地母神眷属，被她回收",
+        "perseus-mithras": "作为杀蛇英雄的猎物遭其重创",
+        "doni": "因其斩断石柱而诞生并以海啸卷走他"
+      },
+      "key_events": [
+        {
+          "event_id": "doni-cuts-hera-pillar",
+          "summary": "由赫拉石柱释放咒力诞生"
+        },
+        {
+          "event_id": "naples-dragon-perseus",
+          "summary": "救起琍琍亚娜后被珀耳修斯重创"
+        }
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "campione-main/vol-04/chapters/ch-003-第二章 魔女们和剑之王.txt",
+        "campione-main/vol-04/chapters/ch-004-第三章 英雄到来.txt"
+      ]
+    }
+  ]
+}

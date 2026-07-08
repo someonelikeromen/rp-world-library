@@ -1,0 +1,49 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "item",
+  "entityId": "reki-dragunov",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-09",
+  "periods": [
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:7043",
+        "hidan-no-aria-main/vol-09/full.txt:7050"
+      ],
+      "snapshot": {
+        "name": "蕾姬的德拉古诺夫狙击枪",
+        "aliases": [
+          "德拉古诺夫",
+          "Dragunov",
+          "蕾姬狙击枪"
+        ],
+        "type": "sniper rifle",
+        "description": "蕾姬的主武器。本卷主要在卷末作为巴斯克维尔遇袭证据出现：德拉古诺夫与亚莉亚双枪、白雪色金杀女、理子德林吉一起被随意堆放并拍照发给金次。",
+        "details": {
+          "owner": "reki",
+          "role": "狙击手核心武装",
+          "vol09_scene": "卷末照片中被敌方夺取展示"
+        },
+        "owner": "reki",
+        "status": "卷末被敌方暂时夺取展示",
+        "features": [
+          "远距离精密狙击",
+          "蕾姬身份象征",
+          "G血族袭击的证据物"
+        ],
+        "associated_characters": [
+          "reki",
+          "g-third",
+          "g-fourth"
+        ],
+        "history": [
+          "卷末蕾姬手机照片显示该枪被夺走并与其他成员武器堆放",
+          "随后视讯显示巴斯克维尔四人倒在舞台上"
+        ],
+        "evidence_level": "A"
+      }
+    }
+  ],
+  "_schema": "rp-item-volume-v1"
+}

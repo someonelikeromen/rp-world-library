@@ -1,0 +1,1147 @@
+{
+  "schema": "event-causality-batch-v1",
+  "batch": 5,
+  "range": {
+    "start": 481,
+    "end": 605,
+    "indexing": "1-based",
+    "source": "campaigns/world-library/manual-curation/hidan-p1-output/merged/graph/event-causality.json"
+  },
+  "event_ids": [
+    "school-gate-incident",
+    "sea-firefly-yukika-return",
+    "second-iu-reunion",
+    "security-police-attack",
+    "sekka-birthday-promise",
+    "sekka-us-navy-reconciliation",
+    "sevenfold-star-capture",
+    "shachi-aria-duel",
+    "sherlock-awakening-news",
+    "sherlock-emergency-transport",
+    "shibuya-modernity-tour",
+    "shidou-mika-pickup",
+    "shikigane-tome-depleted",
+    "shinkansen-rooftop-battle",
+    "shino-duel",
+    "shino-shirayuki-contract",
+    "shirakawa-attacks-aria",
+    "shiranui-undercover-meeting",
+    "shirayuki-armed-miko-cliffhanger",
+    "shirayuki-hihi-killing-attempt",
+    "shirayuki-hihiirokane-lead",
+    "shirayuki-morning-visit",
+    "shoplifting-rescue",
+    "silo-bottom-bates-fight",
+    "silo-escape-jeep-destruction",
+    "sima-hari-vacuum-bomb",
+    "sky-tree-hilda-showdown",
+    "skytree-duel",
+    "snowfield-trek",
+    "soumiya-fall-rescue",
+    "soundproof-room-escape",
+    "sports-warehouse-g3-intel",
+    "spring-mist-boarding-battle",
+    "street-scouting-training",
+    "study-strategy-for-armed-prosecutor",
+    "suez-livia-battle",
+    "suez-submarine-warning",
+    "sugamo-family-visit",
+    "summer-festival-sakura-bonds",
+    "sun-boat-showdown",
+    "sun-rooftop-duel",
+    "suzaka-roleplay-revelation",
+    "t-lady-meeting",
+    "tai-sotsu-revelation",
+    "taipei-arrival-and-climb-prep",
+    "taipei-police-custody-and-quake",
+    "taipei101-chyna-return",
+    "taipei101-climb-and-zhao-yun-battle",
+    "taj-hotel-night",
+    "takachiho-home-intrusion",
+    "takachiho-rose-invitation",
+    "tamamo-bath-revelation",
+    "tamamo-deadline-warning",
+    "tamamo-europe-strategy",
+    "tamamo-extreme-east-war-briefing",
+    "tammy-shooting",
+    "tanabata-festival-date",
+    "teatro-aqua-rescue",
+    "temporary-sisters-showdown",
+    "tenzan-sortie",
+    "terrapin-point-kinza-cliffhanger",
+    "testaccio-market-intel",
+    "thames-chase",
+    "third-contact-reset-by-lucifelia-capture",
+    "thunder-sect-declaration",
+    "todai-entrance-sbz-ambush",
+    "todai-front-exam-komaba",
+    "todai-front-result-maki-pass",
+    "todai-supplemental-admission",
+    "todai-supplemental-exam-and-result",
+    "tokito-memory-call",
+    "tokitou-reads-rasputina-memory",
+    "tooyama-butei-office-founding",
+    "tooyama-family-dinner",
+    "tooyama-family-return",
+    "tooyama-house-council",
+    "tooyama-new-year",
+    "tooyama-new-year-prayers",
+    "train-bomb-disposal",
+    "train-decoupling",
+    "tram-duel-with-sun",
+    "transam-loo-battle",
+    "transam-predator-battle",
+    "transport-ga-restaurant-meeting",
+    "triple-hihi-possession",
+    "tsubo-identified",
+    "tsubo-love-letter",
+    "umineko-sama-case",
+    "underground-warehouse-battle",
+    "urus-riri-revelation",
+    "v2-chemical-strike-plan",
+    "v2-execution-and-revival",
+    "v2-stratosphere-fight",
+    "vatican-double-betrayal-revelation",
+    "vatican-interrogation",
+    "vehicle-garage-equipment-repair",
+    "washington-fbi-breakout",
+    "washington-hiraga-hideout",
+    "water-cavalry-battle",
+    "water-moon-marriage-battle",
+    "watson-abducts-aria",
+    "watson-aria-restaurant-surveillance",
+    "watson-arrival-icbm",
+    "watson-oni-warning",
+    "watson-rehab-incident",
+    "watson-reveal",
+    "watson-reveals-female-and-alliance",
+    "watson-secret-rehabilitation-training",
+    "watson-spy-warning",
+    "witch-corps-arsenal",
+    "yamane-reporter-reveal",
+    "yamata-no-orochi-completed",
+    "yan-sacrifice-fugaku",
+    "yojin-brussels-ambush",
+    "yukihana-adopts-tooyama-children",
+    "yukika-arrival",
+    "yukika-lethal-hour-exorcism",
+    "yuzawa-ski-chase-cliffhanger",
+    "yuzawa-witch-regiment-premeeting",
+    "z8-chase-cliffhanger",
+    "zandra-investigation",
+    "zeppelin-duel-mont-blanc",
+    "zero-arrest-and-interview",
+    "zero-party-n-warning",
+    "zii-shirayuki-third-engage-briefing"
+  ],
+  "causal_edges": [
+    {
+      "source": "escort-vehicle-attack",
+      "target": "school-gate-incident",
+      "relation": "triggers",
+      "evidence": "车辆科护送的中国窃盗集团暴动，直接引出校门镇压。",
+      "confidence": "high"
+    },
+    {
+      "source": "school-gate-incident",
+      "target": "badge-challenge",
+      "relation": "motivates",
+      "evidence": "明里首次目睹亚莉亚实战能力后，对其憧憬加深并走向战姊妹挑战。",
+      "confidence": "medium"
+    },
+    {
+      "source": "endimira-departure",
+      "target": "yukika-arrival",
+      "relation": "causes",
+      "evidence": "恩蒂米菈离开后，跨界往返平衡使旧日本海军中校远山雪花出现。",
+      "confidence": "high"
+    },
+    {
+      "source": "yukika-arrival",
+      "target": "sea-firefly-yukika-return",
+      "relation": "continues_as",
+      "evidence": "卷末雪花现身的悬念在海萤火虫地下设施归来事件中展开。",
+      "confidence": "high"
+    },
+    {
+      "source": "sea-firefly-yukika-return",
+      "target": "kasumigaseki-escape-and-crash",
+      "relation": "leads_to",
+      "evidence": "金次与不知火试图带雪花去霞关接受历史说明，随后发生霞关逃走与事故。",
+      "confidence": "high"
+    },
+    {
+      "source": "sea-firefly-yukika-return",
+      "target": "yukika-lethal-hour-exorcism",
+      "relation": "enables",
+      "evidence": "雪花作为跨世界归还者进入现代世界，之后因存在劣化/杀刻高热倒下。",
+      "confidence": "high"
+    },
+    {
+      "source": "taj-hotel-night",
+      "target": "second-iu-reunion",
+      "relation": "sets_up",
+      "evidence": "泰姬玛哈酒店夜晚汇合主要角色，为夏洛克召集第二届伊·U同学会做准备。",
+      "confidence": "high"
+    },
+    {
+      "source": "second-iu-reunion",
+      "target": "zandra-investigation",
+      "relation": "enables",
+      "evidence": "Reunion成立并任命金次小队后，小队进入赞达剌调查恰特与卡邦克鲁情报。",
+      "confidence": "high"
+    },
+    {
+      "source": "zandra-investigation",
+      "target": "security-police-attack",
+      "relation": "leads_to",
+      "evidence": "调查得知卡邦克鲁与被带走少女线索后，小队抵达神域并遭治安警察/陆军误攻。",
+      "confidence": "medium"
+    },
+    {
+      "source": "security-police-attack",
+      "target": "missile-to-magic-circle",
+      "relation": "causes",
+      "evidence": "腐败警军误攻升级至Refleks导弹，金次将导弹导入魔法阵。",
+      "confidence": "high"
+    },
+    {
+      "source": "security-police-attack",
+      "target": "watson-reveal",
+      "relation": "precedes_resolution",
+      "evidence": "卡邦克鲁危机解决后返回赞达剌，Titaro-Dado返老还童并揭示WATSON真相。",
+      "confidence": "medium"
+    },
+    {
+      "source": "sekka-us-navy-reconciliation",
+      "target": "sekka-birthday-promise",
+      "relation": "reinforces",
+      "evidence": "雪花先在航母上重新认识昔日敌国军人，随后金次进一步以生日愿望把她从战死逻辑拉回现代生活。",
+      "confidence": "medium"
+    },
+    {
+      "source": "sekka-birthday-promise",
+      "target": "habakkuk-plant-battle",
+      "relation": "motivates",
+      "evidence": "生还约定削弱雪花赴死倾向，支撑她参与哈巴谷作战时选择活着回来。",
+      "confidence": "medium"
+    },
+    {
+      "source": "sekka-us-navy-reconciliation",
+      "target": "habakkuk-plant-battle",
+      "relation": "enables",
+      "evidence": "雪花与美军和解使旧军人与现代美军的共同作战心理障碍降低。",
+      "confidence": "medium"
+    },
+    {
+      "source": "sevenfold-star-capture",
+      "target": "land-cruiser-chase",
+      "relation": "triggers",
+      "evidence": "丁劫持路西菲莉亚逃离织鹤院，追击战转入路面与东京交通线。",
+      "confidence": "high"
+    },
+    {
+      "source": "sevenfold-star-capture",
+      "target": "water-moon-marriage-battle",
+      "relation": "sets_up",
+      "evidence": "七折凶星把路西菲莉亚缩入球体，丁随后以此试图在月柱下完成水月婚。",
+      "confidence": "high"
+    },
+    {
+      "source": "shachi-aria-duel",
+      "target": "akari-upgrade-exam",
+      "relation": "sets_up",
+      "evidence": "鯱败北后亚莉亚考虑让明里接受C级连务试炼。",
+      "confidence": "medium"
+    },
+    {
+      "source": "sherlock-emergency-transport",
+      "target": "sherlock-awakening-news",
+      "relation": "resolved_by",
+      "evidence": "夏洛克在罗马被尼莫重创并送入梵蒂冈医疗设施昏迷，后由梅雅通知其苏醒但失踪。",
+      "confidence": "high"
+    },
+    {
+      "source": "sherlock-awakening-news",
+      "target": "habakkuk-destruction",
+      "relation": "foreshadows",
+      "evidence": "金次预感夏洛克可能再现身；雪花战役终段夏洛克驾驶伊·U介入。",
+      "confidence": "medium"
+    },
+    {
+      "source": "shibuya-modernity-tour",
+      "target": "operation-yu-one-youtube-launch",
+      "relation": "motivates",
+      "evidence": "雪花对现代日本的失望直接推动她利用YouTube发表政治宣传并发动游一号作战。",
+      "confidence": "high"
+    },
+    {
+      "source": "zero-party-n-warning",
+      "target": "shidou-mika-pickup",
+      "relation": "aftermath",
+      "evidence": "前零课宴会尾声狮堂醉倒，其女儿美香来妖刕家接回父亲。",
+      "confidence": "high"
+    },
+    {
+      "source": "shikigane-tome-depleted",
+      "target": "nogi-shrine-hihi-battle",
+      "relation": "raises_stakes",
+      "evidence": "色金止女被绯绯神耗尽，金次失去旧式色金干扰器后只能另寻讨伐/救援方案。",
+      "confidence": "medium"
+    },
+    {
+      "source": "shinkansen-rooftop-battle",
+      "target": "train-decoupling",
+      "relation": "enables",
+      "evidence": "车顶战中确认爆泡在动力车，金次说服白雪切离乘客车厢。",
+      "confidence": "high"
+    },
+    {
+      "source": "train-decoupling",
+      "target": "train-bomb-disposal",
+      "relation": "enables",
+      "evidence": "乘客车厢与爆泡动力车分离后，平贺得以专注拆除十六号动力车炸弹。",
+      "confidence": "high"
+    },
+    {
+      "source": "shinkansen-rooftop-battle",
+      "target": "train-bomb-disposal",
+      "relation": "sets_up",
+      "evidence": "车顶战压制曹操姐妹后，危机焦点转向动力车内爆泡拆除。",
+      "confidence": "high"
+    },
+    {
+      "source": "shinkansen-rooftop-battle",
+      "target": "reki-last-bullet-liberation",
+      "relation": "relationship_shift",
+      "evidence": "亚莉亚与蕾姬在车顶战由敌对转向战斗信赖，为蕾姬最后子弹解放铺垫。",
+      "confidence": "medium"
+    },
+    {
+      "source": "shino-duel",
+      "target": "shino-shirayuki-contract",
+      "relation": "leads_to",
+      "evidence": "志乃挑战明里失败后称自己也要寻找战姊，继而接受白雪测验。",
+      "confidence": "high"
+    },
+    {
+      "source": "shirayuki-armed-miko-cliffhanger",
+      "target": "shirakawa-attacks-aria",
+      "relation": "continues_as",
+      "evidence": "第一卷结尾白雪武装闯入，第二卷开端即演变为白雪袭击亚莉亚。",
+      "confidence": "high"
+    },
+    {
+      "source": "shirakawa-attacks-aria",
+      "target": "bodyguard-contract",
+      "relation": "leads_to",
+      "evidence": "白雪与亚莉亚冲突后，三人同居与白雪护卫线正式展开。",
+      "confidence": "medium"
+    },
+    {
+      "source": "shiranui-undercover-meeting",
+      "target": "aria-kinji-temporary-separation",
+      "relation": "maintains_connection",
+      "evidence": "不知火提醒金次联系亚莉亚，缓和离校后的搭档联系。",
+      "confidence": "low"
+    },
+    {
+      "source": "shirayuki-hihi-killing-attempt",
+      "target": "kinji-hihi-love-rescue",
+      "relation": "forces_alternative",
+      "evidence": "白雪传统讨伐方案因动摇而失败，迫使金次选择以恋爱侧突破救亚莉亚。",
+      "confidence": "high"
+    },
+    {
+      "source": "shirayuki-hihiirokane-lead",
+      "target": "reki-riri-lake-sketch",
+      "relation": "sets_next_search",
+      "evidence": "梅露爱特指向星伽白雪，推动金次和亚莉亚回日本调查绯绯色金与星伽线索。",
+      "confidence": "medium"
+    },
+    {
+      "source": "shirayuki-morning-visit",
+      "target": "bike-hijack-first-meet",
+      "relation": "enables",
+      "evidence": "白雪清晨造访耽误金次公车，迫使他骑脚踏车上学并遇到脚踏车劫持事件。",
+      "confidence": "high"
+    },
+    {
+      "source": "shoplifting-rescue",
+      "target": "hoo-cqc-lesson",
+      "relation": "changes_attitude",
+      "evidence": "金次为问题学生承担责任后，学生开始改变对他的看法，为后续CQC课程与信任积累做铺垫。",
+      "confidence": "medium"
+    },
+    {
+      "source": "silo-bottom-bates-fight",
+      "target": "silo-escape-jeep-destruction",
+      "relation": "causes",
+      "evidence": "金次在发射井底被贝茨姊妹重创，必须由GⅢ救出并逃离。",
+      "confidence": "high"
+    },
+    {
+      "source": "silo-escape-jeep-destruction",
+      "target": "washington-hiraga-hideout",
+      "relation": "leads_to",
+      "evidence": "小队带重伤横越美国前往华盛顿DC，需要平贺家藏身处修复武装。",
+      "confidence": "high"
+    },
+    {
+      "source": "sima-hari-vacuum-bomb",
+      "target": "watson-spy-warning",
+      "relation": "reveals_risk",
+      "evidence": "油轮攻击准备速度异常，使华生警告师团内部存在情报泄漏/内奸风险。",
+      "confidence": "high"
+    },
+    {
+      "source": "sky-tree-hilda-showdown",
+      "target": "tamamo-extreme-east-war-briefing",
+      "relation": "causes",
+      "evidence": "希尔达败北后自由石匠加入师团并交出壳金，玉藻据此说明极东战役与亚莉亚壳金危机。",
+      "confidence": "high"
+    },
+    {
+      "source": "sky-tree-hilda-showdown",
+      "target": "riko-icu-recovery-and-hilda-transfusion",
+      "relation": "aftermath",
+      "evidence": "天空树战后理子中毒濒死，后续进入ICU与希尔达输血线。",
+      "confidence": "medium"
+    },
+    {
+      "source": "watson-abducts-aria",
+      "target": "skytree-duel",
+      "relation": "triggers",
+      "evidence": "华生药倒并带走亚莉亚，金次追至东京天空树与华生决斗。",
+      "confidence": "high"
+    },
+    {
+      "source": "skytree-duel",
+      "target": "watson-reveals-female-and-alliance",
+      "relation": "reveals",
+      "evidence": "华生败给金次后，女性身份、婚约目的和自由石匠阵营选择被揭开。",
+      "confidence": "high"
+    },
+    {
+      "source": "snowfield-trek",
+      "target": "hihi-contract-formation",
+      "relation": "sets_up",
+      "evidence": "雪原强行军把金次送至星伽终局，使其得以追上并救回被绯绯神操控的亚莉亚。",
+      "confidence": "medium"
+    },
+    {
+      "source": "soumiya-fall-rescue",
+      "target": "akari-friendship-duel-rescue",
+      "relation": "causes_resolution",
+      "evidence": "宗宫坠楼迫使志乃与高千穗合作救援，成为二人和解的直接契机。",
+      "confidence": "high"
+    },
+    {
+      "source": "soundproof-room-escape",
+      "target": "nautilus-shipboard-life",
+      "relation": "characterizes",
+      "evidence": "金次不报复试图监禁他的船员，推进诺契勒斯共同生活中的相互理解主题。",
+      "confidence": "medium"
+    },
+    {
+      "source": "sports-warehouse-g3-intel",
+      "target": "kinji-g3-galleon-duel",
+      "relation": "foreshadows",
+      "evidence": "金女揭示GⅢ愿望、莎拉意义与色金目标，为之后金次与GⅢ正面对决提供动机背景。",
+      "confidence": "high"
+    },
+    {
+      "source": "spring-mist-boarding-battle",
+      "target": "ndd-chase-deflection",
+      "relation": "triggers",
+      "evidence": "金次等未能阻止NDD从春雾发射，只能转入追逐并偏转已发射NDD。",
+      "confidence": "high"
+    },
+    {
+      "source": "street-scouting-training",
+      "target": "satsuki-redemption",
+      "relation": "leads_to",
+      "evidence": "金次在街头拉客训练后接到皋月指名，进入皋月相关事件。",
+      "confidence": "medium"
+    },
+    {
+      "source": "study-strategy-for-armed-prosecutor",
+      "target": "tai-sotsu-revelation",
+      "relation": "parallel_pressure",
+      "evidence": "金次一方面规划升学与武检路线，另一方面对卒症状确认使追查金叉变成生死问题。",
+      "confidence": "medium"
+    },
+    {
+      "source": "suez-submarine-warning",
+      "target": "suez-livia-battle",
+      "relation": "tactical_component",
+      "evidence": "金次与亚莉亚在与利维娅战斗中发出烟幕和电话预警，破坏N在苏伊士的潜艇埋伏。",
+      "confidence": "high"
+    },
+    {
+      "source": "suez-livia-battle",
+      "target": "tokitou-reads-rasputina-memory",
+      "relation": "leads_to",
+      "evidence": "利维娅以时间折叠诅咒使拉斯普奇娜幼化为千奈，金次之后请时任读取其记忆寻找监护人。",
+      "confidence": "high"
+    },
+    {
+      "source": "sugamo-family-visit",
+      "target": "nogi-shrine-hihi-battle",
+      "relation": "emotional_setup",
+      "evidence": "讨鬼前带亚莉亚正式拜访远山家，使金次和亚莉亚关系升温并进入乃木坂/讨鬼行动。",
+      "confidence": "medium"
+    },
+    {
+      "source": "summer-festival-sakura-bonds",
+      "target": "umineko-sama-case",
+      "relation": "enables",
+      "evidence": "樱逐渐融入明里团体并继续帮助明里提升等级，推动后续C级连务海猫大人事件。",
+      "confidence": "medium"
+    },
+    {
+      "source": "tanabata-festival-date",
+      "target": "sun-boat-showdown",
+      "relation": "strengthens_motive",
+      "evidence": "七夕祭典和解巩固金次继续陪亚莉亚解决伊·U的承诺，支撑随后对佩特拉与金一的救援选择。",
+      "confidence": "medium"
+    },
+    {
+      "source": "sun-boat-showdown",
+      "target": "pyramid-rescue",
+      "relation": "foreshadows",
+      "evidence": "金一在太阳船沉海后并未终结，后续在金字塔作战中再度出现协助金次。",
+      "confidence": "medium"
+    },
+    {
+      "source": "sun-rooftop-duel",
+      "target": "sima-hari-vacuum-bomb",
+      "relation": "next_threat",
+      "evidence": "蓝帮屋顶决斗后蓝帮转向师团，随即卡羯油轮危机出现。",
+      "confidence": "high"
+    },
+    {
+      "source": "suzaka-roleplay-revelation",
+      "target": "tammy-shooting",
+      "relation": "enables_mitigation",
+      "evidence": "须坂介绍防弹装备渠道，后续响在塔米枪击中因防弹衬衫避免贯穿。",
+      "confidence": "high"
+    },
+    {
+      "source": "t-lady-meeting",
+      "target": "terrapin-point-kinza-cliffhanger",
+      "relation": "directs_to",
+      "evidence": "T夫人告知金叉将在尼加拉瀑布Terrapin Point工作，使小队前往当地并发现父亲。",
+      "confidence": "high"
+    },
+    {
+      "source": "tai-sotsu-revelation",
+      "target": "niagara-kincha-confrontation",
+      "relation": "raises_stakes",
+      "evidence": "对卒症状说明HSS会危及金次生命，寻找金叉是否克服病症成为尼加拉父子线核心动机。",
+      "confidence": "medium"
+    },
+    {
+      "source": "todai-front-result-maki-pass",
+      "target": "taipei-arrival-and-climb-prep",
+      "relation": "leads_to",
+      "evidence": "金次前期落榜后接受台北任务换脑，抵达台北并准备攀爬台北101。",
+      "confidence": "high"
+    },
+    {
+      "source": "taipei-arrival-and-climb-prep",
+      "target": "taipei101-climb-and-zhao-yun-battle",
+      "relation": "sets_up",
+      "evidence": "入楼证件与空投失败后，金次以真空壁虎爪和迷彩攀爬外墙并遭遇赵云炸弹。",
+      "confidence": "high"
+    },
+    {
+      "source": "taipei101-climb-and-zhao-yun-battle",
+      "target": "taipei101-chyna-return",
+      "relation": "enables",
+      "evidence": "金次阻止赵云爆破并继续攀向顶端，赶上接回千奈的短暂窗口。",
+      "confidence": "high"
+    },
+    {
+      "source": "taipei101-chyna-return",
+      "target": "taipei-police-custody-and-quake",
+      "relation": "causes",
+      "evidence": "金次带千奈从台北101下降后被台湾警方包围并轻管束，次日获知东日本大地震。",
+      "confidence": "high"
+    },
+    {
+      "source": "taipei-police-custody-and-quake",
+      "target": "earthquake-delayed-exam-run",
+      "relation": "causes",
+      "evidence": "东日本大地震取消航班并影响东大后期考试安排，促成地震延迟考试奔跑。",
+      "confidence": "high"
+    },
+    {
+      "source": "takachiho-rose-invitation",
+      "target": "takachiho-home-intrusion",
+      "relation": "causes",
+      "evidence": "高千穗向明里送玫瑰和邀请函，志乃锁定送花者并突入高千穗宅邸。",
+      "confidence": "high"
+    },
+    {
+      "source": "takachiho-home-intrusion",
+      "target": "soumiya-fall-rescue",
+      "relation": "sets_up",
+      "evidence": "志乃向高千穗提出决斗并约在建设中新校舍，宗宫随后撞见决斗而坠楼。",
+      "confidence": "high"
+    },
+    {
+      "source": "tamamo-bath-revelation",
+      "target": "blue-gang-monkey-arrival",
+      "relation": "foreshadows",
+      "evidence": "玉藻说明壳金来到东京、蓝帮可能行动，随后蓝帮/孙悟空线登场。",
+      "confidence": "high"
+    },
+    {
+      "source": "tamamo-deadline-warning",
+      "target": "maid-cafe-riko-decoy",
+      "relation": "forces_action",
+      "evidence": "玉藻给出3月31日前期限并要求金次个人行动，金次和亚莉亚随即寻求理子替身支援。",
+      "confidence": "high"
+    },
+    {
+      "source": "tamamo-europe-strategy",
+      "target": "kinji-enable-transfer",
+      "relation": "requires",
+      "evidence": "玉藻提出欧洲诱饵增援策略，金次转队/补考成为派他赴欧的现实路径。",
+      "confidence": "medium"
+    },
+    {
+      "source": "tamamo-europe-strategy",
+      "target": "constellation-departure",
+      "relation": "causes",
+      "evidence": "会议确立少数援军赴欧制造战力假象，星座小队随后出发。",
+      "confidence": "high"
+    },
+    {
+      "source": "tamamo-extreme-east-war-briefing",
+      "target": "tamamo-bath-revelation",
+      "relation": "background_for",
+      "evidence": "极东战役与壳金危机说明为后续浴室中进一步解释色金、巫女分类和蓝帮行动提供背景。",
+      "confidence": "medium"
+    },
+    {
+      "source": "tammy-shooting",
+      "target": "hibiki-secret-revealed",
+      "relation": "reveals",
+      "evidence": "塔米射击响后，金次送医并发现响为女性。",
+      "confidence": "high"
+    },
+    {
+      "source": "tammy-shooting",
+      "target": "remi-ellia-rooftop-duels",
+      "relation": "causes_emotional_crisis",
+      "evidence": "响中弹与女性身份揭露导致雷米艾莉雅失恋和后续危机。",
+      "confidence": "medium"
+    },
+    {
+      "source": "teatro-aqua-rescue",
+      "target": "kaname-naming",
+      "relation": "leads_to",
+      "evidence": "GⅢ让GⅣ协助转送伤员并开始接近金次，为金女命名和同居线铺垫。",
+      "confidence": "medium"
+    },
+    {
+      "source": "teatro-aqua-rescue",
+      "target": "watson-rehab-incident",
+      "relation": "background_for",
+      "evidence": "金次确认GⅢ/GⅣ异常后，华生在复健训练时进一步共享GⅢ情报。",
+      "confidence": "medium"
+    },
+    {
+      "source": "kaname-hss-awakening",
+      "target": "temporary-sisters-showdown",
+      "relation": "causes_countermeasure",
+      "evidence": "金女失控后，金次委托白雪成为家人型护卫，最终引发白雪与金女的临时姐妹冲突。",
+      "confidence": "high"
+    },
+    {
+      "source": "tooyama-house-council",
+      "target": "rei-no-2-planning",
+      "relation": "enables",
+      "evidence": "远山家会议确定蕾芬洁大概率前往择捉岛，玲二号作战开始成形。",
+      "confidence": "high"
+    },
+    {
+      "source": "rei-no-2-planning",
+      "target": "tenzan-sortie",
+      "relation": "plans",
+      "evidence": "玲二号作战需要黎明前侦察与登舰攻击，远山铁驾驶天山从卡尔·文森号出击。",
+      "confidence": "high"
+    },
+    {
+      "source": "tenzan-sortie",
+      "target": "habakkuk-infiltration",
+      "relation": "leads_to",
+      "evidence": "天山夜间出击发现伪装成浮冰的哈巴谷号，随后转入渗透。",
+      "confidence": "high"
+    },
+    {
+      "source": "testaccio-market-intel",
+      "target": "yamata-no-orochi-completed",
+      "relation": "parallel_preparation",
+      "evidence": "金次在市场交换N情报后返回贝瑞塔公寓，贝瑞塔继续并完成八岐大蛇。",
+      "confidence": "high"
+    },
+    {
+      "source": "yamata-no-orochi-completed",
+      "target": "io-chase-rome",
+      "relation": "enables",
+      "evidence": "八岐大蛇提供高速送枪和大量供弹，在追击伊欧时成为关键装备。",
+      "confidence": "high"
+    },
+    {
+      "source": "thames-chase",
+      "target": "kindergarten-bus-rescue",
+      "relation": "escalates_to",
+      "evidence": "鬼族沿泰晤士撤退并分散路线后，壶带亚莉亚进入幼稚园巴士陷阱。",
+      "confidence": "high"
+    },
+    {
+      "source": "third-contact-reset-by-lucifelia-capture",
+      "target": "lucifelia-custody-cohabitation",
+      "relation": "causes",
+      "evidence": "路西菲莉亚被金次带走打乱第三次接轨剧本后，亚莉亚决定拘束并劝降她。",
+      "confidence": "high"
+    },
+    {
+      "source": "thunder-sect-declaration",
+      "target": "hero-hunt-attacks",
+      "relation": "initiates",
+      "evidence": "雷霆教团直播向Giusto宣战后，Giusto进入全面警戒并卷入英雄狩猎系列冲突。",
+      "confidence": "medium"
+    },
+    {
+      "source": "todai-supplemental-admission",
+      "target": "todai-entrance-sbz-ambush",
+      "relation": "leads_to",
+      "evidence": "金次递补录取为东大文科一类新生并担任学警武侦测试员，入学典礼时遭SBZ埋伏。",
+      "confidence": "high"
+    },
+    {
+      "source": "todai-front-exam-komaba",
+      "target": "todai-front-result-maki-pass",
+      "relation": "results_in",
+      "evidence": "前期二次考试后，发榜确认金次落榜而麻姬合格。",
+      "confidence": "high"
+    },
+    {
+      "source": "todai-front-result-maki-pass",
+      "target": "todai-supplemental-exam-and-result",
+      "relation": "sets_up_second_chance",
+      "evidence": "前期落榜后金次转向后期/补考机会，最终参加补考并再次落榜。",
+      "confidence": "high"
+    },
+    {
+      "source": "taipei-police-custody-and-quake",
+      "target": "todai-supplemental-exam-and-result",
+      "relation": "causes_opportunity",
+      "evidence": "大震灾导致交通与考试安排改变，使金次获得后期补考机会。",
+      "confidence": "high"
+    },
+    {
+      "source": "todai-supplemental-exam-and-result",
+      "target": "todai-supplemental-admission",
+      "relation": "reversed_by",
+      "evidence": "补考表面再次落榜，但批改显示接近录取线；后因放弃入学者出现而递补录取。",
+      "confidence": "high"
+    },
+    {
+      "source": "tokito-memory-call",
+      "target": "niagara-kincha-confrontation",
+      "relation": "explains",
+      "evidence": "时任茱莉亚说明记忆消除/伪造可行，解释金叉在尼加拉重逢时不认儿子的谜题。",
+      "confidence": "high"
+    },
+    {
+      "source": "tokitou-reads-rasputina-memory",
+      "target": "china-custody-and-childcare",
+      "relation": "causes_decision",
+      "evidence": "时任读取记忆发现千奈没有亲人，促使金次承担照护责任。",
+      "confidence": "high"
+    },
+    {
+      "source": "airport-farewell-debt-contract",
+      "target": "tooyama-butei-office-founding",
+      "relation": "leads_to",
+      "evidence": "贝瑞塔的机场告别录音说明可创立武侦企业保留资格，推动远山武侦事务所诞生。",
+      "confidence": "high"
+    },
+    {
+      "source": "tooyama-family-return",
+      "target": "tooyama-family-dinner",
+      "relation": "leads_to",
+      "evidence": "金次回到远山家后，GⅢ、金女、蕾姬等逐步形成热闹饭桌。",
+      "confidence": "high"
+    },
+    {
+      "source": "tooyama-family-dinner",
+      "target": "bullet-catch-standoff",
+      "relation": "inspires_technique",
+      "evidence": "远山铁以筷子夹苍蝇的动作成为金次后续徒手抓弹的技术灵感。",
+      "confidence": "high"
+    },
+    {
+      "source": "tooyama-new-year",
+      "target": "tamamo-europe-strategy",
+      "relation": "leads_to",
+      "evidence": "年末新年日常中GⅢ提供纳粹残党结社情报，随后玉藻会议正式导向欧洲远征。",
+      "confidence": "medium"
+    },
+    {
+      "source": "tooyama-new-year-prayers",
+      "target": "center-exam-sendoff",
+      "relation": "sets_exam_arc",
+      "evidence": "汤岛天神初诣展示考生群像和最后备考氛围，衔接中心考试送行。",
+      "confidence": "medium"
+    },
+    {
+      "source": "tooyama-new-year-prayers",
+      "target": "todai-front-exam-komaba",
+      "relation": "prepares",
+      "evidence": "初诣和考友约定强化最终备考线，导向东大前期二次考试。",
+      "confidence": "medium"
+    },
+    {
+      "source": "tram-duel-with-sun",
+      "target": "department-store-fight",
+      "relation": "continues_as",
+      "evidence": "电车决斗后金次使电车停车并转入百货公司，孙跟入内衣卖场继续战斗。",
+      "confidence": "high"
+    },
+    {
+      "source": "transam-loo-battle",
+      "target": "transam-predator-battle",
+      "relation": "escalates_to",
+      "evidence": "LOO战败后，马许启动掠夺者无人机波状攻击追击Trans-Am。",
+      "confidence": "high"
+    },
+    {
+      "source": "transam-predator-battle",
+      "target": "area51-sakuraboshi-breakthrough",
+      "relation": "sets_final_obstacle",
+      "evidence": "无人机战耗尽弹药并造成GⅢ重伤，前方出现龙卷风和Global Shuttle最终撞击。",
+      "confidence": "high"
+    },
+    {
+      "source": "transport-ga-restaurant-meeting",
+      "target": "cao-cao-schoolgirl-ambush",
+      "relation": "precedes",
+      "evidence": "餐厅偶遇后金次继续单独行动，随后遭眧眧围捕。",
+      "confidence": "medium"
+    },
+    {
+      "source": "triple-hihi-possession",
+      "target": "fugaku-takeoff-pursuit",
+      "relation": "causes",
+      "evidence": "绯绯神三体逃出鬼之国天守阁并操控富岳起飞，引发富岳追击战。",
+      "confidence": "high"
+    },
+    {
+      "source": "tsubo-identified",
+      "target": "fugaku-yan-duel",
+      "relation": "reveals_background",
+      "evidence": "贞德识别壶为伊·U初期兵器技师，解释富岳高端兵器技术来源。",
+      "confidence": "medium"
+    },
+    {
+      "source": "tsubo-love-letter",
+      "target": "bami-kakugane-duel",
+      "relation": "enables",
+      "evidence": "壶以情书交换鬼袋位置和伊·U地图，使金次获得夺取霸美壳金的关键情报。",
+      "confidence": "high"
+    },
+    {
+      "source": "umineko-sama-case",
+      "target": "akari-upgrade-exam",
+      "relation": "supports_progression",
+      "evidence": "海猫大人事件作为C级连务展示明里保护人的温柔并推进其升级路线。",
+      "confidence": "medium"
+    },
+    {
+      "source": "underground-warehouse-battle",
+      "target": "atlas-cup-closing",
+      "relation": "resolves_into",
+      "evidence": "地下仓库决战逮捕贞德后，亚特希雅杯照常并进入收束。",
+      "confidence": "medium"
+    },
+    {
+      "source": "urus-riri-revelation",
+      "target": "reki-last-bullet-liberation",
+      "relation": "explains_and_prevents",
+      "evidence": "乌鲁斯与最后子弹文化揭示让金次预先防范蕾姬自尽倾向。",
+      "confidence": "high"
+    },
+    {
+      "source": "v2-chemical-strike-plan",
+      "target": "v2-execution-and-revival",
+      "relation": "intertwines_with",
+      "evidence": "眷属将金次处刑安排与V-2改化学攻击计划同步推进。",
+      "confidence": "high"
+    },
+    {
+      "source": "v2-execution-and-revival",
+      "target": "v2-stratosphere-fight",
+      "relation": "leads_to",
+      "evidence": "金次复苏、丽莎兽化并脱出铁笼后，两人攀上正在发射的V-2改进行外壳战。",
+      "confidence": "high"
+    },
+    {
+      "source": "v2-chemical-strike-plan",
+      "target": "v2-stratosphere-fight",
+      "relation": "requires_prevention",
+      "evidence": "V-2改携带氰化物化学弹头袭击阿姆斯特丹，迫使金次在平流层拆解弹头。",
+      "confidence": "high"
+    },
+    {
+      "source": "vatican-double-betrayal-revelation",
+      "target": "v2-execution-and-revival",
+      "relation": "causes",
+      "evidence": "金次掌握梵蒂冈双层背叛真相后，被萝蕾塔作为第五票推动死刑判决并押往V-2处刑。",
+      "confidence": "high"
+    },
+    {
+      "source": "vatican-interrogation",
+      "target": "father-revealed-as-mastermind",
+      "relation": "reveals_root",
+      "evidence": "梵蒂冈地下审讯揭示人工圣骸布和Giusto内奸线，是英雄狩猎背后主谋线索的关键节点。",
+      "confidence": "medium"
+    },
+    {
+      "source": "vehicle-garage-equipment-repair",
+      "target": "lucifelia-life-war",
+      "relation": "precedes",
+      "evidence": "金次带路西菲莉亚散步并查看装备维修后，继续展开路西菲莉亚共同生活与生命战争线。",
+      "confidence": "medium"
+    },
+    {
+      "source": "washington-hiraga-hideout",
+      "target": "zii-shirayuki-third-engage-briefing",
+      "relation": "sets_stage",
+      "evidence": "平贺家休整提供场所，ZⅡ与白雪在此向金次小队说明第三次接轨核心机密。",
+      "confidence": "high"
+    },
+    {
+      "source": "washington-hiraga-hideout",
+      "target": "washington-fbi-breakout",
+      "relation": "causes",
+      "evidence": "FBI通过伪装凯迪拉克定位到平贺家，小队必须突破包围。",
+      "confidence": "high"
+    },
+    {
+      "source": "washington-fbi-breakout",
+      "target": "t-lady-meeting",
+      "relation": "leads_to",
+      "evidence": "突破FBI包围后，金次、GⅢ、风魔直奔T夫人住处。",
+      "confidence": "high"
+    },
+    {
+      "source": "water-cavalry-battle",
+      "target": "kaname-baskerville-reconciliation",
+      "relation": "improves_relationship",
+      "evidence": "金女在水中骑马打仗中救援亚莉亚并形成默契，巴斯克维尔对其敌意下降。",
+      "confidence": "high"
+    },
+    {
+      "source": "water-moon-marriage-battle",
+      "target": "luciferia-rebirth",
+      "relation": "causes",
+      "evidence": "水月婚失败中路西菲莉亚消耗一条寿命并重生。",
+      "confidence": "high"
+    },
+    {
+      "source": "water-moon-marriage-battle",
+      "target": "kinji-declares-gate-moderate",
+      "relation": "leads_to",
+      "evidence": "空战后金次唤回路西菲莉亚并与丁达成司法交易，促成门派稳健宣言。",
+      "confidence": "high"
+    },
+    {
+      "source": "watson-aria-restaurant-surveillance",
+      "target": "watson-abducts-aria",
+      "relation": "triggers",
+      "evidence": "金次监听华生与亚莉亚会谈后情绪失控；随后华生药倒亚莉亚并带往天空树。",
+      "confidence": "high"
+    },
+    {
+      "source": "watson-arrival-icbm",
+      "target": "watson-aria-restaurant-surveillance",
+      "relation": "sets_up_conflict",
+      "evidence": "华生以未婚夫身份登场后，婚约与华生家压力成为餐厅会谈监听的核心。",
+      "confidence": "high"
+    },
+    {
+      "source": "watson-oni-warning",
+      "target": "convenience-store-oni-raid",
+      "relation": "foreshadows",
+      "evidence": "华生警告霸美一派在驱鬼结界解除后入境日本，随后便利店遭鬼族袭击。",
+      "confidence": "high"
+    },
+    {
+      "source": "watson-rehab-incident",
+      "target": "kaname-hss-awakening",
+      "relation": "contributes_to",
+      "evidence": "金女偷窥华生女装复健并产生嫉妒，成为金女失控前的积累因素之一。",
+      "confidence": "medium"
+    },
+    {
+      "source": "watson-reveals-female-and-alliance",
+      "target": "watson-secret-rehabilitation-training",
+      "relation": "continues",
+      "evidence": "天空树后华生秘密与赎罪承诺延续为后续保密、复健训练和自由石匠加入师团。",
+      "confidence": "high"
+    },
+    {
+      "source": "watson-secret-rehabilitation-training",
+      "target": "tamamo-extreme-east-war-briefing",
+      "relation": "provides_key_item",
+      "evidence": "华生作为自由石匠协力者交出壳金结晶，成为玉藻说明壳金危机的重要战果。",
+      "confidence": "high"
+    },
+    {
+      "source": "watson-spy-warning",
+      "target": "yojin-brussels-ambush",
+      "relation": "foreshadows",
+      "evidence": "华生警告内奸风险后，欧洲战线出现伪贞德诱导和妖刕伏击等泄密式事件。",
+      "confidence": "medium"
+    },
+    {
+      "source": "zeppelin-duel-mont-blanc",
+      "target": "witch-corps-arsenal",
+      "relation": "leads_to",
+      "evidence": "金次与卡羯从飞船坠落并白朗峰求生后，卡羯带俘虏金次回魔女连队据点/兵器库。",
+      "confidence": "high"
+    },
+    {
+      "source": "witch-corps-arsenal",
+      "target": "jeanne-rescue-tank-chase",
+      "relation": "triggers_rescue",
+      "evidence": "金次被关押于魔女连队兵器库，贞德根据信号定位并突入救援。",
+      "confidence": "high"
+    },
+    {
+      "source": "yamane-reporter-reveal",
+      "target": "kamui-duel-at-abandoned-dojo",
+      "relation": "creates_threat",
+      "evidence": "云雀记者身份暴露金次和可鹉韦身份风险，也可能引发可鹉韦为灭口而行动。",
+      "confidence": "medium"
+    },
+    {
+      "source": "yan-sacrifice-fugaku",
+      "target": "fugaku-fall-spalaqua",
+      "relation": "raises_stakes",
+      "evidence": "阎替金次承受贯穿并托付照顾霸美，推动金次继续在瓦解的富岳上救人追击。",
+      "confidence": "medium"
+    },
+    {
+      "source": "yojin-brussels-ambush",
+      "target": "hotel-attack-and-masonic-refuge",
+      "relation": "parallel_attack",
+      "evidence": "金次被妖刕伏击时，饭店也遭袭，迫使师团转入自由石匠避难线。",
+      "confidence": "high"
+    },
+    {
+      "source": "yojin-brussels-ambush",
+      "target": "petra-jeanne-impersonation-revealed",
+      "relation": "reveals_method",
+      "evidence": "伏击使用伪装成贞德的佩特拉引诱金次，后续揭开佩特拉冒充贞德。",
+      "confidence": "high"
+    },
+    {
+      "source": "return-to-japan-shiretoko-landing",
+      "target": "yukihana-adopts-tooyama-children",
+      "relation": "aftermath",
+      "evidence": "返日后在巢鸭远山家，雪花正式提出收养远山家孩子。",
+      "confidence": "medium"
+    },
+    {
+      "source": "yukika-lethal-hour-exorcism",
+      "target": "shibuya-modernity-tour",
+      "relation": "enables",
+      "evidence": "雪花杀刻退烧恢复后，金次带她外出学习现代社会。",
+      "confidence": "high"
+    },
+    {
+      "source": "yuzawa-witch-regiment-premeeting",
+      "target": "rapunzel-war-plan-revealed",
+      "relation": "sets_up",
+      "evidence": "现代魔女连队预会谈说明蕾芬洁思想危险，次日正式会谈揭示其战争计划。",
+      "confidence": "high"
+    },
+    {
+      "source": "rapunzel-war-plan-revealed",
+      "target": "yuzawa-ski-chase-cliffhanger",
+      "relation": "triggers",
+      "evidence": "蕾芬洁会谈破局并撤离后，金次、雪花与卡羯在汤泽雪地追击。",
+      "confidence": "high"
+    },
+    {
+      "source": "yuzawa-ski-chase-cliffhanger",
+      "target": "tooyama-house-council",
+      "relation": "leads_to",
+      "evidence": "蕾芬洁逃离成为持续威胁，金次等回到远山家交换情报并制定追击方向。",
+      "confidence": "medium"
+    },
+    {
+      "source": "department-store-fight",
+      "target": "z8-chase-cliffhanger",
+      "relation": "continues_as",
+      "evidence": "百货公司战后金次一行撤离，孙夺取BMW Z8继续追击。",
+      "confidence": "high"
+    },
+    {
+      "source": "z8-chase-cliffhanger",
+      "target": "sun-rooftop-duel",
+      "relation": "continues_next_volume",
+      "evidence": "Z8追车以孙发动如意棒为悬念，下一阶段在蓝帮城屋顶正式决斗。",
+      "confidence": "high"
+    },
+    {
+      "source": "zero-arrest-and-interview",
+      "target": "hilda-rescue-and-prosecutor-intervention",
+      "relation": "interrupted_by",
+      "evidence": "前零课逮捕试炼把金次逼入绝境后，希尔达从影子现身救援。",
+      "confidence": "high"
+    },
+    {
+      "source": "zero-arrest-and-interview",
+      "target": "tai-sotsu-revelation",
+      "relation": "sets_up",
+      "evidence": "卷首幻梦爆发和前零课试炼引发头痛，后续确认为远山家对卒症状。",
+      "confidence": "medium"
+    },
+    {
+      "source": "zero-party-n-warning",
+      "target": "haruna-ndd-crisis",
+      "relation": "foreshadows",
+      "evidence": "宴会中狮堂警告N具国家崩坏级力量并提及首相行程，随后茉斩劫持春雾引发NDD危机。",
+      "confidence": "high"
+    },
+    {
+      "source": "washington-hiraga-hideout",
+      "target": "loogyne-ai-training",
+      "relation": "introduces",
+      "evidence": "平贺家藏身处引入露吉恩等女性仿生人，之后展开AI训练事件。",
+      "confidence": "medium"
+    },
+    {
+      "source": "zii-shirayuki-third-engage-briefing",
+      "target": "t-lady-meeting",
+      "relation": "contextualizes",
+      "evidence": "第三次接轨与金叉反接轨特务身份说明，使之后T夫人提供金叉地点具有世界观层面的利害。",
+      "confidence": "medium"
+    },
+    {
+      "source": "zii-shirayuki-third-engage-briefing",
+      "target": "niagara-river-bates-battle",
+      "relation": "sets_objective",
+      "evidence": "说明后小队决定先突破贝茨姊妹并接触金叉。",
+      "confidence": "high"
+    }
+  ]
+}

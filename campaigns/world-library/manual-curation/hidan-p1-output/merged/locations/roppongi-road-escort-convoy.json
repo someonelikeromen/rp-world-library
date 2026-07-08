@@ -1,0 +1,40 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "location",
+  "entityId": "roppongi-road-escort-convoy",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-08",
+  "periods": [
+    {
+      "periodId": "vol-08",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-08/full.txt:3437",
+        "hidan-no-aria-main/vol-08/full.txt:3547",
+        "hidan-no-aria-main/vol-08/full.txt:3587",
+        "hidan-no-aria-main/vol-08/full.txt:3811"
+      ],
+      "snapshot": {
+        "name": "六本木押送车袭击现场",
+        "aliases": [
+          "香苗押送车路线",
+          "高院外道路",
+          "Polaris 05降落地点"
+        ],
+        "type": "urban roadway / ambush site",
+        "description": "香苗从高等法院离开后，戒护车与连城律师的奥迪行经的道路。希尔达在此用高压电袭击车辆并从影中现身，华生随后乘Polaris 05白银ICBM落地介入。",
+        "controlled_by": "公共道路；事发时由警方押送车队通行",
+        "key_events": [
+          "hilda-attacks-escort-convoy",
+          "watson-arrival-icbm"
+        ],
+        "hazards": [
+          "高压电袭击",
+          "影遁突袭",
+          "交通混乱",
+          "ICBM级交通工具坠落"
+        ],
+        "evidence_level": "S"
+      }
+    }
+  ]
+}

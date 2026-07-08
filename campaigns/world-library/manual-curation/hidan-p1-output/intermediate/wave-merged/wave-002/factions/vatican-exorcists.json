@@ -1,0 +1,43 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "faction",
+  "entityId": "vatican-exorcists",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-08",
+  "periods": [
+    {
+      "periodId": "vol-08",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-08/full.txt:113",
+        "hidan-no-aria-main/vol-08/full.txt:277",
+        "hidan-no-aria-main/vol-08/full.txt:1449"
+      ],
+      "snapshot": {
+        "name": "梵蒂冈除魔师",
+        "aliases": [
+          "梵蒂冈",
+          "歼魔科",
+          "圣女梅雅所属势力"
+        ],
+        "type": "religious / exorcist faction",
+        "description": "梅雅代表的基督教会与梵蒂冈系除魔势力，历史上属于讨伐污秽眷属的师团始祖。梅雅在宣战会议主张和平但对魔女与吸血鬼极端敌对。",
+        "known_members": [
+          "meiya-romano"
+        ],
+        "affiliated_allies": [
+          "shidan"
+        ],
+        "opponents": [
+          "witch-corps",
+          "dracula-family",
+          "kenzoku"
+        ],
+        "key_events": [
+          "declaration-war-conference",
+          "hihiirokane-briefing"
+        ],
+        "evidence_level": "S"
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "sarah-continuation-arrow",
+  "volume": "vol-24",
+  "source_refs": [
+    "hidan-no-aria-main/vol-24/chapters/ch-001-第二十四卷_狂逸的同学会_1弹_帕里奥利的手枪技师.txt:840"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-24-main",
+      "volume": "vol-24",
+      "time": "贝瑞塔宅邸庭院",
+      "name": {
+        "zh": "续矢",
+        "en": "Robin Hood shot"
+      },
+      "aliases": [
+        "Robin Hood",
+        "罗宾汉"
+      ],
+      "type": "combat / skill",
+      "description": "莎拉能用后一支箭精确射中前一支箭尾中心，让箭矢首尾相连。",
+      "details": {
+        "feat": "在约二十五米泳池另一端连续射中箭尾，第三支箭再接第二支箭。"
+      },
+      "activation": {
+        "condition": "弓、箭、稳定射击姿势",
+        "incantation": "",
+        "time": "瞬间射击",
+        "cost": "需要极高精度"
+      },
+      "effects": [
+        "展示近乎神技的箭术",
+        "威慑金次不得低估莎拉"
+      ],
+      "power_level": {
+        "initial": "弓箭手一生难得一次的神技",
+        "peak": "莎拉可按意志连续达成",
+        "evolution": []
+      },
+      "known_feats": [
+        {
+          "event_id": "sarah-death-premonition-revealed",
+          "summary": "莎拉在贝瑞塔宅邸泳池边连续射出续矢。",
+          "sourceRef": "hidan-no-aria-main/vol-24/full.txt:840"
+        }
+      ],
+      "shared_by": [
+        "sarah"
+      ],
+      "see_also": [
+        "sarah-death-premonition"
+      ],
+      "countered_by": [],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-24/chapters/ch-001-第二十四卷_狂逸的同学会_1弹_帕里奥利的手枪技师.txt:840"
+      ]
+    }
+  ]
+}

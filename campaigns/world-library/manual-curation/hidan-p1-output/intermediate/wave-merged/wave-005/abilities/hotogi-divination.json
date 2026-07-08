@@ -1,0 +1,45 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "hotogi-divination",
+  "volume": "vol-21",
+  "source_refs": [
+    "hidan-no-aria-main/vol-21/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-21",
+      "volume": "vol-21",
+      "time": "第二十一卷",
+      "name": {
+        "zh": "星伽占卜",
+        "en": "Hotogi divination"
+      },
+      "aliases": [
+        "巫女占卜牌"
+      ],
+      "type": "supernatural / prophecy",
+      "description": "星伽巫女占卜未来几年内可能发生事件的能力。本卷白雪仍担心去年占出的金次会消失尚未真正实现。",
+      "details": {
+        "range": "几年内可能发生"
+      },
+      "activation": {
+        "condition": "星伽巫女使用占卜牌"
+      },
+      "effects": [
+        "预示未来风险",
+        "影响白雪对金次安危的焦虑"
+      ],
+      "known_feats": [
+        "白雪提到小金会消失的占卜仍令她害怕"
+      ],
+      "shared_by": [
+        "shirayuki"
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "hidan-no-aria-main/vol-21/full.txt"
+      ]
+    }
+  ]
+}

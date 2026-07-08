@@ -1,0 +1,85 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "nero",
+  "volume": "vol-25",
+  "time_range": {
+    "start": "vol-25",
+    "end": "vol-25"
+  },
+  "sub_arcs": [
+    "colosseum-rescue"
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-25/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-25",
+      "volume": "vol-25",
+      "time": "第二十五卷 罗马的军神星",
+      "label": "罗马竞技场亡灵皇帝",
+      "name": {
+        "zh": "尼禄",
+        "en": "Nero",
+        "jp": "ネロ"
+      },
+      "aliases": [
+        "尼禄陛下",
+        "暴君尼禄"
+      ],
+      "titles": [
+        "罗马皇帝亡灵"
+      ],
+      "gender": "male",
+      "species": "spirit/ghost",
+      "nationality": "Ancient Roman",
+      "occupation": "古罗马皇帝亡灵",
+      "affiliation": "罗马竞技场亡灵",
+      "status": {
+        "physical": "亡灵/残留意志",
+        "role": "在竞技场影响古兰督卡对金次的生死判断"
+      },
+      "appearance": {
+        "overview": "未直接显形，通过古兰督卡听见的圣灵命令体现。"
+      },
+      "personality": {
+        "summary": "暴君式娱乐人民，认为让金次继续在活地狱战斗更有趣。",
+        "core_traits": [
+          "残酷",
+          "戏剧性",
+          "皇帝权威"
+        ]
+      },
+      "abilities_owned": [
+        "colosseum-spirit-command"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "granduca": {
+          "type": "former-emperor/master",
+          "summary": "古兰督卡仍服从其竞技场裁决。"
+        },
+        "kinji": {
+          "type": "spectator/judge",
+          "summary": "命令古兰督卡不要杀金次，之后又因金次歪理放弃让古兰督卡自尽。"
+        }
+      },
+      "knowledge": [
+        "colosseum-ancient-spirit-phenomenon"
+      ],
+      "summary": "尼禄作为罗马竞技场亡灵意志出现在古兰督卡的感知中。古兰督卡声称其下令不杀金次，因为让金次继续挣扎更有趣；战后又在金次对空喊话后与罗马人民亡灵一同笑着离去。",
+      "key_events": [
+        {
+          "event_id": "colosseum-battle-granduca",
+          "summary": "以亡灵皇帝裁决影响古兰督卡是否杀死金次与是否自尽。",
+          "sourceRef": "hidan-no-aria-main/vol-25/full.txt"
+        }
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "hidan-no-aria-main/vol-25/full.txt"
+      ]
+    }
+  ]
+}

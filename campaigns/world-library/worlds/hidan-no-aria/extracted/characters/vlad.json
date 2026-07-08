@@ -1,0 +1,183 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "vlad",
+  "volume": "vol-03",
+  "time_range": {
+    "start": "6月下旬",
+    "end": "6月下旬（在陆标塔被击败）"
+  },
+  "sub_arcs": [
+    "陆标塔决战"
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-03/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-03-main",
+      "volume": "vol-03",
+      "time": "6月下旬",
+      "label": "弗拉德·德古拉伯爵",
+      "name": {
+        "zh": "弗拉德",
+        "en": "Vlad",
+        "jp": "ヴラド"
+      },
+      "aliases": [
+        "无限之罪弗拉德",
+        "德古拉伯爵",
+        "伊·幽第二号人物",
+        "吸血鬼"
+      ],
+      "titles": [
+        "伊·幽 No.2",
+        "吸血鬼",
+        "不死之身"
+      ],
+      "gender": "男性",
+      "species": "吸血鬼（非人类）",
+      "nationality": "罗马尼亚（瓦拉几亚）",
+      "occupation": "伊·幽第二号人物",
+      "affiliation": "伊·幽",
+      "status": {
+        "physical": "被铁柱压住，四个魔脏被击破后失去恢复力",
+        "mental": "自大傲慢，虐待狂",
+        "social": "活过八百年的吸血鬼贵族"
+      },
+      "appearance": {
+        "overview": "怪物形态：红褐色皮肤，肌肉隆起如公牛，兽毛浓密的双脚，身上有眼珠形状的白色刺青，金色双眼，獠牙如刀",
+        "physical": {
+          "height": "巨大",
+          "build": "肌肉发达如公牛",
+          "hair": {},
+          "eyes": {
+            "color": "金色",
+            "description": "发出金光的凶暴双眼"
+          }
+        },
+        "attire": {
+          "default": "拟态为人类时穿西装"
+        },
+        "voice_quality": {},
+        "distinctive": [
+          "金色眼睛",
+          "獠牙",
+          "眼珠刺青（弱点标记）",
+          "红褐色皮肤"
+        ]
+      },
+      "personality": {
+        "summary": "活过八百年的吸血鬼贵族，通过吸血复写优秀基因不断进化。视人类为食物和繁殖工具，蔑视一切非吸血鬼生物。极端的血统和基因优劣论者。有虐待癖好。曾败在伊·幽首领手中，被迫与之约定约束。",
+        "core_traits": [
+          "傲慢",
+          "虐待狂",
+          "基因至上主义者",
+          "不死"
+        ],
+        "values": [
+          "优秀基因",
+          "力量",
+          "支配"
+        ],
+        "fears": [
+          "败北",
+          "失去力量"
+        ],
+        "desires": [
+          "获取更多优秀基因",
+          "继续进化",
+          "控制罗苹家的后代"
+        ],
+        "strengths": [
+          "不死之身（无限恢复力）",
+          "怪力（可拆天线塔为武器）",
+          "咆哮破解爆发模式",
+          "变身能力"
+        ],
+        "flaws": [
+          "自大轻敌",
+          "四个魔脏弱点需同时攻击"
+        ],
+        "inner_conflict": "身为吸血怪物但拥有人类智慧",
+        "decision_pattern": "恃强凌弱，享受敌人的绝望"
+      },
+      "voice": {
+        "self_reference": "本大爷",
+        "catchphrases": [
+          "嗄哈！",
+          "FiiBucuros"
+        ],
+        "quote_samples": [
+          "人类这种东西全都是小鬼！在活了八百年的我看来。",
+          "你会遵守和狗做的约定吗？",
+          "回笼子里去，繁殖用的母狗。"
+        ]
+      },
+      "background": {
+        "birth": {
+          "place": "瓦拉几亚（罗马尼亚）"
+        },
+        "upbringing": "原本是吸血鬼中偏好人血的一支，通过有计划的吸血进化为强力个体",
+        "formative_events": [
+          {
+            "event_id": "vlad-vs-arsene",
+            "summary": "与初代罗苹和双胞胎贞德交手不分胜负",
+            "sourceRef": "hidan-no-aria-main/vol-03/full.txt:3800"
+          },
+          {
+            "event_id": "vlad-vs-leader",
+            "summary": "败给伊·幽首领",
+            "sourceRef": "hidan-no-aria-main/vol-03/full.txt:3800"
+          },
+          {
+            "event_id": "defeat-vlad",
+            "summary": "在陆标塔被金次四人同时攻击弱点击败",
+            "sourceRef": "hidan-no-aria-main/vol-03/full.txt:6800"
+          }
+        ],
+        "pre_story": "六百年前开始利用吸血复制基因。寄生在小夜鸣体内作为人类拟态。监禁了少年时期的理子。"
+      },
+      "abilities_owned": [
+        "infinite-regeneration",
+        "vampire-transformation",
+        "roar-disrupt-hss"
+      ],
+      "possessions_owned": [
+        "red-mansion",
+        "silver-wolves"
+      ],
+      "relationships": {
+        "riko": "victim（长期监禁和虐待的对象，视为繁殖工具）",
+        "sayonami": "vessel（人类容器）",
+        "kinji": "target（关注其HSS基因）",
+        "aria": "target（想获取福尔摩斯基因）",
+        "jeanne": "伊·幽成员"
+      },
+      "summary": "弗拉德是伊·幽第二号人物，吸血鬼德古拉伯爵。活过八百年，通过吸血复写基因不断进化。曾在600年前培养理子成为繁殖工具，后放出她加入伊·幽。本卷中小夜鸣在陆标塔顶上变身成弗拉德，拥有不死之身、怪力和破解爆发模式的咆哮。被金次的弹子戏法、亚莉亚的双枪和理子的迪林格同时击中四个魔脏后失去恢复力，被自己拆下的天线铁柱压住。",
+      "key_events": [
+        {
+          "event_id": "vlad-reveal",
+          "summary": "在陆标塔登场变身",
+          "sourceRef": "hidan-no-aria-main/vol-03/full.txt:6000"
+        },
+        {
+          "event_id": "landmark-tower-battle",
+          "summary": "与金次、亚莉亚、理子交战",
+          "sourceRef": "hidan-no-aria-main/vol-03/full.txt:6400"
+        },
+        {
+          "event_id": "vlad-defeat",
+          "summary": "四个弱点同时被攻击后败北",
+          "sourceRef": "hidan-no-aria-main/vol-03/full.txt:6800"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-03/chapters/ch-003-第三卷_蜂蜜色的陷阱_3弹_狼与蕾姬.txt:1208",
+        "hidan-no-aria-main/vol-03/chapters/ch-005-第三卷_蜂蜜色的陷阱_5弹_高度296公尺的弹子戏法.txt:872",
+        "hidan-no-aria-main/vol-03/chapters/ch-005-第三卷_蜂蜜色的陷阱_5弹_高度296公尺的弹子戏法.txt:1872"
+      ]
+    }
+  ]
+}

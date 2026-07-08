@@ -1,0 +1,70 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "hss",
+  "volume": "vol-45",
+  "periods": [
+    {
+      "period_id": "vol-45",
+      "volume": "vol-45",
+      "time": "2011-01 to 2011-04",
+      "name": {
+        "zh": "HSS/歇斯底里模式",
+        "en": "Hysteria Savant Syndrome"
+      },
+      "aliases": [
+        "爆发模式",
+        "狂喜模式",
+        "亢奋模式"
+      ],
+      "type": "genetic/combat",
+      "description": "远山家男性在性刺激等条件下进入超常状态，思考、运动、观察力提升；本卷既是金次战斗底牌，也是考试压力和对卒风险的背景。",
+      "details": {
+        "used_for": [
+          "考试中镇定和集中",
+          "攀爬台北101",
+          "对赵云战斗",
+          "判断安田讲堂埋伏"
+        ],
+        "risk": "对卒发作会令金次昏倒或危及生命，考试首科因此0分。"
+      },
+      "activation": {
+        "condition": "女性刺激、危机或强烈意志",
+        "incantation": "",
+        "time": "瞬时",
+        "cost": "身体和脑神经负担；可能诱发对卒"
+      },
+      "effects": [
+        "战斗反应提升",
+        "洞察力与计算力提升",
+        "绅士化/吐槽增强"
+      ],
+      "known_feats": [
+        {
+          "summary": "中心考试首科因对卒发作昏睡，公民0分。",
+          "sourceRef": "hidan-no-aria-main/vol-45/full.txt:65"
+        },
+        {
+          "summary": "台北101顶端以120倍亢奋模式攀登尖塔。",
+          "sourceRef": "hidan-no-aria-main/vol-45/full.txt:3933"
+        }
+      ],
+      "shared_by": [
+        "kinji"
+      ],
+      "see_also": [
+        "mirror-fist",
+        "island-wind",
+        "snow-wind"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-45/chapters/ch-001-第1弹_巴斯克维尔的欢呼.txt:3",
+        "hidan-no-aria-main/vol-45/chapters/ch-004-第4弹_玻璃的阶塔.txt:1674"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-45/full.txt"
+  ]
+}

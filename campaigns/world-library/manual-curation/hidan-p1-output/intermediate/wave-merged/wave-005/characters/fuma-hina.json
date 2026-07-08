@@ -1,0 +1,63 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "fuma-hina",
+  "volume": "vol-21",
+  "source_refs": [
+    "hidan-no-aria-main/vol-21/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-21",
+      "volume": "vol-21",
+      "time": "第二十一卷",
+      "name": {
+        "zh": "风魔阳菜",
+        "en": "Hina Fuma",
+        "jp": "風魔陽菜"
+      },
+      "aliases": [
+        "风魔",
+        "战妹"
+      ],
+      "gender": "female",
+      "species": "human",
+      "occupation": "武侦高中谍报科一年级学生",
+      "affiliation": "东京武侦高中",
+      "status": {
+        "end": "受金次委托监视其房间无人时机，并报告丽莎与白雪相遇经过"
+      },
+      "abilities_owned": [
+        "ninja-surveillance",
+        "espionage"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "kinji": {
+          "type": "kouhai/assistant",
+          "summary": "为金次监视房间是否无人，帮助他回房睡觉"
+        },
+        "lisa": {
+          "type": "observer",
+          "summary": "目击丽莎称白雪为夫人并化解杀气"
+        },
+        "shirayuki": {
+          "type": "observer",
+          "summary": "报告白雪与丽莎初遇时的杀气"
+        }
+      },
+      "summary": "风魔阳菜在本卷作为谍报科学妹执行生活支援式侦察，替金次确认房间安全空档，并补充白雪与丽莎关系缓和的幕后经过。",
+      "key_events": [
+        {
+          "event_id": "kinji-school-return",
+          "summary": "监视金次房间并协助他避开闯入者睡觉",
+          "sourceRef": "hidan-no-aria-main/vol-21/full.txt"
+        }
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "hidan-no-aria-main/vol-21/full.txt"
+      ]
+    }
+  ]
+}

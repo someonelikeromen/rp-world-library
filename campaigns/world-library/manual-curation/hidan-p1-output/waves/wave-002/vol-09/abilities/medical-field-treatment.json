@@ -1,0 +1,45 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "ability",
+  "entityId": "medical-field-treatment",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-09",
+  "periods": [
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:2533",
+        "hidan-no-aria-main/vol-09/full.txt:2595",
+        "hidan-no-aria-main/vol-09/full.txt:2875"
+      ],
+      "snapshot": {
+        "name": "卫生武侦现场治疗",
+        "aliases": [
+          "华生医疗",
+          "战场急救",
+          "医师武侦技术"
+        ],
+        "type": "medical / field support",
+        "description": "华生兼具武侦与医生身份，能在战斗结束后对敌我双方实施紧急处理。本卷她在天空树第一观景台为理子处理毒蛇腺液中毒，并在武侦医院取出希尔达体内霰弹、缝合魔脏。",
+        "known_users": [
+          "watson"
+        ],
+        "effects": [
+          "现场维持生命体征",
+          "毒物与假死处理",
+          "吸血鬼魔脏外科处理",
+          "开发吸血鬼抑制剂的研究基础"
+        ],
+        "limitations": [
+          "理子解毒需要矢常吕老师协助",
+          "稀有血型不足会限制希尔达救治"
+        ],
+        "associated_events": [
+          "riko-icu-recovery-and-hilda-transfusion"
+        ],
+        "evidence_level": "S"
+      }
+    }
+  ],
+  "_schema": "rp-ability-volume-v1"
+}

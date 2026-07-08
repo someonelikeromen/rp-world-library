@@ -1,0 +1,285 @@
+{
+  "_schema": "rp-world-volume-v1",
+  "world": "hidan-no-aria",
+  "volume": "vol-06",
+  "periods": [
+    {
+      "period_id": "vol-06-main",
+      "volume": "vol-06",
+      "time": "第二学期开学前夜至比叡山遭袭后",
+      "name": {
+        "zh": "绯弹的亚莉亚 第六卷 绝对半径2051",
+        "en": "Aria the Scarlet Ammo Vol. 6: Absolute Radius 2051",
+        "jp": "緋弾のアリア VI"
+      },
+      "genre": [
+        "轻小说",
+        "学园",
+        "枪战",
+        "狙击战",
+        "动作",
+        "血统谜团"
+      ],
+      "summary": "远山金次在第二学期开学前夜被蕾姬以绝对半径2051公尺狙击拘禁，并被她依据乌鲁斯与风的命令要求订婚。校内小队登记、亚莉亚与蕾姬决裂、香港武侦高中留学生昭昭登场后，金次在校外教学中试图理解蕾姬并帮她购买白色连身裙。比叡山夜袭中，昭昭以超远距狙击、遥控直升机和猎犬包围金次与蕾姬；蕾姬重伤后首次承认自己的情感，金次拒绝丢下她逃走，最终在星伽白雪与风雪支援下得救，并揭示蕾姬疑为源义经/成吉思汗后裔。",
+      "core_conflict": "蕾姬遵从风与乌鲁斯使命抢夺金次；金次在逃避武侦和伙伴关系的同时，必须处理亚莉亚决裂、昭昭袭击和蕾姬情感觉醒。",
+      "atmosphere": "开学日乱斗、校园小队政治、京都大阪校外教学喜剧，与比叡山森林中的严肃远距狙击战并行。",
+      "timeline": [
+        {
+          "event_id": "reki-human-hunt-proposal",
+          "summary": "蕾姬以德拉古诺夫、艾马基和绝对半径2051逼金次接受婚约。",
+          "sourceRef": "hidan-no-aria-main/vol-06/full.txt:27"
+        },
+        {
+          "event_id": "cao-cao-first-ambush",
+          "summary": "香港武侦高中留学生昭昭在泼水祭中以万武格斗术袭击金次。",
+          "sourceRef": "hidan-no-aria-main/vol-06/full.txt:1599"
+        },
+        {
+          "event_id": "aria-reki-station-clash",
+          "summary": "亚莉亚因蕾姬抢走伙伴和组队申请与她决裂，蕾姬以刺刀几乎刺中亚莉亚颈部。",
+          "sourceRef": "hidan-no-aria-main/vol-06/full.txt:2425"
+        },
+        {
+          "event_id": "equipment-upgrade-hiraga",
+          "summary": "金次从平贺文处取回改造沙漠之鹰与夏洛克的萨克逊剑。",
+          "sourceRef": "hidan-no-aria-main/vol-06/full.txt:2947"
+        },
+        {
+          "event_id": "reki-investigation-nakasorachi",
+          "summary": "贞德和中空知分析蕾姬耳机里的故乡风声，指向蒙古北部至东西伯利亚一带。",
+          "sourceRef": "hidan-no-aria-main/vol-06/full.txt:3379"
+        },
+        {
+          "event_id": "chaton-date-clothes-catcall",
+          "summary": "金次在大阪心斋桥为蕾姬购买白色连身裙，二人赢得ChatonCALL折扣后被亚莉亚撞见。",
+          "sourceRef": "hidan-no-aria-main/vol-06/full.txt:4173"
+        },
+        {
+          "event_id": "inn-sniper-ambush",
+          "summary": "比叡山民宿蜂之子遭超远距狙击与遥控直升机袭击，金次和蕾姬逃入森林。",
+          "sourceRef": "hidan-no-aria-main/vol-06/full.txt:4719"
+        },
+        {
+          "event_id": "forest-sniper-duel",
+          "summary": "蕾姬在森林中以闪光弹和音响弹反制昭昭，却遭无声反击重伤。",
+          "sourceRef": "hidan-no-aria-main/vol-06/full.txt:5233"
+        },
+        {
+          "event_id": "kinji-carries-reki",
+          "summary": "金次拒绝丢下重伤蕾姬，抱着她穿越森林逃离猎犬包围。",
+          "sourceRef": "hidan-no-aria-main/vol-06/full.txt:6119"
+        },
+        {
+          "event_id": "reki-princess-revelation",
+          "summary": "白雪与风雪救援后，风雪指出蕾姬是源义经/成吉思汗后裔、大陆的公主。",
+          "sourceRef": "hidan-no-aria-main/vol-06/full.txt:6659"
+        }
+      ],
+      "rules": [
+        {
+          "system_id": "butei-squad-system",
+          "summary": "二年级学生须在九月底前组成二至八人小队并登记至国际武侦联盟数据库。",
+          "sourceRef": "hidan-no-aria-main/vol-06/full.txt:1489"
+        },
+        {
+          "system_id": "field-training-i",
+          "summary": "校外教学Ⅰ名义上为旅行，实质上用于最终调整小队编成。",
+          "sourceRef": "hidan-no-aria-main/vol-06/full.txt:1489"
+        },
+        {
+          "system_id": "butei-charter",
+          "summary": "武侦宪章第四条要求武侦自立自强，校外教学中学生须自行预约旅馆。",
+          "sourceRef": "hidan-no-aria-main/vol-06/full.txt:4713"
+        },
+        {
+          "system_id": "sniper-duel-method",
+          "summary": "狙击手交锋需抢占地形、读出对方人格并针对设备或习惯制定攻击方式。",
+          "sourceRef": "hidan-no-aria-main/vol-06/full.txt:5731"
+        }
+      ],
+      "history_eras": [
+        "乌鲁斯四十七女与风之命令延续古老血统使命",
+        "源义经西逃成吉思汗传说被用于解释蕾姬的大陆公主血统",
+        "曹操孟德后裔昭昭代表香港武侦高中与新势力介入"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-06/full.txt:1",
+        "hidan-no-aria-main/vol-06/full.txt:73",
+        "hidan-no-aria-main/vol-06/full.txt:1405",
+        "hidan-no-aria-main/vol-06/full.txt:6659"
+      ]
+    },
+    {
+      "period_id": "vol-07-main",
+      "volume": "vol-07",
+      "time": "9月下旬",
+      "name": {
+        "zh": "火与风的华尔兹",
+        "en": "Waltz of Fire and Wind",
+        "jp": "火と風のワルツ"
+      },
+      "genre": [
+        "学园",
+        "动作",
+        "恋爱喜剧",
+        "超能力",
+        "武侦战斗"
+      ],
+      "summary": "京都校外教学后的狙击战使蕾姬重伤，金次等人在星伽京都分社避难，并得知蕾姬与乌鲁斯族、璃璃色金和最后子弹习俗有关。随后金次、亚莉亚、理子、白雪、武藤等人乘坐希望246号时遭蓝帮曹操三姐妹以加速炸弹和爆泡劫持。众人分工保护乘客、切离车厢并拆除炸弹，金次与亚莉亚、蕾姬在新干线车顶击败三姐妹，金次也预先让蕾姬的最后子弹失效，使她从风的命令中获得解放。事件后亚莉亚登记成立巴斯克维尔小队，金次送出生日戒指，最终众人被邀请参加Go For The NEXT宣战会议，世界因伊·U瓦解后的争夺迈向新阶段。",
+      "core_conflict": "蕾姬作为乌鲁斯工具与独立人格之间的冲突；曹操三姐妹围绕HSS、绯绯色金、璃璃色金和爆泡商品化展开的劫持；伊·U瓦解后各组织争夺人才与色金的国际局势。",
+      "atmosphere": "前半围绕蕾姬身世和伤势展开沉重揭秘，中段转为高速新干线危机与车顶战，后段以巴斯克维尔小队登记和宣战会议引出更大的世界冲突。",
+      "timeline": [
+        {
+          "event": "状况E8认定",
+          "time": "京都狙击战后夜",
+          "detail": "南乡将事件定为状况E8，教务科不公开处理，金次只能联络可信赖同伴自救。",
+          "sourceRef": "hidan-no-aria-main/vol-07/full.txt:87"
+        },
+        {
+          "event": "星伽京都分社救治",
+          "time": "次日清晨",
+          "detail": "蕾姬与艾马基在星伽京都分社救护殿接受治疗，星伽方开始识别蕾姬血统。",
+          "sourceRef": "hidan-no-aria-main/vol-07/full.txt:195"
+        },
+        {
+          "event": "乌鲁斯与璃璃色金揭秘",
+          "time": "分社救治期间",
+          "detail": "白雪、风雪和贞德说明蕾姬可能是与璃璃色金相通的乌鲁斯族公主式继承者。",
+          "sourceRef": "hidan-no-aria-main/vol-07/full.txt:597"
+        },
+        {
+          "event": "希望246号劫持",
+          "time": "18点02分后",
+          "detail": "曹操三姐妹在新干线上启动加速炸弹和爆泡，要求列车不断加速并企图绑架金次、亚莉亚和蕾姬。",
+          "sourceRef": "hidan-no-aria-main/vol-07/full.txt:1573"
+        },
+        {
+          "event": "车顶战与爆泡处置",
+          "time": "同日夜",
+          "detail": "金次、亚莉亚和蕾姬在车顶对抗三姐妹，白雪、武藤和平贺协助切离车厢并处理爆泡。",
+          "sourceRef": "hidan-no-aria-main/vol-07/full.txt:3839"
+        },
+        {
+          "event": "最后子弹解放",
+          "time": "新干线事件末段",
+          "detail": "金次预先处理底火，使蕾姬的最后子弹成为哑弹，她不再只作为乌鲁斯子弹行动。",
+          "sourceRef": "hidan-no-aria-main/vol-07/full.txt:4425"
+        },
+        {
+          "event": "巴斯克维尔小队登记",
+          "time": "9月23日11点59分",
+          "detail": "亚莉亚、金次、白雪、理子、蕾姬完成巴斯克维尔小队登录。",
+          "sourceRef": "hidan-no-aria-main/vol-07/full.txt:5735"
+        },
+        {
+          "event": "Go For The NEXT宣战会议",
+          "time": "卷末",
+          "detail": "各地机构、结社和组织的大使召开宣战会议，宣布伊·U瓦解后的战争与争夺迈入新阶段。",
+          "sourceRef": "hidan-no-aria-main/vol-07/full.txt:6715"
+        }
+      ],
+      "rules": [
+        "状况E8：犯人为内部人员可能性高，当事人自行联络可信任对象解决。",
+        "武侦宪章第四条：高年级武侦原则上需自立自强处理自己的敌人。",
+        "武侦宪章第六条：自我思考，独立行动。",
+        "加速炸弹会迫使目标交通工具持续加速，并由实施者在车内确保启动。",
+        "爆泡是气体炸弹，泡泡破裂后气体与空气中的氧混合发生爆炸。",
+        "乌鲁斯最后子弹习俗会在绝境或拖累主人时促使当事人自尽。"
+      ],
+      "history_eras": [
+        {
+          "era": "伊·U瓦解后的新乱世",
+          "summary": "主战派、钻研派、蓝帮、乌鲁斯和其他机构争夺色金关联者、HSS与强大战力，Go For The NEXT宣战会议标志世界进入公开竞争阶段。"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-07/full.txt:87",
+        "hidan-no-aria-main/vol-07/full.txt:195",
+        "hidan-no-aria-main/vol-07/full.txt:597",
+        "hidan-no-aria-main/vol-07/full.txt:1573",
+        "hidan-no-aria-main/vol-07/full.txt:3839",
+        "hidan-no-aria-main/vol-07/full.txt:4425",
+        "hidan-no-aria-main/vol-07/full.txt:5735",
+        "hidan-no-aria-main/vol-07/full.txt:6715"
+      ]
+    },
+    {
+      "period_id": "vol-10-main",
+      "volume": "vol-10",
+      "time": "2009年11月上旬～11月14日后",
+      "name": {
+        "zh": "禁忌的双极",
+        "en": "Forbidden Bipolar"
+      },
+      "genre": [
+        "action",
+        "romance",
+        "school",
+        "science-weapon",
+        "supernatural"
+      ],
+      "summary": "第十卷围绕GⅢ与GⅣ（金女）介入极东战役展开。GⅣ以尖端科学兵器奇袭巴斯克维尔四名女成员，GⅢ随后逼迫金次接触并适应HSS。师团会议决定暂不正面开战，而尝试拉拢GⅣ。金女以远山金次妹妹身份潜入武侦高中并同居，展现人工天才、病态依恋、HSS女性形态等多重秘密。后半卷揭示GⅢ与金女出自洛斯阿拉莫斯菁英计划，金女的女版HSS不是强化战斗而是诱发保护欲，使双极兄妹理论破产。白雪被金次请来扮演家人兼护卫，最终与金女形成临时姐妹冲突。",
+      "core_conflict": "金次夹在巴斯克维尔同伴、师团战略与金女依恋之间；GⅢ/GⅣ的科学兵器与洛斯阿拉莫斯背景威胁极东战役平衡；HSS的女性形态颠覆双极兄妹计划。",
+      "timeline": [
+        {
+          "date": "第1弹",
+          "event": "GⅣ奇袭亚莉亚、白雪、理子、蕾姬并由GⅢ诱导金次救援"
+        },
+        {
+          "date": "第2弹",
+          "event": "师团会议决定尝试拉拢GⅣ，金女在医院公开自称金次妹妹"
+        },
+        {
+          "date": "第3弹",
+          "event": "金女进入金次宿舍并转入武侦高中一年C班"
+        },
+        {
+          "date": "第4弹",
+          "event": "金次与亚莉亚在SSR屋顶确认金女与金次间可能存在特殊羁绊；华生查明GⅢ身份"
+        },
+        {
+          "date": "第5弹",
+          "event": "金女失控后初次进入女版HSS，双极兄妹理论暴露缺陷"
+        },
+        {
+          "date": "第6弹",
+          "event": "金女说明洛斯阿拉莫斯真相，白雪作为临时家人入住并与金女冲突"
+        }
+      ],
+      "rules": [
+        "尖端科学兵器可压制传统枪械、刀剑与受璃璃色金削弱的超能力",
+        "洛斯阿拉莫斯菁英计划制造人工天才与人间兵器",
+        "女性HSS会使本人弱化并诱发男性保护欲，不等同男性战斗强化HSS",
+        "璃璃色金粒子高浓度期间会削弱鬼道术和超能力"
+      ],
+      "history_eras": [
+        {
+          "era": "禁忌的双极",
+          "summary": "极东战役进入科学兵器和人工天才介入阶段，GⅢ与金女成为师团必须处理的新中立势力。"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-10/full.txt:1",
+        "hidan-no-aria-main/vol-10/full.txt:1067",
+        "hidan-no-aria-main/vol-10/full.txt:2765",
+        "hidan-no-aria-main/vol-10/full.txt:4035",
+        "hidan-no-aria-main/vol-10/full.txt:5573",
+        "hidan-no-aria-main/vol-10/full.txt:7049"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-06/full.txt:1",
+    "hidan-no-aria-main/vol-07/full.txt:87",
+    "hidan-no-aria-main/vol-07/full.txt:195",
+    "hidan-no-aria-main/vol-07/full.txt:597",
+    "hidan-no-aria-main/vol-07/full.txt:1573",
+    "hidan-no-aria-main/vol-07/full.txt:3839",
+    "hidan-no-aria-main/vol-07/full.txt:4425",
+    "hidan-no-aria-main/vol-07/full.txt:5735",
+    "hidan-no-aria-main/vol-07/full.txt:6715"
+  ]
+}

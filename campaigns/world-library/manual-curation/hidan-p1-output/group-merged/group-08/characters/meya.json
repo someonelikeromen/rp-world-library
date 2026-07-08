@@ -1,0 +1,104 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "meya",
+  "volume": "vol-25",
+  "time_range": {
+    "start": "vol-25",
+    "end": "vol-25"
+  },
+  "sub_arcs": [
+    "vatican-treatment",
+    "n-investigation"
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-25/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-25",
+      "volume": "vol-25",
+      "time": "第二十五卷 罗马的军神星",
+      "label": "梵蒂冈圣战士与医疗支援",
+      "name": {
+        "zh": "梅雅·罗曼诺",
+        "en": "Meya Romano",
+        "jp": "メイヤ・ロマーノ"
+      },
+      "aliases": [
+        "梅雅老师",
+        "梵蒂冈圣战士"
+      ],
+      "titles": [
+        "罗马武侦高中教师",
+        "梵蒂冈战士"
+      ],
+      "gender": "female",
+      "species": "human",
+      "nationality": "Italian/Vatican",
+      "occupation": "教师/圣战士",
+      "affiliation": "梵蒂冈/罗马武侦高中/伊·U阵营临时同盟",
+      "status": {
+        "physical": "正常",
+        "role": "照护夏洛克并指挥梵蒂冈收押古兰督卡父女"
+      },
+      "appearance": {
+        "overview": "圣职人员气质，狂热信仰时眼神强烈。"
+      },
+      "personality": {
+        "summary": "信仰虔诚，面对N亵渎神名时愤怒；对学生有责任感。",
+        "core_traits": [
+          "虔诚",
+          "温柔",
+          "战斗时果断"
+        ]
+      },
+      "abilities_owned": [
+        "vatican-healing-magic",
+        "sacred-swordsmanship"
+      ],
+      "possessions_owned": [
+        "vatican-sacred-weapons"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "teacher/ally",
+          "summary": "为金次退学无能为力但理解其选择。"
+        },
+        "sherlock": {
+          "type": "patient",
+          "summary": "为夏洛克急救并将其送入梵蒂冈治疗。"
+        },
+        "cagalli": {
+          "type": "uneasy-cooperator",
+          "summary": "与卡羯共同调查N。"
+        },
+        "beretta": {
+          "type": "teacher/protector",
+          "summary": "在贝瑞塔被假梅雅骗走时被冒名。"
+        }
+      },
+      "knowledge": [
+        "vatican-underground-arsenal",
+        "sherlock-coma-status"
+      ],
+      "summary": "梅雅在广场会谈后以圣术稳定夏洛克，并借梵蒂冈地下医疗设施救治夏洛克和贝瑞塔。她随后参与N调查，并在竞技场战后率修女兵收押古兰督卡和伊欧。",
+      "key_events": [
+        {
+          "event_id": "sherlock-emergency-transport",
+          "summary": "协助亚莉亚将夏洛克送往梵蒂冈。",
+          "sourceRef": "hidan-no-aria-main/vol-25/full.txt"
+        },
+        {
+          "event_id": "granduca-io-captured",
+          "summary": "竞技场战后将古兰督卡与伊欧带往梵蒂冈地下监禁。",
+          "sourceRef": "hidan-no-aria-main/vol-25/full.txt"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-25/full.txt"
+      ]
+    }
+  ]
+}

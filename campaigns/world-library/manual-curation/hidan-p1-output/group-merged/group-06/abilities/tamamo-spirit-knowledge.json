@@ -1,0 +1,45 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "ability",
+  "entityId": "tamamo-spirit-knowledge",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-09",
+  "_schema": "rp-ability-volume-v1",
+  "periods": [
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:4960",
+        "hidan-no-aria-main/vol-09/full.txt:5105",
+        "hidan-no-aria-main/vol-09/full.txt:5275"
+      ],
+      "snapshot": {
+        "name": "玉藻超常知识",
+        "aliases": [
+          "战役知识",
+          "色金知识",
+          "星伽与远山职责知识"
+        ],
+        "type": "knowledge / divine authority",
+        "description": "玉藻掌握极东战役、色金、壳金、绯绯神化以及远山家与星伽家历史职责的知识。本卷她负责向白雪、金次和亚莉亚说明核心风险。",
+        "known_users": [
+          "tamamo"
+        ],
+        "effects": [
+          "解释战役规则与结束条件",
+          "判断亚莉亚壳金不足风险",
+          "指导星伽与远山分担职责",
+          "将壳金放回亚莉亚体内"
+        ],
+        "limitations": [
+          "部分涉及恋心与绯绯色金的细节刻意不向金次全盘说明"
+        ],
+        "associated_systems": [
+          "extreme-east-war",
+          "scarlet-shell-seven-stars"
+        ],
+        "evidence_level": "S"
+      }
+    }
+  ]
+}

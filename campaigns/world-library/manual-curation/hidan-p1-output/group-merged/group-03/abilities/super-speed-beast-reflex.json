@@ -1,0 +1,68 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "super-speed-beast-reflex",
+  "volume": "vol-25",
+  "source_refs": [
+    "hidan-no-aria-main/vol-25/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-25",
+      "volume": "vol-25",
+      "time": "第二十五卷 罗马的军神星",
+      "name": {
+        "zh": "兽人超超速度反射",
+        "en": "Super-speed Beast Reflex"
+      },
+      "aliases": [
+        "看到枪口焰后闪避子弹"
+      ],
+      "type": "combat / innate / beast",
+      "description": "古兰督卡与伊欧共有的超高速移动与反射，可在看到枪口焰后闪避超音速子弹。",
+      "details": {
+        "users": "古兰督卡以巨大体型也能瞬间移动；伊欧能贴地疾跑并躲开枪击。"
+      },
+      "activation": {
+        "condition": "视觉/听觉捕捉攻击征兆",
+        "incantation": "",
+        "time": "瞬时",
+        "cost": "未知；受伤后速度下降"
+      },
+      "effects": [
+        "躲避枪击",
+        "高速接近或撤退",
+        "贴地战斗"
+      ],
+      "power_level": {
+        "initial": "伊欧躲开金次和亚莉亚射击",
+        "peak": "古兰督卡在亚鲁·卡达距离闪避枪击",
+        "evolution": []
+      },
+      "known_feats": [
+        "伊欧在停车场躲子弹",
+        "古兰督卡需看见枪口焰才能闪避"
+      ],
+      "shared_by": [
+        "granduca",
+        "io"
+      ],
+      "see_also": [
+        "curved-bullet",
+        "io-beast-speed"
+      ],
+      "countered_by": [
+        "curved-bullet",
+        "sarah-silent-archery"
+      ],
+      "counters": [
+        "ordinary-firearms"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-25/full.txt"
+      ]
+    }
+  ]
+}

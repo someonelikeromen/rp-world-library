@@ -1,0 +1,104 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "yuan-meishi",
+  "volume": "vol-45",
+  "time_range": {
+    "start": "vol-45",
+    "end": "vol-45"
+  },
+  "source_refs": [
+    "hidan-no-aria-main/vol-45/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-45",
+      "volume": "vol-45",
+      "time": "2011-03 to 2011-04",
+      "label": "蓝帮联系人与SBZ人质",
+      "name": {
+        "zh": "院美诗",
+        "en": "Yuan Meishi",
+        "jp": "院美詩"
+      },
+      "aliases": [
+        "元",
+        "小元"
+      ],
+      "titles": [
+        "蓝帮底层成员",
+        "金次专属负责人"
+      ],
+      "gender": "female",
+      "species": "human",
+      "nationality": "Hong Kong/Chinese",
+      "occupation": "学生/蓝帮成员",
+      "affiliation": "蓝帮",
+      "status": {
+        "social": "考入东京大学，来日留学并接受蓝帮东京工作",
+        "mental": "对日本留学兴奋，对卷入超自然事件敬而远之"
+      },
+      "appearance": {
+        "overview": "不规则短双马尾，香港女学生风格，冬天披斗篷大衣围围巾。"
+      },
+      "personality": {
+        "summary": "现实、会吐槽、日语进步明显。",
+        "core_traits": [
+          "务实",
+          "聪明",
+          "日本迷",
+          "距离感近"
+        ],
+        "strengths": [
+          "中文翻译",
+          "蓝帮联络",
+          "留学能力"
+        ],
+        "flaws": [
+          "容易被上层推锅"
+        ]
+      },
+      "abilities_owned": [
+        "translation-and-intel"
+      ],
+      "possessions_owned": [
+        "blue-gang-red-letter",
+        "taipei-business-class-ticket",
+        "chyna-passport"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "contact/friend",
+          "summary": "向金次转交蓝帮灵异部关于韦泽尔芙的信件和机票，卷末被SBZ绑作诱饵。"
+        },
+        "blue-gang": {
+          "type": "member",
+          "summary": "被误设为远山金次专属负责人。"
+        },
+        "zhao-yun": {
+          "type": "captor",
+          "summary": "卷末在安田讲堂被赵云等绑住。"
+        }
+      },
+      "summary": "元在金次落榜后突然到访，告知自己考入东大并转交蓝帮灵异部的信、机票、千奈护照，促成金次赴台北接回千奈。卷末她被SBZ绑在安田讲堂屋顶作为诱饵。",
+      "key_events": [
+        {
+          "event_id": "blue-gang-letter-taipei-mission",
+          "summary": "翻译韦泽尔芙预告并转交去台北的商务舱机票。",
+          "sourceRef": "hidan-no-aria-main/vol-45/full.txt:2229"
+        },
+        {
+          "event_id": "sbz-ambush-yasuda",
+          "summary": "被绑在安田讲堂屋顶诱出金次。",
+          "sourceRef": "hidan-no-aria-main/vol-45/full.txt:5921"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-45/chapters/ch-003-第3弹_子弹飞行.txt:415",
+        "hidan-no-aria-main/vol-45/chapters/ch-003-第3弹_子弹飞行.txt:435",
+        "hidan-no-aria-main/vol-45/chapters/ch-007-Go_For_The_NEXT!!!_SBZ——你运气太差了.txt:13"
+      ]
+    }
+  ]
+}

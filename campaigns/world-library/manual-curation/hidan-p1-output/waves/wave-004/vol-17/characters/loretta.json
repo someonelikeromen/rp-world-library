@@ -1,0 +1,108 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "loretta",
+  "volume": "vol-17",
+  "time_range": {
+    "start": "龙之港逃亡",
+    "end": "西西里岛调任"
+  },
+  "sub_arcs": [
+    "龙之港获救",
+    "梵蒂冈处分"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-17-main",
+      "volume": "vol-17",
+      "time": "龙之港至阿姆斯特丹",
+      "label": "被流放的梵蒂冈驱魔司教",
+      "name": {
+        "zh": "萝蕾塔",
+        "en": "Loretta",
+        "jp": "ロレッタ"
+      },
+      "aliases": [
+        "萝蕾塔小姐",
+        "驱魔司教"
+      ],
+      "titles": [
+        "梵蒂冈驱魔司教",
+        "梅雅前支配者"
+      ],
+      "gender": "女性",
+      "species": "人类",
+      "nationality": "梵蒂冈/意大利系",
+      "occupation": "驱魔司教",
+      "affiliation": "梵蒂冈除魔师",
+      "status": {
+        "physical": "龙之港中因眼盲欲跳海逃走，被金次在半空接住。",
+        "political": "因同时讨好师团与眷属的策略失败，被调任西西里岛圣法兰西斯科教堂。"
+      },
+      "appearance": {
+        "overview": "穿白色法衣的盲眼成熟女性。",
+        "attire": {
+          "default": "华丽白色法衣"
+        },
+        "distinctive": [
+          "眼睛看不见",
+          "胸前划十字祈祷"
+        ]
+      },
+      "personality": {
+        "summary": "柔和但有组织任务的一面；失败后对金次和梅雅下跪道歉。",
+        "core_traits": [
+          "虔诚",
+          "顺从组织",
+          "有愧疚感"
+        ],
+        "strengths": [
+          "宗教身份",
+          "组织联络"
+        ],
+        "flaws": [
+          "利用梅雅并两面下注",
+          "行动受梵蒂冈政治摆布"
+        ],
+        "inner_conflict": "宗教身份与政治任务冲突，最终承担失败后果。"
+      },
+      "abilities_owned": [],
+      "possessions_owned": [],
+      "relationships": {
+        "kinji": {
+          "type": "rescued-by",
+          "summary": "跳海时被金次救下，之后对其下跪道歉。"
+        },
+        "meiya-romano": {
+          "type": "former-handler",
+          "summary": "曾利用梅雅的幸运强化能力，后来与梅雅一同向金次谢罪。"
+        }
+      },
+      "knowledge": [
+        "vatican-double-dealing",
+        "loretta-sicily-transfer"
+      ],
+      "summary": "萝蕾塔在龙之港战斗结束前试图跳海逃走，却被金次接住并交由凯撒等人处理。阿姆斯特丹后，她带着获解放的梅雅向金次道歉，并报告自己将被梵蒂冈调任西西里岛，成为组织断尾式处分对象。",
+      "key_events": [
+        {
+          "event_id": "loretta-rescued",
+          "summary": "在龙之港跳海前被金次半空救下。",
+          "sourceRef": "hidan-no-aria-main/vol-17/full.txt:500"
+        },
+        {
+          "event_id": "freemasonry-ceasefire",
+          "summary": "在阿姆斯特丹后带梅雅向金次谢罪并说明调任。",
+          "sourceRef": "hidan-no-aria-main/vol-17/full.txt:690"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-17/chapters/ch-001-第十七卷_绯弹的宣叙曲_1弹_热沃当与哿.txt:500",
+        "hidan-no-aria-main/vol-17/chapters/ch-001-第十七卷_绯弹的宣叙曲_1弹_热沃当与哿.txt:690"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-17/chapters/ch-001-第十七卷_绯弹的宣叙曲_1弹_热沃当与哿.txt:500"
+  ]
+}

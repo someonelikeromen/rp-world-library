@@ -1,0 +1,370 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "shidou",
+  "volume": "vol-21",
+  "source_refs": [
+    "hidan-no-aria-main/vol-21/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-21",
+      "volume": "vol-21",
+      "time": "第二十一卷",
+      "name": {
+        "zh": "狮堂",
+        "en": "Shidou",
+        "jp": "獅堂"
+      },
+      "aliases": [
+        "东京地检特搜部的狮堂",
+        "狮子般的男人"
+      ],
+      "gender": "male",
+      "species": "human",
+      "occupation": "东京地检特搜部人员; 逮捕小队队长",
+      "affiliation": "东京地检特搜部",
+      "status": {
+        "end": "持逮捕令在晚上七点以杀人嫌疑逮捕远山金次"
+      },
+      "abilities_owned": [
+        "overwhelming-presence",
+        "squad-command",
+        "prosecutorial-arrest"
+      ],
+      "possessions_owned": [
+        "kinji-arrest-warrant",
+        "lucky-strike-cigarettes",
+        "omega-speedmaster"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "arrester",
+          "summary": "将金次视为需要教育的小鬼并以杀人嫌疑逮捕"
+        },
+        "harada-seiba": {
+          "type": "squad-commander",
+          "summary": "命令原田等人组成Delta攻击阵列"
+        },
+        "nada": {
+          "type": "squad-commander",
+          "summary": "压制滩的异议并统一小队行动"
+        },
+        "shiranui": {
+          "type": "operation-collaborator",
+          "summary": "由不知火负责给金次上铐"
+        }
+      },
+      "summary": "狮堂是卷末登场的东京地检特搜部强者，气势被金次比作阎王或狮子。他率可鹉韦、滩、原田、大门坊等人组成攻击性阵列，并正式出示逮捕令逮捕金次。",
+      "key_events": [
+        {
+          "event_id": "kinji-arrested-by-shidou",
+          "summary": "在学园岛第十三区商店大楼前宣布以杀人嫌疑逮捕金次",
+          "sourceRef": "hidan-no-aria-main/vol-21/full.txt"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-21/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-22",
+      "volume": "vol-22",
+      "time": "第十三区前零课行动",
+      "label": "前零课队长",
+      "name": {
+        "zh": "狮堂",
+        "en": "Shidou",
+        "jp": ""
+      },
+      "aliases": [],
+      "titles": [
+        "前公安零课队长",
+        "东京地检转属人员"
+      ],
+      "gender": "男",
+      "species": "人类；乘能力者",
+      "nationality": "日本",
+      "occupation": "前公安零课成员；东京地检辖下特别人员",
+      "affiliation": "former-public-security-zero；tokyo-district-prosecutors-office",
+      "status": {
+        "alive": true,
+        "vol22": "试图用无名氏之死和伊藤茉切情报挖角金次"
+      },
+      "appearance": {
+        "overview": "高大强壮、卷发、沙漠色风衣、气势压倒性。",
+        "distinctive": [
+          "异常握力",
+          "可徒手承受八倍樱花"
+        ]
+      },
+      "personality": {
+        "summary": "粗鲁但有领导力，以大人式现实主义教训金次。",
+        "core_traits": [
+          "支配性",
+          "重组织力",
+          "豪放",
+          "懂得激励部下",
+          "对金叉与茉切掌握机密"
+        ]
+      },
+      "abilities_owned": [
+        "shidou-muscle-multiplier"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "kinji": {
+          "relation": "挖角目标/试炼对象",
+          "status": "逼金次战斗并邀请加入前零课。",
+          "sourceRef": "hidan-no-aria-main/vol-22/full.txt:1209"
+        },
+        "kamui": {
+          "relation": "部下",
+          "status": "判断可鹉韦与金次同为能自行增减力量的类型。",
+          "sourceRef": "hidan-no-aria-main/vol-22/full.txt:351"
+        },
+        "harada-shizuka": {
+          "relation": "协力部下",
+          "status": "命其作为金次联络人。",
+          "sourceRef": "hidan-no-aria-main/vol-22/full.txt:1769"
+        },
+        "armed-prosecutor-unnamed": {
+          "relation": "上司/政治制约者",
+          "status": "被其阻止并要求写悔过书。",
+          "sourceRef": "hidan-no-aria-main/vol-22/full.txt:1597"
+        }
+      },
+      "knowledge": [
+        "kinsha-survival-question",
+        "ito-makiri-active-again"
+      ],
+      "secrets": [
+        "关于远山金叉的机密权限不足以对金次说明"
+      ],
+      "summary": "狮堂是本卷新登场的压倒性强者，前零课队长，拥有常人二百五十六倍肌力级别的乘能力，承受金次八倍樱花后仍无伤，并持续想把金次纳入麾下。",
+      "key_events": [
+        {
+          "event_id": "eightfold-sakura-vs-shidou",
+          "summary": "承受金次八倍樱花并揭示肌纤维乘能力。",
+          "sourceRef": "hidan-no-aria-main/vol-22/full.txt:1179"
+        },
+        {
+          "event_id": "hilda-rescue-and-prosecutor-intervention",
+          "summary": "被武装检察官制止，因金次留级而无法挖角。",
+          "sourceRef": "hidan-no-aria-main/vol-22/full.txt:1611"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-22/chapters/ch-001-第二十二卷_愿彗星沉睡于白日梦_1弹_无名氏之死.txt:351",
+        "hidan-no-aria-main/vol-22/chapters/ch-001-第二十二卷_愿彗星沉睡于白日梦_1弹_无名氏之死.txt:1179",
+        "hidan-no-aria-main/vol-22/chapters/ch-001-第二十二卷_愿彗星沉睡于白日梦_1弹_无名氏之死.txt:1209",
+        "hidan-no-aria-main/vol-22/chapters/ch-001-第二十二卷_愿彗星沉睡于白日梦_1弹_无名氏之死.txt:1769"
+      ]
+    },
+    {
+      "period_id": "vol-23",
+      "volume": "vol-23",
+      "time": "第二十三卷",
+      "label": "前零课三式班核心",
+      "name": {
+        "zh": "狮堂",
+        "en": "Shidou",
+        "jp": "狮堂"
+      },
+      "aliases": [
+        "狮堂先生"
+      ],
+      "titles": [
+        "前公安零课三式班成员/头领",
+        "金刚力士般的男人"
+      ],
+      "gender": "男",
+      "species": "人类/超常体魄者",
+      "nationality": "日本",
+      "occupation": "前零课成员",
+      "affiliation": "前公安零课三式班",
+      "status": {
+        "physical": "卷中出国前夕；未参与东京湾行动",
+        "family": "有小学女儿狮堂美香"
+      },
+      "appearance": {
+        "overview": "高大魁梧、卷发、穿沙漠色风衣，像昭和电影明星"
+      },
+      "personality": {
+        "summary": "粗野豪爽、重情义、爱酒烟赌且会做菜",
+        "core_traits": [
+          "照顾晚辈",
+          "豪放",
+          "羞于道歉",
+          "领导魅力"
+        ],
+        "flaws": [
+          "酗酒",
+          "赌博",
+          "粗枝大叶"
+        ]
+      },
+      "abilities_owned": [
+        "shidou-super-strength"
+      ],
+      "possessions_owned": [
+        "shidou-mercury-cougar",
+        "lucky-strike"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "赔罪对象/潜在招揽对象",
+          "detail": "为学园岛事件向金次道歉并警告他小心N"
+        },
+        "kamui-ito": {
+          "type": "部下/保护对象",
+          "detail": "命令可鹉韦不要单独挑战茉斩"
+        },
+        "daimonbou": {
+          "type": "部下",
+          "detail": "三式班同伴"
+        },
+        "nada": {
+          "type": "部下/同伴",
+          "detail": "三式班同伴"
+        },
+        "shidou-mika": {
+          "type": "父女",
+          "detail": "被女儿拖回家并完全抬不起头"
+        }
+      },
+      "summary": "狮堂在锦系町宴会中正式向金次道歉，展现粗豪但重情义的前零课领袖面。他说明N的危险，要求不要杀死茉斩且要活捉问话；随后因出国而错过茉斩劫持春雾事件。",
+      "key_events": [
+        {
+          "event_id": "zero-party-n-warning",
+          "summary": "在妖刕家做咖哩、道歉并警告N会毁灭国家",
+          "sourceRef": "hidan-no-aria-main/vol-23/full.txt:3007"
+        },
+        {
+          "event_id": "shidou-mika-pickup",
+          "summary": "醉倒后被女儿美香拖回家",
+          "sourceRef": "hidan-no-aria-main/vol-23/full.txt:3383"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-23/chapters/ch-003-第二十三卷_不可知子弹_3弹_Take_note_『N』.txt:299",
+        "hidan-no-aria-main/vol-23/chapters/ch-003-第二十三卷_不可知子弹_3弹_Take_note_『N』.txt:529",
+        "hidan-no-aria-main/vol-23/chapters/ch-003-第二十三卷_不可知子弹_3弹_Take_note_『N』.txt:675"
+      ]
+    },
+    {
+      "period_id": "vol-29",
+      "volume": "vol-29",
+      "time": "第二十九卷 盟约的谍候",
+      "label": "公安侧任务监督",
+      "name": {
+        "zh": "狮堂虎严",
+        "en": "Kogen Shidou",
+        "jp": "獅堂虎厳"
+      },
+      "aliases": [
+        "狮堂",
+        "前公安零课三号"
+      ],
+      "titles": [
+        "前公安零课三号"
+      ],
+      "gender": "male",
+      "species": "human",
+      "nationality": "Japanese",
+      "occupation": "公安/武侦任务协力",
+      "affiliation": "公安警察/武侦厅协力",
+      "status": {
+        "physical": "强壮高大。",
+        "mental": "喜欢嘲笑金次女装。"
+      },
+      "appearance": {
+        "overview": "五官深邃、肌肉感强，外套下藏大型手枪。",
+        "distinctive": [
+          "Hardballer手枪",
+          "常憋笑"
+        ]
+      },
+      "personality": {
+        "summary": "强硬、爱挖苦，负责堵住金次逃跑路线。",
+        "core_traits": [
+          "强壮",
+          "恶趣味",
+          "任务执行力"
+        ]
+      },
+      "abilities_owned": [
+        "public-security-combat"
+      ],
+      "possessions_owned": [
+        "shidou-hardballer"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "coercer",
+          "summary": "挡住阳台逃路，威胁并嘲笑金次转装。"
+        },
+        "kinichi": {
+          "type": "mission-colleague",
+          "summary": "与金一共同确认克罗梅德尔真实身份。"
+        }
+      },
+      "knowledge": [
+        "agnes-infiltration-mission"
+      ],
+      "secrets": [],
+      "summary": "狮堂在开篇作为公安侧监督，与金一一同逼迫金次转装并参与任务压力施加。",
+      "key_events": [
+        {
+          "event_id": "crossdress-infiltration-order",
+          "summary": "协助逼迫金次接受克罗梅德尔潜入任务。",
+          "sourceRef": "hidan-no-aria-main/vol-29/full.txt"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-29/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-30",
+      "volume": "vol-30",
+      "time": "第三十卷",
+      "name": {
+        "zh": "狮堂"
+      },
+      "aliases": [
+        "狮堂"
+      ],
+      "gender": "male",
+      "species": "human",
+      "status": "alive",
+      "affiliation": [
+        "公安零课相关/远山家协力者"
+      ],
+      "abilities_owned": [],
+      "possessions_owned": [],
+      "relationships": {
+        "kinji": {
+          "type": "teasing ally",
+          "description": "在金次房间与金一等候并嘲笑克罗梅德尔补充装备。"
+        },
+        "kinichi": {
+          "type": "associate",
+          "description": "与金一同来金次房间。"
+        }
+      },
+      "key_events": [
+        "cromedelle-gear-delivery"
+      ],
+      "notes": "本卷出场较短，但继续暗示其知悉远山金叉和公安零课相关旧事。",
+      "evidence_level": "B",
+      "source_refs": [
+        "hidan-no-aria-main/vol-30/full.txt"
+      ]
+    }
+  ]
+}

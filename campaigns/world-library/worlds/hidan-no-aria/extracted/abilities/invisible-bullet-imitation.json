@@ -1,0 +1,48 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "ability",
+  "entityId": "invisible-bullet-imitation",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-09",
+  "_schema": "rp-ability-volume-v1",
+  "periods": [
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:1260",
+        "hidan-no-aria-main/vol-09/full.txt:1310"
+      ],
+      "snapshot": {
+        "name": "不可视子弹模仿",
+        "aliases": [
+          "Invisible Bullet imitation",
+          "手枪拔刀术",
+          "大哥有样学样"
+        ],
+        "type": "gun technique",
+        "description": "金次准备以从远山金一处学到的不可视子弹式快速拔枪射击，在希尔达释放雷球的蓄力瞬间用法化银弹击伤她。",
+        "details": {
+          "stance": "手枪中的拔刀术，发射前集中精神观察目标",
+          "vol09_outcome": "希尔达察觉银弹气味并反向利用金次注视施加暗示术，使该招未能发射"
+        },
+        "known_users": [
+          "kinji",
+          "tooyama-kinichi"
+        ],
+        "effects": [
+          "在敌方蓄力空档高速拔枪射击",
+          "适合反制有明显启动延迟的招式"
+        ],
+        "limitations": [
+          "射击前集中注视会被希尔达暗示术利用",
+          "需要隐蔽枪械与弹药气味"
+        ],
+        "associated_items": [
+          "beretta-m92f-kinji",
+          "consecrated-silver-bullets"
+        ],
+        "evidence_level": "A"
+      }
+    }
+  ]
+}

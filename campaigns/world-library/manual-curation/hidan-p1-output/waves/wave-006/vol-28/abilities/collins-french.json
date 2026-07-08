@@ -1,0 +1,54 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "collins-french",
+  "volume": "vol-28",
+  "periods": [
+    {
+      "period_id": "vol-28",
+      "volume": "vol-28",
+      "time": "卷末",
+      "name": {
+        "zh": "法文解读",
+        "en": "French Reading"
+      },
+      "aliases": [],
+      "type": "skill",
+      "description": "柯林斯能阅读法文并翻译尼莫寄来的卡片。",
+      "details": {},
+      "activation": {
+        "condition": "看到法文文本",
+        "incantation": "",
+        "time": "即时",
+        "cost": "无"
+      },
+      "effects": [
+        "揭示尼莫卡片引用《罗密欧与茱丽叶》"
+      ],
+      "power_level": {
+        "initial": "熟练",
+        "peak": "识别文学典故",
+        "evolution": []
+      },
+      "known_feats": [
+        "翻译茉莉花卡片"
+      ],
+      "shared_by": [
+        "collins"
+      ],
+      "see_also": [
+        "nemo-jasmine-card-message"
+      ],
+      "countered_by": [],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-28/chapters/ch-006-第二十八卷_远洋孤岛的珊瑚礁_Go_For_The_NEXT！！！依然芳香美丽.txt:1"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-28/chapters/ch-006-第二十八卷_远洋孤岛的珊瑚礁_Go_For_The_NEXT！！！依然芳香美丽.txt:1"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "location",
+  "entityId": "tokyo-sky-tree-under-construction",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-08",
+  "periods": [
+    {
+      "periodId": "vol-08",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-08/full.txt:6347",
+        "hidan-no-aria-main/vol-08/full.txt:6373",
+        "hidan-no-aria-main/vol-08/full.txt:6491",
+        "hidan-no-aria-main/vol-08/full.txt:7015"
+      ],
+      "snapshot": {
+        "name": "建设中的东京天空树",
+        "aliases": [
+          "天空树",
+          "押上1-1-2",
+          "350公尺高空",
+          "Tokyo Sky Tree"
+        ],
+        "type": "construction site / duel arena",
+        "description": "华生把昏睡的亚莉亚带去的建设中电波塔。塔体支柱略呈螺旋状，高处尚未装玻璃，强风与上升气流成为金次最后创造‘螺旋’偏弹的环境条件。",
+        "controlled_by": "施工现场；夜间被华生临时用作决斗场",
+        "key_events": [
+          "skytree-duel",
+          "watson-reveals-female-and-alliance"
+        ],
+        "hazards": [
+          "高空坠落",
+          "未完工结构",
+          "强风与上升气流",
+          "枪剑决斗"
+        ],
+        "evidence_level": "S"
+      }
+    },
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:25",
+        "hidan-no-aria-main/vol-09/full.txt:45",
+        "hidan-no-aria-main/vol-09/full.txt:354",
+        "hidan-no-aria-main/vol-09/full.txt:2190"
+      ],
+      "snapshot": {
+        "name": "建设中的东京天空树",
+        "aliases": [
+          "天空树",
+          "第一观景台",
+          "第二观景台",
+          "450m高空工地"
+        ],
+        "type": "construction site / battlefield",
+        "description": "本卷希尔达决战场地。第一观景台仍在工程中，四周钢筋裸露且有工程楼梯和水管房；第二观景台位于约450m高空，布置了棺材、红蔷薇、供电装置和希尔达陷阱。",
+        "details": {
+          "first_observatory": "华生被雷球击倒后藏身下方水管小房间，理子和希尔达战后也在此接受初步治疗",
+          "second_observatory": "希尔达棺材变压器、金次/亚莉亚棺材电池、花束霰弹枪与最终雷星战场",
+          "weather": "夜间强风、雷雨，适合希尔达第三型态引雷"
+        },
+        "controlled_by": "施工现场；临时被希尔达占据",
+        "key_events": [
+          "sky-tree-hilda-showdown"
+        ],
+        "hazards": [
+          "高空坠落",
+          "城市电力偷取装置",
+          "雷球/雷星",
+          "蝙蝠群",
+          "裸露钢筋和断裂电缆"
+        ],
+        "evidence_level": "S"
+      }
+    }
+  ]
+}

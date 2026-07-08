@@ -1,0 +1,49 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "tooyama-tachibana",
+  "volume": "vol-33",
+  "source_refs": [
+    "hidan-no-aria-main/vol-33/chapters/ch-001-第三十三卷_花冠的归国兵_1弹_海楼的密使.txt:1"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-33",
+      "volume": "vol-33",
+      "time": "第三十三卷 花冠的归国兵",
+      "name": {
+        "zh": "橘花",
+        "en": "Tachibana"
+      },
+      "aliases": [],
+      "type": "combat",
+      "description": "远山家将冲击力分散到地面的技术。金次在被秋花推向墙壁时以脚施展橘花，把剩余动能导入地面并让两人停在魔法阵中。",
+      "details": {
+        "usage": "配合失败的万旗使用，阻止雪花把金次撞死。"
+      },
+      "activation": {
+        "condition": "脚部接地并可导力",
+        "incantation": "",
+        "time": "instant",
+        "cost": "身体负荷"
+      },
+      "effects": [
+        "分散冲击",
+        "降低撞击动能"
+      ],
+      "known_feats": [
+        "金次在海萤火虫地下设施中用橘花抵消秋花余势"
+      ],
+      "shared_by": [
+        "kinji"
+      ],
+      "see_also": [
+        "tooyama-banki"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-33/chapters/ch-001-第三十三卷_花冠的归国兵_1弹_海楼的密使.txt:1"
+      ]
+    }
+  ]
+}

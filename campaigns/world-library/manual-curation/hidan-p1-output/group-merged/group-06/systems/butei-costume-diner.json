@@ -1,0 +1,36 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "system",
+  "entityId": "butei-costume-diner",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-08",
+  "periods": [
+    {
+      "periodId": "vol-08",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-08/full.txt:1903",
+        "hidan-no-aria-main/vol-08/full.txt:2201",
+        "hidan-no-aria-main/vol-08/full.txt:2293",
+        "hidan-no-aria-main/vol-08/full.txt:2635"
+      ],
+      "snapshot": {
+        "name": "变装食堂",
+        "aliases": [
+          "文化祭变装食堂",
+          "武侦高中变装咖啡厅"
+        ],
+        "type": "school-event-system",
+        "description": "武侦高中二年级文化祭活动。学生抽签决定服装，必须确实扮演抽到的职业与举止，服装也要具备真实感；未完成或不认真会受到教务科严厉处罚。",
+        "rules": [
+          "每人可重抽一次，但第二签强制确定",
+          "服装须在截止日前完成",
+          "进入准备教室后至少练习一小时角色举止"
+        ],
+        "key_events": [
+          "butei-costume-diner-prep"
+        ],
+        "evidence_level": "S"
+      }
+    }
+  ]
+}

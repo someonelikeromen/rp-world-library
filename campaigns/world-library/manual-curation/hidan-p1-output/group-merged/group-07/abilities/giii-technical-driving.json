@@ -1,0 +1,69 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "giii-technical-driving",
+  "volume": "vol-31",
+  "source_refs": [
+    "hidan-no-aria-main/vol-31/full.txt:753"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-31",
+      "volume": "vol-31",
+      "time": "第三十一卷",
+      "name": {
+        "zh": "GⅢ驾驶与路线规划",
+        "en": "GIII technical driving and routing"
+      },
+      "aliases": [
+        "美国路线规划",
+        "高速驾驶"
+      ],
+      "type": "skill / tactical",
+      "description": "GⅢ依靠美国本土知识、驾驶技术和临场路线规划，完成横越美国、避开FBI以及经加拿大水路接近尼加拉瀑布的计划。",
+      "details": {
+        "user": "giii",
+        "vehicles": [
+          "cadillac-eldorado",
+          "bates-police-boat",
+          "niagara-paddleboat"
+        ]
+      },
+      "activation": {
+        "condition": "需要车辆/船只与地理判断",
+        "incantation": "",
+        "time": "持续",
+        "cost": "需承担追击与事故风险"
+      },
+      "effects": [
+        "横越多州抵达华盛顿DC",
+        "设计从加拿大进入尼加拉河的绕行方案",
+        "驾驶凯迪拉克突破FBI包围"
+      ],
+      "power_level": {
+        "initial": "高",
+        "peak": "在被追捕状态下保持小队机动性",
+        "evolution": []
+      },
+      "known_feats": [
+        "提出陆空不通则从水路入侵鳖点的方案"
+      ],
+      "shared_by": [
+        "giii"
+      ],
+      "see_also": [
+        "cadillac-eldorado"
+      ],
+      "countered_by": [
+        "bates-magnetokinesis"
+      ],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-31/full.txt:753",
+        "hidan-no-aria-main/vol-31/full.txt:3064"
+      ]
+    }
+  ]
+}

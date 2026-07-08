@@ -1,0 +1,62 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "character",
+  "entityId": "ranba",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-09",
+  "_schema": "rp-character-volume-v1",
+  "periods": [
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:3845",
+        "hidan-no-aria-main/vol-09/full.txt:3885",
+        "hidan-no-aria-main/vol-09/full.txt:6745"
+      ],
+      "snapshot": {
+        "name": "兰豹",
+        "aliases": [
+          "兰豹老师",
+          "兰兰",
+          "女猩猩教师"
+        ],
+        "gender": "女",
+        "status": "存活；负责文化祭变装食堂评分并表扬蕾姬海报",
+        "role": "东京武侦高中教师；文化祭变装食堂评审",
+        "affiliations": [
+          "东京武侦高中",
+          "教务科/教师侧"
+        ],
+        "abilities_owned": [
+          "hand-to-hand-discipline",
+          "teacher-authority"
+        ],
+        "possessions_owned": [],
+        "equipment": [
+          "军靴",
+          "文化祭评分权"
+        ],
+        "relationships": [
+          {
+            "target": "kinji",
+            "type": "教师/压制对象",
+            "detail": "因金次警官装眼神阴沉而把他赶进厨房，后被金次用秘密账号线索威胁。"
+          },
+          {
+            "target": "mutou",
+            "type": "教师/压制对象",
+            "detail": "因武藤消防队员装扮吊儿郎当而把他踢进厨房。"
+          },
+          {
+            "target": "reki",
+            "type": "表扬者",
+            "detail": "文化祭海报投票后通知蕾姬作品获得第一名。"
+          }
+        ],
+        "summary": "兰豹在文化祭第一天担任变装食堂的严厉评审，以暴力方式把金次、武藤和平贺分配到厨房；她也在庆功锅会中突然出现，宣布变装食堂评价良好，并表扬蕾姬的海报作品。",
+        "evidence_level": "B",
+        "source_refs": []
+      }
+    }
+  ]
+}

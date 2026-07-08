@@ -1,0 +1,53 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "ability",
+  "entityId": "crimson-bullet",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-04",
+  "periods": [
+    {
+      "periodId": "vol-04",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-04/full.txt:6985",
+        "hidan-no-aria-main/vol-04/full.txt:6939",
+        "hidan-no-aria-main/vol-04/full.txt:7020"
+      ],
+      "snapshot": {
+        "name": "绯弹",
+        "aliases": [
+          "Crimson Bullet",
+          "绯色光弹",
+          "绯弹的亚莉亚"
+        ],
+        "type": "supernatural / innate",
+        "description": "亚莉亚体内沉睡的绯色之力，本卷于黄金灵柩中由金次的亲吻和绯色蝴蝶刀为媒介而觉醒。释放出一颗绯色光弹，以无声无热的方式削去金字塔顶部，摧毁佩特拉的无限魔力魔法阵。",
+        "details": {
+          "manifestation_form": "亚莉亚指尖发出的绯色光芒凝聚成光弹",
+          "effect_characteristics": "无声、无热、无冲击波，直接令物质消失",
+          "catalyst": "金次持有的绯色蝴蝶刀在金次与亚莉亚亲吻时发出强烈绯光",
+          "condition": "金次爆发模式下与亚莉亚接吻触发"
+        },
+        "activation": {
+          "condition": "亚莉亚濒死状态 + 金次HSS下的亲吻 + 绯色蝴蝶刀共鸣",
+          "time": "瞬间"
+        },
+        "effects": [
+          "一指发射绯色光弹",
+          "削除金字塔顶端结构",
+          "摧毁佩特拉的无限魔力魔法阵",
+          "令佩特拉身上的黄金装饰全部变回沙金"
+        ],
+        "power_level": {
+          "initial": "削去大型金字塔顶部",
+          "peak": "未知（本卷首次觉醒）"
+        },
+        "shared_by": [
+          "aria"
+        ],
+        "evidence_level": "S",
+        "source_refs": []
+      }
+    }
+  ],
+  "_schema": "rp-ability-volume-v1"
+}

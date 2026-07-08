@@ -1,0 +1,72 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "jeanne",
+  "volume": "vol-35",
+  "source_refs": [
+    "hidan-no-aria-main/vol-35/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-35",
+      "volume": "vol-35",
+      "time": "第三十五卷",
+      "name": {
+        "zh": "贞德",
+        "en": "Jeanne d'Arc",
+        "jp": "ジャンヌ"
+      },
+      "aliases": [
+        "魔女",
+        "准护理师"
+      ],
+      "gender": "female",
+      "species": "human / witch",
+      "nationality": "France",
+      "occupation": "魔女/准护理师/武侦相关协力者",
+      "affiliation": [
+        "巴斯克维尔协力圈"
+      ],
+      "status": {
+        "life": "alive",
+        "condition": "未直接登场战斗；受亚莉亚委托制作封锁路西菲莉亚魔力的脚趾环",
+        "role": "路西菲莉亚安全拘束的技术支援"
+      },
+      "appearance": {
+        "overview": "本卷主要通过电话与成果被提及。"
+      },
+      "personality": {
+        "summary": "可靠的魔术与护理支援者。"
+      },
+      "abilities_owned": [
+        "jeanne-magic-seal-crafting"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "aria": {
+          "type": "ally/friend",
+          "description": "亚莉亚用法语致电委托其协助路西菲莉亚拘束。"
+        },
+        "lucifelia": {
+          "type": "indirect-restrainer",
+          "description": "制作脚趾环封锁路西菲莉亚魔力。"
+        },
+        "kinji": {
+          "type": "ally",
+          "description": "金次认识其魔女和准护理师能力，认为适合处理路西菲莉亚。"
+        }
+      },
+      "key_events": [
+        {
+          "event_id": "lucifelia-custody-cohabitation",
+          "summary": "制作封魔脚趾环，使路西菲莉亚在亚莉亚宿舍无法发挥完整魔力。",
+          "sourceRef": "hidan-no-aria-main/vol-35/full.txt"
+        }
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "hidan-no-aria-main/vol-35/full.txt"
+      ]
+    }
+  ]
+}

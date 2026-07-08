@@ -18,3 +18,11 @@
 - 用户修正优先级高于 agent 推导和摘要。
 - 世界知识、评级、关系和图谱节点需要记录来源与可信度。
 - 备份参考项目不常驻加载，仅按需阅读。
+
+## 统一角色卡与状态原则
+
+- 新建角色必须使用 `unified-character-v1` 目录型统一角色卡模板初始化。
+- 角色状态由角色卡模块 JSON 持久化，memory 只记录剧情摘要、偏好和会话脉络，不能替代角色卡状态。
+- 查看状态时优先使用 `card_edit status`；查看具体内容时使用 `card_edit get` + `module` + `path`。
+- 修改状态时必须定位到具体模块和字段，例如 `resources[id=mana].current`、`combatRating.offense.score`、`states[id=injury-01]`。
+- 旧式单文件角色卡仅作为兼容格式，不再作为新 RP 标准。

@@ -1,0 +1,112 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "reki",
+  "volume": "vol-08",
+  "time_range": {
+    "start": "秋季",
+    "end": "秋季"
+  },
+  "sub_arcs": [
+    "宣战会议",
+    "变装食堂"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-08-main",
+      "volume": "vol-08",
+      "time": "秋季",
+      "label": "乌鲁斯代理大使",
+      "name": {
+        "zh": "蕾姬",
+        "en": "Reki"
+      },
+      "aliases": [
+        "蕾姬",
+        "乌鲁斯的蕾姬"
+      ],
+      "titles": [
+        "乌鲁斯代理大使",
+        "巴斯克维尔成员",
+        "狙击科学生"
+      ],
+      "gender": "女性",
+      "species": "人类",
+      "nationality": "乌鲁斯/蒙古系",
+      "occupation": "东京武侦高中狙击科学生",
+      "affiliation": "乌鲁斯/巴斯克维尔/师团",
+      "status": {
+        "physical": "健康，持续携带德拉古诺夫狙击枪",
+        "mental": "沉默寡言，照常以风的指示行动",
+        "social": "代表乌鲁斯在宣战会议中加入师团，同时仍属于巴斯克维尔"
+      },
+      "appearance": {
+        "overview": "沉默的狙击少女，常戴耳机携带狙击枪",
+        "attire": {
+          "default": "武侦高中制服",
+          "costume": "化学研究所职员白衣"
+        },
+        "distinctive": [
+          "耳机",
+          "德拉古诺夫狙击枪",
+          "无表情"
+        ]
+      },
+      "personality": {
+        "summary": "蕾姬在宣战会议上代表乌鲁斯加入师团，并明确自己个人也是巴斯克维尔成员。日常中她参与变装食堂抽签，仍保持沉默与精密作业习惯。",
+        "core_traits": [
+          "寡言",
+          "精准",
+          "服从风的指示",
+          "完美主义"
+        ],
+        "strengths": [
+          "超远距离狙击",
+          "冷静观察",
+          "精密手工"
+        ],
+        "flaws": [
+          "沟通极少",
+          "行动意图不易理解"
+        ],
+        "inner_conflict": "在乌鲁斯代理大使与巴斯克维尔成员身份之间保持双重立场。"
+      },
+      "abilities_owned": [
+        "reki-sniping"
+      ],
+      "possessions_owned": [
+        "draganov-sniper-rifle"
+      ],
+      "relationships": {
+        "kinji": "team_member/fiance-claim；仍与金次有乌鲁斯婚约纠葛",
+        "aria": "team_member；共同处于巴斯克维尔与师团侧",
+        "jeanne": "ally；同属师团",
+        "zhuge-jingxuan": "enemy；蓝帮因蕾姬妨碍生意而加入眷属"
+      },
+      "knowledge": [
+        "far-east-warfare-rules"
+      ],
+      "summary": "蕾姬在空地岛会议中代表乌鲁斯加入师团，并说明自己个人也是巴斯克维尔成员。之后仍以沉默方式参与日常与变装食堂准备。",
+      "key_events": [
+        {
+          "event_id": "declaration-war-conference",
+          "summary": "代表乌鲁斯宣布加入师团",
+          "sourceRef": "hidan-no-aria-main/vol-08/full.txt:438"
+        },
+        {
+          "event_id": "costume-cafe-draw",
+          "summary": "抽到化学研究所职员并精密缝制服装",
+          "sourceRef": "hidan-no-aria-main/vol-08/full.txt:2081"
+        }
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "hidan-no-aria-main/vol-08/chapters/ch-001-第八卷_螺旋的天空树_1弹_乱世之宵.txt:438",
+        "hidan-no-aria-main/vol-08/chapters/ch-002-第八卷_螺旋的天空树_2弹_变装食堂.txt:901"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-08/full.txt"
+  ]
+}

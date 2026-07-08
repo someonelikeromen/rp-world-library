@@ -1,0 +1,234 @@
+{
+  "_schema": "rp-faction-volume-v1",
+  "world": "hidan-no-aria",
+  "faction_id": "n",
+  "volume": "vol-24",
+  "source_refs": [
+    "hidan-no-aria-main/vol-24/chapters/ch-006-第二十四卷_狂逸的同学会_5弹_伊·U同学会.txt:606"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-24-main",
+      "volume": "vol-24",
+      "time": "本卷终章",
+      "name": {
+        "zh": "N",
+        "en": "N"
+      },
+      "aliases": [
+        "教授阵营",
+        "尼莫一行"
+      ],
+      "type": "secret-society / organization",
+      "description": "由莫里亚蒂教授幕后领导的神秘组织，成员佩戴N戒指，包含人类、异形和异世界感成员。",
+      "history": "金次此前在日本与茉斩交手并夺走N戒指；本卷N在夏洛克伊·U同学会上正式现身。",
+      "goals": "执行教授的蝴蝶效应式布局；利用贝瑞塔进行未知计划；保持外人不可见。",
+      "structure": "莫里亚蒂教授为幕后头目，尼莫为现场提督，茉斩等成员随行。",
+      "leader": "professor-moriarty",
+      "headquarters": "未知",
+      "members": [
+        "nemo",
+        "ito-mazan",
+        "n-lion-man",
+        "n-masked-small",
+        "n-bandaged-man",
+        "n-armor-woman"
+      ],
+      "allies": [],
+      "enemies": [
+        "sherlock-holmes",
+        "aria",
+        "kinji"
+      ],
+      "key_events": [
+        "n-encounter-at-iu-reunion"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-24/chapters/ch-006-第二十四卷_狂逸的同学会_5弹_伊·U同学会.txt:606",
+        "hidan-no-aria-main/vol-24/chapters/ch-006-第二十四卷_狂逸的同学会_5弹_伊·U同学会.txt:756",
+        "hidan-no-aria-main/vol-24/chapters/ch-006-第二十四卷_狂逸的同学会_5弹_伊·U同学会.txt:876"
+      ]
+    },
+    {
+      "period_id": "vol-26",
+      "volume": "vol-26",
+      "time": "第二十六卷 穿破黑暗的巨蟒",
+      "label": "N（Nautilus）",
+      "name": {
+        "zh": "N",
+        "en": "N",
+        "jp": "N"
+      },
+      "aliases": [
+        "N",
+        "Nautilus",
+        "诺亚",
+        "N阵营"
+      ],
+      "type": "秘密组织",
+      "status": {
+        "active": "本卷中在东京活动",
+        "leader": "尼莫（金戒指）"
+      },
+      "summary": "本卷中N在东京表参道和明治神宫展开了一次三人小队行动。成员包括哈比鸟（尖兵）、瓦尔基丽雅（主将·白金）、茉斩（辅佐·铁）。通过这次攻击证实了N的作战模式：总是三人组成小队（尖兵·主将·辅佐），当战力差距被拉近时无论胜败都选择撤退。瓦尔基丽雅在与金次的战斗中头盔被击落，触发了其种族『被男性看到真实面貌』的羞耻禁忌。",
+      "hierarchy": {
+        "confirmed_in_vol26": [
+          "金戒指（Nemo）：最高阶级",
+          "白金戒指（Valkyrja）：第二阶级",
+          "银戒指：第三阶级",
+          "铁/黑色戒指（Makuzo·Io·Granduca）：最低阶级"
+        ]
+      },
+      "key_members_vol26": [
+        "瓦尔基丽雅（白金）",
+        "哈比鸟（非人类单位）",
+        "伊藤茉斩（铁）",
+        "尼莫（金，未直接现身）"
+      ],
+      "operations_vol26": [
+        "派遣哈比鸟袭击阿久津大楼屋顶的金次",
+        "瓦尔基丽雅在明治神宫伏击金次",
+        "茉斩在表参道诱敌并支援"
+      ],
+      "n_attack_pattern": "三人小队：尖兵（哈比鸟）→主将（瓦尔基丽雅）→辅佐（茉斩）；战力不利时立即通过蓝色雾气撤退。",
+      "relationships": {
+        "tooyama-butei-office": {
+          "type": "target-of-elimination",
+          "summary": "金次被N视为条理预测的不可控変数，试图在宝城院事件中清除他。"
+        }
+      },
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-26/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-27",
+      "volume": "vol-27",
+      "time": "第二十七卷",
+      "name": {
+        "zh": "N",
+        "en": "N"
+      },
+      "aliases": [
+        "尼莫阵营",
+        "文明倒退组织"
+      ],
+      "type": "secret-society / conspiracy",
+      "description": "以尼莫等指环成员为核心的秘密组织，本卷试图夺取金天和反色金，以服务其让神降临和改变世界文明的计划。",
+      "history": "前卷已与金次多次交锋；本卷派墨丘利长期监视金天，并在羽田亲自出动。",
+      "goals": "夺取反色金士兵金天，将其作为N同志或战略资源。",
+      "structure": "尼莫为提督/主将，墨丘利为尖兵，瓦尔基丽雅为龙骑士辅佐。",
+      "leader": "nemo",
+      "headquarters": "未知",
+      "members": [
+        "nemo",
+        "mercurius",
+        "valkyrja"
+      ],
+      "allies": [],
+      "enemies": [
+        "tooyama-family",
+        "giii-party",
+        "us-military"
+      ],
+      "key_events": [
+        "nemo-possesses-kinten",
+        "haneda-kinten-rescue",
+        "nemo-teleport-accident"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-27/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-28",
+      "volume": "vol-28",
+      "time": "本卷",
+      "name": {
+        "zh": "N",
+        "en": "N"
+      },
+      "aliases": [
+        "钥匙徽章组织",
+        "尼莫所属组织"
+      ],
+      "type": "organization / secret-society",
+      "description": "由超自然存在与异形成员组成的组织，企图让世界文明退回过去，并让超自然存在与普通人共存。",
+      "history": "本卷中尼莫解释她至少希望超自然与普通人共存；金次推断N内部还存在教授一派的另一目的。",
+      "goals": "尼莫一派强调超自然存在与普通人共存；教授一派真实目的未明，涉及改写世界历史与生物学以及让文明倒退。",
+      "structure": "教授与提督等高层并存；成员以指环等级和军职/异形能力区分。",
+      "leader": "moriarty / nemo",
+      "headquarters": "N舰船/未知基地",
+      "members": [
+        "nemo",
+        "moriarty",
+        "mercury",
+        "endymira",
+        "terteti",
+        "lerteti",
+        "valkyrja"
+      ],
+      "allies": [],
+      "enemies": [
+        "kinji",
+        "aria",
+        "butei-side"
+      ],
+      "key_events": [
+        "shared-dinner-and-n-talk",
+        "n-rescue-and-separation",
+        "girls-school-infiltration-order"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-28/chapters/ch-003-第二十八卷_远洋孤岛的珊瑚礁_3弹_往珊瑚礁之海.txt:1",
+        "hidan-no-aria-main/vol-28/chapters/ch-006-第二十八卷_远洋孤岛的珊瑚礁_Go_For_The_NEXT！！！依然芳香美丽.txt:1"
+      ]
+    },
+    {
+      "period_id": "vol-30",
+      "volume": "vol-30",
+      "time": "第三十卷",
+      "name": {
+        "zh": "N / Nautilus"
+      },
+      "aliases": [
+        "N",
+        "Nautilus",
+        "革命思想集团"
+      ],
+      "type": "terrorist / revolutionary network",
+      "description": "企图让文明倒退并建立由神明引导的新秩序的组织。本卷揭示其协力者已渗入关西武侦局、官僚与政界，并通过莫里亚蒂的条理预知诱导巴斯克维尔到阿尼亚斯学院。",
+      "members": [
+        "nemo",
+        "makiri",
+        "asclepios",
+        "hydra",
+        "otoha-maria"
+      ],
+      "allies": [
+        "unknown-politician-supporters"
+      ],
+      "enemies": [
+        "kinji",
+        "aria",
+        "baskerville"
+      ],
+      "systems": [
+        "n-triad-domino-operation",
+        "n-political-infiltration"
+      ],
+      "key_events": [
+        "otoha-arrest-and-asclepius-recovery",
+        "makiri-seki-interrogation"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-30/full.txt"
+      ]
+    }
+  ]
+}

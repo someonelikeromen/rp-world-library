@@ -1,0 +1,60 @@
+{
+  "_schema": "rp-item-volume-v1",
+  "world": "hidan-no-aria",
+  "item_id": "directional-explosive-cylinder",
+  "volume": "vol-15",
+  "periods": [
+    {
+      "period_id": "vol-15-main",
+      "volume": "vol-15",
+      "time": "香港油轮事件",
+      "name": {
+        "zh": "指向性炸药筒",
+        "en": "Directional Explosive Cylinder"
+      },
+      "aliases": [
+        "炸药筒",
+        "油轮底部炸药"
+      ],
+      "type": "weapon / key-item",
+      "description": "卡羯计划用于撕裂油轮船底的长条指向性炸药，设置在第四中央油舱下方，以冲撞岸边的冲击作为引爆条件。",
+      "details": {
+        "placement": "第四中央油舱底部附近",
+        "trigger": "感应油轮冲撞岸边造成的冲击",
+        "purpose": "在船底与压舱水箱下方制造裂缝，使石油流出燃烧"
+      },
+      "owner": "kage-glasse",
+      "status": "disabled",
+      "features": [
+        "磁铁吸附船底",
+        "指向性爆炸",
+        "海水侧最小规模爆炸以避免立即大爆炸"
+      ],
+      "associated_abilities": [],
+      "history": [
+        {
+          "event": "被白雪和希尔达探查到大致位置",
+          "sourceRef": "hidan-no-aria-main/vol-15/full.txt:701"
+        },
+        {
+          "event": "金次与机娘用奥尔库斯机械臂抓住并吊出",
+          "sourceRef": "hidan-no-aria-main/vol-15/full.txt:1010"
+        },
+        {
+          "event": "平贺文拆除引爆装置",
+          "sourceRef": "hidan-no-aria-main/vol-15/full.txt:1105"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-15/chapters/ch-001-第十五卷_哿与银冰_1弹_真空炸弹.txt:591",
+        "hidan-no-aria-main/vol-15/chapters/ch-001-第十五卷_哿与银冰_1弹_真空炸弹.txt:701",
+        "hidan-no-aria-main/vol-15/chapters/ch-001-第十五卷_哿与银冰_1弹_真空炸弹.txt:1010",
+        "hidan-no-aria-main/vol-15/chapters/ch-001-第十五卷_哿与银冰_1弹_真空炸弹.txt:1105"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-15/chapters/ch-001-第十五卷_哿与银冰_1弹_真空炸弹.txt:591"
+  ]
+}

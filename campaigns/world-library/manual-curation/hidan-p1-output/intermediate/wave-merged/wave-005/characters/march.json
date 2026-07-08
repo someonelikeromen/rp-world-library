@@ -1,0 +1,88 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "march",
+  "volume": "vol-25",
+  "time_range": {
+    "start": "vol-25",
+    "end": "vol-25"
+  },
+  "sub_arcs": [
+    "beretta-abduction"
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-25/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-25",
+      "volume": "vol-25",
+      "time": "第二十五卷 罗马的军神星",
+      "label": "远程检索支援的人工天才",
+      "name": {
+        "zh": "马许·罗斯福",
+        "en": "March Roosevelt",
+        "jp": "マーチ・ルーズベルト"
+      },
+      "aliases": [
+        "马许"
+      ],
+      "titles": [
+        "洛斯阿拉莫斯人工天才"
+      ],
+      "gender": "male",
+      "species": "human",
+      "nationality": "American",
+      "occupation": "技术天才/黑客",
+      "affiliation": "GⅢ阵营",
+      "status": {
+        "physical": "在纽约远程通信",
+        "role": "骇入罗马监视系统寻找贝瑞塔绑架车辆"
+      },
+      "appearance": {
+        "overview": "戴眼镜、蘑菇头少年，吃洋芋片和可乐。"
+      },
+      "personality": {
+        "summary": "功利、嘴毒，愿以卖GⅢ人情为交易协助金次。",
+        "core_traits": [
+          "技术自信",
+          "交易意识",
+          "毒舌"
+        ]
+      },
+      "abilities_owned": [
+        "surveillance-hacking"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "kinji": {
+          "type": "technical-ally",
+          "summary": "在亚许请求下协助寻找贝瑞塔。"
+        },
+        "assi": {
+          "type": "operator/developer-side",
+          "summary": "通过大蛇AI接入罗马监视系统。"
+        },
+        "g3": {
+          "type": "superior/ally",
+          "summary": "协助金次可向GⅢ卖人情。"
+        }
+      },
+      "knowledge": [
+        "beretta-abduction-vehicle-route"
+      ],
+      "summary": "马许在贝瑞塔被绑架后通过大蛇AI远程接入罗马监控系统，使用脸部辨识和车辆检索找出黑色兰吉雅Thesis的路线与狮子头乘车画面，为追踪N提供关键线索。",
+      "key_events": [
+        {
+          "event_id": "beretta-abduction",
+          "summary": "骇入罗马市警局资料库帮助搜索贝瑞塔。",
+          "sourceRef": "hidan-no-aria-main/vol-25/full.txt"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-25/full.txt"
+      ]
+    }
+  ]
+}

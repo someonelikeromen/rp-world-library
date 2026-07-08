@@ -1,0 +1,91 @@
+{
+  "_schema": "rp-item-volume-v1",
+  "world": "hidan-no-aria",
+  "item_id": "kinji-desert-eagle",
+  "volume": "vol-27",
+  "source_refs": [
+    "hidan-no-aria-main/vol-27/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-27",
+      "volume": "vol-27",
+      "time": "第二十七卷",
+      "name": {
+        "zh": "沙漠之鹰",
+        "en": "Desert Eagle"
+      },
+      "aliases": [
+        "老爸留下的枪"
+      ],
+      "type": "weapon",
+      "description": "金次使用的大口径手枪，在加布林空中救援时用于精密射断墨丘利吊住金天的银线。",
+      "details": {
+        "caliber": ".50AE",
+        "owner_origin": "远山家/父亲遗物"
+      },
+      "owner": "kinji",
+      "status": "active",
+      "features": [
+        "高威力",
+        "适合精密破坏绳索"
+      ],
+      "associated_abilities": [
+        "precision-shooting"
+      ],
+      "history": [
+        {
+          "summary": "金次用沙漠之鹰切断墨丘利吊住金天的细线。",
+          "sourceRef": "hidan-no-aria-main/vol-27/full.txt:5000"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-27/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-29",
+      "volume": "vol-29",
+      "time": "第二十九卷 盟约的谍候",
+      "name": {
+        "zh": "金次的沙漠之鹰",
+        "en": "Kinji's Desert Eagle"
+      },
+      "aliases": [
+        "DE",
+        "沙漠之鹰"
+      ],
+      "type": "weapon",
+      "description": "金次携带的重型手枪，与贝瑞塔一同在潜入和海卓拉决战中使用。",
+      "details": {
+        "role": "高威力副武器",
+        "concealment": "阿尼亚斯潜入时藏于书包或枪套"
+      },
+      "owner": "kinji",
+      "status": "active",
+      "features": [
+        "威力高",
+        "重量大",
+        "在米泽丽面前曾被误认为模型枪"
+      ],
+      "associated_abilities": [
+        "hss"
+      ],
+      "history": [
+        {
+          "event_id": "agnes-double-council-gun-exposure",
+          "summary": "和贝瑞塔一起掉出书包。"
+        },
+        {
+          "event_id": "hydra-duel-asclepios-capture",
+          "summary": "与贝瑞塔同时全自动射击牵制海卓拉。"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-29/full.txt"
+      ]
+    }
+  ]
+}

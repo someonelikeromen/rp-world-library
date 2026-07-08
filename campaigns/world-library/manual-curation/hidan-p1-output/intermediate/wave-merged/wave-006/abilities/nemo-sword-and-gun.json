@@ -1,0 +1,69 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "nemo-sword-and-gun",
+  "volume": "vol-28",
+  "source_refs": [
+    "hidan-no-aria-main/vol-28/chapters/ch-001-第二十八卷_远洋孤岛的珊瑚礁_1弹_两名漂流者.txt:1"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-28",
+      "volume": "vol-28",
+      "time": "本卷",
+      "name": {
+        "zh": "剑枪战斗",
+        "en": "Sword and Gun Combat"
+      },
+      "aliases": [
+        "尼莫短剑与手枪战"
+      ],
+      "type": "combat / skill",
+      "description": "尼莫即使失去超超能力，仍以Le Francais手枪、短剑和投石索进行威慑与自卫。",
+      "details": {
+        "weapons": [
+          "nemo-le-francais",
+          "nemo-sabre"
+        ]
+      },
+      "activation": {
+        "condition": "持有武器",
+        "incantation": "",
+        "time": "即时",
+        "cost": "弹药与体力"
+      },
+      "effects": [
+        "威胁金次",
+        "在岛上狩猎尝试",
+        "对老虎投掷石块"
+      ],
+      "power_level": {
+        "initial": "有军人基础",
+        "peak": "失去能力状态下仍能自卫",
+        "evolution": []
+      },
+      "known_feats": [
+        "用备用手枪挟持金次",
+        "用防刃领巾临时投石"
+      ],
+      "shared_by": [
+        "nemo"
+      ],
+      "see_also": [
+        "nemo-le-francais",
+        "nemo-sabre"
+      ],
+      "countered_by": [
+        "kinji-gun-grappling",
+        "tiger-agility"
+      ],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-28/chapters/ch-001-第二十八卷_远洋孤岛的珊瑚礁_1弹_两名漂流者.txt:1",
+        "hidan-no-aria-main/vol-28/chapters/ch-005-第二十八卷_远洋孤岛的珊瑚礁_5弹_我与你的均衡.txt:1"
+      ]
+    }
+  ]
+}

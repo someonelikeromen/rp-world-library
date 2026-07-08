@@ -1,0 +1,48 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "item",
+  "entityId": "nebula-stimulant",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-09",
+  "periods": [
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:111",
+        "hidan-no-aria-main/vol-09/full.txt:1027",
+        "hidan-no-aria-main/vol-09/full.txt:1045"
+      ],
+      "snapshot": {
+        "name": "NEBULA中枢神经刺激剂",
+        "aliases": [
+          "NEBULA",
+          "中枢神经刺激剂",
+          "强力苏醒剂"
+        ],
+        "type": "drug / combat stimulant",
+        "description": "华生交给金次的一次剂量气压式注射剂。平常状态可提升集中力，意识朦胧时可作比RAZZO更强的苏醒剂。本卷金次在电击麻痹恢复途中注射，用于抢回行动能力并救下理子。",
+        "details": {
+          "delivery": "气压式小型注射器",
+          "dose": "剩余一次剂量",
+          "effect": "促进意识与神经恢复，辅助战斗集中"
+        },
+        "owner": "kinji",
+        "status": "天空树战中消耗",
+        "features": [
+          "比RAZZO更强力的苏醒用途",
+          "可在意识朦胧时使用",
+          "对金次药物抗性体质仍有一定效果"
+        ],
+        "associated_abilities": [
+          "hss-bousou-mode"
+        ],
+        "history": [
+          "华生重伤后交给金次",
+          "金次在理子被迫亲吻希尔达鞋前注射NEBULA，随后恢复行动并救出理子"
+        ],
+        "evidence_level": "S"
+      }
+    }
+  ],
+  "_schema": "rp-item-volume-v1"
+}

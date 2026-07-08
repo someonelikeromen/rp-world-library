@@ -1,0 +1,42 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "tsubaki-speed",
+  "volume": "vol-20",
+  "source_refs": [
+    "hidan-no-aria-main/vol-20/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-20",
+      "volume": "vol-20",
+      "time": "第二十卷",
+      "name": {
+        "zh": "津羽鬼高速冲刺",
+        "en": "Tsuwagi high-speed charge"
+      },
+      "type": "innate / combat",
+      "description": "津羽鬼作为速度型鬼的高速移动能力，快到金次爆发模式也难以看清。",
+      "details": {
+        "style": "以犄角为突击点，模拟炮弹般的直线冲刺"
+      },
+      "activation": {
+        "condition": "低姿态蓄势后瞬间冲刺"
+      },
+      "effects": [
+        "超高速接近目标",
+        "奇袭牵制强敌"
+      ],
+      "known_feats": [
+        "在霸美注意力被阎吸引时冲刺奇袭，被霸美临时抓住犄角"
+      ],
+      "shared_by": [
+        "tsuwagi"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-20/full.txt"
+      ]
+    }
+  ]
+}

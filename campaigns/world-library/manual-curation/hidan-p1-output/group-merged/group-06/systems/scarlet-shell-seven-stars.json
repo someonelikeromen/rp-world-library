@@ -1,0 +1,78 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "system",
+  "entityId": "scarlet-shell-seven-stars",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-08",
+  "periods": [
+    {
+      "periodId": "vol-08",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-08/full.txt:885",
+        "hidan-no-aria-main/vol-08/full.txt:1283",
+        "hidan-no-aria-main/vol-08/full.txt:1345",
+        "hidan-no-aria-main/vol-08/full.txt:1355"
+      ],
+      "snapshot": {
+        "name": "壳金七星",
+        "aliases": [
+          "七壳金",
+          "亚莉亚的绯绯色金外壳",
+          "Kakugane Seven Stars"
+        ],
+        "type": "seal-system",
+        "description": "星伽巫女为防止巨大绯绯色金与人心过度心系而制造的七颗特殊镀金壳。七颗壳金包覆绯绯色金时，可阻断心系，只保留较平缓的法系。",
+        "current_state": "希尔达在空地岛剥离七壳金，玉藻、梅雅、贞德只抢回两颗，五颗被眷属方夺走。",
+        "limitations": [
+          "新壳金虽可炼成但需约百年兼容",
+          "只剩两颗时亚莉亚会逐渐受绯绯色金心系影响",
+          "必须从眷属手中夺回原壳金"
+        ],
+        "key_events": [
+          "aria-bitten-shells-stolen",
+          "hihiirokane-briefing"
+        ],
+        "evidence_level": "S"
+      }
+    },
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:3725",
+        "hidan-no-aria-main/vol-09/full.txt:4975",
+        "hidan-no-aria-main/vol-09/full.txt:5275"
+      ],
+      "snapshot": {
+        "name": "绯壳七星与壳金封印",
+        "aliases": [
+          "壳金",
+          "绯壳七星",
+          "绯弹外壳"
+        ],
+        "type": "artifact sealing system",
+        "description": "包覆亚莉亚胸中绯弹的七枚壳金系统，用于阻绝绯绯色金与人心连结。绯壳七星被破坏后，壳金被眷属夺取，本卷末亚莉亚体内仅有三枚。",
+        "details": {
+          "total_shells": 7,
+          "known_recovered": 3,
+          "remaining": "四枚仍由眷属相关敌人持有",
+          "function": "抑制绯弹干涉人心、降低绯绯神化风险"
+        },
+        "stakeholders": [
+          "aria",
+          "tamamo",
+          "shirayuki",
+          "kinji",
+          "kenzoku"
+        ],
+        "associated_items": [
+          "scarlet-shell-crystal",
+          "irokaneyame"
+        ],
+        "key_events": [
+          "tamamo-extreme-east-war-briefing"
+        ],
+        "evidence_level": "S"
+      }
+    }
+  ]
+}

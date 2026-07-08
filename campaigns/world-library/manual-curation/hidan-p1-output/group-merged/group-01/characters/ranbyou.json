@@ -1,0 +1,58 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "ranbyou",
+  "volume": "vol-07",
+  "source_refs": [
+    "hidan-no-aria-main/vol-07/chapters/ch-004-第七卷_火与风的华尔兹_4弹_巴斯克维尔小队.txt:9",
+    "hidan-no-aria-main/vol-07/chapters/ch-004-第七卷_火与风的华尔兹_4弹_巴斯克维尔小队.txt:604"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-07-main",
+      "volume": "vol-07",
+      "time": "事件后调查与小队登记",
+      "label": "巴斯克维尔小队",
+      "name": {
+        "zh": "兰豹",
+        "en": "Ranbyou"
+      },
+      "gender": "女性",
+      "species": "人类",
+      "occupation": "东京武侦高中强袭科教官",
+      "affiliation": "东京武侦高中强袭科",
+      "status": {
+        "physical": "健康",
+        "mental": "粗暴直接但照顾学生",
+        "social": "负责亚莉亚调查与小队现场申请拍照"
+      },
+      "summary": "兰豹在希望246号事件后带亚莉亚去校长室调查，并在小队现场申请日负责拍摄登记照片，最后确认巴斯克维尔小队登录完成。",
+      "abilities_owned": [
+        "assault-instruction"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "aria": {
+          "type": "teacher",
+          "summary": "强袭科教官，负责亚莉亚后续调查"
+        },
+        "kinji": {
+          "type": "teacher",
+          "summary": "在小队登记中确认金次所在队伍"
+        }
+      },
+      "key_events": [
+        {
+          "event_id": "baskerville-registration",
+          "summary": "拍摄巴斯克维尔小队现场申请照片",
+          "sourceRef": "hidan-no-aria-main/vol-07/full.txt:5600"
+        }
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "hidan-no-aria-main/vol-07/chapters/ch-004-第七卷_火与风的华尔兹_4弹_巴斯克维尔小队.txt:9",
+        "hidan-no-aria-main/vol-07/chapters/ch-004-第七卷_火与风的华尔兹_4弹_巴斯克维尔小队.txt:604"
+      ]
+    }
+  ]
+}

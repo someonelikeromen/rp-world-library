@@ -1,0 +1,20 @@
+{
+  "node": "wave-006",
+  "task": "merge wave-006 volumes vol-26 through vol-30",
+  "input_volumes": ["vol-26", "vol-27", "vol-28", "vol-29", "vol-30"],
+  "output": "campaigns/world-library/manual-curation/hidan-p1-output/intermediate/wave-merged/wave-006/",
+  "method": "json_tool copy replace for vol-28 world.json, then json_tool copy append for vol-29 and vol-30 periods; periods kept sorted by volume",
+  "period_sources_included": ["vol-28", "vol-29", "vol-30"],
+  "period_sources_missing_world_json": ["vol-26", "vol-27"],
+  "counts": {
+    "world_periods": 3
+  },
+  "notes": [
+    "vol-26 and vol-27 did not expose source world.json files, so no synthesized world periods were created.",
+    "world.json periods are ordered vol-28, vol-29, vol-30.",
+    "Some entity files were copied into the output during merge setup; authoritative period concatenation for this step is world.json."
+  ],
+  "validation": {
+    "status": "pending"
+  }
+}

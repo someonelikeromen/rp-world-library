@@ -1,0 +1,37 @@
+{
+  "_schema": "rp-world-volume-v1",
+  "world": "hidan-no-aria",
+  "volume": "vol-39",
+  "periods": [
+    {
+      "period_id": "vol-39-main",
+      "volume": "vol-39",
+      "time": "荒胫巾事件与梅梅特到来",
+      "name": { "zh": "绯弹的亚莉亚 第三十九卷 荒胫巾的巫女", "en": "Aria the Scarlet Ammo Vol.39", "jp": "緋弾のアリア 39 荒脛巾の巫女" },
+      "genre": ["学园武侦", "超自然", "宗教神话", "兄妹喜剧", "家庭伦理"],
+      "summary": "金次为修理刀来到山形山渊，遭遇自称悠树菜的粉金发女性。武装检察官不破与旧公安零课追踪而至，揭示悠树菜实为列库忒亚女神阿烈波波岐（荒胫巾）的显现。金次与零课结盟、在迷家中与不破决斗、最终用拥抱阻止了被总意控制的神罚，完成与亡母的约定后告别。回到东京后，金次被佩特拉的妹妹梅梅特以\"哥哥奴隶\"身份支配，了解她第二型超能力不稳定的创伤，带她去丰岛园庆生。卷末金女与梅梅特的妹妹大战后，金次收到莎拉传信：诺契勒斯与伊·U已被击沉。",
+      "core_conflict": "国家试图将超自然存在用于军事 vs 个人情感与保护；妹妹争夺哥哥的统治权",
+      "atmosphere": "前半山形红叶中的枪剑对决与神域超自然，转为东京台场的毒舌妹妹喜剧，结尾以潜艇沉没的悬念收束",
+      "timeline": [
+        { "event_id": "bus-stop-abduction", "summary": "金次在公车站被不破用KOLOKOL-1麻醉，悠树菜被带走。", "sourceRef": "hidan-no-aria-main/vol-39/full.txt:1" },
+        { "event_id": "zero-section-alliance", "summary": "金次说服旧零课组成怪兽军团对抗不破。", "sourceRef": "hidan-no-aria-main/vol-39/full.txt:471" },
+        { "event_id": "kogei-delivery", "summary": "丁在深夜交付重修光影。", "sourceRef": "hidan-no-aria-main/vol-39/full.txt:471" },
+        { "event_id": "fire-dogu-rescue", "summary": "金次与大门从火焰土偶中救出悠树菜并坠入迷家。", "sourceRef": "hidan-no-aria-main/vol-39/full.txt:925" },
+        { "event_id": "mayoiga-revelation", "summary": "悠树菜揭示自己为阿烈波波岐女神身份。", "sourceRef": "hidan-no-aria-main/vol-39/full.txt:925" },
+        { "event_id": "kinji-fuwa-duel", "summary": "金次在迷家中与不破决斗被逼至斩首边缘。", "sourceRef": "hidan-no-aria-main/vol-39/full.txt:925" },
+        { "event_id": "arepopoki-rampage-reconciliation", "summary": "金次用Stop Near+景躲过稻叉后拥抱阿烈波波岐使其恢复平静。", "sourceRef": "hidan-no-aria-main/vol-39/full.txt:925" },
+        { "event_id": "farewell-yukina", "summary": "金次在河边与悠树菜（母亲形象）完成永远的告别。", "sourceRef": "hidan-no-aria-main/vol-39/full.txt:925" },
+        { "event_id": "memet-arrival-and-enslavement", "summary": "金次在乃木坂见到梅梅特，被以诬告威胁成为哥哥奴隶。", "sourceRef": "hidan-no-aria-main/vol-39/full.txt:2395" },
+        { "event_id": "memet-ssr-trauma-reveal", "summary": "梅梅特在隅田川露台坦白诅咒之女创伤，金次带她去丰岛园。", "sourceRef": "hidan-no-aria-main/vol-39/full.txt:3813" },
+        { "event_id": "toshimaen-youtuber-arrest", "summary": "金次与梅梅特在丰岛园逮捕迷惑YouTuber六人组。", "sourceRef": "hidan-no-aria-main/vol-39/full.txt:3813" },
+        { "event_id": "sister-war-kinjo-memet", "summary": "金女闯入与梅梅特爆发妹妹大战，结婚登记书被金次吃掉。", "sourceRef": "hidan-no-aria-main/vol-39/full.txt:4709" },
+        { "event_id": "nemo-message-nautilus-iu-sunk", "summary": "莎拉传信：诺契勒斯与伊·U已被击沉。", "sourceRef": "hidan-no-aria-main/vol-39/full.txt:4709" }
+      ],
+      "rules": ["sourceRef采用hidan-no-aria-main/vol-39/full.txt:行号", "每实体独立文件", "跨实体引用使用纯ID"],
+      "history_eras": ["阿烈波波岐监视周期完成", "梅梅特留学时期", "第三次接轨前哨战"],
+      "evidence_level": "S",
+      "source_refs": ["hidan-no-aria-main/vol-39/full.txt:1", "hidan-no-aria-main/vol-39/full.txt:4854"]
+    }
+  ],
+  "source_refs": ["hidan-no-aria-main/vol-39/full.txt:1", "hidan-no-aria-main/vol-39/full.txt:4854"]
+}

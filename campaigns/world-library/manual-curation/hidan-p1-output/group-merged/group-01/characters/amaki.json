@@ -1,0 +1,97 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "character",
+  "entityId": "amaki",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-09",
+  "_schema": "rp-character-volume-v1",
+  "periods": [
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:6610",
+        "hidan-no-aria-main/vol-09/full.txt:6883",
+        "hidan-no-aria-main/vol-09/full.txt:6890"
+      ],
+      "snapshot": {
+        "name": "艾马基",
+        "aliases": [
+          "银狼艾马基",
+          "蕾姬的狼"
+        ],
+        "gender": "雄性/不明",
+        "species": "狼",
+        "status": "重伤；卷末将蕾姬手机送到金次门前",
+        "role": "蕾姬搭档动物；卷末报警信使",
+        "affiliations": [
+          "蕾姬",
+          "巴斯克维尔小队"
+        ],
+        "abilities_owned": [
+          "tracking",
+          "message-delivery-under-injury"
+        ],
+        "possessions_owned": [],
+        "equipment": [],
+        "relationships": [
+          {
+            "target": "reki",
+            "type": "主人/搭档",
+            "detail": "平时跟随蕾姬，卷末在蕾姬遇袭后衔着她的手机找金次。"
+          },
+          {
+            "target": "kinji",
+            "type": "求援对象",
+            "detail": "重伤倒在金次房门前，把蕾姬手机托付给金次。"
+          }
+        ],
+        "summary": "艾马基在文化祭锅会中作为蕾姬的狼参与进食喜剧；卷末它全身重伤、沾满血迹，仍衔着蕾姬手机爬到金次房门前，使金次收到GⅢ/GⅣ的视讯挑衅。",
+        "evidence_level": "A",
+        "source_refs": []
+      }
+    },
+    {
+      "period_id": "vol-10-main",
+      "volume": "vol-10",
+      "time": "2009年11月上旬",
+      "name": {
+        "zh": "艾马基",
+        "en": "Amaki"
+      },
+      "aliases": [
+        "武侦狼",
+        "蕾姬的狼"
+      ],
+      "gender": "unknown",
+      "species": "wolf",
+      "occupation": "蕾姬的伙伴狼",
+      "affiliation": "蕾姬; 巴斯克维尔周边",
+      "status": {
+        "physical": "袭击GⅣ时被击飞并遭车辆撞击，随后也住院治疗",
+        "role": "向金次带来蕾姬手机并参与救援线索"
+      },
+      "personality": {
+        "summary": "忠于蕾姬，面对GⅣ仍主动攻击保护主人。"
+      },
+      "abilities_owned": [],
+      "possessions_owned": [],
+      "relationships": {
+        "reiji": "主人/搭档",
+        "kinji": "把蕾姬手机带到金次处，后由金次委托治疗",
+        "tooyama-kaname": "袭击对象，被其拳背击飞"
+      },
+      "summary": "艾马基在开篇带来蕾姬手机，使金次接到GⅢ/GⅣ的威胁通话。影像中它从车底扑向GⅣ但被轻易击飞并遭车辆撞击，随后与巴斯克维尔成员一起住院。",
+      "key_events": [
+        {
+          "event_id": "baskerville-ambush",
+          "summary": "试图攻击GⅣ保护蕾姬但被击飞并受伤",
+          "sourceRef": "hidan-no-aria-main/vol-10/full.txt:1"
+        }
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "hidan-no-aria-main/vol-10/chapters/ch-001-第十卷_禁忌的双极_1弹_鹫鹰从天而降.txt:1"
+      ]
+    }
+  ]
+}

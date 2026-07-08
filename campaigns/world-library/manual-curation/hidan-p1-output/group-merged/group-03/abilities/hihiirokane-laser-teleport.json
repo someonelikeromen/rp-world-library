@@ -1,0 +1,69 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "hihiirokane-laser-teleport",
+  "volume": "vol-25",
+  "source_refs": [
+    "hidan-no-aria-main/vol-25/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-25",
+      "volume": "vol-25",
+      "time": "第二十五卷 罗马的军神星",
+      "name": {
+        "zh": "绯绯色金雷射与视野内瞬间移动",
+        "en": "Hihiirokane Laser and Line-of-sight Teleport"
+      },
+      "aliases": [
+        "雷射",
+        "视野内瞬间移动",
+        "绯绯神招式"
+      ],
+      "type": "supernatural / hihiirokane",
+      "description": "亚莉亚借绯绯神力量使用的雷射与视野内瞬间移动。本卷既用于威慑尼莫，也用于救援与解锁。",
+      "details": {
+        "laser": "右眼发红光后测距测角发射。",
+        "teleport": "金色发光粒子包围目标，仅能向视野内位置跳跃。"
+      },
+      "activation": {
+        "condition": "亚莉亚集中，通常一昼夜一次强力瞬移",
+        "incantation": "",
+        "time": "需要蓄积",
+        "cost": "体力与精神消耗巨大"
+      },
+      "effects": [
+        "远距离瞬移救援",
+        "切断铁锁",
+        "抵消尼莫空间转移"
+      ],
+      "power_level": {
+        "initial": "可搬送夏洛克、亚莉亚、梅雅",
+        "peak": "竞技场抵消尼莫海中转移",
+        "evolution": []
+      },
+      "known_feats": [
+        "将夏洛克送往圣彼得大教堂方向",
+        "雷射熔断贝瑞塔锁链",
+        "抵消尼莫空间拖拽"
+      ],
+      "shared_by": [
+        "aria"
+      ],
+      "see_also": [
+        "out-of-sight-teleport"
+      ],
+      "countered_by": [
+        "disenable"
+      ],
+      "counters": [
+        "out-of-sight-teleport"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-25/full.txt"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "back-side-billiards",
+  "volume": "vol-24",
+  "periods": [
+    {
+      "period_id": "vol-24-main",
+      "volume": "vol-24",
+      "time": "罗密欧决斗",
+      "name": {
+        "zh": "背面弹子戏法",
+        "en": "Back-side Billiards"
+      },
+      "aliases": [
+        "背后弹子戏法",
+        "子弹互撞"
+      ],
+      "type": "combat / skill",
+      "description": "金次在不回头的情况下从腋下向背后开枪，用自己的子弹撞开敌方子弹并改变弹道。",
+      "details": {
+        "vol_24_usage": "金次同时拦截罗密欧背后偷袭的子弹，并让弹道射断吊住阿兰的绳索。"
+      },
+      "activation": {
+        "condition": "HSS状态下的精密射击、对弹道和角度的计算",
+        "incantation": "",
+        "time": "瞬间",
+        "cost": "需极高射击精度，普通状态难以执行"
+      },
+      "effects": [
+        "拦截敌方子弹",
+        "利用碰撞后的弹道切断绳索",
+        "震慑旁观者"
+      ],
+      "power_level": {
+        "initial": "花式射击",
+        "peak": "一发同时防御与救援",
+        "evolution": []
+      },
+      "known_feats": [
+        {
+          "event_id": "alan-hostage-and-romeo-duel",
+          "summary": "金次用贝瑞塔·金次样式从腋下射击，撞开罗密欧子弹并救下阿兰。",
+          "sourceRef": "hidan-no-aria-main/vol-24/full.txt:4800"
+        }
+      ],
+      "shared_by": [
+        "kinji"
+      ],
+      "see_also": [
+        "hss",
+        "kinji-beretta-kinji-model"
+      ],
+      "countered_by": [],
+      "counters": [
+        "romeo-jericho-941"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-24/chapters/ch-005-第二十四卷_狂逸的同学会_4弹_贝瑞塔·金次样式.txt:416"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-24/chapters/ch-005-第二十四卷_狂逸的同学会_4弹_贝瑞塔·金次样式.txt:416"
+  ]
+}

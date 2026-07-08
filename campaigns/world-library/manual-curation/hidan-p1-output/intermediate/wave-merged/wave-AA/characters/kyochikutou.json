@@ -1,0 +1,176 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "kyochikutou",
+  "volume": "vol-03",
+  "source_refs": [
+    "hidan-no-aria-aa/vol-03/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-03",
+      "volume": "vol-03",
+      "time": "夹竹桃篇",
+      "name": {
+        "zh": "夹竹桃",
+        "en": "Kyochikutou",
+        "jp": "夾竹桃"
+      },
+      "aliases": [
+        "魔宫之蝎",
+        "伊·U猛毒高手"
+      ],
+      "gender": "female",
+      "species": "human",
+      "nationality": "unknown",
+      "occupation": "犯罪者、毒药专家、伊·U成员",
+      "affiliation": "i-u",
+      "status": {
+        "condition": "被明里非杀伤击败并现行犯逮捕；后接受司法交易供出符丁毒解毒方法"
+      },
+      "appearance": {
+        "overview": "黑长发、黑色长袖水手服、白花发饰，左手戴白手套，右臀有蝴蝶刺青。"
+      },
+      "personality": {
+        "summary": "冷淡、嗜虐、谨慎且沉迷毒药；不能容忍未知毒药存在。",
+        "core_traits": [
+          "毒物执着",
+          "残忍",
+          "谨慎",
+          "好奇心强"
+        ]
+      },
+      "abilities_owned": [
+        "poison-claw",
+        "fuchou-doku",
+        "acid-poison-mist",
+        "aphrodisiac-poison",
+        "wire-walking"
+      ],
+      "possessions_owned": [
+        "kyochikutou-toxic-plants",
+        "tnk-ropes",
+        "kyochikutou-m134-suitcase",
+        "mamiya-secret-book-vol5",
+        "kyochikutou-pipe"
+      ],
+      "relationships": {
+        "akari": {
+          "type": "enemy/captor",
+          "summary": "企图夺取鹰卷并招揽明里进入伊·U，被明里击败逮捕。"
+        },
+        "nonoka": {
+          "type": "victim",
+          "summary": "两年前对乃乃香施加符丁毒。"
+        },
+        "fuma-hina": {
+          "type": "enemy",
+          "summary": "夺走风魔秘传符丁毒并在本卷击败阳菜。"
+        },
+        "raika": {
+          "type": "enemy",
+          "summary": "在仓库街以春药毒击败莱卡。"
+        },
+        "shino": {
+          "type": "enemy",
+          "summary": "用M134改扫射重创志乃。"
+        },
+        "aria": {
+          "type": "enemy indirect",
+          "summary": "AA作战中亚莉亚要求明里逮捕她。"
+        }
+      },
+      "summary": "夹竹桃是本卷主要反派。她藏身LAST DANCE饭店，诱使明里交出鹰卷和自身，随后利用毒爪、毒雾、TNK绳索和M134改逐个击败明里队友，最终在彩虹大桥被非杀伤鹰卷摧毁武器并逮捕。",
+      "key_events": [
+        {
+          "event_id": "last-dance-raid",
+          "summary": "在403房与明里交涉并以TNK绳索逃脱。",
+          "sourceRef": "hidan-no-aria-aa/vol-03/full.txt"
+        },
+        {
+          "event_id": "rainbow-bridge-kyochikutou-arrest",
+          "summary": "在彩虹大桥败给明里并被救起逮捕。",
+          "sourceRef": "hidan-no-aria-aa/vol-03/full.txt"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-aa/vol-03/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-04",
+      "volume": "vol-04",
+      "time": "暑假",
+      "label": "屋顶观战的前伊·U成员",
+      "name": {
+        "zh": "夹竹桃",
+        "en": "Kyochikutou",
+        "jp": "夾竹桃"
+      },
+      "aliases": [
+        "铃木桃子"
+      ],
+      "titles": [
+        "前伊·U攻击少女队成员",
+        "武侦高中学生（司法交易后）"
+      ],
+      "gender": "female",
+      "species": "human",
+      "nationality": "Japanese",
+      "occupation": "武侦高中学生",
+      "affiliation": "tokyo-butei-high",
+      "status": {
+        "alive": true,
+        "condition": "自由之身"
+      },
+      "appearance": {
+        "overview": "黑色长发，穿水手服，裙摆较长（走保守路线）。",
+        "distinctive": [
+          "穿水手服为便服",
+          "总是坐屋顶护栏上"
+        ]
+      },
+      "personality": {
+        "summary": "沉默寡言，对曾打败自己的明里怀有强烈好奇。",
+        "core_traits": [
+          "冷静",
+          "观察力强"
+        ],
+        "values": [],
+        "fears": [],
+        "desires": [],
+        "strengths": [
+          "M134改操作",
+          "毒物知识"
+        ]
+      },
+      "relationships": {
+        "mamiya-akari": {
+          "type": "former-foe/curious-observer",
+          "summary": "在屋顶上观看明里战斗，对彩虹大桥一战的对手充满好奇。"
+        },
+        "mine-riko": {
+          "type": "companion",
+          "summary": "与理子和贞德一起活动。"
+        },
+        "jeanne": {
+          "type": "companion",
+          "summary": "为理子叫来的观战同伴。"
+        }
+      },
+      "summary": "夹竹桃在屋顶上与理子、贞德一起观看明里与日里的战斗。",
+      "key_events": [
+        {
+          "event_id": "observing-unique-contract",
+          "summary": "在屋顶上观看明里与日里的唯一契约决斗，确认明里确实会使用鹰卷。",
+          "sourceRef": "hidan-no-aria-aa/vol-04/full.txt"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-aa/vol-04/full.txt"
+      ]
+    }
+  ]
+}

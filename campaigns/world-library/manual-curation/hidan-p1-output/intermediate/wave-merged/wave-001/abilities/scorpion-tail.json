@@ -1,0 +1,45 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "ability",
+  "entityId": "scorpion-tail",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-04",
+  "_schema": "rp-ability-volume-v1",
+  "periods": [
+    {
+      "periodId": "vol-04",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-04/full.txt:1231",
+        "hidan-no-aria-main/vol-04/full.txt:6143"
+      ],
+      "snapshot": {
+        "name": "蝎尾",
+        "aliases": [
+          "不可视斩击",
+          "Scorpion Tail"
+        ],
+        "type": "combat / technique",
+        "description": "远山金一的另一项招牌技巧。利用HSS爆发模式下的超高速，产生看不见的打击/斩击。通常结合藏在头发中的大镰刀部件使用，也有徒手以不可视力度打击对手的方式。",
+        "details": {
+          "technique_variants": [
+            "徒手蝎尾：仅转身甩动动作就产生不可视的打击",
+            "武器蝎尾：组装发中金属片形成大镰刀进行超音速斩击"
+          ]
+        },
+        "activation": {
+          "condition": "HSS爆发模式下",
+          "time": "瞬间"
+        },
+        "effects": [
+          "从背后攻击敌人的不可视打击",
+          "超音速镰刀斩击可单体或群战"
+        ],
+        "shared_by": [
+          "tooyama-kinichi"
+        ],
+        "evidence_level": "S",
+        "source_refs": []
+      }
+    }
+  ]
+}

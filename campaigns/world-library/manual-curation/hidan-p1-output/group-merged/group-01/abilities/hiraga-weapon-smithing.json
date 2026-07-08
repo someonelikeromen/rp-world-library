@@ -1,0 +1,62 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "hiraga-weapon-smithing",
+  "volume": "vol-06",
+  "source_refs": [
+    "hidan-no-aria-main/vol-06/chapters/ch-003-第六卷_绝对半径2051_3弹_校外教学.txt:3"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-06-main",
+      "volume": "vol-06",
+      "time": "开学后装备科访问",
+      "name": {
+        "zh": "平贺文的武器改造",
+        "en": "Hiraga Weapon Smithing"
+      },
+      "aliases": [
+        "魔改造",
+        "装备科技师"
+      ],
+      "type": "technical",
+      "description": "平贺文能对枪械、刀剑和配件进行高难度改造。本卷她为金次完成夏洛克萨克逊剑的握把与秘藏刀鞘，并将沙漠之鹰加快弹匣排出、增加三点射和全自动机能。",
+      "details": {
+        "workshop": "装备科B201工作室",
+        "outputs": [
+          "sherlock-saxon-sword",
+          "kinji-desert-eagle"
+        ],
+        "materials": "枪械零件、硬质塑料、刀鞘、弹药零件"
+      },
+      "activation": {
+        "condition": "在装备科工作室加工",
+        "incantation": "无",
+        "cost": "需要材料、工具与委托"
+      },
+      "effects": [
+        "现代化刀剑握把和刀鞘",
+        "强化手枪机能",
+        "准备穿甲弹零件"
+      ],
+      "known_feats": [
+        "把萨克逊剑改成适合金次手掌的握把并制作背部秘藏刀鞘",
+        "把沙漠之鹰增加三点射和全自动机能"
+      ],
+      "shared_by": [
+        "ayaka-hiraga"
+      ],
+      "see_also": [
+        "kinji-desert-eagle",
+        "sherlock-saxon-sword"
+      ],
+      "countered_by": [],
+      "counters": [],
+      "evidence_level": "A",
+      "source_refs": [
+        "hidan-no-aria-main/vol-06/chapters/ch-003-第六卷_绝对半径2051_3弹_校外教学.txt:3",
+        "hidan-no-aria-main/vol-06/chapters/ch-003-第六卷_绝对半径2051_3弹_校外教学.txt:89"
+      ]
+    }
+  ]
+}

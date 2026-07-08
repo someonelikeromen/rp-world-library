@@ -1,0 +1,112 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "caesar",
+  "volume": "vol-17",
+  "time_range": {
+    "start": "龙之港自由石匠增援",
+    "end": "华生性别疑惑"
+  },
+  "sub_arcs": [
+    "自由石匠救援",
+    "战后停战"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-17-main",
+      "volume": "vol-17",
+      "time": "龙之港至战后",
+      "label": "自由石匠救援队核心",
+      "name": {
+        "zh": "凯撒",
+        "en": "Caesar",
+        "jp": "カエサル"
+      },
+      "aliases": [
+        "自由石匠代表战士"
+      ],
+      "titles": [
+        "自由石匠代表战士",
+        "欧洲师团交涉者"
+      ],
+      "gender": "男性",
+      "species": "人类",
+      "nationality": "欧洲",
+      "occupation": "自由石匠战士/交涉者",
+      "affiliation": "自由石匠; 师团",
+      "status": {
+        "mission": "率海鸥飞艇攻入龙之港，捕获眷属干部并参与战后停战处理。",
+        "personal": "因金次在布鲁塞尔泄露情报而开始怀疑华生真实性别。"
+      },
+      "appearance": {
+        "overview": "穿风衣的自由石匠帅哥战士。",
+        "attire": {
+          "default": "风衣"
+        },
+        "distinctive": [
+          "使用自由石匠紫水晶徽章机队支援"
+        ]
+      },
+      "personality": {
+        "summary": "行动力强，能快速调动飞行艇支援欧洲战场；私下对华生身份产生疑惑。",
+        "core_traits": [
+          "组织力",
+          "果断",
+          "绅士气质",
+          "审慎"
+        ],
+        "strengths": [
+          "战术调度",
+          "停战交涉",
+          "武装突入"
+        ],
+        "flaws": [
+          "被金次敷衍对待"
+        ],
+        "inner_conflict": "在战后政治和私人疑惑间保持自由石匠代表立场。"
+      },
+      "abilities_owned": [],
+      "possessions_owned": [
+        "chaika-flying-boat"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "ally",
+          "summary": "在龙之港救援金次一行，随后接受其敷衍应对。"
+        },
+        "l-watson": {
+          "type": "colleague",
+          "summary": "因金次泄露开始怀疑华生其实是女生。"
+        },
+        "petra": {
+          "type": "captor",
+          "summary": "自由石匠增援中协助压制佩特拉。"
+        }
+      },
+      "knowledge": [
+        "freemasonry-ceasefire-role"
+      ],
+      "summary": "凯撒带自由石匠的海鸥飞艇追踪V-2发射地点，登上龙之港宝船并支援贞德、华生压制佩特拉，之后参与阿姆斯特丹停战处理。金次此前泄露华生性别后，凯撒开始对华生保持怀疑和距离。",
+      "key_events": [
+        {
+          "event_id": "dragon-port-freemasonry-rescue",
+          "summary": "率自由石匠飞行艇登船并支援逆转战局。",
+          "sourceRef": "hidan-no-aria-main/vol-17/full.txt:430"
+        },
+        {
+          "event_id": "freemasonry-ceasefire",
+          "summary": "参与阿姆斯特丹停战和战后政治处理。",
+          "sourceRef": "hidan-no-aria-main/vol-17/full.txt:760"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-17/chapters/ch-001-第十七卷_绯弹的宣叙曲_1弹_热沃当与哿.txt:430",
+        "hidan-no-aria-main/vol-17/chapters/ch-001-第十七卷_绯弹的宣叙曲_1弹_热沃当与哿.txt:760"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-17/chapters/ch-001-第十七卷_绯弹的宣叙曲_1弹_热沃当与哿.txt:430"
+  ]
+}

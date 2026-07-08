@@ -1,0 +1,91 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "item",
+  "entityId": "beretta-m92f-kinji",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-04",
+  "_schema": "rp-item-volume-v1",
+  "periods": [
+    {
+      "periodId": "vol-04",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-04/full.txt:747",
+        "hidan-no-aria-main/vol-04/full.txt:5274",
+        "hidan-no-aria-main/vol-04/full.txt:5497"
+      ],
+      "snapshot": {
+        "name": "贝瑞塔92F 金次模式",
+        "aliases": [
+          "贝瑞塔",
+          "Beretta M92F",
+          "9mm手枪"
+        ],
+        "type": "weapon",
+        "description": "金次的爱枪，经平贺文非法改造。选择器有故障，三连发模式实际只射两发子弹而且几乎是同时发射，本卷被金次利用这项缺陷创造了『镜击』。",
+        "details": {
+          "caliber": "9mm帕拉贝伦",
+          "modifications": "平贺文改造，连射模式故障（三连发仅射两发）",
+          "holster": "腰际"
+        },
+        "owner": "kinji",
+        "status": "active",
+        "features": [
+          "全自动连射可能",
+          "故障三连发实际双弹",
+          "可配合弹子戏法使用"
+        ],
+        "associated_abilities": [
+          "mirror-shot"
+        ],
+        "history": [
+          "上个月被平贺文改造后出现连射故障",
+          "本卷金次利用故障双弹特性创造镜击反制不可视子弹"
+        ],
+        "evidence_level": "S",
+        "source_refs": []
+      }
+    },
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:1260",
+        "hidan-no-aria-main/vol-09/full.txt:1548",
+        "hidan-no-aria-main/vol-09/full.txt:1975",
+        "hidan-no-aria-main/vol-09/full.txt:7040"
+      ],
+      "snapshot": {
+        "name": "贝瑞塔M92F 金次模式",
+        "aliases": [
+          "贝瑞塔",
+          "Beretta M92F",
+          "金次的贝瑞塔"
+        ],
+        "type": "weapon",
+        "description": "金次的爱枪。本卷装填华生交给的法化银弹后由理子临时使用，在希尔达战中击穿翅膀与魔脏标记，并被金次用于子弹回射战术。卷末照片中未作为巴斯克维尔四女武器展示。",
+        "details": {
+          "caliber": "9mm帕拉贝伦",
+          "owner": "kinji",
+          "vol09_usage": "理子从金次身上摸走后用于近身枪战；最后一发银弹由金次以大蛇回射"
+        },
+        "owner": "kinji",
+        "status": "active",
+        "features": [
+          "可装填法化银弹",
+          "可配合HSS枪技",
+          "曾由理子临时使用"
+        ],
+        "associated_abilities": [
+          "bullet-return",
+          "invisible-bullet-imitation",
+          "aru-cata-close-combat"
+        ],
+        "history": [
+          "华生交给金次法化银弹后成为对希尔达最终武器",
+          "理子借用贝瑞塔打残希尔达双翼并参与四点同时攻击",
+          "金次以大蛇夹住理子射出的银弹并完成子弹回射"
+        ],
+        "evidence_level": "S"
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "ability",
+  "entityId": "hss-bousou-mode",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-09",
+  "periods": [
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:25",
+        "hidan-no-aria-main/vol-09/full.txt:167",
+        "hidan-no-aria-main/vol-09/full.txt:1041",
+        "hidan-no-aria-main/vol-09/full.txt:5415"
+      ],
+      "snapshot": {
+        "name": "爆发模式/HSS",
+        "aliases": [
+          "HSS",
+          "Hyper SensorSensory",
+          "狂怒爆发",
+          "基本爆发",
+          "远山家遗传超感觉"
+        ],
+        "type": "innate / genetic",
+        "description": "远山家遗传能力。本卷中金次在狂怒爆发与基本爆发交错状态下与华生、希尔达连续作战，能观察子弹轨迹、瞬间判断敌人弱点并进行超常反射动作。",
+        "details": {
+          "activation_mechanism": "性刺激或与女性相关的强烈情绪触发；本卷出现狂怒爆发与基本爆发混合比例的自觉描述",
+          "combat_effect": "大幅提升反射、观察、身体输出和女性应对语言能力",
+          "risk": "能力解除后身体剧痛，需要恢复；精神判断也会受模式倾向影响"
+        },
+        "known_users": [
+          "kinji"
+        ],
+        "effects": [
+          "超高速观察与反应",
+          "近距离枪战与徒手偏弹能力强化",
+          "对女性说话和安抚能力提升",
+          "能承受并反击极端战斗压力"
+        ],
+        "counters": [
+          "暗示术可在集中注视时介入",
+          "电击麻痹会限制行动",
+          "解除后身体负担巨大"
+        ],
+        "associated_events": [
+          "sky-tree-hilda-showdown",
+          "aria-kinji-culture-festival-date"
+        ],
+        "evidence_level": "S"
+      }
+    }
+  ],
+  "_schema": "rp-ability-volume-v1"
+}

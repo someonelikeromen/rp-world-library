@@ -1,0 +1,53 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "burst-mode",
+  "volume": "vol-02",
+  "periods": [
+    {
+      "period_id": "vol-02-main",
+      "volume": "vol-02",
+      "time": "5月",
+      "name": { "zh": "爆发模式", "en": "Burst Mode" },
+      "aliases": ["觉醒", "笨蛋模式"],
+      "type": "genetic",
+      "description": "远山家男性遗传的特殊能力。进入后全能力大幅上升，洞察力、反射神经、力量、思考速度均为平常数倍。能与女性嘴唇接触后通过性亢奋进入。但性格会变成类似牛郎的花花公子风格。",
+      "details": {
+        "机制": "神经性遗传形质（非心因性获得形质），通过性亢奋触发的生理反应",
+        "表现": "战斗力提升至单人等同特殊部队中队水平，洞察力极强（能看透变装），空手夺白刃",
+        "副作用": "性格大变（花哨多情），皮肤敏感度上升",
+        "远山家其他": "大哥金一能够自由切换"
+      },
+      "activation": {
+        "condition": "性亢奋状态（通常由女性接触引发，尤其是嘴唇接触）",
+        "incantation": "无（自动触发）",
+        "time": "瞬间",
+        "cost": "消耗大量体力，性格会暂时改变"
+      },
+      "effects": [
+        "全身体能力大幅提升",
+        "洞察力/推理能力显著增强",
+        "空手夺白刃成为可能",
+        "开锁速度大幅提升（12分钟→10秒）"
+      ],
+      "power_level": {
+        "initial": "不稳定（需特定触发）",
+        "peak": "S级战斗能力",
+        "evolution": []
+      },
+      "known_feats": [
+        "在ANA600号劫机事件中首次由金次展现",
+        "地下仓库事件中金次主动进入救出白雪",
+        "能在3秒内开保险柜级别的锁"
+      ],
+      "shared_by": ["kinji"],
+      "see_also": [],
+      "countered_by": [],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": ["hidan-no-aria-main/vol-02/full.txt"]
+    }
+  ],
+  "source_refs": ["hidan-no-aria-main/vol-02/full.txt"]
+}

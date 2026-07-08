@@ -1,0 +1,60 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "loo-walking-tank-operation",
+  "volume": "vol-08",
+  "source_refs": [
+    "hidan-no-aria-main/vol-08/chapters/ch-001-第八卷_螺旋的天空树_1弹_乱世之宵.txt:390"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-08-main",
+      "volume": "vol-08",
+      "time": "秋季",
+      "name": {
+        "zh": "LOO二足战车操纵",
+        "en": "LOO Walking Tank Operation"
+      },
+      "aliases": [
+        "步行战车操纵",
+        "二足坦克操作"
+      ],
+      "type": "vehicle_operation",
+      "description": "驾驶重武装二足步行战车LOO的技术。战车配备瞄准器、天线、榴弹、烟雾弹发射器和M61火神炮。",
+      "details": {
+        "platform": "二足战车，无轮胎或履带，脚部关节与人类相反",
+        "weakness": "机体被风车扇叶压坏后驾驶员战力大幅下降"
+      },
+      "activation": {
+        "condition": "进入LOO机体并操纵",
+        "incantation": "无",
+        "time": "持续驾驶",
+        "cost": "依赖机体"
+      },
+      "effects": [
+        "重火力威慑",
+        "机械装甲防护",
+        "战场压制"
+      ],
+      "known_feats": [
+        "宣战会议中以LOO声沟通，被亚莉亚击落风车扇叶压倒"
+      ],
+      "shared_by": [
+        "loo-pilot"
+      ],
+      "see_also": [
+        "loo-walking-tank"
+      ],
+      "countered_by": [
+        "上方重物压制",
+        "机体破坏"
+      ],
+      "variations": [],
+      "evidence_level": "A",
+      "source_refs": [
+        "hidan-no-aria-main/vol-08/chapters/ch-001-第八卷_螺旋的天空树_1弹_乱世之宵.txt:390",
+        "hidan-no-aria-main/vol-08/chapters/ch-001-第八卷_螺旋的天空树_1弹_乱世之宵.txt:630"
+      ]
+    }
+  ]
+}

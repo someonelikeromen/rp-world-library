@@ -1,0 +1,65 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "kintan-pfiber-control",
+  "volume": "vol-40",
+  "source_refs": [
+    "hidan-no-aria-main/vol-40/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-40",
+      "volume": "vol-40",
+      "time": "第四十卷",
+      "name": {
+        "zh": "磁推进纤盾操控",
+        "en": "P Fiber Control"
+      },
+      "aliases": [
+        "P Fiber",
+        "磁推进纤盾"
+      ],
+      "type": "technology/combat",
+      "description": "金女操纵磁推进纤盾和科学剑进行防御、移动、追击和临时踏板搭建。",
+      "details": {
+        "limitation": "电力有限，追车时多把科学剑缺电返回。"
+      },
+      "activation": {
+        "condition": "特拉纳/脑波视线操作与装备电力",
+        "incantation": "",
+        "time": "即时",
+        "cost": "耗电"
+      },
+      "effects": [
+        "盾牌防御",
+        "空中移动",
+        "辅助跨楼",
+        "追踪目标"
+      ],
+      "power_level": {
+        "initial": "单兵科学装备",
+        "peak": "多盾与梅梅特昊盾协作",
+        "evolution": []
+      },
+      "known_feats": [
+        "与昊盾组成空中阶梯",
+        "在蔬菜爆炸雨中防御"
+      ],
+      "shared_by": [
+        "kintan"
+      ],
+      "see_also": [
+        "memet-ahotep-shields"
+      ],
+      "countered_by": [
+        "battery-depletion"
+      ],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-40/full.txt"
+      ]
+    }
+  ]
+}

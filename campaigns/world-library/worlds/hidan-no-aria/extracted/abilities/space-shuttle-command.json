@@ -1,0 +1,42 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "space-shuttle-command",
+  "volume": "vol-21",
+  "source_refs": [
+    "hidan-no-aria-main/vol-21/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-21",
+      "volume": "vol-21",
+      "time": "第二十一卷",
+      "name": {
+        "zh": "太空梭指挥",
+        "en": "Space shuttle command"
+      },
+      "aliases": [],
+      "type": "technology / piloting",
+      "description": "梦露船长指挥亚特兰提斯号发射、入轨与任务流程的专业能力。",
+      "details": {},
+      "activation": {
+        "condition": "NASA太空任务"
+      },
+      "effects": [
+        "发射指挥",
+        "入轨确认",
+        "乘员管理"
+      ],
+      "known_feats": [
+        "将亚莉亚、金次与绯绯色金送入560公里轨道"
+      ],
+      "shared_by": [
+        "monroe"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-21/full.txt"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "_schema": "rp-faction-volume-v1",
+  "world": "hidan-no-aria",
+  "faction_id": "tokyo-butei-high",
+  "volume": "vol-01",
+  "source_refs": [
+    "hidan-no-aria-main/vol-01/chapters/ch-002-第一卷_1弹_La_bambina_da_I'ARIA_从天而降的少女.txt:5"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-01-main",
+      "volume": "vol-01",
+      "time": "全卷",
+      "name": {
+        "zh": "东京武侦高中",
+        "en": "Tokyo Butei High School"
+      },
+      "aliases": [
+        "武侦高中",
+        "东京武侦高中校"
+      ],
+      "type": "school",
+      "description": "培养武侦的综合教育机构，位于学园岛。设一般科目和专业科目（侦探科、强袭科、车辆科、狙击科、通信科、鉴识科、SSR等）。学生必修携带枪械和刀剑。教师和学生群体中包含许多遗传系天才。",
+      "history": "设立于人工浮岛学园岛上。",
+      "goals": "培养合格的武侦人才。",
+      "structure": "校长→教务科→各专业科→各班级",
+      "leader": "未提及",
+      "headquarters": "学园岛",
+      "members": [
+        "远山金次",
+        "神崎·H·亚莉亚",
+        "星伽白雪",
+        "峰·理子·罗苹四世",
+        "蕾姬",
+        "武藤刚气",
+        "夏海",
+        "三上"
+      ],
+      "allies": [
+        "东京武侦局",
+        "车辆科等支援部门"
+      ],
+      "enemies": [],
+      "key_events": [
+        "bike-hijack-first-meet",
+        "bus-hijacking",
+        "assault-return-claw-machine",
+        "cat-request-riko-investigation",
+        "partner-choice"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-01/chapters/ch-002-第一卷_1弹_La_bambina_da_I'ARIA_从天而降的少女.txt:5",
+        "hidan-no-aria-main/vol-01/chapters/ch-002-第一卷_1弹_La_bambina_da_I'ARIA_从天而降的少女.txt:19"
+      ]
+    },
+    {
+      "period_id": "vol-06-main",
+      "volume": "vol-06",
+      "time": "本卷东京与校外教学期间",
+      "name": {
+        "zh": "东京武侦高中",
+        "en": "Tokyo Butei High School"
+      },
+      "aliases": [
+        "武侦高中",
+        "东京武侦高"
+      ],
+      "type": "school",
+      "description": "培养武侦的综合学校。本卷推进国际合作、接纳香港武侦高中留学生，并要求二年级学生在校外教学Ⅰ前后完成小队编成。",
+      "history": "本卷第二学期开学典礼上，校长绿松发表武侦国际合作演说，香港武侦高中学生以留学生身份在校内出现。",
+      "goals": "培养武侦、推动国际武侦合作、让二年级学生完成小队登记。",
+      "structure": "校长与教务科统筹，各专业科和学科分别承担战斗、支援、装备、通信等职能。",
+      "leader": "绿松校长",
+      "headquarters": "gakuen-island",
+      "members": [
+        "kinji",
+        "reki",
+        "aria",
+        "riko",
+        "shirayuki",
+        "mutou",
+        "shiranuhi",
+        "ayaka-hiraga",
+        "misaki-nakasorachi"
+      ],
+      "allies": [
+        "iada",
+        "hong-kong-butei-high"
+      ],
+      "enemies": [],
+      "key_events": [
+        "opening-ceremony-squad-talk",
+        "aria-reki-station-clash",
+        "equipment-upgrade-hiraga",
+        "reki-investigation-nakasorachi",
+        "kyoto-field-trip"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-06/chapters/ch-002-第六卷_绝对半径2051_2弹_泼水节.txt:11",
+        "hidan-no-aria-main/vol-06/chapters/ch-002-第六卷_绝对半径2051_2弹_泼水节.txt:17",
+        "hidan-no-aria-main/vol-06/chapters/ch-002-第六卷_绝对半径2051_2弹_泼水节.txt:101"
+      ]
+    },
+    {
+      "period_id": "vol-07-main",
+      "volume": "vol-07",
+      "time": "9月下旬",
+      "name": {
+        "zh": "东京武侦高中",
+        "en": "Tokyo Butei High"
+      },
+      "type": "butei_school",
+      "members": [
+        "kinji",
+        "aria",
+        "shirakawa",
+        "riko",
+        "reiki",
+        "muto",
+        "shiranui",
+        "hiraga",
+        "nango",
+        "ranbyou",
+        "tsuzuri"
+      ],
+      "departments": [
+        "侦探科",
+        "强袭科",
+        "狙击科",
+        "车辆科",
+        "卫生科",
+        "爆裂物处理相关小队"
+      ],
+      "summary": "东京武侦高中在本卷一方面因状况E8而不公开介入内部人员事件，另一方面其学生在希望246号上自行组织应急、切离车厢、拆弹和后续处理，最终还完成巴斯克维尔小队登录。",
+      "relationships": {
+        "baskerville-squad": "校内正式登录小队",
+        "blue-gang": "曹操姐妹以留学生身份潜伏并劫持新干线",
+        "shinga-shrine": "星伽巫女白雪与风雪支援武侦行动"
+      },
+      "key_events": [
+        {
+          "event_id": "hope-246-hijacking",
+          "summary": "多名武侦高中学生在列车上各自发挥专长。",
+          "sourceRef": "hidan-no-aria-main/vol-07/full.txt:1667"
+        },
+        {
+          "event_id": "baskerville-registration",
+          "summary": "巴斯克维尔小队完成学校登录。",
+          "sourceRef": "hidan-no-aria-main/vol-07/full.txt:5735"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-07/chapters/ch-001-第七卷_火与风的华尔兹_1弹_状况E8.txt:77",
+        "hidan-no-aria-main/vol-07/chapters/ch-001-第七卷_火与风的华尔兹_1弹_状况E8.txt:87",
+        "hidan-no-aria-main/vol-07/chapters/ch-001-第七卷_火与风的华尔兹_1弹_状况E8.txt:93",
+        "hidan-no-aria-main/vol-07/chapters/ch-002-第七卷_火与风的华尔兹_2弹_HURRY_UP.txt:739",
+        "hidan-no-aria-main/vol-07/chapters/ch-004-第七卷_火与风的华尔兹_4弹_巴斯克维尔小队.txt:739"
+      ]
+    }
+  ]
+}

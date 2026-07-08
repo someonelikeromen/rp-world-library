@@ -1,0 +1,79 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "faction",
+  "entityId": "dracula-family",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-08",
+  "periods": [
+    {
+      "periodId": "vol-08",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-08/full.txt:175",
+        "hidan-no-aria-main/vol-08/full.txt:461",
+        "hidan-no-aria-main/vol-08/full.txt:3587",
+        "hidan-no-aria-main/vol-08/full.txt:3697"
+      ],
+      "snapshot": {
+        "name": "德古拉家",
+        "aliases": [
+          "Dracula family",
+          "弗拉德一族",
+          "吸血鬼一族"
+        ],
+        "type": "supernatural-family / kenzoku faction",
+        "description": "以弗拉德和其女希尔达为代表的吸血鬼家系，属于眷属方。希尔达自称德古拉女伯爵并以弗拉德之女身份敌视金次和亚莉亚，利用影子、电击、催眠与绯色牙齿夺取亚莉亚壳金。",
+        "known_members": [
+          "hilda"
+        ],
+        "former_members_or_relatives": [
+          "vlad"
+        ],
+        "opponents": [
+          "baskerville",
+          "shidan",
+          "riko"
+        ],
+        "key_events": [
+          "aria-bitten-shells-stolen",
+          "hilda-attacks-escort-convoy"
+        ],
+        "evidence_level": "S"
+      }
+    },
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:103",
+        "hidan-no-aria-main/vol-09/full.txt:617",
+        "hidan-no-aria-main/vol-09/full.txt:2190",
+        "hidan-no-aria-main/vol-09/full.txt:2680"
+      ],
+      "snapshot": {
+        "name": "德古拉家",
+        "aliases": [
+          "德古拉一族",
+          "吸血鬼贵族",
+          "暗黑贵族"
+        ],
+        "type": "vampire bloodline",
+        "description": "弗拉德与希尔达所属的吸血鬼血族，拥有魔脏无限回复和吸血鬼超常体质。本卷中希尔达以德古拉女伯爵身份行动，并以毒蛇耳环、三叉枪、棺材等象征支配理子。",
+        "known_members": [
+          "vlad",
+          "hilda"
+        ],
+        "associated_items": [
+          "dracula-poison-earring",
+          "hilda-trident",
+          "hilda-coffin-transformer"
+        ],
+        "abilities": [
+          "vampire-regeneration-magic-organs",
+          "hilda-thunder-star-third-form"
+        ],
+        "status": "希尔达重伤存活；血族未完全断绝",
+        "significance": "德古拉家父女皆被金次、亚莉亚、理子相关组合击败。",
+        "evidence_level": "S"
+      }
+    }
+  ]
+}

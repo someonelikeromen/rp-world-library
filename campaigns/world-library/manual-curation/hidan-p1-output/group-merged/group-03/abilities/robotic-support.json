@@ -1,0 +1,41 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "robotic-support",
+  "volume": "vol-21",
+  "source_refs": [
+    "hidan-no-aria-main/vol-21/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-21",
+      "volume": "vol-21",
+      "time": "第二十一卷",
+      "name": {
+        "zh": "机器人支援",
+        "en": "Robotic support"
+      },
+      "aliases": [],
+      "type": "technology / support",
+      "description": "LOO作为少女型机器人可为GⅢ团队提供技术或战斗支援，本卷随队在佛罗里达出场。",
+      "details": {},
+      "activation": {
+        "condition": "GⅢ团队行动"
+      },
+      "effects": [
+        "团队支援",
+        "现场协助"
+      ],
+      "known_feats": [
+        "随GⅢ团队出现于肯尼迪太空中心"
+      ],
+      "shared_by": [
+        "loo"
+      ],
+      "evidence_level": "B",
+      "source_refs": [
+        "hidan-no-aria-main/vol-21/full.txt"
+      ]
+    }
+  ]
+}

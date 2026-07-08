@@ -1,0 +1,51 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "ability",
+  "entityId": "hilda-thunder-star-third-form",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-09",
+  "_schema": "rp-ability-volume-v1",
+  "periods": [
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:2190",
+        "hidan-no-aria-main/vol-09/full.txt:2230",
+        "hidan-no-aria-main/vol-09/full.txt:2275"
+      ],
+      "snapshot": {
+        "name": "第三型态·雷星",
+        "aliases": [
+          "第三型态",
+          "雷星",
+          "德古拉家奥义",
+          "苍蓝雷球"
+        ],
+        "type": "vampire ultimate form / electricity",
+        "description": "希尔达在雷雨中以三叉枪作避雷针吸收自然落雷，跳过弗拉德的第二型态进入第三型态，形成全身青白高压电流并可凝聚苍蓝雷星。",
+        "details": {
+          "activation": "雷雨夜以三叉枪引雷，吸收适合自身耐电与回复能力的自然电压",
+          "appearance": "金发散开，全身与长枪包覆青白闪电，接近即可能烧焦",
+          "attack": "在三叉枪前端凝聚苍蓝星状雷球『雷星』"
+        },
+        "known_users": [
+          "hilda"
+        ],
+        "effects": [
+          "极大强化力量与电压",
+          "无需城市电力供给",
+          "雷星可将目标烧成黑炭",
+          "长枪一击可破坏水泥与钢材"
+        ],
+        "limitations": [
+          "需要雷雨环境",
+          "若魔脏回复被破坏，自身电流会反噬并点燃身体"
+        ],
+        "associated_items": [
+          "hilda-trident"
+        ],
+        "evidence_level": "S"
+      }
+    }
+  ]
+}
