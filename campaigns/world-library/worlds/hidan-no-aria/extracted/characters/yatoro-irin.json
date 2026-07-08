@@ -1,0 +1,54 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "character",
+  "entityId": "yatoro-irin",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-09",
+  "_schema": "rp-character-volume-v1",
+  "periods": [
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:2595",
+        "hidan-no-aria-main/vol-09/full.txt:2665"
+      ],
+      "snapshot": {
+        "name": "矢常吕依琳",
+        "aliases": [
+          "矢常吕老师",
+          "救护科天才老师"
+        ],
+        "gender": "女",
+        "status": "存活；未直接出场但参与理子解毒治疗",
+        "role": "武侦医院/救护科医疗专家；理子救命关键人物",
+        "affiliations": [
+          "东京武侦高中",
+          "救护科",
+          "武侦医院"
+        ],
+        "abilities_owned": [
+          "advanced-toxicology-treatment"
+        ],
+        "possessions_owned": [],
+        "equipment": [
+          "救护科医疗设备"
+        ],
+        "relationships": [
+          {
+            "target": "riko",
+            "type": "救治对象",
+            "detail": "配合华生处理希尔达毒蛇腺液，使理子成功解毒。"
+          },
+          {
+            "target": "watson",
+            "type": "医疗协作者",
+            "detail": "华生称若只有自己一人原本不可能完成解毒，多亏矢常吕老师帮忙。"
+          }
+        ],
+        "summary": "矢常吕依琳虽未在场景中直接登场，但被华生称为天才救护科老师。她参与处理理子耳环毒蛇腺液中毒，是理子在心肺停止后成功复苏的重要医疗支持。",
+        "evidence_level": "B",
+        "source_refs": []
+      }
+    }
+  ]
+}

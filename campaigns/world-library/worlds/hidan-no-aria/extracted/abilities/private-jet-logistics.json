@@ -1,0 +1,64 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "private-jet-logistics",
+  "volume": "vol-32",
+  "source_refs": [
+    "hidan-no-aria-main/vol-32/chapters/ch-001-第三十二卷_苍穹的密使_1弹_Catch_you_later.txt:970"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-32-main",
+      "volume": "vol-32",
+      "time": "返日航程",
+      "name": {
+        "zh": "私人飞机调度",
+        "en": "private jet logistics"
+      },
+      "aliases": [
+        "私人喷射机接送"
+      ],
+      "type": "skill / technology / social",
+      "description": "桃乐西用个人财力和飞行资源快速跨国接送金次一行。",
+      "details": {
+        "aircraft": "dorothy-bombardier-605"
+      },
+      "activation": {
+        "condition": "桃乐西响应GⅢ请求",
+        "incantation": "",
+        "time": "数小时至跨洋航程",
+        "cost": "燃料、机场许可、飞行安排"
+      },
+      "effects": [
+        "避开外务省人情债",
+        "跨洋返日"
+      ],
+      "power_level": {
+        "initial": "从渥太华机场出发",
+        "peak": "将多人送至羽田",
+        "evolution": []
+      },
+      "known_feats": [
+        {
+          "summary": "桃乐西用粉红色庞巴迪挑战者605送金次一行回日本。",
+          "sourceRef": "hidan-no-aria-main/vol-32/full.txt:970"
+        }
+      ],
+      "shared_by": [
+        "dorothy-solomon"
+      ],
+      "see_also": [],
+      "countered_by": [
+        "机场时段限制"
+      ],
+      "counters": [
+        "常规航班与政府机票依赖"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-32/chapters/ch-001-第三十二卷_苍穹的密使_1弹_Catch_you_later.txt:970"
+      ]
+    }
+  ]
+}

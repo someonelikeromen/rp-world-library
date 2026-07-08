@@ -1,0 +1,75 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "petra-key-craft",
+  "volume": "vol-27",
+  "source_refs": [
+    "hidan-no-aria-main/vol-27/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-27",
+      "volume": "vol-27",
+      "time": "第二十七卷",
+      "name": {
+        "zh": "佩特拉之钥制造/色金停止术",
+        "en": "Petra Key Craft"
+      },
+      "aliases": [
+        "佩特拉之钥",
+        "停止色金机能的钥匙"
+      ],
+      "type": "magic / supernatural / artifact-craft",
+      "description": "佩特拉融合古埃及法老咒术、夏洛克绯色研究与星伽巫术制造的钥匙，可停止色金或反色金机能。",
+      "details": {
+        "creator": "petra",
+        "operator": "kinjo",
+        "range": "约五十公分",
+        "artifact": "petra-key-ring"
+      },
+      "activation": {
+        "condition": "钥匙接近目标色金五十公分内",
+        "incantation": "",
+        "time": "接触/近距离瞬时",
+        "cost": "制造者巨大负荷，佩特拉因此住院"
+      },
+      "effects": [
+        "使反色金变回普通金属",
+        "避免杀死宿主即可解除兵器功能"
+      ],
+      "power_level": {
+        "initial": "针对反色金新制",
+        "peak": "卷末成功停止金天反色金",
+        "evolution": []
+      },
+      "known_feats": [
+        {
+          "summary": "佩特拉把指环交给金女并说明效果。",
+          "sourceRef": "hidan-no-aria-main/vol-27/full.txt:4200"
+        },
+        {
+          "summary": "金女抱住金天时反色金机能消失。",
+          "sourceRef": "hidan-no-aria-main/vol-27/full.txt:5400"
+        }
+      ],
+      "shared_by": [
+        "petra",
+        "kinjo"
+      ],
+      "see_also": [
+        "counter-irokane"
+      ],
+      "countered_by": [],
+      "counters": [
+        "counter-irokane"
+      ],
+      "variations": [
+        "旧型钥匙形佩特拉之钥"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-27/full.txt"
+      ]
+    }
+  ]
+}

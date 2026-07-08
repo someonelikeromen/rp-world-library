@@ -1,0 +1,49 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "monjaku",
+  "volume": "vol-03",
+  "source_refs": [
+    "hidan-no-aria-aa/vol-03/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-03",
+      "volume": "vol-03",
+      "time": "江户时代回忆",
+      "name": {
+        "zh": "门雀",
+        "en": "Monjaku"
+      },
+      "aliases": [],
+      "type": "combat",
+      "description": "以足拇指为轴在几乎不减速状态下瞬间旋转一百八十度的间宫流回转技。",
+      "details": {
+        "terrain": "只适合软硬适中的路面"
+      },
+      "activation": {
+        "condition": "奔跑中踏地",
+        "time": "瞬间",
+        "cost": "需要足部轴心控制"
+      },
+      "effects": [
+        "急速调头",
+        "反击追兵"
+      ],
+      "known_feats": [
+        "间宫林藏用门雀调头双刀斩倒三名杀手"
+      ],
+      "shared_by": [
+        "mamiya-rinzo",
+        "akari"
+      ],
+      "see_also": [
+        "mamiya-arts"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-aa/vol-03/full.txt"
+      ]
+    }
+  ]
+}

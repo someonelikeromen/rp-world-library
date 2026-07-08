@@ -1,0 +1,77 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "zii-fireball",
+  "volume": "vol-27",
+  "source_refs": [
+    "hidan-no-aria-main/vol-27/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-27",
+      "volume": "vol-27",
+      "time": "第二十七卷",
+      "name": {
+        "zh": "ZII火炮/子弹",
+        "en": "ZII Prana Projectile"
+      },
+      "aliases": [
+        "火炮",
+        "子弹",
+        "红色光弹"
+      ],
+      "type": "supernatural / combat",
+      "description": "ZII将Prana凝聚为红色光弹，小型可作追踪子弹，大型火炮足以炸飞车辆。",
+      "details": {
+        "user": "zii",
+        "forms": [
+          "指尖子弹",
+          "棒球/排球大小火炮"
+        ],
+        "guidance": "有一定追踪性"
+      },
+      "activation": {
+        "condition": "CSS吸收足够Prana",
+        "incantation": "",
+        "time": "瞬时到蓄力",
+        "cost": "消耗Prana"
+      },
+      "effects": [
+        "切割或打击目标",
+        "车辆级爆炸",
+        "压制敌方车队"
+      ],
+      "power_level": {
+        "initial": "手枪弹级光弹",
+        "peak": "首都高一分钟内击毁GIII先遣车辆",
+        "evolution": []
+      },
+      "known_feats": [
+        {
+          "summary": "公寓中对金次发射追踪子弹。",
+          "sourceRef": "hidan-no-aria-main/vol-27/full.txt:650"
+        },
+        {
+          "summary": "首都高用火炮击毁GIII部下车辆。",
+          "sourceRef": "hidan-no-aria-main/vol-27/full.txt:4350"
+        }
+      ],
+      "shared_by": [
+        "zii"
+      ],
+      "see_also": [
+        "caderia-spartan-syndrome",
+        "zii-landmine"
+      ],
+      "countered_by": [
+        "valkyrja-magic-cancel-flash"
+      ],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-27/full.txt"
+      ]
+    }
+  ]
+}

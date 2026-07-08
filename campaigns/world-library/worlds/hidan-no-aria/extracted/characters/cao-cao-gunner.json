@@ -1,0 +1,165 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "cao-cao-gunner",
+  "volume": "vol-07",
+  "source_refs": [
+    "hidan-no-aria-main/vol-07/chapters/ch-003-第七卷_火与风的华尔兹_3弹_第三位双剑双枪.txt:284",
+    "hidan-no-aria-main/vol-07/chapters/ch-003-第七卷_火与风的华尔兹_3弹_第三位双剑双枪.txt:1294"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-07-main",
+      "volume": "vol-07",
+      "time": "希望246号事件",
+      "label": "曹操姐妹·炮娘",
+      "name": {
+        "zh": "炮娘",
+        "en": "Cao Cao Gunner Sister"
+      },
+      "aliases": [
+        "眧眧",
+        "曹操姐妹枪手型"
+      ],
+      "gender": "女性",
+      "species": "人类",
+      "nationality": "中国/香港",
+      "occupation": "蓝帮成员/枪手",
+      "affiliation": "蓝帮/原伊·U交易网络",
+      "status": {
+        "physical": "被缴械并逮捕",
+        "mental": "狡猾且服从狙姐指挥",
+        "social": "曹操三姐妹之一"
+      },
+      "summary": "炮娘是曹操姐妹的枪械担当，使用乌兹冲锋枪、降落伞制服与青龙刀掩护，与猛妹在车顶形成二对一夹击。狙姐登场后，她转向压制蕾姬，最终在金次与亚莉亚火力压制下倒地被捕。",
+      "abilities_owned": [
+        "uzi-gunplay",
+        "parachute-uniform",
+        "team-crossfire"
+      ],
+      "possessions_owned": [
+        "uzi",
+        "qinglong-dao",
+        "cao-cao-gadgets"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "target",
+          "summary": "与猛妹联手夹击金次"
+        },
+        "aria": {
+          "type": "enemy",
+          "summary": "在换位后被亚莉亚压制"
+        },
+        "reiki": {
+          "type": "enemy",
+          "summary": "企图用青龙刀作盾接近蕾姬"
+        },
+        "cao-cao-melee": {
+          "type": "sister",
+          "summary": "与猛妹配合战术"
+        },
+        "cao-cao-sniper": {
+          "type": "sister",
+          "summary": "服从狙姐调度"
+        }
+      },
+      "key_events": [
+        {
+          "event_id": "shinkansen-rooftop-battle",
+          "summary": "使用乌兹与猛妹夹击金次",
+          "sourceRef": "hidan-no-aria-main/vol-07/full.txt:2820"
+        },
+        {
+          "event_id": "cao-cao-sisters-defeat",
+          "summary": "在亚莉亚与金次连射下被缴械",
+          "sourceRef": "hidan-no-aria-main/vol-07/full.txt:3830"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-07/chapters/ch-003-第七卷_火与风的华尔兹_3弹_第三位双剑双枪.txt:284",
+        "hidan-no-aria-main/vol-07/chapters/ch-003-第七卷_火与风的华尔兹_3弹_第三位双剑双枪.txt:1294"
+      ]
+    },
+    {
+      "period_id": "vol-14-main",
+      "volume": "vol-14",
+      "time": "香港蓝帮城事件",
+      "label": "曹操姊妹·炮娘",
+      "name": {
+        "zh": "炮娘",
+        "en": "Cao Cao Gunner Sister"
+      },
+      "aliases": [
+        "眧眧",
+        "曹操姊妹火器型"
+      ],
+      "gender": "female",
+      "species": "human",
+      "nationality": "Chinese / Hong Kong",
+      "occupation": "蓝帮成员/枪手",
+      "affiliation": "香港蓝帮; 曹操姊妹",
+      "status": {
+        "physical": "死亡游戏中负责二楼黄金阶梯后续追击",
+        "mental": "机灵，能迅速利用瓷壶绝缘绕过希尔达电击"
+      },
+      "personality": {
+        "summary": "实用、狡猾、擅长用环境和道具突破火力封锁。",
+        "core_traits": [
+          "战术灵活",
+          "好战",
+          "团队协作"
+        ],
+        "inner_conflict": "作为曹操姊妹分层防守的一员，既依赖女仆队火力也敢独自突入。"
+      },
+      "abilities_owned": [
+        "uzi-gunplay",
+        "improvised-insulation-tactics"
+      ],
+      "possessions_owned": [
+        "uzi",
+        "ceramic-jar",
+        "cao-cao-gadgets"
+      ],
+      "relationships": {
+        "riko": {
+          "type": "combat_opponent",
+          "summary": "在黄金阶梯处与理子和希尔达对峙。"
+        },
+        "hilda": {
+          "type": "combat_opponent",
+          "summary": "用瓷壶和枕头作为绝缘踏脚，突破希尔达放电封锁。"
+        },
+        "kinji": {
+          "type": "enemy",
+          "summary": "阻碍金次一行上三楼。"
+        }
+      },
+      "summary": "炮娘在蓝帮城死亡游戏中先位于黄金阶梯防线中央，指挥或配合女仆队使用防弹盾与突击步枪构成玄武阵。希尔达放电击倒女仆队后，炮娘用瓷壶和枕头作为绝缘道具，持乌兹追击到楼梯平台，迫使理子与希尔达留下拖延。",
+      "key_events": [
+        {
+          "event_id": "blue-gang-death-game",
+          "summary": "在女仆盾阵中央佩带乌兹防守黄金阶梯。",
+          "sourceRef": "hidan-no-aria-main/vol-14/full.txt:4025"
+        },
+        {
+          "event_id": "blue-gang-death-game",
+          "summary": "用瓷壶作为绝缘踏脚越过希尔达放电。",
+          "sourceRef": "hidan-no-aria-main/vol-14/full.txt:4223"
+        },
+        {
+          "event_id": "blue-gang-death-game",
+          "summary": "以乌兹扫射逼退金次等人，让理子和希尔达留下阻击。",
+          "sourceRef": "hidan-no-aria-main/vol-14/full.txt:4247"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-14/chapters/ch-003-第十四卷_不请自来的海雾_3弹_死亡游戏.txt:741",
+        "hidan-no-aria-main/vol-14/chapters/ch-003-第十四卷_不请自来的海雾_3弹_死亡游戏.txt:939",
+        "hidan-no-aria-main/vol-14/chapters/ch-003-第十四卷_不请自来的海雾_3弹_死亡游戏.txt:963"
+      ]
+    }
+  ]
+}

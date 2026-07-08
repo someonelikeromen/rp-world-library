@@ -1,0 +1,10821 @@
+window.__graphData = {
+  "items": [
+    {
+      "id": "ac130-gunship",
+      "type": "vehicle",
+      "owner": "g3",
+      "description": "美军准将为GⅢ一行安排的返程飞机，从内华达飞往纽约甘乃迪机场。",
+      "features": [
+        "保密搭乘人员",
+        "飞往JFK机场"
+      ],
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "acceleration-bomb",
+      "type": "weapon/bomb-system",
+      "owner": "cao-cao-sniper",
+      "description": "兆兆改良理子曾使用的减速炸弹而成的炸弹系统，要求列车每三分钟加速十公里，否则爆炸。",
+      "features": [
+        "速度条件触发",
+        "人质座椅感压开关",
+        "与爆泡主炸弹联动"
+      ],
+      "volumes": [
+        "vol-07"
+      ]
+    },
+    {
+      "id": "adams-1872-mk3",
+      "type": "weapon",
+      "owner": "sherlock",
+      "description": "夏洛克的左轮搭档，由约翰·华生赠予，曾在与莫里亚蒂交战时帮过忙。",
+      "features": [
+        "古典左轮",
+        "满弹巢",
+        "高威力贯穿弹"
+      ],
+      "volumes": [
+        "vol-25"
+      ]
+    },
+    {
+      "id": "adams-1872",
+      "type": "weapon",
+      "owner": "夏洛克·福尔摩斯",
+      "description": "夏洛克·福尔摩斯使用的手枪。过去大英帝国陆军使用的.45口径双动式手枪。内装有绯弹。",
+      "features": [
+        "双动式左轮",
+        ".45口径",
+        "经典古董手枪"
+      ],
+      "volumes": [
+        "vol-05"
+      ]
+    },
+    {
+      "id": "advanced-science-armor",
+      "type": "equipment",
+      "owner": "kukuumo-inari",
+      "description": "九九藻现身时穿戴的尖端科学护具，可与黑鹰垂降挂钩连接并配合光曲折迷彩斗篷行动。",
+      "features": [
+        "护具接口",
+        "与垂降挂钩连接",
+        "配合迷彩斗篷"
+      ],
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "ah1-cobra",
+      "type": "vehicle",
+      "owner": "tsubaki",
+      "description": "鬼族用于伦敦空中撤退的攻击直升机，津羽鬼驾驶，装有机炮、火箭弹与TOW导弹，最终被赛恩迫降。",
+      "features": [
+        "攻击直升机",
+        "M197机炮",
+        "受损迫降"
+      ],
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "airbag-bullet",
+      "type": "equipment",
+      "owner": "kinji",
+      "description": "平贺开发的特殊子弹，命中地点展开高强度矽胶树脂气囊。金次从富岳坠落时用它缓冲落到Spa LaQua。",
+      "features": [
+        "展开约一米级气囊",
+        "用于冲撞缓冲"
+      ],
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "aizawa-ingram-m11",
+      "type": "weapon",
+      "owner": "无特定归属",
+      "description": "爱泽姊妹在志乃突入高千穗家客厅时各自持有的轻型冲锋枪。",
+      "features": [
+        "32连发",
+        "两秒内倾泻弹药",
+        "护卫火力",
+        "爱泽双胞胎共用装备"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "aizawa-sidecar-motorcycle",
+      "type": "vehicle",
+      "owner": "无特定归属",
+      "description": "高千穗买给爱泽姊妹的带侧座机车，头盔分别标有‘汤’与‘夜’字。",
+      "features": [
+        "侧斗",
+        "双胞胎任务移动",
+        "定制头盔",
+        "爱泽双胞胎共用车辆"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "ajeya-tank",
+      "type": "tank",
+      "owner": "chhat-security-police",
+      "description": "Indian T-72 derivative deployed by security police/army collusion. Monkey disables its 125mm gun barrel with Ruyi laser.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "ak-47",
+      "type": "weapon",
+      "owner": "kagamitaka-gumi",
+      "description": "镜高组本家手下持有的多把黑枪突击步枪。金次识别其为未经公安认可的违法枪械，GⅢ在庭院战中以护具和反射破坏它们。",
+      "features": [
+        "连射能力",
+        "七点六三毫米弹",
+        "可靠性高但精度差"
+      ],
+      "volumes": [
+        "vol-12"
+      ]
+    },
+    {
+      "id": "akari-doll",
+      "type": "equipment",
+      "owner": "takachiho-urara",
+      "description": "高千穗根据明里的照片订制的人偶，用于睡前独自排演与明里成为朋友的妄想剧。",
+      "features": [
+        "重现明里外观",
+        "人偶剧道具"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "akari-flashbang",
+      "type": "weapon",
+      "owner": "akari",
+      "description": "明里藏在上衣中的非杀伤性闪光手榴弹，用来在谈判破裂时发出开战信号并扰乱夹竹桃。",
+      "features": [
+        "非杀伤",
+        "强光",
+        "巨响",
+        "作战暗号"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "akari-handcuffs",
+      "type": "equipment",
+      "owner": "akari",
+      "description": "明里收在裙中的武侦用手铐，在东京湾海面为夹竹桃铐上左手腕完成现行犯逮捕。",
+      "features": [
+        "逮捕用",
+        "随身携带"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "akari-micro-uzi",
+      "type": "weapon",
+      "owner": "akari",
+      "description": "明里藏在裙下枪套中的冲锋枪，在LAST DANCE突入与彩虹大桥对峙时用于威慑和牵制。",
+      "features": [
+        "轻型冲锋枪",
+        "近距离弹幕",
+        "可作临时盾牌"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "akashi-ai-workstation",
+      "type": "equipment",
+      "owner": "akashi-father",
+      "description": "明磊父亲用于股票、外汇等短线交易的高规格工作站电脑，最终被吉良拿走抵债。",
+      "features": [
+        "多金融商品交易",
+        "AI/高规格运算"
+      ],
+      "volumes": [
+        "vol-32"
+      ]
+    },
+    {
+      "id": "akutsu-building",
+      "type": "building/fortress",
+      "owner": "阿久津珠穗",
+      "description": "阿久津武侦事务所的表参道总店大楼，设施豪华且防御森严。",
+      "features": [],
+      "volumes": [
+        "vol-26"
+      ]
+    },
+    {
+      "id": "alicebell-ring-blade",
+      "type": "weapon / artifact",
+      "owner": "alicebell",
+      "description": "艾丽斯贝尔携带的直径近两公尺圆环状刀剑，周围为刃，能回转金色光弹。",
+      "features": [
+        "圆环刃",
+        "光弹发射",
+        "反魔术/反超能力"
+      ],
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "almond-oil-bottle",
+      "type": "local trade good / comic item",
+      "owner": "kinji",
+      "description": "A chipped perfume bottle filled with Chhat almond oil bought from boys; its sharp edge cuts Kinji's pocket, causing the gems he stole/picked up to fall out.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "amaki",
+      "type": "pet-companion",
+      "owner": "reki",
+      "description": "蕾姬饲养的大型高加索白银狼，本卷见到丽莎后本能服从并由丽莎带去散步。",
+      "features": [
+        "大型银狼",
+        "强烈野性本能"
+      ],
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "angelica-carrot-missiles",
+      "type": "weapon",
+      "owner": "angelica-starr",
+      "description": "Small carrot-shaped guided missiles launched from Angelica's skirt, using heat seeking and blast warheads.",
+      "features": [
+        "mini guided missiles",
+        "blast warheads"
+      ],
+      "volumes": [
+        "vol-41"
+      ]
+    },
+    {
+      "id": "angelica-drone-shield-wings",
+      "type": "equipment / weapon",
+      "owner": "angelica-starr",
+      "description": "Beretta-made triangular drone that unfolds into shield plus many feather drones used as aerial footholds, wings and beam emitters.",
+      "features": [
+        "shield mode",
+        "aerial stepping",
+        "wing formation",
+        "beam fire"
+      ],
+      "volumes": [
+        "vol-41"
+      ]
+    },
+    {
+      "id": "angelica-sti-falcons",
+      "type": "weapon",
+      "owner": "angelica-starr",
+      "description": "Angelica's black and silver modified pistols with rapid fire and tube-fed ammunition, designed by Beretta.",
+      "features": [
+        "high cyclic rate",
+        "tube ammunition feeds",
+        "mountable to sword/shield"
+      ],
+      "volumes": [
+        "vol-41"
+      ]
+    },
+    {
+      "id": "angelica-sword",
+      "type": "weapon",
+      "owner": "angelica-starr",
+      "description": "White-sheathed long sword used with guns, shield and Delta Mortal thrusts.",
+      "features": [
+        "long sword",
+        "gun-mount compatible"
+      ],
+      "volumes": [
+        "vol-41"
+      ]
+    },
+    {
+      "id": "annamaria-strawberry-patch",
+      "type": "key-item / consumable",
+      "owner": "annamaria",
+      "description": "安娜玛莉亚擅自在锅子底草坪角落种的小草莓园，被A1班踩烂，引发E3班愤怒。",
+      "features": [
+        "植物照料",
+        "班级日常象征"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "anti-esper-handcuffs",
+      "type": "",
+      "owner": "aria",
+      "description": "",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "aqua-anthem2",
+      "type": "vehicle",
+      "owner": "prime-minister-toyama",
+      "description": "富山首相的私人游艇，卷中载着首相一家进行女儿生日夜间游船，并成为NDD暗杀目标。",
+      "features": [
+        "私人游艇",
+        "夜间游船",
+        "NDD目标"
+      ],
+      "volumes": [
+        "vol-23"
+      ]
+    },
+    {
+      "id": "arc-ring-blade",
+      "type": "advanced science weapon / energy blade",
+      "owner": "tooyama-kaname",
+      "description": "金女在品川战中拔出的光刃型科学兵器，刀鞘状握柄展开一公尺左右的发光刃，可瞬间熔断地面。后期金女手甲也展开圆环状光刃攻击亚莉亚。",
+      "features": [
+        "高热光刃",
+        "触及地面会熔化并冒白烟",
+        "短时间展开"
+      ],
+      "volumes": [
+        "vol-11"
+      ]
+    },
+    {
+      "id": "aria-butei-uniform",
+      "type": "clothing",
+      "owner": "aria",
+      "description": "Aria wears her red Butei High uniform to satisfy the reunion dress code of student clothing.",
+      "features": [],
+      "volumes": [
+        "vol-28"
+      ]
+    },
+    {
+      "id": "aria-chocolate-peach-bun",
+      "type": "consumable",
+      "owner": "kinji",
+      "description": "亚莉亚亲手制作并送给金次的情人节礼物，违反武侦高中情人节禁令，味道极差但被金次吃完。",
+      "features": [
+        "巧克力面团与馅料",
+        "混有铝箔包装纸味"
+      ],
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "aria-colt-government-black",
+      "type": "weapon",
+      "owner": "aria",
+      "description": "亚莉亚双枪之一，本卷在便利店和温室等场面中与银色枪成对使用。",
+      "features": [
+        ".45ACP",
+        "腿部枪套携带"
+      ],
+      "volumes": [
+        "vol-17",
+        "vol-34"
+      ]
+    },
+    {
+      "id": "aria-colt-government-pair",
+      "type": "weapon",
+      "owner": "aria",
+      "description": "亚莉亚裙侧底下的双枪。本卷在成田机场谈到N与英国黄金时，她以拍裙侧双枪的动作表示若N敢偷用黄金就开洞。",
+      "features": [
+        "双枪战斗",
+        "威慑姿态"
+      ],
+      "volumes": [
+        "vol-23"
+      ]
+    },
+    {
+      "id": "aria-colt-government-silver",
+      "type": "weapon",
+      "owner": "aria",
+      "description": "亚莉亚双枪之一，与黑色Government共同构成她的双枪战法。",
+      "features": [
+        ".45ACP",
+        "腿部枪套携带"
+      ],
+      "volumes": [
+        "vol-17",
+        "vol-34"
+      ]
+    },
+    {
+      "id": "aria-colt-government",
+      "type": "weapon",
+      "owner": "神崎·H·亚莉亚",
+      "description": "神崎·H·亚莉亚使用的两支大型手枪，美国柯尔特（Colt）公司的著名武器Government特制版。一把银色、一把黑色。枪把处有珍珠贝浮雕，其上雕刻的女性侧脸貌似亚莉亚的母亲神崎香苗。弹匣容量7发+1发预装填。",
+      "features": [
+        "双枪同款不同色",
+        "珍珠贝枪把装饰",
+        "藏于裙下大腿枪套"
+      ],
+      "volumes": [
+        "vol-01",
+        "vol-03",
+        "vol-13",
+        "vol-22",
+        "vol-25",
+        "vol-29",
+        "vol-35",
+        "vol-41"
+      ]
+    },
+    {
+      "id": "aria-colt-governments",
+      "type": "weapon",
+      "owner": "aria",
+      "description": "亚莉亚的黑白双枪，本卷被双马尾操纵用于完成双剑双枪。",
+      "features": [
+        "黑白双枪",
+        "藏于腿部枪套"
+      ],
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "aria-dorm-room",
+      "type": "key-item / facility-access",
+      "owner": "aria",
+      "description": "亚莉亚在第一女生宿舍十楼房间的居住与出入权限，本卷被用作拘束路西菲莉亚与共同生活据点。",
+      "features": [
+        "宿舍安全空间",
+        "可临时收留金次、路西菲莉亚、尼莫和丽莎",
+        "房间钥匙卡"
+      ],
+      "volumes": [
+        "vol-35"
+      ]
+    },
+    {
+      "id": "aria-government-pistols",
+      "type": "weapon",
+      "owner": "kanzaki-aria",
+      "description": "亚莉亚使用的白银与漆黑两把Government大型手枪，改造为能全自动射击。使用.45ACP子弹，威力比9mm强。",
+      "features": [
+        "全自动射击",
+        "大口径"
+      ],
+      "volumes": [
+        "vol-01",
+        "vol-21",
+        "vol-36"
+      ]
+    },
+    {
+      "id": "aria-government",
+      "type": "weapon",
+      "owner": "aria",
+      "description": "亚莉亚标志性的双枪，被绯绯神附身时也被用来与金次进行零距离枪战。",
+      "features": [
+        "高威力手枪",
+        "亚鲁·卡达式近身枪战"
+      ],
+      "volumes": [
+        "vol-18"
+      ]
+    },
+    {
+      "id": "aria-governments",
+      "type": "",
+      "owner": "aria",
+      "description": "",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "aria-gun-magazine",
+      "type": "equipment",
+      "owner": "aria",
+      "description": "亚莉亚等待金次考完高认时夹在腋下打发时间的枪械杂志。",
+      "features": [
+        "枪械资讯"
+      ],
+      "volumes": [
+        "vol-28"
+      ]
+    },
+    {
+      "id": "aria-hidan",
+      "type": "artifact",
+      "owner": "aria",
+      "description": "夏洛克过去射入亚莉亚心脏的绯绯色金子弹，是她与绯绯神相连并最终成为完全化身的核心媒介。",
+      "features": [
+        "连接绯绯神",
+        "可被壳金封印心结但本卷壳金失效"
+      ],
+      "volumes": [
+        "vol-20",
+        "vol-21"
+      ]
+    },
+    {
+      "id": "aria-hidden-hairpin-ammo",
+      "type": "concealed ammunition",
+      "owner": "aria",
+      "description": "亚莉亚将左右发饰底部做成中空，各藏一发.45ACP弹。本卷在全身被检查后仍未被希尔达发现，为四点同时攻击提供两发关键子弹。",
+      "features": [
+        "隐蔽性高",
+        "可在弹尽时紧急续战",
+        "敌方搜身不易发现"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "aria-holmes-cards",
+      "type": "equipment",
+      "owner": "aria",
+      "description": "亚莉亚准备的花斑纹扑克牌，背面为随机点立体画，可在梭哈中看穿牌面。",
+      "features": [
+        "花斑带探案主题",
+        "随机点立体画标记"
+      ],
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "aria-hotel-key",
+      "type": "hotel key",
+      "owner": "aria",
+      "description": "Aria and Kinji exchange spare hotel room keys at the Taj Mahal Palace as Butei safety practice.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "aria-japanese-swords",
+      "type": "weapon",
+      "owner": "神崎·H·亚莉亚",
+      "description": "神崎·H·亚莉亚使用的两把短日本刀，平时藏在背部水手服内。在近战中使用，配合双枪形成双剑双枪（Quadrupler）战斗风格。",
+      "features": [
+        "双刀",
+        "可切换为枪战"
+      ],
+      "volumes": [
+        "vol-01"
+      ]
+    },
+    {
+      "id": "aria-kodachi",
+      "type": "weapon",
+      "owner": "aria",
+      "description": "亚莉亚随身短刃，绯绯神附身时反握用于突袭加奈。",
+      "features": [
+        "近战突刺",
+        "可配合瞬间移动偷袭"
+      ],
+      "volumes": [
+        "vol-18",
+        "vol-34"
+      ]
+    },
+    {
+      "id": "aria-maternity-omamori",
+      "type": "key-item",
+      "owner": "kinji",
+      "description": "亚里亚误以为是考试护身符而送给金次的粉色安产御守，背面有兔子图案。金次将其解读为产出成果与兔子跳跃的吉兆。",
+      "features": [
+        "心理支撑",
+        "触发金次回忆同伴"
+      ],
+      "volumes": [
+        "vol-45"
+      ]
+    },
+    {
+      "id": "aria-padding",
+      "type": "item",
+      "owner": "kanzaki-aria",
+      "description": "亚莉亚在扑克牌花纹内衣底下使用的胸垫（色诱级禁药）。亚莉亚实际罩杯为A65/75，靠此垫出约80的上围。明里发现后决定保密一生。",
+      "features": [],
+      "volumes": [
+        "vol-04"
+      ]
+    },
+    {
+      "id": "aria-silver-ring",
+      "type": "gift/accessory",
+      "owner": "aria",
+      "description": "金次在亚莉亚生日夜赠送的纯银圆戒。因尺寸原因被戴在左手无名指，引发亚莉亚强烈误会。",
+      "features": [
+        "纯银无宝石",
+        "适合不妨碍持枪",
+        "左手无名指"
+      ],
+      "volumes": [
+        "vol-07"
+      ]
+    },
+    {
+      "id": "aria-smoke-bullets",
+      "type": "equipment",
+      "owner": "aria",
+      "description": "亚莉亚用来遮蔽猴视线的化学武侦弹，产生红、蓝、白三色烟雾幕，颜色对应英国国旗。",
+      "features": [
+        "空中气胶烟幕",
+        "快速扩散",
+        "反雷射瞄准掩护"
+      ],
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "aria-smoke-rounds",
+      "type": "weapon / equipment",
+      "owner": "aria",
+      "description": "亚莉亚用于遮蔽尼莫视线的红、蓝、白三色烟雾弹。",
+      "features": [
+        "烟雾遮蔽",
+        "三色宣战效果"
+      ],
+      "volumes": [
+        "vol-35",
+        "vol-41"
+      ]
+    },
+    {
+      "id": "aria-twin-beretta-pistols",
+      "type": "weapon",
+      "owner": "aria",
+      "description": "亚莉亚携带在大腿枪套中的两把贝瑞塔手枪，过去由贝瑞塔改造成全自动。",
+      "features": [
+        "双枪",
+        "全自动改造",
+        "大腿枪套携行"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "aria-yhs03-skirt",
+      "type": "equipment / vehicle",
+      "owner": "aria",
+      "description": "平贺文为亚莉亚升级的推进器兼姿态控制飞翼装备，可由机动形态变形成高速形态。",
+      "features": [
+        "七枚推进翼片",
+        "限制解除系统",
+        "高速形态",
+        "续航延长"
+      ],
+      "volumes": [
+        "vol-35",
+        "vol-41"
+      ]
+    },
+    {
+      "id": "armed-prosecutor-badge",
+      "type": "equipment / key-item",
+      "owner": "armed-prosecutor-unnamed",
+      "description": "未具名武装检察官西装领上的秋霜烈日徽章，是其检察官身份的可见标识。",
+      "features": [
+        "身份标识",
+        "权威象征"
+      ],
+      "volumes": [
+        "vol-22"
+      ]
+    },
+    {
+      "id": "armor-woman-silver-lance",
+      "type": "weapon / artifact",
+      "owner": "n-armor-woman",
+      "description": "N铠甲女携带的白银色长枪，枪头有战损与不可读文字，显示并非玩具或普通Cosplay道具。",
+      "features": [
+        "真实战斗伤痕",
+        "异世界感",
+        "长柄武器"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "armor-woman-winged-helmet",
+      "type": "equipment",
+      "owner": "n-armor-woman",
+      "description": "N铠甲女佩戴的左右带翅膀装饰头盔，颜色为金色与黄绿色。",
+      "features": [
+        "翼状装饰",
+        "异世界战士外观",
+        "防护"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "artificial-shroud-powder",
+      "type": "drug/consumable",
+      "owner": "setta",
+      "description": "Setta组织在罗马暗中流通的闪光粉末药物，以亮黄色（也有红、蓝、黑灰色）的小包密封袋包装。利用Giusto英雄的DNA（头发、汗液、唾液、皮肤破片）为原料制成，可将普通人暂时变成超能力者，复制原英雄的能力。效果持续数小时，一次性大量摄取500~1000包可能永久有效。",
+      "features": [
+        "闪光粉末",
+        "多种颜色",
+        "英雄DNA复制",
+        "暂时超能力",
+        "口服/舔用"
+      ],
+      "volumes": [
+        "vol-42"
+      ]
+    },
+    {
+      "id": "atlas-paa",
+      "type": "equipment / weapon",
+      "owner": "atlas",
+      "description": "亚特拉士穿戴的黑蓝色个人兵装铠甲。",
+      "features": [
+        "重装防御",
+        "近战突破",
+        "推回车辆"
+      ],
+      "volumes": [
+        "vol-18"
+      ]
+    },
+    {
+      "id": "augusta-carrot-missiles",
+      "type": "weapon",
+      "owner": "",
+      "description": "藏在奥古斯塔裙内腰带下的一排胡萝卜形小型导弹。通过声控点火，视觉传感器追踪。6发齐射。一次性装备。",
+      "features": [],
+      "volumes": [
+        "vol-43"
+      ]
+    },
+    {
+      "id": "augusta-diamond-gloves",
+      "type": "equipment",
+      "owner": "augusta",
+      "description": "贝瑞塔为奥古斯塔制作的特殊手套，手掌侧以几何结构铺满微细人造钻石球，最内层蒸镀硝酸银。可让奥古斯塔更自如地操纵光击（lumen）：收敛击力、收束成光线/光条、或形成剑/枪的形状。",
+      "features": [
+        "人造钻石球结构",
+        "硝酸银蒸镀",
+        "光力收束",
+        "光剑/光枪变形"
+      ],
+      "volumes": [
+        "vol-42"
+      ]
+    },
+    {
+      "id": "balisong-butterfly-knife",
+      "type": "weapon",
+      "owner": "kinji",
+      "description": "金次携带的近战刀具，天空树决斗中用破刃刀背与华生弯刀交锋并折断弯刀，随后被华生偷走或解除。",
+      "features": [
+        "折叠刀结构",
+        "可用刀背破刃"
+      ],
+      "volumes": [
+        "vol-08"
+      ]
+    },
+    {
+      "id": "balisong",
+      "type": "weapon",
+      "owner": "kinji",
+      "description": "远山金次的折叠刀，大哥远山金一的遗物。因构造容易发出声音，不太适合潜入使用。",
+      "features": [],
+      "volumes": [
+        "vol-02",
+        "vol-07"
+      ]
+    },
+    {
+      "id": "bami-hasei-sanka-fu",
+      "type": "weapon",
+      "owner": "bami",
+      "description": "霸美使用的巨大双刃战斧，重量至少数百公斤，对霸美而言却可单手挥动。本卷用于鬼之国和富岳战。",
+      "features": [
+        "极重",
+        "斧柄尾端可像三叉枪般投射",
+        "可被霸美当扇子般舞动"
+      ],
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "barrett-m82",
+      "type": "weapon",
+      "owner": "reiji",
+      "description": "蕾姬在武侦医院强化合宿中从装备科平贺文处购入的12.7mm反器材步枪，用于对抗GⅣ。",
+      "features": [
+        "12.7mm口径",
+        "反器材步枪",
+        "威力极高"
+      ],
+      "volumes": [
+        "vol-10",
+        "vol-11"
+      ]
+    },
+    {
+      "id": "bates-chief-special-revolvers",
+      "type": "weapon",
+      "owner": "norma-bates",
+      "description": "贝茨姊妹藏在后背枪套中的左轮手枪，终盘装填炸裂弹准备击杀金次并击沉船只。",
+      "features": [
+        "小型左轮",
+        "可装填机关子弹"
+      ],
+      "volumes": [
+        "vol-31"
+      ]
+    },
+    {
+      "id": "bates-jeep-wrangler",
+      "type": "vehicle / trap bait",
+      "owner": "bates-sisters",
+      "description": "贝茨姊妹伪装成加州女警驾驶的Jeep Wrangler警车，从洛杉矶后持续尾随金次等人，并在亚利桑那荒野故意偏离道路引诱他们进入废弃ICBM发射井。",
+      "features": [],
+      "volumes": [
+        "vol-30",
+        "vol-31"
+      ]
+    },
+    {
+      "id": "bates-magnetite-cannonballs",
+      "type": "weapon",
+      "owner": "norma-bates",
+      "description": "贝茨姊妹使用天然磁石/磁铁矿加工成的球形炮弹，通过自身磁力以超高速发射。",
+      "features": [
+        "受磁力操控轨迹",
+        "碎片仍具磁性并可钉住目标"
+      ],
+      "volumes": [
+        "vol-31"
+      ]
+    },
+    {
+      "id": "bates-police-boat",
+      "type": "vehicle",
+      "owner": "norma-bates",
+      "description": "贝茨姊妹在尼加拉河上拦截金次小队的小型警艇，战后被金次小队夺取用于上岸。",
+      "features": [
+        "高速机动",
+        "适合河面拦截"
+      ],
+      "volumes": [
+        "vol-31"
+      ]
+    },
+    {
+      "id": "bedouin-camel-caravan",
+      "type": "vehicle",
+      "owner": "bedouin-clan",
+      "description": "五头白色双峰骆驼以红绳前后相连组成的骆驼队，用于远距离穿越东方沙漠。",
+      "features": [
+        "长距离沙漠运输",
+        "踩前一头脚印行走",
+        "夜间露营"
+      ],
+      "volumes": [
+        "vol-40"
+      ]
+    },
+    {
+      "id": "bell-cross-sword",
+      "type": "weapon / equipment",
+      "owner": "meiya-romano",
+      "description": "梵蒂冈歼魔科传统剑盾武装。梅雅使用巨剑，修女兵使用钟十字剑与小型盾牌。",
+      "features": [
+        "歼魔象征",
+        "剑盾突击",
+        "可被艾丽斯贝尔光弹破坏"
+      ],
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "beretta-92f",
+      "type": "weapon",
+      "owner": "toyama-kinji",
+      "description": "美军制式采用的杰作手枪，由意大利Beretta公司制造。远山金次使用的配枪，看起来与金次的右手合为一体。",
+      "features": [
+        "美军制式采用"
+      ],
+      "volumes": [
+        "vol-01"
+      ]
+    },
+    {
+      "id": "beretta-contract-documents",
+      "type": "key-item / document",
+      "owner": "beretta-beretta",
+      "description": "贝瑞塔公司对金次提供奖学金借贷的契约。卷末贝瑞塔·贝瑞塔说明若金次留级就必须立即全额偿还，无法偿还则要到贝瑞塔公司无偿劳动。",
+      "features": [
+        "债务约束",
+        "罗马篇开局冲突",
+        "企业赞助风险"
+      ],
+      "volumes": [
+        "vol-23"
+      ]
+    },
+    {
+      "id": "beretta-cross-necklace",
+      "type": "equipment",
+      "owner": "beretta",
+      "description": "梅雅送给贝瑞塔的十字架项链，贝瑞塔平常不戴，只在去教会时戴。",
+      "features": [
+        "宗教饰品",
+        "象征梅雅与贝瑞塔的师生关系"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "beretta-ferrari-california",
+      "type": "vehicle",
+      "owner": "beretta",
+      "description": "贝瑞塔驾驶的大红色敞篷法拉利California，手排型，名义上为公司资产也是她的私人物品。",
+      "features": [
+        "敞篷",
+        "手排",
+        "高速性能",
+        "可搭配狙击手行动"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "beretta-gun-seat-skirt",
+      "type": "equipment",
+      "owner": "beretta",
+      "description": "贝瑞塔裙底隐藏的机械手臂与枪械展开系统，能像孔雀开屏般把多把革命枪对准目标。",
+      "features": [
+        "隐藏携行",
+        "快速展开",
+        "多枪齐射威慑"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "beretta-kinji-custom-m92fs",
+      "type": "weapon",
+      "owner": "",
+      "description": "贝瑞塔为Kinji定制的M92FS改良型手枪，内部装有精密的特殊机构。配有贝瑞塔发明的超细复相芳纶纤维线轴（肉眼不可见），可通过小指操作卷回。神父本卷中缴获此枪但拉动套筒时内部机构碎裂无法使用。",
+      "features": [],
+      "volumes": [
+        "vol-43"
+      ]
+    },
+    {
+      "id": "beretta-life-insurance-form",
+      "type": "document / key-item",
+      "owner": "beretta-beretta",
+      "description": "贝瑞塔·贝瑞塔在罗马机场拿出的生命保险文件，试图让金次签名后自杀以用保险金偿还债务，体现她夸张的追债方式。",
+      "features": [
+        "追债道具",
+        "荒诞威胁"
+      ],
+      "volumes": [
+        "vol-23"
+      ]
+    },
+    {
+      "id": "beretta-m92f-kinji",
+      "type": "weapon",
+      "owner": "kinji",
+      "description": "金次的爱枪，经平贺文非法改造。选择器有故障，三连发模式实际只射两发子弹而且几乎是同时发射，本卷被金次利用这项缺陷创造了『镜击』。",
+      "features": [
+        "全自动连射可能",
+        "故障三连发实际双弹",
+        "可配合弹子戏法使用"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "beretta-m92f",
+      "type": "weapon",
+      "owner": "kinji",
+      "description": "远山金次使用的手枪。非法改造为金次样式后支持三连发及全自动射击。上卷劫机事件中被损坏后更换为美军转让版（合法版），但在装备科又预约了新的改造。",
+      "features": [
+        "三连发",
+        "全自动射击能力"
+      ],
+      "volumes": [
+        "vol-02",
+        "vol-03",
+        "vol-05",
+        "vol-07",
+        "vol-08",
+        "vol-10",
+        "vol-11",
+        "vol-12",
+        "vol-14",
+        "vol-15",
+        "vol-16",
+        "vol-17"
+      ]
+    },
+    {
+      "id": "beretta-revolution-gun",
+      "type": "weapon",
+      "owner": "beretta",
+      "description": "贝瑞塔发明的白色塑胶小型手枪样品，外观棱角分明；单发版只是样品，真正革命性的连射版仍为秘密。",
+      "features": [
+        "小型塑胶枪身",
+        "样品单发型",
+        "可搭配枪座裙展开"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "beretta-tactical-pen",
+      "type": "equipment",
+      "owner": "beretta",
+      "description": "贝瑞塔公司制战术笔，平时为原子笔，前端硬质尖锐笔套可在紧急状况作为隐藏武器。",
+      "features": [
+        "书写",
+        "硬质尖端",
+        "可作近身隐藏武器"
+      ],
+      "volumes": [
+        "vol-24",
+        "vol-25"
+      ]
+    },
+    {
+      "id": "beretta-workshop",
+      "type": "key-item / equipment",
+      "owner": "beretta",
+      "description": "贝瑞塔宅邸地下的个人枪械研发空间，含多种加工设备和电脑，用于拆解金次武装、研发革命枪与准备简报。",
+      "features": [
+        "枪械加工",
+        "样品研发",
+        "资料准备"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "black-handcuffs",
+      "type": "equipment",
+      "owner": "无特定归属",
+      "description": "不知火与前零课逮捕金次时铐住他的黑色警用手铐，后被金次用骨克己挣脱并临时作为攻击工具。",
+      "features": [
+        "坚固",
+        "可作为短距离挥击工具"
+      ],
+      "volumes": [
+        "vol-22"
+      ]
+    },
+    {
+      "id": "blue-cross-necklace",
+      "type": "artifact / key-item",
+      "owner": "riko",
+      "description": "理子此前从弗拉德手中偷来的蓝色十字架。本卷高速追逐中在与孙战斗时发光，与金次蝴蝶刀类似，表现出与色金或超常战斗的共鸣。",
+      "features": [
+        "项链",
+        "发光共鸣"
+      ],
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "bmw-k1200r",
+      "type": "vehicle",
+      "owner": "mutou",
+      "description": "武藤的摩托车，搭载世界最强引擎的街车。2.8秒加速到100公里，配有顶级前悬挂系统。武藤进行了改造增设脚踏启动器。金次用来追击银狼。",
+      "features": [
+        "高速",
+        "强加速",
+        "武藤改造"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "bmw-z8",
+      "type": "vehicle",
+      "owner": "无特定归属",
+      "description": "孙在追逐中抢来的红色敞篷跑车，装有防弹轮胎，速度远超凯迪拉克。孙用脚踩方向盘操控它进行漂移追击。",
+      "features": [
+        "高速跑车",
+        "防弹轮胎",
+        "可被孙以脚操纵"
+      ],
+      "volumes": [
+        "vol-13",
+        "vol-14"
+      ]
+    },
+    {
+      "id": "brocken-black-panther",
+      "type": "pet-companion",
+      "owner": "ibirita",
+      "description": "伊碧丽塔的黑豹使魔/宠物，在龙之港餐桌下啃小羊排，对阎或丽莎血脉散发出的百兽之王气息表现畏惧。",
+      "features": [
+        "威慑宠兽",
+        "对百兽之王/鬼气敏感"
+      ],
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "broken-police-radio",
+      "type": "radio",
+      "owner": "raru",
+      "description": "A police radio hidden by Raru, damaged during Hilda's capture of her and therefore unusable for stopping the attack.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "browning-hi-power",
+      "type": "weapon",
+      "owner": "kagamitaka-kikuyo",
+      "description": "菊代藏在庭院某处并交给萌的自动手枪。萌以它指向公关男，试图保护金次，但金次认为她不该踏入狼的世界。",
+      "features": [
+        "适合东方人握持",
+        "女性也容易使用",
+        "双排弹匣"
+      ],
+      "volumes": [
+        "vol-12",
+        "vol-21"
+      ]
+    },
+    {
+      "id": "buried-bomb",
+      "type": "buried bomb",
+      "owner": "indian-army-border-unit",
+      "description": "A Pakistan-war-era 1000-pound bomb buried under the ruin exit and modified for remote detonation; Carbuncle drags it deep underground before it explodes.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "butei-bullet-frangible",
+      "type": "ammunition",
+      "owner": "reiki",
+      "description": "蕾姬从胸前口袋取出的炸裂弹，作为超小型燃料空气炸弹使用，以爆炸冲击跨越断开的车厢间距。",
+      "features": [
+        "手动引爆",
+        "爆炸冲击可推动人体飞跃"
+      ],
+      "volumes": [
+        "vol-07"
+      ]
+    },
+    {
+      "id": "butei-high-uniforms",
+      "type": "clothing category",
+      "owner": "无特定归属",
+      "description": "Student uniforms worn by Aria, Meluette, Watson, Reki and others to satisfy Sherlock's reunion dress code.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "butei-manju",
+      "type": "food/defense-item",
+      "owner": "远山武侦事务所（TBJ）",
+      "description": "印有武侦徽章的包子，在表参道地区作为『可以吃的防身道具』流行。",
+      "features": [],
+      "volumes": [
+        "vol-26"
+      ]
+    },
+    {
+      "id": "butterfly-knife-kinichi",
+      "type": "weapon",
+      "owner": "远山金次（原为远山金一）",
+      "description": "远山金次携带的蝴蝶刀，是亡兄远山金一的遗物。金次常将其放在口袋中。在爆发模式下可使用其斩断子弹。",
+      "features": [
+        "折叠式",
+        "遗物有纪念意义"
+      ],
+      "volumes": [
+        "vol-01"
+      ]
+    },
+    {
+      "id": "butterfly-knife",
+      "type": "weapon",
+      "owner": "远山金次",
+      "description": "远山金次随身携带的折叠小刀。在枪战无法解决战斗时使用。本卷中用于自损技「樱花」和空手夺白刀。",
+      "features": [
+        "折叠刀",
+        "可快速开合"
+      ],
+      "volumes": [
+        "vol-05",
+        "vol-10",
+        "vol-12",
+        "vol-13",
+        "vol-14",
+        "vol-15",
+        "vol-16"
+      ]
+    },
+    {
+      "id": "c-equipment",
+      "type": "equipment",
+      "owner": "东京武侦高中装备科配发",
+      "description": "武侦高中强袭科出击时穿着的标准战斗装备。包含TNK制防弹背心、附强化塑胶面罩的头盔、无线耳机（武侦校徽内附无线电）、露指手套、束紧用皮带、手枪枪套和四个备用弹夹。此外也可选配强袭用降落伞。",
+      "features": [
+        "防弹",
+        "头盔含面罩",
+        "内置无线电"
+      ],
+      "volumes": [
+        "vol-01"
+      ]
+    },
+    {
+      "id": "cadillac-deville-1968",
+      "type": "vehicle",
+      "owner": "riko",
+      "description": "理子用支票临时购买的淡蓝色美国敞篷车，用于从百货公司外墙竹鹰架下接应金次与白雪。",
+      "features": [
+        "坚固车身",
+        "敞篷便于上车",
+        "适合撤退而非高速追逐"
+      ],
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "cadillac-deville",
+      "type": "vehicle",
+      "owner": "无特定归属",
+      "description": "金次一行在香港高速路上乘坐的敞篷美国车。车重和坚固性在与孙的BMW Z8车身碰撞中形成优势，最终配合理子空力刹车停在未完工高架末端。",
+      "features": [
+        "高速追逐",
+        "车体格斗",
+        "空力刹车"
+      ],
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "cadillac-eldorado",
+      "type": "vehicle",
+      "owner": "g3",
+      "description": "GⅢ在洛杉矶Herts租来的老式红色防弹敞篷车，巨大车体、V8引擎、防弹玻璃与车门，使其在加油站枪战和美国横断中成为主力交通工具。",
+      "features": [],
+      "volumes": [
+        "vol-30",
+        "vol-31"
+      ]
+    },
+    {
+      "id": "cagalli-luger-p08",
+      "type": "weapon",
+      "owner": "cagalli",
+      "description": "卡羯使用的镀金鲁格P08手枪，在广场会谈混战中用于护卫贝瑞塔与牵制N。",
+      "features": [
+        "手枪牵制",
+        "华丽外观"
+      ],
+      "volumes": [
+        "vol-25"
+      ]
+    },
+    {
+      "id": "cagliostro-eye-patch",
+      "type": "equipment",
+      "owner": "cagliostro-grasse",
+      "description": "卡羯佩戴的眼罩，本卷图案不是卐而是小花。",
+      "features": [
+        "遮蔽一眼",
+        "可替换图案"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "cagliostro-luger-p08",
+      "type": "weapon",
+      "owner": "cagliostro-grasse",
+      "description": "卡羯携带的金闪闪鲁格P08手枪，金次因她的低开枪临界值而警戒。",
+      "features": [
+        "手枪射击",
+        "威慑"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "calorie-made-fruit",
+      "type": "consumable",
+      "owner": "reki",
+      "description": "金次从蓝帮城宴会后留下的卡洛里美得水果口味点心，在蕾姬接受狙姊挑战前被金次放入她胸前口袋，作为鼓励和回礼。",
+      "features": [
+        "营养食品",
+        "蕾姬偏好物"
+      ],
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "cao-cao-ctm250ar",
+      "type": "vehicle",
+      "owner": "cao-cao",
+      "description": "昭昭用于比叡山机动撤退的二行程越野摩托。蕾姬狙击镜照片拍到昭昭冲向该车，后昭昭骑车追上金次；风雪用弓箭射中油箱令其漏油。",
+      "features": [
+        "高机动",
+        "山路适应",
+        "便于快速撤离"
+      ],
+      "volumes": [
+        "vol-06"
+      ]
+    },
+    {
+      "id": "cao-cao-gadgets",
+      "type": "equipment / gadget-set",
+      "owner": "hong-kong-blue-gang",
+      "description": "曹操姊妹共享的各类特殊装备与临场机关的总称，包括角色扮演诱导、爆泡、瓷壶绝缘、盾阵布置等。本文件作为本卷中未单列小型道具的集合引用。",
+      "features": [
+        "机关道具",
+        "战术诱导",
+        "分层防守"
+      ],
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "cao-cao-hunting-dogs",
+      "type": "animal-weapon",
+      "owner": "cao-cao",
+      "description": "昭昭用于森林包围战的猎犬群，包括强壮的改良沙皮犬。部分犬携带发信器，用于定位金次与蕾姬；后来二十只左右猎犬逼近，被艾马基拖住。",
+      "features": [
+        "追踪",
+        "包围",
+        "配合狙击手定位"
+      ],
+      "volumes": [
+        "vol-06"
+      ]
+    },
+    {
+      "id": "cao-cao-remington-m700",
+      "type": "weapon",
+      "owner": "cao-cao",
+      "description": "昭昭在比叡山使用的高信赖度狙击枪。蕾姬凭枪声判断其型号、距离和来自自由岳方向；该枪从2180公尺外发动袭击，射程超过蕾姬绝对半径。",
+      "features": [
+        "高信赖度狙击枪",
+        "适合超远距狙击",
+        "配合夜视与集音器使用"
+      ],
+      "volumes": [
+        "vol-06"
+      ]
+    },
+    {
+      "id": "cao-cao-remote-helicopters",
+      "type": "weapon-platform",
+      "owner": "cao-cao",
+      "description": "昭昭模仿武侦杀手式手法使用的黑色遥控直升机，搭载轻型枪械并播放虚拟人声威胁金次和蕾姬。机体轻、射击准度差，但可进行压制与威胁。",
+      "features": [
+        "空中扫射",
+        "虚拟人声广播",
+        "威胁第三者沙织"
+      ],
+      "volumes": [
+        "vol-06"
+      ]
+    },
+    {
+      "id": "cao-cao-uzi",
+      "type": "weapon",
+      "owner": "cao-cao",
+      "description": "昭昭在追上金次和重伤蕾姬后使用的装灭音器乌兹冲锋枪。她用其压制金次，命令他丢掉贝瑞塔和沙漠之鹰。",
+      "features": [
+        "弹数优势",
+        "近中距离压制",
+        "威吓开火"
+      ],
+      "volumes": [
+        "vol-06"
+      ]
+    },
+    {
+      "id": "carbuncle-gem-armor",
+      "type": "natural/magical armor",
+      "owner": "carbuncle",
+      "description": "Gem plates and rings formed over Carbuncle's body in her second form, increasing her physical presence and protection while consuming magic.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "carbuncle-magic-circle",
+      "type": "magic array / stone structure",
+      "owner": "carbuncle",
+      "description": "A five-meter half-circle array in Chhat shrine, gold-lined like a giant protractor. It retrieves Carbuncle's left half and later receives the redirected Refleks missile before Hilda shuts it down.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "cb750f-turbo",
+      "type": "vehicle",
+      "owner": "无特定归属",
+      "description": "贞德在吉萨调配的摩托，载着四人追击莎拉偷走的公路之星。",
+      "features": [
+        "高加速",
+        "钻车缝",
+        "日本车可靠性"
+      ],
+      "volumes": [
+        "vol-40"
+      ]
+    },
+    {
+      "id": "cendrillon-iron-ring",
+      "type": "key-item",
+      "owner": "cendrillon",
+      "description": "仙杜丽昂作为N成员持有的铁戒指，表面有三把钥匙组成的N字与被磨去的文字，残留“The 4th”和“Nav”线索，提示N并非单一诺契勒斯体系。",
+      "features": [
+        "N成员标识",
+        "外圈文字部分被锉刀磨损",
+        "残留Nav与The 4th线索"
+      ],
+      "volumes": [
+        "vol-34"
+      ]
+    },
+    {
+      "id": "cendrillon-smoke-bomb",
+      "type": "equipment / weapon",
+      "owner": "cendrillon",
+      "description": "仙杜丽昂按蕾芬洁预设暗号拔栓投出的卡其色罐状烟雾弹，用来遮蔽宴会厅并协助蕾芬洁逃出窗外。",
+      "features": [
+        "遮蔽视线",
+        "制造混乱"
+      ],
+      "volumes": [
+        "vol-33"
+      ]
+    },
+    {
+      "id": "ceramic-jar",
+      "type": "equipment / improvised tool",
+      "owner": "cao-cao-gunner",
+      "description": "炮娘抱着的巨大瓷壶。金次最初担心它是陶瓷炸弹，但实际用途是绝缘踏脚，配合枕头让炮娘越过希尔达对黄金阶梯释放的电流。",
+      "features": [
+        "绝缘",
+        "可作为踏脚/滑行道具"
+      ],
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "chaika-flying-boat",
+      "type": "vehicle",
+      "owner": "freemasonry",
+      "description": "自由石匠使用的俄制Be-12飞行艇，机身绘紫水晶徽章，用于登陆龙之港宝船并捕获U型潜艇。",
+      "features": [
+        "水上起降",
+        "鸥翼",
+        "绳索挂钩滑车",
+        "反潜巡逻机基础"
+      ],
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "chatsune-pointer",
+      "type": "equipment",
+      "owner": "chatsune",
+      "description": "茶常老师用来惩戒缺课金次的指导棒。",
+      "features": [
+        "教学工具",
+        "惩戒道具"
+      ],
+      "volumes": [
+        "vol-28"
+      ]
+    },
+    {
+      "id": "chhat-rolled-tobacco",
+      "type": "tobacco",
+      "owner": "chhat-smoker",
+      "description": "Strong locally made rolling tobacco shared with Kinji, helping him gain rapport with a Chhat villager.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "chiara-roman-sword",
+      "type": "weapon",
+      "owner": "chiara",
+      "description": "齐雅拉挂在腰带上的古罗马风双刃剑，偷拍事件中她将其投向金次所在墙缝。",
+      "features": [
+        "投掷",
+        "近战威慑"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "chimera-leopon",
+      "type": "gift / plush doll",
+      "owner": "tooyama-kaname",
+      "description": "亚莉亚、白雪、理子、蕾姬为和解而分工制作送给金女的手工Leopon布偶。外观怪异但包含四人的心意，使金女因第一次得到真正朋友礼物而喜极而泣。",
+      "features": [
+        "白雪做头",
+        "理子做身体",
+        "蕾姬做脚",
+        "亚莉亚做尾巴",
+        "下巴有铃铛"
+      ],
+      "volumes": [
+        "vol-11"
+      ]
+    },
+    {
+      "id": "china-birthday-crayons",
+      "type": "key-item",
+      "owner": "china",
+      "description": "Kinji's improvised birthday present for China; she uses it to draw her family and Gedronika/mother image.",
+      "features": [
+        "bright colors",
+        "child art tool"
+      ],
+      "volumes": [
+        "vol-41"
+      ]
+    },
+    {
+      "id": "china-clay-family",
+      "type": "key-item",
+      "owner": "china",
+      "description": "Paper-clay craft China makes at nursery showing Kinji carrying her on his shoulders; later remains with Kinji after her departure.",
+      "features": [
+        "family craft",
+        "emotional keepsake"
+      ],
+      "volumes": [
+        "vol-41"
+      ]
+    },
+    {
+      "id": "china-hotogi-kimono",
+      "type": "clothing",
+      "owner": "china",
+      "description": "Fine auspicious-pattern kimono sent from Hotogi for China's birthday; Shirayuki dresses China in it.",
+      "features": [
+        "cranes/seven treasures/mallet/clove/snow motifs",
+        "formal child kimono"
+      ],
+      "volumes": [
+        "vol-41"
+      ]
+    },
+    {
+      "id": "china-passport",
+      "type": "key-item",
+      "owner": "kinji",
+      "description": "蓝帮准备的千奈身份证件，用于金次从台北接千奈返程；照片疑似由理子提供素材合成。",
+      "features": [
+        "跨境旅行文件",
+        "伪造身份"
+      ],
+      "volumes": [
+        "vol-45"
+      ]
+    },
+    {
+      "id": "china-play-shop-set",
+      "type": "toy / key-item",
+      "owner": "china",
+      "description": "Riko's gift containing toy bread, vegetables, milk cartons, cash register and cart; later remains as a painful keepsake after China leaves.",
+      "features": [
+        "pretend-play set"
+      ],
+      "volumes": [
+        "vol-41"
+      ]
+    },
+    {
+      "id": "china-sailor-uniform",
+      "type": "equipment",
+      "owner": "china",
+      "description": "Smallest Butei elementary-style uniform rented/bought by Kinji so child Rasputina can be clothed and go outside/nursery.",
+      "features": [
+        "red sailor style",
+        "child size"
+      ],
+      "volumes": [
+        "vol-41"
+      ]
+    },
+    {
+      "id": "china-silver-spoon",
+      "type": "key-item",
+      "owner": "china",
+      "description": "Aria's birthday gift to China, a Western newborn-good-luck symbol; China does not fully understand its symbolic value.",
+      "features": [
+        "good luck charm",
+        "gift"
+      ],
+      "volumes": [
+        "vol-41"
+      ]
+    },
+    {
+      "id": "chinese-optical-camouflage",
+      "type": "equipment",
+      "owner": "cocoa-machine",
+      "description": "机娘根据被盗取的美军光折射迷彩设计图做出的中国版隐身披风，用于遮蔽金次攀爬台北101。",
+      "features": [
+        "光学折射",
+        "远距离半隐身",
+        "雨衣外形"
+      ],
+      "volumes": [
+        "vol-45"
+      ]
+    },
+    {
+      "id": "chrome-disguise-kit",
+      "type": "equipment",
+      "owner": "kinji",
+      "description": "金次转装为克罗梅德尔所用的假发、女校服、红豆面包等道具。本卷被金一搜出并强迫使用，最终假发被硫酸毁坏。",
+      "features": [
+        "转装完成度极高",
+        "可欺骗熟人",
+        "硫酸泼洒后假发断裂"
+      ],
+      "volumes": [
+        "vol-29"
+      ]
+    },
+    {
+      "id": "chyna-passport",
+      "type": "key-item",
+      "owner": "kinji",
+      "description": "蓝帮准备的千奈身份证件，用于金次从台北接千奈返程；照片疑似由理子提供素材合成。",
+      "features": [
+        "跨境旅行文件",
+        "伪造身份"
+      ],
+      "volumes": [
+        "vol-45"
+      ]
+    },
+    {
+      "id": "climbing-rope-grip",
+      "type": "equipment",
+      "owner": "akari",
+      "description": "明里和彩虹大桥测试时也用过的附握把绳索，本卷在新校舍救援宗宫时用于空中接力。",
+      "features": [
+        "攀爬",
+        "救援",
+        "多人接力"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "cloned-pteranodon",
+      "type": "pet-companion",
+      "owner": "sherlock",
+      "description": "夏洛克从化石中抽取分子化石/DNA制造出的翼龙，用于伦敦骚动中驱散人群和掩护伊·U航行。",
+      "features": [
+        "巨大翼龙",
+        "夜间飞行",
+        "恐怖鸣叫"
+      ],
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "colt-government-aria",
+      "type": "weapon",
+      "owner": "aria",
+      "description": "亚莉亚的双持手枪，一把漆黑一把白银色。发射点四五ACP弹。亚莉亚擅长双枪同时射击。",
+      "features": [
+        "双持可能",
+        "快拔设计"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "colt-government-black",
+      "type": "weapon",
+      "owner": "aria",
+      "description": "亚莉亚使用的两把Colt Government之一，漆黑色。与银色配成一对，双枪齐射。",
+      "features": [
+        "双枪配合"
+      ],
+      "volumes": [
+        "vol-03",
+        "vol-08",
+        "vol-15"
+      ]
+    },
+    {
+      "id": "colt-government-silver",
+      "type": "weapon",
+      "owner": "aria",
+      "description": "亚莉亚使用的两把Colt Government之一，白银色。握把处有母亲神崎香苗的贝壳浮雕。使用点45ACP弹。弹数较少但火力胜过理子的华尔瑟P99。",
+      "features": [
+        "大威力大口径"
+      ],
+      "volumes": [
+        "vol-03",
+        "vol-08",
+        "vol-15"
+      ]
+    },
+    {
+      "id": "colt-government",
+      "type": "weapon",
+      "owner": "aria",
+      "description": "亚莉亚的双枪。一把漆黑一把白银色，均为点45ACP口径的柯尔特Government手枪。双剑双枪的组成部分之一。",
+      "features": [
+        "双枪运用",
+        "精度极高（能在水塔上打洞成文字）"
+      ],
+      "volumes": [
+        "vol-02",
+        "vol-05",
+        "vol-07",
+        "vol-10",
+        "vol-11",
+        "vol-12",
+        "vol-14"
+      ]
+    },
+    {
+      "id": "colt-peacemaker",
+      "type": "weapon",
+      "owner": "tooyama-kinichi",
+      "description": "远山金一的招牌手枪，一款可进博物馆的十九世纪老式左轮手枪。因特别适合速射而被金一选用。本卷中金次以镜击弹回子弹破坏了一把，金一在最终战中拿出了同款新枪。",
+      "features": [
+        "适合超速射",
+        "可执行空中装弹魔术"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "colt-python",
+      "type": "weapon",
+      "owner": "muto",
+      "description": "武藤刚气使用的点357口径左轮手枪。科尔特公司1956年开发，完成度极高但弹数仅六发，且不能装灭音器。武藤选择它仅因保养方便。",
+      "features": [],
+      "volumes": [
+        "vol-02",
+        "vol-03"
+      ]
+    },
+    {
+      "id": "consecrated-silver-bullets",
+      "type": "ammunition / anti-vampire",
+      "owner": "kinji",
+      "description": "华生交给金次的对吸血鬼弹药。对希尔达的翅膀与魔脏回复具有显著抑制效果，理子以贝瑞塔发射后可造成不自然的大孔与缓慢恢复。",
+      "features": [
+        "可阻碍希尔达瞬间回复",
+        "击中翼膜会造成大面积孔洞",
+        "可被大蛇夹住并回射"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "count-zeppelin-nt",
+      "type": "vehicle",
+      "owner": "witch-corps",
+      "description": "魔女连队用于运输人员和兵器材料的银灰色硬式飞船，全长约七十公尺，外形复古但使用防弹纤维、碳纤维骨架和太阳能电池等现代材料。",
+      "features": [
+        "收纳库",
+        "高空飞行",
+        "防弹外布",
+        "复古造型与现代材料结合"
+      ],
+      "volumes": [
+        "vol-15",
+        "vol-16"
+      ]
+    },
+    {
+      "id": "crimson-butterfly-knife",
+      "type": "weapon",
+      "owner": "kinji",
+      "description": "远山金一给金次的蝴蝶刀，刀柄可像蝴蝶翅膀般展开。本卷中金次与亚莉亚在灵柩中接吻时，此刀发出强烈绯色光芒，成为亚莉亚绯弹觉醒的媒介。",
+      "features": [
+        "蝴蝶刀",
+        "绯色刀身",
+        "可共鸣绯弹之力"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "crohmdele-outfit",
+      "type": "disguise",
+      "owner": "远山金次",
+      "description": "金次的变装套件，将其乔装为金发白人美女克罗梅德尔·贝尔蒙多（小克）。",
+      "features": [],
+      "volumes": [
+        "vol-26"
+      ]
+    },
+    {
+      "id": "cromedelle-disguise-kit",
+      "type": "disguise equipment / ballistic clothing",
+      "owner": "kinji",
+      "description": "武侦厅补充给金次的克罗梅德尔用假发与防弹水手服；之后被用于家庭淑女日聚餐、茉斩临时穿着、以及金次以克罗梅德尔身份入境美国。",
+      "features": [],
+      "volumes": [
+        "vol-30"
+      ]
+    },
+    {
+      "id": "cross-necklace",
+      "type": "artifact",
+      "owner": "riko",
+      "description": "理子母亲的遗物，罗苹家的秘宝。蓝色的小十字架，原本是项链坠。据理子说这是用罗苹家的全部财产来交换也划得来的宝物。十字架附带的金属赐予理子特殊力量（头发操作能力）。理子曾被囚禁时将其藏在口中。",
+      "features": [
+        "赐予特殊能力",
+        "罗苹家代代相传的秘宝"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "crrc-assault-boat",
+      "type": "vehicle",
+      "owner": "shiranui",
+      "description": "不知火游艇上搭载的防弹纤维制强袭小艇，配大型引擎。本卷由武藤驾驶，载金次和妖刕追逐NDD。",
+      "features": [
+        "高速航行",
+        "可追逐低速NDD",
+        "小型灵活"
+      ],
+      "volumes": [
+        "vol-23"
+      ]
+    },
+    {
+      "id": "cz100-pistol",
+      "type": "weapon",
+      "owner": "jeanne",
+      "description": "贞德随身携带的手枪。本卷金次撞见她的秘密服装收藏后，她一度从围裙下掏出Cz100威胁保密。",
+      "features": [
+        "可隐藏携带",
+        "现代手枪"
+      ],
+      "volumes": [
+        "vol-08"
+      ]
+    },
+    {
+      "id": "daimon-shakujo-and-prayer-beads",
+      "type": "Buddhist法器",
+      "owner": "daimon",
+      "description": "大门和尚的铁制锡杖，游环可发出切开空气的呼啸，用于击退魔炎。黑色大念珠灌注法力可出拳击碎火焰。铁木屐可高速山林移动。",
+      "features": [
+        "锡杖可击碎火焰墙",
+        "念珠一拳打散火焰",
+        "铁木屐适应山地高速移动"
+      ],
+      "volumes": [
+        "vol-39"
+      ]
+    },
+    {
+      "id": "daimonbou-prayer-beads",
+      "type": "equipment / artifact",
+      "owner": "daimonbou",
+      "description": "大门坊挂在脖子上的黑色念珠，面对希尔达时取下并配合结印与经文进入降魔态势。",
+      "features": [
+        "佛教法具",
+        "配合经文与结印"
+      ],
+      "volumes": [
+        "vol-22",
+        "vol-23"
+      ]
+    },
+    {
+      "id": "dalm-cocktail",
+      "type": "special-ammunition-set",
+      "owner": "kinji",
+      "description": "梵蒂冈预定寄给金次的9mm鲁格弹武侦弹套组，因口径较小制作更费时。",
+      "features": [
+        "9mm鲁格弹",
+        "多功能D·A·L",
+        "梵蒂冈支援物资"
+      ],
+      "volumes": [
+        "vol-10"
+      ]
+    },
+    {
+      "id": "dalm-pastel",
+      "type": "special-ammunition-set",
+      "owner": "aria",
+      "description": "梵蒂冈寄给亚莉亚的.45ACP武侦弹套组，含炸裂弹、穿甲弹、破裂弹、飞散弹、闪光弹、音响弹、烟幕弹、烧夷弹等。",
+      "features": [
+        ".45ACP",
+        "多功能D·A·L",
+        "梵蒂冈支援物资"
+      ],
+      "volumes": [
+        "vol-10",
+        "vol-11"
+      ]
+    },
+    {
+      "id": "depleted-uranium-round",
+      "type": "weapon / ammunition",
+      "owner": "无特定归属",
+      "description": "贝瑞塔发明并销售的高威力非穿孔性子弹，威力约为一般FMJ两倍。本卷被N用来让贝瑞塔因胸部冲击心肺停止。",
+      "features": [
+        "高密度",
+        "非穿孔",
+        "高冲击力"
+      ],
+      "volumes": [
+        "vol-25"
+      ]
+    },
+    {
+      "id": "derringer-gun",
+      "type": "weapon",
+      "owner": "riko",
+      "description": "理子母亲的遗物手枪，非常小巧可藏在胸沟中（如理子母亲一样）。仅一发子弹。理子将其藏在身上，在关键时刻用来攻击弗拉德舌头上的第四个弱点。",
+      "features": [
+        "极为隐藏",
+        "仅一发子弹"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "desert-eagle",
+      "type": "weapon/firearm",
+      "owner": "kinji",
+      "description": "金次父亲遗物的大型自动手枪，爆发模式下由左手操控，威力约为贝瑞塔三倍。",
+      "features": [
+        "大口径点五零AE弹",
+        "强大后坐力",
+        "可弹开或击飞敌方武器"
+      ],
+      "volumes": [
+        "vol-07",
+        "vol-08",
+        "vol-10",
+        "vol-11",
+        "vol-14",
+        "vol-43"
+      ]
+    },
+    {
+      "id": "directional-explosive-cylinder",
+      "type": "weapon / key-item",
+      "owner": "kage-glasse",
+      "description": "卡羯计划用于撕裂油轮船底的长条指向性炸药，设置在第四中央油舱下方，以冲撞岸边的冲击作为引爆条件。",
+      "features": [
+        "磁铁吸附船底",
+        "指向性爆炸",
+        "海水侧最小规模爆炸以避免立即大爆炸"
+      ],
+      "volumes": [
+        "vol-15"
+      ]
+    },
+    {
+      "id": "disposable-painkiller-injector",
+      "type": "medical / consumable",
+      "owner": "kinji",
+      "description": "金次武侦手册中唯一一支抛弃式止痛注射剂，在地下道赠予枪伤的丽莎使用。",
+      "features": [
+        "缓解枪伤疼痛",
+        "不可反复注射"
+      ],
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "dom-perignon-platinum-tower",
+      "type": "consumable / ceremony",
+      "owner": "无特定归属",
+      "description": "雷米艾莉雅为让响成为第一而点的隐藏菜单，6瓶唐培里侬第三极乐/铂金倒入35个碟形杯塔，总价六百万日元。",
+      "features": [
+        "35杯三角锥香槟塔",
+        "六瓶铂金香槟",
+        "极端虚荣竞争象征"
+      ],
+      "volumes": [
+        "vol-44"
+      ]
+    },
+    {
+      "id": "dorothy-bombardier-605",
+      "type": "vehicle",
+      "owner": "dorothy-solomon",
+      "description": "桃乐西·所罗门的粉红色私人喷射机，用于将金次一行从渥太华经温哥华送回羽田。",
+      "features": [
+        "跨洋飞行",
+        "私人调度"
+      ],
+      "volumes": [
+        "vol-32"
+      ]
+    },
+    {
+      "id": "dracula-poison-earring",
+      "type": "control device / poison trap",
+      "owner": "riko",
+      "description": "希尔达让理子佩戴的黑色蝙蝠型耳环，象征德古拉家正式臣下。若摘下、割耳或希尔达动念，耳环会爆开并把封入的毒蛇腺液注入伤口，十分钟内致死。",
+      "features": [
+        "强制支配回归者",
+        "物理拆除即触发死亡陷阱",
+        "兼具心理威慑与实际毒杀功能"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "draganov-sniper-rifle",
+      "type": "weapon",
+      "owner": "reki",
+      "description": "蕾姬使用的狙击步枪，装有狙击镜。蕾姬用这把枪展示了惊人的射击精度——从上方掠过银狼的脊椎压迫神经而不杀死它。",
+      "features": [
+        "高精度瞄准镜",
+        "半自动"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "dragon-port-galleon",
+      "type": "vehicle / facility",
+      "owner": "kenzoku",
+      "description": "停泊在龙之港内、被改装成眷属居住设施与审判据点的大航海时代大型帆船，挂有海贼骷髅旗。",
+      "features": [
+        "豪华船内",
+        "牢房",
+        "大食堂",
+        "眷属法庭"
+      ],
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "dragunov-rifle",
+      "type": "weapon",
+      "owner": "reki",
+      "description": "蕾姬使用的初期型德拉古诺夫狙击枪，有木制枪托。使用7.62mm子弹。在岛麒麟营救中从约两公里外通过弹子戏法技术击中来袭的麦格农子弹。",
+      "features": [
+        "高精度远距离狙击",
+        "木制枪托"
+      ],
+      "volumes": [
+        "vol-01"
+      ]
+    },
+    {
+      "id": "dragunov-svd",
+      "type": "weapon",
+      "owner": "蕾姬",
+      "description": "蕾姬的伙伴狙击步枪。细长、重量轻、耐用度佳，以战场运用为理念设计的实战型狙击枪。全长约120公分。",
+      "features": [
+        "半自动狙击步枪",
+        "可装穿甲弹"
+      ],
+      "volumes": [
+        "vol-05",
+        "vol-10",
+        "vol-11",
+        "vol-12",
+        "vol-23",
+        "vol-25"
+      ]
+    },
+    {
+      "id": "dragunov",
+      "type": "weapon",
+      "owner": "reiki",
+      "description": "蕾姬使用的老式德拉古诺夫狙击枪。虽然老旧但蕾姬能灵活运用其速射能力，在两公里外精确射击。可使用狙击枪在地上打出箭头指示方向。",
+      "features": [],
+      "volumes": [
+        "vol-02",
+        "vol-07"
+      ]
+    },
+    {
+      "id": "durandal-sword",
+      "type": "weapon",
+      "owner": "jeanne",
+      "description": "贞德使用的剑，本卷在空地岛用来刺入希尔达的黑影并短暂拖住其移动。",
+      "features": [
+        "冰魔法媒介",
+        "剑术武器"
+      ],
+      "volumes": [
+        "vol-08"
+      ]
+    },
+    {
+      "id": "durandal",
+      "type": "weapon",
+      "owner": "jeanne",
+      "description": "贞德·达鲁克使用的西式大剑（即传说中的圣剑杜兰朵），刀锷装饰有蓝宝石。号称没有砍不断的东西。最终被白雪的色香菖蒲斩断刀锷附近。",
+      "features": [
+        "可斩断钢铁",
+        "配合冰冻超能力释放'奥尔良的冰花'"
+      ],
+      "volumes": [
+        "vol-02",
+        "vol-11",
+        "vol-16"
+      ]
+    },
+    {
+      "id": "easyjet-disguise-passport",
+      "type": "equipment",
+      "owner": "kinji",
+      "description": "GⅢ为金次准备的女装偷渡入境套装，借克罗梅德尔外貌顺利通过英国入境审查。",
+      "features": [
+        "伪造荷兰护照",
+        "假发与女装"
+      ],
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "edgar-raven",
+      "type": "pet-companion",
+      "owner": "kage-glasse",
+      "description": "卡羯的使魔乌鸦，极其聪明且忠诚，可用毒爪攻击、啄眼干扰，并在卡羯坠落后冒着高山寒冷找到她。",
+      "features": [
+        "毒爪",
+        "高度训练",
+        "忠诚"
+      ],
+      "volumes": [
+        "vol-15",
+        "vol-16",
+        "vol-17"
+      ]
+    },
+    {
+      "id": "eliza-henna",
+      "type": "supply",
+      "owner": "eliza",
+      "description": "Henna/mehndi pigment prepared among Sherlock's mission supplies for Eliza.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "eliza-indian-rupees",
+      "type": "cash",
+      "owner": "eliza",
+      "description": "Eliza lends Kinji 50,000 rupees from Nautilus activity funds, creating another reason for them to travel and fight together.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "eliza-nautilus-communicator",
+      "type": "communicator",
+      "owner": "eliza",
+      "description": "Used during the initial I-U standoff to issue orders such as reactor shutdown and missile standby.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "emaki-armor",
+      "type": "armor",
+      "owner": "reki",
+      "description": "蕾姬为艾马基穿上的厚重防弹装甲，像甲壳类一样保护背部，使金次无法用9mm手枪轻易麻痹或击退它。",
+      "features": [
+        "防弹",
+        "保护艾马基背部",
+        "配合跳弹战术可作为反射面"
+      ],
+      "volumes": [
+        "vol-06"
+      ]
+    },
+    {
+      "id": "emaki",
+      "type": "wolf/animal companion",
+      "owner": "reki",
+      "description": "Reki's white wolf-like companion rests on the hotel balcony and later near Lisa during Reunion.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "en-blue-hex-maces",
+      "type": "weapon",
+      "owner": "en",
+      "description": "阎在空中铁板擂台使用的两把青色六角狼牙棒，是鬼族罕见双棍型武器。",
+      "features": [
+        "青色光泽",
+        "两把",
+        "可投掷"
+      ],
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "endimira-compound-bow",
+      "type": "weapon",
+      "owner": "endimira-ti",
+      "description": "恩蒂米菈购买并组装的现代复合弓，是精灵传统弓术与现代材料结合的武器。",
+      "features": [
+        "高威力",
+        "可配合风魔术修正弹道",
+        "可穿透魔书"
+      ],
+      "volumes": [
+        "vol-32"
+      ]
+    },
+    {
+      "id": "endimira-mauser",
+      "type": "weapon",
+      "owner": "endimira-ti",
+      "description": "恩蒂米菈在尼加拉护卫尼莫时从手提包中取出的手枪，后在加拿大岸边被风魔没收。",
+      "features": [
+        "护卫用手枪"
+      ],
+      "volumes": [
+        "vol-32"
+      ]
+    },
+    {
+      "id": "endymira-mauser-c96",
+      "type": "weapon",
+      "owner": "endymira",
+      "description": "恩蒂米菈腰间枪套中的黑色手枪，圆形握把让金次判断为毛瑟C96。",
+      "features": [
+        "旧式自动手枪",
+        "N军官武装"
+      ],
+      "volumes": [
+        "vol-28"
+      ]
+    },
+    {
+      "id": "endymira-sabre",
+      "type": "weapon",
+      "owner": "endymira",
+      "description": "恩蒂米菈右腰佩带的带护手军刀。",
+      "features": [
+        "带护手",
+        "军官佩刀"
+      ],
+      "volumes": [
+        "vol-28"
+      ]
+    },
+    {
+      "id": "exam-ring-bell",
+      "type": "equipment",
+      "owner": "无特定归属",
+      "description": "缀梅子在升级考核格斗战中用来宣布开始与结束的擂台钟。",
+      "features": [
+        "发条式",
+        "考试开始/结束信号"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "excalibur",
+      "type": "weapon / artifact",
+      "owner": "sherlock",
+      "description": "夏洛克持有的大英帝国至宝级剑，与Ragnarok外观相似但剑铭不同。",
+      "features": [
+        "名剑",
+        "与瓦尔基丽雅有旧缘暗示"
+      ],
+      "volumes": [
+        "vol-25"
+      ]
+    },
+    {
+      "id": "explosion-bubble-sprayer",
+      "type": "weapon / gadget",
+      "owner": "cao-cao-engineer",
+      "description": "机娘在屋顶决斗中持有的护身武器，可发射气体炸弹爆泡。因屋顶风向不利，机娘没有实际使用它。",
+      "features": [
+        "气体炸弹",
+        "曹操姊妹武器"
+      ],
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "explosion-bubble",
+      "type": "weapon/explosive-gas",
+      "owner": "cao-cao-sniper",
+      "description": "曹操姐妹使用和推销的气体炸弹，泡泡或密闭空间中的气体与氧混合后爆炸；小剂量足以震飞亚莉亚，大剂量可摧毁新干线。",
+      "features": [
+        "透明/难以察觉",
+        "可喷射成泡泡",
+        "可封入密闭洗脸间"
+      ],
+      "volumes": [
+        "vol-07"
+      ]
+    },
+    {
+      "id": "falcon-uav",
+      "type": "vehicle / weapon",
+      "owner": "us-military",
+      "description": "高尾基地机库中的猎鹰II式改造无人垂直起降机，装有25mm GAU-12/U平衡者机炮。",
+      "features": [
+        "垂直起降",
+        "外装式25mm机炮",
+        "可被马许入侵地面滑行和武器管制"
+      ],
+      "volumes": [
+        "vol-27"
+      ]
+    },
+    {
+      "id": "father-red-devil-grenade",
+      "type": "weapon",
+      "owner": "",
+      "description": "意大利陆军的超小型手榴弹SRCM Model 35，因罐体红色和频发事故被称为红色恶魔。全长10厘米，重量200克，时间引信4±0.5秒。神父在鹳式决斗中将此手榴弹塞入Kinji衣内想同归于尽，但Kinji切腹式剖开外套将手榴弹排出，手榴弹在机舱内爆炸破坏了鹳式引擎。",
+      "features": [],
+      "volumes": [
+        "vol-43"
+      ]
+    },
+    {
+      "id": "feather-fan",
+      "type": "equipment / symbolic item",
+      "owner": "zhuge-jinghuan",
+      "description": "诸葛静幻骑白马介入高速路现场时持有的羽扇，带有诸葛亮式文官与策士象征。",
+      "features": [
+        "文官象征",
+        "指向眧眧训斥"
+      ],
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "ferrari-california",
+      "type": "vehicle",
+      "owner": "beretta-company",
+      "description": "贝瑞塔在公司时代使用的法拉利敞篷车，后被公司没收并成为罗洁塔等人使用的车辆。",
+      "features": [
+        "高速跑车",
+        "身份象征"
+      ],
+      "volumes": [
+        "vol-25"
+      ]
+    },
+    {
+      "id": "fiber-bullet",
+      "type": "special-ammunition",
+      "owner": "kinji",
+      "description": "平贺文交给金次的9mm试作品子弹，发射后分为滞空弹子和前进弹子，中间拉出复相液态芳纶丝，可作为临时绳索。",
+      "features": [
+        "9mm鲁格弹外形",
+        "液态芳纶丝",
+        "推荐25米以内使用",
+        "感压发光标记"
+      ],
+      "volumes": [
+        "vol-10",
+        "vol-11",
+        "vol-17"
+      ]
+    },
+    {
+      "id": "ford-model-t-ruruirogane",
+      "type": "artifact / vehicle",
+      "owner": "无特定归属",
+      "description": "五十一区地下保管的二十辆福特T型车，涂装与组装下实际全部由琉琉色金制成。",
+      "features": [
+        "吨级色金质量",
+        "可发动行走",
+        "用于隐藏与紧急分散"
+      ],
+      "volumes": [
+        "vol-18"
+      ]
+    },
+    {
+      "id": "francesco-fiat-van",
+      "type": "vehicle",
+      "owner": "francesco",
+      "description": "法兰西斯科在布鲁马偷拍任务撤退时从λ地点开来的飞雅特厢型车。",
+      "features": [
+        "高速撤退",
+        "多人搭乘"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "francesco-surfboard",
+      "type": "equipment",
+      "owner": "francesco",
+      "description": "法兰西斯科带去奥斯提亚海边的长板冲浪板，长到从车后窗伸出。",
+      "features": [
+        "冲浪",
+        "长板"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "fugaku-bomber",
+      "type": "vehicle",
+      "owner": "habi",
+      "description": "旧日本军未完成的超大型战略轰炸机在本卷以鬼族空中据点形式出现。机翼异常厚，可容纳房间、走廊和鬼族宴会空间。",
+      "features": [
+        "六发引擎",
+        "巨大机翼内部空间",
+        "隐形复合涂料",
+        "可与空中浮标会合"
+      ],
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "fugaku",
+      "type": "vehicle",
+      "owner": "bami",
+      "description": "停在鬼之国红树林下的大型轰炸机，被绯绯神操控急速起飞并爬升，用作扩大视野内瞬移距离的中继载具。",
+      "features": [
+        "高速高空飞行",
+        "机内可战斗",
+        "可作为瞬移跳板"
+      ],
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "fugo-balloon-bomb",
+      "type": "vehicle / equipment",
+      "owner": "habi",
+      "description": "鬼族从医科研医院上空逃离时使用的巨大白色发光气球，外观像满月，结构源自旧日本军气球炸弹。",
+      "features": [
+        "和纸拼贴外壳",
+        "内部照明",
+        "中心贯穿系绳"
+      ],
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "fuma-gas-mask-scarf",
+      "type": "equipment",
+      "owner": "fuma-hina",
+      "description": "阳菜遮住脸下半部的布，可发挥等同防毒面罩的效果，但无法抵御经皮吸收的酸毒混合雾。",
+      "features": [
+        "遮脸",
+        "防吸入毒气",
+        "女忍隐私象征"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "fuma-gps-burrs",
+      "type": "tracking device",
+      "owner": "fuma-hina",
+      "description": "装备科推销给谍报科的苍耳子形追踪器，内部藏有GPS。金次在成田机场帮风魔配对手机，并拿一颗藏在枪套底部，后在加油站枪战中黏到福特车内追踪帕基诺家族据点。",
+      "features": [],
+      "volumes": [
+        "vol-30"
+      ]
+    },
+    {
+      "id": "fuma-kunai",
+      "type": "weapon",
+      "owner": "fuma-hina",
+      "description": "阳菜中毒后用左手从指缝同时掷出的涂黑苦无，用来牵制夹竹桃并掩护发讯器。",
+      "features": [
+        "投掷",
+        "牵制",
+        "夜战涂黑"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "fuma-matchlock",
+      "type": "weapon",
+      "owner": "fuma-hina",
+      "description": "风魔阳菜用于夜间伏击夹竹桃的古老火绳枪，点火机关经过改良但仍为单发式。",
+      "features": [
+        "单发",
+        "旧式枪身",
+        "静默忍者不常用的长射程手段"
+      ],
+      "volumes": [
+        "vol-03",
+        "vol-32"
+      ]
+    },
+    {
+      "id": "fuma-medicinal-herbs",
+      "type": "consumable / equipment",
+      "owner": "fuma-hina",
+      "description": "风魔家传用于止血和消毒的药草，需先放入口中咀嚼后贴在伤口上；尼加拉河战后用于茉斩腿伤。",
+      "features": [
+        "效果强于一般化学药品",
+        "使用方式令金次反感"
+      ],
+      "volumes": [
+        "vol-31"
+      ]
+    },
+    {
+      "id": "fuma-shuriken-kunai",
+      "type": "weapon",
+      "owner": "fuma-hina",
+      "description": "风魔携带的忍具，在尼加拉河战中从上方击落贝茨姊妹的左轮手枪。",
+      "features": [
+        "投掷武器",
+        "适合奇袭与缴械"
+      ],
+      "volumes": [
+        "vol-31"
+      ]
+    },
+    {
+      "id": "fuma-shuriken",
+      "type": "weapon",
+      "owner": "fuma-hina",
+      "description": "涂黑的夜战手里剑，阳菜左右手同时投掷，用来切断夹竹桃脚下TNK绳索。",
+      "features": [
+        "无声",
+        "切断绳索",
+        "回旋轨迹"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "fuma-tanegashima",
+      "type": "archaic firearm",
+      "owner": "fuma-hina",
+      "description": "风魔从家中传承的安土桃山时代火绳枪，搭配早合纸弹壳使用。虽连射性极差，但近距离大口径铅丸威力巨大。",
+      "features": [],
+      "volumes": [
+        "vol-30",
+        "vol-31"
+      ]
+    },
+    {
+      "id": "fuma-tracker-burr",
+      "type": "equipment",
+      "owner": "fuma-hina",
+      "description": "伪装成干燥苍耳果实的微型发讯器，靠钩刺黏附在夹竹桃裙摆上。",
+      "features": [
+        "150MHz信号",
+        "氧化银电池数日续航",
+        "不到5克",
+        "误差约10m"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "fushimi-naval-uniform",
+      "type": "equipment",
+      "owner": "fushimi",
+      "description": "伏见按神托要求金次等人换上的旧日本海军军服，用于秘密跨界仪式前的保护或伪装。",
+      "features": [
+        "仪式安全要求",
+        "时代伪装"
+      ],
+      "volumes": [
+        "vol-32"
+      ]
+    },
+    {
+      "id": "fuwa-gas-canister-kolokol",
+      "type": "chemical weapon - incapacitating agent",
+      "owner": "fuwa",
+      "description": "芬太尼类无力化气体，吸入一口即可当场昏迷数小时。不破在公车站埋伏时使用，使金次和悠树菜同时昏迷。不破似乎训练出了能忍受高浓度类阿片的能力。对呼吸道有损伤，苏醒后支气管疼痛如烧伤。",
+      "features": [
+        "无色气体",
+        "吸入一口数小时昏迷",
+        "对呼吸道有后遗损伤"
+      ],
+      "volumes": [
+        "vol-39"
+      ]
+    },
+    {
+      "id": "fuwa-ningen-mukotsu",
+      "type": "weapon - sword",
+      "owner": "fuwa",
+      "description": "不破使用的打刀，关市锻造，左近将监氏贞作品。刀背刻有\"人间无骨\"四字阳刻（意为人骨如同无物般可轻易斩断），兼作血槽。曾被金次使用光影进行牢乎尝试斩断但完好无损。",
+      "features": [
+        "刀刃可挡下45ACP手枪子弹",
+        "刻有\"人间无骨\"四字",
+        "关市名刀"
+      ],
+      "volumes": [
+        "vol-39"
+      ]
+    },
+    {
+      "id": "fv603-saracen",
+      "type": "vehicle / weapon",
+      "owner": "cao-cao-ji-niang",
+      "description": "眧眧在香港街头围捕金次时使用的六轮装甲车，炮塔加装M1919式机关枪，装甲厚度足以抵御手枪。",
+      "features": [
+        "装甲防护",
+        "街头威慑",
+        "包围阵左侧墙壁"
+      ],
+      "volumes": [
+        "vol-13",
+        "vol-14"
+      ]
+    },
+    {
+      "id": "g3-armor",
+      "type": "equipment",
+      "owner": "g3",
+      "description": "GⅢ作战时穿戴的高性能护具，可抵挡和弹开镜高组枪弹，但卷末被孙悟空如意棒雷射贯穿。",
+      "features": [
+        "防弹",
+        "全副武装",
+        "配合光曲折迷彩行动"
+      ],
+      "volumes": [
+        "vol-12"
+      ]
+    },
+    {
+      "id": "g3-coat-glider",
+      "type": "gear / glider cloak",
+      "owner": "g3",
+      "description": "GⅢ穿着的黑色镶金长大衣，似乎使用与磁力推进纤维盾同类材料。加利恩坠毁时GⅢ用它像纸飞机一样滑翔生还，战后还在古巴把它当特技风筝炫耀。",
+      "features": [
+        "可展开为大风筝形态",
+        "具滑翔能力",
+        "兼具舞台化外观"
+      ],
+      "volumes": [
+        "vol-11"
+      ]
+    },
+    {
+      "id": "g3-cs-gas-grenades",
+      "type": "weapon / equipment",
+      "owner": "g3",
+      "description": "围棋子大小的超小型催泪瓦斯弹，GⅢ在发射井逃离时投放，用于干扰贝茨姊妹。",
+      "features": [
+        "体积极小",
+        "对微粒气胶排除能力不足的贝茨姊妹造成牵制"
+      ],
+      "volumes": [
+        "vol-31"
+      ]
+    },
+    {
+      "id": "g3-gablin",
+      "type": "equipment / vehicle",
+      "owner": "g3",
+      "description": "以LOO飞行装备为基础制造的白色喷射滑翔翼，收纳于玛莎拉蒂后车箱，可用车速与火药弹射起飞。",
+      "features": [
+        "短时高速滑翔",
+        "推进器辅助",
+        "空中倒挂救援"
+      ],
+      "volumes": [
+        "vol-27"
+      ]
+    },
+    {
+      "id": "g3-hk-pistol",
+      "type": "firearm",
+      "owner": "g3",
+      "description": "GⅢ本卷主要携带的手枪，在加油站枪战中用于施展Silence，精密塞住敌方MP9枪口。",
+      "features": [],
+      "volumes": [
+        "vol-30"
+      ]
+    },
+    {
+      "id": "g3-hk-usp",
+      "type": "weapon",
+      "owner": "g3",
+      "description": "GⅢ使用的美国样式战术手枪，在发射井底部从废铁堆中奇袭贝茨姊妹。",
+      "features": [
+        "大口径",
+        "平贺文后续维修/补给弹药"
+      ],
+      "volumes": [
+        "vol-31"
+      ]
+    },
+    {
+      "id": "g3-left-prosthetic-arm",
+      "type": "prosthetic weapon / tool",
+      "owner": "g3",
+      "description": "GⅢ的机械左手，可在战斗中分离，手腕以下以绳索与前臂连接并依靠小喷射口飞出抓取钢架。",
+      "features": [],
+      "volumes": [
+        "vol-30",
+        "vol-31"
+      ]
+    },
+    {
+      "id": "g3-leg-jet-guards",
+      "type": "equipment",
+      "owner": "g3",
+      "description": "GⅢ用于空中机动和安全落地的腿部喷射护具；尼加拉战斗中被金次分散冲击时损坏。",
+      "features": [
+        "喷射推进",
+        "空中转向"
+      ],
+      "volumes": [
+        "vol-32"
+      ]
+    },
+    {
+      "id": "g3-maserati-grancabrio",
+      "type": "vehicle",
+      "owner": "g3",
+      "description": "GIII驾驶的黑色敞篷车，搭载AI亚许，后车箱收纳加布林飞行翼。",
+      "features": [
+        "高速追击",
+        "敞篷便于跳入与起飞",
+        "搭载红色警示灯和AI"
+      ],
+      "volumes": [
+        "vol-27"
+      ]
+    },
+    {
+      "id": "g3-neurotransmitter-tabs",
+      "type": "drug / HSS booster",
+      "owner": "g3",
+      "description": "GⅢ口腔内贴用的红色小纸片药物，是洛斯阿拉莫斯创造的脑内神经传导物质亢奋剂混合物。本卷中他用其把艺术诱发HSS推向更高倍率，接近一百倍。",
+      "features": [
+        "贴在口腔内侧",
+        "强化神经传导物质",
+        "在洛斯阿拉莫斯因危害生命被禁用"
+      ],
+      "volumes": [
+        "vol-11"
+      ]
+    },
+    {
+      "id": "g3-orochi",
+      "type": "vehicle",
+      "owner": "g3",
+      "description": "GⅢ在纽约使用的改造光冈大蛇，具备人工智慧和火箭加速器。",
+      "features": [
+        "AI语音",
+        "高性能跑车",
+        "GⅢ收藏车"
+      ],
+      "volumes": [
+        "vol-18"
+      ]
+    },
+    {
+      "id": "g3-private-plane-access",
+      "type": "vehicle / resource",
+      "owner": "g3",
+      "description": "GIII offers Kinji a seat on a private plane for an overseas trip related to an NGO invitation.",
+      "features": [
+        "overseas transport"
+      ],
+      "volumes": [
+        "vol-41"
+      ]
+    },
+    {
+      "id": "g3-prosthetic-arm",
+      "type": "equipment / weapon",
+      "owner": "g3",
+      "description": "GⅢ的义肢，洗澡时拆下，象征其战斗改造背景。",
+      "features": [
+        "可拆卸",
+        "战斗用义肢"
+      ],
+      "volumes": [
+        "vol-28"
+      ]
+    },
+    {
+      "id": "g3-special-tomato",
+      "type": "consumable / key-item",
+      "owner": "g3",
+      "description": "GⅢ发现只有熊本县产权堂农园盐番茄自然合成的特殊化合物可以解除自己的活命限制，于是在远山家庭院改良土壤并准备种植。",
+      "features": [
+        "解除GⅢ活命限制",
+        "可种植",
+        "甜味明显"
+      ],
+      "volumes": [
+        "vol-12"
+      ]
+    },
+    {
+      "id": "g3-transmitter-gum",
+      "type": "equipment",
+      "owner": "kinji",
+      "description": "GIII交给金次的伪装口香糖开关，按下后可通过GPS让GIII赶来支援。",
+      "features": [
+        "伪装成口香糖",
+        "紧急联络GIII"
+      ],
+      "volumes": [
+        "vol-27"
+      ]
+    },
+    {
+      "id": "gablin-jet-glider",
+      "type": "vehicle / equipment",
+      "owner": "g3",
+      "description": "GⅢ使用的小型喷射滑翔翼，外观像回旋镖，本卷由平贺文修理并改成深灰色。",
+      "features": [
+        "固定翼式悬挂滑翔翼基础",
+        "折叠机翼",
+        "测试飞行用航空器编号"
+      ],
+      "volumes": [
+        "vol-35"
+      ]
+    },
+    {
+      "id": "galleon-vtol",
+      "type": "vehicle / stealth VTOL aircraft",
+      "owner": "g3",
+      "description": "GⅢ使用的次世代隐形战机试作机，具备光曲折迷彩和磁力推进纤维盾同源的角动升力粒子复合升力。本卷中金次与GⅢ在机内和机翼上决战，最终因飞弹与火灾崩解。",
+      "features": [
+        "光曲折迷彩",
+        "垂直起降",
+        "自动驾驶",
+        "大型全翼机",
+        "可低速静音飞行"
+      ],
+      "volumes": [
+        "vol-11"
+      ]
+    },
+    {
+      "id": "garage-16",
+      "type": "equipment / facility-access",
+      "owner": "muto",
+      "description": "武藤等车辆科成员实际使用的十六号车库工作空间与权限，用于维修高机密装备。",
+      "features": [
+        "车库工作台",
+        "维修空间",
+        "可容纳运输GA装备"
+      ],
+      "volumes": [
+        "vol-35"
+      ]
+    },
+    {
+      "id": "giii-coat-glider",
+      "type": "gear / glider cloak",
+      "owner": "g3",
+      "description": "GⅢ穿着的黑色镶金长大衣，似乎使用与磁力推进纤维盾同类材料。加利恩坠毁时GⅢ用它像纸飞机一样滑翔生还，战后还在古巴把它当特技风筝炫耀。",
+      "features": [
+        "可展开为大风筝形态",
+        "具滑翔能力",
+        "兼具舞台化外观"
+      ],
+      "volumes": [
+        "vol-11"
+      ]
+    },
+    {
+      "id": "giii-cs-gas-grenades",
+      "type": "weapon / equipment",
+      "owner": "giii",
+      "description": "围棋子大小的超小型催泪瓦斯弹，GⅢ在发射井逃离时投放，用于干扰贝茨姊妹。",
+      "features": [
+        "体积极小",
+        "对微粒气胶排除能力不足的贝茨姊妹造成牵制"
+      ],
+      "volumes": [
+        "vol-31"
+      ]
+    },
+    {
+      "id": "giii-hk-usp",
+      "type": "weapon",
+      "owner": "giii",
+      "description": "GⅢ使用的美国样式战术手枪，在发射井底部从废铁堆中奇袭贝茨姊妹。",
+      "features": [
+        "大口径",
+        "平贺文后续维修/补给弹药"
+      ],
+      "volumes": [
+        "vol-31"
+      ]
+    },
+    {
+      "id": "giii-left-prosthetic-arm",
+      "type": "equipment",
+      "owner": "giii",
+      "description": "GⅢ的左手义肢可射出拳头、连接绳索，并在本卷承担救援与战斗辅助。",
+      "features": [
+        "与凯迪拉克绞盘连接可垂入发射井",
+        "质量足以偏转磁石炮弹"
+      ],
+      "volumes": [
+        "vol-31"
+      ]
+    },
+    {
+      "id": "giii-neurotransmitter-tabs",
+      "type": "drug / HSS booster",
+      "owner": "g3",
+      "description": "GⅢ口腔内贴用的红色小纸片药物，是洛斯阿拉莫斯创造的脑内神经传导物质亢奋剂混合物。本卷中他用其把艺术诱发HSS推向更高倍率，接近一百倍。",
+      "features": [
+        "贴在口腔内侧",
+        "强化神经传导物质",
+        "在洛斯阿拉莫斯因危害生命被禁用"
+      ],
+      "volumes": [
+        "vol-11"
+      ]
+    },
+    {
+      "id": "giii-orochi",
+      "type": "vehicle",
+      "owner": "giii",
+      "description": "GⅢ在纽约使用的改造光冈大蛇，具备人工智慧和火箭加速器。",
+      "features": [
+        "AI语音",
+        "高性能跑车",
+        "GⅢ收藏车"
+      ],
+      "volumes": [
+        "vol-18"
+      ]
+    },
+    {
+      "id": "giii-private-plane-access",
+      "type": "vehicle / resource",
+      "owner": "giii",
+      "description": "GIII offers Kinji a seat on a private plane for an overseas trip related to an NGO invitation.",
+      "features": [
+        "overseas transport"
+      ],
+      "volumes": [
+        "vol-41"
+      ]
+    },
+    {
+      "id": "giusto-arsenal",
+      "type": "equipment / weapon system",
+      "owner": "beretta / giusto",
+      "description": "Beretta-developed arsenal used by Giusto operatives, represented by Angelica's Falcons, drones, Arco bullets and carrot missiles.",
+      "features": [
+        "custom firearms",
+        "drones",
+        "guided micro-missiles"
+      ],
+      "volumes": [
+        "vol-41"
+      ]
+    },
+    {
+      "id": "giusto-cards",
+      "type": "merchandise",
+      "owner": "beretta/Giusto",
+      "description": "贝瑞塔以日本集换式卡片为蓝本设计制作的商品，使用各个英雄的照片制作。以年轻人为主在意大利全境流行，稀有卡片价格极高。为Giusto带来巨额收入（像印钞票一样）。每包2欧元含5张卡。卡片同时内置传感器用于定位。",
+      "features": [
+        "印有英雄照片",
+        "稀有度分级",
+        "传感器内置（定位用）",
+        "每包5张"
+      ],
+      "volumes": [
+        "vol-42"
+      ]
+    },
+    {
+      "id": "giusto-ferrari",
+      "type": "vehicle",
+      "owner": "beretta（借用）",
+      "description": "大红色法拉利加利福尼亚敞篷车，安洁丽卡与法拉利签赞助后出租给贝瑞塔使用。连接WiMAX网络，导航屏显示活动中的英雄位置信息。钥匙圈上挂有金次从兰豹处得到的七福神雕刻打火棒。",
+      "features": [
+        "敞篷",
+        "WiMAX联网",
+        "英雄位置显示",
+        "加热座椅"
+      ],
+      "volumes": [
+        "vol-42"
+      ]
+    },
+    {
+      "id": "giusto-hero-cards",
+      "type": "collectible",
+      "owner": "",
+      "description": "Giusto的官方周边商品，类似棒球卡片，印有各英雄的形象和能力。Kinji在罗马期间收集了一些，包括奥古斯塔、锤子女仆双胞胎等。通用在小卖部自掏腰包购买自己的周边作为活动奖品。",
+      "features": [],
+      "volumes": [
+        "vol-43"
+      ]
+    },
+    {
+      "id": "giusto-position-sensor",
+      "type": "equipment",
+      "owner": "beretta/Giusto",
+      "description": "安装在英雄面具和服装上的传感器，传输位置信息和受伤情况至总部的屏幕（绿色=正常、黄色=有风险、红色=危险）。英雄可交给他人伪装位置，系统有此漏洞。",
+      "features": [
+        "GPS定位",
+        "受伤检测",
+        "绿黄红三色",
+        "可拆卸/伪装可能"
+      ],
+      "volumes": [
+        "vol-42"
+      ]
+    },
+    {
+      "id": "global-shuttle",
+      "type": "vehicle / weapon",
+      "owner": "marsh-roosevelt",
+      "description": "马许用于运输LOO和掠夺者的巨型翼身融合机，碳化矽外壳极硬，也可作为冲撞兵器。",
+      "features": [
+        "搭载LOO",
+        "释放掠夺者",
+        "硬度极高",
+        "自杀式冲撞"
+      ],
+      "volumes": [
+        "vol-18"
+      ]
+    },
+    {
+      "id": "goblin",
+      "type": "vehicle",
+      "owner": "g3",
+      "description": "GⅢ所有的全翼喷射滑翔翼，维修后被亚莉亚卡车带出，金次在空战中使用。",
+      "features": [
+        "喷射推进",
+        "滑翔",
+        "可水面着水"
+      ],
+      "volumes": [
+        "vol-36"
+      ]
+    },
+    {
+      "id": "gold-bullet",
+      "type": "key-item / payment",
+      "owner": "g3",
+      "description": "GⅢ持有的纪念纯金子弹，金次擅自用作支付平贺文藏匿和维修的报酬。",
+      "features": [
+        "纯金收藏品",
+        "可变现"
+      ],
+      "volumes": [
+        "vol-31"
+      ]
+    },
+    {
+      "id": "gold-thread-magic-circle",
+      "type": "artifact / magic equipment",
+      "owner": "无特定归属",
+      "description": "以金色线材、金粉和文字描绘的魔法阵，用于恩蒂米菈与雪花的跨世界交换。与拉斯普丁纳遗留金粉同属未知时空魔术体系。",
+      "features": [
+        "跨世界转移",
+        "时间跳跃副作用",
+        "未知魔术体系"
+      ],
+      "volumes": [
+        "vol-33"
+      ]
+    },
+    {
+      "id": "golden-sarcophagus",
+      "type": "artifact",
+      "owner": "petra",
+      "description": "佩特拉用来装纳亚莉亚的人形黄金灵柩，仿照古埃及皇家圣棺制成。灵柩底部设有流沙陷阱，灵柩本身极重（约一吨）但佩特拉可以用魔力轻易操控。最终佩特拉自己被关入其中。",
+      "features": [
+        "极度沉重",
+        "流沙陷阱",
+        "可为佩特拉魔力操控"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "gouo-stun-gun",
+      "type": "weapon",
+      "owner": "gouo",
+      "description": "壕尾带到学校威胁金次辞职的电击棒，随后被金次夺下。",
+      "features": [
+        "放电威吓",
+        "近身电击"
+      ],
+      "volumes": [
+        "vol-32"
+      ]
+    },
+    {
+      "id": "granduca-gladius",
+      "type": "weapon",
+      "owner": "granduca",
+      "description": "古兰督卡使用的古罗马剑斗士风双刃单手剑，因其体格而更接近长剑。",
+      "features": [
+        "双刃",
+        "古罗马剑斗士武器",
+        "冲击波媒介"
+      ],
+      "volumes": [
+        "vol-25"
+      ]
+    },
+    {
+      "id": "habakkuk-ice-carrier",
+      "type": "vehicle",
+      "owner": "lefenge",
+      "description": "蕾芬洁利用鄂霍次克海浮冰和二战冰山航母构想建成的伪装舰体，内部藏有列库忒亚植物大厅与纳粹式司令设施，计划漂流靠岸择捉岛。",
+      "features": [
+        "浮冰伪装",
+        "太阳能板卐字甲板",
+        "内部植物生态大厅",
+        "无动力随海流漂移"
+      ],
+      "volumes": [
+        "vol-34"
+      ]
+    },
+    {
+      "id": "haimaki",
+      "type": "pet-companion",
+      "owner": "reki",
+      "description": "Reki's wolf companion; carries China and entertains her during Baskerville childcare support.",
+      "features": [
+        "large wolf",
+        "gentle with China"
+      ],
+      "volumes": [
+        "vol-41"
+      ]
+    },
+    {
+      "id": "harada-black-sheathed-katana",
+      "type": "weapon",
+      "owner": "harada-seiba",
+      "description": "原田静刃卷末佩在左腰的两把黑鞘日本刀，是其妖刕称号来源与核心战斗装备。",
+      "features": [
+        "高速拔刀",
+        "双刀战斗"
+      ],
+      "volumes": [
+        "vol-21"
+      ]
+    },
+    {
+      "id": "harada-m1887-shotgun",
+      "type": "weapon",
+      "owner": "harada-shizuka",
+      "description": "原田静刃从黑色大衣下取出的杠杆式霰弹枪，准备用银鹿弹对付希尔达的魔脏再生。",
+      "features": [
+        "可单手换弹",
+        "对吸血鬼魔脏有潜在压制力"
+      ],
+      "volumes": [
+        "vol-22"
+      ]
+    },
+    {
+      "id": "harada-taurus-raging-bull",
+      "type": "weapon",
+      "owner": "harada-shizuka",
+      "description": "原田静刃使用的大口径左轮手枪，装填.454 Casull子弹；曾以达姆弹头击碎希尔达右手。",
+      "features": [
+        "大威力",
+        "拔枪瞬间射击",
+        "原田会细致保养"
+      ],
+      "volumes": [
+        "vol-22"
+      ]
+    },
+    {
+      "id": "hassan-storm-jeep",
+      "type": "vehicle",
+      "owner": "hassan",
+      "description": "哈桑驾驶的前侦察用警车，轮胎磨损严重、无车篷，后被拉斯普丁纳夺取。",
+      "features": [
+        "沙漠道路行驶",
+        "警车身份可通过盘查"
+      ],
+      "volumes": [
+        "vol-40"
+      ]
+    },
+    {
+      "id": "hega-amulet",
+      "type": "equipment / artifact",
+      "owner": "shirayuki",
+      "description": "白雪发给巴斯克维尔成员的护身符，具备西洋魔术意义上的除魔效果，能让弱小海卓拉分体逃避或显形。",
+      "features": [
+        "遮蔽微弱诅咒和低等级鬼怪",
+        "对海卓拉分体有驱避作用"
+      ],
+      "volumes": [
+        "vol-29"
+      ]
+    },
+    {
+      "id": "hibari-gps-chip",
+      "type": "equipment",
+      "owner": "hibari-yamane",
+      "description": "云雀随身携带并用于主动采访的小型GPS晶片。本卷她趁金次在UNIQLO试衣，把它藏进金次鞋垫底下。",
+      "features": [
+        "小型化",
+        "长期追踪",
+        "潜入任务线索来源"
+      ],
+      "volumes": [
+        "vol-23"
+      ]
+    },
+    {
+      "id": "hibari-nikon-d3",
+      "type": "equipment",
+      "owner": "hibari-yamane",
+      "description": "山根云雀随身携带的专业相机，是她作为记者收集证据的核心装备。",
+      "features": [
+        "高速拍摄",
+        "记者证据工具",
+        "与纸笔一样被云雀视为武器"
+      ],
+      "volumes": [
+        "vol-23"
+      ]
+    },
+    {
+      "id": "hibari-recorder",
+      "type": "equipment",
+      "owner": "hibari-yamane",
+      "description": "云雀采访金次时展示的银色录音笔，用于记录采访内容。",
+      "features": [
+        "录音采访",
+        "公开告知采访对象后使用"
+      ],
+      "volumes": [
+        "vol-23"
+      ]
+    },
+    {
+      "id": "hibiki-bulletproof-shirt",
+      "type": "equipment",
+      "owner": "hibiki",
+      "description": "金次通过须坂介绍购买并交给响穿的最新式防刃防弹衬衫，改良式TNK纤维60丹尼尔厚款。",
+      "features": [
+        "防弹力约为金次30丹尼尔衬衫两倍",
+        "挡下霰弹贯穿但无法抵消钝击"
+      ],
+      "volumes": [
+        "vol-44"
+      ]
+    },
+    {
+      "id": "hibiki-porsche",
+      "type": "vehicle",
+      "owner": "hibiki",
+      "description": "响用于接送美千流等人的保时捷，由红羽部长可代驾。",
+      "features": [
+        "高级车",
+        "可由红羽部长代驾"
+      ],
+      "volumes": [
+        "vol-44"
+      ]
+    },
+    {
+      "id": "hibiki-red-book-todai",
+      "type": "key-item",
+      "owner": "hibiki",
+      "description": "响书架上的教学社东大文科历年真题集，显示她正在准备东大文Ⅱ。",
+      "features": [
+        "最新11年度版",
+        "东大文科"
+      ],
+      "volumes": [
+        "vol-44"
+      ]
+    },
+    {
+      "id": "hihi-irokane-source",
+      "type": "artifact",
+      "owner": "无特定归属",
+      "description": "星伽神社岩洞核心供奉的汽车大小绯绯色金原石，形状近似斗笠或UFO，是两千年前从天而降的星星。",
+      "features": [
+        "绯绯色金本体/祖钢",
+        "释放绯色光芒",
+        "流通碎片皆从其削下或敲出"
+      ],
+      "volumes": [
+        "vol-20",
+        "vol-21"
+      ]
+    },
+    {
+      "id": "hihiirokane-shells",
+      "type": "artifact",
+      "owner": "aria",
+      "description": "覆盖亚莉亚心脏绯绯色金、阻绝心系的七颗壳金。本卷希尔达解除并夺走五颗，师团一侧仅保有两颗。",
+      "features": [
+        "阻绝心系",
+        "维持法系",
+        "七颗完整时可防止绯绯神化"
+      ],
+      "volumes": [
+        "vol-08"
+      ]
+    },
+    {
+      "id": "hikari-kage",
+      "type": "weapon",
+      "owner": "kinji",
+      "description": "金次使用的日本刀，在台北101与赵云的龙银枪交锋，并用于切断炸弹导爆线。",
+      "features": [
+        "刀镡打击",
+        "切断导爆线",
+        "高速格挡"
+      ],
+      "volumes": [
+        "vol-45"
+      ]
+    },
+    {
+      "id": "hikari-rikishi-chocolate",
+      "type": "item",
+      "owner": "mamiya-hikari",
+      "description": "做成相扑力士形状排列在盒子里的巧克力，可以玩『巧克力相扑』游戏。日里认为这才是东京名产的代表。",
+      "features": [],
+      "volumes": [
+        "vol-04"
+      ]
+    },
+    {
+      "id": "hilda-bat-earring",
+      "type": "accessory",
+      "owner": "riko",
+      "description": "希尔达摘下赠给理子的蝙蝠耳环，名义上是友情证明，实际发生在理子被催眠压制后。",
+      "features": [
+        "蝙蝠造型",
+        "德古拉家象征"
+      ],
+      "volumes": [
+        "vol-08"
+      ]
+    },
+    {
+      "id": "hilda-coffin-transformer",
+      "type": "equipment / power converter",
+      "owner": "hilda",
+      "description": "希尔达布置在天空树第二观景台的巨大黑色棺材，外观以红蔷薇装饰，实为将城市电力转换为希尔达攻击用高压电力的变压器。旁边还设有金次与亚莉亚棺材状备用电池。",
+      "features": [
+        "支撑雷球与粒子操纵",
+        "隐藏供电电缆",
+        "可让希尔达持续偷取城市电力"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "hilda-electric-trident",
+      "type": "weapon",
+      "owner": "hilda",
+      "description": "希尔达从影子中取出的山字形三叉长枪，枪尖间流动高压电，可刺击并触电目标。",
+      "features": [
+        "高压电流",
+        "三叉枪尖",
+        "适合牵制魔物猎手"
+      ],
+      "volumes": [
+        "vol-22"
+      ]
+    },
+    {
+      "id": "hilda-electro-whip",
+      "type": "weapon",
+      "owner": "hilda",
+      "description": "希尔达从影子中取出的黑色鞭子，注入从第十三区偷来的电流后放出白色电光。",
+      "features": [
+        "导电",
+        "可由影子取出",
+        "威吓和近战用"
+      ],
+      "volumes": [
+        "vol-22"
+      ]
+    },
+    {
+      "id": "hilda-fan",
+      "type": "accessory",
+      "owner": "hilda",
+      "description": "A fan used by Hilda while making aristocratic vampire remarks at Reunion.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "hilda-parasol",
+      "type": "accessory",
+      "owner": "hilda",
+      "description": "Black frilled parasol that emerges from Watson's shadow and accidentally hooks Aria's skirt side.",
+      "features": [],
+      "volumes": [
+        "vol-08",
+        "vol-22"
+      ]
+    },
+    {
+      "id": "hilda-student-gothic-uniform",
+      "type": "clothing",
+      "owner": "hilda",
+      "description": "A game-like gothic student uniform worn to fit the student-clothes rule at the reunion.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "hilda-trident",
+      "type": "weapon / lightning conductor",
+      "owner": "hilda",
+      "description": "希尔达使用的金色三叉枪，尖端呈山字分岔，既可作为近战武器，也可在雷雨中高举作避雷针吸收落雷，进入第三型态并凝聚雷星。",
+      "features": [
+        "近战刺击命中率高",
+        "可导入自然雷电",
+        "第三型态下攻击可破坏棺材、水泥与钢材"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "himiko-car",
+      "type": "vehicle",
+      "owner": "fuyuki",
+      "description": "白雪与风雪救援时乘坐的敞篷车，担任撤离车队前导。",
+      "features": [
+        "敞篷车",
+        "救援前导车"
+      ],
+      "volumes": [
+        "vol-07"
+      ]
+    },
+    {
+      "id": "hmmwv",
+      "type": "vehicle",
+      "owner": "",
+      "description": "美制高机动多用途轮式车辆，卡其色。从东欧流通到雷霆教团手中。车顶旋转枪座架设DShK38重机枪。在伊索拉·撒克拉战斗中被犀牛糖果一枪骑枪掀翻。",
+      "features": [],
+      "volumes": [
+        "vol-43"
+      ]
+    },
+    {
+      "id": "hms-habbakuk-ice-carrier",
+      "type": "vehicle / battlefield-wreck",
+      "owner": "无特定归属",
+      "description": "由浮冰和残骸构成的冰山空母遗迹，金次等人在海战中乘坐其甲板浮冰。",
+      "features": [
+        "巨大浮冰甲板",
+        "可作为临时避难与漂流平台",
+        "被炮击后产生致命冰块雨"
+      ],
+      "volumes": [
+        "vol-35"
+      ]
+    },
+    {
+      "id": "hollow-double-blade",
+      "type": "advanced science weapon / projectile sword",
+      "owner": "tooyama-kaname",
+      "description": "金女背后的两把U字形中空剑，剑刃中空并能发射蓝色光弹。本卷品川战中光弹造成火箭炮般爆炸，重创白雪和贞德，随后被亚莉亚撤甲弹和蕾姬巴雷特破坏。",
+      "features": [
+        "U字形剑身",
+        "蓝色光弹",
+        "无明显反作用力",
+        "爆炸威力远超弹丸尺寸"
+      ],
+      "volumes": [
+        "vol-11"
+      ]
+    },
+    {
+      "id": "holmes-magnifying-glass",
+      "type": "artifact",
+      "owner": "minuet",
+      "description": "夏洛克·福尔摩斯使用过的遗物，放在梅露爱特房间，象征她作为福尔摩斯继承人的地位。",
+      "features": [
+        "福尔摩斯家遗物",
+        "侦探象征"
+      ],
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "hooked-shoes",
+      "type": "equipment",
+      "owner": "kinji",
+      "description": "平贺制鞋底藏钩爪装备，用于在倾斜或光滑表面固定身体。本卷金次在富岳机翼上靠它防止被甩落。",
+      "features": [
+        "鞋底弹出钩爪",
+        "适合机翼或墙面攀附"
+      ],
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "hoshiga-chain-sickle",
+      "type": "weapon",
+      "owner": "shirayuki",
+      "description": "白雪使用的辅助武器。高速追逐中她将锁链镰刀掷向飞出高速路的Z8方向，链条插在车门上，重锤端被孙抓住，从而救下孙。",
+      "features": [
+        "锁链",
+        "镰刀",
+        "重锤"
+      ],
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "hoshiga-swallowtail",
+      "type": "familiar",
+      "owner": "hoshiga-shrine",
+      "description": "星伽神社巫女饲养并操控的白色凤蝶，翅上有星形花纹。本卷在金次抱着重伤蕾姬逃出森林后出现，引导他发现道路与救援方向，并停在白雪手上显示其星伽系使魔身份。",
+      "features": [
+        "虫术侦查",
+        "引导目标",
+        "与星伽巫女联络"
+      ],
+      "volumes": [
+        "vol-06"
+      ]
+    },
+    {
+      "id": "hotogi-supernatural-handcuffs",
+      "type": "equipment / artifact",
+      "owner": "shirayuki",
+      "description": "白雪交给金次的纯银制对超能力者用手铐，上刻拉丁文咒语；最终用于拘束耗尽力量的贝茨姊妹。",
+      "features": [
+        "抑制超能力者",
+        "一对可同时拘束双胞胎"
+      ],
+      "volumes": [
+        "vol-31"
+      ]
+    },
+    {
+      "id": "hou-qinglong-yanyuedao",
+      "type": "weapon",
+      "owner": "hou",
+      "description": "猴携带的长柄武器，孙形态下配合中国武术高速使用。",
+      "features": [
+        "长柄斩击",
+        "可投掷",
+        "可由脚趾捡起操控"
+      ],
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "hover-skirt-armor",
+      "type": "equipment",
+      "owner": "aria",
+      "description": "亚莉亚在镜高组本家救援中穿着的飞行装备，可让她在空中停滞并进行双枪双剑攻击。",
+      "features": [
+        "飞行",
+        "滞空",
+        "可配合双枪双剑战术"
+      ],
+      "volumes": [
+        "vol-12"
+      ]
+    },
+    {
+      "id": "hover-skirt",
+      "type": "flight equipment / advanced gear",
+      "owner": "aria",
+      "description": "平贺文交付给亚莉亚的腰部七片可变翼小型火箭推进器，外观像白色机械护裙。本卷品川战中亚莉亚刚领货便直接使用，化身空中攻击平台压制金女。",
+      "features": [
+        "七片可变翼",
+        "火箭喷射与姿势控制",
+        "可在低空滞空与高速俯冲"
+      ],
+      "volumes": [
+        "vol-11"
+      ]
+    },
+    {
+      "id": "howard-bentley-arnage",
+      "type": "vehicle",
+      "owner": "howard",
+      "description": "霍华德王子乘坐的英国高级轿车，首次在白金汉宫外接送亚莉亚出场。",
+      "features": [
+        "王族用车",
+        "天蓝色"
+      ],
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "howard-royal-letter",
+      "type": "key-item",
+      "owner": "aria",
+      "description": "霍华德给亚莉亚的王家蜡印推荐函，指示IADO让亚莉亚以王子之名成为R级武侦。",
+      "features": [
+        "王家蜡印",
+        "IADO推荐"
+      ],
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "howard-webley-mkiv",
+      "type": "weapon",
+      "owner": "howard",
+      "description": "霍华德携带的装饰华丽左轮手枪；他不熟悉枪械安全，金次阻止其乱开保险。",
+      "features": [
+        "装饰华丽",
+        "王子不熟练"
+      ],
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "hummer",
+      "type": "vehicle",
+      "owner": "angus",
+      "description": "安格斯驾驶的黑色悍马，用于水色剧场事件后转送亚莉亚、蕾姬、白雪和理子等伤员至武侦医院。",
+      "features": [
+        "黑色涂装",
+        "大型越野车",
+        "乘坐空间充足"
+      ],
+      "volumes": [
+        "vol-10"
+      ]
+    },
+    {
+      "id": "hydra-core",
+      "type": "artifact / biological",
+      "owner": "无特定归属",
+      "description": "巨大海卓拉崩散后仅存的中心器官，白雪判断其负责接收阿斯库勒庇欧斯指示并中继控制全体。",
+      "features": [
+        "中继魔力指令",
+        "失去外层水体后会失去大部分力量",
+        "可被星伽封印"
+      ],
+      "volumes": [
+        "vol-29"
+      ]
+    },
+    {
+      "id": "i-u-submarine",
+      "type": "nuclear submarine",
+      "owner": "sherlock-holmes",
+      "description": "Sherlock's submarine appears in Mumbai Bay, positions itself to checkmate Nautilus, then signals non-hostility and later submerges offshore.",
+      "features": [],
+      "volumes": [
+        "vol-34"
+      ]
+    },
+    {
+      "id": "i-u",
+      "type": "organization-vehicle",
+      "owner": "i-u-nautilus",
+      "description": "",
+      "features": [],
+      "volumes": [
+        "vol-38"
+      ]
+    },
+    {
+      "id": "iblita-walther-p38",
+      "type": "weapon",
+      "owner": "iblita-ishtar",
+      "description": "伊碧丽塔在燕峰阁会谈破局时拔出指向蕾芬洁的德国制手枪，象征其不再承认蕾芬洁为同伴。",
+      "features": [
+        "半自动手枪",
+        "可能装填对魔女特殊弹药"
+      ],
+      "volumes": [
+        "vol-33"
+      ]
+    },
+    {
+      "id": "indian-spear",
+      "type": "weapon",
+      "owner": "monkey",
+      "description": "A long Indian spear chosen by Monkey from Carbuncle's weapon set for her duel, later bent by the Nine-Jeweled Vajra impact.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "infrared-see-through-glasses",
+      "type": "equipment",
+      "owner": "kinji",
+      "description": "GIII交给金次用于对付黑暗术和藏匿武器的红外线眼镜，附带透视衣物的危险功能。",
+      "features": [
+        "夜视",
+        "可见衣内武器",
+        "误触透视功能"
+      ],
+      "volumes": [
+        "vol-27"
+      ]
+    },
+    {
+      "id": "inui-m60",
+      "type": "weapon",
+      "owner": "inui-sakura",
+      "description": "乾樱从女警制服大腿枪套中取出的不锈钢银色左轮，用于说明枪械知识并参加射击审查。",
+      "features": [
+        "二英寸枪管",
+        "不锈钢银色",
+        "警察研修风格"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "inui-police-baton",
+      "type": "weapon",
+      "owner": "inui-sakura",
+      "description": "乾樱在CQC审查中用来代替短刀的警棍。",
+      "features": [
+        "警察装备",
+        "CQC替代短刀"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "inui-police-uniform",
+      "type": "equipment",
+      "owner": "inui-sakura",
+      "description": "乾樱因上午参加警察研修而穿着的女警制服，体现其架桥生身份。",
+      "features": [
+        "女警风格",
+        "大腿枪套",
+        "研修身份标识"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "io-claw-straps",
+      "type": "weapon / equipment",
+      "owner": "io",
+      "description": "伊欧用皮绳绑在双手指头上的十支利刃，配合贴地兽速格斗。",
+      "features": [
+        "利爪攻击",
+        "贴地格斗辅助"
+      ],
+      "volumes": [
+        "vol-25"
+      ]
+    },
+    {
+      "id": "io-mask",
+      "type": "equipment",
+      "owner": "io",
+      "description": "伊欧遮掩自己人类面孔的纵长木面具，反映其以父亲狮面为美、人脸为丑的价值观。",
+      "features": [
+        "遮脸",
+        "轻度防护"
+      ],
+      "volumes": [
+        "vol-25"
+      ]
+    },
+    {
+      "id": "iroka-ayame",
+      "type": "weapon",
+      "owner": "shirakawa",
+      "description": "星伽白雪使用的日本刀，传说没有斩不断的东西。与圣剑杜兰朵交锋也毫发无伤。配合星伽候天流火焰能力使用。",
+      "features": [],
+      "volumes": [
+        "vol-02",
+        "vol-07"
+      ]
+    },
+    {
+      "id": "irokane-ayame",
+      "type": "artifact / weapon",
+      "owner": "shirayuki",
+      "description": "星伽家相关、能够逼停绯绯色金功能的刀。本卷由金一在说明亚莉亚和佩特拉咒弹时提及。",
+      "features": [
+        "抑制绯绯色金功能",
+        "可作为咒弹镀层来源"
+      ],
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "irokane-coated-butterfly-knife",
+      "type": "artifact",
+      "owner": "ruru-gami",
+      "description": "金次携带的镀有琉琉色金的蝴蝶刀，是琉琉神显现和干涉绯绯神的媒介。磁浮战中为挡下雷射而融解散落。",
+      "features": [
+        "可作为琉琉神连接媒介",
+        "可执行矛盾之伞反制雷射"
+      ],
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "irokane-killer-shadow",
+      "type": "weapon / artifact",
+      "owner": "shirayuki",
+      "description": "白雪在本卷使用的佩刀，是可作为第二把色金杀女的影打。决战中配合火炎术斩断海卓拉。",
+      "features": [
+        "可承载星伽火炎术",
+        "适合斩击超自然目标"
+      ],
+      "volumes": [
+        "vol-29"
+      ]
+    },
+    {
+      "id": "irokane-koroshi",
+      "type": "weapon / artifact",
+      "owner": "shirayuki",
+      "description": "星伽巫女使用的刀，御神体岩洞中围绕绯绯色金原石插有许多类似色金杀女的刀，白雪在神乐中也使用一把。",
+      "features": [
+        "仪式用途",
+        "可配合巫女神乐"
+      ],
+      "volumes": [
+        "vol-20",
+        "vol-21"
+      ]
+    },
+    {
+      "id": "irokaneyame",
+      "type": "sword / supernatural artifact",
+      "owner": "shirayuki",
+      "description": "白雪佩刀，本卷在玉藻说明中被指出与绯绯色金、星伽职责和过去佩特拉夺取事件相关。卷末照片中拔出刀鞘的色金杀女与其他巴斯克维尔武器一起被G血族堆放。",
+      "features": [
+        "星伽巫女核心武装",
+        "与色金管理职责相关",
+        "可作为G血族袭击白雪的证据物"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "iron-geta",
+      "type": "equipment",
+      "owner": "daimonbou",
+      "description": "大门坊穿着的沉重铁屐，卷中进入妖刕家玄关时脱下。",
+      "features": [
+        "沉重",
+        "僧兵风格装备"
+      ],
+      "volumes": [
+        "vol-23"
+      ]
+    },
+    {
+      "id": "ishido-unjusai-shadow-sword",
+      "type": "weapon / artifact",
+      "owner": "kinji",
+      "description": "远山家保管的江户名刀匠石堂运寿斋影打，仿备前长船盛光制成，刀箱上有嘉永元年铭文。",
+      "features": [
+        "日本刀",
+        "二尺二寸左右",
+        "需交磨刀师保养"
+      ],
+      "volumes": [
+        "vol-35",
+        "vol-40"
+      ]
+    },
+    {
+      "id": "iu-reunion-invitation",
+      "type": "key-item",
+      "owner": "kinji",
+      "description": "夏洛克主办伊·U同学会的招待信，封口写有Reunion并带有伊·U封蜡。贞德在成田机场转交给金次。",
+      "features": [
+        "召集线索",
+        "夏洛克行动预告",
+        "伊·U后续剧情钩子"
+      ],
+      "volumes": [
+        "vol-23"
+      ]
+    },
+    {
+      "id": "iu-submarine",
+      "type": "vehicle",
+      "owner": "sherlock",
+      "description": "世界最大级核动力潜艇，原由海上自卫队保管，卷中被夏洛克再次盗走并驶入泰晤士河，随后把金次等带往鬼之国。",
+      "features": [
+        "核动力续航",
+        "舰内大型设施",
+        "可潜航跨海旅行"
+      ],
+      "volumes": [
+        "vol-20",
+        "vol-35",
+        "vol-40",
+        "vol-41"
+      ]
+    },
+    {
+      "id": "japanese-ballpoint-pens",
+      "type": "consumable/equipment",
+      "owner": "kinji",
+      "description": "梅梅特让金次携带的日本制圆珠笔，在埃及因能抵抗沙尘而极具交换价值。",
+      "features": [
+        "小额贿赂/交换",
+        "讨好司机"
+      ],
+      "volumes": [
+        "vol-40"
+      ]
+    },
+    {
+      "id": "jeanne-cat-ear-sound-collector",
+      "type": "equipment",
+      "owner": "jeanne",
+      "description": "平贺文制作、理子作为饯别礼交给贞德的猫耳型指向性集音器。外观是白色毛绒猫耳，实际可用于听音和追踪。",
+      "features": [
+        "指向性集音",
+        "伪装成可爱猫耳",
+        "配合化装舞会猫面具使用"
+      ],
+      "volumes": [
+        "vol-15"
+      ]
+    },
+    {
+      "id": "jeanne-durandal",
+      "type": "weapon",
+      "owner": "jeanne",
+      "description": "贞德·达鲁克使用的铭剑，本卷在巴黎公寓清晨剑舞训练中出现，象征骑士荣耀。",
+      "features": [
+        "剑术训练",
+        "配合冰魔法"
+      ],
+      "volumes": [
+        "vol-15",
+        "vol-17",
+        "vol-40"
+      ]
+    },
+    {
+      "id": "jinya-gold-zippo",
+      "type": "equipment",
+      "owner": "jin-ya",
+      "description": "刃夜前辈点烟使用的金色Zippo打火机。",
+      "features": [
+        "金色",
+        "夜场风格饰品"
+      ],
+      "volumes": [
+        "vol-44"
+      ]
+    },
+    {
+      "id": "jmsdf-haruna",
+      "type": "vehicle / weapon-platform",
+      "owner": "japan-maritime-self-defense-force",
+      "description": "海上自卫队朝雾型机动舰艇，被伊藤茉斩劫持并用作NDD发射平台。",
+      "features": [
+        "军舰级武装",
+        "搭载秘密NDD",
+        "舰桥和露天舰桥为决战地点"
+      ],
+      "volumes": [
+        "vol-23"
+      ]
+    },
+    {
+      "id": "jonathan-iv-booster",
+      "type": "equipment",
+      "owner": "kirin",
+      "description": "头上伸出天线的长颈鹿布偶，实为麒麟用于AA作战的无线讯号增幅器。",
+      "features": [
+        "无线讯号增幅",
+        "外形伪装为布偶"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "kage-luger-pistol",
+      "type": "weapon",
+      "owner": "kage-glasse",
+      "description": "卡羯·葛菈塞藏在黑长袍下的金色鲁格手枪，会议后与梅雅交战时使用，但子弹无法命中梅雅。",
+      "features": [
+        "命中精度优良",
+        "金色外观"
+      ],
+      "volumes": [
+        "vol-08",
+        "vol-15",
+        "vol-16"
+      ]
+    },
+    {
+      "id": "kage-ornate-dagger",
+      "type": "weapon",
+      "owner": "kage-glasse",
+      "description": "卡羯用于挡住梅雅大剑的短剑，带有橡叶雕刻和钻石点缀，类似古代西洋军人武器。",
+      "features": [
+        "短剑格挡",
+        "装饰性强"
+      ],
+      "volumes": [
+        "vol-08",
+        "vol-15"
+      ]
+    },
+    {
+      "id": "kagehikari",
+      "type": "weapon-sword",
+      "owner": "kinji",
+      "description": "",
+      "features": [],
+      "volumes": [
+        "vol-38"
+      ]
+    },
+    {
+      "id": "kaja-m24-grenade",
+      "type": "weapon",
+      "owner": "kaja-glace",
+      "description": "卡羯在雪地追击中携带的德国式柄式手榴弹，因与金次接触失控掉落，爆炸冲击导致卡羯滚成雪球脱队。",
+      "features": [
+        "爆炸武器",
+        "德军风格"
+      ],
+      "volumes": [
+        "vol-33"
+      ]
+    },
+    {
+      "id": "kakugane-final",
+      "type": "artifact",
+      "owner": "bami",
+      "description": "本应重新封印亚莉亚绯弹心结的最后壳金，藏在霸美鬼袋中。金次成功取出后，猴确认其功能已被绯绯神破坏。",
+      "features": [
+        "原本可遮断绯绯神心结影响",
+        "现已与普通红宝石无异"
+      ],
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "kalaripayattu-bow",
+      "type": "weapon",
+      "owner": "lucifelia-moriarty-iv",
+      "description": "A bow from Carbuncle's weapon set that Lucifelia uses against remote explosive vehicles during the shrine defense.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "kamui-m93r",
+      "type": "weapon",
+      "owner": "kamui",
+      "description": "可鹉韦在废弃道场中使用的手枪，以单发模式射击自制瓦斯罐炸弹作为即席手榴弹起爆器。",
+      "features": [
+        "可配合现场物品制造即席爆炸",
+        "用于牵制而非单纯射杀"
+      ],
+      "volumes": [
+        "vol-22",
+        "vol-23"
+      ]
+    },
+    {
+      "id": "kamui-pda",
+      "type": "equipment",
+      "owner": "kamui-ito",
+      "description": "可鹉韦用于写作和保存小说情节构想的掌上型电脑。本卷金次复制其micro SD中的构想并擅自改稿。",
+      "features": [
+        "文字编辑",
+        "小说创作",
+        "保存草稿"
+      ],
+      "volumes": [
+        "vol-23"
+      ]
+    },
+    {
+      "id": "kana-colt-saa",
+      "type": "weapon",
+      "owner": "kana",
+      "description": "加奈在乃木神社使用的左轮手枪，装填法化银弹后可干扰绯绯神空中踏板。",
+      "features": [
+        "左轮手枪",
+        "法化银弹有效"
+      ],
+      "volumes": [
+        "vol-18"
+      ]
+    },
+    {
+      "id": "kana-scorpion-tail",
+      "type": "weapon",
+      "owner": "kana",
+      "description": "加奈认真战斗时使用的组合式大镰刀，可形成半径一百七十七点七公分的球形杀伤圈。",
+      "features": [
+        "攻防一体",
+        "刀背可打击下颚造成脑震荡"
+      ],
+      "volumes": [
+        "vol-18"
+      ]
+    },
+    {
+      "id": "kaname-dolls",
+      "type": "handmade-gift",
+      "owner": "tooyama-kaname",
+      "description": "金女用受伤的手制作的金次与金女布偶，两个布偶的手以红线密密缝在一起，象征她认定的情侣/兄妹羁绊。",
+      "features": [
+        "手工缝制",
+        "红线连接",
+        "LOVE纸袋包装",
+        "带血迹"
+      ],
+      "volumes": [
+        "vol-10",
+        "vol-11"
+      ]
+    },
+    {
+      "id": "kaname-magnetic-fiber-shield",
+      "type": "technology / equipment",
+      "owner": "kaname",
+      "description": "金女操控的妖怪一反木棉般的高科技纤维装备，可在浴室门外充当坚固门闩。",
+      "features": [
+        "自动移动",
+        "封锁空间",
+        "保护或限制目标"
+      ],
+      "volumes": [
+        "vol-22"
+      ]
+    },
+    {
+      "id": "kane-scythe-scorpion",
+      "type": "weapon",
+      "owner": "kane",
+      "description": "加奈手持的死神大镰刀。本卷在宣战会议中随加奈出现，并在混战中同时挡住梅雅与卡羯的武器。",
+      "features": [
+        "长柄武器",
+        "可同时架住多件武器"
+      ],
+      "volumes": [
+        "vol-08"
+      ]
+    },
+    {
+      "id": "katori-truck-workbench",
+      "type": "vehicle / equipment",
+      "owner": "katori-kazumi",
+      "description": "鹿取卡车后方可像鸥翼车门打开的货架，被运输GA用作高机密装备维修场所。",
+      "features": [
+        "可隐藏维修品",
+        "移动维修平台",
+        "适合放置YHS/03、奥尔库斯和加布林"
+      ],
+      "volumes": [
+        "vol-35"
+      ]
+    },
+    {
+      "id": "kayuki-naginata",
+      "type": "weapon",
+      "owner": "kayuki",
+      "description": "华雪在星伽神社入口守门时持有的薙刀，用于中距离迎击入侵者。",
+      "features": [
+        "长柄武器",
+        "巫女守门装备"
+      ],
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "kazayuki-bow",
+      "type": "weapon",
+      "owner": "kazayuki",
+      "description": "风雪在星伽神社鸟居深处守卫时持有的和弓，负责长距离警戒。",
+      "features": [
+        "弓术",
+        "巫女守门装备"
+      ],
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "kettenkrad-icebell",
+      "type": "vehicle",
+      "owner": "lefenge",
+      "description": "蕾芬洁曾在雪山使用的冰雪用半履带车辆，本卷在哈巴谷号内部被发现金属冰冷、停放不用，作为舰内移动工具。",
+      "features": [
+        "后部履带",
+        "前部滑雪板",
+        "冰雪地形移动"
+      ],
+      "volumes": [
+        "vol-34"
+      ]
+    },
+    {
+      "id": "kettenkrad",
+      "type": "vehicle",
+      "owner": "kage-glasse / witch-corps",
+      "description": "卡羯从罗浮宫地下停车场骑乘的小型半履带车辆，前轮像机车、后部为双轨履带，侧面印魔女连队徽章。",
+      "features": [
+        "半履带结构",
+        "崎岖路适应",
+        "魔女连队徽章"
+      ],
+      "volumes": [
+        "vol-15"
+      ]
+    },
+    {
+      "id": "kincha-motorola-razr",
+      "type": "equipment",
+      "owner": "tooyama-kincha",
+      "description": "金叉随身携带的手机，尼加拉暗杀任务中接到疑似欧巴马总统命令后中止暗杀。",
+      "features": [
+        "接收任务中止命令"
+      ],
+      "volumes": [
+        "vol-32"
+      ]
+    },
+    {
+      "id": "kinichi-colt-saa",
+      "type": "weapon",
+      "owner": "kinichi",
+      "description": "远山金一持有的柯尔特SAA左轮手枪。本卷金次提及加奈后金一暴怒拔枪追打。",
+      "features": [
+        "左轮手枪",
+        "远山金一惯用武器"
+      ],
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "kinji-agate-fragment",
+      "type": "artifact / key-item",
+      "owner": "kinji",
+      "description": "金次在岛上发现并随身携带的青玛瑙碎片，在尼莫求婚时被他交给尼莫作为伴手礼与拒绝绝望定居的象征。",
+      "features": [
+        "蓝色矿石",
+        "莫氏硬度高",
+        "象征性礼物"
+      ],
+      "volumes": [
+        "vol-28"
+      ]
+    },
+    {
+      "id": "kinji-airbag-bullet",
+      "type": "special ammunition",
+      "owner": "kinji",
+      "description": "命中地面瞬间展开气囊的武侦弹。金次在空中接住乙叶后，用它缓冲两人从三十公尺高空坠落。",
+      "features": [],
+      "volumes": [
+        "vol-30",
+        "vol-34"
+      ]
+    },
+    {
+      "id": "kinji-airbag-round",
+      "type": "equipment",
+      "owner": "kinji",
+      "description": "金次携带的特殊弹药，可在命中或设定后展开成高强度橡胶气囊，用于落水或坠落缓冲。",
+      "features": [
+        "缓冲冲击",
+        "可充当浮球"
+      ],
+      "volumes": [
+        "vol-32"
+      ]
+    },
+    {
+      "id": "kinji-arrest-warrant",
+      "type": "key-item",
+      "owner": "shidou",
+      "description": "狮堂在学园岛出示的逮捕令，用于以杀人嫌疑正式逮捕远山金次。",
+      "features": [
+        "司法强制力",
+        "触发卷末悬念"
+      ],
+      "volumes": [
+        "vol-21"
+      ]
+    },
+    {
+      "id": "kinji-beretta-kinji-model",
+      "type": "weapon",
+      "owner": "kinji",
+      "description": "平贺改造的金次主力手枪，在本卷先被贝瑞塔拆解与没收，后在罗密欧决斗前归还并用于背面弹子戏法。",
+      "features": [
+        "高精度射击",
+        "连射改造",
+        "HSS状态下可用于子弹互撞"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "kinji-beretta-m92f",
+      "type": "firearm",
+      "owner": "kinji",
+      "description": "Kinji's standard handgun, carried through the India operation and used against drones/remote bombs despite Carbuncle's intangibility limiting firearm value.",
+      "features": [],
+      "volumes": [
+        "vol-01",
+        "vol-06",
+        "vol-13",
+        "vol-18",
+        "vol-19",
+        "vol-20",
+        "vol-21",
+        "vol-22",
+        "vol-23",
+        "vol-28",
+        "vol-30",
+        "vol-31",
+        "vol-32",
+        "vol-33",
+        "vol-34",
+        "vol-35",
+        "vol-40",
+        "vol-41",
+        "vol-42",
+        "vol-45"
+      ]
+    },
+    {
+      "id": "kinji-beretta-m92fs",
+      "type": "weapon",
+      "owner": "kinji",
+      "description": "金次使用的贝瑞塔M92FS系改造手枪，在本卷与八岐大蛇系统联动。",
+      "features": [
+        "弹指连射",
+        "与八岐大蛇供弹系统兼容",
+        "用于弧弹"
+      ],
+      "volumes": [
+        "vol-25",
+        "vol-27",
+        "vol-29"
+      ]
+    },
+    {
+      "id": "kinji-beretta",
+      "type": "weapon",
+      "owner": "kinji",
+      "description": "金次常用手枪，本卷在空战、救援与照明弹/气囊弹发射中使用。",
+      "features": [
+        "可发射特殊弹",
+        "滑轨夹克配合收纳"
+      ],
+      "volumes": [
+        "vol-36",
+        "vol-38"
+      ]
+    },
+    {
+      "id": "kinji-birthday-card",
+      "type": "key-item",
+      "owner": "kinji",
+      "description": "美羽用PPT制作并让金次自行裁切的牛郎名片，写有煌仁～KinJi～与自我PR诗句。",
+      "features": [
+        "三张每张16枚",
+        "纸张费150日元从工资扣除",
+        "源氏名煌仁"
+      ],
+      "volumes": [
+        "vol-44"
+      ]
+    },
+    {
+      "id": "kinji-bmw-k1200r",
+      "type": "vehicle",
+      "owner": "kinji",
+      "description": "远山金次与蕾姬同乘经过新校舍救援后现场的重型机车，巨大引擎声遮住高千穗部分发言。",
+      "features": [
+        "大排气量",
+        "高噪音",
+        "追逐用途"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "kinji-bulletproof-shirt",
+      "type": "equipment",
+      "owner": "kinji",
+      "description": "金次在AEON购物城UNIQLO购买的新式薄型防弹衬衫，用作罗马留学前装备补充。",
+      "features": [
+        "轻薄可日常穿着",
+        "可多层叠穿",
+        "对9mm防护有限"
+      ],
+      "volumes": [
+        "vol-23",
+        "vol-44"
+      ]
+    },
+    {
+      "id": "kinji-bulletproof-uniform",
+      "type": "equipment",
+      "owner": "kinji",
+      "description": "金次日常防弹制服。面试时想穿它上班但被美羽要求换高级西装。",
+      "features": [
+        "能阻挡高速子弹但传导低速拳击冲击"
+      ],
+      "volumes": [
+        "vol-44"
+      ]
+    },
+    {
+      "id": "kinji-butei-handbook",
+      "type": "key-item / equipment",
+      "owner": "kinji",
+      "description": "金次因放在大哥家而没有掉到海中的武侦手册，卷末由金一归还。",
+      "features": [
+        "武侦身份证明",
+        "交通与任务相关凭证"
+      ],
+      "volumes": [
+        "vol-28"
+      ]
+    },
+    {
+      "id": "kinji-butei-notebook",
+      "type": "license/notebook",
+      "owner": "kinji",
+      "description": "Kinji shows his Butei notebook in Zandra to explain his legal firearm. Later Raru writes the warning to the drone camera on it.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "kinji-butei-rounds",
+      "type": "weapon / equipment",
+      "owner": "kinji",
+      "description": "金次书包内保存的特殊弹药盒，可用于求救信号和战斗遮蔽。",
+      "features": [
+        "特殊用途弹药",
+        "求救信号",
+        "烟幕遮蔽"
+      ],
+      "volumes": [
+        "vol-28"
+      ]
+    },
+    {
+      "id": "kinji-butei-smoke-bullet",
+      "type": "equipment",
+      "owner": "kinji",
+      "description": "金次藏在耳中的武侦弹，遭九九藻和洛嘉撞见误会时引爆烟幕逃走。",
+      "features": [
+        "烟幕掩护撤退"
+      ],
+      "volumes": [
+        "vol-44"
+      ]
+    },
+    {
+      "id": "kinji-debt-contract",
+      "type": "key-item / document",
+      "owner": "beretta",
+      "description": "金次向贝瑞塔公司借贷奖学金的契约文件，本卷债权因贝瑞塔代偿转为金次欠贝瑞塔个人。",
+      "features": [
+        "债务证明",
+        "维系金次与贝瑞塔再会约定"
+      ],
+      "volumes": [
+        "vol-25"
+      ]
+    },
+    {
+      "id": "kinji-desert-eagle",
+      "type": "firearm",
+      "owner": "kinji",
+      "description": "Kinji's large-caliber handgun, drawn with the Beretta when trying to protect Meluette from Carbuncle in Zandra.",
+      "features": [],
+      "volumes": [
+        "vol-06",
+        "vol-13",
+        "vol-15",
+        "vol-17",
+        "vol-20",
+        "vol-23",
+        "vol-24",
+        "vol-27",
+        "vol-29",
+        "vol-31",
+        "vol-32",
+        "vol-33",
+        "vol-34",
+        "vol-36",
+        "vol-38",
+        "vol-40",
+        "vol-41"
+      ]
+    },
+    {
+      "id": "kinji-dolce-gabbana-suit",
+      "type": "equipment",
+      "owner": "kinji",
+      "description": "美羽借给金次的高级黑西装，作为牛郎外观装备。枪击中开了三个弹孔，离职时被当作离职金送给金次。",
+      "features": [
+        "高级合身",
+        "非防弹纤维",
+        "有三个弹孔"
+      ],
+      "volumes": [
+        "vol-44"
+      ]
+    },
+    {
+      "id": "kinji-exam-bag",
+      "type": "equipment",
+      "owner": "kinji",
+      "description": "金次带去中心考试的书包，装有文具、准考证和太田胃散。",
+      "features": [
+        "文具",
+        "准考证",
+        "太田胃散"
+      ],
+      "volumes": [
+        "vol-44"
+      ]
+    },
+    {
+      "id": "kinji-fiber-bullet",
+      "type": "special ammunition",
+      "owner": "kinji",
+      "description": "击发后形成可牵引的蓝光纤维绳索。金次用它钩住乙叶的超轻型飞机，自己悬吊在空中追击。",
+      "features": [],
+      "volumes": [
+        "vol-30",
+        "vol-33"
+      ]
+    },
+    {
+      "id": "kinji-glitter-stick",
+      "type": "key-item",
+      "owner": "kinji",
+      "description": "金次在台场购买的小试管状装饰品，内装彩色玻璃、星砂和沙金，用作引开理子注意力的计划道具。",
+      "features": [
+        "会闪光",
+        "针对理子喜欢亮晶晶物品的弱点"
+      ],
+      "volumes": [
+        "vol-21"
+      ]
+    },
+    {
+      "id": "kinji-kagemitsu",
+      "type": "weapon",
+      "owner": "kinji",
+      "description": "Kinji's blade used against Angelica and to cut Gedronika's tail when combined with Yamato.",
+      "features": [
+        "sword",
+        "used with Tooyama techniques"
+      ],
+      "volumes": [
+        "vol-41"
+      ]
+    },
+    {
+      "id": "kinji-kouei",
+      "type": "weapon",
+      "owner": "kinji",
+      "description": "金次使用的刀。本卷作为镜面反射雷米艾莉雅的断罪的圣熄光。",
+      "features": [
+        "刃长超过70厘米",
+        "刀面可作为反光面"
+      ],
+      "volumes": [
+        "vol-44"
+      ]
+    },
+    {
+      "id": "kinji-maniago-knife",
+      "type": "weapon / equipment",
+      "owner": "kinji",
+      "description": "金次在无人岛上用于切藤蔓、竹子、处理食物和自卫的短刀。",
+      "features": [
+        "小型刀具",
+        "求生工具"
+      ],
+      "volumes": [
+        "vol-28",
+        "vol-30",
+        "vol-33",
+        "vol-34",
+        "vol-35"
+      ]
+    },
+    {
+      "id": "kinji-parachute-bullet",
+      "type": "equipment / ammunition",
+      "owner": "kinji",
+      "description": "平贺文寄给金次的纤维弹发展型，弹子可展开极薄小型降落伞。金次在雪檐崩落时以此减速救下自己和雪花。",
+      "features": [
+        "微型降落伞",
+        "减速坠落",
+        "可由手枪发射"
+      ],
+      "volumes": [
+        "vol-33"
+      ]
+    },
+    {
+      "id": "kinji-phone",
+      "type": "equipment",
+      "owner": "kinji",
+      "description": "金次在香港使用的手机，可GPS定位、国际通信和接收邮件；在湾仔被扒走后由亚莉亚在黑市凭来电铃声找回。",
+      "features": [
+        "海外导航",
+        "队内联络",
+        "失而复得"
+      ],
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "kinji-prepaid-phone",
+      "type": "equipment",
+      "owner": "kinji",
+      "description": "金次在科尔索大道WIND店购买的廉价预付手机，用于恢复通讯。",
+      "features": [
+        "通话",
+        "简讯",
+        "低画素照相"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "kinji-reference-books",
+      "type": "equipment / key-item",
+      "owner": "kinji",
+      "description": "金次在无人岛夜晚持续阅读的参考书，是他保持回日本意志和准备高认的象征。",
+      "features": [
+        "学习工具",
+        "精神支柱"
+      ],
+      "volumes": [
+        "vol-28"
+      ]
+    },
+    {
+      "id": "kinji-rose-quartz-seal",
+      "type": "key-item",
+      "owner": "riko",
+      "description": "金次在台场印章店新刻的玫瑰晶印鉴，刻有远山二字，本应作为身分印鉴兼银行印章，却被误当生日礼物交给理子。",
+      "features": [
+        "据称有结缘与异性霉运驱除效果",
+        "爱心形突起"
+      ],
+      "volumes": [
+        "vol-21"
+      ]
+    },
+    {
+      "id": "kinji-schoolbag",
+      "type": "equipment / key-item",
+      "owner": "kinji",
+      "description": "从鱼鹰残骸漂流到岛上的书包，内含武侦弹、参考书、笔记本、铅笔盒和金天防弹水手服。",
+      "features": [
+        "携带重要物资",
+        "岛上生活的物资来源"
+      ],
+      "volumes": [
+        "vol-28"
+      ]
+    },
+    {
+      "id": "kinji-second-button",
+      "type": "key-item",
+      "owner": "mochizuki-moe",
+      "description": "望月萌在车站道别时向金次索要的制服第二颗钮扣，被她当作珍贵宝物抱在胸前。",
+      "features": [
+        "防弹制服钮扣",
+        "普通世界羁绊象征"
+      ],
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "kinji-shikigane-tome",
+      "type": "artifact / weapon",
+      "owner": "kinji",
+      "description": "星伽神社交给远山家的匕首重铸成蝴蝶刀，可与绯绯色金共振并削弱色金力量。",
+      "features": [
+        "可干扰小质量色金",
+        "有使用次数限制",
+        "耗尽后变为普通短刀"
+      ],
+      "volumes": [
+        "vol-18"
+      ]
+    },
+    {
+      "id": "kinji-slide-rail-jacket",
+      "type": "equipment",
+      "owner": "kinji",
+      "description": "安格斯装甲与贝瑞塔内部机关组成的防弹/供弹夹克，可通过袖中轨道为双枪持续供弹。",
+      "features": [
+        "背部护具弹匣",
+        "袖内弹链供弹",
+        "平贺文在本卷修复并补弹"
+      ],
+      "volumes": [
+        "vol-31"
+      ]
+    },
+    {
+      "id": "kinji-study-cards",
+      "type": "equipment / study-tool",
+      "owner": "kinji",
+      "description": "金次为大学入学考试准备的记忆卡片，写有社会、理科等考试知识。",
+      "features": [
+        "正反面题答",
+        "金属环装订",
+        "便于备考携带"
+      ],
+      "volumes": [
+        "vol-35"
+      ]
+    },
+    {
+      "id": "kinji-superpower-handcuffs",
+      "type": "equipment",
+      "owner": "kinji",
+      "description": "金次为逮捕对象携带的特殊手铐，连喷火枪也需较长时间才能切断。",
+      "features": [
+        "高强度链条",
+        "适合拘束超能力者"
+      ],
+      "volumes": [
+        "vol-35",
+        "vol-40"
+      ]
+    },
+    {
+      "id": "kinji-zero-catamaran",
+      "type": "vehicle",
+      "owner": "kinji",
+      "description": "金次与尼莫从零式小型水侦双浮筒改造出的钢铁双体划艇，配橡皮动力螺旋桨，用于逃离孤岛。",
+      "features": [
+        "钢铁浮筒",
+        "气密舱储水",
+        "橡皮动力螺旋桨",
+        "抗浪性强"
+      ],
+      "volumes": [
+        "vol-28"
+      ]
+    },
+    {
+      "id": "kinjo-exam-riceballs",
+      "type": "consumable",
+      "owner": "kinjo",
+      "description": "金女和金天为金次做的饭团，取捏饭团等于抓住合格的彩头。",
+      "features": [
+        "合格祈愿讨彩头",
+        "早餐"
+      ],
+      "volumes": [
+        "vol-44"
+      ]
+    },
+    {
+      "id": "kinkin-bulletproof-sailor-uniform",
+      "type": "equipment / armor",
+      "owner": "kinkin",
+      "description": "原本给金天穿的防弹水手服，金次在岛上借给尼莫洗衣和日常穿着，离别后尼莫洗净寄回。",
+      "features": [
+        "防弹布料",
+        "少女水手服",
+        "成为金次与尼莫关系象征"
+      ],
+      "volumes": [
+        "vol-28"
+      ]
+    },
+    {
+      "id": "kinme-magnetic-propulsion-fiber-shield",
+      "type": "weapon / equipment",
+      "owner": "kinme",
+      "description": "金女操纵的多形态科学装备，可由裙下伸出并变为盾、剑、鞭和飞行片。",
+      "features": [
+        "防御机枪",
+        "切割车体",
+        "阻塞炮口"
+      ],
+      "volumes": [
+        "vol-18"
+      ]
+    },
+    {
+      "id": "kinshi-egg-noodles",
+      "type": "consumable / key-item",
+      "owner": "kou-sun-wukong",
+      "description": "眧眧命令猴到北角指定店铺购买的球形干面。猴逃跑时被野狗咬坏，金次后来重新买给她，促使猴做出请求金次阻止孙的觉悟。",
+      "features": [
+        "跑腿任务物品",
+        "触发猴哭泣与谈和"
+      ],
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "kinshokukane-particle-ring-item",
+      "type": "artifact",
+      "owner": "kinshokukane",
+      "description": "金色金将自身一部分化成的极稀薄金色粒子环，沿地球卫星轨道旋转并等待坠落地球的女儿们。",
+      "features": [
+        "可与绯绯色金重逢并包覆其周围",
+        "曾向金字塔型接收器分出力量"
+      ],
+      "volumes": [
+        "vol-21"
+      ]
+    },
+    {
+      "id": "kintan-dowsing-rods",
+      "type": "equipment",
+      "owner": "kintan",
+      "description": "金天在奥尔库斯舱门口挥动的定位辅助器具，与她的血缘定位能力共同用于寻找金次等人。",
+      "features": [
+        "定位辅助",
+        "手持双杆"
+      ],
+      "volumes": [
+        "vol-34"
+      ]
+    },
+    {
+      "id": "kintan-pfiber",
+      "type": "technology/equipment",
+      "owner": "kintan",
+      "description": "金女的磁推进盾，可飞行、防御、作为踏板，受电力限制。",
+      "features": [
+        "飞行盾",
+        "防御",
+        "移动辅助"
+      ],
+      "volumes": [
+        "vol-40"
+      ]
+    },
+    {
+      "id": "kintan-science-swords",
+      "type": "technology/weapon",
+      "owner": "kintan",
+      "description": "金女装备的多种科学剑，可发射光弹、飞行或辅助移动。",
+      "features": [
+        "光弹射击",
+        "飞行",
+        "共享电力"
+      ],
+      "volumes": [
+        "vol-40"
+      ]
+    },
+    {
+      "id": "kintan-stolen-uniform",
+      "type": "equipment",
+      "owner": "kintan",
+      "description": "金女在开罗机场红色纸袋中携带的冬季水手服，被乔装罩袍女的莎拉调包盗走。",
+      "features": [
+        "制服伪装",
+        "残留金女气味造成误判"
+      ],
+      "volumes": [
+        "vol-40"
+      ]
+    },
+    {
+      "id": "kintan-trana",
+      "type": "technology/equipment",
+      "owner": "kintan",
+      "description": "金女使用的环绕式墨镜状HMD，可用视线/脑波操作并连接电脑、搜索网络。",
+      "features": [
+        "IP定位",
+        "地图与天气调查",
+        "AI查询"
+      ],
+      "volumes": [
+        "vol-40"
+      ]
+    },
+    {
+      "id": "kinten-counter-irokane",
+      "type": "artifact / technology / key-item",
+      "owner": "kinten",
+      "description": "埋入金天胸口的白色人工色金，是COUNTER-I计划的核心。",
+      "features": [
+        "人造色金",
+        "可连接神明心灵",
+        "卷末被佩特拉之钥停止机能"
+      ],
+      "volumes": [
+        "vol-27"
+      ]
+    },
+    {
+      "id": "kinten-leopon",
+      "type": "equipment / personal-item",
+      "owner": "kinten",
+      "description": "金次与金天在电玩中心抓到的大型Leopon布偶，成为金天短暂普通生活的象征。",
+      "features": [
+        "大型布偶",
+        "放在金次床上"
+      ],
+      "volumes": [
+        "vol-27"
+      ]
+    },
+    {
+      "id": "kinten-randoseru",
+      "type": "equipment",
+      "owner": "kinten",
+      "description": "金天为在日本街头不受怀疑而自备的红色小学书包，后来配合附小入学使用。",
+      "features": [
+        "象征普通小学生身份",
+        "曾被放在金次房间中"
+      ],
+      "volumes": [
+        "vol-27"
+      ]
+    },
+    {
+      "id": "kinten-single-molecule-cutter",
+      "type": "weapon / equipment",
+      "owner": "kinten",
+      "description": "金天携带的美工刀型尖端科学兵器，刀刃发出类似金女单分子震动刀的高频声。",
+      "features": [
+        "滑扣推出刀刃",
+        "高频震动切割"
+      ],
+      "volumes": [
+        "vol-27"
+      ]
+    },
+    {
+      "id": "kirameki-brand-wardrobe",
+      "type": "equipment",
+      "owner": "kira-miu",
+      "description": "煌办公室衣橱中的阿玛尼西装、菲拉格慕鞋、宝格丽手表、卡地亚打火机等名牌装备，用于塑造牛郎外表。",
+      "features": [
+        "约二十套西装",
+        "可租给牛郎",
+        "外观即服务"
+      ],
+      "volumes": [
+        "vol-44"
+      ]
+    },
+    {
+      "id": "kirameki-host-club-card",
+      "type": "document",
+      "owner": "",
+      "description": "牛郎俱乐部煌的名片。烫金材质，印有牛郎姓名和谜之副标题。响的名片正面印着：『天使响 ～HibiKi AmeZi～ 想知道，我的事情。更多。』，副标题和倒装句设计。背面有推特二维码。",
+      "features": [],
+      "volumes": [
+        "vol-43"
+      ]
+    },
+    {
+      "id": "kirin-hummer-h1",
+      "type": "vehicle",
+      "owner": "kirin",
+      "description": "向车辆科借来的悍马H1，麒麟将其作为AA作战通讯基地、救援车辆和伤员转运点。",
+      "features": [
+        "移动通讯基地",
+        "地图终端",
+        "无线设备载台",
+        "救援运输"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "kirin-jonathan",
+      "type": "",
+      "owner": "",
+      "description": "",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "kirin-recorder",
+      "type": "equipment",
+      "owner": "kirin",
+      "description": "麒麟用于录下莱卡自觉宣言的小型录音笔，后试图播放给明里与志乃听。",
+      "features": [
+        "录音",
+        "证据保存"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "kodama-miniature-glaive",
+      "type": "weapon",
+      "owner": "mamiya-kodama",
+      "description": "间宫儿玉使用的便携式小型偃月刀，握柄较长便于使用。藏于浴巾下用于对莱卡进行近身威胁。",
+      "features": [],
+      "volumes": [
+        "vol-04"
+      ]
+    },
+    {
+      "id": "kogei-shadow-sword",
+      "type": "weapon - katana",
+      "owner": "kinji",
+      "description": "仿备前长船影，丁用剩余玉钢研磨修复的名刀。完成度超越国宝长船长光，被雪花鉴定为足以承受远山返对战的神兵。刀身如星空般深邃，刃纹为片落互目，刀尖微翘。丁自称\"已经比真打更为出色\"。",
+      "features": [
+        "刃搦牢乎可锯断普通刀剑",
+        "在迷家中与不破的人间无骨交锋未损",
+        "初期故障保固三个月"
+      ],
+      "volumes": [
+        "vol-39"
+      ]
+    },
+    {
+      "id": "konayuki-short-blade",
+      "type": "weapon",
+      "owner": "konayuki",
+      "description": "粉雪在星伽神社鸟居前守门时持有的出鞘短刀。",
+      "features": [
+        "短距离迎击",
+        "巫女守门装备"
+      ],
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "kotani-switchblade",
+      "type": "weapon",
+      "owner": "kotani",
+      "description": "小谷藏在右手口袋中玩弄的伸缩刀，体现其不良少女威吓手段。",
+      "features": [
+        "伸缩刀刃",
+        "口袋携带"
+      ],
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "kouei",
+      "type": "weapon",
+      "owner": "kinji",
+      "description": "金次从祖父与母亲处得到的刀，为避免暴露家世改名光影。",
+      "features": [
+        "日本刀",
+        "适于实战与环境利用"
+      ],
+      "volumes": [
+        "vol-36"
+      ]
+    },
+    {
+      "id": "kushinada-armored-car",
+      "type": "vehicle/armored-car",
+      "owner": "shinga-shrine",
+      "description": "星伽用于战况恶化时撤退的坚固四门防弹车，负责载送重伤蕾姬和金次前往京都分社。",
+      "features": [
+        "防弹车体",
+        "撤退支援",
+        "可载伤员"
+      ],
+      "volumes": [
+        "vol-07"
+      ]
+    },
+    {
+      "id": "kyochikutou-m134-suitcase",
+      "type": "weapon",
+      "owner": "kyochikutou",
+      "description": "由订制LV大型行李箱自动展开的六管机关炮，带平衡喷射器抵消后坐力，使用弱化7.62mm子弹。",
+      "features": [
+        "自动组装",
+        "六管旋转",
+        "平衡喷射器",
+        "弱化子弹",
+        "高火力"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "kyochikutou-pipe",
+      "type": "equipment",
+      "owner": "kyochikutou",
+      "description": "夹竹桃在彩虹大桥中央坐在行李箱上眺望海面时使用的雕金装饰烟管，体现其悠闲挑衅态度。",
+      "features": [
+        "雕金装饰",
+        "吐白烟"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "kyochikutou-toxic-plants",
+      "type": "equipment",
+      "owner": "kyochikutou",
+      "description": "夹竹桃在LAST DANCE饭店403号房栽培的大量有毒植物，房间宛如植物园。",
+      "features": [
+        "毒草栽培",
+        "白花发饰来源",
+        "犯罪证据"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "l16-mortar",
+      "type": "mortar",
+      "owner": "chhat-security-police",
+      "description": "Security police use 81mm mortar fire guided by drone. It injures Carbuncle because they mistake her adult form for an attacker.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "lamborghini-murcielago",
+      "type": "vehicle",
+      "owner": "无特定归属",
+      "description": "停在镜高组庭院停车场的象牙色敞篷车，金次用武侦手册撞匙发动后载着受伤GⅢ与玉藻逃离。",
+      "features": [
+        "高速撤离",
+        "敞篷便于装载伤员"
+      ],
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "lanancia-thesis-abduction-car",
+      "type": "vehicle",
+      "owner": "nautilus",
+      "description": "伪装成梅雅者用于接走贝瑞塔的黑色兰吉雅Thesis加长轿车。",
+      "features": [
+        "伪装绑架用",
+        "城市逃逸"
+      ],
+      "volumes": [
+        "vol-25"
+      ]
+    },
+    {
+      "id": "last-hidan-shell-casing",
+      "type": "artifact / key-item",
+      "owner": "habi",
+      "description": "夏洛克射入亚莉亚体内绯弹的保护外壳之一，也是亚莉亚避免被绯绯神取代的重要屏障。最后一枚仍在霸美腹中鬼袋内。",
+      "features": [
+        "保护亚莉亚人格不被绯绯色金取代",
+        "可被鬼袋保管"
+      ],
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "last-returned-shell-casing",
+      "type": "artifact / key-item",
+      "owner": "kinji",
+      "description": "卡羯保管并在阿姆斯特丹阳台归还金次的一枚亚莉亚壳金。此前被眷属夺走，卡羯竟随意藏在眼罩中。",
+      "features": [
+        "保护亚莉亚人格",
+        "体积小，可被眼罩收纳"
+      ],
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "leopon-charm",
+      "type": "key-item",
+      "owner": "kinji & aria（各一个）",
+      "description": "金次玩夹娃娃机抓到的谜样猫科动物'Leopon'手机吊饰。金次和亚莉亚各有一个，经常从口袋露出来，被白雪发现后误以为是情侣吊饰从而引发嫉妒。",
+      "features": [],
+      "volumes": [
+        "vol-02",
+        "vol-03"
+      ]
+    },
+    {
+      "id": "leopon-strap",
+      "type": "key-item",
+      "owner": "金次和亚莉亚各一",
+      "description": "金次和亚莉亚在电玩中心的夹娃娃机中得到的猫科动物玩偶，标签写着Leopon（公豹和母狮交配产物）。金次夹一个带起两个，两人各得一个当手机吊饰。象征两人关系的转折点。",
+      "features": [
+        "手机吊饰",
+        "成对",
+        "象征物"
+      ],
+      "volumes": [
+        "vol-01"
+      ]
+    },
+    {
+      "id": "lerteti-twin-blades",
+      "type": "weapon",
+      "owner": "lerteti",
+      "description": "列萜蒂用于与萜萜蒂同步制压金次的短刀。",
+      "features": [
+        "薄而宽",
+        "适合拉切与突刺",
+        "带放血刻纹"
+      ],
+      "volumes": [
+        "vol-28"
+      ]
+    },
+    {
+      "id": "leviasan-floral-bathtub",
+      "type": "artifact/equipment",
+      "owner": "leviasan",
+      "description": "Merrow旅馆海滩上的豪华陶瓷浴缸，装饰金箔和花束，水面漂浮花朵与热带鱼，供人鱼勒维亚桑半躺。",
+      "features": [
+        "水栖支撑",
+        "视觉威压",
+        "贵族式装饰"
+      ],
+      "volumes": [
+        "vol-40"
+      ]
+    },
+    {
+      "id": "leviasan-water-harp",
+      "type": "artifact/equipment",
+      "owner": "leviasan",
+      "description": "勒维亚桑演奏的小竖琴，声音中夹杂浸入水中的沉闷音效。",
+      "features": [
+        "拨弦演奏",
+        "入水音效"
+      ],
+      "volumes": [
+        "vol-40"
+      ]
+    },
+    {
+      "id": "lion-man-roman-armor",
+      "type": "equipment",
+      "owner": "n-lion-man",
+      "description": "N狮头巨汉穿着的深红色与金色古罗马士兵铠甲。",
+      "features": [
+        "古罗马士兵风格",
+        "威压外观",
+        "异形战士装备"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "lisa-bicycle",
+      "type": "vehicle",
+      "owner": "lisa",
+      "description": "丽莎应金次请求前往亚莉亚宿舍时骑来的脚踏车，车篮中装有自备食材购物袋。",
+      "features": [
+        "前篮",
+        "日常通勤"
+      ],
+      "volumes": [
+        "vol-35"
+      ]
+    },
+    {
+      "id": "lisa-black-maid-uniform",
+      "type": "equipment",
+      "owner": "lisa",
+      "description": "丽莎参加罗马武侦高中无级者救护科等级测验时穿的黑色正统女仆装，左肩贴有武侦徽章。",
+      "features": [
+        "黑色制服要求",
+        "武侦徽章",
+        "正统长裙女仆装"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "lisa-board-games",
+      "type": "equipment / entertainment",
+      "owner": "lisa",
+      "description": "丽莎带来的多人游戏盒，用于消遣并促进亚莉亚、尼莫、路西菲莉亚与金次的关系改善。",
+      "features": [
+        "狼人游戏",
+        "咬指蛇",
+        "扑克牌",
+        "卡卡颂",
+        "骰子"
+      ],
+      "volumes": [
+        "vol-35"
+      ]
+    },
+    {
+      "id": "lisa-cooking-supplies",
+      "type": "equipment / consumable",
+      "owner": "lisa",
+      "description": "丽莎自带的食材和料理用品，用来把亚莉亚宿舍的半价便当生活改造成正常餐食。",
+      "features": [
+        "蔬菜",
+        "肉类",
+        "调味与女仆料理技法"
+      ],
+      "volumes": [
+        "vol-35"
+      ]
+    },
+    {
+      "id": "lisa-gold-wolf-wallet",
+      "type": "equipment",
+      "owner": "lisa-du-ank",
+      "description": "丽莎携带的绣有金狼图案的钱包，暴露其热沃当之兽真实身份的线索之一。",
+      "features": [
+        "金狼刺绣",
+        "可收纳现金"
+      ],
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "lisa-leaf-phone",
+      "type": "phone",
+      "owner": "lisa-ave-du-ange",
+      "description": "Lisa uses it to call Eliza during Lucifelia's room incident.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "lisa-luggage",
+      "type": "equipment",
+      "owner": "lisa",
+      "description": "丽莎从日本带到伦敦的行李，装有白米、换洗衣物和女仆用品，支撑她照顾金次。",
+      "features": [
+        "白米",
+        "衣物",
+        "女仆用品"
+      ],
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "lisa-maid-uniform",
+      "type": "clothing",
+      "owner": "lisa-ave-du-ange",
+      "description": "Lisa's maid-style outfit while serving Kinji in the Taj hotel and providing support.",
+      "features": [],
+      "volumes": [
+        "vol-16",
+        "vol-24"
+      ]
+    },
+    {
+      "id": "lisa-mosin-nagant",
+      "type": "weapon",
+      "owner": "lisa",
+      "description": "丽莎个人进口并由荷兰女仆风工房改装的乳白色与金色装饰步枪。",
+      "features": [
+        "步枪",
+        "装饰枪"
+      ],
+      "volumes": [
+        "vol-36"
+      ]
+    },
+    {
+      "id": "lisa-nokia-phone",
+      "type": "equipment",
+      "owner": "lisa",
+      "description": "丽莎携带的叶子形Nokia 7600，用于给梅露爱特发送简讯请求寄送金次黑西装。",
+      "features": [
+        "简讯",
+        "拍摄/保存邀请信照片"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "lisa-origami-windmill",
+      "type": "key-item",
+      "owner": "lisa",
+      "description": "金次无聊时用便条纸折出的风车，丽莎视作主人赐予的重要物品并一路珍藏到V-2处刑现场。",
+      "features": [
+        "情感信物",
+        "触发金次不放弃的心理锚点"
+      ],
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "lisa-plaid-suitcase",
+      "type": "equipment",
+      "owner": "lisa",
+      "description": "丽莎带到成田机场并随金次前往罗马的大型格纹行李箱，曾在伦敦篇也出现过。",
+      "features": [
+        "旅行用品",
+        "随行罗马"
+      ],
+      "volumes": [
+        "vol-23"
+      ]
+    },
+    {
+      "id": "lisa-sailor-maid-uniform",
+      "type": "equipment",
+      "owner": "lisa",
+      "description": "金次命令丽莎在伦敦穿着的自制水手女仆装，兼具女仆身份和武侦高中风格。",
+      "features": [
+        "水手服风格",
+        "女仆装"
+      ],
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "livia-fake-passport",
+      "type": "key-item",
+      "owner": "livia",
+      "description": "Fake Japanese passport identifying Livia as Satomi Asako, used for human society cover and nursery employment.",
+      "features": [
+        "cover identity"
+      ],
+      "volumes": [
+        "vol-41"
+      ]
+    },
+    {
+      "id": "livia-harp",
+      "type": "artifact / weapon",
+      "owner": "livia",
+      "description": "Inherited Sea King treasure and spellcasting focus for Livia's magic songs; confiscated by Kinji, later returned for China relief and water transfer.",
+      "features": [
+        "spell focus",
+        "ancestral treasure"
+      ],
+      "volumes": [
+        "vol-41"
+      ]
+    },
+    {
+      "id": "livia-shell-bag",
+      "type": "equipment",
+      "owner": "livia",
+      "description": "Livia's shell bag containing shells, daily goods, fake passport, waterproofed underwear and later gifts/photo materials.",
+      "features": [
+        "waterproof carry bag",
+        "shell weapon/tool storage"
+      ],
+      "volumes": [
+        "vol-41"
+      ]
+    },
+    {
+      "id": "lo08-sigma-propeller",
+      "type": "equipment / vehicle",
+      "owner": "loo",
+      "description": "大蛇后车箱搭载的薄型飞行装备，可让LOO短时间低速飞行追踪目标。",
+      "features": [
+        "象牙色机翼",
+        "推进器",
+        "腰部机械臂固定"
+      ],
+      "volumes": [
+        "vol-25"
+      ]
+    },
+    {
+      "id": "loo-gyne",
+      "type": "equipment / pet-companion",
+      "owner": "mash",
+      "description": "马许带给GⅢ同盟的少女型机器人，虽人格化为角色，但作为马许移交资产也被记录为物品。",
+      "features": [
+        "少女型机器人",
+        "战斗/支援机能"
+      ],
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "loo-pad",
+      "type": "equipment / weapon",
+      "owner": "loo",
+      "description": "LOO穿戴的第二世代个人兵装，集飞行投放、钩爪、重火力和阳电子炮于一体。",
+      "features": [
+        "滑翔翼投放",
+        "钩爪固定",
+        "重火力扫射",
+        "阳电子炮"
+      ],
+      "volumes": [
+        "vol-18"
+      ]
+    },
+    {
+      "id": "loogyne-charging-capsules",
+      "type": "equipment",
+      "owner": "aya-hiraga",
+      "description": "平贺家客厅墙边放置的三具胶囊，用于露吉恩、蕾东达、加勒艾露待机和充电。",
+      "features": [
+        "透明圆窗",
+        "橘色充电灯",
+        "容纳蹲坐姿态仿生人"
+      ],
+      "volumes": [
+        "vol-31"
+      ]
+    },
+    {
+      "id": "lucifelia-black-formal-wear",
+      "type": "equipment / attire",
+      "owner": "lucifelia",
+      "description": "路西菲莉亚族用于展示无伤肌肤和强大的民族服装，外观近似黑色细绳泳装。",
+      "features": [
+        "尾巴开口",
+        "高裸露度",
+        "象征强大与自尊"
+      ],
+      "volumes": [
+        "vol-35"
+      ]
+    },
+    {
+      "id": "lucifelia-black-sailor-uniform",
+      "type": "clothing",
+      "owner": "lucifelia-moriarty-iv",
+      "description": "Lucifelia's Nautilus black sailor uniform, repeatedly noted with horns and tail exposed during the India mission.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "lucifelia-magic-seal-toe-ring",
+      "type": "equipment / artifact",
+      "owner": "lucifelia",
+      "description": "贞德制作并套在路西菲莉亚左脚小趾上的戒指，用于封锁其魔力。",
+      "features": [
+        "魔力封锁",
+        "压制念力输出"
+      ],
+      "volumes": [
+        "vol-35"
+      ]
+    },
+    {
+      "id": "luciferia-pencil",
+      "type": "key-item",
+      "owner": "kinji",
+      "description": "路西菲莉亚在公会义卖会买给金次的木管自动铅笔，刻有列库忒亚植物纹与合格祈愿。",
+      "features": [
+        "自动铅笔",
+        "护符",
+        "合格祈愿"
+      ],
+      "volumes": [
+        "vol-36"
+      ]
+    },
+    {
+      "id": "lucky-strike-cigarettes",
+      "type": "consumable",
+      "owner": "shidou",
+      "description": "狮堂卷末登场时从烟盒中敲出并点燃的香烟，强化其沉稳而压迫的成人强者形象。",
+      "features": [
+        "人物标识物"
+      ],
+      "volumes": [
+        "vol-21"
+      ]
+    },
+    {
+      "id": "lucky-strike",
+      "type": "consumable",
+      "owner": "shidou",
+      "description": "狮堂在妖刕家宴会后坐在窗缘抽的香烟，强化其昭和电影明星般的成熟粗豪形象。",
+      "features": [
+        "吸烟道具",
+        "人物气质标识"
+      ],
+      "volumes": [
+        "vol-23"
+      ]
+    },
+    {
+      "id": "luger-p08",
+      "type": "weapon",
+      "owner": "kagge-glasse",
+      "description": "卡羯厄水形投影中拔出的鲁格P08手枪，用来指向远处的油轮，配合她的宣战姿态和魔女连队/纳粹残党符号体系。",
+      "features": [
+        "旧式德系手枪",
+        "宣战姿态"
+      ],
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "lulu-coated-balisong",
+      "type": "weapon / artifact",
+      "owner": "kinji",
+      "description": "安格斯将夺来的琉琉色金表面处理到金次蝴蝶刀上，使其带蓝色光泽并成为携带琉琉神一部分的媒介。",
+      "features": [
+        "琉琉色金镀层",
+        "原为金次蝴蝶刀"
+      ],
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "lulu-ford-model-t",
+      "type": "artifact / vehicle",
+      "owner": "无特定归属",
+      "description": "51区保管的琉琉色金本体之一，外观被塑造成一百年前的福特T型车，琉琉神由此现身。",
+      "features": [
+        "福特T型外观",
+        "琉琉色金本体"
+      ],
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "luluirokane-fragments",
+      "type": "artifact",
+      "owner": "kinji",
+      "description": "从51区福特T型琉琉色金车上拆下的方向盘、变速箱、螺丝等碎片，总量三公斤以上。",
+      "features": [
+        "琉琉神一部分",
+        "多件零件形态"
+      ],
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "m60-machine-gun",
+      "type": "weapon",
+      "owner": "shirayuki",
+      "description": "白雪在住院强化合宿中重新拿出的美军泛用机枪，后在金次宿舍中对金女举枪，触发临时姐妹冲突。",
+      "features": [
+        "7.62mm NATO弹",
+        "带状供弹",
+        "高火力"
+      ],
+      "volumes": [
+        "vol-10",
+        "vol-11"
+      ]
+    },
+    {
+      "id": "m67-grenade",
+      "type": "explosive",
+      "owner": "tooyama-kaname",
+      "description": "GⅣ在地下品川奇袭中拔开安全栓后投进人孔，用于压制躲在下方的理子。",
+      "features": [
+        "破片手榴弹",
+        "高杀伤爆炸物"
+      ],
+      "volumes": [
+        "vol-10",
+        "vol-36"
+      ]
+    },
+    {
+      "id": "m700",
+      "type": "weapon/sniper-rifle",
+      "owner": "cao-cao-sniper",
+      "description": "狙姐使用的雾黑色夜战狙击枪，可靠性极高，可在车顶和站台远距离压制。",
+      "features": [
+        "手动上膛来复枪",
+        "7.62 NATO弹",
+        "夜战涂装"
+      ],
+      "volumes": [
+        "vol-07"
+      ]
+    },
+    {
+      "id": "magic-sealing-anklet",
+      "type": "equipment / artifact",
+      "owner": "luciferia",
+      "description": "贞德制作并套在路西菲莉亚脚趾上的封印装备，压制其魔力，但信赖度不高。",
+      "features": [
+        "封印魔力",
+        "使路西菲莉亚难以察觉七折凶星"
+      ],
+      "volumes": [
+        "vol-36"
+      ]
+    },
+    {
+      "id": "maglev-shinkansen",
+      "type": "vehicle",
+      "owner": "无特定归属",
+      "description": "JR东日本青森实验线无人磁浮列车，被绯绯神作为三重雷射战斗舞台和亚莉亚弹射器。",
+      "features": [
+        "高速磁浮",
+        "耐寒融雪导轨",
+        "无人远端驾驶"
+      ],
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "magnetic-fiber-shield",
+      "type": "advanced-weapon",
+      "owner": "tooyama-kaname",
+      "description": "GⅣ操纵的两条珍珠色细长布块，交叉成X形飞行，可包覆消散子弹力量，边缘也能像刀刃般切割目标。",
+      "features": [
+        "自律飞行",
+        "防弹纤维",
+        "攻防一体",
+        "边缘发光切割"
+      ],
+      "volumes": [
+        "vol-10",
+        "vol-11"
+      ]
+    },
+    {
+      "id": "makarov-pm",
+      "type": "weapon",
+      "owner": "izelion",
+      "description": "伊泽里昂持有的自动手枪。补习班外战斗中，他在被金次击倒后拔枪，随后被金次迅速缴械、卸弹匣、退膛和空击归位。",
+      "features": [
+        "自动手枪",
+        "非法或未登记持有",
+        "维护状态不佳"
+      ],
+      "volumes": [
+        "vol-12"
+      ]
+    },
+    {
+      "id": "makiri-black-knife",
+      "type": "weapon",
+      "owner": "makiri",
+      "description": "茉斩在尼加拉河战中即使手脚重伤仍握住并用腰带固定的黑色格斗刀，象征其即便不能移动也要继续战斗的意志。",
+      "features": [
+        "短刀",
+        "可用腰带固定在手中"
+      ],
+      "volumes": [
+        "vol-31"
+      ]
+    },
+    {
+      "id": "makiri-bulletproof-coat",
+      "type": "equipment",
+      "owner": "makiri",
+      "description": "茉斩喜爱的京菱化纤订制大衣，具备防弹防刃性能；尼加拉河战中保护她免于榴弹碎片造成致命割伤。",
+      "features": [
+        "可防御细小炮弹破片",
+        "大衣摊开后也被磁石碎片钉住"
+      ],
+      "volumes": [
+        "vol-31"
+      ]
+    },
+    {
+      "id": "makiri-ducati-848",
+      "type": "vehicle",
+      "owner": "makiri",
+      "description": "茉斩在加拿大格里姆斯比会合时骑乘的红色运动型机车。",
+      "features": [
+        "高速运动机车",
+        "与茉斩大衣形象相配"
+      ],
+      "volumes": [
+        "vol-31"
+      ]
+    },
+    {
+      "id": "makiri-silver-ring",
+      "type": "authority token / leverage item",
+      "owner": "kinji",
+      "description": "茉斩遗失并被金次掌握的戒指。对茉斩在N中的自由与权限至关重要，金次以其为筹码要求茉斩合作、不杀人、不攻击金叉。",
+      "features": [],
+      "volumes": [
+        "vol-30"
+      ]
+    },
+    {
+      "id": "mamiya-secret-book-vol5",
+      "type": "key-item",
+      "owner": "kyochikutou",
+      "description": "两年前夹竹桃从间宫镇夺走的秘传书之一，记载鹰卷及其衍生技巧的效果与提示，但缺少口传无法完整学会。",
+      "features": [
+        "间宫秘传",
+        "鹰卷线索",
+        "需口传补完"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "manago-folding-knife",
+      "type": "weapon",
+      "owner": "kinji",
+      "description": "金次携带的折叠短刀，在与可鹉韦战斗中被偷走并被可鹉韦踢回作为牵制投射物。",
+      "features": [
+        "折叠刀身",
+        "可投掷/刺击"
+      ],
+      "volumes": [
+        "vol-22"
+      ]
+    },
+    {
+      "id": "maniago-knife",
+      "type": "weapon",
+      "owner": "kinji",
+      "description": "金次随身短刀，在贝瑞塔家中被解除武装并与其他武器一起被没收。",
+      "features": [
+        "近战刀具",
+        "随身武装"
+      ],
+      "volumes": [
+        "vol-24",
+        "vol-25"
+      ]
+    },
+    {
+      "id": "manmiago-short-knife",
+      "type": "weapon",
+      "owner": "kinji",
+      "description": "猴交给金次的折叠短刀，由香港战中融化延展的王者之剑残材回收后，经马尼亚戈工匠改造而成。",
+      "features": [
+        "折叠式短刀",
+        "钢铁握把坚固且有重量"
+      ],
+      "volumes": [
+        "vol-20",
+        "vol-21"
+      ]
+    },
+    {
+      "id": "mash-hmd-glasses",
+      "type": "equipment",
+      "owner": "mash",
+      "description": "马许佩戴的兼具超小型HMD功能的眼镜，用于命令LOO-GyNe和处理情报。",
+      "features": [
+        "超小型HMD",
+        "LOO命令接口"
+      ],
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "masi-scarf",
+      "type": "clothing/accessory",
+      "owner": "masi-teacher",
+      "description": "Masi wears a scarf over her face when secretly visiting the team's hotel room to discuss Chhat and Carbuncle.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "mazan-black-n-ring",
+      "type": "artifact / key-item",
+      "owner": "ito-mazan",
+      "description": "茉斩左手中指佩戴的黑色N戒指，与先前被金次夺走的深灰色N戒指同系列。",
+      "features": [
+        "N标识",
+        "组织身份象征"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "mazan-boat",
+      "type": "vehicle",
+      "owner": "mazan-ito",
+      "description": "伊藤茉斩用于潜入春雾并追逐NDD的黑色小艇。她可用不可知子弹细微操纵操舵杆。",
+      "features": [
+        "高速海上移动",
+        "可单人操纵",
+        "黑色低可视性"
+      ],
+      "volumes": [
+        "vol-23"
+      ]
+    },
+    {
+      "id": "mazda-roadster",
+      "type": "vehicle",
+      "owner": "无特定归属",
+      "description": "莎拉从有钱男子处夺取的敞篷跑车，用于从吉萨市区向金字塔方向逃亡。",
+      "features": [
+        "敞篷",
+        "高速公路机动"
+      ],
+      "volumes": [
+        "vol-40"
+      ]
+    },
+    {
+      "id": "mechanical-aya-body",
+      "type": "equipment / android",
+      "owner": "aya-hiraga",
+      "description": "平贺文在华盛顿DC家中的远端操控机器人，外观与本人几乎一致，可摘下头部并继续活动。",
+      "features": [
+        "外观拟真",
+        "可接LAN网线",
+        "可代替平贺文上学和接待客人"
+      ],
+      "volumes": [
+        "vol-31"
+      ]
+    },
+    {
+      "id": "meiya-bible",
+      "type": "equipment",
+      "owner": "meiya-romano",
+      "description": "梅雅随身携带的圣经，用于修女身份象征，也曾在劝架时盖在头上保护自己。",
+      "features": [
+        "宗教象征",
+        "教师/修女身份标志"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "meiya-cross",
+      "type": "equipment",
+      "owner": "meiya-romano",
+      "description": "梅雅佩戴的十字架，作为修女身份与信仰象征；与金次重逢拥抱时曾戳到金次眼睛。",
+      "features": [
+        "宗教象征",
+        "幸运与信仰意象"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "meiya-greatsword",
+      "type": "weapon",
+      "owner": "meiya-romano",
+      "description": "梅雅背负的大型除魔武器，剑锷有金色装饰，大到普通修女不可能携带。",
+      "features": [
+        "重型剑身",
+        "除魔象征",
+        "需强体力挥动"
+      ],
+      "volumes": [
+        "vol-08",
+        "vol-15"
+      ]
+    },
+    {
+      "id": "meluette-bayonet",
+      "type": "weapon",
+      "owner": "meluette",
+      "description": "A pure-silver-plated bayonet carried because of fear toward Lucifelia and Hilda; used unsuccessfully against Carbuncle's intangible arm.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "meluette-gaming-laptop",
+      "type": "computer",
+      "owner": "meluette",
+      "description": "A gaming laptop bought before the trip so Meluette can maintain game login rewards abroad via VPN.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "meluette-lee-enfield",
+      "type": "rifle",
+      "owner": "meluette",
+      "description": "Meluette's rifle, carried on her wheelchair and adjusted for high pressure. She uses it to shoot down the police targeting drone.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "meluette-pipe",
+      "type": "pipe",
+      "owner": "meluette",
+      "description": "A Holmes-like pipe using cherry oil scent, used while she reasons through the WATSON acronym.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "meluette-wheelchair",
+      "type": "mobility aid",
+      "owner": "meluette",
+      "description": "Meluette's wheelchair is loaded into the bus, later chained by Carbuncle and freed by Chhat women after Kinji's victory.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "memet-crystal-ball",
+      "type": "magical implement",
+      "owner": "memet",
+      "description": "梅梅特用于占卜和战斗的水晶球。可以投掷作为攻击武器（变化球轨迹、灌篮式砸击），也能顶在头上腾出双手。能显示占卜影像（如未来旅行运、埃及沙暴中的敌人）。",
+      "features": [
+        "可投掷出变化球轨道",
+        "可显示未来影像",
+        "可顶在头上作为搬运方式"
+      ],
+      "volumes": [
+        "vol-39"
+      ]
+    },
+    {
+      "id": "memet-khopesh",
+      "type": "weapon",
+      "owner": "memet",
+      "description": "Curved blade Memet uses while trying to hook and capture Livia in Kinji's apartment.",
+      "features": [
+        "curved hooking blade"
+      ],
+      "volumes": [
+        "vol-41"
+      ]
+    },
+    {
+      "id": "memet-khopeshes",
+      "type": "weapon",
+      "owner": "memet",
+      "description": "梅梅特使用的两把古埃及风格弯曲镰刀剑，可作为武器也可挂住管线滑降。",
+      "features": [
+        "近战",
+        "钩挂移动"
+      ],
+      "volumes": [
+        "vol-40"
+      ]
+    },
+    {
+      "id": "memet-sickle-sword-and-outfit",
+      "type": "weapon & clothing",
+      "owner": "memet",
+      "description": "镰刀剑是形状凶恶的埃及式镰状剑。古埃及室内服以佩特拉的战斗服为原型改造，如分体式泳衣，仅遮胸部和腰部，配有金饰薄纱。金次认为是中王国时期女王服饰的现代风格改造，带来不愉快的回忆。",
+      "features": [
+        "镰刀剑可旋转收纳背后",
+        "室内服有金色装饰发出\"夏啦啦\"声",
+        "猫耳发饰可搭配使用"
+      ],
+      "volumes": [
+        "vol-39"
+      ]
+    },
+    {
+      "id": "memet-toto-and-apu",
+      "type": "companion animals",
+      "owner": "memet",
+      "description": "托托是梅梅特养的黑猫，戴着金项圈，被称为\"毒猫\"，爪子带毒。非常聪明，能搬运水晶球、从钱包出现后立刻坐下、躲进人类影子里、抢夺食物。阿普是梅梅特从蛋孵化养大的埃及眼镜蛇，戴着金项圈，负责看守装钱的芦苇编织壶。",
+      "features": [
+        "托托可执行复杂指令",
+        "托托爪子有毒",
+        "阿普看守钱罐不咬主人猛咬他人",
+        "眼镜蛇从裙边探出威吓"
+      ],
+      "volumes": [
+        "vol-39"
+      ]
+    },
+    {
+      "id": "memet-wa2000",
+      "type": "weapon - sniper rifle",
+      "owner": "memet; used by kinji",
+      "description": "沙漠迷彩涂装的WA2000狙击步枪，曾是佩特拉所有。梅梅特从古埃及彩绘木箱中取出，装有望远镜瞄准镜和消音器。梅梅特不习惯使用枪械，常被金次背携。在丰岛园事件中金次使用此枪狙击支援。",
+      "features": [
+        "沙漠迷彩涂装",
+        "望远镜瞄准镜",
+        "消音器",
+        "7.62mm口径"
+      ],
+      "volumes": [
+        "vol-39",
+        "vol-40"
+      ]
+    },
+    {
+      "id": "memet-water-lily-bouquet-and-kids-phone",
+      "type": "gift & communication device",
+      "owner": "memet",
+      "description": "金次在丰岛园偷偷购买作为梅梅特生日礼物的白色睡莲花束。埃及神圣之花。儿童手机是加奈在Docomo办给梅梅特的（无社交媒体/游戏/i-mode），只有通话短信功能，附GPS定位，用于加奈和金次追踪梅梅特位置。",
+      "features": [
+        "睡莲花束用于庆贺15岁生日",
+        "儿童手机GPS可定位",
+        "低成本通讯方案"
+      ],
+      "volumes": [
+        "vol-39"
+      ]
+    },
+    {
+      "id": "mercury",
+      "type": "artifact / equipment / pet-companion",
+      "owner": "nemo",
+      "description": "墨丘利作为角色同时也在岛上承担尼莫随身工具与部下的功能，可变成各类器具。",
+      "features": [
+        "液态金属",
+        "变形工具",
+        "可听懂命令"
+      ],
+      "volumes": [
+        "vol-28"
+      ]
+    },
+    {
+      "id": "metal-bat",
+      "type": "weapon",
+      "owner": "asao",
+      "description": "朝青在脚踏车停车场拿着的金属球棒。因藤木林短刀被金次诱导朝向他，朝青吓到松手并将球棒掉落，蕾姬随即捡起。",
+      "features": [
+        "钝器",
+        "不良少年装备"
+      ],
+      "volumes": [
+        "vol-12"
+      ]
+    },
+    {
+      "id": "micro-uzi",
+      "type": "weapon",
+      "owner": "mamiya-akari",
+      "description": "以色列IMI公司开发的乌兹冲锋枪缩小版衍生枪型。使用9mm鲁格弹，每秒可射25发，耐用性高。价格便宜，零件易得。在明里手中着弹点极不稳定。",
+      "features": [
+        "连射速度优秀",
+        "价格便宜",
+        "着弹点不稳定"
+      ],
+      "volumes": [
+        "vol-01"
+      ]
+    },
+    {
+      "id": "military-slingshot",
+      "type": "weapon / equipment",
+      "owner": "reiji",
+      "description": "蕾姬用于发射橡树子的Y字型军用弹弓。她用其多次精准击中金次眉间，以阻止金次与萌建立关系。",
+      "features": [
+        "非枪械远程武器",
+        "高精度",
+        "可用橡树子作弹药"
+      ],
+      "volumes": [
+        "vol-12"
+      ]
+    },
+    {
+      "id": "mini-cooper",
+      "type": "vehicle",
+      "owner": "shima-ichigo",
+      "description": "岛莓驾驶的Mini Cooper，用于从新宿警署逃离外务省追捕。",
+      "features": [
+        "高速倒车",
+        "两轮行驶",
+        "城市巷道机动"
+      ],
+      "volumes": [
+        "vol-18"
+      ]
+    },
+    {
+      "id": "mini-jcw-convertible",
+      "type": "",
+      "owner": "",
+      "description": "",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "minuet-lee-enfield-airgun",
+      "type": "weapon",
+      "owner": "minuet",
+      "description": "改造自英国古代军用步枪外形的猎鸟用空气枪，可调气压，梅露爱特用它向金次开场射击。",
+      "features": [
+        "R/I电池调节气压",
+        "高气压近距离可对人杀伤"
+      ],
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "minuet-star-card",
+      "type": "key-item",
+      "owner": "kinji",
+      "description": "梅露爱特给金次的空白名牌式卡片；做让梅露爱特高兴的事可得星星，集满十颗换取色金推理。",
+      "features": [
+        "星星制度记录物",
+        "可被加星或涂黑扣分"
+      ],
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "minuet-steam-wheelchair",
+      "type": "equipment",
+      "owner": "minuet",
+      "description": "梅露爱特使用的带齿轮、管线、自走和水蒸气机构的轮椅，兼具生活辅助与贵族风格。",
+      "features": [
+        "自走机构",
+        "水蒸气排放",
+        "简易电梯适配"
+      ],
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "mitsouka-orochi-ai-vehicle",
+      "type": "vehicle / technology",
+      "owner": "assi",
+      "description": "搭载AI亚许的紫色超级跑车，可自动驾驶、联网检索、极限追击，并被用作救护车。",
+      "features": [
+        "无人驾驶",
+        "可粗暴穿越罗马街道和铁路",
+        "播放驱鸟声"
+      ],
+      "volumes": [
+        "vol-25"
+      ]
+    },
+    {
+      "id": "miu-sw-m442",
+      "type": "weapon",
+      "owner": "kira-miu",
+      "description": "美羽从背后枪套拔出的豪华小型左轮，用于面试试探金次胆量。",
+      "features": [
+        ".38特种弹",
+        "铝制框架后坐力较大",
+        "约三十万日元"
+      ],
+      "volumes": [
+        "vol-44"
+      ]
+    },
+    {
+      "id": "moe-bulletproof-sailor-uniform",
+      "type": "equipment",
+      "owner": "moetsuki-moe",
+      "description": "望月萌已完全习惯穿着的武侦高防弹水手服。",
+      "features": [
+        "防弹制服",
+        "武侦高学生标识"
+      ],
+      "volumes": [
+        "vol-44"
+      ]
+    },
+    {
+      "id": "moe-letter",
+      "type": "key-item",
+      "owner": "mochiizuki-moe",
+      "description": "萌偷偷放入饼干袋中的粉红色原子笔书信，开头表达金次在她心中越来越大的存在感；信被蕾姬抢走没收。",
+      "features": [
+        "告白性质",
+        "粉红色字迹",
+        "触发蕾姬强烈反应"
+      ],
+      "volumes": [
+        "vol-12"
+      ]
+    },
+    {
+      "id": "momoman",
+      "type": "consumable",
+      "owner": "神崎·H·亚莉亚（喜爱者）",
+      "description": "亚莉亚最喜欢的食物，过去曾引发热潮的桃子形状甜包子。亚莉亚称其为桃馒。她在便利商店一次性购买七个全部自己吃完。",
+      "features": [
+        "亚莉亚的comfort food"
+      ],
+      "volumes": [
+        "vol-01"
+      ]
+    },
+    {
+      "id": "monkey-short-sailor-uniform",
+      "type": "clothing",
+      "owner": "monkey",
+      "description": "Monkey wears her very short Nagoya Butei Girls' High sailor uniform while arriving with I-U and fighting in India.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "mushroom-recorder",
+      "type": "communication-tool",
+      "owner": "远山武侦事务所→中空知美咲",
+      "description": "金次在量贩店购买的香菇形状录音笔，让中空知假装通话来克服口吃。",
+      "features": [],
+      "volumes": [
+        "vol-26"
+      ]
+    },
+    {
+      "id": "mustafa-rashid-carbine",
+      "type": "weapon",
+      "owner": "mustafa",
+      "description": "穆斯塔法携带的半自动步枪，祖父在苏伊士战场使用过的遗物。",
+      "features": [
+        "半自动步枪",
+        "实战旧枪"
+      ],
+      "volumes": [
+        "vol-40"
+      ]
+    },
+    {
+      "id": "muto-colt-python",
+      "type": "weapon",
+      "owner": "muto",
+      "description": "武藤随身携带的左轮手枪。本卷追逐NDD时，他压低身体并拔出枪防备茉斩的远程攻击。",
+      "features": [
+        "随身护卫",
+        "驾驶时自卫"
+      ],
+      "volumes": [
+        "vol-23"
+      ]
+    },
+    {
+      "id": "muto-nissan-safari",
+      "type": "vehicle",
+      "owner": "muto",
+      "description": "Mutou's vehicle used to secretly carry Kinji and child Rasputina from Kasai toward Gakuen Island.",
+      "features": [
+        "4WD",
+        "student vehicle"
+      ],
+      "volumes": [
+        "vol-41"
+      ]
+    },
+    {
+      "id": "muto-three-wheel-bike",
+      "type": "vehicle",
+      "owner": "muto",
+      "description": "武藤骑到晴海码头会合地点的三轮机车，曾经撞过金次。",
+      "features": [
+        "个人交通工具",
+        "车辆科风格"
+      ],
+      "volumes": [
+        "vol-23"
+      ]
+    },
+    {
+      "id": "mutou-good-luck-pencil",
+      "type": "key-item",
+      "owner": "mutou",
+      "description": "武藤和不知火送给金次的烫金写有合格祈愿的铅笔。",
+      "features": [
+        "合格祈愿烫金字样",
+        "考试慰问品"
+      ],
+      "volumes": [
+        "vol-44"
+      ]
+    },
+    {
+      "id": "n-communicator",
+      "type": "equipment",
+      "owner": "cendrillon",
+      "description": "可接入N舰队通话的对讲机，原在仙杜丽昂手中，后被金次抢来与尼莫、莫里亚蒂等通话。",
+      "features": [
+        "舰队通话",
+        "多方监听"
+      ],
+      "volumes": [
+        "vol-35"
+      ]
+    },
+    {
+      "id": "n-gold-ring",
+      "type": "artifact / insignia",
+      "owner": "lucifelia",
+      "description": "N中象征绝对权力与高位的金色戒指，路西菲莉亚佩戴并用于指挥部下。",
+      "features": [
+        "N徽章",
+        "权力象征",
+        "金戒指等级识别"
+      ],
+      "volumes": [
+        "vol-35"
+      ]
+    },
+    {
+      "id": "n-landing-sailboat",
+      "type": "vehicle",
+      "owner": "n",
+      "description": "N救援队从母舰派往珊瑚礁内的木造小帆船，船尾挂有黑色N旗。",
+      "features": [
+        "单桅木船",
+        "适合浅滩登陆"
+      ],
+      "volumes": [
+        "vol-28"
+      ]
+    },
+    {
+      "id": "n-rescue-ship",
+      "type": "vehicle",
+      "owner": "moriarty",
+      "description": "N救援尼莫时在珊瑚礁外待机的大型船舰，教授在舰上等待；其光芒让太阳方向显得异常明亮。",
+      "features": [
+        "大型船舰",
+        "停在环礁外",
+        "可能具有发光或伪装现象"
+      ],
+      "volumes": [
+        "vol-28"
+      ]
+    },
+    {
+      "id": "n-ring-silver",
+      "type": "artifact / key-item",
+      "owner": "无特定归属",
+      "description": "N部分成员佩戴的银色N字戒指，是N阵营身份标识之一。",
+      "features": [
+        "N标识",
+        "组织身份象征"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "n-ring",
+      "type": "key-item / artifact",
+      "owner": "mazan-ito",
+      "description": "伊藤茉斩手上的暗灰色大型指环，被金次用沙漠之鹰击中后掉落。戒指上刻有大写N及Nautilus、Nemo等文字，是N组织线索。",
+      "features": [
+        "组织标识",
+        "N线索",
+        "被.50AE弹击变形"
+      ],
+      "volumes": [
+        "vol-23",
+        "vol-32"
+      ]
+    },
+    {
+      "id": "n-rings",
+      "type": "artifact / key-item",
+      "owner": "无特定归属",
+      "description": "N成员佩戴的刻有N字样的戒指。金次此前夺走茉斩的深灰色戒指并埋在东京，茉斩本卷要求归还；N其他成员也戴有不同颜色的N戒指。",
+      "features": [
+        "N阵营标识",
+        "可能具有组织或能力意义",
+        "可作为金次与茉斩交易筹码"
+      ],
+      "volumes": [
+        "vol-24",
+        "vol-25"
+      ]
+    },
+    {
+      "id": "nada-confectionery-gift",
+      "type": "consumable",
+      "owner": "nada",
+      "description": "滩从老家滩制果带来的和果子礼盒，宴会后金次和妖刕吃其中松软铜锣烧。",
+      "features": [
+        "宴会伴手礼",
+        "显示滩老家背景"
+      ],
+      "volumes": [
+        "vol-23"
+      ]
+    },
+    {
+      "id": "nada-guitar",
+      "type": "equipment",
+      "owner": "nada",
+      "description": "滩带到妖刕家宴会的老旧木吉他，酒后用于弹唱老歌。",
+      "features": [
+        "宴会表演",
+        "昭和老歌伴奏"
+      ],
+      "volumes": [
+        "vol-23"
+      ]
+    },
+    {
+      "id": "nakasorachi-cardboard-box",
+      "type": "equipment",
+      "owner": "nakasorachi-misaki",
+      "description": "中空知在教务科面谈室门口躲藏用的厚纸箱，体现其极度怯懦状态。",
+      "features": [
+        "遮挡上半身",
+        "无防弹能力",
+        "心理安全道具"
+      ],
+      "volumes": [
+        "vol-22"
+      ]
+    },
+    {
+      "id": "nakasorachi-colt-python",
+      "type": "weapon",
+      "owner": "nakasorachi",
+      "description": "中空知被枪店推荐购买的八英寸柯尔特巨蟒左轮手枪。她本人没有使用经验，只是因校规要求佩带。",
+      "features": [
+        "重型左轮",
+        "对新手过重",
+        ".44 Magnum级别表述"
+      ],
+      "volumes": [
+        "vol-15"
+      ]
+    },
+    {
+      "id": "nanding-razor",
+      "type": "weapon",
+      "owner": "nanding",
+      "description": "丁使用的长柄剃刀，兼具象征性与实战用途，可配合不可知刀刃。",
+      "features": [
+        "斩砍",
+        "突刺",
+        "打击",
+        "配合真空刃"
+      ],
+      "volumes": [
+        "vol-36"
+      ]
+    },
+    {
+      "id": "nanding-wing-kimono",
+      "type": "equipment",
+      "owner": "nanding",
+      "description": "由丁自身羽毛织成的和服翼套，袖兜与衣摆可随意志活动并扩大成翅膀。",
+      "features": [
+        "飞行",
+        "变形成翅膀",
+        "制造不可知刀刃前置风压"
+      ],
+      "volumes": [
+        "vol-36"
+      ]
+    },
+    {
+      "id": "nautilus-submarine",
+      "type": "nuclear submarine",
+      "owner": "nemo",
+      "description": "Nemo's submarine arrives in Mumbai for replenishment, faces I-U's standoff, then becomes one side of the new alliance and remains in port while the field team travels inland.",
+      "features": [],
+      "volumes": [
+        "vol-34"
+      ]
+    },
+    {
+      "id": "nautilus",
+      "type": "vehicle / submarine",
+      "owner": "nemo",
+      "description": "尼莫指挥的巨型核子潜艇，N舰队三舰之一，具备舰对空飞弹和反鱼雷用鱼雷。",
+      "features": [
+        "大型潜艇平台",
+        "防空拦截",
+        "反鱼雷拦截",
+        "舰桥雷射防御"
+      ],
+      "volumes": [
+        "vol-35",
+        "vol-36",
+        "vol-38",
+        "vol-40",
+        "vol-41",
+        "vol-44"
+      ]
+    },
+    {
+      "id": "navigatoria-submersible-battleship",
+      "type": "vehicle",
+      "owner": "luciferia-moriarty-iv",
+      "description": "由二战中应已沉没的英国战舰巴勒姆号改造而成的潜航战舰。路西菲莉亚在舰桥现身，并让主炮、副炮对准金次等人。",
+      "features": [
+        "潜航战舰",
+        "主炮与副炮群",
+        "N字旗",
+        "旧式战舰外观与潜艇能力并存"
+      ],
+      "volumes": [
+        "vol-34"
+      ]
+    },
+    {
+      "id": "navigatoria",
+      "type": "vehicle / warship / submarine",
+      "owner": "lucifelia",
+      "description": "路西菲莉亚指挥的潜水战舰，由伊丽莎白女王级战舰巴勒姆号超改装而成，兼具战舰主炮与潜航能力。",
+      "features": [
+        "潜航能力",
+        "战舰主炮",
+        "神盾式FCS对空火力",
+        "N舰桥与列库忒亚船员"
+      ],
+      "volumes": [
+        "vol-35",
+        "vol-41"
+      ]
+    },
+    {
+      "id": "ndd-nuclear-torpedo",
+      "type": "weapon",
+      "owner": "japan-self-defense-forces",
+      "description": "春雾秘密搭载的中子弹鱼雷。命中目标时内部回旋加速器启动，放射伽马射线而非传统爆炸，半径一百三十公尺内人员会立刻死亡。",
+      "features": [
+        "低速命中",
+        "几乎不破坏船体但杀伤人员",
+        "可秘密掳获敌舰"
+      ],
+      "volumes": [
+        "vol-23"
+      ]
+    },
+    {
+      "id": "nebula-stimulant",
+      "type": "drug / combat stimulant",
+      "owner": "kinji",
+      "description": "华生交给金次的一次剂量气压式注射剂。平常状态可提升集中力，意识朦胧时可作比RAZZO更强的苏醒剂。本卷金次在电击麻痹恢复途中注射，用于抢回行动能力并救下理子。",
+      "features": [
+        "比RAZZO更强力的苏醒用途",
+        "可在意识朦胧时使用",
+        "对金次药物抗性体质仍有一定效果"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "nemo-agate-pendant",
+      "type": "key-item / accessory",
+      "owner": "nemo",
+      "description": "尼莫把金次在无人岛送给她的青玛瑙做成项坠并佩戴。",
+      "features": [
+        "纪念物",
+        "与金次无人岛经历相关"
+      ],
+      "volumes": [
+        "vol-35"
+      ]
+    },
+    {
+      "id": "nemo-family-short-sword",
+      "type": "short sword",
+      "owner": "nemo",
+      "description": "A sheathed short sword that Nemo uses like a blunt weapon when Kinji accidentally reaches into her bag during the reunion.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "nemo-flag",
+      "type": "key-item",
+      "owner": "nemo",
+      "description": "刺绣N字和拉丁文MOBILIS IN MOBILI的古老旗帜，代表诺契勒斯与尼莫而非莫里亚蒂的N。",
+      "features": [
+        "象征脱离N",
+        "初代尼莫遗物"
+      ],
+      "volumes": [
+        "vol-36"
+      ]
+    },
+    {
+      "id": "nemo-gold-watch",
+      "type": "equipment",
+      "owner": "nemo",
+      "description": "尼莫从口袋中取出的金色怀表，用来与夏洛克的时间确认相呼应。",
+      "features": [
+        "计时",
+        "领袖仪态象征"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "nemo-gps-tracker",
+      "type": "technology / key-item",
+      "owner": "moriarty",
+      "description": "恩蒂米菈依教授命令暗中装在尼莫军帽中的小型GPS纪录器，用于追踪尼莫下落。",
+      "features": [
+        "位置记录",
+        "隐藏在军帽中"
+      ],
+      "volumes": [
+        "vol-28"
+      ]
+    },
+    {
+      "id": "nemo-jasmine-card",
+      "type": "key-item",
+      "owner": "kinji",
+      "description": "尼莫寄回金天防弹水手服时随附的白色茉莉花押花和法文卡片，改写《罗密欧与茱丽叶》中名字与花香的句子。",
+      "features": [
+        "茉莉押花",
+        "法文手写卡片",
+        "暗示尼莫对金次的情感与朋友愿望"
+      ],
+      "volumes": [
+        "vol-28"
+      ]
+    },
+    {
+      "id": "nemo-lamat-revolver",
+      "type": "weapon",
+      "owner": "nemo",
+      "description": "尼莫在鱼鹰机舱内使用的左轮手枪，向倒挂的金次连续射击以逼其放开金天。",
+      "features": [
+        "左轮装填",
+        "威力足以隔防护造成重击"
+      ],
+      "volumes": [
+        "vol-27"
+      ]
+    },
+    {
+      "id": "nemo-le-francais",
+      "type": "weapon",
+      "owner": "nemo",
+      "description": "尼莫藏在身上的备用手枪，漂流初期用来挟持金次，但弹药有限。",
+      "features": [
+        "小型",
+        "易走火"
+      ],
+      "volumes": [
+        "vol-28"
+      ]
+    },
+    {
+      "id": "nemo-measuring-tools",
+      "type": "navigation tools",
+      "owner": "nemo",
+      "description": "Kinji recalls Nemo's angle-measuring tools in her bag while trying to cut a cake, an image later contributing to his missile trajectory reasoning.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "nemo-military-uniform",
+      "type": "equipment",
+      "owner": "nemo",
+      "description": "尼莫象征身份的深蓝军服与军帽，漂流期间即使破损潮湿也尽量穿戴整齐。",
+      "features": [
+        "军人身份标志",
+        "军帽中被恩蒂米菈装入GPS纪录器"
+      ],
+      "volumes": [
+        "vol-28"
+      ]
+    },
+    {
+      "id": "nemo-navy-uniform",
+      "type": "equipment",
+      "owner": "nemo",
+      "description": "尼莫穿着的古老军服与海军帽，尺寸略大，帽檐遮住深蓝眼睛。",
+      "features": [
+        "提督形象",
+        "海军式标识",
+        "身份威严"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "nemo-pouch",
+      "type": "equipment",
+      "owner": "nemo",
+      "description": "尼莫腰间小包，内有发圈、香水、欧元、法国签账金融卡、避弹护身符、眼镜、量角器、钢笔和海图手册等。",
+      "features": [
+        "包含航海测量工具",
+        "体现尼莫女性化与军人兼具的一面"
+      ],
+      "volumes": [
+        "vol-28"
+      ]
+    },
+    {
+      "id": "nemo-ryuryu-gold-pendant",
+      "type": "artifact",
+      "owner": "nemo",
+      "description": "恩蒂米菈交还给尼莫的项链，玻璃坠中封有蓝色粉末状琉琉色金碎片，使尼莫恢复阳位相跳跃。",
+      "features": [
+        "恢复尼莫与琉琉色金的连接",
+        "支持远距离瞬间移动"
+      ],
+      "volumes": [
+        "vol-28"
+      ]
+    },
+    {
+      "id": "nemo-sabre",
+      "type": "weapon",
+      "owner": "nemo",
+      "description": "尼莫携带的短剑/军刀，刃长约三十五公分，象征尼莫家的名誉。",
+      "features": [
+        "短刃",
+        "军人式佩剑"
+      ],
+      "volumes": [
+        "vol-28"
+      ]
+    },
+    {
+      "id": "nemo-short-sword",
+      "type": "weapon",
+      "owner": "nemo",
+      "description": "尼莫藏在便服背后的短剑，用于在亚莉亚宿舍与亚莉亚对峙。",
+      "features": [
+        "隐藏携带",
+        "近战反击"
+      ],
+      "volumes": [
+        "vol-35"
+      ]
+    },
+    {
+      "id": "nemo-sidearm",
+      "type": "weapon",
+      "owner": "nemo",
+      "description": "尼莫便服出行时藏在可爱侧肩包中的自动手枪，显示她即使以普通少女打扮仍保持武装。",
+      "features": [
+        "隐藏携带",
+        "个人防身与战斗用"
+      ],
+      "volumes": [
+        "vol-35"
+      ]
+    },
+    {
+      "id": "nero-uniform",
+      "type": "armor/uniform",
+      "owner": "baskerville-team",
+      "description": "武侦学生拍摄小队登录照时穿的黑色防弹制服，巴斯克维尔五人均穿着不同款式参加现场申请。",
+      "features": [
+        "黑色防弹制服",
+        "用于隐藏学校与身份特征",
+        "小队登记照服装"
+      ],
+      "volumes": [
+        "vol-07"
+      ]
+    },
+    {
+      "id": "niagara-paddleboat",
+      "type": "vehicle",
+      "owner": "g3",
+      "description": "GⅢ在格里姆斯比购得的淘汰游览船，外观模仿蒸汽船，以外轮推进，供小队从加拿大侧溯尼加拉河。",
+      "features": [
+        "吃水浅",
+        "钢铁船身",
+        "船上有船锚、沙袋和急救箱"
+      ],
+      "volumes": [
+        "vol-31"
+      ]
+    },
+    {
+      "id": "nine-jeweled-vajra",
+      "type": "gemstone war hammer / vajra-mace",
+      "owner": "carbuncle",
+      "description": "Carbuncle's 'treasure hammer' formed from emerald, topaz, opal, aquamarine, garnet, ruby, sapphire, diamond and other jewels around an iron staff. Kinji destroys its gem head with Zetsukugi.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "noah-golden-submarine",
+      "type": "vehicle",
+      "owner": "moriarty",
+      "description": "莫里亚蒂操控的N主舰之一，原为中国秦级弹道飞弹核潜，外覆约一七二吨英国失窃黄金，用于跳金/跨世界航行至列库忒亚之海。",
+      "features": [
+        "黄金外壳",
+        "核潜艇级体量",
+        "可穿梭列库忒亚之海",
+        "N诺亚派据点"
+      ],
+      "volumes": [
+        "vol-34"
+      ]
+    },
+    {
+      "id": "noah",
+      "type": "vehicle / submarine",
+      "owner": "moriarty",
+      "description": "莫里亚蒂教授乘坐的黄金核潜艇，作为N舰队核心出现在鄂霍次克海。",
+      "features": [
+        "黄金外观",
+        "核潜艇级机动",
+        "莫里亚蒂指挥平台"
+      ],
+      "volumes": [
+        "vol-35",
+        "vol-41"
+      ]
+    },
+    {
+      "id": "nozomi-rocket-launcher",
+      "type": "weapon",
+      "owner": "mamiya-nozomi",
+      "description": "希海使用的自制携带式四连发火箭发射筒。使用镇压暴徒用的暴风弹（减装药），一发杀伤力低（约被轻型汽车撞到程度），但四发同时命中足以压制对手。",
+      "features": [],
+      "volumes": [
+        "vol-04"
+      ]
+    },
+    {
+      "id": "nue-apron",
+      "type": "equipment",
+      "owner": "nue",
+      "description": "鵺在妖刕家使用的兔子图案围裙，宴会中借给狮堂做咖哩。",
+      "features": [
+        "料理用",
+        "日常喜剧道具"
+      ],
+      "volumes": [
+        "vol-23"
+      ]
+    },
+    {
+      "id": "oil-can",
+      "type": "equipment",
+      "owner": "riko",
+      "description": "理子在凯迪拉克上亮出的机油罐，用来把机油洒向后方追来的Z8。孙以高速漂移化解效果。",
+      "features": [
+        "洒油制造打滑",
+        "适合飞车追逐"
+      ],
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "omega-speedmaster",
+      "type": "equipment",
+      "owner": "shidou",
+      "description": "狮堂在逮捕前确认晚上七点时刻所用的腕表。",
+      "features": [
+        "计时",
+        "强调晚上七点行动节点"
+      ],
+      "volumes": [
+        "vol-21"
+      ]
+    },
+    {
+      "id": "optical-camouflage",
+      "type": "stealth-equipment",
+      "owner": "GIII（借给金次）",
+      "description": "GIII持有的高科技隐形披风，通过显示另一侧景象实现视觉隐身。",
+      "features": [],
+      "volumes": [
+        "vol-26"
+      ]
+    },
+    {
+      "id": "orcus-submarine",
+      "type": "vehicle / submarine",
+      "owner": "aria",
+      "description": "亚莉亚驾驶的小型潜艇，用于将浮冰从鄂霍次克海拖曳回北海道方向，后在武藤车库维修。",
+      "features": [
+        "拖曳浮冰",
+        "通讯设备",
+        "小型潜艇"
+      ],
+      "volumes": [
+        "vol-35"
+      ]
+    },
+    {
+      "id": "orcus-submersible",
+      "type": "vehicle",
+      "owner": "jeanne",
+      "description": "贞德潜入武侦高中时使用的潜航艇。原为三人座，经武藤通宵改造后仅能坐两人。基于超空蚀效应鱼雷技术，水中速度可达约170节（时速314公里），但燃料仅够单程2000公里。最后加奈驾驶此艇冲入金字塔顶部。",
+      "features": [
+        "超高速水中航行",
+        "近乎无声",
+        "自动驾驶可能"
+      ],
+      "volumes": [
+        "vol-34"
+      ]
+    },
+    {
+      "id": "orochi-2-armor",
+      "type": "equipment",
+      "owner": "kinji",
+      "description": "安格斯给金次的先进护具，使用稀有金属和多层非均匀材料，在贝瑞塔工作室被拆解取样分析。",
+      "features": [
+        "高防御材料",
+        "人体工学冲击分散",
+        "不可量产"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "orochi-glove",
+      "type": "protective combat gear",
+      "owner": "kinji",
+      "description": "金次用于单手偏弹与子弹回射的露指手套，表面为镀钛金超合金。本卷金次以大蛇两指夹住飞来的银弹并完成一百八十度回射；卷末他仍需筹钱支付左手费用给平贺。",
+      "features": [
+        "可承受子弹摩擦火花",
+        "辅助螺旋与子弹回射",
+        "需要HSS级操作"
+      ],
+      "volumes": [
+        "vol-08",
+        "vol-10",
+        "vol-11"
+      ]
+    },
+    {
+      "id": "orucus-submersible",
+      "type": "vehicle",
+      "owner": "witch-corps / 临时由kinji与jiao-jiao使用",
+      "description": "由超空蚀效应鱼雷改装的高速潜艇，卡羯与佩特拉用于从油轮逃脱；另一艘螺旋桨被亚莉亚破坏后，被机娘改用作油舱潜入拆弹工具。",
+      "features": [
+        "高速潜航",
+        "可吊入油舱",
+        "机械手臂可抓取炸药筒"
+      ],
+      "volumes": [
+        "vol-15"
+      ]
+    },
+    {
+      "id": "osnake-kai",
+      "type": "equipment",
+      "owner": "kinji",
+      "description": "平贺开发的手甲型防具，覆盖前臂并可在手腕以下展开装甲。本卷被金次购买后在富岳上抵御阎的咬合与利爪。",
+      "features": [
+        "钴合金与钛系装甲",
+        "手腕以下装甲可收纳",
+        "可配合樱花提升出力"
+      ],
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "osprey-wreckage",
+      "type": "equipment / key-item",
+      "owner": "无特定归属",
+      "description": "金次与尼莫交战的鱼鹰机部分残骸被阳位相跳跃卷入并漂流到岛上，提供金属、工具材料与金次书包。",
+      "features": [
+        "金属材料",
+        "漂流物",
+        "触发墨丘利少量体积残留"
+      ],
+      "volumes": [
+        "vol-28"
+      ]
+    },
+    {
+      "id": "otoha-alphard-ulp",
+      "type": "vehicle / aircraft launch rig",
+      "owner": "otoha-maria",
+      "description": "乙叶藏在阿尼亚斯学院附近修理厂的改装ALPHARD，后两排座椅拆除并搭载折叠式超轻型飞机，用于带走阿斯库勒庇欧斯逃离。",
+      "features": [],
+      "volumes": [
+        "vol-30"
+      ]
+    },
+    {
+      "id": "otoha-ballistic-knife",
+      "type": "weapon",
+      "owner": "arima-hatoo",
+      "description": "乙叶在三连击中从裙下拔出的弹道战术刀，刀刃可由强力弹簧射出。",
+      "features": [
+        "隐藏于裙下",
+        "可作为连环假动作的最终杀招"
+      ],
+      "volumes": [
+        "vol-29"
+      ]
+    },
+    {
+      "id": "otoha-glock26",
+      "type": "weapon",
+      "owner": "arima-hatoo",
+      "description": "有马鸠雄作为后援时携带的小型手枪，在秋叶原射击事件中一度拔出。",
+      "features": [
+        "便于隐藏",
+        "适合潜入协力者携带"
+      ],
+      "volumes": [
+        "vol-29",
+        "vol-30"
+      ]
+    },
+    {
+      "id": "otoha-ontario-survival-knife",
+      "type": "weapon",
+      "owner": "arima-hatoo",
+      "description": "乙叶玛莉亚/有马鸠雄测试克罗梅德尔时使用的短刀，从背后架住金次脖子。",
+      "features": [
+        "军用生存刀",
+        "适合背后胁迫"
+      ],
+      "volumes": [
+        "vol-29"
+      ]
+    },
+    {
+      "id": "oxford-gown",
+      "type": "clothing",
+      "owner": "sherlock-holmes",
+      "description": "Sherlock wears Oxford academic dress to meet the student-clothes requirement for the second I-U reunion.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "oya-ak47",
+      "type": "weapon",
+      "owner": "oya-hiromi",
+      "description": "大矢弘美催租时携带的自动步枪，用枪口翻家具、威胁金次缴清房租。",
+      "features": [
+        "威慑",
+        "近距离暴力讨债"
+      ],
+      "volumes": [
+        "vol-32"
+      ]
+    },
+    {
+      "id": "pacino-winchester-m70-rifles",
+      "type": "sniper rifles",
+      "owner": "pacino-boss",
+      "description": "挂在帕基诺老大办公室墙上的七把温彻斯特M70不同口径步枪，象征其“洛杉矶死神”的狙击手过去。",
+      "features": [],
+      "volumes": [
+        "vol-30"
+      ]
+    },
+    {
+      "id": "peacock-feather-arrow",
+      "type": "weapon / ammunition",
+      "owner": "sarah",
+      "description": "莎拉射出的带孔雀尾羽与白铜箭头的箭，几乎无光无声，适合奇袭。",
+      "features": [
+        "无声",
+        "精准",
+        "破坏肌腱"
+      ],
+      "volumes": [
+        "vol-25"
+      ]
+    },
+    {
+      "id": "petra-cobra-belt",
+      "type": "pet-companion / equipment",
+      "owner": "petra",
+      "description": "佩特拉腰间看似蛇皮的真正眼镜蛇，在她制造大量砂蛇时混入其中并随她撤退。",
+      "features": [
+        "蛇形伪装",
+        "与砂蛇混淆",
+        "撤退辅助"
+      ],
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "petra-cobra-crown",
+      "type": "accessory",
+      "owner": "petra",
+      "description": "佩特拉头戴的眼镜蛇金冠，凸显埃及风格与王族/魔女气质。",
+      "features": [
+        "眼镜蛇造型",
+        "金色冠饰"
+      ],
+      "volumes": [
+        "vol-08"
+      ]
+    },
+    {
+      "id": "petra-crystal-ball",
+      "type": "artifact/accessory",
+      "owner": "petra",
+      "description": "佩特拉在宣战会议中手指转动的大水晶球，象征其沙砾魔女与伊·U主战派身份。",
+      "features": [
+        "大型水晶球",
+        "魔女/术者道具"
+      ],
+      "volumes": [
+        "vol-08",
+        "vol-15"
+      ]
+    },
+    {
+      "id": "petra-engagement-ring",
+      "type": "key-item",
+      "owner": "petra",
+      "description": "佩特拉与远山金一左手无名指上的白金指环，象征二人订婚和共同生活。",
+      "features": [
+        "白金材质",
+        "成对佩戴"
+      ],
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "petra-gold-jewelry",
+      "type": "artifact / equipment",
+      "owner": "petra",
+      "description": "佩特拉佩戴的黄金首饰，可被其沙砾魔法化为砂金和弯刀。",
+      "features": [
+        "黄金材质",
+        "可魔法转化为武器"
+      ],
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "petra-golden-scarab",
+      "type": "pet-companion / artifact",
+      "owner": "petra",
+      "description": "佩特拉使役的甲虫状使魔，可侦察并向佩特拉报告乃木神社发生的事。",
+      "features": [
+        "飞行侦察",
+        "停在佩特拉指环上"
+      ],
+      "volumes": [
+        "vol-18"
+      ]
+    },
+    {
+      "id": "petra-harley-motorcycle",
+      "type": "vehicle",
+      "owner": "petra",
+      "description": "佩特拉伪装潜入布尔坦赫时驾驶的重型机车，疑似撞落法兰兹并用于撤退。",
+      "features": [
+        "高速接近",
+        "撤退机动"
+      ],
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "petra-key-ring",
+      "type": "artifact / key-item",
+      "owner": "kinjo",
+      "description": "佩特拉用咒术与色金研究制作的金色指环，可在约五十公分范围内停止反色金机能。",
+      "features": [
+        "金色指环",
+        "刻有埃及象形文字",
+        "能让反色金变回普通金属"
+      ],
+      "volumes": [
+        "vol-27"
+      ]
+    },
+    {
+      "id": "petra-key",
+      "type": "artifact / key-item",
+      "owner": "zhuge-jinghuan",
+      "description": "诸葛持有的埃及风格小钥匙，由色金杀女碎片制成，可作为控制绯绯色金/孙人格的控制系统之一。诸葛用它让孙停止行动。",
+      "features": [
+        "控制孙",
+        "与色金杀女同源"
+      ],
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "piponya-costume",
+      "type": "equipment / costume",
+      "owner": "inui-sakura",
+      "description": "交通安全教室中乾樱穿着的警察吉祥物布偶装，用于主持短剧并降低小学生紧张感。",
+      "features": [
+        "猫耳",
+        "警察徽章",
+        "儿童教育演出"
+      ],
+      "volumes": [
+        "vol-35"
+      ]
+    },
+    {
+      "id": "polestar",
+      "type": "vehicle",
+      "owner": "i-u-nautilus",
+      "description": "",
+      "features": [],
+      "volumes": [
+        "vol-38"
+      ]
+    },
+    {
+      "id": "police-chemical-protection-vehicle",
+      "type": "vehicle-police",
+      "owner": "japanese-public-security",
+      "description": "",
+      "features": [],
+      "volumes": [
+        "vol-38"
+      ]
+    },
+    {
+      "id": "police-drone",
+      "type": "drone / forward observer",
+      "owner": "chhat-security-police",
+      "description": "A civilian drone used to correct mortar fire and transmit images. Meluette shoots its rotor, and Raru later writes a message to its camera.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "police-handcuffs",
+      "type": "equipment",
+      "owner": "shiranui",
+      "description": "刻有警察厅樱代纹的超硬合金手铐，不知火在狮堂宣布逮捕后铐住金次手腕。",
+      "features": [
+        "拘束目标",
+        "官方警察厅标识"
+      ],
+      "volumes": [
+        "vol-21"
+      ]
+    },
+    {
+      "id": "police-radio",
+      "type": "equipment",
+      "owner": "inui-sakura",
+      "description": "乾樱随身携带的警察无线电，用于向通信科和教官报告亚莉亚宿舍的可疑状况。",
+      "features": [
+        "警方通报留痕",
+        "通信科频道"
+      ],
+      "volumes": [
+        "vol-35"
+      ]
+    },
+    {
+      "id": "porsche-911-carrera-cabriolet",
+      "type": "vehicle",
+      "owner": "l-watson",
+      "description": "华生驾驶的敞篷保时捷，救援巴斯克维尔时装上紧急车辆红色回转灯并赶往地下品川。华生称其有自爆功能。",
+      "features": [
+        "敞篷跑车",
+        "紧急车辆回转灯",
+        "自爆功能（华生称）"
+      ],
+      "volumes": [
+        "vol-10",
+        "vol-11"
+      ]
+    },
+    {
+      "id": "predator-drone",
+      "type": "vehicle / weapon",
+      "owner": "marsh-roosevelt",
+      "description": "马许投入Trans-Am追击战的无人机群，发射导弹、榴霰弹并可自杀式冲撞。",
+      "features": [
+        "无人远端操纵",
+        "波状攻击",
+        "可改写程式应对煤炭球"
+      ],
+      "volumes": [
+        "vol-18"
+      ]
+    },
+    {
+      "id": "psyche-gal-precognition-stone",
+      "type": "artificial shroud crystal",
+      "owner": "",
+      "description": "从4号超能辣妹体内提取的垒球大小黄水晶状宝石。蕴含800人份的人工圣骸布能量，可将普通人转化为永久预知能力者。神父从超能辣妹体内取出后想用于建立神权国家。最终在Storch空战中被Kinji扔入第勒尼安海沉没。",
+      "features": [],
+      "volumes": [
+        "vol-43"
+      ]
+    },
+    {
+      "id": "qinglong-dao",
+      "type": "weapon/blade",
+      "owner": "cao-cao-melee",
+      "description": "曹操姐妹使用的刃宽重型中国刀，可砍开车门、斩毁座椅，也可用刀面抵挡枪击。",
+      "features": [
+        "宽刃重刀",
+        "可作盾牌",
+        "刀身刻龙形图案"
+      ],
+      "volumes": [
+        "vol-07",
+        "vol-13"
+      ]
+    },
+    {
+      "id": "qinglong-yanyue-dao",
+      "type": "weapon",
+      "owner": "kou-sun-wukong",
+      "description": "追车中蓝帮成员从楼上抛给孙的长柄弯刀，孙站在Z8上接住并架到背后，形象接近古代武神。",
+      "features": [
+        "长柄兵器",
+        "追车战视觉强化"
+      ],
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "raika-magpul-masada",
+      "type": "",
+      "owner": "",
+      "description": "",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "raika-masada",
+      "type": "weapon",
+      "owner": "raika",
+      "description": "莱卡在AA作战中携带的小队最强火力自动步枪。",
+      "features": [
+        "自动步枪",
+        "强火力"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "raika-palm-pistol",
+      "type": "weapon",
+      "owner": "raika",
+      "description": "莱卡用于CVR掌心雷训练的超小型双发式藏匿手枪，示范时抵在人型沙包上开枪。",
+      "features": [
+        "藏匿式",
+        "双发",
+        "近距离接触射击"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "raika-short-knife",
+      "type": "weapon",
+      "owner": "raika",
+      "description": "莱卡从裙下拔出并投掷的短刀，用来破坏麒麟播放羞耻宣言录音的录音笔。",
+      "features": [
+        "投掷",
+        "快速拔出"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "raphael-bakery-van",
+      "type": "vehicle",
+      "owner": "raphael",
+      "description": "拉斐尔从老家面包店借来的老旧厢型车，用于载E3班男生和冲浪板前往奥斯提亚海边。",
+      "features": [
+        "可载多人",
+        "带面包店标志",
+        "车况老旧"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "rapunzel-fa269-kai",
+      "type": "vehicle / aircraft",
+      "owner": "rapunzel",
+      "description": "哥本哈根分部以现代材料改造的纳粹末期奇特垂直起降机，被蕾芬洁用于抵达并逃离汤泽。",
+      "features": [
+        "垂直起降",
+        "冬季迷彩",
+        "运输Kettenkrad Icebell"
+      ],
+      "volumes": [
+        "vol-33"
+      ]
+    },
+    {
+      "id": "rapunzel-kettenkrad-icebell",
+      "type": "vehicle",
+      "owner": "rapunzel",
+      "description": "前轮改成滑雪板的Kettenkrad雪地型，由仙杜丽昂驾驶，用于把蕾芬洁从Fa269改送到燕峰阁并在会谈破局后逃回飞机。",
+      "features": [
+        "雪地高速行驶",
+        "可驶入Fa269改机舱",
+        "拨雪形成V形雪幕"
+      ],
+      "volumes": [
+        "vol-33"
+      ]
+    },
+    {
+      "id": "rapunzel-mp28",
+      "type": "weapon",
+      "owner": "rapunzel",
+      "description": "蕾芬洁从Kettenkrad侧面货箱取出的旧式冲锋枪，用以射击牵制追击中的卡羯和金次。",
+      "features": [
+        "连发射击",
+        "近中距离牵制"
+      ],
+      "volumes": [
+        "vol-33"
+      ]
+    },
+    {
+      "id": "rapunzel-panzerfaust-30-klein",
+      "type": "weapon",
+      "owner": "rapunzel",
+      "description": "蕾芬洁在汤泽树林中取出的反战车榴弹炮，用来轰塌雪檐而非直接命中金次和雪花。",
+      "features": [
+        "反装甲火箭弹",
+        "可造成地形破坏"
+      ],
+      "volumes": [
+        "vol-33"
+      ]
+    },
+    {
+      "id": "rapunzel-rekutia-flowers",
+      "type": "artifact / biological",
+      "owner": "rapunzel",
+      "description": "蕾芬洁从列库忒亚带回并栽入体内的异界花朵，装饰在拖地长发中，并与其生理状态同步。",
+      "features": [
+        "异界植物",
+        "随水分和热量状态变化",
+        "可能产生捕食藤蔓"
+      ],
+      "volumes": [
+        "vol-33"
+      ]
+    },
+    {
+      "id": "rasputina-6kh4-bayonet",
+      "type": "weapon",
+      "owner": "rasputina",
+      "description": "拉斯普丁纳用于威胁割下萜萜蒂和列萜蒂耳朵的旧苏联军突击刺刀。",
+      "features": [
+        "割裂威胁",
+        "人质胁迫"
+      ],
+      "volumes": [
+        "vol-32"
+      ]
+    },
+    {
+      "id": "rasputina-bikini-armor",
+      "type": "equipment/armor",
+      "owner": "rasputina",
+      "description": "拉斯普丁纳几乎裸露的莱克忒亚风铠甲，护肩等部件可偏开子弹。",
+      "features": [
+        "防弹偏转",
+        "轻装机动"
+      ],
+      "volumes": [
+        "vol-40"
+      ]
+    },
+    {
+      "id": "rasputina-magic-book",
+      "type": "artifact",
+      "owner": "rasputina",
+      "description": "拉斯普丁纳抢夺古代人民各族魔书后装订成的全集，按颜色分章节施展不同魔法。",
+      "features": [
+        "龙召唤",
+        "火焰环",
+        "闪电",
+        "魔法阵跳跃"
+      ],
+      "volumes": [
+        "vol-32"
+      ]
+    },
+    {
+      "id": "rasputina-prosthetic-claws",
+      "type": "weapon/equipment",
+      "owner": "rasputina",
+      "description": "拉斯普丁纳右前臂缺失后安装的五指钩爪假肢，能锁住刀刃并点燃作战。",
+      "features": [
+        "抓握锁定",
+        "切割",
+        "点火燃烧"
+      ],
+      "volumes": [
+        "vol-40"
+      ]
+    },
+    {
+      "id": "rasputina-yamaha-fazer",
+      "type": "vehicle",
+      "owner": "rasputina",
+      "description": "拉斯普丁纳骑乘的大红色YAMAHA FAZER，被她用于类似扫把/骑马战术的机车格斗。",
+      "features": [
+        "机车格斗",
+        "可与魔术推动配合"
+      ],
+      "volumes": [
+        "vol-32"
+      ]
+    },
+    {
+      "id": "razzo",
+      "type": "consumable",
+      "owner": "远山金次（武侦手册内置）",
+      "description": "一种具有强烈回神和止痛效果的武侦急救药物，是肾上腺素和吗啡的融合体。需要直接注射在心脏上才能发挥最大效力。被视为最后手段的复活药。",
+      "features": [
+        "需心脏注射",
+        "强效复苏",
+        "半兴奋剂"
+      ],
+      "volumes": [
+        "vol-01"
+      ]
+    },
+    {
+      "id": "red-heaven-hakkaku",
+      "type": "weapon",
+      "owner": "en",
+      "description": "阎使用的血红色八角柱狼牙棒，形状比一般狼牙棒更接近棒状，能承载阎的鬼族怪力。",
+      "features": [
+        "重型打击",
+        "可粉碎钢筋水泥"
+      ],
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "refleks-missile",
+      "type": "anti-tank missile",
+      "owner": "chhat-security-police",
+      "description": "A missile launched ballistically after other weapons fail. Kinji redirects it in midair into Carbuncle's half-circle magic array.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "reki-bayonet",
+      "type": "weapon",
+      "owner": "reki",
+      "description": "蕾姬藏在裙中的刺刀，可装到德拉古诺夫前端，使狙击枪瞬间变成长枪。她在泼水祭中违反徒手规则，以刺刀术压制亚莉亚。",
+      "features": [
+        "可装枪",
+        "近身突刺",
+        "隐藏携带"
+      ],
+      "volumes": [
+        "vol-06"
+      ]
+    },
+    {
+      "id": "reki-butei-bullets",
+      "type": "ammunition",
+      "owner": "reki",
+      "description": "蕾姬随身携带的特殊强化狙击弹。本卷明确展示闪光弹、音响弹与炸裂弹：闪光弹封住昭昭的微光夜视瞄准镜，音响弹攻击集音器与听觉，炸裂弹则作为重伤后准备用于同归于尽的最后手段。",
+      "features": [
+        "强光干扰夜视设备",
+        "冲击音波干扰集音器和听觉",
+        "可作为爆炸弹使用"
+      ],
+      "volumes": [
+        "vol-06"
+      ]
+    },
+    {
+      "id": "reki-butei-sailor-uniform",
+      "type": "clothing",
+      "owner": "reki",
+      "description": "Reki changes from male disguise into her standard Butei High sailor uniform according to her strict schedule.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "reki-dragunov-svd",
+      "type": "weapon",
+      "owner": "reki",
+      "description": "蕾姬携带到香港的分解式狙击步枪，装在铝制手提箱中并放置于OZONE墙边。",
+      "features": [
+        "可分解携行",
+        "狙击用途"
+      ],
+      "volumes": [
+        "vol-13",
+        "vol-14",
+        "vol-29"
+      ]
+    },
+    {
+      "id": "reki-dragunov",
+      "type": "sniper rifle",
+      "owner": "reki",
+      "description": "蕾姬的主武器。本卷主要在卷末作为巴斯克维尔遇袭证据出现：德拉古诺夫与亚莉亚双枪、白雪色金杀女、理子德林吉一起被随意堆放并拍照发给金次。",
+      "features": [
+        "远距离精密狙击",
+        "蕾姬身份象征",
+        "G血族袭击的证据物"
+      ],
+      "volumes": [
+        "vol-06",
+        "vol-18",
+        "vol-24",
+        "vol-36"
+      ]
+    },
+    {
+      "id": "reki-sarah-portrait",
+      "type": "key-item",
+      "owner": "kinji",
+      "description": "雷姬凭记忆用铅笔画出的莎拉肖像，逼真如黑白照片，用于开罗走访搜查。",
+      "features": [
+        "目标识别",
+        "搜查线索"
+      ],
+      "volumes": [
+        "vol-40"
+      ]
+    },
+    {
+      "id": "reki-sketchbook",
+      "type": "equipment",
+      "owner": "reki",
+      "description": "Sketchbook Reki happens to have at China's birthday; China draws her family and dragon-mother image on it.",
+      "features": [
+        "drawing paper"
+      ],
+      "volumes": [
+        "vol-41"
+      ]
+    },
+    {
+      "id": "reki-svd",
+      "type": "weapon",
+      "owner": "蕾姬",
+      "description": "蕾姬使用的轻型半自动狙击步枪，俄罗斯德拉古诺夫公司设计。符合她纤细体型和狙击风格。在公车挟持事件中从直升机上进行高难度狙击。",
+      "features": [
+        "轻型",
+        "半自动"
+      ],
+      "volumes": [
+        "vol-01"
+      ]
+    },
+    {
+      "id": "reki-white-dress",
+      "type": "clothing",
+      "owner": "reki",
+      "description": "金次在大阪心斋桥Chatonb为蕾姬购买的白色无袖连身裙与凉鞋。店员为蕾姬化淡妆和整理头发后，金次意识到她像高级流行杂志模特一样美丽。",
+      "features": [
+        "不妨碍战斗的轻便服装",
+        "象征蕾姬的人类化与情感萌芽"
+      ],
+      "volumes": [
+        "vol-06"
+      ]
+    },
+    {
+      "id": "reki-wind-recording",
+      "type": "recording",
+      "owner": "reki",
+      "description": "蕾姬经常用耳机聆听的风声录音。她称这是故乡风声，用来让心灵保持在与风共同成长的时光；中空知分析后推断录音来自蒙古北部到东西伯利亚之间的高海拔草原。",
+      "features": [
+        "长时间风声",
+        "隐含蕾姬故乡线索",
+        "与蕾姬所谓风的教条相关"
+      ],
+      "volumes": [
+        "vol-06"
+      ]
+    },
+    {
+      "id": "reki-zero-halliburton-case",
+      "type": "case",
+      "owner": "reki",
+      "description": "Contains sniper ammunition, U.S. dollar cash and Calorie Mate in Reki's sparse hotel room.",
+      "features": [],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "remi-ellia-delvaux-bag",
+      "type": "equipment",
+      "owner": "remi-ellia",
+      "description": "雷米艾莉雅借用洛嘉的德尔沃手包，在与金次争执时当作盾牌和武器。",
+      "features": [
+        "名牌包",
+        "被打瘪"
+      ],
+      "volumes": [
+        "vol-44"
+      ]
+    },
+    {
+      "id": "remi-ellia-fools-gold",
+      "type": "artifact / key-item",
+      "owner": "remi-ellia",
+      "description": "雷米艾莉雅倒给美羽的豆粒大小金粒，实为通过愚者之金法术欺骗店方的伪金。",
+      "features": [
+        "被愚者视为黄金",
+        "可支付高额香槟塔"
+      ],
+      "volumes": [
+        "vol-44"
+      ]
+    },
+    {
+      "id": "remi-ellia-lectia-sword",
+      "type": "weapon / artifact",
+      "owner": "remi-ellia",
+      "description": "雷米艾莉雅的宝剑，配银鞘；用于合气剑术与释放断罪的圣熄光。",
+      "features": [
+        "可释放光条魔术",
+        "与银鞘一同携带"
+      ],
+      "volumes": [
+        "vol-44"
+      ]
+    },
+    {
+      "id": "remi-ellia-white-fan",
+      "type": "equipment",
+      "owner": "remi-ellia",
+      "description": "雷米艾莉雅在煌用来敲金次额头和配合女神姿态的白色羽扇。",
+      "features": [
+        "装饰性强",
+        "符合雷霆天使形象"
+      ],
+      "volumes": [
+        "vol-44"
+      ]
+    },
+    {
+      "id": "remi-ellia-zanotti-heels",
+      "type": "equipment",
+      "owner": "remi-ellia",
+      "description": "雷米艾莉雅穿的白色名牌高跟鞋，卷中用于踢金次，后来出现在GIII家玄关。",
+      "features": [
+        "高价名牌",
+        "白色"
+      ],
+      "volumes": [
+        "vol-44"
+      ]
+    },
+    {
+      "id": "remielia-delvaux-bag",
+      "type": "accessory",
+      "owner": "",
+      "description": "雷米艾莉雅从洛嘉房间擅自取用的德尔沃(DELVAUX) Brillant系列白色手提包。比利时皇室御用品牌的高级手袋。",
+      "features": [],
+      "volumes": [
+        "vol-43",
+        "vol-44"
+      ]
+    },
+    {
+      "id": "remielia-fools-gold",
+      "type": "artifact / key-item",
+      "owner": "remielia",
+      "description": "雷米艾莉雅倒给美羽的豆粒大小金粒，实为通过愚者之金法术欺骗店方的伪金。",
+      "features": [
+        "被愚者视为黄金",
+        "可支付高额香槟塔"
+      ],
+      "volumes": [
+        "vol-44"
+      ]
+    },
+    {
+      "id": "remielia-lectia-sword",
+      "type": "weapon / artifact",
+      "owner": "remielia",
+      "description": "雷米艾莉雅的宝剑，配银鞘；用于合气剑术与释放断罪的圣熄光。",
+      "features": [
+        "可释放光条魔术",
+        "与银鞘一同携带"
+      ],
+      "volumes": [
+        "vol-44"
+      ]
+    },
+    {
+      "id": "remielia-silver-sword",
+      "type": "weapon",
+      "owner": "",
+      "description": "银鞘宝剑，布满精美雕刻且沟槽镶金。花卉植物镂空护手。剑身纤细适用于刺击，比西洋细剑更厚实（类似破甲剑Estoc）。放血槽刻有植物纹路，与萜萜蒂之剑和蕾芬洁的冰花类似——是莱克忒亚的宝剑。",
+      "features": [],
+      "volumes": [
+        "vol-43"
+      ]
+    },
+    {
+      "id": "remielia-white-fan",
+      "type": "equipment",
+      "owner": "remielia",
+      "description": "雷米艾莉雅在煌用来敲金次额头和配合女神姿态的白色羽扇。",
+      "features": [
+        "装饰性强",
+        "符合雷霆天使形象"
+      ],
+      "volumes": [
+        "vol-44"
+      ]
+    },
+    {
+      "id": "remielia-zanotti-heels",
+      "type": "equipment",
+      "owner": "remielia",
+      "description": "雷米艾莉雅穿的白色名牌高跟鞋，卷中用于踢金次，后来出现在GIII家玄关。",
+      "features": [
+        "高价名牌",
+        "白色"
+      ],
+      "volumes": [
+        "vol-44"
+      ]
+    },
+    {
+      "id": "remote-bombs",
+      "type": "remote explosive vehicles",
+      "owner": "chhat-security-police",
+      "description": "Small tracked or wheeled explosive vehicles sent down into Carbuncle's basin; Kinji, Lucifelia and Watson destroy them before they reach the shrine.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "reteti-short-knife",
+      "type": "weapon",
+      "owner": "reteti",
+      "description": "列萜蒂护卫时使用的短刀，常与萜萜蒂协同。",
+      "features": [
+        "短距离近战",
+        "双胞胎协同"
+      ],
+      "volumes": [
+        "vol-32"
+      ]
+    },
+    {
+      "id": "revolution-gun-md-series",
+      "type": "weapon / key-item / technology-data",
+      "owner": "beretta",
+      "description": "贝瑞塔原计划发表的3D列印低价枪械资料系列，可用瓶盖等廉价材料制造掌心雷、左轮、自动手枪、狙击枪、冲锋枪等。",
+      "features": [
+        "低成本量产",
+        "资料下载销售",
+        "会大幅扩散全球武器"
+      ],
+      "volumes": [
+        "vol-25"
+      ]
+    },
+    {
+      "id": "riko-aerobrake-uniform",
+      "type": "equipment",
+      "owner": "riko",
+      "description": "理子身上的改造制服，可在解开背后蝴蝶结后展开成滑翔翼/降落伞，用于高速车辆空力刹车。",
+      "features": [
+        "滑翔翼展开",
+        "空力刹车",
+        "伪装成制服"
+      ],
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "riko-clock-smoke-grenade",
+      "type": "equipment / weapon",
+      "owner": "riko",
+      "description": "理子从红色小学生书包中弹出的怀表形伪装手榴弹，本次使用水蒸气烟幕而非杀伤性弹药。",
+      "features": [
+        "伪装成怀表",
+        "可制造浓烟",
+        "适合撤退"
+      ],
+      "volumes": [
+        "vol-22"
+      ]
+    },
+    {
+      "id": "riko-flash-watch",
+      "type": "equipment / weapon",
+      "owner": "riko",
+      "description": "理子袖中取出的怀表形闪光弹，决战中被伪装成毒物投向海卓拉，用强光干扰阿斯库勒庇欧斯。",
+      "features": [
+        "伪装成怀表",
+        "低声响强闪光",
+        "适合突袭开局"
+      ],
+      "volumes": [
+        "vol-29"
+      ]
+    },
+    {
+      "id": "riko-hair-knives",
+      "type": "weapon",
+      "owner": "riko",
+      "description": "理子用双马尾操控的小刀，本卷配合双华尔瑟在希尔达袭击时摆出双剑双枪架式。",
+      "features": [
+        "发丝持刀",
+        "多方向牵制"
+      ],
+      "volumes": [
+        "vol-08"
+      ]
+    },
+    {
+      "id": "riko-instant-camera",
+      "type": "equipment",
+      "owner": "riko / later livia",
+      "description": "Instant camera used to photograph China and later taken by Livia to Lectea; its final film produces a photo of China receiving treatment.",
+      "features": [
+        "instant film"
+      ],
+      "volumes": [
+        "vol-41"
+      ]
+    },
+    {
+      "id": "riko-luluirokane-cross",
+      "type": "artifact / key-item",
+      "owner": "riko",
+      "description": "理子从弗拉德处夺回的十字架，内含微量琉琉色金，是其父母遗物。",
+      "features": [
+        "可作为色金相关感应/调查媒介",
+        "承载家族遗物意义"
+      ],
+      "volumes": [
+        "vol-22"
+      ]
+    },
+    {
+      "id": "riko-paraglider-uniform",
+      "type": "equipment",
+      "owner": "riko",
+      "description": "理子防弹水手服中的怪盗逃亡装备，可解开并展开为滑翔伞，用缎带控制飞行。",
+      "features": [
+        "快速换装后部署",
+        "用于高处逃亡",
+        "可重新收回成制服形态"
+      ],
+      "volumes": [
+        "vol-22"
+      ]
+    },
+    {
+      "id": "riko-rose-quartz-seal",
+      "type": "key-item",
+      "owner": "riko",
+      "description": "金次曾拥有的玫瑰晶印章，被理子收在书包中并拒绝归还。",
+      "features": [
+        "尚未登记使用",
+        "具有纪念意义"
+      ],
+      "volumes": [
+        "vol-22"
+      ]
+    },
+    {
+      "id": "riko-vespa",
+      "type": "vehicle",
+      "owner": "riko",
+      "description": "理子骑到远山家催促金次与雪花拍摄生诞祭动画的机车。",
+      "features": [
+        "扰邻引擎声",
+        "机动到访"
+      ],
+      "volumes": [
+        "vol-35"
+      ]
+    },
+    {
+      "id": "riko-walther-p99",
+      "type": "weapon",
+      "owner": "峰·理子·罗苹四世",
+      "description": "峰·理子·罗苹四世使用的双枪，德国华尔瑟公司制造。容量16发。在ANA600上她使用双P99与亚莉亚近距离手枪战。",
+      "features": [
+        "16发大容量",
+        "双枪同时使用"
+      ],
+      "volumes": [
+        "vol-01",
+        "vol-13",
+        "vol-14",
+        "vol-29"
+      ]
+    },
+    {
+      "id": "riko-weapons",
+      "type": "weapons-set",
+      "owner": "riko",
+      "description": "",
+      "features": [],
+      "volumes": [
+        "vol-38"
+      ]
+    },
+    {
+      "id": "riko-winchester-m1887",
+      "type": "shotgun / hidden weapon",
+      "owner": "riko",
+      "description": "理子藏在向日葵花束中的截短温切斯M1887霰弹枪。本卷作为最终底牌，以一百发以上软铁小弹覆盖希尔达全身，命中未知位置魔脏并导致其回复失效。",
+      "features": [
+        "大范围霰弹覆盖",
+        "无需知道魔脏确切位置",
+        "适合对抗弱点位置被隐藏的吸血鬼"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "rim7-sea-sparrow",
+      "type": "weapon / missile",
+      "owner": "nemo",
+      "description": "诺契勒斯用于迎击伊·U战斧巡弋飞弹的单舰防空飞弹。",
+      "features": [
+        "扇骨状发射",
+        "暴风碎片弹头",
+        "自动检测异常自爆"
+      ],
+      "volumes": [
+        "vol-35"
+      ]
+    },
+    {
+      "id": "ringo-ribbon",
+      "type": "key-item",
+      "owner": "akashi-ringo",
+      "description": "明磊林檎的蝴蝶结缎带，被猿田作为假人质证据送到金次面前。",
+      "features": [
+        "证明林檎似乎被挟持",
+        "诱导金次行动"
+      ],
+      "volumes": [
+        "vol-32"
+      ]
+    },
+    {
+      "id": "rinzo-two-swords",
+      "type": "weapon",
+      "owner": "mamiya-rinzo",
+      "description": "间宫林藏在长崎逃亡与反击中携带的双刀，因武装沉重使他脚速不及追兵。",
+      "features": [
+        "二刀流",
+        "太刀",
+        "打刀"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "ririirokane-lake-mass",
+      "type": "artifact",
+      "owner": "riri-god",
+      "description": "蕾姬故乡哈尔乌苏湖湖底的自然状态璃璃色金，直径约十米、高约三米，外形类似斗笠。",
+      "features": [
+        "自然未加工色金",
+        "湖底水藻覆盖",
+        "斗笠形态"
+      ],
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "roasted-chestnuts",
+      "type": "consumable",
+      "owner": "kamui-ito",
+      "description": "可鹉韦经常吃的零食。卷中在Crown车内和图书馆都出现，金次也多次抢来吃。",
+      "features": [
+        "零食",
+        "人物习惯标记"
+      ],
+      "volumes": [
+        "vol-23"
+      ]
+    },
+    {
+      "id": "roger-castle",
+      "type": "consumable / ceremony",
+      "owner": "tammy",
+      "description": "塔米为赔罪和争夺响而点的12瓶罗杰·格拉特，按煌叫法为罗杰城堡。",
+      "features": [
+        "12瓶罗杰·格拉特",
+        "对牛郎返还率70%",
+        "桌面外围如城墙排列"
+      ],
+      "volumes": [
+        "vol-44"
+      ]
+    },
+    {
+      "id": "roman-butei-nero-uniform",
+      "type": "equipment",
+      "owner": "kinji",
+      "description": "罗马武侦高中规定的黑色防弹制服制色，金次以梅露爱特寄来的黑色西装替代。",
+      "features": [
+        "防弹",
+        "黑色制式",
+        "可佩武侦徽章"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "rome-butei-badge",
+      "type": "key-item",
+      "owner": "kinji",
+      "description": "金次从附属中学/东京武侦高中时代使用到罗马的武侦徽章，象征其学生武侦身份。",
+      "features": [
+        "身份象征",
+        "日本制刺绣不同于义大利制"
+      ],
+      "volumes": [
+        "vol-25"
+      ]
+    },
+    {
+      "id": "romeo-handcuffs",
+      "type": "equipment",
+      "owner": "romeo",
+      "description": "罗密欧声称要进行锁链生死战时拿出的钢铁手铐，却卑鄙地只铐住金次双手。",
+      "features": [
+        "束缚双手",
+        "决斗欺诈"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "romeo-iron-balls",
+      "type": "weapon / equipment",
+      "owner": "romeo",
+      "description": "罗密欧在锁链生死战中握在拳中增强打击力的铁球。",
+      "features": [
+        "增强拳击打击力",
+        "隐蔽握持"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "romeo-jericho-941",
+      "type": "weapon",
+      "owner": "romeo",
+      "description": "罗密欧在阿兰事件中使用的手枪，装有消音器，先用于射击接近阿兰，后在败北后背后偷袭金次。",
+      "features": [
+        "消音器",
+        "近中距手枪射击"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "rorosa-wyvern",
+      "type": "pet-companion / vehicle / supernatural-creature",
+      "owner": "valkyrja",
+      "description": "瓦尔基丽雅骑乘的巨型飞龙，具备高空俯冲、鳞片防弹、喷吐高温火焰和酸性雾状分泌物的能力。",
+      "features": [
+        "高速俯冲",
+        "防弹鳞片",
+        "喷火与酸雾",
+        "可搭载骑手"
+      ],
+      "volumes": [
+        "vol-27"
+      ]
+    },
+    {
+      "id": "sailor-mars-cosplay",
+      "type": "equipment",
+      "owner": "beretta",
+      "description": "贝瑞塔用于减压的水手火星Cosplay服，包括黑长假发、红色水手服、白手套和红高跟鞋。",
+      "features": [
+        "角色扮演",
+        "心理减压",
+        "日本动画爱好象征"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "sailor-mars-wand",
+      "type": "key-item",
+      "owner": "beretta",
+      "description": "金次赠予贝瑞塔的日本动画周边，被贝瑞塔当作护身符与改变自我的象征。",
+      "features": [
+        "精神支柱",
+        "简报前握持鼓励自己",
+        "也被贝瑞塔拿来敲打金次"
+      ],
+      "volumes": [
+        "vol-25"
+      ]
+    },
+    {
+      "id": "samurai-zero-mask",
+      "type": "equipment",
+      "owner": "kinji",
+      "description": "贝瑞塔设计制作的蒙面英雄面具，由设计测试用黑面具改造而成。全脸覆盖，魔术镜结构可从内侧清楚看到外部。NIJ ⅢA级防弹（可挡.44马格南，军用NATO子弹会贯穿）。触发方式为声控启动动作（这片樱花吹雪...）和后颈开关。面具平时收纳在立领背后保护后颈部，使用时弹出合上。说话时面具上的樱花标志会闪烁。",
+      "features": [
+        "全脸防弹",
+        "魔术镜视野",
+        "声控/开关双触发",
+        "樱花发光标志",
+        "防.44马格南"
+      ],
+      "volumes": [
+        "vol-42",
+        "vol-43"
+      ]
+    },
+    {
+      "id": "sarah-alex-mouse",
+      "type": "key-item",
+      "owner": "sarah",
+      "description": "莎拉从小带在身边的老鼠玩偶，十分老旧且多处缝补，是她失眠时必需的朋友。",
+      "features": [
+        "心理弱点",
+        "安眠依赖"
+      ],
+      "volumes": [
+        "vol-40"
+      ]
+    },
+    {
+      "id": "sarah-arrow-case",
+      "type": "equipment",
+      "owner": "sarah-han",
+      "description": "莎拉携带的行李箱式箭矢装备，在追击和AH-1撤退中持续提供箭矢。",
+      "features": [
+        "装弓箭",
+        "行李箱外观"
+      ],
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "sarah-arrow-kit",
+      "type": "weapon/equipment",
+      "owner": "sarah",
+      "description": "莎拉腰包内的箭镞、备用弦、孔雀羽、炸药、工具和胶水等弓箭维护与攻击组件。",
+      "features": [
+        "抛射箭",
+        "爆破",
+        "现场维护箭羽"
+      ],
+      "volumes": [
+        "vol-40"
+      ]
+    },
+    {
+      "id": "sarah-arrows",
+      "type": "weapon",
+      "owner": "sarah",
+      "description": "莎拉使用的箭矢，带孔雀羽装饰，可在风魔法导向下弹开子弹。富岳上被金次全部丢出机外以解除武装。",
+      "features": [
+        "孔雀羽",
+        "可导向",
+        "配合风魔法"
+      ],
+      "volumes": [
+        "vol-17",
+        "vol-24"
+      ]
+    },
+    {
+      "id": "sarah-bow",
+      "type": "weapon",
+      "owner": "sarah-han",
+      "description": "莎拉·汉使用的弓，配合风术与罗宾·汉系箭术进行高速狙击；在AH-1空战中弓弦被金次射断。",
+      "features": [
+        "高精度弓",
+        "弓弦被射断"
+      ],
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "sarah-broccoli-seedlings",
+      "type": "consumable / key-item",
+      "owner": "sarah",
+      "description": "莎拉偷偷种在贝瑞塔庭院稻草人背后的宝塔花菜新芽，被金次发现后成为牵制莎拉的把柄。",
+      "features": [
+        "莎拉极度重视",
+        "可作为谈判把柄"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "sarah-longbow",
+      "type": "weapon",
+      "owner": "sarah-han",
+      "description": "莎拉持有的长弓与带孔雀羽毛的箭矢，可在风术操控下像导弹般变轨。",
+      "features": [
+        "风导箭矢",
+        "远距狙击",
+        "死刑执行"
+      ],
+      "volumes": [
+        "vol-16",
+        "vol-17",
+        "vol-23",
+        "vol-24",
+        "vol-25",
+        "vol-40"
+      ]
+    },
+    {
+      "id": "saruta-hecate-ii",
+      "type": "weapon",
+      "owner": "saruta-kunihiko",
+      "description": "猿田使用的反器材狙击枪，尼加拉狙击茉斩，地下品川对拉斯普丁纳开火时被隐形龙咬损。",
+      "features": [
+        "超远距离狙击",
+        "高威力"
+      ],
+      "volumes": [
+        "vol-32"
+      ]
+    },
+    {
+      "id": "sasaki-swords",
+      "type": "weapon",
+      "owner": "sasaki-shino",
+      "description": "志乃使用的两把刀：1）通称晒衣竿的超长日本刀（150cm以上），大陆传来，日本打造的刀身，柄头有中国刀常见的金属环。2）名为军刀的西洋刀外形、日本关市刀工匠锻造的日本刀（约70cm），铸造刀而非锻造刀。",
+      "features": [
+        "晒衣竿极长杀伤范围",
+        "军刀不易折不易断"
+      ],
+      "volumes": [
+        "vol-01"
+      ]
+    },
+    {
+      "id": "sashimi-costume",
+      "type": "item",
+      "owner": "sashimi",
+      "description": "刺身美假扮海猫大人的全套行头：黑色连身泳衣、海草做的假发、猫耳装饰、爪套、尾巴。海草假发覆盖上半身，使外人难以识别。",
+      "features": [],
+      "volumes": [
+        "vol-04"
+      ]
+    },
+    {
+      "id": "satsuki-cristal-champagne",
+      "type": "consumable",
+      "owner": "satsuki-mei",
+      "description": "皋月为金次开的高价香槟，每瓶20万日元。她第一夜赊账两瓶，第二夜预付一瓶。",
+      "features": [
+        "透明瓶源于防暗杀传说",
+        "煌售价20万日元"
+      ],
+      "volumes": [
+        "vol-44"
+      ]
+    },
+    {
+      "id": "satsuki-sleeping-pills",
+      "type": "consumable",
+      "owner": "satsuki-mei",
+      "description": "皋月携带的市售安眠药，4板共计2.4克，超过致死量；原打算与酒同服自杀。",
+      "features": [
+        "一次用量50毫克",
+        "总量超过致死量2克",
+        "与酒精并用危险"
+      ],
+      "volumes": [
+        "vol-44"
+      ]
+    },
+    {
+      "id": "saxon-sword",
+      "type": "weapon/sword",
+      "owner": "kinji",
+      "description": "金次身上可与蝴蝶刀构成双剑概念的长刃武器，车顶战前被他纳入双剑双枪构想。",
+      "features": [
+        "近战备用剑",
+        "可配合蝴蝶刀构成双剑"
+      ],
+      "volumes": [
+        "vol-07"
+      ]
+    },
+    {
+      "id": "sayon-glock-18c",
+      "type": "weapon",
+      "owner": "sayon",
+      "description": "赛恩持有的合成树脂枪身手枪，装有内藏式灭音器并使用达姆弹威吓。",
+      "features": [
+        "内藏式灭音器",
+        "达姆弹",
+        "主动撞针式"
+      ],
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "sayon-mp5k",
+      "type": "weapon",
+      "owner": "sayon",
+      "description": "赛恩在卡多根餐厅和追逐战中使用的短枪身MP5K冲锋枪。",
+      "features": [
+        "Kurz短枪身",
+        "高命中精度"
+      ],
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "sayon-pen-rope",
+      "type": "equipment",
+      "owner": "sayon",
+      "description": "赛恩携带的钢笔伪装绳索工具，用于空中追逐、攀附和救援。",
+      "features": [
+        "钢笔伪装",
+        "射出细绳"
+      ],
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "sayon-triumph-thunderbird",
+      "type": "vehicle",
+      "owner": "sayon",
+      "description": "赛恩在泰晤士追逐中从骑士处夺取的象牙白重型机车，用于追赶金次和鬼族。",
+      "features": [
+        "1600cc级重型机车",
+        "高机动追击"
+      ],
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "scarlet-bullet",
+      "type": "artifact",
+      "owner": "原为夏洛克·福尔摩斯→现为神崎·H·亚莉亚",
+      "description": "夏洛克从弹匣中取出的一发子弹，弹头似血、似火、似蔷薇，呈现绯色。这是真正的「绯弹」本体。实际上其本质是绯金（绯绯色金），一种能赋予人类超常能力的金属。",
+      "features": [
+        "延寿功能",
+        "可赋予超能力"
+      ],
+      "volumes": [
+        "vol-05",
+        "vol-19"
+      ]
+    },
+    {
+      "id": "scarlet-shell-crystal",
+      "type": "artifact / sealing shell",
+      "owner": "aria",
+      "description": "包覆亚莉亚心脏绯弹、阻绝绯绯色金与人心连结的外壳结晶。本卷华生从希尔达身上回收一颗交给金次，玉藻随后将其中一枚放回亚莉亚体内。",
+      "features": [
+        "可结晶化成深绯色宝石",
+        "对亚莉亚稳定性至关重要",
+        "成为极东战役争夺目标"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "scorpion-tail-sickle",
+      "type": "weapon",
+      "owner": "tooyama-kinichi",
+      "description": "加奈的隐藏武器。将藏于发中的金属片通过细绳连接自动组装成大镰刀，再与袖中的三节棍式金属棒组合。刀刃涂深蓝色以防被发现。在HSS状态下挥舞可达超音速，产生蒸气锥。",
+      "features": [
+        "藏于发中可随身携带",
+        "自动组装",
+        "超音速挥舞可能"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "scramasax-christmas-tree",
+      "type": "weapon / artifact",
+      "owner": "kinji",
+      "description": "金次随身携带的萨克逊剑在屋顶决斗中被投到如意棒射线上吸收雷射，熔成半开伞/圆锥形。战后金次把亚莉亚子弹形成的星形弹头放在顶端，临时做成亚莉亚要求的圣诞树。",
+      "features": [
+        "雷射防御核心",
+        "圣诞树纪念物",
+        "大英帝国至宝"
+      ],
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "scramasax",
+      "type": "weapon",
+      "owner": "夏洛克·福尔摩斯",
+      "description": "夏洛克手杖中暗藏的单刃剑。活跃于公元四到十一世纪的欧洲制强韧单刀剑。据说是从女王陛下那里借来的大英帝国珍宝。",
+      "features": [
+        "隐藏于手杖中",
+        "锋利无比"
+      ],
+      "volumes": [
+        "vol-05",
+        "vol-10",
+        "vol-13"
+      ]
+    },
+    {
+      "id": "sekka-butei-high-uniform",
+      "type": "equipment",
+      "owner": "sekka",
+      "description": "亚莉亚告知雪花其为防弹服后，雪花在天山出击和哈巴谷号决战中穿着它，象征其进一步进入现代女性身份。",
+      "features": [
+        "防弹制服",
+        "长袖水手服",
+        "战斗服"
+      ],
+      "volumes": [
+        "vol-34"
+      ]
+    },
+    {
+      "id": "sekka-izuminokami-kanesada",
+      "type": "weapon",
+      "owner": "sekka",
+      "description": "雪花佩刀，外观为军刀。本卷用于砍断荆棘、施展绯焰与焰秋花、在冰甲板和树根围笼上制造破口。",
+      "features": [
+        "刀剑",
+        "可作为远山家体术与星伽火术媒介"
+      ],
+      "volumes": [
+        "vol-34"
+      ]
+    },
+    {
+      "id": "sekka-maid-outfit",
+      "type": "equipment",
+      "owner": "sekka",
+      "description": "理子用金次经费购买并转交给雪花的女仆装。它触发雪花对可爱服装、女性身份和战后偶像舞蹈梦想的接受。",
+      "features": [
+        "水手服衣领",
+        "迷你裙",
+        "围裙",
+        "发箍",
+        "蓬蓬裙"
+      ],
+      "volumes": [
+        "vol-34"
+      ]
+    },
+    {
+      "id": "sekka-navy-uniform",
+      "type": "equipment",
+      "owner": "sekka",
+      "description": "雪花作为旧日本海军军官的象征服装。本卷在横须贺、卡尔·文森号登舰和现代/旧时代冲突场景中反复出现。",
+      "features": [
+        "旧日本海军军服",
+        "配军帽"
+      ],
+      "volumes": [
+        "vol-34"
+      ]
+    },
+    {
+      "id": "sekka-type-14-pistol",
+      "type": "weapon",
+      "owner": "sekka",
+      "description": "雪花随身携带的旧日本军手枪。在卡尔·文森号上曾因警戒美军而触碰保险，在哈巴谷号内用于威吓仙杜丽昂。",
+      "features": [
+        "旧日本军制式手枪",
+        "扳机较轻"
+      ],
+      "volumes": [
+        "vol-34"
+      ]
+    },
+    {
+      "id": "sema-hari-tanker",
+      "type": "vehicle / key-item",
+      "owner": "kagge-glasse",
+      "description": "被卡羯劫持的十五万吨级新加坡船籍油轮，满载石油并驶向维多利亚港。卡羯计划使其泄漏石油并引发港湾级燃料空气灾害。",
+      "features": [
+        "满载石油",
+        "可造成港湾级灾害",
+        "甲板宽大且防弹"
+      ],
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "serina-hairband",
+      "type": "key-item",
+      "owner": "kojima-serina",
+      "description": "小岛芹奈的发箍，被猿田假借金次名义取得后作为假人质证据随无人机送到金次面前。",
+      "features": [
+        "证明学生似乎被控制",
+        "诱导金次行动"
+      ],
+      "volumes": [
+        "vol-32"
+      ]
+    },
+    {
+      "id": "serpent-swords",
+      "type": "weapon",
+      "owner": "cao-cao-melee",
+      "description": "猛妹在蓝帮城死亡游戏中从墙上取下的双剑。刀刃呈波浪形，造成伤口更深且难以愈合，被她用于醉剑式一楼决斗。",
+      "features": [
+        "双剑",
+        "波浪刃",
+        "适合醉剑不规则轨迹"
+      ],
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "shachi-springfield-xd",
+      "type": "weapon",
+      "owner": "shachi-kuniko",
+      "description": "鯱国子使用的双枪，克罗埃西亚制造的半自动手枪。",
+      "features": [],
+      "volumes": [
+        "vol-04"
+      ]
+    },
+    {
+      "id": "shell-gold",
+      "type": "artifact / key-item",
+      "owner": "aria",
+      "description": "包覆在亚莉亚心脏附近绯弹外层、用于抑制不良影响的结晶。诸葛在蓝帮城中将其归还给金次，作为讲和与让众人尽快回日本的诱因。",
+      "features": [
+        "绯弹抑制关联",
+        "谈判筹码"
+      ],
+      "volumes": [
+        "vol-14",
+        "vol-19"
+      ]
+    },
+    {
+      "id": "sherlock-gold-watch",
+      "type": "equipment",
+      "owner": "sherlock-holmes",
+      "description": "夏洛克拿出的金色怀表，用以确认N现身时间和自己的推理。",
+      "features": [
+        "计时",
+        "绅士侦探象征"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "sherlock-invitations",
+      "type": "letters",
+      "owner": "sherlock-holmes",
+      "description": "Invitations sealed with a Holmes 'H' used to invite Nemo, Lucifelia and others to the reunion/alliance meeting.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "sherlock-pipe",
+      "type": "equipment",
+      "owner": "sherlock-holmes",
+      "description": "夏洛克在广场大酒店会谈中取出的烟斗，用于缓和紧张并维持其绅士侦探形象。",
+      "features": [
+        "吸烟",
+        "侦探象征",
+        "镇定仪式"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "sherlock-pteranodons",
+      "type": "pet-companion / biotechnology / rescue",
+      "owner": "sherlock",
+      "description": "夏洛克通过分子化石DNA唤醒并训练的三只无齿翼龙，既可隐蔽在云中也可进行海难救援。",
+      "features": [
+        "恒温耐寒",
+        "云层隐蔽",
+        "俯冲捞救溺水者",
+        "舰载机式训练"
+      ],
+      "volumes": [
+        "vol-35"
+      ]
+    },
+    {
+      "id": "sherlock-saxon-sword",
+      "type": "weapon",
+      "owner": "kinji",
+      "description": "夏洛克在伊·U使用过的西洋双刃剑，锋利程度不逊于顶级日本刀。金次因其过于锋利而继续保管，并委托平贺文改装握把和秘藏刀鞘，收在制服背部。",
+      "features": [
+        "极高锋利度",
+        "可背部隐藏",
+        "近战备用武器"
+      ],
+      "volumes": [
+        "vol-06"
+      ]
+    },
+    {
+      "id": "shido-lucky-strike",
+      "type": "consumable",
+      "owner": "shido-toraiwa",
+      "description": "狮堂在金次家阳台抽的香烟。",
+      "features": [
+        "香烟"
+      ],
+      "volumes": [
+        "vol-28"
+      ]
+    },
+    {
+      "id": "shidou-mercury-cougar",
+      "type": "vehicle",
+      "owner": "shidou",
+      "description": "狮堂驾驶的老式天蓝色Mercury Cougar XR-7可变式敞篷车，车体有刮伤凹陷和弹痕。",
+      "features": [
+        "大排量老美国车",
+        "外观粗犷",
+        "符合狮堂形象"
+      ],
+      "volumes": [
+        "vol-23"
+      ]
+    },
+    {
+      "id": "shidou-mika-schoolbag",
+      "type": "equipment",
+      "owner": "shidou-mika",
+      "description": "狮堂美香背着的红色小学生书包，名牌显示一年二班狮堂美香。",
+      "features": [
+        "身份确认",
+        "小学低年级标识"
+      ],
+      "volumes": [
+        "vol-23"
+      ]
+    },
+    {
+      "id": "shikisatsu-me",
+      "type": "weapon/ritual-item",
+      "owner": "shirayuki",
+      "description": "白雪持有的重要刀具。本卷中白雪与GⅣ交战时为了避免刀刃互击而后退，但最终被GⅣ骑压殴打并夺走。",
+      "features": [
+        "星伽相关武装",
+        "与色金相关"
+      ],
+      "volumes": [
+        "vol-10",
+        "vol-11",
+        "vol-13",
+        "vol-14"
+      ]
+    },
+    {
+      "id": "shino-military-knife",
+      "type": "weapon",
+      "owner": "shino",
+      "description": "志乃常用刀具，在高千穗家窗外突入后拔出，向高千穗提出决斗。",
+      "features": [
+        "近战",
+        "决斗"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "shino-panty-camera",
+      "type": "item",
+      "owner": "sasaki-shino",
+      "description": "志乃自备的掌上型摄影机，外壳拆开后里面是一枚闪光手榴弹，用于在试衣间与希海互相牵制。",
+      "features": [],
+      "volumes": [
+        "vol-04"
+      ]
+    },
+    {
+      "id": "shino-perfect-camera",
+      "type": "item",
+      "owner": "sasaki-shino",
+      "description": "志乃改造的红外线相机，装卡尔蔡司大炮望远镜头。改造电路板去除防滥用限制后可以侦测人体与衣物的温差，实现透视效果。另装带通滤波器，深色泳衣在红外线下反而更易透视。记忆卡容量512GB。",
+      "features": [],
+      "volumes": [
+        "vol-04"
+      ]
+    },
+    {
+      "id": "shino-saber",
+      "type": "",
+      "owner": "",
+      "description": "",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "shino-sasaoigan",
+      "type": "weapon",
+      "owner": "shino",
+      "description": "志乃替代平常军刀使用的超长刀，可用于飞燕返并在毒爪触及范围外攻击。",
+      "features": [
+        "长距离斩击",
+        "居合",
+        "临时盾牌"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "shino-stealth-suit",
+      "type": "equipment",
+      "owner": "shino",
+      "description": "志乃用于监视明里家和突入高千穗大厦的侦察潜入套装，含隐身橡皮衣、红外线夜视镜、吸盘手套和钻石刀。",
+      "features": [
+        "高楼攀附",
+        "玻璃切割",
+        "夜间监视"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "shiranui-socom",
+      "type": "weapon",
+      "owner": "shiranui",
+      "description": "不知火爱用的自动手枪。本卷登船行动前确认，卷末也被不知火用于假装射杀云雀以测试可鹉韦。",
+      "features": [
+        "大口径自动手枪",
+        "灭口威胁道具",
+        "后勤护卫武装"
+      ],
+      "volumes": [
+        "vol-23"
+      ]
+    },
+    {
+      "id": "shiranui-stealth-yacht",
+      "type": "vehicle",
+      "owner": "shiranui",
+      "description": "不知火家准备的黑色小型游艇，外部覆盖碳纤强化塑胶板材以降低雷达反射，用于接近被劫持的春雾。",
+      "features": [
+        "低雷达反射",
+        "可搭载CRRC",
+        "东京湾秘密行动据点"
+      ],
+      "volumes": [
+        "vol-23"
+      ]
+    },
+    {
+      "id": "shirayuki-butei-uniform",
+      "type": "equipment / armor",
+      "owner": "shirayuki",
+      "description": "白雪卷末到金次家时穿的武侦高中夏季水手服。",
+      "features": [
+        "武侦高中制服"
+      ],
+      "volumes": [
+        "vol-28"
+      ]
+    },
+    {
+      "id": "shirayuki-kusarigama",
+      "type": "weapon",
+      "owner": "shirayuki",
+      "description": "白雪从百货公司花店方向伸出的链镰，用重锤铁链缠住孙的脖子，解救被髑髅剪剪脚困住的金次。",
+      "features": [
+        "远距离缠绕",
+        "救援与牵制"
+      ],
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "shirayuki-m60",
+      "type": "weapon",
+      "owner": "shirayuki",
+      "description": "白雪藏于制服裙中的改造折叠式M60机关枪，在百货公司战斗中展开并对孙进行压制扫射。",
+      "features": [
+        "折叠式重机枪",
+        "长弹链",
+        "强火力压制"
+      ],
+      "volumes": [
+        "vol-13",
+        "vol-29"
+      ]
+    },
+    {
+      "id": "shirayuki-study-omamori",
+      "type": "key-item",
+      "owner": "kinji",
+      "description": "白雪跑足百趟参拜并供奉一万日元请来的学业御守，送给金次用于东大二次考试。",
+      "features": [
+        "心理支撑",
+        "学业祈愿"
+      ],
+      "volumes": [
+        "vol-45"
+      ]
+    },
+    {
+      "id": "shirayuki-sword",
+      "type": "weapon",
+      "owner": "shirayuki",
+      "description": "白雪闯入理子房间时携带的寒光日本刀，配合写有『诛』字的护具形成天诛姿态。",
+      "features": [
+        "斩击威慑",
+        "配合星伽巫女战斗风格"
+      ],
+      "volumes": [
+        "vol-22"
+      ]
+    },
+    {
+      "id": "short-polaris",
+      "type": "vehicle/technology",
+      "owner": "aria",
+      "description": "平贺文为亚莉亚准备的北极星短程弹道版，使用现成推进器和新造载人弹头舱。",
+      "features": [
+        "短程弹道飞行",
+        "助推器分离",
+        "载人弹头开花"
+      ],
+      "volumes": [
+        "vol-40"
+      ]
+    },
+    {
+      "id": "silent-orgo-photo",
+      "type": "evidence / photograph",
+      "owner": "kinji",
+      "description": "关步持有、茉斩交给金次确认的底片与照片。画面拍到2008年2月5日洛杉矶超级星期二奥巴马车队附近的远山金叉，是寻父行动的核心证据。",
+      "features": [],
+      "volumes": [
+        "vol-30"
+      ]
+    },
+    {
+      "id": "sima-hari-tanker",
+      "type": "vehicle",
+      "owner": "无特定归属",
+      "description": "装载十五万公吨石油的巨大油轮，体积接近市区一角，被卡羯与佩特拉劫持并改造成真空炸弹恐怖攻击载体。",
+      "features": [
+        "巨大船体",
+        "货油舱可被炸药筒撕裂",
+        "有船员居住大楼和起重机"
+      ],
+      "volumes": [
+        "vol-15"
+      ]
+    },
+    {
+      "id": "single-eye-button",
+      "type": "equipment",
+      "owner": "kinji",
+      "description": "平贺制钮扣型摄影机，外观似制服第二钮扣，可经卫星上传影像。金次故意留在富岳机舱内，供贞德分析鬼族情报。",
+      "features": [
+        "隐蔽摄影",
+        "卫星无线上传",
+        "内置电源"
+      ],
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "single-molecule-vibration-knife",
+      "type": "advanced-weapon",
+      "owner": "tooyama-kaname",
+      "description": "GⅣ背负的约1.5米长刀，刀身有蓝色发光线，可轻易切断刺剑、自动贩卖机、楼梯和信号灯等目标。",
+      "features": [
+        "超高切断力",
+        "蓝色发光线",
+        "与GⅣ护具配套"
+      ],
+      "volumes": [
+        "vol-10",
+        "vol-11"
+      ]
+    },
+    {
+      "id": "skateboard",
+      "type": "equipment",
+      "owner": "无特定归属",
+      "description": "眧眧包围现场附近运动用品店外篮子中的特价滑板，金次在爆发模式下临时借用，改编潜林从少女包围脚下脱逃。",
+      "features": [
+        "低身滑行",
+        "潜林改编媒介"
+      ],
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "smoke-butei-bomb",
+      "type": "equipment / consumable",
+      "owner": "kinji",
+      "description": "金次藏在制服内侧口袋的烟雾弹；对妖刕时没能使用，后来在自由石匠会所引爆并趁混乱逃走。",
+      "features": [
+        "瞬间弥漫白烟",
+        "逃脱掩护"
+      ],
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "sniper-rifle",
+      "type": "weapon",
+      "owner": "cao-cao-sniper",
+      "description": "狙姊在蓝帮城三楼使用的狙击枪。她用它射碎蕾姬头上的调酒杯，表示自己已掌握蕾姬位置并发出公平狙击决斗挑战。",
+      "features": [
+        "远距离狙击",
+        "高精度射击"
+      ],
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "soCOM",
+      "type": "weapon",
+      "owner": "shiranui",
+      "description": "不知火亮使用的附红外线瞄准器（LAM）的SOCOM手枪，德国H&K于1991年开发的自动手枪。可靠度高的武器。",
+      "features": [],
+      "volumes": [
+        "vol-02"
+      ]
+    },
+    {
+      "id": "soumiya-glasses",
+      "type": "equipment",
+      "owner": "soumiya",
+      "description": "宗宫在建设中新校舍边缘因慌张滑落的眼镜，导致她伸手去接而踩空坠楼。",
+      "features": [
+        "视力辅助",
+        "坠楼诱因"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "space-shuttle-atlantis",
+      "type": "vehicle",
+      "owner": "无特定归属",
+      "description": "预定执行人工卫星发射任务的NASA太空梭，因货物重量空出被亚莉亚买下搭载权，用于将绯绯色金送入近地轨道。",
+      "features": [
+        "货物舱",
+        "机械手臂",
+        "近地轨道运输"
+      ],
+      "volumes": [
+        "vol-21"
+      ]
+    },
+    {
+      "id": "special-attack-coat",
+      "type": "equipment",
+      "owner": "g3",
+      "description": "藤木林、朝青和里昂拿给金次的贡品式暴走族特攻服，背后刺绣『天上天下唯牙独尊』但字写错。金次不穿，转给喜欢华丽服装的GⅢ，GⅢ在镜高组战中穿着它。",
+      "features": [
+        "华丽",
+        "暴走族象征",
+        "GⅢ审美偏好"
+      ],
+      "volumes": [
+        "vol-12"
+      ]
+    },
+    {
+      "id": "spy-camera-shoe",
+      "type": "",
+      "owner": "",
+      "description": "",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "stolen-british-gold",
+      "type": "artifact",
+      "owner": "moriarty",
+      "description": "英国隐藏财产中消失的约一七二吨黄金，被莫里亚蒂延展覆盖在诺亚外壳上。金天推测其作用是作为跨越时间空间的跳金触媒。",
+      "features": [
+        "高纯度黄金",
+        "覆盖潜艇表面",
+        "可作为时空术式触媒"
+      ],
+      "volumes": [
+        "vol-34"
+      ]
+    },
+    {
+      "id": "storch-fi-156",
+      "type": "vehicle",
+      "owner": "",
+      "description": "纳粹德国国防军开发的短程起降机，战后仍在使用的杰作。必要起飞滑行距离仅75米。梵蒂冈在二战期间通过政教条约获得，用于紧急运送要员。本卷中神父驾驶此机从博尔扎诺号上起飞逃往利比亚方向，最终在空战中被Kinji破坏至熄火坠海。",
+      "features": [],
+      "volumes": [
+        "vol-43"
+      ]
+    },
+    {
+      "id": "sun-qinglong-yanyuedao",
+      "type": "weapon",
+      "owner": "sun-wukong",
+      "description": "孙在高速追逐和车上近身战中使用的大型中国刀。她用它调整Z8巡航系统、弹开子弹并攻击理子。",
+      "features": [
+        "可弹开沙漠之鹰子弹",
+        "可在车辆高速行驶中挥舞"
+      ],
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "switchblade",
+      "type": "weapon",
+      "owner": "fujikibayashi",
+      "description": "藤木林在脚踏车停车场威胁萌时拿出的短刀。金次判断外行人持刀更危险，于是诱导、夺下并滑入水沟。",
+      "features": [
+        "短刀",
+        "恐吓用",
+        "危险但持有者外行"
+      ],
+      "volumes": [
+        "vol-12"
+      ]
+    },
+    {
+      "id": "taipei101-anfo-bombs",
+      "type": "weapon",
+      "owner": "zhao-yun",
+      "description": "赵云伪装成施工材料堆放于91层室外展望台工区的爆破装置，由雷管、导爆索、起爆剂和ANFO麻袋组成，目标是在无人机秀期间炸毁台北101。",
+      "features": [
+        "大规模爆破",
+        "伪装施工材料",
+        "远程点火"
+      ],
+      "volumes": [
+        "vol-45"
+      ]
+    },
+    {
+      "id": "takachiho-iron-fan",
+      "type": "",
+      "owner": "",
+      "description": "",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "takachiho-rapier",
+      "type": "weapon",
+      "owner": "takachiho-urara",
+      "description": "高千穗与志乃决斗时使用的西洋护手刺剑，护手呈杯状，适合快速突刺。",
+      "features": [
+        "杯状护手",
+        "细长剑刃",
+        "击剑式突刺"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "takachiho-roses",
+      "type": "key-item",
+      "owner": "takachiho-urara",
+      "description": "高千穗为了接近明里，沿明里放学路线布置的红玫瑰和放在胜哄大楼门前的大花束。",
+      "features": [
+        "昂贵红玫瑰",
+        "邀请伏笔",
+        "卡片提示‘高’"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "takachiho-six-inch-firework",
+      "type": "item",
+      "owner": "takachiho-rei",
+      "description": "高千穗丽订制的特殊烟火，发射后可以在夜空中炸出爱心图案。一发要价十万元。高千穗计划用来给明里制造浪漫氛围。",
+      "features": [],
+      "volumes": [
+        "vol-04"
+      ]
+    },
+    {
+      "id": "takachiho-super-redhawk",
+      "type": "weapon",
+      "owner": "takachiho-urara",
+      "description": "高千穗藏在沙发抱枕底下的强力左轮手枪，装填.454 Casull子弹。",
+      "features": [
+        "强力左轮",
+        ".454 Casull",
+        "室内防卫"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "tamamo-amulet",
+      "type": "artifact / equipment",
+      "owner": "kinji",
+      "description": "玉藻为跟随金次进入学校而以虚物变化变成的交通安全护身符，被金次挂在脖子上藏在衬衫里。",
+      "features": [
+        "外观不显眼",
+        "可恢复玉藻本体",
+        "可从护身符状态发声"
+      ],
+      "volumes": [
+        "vol-12"
+      ]
+    },
+    {
+      "id": "tamamo-oil-money-box",
+      "type": "equipment",
+      "owner": "tamamo",
+      "description": "玉藻随身背着的香油钱箱，本卷她要求金次事后添香油钱和榻榻米大小的炸豆皮。",
+      "features": [
+        "收取香油钱",
+        "体现神社/妖狐身份"
+      ],
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "tamamo-red-short-sword",
+      "type": "weapon",
+      "owner": "tamamo",
+      "description": "玉藻本卷佩戴的短日本刀，象征她准备必要时讨伐亚莉亚的决意。",
+      "features": [
+        "符合玉藻身高的短刀",
+        "红色刀鞘"
+      ],
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "tammy-rabbit-plush",
+      "type": "key-item",
+      "owner": "tammy",
+      "description": "塔米带给响的圣诞礼物，实则掏出填充棉后藏有金牛座判官手枪。",
+      "features": [
+        "可藏匿重物/手枪",
+        "被塔米撕掉双耳"
+      ],
+      "volumes": [
+        "vol-44"
+      ]
+    },
+    {
+      "id": "tammy-taurus-judge",
+      "type": "weapon",
+      "owner": "tammy",
+      "description": "塔米非法持有的可发射.410霰弹的短枪管转轮枪，藏在兔子布偶中。",
+      "features": [
+        "发射.410霰弹",
+        "近距离必中必杀",
+        "外行难以合法持有"
+      ],
+      "volumes": [
+        "vol-44"
+      ]
+    },
+    {
+      "id": "tata-moving-truck",
+      "type": "vehicle",
+      "owner": "john-watson-i",
+      "description": "A Tata truck used by Watson/Titaro-Dado while leaving Chhat; it carries the team and medical jars back to Zandra.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "taweret-birth-brick",
+      "type": "artifact",
+      "owner": "memet",
+      "description": "梅美特携带的画有河马头女神塔乌埃雷特的仪式砖，用净水涂抹祈求安产。",
+      "features": [
+        "安产祈愿",
+        "埃及仪式"
+      ],
+      "volumes": [
+        "vol-45"
+      ]
+    },
+    {
+      "id": "tella-net-assist-system",
+      "type": "advanced-device",
+      "owner": "tooyama-kaname",
+      "description": "金女使用的绯色有色墨镜/HMD式情报界面，能读取脑波模式，在思考同时显示建议，整合手机、网络、广播和军用无线电等功能。",
+      "features": [
+        "脑波读取",
+        "光学多层膜显示",
+        "网络检索",
+        "无线通信",
+        "行动建议"
+      ],
+      "volumes": [
+        "vol-10"
+      ]
+    },
+    {
+      "id": "terteti-twin-blades",
+      "type": "weapon",
+      "owner": "terteti",
+      "description": "萜萜蒂用于架住金次颈动脉的薄宽短刀，刀面刻有花与荆棘状纹路。",
+      "features": [
+        "薄而宽",
+        "适合拉切与突刺",
+        "带放血刻纹"
+      ],
+      "volumes": [
+        "vol-28"
+      ]
+    },
+    {
+      "id": "tetedti-bolas",
+      "type": "weapon",
+      "owner": "tetedti",
+      "description": "Primitive weighted cord thrown by Tetedti to entangle Kinji's ankles while the twins seize China.",
+      "features": [
+        "weighted cord",
+        "leg entanglement"
+      ],
+      "volumes": [
+        "vol-41"
+      ]
+    },
+    {
+      "id": "tetedti-rezetti-blades",
+      "type": "weapon",
+      "owner": "tetedti/rezetti",
+      "description": "Paired sharp blades carried at the twins' lower backs during their pursuit of Rasputina/China.",
+      "features": [
+        "short pointed blades"
+      ],
+      "volumes": [
+        "vol-41"
+      ]
+    },
+    {
+      "id": "teteti-short-knife",
+      "type": "weapon",
+      "owner": "teteti",
+      "description": "萜萜蒂护卫时使用的短刀，适合兽娘近身战。",
+      "features": [
+        "短距离近战",
+        "与尾巴和平衡能力配合"
+      ],
+      "volumes": [
+        "vol-32"
+      ]
+    },
+    {
+      "id": "tianzan-attack-plane",
+      "type": "vehicle",
+      "owner": "moroboshi-chairman",
+      "description": "诸星董事长战史博物馆保存的旧日本海军舰载攻击机。金次、雪花、远山铁搭乘它从卡尔·文森号弹射起飞，低空侦察并强袭哈巴谷号。",
+      "features": [
+        "三人座舰载攻击机",
+        "护式发动机",
+        "可从航母弹射起飞",
+        "低空雷达缝隙飞行"
+      ],
+      "volumes": [
+        "vol-34"
+      ]
+    },
+    {
+      "id": "tiffin-lunchboxes",
+      "type": "food container",
+      "owner": "lisa-ave-du-ange",
+      "description": "Tiffin-style lunchboxes prepared by Lisa and the hotel for the bus trip to Zandra.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "tiger-i-tank",
+      "type": "vehicle / weapon",
+      "owner": "witch-corps",
+      "description": "魔女连队兵器库中保存并可实战运作的虎I重战车，炮塔编号132，突尼西亚战沙土色涂装，装备88mm主炮。伊碧丽塔与卡羯乘其追击金次等人的九五式轻战车。",
+      "features": [
+        "重装甲",
+        "88mm主炮",
+        "可实战机动",
+        "象征魔女连队兵器库规模"
+      ],
+      "volumes": [
+        "vol-15"
+      ]
+    },
+    {
+      "id": "tnk-rope",
+      "type": "",
+      "owner": "",
+      "description": "",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "tnk-ropes",
+      "type": "equipment",
+      "owner": "kyochikutou",
+      "description": "夹竹桃事先布置在饭店、路灯与周边大楼间的微米级强韧绳索网络，供其空中逃脱。",
+      "features": [
+        "极细",
+        "强韧",
+        "空中移动",
+        "可多层交错"
+      ],
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "tokito-impossible-photo-files",
+      "type": "key-item",
+      "owner": "tokito-julia",
+      "description": "时任茱莉亚整理的在不同时间、地点拍到矛盾人物的照片资料夹。",
+      "features": [
+        "提供时间跳跃线索",
+        "推理资料"
+      ],
+      "volumes": [
+        "vol-32"
+      ]
+    },
+    {
+      "id": "tokunou-kakkonto",
+      "type": "consumable",
+      "owner": "kinji（接受者）",
+      "description": "大和化药生产的特浓感冒药，含葛根和麻黄等中药材。只在阿美横丁内一家难找的肮脏中药店有售。是金次唯一有效的感冒药。亚莉亚在金次生病时偷偷放在门把上。",
+      "features": [],
+      "volumes": [
+        "vol-02"
+      ]
+    },
+    {
+      "id": "tokyo-butei-sailor-uniform",
+      "type": "equipment",
+      "owner": "aria",
+      "description": "亚莉亚在罗马仍穿着的东京武侦高中水手服，也是贝瑞塔羡慕的日本动画式制服。",
+      "features": [
+        "防弹制服",
+        "东京武侦标识"
+      ],
+      "volumes": [
+        "vol-24"
+      ]
+    },
+    {
+      "id": "tomahawk-slcms",
+      "type": "weapon / missile",
+      "owner": "sherlock",
+      "description": "夏洛克从伊·U发射的第四代战斧巡弋飞弹，其中一枚被改作搭载金次与亚莉亚的运输手段。",
+      "features": [
+        "垂直发射",
+        "热诱弹/干扰箔欺瞒",
+        "绳索登机装置",
+        "可被亚莉亚双马尾飞翼操控"
+      ],
+      "volumes": [
+        "vol-35"
+      ]
+    },
+    {
+      "id": "tooyama-yukika-naval-sword",
+      "type": "weapon",
+      "owner": "tooyama-yukika",
+      "description": "远山雪花作为旧日本海军中校携带的军刀，出场后立即抵住金次喉咙。",
+      "features": [
+        "近身威慑",
+        "军官身份象征"
+      ],
+      "volumes": [
+        "vol-32"
+      ]
+    },
+    {
+      "id": "toto-and-apu",
+      "type": "pet-companion",
+      "owner": "memet",
+      "description": "Memet's cat and snake-like companions lent to China as friendly playmates; they behave calmly around her dragon blood.",
+      "features": [
+        "cat companion",
+        "snake companion"
+      ],
+      "volumes": [
+        "vol-41"
+      ]
+    },
+    {
+      "id": "toto",
+      "type": "pet-companion",
+      "owner": "memet",
+      "description": "梅梅特的黑猫，神出鬼没地随队到埃及并帮助追踪莎拉路线。",
+      "features": [
+        "隐匿移动",
+        "追踪提示"
+      ],
+      "volumes": [
+        "vol-40"
+      ]
+    },
+    {
+      "id": "toyota-alphard",
+      "type": "vehicle",
+      "owner": "arima-hatoo",
+      "description": "乙叶用于接送金次、后援秋叶原调查和最终撤离通讯的车辆，后座有遮光膜方便金次换装。",
+      "features": [
+        "换装掩护",
+        "后援待机",
+        "通讯撤离"
+      ],
+      "volumes": [
+        "vol-29"
+      ]
+    },
+    {
+      "id": "toyota-century",
+      "type": "vehicle",
+      "owner": "kagamitaka-kikuyo",
+      "description": "镜高菊代乘坐的黑色Toyota Century，车窗贴黑膜，搭载镜高组成员并在补习班外接走金次。",
+      "features": [
+        "高级车",
+        "黑道风格",
+        "后座谈判"
+      ],
+      "volumes": [
+        "vol-12"
+      ]
+    },
+    {
+      "id": "toyota-crown",
+      "type": "vehicle",
+      "owner": "shiranui",
+      "description": "不知火在美滨外语高中附近接走金次和可鹉韦时驾驶的无特征黑色Toyota Crown。",
+      "features": [
+        "低调",
+        "接送与密谈用"
+      ],
+      "volumes": [
+        "vol-23"
+      ]
+    },
+    {
+      "id": "trans-am-steam-locomotive",
+      "type": "vehicle",
+      "owner": "sanders",
+      "description": "桑德斯祖传的古典蒸汽火车，沿废弃铁路将众人送入五十一区。",
+      "features": [
+        "可沿旧铁路接近五十一区",
+        "NOS强行加速",
+        "排障器"
+      ],
+      "volumes": [
+        "vol-18"
+      ]
+    },
+    {
+      "id": "transparent-dragons",
+      "type": "pet-companion/weapon",
+      "owner": "rasputina",
+      "description": "拉斯普丁纳使役的两条小型透明飞龙，比地下品川的大龙更聪明，可咬合、束缚和投递物品。",
+      "features": [
+        "隐形飞行",
+        "锯齿咬合",
+        "缠绕束缚",
+        "空中投递"
+      ],
+      "volumes": [
+        "vol-40"
+      ]
+    },
+    {
+      "id": "tsubaki-oni-maru-sword",
+      "type": "weapon",
+      "owner": "tsubaki",
+      "description": "津羽鬼腰间配戴的太刀，刀柄、刀鞘和护手均包覆皮革。本卷主要作为威慑性武装登场。",
+      "features": [
+        "鬼丸拵样式",
+        "皮革包覆",
+        "太刀"
+      ],
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "tsubaki-oni-sword",
+      "type": "weapon",
+      "owner": "tsubaki",
+      "description": "津羽鬼随身携带的鬼丸拵太刀，在卡多根餐厅宴会中准备对金次出手。",
+      "features": [
+        "太刀",
+        "鬼族武器"
+      ],
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "tsubo-bombs",
+      "type": "weapon / equipment",
+      "owner": "tsubo",
+      "description": "壶携带并使用的手榴弹、塞姆汀炸药和烟雾装置，用于车道追击、幼稚园巴士陷阱与撤退。",
+      "features": [
+        "九七式手榴弹",
+        "塞姆汀A式炸弹",
+        "烟雾"
+      ],
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "tsubo-four-knives",
+      "type": "weapon",
+      "owner": "tsubo",
+      "description": "壶露出四臂本体后同时使用的四把短刀，在大笨钟上被亚莉亚的双剑双枪击落。",
+      "features": [
+        "四刀流",
+        "配合四只手臂"
+      ],
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "tsubo-iron-barrel",
+      "type": "equipment",
+      "owner": "tsubo",
+      "description": "壶藏身和行动用的铁桶，盖子可开合，壶从缝隙伸出四只手递食物、信件或钓取剩饭。",
+      "features": [
+        "可藏身",
+        "可从缝隙伸手",
+        "壶情绪激动时会冒蒸气般反应"
+      ],
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "tsubo-jar",
+      "type": "equipment",
+      "owner": "tsubo",
+      "description": "壶躲藏和睡眠用的大瓮，本卷富岳鬼宴中她只从瓮里露出头部。",
+      "features": [
+        "可容纳壶隐藏身体",
+        "与壶的长眠癖相关"
+      ],
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "tsubo-pot",
+      "type": "equipment",
+      "owner": "tsubo",
+      "description": "壶平时藏身其中的机关壶，外表有吸盘纹路，能在地面、墙壁、车顶滚动或吸附；大笨钟前被亚莉亚引爆毁坏。",
+      "features": [
+        "吸盘机能",
+        "滚动移动",
+        "隐藏本体"
+      ],
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "type-95-light-tank",
+      "type": "vehicle / weapon",
+      "owner": "witch-corps（原收藏）/ 临时由星座小队使用",
+      "description": "星座小队从魔女连队兵器库偷出的日本九五式轻战车。岛莓驾驶，金次操作37mm炮，贞德操作机关枪，用于逃离虎I战车追击。",
+      "features": [
+        "小型轻战车",
+        "机动性好",
+        "肩负式瞄准机械适合爆发模式微调"
+      ],
+      "volumes": [
+        "vol-15"
+      ]
+    },
+    {
+      "id": "type65-torpedoes",
+      "type": "weapon / torpedo",
+      "owner": "sherlock",
+      "description": "伊·U发射的旧苏联制大型导引鱼雷，可装载约五百公斤炸药，对海面和水下造成小型战术核武般爆炸规模。",
+      "features": [
+        "导引能力",
+        "水下巨爆",
+        "波状攻击"
+      ],
+      "volumes": [
+        "vol-35"
+      ]
+    },
+    {
+      "id": "u-boat-dragon-port",
+      "type": "vehicle",
+      "owner": "ivillita-ister",
+      "description": "魔女连队在龙之港内使用的潜艇，伊碧丽塔试图乘坐或指挥其救援卡羯，后来被自由石匠海鸥飞艇捕获。",
+      "features": [
+        "潜艇指挥舱",
+        "可用于逃亡"
+      ],
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "u-boat-xxiii",
+      "type": "vehicle",
+      "owner": "witch-corps",
+      "description": "魔女连队保有的纳粹德国沿岸小型潜艇，用于穿越瀑布帘幕进入龙之港，也用于押送金次到处刑海岸。",
+      "features": [
+        "水下出入隐藏港",
+        "俘虏押送"
+      ],
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "uh-60-black-hawk",
+      "type": "vehicle",
+      "owner": "g3",
+      "description": "GⅢ阵营用于回收受伤GⅢ的全黑攻击直升机，带光曲折迷彩，从空中垂降并吊走GⅢ与九九藻。",
+      "features": [
+        "隐形接近",
+        "垂降回收",
+        "军用直升机"
+      ],
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "unlock-key",
+      "type": "",
+      "owner": "",
+      "description": "",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "ushiyoshi-aramitama-idol",
+      "type": "religious-object",
+      "owner": "ushiyoshi-shrine-community",
+      "description": "",
+      "features": [],
+      "volumes": [
+        "vol-38"
+      ]
+    },
+    {
+      "id": "usla-giv-armor",
+      "type": "armor",
+      "owner": "tooyama-kaname",
+      "description": "GⅣ战斗时穿戴的消光黑护具与紧身防弹内衬，肩背写有USLA-GIV，带红色半透明面罩、猫耳状集音器和散热结构。",
+      "features": [
+        "防弹纤维内衬",
+        "轻量护具",
+        "HMD面罩",
+        "指向性集音器",
+        "散热风扇"
+      ],
+      "volumes": [
+        "vol-10",
+        "vol-11"
+      ]
+    },
+    {
+      "id": "usp-c3-invisible-bullet",
+      "type": "weapon",
+      "owner": "g3",
+      "description": "GⅢ在镜高组庭院复数射击线中使用的手枪与不可视子弹，负责弹开萌手中白朗宁射出的子弹。",
+      "features": [
+        "不可视子弹",
+        "高精度击弹戏法"
+      ],
+      "volumes": [
+        "vol-12"
+      ]
+    },
+    {
+      "id": "uss-carl-vinson",
+      "type": "vehicle",
+      "owner": "walter-bronson",
+      "description": "美国海军核动力航母，经GⅢ关系和布朗森舰长授权，搭载金次一行、天山与奥尔库斯靠近择捉岛海域，并让天山夜间弹射起飞。",
+      "features": [
+        "核动力航母",
+        "舰载弹射器",
+        "大型机库与03甲板生活区",
+        "挂出Z信号旗致敬"
+      ],
+      "volumes": [
+        "vol-34"
+      ]
+    },
+    {
+      "id": "uzi-heavy-duty-defender",
+      "type": "weapon",
+      "owner": "mamiya-akari",
+      "description": "明里使用的战术刀，收在水手服后衣领下。在徽章战中被亚莉亚用日本刀尖刺入握把而夺走。",
+      "features": [
+        "可反手握持"
+      ],
+      "volumes": [
+        "vol-01"
+      ]
+    },
+    {
+      "id": "uzi",
+      "type": "weapon/firearm",
+      "owner": "cao-cao-gunner",
+      "description": "炮娘使用的冲锋枪，可在高速车顶形成连射弹幕，并精确避开同伴。",
+      "features": [
+        "长弹匣",
+        "高速连射",
+        "适合交叉火力"
+      ],
+      "volumes": [
+        "vol-07",
+        "vol-14"
+      ]
+    },
+    {
+      "id": "v1-flying-bomb",
+      "type": "weapon",
+      "owner": "witch-corps",
+      "description": "魔女连队兵器库中保存并发射的V-1飞弹，经过电波诱导改良，可近距离追击移动中的九五式轻战车。",
+      "features": [
+        "高速飞行",
+        "大装药",
+        "改良诱导能力"
+      ],
+      "volumes": [
+        "vol-15"
+      ]
+    },
+    {
+      "id": "v2-modified",
+      "type": "weapon / vehicle",
+      "owner": "witch-corps",
+      "description": "魔女连队改装的V-2火箭，为弥补命中率而加入驾驶舱胶囊，搭载氰化物化学弹头，预定轰击阿姆斯特丹自由石匠会所。",
+      "features": [
+        "人员搭载",
+        "胶囊脱离",
+        "三联降落伞",
+        "化学弹头"
+      ],
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "v22-osprey",
+      "type": "vehicle",
+      "owner": "无特定归属",
+      "description": "亚莉亚动用渠道调来的倾转旋翼机，用外挂钩与电磁起重机从星伽神社运走绯绯色金，经英国空母补给后前往佛罗里达。",
+      "features": [
+        "垂直起降",
+        "外挂货物运输"
+      ],
+      "volumes": [
+        "vol-21",
+        "vol-27"
+      ]
+    },
+    {
+      "id": "vacuum-bubble-disposal-kit",
+      "type": "tool/bomb-disposal",
+      "owner": "hiraga",
+      "description": "平贺文临场使用的拆弹设备，含氮气硅胶气球、压缩机、管线与真空瓶，用于把洗脸间中的爆泡气体排入瓶中。",
+      "features": [
+        "氮气气球挤压空气",
+        "真空瓶收集爆泡",
+        "可在高速列车上操作"
+      ],
+      "volumes": [
+        "vol-07"
+      ]
+    },
+    {
+      "id": "vacuum-gecko-claw",
+      "type": "equipment",
+      "owner": "cocoa-machine",
+      "description": "机娘发明的双手吸盘装置，用绿色LED表示吸附、白色表示脱离，帮助金次攀爬台北101玻璃幕墙。",
+      "features": [
+        "玻璃吸附",
+        "手持隐藏",
+        "LED状态指示"
+      ],
+      "volumes": [
+        "vol-45"
+      ]
+    },
+    {
+      "id": "valkyrja-platinum-ring",
+      "type": "artifact / key-item",
+      "owner": "valkyrja",
+      "description": "N成员等级或身份象征之一；金次推测瓦尔基丽雅上级可能是更高位金指环人物。",
+      "features": [
+        "N身份/阶级象征"
+      ],
+      "volumes": [
+        "vol-28"
+      ]
+    },
+    {
+      "id": "valkyrja-silver-lance",
+      "type": "weapon / artifact",
+      "owner": "valkyrja",
+      "description": "瓦尔基丽雅骑龙作战时使用的长枪，可进行高速突刺，也能配合白色闪光无效化魔术弹。",
+      "features": [
+        "骑龙突刺",
+        "魔术无效化闪光媒介"
+      ],
+      "volumes": [
+        "vol-27"
+      ]
+    },
+    {
+      "id": "valkyrja-silver-spear",
+      "type": "weapon",
+      "owner": "valkyrja",
+      "description": "瓦尔基丽雅使用的银色长枪，可在浓雾中高速刺击并配合超能力回收。",
+      "features": [
+        "高速突刺",
+        "旋转回收",
+        "远距离威胁"
+      ],
+      "volumes": [
+        "vol-25"
+      ]
+    },
+    {
+      "id": "vatican-sacred-weapons",
+      "type": "equipment / weapon",
+      "owner": "vatican",
+      "description": "梵蒂冈地下收藏的大量短剑、双手剑、盾、弓、弩、枪炮与歼魔弹。",
+      "features": [
+        "对魔物/异教徒作战",
+        "超能力战争要塞装备",
+        "神圣秘术弹药"
+      ],
+      "volumes": [
+        "vol-25"
+      ]
+    },
+    {
+      "id": "walther-p99",
+      "type": "weapon",
+      "owner": "riko",
+      "description": "理子使用的两把紧凑型手枪。体型小巧适合小手，使用9mm帕拉贝伦弹（与金次的贝瑞塔通用）。装弹数比亚莉亚的Government多。",
+      "features": [
+        "小巧紧凑",
+        "弹数较多"
+      ],
+      "volumes": [
+        "vol-03",
+        "vol-08",
+        "vol-10"
+      ]
+    },
+    {
+      "id": "watson-butei-male-uniform",
+      "type": "clothing",
+      "owner": "l-watson",
+      "description": "Watson wears a male Butei High uniform to the reunion, matching Watson's male social presentation.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "watson-cross-rapier",
+      "type": "weapon",
+      "owner": "l-watson",
+      "description": "华生从坎特伯雷座堂借来的十字箔剑，剑身为瑞典钢，并镀有四百年历史十字架削下的银。用于对吸血鬼希尔达施压。",
+      "features": [
+        "对吸血鬼有效",
+        "配合枪剑战法"
+      ],
+      "volumes": [
+        "vol-08"
+      ]
+    },
+    {
+      "id": "watson-medical-bag",
+      "type": "medical kit",
+      "owner": "john-watson-i",
+      "description": "A compact battlefield medical bag containing needles, disinfectant, scalpel, manual drainage tools, gauze and surgical instruments; used to save Carbuncle.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "watson-pipe",
+      "type": "pipe",
+      "owner": "john-watson-i",
+      "description": "Watson/Titaro-Dado carries a pipe and smokes after rejuvenation, echoing nineteenth-century Holmes-Watson imagery.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "watson-polaris-05-icbm",
+      "type": "vehicle",
+      "owner": "l-watson",
+      "description": "由ICBM改造的交通工具，华生乘它降落到希尔达袭击现场救下亚莉亚。",
+      "features": [
+        "弹道飞弹外形",
+        "侧舱门",
+        "可非爆炸降落"
+      ],
+      "volumes": [
+        "vol-08"
+      ]
+    },
+    {
+      "id": "watson-porsche-911",
+      "type": "vehicle",
+      "owner": "l-watson",
+      "description": "华生在日本购买的黑色双人座跑车，用于接送金次和将昏睡的亚莉亚带往东京天空树。",
+      "features": [
+        "敞篷机构",
+        "高速机动",
+        "车载导航"
+      ],
+      "volumes": [
+        "vol-08",
+        "vol-19"
+      ]
+    },
+    {
+      "id": "watson-sig-p226",
+      "type": "weapon",
+      "owner": "l-watson",
+      "description": "华生使用的手枪，本卷在龙之港登船后用于瞄准并制住佩特拉。",
+      "features": [
+        "半自动手枪",
+        "自由石匠代表战士装备"
+      ],
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "watson-sig-p226r",
+      "type": "weapon",
+      "owner": "l-watson",
+      "description": "华生使用的自动手枪，配合法化银弹逼退希尔达，并在天空树决斗中与全身刀刃战法配合使用。",
+      "features": [
+        "可靠高价手枪",
+        "枪剑战法核心武器"
+      ],
+      "volumes": [
+        "vol-08"
+      ]
+    },
+    {
+      "id": "watson-sig-sauer-p226r",
+      "type": "suppressed pistol",
+      "owner": "l-watson",
+      "description": "Watson draws this silenced pistol to protect Meluette from Carbuncle, but the shot passes through Carbuncle's particulate body.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "watson-silver-rapier",
+      "type": "anti-vampire weapon",
+      "owner": "watson",
+      "description": "华生持有的银质/法化对吸血鬼武装。希尔达明显忌惮此剑，华生在雷击重伤后交给金次，随后亚莉亚用它刺击希尔达但被电鞭缠住并甩出观景台。",
+      "features": [
+        "希尔达惧怕",
+        "普通武器难以替代",
+        "可配合华生对吸血鬼知识使用"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "watson-tea-powder",
+      "type": "food/drink supply",
+      "owner": "l-watson",
+      "description": "Watson uses tea powder on the bus trip, a small British habit amid the India journey.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "watson-webley-revolver",
+      "type": "revolver",
+      "owner": "john-watson-i",
+      "description": "An old Webley revolver kept by Titaro-Dado/Watson; he uses it to shoot an incoming remote bomb while operating under fire.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "white-snow-incense-powder",
+      "type": "drug/evidence",
+      "owner": "white-snow",
+      "description": "白色雪花随身携带的人工圣骸布粉末样本。最初在Giolitti咖啡馆被金次目击在其书包里，后被用于梵蒂冈审讯中的化学分析。淡黄色闪光粉末，属于人工圣骸布的一种变体。",
+      "features": [
+        "淡黄色闪光",
+        "DNA分析用",
+        "成分类似人工圣骸布"
+      ],
+      "volumes": [
+        "vol-42"
+      ]
+    },
+    {
+      "id": "winchester-m1887",
+      "type": "weapon",
+      "owner": "reiki",
+      "description": "理子住院期间斜背的枪身被切短的霰弹枪，并展示了通过枪检的登录证明。",
+      "features": [
+        "霰弹枪",
+        "短管改造",
+        "枪检已通过"
+      ],
+      "volumes": [
+        "vol-10",
+        "vol-11"
+      ]
+    },
+    {
+      "id": "x19c-sagittarius",
+      "type": "vehicle",
+      "owner": "g3",
+      "description": "GⅢ同盟的QTR倾转旋翼运输机，兼具高速长距离飞行与空中炮舰能力。",
+      "features": [
+        "光曲折迷彩",
+        "空中加油",
+        "L40机关炮与M102榴弹炮",
+        "宽敞总统套房式机舱"
+      ],
+      "volumes": [
+        "vol-18"
+      ]
+    },
+    {
+      "id": "xo-brandy",
+      "type": "consumable / combat trigger",
+      "owner": "cao-cao-melee",
+      "description": "猛妹在死亡游戏一楼决斗前砍断瓶口并一口气灌下的大瓶白兰地，用以进入醉剑状态。",
+      "features": [
+        "高酒精度",
+        "触发醉剑"
+      ],
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "yamaha-majesty",
+      "type": "vehicle",
+      "owner": "无特定归属",
+      "description": "莎拉/拉斯普丁纳逃亡中使用的大型踏板车，粗暴冲散市场人群后被抛弃。",
+      "features": [
+        "大型踏板车",
+        "适合城市小巷突进"
+      ],
+      "volumes": [
+        "vol-40"
+      ]
+    },
+    {
+      "id": "yamane-nikon-d3",
+      "type": "equipment",
+      "owner": "yamane-hibari",
+      "description": "山根云雀使用的高端单眼相机，用于拍摄叶戈尔勒索和金次可鹉韦举枪画面。",
+      "features": [
+        "高速取证",
+        "望远镜头拍摄",
+        "可成为金次与可鹉韦身份泄露证据"
+      ],
+      "volumes": [
+        "vol-22"
+      ]
+    },
+    {
+      "id": "yamata-no-orochi",
+      "type": "equipment",
+      "owner": "kinji",
+      "description": "贝瑞塔为金次打造的穿戴式枪械系统，整合夹克、护具弹匣、滑轨、卷线器和切割式弹匣。",
+      "features": [
+        "磁浮式枪械移动",
+        "25米内手枪回收",
+        "自动供弹",
+        "防护与火力一体"
+      ],
+      "volumes": [
+        "vol-25",
+        "vol-27",
+        "vol-29"
+      ]
+    },
+    {
+      "id": "yan-iron-club",
+      "type": "weapon",
+      "owner": "yan",
+      "description": "阎背后立着的巨大铁棒，象征其鬼族怪力与近战压迫。",
+      "features": [
+        "重型打击",
+        "鬼族象征"
+      ],
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "yan-knife",
+      "type": "weapon / tool",
+      "owner": "yan",
+      "description": "阎用于切鹿脚肉的小刀，也曾提出可借给金次切腹。",
+      "features": [
+        "切肉",
+        "切腹提议"
+      ],
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "yan-kongo-rokkaku",
+      "type": "weapon",
+      "owner": "yan",
+      "description": "阎持有的巨大狼牙棒，重量约百公斤，可击倒热沃当之兽并通过高速旋转释放冲击波。",
+      "features": [
+        "六角柱形棒身",
+        "满布尖刺",
+        "可产生超音速涡流冲击波"
+      ],
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "yataghan",
+      "type": "weapon",
+      "owner": "jeanne",
+      "description": "法国刺刀，优美弯曲的银色刀物，装在细长古式枪枝前端的小型刀刃。贞德使用此武器施展'圣女之锁'。",
+      "features": [],
+      "volumes": [
+        "vol-02"
+      ]
+    },
+    {
+      "id": "yhs-01",
+      "type": "equipment / vehicle",
+      "owner": "aria",
+      "description": "亚莉亚寄到香港丽思卡尔顿的正式版飞行裙甲，粉红色，用于从ICC高空起飞支援香港战斗。",
+      "features": [
+        "高空起飞",
+        "飞行支援",
+        "正式商品名YHS/01"
+      ],
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "yhs-02",
+      "type": "equipment",
+      "owner": "aria",
+      "description": "平贺为亚莉亚制造的滞空裙甲改良品，上升性能提升但飞翔时间仍有限。亚莉亚用它带金次追上富岳。",
+      "features": [
+        "上升性能大幅提升",
+        "混合燃料短时飞行",
+        "英国国旗降落伞"
+      ],
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "yhs-03",
+      "type": "equipment",
+      "owner": "aria",
+      "description": "亚莉亚从运输GA取回的喷射飞行装备，形似芭蕾舞裙，搭载喷射翼片和线圈炮。",
+      "features": [
+        "垂直飞行",
+        "空战机动",
+        "线圈炮"
+      ],
+      "volumes": [
+        "vol-36"
+      ]
+    },
+    {
+      "id": "yhs01-hover-skirt",
+      "type": "equipment / flight system",
+      "owner": "aria",
+      "description": "亚莉亚使用的滞空飞行装备。她借此抱着蕾姬从空中抵达高速路现场；在蓝帮城死亡游戏中尝试自动组装时故障，导致亚莉亚撞向金次。",
+      "features": [
+        "短程飞行",
+        "部件自动飞行组合",
+        "喷射推进"
+      ],
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "yojin-black-coat",
+      "type": "equipment / artifact",
+      "owner": "yojin",
+      "description": "妖刕遮住身体与脸部的黑色长风衣，战斗时喷出黑色火焰状防御力场。",
+      "features": [
+        "防御力场",
+        "隐蔽脸部",
+        "黑暗同化"
+      ],
+      "volumes": [
+        "vol-16",
+        "vol-23"
+      ]
+    },
+    {
+      "id": "yojin-dual-blades",
+      "type": "weapon",
+      "owner": "yojin",
+      "description": "妖刕持有的两把锋利双刀，可挡开子弹、释放炸牙、执行刃铗树拘束。",
+      "features": [
+        "挡弹",
+        "超音速斩击",
+        "双刀锁喉"
+      ],
+      "volumes": [
+        "vol-16",
+        "vol-23"
+      ]
+    },
+    {
+      "id": "yojin-lever-shotgun",
+      "type": "weapon",
+      "owner": "yojin",
+      "description": "妖刕在金次请求其出动时检查的一把违法杠杆式霰弹枪，显示其武装库丰富。",
+      "features": [
+        "近距离火力",
+        "备用武装"
+      ],
+      "volumes": [
+        "vol-23"
+      ]
+    },
+    {
+      "id": "yojin-taurus-raging-bull",
+      "type": "weapon",
+      "owner": "yojin",
+      "description": "妖刕使用的强力左轮手枪，发射.454 Casull弹。本卷在出动救可鹉韦前由妖刕拔出确认。",
+      "features": [
+        "大威力左轮",
+        "近中距离战斗支援"
+      ],
+      "volumes": [
+        "vol-23"
+      ]
+    },
+    {
+      "id": "yomeishu-koteieki",
+      "type": "consumable",
+      "owner": "mutou",
+      "description": "武藤和不知火送给金次的考试慰问品之一。",
+      "features": [
+        "滋补饮品",
+        "考前慰问"
+      ],
+      "volumes": [
+        "vol-44"
+      ]
+    },
+    {
+      "id": "yukihana-kagami-ken-scroll",
+      "type": "artifact/equipment",
+      "owner": "kinji",
+      "description": "雪花交给金次的卷轴，记载使爆发模式效果倍增的镜拳精髓。",
+      "features": [
+        "训练用秘笈",
+        "高难度精神技巧"
+      ],
+      "volumes": [
+        "vol-40"
+      ]
+    },
+    {
+      "id": "yukika-iphone4",
+      "type": "equipment",
+      "owner": "tooyama-yukika",
+      "description": "诸星为雪花准备的现代手机，通话费由诸星汽车承担。雪花通过它学习现代通信，并用YouTube与电子邮件执行游一号作战。",
+      "features": [
+        "触控屏",
+        "摄像",
+        "通话",
+        "邮件",
+        "互联网访问"
+      ],
+      "volumes": [
+        "vol-33"
+      ]
+    },
+    {
+      "id": "yukika-izuminokami-kanesada",
+      "type": "weapon",
+      "owner": "tooyama-yukika",
+      "description": "雪花佩带的旧型军刀，外观近西洋军刀但刀身为日本刀。她用此刀初次斩击金次，并在汤泽追击中施展天拋与绯绯星伽神。",
+      "features": [
+        "可斩击",
+        "可作为星伽火焰术媒介",
+        "象征雪花军人身份"
+      ],
+      "volumes": [
+        "vol-33"
+      ]
+    },
+    {
+      "id": "yukika-military-sword",
+      "type": "weapon",
+      "owner": "yukika",
+      "description": "雪花在考试送行时合上护手为金次讨彩头的军刀。",
+      "features": [
+        "远山家式尚武象征"
+      ],
+      "volumes": [
+        "vol-44"
+      ]
+    },
+    {
+      "id": "yukika-naval-uniform",
+      "type": "equipment / clothing",
+      "owner": "tooyama-yukika",
+      "description": "雪花标志性服装，也是其军人身份认同核心。政府按照片和体型订做替换用军服。",
+      "features": [
+        "旧日本海军风格",
+        "凸显军阶和中校身份",
+        "与现代街景形成强烈反差"
+      ],
+      "volumes": [
+        "vol-33"
+      ]
+    },
+    {
+      "id": "yukika-type-14-nambu",
+      "type": "weapon",
+      "owner": "tooyama-yukika",
+      "description": "雪花原本使用的旧日本军手枪。归国后诸星为她准备22mm南部弹仿制品和带枪许可，使她继续以低威力旧式武装自卫。",
+      "features": [
+        "旧日本军制式风格手枪",
+        "重心偏后"
+      ],
+      "volumes": [
+        "vol-33"
+      ]
+    },
+    {
+      "id": "yukina-tanto",
+      "type": "vehicle",
+      "owner": "akiniwa-yukina",
+      "description": "",
+      "features": [],
+      "volumes": [
+        "vol-38"
+      ]
+    },
+    {
+      "id": "zandra-bus",
+      "type": "vehicle",
+      "owner": "无特定归属",
+      "description": "A worn Tata minibus rented in Mumbai for the seven-person retrieval team. It carries them toward Zandra before needing repairs at Singh garage.",
+      "features": [],
+      "volumes": []
+    },
+    {
+      "id": "zengata-monkey",
+      "type": "vehicle",
+      "owner": "zeni-gata-nori",
+      "description": "钱形乃莉追捕亚莉亚时骑乘的小型机车，配外交官车牌。",
+      "features": [
+        "小型高机动",
+        "配合铁链投石带投掷硬币攻击"
+      ],
+      "volumes": [
+        "vol-18"
+      ]
+    },
+    {
+      "id": "zenigata-stepwgn",
+      "type": "vehicle",
+      "owner": "zenigata-nori",
+      "description": "钱形在加拿大用于接应金次一行的日本车，将众人送往日本驻加拿大大使馆。",
+      "features": [
+        "多人接送",
+        "外交撤离"
+      ],
+      "volumes": [
+        "vol-32"
+      ]
+    },
+    {
+      "id": "zero-floatplane-fragment",
+      "type": "material",
+      "owner": "kinji",
+      "description": "",
+      "features": [],
+      "volumes": [
+        "vol-38"
+      ]
+    },
+    {
+      "id": "zero-type-recon-plane",
+      "type": "vehicle / key-item",
+      "owner": "无特定归属",
+      "description": "挂在东北巨岩榕树上的旧日本帝国海军水上侦察机残骸，成为金次与尼莫造船逃脱的关键材料。",
+      "features": [
+        "金属浮筒防水防锈",
+        "发动机与机体骨架残存",
+        "驾驶员似乎已脱逃"
+      ],
+      "volumes": [
+        "vol-28"
+      ]
+    },
+    {
+      "id": "zhao-yun-dragon-silver-spear",
+      "type": "weapon",
+      "owner": "zhao-yun",
+      "description": "赵云使用的传承长枪，笹穗枪形，枪刃宽厚，带白缨、青铜龙纹装具和白银枪刃，可突刺、劈斩、投掷。",
+      "features": [
+        "高速旋转枪术",
+        "投掷适性",
+        "高威力冲击"
+      ],
+      "volumes": [
+        "vol-45"
+      ]
+    },
+    {
+      "id": "zhao-yun-pegasus-zilong",
+      "type": "pet-companion",
+      "owner": "zhao-yun",
+      "description": "赵云骑乘的雷克提亚天马，具有光学隐形能力，能在高空接住赵云并飞离。",
+      "features": [
+        "飞行",
+        "隐形",
+        "载人"
+      ],
+      "volumes": [
+        "vol-45"
+      ]
+    },
+    {
+      "id": "zii-dowsing-rods",
+      "type": "equipment",
+      "owner": "zii",
+      "description": "ZII初次登场时握持的L型金属棒，用于探测/追踪GV位置的神秘学道具式装备。",
+      "features": [
+        "辅助探测术",
+        "外观神秘学道具"
+      ],
+      "volumes": [
+        "vol-27"
+      ]
+    }
+  ]
+};

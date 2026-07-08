@@ -1,0 +1,45 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "system",
+  "entityId": "butei-credit-system",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-04",
+  "_schema": "rp-system-volume-v1",
+  "periods": [
+    {
+      "periodId": "vol-04",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-04/full.txt:569",
+        "hidan-no-aria-main/vol-04/full.txt:580"
+      ],
+      "snapshot": {
+        "name": "武侦高中学分制度",
+        "aliases": [
+          "武侦高中学分",
+          "紧急任务学分"
+        ],
+        "type": "rank / social",
+        "description": "武侦高中学生必须取得足够学分才能进级。学分可通过完成专业科目任务获得。学分不足的学生可在假期期间通过『紧急任务』（相当于寒暑修）补足学分。任务按难度分配不同学分量。",
+        "details": {
+          "credit_requirement": "2学分/学期（专业科目）",
+          "emergency_missions": "假期期间以优惠价格大量承接任务用于补学分",
+          "mission_types": "侦探科、监识科、强袭科等多种分类"
+        },
+        "levels": [
+          "一般科目学分",
+          "专业科目学分（任务获得）",
+          "紧急任务学分（假期补修）"
+        ],
+        "known_practitioners": [
+          "kinji"
+        ],
+        "origin": "武侦高中教育制度",
+        "limitations": [
+          "学分不足将留级"
+        ],
+        "evidence_level": "S",
+        "source_refs": []
+      }
+    }
+  ]
+}

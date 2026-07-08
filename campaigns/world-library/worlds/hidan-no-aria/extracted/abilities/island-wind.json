@@ -1,0 +1,49 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "island-wind",
+  "volume": "vol-45",
+  "source_refs": [
+    "hidan-no-aria-main/vol-45/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-45",
+      "volume": "vol-45",
+      "time": "2011-03",
+      "name": {
+        "zh": "岛风",
+        "en": "Island Wind"
+      },
+      "aliases": [],
+      "type": "combat",
+      "description": "远山家五十二种防技之一，将自身重量借出、瞬间变轻以提升闪避速度。",
+      "activation": {
+        "condition": "远山家技法与HSS辅助",
+        "incantation": "岛风",
+        "time": "瞬时",
+        "cost": "难度极高，攻击力下降"
+      },
+      "effects": [
+        "高速伏地闪避",
+        "躲避长枪七连击"
+      ],
+      "known_feats": [
+        {
+          "summary": "金次用岛风躲开赵云七进七出的第一轮致命七连击。",
+          "sourceRef": "hidan-no-aria-main/vol-45/full.txt:3495"
+        }
+      ],
+      "shared_by": [
+        "kinji"
+      ],
+      "see_also": [
+        "snow-wind"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-45/chapters/ch-004-第4弹_玻璃的阶塔.txt:1236"
+      ]
+    }
+  ]
+}

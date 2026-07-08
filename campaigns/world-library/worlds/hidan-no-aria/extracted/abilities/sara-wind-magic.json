@@ -1,0 +1,46 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "sara-wind-magic",
+  "volume": "vol-20",
+  "source_refs": [
+    "hidan-no-aria-main/vol-20/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-20",
+      "volume": "vol-20",
+      "time": "第二十卷",
+      "name": {
+        "zh": "莎拉风术",
+        "en": "Sarah wind magic"
+      },
+      "type": "magic / combat",
+      "description": "莎拉操纵气流与风的魔术。本卷中她在伦敦桥上制造气流缓冲垫，让鬼一行跳入伊·U甲板。",
+      "details": {
+        "applications": [
+          "缓冲垫",
+          "强风攻击背景能力"
+        ]
+      },
+      "activation": {
+        "condition": "风术咏唱或集中精神"
+      },
+      "effects": [
+        "控制气流",
+        "缓冲坠落",
+        "攻击或移动辅助"
+      ],
+      "known_feats": [
+        "伦敦桥到伊·U甲板的集体降落"
+      ],
+      "shared_by": [
+        "sara"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-20/full.txt"
+      ]
+    }
+  ]
+}
