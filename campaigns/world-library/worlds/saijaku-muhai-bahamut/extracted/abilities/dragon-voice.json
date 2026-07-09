@@ -1,0 +1,222 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "dragon-voice",
+  "volume": "vol-01",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-01/full.txt:2101",
+    "saijaku-muhai-bahamut-main/vol-01/full.txt:5825"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-01",
+      "volume": "vol-01",
+      "time": "all volume 1",
+      "name": {
+        "zh": "龙声",
+        "en": "Dragon Voice"
+      },
+      "aliases": [
+        "机龙通讯"
+      ],
+      "type": "technology / skill",
+      "description": "A communication function between Drag-Rides that lets pilots transmit voices directly during battle.",
+      "details": {
+        "medium": "Drag-Ride link",
+        "range": "battlefield communication range",
+        "privacy": "can target selected recipients"
+      },
+      "activation": {
+        "condition": "linked Drag-Ride users",
+        "incantation": "none",
+        "time": "instant",
+        "cost": "minimal concentration"
+      },
+      "effects": [
+        "battlefield coordination",
+        "private tactical speech",
+        "remote reports from scouts"
+      ],
+      "power_level": {
+        "initial": "standard pilot communication",
+        "peak": "used during chaotic Abyss battles",
+        "evolution": []
+      },
+      "known_feats": [
+        "Lux instructs Lisha by Dragon Voice during the Gargoyle attack",
+        "Noct reports Belbet's betrayal through Dragon Voice"
+      ],
+      "shared_by": [
+        "lux-arcadia",
+        "lisha-atismata",
+        "sharis-baltshift",
+        "tillfur-lilmit",
+        "noct-leaflet",
+        "belbet-balt"
+      ],
+      "see_also": [
+        "drag-ride-operation"
+      ],
+      "countered_by": [],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-01/full.txt:2101",
+        "saijaku-muhai-bahamut-main/vol-01/full.txt:5825"
+      ]
+    },
+    {
+      "period_id": "vol-04",
+      "volume": "vol-04",
+      "time": "vol-04",
+      "name": {
+        "zh": "龙声",
+        "en": "Dragon Voice"
+      },
+      "aliases": [
+        "机龙通讯"
+      ],
+      "type": "technology",
+      "description": "通过装甲机龙限定或广域传递声音的通信方式。方舟探索中队员以龙声汇报敌情、联络小队与传送限界突破代码。",
+      "details": {
+        "medium": "Drag-Ride neural communication"
+      },
+      "activation": {
+        "condition": "装甲机龙装备中",
+        "incantation": "",
+        "time": "即时",
+        "cost": "轻微机龙能量"
+      },
+      "effects": [
+        "远距通讯",
+        "限定收讯对象",
+        "传递战术信息"
+      ],
+      "power_level": {
+        "initial": "队伍通信",
+        "peak": "莉夏向路克斯传送解除程序指导",
+        "evolution": []
+      },
+      "known_feats": [
+        "库露露席法向路克斯告知欧特鲁斯情报",
+        "莉夏传送限界突破步骤"
+      ],
+      "shared_by": [
+        "lux-arcadia",
+        "krulcifer-einfolk",
+        "nocht-leaflet",
+        "lisesharte-atismata"
+      ],
+      "see_also": [
+        "drag-ride-system"
+      ],
+      "countered_by": [],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-04/full.txt:1197",
+        "saijaku-muhai-bahamut-main/vol-04/full.txt:5895"
+      ]
+    },
+    {
+      "period_id": "vol-20",
+      "volume": "vol-20",
+      "time": "最终战",
+      "name": {
+        "zh": "龙之声",
+        "en": "Dragon Voice"
+      },
+      "aliases": [
+        "机龙通信"
+      ],
+      "type": "technology / communication",
+      "description": "机龙使之间通过机龙进行远距通信的手段，最终战中爱理、路克斯、库露露席法等人频繁用其传达战场情报与指示。",
+      "details": {
+        "users": "lux-arcadia; airi-arcadia; ariel; krulcifer-einfolk"
+      },
+      "activation": {
+        "condition": "装备或连接机龙通信系统",
+        "incantation": "",
+        "time": "即时",
+        "cost": "低"
+      },
+      "effects": [
+        "远距通信",
+        "战术指挥",
+        "情报共享"
+      ],
+      "power_level": {
+        "initial": "中",
+        "peak": "最终战中维持多线协调"
+      },
+      "known_feats": [
+        "路克斯通过龙之声向爱理确认战局",
+        "爱理向各战线传达计划"
+      ],
+      "shared_by": [
+        "lux-arcadia",
+        "airi-arcadia",
+        "ariel",
+        "krulcifer-einfolk"
+      ],
+      "see_also": [
+        "jormungandr-radar"
+      ],
+      "countered_by": [],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-20/full.txt:2845"
+      ]
+    },
+    {
+      "period_id": "vol-21-finale",
+      "volume": "vol-21",
+      "time": "Hounds suppression battle",
+      "name": {
+        "zh": "龙之声",
+        "en": "Dragon Voice"
+      },
+      "aliases": [
+        "机龙通信"
+      ],
+      "type": "technology / communication",
+      "description": "Drag-Ride communication channel used tactically during the epilogue battle. Airi addresses the Hounds leader through it, identifies the group and explains how Lux defeated him.",
+      "details": {
+        "user": "airi-arcadia",
+        "function": "battlefield communication and command"
+      },
+      "activation": {
+        "condition": "Drag-Ride communication network available",
+        "incantation": "",
+        "time": "real-time",
+        "cost": "none stated"
+      },
+      "effects": [
+        "broadcasts commands",
+        "psychological pressure",
+        "battlefield explanation"
+      ],
+      "known_feats": [
+        "Airi uses it to announce the Hounds group's exposure and capture."
+      ],
+      "shared_by": [
+        "airi-arcadia",
+        "drag-ride-pilots"
+      ],
+      "see_also": [
+        "divine-armament-system"
+      ],
+      "countered_by": [],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-21/full.txt:5985-6566"
+      ]
+    }
+  ]
+}

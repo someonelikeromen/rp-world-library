@@ -1,0 +1,223 @@
+{
+  "timestamp": "2026-07-09T13:41:50.954Z",
+  "card": "protagonist",
+  "action": "batch",
+  "note": "",
+  "snapshot": {
+    "index": {
+      "schema": "rp-unified-character-v1",
+      "cardId": "protagonist",
+      "label": "protagonist",
+      "template": "unified-character-v1",
+      "createdAt": "2026-07-09T13:30:20.862Z",
+      "notes": []
+    },
+    "basic": {
+      "name": "待命名的第八位弑神者",
+      "aliases": [],
+      "gender": "",
+      "age": null,
+      "appearance": "",
+      "identityType": "穿越者 / 新晋弑神者",
+      "currentWorldId": "campione",
+      "originWorldId": "unknown-modern-earth",
+      "status": "已弑杀不顺从之神赫菲斯托斯；开局希腊；成就系统已觉醒"
+    },
+    "currentStatus": {
+      "world": "campione",
+      "location": "希腊·利姆诺斯岛近海的古代锻炉遗迹",
+      "time": "神战结束后不久，黎明前",
+      "condition": "刚完成弑神，身体承受神力回流与权能篡夺冲击；咒力低位，意识清醒但疲惫。"
+    },
+    "combat": {
+      "overall": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "offense": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "defense": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "durability": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "reaction": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "mobility": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "control": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "perception": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "mental": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "hax": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "resistance": {},
+      "resource": {}
+    },
+    "resources": [
+      {
+        "id": "stamina",
+        "name": "体力",
+        "capacity": 0,
+        "current": 0,
+        "unit": "",
+        "recoveryRate": "",
+        "externalDependency": "",
+        "combatEndurance": "",
+        "exhaustionEffects": []
+      },
+      {
+        "id": "mana",
+        "name": "魔力",
+        "capacity": 0,
+        "current": 0,
+        "unit": "",
+        "recoveryRate": "",
+        "externalDependency": "",
+        "combatEndurance": "",
+        "exhaustionEffects": []
+      }
+    ],
+    "states": [],
+    "keyRelations": [],
+    "inventoryHighlights": []
+  },
+  "changes": [
+    {
+      "op": {
+        "action": "set",
+        "path": "abilities",
+        "value": [
+          {
+            "activationConditions": [
+              "附近存在火、热源、金属、锻炉痕迹或火山/地脉环境时更稳定",
+              "需要主角明确意志与神话联想来塑形权能",
+              "刚篡夺阶段需要通过实战逐步确认咒文、姿态与限制"
+            ],
+            "effects": [
+              {
+                "detail": "召出带有神性的锻造火，可焚烧咒力、神兽与神性造物，也可熔炼金属与破坏魔术防护。",
+                "id": "divine-forge-flame",
+                "name": "神炉点火"
+              },
+              {
+                "detail": "在具备材料、热源与短暂准备的情况下，快速修复、强化或临时改造武器与金属器具。",
+                "id": "godsmiths-hand",
+                "name": "神匠之手"
+              },
+              {
+                "detail": "可短时间驱动被火焰与咒力标记过的金属构装体，但需要预先材料，且消耗巨大。",
+                "id": "bronze-automaton-seed",
+                "name": "青铜自动机雏形"
+              },
+              {
+                "detail": "以金属、火焰或锻炉痕迹为媒介形成束缚，对神兽、灵体、咒术造物与神性目标更有效。",
+                "id": "chain-that-binds-fire",
+                "name": "锁神之枷"
+              }
+            ],
+            "id": "authority-hephaestus-divine-forge",
+            "limitations": [
+              "无法无材料瞬间制造复杂神具",
+              "不能凭空量产军团级自动机",
+              "连续使用会迅速消耗咒力并加重弑神后反噬",
+              "对高速近身战与精神干涉的覆盖不足",
+              "权能越偏向‘创造/修复’，越需要时间、媒介和专注"
+            ],
+            "name": "赫菲斯托斯之权能：神炉与锻造火",
+            "narrativeHooks": [
+              "赫菲斯托斯的残响可能影响权能表现",
+              "权能形态可随神话理解与战斗经历逐渐分化"
+            ],
+            "powerSystem": "campione-godslayer-authority",
+            "rank": "新晋弑神者权能 / 未完全掌控",
+            "source": "弑杀不顺从之神赫菲斯托斯后篡夺",
+            "summary": "以神火、锻炉、金属塑形、神造工艺与束缚为核心的复合权能。它不是万能创造，而是把神话中‘锻造、火山、机关、枷锁、神具修复’的象征压缩成可被弑神者调用的暴力奇迹。",
+            "type": "Authority"
+          }
+        ]
+      },
+      "result": {
+        "before": [],
+        "after": [
+          {
+            "activationConditions": [
+              "附近存在火、热源、金属、锻炉痕迹或火山/地脉环境时更稳定",
+              "需要主角明确意志与神话联想来塑形权能",
+              "刚篡夺阶段需要通过实战逐步确认咒文、姿态与限制"
+            ],
+            "effects": [
+              {
+                "detail": "召出带有神性的锻造火，可焚烧咒力、神兽与神性造物，也可熔炼金属与破坏魔术防护。",
+                "id": "divine-forge-flame",
+                "name": "神炉点火"
+              },
+              {
+                "detail": "在具备材料、热源与短暂准备的情况下，快速修复、强化或临时改造武器与金属器具。",
+                "id": "godsmiths-hand",
+                "name": "神匠之手"
+              },
+              {
+                "detail": "可短时间驱动被火焰与咒力标记过的金属构装体，但需要预先材料，且消耗巨大。",
+                "id": "bronze-automaton-seed",
+                "name": "青铜自动机雏形"
+              },
+              {
+                "detail": "以金属、火焰或锻炉痕迹为媒介形成束缚，对神兽、灵体、咒术造物与神性目标更有效。",
+                "id": "chain-that-binds-fire",
+                "name": "锁神之枷"
+              }
+            ],
+            "id": "authority-hephaestus-divine-forge",
+            "limitations": [
+              "无法无材料瞬间制造复杂神具",
+              "不能凭空量产军团级自动机",
+              "连续使用会迅速消耗咒力并加重弑神后反噬",
+              "对高速近身战与精神干涉的覆盖不足",
+              "权能越偏向‘创造/修复’，越需要时间、媒介和专注"
+            ],
+            "name": "赫菲斯托斯之权能：神炉与锻造火",
+            "narrativeHooks": [
+              "赫菲斯托斯的残响可能影响权能表现",
+              "权能形态可随神话理解与战斗经历逐渐分化"
+            ],
+            "powerSystem": "campione-godslayer-authority",
+            "rank": "新晋弑神者权能 / 未完全掌控",
+            "source": "弑杀不顺从之神赫菲斯托斯后篡夺",
+            "summary": "以神火、锻炉、金属塑形、神造工艺与束缚为核心的复合权能。它不是万能创造，而是把神话中‘锻造、火山、机关、枷锁、神具修复’的象征压缩成可被弑神者调用的暴力奇迹。",
+            "type": "Authority"
+          }
+        ]
+      }
+    }
+  ]
+}

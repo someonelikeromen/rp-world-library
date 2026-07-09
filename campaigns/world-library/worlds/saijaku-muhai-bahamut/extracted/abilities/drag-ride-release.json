@@ -1,0 +1,51 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "drag-ride-release",
+  "volume": "vol-09",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-09/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-09",
+      "volume": "vol-09",
+      "time": "vol-09",
+      "name": {
+        "zh": "机龙解放",
+        "en": "Drag-Ride Release"
+      },
+      "aliases": [],
+      "type": "technology / combat",
+      "description": "解除部分装甲或武装以减轻负担、诱敌或集中输出的基础机龙技术，练至极限可成为奥义级战术。",
+      "details": {
+        "users": [
+          "lux",
+          "celestia"
+        ],
+        "vol_09_usage": "路克斯用于切换巴哈姆特；赛莉丝用于集中凛德龙虫雷击。"
+      },
+      "activation": {
+        "condition": "已穿装甲机龙",
+        "incantation": "《机龙解放》",
+        "time": "instant",
+        "cost": "降低防御与机动力，误用会致命"
+      },
+      "effects": [
+        "减轻机体负荷",
+        "解除不必要装甲",
+        "将功率集中到特定武器"
+      ],
+      "shared_by": [
+        "lux",
+        "celestia"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:1",
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:5341",
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:6737"
+      ]
+    }
+  ]
+}

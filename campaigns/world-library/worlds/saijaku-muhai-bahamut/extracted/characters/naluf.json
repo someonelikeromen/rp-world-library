@@ -1,0 +1,146 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "naluf",
+  "volume": "vol-06",
+  "time_range": {
+    "start": "vol-06",
+    "end": "vol-06"
+  },
+  "sub_arcs": [
+    "执政院政治"
+  ],
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:2470",
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:4930"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-06",
+      "volume": "vol-06",
+      "time": "全龙战前夜与纪念祭",
+      "label": "新王国宰相",
+      "name": {
+        "zh": "那鲁夫",
+        "en": "Naluf",
+        "jp": ""
+      },
+      "aliases": [
+        "那鲁夫宰相"
+      ],
+      "titles": [
+        "亚提司玛特新王国宰相"
+      ],
+      "gender": "male",
+      "species": "human",
+      "nationality": "亚提司玛特新王国",
+      "occupation": "宰相；执政官",
+      "affiliation": "新王国执政院",
+      "status": {
+        "role": "代表执政院说明收复帝都计画，并陪同莉夏纪念祭致词"
+      },
+      "appearance": {
+        "overview": "执政院高官。"
+      },
+      "personality": {
+        "summary": "谨慎、官方、重视国家安全。",
+        "core_traits": [
+          "官僚",
+          "保密",
+          "危机管理"
+        ],
+        "inner_conflict": "需在全龙战外交场合下处理秘密军事危机。"
+      },
+      "abilities_owned": [
+        "statecraft"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "lux-arcadia": {
+          "type": "政府与前皇族",
+          "status": "召见并告知收复帝都计画"
+        },
+        "lisesharte-atismata": {
+          "type": "宰相与公主",
+          "status": "在纪念祭致词场合辅佐王室"
+        }
+      },
+      "knowledge": [
+        "recapture-imperial-capital-plan"
+      ],
+      "secrets": [
+        "掌握海布格袭击计划情报"
+      ],
+      "summary": "那鲁夫是新王国宰相，在执政院会议中向路克斯兄妹说明海布格阴谋与诱饵作战背景。",
+      "key_events": [
+        {
+          "event_id": "council-decoy-order",
+          "summary": "在执政院说明收复帝都计画的密报内容。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-06/full.txt:2470"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:2470",
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:4930"
+      ]
+    },
+    {
+      "period_id": "vol-13",
+      "volume": "vol-13",
+      "time": "世界联盟僵局期间",
+      "label": "新王国宰相",
+      "name": {
+        "zh": "那鲁夫",
+        "en": "Naluf",
+        "jp": ""
+      },
+      "aliases": [
+        "那鲁夫宰相"
+      ],
+      "titles": [
+        "亚提司玛特新王国宰相"
+      ],
+      "gender": "男",
+      "species": "人类",
+      "nationality": "亚提司玛特新王国",
+      "occupation": "宰相、政治家",
+      "affiliation": "亚提司玛特新王国",
+      "status": {
+        "vol13": "存活；负责新王国对联盟与四大贵族的政治应对",
+        "concern": "认为罗菲女王与王权管理已到极限，开始考虑权力平衡"
+      },
+      "abilities_owned": [
+        "court-political-calculation"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "raffii-atismata": {
+          "type": "君主",
+          "status": "表面辅佐，暗中评估女王能力与王权局势"
+        },
+        "zbaybelloc": {
+          "type": "四大贵族势力",
+          "status": "考虑借助其残余影响力补充战力"
+        }
+      },
+      "knowledge": [
+        "world-alliance-sacrifice-plan",
+        "four-great-nobles-power-balance"
+      ],
+      "summary": "那鲁夫在世界联盟会议中辅佐罗菲女王，却在会后独白中显露现实主义与冷酷政治判断。他认为新王国若再借助四大贵族会破坏权力均衡，也认为亚提司玛特伯爵头衔管理面对绝境已近极限。",
+      "key_events": [
+        {
+          "event_id": "world-alliance-votes-counterattack",
+          "summary": "会议后分析新王国与四大贵族权力均衡风险。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-13/full.txt:3700"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-13/full.txt:3600",
+        "saijaku-muhai-bahamut-main/vol-13/full.txt:3800"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "timestamp": "2026-07-09T17:00:18.729Z",
+  "card": "protagonist",
+  "action": "batch",
+  "note": "",
+  "snapshot": {
+    "index": {
+      "schema": "rp-unified-character-v1",
+      "cardId": "protagonist",
+      "label": "protagonist",
+      "template": "unified-character-v1",
+      "createdAt": "2026-07-09T13:30:20.862Z",
+      "notes": []
+    },
+    "basic": {
+      "name": "宁易",
+      "aliases": [
+        "第七位王",
+        "赫菲斯托斯权能持有者",
+        "神匠之炉持有者"
+      ],
+      "gender": "男",
+      "age": 24,
+      "appearance": "现代中国青年，大学高年级学生气质；具体外貌细节待开局描写确认。",
+      "identityType": "肉身穿越者 / 新生弑神者",
+      "currentWorldId": "campione",
+      "originWorldId": "现实世界（中国）",
+      "status": "肉身穿越至 Campione 独立偏移时间线；在草薙护堂成为弑神者前，机缘巧合弑杀赫菲斯托斯并以完整弑神者身份复活，成为当世第七位王；开局地点为希腊；外挂为成就系统（细节待确认）。"
+    },
+    "currentStatus": {
+      "world": "campione",
+      "location": "希腊（具体地点待开局确认）",
+      "time": "独立偏移时间线；早于草薙护堂成为弑神者的主线时间点。",
+      "condition": "已弑杀赫菲斯托斯并经潘朵拉主持的弑神仪式完成复活；拥有完整新生弑神者肉体、巨大咒力储备与权能『神匠之炉』，但熟练度、控制力、具体开局现场与成就系统细节仍待确认。"
+    },
+    "combat": {
+      "control": {
+        "basis": "刚获得权能，真实战斗经验不足；可发动但无法精密掌握极限输出。",
+        "rating": "N5 街区级",
+        "score": 3500
+      },
+      "defense": {
+        "basis": "弑神者肉体、咒力与权能防护带来神战级基础防御，但新晋控制不足。",
+        "rating": "N7 城市级",
+        "score": 11000
+      },
+      "durability": {
+        "basis": "完整弑神者新生后具备强韧肉体和恢复倾向，可承受远超人类/魔术师的伤害。",
+        "rating": "N7 城市级",
+        "score": 12000
+      },
+      "hax": {
+        "basis": "权能本质为神级概念锻造，可对神具、结界、权能显现物与自我肉体进行改铸/破坏/适配。",
+        "rating": "N8 山脉/区域级",
+        "score": 23000
+      },
+      "mental": {
+        "basis": "具备穿越者认知优势与原则性；生死压力下会出现战斗狂气，但仍是新晋魔王。",
+        "rating": "N6 城镇级",
+        "score": 6500
+      },
+      "mobility": {
+        "basis": "基础肉体超人但无固定高速权能；可通过锻造移动/飞行类工具临时升档。",
+        "rating": "N6 城镇级",
+        "score": 5200
+      },
+      "offense": {
+        "basis": "『神匠之炉』稳定 N7，高投入可触 N8；极限燃烧可短触 N9 但不作为常态。",
+        "rating": "N8 山脉/区域级",
+        "score": 18000
+      },
+      "overall": {
+        "basis": "新晋完整弑神者，位格与神/魔王同格；综合受控制力、经验、基础机动和近战技术拖累，暂定城市级中段。",
+        "rating": "N7 城市级",
+        "score": 11000
+      },
+      "perception": {
+        "basis": "对神与神级危机有弑神者式反射感应；常规侦查仍受经验限制。",
+        "rating": "N7 城市级",
+        "score": 9000
+      },
+      "reaction": {
+        "basis": "战斗本能和弑神者肉体带来高反应，但未受武人训练。",
+        "rating": "N6 城镇级",
+        "score": 7000
+      },
+      "resistance": {
+        "basis": "对人类魔术、诅咒、直接术式具有弑神者级反弹/免疫；存在占术、魔兽实体、口服药物、神术与神具等例外。",
+        "rating": "N8 山脉/区域级",
+        "score": 18000
+      },
+      "resource": {
+        "basis": "弑神者自然储备大量咒力；神接近时会自动进入临战状态。斗志直接提升回复速度暂列待确认，不写死。",
+        "rating": "N8 山脉/区域级",
+        "score": 18000
+      }
+    },
+    "resources": [
+      {
+        "capacity": 12000,
+        "combatEndurance": "N7 城市级耐久；可进行神战级消耗战，但新晋经验不足会导致浪费。",
+        "current": 12000,
+        "exhaustionEffects": [
+          "反应下降",
+          "权能精度下降",
+          "自我锻造失败率上升"
+        ],
+        "externalDependency": "无固定外部依赖；极端恢复可能需要安全环境或权能集中。",
+        "id": "stamina",
+        "name": "体力 / 弑神者生命力",
+        "recoveryRate": "强恢复倾向；重伤后可通过弑神者肉体、咒力与权能自我锻造恢复，具体速度按伤势与剧情判定。",
+        "unit": "abstract-rating"
+      },
+      {
+        "capacity": 18000,
+        "combatEndurance": "N8 低段资源池；足以支撑稳定 N7 与全力 N8 的神匠之炉使用。",
+        "current": 18000,
+        "exhaustionEffects": [
+          "神匠之炉降档",
+          "高等级神具维持失败",
+          "身体恢复变慢",
+          "魔术抗性与临战感应减弱"
+        ],
+        "externalDependency": "无；但高等级永久锻造和极限燃烧需要长冷却。",
+        "id": "cursed-power",
+        "name": "咒力 / 神力储备",
+        "recoveryRate": "弑神者自然储备大量咒力；不顺从之神接近时自动进入临战状态并动员咒力。斗志直接提高回复速度尚待原文确认，暂不写死。",
+        "unit": "N-score abstract"
+      },
+      {
+        "capacity": 0,
+        "combatEndurance": "不直接计入当前战力，奖励领取后再按 N0–N24 框架折算。",
+        "current": 0,
+        "exhaustionEffects": [],
+        "externalDependency": "项目成就系统规则；待开局确认显示边界。",
+        "id": "achievement-system",
+        "name": "成就系统",
+        "recoveryRate": "非消耗资源；触发、展示、奖励候选与领取规则待确认。",
+        "unit": "system"
+      }
+    ],
+    "states": [],
+    "keyRelations": [],
+    "inventoryHighlights": []
+  },
+  "changes": [
+    {
+      "op": {
+        "action": "set",
+        "path": "speedProfile",
+        "value": {
+          "actionSpeed": {
+            "basis": "基础身体超人，动作执行仍受现代人习惯限制。",
+            "rating": "N5 街区级",
+            "score": 3600
+          },
+          "castingSpeed": {
+            "basis": "权能发动可在战斗中使用，但复杂锻造需构想、咒力与理解。",
+            "rating": "N5 街区级",
+            "score": 3500
+          },
+          "movementSpeed": {
+            "basis": "无固定移动权能时为超人级移动。",
+            "rating": "N5 街区级",
+            "score": 3200
+          },
+          "projectileSpeed": {
+            "basis": "锻造神具/投射武器时可随权能输出升档，初期以 N7 为稳定值。",
+            "rating": "N7 城市级",
+            "score": 10000
+          },
+          "reactionSpeed": {
+            "basis": "弑神者临战反射强，但未受武术/神速权能训练。",
+            "rating": "N6 城镇级",
+            "score": 7000
+          },
+          "teleportation": {
+            "available": false,
+            "conditions": [
+              "暂无固定瞬移能力；未来可通过锻造神具或权能进化获得临时移动手段。"
+            ],
+            "cooldown": "",
+            "range": ""
+          },
+          "thinkingSpeed": {
+            "basis": "普通现代大学生思考速度；靠先验设定知识弥补。",
+            "rating": "N1 街头级",
+            "score": 180
+          },
+          "travelSpeed": {
+            "basis": "未锻造载具/飞行神具时仍依赖常规交通或短程爆发。",
+            "rating": "N4 建筑级",
+            "score": 1500
+          }
+        }
+      },
+      "result": {
+        "before": {
+          "reactionSpeed": {
+            "rating": "",
+            "score": 0,
+            "basis": ""
+          },
+          "actionSpeed": {
+            "rating": "",
+            "score": 0,
+            "basis": ""
+          },
+          "movementSpeed": {
+            "rating": "",
+            "score": 0,
+            "basis": ""
+          },
+          "travelSpeed": {
+            "rating": "",
+            "score": 0,
+            "basis": ""
+          },
+          "thinkingSpeed": {
+            "rating": "",
+            "score": 0,
+            "basis": ""
+          },
+          "castingSpeed": {
+            "rating": "",
+            "score": 0,
+            "basis": ""
+          },
+          "projectileSpeed": {
+            "rating": "",
+            "score": 0,
+            "basis": ""
+          },
+          "teleportation": {
+            "available": false,
+            "range": "",
+            "conditions": [],
+            "cooldown": ""
+          }
+        },
+        "after": {
+          "actionSpeed": {
+            "basis": "基础身体超人，动作执行仍受现代人习惯限制。",
+            "rating": "N5 街区级",
+            "score": 3600
+          },
+          "castingSpeed": {
+            "basis": "权能发动可在战斗中使用，但复杂锻造需构想、咒力与理解。",
+            "rating": "N5 街区级",
+            "score": 3500
+          },
+          "movementSpeed": {
+            "basis": "无固定移动权能时为超人级移动。",
+            "rating": "N5 街区级",
+            "score": 3200
+          },
+          "projectileSpeed": {
+            "basis": "锻造神具/投射武器时可随权能输出升档，初期以 N7 为稳定值。",
+            "rating": "N7 城市级",
+            "score": 10000
+          },
+          "reactionSpeed": {
+            "basis": "弑神者临战反射强，但未受武术/神速权能训练。",
+            "rating": "N6 城镇级",
+            "score": 7000
+          },
+          "teleportation": {
+            "available": false,
+            "conditions": [
+              "暂无固定瞬移能力；未来可通过锻造神具或权能进化获得临时移动手段。"
+            ],
+            "cooldown": "",
+            "range": ""
+          },
+          "thinkingSpeed": {
+            "basis": "普通现代大学生思考速度；靠先验设定知识弥补。",
+            "rating": "N1 街头级",
+            "score": 180
+          },
+          "travelSpeed": {
+            "basis": "未锻造载具/飞行神具时仍依赖常规交通或短程爆发。",
+            "rating": "N4 建筑级",
+            "score": 1500
+          }
+        }
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "notes",
+        "value": [
+          "机动是宁易当前短板之一；通过神匠之炉锻造飞行、加速、载具或位移神具可临时升至 N7–N8。",
+          "不得默认拥有黑王子亚雷克式神速或草薙护堂凤化身。"
+        ]
+      },
+      "result": {
+        "before": [],
+        "after": [
+          "机动是宁易当前短板之一；通过神匠之炉锻造飞行、加速、载具或位移神具可临时升至 N7–N8。",
+          "不得默认拥有黑王子亚雷克式神速或草薙护堂凤化身。"
+        ]
+      }
+    }
+  ]
+}

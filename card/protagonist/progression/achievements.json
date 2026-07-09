@@ -1,0 +1,91 @@
+{
+  "schema": "rp-achievements-v1",
+  "mode": "protagonist-exclusive-cheat-achievement-system",
+  "owner": "protagonist-only",
+  "visibility": "hidden-by-default",
+  "characterId": "protagonist",
+  "enabled": true,
+  "panel": {
+    "defaultVisible": false,
+    "requiresManualOpen": true,
+    "hasActiveAbility": true,
+    "visibleSections": [
+      "unlockedAchievements",
+      "currentCharacterStatus",
+      "claimableRewards"
+    ],
+    "hiddenSections": [
+      "lockedAchievements",
+      "hiddenConditions",
+      "instantCandidateRecords",
+      "missedRollResults",
+      "futureRewards",
+      "npcOmniscientStatus",
+      "hiddenWorldTruth"
+    ],
+    "ui": {
+      "theme": "translucent-cyan-sci-fi",
+      "displayName": "半透明淡蓝色科幻光屏",
+      "background": "rgba(84, 215, 255, 0.18)",
+      "accentColor": "#7FE9FF",
+      "secondaryAccentColor": "#B7F5FF",
+      "textColor": "#DDFBFF",
+      "borderColor": "rgba(127, 233, 255, 0.72)",
+      "shadow": "0 0 18px rgba(127, 233, 255, 0.48)",
+      "panelShape": "holographic-rounded-rectangle",
+      "scanline": true,
+      "sections": [
+        "achievements",
+        "rewards",
+        "claimStatus",
+        "characterStatus",
+        "energyGate"
+      ],
+      "visibilityBoundary": "show only protagonist-visible achievement panel fields"
+    }
+  },
+  "currentWorldRating": null,
+  "currentWorldTopRating": null,
+  "achievements": [],
+  "rewardRolls": [],
+  "pendingClaims": [],
+  "claimedRewards": [],
+  "ownedRewardIds": [],
+  "claimedRewardIds": [],
+  "pendingRewardIds": [],
+  "worldRollTables": [],
+  "settings": {
+    "rd100": {
+      "archivedWorldSlots": 3,
+      "unarchivedWorldSlots": 2,
+      "fillRemainderWith": "randomAnimeGameWorld",
+      "shuffle": true
+    },
+    "rerollOnDuplicate": true,
+    "archivedWorldRequiresWebVerification": false,
+    "unarchivedWorldRequiresWebVerification": true,
+    "randomAnimeGameWorldRequiresWebVerification": true
+  },
+  "auditLog": [],
+  "instantCandidateRecords": [],
+  "systemSettings": {
+    "schema": "rp-achievement-system-settings-v1",
+    "version": "2026.07.09",
+    "path": "data/rp-achievements/settings.json",
+    "loadedAt": "2026-07-09T13:39:45.333Z"
+  },
+  "worldExposure": {
+    "currentWorld": {
+      "name": "弑神者！ / Campione!",
+      "note": "用户指定世界；成就系统规则待确认",
+      "worldId": "campione"
+    },
+    "experiencedWorlds": [],
+    "energyExposure": {
+      "basis": [
+        "Campione 世界存在咒力、权能、魔术与神力体系。"
+      ],
+      "hasEnergySystem": true
+    }
+  }
+}

@@ -1,0 +1,354 @@
+{
+  "timestamp": "2026-07-09T13:45:20.353Z",
+  "card": "protagonist",
+  "action": "batch",
+  "note": "",
+  "snapshot": {
+    "index": {
+      "schema": "rp-unified-character-v1",
+      "cardId": "protagonist",
+      "label": "protagonist",
+      "template": "unified-character-v1",
+      "createdAt": "2026-07-09T13:30:20.862Z",
+      "notes": []
+    },
+    "basic": {
+      "name": "",
+      "aliases": [],
+      "gender": "",
+      "age": null,
+      "appearance": "",
+      "identityType": "穿越者",
+      "currentWorldId": "campione",
+      "originWorldId": "",
+      "status": "穿越者；知道大部分 Campione 设定；机缘巧合杀了赫菲斯托斯；开局希腊；外挂：成就系统（细节待确认）"
+    },
+    "currentStatus": {
+      "world": "campione",
+      "location": "希腊（具体地点待确认）",
+      "time": "",
+      "condition": "已弑杀赫菲斯托斯；身体状态、咒力状态与权能状态待确认。"
+    },
+    "combat": {
+      "control": {
+        "basis": "",
+        "rating": "",
+        "score": 0
+      },
+      "defense": {
+        "basis": "",
+        "rating": "",
+        "score": 0
+      },
+      "durability": {
+        "basis": "",
+        "rating": "",
+        "score": 0
+      },
+      "hax": {
+        "basis": "",
+        "rating": "",
+        "score": 0
+      },
+      "mental": {
+        "basis": "",
+        "rating": "",
+        "score": 0
+      },
+      "mobility": {
+        "basis": "",
+        "rating": "",
+        "score": 0
+      },
+      "offense": {
+        "basis": "",
+        "rating": "",
+        "score": 0
+      },
+      "overall": {
+        "basis": "",
+        "rating": "",
+        "score": 0
+      },
+      "perception": {
+        "basis": "",
+        "rating": "",
+        "score": 0
+      },
+      "reaction": {
+        "basis": "",
+        "rating": "",
+        "score": 0
+      },
+      "resistance": {},
+      "resource": {}
+    },
+    "resources": [
+      {
+        "capacity": 0,
+        "combatEndurance": "",
+        "current": 0,
+        "exhaustionEffects": [],
+        "externalDependency": "",
+        "id": "stamina",
+        "name": "体力",
+        "recoveryRate": "",
+        "unit": ""
+      },
+      {
+        "capacity": 0,
+        "combatEndurance": "",
+        "current": 0,
+        "exhaustionEffects": [],
+        "externalDependency": "",
+        "id": "mana",
+        "name": "魔力",
+        "recoveryRate": "",
+        "unit": ""
+      }
+    ],
+    "states": [],
+    "keyRelations": [],
+    "inventoryHighlights": []
+  },
+  "changes": [
+    {
+      "op": {
+        "action": "set",
+        "path": "enabled",
+        "value": true
+      },
+      "result": {
+        "before": true,
+        "after": true
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "panel.hasActiveAbility",
+        "value": true
+      },
+      "result": {
+        "before": true,
+        "after": true
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "achievements",
+        "value": []
+      },
+      "result": {
+        "before": [
+          {
+            "id": "ach-godslayer-born-hephaestus",
+            "name": "神杀し：赫菲斯托斯",
+            "rewardState": "待成就系统结算",
+            "summary": "机缘巧合弑杀不顺从之神赫菲斯托斯，成为新晋弑神者。",
+            "title": "神杀し：赫菲斯托斯",
+            "unlocked": true,
+            "unlockedAt": "开局前 / 希腊利姆诺斯岛神战结束后",
+            "visible": true
+          }
+        ],
+        "after": []
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "rewardRolls",
+        "value": []
+      },
+      "result": {
+        "before": [],
+        "after": []
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "pendingClaims",
+        "value": []
+      },
+      "result": {
+        "before": [],
+        "after": []
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "claimedRewards",
+        "value": []
+      },
+      "result": {
+        "before": [],
+        "after": []
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "ownedRewardIds",
+        "value": []
+      },
+      "result": {
+        "before": [],
+        "after": []
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "claimedRewardIds",
+        "value": []
+      },
+      "result": {
+        "before": [],
+        "after": []
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "pendingRewardIds",
+        "value": []
+      },
+      "result": {
+        "before": [],
+        "after": []
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "worldRollTables",
+        "value": []
+      },
+      "result": {
+        "before": [],
+        "after": []
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "instantCandidateRecords",
+        "value": []
+      },
+      "result": {
+        "before": [],
+        "after": []
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "currentWorldRating",
+        "value": null
+      },
+      "result": {
+        "before": null,
+        "after": null
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "currentWorldTopRating",
+        "value": null
+      },
+      "result": {
+        "before": null,
+        "after": null
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "worldExposure.currentWorld",
+        "value": {
+          "name": "弑神者！ / Campione!",
+          "note": "用户指定世界；成就系统规则待确认",
+          "worldId": "campione"
+        }
+      },
+      "result": {
+        "before": {
+          "basis": [
+            "咒力",
+            "权能",
+            "不顺从之神",
+            "魔术"
+          ],
+          "hasEnergySystem": true,
+          "name": "弑神者！ / Campione!",
+          "worldId": "campione"
+        },
+        "after": {
+          "name": "弑神者！ / Campione!",
+          "note": "用户指定世界；成就系统规则待确认",
+          "worldId": "campione"
+        }
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "worldExposure.experiencedWorlds",
+        "value": []
+      },
+      "result": {
+        "before": [],
+        "after": []
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "worldExposure.energyExposure",
+        "value": {
+          "basis": [
+            "Campione 世界存在咒力、权能、魔术与神力体系。"
+          ],
+          "hasEnergySystem": true
+        }
+      },
+      "result": {
+        "before": {
+          "basis": [
+            "Campione 世界存在咒力、魔术、权能与神力体系"
+          ],
+          "hasEnergySystem": true
+        },
+        "after": {
+          "basis": [
+            "Campione 世界存在咒力、权能、魔术与神力体系。"
+          ],
+          "hasEnergySystem": true
+        }
+      }
+    },
+    {
+      "op": {
+        "action": "remove",
+        "path": "currentWorld"
+      },
+      "result": {
+        "removed": {
+          "basis": [
+            "咒力",
+            "权能",
+            "魔术结社与神性体系"
+          ],
+          "hasEnergySystem": true,
+          "name": "弑神者！ / Campione!",
+          "worldId": "campione"
+        }
+      }
+    }
+  ]
+}

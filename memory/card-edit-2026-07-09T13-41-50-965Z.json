@@ -1,0 +1,220 @@
+{
+  "timestamp": "2026-07-09T13:41:50.965Z",
+  "card": "protagonist",
+  "action": "batch",
+  "note": "",
+  "snapshot": {
+    "index": {
+      "schema": "rp-unified-character-v1",
+      "cardId": "protagonist",
+      "label": "protagonist",
+      "template": "unified-character-v1",
+      "createdAt": "2026-07-09T13:30:20.862Z",
+      "notes": []
+    },
+    "basic": {
+      "name": "待命名的第八位弑神者",
+      "aliases": [],
+      "gender": "",
+      "age": null,
+      "appearance": "",
+      "identityType": "穿越者 / 新晋弑神者",
+      "currentWorldId": "campione",
+      "originWorldId": "unknown-modern-earth",
+      "status": "已弑杀不顺从之神赫菲斯托斯；开局希腊；成就系统已觉醒"
+    },
+    "currentStatus": {
+      "world": "campione",
+      "location": "希腊·利姆诺斯岛近海的古代锻炉遗迹",
+      "time": "神战结束后不久，黎明前",
+      "condition": "刚完成弑神，身体承受神力回流与权能篡夺冲击；咒力低位，意识清醒但疲惫。"
+    },
+    "combat": {
+      "overall": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "offense": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "defense": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "durability": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "reaction": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "mobility": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "control": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "perception": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "mental": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "hax": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "resistance": {},
+      "resource": {}
+    },
+    "resources": [
+      {
+        "capacity": 100,
+        "combatEndurance": "短期内不适合连续高强度战斗",
+        "current": 38,
+        "exhaustionEffects": [
+          "动作迟缓",
+          "注意力下降",
+          "权能塑形失败率上升"
+        ],
+        "externalDependency": "肉体状态、伤势、睡眠",
+        "id": "stamina",
+        "name": "体力",
+        "recoveryRate": "休息与进食后缓慢恢复；神战后短期恢复较慢",
+        "unit": "%"
+      },
+      {
+        "capacity": 100,
+        "combatEndurance": "可短促爆发，但难以持久",
+        "current": 26,
+        "exhaustionEffects": [
+          "神火反噬",
+          "金属束缚失控",
+          "短暂眩晕或昏迷"
+        ],
+        "externalDependency": "情绪、神话联想、权能适配度",
+        "id": "mana",
+        "name": "咒力 / 权能余量",
+        "recoveryRate": "弑神者体质会自然回升，但刚篡夺权能时波动剧烈",
+        "unit": "%"
+      }
+    ],
+    "states": [],
+    "keyRelations": [],
+    "inventoryHighlights": []
+  },
+  "changes": [
+    {
+      "op": {
+        "action": "set",
+        "path": "resources",
+        "value": [
+          {
+            "capacity": 100,
+            "combatEndurance": "短期内不适合连续高强度战斗",
+            "current": 38,
+            "exhaustionEffects": [
+              "动作迟缓",
+              "注意力下降",
+              "权能塑形失败率上升"
+            ],
+            "externalDependency": "肉体状态、伤势、睡眠",
+            "id": "stamina",
+            "name": "体力",
+            "recoveryRate": "休息与进食后缓慢恢复；神战后短期恢复较慢",
+            "unit": "%"
+          },
+          {
+            "capacity": 100,
+            "combatEndurance": "可短促爆发，但难以持久",
+            "current": 26,
+            "exhaustionEffects": [
+              "神火反噬",
+              "金属束缚失控",
+              "短暂眩晕或昏迷"
+            ],
+            "externalDependency": "情绪、神话联想、权能适配度",
+            "id": "mana",
+            "name": "咒力 / 权能余量",
+            "recoveryRate": "弑神者体质会自然回升，但刚篡夺权能时波动剧烈",
+            "unit": "%"
+          }
+        ]
+      },
+      "result": {
+        "before": [
+          {
+            "id": "stamina",
+            "name": "体力",
+            "capacity": 0,
+            "current": 0,
+            "unit": "",
+            "recoveryRate": "",
+            "externalDependency": "",
+            "combatEndurance": "",
+            "exhaustionEffects": []
+          },
+          {
+            "id": "mana",
+            "name": "魔力",
+            "capacity": 0,
+            "current": 0,
+            "unit": "",
+            "recoveryRate": "",
+            "externalDependency": "",
+            "combatEndurance": "",
+            "exhaustionEffects": []
+          }
+        ],
+        "after": [
+          {
+            "capacity": 100,
+            "combatEndurance": "短期内不适合连续高强度战斗",
+            "current": 38,
+            "exhaustionEffects": [
+              "动作迟缓",
+              "注意力下降",
+              "权能塑形失败率上升"
+            ],
+            "externalDependency": "肉体状态、伤势、睡眠",
+            "id": "stamina",
+            "name": "体力",
+            "recoveryRate": "休息与进食后缓慢恢复；神战后短期恢复较慢",
+            "unit": "%"
+          },
+          {
+            "capacity": 100,
+            "combatEndurance": "可短促爆发，但难以持久",
+            "current": 26,
+            "exhaustionEffects": [
+              "神火反噬",
+              "金属束缚失控",
+              "短暂眩晕或昏迷"
+            ],
+            "externalDependency": "情绪、神话联想、权能适配度",
+            "id": "mana",
+            "name": "咒力 / 权能余量",
+            "recoveryRate": "弑神者体质会自然回升，但刚篡夺权能时波动剧烈",
+            "unit": "%"
+          }
+        ]
+      }
+    }
+  ]
+}

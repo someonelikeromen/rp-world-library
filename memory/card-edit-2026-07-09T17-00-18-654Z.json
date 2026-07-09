@@ -1,0 +1,365 @@
+{
+  "timestamp": "2026-07-09T17:00:18.654Z",
+  "card": "protagonist",
+  "action": "batch",
+  "note": "",
+  "snapshot": {
+    "index": {
+      "schema": "rp-unified-character-v1",
+      "cardId": "protagonist",
+      "label": "protagonist",
+      "template": "unified-character-v1",
+      "createdAt": "2026-07-09T13:30:20.862Z",
+      "notes": []
+    },
+    "basic": {
+      "name": "宁易",
+      "aliases": [
+        "第七位王",
+        "赫菲斯托斯权能持有者",
+        "神匠之炉持有者"
+      ],
+      "gender": "男",
+      "age": 24,
+      "appearance": "现代中国青年，大学高年级学生气质；具体外貌细节待开局描写确认。",
+      "identityType": "肉身穿越者 / 新生弑神者",
+      "currentWorldId": "campione",
+      "originWorldId": "现实世界（中国）",
+      "status": "肉身穿越至 Campione 独立偏移时间线；在草薙护堂成为弑神者前，机缘巧合弑杀赫菲斯托斯并以完整弑神者身份复活，成为当世第七位王；开局地点为希腊；外挂为成就系统（细节待确认）。"
+    },
+    "currentStatus": {
+      "world": "campione",
+      "location": "希腊（具体地点待开局确认）",
+      "time": "独立偏移时间线；早于草薙护堂成为弑神者的主线时间点。",
+      "condition": "已弑杀赫菲斯托斯并经潘朵拉主持的弑神仪式完成复活；拥有完整新生弑神者肉体、巨大咒力储备与权能『神匠之炉』，但熟练度、控制力、具体开局现场与成就系统细节仍待确认。"
+    },
+    "combat": {
+      "control": {
+        "basis": "",
+        "rating": "",
+        "score": 0
+      },
+      "defense": {
+        "basis": "",
+        "rating": "",
+        "score": 0
+      },
+      "durability": {
+        "basis": "",
+        "rating": "",
+        "score": 0
+      },
+      "hax": {
+        "basis": "",
+        "rating": "",
+        "score": 0
+      },
+      "mental": {
+        "basis": "",
+        "rating": "",
+        "score": 0
+      },
+      "mobility": {
+        "basis": "",
+        "rating": "",
+        "score": 0
+      },
+      "offense": {
+        "basis": "",
+        "rating": "",
+        "score": 0
+      },
+      "overall": {
+        "basis": "",
+        "rating": "",
+        "score": 0
+      },
+      "perception": {
+        "basis": "",
+        "rating": "",
+        "score": 0
+      },
+      "reaction": {
+        "basis": "",
+        "rating": "",
+        "score": 0
+      },
+      "resistance": {},
+      "resource": {}
+    },
+    "resources": [
+      {
+        "capacity": 0,
+        "combatEndurance": "",
+        "current": 0,
+        "exhaustionEffects": [],
+        "externalDependency": "",
+        "id": "stamina",
+        "name": "体力",
+        "recoveryRate": "",
+        "unit": ""
+      },
+      {
+        "capacity": 0,
+        "combatEndurance": "",
+        "current": 0,
+        "exhaustionEffects": [],
+        "externalDependency": "",
+        "id": "mana",
+        "name": "魔力",
+        "recoveryRate": "",
+        "unit": ""
+      }
+    ],
+    "states": [],
+    "keyRelations": [],
+    "inventoryHighlights": []
+  },
+  "changes": [
+    {
+      "op": {
+        "action": "set",
+        "path": "abilities",
+        "value": [
+          {
+            "description": "凡人弑杀天神后经篡夺圆环转化为弑神者，成为能与天神分庭抗礼的王与魔王。宁易拥有新生弑神者肉体、巨大咒力储备、神明接近时的临战反射、权能继承与实战成长机制。",
+            "effects": [
+              "巨大咒力自然储备",
+              "肉体超越普通人并具备强恢复倾向",
+              "对不顺从之神与神级威胁产生战斗反射",
+              "权能无法靠安全训练完全掌握，需在真正战场、杀意和危机中成长"
+            ],
+            "id": "campione-godslayer-constitution",
+            "limits": [
+              "刚成为弑神者，经验、神秘侧常识、权能控制与战术成熟度不足",
+              "不是全知，不自动理解所有神话/神具/术式细节",
+              "不能把草薙护堂十化身的一日限制泛化到所有弑神者权能"
+            ],
+            "name": "弑神者体质 / 魔王位格",
+            "rating": {
+              "basis": "完整弑神者新生后，位格与神、其他弑神者同格；弱点在新晋熟练度而非本质位格。",
+              "rating": "N7 城市级",
+              "score": 11000,
+              "segment": "mid"
+            },
+            "sourceRefs": [
+              "campione-main/vol-01/chapters/ch-001-序章.txt:8",
+              "campione-main/vol-18/chapters/ch-001-第1章 媛巫女们与第七位弑神者.txt",
+              "campione-main/vol-06/chapters/ch-001-第一章 再会了 约翰·布鲁托·史密斯.txt:172",
+              "campione-main/vol-11/chapters/ch-003-第三章 剑和艾莉卡和梅尔卡托.txt:114",
+              "campione-main/vol-16/chapters/ch-006-第6话 逸闻·显圣二郎真君.txt"
+            ],
+            "status": "active",
+            "type": "passive-system"
+          },
+          {
+            "coreFunctions": [
+              {
+                "description": "以咒力与权能锻造宁易已知、见过、理解或可在神话/动漫/游戏/现实知识中构想的物品、工具、武器与神具。",
+                "id": "forge-known-artifacts",
+                "name": "铸器"
+              },
+              {
+                "description": "把敌方武器、结界、地形、构造物乃至权能显现物当作材料进行熔解、改铸、压缩、封缄或破坏。对神与弑神者目标时进入权能对抗。",
+                "id": "destructive-forging",
+                "name": "外部毁灭性锻造"
+              },
+              {
+                "description": "初期可用于伤势修补、肉体临时强化、适配武器/神具；身体永久锻造存在但具体方向暂不预锁。",
+                "id": "self-forging",
+                "name": "自我锻造"
+              },
+              {
+                "description": "可锻造高等级神具，但持续时间、完成度和稳定性取决于咒力投入、理解深度、当前控制力与是否超出 Campione 世界承载。",
+                "id": "mythic-tool-adaptation",
+                "name": "神具适配"
+              }
+            ],
+            "failureRule": "锻造失败时，已投入咒力消散；默认无反噬、无受伤、无失控，除非剧情中主动选择极限燃烧或外部神力干涉。",
+            "growthRule": "权能不能通过安全训练完全掌握；必须在真实战斗、危机、杀意与狂暴灵魂中自然理解限制、新用法与上限。未来进化不预锁。",
+            "id": "authority-hephaestus-divine-forge",
+            "limits": [
+              "理解不足的物品只能锻出外形或低完成度仿品",
+              "超出当前世界顶尖太多的奖励/神具需适配、代价、冷却或剧情门槛",
+              "对神、弑神者、顶级神具与权能本体时不是自动成功，而是权能对抗",
+              "长期维持高等级神具不应被默认压成极短时间，但需消耗、冷却和维护条件"
+            ],
+            "name": "神匠之炉 / 赫菲斯托斯的神匠之炉",
+            "origin": "弑杀赫菲斯托斯后篡夺的神圣权能；本项目开局设定，赫菲斯托斯本地实体记录缺失，权能细节按用户确认与 Campione 权能规则演化。",
+            "ratingProfile": {
+              "extremeBurn": {
+                "basis": "极端燃烧咒力、承担长冷却或战略风险时，可短暂触及权能极限边缘；不视为常态可控。",
+                "rating": "N9 国家/大陆板块级",
+                "score": 36000
+              },
+              "fullOutput": {
+                "basis": "足量咒力与明确理解时，可触及区域级神具/权能输出。",
+                "rating": "N8 山脉/区域级",
+                "score": 22000
+              },
+              "permanentForge": {
+                "basis": "初期永久化以 N7 为稳定档；N8 可尝试但冷却按天显著增加，N9 属高风险长期代价。",
+                "rating": "N7 城市级",
+                "score": 12000
+              },
+              "stableOutput": {
+                "basis": "初期稳定锻造与破坏输出可作为城市级神秘战力使用。",
+                "rating": "N7 城市级",
+                "score": 13000
+              }
+            },
+            "sourceRefs": [
+              "campione-main/vol-19/chapters/ch-005-第4章 更加混乱的局面.txt",
+              "campione-main/vol-08/chapters/ch-004-第4话 黑王子、白魔女以及英雄的侍从.txt",
+              "campione-main/vol-11/chapters/ch-003-第三章 剑和艾莉卡和梅尔卡托.txt:114"
+            ],
+            "status": "active-initial",
+            "type": "authority"
+          },
+          {
+            "description": "成为弑神者后，宁易具备类似『千之言语』方向的语言快速习得与神秘侧言语适应。中文为母语；中文、日语、英语可用；其他语言可从日常交流级起步并在接触中快速提高。",
+            "id": "thousand-words-style-language-growth",
+            "limits": [
+              "不是无条件万能翻译",
+              "涉及神名、秘仪、古语、言灵时仍需接触、上下文和理解",
+              "不替代神话知识本身"
+            ],
+            "name": "千之言语式语言适应",
+            "rating": {
+              "basis": "非战斗能力；体现弑神者侧语言/言灵适应，不直接提升破坏力。",
+              "rating": "N3 房屋级",
+              "score": 800,
+              "segment": "mid"
+            },
+            "sourceRefs": [
+              "前序已确认：千之言语相关源文/条目；必要时需重读精确源文。"
+            ],
+            "status": "active-limited",
+            "type": "passive-knowledge-adaptation"
+          }
+        ]
+      },
+      "result": {
+        "before": [],
+        "after": [
+          {
+            "description": "凡人弑杀天神后经篡夺圆环转化为弑神者，成为能与天神分庭抗礼的王与魔王。宁易拥有新生弑神者肉体、巨大咒力储备、神明接近时的临战反射、权能继承与实战成长机制。",
+            "effects": [
+              "巨大咒力自然储备",
+              "肉体超越普通人并具备强恢复倾向",
+              "对不顺从之神与神级威胁产生战斗反射",
+              "权能无法靠安全训练完全掌握，需在真正战场、杀意和危机中成长"
+            ],
+            "id": "campione-godslayer-constitution",
+            "limits": [
+              "刚成为弑神者，经验、神秘侧常识、权能控制与战术成熟度不足",
+              "不是全知，不自动理解所有神话/神具/术式细节",
+              "不能把草薙护堂十化身的一日限制泛化到所有弑神者权能"
+            ],
+            "name": "弑神者体质 / 魔王位格",
+            "rating": {
+              "basis": "完整弑神者新生后，位格与神、其他弑神者同格；弱点在新晋熟练度而非本质位格。",
+              "rating": "N7 城市级",
+              "score": 11000,
+              "segment": "mid"
+            },
+            "sourceRefs": [
+              "campione-main/vol-01/chapters/ch-001-序章.txt:8",
+              "campione-main/vol-18/chapters/ch-001-第1章 媛巫女们与第七位弑神者.txt",
+              "campione-main/vol-06/chapters/ch-001-第一章 再会了 约翰·布鲁托·史密斯.txt:172",
+              "campione-main/vol-11/chapters/ch-003-第三章 剑和艾莉卡和梅尔卡托.txt:114",
+              "campione-main/vol-16/chapters/ch-006-第6话 逸闻·显圣二郎真君.txt"
+            ],
+            "status": "active",
+            "type": "passive-system"
+          },
+          {
+            "coreFunctions": [
+              {
+                "description": "以咒力与权能锻造宁易已知、见过、理解或可在神话/动漫/游戏/现实知识中构想的物品、工具、武器与神具。",
+                "id": "forge-known-artifacts",
+                "name": "铸器"
+              },
+              {
+                "description": "把敌方武器、结界、地形、构造物乃至权能显现物当作材料进行熔解、改铸、压缩、封缄或破坏。对神与弑神者目标时进入权能对抗。",
+                "id": "destructive-forging",
+                "name": "外部毁灭性锻造"
+              },
+              {
+                "description": "初期可用于伤势修补、肉体临时强化、适配武器/神具；身体永久锻造存在但具体方向暂不预锁。",
+                "id": "self-forging",
+                "name": "自我锻造"
+              },
+              {
+                "description": "可锻造高等级神具，但持续时间、完成度和稳定性取决于咒力投入、理解深度、当前控制力与是否超出 Campione 世界承载。",
+                "id": "mythic-tool-adaptation",
+                "name": "神具适配"
+              }
+            ],
+            "failureRule": "锻造失败时，已投入咒力消散；默认无反噬、无受伤、无失控，除非剧情中主动选择极限燃烧或外部神力干涉。",
+            "growthRule": "权能不能通过安全训练完全掌握；必须在真实战斗、危机、杀意与狂暴灵魂中自然理解限制、新用法与上限。未来进化不预锁。",
+            "id": "authority-hephaestus-divine-forge",
+            "limits": [
+              "理解不足的物品只能锻出外形或低完成度仿品",
+              "超出当前世界顶尖太多的奖励/神具需适配、代价、冷却或剧情门槛",
+              "对神、弑神者、顶级神具与权能本体时不是自动成功，而是权能对抗",
+              "长期维持高等级神具不应被默认压成极短时间，但需消耗、冷却和维护条件"
+            ],
+            "name": "神匠之炉 / 赫菲斯托斯的神匠之炉",
+            "origin": "弑杀赫菲斯托斯后篡夺的神圣权能；本项目开局设定，赫菲斯托斯本地实体记录缺失，权能细节按用户确认与 Campione 权能规则演化。",
+            "ratingProfile": {
+              "extremeBurn": {
+                "basis": "极端燃烧咒力、承担长冷却或战略风险时，可短暂触及权能极限边缘；不视为常态可控。",
+                "rating": "N9 国家/大陆板块级",
+                "score": 36000
+              },
+              "fullOutput": {
+                "basis": "足量咒力与明确理解时，可触及区域级神具/权能输出。",
+                "rating": "N8 山脉/区域级",
+                "score": 22000
+              },
+              "permanentForge": {
+                "basis": "初期永久化以 N7 为稳定档；N8 可尝试但冷却按天显著增加，N9 属高风险长期代价。",
+                "rating": "N7 城市级",
+                "score": 12000
+              },
+              "stableOutput": {
+                "basis": "初期稳定锻造与破坏输出可作为城市级神秘战力使用。",
+                "rating": "N7 城市级",
+                "score": 13000
+              }
+            },
+            "sourceRefs": [
+              "campione-main/vol-19/chapters/ch-005-第4章 更加混乱的局面.txt",
+              "campione-main/vol-08/chapters/ch-004-第4话 黑王子、白魔女以及英雄的侍从.txt",
+              "campione-main/vol-11/chapters/ch-003-第三章 剑和艾莉卡和梅尔卡托.txt:114"
+            ],
+            "status": "active-initial",
+            "type": "authority"
+          },
+          {
+            "description": "成为弑神者后，宁易具备类似『千之言语』方向的语言快速习得与神秘侧言语适应。中文为母语；中文、日语、英语可用；其他语言可从日常交流级起步并在接触中快速提高。",
+            "id": "thousand-words-style-language-growth",
+            "limits": [
+              "不是无条件万能翻译",
+              "涉及神名、秘仪、古语、言灵时仍需接触、上下文和理解",
+              "不替代神话知识本身"
+            ],
+            "name": "千之言语式语言适应",
+            "rating": {
+              "basis": "非战斗能力；体现弑神者侧语言/言灵适应，不直接提升破坏力。",
+              "rating": "N3 房屋级",
+              "score": 800,
+              "segment": "mid"
+            },
+            "sourceRefs": [
+              "前序已确认：千之言语相关源文/条目；必要时需重读精确源文。"
+            ],
+            "status": "active-limited",
+            "type": "passive-knowledge-adaptation"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,432 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "yoruka-kirihime",
+  "volume": "vol-14",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-14/full.txt:2700"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-14",
+      "volume": "vol-14",
+      "time": "大圣域攻略战",
+      "name": {
+        "zh": "切姬夜架",
+        "en": "Yoruka Kirihime",
+        "jp": ""
+      },
+      "aliases": [
+        "夜架",
+        "帝国凶刃"
+      ],
+      "titles": [
+        "路克斯的从者"
+      ],
+      "gender": "female",
+      "species": "human",
+      "nationality": "古都国",
+      "occupation": "机龙使",
+      "affiliation": "骑士团；路克斯阵营",
+      "status": {
+        "vol_14": "从休眠舱治疗中苏醒，随爱理与三和音赶赴葛尔尼卡；在最终战前独自牵制七只终焉神兽，为联盟军撤退与救援七龙骑圣争取时间。"
+      },
+      "abilities_owned": [
+        "yato-no-kami-stealth-recon",
+        "forbidden-spell-limit-break"
+      ],
+      "possessions_owned": [
+        "yato-no-kami"
+      ],
+      "relationships": {
+        "lux-arcadia": {
+          "type": "master",
+          "summary": "称路克斯为御主，优先救援他。"
+        },
+        "airi-arcadia": {
+          "type": "protected target",
+          "summary": "因爱理同为阿卡迪亚血脉而同时保护。"
+        },
+        "sharis-baltshift": {
+          "type": "ally",
+          "summary": "配合谢里丝的分头行动计划。"
+        },
+        "tilfar-lilmit": {
+          "type": "ally",
+          "summary": "与媞尔珐同属葛尔尼卡救援队。"
+        },
+        "nokuto-leaflet": {
+          "type": "ally",
+          "summary": "与诺珂特共同参与救援行动。"
+        }
+      },
+      "summary": "夜架在本卷伤愈复出。她的登场使创造主判断错误：她没有直冲路克斯，而是因爱理的诱饵位置牵制终焉神兽，为三和音救援作战创造机会。",
+      "key_events": [
+        {
+          "event_id": "yoruka-awakens",
+          "summary": "从学园地下休眠舱中苏醒并立即要求出发。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-14/full.txt:2700"
+        },
+        {
+          "event_id": "yoruka-delays-ragnaroks",
+          "summary": "独自吸引七只终焉神兽并掩护联盟军撤退。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-14/full.txt:6100"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-14/full.txt:2700",
+        "saijaku-muhai-bahamut-main/vol-14/full.txt:6100"
+      ]
+    },
+    {
+      "period_id": "vol-15",
+      "volume": "vol-15",
+      "time": "Great Sanctuary battle",
+      "label": "御主的凶刃",
+      "name": {
+        "zh": "切姬夜架",
+        "en": "Yoruka Kirihime",
+        "jp": "切姫夜架"
+      },
+      "aliases": [
+        "夜架",
+        "帝国凶刃",
+        "好色女"
+      ],
+      "titles": [
+        "路克斯的从者",
+        "骑士团成员"
+      ],
+      "gender": "female",
+      "species": "human",
+      "nationality": "旧帝国相关",
+      "occupation": "机龙使 / 从者 / 暗杀者",
+      "affiliation": "骑士团; 路克斯阵营",
+      "status": {
+        "physical": "前几战伤势未愈，本卷只能发挥不足一半实力",
+        "mental": "仍以御主路克斯利益为优先",
+        "arc": "由独行凶刃转为能把胜利托付给伙伴的人"
+      },
+      "appearance": {
+        "overview": "妖艳而危险的少女从者。",
+        "physical": {
+          "height": "",
+          "build": "agile",
+          "hair": {},
+          "eyes": {}
+        },
+        "attire": {
+          "default": "和风装束或装衣",
+          "combat": "《夜刀神》"
+        },
+        "voice_quality": {
+          "tone": "teasing, sensual, calm"
+        },
+        "distinctive": [
+          "称路克斯为御主",
+          "战斗中笑容从容"
+        ]
+      },
+      "personality": {
+        "summary": "极端忠于路克斯、言行妖艳，实则能冷静判断自己应作为棋子还是护卫。",
+        "core_traits": [
+          "忠诚",
+          "妖艳",
+          "冷静",
+          "自我牺牲",
+          "观察敏锐"
+        ],
+        "values": [
+          "御主",
+          "排除御主敌人",
+          "强者之间的胜负"
+        ],
+        "fears": [
+          "御主受害"
+        ],
+        "desires": [
+          "侍奉路克斯",
+          "为御主孕育或保护未来"
+        ],
+        "strengths": [
+          "夜刀神",
+          "禁咒符号",
+          "刻击",
+          "迷彩奇袭"
+        ],
+        "flaws": [
+          "言语常越界",
+          "伤势未愈仍勉强战斗"
+        ],
+        "inner_conflict": "她逐渐接受即使自己不亲自终结敌人，也能由伙伴完成胜利。",
+        "decision_pattern": {
+          "combat": "以奇袭和牺牲自身装甲削弱敌方关键部位"
+        }
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {
+          "lux-arcadia": "御主",
+          "lisha-atismata": "公主"
+        },
+        "register": {
+          "default": "teasing and deferential to Lux"
+        },
+        "catchphrases": [],
+        "quote_samples": []
+      },
+      "habits": {
+        "mannerisms": [
+          "微笑着说危险话",
+          "主动贴近或调侃路克斯"
+        ],
+        "daily_routine": "守候御主并参与骑士团战斗。",
+        "quirks": [
+          "常把继承人和母胎话题挂在嘴边"
+        ],
+        "preferences": {}
+      },
+      "background": {
+        "birth": {
+          "place": "东方相关",
+          "family": []
+        },
+        "upbringing": "作为旧帝国凶刃和暗杀者成长。",
+        "education": {
+          "combat": "刀术、暗杀、夜刀神操纵"
+        },
+        "formative_events": [
+          "成为路克斯从者",
+          "与辛格伦战斗中重伤"
+        ],
+        "pre_story": "以极端忠诚加入路克斯阵营。"
+      },
+      "abilities_owned": [
+        "yato-no-kami-forbidden-spell",
+        "yoruka-kokugeki",
+        "yato-no-kami-stealth"
+      ],
+      "possessions_owned": [
+        "yato-no-kami",
+        "yoruka-katana-drag-sword"
+      ],
+      "relationships": {
+        "lux-arcadia": {
+          "type": "master",
+          "status": "称其为御主，表示只要呼唤随时赶到。"
+        },
+        "celistia-ralgris": {
+          "type": "ally",
+          "status": "在密丝希斯战中评价赛莉丝的成长并解释胜因。"
+        },
+        "mishis-v-exfer": {
+          "type": "enemy",
+          "status": "以夜刀神装甲损毁为代价封住密丝希斯一部分神装。"
+        },
+        "airi-arcadia": {
+          "type": "protector",
+          "status": "后段带着赛莉丝撤退并保护爱理和三和音。"
+        }
+      },
+      "knowledge": [
+        "mishis-weakening-strategy",
+        "knights-defeat-mishis"
+      ],
+      "secrets": [],
+      "summary": "夜架本卷因伤势无法全力作战，却在密丝希斯战中以夜刀神和禁咒符号削弱敌方装甲足，并在后段护送赛莉丝、爱理与三和音撤退。",
+      "key_events": [
+        {
+          "event_id": "yoruka-ambushes-mishis",
+          "summary": "以迷彩潜伏奇袭密丝希斯，逼出敌方反应。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-15/full.txt:2660"
+        },
+        {
+          "event_id": "knights-defeat-mishis",
+          "summary": "牺牲夜刀神装甲削弱艾基达哈卡，并解释赛莉丝胜因。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-15/full.txt:4500"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-15/full.txt:2660",
+        "saijaku-muhai-bahamut-main/vol-15/full.txt:4500"
+      ]
+    },
+    {
+      "period_id": "vol-16",
+      "volume": "vol-16",
+      "time": "游行前后与第二条循环",
+      "label": "暗中守护的从仆",
+      "name": {
+        "zh": "切姬夜架",
+        "en": "Yoruka Kirihime",
+        "jp": ""
+      },
+      "aliases": [
+        "夜架",
+        "帝国凶刃"
+      ],
+      "titles": [
+        "路克斯的从仆",
+        "古都国机龙使"
+      ],
+      "gender": "female",
+      "species": "human; baptism-enhanced",
+      "nationality": "古都国",
+      "occupation": "机龙使、护卫、从仆",
+      "affiliation": "knight-squadron; lux-arcadia retainer",
+      "status": {
+        "physical": "大战后最快恢复，持续暗中护卫路克斯",
+        "emotional": "自觉对路克斯的爱并在循环中亲吻他"
+      },
+      "appearance": {
+        "overview": "黑发异色瞳的东国少女，服装艳丽而利于隐密。",
+        "physical": {
+          "height": "娇小",
+          "build": "纤细敏捷",
+          "hair": {
+            "color": "黑色"
+          },
+          "eyes": {
+            "left": "蓝色",
+            "right": "紫色/洗礼之眼"
+          }
+        },
+        "attire": {
+          "default": "古都国黑色服装",
+          "combat": "夜刀神装甲"
+        },
+        "voice_quality": {
+          "tone": "恭敬、妖艳、无感情与热情并存"
+        },
+        "distinctive": [
+          "称呼路克斯为御主",
+          "隐藏气息能力极高"
+        ]
+      },
+      "personality": {
+        "summary": "将自己视为刀与道具，但对路克斯产生强烈而纯粹的爱。",
+        "core_traits": [
+          "忠诚",
+          "无畏",
+          "直率",
+          "危险的献身"
+        ],
+        "values": [
+          "御主命令",
+          "被当成人而非道具"
+        ],
+        "fears": [
+          "无法理解爱",
+          "不配得到宠爱"
+        ],
+        "desires": [
+          "永远待在路克斯身边"
+        ],
+        "strengths": [
+          "暗杀与侦查",
+          "夜刀神探测",
+          "意志坚定"
+        ],
+        "flaws": [
+          "性观念危险直接",
+          "自我道具化"
+        ],
+        "inner_conflict": "想成为人并获得爱，却长期把自己定义为从仆之刀。",
+        "decision_pattern": {
+          "default": "先暗中排除威胁，再满足御主"
+        }
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {
+          "lux-arcadia": "御主"
+        },
+        "register": {
+          "default": "恭敬而亲密"
+        },
+        "catchphrases": [],
+        "quote_samples": [
+          "我随时都会等候御主。"
+        ]
+      },
+      "habits": {
+        "mannerisms": [
+          "跪迎路克斯",
+          "从阴影中突然现身"
+        ],
+        "daily_routine": "两周内无声护卫路克斯。",
+        "quirks": [
+          "试毒时会以亲密方式喂食/吸吮手指"
+        ],
+        "preferences": {
+          "role": "贴身从仆与护卫"
+        }
+      },
+      "background": {
+        "birth": {
+          "place": "古都国",
+          "family": []
+        },
+        "upbringing": "被培养成帝国凶刃，曾缺乏普通情感。",
+        "education": {
+          "combat": "暗杀与机龙操纵"
+        },
+        "formative_events": [
+          "与辛格伦大战后确认对路克斯的特别情感"
+        ],
+        "pre_story": "因路克斯承认其人格而归属他。"
+      },
+      "abilities_owned": [
+        "baptism-resistance",
+        "yatono-kami-detection"
+      ],
+      "possessions_owned": [
+        "yatono-kami"
+      ],
+      "relationships": {
+        "lux-arcadia": {
+          "type": "retainer-romantic",
+          "status": "第二条循环中亲吻并获得路克斯接纳"
+        },
+        "airi-arcadia": {
+          "type": "ally",
+          "status": "受爱理安排暗中保护路克斯"
+        },
+        "noct-leaflet": {
+          "type": "ally",
+          "status": "参与赌路克斯是否发现她"
+        },
+        "singlen-shelbrit": {
+          "type": "former-enemy",
+          "status": "曾与其大战后萌生情感变化"
+        }
+      },
+      "knowledge": [
+        "chivalry-romance-agreement"
+      ],
+      "secrets": [
+        "两周内一直贴身暗中守护路克斯"
+      ],
+      "summary": "夜架在大战后暗中保护路克斯；第一天宴会外发现神秘密探消失。第二条循环中与路克斯逛游行，坦白自己压抑情感并亲吻他。",
+      "key_events": [
+        {
+          "event_id": "night-yato-reunion",
+          "summary": "在旅馆房间现身，揭露两周来一直暗中保护路克斯。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-16/full.txt:1101"
+        },
+        {
+          "event_id": "second-loop-yato-date",
+          "summary": "与路克斯逛街、试毒并亲吻，表达作为人被爱的愿望。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-16/full.txt:3111"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-16/full.txt:1101",
+        "saijaku-muhai-bahamut-main/vol-16/full.txt:3111"
+      ]
+    }
+  ]
+}

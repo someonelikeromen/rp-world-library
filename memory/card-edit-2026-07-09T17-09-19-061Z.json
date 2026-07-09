@@ -1,0 +1,762 @@
+{
+  "timestamp": "2026-07-09T17:09:19.061Z",
+  "card": "protagonist",
+  "action": "batch",
+  "note": "",
+  "snapshot": {
+    "index": {
+      "schema": "rp-unified-character-v1",
+      "cardId": "protagonist",
+      "label": "protagonist",
+      "template": "unified-character-v1",
+      "createdAt": "2026-07-09T13:30:20.862Z",
+      "notes": []
+    },
+    "basic": {
+      "name": "宁易",
+      "aliases": [
+        "第七位王",
+        "赫菲斯托斯权能持有者",
+        "神匠之炉持有者"
+      ],
+      "gender": "男",
+      "age": 24,
+      "appearance": "现代中国青年，大学高年级学生气质；具体外貌细节待开局描写确认。",
+      "identityType": "肉身穿越者 / 新生弑神者",
+      "currentWorldId": "campione",
+      "originWorldId": "现实世界（中国）",
+      "status": "肉身穿越至 Campione 独立偏移时间线；在草薙护堂成为弑神者前，机缘巧合弑杀赫菲斯托斯并以完整弑神者身份复活，成为当世第七位王；开局地点为希腊；外挂为成就系统（细节待确认）。"
+    },
+    "currentStatus": {
+      "world": "campione",
+      "location": "希腊（具体地点待开局确认）",
+      "time": "独立偏移时间线；早于草薙护堂成为弑神者的主线时间点。",
+      "condition": "已弑杀赫菲斯托斯并经潘朵拉主持的弑神仪式完成复活；拥有完整新生弑神者肉体、巨大咒力储备与权能『神匠之炉』，但熟练度、控制力、具体开局现场与成就系统细节仍待确认。"
+    },
+    "combat": {
+      "control": {
+        "basis": "刚获得权能，真实战斗经验不足；可发动但无法精密掌握极限输出。",
+        "rating": "N5 街区级",
+        "score": 3500
+      },
+      "defense": {
+        "basis": "弑神者肉体、咒力与权能防护带来神战级基础防御，但新晋控制不足。",
+        "rating": "N7 城市级",
+        "score": 11000
+      },
+      "durability": {
+        "basis": "完整弑神者新生后具备强韧肉体和恢复倾向，可承受远超人类/魔术师的伤害。",
+        "rating": "N7 城市级",
+        "score": 12000
+      },
+      "hax": {
+        "basis": "权能本质为神级概念锻造，可对神具、结界、权能显现物与自我肉体进行改铸/破坏/适配。",
+        "rating": "N8 山脉/区域级",
+        "score": 23000
+      },
+      "mental": {
+        "basis": "具备穿越者认知优势与原则性；生死压力下会出现战斗狂气，但仍是新晋魔王。",
+        "rating": "N6 城镇级",
+        "score": 6500
+      },
+      "mobility": {
+        "basis": "基础肉体超人但无固定高速权能；可通过锻造移动/飞行类工具临时升档。",
+        "rating": "N6 城镇级",
+        "score": 5200
+      },
+      "offense": {
+        "basis": "『神匠之炉』稳定 N7，高投入可触 N8；极限燃烧可短触 N9 但不作为常态。",
+        "rating": "N8 山脉/区域级",
+        "score": 18000
+      },
+      "overall": {
+        "basis": "新晋完整弑神者，位格与神/魔王同格；综合受控制力、经验、基础机动和近战技术拖累，暂定城市级中段。",
+        "rating": "N7 城市级",
+        "score": 11000
+      },
+      "perception": {
+        "basis": "对神与神级危机有弑神者式反射感应；常规侦查仍受经验限制。",
+        "rating": "N7 城市级",
+        "score": 9000
+      },
+      "reaction": {
+        "basis": "战斗本能和弑神者肉体带来高反应，但未受武人训练。",
+        "rating": "N6 城镇级",
+        "score": 7000
+      },
+      "resistance": {
+        "basis": "对人类魔术、诅咒、直接术式具有弑神者级反弹/免疫；存在占术、魔兽实体、口服药物、神术与神具等例外。",
+        "rating": "N8 山脉/区域级",
+        "score": 18000
+      },
+      "resource": {
+        "basis": "弑神者自然储备大量咒力；神接近时会自动进入临战状态。斗志直接提升回复速度暂列待确认，不写死。",
+        "rating": "N8 山脉/区域级",
+        "score": 18000
+      }
+    },
+    "resources": [
+      {
+        "capacity": 12000,
+        "combatEndurance": "N7 城市级耐久；可进行神战级消耗战，但新晋经验不足会导致浪费。",
+        "current": 12000,
+        "exhaustionEffects": [
+          "反应下降",
+          "权能精度下降",
+          "自我锻造失败率上升"
+        ],
+        "externalDependency": "无固定外部依赖；极端恢复可能需要安全环境或权能集中。",
+        "id": "stamina",
+        "name": "体力 / 弑神者生命力",
+        "recoveryRate": "强恢复倾向；重伤后可通过弑神者肉体、咒力与权能自我锻造恢复，具体速度按伤势与剧情判定。",
+        "unit": "abstract-rating"
+      },
+      {
+        "capacity": 18000,
+        "combatEndurance": "N8 低段资源池；足以支撑稳定 N7 与全力 N8 的神匠之炉使用。",
+        "current": 18000,
+        "exhaustionEffects": [
+          "神匠之炉降档",
+          "高等级神具维持失败",
+          "身体恢复变慢",
+          "魔术抗性与临战感应减弱"
+        ],
+        "externalDependency": "无；但高等级永久锻造和极限燃烧需要长冷却。",
+        "id": "cursed-power",
+        "name": "咒力 / 神力储备",
+        "recoveryRate": "弑神者自然储备大量咒力；不顺从之神接近时自动进入临战状态并动员咒力。斗志直接提高回复速度尚待原文确认，暂不写死。",
+        "unit": "N-score abstract"
+      },
+      {
+        "capacity": 0,
+        "combatEndurance": "不直接计入当前战力，奖励领取后再按 N0–N24 框架折算。",
+        "current": 0,
+        "exhaustionEffects": [],
+        "externalDependency": "项目成就系统规则；待开局确认显示边界。",
+        "id": "achievement-system",
+        "name": "成就系统",
+        "recoveryRate": "非消耗资源；触发、展示、奖励候选与领取规则待确认。",
+        "unit": "system"
+      }
+    ],
+    "states": [],
+    "keyRelations": [],
+    "inventoryHighlights": []
+  },
+  "changes": [
+    {
+      "op": {
+        "action": "upsert",
+        "id": "campione-wild-body-enhancement",
+        "idField": "id",
+        "item": {
+          "description": "弑神者新生后表现出非人野性肉体：骨骼硬度超过钢铁并可能超过世上任何合金；肌肉纤维难以撕裂；止血、痛觉迟钝与类似但强于肾上腺素的战斗身体反应显著增强。",
+          "effects": [
+            "骨骼极端坚硬，普通凡人徒手攻击更可能伤到自己",
+            "肌肉纤维难以撕裂",
+            "出血会迅速止住",
+            "痛觉迟钝，战斗中不易因疼痛失能",
+            "旧伤与近期伤势会因弑神者新生/恢复力快速痊愈"
+          ],
+          "id": "campione-wild-body-enhancement",
+          "limits": [
+            "对神、弑神者、神具和权能级攻击仍会受伤",
+            "不是纯粹无敌肉体；神之武器可撕裂肌肉、打碎骨头或造成重创",
+            "宁易未受武术训练，肉体强度不等于格斗技巧"
+          ],
+          "name": "野性肉体强化",
+          "rating": {
+            "basis": "弑神者肉体可承受并快速恢复远超人类级伤害；但对神战级攻击仍非无敌。",
+            "rating": "N7 城市级",
+            "score": 12000,
+            "segment": "mid"
+          },
+          "sourceCalibration": "已按本地 split-text 原文校准；未采用未定位到的『潘多拉注入生命气息』原句作为硬表述。",
+          "sourceRefs": [
+            "campione-main/vol-11/chapters/ch-002-第二章 在风暴之岛上.txt:167-170",
+            "campione-main/vol-11/chapters/ch-002-第二章 在风暴之岛上.txt:181-190",
+            "campione-main/vol-11/chapters/ch-003-第三章 剑和艾莉卡和梅尔卡托.txt:210-216",
+            "campione-main/vol-11/chapters/ch-002-第二章 在风暴之岛上.txt:1203-1209"
+          ],
+          "status": "active-source-backed",
+          "type": "passive-body"
+        },
+        "path": "abilities"
+      },
+      "result": {
+        "action": "inserted",
+        "after": {
+          "description": "弑神者新生后表现出非人野性肉体：骨骼硬度超过钢铁并可能超过世上任何合金；肌肉纤维难以撕裂；止血、痛觉迟钝与类似但强于肾上腺素的战斗身体反应显著增强。",
+          "effects": [
+            "骨骼极端坚硬，普通凡人徒手攻击更可能伤到自己",
+            "肌肉纤维难以撕裂",
+            "出血会迅速止住",
+            "痛觉迟钝，战斗中不易因疼痛失能",
+            "旧伤与近期伤势会因弑神者新生/恢复力快速痊愈"
+          ],
+          "id": "campione-wild-body-enhancement",
+          "limits": [
+            "对神、弑神者、神具和权能级攻击仍会受伤",
+            "不是纯粹无敌肉体；神之武器可撕裂肌肉、打碎骨头或造成重创",
+            "宁易未受武术训练，肉体强度不等于格斗技巧"
+          ],
+          "name": "野性肉体强化",
+          "rating": {
+            "basis": "弑神者肉体可承受并快速恢复远超人类级伤害；但对神战级攻击仍非无敌。",
+            "rating": "N7 城市级",
+            "score": 12000,
+            "segment": "mid"
+          },
+          "sourceCalibration": "已按本地 split-text 原文校准；未采用未定位到的『潘多拉注入生命气息』原句作为硬表述。",
+          "sourceRefs": [
+            "campione-main/vol-11/chapters/ch-002-第二章 在风暴之岛上.txt:167-170",
+            "campione-main/vol-11/chapters/ch-002-第二章 在风暴之岛上.txt:181-190",
+            "campione-main/vol-11/chapters/ch-003-第三章 剑和艾莉卡和梅尔卡托.txt:210-216",
+            "campione-main/vol-11/chapters/ch-002-第二章 在风暴之岛上.txt:1203-1209"
+          ],
+          "status": "active-source-backed",
+          "type": "passive-body"
+        }
+      }
+    },
+    {
+      "op": {
+        "action": "upsert",
+        "id": "campione-inhuman-instinct-anti-assassination",
+        "idField": "id",
+        "item": {
+          "description": "弑神者即使被攻其不备或暗施偷袭，也很难按普通弱点攻略成功；他们会用超规格、强硬甚至灾害级手段挽回劣势。",
+          "effects": [
+            "暗杀、偷袭、针对弱点的攻略难以稳定奏效",
+            "陷入不利时可用权能、咒力、环境和战斗本能强行扭转",
+            "对神级危机有异常反应和临战直觉"
+          ],
+          "id": "campione-inhuman-instinct-anti-assassination",
+          "limits": [
+            "这不是预知未来，也不是绝对反暗杀；准备充分的神、弑神者、神具或权能仍可制造危机",
+            "宁易新晋，临场判断和社会经验仍不足"
+          ],
+          "name": "非人直觉 / 反暗杀本能",
+          "rating": {
+            "basis": "主要提高生存与反制概率，不直接等同输出等级。",
+            "rating": "N7 城市级",
+            "score": 9000,
+            "segment": "low"
+          },
+          "sourceRefs": [
+            "campione-main/vol-18/chapters/ch-006-第6章 某一天的兄弟趴（？）.txt:122-140",
+            "campione-main/vol-18/chapters/ch-006-第6章 某一天的兄弟趴（？）.txt:262-288",
+            "campione-main/vol-11/chapters/ch-002-第二章 在风暴之岛上.txt:245-270"
+          ],
+          "status": "active-source-backed",
+          "type": "passive-instinct"
+        },
+        "path": "abilities"
+      },
+      "result": {
+        "action": "inserted",
+        "after": {
+          "description": "弑神者即使被攻其不备或暗施偷袭，也很难按普通弱点攻略成功；他们会用超规格、强硬甚至灾害级手段挽回劣势。",
+          "effects": [
+            "暗杀、偷袭、针对弱点的攻略难以稳定奏效",
+            "陷入不利时可用权能、咒力、环境和战斗本能强行扭转",
+            "对神级危机有异常反应和临战直觉"
+          ],
+          "id": "campione-inhuman-instinct-anti-assassination",
+          "limits": [
+            "这不是预知未来，也不是绝对反暗杀；准备充分的神、弑神者、神具或权能仍可制造危机",
+            "宁易新晋，临场判断和社会经验仍不足"
+          ],
+          "name": "非人直觉 / 反暗杀本能",
+          "rating": {
+            "basis": "主要提高生存与反制概率，不直接等同输出等级。",
+            "rating": "N7 城市级",
+            "score": 9000,
+            "segment": "low"
+          },
+          "sourceRefs": [
+            "campione-main/vol-18/chapters/ch-006-第6章 某一天的兄弟趴（？）.txt:122-140",
+            "campione-main/vol-18/chapters/ch-006-第6章 某一天的兄弟趴（？）.txt:262-288",
+            "campione-main/vol-11/chapters/ch-002-第二章 在风暴之岛上.txt:245-270"
+          ],
+          "status": "active-source-backed",
+          "type": "passive-instinct"
+        }
+      }
+    },
+    {
+      "op": {
+        "action": "upsert",
+        "id": "thousand-words-style-language-growth",
+        "idField": "id",
+        "item": {
+          "description": "成为弑神者后具备超凡语言习得与语言适应素养。护堂在新生后不知不觉将义大利语当作母语般使用；艾莉卡说明魔术师自幼锻炼特殊语言感觉以短时间学会各种语言，而弑神者也具备这种素养。",
+          "effects": [
+            "接触语言后可快速听懂、理解并运用",
+            "中文为宁易母语；日语、英语可按设定可用；其他语言可快速适应",
+            "有助于神秘侧交涉、阅读和言灵环境适应"
+          ],
+          "id": "thousand-words-style-language-growth",
+          "limits": [
+            "不是无条件万能翻译",
+            "神名、秘仪、古语、言灵仍需要上下文、接触和理解",
+            "语言能力不等于自动获得神话知识"
+          ],
+          "name": "千之语言 / 卓越语言习得",
+          "rating": {
+            "basis": "非战斗能力；强化语言/言灵适应，不直接提升破坏力。",
+            "rating": "N3 房屋级",
+            "score": 800,
+            "segment": "mid"
+          },
+          "sourceRefs": [
+            "campione-main/vol-11/chapters/ch-002-第二章 在风暴之岛上.txt:184-190"
+          ],
+          "status": "active-source-backed",
+          "type": "passive-knowledge-adaptation"
+        },
+        "path": "abilities"
+      },
+      "result": {
+        "action": "updated",
+        "before": {
+          "description": "成为弑神者后，宁易具备类似『千之言语』方向的语言快速习得与神秘侧言语适应。中文为母语；中文、日语、英语可用；其他语言可从日常交流级起步并在接触中快速提高。",
+          "id": "thousand-words-style-language-growth",
+          "limits": [
+            "不是无条件万能翻译",
+            "涉及神名、秘仪、古语、言灵时仍需接触、上下文和理解",
+            "不替代神话知识本身"
+          ],
+          "name": "千之言语式语言适应",
+          "rating": {
+            "basis": "非战斗能力；体现弑神者侧语言/言灵适应，不直接提升破坏力。",
+            "rating": "N3 房屋级",
+            "score": 800,
+            "segment": "mid"
+          },
+          "sourceRefs": [
+            "前序已确认：千之言语相关源文/条目；必要时需重读精确源文。"
+          ],
+          "status": "active-limited",
+          "type": "passive-knowledge-adaptation"
+        },
+        "after": {
+          "description": "成为弑神者后具备超凡语言习得与语言适应素养。护堂在新生后不知不觉将义大利语当作母语般使用；艾莉卡说明魔术师自幼锻炼特殊语言感觉以短时间学会各种语言，而弑神者也具备这种素养。",
+          "id": "thousand-words-style-language-growth",
+          "limits": [
+            "不是无条件万能翻译",
+            "神名、秘仪、古语、言灵仍需要上下文、接触和理解",
+            "语言能力不等于自动获得神话知识"
+          ],
+          "name": "千之语言 / 卓越语言习得",
+          "rating": {
+            "basis": "非战斗能力；强化语言/言灵适应，不直接提升破坏力。",
+            "rating": "N3 房屋级",
+            "score": 800,
+            "segment": "mid"
+          },
+          "sourceRefs": [
+            "campione-main/vol-11/chapters/ch-002-第二章 在风暴之岛上.txt:184-190"
+          ],
+          "status": "active-source-backed",
+          "type": "passive-knowledge-adaptation",
+          "effects": [
+            "接触语言后可快速听懂、理解并运用",
+            "中文为宁易母语；日语、英语可按设定可用；其他语言可快速适应",
+            "有助于神秘侧交涉、阅读和言灵环境适应"
+          ]
+        }
+      }
+    },
+    {
+      "op": {
+        "action": "upsert",
+        "id": "campione-combat-instinct",
+        "idField": "id",
+        "item": {
+          "description": "弑神者基础身体能力并非在所有生活场景都无限超常，但进入竞争、斗争或神战状态后，集中力、直觉、动态视力、反应和身体状态会随战斗意志提升到异常水平。",
+          "effects": [
+            "战斗状态下注意力与直觉显著提升",
+            "可看清并闪避远超普通人的攻击轨迹",
+            "身体自然进入适合战斗的最佳状态",
+            "对神接近时自动动员力量和热度"
+          ],
+          "id": "campione-combat-instinct",
+          "limits": [
+            "需要斗争心、危机或战斗触发；日常状态不等于始终全开",
+            "不是专业武术技巧，宁易仍缺少格斗经验",
+            "不写成斗志直接恢复咒力；咒力回复关系仍待更精确源文"
+          ],
+          "name": "战斗本能",
+          "rating": {
+            "basis": "提升反应、直觉与临战发挥；对宁易而言受经验不足限制。",
+            "rating": "N6 城镇级",
+            "score": 7000,
+            "segment": "high"
+          },
+          "sourceRefs": [
+            "campione-main/vol-11/chapters/ch-001-第一章 魔王诞生……？.txt:1000-1035",
+            "campione-main/vol-11/chapters/ch-002-第二章 在风暴之岛上.txt:245-270",
+            "campione-main/vol-11/chapters/ch-004-第四章 短暂的春眠.txt"
+          ],
+          "status": "active-source-backed",
+          "type": "passive-combat-state"
+        },
+        "path": "abilities"
+      },
+      "result": {
+        "action": "inserted",
+        "after": {
+          "description": "弑神者基础身体能力并非在所有生活场景都无限超常，但进入竞争、斗争或神战状态后，集中力、直觉、动态视力、反应和身体状态会随战斗意志提升到异常水平。",
+          "effects": [
+            "战斗状态下注意力与直觉显著提升",
+            "可看清并闪避远超普通人的攻击轨迹",
+            "身体自然进入适合战斗的最佳状态",
+            "对神接近时自动动员力量和热度"
+          ],
+          "id": "campione-combat-instinct",
+          "limits": [
+            "需要斗争心、危机或战斗触发；日常状态不等于始终全开",
+            "不是专业武术技巧，宁易仍缺少格斗经验",
+            "不写成斗志直接恢复咒力；咒力回复关系仍待更精确源文"
+          ],
+          "name": "战斗本能",
+          "rating": {
+            "basis": "提升反应、直觉与临战发挥；对宁易而言受经验不足限制。",
+            "rating": "N6 城镇级",
+            "score": 7000,
+            "segment": "high"
+          },
+          "sourceRefs": [
+            "campione-main/vol-11/chapters/ch-001-第一章 魔王诞生……？.txt:1000-1035",
+            "campione-main/vol-11/chapters/ch-002-第二章 在风暴之岛上.txt:245-270",
+            "campione-main/vol-11/chapters/ch-004-第四章 短暂的春眠.txt"
+          ],
+          "status": "active-source-backed",
+          "type": "passive-combat-state"
+        }
+      }
+    },
+    {
+      "op": {
+        "action": "upsert",
+        "id": "campione-real-combat-growth",
+        "idField": "id",
+        "item": {
+          "description": "弑神者本质接近魔兽，权能与战斗方式无法靠安全训练、自导自演或普通锻炼完全掌握；必须在真正战场、杀意、危机和胜利中自然成长。",
+          "effects": [
+            "真实战斗会推动权能理解和新用法觉醒",
+            "杀意、紧张感、狂暴之魂会提高权能发挥",
+            "战胜强敌后经验和权能掌握度提升"
+          ],
+          "id": "campione-real-combat-growth",
+          "limits": [
+            "不能靠普通训练刷熟练度",
+            "危险战斗带来真实死亡/封印/暴走风险",
+            "成长方向不预锁，需随剧情和使用方式演化"
+          ],
+          "name": "越战越强 / 魔兽性质",
+          "rating": {
+            "basis": "成长机制影响长期上限，不单独等同当前输出。",
+            "rating": "N7 城市级",
+            "score": 11000,
+            "segment": "mid"
+          },
+          "sourceRefs": [
+            "campione-main/vol-11/chapters/ch-003-第三章 剑和艾莉卡和梅尔卡托.txt:114-132",
+            "campione-main/vol-08/chapters/ch-004-第4话 黑王子、白魔女以及英雄的侍从.txt"
+          ],
+          "status": "active-source-backed",
+          "type": "passive-growth-rule"
+        },
+        "path": "abilities"
+      },
+      "result": {
+        "action": "inserted",
+        "after": {
+          "description": "弑神者本质接近魔兽，权能与战斗方式无法靠安全训练、自导自演或普通锻炼完全掌握；必须在真正战场、杀意、危机和胜利中自然成长。",
+          "effects": [
+            "真实战斗会推动权能理解和新用法觉醒",
+            "杀意、紧张感、狂暴之魂会提高权能发挥",
+            "战胜强敌后经验和权能掌握度提升"
+          ],
+          "id": "campione-real-combat-growth",
+          "limits": [
+            "不能靠普通训练刷熟练度",
+            "危险战斗带来真实死亡/封印/暴走风险",
+            "成长方向不预锁，需随剧情和使用方式演化"
+          ],
+          "name": "越战越强 / 魔兽性质",
+          "rating": {
+            "basis": "成长机制影响长期上限，不单独等同当前输出。",
+            "rating": "N7 城市级",
+            "score": 11000,
+            "segment": "mid"
+          },
+          "sourceRefs": [
+            "campione-main/vol-11/chapters/ch-003-第三章 剑和艾莉卡和梅尔卡托.txt:114-132",
+            "campione-main/vol-08/chapters/ch-004-第4话 黑王子、白魔女以及英雄的侍从.txt"
+          ],
+          "status": "active-source-backed",
+          "type": "passive-growth-rule"
+        }
+      }
+    },
+    {
+      "op": {
+        "action": "upsert",
+        "id": "campione-longevity-agelessness",
+        "idField": "id",
+        "item": {
+          "description": "弑神者寿命远超普通人。沃邦被称为三百岁年龄的大魔王；罗濠篡夺神权能至今二百年，并自称成为魔王后二百余年；约翰·布鲁托·史密斯年龄不详。",
+          "effects": [
+            "寿命远超普通人类尺度",
+            "肉体年龄与实际年龄可能不按常人衰老",
+            "长期剧情中可视作不易自然衰老"
+          ],
+          "id": "campione-longevity-agelessness",
+          "limits": [
+            "本次精校坐实『超长寿』；『完全不老』按原著常识与外貌描写可采用，但本次未定位到单句硬证据",
+            "不代表不会被神、权能、神具或封印杀死"
+          ],
+          "name": "超长寿命与不老倾向",
+          "rating": {
+            "basis": "生命尺度与自然衰老抗性，不直接提升战斗输出。",
+            "rating": "N6 城镇级",
+            "score": 6000,
+            "segment": "mid"
+          },
+          "sourceRefs": [
+            "campione-main/vol-02/chapters/ch-006-第五章 狩猎之时.txt:648",
+            "campione-main/vol-06/chapters/ch-002-第二章 蠢蠢欲动的妖女们.txt:76",
+            "campione-main/vol-06/chapters/ch-007-第七章 GIANT KILLING.txt:772",
+            "campione-main/vol-07/chapters/ch-007-第七章 神和弑神者们，在激战最后一决雌雄.txt:296"
+          ],
+          "status": "active-source-backed-partial",
+          "type": "passive-life-profile"
+        },
+        "path": "abilities"
+      },
+      "result": {
+        "action": "inserted",
+        "after": {
+          "description": "弑神者寿命远超普通人。沃邦被称为三百岁年龄的大魔王；罗濠篡夺神权能至今二百年，并自称成为魔王后二百余年；约翰·布鲁托·史密斯年龄不详。",
+          "effects": [
+            "寿命远超普通人类尺度",
+            "肉体年龄与实际年龄可能不按常人衰老",
+            "长期剧情中可视作不易自然衰老"
+          ],
+          "id": "campione-longevity-agelessness",
+          "limits": [
+            "本次精校坐实『超长寿』；『完全不老』按原著常识与外貌描写可采用，但本次未定位到单句硬证据",
+            "不代表不会被神、权能、神具或封印杀死"
+          ],
+          "name": "超长寿命与不老倾向",
+          "rating": {
+            "basis": "生命尺度与自然衰老抗性，不直接提升战斗输出。",
+            "rating": "N6 城镇级",
+            "score": 6000,
+            "segment": "mid"
+          },
+          "sourceRefs": [
+            "campione-main/vol-02/chapters/ch-006-第五章 狩猎之时.txt:648",
+            "campione-main/vol-06/chapters/ch-002-第二章 蠢蠢欲动的妖女们.txt:76",
+            "campione-main/vol-06/chapters/ch-007-第七章 GIANT KILLING.txt:772",
+            "campione-main/vol-07/chapters/ch-007-第七章 神和弑神者们，在激战最后一决雌雄.txt:296"
+          ],
+          "status": "active-source-backed-partial",
+          "type": "passive-life-profile"
+        }
+      }
+    },
+    {
+      "op": {
+        "action": "upsert",
+        "id": "campione-rebirth-ritual-revival",
+        "idField": "id",
+        "item": {
+          "description": "弑神者诞生与部分权能发动涉及濒死边界的复活机制。护堂在弑杀乌鲁斯拉格纳后由濒死状态恢复并治愈旧伤；潘朵拉在生与不死的境界说明其肉体正在地上复活；后续护堂也通过牡羊化身从近死状态恢复。",
+          "effects": [
+            "弑神者新生时会修复致命伤与旧伤",
+            "濒死边界可能触发潘朵拉相关介入或权能复活",
+            "恢复后可从极重伤势回到可战状态"
+          ],
+          "id": "campione-rebirth-ritual-revival",
+          "limits": [
+            "不是日常无限复活",
+            "当场彻底死亡、权能条件不满足、神具/权能封杀或灵魂层面破坏可能阻断",
+            "宁易没有草薙护堂『牡羊』化身，不继承其特定使用规则"
+          ],
+          "name": "不死性 / 弑神仪式复活",
+          "rating": {
+            "basis": "强恢复/复活边界机制；受条件限制。",
+            "rating": "N7 城市级",
+            "score": 12000,
+            "segment": "mid"
+          },
+          "sourceRefs": [
+            "campione-main/vol-11/chapters/ch-001-第一章 魔王诞生……？.txt:30-80",
+            "campione-main/vol-11/chapters/ch-003-第三章 剑和艾莉卡和梅尔卡托.txt:30-64",
+            "campione-main/vol-11/chapters/ch-003-第三章 剑和艾莉卡和梅尔卡托.txt:210-216",
+            "campione-main/vol-11/chapters/ch-003-第三章 剑和艾莉卡和梅尔卡托.txt:240-270"
+          ],
+          "status": "active-source-backed",
+          "type": "passive-rebirth"
+        },
+        "path": "abilities"
+      },
+      "result": {
+        "action": "inserted",
+        "after": {
+          "description": "弑神者诞生与部分权能发动涉及濒死边界的复活机制。护堂在弑杀乌鲁斯拉格纳后由濒死状态恢复并治愈旧伤；潘朵拉在生与不死的境界说明其肉体正在地上复活；后续护堂也通过牡羊化身从近死状态恢复。",
+          "effects": [
+            "弑神者新生时会修复致命伤与旧伤",
+            "濒死边界可能触发潘朵拉相关介入或权能复活",
+            "恢复后可从极重伤势回到可战状态"
+          ],
+          "id": "campione-rebirth-ritual-revival",
+          "limits": [
+            "不是日常无限复活",
+            "当场彻底死亡、权能条件不满足、神具/权能封杀或灵魂层面破坏可能阻断",
+            "宁易没有草薙护堂『牡羊』化身，不继承其特定使用规则"
+          ],
+          "name": "不死性 / 弑神仪式复活",
+          "rating": {
+            "basis": "强恢复/复活边界机制；受条件限制。",
+            "rating": "N7 城市级",
+            "score": 12000,
+            "segment": "mid"
+          },
+          "sourceRefs": [
+            "campione-main/vol-11/chapters/ch-001-第一章 魔王诞生……？.txt:30-80",
+            "campione-main/vol-11/chapters/ch-003-第三章 剑和艾莉卡和梅尔卡托.txt:30-64",
+            "campione-main/vol-11/chapters/ch-003-第三章 剑和艾莉卡和梅尔卡托.txt:210-216",
+            "campione-main/vol-11/chapters/ch-003-第三章 剑和艾莉卡和梅尔卡托.txt:240-270"
+          ],
+          "status": "active-source-backed",
+          "type": "passive-rebirth"
+        }
+      }
+    },
+    {
+      "op": {
+        "action": "upsert",
+        "id": "campione-night-vision-pending",
+        "idField": "id",
+        "item": {
+          "description": "用户提供出处称第十一卷第二物语第一章有猫头鹰般夜视。当前本地 split-text 精校未定位到『猫头鹰/夜视/夜间视力/夜目』等明确句，暂不作为硬判定启用。",
+          "effects": [
+            "待原文定位后再启用夜间视觉加成"
+          ],
+          "id": "campione-night-vision-pending",
+          "limits": [
+            "未定位原文前不用于关键判定"
+          ],
+          "name": "猫头鹰般夜视",
+          "rating": {
+            "basis": "待校验感官能力，暂不计入战力。",
+            "rating": "N1 街头级",
+            "score": 150,
+            "segment": "low"
+          },
+          "sourceRefs": [
+            "用户提供：第十一卷《第二物语》第一章",
+            "本次检索未命中：猫头鹰/夜视/夜间视力/夜目"
+          ],
+          "status": "pending-source-check",
+          "type": "passive-sense"
+        },
+        "path": "abilities"
+      },
+      "result": {
+        "action": "inserted",
+        "after": {
+          "description": "用户提供出处称第十一卷第二物语第一章有猫头鹰般夜视。当前本地 split-text 精校未定位到『猫头鹰/夜视/夜间视力/夜目』等明确句，暂不作为硬判定启用。",
+          "effects": [
+            "待原文定位后再启用夜间视觉加成"
+          ],
+          "id": "campione-night-vision-pending",
+          "limits": [
+            "未定位原文前不用于关键判定"
+          ],
+          "name": "猫头鹰般夜视",
+          "rating": {
+            "basis": "待校验感官能力，暂不计入战力。",
+            "rating": "N1 街头级",
+            "score": 150,
+            "segment": "low"
+          },
+          "sourceRefs": [
+            "用户提供：第十一卷《第二物语》第一章",
+            "本次检索未命中：猫头鹰/夜视/夜间视力/夜目"
+          ],
+          "status": "pending-source-check",
+          "type": "passive-sense"
+        }
+      }
+    },
+    {
+      "op": {
+        "action": "upsert",
+        "id": "campione-overlord-aspect-luck-pending",
+        "idField": "id",
+        "item": {
+          "description": "用户提供出处称第十八卷第六章有『幸运与凶运兼具的霸者之相』及夸张强运。本次精校坐实弑神者不在意强弱、弱点攻击和偷袭难以奏效，但未定位到『霸者之相/幸运与凶运/凡靠运气』等明确句，暂不写成硬强运。",
+          "effects": [
+            "可作为待确认的命运/气运条目保留",
+            "已确认部分：弑神者面对强敌和弱点攻略时具有异常反制倾向"
+          ],
+          "id": "campione-overlord-aspect-luck-pending",
+          "limits": [
+            "未定位原文前不赋予稳定幸运加成",
+            "不能用作自动成功或剧情保底"
+          ],
+          "name": "霸者之相 / 强运",
+          "rating": {
+            "basis": "当前仅保留设定候选；战斗侧强运不启用。",
+            "rating": "N4 建筑级",
+            "score": 1200,
+            "segment": "low"
+          },
+          "sourceRefs": [
+            "用户提供：第十八卷《魔王们的断章》第六章",
+            "已核对相关：campione-main/vol-18/chapters/ch-006-第6章 某一天的兄弟趴（？）.txt:122-140",
+            "已核对相关：campione-main/vol-18/chapters/ch-006-第6章 某一天的兄弟趴（？）.txt:262-288"
+          ],
+          "status": "pending-source-check-partial",
+          "type": "passive-fate"
+        },
+        "path": "abilities"
+      },
+      "result": {
+        "action": "inserted",
+        "after": {
+          "description": "用户提供出处称第十八卷第六章有『幸运与凶运兼具的霸者之相』及夸张强运。本次精校坐实弑神者不在意强弱、弱点攻击和偷袭难以奏效，但未定位到『霸者之相/幸运与凶运/凡靠运气』等明确句，暂不写成硬强运。",
+          "effects": [
+            "可作为待确认的命运/气运条目保留",
+            "已确认部分：弑神者面对强敌和弱点攻略时具有异常反制倾向"
+          ],
+          "id": "campione-overlord-aspect-luck-pending",
+          "limits": [
+            "未定位原文前不赋予稳定幸运加成",
+            "不能用作自动成功或剧情保底"
+          ],
+          "name": "霸者之相 / 强运",
+          "rating": {
+            "basis": "当前仅保留设定候选；战斗侧强运不启用。",
+            "rating": "N4 建筑级",
+            "score": 1200,
+            "segment": "low"
+          },
+          "sourceRefs": [
+            "用户提供：第十八卷《魔王们的断章》第六章",
+            "已核对相关：campione-main/vol-18/chapters/ch-006-第6章 某一天的兄弟趴（？）.txt:122-140",
+            "已核对相关：campione-main/vol-18/chapters/ch-006-第6章 某一天的兄弟趴（？）.txt:262-288"
+          ],
+          "status": "pending-source-check-partial",
+          "type": "passive-fate"
+        }
+      }
+    }
+  ]
+}

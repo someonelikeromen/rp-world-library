@@ -1,0 +1,5364 @@
+{
+  "abilities": [
+    {
+      "id": "ability-bahamut-devourer",
+      "type": "supernatural / technology / combat",
+      "owner": "",
+      "description": "《巴哈姆特》的神装，吞食自身时间并在随后以数倍速度释放，形成超高速行动与反击。",
+      "details": {
+        "drag_ride": "item-bahamut",
+        "principle": "时间压缩与加速"
+      },
+      "volumes": [
+        "vol-02"
+      ]
+    },
+    {
+      "id": "ability-diamat-control",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "莉夏操纵神装机龙《迪亚玛特》及其武装，在关键时刻用于支援、防御和镇压私兵。",
+      "details": {
+        "drag_ride": "item-diamat",
+        "known_mode": "神装机龙与炮击/飞行支援"
+      },
+      "volumes": [
+        "vol-02"
+      ]
+    },
+    {
+      "id": "ability-dragon-bite-chain",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "《堤丰》可从装甲各处发射的捕捉系特殊武装，尖端如大蛇下颚咬住敌方机龙并拖回。",
+      "details": {
+        "drag_ride": "item-typhon",
+        "weapon_class": "capture armament"
+      },
+      "volumes": [
+        "vol-02"
+      ]
+    },
+    {
+      "id": "ability-drake-camouflage-and-sensors",
+      "type": "technology / stealth / intel",
+      "owner": "",
+      "description": "特装机龙具备消除驱动声、光影和存在感的迷彩能力，也可进行探测、通信与窃听记录。",
+      "details": {
+        "drag_ride_class": "特装机龙/Drake",
+        "functions": [
+          "迷彩",
+          "雷达探测",
+          "窃听记录"
+        ]
+      },
+      "volumes": [
+        "vol-02"
+      ]
+    },
+    {
+      "id": "ability-forced-overload",
+      "type": "technology / combat / skill",
+      "owner": "",
+      "description": "路克斯故意让机龙处于濒临失控状态，再释放积蓄负荷形成超威力斩击的禁忌奥义。",
+      "details": {
+        "user": "lux-arcadia",
+        "drag_ride": "item-bahamut",
+        "risk": "控制失败会让自身和周围陷入死亡危机"
+      },
+      "volumes": [
+        "vol-02"
+      ]
+    },
+    {
+      "id": "ability-freezing-cannon",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "《法夫纳》的特殊武装，外观近似高性能狙击铳炮，命中部位会冻结。",
+      "details": {
+        "drag_ride": "item-fafnir",
+        "weapon_class": "special armament"
+      },
+      "volumes": [
+        "vol-02"
+      ]
+    },
+    {
+      "id": "ability-instant-strike",
+      "type": "combat / skill / technology",
+      "owner": "",
+      "description": "路克斯以《暴食》的时间压缩特性配合自身预测与判断，在敌人攻击后瞬间反击的奥义。",
+      "details": {
+        "related_divine_raiment": "ability-bahamut-devourer",
+        "style": "防御反击"
+      },
+      "volumes": [
+        "vol-02"
+      ]
+    },
+    {
+      "id": "ability-scale-buckler",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "《法夫纳》的自动防御型特殊武装，会感应敌方攻击并展开多面强韧护盾保护本体。",
+      "details": {
+        "drag_ride": "item-fafnir",
+        "shield_count": "七面",
+        "shape": "八角形护盾"
+      },
+      "volumes": [
+        "vol-02"
+      ]
+    },
+    {
+      "id": "ability-thousand-magic",
+      "type": "supernatural / technology / combat",
+      "owner": "",
+      "description": "《艾基·达哈卡》的神装，能从周围或接触到的机龙夺取能量，并在接触神装机龙后暂时夺取神装或特殊武装的控制权。",
+      "details": {
+        "drag_ride": "item-azi-dahaka",
+        "requirements": "接近或接触目标机龙",
+        "stolen_examples": [
+          "财祸睿智",
+          "暴食",
+          "龙鳞装盾"
+        ]
+      },
+      "volumes": [
+        "vol-02"
+      ]
+    },
+    {
+      "id": "ability-typhon-grappling",
+      "type": "combat / skill / technology",
+      "owner": "",
+      "description": "菲尔菲将自身武术和怪力融入神装机龙《堤丰》的近战动作，以拳、踢、抓取粉碎敌方装甲。",
+      "details": {
+        "drag_ride": "item-typhon",
+        "style": "近战特化"
+      },
+      "volumes": [
+        "vol-02"
+      ]
+    },
+    {
+      "id": "ability-wise-blood",
+      "type": "supernatural / technology / combat",
+      "owner": "",
+      "description": "《法夫纳》的神装，能感应数秒后、半径数十公尺内的未来情景，使库露露席法能预判攻击与反击窗口。",
+      "details": {
+        "drag_ride": "item-fafnir",
+        "range": "半径数十公尺",
+        "forecast": "数秒后未来"
+      },
+      "volumes": [
+        "vol-02"
+      ]
+    },
+    {
+      "id": "abyss-call",
+      "type": "supernatural / technology",
+      "owner": "",
+      "description": "圣蚀发出类似角笛的音色，吸引大量幻神兽向城塞都市与学园聚集。",
+      "details": {
+        "user": "ark",
+        "summoned": "kraken-type Abyss and wider Abyss groups"
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "abyss-command-authority",
+      "type": "authority / technology",
+      "owner": "",
+      "description": "海兹通过洗礼拥有对遗迹与幻神兽相关领导机能的支配权，可配合角笛指挥幻神兽牵制联盟军。",
+      "details": {},
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "abyss-factor-resistance",
+      "type": "genetic / skill",
+      "owner": "",
+      "description": "菲尔菲因体内残留幻神兽因子，经过路克斯与爱理训练后能短时间抵抗角笛操纵并保持自我。",
+      "details": {
+        "risk": "身体负担大，公开会引发社会与法律风险"
+      },
+      "volumes": [
+        "vol-06"
+      ]
+    },
+    {
+      "id": "abyss-flute-control",
+      "type": "artifact / technology / supernatural",
+      "owner": "",
+      "description": "A mysterious flute-based power that can summon, hatch, or direct Abyss, overriding their usual indiscriminate hostility.",
+      "details": {
+        "artifact": "abyss-flute",
+        "observed_users": [
+          "fugil-arcadia",
+          "belbet-balt"
+        ],
+        "effect": "draws out Abyss and causes large Abyss body to produce Gargoyles"
+      },
+      "volumes": [
+        "vol-01"
+      ]
+    },
+    {
+      "id": "academy-crisis-management",
+      "type": "skill / social",
+      "owner": "",
+      "description": "蕾莉在圣夜祭、苏菲丝逃脱和学园袭击期间协调人员、信息和安保的能力。",
+      "details": {
+        "user": "relie-aingram"
+      },
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "academy-management",
+      "type": "social / authority",
+      "owner": "",
+      "description": "蕾莉作为学园长统筹学园祭、危机善后与学生职务安排的能力。",
+      "details": {
+        "used_by": "relie"
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "academy-security",
+      "type": "skill / social",
+      "owner": "",
+      "description": "三和音负责学园祭巡逻、来宾引导、抓捕违规者和活动调度的能力。",
+      "details": {
+        "users": [
+          "sharis",
+          "tillfur",
+          "nox"
+        ]
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "adaptive-strengthening",
+      "type": "supernatural",
+      "owner": "",
+      "description": "终焉神兽尤克特拉希尔的能力，罗菲在承受路克斯连续攻击时逐步强化身体，最终达到莉夏常规攻击无法伤及的硬度。",
+      "details": {},
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "air-step",
+      "type": "technology / combat / movement",
+      "owner": "",
+      "description": "夜刀神的特殊武装，使本不具备飞翔机能的特装型机体能像在空中蹬踏一样高速移动。",
+      "details": {
+        "drag_ride": "yato-no-kami",
+        "movement": "空中踏步式滑翔"
+      },
+      "volumes": [
+        "vol-07",
+        "vol-18",
+        "vol-19"
+      ]
+    },
+    {
+      "id": "ancient-document-analysis",
+      "type": "knowledge / skill",
+      "owner": "",
+      "description": "The scholarly skill of reading ancient documents excavated from ruins and updating Drag-Ride manuals.",
+      "details": {
+        "materials": "ruin texts and Drag-Ride guide documents",
+        "role": "supports understanding of Bahamut's operating limits"
+      },
+      "volumes": [
+        "vol-01"
+      ]
+    },
+    {
+      "id": "ancient-document-deciphering",
+      "type": "skill / knowledge",
+      "owner": "",
+      "description": "爱理解读遗迹古文书的能力，水准不逊王都专门文官。",
+      "details": {
+        "use": "解析方舟古文书页面"
+      },
+      "volumes": [
+        "vol-06"
+      ]
+    },
+    {
+      "id": "ancient-document-knowledge",
+      "type": "knowledge / skill",
+      "owner": "",
+      "description": "爱理对旧帝国、遗迹、古代文字与历史资料的理解。",
+      "details": {
+        "used_by": "airi",
+        "vol_09_usage": "学园祭资料馆中解说旧帝国历史、遗迹和装甲机龙资料。"
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "ancient-text-deciphering",
+      "type": "skill / lore",
+      "owner": "",
+      "description": "爱理等人解读遗迹古文书和古代技术说明的能力。",
+      "details": {
+        "users": [
+          "airi-arcadia",
+          "krulcifer-einfolk"
+        ],
+        "application": "休眠舱使用说明与遗迹资料"
+      },
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "arcadia-blood-authentication",
+      "type": "authority / bloodline",
+      "owner": "",
+      "description": "大圣域最深处可能需要阿卡迪亚血脉认证。爱理判断自己的血脉可成为攻略关键，也可作为诱饵吸引创造主注意。",
+      "details": {},
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "arcadia-bloodline-qualification",
+      "type": "authority / genetic / system",
+      "owner": "",
+      "description": "大圣域识别阿卡迪亚皇族或其后裔的资格，用于回应阿榭立亚、接受三项考验并连结中枢。",
+      "details": {
+        "recognized_qualifiers": [
+          "lux-arcadia",
+          "airi-arcadia",
+          "ariel-arcadia",
+          "listelka-arcadia",
+          "hayes-arcadia",
+          "fugil-arcadia"
+        ]
+      },
+      "volumes": [
+        "vol-15"
+      ]
+    },
+    {
+      "id": "ark-system-control",
+      "type": "technology / authority",
+      "owner": "",
+      "description": "自动人形拉可儿雪连结方舟中枢后可恢复记忆、通信、监视、封门并调动防卫机龙。",
+      "details": {
+        "user": "la-krusche",
+        "location": "ark-ruin"
+      },
+      "volumes": [
+        "vol-04"
+      ]
+    },
+    {
+      "id": "armor-purge",
+      "type": "drag-ride technique",
+      "owner": "",
+      "description": "舍弃受损或多余装甲，减轻机体并集中剩余能量到可用部位的技术。",
+      "details": {
+        "use": "弗基尔在巴哈姆特半毁后使用，反以轻装形态压制路克斯"
+      },
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "armor-purification",
+      "type": "combat / technology",
+      "owner": "",
+      "description": "机龙通用高阶技术，释放装甲零件形成冲击、突围或反击。",
+      "details": {},
+      "volumes": [
+        "vol-18"
+      ]
+    },
+    {
+      "id": "armored-dragon-operation",
+      "type": "technology / magic",
+      "owner": "",
+      "description": "通过机攻壳剑与装甲机龙连结，将机龙化为装甲覆盖全身并操纵的基本能力。需要认证（契约）、咏唱符、以及精神与肉体的高同调。",
+      "details": {
+        "steps": "咏唱符召唤 → 连结开始 → 机龙展开为装甲 → 同步动作",
+        "difficulty": "需要高度适性值、体力、运动神经"
+      },
+      "volumes": [
+        "vol-05"
+      ]
+    },
+    {
+      "id": "arukule-black-wing-cover",
+      "type": "technology / sensory deprivation",
+      "owner": "",
+      "description": "阿尔库勒神装，生成黑色障幕夺取范围内生物五感与认知，可隐藏攻击轨迹或使敌方无法操纵机龙。",
+      "details": {},
+      "volumes": [
+        "vol-11"
+      ]
+    },
+    {
+      "id": "arukule-moon-roar",
+      "type": "technology / heavy artillery",
+      "owner": "",
+      "description": "阿尔库勒背部或巨臂配备的主炮级武装，可释放高热与冲击洪流。",
+      "details": {},
+      "volumes": [
+        "vol-11"
+      ]
+    },
+    {
+      "id": "assassination",
+      "type": "combat / skill",
+      "owner": "",
+      "description": "夜架擅长潜行、突袭、剑术与不受伦理约束的实战判断。",
+      "details": {
+        "used_by": "yoruka",
+        "vol_09_usage": "负责暗中巡逻、监视危险人物，并用经验提醒赛莉丝警戒罗莎。"
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "asup-magic-music-chant",
+      "type": "technology / combat / control",
+      "owner": "",
+      "description": "朵拉肯的《阿斯普》神装，可演奏类似角笛的音色操纵幻神兽，并在最终融合后以不和谐音干扰机龙使集中。",
+      "details": {
+        "user": "dora-welke",
+        "drag_ride": "asup",
+        "function": "操纵或干扰幻神兽与机龙使"
+      },
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "asup-sound-control",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "朵拉肯的神装机龙《阿斯普》能操纵、传送、收集并模仿声音，也可制造音波震动，引发雪崩或远距离通讯。",
+      "details": {
+        "user": "dolcan-megistol",
+        "drag_ride": "asup"
+      },
+      "volumes": [
+        "vol-08"
+      ]
+    },
+    {
+      "id": "automata-telepathy",
+      "type": "technology",
+      "owner": "",
+      "description": "罗菲体内纳米接收器和自动人形系统让她与阿榭立亚及其他领导者在数公里内直接通信并下令。",
+      "details": {
+        "operator": "ashaalia",
+        "range": "数公里半径"
+      },
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "automaton-clone-body",
+      "type": "technology / artificial-life",
+      "owner": "",
+      "description": "设施领导者可使用的分身终端，外表近似少女，破坏后会化为机械核心与细粉。",
+      "details": {
+        "example": "奇琉璃被击破后自称第二分身大破"
+      },
+      "volumes": [
+        "vol-06"
+      ]
+    },
+    {
+      "id": "automaton-command-execution",
+      "type": "technology / authority",
+      "owner": "",
+      "description": "遗迹领导者自动人形在新主人或阿榭立亚命令下执行清除、通讯、战斗与历史修正相关任务。",
+      "details": {
+        "users": [
+          "el-fajura",
+          "ney-louches",
+          "la-krushe",
+          "ashelia-rey-arcadia"
+        ]
+      },
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "azi-dahaka-thousand-magic",
+      "type": "supernatural / drag-ride divine raiment",
+      "owner": "",
+      "description": "艾基·达哈卡的神装，可吸收其他装甲机龙能量并夺取神装，是密丝希斯反机龙使能力核心。",
+      "details": {},
+      "volumes": [
+        "vol-14",
+        "vol-15"
+      ]
+    },
+    {
+      "id": "b-blood-combat",
+      "type": "genetic / combat",
+      "owner": "",
+      "description": "菲尔菲因终焉神兽种子与B-blood强化而拥有超常体能和近战能力,但会加重身体负担。本卷她凭此压制桑妮雅与伊格尼德,随后病倒。",
+      "details": {
+        "user": "philuffy-ainsgram",
+        "risk": "身体发热、痉挛与长期休养需求"
+      },
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "b-blood-drag-ride-enhancement",
+      "type": "technology / genetic",
+      "owner": "",
+      "description": "海兹阵营将尤克特拉希尔种子植入泛用机龙形成的改造型B-blood机龙，能在角笛作用下强化。",
+      "details": {
+        "models": [
+          "B-blood飞翔机龙",
+          "B-blood陆战机龙",
+          "B-blood特装机龙"
+        ]
+      },
+      "volumes": [
+        "vol-06"
+      ]
+    },
+    {
+      "id": "b-blood-nidhogg",
+      "type": "technology / drag-ride variation",
+      "owner": "",
+      "description": "海兹将尤克特拉希尔种子植入尼德霍格装甲形成的强化形态，以红黑枝条提升攻击、防御与再生。",
+      "details": {},
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "b-blood-parasite-enhancement",
+      "type": "technology / genetic / supernatural",
+      "owner": "",
+      "description": "海兹将终焉神兽寄生体植入泛用机龙或幻神兽，赋予超回复、肉体强化和近似神装机龙级别的输出。",
+      "details": {
+        "source": "海布格遗迹释放的终焉神兽寄生体",
+        "distribution": "桑妮雅等泛用型机体约百分之一力量，波赛顿约百分之五，菲尔菲被称为百分之十三恶魔凭依生还者。"
+      },
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "b-blood-typhon",
+      "type": "genetic / technology / supernatural",
+      "owner": "",
+      "description": "菲尔菲让尤克特拉希尔之根侵蚀并强化堤丰的极限形态，保留自我意志同时大幅提升装甲与锚具力量。",
+      "details": {},
+      "volumes": [
+        "vol-11",
+        "vol-15"
+      ]
+    },
+    {
+      "id": "bahamut-devour",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "巴哈姆特的神装能力，可通过压缩强化魔法般的机能大幅强化动作与输出，使路克斯发动超高速即击和连续战斗。",
+      "details": {
+        "user": "lux-arcadia",
+        "drag_ride": "bahamut",
+        "use_in_volume": "以超加速七连闪瞬间击破桑妮雅的B-blood飞翔机龙，并支撑后续永久连环。"
+      },
+      "volumes": [
+        "vol-03",
+        "vol-11",
+        "vol-13"
+      ]
+    },
+    {
+      "id": "bahamut-dragon-roar",
+      "type": "combat / technology",
+      "owner": "",
+      "description": "从机龙头部集中能量释放螺旋冲击波。路克斯以此牵制布朗狄修、罗莎并测试梅塔特隆反弹。",
+      "details": {},
+      "volumes": [
+        "vol-11"
+      ]
+    },
+    {
+      "id": "bahamut-gluttony",
+      "type": "technology / supernatural / combat",
+      "owner": "",
+      "description": "The Divine Raiment of Bahamut, compressing and releasing time/phenomena: first slowing an object's time, then accelerating it to explosive speed.",
+      "details": {
+        "mechanism": "first five seconds reduce time/energy/phenomena to a fraction; next five seconds accelerate and release them severalfold",
+        "machine": "lux-bahamut",
+        "risk": "extreme stamina drain and possible collapse"
+      },
+      "volumes": [
+        "vol-01",
+        "vol-04",
+        "vol-05",
+        "vol-06",
+        "vol-14",
+        "vol-15",
+        "vol-16",
+        "vol-20"
+      ]
+    },
+    {
+      "id": "bahamut-limit-break",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "解除巴哈姆特安全限制后的觉醒型形态，追加大功率飞翔装置、增强装甲和武装，换取压倒性性能与致命负荷。",
+      "details": {
+        "drag_ride": "bahamut",
+        "unlock_support": "lisesharte-atismata",
+        "code_source": "limit-break-code-analysis"
+      },
+      "volumes": [
+        "vol-04"
+      ]
+    },
+    {
+      "id": "bahamut-resonance-wave",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "巴哈姆特内藏特殊武装。平时能牵引物体或改变轨道，限界突破状态下可高速投掷武装。",
+      "details": {},
+      "volumes": [
+        "vol-11",
+        "vol-15"
+      ]
+    },
+    {
+      "id": "bahamut",
+      "type": "technology / combat / divine-drag-ride",
+      "owner": "",
+      "description": "路克斯持有的神装机龙。本卷主要作为即将执行高风险任务时被限制在新王国内使用的核心战力提及。",
+      "details": {
+        "owner": "lux-arcadia",
+        "role_in_volume": "海布格潜入任务准备中仍是路克斯的重要战力，但蕾莉提醒新王国内避免使用"
+      },
+      "volumes": [
+        "vol-10"
+      ]
+    },
+    {
+      "id": "baptism-adaptation",
+      "type": "supernatural / genetic",
+      "owner": "",
+      "description": "路克斯在大圣域接受洗礼后的身体变化。本卷前半表现为发热、疲劳和感官失调,后半在箱庭战中逐渐适应,使身体机能和五感强化转化为更高精度的机龙控制。",
+      "details": {
+        "subject": "lux-arcadia",
+        "cause": "大圣域洗礼与万灵药影响",
+        "symptoms": [
+          "发热",
+          "疲劳",
+          "机龙操纵不适",
+          "感知敏锐化"
+        ]
+      },
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "baptism-energy-burn",
+      "type": "genetic / supernatural / combat",
+      "owner": "",
+      "description": "莉夏通过洗礼获得的肉体强化。平日蓄积能量，关键时燃烧释放，使她能长时间并行使用神装、特殊武装与超越装甲。",
+      "details": {},
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "baptism-enhancement",
+      "type": "genetic / supernatural / technology",
+      "owner": "",
+      "description": "以痛苦手术固定万灵药或类似超常力量的技术。夜架的一只眼睛经洗礼强化，辛格伦半身也受洗礼影响并能承受真战阵负荷。",
+      "details": {
+        "known_subjects": [
+          "yakumo",
+          "singlen-shebrit",
+          "fugil-arcadia"
+        ]
+      },
+      "volumes": [
+        "vol-12"
+      ]
+    },
+    {
+      "id": "baptism-extreme-body",
+      "type": "genetic / technology",
+      "owner": "",
+      "description": "弗基尔疑似全身施加高剂量万灵药洗礼，获得远超幻魔人的身体耐性、恢复力与操纵机龙能力。",
+      "details": {
+        "user": "fugil-arcadia",
+        "evidence": [
+          "爆风中使用者伤害极低",
+          "重伤后迅速止血恢复",
+          "可承受限界突破和强制超过反作用"
+        ]
+      },
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "baptism-left-eye",
+      "type": "supernatural / technology",
+      "owner": "",
+      "description": "海兹在夜架左眼施加的洗礼强化，使她能使用刻击等超常观察与斩击技巧。",
+      "details": {
+        "recipient": "kirihime-yoruka",
+        "provider": "hayes"
+      },
+      "volumes": [
+        "vol-06"
+      ]
+    },
+    {
+      "id": "baptism-recognition-manipulation",
+      "type": "technology / supernatural",
+      "owner": "",
+      "description": "爱莉尔通过洗礼借用遗迹功能，长期伪装为柯莱尔并混淆七龙骑圣认知，是创造主俘虏七龙骑圣的关键。",
+      "details": {},
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "baptism-resistance",
+      "type": "genetic / supernatural",
+      "owner": "",
+      "description": "反复接受洗礼或万灵药影响后形成的抵抗力，可让个体承受大圣域考验或在世界改变后保留记忆契机。辛格伦指出路克斯已具备抵抗改变的潜质。",
+      "details": {
+        "known_users": [
+          "lux-arcadia",
+          "singlen-shelbrit",
+          "creator-princesses"
+        ]
+      },
+      "volumes": [
+        "vol-15",
+        "vol-16",
+        "vol-17"
+      ]
+    },
+    {
+      "id": "baptism-rite-resistance",
+      "type": "genetic / supernatural",
+      "owner": "",
+      "description": "接受洗礼者对万灵药、幻神兽化与部分精神干涉有异常耐性；本卷夜架与柯莱尔因此能较快识破或抵抗伊布力斯精神污染。",
+      "details": {
+        "known_users": [
+          "kirihime-yoruka",
+          "clair"
+        ],
+        "related_system": "baptism-rite"
+      },
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "baptism",
+      "type": "supernatural / technology",
+      "owner": "",
+      "description": "海兹掌握的强化或改造手段，可施加在对象身上产生特殊能力或强化效果。",
+      "details": {
+        "examples": [
+          "夜架左眼接受不同于海兹的洗礼"
+        ]
+      },
+      "volumes": [
+        "vol-06",
+        "vol-20",
+        "vol-21"
+      ]
+    },
+    {
+      "id": "basilisk-petrification-vapor",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "拜因的《巴西利斯克》神装，能让触及的物质固定、黏合或定住行动。",
+      "details": {
+        "user": "byne-sheetz",
+        "drag_ride": "basilisk",
+        "weakness": "无法直接防御重力力场；幻创机核受冲击会降低神装威力"
+      },
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "battle-array-burst-strike",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "路克斯借鉴辛格伦的战阵调律，将《暴食》压缩强化作用施加在敌机局部，使敌方机龙强制加速、自毁变形，再接即击终结。",
+      "details": {
+        "user": "lux-arcadia",
+        "source_style": "singlen-shelbrit battle array"
+      },
+      "volumes": [
+        "vol-08"
+      ]
+    },
+    {
+      "id": "battle-array-tuning",
+      "type": "combat / drag-ride skill",
+      "owner": "",
+      "description": "辛格伦擅长的机龙调律战技体系，路克斯也在战斗中应用其防御障壁启动术。",
+      "details": {},
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "battle-array",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "辛格伦擅长的机龙调律战技体系。路克斯在与朵拉肯最终战中借鉴其原理，开发战阵·暴击。",
+      "details": {
+        "known_practitioner": "singlen-shelbrit",
+        "derived_user": "lux-arcadia"
+      },
+      "volumes": [
+        "vol-08",
+        "vol-12",
+        "vol-15"
+      ]
+    },
+    {
+      "id": "battle-formation-conflagration",
+      "type": "technology / combat / skill",
+      "owner": "",
+      "description": "以调律切断机龙其他驱动能源，将能量集中于武装，产生爆发性强打。",
+      "details": {
+        "principle": "将幻创机核能源集中到机龙牙剑/武装",
+        "risk": "防御和驱动下降，乱用会自毁"
+      },
+      "volumes": [
+        "vol-07"
+      ]
+    },
+    {
+      "id": "battle-formation-flow",
+      "type": "technology / combat / skill",
+      "owner": "",
+      "description": "以调律控制障壁，在攻击命中前产生斜向力场，将对手攻击从正面拨开而非硬挡。",
+      "details": {
+        "principle": "临时生成障壁力场并改变攻击轨道",
+        "risk": "时机失误会直接承受攻击"
+      },
+      "volumes": [
+        "vol-07"
+      ]
+    },
+    {
+      "id": "body-control-baptism",
+      "type": "genetic / supernatural",
+      "owner": "",
+      "description": "菲尔菲通过洗礼获得的肉体控制能力，可抑制体内幻神兽种子影响，并在最终战中关闭感官抵抗罗菲精神污染。",
+      "details": {},
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "body-control-operation",
+      "type": "genetic / supernatural / combat",
+      "owner": "",
+      "description": "菲尔菲通过洗礼获得的身体内部控制能力，可操纵呼吸、耐力、弹性等通常无法主动控制的生理功能。",
+      "details": {},
+      "volumes": [
+        "vol-18"
+      ]
+    },
+    {
+      "id": "cognition-alteration",
+      "type": "authority / supernatural / technology",
+      "owner": "",
+      "description": "爱莉尔通过洗礼连接大圣域一部分系统，改变他人对她身份、性别、外貌与血统的认知。",
+      "details": {
+        "user": "clair",
+        "true_identity": "ariel-vi-arcadia",
+        "scope": "可长期欺骗七龙骑圣与梵海姆公国相关记录认知"
+      },
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "cognitive-manipulation",
+      "type": "technology / supernatural",
+      "owner": "",
+      "description": "接受洗礼并能利用遗迹力量者可干涉他人认知，隐藏身份或让对象忽略特定事实。",
+      "details": {
+        "users": [
+          "ariel-vi-arcadia"
+        ],
+        "scope": "个人身份伪装到奥罗波若斯大范围认知改写的基础原理"
+      },
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "commerce-network",
+      "type": "social / authority",
+      "owner": "",
+      "description": "玛姬艾儿卡掌握遍布各国的商会与资产网络，可收集情报并影响政治经济。",
+      "details": {
+        "used_by": "magialca",
+        "organization": "vanfrick-company"
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "complete-connect",
+      "type": "technology / key-manager mode",
+      "owner": "",
+      "description": "钥匙管理者适性最高者可使用的机龙同化模式，以极小机械与肉体部分同化，大幅提升操纵精密度但负担极大。",
+      "details": {},
+      "volumes": [
+        "vol-14",
+        "vol-15",
+        "vol-20"
+      ]
+    },
+    {
+      "id": "complete-connection",
+      "type": "technology / genetic / combat",
+      "owner": "",
+      "description": "钥匙管理者实用的机龙与肉体部分融合状态，可提升操作精度和速度，但机体破损会强烈反馈到身体。",
+      "details": {},
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "complete-fusion-key-manager",
+      "type": "technology / genetic / authority",
+      "owner": "",
+      "description": "钥匙管理者与神装机龙深度结合的形态，身体一部分与机龙活体零件同化，体表浮现几何银纹，能以更高效率运用机龙与遗迹权限。",
+      "details": {
+        "known_user": "sophies-ecfa",
+        "requirement": "具备钥匙管理者最大适合值",
+        "visible_sign": "体表出现银色几何纹路"
+      },
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "complete-fusion",
+      "type": "technology / genetic",
+      "owner": "",
+      "description": "钥匙管理者与装甲机龙融合的隐藏机能，库露露席法借此让身体与《法夫纳》同化并获得超高反应、精密控制和特殊武装扩展用法。",
+      "details": {
+        "user": "krullcifer-einfolk",
+        "trigger": "坑道书库读取装甲机龙融合机能资料后发动"
+      },
+      "volumes": [
+        "vol-08"
+      ]
+    },
+    {
+      "id": "consciousness-blank",
+      "type": "technology / supernatural / combat",
+      "owner": "",
+      "description": "石像鬼的神装，可在射程内夺走指定对手意识数秒，使对方感觉像时间跳跃。",
+      "details": {},
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "creator-authority",
+      "type": "authority / technology",
+      "owner": "",
+      "description": "海兹等创造主凭血与精神命令自动人形、遗迹与改变兵器的权限。",
+      "details": {
+        "known_user": "hayes",
+        "cost": "控制改变兵器需要献上血与精神"
+      },
+      "volumes": [
+        "vol-06",
+        "vol-09",
+        "vol-17"
+      ]
+    },
+    {
+      "id": "critical-hit",
+      "type": "combat / skill",
+      "owner": "",
+      "description": "路克斯以精准时机抵住攻击起点，将对手力量集中并返还的反击技。本卷用于飞翔机龙防御欧特鲁斯，也作为终焉神兽战最后一手。",
+      "details": {
+        "principle": "将敌方攻击力反射回敌方自身"
+      },
+      "volumes": [
+        "vol-04",
+        "vol-06"
+      ]
+    },
+    {
+      "id": "critical-strike",
+      "type": "combat / skill",
+      "owner": "",
+      "description": "夜架凭魔性之瞳读取敌方意识波动，瞄准意识中断的极短破绽发动的一击。本卷中夜架以禁咒符号操纵《巴哈姆特》，让路克斯身体代行刻击。",
+      "details": {
+        "primary_user": "yakumo",
+        "linked_user": "lux-arcadia"
+      },
+      "volumes": [
+        "vol-12"
+      ]
+    },
+    {
+      "id": "cuelebre-hidden-true-name",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "《库耶列布勒》的特殊武装，散布烟雾状金属片以扩散光能、遮蔽视野并妨碍探测。",
+      "details": {
+        "drag_ride": "cuelebre",
+        "user": "greifer-nest"
+      },
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "cuelebre-photon-dive",
+      "type": "technology / authority",
+      "owner": "",
+      "description": "库耶列布勒的神装，使机体在短时间内被光芒包覆并弹开一定质量与速度的攻击。",
+      "details": {
+        "drag_ride": "cuelebre",
+        "weakness": "零距离贴身射击可绕过弹开条件；效果并非真正绝对无敌"
+      },
+      "volumes": [
+        "vol-06",
+        "vol-16",
+        "vol-20"
+      ]
+    },
+    {
+      "id": "cuhelebre-photon-dive",
+      "type": "supernatural / drag-ride divine raiment",
+      "owner": "",
+      "description": "库耶列布勒神装，可让葛莱法进入绝对无敌状态并反弹攻击。本卷他将反弹方向集中用于击穿梅塔特隆核心。",
+      "details": {},
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "curse-symbol",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "夜刀神的神装，接触目标机龙后短暂夺取控制权。",
+      "details": {},
+      "volumes": [
+        "vol-18",
+        "vol-19"
+      ]
+    },
+    {
+      "id": "deceit-flash",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "葛力尼奇制造幻影的神装。罗莎用它伪装爱理行踪，骗过拉·可儿雪追击。",
+      "details": {},
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "deceitful-shadow",
+      "type": "technology / drag-ride special armament",
+      "owner": "",
+      "description": "葛力尼奇特殊武装，可产生幻影。罗莎用其配合十二道铁栅制造被波赛顿抓住的假目标。",
+      "details": {},
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "deception-flash",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "《葛力尼奇》的特殊武装，操纵幻影与假象，引诱敌人误判目标。",
+      "details": {
+        "drag_ride": "graniech",
+        "user": "rosa-granhide",
+        "combo": "配合十二道铁栅制造冒牌赤帝白皇"
+      },
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "deceptive-afterimage",
+      "type": "technology",
+      "owner": "",
+      "description": "罗莎借葛力尼奇制造的机械幻影分身，可配合无人机龙伪装成具有实体的罗莎。",
+      "details": {
+        "user": "rosa",
+        "forms": [
+          "一齐炮击型态"
+        ]
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "decoy-maneuver",
+      "type": "strategy / reconnaissance counter",
+      "owner": "",
+      "description": "弗基尔和自动人形阿榭立亚利用奥罗波若斯或复制机龙的信号引诱夜架追踪错误方向，自己绕到南侧突袭路克斯。",
+      "details": {
+        "used_by": "fugil-arcadia"
+      },
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "decoy-tactics",
+      "type": "combat / strategy",
+      "owner": "",
+      "description": "拜因在袭击中以有限攻击吸引警卫注意、避免过早引来七龙骑圣的战术。",
+      "details": {
+        "used_by": "bain"
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "deus-ex-machina-space-transfer",
+      "type": "supernatural / ragnarok ability",
+      "owner": "",
+      "description": "天降魔星可改变或转移对象位置，以巨臂配合空间错位攻击机龙使。",
+      "details": {},
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "devour",
+      "type": "supernatural / technology / combat",
+      "owner": "",
+      "description": "《巴哈姆特》的神装，能压缩或干涉时间流。本卷中路克斯将其应用为对敌时间减速再爆发的暴击，用于圣蚀核心破坏。",
+      "details": {
+        "divine_drag_ride": "bahamut",
+        "user": "lux-arcadia"
+      },
+      "volumes": [
+        "vol-12"
+      ]
+    },
+    {
+      "id": "diablos-heaven-voice",
+      "type": "supernatural / combat / technology",
+      "owner": "",
+      "description": "神装机龙迪亚玛特的神装，产生重力负荷场压制或破坏目标。本卷在尤克特拉希尔战中用于试图压碎巨树本体。",
+      "details": {
+        "drag_ride": "diablos",
+        "user": "lisesharte-atismata"
+      },
+      "volumes": [
+        "vol-04"
+      ]
+    },
+    {
+      "id": "diablos-self-destruction",
+      "type": "monster ability",
+      "owner": "",
+      "description": "迪亚布罗濒临致命伤或收到角笛命令后膨胀并自爆，产生大范围破坏。万灵药强化后威力更强。",
+      "details": {
+        "users": "diablos; synthetic-diablos"
+      },
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "diabolos-spatial-control",
+      "type": "terminal-beast / supernatural",
+      "owner": "",
+      "description": "终焉神兽天降魔星的能力，可转移自身、敌我或物质位置，并能压缩空间直接粉碎目标。",
+      "details": {
+        "source": "diabolos",
+        "forms": [
+          "空间传送",
+          "空间压缩",
+          "战场支援传送"
+        ],
+        "weakness": "需要锁定目标与坐标；高速不规则移动可干扰"
+      },
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "diamat-control",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "莉夏以《迪亚玛特》同时操纵空挺要塞、主炮与战场指挥，牵制大批幻神兽与龙匪贼。",
+      "details": {
+        "user": "lisesharte-atismata",
+        "drag_ride": "diamat"
+      },
+      "volumes": [
+        "vol-08"
+      ]
+    },
+    {
+      "id": "diamat-heaven-voice",
+      "type": "technology / combat / divine-drag-ride",
+      "owner": "",
+      "description": "《迪亚玛特》的重力控制神装。莉夏在密丝希斯战中用它让敌人滞空，在菲尔尼格修战中以强化版压制自律神装机龙。",
+      "details": {
+        "drag_ride": "diamat",
+        "user": "lisha-atismata"
+      },
+      "volumes": [
+        "vol-15"
+      ]
+    },
+    {
+      "id": "diamat-heavenly-voice",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "莉夏的神装迪亚玛特能力，可操纵自身或目标的重力，使自己滞空或对缠住的敌人施加强烈重力负荷。",
+      "details": {
+        "user": "lisesharte-atismata",
+        "tactic": "先消除自身重力停留空中，再抓住赛莉丝后转换为强重力负荷。"
+      },
+      "volumes": [
+        "vol-03",
+        "vol-13"
+      ]
+    },
+    {
+      "id": "diarmat-airborne-fortress",
+      "type": "technology / drag-ride armament",
+      "owner": "",
+      "description": "迪亚玛特相关特殊武装或战术，莉夏在追击爱莉尔时连续发射箭头型投掷武器。",
+      "details": {},
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "diarmat-astral-voice",
+      "type": "technology / authority",
+      "owner": "",
+      "description": "迪亚玛特的神装，可形成重力场并操纵局部重力。",
+      "details": {
+        "drag_ride": "diarmat",
+        "applications": [
+          "短暂拖慢巨兵脚步",
+          "配合暴食增强重力使巨兵踏穿地面"
+        ]
+      },
+      "volumes": [
+        "vol-06"
+      ]
+    },
+    {
+      "id": "diarmat-resonance-wave",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "莉夏开发的迪亚玛特应用绝招，发射会牵引并压缩目标至球体中心的重力球。",
+      "details": {
+        "combo": "与巴哈姆特的暴食配合可强行拖动尼德霍格"
+      },
+      "volumes": [
+        "vol-06"
+      ]
+    },
+    {
+      "id": "diarmath-heavenly-voice",
+      "type": "technology / gravity / combat",
+      "owner": "",
+      "description": "迪亚玛特神装，可操纵重力场压制敌人或控制战场位置。",
+      "details": {},
+      "volumes": [
+        "vol-11"
+      ]
+    },
+    {
+      "id": "divine-drag-ride-user",
+      "type": "combat / classification",
+      "owner": "",
+      "description": "对能操纵神装机龙者的分类。本卷洛洛特说明兹拜贝鲁克也是神装机龙使用者，负责要塞防卫。",
+      "details": {},
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "divine-protection-scale-shield",
+      "type": "technology / defense",
+      "owner": "",
+      "description": "法夫纳的自动防御盾牌，库露露席法将其用于近战防御和机龙咆哮余波防护。",
+      "details": {},
+      "volumes": [
+        "vol-18"
+      ]
+    },
+    {
+      "id": "divine-speed-control",
+      "type": "combat / skill",
+      "owner": "",
+      "description": "路克斯三奥义之一，让肉体操作与精神操作完全同步，使单一动作达到神速。",
+      "details": {
+        "user": "lux-arcadia",
+        "used_with": [
+          "wyvern",
+          "bahamut"
+        ]
+      },
+      "volumes": [
+        "vol-04",
+        "vol-07",
+        "vol-18",
+        "vol-19"
+      ]
+    },
+    {
+      "id": "divine-voice",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "迪亚玛特操控重力的神装。莉夏用其制造无重力、高重力、重力场差异以及七头龙首重力球，在本卷多次压制路克斯与库露露席法。",
+      "details": {},
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "domination-god-realm",
+      "type": "technology / combat / divine-drag-ride-ability",
+      "owner": "",
+      "description": "赛莉丝缇雅的神装机龙《凛德龙虫》神装，在光之领域内实现一定范围的瞬间移动。",
+      "details": {
+        "user": "celistia-largreis",
+        "drag_ride": "lin-dragon-insect",
+        "shown_use": "闪避狮鹫突击并传送至其身后"
+      },
+      "volumes": [
+        "vol-10"
+      ]
+    },
+    {
+      "id": "dominator-domain",
+      "type": "technology / supernatural",
+      "owner": "",
+      "description": "神装机龙凛德龙虫的神装，可让赛莉丝进行近似瞬间移动的高速传送。",
+      "details": {
+        "used_by": "celestia",
+        "drag_ride": "lindwurm"
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "dominion-domain",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "凛德龙虫的空间领域类神装，可瞬间移动并改变攻击位置。",
+      "details": {},
+      "volumes": [
+        "vol-18",
+        "vol-19"
+      ]
+    },
+    {
+      "id": "drag-ride-engineering",
+      "type": "technology / skill",
+      "owner": "",
+      "description": "莉夏解析古代文字、调律机龙并开发武装的技术。本卷用于向路克斯说明机构模式、觉醒型与解除代码。",
+      "details": {
+        "practitioner": "lisesharte-atismata"
+      },
+      "volumes": [
+        "vol-04",
+        "vol-06",
+        "vol-09",
+        "vol-17"
+      ]
+    },
+    {
+      "id": "drag-ride-mastery",
+      "type": "combat / skill",
+      "owner": "",
+      "description": "弗基尔作为旧帝国时代即具压倒性知识与实力的机龙使掌握的高阶操纵与指导能力。",
+      "details": {
+        "used_by": "fugil",
+        "vol_09_usage": "以过去指导路克斯的建言影响其广范围暴食完成。"
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "drag-ride-operation",
+      "type": "technology / combat / skill",
+      "owner": "",
+      "description": "The skill of summoning, linking with, and fighting through ancient mechanical dragon armor using a Sword Device.",
+      "details": {
+        "equipment": "Sword Device plus stored Drag-Ride body",
+        "control": "combines physical movement and mental control through the Sword Device",
+        "users": "licensed or trained Drag-Knights"
+      },
+      "volumes": [
+        "vol-01"
+      ]
+    },
+    {
+      "id": "drag-ride-piloting",
+      "type": "combat / skill",
+      "owner": "",
+      "description": "操纵装甲机龙进行移动、战斗、侦察与护卫的基础与进阶技能。",
+      "details": {
+        "users": [
+          "lux",
+          "coral",
+          "greifer",
+          "mel",
+          "calensia",
+          "drakken"
+        ]
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "drag-ride-release",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "解除部分装甲或武装以减轻负担、诱敌或集中输出的基础机龙技术，练至极限可成为奥义级战术。",
+      "details": {
+        "users": [
+          "lux",
+          "celestia"
+        ],
+        "vol_09_usage": "路克斯用于切换巴哈姆特；赛莉丝用于集中凛德龙虫雷击。"
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "drag-ride-roar",
+      "type": "combat / technology",
+      "owner": "",
+      "description": "装甲机龙基础技术，释放冲击波漩涡。本卷用于在狭窄通道限制欧特鲁斯行动，也被尤克特拉希尔以大量幻创机核放大成圆顶暴风。",
+      "details": {
+        "category": "basic Drag-Ride technique"
+      },
+      "volumes": [
+        "vol-04",
+        "vol-09"
+      ]
+    },
+    {
+      "id": "drag-ride-stealth",
+      "type": "technology / skill",
+      "owner": "",
+      "description": "特装机龙或神装机龙用于隐身、潜入和规避侦查的能力。本卷夜架用《夜刀神》潜入记录,阿尔玛也用机龙伪装接近路克斯。",
+      "details": {
+        "users": [
+          "yato-kirihime",
+          "alma-kiltzrak"
+        ]
+      },
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "drag-ride-system",
+      "type": "technology / combat / skill",
+      "owner": "",
+      "description": "通过机攻壳剑召唤装甲机龙、穿戴装衣并以精神操纵和身体操纵同步驱动机体的技术。本卷多次展示基础操纵、训练负荷与高阶战斗运用。",
+      "details": {
+        "core_components": [
+          "机攻壳剑",
+          "装衣",
+          "幻创机核",
+          "泛用机龙",
+          "神装机龙"
+        ],
+        "training_issue": "适性值高不等于能熟练操纵，体力、运动神经与同步技术同样关键"
+      },
+      "volumes": [
+        "vol-10"
+      ]
+    },
+    {
+      "id": "drag-ride-tactical-analysis",
+      "type": "skill / combat",
+      "owner": "",
+      "description": "路克斯在战斗中快速观察敌方能力、弱点和行动模式，并构筑反击战术的能力。",
+      "details": {
+        "user": "lux-arcadia",
+        "vol13_use": "诱导天降魔星承受自身空间压缩"
+      },
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "drag-ride-team-support",
+      "type": "combat / skill",
+      "owner": "",
+      "description": "以装甲机龙配合同伴护卫、牵制、救援和非战斗人员保护的支援技能。谢里丝与三和音在方舟最终战中承担此角色。",
+      "details": {
+        "users": [
+          "sharis-baltshift",
+          "tillfur-lillmit",
+          "nocht-leaflet"
+        ]
+      },
+      "volumes": [
+        "vol-04"
+      ]
+    },
+    {
+      "id": "drag-ride-three-arts",
+      "type": "combat / skill",
+      "owner": "",
+      "description": "路克斯设计的三种高级机龙操纵术；夜架也掌握同类技术。",
+      "details": {
+        "arts": [
+          "神速制御：身体与精神操纵完全同调的超速动作",
+          "强制超过：制造操纵矛盾以释放破坏性失控一击",
+          "永久连环：身体与精神命令交替叠加的无限连击"
+        ]
+      },
+      "volumes": [
+        "vol-06"
+      ]
+    },
+    {
+      "id": "drag-roar",
+      "type": "technology / combat / skill",
+      "owner": "",
+      "description": "A basic Drag-Ride technique that emits a shockwave from the Force Core to deflect projectiles.",
+      "details": {
+        "source": "Force Core output",
+        "shape": "spiraling shockwave in front of the Drag-Ride"
+      },
+      "volumes": [
+        "vol-01"
+      ]
+    },
+    {
+      "id": "dragon-bite-bind",
+      "type": "technology / combat / special-armament",
+      "owner": "",
+      "description": "《堤丰》的钢线束缚武装，可缠绕敌机、牵引目标或固定在地形上。菲尔菲多次用它牵引敌人和自身制造冲击。",
+      "details": {
+        "drag_ride": "typhon",
+        "user": "filuffy-einfolk"
+      },
+      "volumes": [
+        "vol-15"
+      ]
+    },
+    {
+      "id": "dragon-bite-burst",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "菲尔菲以《堤丰》蓄积能量并爆破地面，用来提前引爆油性史莱姆，避免其接近大圣堂。",
+      "details": {
+        "user": "philuffy-aingram",
+        "drag_ride": "typhon"
+      },
+      "volumes": [
+        "vol-08",
+        "vol-15"
+      ]
+    },
+    {
+      "id": "dragon-bite-chain",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "堤丰特殊武装，蛇颚状钢线可捕捉、拉扯敌人。本卷与巴哈姆特共鸣波动配合，成功捕捉欧特鲁斯。",
+      "details": {
+        "drag_ride": "typhon",
+        "owner": "philuffy-aingram"
+      },
+      "volumes": [
+        "vol-04",
+        "vol-14",
+        "vol-20"
+      ]
+    },
+    {
+      "id": "dragon-bite-explosion",
+      "type": "technology / drag-ride special armament",
+      "owner": "",
+      "description": "堤丰特殊武装，可把能量注入抓住的物体或生物并爆破。菲尔菲用它破坏天花板，从上层追上路克斯和爱莉尔。",
+      "details": {},
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "dragon-bite-explosive-flame",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "堤丰装甲臂内置特殊武装，近距离释放高热能量爆炸。",
+      "details": {},
+      "volumes": [
+        "vol-18"
+      ]
+    },
+    {
+      "id": "dragon-bite-fire",
+      "type": "special armament",
+      "owner": "",
+      "description": "堤丰将龙咬缚锁牵引后的能量集中为爆发性攻击，菲尔菲试图用其攻击奥罗波若斯腹部核心。",
+      "details": {
+        "used_by": "philuffy-ainfram"
+      },
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "dragon-bite-lock",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "堤丰发射锚索束缚或拉扯目标，也可被菲尔菲转化为鞭状攻击。",
+      "details": {},
+      "volumes": [
+        "vol-18",
+        "vol-19"
+      ]
+    },
+    {
+      "id": "dragon-breath-scorch",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "《赤帝白皇》陆战形态特殊武装，喷洒可燃气体并点火，制造大范围爆炎。",
+      "details": {
+        "drag_ride": "seki-tei-hakuou",
+        "user": "mel-gizalut"
+      },
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "dragon-fang-shooting-sword",
+      "type": "technology / combat / weapon-skill",
+      "owner": "",
+      "description": "将能量从剑刃迸发，放出箭矢般斩击的稀有武装技巧；迪尔威以此获得银闪别名。",
+      "details": {
+        "weapon": "龙牙射剑",
+        "combat_role": "中远距离斩击投射"
+      },
+      "volumes": [
+        "vol-07"
+      ]
+    },
+    {
+      "id": "dragon-roar",
+      "type": "drag-ride technique",
+      "owner": "",
+      "description": "机龙从头部等部位释放冲击波的通用高等技术。",
+      "details": {
+        "use": "路克斯和弗基尔多次用其干扰对方机动，奥罗波若斯也以咆哮冲击联合军"
+      },
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "dragon-scale-shield",
+      "type": "technology / equipment skill",
+      "owner": "",
+      "description": "法夫纳的自动防御武装，可在危急时保护驾驶者。",
+      "details": {
+        "item": "dragon-scale-shield-item"
+      },
+      "volumes": [
+        "vol-06"
+      ]
+    },
+    {
+      "id": "dragon-tail-chain-sword-skill",
+      "type": "combat / technology",
+      "owner": "",
+      "description": "葛莱法操纵会伸长弯曲的多节机龙牙剑，改变间距与轨道发动连续压迫。",
+      "details": {
+        "weapon": "dragon-tail-chain-sword",
+        "style": "通过变形刀身与波状攻击切断对手退路"
+      },
+      "volumes": [
+        "vol-06"
+      ]
+    },
+    {
+      "id": "dragon-voice",
+      "type": "technology / skill",
+      "owner": "",
+      "description": "A communication function between Drag-Rides that lets pilots transmit voices directly during battle.",
+      "details": {
+        "medium": "Drag-Ride link",
+        "range": "battlefield communication range",
+        "privacy": "can target selected recipients"
+      },
+      "volumes": [
+        "vol-01",
+        "vol-04",
+        "vol-20",
+        "vol-21"
+      ]
+    },
+    {
+      "id": "drake-detection",
+      "type": "technology / skill",
+      "owner": "",
+      "description": "特装机龙型装备可侦测幻神兽、生体反应和队伍位置。诺珂特在方舟中负责路径确认、敌情与爱理搜救。",
+      "details": {
+        "users": [
+          "nocht-leaflet",
+          "kirihime-yoruka"
+        ]
+      },
+      "volumes": [
+        "vol-04"
+      ]
+    },
+    {
+      "id": "dual-head-evil-wisdom",
+      "type": "technology / mental",
+      "owner": "",
+      "description": "札哈克的神装，可让目标遗忘指定记忆或忽略特定认知，路克斯借其隐藏蔚蓝师团身份。",
+      "details": {},
+      "volumes": [
+        "vol-18"
+      ]
+    },
+    {
+      "id": "elixir-blessing",
+      "type": "genetic / supernatural / drug",
+      "owner": "",
+      "description": "来自龙匪贼交易的秘药效果，可使人体魔人化，增强生命力与机龙操作负荷承受能力。",
+      "details": {},
+      "volumes": [
+        "vol-11"
+      ]
+    },
+    {
+      "id": "elixir-body-fluid",
+      "type": "genetic / supernatural / technology",
+      "owner": "",
+      "description": "圣蚀体液疑似为遗迹秘药万灵药的源头，可治愈人类并引发魔人化、恶意增幅。",
+      "details": {
+        "used_on": "gadeff",
+        "effect": "治愈四肢并使其魔人化"
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "elixir-corruption",
+      "type": "genetic / supernatural",
+      "owner": "",
+      "description": "受圣蚀体液或万灵药影响的人类产生身体强化与精神侵蚀。",
+      "details": {
+        "known_case": "gadeff",
+        "source": "ark"
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "elixir-monsterization",
+      "type": "supernatural / genetic",
+      "owner": "",
+      "description": "万灵药、寄生虫或大圣域改造导致人体变形成幻神兽或与机龙同化的现象。桑妮雅、伊格尼德和那鲁夫均在本卷呈现此类变化。",
+      "details": {
+        "cases": [
+          "sonia-remisto",
+          "ignid",
+          "nulph"
+        ]
+      },
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "elixir-resistance-boost",
+      "type": "chemical / genetic / combat",
+      "owner": "",
+      "description": "柯莱尔提供的少量万灵药附着短剑，刺入肌肤后不会显著改变体色，但能在十几分钟内短暂提高对精神污染的抗性。",
+      "details": {
+        "provider": "clair",
+        "users": [
+          "lisesharte-atismata",
+          "krulcifer-einfolk",
+          "celistia-ralgris",
+          "philuffy-aingram",
+          "lux-arcadia"
+        ],
+        "risk": "万灵药本身有魔人化与生命力消耗风险"
+      },
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "empty-mind-counter",
+      "type": "combat / skill",
+      "owner": "",
+      "description": "罗莎看穿真眼再现依赖对手思考后，以不思考、凭长期训练和本能攻击的无心状态反制拉·可儿雪。",
+      "details": {},
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "end-action",
+      "type": "combat / skill",
+      "owner": "",
+      "description": "路克斯在箱庭对抗圣蚀克隆体时使用的隐藏技术新版本。通过将连续攻击造成的损伤集中在幻创机核等关键处,使对手在试图重新释放能量或反击时系统瘫痪。",
+      "details": {
+        "user": "lux-arcadia",
+        "target": "drag_ride_core",
+        "mechanism": "连续精确攻击累积伤害并在神装能量流动时爆发"
+      },
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "endless-chain",
+      "type": "combat / skill",
+      "owner": "",
+      "description": "路克斯交替使用身体操纵与精神操纵，在一个动作结束前持续输入下一动作，实现近乎无间断的连续攻击。",
+      "details": {
+        "principle": "消除机龙操纵连续命令之间的时间差。",
+        "scope": "并非真正永恒，而是直到路克斯预读的战局终点为止。"
+      },
+      "volumes": [
+        "vol-03",
+        "vol-04",
+        "vol-17"
+      ]
+    },
+    {
+      "id": "enhanced-generic-drag-ride-tactics",
+      "type": "combat / technology",
+      "owner": "",
+      "description": "三和音最近掌握的新力量。她们用强化型泛用机龙执行潜入、侦察、取回机攻壳剑与救出七龙骑圣的高风险任务。",
+      "details": {},
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "enhanced-physique",
+      "type": "genetic / combat",
+      "owner": "",
+      "description": "菲尔菲因过去幻神兽影响而拥有远超常人的身体能力。",
+      "details": {
+        "used_by": "philuffy",
+        "vol_09_usage": "阻止玛姬艾儿卡接近路克斯，并在体术指导中轻易击败男性来宾。"
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "enhanced-sight",
+      "type": "supernatural / genetic",
+      "owner": "",
+      "description": "夜架经洗礼强化的左眼能观察表情、动作和意识波长的细微变化。",
+      "details": {
+        "used_by": "yoruka",
+        "vol_09_usage": "用以洞察赛莉丝的情绪异状。"
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "eternal-chain",
+      "type": "combat / technique",
+      "owner": "",
+      "description": "路克斯通过连续机龙秘技形成无间断压制的高阶战斗方式，本卷用作与菲尔菲连击对比。",
+      "details": {},
+      "volumes": [
+        "vol-18"
+      ]
+    },
+    {
+      "id": "eternal-return",
+      "type": "technology / supernatural / authority",
+      "owner": "",
+      "description": "奥罗波若斯通过七遗迹共鸣发动的历史与记忆重置能力。",
+      "details": {},
+      "volumes": [
+        "vol-18",
+        "vol-19",
+        "vol-21"
+      ]
+    },
+    {
+      "id": "ex-drag-ride-support",
+      "type": "combat / technology",
+      "owner": "",
+      "description": "三和音等支援型机龙使使用EX泛用机龙执行护卫、警戒与战场支援。",
+      "details": {
+        "users": "tillfur-lilmit; sharis-balto; noct-leaflet"
+      },
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "ex-wyvern-piloting",
+      "type": "combat / skill",
+      "owner": "",
+      "description": "驾驶高级飞翔机龙执行高速护卫、救援和战场支援的技能。阿尔玛以此救援莉夏和库露露席法。",
+      "details": {
+        "user": "alma-atismata"
+      },
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "exceed-armor",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "莉夏将泛用机龙分解改造成附加装甲，叠加在神装机龙《迪亚玛特》上，根据战况切换飞翔、陆战、特装强化形态。",
+      "details": {
+        "developer": "lisesharte-atismata",
+        "base": "diamat",
+        "forms": [
+          "飞翔机龙·天翼",
+          "陆战机龙·烈爪",
+          "特装机龙·冲角"
+        ],
+        "limitations": "体力和精神负担极高，全力战斗只能维持数分钟"
+      },
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "exceed-heavenly-voice",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "莉夏在《特装机龙·冲角》等超越装甲提升功率后使用的强化版《天声》，以压缩重力球固定并撕裂敌方装甲。",
+      "details": {
+        "user": "lisesharte-atismata",
+        "base_ability": "diamat-heavenly-voice",
+        "target": "融合后的《海德拉》"
+      },
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "extreme-strike",
+      "type": "combat / skill / technology",
+      "owner": "",
+      "description": "路克斯以障壁机龙牙剑配合超精密防御，在对手攻击发生点反向破坏武装的防御反击技。",
+      "details": {
+        "principle": "在剑锋形成障壁力场，抵住攻击源头或枪口，让对方自身力量与反震毁坏武器。",
+        "risk": "需要完全洞悉攻击时机，失败则自身直接中招。"
+      },
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "facility-leader-authority",
+      "type": "technology / authority",
+      "owner": "",
+      "description": "自动人形设施领导者管理遗迹、分身和内部系统的权限。",
+      "details": {
+        "facility": "第五遗迹巨兵"
+      },
+      "volumes": [
+        "vol-06"
+      ]
+    },
+    {
+      "id": "fafnir-fortune-wise",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "《法夫纳》的神装，能预测数秒后的未来。完全结合后库露露席法进一步以大量预测计算推导胜利路径。",
+      "details": {
+        "user": "krullcifer-einfolk",
+        "drag_ride": "fafnir"
+      },
+      "volumes": [
+        "vol-08"
+      ]
+    },
+    {
+      "id": "fafnir-freeze-bullet",
+      "type": "special armament / shooting",
+      "owner": "",
+      "description": "法夫纳的狙击冻结攻击，可冻结敌方部位或遮挡视野。库露露席法用其支援对迪亚布罗和奥罗波若斯作战。",
+      "details": {
+        "used_by": "krulcifer-einfolk"
+      },
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "fafnir-freezing-projectile",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "法夫纳使用的冷冻射击武装，能冻结幻神兽或敌方武装，为狙击和连携创造机会。",
+      "details": {},
+      "volumes": [
+        "vol-11"
+      ]
+    },
+    {
+      "id": "fafnir-operation",
+      "type": "technology / combat / skill",
+      "owner": "",
+      "description": "Krulcifer's ability to operate the Divine Drag-Ride Fafnir, noted as one of the academy's major Divine Drag-Ride assets.",
+      "details": {
+        "machine": "krulcifer-fafnir",
+        "combat_use_in_vol01": "support and high-speed movement rather than direct fighting due to Ymir restrictions"
+      },
+      "volumes": [
+        "vol-01"
+      ]
+    },
+    {
+      "id": "fafnir-wise-blood-fortune",
+      "type": "technology / combat / perception",
+      "owner": "",
+      "description": "库露露席法的《法夫纳》神装，可短暂预测未来以进行狙击、防御与回避判断。",
+      "details": {
+        "user": "krulcifer-einfolk",
+        "drag_ride": "fafnir",
+        "vol13_use": "预见莉夏被瓦砾致命伤并代为防御"
+      },
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "fafnir-wise-blood",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "库露露席法的法夫纳神装，通过使用者视觉认知未来并进行高精度防御与狙击判断。",
+      "details": {
+        "limitation": "依赖库露露席法视觉，若视野被强光遮断则能力失效。",
+        "use_in_volume": "在对赛莉丝战中试图预测凛德龙虫行动，但被瞬移绕背和闪光干扰克制。"
+      },
+      "volumes": [
+        "vol-03",
+        "vol-04",
+        "vol-06",
+        "vol-14",
+        "vol-15",
+        "vol-20"
+      ]
+    },
+    {
+      "id": "fenrir-absolute-zero-breath",
+      "type": "supernatural / ragnarok ability",
+      "owner": "",
+      "description": "芬里尔喷吐绝对零度气息并创造冰铠、冰刃强化身体。",
+      "details": {},
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "field-command",
+      "type": "skill / command",
+      "owner": "",
+      "description": "洛洛特与兹拜贝鲁克等辅佐官在主帅被俘后维持防线、组织防御与后勤，使远征军没有崩溃。",
+      "details": {},
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "financial-disaster-wisdom",
+      "type": "technology / combat / prediction",
+      "owner": "",
+      "description": "法夫纳的神装，可预测目标行动，支援狙击与近战战术。",
+      "details": {},
+      "volumes": [
+        "vol-18",
+        "vol-19"
+      ]
+    },
+    {
+      "id": "flight-x-maneuver",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "弗基尔与侍女使用飞翔机龙X从方舟圆顶撤离，带走海兹。",
+      "details": {
+        "users": [
+          "fugil-arcadia",
+          "fugil-maid"
+        ]
+      },
+      "volumes": [
+        "vol-04"
+      ]
+    },
+    {
+      "id": "flying-drag-ride-command",
+      "type": "combat / command",
+      "owner": "",
+      "description": "葛托汉统率龙匪贼飞翔机龙部队从空中突袭和投放干扰史莱姆的能力。",
+      "details": {
+        "used_by": "gatouhan"
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "forbidden-seal",
+      "type": "supernatural / technology",
+      "owner": "",
+      "description": "《夜刀神》的神装，直接或经由钢丝接触目标机龙后可干涉并操纵对方机龙命令。本卷用于操控白岭骑士团自相残杀、破解辛格伦防御，并在最终战操纵《巴哈姆特》。",
+      "details": {
+        "divine_drag_ride": "yatogami",
+        "user": "yakumo"
+      },
+      "volumes": [
+        "vol-12"
+      ]
+    },
+    {
+      "id": "forbidden-spell-limit-break",
+      "type": "combat / forbidden technique",
+      "owner": "",
+      "description": "夜架可使用的限界突破手段，但本卷因大病初愈与身体状态不允许，无法在同时牵制七只终焉神兽时启用。",
+      "details": {},
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "forbidden-spell-symbol",
+      "type": "technology / combat / authority",
+      "owner": "",
+      "description": "Yatogami's Divine Attire, used through weapon contact to seize or interfere with control of an opponent's Drag-Ride. During the duel Yatoro attempts to end the fight by activating it through crossed b",
+      "details": {
+        "owner_item": "yatogami-divine-armament",
+        "operator": "yatoro-kirihime"
+      },
+      "volumes": [
+        "vol-21"
+      ]
+    },
+    {
+      "id": "force-over",
+      "type": "combat / skill",
+      "owner": "",
+      "description": "路克斯三奥义之一，刻意让肉体操纵与精神操纵相反以引发机龙失控，产生远超普通斩击的爆发力。",
+      "details": {
+        "risk": "机龙与操纵者负荷极高"
+      },
+      "volumes": [
+        "vol-04"
+      ]
+    },
+    {
+      "id": "forced-over",
+      "type": "combat / technology",
+      "owner": "",
+      "description": "通过同时施加精神操纵与肉体操纵的矛盾命令，像拉满弓弦般蓄积机龙力量后释放的奥义。",
+      "details": {
+        "user": "lux-arcadia",
+        "risk": "负荷极大，需精确时机与身体承受力",
+        "vol13_use": "与苏菲丝的轨道控制配合斩穿天降魔星核心"
+      },
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "fortune-telling",
+      "type": "skill / lore",
+      "owner": "",
+      "description": "苏菲丝在学园祭占卜馆中使用卡牌和手相式接触进行占卜。",
+      "details": {
+        "used_by": "soffice",
+        "translator": "uruk"
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "free-will-resistance",
+      "type": "innate / social / authority",
+      "owner": "",
+      "description": "角色凭自身信念拒绝弗基尔与圣蚀安排的命运，即使力量悬殊也选择反抗历史重组。",
+      "details": {
+        "examples": [
+          "七龙骑圣拒绝弗基尔劝降",
+          "辛格伦反叛弗基尔",
+          "路克斯恢复记忆后奔向王城"
+        ]
+      },
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "freeze-projector-skill",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "库露露席法以冻息投射进行高精度冷冻弹射击，封锁目标关节或击停机龙。",
+      "details": {
+        "weapon": "freeze-projector"
+      },
+      "volumes": [
+        "vol-06"
+      ]
+    },
+    {
+      "id": "fugil-battle-perception",
+      "type": "skill / combat",
+      "owner": "",
+      "description": "弗基尔凭千年经验、洗礼身体和机龙操纵技术，在高速战斗中预判敌人神装持续时间、攻击起点与战术意图。",
+      "details": {
+        "user": "fugil-arcadia",
+        "examples": [
+          "精确预判光子潜行结束",
+          "看穿葛莱法行动方向",
+          "反制辛格伦水雾探测"
+        ]
+      },
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "fugil-illusion-step",
+      "type": "supernatural / combat",
+      "owner": "",
+      "description": "弗基尔在路克斯剑尖抵喉后如幻影般消失并出现在远处，机制未明。",
+      "details": {
+        "user": "fugil-arcadia",
+        "mechanism": "unknown, possibly Drag-Ride or sword ability"
+      },
+      "volumes": [
+        "vol-04"
+      ]
+    },
+    {
+      "id": "fugil-tactical-adaptation",
+      "type": "skill / combat",
+      "owner": "",
+      "description": "弗基尔在战斗中根据对手招式立即改变机体、神装和特殊武装组合，甚至把敌人的武器与规则反过来利用。",
+      "details": {
+        "user": "fugil-arcadia",
+        "examples": [
+          "以生死流转反弹炮击",
+          "用敌方水刃触发永劫回归保护规则",
+          "利用轮回转生切换堤丰和巴哈姆特"
+        ]
+      },
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "gargoyle-feather-bullets",
+      "type": "supernatural / combat",
+      "owner": "",
+      "description": "Projectile attack fired from a Gargoyle Abyss's wings, raining explosive light feathers downward.",
+      "details": {
+        "user": "gargoyle-abyss",
+        "trajectory": "scatter shot from opened wings",
+        "damage": "explosive impacts capable of threatening crowds"
+      },
+      "volumes": [
+        "vol-01"
+      ]
+    },
+    {
+      "id": "giant-soldier-command",
+      "type": "technology / authority",
+      "owner": "",
+      "description": "里丝媞卡对第五遗迹巨兵的控制权限，可移动巨兵并通过其向王都广播。",
+      "details": {
+        "user": "listelka-rei-arshalia",
+        "artifact": "giant-soldier"
+      },
+      "volumes": [
+        "vol-08"
+      ]
+    },
+    {
+      "id": "gigant-control",
+      "type": "technology / authority",
+      "owner": "",
+      "description": "通过设施领导者与创造主权限操纵第五遗迹巨兵移动、炮击与最终全方位射击。",
+      "details": {
+        "controller": "aeril-fazelle under hayes"
+      },
+      "volumes": [
+        "vol-06"
+      ]
+    },
+    {
+      "id": "gluttony-sudden-strike",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "《巴哈姆特》神装《暴食》的应用，通过压缩时间强化机体动作，发动超高速连续斩击。路克斯本卷将其与战阵调律组合。",
+      "details": {
+        "user": "lux-arcadia",
+        "drag_ride": "bahamut"
+      },
+      "volumes": [
+        "vol-08"
+      ]
+    },
+    {
+      "id": "gluttony",
+      "type": "supernatural / technology / combat",
+      "owner": "",
+      "description": "神装机龙巴哈姆特的能力，压缩时间并让路克斯以超高速连续斩击行动。",
+      "details": {
+        "drag_ride": "bahamut-divine-drag-ride",
+        "combat_use": "以时间压缩配合大剑高速斩断目标"
+      },
+      "volumes": [
+        "vol-07",
+        "vol-09",
+        "vol-17",
+        "vol-18",
+        "vol-19",
+        "vol-21"
+      ]
+    },
+    {
+      "id": "god-speed-control",
+      "type": "drag-ride technique",
+      "owner": "",
+      "description": "极高速精准控制机龙的秘技，用于瞬间切入、斩击和抢占先机。",
+      "details": {
+        "users": "路克斯和弗基尔均具备类似高等控制"
+      },
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "godspeed-control",
+      "type": "combat / skill / technology",
+      "owner": "",
+      "description": "A legendary Drag-Knight technique that perfectly overlaps physical control and mental control to produce an instant, nearly invisible high-speed attack.",
+      "details": {
+        "category": "one of the old Drag-Knight secret arts",
+        "control": "synchronizes bodily movement with Sword Device mental control",
+        "difficulty": "mastery marks an elite pilot"
+      },
+      "volumes": [
+        "vol-01",
+        "vol-09"
+      ]
+    },
+    {
+      "id": "golden-dragon-feather-armor",
+      "type": "technology / defense",
+      "owner": "",
+      "description": "佩鲁达通过特殊武装反复补充或重组装甲，使破甲净化可多次使用。",
+      "details": {},
+      "volumes": [
+        "vol-18"
+      ]
+    },
+    {
+      "id": "gorynych-purgatory-engine",
+      "type": "supernatural / drag-ride divine raiment",
+      "owner": "",
+      "description": "葛力尼奇的神装，可分解、连接并重组无人装甲机龙，形成炮击型态或合神型态。罗莎用合神型态击败伊布力斯与波赛顿。",
+      "details": {},
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "gorynych-purgatory-mechanism",
+      "type": "technology / transformation",
+      "owner": "",
+      "description": "葛力尼奇神装，可分解、重组装甲并转换飞翔、陆战、特装等形态，也可合并他人机龙装甲形成合神型态。",
+      "details": {},
+      "volumes": [
+        "vol-11"
+      ]
+    },
+    {
+      "id": "government-administration",
+      "type": "social / skill",
+      "owner": "",
+      "description": "宰相处理国家会议、行政许可、向女王报告和协调重臣的能力。",
+      "details": {
+        "used_by": "narlph"
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "grani-purgatory-mechanism",
+      "type": "divine-drag-ride enhancement",
+      "owner": "",
+      "description": "葛力尼奇的高倍率力量输出模式，罗莎用其撕裂奥罗波若斯腹部装甲并牵制其腿部。",
+      "details": {
+        "used_by": "rosa-granhide"
+      },
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "graniech-inferno-mechanism",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "《葛力尼奇》的神装，可重组装甲、修复损坏并改变外型，适合拟态、合体与承受攻击。",
+      "details": {
+        "drag_ride": "graniech",
+        "user": "rosa-granhide",
+        "applications": [
+          "修复装甲",
+          "合神形态",
+          "拟态欺敌"
+        ]
+      },
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "great-sanctuary-administration",
+      "type": "technology / authority",
+      "owner": "",
+      "description": "连接大圣域中枢后获得控制隐藏功能、停止圣蚀、调度自动人形和管理奥罗波若斯相关系统的权限。",
+      "details": {
+        "holders": [
+          "ariel-vi-arcadia",
+          "fugil-arcadia",
+          "ashelia-rey-arcadia"
+        ]
+      },
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "great-sanctuary-connection",
+      "type": "technology / authority",
+      "owner": "",
+      "description": "创造主相关者与大圣域中枢连接的能力或权限，可调用阿榭立亚AI、关闭圣蚀复活系统并设置信息程序。",
+      "details": {
+        "used_by": "ariel"
+      },
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "great-sanctuary-control",
+      "type": "technology / authority",
+      "owner": "",
+      "description": "阿榭立亚作为大圣域统括自动人形拥有的系统管理与观察权限，可监控圣蚀状态、自动人形和中枢。",
+      "details": {},
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "great-sanctuary-partial-control",
+      "type": "authority / technology",
+      "owner": "",
+      "description": "里丝媞卡身为神托巫女，通过王冠与洗礼连接大圣域系统，监视表层阶、控制部分设施并发布系统指令。",
+      "details": {},
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "ground-crushing-shell",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "赤帝白皇制造大范围爆炸弹药的特殊武装。梅尔事先将其埋入雪中，配合格莱法光子潜行击破涅依·露榭。",
+      "details": {},
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "ground-smashing-shell",
+      "type": "special armament",
+      "owner": "",
+      "description": "赤帝白皇特殊武装制造的炮弹，可改变地形并重创目标。梅尔用其破坏濒临崩溃的合成迪亚布罗。",
+      "details": {
+        "used_by": "mel-gizalut"
+      },
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "guide-randomization",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "羽蛇神神装会在机龙使操纵机龙时改写系统数值，使行动随机偏离，令越精确的攻击越容易偏离要害。",
+      "details": {},
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "heat-zone",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "沙罗曼蛇将火焰能量集中于长矛尖端的致命攻击，对任何类型机龙都具备高威胁。",
+      "details": {},
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "heaven-and-earth-creation",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "沙罗曼蛇产生并操纵火焰/燃烧环境的神装。涅依·露榭用其点燃宿周边森林，迫使梅尔持续灭火。",
+      "details": {},
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "heavenly-summon",
+      "type": "supernatural / technology / combat",
+      "owner": "",
+      "description": "莉夏的神装机龙《迪亚玛特》神装，操纵重力场。本卷用于搬起巨岩、压制兹拜贝鲁克、控制幻神兽与发射重力弹。",
+      "details": {
+        "divine_drag_ride": "diamat",
+        "user": "lisha-arcadia"
+      },
+      "volumes": [
+        "vol-12"
+      ]
+    },
+    {
+      "id": "heavenly-voice",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "莉夏的神装能力，可控制重力或防护范围。本卷中她以最后力量挡住大圣堂坠落积雪。",
+      "details": {
+        "user": "lisesharte-atismata",
+        "drag_ride": "diamat"
+      },
+      "volumes": [
+        "vol-08"
+      ]
+    },
+    {
+      "id": "heavens-voice",
+      "type": "divine-drag-ride ability",
+      "owner": "",
+      "description": "迪亚玛特的重力球能力，可制造强大引力场吸入并压碎目标。莉夏在最终战中以其配合七头龙首阻止奥罗波若斯限界突破。",
+      "details": {
+        "used_by": "lisha-atismata"
+      },
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "heavy-strike",
+      "type": "combat / skill / technology",
+      "owner": "",
+      "description": "赛莉丝利用支配者神域、投掷武装与自身瞬移，使两种攻击在完美时机重合的绝技。",
+      "details": {
+        "principle": "先投掷或设置第一击，再瞬移到另一角度发动第二击，使对手无法完全防御。",
+        "user": "celistia-ralgris"
+      },
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "hidden-name",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "《库耶列布勒》的特殊武装，释放遮蔽视野并阻断雷达电波的特殊金属片浓雾。",
+      "details": {
+        "equipment": "cuelebre",
+        "user": "greifer"
+      },
+      "volumes": [
+        "vol-12"
+      ]
+    },
+    {
+      "id": "high-speed-mobile-deployment",
+      "type": "technology / skill",
+      "owner": "",
+      "description": "无需完整咏唱符，凭意念操纵高速召唤并局部或全身装备装甲机龙的高难度技术。",
+      "details": {
+        "difficulty": "需要如穿针孔般精密的意念操纵，失败会造成致命破绽。",
+        "use_cases": "赛莉丝初遇路克斯时半身连结凛德龙虫，奇美拉袭击时奔跑中完成装备。"
+      },
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "holy-eclipse-assimilation",
+      "type": "supernatural / genetic",
+      "owner": "",
+      "description": "罗菲与人形终焉神兽圣蚀融合后获得的力量。它让她重获青春、共享七个终焉神兽能力,并能创造圣蚀克隆体守卫箱庭,但需要大圣域手术才能稳定控制。",
+      "details": {
+        "host": "roffe-atismata",
+        "source": "holy-eclipse",
+        "support": "grand-sanctuary surgery by ashaalia"
+      },
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "holy-eclipse-clone",
+      "type": "supernatural",
+      "owner": "",
+      "description": "圣蚀以宿主或目标记忆为基础投射出的拟态个体。本卷守卫箱庭的克隆体呈现弗基尔五年前的样子,驾驶真实《巴哈姆特》并能使用暴食,但只具有圣蚀主体的一部分力量。",
+      "details": {
+        "form": "fugil-arcadia memory projection",
+        "purpose": "守卫箱庭和阻止爱莉尔逃脱",
+        "limitation": "仅圣蚀主体碎片附近的力量"
+      },
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "holy-eclipse-design",
+      "type": "technology / design",
+      "owner": "",
+      "description": "阿榭立亚设计圣蚀的知识与权限，原意是投射人类意志并救赎弱者，但最终从设计阶段便失败。",
+      "details": {
+        "used_by": "arshalia"
+      },
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "holy-eclipse-evolution",
+      "type": "supernatural / disaster",
+      "owner": "",
+      "description": "圣蚀翻转为毁灭性终焉神兽后，会模仿过去终焉神兽能力、吸收幻神兽生命力、强化周围幻神兽，并拟态成敌人重要人物动摇意志。",
+      "details": {
+        "terminal_beast": "holy-eclipse-gigas"
+      },
+      "volumes": [
+        "vol-12"
+      ]
+    },
+    {
+      "id": "holy-eclipse-hosting",
+      "type": "supernatural / technology",
+      "owner": "",
+      "description": "圣蚀选择并附着于强烈愿望或痛苦的人，使其获得力量并可能转向杀戮。罗菲女王因压力与悲痛被圣蚀影响。",
+      "details": {
+        "example": "roffi-atismata"
+      },
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "holy-eclipse-revival",
+      "type": "supernatural",
+      "owner": "",
+      "description": "圣蚀会受到强者纯粹愿望吸引，给予一次拯救机会与万灵药性质的力量。本卷中夜架的愿望使死亡的路克斯复活并恢复伤势。",
+      "details": {
+        "source": "holy-eclipse",
+        "trigger": "yakumo's wish"
+      },
+      "volumes": [
+        "vol-12"
+      ]
+    },
+    {
+      "id": "horn-abyss-control",
+      "type": "artifact / technology",
+      "owner": "",
+      "description": "使用角笛发出扰乱脑部的不协和音，命令幻神兽或含幻神兽因子的目标。",
+      "details": {
+        "limitation": "通常命令会随时间消失，但魔禁书可传播命令延长效果"
+      },
+      "volumes": [
+        "vol-06"
+      ]
+    },
+    {
+      "id": "horn-command-technique",
+      "type": "technology / supernatural",
+      "owner": "",
+      "description": "通过特殊角笛向幻神兽或终焉神兽寄生体下达指令；命令持续时间有限，可被后续命令覆盖。",
+      "details": {
+        "items": [
+          "origin-horn",
+          "rebel-command-horn"
+        ]
+      },
+      "volumes": [
+        "vol-04"
+      ]
+    },
+    {
+      "id": "horn-control",
+      "type": "technology / monster control",
+      "owner": "",
+      "description": "自动人形阿榭立亚通过角笛向迪亚布罗群下令，包括集合、融合与自毁。",
+      "details": {
+        "used_by": "automaton-arshalia"
+      },
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "human-mimicry-propaganda",
+      "type": "supernatural / abyss ability",
+      "owner": "",
+      "description": "暗影幻神兽可假扮人类外表并重复演讲或戏剧，创造主利用其在各国散布政治宣传。",
+      "details": {},
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "hydra-fusion",
+      "type": "divine-drag-ride ability",
+      "owner": "",
+      "description": "海德拉神装，可使接触到装甲或特殊武装的对象融合。弗基尔用其融合多个迪亚布罗，制造合成迪亚布罗。",
+      "details": {
+        "used_by": "fugil-arcadia"
+      },
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "hydra-god-eating-poison",
+      "type": "technology / supernatural / combat",
+      "owner": "",
+      "description": "葛托汉神装机龙《海德拉》的神装，可让接触装甲或武装的物体融合、吸收、粉碎或再释放。最终甚至融合两名同伴与三架神装机龙。",
+      "details": {
+        "user": "gotran",
+        "drag_ride": "hydra",
+        "scope": "无机物融合；经洗礼强化后可融合机龙与人体"
+      },
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "iblis-mental-pollution",
+      "type": "supernatural / terminal-beast",
+      "owner": "",
+      "description": "终焉神兽伊布力斯的核心能力，通过音波与目光挖开心灵创伤、催眠目标并诱发自相残杀。机龙障壁无法防御，距离越近效果越强。",
+      "details": {
+        "source": "iblis",
+        "countermeasures": [
+          "远距离战斗",
+          "耳塞只能降低影响",
+          "万灵药短剑可短暂增强抵抗",
+          "洗礼者具备一定抗性"
+        ]
+      },
+      "volumes": [
+        "vol-13",
+        "vol-14"
+      ]
+    },
+    {
+      "id": "impure-propagation",
+      "type": "technology / drag-ride special armament",
+      "owner": "",
+      "description": "艾基·达哈卡特殊武装，遭受攻击时自动向周围发射装甲弹与冲击波反击。",
+      "details": {},
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "infinite-regeneration",
+      "type": "supernatural",
+      "owner": "",
+      "description": "罗菲借圣蚀使用的终焉神兽波赛顿能力，只要生命力尚存即可高速恢复肉体。",
+      "details": {},
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "instant-strike",
+      "type": "combat / skill",
+      "owner": "",
+      "description": "以极限精神操纵和机龙同步实现的高速斩击奥义；弗基尔能以更高境界复现路克斯擅长的巴哈姆特战术。",
+      "details": {
+        "users": [
+          "lux-arcadia",
+          "fugil-arcadia"
+        ],
+        "related": "巴哈姆特大剑斩击"
+      },
+      "volumes": [
+        "vol-16",
+        "vol-19",
+        "vol-20",
+        "vol-21"
+      ]
+    },
+    {
+      "id": "interference-slime",
+      "type": "supernatural / technology",
+      "owner": "",
+      "description": "朵拉肯投入的新型史莱姆幻神兽，本身攻击力低，但会黏附装甲机龙，使功率、动作和控制性能下降。",
+      "details": {
+        "used_by": "dolcan-megistol",
+        "target": "temple-knights and new-kingdom support team"
+      },
+      "volumes": [
+        "vol-08"
+      ]
+    },
+    {
+      "id": "iron-witch-tactics",
+      "type": "combat / strategy",
+      "owner": "",
+      "description": "罗莎利用恶意、威胁、分身、规则和人质心理压迫对手的综合战术。",
+      "details": {
+        "used_by": "rosa"
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "jormungandr-heavenly-calamity",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "《耶梦加得》的神装，可减轻自身承受的伤害并将其转换为机龙能量，在任意时机追加到攻击中释放。",
+      "details": {
+        "drag_ride": "jormungandr",
+        "user": "magialca-zen-vanfrick"
+      },
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "jormungandr-mass-lock",
+      "type": "combat / technology",
+      "owner": "",
+      "description": "利用《耶梦加得》巨大装甲臂或钢线的庞大质量，阻止弗基尔用《生死流转》把自己传送到异空间。",
+      "details": {
+        "basis": "生死流转无法储存过大质量",
+        "user": "magialca-zen-vanfrick"
+      },
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "jormungandr-radar",
+      "type": "technology / reconnaissance",
+      "owner": "",
+      "description": "耶梦加得作为特装型神装机龙具备的大范围雷达，爱理以此发现弗基尔从西向南绕行的突袭路线。",
+      "details": {
+        "used_by": "airi-arcadia"
+      },
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "jormungandr-scorched-earth",
+      "type": "supernatural / drag-ride divine raiment",
+      "owner": "",
+      "description": "耶梦加得神装，可将承受的一部分伤害化为自身能源累积，再附加到攻击能力中释放。玛姬艾儿卡用此重创天宫并消灭终焉神兽。",
+      "details": {},
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "jormungandr-siege-arms",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "玛姬艾儿卡的设置型神装机龙《耶梦加得》展开后无法灵活移动，但拥有巨大的半球装甲与七只装甲臂，分别承载多种武装，具备压倒性防御和火力。",
+      "details": {
+        "user": "magear-ka",
+        "drag_ride": "jormungandr",
+        "arms": [
+          "空手格斗臂",
+          "连射枪臂",
+          "剑臂",
+          "大炮臂",
+          "机龙爪刃箱",
+          "龙尾钢线臂"
+        ]
+      },
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "key-manager-authority",
+      "type": "authority / technology",
+      "owner": "",
+      "description": "钥匙管理者血脉或身份对遗迹、自动人形、门扉与至高之力安放流程的特殊权限。",
+      "details": {
+        "users": [
+          "sophies-ecfa",
+          "krulcifer-einfolk"
+        ],
+        "scope": "遗迹门扉、领导者自动人形、部分封印与资料"
+      },
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "key-supervisor-authority",
+      "type": "technology / authority",
+      "owner": "",
+      "description": "古代人种后裔持有的遗迹权限，可开启遗迹门与管理部分遗迹机能。",
+      "details": {
+        "known_users": [
+          "krulcifer",
+          "mishis"
+        ],
+        "limitation": "干涉重要系统后会暂时失去对其他遗迹的相同权限。"
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "krulcifer-comprehensive-mastery",
+      "type": "skill / innate",
+      "owner": "",
+      "description": "库露露希珐在各个领域都表现出完美无缺的能力。包括：全科目优秀、白刃战能力、装甲机龙操作、贵族的礼法和装扮、生活作息、料理（甚至比在食堂和酒馆帮忙过的路克斯更加精湛）、以及对战游戏（象棋、飞镖、纸牌等）无一不精通。",
+      "details": {
+        "domains": [
+          "学业",
+          "战斗",
+          "礼法",
+          "料理",
+          "游戏",
+          "生活作风"
+        ],
+        "note": "唯一的弱点是耳朵怕痒"
+      },
+      "volumes": [
+        "vol-05"
+      ]
+    },
+    {
+      "id": "land-drag-ride-axe-combat",
+      "type": "combat / skill",
+      "owner": "",
+      "description": "媞尔珐以陆战机龙和战斧承担近战、防卫和瓦砾搬运。本卷在方舟第七层为蕾莉护卫并面对欧特鲁斯。",
+      "details": {
+        "user": "tillfur-lillmit",
+        "equipment": "tillfur-land-drag-ride"
+      },
+      "volumes": [
+        "vol-04"
+      ]
+    },
+    {
+      "id": "land-drake-command",
+      "type": "combat / command",
+      "owner": "",
+      "description": "拜因统率地龙师团并用陆战机龙部队牵制警卫的能力。",
+      "details": {
+        "used_by": "bain"
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "large-abyss-corrosive-body",
+      "type": "supernatural / combat",
+      "owner": "",
+      "description": "The large slime Abyss's enormous corrosive body disperses cannon impacts, rapidly refills holes, and melts terrain or armor on contact.",
+      "details": {
+        "user": "large-slime-abyss",
+        "properties": [
+          "corrosive splatter",
+          "impact dispersion",
+          "rapid body refill",
+          "core protected by thick slime layer"
+        ]
+      },
+      "volumes": [
+        "vol-01"
+      ]
+    },
+    {
+      "id": "leader-control-authority",
+      "type": "authority / technology / supernatural",
+      "owner": "",
+      "description": "海兹通过右眼洗礼获得支配遗迹领导者自动人形的能力，能夺取里·普莉卡控制权并操纵『月』部分机能。",
+      "details": {
+        "user": "heize-arcadia",
+        "target": "rui-prika",
+        "scope": "领导者人格、月的操纵、远程发声"
+      },
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "leviathan-command",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "玛姬艾儿卡的神装机龙能力在本卷未直接展示，但《利维坦》被辛格伦提及为可能应对巨兵的战力。",
+      "details": {
+        "user": "magialca-fanflick",
+        "drag_ride": "leviathan"
+      },
+      "volumes": [
+        "vol-08"
+      ]
+    },
+    {
+      "id": "leviathan-king-right",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "《利维坦》的神装，可操纵水的形态与流动，将水化为防御膜、浓雾、冰、斩击与高压喷流。",
+      "details": {
+        "drag_ride": "leviathan",
+        "user": "singlen-shelbrit",
+        "forms": [
+          "水",
+          "雾",
+          "冰"
+        ]
+      },
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "leviathan-royal-authority",
+      "type": "technology / combat / divine-drag-ride",
+      "owner": "",
+      "description": "《利维坦》操纵水的神装。辛格伦将其与战阵结合，用雾和雨锁定路克斯并生成水刃、水壁。",
+      "details": {
+        "drag_ride": "leviathan",
+        "user": "singlen-shelbrit"
+      },
+      "volumes": [
+        "vol-15"
+      ]
+    },
+    {
+      "id": "leviathan-water-control",
+      "type": "technology / supernatural",
+      "owner": "",
+      "description": "辛格伦神装机龙利维坦的能力，能操纵水形成水刃、水盾和高速水弹。",
+      "details": {
+        "used_by": "singlen",
+        "drag_ride": "leviathan"
+      },
+      "volumes": [
+        "vol-09",
+        "vol-14"
+      ]
+    },
+    {
+      "id": "leviathan-water-tank",
+      "type": "technology / combat / special-armament",
+      "owner": "",
+      "description": "《利维坦》收集和储备周围水分的特殊武装。辛格伦在控制室决战中拖延时间，从通风口和空气中收集水分，为真战阵做准备。",
+      "details": {
+        "drag_ride": "leviathan",
+        "user": "singlen-shelbrit"
+      },
+      "volumes": [
+        "vol-15"
+      ]
+    },
+    {
+      "id": "lightning-flash",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "凛德龙虫特殊武装雷光穿枪的电击刺击或电击发射，命中后会影响装甲机龙机能并麻痹使用者。",
+      "details": {
+        "weapon": "lightning-lance",
+        "effect_duration": "被命中部位的装甲或武装会迟缓数秒到十数秒。"
+      },
+      "volumes": [
+        "vol-03",
+        "vol-09",
+        "vol-18",
+        "vol-19"
+      ]
+    },
+    {
+      "id": "lightning-lance",
+      "type": "weapon ability",
+      "owner": "",
+      "description": "赛莉丝的长枪武装，可释放雷电并强化突刺。用于逼迫弗基尔防御并制造伤害风险。",
+      "details": {
+        "used_by": "celistia-ralgris"
+      },
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "limit-break-code-analysis",
+      "type": "technology / skill",
+      "owner": "",
+      "description": "通过机构模式与古代文字解析装甲机龙安全限制解除程序。莉夏借助爱理解读的代码完成巴哈姆特限界突破准备。",
+      "details": {
+        "related_system": "limit-break-awakened-drag-ride",
+        "users": [
+          "lisesharte-atismata",
+          "airi-arcadia"
+        ]
+      },
+      "volumes": [
+        "vol-04"
+      ]
+    },
+    {
+      "id": "limit-break-procedure",
+      "type": "technology",
+      "owner": "",
+      "description": "装甲机龙机构模式下解除安全限制的程序。拉可儿雪先用于无人机龙，路克斯随后观察并高速复现于巴哈姆特。",
+      "details": {
+        "system": "limit-break-awakened-drag-ride"
+      },
+      "volumes": [
+        "vol-04"
+      ]
+    },
+    {
+      "id": "limit-break",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "解除机龙功能限制以获得爆发性力量的机能，副作用会造成长时间沉睡和疲劳。",
+      "details": {
+        "side_effect": "路克斯本卷前半仍无法自由活动，巴哈姆特可用时间被限制在约十二分钟"
+      },
+      "volumes": [
+        "vol-06",
+        "vol-15",
+        "vol-16",
+        "vol-17",
+        "vol-18",
+        "vol-19",
+        "vol-20",
+        "vol-21"
+      ]
+    },
+    {
+      "id": "lin-dragon-insect",
+      "type": "technology / combat / divine-drag-ride",
+      "owner": "",
+      "description": "赛莉丝缇雅使用的黄金神装机龙，配合雷光穿枪与支配者神域展现学园最强级战斗力。",
+      "details": {
+        "owner": "celistia-largreis",
+        "color": "黄金铠甲",
+        "notable_weapon": "thunder-light-spear"
+      },
+      "volumes": [
+        "vol-10"
+      ]
+    },
+    {
+      "id": "lindworm-cross-strike",
+      "type": "combat / skill",
+      "owner": "",
+      "description": "赛莉丝受路克斯课题启发开发的战术，将支配者神域瞬移与突击枪、机龙爪刃结合，从双方向或前后方向制造二选一攻击。",
+      "details": {
+        "core": "以电击突击枪和机龙爪刃在同一点或不同方向同时发动"
+      },
+      "volumes": [
+        "vol-06"
+      ]
+    },
+    {
+      "id": "lindworm-ruler-domain",
+      "type": "technology / authority",
+      "owner": "",
+      "description": "凛德龙虫的神装，可在光之领域内进行瞬间移动和位置支配，配合赛莉丝突击枪形成重击。",
+      "details": {
+        "drag_ride": "lindworm",
+        "applications": [
+          "拦截迪亚玛特失控炮击",
+          "王城会议室前连续击败地狱守门犬"
+        ]
+      },
+      "volumes": [
+        "vol-06",
+        "vol-15"
+      ]
+    },
+    {
+      "id": "lindwurm-ruler-domain",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "凛德龙虫的神装，可在展开的光芒范围内高速传送物体，使赛莉丝自由控制战斗距离。",
+      "details": {
+        "range": "演习场内约半径五百公尺级光芒领域",
+        "limitations": "可传送物体大小有限，通常极限为装备凛德龙虫的赛莉丝。"
+      },
+      "volumes": [
+        "vol-03",
+        "vol-04",
+        "vol-11",
+        "vol-13"
+      ]
+    },
+    {
+      "id": "lindwurm-ruler-field",
+      "type": "supernatural / drag-ride divine raiment",
+      "owner": "",
+      "description": "凛德龙虫的神装，在领域内瞬间移动。赛莉丝用它追击爱莉尔与路克斯，也被密丝希斯夺取。",
+      "details": {},
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "lisha-drag-ride-engineering",
+      "type": "technology / skill",
+      "owner": "",
+      "description": "Lisha's exceptional ability to repair, modify, and invent Drag-Ride configurations far beyond ordinary maintenance.",
+      "details": {
+        "workshop": "Royal Officer Academy workshop",
+        "notable_creation": "Chimeric Wyvern made by fusing Wyvern and Wyrm halves",
+        "limitations": "experimental failures and high pilot burden"
+      },
+      "volumes": [
+        "vol-01"
+      ]
+    },
+    {
+      "id": "lisha-heaven-voice",
+      "type": "technology / supernatural / combat",
+      "owner": "",
+      "description": "Tiamat's Divine Raiment, allowing Lisha to control gravity-like force and suppress or redirect targets.",
+      "details": {
+        "machine": "lisha-tiamat",
+        "effect_model": "applies unseen force resembling gravity control",
+        "usage": "pins Lux's Wyvern down and deflects thrown weapons"
+      },
+      "volumes": [
+        "vol-01"
+      ]
+    },
+    {
+      "id": "lux-comprehensive-skills",
+      "type": "skill",
+      "owner": "",
+      "description": "路克斯在五年杂役生活中练就的全方位生活技能。包括但不限于：料理（可做出高品质料理）、清洁、搬运、物资采购、教材整理、书物整理。在学园中几乎什么杂务都能做。",
+      "details": {
+        "scope": "料理、清洁、搬运、书物整理、机甲维护辅助等",
+        "level": "专业级（料理曾在食堂和酒馆打下手）"
+      },
+      "volumes": [
+        "vol-05"
+      ]
+    },
+    {
+      "id": "lux-defensive-style",
+      "type": "combat / skill",
+      "owner": "",
+      "description": "Lux's public fighting style using Wyvern: evade, block, and endure without launching decisive attacks, resulting in undefeated but winless mock-battle records.",
+      "details": {
+        "purpose_public": "avoid harming opponents and survive",
+        "purpose_hidden": "train observation and timing for Bahamut's Instant Strike",
+        "equipment": "heavily armored Wyvern tuned to mimic Bahamut handling"
+      },
+      "volumes": [
+        "vol-01"
+      ]
+    },
+    {
+      "id": "lux-instant-strike",
+      "type": "combat / skill / technology",
+      "owner": "",
+      "description": "Lux's signature technique: read the opponent's attack preparation and use Bahamut's acceleration to destroy the armament, Force Core, and Sword Device before the attack completes.",
+      "details": {
+        "requires": "perfect prediction of Drag-Ride attack preparation",
+        "typical_targets": [
+          "weapon arm",
+          "Force Core",
+          "Sword Device"
+        ],
+        "training": "built through years of defensive fights with Wyvern"
+      },
+      "volumes": [
+        "vol-01"
+      ]
+    },
+    {
+      "id": "mad-moon-bell",
+      "type": "technology / command",
+      "owner": "",
+      "description": "通过遗迹下达的最终指令，使周围幻神兽与终焉神兽将核心内万灵药流遍全身，短时间失控强化，代价是最终死亡。",
+      "details": {},
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "magic-chant",
+      "type": "supernatural / technology / combat",
+      "owner": "",
+      "description": "朵拉肯的神装机龙《阿斯普》能力，自由操纵声音，可模仿路克斯声音、制造角笛音并诱导幻神兽。",
+      "details": {
+        "divine_drag_ride": "asp",
+        "user": "drakkhen-megistory"
+      },
+      "volumes": [
+        "vol-12"
+      ]
+    },
+    {
+      "id": "martial-and-mental-training",
+      "type": "skill / technique",
+      "owner": "",
+      "description": "维德教导赛莉丝的文武教育、集中力训练、自我暗示与精神开关方法。",
+      "details": {
+        "teacher": "wade",
+        "students": [
+          "celestia"
+        ]
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "martial-arts-master",
+      "type": "combat / skill",
+      "owner": "",
+      "description": "玛姬艾儿卡达到世界顶级的徒手武艺，曾指导菲尔菲。",
+      "details": {
+        "used_by": "magialca",
+        "student": "philuffy"
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "martial-arts",
+      "type": "combat / skill",
+      "owner": "",
+      "description": "菲尔菲由玛姬艾儿卡指导的徒手格斗技术。",
+      "details": {
+        "users": [
+          "philuffy",
+          "magialca"
+        ],
+        "vol_09_usage": "菲尔菲识别玛姬艾儿卡是师父，并在学园祭体术指导中表现压倒性。"
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "memory-erasure-divine-armament",
+      "type": "technology / supernatural",
+      "owner": "",
+      "description": "札哈克可令目标忘记特定记忆的神装。爱莉尔在最终战中配合路克斯，使罗菲短暂忘记暴食与路克斯攻击。",
+      "details": {},
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "memory-form-mimicry",
+      "type": "supernatural / technology",
+      "owner": "",
+      "description": "圣蚀能读取或模拟对象心中重要人物的姿态与声音，以心理弱点动摇目标。",
+      "details": {
+        "forms": [
+          "wade",
+          "arshalia"
+        ]
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "mercenary-command",
+      "type": "combat / command",
+      "owner": "",
+      "description": "龙匪贼师团长级人物指挥佣兵机龙使、组织撤退和执行遗迹攻略相关行动的能力。",
+      "details": {
+        "users": [
+          "drakken",
+          "gatouhan",
+          "bain"
+        ]
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "metatron-reflection",
+      "type": "supernatural / ragnarok",
+      "owner": "",
+      "description": "终焉神兽梅塔特隆吸收物理、能量和神装攻击并增强反弹。只有在吸收与反弹转换的短暂窗口能造成伤害。",
+      "details": {},
+      "volumes": [
+        "vol-11",
+        "vol-14"
+      ]
+    },
+    {
+      "id": "mobile-combat-theory",
+      "type": "combat / skill",
+      "owner": "",
+      "description": "赛莉丝经过彻底磨练的战斗思考，在攻击被化解后仍能立即选择雷闪等最合适追击。",
+      "details": {},
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "mobile-theorem",
+      "type": "combat / skill",
+      "owner": "",
+      "description": "赛莉丝能记住并迅速执行针对各种情况的最有效战术，在短时间逆转复杂战局。",
+      "details": {
+        "nature": "并非单一武装，而是高阶战术判断和执行能力。",
+        "reputation": "王都军人之间以机动定石称呼其才能。"
+      },
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "mobility-layout",
+      "type": "combat / skill",
+      "owner": "",
+      "description": "赛莉丝基于自身体能、武装与战局推导最适动作的战术思考能力。",
+      "details": {
+        "used_by": "celestia",
+        "vol_09_usage": "判断先散布圣蚀体液，再用最大雷击导电歼灭分体。"
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "moon-bell",
+      "type": "technology / supernatural / authority",
+      "owner": "",
+      "description": "第七遗迹月启动后的功能，可控制剩余终焉神兽并进行大规模威慑，同时具备炮击、隐藏、传送和释放幻神兽能力。",
+      "details": {
+        "ruin": "moon",
+        "controller": "sophis-expha"
+      },
+      "volumes": [
+        "vol-12"
+      ]
+    },
+    {
+      "id": "moon-dragon-scale",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "盖达夫特装机龙X搭载的稀少武装，发射多枚带紫光的轮形圆刃，能从多方向追击与牵制。",
+      "details": {
+        "user": "gadeff",
+        "item": "moon-dragon-scale"
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "mutual-opposition-principle",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "赤帝白皇操纵温度的神装。梅尔用其灭火、降温并试图令敌机过热。",
+      "details": {},
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "nidhogg-cutter",
+      "type": "supernatural / drag-ride divine raiment",
+      "owner": "",
+      "description": "尼德霍格的神装，以双翼刃剑释放连同空间一起切断的斩击，可形成攻击与隔离用的切断面。",
+      "details": {},
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "nidhogg-cutting-one",
+      "type": "technology / authority",
+      "owner": "",
+      "description": "尼德霍格的神装，可让双翼刃剑切断空间并留下无法穿越的截面光壁。",
+      "details": {
+        "drag_ride": "nidhogg",
+        "weakness": "切断面积有限，新的截面生成会令旧截面按顺序消失"
+      },
+      "volumes": [
+        "vol-06"
+      ]
+    },
+    {
+      "id": "old-empire-authority",
+      "type": "social / political authority",
+      "owner": "",
+      "description": "旧阿卡迪亚帝国皇帝与贵族体系依靠血统、军队和社会制度压迫人民的权威。弗基尔将其视为会腐蚀人的毒。",
+      "details": {
+        "example": "old-arcadia-emperor"
+      },
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "oracle-priestess",
+      "type": "authority / supernatural / technology",
+      "owner": "",
+      "description": "通过洗礼获得接收来自圣域或大圣域情报的能力。",
+      "details": {
+        "known_user": "listelka",
+        "source": "创造主圣地通信"
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "ouroboros-design",
+      "type": "technology / design",
+      "owner": "",
+      "description": "阿榭立亚与弗基尔时代制造奥罗波若斯的知识体系，使其成为集合全部技术和能力的第零遗迹神器。",
+      "details": {
+        "used_by": "arshalia"
+      },
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "ouroboros-eternal-recurrence",
+      "type": "technology / authority",
+      "owner": "",
+      "description": "改变机龙《奥罗波若斯》的神装，可借七座遗迹作为强波器侵蚀大范围人类认知、倒回记忆并改变世界法则。",
+      "details": {
+        "scope": "可覆盖废都周边乃至大陆级认知",
+        "uses": [
+          "让未穿装甲者无法被辨识",
+          "使非质量攻击无效",
+          "限制多打一",
+          "重置王都游行循环"
+        ]
+      },
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "ouroboros-eternal-return",
+      "type": "unknown / drag-ride divine raiment",
+      "owner": "",
+      "description": "奥罗波若斯相关神装或特殊能力之一，本卷仅由爱莉尔列举其名称，具体效果尚未完全揭示。",
+      "details": {},
+      "volumes": [
+        "vol-14",
+        "vol-20"
+      ]
+    },
+    {
+      "id": "ouroboros-final-interference",
+      "type": "artifact attack / battlefield interference",
+      "owner": "",
+      "description": "自动人形阿榭立亚在路克斯与弗基尔时间流减速对决中，试图用奥罗波若斯巨臂从上方砸碎路克斯。",
+      "details": {
+        "used_by": "automaton-arshalia"
+      },
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "ouroboros-life-and-death-cycle",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "《奥罗波若斯》的特殊武装，可让射程内物体、人物或能量消失至无法干涉空间，再任意还原出现。",
+      "details": {
+        "storage": "疑似奥罗波若斯/大圣域内部球形空间",
+        "limits": [
+          "储存空间可能只有一个",
+          "巨大质量难以传送",
+          "需释放已有目标后才能再次储存"
+        ]
+      },
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "ouroboros-life-death-cycle",
+      "type": "special armament",
+      "owner": "",
+      "description": "奥罗波若斯特殊武装，可消除或转移附近机龙，曾把菲尔菲连同堤丰吸入奥罗波若斯内部。",
+      "details": {
+        "limitation": "在永劫回归规则改写下也会受自身规则限制"
+      },
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "ouroboros-massive-blade",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "奥罗波若斯本体使用超巨大机龙牙剑发动的质量攻击，规模远超普通机龙，能凭纯物理质量破坏地形与神装机龙。",
+      "details": {
+        "user": "fugil-arcadia / ashelia-rey-arcadia",
+        "drag_ride": "ouroboros"
+      },
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "ouroboros-reincarnation-infinity",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "《奥罗波若斯》的特殊武装，可将其他神装机龙作为可替换装甲/武装再现，即使一架被破坏也能召唤另一架。",
+      "details": {
+        "drag_ride": "ouroboros",
+        "examples": [
+          "bahamut",
+          "typhon"
+        ],
+        "mechanism": "基于大圣域记录的神装机龙资讯重构"
+      },
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "ouroboros-reincarnation",
+      "type": "technology / drag-ride special armament",
+      "owner": "",
+      "description": "奥罗波若斯特殊武装之一，可变成所有神装机龙的形态。弗基尔以此显现巴哈姆特并使用暴食。",
+      "details": {},
+      "volumes": [
+        "vol-14",
+        "vol-15"
+      ]
+    },
+    {
+      "id": "ouroboros-samsara-rebirth",
+      "type": "special armament",
+      "owner": "",
+      "description": "奥罗波若斯特殊武装，可制造或复制其他神装机龙并让弗基尔使用，如海德拉和巴哈姆特。",
+      "details": {
+        "use": "弗基尔用其制造融合迪亚布罗所需的神装机龙海德拉"
+      },
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "ouroboros-zero-one",
+      "type": "technology / authority / divine-drag-ride",
+      "owner": "",
+      "description": "《奥罗波若斯》的特殊武装，可像开关一样让指定对象的存在从世界空间中消失或重新出现。弗基尔以此躲过密丝希斯攻击并反杀她。",
+      "details": {
+        "drag_ride": "ouroboros",
+        "user": "fugil-arcadia"
+      },
+      "volumes": [
+        "vol-15"
+      ]
+    },
+    {
+      "id": "over-limit",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "解除装甲机龙限制器，以极大负担换取数倍以上输出。路克斯在菲尔菲遭重创后重新发动。",
+      "details": {},
+      "volumes": [
+        "vol-11"
+      ]
+    },
+    {
+      "id": "over-unit",
+      "type": "technology / combat / equipment-technique",
+      "owner": "",
+      "description": "莉夏独创的机龙强化技术，将泛用机龙零件追加到神装机龙上，临时强化机动、近战或神装输出。",
+      "details": {
+        "user": "lisha-atismata",
+        "forms": [
+          "飞翔机龙·天翼",
+          "陆战机龙·烈爪",
+          "特装机龙冲角"
+        ]
+      },
+      "volumes": [
+        "vol-15"
+      ]
+    },
+    {
+      "id": "panacea-baptism",
+      "type": "supernatural / genetic / technology",
+      "owner": "",
+      "description": "借由七色小刀与万灵药引发的人体改造现象，可强化人类潜能、恢复并提升机龙适性，但会导致幻魔人化风险。",
+      "details": {
+        "medium": "seven-colored-knife",
+        "observed_subject": "dielwe-froyas",
+        "effect": "右手旧伤恢复，能力暴增，最终身体异变为幻魔人"
+      },
+      "volumes": [
+        "vol-07"
+      ]
+    },
+    {
+      "id": "panacea-demonization",
+      "type": "supernatural / genetic",
+      "owner": "",
+      "description": "遗迹秘药万灵药可唤醒人体潜能，但伴随剧痛、精神侵蚀与死亡风险。梅尔用带万灵药的小刀刺入胸口后获得暂时强化并失控。",
+      "details": {
+        "users": [
+          "mell-jisato",
+          "dilwy-froias"
+        ],
+        "substance": "panacea"
+      },
+      "volumes": [
+        "vol-08"
+      ]
+    },
+    {
+      "id": "parasite-nanomachine-control",
+      "type": "technology / supernatural",
+      "owner": "",
+      "description": "拉·可儿雪的独特纳米机器能力,通过将纳米粒子注入目标体内操纵生物,并可使寄生虫吞噬宿主生命成长为幻神兽。桑妮雅与伊格尼德即为其傀儡。",
+      "details": {
+        "user": "la-krushe",
+        "method": "direct injection of nanomachines",
+        "result": "puppet control and Abyss hatching"
+      },
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "perception-manipulation",
+      "type": "supernatural / technology",
+      "owner": "",
+      "description": "遗迹与大圣域系统影响人们视觉、记忆和逻辑补全的能力。它让普通人无法看见自动人形、接受已死者仍在场、把桑妮雅看成西格,并忽略罗菲外貌变化。",
+      "details": {
+        "source": "遗迹/大圣域/奥罗波若斯",
+        "related": "世界改写是其大规模应用"
+      },
+      "volumes": [
+        "vol-17",
+        "vol-18"
+      ]
+    },
+    {
+      "id": "permanent-link",
+      "type": "drag-ride sword technique",
+      "owner": "",
+      "description": "路克斯锻炼出的连续斩击秘技，在不留间隙的情况下持续压制对手。",
+      "details": {
+        "limitation": "弗基尔以破甲净化后的轻装机动找到末端动作间隙"
+      },
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "perpetual-chain",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "Lisha's Tiamat-related control of floating projectile weapons. In the epilogue she uses crimson Drag-Ride armaments to shoot down enemy Drag-Rides before they can respond.",
+      "details": {
+        "owner_item": "tiamat-divine-armament",
+        "operator": "lisharhti-atismata"
+      },
+      "volumes": [
+        "vol-21"
+      ]
+    },
+    {
+      "id": "phoenix-flaming-feathers",
+      "type": "supernatural / ragnarok ability",
+      "owner": "",
+      "description": "菲尼克斯可发射带火焰的羽毛，羽毛含特殊油脂，附着后长时间燃烧。",
+      "details": {},
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "photon-camouflage",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "特装机龙或库耶列布勒相关的潜行/无敌化能力。本卷中诺珂特以迷彩隐藏身形，葛莱法的库耶列布勒则以光子潜行短时间无敌化。",
+      "details": {
+        "nokotte_use": "与周围景色同化并隐身",
+        "greifer_use": "神装短时无敌化并弹开攻击"
+      },
+      "volumes": [
+        "vol-07"
+      ]
+    },
+    {
+      "id": "photon-dive",
+      "type": "supernatural / technology / combat",
+      "owner": "",
+      "description": "葛莱法的《库耶列布勒》神装，以光膜短时间无敌化自身。本卷用于抵挡朵拉肯与圣蚀的攻击。",
+      "details": {
+        "divine_drag_ride": "cuelebre",
+        "user": "greifer"
+      },
+      "volumes": [
+        "vol-12",
+        "vol-19"
+      ]
+    },
+    {
+      "id": "political-administration",
+      "type": "social / political",
+      "owner": "",
+      "description": "四大贵族迪斯特公爵等人协助路克斯作为一年期国王处理新王国实际政务、过渡到共和制的行政能力。",
+      "details": {
+        "users": "dist-ralgris"
+      },
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "political-leadership",
+      "type": "social / authority",
+      "owner": "",
+      "description": "贵族、大臣、公主或国家代表在会议中代表国家、判断风险与制定方针的能力。",
+      "details": {
+        "users": [
+          "dist",
+          "lisha",
+          "mimiette",
+          "gunius",
+          "nias"
+        ]
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "political-representation",
+      "type": "social / authority",
+      "owner": "",
+      "description": "各国代理领导者在世界高峰会中代表国家利益发言、提问和接受条件的能力。",
+      "details": {
+        "users": [
+          "mimiette",
+          "gunius",
+          "lisha",
+          "nias"
+        ]
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "poseidon-tentacle-regeneration",
+      "type": "supernatural / ragnarok ability",
+      "owner": "",
+      "description": "波赛顿具备无数触手与惊人再生能力，被斩断或爆破后可迅速恢复。",
+      "details": {},
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "presence-detection",
+      "type": "supernatural / skill",
+      "owner": "",
+      "description": "夜架经洗礼强化后拥有的感知能力,可察觉普通感知操纵隐藏的存在与生命反应。她虽未完全免疫世界改写,仍能配合《夜刀神》雷达记录主谋所在。",
+      "details": {
+        "user": "yato-kirihime",
+        "basis": "baptism + Yatono-Kami radar",
+        "limitation": "只能部分看见或感知异常"
+      },
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "psychological-manipulation",
+      "type": "social / skill",
+      "owner": "",
+      "description": "弗基尔用精确言语揭开路克斯旧伤并动摇其英雄理想的能力。",
+      "details": {
+        "used_by": "fugil"
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "purgatory-mechanism",
+      "type": "technology / supernatural",
+      "owner": "",
+      "description": "罗莎的神装机龙葛力尼奇的神装，结合特殊武装可替换装甲形态并制造具实体的分身。",
+      "details": {
+        "user": "rosa",
+        "drag_ride": "gorynych-rosa",
+        "combined_with": "twelve-iron-bars"
+      },
+      "volumes": [
+        "vol-09",
+        "vol-19"
+      ]
+    },
+    {
+      "id": "quick-draw",
+      "type": "combat / skill",
+      "owner": "",
+      "description": "机攻壳剑、机龙身体控制与精神控制高度同步的高速拔剑/操作技术。阿尔玛长期练习此技术,并将其视为接近黑色英雄的道路。",
+      "details": {
+        "requires": "机攻壳剑操作、机龙控制、极高集中力",
+        "notable_practitioners": [
+          "lux-arcadia",
+          "alma-kiltzrak",
+          "fugil-arcadia"
+        ]
+      },
+      "volumes": [
+        "vol-17"
+      ]
+    },
+    {
+      "id": "ragnarok-core-regeneration",
+      "type": "supernatural / ragnarok trait",
+      "owner": "",
+      "description": "终焉神兽拥有极高生命力与核心再生特性，即使濒死也可能继续活动；被狂月之钟强化后更难彻底消灭。",
+      "details": {},
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "ragnarok-resurrection",
+      "type": "technology / authority",
+      "owner": "",
+      "description": "大圣域表层阶深处的机能，可复活并释放此前被消灭的七只终焉神兽。里丝媞卡诱导爱莉尔启动此机关。",
+      "details": {},
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "rapid-control",
+      "type": "combat / skill",
+      "owner": "",
+      "description": "路克斯三大奥义之一，通过身体操纵与精神操纵同步实现神速一闪。本卷路克斯以暴食削弱痛觉后用神速制御反击辛格伦。",
+      "details": {
+        "user": "lux-arcadia",
+        "class": "three-great-arts"
+      },
+      "volumes": [
+        "vol-15"
+      ]
+    },
+    {
+      "id": "red-emperor-white-emperor-heat-control",
+      "type": "supernatural / drag-ride divine raiment",
+      "owner": "",
+      "description": "赤帝白皇神装，可操纵热量与温度。梅尔用它克制芬里尔冷冻能力，制造冰坑并引爆地碎角弹。",
+      "details": {},
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "red-white-emperor-temperature",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "《赤帝白皇》的神装能力，核心为温度操纵。梅尔用它融化冷冻、冻结敌机、制造强风、雾、幻影及降低机龙控制机能。",
+      "details": {
+        "user": "mell-jisato",
+        "drag_ride": "red-white-emperor"
+      },
+      "volumes": [
+        "vol-08"
+      ]
+    },
+    {
+      "id": "religious-leadership",
+      "type": "social / authority",
+      "owner": "",
+      "description": "尼亚斯作为优密尔教国教皇在高峰会中代表国家与教团发言的权威。",
+      "details": {
+        "used_by": "nias"
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "reload-on-fire",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "Bahamut's high-speed control Divine Attire. Lux uses concentrated timing and acceleration to overturn Yatoro's blade lock and later relies on Bahamut's speed to move behind the Hounds leader before th",
+      "details": {
+        "owner_item": "bahamut-divine-armament",
+        "operator": "lux-arcadia"
+      },
+      "volumes": [
+        "vol-21"
+      ]
+    },
+    {
+      "id": "resonance-wave",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "巴哈姆特内藏特殊武装，可干涉周围物质形成力场并移动小型物体。",
+      "details": {
+        "limitation": "威力不足以直接破坏物体或轰飞大型目标。",
+        "use_in_volume": "路克斯用其卷起瓦砾与遗落武装，边战斗边远程击落袭击校舍的飞翔机龙。"
+      },
+      "volumes": [
+        "vol-03",
+        "vol-14",
+        "vol-21"
+      ]
+    },
+    {
+      "id": "revolutionary-leadership",
+      "type": "social / command",
+      "owner": "",
+      "description": "亚提司玛特伯爵象征的反旧帝国革命领导力，本卷作为新王国英雄传承影响莉夏和民众。",
+      "details": {
+        "user": "earl-atismata"
+      },
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "rindwurm-dominator-domain",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "《凛德龙虫》的神装，可展开光之领域并瞬间传送自身。赛莉丝用它突破敌军炮火与幻神兽包围。",
+      "details": {
+        "user": "celistia-ralgris",
+        "drag_ride": "rindwurm"
+      },
+      "volumes": [
+        "vol-08"
+      ]
+    },
+    {
+      "id": "rosa-deceptive-mirage",
+      "type": "technology / illusion",
+      "owner": "",
+      "description": "罗莎使用的特殊武装，可制造包含自身分身与假人质在内的幻影，配合夜雨与无人机形成欺骗战术。",
+      "details": {},
+      "volumes": [
+        "vol-11"
+      ]
+    },
+    {
+      "id": "royal-authority",
+      "type": "supernatural / technology / combat",
+      "owner": "",
+      "description": "辛格伦的神装机龙《利维坦》能力，操纵收集到的水，将水转化为护盾、刀刃、推进力和探测媒介。",
+      "details": {
+        "divine_drag_ride": "leviathan",
+        "user": "singlen-shebrit",
+        "special_weapon": "water-tank"
+      },
+      "volumes": [
+        "vol-12"
+      ]
+    },
+    {
+      "id": "royal-crisis-diplomacy",
+      "type": "skill / social",
+      "owner": "",
+      "description": "罗菲女王在世界联盟压力下为新王国争取准备时间、避免立即被牺牲的政治交涉能力。",
+      "details": {
+        "user": "raffi-atismata"
+      },
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "ruin-key-manager-authentication",
+      "type": "authority / technology",
+      "owner": "",
+      "description": "库露露席法作为遗迹相关钥匙管理者，被方舟系统识别后可开启管理室区域与最深层大门。",
+      "details": {
+        "user": "krulcifer-einfolk",
+        "recognized_by": "la-krusche"
+      },
+      "volumes": [
+        "vol-04"
+      ]
+    },
+    {
+      "id": "ruin-maintenance",
+      "type": "technology / automaton function",
+      "owner": "",
+      "description": "自动人形维护遗迹、管理设备和辅助世界创建组织的功能。里·普莉卡在月中照看新发现的孩子并辅助爱莉尔与苏菲丝。",
+      "details": {
+        "user": "li-prica"
+      },
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "ruins-automata-authority",
+      "type": "technology / authority",
+      "owner": "",
+      "description": "涅依作为第四遗迹坑道领导者的权限，可识别钥匙管理者、开启书库、操纵展望室和执行传送。",
+      "details": {
+        "user": "nyi-raishy",
+        "ruin": "fourth-ruins-mine"
+      },
+      "volumes": [
+        "vol-08"
+      ]
+    },
+    {
+      "id": "ruler-domain",
+      "type": "divine-drag-ride ability",
+      "owner": "",
+      "description": "凛德龙虫的空间传送能力，赛莉丝用其进行高速突袭和调整攻击位置。",
+      "details": {
+        "used_by": "celistia-ralgris"
+      },
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "ruthless-strategy",
+      "type": "strategy / social",
+      "owner": "",
+      "description": "辛格伦以机龙使阶级统治和功绩积累为核心的冷酷战略判断。",
+      "details": {
+        "used_by": "singlen"
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "sacred-eclipse-fusion",
+      "type": "supernatural / authority / ragnarok",
+      "owner": "",
+      "description": "濒死的海兹被圣蚀接纳后与其融合，获得终焉神兽级肉体、再生、空间转移、根部、火炎与冻结等能力，并成为大圣域最后考验的关键要素。",
+      "details": {
+        "host": "hayes-arcadia",
+        "catalyst": "fugil-arcadia",
+        "state": "partial Sacred Eclipse possession/fusion"
+      },
+      "volumes": [
+        "vol-15"
+      ]
+    },
+    {
+      "id": "sacred-eclipse-regeneration",
+      "type": "supernatural / technology",
+      "owner": "",
+      "description": "圣蚀被破坏后能从肉块分裂并重生，分体可继承本体。",
+      "details": {
+        "user": "ark",
+        "weakness_in_vol_09": "赛莉丝先散布体液，再以雷击导电同时烧毁分体。"
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "sacred-eclipse-revival-evolution",
+      "type": "supernatural / ragnarok trait",
+      "owner": "",
+      "description": "圣蚀会反复复活，每次附加新力量，是试图引导世界毁灭的最后终焉神兽。",
+      "details": {},
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "sacred-eclipse-selection-mechanism",
+      "type": "technology / supernatural / authority",
+      "owner": "",
+      "description": "圣蚀感应、分析并投影人心，将情报传送至自动人形，用以挑选可成为历史中枢的弱者或王之器。",
+      "details": {
+        "origin": "阿榭立亚留下的救济体系",
+        "interpreted_by": "fugil-arcadia",
+        "candidates": [
+          "greifer-nest",
+          "singlen-shelbrit",
+          "raffi-atismata",
+          "lux-arcadia"
+        ]
+      },
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "sacred-eclipse-system",
+      "type": "supernatural / authority",
+      "owner": "",
+      "description": "罗菲与圣蚀融合后可复合运用多种终焉神兽能力，并吸收恶意与幻神兽力量。此处作为角色能力引用，系统整体见 systems/sacred-eclipse-system.json。",
+      "details": {},
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "seki-tei-hakuou-contradictory-providence",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "《赤帝白皇》的神装，可操纵温度、空气密度与大气折射，用于干扰视觉、产生高热/低温与牵制敌人。",
+      "details": {
+        "drag_ride": "seki-tei-hakuou",
+        "user": "mel-gizalut",
+        "applications": [
+          "视觉距离误差",
+          "冻结装甲",
+          "加热幻创机核"
+        ]
+      },
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "seven-dragon-heads",
+      "type": "special armament / artillery",
+      "owner": "",
+      "description": "迪亚玛特的高火力炮装，莉夏用其拦截奥罗波若斯主炮并在最终阶段向其核心发动攻击。",
+      "details": {
+        "used_by": "lisha-atismata"
+      },
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "seven-heads",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "Kururushifa's Fafnir ability controlling multiple arrowhead-like remote weapons. In the epilogue she disables bandit Drag-Rides without killing the pilots and argues with Lisha while still fighting ef",
+      "details": {
+        "owner_item": "fafnir-divine-armament",
+        "operator": "kururushifa-enfolderk"
+      },
+      "volumes": [
+        "vol-21"
+      ]
+    },
+    {
+      "id": "silver-flash-hail-fang",
+      "type": "combat / weapon-skill / supernatural-enhanced",
+      "owner": "",
+      "description": "迪尔威化为幻魔人后使用的龙牙射剑强化连续技，从空中倾泻大量斩击，范围覆盖迷宫大厅。",
+      "details": {
+        "base": "dragon-fang-shooting-sword",
+        "enhancement": "幻魔人化后突破原本体力与精神限制"
+      },
+      "volumes": [
+        "vol-07"
+      ]
+    },
+    {
+      "id": "sky-step",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "《夜刀神》的移动类特殊武装，使夜架可在空中踢踏无形立足点进行机动。",
+      "details": {
+        "equipment": "yatogami"
+      },
+      "volumes": [
+        "vol-12"
+      ]
+    },
+    {
+      "id": "special-drag-ride-ram",
+      "type": "special armament",
+      "owner": "",
+      "description": "莉夏通过无驾驶者机龙生成的补充装甲，增强迪亚玛特神装输出并用于压制合成迪亚布罗。",
+      "details": {
+        "used_by": "lisha-atismata"
+      },
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "special-drag-ride-stealth",
+      "type": "technology",
+      "owner": "",
+      "description": "特装机龙具备隐藏机体与操纵者气息的迷彩功能。",
+      "details": {
+        "users": [
+          "nox",
+          "gadeff"
+        ],
+        "vol_09_usage": "诺珂特用来保护赛莉丝与通讯；盖达夫用来偷袭和暗杀。"
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "specialized-drag-ride-scouting",
+      "type": "technology / combat / skill",
+      "owner": "",
+      "description": "Use of Drake/special-type Drag-Ride functions for scouting, enhanced sight, firearms support, and rapid information relay.",
+      "details": {
+        "machine_type": "special-type Drag-Ride / Drake",
+        "features": [
+          "enhanced visor sight",
+          "support firearms",
+          "scouting and relay"
+        ],
+        "known_user": "noct-leaflet"
+      },
+      "volumes": [
+        "vol-01"
+      ]
+    },
+    {
+      "id": "spider-thread-trap",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "《夜刀神》的钢丝状特殊武装，肉眼难辨。夜架在大圣堂周边布下丝网，再通过禁咒符号传导神装控制敌机。",
+      "details": {
+        "user": "kirihime-yoruka",
+        "drag_ride": "yato-no-kami"
+      },
+      "volumes": [
+        "vol-08"
+      ]
+    },
+    {
+      "id": "spider-thread",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "《夜刀神》的特殊武装，布设极细钢丝并传导禁咒符号效果，也可用于回收机攻壳剑和连接《巴哈姆特》。",
+      "details": {
+        "equipment": "yatogami",
+        "associated_ability": "forbidden-seal"
+      },
+      "volumes": [
+        "vol-12"
+      ]
+    },
+    {
+      "id": "spiritual-pollution",
+      "type": "supernatural / mental",
+      "owner": "",
+      "description": "终焉神兽伊布力斯的精神干涉能力，罗菲可通过五感控制、恐惧或洗脑目标。",
+      "details": {},
+      "volumes": [
+        "vol-18",
+        "vol-19"
+      ]
+    },
+    {
+      "id": "star-burst",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "凛德龙虫的特殊武装，发射压缩光弹造成广范围爆破。",
+      "details": {
+        "weapon": "lindworm special armament"
+      },
+      "volumes": [
+        "vol-06"
+      ]
+    },
+    {
+      "id": "starlight-blast",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "凛德龙虫肩部特殊炮击，将蓄积能量压缩为名为星的光弹，数秒后以光弹为中心产生大范围爆炸。",
+      "details": {
+        "weapon": "starblast-cannon",
+        "blast_radius": "演习场中约半径三百公尺级，可调节威力避免波及观众。"
+      },
+      "volumes": [
+        "vol-03",
+        "vol-04",
+        "vol-20"
+      ]
+    },
+    {
+      "id": "stealth-ambush",
+      "type": "combat / skill",
+      "owner": "",
+      "description": "盖达夫利用迷彩、变装、诱饵和旧地牢情报发动偷袭的暗杀战术。",
+      "details": {
+        "used_by": "gadeff"
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "stealth-camouflage",
+      "type": "skill / technology",
+      "owner": "",
+      "description": "Yatoro's stealth method combining personal presence suppression and Yatogami's special-type camouflage. It lets her protect Lux from the shadows and rescue a hostage before the enemy realizes she is n",
+      "details": {
+        "user": "yatoro-kirihime",
+        "item": "yatogami-divine-armament"
+      },
+      "volumes": [
+        "vol-21"
+      ]
+    },
+    {
+      "id": "stealth-recon",
+      "type": "technology / skill",
+      "owner": "",
+      "description": "夜刀神的特装型侦察与伪装能力，用于追踪弗基尔并在回归战场时隐蔽接近奥罗波若斯。",
+      "details": {
+        "used_by": "kirihime-yoruka"
+      },
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "stone-miasma",
+      "type": "supernatural / technology / combat",
+      "owner": "",
+      "description": "拜因的神装机龙《巴西利斯克》能力，释放紫色烟雾状黏剂，使接触的装甲关节凝固并阻断能量传达。",
+      "details": {
+        "divine_drag_ride": "basilisk",
+        "user": "bayne-ashetes"
+      },
+      "volumes": [
+        "vol-12"
+      ]
+    },
+    {
+      "id": "strategic-command",
+      "type": "skill / combat",
+      "owner": "",
+      "description": "玛姬艾儿卡作为七龙骑圣队长的战术洞察与指挥能力，能在极限战斗中识破敌方规则并指挥同伴配合。",
+      "details": {
+        "user": "magialca-zen-vanfrick",
+        "examples": [
+          "推断生死流转限制",
+          "指挥苏菲丝与爱莉尔配合",
+          "识破大圣域控制室可被攻击"
+        ]
+      },
+      "volumes": [
+        "vol-16",
+        "vol-20"
+      ]
+    },
+    {
+      "id": "strategic-insight",
+      "type": "skill / social",
+      "owner": "",
+      "description": "玛姬艾儿卡在高峰会和卷末能迅速识破报酬、同盟和圣蚀出现时机中的可疑点。",
+      "details": {
+        "used_by": "magialca"
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "super-reaction-baptism",
+      "type": "genetic / combat",
+      "owner": "",
+      "description": "赛莉丝经洗礼获得的反应速度强化，使其能在最终战中进行极限判断和瞬移突袭。",
+      "details": {},
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "superfast-iaijutsu",
+      "type": "combat / skill",
+      "owner": "",
+      "description": "切姬夜架的东方刀剑技，即使遮眼戴铐也能以腰部动作瞬间拔刀抵住对手喉咙。",
+      "details": {
+        "user": "kirihime-yoruka",
+        "weapon": "yoruka-katana-device"
+      },
+      "volumes": [
+        "vol-04"
+      ]
+    },
+    {
+      "id": "swordsmanship",
+      "type": "combat / skill",
+      "owner": "",
+      "description": "以剑或模拟刀进行近身战、指导和护卫的武技。",
+      "details": {
+        "used_by": "yoruka",
+        "vol_09_usage": "夜架在学园祭体术指导中担任剑术指导。"
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "tarasque-backside-heat",
+      "type": "technology / combat / divine-drag-ride",
+      "owner": "",
+      "description": "《塔拉司克斯》的神装，在移动时散布可燃性烟幕，妨害追击、探测并可爆破反击。兹拜贝鲁克用它反制三和音合作攻势。",
+      "details": {
+        "drag_ride": "tarasque",
+        "user": "zweigbergk-gimle"
+      },
+      "volumes": [
+        "vol-15"
+      ]
+    },
+    {
+      "id": "temperature-control",
+      "type": "divine-drag-ride ability",
+      "owner": "",
+      "description": "赤帝白皇神装，可控制温度并冻结目标。梅尔用其冻结强化迪亚布罗与合成迪亚布罗。",
+      "details": {
+        "used_by": "mel-gizalut"
+      },
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "three-great-arts",
+      "type": "combat / skill",
+      "owner": "",
+      "description": "路克斯在机龙战中使用的高阶奥义体系，包括对敌人预备动作和机体限制的极限读取与反击。本卷重点展现神速制御与即击思路。",
+      "details": {
+        "user": "lux-arcadia",
+        "related": [
+          "rapid-control",
+          "bahamut-gluttony"
+        ]
+      },
+      "volumes": [
+        "vol-15"
+      ]
+    },
+    {
+      "id": "thunder-light-spear",
+      "type": "technology / combat / special-weapon",
+      "owner": "",
+      "description": "赛莉丝缇雅的特殊武装，能以枪尖释放雷光并配合突刺烧灼幻神兽核心。",
+      "details": {
+        "owner": "celistia-largreis",
+        "associated_drag_ride": "lin-dragon-insect",
+        "weapon_shape": "巨大突击枪"
+      },
+      "volumes": [
+        "vol-10"
+      ]
+    },
+    {
+      "id": "tiamat-air-fortress",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "Tiamat's remote projectile weapon units that fly independently and ram enemies under Lisha's control.",
+      "details": {
+        "machine": "lisha-tiamat",
+        "normal_count": 4,
+        "expanded_count": 16,
+        "control": "operated through Tiamat and the Sword Device"
+      },
+      "volumes": [
+        "vol-01"
+      ]
+    },
+    {
+      "id": "tiamat-seven-dragon-heads",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "A huge seven-barreled cannon attachment for Tiamat, concentrating overwhelming firepower into multiple beams.",
+      "details": {
+        "machine": "lisha-tiamat",
+        "barrels": 7,
+        "role": "finishing artillery and anti-Abyss firepower"
+      },
+      "volumes": [
+        "vol-01"
+      ]
+    },
+    {
+      "id": "translation-for-soffice",
+      "type": "social / skill",
+      "owner": "",
+      "description": "兀儿库代替怯生沉默的苏菲丝向外界解释其意思。",
+      "details": {
+        "used_by": "uruk",
+        "target": "soffice"
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "true-battle-array",
+      "type": "combat / technology / supernatural",
+      "owner": "",
+      "description": "辛格伦将战阵调律技术与《利维坦》神装王权结合的强化技，使用水流作为刃、雷达、防护膜和推进机构。",
+      "details": {
+        "user": "singlen-shebrit",
+        "requires": [
+          "royal-authority",
+          "battle-array"
+        ]
+      },
+      "volumes": [
+        "vol-12",
+        "vol-15"
+      ]
+    },
+    {
+      "id": "true-eye-manifestation",
+      "type": "supernatural / technology / mental",
+      "owner": "",
+      "description": "吞婴蛇的神装，可近距离读取对手大致思路并预判行动。",
+      "details": {},
+      "volumes": [
+        "vol-18",
+        "vol-19"
+      ]
+    },
+    {
+      "id": "tuning",
+      "type": "technology / skill",
+      "owner": "",
+      "description": "调整装甲机龙功率、武装与能源配置的技术；莉夏擅长维护调律，辛格伦将其直接运用于实战。",
+      "details": {
+        "uses": [
+          "装备维护",
+          "功率设定",
+          "战阵技巧基础"
+        ],
+        "combat_application": "战斗中实时改写能源与障壁输出"
+      },
+      "volumes": [
+        "vol-07",
+        "vol-19"
+      ]
+    },
+    {
+      "id": "twelve-iron-bars",
+      "type": "technology / drag-ride special armament",
+      "owner": "",
+      "description": "葛力尼奇特殊武装，生成无人装甲机龙，可作为诱饵、零件与神装重组材料。",
+      "details": {},
+      "volumes": [
+        "vol-14",
+        "vol-16"
+      ]
+    },
+    {
+      "id": "type-specific-dragon-adjustment",
+      "type": "technology / skill",
+      "owner": "",
+      "description": "诺珂特·利弗雷特持有的特装机龙《特装机龙》的能力。可以从肩口机械处延伸出长线与其他机龙连接，进行系统级的调整和限制，防止操作失误导致的暴走。",
+      "details": {
+        "mechanism": "通过肩口机械延伸线缆与目标机龙连接",
+        "functions": [
+          "施加命令限制",
+          "防止暴走",
+          "辅助操作"
+        ]
+      },
+      "volumes": [
+        "vol-05"
+      ]
+    },
+    {
+      "id": "typhon-dragon-bite-blast",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "堤丰右臂发红光后可将能量注入抓住或接触的物体，使其爆炸。",
+      "details": {
+        "weapon": "philuffy-typhon",
+        "use_in_volume": "菲尔菲抓住演习场地面并爆破，扬起烟尘以压迫赛莉丝。"
+      },
+      "volumes": [
+        "vol-03"
+      ]
+    },
+    {
+      "id": "typhon-dragon-bite-chain",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "堤丰从手臂、肩部、背部射出带咬合尖端的钢线桩，可抓取目标、地形或瓦砾并用于攻击和机动。",
+      "details": {
+        "weapon": "philuffy-typhon",
+        "tactics": "菲尔菲用其抓住墙面瓦砾变成即席锁棍棒，并牵引自身改变轨道。"
+      },
+      "volumes": [
+        "vol-03",
+        "vol-08"
+      ]
+    },
+    {
+      "id": "typhon-dragon-bite-chains",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "堤丰从各部位发射锚具钢线拘束敌人，可拉近、拖拽或作为格斗起点。",
+      "details": {},
+      "volumes": [
+        "vol-11"
+      ]
+    },
+    {
+      "id": "typhon-drake-lock",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "菲尔菲的《堤丰》从各部位发射钢线锁链，用于拘束、拉扯和甩动大型敌人。",
+      "details": {
+        "user": "philuffy-aingram",
+        "drag_ride": "typhon"
+      },
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "typhon-missing-faith",
+      "type": "supernatural / drag-ride divine raiment",
+      "owner": "",
+      "description": "堤丰的神装，可使自身以外神装失效并降低周围机龙功率。本卷被密丝希斯夺取后用于压制赛莉丝和菲尔菲。",
+      "details": {},
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "typhon-operation",
+      "type": "technology / combat / skill",
+      "owner": "",
+      "description": "Philuffy's ability to operate the Divine Drag-Ride Typhon, making her a high-value Knight Squadron combatant despite her sleepy demeanor.",
+      "details": {
+        "machine": "philuffy-typhon",
+        "combat_use_in_vol01": "kept for Crossfield defense rather than sortieing against the large Abyss"
+      },
+      "volumes": [
+        "vol-01"
+      ]
+    },
+    {
+      "id": "typhon-ruthless-fruit",
+      "type": "supernatural / combat / technology",
+      "owner": "",
+      "description": "神装机龙堤丰的神装，以漆黑波动让其他机龙神装无效，并降低机龙性能。菲尔菲平时因负荷无法实战使用，本卷在寄生树强化下被迫发动。",
+      "details": {
+        "drag_ride": "typhon",
+        "user": "philuffy-aingram"
+      },
+      "volumes": [
+        "vol-04",
+        "vol-06",
+        "vol-11",
+        "vol-15",
+        "vol-20"
+      ]
+    },
+    {
+      "id": "unlimited-chain",
+      "type": "combat / skill",
+      "owner": "",
+      "description": "旧帝国相传的机龙操纵奥义，可发动连续斩击以覆盖防御范围。路克斯用于保护爱理与三和音免受银闪·雹牙的斩击豪雨。",
+      "details": {
+        "function": "高速连续斩击与拦截",
+        "limitation": "极耗体力，无法无限持续"
+      },
+      "volumes": [
+        "vol-07"
+      ]
+    },
+    {
+      "id": "unmanned-drag-ride-control",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "拉可儿雪以方舟系统替代人类操纵者，部署金属人形驾驶的飞翔机龙，并可解除其安全限制。",
+      "details": {
+        "controller": "la-krusche",
+        "machines": "unmanned-wyverns"
+      },
+      "volumes": [
+        "vol-04"
+      ]
+    },
+    {
+      "id": "vajra-lightning",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "《弗栗多》的特殊武装，布置卫星武器从空中释放雷击。",
+      "details": {
+        "drag_ride": "vritra",
+        "user": "soffice-xfer"
+      },
+      "volumes": [
+        "vol-16",
+        "vol-20"
+      ]
+    },
+    {
+      "id": "veteran-drag-ride-piloting",
+      "type": "combat / skill",
+      "owner": "",
+      "description": "兹拜贝鲁克作为老兵辅佐官所具备的机龙战斗经验。",
+      "details": {
+        "used_by": "zwei"
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    },
+    {
+      "id": "vibrating-blade",
+      "type": "technology / weapon-skill",
+      "owner": "",
+      "description": "布朗狄修使用的稀有武装，通过高速震动刀身强化切断与冲击，隔着装甲也能伤害使用者。",
+      "details": {},
+      "volumes": [
+        "vol-11"
+      ]
+    },
+    {
+      "id": "vritra-vajra",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "苏菲丝通过《弗栗多》从上空落下的光柱雷击，用于远程压制与反击。",
+      "details": {
+        "user": "sophies-ecfa",
+        "drag_ride": "vritra",
+        "attack_form": "从上方落下的雷击/光柱"
+      },
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "vritra-wind-authority",
+      "type": "supernatural / drag-ride divine raiment",
+      "owner": "",
+      "description": "弗栗多的神装，可控制轨道。苏菲丝用其偏转伊布力斯精神污染，并操纵波赛顿触手缠住伊布力斯与暴露本体。",
+      "details": {},
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "vritra-wind-glory",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "神装机龙《弗栗多》的神装，能操纵物体或攻击轨道，使武器、束缚、目标移动方向被强制改变。",
+      "details": {
+        "user": "sophies-ecfa",
+        "drag_ride": "vritra",
+        "limits": "无法同时对多种目标完全使用；使用于解锁束缚时会削弱防御或反击余裕"
+      },
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "vritra-wind-grand-force",
+      "type": "divine-drag-ride ability",
+      "owner": "",
+      "description": "弗栗多神装，可改变物体或能量轨道；苏菲丝用其偏转迪亚布罗自爆、奥罗波若斯攻击、音波和树叶。",
+      "details": {
+        "used_by": "sophice-xfer"
+      },
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "vritra-wind-majesty",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "《弗栗多》的神装，可操纵目标轨道与风势，牵引同伴、偏转炮击或改变缚锁方向。",
+      "details": {
+        "drag_ride": "vritra",
+        "user": "soffice-xfer",
+        "applications": [
+          "救出葛莱法",
+          "改变炮击轨道",
+          "偏转龙咬缚锁"
+        ]
+      },
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "water-flow-flame-formation",
+      "type": "technology / sensor / combat",
+      "owner": "",
+      "description": "佩鲁达神装，利用散布装甲内探测器侦查周围物体，并可通过共鸣形成电磁屏障或攻击。",
+      "details": {},
+      "volumes": [
+        "vol-18"
+      ]
+    },
+    {
+      "id": "wild-survival-instinct",
+      "type": "innate / combat / skill",
+      "owner": "",
+      "description": "葛莱法在生死边缘磨练出的直觉，可在理论反应前判断死亡陷阱与最佳突击时机。",
+      "details": {
+        "user": "greifer-nest",
+        "examples": [
+          "躲开弗基尔配合光子潜行解除的杀招",
+          "率先突入奥罗波若斯怀中"
+        ]
+      },
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "wind-majesty",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "弗栗多操纵物质和能量轨道的神装。苏菲丝用它改变敌我轨道，并最终破坏石像鬼突进平衡。",
+      "details": {},
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "world-rewrite",
+      "type": "supernatural / technology",
+      "owner": "",
+      "description": "借由《奥罗波若斯》神装《永劫回归》与大圣域、七遗迹共鸣实现的大范围感知与记忆修正。本卷表现为游行三天记忆反复回到第一天,但实际时间继续流逝。",
+      "details": {
+        "source": "ouroboros + grand-sanctuary + seven-ruins",
+        "effect_scope": "世界范围感知修正",
+        "limitation": "连续使用消耗巨大;至高之力缺失会导致不完整并逐渐失效"
+      },
+      "volumes": [
+        "vol-17",
+        "vol-20"
+      ]
+    },
+    {
+      "id": "world-rewriting-system",
+      "type": "technology / authority",
+      "owner": "",
+      "description": "弗基尔借奥罗波若斯执行的认知改写能力。此处作为角色能力引用，系统整体见 systems/world-rewriting-system.json。",
+      "details": {},
+      "volumes": [
+        "vol-19"
+      ]
+    },
+    {
+      "id": "world-rewriting",
+      "type": "supernatural / technology",
+      "owner": "",
+      "description": "由奥罗波若斯与大圣域执行的记忆与历史覆盖现象。",
+      "details": {},
+      "volumes": [
+        "vol-18"
+      ]
+    },
+    {
+      "id": "wyrm-roar",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "装甲机龙头部或机体释放的冲击波，可用于牵制、打断、弹开敌人。",
+      "details": {
+        "usage": "路克斯、葛莱法等机龙使均使用"
+      },
+      "volumes": [
+        "vol-06"
+      ]
+    },
+    {
+      "id": "wyrm-x-dual-sword",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "艾露堤莉泽驾驶《陆战机龙X》以双剑防卫史提尔、察因和教皇周边。",
+      "details": {
+        "user": "eiril-triser",
+        "drag_ride": "wyrm-x"
+      },
+      "volumes": [
+        "vol-08"
+      ]
+    },
+    {
+      "id": "wyvern-basic-combat",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "神殿骑士团与察因等机龙使使用飞翔型装甲机龙进行巡礼护卫、机龙牙剑格斗和空中支援。",
+      "details": {
+        "drag_ride": "wyvern"
+      },
+      "volumes": [
+        "vol-08"
+      ]
+    },
+    {
+      "id": "wyvern-command",
+      "type": "command / combat",
+      "owner": "",
+      "description": "指挥飞翔机龙部队执行撤退、伤员运输和警戒的能力。尼尔与道拉负责管理不参战人员撤离。",
+      "details": {
+        "users": "nil; doura"
+      },
+      "volumes": [
+        "vol-20"
+      ]
+    },
+    {
+      "id": "wyvern-x-ancient-coating",
+      "type": "technology",
+      "owner": "",
+      "description": "拉葛利多飞翔机龙X表面的古代技术粉末或微小机械，能修正轨道并缓和攻击。",
+      "details": {
+        "source": "艾儿·法洁勒分身或海兹提供的遗迹技术"
+      },
+      "volumes": [
+        "vol-06"
+      ]
+    },
+    {
+      "id": "wyvern-x-piloting",
+      "type": "combat / skill",
+      "owner": "",
+      "description": "操纵强化泛用型飞翔机龙X的能力，要求高机动力控制与空战判断。",
+      "details": {
+        "users": [
+          "coral",
+          "mel-gizalut",
+          "ragreed-forus"
+        ]
+      },
+      "volumes": [
+        "vol-06"
+      ]
+    },
+    {
+      "id": "yato-no-kami-forbidden-curse",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "《夜刀神》的神装，能夺取接触对象的装甲机龙控制权。夜架本卷通过蜘蛛丝扩大接触范围，让龙匪贼部队自相残杀。",
+      "details": {
+        "user": "kirihime-yoruka",
+        "drag_ride": "yato-no-kami"
+      },
+      "volumes": [
+        "vol-08",
+        "vol-20"
+      ]
+    },
+    {
+      "id": "yato-no-kami-forbidden-spell",
+      "type": "technology / combat / divine-drag-ride",
+      "owner": "",
+      "description": "《夜刀神》的神装，可对目标下达强制命令。夜架在密丝希斯战中通过蜘蛛丝预先命令，短暂封住密丝希斯使用神装。",
+      "details": {
+        "drag_ride": "yato-no-kami",
+        "user": "yoruka-kirihime"
+      },
+      "volumes": [
+        "vol-15"
+      ]
+    },
+    {
+      "id": "yato-no-kami-stealth-recon",
+      "type": "technology / reconnaissance",
+      "owner": "",
+      "description": "夜刀神具备广范围探测与隐密行动价值。夜架抵达后用探测装置确认古城礼拜堂的生命反应与神装机龙反应，支持三和音救援作战。",
+      "details": {},
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "yato-no-kami-stealth",
+      "type": "technology / combat / support",
+      "owner": "",
+      "description": "夜架的神装机龙夜刀神具备侦敌、迷彩、支援、辅助与修复等特装机能，本卷用于隐藏、探测爱理位置并安全引路。",
+      "details": {
+        "drag_ride": "yato-no-kami",
+        "functions": [
+          "迷彩隐藏",
+          "探测装置",
+          "支援辅助"
+        ]
+      },
+      "volumes": [
+        "vol-07"
+      ]
+    },
+    {
+      "id": "yatogami-forbidden-curse",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "夜刀神神装，可干涉装甲机龙，但对非机龙的终焉神兽梅塔特隆无效。",
+      "details": {},
+      "volumes": [
+        "vol-11"
+      ]
+    },
+    {
+      "id": "yatogami-forbidden-spell",
+      "type": "technology / authority",
+      "owner": "",
+      "description": "夜刀神的神装，触碰其他装甲机龙后以符号夺取其控制权，接触越久控制越强。",
+      "details": {
+        "drag_ride": "yatogami",
+        "limits": "离开夜刀神一段距离后控制力减弱或解除"
+      },
+      "volumes": [
+        "vol-06"
+      ]
+    },
+    {
+      "id": "yatogami-limit-break",
+      "type": "technology / combat / supernatural",
+      "owner": "",
+      "description": "夜架利用禁咒符号强行深入干涉《夜刀神》系统，绕过普通隐藏代码使机体进入强化形态。形态近似人马一体，提升突击与斩击破坏力。",
+      "details": {
+        "user": "yakumo",
+        "divine_drag_ride": "yatogami"
+      },
+      "volumes": [
+        "vol-12"
+      ]
+    },
+    {
+      "id": "yatono-kami-detection",
+      "type": "technology / skill",
+      "owner": "",
+      "description": "切姬夜架使用《夜刀神》的探测装置侦查周围气息、足迹与隐藏机龙使。",
+      "details": {
+        "drag_ride": "yatono-kami",
+        "user": "yoruka-kirihime"
+      },
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "yggdrasil-adaptive-strengthening",
+      "type": "supernatural / ragnarok ability",
+      "owner": "",
+      "description": "尤克特拉希尔能对敌人攻击产生抗性并成长得更强，是持续战斗中极难突破的能力。",
+      "details": {},
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "yggdrasil-command",
+      "type": "supernatural / authority",
+      "owner": "",
+      "description": "尤克特拉希尔本体或起源种角笛向寄生树宿主下达本能指令，使其攻击指定对象。",
+      "details": {
+        "source": "yggdrasil",
+        "controller": "hayes",
+        "host": "philuffy-aingram"
+      },
+      "volumes": [
+        "vol-04"
+      ]
+    },
+    {
+      "id": "yggdrasil-parasitic-tree",
+      "type": "supernatural / genetic",
+      "owner": "",
+      "description": "终焉神兽尤克特拉希尔的种子植入心脏后与宿主同化，平时维持生命与强化肉体，受角笛命令时会强迫宿主行动。",
+      "details": {
+        "host": "philuffy-aingram",
+        "controller": "hayes",
+        "source_beast": "yggdrasil"
+      },
+      "volumes": [
+        "vol-04"
+      ]
+    },
+    {
+      "id": "yggdrasil-rapid-evolution",
+      "type": "supernatural",
+      "owner": "",
+      "description": "尤克特拉希尔本体的核心能力，受到攻击后迅速获得抗性并提升力量与速度。",
+      "details": {
+        "source": "yggdrasil",
+        "fuel": "吞噬方舟生产区域大量幻神兽获得生命力"
+      },
+      "volumes": [
+        "vol-04"
+      ]
+    },
+    {
+      "id": "yggdrasil-seed-enhancement",
+      "type": "genetic / supernatural / combat",
+      "owner": "",
+      "description": "菲尔菲体内残留的尤克特拉希尔种子力量可强化身体与《堤丰》，但伴随幻神兽化负担与精神干涉风险。",
+      "details": {
+        "user": "philuffy-aingram",
+        "risk": "可能被角笛或幻神兽因素影响；需休眠舱或大圣域技术进一步治疗"
+      },
+      "volumes": [
+        "vol-13"
+      ]
+    },
+    {
+      "id": "yoruka-drag-ride-control",
+      "type": "combat / skill",
+      "owner": "",
+      "description": "切姬夜架以特殊神装机龙发挥侦敌、压倒性近战和对敌机龙的异常操控。",
+      "details": {
+        "user": "kirihime-yoruka",
+        "weapon": "yoruka-katana-device"
+      },
+      "volumes": [
+        "vol-04"
+      ]
+    },
+    {
+      "id": "yoruka-kokugeki",
+      "type": "combat / supernatural / skill",
+      "owner": "",
+      "description": "夜架借左眼洗礼强化后完成的剑技，瞄准对手意识中断的下意识缝隙发动斩击，使对手即使看见也难以反应。",
+      "details": {
+        "principle": "观察对手意识波长与动作预备习惯"
+      },
+      "volumes": [
+        "vol-06"
+      ]
+    },
+    {
+      "id": "zahhak-double-headed-evil-wisdom",
+      "type": "supernatural / drag-ride divine raiment",
+      "owner": "",
+      "description": "札哈克的神装，可干涉附近对象精神，消除特定记忆与认知。爱莉尔用它误导敌人认知、保护路克斯并设计击败海兹。",
+      "details": {},
+      "volumes": [
+        "vol-14"
+      ]
+    },
+    {
+      "id": "zahhak-double-headed-wisdom",
+      "type": "technology / combat",
+      "owner": "",
+      "description": "神装机龙《札哈克》的神装，可让目标遗忘指定对象、事实或已经执行过的动作。",
+      "details": {
+        "drag_ride": "zahhak",
+        "user": "ariel-vi-arcadia",
+        "uses": [
+          "让弗基尔忘记玛姬艾儿卡存在",
+          "让弗基尔误判生死流转储存状态",
+          "让弗基尔忘记玛姬艾儿卡本体位置"
+        ]
+      },
+      "volumes": [
+        "vol-16"
+      ]
+    },
+    {
+      "id": "zahhak-sniping",
+      "type": "combat / technology",
+      "owner": "",
+      "description": "身份不明的札哈克机龙使从夜空远距离射击，精准击中盖达夫制造破绽。",
+      "details": {
+        "used_by": "zahhak-pilot",
+        "drag_ride": "zahhak"
+      },
+      "volumes": [
+        "vol-09"
+      ]
+    }
+  ]
+}

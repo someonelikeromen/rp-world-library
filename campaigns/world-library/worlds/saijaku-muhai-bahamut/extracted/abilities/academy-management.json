@@ -1,0 +1,45 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "academy-management",
+  "volume": "vol-09",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-09/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-09",
+      "volume": "vol-09",
+      "time": "vol-09",
+      "name": {
+        "zh": "学园经营管理",
+        "en": "Academy Management"
+      },
+      "aliases": [],
+      "type": "social / authority",
+      "description": "蕾莉作为学园长统筹学园祭、危机善后与学生职务安排的能力。",
+      "details": {
+        "used_by": "relie"
+      },
+      "activation": {
+        "condition": "学园运营或突发事件",
+        "incantation": "",
+        "time": "continuous",
+        "cost": "行政责任"
+      },
+      "effects": [
+        "组织学园祭",
+        "调度人员",
+        "处理辞呈和善后"
+      ],
+      "shared_by": [
+        "relie"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:3231",
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:8125"
+      ]
+    }
+  ]
+}

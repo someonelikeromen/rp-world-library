@@ -1,0 +1,51 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "royal-crisis-diplomacy",
+  "volume": "vol-13",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-13/full.txt:3600"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-13",
+      "volume": "vol-13",
+      "time": "世界联盟会议",
+      "name": {
+        "zh": "王权危机外交",
+        "en": "Royal Crisis Diplomacy"
+      },
+      "aliases": [
+        "女王外交"
+      ],
+      "type": "skill / social",
+      "description": "罗菲女王在世界联盟压力下为新王国争取准备时间、避免立即被牺牲的政治交涉能力。",
+      "details": {
+        "user": "raffi-atismata"
+      },
+      "activation": {
+        "condition": "多国会议与国家危机",
+        "incantation": "无",
+        "time": "会议持续",
+        "cost": "政治资本与精神负担"
+      },
+      "effects": [
+        "争取反攻前准备期",
+        "暂时保护新王国免于立即成为牺牲品"
+      ],
+      "known_feats": [
+        {
+          "summary": "罗菲女王在会议中请求各国稍候片刻准备反攻。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-13/full.txt:3600"
+        }
+      ],
+      "shared_by": [
+        "raffi-atismata"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-13/full.txt:3600"
+      ]
+    }
+  ]
+}

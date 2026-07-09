@@ -1,0 +1,301 @@
+{
+  "timestamp": "2026-07-09T13:41:50.925Z",
+  "card": "protagonist",
+  "action": "batch",
+  "note": "",
+  "snapshot": {
+    "index": {
+      "schema": "rp-unified-character-v1",
+      "cardId": "protagonist",
+      "label": "protagonist",
+      "template": "unified-character-v1",
+      "createdAt": "2026-07-09T13:30:20.862Z",
+      "notes": []
+    },
+    "basic": {
+      "name": "待命名的第八位弑神者",
+      "aliases": [],
+      "gender": "",
+      "age": null,
+      "appearance": "",
+      "identityType": "穿越者 / 新晋弑神者",
+      "currentWorldId": "campione",
+      "originWorldId": "unknown-modern-earth",
+      "status": "已弑杀不顺从之神赫菲斯托斯；开局希腊；成就系统已觉醒"
+    },
+    "currentStatus": {
+      "world": "campione",
+      "location": "希腊·利姆诺斯岛近海的古代锻炉遗迹",
+      "time": "神战结束后不久，黎明前",
+      "condition": "刚完成弑神，身体承受神力回流与权能篡夺冲击；咒力低位，意识清醒但疲惫。"
+    },
+    "combat": {
+      "overall": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "offense": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "defense": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "durability": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "reaction": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "mobility": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "control": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "perception": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "mental": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "hax": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "resistance": {},
+      "resource": {}
+    },
+    "resources": [
+      {
+        "id": "stamina",
+        "name": "体力",
+        "capacity": 0,
+        "current": 0,
+        "unit": "",
+        "recoveryRate": "",
+        "externalDependency": "",
+        "combatEndurance": "",
+        "exhaustionEffects": []
+      },
+      {
+        "id": "mana",
+        "name": "魔力",
+        "capacity": 0,
+        "current": 0,
+        "unit": "",
+        "recoveryRate": "",
+        "externalDependency": "",
+        "combatEndurance": "",
+        "exhaustionEffects": []
+      }
+    ],
+    "states": [],
+    "keyRelations": [],
+    "inventoryHighlights": []
+  },
+  "changes": [
+    {
+      "op": {
+        "action": "set",
+        "path": "currentStatus.world",
+        "value": "campione"
+      },
+      "result": {
+        "before": "campione",
+        "after": "campione"
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "currentStatus.location",
+        "value": "希腊·利姆诺斯岛近海的古代锻炉遗迹"
+      },
+      "result": {
+        "before": "",
+        "after": "希腊·利姆诺斯岛近海的古代锻炉遗迹"
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "currentStatus.time",
+        "value": "神战结束后不久，黎明前"
+      },
+      "result": {
+        "before": "",
+        "after": "神战结束后不久，黎明前"
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "currentStatus.condition",
+        "value": "刚完成弑神，身体承受神力回流与权能篡夺冲击；咒力低位，意识清醒但疲惫。"
+      },
+      "result": {
+        "before": "新档初始化：Actor 模式，待生成主角",
+        "after": "刚完成弑神，身体承受神力回流与权能篡夺冲击；咒力低位，意识清醒但疲惫。"
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "activeCharacters",
+        "value": [
+          {
+            "id": "hephaestus-remnant",
+            "name": "赫菲斯托斯的神力残响",
+            "status": "已陨落，但锻炉与火山神性仍在现场回荡"
+          },
+          {
+            "id": "greek-magic-society-scouts",
+            "name": "希腊神秘侧侦测者",
+            "status": "尚未登场；可能已察觉不顺从之神陨落"
+          }
+        ]
+      },
+      "result": {
+        "before": [],
+        "after": [
+          {
+            "id": "hephaestus-remnant",
+            "name": "赫菲斯托斯的神力残响",
+            "status": "已陨落，但锻炉与火山神性仍在现场回荡"
+          },
+          {
+            "id": "greek-magic-society-scouts",
+            "name": "希腊神秘侧侦测者",
+            "status": "尚未登场；可能已察觉不顺从之神陨落"
+          }
+        ]
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "knownPowerSystems",
+        "value": [
+          {
+            "id": "campione-godslayer-authority",
+            "name": "弑神者 / 权能",
+            "status": "已觉醒：从赫菲斯托斯处篡夺权能，尚未完全掌控"
+          },
+          {
+            "id": "campione-heretic-gods",
+            "name": "不顺从之神",
+            "status": "已确认：赫菲斯托斯以不顺从之神形态降临并被弑杀"
+          },
+          {
+            "id": "achievement-system",
+            "name": "成就系统",
+            "status": "已启用：主角专属外挂，隐藏默认，手动打开光屏"
+          }
+        ]
+      },
+      "result": {
+        "before": [
+          {
+            "id": "campione-godslayer-authority",
+            "name": "弑神者 / 权能",
+            "status": "世界核心设定"
+          },
+          {
+            "id": "campione-heretic-gods",
+            "name": "不顺从之神",
+            "status": "世界核心设定"
+          }
+        ],
+        "after": [
+          {
+            "id": "campione-godslayer-authority",
+            "name": "弑神者 / 权能",
+            "status": "已觉醒：从赫菲斯托斯处篡夺权能，尚未完全掌控"
+          },
+          {
+            "id": "campione-heretic-gods",
+            "name": "不顺从之神",
+            "status": "已确认：赫菲斯托斯以不顺从之神形态降临并被弑杀"
+          },
+          {
+            "id": "achievement-system",
+            "name": "成就系统",
+            "status": "已启用：主角专属外挂，隐藏默认，手动打开光屏"
+          }
+        ]
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "activeConflicts",
+        "value": [
+          {
+            "id": "post-godslaying-fallout",
+            "name": "弑神余波",
+            "summary": "赫菲斯托斯陨落造成希腊神秘侧震动，新晋弑神者的存在即将被发现。"
+          },
+          {
+            "id": "authority-control",
+            "name": "权能失控风险",
+            "summary": "锻炉、神火、金属与火山权能仍处于新生阶段，使用时可能付出高额咒力与肉体代价。"
+          }
+        ]
+      },
+      "result": {
+        "before": [],
+        "after": [
+          {
+            "id": "post-godslaying-fallout",
+            "name": "弑神余波",
+            "summary": "赫菲斯托斯陨落造成希腊神秘侧震动，新晋弑神者的存在即将被发现。"
+          },
+          {
+            "id": "authority-control",
+            "name": "权能失控风险",
+            "summary": "锻炉、神火、金属与火山权能仍处于新生阶段，使用时可能付出高额咒力与肉体代价。"
+          }
+        ]
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "stateChanges",
+        "value": [
+          {
+            "id": "new-save-setup",
+            "summary": "新档初始化为 Actor 模式，世界 campione，主角为穿越者、新晋弑神者，外挂为成就系统。"
+          }
+        ]
+      },
+      "result": {
+        "before": [],
+        "after": [
+          {
+            "id": "new-save-setup",
+            "summary": "新档初始化为 Actor 模式，世界 campione，主角为穿越者、新晋弑神者，外挂为成就系统。"
+          }
+        ]
+      }
+    }
+  ]
+}

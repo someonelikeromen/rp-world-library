@@ -1,0 +1,67 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "curse-symbol",
+  "volume": "vol-18",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-18/full.txt:2878-2890"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-18-main",
+      "volume": "vol-18",
+      "time": "夜架对尤斯·托克战",
+      "name": {
+        "zh": "禁咒符号",
+        "en": "Curse Symbol"
+      },
+      "aliases": [
+        "夜刀神神装"
+      ],
+      "type": "technology / combat",
+      "description": "夜刀神的神装，接触目标机龙后短暂夺取控制权。",
+      "effects": [
+        "暂时控制敌方机龙",
+        "可命令目标丢弃或交出武器"
+      ],
+      "shared_by": [
+        "yaka"
+      ],
+      "see_also": [
+        "yatono-kami-divine-drag-ride"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-18/full.txt:2878-2890",
+        "saijaku-muhai-bahamut-main/vol-18/full.txt:3400-3440"
+      ]
+    },
+    {
+      "period_id": "vol-19",
+      "volume": "vol-19",
+      "time": "最终战",
+      "name": {
+        "zh": "禁咒符号",
+        "en": "Curse Symbol"
+      },
+      "aliases": [
+        "夜刀神强化符号"
+      ],
+      "type": "technology / combat",
+      "description": "夜架借夜刀神施加的强化符号，帮助路克斯的巴哈姆特重新获得力量并切换至超越极限状态。",
+      "effects": [
+        "辅助极限突破",
+        "强化机龙输出",
+        "为最终贯穿创造条件"
+      ],
+      "shared_by": [
+        "kirihime-yagami",
+        "lux-arcadia"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-19/full.txt:2693-6600"
+      ]
+    }
+  ]
+}

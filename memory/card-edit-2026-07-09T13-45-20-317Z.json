@@ -1,0 +1,147 @@
+{
+  "timestamp": "2026-07-09T13:45:20.317Z",
+  "card": "protagonist",
+  "action": "batch",
+  "note": "",
+  "snapshot": {
+    "index": {
+      "schema": "rp-unified-character-v1",
+      "cardId": "protagonist",
+      "label": "protagonist",
+      "template": "unified-character-v1",
+      "createdAt": "2026-07-09T13:30:20.862Z",
+      "notes": []
+    },
+    "basic": {
+      "name": "",
+      "aliases": [],
+      "gender": "",
+      "age": null,
+      "appearance": "",
+      "identityType": "穿越者",
+      "currentWorldId": "campione",
+      "originWorldId": "",
+      "status": "穿越者；知道大部分 Campione 设定；机缘巧合杀了赫菲斯托斯；开局希腊；外挂：成就系统（细节待确认）"
+    },
+    "currentStatus": {
+      "world": "campione",
+      "location": "希腊（具体地点待确认）",
+      "time": "",
+      "condition": "已弑杀赫菲斯托斯；身体状态、咒力状态与权能状态待确认。"
+    },
+    "combat": {
+      "control": {
+        "basis": "权能刚篡夺，尚未掌握咒文、触发条件和安全输出。",
+        "rating": "低稳定性高上限",
+        "score": 48
+      },
+      "defense": {
+        "basis": "弑神者体质带来异常抗性，但刚弑神后的身体状态较差。",
+        "rating": "高咒术抗性 / 肉体防护未稳定",
+        "score": 74
+      },
+      "durability": {
+        "basis": "生命力与恢复潜力远超常人，但当前处于弑神后冲击。",
+        "rating": "弑神者体质初醒",
+        "score": 78
+      },
+      "hax": {
+        "basis": "锁神之枷、神性火焰与神匠塑形具备对魔术/神性目标的规则优势。",
+        "rating": "权能级规则干涉",
+        "score": 80
+      },
+      "mental": {
+        "basis": "知道大部分设定，但刚弑神后的精神压力很高。",
+        "rating": "穿越者知识优势 / 战后冲击",
+        "score": 68
+      },
+      "mobility": {
+        "basis": "赫菲斯托斯权能不以高速移动见长。",
+        "rating": "常态普通偏上",
+        "score": 55
+      },
+      "offense": {
+        "basis": "神炉与锻造火对神性、咒术与金属目标具备高杀伤，但需要媒介和塑形。",
+        "rating": "爆发极高 / 常态不足",
+        "score": 86
+      },
+      "overall": {
+        "basis": "已弑杀不顺从之神赫菲斯托斯并篡夺权能，但经验、咒力控制与权能咒文均未稳定。",
+        "rating": "新晋弑神者级（极不稳定）",
+        "score": 82
+      },
+      "perception": {
+        "basis": "对火焰、热源、金属震动与锻炉残响有新生感知。",
+        "rating": "火与金属感知异常敏锐",
+        "score": 70
+      },
+      "reaction": {
+        "basis": "感官被神力强化，但战斗直觉尚未适应。",
+        "rating": "人类上位 / 经验不足",
+        "score": 62
+      },
+      "resistance": {
+        "divine": "可承受部分神力余波，仍有反噬风险",
+        "magic": "弑神者级抗性初醒，但尚未完全稳定"
+      },
+      "resource": {
+        "mana": "当前咒力低位，短期内不宜连续爆发"
+      }
+    },
+    "resources": [
+      {
+        "capacity": 0,
+        "combatEndurance": "",
+        "current": 0,
+        "exhaustionEffects": [],
+        "externalDependency": "",
+        "id": "stamina",
+        "name": "体力",
+        "recoveryRate": "",
+        "unit": ""
+      },
+      {
+        "capacity": 0,
+        "combatEndurance": "",
+        "current": 0,
+        "exhaustionEffects": [],
+        "externalDependency": "",
+        "id": "mana",
+        "name": "魔力",
+        "recoveryRate": "",
+        "unit": ""
+      }
+    ],
+    "states": [],
+    "keyRelations": [],
+    "inventoryHighlights": []
+  },
+  "changes": [
+    {
+      "op": {
+        "action": "set",
+        "path": "states",
+        "value": []
+      },
+      "result": {
+        "before": [
+          {
+            "effects": [
+              "高热感",
+              "耳鸣与火花幻视",
+              "对金属震动和火焰变化异常敏感",
+              "权能使用成本暂时升高"
+            ],
+            "id": "post-godslaying-shock",
+            "name": "弑神后冲击",
+            "resolution": "经过休息、首次权能稳定使用或成就系统结算后缓解",
+            "severity": "major",
+            "summary": "身体正在适应从赫菲斯托斯处篡夺的权能，神力回流使感官、体温与咒力循环异常。",
+            "type": "condition"
+          }
+        ],
+        "after": []
+      }
+    }
+  ]
+}

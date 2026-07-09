@@ -1,0 +1,80 @@
+{
+  "resistances": [
+    {
+      "effects": [
+        "直接施加在弑神者身上的魔术会被完全弹开",
+        "直接作用于身体或精神的敌意术式、有益术式和诅咒原则上无效",
+        "咒力体量远高于普通魔术师，可用魔王级咒力对抗常规魔术",
+        "可感知咒力与言灵的作用"
+      ],
+      "exceptions": [
+        "观相、看脸、看骨骼等不直接施加于肉体/精神的判断术",
+        "从弑神者身上强大之『气』着手的探索占术",
+        "魔术召唤或制造的实体、魔兽、环境变化和物理结果",
+        "经由摄取魔术性药物，从身体内部施加的术式",
+        "经由口腔摄取的『传授』魔术",
+        "神明、神具、权能级干涉"
+      ],
+      "id": "campione-magic-immunity",
+      "name": "魔法抗性 / 弱化版幻想杀手",
+      "rating": {
+        "basis": "原文明确：对弑神者施加魔术会完全弹开；但观相/占术、人造魔兽、药物和口腔传授可绕开。",
+        "rating": "N8 山脉/区域级",
+        "score": 18000
+      },
+      "sourceRefs": [
+        "campione-main/vol-11/chapters/ch-001-第一章 魔王诞生……？.txt:964-974",
+        "campione-main/vol-11/chapters/ch-003-第三章 剑和艾莉卡和梅尔卡托.txt:562-578",
+        "campione-main/vol-11/chapters/ch-003-第三章 剑和艾莉卡和梅尔卡托.txt:636-670"
+      ],
+      "type": "supernatural-resistance",
+      "sourceCalibration": "已将『任何魔法完全免疫』精校为『直接施加于身体/精神的魔术原则无效，存在原文例外』。"
+    },
+    {
+      "effects": [
+        "抵抗普通神秘侧威压",
+        "面对神明时激发战斗状态",
+        "不因普通魔术师或神兽压迫轻易崩溃"
+      ],
+      "exceptions": [
+        "高位神明权能",
+        "针对性封印或权能夺取",
+        "宁易未理解的神格机制"
+      ],
+      "id": "godslayer-god-pressure-resistance",
+      "name": "神威 / 神级威压抗性",
+      "rating": {
+        "basis": "弑神者作为神之宿敌，可在神战中维持自我与战斗意志。",
+        "rating": "N7 城市级",
+        "score": 12000
+      },
+      "sourceRefs": [
+        "campione-main/vol-06/chapters/ch-001-第一章 再会了 约翰·布鲁托·史密斯.txt:172",
+        "campione-main/vol-16/chapters/ch-006-第6话 逸闻·显圣二郎真君.txt"
+      ],
+      "type": "mental-spiritual-resistance"
+    },
+    {
+      "effects": [
+        "知道神明可用针对性术式暂时夺取或驱使弑神者权能",
+        "可优先用神匠之炉加固权能媒介、切断羁绊或锻造防护"
+      ],
+      "exceptions": [
+        "初期没有成熟反制术式",
+        "面对神明级准备仍可能被夺取或封锁"
+      ],
+      "id": "authority-theft-risk-awareness",
+      "name": "权能夺取风险认知",
+      "rating": {
+        "basis": "记录防范意识而非完全免疫。",
+        "rating": "N6 城镇级",
+        "score": 6000
+      },
+      "sourceRefs": [
+        "campione-main/vol-13/chapters/ch-005-第4章 魔境传来的呼唤声.txt",
+        "campione-main/vol-13/chapters/ch-008-第7章 魔女永别了.txt"
+      ],
+      "type": "vulnerability-note"
+    }
+  ]
+}

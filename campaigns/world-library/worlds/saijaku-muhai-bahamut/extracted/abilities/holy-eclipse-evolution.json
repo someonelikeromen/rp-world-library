@@ -1,0 +1,76 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "holy-eclipse-evolution",
+  "volume": "vol-12",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-12/full.txt:5113-7224"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-12-main",
+      "volume": "vol-12",
+      "time": "圣蚀—Gigas—战",
+      "name": {
+        "zh": "圣蚀进化与拟态",
+        "en": "Holy Eclipse Evolution"
+      },
+      "aliases": [
+        "Gigas",
+        "终焉神兽圣蚀",
+        "弱点拟态"
+      ],
+      "type": "supernatural / disaster",
+      "description": "圣蚀翻转为毁灭性终焉神兽后，会模仿过去终焉神兽能力、吸收幻神兽生命力、强化周围幻神兽，并拟态成敌人重要人物动摇意志。",
+      "details": {
+        "terminal_beast": "holy-eclipse-gigas"
+      },
+      "activation": {
+        "condition": "圣蚀表层拯救后翻转为里面",
+        "incantation": "",
+        "time": "持续",
+        "cost": "需要吸收幻神兽作为能量"
+      },
+      "effects": [
+        "高速再生",
+        "抗性适应",
+        "吸收和强化幻神兽",
+        "变成目标弱点人物外貌"
+      ],
+      "power_level": {
+        "initial": "终焉神兽级",
+        "peak": "逼迫路克斯、莉夏、葛莱法、柯莱尔陷入绝境",
+        "evolution": [
+          "适应天声、光子潜行、路克斯洞察力"
+        ]
+      },
+      "known_feats": [
+        "变成蜜弥爱特、亚提司玛特伯爵、莉夏和夜架弟弟外貌"
+      ],
+      "shared_by": [
+        "holy-eclipse"
+      ],
+      "see_also": [
+        "holy-eclipse-revival",
+        "moon-bell"
+      ],
+      "countered_by": [
+        "devour",
+        "critical-strike",
+        "forbidden-seal"
+      ],
+      "counters": [
+        "photon-dive",
+        "heavenly-summon"
+      ],
+      "variations": [
+        "波赛顿系再生",
+        "尤克特拉希尔系进化"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-12/full.txt:5113-7224"
+      ]
+    }
+  ]
+}

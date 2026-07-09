@@ -1,0 +1,244 @@
+{
+  "timestamp": "2026-07-09T13:41:50.911Z",
+  "card": "protagonist",
+  "action": "batch",
+  "note": "",
+  "snapshot": {
+    "index": {
+      "schema": "rp-unified-character-v1",
+      "cardId": "protagonist",
+      "label": "protagonist",
+      "template": "unified-character-v1",
+      "createdAt": "2026-07-09T13:30:20.862Z",
+      "notes": []
+    },
+    "basic": {
+      "name": "待命名的第八位弑神者",
+      "aliases": [],
+      "gender": "",
+      "age": null,
+      "appearance": "",
+      "identityType": "穿越者 / 新晋弑神者",
+      "currentWorldId": "campione",
+      "originWorldId": "unknown-modern-earth",
+      "status": "已弑杀不顺从之神赫菲斯托斯；开局希腊；成就系统已觉醒"
+    },
+    "currentStatus": {
+      "world": "campione",
+      "location": "",
+      "time": "",
+      "condition": "新档初始化：Actor 模式，待生成主角"
+    },
+    "combat": {
+      "overall": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "offense": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "defense": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "durability": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "reaction": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "mobility": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "control": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "perception": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "mental": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "hax": {
+        "rating": "",
+        "score": 0,
+        "basis": ""
+      },
+      "resistance": {},
+      "resource": {}
+    },
+    "resources": [
+      {
+        "id": "stamina",
+        "name": "体力",
+        "capacity": 0,
+        "current": 0,
+        "unit": "",
+        "recoveryRate": "",
+        "externalDependency": "",
+        "combatEndurance": "",
+        "exhaustionEffects": []
+      },
+      {
+        "id": "mana",
+        "name": "魔力",
+        "capacity": 0,
+        "current": 0,
+        "unit": "",
+        "recoveryRate": "",
+        "externalDependency": "",
+        "combatEndurance": "",
+        "exhaustionEffects": []
+      }
+    ],
+    "states": [],
+    "keyRelations": [],
+    "inventoryHighlights": []
+  },
+  "changes": [
+    {
+      "op": {
+        "action": "set",
+        "path": "identity.name",
+        "value": "待命名的第八位弑神者"
+      },
+      "result": {
+        "before": "",
+        "after": "待命名的第八位弑神者"
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "identity.identityType",
+        "value": "穿越者 / 新晋弑神者"
+      },
+      "result": {
+        "before": "",
+        "after": "穿越者 / 新晋弑神者"
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "identity.currentWorldId",
+        "value": "campione"
+      },
+      "result": {
+        "before": "campione",
+        "after": "campione"
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "identity.originWorldId",
+        "value": "unknown-modern-earth"
+      },
+      "result": {
+        "before": "",
+        "after": "unknown-modern-earth"
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "identity.status",
+        "value": "已弑杀不顺从之神赫菲斯托斯；开局希腊；成就系统已觉醒"
+      },
+      "result": {
+        "before": "新档初始化：Actor 模式，待生成主角",
+        "after": "已弑杀不顺从之神赫菲斯托斯；开局希腊；成就系统已觉醒"
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "personality.drive",
+        "value": "在神话灾害与魔术结社的追索中活下去，掌控从赫菲斯托斯处篡夺的权能。"
+      },
+      "result": {
+        "before": "",
+        "after": "在神话灾害与魔术结社的追索中活下去，掌控从赫菲斯托斯处篡夺的权能。"
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "personality.bottomLine",
+        "value": "不因力量而滥杀无辜；重大不可逆选择由玩家裁定。"
+      },
+      "result": {
+        "before": "",
+        "after": "不因力量而滥杀无辜；重大不可逆选择由玩家裁定。"
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "memory.type",
+        "value": "穿越记忆"
+      },
+      "result": {
+        "before": "",
+        "after": "穿越记忆"
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "memory.detail",
+        "value": "知道《Campione!》大部分设定，但具体时间线、人物状态与神明降临细节可能因世界偏移而不完全可靠。"
+      },
+      "result": {
+        "before": "",
+        "after": "知道《Campione!》大部分设定，但具体时间线、人物状态与神明降临细节可能因世界偏移而不完全可靠。"
+      }
+    },
+    {
+      "op": {
+        "action": "set",
+        "path": "memory.knownWorlds",
+        "value": [
+          {
+            "knowledgeLevel": "知道大部分设定，但可靠性并非绝对",
+            "name": "弑神者！ / Campione!",
+            "worldId": "campione"
+          }
+        ]
+      },
+      "result": {
+        "before": [
+          {
+            "knowledgeLevel": "待确认",
+            "name": "弑神者！ / Campione!",
+            "worldId": "campione"
+          }
+        ],
+        "after": [
+          {
+            "knowledgeLevel": "知道大部分设定，但可靠性并非绝对",
+            "name": "弑神者！ / Campione!",
+            "worldId": "campione"
+          }
+        ]
+      }
+    }
+  ]
+}

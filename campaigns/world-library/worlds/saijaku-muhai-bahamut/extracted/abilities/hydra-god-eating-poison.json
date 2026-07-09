@@ -1,0 +1,61 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "hydra-god-eating-poison",
+  "volume": "vol-13",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-13/full.txt:5850",
+    "saijaku-muhai-bahamut-main/vol-13/full.txt:7150"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-13",
+      "volume": "vol-13",
+      "time": "龙匪贼决战",
+      "name": {
+        "zh": "神蚀毒素",
+        "en": "God-Eating Poison"
+      },
+      "aliases": [
+        "《海德拉》的神装",
+        "融合能力"
+      ],
+      "type": "technology / supernatural / combat",
+      "description": "葛托汉神装机龙《海德拉》的神装，可让接触装甲或武装的物体融合、吸收、粉碎或再释放。最终甚至融合两名同伴与三架神装机龙。",
+      "details": {
+        "user": "gotran",
+        "drag_ride": "hydra",
+        "scope": "无机物融合；经洗礼强化后可融合机龙与人体"
+      },
+      "activation": {
+        "condition": "接触目标并启动神装",
+        "incantation": "无明确咏唱",
+        "time": "接触即时",
+        "cost": "巨大；最终形态代价为同伴存在"
+      },
+      "effects": [
+        "吸收莉夏和柯莱尔的武装",
+        "创造合成幻神兽",
+        "最终融合拜因、朵拉肯和三架神装机龙"
+      ],
+      "known_feats": [
+        {
+          "summary": "《海德拉》吸收机龙牙剑与机龙爪刃。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-13/full.txt:5850"
+        },
+        {
+          "summary": "葛托汉融合同伴后进入最终形态。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-13/full.txt:7150"
+        }
+      ],
+      "shared_by": [
+        "gotran"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-13/full.txt:5850",
+        "saijaku-muhai-bahamut-main/vol-13/full.txt:7150"
+      ]
+    }
+  ]
+}

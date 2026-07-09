@@ -1,0 +1,46 @@
+{
+  "resources": [
+    {
+      "capacity": 12000,
+      "combatEndurance": "N7 城市级耐久；可进行神战级消耗战，但新晋经验不足会导致浪费。",
+      "current": 12000,
+      "exhaustionEffects": [
+        "反应下降",
+        "权能精度下降",
+        "自我锻造失败率上升"
+      ],
+      "externalDependency": "无固定外部依赖；极端恢复可能需要安全环境或权能集中。",
+      "id": "stamina",
+      "name": "体力 / 弑神者生命力",
+      "recoveryRate": "强恢复倾向；重伤后可通过弑神者肉体、咒力与权能自我锻造恢复，具体速度按伤势与剧情判定。",
+      "unit": "abstract-rating"
+    },
+    {
+      "capacity": 18000,
+      "combatEndurance": "N8 低段资源池；足以支撑稳定 N7 与全力 N8 的神匠之炉使用。",
+      "current": 18000,
+      "exhaustionEffects": [
+        "神匠之炉降档",
+        "高等级神具维持失败",
+        "身体恢复变慢",
+        "魔术抗性与临战感应减弱"
+      ],
+      "externalDependency": "无；但高等级永久锻造和极限燃烧需要长冷却。",
+      "id": "cursed-power",
+      "name": "咒力 / 神力储备",
+      "recoveryRate": "弑神者自然储备大量咒力；不顺从之神接近时自动进入临战状态并动员咒力。斗志直接提高回复速度尚待原文确认，暂不写死。",
+      "unit": "N-score abstract"
+    },
+    {
+      "capacity": 0,
+      "combatEndurance": "不直接计入当前战力，奖励领取后再按 N0–N24 框架折算。",
+      "current": 0,
+      "exhaustionEffects": [],
+      "externalDependency": "项目成就系统规则；待开局确认显示边界。",
+      "id": "achievement-system",
+      "name": "成就系统",
+      "recoveryRate": "非消耗资源；触发、展示、奖励候选与领取规则待确认。",
+      "unit": "system"
+    }
+  ]
+}
