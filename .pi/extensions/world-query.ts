@@ -29,7 +29,7 @@ const IMPORTS_DIR = join(LIB_ROOT, WORLD_CONFIG.rawWorldviewsDir || join("import
 
 const WorldQueryParams = Type.Object({
 	action: StringEnum(["worlds", "overview", "search", "get", "characters", "stories", "aggregate", "graph"] as const, {
-		description: "worlds=list worlds; overview=world summary/sections; search=keyword search; get=read a ref; characters=list/search curated characters; stories=list/read story indexes/chapters; aggregate=cross-file merged entity lookup; graph=relation traversal from a character",
+		description: "worlds=list worlds; overview=light summary; search=keyword search with extracted/source-backed first; get=read ref or world+query with extracted priority; characters=list/search extracted characters first; stories=list/read story indexes/chapters; aggregate=cross-file merged entity lookup; graph=relation traversal",
 	}),
 	world: Type.Optional(Type.String({ description: "World slug, e.g. type-moon-nasuverse or high-school-dxd" })),
 	query: Type.Optional(Type.String({ description: "Keyword/name/id/fuzzy text to search" })),
@@ -199,7 +199,9 @@ function listWorlds(params: any, maxBytes: number): ToolResult {
 			characters: w.characters?.count,
 			stories: w.stories ? Object.keys(w.stories).length : undefined,
 		}));
-	return textResult({ ok: true, count: worlds.length, builtAt: idx.builtAt, worlds }, { ok: true, action: "worlds", count: worlds.length }, maxBytes);
+	const total = worlds.length;
+	const limitedWorlds = worlds.slice(0, capLimit(params.limit));
+	return textResult({ ok: true, count: total, returned: limitedWorlds.length, builtAt: idx.builtAt, worlds: limitedWorlds }, { ok: true, action: "worlds", count: total, returned: limitedWorlds.length }, maxBytes);
 }
 
 function overview(params: any, maxBytes: number): ToolResult {
@@ -357,7 +359,7 @@ function searchExtracted(slug: string, query: string, category: QueryCategory, l
 					summary: (p0.summary || "").substring(0, 320),
 					aliases,
 					volume: p0.volume || data.volume || "",
-					sourceRefs: data.source_refs || p0.sourceRef ? [p0.sourceRef] : [],
+					sourceRefs: data.source_refs || (p0.sourceRef ? [p0.sourceRef] : []),
 				});
 				if (results.length >= limit) return results;
 			}
@@ -387,6 +389,33 @@ function searchRaw(slug: string, query: string, limit: number): any[] {
 	return results;
 }
 
+function sourceTier(type: string): string {
+	return type === "extracted" ? "extracted" : type === "raw" ? "raw" : "curated";
+}
+
+function withSourceTier(r: any): any {
+	return { sourceTier: sourceTier(r.type), sourceReliability: r.type === "extracted" ? "source-backed extracted entity" : r.type === "raw" ? "raw worldbook fallback" : "curated index/summary", ...r };
+}
+
+function extractedCharacterRows(slug: string, query = "", limit = 20): any[] {
+	const q = norm(query);
+	const dir = join(extractedDir(slug), "characters");
+	if (!existsSync(dir)) return [];
+	const out: any[] = [];
+	for (const fn of readdirSync(dir).filter(f => f.endsWith(".json")).sort()) {
+		const data = safeJson(join(dir, fn));
+		if (!data) continue;
+		const id = data.character_id || fn.replace(".json", "");
+		const p0 = (data.periods || [])[0] || {};
+		const name = typeof p0.name === "object" ? p0.name?.zh || p0.name?.en || id : p0.name || id;
+		const aliases = p0.aliases || data.aliases || [];
+		const hay = [id, name, ...aliases, p0.summary || "", p0.description || ""].join("\n");
+		if (!q || includesQuery(hay, q)) out.push(withSourceTier({ type: "extracted", ref: `entity:${slug}:characters:${id}`, id, name, aliases, summary: p0.summary, sourceRefs: data.source_refs || (p0.sourceRef ? [p0.sourceRef] : []) }));
+		if (out.length >= limit) break;
+	}
+	return out;
+}
+
 function search(params: any, maxBytes: number): ToolResult {
 	const slug = params.world;
 	const query = params.query;
@@ -406,7 +435,8 @@ function search(params: any, maxBytes: number): ToolResult {
 	if ((w.status === "raw" || category === "raw" || (category === "all" && results.length < Math.min(5, limit))) && results.length < limit) {
 		results.push(...searchRaw(slug, query, limit - results.length));
 	}
-	return textResult({ ok: true, world: slug, status: w.status, query, category, count: results.length, results, next: results.slice(0, 5).map(r => `world_query { action: "get", ref: "${r.ref}" }`) }, { ok: true, action: "search", world: slug, count: results.length }, maxBytes);
+	const tiered = results.map(withSourceTier);
+	return textResult({ ok: true, world: slug, status: w.status, query, category, priority: ["extracted/source-backed", "curated index/summary", "raw worldbook"], count: tiered.length, results: tiered, next: tiered.slice(0, 5).map(r => `world_query { action: "get", ref: "${r.ref}" }`) }, { ok: true, action: "search", world: slug, count: tiered.length }, maxBytes);
 }
 
 function findCharacter(slug: string, idOrName: string): any | undefined {
@@ -420,8 +450,12 @@ function getRef(params: any, maxBytes: number): ToolResult {
 	const ref = params.ref;
 	if (!ref) {
 		if (params.world && params.query) {
+			const extracted = searchExtracted(params.world, params.query, "all", 1)[0];
+			if (extracted) return getRef({ ref: extracted.ref }, maxBytes);
 			const ch = findCharacter(params.world, params.query);
-			if (ch) return textResult({ ok: true, type: "character", ref: `char:${params.world}:${ch.id}`, character: ch }, { ok: true, action: "get", ref: `char:${params.world}:${ch.id}` }, maxBytes);
+			if (ch) return textResult({ ok: true, sourceTier: "curated", sourceReliability: "curated character index fallback", type: "character", ref: `char:${params.world}:${ch.id}`, character: ch }, { ok: true, action: "get", ref: `char:${params.world}:${ch.id}`, sourceTier: "curated" }, maxBytes);
+			const raw = searchRaw(params.world, params.query, 1)[0];
+			if (raw) return getRef({ ref: raw.ref }, maxBytes);
 		}
 		return errorResult("action=get requires ref, or world+query for character lookup", maxBytes);
 	}
@@ -476,7 +510,7 @@ function getRef(params: any, maxBytes: number): ToolResult {
 		if (!existsSync(fp)) return errorResult(`Entity not found: ${ref}`, maxBytes);
 		const data = safeJson(fp);
 		if (!data) return errorResult(`Failed to read entity: ${ref}`, maxBytes);
-		return textResult({ ok: true, type: "extracted", ref, entityType, entity: data }, { ok: true, action: "get", ref, path: fp.replace(ROOT, "").replace(/\\/g, "/") }, maxBytes);
+		return textResult({ ok: true, sourceTier: "extracted", sourceReliability: "source-backed extracted entity", type: "extracted", ref, entityType, entity: data }, { ok: true, action: "get", ref, sourceTier: "extracted", path: fp.replace(ROOT, "").replace(/\\/g, "/") }, maxBytes);
 	}
 	if (kind === "raw") {
 		const fn = decodeURIComponent(parts[2] || "");
@@ -486,7 +520,7 @@ function getRef(params: any, maxBytes: number): ToolResult {
 		const data = safeJson(file);
 		const entry = data?.entries?.[index];
 		if (!entry) return errorResult(`Raw entry not found: ${ref}`, maxBytes);
-		return textResult({ ok: true, type: "raw", ref, path: rel(file), index, entry }, { ok: true, action: "get", ref, path: rel(file) }, maxBytes);
+		return textResult({ ok: true, sourceTier: "raw", sourceReliability: "raw worldbook fallback", type: "raw", ref, path: rel(file), index, entry }, { ok: true, action: "get", ref, sourceTier: "raw", path: rel(file) }, maxBytes);
 	}
 	return errorResult(`Unsupported ref kind: ${kind}`, maxBytes);
 }
@@ -495,16 +529,21 @@ function characters(params: any, maxBytes: number): ToolResult {
 	const slug = params.world;
 	if (!slug) return errorResult("action=characters requires world", maxBytes);
 	const w = worldInfo(slug);
-	if (!w || w.status !== "curated") return errorResult(`No curated character data for world: ${slug}`, maxBytes);
-	const chars = safeJson(join(curatedDir(slug), "characters-index.json"));
-	if (!chars) return errorResult(`characters-index.json not found for ${slug}`, maxBytes);
+	if (!w) return errorResult(`World not found: ${slug}`, maxBytes);
 	const q = norm(params.query);
 	const limit = capLimit(params.limit);
-	const list = (chars.characters || [])
-		.filter((ch: any) => !q || includesQuery([ch.id, ch.name, ...(ch.aliases || []), ...(ch.sourceKeys || []), ch.summary, ...(ch.factions || [])].join("\n"), q))
-		.slice(0, limit)
-		.map((ch: any) => ({ ref: `char:${slug}:${ch.id}`, id: ch.id, name: ch.name, aliases: ch.aliases, summary: ch.summary, importance: ch.importance, factions: ch.factions, sourceRefs: ch.sourceRefs }));
-	return textResult({ ok: true, world: slug, count: list.length, totalCharacters: chars.totalCharacters || chars.characters?.length, characters: list }, { ok: true, action: "characters", world: slug, count: list.length }, maxBytes);
+	const list: any[] = [];
+	if (w.status === "curated") list.push(...extractedCharacterRows(slug, q, limit));
+	if (list.length < limit) {
+		const chars = safeJson(join(curatedDir(slug), "characters-index.json"));
+		for (const ch of chars?.characters || []) {
+			if (list.length >= limit) break;
+			if (!q || includesQuery([ch.id, ch.name, ...(ch.aliases || []), ...(ch.sourceKeys || []), ch.summary, ...(ch.factions || [])].join("\n"), q)) {
+				if (!list.some(x => x.id === ch.id || x.name === ch.name)) list.push(withSourceTier({ type: "character", ref: `char:${slug}:${ch.id}`, id: ch.id, name: ch.name, aliases: ch.aliases, summary: ch.summary, importance: ch.importance, factions: ch.factions, sourceRefs: ch.sourceRefs }));
+			}
+		}
+	}
+	return textResult({ ok: true, world: slug, priority: ["extracted/source-backed", "curated index/summary"], count: list.length, characters: list }, { ok: true, action: "characters", world: slug, count: list.length }, maxBytes);
 }
 
 function stories(params: any, maxBytes: number): ToolResult {
@@ -699,10 +738,6 @@ function graphTraversal(params: any, maxBytes: number): ToolResult {
 
 	if (!entityData && !charData) return errorResult(`Not found: ${entityRef}`, maxBytes);
 
-	const chars = safeJson(join(curatedDir(slug), "characters-index.json"));
-	const allCharacters = chars?.characters || [];
-	const wj = safeJson(join(curatedDir(slug), "world.json")) || {};
-
 	// factions, powerSystems, factionDetails, storyAppearances (curated fallback)
 	const chars = safeJson(join(curatedDir(slug), "characters-index.json"));
 	const allCharacters = chars?.characters || [];
@@ -862,7 +897,8 @@ function crossWorldSearch(params: any, maxBytes: number): ToolResult {
 		}
 	}
 
-	return textResult({ ok: true, query, allWorlds: true, count: results.length, results, worldsSearched: slugs.length }, { ok: true, action: "search", allWorlds: true, count: results.length }, maxBytes);
+	const tiered = results.map(withSourceTier);
+	return textResult({ ok: true, query, allWorlds: true, priority: ["extracted/source-backed", "curated index/summary", "raw worldbook"], count: tiered.length, results: tiered, worldsSearched: slugs.length }, { ok: true, action: "search", allWorlds: true, count: tiered.length }, maxBytes);
 }
 
 // ─── ranking rules ───
@@ -890,7 +926,7 @@ export default function (pi: ExtensionAPI) {
 	pi.registerTool({
 		name: "world_query",
 		label: "World Query",
-		description: "AI-facing progressive query tool for this project's archived worldbooks. Configurable via .pi/rp-data-tools.json. Search curated worlds first, fall back to raw worldbook entries, and retrieve exact refs without loading huge files into context.",
+		description: "AI-facing query tool for this project's archived worldbooks. Default priority is source-backed/extracted data first, curated summaries/indexes second, raw worldbook entries last. Use aggregate for complete entity lookup, search for keyword retrieval, get for exact refs or world+query resolution.",
 		parameters: WorldQueryParams,
 		async execute(_toolCallId, params, _signal, _onUpdate, _ctx) {
 			const maxBytes = capBytes(params.maxBytes);
@@ -898,7 +934,7 @@ export default function (pi: ExtensionAPI) {
 				switch ((params.action || "search") as QueryAction) {
 					case "worlds": return listWorlds(params, maxBytes);
 					case "overview": return overview(params, maxBytes);
-					case "search": return search(params, maxBytes);
+					case "search": return params.allWorlds ? crossWorldSearch(params, maxBytes) : search(params, maxBytes);
 					case "get": return getRef(params, maxBytes);
 					case "characters": return characters(params, maxBytes);
 					case "stories": return stories(params, maxBytes);

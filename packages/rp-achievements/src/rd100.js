@@ -1,3 +1,5 @@
+const { loadAchievementSettings } = require('./settings');
+
 function repeatSlots(world, count) {
   return Array.from({ length: count }, () => ({ ...world }));
 }
@@ -15,29 +17,32 @@ function defaultMatchesWorldRating(world) {
 }
 
 function buildWorldRd100(options = {}) {
+  const settings = options.settings || loadAchievementSettings(options);
+  const rd100 = settings.rd100 || {};
   const rng = options.rng || Math.random;
   const matchesWorldRating = options.matchesWorldRating || defaultMatchesWorldRating;
   const archived = (options.archivedWorlds || []).filter(matchesWorldRating);
   const unarchived = (options.unarchivedWorlds || []).filter(matchesWorldRating);
   const rejected = [...(options.archivedWorlds || []), ...(options.unarchivedWorlds || [])].filter(w => !matchesWorldRating(w));
   let candidates = [];
-  for (const world of archived) candidates.push(...repeatSlots({ source: 'archivedWorld', requiresWebVerification: false, ...world }, 3));
-  for (const world of unarchived) candidates.push(...repeatSlots({ source: 'unarchivedWorld', requiresWebVerification: true, ...world }, 2));
+  for (const world of archived) candidates.push(...repeatSlots({ source: 'archivedWorld', requiresWebVerification: false, ...world }, rd100.archivedWorldSlots ?? 3));
+  for (const world of unarchived) candidates.push(...repeatSlots({ source: 'unarchivedWorld', requiresWebVerification: true, ...world }, rd100.unarchivedWorldSlots ?? 2));
   if (candidates.length > 100) {
     shuffleInPlace(candidates, rng);
     candidates = candidates.slice(0, 100);
   }
   while (candidates.length < 100) {
-    candidates.push({ source: 'randomAnimeGameWorld', world: null, requiresWebVerification: true });
+    candidates.push({ source: rd100.fillRemainderWith || 'randomAnimeGameWorld', world: null, requiresWebVerification: true });
   }
-  shuffleInPlace(candidates, rng);
+  if (rd100.shuffle !== false) shuffleInPlace(candidates, rng);
   const slots = candidates.map((entry, idx) => ({ roll: idx + 1, ...entry }));
   return {
     type: '.rd100',
+    settingsVersion: settings.version,
     currentWorldRating: options.currentWorldRating || null,
     currentWorldTopRating: options.currentWorldTopRating || null,
     slots,
-    shuffle: true,
+    shuffle: rd100.shuffle !== false,
     rejectedForRating: rejected,
   };
 }

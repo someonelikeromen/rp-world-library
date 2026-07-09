@@ -1,13 +1,13 @@
-import { existsSync, mkdirSync, readFileSync, readdirSync, renameSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, readdirSync, renameSync, statSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { StringEnum } from "@earendil-works/pi-ai";
 import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";
 import { Type } from "typebox";
 
-type CardAction = "cards" | "init" | "modules" | "get" | "set" | "merge" | "append" | "upsert" | "remove" | "batch" | "validate" | "status" | "register";
+type CardAction = "cards" | "quickstart" | "bootstrap" | "init" | "modules" | "get" | "set" | "merge" | "append" | "upsert" | "remove" | "batch" | "validate" | "status" | "register";
 
 type Operation = {
-	action: Exclude<CardAction, "cards" | "init" | "modules" | "get" | "batch" | "validate" | "status" | "register"> | "set" | "merge" | "append" | "upsert" | "remove";
+	action: Exclude<CardAction, "cards" | "quickstart" | "bootstrap" | "init" | "modules" | "get" | "batch" | "validate" | "status" | "register"> | "set" | "merge" | "append" | "upsert" | "remove";
 	path?: string;
 	value?: any;
 	item?: any;
@@ -19,8 +19,8 @@ const ROOT = process.cwd();
 const CONFIG_PATH = join(ROOT, ".pi", "rp-data-tools.json");
 
 const CardEditParams = Type.Object({
-	action: StringEnum(["cards", "init", "modules", "get", "set", "merge", "append", "upsert", "remove", "batch", "validate", "status", "register"] as const, {
-		description: "cards=list registered cards; init=create directory card from template; modules=list directory card modules; get=read; set/merge/append/upsert/remove=edit JSON; batch=multiple edits; validate=consistency checks; status=lightweight summary; register=add NPC card",
+	action: StringEnum(["cards", "quickstart", "bootstrap", "init", "modules", "get", "set", "merge", "append", "upsert", "remove", "batch", "validate", "status", "register"] as const, {
+		description: "quickstart=show copy-paste usage; bootstrap=one-call protagonist setup; cards=list registered/unregistered cards and examples; init=create directory card from template; modules=list modules; get/read; set/merge/append/upsert/remove/batch=edit JSON; validate/status; register=add external card",
 	}),
 	card: Type.Optional(Type.String({ description: "Registered card key or alias. Default: protagonist" })),
 	path: Type.Optional(Type.String({ description: "Dot path inside card JSON or selected module. Supports arrays by index or id selector: resources[id=mana].current, abilities[0].name" })),
@@ -45,6 +45,10 @@ const CardEditParams = Type.Object({
 	cardPath: Type.Optional(Type.String({ description: "File path for register action, or directory path for init action, relative to project root" })),
 	cardLabel: Type.Optional(Type.String({ description: "Human label for register action" })),
 	cardAliases: Type.Optional(Type.Array(Type.String(), { description: "Search aliases for register action" })),
+	requiredPaths: Type.Optional(Type.Array(Type.String(), { description: "Optional required JSON paths for register action" })),
+	customValidators: Type.Optional(Type.Array(Type.Any(), { description: "Optional custom validators for register action" })),
+	derivedFields: Type.Optional(Type.Array(Type.Any(), { description: "Optional derived-field rules for register action" })),
+	postUpdateHooks: Type.Optional(Type.Array(Type.Any(), { description: "Optional post-update hooks for register action" })),
 });
 
 function readJson(file: string): any {
@@ -86,6 +90,42 @@ function errorResult(message: string, maxBytes: number, details: Record<string, 
 	return result({ ok: false, error: message }, { ok: false, ...details }, maxBytes);
 }
 
+function normalizeRelPath(file: string): string {
+	return file.replace(/\\/g, "/").replace(/^\.\//, "");
+}
+
+function defaultPostUpdateHooks(): any[] {
+	return [
+		{ type: "log", dir: "memory", prefix: "card-edit", includeSnapshot: true, includeChanges: true },
+		{ type: "memory-sync", dir: "memory", file: "card-status-snapshot.md" },
+	];
+}
+
+function withDefaultHooks(slots: any): any {
+	const next = slots && typeof slots === "object" ? { ...slots } : {};
+	next.customValidators = next.customValidators || [];
+	next.derivedFields = next.derivedFields || [];
+	next.postUpdateHooks = Array.isArray(next.postUpdateHooks) && next.postUpdateHooks.length ? next.postUpdateHooks : defaultPostUpdateHooks();
+	return next;
+}
+
+function directoryCardDefFromTemplate(config: any, cardPath: string, label?: string): any {
+	const tpl = resolveTemplate(config);
+	const name = label || normalizeRelPath(cardPath).split("/").filter(Boolean).pop() || cardPath;
+	return {
+		path: normalizeRelPath(cardPath),
+		storage: "directory",
+		schema: tpl.def.schema || "rp-unified-character-v1",
+		label: name,
+		aliases: [name],
+		template: tpl.key,
+		modules: tpl.def.modules || {},
+		requiredModules: tpl.def.requiredModules || Object.values(tpl.def.modules || {}),
+		idArrays: tpl.def.idArrays || {},
+		extensionSlots: withDefaultHooks(tpl.def.extensionSlots),
+	};
+}
+
 function resolveCard(config: any, key?: string): { key: string; def: any; file: string } {
 	const wanted = key || "protagonist";
 	// search by alias first
@@ -102,8 +142,18 @@ function resolveCard(config: any, key?: string): { key: string; def: any; file: 
 			}
 		}
 	}
-	if (config.allowUnregisteredCardFiles && wanted.endsWith(".json")) {
-		return { key: wanted, def: { path: wanted, idArrays: {} }, file: join(ROOT, wanted) };
+	if (config.allowUnregisteredCardFiles) {
+		const candidates = [wanted];
+		if (!wanted.startsWith("card/") && !wanted.startsWith("card\\")) candidates.push(join("card", wanted));
+		if (!wanted.endsWith(".json")) candidates.push(join("card", wanted + ".json"));
+		for (const relPathRaw of [...new Set(candidates.map(normalizeRelPath))]) {
+			if (relPathRaw.includes("..") || relPathRaw.startsWith("/") || /^[A-Za-z]:/.test(relPathRaw)) continue;
+			const full = join(ROOT, relPathRaw);
+			if (!existsSync(full)) continue;
+			const st = statSync(full);
+			if (st.isDirectory()) return { key: wanted, def: directoryCardDefFromTemplate(config, relPathRaw, wanted), file: full };
+			if (st.isFile() && relPathRaw.endsWith(".json")) return { key: wanted, def: { path: relPathRaw, idArrays: {}, extensionSlots: withDefaultHooks({}) }, file: full };
+		}
 	}
 	throw new Error(`Unknown card: ${wanted} (available: ${Object.keys(config.cards || {}).concat(Object.keys(config.npcs || {})).join(", ")})`);
 }
@@ -135,6 +185,7 @@ function parsePath(input?: string): Segment[] {
 }
 
 function clone<T>(v: T): T {
+	if (v === undefined) return undefined as T;
 	return JSON.parse(JSON.stringify(v));
 }
 
@@ -402,7 +453,7 @@ function initDirectoryCard(config: any, params: any): any {
 		modules: tpl.def.modules || {},
 		requiredModules: tpl.def.requiredModules || Object.values(tpl.def.modules || {}),
 		idArrays: tpl.def.idArrays || {},
-		extensionSlots: tpl.def.extensionSlots || { customValidators: [], derivedFields: [], postUpdateHooks: [] },
+		extensionSlots: withDefaultHooks(tpl.def.extensionSlots),
 	};
 	if (!config.cards) config.cards = {};
 	config.cards[params.card] = entry;
@@ -605,6 +656,128 @@ function runPostUpdateHooks(card: any, def: any, config: any, operation: string,
 	return logs;
 }
 
+function summarizeCardDefs(defs: any): Record<string, any> {
+	return Object.fromEntries(Object.entries(defs || {}).map(([k, v]: any) => [k, { path: v.path, storage: v.storage || "file", label: v.label, aliases: v.aliases, schema: v.schema, requiredPaths: v.requiredPaths, modules: v.modules, requiredModules: v.requiredModules, extensionSlots: v.extensionSlots }]));
+}
+
+function discoverUnregisteredCards(config: any): any[] {
+	if (!config.allowUnregisteredCardFiles) return [];
+	const root = join(ROOT, "card");
+	if (!existsSync(root)) return [];
+	const registered = new Set(Object.values({ ...(config.cards || {}), ...(config.npcs || {}) } as any).map((def: any) => normalizeRelPath(def.path || "")));
+	const out: any[] = [];
+	for (const entry of readdirSync(root, { withFileTypes: true })) {
+		const rp = normalizeRelPath(join("card", entry.name));
+		if (registered.has(rp)) continue;
+		const full = join(root, entry.name);
+		if (entry.isDirectory()) {
+			const def = directoryCardDefFromTemplate(config, rp, entry.name);
+			const jsonCount = collectJsonFiles(full).length;
+			if (jsonCount > 0 || existsSync(join(full, "index.json"))) out.push({ key: entry.name, path: rp, storage: "directory", registered: false, jsonFiles: jsonCount, modules: directoryCardModules(full, def) });
+		} else if (entry.isFile() && entry.name.endsWith(".json")) {
+			out.push({ key: entry.name.replace(/\.json$/, ""), path: rp, storage: "file", registered: false });
+		}
+	}
+	return out;
+}
+
+function runDirectoryPostUpdateHooks(cardFile: string, def: any, config: any, operation: string, changes: any[], note?: string): string[] {
+	const hooks = def.extensionSlots?.postUpdateHooks || [];
+	const logs: string[] = [];
+	for (const hook of hooks) {
+		try {
+			const status = directoryStatusSummary(cardFile, def);
+			if (hook.type === "log") {
+				const logDir = join(ROOT, hook.dir || "memory");
+				mkdirSync(logDir, { recursive: true });
+				const ts = new Date().toISOString().replace(/[:.]/g, "-");
+				const logFile = join(logDir, `${hook.prefix || "card-edit"}-${ts}.json`);
+				writeFileSync(logFile, JSON.stringify({ timestamp: new Date().toISOString(), card: def.label || def.path, action: operation, note: note || "", snapshot: hook.includeSnapshot ? status : undefined, changes: hook.includeChanges ? changes : undefined }, null, 2), "utf8");
+				logs.push(`Logged to ${rel(logFile)}`);
+			}
+			if (hook.type === "memory-sync") {
+				const memDir = join(ROOT, hook.dir || "memory");
+				mkdirSync(memDir, { recursive: true });
+				const memFile = join(memDir, hook.file || "card-status-snapshot.md");
+				const md = [
+					`# Card Status Snapshot — ${new Date().toISOString()}`,
+					``,
+					`- Name: ${status.basic?.name || status.basic?.identity?.name || status.index?.label || def.label || "—"}`,
+					`- Status: ${status.currentStatus?.summary || status.currentStatus || "—"}`,
+					`- Combat: ${JSON.stringify(status.combat)}`,
+					`- Resources: ${Array.isArray(status.resources) ? status.resources.map((r: any) => `${r.id}=${r.current}`).join(", ") : JSON.stringify(status.resources)}`,
+					`- Key Relations: ${Array.isArray(status.keyRelations) ? status.keyRelations.map((r: any) => `${r.name || r.id}(${r.relation || r.currentRelation || ""})`).join(", ") : JSON.stringify(status.keyRelations)}`,
+					"",
+				].join("\n");
+				writeFileSync(memFile, md, "utf8");
+				logs.push(`Memory synced to ${rel(memFile)}`);
+			}
+		} catch (e: any) { logs.push(`Hook failed: ${hook.type} — ${e?.message}`); }
+	}
+	return logs;
+}
+
+function quickstartPayload(config: any): any {
+	const defaultCard = "protagonist";
+	const template = config.cardTemplates?.default || "unified-character-v1";
+	const modules = resolveTemplate(config, template).def.modules || {};
+	return {
+		ok: true,
+		purpose: "Copy-paste card_edit calls. Start with bootstrap unless you need a custom card key.",
+		recommendedStart: { action: "bootstrap", card: defaultCard, cardPath: "card/protagonist", template },
+		commonCalls: [
+			{ purpose: "List cards and examples", call: { action: "cards" } },
+			{ purpose: "One-call protagonist setup", call: { action: "bootstrap", card: defaultCard } },
+			{ purpose: "Show modules", call: { action: "modules", card: defaultCard } },
+			{ purpose: "Read lightweight status", call: { action: "status", card: defaultCard } },
+			{ purpose: "Set name", call: { action: "set", card: defaultCard, module: "identity", path: "identity.name", value: "姓名" } },
+			{ purpose: "Update current status", call: { action: "set", card: defaultCard, module: "session", path: "currentStatus.summary", value: "当前状态" } },
+			{ purpose: "Upsert resource", call: { action: "upsert", card: defaultCard, module: "resources", path: "resources", id: "mana", item: { name: "Mana", current: 10, max: 20 } } },
+			{ purpose: "Batch update", call: { action: "batch", card: defaultCard, module: "session", operations: [{ action: "set", path: "currentStatus.summary", value: "状态" }] } },
+			{ purpose: "Validate", call: { action: "validate", card: defaultCard } },
+		],
+		pathSyntax: ["identity.name", "resources[id=mana].current", "relationships[id=rin].currentRelation", "items[0].name"],
+		moduleAliases: modules,
+	};
+}
+
+function cardExistsAt(relPath: string): boolean {
+	return existsSync(join(ROOT, normalizeRelPath(relPath)));
+}
+
+function bootstrapCard(config: any, params: any): any {
+	const card = params.card || "protagonist";
+	const cardPath = normalizeRelPath(params.cardPath || ("card/" + card));
+	const legacyJsonPath = cardPath.endsWith(".json") ? cardPath : cardPath + ".json";
+	const notes: string[] = [];
+	let initialized: any;
+	if (config.cards?.[card]) {
+		config.cards[card].extensionSlots = withDefaultHooks(config.cards[card].extensionSlots);
+		writeFileSync(CONFIG_PATH, JSON.stringify(config, null, 2) + "\n", "utf8");
+		notes.push("Registered card already exists; ensured default postUpdateHooks.");
+	} else if (cardExistsAt(cardPath)) {
+		const full = join(ROOT, cardPath);
+		const st = statSync(full);
+		if (st.isDirectory()) {
+			const def = directoryCardDefFromTemplate(config, cardPath, params.cardLabel || card);
+			config.cards = config.cards || {};
+			config.cards[card] = def;
+			writeFileSync(CONFIG_PATH, JSON.stringify(config, null, 2) + "\n", "utf8");
+			notes.push("Existing directory card registered and default postUpdateHooks enabled.");
+		} else notes.push("Existing path is not a directory; no overwrite performed: " + cardPath);
+	} else if (cardExistsAt(legacyJsonPath)) {
+		config.cards = config.cards || {};
+		config.cards[card] = { path: legacyJsonPath, schema: "rp-character-v1", label: params.cardLabel || card, aliases: params.cardAliases || [card], idArrays: { "magic.knownSpells": "id", abilities: "id", resources: "id", relationships: "id", inventory: "id" }, extensionSlots: { customValidators: [], derivedFields: [], postUpdateHooks: defaultPostUpdateHooks() } };
+		writeFileSync(CONFIG_PATH, JSON.stringify(config, null, 2) + "\n", "utf8");
+		notes.push("Existing legacy JSON card registered. It remains file-style; use init with a new cardPath if you want directory-style migration.");
+	} else {
+		initialized = initDirectoryCard(config, { ...params, card, cardPath, template: params.template || config.cardTemplates?.default || "unified-character-v1", cardLabel: params.cardLabel || card, cardAliases: params.cardAliases || [card], backup: false });
+		notes.push("New directory card initialized.");
+	}
+	const resolved = resolveCard(loadConfig(), card);
+	return { card, path: rel(resolved.file), initialized, notes, next: quickstartPayload(loadConfig()).commonCalls };
+}
+
 // ─── register: add NPC card to config ───
 function registerCard(config: any, params: any): { configPath: string; registered: any } {
 	if (!params.card || !params.cardPath) throw new Error("register requires card (key) and cardPath");
@@ -616,7 +789,7 @@ function registerCard(config: any, params: any): { configPath: string; registere
 		aliases: params.cardAliases || [key],
 		requiredPaths: params.requiredPaths || [],
 		idArrays: { "magic.knownSpells": "id", "abilities": "id", "resources": "id", "relationships": "id", "inventory": "id" },
-		extensionSlots: { customValidators: params.customValidators || [], derivedFields: params.derivedFields || [], postUpdateHooks: params.postUpdateHooks || [] },
+		extensionSlots: { customValidators: params.customValidators || [], derivedFields: params.derivedFields || [], postUpdateHooks: params.postUpdateHooks || defaultPostUpdateHooks() },
 	};
 	if (!config.npcs) config.npcs = {};
 	config.npcs[key] = entry;
@@ -628,20 +801,32 @@ export default function (pi: ExtensionAPI) {
 	pi.registerTool({
 		name: "card_edit",
 		label: "Card Edit",
-		description: "AI-facing generic quick edit/query tool for registered RP character cards. Supports dot paths, id-selected arrays, atomic JSON writes, backups, dry-run, validation, and future schema extension via .pi/rp-data-tools.json.",
+		description: "AI-facing role-card tool with discoverable quickstart/bootstrap interfaces. Use quickstart for copy-paste examples, bootstrap for one-call protagonist setup, cards to list registered/unregistered cards, and module+path edits for JSON updates. Supports dot paths, id-selected arrays, atomic writes, backups, dry-run, validation, and directory unified-character cards.",
 		parameters: CardEditParams,
 		async execute(_toolCallId, params, _signal, _onUpdate, _ctx) {
 			const maxBytes = capBytes(params.maxBytes);
 			try {
 				const config = loadConfig();
 				if (params.action === "cards") {
-					const cards = Object.fromEntries(Object.entries(config.cards || {}).map(([k, v]: any) => [k, { path: v.path, storage: v.storage || "file", label: v.label, aliases: v.aliases, schema: v.schema, requiredPaths: v.requiredPaths, modules: v.modules, requiredModules: v.requiredModules, extensionSlots: v.extensionSlots }]));
-					return result({ ok: true, cards, cardTemplates: config.cardTemplates, allowUnregisteredCardFiles: config.allowUnregisteredCardFiles }, { ok: true, action: "cards" }, maxBytes);
+					const cards = summarizeCardDefs(config.cards || {});
+					const npcs = summarizeCardDefs(config.npcs || {});
+					const unregisteredCards = discoverUnregisteredCards(config);
+					const quickstart = quickstartPayload(config);
+					return result({ ok: true, cards, npcs, unregisteredCards, cardTemplates: config.cardTemplates, allowUnregisteredCardFiles: config.allowUnregisteredCardFiles, quickActions: quickstart.commonCalls, recommendedNext: quickstart.recommendedStart }, { ok: true, action: "cards", cards: Object.keys(cards).length, npcs: Object.keys(npcs).length, unregisteredCards: unregisteredCards.length }, maxBytes);
+				}
+
+				if (params.action === "quickstart") {
+					return result(quickstartPayload(config), { ok: true, action: "quickstart" }, maxBytes);
+				}
+
+				if (params.action === "bootstrap") {
+					const bootstrapped = bootstrapCard(config, params);
+					return result({ ok: true, bootstrapped }, { ok: true, action: "bootstrap", card: bootstrapped.card, path: bootstrapped.path }, maxBytes);
 				}
 
 				if (params.action === "init") {
 					const initialized = initDirectoryCard(config, params);
-					return result({ ok: true, initialized }, { ok: true, action: "init", card: params.card, path: initialized.cardPath }, maxBytes);
+					return result({ ok: true, initialized, next: quickstartPayload(loadConfig()).commonCalls }, { ok: true, action: "init", card: params.card, path: initialized.cardPath }, maxBytes);
 				}
 
 			if (params.action === "register") {
@@ -683,12 +868,14 @@ export default function (pi: ExtensionAPI) {
 					const afterText = JSON.stringify(working, null, 2) + "\n";
 					const afterHash = Buffer.from(afterText).toString("base64").slice(0, 16);
 					let backupPath: string | undefined;
+					let hookLogs: string[] = [];
 					if (!params.dryRun) {
 						if (params.backup !== false) backupPath = makeBackup(config, target.file);
 						atomicWriteJson(target.file, working);
+						hookLogs = runDirectoryPostUpdateHooks(file, def, config, params.action, changes, params.note);
 					}
 					const validation = validateDirectoryCard(file, def);
-					return result({ ok: true, card: key, module: target.module, file: rel(target.file), dryRun: !!params.dryRun, backup: backupPath ? rel(backupPath) : undefined, changes, validation, note: params.note }, { ok: true, action: params.action, card: key, module: target.module, file: rel(target.file), dryRun: !!params.dryRun, backup: backupPath ? rel(backupPath) : undefined, beforeHash, afterHash, note: params.note }, maxBytes);
+					return result({ ok: true, card: key, module: target.module, file: rel(target.file), dryRun: !!params.dryRun, backup: backupPath ? rel(backupPath) : undefined, changes, validation, hookLogs, note: params.note }, { ok: true, action: params.action, card: key, module: target.module, file: rel(target.file), dryRun: !!params.dryRun, backup: backupPath ? rel(backupPath) : undefined, beforeHash, afterHash, hookLogs, note: params.note }, maxBytes);
 				}
 
 				const originalText = readFileSync(file, "utf8");
@@ -727,12 +914,13 @@ export default function (pi: ExtensionAPI) {
 				const afterHash = Buffer.from(afterText).toString("base64").slice(0, 16);
 
 				let backupPath: string | undefined;
+				let hookLogs: string[] = [];
 				if (!params.dryRun) {
 					if (params.backup !== false) backupPath = makeBackup(config, file);
 					atomicWriteJson(file, working);
-				// run post-update hooks after successful write
-				(def.extensionSlots?.postUpdateHooks || []).forEach((h: any) => { if (h._changes === undefined) h._changes = []; h._changes = changes; });
-				const hookLogs = runPostUpdateHooks(working, def, config, params.action, params.note);
+					// run post-update hooks after successful write
+					(def.extensionSlots?.postUpdateHooks || []).forEach((h: any) => { if (h._changes === undefined) h._changes = []; h._changes = changes; });
+					hookLogs = runPostUpdateHooks(working, def, config, params.action, params.note);
 				}
 
 				return result({

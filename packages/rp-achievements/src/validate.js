@@ -1,3 +1,5 @@
+const { loadAchievementSettings, getPath, assertRewardAllowedByEnergyContext } = require('./settings');
+
 const VALID_REWARD_TYPES = new Set([
   'item',
   'constitution',
@@ -57,11 +59,26 @@ function validateVerification(reward) {
   return true;
 }
 
-function validateReward(reward) {
+function validateRewardProvenance(reward, settings = loadAchievementSettings()) {
+  const missing = [];
+  for (const path of settings.requiredRewardProvenance || []) {
+    const value = getPath(reward, path);
+    if (value == null || value === '') missing.push(path);
+  }
+  if (missing.length) throw new Error(`Reward ${reward.id || reward.name || ''} missing required provenance: ${missing.join(', ')}`);
+  return true;
+}
+
+function validateReward(reward, options = {}) {
+  const settings = options.settings || loadAchievementSettings(options);
   validateRewardType(reward);
   validateCanon(reward);
+  validateRewardProvenance(reward, settings);
   validateNoForbiddenConcepts(reward);
   validateVerification(reward);
+  if (options.state || options.context) {
+    assertRewardAllowedByEnergyContext(reward, { ...(options.context || {}), state: options.state || options.context?.state || {} }, settings);
+  }
   return true;
 }
 
@@ -72,5 +89,6 @@ module.exports = {
   validateRewardType,
   validateNoForbiddenConcepts,
   validateVerification,
+  validateRewardProvenance,
   validateReward,
 };

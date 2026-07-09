@@ -1,4 +1,5 @@
 module.exports = {
+  ...require('./settings'),
   ...require('./ratings'),
   ...require('./rd100'),
   ...require('./dedupe'),

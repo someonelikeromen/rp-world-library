@@ -1,0 +1,78 @@
+{
+  "schema": "rp-achievement-system-settings-v1",
+  "version": "2026.07.09",
+  "loadPolicy": {
+    "required": true,
+    "actionsMustLoad": ["init", "status", "build-rd100", "roll-world", "claim", "validate"],
+    "missingSettingsBehavior": "error"
+  },
+  "ui": {
+    "theme": "translucent-cyan-sci-fi",
+    "displayName": "半透明淡蓝色科幻光屏",
+    "background": "rgba(84, 215, 255, 0.18)",
+    "accentColor": "#7FE9FF",
+    "secondaryAccentColor": "#B7F5FF",
+    "textColor": "#DDFBFF",
+    "borderColor": "rgba(127, 233, 255, 0.72)",
+    "shadow": "0 0 18px rgba(127, 233, 255, 0.48)",
+    "panelShape": "holographic-rounded-rectangle",
+    "scanline": true,
+    "sections": ["achievements", "rewards", "claimStatus", "characterStatus", "energyGate"],
+    "visibilityBoundary": "show only protagonist-visible achievement panel fields"
+  },
+  "rd100": {
+    "archivedWorldSlots": 3,
+    "unarchivedWorldSlots": 2,
+    "fillRemainderWith": "randomAnimeGameWorld",
+    "shuffle": true
+  },
+  "rewardGeneration": {
+    "globalRandomPool": true,
+    "rewardContentIndependentFromAchievement": true,
+    "rerollOnDuplicate": true,
+    "energyGate": {
+      "enabled": true,
+      "decision": "Global reward draw remains global. If current and experienced worlds are explicitly all no-energy, any energy-dependent reward must be rerolled.",
+      "rerollEnergyRewardsWhenNoEnergyExposure": true,
+      "unknownExposureBehavior": "allow-but-warn",
+      "exposureStatePaths": [
+        "worldExposure.energyExposure.hasEnergySystem",
+        "worldExposure.currentWorld.hasEnergySystem",
+        "worldExposure.currentWorld.energySystem",
+        "worldExposure.currentWorld.energyType",
+        "currentWorld.hasEnergySystem",
+        "currentWorld.energySystem",
+        "currentWorldEnergySystem",
+        "currentWorldEnergyType"
+      ],
+      "experiencedWorldsPaths": [
+        "worldExposure.experiencedWorlds",
+        "experiencedWorlds",
+        "pastWorlds"
+      ],
+      "noEnergyValues": [false, "none", "no-energy", "mundane", "realistic", "daily", "无", "无能量", "无能量体系", "日常", "现实系"],
+      "energyValues": [true, "energy", "supernatural", "magic", "chakra", "ki", "qi", "spiritual", "cultivation", "mana", "aura", "psychic", "divine", "sci-fi-energy", "能量", "超凡", "魔力", "查克拉", "气", "灵力", "念", "咒力", "斗气", "仙力", "神力"],
+      "energyRewardMarkers": ["魔力", "查克拉", "气", "灵压", "灵力", "念", "咒力", "斗气", "仙力", "神力", "灵根", "魔法", "术式", "忍术", "功法", "法力", "mana", "chakra", "ki", "qi", "aura", "psychic", "cultivation", "resourceSystem"]
+    },
+    "rewardTypes": {
+      "item": { "label": "物品/装备/道具", "requiresOriginProfile": true },
+      "constitution": { "label": "体质/血脉/天赋", "requiresOriginProfile": true },
+      "ability": { "label": "能力/异能/体系能力", "requiresOriginProfile": true },
+      "technique": { "label": "技艺/招式/传承", "requiresOriginProfile": true },
+      "knowledge": { "label": "知识/职业/技术", "requiresOriginProfile": true },
+      "resourceSystem": { "label": "能量/资源体系", "requiresOriginProfile": true, "defaultRequiresEnergySystem": true },
+      "resistance": { "label": "抗性/适应性", "requiresOriginProfile": true },
+      "summonOrContract": { "label": "召唤/契约", "requiresOriginProfile": true }
+    }
+  },
+  "requiredRewardProvenance": [
+    "origin.sourceWorld",
+    "origin.originalOwner",
+    "origin.originalOwnerExperience",
+    "origin.realmOrStage",
+    "origin.masteryLevel",
+    "origin.protagonistCurrentUsability",
+    "origin.limitations"
+  ],
+  "rewardStates": ["pendingClaim", "claimed", "granted", "stored", "trainingRequired", "adaptationRequired", "active", "unstable", "incompatible", "converted", "consumed"]
+}
