@@ -1,8 +1,8 @@
 const { assertNotDuplicateReward } = require('./dedupe');
 const { validateReward } = require('./validate');
 
-function createPendingClaim(achievement, reward, state = {}) {
-  validateReward(reward);
+function createPendingClaim(achievement, reward, state = {}, options = {}) {
+  validateReward(reward, { ...options, state });
   assertNotDuplicateReward(reward, state);
   return {
     achievementId: achievement.id,
