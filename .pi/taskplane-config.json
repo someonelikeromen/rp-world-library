@@ -1,0 +1,92 @@
+{
+  "configVersion": 1,
+  "taskRunner": {
+    "project": {
+      "name": "pi-rp world archive",
+      "description": "Full chapter-by-chapter world archive implementation."
+    },
+    "paths": {
+      "tasks": "taskplane-tasks"
+    },
+    "testing": {
+      "commands": {
+        "test": "node -e \"console.log('no test suite configured; validate generated JSON per task')\""
+      }
+    },
+    "standards": {
+      "docs": [
+        "campaigns/world-library/manual-curation/reports/subagent-chapter-archive-iteration-plan.md"
+      ],
+      "rules": [
+        "Read full local sources",
+        "No network crawling",
+        "No core graph overwrite",
+        "No long verbatim excerpts"
+      ]
+    },
+    "worker": {
+      "model": "lt-yuyu/gpt-5.5",
+      "tools": "read,write,edit,bash,grep,find,ls",
+      "thinking": "off"
+    },
+    "reviewer": {
+      "model": "lt-yuyu/gpt-5.5",
+      "tools": "read,write,bash,grep,find,ls",
+      "thinking": "off"
+    },
+    "context": {
+      "workerContextWindow": 200000,
+      "warnPercent": 70,
+      "killPercent": 85,
+      "maxWorkerIterations": 35,
+      "maxReviewCycles": 1,
+      "noProgressLimit": 5
+    },
+    "taskAreas": {
+      "world-archive": {
+        "path": "taskplane-tasks",
+        "prefix": "WCA",
+        "context": "taskplane-tasks/CONTEXT.md"
+      }
+    },
+    "referenceDocs": {
+      "archivePlan": "campaigns/world-library/manual-curation/reports/subagent-chapter-archive-iteration-plan.md",
+      "archivePlanJson": "campaigns/world-library/manual-curation/reports/subagent-chapter-archive-iteration-plan.json"
+    },
+    "neverLoad": [],
+    "selfDocTargets": {},
+    "protectedDocs": []
+  },
+  "orchestrator": {
+    "orchestrator": {
+      "maxLanes": 3,
+      "worktreeLocation": "subdirectory",
+      "worktreePrefix": ".worktrees",
+      "batchIdFormat": "timestamp",
+      "spawnMode": "subprocess",
+      "operatorId": "world-archive"
+    },
+    "dependencies": {
+      "source": "prompt",
+      "cache": true
+    },
+    "assignment": {
+      "strategy": "affinity-first",
+      "sizeWeights": {
+        "S": 1,
+        "M": 2,
+        "L": 4
+      }
+    },
+    "preWarm": {
+      "autoDetect": false,
+      "commands": {},
+      "always": []
+    },
+    "merge": {
+      "model": "lt-yuyu/gpt-5.5",
+      "tools": "read,write,edit,bash,grep,find,ls",
+      "thinking": "off"
+    }
+  }
+}

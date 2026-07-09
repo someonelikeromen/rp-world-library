@@ -1,0 +1,51 @@
+{
+  "schema": "rp-achievements-v1",
+  "mode": "protagonist-exclusive-cheat-achievement-system",
+  "owner": "protagonist-only",
+  "visibility": "hidden-by-default",
+  "characterId": null,
+  "enabled": false,
+  "panel": {
+    "defaultVisible": false,
+    "requiresManualOpen": true,
+    "hasActiveAbility": false,
+    "visibleSections": [
+      "unlockedAchievements",
+      "currentCharacterStatus",
+      "claimableRewards"
+    ],
+    "hiddenSections": [
+      "lockedAchievements",
+      "hiddenConditions",
+      "instantCandidateRecords",
+      "missedRollResults",
+      "futureRewards",
+      "npcOmniscientStatus",
+      "hiddenWorldTruth"
+    ]
+  },
+  "currentWorldRating": null,
+  "currentWorldTopRating": null,
+  "achievements": [],
+  "rewardRolls": [],
+  "pendingClaims": [],
+  "claimedRewards": [],
+  "ownedRewardIds": [],
+  "claimedRewardIds": [],
+  "pendingRewardIds": [],
+  "worldRollTables": [],
+  "settings": {
+    "rd100": {
+      "archivedWorldSlots": 3,
+      "unarchivedWorldSlots": 2,
+      "fillRemainderWith": "randomAnimeGameWorld",
+      "shuffle": true
+    },
+    "rerollOnDuplicate": true,
+    "archivedWorldRequiresWebVerification": false,
+    "unarchivedWorldRequiresWebVerification": true,
+    "randomAnimeGameWorldRequiresWebVerification": true
+  },
+  "auditLog": [],
+  "instantCandidateRecords": []
+}
