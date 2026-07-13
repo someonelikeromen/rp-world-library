@@ -1,0 +1,603 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "aisha-belka",
+  "volume": "vol-07",
+  "time_range": {
+    "start": "序章",
+    "end": "第二章"
+  },
+  "sub_arcs": [
+    "红灯区事件序幕",
+    "伊丝塔眷族追猎贝尔"
+  ],
+  "source_refs": [
+    "danmachi-main/vol-07/full.txt:250-294",
+    "danmachi-main/vol-07/full.txt:1900-2724"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-07-ch-02",
+      "volume": "vol-07",
+      "time": "第二章 跑吧！克朗尼",
+      "label": "狩猎小新秀的女英豪",
+      "name": {
+        "zh": "阿伊莎·贝尔卡",
+        "en": "Aisha Belka",
+        "jp": "アイシャ・ベルカ"
+      },
+      "aliases": [
+        "阿伊莎"
+      ],
+      "gender": "女",
+      "species": "亚马逊人",
+      "occupation": "战斗娼妇、冒险者",
+      "affiliation": "伊丝塔眷族",
+      "status": {
+        "location": "伊丝塔眷族女主神娼殿与风月街第三区",
+        "state": "捕获贝尔后与芙里尼争夺猎物，并指挥眷族娼妇网络追捕他"
+      },
+      "appearance": {
+        "overview": "褐色肌肤、黑色长发、长腿，穿蓝紫色舞者式服装。",
+        "distinctive": [
+          "黑色长发",
+          "褐色肌肤",
+          "长腿",
+          "舞者式服装"
+        ]
+      },
+      "personality": {
+        "summary": "大胆、强势、好战，遵循亚马逊主动掳走强悍男人的习性；同时讨厌芙里尼，并保护猎物不被对方糟蹋。",
+        "core_traits": [
+          "豪放",
+          "好战",
+          "支配欲强",
+          "讲究猎物归属"
+        ],
+        "values": [
+          "强悍男人",
+          "亚马逊方式",
+          "自己的猎物"
+        ]
+      },
+      "abilities_owned": [
+        "亚马逊体术",
+        "高阶冒险者能力值"
+      ],
+      "relationships": {
+        "bell-cranel": "被她认定并追捕的猎物",
+        "phryne-jamil": "厌恶且对立的同眷族干部",
+        "ishtar": "主神",
+        "haruhime-sanjouno": "平日关照的同眷族游女"
+      },
+      "summary": "阿伊莎在小巷中抓住迷路的贝尔，认出其小新秀身份后将其带往女主神娼殿。她向贝尔说明亚马逊会自己寻找并掳走强悍男人，被芙里尼闯入争夺后接受以亚马逊方式抢夺猎物。贝尔逃走后，阿伊莎以长腿体术一度压制他，并调动第三区娼妇网络封锁路线。",
+      "key_events": [
+        {
+          "event_id": "aisha-captures-bell",
+          "summary": "在小巷中发现并强行带走贝尔。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:1912"
+        },
+        {
+          "event_id": "bell-brought-to-ishtar-familia",
+          "summary": "把贝尔带入女主神娼殿并介绍伊丝塔势力圈。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:2086"
+        },
+        {
+          "event_id": "ishtar-amazons-hunt-bell",
+          "summary": "与芙里尼争夺贝尔并率亚马逊追捕。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:2398"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-07/full.txt:1912",
+        "danmachi-main/vol-07/full.txt:2086",
+        "danmachi-main/vol-07/full.txt:2216",
+        "danmachi-main/vol-07/full.txt:2398",
+        "danmachi-main/vol-07/full.txt:2574",
+        "danmachi-main/vol-07/full.txt:2624"
+      ]
+    },
+    {
+      "period_id": "vol-07-prologue",
+      "volume": "vol-07",
+      "time": "序章 女神是残酷的淫都之王",
+      "label": "望向游廓的亚马逊",
+      "name": {
+        "zh": "阿伊莎·贝尔卡",
+        "en": "Aisha Belka",
+        "jp": "アイシャ・ベルカ"
+      },
+      "aliases": [
+        "阿伊莎"
+      ],
+      "gender": "女",
+      "species": "亚马逊人",
+      "occupation": "娼妇、冒险者",
+      "affiliation": "伊丝塔眷族",
+      "status": {
+        "location": "红灯区",
+        "state": "奉伊丝塔命令出街接客，却回望幽禁春姬的游廓"
+      },
+      "appearance": {
+        "overview": "黑色长发、长腿的亚马逊女子。",
+        "distinctive": [
+          "黑色长发",
+          "亚马逊体格"
+        ]
+      },
+      "personality": {
+        "summary": "外表奔放，内心对春姬处境存有恻隐。",
+        "core_traits": [
+          "豪放",
+          "同情弱者",
+          "行动派"
+        ]
+      },
+      "relationships": {
+        "ishtar": "主神",
+        "haruhime-sanjouno": "被其怜悯的眷族同伴"
+      },
+      "summary": "在伊丝塔下令后准备与同族出街，却回望异国风游廓与张见世，显露对春姬处境的复杂情绪。",
+      "key_events": [
+        {
+          "event_id": "haruhime-seven-day-countdown",
+          "summary": "回望春姬所在游廓，暗示知晓其命运。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:270"
+        }
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "danmachi-main/vol-07/full.txt:270",
+        "danmachi-main/vol-07/full.txt:294"
+      ]
+    },
+    {
+      "period_id": "vol-09-ch-03-escort-and-level-up",
+      "volume": "vol-09",
+      "time": "第三章 世界、现实与怪物",
+      "label": "以Lv.4实力护送贝尔",
+      "name": {
+        "zh": "阿伊莎·贝勒卡",
+        "en": "Aisha Belka",
+        "jp": "アイシャ・ベルカ"
+      },
+      "aliases": [
+        "丽杰"
+      ],
+      "gender": "女",
+      "species": "亚马逊人",
+      "occupation": "冒险者",
+      "affiliation": "未知新眷族（本卷未明示）",
+      "status": {
+        "level": "Lv.4",
+        "location": "丰饶的女主人、地下城中层",
+        "state": "主动接下贝尔前往第18层的护卫委托"
+      },
+      "summary": "阿伊莎探望春姬未遇，碰见贝尔一行寻找护卫后主动接下委托。她透露自己在风月街事件后升级为Lv.4，并在中层以压倒性战斗力开路，同时不断调戏贝尔，引发琉的强烈防备。",
+      "key_events": [
+        {
+          "event_id": "ryu-and-aisha-escort-bell-party-to-floor-18",
+          "summary": "与琉一起护送赫斯缇雅眷族到安全楼层。",
+          "sourceRef": "danmachi-main/vol-09/full.txt:2840"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-09/full.txt:2750-3160"
+      ]
+    },
+    {
+      "period_id": "vol-09-special-teases-ryu",
+      "volume": "vol-09",
+      "time": "特典 琉短篇 妖精浪漫",
+      "label": "在酒馆捉弄琉",
+      "status": {
+        "location": "丰饶的女主人",
+        "state": "饮酒并追问琉对贝尔的看法"
+      },
+      "summary": "阿伊莎来到丰饶的女主人喝酒，承诺不谈琉真实身份，却不停追问琉对贝尔的感情与亲密进展，最终逼出琉对精灵式求爱仪式的浪漫想象。",
+      "key_events": [
+        {
+          "event_id": "aisha-teases-ryu-about-bell-romance",
+          "summary": "戏弄琉并称她意外是梦想家。",
+          "sourceRef": "danmachi-main/vol-09/full.txt:8840"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-09/full.txt:8809-8864"
+      ]
+    },
+    {
+      "period_id": "vol-12-aisha-helps-bell-and-haruhime",
+      "volume": "vol-12",
+      "time": "第二章-第五章",
+      "label": "受荷米斯眷族委托支援贝尔与春姬",
+      "name": {
+        "zh": "阿伊莎·贝勒卡",
+        "en": "Aisha Belka"
+      },
+      "gender": "女",
+      "species": "亚马逊人",
+      "occupation": "冒险者",
+      "affiliation": "荷米斯眷族",
+      "status": {
+        "level": "Lv.4",
+        "location": "丰饶的女主人、代达罗斯路",
+        "state": "因欠贝尔人情和亚丝菲命令参与救援"
+      },
+      "summary": "阿伊莎从亚丝菲处得知异端儿与人造迷宫内情，起初难以理解救怪物，但因贝尔参与而接受委托。作战前她与琉接触贝尔，承担牵制任务。伯特追上贝尔、薇妮和春姬时，阿伊莎循春姬的万宝槌光赶到，以等级升华状态与伯特交战，最终败北但成功争取时间。",
+      "key_events": [
+        {
+          "event_id": "lili-and-bell-decoy-operation-start",
+          "summary": "与琉接触贝尔并接受任务。",
+          "sourceRef": "danmachi-main/vol-12/full.txt:3915-4664"
+        },
+        {
+          "event_id": "bell-haruhime-rescue-wiene-and-haruhime-stops-bete",
+          "summary": "受等级升华与伯特交战。",
+          "sourceRef": "danmachi-main/vol-12/full.txt:4953-8194"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-12/full.txt:1243-2644",
+        "danmachi-main/vol-12/full.txt:3915-8194"
+      ]
+    },
+    {
+      "period_id": "vol-13-aisha-expedition-mentor",
+      "volume": "vol-13",
+      "time": "第二章-终章",
+      "label": "作为Lv.4老手加入远征并守护队伍",
+      "name": {
+        "zh": "阿伊莎·贝勒卡",
+        "en": "Aisha Belka",
+        "jp": "アイシャ・ベルカ"
+      },
+      "gender": "女",
+      "species": "亚马逊人",
+      "occupation": "冒险者",
+      "affiliation": "荷米斯眷族",
+      "status": {
+        "level": "Lv.4",
+        "location": "第24-25层、里维拉镇",
+        "state": "以经验和战力支撑赫斯缇雅眷族首次下层远征"
+      },
+      "summary": "阿伊莎主动加入远征，既为照看春姬，也为偿还异端儿事件的人情。她带来魔导书促成春姬觉醒九重，并在下层持续担任导师，解释水之迷都、怪物生态和战术风险。贝尔失散后，阿伊莎压住莉莉的恐慌，提醒队伍优先自救；怪物奉送和怪物之宴中她作为核心战力殿后，后被强化种种下寄生树。她要求精灵与矮人守密后命令春姬发动群体等级升华，并在贝尔归来后把决战托付给他。",
+      "key_events": [
+        {
+          "event_id": "expedition-preparations-and-haruhime-kokonoe",
+          "summary": "提供魔导书并训练春姬。",
+          "sourceRef": "danmachi-main/vol-13/full.txt:853-2676"
+        },
+        {
+          "event_id": "expedition-enters-water-capital-floor25",
+          "summary": "向小队讲解第25层水域危险。",
+          "sourceRef": "danmachi-main/vol-13/full.txt:2677-3614"
+        },
+        {
+          "event_id": "lili-retreat-plan-and-marie-guides-bell",
+          "summary": "贝尔被冲走后稳定队伍情绪。",
+          "sourceRef": "danmachi-main/vol-13/full.txt:4663-6046"
+        },
+        {
+          "event_id": "monster-parade-and-kokonoe-mass-level-boost",
+          "summary": "在怪物奉送和怪物之宴中殿后，受寄生树伤害后启用春姬新魔法。",
+          "sourceRef": "danmachi-main/vol-13/full.txt:6047-7866"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-13/full.txt:853-8038"
+      ]
+    },
+    {
+      "period_id": "vol-14-aisha-floor25-commander",
+      "volume": "vol-14",
+      "time": "第一章-第六章",
+      "label": "留守第25层并指挥对抗莱姆顿",
+      "name": {
+        "zh": "阿伊莎·贝勒卡",
+        "en": "Aisha Belka",
+        "jp": "アイシャ・ベルカ"
+      },
+      "gender": "女",
+      "species": "亚马逊",
+      "occupation": "冒险者、原伊丝塔眷族战斗娼妇",
+      "affiliation": "荷米斯眷族文件所属；派系联盟同行者",
+      "status": {
+        "level": "Lv.4",
+        "location": "第18层、第25层水之迷都",
+        "state": "击败莱姆顿后面对提前诞生的安菲斯比纳"
+      },
+      "summary": "阿伊莎在里维拉阻止贝尔当众袒护琉，提醒他避免牵连队伍。第25层分组时，她接受贝尔请求留下监视塔克并保护队伍。塔克等人露出本性后，阿伊莎以深层经验识别莱姆顿的危险，指挥莉莉等人退入水晶田，要求春姬只给韦尔夫与樱花等级升华，并通过破坏莱姆顿热感孔洞后以魔法斩击斩杀它。随后楼层主安菲斯比纳提前出现，她确认第25层已进入楼层主战。",
+      "key_events": [
+        {
+          "event_id": "hestia-alliance-joins-ryu-hunt",
+          "summary": "阿伊莎阻止贝尔冲动发言，并支持队伍冷静行动。",
+          "sourceRef": "danmachi-main/vol-14/full.txt:215-778"
+        },
+        {
+          "event_id": "floor25-lamton-battle",
+          "summary": "阿伊莎指挥并击杀被塔克操纵的莱姆顿。",
+          "sourceRef": "danmachi-main/vol-14/full.txt:4025-5158"
+        },
+        {
+          "event_id": "amphisbaena-early-spawn",
+          "summary": "阿伊莎认出提前出现的楼层主安菲斯比纳。",
+          "sourceRef": "danmachi-main/vol-14/full.txt:7657-7830"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-14/full.txt:215-7830"
+      ]
+    },
+    {
+      "period_id": "vol-15-aisha-veteran-anchor",
+      "volume": "vol-15",
+      "time": "第七章-第八章",
+      "label": "以老练战斗经验支撑队伍",
+      "name": {
+        "zh": "阿伊莎·贝勒卡",
+        "en": "Aisha Belka",
+        "jp": "アイシャ・ベルカ"
+      },
+      "gender": "女",
+      "species": "亚马逊人",
+      "occupation": "冒险者",
+      "affiliation": "赫尔墨斯眷族协力者；原伊丝塔眷族",
+      "status": {
+        "level": "Lv.4",
+        "location": "第25-27层水之迷都",
+        "state": "担任实际前卫核心与士气支柱，保护春姬并带队向下层推进"
+      },
+      "summary": "阿伊莎凭借过去讨伐安菲斯比纳的经验，判断当前战力不足却仍组织战斗，负责牵制楼层主、保护春姬并指挥撤退。第26层得知贝尔可能死亡后，她逼迫柏斯陈述事实，重新点燃队伍意志。随后她承认只有继续深入、与贝尔和琉会合才有生路，并在异端儿与援军到来后加入救援行动。",
+      "key_events": [
+        {
+          "event_id": "amphisbaena-forces-party-fight",
+          "summary": "确认退路被树根封锁后率先要求拿起武器，只能与安菲斯比纳决战。",
+          "sourceRef": "danmachi-main/vol-15/chapters/ch-002-第七章-绝望之诗-力克之诗.txt"
+        },
+        {
+          "event_id": "expedition-meets-bors-and-hears-bell-may-be-dead",
+          "summary": "逼柏斯说出事实而非恐惧推测，让队伍明白贝尔可能仍存活。",
+          "sourceRef": "danmachi-main/vol-15/chapters/ch-003-第八章-铁锤之声.txt"
+        },
+        {
+          "event_id": "lili-forms-deep-floor-rescue-party",
+          "summary": "将柏斯纳入队伍并接受穿越水之迷都的救援方针。",
+          "sourceRef": "danmachi-main/vol-15/chapters/ch-003-第八章-铁锤之声.txt"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-15/chapters/ch-002-第七章-绝望之诗-力克之诗.txt",
+        "danmachi-main/vol-15/chapters/ch-003-第八章-铁锤之声.txt"
+      ]
+    },
+    {
+      "period_id": "vol-16-aisha-haruhime-training-advice",
+      "volume": "vol-16",
+      "time": "间章 奋斗公主与守护忍者",
+      "label": "建议春姬暂缓升级的亚马逊导师",
+      "name": {
+        "zh": "阿伊莎·贝勒卡",
+        "en": "Aisha Belka",
+        "jp": "アイシャ・ベルカ"
+      },
+      "gender": "女",
+      "species": "亚马逊人",
+      "occupation": "冒险者、春姬战斗与妖术导师",
+      "affiliation": "荷米斯眷族；旧伊丝塔眷族",
+      "status": {
+        "level": "Lv.4",
+        "location": "地下城第3层、欧拉丽",
+        "state": "旁观春姬练等并以老手身份提出训练方针"
+      },
+      "summary": "阿伊莎在春姬于第3层练习自卫战斗时前来查看，指出春姬不适合直接战斗，认为让她专注咏唱、理解战场机宜更实际。她也建议春姬虽已具备升级资格，但应暂缓升上Lv.2，先掌握妖术师定位、精神力运用与最低限度自保能力。",
+      "key_events": [
+        "haruhime-training-and-upgrade-postponed"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-16/chapters/ch-014-间章-奋斗公主与守护忍者.txt"
+      ]
+    },
+    {
+      "period_id": "vol-17-aisha-haruhime-dream",
+      "volume": "vol-17",
+      "time": "短篇12、10",
+      "label": "吐槽春姬色梦的亚马逊监护者",
+      "name": {
+        "zh": "阿伊莎·贝勒卡",
+        "en": "Aisha Belka",
+        "jp": "アイシャ・ベルカ"
+      },
+      "gender": "女",
+      "species": "亚马逊",
+      "occupation": "冒险者",
+      "affiliation": "赫尔墨斯眷族协力者/原伊丝塔眷族",
+      "status": {
+        "location": "饮茶店、贝尔梦境",
+        "state": "照看春姬并直言吐槽；在贝尔婚礼梦中也作为强势追求者出现"
+      },
+      "summary": "阿伊莎为看春姬情况来到灶火馆并带她去饮茶店，听春姬坦白夜袭贝尔的梦后，毫不留情地吐槽她是梦里袭击自己梦中男人的色狐狸。贝尔的婚礼梦中，阿伊莎也以拉到床上先生孩子的强势姿态出现。",
+      "key_events": [
+        "haruhime-confesses-night-visit-dream",
+        "bell-dreams-chaotic-wedding-future"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-17/chapters/ch-012-狐狸夜嫁.txt",
+        "danmachi-main/vol-17/chapters/ch-010-5YEARS-AFTER-~Side-Bell~.txt"
+      ]
+    },
+    {
+      "period_id": "vol-18-aisha-haruhime-wingwoman",
+      "volume": "vol-18",
+      "time": "英雄与娼妇BD特典及广播剧",
+      "label": "煽动并保护春姬追求贝尔的亚马逊大姐",
+      "name": {
+        "zh": "阿伊莎·贝勒卡",
+        "en": "Aisha Belka",
+        "jp": "アイシャ・ベルカ"
+      },
+      "gender": "女",
+      "species": "亚马逊",
+      "occupation": "冒险者、原伊丝塔眷族战斗娼妇",
+      "affiliation": "已离开伊丝塔眷族；新眷族未明",
+      "status": {
+        "level": "Lv.3",
+        "location": "欧拉丽咖啡店、街区",
+        "state": "以亚马逊式直球鼓励春姬行动，也在她和贝尔被追赶时动用旧同伴救场"
+      },
+      "summary": "阿伊莎听春姬倾诉梦中夜袭贝尔后，故意用报恩与花街技巧煽动她主动接近贝尔，认为春姬需要夺取心仪的雄性。约会追逐升级时，她先推荐贝尔与春姬乘坐客船，后又在全城追逐中把二人拉进巷子，派蕾娜和其他原战斗娼妇引开赫斯缇雅等追兵。广播剧中她再次邀请春姬茶会，直言若不抓紧好男人会被抢走；检测器显示她对贝尔好感高且带捕食意味。",
+      "key_events": [
+        "haruhime-serves-bell-and-is-grounded",
+        "bell-takes-haruhime-orario-sightseeing",
+        "haruhime-bell-flee-jealous-pursuers",
+        "hestia-lili-second-favorability-survey"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-18/chapters/ch-001-第一章.txt",
+        "danmachi-main/vol-18/chapters/ch-002-第二章.txt",
+        "danmachi-main/vol-18/chapters/ch-003-第三章.txt",
+        "danmachi-main/vol-18/chapters/ch-006-特典广播剧-续！这次来对那个孩子使用好感度检测器.txt"
+      ]
+    },
+    {
+      "period_id": "vol-20-aisha-protects-xenos",
+      "volume": "vol-20",
+      "time": "第三章",
+      "label": "不认同救怪物却因春姬约定救下雷特与菲娅的亚马逊",
+      "name": {
+        "zh": "阿伊莎·贝勒卡",
+        "en": "Aisha Belka",
+        "jp": "アイシャ・ベルカ"
+      },
+      "gender": "女",
+      "species": "亚马逊",
+      "occupation": "冒险者",
+      "affiliation": "荷米斯眷族；原伊丝塔眷族",
+      "status": {
+        "level": "Lv.4",
+        "location": "代达罗斯路",
+        "state": "受荷米斯眷族指示保护走散异端儿，内心仍坚守冒险者对怪物的界限"
+      },
+      "summary": "阿伊莎原本并不想参与救助异端儿，只是为了贝尔和春姬才行动。代达罗斯路攻防战中，她从赫斯缇雅处得知走散异端儿汇合点，意识到荷米斯也可能在盘算取得克诺索斯钥匙。她发现雷特和菲娅被冒险者围攻后，以想独占赏金为借口打倒同业者，并用『自言自语』盘问二者是否杀人、吃人、杀过冒险者。雷特承认曾杀冒险者后，她理解这是地下城中的正当防卫而放二者离开。她不愿承认自己与怪物合谋，却因雷特和菲娅的人类语言感谢而动摇，并思考能突破这种毒与界限的人或许会成为异端英雄。",
+      "key_events": [
+        "aisha-protects-let-and-fia-in-daedalus-street"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-20/chapters/ch-003-第三章.txt"
+      ]
+    },
+    {
+      "period_id": "vol-22-aisha-frontline-and-amazon-leader",
+      "volume": "vol-22",
+      "time": "战争游戏",
+      "label": "率领战斗娼妇并以赫尔·凯奥斯击破阿尔弗利克的亚马逊",
+      "name": {
+        "zh": "阿伊莎·贝尔卡",
+        "en": "Aisha Belka",
+        "jp": "アイシャ・ベルカ"
+      },
+      "gender": "女",
+      "species": "亚马逊人",
+      "occupation": "冒险者、战斗娼妇领袖",
+      "affiliation": "普路托斯名义派系、派系联盟",
+      "status": {
+        "location": "奥萨都市遗址",
+        "state": "率领前伊丝塔眷族战斗娼妇参战；左翼对抗炎金四战士；最终以赫尔·凯奥斯重创阿尔弗利克"
+      },
+      "summary": "阿伊莎在准备阶段直言与其道歉不如打倒芙蕾雅眷族，战争中率领战斗娼妇作为联盟左翼主力。她多次受春姬等级升华支援，在娜扎、命、莉莉与丰饶店员配合下抓住贾里巴四兄弟被拆分的机会，以赫尔·凯奥斯击倒长男阿尔弗利克。",
+      "key_events": [
+        "faction-war-game-begins",
+        "gulliver-brothers-are-defeated",
+        "haruhime-reveals-level-boost"
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "danmachi-main/vol-22/chapters/ch-005-第八章-派系大战.txt",
+        "danmachi-main/vol-22/chapters/ch-007-第九章-将花语赠与你②.txt"
+      ]
+    },
+    {
+      "period_id": "vol-23-aisha-talks",
+      "volume": "vol-23",
+      "time": "BD2/BD4广播剧",
+      "label": "亚马逊式直球担当",
+      "name": {
+        "zh": "阿伊莎·贝勒卡",
+        "en": "Aisha Belka"
+      },
+      "gender": "女",
+      "species": "亚马逊",
+      "affiliation": "赫尔墨斯眷族；原伊丝塔眷族",
+      "summary": "阿伊莎在女生夜谈中以“脱就完事了”等直球建议冲击命与千草，也多次吐槽春姬。男生夜谈中，她被几乎所有男性一致认定为派阀联合中最性感的女性。",
+      "personality": {
+        "summary": "奔放、直率、肉食系，偶尔选择沉默避免话题复杂化。",
+        "core_traits": [
+          "豪放",
+          "直球",
+          "姐姐气质",
+          "好色玩笑"
+        ]
+      },
+      "relationships": {
+        "sanjouno-haruhime": "旧识与保护对象，常吐槽她的妄想。"
+      },
+      "key_events": [
+        {
+          "event_id": "girls-talk-rivira",
+          "summary": "提供亚马逊式恋爱建议。"
+        },
+        {
+          "event_id": "boys-talk-rivira",
+          "summary": "被男生组作为性感标准。"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-23/chapters/ch-001-BD2特典广播剧-Dungeon-in-Girls'-Talk.txt",
+        "danmachi-main/vol-23/chapters/ch-002-BD4特典广播剧-Dungeon-in-Boys'-Talk.txt"
+      ]
+    },
+    {
+      "period_id": "vol-29-aisha-amazon-mentor",
+      "volume": "vol-29",
+      "time": "多篇短篇",
+      "label": "直白推动春姬并觊觎贝尔的亚马逊",
+      "name": {
+        "zh": "阿伊莎·贝勒卡",
+        "en": "Aisha Belka",
+        "jp": "アイシャ・ベルカ"
+      },
+      "gender": "女",
+      "species": "亚马逊人",
+      "occupation": "冒险者",
+      "affiliation": "赫尔墨斯眷族相关协力者；前伊丝塔眷族",
+      "status": {
+        "location": "欧拉丽、丰饶的女主人、女神祭",
+        "state": "继续以豪放方式介入贝尔周边恋爱战场"
+      },
+      "summary": "阿伊莎听春姬讲述夜袭贝尔的春梦后毫不留情调侃她，又在酒馆追问琉对贝尔的看法，逼出琉的精灵式浪漫观。女神祭中她看见贝尔与希儿约会，判断春姬应付不了希儿，也承认自己同样想得到战胜过自己的贝尔，于是率旧同伴试图拆散约会。",
+      "key_events": [
+        "vol29-ch026-haruhime-erotic-dream",
+        "vol29-ch031-aishe-teases-ryu-romance",
+        "vol29-ch056-aishe-joins-syr-date-disruption"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-29/chapters/ch-026-二-狐狸的婚嫁.txt",
+        "danmachi-main/vol-29/chapters/ch-031-三-浪漫的精灵.txt",
+        "danmachi-main/vol-29/chapters/ch-056-四-目击者～战斗娼妓的情况～.txt"
+      ]
+    }
+  ]
+}

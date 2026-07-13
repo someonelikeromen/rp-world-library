@@ -1,0 +1,25 @@
+{
+  "schema": "tm-fgo-normalized-event-v1",
+  "chapterId": "fgo-eor-shinjuku",
+  "id": "shinjuku-event-e",
+  "rawEventCode": "事件E",
+  "orderIndex": 5,
+  "title": "新宿迷宫",
+  "timeRaw": "1999年 新宿",
+  "trigger": "与圣黑王汇合",
+  "completion": "Archer推理出圣黑王真名并在新宿站会合",
+  "dialogueRefs": [
+    "shinjuku-dlg-008"
+  ],
+  "sourceRefs": [
+    {
+      "sourceUnitId": "src-fgo-eor-shinjuku",
+      "path": "sources/worldbook-script/eor/ch-089-shinjuku.txt",
+      "lineStart": 57,
+      "lineEnd": 58
+    }
+  ],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

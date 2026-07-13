@@ -1,0 +1,20 @@
+{
+  "schema":"tm-fgo-packet-final-status-v1",
+  "packetId":"pkt-fgo-eor-agartha-extract",
+  "chapterId":"fgo-eor-agartha",
+  "slug":"agartha",
+  "model":"lt-yuyu/gpt-5.5",
+  "status":"passed",
+  "latestAudit":{"path":"audit-round-002.json","status":"passed"},
+  "latestAuditStatus":"passed",
+  "openIssues":0,
+  "blockedIssues":0,
+  "canAdvance":true,
+  "sourceType":"user-file-worldbook-script",
+  "credibility":"B",
+  "canonStatus":"canon-like",
+  "sourceRefs":[{"path":"sources/worldbook-script/eor/ch-090-agartha.txt","lineStart":1,"lineEnd":108}],
+  "coverage":{"eventsAThroughQ":true,"eventFiles":17,"dialogueQuotes":32,"dialogueRefsForAllQuotes":true,"appearanceLayer":true,"abilityLayer":true,"combatEffectLayer":true,"notFoundInSourceRecords":true,"normalizedOutputs":true},
+  "outputs":{"extractedRoot":"extracted/eor/agartha","normalizedRoot":"normalized/eor/agartha","auditRoot":"audit/packet-audits/eor/agartha"},
+  "notes":["Source-first terminology only; unsupported labels retained only as candidates unsupported-by-current-source.","Mandatory visual, ability, and combat-effect details are source-backed when present and covered by not-found-in-source records when absent.","No merge was run."]
+}

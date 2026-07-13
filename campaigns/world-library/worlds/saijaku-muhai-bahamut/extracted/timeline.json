@@ -1,0 +1,3940 @@
+{
+  "world": "saijaku-muhai-bahamut",
+  "calendar": {
+    "system": "fantasy",
+    "anchor": "vol-01 day 0"
+  },
+  "events": [
+    {
+      "leads_to": [
+        "underground-market-ticket",
+        "stefa-rescue"
+      ],
+      "event_id": "heiburg-infiltration-start",
+      "type": "mission/conspiracy",
+      "summary": "Lux enters Heiburg capital as Rudy Entos with Philuffy as his bride. They investigate the World Alliance traitor and Dragon Marauder dealings under cover of a wealthy merchant couple.",
+      "time": "vol-11 early",
+      "outcome": "They obtain underground market tickets and contact Stefa's trail.",
+      "cause": "Magialca suspects Heiburg-Dragon Marauder underground dealings. Traitor expected to appear in Heiburg."
+    },
+    {
+      "leads_to": [
+        "underground-market-trap"
+      ],
+      "event_id": "underground-market-ticket",
+      "type": "incident",
+      "summary": "Philuffy detects a merchant's fake gold coin scam at a banquet and negotiates to obtain two underground market entrance tickets for three gold coins.",
+      "time": "vol-11 early",
+      "outcome": "Lux and Philuffy gain underground market access. Philuffy's observation skills and business acumen displayed.",
+      "cause": "Lux needs to verify illegal deals in the underground market."
+    },
+    {
+      "leads_to": [
+        "calensia-confession-trap"
+      ],
+      "event_id": "stefa-rescue",
+      "type": "incident/milestone",
+      "summary": "Lux rescues the blind girl Stefa from drunken soldiers at night and learns about her past with Rosa and Calensia.",
+      "time": "vol-11 night",
+      "outcome": "Stefa entrusts Lux to find Calensia. The infiltration mission connects to Rosa's old friend truth line.",
+      "cause": "Heiburg military discipline is corrupt; soldiers harassing a girl."
+    },
+    {
+      "leads_to": [
+        "calensia-confession-trap"
+      ],
+      "event_id": "brandish-bar-battle",
+      "type": "battle/incident",
+      "summary": "Brandish bursts into a red-light district bar pursuing Lux and Philuffy, destroys the bar with cannon fire. Lux wins by a narrow margin using a flying Drag-Ride but is severely injured.",
+      "time": "vol-11 mid",
+      "casualties": [
+        "brandish's subordinates killed or injured",
+        "bar destroyed"
+      ],
+      "outcome": "Brandish defeated. Calensia agrees to a private conversation with Lux. Lux injured and resting.",
+      "cause": "Lux and Philuffy's investigation of Calensia triggers Heiburg military surveillance."
+    },
+    {
+      "leads_to": [
+        "underground-market-trap"
+      ],
+      "event_id": "calensia-confession-trap",
+      "type": "conspiracy/revelation",
+      "summary": "Calensia seemingly exposes Heiburg-Dragon Marauder deals and agrees to guide Lux, but actually lures him into the underground market trap.",
+      "time": "vol-11 mid",
+      "outcome": "Calensia reveals Hayes, giant soldier production facilities, Dragon Marauder dealings, and the final transaction. Lux decides to catch them red-handed in the underground market but is led toward Rosa's ambush.",
+      "cause": "Lux shows Stefa's hairpin and presses Calensia about Heiburg's dark secrets."
+    },
+    {
+      "leads_to": [
+        "rosa-battle-central-square"
+      ],
+      "event_id": "underground-market-trap",
+      "type": "conspiracy/battle",
+      "summary": "Lux and Philuffy follow Calensia into the Drag-Ride hangar area. They discover key anomalies and an ambush. Rosa appears and steals Bahamut's Sword Device.",
+      "time": "vol-11 mid",
+      "outcome": "Lux breaks out using a flying Drag-Ride. Philuffy drags Rosa to the training grounds for battle. Rosa formally revealed as the public villain face.",
+      "cause": "Calensia, per her hidden plan, lures Lux into a dead-end area with no escape."
+    },
+    {
+      "leads_to": [
+        "rosa-capture-mercy"
+      ],
+      "event_id": "rosa-battle-central-square",
+      "type": "battle",
+      "summary": "Rosa uses illusions, hostages, and ambushes to seriously wound Philuffy in the central square. Lux, enraged, activates his limit break and crushes Heiburg forces plus Rosa.",
+      "time": "vol-11 mid",
+      "casualties": [
+        "multiple Heiburg resistance fighters dead or injured",
+        "Philuffy severely wounded"
+      ],
+      "outcome": "Rosa defeated and gravely wounded. Lux nearly reaches his limit. Philuffy severely injured.",
+      "cause": "Rosa shifts from training grounds to the city square, using resistance soldiers and citizens as hostages to bait Lux."
+    },
+    {
+      "leads_to": [
+        "rosa-escape-lux-framed",
+        "calensia-reveal"
+      ],
+      "event_id": "rosa-capture-mercy",
+      "type": "milestone/moral-crisis",
+      "summary": "Rosa subdued. Soldiers and Calensia demand Lux execute her. Philuffy, gravely wounded, arrives to stop Lux from becoming an executioner.",
+      "time": "vol-11 mid",
+      "outcome": "Rosa restrained for trial. Lux nearly breaks mentally but is comforted by Philuffy. Rosa spared — a prerequisite for exposing the true Evil King.",
+      "cause": "Rosa's long tyranny sparks soldiers' revenge; Calensia wants her silenced."
+    },
+    {
+      "leads_to": [
+        "trapeport-occupation",
+        "calensia-reveal"
+      ],
+      "event_id": "rosa-escape-lux-framed",
+      "type": "conspiracy",
+      "summary": "Calensia rescues Rosa via a hidden passage. Lux's lost flying Drag-Ride Sword Device is used as assassination evidence. Heiburg declares Lux a fugitive.",
+      "time": "vol-11 mid-late",
+      "outcome": "Lux nearly arrested by Goodfelica in Trapeport. Forced into hiding at the Aingram conglomerate villa.",
+      "cause": "Calensia needs Rosa as bait and needs to frame Lux to control the board."
+    },
+    {
+      "leads_to": [
+        "six-punishers-attack"
+      ],
+      "event_id": "trapeport-occupation",
+      "type": "incident/military-crisis",
+      "summary": "Heiburg military uses tower investigation rights to direct phantom beasts toward Trapeport. Residents flee. New Kingdom Drag-Ride knights are exhausted.",
+      "time": "vol-11 late",
+      "outcome": "Lux hides in Aingram villa. Knights formulate counterattack plan.",
+      "cause": "Exhibition duel result grants Heiburg one-month tower rights. Calensia plans to weaken New Kingdom."
+    },
+    {
+      "leads_to": [
+        "metatron-defeat",
+        "calensia-reveal"
+      ],
+      "event_id": "six-punishers-attack",
+      "type": "battle/conspiracy",
+      "summary": "The Six Punishers scatter across Trapeport, using horns to control phantom beasts. New Kingdom knights face them individually: Krulcifer vs Zekta, Lisha vs Goldia, Yoruka vs Biki, Celestia vs Goodfelica.",
+      "time": "vol-11 late night",
+      "outcome": "Most Six Punishers defeated. Goodfelica sacrifices herself as bait to trigger Metatron's release.",
+      "cause": "Calensia launches a large-scale attack to lure out Lux and release the apocalypse beast."
+    },
+    {
+      "leads_to": [
+        "philuffy-defeats-calensia"
+      ],
+      "event_id": "calensia-reveal",
+      "type": "revelation/conspiracy",
+      "summary": "Lux deduces Calensia is the true Evil King: she killed the real Calensia, manipulated Rosa, stole the Sword Device, and framed Lux. Her logical contradictions expose her.",
+      "time": "vol-11 late night",
+      "outcome": "Calensia uses a panacea and summons Alcyone. Philuffy stays to fight her.",
+      "cause": "Calensia fakes injuries to mislead Lux; her story's logical gaps reveal the truth."
+    },
+    {
+      "leads_to": [
+        "philuffy-sword-belt-promise"
+      ],
+      "event_id": "philuffy-defeats-calensia",
+      "type": "battle/milestone",
+      "summary": "Calensia suppresses Philuffy with Alcyone's black wing cover and Moon Howl. Philuffy awakens B-blood Typhon, withstands the cannon blast head-on, and destroys Alcyone.",
+      "time": "vol-11 late night",
+      "casualties": [
+        "calensia severely wounded",
+        "philuffy extremely exhausted"
+      ],
+      "outcome": "Calensia completely incapacitated with severe injuries. Philuffy extremely exhausted but restored by Airi's horn. True Evil King threat neutralized.",
+      "cause": "Philuffy must stop Calensia from pursuing Lux and protect everyone."
+    },
+    {
+      "leads_to": [
+        "tower-lock-singlen"
+      ],
+      "event_id": "metatron-defeat",
+      "type": "battle/disaster",
+      "summary": "Apocalypse beast Metatron is released and reflects all attacks. Lux, using the weakness discovered by his comrades' probing attacks, creates a Gluttony barrier to delay reflection and pierces its core.",
+      "time": "vol-11 climax",
+      "casualties": [
+        "metatron destroyed"
+      ],
+      "outcome": "Metatron explodes. Supreme Power drops and is caught by Lisha. First ruin tower conquered.",
+      "cause": "Goodfelica and Calensia's plan to have Metatron attack the New Kingdom."
+    },
+    {
+      "leads_to": [
+        "yoruka-assassination-resolution"
+      ],
+      "event_id": "tower-lock-singlen",
+      "type": "revelation/milestone",
+      "summary": "Lux meets Singlen at the tower top, sees the destroyed leader automaton. Singlen hints the leader was creator insurance and explains how to lock the tower with the Supreme Power.",
+      "time": "vol-11 epilogue",
+      "outcome": "Tower conquest completed but Singlen and ruin secrets appear even more dangerous.",
+      "cause": "Metatron defeated; tower's Supreme Power must be handled."
+    },
+    {
+      "leads_to": [],
+      "event_id": "philuffy-sword-belt-promise",
+      "type": "milestone",
+      "summary": "Lux gives Philuffy a new sword belt as a birthday gift, asking her to continue fighting alongside him from now on.",
+      "time": "vol-11 epilogue",
+      "outcome": "Philuffy accepts with a pinky promise. She temporarily serves as Lux's bodyguard. Their bond deepens.",
+      "cause": "Philuffy proved in this volume she is not someone to be protected but a partner who can guard Lux."
+    },
+    {
+      "leads_to": [],
+      "event_id": "yoruka-assassination-resolution",
+      "type": "milestone/conspiracy",
+      "summary": "Yoruka, after confirming Yato no Kami's new functions at the 4th hangar, judges that Singlen will harm Lux and resolves to find an opportunity to assassinate him.",
+      "time": "vol-11 epilogue",
+      "outcome": "Singlen becomes Yoruka's explicit assassination target. Sets up the next volume's conflict.",
+      "cause": "Singlen guided Lux at the tower top with unclear motives. Yoruka intuits he will use and discard Lux."
+    },
+    {
+      "leads_to": [],
+      "event_id": "airi-armored-training",
+      "type": "incident/milestone",
+      "summary": "Airi, shaken by tea party romance talk and biological instinct theories, learns to pilot a flying Drag-Ride from Noct. She trains until physical collapse and is carried back by Lux.",
+      "time": "vol-10 day after tea party, dawn to rainy night",
+      "outcome": "Airi collapses from overwork/cold/Drag-Ride forced release. She accepts mutual reliance with her growing brother and confirms her feelings aren't mere childish instinct.",
+      "cause": "Airi refuses to be seen as just a fragile sister dependent on her brother; wants basic self-defense capability."
+    },
+    {
+      "leads_to": [],
+      "event_id": "lisha-cooking-battle",
+      "type": "incident/milestone",
+      "summary": "Lisha, influenced by the school nurse's love advice, investigates and practices making Old Empire meat stew that Lux supposedly likes. She discovers Lux is also practicing the same late-night dish for her.",
+      "time": "vol-10 over several days, late-night kitchen",
+      "outcome": "Both make the same stew simultaneously and exchange tastings. Lisha's plan 'fails' but she's satisfied by Lux's smile and praise. She decides to continue both combat and domestic efforts.",
+      "cause": "Lisha worries she's only seen as liege or mechanic; wants to appeal through cooking."
+    },
+    {
+      "leads_to": [],
+      "event_id": "krulcifer-weakness-episode",
+      "type": "incident/revelation",
+      "summary": "Nina commissions Lux to find Krulcifer's weakness for psychological security. Krulcifer sees through it, resolves the poetry book misunderstanding, and reveals her true weakness: she cannot show weakness to someone she likes.",
+      "time": "vol-10 days after Nina's secret request",
+      "outcome": "Krulcifer privately promises Nina secrecy in exchange for romantic secrets. Nina cancels the commission. Krulcifer's love weakness is revealed.",
+      "cause": "Krulcifer mistakenly reads Nina's lost romance poetry; Nina fears exposure."
+    },
+    {
+      "leads_to": [
+        "heiburg-newlywed-disguise"
+      ],
+      "event_id": "philuffy-commerce-trip",
+      "type": "milestone/incident",
+      "summary": "Relie takes Lux and Philuffy to the Aingram family villa and commerce branch. Lux learns merchant disguise; Philuffy practices secretary/bodyguard duties. Philuffy uses her sense of smell to identify a counterfeit dagger.",
+      "time": "vol-10 holiday, Aingram villa & 3rd district",
+      "outcome": "Philuffy obtains a practical knife for Lux from the merchant. She clarifies she came not for work but simply to be with him. Lux better understands her childhood-friend feelings.",
+      "cause": "Lux's upcoming merchant-disguise infiltration of Heiburg requires commercial training."
+    },
+    {
+      "leads_to": [],
+      "event_id": "celistia-training-troubles",
+      "type": "incident/battle/milestone",
+      "summary": "Celestia blames herself when junior students avoid her training. Lux trains with her to exhaustion. Griffin phantom beasts attack; with Lux and Triad's support, she realizes she now has comrades.",
+      "time": "vol-10 several days dawn to 2nd district griffin attack",
+      "outcome": "Celestia defeats the griffins using Lindworm, Dominator's Realm, and Lightning Piercing Spear. She decides to approach juniors proactively and consult Lux when she hits walls.",
+      "cause": "Celestia cannot gauge others' limits and misinterprets her harsh training as too easy, driving students away."
+    },
+    {
+      "leads_to": [],
+      "event_id": "yakata-school-integration",
+      "type": "incident/milestone",
+      "summary": "Legli assigns Lux to guide Yoruka's academy adaptation. Relie arranges Lux to temporarily join first-year classes. Yoruka eventually forms friendships with Airi and Noct.",
+      "time": "vol-10 one week, special first-year classes",
+      "outcome": "Lux understands Yoruka's protective intentions. He asks her to explain her judgment reasons. Airi and Noct formally become her friends. Yoruka gains supports within the academy.",
+      "cause": "Yoruka frequently violates academy rules in classes, training, and daily life; only obeys her master Lux."
+    },
+    {
+      "leads_to": [],
+      "event_id": "trio-holiday",
+      "type": "milestone/incident",
+      "summary": "The Triad pre-completes Lux's errands and treats him to a holiday at Sharis's villa, acting as butler, maid, and young lady playmate.",
+      "time": "vol-10 holiday, 2nd district Sharis villa & commercial street",
+      "outcome": "After subduing a drunken man hostile to the old imperial family, the Triad tells Lux they already see him as a close friend. Lux confirms he has normal friendships.",
+      "cause": "Sharis, Tillfur, and Noct believe Lux overworks and would keep accepting errands if left at the academy."
+    },
+    {
+      "leads_to": [
+        "evil-king-warning"
+      ],
+      "event_id": "coale-reunion-shadow",
+      "type": "incident/battle/revelation",
+      "summary": "Coral, cross-dressed and undercover, reunites with Lux over a cat-purse incident. They investigate a sighting of Bain and defeat a shadow phantom beast disguised as him.",
+      "time": "vol-10 days before departure, Crossfield surroundings",
+      "outcome": "The target is revealed as a shadow phantom beast, not the real Bain. Coral destroys it with a special dark blade. He admits he's also monitoring New Kingdom and shares Heiburg Evil King intelligence.",
+      "cause": "Vanheim Duchy guards report sighting Dragon Marauder commander Bain. Coral is ordered to stay and investigate while also monitoring New Kingdom."
+    },
+    {
+      "leads_to": [
+        "heiburg-undercover-order"
+      ],
+      "event_id": "evil-king-warning",
+      "type": "revelation/conspiracy",
+      "summary": "Coral tells Lux that Heiburg Republic harbors a figure called the Evil King who controls the Military Department, manipulated old imperial remnants, and collaborated with Hayes.",
+      "time": "vol-10 Coral's departure",
+      "outcome": "Lux learns that unless the Evil King is defeated soon, New Kingdom could face devastating disadvantage within a month.",
+      "cause": "Coral repays Lux's trust in him during the shadow incident by sharing classified intelligence."
+    },
+    {
+      "leads_to": [
+        "heiburg-newlywed-disguise",
+        "heiburg-infiltration-start"
+      ],
+      "event_id": "heiburg-undercover-order",
+      "type": "conspiracy/milestone",
+      "summary": "Seven Dragon Paladins captain Magialca orders Lux to infiltrate Heiburg capital Eigestadt disguised as a merchant from the Dilight Conglomerate, find and eliminate the World Alliance traitor.",
+      "time": "vol-10 about one week before departure",
+      "outcome": "Lux prepares his cover identity and awaits departure. Relie further arranges Philuffy as his bodyguard disguised as a bride.",
+      "cause": "Post-exhibition duel, competition over ruin rights and Great Sanctuary rewards intensifies. Magialca has intelligence that the traitor will appear in Heiburg."
+    },
+    {
+      "leads_to": [
+        "heiburg-infiltration-start"
+      ],
+      "event_id": "heiburg-newlywed-disguise",
+      "type": "milestone/conspiracy",
+      "summary": "Relie, after persuading Magialca, assigns Philuffy as Lux's Heiburg infiltration bodyguard. Both are to publicly pose as newlyweds.",
+      "time": "vol-10 departure morning",
+      "outcome": "Lux and Philuffy will travel as a couple. Philuffy's childhood-friend and guardian roles are further reinforced.",
+      "cause": "Lux must infiltrate Heiburg as young master Rudy Entos of the Dilight Conglomerate. Relie deems solo travel too dangerous."
+    },
+    {
+      "leads_to": [],
+      "event_id": "lux-hugh-encounter",
+      "type": "incident/comedy",
+      "summary": "Drag-Ride mechanic intern Hugh asks Lux to teach him to be popular with girls. He fails spectacularly with every major heroine. Ends up writing a reflection statement, calling Lux a clueless harem protagonist.",
+      "time": "vol-10 appendix, post-festival holiday",
+      "outcome": "Lux realizes his obliviousness to his female relationships. Still fails to make a same-age male friend.",
+      "cause": "Hugh boasts he'll get a girlfriend in five days and envies Lux's popularity in an all-girls school."
+    },
+    {
+      "leads_to": [
+        "giant-soldier-reactivation"
+      ],
+      "event_id": "creators-shadow-meeting",
+      "type": "conspiracy",
+      "summary": "Fugil briefs Ariel on Listelka's plan to use Dielwe and Dragon Marauders to spread ruin threats across nations.",
+      "time": "vol-08 prologue night",
+      "outcome": "Ariel grows wary of Fugil. Sets the hidden creator agenda behind vol-08 events.",
+      "cause": "Creator faction's long-term plan to reach the Great Sanctuary."
+    },
+    {
+      "leads_to": [
+        "new-kingdom-support-dispatch",
+        "pilgrimage-festival"
+      ],
+      "event_id": "lux-secret-departure",
+      "type": "milestone",
+      "summary": "Lux secretly leaves for Ymir with Krulcifer, leaving Yoruka behind to cover. Lisha and others are shocked and follow.",
+      "time": "vol-08 pilgrimage eve",
+      "outcome": "Lisha, Philuffy, Celestia prepare to follow. Yoruka reveals the truth to them.",
+      "cause": "Krulcifer recalled by Einfolk family; Lux doesn't want to involve other girls."
+    },
+    {
+      "leads_to": [
+        "sacred-cathedral-snow-avalanche",
+        "ancient-temple-battle"
+      ],
+      "event_id": "pilgrimage-festival",
+      "type": "ceremony",
+      "summary": "The annual Ymir pilgrimage, with Pope Nias touring sacred sites guarded by Mell, Krulcifer, and Lux. Becomes the stage for the Dragon Marauder conspiracy.",
+      "time": "vol-08 three-day pilgrimage",
+      "casualties": [
+        "oracle-phil"
+      ],
+      "outcome": "Pilgrimage completed despite attacks. Oracle Phil dies. Dragon Marauder plot exposed.",
+      "cause": "Religious tradition intersecting with Dolcan's conspiracy."
+    },
+    {
+      "leads_to": [
+        "oracle-phil-death",
+        "sacred-cathedral-snow-avalanche",
+        "dolcan-final-battle"
+      ],
+      "event_id": "dolcan-conspiracy",
+      "type": "conspiracy",
+      "summary": "Dolcan and Oracle Phil conspire via Asp communication. Dolcan plans to kidnap the Pope and seize Ymir resources. Oracle Phil attempts to counter but is monitored from the start.",
+      "time": "vol-08 pilgrimage period",
+      "casualties": [
+        "oracle-phil"
+      ],
+      "outcome": "Oracle Phil betrayed and killed. Dolcan ultimately defeated and captured.",
+      "cause": "Dragon Marauders need funding/resources; Oracle Phil wants the Archbishop position."
+    },
+    {
+      "leads_to": [
+        "mell-rampage"
+      ],
+      "event_id": "oracle-phil-death",
+      "type": "incident/revelation",
+      "summary": "Oracle Phil killed by Dolcan's design. Dolcan reveals she is Mell's biological mother and forges her dying words to incite Mell against Krulcifer.",
+      "time": "vol-08 ancient temple second assault",
+      "casualties": [
+        "oracle-phil"
+      ],
+      "outcome": "Mell misled by fake dying words, rampages against Krulcifer.",
+      "cause": "Mutual betrayal between Dolcan and Oracle Phil; Dolcan preempts her counter-plan."
+    },
+    {
+      "leads_to": [
+        "krullcifer-complete-fusion"
+      ],
+      "event_id": "mine-library-investigation",
+      "type": "revelation",
+      "summary": "Krulcifer, Lux, and Ney enter the 4th ruin mine library. They read about Drag-Ride fusion, the Great Sanctuary, Sacred Eclipse, and key keeper data. Krulcifer learns she is the last survivor of the ancient race from the mine.",
+      "time": "vol-08 pilgrimage final day",
+      "outcome": "Krulcifer discovers her true identity and Complete Fusion ability.",
+      "cause": "Church wants Krulcifer & Ney to investigate ruins; Krulcifer wants to trace her origins."
+    },
+    {
+      "leads_to": [
+        "krullcifer-complete-fusion"
+      ],
+      "event_id": "mell-rampage",
+      "type": "battle",
+      "summary": "Mell, deceived by Dolcan's forged dying words, uses a panacea knife to enhance herself and attacks Krulcifer while destroying the ancient temple ruins.",
+      "time": "vol-08 ancient temple final battle",
+      "outcome": "Krulcifer achieves Complete Fusion, defeats and saves Mell.",
+      "cause": "Dolcan forges Oracle Phil's dying words; Mell consumed by revenge"
+    },
+    {
+      "leads_to": [
+        "einfolk-family-reconciliation"
+      ],
+      "event_id": "krullcifer-complete-fusion",
+      "type": "battle/revelation",
+      "summary": "Krulcifer, after learning her origin and being called back by Lux and Stiel, achieves Complete Fusion with Fafnir and defeats the rampaging Mell.",
+      "time": "vol-08 ancient temple final battle",
+      "outcome": "Mell defeated and saved. Krulcifer's bond with her family and Mell restored.",
+      "cause": "Mell's rampage forces Krulcifer to confront her identity and perceived disaster curse."
+    },
+    {
+      "leads_to": [
+        "sacred-cathedral-snow-avalanche"
+      ],
+      "event_id": "new-kingdom-support-dispatch",
+      "type": "conspiracy/milestone",
+      "summary": "Relie discovers Dielwe's secret letters with Dragon Marauders about the Ymir plan. She requests Magialca's help and dispatches Lisha, Celestia, Philuffy, and Yoruka as a support team.",
+      "time": "vol-08 pilgrimage period",
+      "outcome": "Support team arrives at Sacred Cathedral in time to defend it.",
+      "cause": "Discovery of Dielwe-Dragon Marauder correspondence and Ymir kidnapping plot."
+    },
+    {
+      "leads_to": [
+        "yoruka-spider-thread-counter",
+        "dolcan-final-battle"
+      ],
+      "event_id": "sacred-cathedral-snow-avalanche",
+      "type": "battle/disaster",
+      "summary": "Dolcan triggers a sonic avalanche on the Sacred Cathedral, mixing in interference slimes to weaken defenders. Lisha, Celestia, Philuffy, and Yoruka hold the line.",
+      "time": "vol-08 pilgrimage final day",
+      "outcome": "Support team successfully defends the cathedral. Dragon Marauder forces collapse.",
+      "cause": "Dragon Marauders seek to exploit dispersed pilgrimage defenses to kidnap the Archbishop."
+    },
+    {
+      "leads_to": [
+        "dolcan-final-battle"
+      ],
+      "event_id": "yoruka-spider-thread-counter",
+      "type": "battle",
+      "summary": "Yoruka pre-places spider threads around the cathedral, then uses her divine raiment to seize control of half the enemy Drag-Rides, causing them to destroy each other.",
+      "time": "vol-08 cathedral defense final phase",
+      "outcome": "Dragon Marauder forces collapse. Yoruka saves Lisha. Lux arrives to face Dolcan.",
+      "cause": "Frontline weakened by slimes; unconventional approach needed."
+    },
+    {
+      "leads_to": [
+        "einfolk-family-reconciliation"
+      ],
+      "event_id": "dolcan-final-battle",
+      "type": "battle",
+      "summary": "Lux in Bahamut vs Dolcan in Asp. Dolcan knows Lux's techniques and prepares counters. Lux develops critical hits using formation tuning with Gluttony, destroys Asp, and captures Dolcan.",
+      "time": "vol-08 pilgrimage final day end",
+      "outcome": "Dolcan captured and handed to New Kingdom for interrogation. Dragon Marauder plan fails.",
+      "cause": "Cathedral defense held; Lux confronts enemy commander directly."
+    },
+    {
+      "leads_to": [],
+      "event_id": "einfolk-family-reconciliation",
+      "type": "milestone",
+      "summary": "Stiel reveals he was injured saving Krulcifer and distanced himself to protect her. Family members visit and talk naturally. Family estrangement resolves.",
+      "time": "vol-08 post-pilgrimage",
+      "outcome": "Krulcifer restores communication with foster father and siblings. Engagement misunderstanding also resolved.",
+      "cause": "Ancient temple battle exposes ruin control truth and Stiel's old injury."
+    },
+    {
+      "leads_to": [
+        "giant-soldier-reactivation"
+      ],
+      "event_id": "academy-guest-reception",
+      "type": "milestone",
+      "summary": "Airi and the Triad receive Greifer and Coral at the academy. Both were sent by Relie to help defend Crossfield. Coral mentions the capital is holding a military meeting.",
+      "time": "vol-08 epilogue, academy留守",
+      "outcome": "Academy learns the Seven Dragon Paladins captain and vice-captain are also caught in a new incident.",
+      "cause": "Lisha and main force went to Ymir, leaving Crossfield vulnerable."
+    },
+    {
+      "leads_to": [
+        "magialca-arrival",
+        "pre-summit-policy-meeting",
+        "creator-summit"
+      ],
+      "event_id": "giant-soldier-reactivation",
+      "type": "revelation/incident",
+      "summary": "The 5th ruin giant soldier reactivates in the New Kingdom capital. Listelka broadcasts through it, claiming the Creator clan wishes to communicate and help save the world.",
+      "time": "vol-08 epilogue, shortly after return",
+      "outcome": "New Kingdom and Seven Dragon Paladins enter alert and negotiation preparation.",
+      "cause": "Creator clan proactively contacts the New Kingdom."
+    },
+    {
+      "leads_to": [
+        "sacred-eclipse-battle"
+      ],
+      "event_id": "celestia-training-advice",
+      "type": "milestone",
+      "summary": "Celestia observes Lux failing at wide-area Gluttony and suggests using a fixed action (touching the sword hilt) as a concentration switch.",
+      "time": "vol-09 pre-festival dawn",
+      "outcome": "Lux realizes this advice mirrors Fugil's past advice. Ultimately key to his wide-area Gluttony success.",
+      "cause": "Lux is trying to develop a counter against multi-direction attacks."
+    },
+    {
+      "leads_to": [
+        "creator-summit"
+      ],
+      "event_id": "pre-summit-policy-meeting",
+      "type": "ceremony/conspiracy",
+      "summary": "Lux, Celestia, Dist, and Narlph discuss Creator, Dragon Marauder, and ruin intelligence strategies. Dist criticizes Celestia's agitation, worsening her self-blame.",
+      "time": "vol-09 days before summit",
+      "outcome": "New Kingdom prepares for summit with Lisha as acting queen proxy.",
+      "cause": "Creator clan designates the academy as summit venue; Dragon Marauder activity intensifies."
+    },
+    {
+      "leads_to": [
+        "creator-summit",
+        "traitor-hunt-order"
+      ],
+      "event_id": "magialca-arrival",
+      "type": "incident",
+      "summary": "Magialca appears at the academy in a red coat, causes commotion. She subdues the Triad and flirts with Lux. Philuffy and Celestia recognize her as the Seven Dragon Paladins captain.",
+      "time": "vol-09 pre-festival day",
+      "outcome": "Lux learns Magialca is the Makafa Kingdom representative, Vanflick Conglomerate director, and Seven Dragon Paladins captain. Philuffy warns she acts only for herself.",
+      "cause": "National representatives arriving for the World Summit."
+    },
+    {
+      "leads_to": [
+        "creator-summit",
+        "heiburg-duel"
+      ],
+      "event_id": "rosa-arrival",
+      "type": "incident",
+      "summary": "Rosa arrives at the academy, treats commoners roughly, and injures Sharis. Celestia draws her sword, establishing strong mutual enmity. Calensia introduces Rosa formally.",
+      "time": "vol-09 pre-festival day",
+      "casualties": [
+        "sharis: light injury"
+      ],
+      "outcome": "Rosa and Celestia vow a future duel. Rosa later provokes the exhibition match at the summit.",
+      "cause": "Heiburg Republic delegation arrives at the summit venue."
+    },
+    {
+      "leads_to": [
+        "heiburg-duel",
+        "sacred-eclipse-battle",
+        "traitor-hunt-order"
+      ],
+      "event_id": "creator-summit",
+      "type": "revelation/ceremony",
+      "summary": "First Princess Listelka reveals Sacred Eclipse, the Great Sanctuary, supreme power, and alliance conditions to all nations. She offers Drag-Rides, announces world destruction in 6 months, and tasks: eliminate Dragon Marauders, find the Moon, eliminate traitors.",
+      "time": "vol-09 summit day",
+      "outcome": "Nations agree in principle to cooperate. Rosa proposes an exhibition duel; Celestia and Lux represent New Kingdom. Tower one-month investigation rights become the prize.",
+      "cause": "Creator clan requests dialogue via the giant soldier, designates the academy as venue."
+    },
+    {
+      "leads_to": [
+        "costume-contest",
+        "coral-ambush",
+        "celestia-lux-abduction"
+      ],
+      "event_id": "academy-festival",
+      "type": "ceremony",
+      "summary": "The academy opens to Crossfield city. Lux helps various booths as a handyman. Characters interact in brief daily life moments. Celestia secretly guards Lux but cannot face him honestly.",
+      "time": "vol-09 two-day festival during summit",
+      "outcome": "Lux deepens relationships. Celestia wins the costume contest but flees from the kiss penalty. Gadeff exploits the crowd to target Coral and later abduct Lux and Celestia.",
+      "cause": "Annual academy festival coinciding with the World Summit."
+    },
+    {
+      "leads_to": [
+        "celestia-lux-abduction",
+        "gadeff-defeat"
+      ],
+      "event_id": "coral-ambush",
+      "type": "incident/conspiracy",
+      "summary": "Gadeff pretends to be a wallet-losing guest, lures Coral out of the academy, and attempts to abduct him. Lux saves Coral and chips off armor fragments from Gadeff's special Drag-Ride X.",
+      "time": "vol-09 festival day 1 late",
+      "outcome": "Gadeff escapes but leaves traceable armor fragments. These become key evidence for Lux to identify him later.",
+      "cause": "Gadeff exploits festival crowds and Coral's goodwill."
+    },
+    {
+      "leads_to": [
+        "celestia-kiss"
+      ],
+      "event_id": "costume-contest",
+      "type": "ceremony/milestone",
+      "summary": "Celestia participates in and wins the costume contest, but draws a kiss-with-opposite-sex penalty. She flees from embarrassment.",
+      "time": "vol-09 festival day 1 evening",
+      "outcome": "Celestia's romantic feelings become public. Kiss penalty deferred, leading to volume-end fulfillment.",
+      "cause": "Triad designs the event to force Celestia to face Lux honestly."
+    },
+    {
+      "leads_to": [
+        "heiburg-duel",
+        "gadeff-defeat"
+      ],
+      "event_id": "celestia-lux-abduction",
+      "type": "conspiracy/incident",
+      "summary": "Gadeff uses a Wade illusion to shake Celestia, then ambushes her and Lux with special Drag-Ride X. Both are imprisoned in the old dungeon.",
+      "time": "vol-09 before exhibition duel",
+      "outcome": "Coral, following Triad clues, breaks the dungeon ceiling to rescue them. They arrive late, incurring disadvantage rules in the duel.",
+      "cause": "Heiburg plot to make New Kingdom late for the exhibition duel."
+    },
+    {
+      "leads_to": [
+        "celestia-resignation-withdrawn",
+        "trapeport-occupation"
+      ],
+      "event_id": "heiburg-duel",
+      "type": "battle",
+      "summary": "Lux & Celestia vs Rosa & Calensia. The prize is the 1st ruin tower's one-month investigation rights. New Kingdom initially dominates but Rosa reverses with Grignitz's clones and Purgatory mechanism.",
+      "time": "vol-09 festival day 2 evening",
+      "casualties": [
+        "celestia: injuries",
+        "lux: exhaustion"
+      ],
+      "outcome": "Rules determine draw = Heiburg victory. Heiburg gains tower investigation rights. Celestia blames herself and submits resignation.",
+      "cause": "Listelka proposes tower investigation rights as exhibition match prize; Rosa immediately volunteers."
+    },
+    {
+      "leads_to": [
+        "drakken-rescue",
+        "sacred-eclipse-battle"
+      ],
+      "event_id": "dragon-marauder-raid",
+      "type": "battle/conspiracy",
+      "summary": "Dragon Marauders drop interference slimes from the sky to seal the Drag-Ride hangar. Most Drag-Rides cannot be summoned. Sacred Eclipse and phantom beasts appear. Dragon Marauders enter the old dungeon.",
+      "time": "vol-09 festival day 2 night",
+      "outcome": "Academy defenses paralyzed. Drakken escapes. Academy decides to strengthen hangar defenses.",
+      "cause": "Dragon Marauders exploit concentrated representatives and fixed alert perimeter to rescue Drakken and recover Asp."
+    },
+    {
+      "leads_to": [],
+      "event_id": "drakken-rescue",
+      "type": "conspiracy/incident",
+      "summary": "Gatouhan and Bain enter the old dungeon during the chaos, free Drakken from restraints, and recover Asp. They explain Sacred Eclipse has appeared and they should retreat.",
+      "time": "vol-09 during Sacred Eclipse incident",
+      "outcome": "Drakken escapes. New Kingdom loses important prisoner. Dragon Marauder threat expands.",
+      "cause": "Dragon Marauders need to restore three-dragon-head formation for ruin competition."
+    },
+    {
+      "leads_to": [
+        "gadeff-defeat",
+        "traitor-hunt-order"
+      ],
+      "event_id": "sacred-eclipse-battle",
+      "type": "battle/disaster/revelation",
+      "summary": "Humanoid apocalypse beast Sacred Eclipse (Ark) manifests at the academy, summoning phantom beasts and using a Wade illusion against Celestia's psyche. Lux and Celestia jointly destroy it with Gluttony-enhanced lightning.",
+      "time": "vol-09 festival day 2 night",
+      "outcome": "Sacred Eclipse temporarily destroyed. Crossfield saved. Listelka warns it will revive with shorter cycles. Great Sanctuary conquest becomes world goal.",
+      "cause": "Sacred Eclipse's mechanism revives using conflict and malice from the Dragon Marauder raid."
+    },
+    {
+      "leads_to": [
+        "mysterious-zahhak-shot"
+      ],
+      "event_id": "gadeff-defeat",
+      "type": "battle",
+      "summary": "Lux identifies Gadeff via armor fragment evidence, pursues him during the Sacred Eclipse battle, and defeats his demonized form with wide-area Gluttony.",
+      "time": "vol-09 during Sacred Eclipse battle",
+      "casualties": [
+        "gadeff: presumed dead"
+      ],
+      "outcome": "Gadeff defeated but then shot and eliminated by a mysterious Zahhak Drag-Ride pilot. Evidence against Heiburg destroyed. Tower investigation rights remain with Heiburg.",
+      "cause": "Gadeff attempts to assassinate Celestia disguised as suicide while using Round Moon Dragon Scale against Lux."
+    },
+    {
+      "leads_to": [],
+      "event_id": "mysterious-zahhak-shot",
+      "type": "incident/revelation",
+      "summary": "An unidentified Zahhak Drag-Ride pilot shoots Gadeff from the night sky, creating an opening for Lux's counter, then vanishes.",
+      "time": "vol-09 during Gadeff battle",
+      "outcome": "Critical opening for Gadeff's defeat. Identity and purpose remain unknown at volume end.",
+      "cause": "Unknown. Possibly related to hidden factions observing the Sacred Eclipse and World Summit."
+    },
+    {
+      "leads_to": [
+        "traitor-hunt-order"
+      ],
+      "event_id": "singlen-warning",
+      "type": "revelation/conspiracy",
+      "summary": "Singlen warns Lux that creators induce nations to compete over rewards using wealth and technology. He again invites Lux to join him.",
+      "time": "vol-09 representatives leaving academy",
+      "outcome": "Lux declines but recognizes creators are untrustworthy. Magialca echoes similar concerns.",
+      "cause": "Post-Sacred Eclipse, nations believe the creator warning but begin competing over Great Sanctuary achievements."
+    },
+    {
+      "leads_to": [
+        "heiburg-undercover-order",
+        "heiburg-infiltration-start"
+      ],
+      "event_id": "traitor-hunt-order",
+      "type": "milestone/conspiracy",
+      "summary": "Magialca judges the Sacred Eclipse timing too coincidental. She orders Lux, via Relie, to identify and eliminate the traitor within the World Alliance.",
+      "time": "vol-09 volume end",
+      "outcome": "Lux is drawn into a World Alliance internal traitor investigation mission.",
+      "cause": "Suspicion that someone within the alliance is colluding with enemy forces regarding Sacred Eclipse."
+    },
+    {
+      "leads_to": [
+        "celestia-kiss"
+      ],
+      "event_id": "celestia-resignation-withdrawn",
+      "type": "milestone",
+      "summary": "Celestia submitted resignation after the exhibition duel loss, but Relie never filed it. Everyone persuades her to stay as Lux's aide.",
+      "time": "vol-09 post-Sacred Eclipse",
+      "outcome": "Celestia retains her position as Seven Dragon Paladins aide. Group then demands she complete the festival kiss penalty.",
+      "cause": "Celestia blames herself for the tower investigation crisis caused by her emotional turmoil."
+    },
+    {
+      "leads_to": [],
+      "event_id": "celestia-kiss",
+      "type": "milestone",
+      "summary": "Celestia, after misunderstandings cleared, fulfills the costume contest kiss penalty by passionately kissing Lux on the sofa, following Yoruka's taught method.",
+      "time": "vol-09 two days post-Sacred Eclipse",
+      "outcome": "Lux-Celestia relationship significantly advances. Other girls thrown into chaos.",
+      "cause": "Costume contest penalty unfulfilled; Sharis and others demand she complete it."
+    },
+    {
+      "absolute_label": "nine years before main story",
+      "relative_day": -3285,
+      "name_zh": "路克斯与菲尔菲初遇",
+      "event_id": "lux-philuffy-first-meeting",
+      "cause": "Aingram family visits the imperial palace as dignitaries.",
+      "summary": "Dalt Aingram introduces his daughters Relie and Philuffy to the young Lux at an old empire banquet.",
+      "volume": "vol-04",
+      "key_characters": [
+        "lux-arcadia",
+        "philuffy-aingram",
+        "relie-aingram",
+        "dalto-aingram"
+      ],
+      "node_id": "vol-04-flashback-lux-philuffy-first-meeting",
+      "location": "old-imperial-palace",
+      "related_events": [
+        "sacred-statue-framing"
+      ],
+      "name_en": "Lux and Philuffy First Meeting",
+      "outcome": "Lux meets his future childhood friend and protector.",
+      "type": "flashback/milestone"
+    },
+    {
+      "absolute_label": "nine years before main story",
+      "relative_day": -3285,
+      "name_zh": "圣像栽赃事件",
+      "event_id": "sacred-statue-framing",
+      "cause": "Old empire nobles Abel and Lagrido bully Philuffy, a daughter of a merchant family.",
+      "summary": "Abel and Lagrido damage the Christmas Festival sacred statue and try to frame Philuffy. Lux takes the blame to protect her.",
+      "volume": "vol-04",
+      "key_characters": [
+        "lux-arcadia",
+        "philuffy-aingram",
+        "abel-arcadia",
+        "lagrido"
+      ],
+      "node_id": "vol-04-flashback-sacred-statue-framing",
+      "location": "old-imperial-palace",
+      "related_events": [
+        "lux-philuffy-first-meeting",
+        "lux-family-expelled"
+      ],
+      "name_en": "Sacred Statue Framing Incident",
+      "outcome": "Lux and Philuffy's bond is forged through sacrifice.",
+      "type": "flashback/milestone"
+    },
+    {
+      "absolute_label": "seven years before main story",
+      "relative_day": -2555,
+      "name_zh": "路克斯一家被逐出宫廷",
+      "event_id": "lux-family-expelled",
+      "cause": "Wid Arcadia admonishes the emperor's tyranny.",
+      "summary": "Grandfather Wid advises Emperor Disdard, is imprisoned, and Lux's family is cast out of the palace.",
+      "volume": "vol-04",
+      "key_characters": [
+        "lux-arcadia",
+        "wid-arcadia",
+        "disdard-arcadia"
+      ],
+      "node_id": "vol-04-flashback-lux-family-expelled",
+      "location": "arcadia-imperial-castle",
+      "related_events": [
+        "philuffy-comforts-lux",
+        "childhood-promise"
+      ],
+      "name_en": "Lux Family Expelled from the Palace",
+      "outcome": "Lux's family loses status, leading to poverty and his mother's eventual death.",
+      "type": "flashback/milestone"
+    },
+    {
+      "absolute_label": "seven years before main story",
+      "relative_day": -2555,
+      "name_zh": "菲尔菲雨中安慰路克斯",
+      "event_id": "philuffy-comforts-lux",
+      "cause": "Lux's mother dies and he isolates himself in grief.",
+      "summary": "After his mother's death, Lux distances himself from Philuffy. She brings flowers daily and embraces him in the rain, telling him he is not alone.",
+      "volume": "vol-04",
+      "key_characters": [
+        "lux-arcadia",
+        "philuffy-aingram"
+      ],
+      "node_id": "vol-04-flashback-philuffy-comforts-lux",
+      "location": "lux-mother-grave",
+      "related_events": [
+        "lux-family-expelled",
+        "childhood-promise"
+      ],
+      "name_en": "Philuffy Comforts Lux in the Rain",
+      "outcome": "Philuffy's unwavering support becomes Lux's emotional anchor.",
+      "type": "flashback/milestone"
+    },
+    {
+      "absolute_label": "seven years before main story",
+      "relative_day": -2555,
+      "name_zh": "小路与小菲的约定",
+      "event_id": "childhood-promise",
+      "cause": "Lux wants to protect Philuffy and all girls hurt by the old empire.",
+      "summary": "Before Philuffy leaves the imperial capital, Lux swears to build a country where girls can live safely. Philuffy kisses him as a reunion charm.",
+      "volume": "vol-04",
+      "key_characters": [
+        "lux-arcadia",
+        "philuffy-aingram"
+      ],
+      "node_id": "vol-04-flashback-childhood-promise",
+      "location": "lux-mother-grave",
+      "related_events": [
+        "philuffy-comforts-lux"
+      ],
+      "name_en": "Childhood Promise",
+      "outcome": "A sacred childhood promise that drives Lux's entire arc.",
+      "type": "flashback/milestone"
+    },
+    {
+      "absolute_label": "vol-04 day 1",
+      "relative_day": 40,
+      "name_zh": "里艾斯岛强化集训开始",
+      "event_id": "training-camp-arrival",
+      "cause": "The inter-academy competition is approaching; Relie and Celistia organize training.",
+      "summary": "The Knight Squadron arrives at Ries Island aboard a New Kingdom warship for intensive training, ostensibly to prepare for the inter-academy competition.",
+      "volume": "vol-04",
+      "key_characters": [
+        "lux-arcadia",
+        "airi-arcadia",
+        "relie-aingram",
+        "celistia-ralgris",
+        "lisesharte-atismata",
+        "krulcifer-einfolk",
+        "philuffy-aingram"
+      ],
+      "node_id": "vol-04-d1-training-camp-arrival",
+      "location": "ries-island",
+      "related_events": [
+        "beach-training-play",
+        "ark-mission-revealed"
+      ],
+      "name_en": "Ries Island Training Camp Begins",
+      "outcome": "Students settle into the training facility and begin joint training. The true purpose (Ark investigation) is later revealed.",
+      "type": "milestone"
+    },
+    {
+      "absolute_label": "vol-04 day 1",
+      "relative_day": 40,
+      "name_zh": "海边泳装与热身训练",
+      "event_id": "beach-training-play",
+      "summary": "The team relaxes in swimwear at the beach; Celistia channels the play into running and swimming warm-up.",
+      "volume": "vol-04",
+      "key_characters": [
+        "lux-arcadia",
+        "celistia-ralgris",
+        "lisesharte-atismata",
+        "krulcifer-einfolk",
+        "philuffy-aingram",
+        "airi-arcadia"
+      ],
+      "node_id": "vol-04-d1-beach-training",
+      "location": "ries-beach",
+      "related_events": [
+        "training-camp-arrival",
+        "night-seaside-lisha"
+      ],
+      "name_en": "Beach Training Play",
+      "type": "milestone"
+    },
+    {
+      "absolute_label": "vol-04 night 1",
+      "relative_day": 40,
+      "name_zh": "莉夏夜晚海边谈心",
+      "event_id": "night-seaside-lisha",
+      "cause": "Lux notices Lisha's worry about her hidden brand.",
+      "summary": "Lux invites Lisha to the beach at night, reassuring her about her imperial brand and hearing her unspoken wish for him to become her knight.",
+      "volume": "vol-04",
+      "key_characters": [
+        "lux-arcadia",
+        "lisesharte-atismata"
+      ],
+      "node_id": "vol-04-d1-night-seaside-lisha",
+      "location": "ries-beach",
+      "related_events": [
+        "lisha-knight-proposal"
+      ],
+      "name_en": "Lisha's Night Seaside Talk",
+      "outcome": "Lisha grows closer to Lux and starts hinting at the knight proposal.",
+      "type": "milestone"
+    },
+    {
+      "absolute_label": "vol-04 day 2",
+      "relative_day": 41,
+      "name_zh": "路克斯指导骑士团训练",
+      "event_id": "lux-training-guidance",
+      "summary": "Relie and Celistia ask Lux to assess each member's strengths and weaknesses through mock battles and give individualized training goals.",
+      "volume": "vol-04",
+      "key_characters": [
+        "lux-arcadia",
+        "relie-aingram",
+        "celistia-ralgris",
+        "knight-squadron"
+      ],
+      "node_id": "vol-04-d2-lux-training-guidance",
+      "location": "ries-training-ground",
+      "related_events": [
+        "ark-mission-revealed"
+      ],
+      "name_en": "Lux Guides Knight Squadron Training",
+      "type": "battle"
+    },
+    {
+      "absolute_label": "vol-04 night 2",
+      "relative_day": 41,
+      "name_zh": "方舟调查任务揭露",
+      "event_id": "ark-mission-revealed",
+      "cause": "The Ark ruin emerges from the sea.",
+      "summary": "The Third Ruin 'Ark' surfaces near the island at night. Relie reveals the true purpose of the training camp: investigating the Ark ruins.",
+      "volume": "vol-04",
+      "key_characters": [
+        "relie-aingram",
+        "lux-arcadia",
+        "celistia-ralgris",
+        "knight-squadron"
+      ],
+      "node_id": "vol-04-d2-ark-mission-revealed",
+      "location": "ries-island",
+      "related_events": [
+        "ark-entry"
+      ],
+      "name_en": "Ark Investigation Mission Revealed",
+      "outcome": "The team prepares for ruin exploration the next day.",
+      "type": "revelation"
+    },
+    {
+      "absolute_label": "vol-04 day 3",
+      "relative_day": 42,
+      "name_zh": "骑士团首次进入方舟",
+      "event_id": "ark-entry",
+      "summary": "The Knight Squadron and Dobal's private troops nearly simultaneously enter the Ark ruin via the deck teleportation circle.",
+      "volume": "vol-04",
+      "key_characters": [
+        "lux-arcadia",
+        "knight-squadron",
+        "dobar-feist"
+      ],
+      "node_id": "vol-04-d3-ark-entry",
+      "location": "ark-ruin-location",
+      "related_events": [
+        "dobar-arrival",
+        "la-krusche-discovery"
+      ],
+      "name_en": "Knight Squadron Enters the Ark",
+      "type": "exploration"
+    },
+    {
+      "absolute_label": "vol-04 day 3",
+      "relative_day": 42,
+      "name_zh": "多巴尔侯爵抵达里艾斯岛",
+      "event_id": "dobar-arrival",
+      "cause": "Dobal seeks to seize ruin artifacts for political gain.",
+      "summary": "Marquis Dobal arrives with private troops, demanding to participate in the Ark investigation under the guise of assistance.",
+      "volume": "vol-04",
+      "key_characters": [
+        "dobar-feist",
+        "relie-aingram"
+      ],
+      "node_id": "vol-04-d3-dobar-arrival",
+      "location": "ries-island",
+      "related_events": [
+        "dobar-conspiracy-revealed",
+        "ark-entry"
+      ],
+      "name_en": "Marquis Dobal Arrives at Ries Island",
+      "outcome": "Dobal's forces enter the Ark, setting up the later conspiracy.",
+      "type": "conspiracy"
+    },
+    {
+      "absolute_label": "vol-04 day 3",
+      "relative_day": 42,
+      "name_zh": "发现自动人形拉可儿雪",
+      "event_id": "la-krusche-discovery",
+      "cause": "Noct's specialized Drag-Ride detects life signs.",
+      "summary": "Noct detects a humanoid signal under rubble. Lux and Krulcifer uncover La Krusche, the Ark's leader automaton.",
+      "volume": "vol-04",
+      "key_characters": [
+        "lux-arcadia",
+        "krulcifer-einfolk",
+        "la-krusche",
+        "nocht-leaflet"
+      ],
+      "node_id": "vol-04-d3-la-krusche-discovery",
+      "location": "ark-ruin-location",
+      "related_events": [
+        "deepest-layer-betrayal"
+      ],
+      "name_en": "Discovery of Automaton La Krusche",
+      "outcome": "La Krusche provides Ark system information and guides the team to the management area.",
+      "type": "revelation"
+    },
+    {
+      "absolute_label": "vol-04 day 3",
+      "relative_day": 42,
+      "name_zh": "莉夏请求路克斯成为骑士",
+      "event_id": "lisha-knight-proposal",
+      "cause": "Lisha trusts Lux and wants him by her side officially.",
+      "summary": "After explaining Awakened-type technology, Lisha shyly asks Lux to become her personal knight in the future.",
+      "volume": "vol-04",
+      "key_characters": [
+        "lisesharte-atismata",
+        "lux-arcadia"
+      ],
+      "node_id": "vol-04-d3-lisha-knight-proposal",
+      "location": "ries-drag-ride-workshop",
+      "related_events": [
+        "night-seaside-lisha",
+        "epilogue-infirmary-promise"
+      ],
+      "name_en": "Lisha Asks Lux to Become Her Knight",
+      "outcome": "Lux is deeply moved but cannot immediately answer.",
+      "type": "milestone"
+    },
+    {
+      "absolute_label": "vol-04 night 3",
+      "relative_day": 42,
+      "name_zh": "温泉中的路克斯告白大会",
+      "event_id": "hot-spring-talk",
+      "summary": "The girls discuss their feelings about Lux while bathing in the hot spring, revealing their individual relationships.",
+      "volume": "vol-04",
+      "key_characters": [
+        "lisesharte-atismata",
+        "krulcifer-einfolk",
+        "philuffy-aingram",
+        "celistia-ralgris",
+        "sharis-baltshift",
+        "tillfur-lillmit"
+      ],
+      "node_id": "vol-04-d3-hot-spring-talk",
+      "location": "ries-hot-spring",
+      "related_events": [
+        "lux-peeper-guard-duty"
+      ],
+      "name_en": "Hot Spring Lux Confession Session",
+      "type": "milestone"
+    },
+    {
+      "absolute_label": "vol-04 night 3",
+      "relative_day": 42,
+      "name_zh": "路克斯温泉防偷窥任务",
+      "event_id": "lux-peeper-guard-duty",
+      "summary": "Relie tasks Lux with preventing islanders from peeping on the hot spring path. He catches multiple men.",
+      "volume": "vol-04",
+      "key_characters": [
+        "lux-arcadia",
+        "relie-aingram"
+      ],
+      "node_id": "vol-04-d3-lux-peeper-guard",
+      "location": "ries-hot-spring",
+      "related_events": [
+        "hot-spring-talk"
+      ],
+      "name_en": "Lux's Hot Spring Anti-Peeper Duty",
+      "type": "comedy"
+    },
+    {
+      "absolute_label": "vol-04 night 3",
+      "relative_day": 42,
+      "name_zh": "帝国凶刃切姬夜架登场",
+      "event_id": "yoruka-introduction",
+      "cause": "Dobal brings Yoruka as his trump card for the Ark operation.",
+      "summary": "Dobal releases Yoruka from her cage at the docks, introducing her as the old empire's secret weapon—the Imperial Blade.",
+      "volume": "vol-04",
+      "key_characters": [
+        "kirihime-yoruka",
+        "dobar-feist"
+      ],
+      "node_id": "vol-04-d3-yoruka-introduction",
+      "location": "ries-island-docks",
+      "related_events": [
+        "airi-saved-by-yoruka"
+      ],
+      "name_en": "Imperial Blade Kirihime Yoruka Appears",
+      "outcome": "Yoruka enters the battle space as a wild card with old empire loyalty.",
+      "type": "introduction"
+    },
+    {
+      "absolute_label": "vol-04 day 4",
+      "relative_day": 43,
+      "name_zh": "方舟生产区域警报与欧特鲁斯释放",
+      "event_id": "orthrus-production-alarm",
+      "cause": "Dobal's greed to seize production technology.",
+      "summary": "Dobal's men forcibly pry open the Ark's seventh-layer production area door, triggering alarms and releasing three Orthrus beasts.",
+      "volume": "vol-04",
+      "key_characters": [
+        "dobar-feist",
+        "lux-arcadia",
+        "philuffy-aingram"
+      ],
+      "node_id": "vol-04-d4-orthrus-production-alarm",
+      "location": "ark-production-area",
+      "related_events": [
+        "abbey-orthrus-battle",
+        "philuffy-parasite-revelation"
+      ],
+      "name_en": "Ark Production Area Alarm and Orthrus Release",
+      "outcome": "The Orthrus escape the Ark, forcing Lux and Philuffy to pursue.",
+      "type": "incident"
+    },
+    {
+      "absolute_label": "vol-04 day 4",
+      "relative_day": 43,
+      "name_zh": "废修道院欧特鲁斯战",
+      "event_id": "abbey-orthrus-battle",
+      "cause": "Orthrus escaped from the Ark production area.",
+      "summary": "Lux and Philuffy pursue an escaped Orthrus to an abandoned abbey with old empire experimental facilities. Lux battles through traumatic memories and defeats the parasitically-enhanced Orthrus.",
+      "volume": "vol-04",
+      "key_characters": [
+        "lux-arcadia",
+        "philuffy-aingram"
+      ],
+      "node_id": "vol-04-d4-abbey-orthrus-battle",
+      "location": "abandoned-abbey",
+      "related_events": [
+        "philuffy-parasite-revelation"
+      ],
+      "name_en": "Abbey Orthrus Battle",
+      "outcome": "Orthrus defeated, but Philuffy collapses as the parasite seed activates.",
+      "type": "battle"
+    },
+    {
+      "absolute_label": "vol-04 day 4",
+      "relative_day": 43,
+      "name_zh": "菲尔菲寄生树真相揭露",
+      "event_id": "philuffy-parasite-revelation",
+      "cause": "Philuffy resists the command to kill Lux and attacks the Orthrus (another parasite host), reaching her limit.",
+      "summary": "Hayes appears and reveals that Philuffy has been implanted with a Yggdrasil seed—the terminal beast's parasitic tree has half-assimilated her body. Hayes demands Lux open the Ark's deepest layer in exchange for saving her.",
+      "volume": "vol-04",
+      "key_characters": [
+        "hayes",
+        "lux-arcadia",
+        "philuffy-aingram"
+      ],
+      "node_id": "vol-04-d4-philuffy-parasite-revelation",
+      "location": "abandoned-abbey",
+      "related_events": [
+        "relie-confession",
+        "deepest-layer-betrayal",
+        "yggdrasil-final-battle"
+      ],
+      "name_en": "Philuffy Parasite Revelation",
+      "outcome": "Lux is forced to choose between ruin taboo and saving Philuffy.",
+      "type": "revelation/disaster"
+    },
+    {
+      "absolute_label": "vol-04 day 4",
+      "relative_day": 43,
+      "name_zh": "夜架救下爱理并杀死多巴尔",
+      "event_id": "airi-saved-by-yoruka",
+      "cause": "Dobal sees Airi as a liability after she overhears his conspiracy.",
+      "summary": "When Dobal orders Airi killed, Yoruka—citing old empire loyalty to the imperial family—turns on Dobal's troops, slaughters them and Dobal, and saves Airi.",
+      "volume": "vol-04",
+      "key_characters": [
+        "kirihime-yoruka",
+        "airi-arcadia",
+        "dobar-feist"
+      ],
+      "node_id": "vol-04-d4-airi-saved-by-yoruka",
+      "location": "ark-ruin-location",
+      "related_events": [
+        "dobar-conspiracy-revealed"
+      ],
+      "name_en": "Yoruka Saves Airi and Kills Dobal",
+      "outcome": "Dobal eliminated; Yoruka's old empire loyalty established; Airi survives.",
+      "type": "incident"
+    },
+    {
+      "absolute_label": "vol-04 day 4",
+      "relative_day": 43,
+      "name_zh": "爱理偷听多巴尔阴谋",
+      "event_id": "dobar-conspiracy-revealed",
+      "summary": "Airi, separated in the Ark's eighth layer, overhears Dobal admitting he intentionally sabotaged the production area door to cause Knight Squadron casualties and boost his own value.",
+      "volume": "vol-04",
+      "key_characters": [
+        "airi-arcadia",
+        "dobar-feist"
+      ],
+      "node_id": "vol-04-d4-dobar-conspiracy-revealed",
+      "location": "ark-ruin-location",
+      "related_events": [
+        "airi-saved-by-yoruka"
+      ],
+      "name_en": "Airi Overhears Dobal's Conspiracy",
+      "type": "revelation"
+    },
+    {
+      "absolute_label": "vol-04 night 4",
+      "relative_day": 43,
+      "name_zh": "蕾莉坦白菲尔菲真相",
+      "event_id": "relie-confession",
+      "cause": "Philuffy's parasite activation reveals the long-hidden truth.",
+      "summary": "Relie confesses to Lux that five years ago, Philuffy was experimented on by the old empire, died, and then mysteriously revived. She has been secretly investigating a cure.",
+      "volume": "vol-04",
+      "key_characters": [
+        "relie-aingram",
+        "lux-arcadia"
+      ],
+      "node_id": "vol-04-d4-relie-confession",
+      "location": "ries-island",
+      "related_events": [
+        "philuffy-parasite-revelation",
+        "deepest-layer-betrayal"
+      ],
+      "name_en": "Relie Confesses Philuffy's Truth",
+      "outcome": "Lux fully understands the stakes and is determined to save Philuffy.",
+      "type": "revelation"
+    },
+    {
+      "absolute_label": "vol-04 day 5",
+      "relative_day": 44,
+      "name_zh": "拉可儿雪恢复方舟系统",
+      "event_id": "ark-management-restoration",
+      "summary": "The team reaches the Ark's tenth-layer management area. La Krusche connects to the central hub to complete her memory and restore systems.",
+      "volume": "vol-04",
+      "key_characters": [
+        "la-krusche",
+        "krulcifer-einfolk",
+        "lux-arcadia"
+      ],
+      "node_id": "vol-04-d5-ark-management-restoration",
+      "location": "ark-management-area",
+      "related_events": [
+        "deepest-gate-opened"
+      ],
+      "name_en": "La Krusche Restores Ark Systems",
+      "type": "exploration"
+    },
+    {
+      "absolute_label": "vol-04 night 5",
+      "relative_day": 44,
+      "name_zh": "方舟最深层大门开启",
+      "event_id": "deepest-gate-opened",
+      "summary": "Krulcifer, as the key manager, authenticates and opens the Ark's deepest layer gate. The team enters the massive dome chamber.",
+      "volume": "vol-04",
+      "key_characters": [
+        "krulcifer-einfolk",
+        "lux-arcadia",
+        "knight-squadron"
+      ],
+      "node_id": "vol-04-d5-deepest-gate-opened",
+      "location": "ark-deepest-layer",
+      "related_events": [
+        "deepest-layer-betrayal"
+      ],
+      "name_en": "Ark Deepest Gate Opens",
+      "type": "milestone"
+    },
+    {
+      "absolute_label": "vol-04 night 5",
+      "relative_day": 44,
+      "name_zh": "最深层背叛",
+      "event_id": "deepest-layer-betrayal",
+      "cause": "La Krusche's restored memories identify Lux's bloodline as enemies; Hayes exploits her priority protocols.",
+      "summary": "After recovering her memories, La Krusche declares the team to be 'traitor clan' and seals the deepest layer door. Hayes appears with the mind-controlled Philuffy.",
+      "volume": "vol-04",
+      "key_characters": [
+        "la-krusche",
+        "hayes",
+        "philuffy-aingram",
+        "lux-arcadia",
+        "krulcifer-einfolk"
+      ],
+      "node_id": "vol-04-d5-deepest-layer-betrayal",
+      "location": "ark-deepest-layer",
+      "related_events": [
+        "philuffy-controlled-battle",
+        "yggdrasil-final-battle"
+      ],
+      "name_en": "Deepest Layer Betrayal",
+      "outcome": "The Knight Squadron is trapped in the dome chamber facing unmanned Drag-Rides and Philuffy.",
+      "type": "betrayal/conspiracy"
+    },
+    {
+      "absolute_label": "vol-04 night 5",
+      "relative_day": 44,
+      "name_zh": "菲尔菲被操纵战斗",
+      "event_id": "philuffy-controlled-battle",
+      "summary": "Hayes commands Philuffy via the Origin Horn to pilot Typhon and annihilate her companions. Philuffy activates Ruthless Fruit, overpowering multiple Divine Drag-Ride users.",
+      "volume": "vol-04",
+      "key_characters": [
+        "philuffy-aingram",
+        "hayes",
+        "lux-arcadia",
+        "lisesharte-atismata",
+        "krulcifer-einfolk",
+        "celistia-ralgris"
+      ],
+      "node_id": "vol-04-d5-philuffy-controlled-battle",
+      "location": "ark-deepest-layer",
+      "related_events": [
+        "philuffy-farewell-promise",
+        "horn-counter-command"
+      ],
+      "name_en": "Philuffy Controlled Battle",
+      "type": "battle"
+    },
+    {
+      "absolute_label": "vol-04 night 5",
+      "relative_day": 44,
+      "name_zh": "菲尔菲送别路克斯",
+      "event_id": "philuffy-farewell-promise",
+      "summary": "Philuffy briefly regains control, admits she knew about the beast inside her, tells Lux to save Relie, and promises to wait for his return.",
+      "volume": "vol-04",
+      "key_characters": [
+        "philuffy-aingram",
+        "lux-arcadia"
+      ],
+      "node_id": "vol-04-d5-philuffy-farewell-promise",
+      "location": "ark-deepest-layer",
+      "related_events": [
+        "philuffy-controlled-battle"
+      ],
+      "name_en": "Philuffy Bids Lux Farewell",
+      "type": "milestone"
+    },
+    {
+      "absolute_label": "vol-04 night 5",
+      "relative_day": 44,
+      "name_zh": "巴哈姆特限界突破代码完成",
+      "event_id": "limit-break-unlocked",
+      "cause": "Lisha uses her Drag-Ride engineering genius to crack the ancient code.",
+      "summary": "Lisha completes the Bahamut Limit Break unlock code and prepares to teach it to Lux.",
+      "volume": "vol-04",
+      "key_characters": [
+        "lisesharte-atismata",
+        "lux-arcadia"
+      ],
+      "node_id": "vol-04-d5-limit-break-unlocked",
+      "location": "ries-drag-ride-workshop",
+      "related_events": [
+        "yggdrasil-final-battle"
+      ],
+      "name_en": "Bahamut Limit Break Code Completed",
+      "outcome": "Lux gains the ability to use Bahamut's Limit Break form.",
+      "type": "power-up"
+    },
+    {
+      "absolute_label": "vol-04 night 5",
+      "relative_day": 44,
+      "name_zh": "爱理角笛覆盖命令",
+      "event_id": "horn-counter-command",
+      "cause": "Airi's ancient document knowledge allows her to understand horn command mechanics.",
+      "summary": "Airi uses the academy's stored rebel command horn to issue a counter-command during a gap in Hayes's control, ordering Philuffy to de-armor and sleep.",
+      "volume": "vol-04",
+      "key_characters": [
+        "airi-arcadia",
+        "philuffy-aingram",
+        "hayes"
+      ],
+      "node_id": "vol-04-d5-horn-counter-command",
+      "location": "ark-deepest-layer",
+      "related_events": [
+        "philuffy-controlled-battle",
+        "yggdrasil-final-battle"
+      ],
+      "name_en": "Airi's Horn Counter-Command",
+      "outcome": "Philuffy is freed from Hayes's control temporarily, preventing the team's annihilation.",
+      "type": "counter-action"
+    },
+    {
+      "absolute_label": "vol-04 night 5",
+      "relative_day": 44,
+      "name_zh": "弗基尔夜间现身给出线索",
+      "event_id": "fugil-night-advice",
+      "cause": "Fugil's unknown agenda—he provides crucial intelligence.",
+      "summary": "Fugil appears on Ries Island and tells Lux that destroying the Origin Horn and defeating Yggdrasil's main body will save Philuffy.",
+      "volume": "vol-04",
+      "key_characters": [
+        "fugil-arcadia",
+        "lux-arcadia"
+      ],
+      "node_id": "vol-04-d5-fugil-night-advice",
+      "location": "ries-island",
+      "related_events": [
+        "yggdrasil-final-battle"
+      ],
+      "name_en": "Fugil Appears at Night with a Clue",
+      "outcome": "Lux understands the win condition for the final battle.",
+      "type": "encounter"
+    },
+    {
+      "absolute_label": "vol-04 night 5",
+      "relative_day": 44,
+      "name_zh": "尤克特拉希尔最终战",
+      "event_id": "yggdrasil-final-battle",
+      "cause": "Hayes retains the horn jewel, triggering Yggdrasil's protective response to attack enemies.",
+      "summary": "Hayes unleashes the terminal beast Yggdrasil. The Knight Squadron is overwhelmed by its rapid evolution. Lux uses Limit Break Bahamut, deliberately lets Yggdrasil absorb attacks to strengthen it, then reflects the amplified power back with Gluttony and Critical Hit, destroying it.",
+      "volume": "vol-04",
+      "key_characters": [
+        "lux-arcadia",
+        "yggdrasil",
+        "hayes",
+        "lisesharte-atismata",
+        "krulcifer-einfolk",
+        "celistia-ralgris",
+        "philuffy-aingram",
+        "airi-arcadia"
+      ],
+      "node_id": "vol-04-d5-yggdrasil-final-battle",
+      "location": "ark-deepest-layer",
+      "significance": "Volume climax. Lux saves Philuffy, completes his counter-trap against Hayes, and achieves Limit Break.",
+      "casualties": [
+        "yggdrasil"
+      ],
+      "related_events": [
+        "hayes-retreat",
+        "epilogue-infirmary-promise"
+      ],
+      "name_en": "Yggdrasil Final Battle",
+      "outcome": "Yggdrasil destroyed; Philuffy's life saved; Hayes's right arm severed.",
+      "type": "battle/climax"
+    },
+    {
+      "absolute_label": "vol-04 night 5",
+      "relative_day": 44,
+      "name_zh": "弗基尔带走海兹",
+      "event_id": "hayes-retreat",
+      "summary": "After Yggdrasil's defeat, Fugil and a mysterious maid appear above the dome, prevent Lux from pursuing, and extract the severely injured Hayes.",
+      "volume": "vol-04",
+      "key_characters": [
+        "fugil-arcadia",
+        "hayes",
+        "lux-arcadia",
+        "fugil-maid"
+      ],
+      "node_id": "vol-04-d5-hayes-retreat",
+      "location": "ark-deepest-layer",
+      "related_events": [
+        "yggdrasil-final-battle"
+      ],
+      "name_en": "Fugil Takes Hayes Away",
+      "type": "aftermath"
+    },
+    {
+      "absolute_label": "one week after Ark incident",
+      "relative_day": 51,
+      "name_zh": "医务室中的约定确认",
+      "event_id": "epilogue-infirmary-promise",
+      "summary": "One week after the Ark incident, Lux and Philuffy recover in the infirmary. Lux decides to accept Lisha's knight proposal. Philuffy tells him he has already created a place where she belongs.",
+      "volume": "vol-04",
+      "key_characters": [
+        "lux-arcadia",
+        "philuffy-aingram",
+        "lisesharte-atismata"
+      ],
+      "node_id": "vol-04-epilogue-infirmary-promise",
+      "location": "academy-infirmary",
+      "related_events": [
+        "lisha-knight-proposal"
+      ],
+      "name_en": "Infirmary Promise Confirmation",
+      "type": "epilogue"
+    },
+    {
+      "absolute_label": "vol-04 parallel night (political)",
+      "relative_day": 43,
+      "name_zh": "收复帝都计划军事会议",
+      "event_id": "council-recapture-plan",
+      "summary": "Queen Raffi, the chancellor, and the Four Great Nobles hold a military council to discuss the Heiburg and old empire rebel plan to recapture the imperial capital and attack the royal capital.",
+      "volume": "vol-04",
+      "key_characters": [
+        "queen-raffi",
+        "naluf",
+        "dist-ralgris",
+        "soga-shalutost",
+        "bugriser-gashtov"
+      ],
+      "node_id": "vol-04-parallel-council-recapture-plan",
+      "location": "royal-castle-council-room",
+      "significance": "Parallel political thread setting up vol-06's capital defense arc.",
+      "related_events": [],
+      "name_en": "Recapture Imperial Capital Council",
+      "type": "conspiracy/political"
+    },
+    {
+      "absolute_label": "early autumn night",
+      "relative_day": 65,
+      "name_zh": "旅馆的秘密一夜",
+      "event_id": "secret-night-at-inn",
+      "summary": "During dormitory renovations, Relie arranges for Lux to stay at her conglomerate's inn. Airi discovers this and brings the Triad; Krulcifer and Celistia also join, forming a full-group overnight stay.",
+      "volume": "vol-05",
+      "key_characters": [
+        "lux-arcadia",
+        "airi-arcadia",
+        "krulcifer-einfolk",
+        "celistia-ralgris",
+        "philuffy-aingram",
+        "sharis-baltshift",
+        "tillfur-lillmit",
+        "noct-leaflet",
+        "relie-aingram"
+      ],
+      "node_id": "vol-05-secret-night-at-inn",
+      "location": "einfolk-group-inn",
+      "related_events": [
+        "tilfa-marriage-consultation"
+      ],
+      "name_en": "Secret Night at the Inn",
+      "type": "daily life"
+    },
+    {
+      "absolute_label": "after school",
+      "relative_day": 67,
+      "name_zh": "缇尔法的相亲咨询（误会）",
+      "event_id": "tilfa-marriage-consultation",
+      "summary": "Tillfur panics about a letter from home ordering a marriage meeting. Lux gives earnest advice, then discovers it was actually her sister's letter.",
+      "volume": "vol-05",
+      "key_characters": [
+        "tillfur-lillmit",
+        "lux-arcadia"
+      ],
+      "node_id": "vol-05-tilfa-marriage-consultation",
+      "location": "royal-officer-academy",
+      "related_events": [],
+      "name_en": "Tillfur's Marriage Consultation (Misunderstanding)",
+      "type": "comedy"
+    },
+    {
+      "absolute_label": "summer evening to next day",
+      "relative_day": 70,
+      "name_zh": "茶会话与下雨的第二天——艾丽的机龙训练",
+      "event_id": "tea-party-rainy-day",
+      "summary": "At a monthly tea party, Airi hears a classmate's story about mistaking dependency for first love. The next day, she secretly asks Noct to teach her Drag-Ride operation and trains in the rain until collapsing. Lux finds her and carries her back. Airi confirms her feelings for her brother are real.",
+      "volume": "vol-05",
+      "key_characters": [
+        "airi-arcadia",
+        "lux-arcadia",
+        "noct-leaflet"
+      ],
+      "node_id": "vol-05-tea-party-rainy-day",
+      "location": "royal-officer-academy",
+      "related_events": [],
+      "name_en": "Tea Party and Rainy Day — Airi's Training",
+      "type": "character development"
+    },
+    {
+      "absolute_label": "several days",
+      "relative_day": 75,
+      "name_zh": "公主殿下的料理奋斗记",
+      "event_id": "princess-cooking-struggle",
+      "cause": "Lisha realizes she only interacts with Lux as a master and mechanic.",
+      "summary": "The school nurse advises Lisha to 'capture a man's stomach.' Lisha investigates Lux's favorite food, secretly practices cooking old empire-style yellow-sauce stew, and plans to surprise him—only to find Lux making the same dish. They exchange and taste each other's cooking.",
+      "volume": "vol-05",
+      "key_characters": [
+        "lisesharte-atismata",
+        "lux-arcadia",
+        "female-doctor"
+      ],
+      "node_id": "vol-05-princess-cooking-struggle",
+      "location": "royal-officer-academy",
+      "related_events": [],
+      "name_en": "Princess Cooking Struggle",
+      "outcome": "Lisha's romantic efforts acknowledged; Lux enjoys her cooking.",
+      "type": "romantic comedy"
+    },
+    {
+      "absolute_label": "three days",
+      "relative_day": 78,
+      "name_zh": "寻找库露露希珐的弱点",
+      "event_id": "find-weakness-request",
+      "summary": "A literature-track classmate named Kuroeru panics after Krulcifer sees her love poem and commissions Lux to find Krulcifer's weakness. After three days of effort, Krulcifer resolves it directly by exchanging secrets with Kuroeru.",
+      "volume": "vol-05",
+      "key_characters": [
+        "krulcifer-einfolk",
+        "lux-arcadia",
+        "kuroeru"
+      ],
+      "node_id": "vol-05-find-weakness-request",
+      "location": "royal-officer-academy",
+      "related_events": [],
+      "name_en": "Finding Krulcifer's Weakness",
+      "outcome": "Krulcifer's true weakness (ticklish ears) and her real concern ('not wanting to show flaws before someone she cares about') are revealed.",
+      "type": "comedy"
+    },
+    {
+      "absolute_label": "founding festival evening",
+      "relative_day": 55,
+      "name_zh": "酒馆钱包盗窃与葛莱法初遇",
+      "event_id": "greifer-theft-incident",
+      "summary": "Greifer's wallet is stolen at a restaurant. Lux chases the thief and encounters Greifer and Coral from Vanheim Principality. Greifer nearly severs the thief's hands; Lux stops him.",
+      "volume": "vol-06",
+      "key_characters": [
+        "lux-arcadia",
+        "greifer",
+        "coral",
+        "lisesharte-atismata",
+        "krulcifer-einfolk",
+        "airi-arcadia"
+      ],
+      "node_id": "vol-06-greifer-theft-incident",
+      "location": "deigalia-alley",
+      "related_events": [
+        "greifer-night-attack",
+        "lux-vs-greifer-final"
+      ],
+      "name_en": "Tavern Theft and Greifer Encounter",
+      "outcome": "Greifer is established as a powerful rival Seven Dragon Paladin candidate.",
+      "type": "incident"
+    },
+    {
+      "absolute_label": "eve of all-dragon battle",
+      "relative_day": 57,
+      "name_zh": "执政院诱饵任务",
+      "event_id": "council-decoy-order",
+      "cause": "Intercepted intelligence about Heiburg's capital recapture plan.",
+      "summary": "The New Kingdom Council summons Lux and Airi, ordering Lux to serve as bait for hundreds of Abyss beasts and to win four matches in the All-Dragon Battle, using Relie's violation as leverage.",
+      "volume": "vol-06",
+      "key_characters": [
+        "lux-arcadia",
+        "airi-arcadia",
+        "naluf",
+        "dist-ralgris",
+        "soga-schaltost"
+      ],
+      "node_id": "vol-06-council-decoy-order",
+      "location": "new-kingdom-council-hall",
+      "related_events": [
+        "decoy-operation-abyss-lure",
+        "greifer-night-attack"
+      ],
+      "name_en": "Council Decoy Order",
+      "outcome": "Lux accepts the impossible dual mission. Airi is deeply worried.",
+      "type": "conspiracy"
+    },
+    {
+      "absolute_label": "all-dragon battle eve, rainy night",
+      "relative_day": 57,
+      "name_zh": "葛莱法夜袭路克斯",
+      "event_id": "greifer-night-attack",
+      "cause": "Hayes manipulates New Kingdom guard units to provoke Vanheim.",
+      "summary": "After Vanheim members are attacked by New Kingdom guard Drag-Rides (secretly controlled by Hayes), Greifer mistakenly attacks Lux and Airi in the rain. Lux draws combat to a deserted area; Coral intervenes.",
+      "volume": "vol-06",
+      "key_characters": [
+        "lux-arcadia",
+        "airi-arcadia",
+        "greifer",
+        "coral"
+      ],
+      "node_id": "vol-06-greifer-night-attack",
+      "location": "deigalia-redevelopment-district",
+      "related_events": [
+        "diarmat-sabotage",
+        "lux-vs-greifer-final"
+      ],
+      "name_en": "Greifer Night Attack",
+      "outcome": "Tensions escalate; Lux learns Greifer's Cuelebre abilities.",
+      "type": "battle"
+    },
+    {
+      "absolute_label": "founding festival morning",
+      "relative_day": 59,
+      "name_zh": "库露露席法的纪念祭约会",
+      "event_id": "krulcifer-date",
+      "summary": "Using her training reward, Krulcifer takes Lux on a date: browsing stalls, dancing in formal wear at the Moon Lamp Hall, and kissing in the park to convince Eltilize their relationship is real.",
+      "volume": "vol-06",
+      "key_characters": [
+        "lux-arcadia",
+        "krulcifer-einfolk",
+        "eltilise-meikleia"
+      ],
+      "node_id": "vol-06-krulcifer-date",
+      "location": "moon-lamp-hall-and-national-park",
+      "related_events": [
+        "celis-date",
+        "philuffy-date"
+      ],
+      "name_en": "Krulcifer's Festival Date",
+      "outcome": "Krulcifer becomes more assertive with Lux; their ambiguous relationship deepens.",
+      "type": "milestone/romance"
+    },
+    {
+      "absolute_label": "founding festival afternoon",
+      "relative_day": 59,
+      "name_zh": "赛莉丝的纪念祭约会",
+      "event_id": "celis-date",
+      "summary": "Celis confesses her father's order to monitor and recruit Lux. With the Triad's help, they disguise themselves (Celis as a noble lady, Lux as a butler) to enjoy the festival. Yoruka silently eliminates Heiburg assassins following them.",
+      "volume": "vol-06",
+      "key_characters": [
+        "lux-arcadia",
+        "celistia-ralgris",
+        "tillfur-lillmit",
+        "sharis-baltshift",
+        "noct-leaflet",
+        "kirihime-yoruka"
+      ],
+      "node_id": "vol-06-celis-date",
+      "location": "deigalia-central-streets",
+      "related_events": [
+        "krulcifer-date",
+        "philuffy-date"
+      ],
+      "name_en": "Celis's Festival Date",
+      "outcome": "Celis promises never to hide things from Lux; mutual trust deepens.",
+      "type": "milestone/romance"
+    },
+    {
+      "absolute_label": "founding festival evening",
+      "relative_day": 59,
+      "name_zh": "菲尔菲的大圣堂膝枕",
+      "event_id": "philuffy-date",
+      "summary": "Philuffy and Lux view the spirit statue from the cathedral balcony. She makes the exhausted Lux rest on her lap and kisses him while he sleeps. She confesses she once suppressed her feelings and thanks him for helping her find herself.",
+      "volume": "vol-06",
+      "key_characters": [
+        "lux-arcadia",
+        "philuffy-aingram"
+      ],
+      "node_id": "vol-06-philuffy-date",
+      "location": "great-cathedral-balcony",
+      "related_events": [
+        "krulcifer-date",
+        "celis-date"
+      ],
+      "name_en": "Philuffy's Cathedral Lap Pillow",
+      "outcome": "Philuffy's role shifts from being saved to wanting to protect Lux.",
+      "type": "milestone/romance"
+    },
+    {
+      "absolute_label": "founding festival night",
+      "relative_day": 59,
+      "name_zh": "莉夏公开任命路克斯为骑士",
+      "event_id": "lisha-knight-announcement",
+      "summary": "In her closing address at the founding festival, Lisha publicly acknowledges Lux's old empire prince heritage and declares him her personal knight, arguing his strength and spirit merit trust.",
+      "volume": "vol-06",
+      "key_characters": [
+        "lisesharte-atismata",
+        "lux-arcadia",
+        "queen-raffi"
+      ],
+      "node_id": "vol-06-lisha-knight-announcement",
+      "location": "royal-castle-balcony",
+      "related_events": [
+        "diarmat-sabotage"
+      ],
+      "name_en": "Lisha Publicly Appoints Lux as Her Knight",
+      "outcome": "Initial public shock turns to applause. Lux formally transitions from criminal to princess's knight.",
+      "type": "ceremony/milestone"
+    },
+    {
+      "absolute_label": "all-dragon battle second half, round 2",
+      "relative_day": 61,
+      "name_zh": "迪亚玛特失控炮击",
+      "event_id": "diarmat-sabotage",
+      "cause": "Hayes's faction uses ancient technology or clones to remotely hijack Drag-Rides.",
+      "summary": "During the All-Dragon Battle, Lisha's Diarmat suddenly goes berserk, its cannon aiming at Vanheim VIP seats twice. Celistia blocks with Ruler Domain; Krulcifer freezes the armament.",
+      "volume": "vol-06",
+      "key_characters": [
+        "lisesharte-atismata",
+        "celistia-ralgris",
+        "krulcifer-einfolk",
+        "airi-arcadia",
+        "greifer",
+        "hayes"
+      ],
+      "node_id": "vol-06-diarmat-sabotage",
+      "location": "drag-ride-arena",
+      "related_events": [
+        "greifer-night-attack",
+        "decoy-operation-abyss-lure"
+      ],
+      "name_en": "Diarmat Sabotage",
+      "outcome": "New Kingdom forfeits; Lisha is taken for questioning; Vanheim threatens military action.",
+      "type": "incident/conspiracy"
+    },
+    {
+      "absolute_label": "all-dragon battle second-half morning",
+      "relative_day": 62,
+      "name_zh": "废村幻神兽诱饵作战",
+      "event_id": "decoy-operation-abyss-lure",
+      "cause": "Council's order for Lux to lure Abyss to the hidden fortress destruction zone.",
+      "summary": "Lux goes alone to an abandoned village as Abyss bait. Sania and Ignid ambush with horn-controlled Abyss swarms. Lux discovers a grimoire that propagates commands, but continues the mission toward the hidden fortress.",
+      "volume": "vol-06",
+      "key_characters": [
+        "lux-arcadia",
+        "sania-lemiste",
+        "ignid",
+        "bagreiser"
+      ],
+      "node_id": "vol-06-decoy-operation-abyss-lure",
+      "location": "abandoned-village-and-hidden-fortress",
+      "related_events": [
+        "lux-vs-greifer-final",
+        "hidden-fortress-collapse"
+      ],
+      "name_en": "Abyss Decoy Operation",
+      "outcome": "The operation initially succeeds, but rebels counterattack from inside the fortress—proof Hayes exploited the plan.",
+      "type": "battle/conspiracy"
+    },
+    {
+      "absolute_label": "all-dragon battle final match",
+      "relative_day": 62,
+      "name_zh": "路克斯对葛莱法最终战",
+      "event_id": "lux-vs-greifer-final",
+      "cause": "New Kingdom needs the fourth win to suppress Vanheim's military threat after Diarmat sabotage.",
+      "summary": "Lux rushes back from the decoy operation to the arena. Using Bahamut, he exploits Greifer's known Photon Dive invincibility window, applies Gluttony delayed imprint, and strikes when the shield drops.",
+      "volume": "vol-06",
+      "key_characters": [
+        "lux-arcadia",
+        "greifer",
+        "airi-arcadia",
+        "noct-leaflet"
+      ],
+      "node_id": "vol-06-lux-vs-greifer-final",
+      "location": "drag-ride-arena",
+      "related_events": [
+        "diarmat-sabotage",
+        "gigant-first-sighting"
+      ],
+      "name_en": "Lux vs Greifer Final Match",
+      "outcome": "New Kingdom wins the final match and the third round. Lux immediately leaves to rescue Lisha and stop the Gigant.",
+      "type": "battle/climax"
+    },
+    {
+      "absolute_label": "capital defense crisis",
+      "relative_day": 63,
+      "name_zh": "库露露席法发现移动巨兵",
+      "event_id": "gigant-first-sighting",
+      "cause": "Heiburg activates the Fifth Ruin Gigant as a weapon.",
+      "summary": "Krulcifer flies northeast on Fafnir to scout and discovers the Fifth Ruin—an entire mobile fortress (Gigant)—moving through fog and firing on the capital.",
+      "volume": "vol-06",
+      "key_characters": [
+        "krulcifer-einfolk",
+        "aeril-fazelle",
+        "hayes"
+      ],
+      "node_id": "vol-06-gigant-first-sighting",
+      "location": "deigalia-northeast-outskirts",
+      "related_events": [
+        "heiburg-planning-gigant-activation"
+      ],
+      "name_en": "Krulcifer Spots the Moving Gigant",
+      "outcome": "Capital enters martial law and evacuation. Hayes appears atop the Gigant, publicly demanding surrender.",
+      "type": "disaster/revelation"
+    },
+    {
+      "absolute_label": "capital defense climax",
+      "relative_day": 63,
+      "name_zh": "王都防卫战——阻止巨兵与海布格",
+      "event_id": "heiburg-capital-defense",
+      "summary": "The combined forces of the Knight Squadron, Lux (with Bahamut), Lisha, and allies battle to stop the Gigant. Hayes pilots B-blood Nidhogg. Lux and Lisha cooperate to defeat the Gigant's core and neutralize the Heiburg threat to the capital.",
+      "volume": "vol-06",
+      "key_characters": [
+        "lux-arcadia",
+        "lisesharte-atismata",
+        "celistia-ralgris",
+        "krulcifer-einfolk",
+        "philuffy-aingram",
+        "hayes",
+        "knight-squadron"
+      ],
+      "node_id": "vol-06-heiburg-capital-battle",
+      "location": "deigalia-capital",
+      "related_events": [
+        "gigant-first-sighting",
+        "singlen-recruitment-lux"
+      ],
+      "name_en": "Capital Defense — Stopping the Gigant and Heiburg",
+      "outcome": "Gigant stopped; Hayes defeated; capital saved. Lux collapses from exhaustion.",
+      "type": "battle/climax"
+    },
+    {
+      "absolute_label": "approximately 2 weeks after all-dragon battle",
+      "relative_day": 78,
+      "name_zh": "辛格伦挖角路克斯",
+      "event_id": "singlen-recruitment-lux",
+      "cause": "New Kingdom has not yet nominated a Seven Dragon Paladin candidate. Singlen seeks true strength.",
+      "summary": "Seven Dragon Paladin Vice-Captain Singlen Shelbrit visits the academy, ostensibly to interview candidates, but actually targets Lux as New Kingdom's representative. He dangles Fugil intel as bait.",
+      "volume": "vol-07",
+      "key_characters": [
+        "singlen-sharbrit",
+        "lux-arcadia",
+        "lisesharte-atismata",
+        "celistia-ralgris",
+        "relie-aingram"
+      ],
+      "node_id": "vol-07-singlen-recruitment-lux",
+      "location": "crossfield-academy",
+      "related_events": [
+        "seven-dragon-paladin-round-table",
+        "lux-becomes-seven-dragon-paladin"
+      ],
+      "name_en": "Singlen Recruits Lux",
+      "outcome": "Lux refuses immediate membership, but Singlen continues treating him as a future peer and pawn.",
+      "type": "conspiracy/milestone"
+    },
+    {
+      "absolute_label": "after arriving at Runeskia",
+      "relative_day": 82,
+      "name_zh": "七龙骑圣圆桌会议",
+      "event_id": "seven-dragon-paladin-round-table",
+      "summary": "Singlen convenes Lux, Greifer, and Mel for a round table. He critiques the existing nation-state order, explains the Dragon Bandits and Demon-Humanoid crisis, and invites them to join his vision of rule by the strong.",
+      "volume": "vol-07",
+      "key_characters": [
+        "singlen-sharbrit",
+        "lux-arcadia",
+        "greifer-neste",
+        "mell-jisato"
+      ],
+      "node_id": "vol-07-seven-dragon-paladin-round-table",
+      "location": "tengai-palace",
+      "related_events": [
+        "singlen-recruitment-lux",
+        "class-advancement-test-vol07"
+      ],
+      "name_en": "Seven Dragon Paladins Round Table",
+      "outcome": "All three refuse Singlen's scheme, but he continues to test them through the advancement test and labyrinth.",
+      "type": "conspiracy/ceremony"
+    },
+    {
+      "absolute_label": "vanheim expedition phase 1",
+      "relative_day": 84,
+      "name_zh": "梵海姆公国阶层升格测验",
+      "event_id": "class-advancement-test-vol07",
+      "summary": "New Kingdom academy students undergo the joint class advancement test: written exam, physical test, martial arts, Drag-Ride maneuvers, and mock battles. Bazhem's faction constantly obstructs New Kingdom examinees. Singlen intervenes in mock battle, overwhelming Lux with Battle Formation.",
+      "volume": "vol-07",
+      "key_characters": [
+        "lux-arcadia",
+        "lisesharte-atismata",
+        "krulcifer-einfolk",
+        "philuffy-aingram",
+        "celistia-ralgris",
+        "sharis-baltshift",
+        "tillfur-lillmit",
+        "noct-leaflet",
+        "bazhem",
+        "singlen-sharbrit"
+      ],
+      "node_id": "vol-07-class-advancement-test",
+      "location": "ruins-city-runeskia",
+      "related_events": [
+        "labyrinth-suppression-operation"
+      ],
+      "name_en": "Class Advancement Test in Vanheim",
+      "outcome": "Bazhem stripped of examiner status; Lux learns Battle Formation principles; Triad realizes they need more training.",
+      "type": "ceremony/battle"
+    },
+    {
+      "absolute_label": "post-test additional mission",
+      "relative_day": 87,
+      "name_zh": "第二遗迹迷宫镇压作战",
+      "event_id": "labyrinth-suppression-operation",
+      "cause": "Excessive Abyss population threatening to overflow the ruins city.",
+      "summary": "Vanheim requests New Kingdom assistance to suppress abnormally proliferating Abyss in the Second Ruins labyrinth layers 1–2. Dielwe's team illegally enters layer 3, triggering alarms. Bazhem's men pursue Airi's ancient documents.",
+      "volume": "vol-07",
+      "key_characters": [
+        "lux-arcadia",
+        "greifer-neste",
+        "clair",
+        "airi-arcadia",
+        "sharis-baltshift",
+        "tillfur-lillmit",
+        "noct-leaflet",
+        "dielwe-froyas",
+        "bazhem"
+      ],
+      "node_id": "vol-07-labyrinth-suppression-operation",
+      "location": "second-ruins-labyrinth",
+      "related_events": [
+        "dielwe-betrayal-demon-humanoid",
+        "lux-becomes-seven-dragon-paladin"
+      ],
+      "name_en": "Second Ruins Labyrinth Suppression Operation",
+      "outcome": "Labyrinth enters alert state; multiple personnel trapped in layer 3, escalating into the Dielwe betrayal.",
+      "type": "battle/incident"
+    },
+    {
+      "absolute_label": "during labyrinth alert and post-battle",
+      "relative_day": 89,
+      "name_zh": "路克斯成为七龙骑圣候选",
+      "event_id": "lux-becomes-seven-dragon-paladin",
+      "cause": "Ordinary military orders forbid entering the labyrinth; Seven Dragon Paladins have emergency override authority.",
+      "summary": "To gain authority to enter the alert-state labyrinth and rescue Airi and the Triad, Lux swears before Singlen to become Atismata New Kingdom's Seven Dragon Paladin candidate. Post-battle, Celistia volunteers as his adjutant.",
+      "volume": "vol-07",
+      "key_characters": [
+        "lux-arcadia",
+        "singlen-sharbrit",
+        "greifer-neste",
+        "lisesharte-atismata",
+        "celistia-ralgris"
+      ],
+      "node_id": "vol-07-lux-becomes-seven-dragon-paladin",
+      "location": "tengai-palace / ruins-city-runeskia",
+      "related_events": [
+        "labyrinth-suppression-operation",
+        "dielwe-betrayal-demon-humanoid"
+      ],
+      "name_en": "Lux Becomes a Seven Dragon Paladin Candidate",
+      "outcome": "Lux transitions from passive protector to someone who chooses to bear world-class responsibility by his own will.",
+      "type": "milestone"
+    },
+    {
+      "absolute_label": "labyrinth layer 3 final battle",
+      "relative_day": 89,
+      "name_zh": "迪尔威背叛与幻魔人化",
+      "event_id": "dielwe-betrayal-demon-humanoid",
+      "cause": "Dielwe's obsession with overcoming his right-hand injury and desire for ultimate power.",
+      "summary": "Dielwe accepts the elixir Baptism from a robed man, betrays the New Kingdom, kills Bazhem's faction and his own officers, seizes Airi's ancient documents, and transforms into a Demon-Humanoid. Lux and Greifer join forces to defeat him.",
+      "volume": "vol-07",
+      "key_characters": [
+        "dielwe-froyas",
+        "lux-arcadia",
+        "greifer-neste",
+        "airi-arcadia",
+        "sharis-baltshift",
+        "tillfur-lillmit",
+        "noct-leaflet",
+        "bazhem"
+      ],
+      "node_id": "vol-07-dielwe-betrayal-demon-humanoid",
+      "location": "second-ruins-labyrinth-layer-3",
+      "significance": "Volume climax. Explicitly reveals that Baptism/elixir transforms humans into Demon-Humanoids.",
+      "casualties": [
+        "dielwe-froyas",
+        "bazhem",
+        "bazhem-subordinates",
+        "dielwe-new-kingdom-officers"
+      ],
+      "related_events": [
+        "airy-secret-revealed",
+        "labyrinth-suppression-operation",
+        "lux-becomes-seven-dragon-paladin"
+      ],
+      "name_en": "Dielwe's Betrayal and Demon-Humanoid Transformation",
+      "outcome": "Dielwe killed; Demon-Humanoid threat confirmed; Airi's secrets and Arcadia bloodline mystery exposed to core allies.",
+      "type": "battle/revelation/disaster"
+    },
+    {
+      "absolute_label": "post-dielwe-battle",
+      "relative_day": 89,
+      "name_zh": "爱理与阿卡迪亚血脉秘密浮现",
+      "event_id": "airy-secret-revealed",
+      "summary": "After Dielwe's defeat, the contents of Airi's ancient documents and her connection to Arcadia ruins become known to core allies. Lux reaffirms that whatever the truth, he is her brother.",
+      "volume": "vol-07",
+      "key_characters": [
+        "airi-arcadia",
+        "lux-arcadia",
+        "krulcifer-einfolk",
+        "celistia-ralgris"
+      ],
+      "node_id": "vol-07-airy-secret-revealed",
+      "location": "second-ruins-labyrinth",
+      "related_events": [
+        "dielwe-betrayal-demon-humanoid"
+      ],
+      "name_en": "Airi's Secret and Arcadia Bloodline Mystery",
+      "type": "revelation"
+    },
+    {
+      "description": "A series of accidents and performances that take Lux from unknown chore-prince to formally admitted first male student.",
+      "sequence": [
+        "lux-bath-intrusion",
+        "lux-academy-enrollment",
+        "lisha-duel-and-gargoyle",
+        "lisha-secret-confession",
+        "philuffy-reunion",
+        "welcome-party",
+        "philuffy-room-incident",
+        "knight-squadron-test",
+        "lisha-date-and-confession",
+        "large-abyss-attack",
+        "belbet-betrayal",
+        "lux-bahamut-rescue",
+        "formal-admission"
+      ],
+      "outcome": "Lux earns a home at the Royal Officer Academy as its first male student and chore prince, with his Bahamut secretly maintained by Lisha.",
+      "cause": "Lux accidentally intrudes into the girls' bath, triggering a cascade of identity exposure, trust-building, and battle that culminates in his formal acceptance.",
+      "id": "chain-vol01-academy-entry",
+      "name": "Lux's Academy Entry Chain"
+    },
+    {
+      "description": "Flashbacks that reveal Lux's past as the Black Hero and Fugil's manipulation.",
+      "sequence": [
+        "fall-of-arcadia-castle",
+        "fugil-betrays-lux",
+        "lux-bahamut-rescue"
+      ],
+      "outcome": "Lux bears the guilt of the massacre and hides as the chore prince while secretly pursuing Fugil. His Black Hero identity is partially exposed to allies during the Belbet crisis.",
+      "cause": "Five years before the story, Lux and Fugil orchestrate a coup against the old empire; Fugil betrays Lux's ideals, massacring survivors and revealing he was never truly Lux's brother.",
+      "id": "chain-vol01-black-hero-origin",
+      "name": "Black Hero Origin & Fugil Betrayal Chain"
+    },
+    {
+      "description": "Krulcifer's forced marriage becomes a political weapon — and a ruin-key conspiracy.",
+      "sequence": [
+        "event-lux-scramble",
+        "event-lover-contract",
+        "event-temporary-instructors",
+        "event-bandit-attack",
+        "event-balzeride-marriage-challenge",
+        "event-royal-council-terminal-beast",
+        "event-horn-transfer",
+        "event-balzeride-conspiracy-meeting",
+        "event-black-hero-info-sale",
+        "event-box-garden-mission",
+        "event-box-garden-revelation",
+        "event-box-garden-rescue",
+        "event-bahamut-preparation",
+        "event-church-ruins-duel",
+        "event-eltilise-apology"
+      ],
+      "outcome": "Lux defeats Balzeride with Bahamut at the church ruins. Balzeride is arrested (later killed by Hayes). Krulcifer's marriage crisis is resolved. Lux becomes a potential Einfolk son-in-law candidate.",
+      "cause": "The Einfolk family pressures Krulcifer into a political marriage. Balzeride Kreutzer, backed by his father Wag and armed with Divine Drag-Ride Azi Dahaka, seeks to control her as a ruin-key tool. The black-robed merchant (Hayes) supplies intel and weapons.",
+      "id": "chain-vol02-krulcifer-marriage",
+      "name": "Krulcifer Marriage Conspiracy Chain"
+    },
+    {
+      "description": "Celistia's opposition to Lux's presence escalates into a factional selection battle, which is shattered by the Poseidon assault.",
+      "sequence": [
+        "fugil-hero-doctrine",
+        "heiburg-agents-lurk-outside-academy",
+        "lux-crossdress-patrol",
+        "lux-meets-celistia-as-luna",
+        "sonia-trap-massage-luna-date",
+        "expulsion-selection-battle-set",
+        "selection-battle-begins",
+        "celis-vs-lisha-krulcifer",
+        "lux-defeats-sania-extreme-strike",
+        "luna-date-chimera-attack",
+        "final-selection-duel",
+        "poseidon-decoy-discovered",
+        "poseidon-academy-assault",
+        "sania-infiltration-revealed",
+        "philuffy-kills-mercenaries",
+        "wade-celistia-guilt-revealed",
+        "lux-defeats-poseidon",
+        "relie-finds-philuffy",
+        "celistia-accepts-lux",
+        "representatives-announced"
+      ],
+      "outcome": "Poseidon is destroyed by Lux's Bahamut. Celistia accepts Lux and reveals her guilt over Wade's death. The foreign rivalry team is announced with Lux as a core member. Philuffy's parasitic power anomaly is exposed. Hayes escapes with one Supreme Power crystal and reveals Philuffy is a 'bomb.'",
+      "cause": "Celistia Ralgris, the academy's strongest Knight Squadron captain, returns and demands Lux's expulsion (men don't belong in an all-girls academy). Lux counters by requesting to help subjugate the Terminal Beast. Meanwhile, Hayes and Heiburg agents manipulate events from the shadows.",
+      "id": "chain-vol03-celistia-acceptance",
+      "name": "Celistia Acceptance & Selection Battle Chain"
+    },
+    {
+      "description": "Heiburg agents and Hayes orchestrate the Poseidon assault as part of a larger Terminal Beast / parasite power scheme.",
+      "sequence": [
+        "fugil-hero-doctrine",
+        "heiburg-agents-lurk-outside-academy",
+        "balzeride-murdered-by-hayes",
+        "sonia-trap-massage-luna-date",
+        "poseidon-decoy-discovered",
+        "poseidon-academy-assault",
+        "sania-infiltration-revealed",
+        "heyes-reveals-parasite-research"
+      ],
+      "outcome": "Poseidon assault fails when Lux destroys the revived Terminal Beast. Sania escapes, recovering one Supreme Power crystal. Hayes reveals the parasite research and the Philuffy connection, foreshadowing future threats. Heiburg denies responsibility.",
+      "cause": "Fugil's hero doctrine distributes Divine Drag-Rides to nations. Hayes, wielding parasite-based Terminal Beast power and horn flutes, cooperates with Heiburg to attack the New Kingdom academy. Sania infiltrates as a spy.",
+      "id": "chain-vol03-heiburg-infiltration",
+      "name": "Heiburg Infiltration & Hayes Conspiracy Chain"
+    },
+    {
+      "name_zh": "深夜浴场误闯事件",
+      "day_offset": 0,
+      "event_id": "lux-bath-intrusion",
+      "cause": "Lux tries to recover a stolen handbag as a chore-job; the roof breaks.",
+      "summary": "Lux chases a cat that stole a handbag, falls through the roof into the girls' bath, protects Lisha from falling debris, and is mistaken for a voyeur.",
+      "volume": "vol-01",
+      "participants": [
+        "lux-arcadia",
+        "lisha-atismata",
+        "krulcifer-einfolk",
+        "sharis-baltshift",
+        "tillfur-lilmit",
+        "noct-leaflet"
+      ],
+      "location": "girls-dormitory-bath, Royal Officer Academy, Crossfield",
+      "name_en": "Bathhouse Intrusion Incident",
+      "outcome": "Lux is captured by Krulcifer and placed in an academy cell; his identity as a former prince is discovered.",
+      "type": "incident",
+      "id": "vol01-day0-bath"
+    },
+    {
+      "name_zh": "路克斯试验入学",
+      "day_offset": 1,
+      "event_id": "lux-academy-enrollment",
+      "cause": "Lux's identity is exposed after the bath incident; Lisha wants to test his worth and punish him for seeing her secret brand.",
+      "summary": "Relie identifies Lux as the scheduled maintenance worker and former prince. Lisha demands a Drag-Ride duel to decide whether he can stay.",
+      "volume": "vol-01",
+      "participants": [
+        "lux-arcadia",
+        "lisha-atismata",
+        "relie-aingram",
+        "airi-arcadia",
+        "noct-leaflet"
+      ],
+      "location": "Royal Officer Academy, Crossfield",
+      "name_en": "Lux's Trial Enrollment",
+      "outcome": "A public duel is scheduled, giving Lux a chance to prove himself instead of being sent to prison.",
+      "type": "ceremony",
+      "id": "vol01-day1-enrollment"
+    },
+    {
+      "name_zh": "莉夏决斗与石像鬼袭击",
+      "day_offset": 1,
+      "event_id": "lisha-duel-and-gargoyle",
+      "cause": "Lisha tests Lux; the Gargoyle appears unexpectedly from outside academy defenses.",
+      "summary": "Lisha duels Lux with Tiamat. A Gargoyle Abyss interrupts. Lux protects the audience and coordinates with Lisha to destroy it.",
+      "volume": "vol-01",
+      "participants": [
+        "lux-arcadia",
+        "lisha-atismata",
+        "airi-arcadia",
+        "sharis-baltshift",
+        "tillfur-lilmit",
+        "noct-leaflet",
+        "regrie-balheart"
+      ],
+      "location": "drag-ride-training-ground, Academy",
+      "name_en": "Lisha Duel and Gargoyle Attack",
+      "outcome": "Gargoyle destroyed; Lux injured; Lisha begins trusting him.",
+      "type": "battle",
+      "id": "vol01-day1-duel"
+    },
+    {
+      "name_zh": "莉夏秘密烙印告白",
+      "day_offset": 1,
+      "event_id": "lisha-secret-confession",
+      "cause": "Lux had seen the hidden mark during the bath incident; Lisha wants to secure his silence and trust.",
+      "summary": "Lisha reveals the old Arcadia Empire brand below her navel and asks Lux to keep it secret. Lux swears on his Sword Device.",
+      "volume": "vol-01",
+      "participants": [
+        "lux-arcadia",
+        "lisha-atismata"
+      ],
+      "location": "academy-infirmary",
+      "name_en": "Lisha's Brand Confession",
+      "outcome": "Lux becomes Lisha's trusted secret-holder; Lisha's hostility softens into reliance.",
+      "type": "revelation",
+      "id": "vol01-day1-brand"
+    },
+    {
+      "name_zh": "与青梅竹马菲尔菲重逢",
+      "day_offset": 2,
+      "event_id": "philuffy-reunion",
+      "cause": "Lisha and Relie push Lux into trial enrollment at the all-girls academy.",
+      "summary": "Lux joins the second-year class and reunites with his childhood friend Philuffy Aingram, who insists he call her by their childhood nickname.",
+      "volume": "vol-01",
+      "participants": [
+        "lux-arcadia",
+        "philuffy-aingram",
+        "regrie-balheart",
+        "lisha-atismata"
+      ],
+      "location": "Royal Officer Academy",
+      "name_en": "Reunion with Philuffy",
+      "outcome": "Lux gains a friendly anchor in class; Philuffy and Lisha begin competing for his attention.",
+      "type": "milestone",
+      "id": "vol01-day2-reunion"
+    },
+    {
+      "name_zh": "路克斯欢迎会",
+      "day_offset": 2,
+      "event_id": "welcome-party",
+      "cause": "Lisha and the academy girls want to thank and welcome Lux after the Gargoyle incident.",
+      "summary": "Students and teachers hold a small party to welcome Lux after his first difficult day. Lux feels accepted for the first time.",
+      "volume": "vol-01",
+      "participants": [
+        "lux-arcadia",
+        "lisha-atismata",
+        "philuffy-aingram",
+        "krulcifer-einfolk",
+        "airi-arcadia",
+        "sharis-baltshift",
+        "tillfur-lilmit",
+        "noct-leaflet",
+        "regrie-balheart"
+      ],
+      "location": "girls-dormitory-dining-hall",
+      "name_en": "Lux's Welcome Party",
+      "outcome": "Lux feels he belongs; later falls asleep in the hallway with no assigned room.",
+      "type": "ceremony",
+      "id": "vol01-day2-party"
+    },
+    {
+      "name_zh": "菲尔菲同房误会",
+      "day_offset": 3,
+      "event_id": "philuffy-room-incident",
+      "cause": "Lux has no assigned room and collapses from exhaustion after the welcome party.",
+      "summary": "After Lux falls asleep in the corridor, Philuffy brings him to her room and sleeps in the same lower bunk. Tillfur discovers them in the morning.",
+      "volume": "vol-01",
+      "participants": [
+        "lux-arcadia",
+        "philuffy-aingram",
+        "tillfur-lilmit"
+      ],
+      "location": "girls-dormitory",
+      "name_en": "Philuffy Room Incident",
+      "outcome": "Lux becomes Philuffy's temporary roommate; increasing academy gossip.",
+      "type": "incident",
+      "id": "vol01-day3-room"
+    },
+    {
+      "name_zh": "骑士团入团测验",
+      "day_offset": 4,
+      "event_id": "knight-squadron-test",
+      "cause": "Lisha wants Lux's defensive power as her partner; academy needs more combat strength.",
+      "summary": "Lisha tries to rush Lux into the Knight Squadron via a two-against-many mock battle. Lux refuses to attack but they still win; he is denied admission by vote.",
+      "volume": "vol-01",
+      "participants": [
+        "lux-arcadia",
+        "lisha-atismata",
+        "philuffy-aingram",
+        "krulcifer-einfolk",
+        "sharis-baltshift",
+        "tillfur-lilmit",
+        "noct-leaflet",
+        "celistia-ralgris"
+      ],
+      "location": "drag-ride-training-ground",
+      "name_en": "Knight Squadron Admission Test",
+      "outcome": "Lux denied admission because he never attacks; Lisha takes him on an outing afterward.",
+      "type": "ceremony / battle",
+      "id": "vol01-day4-knight-test"
+    },
+    {
+      "name_zh": "莉夏街上约会与身世告白",
+      "day_offset": 4,
+      "event_id": "lisha-date-and-confession",
+      "cause": "Lisha wants Lux as her partner; she seeks to understand what a princess should be.",
+      "summary": "Lisha takes Lux into Crossfield, shares apple pie with him, and confides she was abandoned as an imperial hostage and branded before becoming princess.",
+      "volume": "vol-01",
+      "participants": [
+        "lux-arcadia",
+        "lisha-atismata"
+      ],
+      "location": "crossfield-city",
+      "name_en": "Lisha Outing and Origin Confession",
+      "outcome": "Lux understands Lisha's insecurity; later regrets telling her lightly to act like a princess.",
+      "type": "revelation",
+      "id": "vol01-day4-date"
+    },
+    {
+      "name_zh": "阿卡迪亚王城陷落",
+      "day_offset": "flashback_5y_prior",
+      "event_id": "fall-of-arcadia-castle",
+      "cause": "Anti-imperial revolt, Lux's reformist coup plan, and Fugil's hidden manipulation.",
+      "summary": "Arcadia imperial capital burns during the coup. Young Lisha watches Drag-Rides fall from the sky, receives a Sword Device from Fugil, and escapes while the Black Hero destroys imperial forces.",
+      "volume": "vol-01",
+      "participants": [
+        "lux-arcadia",
+        "lisha-atismata",
+        "fugil-arcadia",
+        "arcadia-emperor"
+      ],
+      "location": "arcadia-imperial-castle",
+      "name_en": "Fall of Arcadia Castle",
+      "outcome": "The old empire collapses; Lisha survives; the Black Hero legend begins.",
+      "type": "battle / disaster",
+      "id": "vol01-flashback-castle"
+    },
+    {
+      "name_zh": "弗基尔背叛路克斯",
+      "day_offset": "flashback_coup_night",
+      "event_id": "fugil-betrays-lux",
+      "cause": "Lux's idealistic coup plan is exploited by Fugil, who pursues a different unknown goal.",
+      "summary": "Fugil reveals he used Lux's coup plan, summoned Abyss with the flute, killed imperial survivors Lux had spared, and was never truly the imperial prince Lux believed him to be.",
+      "volume": "vol-01",
+      "participants": [
+        "lux-arcadia",
+        "fugil-arcadia",
+        "arcadia-emperor"
+      ],
+      "location": "arcadia-imperial-castle",
+      "name_en": "Fugil Betrays Lux",
+      "outcome": "Lux collapses near death; the empire falls as a massacre; Lux's guilt and pursuit of Fugil drive his hidden identity.",
+      "type": "revelation",
+      "id": "vol01-flashback-fugil-betrayal"
+    },
+    {
+      "name_zh": "大型幻神兽袭击克罗斯菲德",
+      "day_offset": 5,
+      "event_id": "large-abyss-attack",
+      "cause": "Belbet uses the flute and the Abyss as part of an imperial remnant trap.",
+      "summary": "A huge slime-like Abyss breaches the defenses between the southwestern ruins and Crossfield, forcing the Knight Squadron to sortie.",
+      "volume": "vol-01",
+      "participants": [
+        "lisha-atismata",
+        "krulcifer-einfolk",
+        "sharis-baltshift",
+        "tillfur-lilmit",
+        "noct-leaflet",
+        "belbet-balt",
+        "lux-arcadia",
+        "philuffy-aingram"
+      ],
+      "location": "crossfield-southwest-wasteland",
+      "name_en": "Large Abyss Attack on Crossfield",
+      "outcome": "Knight Squadron weakened and exposed to Belbet's betrayal.",
+      "type": "battle / disaster",
+      "id": "vol01-crisis-abyss"
+    },
+    {
+      "name_zh": "别贝特叛变",
+      "day_offset": 5,
+      "event_id": "belbet-betrayal",
+      "cause": "Old empire remnants use the Abyss emergency as a trap to capture Lisha and threaten the New Kingdom.",
+      "summary": "Belbet reveals he is an old Arcadia imperial guard commander, attacks Lisha, and uses the golden flute to hatch Gargoyle Abyss from the large Abyss body.",
+      "volume": "vol-01",
+      "participants": [
+        "belbet-balt",
+        "lisha-atismata",
+        "krulcifer-einfolk",
+        "sharis-baltshift",
+        "tillfur-lilmit",
+        "noct-leaflet"
+      ],
+      "location": "crossfield-southwest-wasteland",
+      "name_en": "Belbet's Betrayal",
+      "outcome": "Lisha switches to Tiamat for a last stand; Lux is about to arrive.",
+      "type": "conspiracy / battle",
+      "id": "vol01-crisis-belbet"
+    },
+    {
+      "name_zh": "路克斯以巴哈姆特救援",
+      "day_offset": 5,
+      "event_id": "lux-bahamut-rescue",
+      "cause": "Belbet is about to kill or capture Lisha; ordinary academy forces cannot overcome the Abyss and remnant army.",
+      "summary": "Lux shields Lisha with his Wyvern, then reveals Bahamut and his identity as the Black Hero to defeat Belbet, the imperial remnant Drag-Knights, and remaining Gargoyles.",
+      "volume": "vol-01",
+      "participants": [
+        "lux-arcadia",
+        "lisha-atismata",
+        "airi-arcadia",
+        "noct-leaflet",
+        "krulcifer-einfolk",
+        "belbet-balt"
+      ],
+      "location": "crossfield-southwest-wasteland",
+      "name_en": "Lux's Bahamut Rescue",
+      "outcome": "Belbet's army defeated; Lisha survives; Lux collapses from Bahamut overuse; Black Hero secret partially exposed.",
+      "type": "battle / revelation",
+      "id": "vol01-climax-bahamut"
+    },
+    {
+      "name_zh": "路克斯正式入学",
+      "day_offset": 6,
+      "event_id": "formal-admission",
+      "cause": "Lux saved Lisha, the academy, Crossfield, and the New Kingdom from Belbet's attack.",
+      "summary": "Lux learns he is formally accepted as the academy's first male student and chore prince. Lisha issues a royal order recognizing his power and justice.",
+      "volume": "vol-01",
+      "participants": [
+        "lux-arcadia",
+        "lisha-atismata",
+        "relie-aingram",
+        "airi-arcadia",
+        "philuffy-aingram",
+        "krulcifer-einfolk"
+      ],
+      "location": "Royal Officer Academy",
+      "name_en": "Lux's Formal Admission",
+      "outcome": "Lux accepts the order; Bahamut transferred to Lisha's workshop; Lux gains a place to belong.",
+      "type": "ceremony",
+      "id": "vol01-resolution-admission"
+    },
+    {
+      "name_zh": "路克斯争夺战",
+      "day_offset": "vol02-may-day1",
+      "event_id": "event-lux-scramble",
+      "cause": "Student chore requests have piled up and students are unhappy that Lux is monopolized by a few.",
+      "summary": "Relie holds a one-hour scramble where female students chase Lux (carrying a red request ticket) to earn his chore-service priority.",
+      "volume": "vol-02",
+      "participants": [
+        "lux-arcadia",
+        "krulcifer-einfolk",
+        "lisha-atismata",
+        "philuffy-aingram",
+        "relie-aingram"
+      ],
+      "location": "Royal Officer Academy",
+      "name_en": "Lux Scramble",
+      "outcome": "Krulcifer wins by using a false clock and psychological manipulation, earning one week of priority requests.",
+      "type": "incident",
+      "id": "vol02-scramble"
+    },
+    {
+      "name_zh": "假情人契约",
+      "day_offset": "vol02-may-week1",
+      "event_id": "event-lover-contract",
+      "cause": "The Einfolk family requires Krulcifer to find a noble marriage partner in the New Kingdom.",
+      "summary": "Krulcifer demands Lux pose as her lover for one week to deal with an Einfolk family marriage envoy.",
+      "volume": "vol-02",
+      "participants": [
+        "lux-arcadia",
+        "krulcifer-einfolk",
+        "airi-arcadia",
+        "noct-leaflet",
+        "lisha-atismata"
+      ],
+      "location": "Royal Officer Academy",
+      "name_en": "Fake Lover Contract",
+      "outcome": "Lux agrees; they eat, train, and date together for a week; rumors spread; Lisha and others become jealous.",
+      "type": "milestone",
+      "id": "vol02-lover-contract"
+    },
+    {
+      "name_zh": "王都临时教官事件",
+      "day_offset": "vol02-may-week1",
+      "event_id": "event-temporary-instructors",
+      "cause": "Celistia humiliated the male knights in a prior exercise, making them retaliate against academy girls.",
+      "summary": "Three male Drag-Knights from the capital bully female students as temporary instructors. Lux intervenes and defeats them in a mock battle; Krulcifer finishes off those who threaten the audience.",
+      "volume": "vol-02",
+      "participants": [
+        "lux-arcadia",
+        "krulcifer-einfolk",
+        "raigree-balheart",
+        "lisha-atismata",
+        "tillfur-lilmit"
+      ],
+      "location": "Academy training ground",
+      "name_en": "Temporary Instructor Incident",
+      "outcome": "Three instructors expelled; Lux's opposition among third-years decreases; Krulcifer displays her power.",
+      "type": "battle",
+      "id": "vol02-instructors"
+    },
+    {
+      "name_zh": "妹妹艾丽的哥哥观察日记",
+      "day_offset": "vol02-side",
+      "event_id": "event-airi-observation-diary",
+      "cause": "Rumors spread that Lux has a romantic interest, worrying Airi about his relationships.",
+      "summary": "Airi hears rumors that Lux has a crush, secretly observes his interactions with Philuffy, Lisha, Krulcifer, and the Triad.",
+      "volume": "vol-02",
+      "participants": [
+        "airi-arcadia",
+        "lux-arcadia",
+        "philuffy-aingram",
+        "lisha-atismata",
+        "krulcifer-einfolk"
+      ],
+      "location": "Academy and girls' dormitory",
+      "name_en": "Airi's Brother Observation Diary",
+      "outcome": "Airi confirms her brother is kind but dangerous in terms of female attention; she decides to keep observing.",
+      "type": "side story",
+      "id": "vol02-airi-diary"
+    },
+    {
+      "name_zh": "角笛移交",
+      "day_offset": "vol02-night-before-boxgarden",
+      "event_id": "event-horn-transfer",
+      "cause": "The horn flute can summon or control Abyss, possibly linked to ruin keys or Fugil.",
+      "summary": "Relie and Airi show Lux the golden horn flute taken from Belbet and instruct him to carry it on the upcoming ruin investigation.",
+      "volume": "vol-02",
+      "participants": [
+        "lux-arcadia",
+        "airi-arcadia",
+        "relie-aingram"
+      ],
+      "location": "Library underground research room",
+      "name_en": "Horn Flute Transfer",
+      "outcome": "Lux takes the horn; is allowed to join the Knight Squadron on the Box Garden mission.",
+      "type": "revelation",
+      "id": "vol02-horn"
+    },
+    {
+      "name_zh": "保泽里多婚约挑战",
+      "day_offset": "vol02-hotel-night",
+      "event_id": "event-balzeride-marriage-challenge",
+      "cause": "The Einfolk family demands Krulcifer marry a New Kingdom noble; Eltilise arranges the four-great-noble heir.",
+      "summary": "Eltilise brings Balzeride as Krulcifer's marriage candidate. Balzeride insults Lux and proposes a 2v2 Drag-Ride duel.",
+      "volume": "vol-02",
+      "participants": [
+        "lux-arcadia",
+        "krulcifer-einfolk",
+        "balzeride-kreutzer",
+        "eltilise-meikleia",
+        "lisha-atismata"
+      ],
+      "location": "Fortress city hotel",
+      "name_en": "Balzeride Marriage Challenge",
+      "outcome": "A duel is set for three days later: Krulcifer & Lux vs Balzeride & Eltilise.",
+      "type": "conspiracy",
+      "id": "vol02-marriage-challenge"
+    },
+    {
+      "name_zh": "终焉神兽危机会议",
+      "day_offset": "vol02-hotel-night",
+      "event_id": "event-royal-council-terminal-beast",
+      "cause": "The old empire once released Terminal Beasts causing disasters; Heiburg has obtained evidence and demands subjugation.",
+      "summary": "Queen Raffy, the prime minister, army deputy commander, and the four great nobles discuss Heiburg Republic's demand that the New Kingdom subjugate the Terminal Beast.",
+      "volume": "vol-02",
+      "participants": [
+        "raffy-atismata",
+        "wag-kreutzer",
+        "four-great-nobles"
+      ],
+      "location": "Royal capital council chamber",
+      "name_en": "Terminal Abyss Council",
+      "outcome": "Wag Kreutzer offers Balzeride and Azi Dahaka as assets, demanding general rank and military authority in return. Balzeride becomes politically untouchable.",
+      "type": "revelation / conspiracy",
+      "id": "vol02-council"
+    },
+    {
+      "name_zh": "富裕街区盗贼袭击",
+      "day_offset": "vol02-after-school",
+      "event_id": "event-bandit-attack",
+      "cause": "Balzeride arranged bandits to test Krulcifer and Fafnir, and to create a kidnapping opportunity.",
+      "summary": "During a shopping date, Lux and Krulcifer are ambushed by five custom Drag-Rides. Lisha and Philuffy intervene; Philuffy crushes enemies with Typhon. Eltilise appears.",
+      "volume": "vol-02",
+      "participants": [
+        "lux-arcadia",
+        "krulcifer-einfolk",
+        "lisha-atismata",
+        "philuffy-aingram",
+        "eltilise-meikleia"
+      ],
+      "location": "Wealthy commercial district, Crossfield",
+      "name_en": "Wealthy District Bandit Attack",
+      "outcome": "Bandits captured; Eltilise meets the group and the hotel confrontation ensues.",
+      "type": "battle / conspiracy",
+      "id": "vol02-bandit-attack"
+    },
+    {
+      "name_zh": "第六遗迹箱庭调查任务",
+      "day_offset": "vol02-boxgarden-day1",
+      "event_id": "event-box-garden-mission",
+      "cause": "New Kingdom pushes ruin investigation; Relie also gives Lux the horn flute.",
+      "summary": "Knight Squadron enters the Box Garden to subjugate a Gigant and investigate. Krulcifer and Balzeride unexpectedly join. Diabolos appears, Balzeride kills it with Azi Dahaka, and the self-destruct sucks everyone into the ruin.",
+      "volume": "vol-02",
+      "participants": [
+        "lux-arcadia",
+        "krulcifer-einfolk",
+        "lisha-atismata",
+        "noct-leaflet",
+        "sharis-balshift",
+        "tillfur-lilmit",
+        "balzeride-kreutzer"
+      ],
+      "location": "Sixth Ruin Box Garden exterior and interior",
+      "name_en": "Sixth Ruin Box Garden Mission",
+      "outcome": "Lux and Krulcifer are pulled into the ruin interior; Lux's Wyvern severely damaged.",
+      "type": "battle / incident",
+      "id": "vol02-box-garden-mission"
+    },
+    {
+      "name_zh": "箱庭钥匙认证与身世告白",
+      "day_offset": "vol02-boxgarden-day2",
+      "event_id": "event-box-garden-revelation",
+      "cause": "Krulcifer insisted on joining the ruin investigation to confirm if she belongs to the ruins.",
+      "summary": "Krulcifer is recognized as a 'Key' by the ruin altar, opens sealed doors and boxes, and confesses to Lux that she was discovered as a ruin survivor in the Fourth Ruin.",
+      "volume": "vol-02",
+      "participants": [
+        "lux-arcadia",
+        "krulcifer-einfolk",
+        "lisha-atismata",
+        "sharis-balshift",
+        "noct-leaflet",
+        "tillfur-lilmit"
+      ],
+      "location": "Box Garden altar and inner management room",
+      "name_en": "Box Garden Key Authentication and Confession",
+      "outcome": "Lux comforts Krulcifer (calling her friend and lover); the ceiling collapses; Lisha and the Triad rescue them.",
+      "type": "revelation",
+      "id": "vol02-box-garden-revelation"
+    },
+    {
+      "name_zh": "箱庭内部救援",
+      "day_offset": "vol02-boxgarden-day2",
+      "event_id": "event-box-garden-rescue",
+      "cause": "The altar interior collapses, trapping Lux and Krulcifer.",
+      "summary": "Lisha and the Triad use custom Drag-Rides to detect, drill through rubble, and rescue Lux and the injured Krulcifer before the doors close.",
+      "volume": "vol-02",
+      "participants": [
+        "lux-arcadia",
+        "krulcifer-einfolk",
+        "lisha-atismata",
+        "sharis-balshift",
+        "noct-leaflet",
+        "tillfur-lilmit"
+      ],
+      "location": "Box Garden altar interior",
+      "name_en": "Box Garden Interior Rescue",
+      "outcome": "Everyone escapes the Box Garden; Lux and Krulcifer receive medical treatment.",
+      "type": "rescue",
+      "id": "vol02-box-garden-rescue"
+    },
+    {
+      "name_zh": "保泽里多与黑袍男子交易",
+      "day_offset": "vol02-boxgarden-post",
+      "event_id": "event-balzeride-conspiracy-meeting",
+      "cause": "The merchant needs Krulcifer's key ability; Balzeride craves power and ruin treasure.",
+      "summary": "The black-robed merchant tells Balzeride that Krulcifer is the key to opening the ruin's deep layers, and sells Azi Dahaka and Black Hero intel.",
+      "volume": "vol-02",
+      "participants": [
+        "balzeride-kreutzer",
+        "black-robed-merchant"
+      ],
+      "location": "Balzeride's mansion, Crossfield wealthy district",
+      "name_en": "Balzeride and Black-Robed Merchant Meeting",
+      "outcome": "Balzeride resolves to thoroughly defeat Krulcifer in the duel and control her as a tool.",
+      "type": "conspiracy",
+      "id": "vol02-balzeride-merchant"
+    },
+    {
+      "name_zh": "黑色英雄情报交易提案",
+      "day_offset": "vol02-boxgarden-post",
+      "event_id": "event-black-hero-info-sale",
+      "cause": "Balzeride is about to duel Lux and Krulcifer; the merchant possesses old-empire intel.",
+      "summary": "The black-robed merchant offers to sell Balzeride the true identity of the Black Hero and information about using Divine Drag-Rides.",
+      "volume": "vol-02",
+      "participants": [
+        "balzeride-kreutzer",
+        "black-robed-merchant"
+      ],
+      "location": "Balzeride's mansion",
+      "name_en": "Black Hero Information Sale",
+      "outcome": "Balzeride learns Lux is the Black Hero, and uses this knowledge to taunt him during the church ruins duel.",
+      "type": "conspiracy",
+      "id": "vol02-black-hero-info"
+    },
+    {
+      "name_zh": "巴哈姆特功率分析与调整",
+      "day_offset": "vol02-boxgarden-post",
+      "event_id": "event-bahamut-preparation",
+      "cause": "Bahamut is a unique Divine Drag-Ride with no tuning baseline; Lux may need it again.",
+      "summary": "Lisha, Airi, and Noct analyze Bahamut's combat data and Lisha tunes it to operate more efficiently.",
+      "volume": "vol-02",
+      "participants": [
+        "lux-arcadia",
+        "lisha-atismata",
+        "airi-arcadia",
+        "noct-leaflet"
+      ],
+      "location": "Drag-Ride workshop",
+      "name_en": "Bahamut Output Analysis and Tuning",
+      "outcome": "Bahamut becomes easier to pilot in combat, setting the technical stage for the church ruins duel.",
+      "type": "milestone",
+      "id": "vol02-bahamut-prep"
+    },
+    {
+      "name_zh": "女仆慰劳午餐",
+      "day_offset": "vol02-boxgarden-post",
+      "event_id": "event-maid-lunch",
+      "cause": "Lisha wants to know what Lux likes; Tillfur suggests serving him as a maid.",
+      "summary": "Tillfur, Lisha, and Philuffy dress as maids and prepare lunch and snacks for the exhausted Lux.",
+      "volume": "vol-02",
+      "participants": [
+        "lux-arcadia",
+        "lisha-atismata",
+        "philuffy-aingram",
+        "tillfur-lilmit"
+      ],
+      "location": "Academy reception room",
+      "name_en": "Maid Lunch Comfort Event",
+      "outcome": "Lux relaxes; bonds with Lisha, Philuffy, and Tillfur strengthen.",
+      "type": "incident",
+      "id": "vol02-maid-lunch"
+    },
+    {
+      "name_zh": "路克斯母亲葬礼与弗基尔引导",
+      "day_offset": "flashback_7y_prior",
+      "event_id": "event-lux-mother-funeral",
+      "cause": "Lux's mother died in an accident; Lux still wanted to change the empire as a royal.",
+      "summary": "Lux recalls his mother's funeral where no royals attended. Fugil approaches him at the graveyard, offering to teach him tactics, governance, and Drag-Ride operation.",
+      "volume": "vol-02",
+      "participants": [
+        "lux-arcadia",
+        "fugil-arcadia"
+      ],
+      "location": "Old Empire church and Drag-Ride training grounds",
+      "name_en": "Lux's Mother's Funeral and Fugil's Guidance",
+      "outcome": "Lux began his path of martial training that eventually made him the Black Hero.",
+      "type": "revelation",
+      "id": "vol02-flashback-mother"
+    },
+    {
+      "name_zh": "教会遗址决斗",
+      "day_offset": "vol02-duel-night",
+      "event_id": "event-church-ruins-duel",
+      "cause": "Balzeride wants to subjugate Krulcifer as a ruin-key tool under the guise of marriage.",
+      "summary": "Krulcifer fights alone. Balzeride uses Azi Dahaka's power-copying to overwhelm her. Lux arrives with Bahamut, uses Over Limit to break the absolute barrier. Sidekicks suppress Balzeride's private troops.",
+      "volume": "vol-02",
+      "participants": [
+        "lux-arcadia",
+        "krulcifer-einfolk",
+        "balzeride-kreutzer",
+        "eltilise-meikleia",
+        "lisha-atismata",
+        "philuffy-aingram",
+        "sharis-balshift",
+        "noct-leaflet",
+        "tillfur-lilmit"
+      ],
+      "location": "Church ruins outside District 3, Crossfield",
+      "name_en": "Church Ruins Duel",
+      "outcome": "Balzeride defeated and arrested; Azi Dahaka shattered; Krulcifer's marriage crisis resolved; Lux's Black Hero identity kept secret by Queen Raffy.",
+      "type": "battle / conspiracy",
+      "id": "vol02-church-duel"
+    },
+    {
+      "name_zh": "艾露堤莉泽道歉与新婚约误会",
+      "day_offset": "vol02-epilogue",
+      "event_id": "event-eltilise-apology",
+      "cause": "The church ruins duel exposed Balzeride's conspiracy; the original marriage mission failed.",
+      "summary": "Eltilise apologizes for failing to see through Balzeride's scheme, and now recommends Lux as a marriage candidate to the Einfolk family. Krulcifer kisses Lux as thanks.",
+      "volume": "vol-02",
+      "participants": [
+        "lux-arcadia",
+        "krulcifer-einfolk",
+        "eltilise-meikleia",
+        "lisha-atismata"
+      ],
+      "location": "High-end restaurant, commercial district",
+      "name_en": "Eltilise Apology and New Engagement Misunderstanding",
+      "outcome": "Krulcifer and Eltilise reconcile; Lux gets entangled in a new engagement misunderstanding; Lisha witnesses the kiss.",
+      "type": "ceremony",
+      "id": "vol02-epilogue"
+    },
+    {
+      "name_zh": "弗基尔的勇者论",
+      "day_offset": "vol03-prologue",
+      "event_id": "fugil-hero-doctrine",
+      "cause": "Mishis questions the risk of handing Divine Drag-Rides to future enemies.",
+      "summary": "Fugil explains to Mishis his strategy of distributing Divine Drag-Rides to nations — by giving the people weapons, ruins, and Abyss enemies, they will voluntarily become heroes and open the ruins.",
+      "volume": "vol-03",
+      "participants": [
+        "fugil-arcadia",
+        "mishis-v-xfer"
+      ],
+      "location": "mechanical-observation-room",
+      "name_en": "Fugil's Hero Doctrine",
+      "outcome": "Mishis is ordered to contact the Third Princess; Fugil's ruin-opening scheme continues.",
+      "type": "revelation",
+      "id": "vol03-prelude-fugil"
+    },
+    {
+      "name_zh": "海布格特务潜伏学园外",
+      "day_offset": "vol03-ep1-night",
+      "event_id": "heiburg-agents-lurk-outside-academy",
+      "cause": "Heiburg spies attempt to breach academy security and find a target item.",
+      "summary": "Sania, Ignid, and Kirihime confirm that Celistia's return has changed their plan, but they continue lurking per the black-robed merchant's instructions.",
+      "volume": "vol-03",
+      "participants": [
+        "sania-lemiste",
+        "ignid",
+        "kirihime"
+      ],
+      "location": "Fortress city back alley",
+      "name_en": "Heiburg Agents Lurk Outside the Academy",
+      "outcome": "Infiltration continues; Sania advances anti-Lux sentiment and traps inside the academy.",
+      "type": "conspiracy",
+      "id": "vol03-heiburg-lurk"
+    },
+    {
+      "name_zh": "路克斯女装巡逻",
+      "day_offset": "vol03-ep1-night",
+      "event_id": "lux-crossdress-patrol",
+      "cause": "Rumors of peeping and kidnapping near the academy; the Triad wants to strengthen night security.",
+      "summary": "The Triad dresses Lux as a female student (wig and uniform) as a decoy for night patrol against suspicious men around the girls' dormitory.",
+      "volume": "vol-03",
+      "participants": [
+        "lux-arcadia",
+        "sharis-baltshift",
+        "tillfur-lilmit",
+        "noct-leaflet"
+      ],
+      "location": "Royal Officer Academy",
+      "name_en": "Lux's Crossdress Patrol",
+      "outcome": "Lux, as 'Luna', encounters Celistia and gets entangled in a chase with a suspicious man.",
+      "type": "incident",
+      "id": "vol03-crossdress"
+    },
+    {
+      "name_zh": "露娜邂逅赛莉丝",
+      "day_offset": "vol03-ep1-night",
+      "event_id": "lux-meets-celistia-as-luna",
+      "cause": "Lux tracks a suspicious figure inside the academy and is taken hostage at knifepoint.",
+      "summary": "Lux (as Luna) is accosted by an intruder. Celistia summons Lindworm, saves him, and is charmed. Lux gets cut protecting her; Celistia bandages him in the infirmary.",
+      "volume": "vol-03",
+      "participants": [
+        "lux-arcadia",
+        "celistia-ralgris"
+      ],
+      "location": "Academy library and infirmary",
+      "name_en": "Luna Meets Celistia",
+      "outcome": "Lux invents the name 'Luna'; Celistia likes her and invites her to chat again later.",
+      "type": "milestone",
+      "id": "vol03-luna-meets-celis"
+    },
+    {
+      "name_zh": "爱理警告黑市商人动向",
+      "day_offset": "vol03-ep2-night",
+      "event_id": "airi-warns-lux-black-market",
+      "cause": "The headmistress shared classified intel with Airi; she worries Lux will be drawn into danger.",
+      "summary": "Airi tells Lux that Balzeride and Belbet were both killed in prison by Abyss attacks, and that the black market merchant may be connected to Heiburg's arms expansion and possibly Fugil.",
+      "volume": "vol-03",
+      "participants": [
+        "airi-arcadia",
+        "lux-arcadia"
+      ],
+      "location": "Airi and Noct's room",
+      "name_en": "Airi Warns Lux about the Black Market Merchant",
+      "outcome": "Lux realizes staying at the academy may bring Fugil-related danger to it, but decides to remain and face Celistia and the Terminal Beast issue.",
+      "type": "revelation",
+      "id": "vol03-airi-warns"
+    },
+    {
+      "name_zh": "海兹杀害保泽里多",
+      "day_offset": "vol03-ep2-night",
+      "event_id": "balzeride-murdered-by-hayes",
+      "cause": "Balzeride lost power and broke Azi Dahaka; Hayes sees him as a useless pawn.",
+      "summary": "Hayes (in a black robe) infiltrates the prison, mocks Balzeride, and kills him from the inside with parasite-like red-black horns before blowing the horn flute.",
+      "volume": "vol-03",
+      "participants": [
+        "hayes",
+        "balzeride-kreutzer"
+      ],
+      "location": "capital-prison",
+      "name_en": "Hayes Murders Balzeride",
+      "outcome": "Balzeride dead; an Abyss attack occurs at the prison. Airi reports this to Lux.",
+      "type": "conspiracy",
+      "id": "vol03-balzeride-murder"
+    },
+    {
+      "name_zh": "桑妮雅陷害与露娜约会约定",
+      "day_offset": "vol03-ep2-night",
+      "event_id": "sonia-trap-massage-luna-date",
+      "cause": "Sania stirs third-year anti-Lux sentiment and seeks a handle to enrage Celistia.",
+      "summary": "Sania tricks Lux into entering Celistia's room right after her bath, hoping to trigger a scandal. Lux crossdresses as Luna to escape, but Celistia sets a rest-day date with her.",
+      "volume": "vol-03",
+      "participants": [
+        "lux-arcadia",
+        "celistia-ralgris",
+        "sania-lemiste",
+        "krulcifer-einfolk"
+      ],
+      "location": "Girls' dormitory",
+      "name_en": "Sania's Trap and Luna Date Promise",
+      "outcome": "The trap fails to expose Lux immediately, but Luna's date obligation and identity crisis deepen.",
+      "type": "conspiracy",
+      "id": "vol03-sania-trap"
+    },
+    {
+      "name_zh": "路克斯去留裁决被纳入校内选拔战",
+      "day_offset": "vol03-ep2-afternoon",
+      "event_id": "expulsion-selection-battle-set",
+      "cause": "Celistia believes men shouldn't attend a women's academy; Lux insists he must help subjugate the Terminal Beast.",
+      "summary": "Celistia demands Lux's expulsion; Lux counters by asking to join the Terminal Beast subjugation force. Relie proposes settling it through the upcoming selection battles.",
+      "volume": "vol-03",
+      "participants": [
+        "lux-arcadia",
+        "celistia-ralgris",
+        "lisesharte-atismata",
+        "relie-aingram"
+      ],
+      "location": "headmaster-office",
+      "name_en": "Lux's Expulsion Dispute Becomes Selection Battle",
+      "outcome": "The academy splits into factions (1st/2nd-years support Lux; 3rd-years support Celistia); the selection battle becomes the decider.",
+      "type": "ceremony",
+      "id": "vol03-expulsion-set"
+    },
+    {
+      "name_zh": "校内选拔战开始",
+      "day_offset": "vol03-ep3-morning",
+      "event_id": "selection-battle-begins",
+      "cause": "Foreign rivalry representative selection and Lux's expulsion dispute are combined.",
+      "summary": "Instructor Raigree announces the five-day selection battle: Lux faction vs Celistia faction, with normal student matches and Knight Squadron team matches determining the outcome and foreign rivalry representatives.",
+      "volume": "vol-03",
+      "participants": [
+        "raigree-instructor",
+        "lux-arcadia",
+        "lisesharte-atismata",
+        "celistia-ralgris",
+        "sania-lemiste"
+      ],
+      "location": "Royal Officer Academy",
+      "name_en": "Selection Battle Begins",
+      "outcome": "Selection battle officially opens; Lisha and Krulcifer prepare to face Celistia and Sania.",
+      "type": "ceremony",
+      "id": "vol03-selection-start"
+    },
+    {
+      "name_zh": "赛莉丝对莉夏与库露露席法",
+      "day_offset": "vol03-ep3-day1",
+      "event_id": "celis-vs-lisha-krulcifer",
+      "cause": "Knight Squadron partner match in the selection battle.",
+      "summary": "Lisha and Krulcifer challenge Celistia and Sania in a 2v2. Celistia overwhelmingly wins with Lindworm's Thunder God Strike and Starlight Burst.",
+      "volume": "vol-03",
+      "participants": [
+        "celistia-ralgris",
+        "sania-lemiste",
+        "lisesharte-atismata",
+        "krulcifer-einfolk"
+      ],
+      "location": "practice-arena",
+      "name_en": "Celistia vs Lisha and Krulcifer",
+      "outcome": "Celistia/Sania win; Lisha and Krulcifer injured but fight to their limits. Lux observes key tactical data.",
+      "type": "battle",
+      "id": "vol03-celis-vs-lisha-krulcifer"
+    },
+    {
+      "name_zh": "路克斯以极击击败桑妮雅",
+      "day_offset": "vol03-ep4-day2",
+      "event_id": "lux-defeats-sania-extreme-strike",
+      "cause": "Lux needs a solo win to reverse the 1st/2nd-year disadvantage; Sania believes he can't score offensively.",
+      "summary": "Lux uses Lisha's modified barrier-fang sword and Extreme Strike tactics to systematically destroy Sania's armaments, forcing her surrender.",
+      "volume": "vol-03",
+      "participants": [
+        "lux-arcadia",
+        "sania-lemiste"
+      ],
+      "location": "practice-arena",
+      "name_en": "Lux Defeats Sania with Extreme Strike",
+      "outcome": "Sania surrenders; Lux wins; 1st/2nd-year morale rises; Celistia sees this as Lux's declaration of war.",
+      "type": "battle",
+      "id": "vol03-lux-defeats-sania"
+    },
+    {
+      "name_zh": "露娜约会与奇美拉袭击",
+      "day_offset": "vol03-ep4-rest-day",
+      "event_id": "luna-date-chimera-attack",
+      "cause": "Lux can't stand Celistia up; Hayes's horn and parasite experiments trigger the Abyss attack.",
+      "summary": "Lux (as Luna) takes Celistia on an outing. Celistia reveals she doesn't actually dislike men. A parasite-enhanced Chimera attacks the plaza; Celistia and Lux jointly destroy it.",
+      "volume": "vol-03",
+      "participants": [
+        "lux-arcadia",
+        "celistia-ralgris"
+      ],
+      "location": "Fortress city and secret garden",
+      "name_en": "Luna Date and Chimera Attack",
+      "outcome": "Lux learns Celistia's real personality and her guilt about Wade; he resolves to confess his Luna identity after the selection battle.",
+      "type": "incident / battle",
+      "id": "vol03-luna-date"
+    },
+    {
+      "name_zh": "路克斯与菲尔菲对赛莉丝与谢里丝",
+      "day_offset": "vol03-ep5-final-day",
+      "event_id": "final-selection-duel",
+      "cause": "The selection battle score is close; this Knight Squadron partner match decides Lux's future.",
+      "summary": "The final selection match: Lux & Philuffy vs Celistia & Sharis. Philuffy pushes Celistia hard with Typhon; Sharis and Philuffy both retire. Lux and Celistia are about to go 1v1 when Poseidon erupts.",
+      "volume": "vol-03",
+      "participants": [
+        "lux-arcadia",
+        "philuffy-aingram",
+        "celistia-ralgris",
+        "sharis-baltshift"
+      ],
+      "location": "practice-arena",
+      "name_en": "Final Selection Duel — Lux & Philuffy vs Celistia & Sharis",
+      "outcome": "Match interrupted by Poseidon and Heiburg assault; combat turns into a real disaster.",
+      "type": "battle",
+      "id": "vol03-final-duel"
+    },
+    {
+      "name_zh": "新王国军发现波赛顿伪装脱壳",
+      "day_offset": "vol03-ep5-final-day",
+      "event_id": "poseidon-decoy-discovered",
+      "cause": "A Heiburg letter lured the New Kingdom to investigate Terminal Beast activity.",
+      "summary": "The New Kingdom deploys ~300 Drag-Knights to monitor what they think is the Terminal Beast, but the shell collapses empty — Poseidon has already moved away.",
+      "volume": "vol-03",
+      "participants": [
+        "atismata-new-kingdom-army"
+      ],
+      "location": "Ridnes Sea",
+      "name_en": "New Kingdom Army Discovers Poseidon's Decoy",
+      "outcome": "New Kingdom main forces are diverted; the academy and capital defenses are left exposed.",
+      "type": "disaster",
+      "id": "vol03-poseidon-decoy"
+    },
+    {
+      "name_zh": "波赛顿与海布格部队袭击学园",
+      "day_offset": "vol03-ep5-final-day",
+      "event_id": "poseidon-academy-assault",
+      "cause": "Hayes used Poseidon as a decoy to draw away the New Kingdom army, then struck the academy during the selection battle when students were gathered.",
+      "summary": "The Terminal Beast Poseidon bursts from beneath the practice arena; Heiburg mercenaries and Sania simultaneously attack the school building and girls' dormitory.",
+      "volume": "vol-03",
+      "participants": [
+        "lux-arcadia",
+        "celistia-ralgris",
+        "lisesharte-atismata",
+        "krulcifer-einfolk",
+        "sania-lemiste",
+        "hayes"
+      ],
+      "location": "Royal Officer Academy",
+      "name_en": "Poseidon and Heiburg Forces Assault the Academy",
+      "outcome": "Academy severely damaged; students mostly lightly injured; Lux must deploy Bahamut publicly.",
+      "type": "disaster / battle / conspiracy",
+      "id": "vol03-poseidon-assault"
+    },
+    {
+      "name_zh": "桑妮雅间谍身份暴露",
+      "day_offset": "vol03-ep5-final-day",
+      "event_id": "sania-infiltration-revealed",
+      "cause": "Airi tracked Sania's suspicious movements and gathered evidence.",
+      "summary": "Airi, Tillfur, and Noct catch Sania in the library restricted zone with a secret letter to Heiburg, exposing her as a spy. Sania activates a B-blood Wyvern and fights back.",
+      "volume": "vol-03",
+      "participants": [
+        "airi-arcadia",
+        "tillfur-lilmit",
+        "noct-leaflet",
+        "sania-lemiste"
+      ],
+      "location": "academy-library",
+      "name_en": "Sania's Infiltration Is Revealed",
+      "outcome": "Sania defeats the three and moves to the main assault field.",
+      "type": "revelation / battle",
+      "id": "vol03-sania-exposed"
+    },
+    {
+      "name_zh": "菲尔菲徒手击杀佣兵",
+      "day_offset": "vol03-ep5-final-day",
+      "event_id": "philuffy-kills-mercenaries",
+      "cause": "Mercenaries try to capture and kill female students; Philuffy asks if they'll be killed, then enters an anomalous state.",
+      "summary": "Exhausted and without a Drag-Ride, Philuffy awakens abnormal strength — her eyes darken, pupils turn gold, and she punches through Drag-Ride armor with her bare fists, killing the Heiburg mercenaries.",
+      "volume": "vol-03",
+      "participants": [
+        "philuffy-aingram",
+        "sharis-baltshift",
+        "heiburg-mercenaries"
+      ],
+      "location": "academy-pathway",
+      "name_en": "Philuffy Kills the Mercenaries Barehanded",
+      "outcome": "All mercenaries dead; Philuffy collapses into sleep; Relie secretly finds her.",
+      "type": "battle / revelation",
+      "id": "vol03-philuffy-rampage"
+    },
+    {
+      "name_zh": "赛莉丝坦白维德之死的愧疚",
+      "day_offset": "vol03-ep5-final-day",
+      "event_id": "wade-celistia-guilt-revealed",
+      "cause": "Sania exposes Celistia's darkest secret to shake her and Lux during the Poseidon battle.",
+      "summary": "Sania reveals that as a child, Celistia told Wade (Lux's grandfather) about imperial corruption, leading to his arrest and death in prison. Celistia confesses she long believed she killed Lux's grandfather.",
+      "volume": "vol-03",
+      "participants": [
+        "lux-arcadia",
+        "celistia-ralgris",
+        "sania-lemiste",
+        "wade-roadbelt"
+      ],
+      "location": "collapsed-practice-arena",
+      "name_en": "Celistia Reveals Her Guilt over Wade's Death",
+      "outcome": "Lux rejects her guilt and openly summons Bahamut to protect her; Celistia begins accepting help.",
+      "type": "revelation",
+      "id": "vol03-wade-guilt"
+    },
+    {
+      "name_zh": "路克斯击破波赛顿",
+      "day_offset": "vol03-ep5-final-day",
+      "event_id": "lux-defeats-poseidon",
+      "cause": "Hayes uses parasites to revive the fallen Poseidon; the academy and students face annihilation.",
+      "summary": "Lux publicly summons Bahamut, uses Resonance Wave to control scattered weapons, executes a perpetual linked-slash combo, and pierces the parasite-revived Terminal Beast Poseidon's core.",
+      "volume": "vol-03",
+      "participants": [
+        "lux-arcadia",
+        "celistia-ralgris",
+        "sania-lemiste",
+        "hayes"
+      ],
+      "location": "practice-arena",
+      "name_en": "Lux Defeats Poseidon",
+      "outcome": "Poseidon destroyed; a Supreme Power crystal emerges from its core and is snatched by Sania; Hayes retreats, furious at the Black Hero.",
+      "type": "battle",
+      "id": "vol03-lux-defeats-poseidon"
+    },
+    {
+      "name_zh": "蕾莉找到菲尔菲",
+      "day_offset": "vol03-ep5-post-battle",
+      "event_id": "relie-finds-philuffy",
+      "cause": "Philuffy's abnormal power was revealed; Relie knows her sister's past and danger.",
+      "summary": "After the assault, Relie searches for Philuffy, finds her asleep beside Drag-Ride wreckage, and vows to never let anyone take her sister away.",
+      "volume": "vol-03",
+      "participants": [
+        "relie-aingram",
+        "philuffy-aingram"
+      ],
+      "location": "academy-pathway",
+      "name_en": "Relie Finds Philuffy",
+      "outcome": "Philuffy is secretly protected and brought back to the academy before the New Kingdom or enemy can secure her.",
+      "type": "milestone",
+      "id": "vol03-relie-finds-philuffy"
+    },
+    {
+      "name_zh": "赛莉丝承认路克斯",
+      "day_offset": "vol03-ep5-post-battle",
+      "event_id": "celistia-accepts-lux",
+      "cause": "Lux saved Celistia and defeated Poseidon, exposing Luna's identity and Bahamut.",
+      "summary": "After the Poseidon battle, Celistia is upset by the Luna deception but acknowledges she was happy because of Lux's help and agrees to let him stay at the academy and join the Knight Squadron.",
+      "volume": "vol-03",
+      "participants": [
+        "lux-arcadia",
+        "celistia-ralgris"
+      ],
+      "location": "practice-arena",
+      "name_en": "Celistia Accepts Lux",
+      "outcome": "Lux is permitted to remain at the academy and join the Knight Squadron; Celistia asks him to teach her how to rely on others and interact with men.",
+      "type": "milestone",
+      "id": "vol03-celistia-accepts"
+    },
+    {
+      "name_zh": "国外对抗战代表发表",
+      "day_offset": "vol03-epilogue-day3",
+      "event_id": "representatives-announced",
+      "cause": "The selection battle and academy assault are over; the academy needs to decide the foreign-rivalry team.",
+      "summary": "Three days after the battle, Instructor Raigree announces the foreign rivalry representatives. Celistia is leader; Lux is a representative. Celistia publicly admits defeat and asks Lux for help.",
+      "volume": "vol-03",
+      "participants": [
+        "raigree-instructor",
+        "celistia-ralgris",
+        "lux-arcadia",
+        "lisesharte-atismata",
+        "krulcifer-einfolk",
+        "philuffy-aingram",
+        "sharis-baltshift",
+        "tillfur-lilmit",
+        "noct-leaflet"
+      ],
+      "location": "practice-arena",
+      "name_en": "Foreign Rivalry Representatives Announced",
+      "outcome": "Lux, Celistia, Lisha, Krulcifer, Philuffy, and the Triad become the core representatives.",
+      "type": "ceremony",
+      "id": "vol03-representatives"
+    },
+    {
+      "name_zh": "海兹说明寄生体研究",
+      "day_offset": "vol03-epilogue",
+      "event_id": "heyes-reveals-parasite-research",
+      "cause": "Sania asks about next moves and confirms recovering one Supreme Power crystal.",
+      "summary": "Hayes explains that the B-blood generic units and Poseidon's revival both come from the Terminal Beast parasite she controls. She implies Philuffy is a survivor of past demon-possession experiments.",
+      "volume": "vol-03",
+      "participants": [
+        "hayes",
+        "sania-lemiste",
+        "ignid",
+        "kirihime"
+      ],
+      "location": "collapsed-tunnel-hideout",
+      "name_en": "Hayes Explains Parasite Research",
+      "outcome": "Hayes acknowledges Lux is troublesome, but notes Philuffy is already a 'bomb' planted among them — foreshadowing the next volume.",
+      "type": "revelation",
+      "id": "vol03-epilogue-hayes"
+    },
+    {
+      "name": {
+        "en": "Lux vs Lishearlotte Rematch",
+        "zh": "路克斯与莉夏的再战"
+      },
+      "event_id": "lux-vs-lishearlotte-vol19",
+      "summary": "莉夏受世界改写影响视路克斯为背叛者，以迪亚玛特超越装甲将疲惫路克斯击坠",
+      "participants": [
+        "lux-arcadia",
+        "lishearlotte-rofu"
+      ],
+      "significance": "暴露路克斯逃避向莉夏坦白的致命弱点",
+      "evidence_level": "S",
+      "type": "battle"
+    },
+    {
+      "name": {
+        "en": "Rosa vs La Corsheil",
+        "zh": "罗莎对拉·可儿雪"
+      },
+      "event_id": "rosa-vs-la-corseil",
+      "summary": "罗莎保护爱理，看穿拉·可儿雪读心弱点，以无心舍身战法击破吞婴蛇",
+      "participants": [
+        "rosa",
+        "la-corseil",
+        "airi-arcadia"
+      ],
+      "significance": "罗莎证明自己不再是邪恶之王替身",
+      "evidence_level": "S",
+      "type": "battle"
+    },
+    {
+      "name": {
+        "en": "Sofis vs Li Plicca",
+        "zh": "苏菲丝对里·普莉卡"
+      },
+      "event_id": "sofis-vs-li-plicca",
+      "summary": "苏菲丝识破石像鬼夺取意识神装并以调律延迟反制，忍痛击破旧日同伴般的里·普莉卡",
+      "participants": [
+        "sofis",
+        "li-plicca"
+      ],
+      "significance": "确认自动人形人格被重写",
+      "evidence_level": "S",
+      "type": "battle"
+    },
+    {
+      "name": {
+        "en": "Krulcifer vs Lishearlotte",
+        "zh": "库露露席法对莉夏"
+      },
+      "event_id": "krulusifa-vs-lishearlotte",
+      "summary": "库露露席法以法夫纳完全结合硬抗莉夏并指出她内心裂缝，为路克斯告白争取关键时间",
+      "participants": [
+        "krulusifa-enfortis",
+        "lishearlotte-rofu"
+      ],
+      "significance": "让路克斯意识到真正害怕的是向莉夏坦白",
+      "evidence_level": "S",
+      "type": "battle"
+    },
+    {
+      "name": {
+        "en": "Lux Confesses to Lishearlotte",
+        "zh": "路克斯向莉夏告白"
+      },
+      "event_id": "lux-confession-to-lishearlotte",
+      "summary": "路克斯在重力场中抱住莉夏说出我爱妳，打破感知操纵束缚，莉夏认出真正的路克斯",
+      "participants": [
+        "lux-arcadia",
+        "lishearlotte-rofu",
+        "krulusifa-enfortis",
+        "philuffy-aingram"
+      ],
+      "significance": "本卷恋爱与决斗主题核心转折",
+      "evidence_level": "S",
+      "type": "milestone"
+    },
+    {
+      "name": {
+        "en": "Greifer and Mel vs Automata",
+        "zh": "格莱法与梅尔对残余自动人形"
+      },
+      "event_id": "greif-mel-vs-automata",
+      "summary": "格莱法与梅尔以反向协作反杀卢·卡里亚和涅依·露榭",
+      "participants": [
+        "glefa",
+        "mel-gizatto",
+        "lu-karia",
+        "neu-lushe"
+      ],
+      "significance": "证明七龙骑圣学会团队战斗",
+      "evidence_level": "S",
+      "type": "battle"
+    },
+    {
+      "name": {
+        "en": "Final Battle against Queen Rofu and Sacred Eclipse",
+        "zh": "与罗菲圣蚀的最终战"
+      },
+      "event_id": "final-battle-vs-rofu-queen",
+      "summary": "路克斯、莉夏、赛莉丝、菲尔菲、爱莉尔、夜架合力挑战融合五神兽能力的罗菲；莉夏与夜架制造破绽，路克斯以极限突破巴哈姆特贯穿圣蚀核心",
+      "participants": [
+        "lux-arcadia",
+        "lishearlotte-rofu",
+        "philuffy-aingram",
+        "celise-langlis",
+        "ariel-rei-arcadia",
+        "kirihime-yagami"
+      ],
+      "significance": "暂时阻止圣蚀灭世",
+      "evidence_level": "S",
+      "type": "battle"
+    },
+    {
+      "name": {
+        "en": "Death of Queen Rofu",
+        "zh": "罗菲女王之死"
+      },
+      "event_id": "rofu-queen-death",
+      "type": "milestone",
+      "summary": "圣蚀核心破坏后罗菲恢复自我，承认罪行出自自己意志，表达对莉夏的爱后化为灰烬",
+      "participants": [
+        "queen-rofu",
+        "lishearlotte-rofu",
+        "lux-arcadia"
+      ],
+      "significance": "完成罗菲罪与爱的终局，莉夏继承遗志",
+      "evidence_level": "S",
+      "casualties": [
+        "queen-rofu"
+      ]
+    },
+    {
+      "name": {
+        "en": "Azure Squad Declaration",
+        "zh": "蔚蓝师团宣战"
+      },
+      "event_id": "azure-squad-declaration",
+      "summary": "阿尔玛携爱莉尔公开出现在贵族区宣告蔚蓝师团成立，指控罗菲女王罪行，制造新王国内战表象",
+      "participants": [
+        "lisesharte-atismata",
+        "lux-arcadia",
+        "alma-kirzrak",
+        "ariel-vi-arcadia"
+      ],
+      "significance": "本卷主冲突正式展开",
+      "evidence_level": "S",
+      "type": "conspiracy / incident"
+    },
+    {
+      "name": {
+        "en": "Lisesharte Kidnapped",
+        "zh": "莉夏被绑架"
+      },
+      "event_id": "lisesharte-kidnapped",
+      "summary": "路克斯驾驶巴哈姆特伪装黑色机龙使袭击并绑架莉夏；库露露席法击落阿尔玛",
+      "participants": [
+        "lux-arcadia",
+        "lisesharte-atismata",
+        "alma-kirzrak",
+        "kururushifa-enforx",
+        "firfi-eigran"
+      ],
+      "significance": "双方各持对等人质，决战基础成立",
+      "evidence_level": "S",
+      "type": "battle / hostage-taking"
+    },
+    {
+      "name": {
+        "en": "Alma Captured",
+        "zh": "阿尔玛被捕"
+      },
+      "event_id": "alma-captured",
+      "summary": "库露露席法狙击+菲尔菲龙咬缚锁捕获阿尔玛，使其成为新王国人质并遭罗菲精神折磨",
+      "participants": [
+        "alma-kirzrak",
+        "lisesharte-atismata",
+        "kururushifa-enforx",
+        "firfi-eigran"
+      ],
+      "significance": "姐妹关系从复仇转向理解",
+      "evidence_level": "S",
+      "type": "battle / hostage-taking"
+    },
+    {
+      "name": {
+        "en": "Yaka vs Yus Tok",
+        "zh": "夜架对尤斯·托克"
+      },
+      "event_id": "yaka-vs-yus-tok",
+      "type": "battle / reconnaissance",
+      "summary": "夜架遭自动人形尤斯·托克拦截，以禁咒符号反击重创对方并确认大圣域位于古代森林",
+      "participants": [
+        "yaka",
+        "yus-tok",
+        "fukil-arcadia"
+      ],
+      "significance": "关键侦察战，弗基尔未告发夜架",
+      "evidence_level": "S",
+      "casualties": [
+        "yus-tok heavily damaged",
+        "yaka heavily wounded"
+      ]
+    },
+    {
+      "name": {
+        "en": "Ancient Forest Battle",
+        "zh": "古代森林决战"
+      },
+      "event_id": "ancient-forest-battle",
+      "summary": "新王国与蔚蓝师团以莉夏、阿尔玛、至高之力为赌注开战；路克斯入侵大圣域寻找圣蚀弱点",
+      "participants": [
+        "lux-arcadia",
+        "rafa-atismata",
+        "fukil-arcadia",
+        "lisesharte-atismata",
+        "ariel-vi-arcadia",
+        "celistia-atismata"
+      ],
+      "significance": "本卷规模最大冲突",
+      "evidence_level": "S",
+      "type": "battle / conspiracy"
+    },
+    {
+      "name": {
+        "en": "Celestia Brainwashed and Freed",
+        "zh": "赛莉丝被操纵并获救"
+      },
+      "event_id": "celistia-brainwashed-freed",
+      "summary": "罗菲以精神污染控制的赛莉丝伏击路克斯，最终因内心信任偏开要害被击败救下",
+      "participants": [
+        "lux-arcadia",
+        "celistia-atismata",
+        "ariel-vi-arcadia"
+      ],
+      "significance": "路克斯首次正面突破罗菲针对同伴感情的陷阱",
+      "evidence_level": "S",
+      "type": "battle / mental-control"
+    },
+    {
+      "name": {
+        "en": "Archive Conversation with Aishalia",
+        "zh": "档案馆阿榭立亚记录"
+      },
+      "event_id": "archive-conversation",
+      "summary": "阿榭立亚人格记录讲述千年历史：叛徒一族、弗基尔血统、圣蚀被病毒污染",
+      "participants": [
+        "lux-arcadia",
+        "ariel-vi-arcadia",
+        "ashley-arcadia"
+      ],
+      "significance": "揭示圣蚀与奥罗波若斯核心历史",
+      "evidence_level": "S",
+      "type": "revelation / lore"
+    },
+    {
+      "name": {
+        "en": "Firfi Overcomes the Ragnarok Seed",
+        "zh": "菲尔菲克服终焉神兽种子"
+      },
+      "event_id": "firfi-overcomes-seed",
+      "type": "battle / milestone",
+      "summary": "菲尔菲被艾儿·法洁勒操控与路克斯交战；爱莉尔解除误导后合力击碎艾儿，菲尔菲消灭体内伊布力斯种子",
+      "participants": [
+        "lux-arcadia",
+        "firfi-eigran",
+        "ariel-vi-arcadia",
+        "ail-fajele"
+      ],
+      "significance": "解决菲尔菲长期隐患",
+      "evidence_level": "S",
+      "casualties": [
+        "ail-fajele destroyed"
+      ]
+    },
+    {
+      "name": {
+        "en": "Seven Dragon Riders Intervene",
+        "zh": "七龙骑圣介入"
+      },
+      "event_id": "two-riders-join",
+      "summary": "格莱法、梅尔、罗莎、苏菲丝分别阻止新王国四大贵族和自动人形，解救爱理与阿尔玛",
+      "participants": [
+        "glefa",
+        "mel-gisato",
+        "rosa-guranhaido",
+        "sufis-ekusefa",
+        "neil-helvium",
+        "dora-shaltos"
+      ],
+      "significance": "扭转罗菲即将收束胜局的后手",
+      "evidence_level": "S",
+      "type": "battle / intervention"
+    },
+    {
+      "name": {
+        "en": "Airi Spy Reveal",
+        "zh": "爱理成为秘密间谍"
+      },
+      "event_id": "airi-spy-reveal",
+      "summary": "爱理驾驶限制功能机龙作为新王国侧间谍支援路克斯，被罗菲识破遭拉·可儿雪袭击后被罗莎救下",
+      "participants": [
+        "airi-arcadia",
+        "lux-arcadia",
+        "nokote",
+        "la-kexue",
+        "rosa-guranhaido"
+      ],
+      "significance": "爱理从被保护者转型为主动支援者",
+      "evidence_level": "S",
+      "type": "revelation / conspiracy"
+    },
+    {
+      "name": {
+        "en": "Lux Identity Exposed",
+        "zh": "路克斯身份暴露"
+      },
+      "event_id": "lux-identity-exposed",
+      "summary": "札哈克记忆遗忘失效，莉夏在废墟前看见路克斯与蔚蓝师团成员在一起",
+      "participants": [
+        "lux-arcadia",
+        "lisesharte-atismata",
+        "alma-kirzrak"
+      ],
+      "significance": "卷末重大悬念→推动vol-19剧情",
+      "evidence_level": "S",
+      "type": "revelation / cliffhanger"
+    },
+    {
+      "name": {
+        "en": "Failed Imperial Revolution Flashback",
+        "zh": "旧帝国革命失败回想"
+      },
+      "event_id": "imperial-revolution-flashback",
+      "type": "revelation / battle",
+      "summary": "五年前革命失败，弗基尔向路克斯阐述以惩罚者摧毁腐败权威的理念，二人理念分歧埋下最终冲突",
+      "participants": [
+        "lux-arcadia",
+        "fugil-arcadia",
+        "airi-arcadia"
+      ],
+      "significance": "定义路克斯与弗基尔关于英雄/统治/救赎根本分歧",
+      "evidence_level": "S",
+      "casualties": [
+        "earl-atismata"
+      ]
+    },
+    {
+      "name": {
+        "en": "Last Banquet in the Ancient Forest",
+        "zh": "古代森林最后宴会"
+      },
+      "event_id": "final-banquet",
+      "summary": "玛姬艾儿卡组织宴会和维修；众人决定留下迎战弗基尔",
+      "participants": [
+        "lux-arcadia",
+        "lisha-atismata",
+        "airi-arcadia",
+        "magialca-zen-vanfrick",
+        "ariel",
+        "krulcifer-einfolk",
+        "celistia-ralgris",
+        "philuffy-ainfram",
+        "kirihime-yoruka"
+      ],
+      "significance": "将零散盟友凝聚为联合军",
+      "evidence_level": "S",
+      "type": "milestone / rest"
+    },
+    {
+      "name": {
+        "en": "Arshalia AI Truth Revelation",
+        "zh": "阿榭立亚AI真相揭示"
+      },
+      "event_id": "ai-truth-revelation",
+      "summary": "路克斯在大圣域中枢调用阿榭立亚AI，确认奥罗波若斯可从能力细节和能耗中找破绽",
+      "participants": [
+        "lux-arcadia",
+        "airi-arcadia",
+        "ariel",
+        "arshalia"
+      ],
+      "significance": "提供最终战核心情报",
+      "evidence_level": "S",
+      "type": "revelation"
+    },
+    {
+      "name": {
+        "en": "Nil and Doura Evacuation Command",
+        "zh": "尼尔与道拉撤退指挥"
+      },
+      "event_id": "evacuation-command",
+      "summary": "尼尔与道拉带领非主力人员撤退，承认自己无法站上对弗基尔的核心战场",
+      "participants": [
+        "nil",
+        "doura"
+      ],
+      "significance": "呈现普通强者的界限与对主角组的认可",
+      "evidence_level": "S",
+      "type": "milestone"
+    },
+    {
+      "name": {
+        "en": "Automaton Arshalia's Warning",
+        "zh": "自动人形阿榭立亚警告"
+      },
+      "event_id": "automaton-warning",
+      "summary": "自动人形阿榭立亚现身劝联合军撤退，指出打倒弗基尔必须承担世界重量；路克斯反驳并宣布传达自己答案",
+      "participants": [
+        "automaton-arshalia",
+        "lux-arcadia",
+        "lisha-atismata",
+        "krulcifer-einfolk",
+        "celistia-ralgris"
+      ],
+      "significance": "将最终战提升为价值对决",
+      "evidence_level": "S",
+      "type": "confrontation / revelation"
+    },
+    {
+      "name": {
+        "en": "Diablos Siege of the Ancient Forest",
+        "zh": "迪亚布罗群包围古代森林"
+      },
+      "event_id": "diablos-siege",
+      "type": "battle",
+      "summary": "弗基尔带二十只万灵药强化迪亚布罗分散联合军；被爱理耶梦加得雷达反制",
+      "participants": [
+        "fugil-arcadia",
+        "lux-arcadia",
+        "krulcifer-einfolk",
+        "greifer",
+        "kirihime-yoruka",
+        "airi-arcadia"
+      ],
+      "significance": "弗基尔把幻神兽当战术棋子",
+      "evidence_level": "S",
+      "casualties": [
+        "多只迪亚布罗"
+      ]
+    },
+    {
+      "name": {
+        "en": "Lux Intercepts Fugil",
+        "zh": "路克斯反截击弗基尔"
+      },
+      "event_id": "lux-intercepts-fugil",
+      "summary": "爱理用耶梦加得雷达发现弗基尔南侧绕行；路克斯预判路线发动高速反伏击命中肩部",
+      "participants": [
+        "lux-arcadia",
+        "fugil-arcadia",
+        "airi-arcadia",
+        "celistia-ralgris",
+        "philuffy-ainfram"
+      ],
+      "significance": "证明路克斯以同伴支援反制千年战术经验",
+      "evidence_level": "S",
+      "type": "battle"
+    },
+    {
+      "name": {
+        "en": "Fugil's Past Revealed",
+        "zh": "弗基尔过去揭示"
+      },
+      "event_id": "fugil-past-revealed",
+      "type": "revelation / tragedy",
+      "summary": "阿榭立亚被叛徒一族杀害→弗基尔醒来后激活圣蚀开始千年英雄使命",
+      "participants": [
+        "fugil-arcadia",
+        "arshalia"
+      ],
+      "significance": "揭开最终反派悲剧动机源头",
+      "evidence_level": "S",
+      "casualties": [
+        "arshalia"
+      ]
+    },
+    {
+      "name": {
+        "en": "Truth of the Holy Eclipse Failure",
+        "zh": "圣蚀失败真相"
+      },
+      "event_id": "holy-eclipse-truth",
+      "summary": "阿榭立亚AI承认圣蚀从设计阶段就因人心恐惧与欲望而失败，不是单纯被篡改",
+      "participants": [
+        "arshalia",
+        "lux-arcadia",
+        "airi-arcadia",
+        "ariel",
+        "fugil-arcadia"
+      ],
+      "significance": "揭示核心冲突是无法由单一英雄承担的人性矛盾",
+      "evidence_level": "S",
+      "type": "revelation"
+    },
+    {
+      "name": {
+        "en": "Ouroboros Final Assault",
+        "zh": "奥罗波若斯与合成迪亚布罗总攻"
+      },
+      "event_id": "ouroboros-final-assault",
+      "summary": "弗基尔制造合成迪亚布罗正面突入，奥罗波若斯后方压制；联合军撕开装甲逼出永劫回归",
+      "participants": [
+        "fugil-arcadia",
+        "automaton-arshalia",
+        "lisha-atismata",
+        "airi-arcadia",
+        "krulcifer-einfolk",
+        "greifer",
+        "rosa-granhide",
+        "sophice-xfer",
+        "mel-gizalut",
+        "philuffy-ainfram",
+        "kirihime-yoruka"
+      ],
+      "significance": "本卷最大规模战斗，全员协作对抗神器级武力",
+      "evidence_level": "S",
+      "type": "battle"
+    },
+    {
+      "name": {
+        "en": "Lisha Breaks Ouroboros Limit Break",
+        "zh": "莉夏破坏奥罗波若斯限界突破"
+      },
+      "event_id": "lisha-breaks-ouroboros-limit",
+      "summary": "莉夏舍身以迪亚玛特天声攻击奥罗波若斯限界突破过程，路克斯以暴食降低反射伤害救下她",
+      "participants": [
+        "lisha-atismata",
+        "lux-arcadia",
+        "fugil-arcadia"
+      ],
+      "significance": "莉夏以公主决意为路克斯开辟最后胜机",
+      "evidence_level": "S",
+      "type": "battle / sacrifice-attempt"
+    },
+    {
+      "name": {
+        "en": "Ouroboros Shot Down",
+        "zh": "奥罗波若斯被击落"
+      },
+      "event_id": "ouroboros-shot-down",
+      "type": "battle / milestone",
+      "summary": "库露露席法预判最后干涉+菲尔菲偏转肩部+夜架打开核心舱口+赛莉丝星光爆破击毁幻创机核→奥罗波若斯瘫痪",
+      "participants": [
+        "krulcifer-einfolk",
+        "philuffy-ainfram",
+        "kirihime-yoruka",
+        "celistia-ralgris"
+      ],
+      "significance": "千年无人击败的神器被同伴合力击落",
+      "evidence_level": "S",
+      "casualties": [
+        "奥罗波若斯机能瘫痪"
+      ]
+    },
+    {
+      "name": {
+        "en": "Lux Defeats Fugil",
+        "zh": "路克斯击败弗基尔"
+      },
+      "event_id": "lux-defeats-fugil",
+      "type": "battle / milestone",
+      "summary": "奥罗波若斯被击落后双方以暴食+限界突破进行最后决斗；弗基尔机体因过载崩溃，被路克斯斩中；临终认可路克斯呈现了人类希望，化为灰烬",
+      "participants": [
+        "lux-arcadia",
+        "fugil-arcadia",
+        "lisha-atismata",
+        "airi-arcadia",
+        "krulcifer-einfolk",
+        "celistia-ralgris",
+        "philuffy-ainfram",
+        "kirihime-yoruka"
+      ],
+      "significance": "终结弗基尔千年循环，确立非绝对英雄与同伴协作的答案",
+      "evidence_level": "S",
+      "casualties": [
+        "fugil-arcadia"
+      ]
+    },
+    {
+      "name": {
+        "en": "Postwar Ruin Sealing Decision",
+        "zh": "战后遗迹封锁决议"
+      },
+      "event_id": "war-aftermath-ruins-sealed",
+      "summary": "停止公开使用遗迹力量，封锁幻神兽制造和万灵药计划；爱莉尔与苏菲丝受托管理遗迹",
+      "participants": [
+        "lux-arcadia",
+        "ariel",
+        "sophice-xfer",
+        "magialca-zen-vanfrick",
+        "lisha-atismata"
+      ],
+      "significance": "将胜利转化为政治与技术治理秩序",
+      "evidence_level": "S",
+      "type": "milestone / political"
+    },
+    {
+      "name": {
+        "en": "Queen Roffi's Funeral",
+        "zh": "罗菲女王国葬"
+      },
+      "event_id": "roffi-funeral",
+      "type": "ceremony / political",
+      "summary": "以终焉神兽袭击说法公布罗菲死因并举行国葬；莉夏接受无法公开真相的命运",
+      "participants": [
+        "roffi-atismata",
+        "lisha-atismata",
+        "lux-arcadia"
+      ],
+      "significance": "处理旧秩序丧葬与合法性过渡",
+      "evidence_level": "S",
+      "casualties": [
+        "roffi-atismata"
+      ]
+    },
+    {
+      "name": {
+        "en": "World Creation Organization Founded",
+        "zh": "世界创建组织成立"
+      },
+      "event_id": "world-creation-organization-founded",
+      "summary": "爱莉尔与苏菲丝在第七遗迹月成立世创组织，负责遗迹技术封锁与安全管理；里·普莉卡留守",
+      "participants": [
+        "ariel",
+        "sophice-xfer",
+        "li-prica"
+      ],
+      "significance": "遗迹时代从武力争夺转向受控管理",
+      "evidence_level": "S",
+      "type": "milestone / organization"
+    },
+    {
+      "name": {
+        "en": "Lux Crowned One-Year King",
+        "zh": "路克斯登基为一年期国王"
+      },
+      "event_id": "lux-coronation",
+      "summary": "路克斯在王宫露台演说:不做绝对英雄，创造互相帮助的国家；迪斯特公爵辅佐，向共和制过渡",
+      "participants": [
+        "lux-arcadia",
+        "lisha-atismata",
+        "airi-arcadia",
+        "dist-ralgris",
+        "krulcifer-einfolk",
+        "celistia-ralgris",
+        "philuffy-ainfram",
+        "kirihime-yoruka"
+      ],
+      "significance": "以政治形式回应弗基尔的英雄命题",
+      "evidence_level": "S",
+      "type": "ceremony / milestone"
+    },
+    {
+      "name": {
+        "en": "Lux Wedding Announced",
+        "zh": "路克斯婚礼预告"
+      },
+      "event_id": "lux-wedding-announced",
+      "summary": "登基三天后王都大教堂婚礼预告，作为战后最后庆祝活动→系列完结",
+      "participants": [
+        "lux-arcadia"
+      ],
+      "significance": "全系列收束",
+      "evidence_level": "S",
+      "type": "ceremony / milestone"
+    }
+  ],
+  "_schema": "rp-timeline-v1",
+  "_meta": {
+    "total_events": 220
+  }
+}

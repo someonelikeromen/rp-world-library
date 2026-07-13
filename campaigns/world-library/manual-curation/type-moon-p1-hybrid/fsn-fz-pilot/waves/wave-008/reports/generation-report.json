@@ -1,0 +1,33 @@
+{
+  "schema": "tm-p1-generation-report-v1",
+  "waveId": "wave-008",
+  "status": "generated",
+  "generatedAt": "2026-07-12",
+  "agent": { "model": "lt-yuyu/gpt-5.5" },
+  "sourceRefsRead": [
+    "type-moon-nasuverse/worldbook-text/src-type-moon-filtered.md",
+    "type-moon-nasuverse/worldbook-text/src-fsn-core.md",
+    "type-moon-nasuverse/story-text/fate/ch-002-fate-route.txt",
+    "type-moon-nasuverse/story-text/fate/ch-003-ubw-route.txt",
+    "type-moon-nasuverse/story-text/fate/ch-004-hf-route.txt"
+  ],
+  "filesCreated": [
+    "waves/wave-008/output/abilities.json",
+    "waves/wave-008/output/ability-candidates.json"
+  ],
+  "filesUpdated": [],
+  "counts": {
+    "characters": 0,
+    "events": 0,
+    "relationships": 0,
+    "abilities": 18,
+    "locations": 0,
+    "factions": 0,
+    "knowledge": 0,
+    "candidates": 2
+  },
+  "candidateOnlyItems": ["Magic circuits", "Magic crest"],
+  "uncertainties": [
+    "Some magecraft infrastructure concepts are candidate-only because current source text provides only broad anchor lines."
+  ]
+}

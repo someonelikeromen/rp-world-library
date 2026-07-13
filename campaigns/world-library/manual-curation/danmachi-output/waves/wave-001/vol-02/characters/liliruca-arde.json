@@ -1,0 +1,96 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "liliruca-arde",
+  "volume": "vol-02",
+  "time_range": {
+    "start": "序章",
+    "end": "终章"
+  },
+  "periods": [
+    {
+      "period_id": "liliruca-vol02-main",
+      "volume": "vol-02",
+      "time": "vol-02",
+      "name": {
+        "zh": "莉莉露卡·厄德",
+        "en": "Liliruca Arde",
+        "jp": "リリルカ・アーデ"
+      },
+      "aliases": [
+        "莉莉",
+        "小不点支援者"
+      ],
+      "gender": "female",
+      "species": "human",
+      "occupation": "支援者",
+      "affiliation": "苏摩眷族",
+      "appearance": {
+        "overview": "娇小的金发少女，眼神带着警戒",
+        "physical": {
+          "height": "约140cm",
+          "build": "娇小",
+          "hair": {
+            "color": "金"
+          },
+          "eyes": {
+            "color": "橙"
+          }
+        }
+      },
+      "personality": {
+        "summary": "表面乖巧顺从，内心充满绝望与算计",
+        "core_traits": [
+          "精明",
+          "警惕",
+          "绝望"
+        ]
+      },
+      "abilities_owned": [],
+      "possessions_owned": [],
+      "relationships": {
+        "bell-cranel": {
+          "type": "雇主→同伴"
+        },
+        "gerd": {
+          "type": "眷族同僚"
+        },
+        "ganu": {
+          "type": "眷族同僚"
+        }
+      },
+      "summary": "苏摩眷族的底层支援者，盗窃赫斯缇雅之刃失败后被抛弃在第十层，被贝尔救出后重新开始。",
+      "key_events": [
+        {
+          "event_id": "lili-abused-by-adventurers",
+          "summary": "被冒险者粗暴对待",
+          "sourceRef": "danmachi-main/vol-02/full.txt:7-76"
+        },
+        {
+          "event_id": "lili-offers-support",
+          "summary": "提出担任贝尔的支援者",
+          "sourceRef": "danmachi-main/vol-02/full.txt:1071-1264"
+        },
+        {
+          "event_id": "lili-steals-hestia-knife",
+          "summary": "将赫斯缇雅之刃掉包偷走",
+          "sourceRef": "danmachi-main/vol-02/full.txt:1834-2200"
+        },
+        {
+          "event_id": "bell-refuses-to-betray-lili",
+          "summary": "贝尔选择不抛弃莉莉",
+          "sourceRef": "danmachi-main/vol-02/full.txt:3800-4568"
+        },
+        {
+          "event_id": "bell-protects-lili",
+          "summary": "贝尔救出莉莉",
+          "sourceRef": "danmachi-main/vol-02/full.txt:8350-8620"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-02/full.txt:7-8854"
+      ]
+    }
+  ]
+}

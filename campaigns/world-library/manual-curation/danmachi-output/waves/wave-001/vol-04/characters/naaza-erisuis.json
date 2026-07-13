@@ -1,0 +1,44 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "naaza-erisuis",
+  "volume": "danmachi-main/vol-04",
+  "time_range": { "start": "vol-04-quest-x-quest", "end": "vol-04-quest-x-quest" },
+  "sub_arcs": ["quest-x-quest"],
+  "periods": [
+    {
+      "period_id": "vol-04-quest-x-quest-miach-debt-and-dual-potion",
+      "volume": "danmachi-main/vol-04",
+      "time": "Side story after Bell's Lv.2 promotion",
+      "label": "Naaza requests quests, faces her debt, and helps create dual potions",
+      "name": { "zh": "娜扎", "en": "Naaza Erisuis", "jp": "ナァーザ・エリスイス" },
+      "aliases": ["娜扎小姐", "犬人药师"],
+      "titles": ["Miach Familia pharmacist", "former adventurer"],
+      "gender": "female",
+      "species": "chienthrope",
+      "nationality": "",
+      "occupation": "pharmacist; former adventurer",
+      "affiliation": "Miach Familia",
+      "status": { "level": "Lv.2", "development_ability": "Mixing / Compounding", "injury": "right arm lost and replaced with silver prosthetic Agateram", "trauma": "cannot stand before monsters without trembling at close range" },
+      "appearance": { "overview": "A sleepy-looking chienthrope woman with dog ears and tail, usually wearing an asymmetrical top that hides her silver right arm.", "physical": { "height": "", "build": "slender", "hair": {}, "eyes": { "shape": "half-lidded" } }, "attire": { "default": "asymmetrical shirt with right long sleeve, long skirt, leather glove", "travel": "light travel clothes and asymmetric light armor" }, "voice_quality": { "tone": "flat, quiet, low affect" }, "distinctive": ["dog ears", "wagging tail", "silver prosthetic right arm", "sleepy half-lidded expression"] },
+      "personality": { "summary": "Quiet, financially desperate, and guilt-ridden; she scams Bell to protect Miach Familia but later apologizes and risks herself at range to help him.", "core_traits": ["quiet", "pragmatic", "guilty", "protective of Miach", "skilled but traumatized"], "values": ["Miach's survival", "repaying debt", "useful medicine", "eventual honesty"], "fears": ["standing before monsters", "Miach losing his home because of her debt", "being useless to her god"], "desires": ["save Miach Familia's headquarters", "make a successful new potion", "repay Bell for her deception"], "strengths": ["pharmacy", "Mixing ability", "archery support from distance", "monster ecology knowledge"], "flaws": ["diluted potions and exploited Bell as a customer", "uses Bell as bait during the egg hunt"], "inner_conflict": "She believes she ruined Miach Familia, yet wants to protect Miach so badly that she compromises her ethics.", "decision_pattern": { "crisis": "Chooses practical solutions quickly, then apologizes when confronted with the harm she caused." } },
+      "voice": { "self_reference": "我", "address_pattern": { "Bell": "贝尔", "Miach": "米赫神" }, "register": { "tone": "sleepy, subdued, often blunt" }, "catchphrases": [], "quote_samples": ["冒险者委托。可以麻烦你跑一趟吗……", "什么都不懂的兔子正好是送上门的肥羊。", "遇到什么困难时都跟我说。"] },
+      "habits": { "mannerisms": ["waves lazily from an alley", "keeps eyes half-lidded", "tail reveals emotions even when her face does not", "uses her nose and dog ears to scout"], "daily_routine": "Runs Miach Familia's shop, makes potions, and manages finances.", "quirks": ["calls Bell a rabbit/sheep when discussing how easy he is to exploit"], "preferences": { "weapon": "longbow at distance" } },
+      "background": { "birth": { "place": "", "family": [] }, "upbringing": "", "education": { "pharmacy": "Learned medicine from Miach Familia seniors and gained Mixing after leveling." }, "formative_events": ["Reached Lv.2 as an adventurer", "Lost her right arm and developed monster trauma", "Miach bought Agateram for her, causing the familia's crippling debt"], "pre_story": "Former members left Miach after the debt; Naaza stayed as the only child with him." },
+      "abilities_owned": ["mixing", "archery", "pharmacy", "agateram-prosthetic-use"],
+      "possessions_owned": ["silver arm Agateram", "longbow", "potion stock", "dual potion prototype"],
+      "relationships": { "bell-cranel": "Former easy customer whom she deceived, then thanks and compensates after he helps save Miach Familia.", "liliruca-arde": "Recognizes Lili as sharp enough to expose diluted potions and negotiate properly.", "miach": "Beloved patron; she feels guilty for causing his debt and resents his excessive generosity.", "dian-cecht": "Creditor and rival familia deity she despises." },
+      "knowledge": ["Knows blue butterfly wings can support medicine", "Knows surface Bloodsaurus are weaker than dungeon originals", "Knows monster eggs can be used with blue butterfly wings to make dual potions"],
+      "secrets": ["Had diluted potions and overcharged Bell before Lili exposed the practice."],
+      "summary": "Naaza asks Bell to collect blue butterfly wings, is exposed for diluted potion fraud, reveals her lost arm and Miach Familia's debt, guides the group to Seoro Forest for Bloodsaurus eggs, helps make dual potions, and finally gives Bell a dual potion as apology and proper quest reward.",
+      "key_events": [
+        { "event_id": "naaza-requests-blue-butterfly-wings", "summary": "Naaza asks Bell to collect blue butterfly wings through an unofficial adventurer quest.", "sourceRef": "danmachi-main/vol-04/full.txt:5510" },
+        { "event_id": "lili-exposes-naaza-potion-fraud", "summary": "Lili proves Naaza's reward potions are diluted and forces the Miach Familia issue into the open.", "sourceRef": "danmachi-main/vol-04/full.txt:6038" },
+        { "event_id": "miach-familia-dual-potion-quest", "summary": "Naaza guides the group to collect Bloodsaurus eggs and make dual potions to pay Dian Cecht.", "sourceRef": "danmachi-main/vol-04/full.txt:6642" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-04/full.txt:5490", "danmachi-main/vol-04/full.txt:5510", "danmachi-main/vol-04/full.txt:6038", "danmachi-main/vol-04/full.txt:6218", "danmachi-main/vol-04/full.txt:6228", "danmachi-main/vol-04/full.txt:6384", "danmachi-main/vol-04/full.txt:6412", "danmachi-main/vol-04/full.txt:6592", "danmachi-main/vol-04/full.txt:6724"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-04/full.txt:5510", "danmachi-main/vol-04/full.txt:6038", "danmachi-main/vol-04/full.txt:6218", "danmachi-main/vol-04/full.txt:6642", "danmachi-main/vol-04/full.txt:6724"]
+}

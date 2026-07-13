@@ -1,0 +1,1010 @@
+{
+  "_schema": "rp-timeline-v1",
+  "world": "hidan-no-aria",
+  "calendar": {
+    "system": "公历",
+    "anchor": "2009年日本公历",
+    "confidence": "high",
+    "reasoning": "Vol-05结尾roof-goodbye=8月31日；vol-06开学典礼=9月1日；vol-06京都校外教学=9月14日（原文标注）；vol-07小队登记截止=9月23日、宣战会议=10月1日（原文子时标注）。"
+  },
+  "events": [
+    {
+      "event_id": "reki-human-hunt-proposal",
+      "label": "蕾姬狩猎金次——绝对半径2051婚约",
+      "time_span": {
+        "start": "2009-08-31T18:40:00",
+        "end": "2009-08-31T22:00:00",
+        "precision": "estimated",
+        "duration_display": "约3小时20分钟",
+        "reasoning": "紧接vol-05屋顶告别（亚莉亚离开后约10分钟）；蕾姬在侦探科屋顶以德拉古诺夫指向金次→穿越校舍/商店街/车辆科/教室狙击→金次投降→带入蕾姬房间。v2-table标为8月31日夜。"
+      },
+      "nodes": [
+        {
+          "node_id": "reki-human-hunt-proposal.roof",
+          "label": "蕾姬在侦探科屋顶以德拉古诺夫指向金次→宣布他不能与亚莉亚结合→要求金次成为丈夫",
+          "timestamp": "2009-08-31T18:45:00",
+          "participants": ["kinji", "reki", "emaki"]
+        },
+        {
+          "node_id": "reki-human-hunt-proposal.hunt",
+          "label": "金次逃入商店街→蕾姬以艾马基和跳弹狙击追猎→射掉六颗纽扣",
+          "timestamp": "2009-08-31T19:30:00",
+          "participants": ["kinji", "reki", "emaki"]
+        },
+        {
+          "node_id": "reki-human-hunt-proposal.surrender",
+          "label": "金次投降→蕾姬宣读乌鲁斯式婚约誓言→交出房间钥匙卡",
+          "timestamp": "2009-08-31T21:30:00",
+          "participants": ["kinji", "reki"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-06",
+      "participant_ids": ["kinji", "reki", "emaki"],
+      "cause": "roof-goodbye",
+      "outcome": "opening-ceremony-squad-talk"
+    },
+    {
+      "event_id": "opening-ceremony-squad-talk",
+      "label": "第二学期开学典礼与小队编成说明",
+      "time_span": {
+        "start": "2009-09-01T09:00:00",
+        "end": "2009-09-01T10:30:00",
+        "precision": "estimated",
+        "duration_display": "约1.5小时",
+        "reasoning": "v2-table标为9月1日；原文明确'九月一日第二学期开学典礼'；绿松校长演说→武藤与不知火调侃金次与蕾姬传闻→说明小队登记规则。"
+      },
+      "nodes": [
+        {
+          "node_id": "opening-ceremony-squad-talk.speech",
+          "label": "绿松校长演说武侦国际合作与留学生方针→香港武侦学生出席",
+          "timestamp": "2009-09-01T09:15:00",
+          "participants": ["kinji", "reki", "emaki", "muto", "shiranuhi"]
+        },
+        {
+          "node_id": "opening-ceremony-squad-talk.talk",
+          "label": "武藤与不知火说明校外教学Ⅰ本质是为小队编成与登记",
+          "timestamp": "2009-09-01T10:00:00",
+          "participants": ["muto", "shiranuhi", "kinji"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-06",
+      "participant_ids": ["kinji", "reki", "emaki", "muto", "shiranuhi"],
+      "cause": "reki-human-hunt-proposal",
+      "outcome": "cao-cao-first-ambush"
+    },
+    {
+      "event_id": "cao-cao-first-ambush",
+      "label": "昭昭首次袭击金次——万武双蛇刎颈崩",
+      "time_span": {
+        "start": "2009-09-01T12:00:00",
+        "end": "2009-09-01T12:30:00",
+        "precision": "estimated",
+        "duration_display": "约30分钟",
+        "reasoning": "v2-table标为9月1日；泼水祭当天中午前后，金次走小路去药局时遭昭昭拦路。原文标注'泼水祭当天中午前后'。"
+      },
+      "nodes": [
+        {
+          "node_id": "cao-cao-first-ambush.entry",
+          "label": "昭昭倒挂出现→自称CaoCao十四岁万武→以泡泡暗示暗杀机会",
+          "timestamp": "2009-09-01T12:10:00",
+          "participants": ["cao-cao", "kinji"]
+        },
+        {
+          "node_id": "cao-cao-first-ambush.strangle",
+          "label": "昭昭贴身缠住金次→双蛇刎颈崩压迫颈椎→艾马基吠叫介入迫使松手",
+          "timestamp": "2009-09-01T12:20:00",
+          "participants": ["cao-cao", "kinji", "emaki"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-06",
+      "participant_ids": ["kinji", "cao-cao", "emaki"],
+      "cause": "opening-ceremony-squad-talk",
+      "outcome": "reki-super-jar-ramen"
+    },
+    {
+      "event_id": "reki-super-jar-ramen",
+      "label": "蕾姬完食超壶面——十分钟四十七秒",
+      "time_span": {
+        "start": "2009-09-01T12:30:00",
+        "end": "2009-09-01T14:00:00",
+        "precision": "estimated",
+        "duration_display": "约1.5小时",
+        "reasoning": "v2-table标为9月1日；泼水祭午餐。金次带蕾姬到台场拉面店→风魔端出超壶面→蕾姬在10分47秒内完食→与亚莉亚相遇于回程车站。"
+      },
+      "nodes": [
+        {
+          "node_id": "reki-super-jar-ramen.order",
+          "label": "金次带蕾姬到台场AQUACITY拉面店→风魔阳菜以店员身份端出超壶面",
+          "timestamp": "2009-09-01T13:00:00",
+          "participants": ["kinji", "reki", "fuma-hina", "emaki"]
+        },
+        {
+          "node_id": "reki-super-jar-ramen.finish",
+          "label": "蕾姬面无表情地逐条吃面喝光汤→报出十分钟四十七秒→全员震惊",
+          "timestamp": "2009-09-01T13:15:00",
+          "participants": ["reki", "kinji", "fuma-hina"]
+        }
+      ],
+      "event_type": "side",
+      "volume": "vol-06",
+      "participant_ids": ["kinji", "reki", "fuma-hina", "emaki"],
+      "cause": "cao-cao-first-ambush",
+      "outcome": "aria-reki-station-clash"
+    },
+    {
+      "event_id": "aria-reki-station-clash",
+      "label": "亚莉亚与蕾姬车站冲突——掌掴与绝交",
+      "time_span": {
+        "start": "2009-09-01T15:00:00",
+        "end": "2009-09-01T16:30:00",
+        "precision": "estimated",
+        "duration_display": "约1.5小时",
+        "reasoning": "v2-table标为9月1日；泼水祭当天返校途中。金次和蕾姬从台场返回学园岛时在单轨电车站与亚莉亚理子相遇→争吵升级→冲突→绝交。"
+      },
+      "nodes": [
+        {
+          "node_id": "aria-reki-station-clash.meet",
+          "label": "金次抱住蕾姬姿势被亚莉亚目击→亚莉亚得知蕾姬擅自申请二人小队→愤怒质问",
+          "timestamp": "2009-09-01T15:10:00",
+          "participants": ["kinji", "reki", "aria", "riko"]
+        },
+        {
+          "node_id": "aria-reki-station-clash.slap",
+          "label": "蕾姬宣称是金次未婚妻→掌掴亚莉亚→亚莉亚拔双枪以泼水祭规则挑战",
+          "timestamp": "2009-09-01T15:40:00",
+          "participants": ["reki", "aria", "riko", "kinji", "emaki"]
+        },
+        {
+          "node_id": "aria-reki-station-clash.knife",
+          "label": "蕾姬拔出刺刀几乎刺中亚莉亚颈部→金次命令停下→亚莉亚宣布绝交",
+          "timestamp": "2009-09-01T16:10:00",
+          "participants": ["reki", "aria", "kinji"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-06",
+      "participant_ids": ["kinji", "reki", "aria", "riko", "emaki"],
+      "cause": "reki-human-hunt-proposal",
+      "outcome": "reki-investigation-nakasorachi"
+    },
+    {
+      "event_id": "reki-investigation-nakasorachi",
+      "label": "金次调查蕾姬——风声录音与中空知分析",
+      "time_span": {
+        "start": "2009-09-03T13:00:00",
+        "end": "2009-09-03T17:00:00",
+        "precision": "estimated",
+        "duration_display": "约4小时",
+        "reasoning": "v2-table标为9月3日；校外教学前数日。金次委托贞德调查蕾姬→复制MP3风声录音→中空知美咲分析出蒙古北部至东西伯利亚位置。"
+      },
+      "nodes": [
+        {
+          "node_id": "reki-investigation-nakasorachi.jeanne",
+          "label": "贞德汇报蕾姬任务成功率100%→曾在俄罗斯和中国活动→警告有杀手背景",
+          "timestamp": "2009-09-03T14:00:00",
+          "participants": ["jeanne", "kinji"]
+        },
+        {
+          "node_id": "reki-investigation-nakasorachi.audio",
+          "label": "中空知通过电话分析风声录音→推断高海拔草原→蒙古马、苔原狼和混合语言人声",
+          "timestamp": "2009-09-03T16:00:00",
+          "participants": ["nakasorachi-misaki", "kinji", "jeanne"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-06",
+      "participant_ids": ["kinji", "jeanne", "nakasorachi-misaki"],
+      "cause": "aria-reki-station-clash",
+      "outcome": "equipment-upgrade-hiraga"
+    },
+    {
+      "event_id": "equipment-upgrade-hiraga",
+      "label": "平贺文交付金次新装备——萨克逊剑与沙漠之鹰",
+      "time_span": {
+        "start": "2009-09-05T14:00:00",
+        "end": "2009-09-05T15:00:00",
+        "precision": "estimated",
+        "duration_display": "约1小时",
+        "reasoning": "v2-table标为9月5日；第二学期开学后数日。金次带蕾姬和艾马基到装备科B201取回委托改造的萨克逊剑和魔改造沙漠之鹰。"
+      },
+      "nodes": [
+        {
+          "node_id": "equipment-upgrade-hiraga.sword",
+          "label": "平贺完成夏洛克萨克逊剑握把和背部秘藏刀鞘改造",
+          "timestamp": "2009-09-05T14:20:00",
+          "participants": ["kinji", "ayaka-hiraga", "reki", "emaki"]
+        },
+        {
+          "node_id": "equipment-upgrade-hiraga.deagle",
+          "label": "平贺交付魔改造沙漠之鹰→弹匣快速排出+三点射+全自动机能",
+          "timestamp": "2009-09-05T14:40:00",
+          "participants": ["kinji", "ayaka-hiraga"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-06",
+      "participant_ids": ["kinji", "reki", "emaki", "ayaka-hiraga"],
+      "cause": "reki-investigation-nakasorachi",
+      "outcome": "kyoto-field-trip"
+    },
+    {
+      "event_id": "kyoto-field-trip",
+      "label": "京都校外教学——三十三间堂与蕾姬情感萌芽",
+      "time_span": {
+        "start": "2009-09-14T08:00:00",
+        "end": "2009-09-14T14:00:00",
+        "precision": "day",
+        "duration_display": "约6小时",
+        "reasoning": "v2-table标为9月14日；原文明确'九月十四日校外教学第一天'。金次与蕾姬乘新干线到京都→参观清水寺、金阁寺、三十三间堂→转往大阪购物。"
+      },
+      "nodes": [
+        {
+          "node_id": "kyoto-field-trip.departure",
+          "label": "品川站乘新干线→到达京都→参观清水寺与金阁寺",
+          "timestamp": "2009-09-14T10:00:00",
+          "participants": ["kinji", "reki", "emaki"]
+        },
+        {
+          "node_id": "kyoto-field-trip.sanjusangendo",
+          "label": "三十三间堂里寄放德拉古诺夫和刺刀→蕾姬察觉金次在想亚莉亚",
+          "timestamp": "2009-09-14T13:00:00",
+          "participants": ["kinji", "reki"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-06",
+      "participant_ids": ["kinji", "reki", "emaki", "muto"],
+      "cause": "equipment-upgrade-hiraga",
+      "outcome": "chaton-date-clothes-catcall"
+    },
+    {
+      "event_id": "chaton-date-clothes-catcall",
+      "label": "心斋桥Chatonb购物与亚莉亚目击",
+      "time_span": {
+        "start": "2009-09-14T15:00:00",
+        "end": "2009-09-14T18:00:00",
+        "precision": "estimated",
+        "duration_display": "约3小时",
+        "reasoning": "v2-table标为9月14日；校外教学第一天下午，金次带蕾姬到大阪心斋桥女装店。店员试装→ChatonCALL叫猫→亚莉亚店外目击后崩溃逃跑→金次追上被打倒。"
+      },
+      "nodes": [
+        {
+          "node_id": "chaton-date-clothes-catcall.tryon",
+          "label": "店员为蕾姬试穿多套衣服→选定白色无袖连身裙与凉鞋",
+          "timestamp": "2009-09-14T15:30:00",
+          "participants": ["kinji", "reki", "emaki"]
+        },
+        {
+          "node_id": "chaton-date-clothes-catcall.cat",
+          "label": "蕾姬一声'喵呜'令店内猫全部聚集→赢得ChatonCALL半价优惠→围观群众起哄接吻",
+          "timestamp": "2009-09-14T16:30:00",
+          "participants": ["reki", "kinji"]
+        },
+        {
+          "node_id": "chaton-date-clothes-catcall.aria",
+          "label": "亚莉亚店外目击蕾姬靠金次胸口→情绪崩溃逃离→金次追上后被亚莉亚打倒踩脸",
+          "timestamp": "2009-09-14T17:30:00",
+          "participants": ["aria", "kinji", "reki"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-06",
+      "participant_ids": ["kinji", "reki", "aria", "emaki"],
+      "cause": "kyoto-field-trip",
+      "outcome": "inn-hachinoko-stay"
+    },
+    {
+      "event_id": "inn-hachinoko-stay",
+      "label": "金次与蕾姬入住民宿蜂之子——同房混浴与乌鲁斯命令",
+      "time_span": {
+        "start": "2009-09-14T19:00:00",
+        "end": "2009-09-14T21:30:00",
+        "precision": "estimated",
+        "duration_display": "约2.5小时",
+        "reasoning": "v2-table标为9月14日夜；金次预约比叡山民宿→老板娘沙织误会二人关系→安排西阵之间、混浴温泉、一床棉被→就寝前蕾姬提及两道命令→狙击杀入。"
+      },
+      "nodes": [
+        {
+          "node_id": "inn-hachinoko-stay.arrival",
+          "label": "抵达民宿→沙织误会二人是情侣→安排高级和室西阵之间→用餐→混浴误会",
+          "timestamp": "2009-09-14T20:00:00",
+          "participants": ["kinji", "reki", "emaki", "saori-innkeeper"]
+        },
+        {
+          "node_id": "inn-hachinoko-stay.commands",
+          "label": "只有一床棉被→蕾姬提及两道乌鲁斯命令：生育子孙和保护金次",
+          "timestamp": "2009-09-14T21:15:00",
+          "participants": ["reki", "kinji"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-06",
+      "participant_ids": ["kinji", "reki", "emaki", "saori-innkeeper"],
+      "cause": "chaton-date-clothes-catcall",
+      "outcome": "inn-sniper-ambush"
+    },
+    {
+      "event_id": "inn-sniper-ambush",
+      "label": "民宿蜂之子远距狙击袭击——昭昭登场",
+      "time_span": {
+        "start": "2009-09-14T21:30:00",
+        "end": "2009-09-14T22:30:00",
+        "precision": "estimated",
+        "duration_display": "约1小时",
+        "reasoning": "v2-table标为9月14日21:30；昭昭从自由岳方向2180公尺外狙击→蕾姬判断Remington M700→遥控直升机威胁→二人转入森林反击。"
+      },
+      "nodes": [
+        {
+          "node_id": "inn-sniper-ambush.shot",
+          "label": "蕾姬扑倒金次→多发子弹贯穿民宿房间→打坏二人手机→蕾姬判断枪型和2180公尺距离",
+          "timestamp": "2009-09-14T21:35:00",
+          "participants": ["reki", "kinji", "cao-cao"]
+        },
+        {
+          "node_id": "inn-sniper-ambush.drone",
+          "label": "搭载枪械的黑色遥控直升机现身→虚拟人声威胁投降→蕾姬击落多架→金次保护沙织",
+          "timestamp": "2009-09-14T22:00:00",
+          "participants": ["reki", "kinji", "saori-innkeeper", "cao-cao"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-06",
+      "participant_ids": ["kinji", "reki", "emaki", "saori-innkeeper", "cao-cao"],
+      "cause": "inn-hachinoko-stay",
+      "outcome": "forest-sniper-duel"
+    },
+    {
+      "event_id": "forest-sniper-duel",
+      "label": "比叡山森林狙击决斗——蕾姬对昭昭",
+      "time_span": {
+        "start": "2009-09-14T23:00:00",
+        "end": "2009-09-15T02:00:00",
+        "precision": "estimated",
+        "duration_display": "约3小时",
+        "reasoning": "v2-table标为9月14~15日夜；金次与蕾姬进入比叡山森林→寻找巨树反狙击阵地→与昭昭持久对峙→蕾姬以闪光弹和音响弹反制→自身重伤→猎犬群逼近。"
+      },
+      "nodes": [
+        {
+          "node_id": "forest-sniper-duel.tree",
+          "label": "渡河到巨树阵地→艾马基与带发信器的改良沙皮犬缠斗→位置暴露",
+          "timestamp": "2009-09-14T23:30:00",
+          "participants": ["reki", "kinji", "emaki", "cao-cao"]
+        },
+        {
+          "node_id": "forest-sniper-duel.counter",
+          "label": "蕾姬以领巾试探射击→发射闪光弹封住夜视瞄准镜→音响弹打击集音设备→识别昭昭为年幼少女",
+          "timestamp": "2009-09-15T00:30:00",
+          "participants": ["reki", "cao-cao", "kinji"]
+        },
+        {
+          "node_id": "forest-sniper-duel.wounded",
+          "label": "蕾姬破坏敌人武器时遭无声反击→额头、右前臂、左大腿重伤→猎犬群逼近→蕾姬欲自爆断后",
+          "timestamp": "2009-09-15T01:30:00",
+          "participants": ["reki", "kinji", "cao-cao"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-06",
+      "participant_ids": ["kinji", "reki", "emaki", "cao-cao"],
+      "cause": "inn-sniper-ambush",
+      "outcome": "kinji-carries-reki"
+    },
+    {
+      "event_id": "kinji-carries-reki",
+      "label": "金次抱着重伤蕾姬逃出森林——拒绝把蕾姬当棋子",
+      "time_span": {
+        "start": "2009-09-15T02:00:00",
+        "end": "2009-09-15T04:30:00",
+        "precision": "estimated",
+        "duration_display": "约2.5小时",
+        "reasoning": "v2-table标为9月15日02:00；蕾姬重伤后要求金次丢弃她→金次拒绝并抱起她穿越森林→艾马基断后→到达波斯菊原野→星伽凤蝶引导→绳索止血。"
+      },
+      "nodes": [
+        {
+          "node_id": "kinji-carries-reki.refuse",
+          "label": "金次拒绝蕾姬自爆断后要求→抱起昏迷蕾姬→艾马基主动冲入猎犬群拖住追兵",
+          "timestamp": "2009-09-15T02:10:00",
+          "participants": ["kinji", "reki", "emaki"]
+        },
+        {
+          "node_id": "kinji-carries-reki.escape",
+          "label": "金次越过河川、树林和坡道→到达波斯菊原野→用绳索为蕾姬前臂和大腿止血",
+          "timestamp": "2009-09-15T03:30:00",
+          "participants": ["kinji", "reki"]
+        },
+        {
+          "node_id": "kinji-carries-reki.butterfly",
+          "label": "星伽凤蝶出现引导向道路方向→金次确认是人类化策略的成功",
+          "timestamp": "2009-09-15T04:30:00",
+          "participants": ["kinji", "reki"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-06",
+      "participant_ids": ["kinji", "reki", "emaki"],
+      "cause": "forest-sniper-duel",
+      "outcome": "cao-cao-road-confrontation"
+    },
+    {
+      "event_id": "cao-cao-road-confrontation",
+      "label": "昭昭公路追击——金次弃枪与星伽弓术介入",
+      "time_span": {
+        "start": "2009-09-15T05:30:00",
+        "end": "2009-09-15T06:30:00",
+        "precision": "estimated",
+        "duration_display": "约1小时",
+        "reasoning": "v2-table标为9月15日05:30；金次查看蕾姬狙击镜内照片确认昭昭→昭昭骑越野摩托追上以乌兹压制→命令丢枪→星伽风雪从卑弥呼引擎盖上放箭逼退。"
+      },
+      "nodes": [
+        {
+          "node_id": "cao-cao-road-confrontation.confirm",
+          "label": "金次检查狙击镜相机照片确认袭击者正是昭昭",
+          "timestamp": "2009-09-15T05:35:00",
+          "participants": ["kinji"]
+        },
+        {
+          "node_id": "cao-cao-road-confrontation.uzi",
+          "label": "昭昭骑二行程越野摩托追来→乌兹压制→命令丢掉贝瑞塔和沙漠之鹰→声称收集棋子",
+          "timestamp": "2009-09-15T05:50:00",
+          "participants": ["cao-cao", "kinji", "reki"]
+        },
+        {
+          "node_id": "cao-cao-road-confrontation.arrow",
+          "label": "风雪从酒红色卑弥呼引擎盖上和弓射击→箭射穿昭昭摩托油箱→昭昭逃入树林",
+          "timestamp": "2009-09-15T06:20:00",
+          "participants": ["kazayuki", "cao-cao", "shirayuki", "kinji"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-06",
+      "participant_ids": ["kinji", "reki", "cao-cao", "shirayuki", "kazayuki"],
+      "cause": "kinji-carries-reki",
+      "outcome": "hoshiga-rescue"
+    },
+    {
+      "event_id": "hoshiga-rescue",
+      "label": "星伽分社救援金次与蕾姬——凤蝶虫术",
+      "time_span": {
+        "start": "2009-09-15T06:30:00",
+        "end": "2009-09-15T07:00:00",
+        "precision": "estimated",
+        "duration_display": "约30分钟",
+        "reasoning": "v2-table标为9月15日06:30；昭昭撤退后→白雪和风雪确认金次安全→发现蕾姬重伤→准备转移至星伽京都分社治疗。"
+      },
+      "nodes": [
+        {
+          "node_id": "hoshiga-rescue.arrival",
+          "label": "酒红色光冈卑弥呼停下→白雪确认金次平安→发现蕾姬重伤→风雪检查蕾姬",
+          "timestamp": "2009-09-15T06:35:00",
+          "participants": ["shirayuki", "kazayuki", "kinji", "reki"]
+        },
+        {
+          "node_id": "hoshiga-rescue.explain",
+          "label": "白雪说明听到音响弹声→用星伽凤蝶虫术追踪→风雪开始识别蕾姬血脉",
+          "timestamp": "2009-09-15T06:50:00",
+          "participants": ["shirayuki", "kazayuki", "kinji"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-06",
+      "participant_ids": ["kinji", "reki", "shirayuki", "kazayuki"],
+      "cause": "cao-cao-road-confrontation",
+      "outcome": "reki-princess-revelation"
+    },
+    {
+      "event_id": "reki-princess-revelation",
+      "label": "风雪揭示蕾姬大陆公主身份——源义经/成吉思汗后裔",
+      "time_span": {
+        "start": "2009-09-15T07:00:00",
+        "end": "2009-09-15T07:30:00",
+        "precision": "estimated",
+        "duration_display": "约30分钟",
+        "reasoning": "v2-table标为9月15日07:00；风雪跪在蕾姬身旁检查→向白雪耳语确认→指出蕾姬是源义经=成吉思汗后裔、大陆公主。与中空知风声分析结果呼应。"
+      },
+      "nodes": [
+        {
+          "node_id": "reki-princess-revelation.identify",
+          "label": "风雪跪在重伤蕾姬身旁检查→向白雪低声确认→说出成吉思汗后裔身份",
+          "timestamp": "2009-09-15T07:15:00",
+          "participants": ["kazayuki", "reki", "shirayuki", "kinji"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-06",
+      "participant_ids": ["kinji", "reki", "shirayuki", "kazayuki"],
+      "cause": "hoshiga-rescue",
+      "outcome": "reki-star-shrine-treatment"
+    },
+    {
+      "event_id": "reki-star-shrine-treatment",
+      "label": "蕾姬星伽京都分社救治——状况E8",
+      "time_span": {
+        "start": "2009-09-15T08:00:00",
+        "end": "2009-09-15T13:00:00",
+        "precision": "estimated",
+        "duration_display": "约5小时",
+        "reasoning": "v2-table标为9月15日；蕾姬被转移到星伽京都分社→风雪用防弹车队护送→输血抢救→金次昏倒醒来后确认蕾姬无生命危险→艾马基追踪到分社守在旁边。"
+      },
+      "nodes": [
+        {
+          "node_id": "reki-star-shrine-treatment.transport",
+          "label": "防弹车队护送至星伽京都分社→医师护士进行输血治疗→金次昏倒",
+          "timestamp": "2009-09-15T09:00:00",
+          "participants": ["reki", "kinji", "shirayuki", "kazayuki", "emaki"]
+        },
+        {
+          "node_id": "reki-star-shrine-treatment.wake",
+          "label": "金次醒来确认蕾姬保住性命→需静养→艾马基也获救",
+          "timestamp": "2009-09-15T12:30:00",
+          "participants": ["kinji", "reki", "emaki", "shirayuki", "kazayuki"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-07",
+      "participant_ids": ["kinji", "reki", "shirayuki", "kazayuki", "emaki", "jeanne"],
+      "cause": "reki-princess-revelation",
+      "outcome": "urus-riri-revelation"
+    },
+    {
+      "event_id": "urus-riri-revelation",
+      "label": "乌鲁斯与璃璃色金真相揭示——最后的子弹文化",
+      "time_span": {
+        "start": "2009-09-15T14:00:00",
+        "end": "2009-09-15T16:30:00",
+        "precision": "estimated",
+        "duration_display": "约2.5小时",
+        "reasoning": "v2-table标为9月15日14:00；白雪、风雪与贞德向金次说明蕾姬可能长期接触璃璃色金→乌鲁斯族末裔→抢婚文化→最后的子弹习俗→金次理解蕾姬行为逻辑。"
+      },
+      "nodes": [
+        {
+          "node_id": "urus-riri-revelation.book",
+          "label": "风雪出示星伽史书→白雪说明色金与星伽情报→揭示蕾姬与璃璃色金心灵相通",
+          "timestamp": "2009-09-15T14:30:00",
+          "participants": ["kazayuki", "shirayuki", "kinji"]
+        },
+        {
+          "node_id": "urus-riri-revelation.culture",
+          "label": "贞德补充乌鲁斯族人数稀少、抢婚文化→最后的子弹：失去保护者后最后一发自尽的习俗",
+          "timestamp": "2009-09-15T15:30:00",
+          "participants": ["jeanne", "kinji", "shirayuki", "kazayuki"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-07",
+      "participant_ids": ["kinji", "reki", "shirayuki", "kazayuki", "jeanne"],
+      "cause": "reki-star-shrine-treatment",
+      "outcome": "aria-love-consultation"
+    },
+    {
+      "event_id": "aria-love-consultation",
+      "label": "亚莉亚的恋爱咨询——A小姐与K在希望246号上",
+      "time_span": {
+        "start": "2009-09-22T12:00:00",
+        "end": "2009-09-22T13:30:00",
+        "precision": "estimated",
+        "duration_display": "约1.5小时",
+        "reasoning": "v2-table标为9月22日；希望246号劫持前。亚莉亚在新干线上以A小姐和K为代称向理子咨询→不知火拉住金次偷听→理子预言生日会成为决战点。"
+      },
+      "nodes": [
+        {
+          "node_id": "aria-love-consultation.advice",
+          "label": "亚莉亚以A小姐和K代称咨询理子→理子分析三角关系→建议等待K在生日时行动",
+          "timestamp": "2009-09-22T12:30:00",
+          "participants": ["aria", "riko"]
+        },
+        {
+          "node_id": "aria-love-consultation.eavesdrop",
+          "label": "不知火拉住金次让他偷听→金次得知亚莉亚在意蕾姬和自己的关系",
+          "timestamp": "2009-09-22T13:00:00",
+          "participants": ["kinji", "shiranuhi", "aria", "riko"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-07",
+      "participant_ids": ["aria", "riko", "kinji", "shiranuhi"],
+      "cause": "urus-riri-revelation",
+      "outcome": "hope-246-hijacking"
+    },
+    {
+      "event_id": "hope-246-hijacking",
+      "label": "希望246号加速炸弹劫持——蓝帮曹操姐妹登场",
+      "time_span": {
+        "start": "2009-09-22T18:02:00",
+        "end": "2009-09-22T19:30:00",
+        "precision": "estimated",
+        "duration_display": "约1.5小时",
+        "reasoning": "v2-table标为9月22日18:02；曹操姐妹在新干线上布置加速炸弹与爆泡→列车每三分钟加速十公里→勒索日本政府→金次等人组织防御→冲击车顶。"
+      },
+      "nodes": [
+        {
+          "node_id": "hope-246-hijacking.announce",
+          "label": "虚拟人声广播宣布劫持→列车开始加速→理子识别加速炸弹机制",
+          "timestamp": "2009-09-22T18:10:00",
+          "participants": ["kinji", "aria", "riko", "shirayuki", "muto", "shiranuhi"]
+        },
+        {
+          "node_id": "hope-246-hijacking.organize",
+          "label": "众人分工守车厢、安抚乘客、寻找炸弹→眧眧现身操纵室→金次与亚莉亚登上车顶",
+          "timestamp": "2009-09-22T18:40:00",
+          "participants": ["kinji", "aria", "riko", "shirayuki", "muto", "shiranuhi", "cao-cao-melee", "cao-cao-gunner"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-07",
+      "participant_ids": ["kinji", "aria", "riko", "shirayuki", "muto", "shiranuhi", "cao-cao-melee", "cao-cao-gunner", "cao-cao-sniper"],
+      "cause": "aria-love-consultation",
+      "outcome": "shinkansen-rooftop-battle"
+    },
+    {
+      "event_id": "shinkansen-rooftop-battle",
+      "label": "新干线车顶双剑双枪战——王车易位式队形",
+      "time_span": {
+        "start": "2009-09-22T18:40:00",
+        "end": "2009-09-22T20:30:00",
+        "precision": "estimated",
+        "duration_display": "约1小时50分钟",
+        "reasoning": "v2-table标为9月22日；金次进入爆发模式在高速列车顶与猛妹炮娘作战→蕾姬乘OH-1直升机赶来支援→亚莉亚登顶→狙姐介入→金次以王车易位换位击倒姐妹。"
+      },
+      "nodes": [
+        {
+          "node_id": "shinkansen-rooftop-battle.kinji",
+          "label": "金次以贝瑞塔和沙漠之鹰对抗猛妹与炮娘→爆发模式高速战斗",
+          "timestamp": "2009-09-22T19:00:00",
+          "participants": ["kinji", "cao-cao-melee", "cao-cao-gunner"]
+        },
+        {
+          "node_id": "shinkansen-rooftop-battle.reki",
+          "label": "蕾姬重伤未愈却乘OH-1跳上车顶→从直升机上狙击压制→刺刀固定继续作战",
+          "timestamp": "2009-09-22T19:30:00",
+          "participants": ["reki", "kinji", "cao-cao-melee", "cao-cao-gunner"]
+        },
+        {
+          "node_id": "shinkansen-rooftop-battle.castling",
+          "label": "亚莉亚登顶参战→狙姐伪装采访直升机介入→金次以王车易位式协调双剑双枪→压制猛妹炮娘",
+          "timestamp": "2009-09-22T20:00:00",
+          "participants": ["kinji", "aria", "reki", "cao-cao-melee", "cao-cao-gunner", "cao-cao-sniper"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-07",
+      "participant_ids": ["kinji", "aria", "reki", "cao-cao-melee", "cao-cao-gunner", "cao-cao-sniper", "muto", "shirayuki"],
+      "cause": "hope-246-hijacking",
+      "outcome": "train-decoupling"
+    },
+    {
+      "event_id": "reki-helicopter-return",
+      "label": "蕾姬抢乘OH-1直升机回归战场——重伤中的守护誓言",
+      "time_span": {
+        "start": "2009-09-22T19:15:00",
+        "end": "2009-09-22T19:40:00",
+        "precision": "estimated",
+        "duration_display": "约25分钟",
+        "reasoning": "v2-table标为9月22日；蕾姬在静养中得知希望246号事故→命令莳江田驾驶OH-1追上新干线→从机舱跳上车顶支援金次。与shinkansen-rooftop-battle重叠。"
+      },
+      "nodes": [
+        {
+          "node_id": "reki-helicopter-return.decide",
+          "label": "蕾姬得知金次身陷危机→拿枪命令莳江田驾驶星伽OH-1→飞往新干线",
+          "timestamp": "2009-09-22T19:20:00",
+          "participants": ["reki", "makieda"]
+        },
+        {
+          "node_id": "reki-helicopter-return.jump",
+          "label": "蕾姬从OH-1跳上车顶→刺刀固定→狙击支援金次",
+          "timestamp": "2009-09-22T19:35:00",
+          "participants": ["reki", "kinji", "cao-cao-melee", "cao-cao-gunner"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-07",
+      "participant_ids": ["reki", "kinji", "makieda", "cao-cao-melee", "cao-cao-gunner"],
+      "cause": "shinkansen-rooftop-battle",
+      "outcome": "train-decoupling"
+    },
+    {
+      "event_id": "train-decoupling",
+      "label": "白雪切离新干线车厢——绯绯星伽神斩环",
+      "time_span": {
+        "start": "2009-09-22T20:00:00",
+        "end": "2009-09-22T20:15:00",
+        "precision": "estimated",
+        "duration_display": "约15分钟",
+        "reasoning": "v2-table标为9月22日；金次用呼荡说服白雪→她以星伽候天流·绯绯星伽神斩环切断十五号车厢→乘客脱离爆泡核心→蕾姬用炸裂弹飞越间距继续参战。"
+      },
+      "nodes": [
+        {
+          "node_id": "train-decoupling.slash",
+          "label": "白雪蓄力斩切连接处→后方车厢逐渐远离→乘客脱离爆炸核心",
+          "timestamp": "2009-09-22T20:05:00",
+          "participants": ["shirayuki", "kinji", "muto"]
+        },
+        {
+          "node_id": "train-decoupling.reki-stay",
+          "label": "蕾姬以武侦弹爆炸冲击飞回动力车→坚持继续作战",
+          "timestamp": "2009-09-22T20:12:00",
+          "participants": ["reki", "kinji", "aria"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-07",
+      "participant_ids": ["kinji", "shirayuki", "reki", "muto", "aria", "cao-cao-melee", "cao-cao-gunner"],
+      "cause": "shinkansen-rooftop-battle",
+      "outcome": "train-bomb-disposal"
+    },
+    {
+      "event_id": "train-bomb-disposal",
+      "label": "平贺拆除爆泡——氮气硅胶气球与真空瓶",
+      "time_span": {
+        "start": "2009-09-22T20:30:00",
+        "end": "2009-09-22T21:15:00",
+        "precision": "estimated",
+        "duration_display": "约45分钟",
+        "reasoning": "v2-table标为9月22日；救援列车并行→平贺文通过软管进入动力车→使用氮气硅胶气球与真空瓶抽出洗脸间爆泡→武藤紧急制动→列车停靠东京站。"
+      },
+      "nodes": [
+        {
+          "node_id": "train-bomb-disposal.hiraga",
+          "label": "平贺固定管线→切开窗洞→用氮气气球挤压并收集爆泡→成功防止爆炸",
+          "timestamp": "2009-09-22T20:50:00",
+          "participants": ["ayaka-hiraga", "kinji", "aria", "reki"]
+        },
+        {
+          "node_id": "train-bomb-disposal.brake",
+          "label": "武藤紧急制动→希望246号在东京站安全停下→金次保护同伴承受急刹冲击",
+          "timestamp": "2009-09-22T21:10:00",
+          "participants": ["muto", "kinji", "aria", "reki", "riko"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-07",
+      "participant_ids": ["kinji", "aria", "reki", "ayaka-hiraga", "muto", "riko", "cao-cao-melee", "cao-cao-gunner"],
+      "cause": "train-decoupling",
+      "outcome": "cao-cao-sisters-defeat"
+    },
+    {
+      "event_id": "cao-cao-sisters-defeat",
+      "label": "曹操三姐妹败北——蓝帮行动瓦解",
+      "time_span": {
+        "start": "2009-09-22T21:15:00",
+        "end": "2009-09-22T21:45:00",
+        "precision": "estimated",
+        "duration_display": "约30分钟",
+        "reasoning": "v2-table标为9月22日；列车抵东京站→狙姐假逃脱后在站台反制→逼迫蕾姬自尽→三姐妹被金次/亚莉亚/理子/平贺/蕾姬协同制伏。"
+      },
+      "nodes": [
+        {
+          "node_id": "cao-cao-sisters-defeat.takedown",
+          "label": "猛妹与炮娘在车顶被亚莉亚和金次缴械→理子反制→平贺收走爆泡样本",
+          "timestamp": "2009-09-22T21:20:00",
+          "participants": ["aria", "kinji", "riko", "ayaka-hiraga", "cao-cao-melee", "cao-cao-gunner"]
+        },
+        {
+          "node_id": "cao-cao-sisters-defeat.sniper",
+          "label": "狙姐假逃脱后在东京站台反制众人→以最后子弹文化威胁蕾姬→被金次反制",
+          "timestamp": "2009-09-22T21:35:00",
+          "participants": ["cao-cao-sniper", "reki", "kinji", "aria", "riko"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-07",
+      "participant_ids": ["kinji", "aria", "reki", "riko", "ayaka-hiraga", "muto", "cao-cao-melee", "cao-cao-gunner", "cao-cao-sniper"],
+      "cause": "train-bomb-disposal",
+      "outcome": "reki-last-bullet-liberation"
+    },
+    {
+      "event_id": "reki-last-bullet-liberation",
+      "label": "蕾姬最后子弹与风的离别——光驱者诞生",
+      "time_span": {
+        "start": "2009-09-22T21:45:00",
+        "end": "2009-09-22T22:15:00",
+        "precision": "estimated",
+        "duration_display": "约30分钟",
+        "reasoning": "v2-table标为9月22日21:45；狙姐逼迫蕾姬用最后子弹自尽→金次已事先拆除底火→哑弹→金次命令蕾姬不要再对自己开枪→蕾姬改称光驱者狙击狙姐→风的声音消失。"
+      },
+      "nodes": [
+        {
+          "node_id": "reki-last-bullet-liberation.misfire",
+          "label": "蕾姬扣下扳机但未击发→金次事先拆除底火→哑弹→蕾姬震惊",
+          "timestamp": "2009-09-22T21:50:00",
+          "participants": ["reki", "kinji", "cao-cao-sniper"]
+        },
+        {
+          "node_id": "reki-last-bullet-liberation.command",
+          "label": "金次装回底火→命令蕾姬不许对自己开枪→蕾姬以光驱者狙击令狙姐麻痹",
+          "timestamp": "2009-09-22T22:00:00",
+          "participants": ["kinji", "reki", "cao-cao-sniper"]
+        },
+        {
+          "node_id": "reki-last-bullet-liberation.silence",
+          "label": "理子和亚莉亚完成制伏→蕾姬宣布风的声音已消失→从乌鲁斯命运中解放",
+          "timestamp": "2009-09-22T22:10:00",
+          "participants": ["reki", "kinji", "aria", "riko", "cao-cao-sniper", "cao-cao-melee", "cao-cao-gunner"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-07",
+      "participant_ids": ["kinji", "reki", "aria", "riko", "cao-cao-sniper", "cao-cao-melee", "cao-cao-gunner"],
+      "cause": "cao-cao-sisters-defeat",
+      "outcome": "reki-post-wind-conversation"
+    },
+    {
+      "event_id": "reki-post-wind-conversation",
+      "label": "蕾姬失去风后的海边谈话——空虚也能装入新事物",
+      "time_span": {
+        "start": "2009-09-23T17:00:00",
+        "end": "2009-09-23T18:00:00",
+        "precision": "estimated",
+        "duration_display": "约1小时",
+        "reasoning": "v2-table标为9月23日17:00；巴斯克维尔登记后→金次带蕾姬和艾马基到学园岛西端→蕾姬坦言失去风声后不安→金次说空虚也能装入新事物→蕾姬宣誓永远守护。"
+      },
+      "nodes": [
+        {
+          "node_id": "reki-post-wind-conversation.anxiety",
+          "label": "蕾姬向金次坦白不再听见风声后的自我不安→承认不愿拆散金次和亚莉亚但不想被抢走",
+          "timestamp": "2009-09-23T17:15:00",
+          "participants": ["reki", "kinji", "emaki"]
+        },
+        {
+          "node_id": "reki-post-wind-conversation.new",
+          "label": "金次说空虚也能装入新事物→答应教蕾姬一般常识→蕾姬以轻敲手臂等笨拙方式表达情绪",
+          "timestamp": "2009-09-23T17:45:00",
+          "participants": ["kinji", "reki"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-07",
+      "participant_ids": ["kinji", "reki", "emaki"],
+      "cause": "reki-last-bullet-liberation",
+      "outcome": "aria-birthday-ring"
+    },
+    {
+      "event_id": "aria-birthday-ring",
+      "label": "亚莉亚生日银戒指——左手无名指的误会",
+      "time_span": {
+        "start": "2009-09-23T22:00:00",
+        "end": "2009-09-23T22:30:00",
+        "precision": "estimated",
+        "duration_display": "约30分钟",
+        "reasoning": "v2-table标为9月23日22:00；金次推理亚莉亚生日为9月23日→深夜叫到女生宿舍温室→送上纯银戒指→戴在左手无名指→亚莉亚误会动摇→跌入喷泉。"
+      },
+      "nodes": [
+        {
+          "node_id": "aria-birthday-ring.ring",
+          "label": "金次以生日礼物名义送上纯银戒指→戴在亚莉亚左手无名指→不知左手无名指含义",
+          "timestamp": "2009-09-23T22:10:00",
+          "participants": ["kinji", "aria"]
+        },
+        {
+          "node_id": "aria-birthday-ring.fall",
+          "label": "亚莉亚极度动摇→高兴又混乱→惊慌中跌入温室小喷泉",
+          "timestamp": "2009-09-23T22:25:00",
+          "participants": ["kinji", "aria"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-07",
+      "participant_ids": ["kinji", "aria"],
+      "cause": "aria-love-consultation",
+      "outcome": "baskerville-registration"
+    },
+    {
+      "event_id": "baskerville-registration",
+      "label": "巴斯克维尔小队登记——五人一犬的起点",
+      "time_span": {
+        "start": "2009-09-23T23:00:00",
+        "end": "2009-09-23T23:59:00",
+        "precision": "estimated",
+        "duration_display": "约1小时",
+        "reasoning": "v2-table标为9月23日23:59；小队编成截止前→亚莉亚申请以金次为队长、自己为副→成员白雪理子蕾姬→蕾姬最后出现→亚莉亚拥抱并解除绝交→完成登记照。"
+      },
+      "nodes": [
+        {
+          "node_id": "baskerville-registration.wait",
+          "label": "白雪和理子带金次换NERO制服→众人等待失踪的蕾姬→亚莉亚讲述小队编制",
+          "timestamp": "2009-09-23T23:30:00",
+          "participants": ["kinji", "aria", "shirayuki", "riko"]
+        },
+        {
+          "node_id": "baskerville-registration.reki",
+          "label": "蕾姬收到邮件后赶来→亚莉亚拥抱道谢并解除绝交→五人与艾马基完成登记照片",
+          "timestamp": "2009-09-23T23:55:00",
+          "participants": ["kinji", "aria", "reki", "shirayuki", "riko", "emaki"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-07",
+      "participant_ids": ["kinji", "aria", "reki", "shirayuki", "riko", "emaki"],
+      "cause": "reki-last-bullet-liberation",
+      "outcome": "go-for-next-invitation"
+    },
+    {
+      "event_id": "go-for-next-invitation",
+      "label": "贞德的正式邀请函——十月一日子时",
+      "time_span": {
+        "start": "2009-09-27T15:00:00",
+        "end": "2009-09-27T16:00:00",
+        "precision": "estimated",
+        "duration_display": "约1小时",
+        "reasoning": "v2-table标为9月27日；9月下旬放学后→金次在鞋箱发现贞德以法文书写并附中文批注的邀请函→要求十月一日子时携武器单独至空地岛歪斜风车下→武藤不知火调侃。"
+      },
+      "nodes": [
+        {
+          "node_id": "go-for-next-invitation.letter",
+          "label": "金次在鞋箱发现贞德以法文书写的正式邀请函→武藤与不知火误认情书",
+          "timestamp": "2009-09-27T15:30:00",
+          "participants": ["kinji", "jeanne", "muto", "shiranuhi"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-07",
+      "participant_ids": ["kinji", "jeanne", "muto", "shiranuhi"],
+      "cause": "baskerville-registration",
+      "outcome": "go-for-next-conference"
+    },
+    {
+      "event_id": "go-for-next-conference",
+      "label": "Go For The NEXT宣战会议——新乱世开幕",
+      "time_span": {
+        "start": "2009-10-01T00:00:00",
+        "end": "2009-10-01T01:30:00",
+        "precision": "estimated",
+        "duration_display": "约1.5小时",
+        "reasoning": "v2-table标为10月1日00:00（子时）；金次携武器赴约→蕾姬、贞德、佩特拉、加奈齐聚→众多组织大使现身→贞德宣布伊·U瓦解后世界进入新争夺阶段→蓝帮代表为曹操姐妹事件道歉。"
+      },
+      "nodes": [
+        {
+          "node_id": "go-for-next-conference.arrival",
+          "label": "金次独自到达空地岛歪斜风车下→发现蕾姬、贞德、佩特拉、加奈及众多怪人/组织大使齐聚",
+          "timestamp": "2009-10-01T00:15:00",
+          "participants": ["kinji", "reki", "jeanne", "petra", "kanae"]
+        },
+        {
+          "node_id": "go-for-next-conference.declaration",
+          "label": "贞德主持宣战会议→蓝帮代表为曹操姐妹事件道歉→宣告Go For The NEXT→伊·U瓦解后新争夺阶段开幕",
+          "timestamp": "2009-10-01T01:00:00",
+          "participants": ["jeanne", "kinji", "reki", "kanae", "petra"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-07",
+      "participant_ids": ["kinji", "jeanne", "reki", "petra", "kanae"],
+      "cause": "go-for-next-invitation",
+      "outcome": null
+    }
+  ],
+  "_meta": {
+    "volumes_covered": ["vol-06", "vol-07"],
+    "total_events": 31,
+    "date_range": "2009-08-31 ~ 2009-10-01",
+    "vol_06_range": "2009-08-31 ~ 2009-09-15",
+    "vol_07_range": "2009-09-15 ~ 2009-10-01",
+    "season": "夏末至初秋（8月底暑假结束~10月初）",
+    "key_calendar_anchors": [
+      "roof-goodbye=8月31日（vol-05结尾，vol-06起点）",
+      "开学典礼=9月1日（原文标注第二学期开学典礼）",
+      "京都校外教学=9月14日（原文标注九月十四日）",
+      "希望246号劫持=9月22日（原文标注9月22日18:02）",
+      "小队登记截止=9月23日（原文标注9月23日23:59）",
+      "宣战会议=10月1日00:00（原文标注十月一日子时）"
+    ],
+    "precision_notes": "vol-06开学日为9月1日day级精度；京都校外教学9月14日day级精度；vol-07希望246号劫持18:02为精确时间戳；小队登记23:59为精确截止时间；宣战会议10月1日子时为原文精确时间。中间事件（调查、装备等）基于事件间关系推算为estimated精度。",
+    "validation_status": "v4",
+    "next_steps": "扩展至vol-08~vol-10",
+    "main_characters_tracked": ["kinji", "aria", "reki", "riko", "shirayuki", "jeanne", "cao-cao", "cao-cao-melee", "cao-cao-gunner", "cao-cao-sniper", "kazayuki", "ayaka-hiraga", "muto", "shiranuhi", "fuma-hina", "saori-innkeeper", "nakasorachi-misaki", "emaki", "makieda", "petra", "kanae"],
+    "causal_chains": [
+      "roof-goodbye → reki-human-hunt-proposal → opening-ceremony-squad-talk → caocao-first-ambush → aria-reki-station-clash → reki-investigation → equipment-upgrade → kyoto-field-trip → chaton-date → inn-hachinoko → inn-sniper-ambush → forest-sniper-duel → kinji-carries-reki → caocao-road-confrontation → hoshiga-rescue → reki-princess-revelation → reki-star-shrine-treatment",
+      "urus-riri-revelation → (7-day interval) → aria-love-consultation → hope-246-hijacking → shinkansen-rooftop-battle → train-decoupling → train-bomb-disposal → caocao-sisters-defeat → reki-last-bullet-liberation → reki-post-wind-conversation → aria-birthday-ring → baskerville-registration → go-for-next-invitation → go-for-next-conference"
+    ],
+    "cross_volume_bridge": "vol-05 roof-goodbye (8/31 18:30) → vol-06 reki-human-hunt-proposal (8/31 18:40) 约10分钟间隔：亚莉亚离开屋顶后蕾姬立即现身",
+    "critical_nodes": [
+      "reki-last-bullet-liberation: 蕾姬从风命令中解放、'光驱者'命名",
+      "baskerville-registration: 巴斯克维尔小队正式成立（金次/亚莉亚/蕾姬/白雪/理子+艾马基）",
+      "urus-riri-revelation: 揭秘蕾姬身世=源义经/成吉思汗后裔+乌鲁斯最后的子弹文化",
+      "reki-princess-revelation: 风雪识破蕾姬大陆公主身份，与中空知风声分析闭环",
+      "forest-sniper-duel: 昭昭正式登场，万武属性与棋子评估"
+    ]
+  }
+}

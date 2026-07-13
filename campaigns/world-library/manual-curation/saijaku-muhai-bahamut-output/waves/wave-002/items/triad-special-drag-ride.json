@@ -1,0 +1,53 @@
+{
+  "_schema": "rp-item-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "item_id": "triad-special-drag-ride",
+  "volume": "vol-09",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-09/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-09",
+      "volume": "vol-09",
+      "time": "vol-09",
+      "name": {
+        "zh": "三和音特装机龙",
+        "en": "Triad Special Drag-Rides"
+      },
+      "aliases": [
+        "三和音机体"
+      ],
+      "type": "weapon / equipment",
+      "description": "谢里丝、媞尔珐、诺珂特等三和音成员执行巡逻和支援时使用的特装机龙统称。",
+      "details": {
+        "owners": [
+          "sharis",
+          "tillfur",
+          "nox"
+        ]
+      },
+      "owner": "无特定归属",
+      "status": "active",
+      "features": [
+        "巡逻支援",
+        "通讯",
+        "迷彩支援"
+      ],
+      "associated_abilities": [
+        "academy-security",
+        "special-drag-ride-stealth"
+      ],
+      "history": [
+        {
+          "event_id": "sacred-eclipse-battle",
+          "summary": "三和音中能出动者协助清除干扰史莱姆和支援赛莉丝。"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:6737"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema": "tm-fgo-source-text-manifest-v1",
+  "worldId": "type-moon-nasuverse",
+  "project": "fgo-lb1-lb2-pilot",
+  "arc": "lostbelt",
+  "expected": 2,
+  "built": 2,
+  "status": "passed",
+  "model": "lt-yuyu/gpt-5.5",
+  "sources": [
+    {
+      "chapterId": "fgo-lb1-anastasia",
+      "chapterOrder": 1,
+      "slug": "lb1-anastasia",
+      "entryIndex": 93,
+      "comment": "FGO_LB1_安娜塔西亚",
+      "path": "sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt",
+      "sourceType": "user-file-worldbook-script",
+      "canonStatus": "canon-like",
+      "credibility": "B",
+      "eventCountEstimated": 24,
+      "quoteCountEstimated": 40,
+      "status": "built"
+    },
+    {
+      "chapterId": "fgo-lb2-gotterdammerung",
+      "chapterOrder": 2,
+      "slug": "lb2-gotterdammerung",
+      "entryIndex": 94,
+      "comment": "FGO_LB2_诸神黄昏",
+      "path": "sources/worldbook-script/lostbelt/ch-094-lb2-gotterdammerung.txt",
+      "sourceType": "user-file-worldbook-script",
+      "canonStatus": "canon-like",
+      "credibility": "B",
+      "eventCountEstimated": 19,
+      "quoteCountEstimated": 30,
+      "status": "built"
+    }
+  ]
+}

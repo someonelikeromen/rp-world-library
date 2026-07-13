@@ -1,0 +1,75 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "misha-flott",
+  "volume": "danmachi-main/vol-04",
+  "time_range": { "start": "vol-04-prologue", "end": "vol-04-prologue" },
+  "sub_arcs": ["prologue-back-alley-fastest-boy"],
+  "periods": [
+    {
+      "period_id": "vol-04-prologue-guild-lv2-announcement",
+      "volume": "danmachi-main/vol-04",
+      "time": "Morning at the Guild before Denatus",
+      "label": "Misha witnesses Bell's surprise level-up report",
+      "name": { "zh": "蜜西亚", "en": "Misha Flott", "jp": "ミィシャ・フロット" },
+      "aliases": ["蜜西亚"],
+      "titles": ["公会服务小姐"],
+      "gender": "female",
+      "species": "human",
+      "nationality": "",
+      "occupation": "Guild receptionist",
+      "affiliation": "Guild",
+      "status": { "work_state": "Handling the crowded Guild hall with Eina." },
+      "appearance": {
+        "overview": "A Guild receptionist seated near Eina, carrying stacks of documents during the morning rush.",
+        "physical": { "height": "", "build": "", "hair": {}, "eyes": {} },
+        "attire": { "default": "Guild receptionist attire", "combat": "" },
+        "voice_quality": {},
+        "distinctive": []
+      },
+      "personality": {
+        "summary": "Friendly and teasing toward Eina, but completely stunned when Bell reveals his Lv.2 promotion.",
+        "core_traits": ["chatty", "teasing", "observant", "good-natured"],
+        "values": ["coworker camaraderie", "Guild service"],
+        "fears": [],
+        "desires": ["tease Eina about Bell", "give Eina private time to talk with Bell"],
+        "strengths": ["social awareness", "helpful coworker behavior"],
+        "flaws": ["can distract Eina during work"],
+        "inner_conflict": "",
+        "decision_pattern": { "social_mode": "Lightly teases Eina, then tactfully moves away when Bell approaches." }
+      },
+      "voice": {
+        "self_reference": "",
+        "address_pattern": {},
+        "register": { "tone": "playful coworker banter" },
+        "catchphrases": [],
+        "quote_samples": ["埃伊娜最喜欢的冒险者小弟"]
+      },
+      "habits": {
+        "mannerisms": ["whispers to Eina from beside her", "drops a pile of documents when shocked"],
+        "daily_routine": "Works beside Eina at the Guild reception counter.",
+        "quirks": ["teases Eina about Bell"],
+        "preferences": {}
+      },
+      "background": {
+        "birth": { "place": "", "family": [] },
+        "upbringing": "",
+        "education": {},
+        "formative_events": [],
+        "pre_story": "Often hears Eina talk about Bell and knows he has been an adventurer for less than two months."
+      },
+      "abilities_owned": [],
+      "possessions_owned": ["Guild documents"],
+      "relationships": { "eina-tulle": "Coworker and friend she teases about Bell.", "bell-cranel": "Young adventurer she recognizes through Eina's frequent mentions." },
+      "knowledge": ["Knows Bell is a novice adventurer of less than two months", "Learns Bell has already reached Lv.2"],
+      "secrets": [],
+      "summary": "Misha teases Eina about Bell and prepares to leave them space, but freezes and drops her documents when Bell announces he has reached Lv.2.",
+      "key_events": [
+        { "event_id": "bell-reports-lv2-at-guild", "summary": "Misha drops her documents in shock at Bell's Lv.2 announcement.", "sourceRef": "danmachi-main/vol-04/full.txt:114" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-04/full.txt:28", "danmachi-main/vol-04/full.txt:90", "danmachi-main/vol-04/full.txt:114", "danmachi-main/vol-04/full.txt:118"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-04/full.txt:28", "danmachi-main/vol-04/full.txt:114", "danmachi-main/vol-04/full.txt:118"]
+}

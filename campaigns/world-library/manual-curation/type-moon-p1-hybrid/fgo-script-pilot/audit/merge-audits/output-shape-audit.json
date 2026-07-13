@@ -1,0 +1,30 @@
+{
+  "schema": "tm-fgo-part1-merge-output-shape-audit-v1",
+  "stepId": "merge-final",
+  "result": "passed",
+  "createdOutputGroups": [
+    "merged/part1-merge-manifest.json",
+    "merged/chapters/*.json",
+    "merged/event-groups/*.json",
+    "merged/world-states/*.json",
+    "merged/characters/*.json",
+    "merged/relationships/*.json",
+    "timeline/*.json",
+    "graph/*.json",
+    "candidates/*.json",
+    "comparison/*.md",
+    "comparison/*.json",
+    "audit/merge-audits/*.json",
+    "audit/final-audit-summary.md",
+    "audit/final-known-issues.json",
+    "audit/final-pass-report.json"
+  ],
+  "forbiddenAggregateFormalFiles": ["characters.json", "events.json", "relationships.json"],
+  "forbiddenAggregateFormalFilesCreated": [],
+  "sourceImportsModified": false,
+  "oldCuratedModified": false,
+  "notes": [
+    "Indexes contain fact references and counts only.",
+    "Canonical files under merged preserve per-shard factRefs and do not replace shard storage."
+  ]
+}

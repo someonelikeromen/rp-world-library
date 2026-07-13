@@ -1,0 +1,151 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "ares",
+  "volume": "vol-08",
+  "time_range": {
+    "start": "序章",
+    "end": "终章"
+  },
+  "sub_arcs": [
+    "第六次入侵欧拉丽",
+    "某女神的恋曲",
+    "生日"
+  ],
+  "source_refs": [
+    "danmachi-main/vol-08/full.txt:7-302",
+    "danmachi-main/vol-08/full.txt:9207-12295"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-08-ch-06",
+      "volume": "vol-08",
+      "time": "第六章 某女神的恋曲",
+      "label": "绑架赫斯缇雅的愚神",
+      "name": {
+        "zh": "阿瑞斯",
+        "en": "Ares",
+        "jp": "アレス"
+      },
+      "aliases": [
+        "军神",
+        "斗神"
+      ],
+      "gender": "男",
+      "species": "神",
+      "occupation": "拉几亚王国主神",
+      "affiliation": "拉几亚王国",
+      "status": {
+        "location": "拉几亚军本营、欧拉丽北门、比欧山地",
+        "state": "亲自绑架赫斯缇雅后逃亡失败"
+      },
+      "appearance": {
+        "overview": "金发如狮鬃、穿红色铠甲的健壮男神。"
+      },
+      "personality": {
+        "summary": "鲁莽、好战、好面子，常把王国拖入灾难；思路简单却行动力极强。",
+        "core_traits": [
+          "好战",
+          "鲁莽",
+          "自大",
+          "不服输",
+          "笨拙"
+        ],
+        "values": [
+          "战争荣耀",
+          "克罗佐魔剑",
+          "拉几亚面子"
+        ],
+        "desires": [
+          "重现拉几亚魔剑荣光",
+          "打击欧拉丽"
+        ],
+        "flaws": [
+          "不听劝",
+          "战略短视",
+          "亲自冒险导致被俘"
+        ]
+      },
+      "relationships": {
+        "marius-victrix-rakia": "经常规谏自己的副官与拉几亚王子",
+        "hestia": "绑架成神质的人质",
+        "loki": "战后谈判中迫使他放弃士兵能力值的对手",
+        "welf-crozzo": "想夺回的克罗佐魔剑锻造者"
+      },
+      "summary": "阿瑞斯在战败边缘决定亲自绑架赫斯缇雅，偶然在北门得手并逃入比欧山地，却被艾丝、贝尔与亚丝菲追上。战后他被欧拉丽俘虏，被迫放弃约一万名士兵的能力值并支付赔偿。",
+      "key_events": [
+        {
+          "event_id": "ares-orders-hestia-kidnapping",
+          "summary": "决定亲自抓赫斯缇雅作为交换韦尔夫的神质。",
+          "sourceRef": "danmachi-main/vol-08/full.txt:9330"
+        },
+        {
+          "event_id": "hestia-leaves-orario-and-is-abducted",
+          "summary": "在北门外偶然撞见并抓走赫斯缇雅。",
+          "sourceRef": "danmachi-main/vol-08/full.txt:10040"
+        },
+        {
+          "event_id": "bell-and-ais-chase-ares-through-bio-mountains",
+          "summary": "试图亲自对抗艾丝但长剑瞬间折断。",
+          "sourceRef": "danmachi-main/vol-08/full.txt:10720"
+        },
+        {
+          "event_id": "sixth-rakia-invasion-ends",
+          "summary": "战后被迫放弃大量士兵能力值并支付赔偿。",
+          "sourceRef": "danmachi-main/vol-08/full.txt:12263"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-08/full.txt:9330",
+        "danmachi-main/vol-08/full.txt:10040",
+        "danmachi-main/vol-08/full.txt:12263"
+      ]
+    },
+    {
+      "period_id": "vol-08-prologue",
+      "volume": "vol-08",
+      "time": "序章 进击的军神",
+      "label": "发动第六次入侵",
+      "name": {
+        "zh": "阿瑞斯",
+        "en": "Ares",
+        "jp": "アレス"
+      },
+      "aliases": [
+        "军神",
+        "斗神"
+      ],
+      "titles": [
+        "拉几亚王国主神",
+        "军神"
+      ],
+      "gender": "男",
+      "species": "神",
+      "occupation": "国家类眷族主神、事实上的拉几亚最高领导者",
+      "affiliation": "拉几亚王国",
+      "status": {
+        "location": "拉几亚军本营",
+        "state": "因前线惨败和军纪崩坏而暴怒"
+      },
+      "summary": "派出三万军队进攻欧拉丽，却被都市高等级冒险者和商人双重压制。",
+      "key_events": [
+        {
+          "event_id": "rakia-kingdom-marches-on-orario",
+          "summary": "以军神神意发动对欧拉丽的入侵。",
+          "sourceRef": "danmachi-main/vol-08/full.txt:7"
+        },
+        {
+          "event_id": "orario-alliance-repels-rakia-invasion",
+          "summary": "听取前线一至五军覆没的报告。",
+          "sourceRef": "danmachi-main/vol-08/full.txt:271"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-08/full.txt:16",
+        "danmachi-main/vol-08/full.txt:271"
+      ]
+    }
+  ]
+}

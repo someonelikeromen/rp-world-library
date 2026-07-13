@@ -1,0 +1,31 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "loki",
+  "volume": "vol-07",
+  "time_range": {"start": "特典", "end": "特典"},
+  "sub_arcs": ["战争游戏后祝贺特典"],
+  "periods": [
+    {
+      "period_id": "vol-07-bonus-celebration",
+      "volume": "vol-07",
+      "time": "特典 庆祝？",
+      "label": "用雪落花恶作剧",
+      "name": {"zh": "洛基", "en": "Loki", "jp": "ロキ"},
+      "gender": "女",
+      "species": "女神",
+      "occupation": "主神",
+      "affiliation": "洛基眷族",
+      "status": {"location": "洛基眷族客厅", "state": "得知艾丝想祝贺贝尔后，恶作剧地建议送雪落花"},
+      "personality": {"summary": "爱恶作剧且敌视赫斯缇雅，利用花语制造误会。", "core_traits": ["恶作剧", "狡黠", "护短", "好胜"]},
+      "relationships": {"ais-wallenstein": "被她误导送花的眷属", "bell-cranel": "艾丝想祝贺的对象", "hestia": "怨敌与恶作剧目标"},
+      "summary": "洛基听见艾丝与蒂奥娜讨论给贝尔的祝贺礼物后，明知赫斯缇雅眷族会误解，仍建议艾丝送花。艾丝最终送出花语不祥的雪落花，引发灶火馆恐慌；真相曝光后，洛基被艾丝踹倒。",
+      "key_events": [
+        {"event_id": "ais-gives-bell-snowdrop-bouquet", "summary": "建议艾丝送花，导致雪落花误会。", "sourceRef": "danmachi-main/vol-07/full.txt:12530"}
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-07/full.txt:12530", "danmachi-main/vol-07/full.txt:12568"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-07/full.txt:12511-12568"]
+}

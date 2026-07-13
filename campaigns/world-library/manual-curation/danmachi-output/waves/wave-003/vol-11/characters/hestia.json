@@ -1,0 +1,43 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "hestia",
+  "volume": "vol-11",
+  "time_range": { "start": "BD1短篇", "end": "BD2短篇" },
+  "sub_arcs": ["开始之日", "你好，世界"],
+  "periods": [
+    {
+      "period_id": "vol-11-bd1-recruits-bell",
+      "volume": "vol-11",
+      "time": "BD1短篇 启程之日 开始之日",
+      "label": "在街头招募贝尔",
+      "name": { "zh": "赫斯缇雅", "en": "Hestia", "jp": "ヘスティア" },
+      "aliases": ["神大人"],
+      "gender": "女",
+      "species": "女神",
+      "occupation": "赫斯缇雅眷族主神",
+      "affiliation": "赫斯缇雅眷族",
+      "status": { "location": "欧拉丽街道小巷口", "state": "正在招募眷族成员" },
+      "summary": "赫斯缇雅在街上招募冒险者成员时发现即将走进危险小巷的贝尔，并提醒他不要进去。她说明自己正好想要冒险者成员，向贝尔伸手；贝尔立刻请求加入，她高兴地接受并互通姓名，眷族由此开始。",
+      "key_events": [
+        { "event_id": "bell-arrives-orario-and-meets-hestia", "summary": "接纳无处可去的贝尔成为眷族成员。", "sourceRef": "danmachi-main/vol-11/full.txt:560" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-11/full.txt:555-598"]
+    },
+    {
+      "period_id": "vol-11-bd2-descent-and-search-for-familia",
+      "volume": "vol-11",
+      "time": "BD2短篇 你好，世界",
+      "label": "降临下界并在贫困中寻找眷族",
+      "status": { "location": "欧拉丽、废弃教会地下室", "state": "被赫菲斯托丝赶出后打工维生，持续招募眷族失败" },
+      "summary": "赫斯缇雅封印神力后降临草原并进入欧拉丽，先遭洛基嘲笑，又投靠赫菲斯托丝。她沉迷下界食物与书籍三个月，被赫菲斯托丝赶出后住进废弃教会地下室，靠打工和朋友援助度日。连续劝诱失败后，她注意到同样无处可归的贝尔，并以守护炉火般的本质向他伸手。",
+      "key_events": [
+        { "event_id": "hestia-descends-and-finds-bell", "summary": "经历降临、寄居、贫困和劝诱失败后发现贝尔。", "sourceRef": "danmachi-main/vol-11/full.txt:599" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-11/full.txt:599-1024"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-11/full.txt:555-1024"]
+}

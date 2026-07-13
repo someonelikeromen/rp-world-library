@@ -1,0 +1,87 @@
+{
+  "_schema": "rp-item-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "item_id": "lindworm",
+  "volume": "vol-06",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:900",
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:7180"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-06",
+      "volume": "vol-06",
+      "time": "本卷",
+      "name": {
+        "zh": "凛德龙虫",
+        "en": "Lindworm"
+      },
+      "aliases": [
+        "神装机龙凛德龙虫"
+      ],
+      "type": "weapon / vehicle / artifact",
+      "description": "赛莉丝驾驶的黄金神装机龙，能以支配者神域瞬间移动并进行强力枪击。",
+      "details": {
+        "class": "神装机龙",
+        "divine_raiment": "lindworm-ruler-domain"
+      },
+      "owner": "celistia-ralgris",
+      "status": "active",
+      "features": [
+        "支配者神域",
+        "雷光穿枪",
+        "星光爆破",
+        "高水平单机战斗"
+      ],
+      "associated_abilities": [
+        "lindworm-ruler-domain",
+        "lindworm-cross-strike",
+        "star-burst"
+      ],
+      "history": [
+        "本卷用于拦截夜架、保护观众席和击败地狱守门犬。"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:900",
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:7180"
+      ]
+    },
+    {
+      "period_id": "vol-15",
+      "volume": "vol-15",
+      "time": "Mishis battle",
+      "name": {
+        "zh": "神装机龙《凛德龙虫》",
+        "en": "Divine Drag-Ride Lindworm"
+      },
+      "aliases": [
+        "赛莉丝的神装机龙"
+      ],
+      "type": "weapon / equipment",
+      "description": "赛莉丝使用的飞翔型神装机龙，神装《支配者神域》能在领域内瞬间移动。",
+      "details": {
+        "class": "divine drag-ride",
+        "role": "aerial spear combat"
+      },
+      "owner": "celistia-ralgris",
+      "status": "damaged",
+      "features": [
+        "瞬间移动领域",
+        "突击枪战斗",
+        "特攻型态"
+      ],
+      "associated_abilities": [
+        "lindworm-ruler-domain",
+        "celistia-assault-form"
+      ],
+      "history": [
+        "赛莉丝解除装甲至极限后用其击败密丝希斯。"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-15/full.txt:4030"
+      ]
+    }
+  ]
+}

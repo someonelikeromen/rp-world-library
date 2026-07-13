@@ -1,0 +1,53 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "asfi-al-andromeda",
+  "volume": "vol-08",
+  "time_range": { "start": "序章", "end": "第六章" },
+  "sub_arcs": ["第六次入侵欧拉丽", "某女神的恋曲"],
+  "periods": [
+    {
+      "period_id": "vol-08-prologue",
+      "volume": "vol-08",
+      "time": "序章 进击的军神",
+      "label": "市墙上的荷米斯眷族团长",
+      "name": { "zh": "亚丝菲·阿尔·安德洛墨达", "en": "Asfi Al Andromeda", "jp": "アスフィ・アル・アンドロメダ" },
+      "titles": ["万能者", "荷米斯眷族团长"],
+      "gender": "女",
+      "species": "人类",
+      "occupation": "冒险者、魔道具制作者、派系团长",
+      "affiliation": "荷米斯眷族",
+      "status": { "location": "欧拉丽市墙", "state": "陪荷米斯观察拉几亚战场" },
+      "summary": "在市墙上询问荷米斯是否要再次耍计，并担心他刺激芙蕾雅眷族。",
+      "key_events": [
+        { "event_id": "hermes-keeps-hestia-familia-out-of-war", "summary": "与荷米斯讨论不再把贝尔卷入拉几亚事件。", "sourceRef": "danmachi-main/vol-08/full.txt:307" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-08/full.txt:307"]
+    },
+    {
+      "period_id": "vol-08-ch-06",
+      "volume": "vol-08",
+      "time": "第六章 某女神的恋曲",
+      "label": "飞天鞋定位赫斯缇雅",
+      "name": { "zh": "亚丝菲·阿尔·安德洛墨达", "en": "Asfi Al Andromeda", "jp": "アスフィ・アル・アンドロメダ" },
+      "titles": ["万能者"],
+      "gender": "女",
+      "species": "人类",
+      "occupation": "高级冒险者、魔道具制作者",
+      "affiliation": "荷米斯眷族",
+      "status": { "location": "欧拉丽北门、比欧山地上空", "state": "用飞天鞋从空中追踪赫斯缇雅，后被马里乌斯牵制" },
+      "appearance": { "overview": "水色头发、戴银框眼镜、披纯白披风的知性美女。" },
+      "personality": { "summary": "认真、可靠、常被荷米斯拖累但关键时刻能以魔道具解决难题。", "core_traits": ["可靠", "理性", "苦劳人", "专业"], "values": ["派系安全", "任务完成", "控制荷米斯惹出的麻烦"], "strengths": ["神秘发展能力", "魔道具制作", "飞天鞋空中侦察", "隐身道具"], "flaws": ["常被主神甩开或卷入麻烦"] },
+      "relationships": { "hermes": "惹麻烦的主神", "bell-cranel": "救援行动中的协力对象", "ais-wallenstein": "追击赫斯缇雅时的地面战力", "marius-victrix-rakia": "以秘银锁链牵制她的敌方王子" },
+      "summary": "赫斯缇雅被绑架后，亚丝菲用飞天鞋和魔道具从空中定位拉几亚主队，引导艾丝与贝尔追击；在比欧山地上空，她被马里乌斯以秘银锁链限制行动，但最终带回足以结束战争的情报。",
+      "key_events": [
+        { "event_id": "asfi-locates-hestia-and-pursuit-begins", "summary": "以万能者能力定位被掳的赫斯缇雅。", "sourceRef": "danmachi-main/vol-08/full.txt:10355" },
+        { "event_id": "bell-and-ais-chase-ares-through-bio-mountains", "summary": "在空中担当天眼并被马里乌斯牵制。", "sourceRef": "danmachi-main/vol-08/full.txt:10905" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-08/full.txt:10355", "danmachi-main/vol-08/full.txt:10905"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-08/full.txt:307-326", "danmachi-main/vol-08/full.txt:10120-12295"]
+}

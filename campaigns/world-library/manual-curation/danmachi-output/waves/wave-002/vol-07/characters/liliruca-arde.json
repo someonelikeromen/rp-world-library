@@ -1,0 +1,76 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "liliruca-arde",
+  "volume": "vol-07",
+  "time_range": {"start": "序章", "end": "第二章"},
+  "sub_arcs": ["新生赫斯缇雅眷族初回探索", "新总部搬入与债务危机", "寻找远东旧识"],
+  "periods": [
+    {
+      "period_id": "vol-07-prologue",
+      "volume": "vol-07",
+      "time": "序章 女神是残酷的淫都之王",
+      "label": "委托管理与支援者职责",
+      "name": {"zh": "莉莉露卡·厄德", "en": "Liliruca Arde", "jp": "リリルカ・アーデ"},
+      "aliases": ["莉莉"],
+      "gender": "女",
+      "species": "小人族",
+      "occupation": "支援者",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {"location": "地下城第13层", "state": "负责委托目标、战利品回收与行囊管理"},
+      "personality": {"summary": "现实而精明，强调扩张后的眷族仍需要金钱。", "core_traits": ["务实", "精明", "重视收益"]},
+      "summary": "确认红缟玛瑙与独角兔毛皮委托完成；怪物奉送时被贝尔抱起撤退。",
+      "key_events": [
+        {"event_id": "hestia-familia-first-expedition-after-war-game", "summary": "确认红缟玛瑙与独角兔毛皮委托完成。", "sourceRef": "danmachi-main/vol-07/full.txt:60"},
+        {"event_id": "hestia-familia-pass-parade-vol-07", "summary": "怪物奉送时抱怨未能回收魔石并被贝尔带走。", "sourceRef": "danmachi-main/vol-07/full.txt:154"}
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-07/full.txt:60", "danmachi-main/vol-07/full.txt:154"]
+    },
+    {
+      "period_id": "vol-07-ch-01",
+      "volume": "vol-07",
+      "time": "第一章 一帆风顺",
+      "label": "新总部会计与风险控制",
+      "name": {"zh": "莉莉露卡·厄德", "en": "Liliruca Arde", "jp": "リリルカ・アーデ"},
+      "aliases": ["莉莉"],
+      "gender": "女",
+      "species": "小人族",
+      "occupation": "支援者、眷族会计",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {"location": "赫斯缇雅眷族新总部", "state": "检查空房与维护需求，随后主导债务与税金现实评估"},
+      "personality": {"summary": "精明现实且占有欲强；债务曝光后立刻调查流言、计算资产与税金，并接管派系资产管理。", "core_traits": ["现实", "精打细算", "保护欲强", "警觉"]},
+      "summary": "检查新总部平面与二十多个空房；借据事件后追问赫斯缇雅，并指出改装耗尽赔偿金、派系升E级将带来高额年税。",
+      "key_events": [
+        {"event_id": "hestia-familia-moves-into-former-apollo-mansion", "summary": "检查新总部并评估维护人手需求。", "sourceRef": "danmachi-main/vol-07/full.txt:476"},
+        {"event_id": "hestia-debt-support-pact", "summary": "说明资产不足与E级派系税负，确立节俭筹资路线。", "sourceRef": "danmachi-main/vol-07/full.txt:1062"}
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-07/full.txt:476", "danmachi-main/vol-07/full.txt:1014", "danmachi-main/vol-07/full.txt:1062"]
+    },
+    {
+      "period_id": "vol-07-ch-02",
+      "volume": "vol-07",
+      "time": "第二章 跑吧！克朗尼",
+      "label": "追踪命并警告风月街危险",
+      "name": {"zh": "莉莉露卡·厄德", "en": "Liliruca Arde", "jp": "リリルカ・アーデ"},
+      "aliases": ["莉莉"],
+      "gender": "女",
+      "species": "小人族",
+      "occupation": "支援者、眷族会计",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {"location": "风月街第三区", "state": "追踪命并多次试图阻止贝尔进入红灯区；贝尔走散后脸色苍白"},
+      "personality": {"summary": "警觉、现实且保护贝尔，对风月街与伊丝塔眷族势力圈有基本认识；能迅速判断命与千草行动危险。", "core_traits": ["警觉", "现实", "保护欲强", "情报敏锐"]},
+      "relationships": {"bell-cranel": "极力保护其免进红灯区的同伴", "mikoto-yamato": "追踪并责备其隐瞒的同伴", "chigusa-hitachi": "听其解释风月街线索", "welf-crozzo": "共同跟踪命与找贝尔的同伴"},
+      "summary": "莉莉发现命整日异常后与韦尔夫安排跟踪，进入红灯区前强烈要求贝尔回去。她说明风月街日夜颠倒和第三区受某派系支配，并警告命与千草不要随意探听。发现贝尔走散后，她意识到危险而脸色苍白。",
+      "key_events": [
+        {"event_id": "mikoto-and-chigusa-enter-red-light-district", "summary": "与韦尔夫、贝尔跟踪命进入风月街。", "sourceRef": "danmachi-main/vol-07/full.txt:1288"},
+        {"event_id": "welf-and-lili-confront-mikoto", "summary": "警告第三区既是风月街也是某派系势力圈。", "sourceRef": "danmachi-main/vol-07/full.txt:1596"},
+        {"event_id": "bell-gets-lost-in-red-light-district", "summary": "发现贝尔不见后陷入惊慌。", "sourceRef": "danmachi-main/vol-07/full.txt:1608"}
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-07/full.txt:1288", "danmachi-main/vol-07/full.txt:1400", "danmachi-main/vol-07/full.txt:1596", "danmachi-main/vol-07/full.txt:1608"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-07/full.txt:1-3572"]
+}

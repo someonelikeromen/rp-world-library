@@ -1,0 +1,40 @@
+{
+  "schema":"tm-fgo-appearance-ability-fix-report-v2",
+  "stepId":"visual-ability-fixer-r2",
+  "model":"lt-yuyu/gpt-5.5",
+  "status":"fixed-and-readonly-audit-rerun-completed",
+  "mutationScope":"campaigns/world-library/manual-curation/type-moon-p1-hybrid/fgo-script-pilot/",
+  "constraints":{"writesInsidePilotOnly":true,"noShellOrCodeExecutionToolsUsed":true,"oldCuratedUntouched":true,"sourceImportsUntouched":true,"docsAndSkillsUntouched":true,"noWikiOrModelMemoryFacts":true},
+  "blockingFindingsAddressed":[
+    {"finding":"Ars Nova used as source-backed Solomon formal label","fix":"Source-backed Solomon ability/combat labels now use 第一宝具 / 自我抹消; Ars Nova retained only as aliasCandidates with unsupported-by-current-source status where relevant."},
+    {"finding":"Balmung used as source-backed Orleans formal label","fix":"Orleans source-backed ability/combat labels now use 幻想大剑——天魔失坠; Balmung retained only as unsupported aliasCandidate."},
+    {"finding":"Excalibur used in Camelot source-backed formal IDs","fix":"Camelot ability and relationship formal IDs now use holy-sword/归还圣剑 wording; Excalibur retained only as unsupported aliasCandidate."},
+    {"finding":"Brahmastra, Forneus, Flauros, Goetia English labels present where current source lacks them","fix":"Brahmastra moved to unsupported aliasCandidates; Okeanos/Septem/Solomon source-backed prose now uses 梵天啊，覆盖大地, 弗内乌斯/佛钮司, 佛劳洛斯, and 盖提亚. English aliases were retained only as unsupported aliasCandidates for reviewer awareness where kept."},
+    {"finding":"Normalized character fragments and relationship shards depended on provenance-status-index","fix":"Direct sourceType/credibility/canonStatus fields were added to normalized formal character fragments and relationship shards; normalized/part1/provenance-status-index.json was updated to a v2 coverage summary."}
+  ],
+  "representativeFilesUpdated":[
+    "extracted/part1/solomon/ability-signals/index.json",
+    "normalized/part1/solomon/abilities/records.json",
+    "merged/abilities/part1/solomon/records.json",
+    "normalized/part1/solomon/combat-effects/records.json",
+    "merged/combat-effects/part1/solomon/records.json",
+    "normalized/part1/solomon/relationships/roman-goetia-ars-nova.json",
+    "normalized/part1/orleans/abilities/records.json",
+    "normalized/part1/orleans/combat-effects/records.json",
+    "normalized/part1/camelot/abilities/records.json",
+    "normalized/part1/camelot/relationships/bedivere-lion-king-excalibur-return.json",
+    "normalized/part1/america/abilities/records.json",
+    "normalized/part1/america/combat-effects/records.json",
+    "normalized/part1/okeanos/abilities/records.json",
+    "normalized/part1/okeanos/relationships/medea-forneus-manifestation.json",
+    "normalized/part1/septem/appearances/records.json",
+    "normalized/part1/provenance-status-index.json",
+    "merged/visual-ability-combat-crossref-index.json",
+    "merged/characters/visual-ability-combat-ref-index.json",
+    "audit/final-audit-summary.md",
+    "audit/final-pass-report.json"
+  ],
+  "readonlyAuditorRerun":{"method":"read-only validation by direct read/grep/find/ls tools; no executable commands","checks":["grepped normalized/merged/extracted for old source-backed IDs such as romani-ars-nova, ars-nova-root, siegfried-balmung, return-excalibur, karna-brahmastra, flaurous","grepped target external labels Ars Nova/Balmung/Excalibur/Brahmastra/Forneus/Flauros/Goetia and reviewed remaining hits as aliasCandidates, historical reports, or technical paths/slugs rather than source-backed formal labels/descriptions","spot-read source files to confirm Orleans 幻想大剑——天魔失坠, Camelot 圣剑/归还圣剑, Solomon 第一宝具/自我抹消, Okeanos 弗内乌斯/佛钮司, Septem 佛劳洛斯, America 梵天啊，覆盖大地","spot-checked direct sourceType/credibility/canonStatus on normalized formal shards"],"validationStatus":"passed for blocking R2 source-first terminology and direct metadata fixes with caveat that some legacy file paths/internal slugs still contain old English tokens because no delete/rename tool is available; their records are no longer source-backed under those labels and aliases are marked unsupported."},
+  "knownIssuesPreserved":["orleans-duplicate-event-n","okeanos-heracles-continuity-tension","solomon-support-cast-partial-fragment-coverage","visual-detail-not-found-in-source"],
+  "validationStatus":"R2 read-only auditor rerun completed using repository read/search tools only."
+}

@@ -1,0 +1,53 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "fafnir-wise-blood",
+  "volume": "vol-06",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:7080"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-06",
+      "volume": "vol-06",
+      "time": "本卷",
+      "name": {
+        "zh": "财祸睿智",
+        "en": "Wise Blood"
+      },
+      "aliases": [
+        "法夫纳神装"
+      ],
+      "type": "technology / authority",
+      "description": "法夫纳的神装，可预测未来并辅助库露露席法规避攻势。",
+      "details": {
+        "drag_ride": "fafnir",
+        "usage": "用于应对葛莱法的连续攻击"
+      },
+      "activation": {
+        "condition": "驾驶法夫纳",
+        "incantation": "无",
+        "time": "持续",
+        "cost": "注意力与能量"
+      },
+      "effects": [
+        "预测短期行动",
+        "规避攻击",
+        "寻找反击条件"
+      ],
+      "known_feats": [
+        "库露露席法对葛莱法单挑时依赖预测维持战线"
+      ],
+      "shared_by": [
+        "krulcifer-einfolk"
+      ],
+      "see_also": [
+        "fafnir"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:7080"
+      ]
+    }
+  ]
+}

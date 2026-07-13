@@ -1,0 +1,64 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "stone-miasma",
+  "volume": "vol-12",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-12/full.txt:3727-5112"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-12-main",
+      "volume": "vol-12",
+      "time": "箱庭内部突袭",
+      "name": {
+        "zh": "石化障气",
+        "en": "Stone Miasma"
+      },
+      "aliases": [
+        "《巴西利斯克》神装",
+        "凝固障气"
+      ],
+      "type": "supernatural / technology / combat",
+      "description": "拜因的神装机龙《巴西利斯克》能力，释放紫色烟雾状黏剂，使接触的装甲关节凝固并阻断能量传达。",
+      "details": {
+        "divine_drag_ride": "basilisk",
+        "user": "bayne-ashetes"
+      },
+      "activation": {
+        "condition": "驾驶《巴西利斯克》并释放障气",
+        "incantation": "石化障气",
+        "time": "短时间持续",
+        "cost": "需让敌人接触障气；离开后效果会消退"
+      },
+      "effects": [
+        "关节凝固",
+        "动作阻碍",
+        "制造撤退机会"
+      ],
+      "power_level": {
+        "initial": "控制型神装",
+        "peak": "暂时限制路克斯的《飞翔机龙》手腕",
+        "evolution": []
+      },
+      "known_feats": [
+        "拜因以石化障气阻止路克斯追击夺走至高之力者"
+      ],
+      "shared_by": [
+        "bayne-ashetes"
+      ],
+      "see_also": [
+        "basilisk"
+      ],
+      "countered_by": [],
+      "counters": [
+        "armored-dragon-machines"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-12/full.txt:3727-5112"
+      ]
+    }
+  ]
+}

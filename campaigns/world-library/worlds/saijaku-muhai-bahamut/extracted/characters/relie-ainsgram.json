@@ -1,0 +1,81 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "relie-ainsgram",
+  "volume": "vol-17",
+  "time_range": {
+    "start": "游行聚会",
+    "end": "菲尔菲病倒"
+  },
+  "sub_arcs": [
+    "philuffy-health"
+  ],
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-17/full.txt:4520"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-17",
+      "volume": "vol-17",
+      "time": "游行循环期间",
+      "label": "隐瞒妹妹病情的学园长",
+      "name": {
+        "zh": "蕾莉·艾因拉姆",
+        "en": "Relie Aingram",
+        "jp": ""
+      },
+      "aliases": [
+        "蕾莉"
+      ],
+      "titles": [
+        "学园长",
+        "菲尔菲的姐姐"
+      ],
+      "gender": "female",
+      "species": "human",
+      "nationality": "新王国",
+      "occupation": "学园长",
+      "affiliation": "王立士官学园;艾因拉姆家",
+      "status": {
+        "alive": true,
+        "condition": "受感知操纵影响;照顾病倒的菲尔菲"
+      },
+      "abilities_owned": [],
+      "possessions_owned": [],
+      "relationships": {
+        "philuffy-ainsgram": {
+          "type": "姐妹",
+          "status": "知道菲尔菲身体负担并尊重她不告诉路克斯的意愿"
+        },
+        "lux-arcadia": {
+          "type": "学生/亲近对象",
+          "status": "向路克斯转述菲尔菲真实感情"
+        }
+      },
+      "knowledge": [
+        "philuffy-health-burden"
+      ],
+      "secrets": [
+        "菲尔菲计划游行后休养且不想让路克斯担心"
+      ],
+      "summary": "蕾莉在酒吧聚会中配合菲尔菲离席,后来在菲尔菲病倒时向路克斯说明妹妹强撑的原因和对他的真实感情,推动路克斯正视自己对菲尔菲的爱。",
+      "key_events": [
+        {
+          "event_id": "relie-party-cover",
+          "summary": "在聚会中因担心菲尔菲而让路克斯带她离开。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-17/full.txt:1120"
+        },
+        {
+          "event_id": "relie-tells-philuffy-feelings",
+          "summary": "说明菲尔菲不告白是因为不想让路克斯为自己痛苦。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-17/full.txt:4520"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-17/full.txt:1120",
+        "saijaku-muhai-bahamut-main/vol-17/full.txt:4520"
+      ]
+    }
+  ]
+}

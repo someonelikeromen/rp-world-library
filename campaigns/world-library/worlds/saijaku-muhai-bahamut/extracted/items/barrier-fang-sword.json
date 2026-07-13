@@ -1,0 +1,79 @@
+{
+  "_schema": "rp-item-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "item_id": "barrier-fang-sword",
+  "volume": "vol-06",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:5120"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-06",
+      "volume": "vol-06",
+      "time": "本卷",
+      "name": {
+        "zh": "障壁牙剑",
+        "en": "Barrier Fang Sword"
+      },
+      "aliases": [
+        "防御用牙剑"
+      ],
+      "type": "weapon",
+      "description": "路克斯用于极击反击的剑型武装，可配合障壁反弹敌方攻击。",
+      "details": {
+        "role": "防御反击核心武器"
+      },
+      "owner": "lux-arcadia",
+      "status": "active",
+      "features": [
+        "障壁反弹",
+        "极击媒介"
+      ],
+      "associated_abilities": [
+        "critical-hit"
+      ],
+      "history": [
+        "废村诱饵作战与多次防御战中使用"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:5120"
+      ]
+    },
+    {
+      "period_id": "vol-09",
+      "volume": "vol-09",
+      "time": "vol-09",
+      "name": {
+        "zh": "障壁牙剑",
+        "en": "Barrier Fang Sword"
+      },
+      "aliases": [],
+      "type": "weapon",
+      "description": "莉夏打造、路克斯用于极击反击的剑型武装。",
+      "details": {
+        "creator": "lisha",
+        "used_with": "wyvern"
+      },
+      "owner": "lux",
+      "status": "active",
+      "features": [
+        "破坏敌方武装",
+        "需要洞悉攻击预备动作"
+      ],
+      "associated_abilities": [
+        "godspeed-control"
+      ],
+      "history": [
+        {
+          "event_id": "heiburg-duel",
+          "summary": "路克斯用其粉碎嘉莲希雅机龙牙剑和机龙息铳。"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:5341"
+      ]
+    }
+  ]
+}

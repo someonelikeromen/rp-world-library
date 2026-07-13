@@ -1,0 +1,19 @@
+{
+  "schema": "tm-fgo-packet-fix-round-v1",
+  "packetId": "pkt-fgo-eor-salem-extract",
+  "chapterId": "fgo-eor-salem",
+  "slug": "salem",
+  "round": 1,
+  "model": "lt-yuyu/gpt-5.5",
+  "status": "completed",
+  "fixes": [
+    {"id":"salem-fix-001","addresses":"salem-audit-001-issue-001","action":"Created normalized/eor/salem manifest-style normalized outputs plus packet audit final-status files.","sourceRefs":[{"path":"work-packets/eor/salem.json","lineStart":61,"lineEnd":101}],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"},
+    {"id":"salem-fix-002","addresses":"salem-audit-001-issue-002","action":"Created source-backed appearance, ability, and combat-effect signal indexes plus explicit not-found-in-source records for missing visual/activation/choreography details.","sourceRefs":[{"path":"sources/worldbook-script/eor/ch-092-salem.txt","lineStart":19,"lineEnd":83}],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"},
+    {"id":"salem-fix-003","addresses":"salem-audit-001-issue-003","action":"Assigned dialogueRefs salem-dlg-001 through salem-dlg-021 to all 21 quoted timeline lines.","sourceRefs":[{"path":"sources/worldbook-script/eor/ch-092-salem.txt","lineStart":41,"lineEnd":83}],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"}
+  ],
+  "postFixCounts": {"events":12,"dialogueRefs":21,"appearanceSignals":9,"abilitySignals":18,"combatEffectSignals":12,"notFoundRecords":6},
+  "sourceRefs": [{"path":"sources/worldbook-script/eor/ch-092-salem.txt","lineStart":1,"lineEnd":83}],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

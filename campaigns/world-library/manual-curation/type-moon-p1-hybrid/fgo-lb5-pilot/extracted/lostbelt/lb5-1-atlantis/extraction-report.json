@@ -1,0 +1,17 @@
+{
+  "schema":"tm-fgo-extraction-report-v1",
+  "packetId":"pkt-fgo-lostbelt-lb5-1-atlantis-extract",
+  "chapterId":"fgo-lb5-1-atlantis",
+  "model":"lt-yuyu/gpt-5.5",
+  "status":"passed",
+  "sourceType":"user-file-worldbook-script",
+  "credibility":"B",
+  "canonStatus":"canon-like",
+  "sourceRefs":["sources/worldbook-script/lostbelt/ch-097-lb5-1-atlantis.txt:1-124"],
+  "sourceTextStatus":"built-and-used",
+  "extractionCoverage":{"worldState":true,"stageCharacters":true,"eventFiles":31,"dialogueRecords":37,"appearanceSignals":true,"abilitySignals":true,"combatEffectSignals":true,"notFoundRecords":true,"mentions":true,"candidates":true},
+  "rawEventCoverage":{"expected":31,"extracted":31,"codes":"事件A1-事件A4, 事件B-事件B3, 事件C-事件C4, 事件D-事件R"},
+  "rawFieldRetention":"All event files retain rawEventCode, title, time_raw, triggerRaw, completionRaw, summaryRaw, orderIndex, sourceRefs, sourceType, credibility, and canonStatus.",
+  "sourceFirstNotes":["Raw Chinese terminology preserved.","Raw time anomalies preserved without correction.","Unsupported external/game/wiki labels only appear as aliasCandidates unsupported-by-current-source.","No formal aggregate characters.json/events.json/relationships.json fact store created."],
+  "auditResult":"passed after audit-round-002; openIssues 0; blockedIssues 0; canAdvance true"
+}

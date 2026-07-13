@@ -1,0 +1,31 @@
+{
+  "schema": "tm-fgo-ability-signal-index-v1",
+  "chapterKey": "fuyuki",
+  "chapterId": "fgo-part1-fuyuki",
+  "status": "supplemented-r1",
+  "signals": [
+    {
+      "signalId": "fuyuki-ability-mash-lord-chaldeas",
+      "characterIdCandidate": "mash-kyrielight",
+      "characterNameRaw": "玛修",
+      "abilityType": "noble-phantasm",
+      "abilityNameRaw": "人理之础 (Lord Chaldeas)",
+      "activationScene": "Caster forces Mash under practical combat pressure until she completes a pseudo Noble Phantasm deployment; Olga Marie names the unnamed Noble Phantasm Lord Chaldeas.",
+      "visualEffect": "not-found-in-source: pseudo-deployment is stated, but no visual effect is described.",
+      "mechanicalEffect": "Awakens Mash's guardian conviction and establishes her usable defensive Noble Phantasm state.",
+      "target": "Mash / allied defense line",
+      "costOrConsequence": "Requires pressure, bond growth, and acceptance of the guardian role; true-name release remains incomplete in Fuyuki.",
+      "eventRefs": ["merged/events/part1/fuyuki/004-event-E.json", "merged/events/part1/fuyuki/007-event-H.json"],
+      "status": "source-backed",
+      "notFoundReason": "Detailed visual animation is absent from source.",
+      "sourceRefs": ["sources/worldbook-script/part1/ch-000-fuyuki.txt#event-E", "sources/worldbook-script/part1/ch-000-fuyuki.txt#event-H"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    }
+  ],
+  "sourceRefs": ["sources/worldbook-script/part1/ch-000-fuyuki.txt"],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

@@ -1,0 +1,30 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "ais-wallenstein",
+  "volume": "vol-12",
+  "time_range": { "start": "第一章", "end": "附赠广播剧" },
+  "sub_arcs": ["监视贝尔", "追杀薇妮", "与贝尔对立后动摇", "梦境内心"],
+  "periods": [{
+    "period_id": "vol-12-ais-confronts-bell-and-wiene",
+    "volume": "vol-12",
+    "time": "第一章-终章、附赠广播剧",
+    "label": "以剑姬立场阻止怪物并被薇妮动摇",
+    "name": { "zh": "艾丝·华伦斯坦", "en": "Ais Wallenstein", "jp": "アイズ・ヴァレンシュタイン" },
+    "gender": "女",
+    "species": "人类",
+    "occupation": "第一级冒险者、剑姬",
+    "affiliation": "洛基眷族",
+    "status": { "level": "Lv.6", "location": "代达罗斯路、城墙训练地", "state": "仍将会使人哭泣的怪物视为必杀对象，但对贝尔和薇妮产生动摇" },
+    "summary": "艾丝在代达罗斯路多次与贝尔相遇，接受芬恩安排监视贝尔。她被琉牵制后仍追踪贝尔和薇妮，明确表示若怪物让人哭泣就会杀死怪物。贝尔为了薇妮与她交锋，说出希望异端儿能拥有安身之处；薇妮返回后以撕裂自身翅膀与折断指甲证明意志，使艾丝无法下杀手。终章中，她在城墙与贝尔重逢，虽称贝尔奸诈，仍答应日后继续训练。广播剧梦境则显露她追求变强、等待帮助的孤独内心。",
+    "key_events": [
+      { "event_id": "lili-and-bell-decoy-operation-start", "summary": "被琉拖住，暂时失去对贝尔的监视。", "sourceRef": "danmachi-main/vol-12/full.txt:3915-4664" },
+      { "event_id": "bell-duels-ais-to-protect-wiene", "summary": "与贝尔决斗并最终放过薇妮。", "sourceRef": "danmachi-main/vol-12/full.txt:4953-8194" },
+      { "event_id": "bell-vs-asterius-public-duel", "summary": "被芙蕾雅眷族阻止介入贝尔与阿斯泰里奥斯之战。", "sourceRef": "danmachi-main/vol-12/full.txt:9327-10846" },
+      { "event_id": "dream-party-potion-chaos", "summary": "梦中面对童年自我与贝尔声音。", "sourceRef": "danmachi-main/vol-12/full.txt:11311-12564" }
+    ],
+    "evidence_level": "S",
+    "source_refs": ["danmachi-main/vol-12/full.txt:301-1242", "danmachi-main/vol-12/full.txt:3915-8194", "danmachi-main/vol-12/full.txt:10847-12564"]
+  }],
+  "source_refs": ["danmachi-main/vol-12/full.txt:301-1242", "danmachi-main/vol-12/full.txt:3915-8194", "danmachi-main/vol-12/full.txt:10847-12564"]
+}

@@ -1,0 +1,35 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "eiril-triser",
+  "volume": "vol-08",
+  "periods": [{
+    "period_id": "vol-08-main",
+    "volume": "vol-08",
+    "time": "优密尔教国巡礼祭期间",
+    "name": { "zh": "艾露堤莉泽·梅可雷雅", "en": "Eiltilize Meikleia", "jp": "" },
+    "aliases": ["艾露堤莉泽"],
+    "titles": ["恩芙尔克家管家"],
+    "gender": "female",
+    "species": "human",
+    "nationality": "优密尔教国",
+    "occupation": "管家、机龙使",
+    "affiliation": "恩芙尔克家族",
+    "status": { "state": "alive", "condition": "在旧神殿战场护卫恩芙尔克家" },
+    "appearance": { "overview": "成熟严谨的黑礼服女性。" },
+    "personality": { "summary": "耿直严格，重视库露露席法，也容易被恋爱话题动摇。", "core_traits": ["忠诚", "认真", "善良"] },
+    "abilities_owned": ["wyrm-x-dual-sword"],
+    "possessions_owned": ["wyrm-x"],
+    "relationships": {
+      "krullcifer-einfolk": { "type": "侍从/友人", "summary": "同样由恩芙尔克收留，与库露露席法重修旧好。" },
+      "stiel-einfolk": { "type": "侍奉对象", "summary": "负责族长与家族成员的护卫与安排。" },
+      "lux-arcadia": { "type": "友善", "summary": "接待路克斯并误会其与库露露席法的婚约。" }
+    },
+    "knowledge": ["stiel-rescue-truth"],
+    "summary": "艾露堤莉泽负责接待路克斯与库露露席法，在恩芙尔克家和巡礼现场之间协调。旧神殿战斗中，她以《陆战机龙X》保护史提尔与察因。",
+    "key_events": [{ "event_id": "ancient-temple-battle", "summary": "旧神殿战场保护恩芙尔克家族成员。", "sourceRef": "saijaku-muhai-bahamut-main/vol-08/full.txt:5010" }],
+    "evidence_level": "S",
+    "source_refs": ["saijaku-muhai-bahamut-main/vol-08/full.txt:574", "saijaku-muhai-bahamut-main/vol-08/full.txt:5010"]
+  }],
+  "source_refs": ["saijaku-muhai-bahamut-main/vol-08/full.txt:574"]
+}

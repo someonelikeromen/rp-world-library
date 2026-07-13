@@ -1,0 +1,69 @@
+{
+  "schema": "tm-p1-final-pass-report-v1",
+  "worldId": "type-moon-nasuverse",
+  "scope": "fsn-fz-pilot",
+  "generatedAt": "2026-07-12",
+  "generatedByStep": "finalize-retry",
+  "model": "lt-yuyu/gpt-5.5",
+  "terminalStatus": "passed-with-known-risks",
+  "canPublishPilotSideBySide": true,
+  "canReplaceCurated": false,
+  "waves": {
+    "total": 18,
+    "passed": 18,
+    "failed": 0,
+    "blocked": 0,
+    "openIssues": 0,
+    "blockedIssues": 0,
+    "rerunPerformedByFinalizeRetry": false
+  },
+  "mergeGraphTimeline": {
+    "mergedEntities": {
+      "file": "merged/merged-entities.json",
+      "status": "passed-with-recorded-risks",
+      "formalCollectionsPresent": true,
+      "sourcePolicyPresent": true,
+      "candidateRefsSeparated": true
+    },
+    "mergedGraph": {
+      "file": "merged/merged-graph.json",
+      "status": "passed-after-finalize-retry-repair",
+      "formalEdges": 11,
+      "allFormalEdgesHaveSourceRefs": true,
+      "allFormalEdgesHaveTimelineId": true,
+      "allFormalEdgesHaveTimeRange": true,
+      "allFormalEdgesAudited": true,
+      "allFormalEdgesMediumOrHighConfidence": true
+    },
+    "mergedTimeline": {
+      "file": "merged/merged-timeline.json",
+      "status": "passed",
+      "timelines": ["fz-fourth-war", "fsn-fate-route", "fsn-ubw-route", "fsn-hf-route"],
+      "fsnDatePolicy": "relative-only route timing; no calendar dates invented",
+      "fzDatePolicy": "exact timestamps preserved where source provides them"
+    },
+    "mergedIndex": {
+      "file": "merged/index.json",
+      "status": "created-by-finalize-retry"
+    }
+  },
+  "acceptanceChecks": {
+    "allJsonReviewedByReadback": true,
+    "machineJsonValidationRun": false,
+    "sourceTextMetadataBlocksRecordedBySourcePrepAudit": true,
+    "formalFactsHaveSourceRefsPolicy": true,
+    "formalEventsHaveTimeAndTimelineNodesByGroupAudit": true,
+    "coreCharactersHavePeriodsByWave017Status": true,
+    "relationshipsHaveTimelineIdTimeRangeSourceRefs": true,
+    "candidateFormalSeparationPreserved": true,
+    "curatedArchiveModified": false,
+    "sourceImportsModified": false,
+    "comparisonReportsGenerated": true,
+    "migrationRecommendationGenerated": true
+  },
+  "knownIssueRefs": ["SRC-001", "SRC-002", "SRC-003", "ID-RECON-001", "MIGRATION-001"],
+  "terminalDecision": {
+    "decision": "publish-curated-v2-pilot-side-by-side",
+    "rationale": "The FSN/FZ p1-hybrid pilot package passed wave and final integration checks after repairing graph edge timeRange fields, but source coverage is intentionally partial and old curated must remain untouched without explicit migration approval."
+  }
+}

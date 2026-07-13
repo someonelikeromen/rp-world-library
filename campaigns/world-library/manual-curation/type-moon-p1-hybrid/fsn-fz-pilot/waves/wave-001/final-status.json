@@ -1,0 +1,15 @@
+{
+  "waveId": "wave-001",
+  "status": "passed",
+  "model": "lt-yuyu/gpt-5.5",
+  "cycle": ["generator", "auditor", "fixer", "auditor-rerun"],
+  "outputs": [
+    "output.json",
+    "audit-report.md",
+    "fix-trail.md",
+    "final-status.json"
+  ],
+  "openIssues": 0,
+  "blockers": [],
+  "notes": "Passed for the current source layer. Partial raw source capture remains recorded as source-layer risk."
+}

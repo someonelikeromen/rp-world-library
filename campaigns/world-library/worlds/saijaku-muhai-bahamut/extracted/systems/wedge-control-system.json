@@ -1,0 +1,45 @@
+{
+  "_schema": "rp-system-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "system_id": "wedge-control-system",
+  "volume": "vol-14",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-14/full.txt:700"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-14",
+      "volume": "vol-14",
+      "time": "路克斯被俘期间",
+      "name": {
+        "zh": "楔控制系统",
+        "en": "Wedge Control System"
+      },
+      "aliases": [
+        "楔项圈系统"
+      ],
+      "type": "technology / restraint",
+      "description": "大圣域系统派生的俘虏控制机制，通过项圈感知创造主命令、反抗意图、解除尝试或离开古城行为并释放电击。",
+      "principles": "判定违反命令后释放电击，第三次或致命设定可杀死佩戴者；暴食可短时间削弱电击输出。",
+      "classification": "命令违抗、反抗意识、解除尝试、离域触发、冲击触发。",
+      "known_practitioners": [
+        "hayes-vi-arcadia",
+        "ariel-vi-arcadia",
+        "rilithica-rei-arcadia"
+      ],
+      "limitations": [
+        "可通过巴哈姆特暴食压缩电力输出后切断",
+        "使用者命令暧昧时有解释空间"
+      ],
+      "related_systems": [
+        "great-sanctuary-system",
+        "bahamut-gluttony"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-14/full.txt:700",
+        "saijaku-muhai-bahamut-main/vol-14/full.txt:5300"
+      ]
+    }
+  ]
+}

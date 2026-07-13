@@ -1,0 +1,56 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "liliruca-arde",
+  "volume": "vol-08",
+  "time_range": { "start": "第一章", "end": "第二章" },
+  "sub_arcs": ["赫斯缇雅眷族新日常", "帕鲁姆的求婚"],
+  "periods": [
+    {
+      "period_id": "vol-08-ch-01",
+      "volume": "vol-08",
+      "time": "第一章 献给某武神的恋歌",
+      "label": "春姬探索运用方案",
+      "name": { "zh": "莉莉露卡·厄德", "en": "Liliruca Arde", "jp": "リリルカ・アーデ" },
+      "aliases": ["莉莉"],
+      "gender": "女",
+      "species": "小人族",
+      "occupation": "支援者、参谋",
+      "affiliation": "赫斯缇雅眷族",
+      "status": { "location": "灶火馆与地下城第15层", "state": "规划春姬参战并指导其支援者工作" },
+      "summary": "强烈主张在保密前提下让春姬参与探索，并在第15层以克罗佐魔剑优先清除风险。",
+      "key_events": [
+        { "event_id": "haruhime-joins-dungeon-party", "summary": "主张谨慎运用春姬的等级升华。", "sourceRef": "danmachi-main/vol-08/full.txt:538" },
+        { "event_id": "hestia-familia-tests-new-formation", "summary": "使用魔剑清场并与韦尔夫争论风险。", "sourceRef": "danmachi-main/vol-08/full.txt:678" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-08/full.txt:538", "danmachi-main/vol-08/full.txt:733"]
+    },
+    {
+      "period_id": "vol-08-ch-02",
+      "volume": "vol-08",
+      "time": "第二章 帕鲁姆的求婚",
+      "label": "拒绝勇者求婚并选择贝尔",
+      "name": { "zh": "莉莉露卡·厄德", "en": "Liliruca Arde", "jp": "リリルカ・アーデ" },
+      "aliases": ["莉莉", "支援者小姐"],
+      "gender": "女",
+      "species": "小人族",
+      "occupation": "支援者、参谋",
+      "affiliation": "赫斯缇雅眷族",
+      "status": { "location": "欧拉丽；小人的秘密之家", "state": "拒绝芬恩求婚并与贝尔和解" },
+      "personality": { "summary": "精明坚韧但自卑，对贝尔抱有不求回报的爱与支援者式忠诚。", "core_traits": ["现实", "敏锐", "嫉妒心", "献身", "勇气"], "values": ["贝尔的幸福", "支援者职责", "自我选择的归属"], "fears": ["被贝尔当作非异性", "失去队伍位置", "比不上艾丝或春姬"], "desires": ["永远支持贝尔", "被贝尔需要"], "strengths": ["资源管理", "变身魔法", "冷静判断", "弱小者的勇气"], "flaws": ["自我厌恶", "赌气逃避", "嫉妒时刻薄"], "inner_conflict": "明知贝尔倾慕艾丝，仍无法放弃对贝尔的爱与支援。" },
+      "abilities_owned": ["灶灰女", "幕后功臣"],
+      "possessions_owned": ["克罗佐的魔剑", "支援者背包"],
+      "relationships": { "bell-cranel": "拯救她并被她决定终身支持的对象；被他视作家人与不可或缺队友", "finn-deimne": "欣赏她勇气并向她求婚的同族勇者", "hestia": "主神与情敌之一", "haruhime-sanjouno": "新同伴；一度因其魔法产生自卑", "morm-conwall": "曾收留她的地精杂货店店主", "luan-espel": "战争游戏中被她变身牵连的前阿波罗眷族小人族" },
+      "summary": "莉莉得知贝尔的异常成长源于对艾丝的思慕后陷入自卑，又被芬恩求婚动摇；她在与芬恩面谈中确认自己早已决定把一切献给贝尔，拒绝婚事，并在贝尔闯入挽留后与他和解。",
+      "key_events": [
+        { "event_id": "hestia-familia-learns-liaris-freese", "summary": "得知贝尔的一心憧憬源于对艾丝的思慕。", "sourceRef": "danmachi-main/vol-08/full.txt:2130" },
+        { "event_id": "lili-rejects-finn-proposal", "summary": "拒绝芬恩的求婚，选择继续支持贝尔。", "sourceRef": "danmachi-main/vol-08/full.txt:3380" },
+        { "event_id": "bell-interrupts-lili-marriage-talk", "summary": "被贝尔称为不可或缺的队友后和解。", "sourceRef": "danmachi-main/vol-08/full.txt:3485" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-08/full.txt:1885", "danmachi-main/vol-08/full.txt:3380", "danmachi-main/vol-08/full.txt:3685"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-08/full.txt:538-797", "danmachi-main/vol-08/full.txt:1885-3772"]
+}

@@ -28,12 +28,14 @@ const WORLDS_DIR = join(LIB_ROOT, WORLD_CONFIG.curatedDir || "worlds");
 const IMPORTS_DIR = join(LIB_ROOT, WORLD_CONFIG.rawWorldviewsDir || join("imports", "worldviews"));
 
 const WorldQueryParams = Type.Object({
-	action: StringEnum(["worlds", "overview", "search", "get", "characters", "stories", "aggregate", "graph"] as const, {
-		description: "worlds=list worlds; overview=light summary; search=keyword search with extracted/source-backed first; get=read ref or world+query with extracted priority; characters=list/search extracted characters first; stories=list/read story indexes/chapters; aggregate=cross-file merged entity lookup; graph=relation traversal",
+	action: StringEnum(["worlds", "overview", "search", "get", "characters", "stories", "aggregate", "graph", "timeline"] as const, {
+		description: "worlds=list worlds; overview=light summary; search=keyword search with extracted/source-backed first; get=read ref or world+query with extracted priority; characters=list/search extracted characters first; stories=list/read story indexes/chapters; aggregate=cross-file merged entity lookup; graph=relation traversal; timeline=time-based event query (requires extracted/timeline.json)",
 	}),
 	world: Type.Optional(Type.String({ description: "World slug, e.g. type-moon-nasuverse or high-school-dxd" })),
 	query: Type.Optional(Type.String({ description: "Keyword/name/id/fuzzy text to search" })),
 	ref: Type.Optional(Type.String({ description: "Reference returned by search, e.g. char:type-moon-nasuverse:fsn-rin, story:..." })),
+	time: Type.Optional(Type.String({ description: "ISO timestamp for timeline queries, e.g. 2009-07-20 or 2009-07-20T14:00" })),
+	timeRange: Type.Optional(Type.Object({ from: Type.String({ description: "Start timestamp" }), to: Type.String({ description: "End timestamp" }) }, { description: "Time range for timeline queries" })),
 	category: Type.Optional(StringEnum(["all", "character", "world", "story", "rule", "raw", "source", "graph"] as const, {
 		description: "Optional search/overview category filter",
 	})),
@@ -836,9 +838,22 @@ function graphTraversal(params: any, maxBytes: number): ToolResult {
 		return { ...r, targetName: zhName };
 	});
 
-	// Narrative timeline
+	// Narrative timeline (use calendar timeline if available, fallback to periods)
 	let narrativeTimeline: any[] = [];
-	if (entityData?.periods) {
+	const tl = loadTimeline(slug);
+	if (tl && charId) {
+		// Find events where this character participated
+		const charEvents = (tl.events || []).filter((e: any) => {
+			const parts = e.participants || e.participant_ids || [];
+			return parts.includes(charId);
+		}).slice(0, 20);
+		narrativeTimeline = charEvents.map((e: any) => ({
+			event_id: e.event_id, label: e.label,
+			time: e.time_span?.start, duration: e.time_span?.duration_display,
+			event_type: e.event_type, volume: e.volume, nodes: (e.nodes || []).length,
+		}));
+	}
+	if (narrativeTimeline.length === 0 && entityData?.periods) {
 		narrativeTimeline = entityData.periods.filter((p: any) => p.volume || p.time)
 			.map((p: any) => ({ volume: p.volume, time: p.time, label: p.label, summary: (p.summary || "").substring(0, 200), keyEvents: (p.key_events || []).slice(0, 5) }));
 	}
@@ -922,6 +937,64 @@ function applyRanking(results: any[], config: any): any[] {
 	});
 }
 
+// ─── timeline: time-based event query ───
+function loadTimeline(slug: string): any | undefined {
+	return safeJson(join(extractedDir(slug), "timeline.json"));
+}
+
+function timeline(params: any, maxBytes: number): ToolResult {
+	const slug = params.world;
+	if (!slug) return errorResult("action=timeline requires world", maxBytes);
+	const tl = loadTimeline(slug);
+	if (!tl) return errorResult("No timeline.json found for world: " + slug + ". Run timeline reconstruction first.", maxBytes);
+
+	const events = tl.events || [];
+	const queryTime = params.time;
+	const queryRange = params.timeRange;
+	const queryEvent = params.query;
+
+	if (queryEvent) {
+		// Single event lookup
+		const event = events.find((e: any) => e.event_id === queryEvent);
+		if (!event) return errorResult("Event not found: " + queryEvent, maxBytes);
+		// Load entity data if available
+		const entityData = safeJson(extractedEntityFile(slug, "events", queryEvent));
+		return textResult({
+			ok: true, world: slug, calendar: tl.calendar,
+			event: { ...event, entityDetail: entityData || null },
+		}, { ok: true, action: "timeline", world: slug }, maxBytes);
+	}
+
+	let filtered: any[] = [];
+	if (queryTime) {
+		// Events at or before this time
+		filtered = events.filter((e: any) => e.time_span?.start <= queryTime);
+		if (filtered.length === 0) filtered = events.filter((e: any) => e.time_span?.start?.startsWith(queryTime));
+	} else if (queryRange) {
+		filtered = events.filter((e: any) => e.time_span?.start >= queryRange.from && e.time_span?.start <= queryRange.to);
+	} else {
+		filtered = events.slice(0, capLimit(params.limit));
+	}
+
+	if (filtered.length === 0) return textResult({ ok: true, world: slug, calendar: tl.calendar, total_events: events.length, filtered: 0, events: [], tip: "No events match; try broader time range or different world" }, { ok: true, action: "timeline", world: slug }, maxBytes);
+
+	const limit = capLimit(params.limit);
+	const sliced = filtered.slice(0, limit);
+	const participantSet = new Set<string>();
+	for (const e of sliced) { for (const p of (e.participants || e.participant_ids || [])) participantSet.add(p); }
+
+	return textResult({
+		ok: true, world: slug, calendar: tl.calendar, total_events: events.length, filtered: filtered.length, returned: sliced.length,
+		timeRange: sliced.length > 0 ? { earliest: sliced[0].time_span?.start, latest: sliced[sliced.length-1].time_span?.start } : null,
+		events: sliced.map((e: any) => ({ event_id: e.event_id, label: e.label, time_span: e.time_span, nodes: (e.nodes || []).length, participants: e.participants || e.participant_ids, event_type: e.event_type, volume: e.volume })),
+		active_participants: [...participantSet].slice(0, 50),
+		next: [
+			`world_query { action: "timeline", world: "${slug}", query: "<event_id>" }`,
+			`world_query { action: "get", ref: "entity:${slug}:characters:<id>" }`
+		],
+	}, { ok: true, action: "timeline", world: slug, filtered: filtered.length, returned: sliced.length }, maxBytes);
+}
+
 export default function (pi: ExtensionAPI) {
 	pi.registerTool({
 		name: "world_query",
@@ -940,6 +1013,7 @@ export default function (pi: ExtensionAPI) {
 					case "stories": return stories(params, maxBytes);
 					case "aggregate": return aggregateResults(params, maxBytes);
 					case "graph": return graphTraversal(params, maxBytes);
+				case "timeline": return timeline(params, maxBytes);
 					default: return errorResult(`Unsupported action: ${params.action}`, maxBytes);
 				}
 			} catch (err: any) {

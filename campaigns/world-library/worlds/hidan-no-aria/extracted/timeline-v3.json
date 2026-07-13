@@ -1,0 +1,1442 @@
+{
+  "_schema": "rp-timeline-v1",
+  "world": "hidan-no-aria",
+  "calendar": {
+    "system": "公历",
+    "anchor": "2009年日本公历",
+    "confidence": "high",
+    "reasoning": "Vol-05明确标注2009年8月；vol-04七夕=7月7日锚点；vol-03从6月初理子色诱开始，延续vol-02的5月10日悬念结尾。i-u-submarine/cathedral-duel/icbm-chase修正为~7月25日（接vol-04金字塔作战后），非8月22日。"
+  },
+  "events": [
+    {
+      "event_id": "riko-seduction",
+      "label": "理子的蜂蜜色陷阱（色诱金次）",
+      "time_span": {
+        "start": "2009-06-01T15:00:00",
+        "end": "2009-06-01T17:00:00",
+        "precision": "estimated",
+        "duration_display": "约2小时",
+        "reasoning": "Vol-02悬念结尾（5/10理子伪装亚莉亚）后约三周进入6月；vol-03开篇时间为6月初；理子在放学后诱骗金次至女生宿舍。v2-table锚定为6月1日。"
+      },
+      "nodes": [
+        {
+          "node_id": "riko-seduction.disguise",
+          "label": "理子伪装成亚莉亚发邮件骗金次至女生宿舍",
+          "timestamp": "2009-06-01T15:30:00",
+          "participants": ["kinji", "riko"]
+        },
+        {
+          "node_id": "riko-seduction.bed",
+          "label": "理子跨坐金次身上以大哥情报为饵诱其接受自己",
+          "timestamp": "2009-06-01T16:00:00",
+          "participants": ["kinji", "riko"]
+        },
+        {
+          "node_id": "riko-seduction.aria-break",
+          "label": "亚莉亚识破伪装破窗而入",
+          "timestamp": "2009-06-01T16:50:00",
+          "participants": ["kinji", "aria", "riko"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-03",
+      "participant_ids": ["kinji", "riko", "aria"],
+      "cause": "aria-riko-switch",
+      "outcome": "aria-vs-riko-rooftop"
+    },
+    {
+      "event_id": "aria-vs-riko-rooftop",
+      "label": "月下的双剑双枪（亚莉亚vs理子屋顶战）",
+      "time_span": {
+        "start": "2009-06-01T17:00:00",
+        "end": "2009-06-01T18:30:00",
+        "precision": "estimated",
+        "duration_display": "约1.5小时",
+        "reasoning": "紧接着理子色诱事件，同一天傍晚；理子逃至女生宿舍屋顶，亚莉亚追上对决。"
+      },
+      "nodes": [
+        {
+          "node_id": "aria-vs-riko-rooftop.gunfight",
+          "label": "亚莉亚双枪与理子双枪展开枪战→转入短刀亚鲁卡达",
+          "timestamp": "2009-06-01T17:10:00",
+          "participants": ["aria", "riko"]
+        },
+        {
+          "node_id": "aria-vs-riko-rooftop.kinji-hss",
+          "label": "金次进入爆发模式介入阻止两人互杀",
+          "timestamp": "2009-06-01T17:40:00",
+          "participants": ["kinji", "aria", "riko"]
+        },
+        {
+          "node_id": "aria-vs-riko-rooftop.deal",
+          "label": "金次指出司法交易→理子提出夺回十字架换证词",
+          "timestamp": "2009-06-01T18:20:00",
+          "participants": ["kinji", "aria", "riko"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-03",
+      "participant_ids": ["kinji", "aria", "riko"],
+      "cause": "riko-seduction",
+      "outcome": "kohmeikan-infiltration"
+    },
+    {
+      "event_id": "kohmeikan-infiltration",
+      "label": "红鸣馆潜入作战",
+      "time_span": {
+        "start": "2009-06-13T08:00:00",
+        "end": "2009-06-16T16:30:00",
+        "precision": "estimated",
+        "duration_display": "约4天",
+        "reasoning": "v2-table标为6月13日~16日；金次与亚莉亚伪装成帮佣潜入红鸣馆做准备工作，潜入最后一天傍晚才实施盗取。"
+      },
+      "nodes": [
+        {
+          "node_id": "kohmeikan-infiltration.arrival",
+          "label": "理子变装成加奈送金次亚莉亚到红鸣馆任执事女仆",
+          "timestamp": "2009-06-13T10:00:00",
+          "participants": ["kinji", "aria", "riko", "sayonaki"]
+        },
+        {
+          "node_id": "kohmeikan-infiltration.observation",
+          "label": "金次亚莉亚观察洋馆结构与地下金库安保",
+          "timestamp": "2009-06-14T12:00:00",
+          "participants": ["kinji", "aria"]
+        },
+        {
+          "node_id": "kohmeikan-infiltration.planning",
+          "label": "理子制定Mole-Bat计划（地鼠与蝙蝠）",
+          "timestamp": "2009-06-15T20:00:00",
+          "participants": ["kinji", "aria", "riko"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-03",
+      "participant_ids": ["kinji", "aria", "riko", "sayonaki"],
+      "cause": "aria-vs-riko-rooftop",
+      "outcome": "mole-bat-cross-heist"
+    },
+    {
+      "event_id": "mole-bat-cross-heist",
+      "label": "地鼠与蝙蝠夺取十字架",
+      "time_span": {
+        "start": "2009-06-16T16:30:00",
+        "end": "2009-06-16T17:30:00",
+        "precision": "estimated",
+        "duration_display": "约1小时",
+        "reasoning": "潜入最后一天傍晚5点行动；亚莉亚引开小夜鸣，金次从地道倒吊入金库盗取蓝色十字架。v2-table标为17:00。"
+      },
+      "nodes": [
+        {
+          "node_id": "mole-bat-cross-heist.aria-distract",
+          "label": "亚莉亚将小夜鸣引至蔷薇园拖延时间",
+          "timestamp": "2009-06-16T16:45:00",
+          "participants": ["aria", "sayonaki"]
+        },
+        {
+          "node_id": "mole-bat-cross-heist.vent",
+          "label": "金次从地道倒吊进入地下金库天花板",
+          "timestamp": "2009-06-16T16:55:00",
+          "participants": ["kinji", "riko"]
+        },
+        {
+          "node_id": "mole-bat-cross-heist.steal",
+          "label": "金次循红外线钢丝轨道以爆发模式高速替换十字架",
+          "timestamp": "2009-06-16T17:15:00",
+          "participants": ["kinji", "riko"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-03",
+      "participant_ids": ["kinji", "aria", "riko", "sayonaki"],
+      "cause": "kohmeikan-infiltration",
+      "outcome": "landmark-tower-betrayal"
+    },
+    {
+      "event_id": "landmark-tower-betrayal",
+      "label": "陆标塔屋顶——理子背叛",
+      "time_span": {
+        "start": "2009-06-16T18:30:00",
+        "end": "2009-06-16T19:30:00",
+        "precision": "estimated",
+        "duration_display": "约1小时",
+        "reasoning": "v2-table标为19:00；金次与亚莉亚离开红鸣馆前往横滨陆标塔屋顶交付十字架，理子翻脸。"
+      },
+      "nodes": [
+        {
+          "node_id": "landmark-tower-betrayal.delivery",
+          "label": "金次亚莉亚将蓝色十字架交给理子",
+          "timestamp": "2009-06-16T19:00:00",
+          "participants": ["kinji", "aria", "riko"]
+        },
+        {
+          "node_id": "landmark-tower-betrayal.kiss-hss",
+          "label": "理子亲吻金次诱发爆发模式→翻脸拔枪",
+          "timestamp": "2009-06-16T19:10:00",
+          "participants": ["kinji", "riko"]
+        },
+        {
+          "node_id": "landmark-tower-betrayal.reveal",
+          "label": "理子揭露十字架为罗苹家秘宝、曾被弗拉德囚禁为繁殖工具",
+          "timestamp": "2009-06-16T19:20:00",
+          "participants": ["kinji", "aria", "riko"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-03",
+      "participant_ids": ["kinji", "aria", "riko", "sayonaki"],
+      "cause": "mole-bat-cross-heist",
+      "outcome": "sayonaki-vlad-ambush"
+    },
+    {
+      "event_id": "sayonaki-vlad-ambush",
+      "label": "小夜鸣伏击——弗拉德现身",
+      "time_span": {
+        "start": "2009-06-16T19:30:00",
+        "end": "2009-06-16T20:30:00",
+        "precision": "estimated",
+        "duration_display": "约1小时",
+        "reasoning": "v2-table标为20:00；理子背叛后小夜鸣立刻现身偷袭，以电击枪击倒理子→变身为弗拉德。"
+      },
+      "nodes": [
+        {
+          "node_id": "sayonaki-vlad-ambush.stun",
+          "label": "小夜鸣用大型电击枪从背后击倒理子→放出两头银狼",
+          "timestamp": "2009-06-16T20:00:00",
+          "participants": ["sayonaki", "riko", "silver-wolves"]
+        },
+        {
+          "node_id": "sayonaki-vlad-ambush.reveal",
+          "label": "小夜鸣揭露与弗拉德的DNA复写关系→兴奋后肉体裂变为弗拉德",
+          "timestamp": "2009-06-16T20:15:00",
+          "participants": ["sayonaki", "vlad", "kinji", "aria", "riko"]
+        },
+        {
+          "node_id": "sayonaki-vlad-ambush.hostage",
+          "label": "弗拉德挟持理子宣称带回笼子→宣战",
+          "timestamp": "2009-06-16T20:25:00",
+          "participants": ["vlad", "riko", "kinji", "aria"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-03",
+      "participant_ids": ["kinji", "aria", "riko", "sayonaki", "vlad"],
+      "cause": "landmark-tower-betrayal",
+      "outcome": "riko-rescue-from-vlad"
+    },
+    {
+      "event_id": "riko-rescue-from-vlad",
+      "label": "从弗拉德手中救出理子",
+      "time_span": {
+        "start": "2009-06-16T20:30:00",
+        "end": "2009-06-16T21:15:00",
+        "precision": "estimated",
+        "duration_display": "约45分钟",
+        "reasoning": "v2-table标为21:00；弗拉德现身后，金次和亚莉亚突破防线营救理子。"
+      },
+      "nodes": [
+        {
+          "node_id": "riko-rescue-from-vlad.plea",
+          "label": "理子绝望中向亚莉亚和金次喊'救我'→放下自尊",
+          "timestamp": "2009-06-16T20:45:00",
+          "participants": ["riko", "kinji", "aria"]
+        },
+        {
+          "node_id": "riko-rescue-from-vlad.breakthrough",
+          "label": "亚莉亚正面冲锋吸引火力→金次射倒银狼→切伤弗拉德手腕",
+          "timestamp": "2009-06-16T21:00:00",
+          "participants": ["kinji", "aria", "vlad", "silver-wolves"]
+        },
+        {
+          "node_id": "riko-rescue-from-vlad.princess",
+          "label": "金次将理子公主抱救出→暗中将真十字架挂回理子颈上",
+          "timestamp": "2009-06-16T21:10:00",
+          "participants": ["kinji", "riko"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-03",
+      "participant_ids": ["kinji", "aria", "riko", "vlad"],
+      "cause": "sayonaki-vlad-ambush",
+      "outcome": "riko-aerial-rescue"
+    },
+    {
+      "event_id": "riko-aerial-rescue",
+      "label": "理子滑翔伞救援金次（296米高空坠落）",
+      "time_span": {
+        "start": "2009-06-16T21:15:00",
+        "end": "2009-06-16T21:40:00",
+        "precision": "estimated",
+        "duration_display": "约25分钟",
+        "reasoning": "v2-table标为21:45；弗拉德咆哮解除金次爆发模式→金次被天线击飞坠楼→理子滑翔伞救下。"
+      },
+      "nodes": [
+        {
+          "node_id": "riko-aerial-rescue.fall",
+          "label": "弗拉德咆哮解除金次爆发模式→挥舞基地台天线击飞金次",
+          "timestamp": "2009-06-16T21:30:00",
+          "participants": ["vlad", "kinji"]
+        },
+        {
+          "node_id": "riko-aerial-rescue.glide",
+          "label": "理子从屋顶跃下→展开制服滑翔伞追上金次→空中救援",
+          "timestamp": "2009-06-16T21:35:00",
+          "participants": ["riko", "kinji"]
+        },
+        {
+          "node_id": "riko-aerial-rescue.intel",
+          "label": "理子透露弗拉德四魔脏机制与第四弱点（舌头眼珠图案）位置",
+          "timestamp": "2009-06-16T21:40:00",
+          "participants": ["riko", "kinji"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-03",
+      "participant_ids": ["kinji", "riko", "aria", "vlad"],
+      "cause": "riko-rescue-from-vlad",
+      "outcome": "vlad-four-magic-organs-attack"
+    },
+    {
+      "event_id": "vlad-four-magic-organs-attack",
+      "label": "四魔脏同时攻击——弗拉德最终决战",
+      "time_span": {
+        "start": "2009-06-16T21:40:00",
+        "end": "2009-06-16T22:10:00",
+        "precision": "estimated",
+        "duration_display": "约30分钟",
+        "reasoning": "陆标塔屋顶终盘战；金次/亚莉亚/理子发动四点同时攻击摧毁弗拉德四处魔脏眼珠图案。"
+      },
+      "nodes": [
+        {
+          "node_id": "vlad-four-magic-organs-attack.shoulders",
+          "label": "亚莉亚射击弗拉德双肩眼珠图案（两处魔脏）",
+          "timestamp": "2009-06-16T21:50:00",
+          "participants": ["aria", "vlad"]
+        },
+        {
+          "node_id": "vlad-four-magic-organs-attack.ricochet",
+          "label": "金次以弹子戏法修正弹道击穿弗拉德侧腹眼珠",
+          "timestamp": "2009-06-16T21:55:00",
+          "participants": ["kinji", "vlad"]
+        },
+        {
+          "node_id": "vlad-four-magic-organs-attack.tongue",
+          "label": "理子用迪林格掌心雷击穿弗拉德舌头上的第四眼珠",
+          "timestamp": "2009-06-16T22:00:00",
+          "participants": ["riko", "vlad"]
+        },
+        {
+          "node_id": "vlad-four-magic-organs-attack.crush",
+          "label": "四处魔脏同时失效→弗拉德被基地台天线压倒→理子滑翔伞逃离",
+          "timestamp": "2009-06-16T22:05:00",
+          "participants": ["kinji", "aria", "riko", "vlad"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-03",
+      "participant_ids": ["kinji", "aria", "riko", "vlad"],
+      "cause": "riko-aerial-rescue",
+      "outcome": "riko-testimony-deal"
+    },
+    {
+      "event_id": "riko-testimony-deal",
+      "label": "司法交易与理子证词兑现",
+      "time_span": {
+        "start": "2009-06-17T08:00:00",
+        "end": "2009-06-18T17:00:00",
+        "precision": "estimated",
+        "duration_display": "约2天",
+        "reasoning": "v2-table标为6月18日；陆标塔事件后媒体将战斗处理为落雷事故，司法交易封存弗拉德相关事实；理子兑现对亚莉亚和金次的承诺。"
+      },
+      "nodes": [
+        {
+          "node_id": "riko-testimony-deal.coverup",
+          "label": "官方发布司法交易→媒体将陆标塔事件报道为落雷事故",
+          "timestamp": "2009-06-17T12:00:00",
+          "participants": ["kinji", "aria"]
+        },
+        {
+          "node_id": "riko-testimony-deal.testimony",
+          "label": "理子返校→向亚莉亚母亲的律师提供证词",
+          "timestamp": "2009-06-18T14:00:00",
+          "participants": ["riko", "kanae"]
+        },
+        {
+          "node_id": "riko-testimony-deal.email",
+          "label": "金次收到理子关于大哥金一情报的邮件",
+          "timestamp": "2009-06-18T16:00:00",
+          "participants": ["kinji", "riko"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-03",
+      "participant_ids": ["kinji", "aria", "riko", "kanae"],
+      "cause": "vlad-four-magic-organs-attack",
+      "outcome": null
+    },
+    {
+      "event_id": "mamiya-secret-revelation",
+      "label": "明里公开间宫家的秘密",
+      "time_span": {
+        "start": "2009-06-20T14:00:00",
+        "end": "2009-06-20T17:00:00",
+        "precision": "estimated",
+        "duration_display": "约3小时",
+        "reasoning": "v2-table标为6月20日；明里在武侦病院向同伴讲述间宫一族公家密探出身、秘术传承及夹竹桃袭击真相。"
+      },
+      "nodes": [
+        {
+          "node_id": "mamiya-secret-revelation.ancestry",
+          "label": "明里讲述祖先间宫林藏→母亲美铃传授鸢穿鹰卷→保护人民的理念",
+          "timestamp": "2009-06-20T14:30:00",
+          "participants": ["mamiya-akari", "aria", "sasaki-shino", "raika", "kirin", "fuma-hina", "nonoka"]
+        },
+        {
+          "node_id": "mamiya-secret-revelation.tragedy",
+          "label": "揭露两年前间宫镇遭夹竹桃袭击→乃乃香中符丁毒的真相",
+          "timestamp": "2009-06-20T15:30:00",
+          "participants": ["mamiya-akari", "nonoka"]
+        },
+        {
+          "node_id": "mamiya-secret-revelation.resignation",
+          "label": "明里想辞去武侦交出自己换解药→同伴阻止",
+          "timestamp": "2009-06-20T16:30:00",
+          "participants": ["mamiya-akari", "aria", "sasaki-shino", "raika", "kirin", "fuma-hina"]
+        }
+      ],
+      "event_type": "side",
+      "volume": "vol-03-AA",
+      "participant_ids": ["mamiya-akari", "aria", "sasaki-shino", "raika", "kirin", "fuma-hina", "nonoka"],
+      "cause": null,
+      "outcome": "operation-aa-declared"
+    },
+    {
+      "event_id": "operation-aa-declared",
+      "label": "AA作战宣言",
+      "time_span": {
+        "start": "2009-06-20T17:00:00",
+        "end": "2009-06-20T18:00:00",
+        "precision": "estimated",
+        "duration_display": "约1小时",
+        "reasoning": "v2-table标为6月20日；明里公开秘密后，亚莉亚正式给出AA作战代号。"
+      },
+      "nodes": [
+        {
+          "node_id": "operation-aa-declared.refuse",
+          "label": "亚莉亚拒绝明里辞退战姊妹→要求以武侦身份面对敌人",
+          "timestamp": "2009-06-20T17:15:00",
+          "participants": ["aria", "mamiya-akari"]
+        },
+        {
+          "node_id": "operation-aa-declared.oath",
+          "label": "同伴背诵武侦宪章第一条→亚莉亚重新贴回明里撕下的校徽",
+          "timestamp": "2009-06-20T17:45:00",
+          "participants": ["aria", "mamiya-akari", "sasaki-shino", "raika", "kirin", "fuma-hina"]
+        }
+      ],
+      "event_type": "side",
+      "volume": "vol-03-AA",
+      "participant_ids": ["mamiya-akari", "aria", "sasaki-shino", "raika", "kirin", "fuma-hina", "nonoka"],
+      "cause": "mamiya-secret-revelation",
+      "outcome": "last-dance-raid"
+    },
+    {
+      "event_id": "last-dance-raid",
+      "label": "LAST DANCE饭店突入",
+      "time_span": {
+        "start": "2009-06-21T09:00:00",
+        "end": "2009-06-21T12:00:00",
+        "precision": "estimated",
+        "duration_display": "约3小时",
+        "reasoning": "v2-table标为6月21日；AA小队围攻夹竹桃据点LAST DANCE饭店。"
+      },
+      "nodes": [
+        {
+          "node_id": "last-dance-raid.entry",
+          "label": "明里与志乃正面进入403号房→发现毒草房间与秘传书",
+          "timestamp": "2009-06-21T10:00:00",
+          "participants": ["mamiya-akari", "sasaki-shino", "kyochikutou"]
+        },
+        {
+          "node_id": "last-dance-raid.flashbang",
+          "label": "明里投掷闪光弹开战→夹竹桃踏TNK绳索从阳台逃走",
+          "timestamp": "2009-06-21T10:30:00",
+          "participants": ["mamiya-akari", "kyochikutou"]
+        }
+      ],
+      "event_type": "side",
+      "volume": "vol-03-AA",
+      "participant_ids": ["mamiya-akari", "sasaki-shino", "raika", "kirin", "fuma-hina", "kyochikutou"],
+      "cause": "operation-aa-declared",
+      "outcome": "fuma-rope-duel"
+    },
+    {
+      "event_id": "fuma-rope-duel",
+      "label": "风魔绳索伏击战",
+      "time_span": {
+        "start": "2009-06-21T12:00:00",
+        "end": "2009-06-21T13:00:00",
+        "precision": "estimated",
+        "duration_display": "约1小时",
+        "reasoning": "v2-table标为6月21日；夹竹桃沿TNK绳索逃脱→风魔伏击。"
+      },
+      "nodes": [
+        {
+          "node_id": "fuma-rope-duel.sniper",
+          "label": "风魔倒挂绳下用改造火绳枪狙击夹竹桃→未命中",
+          "timestamp": "2009-06-21T12:15:00",
+          "participants": ["fuma-hina", "kyochikutou"]
+        },
+        {
+          "node_id": "fuma-rope-duel.poison",
+          "label": "夹竹桃释放酸毒混合雾→毒爪刺入风魔肌肉松弛毒",
+          "timestamp": "2009-06-21T12:30:00",
+          "participants": ["fuma-hina", "kyochikutou"]
+        },
+        {
+          "node_id": "fuma-rope-duel.tracker",
+          "label": "风魔败北前将苍耳发讯器黏住夹竹桃裙摆",
+          "timestamp": "2009-06-21T12:50:00",
+          "participants": ["fuma-hina", "kyochikutou"]
+        }
+      ],
+      "event_type": "side",
+      "volume": "vol-03-AA",
+      "participant_ids": ["fuma-hina", "kyochikutou", "kirin"],
+      "cause": "last-dance-raid",
+      "outcome": "raika-warehouse-ambush"
+    },
+    {
+      "event_id": "raika-warehouse-ambush",
+      "label": "青海仓库街莱卡遭遇战",
+      "time_span": {
+        "start": "2009-06-21T13:00:00",
+        "end": "2009-06-21T14:00:00",
+        "precision": "estimated",
+        "duration_display": "约1小时",
+        "reasoning": "v2-table标为6月21日；麒麟追踪发讯器→莱卡率先抵达青海仓库街拦截夹竹桃。"
+      },
+      "nodes": [
+        {
+          "node_id": "raika-warehouse-ambush.lock",
+          "label": "夹竹桃先用挂锁封住莱卡MASADA步枪扳机",
+          "timestamp": "2009-06-21T13:15:00",
+          "participants": ["raika", "kyochikutou"]
+        },
+        {
+          "node_id": "raika-warehouse-ambush.kick",
+          "label": "莱卡弃枪飞踢击中夹竹桃→被毒爪划伤大腿中春药毒",
+          "timestamp": "2009-06-21T13:30:00",
+          "participants": ["raika", "kyochikutou"]
+        }
+      ],
+      "event_type": "side",
+      "volume": "vol-03-AA",
+      "participant_ids": ["raika", "kyochikutou", "kirin"],
+      "cause": "fuma-rope-duel",
+      "outcome": "rainbow-bridge-kyochikutou-battle"
+    },
+    {
+      "event_id": "rainbow-bridge-kyochikutou-battle",
+      "label": "彩虹大桥夹竹桃决战",
+      "time_span": {
+        "start": "2009-06-21T14:30:00",
+        "end": "2009-06-21T16:00:00",
+        "precision": "estimated",
+        "duration_display": "约1.5小时",
+        "reasoning": "v2-table标为6月21日；夹竹桃在彩虹大桥设伏，携带M134改重机枪等待。"
+      },
+      "nodes": [
+        {
+          "node_id": "rainbow-bridge-kyochikutou-battle.ambush",
+          "label": "夹竹桃展开行李箱式M134改扫射→志乃挡在明里面前被重创",
+          "timestamp": "2009-06-21T15:00:00",
+          "participants": ["kyochikutou", "sasaki-shino", "mamiya-akari"]
+        },
+        {
+          "node_id": "rainbow-bridge-kyochikutou-battle.hawk",
+          "label": "明里发动鹰卷→穿越弹幕以非杀伤震荡破坏M134改并击倒夹竹桃",
+          "timestamp": "2009-06-21T15:30:00",
+          "participants": ["mamiya-akari", "kyochikutou"]
+        }
+      ],
+      "event_type": "side",
+      "volume": "vol-03-AA",
+      "participant_ids": ["mamiya-akari", "sasaki-shino", "kyochikutou", "kirin", "raika", "fuma-hina"],
+      "cause": "raika-warehouse-ambush",
+      "outcome": "rainbow-bridge-kyochikutou-arrest"
+    },
+    {
+      "event_id": "rainbow-bridge-kyochikutou-arrest",
+      "label": "夹竹桃现行犯逮捕",
+      "time_span": {
+        "start": "2009-06-21T16:00:00",
+        "end": "2009-06-21T17:00:00",
+        "precision": "estimated",
+        "duration_display": "约1小时",
+        "reasoning": "v2-table标为6月21日；明里从彩虹大桥跳海救起夹竹桃完成逮捕。"
+      },
+      "nodes": [
+        {
+          "node_id": "rainbow-bridge-kyochikutou-arrest.dive",
+          "label": "明里从50米以上大桥跳入东京湾救起下沉的夹竹桃",
+          "timestamp": "2009-06-21T16:15:00",
+          "participants": ["mamiya-akari", "kyochikutou"]
+        },
+        {
+          "node_id": "rainbow-bridge-kyochikutou-arrest.cuffs",
+          "label": "明里用手铐铐住夹竹桃左手腕→宣布现行犯逮捕",
+          "timestamp": "2009-06-21T16:45:00",
+          "participants": ["mamiya-akari", "kyochikutou"]
+        }
+      ],
+      "event_type": "side",
+      "volume": "vol-03-AA",
+      "participant_ids": ["mamiya-akari", "kyochikutou"],
+      "cause": "rainbow-bridge-kyochikutou-battle",
+      "outcome": "nonoka-cured"
+    },
+    {
+      "event_id": "nonoka-cured",
+      "label": "乃乃香解毒痊愈",
+      "time_span": {
+        "start": "2009-06-22T10:00:00",
+        "end": "2009-06-22T12:00:00",
+        "precision": "estimated",
+        "duration_display": "约2小时",
+        "reasoning": "v2-table标为6月22日；夹竹桃被逮捕后寻问科取得符丁毒解毒方法→乃乃香恢复视力。"
+      },
+      "nodes": [
+        {
+          "node_id": "nonoka-cured.antidote",
+          "label": "寻问科让夹竹桃供出符丁毒分子结构→合成解药",
+          "timestamp": "2009-06-22T10:00:00",
+          "participants": ["kyochikutou"]
+        },
+        {
+          "node_id": "nonoka-cured.reunion",
+          "label": "亚莉亚带乃乃香回武侦高中→拆除绷带→明里与乃乃香重逢",
+          "timestamp": "2009-06-22T11:30:00",
+          "participants": ["nonoka", "mamiya-akari", "aria", "sasaki-shino", "raika", "kirin", "fuma-hina"]
+        }
+      ],
+      "event_type": "side",
+      "volume": "vol-03-AA",
+      "participant_ids": ["nonoka", "mamiya-akari", "aria", "sasaki-shino", "raika", "kirin", "fuma-hina"],
+      "cause": "rainbow-bridge-kyochikutou-arrest",
+      "outcome": null
+    },
+    {
+      "event_id": "akari-upgrade-exam",
+      "label": "明里的武侦等级升级考核（E→D）",
+      "time_span": {
+        "start": "2009-06-25T09:00:00",
+        "end": "2009-06-25T17:00:00",
+        "precision": "estimated",
+        "duration_display": "约8小时",
+        "reasoning": "v2-table标为6月25日；非定期武侦等级考核，明里从万年E级升D级。"
+      },
+      "nodes": [
+        {
+          "node_id": "akari-upgrade-exam.theory",
+          "label": "笔试、CQC、射击成绩低迷→乾樱满分碾压",
+          "timestamp": "2009-06-25T11:00:00",
+          "participants": ["mamiya-akari", "inui-sakura"]
+        },
+        {
+          "node_id": "akari-upgrade-exam.mma",
+          "label": "MMA格斗战中明里被乾樱键锁压制→失去意识仍救住出界的樱→升D级",
+          "timestamp": "2009-06-25T15:00:00",
+          "participants": ["mamiya-akari", "inui-sakura", "tsuzuri-umeko"]
+        }
+      ],
+      "event_type": "side",
+      "volume": "vol-03-AA",
+      "participant_ids": ["mamiya-akari", "inui-sakura", "aria", "sasaki-shino", "raika", "kirin", "tsuzuri-umeko"],
+      "cause": null,
+      "outcome": null
+    },
+    {
+      "event_id": "raika-kirin-self-awareness",
+      "label": "莱卡与麒麟的自觉宣言",
+      "time_span": {
+        "start": "2009-06-28T14:00:00",
+        "end": "2009-06-28T16:00:00",
+        "precision": "estimated",
+        "duration_display": "约2小时",
+        "reasoning": "推测在6月25日考核后、7月1日之前；麒麟设计CVR可爱攻势迫使莱卡确认关系。"
+      },
+      "nodes": [
+        {
+          "node_id": "raika-kirin-self-awareness.cvr",
+          "label": "麒麟用CVR委托诱使莱卡担任掌心雷代理教官→四名实习生围攻",
+          "timestamp": "2009-06-28T14:30:00",
+          "participants": ["kirin", "raika", "kira", "kosora", "rui", "moyu"]
+        },
+        {
+          "node_id": "raika-kirin-self-awareness.declaration",
+          "label": "莱卡被逼宣读自觉宣言'麒麟是我老婆'→麒麟试图录音→被刀破坏",
+          "timestamp": "2009-06-28T15:30:00",
+          "participants": ["kirin", "raika"]
+        }
+      ],
+      "event_type": "side",
+      "volume": "vol-03-AA",
+      "participant_ids": ["kirin", "raika", "riko", "mamiya-akari", "sasaki-shino"],
+      "cause": null,
+      "outcome": null
+    },
+    {
+      "event_id": "kanade-asia-butei-duel",
+      "label": "加奈vs亚莉亚决斗（强袭科竞技场）",
+      "time_span": {
+        "start": "2009-07-01T13:00:00",
+        "end": "2009-07-01T15:00:00",
+        "precision": "estimated",
+        "duration_display": "约2小时",
+        "reasoning": "v2-table标为7月1日；加奈突然现身强袭科要求与亚莉亚对决，以不可视子弹和蝎尾压倒性胜利。"
+      },
+      "nodes": [
+        {
+          "node_id": "kanade-asia-butei-duel.challenge",
+          "label": "加奈突然闯入强袭科第一体育馆→兰豹纵容下约定真枪实弹模拟战",
+          "timestamp": "2009-07-01T13:30:00",
+          "participants": ["tooyama-kinichi", "aria", "ranba"]
+        },
+        {
+          "node_id": "kanade-asia-butei-duel.invisible",
+          "label": "加奈以不可视子弹击中亚莉亚防弹层→蝎尾击落双刀",
+          "timestamp": "2009-07-01T14:00:00",
+          "participants": ["tooyama-kinichi", "aria"]
+        },
+        {
+          "node_id": "kanade-asia-butei-duel.kinji-down",
+          "label": "金次试图介入被两发不可视子弹掠倒→理子变装女警介入结束",
+          "timestamp": "2009-07-01T14:30:00",
+          "participants": ["kinji", "tooyama-kinichi", "riko"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-04",
+      "participant_ids": ["tooyama-kinichi", "aria", "kinji", "ranba", "riko"],
+      "cause": null,
+      "outcome": "tanabata-festival-date"
+    },
+    {
+      "event_id": "takachiho-rose-invitation",
+      "label": "高千穗的玫瑰邀请（明里争夺战序幕）",
+      "time_span": {
+        "start": "2009-07-02T15:00:00",
+        "end": "2009-07-03T17:00:00",
+        "precision": "estimated",
+        "duration_display": "约2天",
+        "reasoning": "v2-table标为7月2~3日；高千穗命爱泽姊妹沿放学路布置玫瑰→递交邀请函。"
+      },
+      "nodes": [
+        {
+          "node_id": "takachiho-rose-invitation.roses",
+          "label": "爱泽姊妹沿明里放学路布置红玫瑰花束",
+          "timestamp": "2009-07-02T15:30:00",
+          "participants": ["aizawa-toutou", "aizawa-yaya", "mamiya-akari"]
+        },
+        {
+          "node_id": "takachiho-rose-invitation.invitation",
+          "label": "汤汤向明里递交贴有玫瑰贴纸的高千穗家邀请函",
+          "timestamp": "2009-07-03T12:00:00",
+          "participants": ["aizawa-toutou", "mamiya-akari", "sasaki-shino"]
+        }
+      ],
+      "event_type": "side",
+      "volume": "vol-03-AA",
+      "participant_ids": ["takachiho-urara", "mamiya-akari", "aizawa-toutou", "aizawa-yaya", "sasaki-shino"],
+      "cause": null,
+      "outcome": "takachiho-home-intrusion"
+    },
+    {
+      "event_id": "takachiho-home-intrusion",
+      "label": "志乃突入高千穗宅邸",
+      "time_span": {
+        "start": "2009-07-04T18:00:00",
+        "end": "2009-07-04T20:00:00",
+        "precision": "estimated",
+        "duration_display": "约2小时",
+        "reasoning": "v2-table标为7月4日；明里赴高千穗家晚宴→志乃穿隐身橡皮衣切玻璃突入。"
+      },
+      "nodes": [
+        {
+          "node_id": "takachiho-home-intrusion.dinner",
+          "label": "高千穗将明里推倒在沙发上试图加深友情",
+          "timestamp": "2009-07-04T19:00:00",
+          "participants": ["takachiho-urara", "mamiya-akari"]
+        },
+        {
+          "node_id": "takachiho-home-intrusion.break-in",
+          "label": "志乃穿隐身橡皮衣用吸盘手套和钻石刀破窗进入→指控高千穗抢明里",
+          "timestamp": "2009-07-04T19:30:00",
+          "participants": ["sasaki-shino", "takachiho-urara", "mamiya-akari"]
+        }
+      ],
+      "event_type": "side",
+      "volume": "vol-03-AA",
+      "participant_ids": ["mamiya-akari", "sasaki-shino", "takachiho-urara", "aizawa-toutou", "aizawa-yaya"],
+      "cause": "takachiho-rose-invitation",
+      "outcome": "akari-friendship-duel-rescue"
+    },
+    {
+      "event_id": "soumiya-fall-rescue",
+      "label": "宗宫坠楼救援",
+      "time_span": {
+        "start": "2009-07-05T10:00:00",
+        "end": "2009-07-05T12:00:00",
+        "precision": "estimated",
+        "duration_display": "约2小时",
+        "reasoning": "v2-table标为7月5日；高千穗与志乃在建设中新校舍决斗→宗宫目击后坠楼→三人救援。"
+      },
+      "nodes": [
+        {
+          "node_id": "soumiya-fall-rescue.fall",
+          "label": "宗宫眼镜滑落从六楼边缘跌下",
+          "timestamp": "2009-07-05T10:30:00",
+          "participants": ["soumiya"]
+        },
+        {
+          "node_id": "soumiya-fall-rescue.relay",
+          "label": "明里跳下接住宗宫→志乃接明里绳→高千穗抓志乃绳固定→三人接力救下",
+          "timestamp": "2009-07-05T10:35:00",
+          "participants": ["mamiya-akari", "sasaki-shino", "takachiho-urara", "soumiya"]
+        }
+      ],
+      "event_type": "side",
+      "volume": "vol-03-AA",
+      "participant_ids": ["soumiya", "mamiya-akari", "sasaki-shino", "takachiho-urara"],
+      "cause": "takachiho-home-intrusion",
+      "outcome": "akari-friendship-duel-rescue"
+    },
+    {
+      "event_id": "akari-friendship-duel-rescue",
+      "label": "明里争夺战决斗与和解",
+      "time_span": {
+        "start": "2009-07-05T10:00:00",
+        "end": "2009-07-05T12:00:00",
+        "precision": "estimated",
+        "duration_display": "约2小时",
+        "reasoning": "v2-table标为7月5日；与宗宫救援同时发生；志乃高千穗决斗因救援而中止→明里促成和解。"
+      },
+      "nodes": [
+        {
+          "node_id": "akari-friendship-duel-rescue.duel",
+          "label": "志乃与高千穗以军刀vs刺剑在建设中新校舍决斗",
+          "timestamp": "2009-07-05T10:00:00",
+          "participants": ["sasaki-shino", "takachiho-urara"]
+        },
+        {
+          "node_id": "akari-friendship-duel-rescue.reconcile",
+          "label": "救援后明里把两人手叠在一起→宣称大家都是朋友",
+          "timestamp": "2009-07-05T11:30:00",
+          "participants": ["mamiya-akari", "sasaki-shino", "takachiho-urara"]
+        }
+      ],
+      "event_type": "side",
+      "volume": "vol-03-AA",
+      "participant_ids": ["mamiya-akari", "sasaki-shino", "takachiho-urara", "soumiya"],
+      "cause": "soumiya-fall-rescue",
+      "outcome": null
+    },
+    {
+      "event_id": "tanabata-festival-date",
+      "label": "七夕祭典——金次与亚莉亚和解",
+      "time_span": {
+        "start": "2009-07-07T17:00:00",
+        "end": "2009-07-07T21:00:00",
+        "precision": "day",
+        "duration_display": "约4小时",
+        "reasoning": "v2-table标为7月7日七夕；武藤和不知火合谋用金次手机发出邀请，两人在绯川神社和解。"
+      },
+      "nodes": [
+        {
+          "node_id": "tanabata-festival-date.yukata",
+          "label": "亚莉亚穿浴衣现身→逛摊位吃棉花糖章鱼烧→挂七夕短签",
+          "timestamp": "2009-07-07T18:00:00",
+          "participants": ["kinji", "aria"]
+        },
+        {
+          "node_id": "tanabata-festival-date.split",
+          "label": "被神轿冲散→金次牵回亚莉亚的手",
+          "timestamp": "2009-07-07T19:00:00",
+          "participants": ["kinji", "aria"]
+        },
+        {
+          "node_id": "tanabata-festival-date.fireworks",
+          "label": "后殿看烟火→亚莉亚道歉→金次承诺'任务必须彻底完成'→关系升温",
+          "timestamp": "2009-07-07T20:30:00",
+          "participants": ["kinji", "aria"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-04",
+      "participant_ids": ["kinji", "aria"],
+      "cause": "kanade-asia-butei-duel",
+      "outcome": null
+    },
+    {
+      "event_id": "summer-festival-sakura-bonds",
+      "label": "夏日祭典——乾樱融入明里团体",
+      "time_span": {
+        "start": "2009-07-07T17:00:00",
+        "end": "2009-07-07T21:00:00",
+        "precision": "day",
+        "duration_display": "约4小时",
+        "reasoning": "v2-table标为7月7日七夕；乾樱穿女警制服参加明里邀约的七夕祭典。"
+      },
+      "nodes": [
+        {
+          "node_id": "summer-festival-sakura-bonds.outfit",
+          "label": "樱穿女警制服到场看到大家都穿浴衣而受打击→明里牵手鼓励",
+          "timestamp": "2009-07-07T18:00:00",
+          "participants": ["inui-sakura", "mamiya-akari", "sasaki-shino", "raika", "kirin"]
+        },
+        {
+          "node_id": "summer-festival-sakura-bonds.wish",
+          "label": "樱试探战姊妹意向→明里保留→大家写七夕许愿签",
+          "timestamp": "2009-07-07T20:00:00",
+          "participants": ["inui-sakura", "mamiya-akari"]
+        }
+      ],
+      "event_type": "side",
+      "volume": "vol-04-AA",
+      "participant_ids": ["mamiya-akari", "inui-sakura", "sasaki-shino", "raika", "kirin"],
+      "cause": null,
+      "outcome": null
+    },
+    {
+      "event_id": "umineko-sama-case",
+      "label": "海猫大人事件（猫滨C级连务）",
+      "time_span": {
+        "start": "2009-07-20T09:00:00",
+        "end": "2009-07-21T12:00:00",
+        "precision": "estimated",
+        "duration_display": "约2天",
+        "reasoning": "v2-table标为7月20~21日；暑假中明里一行人到猫滨执行海滩警卫任务，识破假海猫大人。"
+      },
+      "nodes": [
+        {
+          "node_id": "umineko-sama-case.cleanup",
+          "label": "五人清扫空无一人的沙滩→玩耍放松",
+          "timestamp": "2009-07-20T14:00:00",
+          "participants": ["mamiya-akari", "inui-sakura", "sasaki-shino", "raika", "kirin"]
+        },
+        {
+          "node_id": "umineko-sama-case.monster",
+          "label": "夜间明里巴投摔倒假海猫大人→志乃识破是民宿女儿刺身美",
+          "timestamp": "2009-07-20T22:00:00",
+          "participants": ["mamiya-akari", "sasaki-shino", "sashimi"]
+        },
+        {
+          "node_id": "umineko-sama-case.mercy",
+          "label": "明里替刺身美说情不告发→隔天收到真鲷和署名海猫大人的感谢纸条",
+          "timestamp": "2009-07-21T10:00:00",
+          "participants": ["mamiya-akari", "sashimi"]
+        }
+      ],
+      "event_type": "side",
+      "volume": "vol-04-AA",
+      "participant_ids": ["mamiya-akari", "inui-sakura", "sasaki-shino", "raika", "kirin", "takachiho-rei", "sashimi"],
+      "cause": null,
+      "outcome": null
+    },
+    {
+      "event_id": "hikari-reunion-infiltration",
+      "label": "日里重逢与潜入（间宫家分裂序幕）",
+      "time_span": {
+        "start": "2009-07-22T09:00:00",
+        "end": "2009-07-22T15:00:00",
+        "precision": "estimated",
+        "duration_display": "约6小时",
+        "reasoning": "v2-table标为7月22日；返校日间宫日里以名古屋武侦女子高中研习生身份转入1-A→与明里重逢。"
+      },
+      "nodes": [
+        {
+          "node_id": "hikari-reunion-infiltration.warning",
+          "label": "亚莉亚提前警告名女研习生会来挑衅",
+          "timestamp": "2009-07-22T09:30:00",
+          "participants": ["aria"]
+        },
+        {
+          "node_id": "hikari-reunion-infiltration.entrance",
+          "label": "日里展示露脐超短版名女制服亮相→设局让明里看到内裤→评价女性人望",
+          "timestamp": "2009-07-22T10:00:00",
+          "participants": ["mamiya-hikari", "mamiya-akari", "sasaki-shino"]
+        }
+      ],
+      "event_type": "side",
+      "volume": "vol-04-AA",
+      "participant_ids": ["mamiya-akari", "mamiya-hikari", "aria", "sasaki-shino", "raika", "kirin", "mamiya-nozomi", "mamiya-kodama"],
+      "cause": null,
+      "outcome": "mamiya-unique-contract-duel"
+    },
+    {
+      "event_id": "mamiya-unique-contract-duel",
+      "label": "间宫唯一契约——晓座vs宵座",
+      "time_span": {
+        "start": "2009-07-23T14:00:00",
+        "end": "2009-07-23T17:00:00",
+        "precision": "estimated",
+        "duration_display": "约3小时",
+        "reasoning": "v2-table标为7月23日；日里设局拖住志乃和莱卡→在台场后巷与明里展开间宫秘术对决。"
+      },
+      "nodes": [
+        {
+          "node_id": "mamiya-unique-contract-duel.setup",
+          "label": "日里让希海拖住志乃、儿玉拖住莱卡→与明里樱在巷中正面对峙",
+          "timestamp": "2009-07-23T14:30:00",
+          "participants": ["mamiya-hikari", "mamiya-akari", "inui-sakura"]
+        },
+        {
+          "node_id": "mamiya-unique-contract-duel.round1",
+          "label": "日里打倒樱→第一回合鹰卷vs平鹰卷→明里分担冲击",
+          "timestamp": "2009-07-23T15:00:00",
+          "participants": ["mamiya-hikari", "mamiya-akari", "inui-sakura"]
+        },
+        {
+          "node_id": "mamiya-unique-contract-duel.round2",
+          "label": "日里鹫抂vs明里枭挫脉冲反射镜→鹫抂反弹击中→日里回归八岁心智→明里赢得唯一契约",
+          "timestamp": "2009-07-23T16:30:00",
+          "participants": ["mamiya-akari", "mamiya-hikari"]
+        }
+      ],
+      "event_type": "side",
+      "volume": "vol-04-AA",
+      "participant_ids": ["mamiya-akari", "mamiya-hikari", "inui-sakura", "sasaki-shino", "raika", "mamiya-kodama", "mamiya-nozomi"],
+      "cause": "hikari-reunion-infiltration",
+      "outcome": null
+    },
+    {
+      "event_id": "shachi-aria-duel",
+      "label": "鯱与亚莉亚的对决",
+      "time_span": {
+        "start": "2009-07-23T17:00:00",
+        "end": "2009-07-23T18:30:00",
+        "precision": "estimated",
+        "duration_display": "约1.5小时",
+        "reasoning": "间宫三姊妹离开东京当日；名女军纪委员长鯱拦截制裁→亚莉亚介入对决。推测在7月23日傍晚。"
+      },
+      "nodes": [
+        {
+          "node_id": "shachi-aria-duel.bind",
+          "label": "鯱以缎带吊起日里→双枪击落希海火箭弹→碾压三姊妹",
+          "timestamp": "2009-07-23T17:15:00",
+          "participants": ["shachi-kuniko", "mamiya-hikari", "mamiya-nozomi", "mamiya-kodama"]
+        },
+        {
+          "node_id": "shachi-aria-duel.reki",
+          "label": "蕾姬狙击射断缎带救下日里",
+          "timestamp": "2009-07-23T17:30:00",
+          "participants": ["reki", "mamiya-hikari"]
+        },
+        {
+          "node_id": "shachi-aria-duel.aria-vs-shachi",
+          "label": "亚莉亚以巴流术命运之轮击败鯱→鯱转而向亚莉亚求婚",
+          "timestamp": "2009-07-23T18:00:00",
+          "participants": ["aria", "shachi-kuniko"]
+        }
+      ],
+      "event_type": "side",
+      "volume": "vol-04-AA",
+      "participant_ids": ["aria", "shachi-kuniko", "mamiya-hikari", "mamiya-nozomi", "mamiya-kodama", "reki"],
+      "cause": "mamiya-unique-contract-duel",
+      "outcome": null
+    },
+    {
+      "event_id": "odaiba-casino-battle",
+      "label": "台场金字塔赌场袭击（虫人偶战）",
+      "time_span": {
+        "start": "2009-07-24T19:00:00",
+        "end": "2009-07-24T21:00:00",
+        "precision": "estimated",
+        "duration_display": "约2小时",
+        "reasoning": "v2-table标为7月24日；佩特拉派遣阿努比斯虫人偶袭击赌场，金次四人变装警卫迎战。"
+      },
+      "nodes": [
+        {
+          "node_id": "odaiba-casino-battle.ambush",
+          "label": "十只以上豺狼人虫人偶从天花板袭击赌场",
+          "timestamp": "2009-07-24T19:30:00",
+          "participants": ["kinji", "aria", "shirayuki", "reki", "petra"]
+        },
+        {
+          "node_id": "odaiba-casino-battle.chandelier",
+          "label": "亚莉亚跳上旋转吊灯以炮台战术扫荡虫人偶→白雪火焰符被克",
+          "timestamp": "2009-07-24T20:00:00",
+          "participants": ["aria", "shirayuki"]
+        },
+        {
+          "node_id": "odaiba-casino-battle.escape",
+          "label": "蕾姬最后一发击破佩特拉沙分身→最后一只虫人偶逃往海上",
+          "timestamp": "2009-07-24T20:45:00",
+          "participants": ["reki", "petra"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-04",
+      "participant_ids": ["kinji", "aria", "shirayuki", "reki", "petra", "tooyama-kinichi"],
+      "cause": null,
+      "outcome": "sun-boat-showdown"
+    },
+    {
+      "event_id": "sun-boat-showdown",
+      "label": "太阳船对决——金次vs金一（兄弟对决）",
+      "time_span": {
+        "start": "2009-07-24T21:00:00",
+        "end": "2009-07-24T23:00:00",
+        "precision": "estimated",
+        "duration_display": "约2小时",
+        "reasoning": "v2-table标为7月24日；赌场战后金次骑水上摩托追击→亚莉亚被佩特拉狙击→金一在太阳船现身。"
+      },
+      "nodes": [
+        {
+          "node_id": "sun-boat-showdown.snipe",
+          "label": "佩特拉以WA2000狙击亚莉亚濒死→亚莉亚沉海",
+          "timestamp": "2009-07-24T21:30:00",
+          "participants": ["petra", "aria"]
+        },
+        {
+          "node_id": "sun-boat-showdown.brother",
+          "label": "金一在太阳船上现身→揭示伊·U真相与两个可能性计划",
+          "timestamp": "2009-07-24T22:00:00",
+          "participants": ["tooyama-kinichi", "kinji", "petra"]
+        },
+        {
+          "node_id": "sun-boat-showdown.mirror-shot",
+          "label": "金次违逆大哥→以新创'镜击'弹回不可视子弹→摧毁金一的和平制造者",
+          "timestamp": "2009-07-24T22:30:00",
+          "participants": ["kinji", "tooyama-kinichi"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-04",
+      "participant_ids": ["kinji", "tooyama-kinichi", "petra", "aria"],
+      "cause": "odaiba-casino-battle",
+      "outcome": "pyramid-rescue"
+    },
+    {
+      "event_id": "pyramid-rescue",
+      "label": "金字塔救援与绯弹觉醒",
+      "time_span": {
+        "start": "2009-07-24T23:00:00",
+        "end": "2009-07-25T04:00:00",
+        "precision": "estimated",
+        "duration_display": "约5小时",
+        "reasoning": "v2-table标为7月24~25日；金次白雪乘奥尔库斯潜航2000公里至太平洋安蓓丽奴号/金字塔→佩特拉决战→绯弹觉醒。"
+      },
+      "nodes": [
+        {
+          "node_id": "pyramid-rescue.orkus",
+          "label": "金次与白雪乘坐奥尔库斯潜航艇2000公里到达金字塔据点",
+          "timestamp": "2009-07-25T01:00:00",
+          "participants": ["kinji", "shirayuki"]
+        },
+        {
+          "node_id": "pyramid-rescue.sphinx",
+          "label": "白雪vs佩特拉魔法对决→破坏人面狮身像→加奈破窗冲入",
+          "timestamp": "2009-07-25T02:00:00",
+          "participants": ["shirayuki", "petra", "tooyama-kinichi"]
+        },
+        {
+          "node_id": "pyramid-rescue.hidan",
+          "label": "金次跳入灵柩→流沙陷阱→与亚莉亚接吻→绯弹觉醒→摧毁金字塔顶部",
+          "timestamp": "2009-07-25T03:30:00",
+          "participants": ["kinji", "aria"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-04",
+      "participant_ids": ["kinji", "aria", "shirayuki", "petra", "tooyama-kinichi"],
+      "cause": "sun-boat-showdown",
+      "outcome": "professor-reveal"
+    },
+    {
+      "event_id": "professor-reveal",
+      "label": "教授现身——夏洛克·福尔摩斯1世",
+      "time_span": {
+        "start": "2009-07-25T04:00:00",
+        "end": "2009-07-25T05:30:00",
+        "precision": "estimated",
+        "duration_display": "约1.5小时",
+        "reasoning": "v2-table标为7月25日05:00；佩特拉被封印后东方号核潜艇浮出→夏洛克在甲板现身→远距离射穿加奈。"
+      },
+      "nodes": [
+        {
+          "node_id": "professor-reveal.surface",
+          "label": "大海隆起→全长300米核潜艇东方号浮出→舰身写有'伊''U'",
+          "timestamp": "2009-07-25T05:00:00",
+          "participants": ["sherlock-holmes-i"]
+        },
+        {
+          "node_id": "professor-reveal.shot",
+          "label": "夏洛克以远距离不可视子弹射穿加奈胸口防弹制服",
+          "timestamp": "2009-07-25T05:15:00",
+          "participants": ["sherlock-holmes-i", "tooyama-kinichi", "kinji", "aria", "shirayuki"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-04",
+      "participant_ids": ["sherlock-holmes-i", "tooyama-kinichi", "kinji", "aria", "shirayuki"],
+      "cause": "pyramid-rescue",
+      "outcome": "i-u-submarine-battle"
+    },
+    {
+      "event_id": "i-u-submarine-battle",
+      "label": "伊·U潜艇遭遇战",
+      "time_span": {
+        "start": "2009-07-25T05:30:00",
+        "end": "2009-07-25T07:00:00",
+        "precision": "estimated",
+        "duration_display": "约1.5小时",
+        "reasoning": "修正为~7月25日（接金字塔作战后）；夏洛克率伊·U潜艇袭击安蓓丽奴号→狙伤加奈→带走亚莉亚。原始事件文件标为8月22日但逻辑应与金字塔作战紧密衔接。"
+      },
+      "nodes": [
+        {
+          "node_id": "i-u-submarine-battle.snipe",
+          "label": "夏洛克以A-TNK弹狙伤加奈心脏→Mk-60鱼雷击沉安蓓丽奴号",
+          "timestamp": "2009-07-25T05:45:00",
+          "participants": ["sherlock-holmes-i", "tooyama-kinichi"]
+        },
+        {
+          "node_id": "i-u-submarine-battle.abduction",
+          "label": "夏洛克以钻石冰尘开路→登船带走亚莉亚",
+          "timestamp": "2009-07-25T06:15:00",
+          "participants": ["sherlock-holmes-i", "aria"]
+        },
+        {
+          "node_id": "i-u-submarine-battle.boarding",
+          "label": "金一激发垂死爆发→金次共冲伊·U甲板→金一二次被射穿心脏掩护金次",
+          "timestamp": "2009-07-25T06:45:00",
+          "participants": ["kinji", "tooyama-kinichi", "sherlock-holmes-i"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-05",
+      "participant_ids": ["kinji", "tooyama-kinichi", "sherlock-holmes-i", "aria", "petra", "shirayuki"],
+      "cause": "professor-reveal",
+      "outcome": "cathedral-duel"
+    },
+    {
+      "event_id": "cathedral-duel",
+      "label": "圣堂对决——亚莉亚vs金次",
+      "time_span": {
+        "start": "2009-07-25T07:00:00",
+        "end": "2009-07-25T09:00:00",
+        "precision": "estimated",
+        "duration_display": "约2小时",
+        "reasoning": "修正为~7月25日；金次进入伊·U教堂内找到亚莉亚→她被夏洛克说服→两人枪战→金次放弃抵抗使亚莉亚回心转意。"
+      },
+      "nodes": [
+        {
+          "node_id": "cathedral-duel.gunfight",
+          "label": "亚莉亚声称留伊·U→与金次发生激烈枪战→零距离亚鲁卡达",
+          "timestamp": "2009-07-25T07:30:00",
+          "participants": ["kinji", "aria"]
+        },
+        {
+          "node_id": "cathedral-duel.surrender",
+          "label": "金次放下武器放弃抵抗→亚莉亚哭着承认无法对金次开枪",
+          "timestamp": "2009-07-25T08:30:00",
+          "participants": ["kinji", "aria"]
+        },
+        {
+          "node_id": "cathedral-duel.truth",
+          "label": "金次坦白加奈即大哥秘密→亚莉亚决定联手对抗夏洛克",
+          "timestamp": "2009-07-25T08:50:00",
+          "participants": ["kinji", "aria"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-05",
+      "participant_ids": ["kinji", "aria", "sherlock-holmes-i"],
+      "cause": "i-u-submarine-battle",
+      "outcome": "icbm-chase"
+    },
+    {
+      "event_id": "icbm-chase",
+      "label": "ICBM追逐与历镜传承——绯弹的亚莉亚诞生",
+      "time_span": {
+        "start": "2009-07-25T09:00:00",
+        "end": "2009-07-25T12:00:00",
+        "precision": "estimated",
+        "duration_display": "约3小时",
+        "reasoning": "修正为~7月25日；金次亚莉亚在ICBM库与夏洛克最终对决→夏洛克历镜传承绯弹→金次以'樱花'+头锤击败→夏洛克沙金假身乘ICBM逃脱。"
+      },
+      "nodes": [
+        {
+          "node_id": "icbm-chase.blind",
+          "label": "夏洛克揭示伊·U能力共有体系→闪光弹无效（夏洛克已失明六十年）→金次进入狂怒爆发",
+          "timestamp": "2009-07-25T09:30:00",
+          "participants": ["sherlock-holmes-i", "kinji", "aria"]
+        },
+        {
+          "node_id": "icbm-chase.hidan-bullet",
+          "label": "夏洛克展示绯弹和历镜→将绯弹射入三年前（13岁）的亚莉亚体内→完成传承",
+          "timestamp": "2009-07-25T10:30:00",
+          "participants": ["sherlock-holmes-i", "aria"]
+        },
+        {
+          "node_id": "icbm-chase.sakura",
+          "label": "金次自损技'樱花'+头锤击倒夏洛克→夏洛克沙金假身逃脱乘ICBM升空",
+          "timestamp": "2009-07-25T11:00:00",
+          "participants": ["kinji", "sherlock-holmes-i"]
+        },
+        {
+          "node_id": "icbm-chase.fall",
+          "label": "夏洛克赐名'绯弹的亚莉亚'→金次亚莉亚追攀ICBM→高空坠落→亚莉亚头发控风安全降落",
+          "timestamp": "2009-07-25T11:30:00",
+          "participants": ["kinji", "aria", "sherlock-holmes-i"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-05",
+      "participant_ids": ["kinji", "aria", "sherlock-holmes-i"],
+      "cause": "cathedral-duel",
+      "outcome": "konayuki-visit"
+    },
+    {
+      "event_id": "konayuki-visit",
+      "label": "粉雪来访武侦高中",
+      "time_span": {
+        "start": "2009-08-22T09:00:00",
+        "end": "2009-08-23T22:00:00",
+        "precision": "estimated",
+        "duration_display": "约2天",
+        "reasoning": "v2-table标为8月22~23日；白雪的无血缘妹妹粉雪来访→金次带其参观→深夜维也纳城堡解围。此段为vol-05'再装填'篇的开端，与7月25日ICBM追逐间隔近一个月。"
+      },
+      "nodes": [
+        {
+          "node_id": "konayuki-visit.arrival",
+          "label": "粉雪到达金次房间→受星伽神社之命劝白雪回去",
+          "timestamp": "2009-08-22T10:00:00",
+          "participants": ["konayuki", "kinji", "shirayuki"]
+        },
+        {
+          "node_id": "konayuki-visit.tour",
+          "label": "金次带粉雪参观各科→强袭科踩空弹壳摔倒→压住粉雪使其内衣暴露",
+          "timestamp": "2009-08-22T14:00:00",
+          "participants": ["kinji", "konayuki"]
+        },
+        {
+          "node_id": "konayuki-visit.brawl",
+          "label": "深夜粉雪偷溜维也纳城堡购物→被四名持械不良围困→金次出面解围→粉雪态度软化",
+          "timestamp": "2009-08-22T22:30:00",
+          "participants": ["kinji", "konayuki", "shirayuki"]
+        },
+        {
+          "node_id": "konayuki-visit.decision",
+          "label": "粉雪决定不劝姐姐回去→改考虑自己也来武侦高中就读",
+          "timestamp": "2009-08-23T15:00:00",
+          "participants": ["konayuki", "shirayuki"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-05",
+      "participant_ids": ["konayuki", "kinji", "shirayuki"],
+      "cause": "icbm-chase",
+      "outcome": null
+    },
+    {
+      "event_id": "football-match",
+      "label": "足球赛对阵港南体育高中",
+      "time_span": {
+        "start": "2009-08-30T13:00:00",
+        "end": "2009-08-30T17:00:00",
+        "precision": "estimated",
+        "duration_display": "约4小时",
+        "reasoning": "v2-table标为8月30日；理子带来足球代打委托→十一人临时队伍对阵港南→5-5和局→金次仅获0.6学分。"
+      },
+      "nodes": [
+        {
+          "node_id": "football-match.recruit",
+          "label": "金次召集亚莉亚/理子/蕾姬/白雪/贞德/武藤/不知火/平贺文/风魔组成十人队",
+          "timestamp": "2009-08-30T12:00:00",
+          "participants": ["kinji", "aria", "riko", "reki", "shirayuki", "jeanne", "hiraga-aya", "fuma-hina", "muto"]
+        },
+        {
+          "node_id": "football-match.halftime",
+          "label": "上半场0-5惨败→中场理子假扮亚莉亚亲金次→诱发HSS",
+          "timestamp": "2009-08-30T15:00:00",
+          "participants": ["kinji", "riko"]
+        },
+        {
+          "node_id": "football-match.comeback",
+          "label": "下半场金次HSS战术→全员发挥特长追至5-5→最后一球越位无效→和局",
+          "timestamp": "2009-08-30T16:30:00",
+          "participants": ["kinji", "aria", "riko", "reki", "shirayuki", "jeanne", "hiraga-aya", "fuma-hina", "muto"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-05",
+      "participant_ids": ["kinji", "aria", "riko", "reki", "shirayuki", "jeanne", "hiraga-aya", "fuma-hina", "muto"],
+      "cause": null,
+      "outcome": "roof-goodbye"
+    },
+    {
+      "event_id": "roof-goodbye",
+      "label": "屋顶告别与蕾姬求婚",
+      "time_span": {
+        "start": "2009-08-31T16:00:00",
+        "end": "2009-08-31T18:30:00",
+        "precision": "estimated",
+        "duration_display": "约2.5小时",
+        "reasoning": "v2-table标为8月31日；金次打扫侦探科大楼→亚莉亚告知母亲无罪释放将回伦敦→夕阳下沉默告别→蕾姬突现狙击求婚。"
+      },
+      "nodes": [
+        {
+          "node_id": "roof-goodbye.cleaning",
+          "label": "亚莉亚帮金次打扫侦探科大楼→两人玩师生游戏→亚莉亚络指暗示离别",
+          "timestamp": "2009-08-31T16:30:00",
+          "participants": ["kinji", "aria"]
+        },
+        {
+          "node_id": "roof-goodbye.sunset",
+          "label": "屋顶上亚莉亚说母亲将无罪释放要回伦敦→金次因HSS顾虑沉默→夕阳西沉",
+          "timestamp": "2009-08-31T17:30:00",
+          "participants": ["kinji", "aria"]
+        },
+        {
+          "node_id": "roof-goodbye.reki",
+          "label": "蕾姬突现→亲吻金次→当亚莉亚面宣布取代其伙伴位置→以德拉古诺夫瞄准金次求婚",
+          "timestamp": "2009-08-31T18:15:00",
+          "participants": ["reki", "kinji", "aria"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-05",
+      "participant_ids": ["kinji", "aria", "reki"],
+      "cause": "football-match",
+      "outcome": null
+    }
+  ],
+  "_meta": {
+    "volumes_covered": ["vol-03", "vol-03-AA", "vol-04", "vol-04-AA", "vol-05"],
+    "total_events": 30,
+    "date_range": "2009-06-01 ~ 2009-08-31",
+    "vol_03_range": "2009-06-01 ~ 2009-06-18",
+    "vol_03_AA_range": "2009-06-20 ~ 2009-07-05",
+    "vol_04_range": "2009-07-01 ~ 2009-07-25",
+    "vol_04_AA_range": "2009-07-07 ~ 2009-07-23",
+    "vol_05_range": "2009-07-25 ~ 2009-08-31",
+    "season": "夏季（6月梅雨季～8月底暑假）",
+    "key_calendar_anchors": [
+      "vol-04七夕祭典=7月7日（精确锚点）",
+      "vol-04赌场战=7月24日（从七夕后约两周推理）",
+      "vol-05 konayuki=8月22日（原文标注）",
+      "vol-05 football=8月30日（原文标注）",
+      "vol-05 roof-goodbye=8月31日（原文标注）"
+    ],
+    "corrections_applied": [
+      "i-u-submarine-battle/cathedral-duel/icbm-chase 修正为~7月25日（紧接vol-04金字塔/教授事件），非8月22日。事件文件中标注为8月22日但逻辑上不可能与7月24-25日的金字塔作战间隔一个月。这三个事件应视为金字塔作战的延续，在7月25日同一天内发生。",
+      "vol-05 '再装填'篇（konayuki/足球/告别）仍位于8月22~31日，与7月25日的伊·U篇有约一个月校园日常生活间隔。"
+    ],
+    "precision_notes": "除7月7日七夕和8月22~31日为day级精度外，其余日期均基于文本线索与v2-table推断（estimated）。vol-03 6月初始日期基于vol-02 5月10日悬念结尾推算。vol-03-AA与vol-04-AA支线交叉于vol-04主线时间轴中。vol-05前半段（伊·U决战）修正为接vol-04末尾的7月25日；后半段（再装填篇）为原文标注的8月末。",
+    "validation_status": "v3",
+    "next_steps": "扩展至vol-06~vol-10",
+    "main_characters_tracked": ["kinji", "aria", "riko", "shirayuki", "reki", "tooyama-kinichi", "vlad", "sayonaki", "petra", "sherlock-holmes-i", "mamiya-akari", "sasaki-shino", "raika", "kirin", "fuma-hina", "nonoka", "kyochikutou", "takachiho-urara", "inui-sakura", "mamiya-hikari", "jeanne", "konayuki"]
+  }
+}

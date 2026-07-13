@@ -1,0 +1,31 @@
+{
+  "schema": "tm-p1-wave-index-v1",
+  "waveId": "wave-013",
+  "name": "Sandbox rules and engine-rule stratification",
+  "status": "passed",
+  "model": "lt-yuyu/gpt-5.5",
+  "sourceRefs": [
+    "type-moon-nasuverse/worldbook-text/src-fsn-sandbox.md:15",
+    "type-moon-nasuverse/worldbook-text/src-fsn-sandbox.md:19",
+    "type-moon-nasuverse/worldbook-text/src-fsn-sandbox.md:20",
+    "type-moon-nasuverse/worldbook-text/src-fsn-sandbox.md:21",
+    "type-moon-nasuverse/worldbook-text/src-fsn-sandbox.md:22",
+    "type-moon-nasuverse/worldbook-text/src-fsn-sandbox.md:23",
+    "type-moon-nasuverse/worldbook-text/src-fsn-sandbox.md:24",
+    "type-moon-nasuverse/worldbook-text/src-fsn-sandbox.md:25",
+    "type-moon-nasuverse/worldbook-text/src-fsn-sandbox.md:26",
+    "type-moon-nasuverse/worldbook-text/src-type-moon-filtered.md:20",
+    "type-moon-nasuverse/worldbook-text/src-type-moon-filtered.md:24",
+    "type-moon-nasuverse/worldbook-text/src-type-moon-filtered.md:34"
+  ],
+  "outputs": {
+    "worldRules": ["output/world-rule-stratification.json"],
+    "candidates": []
+  },
+  "reports": {
+    "generation": "reports/generation-report.json",
+    "latestAudit": "reports/audit-round-002.json",
+    "latestFix": "reports/fix-round-001.json",
+    "finalStatus": "reports/final-status.json"
+  }
+}

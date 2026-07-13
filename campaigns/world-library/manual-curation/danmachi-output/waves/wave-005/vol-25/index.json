@@ -1,0 +1,92 @@
+{
+  "_schema": "rp-index-volume-v1",
+  "world": "danmachi",
+  "wave": "wave-005",
+  "output": "campaigns/world-library/manual-curation/danmachi-output/waves/wave-005/vol-25",
+  "source_volumes": ["vol-25"],
+  "source_chapters": {
+    "count": 14,
+    "manifest": "campaigns/world-library/worlds/danmachi/sources/split-text/danmachi-main/vol-25/chapters.json"
+  },
+  "counts": {
+    "characters": 21,
+    "abilities": 2,
+    "items": 2,
+    "events": 17,
+    "locations": 3,
+    "factions": 2,
+    "systems": 3,
+    "knowledge": 2
+  },
+  "entities": {
+    "characters": [
+      { "id": "allen-fromel", "name": "艾伦·傅洛梅尔", "type": "characters" },
+      { "id": "asfi-al-andromeda", "name": "亚丝菲·阿尔·安朵美达", "type": "characters" },
+      { "id": "baldr", "name": "巴德尔", "type": "characters" },
+      { "id": "bell-cranel", "name": "贝尔·克朗尼 / 拉比·弗雷米修", "type": "characters" },
+      { "id": "chris-elvia", "name": "克里斯缇亚·艾尔维亚", "type": "characters" },
+      { "id": "eina-tulle", "name": "埃伊娜·祖尔", "type": "characters" },
+      { "id": "fels", "name": "费尔斯", "type": "characters" },
+      { "id": "hedin-selland", "name": "赫定·瑟兰德", "type": "characters" },
+      { "id": "hermes", "name": "荷米斯", "type": "characters" },
+      { "id": "hestia", "name": "赫斯缇雅", "type": "characters" },
+      { "id": "iglin", "name": "伊格林", "type": "characters" },
+      { "id": "lekchi", "name": "蕾琪", "type": "characters" },
+      { "id": "leon-vardenburg", "name": "里昂·瓦登堡", "type": "characters" },
+      { "id": "liliruca-arde", "name": "莉莉露卡·厄德", "type": "characters" },
+      { "id": "mikoto-yamato", "name": "大和·命", "type": "characters" },
+      { "id": "nina-tulle", "name": "妮娜·祖尔", "type": "characters" },
+      { "id": "ouranos", "name": "乌拉诺斯", "type": "characters" },
+      { "id": "ryu-lion", "name": "琉·璃昂 / 琉·阿斯特莉亚", "type": "characters" },
+      { "id": "sanjouno-haruhime", "name": "三条野·春姬", "type": "characters" },
+      { "id": "syr-flova", "name": "希儿·福罗瓦 / 芙蕾雅", "type": "characters" },
+      { "id": "welf-crozzo", "name": "韦尔夫·克罗佐", "type": "characters" }
+    ],
+    "abilities": [
+      { "id": "blue-dragon-aurora-breath", "name": "极光吐息 / 光蚀", "type": "abilities" },
+      { "id": "nina-raguel-kurisheim", "name": "拉格列尔·库利斯海姆", "type": "abilities" }
+    ],
+    "items": [
+      { "id": "function-weapon", "name": "机能武装", "type": "items" },
+      { "id": "school-district-uniform-and-rapi-disguise", "name": "学区制服与拉比·弗雷米修伪装套装", "type": "items" }
+    ],
+    "events": [
+      { "id": "allen-listens-to-anya-twilight-song", "name": "艾伦背对阿妮雅的黄昏歌声", "type": "events" },
+      { "id": "bell-and-third-squad-survive-middle-floor-collapse", "name": "贝尔带第三小队从中层坍方中生还并抵达第18层", "type": "events" },
+      { "id": "bell-enrolls-as-rapi-in-baldr-class", "name": "贝尔化名拉比·弗雷米修进入巴德尔班", "type": "events" },
+      { "id": "bell-trains-hestia-familia-with-expanded-tactical-vision", "name": "贝尔在大树迷宫展现扩展后的队伍战术眼", "type": "events" },
+      { "id": "eina-and-nina-estrangement-revealed", "name": "埃伊娜向贝尔坦白与妮娜疏离的原因", "type": "events" },
+      { "id": "eina-and-syr-become-rival-friends", "name": "埃伊娜与希儿以情敌朋友身份和解", "type": "events" },
+      { "id": "hedin-and-ryu-compete-over-bell-training", "name": "赫定与琉争夺贝尔清晨训练权", "type": "events" },
+      { "id": "hermes-infiltrates-school-district-with-bell", "name": "荷米斯带贝尔从空路潜入学区并引发追捕", "type": "events" },
+      { "id": "hestia-familia-ranked-b-and-school-district-arrives", "name": "赫斯缇雅眷族升格B级并迎来学区返航", "type": "events" },
+      { "id": "hestia-familia-victory-banquet-and-freya-penance", "name": "赫斯缇雅眷族举办战争游戏庆功宴并见证希儿赎罪", "type": "events" },
+      { "id": "nina-finds-dream-after-blue-dragon-battle", "name": "妮娜在蓝龙战后找到成为冒险者的梦想", "type": "events" },
+      { "id": "nina-reunites-with-eina-and-chooses-hestia-familia", "name": "妮娜与埃伊娜重逢并决定目标赫斯缇雅眷族", "type": "events" },
+      { "id": "rapi-joins-third-squad-and-learns-school-life", "name": "拉比加入战技科第三小队并体验学区校园生活", "type": "events" },
+      { "id": "ryu-joins-hestia-familia-as-ryu-astrea", "name": "琉改宗加入赫斯缇雅眷族并以琉·阿斯特莉亚登记", "type": "events" },
+      { "id": "syr-penance-at-hearth-mansion", "name": "希儿到灶火馆接受赫斯缇雅眷族赎罪惩罚", "type": "events" },
+      { "id": "third-squad-defeats-infant-dragon-through-hunt-plan", "name": "第三小队用狩猎战术击败幼龙", "type": "events" },
+      { "id": "uranus-approves-shaft-plan-and-fels-knossos-lab", "name": "乌拉诺斯批准立坑计划并让费尔斯改造克诺索斯", "type": "events" }
+    ],
+    "locations": [
+      { "id": "floor-25-great-fall", "name": "地下城第25层巨苍瀑布瀑布潭", "type": "locations" },
+      { "id": "meren-port", "name": "梅伦港都", "type": "locations" },
+      { "id": "school-district-hringhorni", "name": "学区 / 海上学术机构特区『灵舡』", "type": "locations" }
+    ],
+    "factions": [
+      { "id": "hestia-familia", "name": "赫斯缇雅眷族", "type": "factions" },
+      { "id": "school-district", "name": "学区", "type": "factions" }
+    ],
+    "systems": [
+      { "id": "freya-subordinate-god-arrangement", "name": "芙蕾雅成为赫斯缇雅从属神的战后安排", "type": "systems" },
+      { "id": "guild-shaft-plan", "name": "公会立坑计划", "type": "systems" },
+      { "id": "school-district-class-and-curriculum-system", "name": "学区班级、科目与实习制度", "type": "systems" }
+    ],
+    "knowledge": [
+      { "id": "bell-student-identity-disclosure", "name": "贝尔化名拉比入学与身份暴露", "type": "knowledge" },
+      { "id": "nina-and-eina-sister-relationship", "name": "妮娜与埃伊娜姐妹关系的疏离与重启", "type": "knowledge" }
+    ]
+  },
+  "total_files": 53
+}

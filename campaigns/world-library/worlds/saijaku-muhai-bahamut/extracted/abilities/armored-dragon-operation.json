@@ -1,0 +1,64 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "armored-dragon-operation",
+  "volume": "vol-05",
+  "source_refs": [],
+  "periods": [
+    {
+      "period_id": "vol-05",
+      "volume": "vol-05",
+      "time": "vol-05",
+      "name": {
+        "zh": "装甲机龙操控",
+        "en": "Armored Dragon Operation"
+      },
+      "aliases": [
+        "机龙操作"
+      ],
+      "type": "technology / magic",
+      "description": "通过机攻壳剑与装甲机龙连结，将机龙化为装甲覆盖全身并操纵的基本能力。需要认证（契约）、咏唱符、以及精神与肉体的高同调。",
+      "details": {
+        "steps": "咏唱符召唤 → 连结开始 → 机龙展开为装甲 → 同步动作",
+        "difficulty": "需要高度适性值、体力、运动神经"
+      },
+      "activation": {
+        "condition": "完成认证与契约、备有机攻壳剑",
+        "incantation": "咏唱符（如'出现吧，象征力量的纹章之翼龙'等）",
+        "time": "数秒"
+      },
+      "effects": [
+        "装甲覆盖全身",
+        "大幅提升战斗力",
+        "飞行能力"
+      ],
+      "power_level": {
+        "initial": "因人而异",
+        "peak": "因人而异"
+      },
+      "known_feats": [],
+      "shared_by": [
+        "lux-arcadia",
+        "celistia-ralgris",
+        "krulcifer-einfolk",
+        "nocot-licret",
+        "lisha-atismata"
+      ],
+      "see_also": [
+        "machine-armor-sword",
+        "phantom-creation-core"
+      ],
+      "countered_by": [],
+      "counters": [],
+      "variations": [
+        "泛用型（如飞翔机龙）",
+        "特装型（如特装机龙）",
+        "神装机龙（巴哈姆特）"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-05/full.txt:900-1380"
+      ]
+    }
+  ]
+}

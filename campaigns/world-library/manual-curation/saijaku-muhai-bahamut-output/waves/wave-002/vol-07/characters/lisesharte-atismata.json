@@ -1,0 +1,38 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "lisesharte-atismata",
+  "volume": "vol-07",
+  "periods": [
+    {
+      "period_id": "vol-07-main",
+      "volume": "vol-07",
+      "time": "全龙战后至迷宫镇压作战后",
+      "name": { "zh": "莉姿夏尔蒂·亚提司玛特", "en": "Lisesharte Atismata", "jp": "リーズシャルテ・アティスマータ" },
+      "aliases": ["莉夏", "新王国公主"],
+      "titles": ["亚提司玛特新王国公主", "路克斯的主君"],
+      "gender": "女",
+      "species": "人类",
+      "occupation": "王女；机龙技师；神装机龙使",
+      "affiliation": "亚提司玛特新王国；王立士官学园；骑士团",
+      "status": { "state": "存活", "role": "参加测验并支援迷宫入口防卫" },
+      "abilities_owned": ["tuning"],
+      "possessions_owned": [],
+      "relationships": {
+        "lux-arcadia": { "relation": "骑士与主君", "summary": "路克斯作为她的骑士行动；她关心他战败后的心情并支持他成为七龙骑圣。" },
+        "krullcifer-einfolk": { "relation": "同伴兼竞争者", "summary": "常因路克斯话题互相调侃。" },
+        "singlen-sharbrit": { "relation": "反感对象", "summary": "七龙骑圣候选面谈后因辛格伦的态度愤怒离席。" }
+      },
+      "knowledge": ["world-ranking-system"],
+      "secrets": [],
+      "summary": "莉夏在本卷负责路克斯泛用机龙的调律，并在辛格伦来访时作为候选人接受面谈但迅速与其交涉破裂。她在路克斯与辛格伦战后试图鼓励他，后来支持他为救人而成为七龙骑圣候选。",
+      "key_events": [
+        { "event_id": "singlen-recruitment-lux", "summary": "接受辛格伦候选面谈但因对方态度强硬而愤怒离席。", "sourceRef": "saijaku-muhai-bahamut-main/vol-07/full.txt:1030" },
+        { "event_id": "lux-becomes-seven-dragon-paladin", "summary": "目送路克斯以新王国七龙骑圣候选身份进入迷宫救援。", "sourceRef": "saijaku-muhai-bahamut-main/vol-07/full.txt:6340" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["saijaku-muhai-bahamut-main/vol-07/full.txt:240", "saijaku-muhai-bahamut-main/vol-07/full.txt:1030", "saijaku-muhai-bahamut-main/vol-07/full.txt:6340"]
+    }
+  ],
+  "source_refs": ["saijaku-muhai-bahamut-main/vol-07/full.txt:240"]
+}

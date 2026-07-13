@@ -1,0 +1,66 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "gatouhan",
+  "volume": "vol-09",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-09/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-09",
+      "volume": "vol-09",
+      "time": "圣蚀事件",
+      "name": {
+        "zh": "葛托汉",
+        "en": "Gatouhan",
+        "jp": ""
+      },
+      "aliases": [
+        "天龙师团长",
+        "龙匪贼三龙首之一"
+      ],
+      "gender": "male",
+      "species": "human",
+      "nationality": "unknown",
+      "occupation": "龙匪贼师团长；飞翔机龙部队指挥官",
+      "affiliation": "龙匪贼",
+      "status": {
+        "condition": "escaped",
+        "role": "率部投放干扰史莱姆并救出朵拉肯"
+      },
+      "abilities_owned": [
+        "flying-drag-ride-command"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "drakken": {
+          "type": "ally",
+          "summary": "指挥救援朵拉肯。"
+        },
+        "bain": {
+          "type": "ally",
+          "summary": "与拜因协同执行袭击与撤退。"
+        }
+      },
+      "summary": "葛托汉是龙匪贼天龙师团长，率领飞翔机龙部队从高空投下干扰史莱姆封锁机龙停机库，再趁乱救出朵拉肯。",
+      "key_events": [
+        {
+          "event_id": "dragon-marauder-raid",
+          "summary": "率队从学园上空投放干扰史莱姆。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-09/full.txt:5341"
+        },
+        {
+          "event_id": "drakken-rescue",
+          "summary": "协助救出朵拉肯并撤退。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-09/full.txt:6737"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:5341",
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:6737"
+      ]
+    }
+  ]
+}

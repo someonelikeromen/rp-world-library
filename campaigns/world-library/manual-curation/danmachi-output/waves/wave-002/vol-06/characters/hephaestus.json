@@ -1,0 +1,49 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "hephaestus",
+  "volume": "vol-06",
+  "time_range": {"start": "第二章", "end": "第四章"},
+  "sub_arcs": ["宴会支援", "准许韦尔夫离开"],
+  "periods": [
+    {
+      "period_id": "vol-06-ch-02-banquet",
+      "volume": "vol-06",
+      "time": "第二章 Shall We Dance？",
+      "label": "赫斯缇雅的神友",
+      "name": {"zh": "赫菲斯托丝", "en": "Hephaestus", "jp": "ヘファイストス"},
+      "titles": ["锻造神", "赫菲斯托丝眷族主神"],
+      "gender": "女",
+      "species": "女神",
+      "occupation": "主神、锻造神",
+      "affiliation": "赫菲斯托丝眷族",
+      "status": {"location": "众神之宴", "state": "作为赫斯缇雅神友出席并试图为酒馆事件担责"},
+      "personality": {"summary": "成熟、理性，重视赫斯缇雅与韦尔夫；在阿波罗逼迫时试图袒护朋友。", "core_traits": ["理性", "可靠", "重朋友", "锻造神自尊"]},
+      "relationships": {"hestia": "好友", "welf-crozzo": "眷族成员与受期待的铁匠", "apollo": "质疑其单方面追责"},
+      "summary": "赫菲斯托丝在宴会上与赫斯缇雅等人会合。阿波罗追责酒馆事件时，她指出最先出手的是韦尔夫，试图为赫斯缇雅分担责任。",
+      "key_events": [{"event_id": "apollo-demands-war-game", "summary": "在阿波罗追责时试图替赫斯缇雅说话。", "sourceRef": "danmachi-main/vol-06/full.txt:2492"}],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-06/full.txt:1340", "danmachi-main/vol-06/full.txt:2492"]
+    },
+    {
+      "period_id": "vol-06-ch-04-welf-farewell",
+      "volume": "vol-06",
+      "time": "第四章 同伴齐聚",
+      "label": "赠锤送别韦尔夫",
+      "name": {"zh": "赫菲斯托丝", "en": "Hephaestus", "jp": "ヘファイストス"},
+      "titles": ["锻造神", "赫菲斯托丝眷族主神"],
+      "gender": "女",
+      "species": "女神",
+      "occupation": "主神、锻造神",
+      "affiliation": "赫菲斯托丝眷族",
+      "status": {"location": "赫菲斯托丝眷族分店办公室", "state": "准许韦尔夫为朋友离开眷族，并赠送红色铁锤"},
+      "personality": {"summary": "理解韦尔夫选择友情与工匠道路并不矛盾，以锤子作为饯别。", "core_traits": ["宽容", "洞察弟子", "自豪", "支持成长"]},
+      "relationships": {"welf-crozzo": "离团的铁匠弟子；认可其决意"},
+      "summary": "韦尔夫请求改宗加入赫斯缇雅眷族时，赫菲斯托丝询问其目标与驱动力。听到他为朋友而去，她准许转籍并赠送红色铁锤。",
+      "key_events": [{"event_id": "welf-converts-to-hestia-familia", "summary": "准许韦尔夫离开并赠送铁锤。", "sourceRef": "danmachi-main/vol-06/full.txt:5900"}],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-06/full.txt:5900"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-06/full.txt:1340-5900"]
+}

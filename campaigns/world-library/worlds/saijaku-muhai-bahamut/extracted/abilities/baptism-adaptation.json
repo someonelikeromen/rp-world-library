@@ -1,0 +1,84 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "baptism-adaptation",
+  "volume": "vol-17",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-17/full.txt:7280"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-17",
+      "volume": "vol-17",
+      "time": "游行循环至箱庭战",
+      "name": {
+        "zh": "洗礼适应",
+        "en": "Baptism Adaptation"
+      },
+      "aliases": [
+        "洗礼力量转化",
+        "身体强化适应"
+      ],
+      "type": "supernatural / genetic",
+      "description": "路克斯在大圣域接受洗礼后的身体变化。本卷前半表现为发热、疲劳和感官失调,后半在箱庭战中逐渐适应,使身体机能和五感强化转化为更高精度的机龙控制。",
+      "details": {
+        "subject": "lux-arcadia",
+        "cause": "大圣域洗礼与万灵药影响",
+        "symptoms": [
+          "发热",
+          "疲劳",
+          "机龙操纵不适",
+          "感知敏锐化"
+        ]
+      },
+      "activation": {
+        "condition": "洗礼后的身体承受战斗负荷并逐步适应",
+        "incantation": "",
+        "time": "渐进",
+        "cost": "身体负担与生命风险"
+      },
+      "effects": [
+        "提高身体机能与五感",
+        "增强机龙控制精度",
+        "帮助路克斯使用新版终极行动和永久连环"
+      ],
+      "power_level": {
+        "initial": "不稳定,导致身体虚弱",
+        "peak": "箱庭战中可与圣蚀克隆体驾驶的巴哈姆特抗衡",
+        "evolution": [
+          "从游行期间的体调不良转为可控强化"
+        ]
+      },
+      "known_feats": [
+        {
+          "summary": "路克斯多次发热、疲劳并怀疑与洗礼有关。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-17/full.txt:1220"
+        },
+        {
+          "summary": "爱莉尔说明路克斯已经开始把洗礼力量化为己有但仍不充分。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-17/full.txt:7280"
+        }
+      ],
+      "shared_by": [
+        "lux-arcadia"
+      ],
+      "see_also": [
+        "baptism-resistance",
+        "dormant-pod"
+      ],
+      "countered_by": [],
+      "counters": [
+        "perception-manipulation"
+      ],
+      "variations": [
+        "局部强化",
+        "全身强化"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-17/full.txt:1220",
+        "saijaku-muhai-bahamut-main/vol-17/full.txt:7280"
+      ]
+    }
+  ]
+}

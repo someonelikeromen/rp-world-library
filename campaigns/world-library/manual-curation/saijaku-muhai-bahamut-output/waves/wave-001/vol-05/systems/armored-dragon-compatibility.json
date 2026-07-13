@@ -1,0 +1,29 @@
+{
+  "_schema": "rp-system-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "system_id": "armored-dragon-compatibility",
+  "volume": "vol-05",
+  "periods": [
+    {
+      "period_id": "vol-05",
+      "volume": "vol-05",
+      "time": "vol-05",
+      "name": { "zh": "装甲机龙适性值", "en": "Armored Dragon Compatibility Value" },
+      "aliases": ["机龙适性值"],
+      "type": "classification / magic",
+      "description": "衡量一个人与装甲机龙精神同调程度的数值。高适性值意味着精神操作比较容易，但不保证实际操纵技术好——还需要相应的体力、运动神经和操作技术。艾丽拥有全学年数一数二的适性值，但因体力差和运动神经欠佳而无法有效操纵。",
+      "principles": "数值越高，精神同调越好→但体力和技术是独立的能力",
+      "classification": "用于评估潜在的机龙使才能",
+      "levels": ["低", "普通", "高", "极高（神装机龙级别）"],
+      "known_practitioners": ["airi-arcadia（高适性低体力）", "lux-arcadia（极高适性）"],
+      "origin": "",
+      "limitations": ["高适性不代表实际战斗力", "体力和运动神经同样重要"],
+      "related_systems": ["armored-dragon-system", "authentication-and-contract"],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-05/full.txt:900-1380"
+      ]
+    }
+  ],
+  "source_refs": []
+}

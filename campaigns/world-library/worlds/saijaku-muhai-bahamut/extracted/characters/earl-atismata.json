@@ -1,0 +1,72 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "earl-atismata",
+  "volume": "vol-20",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-20/full.txt:1"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-20",
+      "volume": "vol-20",
+      "time": "旧帝国革命回想与新王国传承",
+      "name": {
+        "zh": "亚提司玛特伯爵",
+        "en": "Earl Atismata"
+      },
+      "aliases": [
+        "伟大的英雄"
+      ],
+      "titles": [
+        "革命英雄",
+        "罗菲女王前代/新王国奠基者"
+      ],
+      "gender": "male",
+      "species": "human",
+      "nationality": "新王国/旧帝国反抗势力",
+      "occupation": "贵族、革命领袖",
+      "affiliation": "反旧帝国革命军、新王国象征",
+      "status": {
+        "alive": false,
+        "condition": "旧帝国革命中战死，作为新王国英雄被追忆"
+      },
+      "abilities_owned": [
+        "revolutionary-leadership"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "lisha-atismata": {
+          "type": "父女",
+          "summary": "莉夏背负其英雄遗孤身份。"
+        },
+        "roffi-atismata": {
+          "type": "继承关系",
+          "summary": "罗菲被视为其继任者。"
+        },
+        "lux-arcadia": {
+          "type": "革命同伴/历史影响",
+          "summary": "曾与路克斯共同反抗旧帝国。"
+        }
+      },
+      "summary": "旧帝国革命英雄与新王国象征。其失败和牺牲贯穿本卷对英雄、王权与责任的讨论。",
+      "key_events": [
+        {
+          "event_id": "imperial-revolution-flashback",
+          "summary": "五年前革命失败中被提及为路克斯曾经追随的英雄。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-20/full.txt:1"
+        },
+        {
+          "event_id": "lux-coronation",
+          "summary": "其遗产影响莉夏与新王国重建。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-20/full.txt:6501"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-20/full.txt:1",
+        "saijaku-muhai-bahamut-main/vol-20/full.txt:6501"
+      ]
+    }
+  ]
+}

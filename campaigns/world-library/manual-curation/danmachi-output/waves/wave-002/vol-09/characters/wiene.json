@@ -1,0 +1,99 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "wiene",
+  "volume": "vol-09",
+  "time_range": { "start": "序章", "end": "附录" },
+  "sub_arcs": ["诞生与邂逅", "灶火馆日常", "城市排斥", "异端儿归属", "家人记忆"],
+  "periods": [
+    {
+      "period_id": "vol-09-prologue-birth-and-flight",
+      "volume": "vol-09",
+      "time": "序章 邂逅",
+      "label": "在大树迷宫孤独诞生",
+      "name": { "zh": "薇妮", "en": "Wiene", "jp": "ウィーネ" },
+      "aliases": ["龙女", "维维尔", "薇留辛妮"],
+      "gender": "女",
+      "species": "异端儿；维维尔/龙女",
+      "occupation": "无；受保护的异端儿少女",
+      "affiliation": "赫斯缇雅眷族庇护；异端儿",
+      "status": { "location": "地下城第19层大树迷宫", "state": "刚诞生即被怪兽、人类和狩猎者追逐，遍体鳞伤" },
+      "summary": "薇妮从地下城壁面诞生，拥有青银发、白里透青的肌肤、鳞片与额上红石。她会说话、会哭，却遭同族怪兽与冒险者攻击，拖着伤腿躲藏时遇见贝尔。",
+      "key_events": [
+        { "event_id": "wiene-flees-after-birth-and-meets-bell", "summary": "在迷宫中哭泣逃亡并与贝尔相遇。", "sourceRef": "danmachi-main/vol-09/full.txt:120" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-09/full.txt:1-148"]
+    },
+    {
+      "period_id": "vol-09-ch-01-rescued-by-bell",
+      "volume": "vol-09",
+      "time": "第一章 异性少女",
+      "label": "被贝尔救下并带回地表",
+      "status": { "location": "地下城第19层、第18层、巴别塔", "state": "依赖贝尔并跟随他逃离冒险者视线" },
+      "summary": "薇妮被贝尔从火鸟与追捕冒险者手中救下，用灵药治疗。她学会贝尔的名字并表达感谢，在赫斯缇雅眷族最初警戒她时，凭人语与脆弱姿态让众人动摇。",
+      "key_events": [
+        { "event_id": "bell-rescues-wiene-from-firebird-and-adventurers", "summary": "接受贝尔治疗并向他道谢。", "sourceRef": "danmachi-main/vol-09/full.txt:360" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-09/full.txt:149-776"]
+    },
+    {
+      "period_id": "vol-09-ch-02-manor-life",
+      "volume": "vol-09",
+      "time": "第二章 龙娘的同居日常",
+      "label": "获得名字与短暂家庭生活",
+      "status": { "location": "灶火馆", "state": "与贝尔、春姬、赫斯缇雅等逐渐建立信任" },
+      "personality": { "summary": "如幼儿般纯真、怕孤独、渴望温暖；害怕伤害别人，也害怕被世界拒绝。", "core_traits": ["纯真", "依赖", "敏感", "善良", "学习迅速"], "desires": ["与贝尔和眷族在一起", "被接纳", "看到地表与阳光"], "fears": ["被怪兽与人类伤害", "伤害贝尔", "与贝尔分离"] },
+      "summary": "赫斯缇雅决定暂时保护她，贝尔为她取名薇妮。她第一次认识太阳、食物、浴室与家人般的温暖；韦尔夫磨圆她的爪子后，她能安心触碰贝尔，并在夜里向贝尔讲述疑似前世的噩梦。",
+      "key_events": [
+        { "event_id": "hestia-familia-accepts-wiene-and-names-her", "summary": "接受薇妮这个名字。", "sourceRef": "danmachi-main/vol-09/full.txt:920" },
+        { "event_id": "wiene-bonds-with-hestia-familia-at-manor", "summary": "与春姬、命、莉莉等逐渐亲近。", "sourceRef": "danmachi-main/vol-09/full.txt:1970" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-09/full.txt:777-2470"]
+    },
+    {
+      "period_id": "vol-09-ch-03-city-rejection",
+      "volume": "vol-09",
+      "time": "第三章 世界、现实与怪物",
+      "label": "被现实恶意击溃",
+      "status": { "location": "欧拉丽街区、教堂隐藏房间", "state": "因暴露翅膀遭市民投石，确认自己无法留在地表" },
+      "summary": "薇妮偷听到莉莉认为她不能与眷族共处，出门寻找贝尔。她为救犬人小孩张开龙翼，却被市民当作怪兽投石驱逐；莉莉变身救走她后，她在旧教堂向贝尔询问自己是否不能与他在一起。",
+      "key_events": [
+        { "event_id": "wiene-overhears-lili-and-runs-away", "summary": "听见自己是怪物、不能留下后逃离宅邸。", "sourceRef": "danmachi-main/vol-09/full.txt:3605" },
+        { "event_id": "wiene-revealed-in-city-and-lili-rescues-her", "summary": "救小孩后被投石驱逐。", "sourceRef": "danmachi-main/vol-09/full.txt:3880" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-09/full.txt:2471-4180"]
+    },
+    {
+      "period_id": "vol-09-ch-05-xenos-home",
+      "volume": "vol-09",
+      "time": "第五章 异端儿",
+      "label": "被异端儿迎为同胞",
+      "status": { "location": "地下城第20层异端儿秘里", "state": "被里德、蕾依等接纳，最终留在同胞身边" },
+      "summary": "薇妮随赫斯缇雅眷族完成护送任务，在秘里被蕾依称为新的同胞并受到怪兽们欢迎。她不愿离开贝尔，但里德说明继续在地表会害贝尔与眷族被世界排斥，她最终含泪留在异端儿身边。",
+      "key_events": [
+        { "event_id": "xenos-test-hestia-familia-and-greet-bell", "summary": "在秘里被蕾依迎接为同胞。", "sourceRef": "danmachi-main/vol-09/full.txt:7050" },
+        { "event_id": "wiene-stays-with-xenos-and-hestia-familia-returns", "summary": "与贝尔分别。", "sourceRef": "danmachi-main/vol-09/full.txt:8500" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-09/full.txt:5167-8632"]
+    },
+    {
+      "period_id": "vol-09-appendix-family-afternoon",
+      "volume": "vol-09",
+      "time": "附录 过往某日的一幕",
+      "label": "把贝尔和赫斯缇雅称作父亲母亲",
+      "status": { "location": "灶火馆中庭", "state": "在短暂安稳日常中入睡" },
+      "summary": "在被保护第四天，薇妮睡在赫斯缇雅膝上。醒来时她朦胧地称贝尔为父亲、赫斯缇雅为母亲，使两人脸红并共同欢笑。",
+      "key_events": [
+        { "event_id": "hestia-wiene-bell-family-afternoon", "summary": "把两人称作父亲和母亲。", "sourceRef": "danmachi-main/vol-09/full.txt:8795" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-09/full.txt:8759-8808"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-09/full.txt:1-8808"]
+}

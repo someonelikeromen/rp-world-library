@@ -1,0 +1,26 @@
+{
+  "_schema": "rp-event-volume-v1",
+  "world": "danmachi",
+  "event_id": "bell-defeats-minotaur-pack",
+  "volume": "vol-05",
+  "periods": [{
+    "period_id": "vol-05-ch-03",
+    "volume": "vol-05",
+    "time": "第三章 迷宫决死行",
+    "name": {"zh": "贝尔连续击破弥诺陶洛斯", "en": "Bell Defeats a Minotaur Pack"},
+    "type": "battle",
+    "location": "地下城第16层",
+    "summary": "强臭袋耗尽后，贝尔小队遭四头弥诺陶洛斯阻截。贝尔独自斩杀第一头，并以英雄愿望强化天然大石斧，一击消灭另外三头。",
+    "cause": "队伍失去驱散怪兽的道具，韦尔夫与莉莉又被弥诺陶洛斯咆哮压制。",
+    "process": "贝尔以赫斯缇雅之刃与牛若丸发动高速连续斩击，再进行约十秒蓄力，把三头冲锋的猛牛连同通道一起轰碎。",
+    "outcome": "四头弥诺陶洛斯全灭，韦尔夫确认贝尔单独击败猛牛并非虚假传闻。",
+    "aftermath": "英雄愿望的反作用进一步消耗贝尔体力，为之后搬运两名昏迷同伴埋下风险。",
+    "participants": ["bell-cranel", "welf-crozzo", "liliruca-arde"],
+    "casualties": ["四头弥诺陶洛斯死亡"],
+    "related_events": ["bell-party-chooses-descent", "goliath-respawns-and-chases-bell"],
+    "significance": "证明贝尔已具备稳定击杀弥诺陶洛斯的实力，并展示英雄愿望对武器攻击的强化。",
+    "evidence_level": "S",
+    "source_refs": ["danmachi-main/vol-05/full.txt:2860", "danmachi-main/vol-05/full.txt:2940", "danmachi-main/vol-05/full.txt:2994"]
+  }],
+  "source_refs": ["danmachi-main/vol-05/full.txt:2820-3000"]
+}

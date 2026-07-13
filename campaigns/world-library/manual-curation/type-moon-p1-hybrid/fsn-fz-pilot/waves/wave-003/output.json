@@ -1,0 +1,208 @@
+{
+  "schema": "tm-p1-hybrid-world-rules-v1",
+  "waveId": "wave-003",
+  "title": "FSN Worldline and Holy Grail War Base Rules",
+  "model": "lt-yuyu/gpt-5.5",
+  "status": "passed",
+  "generatedBy": "waves-a internal generator-fixer loop",
+  "formalWorldRules": [
+    {
+      "id": "rule-fsn-fz-core-sequence",
+      "type": "world-rule",
+      "name": "FSN/FZ core sequence",
+      "summary": "The pilot treats Fate/Zero's Fourth Holy Grail War and Fate/stay night's Fifth Holy Grail War as the core sequence for this p1-hybrid slice.",
+      "continuity": "mixed",
+      "timelineId": "mixed-fsn-fz",
+      "variantId": "base",
+      "classification": "canon-like-world-rule",
+      "sourceRefs": [
+        "type-moon-nasuverse/worldbook-text/src-type-moon-filtered.md:17",
+        "type-moon-nasuverse/worldbook-text/src-type-moon-filtered.md:18",
+        "type-moon-nasuverse/worldbook-text/src-type-moon-filtered.md:19"
+      ],
+      "sourceType": "user-file-worldbook",
+      "credibility": "B",
+      "evidenceLevel": "A",
+      "canonStatus": "canon-like"
+    },
+    {
+      "id": "rule-hgw-foundational-roles",
+      "type": "world-rule",
+      "name": "Holy Grail War foundational roles",
+      "summary": "The Holy Grail War framework uses Masters, Servants, Command Spells, magic crests, and Grail-related conflict as foundational concepts.",
+      "continuity": "mixed",
+      "timelineId": "mixed-fsn-fz",
+      "variantId": "base",
+      "classification": "canon-like-world-rule",
+      "sourceRefs": [
+        "type-moon-nasuverse/worldbook-text/src-type-moon-filtered.md:20",
+        "type-moon-nasuverse/story-text/fate/ch-002-fate-route.txt:44"
+      ],
+      "sourceType": "mixed",
+      "credibility": "B",
+      "evidenceLevel": "A",
+      "canonStatus": "canon-like"
+    },
+    {
+      "id": "rule-servants-class-summoning",
+      "type": "world-rule",
+      "name": "Heroic Spirits become class-bound Servants",
+      "summary": "Heroic Spirits become Servants through class summoning and magical supply; the Servant role is bounded by class and Holy Grail War framework.",
+      "continuity": "mixed",
+      "timelineId": "mixed-fsn-fz",
+      "variantId": "base",
+      "classification": "canon-like-world-rule",
+      "sourceRefs": [
+        "type-moon-nasuverse/worldbook-text/src-type-moon-filtered.md:24",
+        "type-moon-nasuverse/worldbook-text/src-type-moon-filtered.md:25"
+      ],
+      "sourceType": "user-file-worldbook",
+      "credibility": "B",
+      "evidenceLevel": "A",
+      "canonStatus": "canon-like"
+    },
+    {
+      "id": "rule-seven-base-servant-classes",
+      "type": "world-rule",
+      "name": "Seven base Servant classes",
+      "summary": "The core seven classes are Saber, Archer, Lancer, Rider, Caster, Assassin, and Berserker; class identity is separate from individual Heroic Spirit identity.",
+      "continuity": "mixed",
+      "timelineId": "mixed-fsn-fz",
+      "variantId": "base",
+      "classification": "canon-like-world-rule",
+      "sourceRefs": [
+        "type-moon-nasuverse/worldbook-text/src-type-moon-filtered.md:44"
+      ],
+      "sourceType": "user-file-worldbook",
+      "credibility": "B",
+      "evidenceLevel": "A",
+      "canonStatus": "canon-like"
+    },
+    {
+      "id": "rule-command-spells-authority",
+      "type": "world-rule",
+      "name": "Command Spell authority",
+      "summary": "Command Spells are a Master's limited authority over a Servant and can affect contracts, forced actions, and war-state changes.",
+      "continuity": "mixed",
+      "timelineId": "mixed-fsn-fz",
+      "variantId": "base",
+      "classification": "canon-like-world-rule",
+      "sourceRefs": [
+        "type-moon-nasuverse/worldbook-text/src-type-moon-filtered.md:34",
+        "type-moon-nasuverse/worldbook-text/src-fate-zero.md:18",
+        "type-moon-nasuverse/story-text/fate/ch-002-fate-route.txt:43",
+        "type-moon-nasuverse/story-text/fate/ch-003-ubw-route.txt:71"
+      ],
+      "sourceType": "mixed",
+      "credibility": "B",
+      "evidenceLevel": "A",
+      "canonStatus": "canon-like"
+    },
+    {
+      "id": "rule-grail-contamination-route-risk",
+      "type": "world-rule",
+      "name": "Polluted Grail as route-level hazard",
+      "summary": "Route summaries identify the Grail as polluted or tied to Angra Mainyu / all the world's evil, affecting Fate, UBW, and HF conflict resolution.",
+      "continuity": "fsn",
+      "timelineId": "fsn-main",
+      "variantId": "route-dependent",
+      "classification": "canon-like-world-rule",
+      "sourceRefs": [
+        "type-moon-nasuverse/story-text/fate/ch-002-fate-route.txt:114",
+        "type-moon-nasuverse/story-text/fate/ch-003-ubw-route.txt:100",
+        "type-moon-nasuverse/story-text/fate/ch-004-hf-route.txt:107"
+      ],
+      "sourceType": "curated-story-derived",
+      "credibility": "B",
+      "evidenceLevel": "B",
+      "canonStatus": "adapted"
+    },
+    {
+      "id": "rule-third-magic-centrality",
+      "type": "world-rule",
+      "name": "Third Magic and Heaven's Feel centrality",
+      "summary": "Third Magic / Heaven's Feel is central to FSN, the Einzbern plan, and the Holy Grail system.",
+      "continuity": "fsn",
+      "timelineId": "fsn-main",
+      "variantId": "base",
+      "classification": "canon-like-world-rule",
+      "sourceRefs": [
+        "type-moon-nasuverse/worldbook-text/src-type-moon-filtered.md:54",
+        "type-moon-nasuverse/worldbook-text/src-type-moon-filtered.md:55",
+        "type-moon-nasuverse/story-text/fate/ch-004-hf-route.txt:116",
+        "type-moon-nasuverse/story-text/fate/ch-004-hf-route.txt:139"
+      ],
+      "sourceType": "mixed",
+      "credibility": "B",
+      "evidenceLevel": "A",
+      "canonStatus": "canon-like"
+    }
+  ],
+  "sandboxOrEngineRules": [
+    {
+      "id": "sandbox-day-night-war-layer",
+      "type": "world-rule",
+      "name": "Sandbox day/night investigation and occult layer",
+      "summary": "The sandbox source divides daytime public investigation from nighttime occult conflict.",
+      "classification": "sandbox-rule",
+      "sourceRefs": ["type-moon-nasuverse/worldbook-text/src-fsn-sandbox.md:23"],
+      "sourceType": "user-file-worldbook",
+      "credibility": "B",
+      "evidenceLevel": "B",
+      "canonStatus": "sandbox",
+      "formalMergeAllowed": false
+    },
+    {
+      "id": "sandbox-mystery-scaling",
+      "type": "world-rule",
+      "name": "Sandbox mystery scaling",
+      "summary": "The sandbox source asserts Servants and Noble Phantasms dominate modern weapons and ordinary magecraft for engine balance.",
+      "classification": "sandbox-rule",
+      "sourceRefs": ["type-moon-nasuverse/worldbook-text/src-fsn-sandbox.md:20"],
+      "sourceType": "user-file-worldbook",
+      "credibility": "B",
+      "evidenceLevel": "B",
+      "canonStatus": "sandbox",
+      "formalMergeAllowed": false
+    },
+    {
+      "id": "rp-engine-output-protocol",
+      "type": "world-rule",
+      "name": "RP output protocol",
+      "summary": "The sandbox source defines story_driver, npc_driver, combat_driver, summary, and wlog output sections.",
+      "classification": "rp-engine-rule",
+      "sourceRefs": ["type-moon-nasuverse/worldbook-text/src-fsn-sandbox.md:24"],
+      "sourceType": "user-file-worldbook",
+      "credibility": "B",
+      "evidenceLevel": "B",
+      "canonStatus": "sandbox",
+      "formalMergeAllowed": false
+    },
+    {
+      "id": "sandbox-date-frame",
+      "type": "world-rule",
+      "name": "Sandbox date frame",
+      "summary": "The sandbox source frames winter daily life from 1995 to 2004-01, Fifth Holy Grail War from 2004-02-02 onward, and sandbox mode after the war.",
+      "classification": "sandbox-rule",
+      "sourceRefs": ["type-moon-nasuverse/worldbook-text/src-fsn-sandbox.md:25"],
+      "sourceType": "user-file-worldbook",
+      "credibility": "B",
+      "evidenceLevel": "B",
+      "canonStatus": "sandbox",
+      "formalMergeAllowed": false
+    }
+  ],
+  "deferredToLaterWaves": [
+    {
+      "category": "locations",
+      "assignedWave": "wave-007",
+      "reason": "Locked plan assigns locations to wave-007. Wave-003 only references locations where needed for rule evidence."
+    },
+    {
+      "category": "abilities/magecraft/Noble Phantasms",
+      "assignedWave": "wave-008",
+      "reason": "Wave-003 records system-level Noble Phantasm and Command Spell rules; individual abilities remain for wave-008."
+    }
+  ],
+  "openIssues": []
+}

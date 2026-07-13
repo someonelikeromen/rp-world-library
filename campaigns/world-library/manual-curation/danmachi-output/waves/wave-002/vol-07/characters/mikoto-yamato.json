@@ -1,0 +1,358 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "mikoto-yamato",
+  "volume": "vol-07",
+  "time_range": {
+    "start": "序章",
+    "end": "终章"
+  },
+  "sub_arcs": [
+    "新生赫斯缇雅眷族初回探索",
+    "新总部搬入与债务危机",
+    "寻找远东旧识",
+    "杀生石真相调查与春姬救援",
+    "舍身破局与旧友重逢"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-07-prologue",
+      "volume": "vol-07",
+      "time": "序章 女神是残酷的淫都之王",
+      "label": "新队伍中卫",
+      "name": {
+        "zh": "大和·命",
+        "en": "Mikoto Yamato",
+        "jp": "ヤマト・命"
+      },
+      "aliases": [
+        "命"
+      ],
+      "gender": "女",
+      "species": "人类",
+      "occupation": "冒险者",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {
+        "location": "地下城第13层",
+        "state": "以银枪担任中卫，支援贝尔与韦尔夫"
+      },
+      "personality": {
+        "summary": "认真谨慎，负责警戒并在怪物奉送时因过往事件反射性道歉。",
+        "core_traits": [
+          "认真",
+          "谨慎",
+          "责任感强"
+        ]
+      },
+      "summary": "在第13层负责警戒并以银枪支援前锋；怪物奉送再现时背起莉莉的行囊撤退。",
+      "key_events": [
+        {
+          "event_id": "hestia-familia-first-expedition-after-war-game",
+          "summary": "作为中卫压制独角兔并保护队形。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:118"
+        },
+        {
+          "event_id": "hestia-familia-pass-parade-vol-07",
+          "summary": "怪物奉送时背起行囊逃离。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:154"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-07/full.txt:83",
+        "danmachi-main/vol-07/full.txt:118",
+        "danmachi-main/vol-07/full.txt:154"
+      ]
+    },
+    {
+      "period_id": "vol-07-ch-01",
+      "volume": "vol-07",
+      "time": "第一章 一帆风顺",
+      "label": "浴池诱惑与债务发现",
+      "name": {
+        "zh": "大和·命",
+        "en": "Mikoto Yamato",
+        "jp": "ヤマト・命"
+      },
+      "aliases": [
+        "命"
+      ],
+      "gender": "女",
+      "species": "人类",
+      "occupation": "冒险者",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {
+        "location": "赫斯缇雅眷族新总部",
+        "state": "因新浴池兴奋，又无意公开赫斯缇雅债务；随后被千草带来消息动摇"
+      },
+      "personality": {
+        "summary": "严谨但难以抵抗故乡式浴池，偷泡晨浴后反省；债务借据掉出时慌张示众。",
+        "core_traits": [
+          "认真",
+          "纯情",
+          "重视故乡",
+          "容易自责"
+        ]
+      },
+      "relationships": {
+        "hestia": "主神；无意揭发其债务",
+        "welf-crozzo": "替自己保守泡澡秘密的同伴",
+        "chigusa-hitachi": "远东旧友，带来令她动摇的消息"
+      },
+      "summary": "新总部三楼的远东式桧木浴池让命无法抗拒；搬运时捡到两亿法利借据并在志愿者面前惊叫公开。次日千草来访告知某项消息，命明显动摇却对贝尔等人隐瞒。",
+      "key_events": [
+        {
+          "event_id": "hestia-familia-moves-into-former-apollo-mansion",
+          "summary": "发现按要求设置的远东式大浴池并偷泡晨浴。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:404"
+        },
+        {
+          "event_id": "hestia-familia-recruitment-collapse",
+          "summary": "拿着两亿法利借据在众人面前示众。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:946"
+        },
+        {
+          "event_id": "chigusa-warns-mikoto",
+          "summary": "听取千草来访带来的紧急消息后动摇。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:1244"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-07/full.txt:404",
+        "danmachi-main/vol-07/full.txt:946",
+        "danmachi-main/vol-07/full.txt:1244"
+      ]
+    },
+    {
+      "period_id": "vol-07-ch-02",
+      "volume": "vol-07",
+      "time": "第二章 跑吧！克朗尼",
+      "label": "秘密进入风月街寻找同乡",
+      "name": {
+        "zh": "大和·命",
+        "en": "Mikoto Yamato",
+        "jp": "ヤマト・命"
+      },
+      "aliases": [
+        "命",
+        "绝影"
+      ],
+      "gender": "女",
+      "species": "人类",
+      "occupation": "冒险者",
+      "affiliation": "赫斯缇雅眷族；原建御雷眷族",
+      "status": {
+        "location": "风月街第三区",
+        "state": "与千草寻找疑似远东失踪旧识的人，因羞耻与风险而未告知同伴"
+      },
+      "personality": {
+        "summary": "不擅说谎且纯真保守，因远东旧识线索焦急行动；不愿把同伴卷入风月街，却也缺乏在该地行动的经验。",
+        "core_traits": [
+          "认真",
+          "不擅隐瞒",
+          "重视旧友",
+          "纯情"
+        ],
+        "fears": [
+          "将同伴卷入风月街",
+          "同乡旧识陷入污名之地"
+        ]
+      },
+      "relationships": {
+        "chigusa-hitachi": "共同寻找失踪旧识的远东旧友",
+        "bell-cranel": "被卷入跟踪并走散的同伴",
+        "liliruca-arde": "追踪自己并指出第三区危险的同伴",
+        "welf-crozzo": "追踪自己并解围的同伴",
+        "ouka-kashima": "旧友；千草不愿让其来风月街"
+      },
+      "summary": "命假装早睡后偷偷离开新总部，与千草在南大街会合，进入风月街寻找几年前下落不明、疑似出现在此地的远东尊贵旧识。她们因过于纯真在红灯区举止慌张，并被男神纠缠，后由韦尔夫和莉莉解围。命解释此事是同乡问题且证据不足，所以未向贝尔等人坦白。",
+      "key_events": [
+        {
+          "event_id": "mikoto-and-chigusa-enter-red-light-district",
+          "summary": "装作早睡后与千草会合，秘密进入风月街寻找失踪旧识。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:1270"
+        },
+        {
+          "event_id": "welf-and-lili-confront-mikoto",
+          "summary": "被同伴追上后说明远东旧识线索。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:1542"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-07/full.txt:1270",
+        "danmachi-main/vol-07/full.txt:1288",
+        "danmachi-main/vol-07/full.txt:1542",
+        "danmachi-main/vol-07/full.txt:1586",
+        "danmachi-main/vol-07/full.txt:1596"
+      ]
+    },
+    {
+      "period_id": "vol-07-ch-03-to-05",
+      "volume": "vol-07",
+      "time": "第三章 狐兔忧闷 至 第五章 杀生石",
+      "label": "确认春姬旧友与杀生石真相",
+      "name": {
+        "zh": "大和·命",
+        "en": "Mikoto Yamato",
+        "jp": "ヤマト・命"
+      },
+      "aliases": [
+        "命",
+        "绝影"
+      ],
+      "gender": "女",
+      "species": "人类",
+      "occupation": "冒险者、忍者",
+      "affiliation": "赫斯缇雅眷族；原建御雷眷族",
+      "status": {
+        "location": "旧书店、地下城第15层、女主神娼殿",
+        "state": "确认春姬是远东旧友后被伊丝塔眷族捕获，逃脱并查明杀生石仪式"
+      },
+      "personality": {
+        "summary": "重情重义且自责，面对旧友沦为娼妇仍想救她；被捕后冷静用忍术潜行调查。",
+        "core_traits": [
+          "认真",
+          "重视旧友",
+          "忠义",
+          "自责",
+          "行动果断"
+        ]
+      },
+      "abilities_owned": [
+        "八咫白乌",
+        "忍术",
+        "圆月摔"
+      ],
+      "relationships": {
+        "haruhime-sanjouno": "远东童年旧友，确认身份后决心营救",
+        "bell-cranel": "共同被捕并共同面对杀生石真相的同伴",
+        "takemikazuchi": "旧主神，说明春姬童年背景",
+        "aisha-belka": "诱捕她与贝尔的伊丝塔眷族战斗娼妇"
+      },
+      "summary": "贝尔询问春姬后，命确认她是自己在远东与樱花、千草一同偷偷带出府邸游玩的童年旧友。随后赫斯缇雅眷族接下委托进入地下城，贝尔与命遭阿伊莎、芙里尼捕获并被带入女主神娼殿。春姬投钥匙帮助命逃脱，命取回赫斯缇雅之刃等装备并在资料室查明杀生石仪式真相，赶到后巷与贝尔一起得知春姬将被牺牲。",
+      "key_events": [
+        {
+          "event_id": "mikoto-reveals-haruhime-childhood",
+          "summary": "讲述与春姬在远东的童年关系。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:4228"
+        },
+        {
+          "event_id": "bell-and-mikoto-captured-by-ishtar-familia",
+          "summary": "与贝尔在地下城被伊丝塔眷族击倒并捕获。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:5852"
+        },
+        {
+          "event_id": "haruhime-frees-mikoto",
+          "summary": "得到春姬丢来的钥匙后脱困。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:6500"
+        },
+        {
+          "event_id": "mikoto-escapes-and-recovers-hestia-knife",
+          "summary": "潜行逃脱并找回贝尔装备。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:6602"
+        },
+        {
+          "event_id": "killing-stone-explained",
+          "summary": "在资料室读到杀生石会抽出狐人灵魂与妖术。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:7012"
+        },
+        {
+          "event_id": "aisha-reveals-killing-stone-plan",
+          "summary": "与贝尔一起听阿伊莎说明春姬将被牺牲的计划。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:7312"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-07/full.txt:4200-7445"
+      ]
+    },
+    {
+      "period_id": "vol-07-ch-06-to-epilogue",
+      "volume": "vol-07",
+      "time": "第六章 英雄渴望 至 终章 若是被温柔拥抱",
+      "label": "潜入救援与旧友重逢",
+      "name": {
+        "zh": "大和·命",
+        "en": "Mikoto Yamato",
+        "jp": "ヤマト・命"
+      },
+      "aliases": [
+        "命",
+        "绝影"
+      ],
+      "gender": "女",
+      "species": "人类",
+      "occupation": "冒险者、忍者",
+      "affiliation": "赫斯缇雅眷族；原建御雷眷族",
+      "status": {
+        "location": "女主神娼殿、赫斯缇雅眷族新总部灶火馆",
+        "state": "与贝尔突入救援春姬，舍身引发魔力误爆后获救，终章迎接春姬成为新家人"
+      },
+      "personality": {
+        "summary": "忠义而舍身，为救春姬不惜独自潜入和自爆式拖延；终章以旧友身份请求春姬重新真心欢笑。",
+        "core_traits": [
+          "忠义",
+          "舍身",
+          "重视旧友",
+          "坚忍",
+          "温柔"
+        ]
+      },
+      "abilities_owned": [
+        "八咫白乌",
+        "忍术",
+        "圆月摔",
+        "魔力误爆"
+      ],
+      "relationships": {
+        "haruhime-sanjouno": "拼死救援并最终重归旧日笑容的旧友",
+        "bell-cranel": "分工突入女主神娼殿的同伴",
+        "samira": "空中庭园决斗对手",
+        "ottar": "在坠落濒死时救下自己的芙蕾雅眷族干部"
+      },
+      "summary": "贝尔决意救春姬后，命与他制定二人突入作战：贝尔正面吸引敌人，命潜入寻找春姬。命从宫殿背面潜入并在空中走廊尝试带走春姬，但因春姬拒绝和敌方魔剑射击失败。空中庭园混战中，她独战萨米拉，以烟雾弹、替身术、圆月摔和蓄意魔力误爆重创敌方战力，为贝尔破坏杀生石创造机会。坠落时她被奥它救下。两天后，命在灶火馆迎接春姬加入赫斯缇雅眷族，两名旧友互相道谢道歉并重新露出笑容。",
+      "key_events": [
+        {
+          "event_id": "bell-and-mikoto-plan-palace-rescue",
+          "summary": "与贝尔制定突入女主神娼殿救援春姬的作战。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:8010"
+        },
+        {
+          "event_id": "mikoto-infiltrates-ishtar-palace",
+          "summary": "从宫殿背面潜入并问出春姬位置。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:8300"
+        },
+        {
+          "event_id": "mikoto-tries-to-rescue-haruhime-on-bridge",
+          "summary": "在空中走廊试图救走春姬但失败。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:8950"
+        },
+        {
+          "event_id": "mikoto-duels-samira-and-ignis-fatuus",
+          "summary": "与萨米拉决斗并蓄意引发魔力误爆，拖住敌方战力。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:9442"
+        },
+        {
+          "event_id": "ottar-rescues-mikoto",
+          "summary": "从空中庭园坠落后被奥它接住并用万灵药救治。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:10714"
+        },
+        {
+          "event_id": "mikoto-and-haruhime-reconcile",
+          "summary": "终章与春姬互相道谢道歉，恢复旧友笑容。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:12426"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-07/full.txt:7990-12474"
+      ]
+    }
+  ],
+  "source_refs": [
+    "danmachi-main/vol-07/full.txt:1-12474"
+  ]
+}

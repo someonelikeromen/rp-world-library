@@ -1,0 +1,45 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "mobility-layout",
+  "volume": "vol-09",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-09/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-09",
+      "volume": "vol-09",
+      "time": "vol-09",
+      "name": {
+        "zh": "机动布局",
+        "en": "Mobility Layout"
+      },
+      "aliases": [],
+      "type": "combat / skill",
+      "description": "赛莉丝基于自身体能、武装与战局推导最适动作的战术思考能力。",
+      "details": {
+        "used_by": "celestia",
+        "vol_09_usage": "判断先散布圣蚀体液，再用最大雷击导电歼灭分体。"
+      },
+      "activation": {
+        "condition": "长期训练和战斗观察",
+        "incantation": "",
+        "time": "continuous",
+        "cost": "精神集中"
+      },
+      "effects": [
+        "战术推导",
+        "选择机龙解放部位",
+        "与路克斯无言配合"
+      ],
+      "shared_by": [
+        "celestia"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:6737"
+      ]
+    }
+  ]
+}

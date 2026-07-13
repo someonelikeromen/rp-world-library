@@ -1,0 +1,44 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "ais-wallenstein",
+  "volume": "vol-10",
+  "time_range": { "start": "第七章", "end": "终章" },
+  "sub_arcs": ["怪物观", "洛基眷族介入", "阿斯泰里奥斯战"],
+  "periods": [
+    {
+      "period_id": "vol-10-ch-07-answer-to-bell",
+      "volume": "vol-10",
+      "time": "第七章 惨剧之王",
+      "label": "回答贝尔会杀死让人哭泣的怪物",
+      "name": { "zh": "艾丝·华伦斯坦", "en": "Ais Wallenstein", "jp": "アイズ・ヴァレンシュタイン" },
+      "aliases": ["剑姬"],
+      "gender": "女",
+      "species": "人类",
+      "occupation": "冒险者、洛基眷族干部",
+      "affiliation": "洛基眷族",
+      "status": { "level": "Lv.6", "location": "欧拉丽", "state": "对怪物有明确敌意" },
+      "summary": "贝尔在巴别塔遇见艾丝，并询问如果怪物也有感情和生存理由她会怎么做。艾丝回答若怪物让任何人哭泣，她会杀了怪物，这让贝尔面对人类与怪物之间的裂缝。",
+      "key_events": [
+        { "event_id": "bell-tests-hesitation-and-asks-ais-monster-question", "summary": "给出会杀死伤人怪物的答案。", "sourceRef": "danmachi-main/vol-10/full.txt:2200" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-10/full.txt:2150-2285"]
+    },
+    {
+      "period_id": "vol-10-ch-09-10-confronts-bell-and-asterius",
+      "volume": "vol-10",
+      "time": "第九章至第十章",
+      "label": "目睹贝尔庇护怪物并与阿斯泰里奥斯交战",
+      "status": { "location": "代达罗斯路", "state": "困惑于贝尔立场，之后执行讨伐" },
+      "summary": "艾丝随洛基眷族赶到代达罗斯路，看到贝尔挡在龙女面前。她之后与阿斯泰里奥斯交战，以风灵疾走斩断其右臂，但也被其力量击退并被迫与芬恩、格瑞斯合围。",
+      "key_events": [
+        { "event_id": "bell-protects-wiene-from-loki-familia", "summary": "与贝尔在怪物问题上对峙。", "sourceRef": "danmachi-main/vol-10/full.txt:8030" },
+        { "event_id": "loki-familia-battles-xenos-and-asterius", "summary": "斩断阿斯泰里奥斯右臂。", "sourceRef": "danmachi-main/vol-10/full.txt:8580" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-10/full.txt:8030-8760"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-10/full.txt:2150-8760"]
+}

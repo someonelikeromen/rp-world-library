@@ -1,0 +1,43 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "miach",
+  "volume": "danmachi-main/vol-04",
+  "time_range": { "start": "vol-04-quest-x-quest", "end": "vol-04-quest-x-quest" },
+  "sub_arcs": ["quest-x-quest"],
+  "periods": [
+    {
+      "period_id": "vol-04-quest-x-quest-miach-debt",
+      "volume": "danmachi-main/vol-04",
+      "time": "Miach Familia debt crisis",
+      "label": "Miach apologizes for Naaza's fraud and resolves the debt crisis",
+      "name": { "zh": "米赫", "en": "Miach", "jp": "ミアハ" },
+      "aliases": ["米赫神"],
+      "titles": ["Miach Familia主神", "healing and pharmacy deity"],
+      "gender": "male",
+      "species": "god",
+      "nationality": "",
+      "occupation": "deity; pharmacy familia patron",
+      "affiliation": "Miach Familia",
+      "status": { "debt": "Owes Dian Cecht for Naaza's silver arm", "familia_state": "reduced to Miach and Naaza after debt drove other members away" },
+      "appearance": { "overview": "Tall, handsome god with long ultramarine hair and a worn gray robe, giving a noble but impoverished impression.", "physical": { "height": "tall", "build": "slender", "hair": { "color": "ultramarine" }, "eyes": {} }, "attire": { "default": "old gray robe", "combat": "" }, "voice_quality": { "tone": "gentle and sincere" }, "distinctive": ["handsome noble face", "worn robe that emphasizes his poverty"] },
+      "personality": { "summary": "Kind, generous, and sincere to a fault; he incurs debt to save Naaza and apologizes deeply when her fraud harms Bell.", "core_traits": ["kind", "trusting", "generous", "responsible", "unaware of romantic effect"], "values": ["saving his children", "honest commerce", "gratitude", "medicine for those in need"], "fears": ["losing Miach Familia's home", "Naaza blaming herself"], "desires": ["protect Naaza", "repay debts", "restore trust"], "strengths": ["medical patronage", "sincerity", "accepting help humbly"], "flaws": ["too generous with free potions", "unaware his smiles mislead women", "financially impractical"], "inner_conflict": "He wants to help everyone, but that generosity makes the familia unable to repay debt.", "decision_pattern": { "responsibility": "Apologizes directly and accepts personal fault rather than blaming his child." } },
+      "voice": { "self_reference": "我", "address_pattern": { "Naaza": "娜扎", "Hestia": "赫斯缇雅", "Dian": "迪安" }, "register": { "tone": "gentle, apologetic, earnest" }, "catchphrases": [], "quote_samples": ["都是我监督不周，真的很抱歉，贝尔！", "我从来没有那样想过。"] },
+      "habits": { "mannerisms": ["bows deeply in apology", "smiles gently enough to mislead women", "pats Naaza's head when reassuring her"], "daily_routine": "Runs a struggling pharmacy familia with Naaza.", "quirks": ["does not notice Naaza's romantic feelings"], "preferences": {} },
+      "background": { "birth": { "place": "heaven", "family": [] }, "upbringing": "", "education": {}, "formative_events": ["Bought Naaza's Agateram from Dian Cecht at great cost", "Lost most familia members after the debt"], "pre_story": "Had long-standing rivalry with Dian Cecht in heaven and as a medical familia patron." },
+      "abilities_owned": ["medical patronage", "potion production leadership"],
+      "possessions_owned": ["Miach Familia shop", "dual potion stock"],
+      "relationships": { "naaza-erisuis": "His beloved child; he refuses to see her as useless and bought her silver arm.", "hestia": "Friendly deity who helps him through Bell and Lili.", "bell-cranel": "Apologizes to him and later receives his help.", "dian-cecht": "Rival and creditor." },
+      "knowledge": ["Knows Naaza's injury and debt history", "Knows Dian Cecht's market value as buyer for a new medical product"],
+      "secrets": [],
+      "summary": "Miach apologizes for Naaza's diluted potion scheme, reveals the debt caused by buying her Agateram, accepts Bell and Hestia's help, sells dual potions to Dian Cecht, and reassures Naaza that he never considered her useless.",
+      "key_events": [
+        { "event_id": "miach-familia-debt-revealed", "summary": "Miach and Naaza reveal the debt from Naaza's silver arm and Dian Cecht's threat.", "sourceRef": "danmachi-main/vol-04/full.txt:6218" },
+        { "event_id": "miach-familia-dual-potion-quest", "summary": "Miach sells dual potions to Dian Cecht and saves the familia headquarters.", "sourceRef": "danmachi-main/vol-04/full.txt:6642" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-04/full.txt:6060", "danmachi-main/vol-04/full.txt:6110", "danmachi-main/vol-04/full.txt:6218", "danmachi-main/vol-04/full.txt:6232", "danmachi-main/vol-04/full.txt:6304", "danmachi-main/vol-04/full.txt:6642", "danmachi-main/vol-04/full.txt:6702"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-04/full.txt:6060", "danmachi-main/vol-04/full.txt:6218", "danmachi-main/vol-04/full.txt:6642", "danmachi-main/vol-04/full.txt:6702"]
+}

@@ -1,0 +1,43 @@
+{
+  "_schema":"rp-volume-curation-index-v1",
+  "world":"rakudai-kishi",
+  "series":"rakudai-kishi-main",
+  "volume":"vol-16",
+  "source_chapters":"campaigns/world-library/worlds/rakudai-kishi/sources/split-text/rakudai-kishi-main/vol-16/chapters.json",
+  "output_root":"campaigns/world-library/manual-curation/rakudai-kishi-output/waves/wave-004/vol-16",
+  "chapters":[
+    {"chapterIndex":1,"title":"间章 泪雨","source_ref":"rakudai-kishi-main/vol-16/ch-001","focus":["kurono-shinguji","nene-saikyo"]},
+    {"chapterIndex":2,"title":"第十九章 魔人对决","source_ref":"rakudai-kishi-main/vol-16/ch-002","focus":["nene-saikyo","naseem-salim"]},
+    {"chapterIndex":3,"title":"第二十章 难舍的情谊","source_ref":"rakudai-kishi-main/vol-16/ch-003","focus":["nene-saikyo","kurono-shinguji","naseem-salim","nango-torajiro"]},
+    {"chapterIndex":4,"title":"第二十一章 天理难容的心愿","source_ref":"rakudai-kishi-main/vol-16/ch-004","focus":["stella-vermillion","or-gaule","alice-ascaride","ikki-kurogane","yui-tatara","lunaeyes-vermillion","levi-ascaride"]},
+    {"chapterIndex":5,"title":"后记","source_ref":"rakudai-kishi-main/vol-16/ch-005","focus":[]}
+  ],
+  "characters":[
+    "characters/alice-ascaride.json",
+    "characters/ikki-kurogane.json",
+    "characters/kurono-shinguji.json",
+    "characters/levi-ascaride.json",
+    "characters/lunaeyes-vermillion.json",
+    "characters/nango-torajiro.json",
+    "characters/naseem-salim.json",
+    "characters/nene-saikyo.json",
+    "characters/or-gaule.json",
+    "characters/sirius-vermillion.json",
+    "characters/stella-vermillion.json",
+    "characters/yui-tatara.json"
+  ],
+  "events":[
+    "events/alice-protects-or-gaule-and-turns-on-stella.json",
+    "events/ikki-acknowledges-alices-chivalry-and-challenges-her.json",
+    "events/kurono-retires-and-leaves-nene-without-rematch.json",
+    "events/levi-reveals-alice-awakening-may-have-protected-or-gaule.json",
+    "events/lunaeyes-bargain-with-or-gaule-revealed.json",
+    "events/nene-and-naseem-enter-overdrive-duel.json",
+    "events/nene-defeats-naseem-with-hanten-fukuchi.json",
+    "events/tatara-warns-ikki-about-alice.json",
+    "events/young-kurono-defeats-nene-in-mock-duel.json"
+  ],
+  "counts":{"chapters":5,"characters":12,"events":9},
+  "notes":"Chapter 5 is author afterword only; no character/event extraction file was created from it beyond index coverage.",
+  "validation":{"json_validated":true,"method":"json_tool validate on all generated JSON files"}
+}

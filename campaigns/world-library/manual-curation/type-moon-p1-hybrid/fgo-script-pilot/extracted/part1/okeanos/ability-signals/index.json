@@ -1,0 +1,50 @@
+{
+  "schema": "tm-fgo-ability-signal-index-v1",
+  "chapterKey": "okeanos",
+  "chapterId": "fgo-part1-okeanos",
+  "status": "supplemented-r1",
+  "signals": [
+    {
+      "signalId": "okeanos-ability-david-ark-divine-punishment",
+      "characterIdCandidate": "david",
+      "characterNameRaw": "大卫",
+      "abilityType": "other",
+      "abilityNameRaw": "约柜 / 神罚",
+      "activationScene": "David joins with the Ark; the party plans to lure Heracles into touching it by using Euryale as bait.",
+      "visualEffect": "not-found-in-source",
+      "mechanicalEffect": "Touching the Ark triggers divine punishment that can eliminate Heracles.",
+      "target": "赫拉克勒斯",
+      "costOrConsequence": "Failure would mean ruin; the opportunity is limited to one gamble.",
+      "eventRefs": ["merged/events/part1/okeanos/event-m.json", "merged/events/part1/okeanos/event-n.json"],
+      "status": "source-backed",
+      "notFoundReason": "The mechanism is stated, but no visual effect is described.",
+      "sourceRefs": ["sources/worldbook-script/part1/ch-003-okeanos.txt#event-M", "sources/worldbook-script/part1/ch-003-okeanos.txt#event-N"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "signalId": "okeanos-ability-medea-demon-pillar-summon",
+      "characterIdCandidate": "medea-lily",
+      "characterNameRaw": "美狄亚·Lily",
+      "abilityType": "summoning",
+      "abilityNameRaw": "魔神佛钮司召唤",
+      "activationScene": "最终战中，美狄亚·Lily召唤魔神佛钮司。",
+      "visualEffect": "not-found-in-source",
+      "mechanicalEffect": "Introduces the Demon God Pillar as the final threat of the singularity.",
+      "target": "chaldea-party",
+      "costOrConsequence": "魔神佛钮司被击败，特异点修复。",
+      "eventRefs": ["merged/events/part1/okeanos/event-n.json"],
+      "status": "source-backed",
+      "notFoundReason": "No summoning visual is provided.",
+      "sourceRefs": ["sources/worldbook-script/part1/ch-003-okeanos.txt#event-N"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    }
+  ],
+  "sourceRefs": ["sources/worldbook-script/part1/ch-003-okeanos.txt"],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

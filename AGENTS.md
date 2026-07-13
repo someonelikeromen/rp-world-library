@@ -82,6 +82,9 @@
 | `rp-combat` | 发生战斗/冲突对抗 |
 | `rp-dice` | 需要随机判定、掷骰、检定 |
 | `png-card-extractor` | 遇到 SillyTavern PNG/WEBP 角色卡 |
+| `world-archive-extraction` | 从小说原文提取结构化世界数据（p1-scan 管线） |
+| `rp-curation` | 从 ST worldbook JSON 整理 curated 结构化产物 |
+| `rp-source-ingestion` | 即席摄入外部来源（网页/文件/用户修正） |
 
 ## 指令
 
@@ -90,6 +93,9 @@
 - 用户说"切换文风: ..."：读取并应用 `style/` 中对应文风。
 - 用户说"掷骰""骰子"或表达随机判定意图：激活 `rp-dice` skill。
 - 用户说"整理素材"：将根目录素材分类到 `card/`、`knowledge/`、`novel/`、`style/`，原件按需放入 `backup/`。
+- 用户说"归档 XX 世界"/"提取 XX 数据"/"p1-scan XX"：激活 `world-archive-extraction` skill，走 Wave 提取→树状合并→图谱构建→归档部署四阶段管线。
+- 用户说"整理 XX 世界书"/"curate XX"：激活 `rp-curation` skill，走分类→writer→图谱→整合→校验→修复的 7 步流水线。
+- 用户说"记录来源"/"摄入 XX 设定"：激活 `rp-source-ingestion` skill。
 
 ## 当前偏好
 
@@ -98,7 +104,11 @@
 - 如果角色卡包含复杂 MVU、变量、状态栏、世界书触发等机制，再参考 `tavern2agent/` 进行迁移设计。
 - 如果需要 pi 扩展式上下文装配/状态管理，再评估 `pi-stage/`。
 - 如果需要 MCP 数据服务器管理角色卡、世界书、会话、记忆，再评估 `AIRP-MCP-Server/`。
-- 后续继续归档/审计世界观时，优先遵循 `docs/world-archive-playbook.md`：先保留原始来源，source-backed 补全，`count=0` 删除/修正，图谱与索引闭环验证后再同步 release。
+- 世界观归档按以下**优先级决策树**选择方案：
+  1. **有 `sources/raw-text/` 小说原文** → 优先走 `world-archive-extraction`（p1-scan 管线：Worker→Auditor→Fixer 闭环，树状合并，图谱构建，归档部署）
+  2. **只有 ST worldbook JSON（无原文）** → 走 `rp-curation`（分类→并行 writer→图谱→整合→校验→修复迭代）
+  3. **临时补充单一来源** → 走 `rp-source-ingestion`（标注可信度，冲突记录不覆盖）
+  - `docs/world-archive-playbook.md` 是经验沉淀手册（source-backed、count=0、常见错误等），不是执行流程；执行流程以 skill 为准。
 - `backup/yokenken-editor.SKILL.md` 和 `4.28叶啃啃skill/` 是中文写作/编辑风格备用资料，不默认加载。
 
 

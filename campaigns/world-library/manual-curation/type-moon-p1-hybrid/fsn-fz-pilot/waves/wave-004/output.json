@@ -1,0 +1,428 @@
+{
+  "schema": "tm-p1-hybrid-character-wave-v1",
+  "waveId": "wave-004",
+  "title": "Masters and Human Characters",
+  "model": "lt-yuyu/gpt-5.5",
+  "status": "passed",
+  "generatedBy": "waves-a internal generator-fixer loop",
+  "formalCharacters": [
+    {
+      "id": "character-emiya-shirou-fsn",
+      "type": "character",
+      "canonicalName": "Shirou Emiya",
+      "aliases": ["卫宫士郎", "士郎"],
+      "roles": ["Fifth Holy Grail War Master", "route protagonist"],
+      "continuity": "fsn",
+      "timelineId": "fsn-main",
+      "variantId": "fsn-base",
+      "isSameEntityAs": [],
+      "relatedForms": ["servant-archer-emiya-fsn"],
+      "doNotMergeWith": ["servant-archer-emiya-fsn"],
+      "facts": [
+        "Saved by Kiritsugu after the Fourth Holy Grail War end state.",
+        "Summons Saber in the Fifth Holy Grail War common opening.",
+        "Learns the Holy Grail War rules from Kotomine Kirei and decides to participate.",
+        "In HF route, chooses to save Sakura over preserving Kiritsugu's inherited ideal."
+      ],
+      "sourceRefs": [
+        "type-moon-nasuverse/worldbook-text/src-fate-zero.md:63",
+        "type-moon-nasuverse/story-text/fate/ch-002-fate-route.txt:33",
+        "type-moon-nasuverse/story-text/fate/ch-002-fate-route.txt:41",
+        "type-moon-nasuverse/story-text/fate/ch-002-fate-route.txt:44",
+        "type-moon-nasuverse/story-text/fate/ch-004-hf-route.txt:77"
+      ],
+      "sourceType": "mixed",
+      "credibility": "B",
+      "evidenceLevel": "A",
+      "canonStatus": "canon-like"
+    },
+    {
+      "id": "character-tohsaka-rin-fsn",
+      "type": "character",
+      "canonicalName": "Rin Tohsaka",
+      "aliases": ["远坂凛", "凛"],
+      "roles": ["Fifth Holy Grail War Master", "Tohsaka heir"],
+      "continuity": "fsn",
+      "timelineId": "fsn-main",
+      "variantId": "fsn-base",
+      "isSameEntityAs": [],
+      "relatedForms": [],
+      "doNotMergeWith": [],
+      "facts": [
+        "Prepares for the Fifth Holy Grail War using the family jewel pendant as catalyst.",
+        "Summons Archer and works with him during the opening.",
+        "Functions as UBW heroine and later partners with Shirou in that route.",
+        "In HF route, learns Sakura is her younger sister after Matou worm modification is revealed."
+      ],
+      "sourceRefs": [
+        "type-moon-nasuverse/story-text/fate/ch-002-fate-route.txt:24",
+        "type-moon-nasuverse/story-text/fate/ch-002-fate-route.txt:25",
+        "type-moon-nasuverse/story-text/fate/ch-003-ubw-route.txt:18",
+        "type-moon-nasuverse/story-text/fate/ch-004-hf-route.txt:77"
+      ],
+      "sourceType": "curated-story-derived",
+      "credibility": "B",
+      "evidenceLevel": "A",
+      "canonStatus": "adapted"
+    },
+    {
+      "id": "character-matou-sakura-fsn",
+      "type": "character",
+      "canonicalName": "Sakura Matou",
+      "aliases": ["间桐樱", "樱", "Sakura Tohsaka"],
+      "roles": ["true Master of Rider", "Matou adopted daughter", "HF heroine"],
+      "continuity": "fsn",
+      "timelineId": "fsn-main",
+      "variantId": "fsn-base",
+      "isSameEntityAs": [],
+      "relatedForms": ["character-matou-sakura-hf-dark"],
+      "doNotMergeWith": [],
+      "facts": [
+        "Born as Sakura Tohsaka and sent into the Matou family.",
+        "Endures crest-worm experimentation and long-term abuse.",
+        "Is the true Master of Rider in the Fifth Holy Grail War.",
+        "HF route reveals she is Rin's younger sister and was modified by crest worms."
+      ],
+      "sourceRefs": [
+        "type-moon-nasuverse/worldbook-text/src-fsn-core.md:30",
+        "type-moon-nasuverse/worldbook-text/src-fsn-core.md:31",
+        "type-moon-nasuverse/worldbook-text/src-fsn-core.md:33",
+        "type-moon-nasuverse/story-text/fate/ch-004-hf-route.txt:77"
+      ],
+      "sourceType": "mixed",
+      "credibility": "B",
+      "evidenceLevel": "A",
+      "canonStatus": "canon-like"
+    },
+    {
+      "id": "character-matou-sakura-hf-dark",
+      "type": "character",
+      "canonicalName": "Dark Sakura",
+      "aliases": ["黑樱"],
+      "roles": ["HF corrupted Sakura variant", "Grail/Avenger-linked threat"],
+      "continuity": "fsn",
+      "timelineId": "fsn-hf-route",
+      "variantId": "hf-corrupted",
+      "isSameEntityAs": ["character-matou-sakura-fsn"],
+      "relatedForms": [],
+      "doNotMergeWith": [],
+      "facts": [
+        "HF route reveals Sakura is the shadow.",
+        "Zouken states Sakura is an artificial Grail vessel and that the shadow is out of control.",
+        "Sakura uses a Command Spell to order Rider to protect Shirou.",
+        "Rule Breaker is used to sever Sakura's contract with Avenger in the final confrontation."
+      ],
+      "sourceRefs": [
+        "type-moon-nasuverse/story-text/fate/ch-004-hf-route.txt:101",
+        "type-moon-nasuverse/story-text/fate/ch-004-hf-route.txt:102",
+        "type-moon-nasuverse/story-text/fate/ch-004-hf-route.txt:104",
+        "type-moon-nasuverse/story-text/fate/ch-004-hf-route.txt:126"
+      ],
+      "sourceType": "curated-story-derived",
+      "credibility": "B",
+      "evidenceLevel": "B",
+      "canonStatus": "adapted"
+    },
+    {
+      "id": "character-matou-shinji-fsn",
+      "type": "character",
+      "canonicalName": "Shinji Matou",
+      "aliases": ["间桐慎二", "慎二"],
+      "roles": ["apparent Master of Rider", "Matou household member"],
+      "continuity": "fsn",
+      "timelineId": "fsn-main",
+      "variantId": "fsn-base",
+      "isSameEntityAs": [],
+      "relatedForms": [],
+      "doNotMergeWith": [],
+      "facts": [
+        "Externally controls Rider while Sakura is the true Master.",
+        "Reveals a Master role and Rider affiliation to Shirou in the Fate route.",
+        "In HF, pressures Sakura to create the Book of the False Attendant and later recognizes Sakura as the real successor."
+      ],
+      "sourceRefs": [
+        "type-moon-nasuverse/worldbook-text/src-fsn-core.md:16",
+        "type-moon-nasuverse/story-text/fate/ch-002-fate-route.txt:55",
+        "type-moon-nasuverse/story-text/fate/ch-004-hf-route.txt:63",
+        "type-moon-nasuverse/story-text/fate/ch-004-hf-route.txt:92"
+      ],
+      "sourceType": "mixed",
+      "credibility": "B",
+      "evidenceLevel": "A",
+      "canonStatus": "canon-like"
+    },
+    {
+      "id": "character-kotomine-kirei-fsn-fz",
+      "type": "character",
+      "canonicalName": "Kirei Kotomine",
+      "aliases": ["言峰绮礼", "Kotomine Kirei"],
+      "roles": ["Fourth War participant", "Fifth War church/rules explainer", "antagonist"],
+      "continuity": "mixed",
+      "timelineId": "mixed-fsn-fz",
+      "variantId": "base",
+      "isSameEntityAs": [],
+      "relatedForms": [],
+      "doNotMergeWith": [],
+      "facts": [
+        "Receives Command Spells before the Fourth War and trains under Tokiomi.",
+        "Summons Assassin in the Fourth War timeline.",
+        "Assassinates Tokiomi and forms a contract with Archer in Fate/Zero timeline.",
+        "Explains Holy Grail War rules to Shirou in FSN route summaries.",
+        "Fate route later identifies him as Lancer and Gilgamesh's Master."
+      ],
+      "sourceRefs": [
+        "type-moon-nasuverse/worldbook-text/src-fate-zero.md:18",
+        "type-moon-nasuverse/worldbook-text/src-fate-zero.md:22",
+        "type-moon-nasuverse/worldbook-text/src-fate-zero.md:44",
+        "type-moon-nasuverse/story-text/fate/ch-002-fate-route.txt:44",
+        "type-moon-nasuverse/story-text/fate/ch-002-fate-route.txt:107"
+      ],
+      "sourceType": "mixed",
+      "credibility": "B",
+      "evidenceLevel": "A",
+      "canonStatus": "canon-like"
+    },
+    {
+      "id": "character-emiya-kiritsugu-fz",
+      "type": "character",
+      "canonicalName": "Kiritsugu Emiya",
+      "aliases": ["卫宫切嗣", "切嗣"],
+      "roles": ["Fourth War Master", "Shirou's rescuer/adoptive father"],
+      "continuity": "fz",
+      "timelineId": "fz-fourth-war",
+      "variantId": "fz-base",
+      "isSameEntityAs": [],
+      "relatedForms": [],
+      "doNotMergeWith": [],
+      "facts": [
+        "Receives Command Spells before the Fourth War.",
+        "Summons Saber in the Fourth War timeline.",
+        "Is cursed by the purest evil of the world near the Fourth War end state.",
+        "Saves Shirou after the Fourth War and later dies from the curse."
+      ],
+      "sourceRefs": [
+        "type-moon-nasuverse/worldbook-text/src-fate-zero.md:18",
+        "type-moon-nasuverse/worldbook-text/src-fate-zero.md:24",
+        "type-moon-nasuverse/worldbook-text/src-fate-zero.md:59",
+        "type-moon-nasuverse/worldbook-text/src-fate-zero.md:63",
+        "type-moon-nasuverse/worldbook-text/src-fate-zero.md:67"
+      ],
+      "sourceType": "user-file-worldbook",
+      "credibility": "A",
+      "evidenceLevel": "A",
+      "canonStatus": "canon-like"
+    },
+    {
+      "id": "character-illyasviel-fsn-fz",
+      "type": "character",
+      "canonicalName": "Illyasviel von Einzbern",
+      "aliases": ["伊莉雅", "Illya"],
+      "roles": ["Einzbern child", "Fifth War Berserker's Master"],
+      "continuity": "mixed",
+      "timelineId": "mixed-fsn-fz",
+      "variantId": "base",
+      "isSameEntityAs": [],
+      "relatedForms": [],
+      "doNotMergeWith": ["prisma-illya-01"],
+      "facts": [
+        "Born about eight years before the Fourth War endpoint in the Fate/Zero timeline.",
+        "Appears early in Fate route as a white-haired girl warning Shirou.",
+        "Appears with Berserker in the common opening conflict.",
+        "In HF, explains the Holy Grail War truth and Third Magic context."
+      ],
+      "sourceRefs": [
+        "type-moon-nasuverse/worldbook-text/src-fate-zero.md:15",
+        "type-moon-nasuverse/story-text/fate/ch-002-fate-route.txt:34",
+        "type-moon-nasuverse/story-text/fate/ch-002-fate-route.txt:45",
+        "type-moon-nasuverse/story-text/fate/ch-004-hf-route.txt:116"
+      ],
+      "sourceType": "mixed",
+      "credibility": "B",
+      "evidenceLevel": "A",
+      "canonStatus": "canon-like"
+    },
+    {
+      "id": "character-tohsaka-tokiomi-fz",
+      "type": "character",
+      "canonicalName": "Tokiomi Tohsaka",
+      "aliases": ["远坂时臣", "Tokiomi"],
+      "roles": ["Fourth War Master", "Tohsaka family head"],
+      "continuity": "fz",
+      "timelineId": "fz-fourth-war",
+      "variantId": "fz-base",
+      "isSameEntityAs": [],
+      "relatedForms": [],
+      "doNotMergeWith": [],
+      "facts": [
+        "Receives Command Spells before the Fourth War and trains Kirei.",
+        "Summons Archer at the same Fourth War summoning point as Kiritsugu, Waver, and Kariya.",
+        "Speaks with Rin before his assassination.",
+        "Is assassinated by Kirei with the Azoth sword."
+      ],
+      "sourceRefs": [
+        "type-moon-nasuverse/worldbook-text/src-fate-zero.md:18",
+        "type-moon-nasuverse/worldbook-text/src-fate-zero.md:24",
+        "type-moon-nasuverse/worldbook-text/src-fate-zero.md:43",
+        "type-moon-nasuverse/worldbook-text/src-fate-zero.md:44"
+      ],
+      "sourceType": "user-file-worldbook",
+      "credibility": "A",
+      "evidenceLevel": "A",
+      "canonStatus": "canon-like"
+    },
+    {
+      "id": "character-matou-kariya-fz",
+      "type": "character",
+      "canonicalName": "Kariya Matou",
+      "aliases": ["间桐雁夜", "Kariya"],
+      "roles": ["Fourth War Master", "Matou participant"],
+      "continuity": "fz",
+      "timelineId": "fz-fourth-war",
+      "variantId": "fz-base",
+      "isSameEntityAs": [],
+      "relatedForms": [],
+      "doNotMergeWith": [],
+      "facts": [
+        "Returns to the Matou family after Sakura is sent there.",
+        "Receives a Command Spell and later summons Berserker.",
+        "Runs amok and attacks Aoi Tohsaka.",
+        "Dies in front of Sakura after the Fourth War end state."
+      ],
+      "sourceRefs": [
+        "type-moon-nasuverse/worldbook-text/src-fate-zero.md:19",
+        "type-moon-nasuverse/worldbook-text/src-fate-zero.md:23",
+        "type-moon-nasuverse/worldbook-text/src-fate-zero.md:24",
+        "type-moon-nasuverse/worldbook-text/src-fate-zero.md:49",
+        "type-moon-nasuverse/worldbook-text/src-fate-zero.md:62"
+      ],
+      "sourceType": "user-file-worldbook",
+      "credibility": "A",
+      "evidenceLevel": "A",
+      "canonStatus": "canon-like"
+    },
+    {
+      "id": "character-waver-velvet-fz",
+      "type": "character",
+      "canonicalName": "Waver Velvet",
+      "aliases": ["韦伯·维尔维特", "Waver"],
+      "roles": ["Fourth War Master"],
+      "continuity": "fz",
+      "timelineId": "fz-fourth-war",
+      "variantId": "fz-base",
+      "isSameEntityAs": [],
+      "relatedForms": [],
+      "doNotMergeWith": [],
+      "facts": [
+        "Receives a Command Spell and hypnotically influences the Mackenzie couple.",
+        "Summons Rider in the Fourth War.",
+        "His Rider team is annihilated by Archer near the war end state.",
+        "A postwar shut-in period begins after the war."
+      ],
+      "sourceRefs": [
+        "type-moon-nasuverse/worldbook-text/src-fate-zero.md:21",
+        "type-moon-nasuverse/worldbook-text/src-fate-zero.md:24",
+        "type-moon-nasuverse/worldbook-text/src-fate-zero.md:56",
+        "type-moon-nasuverse/worldbook-text/src-fate-zero.md:65"
+      ],
+      "sourceType": "user-file-worldbook",
+      "credibility": "A",
+      "evidenceLevel": "A",
+      "canonStatus": "canon-like"
+    },
+    {
+      "id": "character-uryu-ryunosuke-fz",
+      "type": "character",
+      "canonicalName": "Ryunosuke Uryu",
+      "aliases": ["雨生龙之介", "Ryunosuke"],
+      "roles": ["Fourth War Master"],
+      "continuity": "fz",
+      "timelineId": "fz-fourth-war",
+      "variantId": "fz-base",
+      "isSameEntityAs": [],
+      "relatedForms": [],
+      "doNotMergeWith": [],
+      "facts": [
+        "Awakens magic circuits, receives a Command Spell, and summons Caster as the Fourth War formally opens."
+      ],
+      "sourceRefs": ["type-moon-nasuverse/worldbook-text/src-fate-zero.md:25"],
+      "sourceType": "user-file-worldbook",
+      "credibility": "A",
+      "evidenceLevel": "A",
+      "canonStatus": "canon-like"
+    },
+    {
+      "id": "character-zouken-matou-fsn-fz",
+      "type": "character",
+      "canonicalName": "Zouken Matou",
+      "aliases": ["间桐脏砚", "脏砚"],
+      "roles": ["Matou elder", "HF antagonist"],
+      "continuity": "mixed",
+      "timelineId": "mixed-fsn-fz",
+      "variantId": "base",
+      "isSameEntityAs": [],
+      "relatedForms": [],
+      "doNotMergeWith": [],
+      "facts": [
+        "Meets Kirei during the Fate/Zero timeline.",
+        "Appears in HF when Shirou meets him near the Matou house.",
+        "Kirei explains Zouken's body is a worm and that he survives by bloodsucking.",
+        "Reveals Sakura is an artificial Grail vessel and the shadow is out of control."
+      ],
+      "sourceRefs": [
+        "type-moon-nasuverse/worldbook-text/src-fate-zero.md:48",
+        "type-moon-nasuverse/story-text/fate/ch-004-hf-route.txt:33",
+        "type-moon-nasuverse/story-text/fate/ch-004-hf-route.txt:62",
+        "type-moon-nasuverse/story-text/fate/ch-004-hf-route.txt:102"
+      ],
+      "sourceType": "mixed",
+      "credibility": "B",
+      "evidenceLevel": "A",
+      "canonStatus": "canon-like"
+    },
+    {
+      "id": "character-kuzuki-souichirou-fsn",
+      "type": "character",
+      "canonicalName": "Souichirou Kuzuki",
+      "aliases": ["葛木宗一郎", "葛木"],
+      "roles": ["Caster's Master in UBW/HF route context"],
+      "continuity": "fsn",
+      "timelineId": "fsn-ubw-route",
+      "variantId": "ubw-route",
+      "isSameEntityAs": [],
+      "relatedForms": [],
+      "doNotMergeWith": [],
+      "facts": [
+        "UBW route identifies Kuzuki Souichirou as Caster's Master.",
+        "Caster-enhanced Kuzuki overwhelms Saber in a route battle.",
+        "HF route finds Caster and Kuzuki dead before later conflict escalation."
+      ],
+      "sourceRefs": [
+        "type-moon-nasuverse/story-text/fate/ch-003-ubw-route.txt:60",
+        "type-moon-nasuverse/story-text/fate/ch-003-ubw-route.txt:61",
+        "type-moon-nasuverse/story-text/fate/ch-004-hf-route.txt:50"
+      ],
+      "sourceType": "curated-story-derived",
+      "credibility": "B",
+      "evidenceLevel": "B",
+      "canonStatus": "adapted"
+    }
+  ],
+  "candidateCharacters": [
+    {
+      "id": "character-fujimura-taiga-fsn-candidate",
+      "reason": "Appears in route summaries as a human household/school character, but current wave scope prioritizes Masters and war-linked humans.",
+      "sourceRefs": ["type-moon-nasuverse/story-text/fate/ch-002-fate-route.txt:51", "type-moon-nasuverse/story-text/fate/ch-003-ubw-route.txt:71"]
+    },
+    {
+      "id": "character-issei-ryuudou-fsn-candidate",
+      "reason": "Mentioned in UBW investigation context, but current source layer does not need formal extraction for wave-004 pass.",
+      "sourceRefs": ["type-moon-nasuverse/story-text/fate/ch-003-ubw-route.txt:55"]
+    },
+    {
+      "id": "character-mitsuzuri-ayako-fsn-candidate",
+      "reason": "Mentioned as missing/affected by school incident; event extraction belongs to later route waves.",
+      "sourceRefs": ["type-moon-nasuverse/story-text/fate/ch-003-ubw-route.txt:37"]
+    }
+  ],
+  "openIssues": []
+}

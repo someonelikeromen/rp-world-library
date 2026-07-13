@@ -1,0 +1,30 @@
+{
+  "objective": "Retry extracting vol-05 for saijaku-muhai-bahamut. Read chapter files, extract entities, write JSON files.",
+  "library": {
+    "sources": ["package", "project"]
+  },
+  "authority": {
+    "allowFilesystemRead": true,
+    "allowMutationTools": true,
+    "allowShellTools": false,
+    "allowProjectCode": true,
+    "allowExtensionCode": false
+  },
+  "limits": {
+    "concurrency": 1,
+    "timeoutSecondsPerStep": 7200
+  },
+  "steps": [
+    {
+      "id": "extract-vol-05",
+      "agent": {
+        "system": "你是卷级数据提取助手。读一卷原文的章节文件，提取本卷所有出现的重要实体，按每实体独立 JSON 文件写入 output 目录。\n\n实体类型: characters, abilities, events, items, locations, factions, systems, knowledge\n\n文件规则（硬性）:\n- 每个角色、能力、物品等各一个独立 JSON 文件\n- 文件名用英文 ID（例如 lux-arcadia.json, bahamut-gluttony.json）\n- 禁止写聚合文件\n- 写入前先读同目录下的模板文件 tools/p1-scan/_templates/{type}.json\n\n数据模型:\n顶层字段: _schema, world, {type}_id, volume, periods[]\nperiods 内包含本卷快照: name（zh/en）, aliases, summary, description, sourceRef 等\n角色需包含: gender, species, appearance, personality, abilities_owned, possessions_owned, relationships, key_events, source_refs\n能力需包含: type, classification, description, users, sourceRef\n事件需包含: participants, cause, outcome, type, sourceRef\n物品需包含: type, owner, description, sourceRef\n地点需包含: type, significance, sourceRef\n组织需包含: members, ideology, goals, sourceRef\n体系需包含: rules, practitioners, sourceRef\n\nsourceRef 格式: saijaku-muhai-bahamut-main/vol-05/full.txt:{行号}\n\nID 跨卷统一，例如: lux-arcadia, krulcifer-einfolk, bahamut-gluttony\n\n读文件时记录行号。每个独立事实标注具体行号。",
+        "model": "deepseek/deepseek-v4-flash",
+        "tools": ["read", "write"]
+      },
+      "mutationScope": "saijaku-wave-001-output",
+      "cwd": "E:/pi-st",
+      "task": "Extract all entities from saijaku-muhai-bahamut-main vol-05.\n\nSERIES: saijaku-muhai-bahamut-main\nVOLUME: vol-05\nWORLD: saijaku-muhai-bahamut\nSPLIT_PATH: campaigns/world-library/worlds/saijaku-muhai-bahamut/sources/split-text/saijaku-muhai-bahamut-main/vol-05\nOUTPUT_DIR: campaigns/world-library/manual-curation/saijaku-muhai-bahamut-output/waves/wave-001/vol-05\nTEMPLATE_DIR: tools/p1-scan/_templates\n\nRead SPLIT_PATH/chapters.json for chapter list, then read each chapter txt file. Read each template from TEMPLATE_DIR before writing. Write all entity files to OUTPUT_DIR/{type}/{id}.json. Also write OUTPUT_DIR/world.json and OUTPUT_DIR/index.json.\n\n本卷章节数为 5 章，较小。确保覆盖所有出场的重要角色。每类实体至少 5 个文件。\n\nALWAYS read the templates before writing so you know the fields. Write every entity inside periods[] array.\n\nSource ref: saijaku-muhai-bahamut-main/vol-05/full.txt:行号"
+    }
+  ]
+}

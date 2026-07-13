@@ -1,0 +1,37 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "airi",
+  "volume": "vol-09",
+  "periods": [
+    {
+      "period_id": "vol-09",
+      "volume": "vol-09",
+      "time": "学园祭与圣蚀事件",
+      "name": { "zh": "爱理·阿卡迪亚", "en": "Airi Arcadia", "jp": "" },
+      "aliases": ["路克斯的妹妹", "旧帝国皇族生还者"],
+      "gender": "female",
+      "species": "human",
+      "nationality": "亚提司玛特新王国 / 旧阿卡迪亚帝国",
+      "occupation": "王立士官学园学生；图书馆资料馆担当",
+      "affiliation": "王立士官学园；阿卡迪亚家",
+      "status": { "condition": "active", "role": "负责学园祭资料馆；卷中目击圣蚀初现并被赛莉丝保护" },
+      "abilities_owned": ["ancient-document-knowledge"],
+      "possessions_owned": [],
+      "relationships": {
+        "lux": { "type": "sibling", "summary": "关心兄长却常以挖苦表达；理解路克斯暂时无法恋爱。" },
+        "krulcifer": { "type": "confidante", "summary": "曾向库露露席法说明路克斯的罪人枷锁。" },
+        "celestia": { "type": "protected by", "summary": "圣蚀现身时被赛莉丝救下并带离。" },
+        "coral": { "type": "friend", "summary": "在接待梵海姆来客期间与柯莱尔成为朋友。" }
+      },
+      "summary": "爱理在本卷既担任学园祭资料馆解说，也作为旧帝国皇族亲属揭示路克斯心理枷锁。圣蚀突袭时，她目击人型终焉神兽并被赛莉丝与诺珂特护送避难。",
+      "key_events": [
+        { "event_id": "academy-festival", "summary": "在图书馆资料馆担任历史和遗迹解说。", "sourceRef": "saijaku-muhai-bahamut-main/vol-09/full.txt:3231" },
+        { "event_id": "sacred-eclipse-battle", "summary": "机龙停机库袭击中目击圣蚀并被赛莉丝救下。", "sourceRef": "saijaku-muhai-bahamut-main/vol-09/full.txt:6737" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["saijaku-muhai-bahamut-main/vol-09/full.txt:715", "saijaku-muhai-bahamut-main/vol-09/full.txt:3231", "saijaku-muhai-bahamut-main/vol-09/full.txt:6737"]
+    }
+  ],
+  "source_refs": ["saijaku-muhai-bahamut-main/vol-09/full.txt"]
+}

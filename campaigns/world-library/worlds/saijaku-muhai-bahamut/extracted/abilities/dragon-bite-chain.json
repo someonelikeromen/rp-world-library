@@ -1,0 +1,135 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "dragon-bite-chain",
+  "volume": "vol-04",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-04/full.txt:4121",
+    "saijaku-muhai-bahamut-main/vol-04/full.txt:5895"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-04",
+      "volume": "vol-04",
+      "time": "vol-04",
+      "name": {
+        "zh": "龙咬缚锁",
+        "en": "Dragon Bite Chain"
+      },
+      "aliases": [],
+      "type": "technology / combat",
+      "description": "堤丰特殊武装，蛇颚状钢线可捕捉、拉扯敌人。本卷与巴哈姆特共鸣波动配合，成功捕捉欧特鲁斯。",
+      "details": {
+        "drag_ride": "typhon",
+        "owner": "philuffy-aingram"
+      },
+      "activation": {
+        "condition": "堤丰装备中发射",
+        "incantation": "",
+        "time": "瞬间到持续束缚",
+        "cost": "机龙能量和操纵精度"
+      },
+      "effects": [
+        "远距束缚",
+        "高速拉近目标",
+        "可配合引力/斥力调整轨迹"
+      ],
+      "power_level": {
+        "initial": "捕捉大型幻神兽",
+        "peak": "失控菲尔菲用以牵制神装机龙",
+        "evolution": []
+      },
+      "known_feats": [
+        "捕捉欧特鲁斯",
+        "击飞莉夏迪亚玛特"
+      ],
+      "shared_by": [
+        "philuffy-aingram"
+      ],
+      "see_also": [
+        "typhon-ruthless-fruit"
+      ],
+      "countered_by": [],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-04/full.txt:4121",
+        "saijaku-muhai-bahamut-main/vol-04/full.txt:5895"
+      ]
+    },
+    {
+      "period_id": "vol-14",
+      "volume": "vol-14",
+      "time": "古城潜入战",
+      "name": {
+        "zh": "龙咬缚锁",
+        "en": "Dragon Bite Chain"
+      },
+      "type": "technology / drag-ride special armament",
+      "description": "堤丰的钢线锁链特殊武装，可远距离抓取、束缚或牵引目标。菲尔菲用它抓住路克斯并牵引障碍物夹攻密丝希斯。",
+      "shared_by": [
+        "philuffy-ainsgram"
+      ],
+      "known_feats": [
+        "远距离捕获路克斯",
+        "牵引胶囊形成夹击"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-14/full.txt:3050",
+        "saijaku-muhai-bahamut-main/vol-14/full.txt:3450"
+      ]
+    },
+    {
+      "period_id": "vol-20",
+      "volume": "vol-20",
+      "time": "最终战",
+      "name": {
+        "zh": "龙咬缚锁",
+        "en": "Dragon Bite Chain"
+      },
+      "aliases": [],
+      "type": "special armament",
+      "description": "堤丰发射的强韧锁链，可束缚、牵引或干扰敌方机龙。",
+      "details": {
+        "used_by": "philuffy-ainfram"
+      },
+      "activation": {
+        "condition": "堤丰发射锁链",
+        "incantation": "",
+        "time": "瞬时/持续牵引",
+        "cost": "机械与能量负荷"
+      },
+      "effects": [
+        "束缚目标",
+        "牵引同伴或敌人",
+        "改变巨大机龙动作轨迹"
+      ],
+      "power_level": {
+        "initial": "高",
+        "peak": "阻止奥罗波若斯手臂干涉最终决斗",
+        "evolution": []
+      },
+      "known_feats": [
+        "路克斯也利用龙咬缚锁牵动雷光穿枪"
+      ],
+      "shared_by": [
+        "philuffy-ainfram"
+      ],
+      "see_also": [
+        "typhon"
+      ],
+      "countered_by": [],
+      "counters": [
+        "ouroboros-final-interference"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-20/full.txt:2845",
+        "saijaku-muhai-bahamut-main/vol-20/full.txt:4773"
+      ]
+    }
+  ]
+}

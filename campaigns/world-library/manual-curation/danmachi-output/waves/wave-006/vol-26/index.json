@@ -1,0 +1,80 @@
+{
+  "_schema": "rp-index-volume-v1",
+  "world": "danmachi",
+  "wave": "wave-006",
+  "output": "campaigns/world-library/manual-curation/danmachi-output/waves/wave-006/vol-26",
+  "source_volumes": ["vol-26"],
+  "source_chapters": {
+    "count": 2,
+    "manifest": "campaigns/world-library/worlds/danmachi/sources/split-text/danmachi-main/vol-26/chapters.json"
+  },
+  "counts": {
+    "characters": 24,
+    "abilities": 2,
+    "items": 1,
+    "events": 10,
+    "locations": 1,
+    "factions": 2,
+    "systems": 1,
+    "knowledge": 0
+  },
+  "entities": {
+    "characters": [
+      { "id": "ais-wallenstein", "name": "艾丝·华伦斯坦", "type": "characters" },
+      { "id": "alulu", "name": "亚露露", "type": "characters" },
+      { "id": "bell-cranel", "name": "贝尔·克朗尼", "type": "characters" },
+      { "id": "cassandra-ilion", "name": "卡珊德拉·伊利翁", "type": "characters" },
+      { "id": "daphne-lauros", "name": "达芙妮·劳洛斯", "type": "characters" },
+      { "id": "fels", "name": "费尔斯", "type": "characters" },
+      { "id": "finn-deimne", "name": "芬恩·迪姆那", "type": "characters" },
+      { "id": "freya", "name": "芙蕾雅", "type": "characters" },
+      { "id": "heith-velvet", "name": "海依德·薇尔维特", "type": "characters" },
+      { "id": "hestia", "name": "赫斯缇雅", "type": "characters" },
+      { "id": "horn", "name": "赫伦", "type": "characters" },
+      { "id": "lido", "name": "里德", "type": "characters" },
+      { "id": "loki", "name": "洛基", "type": "characters" },
+      { "id": "miach", "name": "米赫", "type": "characters" },
+      { "id": "mikoto-yamato", "name": "大和·命", "type": "characters" },
+      { "id": "nahza-erisuis", "name": "娜扎·艾里斯伊斯", "type": "characters" },
+      { "id": "ottar", "name": "奥塔", "type": "characters" },
+      { "id": "raul-nord", "name": "劳尔·诺德", "type": "characters" },
+      { "id": "sanjouno-haruhime", "name": "三条野·春姬", "type": "characters" },
+      { "id": "takemikazuchi", "name": "建御雷", "type": "characters" },
+      { "id": "tsubaki-collbrande", "name": "椿·科布兰德", "type": "characters" },
+      { "id": "van", "name": "凡", "type": "characters" },
+      { "id": "welf-crozzo", "name": "韦尔夫·克罗佐", "type": "characters" },
+      { "id": "wiene", "name": "薇妮", "type": "characters" }
+    ],
+    "abilities": [
+      { "id": "ais-white-wind", "name": "白风", "type": "abilities" },
+      { "id": "cassandra-prophetic-dream-box-garden", "name": "箱庭白兔预知梦", "type": "abilities" }
+    ],
+    "items": [
+      { "id": "daedalus-orb-key", "name": "代达罗斯之眼 / 人造迷宫宝玉钥匙", "type": "items" }
+    ],
+    "events": [
+      { "id": "ais-follows-rabbit-footsteps-to-grand-bell-white-wind", "name": "艾丝追随兔子脚步声抵达大钟楼白风", "type": "events" },
+      { "id": "cassandra-tries-to-approach-bell-after-prophetic-dream", "name": "卡珊德拉因预知梦试图接近贝尔", "type": "events" },
+      { "id": "finn-detects-box-garden-and-deceives-loki", "name": "芬恩察觉箱庭并以真话骗过洛基", "type": "events" },
+      { "id": "finn-secretly-orders-loki-familia-war-preparations", "name": "芬恩秘密命令劳尔准备武器与团旗", "type": "events" },
+      { "id": "freya-reinforces-hestia-familia-charm", "name": "芙蕾雅对赫斯缇雅眷族叠加魅惑", "type": "events" },
+      { "id": "haruhime-breaks-down-at-pleasure-quarter-and-horn-resets-her", "name": "春姬在欢乐街追寻英雄并被赫伦重置", "type": "events" },
+      { "id": "miach-and-takemikazuchi-self-reset-after-doubting-box-garden", "name": "米赫与建御雷逼近箱庭真相后自行重置", "type": "events" },
+      { "id": "mikoto-questions-haruhime-hero-memory-and-heith-subdues-her", "name": "命质问春姬英雄记忆并被海依德击昏", "type": "events" },
+      { "id": "welf-forges-counterfeit-blade-under-charm", "name": "韦尔夫在魅惑下反复打造赝作短剑", "type": "events" },
+      { "id": "xenos-evade-fels-and-freya-familia-dungeon-trap", "name": "异端儿躲避费尔斯追捕与芙蕾雅眷族地下城陷阱", "type": "events" }
+    ],
+    "locations": [
+      { "id": "artificial-labyrinth-knossos", "name": "人造迷宫第十二层 / 大钟楼残响地点", "type": "locations" }
+    ],
+    "factions": [
+      { "id": "freya-familia", "name": "芙蕾雅眷族", "type": "factions" },
+      { "id": "xenos", "name": "异端儿", "type": "factions" }
+    ],
+    "systems": [
+      { "id": "freya-box-garden-charm-system", "name": "芙蕾雅箱庭魅惑与重置机制", "type": "systems" }
+    ],
+    "knowledge": []
+  },
+  "total_files": 42
+}

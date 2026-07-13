@@ -1,0 +1,67 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "ouroboros-zero-one",
+  "volume": "vol-15",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-15/full.txt:8230"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-15",
+      "volume": "vol-15",
+      "time": "Fugil kills Mishis",
+      "name": {
+        "zh": "生死流转",
+        "en": "Zero One"
+      },
+      "aliases": [
+        "奥罗波若斯第二特殊武装",
+        "0与1"
+      ],
+      "type": "technology / authority / divine-drag-ride",
+      "description": "《奥罗波若斯》的特殊武装，可像开关一样让指定对象的存在从世界空间中消失或重新出现。弗基尔以此躲过密丝希斯攻击并反杀她。",
+      "details": {
+        "drag_ride": "ouroboros",
+        "user": "fugil-arcadia"
+      },
+      "activation": {
+        "condition": "操纵奥罗波若斯",
+        "incantation": "《生死流转》",
+        "time": "instant",
+        "cost": "unknown"
+      },
+      "effects": [
+        "让对象存在消失",
+        "重新显现对象",
+        "规避攻击并制造绝对破绽"
+      ],
+      "power_level": {
+        "initial": "extreme",
+        "peak": "one-shot counter against Mishis",
+        "evolution": []
+      },
+      "known_feats": [
+        "弗基尔让自己从密丝希斯斩击中消失，再从背后出现斩碎艾基达哈卡"
+      ],
+      "shared_by": [
+        "fugil-arcadia"
+      ],
+      "see_also": [
+        "ouroboros-reincarnation"
+      ],
+      "countered_by": [
+        "unknown"
+      ],
+      "counters": [
+        "direct attack",
+        "Thousand Magic contact"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-15/full.txt:8230"
+      ]
+    }
+  ]
+}

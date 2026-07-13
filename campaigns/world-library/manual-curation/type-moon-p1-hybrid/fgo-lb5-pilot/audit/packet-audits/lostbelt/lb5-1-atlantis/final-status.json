@@ -1,0 +1,17 @@
+{
+  "schema":"tm-fgo-packet-final-status-summary-v1",
+  "packetId":"pkt-fgo-lostbelt-lb5-1-atlantis-extract",
+  "chapterId":"fgo-lb5-1-atlantis",
+  "status":"passed",
+  "latestAuditStatus":"passed",
+  "openIssues":0,
+  "blockedIssues":0,
+  "canAdvance":true,
+  "mirrors":"extracted/lostbelt/lb5-1-atlantis/audit/final-status.json",
+  "coverage":{"rawEventsExpected":31,"rawEventsExtracted":31,"dialogueQuotesExpected":37,"dialogueQuotesExtracted":37,"normalizedOutputs":"present","mandatorySignalLayers":"present"},
+  "sourceType":"user-file-worldbook-script",
+  "credibility":"B",
+  "canonStatus":"canon-like",
+  "sourceRefs":["sources/worldbook-script/lostbelt/ch-097-lb5-1-atlantis.txt:1-124"],
+  "scopeNote":"Packet extraction/normalization/audit only; no merge, graph, timeline, final acceptance, or publication."
+}

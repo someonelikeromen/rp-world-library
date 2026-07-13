@@ -1,0 +1,66 @@
+{
+  "objective": "Extract entities from saijaku-muhai-bahamut-main vol-16, vol-17, vol-18, vol-19, vol-20",
+  "library": {
+    "sources": [
+      "package",
+      "project"
+    ]
+  },
+  "authority": {
+    "allowFilesystemRead": true,
+    "allowMutationTools": true,
+    "allowProjectCode": true,
+    "allowShellTools": false
+  },
+  "limits": {
+    "concurrency": 5,
+    "timeoutSecondsPerStep": 7200
+  },
+  "steps": [
+    {
+      "id": "extract-vol-16",
+      "agent": {
+        "ref": "project:p1-worker"
+      },
+      "mutationScope": "saijaku-wave-output",
+      "cwd": "E:/pi-st",
+      "task": "Extract all entities from saijaku-muhai-bahamut-main vol-16.\n\nSERIES: saijaku-muhai-bahamut-main\nVOLUME: vol-16\nWORLD: saijaku-muhai-bahamut\nSPLIT_PATH: campaigns/world-library/worlds/saijaku-muhai-bahamut/sources/split-text/saijaku-muhai-bahamut-main/vol-16\nOUTPUT_DIR: campaigns/world-library/manual-curation/saijaku-muhai-bahamut-output/waves/wave-004/vol-16\nTEMPLATE_DIR: tools/p1-scan/_templates\n\nRead chapters.json for chapter list, then read each chapter txt file. Read each template from TEMPLATE_DIR before writing. Write entity files to OUTPUT_DIR/{type}/{id}.json. Also write world.json and index.json.\nSource ref: saijaku-muhai-bahamut-main/vol-16/full.txt:行号"
+    },
+    {
+      "id": "extract-vol-17",
+      "agent": {
+        "ref": "project:p1-worker"
+      },
+      "mutationScope": "saijaku-wave-output",
+      "cwd": "E:/pi-st",
+      "task": "Extract all entities from saijaku-muhai-bahamut-main vol-17.\n\nSERIES: saijaku-muhai-bahamut-main\nVOLUME: vol-17\nWORLD: saijaku-muhai-bahamut\nSPLIT_PATH: campaigns/world-library/worlds/saijaku-muhai-bahamut/sources/split-text/saijaku-muhai-bahamut-main/vol-17\nOUTPUT_DIR: campaigns/world-library/manual-curation/saijaku-muhai-bahamut-output/waves/wave-004/vol-17\nTEMPLATE_DIR: tools/p1-scan/_templates\n\nRead chapters.json for chapter list, then read each chapter txt file. Read each template from TEMPLATE_DIR before writing. Write entity files to OUTPUT_DIR/{type}/{id}.json. Also write world.json and index.json.\nSource ref: saijaku-muhai-bahamut-main/vol-17/full.txt:行号"
+    },
+    {
+      "id": "extract-vol-18",
+      "agent": {
+        "ref": "project:p1-worker"
+      },
+      "mutationScope": "saijaku-wave-output",
+      "cwd": "E:/pi-st",
+      "task": "Extract all entities from saijaku-muhai-bahamut-main vol-18.\n\nSERIES: saijaku-muhai-bahamut-main\nVOLUME: vol-18\nWORLD: saijaku-muhai-bahamut\nSPLIT_PATH: campaigns/world-library/worlds/saijaku-muhai-bahamut/sources/split-text/saijaku-muhai-bahamut-main/vol-18\nOUTPUT_DIR: campaigns/world-library/manual-curation/saijaku-muhai-bahamut-output/waves/wave-004/vol-18\nTEMPLATE_DIR: tools/p1-scan/_templates\n\nRead chapters.json for chapter list, then read each chapter txt file. Read each template from TEMPLATE_DIR before writing. Write entity files to OUTPUT_DIR/{type}/{id}.json. Also write world.json and index.json.\nSource ref: saijaku-muhai-bahamut-main/vol-18/full.txt:行号"
+    },
+    {
+      "id": "extract-vol-19",
+      "agent": {
+        "ref": "project:p1-worker"
+      },
+      "mutationScope": "saijaku-wave-output",
+      "cwd": "E:/pi-st",
+      "task": "Extract all entities from saijaku-muhai-bahamut-main vol-19.\n\nSERIES: saijaku-muhai-bahamut-main\nVOLUME: vol-19\nWORLD: saijaku-muhai-bahamut\nSPLIT_PATH: campaigns/world-library/worlds/saijaku-muhai-bahamut/sources/split-text/saijaku-muhai-bahamut-main/vol-19\nOUTPUT_DIR: campaigns/world-library/manual-curation/saijaku-muhai-bahamut-output/waves/wave-004/vol-19\nTEMPLATE_DIR: tools/p1-scan/_templates\n\nRead chapters.json for chapter list, then read each chapter txt file. Read each template from TEMPLATE_DIR before writing. Write entity files to OUTPUT_DIR/{type}/{id}.json. Also write world.json and index.json.\nSource ref: saijaku-muhai-bahamut-main/vol-19/full.txt:行号"
+    },
+    {
+      "id": "extract-vol-20",
+      "agent": {
+        "ref": "project:p1-worker"
+      },
+      "mutationScope": "saijaku-wave-output",
+      "cwd": "E:/pi-st",
+      "task": "Extract all entities from saijaku-muhai-bahamut-main vol-20.\n\nSERIES: saijaku-muhai-bahamut-main\nVOLUME: vol-20\nWORLD: saijaku-muhai-bahamut\nSPLIT_PATH: campaigns/world-library/worlds/saijaku-muhai-bahamut/sources/split-text/saijaku-muhai-bahamut-main/vol-20\nOUTPUT_DIR: campaigns/world-library/manual-curation/saijaku-muhai-bahamut-output/waves/wave-004/vol-20\nTEMPLATE_DIR: tools/p1-scan/_templates\n\nRead chapters.json for chapter list, then read each chapter txt file. Read each template from TEMPLATE_DIR before writing. Write entity files to OUTPUT_DIR/{type}/{id}.json. Also write world.json and index.json.\nSource ref: saijaku-muhai-bahamut-main/vol-20/full.txt:行号"
+    }
+  ]
+}

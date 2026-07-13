@@ -1,0 +1,28 @@
+{
+  "schema": "tm-fgo-combat-effect-signal-index-v1",
+  "chapterKey": "fuyuki",
+  "chapterId": "fgo-part1-fuyuki",
+  "status": "supplemented-r1",
+  "signals": [
+    {
+      "signalId": "fuyuki-combat-mash-pseudo-np-defense",
+      "eventId": "fgo-part1-fuyuki-event-h",
+      "actorRaw": "玛修",
+      "effectType": "noble-phantasm",
+      "description": "Mash completes a pseudo Noble Phantasm deployment during Caster's high-pressure training and aligns it with a guardian role.",
+      "visualEffect": "not-found-in-source: the source states deployment but does not describe light, barrier, shape, or impact visuals.",
+      "result": "Lord Chaldeas is named and Mash's defensive role is reinforced for later confrontations.",
+      "affectedTargets": ["mash-kyrielight", "fujimaru-ritsuka", "chaldea-party"],
+      "status": "source-backed",
+      "notFoundReason": "Combat mechanics are summarized; visual mechanics are not explicit.",
+      "sourceRefs": ["sources/worldbook-script/part1/ch-000-fuyuki.txt#event-H"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    }
+  ],
+  "sourceRefs": ["sources/worldbook-script/part1/ch-000-fuyuki.txt"],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

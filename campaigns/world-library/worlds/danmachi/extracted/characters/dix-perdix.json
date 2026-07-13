@@ -1,0 +1,110 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "dix-perdix",
+  "volume": "vol-10",
+  "time_range": {
+    "start": "过场",
+    "end": "第九章"
+  },
+  "sub_arcs": [
+    "代达罗斯血脉",
+    "异端儿狩猎",
+    "克诺索斯决战"
+  ],
+  "source_refs": [
+    "danmachi-main/vol-10/full.txt:1-7150"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-10-ch-09-defeated-and-killed",
+      "volume": "vol-10",
+      "time": "第九章 禽兽之梦",
+      "label": "暴露欲望后败给贝尔与里德，最终死于阿斯泰里奥斯",
+      "status": {
+        "location": "克诺索斯",
+        "state": "死亡"
+      },
+      "summary": "狄克斯在克诺索斯揭示代达罗斯后裔身份与人造迷宫秘密，施放迷暴诅咒支配异端儿。他向贝尔承认自己虐待异端儿是为超越血脉冲动的欲望，随后被贝尔和里德以英雄愿望重创。逃入迷宫深处后，他遇见阿斯泰里奥斯，未能施放诅咒便被斩杀。",
+      "key_events": [
+        {
+          "event_id": "xenos-and-bell-confront-dix-in-knossos",
+          "summary": "揭示克诺索斯与代达罗斯血脉。",
+          "sourceRef": "danmachi-main/vol-10/full.txt:5050"
+        },
+        {
+          "event_id": "dix-curses-xenos-and-bell-defeats-him-with-reyd",
+          "summary": "被贝尔与里德击倒。",
+          "sourceRef": "danmachi-main/vol-10/full.txt:6600"
+        },
+        {
+          "event_id": "asterius-defeats-ganesha-party-and-kills-dix",
+          "summary": "逃亡时被阿斯泰里奥斯斩杀。",
+          "sourceRef": "danmachi-main/vol-10/full.txt:7040"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-10/full.txt:4870-7150"
+      ]
+    },
+    {
+      "period_id": "vol-10-ch-07-abducts-wiene",
+      "volume": "vol-10",
+      "time": "第七章 惨剧之王",
+      "label": "用歌人鸟诱饵俘虏薇妮",
+      "status": {
+        "location": "地下城第24层",
+        "state": "成功捕获薇妮和飞儿，杀害多名异端儿"
+      },
+      "summary": "狄克斯用被钉在树上的歌人鸟惨叫引诱薇妮小队，随后率近二十名狩猎者现身围杀。他杀死弗尔等无法售卖的个体，识破拉涅蜘蛛丝路标，最终带走薇妮与飞儿。",
+      "key_events": [
+        {
+          "event_id": "dix-traps-ranie-squad-and-abducts-wiene",
+          "summary": "设置陷阱并俘虏薇妮。",
+          "sourceRef": "danmachi-main/vol-10/full.txt:1030"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-10/full.txt:930-1560"
+      ]
+    },
+    {
+      "period_id": "vol-10-ch-01-daedalus-heir",
+      "volume": "vol-10",
+      "time": "过场 执迷手札",
+      "label": "继承代达罗斯手札与猎捕异端儿",
+      "name": {
+        "zh": "狄克斯·佩尔迪克斯",
+        "en": "Dix Perdix",
+        "jp": "ディックス・ペルディクス"
+      },
+      "aliases": [
+        "暴蛮者",
+        "护目镜男子"
+      ],
+      "gender": "男",
+      "species": "人类",
+      "occupation": "冒险者、伊刻洛斯眷族团长、狩猎者首领",
+      "affiliation": "伊刻洛斯眷族、代达罗斯血脉",
+      "status": {
+        "level": "Lv.5相当（自称，诅咒发动时下降）",
+        "location": "克诺索斯",
+        "state": "以异端儿走私和虐待满足自身欲望"
+      },
+      "summary": "狄克斯阅读代达罗斯手札，显露他作为后裔承受血脉咒缚。他佩戴护目镜、持红色诅咒枪，率属下继续狩猎异端儿。",
+      "key_events": [
+        {
+          "event_id": "daedalus-notebook-dix-hunt-begins",
+          "summary": "读完手札后带队出猎。",
+          "sourceRef": "danmachi-main/vol-10/full.txt:95"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-10/full.txt:1-128"
+      ]
+    }
+  ]
+}

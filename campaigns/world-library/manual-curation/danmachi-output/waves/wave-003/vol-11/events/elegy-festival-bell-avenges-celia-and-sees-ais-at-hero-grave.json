@@ -1,0 +1,51 @@
+{
+  "_schema": "rp-event-volume-v1",
+  "world": "danmachi",
+  "event_id": "elegy-festival-bell-avenges-celia-and-sees-ais-at-hero-grave",
+  "volume": "vol-11",
+  "periods": [
+    {
+      "period_id": "vol-11-bd7",
+      "volume": "vol-11",
+      "time": "BD7短篇 英雄挽歌",
+      "name": {
+        "zh": "挽歌祭中贝尔为西莉亚报仇并在英雄墓遇见艾丝",
+        "en": "At the Elegy Festival, Bell Avenges Celia and Sees Ais at a Hero's Grave"
+      },
+      "type": "festival_and_reflection",
+      "location": "地下城、巴别塔、中央广场、第一墓地",
+      "summary": "贝尔在地下城遇到德尔林眷族小队，领队埃德加抱着濒死的兽人女性西莉亚，请求贝尔杀死袭击他们的下层大型怪物。贝尔、莉莉和韦尔夫险胜怪物并护送遗体返回地面，正逢欧拉丽举行挽歌祭：全城熄灭魔石灯，以烛火和歌声悼念古代英雄与地下城死者。艾丝同夜被挽歌祭与孩子们对黑龙讨伐的祈愿触动，意识到自己背负世界对英雄的期待，却认为自己无法成为任何人的英雄。次晨贝尔为西莉亚献花，在第一墓地遇见给大英雄阿尔巴特／佣兵王华伦斯坦献花的艾丝，并察觉她的姓氏与古代英雄之间可能存在联系。",
+      "cause": "德尔林眷族遭异常上行的下层怪物袭击，西莉亚死亡；同日为欧拉丽悼念英雄与冒险者的挽歌祭。",
+      "process": "贝尔应埃德加请求讨伐怪物并带回遗体；莉莉和韦尔夫向他说明挽歌祭，艾丝则在祭典中思考黑龙、英雄期待与自己的私怨。",
+      "outcome": "贝尔直面冒险者死亡和英雄诞生背后的悲伤，艾丝重申自己无法成为英雄；贝尔在墓地进一步意识到艾丝与古代英雄阿尔巴特／华伦斯坦的神秘关联。",
+      "participants": [
+        "bell-cranel",
+        "ais-wallenstein",
+        "liliruca-arde",
+        "welf-crozzo",
+        "edgar",
+        "celia"
+      ],
+      "related_events": [
+        "bell-arrives-orario-and-meets-hestia"
+      ],
+      "significance": "连接贝尔对英雄愿望的悲伤理解、艾丝背负黑龙讨伐悲愿的内心，以及华伦斯坦姓氏与古代英雄阿尔巴特的伏笔。",
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-11/full.txt:3375-4008"
+      ]
+    }
+  ],
+  "source_refs": [
+    "danmachi-main/vol-11/full.txt:3375-4008"
+  ],
+  "_revisions": [
+    {
+      "type": "fix",
+      "description": "收敛事件 participants 至本卷已建角色档案，移除未建档的背景/旁观/可跨卷补充角色，降低 dangling reference 风险。",
+      "source_refs": [
+        "danmachi-main/vol-11/full.txt:1-3374"
+      ]
+    }
+  ]
+}

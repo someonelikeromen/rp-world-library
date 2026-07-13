@@ -1,0 +1,15 @@
+{
+  "waveId": "wave-003",
+  "status": "passed",
+  "model": "lt-yuyu/gpt-5.5",
+  "cycle": ["generator", "auditor", "fixer", "auditor-rerun"],
+  "outputs": [
+    "output.json",
+    "audit-report.md",
+    "fix-trail.md",
+    "final-status.json"
+  ],
+  "openIssues": 0,
+  "blockers": [],
+  "notes": "Passed with sandbox and RP-engine rules separated from canon-like formal world rules."
+}

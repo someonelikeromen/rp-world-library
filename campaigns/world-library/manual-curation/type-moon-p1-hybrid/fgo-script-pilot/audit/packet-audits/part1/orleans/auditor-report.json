@@ -1,0 +1,17 @@
+{
+  "schema": "tm-fgo-packet-audit-report-v1",
+  "packetId": "pkt-fgo-part1-orleans-extract",
+  "round": "auditor",
+  "model": "lt-yuyu/gpt-5.5",
+  "status": "needs-fixer",
+  "openIssues": 4,
+  "blockedIssues": 0,
+  "canAdvance": false,
+  "checks": [
+    {"check": "canceled r6 output trust", "result": "failed", "detail": "Existing Orleans output was treated as suspect and required overwrite/repair."},
+    {"check": "event occurrence count", "result": "failed", "detail": "Existing output covered only events A-H, not all 16 source event occurrences."},
+    {"check": "duplicate raw code policy", "result": "failed", "detail": "Occurrence-qualified duplicate 事件N files were not present."},
+    {"check": "normalized outputs", "result": "failed", "detail": "No normalized Orleans character/relationship directories were present."}
+  ],
+  "sourceRefs": ["sources/worldbook-script/part1/ch-001-orleans.txt#world_timeline"]
+}

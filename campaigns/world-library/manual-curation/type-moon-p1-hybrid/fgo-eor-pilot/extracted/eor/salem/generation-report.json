@@ -1,0 +1,16 @@
+{
+  "schema": "tm-fgo-generation-report-v1",
+  "packetId": "pkt-fgo-eor-salem-extract",
+  "chapterId": "fgo-eor-salem",
+  "slug": "salem",
+  "model": "lt-yuyu/gpt-5.5",
+  "generatorStatus": "completed",
+  "generatedAt": "2026-07-12",
+  "inputs": ["work-packets/eor/salem.json", "sources/worldbook-script/eor/ch-092-salem.txt"],
+  "counts": {"eventFiles":12,"dialogueRefs":21,"appearanceSignals":9,"abilitySignals":18,"combatEffectSignals":12,"notFoundRecords":6,"relationshipCandidates":7,"characterCandidates":4},
+  "notes": ["Partial Salem outputs from failed r16 were treated as suspect and overwritten/repaired where applicable.", "No merge was run.", "No shell or executable script was used."],
+  "sourceRefs": [{"path":"sources/worldbook-script/eor/ch-092-salem.txt","lineStart":1,"lineEnd":83}],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

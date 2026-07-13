@@ -1,0 +1,55 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "nidhogg-cutting-one",
+  "volume": "vol-06",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:5890",
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:7890"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-06",
+      "volume": "vol-06",
+      "time": "本卷",
+      "name": {
+        "zh": "切断者",
+        "en": "Cutting One"
+      },
+      "aliases": [
+        "尼德霍格神装"
+      ],
+      "type": "technology / authority",
+      "description": "尼德霍格的神装，可让双翼刃剑切断空间并留下无法穿越的截面光壁。",
+      "details": {
+        "drag_ride": "nidhogg",
+        "weakness": "切断面积有限，新的截面生成会令旧截面按顺序消失"
+      },
+      "activation": {
+        "condition": "驾驶尼德霍格并挥动双翼刃剑",
+        "incantation": "切断者",
+        "time": "瞬间",
+        "cost": "可能破坏目标宝物，使用者也需承受风险"
+      },
+      "effects": [
+        "切断空间",
+        "形成绝对防壁",
+        "远距离斩裂城镇或王城"
+      ],
+      "known_feats": [
+        "海兹一击斩断王城上部，被莉夏看穿截面顺序并由路克斯破坏双翼刃剑"
+      ],
+      "shared_by": [
+        "hayes"
+      ],
+      "see_also": [
+        "nidhogg"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:5890",
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:7890"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "tm-fgo-packet-audit-v1",
+  "chapterId": "fgo-eor-shinjuku",
+  "packetId": "pkt-fgo-eor-shinjuku-extract",
+  "round": 1,
+  "auditorModel": "lt-yuyu/gpt-5.5",
+  "status": "needs-fix",
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like",
+  "sourceRefs": [{"sourceUnitId":"src-fgo-eor-shinjuku","path":"sources/worldbook-script/eor/ch-089-shinjuku.txt","lineStart":18,"lineEnd":105}],
+  "checks": [
+    {"id":"audit-001-events","status":"passed","finding":"All source raw events 事件A through 事件S are represented as 19 event files with rawEventCode, title, time_raw, trigger, completion, orderIndex, dialogueRefs, and sourceRefs."},
+    {"id":"audit-002-dialogue","status":"passed","finding":"All 27 quoted dialogue lines are represented as dialogueRefs; skippedQuotes is empty."},
+    {"id":"audit-003-mandatory-layers","status":"needs-fix","finding":"Appearance, ability, and combat-effect layers exist, but early drafts need fuller sourceRef objects and broader combat/not-found coverage."},
+    {"id":"audit-004-provenance","status":"needs-fix","finding":"Some early nested sourceRefs lacked sourceUnitId/path; every formal record must carry complete sourceRefs plus sourceType/credibility/canonStatus."},
+    {"id":"audit-005-normalized-and-reports","status":"needs-fix","finding":"generation-report, extraction-report, normalized outputs, and packet-audit outputs still needed to be completed."}
+  ],
+  "openIssues": 3,
+  "blockedIssues": 0,
+  "canAdvance": false
+}

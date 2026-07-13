@@ -1,0 +1,48 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "syr-flova",
+  "volume": "vol-06",
+  "time_range": {"start": "第一章", "end": "第五章"},
+  "sub_arcs": ["第18层归还后", "战争游戏送行"],
+  "periods": [
+    {
+      "period_id": "vol-06-ch-01-safe-return",
+      "volume": "vol-06",
+      "time": "第一章 激愤的兔子",
+      "label": "为贝尔平安归来高兴",
+      "name": {"zh": "希儿·福罗瓦", "en": "Syr Flova", "jp": "シル・フローヴァ"},
+      "gender": "女",
+      "species": "人类",
+      "occupation": "酒馆店员",
+      "affiliation": "丰饶的女主人",
+      "status": {"location": "丰饶的女主人外", "state": "关心贝尔第18层归还后的身体状况"},
+      "personality": {"summary": "温柔关心贝尔，也会因偷窥琉事件严厉说教。", "core_traits": ["温柔", "关心贝尔", "会吃醋/严厉", "善意"]},
+      "relationships": {"bell-cranel": "关心的冒险者常客", "ryu-lion": "同事与好友"},
+      "summary": "希儿在贝尔第18层归还后为他平安而高兴，邀请他庆祝并关心其伤势。",
+      "key_events": [{"event_id": "bell-reports-safe-return-to-syr-and-ryu", "summary": "贝尔向希儿报平安。", "sourceRef": "danmachi-main/vol-06/full.txt:173"}],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-06/full.txt:173"]
+    },
+    {
+      "period_id": "vol-06-ch-05-sendoff-charm",
+      "volume": "vol-06",
+      "time": "第五章 我们的战争游戏",
+      "label": "送出护身符",
+      "name": {"zh": "希儿·福罗瓦", "en": "Syr Flova", "jp": "シル・フローヴァ"},
+      "gender": "女",
+      "species": "人类",
+      "occupation": "酒馆店员",
+      "affiliation": "丰饶的女主人",
+      "status": {"location": "欧拉丽东门", "state": "追上贝尔出发马车，交给他护身符"},
+      "personality": {"summary": "不顾危险追上马车为贝尔送行，希望他胜利后再来店里。", "core_traits": ["勇敢", "温柔", "期待重逢", "支持贝尔"]},
+      "possessions_owned": ["由冒险者常客转让的护身符（已交给贝尔）"],
+      "relationships": {"bell-cranel": "送护身符并约定准备便当等待他回来", "ryu-lion": "出战前由她为琉向蜜雅说情"},
+      "summary": "贝尔乘商队离城前，希儿追上马车，把镶翠绿宝石的护身符交给贝尔，并让他胜利后再来丰饶的女主人。护身符后来替贝尔承受雅辛托斯魔法而碎裂。",
+      "key_events": [{"event_id": "syr-gives-bell-protective-charm", "summary": "在东门送给贝尔护身符。", "sourceRef": "danmachi-main/vol-06/full.txt:6380"}],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-06/full.txt:5906", "danmachi-main/vol-06/full.txt:6380", "danmachi-main/vol-06/full.txt:8236"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-06/full.txt:173-8236"]
+}

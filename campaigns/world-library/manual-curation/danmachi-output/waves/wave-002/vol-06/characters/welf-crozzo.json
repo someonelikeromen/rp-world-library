@@ -1,0 +1,83 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "welf-crozzo",
+  "volume": "vol-06",
+  "time_range": {"start": "第一章", "end": "终章"},
+  "sub_arcs": ["升级高级铁匠", "救莉莉", "改宗赫斯缇雅眷族", "战争游戏武装与攻城"],
+  "periods": [
+    {
+      "period_id": "vol-06-ch-01-rank-up",
+      "volume": "vol-06",
+      "time": "第一章 激愤的兔子",
+      "label": "Lv.2高级铁匠",
+      "name": {"zh": "韦尔夫·克罗佐", "en": "Welf Crozzo", "jp": "ヴェルフ・クロッゾ"},
+      "aliases": ["韦尔夫"],
+      "gender": "男",
+      "species": "人类",
+      "occupation": "冒险者、铁匠",
+      "affiliation": "赫菲斯托丝眷族",
+      "status": {"level": "Lv.2", "location": "焰蜂亭", "state": "第18层归还后升级并获得锻造发展能力"},
+      "personality": {"summary": "重义气，虽然达到目标但承诺继续与贝尔组队；面对挑衅先动手保护贝尔。", "core_traits": ["豪爽", "重友情", "自尊强", "反感侮辱同伴"]},
+      "abilities_owned": ["锻造"],
+      "relationships": {"bell-cranel": "同队前锋与签约客户；视为朋友", "liliruca-arde": "同队支援者", "hephaestus": "原主神与敬爱的锻造神"},
+      "summary": "韦尔夫升为Lv.2并获得锻造能力，成为高级铁匠。他告诉贝尔不会因达成目标就离队。酒馆冲突中，他抢先踢倒挑衅者，点燃乱斗。",
+      "key_events": [
+        {"event_id": "welf-rank-up-celebration", "summary": "与贝尔、莉莉庆祝升级和获得锻造能力。", "sourceRef": "danmachi-main/vol-06/full.txt:342"},
+        {"event_id": "apollo-familia-tavern-provocation", "summary": "踢倒卢安，正式引发酒馆乱斗。", "sourceRef": "danmachi-main/vol-06/full.txt:626"}
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-06/full.txt:342", "danmachi-main/vol-06/full.txt:626"]
+    },
+    {
+      "period_id": "vol-06-ch-04-rescue-and-conversion",
+      "volume": "vol-06",
+      "time": "第四章 同伴齐聚",
+      "label": "为朋友离开赫菲斯托丝眷族",
+      "name": {"zh": "韦尔夫·克罗佐", "en": "Welf Crozzo", "jp": "ヴェルフ・クロッゾ"},
+      "aliases": ["韦尔夫"],
+      "gender": "男",
+      "species": "人类",
+      "occupation": "冒险者、铁匠",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {"level": "Lv.2", "location": "苏摩酒库、赫菲斯托丝眷族分店", "state": "救出莉莉后请求改宗加入赫斯缇雅眷族"},
+      "personality": {"summary": "在友情和铁匠荣耀之间选择友情；仍相信只要有锤、铁与热情，在哪里都能打造武器。", "core_traits": ["义气", "工匠自豪", "果断", "不逃避克罗佐血统"]},
+      "abilities_owned": ["锻造", "克罗佐魔剑锻造血统"],
+      "possessions_owned": ["赫菲斯托丝赠送的红色铁锤"],
+      "relationships": {"liliruca-arde": "救援对象；称她离家出走结束", "zannis-lustra": "在苏摩酒库击败的敌人", "hephaestus": "准许转籍并赠送锤子", "bell-cranel": "为其胜利而转籍的朋友"},
+      "summary": "韦尔夫用钢索从瞭望塔冲入苏摩管理塔，击败察尼斯救下莉莉。随后他向赫菲斯托丝辞别，以为朋友为理由加入赫斯缇雅眷族，获赠红色铁锤。",
+      "key_events": [
+        {"event_id": "welf-defeats-zannis", "summary": "沿钢索突入管理塔，以刀背击倒察尼斯。", "sourceRef": "danmachi-main/vol-06/full.txt:5452"},
+        {"event_id": "welf-converts-to-hestia-familia", "summary": "向赫菲斯托丝辞别并加入赫斯缇雅眷族。", "sourceRef": "danmachi-main/vol-06/full.txt:5900"}
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-06/full.txt:5452", "danmachi-main/vol-06/full.txt:5900"]
+    },
+    {
+      "period_id": "vol-06-ch-05-war-game-smith",
+      "volume": "vol-06",
+      "time": "第五章 我们的战争游戏",
+      "label": "魔剑、反魔法与空中走廊",
+      "name": {"zh": "韦尔夫·克罗佐", "en": "Welf Crozzo", "jp": "ヴェルフ・クロッゾ"},
+      "aliases": ["韦尔夫"],
+      "gender": "男",
+      "species": "人类",
+      "occupation": "冒险者、铁匠",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {"level": "Lv.2", "location": "修利姆古城遗迹空中走廊", "state": "打造牛若丸二式、兔铠MK-IV与两把克罗佐魔剑，并在战场护送贝尔"},
+      "personality": {"summary": "不再把对魔剑的执着置于同伴之上；为了守护朋友而动用克罗佐魔剑。", "core_traits": ["可靠", "战斗型铁匠", "能放下执念", "重友情"]},
+      "abilities_owned": ["锻造", "威尔·欧·威斯普（反魔法火焰）"],
+      "possessions_owned": ["火影", "紫雷姬", "牛若丸二式", "兔铠MK-IV"],
+      "relationships": {"bell-cranel": "为其打造最终武器防具并护送至塔内", "ryu-lion": "使用他打造的魔剑吸引敌军", "daphne-lauros": "空中走廊交战对手"},
+      "summary": "韦尔夫在战前不眠打造贝尔装备和两把魔剑。战争游戏中，琉用其魔剑轰破城墙；韦尔夫陪贝尔潜入，使用反魔法使敌方魔导士魔力误爆，拦下达芙妮让贝尔继续前进。",
+      "key_events": [
+        {"event_id": "welf-forges-war-game-magic-swords", "summary": "打造火影、紫雷姬两把克罗佐魔剑。", "sourceRef": "danmachi-main/vol-06/full.txt:9000"},
+        {"event_id": "hestia-familia-war-game-infiltration", "summary": "与贝尔经西门潜入古城。", "sourceRef": "danmachi-main/vol-06/full.txt:7226"},
+        {"event_id": "welf-breaks-air-corridor-defense", "summary": "用反魔法火焰诱发敌方魔导士自爆并拦住达芙妮。", "sourceRef": "danmachi-main/vol-06/full.txt:7480"}
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-06/full.txt:9000", "danmachi-main/vol-06/full.txt:6756", "danmachi-main/vol-06/full.txt:7226", "danmachi-main/vol-06/full.txt:7480"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-06/full.txt:342-8338", "danmachi-main/vol-06/full.txt:8951-8986"]
+}

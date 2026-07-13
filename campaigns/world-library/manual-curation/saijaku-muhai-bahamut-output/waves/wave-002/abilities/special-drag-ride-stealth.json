@@ -1,0 +1,52 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "special-drag-ride-stealth",
+  "volume": "vol-09",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-09/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-09",
+      "volume": "vol-09",
+      "time": "vol-09",
+      "name": {
+        "zh": "特装机龙迷彩",
+        "en": "Special Drag-Ride Stealth"
+      },
+      "aliases": [
+        "迷彩"
+      ],
+      "type": "technology",
+      "description": "特装机龙具备隐藏机体与操纵者气息的迷彩功能。",
+      "details": {
+        "users": [
+          "nox",
+          "gadeff"
+        ],
+        "vol_09_usage": "诺珂特用来保护赛莉丝与通讯；盖达夫用来偷袭和暗杀。"
+      },
+      "activation": {
+        "condition": "特装机龙装备迷彩系统",
+        "incantation": "迷彩",
+        "time": "instant / continuous",
+        "cost": "energy"
+      },
+      "effects": [
+        "隐身接近",
+        "暗中护卫",
+        "偷袭目标"
+      ],
+      "shared_by": [
+        "nox",
+        "gadeff"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:3231",
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:6737"
+      ]
+    }
+  ]
+}

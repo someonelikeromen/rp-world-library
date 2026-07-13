@@ -1,0 +1,24 @@
+{
+  "schema": "tm-fgo-packet-audit-round-v1",
+  "chapterId": "fgo-lb3-renzhi-tonghe-zhenguo",
+  "round": 1,
+  "auditorMode": "read-only-internal",
+  "status": "failed-needs-fix",
+  "checks": [
+    {"checkId":"raw-event-coverage","status":"passed","details":"21 event files present for 事件A0 and 事件A-事件T."},
+    {"checkId":"dialogue-coverage","status":"failed","details":"One drafted dialogue quote for 戈尔德鲁夫 line 41 had a transcription typo and required correction."},
+    {"checkId":"forbidden-aggregate-name-string","status":"failed","details":"Normalized index draft contained literal forbidden aggregate filenames in an informational array; removed to avoid forbidden-name risk."},
+    {"checkId":"source-first-metadata","status":"passed","details":"Records sampled include sourceRefs/sourceType/credibility/canonStatus."},
+    {"checkId":"visual-ability-combat-layers","status":"passed","details":"Appearance, ability, combat-effect, and not-found layers present."}
+  ],
+  "issues": [
+    {"issueId":"lb3-audit001-dialogue-typo","severity":"high","status":"open","path":"extracted/lostbelt/lb3-renzhi-tonghe-zhenguo/dialogue/dialogue-index.json","details":"Quote for source line 41 must read 尝尝, not draft typo."},
+    {"issueId":"lb3-audit001-forbidden-name-risk","severity":"medium","status":"open","path":"normalized/lostbelt/lb3-renzhi-tonghe-zhenguo/index.json","details":"Informational array listed forbidden aggregate filenames; remove literal names."}
+  ],
+  "openIssues": 2,
+  "blockedIssues": 0,
+  "sourceRefs": ["campaigns/world-library/manual-curation/type-moon-p1-hybrid/fgo-lb3-lb4-pilot/sources/worldbook-script/lostbelt/ch-095-lb3-renzhi-tonghe-zhenguo.txt:1-101"],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

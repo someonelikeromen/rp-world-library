@@ -1,0 +1,22 @@
+{
+  "schema":"tm-fgo-packet-audit-v1",
+  "packetId":"pkt-fgo-eor-agartha-extract",
+  "chapterId":"fgo-eor-agartha",
+  "round":2,
+  "auditor":"internal-auditor-rerun",
+  "model":"lt-yuyu/gpt-5.5",
+  "status":"passed",
+  "sourceType":"user-file-worldbook-script",
+  "credibility":"B",
+  "canonStatus":"canon-like",
+  "sourceRefs":[{"path":"sources/worldbook-script/eor/ch-090-agartha.txt","lineStart":1,"lineEnd":108}],
+  "checks":[
+    {"id":"rerun-final-status-fields","status":"passed","finding":"Final gate fields are satisfied: status passed, openIssues 0, blockedIssues 0, latestAuditStatus passed, canAdvance true."},
+    {"id":"rerun-required-reports","status":"passed","finding":"generation-report.json, audit-round-001.json, fix-round-001.json, audit-round-002.json, and final-status.json are present under audit/packet-audits/eor/agartha; extracted audit mirror is also written."},
+    {"id":"rerun-mutation-scope","status":"passed","finding":"Writes were confined to fgo-eor-pilot extracted/eor/agartha, normalized/eor/agartha, audit/packet-audits/eor/agartha, STATUS.md, and execution-log.md."},
+    {"id":"rerun-no-merge","status":"passed","finding":"No merge output was produced in this run."}
+  ],
+  "openIssues":0,
+  "blockedIssues":0,
+  "canAdvance":true
+}

@@ -1,0 +1,15 @@
+{
+  "schema":"tm-fgo-packet-fix-round-v1",
+  "chapterId":"fgo-lb5-1-atlantis",
+  "round":1,
+  "status":"fixed",
+  "sourceType":"user-file-worldbook-script",
+  "credibility":"B",
+  "canonStatus":"canon-like",
+  "sourceRefs":["sources/worldbook-script/lostbelt/ch-097-lb5-1-atlantis.txt:27-123"],
+  "fixes":[
+    {"issueId":"audit001-dialogue-record-metadata","action":"Rewrote extracted/lostbelt/lb5-1-atlantis/dialogue/line-index.json so all 37 dialogue records include sourceType, credibility, and canonStatus alongside sourceRefs.","validation":"grep sample after rewrite shows dialogueId records with sourceType/credibility/canonStatus."}
+  ],
+  "openIssuesAfterFix":0,
+  "blockedIssuesAfterFix":0
+}

@@ -1,0 +1,33 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "rakudai-kishi",
+  "character_id": "norman-creed",
+  "volume": "vol-21",
+  "time_range": { "start": "Union emergency decision before formal meeting", "end": "Edelweiss deployment to Japan" },
+  "sub_arcs": ["union-nonintervention-order", "edelweiss-transport"],
+  "periods": [
+    {
+      "period_id": "vol-21",
+      "volume": "vol-21",
+      "time": "During Itsuki's emergency contact with Vermillion",
+      "label": "白翼宰相传达主席号令",
+      "name": { "zh": "诺曼·克里德", "en": "Norman Creed", "jp": "ノーマン・クリード" },
+      "aliases": ["白翼宰相"],
+      "titles": ["联盟总部副部长", "顶尖传送魔法使用者"],
+      "gender": "male",
+      "species": "human / Blazer",
+      "affiliation": "International Mage-Knight League / Union Headquarters",
+      "status": { "volume_role": "messenger and transporter", "condition": "active" },
+      "personality": { "summary": "Norman is formal and cool, executing Union headquarters' delicate decision: the Union will not officially intervene, but Edelweiss will be transported as an independent actor.", "core_traits": ["calm", "formal", "efficient", "politically disciplined"], "values": ["Union cohesion", "rapid transport", "executing headquarters decisions"], "flaws": [] },
+      "abilities_owned": ["Aozora no Mon / Azure Gate teleportation network", "wing/feather-like teleport manifestation"],
+      "relationships": { "edelweiss": "Transports her to Japan despite her being a Union/League enemy because the crisis requires independent action.", "itsuki-kurogane": "Appears in his command room and delivers the chairman order.", "white-beard": "Acts as the messenger of White Beard's chairman order." },
+      "summary": "Norman appears in Japan Branch command via teleportation while Itsuki is speaking with Vermillion. He brings Edelweiss and announces White Beard's chairman order: the Union will not officially intervene in Stella's kidnapping. The meaning is political—formal Union involvement would split member states and delay action, while Edelweiss can move immediately by her own justice. Norman's arrival enables Edelweiss to reinforce the battlefield in time.",
+      "key_events": [
+        { "event_id": "edelweiss-arrives-with-union-order", "summary": "Teleports to Japan with Edelweiss and conveys the Union's nonintervention order.", "sourceRef": "ch-005" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["rakudai-kishi-main/vol-21/ch-004", "rakudai-kishi-main/vol-21/ch-005"]
+    }
+  ],
+  "source_refs": ["rakudai-kishi-main/vol-21"]
+}

@@ -1,0 +1,89 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "neu-lushe",
+  "volume": "vol-19",
+  "time_range": {
+    "start": "宿上方决斗",
+    "end": "被击破"
+  },
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-19/full.txt:2693-6600"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-19",
+      "volume": "vol-19",
+      "time": "宿上方决斗",
+      "label": "坑道领导者自动人形",
+      "name": {
+        "zh": "涅依·露榭",
+        "en": "Neu Lushe",
+        "jp": ""
+      },
+      "aliases": [
+        "涅依",
+        "犬耳自动人形"
+      ],
+      "titles": [
+        "第四遗迹坑道领导者"
+      ],
+      "gender": "female",
+      "species": "automaton",
+      "occupation": "遗迹管理者/机龙使",
+      "affiliation": "大圣域/罗菲阵营",
+      "status": {
+        "end": "机能停止",
+        "mental": "被虚假记忆覆盖，临终回想起库露露席法等旧日联系"
+      },
+      "personality": {
+        "summary": "冷酷、务实、重视任务，为守护罗菲与大圣域不惜焚烧森林。",
+        "core_traits": [
+          "冷静",
+          "残酷",
+          "忠诚",
+          "战术协作"
+        ],
+        "inner_conflict": "失去与现时代同伴的记忆，直到机能停止前才短暂回想。"
+      },
+      "abilities_owned": [
+        "heaven-and-earth-creation",
+        "heat-zone"
+      ],
+      "possessions_owned": [
+        "salamandra",
+        "burning-cocoon"
+      ],
+      "relationships": {
+        "lu-karia": {
+          "type": "automaton partner",
+          "summary": "与卢·卡里亚暗中协作，火焰消耗对手并辅助引导者。"
+        },
+        "mel-gizatto": {
+          "type": "enemy",
+          "summary": "用火焰与缺氧战术压制梅尔。"
+        },
+        "glefa": {
+          "type": "enemy",
+          "summary": "最终被格莱法诱导到梅尔预置地碎角弹位置击破。"
+        },
+        "krulusifa-enfortis": {
+          "type": "former remembered figure",
+          "summary": "临终想起曾与库露露席法相关的记忆。"
+        }
+      },
+      "summary": "涅依·露榭驾驶沙罗曼蛇，以油与火焰燃烧宿周边森林，试图耗尽梅尔并威胁地下同伴。她与卢·卡里亚配合，却被格莱法和梅尔的反向协作击破。",
+      "key_events": [
+        {
+          "event_id": "greif-mel-vs-automata",
+          "summary": "与卢·卡里亚协作后被击破",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-19/full.txt:2693-6600"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-19/full.txt:2693-6600"
+      ]
+    }
+  ]
+}

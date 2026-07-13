@@ -1,0 +1,42 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "lisha-althia",
+  "volume": "vol-10",
+  "time_range": { "start": "假日前后", "end": "海布格任务准备前" },
+  "sub_arcs": ["莉夏篇", "海布格潜入准备"],
+  "periods": [
+    {
+      "period_id": "vol-10-main",
+      "volume": "vol-10",
+      "time": "深秋",
+      "label": "公主的下厨奋战",
+      "name": { "zh": "莉姿夏尔蒂·亚提司玛特", "en": "Liselotte Atismata", "jp": "リーズシャルテ・アティスマータ" },
+      "aliases": ["莉夏", "莉夏公主"],
+      "titles": ["新王国公主", "路克斯的主君", "机龙开发者"],
+      "gender": "女",
+      "species": "人类",
+      "nationality": "亚提司玛特新王国",
+      "occupation": "公主、机龙使、机龙工匠、王立士官学园学生",
+      "affiliation": "亚提司玛特新王国; 王立士官学园; 骑士团",
+      "status": { "physical": "熬夜开发机龙导致喉咙痛与疲劳", "emotional": "意识到只作为主君或维修士不足以让路克斯把她当女性看待", "mission": "仍承担机龙开发与新王国危机应对" },
+      "appearance": { "overview": "蜂蜜色侧束发、鲜红眼眸、娇小但有公主气质。", "physical": { "height": "娇小", "build": "娇小而有女性曲线", "hair": { "color": "蜂蜜色", "style": "侧边束起" }, "eyes": { "color": "红色" } }, "attire": { "default": "学园制服外披工房白袍", "combat": "装衣与神装机龙" }, "voice_quality": { "tone": "骄傲、直率、容易害羞" }, "distinctive": ["身上常带金属与油气味", "专注开发时会熬夜"] },
+      "personality": { "summary": "骄傲努力的公主与工匠。本卷在校医建议下尝试以料理攻略路克斯，却因彼此关心而发展成温馨误会。", "core_traits": ["骄傲", "努力", "害羞", "竞争心强", "对技术执著"], "values": ["新王国", "路克斯的认可", "机龙技术", "主君责任"], "fears": ["只被路克斯视为主君或维修士", "输给其他情敌"], "desires": ["成为路克斯眼中的女性", "做出让路克斯开心的料理", "在战斗与开发上帮上忙"], "strengths": ["机龙开发", "政治身份", "行动力"], "flaws": ["恋爱经验不足", "熬夜过度", "厨艺仍待磨练"], "inner_conflict": "她努力成为有用的主君，却也希望获得路克斯个人情感上的注视。", "decision_pattern": { "default": "听到建议后立刻行动并全力练习" } },
+      "voice": { "self_reference": "我", "address_pattern": { "lux-arcadia": "路克斯", "philuffy-aingram": "天然女孩" }, "register": { "default": "公主式自信语气" }, "catchphrases": [], "quote_samples": ["你就心怀期待等著吧，路克斯。"] },
+      "habits": { "mannerisms": ["挺胸宣告", "害羞时别过脸", "在工房熬夜"], "daily_routine": "上课、工房开发、骑士团与公主职责。", "quirks": ["缺乏便服打扮经验", "容易把恋爱建议当作作战执行"], "preferences": { "work": "装甲机龙研究" } },
+      "background": { "birth": { "place": "亚提司玛特新王国", "family": [] }, "upbringing": "身为新王国公主成长，同时钻研装甲机龙技术。", "education": { "current": "王立士官学园" }, "formative_events": ["与路克斯决斗后让其入学", "任命路克斯为专属骑士"], "pre_story": "圣蚀事件后仍持续开发机龙以准备未来战斗。" },
+      "abilities_owned": ["drag-ride-system"],
+      "possessions_owned": ["stew-dish"],
+      "relationships": { "lux-arcadia": { "type": "专属骑士/恋慕对象", "summary": "想学会他喜欢的料理，却发现路克斯也为她准备宵夜。" }, "philuffy-aingram": { "type": "情敌/同伴", "summary": "在路克斯身边的青梅竹马，被莉夏视为劲敌之一。" }, "krulcifer-einhorn": { "type": "情敌/同学", "summary": "被视为厨艺与恋爱攻势上的竞争对象。" }, "celistia-largreis": { "type": "情敌/骑士团同伴", "summary": "因学园祭接吻事件而让莉夏产生危机感。" } },
+      "knowledge": ["creators-prophecy"],
+      "secrets": [],
+      "summary": "莉夏因校医的恋爱建议而调查路克斯喜欢的食物，误以为他半夜练习的旧帝国肉汁炖菜是喜好料理。她向厨师学习后与路克斯在厨房相遇，发现路克斯同样是为她准备宵夜。虽然作战失败，她因路克斯开心吃下料理而满足。",
+      "key_events": [
+        { "event_id": "lisha-cooking-battle", "summary": "接受校医建议练习肉汁炖菜并与路克斯互相做料理。", "sourceRef": "saijaku-muhai-bahamut-main/vol-10/full.txt:967" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["saijaku-muhai-bahamut-main/vol-10/full.txt:967"]
+    }
+  ],
+  "source_refs": ["saijaku-muhai-bahamut-main/vol-10/full.txt:967"]
+}

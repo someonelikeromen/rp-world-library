@@ -1,0 +1,25 @@
+{
+  "schema": "tm-fgo-packet-audit-v1",
+  "packetId": "pkt-fgo-eor-shimousa-extract",
+  "chapterId": "fgo-eor-shimousa",
+  "round": 2,
+  "auditor": "internal",
+  "model": "lt-yuyu/gpt-5.5",
+  "status": "passed",
+  "openIssues": 0,
+  "blockedIssues": 0,
+  "checks": [
+    {"id":"shimousa-check-events","status":"passed","finding":"All raw events 事件A through 事件Q are represented by 17 event files with rawEventCode, title, time_raw, trigger, completion, orderIndex, dialogueRefs, and sourceRefs."},
+    {"id":"shimousa-check-dialogue","status":"passed","finding":"All 36 quoted timeline lines have dialogueRefs; skippedQuotes is empty."},
+    {"id":"shimousa-check-stage","status":"passed","finding":"Stage-character system判定 line is captured only in engineInstructionRefs and not as canon fact."},
+    {"id":"shimousa-check-layers","status":"passed","finding":"Appearance, ability, and combat-effect layers exist and include source-backed records plus not-found-in-source coverage for absent details."},
+    {"id":"shimousa-check-source-first","status":"passed","finding":"Formal records use current line-addressable source text and packet/manifest metadata only; no wiki/game-memory labels were promoted."},
+    {"id":"shimousa-check-normalized","status":"passed","finding":"normalized/eor/shimousa/chapter.json and layers.json exist and reference extracted layer outputs."},
+    {"id":"shimousa-check-merge","status":"passed","finding":"No merge output was produced in this run."}
+  ],
+  "coverage": {"eventsAThroughQ":true,"eventFiles":17,"dialogueQuotes":36,"dialogueRefsForAllQuotes":true,"appearanceLayer":true,"abilityLayer":true,"combatEffectLayer":true,"notFoundInSourceRecords":true,"normalizedOutputs":true},
+  "sourceRefs": [{"path":"sources/worldbook-script/eor/ch-091-shimousa.txt","lineStart":1,"lineEnd":108}],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

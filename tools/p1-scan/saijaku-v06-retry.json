@@ -1,0 +1,30 @@
+{
+  "objective": "Extract vol-06 using ccswitch local gpt-5.5",
+  "library": {
+    "sources": [
+      "package",
+      "project"
+    ]
+  },
+  "authority": {
+    "allowFilesystemRead": true,
+    "allowMutationTools": true,
+    "allowProjectCode": true
+  },
+  "limits": {
+    "concurrency": 1,
+    "timeoutSecondsPerStep": 7200
+  },
+  "steps": [
+    {
+      "id": "extract-vol-06",
+      "agent": {
+        "ref": "project:p1-worker",
+        "model": "lt-ccswitch/gpt-5.5"
+      },
+      "mutationScope": "saijaku-wave-output",
+      "cwd": "E:/pi-st",
+      "task": "Extract all entities from saijaku-muhai-bahamut-main vol-06.\n\nSERIES: saijaku-muhai-bahamut-main\nVOLUME: vol-06\nWORLD: saijaku-muhai-bahamut\nSPLIT_PATH: campaigns/world-library/worlds/saijaku-muhai-bahamut/sources/split-text/saijaku-muhai-bahamut-main/vol-06\nOUTPUT_DIR: campaigns/world-library/manual-curation/saijaku-muhai-bahamut-output/waves/wave-002/vol-06\nTEMPLATE_DIR: tools/p1-scan/_templates\n\nRead chapters.json, read each chapter txt, read templates, write entity files. Source ref: saijaku-muhai-bahamut-main/vol-06/full.txt:行号"
+    }
+  ]
+}

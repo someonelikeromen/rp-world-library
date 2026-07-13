@@ -1,0 +1,49 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "memory-form-mimicry",
+  "volume": "vol-09",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-09/full.txt:6737"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-09",
+      "volume": "vol-09",
+      "time": "vol-09",
+      "name": {
+        "zh": "记忆形态拟态",
+        "en": "Memory Form Mimicry"
+      },
+      "aliases": [
+        "幻影拟态"
+      ],
+      "type": "supernatural / technology",
+      "description": "圣蚀能读取或模拟对象心中重要人物的姿态与声音，以心理弱点动摇目标。",
+      "details": {
+        "forms": [
+          "wade",
+          "arshalia"
+        ]
+      },
+      "activation": {
+        "condition": "目标存在强烈记忆或创伤",
+        "incantation": "",
+        "time": "instant",
+        "cost": "unknown"
+      },
+      "effects": [
+        "伪装为维德动摇赛莉丝",
+        "伪装为阿榭立亚刺激弗基尔"
+      ],
+      "shared_by": [
+        "ark"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:3231",
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:6737"
+      ]
+    }
+  ]
+}

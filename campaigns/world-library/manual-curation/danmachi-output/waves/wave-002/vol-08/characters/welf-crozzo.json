@@ -1,0 +1,59 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "welf-crozzo",
+  "volume": "vol-08",
+  "time_range": { "start": "第一章", "end": "第三章" },
+  "sub_arcs": ["赫斯缇雅眷族新日常", "献给某锻造神的恋歌"],
+  "periods": [
+    {
+      "period_id": "vol-08-ch-01",
+      "volume": "vol-08",
+      "time": "第一章 献给某武神的恋歌",
+      "label": "新装备与礼物建议",
+      "name": { "zh": "韦尔夫·克罗佐", "en": "Welf Crozzo", "jp": "ヴェルフ・クロッゾ" },
+      "gender": "男",
+      "species": "人类",
+      "occupation": "冒险者、高级铁匠",
+      "affiliation": "赫斯缇雅眷族",
+      "status": { "location": "地下城第15层与欧拉丽街区", "state": "测试新装备并陪命寻找礼物" },
+      "summary": "为贝尔等人打造新武装，并在第15层反对莉莉轻易依赖克罗佐魔剑。",
+      "key_events": [
+        { "event_id": "hestia-familia-tests-new-formation", "summary": "警告不可依赖魔剑。", "sourceRef": "danmachi-main/vol-08/full.txt:678" },
+        { "event_id": "mikoto-seeks-takemikazuchi-gift", "summary": "建议命准备蛋糕。", "sourceRef": "danmachi-main/vol-08/full.txt:1017" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-08/full.txt:622", "danmachi-main/vol-08/full.txt:1017"]
+    },
+    {
+      "period_id": "vol-08-ch-03",
+      "volume": "vol-08",
+      "time": "第三章 献给某锻造神的恋歌",
+      "label": "不冷的锻造信念",
+      "name": { "zh": "韦尔夫·克罗佐", "en": "Welf Crozzo", "jp": "ヴェルフ・クロッゾ" },
+      "aliases": ["魔剑锻造师", "不冷"],
+      "titles": ["高级铁匠", "不冷"],
+      "gender": "男",
+      "species": "人类",
+      "nationality": "拉几亚王国出身",
+      "occupation": "冒险者、铁匠、赫斯缇雅眷族专属锻造师",
+      "affiliation": "赫斯缇雅眷族；原赫菲斯托丝眷族；克罗佐家族出身",
+      "status": { "level": "Lv.2", "location": "欧拉丽", "state": "拒绝回归拉几亚与克罗佐旧荣耀，决意打造自己的武器追上赫菲斯托丝" },
+      "appearance": { "overview": "红发青年铁匠，常穿和服便装并在工房满身汗水打铁。" },
+      "personality": { "summary": "热血、顽固、重视工匠矜持；讨厌魔剑消耗品观，却愿为同伴使用自己的力量。", "core_traits": ["顽固", "重情", "工匠自尊", "不服输", "热血"], "values": ["使用者与武器的羁绊", "亲手打造的装备", "超越赫菲斯托丝的神域"], "fears": ["被克罗佐魔剑血统定义", "只能依赖魔剑才能抵达至高"], "desires": ["打造超越魔剑的武器", "让赫菲斯托丝认可并与自己交往"], "strengths": ["高级铁匠技艺", "克罗佐魔剑才能", "近战战斗", "同伴装备维护"], "flaws": ["极端排斥魔剑", "受挫时钻牛角尖"], "inner_conflict": "既拥有最强魔剑血统，又拒绝让魔剑成为自己的锻造终点。" },
+      "abilities_owned": ["锻造", "克罗佐魔剑锻造"],
+      "possessions_owned": ["大刀", "裂进"],
+      "relationships": { "bell-cranel": "最信赖的同伴与专属装备使用者", "hephaestus": "前主神、锻造目标与恋慕对象", "tsubaki-collbrande": "前同僚与严厉刺激他的铁匠大师", "vil-crozzo": "父亲与旧家族荣耀的代表", "galon-crozzo": "祖父与锻造启蒙者", "mikoto-yamato": "虎铁使用者", "liliruca-arde": "歌利亚长袍使用者", "haruhime-sanjouno": "歌利亚长袍使用者" },
+      "summary": "韦尔夫为同伴打造虎铁与歌利亚长袍，却在第18层被椿折断给贝尔的短剑而陷入危机；回城后面对父亲和拉几亚以旧魔剑威胁，最终用自己的魔剑击溃祖传魔剑，拒绝克罗佐旧荣耀，并向赫菲斯托丝立誓以自己的做法超越她。",
+      "key_events": [
+        { "event_id": "welf-forges-kotetsu-and-goliath-robes", "summary": "为命、莉莉和春姬制作新装备。", "sourceRef": "danmachi-main/vol-08/full.txt:3864" },
+        { "event_id": "tsubaki-breaks-welf-short-sword", "summary": "被椿以折断短剑的方式迫使直面自身极限。", "sourceRef": "danmachi-main/vol-08/full.txt:4472" },
+        { "event_id": "warehouse-trap-and-crozzo-magic-sword-clash", "summary": "用自己的魔剑裂进击碎旧克罗佐魔剑。", "sourceRef": "danmachi-main/vol-08/full.txt:5097" },
+        { "event_id": "hephaestus-and-welf-rooftop-vow", "summary": "向赫菲斯托丝告白并接受打造令她认可武具的挑战。", "sourceRef": "danmachi-main/vol-08/full.txt:5582" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-08/full.txt:3835", "danmachi-main/vol-08/full.txt:4472", "danmachi-main/vol-08/full.txt:5097", "danmachi-main/vol-08/full.txt:5887"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-08/full.txt:622-1197", "danmachi-main/vol-08/full.txt:3773-5910"]
+}

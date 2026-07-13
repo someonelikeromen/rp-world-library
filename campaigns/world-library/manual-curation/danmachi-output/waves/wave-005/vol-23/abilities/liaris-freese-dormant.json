@@ -1,0 +1,23 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "danmachi",
+  "ability_id": "liaris-freese-dormant",
+  "volume": "vol-23",
+  "periods": [
+    {
+      "period_id": "vol-23-liaris-freese-dormant",
+      "volume": "vol-23",
+      "time": "琉IF后篇；深层生还后",
+      "name": { "zh": "一心憧憬的沉默", "en": "Dormant Liaris Freese" },
+      "type": "skill_state",
+      "owner": "bell-cranel",
+      "summary": "枝史中贝尔在深层选择琉并认为自己背叛了对艾丝的憧憬后，【一心憧憬】不再发动。赫斯缇雅确认它只会成为技能槽中的轨迹，贝尔的早熟成长停止。",
+      "effects": ["不再提供异常快速成长", "贝尔能力值增长回归常规第一冒险者壁垒", "象征追逐艾丝的物语终结"],
+      "conditions": ["贝尔自认背叛憧憬", "心中选择琉而非继续追逐艾丝"],
+      "key_events": [{ "event_id": "ryu-if-skill-dormancy-and-date-life", "summary": "赫斯缇雅向眷族说明技能沉默。" }],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-23/chapters/ch-004-琉if线「妖精的枝史」后篇.txt"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-23/chapters/ch-004-琉if线「妖精的枝史」后篇.txt"]
+}

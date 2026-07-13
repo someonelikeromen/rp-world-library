@@ -1,0 +1,39 @@
+{
+  "_schema":"rp-volume-index-v1",
+  "world":"rakudai-kishi",
+  "series":"rakudai-kishi-main",
+  "volume":"vol-17",
+  "volume_title":"落第骑士英雄谭 / Rakudai Kishi no Cavalry - Vol.17 (source text labels 第十五卷)",
+  "source_chapters":[
+    {"chapterIndex":1,"title":"间章 遗言","sourceRef":"rakudai-kishi-main/vol-17/chapters/ch-001-间章-遗言.txt"},
+    {"chapterIndex":2,"title":"第二十二章 剑神","sourceRef":"rakudai-kishi-main/vol-17/chapters/ch-002-第二十二章-剑神.txt"},
+    {"chapterIndex":3,"title":"第二十三章 法米利昂的怒火","sourceRef":"rakudai-kishi-main/vol-17/chapters/ch-003-第二十三章-法米利昂的怒火.txt"},
+    {"chapterIndex":4,"title":"第二十四章 遗骸洒泪","sourceRef":"rakudai-kishi-main/vol-17/chapters/ch-004-第二十四章-遗骸洒泪.txt"},
+    {"chapterIndex":5,"title":"第二十五章 胜负已分，在那之后……","sourceRef":"rakudai-kishi-main/vol-17/chapters/ch-005-第二十五章-胜负已分，在那之后…….txt"},
+    {"chapterIndex":6,"title":"终章 正义从天而降","sourceRef":"rakudai-kishi-main/vol-17/chapters/ch-006-终章-正义从天而降.txt"},
+    {"chapterIndex":7,"title":"后记","sourceRef":"rakudai-kishi-main/vol-17/chapters/ch-007-后记.txt"}
+  ],
+  "entity_counts":{"characters":20,"events":7,"abilities":0,"items":0,"locations":0,"factions":0,"systems":0,"knowledge":0},
+  "entities":{
+    "characters":["abraham-carter","alice-ascaride","astrea-vermillion","bakuya-tsukikage","charlotte-corday","daniel-dandelion","ikki-kurogane","john-kristoff-von-cobrand","kozo-kazamatsuri","levi-ascaride","lunaeyes-vermillion","nene-saikyo","or-gaule","rinna-kazamatsuri","sara-bloodlily","shizuku-kurogane","sirius-vermillion","stella-vermillion","wallenstein","yui-tatara"],
+    "events":["ikki-vs-alice-sword-god","stella-corners-or-gaule-and-john-executes-him","or-gaule-danse-macabre-and-ikki-death","shizuku-revives-ikki-and-stella-burns-or-gaule","ikki-hospital-recovery-and-reconciliation","stella-and-fia-airport-farewell","psyon-confronts-tsukikage-and-kazamatsuri"],
+    "abilities":[],"items":[],"locations":[],"factions":[],"systems":[],"knowledge":[]
+  },
+  "summary":"Manual extraction for rakudai-kishi-main vol-17. The volume covers the final phase of the Vermillion-Quedland war. After Alice Ascaride protects Or-Gaule and betrays the Vermillion side, Ikki stays behind to fight her while Stella pursues Or-Gaule. Ikki cannot meaningfully damage Invincible Armor by normal means, but uses Alice's urgency to save her brother to force a decisive clash, then cuts through her armor and fate with Oikage. Alice dies peacefully after Ikki promises to remember the gentle knight who fought for family, and Ikki's victory over the League's fourth-ranked A-rank knight earns him the title Sword God. Stella corners Or-Gaule, defeats his civilian-hostage tactic through prior preparation and allied forces, dismembers him, and lets John smash his head with Lunaeyes's support; the war is briefly declared won. Or-Gaule then activates Danse Macabre, a death-triggered self-puppet corpse ability, reveals the Bloody Cross origin of Orles Gaul and Wallenstein's coercive role, strangles Stella, and fights the exhausted Ikki. Ikki buys one minute for Stella to recover and is killed, but secretly plants delayed Kuruizakura cuts. Stella's grief triggers Ultra Awakening, yet she refuses to regret loving Ikki. Shizuku arrives and uses Water World to reconstruct Ikki from cells, while Stella, Nene, Sirius, Dandelion's shield line and the army contain Or-Gaule. Ikki's delayed cuts disrupt La Grand Guignol, and Stella burns Or-Gaule to ash, rejecting his claim that nobody helped him because Alice had loved him. Three days later Ikki wakes in a child-sized temporary body, learns Shizuku fused her cells into him and has been promoted to A-rank, accepts Levi Ascaride's future support, and reconciles with Stella over the pain caused by his death-premised plan. Stella later intercepts the departing Tatara, who refuses a peaceful guard post but leaves her contact and true name Fia. The epilogue shifts to the ruined Rebellion headquarters, where PSYON captain Abraham Carter confronts Bakuya Tsukikage and Kozo Kazamatsuri as the collapse of Rebellion pushes the League and Union toward direct conflict.",
+  "notes":[
+    "Only character and event files were created per p1-scan instruction; abilities/items/locations/factions/systems/knowledge directories were left without new JSON entries.",
+    "Chapter 7 is author afterword; no in-world extraction was added from it beyond listing the source chapter.",
+    "The split directory is vol-17 but the text header says 第十五卷; this index follows the delegated vol-17 scope and notes the mismatch in volume_title.",
+    "Some minor named soldiers/supporters in crowd scenes (Timitt, Milialia, Signa, announcer Buma) are summarized inside events rather than given separate character files in this pass."
+  ],
+  "source_refs":[
+    "campaigns/world-library/worlds/rakudai-kishi/sources/split-text/rakudai-kishi-main/vol-17/chapters.json",
+    "rakudai-kishi-main/vol-17/chapters/ch-001-间章-遗言.txt",
+    "rakudai-kishi-main/vol-17/chapters/ch-002-第二十二章-剑神.txt",
+    "rakudai-kishi-main/vol-17/chapters/ch-003-第二十三章-法米利昂的怒火.txt",
+    "rakudai-kishi-main/vol-17/chapters/ch-004-第二十四章-遗骸洒泪.txt",
+    "rakudai-kishi-main/vol-17/chapters/ch-005-第二十五章-胜负已分，在那之后…….txt",
+    "rakudai-kishi-main/vol-17/chapters/ch-006-终章-正义从天而降.txt",
+    "rakudai-kishi-main/vol-17/chapters/ch-007-后记.txt"
+  ]
+}
