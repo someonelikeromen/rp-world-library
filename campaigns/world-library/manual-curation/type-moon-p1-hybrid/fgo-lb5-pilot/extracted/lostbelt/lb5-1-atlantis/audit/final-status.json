@@ -1,0 +1,19 @@
+{
+  "schema":"tm-fgo-packet-final-status-v1",
+  "packetId":"pkt-fgo-lostbelt-lb5-1-atlantis-extract",
+  "chapterId":"fgo-lb5-1-atlantis",
+  "status":"passed",
+  "latestAuditRound":2,
+  "latestAuditStatus":"passed",
+  "openIssues":0,
+  "blockedIssues":0,
+  "canAdvance":true,
+  "sourceType":"user-file-worldbook-script",
+  "credibility":"B",
+  "canonStatus":"canon-like",
+  "sourceRefs":["sources/worldbook-script/lostbelt/ch-097-lb5-1-atlantis.txt:1-124"],
+  "coverage":{"rawEventsExpected":31,"rawEventsExtracted":31,"dialogueQuotesExpected":37,"dialogueQuotesExtracted":37,"appearanceLayer":"passed","abilityLayer":"passed","combatEffectLayer":"passed","notFoundLayer":"passed","normalizedLayer":"passed"},
+  "constraints":{"noShellOrExecutableTools":true,"noSourceImportModification":true,"noOldCuratedModification":true,"noMergeGraphTimelinePublication":true,"forbiddenAggregateFilenamesCreated":false},
+  "validationNotes":["Used read/find/grep/write/edit-style tool workflow only; no JSON parser or shell validation was run.","Manual audit/fix/audit rerun completed; final status is passed for packet outputs only."],
+  "nextGate":"packet may advance to later parent-controlled merge only if authorized; this step did not merge, graph, timeline, final-accept, or publish."
+}

@@ -1,0 +1,40 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "rakudai-kishi",
+  "character_id": "kagami-kusakabe",
+  "volume": "vol-04",
+  "time_range": { "start": "vol-04 ch-001", "end": "vol-04 ch-002" },
+  "sub_arcs": ["secret-tailing-interviews", "wall-newspaper-reporter"],
+  "periods": [
+    {
+      "period_id": "vol-04",
+      "volume": "vol-04",
+      "time": "Secret daily-life interviews of Stella and Shizuku",
+      "label": "秘密跟踪采访者",
+      "name": { "zh": "日下部加加美", "en": "Kagami Kusakabe", "jp": "日下部加々美" },
+      "aliases": ["加加美"],
+      "titles": ["破军学园学生记者"],
+      "gender": "female",
+      "species": "human / Blazer",
+      "occupation": "student; reporter; wall-newspaper writer",
+      "affiliation": "Hagun Academy",
+      "status": { "current": "secretly tails Stella and Shizuku for informal interviews", "health": "exhausted by trying to keep up with Stella and Ikki's morning run" },
+      "personality": { "summary": "Curious, energetic and opportunistic; she treats student daily life as news material and jokes about using sensitive photos as leverage.", "core_traits": ["nosy", "persistent", "comic opportunist", "observant"] },
+      "abilities_owned": ["reporting footwork", "information gathering"],
+      "relationships": {
+        "stella-vermillion": "Tails Stella for a daily routine profile, admires her effort but mocks her enormous appetite and secretly photographs an embarrassing moment.",
+        "shizuku-kurogane": "Tails Shizuku for a daily routine profile and notes her aloofness, healing role, food habits, brother complex and training effort.",
+        "ikki-kurogane": "Uses Ikki as a reference point for both profiles; his training pace defeats her stamina and his clothes become Stella's secret fixation.",
+        "nagi-arisuin": "Observes Alice protecting and sparring with Shizuku."
+      },
+      "summary": "Kagami conducts two short secret-tailing interviews. While tailing Stella, she wakes before dawn, tries to keep up with Stella and Ikki's intense run, observes Stella's normal classes, huge cafeteria appetite, training with Ikki, and embarrassing habit of smelling Ikki's shirt. While tailing Shizuku, she records Shizuku's sleepy morning, role as class health representative and healer, quiet lunches, obsessive online replies in Ikki's fan thread, and repeated efforts to learn short-sword combat from Alice.",
+      "key_events": [
+        { "event_id": "kagami-secret-follow-stella", "summary": "Follows Stella through morning run, classes, lunch and training." },
+        { "event_id": "kagami-secret-follow-shizuku", "summary": "Follows Shizuku through morning dorm life, class duties, lunch habits and sparring." }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["rakudai-kishi-main/vol-04/ch-001", "rakudai-kishi-main/vol-04/ch-002"]
+    }
+  ],
+  "source_refs": ["rakudai-kishi-main/vol-04"]
+}

@@ -1,0 +1,44 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "airi-arcadia",
+  "volume": "vol-10",
+  "time_range": { "start": "茶会夜晚", "end": "夜架融入事件后" },
+  "sub_arcs": ["爱理篇", "夜架篇", "恋爱谘商附录"],
+  "periods": [
+    {
+      "period_id": "vol-10-main",
+      "volume": "vol-10",
+      "time": "深秋",
+      "label": "妹妹的独立尝试与学园内政担当",
+      "name": { "zh": "爱理·阿卡迪亚", "en": "Airi Arcadia", "jp": "アイリ・アーカディア" },
+      "aliases": ["爱理", "路克斯的妹妹"],
+      "titles": ["旧帝国皇族后裔", "王立士官学园一年级文官志望"],
+      "gender": "女",
+      "species": "人类",
+      "nationality": "亚提司玛特新王国/旧阿卡迪亚帝国",
+      "occupation": "士官候补生、文官志望学生",
+      "affiliation": "王立士官学园; 阿卡迪亚家",
+      "status": { "physical": "尝试装甲机龙训练后过劳、轻微感冒与全身肌肉痛", "social": "在一年级中负责调解夜架造成的问题", "emotional": "重新确认对哥哥的依赖并非幼稚本能，而是始终如一的家族之情" },
+      "appearance": { "overview": "银发灰眸的娇小少女，举止端庄。", "physical": { "height": "娇小", "build": "体弱纤细", "hair": { "color": "银色" }, "eyes": { "color": "灰色" } }, "attire": { "default": "学园制服", "combat": "训练时穿装衣与飞翔机龙" }, "voice_quality": { "tone": "冷静、辛辣但关心" }, "distinctive": ["擅长以大小姐式微笑掩饰不满", "对哥哥的事反应强烈"] },
+      "personality": { "summary": "聪明、嘴硬、责任感强。她一方面批评哥哥过度勉强，一方面也不愿永远只被哥哥保护。", "core_traits": ["聪慧", "毒舌", "自律", "兄控倾向", "责任感"], "values": ["哥哥的安全", "自己的成长", "学园秩序"], "fears": ["被视为只会依赖哥哥", "哥哥被他人抢走", "哥哥过劳受伤"], "desires": ["成为能帮上哥哥忙的人", "以成熟方式依赖哥哥"], "strengths": ["学术能力", "古文书解读", "社交判断", "高机龙适性值"], "flaws": ["体力与运动神经差", "对哥哥问题容易动摇"], "inner_conflict": "想摆脱幼弱妹妹的位置，却又珍惜与哥哥互相依靠的关系。", "decision_pattern": { "default": "先理性分析，再以辛辣方式推动对方改正" } },
+      "voice": { "self_reference": "我", "address_pattern": { "lux-arcadia": "哥哥", "nocht-ryflete": "诺珂特" }, "register": { "default": "礼貌中带讽刺" }, "catchphrases": [], "quote_samples": ["哥哥太宠年纪小的女生了，真是下流。", "这才是成长后的我，与哥哥之间该有的关系。"] },
+      "habits": { "mannerisms": ["半眯眼质问", "叹气", "用笑容压迫哥哥"], "daily_routine": "学习文官课程、阅读学术书与古文书、协调一年级事务。", "quirks": ["以冷淡语气掩饰关心", "对哥哥的恋爱话题敏感"], "preferences": { "study": "遗迹古文书与学术书籍" } },
+      "background": { "birth": { "place": "旧阿卡迪亚帝国宫廷", "family": ["lux-arcadia"] }, "upbringing": "幼时体弱多病，在宫廷中依赖哥哥路克斯。", "education": { "current": "王立士官学园一年级文官课程" }, "formative_events": ["旧帝国覆灭", "随哥哥成为罪人", "进入王立士官学园"], "pre_story": "一直在学园中为哥哥与旧帝国后裔身份调和周围评价。" },
+      "abilities_owned": ["drag-ride-system"],
+      "possessions_owned": ["flying-dragon", "special-machine-dragon"],
+      "relationships": { "lux-arcadia": { "type": "哥哥", "summary": "唯一家人，既责备他过度勉强也深深依赖并关心他。" }, "nocht-ryflete": { "type": "室友/好友", "summary": "请诺珂特教她操纵装甲机龙，并在夜架问题上共同协助。" }, "yakata": { "type": "同班同学/形式上的朋友", "summary": "最初被夜架的行为困扰，最终愿意以朋友名义协助其融入学园。" }, "hugh-leyshed": { "type": "拒绝对象", "summary": "在附录中识破休伊目的并以对哥哥以外男性无兴趣为由击退他。" } },
+      "knowledge": ["creators-prophecy"],
+      "secrets": [],
+      "summary": "爱理篇中，她因茶会上的恋爱话题与生物本能论而动摇，秘密训练飞翔机龙却因体力极限倒下。经路克斯背回并照顾后，她接受了成长后的互相依靠关系。夜架篇中她持续处理夜架造成的班级问题，并最终与诺珂特一起接纳夜架为朋友。",
+      "key_events": [
+        { "event_id": "airi-armored-training", "summary": "秘密学习操纵飞翔机龙，在雨中训练到倒下。", "sourceRef": "saijaku-muhai-bahamut-main/vol-10/full.txt:57" },
+        { "event_id": "yakata-school-integration", "summary": "与诺珂特监督路克斯处理夜架的学园融入问题。", "sourceRef": "saijaku-muhai-bahamut-main/vol-10/full.txt:4397" },
+        { "event_id": "lux-hugh-encounter", "summary": "击退休伊对学园女生的轻率搭讪。", "sourceRef": "saijaku-muhai-bahamut-main/vol-10/full.txt:7621" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["saijaku-muhai-bahamut-main/vol-10/full.txt:57", "saijaku-muhai-bahamut-main/vol-10/full.txt:4397", "saijaku-muhai-bahamut-main/vol-10/full.txt:7621"]
+    }
+  ],
+  "source_refs": ["saijaku-muhai-bahamut-main/vol-10/full.txt:57"]
+}

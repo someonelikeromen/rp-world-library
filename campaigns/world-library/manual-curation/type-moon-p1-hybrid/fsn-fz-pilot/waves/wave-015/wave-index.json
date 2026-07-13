@@ -1,0 +1,23 @@
+{
+  "schema": "tm-p1-wave-index-v1",
+  "waveId": "wave-015",
+  "name": "FSN/FZ timeline skeleton",
+  "status": "passed",
+  "model": "lt-yuyu/gpt-5.5",
+  "sourceRefs": [
+    "type-moon-nasuverse/worldbook-text/src-fate-zero.md:13",
+    "type-moon-nasuverse/worldbook-text/src-fate-zero.md:24",
+    "type-moon-nasuverse/worldbook-text/src-fate-zero.md:25",
+    "type-moon-nasuverse/worldbook-text/src-fate-zero.md:60",
+    "type-moon-nasuverse/worldbook-text/src-fate-zero.md:63",
+    "type-moon-nasuverse/story-text/fate/ch-002-fate-route.txt:39",
+    "type-moon-nasuverse/story-text/fate/ch-002-fate-route.txt:41",
+    "type-moon-nasuverse/story-text/fate/ch-002-fate-route.txt:115",
+    "type-moon-nasuverse/story-text/fate/ch-003-ubw-route.txt:92",
+    "type-moon-nasuverse/story-text/fate/ch-003-ubw-route.txt:104",
+    "type-moon-nasuverse/story-text/fate/ch-004-hf-route.txt:77",
+    "type-moon-nasuverse/story-text/fate/ch-004-hf-route.txt:126"
+  ],
+  "outputs": {"timelines": ["output/timeline-skeleton.json"]},
+  "reports": {"generation": "reports/generation-report.json", "latestAudit": "reports/audit-round-002.json", "latestFix": "reports/fix-round-001.json", "finalStatus": "reports/final-status.json"}
+}

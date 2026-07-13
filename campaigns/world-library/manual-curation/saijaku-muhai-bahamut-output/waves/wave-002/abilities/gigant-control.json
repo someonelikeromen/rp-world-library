@@ -1,0 +1,57 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "gigant-control",
+  "volume": "vol-06",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:5830",
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:8060"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-06",
+      "volume": "vol-06",
+      "time": "本卷",
+      "name": {
+        "zh": "巨兵控制",
+        "en": "Gigant Control"
+      },
+      "aliases": [
+        "第五遗迹操纵"
+      ],
+      "type": "technology / authority",
+      "description": "通过设施领导者与创造主权限操纵第五遗迹巨兵移动、炮击与最终全方位射击。",
+      "details": {
+        "controller": "aeril-fazelle under hayes"
+      },
+      "activation": {
+        "condition": "创造主命令与巨兵控制室",
+        "incantation": "无",
+        "time": "持续",
+        "cost": "巨大系统能量"
+      },
+      "effects": [
+        "遗迹移动",
+        "肩部炮击",
+        "全方位炮击准备",
+        "机械臂压制"
+      ],
+      "known_feats": [
+        "巨兵从海布格移动至王都并摧毁东北街区"
+      ],
+      "shared_by": [
+        "aeril-fazelle",
+        "hayes"
+      ],
+      "see_also": [
+        "gigant",
+        "creator-authority"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:5830",
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:8060"
+      ]
+    }
+  ]
+}

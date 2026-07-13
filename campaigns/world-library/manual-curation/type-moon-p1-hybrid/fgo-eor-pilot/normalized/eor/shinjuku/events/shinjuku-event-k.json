@@ -1,0 +1,26 @@
+{
+  "schema": "tm-fgo-normalized-event-v1",
+  "chapterId": "fgo-eor-shinjuku",
+  "id": "shinjuku-event-k",
+  "rawEventCode": "事件K",
+  "orderIndex": 11,
+  "title": "监狱大逃脱",
+  "timeRaw": "1999年 新宿·枪身塔内",
+  "trigger": "立香被囚入枪身塔",
+  "completion": "福尔摩斯救人并揭晓善Archer即莫里亚蒂",
+  "dialogueRefs": [
+    "shinjuku-dlg-015",
+    "shinjuku-dlg-016"
+  ],
+  "sourceRefs": [
+    {
+      "sourceUnitId": "src-fgo-eor-shinjuku",
+      "path": "sources/worldbook-script/eor/ch-089-shinjuku.txt",
+      "lineStart": 76,
+      "lineEnd": 78
+    }
+  ],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "tm-p1-audit-report-v1",
+  "waveId": "wave-010",
+  "round": 1,
+  "status": "failed",
+  "auditedAt": "2026-07-12",
+  "agent": { "model": "lt-yuyu/gpt-5.5", "role": "internal-auditor" },
+  "filesChecked": [
+    "waves/wave-010/output/events.json",
+    "waves/wave-010/output/event-candidates.json"
+  ],
+  "sourceRefsVerified": 50,
+  "issues": [
+    {
+      "issueId": "W010-A001",
+      "severity": "error",
+      "category": "adaptation-separation",
+      "file": "output/events.json",
+      "path": "events",
+      "detail": "Initial pass risked mixing anime-only differences with the formal UBW route event sequence.",
+      "expected": "Keep anime-only differences candidate-only unless a dedicated adaptation continuity is opened.",
+      "sourceRefs": ["type-moon-nasuverse/story-text/fate/ch-003-ubw-route.txt:148"],
+      "status": "open"
+    }
+  ],
+  "summary": { "errors": 1, "warnings": 0, "blocked": 0 }
+}

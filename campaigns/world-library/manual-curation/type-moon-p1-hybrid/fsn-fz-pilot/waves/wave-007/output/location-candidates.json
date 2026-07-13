@@ -1,0 +1,27 @@
+{
+  "schema": "tm-p1-candidates-v1",
+  "waveId": "wave-007",
+  "worldId": "type-moon-nasuverse",
+  "candidates": [
+    {
+      "candidateId": "w007-candidate-tohsaka-residence",
+      "kind": "entity",
+      "proposedType": "location",
+      "label": "Tohsaka residence",
+      "reason": "Expected by wave scope, but no direct line in the current source text layer names the Tohsaka residence as a location. Keep as candidate until a line-addressed source exists.",
+      "confidence": "low",
+      "status": "candidate",
+      "sourceRefs": []
+    },
+    {
+      "candidateId": "w007-candidate-mt-enzou",
+      "kind": "entity",
+      "proposedType": "location",
+      "label": "Mt. Enzou",
+      "reason": "Expected by wave scope. The current source text directly supports Ryuudou Temple and the Great Cavern, but does not line-anchor the mountain name.",
+      "confidence": "low",
+      "status": "candidate",
+      "sourceRefs": []
+    }
+  ]
+}

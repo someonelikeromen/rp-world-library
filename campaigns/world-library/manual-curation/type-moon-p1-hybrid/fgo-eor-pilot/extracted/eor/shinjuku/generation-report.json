@@ -1,0 +1,47 @@
+{
+  "schema": "tm-fgo-generation-report-v1",
+  "packetId": "pkt-fgo-eor-shinjuku-extract",
+  "chapterId": "fgo-eor-shinjuku",
+  "model": "lt-yuyu/gpt-5.5",
+  "sourceUnitId": "src-fgo-eor-shinjuku",
+  "sourcePath": "sources/worldbook-script/eor/ch-089-shinjuku.txt",
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like",
+  "generatedAt": "2026-07-12",
+  "outputsCreatedOrUpdated": [
+    "extracted/eor/shinjuku/world-state.json",
+    "extracted/eor/shinjuku/stage-characters/index.json",
+    "extracted/eor/shinjuku/events/event-a.json through event-s.json",
+    "extracted/eor/shinjuku/dialogue/dialogue-index.json",
+    "extracted/eor/shinjuku/appearance-signals/index.json",
+    "extracted/eor/shinjuku/ability-signals/index.json",
+    "extracted/eor/shinjuku/combat-effect-signals/index.json",
+    "extracted/eor/shinjuku/not-found-in-source/index.json",
+    "extracted/eor/shinjuku/mentions/index.json",
+    "extracted/eor/shinjuku/candidates/index.json",
+    "extracted/eor/shinjuku/extraction-report.json"
+  ],
+  "coverage": {
+    "worldState": "present",
+    "stageCharacters": 15,
+    "eventsExpectedRange": "事件A-事件S",
+    "eventsExtracted": 19,
+    "dialogueQuotesExtracted": 27,
+    "dialogueSkipped": 0,
+    "appearanceSignals": 5,
+    "abilitySignals": 8,
+    "combatEffectSignals": 14,
+    "notFoundMarkers": 5,
+    "relationshipCandidates": 5,
+    "characterCandidates": 5
+  },
+  "sourceFirstNotes": [
+    "Only line-addressable chapter source text was used for formal facts.",
+    "Stage-character system instruction was retained only as engineInstructionRefs and not promoted to canon fact.",
+    "Visual, ability, and combat layers were extracted where the source explicitly stated them; absent details were recorded as not-found-in-source.",
+    "No merge step was run."
+  ],
+  "sourceRefs": [{"sourceUnitId":"src-fgo-eor-shinjuku","path":"sources/worldbook-script/eor/ch-089-shinjuku.txt","lineStart":18,"lineEnd":105}],
+  "status": "generated"
+}

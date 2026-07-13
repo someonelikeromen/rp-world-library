@@ -23,6 +23,13 @@
 card/ → memory/project.md → memory/user.md → memory/feedback.md → style/ → knowledge/（按需）
 ```
 
+多世界长期档案必须纳入启动/续档读取。若存在 `memory/world-history.md`，读取顺序为：
+
+```text
+card/ → memory/world-history.md → memory/project.md → memory/user.md → memory/feedback.md → style/ → knowledge/（按需）
+```
+
+`memory/world-history.md` 只读摘要和当前/最近世界段落；涉及成就能量门、跨世界能力适配或世界回访时再精读对应世界记录。
 ## 2. 开局
 
 1. Actor/Director 未确认则先问。
@@ -45,6 +52,7 @@ Step 1: 全域推演
   ├─ 运行事件概率引擎（rules/rp-event-probability.md）
   ├─ 若启用跑团/安科/安价 → 加载 rules/rp-table-session.md 与 rules/rp-anka-ankage.md
   ├─ 若启用成就系统 → 加载 rules/rp-achievement-system.md 与 rp-achievement skill
+  ├─ 若启用兑换系统 → 加载 rules/rp-exchange-system.md 与 rp-exchange skill
   └─ 动态路由加载对应世界书条目（rules/rp-dynamic-routing.md）
 
 Step 2: 叙事生成
@@ -53,7 +61,8 @@ Step 2: 叙事生成
   └─ 涉及世界观细节时按需 search
 
 Step 3: 状态结算
-  ├─ 若启用成就系统 → 判定成就触发；触发后即时生成奖励候选，奖励内容与成就内容无关
+  ├─ 若启用成就系统 → 判定成就触发；触发后即时生成奖励候选，奖励内容与成就内容无关；若与兑换系统联动则改为发放奖励点
+  ├─ 若启用兑换系统 → 处理奖励点发放/扣除、兑换项来源验证、完整性校验与角色卡落盘
   ├─ 更新角色状态（伤势/魔力/关系/资源）
   ├─ 更新 memory/project.md
   └─ 用 `card_edit` 同步 card/*.json 动态字段
@@ -113,13 +122,39 @@ Step 4: 暗线推演
 - 用户喜欢/不喜欢的文风、节奏、尺度、禁区
 - 用户纠正过的角色理解
 
+### `memory/world-history.md`（多世界经历账本）
+- 当前世界：worldId/worldName、当前地点、进入方式、当前世界状态
+- 所有经历世界：已进入、离开、回访、被改变、被锁定或被毁灭的世界
+- 每个世界的时间线：firstEnteredAt、lastSeenAt、exitAt、关键场景和关键选择
+- 世界能量体系：hasEnergySystem、energySystemsEncountered、protagonistExposureLevel、可用/不可用原因
+- 跨世界适配：世界规则、语言/身体/能量接口、能力兼容、限制和代价
+- 跨世界收获：能力、物品、知识、契约、奖励、称号及来源世界
+- 跨世界关系：仍可能延续的 NPC、组织、敌友、债务、契约和追踪者
+- 未结后果：未解决冲突、伏笔、追兵、世界状态变化、回访风险
+
+### 多世界经历链强制更新点
+以下情况必须更新 `memory/world-history.md`，并同步到角色卡相关模块：
+
+1. 进入新世界、离开世界、回访世界或世界线发生重大改变。
+2. 主角首次接触某世界的能量体系、力量规则、语言/身体/灵魂/概念接口。
+3. 获得跨世界能力、道具、知识、契约、奖励或可迁移关系。
+4. 战斗评级、抗性、资源、适配限制因世界规则变化而改变。
+5. 成就系统需要判断当前/历史世界是否存在能量体系或是否已接触能量体系。
+
+同步目标：
+
+- `memory/world-history.md`：叙事履历和长期后果。
+- `memory/user.md`：主角长期状态、能力/物品/关系摘要。
+- `card/<protagonist>/combat/world-adaptation.json`：可计算的世界适配和能量暴露状态。
+- `card/<protagonist>/knowledge/knowledge.json`：主角已知世界知识、秘密和误信。
+- `card/<protagonist>/combat/abilities.json`、`resources.json`、`resistances.json`、`combat-log.json`：能力、资源、抗性、战斗变化。
 ## 5. 时间跳跃
 
 用户输入"时间跳跃: ..."：
 
 1. 明确目标：时间、地点、人物状态、期间关键事件。
 2. 1-3 段概括中间变化。
-3. 更新 `memory/project.md` 和相关人物状态；涉及主角动态字段时用 `card_edit` 同步 `card/linjie.json`。
+3. 更新 `memory/project.md`、`memory/user.md`、`memory/world-history.md` 和相关人物状态；涉及主角动态字段时用 `card_edit` 同步目录型主角卡对应模块（尤其 `session`、`worldAdaptation`、`abilities`、`resources`、`combatLog`）。
 4. 在新时间点给出可互动场景。
 
 ## 6. 文风切换
@@ -189,7 +224,8 @@ NPC内心用 `*` 包裹穿插正文。触发：言行反差/重大决定/情绪�
 - `rp-world-search`：世界信息搜索与渐进式加载
 - `rp-combat`：战斗结算
 - `rp-dice`：骰子掷骰
-- `rp-achievement`：主角专属隐藏成就、奖励随机、手动领取与角色卡落盘
+- `rp-achievement`：主角专属隐藏成就、奖励随机或联动兑换点、手动领取与角色卡落盘
+- `rp-exchange`：主角专属奖励点兑换、完整兑换项验证、来源核实与多世界框架落盘
 - `png-card-extractor`：PNG 角色卡提取
 - `rp-graph`：关系/知识图谱
 - `rp-curation`：世界归档

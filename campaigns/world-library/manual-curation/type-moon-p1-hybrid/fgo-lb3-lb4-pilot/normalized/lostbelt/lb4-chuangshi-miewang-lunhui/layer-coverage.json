@@ -1,0 +1,28 @@
+{
+  "schema": "tm-fgo-normalized-layer-coverage-v1",
+  "chapterId": "fgo-lb4-chuangshi-miewang-lunhui",
+  "status": "passed",
+  "coverage": {
+    "worldState": {"status":"present", "records":1},
+    "stageCharacters": {"status":"present", "records":22, "engineInstructionOnlyRecords":1},
+    "rawEvents": {"status":"present", "expected":21, "actual":21, "rawEventCodes":"事件A through 事件U"},
+    "dialogue": {"status":"present", "sourceMarkers":25, "records":25},
+    "appearanceSignals": {"status":"present", "records":9, "explicitGaps":"extracted/lostbelt/lb4-chuangshi-miewang-lunhui/not-found-in-source/mandatory-layer-gaps.json"},
+    "abilitySignals": {"status":"present", "records":16, "noblePhantasmRecords":2},
+    "combatEffectSignals": {"status":"present", "records":17, "detailedVisualGaps":"explicit-not-found"},
+    "notFoundInSource": {"status":"present", "records":5},
+    "mentions": {"status":"present", "records":7},
+    "candidates": {"status":"present", "aliasCandidates":7, "relationshipCandidates":5}
+  },
+  "sourceFirstCompliance": {
+    "formalFactsUseCurrentSourceOnly": true,
+    "unsupportedExternalLabelsCandidateOnly": true,
+    "stageCharacterInstructionTreatedAsEngineInstructionOnly": true,
+    "forbiddenAggregateFilesNotCreated": true,
+    "mergeGraphTimelinePublicationPerformed": false
+  },
+  "sourceRefs": ["campaigns/world-library/manual-curation/type-moon-p1-hybrid/fgo-lb3-lb4-pilot/sources/worldbook-script/lostbelt/ch-096-lb4-chuangshi-miewang-lunhui.txt:1-95"],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

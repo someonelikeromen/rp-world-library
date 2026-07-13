@@ -1,0 +1,34 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "daphne-lauros",
+  "volume": "vol-07",
+  "time_range": {"start": "第一章", "end": "第一章"},
+  "sub_arcs": ["新总部搬入与债务危机"],
+  "periods": [
+    {
+      "period_id": "vol-07-ch-01",
+      "volume": "vol-07",
+      "time": "第一章 一帆风顺",
+      "label": "现实主义的前阿波罗冒险者",
+      "name": {"zh": "达芙妮·拉洛斯", "en": "Daphne Lauros", "jp": "ダフネ・ラウロス"},
+      "aliases": ["达芙妮"],
+      "gender": "女",
+      "species": "人类",
+      "occupation": "冒险者",
+      "affiliation": "前阿波罗眷族；自由身",
+      "status": {"location": "赫斯缇雅眷族新总部外", "state": "考虑转籍去正常主神的眷族，陪卡珊德拉寻找枕头并短暂参与招募"},
+      "appearance": {"overview": "短发、凤眼，态度强势的少女。", "distinctive": ["短发", "凤眼"]},
+      "personality": {"summary": "现实、果断且照顾卡珊德拉，认为阿波罗眷族解散或许是因祸得福；面对两亿债务立即撤退。", "core_traits": ["现实", "果断", "照顾同伴", "不轻信神秘预言"]},
+      "relationships": {"cassandra-ilion": "同行同伴，负责阻止其冲动", "bell-cranel": "战争游戏旧敌；认可其无需愧疚"},
+      "summary": "告知贝尔自己与卡珊德拉原本近似被迫加入阿波罗眷族，正在寻找正常主神；虽不信卡珊德拉的预知梦，仍陪她来到旧宅。后来因卡珊德拉想加入赫斯缇雅眷族而到场，但债务曝光后立刻决定离开。",
+      "key_events": [
+        {"event_id": "cassandra-pillow-prophecy", "summary": "阻止卡珊德拉闯入旧宅寻找梦中枕头。", "sourceRef": "danmachi-main/vol-07/full.txt:582"},
+        {"event_id": "hestia-familia-recruitment-collapse", "summary": "看到两亿法利债务后带卡珊德拉离开。", "sourceRef": "danmachi-main/vol-07/full.txt:984"}
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-07/full.txt:538", "danmachi-main/vol-07/full.txt:568", "danmachi-main/vol-07/full.txt:984"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-07/full.txt:520-1000"]
+}

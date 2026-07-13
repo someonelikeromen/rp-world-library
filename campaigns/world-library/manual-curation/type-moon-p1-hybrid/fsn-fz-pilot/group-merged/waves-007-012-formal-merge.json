@@ -1,0 +1,76 @@
+{
+  "schema": "tm-p1-group-merge-v1",
+  "groupId": "waves-007-012",
+  "worldId": "type-moon-nasuverse",
+  "scope": "fsn-fz-pilot",
+  "model": "lt-yuyu/gpt-5.5",
+  "status": "passed",
+  "sourceWaveOutputs": [
+    "waves/wave-007/output/locations.json",
+    "waves/wave-008/output/abilities.json",
+    "waves/wave-009/output/events.json",
+    "waves/wave-010/output/events.json",
+    "waves/wave-011/output/events.json",
+    "waves/wave-012/output/events.json",
+    "waves/wave-012/output/fourth-war-materials.json"
+  ],
+  "formalCounts": {
+    "locations": 11,
+    "abilitiesSystemsConcepts": 18,
+    "fateRouteEvents": 8,
+    "ubwRouteEvents": 8,
+    "hfRouteEvents": 8,
+    "fzEvents": 8,
+    "fourthWarMaterials": 8
+  },
+  "locationIds": [
+    "fuyuki-city",
+    "homurahara-academy",
+    "fuyuki-church",
+    "emiya-residence",
+    "ryuudou-temple",
+    "ryuudou-temple-great-cavern",
+    "einzbern-castle",
+    "matou-residence",
+    "shinto-skyscraper",
+    "fuyuki-harbor",
+    "mion-river-area"
+  ],
+  "abilityIds": [
+    "servant-class-summoning-system",
+    "command-spells",
+    "noble-phantasm-concept",
+    "reality-marble",
+    "unlimited-blade-works",
+    "projection-magecraft",
+    "excalibur",
+    "avalon",
+    "rule-breaker",
+    "gate-of-babylon",
+    "ea",
+    "bellerophon",
+    "mystic-eyes-petrification",
+    "blood-fort-andromeda",
+    "gae-bolg",
+    "rho-aias",
+    "third-magic-heavens-feel",
+    "sakura-shadow-corruption"
+  ],
+  "eventSets": [
+    { "timelineId": "fz-fourth-war", "count": 8, "orderBand": "000-099", "datePolicy": "FZ exact timestamps preserved where source provides them" },
+    { "timelineId": "fsn-fate-route", "count": 8, "orderBand": "200-299 plus epilogue 900-910", "datePolicy": "relative-only route time" },
+    { "timelineId": "fsn-ubw-route", "count": 8, "orderBand": "300-399 plus epilogue 910", "datePolicy": "relative-only route time" },
+    { "timelineId": "fsn-hf-route", "count": 8, "orderBand": "400-499 plus epilogue 920", "datePolicy": "relative-only route time" }
+  ],
+  "candidateCarryForward": [
+    "location-candidate-tohsaka-residence",
+    "location-candidate-mt-enzou",
+    "ability-candidate-magic-circuits",
+    "ability-candidate-magic-crest",
+    "fate-route-bad-ending-candidates",
+    "ubw-route-bad-ending-candidates",
+    "hf-route-bad-ending-candidates",
+    "fz-prehistory-kiritsugu-natalia-candidate"
+  ],
+  "auditDecision": "Group 007-012 can feed final merge because all route and FZ event outputs preserve time.start, time.end, timelineNodes, participants, locationRefs, sourceRefs, sourceType, and credibility. FSN calendar dates remain intentionally uninvented."
+}

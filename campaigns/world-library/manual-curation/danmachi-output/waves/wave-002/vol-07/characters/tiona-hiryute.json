@@ -1,0 +1,31 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "tiona-hiryute",
+  "volume": "vol-07",
+  "time_range": {"start": "特典", "end": "特典"},
+  "sub_arcs": ["战争游戏后祝贺特典"],
+  "periods": [
+    {
+      "period_id": "vol-07-bonus-celebration",
+      "volume": "vol-07",
+      "time": "特典 庆祝？",
+      "label": "理解艾丝想祝贺贝尔",
+      "name": {"zh": "蒂奥娜·席吕特", "en": "Tiona Hiryute", "jp": "ティオナ・ヒリュテ"},
+      "gender": "女",
+      "species": "亚马逊人",
+      "occupation": "冒险者",
+      "affiliation": "洛基眷族",
+      "status": {"location": "洛基眷族客厅", "state": "帮艾丝说出想给贝尔送战争游戏胜利贺礼的心意"},
+      "personality": {"summary": "开朗直率，能迅速理解艾丝不擅表达的想法。", "core_traits": ["开朗", "直率", "善解人意"]},
+      "relationships": {"ais-wallenstein": "同伴，理解其想法", "bell-cranel": "被其称作阿尔戈诺特君的祝贺对象", "loki": "共同在场的主神"},
+      "summary": "蒂奥娜看出艾丝想祝贺贝尔战争游戏获胜与眷族扩大，与艾丝一起思考送武器、食物或其他礼物，随后洛基介入并提出送花。",
+      "key_events": [
+        {"event_id": "ais-gives-bell-snowdrop-bouquet", "summary": "帮艾丝把想送贝尔贺礼的心意说出口。", "sourceRef": "danmachi-main/vol-07/full.txt:12518"}
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-07/full.txt:12518", "danmachi-main/vol-07/full.txt:12524"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-07/full.txt:12511-12568"]
+}

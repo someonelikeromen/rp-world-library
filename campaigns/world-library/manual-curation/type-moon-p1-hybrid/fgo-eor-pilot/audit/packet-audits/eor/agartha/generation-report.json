@@ -1,0 +1,15 @@
+{
+  "schema":"tm-fgo-generation-report-v1",
+  "packetId":"pkt-fgo-eor-agartha-extract",
+  "chapterId":"fgo-eor-agartha",
+  "model":"lt-yuyu/gpt-5.5",
+  "generatedAt":"2026-07-12",
+  "status":"generated",
+  "sourceType":"user-file-worldbook-script",
+  "credibility":"B",
+  "canonStatus":"canon-like",
+  "sourceRefs":[{"path":"sources/worldbook-script/eor/ch-090-agartha.txt","lineStart":1,"lineEnd":108}],
+  "summary":"Generated extracted and normalized Agartha packet outputs from line-addressable source text after source text gate passed.",
+  "counts":{"events":17,"dialogueQuotes":32,"stageCharacters":13,"appearanceSignals":9,"abilitySignals":10,"combatEffectSignals":12,"notFoundMarkers":5},
+  "coverage":{"worldState":true,"stageCharacters":true,"eventsAThroughQ":true,"dialogueRefsForAllQuotes":true,"appearanceLayer":true,"abilityLayer":true,"combatEffectLayer":true,"notFoundRecords":true,"normalizedOutputs":true}
+}

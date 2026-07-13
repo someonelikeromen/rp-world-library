@@ -1,0 +1,41 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "riveria-ljos-alf",
+  "volume": "vol-02",
+  "time_range": { "start": "第三章", "end": "第三章" },
+  "sub_arcs": ["udaeus-solo", "bell-lap-pillow"],
+  "periods": [{
+    "period_id": "vol-02-ch03",
+    "volume": "vol-02",
+    "time": "第三章「魔法是召唤膝枕的魔法」",
+    "label": "支持艾丝挑战并安排她向贝尔赎罪",
+    "name": { "zh": "里维莉雅·利欧斯·阿尔弗", "en": "Riveria Ljos Alf", "jp": "リヴェリア・リヨス・アールヴ" },
+    "aliases": ["里维莉雅"],
+    "titles": [],
+    "gender": "女",
+    "species": "精灵",
+    "nationality": "",
+    "occupation": "第一级冒险者、魔导士",
+    "affiliation": "洛基眷族",
+    "status": { "role": "艾丝的监护者与支援者" },
+    "appearance": { "overview": "散发超然风采的精灵女性。", "physical": { "height": "", "build": "", "hair": {}, "eyes": {} }, "attire": { "default": "", "combat": "深层探索装备" }, "voice_quality": { "tone": "威严冷静" }, "distinctive": [] },
+    "personality": { "summary": "理性、威严且像母亲般照顾艾丝，既尊重她的意志也善于安排人际补偿。", "core_traits": ["理性", "慈爱", "威严", "可靠"], "values": ["同伴安全", "尊重艾丝意愿", "礼仪与赎罪"], "fears": ["艾丝独留深层发生危险"], "desires": ["让艾丝安全成长并解开心结"], "strengths": ["顶级魔法与回复能力", "深层支援", "敏锐判断"], "flaws": ["会出于宠爱纵容艾丝"], "inner_conflict": "知道单挑危险，却理解艾丝很少提出任性要求。", "decision_pattern": { "ais_request": "主动留下支援以换取团长许可", "social_repair": "设计简单而有效的行动补偿" } },
+    "voice": { "self_reference": "我", "address_pattern": { "ais": "艾丝" }, "register": { "default": "成熟威严" }, "catchphrases": [], "quote_samples": [] },
+    "habits": { "mannerisms": ["无奈时叹气", "像家长般观察艾丝"], "daily_routine": "指挥并支援洛基眷族深层探索。", "quirks": [], "preferences": {} },
+    "background": { "birth": { "place": "", "family": [] }, "upbringing": "", "education": {}, "formative_events": [], "pre_story": "长期承担艾丝监护者角色。" },
+    "abilities_owned": ["高级攻击魔法", "回复魔法", "深层探索"],
+    "possessions_owned": [],
+    "relationships": { "ais-wallenstein": "像女儿般照顾的同伴", "finn-deimne": "共同领导眷族的团长", "bell-cranel": "因酒馆事件怀有歉意，并安排艾丝照顾他" },
+    "knowledge": ["贝尔因火焰闪电滥用而精神枯竭", "艾丝对贝尔的歉意"],
+    "secrets": [],
+    "summary": "里维莉雅为艾丝的单挑计划作担保并留在第三十七层支援。返程时她诊断贝尔精神枯竭，建议艾丝以膝枕作为赎罪方式，随后主动离开让两人独处。",
+    "key_events": [
+      { "event_id": "ais-defeats-udaeus-and-levels-up", "summary": "留下支援艾丝单挑乌代俄斯。", "sourceRef": "danmachi-main/vol-02/full.txt:3500-3800" },
+      { "event_id": "ais-gives-bell-lap-pillow", "summary": "诊断贝尔并安排艾丝以膝枕赎罪。", "sourceRef": "danmachi-main/vol-02/full.txt:5430-5534" }
+    ],
+    "evidence_level": "S",
+    "source_refs": ["danmachi-main/vol-02/full.txt:3500-3800", "danmachi-main/vol-02/full.txt:5430-5534"]
+  }],
+  "source_refs": ["danmachi-main/vol-02/full.txt:3500-3800", "danmachi-main/vol-02/full.txt:5430-5534"]
+}

@@ -1,0 +1,11 @@
+{
+  "schema":"tm-fgo-lb6-final-known-issues-v1",
+  "project":"fgo-lb6-pilot",
+  "generatedAt":"2026-07-13",
+  "generatedByStep":"merge-lb6",
+  "status":"passed-no-open-known-issues",
+  "openIssues":0,
+  "blockedIssues":0,
+  "knownRisks":["JSON was authored manually without executable parser validation because shell/code execution tools were prohibited.","Final read-only audit was explicitly not run in this merge run.","Appearance, ability, and combat merged record-set files reference extracted source-first record sets for full per-record text."],
+  "sourceRefs":["merged/index.json","audit/packet-audits/lostbelt/lb6-1-avalon-pre/final-status.json","audit/packet-audits/lostbelt/lb6-2-round-table-post/final-status.json"],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"
+}

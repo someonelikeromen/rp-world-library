@@ -1,0 +1,50 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "typhon-dragon-bite-chain",
+  "volume": "vol-08",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-08/full.txt:3310"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-08-main",
+      "volume": "vol-08",
+      "time": "圣都防卫战",
+      "name": {
+        "zh": "龙咬缚锁",
+        "en": "Dragon Bite Chain"
+      },
+      "aliases": [
+        "《堤丰》缚锁"
+      ],
+      "type": "technology / combat",
+      "description": "《堤丰》从装甲各部位射出的缚锁武器，菲尔菲用它将狄厄魔罗拖至地面并牵制。",
+      "details": {
+        "user": "philuffy-aingram",
+        "drag_ride": "typhon"
+      },
+      "activation": {
+        "condition": "陆战型神装机龙展开缚锁",
+        "incantation": "龙咬缚锁",
+        "time": "即时",
+        "cost": "射程有限"
+      },
+      "effects": [
+        "捕缚敌人",
+        "拖拽空中目标",
+        "限制行动"
+      ],
+      "known_feats": [
+        "将狄厄魔罗拖下保护教国机龙使"
+      ],
+      "shared_by": [
+        "philuffy-aingram"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-08/full.txt:3310"
+      ]
+    }
+  ]
+}

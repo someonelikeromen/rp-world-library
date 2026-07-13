@@ -10,6 +10,9 @@
 - `tavern2agent/`、`AIRP_ClaudeCode/`、`pi-stage/`、`AIRP-MCP-Server/`、`output-phrasing-engineering/` 是备用参考仓库，不作为本项目每轮 RP 的常驻上下文。
 - **双版本架构**：`E:/pi-st` 是测试/开发版，`E:/pi-rp` 是发布版（正式 RP 在此运行）。测试通过后运行 `bash tools/sync-release.sh` 同步，详见 `RELEASE.md`。
 
+- **多世界长期经历框架**：本项目默认面向多世界长期 RP，不是单世界短篇。主角经历过的所有世界、进入/离开方式、能量体系接触、关键事件、跨世界关系、长期后果都必须持续记录。
+- **多世界战斗框架是核心基础设施**：`rp-combat/framework` 与统一角色卡的 `combat/world-adaptation.json` 不只是战斗附属模块；能力、资源、抗性、世界适配、奖励、成就与跨世界结算都必须通过该框架落盘。
+- **经历链双写规则**：涉及进入世界、离开世界、回访世界、世界规则适配、获得跨世界能力/奖励、能量体系接触时，必须同时更新 `memory/` 的经历记录与角色卡 `worldAdaptation`/相关模块。不可只写当前剧情摘要。
 ## 核心工具（AI 可直接调用）
 
 ### card_edit — 统一角色卡读写
@@ -67,7 +70,7 @@
 - `knowledge/`：世界观、人物关系、地点、事件资料（按需读取）。
 - `novel/`：小说原文或文风参考长文本。
 - `style/`：文风文件、禁用词、叙事偏好。
-- `memory/`：长期记忆、剧情进度、玩家状态、关系变化；新开局前应为空或仅保留非剧情偏好。
+- `memory/`：长期记忆、剧情进度、玩家状态、关系变化、所有经历世界与跨世界长期后果；新开局前应为空或仅保留非剧情偏好/模板说明。
 - `backup/`：原始素材备份（含 `backup/skill-legacy/`——已迁移的旧 skill 参考）。
 
 ### 已移除
@@ -82,6 +85,10 @@
 | `rp-combat` | 发生战斗/冲突对抗 |
 | `rp-dice` | 需要随机判定、掷骰、检定 |
 | `png-card-extractor` | 遇到 SillyTavern PNG/WEBP 角色卡 |
+| `world-archive-extraction` | 从小说原文提取结构化世界数据（p1-scan 管线） |
+| `rp-curation` | 从 ST worldbook JSON 整理 curated 结构化产物 |
+| `rp-source-ingestion` | 即席摄入外部来源（网页/文件/用户修正） |
+| `rp-exchange` | 用户启用兑换系统、查看兑换面板、消耗奖励点兑换完整能力/血统/物品/知识/契约 |
 
 ## 指令
 
@@ -90,6 +97,10 @@
 - 用户说"切换文风: ..."：读取并应用 `style/` 中对应文风。
 - 用户说"掷骰""骰子"或表达随机判定意图：激活 `rp-dice` skill。
 - 用户说"整理素材"：将根目录素材分类到 `card/`、`knowledge/`、`novel/`、`style/`，原件按需放入 `backup/`。
+- 用户说"归档 XX 世界"/"提取 XX 数据"/"p1-scan XX"：激活 `world-archive-extraction` skill，走 Wave 提取→树状合并→图谱构建→归档部署四阶段管线。
+- 用户说"整理 XX 世界书"/"curate XX"：激活 `rp-curation` skill，走分类→writer→图谱→整合→校验→修复的 7 步流水线。
+- 用户说"记录来源"/"摄入 XX 设定"：激活 `rp-source-ingestion` skill。
+- 用户说"启用兑换系统"、"查看兑换面板"、"兑换 XX"：激活 `rp-exchange` skill；按多世界战斗框架定级，只按层级定价；非归档来源必须至少双来源验证；兑换后同步 `progression/exchange.json`、对应角色卡模块与 `memory/world-history.md`。
 
 ## 当前偏好
 
@@ -98,7 +109,11 @@
 - 如果角色卡包含复杂 MVU、变量、状态栏、世界书触发等机制，再参考 `tavern2agent/` 进行迁移设计。
 - 如果需要 pi 扩展式上下文装配/状态管理，再评估 `pi-stage/`。
 - 如果需要 MCP 数据服务器管理角色卡、世界书、会话、记忆，再评估 `AIRP-MCP-Server/`。
-- 后续继续归档/审计世界观时，优先遵循 `docs/world-archive-playbook.md`：先保留原始来源，source-backed 补全，`count=0` 删除/修正，图谱与索引闭环验证后再同步 release。
+- 世界观归档按以下**优先级决策树**选择方案：
+  1. **有 `sources/raw-text/` 小说原文** → 优先走 `world-archive-extraction`（p1-scan 管线：Worker→Auditor→Fixer 闭环，树状合并，图谱构建，归档部署）
+  2. **只有 ST worldbook JSON（无原文）** → 走 `rp-curation`（分类→并行 writer→图谱→整合→校验→修复迭代）
+  3. **临时补充单一来源** → 走 `rp-source-ingestion`（标注可信度，冲突记录不覆盖）
+  - `docs/world-archive-playbook.md` 是经验沉淀手册（source-backed、count=0、常见错误等），不是执行流程；执行流程以 skill 为准。
 - `backup/yokenken-editor.SKILL.md` 和 `4.28叶啃啃skill/` 是中文写作/编辑风格备用资料，不默认加载。
 
 
@@ -118,3 +133,29 @@
 - `data/rp-achievements/`：成就系统世界池、即时奖励候选示例与 schema。
 
 - 成就系统：奖励候选即时生成；奖励内容与成就内容无关；不维护基础奖励池。
+
+
+### exchange_edit — 兑换系统状态工具
+
+| Action | 用途 |
+|--------|------|
+| `init` | 初始化/规范化目录型角色卡的 `progression/exchange.json` |
+| `status` | 显示兑换面板允许显示的余额、可见兑换项、待兑换、已兑换和来源验证摘要 |
+| `evaluate` | 检查兑换项是否包含多世界评价框架估价记录 |
+| `price` | 已知 N 层级时查奖励点价格表 |
+| `grant-points` | 因重大事件发放奖励点 |
+| `normalize-points` | 按 1000:1 进位整理余额 |
+| `validate-entry` / `quote` | 校验兑换项、检查估价记录并报价 |
+| `add-entry` / `pending` / `complete` | 加入可兑换项、创建待兑换、完成兑换扣款记账 |
+| `record-source` / `validate` | 记录双来源验证、校验兑换状态 |
+
+**定价规则**：必须先依据多世界战斗/评价框架估出兑换项自身 N0–N24 层级，再只按层级价格表定价；`price` 只做查表，`quote` 必须检查估价记录。工具只维护兑换账本，具体能力/资源/物品/知识/关系仍需用 `card_edit` 写入对应模块。
+### 兑换系统状态规则
+
+- `progression/exchange.json`：记录兑换系统启用状态、奖励点余额、可见兑换项、待兑换、已兑换、交易和来源验证。
+- 兑换点命名为 `1级奖励点`、`2级奖励点`、`3级奖励点`……默认 1000:1 进位。
+- 高强度兑换仅通过价格区分；价格只由兑换项自身 N0–N24 层级决定，不受主角、当前世界、稀有度、适配度影响。
+- 支持：体质/血统、能量基盘、基于基盘的能力、不基于基盘的肉身/灵魂/技艺流派传承、物品道具、非情报类知识、使魔/指定人物召唤/队友契约。
+- 禁止：系统类兑换、情报兑换、碎片、残缺版、试用版、弱化版、单招拆分。
+- 非归档世界兑换必须联网或外部检索至少双来源验证；来源不足或冲突时不可兑换。
+- 若与成就系统联动，成就系统随机奖励流程关闭，成就直接转为奖励点。

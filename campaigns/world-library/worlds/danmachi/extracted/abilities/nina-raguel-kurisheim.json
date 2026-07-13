@@ -1,0 +1,57 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "danmachi",
+  "ability_id": "nina-raguel-kurisheim",
+  "volume": "vol-25",
+  "source_refs": [
+    "danmachi-main/vol-25/chapters/ch-006-第五章-我的梦想.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-25-nina-raguel-kurisheim",
+      "volume": "vol-25",
+      "time": "第五章 我的梦想",
+      "name": {
+        "zh": "拉格列尔·库利斯海姆",
+        "en": "Raguel Kurisheim"
+      },
+      "type": "magic",
+      "owner": "nina-tulle",
+      "summary": "妮娜的净化结界魔法，咒文以风、花、白都和阿尔弗之名构成。发动后形成纯白花瓣般的中型『精灵圣域』，可净化中毒、麻痹、诅咒、精神攻击等异常状态，并附带持续治愈。第25层蓝龙战中，妮娜用此魔法冲入极光吐息的光蚀范围，化解蓝龙吐息的多重异常状态并保护贝尔。",
+      "mechanics": {
+        "range": "中型结界",
+        "effects": [
+          "净化异常状态",
+          "解除诅咒/精神攻击类影响",
+          "持续治愈领域内对象"
+        ],
+        "limitations": "不能抵挡直接伤害或物理/魔法攻击本身；高强度异常吐息会持续压迫结界与施术者精神力。"
+      },
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-25/chapters/ch-006-第五章-我的梦想.txt"
+      ]
+    },
+    {
+      "period_id": "vol-27-nina-raguel-kurisheim",
+      "volume": "vol-27",
+      "time": "第三章至第四章",
+      "name": {
+        "zh": "拉格列尔·库利斯海姆",
+        "en": "Raguel Kurisheim"
+      },
+      "type": "purification_barrier_magic",
+      "owner": "nina-tulle",
+      "summary": "妮娜施展的白花领域式净化魔法，能净化黑色荒野瘴气并保护周围人员。毒天百足龙释放污染瘴气时，妮娜以此抵挡龙鳞毒素，保护正在蓄力的贝尔。",
+      "mechanics": {
+        "effect": "展开净化圣域，阻隔瘴气与毒素",
+        "limitations": "面对龙族污染瘴气时消耗巨大，妮娜必须跪地维持"
+      },
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-27/chapters/ch-004-第三章-世界、庆典、真相.txt",
+        "danmachi-main/vol-27/chapters/ch-005-第四章-骑士残光.txt"
+      ]
+    }
+  ]
+}

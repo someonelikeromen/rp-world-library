@@ -1,0 +1,43 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "rakudai-kishi",
+  "character_id": "yuri-oreki",
+  "volume": "vol-01",
+  "time_range": { "start": "vol-01 chapter 2", "end": "vol-01 chapter 5" },
+  "sub_arcs": ["homeroom-teacher", "selection-battle-commentator"],
+  "periods": [
+    {
+      "period_id": "vol-01",
+      "volume": "vol-01",
+      "time": "Opening week at Hagun",
+      "label": "体弱多病的一年一班导师",
+      "name": { "zh": "折木有里", "en": "Yuri Oreki", "jp": "折木有里" },
+      "aliases": ["小有里"],
+      "titles": ["破军学园一年一班级任导师"],
+      "gender": "female",
+      "species": "human",
+      "nationality": "Japan",
+      "occupation": "teacher",
+      "affiliation": "Hagun Academy",
+      "status": { "health": "extremely frail; frequently coughs blood" },
+      "appearance": { "overview": "Young female teacher with cheerful presentation despite severe frailty.", "physical": { "height": "adult", "build": "frail", "hair": {}, "eyes": {} }, "attire": { "default": "teacher attire", "combat": "not applicable" }, "voice_quality": { "tone": "bright, cutesy, then weak when coughing" }, "distinctive": ["vomits blood when overexcited", "asks students to call her 小有里"] },
+      "personality": { "summary": "Kind and enthusiastic to the point of exhausting herself for students.", "core_traits": ["gentle", "earnest", "overenthusiastic", "self-sacrificing"], "values": ["encouraging students", "fair opportunities", "making class welcoming"], "fears": [], "desires": ["support her first homeroom class", "see students attempt the selection battles"], "strengths": ["student support", "explaining battle mechanics"], "flaws": ["ignores her health", "overdoes forced cheerfulness"], "inner_conflict": "Wants to cheer students up despite a body that cannot keep up.", "decision_pattern": {} },
+      "voice": { "self_reference": "老师", "address_pattern": {}, "register": { "default": "cute teacher speech" }, "catchphrases": ["加油加油"], "quote_samples": ["老师希望各位尽可能地参加，并且尝试朝着这个目标前进。"] },
+      "habits": { "mannerisms": ["fires party poppers", "coughs blood", "uses injections to recover"], "daily_routine": "Teaches homeroom and sometimes commentates matches.", "quirks": ["claims daily blood vomiting is normal"], "preferences": {} },
+      "background": { "birth": { "place": "not stated", "family": [] }, "upbringing": "Not stated.", "education": {}, "formative_events": ["Served as examiner for Ikki's entrance evaluation"], "pre_story": "Recognized Ikki's qualities enough for him to enter Hagun." },
+      "abilities_owned": [],
+      "possessions_owned": [],
+      "relationships": { "ikki-kurogane": "Former entrance examiner and current homeroom teacher; he respects her kindness.", "year-1-class-1": "Her first full homeroom class." },
+      "knowledge": ["selection battle rules", "Blazer mechanics such as ultra-pure water insulation"],
+      "secrets": [],
+      "summary": "Yuri introduces herself as class 1's homeroom teacher, explains the new real-combat selection battle system, encourages everyone to participate, and collapses from overexcitement. Later she commentates Shizuku's battle and explains ultra-pure water while again coughing blood.",
+      "key_events": [
+        { "event_id": "opening-homeroom-selection-rules", "summary": "Explains that all students may enter real selection battles for Seven Stars representation.", "sourceRef": "ch-003" },
+        { "event_id": "shizuku-first-selection-battle", "summary": "Explains Shizuku's ultra-pure water defense during commentary.", "sourceRef": "ch-005" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["rakudai-kishi-main/vol-01/ch-003", "rakudai-kishi-main/vol-01/ch-005"]
+    }
+  ],
+  "source_refs": ["rakudai-kishi-main/vol-01"]
+}

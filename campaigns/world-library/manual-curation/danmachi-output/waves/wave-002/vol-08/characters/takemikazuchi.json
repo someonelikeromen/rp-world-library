@@ -1,0 +1,37 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "takemikazuchi",
+  "volume": "vol-08",
+  "time_range": { "start": "第一章", "end": "第一章" },
+  "sub_arcs": ["献给某武神的恋歌"],
+  "periods": [
+    {
+      "period_id": "vol-08-ch-01",
+      "volume": "vol-08",
+      "time": "第一章 献给某武神的恋歌",
+      "label": "迟钝武神与饯别赠剑",
+      "name": { "zh": "建御雷", "en": "Takemikazuchi", "jp": "タケミカヅチ" },
+      "titles": ["武神", "建御雷眷族主神"],
+      "gender": "男",
+      "species": "神",
+      "nationality": "远东",
+      "occupation": "眷族主神、武术师父",
+      "affiliation": "建御雷眷族",
+      "status": { "location": "欧拉丽", "state": "为命准备饯别会并保管雄剑天华" },
+      "appearance": { "overview": "黑发在两耳边绑成发髻的男神。" },
+      "personality": { "summary": "温厚、重情、乐于照顾人，但对女性情意极度迟钝。", "core_traits": ["父性", "正直", "天然", "迟钝"], "values": ["眷族即家人", "互助", "武艺锻炼"], "flaws": ["无自觉撩人", "不懂命的嫉妒"], "decision_pattern": { "family": "用行动与礼物表达支持，却常错过恋爱暗示" } },
+      "possessions_owned": ["天华"],
+      "relationships": { "mikoto-yamato": "视作女儿与永远的家人；等待其归来", "chigusa-hitachi": "眷属", "ouka-kashima": "眷属", "haruhime-sanjouno": "受其照顾的远东少女", "miach": "贫穷同盟友人" },
+      "summary": "建御雷在命幼年时收她为女儿，本章仍确认她永远是家人；他因对女性过度亲密而被命用蛋糕砸倒，却最终以饯别会与雌雄双剑回应她。",
+      "key_events": [
+        { "event_id": "takemikazuchi-reassures-mikoto-remains-family", "summary": "拒收命的汇款并告诉她永远是家人。", "sourceRef": "danmachi-main/vol-08/full.txt:861" },
+        { "event_id": "mikoto-cakes-takemikazuchi-after-jealousy", "summary": "因天然撩人被命蛋糕砸脸。", "sourceRef": "danmachi-main/vol-08/full.txt:1152" },
+        { "event_id": "mikoto-farewell-party-and-chizan-gift", "summary": "赠予命雌剑地残并保管雄剑天华。", "sourceRef": "danmachi-main/vol-08/full.txt:1563" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-08/full.txt:383", "danmachi-main/vol-08/full.txt:861", "danmachi-main/vol-08/full.txt:1563"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-08/full.txt:341-1684"]
+}

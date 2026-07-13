@@ -1,0 +1,35 @@
+{
+  "schema": "tm-fgo-normalized-chapter-index-v1",
+  "chapterId": "fgo-lb3-renzhi-tonghe-zhenguo",
+  "slug": "lb3-renzhi-tonghe-zhenguo",
+  "titleRaw": "Lostbelt No.3 人智统合真国 琴（红之月下美人）",
+  "sourceUnitId": "src-fgo-lb3-renzhi-tonghe-zhenguo",
+  "sourceTextPath": "campaigns/world-library/manual-curation/type-moon-p1-hybrid/fgo-lb3-lb4-pilot/sources/worldbook-script/lostbelt/ch-095-lb3-renzhi-tonghe-zhenguo.txt",
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like",
+  "normalizedArtifacts": [
+    "normalized/lostbelt/lb3-renzhi-tonghe-zhenguo/index.json",
+    "normalized/lostbelt/lb3-renzhi-tonghe-zhenguo/event-records.json",
+    "normalized/lostbelt/lb3-renzhi-tonghe-zhenguo/layer-coverage.json"
+  ],
+  "extractedArtifactsUsed": [
+    "extracted/lostbelt/lb3-renzhi-tonghe-zhenguo/world-state.json",
+    "extracted/lostbelt/lb3-renzhi-tonghe-zhenguo/stage-characters/index.json",
+    "extracted/lostbelt/lb3-renzhi-tonghe-zhenguo/events/event-A0.json through event-T.json",
+    "extracted/lostbelt/lb3-renzhi-tonghe-zhenguo/dialogue/dialogue-index.json",
+    "extracted/lostbelt/lb3-renzhi-tonghe-zhenguo/appearance-signals/appearance-index.json",
+    "extracted/lostbelt/lb3-renzhi-tonghe-zhenguo/ability-signals/ability-index.json",
+    "extracted/lostbelt/lb3-renzhi-tonghe-zhenguo/combat-effect-signals/combat-effect-index.json",
+    "extracted/lostbelt/lb3-renzhi-tonghe-zhenguo/not-found-in-source/mandatory-layer-gaps.json",
+    "extracted/lostbelt/lb3-renzhi-tonghe-zhenguo/mentions/mention-index.json",
+    "extracted/lostbelt/lb3-renzhi-tonghe-zhenguo/candidates/candidate-index.json"
+  ],
+  "formalAggregateBanObserved": true,
+  "forbiddenAggregateFilesNotCreated": true,
+  "sourceRefs": ["campaigns/world-library/manual-curation/type-moon-p1-hybrid/fgo-lb3-lb4-pilot/sources/worldbook-script/lostbelt/ch-095-lb3-renzhi-tonghe-zhenguo.txt:1-101"],
+  "notes": [
+    "Normalization is local packet normalization only; no merge, graph, timeline, final acceptance, or publication performed.",
+    "All formal records preserve raw Chinese source labels; unsupported external labels are candidate-only."
+  ]
+}

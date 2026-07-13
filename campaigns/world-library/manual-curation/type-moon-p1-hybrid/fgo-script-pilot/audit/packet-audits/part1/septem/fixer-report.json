@@ -1,0 +1,8 @@
+{
+  "schema": "tm-fgo-packet-fixer-report-v1",
+  "packetId": "pkt-fgo-part1-septem-extract",
+  "model": "lt-yuyu/gpt-5.5",
+  "status": "fixed",
+  "fixes": ["Created Septem extracted world-state and event shards for A-P.", "Created Septem normalized character fragments and relationship edge files.", "Created packet audit artifacts under audit/packet-audits/part1/septem/."],
+  "sourceRefs": ["sources/worldbook-script/part1/ch-002-septem.txt#world_timeline"]
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "tm-fgo-combat-effect-fragment-set-v1",
+  "chapterKey": "septem",
+  "chapterId": "fgo-part1-septem",
+  "records": [
+    {
+      "schema": "tm-fgo-combat-effect-fragment-v1",
+      "recordId": "septem-combat-rome-sacrifice-attila-summon",
+      "chapterId": "fgo-part1-septem",
+      "eventId": "fgo-part1-septem-event-o",
+      "actor": "雷夫·莱诺尔[佛劳洛斯]",
+      "effectType": "summoning",
+      "description": "雷夫以罗马为祭品召唤阿蒂拉。",
+      "visualEffect": "not-found-in-source",
+      "result": "阿蒂拉现世、斩断雷夫、吸收圣杯，并释放毁城级宝具。",
+      "affectedTargets": ["阿蒂拉", "罗马", "雷夫·莱诺尔[佛劳洛斯]", "迦勒底一行"],
+      "status": "source-backed",
+      "notFoundReason": "No visual summoning detail stated.",
+      "sourceRefs": ["sources/worldbook-script/part1/ch-002-septem.txt#event-O"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "schema": "tm-fgo-combat-effect-fragment-v1",
+      "recordId": "septem-combat-mash-intercepts-god-whip",
+      "chapterId": "fgo-part1-septem",
+      "eventId": "fgo-part1-septem-event-o",
+      "actor": "mash-kyrielight",
+      "effectType": "defense",
+      "description": "玛修千钧一发展开宝具迎击阿蒂拉的毁城级释放。",
+      "visualEffect": "not-found-in-source",
+      "result": "即刻毁灭被挡下，队伍得以继续追击。",
+      "affectedTargets": ["玛修·基列莱特", "迦勒底一行"],
+      "status": "source-backed",
+      "notFoundReason": "The source does not describe the shield's visual effect.",
+      "sourceRefs": ["sources/worldbook-script/part1/ch-002-septem.txt#event-O"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    }
+  ]
+}

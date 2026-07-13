@@ -1,0 +1,34 @@
+{
+  "_schema":"rp-volume-index-v1",
+  "world":"rakudai-kishi",
+  "series":"rakudai-kishi-main",
+  "volume":"vol-06",
+  "volume_title":"落第骑士英雄谭 / Rakudai Kishi no Cavalry - Vol.06 (source labels 第五卷)",
+  "source_chapters":[
+    {"chapterIndex":1,"title":"序章 祭典的乐声","sourceRef":"rakudai-kishi-main/vol-06/chapters/ch-001-序章-祭典的乐声.txt"},
+    {"chapterIndex":2,"title":"第一章 全国的劲敌们","sourceRef":"rakudai-kishi-main/vol-06/chapters/ch-002-第一章-全国的劲敌们.txt"},
+    {"chapterIndex":3,"title":"第二章 浪速之星","sourceRef":"rakudai-kishi-main/vol-06/chapters/ch-003-第二章-浪速之星.txt"},
+    {"chapterIndex":4,"title":"第三章 七星剑武祭·开幕","sourceRef":"rakudai-kishi-main/vol-06/chapters/ch-004-第三章-七星剑武祭·开幕.txt"},
+    {"chapterIndex":5,"title":"第四章 决战·〈无冕剑王〉VS〈七星剑王〉","sourceRef":"rakudai-kishi-main/vol-06/chapters/ch-005-第四章-决战·〈无冕剑王〉VS〈七星剑王〉.txt"},
+    {"chapterIndex":6,"title":"终章 好戏登场","sourceRef":"rakudai-kishi-main/vol-06/chapters/ch-006-终章-好戏登场.txt"},
+    {"chapterIndex":7,"title":"后记","sourceRef":"rakudai-kishi-main/vol-06/chapters/ch-007-后记.txt"}
+  ],
+  "entity_counts":{"characters":27,"events":11,"abilities":0,"items":0,"locations":0,"factions":0,"systems":0,"knowledge":0},
+  "entities":{
+    "characters":["ikki-kurogane","stella-vermillion","shizuku-kurogane","nagi-arisuin","yudai-moroboshi","koume-moroboshi","kiriko-yakushi","ouma-kurogane","bakuya-tsukikage","shinguji-kurono","sara-bloodlily","rinna-kazamatsuri","charlotte-corday","yui-tatara","reisen-hiraga","mikoto-tsuruya","byakuya-jounosaki","momiji-asagi","renji-kaga","kuraudo-kurashiki","toka-todo","kanata-tokutomiya","utakata-misogi","kagami-kusakabe","yasutsune-yagokoro","yuzo-kaieda","muroto"],
+    "events":["tsukikage-akatsuki-public-crisis","hagun-arrives-at-osaka-banquet","banquet-akatsuki-provocations","kurono-confronts-tsukikage","moroboshi-invites-ikki-to-ittousei","yakushi-reveals-moroboshi-backstory","ouma-confronts-ikki-before-tournament","seven-stars-opening-and-stella-delay","ikki-vs-moroboshi-first-round","koume-cheers-moroboshi","stella-arrives-and-demands-four-on-one-match"],
+    "abilities":[],"items":[],"locations":[],"factions":[],"systems":[],"knowledge":[]
+  },
+  "summary":"Manual extraction for rakudai-kishi-main vol-06. The volume opens with Prime Minister Bakuya Tsukikage's National Akatsuki Academy declaration splitting public opinion and making Seven Stars a referendum on Japan's relationship with the International Mage-Knight League. In Osaka, Ikki, Shizuku and Alice attend the pre-tournament banquet, where Akatsuki members openly provoke competitors: Sara fixates on Ikki as a model, Yui Tatara attempts to poison Shizuku, and national rivals such as Moroboshi, Kaga, Kiriko and Kuraudo intervene. Kurono confronts Tsukikage and deduces that his real goal is to force Japan's complete break from the League. Moroboshi then invites Ikki's group to his family okonomiyaki restaurant, revealing his popularity as Osaka's hero and introducing his silent sister Koume and doctor Kiriko. Kiriko later explains Moroboshi's train-accident trauma, reconstructed legs, hellish rehabilitation, and his drive to help Koume forgive herself. On the eve of the tournament Ouma attacks Ikki, demanding he withdraw because he believes Ikki's methods hinder Stella; Moroboshi saves Ikki from Kusanagi, but Ikki discovers a mysterious freezing symptom. The Seven Stars tournament opens while Toka wakes in Hagun's hospital and watches the broadcast; Stella's match is postponed after a railway delay. Ikki's first-round battle against reigning champion Moroboshi becomes a layered duel of spear tactics, Tiger Bite, Ikki's post-Edelweiss movement awakening, Koume's recovered cheer, and Moroboshi's final thrown-spear trap. Ikki sees through Moroboshi, wins, and advances. The volume ends with Stella arriving, turning her delayed match into a self-imposed four-on-one fight against Mikoto Tsuruya and three Akatsuki B-block representatives so Akatsuki cannot escape battle unscathed.",
+  "notes":["Only character and event files were created per p1-scan instruction; ability/item/location/faction/system directories remain absent or empty.","Chapter 7 is author afterword; no in-world entities were extracted from it.","Source chapter text labels itself 第五卷 while path/task designate vol-06; output follows assigned volume path vol-06 and notes the label mismatch in volume_title.","Some minor broadcast/committee characters are included because they provide named in-world roles and tournament-rule or combat-analysis context."],
+  "source_refs":[
+    "campaigns/world-library/worlds/rakudai-kishi/sources/split-text/rakudai-kishi-main/vol-06/chapters.json",
+    "rakudai-kishi-main/vol-06/chapters/ch-001-序章-祭典的乐声.txt",
+    "rakudai-kishi-main/vol-06/chapters/ch-002-第一章-全国的劲敌们.txt",
+    "rakudai-kishi-main/vol-06/chapters/ch-003-第二章-浪速之星.txt",
+    "rakudai-kishi-main/vol-06/chapters/ch-004-第三章-七星剑武祭·开幕.txt",
+    "rakudai-kishi-main/vol-06/chapters/ch-005-第四章-决战·〈无冕剑王〉VS〈七星剑王〉.txt",
+    "rakudai-kishi-main/vol-06/chapters/ch-006-终章-好戏登场.txt",
+    "rakudai-kishi-main/vol-06/chapters/ch-007-后记.txt"
+  ]
+}

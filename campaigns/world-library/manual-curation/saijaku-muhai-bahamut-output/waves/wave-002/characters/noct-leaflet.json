@@ -1,0 +1,175 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "noct-leaflet",
+  "volume": "vol-06",
+  "time_range": {
+    "start": "vol-06",
+    "end": "vol-06"
+  },
+  "sub_arcs": [
+    "三和音支援",
+    "王都通信"
+  ],
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:360",
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:6000"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-06",
+      "volume": "vol-06",
+      "time": "全龙战期间",
+      "label": "三和音一年级与通信支援",
+      "name": {
+        "zh": "诺珂特·利弗雷特",
+        "en": "Noct Leaflet",
+        "jp": "ノクト・リーフレット"
+      },
+      "aliases": [
+        "诺珂特",
+        "三和音"
+      ],
+      "titles": [
+        "王立士官学园一年级",
+        "爱理室友"
+      ],
+      "gender": "female",
+      "species": "human",
+      "nationality": "亚提司玛特新王国",
+      "occupation": "学生；特装机龙使",
+      "affiliation": "王立士官学园 / 三和音",
+      "status": {
+        "role": "负责带路克斯见夜架并在后半战中承担龙声通信中继"
+      },
+      "appearance": {
+        "overview": "冷静无表情，常用Yes/No回答。"
+      },
+      "personality": {
+        "summary": "冷静、拘谨、逻辑性强；以特装机龙支援团队信息流。",
+        "core_traits": [
+          "冷静",
+          "效率",
+          "忠实执行"
+        ],
+        "inner_conflict": "想证明自己努力但未进入奖励前三。"
+      },
+      "abilities_owned": [
+        "special-drag-ride-communication",
+        "stealth-support"
+      ],
+      "possessions_owned": [
+        "noct-special-drag-ride"
+      ],
+      "relationships": {
+        "lux-arcadia": {
+          "type": "同学与支援者",
+          "status": "被爱理拜托带路克斯去见夜架，并作为通信节点转达作战"
+        },
+        "airi-arcadia": {
+          "type": "室友 / 朋友",
+          "status": "在危机中配合爱理通信"
+        },
+        "tillfur-lilmit": {
+          "type": "三和音伙伴",
+          "status": "共同支援"
+        },
+        "sharis-baltshift": {
+          "type": "三和音伙伴",
+          "status": "共同支援"
+        }
+      },
+      "knowledge": [
+        "operation-communication-network"
+      ],
+      "secrets": [],
+      "summary": "诺珂特在本卷是三和音的冷静执行者，早期带路克斯接触夜架，后期通过特装机龙协助爱理与各战场通信。",
+      "key_events": [
+        {
+          "event_id": "yoruka-first-meeting",
+          "summary": "受爱理委托带路克斯到中庭见夜架。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-06/full.txt:390"
+        },
+        {
+          "event_id": "operation-communication-network",
+          "summary": "在巨兵战时通过特装机龙维持爱理与各队员的龙声通讯。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-06/full.txt:6000"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:360",
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:2940",
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:6000"
+      ]
+    },
+    {
+      "period_id": "vol-08-main",
+      "volume": "vol-08",
+      "time": "学园留守与尾声",
+      "name": {
+        "zh": "诺珂特",
+        "en": "Noct Leaflet",
+        "jp": ""
+      },
+      "aliases": [
+        "三和音之一"
+      ],
+      "titles": [
+        "王立士官学园学生"
+      ],
+      "gender": "female",
+      "species": "human",
+      "nationality": "亚提司玛特新王国",
+      "occupation": "学生、机龙使",
+      "affiliation": "王立士官学园；三和音",
+      "status": {
+        "state": "alive",
+        "condition": "留守学园"
+      },
+      "appearance": {
+        "overview": "沉着寡言的少女。"
+      },
+      "personality": {
+        "summary": "冷静、理性，经常以'Yes/No'回应。",
+        "core_traits": [
+          "冷静",
+          "分析",
+          "忠告"
+        ]
+      },
+      "abilities_owned": [],
+      "possessions_owned": [],
+      "relationships": {
+        "airi-arcadia": {
+          "type": "室友/友人",
+          "summary": "与爱理同房并陪她寻找路克斯。"
+        },
+        "sharis-bartshift": {
+          "type": "三和音同伴",
+          "summary": "共同留守。"
+        },
+        "tillfur-lillimit": {
+          "type": "三和音同伴",
+          "summary": "共同留守。"
+        }
+      },
+      "knowledge": [
+        "giant-soldier-reactivation"
+      ],
+      "summary": "诺珂特在学园篇中陪同爱理与三和音寻找路克斯，尾声留守学园并参与接待外来七龙骑圣相关人员。",
+      "key_events": [
+        {
+          "event_id": "academy-guest-reception",
+          "summary": "尾声参与接待与讨论世界局势。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-08/full.txt:7930"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-08/full.txt:106",
+        "saijaku-muhai-bahamut-main/vol-08/full.txt:7930"
+      ]
+    }
+  ]
+}

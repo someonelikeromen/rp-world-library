@@ -1,0 +1,30 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "bahamut-resonance-wave",
+  "volume": "vol-15",
+  "periods": [
+    {
+      "period_id": "vol-15",
+      "volume": "vol-15",
+      "time": "Great Sanctuary control-room duel",
+      "name": { "zh": "共鸣波动", "en": "Resonance Wave" },
+      "aliases": ["巴哈姆特内藏型特殊武装"],
+      "type": "technology / combat / special-armament",
+      "description": "《巴哈姆特》的内藏型特殊武装，可对物体运动轨道施加微弱偏移。路克斯在与辛格伦决斗中用它偏离战阵防御与自身位置，制造破绽。",
+      "details": { "drag_ride": "bahamut", "user": "lux-arcadia", "tactical_role": "偏移接触点、扰乱敌人平衡" },
+      "activation": { "condition": "操纵巴哈姆特内藏特殊武装", "incantation": "《共鸣波动》", "time": "instant", "cost": "通常力场很弱，需要压缩强化或精确时机" },
+      "effects": ["轻微改变运动轨道", "使敌人战阵流转的接触点错位", "可推动自身机体紧急回避"],
+      "power_level": { "initial": "low but subtle", "peak": "high when compressed by Gluttony", "evolution": [] },
+      "known_feats": ["路克斯用它突破辛格伦的战阵流转", "经暴食压缩后扰乱《利维坦》平衡"],
+      "shared_by": ["lux-arcadia", "fugil-arcadia"],
+      "see_also": ["bahamut", "bahamut-gluttony", "battle-array"],
+      "countered_by": ["wide-area barrier adjustment"],
+      "counters": ["precise parry timing", "projectile trajectory"],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": ["saijaku-muhai-bahamut-main/vol-15/full.txt:5923", "saijaku-muhai-bahamut-main/vol-15/full.txt:6020", "saijaku-muhai-bahamut-main/vol-15/full.txt:8530"]
+    }
+  ],
+  "source_refs": ["saijaku-muhai-bahamut-main/vol-15/full.txt:5923"]
+}

@@ -1,0 +1,168 @@
+{
+  "_schema": "rp-volume-scan-index-v1",
+  "world": "danmachi",
+  "volume": "vol-03",
+  "wave": "wave-001",
+  "source": "danmachi-main/vol-03/full.txt",
+  "chapter_manifest": "campaigns/world-library/worlds/danmachi/sources/split-text/danmachi-main/vol-03/chapters.json",
+  "chapter_count": 12,
+  "character_count": 27,
+  "event_count": 21,
+  "characters": [
+    "characters/ais-wallenstein.json",
+    "characters/armed-minotaur.json",
+    "characters/bell-cranel.json",
+    "characters/bell-grandfather.json",
+    "characters/bete-loga.json",
+    "characters/demeter.json",
+    "characters/eina-tulle.json",
+    "characters/finn-deimne.json",
+    "characters/freya.json",
+    "characters/ganou.json",
+    "characters/hephaistos.json",
+    "characters/hestia.json",
+    "characters/liliruca-arde.json",
+    "characters/loki.json",
+    "characters/masked-catman-attacker.json",
+    "characters/masked-level-one-squad.json",
+    "characters/masked-prum-squad.json",
+    "characters/miach.json",
+    "characters/naaza-erisuis.json",
+    "characters/ottar.json",
+    "characters/riveria-ljos-alf.json",
+    "characters/ryuu-lion.json",
+    "characters/soma.json",
+    "characters/syr-flover.json",
+    "characters/tiona-hiryute.json",
+    "characters/tione-hiryute.json",
+    "characters/welf-crozzo.json"
+  ],
+  "events": [
+    "events/afterword-no-canonical-events.json",
+    "events/ais-admires-cursed-sword.json",
+    "events/ais-begins-combat-training-bell.json",
+    "events/ais-concludes-bell-training.json",
+    "events/ais-offers-to-train-bell.json",
+    "events/armed-minotaur-confronts-bell.json",
+    "events/armed-minotaur-escapes-ottar-crate.json",
+    "events/bell-completes-first-page.json",
+    "events/bell-defeats-armed-minotaur.json",
+    "events/bell-lili-resume-dungeon-teamwork.json",
+    "events/bell-makes-familia-remedy.json",
+    "events/eina-files-soma-familia-warning.json",
+    "events/finn-advises-ais-on-training-bell.json",
+    "events/freya-authorizes-ottar-to-test-bell.json",
+    "events/freya-night-ambush-tests-bell.json",
+    "events/hephaistos-cute-pose-interrupted.json",
+    "events/hestia-accepts-lili-as-bell-supporter.json",
+    "events/hestia-permits-final-ais-training.json",
+    "events/hestia-rps-knee-pillow-streak.json",
+    "events/ottar-trains-armed-minotaur-for-bell.json",
+    "events/ryuu-explains-level-up-and-adventure.json"
+  ],
+  "chapter_coverage": [
+    {
+      "chapterIndex": 1,
+      "title": "序章“Alea jacta est”",
+      "events": [
+        "freya-authorizes-ottar-to-test-bell"
+      ]
+    },
+    {
+      "chapterIndex": 2,
+      "title": "第一章「剑姬来袭」",
+      "events": [
+        "hestia-accepts-lili-as-bell-supporter",
+        "ais-offers-to-train-bell"
+      ]
+    },
+    {
+      "chapterIndex": 3,
+      "title": "第二章 牛兔特训",
+      "events": [
+        "ais-begins-combat-training-bell",
+        "ottar-trains-armed-minotaur-for-bell",
+        "bell-lili-resume-dungeon-teamwork"
+      ]
+    },
+    {
+      "chapterIndex": 4,
+      "title": "第三章 黑夜突袭",
+      "events": [
+        "hestia-permits-final-ais-training",
+        "freya-night-ambush-tests-bell"
+      ]
+    },
+    {
+      "chapterIndex": 5,
+      "title": "第四章 冒险的意义",
+      "events": [
+        "finn-advises-ais-on-training-bell",
+        "ryuu-explains-level-up-and-adventure",
+        "ais-concludes-bell-training",
+        "eina-files-soma-familia-warning",
+        "armed-minotaur-escapes-ottar-crate",
+        "armed-minotaur-confronts-bell"
+      ]
+    },
+    {
+      "chapterIndex": 6,
+      "title": "第五章 英雄愿望",
+      "events": [
+        "bell-defeats-armed-minotaur"
+      ]
+    },
+    {
+      "chapterIndex": 7,
+      "title": "终章「0页→1页」",
+      "events": [
+        "bell-completes-first-page"
+      ]
+    },
+    {
+      "chapterIndex": 8,
+      "title": "后记",
+      "events": [
+        "afterword-no-canonical-events"
+      ]
+    },
+    {
+      "chapterIndex": 10,
+      "title": "特典 眷族特效药",
+      "events": [
+        "bell-makes-familia-remedy"
+      ]
+    },
+    {
+      "chapterIndex": 11,
+      "title": "特典 神拳",
+      "events": [
+        "hestia-rps-knee-pillow-streak"
+      ]
+    },
+    {
+      "chapterIndex": 12,
+      "title": "特典 插曲・赫菲斯托丝",
+      "events": [
+        "hephaistos-cute-pose-interrupted"
+      ]
+    },
+    {
+      "chapterIndex": 13,
+      "title": "特典 剑·少女",
+      "events": [
+        "ais-admires-cursed-sword"
+      ]
+    }
+  ],
+  "excluded_artifacts": [
+    {
+      "path": "characters/armed-minotaur-patch.json",
+      "reason": "Applied temporary patch record; not a character entity."
+    }
+  ],
+  "source_refs": [
+    "danmachi-main/vol-03/full.txt:1",
+    "danmachi-main/vol-03/full.txt:8028"
+  ]
+}

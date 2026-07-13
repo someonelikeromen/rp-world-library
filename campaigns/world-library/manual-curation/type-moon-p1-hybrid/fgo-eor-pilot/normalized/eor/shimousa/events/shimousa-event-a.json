@@ -1,0 +1,26 @@
+{
+  "schema": "tm-fgo-normalized-event-v1",
+  "chapterId": "fgo-eor-shimousa",
+  "id": "shimousa-event-a",
+  "rawEventCode": "事件A",
+  "orderIndex": 1,
+  "title": "序／再会",
+  "timeRaw": "2017年10月14日",
+  "trigger": "剧情开局",
+  "completion": "主人公昏厥后在异世界与武藏重逢",
+  "dialogueRefs": [
+    "shimousa-dlg-001",
+    "shimousa-dlg-002"
+  ],
+  "sourceRefs": [
+    {
+      "sourceUnitId": "src-fgo-eor-shimousa",
+      "path": "sources/worldbook-script/eor/ch-091-shimousa.txt",
+      "lineStart": 40,
+      "lineEnd": 42
+    }
+  ],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

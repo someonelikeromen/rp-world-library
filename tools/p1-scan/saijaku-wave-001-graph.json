@@ -1,0 +1,69 @@
+{
+  "objective": "Extract structured entity data from saijaku-muhai-bahamut-main vol-01 to vol-05. Each volume step independently reads its split-text chapter files and writes period-based entity JSON files to its output directory.",
+  "library": {
+    "sources": ["package", "project"]
+  },
+  "authority": {
+    "allowFilesystemRead": true,
+    "allowMutationTools": true,
+    "allowProjectCode": true,
+    "allowShellTools": false,
+    "allowExtensionCode": false
+  },
+  "limits": {
+    "concurrency": 5,
+    "timeoutSecondsPerStep": 7200
+  },
+  "steps": [
+    {
+      "id": "extract-vol-01",
+      "agent": {
+        "ref": "project:p1-worker",
+        "model": "deepseek/deepseek-v4-flash"
+      },
+      "mutationScope": "saijaku-wave-001-output",
+      "cwd": "E:/pi-st",
+      "task": "Extract all entities from saijaku-muhai-bahamut-main vol-01.\n\nSERIES: saijaku-muhai-bahamut-main\nVOLUME: vol-01\nWORLD: saijaku-muhai-bahamut\nSPLIT_PATH: campaigns/world-library/worlds/saijaku-muhai-bahamut/sources/split-text/saijaku-muhai-bahamut-main/vol-01\nOUTPUT_DIR: campaigns/world-library/manual-curation/saijaku-muhai-bahamut-output/waves/wave-001/vol-01\nTEMPLATE_DIR: tools/p1-scan/_templates\n\nRead SPLIT_PATH/chapters.json for chapter list, then read each chapter txt. Read each template from TEMPLATE_DIR before writing. Write all entity files to OUTPUT_DIR/{type}/{id}.json. Also write OUTPUT_DIR/world.json with world-level summary and OUTPUT_DIR/index.json listing all entities.\n\nALWAYS read the templates before writing so you know the fields."
+    },
+    {
+      "id": "extract-vol-02",
+      "agent": {
+        "ref": "project:p1-worker",
+        "model": "deepseek/deepseek-v4-flash"
+      },
+      "mutationScope": "saijaku-wave-001-output",
+      "cwd": "E:/pi-st",
+      "task": "Extract all entities from saijaku-muhai-bahamut-main vol-02.\n\nSERIES: saijaku-muhai-bahamut-main\nVOLUME: vol-02\nWORLD: saijaku-muhai-bahamut\nSPLIT_PATH: campaigns/world-library/worlds/saijaku-muhai-bahamut/sources/split-text/saijaku-muhai-bahamut-main/vol-02\nOUTPUT_DIR: campaigns/world-library/manual-curation/saijaku-muhai-bahamut-output/waves/wave-001/vol-02\nTEMPLATE_DIR: tools/p1-scan/_templates\n\nRead SPLIT_PATH/chapters.json for chapter list, then read each chapter txt. Read each template from TEMPLATE_DIR before writing. Write all entity files to OUTPUT_DIR/{type}/{id}.json. Also write OUTPUT_DIR/world.json with world-level summary and OUTPUT_DIR/index.json listing all entities.\n\nALWAYS read the templates before writing so you know the fields."
+    },
+    {
+      "id": "extract-vol-03",
+      "agent": {
+        "ref": "project:p1-worker",
+        "model": "deepseek/deepseek-v4-flash"
+      },
+      "mutationScope": "saijaku-wave-001-output",
+      "cwd": "E:/pi-st",
+      "task": "Extract all entities from saijaku-muhai-bahamut-main vol-03.\n\nSERIES: saijaku-muhai-bahamut-main\nVOLUME: vol-03\nWORLD: saijaku-muhai-bahamut\nSPLIT_PATH: campaigns/world-library/worlds/saijaku-muhai-bahamut/sources/split-text/saijaku-muhai-bahamut-main/vol-03\nOUTPUT_DIR: campaigns/world-library/manual-curation/saijaku-muhai-bahamut-output/waves/wave-001/vol-03\nTEMPLATE_DIR: tools/p1-scan/_templates\n\nRead SPLIT_PATH/chapters.json for chapter list, then read each chapter txt. Read each template from TEMPLATE_DIR before writing. Write all entity files to OUTPUT_DIR/{type}/{id}.json. Also write OUTPUT_DIR/world.json with world-level summary and OUTPUT_DIR/index.json listing all entities.\n\nALWAYS read the templates before writing so you know the fields."
+    },
+    {
+      "id": "extract-vol-04",
+      "agent": {
+        "ref": "project:p1-worker",
+        "model": "deepseek/deepseek-v4-flash"
+      },
+      "mutationScope": "saijaku-wave-001-output",
+      "cwd": "E:/pi-st",
+      "task": "Extract all entities from saijaku-muhai-bahamut-main vol-04.\n\nSERIES: saijaku-muhai-bahamut-main\nVOLUME: vol-04\nWORLD: saijaku-muhai-bahamut\nSPLIT_PATH: campaigns/world-library/worlds/saijaku-muhai-bahamut/sources/split-text/saijaku-muhai-bahamut-main/vol-04\nOUTPUT_DIR: campaigns/world-library/manual-curation/saijaku-muhai-bahamut-output/waves/wave-001/vol-04\nTEMPLATE_DIR: tools/p1-scan/_templates\n\nRead SPLIT_PATH/chapters.json for chapter list, then read each chapter txt. Read each template from TEMPLATE_DIR before writing. Write all entity files to OUTPUT_DIR/{type}/{id}.json. Also write OUTPUT_DIR/world.json with world-level summary and OUTPUT_DIR/index.json listing all entities.\n\nALWAYS read the templates before writing so you know the fields."
+    },
+    {
+      "id": "extract-vol-05",
+      "agent": {
+        "ref": "project:p1-worker",
+        "model": "deepseek/deepseek-v4-flash"
+      },
+      "mutationScope": "saijaku-wave-001-output",
+      "cwd": "E:/pi-st",
+      "task": "Extract all entities from saijaku-muhai-bahamut-main vol-05.\n\nSERIES: saijaku-muhai-bahamut-main\nVOLUME: vol-05\nWORLD: saijaku-muhai-bahamut\nSPLIT_PATH: campaigns/world-library/worlds/saijaku-muhai-bahamut/sources/split-text/saijaku-muhai-bahamut-main/vol-05\nOUTPUT_DIR: campaigns/world-library/manual-curation/saijaku-muhai-bahamut-output/waves/wave-001/vol-05\nTEMPLATE_DIR: tools/p1-scan/_templates\n\nRead SPLIT_PATH/chapters.json for chapter list, then read each chapter txt. Read each template from TEMPLATE_DIR before writing. Write all entity files to OUTPUT_DIR/{type}/{id}.json. Also write OUTPUT_DIR/world.json with world-level summary and OUTPUT_DIR/index.json listing all entities.\n\nALWAYS read the templates before writing so you know the fields."
+    }
+  ]
+}

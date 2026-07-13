@@ -1,0 +1,35 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "rakudai-kishi",
+  "character_id": "abraham-carter-series",
+  "volume": "vol-21",
+  "time_range": { "start": "Stella's captivity in Eilands' Nikko lab", "end": "defeat of the lab's remaining Abraham units" },
+  "sub_arcs": ["stella-mind-control-surgery", "fourth-floor-abraham-battle"],
+  "periods": [
+    {
+      "period_id": "vol-21",
+      "volume": "vol-21",
+      "time": "Nikko laboratory operation",
+      "label": "超人系列作为大教授的失败品与守卫",
+      "name": { "zh": "亚伯拉罕·卡特系列", "en": "Abraham Carter Series", "jp": "アブラハム・カーター系列" },
+      "aliases": ["超人", "The Hero", "PSYON-derived Abraham units"],
+      "titles": ["暴君复制人", "大教授细胞魔法造物"],
+      "gender": "male-coded bodies",
+      "species": "magical organism / Tyrant clone series",
+      "affiliation": "Karl Eilands' laboratories; formerly US special ability forces",
+      "status": { "volume_role": "surgical tool and combat obstacle", "condition": "Nikko units defeated or destroyed" },
+      "personality": { "summary": "The Abraham units are powerful but lack true ego. They act mechanically, share information by telepathy and therefore cannot grow into true Desperados, which Eilands identifies as the Abraham Project's failure.", "core_traits": ["ego-less", "mechanical", "hive-like", "obedient"], "values": [], "flaws": ["lack individual will", "cannot become true Desperados", "predictable compared with self-driven knights"] },
+      "abilities_owned": ["Gospel", "Mind Control", "telepathy", "teleportation", "precognition", "psychokinesis", "pyrokinesis", "cryokinesis", "dual-kinesis steam explosion", "shared combat memory"],
+      "relationships": { "karl-eilands": "Creator and operator who regards them as failed but useful tools.", "stella-vermillion": "One unit performs deep brain interference to erase her personality.", "ouma-kurogane": "Fights him and Touka on the fourth floor; prior data from Ouma is shared among units.", "toka-todo": "Cuts one unit down with Raikiri using laboratory electricity.", "nagi-arisuin": "Injures him but is temporarily restrained by Shadow Bind." },
+      "summary": "Vol-21 clarifies the Abraham Project: Eilands created Abraham Carter clones using cell magic and Tyrant-derived power, but they lack ego and thus cannot grow into true Desperados. In the Nikko lab, one Abraham uses Gospel and Mind Control, aided by drugs and machinery, to rewrite Stella's memories and delete her personality. Five more units are activated as defenders. They ambush the rescue team with teleportation and psychic attacks, injuring Touka and Alice, but Ouma, Touka and Alice remain behind to contain them. Touka destroys one with Raikiri; the others are fought down while Ikki and Shizuku proceed to Stella.",
+      "key_events": [
+        { "event_id": "eilands-begins-stella-personality-erasure", "summary": "An Abraham unit uses Gospel and Mind Control to interfere with Stella's brain.", "sourceRef": "ch-002" },
+        { "event_id": "ouma-toka-alice-hold-abrahams", "summary": "Five Abraham defenders ambush the rescue team and are held by Ouma, Touka and Alice.", "sourceRef": "ch-003" },
+        { "event_id": "ikki-shizuku-defeat-darwin-body", "summary": "The operating Abraham is destroyed by Shizuku's Akabeni Rikka fragments when Stella's tank breaks.", "sourceRef": "ch-004" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["rakudai-kishi-main/vol-21/ch-002", "rakudai-kishi-main/vol-21/ch-003", "rakudai-kishi-main/vol-21/ch-004"]
+    }
+  ],
+  "source_refs": ["rakudai-kishi-main/vol-21"]
+}

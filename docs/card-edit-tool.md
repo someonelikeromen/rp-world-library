@@ -103,3 +103,25 @@
 ```
 
 模块别名来自 `.pi/rp-data-tools.json > cardTemplates.templates.unified-character-v1.modules`，也可以直接传模块相对路径，例如 `combat/resources.json`。
+
+### 多世界适配核心模块
+
+`combat/world-adaptation.json` 是多世界长期 RP 的核心模块，不是可选备注。它负责保存可结算的跨世界适配状态：
+
+- `currentWorldId`：当前所在世界。
+- `worldsExperienced`：主角经历过的所有世界摘要。
+- `energyExposure`：当前与历史能量体系接触状态，供成就系统能量门和奖励适配使用。
+- `adaptations`：每个世界的规则适配、能力兼容、资源接口、限制、代价和风险。
+- `compatibilityNotes`：跨世界能力/物品/知识在当前世界的可用性说明。
+
+维护要求：进入/离开/回访世界、接触新能量体系、获得跨世界能力或奖励、世界规则导致能力变化时，必须用 `card_edit batch` 更新本模块，并同步 `memory/world-history.md`。
+
+兑换系统启用时，还会使用 `progression/exchange.json` 记录奖励点余额、兑换项、交易和来源验证。兑换成功后应按类型同步到 `worldAdaptation` 与具体模块：
+
+- 体质/血统 → `lifeProfile`、`attributes`、`resistances`、`resources`。
+- 能量基盘 → `resources`、`lifeProfile`、`worldAdaptation`。
+- 基于基盘的能力 → `abilities`、`resources`、`combatRating`。
+- 不基于基盘的肉身/灵魂/技艺传承 → `attributes`、`lifeProfile`、`resistances`、`abilities`。
+- 物品道具 → `inventory`。
+- 非情报类知识 → `knowledge`。
+- 使魔/指定人物召唤/队友契约 → `relationships`、`worldAdaptation`。

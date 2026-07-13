@@ -1,0 +1,21 @@
+{
+  "schema": "tm-fgo-packet-audit-round-v1",
+  "recordId": "lb6-1-avalon-pre-packet-audit-round-002",
+  "chapterId": "fgo-lb6-1-avalon-pre",
+  "round": 2,
+  "auditorStatus": "passed",
+  "openIssues": 0,
+  "blockedIssues": 0,
+  "checksPassed": [
+    "33 source events represented including both 事件A0 records",
+    "27 dialogue quote records covered",
+    "raw times preserved exactly",
+    "mandatory visual/ability/combat/not-found layers present",
+    "formal metadata present by policy",
+    "no characters.json/events.json/relationships.json files found in packet output"
+  ],
+  "sourceRefs": ["extracted/lostbelt/lb6-1-avalon-pre/audit/audit-round-002.json"],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

@@ -1,0 +1,39 @@
+{
+  "_schema":"rp-volume-index-v1",
+  "world":"rakudai-kishi",
+  "series":"rakudai-kishi-main",
+  "volume":"vol-15",
+  "volume_title":"落第骑士英雄谭 / Rakudai Kishi no Cavalry - Vol.15",
+  "source_chapters":[
+    {"chapterIndex":1,"title":"间章 凶信","sourceRef":"rakudai-kishi-main/vol-15/chapters/ch-001-间章-凶信.txt"},
+    {"chapterIndex":2,"title":"第十五章 月下乱斗","sourceRef":"rakudai-kishi-main/vol-15/chapters/ch-002-第十五章-月下乱斗.txt"},
+    {"chapterIndex":3,"title":"第十六章 王都开战","sourceRef":"rakudai-kishi-main/vol-15/chapters/ch-003-第十六章-王都开战.txt"},
+    {"chapterIndex":4,"title":"第十七章 不转杀手","sourceRef":"rakudai-kishi-main/vol-15/chapters/ch-004-第十七章-不转杀手.txt"},
+    {"chapterIndex":5,"title":"第十八章 狂飙突进","sourceRef":"rakudai-kishi-main/vol-15/chapters/ch-005-第十八章-狂飙突进.txt"},
+    {"chapterIndex":6,"title":"间章 迟来的魔女","sourceRef":"rakudai-kishi-main/vol-15/chapters/ch-006-间章-迟来的魔女.txt"},
+    {"chapterIndex":7,"title":"后记","sourceRef":"rakudai-kishi-main/vol-15/chapters/ch-007-后记.txt"}
+  ],
+  "entity_counts":{"characters":16,"events":11,"abilities":0,"items":0,"locations":0,"factions":0,"systems":0,"knowledge":0},
+  "entities":{
+    "characters":["ikki-kurogane","stella-vermillion","naseem-salim","nene-saikyo","john-kristoff-von-cobrand","lunaeyes-vermillion","yui-tatara","ein","alice-ascaride","or-gaule","bb","sirius-vermillion","astrea-vermillion","carlo-bertoni","dargus","shizuku-kurogane"],
+    "events":["vermillion-funeral-sirius-tests-ikki","naseem-routs-league-border-army","ikki-stella-prewar-vow","representative-war-opening-splits-battlefields","ikki-defeats-bb-opening-duel","stella-defeats-john-and-lunaeyes-rescues-him","yui-vs-ein-assassin-duel","yui-destroys-ein-with-astral-force","alice-vs-or-gaule-bloody-cross-rematch","stella-intercepts-or-gaule","shizuku-arrives-as-medical-support"],
+    "abilities":[],"items":[],"locations":[],"factions":[],"systems":[],"knowledge":[]
+  },
+  "summary":"Manual extraction for rakudai-kishi-main vol-15. Vermillion's people hold a loud state funeral for the dead, where Sirius explains the country's mourning custom and confronts Ikki over letting Stella face her awakening crisis; he keeps the condition that Ikki must prove himself by sword. That same night, Naseem Salim single-handedly routs the League's border assault force, survives mass artillery, kills Carlo Bertoni despite the Eighth Sea, and leaves Vermillion without direct League military backup. Stella and Ikki reaffirm their trust before the war. The televised Vermillion-Quedland representative battle begins in Luxel, but Naseem's opening sandstorm scatters the teams into personal duels. Ikki defeats the giant child B.B. without injury and entrusts him to medics. Stella chooses to trust Ikki, defeats puppet-controlled John by stopping Golden Chariot barehanded, and sets up Lunaeyes to call John back; John breaks Or-Gaule's control rather than hurt Lunaeyes, while Lunaeyes reveals she has renounced Vermillion succession to remain beside him. Yui Tatara confronts Ein over House of Darkness betrayal, survives torture through Damage Reflect, then uses Angel Dust and Astral Force to destroy Ein's Netherworld World Tree and the castle at near-fatal cost. Alice Ascaride faces Or-Gaule's Bloody Cross reenactment, resists Marionette through revenge-hardened will, and nearly strangles him despite a self-tightening thread trap. Stella, having traced Or-Gaule's web, intercepts his escape with Salamander flame. A final interlude brings Shizuku Kurogane to Vermillion as Kiriko Yakushi's substitute medical support.",
+  "notes":[
+    "Only character and event files were created per p1-scan instruction; abilities/items/locations/factions/systems/knowledge directories were not populated.",
+    "Chapter 7 is author afterword; it was used only for high-level validation of the battle-state summary and listed as a source chapter, not as an in-world event source except where noted.",
+    "The chapter text headers identify the book as 第十三卷 while the delegated split directory and output target are vol-15; this index follows the requested vol-15 scope.",
+    "Some support figures mentioned briefly, such as Daniel Dandallion, Kiriko Yakushi, Levi Ascaride, and the announcer Buma, are referenced in events but were not given standalone character files in this pass because the focus stayed on high-evidence recurring or arc-critical entities."
+  ],
+  "source_refs":[
+    "campaigns/world-library/worlds/rakudai-kishi/sources/split-text/rakudai-kishi-main/vol-15/chapters.json",
+    "rakudai-kishi-main/vol-15/chapters/ch-001-间章-凶信.txt",
+    "rakudai-kishi-main/vol-15/chapters/ch-002-第十五章-月下乱斗.txt",
+    "rakudai-kishi-main/vol-15/chapters/ch-003-第十六章-王都开战.txt",
+    "rakudai-kishi-main/vol-15/chapters/ch-004-第十七章-不转杀手.txt",
+    "rakudai-kishi-main/vol-15/chapters/ch-005-第十八章-狂飙突进.txt",
+    "rakudai-kishi-main/vol-15/chapters/ch-006-间章-迟来的魔女.txt",
+    "rakudai-kishi-main/vol-15/chapters/ch-007-后记.txt"
+  ]
+}

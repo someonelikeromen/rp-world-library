@@ -1,0 +1,45 @@
+{
+  "schema": "tm-p1-worldbook-source-text-manifest-v1",
+  "worldId": "type-moon-nasuverse",
+  "scope": "fsn-fz-pilot",
+  "generatedAt": "2026-07-12",
+  "sourceRefFormat": "type-moon-nasuverse/worldbook-text/{file}:{line}",
+  "files": [
+    {
+      "sourceId": "src-fsn-core-extract",
+      "path": "src-fsn-core.md",
+      "sourceRefBase": "type-moon-nasuverse/worldbook-text/src-fsn-core.md",
+      "captureStatus": "partial-anchor-extract",
+      "sourceType": "user-file-worldbook",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "sourceId": "src-fsn-sandbox-rules",
+      "path": "src-fsn-sandbox.md",
+      "sourceRefBase": "type-moon-nasuverse/worldbook-text/src-fsn-sandbox.md",
+      "captureStatus": "partial-rule-extract",
+      "sourceType": "user-file-worldbook",
+      "credibility": "B",
+      "canonStatus": "sandbox"
+    },
+    {
+      "sourceId": "src-fate-zero-timeline",
+      "path": "src-fate-zero.md",
+      "sourceRefBase": "type-moon-nasuverse/worldbook-text/src-fate-zero.md",
+      "captureStatus": "full-single-entry-timeline",
+      "sourceType": "user-file-worldbook",
+      "credibility": "A",
+      "canonStatus": "canon-like"
+    },
+    {
+      "sourceId": "src-type-moon-filtered-anchors",
+      "path": "src-type-moon-filtered.md",
+      "sourceRefBase": "type-moon-nasuverse/worldbook-text/src-type-moon-filtered.md",
+      "captureStatus": "filtered-anchor-extract",
+      "sourceType": "user-file-worldbook",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    }
+  ]
+}

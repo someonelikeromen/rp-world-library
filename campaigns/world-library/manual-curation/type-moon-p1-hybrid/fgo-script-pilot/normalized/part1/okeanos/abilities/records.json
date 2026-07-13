@@ -1,0 +1,49 @@
+{
+  "schema": "tm-fgo-ability-fragment-set-v1",
+  "chapterKey": "okeanos",
+  "chapterId": "fgo-part1-okeanos",
+  "records": [
+    {
+      "schema": "tm-fgo-ability-fragment-v1",
+      "recordId": "okeanos-ability-david-ark-divine-punishment",
+      "characterId": "david",
+      "characterName": "大卫",
+      "chapterId": "fgo-part1-okeanos",
+      "abilityType": "other",
+      "name": "约柜 / 神罚",
+      "activationScene": "The party uses Euryale as bait to force Heracles to touch the Ark.",
+      "visualEffect": "not-found-in-source",
+      "mechanicalEffect": "Divine punishment kills Heracles on contact.",
+      "target": "heracles",
+      "costOrConsequence": "Failure would mean ruin; this is described as a single gamble.",
+      "eventRefs": ["merged/events/part1/okeanos/event-m.json", "merged/events/part1/okeanos/event-n.json"],
+      "status": "source-backed",
+      "notFoundReason": "No visual effect is described.",
+      "sourceRefs": ["sources/worldbook-script/part1/ch-003-okeanos.txt#event-M", "sources/worldbook-script/part1/ch-003-okeanos.txt#event-N"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "schema": "tm-fgo-ability-fragment-v1",
+      "recordId": "okeanos-ability-medea-demon-pillar-summon",
+      "characterId": "medea-lily",
+      "characterName": "美狄亚·Lily",
+      "chapterId": "fgo-part1-okeanos",
+      "abilityType": "summoning",
+      "name": "魔神佛钮司召唤",
+      "activationScene": "最终战中，美狄亚·Lily召唤魔神佛钮司。",
+      "visualEffect": "not-found-in-source",
+      "mechanicalEffect": "引入魔神佛钮司作为终局魔神威胁。",
+      "target": "chaldea-party",
+      "costOrConsequence": "魔神佛钮司被击败；特异点修复。",
+      "eventRefs": ["merged/events/part1/okeanos/event-n.json"],
+      "status": "source-backed",
+      "notFoundReason": "No summoning visual is described.",
+      "sourceRefs": ["sources/worldbook-script/part1/ch-003-okeanos.txt#event-N"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schema":"tm-fgo-packet-audit-round-v1",
+  "chapterId":"fgo-lb5-1-atlantis",
+  "round":2,
+  "auditorMode":"read-only-internal-rerun",
+  "status":"passed",
+  "sourceType":"user-file-worldbook-script",
+  "credibility":"B",
+  "canonStatus":"canon-like",
+  "sourceRefs":["sources/worldbook-script/lostbelt/ch-097-lb5-1-atlantis.txt:1-124"],
+  "checks":[
+    {"check":"source text gate","status":"passed","evidence":"source-text manifest had status/gateStatus passed for entry 97 before extraction."},
+    {"check":"world state/stage characters","status":"passed","evidence":"world-state.json and stage-characters/index.json present with sourceRefs; system判定 kept as engineInstructionRefs only."},
+    {"check":"raw event coverage","status":"passed","evidence":"31 event files observed by find; grep of rawEventCode in event files covers all expected event codes."},
+    {"check":"event raw fields","status":"passed","evidence":"Event file schema includes rawEventCode, title, time_raw, triggerRaw, completionRaw, summaryRaw, orderIndex, sourceRefs, sourceType, credibility, canonStatus."},
+    {"check":"dialogue coverage","status":"passed","evidence":"37 dialogueId records observed; all quote lines source-referenced with per-record metadata after fix."},
+    {"check":"visual/ability/combat mandatory layers","status":"passed","evidence":"appearance-signals, ability-signals, combat-effect-signals, and not-found-in-source indexes present and source-first."},
+    {"check":"not found mandatory missing details","status":"passed","evidence":"Character outfit/body/color gaps and event-specific visual/ability/combat gaps recorded in not-found-in-source/index.json."},
+    {"check":"unsupported labels","status":"passed","evidence":"External labels only appear as aliasCandidates with unsupported-by-current-source; no official-script/canon-text labels used."},
+    {"check":"forbidden aggregate filenames","status":"passed","evidence":"find checks returned no characters.json, events.json, or relationships.json under pilot."},
+    {"check":"normalization","status":"passed","evidence":"normalized/lostbelt/lb5-1-atlantis contains chapter-index, event-sequence, entity-role-index, temporal relationship candidates, signal coverage, and normalization report."}
+  ],
+  "openIssues":0,
+  "blockedIssues":0,
+  "canAdvance":true
+}

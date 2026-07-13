@@ -1,0 +1,50 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "freya",
+  "volume": "vol-08",
+  "time_range": { "start": "序章", "end": "第五章" },
+  "sub_arcs": ["第六次入侵欧拉丽", "城市姑娘的秘密"],
+  "periods": [
+    {
+      "period_id": "vol-08-prologue",
+      "volume": "vol-08",
+      "time": "序章 进击的军神",
+      "label": "战场神营中的美神",
+      "name": { "zh": "芙蕾雅", "en": "Freya", "jp": "フレイヤ" },
+      "titles": ["美神", "芙蕾雅眷族主神"],
+      "gender": "女",
+      "species": "神",
+      "occupation": "眷族主神",
+      "affiliation": "芙蕾雅眷族",
+      "status": { "location": "欧拉丽临时联盟神营", "state": "坐在神座上旁观拉几亚战局" },
+      "summary": "与洛基一同在神营旁观战局，认为王国士兵光骑马而来就显示不值得一战。",
+      "key_events": [
+        { "event_id": "orario-alliance-repels-rakia-invasion", "summary": "代表芙蕾雅眷族出现在欧拉丽临时联盟阵营。", "sourceRef": "danmachi-main/vol-08/full.txt:174" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-08/full.txt:174"]
+    },
+    {
+      "period_id": "vol-08-ch-05",
+      "volume": "vol-08",
+      "time": "第五章 城市姑娘的秘密",
+      "label": "军营中牵动艾伦的女神",
+      "name": { "zh": "芙蕾雅", "en": "Freya", "jp": "フレイヤ" },
+      "titles": ["美神"],
+      "species": "神",
+      "occupation": "眷族主神",
+      "affiliation": "芙蕾雅眷族",
+      "status": { "location": "欧拉丽东方芙蕾雅眷族军营", "state": "因公会惩罚仍留在战线，准备结束对拉几亚军的处理" },
+      "personality": { "summary": "优雅而洞察人心，能轻松调侃艾伦对希儿的保护欲。", "core_traits": ["优雅", "从容", "洞察", "支配力"], "values": ["灵魂光辉", "眷族忠诚", "希儿安全"], "strengths": ["统御芙蕾雅眷族", "看穿团员情感"] },
+      "relationships": { "allen-fromel": "中意并调侃的眷属", "ottar": "最强团长", "syr-flova": "称作女儿希儿", "anya-fromel": "提醒艾伦不要断绝关系的妹妹" },
+      "summary": "芙蕾雅在军营中听奥它报告战况，并接见返回的艾伦。她以希儿感谢他为由调侃艾伦，又提醒他不可完全断绝与妹妹阿妮雅的关系。",
+      "key_events": [
+        { "event_id": "allen-saves-syr-and-returns-to-freya-camp", "summary": "调侃艾伦保护希儿后的反应。", "sourceRef": "danmachi-main/vol-08/full.txt:9045" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-08/full.txt:9045", "danmachi-main/vol-08/full.txt:9110"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-08/full.txt:174-218", "danmachi-main/vol-08/full.txt:9045-9206"]
+}

@@ -1,0 +1,57 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "fels",
+  "volume": "vol-10",
+  "time_range": { "start": "第六章", "end": "特典" },
+  "sub_arcs": ["异端儿危机管制", "克诺索斯发现", "复活魔法"],
+  "periods": [
+    {
+      "period_id": "vol-10-ch-08-guides-bell",
+      "volume": "vol-10",
+      "time": "第八章 动乱都市",
+      "label": "将贝尔带入第18层任务",
+      "name": { "zh": "费尔斯", "en": "Fels", "jp": "フェルズ" },
+      "aliases": ["愚者", "黑衣魔术师", "贤者"],
+      "gender": "不明",
+      "species": "不死者/骸骨魔术师",
+      "occupation": "乌拉诺斯左右手、魔术师",
+      "affiliation": "乌拉诺斯、公会暗部、异端儿协力者",
+      "status": { "location": "公会秘密通道、第18层", "state": "试图控制异端儿暴走并保护秘密" },
+      "summary": "费尔斯因与里德通讯中断而推测异端儿发生异常。在乌拉诺斯命令下，他把贝尔带入秘密通道并说明强制任务，随后隐形随同迦尼萨眷族前往第18层。",
+      "key_events": [
+        { "event_id": "ouranos-assigns-ganesha-and-bell-to-xenos-crisis", "summary": "引导贝尔加入先遣队。", "sourceRef": "danmachi-main/vol-10/full.txt:3045" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-10/full.txt:1600-3200"]
+    },
+    {
+      "period_id": "vol-10-ch-09-knossos-and-battle",
+      "volume": "vol-10",
+      "time": "第九章 禽兽之梦",
+      "label": "发现克诺索斯并支援贝尔",
+      "status": { "location": "克诺索斯", "state": "与狩猎者交战，保护贝尔和受伤异端儿" },
+      "summary": "费尔斯与贝尔用代达罗斯宝珠发现克诺索斯入口，确认这是代达罗斯建造的人造迷宫。在囚笼大厅，他用抗诅咒黑衣保护贝尔等人免受狄克斯诅咒，又以魔咆手与狩猎者战斗。",
+      "key_events": [
+        { "event_id": "bell-fels-discover-knossos", "summary": "与贝尔打开克诺索斯。", "sourceRef": "danmachi-main/vol-10/full.txt:4360" },
+        { "event_id": "dix-curses-xenos-and-bell-defeats-him-with-reyd", "summary": "抵挡诅咒并提示击倒术士可解咒。", "sourceRef": "danmachi-main/vol-10/full.txt:5400" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-10/full.txt:4320-7000"]
+    },
+    {
+      "period_id": "vol-10-ch-10-resurrects-wiene",
+      "volume": "vol-10",
+      "time": "第十章 愚者",
+      "label": "首次成功施放复活魔法",
+      "status": { "location": "重建风月街地下通道、水渠", "state": "精神力耗尽但复活薇妮" },
+      "summary": "薇妮在贝尔怀里灰化后，费尔斯发动超长文复活魔法『迪亚·奥菲斯』。这是他八百年来首次成功的复活，薇妮重获身体。之后他开导贝尔，认为被骂作伪善者的人才有成为英雄的资格，劝贝尔以愚者自居。",
+      "key_events": [
+        { "event_id": "wiene-dies-and-fels-resurrects-her", "summary": "以迪亚·奥菲斯复活薇妮。", "sourceRef": "danmachi-main/vol-10/full.txt:9500" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-10/full.txt:9400-10080"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-10/full.txt:1600-11066"]
+}

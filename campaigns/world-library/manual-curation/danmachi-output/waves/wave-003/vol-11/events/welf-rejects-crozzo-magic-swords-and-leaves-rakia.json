@@ -1,0 +1,46 @@
+{
+  "_schema": "rp-event-volume-v1",
+  "world": "danmachi",
+  "event_id": "welf-rejects-crozzo-magic-swords-and-leaves-rakia",
+  "volume": "vol-11",
+  "periods": [
+    {
+      "period_id": "vol-11-bd5",
+      "volume": "vol-11",
+      "time": "BD5短篇 蓝色的火焰",
+      "name": {
+        "zh": "韦尔夫拒绝克洛佐魔剑并离开拉基亚",
+        "en": "Welf Rejects Crozzo Magic Swords and Leaves Rakia"
+      },
+      "type": "backstory",
+      "location": "拉基亚王都巴鲁亚、克洛佐家工房、王都外墙、佐灵加姆",
+      "summary": "幼年韦尔夫厌恶贵族夜会和克洛佐家没落后的虚荣，只在工房中尊敬父亲威尔与祖父加仑的锻冶热情，也与从属神福玻斯保持近似恶友的关系。十岁生日接受恩惠后，他被福玻斯要求试作魔剑，结果复活了克洛佐魔剑的火力；一族立刻疯狂要求他量产讨好王家，父亲与祖父也背弃锻冶理想。韦尔夫决定逃离拉基亚，途中不得不用魔剑轰开城门并重创骑士，亲眼确认魔剑会让弱者越级杀伤、让锻冶师堕落，因此发誓不再打造。福玻斯帮他解除契约并背负责任，之后被送还天界；韦尔夫流浪到剑制都市佐灵加姆，被赫菲斯托丝发现并邀请加入眷族。",
+      "cause": "韦尔夫觉醒可打造克洛佐魔剑的血统后，一族与王国都想利用他复兴旧日荣光。",
+      "process": "他与父亲祖父决裂，在福玻斯帮助下逃亡；玛利欧斯王子预先布网导致他被骑士拦截，迫使他使用魔剑。",
+      "outcome": "韦尔夫脱离拉基亚和福玻斯眷族，拒绝魔剑道路，最终与赫菲斯托丝相遇。",
+      "participants": [
+        "welf-crozzo",
+        "phobos",
+        "hephaestus"
+      ],
+      "related_events": [],
+      "significance": "揭示韦尔夫憎恶魔剑、坚持锻冶师尊严以及后来加入赫菲斯托丝眷族的根源。",
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-11/full.txt:2179-2772"
+      ]
+    }
+  ],
+  "source_refs": [
+    "danmachi-main/vol-11/full.txt:2179-2772"
+  ],
+  "_revisions": [
+    {
+      "type": "fix",
+      "description": "收敛事件 participants 至本卷已建角色档案，移除未建档的背景/旁观/可跨卷补充角色，降低 dangling reference 风险。",
+      "source_refs": [
+        "danmachi-main/vol-11/full.txt:1-3374"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "waveId": "wave-006",
+  "status": "passed",
+  "model": "lt-yuyu/gpt-5.5",
+  "cycle": ["generator", "auditor", "fixer", "auditor-rerun"],
+  "outputs": [
+    "output.json",
+    "audit-report.md",
+    "fix-trail.md",
+    "final-status.json"
+  ],
+  "openIssues": 0,
+  "blockers": [],
+  "notes": "Passed for organizations/families/factions; locations and abilities are deferred to waves 007 and 008 by locked plan."
+}

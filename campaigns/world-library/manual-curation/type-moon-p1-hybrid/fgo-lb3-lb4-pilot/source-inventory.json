@@ -1,0 +1,123 @@
+{
+  "schema": "tm-fgo-source-inventory-v1",
+  "project": "fgo-lb3-lb4-pilot",
+  "worldId": "type-moon-nasuverse",
+  "status": "prep-gate-ready",
+  "generatedAt": "2026-07-12",
+  "generatedByStep": "prep-lb3-lb4",
+  "requiredModel": "lt-yuyu/gpt-5.5",
+  "mutationScope": "campaigns/world-library/manual-curation/type-moon-p1-hybrid/fgo-lb3-lb4-pilot/",
+  "primarySource": {
+    "sourceId": "src-fgo-worldbook-sandbox-08",
+    "path": "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/[沙盒]FGO 0.8.worldbook.json",
+    "sourceType": "user-file-worldbook-script",
+    "classification": "script-like",
+    "canonStatus": "canon-like",
+    "credibility": "B",
+    "selectedEntryIndexes": [95, 96],
+    "sourceTextStatus": "not-created-in-prep",
+    "formalEventSource": true
+  },
+  "lostbeltEntries": [
+    {
+      "entryIndex": 95,
+      "chapterId": "fgo-lb3-renzhi-tonghe-zhenguo",
+      "slug": "lb3-renzhi-tonghe-zhenguo",
+      "comment": "FGO_LB3_人智统合真国",
+      "titleRaw": "Lostbelt No.3 人智统合真国 琴（红之月下美人）",
+      "arc": "lostbelt",
+      "chapterOrder": 3,
+      "estimatedEvents": 21,
+      "estimatedQuotes": 34,
+      "observedEventCodeRangeDuringPrep": "事件A0, 事件A-事件T",
+      "sectionsInspected": ["world_state", "stage_characters", "world_timeline"],
+      "represented": true,
+      "directSourceRefs": [
+        "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/[沙盒]FGO 0.8.worldbook.json:12320-12321"
+      ],
+      "mirrorSourceRefsObserved": [
+        "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/[沙盒]FGO 0.8.worldbook.json:12360-12361"
+      ],
+      "sourceTextStatus": "not-created-in-prep",
+      "prepNotes": [
+        "Entry present and selected.",
+        "Raw event codes include prologue-style 事件A0 plus 事件A through 事件T; downstream must preserve exact raw codes."
+      ]
+    },
+    {
+      "entryIndex": 96,
+      "chapterId": "fgo-lb4-chuangshi-miewang-lunhui",
+      "slug": "lb4-chuangshi-miewang-lunhui",
+      "comment": "FGO_LB4_创世灭亡轮回",
+      "titleRaw": "Lostbelt No.4 创世灭亡轮回 游迦·俱卢（黑色最后之神）",
+      "arc": "lostbelt",
+      "chapterOrder": 4,
+      "estimatedEvents": 21,
+      "estimatedQuotes": 25,
+      "observedEventCodeRangeDuringPrep": "事件A-事件U",
+      "sectionsInspected": ["world_state", "stage_characters", "world_timeline"],
+      "represented": true,
+      "directSourceRefs": [
+        "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/[沙盒]FGO 0.8.worldbook.json:12443-12444"
+      ],
+      "mirrorSourceRefsObserved": [
+        "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/[沙盒]FGO 0.8.worldbook.json:12483-12484"
+      ],
+      "sourceTextStatus": "not-created-in-prep",
+      "prepNotes": ["Entry present and selected."]
+    }
+  ],
+  "secondarySources": [
+    {
+      "path": "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/型月 (1).worldbook.json",
+      "classification": "story-summary",
+      "sourceType": "user-file-worldbook-summary",
+      "use": "cross-check only after explicit later scoping",
+      "formalEventSource": false
+    },
+    {
+      "path": "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/奇妙的世界书DLC_型月篇2026_0126.worldbook.json",
+      "classification": "character-profile",
+      "sourceType": "user-file-character-profile",
+      "use": "profile supplement only; no script fact override",
+      "formalEventSource": false
+    },
+    {
+      "path": "campaigns/world-library/worlds/type-moon-nasuverse/curated/stories/fgo/*.md",
+      "classification": "curated-story-derived-from-worldbook-script",
+      "use": "mirror/comparison only; no overwrite",
+      "formalEventSource": false
+    }
+  ],
+  "excludedForFormalFacts": [
+    "engine-rule",
+    "ejs",
+    "mvu",
+    "sandbox-rule",
+    "rp-engine-rule",
+    "agent-inference",
+    "summary-only claims",
+    "model-memory",
+    "game-memory",
+    "wiki-impression"
+  ],
+  "mandatoryLayers": [
+    "events",
+    "dialogue_refs",
+    "characters",
+    "relationships",
+    "appearances",
+    "abilities_noble_phantasms_skills",
+    "combat_effects",
+    "not_found_in_source_records"
+  ],
+  "stageGates": {
+    "prepGate": "ready",
+    "sourceTextGate": "closed-not-built-in-prep",
+    "extractionGate": "closed-extraction-not-started",
+    "normalizationGate": "closed",
+    "mergeGate": "closed",
+    "timelineGraphGate": "closed",
+    "publicationGate": "closed"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "krullcifer-einfolk",
+  "volume": "vol-08",
+  "periods": [
+    {
+      "period_id": "vol-08-main",
+      "volume": "vol-08",
+      "time": "返乡与巡礼祭期间",
+      "name": { "zh": "库露露席法·恩芙尔克", "en": "Krulcifer Einfolk", "jp": "" },
+      "aliases": ["钥匙管理者", "恩芙尔克家的养女"],
+      "titles": ["优密尔教国留学生", "梅尔辅佐官候选/任命者"],
+      "gender": "female",
+      "species": "ancient human survivor / human-like",
+      "nationality": "优密尔教国",
+      "occupation": "学生、机龙使、巡礼祭护卫",
+      "affiliation": "恩芙尔克家族；王立士官学园；优密尔教国",
+      "status": { "state": "alive", "condition": "身世揭露后与义父和解" },
+      "appearance": { "overview": "苍蓝长发与冰雪般双眸，气质高贵冷静。" },
+      "personality": { "summary": "冷静、机智、善于掌握主导权，但内心渴望家人与归属。", "core_traits": ["理性", "骄傲", "重情"] },
+      "abilities_owned": ["complete-fusion", "fafnir-fortune-wise"],
+      "possessions_owned": ["fafnir"],
+      "relationships": {
+        "lux-arcadia": { "type": "重要友人/恋慕", "summary": "受路克斯支持面对遗迹与家族真相，并在归国前表达喜欢。" },
+        "stiel-einfolk": { "type": "义父", "summary": "误解其冷淡，最终得知他曾为救她负重伤而和解。" },
+        "mell-jisato": { "type": "竞争者/后续辅佐对象", "summary": "两年前击败梅尔，本卷救下并开导她。" },
+        "nyi-raishy": { "type": "管理者/自动人形", "summary": "以钥匙管理者权限命令涅依协助调查坑道。" }
+      },
+      "knowledge": ["krullcifer-identity-revealed", "ymir-angel-nyi"],
+      "secrets": ["真实身份为坑道最后幸存的古代人种血族"],
+      "summary": "库露露席法被恩芙尔克家族召回优密尔参加巡礼祭，在涅依协助下进入第四遗迹坑道书库，得知自己为古代人种幸存者。她一度因遗迹失控真相动摇，后在路克斯与史提尔的呼唤下发动完全结合击败梅尔。",
+      "key_events": [
+        { "event_id": "mine-library-investigation", "summary": "进入坑道书库调查钥匙管理者与身世。", "sourceRef": "saijaku-muhai-bahamut-main/vol-08/full.txt:5140" },
+        { "event_id": "krullcifer-complete-fusion", "summary": "发动完全结合战胜梅尔。", "sourceRef": "saijaku-muhai-bahamut-main/vol-08/full.txt:6904" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["saijaku-muhai-bahamut-main/vol-08/full.txt:50", "saijaku-muhai-bahamut-main/vol-08/full.txt:6904"]
+    }
+  ],
+  "source_refs": ["saijaku-muhai-bahamut-main/vol-08/full.txt:50"]
+}

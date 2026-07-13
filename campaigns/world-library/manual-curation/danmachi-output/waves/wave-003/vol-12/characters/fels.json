@@ -1,0 +1,30 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "fels",
+  "volume": "vol-12",
+  "time_range": { "start": "序章", "end": "终章" },
+  "sub_arcs": ["异端儿撤离计划", "荷米斯陷阱", "赌在贝尔身上"],
+  "periods": [{
+    "period_id": "vol-12-fels-plans-and-reassesses-bell",
+    "volume": "vol-12",
+    "time": "序章-终章",
+    "label": "策划撤离并确认贝尔为希望",
+    "name": { "zh": "费尔斯", "en": "Fels", "jp": "フェルズ" },
+    "gender": "未知",
+    "species": "骷髅魔术师",
+    "occupation": "乌拉诺斯的愚者、魔道具制作者、异端儿协助者",
+    "affiliation": "乌拉诺斯、公会秘密阵营、异端儿",
+    "status": { "location": "地下水道、人造迷宫、地下城秘里", "state": "护送异端儿回归后决定将一切赌在贝尔身上" },
+    "summary": "费尔斯复活薇妮并带领残余异端儿在地表逃亡。他用血写密信求助赫斯缇雅眷族，安排魔道具仓库、眼晶、魔法地图和撤离计划。被荷米斯伪造手札骗入死路后，费尔斯愤怒却仍相信贝尔能超越神意。终章中，他治疗归还秘里的异端儿并向乌拉诺斯报告，承认与荷米斯一样把希望押在贝尔身上。",
+    "key_events": [
+      { "event_id": "surface-xenos-hunt-after-daedalus", "summary": "解释地表现况并寻找最后希望。", "sourceRef": "danmachi-main/vol-12/full.txt:1-300" },
+      { "event_id": "fels-prepares-operation-and-daedalus-route", "summary": "制定并联络撤离计划。", "sourceRef": "danmachi-main/vol-12/full.txt:2645-3914" },
+      { "event_id": "hermes-fake-daedalus-notebook-trap", "summary": "发现被假手札引入荷米斯陷阱。", "sourceRef": "danmachi-main/vol-12/full.txt:8195-9326" },
+      { "event_id": "xenos-return-and-bell-renews-training", "summary": "治疗异端儿并向乌拉诺斯报告。", "sourceRef": "danmachi-main/vol-12/full.txt:10847-11228" }
+    ],
+    "evidence_level": "S",
+    "source_refs": ["danmachi-main/vol-12/full.txt:1-300", "danmachi-main/vol-12/full.txt:1243-3914", "danmachi-main/vol-12/full.txt:8195-9326", "danmachi-main/vol-12/full.txt:10847-11228"]
+  }],
+  "source_refs": ["danmachi-main/vol-12/full.txt:1-11228"]
+}

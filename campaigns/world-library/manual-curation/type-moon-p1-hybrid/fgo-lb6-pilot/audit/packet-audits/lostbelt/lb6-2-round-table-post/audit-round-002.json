@@ -1,0 +1,27 @@
+{
+  "schema": "tm-fgo-packet-audit-round-v1",
+  "recordId": "lb6-2-round-table-post-packet-audit-round-002",
+  "packetId": "pkt-fgo-lostbelt-lb6-2-round-table-post-extract",
+  "chapterId": "fgo-lb6-2-round-table-post",
+  "round": 2,
+  "status": "passed",
+  "scopeAudited": ["extracted/lostbelt/lb6-2-round-table-post/", "normalized/lostbelt/lb6-2-round-table-post/", "audit/packet-audits/lostbelt/lb6-2-round-table-post/"],
+  "checks": {
+    "allRequiredOutputsPresent": "passed",
+    "eventsAThroughL": "passed",
+    "quotesHaveDialogueRefs": "passed",
+    "sourceFirstVisualAbilityCombat": "passed",
+    "notFoundRecordsForMissingMandatoryLayers": "passed",
+    "sourceMetadataOnFormalRecords": "passed",
+    "unsupportedLabelsCandidateOnly": "passed",
+    "noForbiddenAggregateFilenamesAuthored": "passed",
+    "noMergeGraphTimelinePublish": "passed"
+  },
+  "openIssues": 0,
+  "blockedIssues": 0,
+  "canAdvance": true,
+  "sourceRefs": ["extracted/lostbelt/lb6-2-round-table-post/audit/audit-round-002.json", "normalized/lostbelt/lb6-2-round-table-post/normalization-report.json"],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

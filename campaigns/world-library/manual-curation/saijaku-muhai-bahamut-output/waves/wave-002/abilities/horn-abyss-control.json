@@ -1,0 +1,57 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "horn-abyss-control",
+  "volume": "vol-06",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:5090",
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:7440"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-06",
+      "volume": "vol-06",
+      "time": "本卷",
+      "name": {
+        "zh": "角笛幻神兽控制",
+        "en": "Horn of Abyss Control"
+      },
+      "aliases": [
+        "角笛命令",
+        "幻神兽操纵"
+      ],
+      "type": "artifact / technology",
+      "description": "使用角笛发出扰乱脑部的不协和音，命令幻神兽或含幻神兽因子的目标。",
+      "details": {
+        "limitation": "通常命令会随时间消失，但魔禁书可传播命令延长效果"
+      },
+      "activation": {
+        "condition": "吹奏角笛",
+        "incantation": "无",
+        "time": "声音传播后",
+        "cost": "需持有角笛"
+      },
+      "effects": [
+        "控制幻神兽群",
+        "强化B-blood宿主",
+        "干扰菲尔菲体内因子"
+      ],
+      "known_feats": [
+        "桑妮雅以角笛驱使废村幻神兽；拉葛利多试图控制菲尔菲"
+      ],
+      "shared_by": [
+        "sania-lemiste",
+        "ragreed-forus"
+      ],
+      "see_also": [
+        "horn-of-abyss-control",
+        "abyss-factor-resistance"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:5090",
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:7440"
+      ]
+    }
+  ]
+}

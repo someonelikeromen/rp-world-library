@@ -1,0 +1,35 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "nies-pope",
+  "volume": "vol-08",
+  "periods": [{
+    "period_id": "vol-08-main",
+    "volume": "vol-08",
+    "time": "巡礼祭期间",
+    "name": { "zh": "尼亚斯教皇", "en": "Pope Nies", "jp": "" },
+    "aliases": ["教皇圣下"],
+    "titles": ["优密尔教国教皇"],
+    "gender": "male",
+    "species": "human",
+    "nationality": "优密尔教国",
+    "occupation": "教皇",
+    "affiliation": "优密尔教会",
+    "status": { "state": "alive", "condition": "巡礼祭中被护卫保护" },
+    "appearance": { "overview": "年纪轻轻的少年教皇，穿沉重典礼长袍。" },
+    "personality": { "summary": "年轻但态度真诚，依赖主教辅佐。", "core_traits": ["温和", "虔诚", "坦率"] },
+    "abilities_owned": [],
+    "possessions_owned": [],
+    "relationships": {
+      "oracle-phil": { "type": "辅佐者", "summary": "由欧露菲尔等主教协助处理巡礼与说明。" },
+      "nyi-raishy": { "type": "隐匿对象", "summary": "教会将涅依作为天使隐藏在身边。" },
+      "lux-arcadia": { "type": "护卫委托对象", "summary": "任命路克斯陪同巡礼护卫。" }
+    },
+    "knowledge": ["ymir-angel-nyi"],
+    "summary": "尼亚斯是刚继任不久的少年教皇，在巡礼祭中成为龙匪贼绑架计划目标。路克斯、库露露席法、梅尔和神殿骑士团负责保护他。",
+    "key_events": [{ "event_id": "pilgrimage-festival", "summary": "作为最高阶巡礼者巡回圣地。", "sourceRef": "saijaku-muhai-bahamut-main/vol-08/full.txt:1052" }],
+    "evidence_level": "S",
+    "source_refs": ["saijaku-muhai-bahamut-main/vol-08/full.txt:1052"]
+  }],
+  "source_refs": ["saijaku-muhai-bahamut-main/vol-08/full.txt:1052"]
+}

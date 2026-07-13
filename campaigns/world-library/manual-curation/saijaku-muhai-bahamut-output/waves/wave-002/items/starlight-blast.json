@@ -1,0 +1,47 @@
+{
+  "_schema": "rp-item-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "item_id": "starlight-blast",
+  "volume": "vol-09",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-09/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-09",
+      "volume": "vol-09",
+      "time": "vol-09",
+      "name": {
+        "zh": "星光爆破",
+        "en": "Starlight Blast"
+      },
+      "aliases": [],
+      "type": "weapon",
+      "description": "凛德龙虫肩部炮口型特殊武装，可发射压缩光弹造成广范围爆破。",
+      "details": {
+        "mounted_on": "lindwurm"
+      },
+      "owner": "celestia",
+      "status": "active",
+      "features": [
+        "压缩光弹",
+        "广范围爆破",
+        "可配合机龙解放保留炮口"
+      ],
+      "associated_abilities": [
+        "drag-ride-release",
+        "mobility-layout"
+      ],
+      "history": [
+        {
+          "event_id": "sacred-eclipse-battle",
+          "summary": "赛莉丝用它削减圣蚀分体数量并佯攻。"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:6737"
+      ]
+    }
+  ]
+}

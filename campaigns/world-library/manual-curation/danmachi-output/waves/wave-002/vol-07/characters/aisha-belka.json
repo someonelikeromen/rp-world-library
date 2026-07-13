@@ -1,0 +1,56 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "aisha-belka",
+  "volume": "vol-07",
+  "time_range": {"start": "序章", "end": "第二章"},
+  "sub_arcs": ["红灯区事件序幕", "伊丝塔眷族追猎贝尔"],
+  "periods": [
+    {
+      "period_id": "vol-07-prologue",
+      "volume": "vol-07",
+      "time": "序章 女神是残酷的淫都之王",
+      "label": "望向游廓的亚马逊",
+      "name": {"zh": "阿伊莎·贝尔卡", "en": "Aisha Belka", "jp": "アイシャ・ベルカ"},
+      "aliases": ["阿伊莎"],
+      "gender": "女",
+      "species": "亚马逊人",
+      "occupation": "娼妇、冒险者",
+      "affiliation": "伊丝塔眷族",
+      "status": {"location": "红灯区", "state": "奉伊丝塔命令出街接客，却回望幽禁春姬的游廓"},
+      "appearance": {"overview": "黑色长发、长腿的亚马逊女子。", "distinctive": ["黑色长发", "亚马逊体格"]},
+      "personality": {"summary": "外表奔放，内心对春姬处境存有恻隐。", "core_traits": ["豪放", "同情弱者", "行动派"]},
+      "relationships": {"ishtar": "主神", "haruhime-sanjouno": "被其怜悯的眷族同伴"},
+      "summary": "在伊丝塔下令后准备与同族出街，却回望异国风游廓与张见世，显露对春姬处境的复杂情绪。",
+      "key_events": [{"event_id": "haruhime-seven-day-countdown", "summary": "回望春姬所在游廓，暗示知晓其命运。", "sourceRef": "danmachi-main/vol-07/full.txt:270"}],
+      "evidence_level": "A",
+      "source_refs": ["danmachi-main/vol-07/full.txt:270", "danmachi-main/vol-07/full.txt:294"]
+    },
+    {
+      "period_id": "vol-07-ch-02",
+      "volume": "vol-07",
+      "time": "第二章 跑吧！克朗尼",
+      "label": "狩猎小新秀的女英豪",
+      "name": {"zh": "阿伊莎·贝尔卡", "en": "Aisha Belka", "jp": "アイシャ・ベルカ"},
+      "aliases": ["阿伊莎"],
+      "gender": "女",
+      "species": "亚马逊人",
+      "occupation": "战斗娼妇、冒险者",
+      "affiliation": "伊丝塔眷族",
+      "status": {"location": "伊丝塔眷族女主神娼殿与风月街第三区", "state": "捕获贝尔后与芙里尼争夺猎物，并指挥眷族娼妇网络追捕他"},
+      "appearance": {"overview": "褐色肌肤、黑色长发、长腿，穿蓝紫色舞者式服装。", "distinctive": ["黑色长发", "褐色肌肤", "长腿", "舞者式服装"]},
+      "personality": {"summary": "大胆、强势、好战，遵循亚马逊主动掳走强悍男人的习性；同时讨厌芙里尼，并保护猎物不被对方糟蹋。", "core_traits": ["豪放", "好战", "支配欲强", "讲究猎物归属"], "values": ["强悍男人", "亚马逊方式", "自己的猎物"]},
+      "abilities_owned": ["亚马逊体术", "高阶冒险者能力值"],
+      "relationships": {"bell-cranel": "被她认定并追捕的猎物", "phryne-jamil": "厌恶且对立的同眷族干部", "ishtar": "主神", "haruhime-sanjouno": "平日关照的同眷族游女"},
+      "summary": "阿伊莎在小巷中抓住迷路的贝尔，认出其小新秀身份后将其带往女主神娼殿。她向贝尔说明亚马逊会自己寻找并掳走强悍男人，被芙里尼闯入争夺后接受以亚马逊方式抢夺猎物。贝尔逃走后，阿伊莎以长腿体术一度压制他，并调动第三区娼妇网络封锁路线。",
+      "key_events": [
+        {"event_id": "aisha-captures-bell", "summary": "在小巷中发现并强行带走贝尔。", "sourceRef": "danmachi-main/vol-07/full.txt:1912"},
+        {"event_id": "bell-brought-to-ishtar-familia", "summary": "把贝尔带入女主神娼殿并介绍伊丝塔势力圈。", "sourceRef": "danmachi-main/vol-07/full.txt:2086"},
+        {"event_id": "ishtar-amazons-hunt-bell", "summary": "与芙里尼争夺贝尔并率亚马逊追捕。", "sourceRef": "danmachi-main/vol-07/full.txt:2398"}
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-07/full.txt:1912", "danmachi-main/vol-07/full.txt:2086", "danmachi-main/vol-07/full.txt:2216", "danmachi-main/vol-07/full.txt:2398", "danmachi-main/vol-07/full.txt:2574", "danmachi-main/vol-07/full.txt:2624"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-07/full.txt:250-294", "danmachi-main/vol-07/full.txt:1900-2724"]
+}

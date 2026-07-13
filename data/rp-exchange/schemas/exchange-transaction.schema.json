@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "rp-exchange-transaction.schema.json",
+  "title": "RP Exchange Transaction",
+  "type": "object",
+  "required": ["id", "entryId", "state", "price", "createdAt"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "entryId": { "type": "string", "minLength": 1 },
+    "entryName": { "type": "string" },
+    "state": { "type": "string", "enum": ["pending", "completed", "cancelled", "blocked"] },
+    "price": {
+      "type": "object",
+      "required": ["amount", "pointLevel"],
+      "properties": {
+        "amount": { "type": "integer", "minimum": 0 },
+        "pointLevel": { "type": "integer", "minimum": 1 },
+        "display": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "createdAt": { "type": "string" },
+    "completedAt": { "type": "string" },
+    "reason": { "type": "string" },
+    "sourceVerificationId": { "type": "string" },
+    "cardModuleUpdates": { "type": "array", "items": { "type": "string" } },
+    "memoryUpdates": { "type": "array", "items": { "type": "string" } }
+  },
+  "additionalProperties": true
+}

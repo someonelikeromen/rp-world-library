@@ -1,0 +1,21 @@
+{
+  "schema": "tm-fgo-packet-fix-round-v1",
+  "recordType": "packet_fix_round",
+  "packetId": "pkt-fgo-lostbelt-lb1-anastasia-extract",
+  "chapterId": "fgo-lb1-anastasia",
+  "round": 1,
+  "fixerStatus": "completed",
+  "fixesApplied": [
+    {"issueId":"audit001-issue001","fixRaw":"Added explicit required not-found records for absent visual/ability/combat details and normalized signal/report outputs; ensured all formal records carry sourceRefs/sourceType/credibility/canonStatus."}
+  ],
+  "filesTouchedWithinScope": [
+    "extracted/lostbelt/lb1-anastasia/not-found-in-source/required-missing-details.json",
+    "normalized/lostbelt/lb1-anastasia/signal-ledger.json",
+    "normalized/lostbelt/lb1-anastasia/normalization-report.json"
+  ],
+  "forbiddenFilesCreated": [],
+  "sourceRefs": ["sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:23-130"],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

@@ -1,0 +1,89 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "celistia-ralgris",
+  "volume": "vol-05",
+  "time_range": { "start": "post-v04", "end": "pre-v06" },
+  "sub_arcs": [],
+  "periods": [
+    {
+      "period_id": "vol-05",
+      "volume": "vol-05",
+      "time": "初秋",
+      "label": "认真的骑士团长与外宿",
+
+      "name": { "zh": "赛丽丝提亚·拉尔格里斯", "en": "Celistia Ralgris", "jp": "セリスティア・ラルグリス" },
+      "aliases": ["赛丽丝", "赛丽丝学姐", "骑士团长"],
+      "titles": ["王立士官学园骑士团长", "四大贵族出身"],
+      "gender": "female",
+      "species": "human",
+      "nationality": "新王国",
+      "occupation": "王立士官学园学生（三年生）/ 骑士团长",
+      "affiliation": "王立士官学园",
+      "status": { "health": "健康" },
+      "appearance": {
+        "overview": "学院最强的三年生，出身四大贵族的优秀女性",
+        "physical": { "height": "高挑", "build": "苗条", "hair": { "color": "不明", "style": "端庄" }, "eyes": { "color": "不明", "shape": "认真" } },
+        "attire": { "default": "制服", "combat": "机龙装衣" },
+        "voice_quality": {},
+        "distinctive": ["代表学院的门面", "认真严肃的气质"]
+      },
+      "personality": {
+        "summary": "认真严谨的优等生。原本讨厌男性，但在路克斯的活跃后认可了他的实力和为人。有着拉尔格里斯家的严格家训。容易因害羞或慌乱而说错话。",
+        "core_traits": ["认真", "严谨", "正义感强", "容易害羞"],
+        "values": ["骑士道精神", "家训（同床共枕只能在十岁以下）", "信赖"],
+        "fears": ["被人误解为不检点"],
+        "desires": ["维护骑士团的荣誉"],
+        "strengths": ["学院最强的战斗力", "领导力"],
+        "flaws": ["过于认真容易上当（被夏利丝挑衅）", "不善变通"],
+        "inner_conflict": "原本讨厌男性但认可了路克斯，对这个矛盾感到困扰",
+        "decision_pattern": "基于原则和规则"
+      },
+      "voice": {
+        "self_reference": "私",
+        "address_pattern": { "路克斯": "路克斯" },
+        "register": { "general": "认真礼貌" },
+        "catchphrases": [],
+        "quote_samples": [
+          "我决不允许发生那种放荡的事情！同床共枕只能在十岁以下，那可是我拉尔格里斯家的家训呢",
+          "感激不尽，路克斯！这份恩情我一定会报答的！"
+        ]
+      },
+      "habits": {
+        "mannerisms": ["容易慌乱", "说出口后才察觉不妥"],
+        "daily_routine": "骑士团训练、上课",
+        "quirks": ["被激将后会说违心的话"],
+        "preferences": {}
+      },
+      "background": {
+        "birth": { "place": "四大贵族拉尔格里斯家", "family": [] },
+        "upbringing": "在严格的家训下长大",
+        "education": { "level": "王立士官学园三年生" },
+        "formative_events": ["认可路克斯并让他加入骑士团"],
+        "pre_story": "学院最强的三年生骑士团长。原本讨厌男性，但在路克斯的活跃后认可了他。"
+      },
+
+      "abilities_owned": ["armored-dragon-mastery"],
+      "possessions_owned": ["personal-armored-dragon"],
+      "relationships": {
+        "lux arcadia": "骑士团的后辈，信赖的对象",
+        "lisha atismata": "王女",
+        "krulcifer einfolk": "留学生",
+        "charl": "三和音队长"
+      },
+      "knowledge": [],
+      "secrets": [],
+
+      "summary": "本卷中赛丽丝在旅馆外宿篇登场——原本预定外宿的后辈无法在外留宿，她代替后辈却发现自己预定的旅馆爆满，被路克斯邀请加入旅馆。在床铺不够时被卷入'谁给路克斯让床'的骚动，认真地说出'我的床随时恭候您的大驾'后才发现不妥。",
+      "key_events": [
+        { "event_id": "secret-night-at-inn", "summary": "因后辈无法外宿而代替，却发现自己预订的旅馆爆满，被路克斯邀请共同外宿", "sourceRef": "saijaku-muhai-bahamut-main/vol-05/full.txt:300-442" }
+      ],
+
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-05/full.txt:1-442"
+      ]
+    }
+  ],
+  "source_refs": []
+}

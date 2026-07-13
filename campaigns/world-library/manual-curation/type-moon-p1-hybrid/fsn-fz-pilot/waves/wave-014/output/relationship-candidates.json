@@ -1,0 +1,11 @@
+{
+  "schema": "tm-p1-graph-candidates-v1",
+  "worldId": "type-moon-nasuverse",
+  "waveId": "wave-014",
+  "generatedAt": "2026-07-12",
+  "candidates": [
+    {"candidateId":"cand-w014-shirou-archer-same-entity","kind":"merge","from":"emiya-shirou-fsn","to":"archer-emiya-fsn","label":"future-self-reveal","reason":"UBW states Archer is a future Emiya Shirou, but the locked plan forbids blind merging; keep as related form candidate until canonical manifest authorizes handling.","confidence":"medium","status":"candidate","sourceRefs":["type-moon-nasuverse/story-text/fate/ch-003-ubw-route.txt:92"]},
+    {"candidateId":"cand-w014-saber-gilgamesh-prior-war","kind":"relationship","from":"saber-artoria-fsn","to":"archer-gilgamesh-fz-fsn","label":"previous-war-recognition","reason":"Fate route says Saber recognizes Gilgamesh as a participant from the previous war; needs entity reconciliation between FZ Archer and FSN Gilgamesh before formal edge merge.","confidence":"medium","status":"candidate","sourceRefs":["type-moon-nasuverse/story-text/fate/ch-002-fate-route.txt:98"]},
+    {"candidateId":"cand-w014-shinji-rider-external-control","kind":"relationship","from":"matou-shinji-fsn","to":"rider-medusa-fsn","label":"external-control-apparent-master","reason":"FSN core source says Rider is externally under Shinji's control while Sakura is true Master; preserve as route-sensitive control candidate.","confidence":"medium","status":"candidate","sourceRefs":["type-moon-nasuverse/worldbook-text/src-fsn-core.md:16"]}
+  ]
+}

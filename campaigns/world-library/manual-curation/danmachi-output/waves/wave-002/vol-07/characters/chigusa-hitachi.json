@@ -1,0 +1,54 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "chigusa-hitachi",
+  "volume": "vol-07",
+  "time_range": {"start": "第一章", "end": "第二章"},
+  "sub_arcs": ["寻找远东旧识"],
+  "periods": [
+    {
+      "period_id": "vol-07-ch-01",
+      "volume": "vol-07",
+      "time": "第一章 一帆风顺",
+      "label": "向命传递紧急消息",
+      "name": {"zh": "常陆·千草", "en": "Chigusa Hitachi", "jp": "ヒタチ・千草"},
+      "aliases": ["千草"],
+      "gender": "女",
+      "species": "人类",
+      "occupation": "冒险者",
+      "affiliation": "建御雷眷族",
+      "status": {"location": "赫斯缇雅眷族新总部前院", "state": "焦急来访并把某个消息告诉命"},
+      "appearance": {"overview": "总是用刘海遮住眼睛的少女。", "distinctive": ["刘海遮眼"]},
+      "personality": {"summary": "内向而紧张，此次明显焦急，来访目的令命动摇。", "core_traits": ["内向", "焦急", "重视旧友"]},
+      "relationships": {"mikoto-yamato": "远东出身旧友，原同眷族伙伴", "takemikazuchi": "所属主神"},
+      "summary": "在新总部前院紧张踱步等待命，见面后立刻传递某个令命惊讶的消息，并很快离开。",
+      "key_events": [{"event_id": "chigusa-warns-mikoto", "summary": "来访并向命告知紧急情报。", "sourceRef": "danmachi-main/vol-07/full.txt:1230"}],
+      "evidence_level": "A",
+      "source_refs": ["danmachi-main/vol-07/full.txt:1230", "danmachi-main/vol-07/full.txt:1244", "danmachi-main/vol-07/full.txt:1256"]
+    },
+    {
+      "period_id": "vol-07-ch-02",
+      "volume": "vol-07",
+      "time": "第二章 跑吧！克朗尼",
+      "label": "带命进入风月街",
+      "name": {"zh": "常陆·千草", "en": "Chigusa Hitachi", "jp": "ヒタチ・千草"},
+      "aliases": ["千草"],
+      "gender": "女",
+      "species": "人类",
+      "occupation": "冒险者",
+      "affiliation": "建御雷眷族",
+      "status": {"location": "风月街第三区", "state": "与命寻找疑似失踪远东旧识的人，因不愿樱花进入风月街而只找命同行"},
+      "appearance": {"overview": "刘海遮眼、举止紧张的远东少女。", "distinctive": ["刘海遮眼"]},
+      "personality": {"summary": "害羞内向且恋慕樱花，不愿让他来风月街；为失踪旧识线索鼓起勇气行动。", "core_traits": ["内向", "纯情", "重情义", "焦急"], "desires": ["确认失踪同乡的安危", "不让樱花涉足风月街"]},
+      "relationships": {"mikoto-yamato": "一同进入风月街寻找线索的旧友", "ouka-kashima": "暗恋对象，不愿让其来风月街", "bell-cranel": "被卷入的赫斯缇雅眷族冒险者", "liliruca-arde": "提醒她第三区危险的同伴方", "welf-crozzo": "从男神纠缠中解围的人"},
+      "summary": "千草从有来往的冒险者处听说风月街出现了疑似远东失踪旧识的人，因不愿让樱花来到这种地方，转而找命秘密同行。她在风月街比命更加紧张，被男神纠缠后向贝尔等人道歉，并解释消息来源与隐瞒原因。",
+      "key_events": [
+        {"event_id": "mikoto-and-chigusa-enter-red-light-district", "summary": "与命在南大街会合后进入风月街。", "sourceRef": "danmachi-main/vol-07/full.txt:1270"},
+        {"event_id": "welf-and-lili-confront-mikoto", "summary": "说明风月街出现疑似失踪同乡的传闻。", "sourceRef": "danmachi-main/vol-07/full.txt:1542"}
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-07/full.txt:1330", "danmachi-main/vol-07/full.txt:1542", "danmachi-main/vol-07/full.txt:1568", "danmachi-main/vol-07/full.txt:1586"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-07/full.txt:1220-1596"]
+}

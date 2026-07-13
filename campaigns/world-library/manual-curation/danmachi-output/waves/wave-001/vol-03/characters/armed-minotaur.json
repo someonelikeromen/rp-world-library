@@ -1,0 +1,314 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "armed-minotaur",
+  "volume": "vol-03",
+  "time_range": {
+    "start": "第二章",
+    "end": "第五章"
+  },
+  "sub_arcs": [
+    "minotaur-rematch-setup",
+    "minotaur-rematch"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-03-ch-02",
+      "volume": "vol-03",
+      "time": "第二章",
+      "label": "被奥它选中并训练",
+      "name": {
+        "zh": "武装弥诺陶洛斯",
+        "en": "Armed Minotaur",
+        "jp": "武装ミノタウロス"
+      },
+      "aliases": [
+        "弥诺陶洛斯"
+      ],
+      "titles": [],
+      "gender": "男",
+      "species": "怪兽",
+      "nationality": "地下城",
+      "occupation": "怪兽",
+      "affiliation": "地下城",
+      "status": {
+        "location": "地下城第17层",
+        "condition": "被奥它选中并完成训练；后续已死亡"
+      },
+      "appearance": {
+        "overview": "牛头人身、肌肉虬结的大型怪兽，身高与奥它相等或更高。",
+        "physical": {
+          "height": "约二米以上",
+          "build": "极为强壮",
+          "hair": {},
+          "eyes": {
+            "condition": "布满血丝"
+          }
+        },
+        "attire": {
+          "default": "",
+          "combat": "持奥它给予的大剑"
+        },
+        "voice_quality": {
+          "tone": "以吼叫表达"
+        },
+        "distinctive": [
+          "牛头人身",
+          "马蹄般手指"
+        ]
+      },
+      "personality": {
+        "summary": "凶暴但具本能恐惧，面对奥它的绝对力量会服从命令。",
+        "core_traits": [
+          "凶暴",
+          "戒惧",
+          "可训练"
+        ],
+        "values": [],
+        "fears": [
+          "奥它"
+        ],
+        "desires": [
+          "战斗"
+        ],
+        "strengths": [
+          "巨大力量",
+          "耐久",
+          "使用天然武器"
+        ],
+        "flaws": [
+          "技巧粗糙",
+          "远弱于奥它"
+        ],
+        "inner_conflict": "",
+        "decision_pattern": {
+          "style": "凭本能攻击强敌，受压倒性威慑后服从"
+        }
+      },
+      "voice": {
+        "self_reference": "",
+        "address_pattern": {},
+        "register": {
+          "default": "兽吼"
+        },
+        "catchphrases": [],
+        "quote_samples": []
+      },
+      "habits": {
+        "mannerisms": [
+          "高举武器直线冲锋"
+        ],
+        "daily_routine": "在地下城游荡并攻击冒险者",
+        "quirks": [
+          "对大剑偏头表现困惑"
+        ],
+        "preferences": {}
+      },
+      "background": {
+        "birth": {
+          "place": "地下城",
+          "family": []
+        },
+        "upbringing": "",
+        "education": {
+          "combat": "由奥它强制训练"
+        },
+        "formative_events": [
+          "石斧攻击被奥它单臂完全挡下"
+        ],
+        "pre_story": "曾与冒险者交战，石斧沾血。"
+      },
+      "abilities_owned": [
+        "怪力",
+        "高耐久"
+      ],
+      "possessions_owned": [
+        "奥它给予的大剑"
+      ],
+      "relationships": {
+        "ottar": {
+          "type": "训练者与支配者",
+          "summary": "被奥它选中、武装并训练。"
+        },
+        "bell-cranel": {
+          "type": "预定决战对手",
+          "summary": "将被送到贝尔面前完成生死试炼。"
+        }
+      },
+      "knowledge": [],
+      "secrets": [],
+      "summary": "奥它从第17层诸多弥诺陶洛斯中选中此个体，给予大剑并进行长时间训练，准备把它送到贝尔面前。",
+      "key_events": [
+        {
+          "event_id": "ottar-trains-armed-minotaur-for-bell",
+          "summary": "被奥它选中并获授大剑。",
+          "sourceRef": "danmachi-main/vol-03/full.txt:1564"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-03/full.txt:1538",
+        "danmachi-main/vol-03/full.txt:1564",
+        "danmachi-main/vol-03/full.txt:1608"
+      ]
+    },
+    {
+      "period_id": "vol-03-ch-04-to-ch-05",
+      "volume": "vol-03",
+      "time": "第四章至第五章",
+      "label": "脱逃、追猎并败于贝尔",
+      "name": {
+        "zh": "武装弥诺陶洛斯",
+        "en": "Armed Minotaur",
+        "jp": "武装ミノタウロス"
+      },
+      "aliases": [
+        "独角弥诺陶洛斯"
+      ],
+      "titles": [],
+      "gender": "男",
+      "species": "怪兽",
+      "nationality": "地下城",
+      "occupation": "怪兽",
+      "affiliation": "地下城",
+      "status": {
+        "location": "地下城第9层",
+        "condition": "被贝尔击杀"
+      },
+      "appearance": {
+        "overview": "牛头人身、独角、肌肉虬结，持奥它提供的大剑。",
+        "physical": {
+          "height": "二米以上",
+          "build": "极为强壮",
+          "hair": {},
+          "eyes": {
+            "condition": "布满血丝"
+          }
+        },
+        "attire": {
+          "default": "",
+          "combat": "银色大剑"
+        },
+        "voice_quality": {
+          "tone": "兽吼"
+        },
+        "distinctive": [
+          "一支角被折断",
+          "受奥它训练",
+          "持冒险者大剑"
+        ]
+      },
+      "personality": {
+        "summary": "经奥它训练后获得战术与追猎能力，对贝尔表现出明确敌意与决胜意志。",
+        "core_traits": [
+          "凶暴",
+          "执着",
+          "好战",
+          "具战斗学习能力"
+        ],
+        "values": [
+          "战胜对手"
+        ],
+        "fears": [
+          "艾丝的压倒性力量"
+        ],
+        "desires": [
+          "与贝尔决出胜负"
+        ],
+        "strengths": [
+          "LV.2级力量与耐久",
+          "大剑技巧",
+          "追猎与欺敌"
+        ],
+        "flaws": [
+          "动作愚直",
+          "最终被贝尔看穿"
+        ],
+        "inner_conflict": "",
+        "decision_pattern": {
+          "style": "以大剑压制，针对赫斯缇雅之刃重点防御并在绝境发动独角冲撞"
+        }
+      },
+      "voice": {
+        "self_reference": "",
+        "address_pattern": {},
+        "register": {
+          "default": "兽吼"
+        },
+        "catchphrases": [],
+        "quote_samples": []
+      },
+      "habits": {
+        "mannerisms": [
+          "追猎目标时保持压力",
+          "被逼入绝境时四足冲撞"
+        ],
+        "daily_routine": "从上层追猎贝尔",
+        "quirks": [],
+        "preferences": {}
+      },
+      "background": {
+        "birth": {
+          "place": "地下城",
+          "family": []
+        },
+        "upbringing": "",
+        "education": {
+          "combat": "奥它长时间训练"
+        },
+        "formative_events": [
+          "挣脱货箱锁链并屠杀加努一行",
+          "在第9层与贝尔死斗"
+        ],
+        "pre_story": "被奥它挑选为贝尔试炼对手。"
+      },
+      "abilities_owned": [
+        "怪力",
+        "高耐久",
+        "大剑战斗",
+        "独角冲撞"
+      ],
+      "possessions_owned": [
+        "奥它给予的大剑（决战中折断）"
+      ],
+      "relationships": {
+        "ottar": {
+          "type": "训练者",
+          "summary": "由奥它筛选、武装和训练。"
+        },
+        "bell-cranel": {
+          "type": "宿敌与最终击杀者",
+          "summary": "迫使贝尔跨越创伤并完成首次伟业。"
+        }
+      },
+      "knowledge": [
+        "赫斯缇雅之刃是贝尔唯一能造成有效伤害的武器"
+      ],
+      "secrets": [],
+      "summary": "武装弥诺陶洛斯脱离货箱后屠杀盗贼，并在第9层追上贝尔。它以力量、耐久和大剑技巧压制贝尔，最终在大剑折断后，被贝尔以赫斯缇雅之刃刺入体内并连续施放火焰闪电击杀。",
+      "key_events": [
+        {
+          "event_id": "armed-minotaur-escapes-ottar-crate",
+          "summary": "挣脱货箱并进入上层。",
+          "sourceRef": "danmachi-main/vol-03/full.txt:4378"
+        },
+        {
+          "event_id": "bell-defeats-armed-minotaur",
+          "summary": "与贝尔完成死斗并被击杀。",
+          "sourceRef": "danmachi-main/vol-03/full.txt:6822"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-03/full.txt:4378",
+        "danmachi-main/vol-03/full.txt:4866",
+        "danmachi-main/vol-03/full.txt:6822"
+      ]
+    }
+  ],
+  "source_refs": [
+    "danmachi-main/vol-03/full.txt:1538",
+    "danmachi-main/vol-03/full.txt:1608",
+    "danmachi-main/vol-03/full.txt:6822"
+  ]
+}

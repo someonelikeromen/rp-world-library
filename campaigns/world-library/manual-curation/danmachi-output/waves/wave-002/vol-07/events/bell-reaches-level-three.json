@@ -1,0 +1,26 @@
+{
+  "_schema": "rp-event-volume-v1",
+  "world": "danmachi",
+  "event_id": "bell-reaches-level-three",
+  "volume": "vol-07",
+  "periods": [
+    {
+      "period_id": "vol-07-ch-01",
+      "volume": "vol-07",
+      "time": "第一章 一帆风顺",
+      "name": {"zh": "贝尔升上Lv.3", "en": "Bell Reaches Level Three"},
+      "type": "status_change",
+      "location": "欧拉丽",
+      "summary": "战争游戏热潮未退时，贝尔·克朗尼仅用一个月从Lv.2升至Lv.3的官方消息传遍都市，引发冒险者、诸神与相关第一级冒险者震动。",
+      "cause": "贝尔在战争游戏与此前冒险中累积足以升级的伟业。",
+      "process": "公会本部告示牌公布所需期间一个月与贝尔升上Lv.3，都市人群议论纷纷。",
+      "outcome": "赫斯缇雅眷族名声进一步扩大，后续吸引大量志愿入团者。",
+      "participants": ["bell-cranel", "hestia"],
+      "related_events": ["hestia-familia-recruitment-collapse"],
+      "significance": "确认贝尔继续以异常速度成长，并推动赫斯缇雅眷族从底层派系进入都市焦点。",
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-07/full.txt:320"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-07/full.txt:295-320"]
+}

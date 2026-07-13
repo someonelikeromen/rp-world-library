@@ -5,7 +5,8 @@
   "scripts": {
     "test:rp-random": "node packages/rp-random/test/run-tests.js",
     "test:rp-achievements": "node packages/rp-achievements/test/run-tests.js",
-    "test:rp-all": "npm run test:rp-random && npm run test:rp-achievements"
+    "test:rp-all": "npm run test:rp-random && npm run test:rp-achievements && npm run test:rp-exchange",
+    "test:rp-exchange": "node packages/rp-exchange/test/run-tests.js"
   },
   "workspaces": [
     "packages/*"

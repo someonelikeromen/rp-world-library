@@ -1,0 +1,107 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "gluttony",
+  "volume": "vol-07",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-07/full.txt:6460"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-07-main",
+      "volume": "vol-07",
+      "time": "迷宫救援战",
+      "name": {
+        "zh": "暴食",
+        "en": "Gluttony"
+      },
+      "aliases": [
+        "巴哈姆特神装"
+      ],
+      "type": "supernatural / technology / combat",
+      "description": "神装机龙巴哈姆特的能力，压缩时间并让路克斯以超高速连续斩击行动。",
+      "details": {
+        "drag_ride": "bahamut-divine-drag-ride",
+        "combat_use": "以时间压缩配合大剑高速斩断目标"
+      },
+      "activation": {
+        "condition": "装备巴哈姆特并发动神装",
+        "incantation": "《暴食》",
+        "time": "瞬间",
+        "cost": "极高体力与精神负担"
+      },
+      "effects": [
+        "加速路克斯行动与斩击",
+        "可在极短时间内破坏机龙关键部位",
+        "与神速制御及即击连携"
+      ],
+      "power_level": {
+        "initial": "高",
+        "peak": "本卷用于击碎迪尔威飞翔机龙X",
+        "evolution": []
+      },
+      "known_feats": [
+        "在迷宫第三层斩断幻神兽",
+        "最终战中切断迪尔威飞翔机龙X装甲与幻创机核"
+      ],
+      "shared_by": [
+        "lux-arcadia"
+      ],
+      "see_also": [
+        "bahamut-divine-drag-ride",
+        "brand-blade"
+      ],
+      "countered_by": [],
+      "counters": [
+        "demon-humanoid"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-07/full.txt:6460",
+        "saijaku-muhai-bahamut-main/vol-07/full.txt:7420"
+      ]
+    },
+    {
+      "period_id": "vol-09",
+      "volume": "vol-09",
+      "time": "vol-09",
+      "name": {
+        "zh": "暴食",
+        "en": "Gluttony"
+      },
+      "aliases": [
+        "压缩强化"
+      ],
+      "type": "supernatural / technology",
+      "description": "神装机龙巴哈姆特的神装，压缩时间流逝并使自身或指定范围内的效果超加速。",
+      "details": {
+        "used_by": "lux",
+        "drag_ride": "bahamut",
+        "vol_09_development": "路克斯完成广范围发动并能强化赛莉丝雷击。"
+      },
+      "activation": {
+        "condition": "巴哈姆特启动；高度集中力",
+        "incantation": "《暴食》",
+        "time": "instant",
+        "cost": "高精神与身体负荷"
+      },
+      "effects": [
+        "局部时间减速与自身超加速",
+        "能将武器或雷击威力提升到十数倍"
+      ],
+      "known_feats": [
+        "击败魔人化盖达夫",
+        "辅助赛莉丝一网打尽圣蚀分体"
+      ],
+      "shared_by": [
+        "lux"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:1",
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:6737"
+      ]
+    }
+  ]
+}

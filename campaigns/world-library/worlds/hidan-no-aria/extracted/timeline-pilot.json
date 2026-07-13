@@ -1,0 +1,782 @@
+{
+  "_schema": "rp-timeline-v1",
+  "world": "hidan-no-aria",
+  "calendar": {
+    "system": "公历",
+    "anchor": "2009年4月，日本新学期开学（二年级）",
+    "confidence": "high",
+    "reasoning": "Vol-05明确标注2009年8月；日本高中学年4月开始；Vol-01从开学典礼（4月初）开始，Vol-02时间标注5月。2009年4月8日为周三，与日本典型开学日吻合。"
+  },
+  "events": [
+    {
+      "event_id": "shirayuki-morning-visit",
+      "label": "白雪清晨到访送餐",
+      "time_span": {
+        "start": "2009-04-08T07:00:00",
+        "end": "2009-04-08T07:55:00",
+        "precision": "estimated",
+        "duration_display": "约55分钟",
+        "reasoning": "开学第一天早晨7点门铃响；原文提到7:55时金次看完邮件，即将错过7:58的公车。开学典礼日确定为4月8日（周三）基于2009年日本校历和Vol-05时间锚点。"
+      },
+      "nodes": [
+        {
+          "node_id": "shirayuki-morning-visit.arrival",
+          "label": "白雪按门铃送豪华便当",
+          "timestamp": "2009-04-08T07:00:00",
+          "participants": ["kinji", "shirayuki"]
+        },
+        {
+          "node_id": "shirayuki-morning-visit.arming",
+          "label": "白雪帮金次穿防弹制服、佩枪",
+          "timestamp": "2009-04-08T07:30:00",
+          "participants": ["kinji", "shirayuki"]
+        },
+        {
+          "node_id": "shirayuki-morning-visit.warning",
+          "label": "白雪告知武侦杀手警讯",
+          "timestamp": "2009-04-08T07:40:00",
+          "participants": ["kinji", "shirayuki"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-01",
+      "participant_ids": ["kinji", "shirayuki"],
+      "cause": null,
+      "outcome": "bike-hijack-first-meet"
+    },
+    {
+      "event_id": "bike-hijack-first-meet",
+      "label": "脚踏车劫持与亚莉亚初遇",
+      "time_span": {
+        "start": "2009-04-08T07:55:00",
+        "end": "2009-04-08T08:30:00",
+        "precision": "estimated",
+        "duration_display": "约35分钟",
+        "reasoning": "金次错过7:58公车后骑脚踏车上学途中被劫；亚莉亚从女生宿舍跳伞拦截；事件结束于第二操场及体育仓库。"
+      },
+      "nodes": [
+        {
+          "node_id": "bike-hijack-first-meet.bomb",
+          "label": "理子远程操控电动滑板车装减速炸弹",
+          "timestamp": "2009-04-08T07:58:00",
+          "participants": ["kinji", "riko"]
+        },
+        {
+          "node_id": "bike-hijack-first-meet.aria-descends",
+          "label": "亚莉亚从女生宿舍顶楼跳伞双枪击毁滑板车",
+          "timestamp": "2009-04-08T08:02:00",
+          "participants": ["kinji", "aria"]
+        },
+        {
+          "node_id": "bike-hijack-first-meet.hss-trigger",
+          "label": "跳箱内身体接触触发金次爆发模式(HSS)",
+          "timestamp": "2009-04-08T08:10:00",
+          "participants": ["kinji", "aria"]
+        },
+        {
+          "node_id": "bike-hijack-first-meet.destroy",
+          "label": "爆发模式金次击毁7台电动滑板车乌兹枪座",
+          "timestamp": "2009-04-08T08:20:00",
+          "participants": ["kinji", "aria"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-01",
+      "participant_ids": ["kinji", "aria", "riko"],
+      "cause": "shirayuki-morning-visit",
+      "outcome": "aria-invades-dorm"
+    },
+    {
+      "event_id": "aria-invades-dorm",
+      "label": "亚莉亚入侵男生宿舍",
+      "time_span": {
+        "start": "2009-04-08T15:30:00",
+        "end": "2009-04-08T21:00:00",
+        "precision": "estimated",
+        "duration_display": "约5.5小时",
+        "reasoning": "开学第一天放学后；亚莉亚跟踪金次到宿舍；期间白雪来访送竹笋饭；亚莉亚洗澡后画线分床。"
+      },
+      "nodes": [
+        {
+          "node_id": "aria-invades-dorm.arrival",
+          "label": "亚莉亚带旅行箱强行要求金次当奴隶",
+          "timestamp": "2009-04-08T15:30:00",
+          "participants": ["kinji", "aria"]
+        },
+        {
+          "node_id": "aria-invades-dorm.shirayuki-visit",
+          "label": "白雪穿巫女服送竹笋饭",
+          "timestamp": "2009-04-08T18:30:00",
+          "participants": ["kinji", "shirayuki"]
+        },
+        {
+          "node_id": "aria-invades-dorm.bath-incident",
+          "label": "亚莉亚出浴全裸→金次误拿内衣被踢被打",
+          "timestamp": "2009-04-08T19:30:00",
+          "participants": ["kinji", "aria"]
+        },
+        {
+          "node_id": "aria-invades-dorm.line",
+          "label": "画线分床睡→强行同居确立",
+          "timestamp": "2009-04-08T21:00:00",
+          "participants": ["kinji", "aria"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-01",
+      "participant_ids": ["kinji", "aria", "shirayuki"],
+      "cause": "bike-hijack-first-meet",
+      "outcome": "cat-request-riko-investigation"
+    },
+    {
+      "event_id": "cat-request-riko-investigation",
+      "label": "找猫委托与理子情报收集",
+      "time_span": {
+        "start": "2009-04-09T08:00:00",
+        "end": "2009-04-09T16:00:00",
+        "precision": "estimated",
+        "duration_display": "约8小时",
+        "reasoning": "开学第二天；金次接找猫委托避亚莉亚；理子在温室以美少女游戏交换情报并暗中改动金次手表。"
+      },
+      "nodes": [
+        {
+          "node_id": "cat-request-riko-investigation.mcdonalds",
+          "label": "青海公园麦当劳可乐吸管错拿间接接吻",
+          "timestamp": "2009-04-09T12:00:00",
+          "participants": ["kinji", "aria"]
+        },
+        {
+          "node_id": "cat-request-riko-investigation.cat",
+          "label": "找到猫→金次翻进水沟",
+          "timestamp": "2009-04-09T13:30:00",
+          "participants": ["kinji", "aria"]
+        },
+        {
+          "node_id": "cat-request-riko-investigation.intel",
+          "label": "理子提供亚莉亚S级/双剑双枪/99次强袭/欧尔梅斯情报",
+          "timestamp": "2009-04-09T15:00:00",
+          "participants": ["kinji", "riko"]
+        },
+        {
+          "node_id": "cat-request-riko-investigation.watch",
+          "label": "理子借口修手表暗中调整时间（公车事件的伏笔）",
+          "timestamp": "2009-04-09T15:30:00",
+          "participants": ["kinji", "riko"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-01",
+      "participant_ids": ["kinji", "aria", "riko"],
+      "cause": "aria-invades-dorm",
+      "outcome": "assault-return-claw-machine"
+    },
+    {
+      "event_id": "assault-return-claw-machine",
+      "label": "金次回强袭科与夹娃娃机",
+      "time_span": {
+        "start": "2009-04-13T09:00:00",
+        "end": "2009-04-13T17:00:00",
+        "precision": "estimated",
+        "duration_display": "约8小时",
+        "reasoning": "开学几天后；金次以选修方式回强袭科；之后与亚莉亚去电玩中心夹娃娃。估计为下一个周一（4月13日）。"
+      },
+      "nodes": [
+        {
+          "node_id": "assault-return-claw-machine.assault",
+          "label": "强袭科旧友夏海三上以「死」字欢迎金次回归",
+          "timestamp": "2009-04-13T10:00:00",
+          "participants": ["kinji"]
+        },
+        {
+          "node_id": "assault-return-claw-machine.arcade",
+          "label": "亚莉亚沉迷夹娃娃机→金次一夹双得Leopon吊饰→击掌",
+          "timestamp": "2009-04-13T15:00:00",
+          "participants": ["kinji", "aria"]
+        }
+      ],
+      "event_type": "side",
+      "volume": "vol-01",
+      "participant_ids": ["kinji", "aria"],
+      "cause": "cat-request-riko-investigation",
+      "outcome": "bus-hijacking"
+    },
+    {
+      "event_id": "bus-hijacking",
+      "label": "武侦高中公车挟持事件",
+      "time_span": {
+        "start": "2009-04-15T07:30:00",
+        "end": "2009-04-15T09:00:00",
+        "precision": "estimated",
+        "duration_display": "约1.5小时",
+        "reasoning": "大雨天早晨；金次因手表被理子改动而错过公车；亚莉亚拦截电波后召集直升机追击。日期估计为4月中旬周三。"
+      },
+      "nodes": [
+        {
+          "node_id": "bus-hijacking.hijack",
+          "label": "理子远程操控雷诺蜘蛛跑车挟持公车（~60名武侦学生）",
+          "timestamp": "2009-04-15T07:45:00",
+          "participants": ["riko"]
+        },
+        {
+          "node_id": "bus-hijacking.parachute",
+          "label": "亚莉亚与金次从车辆科直升机伞降公车顶",
+          "timestamp": "2009-04-15T08:00:00",
+          "participants": ["kinji", "aria", "reki"]
+        },
+        {
+          "node_id": "bus-hijacking.scar",
+          "label": "亚莉亚为救无防护金次被子弹擦伤额头→永久交叉疤痕",
+          "timestamp": "2009-04-15T08:20:00",
+          "participants": ["kinji", "aria"]
+        },
+        {
+          "node_id": "bus-hijacking.sniper",
+          "label": "蕾姬狙击分离炸弹→海中引爆→武藤驾驶公车成功停靠",
+          "timestamp": "2009-04-15T08:45:00",
+          "participants": ["reki", "muto"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-01",
+      "participant_ids": ["kinji", "aria", "reki", "muto", "riko"],
+      "cause": "assault-return-claw-machine",
+      "outcome": "hospital-argument"
+    },
+    {
+      "event_id": "hospital-argument",
+      "label": "武侦病院争吵",
+      "time_span": {
+        "start": "2009-04-16T14:00:00",
+        "end": "2009-04-16T15:00:00",
+        "precision": "estimated",
+        "duration_display": "约1小时",
+        "reasoning": "公车事件隔天；金次带桃馒探病；两人争吵后决裂。"
+      },
+      "nodes": [
+        {
+          "node_id": "hospital-argument.mirror",
+          "label": "金次看到亚莉亚照镜子忧伤额头疤痕",
+          "timestamp": "2009-04-16T14:10:00",
+          "participants": ["kinji", "aria"]
+        },
+        {
+          "node_id": "hospital-argument.contract-end",
+          "label": "亚莉亚说契约结束→金次可以回侦探科了",
+          "timestamp": "2009-04-16T14:20:00",
+          "participants": ["kinji", "aria"]
+        },
+        {
+          "node_id": "hospital-argument.trauma",
+          "label": "金次吐露大哥金一死亡和背叛感→两人决裂",
+          "timestamp": "2009-04-16T14:40:00",
+          "participants": ["kinji", "aria"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-01",
+      "participant_ids": ["kinji", "aria"],
+      "cause": "bus-hijacking",
+      "outcome": "kanae-visitation"
+    },
+    {
+      "event_id": "kanae-visitation",
+      "label": "探监神崎香苗",
+      "time_span": {
+        "start": "2009-04-19T13:00:00",
+        "end": "2009-04-19T16:00:00",
+        "precision": "estimated",
+        "duration_display": "约3小时",
+        "reasoning": "出院后的星期天；亚莉亚变发后去新宿警察署探母；金次跟踪同行。日期为4月19日周日。"
+      },
+      "nodes": [
+        {
+          "node_id": "kanae-visitation.hair",
+          "label": "金次在美容院旁偶遇变发遮额的亚莉亚",
+          "timestamp": "2009-04-19T12:00:00",
+          "participants": ["kinji", "aria"]
+        },
+        {
+          "node_id": "kanae-visitation.meeting",
+          "label": "拘留所与母亲香苗会面→香苗透露伊·幽和伙伴必要性",
+          "timestamp": "2009-04-19T14:00:00",
+          "participants": ["kinji", "aria", "kanae"]
+        },
+        {
+          "node_id": "kanae-visitation.breakdown",
+          "label": "香苗被强行带走→亚莉亚在ALTA百货前崩溃大哭",
+          "timestamp": "2009-04-19T15:30:00",
+          "participants": ["kinji", "aria"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-01",
+      "participant_ids": ["kinji", "aria", "kanae"],
+      "cause": "hospital-argument",
+      "outcome": "riko-lures-kinji"
+    },
+    {
+      "event_id": "riko-lures-kinji",
+      "label": "理子诱出金次（艾斯黛拉俱乐部）",
+      "time_span": {
+        "start": "2009-04-20T16:00:00",
+        "end": "2009-04-20T17:30:00",
+        "precision": "estimated",
+        "duration_display": "约1.5小时",
+        "reasoning": "探监后的星期一放学后；理子约金次到台场艾斯黛拉俱乐部。日期为4月20日周一。"
+      },
+      "nodes": [
+        {
+          "node_id": "riko-lures-kinji.karaoke",
+          "label": "理子提供浦贺冲海难资料→金一之死可能与武侦杀手有关",
+          "timestamp": "2009-04-20T16:30:00",
+          "participants": ["kinji", "riko"]
+        },
+        {
+          "node_id": "riko-lures-kinji.hss-trigger",
+          "label": "理子压倒金次触发爆发模式",
+          "timestamp": "2009-04-20T17:00:00",
+          "participants": ["kinji", "riko"]
+        },
+        {
+          "node_id": "riko-lures-kinji.deduction",
+          "label": "爆发模式金次推理出武侦杀手手法和劫机计划→冲向羽田",
+          "timestamp": "2009-04-20T17:15:00",
+          "participants": ["kinji"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-01",
+      "participant_ids": ["kinji", "riko"],
+      "cause": "kanae-visitation",
+      "outcome": "ana600-hijack"
+    },
+    {
+      "event_id": "ana600-hijack",
+      "label": "ANA600号劫机事件",
+      "time_span": {
+        "start": "2009-04-20T19:00:00",
+        "end": "2009-04-20T22:00:00",
+        "precision": "estimated",
+        "duration_display": "约3小时",
+        "reasoning": "台风夜晚；金次从羽田登机追击亚莉亚；理子伪装空服员劫机；飞行途中对决并迫降空地岛。"
+      },
+      "nodes": [
+        {
+          "node_id": "ana600-hijack.board",
+          "label": "金次登机阻止亚莉亚回伦敦",
+          "timestamp": "2009-04-20T19:30:00",
+          "participants": ["kinji", "aria"]
+        },
+        {
+          "node_id": "ana600-hijack.reveal",
+          "label": "理子自揭罗苹四世&武侦杀手→头发武器重创亚莉亚",
+          "timestamp": "2009-04-20T20:30:00",
+          "participants": ["kinji", "aria", "riko"]
+        },
+        {
+          "node_id": "ana600-hijack.revival",
+          "label": "亚莉亚心脏骤停→金次Razzo注射救活→接吻触发最强HSS",
+          "timestamp": "2009-04-20T21:00:00",
+          "participants": ["kinji", "aria"]
+        },
+        {
+          "node_id": "ana600-hijack.defeat",
+          "label": "双重伪装反杀→断理子头发武器→理子跳机",
+          "timestamp": "2009-04-20T21:20:00",
+          "participants": ["kinji", "aria", "riko"]
+        },
+        {
+          "node_id": "ana600-hijack.missile",
+          "label": "两枚飞弹击中引擎→仅剩7分钟燃油",
+          "timestamp": "2009-04-20T21:40:00",
+          "participants": ["kinji", "aria"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-01",
+      "participant_ids": ["kinji", "aria", "riko", "muto", "reki"],
+      "cause": "riko-lures-kinji",
+      "outcome": "empty-island-landing"
+    },
+    {
+      "event_id": "empty-island-landing",
+      "label": "ANA600空地岛迫降",
+      "time_span": {
+        "start": "2009-04-20T21:50:00",
+        "end": "2009-04-20T22:10:00",
+        "precision": "estimated",
+        "duration_display": "约20分钟",
+        "reasoning": "ANA600劫机尾声；金次爆发模式听11人讲解降落；空地岛对角线2050m；利用42m/s逆风。"
+      },
+      "nodes": [
+        {
+          "node_id": "empty-island-landing.learn",
+          "label": "爆发模式金次同时听11人讲解学会降落",
+          "timestamp": "2009-04-20T21:55:00",
+          "participants": ["kinji"]
+        },
+        {
+          "node_id": "empty-island-landing.approach",
+          "label": "亚莉亚驾驶穿越东京低空→武藤同学手电照亮空地岛",
+          "timestamp": "2009-04-20T22:00:00",
+          "participants": ["kinji", "aria", "muto"]
+        },
+        {
+          "node_id": "empty-island-landing.landing",
+          "label": "机翼撞风车柱→成功迫降→全员生还",
+          "timestamp": "2009-04-20T22:10:00",
+          "participants": ["kinji", "aria", "muto", "reki"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-01",
+      "participant_ids": ["kinji", "aria", "muto", "reki"],
+      "cause": "ana600-hijack",
+      "outcome": "partner-choice"
+    },
+    {
+      "event_id": "partner-choice",
+      "label": "金次选择成为亚莉亚的伙伴",
+      "time_span": {
+        "start": "2009-04-20T23:00:00",
+        "end": "2009-04-20T23:30:00",
+        "precision": "estimated",
+        "duration_display": "约30分钟",
+        "reasoning": "迫降后夜晚；亚莉亚来告别→金次看到她门外哭泣→撕毁转学申请→飞奔女生宿舍屋顶。"
+      },
+      "nodes": [
+        {
+          "node_id": "partner-choice.farewell",
+          "label": "亚莉亚来告别说明天回伦敦→尊重金次意愿不强迫",
+          "timestamp": "2009-04-20T23:00:00",
+          "participants": ["kinji", "aria"]
+        },
+        {
+          "node_id": "partner-choice.cry",
+          "label": "金次从窥孔看到亚莉亚门外哭泣",
+          "timestamp": "2009-04-20T23:05:00",
+          "participants": ["kinji", "aria"]
+        },
+        {
+          "node_id": "partner-choice.tear",
+          "label": "金次撕毁转学申请资料→飞奔女生宿舍屋顶",
+          "timestamp": "2009-04-20T23:10:00",
+          "participants": ["kinji"]
+        },
+        {
+          "node_id": "partner-choice.jump",
+          "label": "亚莉亚从直升机跳下拥住金次→摔进温室",
+          "timestamp": "2009-04-20T23:20:00",
+          "participants": ["kinji", "aria"]
+        },
+        {
+          "node_id": "partner-choice.declaration",
+          "label": "亚莉亚宣布金次是J.H.华生→公布真名「神崎·福尔摩斯·亚莉亚」",
+          "timestamp": "2009-04-20T23:25:00",
+          "participants": ["kinji", "aria"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-01",
+      "participant_ids": ["kinji", "aria"],
+      "cause": "empty-island-landing",
+      "outcome": "shirayuki-armed-miko-cliffhanger"
+    },
+    {
+      "event_id": "shirayuki-armed-miko-cliffhanger",
+      "label": "白雪武装巫女闯入（Vol-01结尾/Vol-02开篇）",
+      "time_span": {
+        "start": "2009-04-20T23:40:00",
+        "end": "2009-04-21T00:30:00",
+        "precision": "estimated",
+        "duration_display": "约50分钟",
+        "reasoning": "最终章结尾；金次和亚莉亚回到房间后不久；白雪从恐山合宿归来；激战至4月21日凌晨（直接过渡至Vol-02开篇战斗）。"
+      },
+      "nodes": [
+        {
+          "node_id": "shirayuki-armed-miko-cliffhanger.emails",
+          "label": "金次手机收到白雪49封恐吓邮件+18通未接",
+          "timestamp": "2009-04-20T23:42:00",
+          "participants": ["kinji", "shirayuki"]
+        },
+        {
+          "node_id": "shirayuki-armed-miko-cliffhanger.door",
+          "label": "武装巫女白雪斩开防盗铁门闯入",
+          "timestamp": "2009-04-20T23:48:00",
+          "participants": ["kinji", "aria", "shirayuki"]
+        },
+        {
+          "node_id": "shirayuki-armed-miko-cliffhanger.battle",
+          "label": "白雪vs亚莉亚激战→枪战刀战破坏房间→金次调解",
+          "timestamp": "2009-04-21T00:00:00",
+          "participants": ["kinji", "aria", "shirayuki"]
+        },
+        {
+          "node_id": "shirayuki-armed-miko-cliffhanger.resolve",
+          "label": "平手→澄清误会→战后三人状态",
+          "timestamp": "2009-04-21T00:30:00",
+          "participants": ["kinji", "aria", "shirayuki"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-01",
+      "participant_ids": ["kinji", "aria", "shirayuki"],
+      "cause": "partner-choice",
+      "outcome": "faculty-infiltration"
+    },
+    {
+      "event_id": "faculty-infiltration",
+      "label": "教务科潜入",
+      "time_span": {
+        "start": "2009-04-22T12:00:00",
+        "end": "2009-04-22T13:00:00",
+        "precision": "estimated",
+        "duration_display": "约1小时",
+        "reasoning": "白雪袭击事件后数日；亚莉亚和金次潜入教务科通风口偷听缀老师与白雪对话；得知魔剑盯上白雪。"
+      },
+      "nodes": [
+        {
+          "node_id": "faculty-infiltration.vent",
+          "label": "亚莉亚和金次通过天花板通风口潜入",
+          "timestamp": "2009-04-22T12:10:00",
+          "participants": ["kinji", "aria"]
+        },
+        {
+          "node_id": "faculty-infiltration.maken",
+          "label": "偷听缀老师警告→魔剑（贞德·达鲁克）盯上白雪",
+          "timestamp": "2009-04-22T12:30:00",
+          "participants": ["kinji", "aria", "shirayuki"]
+        },
+        {
+          "node_id": "faculty-infiltration.volunteer",
+          "label": "亚莉亚跳入室内自荐当保镖→白雪要求金次必须同行",
+          "timestamp": "2009-04-22T12:50:00",
+          "participants": ["kinji", "aria", "shirayuki"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-02",
+      "participant_ids": ["kinji", "aria", "shirayuki"],
+      "cause": "shirayuki-armed-miko-cliffhanger",
+      "outcome": "bodyguard-contract"
+    },
+    {
+      "event_id": "bodyguard-contract",
+      "label": "保镖签约与白雪入住",
+      "time_span": {
+        "start": "2009-04-23T09:00:00",
+        "end": "2009-04-23T18:00:00",
+        "precision": "estimated",
+        "duration_display": "约9小时",
+        "reasoning": "黄金周前；白雪搬入金次房间；武藤用轻卡车帮忙搬家；亚莉亚将房间要塞化。"
+      },
+      "nodes": [
+        {
+          "node_id": "bodyguard-contract.move",
+          "label": "武藤开轻卡车运白雪行李→三人同居正式开始",
+          "timestamp": "2009-04-23T10:00:00",
+          "participants": ["kinji", "shirayuki", "muto"]
+        },
+        {
+          "node_id": "bodyguard-contract.fortress",
+          "label": "亚莉亚装设红外线探测器等监控设备→房间要塞化",
+          "timestamp": "2009-04-23T14:00:00",
+          "participants": ["aria"]
+        },
+        {
+          "node_id": "bodyguard-contract.cleaning",
+          "label": "白雪展现神级家政能力打扫战场废墟",
+          "timestamp": "2009-04-23T16:00:00",
+          "participants": ["shirayuki"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-02",
+      "participant_ids": ["kinji", "aria", "shirayuki", "muto"],
+      "cause": "faculty-infiltration",
+      "outcome": "kasai-park-fireworks"
+    },
+    {
+      "event_id": "kasai-park-fireworks",
+      "label": "葛西临海公园烟火",
+      "time_span": {
+        "start": "2009-05-05T19:00:00",
+        "end": "2009-05-05T21:30:00",
+        "precision": "day",
+        "duration_display": "约2.5小时",
+        "reasoning": "原文明确标注5月5日（儿童节/黄金周最后一天）；金次带白雪去葛西临海公园看迪士尼烟火。"
+      },
+      "nodes": [
+        {
+          "node_id": "kasai-park-fireworks.late",
+          "label": "金次迟到→错过正式迪士尼烟火",
+          "timestamp": "2009-05-05T19:30:00",
+          "participants": ["kinji", "shirayuki"]
+        },
+        {
+          "node_id": "kasai-park-fireworks.sparkler",
+          "label": "金次买线香烟火→两人海滩放烟火",
+          "timestamp": "2009-05-05T20:00:00",
+          "participants": ["kinji", "shirayuki"]
+        },
+        {
+          "node_id": "kasai-park-fireworks.confession",
+          "label": "白雪表白请求接吻→被迪士尼烟火声打断→暗示金次会被亚莉亚带走",
+          "timestamp": "2009-05-05T20:30:00",
+          "participants": ["kinji", "shirayuki"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-02",
+      "participant_ids": ["kinji", "shirayuki"],
+      "cause": "bodyguard-contract",
+      "outcome": "underground-warehouse-battle"
+    },
+    {
+      "event_id": "underground-warehouse-battle",
+      "label": "地下仓库决战（魔剑贞德·达鲁克）",
+      "time_span": {
+        "start": "2009-05-09T14:00:00",
+        "end": "2009-05-09T17:00:00",
+        "precision": "estimated",
+        "duration_display": "约3小时",
+        "reasoning": "亚特希雅杯开幕日下午；连休结束后亚特希雅杯开始；白雪被魔剑贞德绑架至地下仓库。估计黄金周后首个周末5月9日（周六）。"
+      },
+      "nodes": [
+        {
+          "node_id": "underground-warehouse-battle.kidnap",
+          "label": "白雪失踪→学校发布状况D7",
+          "timestamp": "2009-05-09T13:30:00",
+          "participants": ["shirayuki", "jeanne"]
+        },
+        {
+          "node_id": "underground-warehouse-battle.frozen",
+          "label": "金次追踪至地下仓库→被贞德冰冻超能力困住",
+          "timestamp": "2009-05-09T14:30:00",
+          "participants": ["kinji", "jeanne"]
+        },
+        {
+          "node_id": "underground-warehouse-battle.aria-captured",
+          "label": "亚莉亚现身救援→被伪装成白雪的贞德俘获",
+          "timestamp": "2009-05-09T15:00:00",
+          "participants": ["aria", "jeanne"]
+        },
+        {
+          "node_id": "underground-warehouse-battle.hss-kiss",
+          "label": "金次主动进入爆发模式→水中吻白雪供氧→快速开锁救出",
+          "timestamp": "2009-05-09T15:30:00",
+          "participants": ["kinji", "shirayuki"]
+        },
+        {
+          "node_id": "underground-warehouse-battle.flame",
+          "label": "白雪解开头带封印→绯巫女火焰vs贞德冰冻超能力",
+          "timestamp": "2009-05-09T16:00:00",
+          "participants": ["shirayuki", "jeanne"]
+        },
+        {
+          "node_id": "underground-warehouse-battle.arrest",
+          "label": "金次空手夺白刃制住贞德→白雪斩断杜兰朵→亚莉亚手铐逮捕",
+          "timestamp": "2009-05-09T16:30:00",
+          "participants": ["kinji", "aria", "shirayuki", "jeanne"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-02",
+      "participant_ids": ["kinji", "aria", "shirayuki", "jeanne"],
+      "cause": "kasai-park-fireworks",
+      "outcome": "atlas-cup-closing"
+    },
+    {
+      "event_id": "atlas-cup-closing",
+      "label": "亚特希雅杯闭幕典礼",
+      "time_span": {
+        "start": "2009-05-10T14:00:00",
+        "end": "2009-05-10T17:00:00",
+        "precision": "estimated",
+        "duration_display": "约3小时",
+        "reasoning": "魔剑事件后次日（5月10日周日）；亚特希雅杯闭幕典礼的亚鲁卡达表演；白雪从笼中鸟蜕变。"
+      },
+      "nodes": [
+        {
+          "node_id": "atlas-cup-closing.band",
+          "label": "金次与不知火、武藤演奏「Who Shot The Flash」",
+          "timestamp": "2009-05-10T14:30:00",
+          "participants": ["kinji", "muto"]
+        },
+        {
+          "node_id": "atlas-cup-closing.cheer",
+          "label": "亚莉亚踢出白雪→白雪啦啦队表演露出无忧笑容",
+          "timestamp": "2009-05-10T15:00:00",
+          "participants": ["aria", "shirayuki"]
+        },
+        {
+          "node_id": "atlas-cup-closing.celebration",
+          "label": "ROXY庆功→亚莉亚邀白雪加入小队成为「奴隶二号」",
+          "timestamp": "2009-05-10T17:00:00",
+          "participants": ["kinji", "aria", "shirayuki"]
+        }
+      ],
+      "event_type": "side",
+      "volume": "vol-02",
+      "participant_ids": ["kinji", "aria", "shirayuki", "muto"],
+      "cause": "underground-warehouse-battle",
+      "outcome": "aria-riko-switch"
+    },
+    {
+      "event_id": "aria-riko-switch",
+      "label": "理子再登场（伪装亚莉亚诱骗金次）",
+      "time_span": {
+        "start": "2009-05-10T21:00:00",
+        "end": "2009-05-10T22:00:00",
+        "precision": "estimated",
+        "duration_display": "约1小时",
+        "reasoning": "亚特希雅杯闭幕当晚；理子伪装成亚莉亚将金次骗至女生宿舍1011号室。Vol-02悬念结尾。"
+      },
+      "nodes": [
+        {
+          "node_id": "aria-riko-switch.disguise",
+          "label": "理子布置角色扮演服装→伪装亚莉亚骗金次至女生宿舍",
+          "timestamp": "2009-05-10T21:10:00",
+          "participants": ["kinji", "riko"]
+        },
+        {
+          "node_id": "aria-riko-switch.expose",
+          "label": "金次因胸部触感不对进入HSS识破伪装",
+          "timestamp": "2009-05-10T21:30:00",
+          "participants": ["kinji", "riko"]
+        },
+        {
+          "node_id": "aria-riko-switch.proposal",
+          "label": "理子自称被伊·幽退学→提出「享受鱼水之欢」→悬念结尾",
+          "timestamp": "2009-05-10T21:50:00",
+          "participants": ["kinji", "riko"]
+        }
+      ],
+      "event_type": "main",
+      "volume": "vol-02",
+      "participant_ids": ["kinji", "riko"],
+      "cause": "atlas-cup-closing",
+      "outcome": null,
+      "note": "Vol-02悬念结尾；直接衔接Vol-03蜂蜜色的陷阱篇（6月）。"
+    }
+  ],
+  "_meta": {
+    "volumes_covered": ["vol-01", "vol-02"],
+    "total_events": 19,
+    "date_range": "2009-04-08 ~ 2009-05-10",
+    "vol_01_range": "2009-04-08 ~ 2009-04-21",
+    "vol_02_range": "2009-04-20 ~ 2009-05-10",
+    "season": "春季（新学期～黄金周后）",
+    "main_characters_tracked": ["kinji", "aria", "shirayuki", "riko", "reki", "muto", "jeanne", "kanae"],
+    "precision_notes": "除5月5日烟火事件为day级精度外，其余日期均基于文本线索推断（estimated）。Vol-01开学日假设为2009年4月8日（周三）基于日本校历与Vol-05的2009年锚点。事件间日期间隔基于文本内时间跨度描述（'隔天'、'出院后的星期天'、'黄金周前'、'连休结束后'等）推算。Vol-01的13个事件集中发生在4月8日-4月21日（约2周）；Vol-02的7个事件跨越4月20日-5月10日（约3周，含黄金周间隔）。",
+    "validation_status": "pilot",
+    "next_steps": "扩展至vol-03~vol-05，然后vol-06~vol-10，最终合并为完整timeline.json",
+    "key_calendar_anchors": [
+      "日本高中学年4月开始（开学典礼）",
+      "Vol-05 character data标注2009年8月22日-8月底",
+      "5月5日儿童节/黄金周明确标注",
+      "黄金周（4月29日-5月5日）作为时间标记",
+      "Vol-02时间标注「5月」"
+    ]
+  }
+}

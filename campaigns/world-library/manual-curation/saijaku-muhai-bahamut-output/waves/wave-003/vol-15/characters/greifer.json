@@ -1,0 +1,44 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "greifer",
+  "volume": "vol-15",
+  "time_range": { "start": "要塞宴会", "end": "被菲尔尼格修捕获后释放" },
+  "sub_arcs": ["七龙骑圣参战", "菲尔尼格修捕获", "卷末包围弗基尔"],
+  "periods": [
+    {
+      "period_id": "vol-15",
+      "volume": "vol-15",
+      "time": "Great Sanctuary battle",
+      "label": "梵海姆公国七龙骑圣",
+      "name": { "zh": "葛莱法", "en": "Greifer", "jp": "グライファー" },
+      "aliases": ["葛莱法"],
+      "titles": ["七龙骑圣", "梵海姆公国代表"],
+      "gender": "male",
+      "species": "human",
+      "nationality": "梵海姆公国",
+      "occupation": "机龙使",
+      "affiliation": "七龙骑圣; 世界联盟",
+      "status": { "physical": "被菲尔尼格修吸收后释放，卷末重新穿上神装机龙", "mental": "保持轻佻但可靠", "arc": "作为七龙骑圣主力参与最终围攻" },
+      "appearance": { "overview": "懒洋洋的少年机龙使。", "physical": { "height": "unknown", "build": "agile", "hair": {}, "eyes": {} }, "attire": { "default": "战地服装", "combat": "《库耶列布勒》" }, "voice_quality": { "tone": "casual, lazy" }, "distinctive": ["说话轻佻", "常咬牛肉干"] },
+      "personality": { "summary": "态度懒散但实战可靠，能在紧张局势中用轻佻话语缓和气氛。", "core_traits": ["轻佻", "冷静", "可靠"], "values": ["战斗职责", "同伴生还"], "fears": [], "desires": ["赢下最终战"], "strengths": ["神装机龙操纵", "高机动战斗"], "flaws": ["外表显得没干劲"], "inner_conflict": "unknown", "decision_pattern": { "combat": "配合七龙骑圣集体作战" } },
+      "voice": { "self_reference": "我", "address_pattern": { "ariel-arcadia": "爱莉尔" }, "register": { "default": "casual" }, "catchphrases": [], "quote_samples": [] },
+      "habits": { "mannerisms": ["咬牛肉干", "用轻佻口吻吐槽"], "daily_routine": "随七龙骑圣行动。", "quirks": [], "preferences": {} },
+      "background": { "birth": { "place": "梵海姆公国", "family": [] }, "upbringing": "unknown", "education": { "drag_ride": "七龙骑圣级机龙训练" }, "formative_events": [], "pre_story": "以梵海姆公国代表成为七龙骑圣。" },
+      "abilities_owned": ["kuyelebre-drag-ride-mastery"],
+      "possessions_owned": ["kuyelebre"],
+      "relationships": { "ariel-arcadia": { "type": "acquaintance / ally", "status": "宴会中被爱莉尔熟识地打招呼。" }, "magialca-zen-vanfrick": { "type": "commander", "status": "随玛姬艾儿卡参与大圣域攻略。" }, "fugil-arcadia": { "type": "enemy", "status": "卷末与七龙骑圣一起包围弗基尔。" } },
+      "knowledge": ["great-sanctuary-battle"],
+      "secrets": [],
+      "summary": "葛莱法作为七龙骑圣成员参与大圣域决战，在海兹操纵菲尔尼格修时被捕获为动力源，后被菲尔菲与莉夏解放，卷末参与围攻弗基尔。",
+      "key_events": [
+        { "event_id": "fort-rest-and-banquet", "summary": "宴会中与爱莉尔和路克斯相遇。", "sourceRef": "saijaku-muhai-bahamut-main/vol-15/full.txt:850" },
+        { "event_id": "filnigersch-captures-paladins", "summary": "被菲尔尼格修吸收作为动力源。", "sourceRef": "saijaku-muhai-bahamut-main/vol-15/full.txt:7070" },
+        { "event_id": "fugil-epilogue-confrontation", "summary": "卷末穿上库耶列布勒包围弗基尔。", "sourceRef": "saijaku-muhai-bahamut-main/vol-15/full.txt:8370" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["saijaku-muhai-bahamut-main/vol-15/full.txt:850", "saijaku-muhai-bahamut-main/vol-15/full.txt:7070", "saijaku-muhai-bahamut-main/vol-15/full.txt:8370"]
+    }
+  ],
+  "source_refs": ["saijaku-muhai-bahamut-main/vol-15/full.txt"]
+}

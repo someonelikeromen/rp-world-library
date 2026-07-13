@@ -1,0 +1,58 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "wiene",
+  "volume": "vol-10",
+  "time_range": { "start": "第六章", "end": "终章" },
+  "sub_arcs": ["异端儿迁徙", "狩猎者俘虏", "红石被夺", "死亡与复活"],
+  "periods": [
+    {
+      "period_id": "vol-10-ch-07-moves-with-xenos-and-is-abducted",
+      "volume": "vol-10",
+      "time": "第七章 惨剧之王",
+      "label": "思念贝尔时被狄克斯诱捕",
+      "name": { "zh": "薇妮", "en": "Wiene", "jp": "ウィーネ" },
+      "aliases": ["龙族少女", "维维尔少女"],
+      "gender": "女",
+      "species": "异端儿、维维尔",
+      "occupation": "异端儿成员",
+      "affiliation": "异端儿",
+      "status": { "location": "地下城第24层", "state": "随迁徙小队移动，被狩猎者俘虏" },
+      "summary": "薇妮随拉涅、飞儿、弗尔等异端儿小队迁徙，仍强烈思念地表和贝尔。她听见被拷打的歌人鸟求救声，带众人赶往现场，却落入狄克斯设置的陷阱。奥德、弗尔、克利夫等同伴被杀，她在崩溃中被狄克斯打昏带走。",
+      "key_events": [
+        { "event_id": "dix-traps-ranie-squad-and-abducts-wiene", "summary": "因听见求救声而进入陷阱，最终被狄克斯俘虏。", "sourceRef": "danmachi-main/vol-10/full.txt:940" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-10/full.txt:735-1560"]
+    },
+    {
+      "period_id": "vol-10-ch-09-red-stone-torn-out",
+      "volume": "vol-10",
+      "time": "第九章 禽兽之梦",
+      "label": "红石被夺而凶暴化",
+      "status": { "location": "克诺索斯囚室、代达罗斯路", "state": "红石被夺，理智崩坏并冲上地表" },
+      "summary": "狄克斯将薇妮锁在克诺索斯深处，当着贝尔的面拔掉她额上的『维维尔的眼泪』。薇妮因红石丧失而变回巨大的维维尔本貌，被狄克斯诅咒诱导追逐贝尔幻影冲上地表。贝尔在洛基眷族面前选择保护她。",
+      "key_events": [
+        { "event_id": "dix-removes-wiene-red-stone-and-sends-her-to-surface", "summary": "红石被狄克斯夺走，身体凶暴化。", "sourceRef": "danmachi-main/vol-10/full.txt:5850" },
+        { "event_id": "bell-protects-wiene-from-loki-familia", "summary": "贝尔挡在她与洛基眷族之间。", "sourceRef": "danmachi-main/vol-10/full.txt:8030" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-10/full.txt:5800-8090"]
+    },
+    {
+      "period_id": "vol-10-ch-10-dies-and-revives",
+      "volume": "vol-10",
+      "time": "第十章 愚者",
+      "label": "在贝尔怀中死亡又被费尔斯复活",
+      "status": { "location": "重建风月街地下通道、水渠", "state": "复活后沉睡，由异端儿保护" },
+      "summary": "薇妮逃入风月街，被冒险者的魔法轰击，又被格兰投出的诅咒枪贯穿魔石。贝尔将红石放回她额头后，她短暂恢复意识，感谢贝尔再次救了自己，并在表达喜欢后灰化死亡。费尔斯发动八百年来首次成功的复活魔法，薇妮重新获得身体和生命。",
+      "key_events": [
+        { "event_id": "bell-chases-wiene-through-city-and-adventurers", "summary": "在贝尔追逐保护下逃往风月街。", "sourceRef": "danmachi-main/vol-10/full.txt:8895" },
+        { "event_id": "wiene-dies-and-fels-resurrects-her", "summary": "死亡后被迪亚·奥菲斯复活。", "sourceRef": "danmachi-main/vol-10/full.txt:9340" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-10/full.txt:8800-10020"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-10/full.txt:735-10020"]
+}

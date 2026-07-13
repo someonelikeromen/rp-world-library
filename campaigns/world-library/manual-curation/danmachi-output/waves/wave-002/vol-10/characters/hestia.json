@@ -1,0 +1,44 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "hestia",
+  "volume": "vol-10",
+  "time_range": { "start": "第六章", "end": "终章" },
+  "sub_arcs": ["异端儿共存", "眷族待机", "贝尔选择的见证者"],
+  "periods": [
+    {
+      "period_id": "vol-10-ch-06-supports-children-choice",
+      "volume": "vol-10",
+      "time": "第六章 暴风雨前的",
+      "label": "向迦尼萨表明支持孩子们的选择",
+      "name": { "zh": "赫斯缇雅", "en": "Hestia", "jp": "ヘスティア" },
+      "aliases": ["炉灶女神"],
+      "gender": "女",
+      "species": "神",
+      "occupation": "赫斯缇雅眷族主神",
+      "affiliation": "赫斯缇雅眷族",
+      "status": { "location": "迦尼萨眷族总部", "state": "知晓异端儿并支持贝尔等人的自主选择" },
+      "summary": "赫斯缇雅拜访迦尼萨，确认他也协助乌拉诺斯处理异端儿。她表明不会用主神命令强迫贝尔等人，而会支持他们对异端儿做出的选择。",
+      "key_events": [
+        { "event_id": "hestia-and-ganesha-discuss-xenos-coexistence", "summary": "与迦尼萨谈论怪物共存的可能。", "sourceRef": "danmachi-main/vol-10/full.txt:430" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-10/full.txt:380-650"]
+    },
+    {
+      "period_id": "vol-10-ch-08-10-witnesses-bell-choice",
+      "volume": "vol-10",
+      "time": "第八章至第十章",
+      "label": "理解乌拉诺斯安排并见证贝尔保护薇妮",
+      "status": { "location": "灶火馆、中央广场、代达罗斯路", "state": "担忧贝尔与异端儿，试图支援眷属" },
+      "summary": "赫斯缇雅读出公会命令中的神圣文字，得知贝尔被编入第18层讨伐队。地表战斗中，她目睹贝尔挡在薇妮面前，随后准备让韦尔夫等人以女神命令为借口援护异端儿。",
+      "key_events": [
+        { "event_id": "ouranos-assigns-ganesha-and-bell-to-xenos-crisis", "summary": "从隐藏文字得知贝尔将参与任务。", "sourceRef": "danmachi-main/vol-10/full.txt:2960" },
+        { "event_id": "bell-protects-wiene-from-loki-familia", "summary": "见证贝尔公开庇护薇妮。", "sourceRef": "danmachi-main/vol-10/full.txt:8030" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-10/full.txt:2900-8500"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-10/full.txt:380-8500"]
+}

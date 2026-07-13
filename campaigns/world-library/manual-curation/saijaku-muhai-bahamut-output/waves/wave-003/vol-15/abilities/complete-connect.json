@@ -1,0 +1,26 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "complete-connect",
+  "volume": "vol-15",
+  "periods": [{
+    "period_id": "vol-15", "volume": "vol-15", "time": "Mishis and Hayes battles",
+    "name": { "zh": "完全结合", "en": "Complete Connect" },
+    "aliases": ["机体与身体部分同化"],
+    "type": "technology / combat / genetic",
+    "description": "钥匙管理者系机龙使可使用的高阶状态，让身体与装甲机龙部分融合，获得更精密操纵，同时也会把机龙损伤反馈到肉体。",
+    "details": { "users": ["mishis-v-exfer", "krulcifer-einfolk"] },
+    "activation": { "condition": "钥匙管理者血脉或相关奈米机械适性", "incantation": "", "time": "temporary", "cost": "痛觉和损伤反馈加重" },
+    "effects": ["提高机龙同步率", "提升操纵精密度", "共享机体损伤"],
+    "power_level": { "initial": "high", "peak": "Mishis-level anti-drag-knight control", "evolution": [] },
+    "known_feats": ["密丝希斯以完全结合发挥反机龙使实力", "库露露席法以完全结合挑战海兹"],
+    "shared_by": ["mishis-v-exfer", "krulcifer-einfolk"],
+    "see_also": ["key-manager-lineage", "azi-dahaka-thousand-magic"],
+    "countered_by": ["human habit reading", "direct neural shock"],
+    "counters": ["ordinary control lag"],
+    "variations": [],
+    "evidence_level": "S",
+    "source_refs": ["saijaku-muhai-bahamut-main/vol-15/full.txt:3780", "saijaku-muhai-bahamut-main/vol-15/full.txt:7240"]
+  }],
+  "source_refs": ["saijaku-muhai-bahamut-main/vol-15/full.txt:3780"]
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "tm-p1-wave-index-v1",
+  "waveId": "wave-010",
+  "name": "UBW route event decomposition",
+  "status": "passed",
+  "agent": { "model": "lt-yuyu/gpt-5.5" },
+  "sourceRefs": ["type-moon-nasuverse/story-text/fate/ch-003-ubw-route.txt"],
+  "outputs": {
+    "events": ["output/events.json"],
+    "candidates": ["output/event-candidates.json"]
+  },
+  "reports": {
+    "generation": "reports/generation-report.json",
+    "latestAudit": "reports/audit-round-002.json",
+    "latestFix": "reports/fix-round-001.json",
+    "finalStatus": "reports/final-status.json"
+  }
+}

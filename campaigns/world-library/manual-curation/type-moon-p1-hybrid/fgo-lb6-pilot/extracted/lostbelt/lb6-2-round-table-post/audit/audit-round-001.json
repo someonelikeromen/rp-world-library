@@ -1,0 +1,29 @@
+{
+  "schema": "tm-fgo-extraction-audit-round-v1",
+  "recordId": "lb6-2-round-table-post-extracted-audit-round-001",
+  "packetId": "pkt-fgo-lostbelt-lb6-2-round-table-post-extract",
+  "chapterId": "fgo-lb6-2-round-table-post",
+  "round": 1,
+  "auditorRole": "read-only internal auditor",
+  "status": "fix-required",
+  "checks": {
+    "eventsAThroughLPresent": "passed",
+    "dialogueRefsForAllQuotes": "passed",
+    "sourceMetadataOnFormalRecords": "passed",
+    "visualAbilityCombatCoverage": "fix-required",
+    "notFoundMandatoryLayerCoverage": "fix-required",
+    "unsupportedLabelsCandidateOnly": "passed",
+    "forbiddenAggregateNames": "passed-by-authored-output-review"
+  },
+  "issues": [
+    {"issueId": "lb6-2-audit-001-001", "severity": "medium", "status": "fixed-in-fix-round-001", "findingRaw": "Events C-L had time_raw marked not-explicit-in-source, but the draft lacked an explicit not-found record for missing event-title time ranges.", "requiredFixRaw": "Add not-found-in-source record for raw time absence in events C-L."},
+    {"issueId": "lb6-2-audit-001-002", "severity": "low", "status": "fixed-in-fix-round-001", "findingRaw": "Extraction report still described status as generated-pending-audit-loop without final audit outcome fields.", "requiredFixRaw": "Add final audit/normalization status statements in extraction report or companion status files."}
+  ],
+  "openIssues": 2,
+  "blockedIssues": 0,
+  "canAdvance": false,
+  "sourceRefs": ["extracted/lostbelt/lb6-2-round-table-post/", "sources/worldbook-script/lostbelt/ch-117-lb6-2-round-table-post.txt:1-70"],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

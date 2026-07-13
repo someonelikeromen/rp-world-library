@@ -1,0 +1,36 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "haruhime-sanjouno",
+  "volume": "vol-08",
+  "time_range": { "start": "第一章", "end": "第一章" },
+  "sub_arcs": ["献给某武神的恋歌"],
+  "periods": [
+    {
+      "period_id": "vol-08-ch-01",
+      "volume": "vol-08",
+      "time": "第一章 献给某武神的恋歌",
+      "label": "新眷族成员与支援者训练",
+      "name": { "zh": "三条野·春姬", "en": "Haruhime Sanjouno", "jp": "サンジョウノ・春姫" },
+      "gender": "女",
+      "species": "狐人",
+      "nationality": "远东",
+      "occupation": "女仆、支援者、妖术师",
+      "affiliation": "赫斯缇雅眷族；原伊丝塔眷族",
+      "status": { "location": "灶火馆与地下城第15层", "state": "努力适应女仆工作和小队探索" },
+      "appearance": { "overview": "金发狐耳狐尾少女；在总部穿女仆装，探索时穿远东式战斗衣。" },
+      "personality": { "summary": "谦逊、怯懦但努力，渴望作为家人而不是负担帮上大家。", "core_traits": ["温柔", "努力", "自卑", "感恩"], "desires": ["成为眷族力量", "帮命饯别"], "strengths": ["等级升华魔法", "家务积极性"], "flaws": ["战斗经验不足", "自卫能力低"] },
+      "abilities_owned": ["万宝槌"],
+      "relationships": { "mikoto-yamato": "同乡挚友与室友", "bell-cranel": "承诺保护她的团长", "liliruca-arde": "支援者训练师", "takemikazuchi": "远东神明与饯别会协力者" },
+      "summary": "春姬加入赫斯缇雅眷族后主动担任女仆，也决定作为支援者与妖术师参加地下城探索；她协助建御雷眷族为命准备饯别会。",
+      "key_events": [
+        { "event_id": "haruhime-joins-dungeon-party", "summary": "表示想成为大家的力量并加入小队。", "sourceRef": "danmachi-main/vol-08/full.txt:606" },
+        { "event_id": "hestia-familia-tests-new-formation", "summary": "在莉莉指导下学习收集魔石与掉落道具。", "sourceRef": "danmachi-main/vol-08/full.txt:708" },
+        { "event_id": "mikoto-farewell-party-and-chizan-gift", "summary": "参与为命准备饯别会。", "sourceRef": "danmachi-main/vol-08/full.txt:1475" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-08/full.txt:459", "danmachi-main/vol-08/full.txt:606", "danmachi-main/vol-08/full.txt:1475"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-08/full.txt:459-1635"]
+}

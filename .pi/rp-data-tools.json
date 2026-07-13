@@ -67,7 +67,8 @@
           "relationships": "social/relationships.json",
           "inventory": "inventory/items.json",
           "knowledge": "knowledge/knowledge.json",
-          "achievements": "progression/achievements.json"
+          "achievements": "progression/achievements.json",
+          "exchange": "progression/exchange.json"
         },
         "requiredModules": [
           "index.json",
@@ -87,7 +88,8 @@
           "social/relationships.json",
           "inventory/items.json",
           "knowledge/knowledge.json",
-          "progression/achievements.json"
+          "progression/achievements.json",
+          "progression/exchange.json"
         ],
         "idArrays": {
           "abilities": "id",
@@ -105,7 +107,12 @@
           "pendingClaims": "rewardId",
           "claimedRewards": "rewardId",
           "rewardRolls": "id",
-          "worldRollTables": "id"
+          "worldRollTables": "id",
+          "unlockedEntries": "id",
+          "pendingExchanges": "id",
+          "completedExchanges": "id",
+          "transactions": "id",
+          "sourceVerifications": "id"
         },
         "extensionSlots": {
           "customValidators": [],

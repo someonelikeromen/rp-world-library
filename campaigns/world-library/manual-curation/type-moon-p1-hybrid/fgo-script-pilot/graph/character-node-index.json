@@ -1,0 +1,26 @@
+{
+  "schema": "tm-fgo-part1-graph-character-node-index-v1",
+  "purpose": "Derived graph node index. Nodes reference character fragment facts and canonical merge files; no character facts are authored here.",
+  "canonicalNodes": [
+    {"nodeId": "character:fujimaru-ritsuka", "entityRef": "merged/characters/fujimaru-ritsuka.json"},
+    {"nodeId": "character:mash-kyrielight", "entityRef": "merged/characters/mash-kyrielight.json"},
+    {"nodeId": "character:roman-romani-archaman-solomon", "entityRef": "merged/characters/roman-romani-archaman-solomon.json"},
+    {"nodeId": "character:da-vinci", "entityRef": "merged/characters/da-vinci.json"},
+    {"nodeId": "character:merlin", "entityRef": "merged/characters/merlin.json"},
+    {"nodeId": "character:mordred", "entityRef": "merged/characters/mordred.json"},
+    {"nodeId": "character:nero-claudius", "entityRef": "merged/characters/nero-claudius.json"},
+    {"nodeId": "character:jeanne", "entityRef": "merged/characters/jeanne.json"}
+  ],
+  "chapterFragmentNodeSources": [
+    {"chapter": "fuyuki", "fragmentGlob": "normalized/part1/fuyuki/characters/*.fragment.json", "count": 8},
+    {"chapter": "orleans", "fragmentGlob": "normalized/part1/orleans/characters/*.fragment.json", "count": 16},
+    {"chapter": "septem", "fragmentGlob": "normalized/part1/septem/characters/*.fragment.json", "count": 17},
+    {"chapter": "okeanos", "fragmentGlob": "normalized/part1/okeanos/characters/*.fragment.json", "count": 18},
+    {"chapter": "london", "fragmentGlob": "normalized/part1/london/characters/*.fragment.json", "count": 20},
+    {"chapter": "america", "fragmentGlob": "normalized/part1/america/characters/*.fragment.json", "count": 25},
+    {"chapter": "camelot", "fragmentGlob": "normalized/part1/camelot/characters/*.fragment.json", "count": 22},
+    {"chapter": "babylonia", "fragmentGlob": "normalized/part1/babylonia/characters/*.fragment.json", "count": 20},
+    {"chapter": "solomon", "fragmentGlob": "normalized/part1/solomon/characters/*.fragment.json", "count": 20}
+  ],
+  "fragmentCount": 166
+}

@@ -1,0 +1,44 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "hermes",
+  "volume": "vol-10",
+  "time_range": { "start": "第六章", "end": "终章" },
+  "sub_arcs": ["伊刻洛斯调查", "贝尔风险管理", "事件后交涉"],
+  "periods": [
+    {
+      "period_id": "vol-10-ch-06-anticipates-ikelos",
+      "volume": "vol-10",
+      "time": "第六章 暴风雨前的",
+      "label": "预感伊刻洛斯眷族将出手",
+      "name": { "zh": "荷米斯", "en": "Hermes", "jp": "ヘルメス" },
+      "aliases": [],
+      "gender": "男",
+      "species": "神",
+      "occupation": "荷米斯眷族主神、情报神",
+      "affiliation": "荷米斯眷族",
+      "status": { "location": "荷米斯眷族总部", "state": "因跟踪失败而警戒伊刻洛斯眷族" },
+      "summary": "荷米斯听取亚丝菲报告，得知狄克斯识破跟踪并撤退。他判断异端儿迁徙路线可能马上遭袭，命亚丝菲监视中层与里维拉。",
+      "key_events": [
+        { "event_id": "hermes-and-asfi-anticipate-ikelos-strike", "summary": "命亚丝菲监视中层动向。", "sourceRef": "danmachi-main/vol-10/full.txt:650" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-10/full.txt:650-734"]
+    },
+    {
+      "period_id": "vol-10-ch-08-epilogue-supports-bell-position",
+      "volume": "vol-10",
+      "time": "第八章至终章",
+      "label": "既担心贝尔介入又设法保住其未来",
+      "status": { "location": "荷米斯眷族总部、公会祈祷厅", "state": "与乌拉诺斯谈判，希望恢复贝尔声望" },
+      "summary": "荷米斯认为乌拉诺斯把贝尔卷入异端儿危机风险极大，命亚丝菲、阿伊莎和琉暗中支援。事件后，他向乌拉诺斯提出由自己继续平息骚动，同时要求乌拉诺斯协助挽救贝尔跌落的名声。",
+      "key_events": [
+        { "event_id": "aisha-and-ryu-secretly-follow-bell", "summary": "安排阿伊莎关照贝尔。", "sourceRef": "danmachi-main/vol-10/full.txt:3150" },
+        { "event_id": "ikelos-exiled-and-hermes-negotiates-aftermath", "summary": "与乌拉诺斯谈事件善后。", "sourceRef": "danmachi-main/vol-10/full.txt:10530" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-10/full.txt:3100-3250", "danmachi-main/vol-10/full.txt:10480-10580"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-10/full.txt:650-10580"]
+}

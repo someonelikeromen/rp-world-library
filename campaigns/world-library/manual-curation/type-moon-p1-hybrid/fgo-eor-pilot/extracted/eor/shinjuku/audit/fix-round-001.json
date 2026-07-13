@@ -1,0 +1,19 @@
+{
+  "schema": "tm-fgo-packet-fix-v1",
+  "chapterId": "fgo-eor-shinjuku",
+  "packetId": "pkt-fgo-eor-shinjuku-extract",
+  "round": 1,
+  "fixerModel": "lt-yuyu/gpt-5.5",
+  "status": "fixed",
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like",
+  "sourceRefs": [{"sourceUnitId":"src-fgo-eor-shinjuku","path":"sources/worldbook-script/eor/ch-089-shinjuku.txt","lineStart":18,"lineEnd":105}],
+  "fixesApplied": [
+    {"issueId":"audit-003-mandatory-layers","fix":"Expanded appearance, ability, combat-effect, and not-found-in-source records; combat records now cover source-stated bomb, explosion,突袭,狙杀,击败,封锁,诱捕,弹射,突破,击杀, and击碎 effects."},
+    {"issueId":"audit-004-provenance","fix":"Rewrote nested sourceRefs in stage characters, dialogue, appearance, ability, combat, not-found, mentions, and candidates with sourceUnitId/path/line ranges and preserved sourceType/credibility/canonStatus on formal records."},
+    {"issueId":"audit-005-normalized-and-reports","fix":"Created generation-report, extraction-report, normalized chapter/events/entities/layers/provenance/index outputs, and packet audit outputs under both extracted and audit/packet-audits."}
+  ],
+  "openIssuesAfterFix": 0,
+  "blockedIssuesAfterFix": 0
+}

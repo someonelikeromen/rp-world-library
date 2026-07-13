@@ -1,0 +1,14 @@
+{
+  "schema": "tm-fgo-extraction-report-v1",
+  "chapterId": "fgo-lb4-chuangshi-miewang-lunhui",
+  "status": "complete-passed-audit",
+  "rawEventCoverage": {"expectedRawEventCodes": ["事件A", "事件B", "事件C", "事件D", "事件E", "事件F", "事件G", "事件H", "事件I", "事件J", "事件K", "事件L", "事件M", "事件N", "事件O", "事件P", "事件Q", "事件R", "事件S", "事件T", "事件U"], "representedRawEventCodes": ["事件A", "事件B", "事件C", "事件D", "事件E", "事件F", "事件G", "事件H", "事件I", "事件J", "事件K", "事件L", "事件M", "事件N", "事件O", "事件P", "事件Q", "事件R", "事件S", "事件T", "事件U"], "missingRawEventCodes": []},
+  "dialogueCoverage": {"sourceDialogueMarkers": 25, "dialogueRecords": 25, "skippedDialogue": []},
+  "mandatoryLayerCoverage": {"appearanceSignals": "present-with-not-found-gaps", "outfitEquipmentVisuals": "mostly-not-found-in-source-with-explicit-gaps", "abilityNoblePhantasmSkillMagecraftAuthority": "present-with-formal-name-gaps", "combatEffects": "present-with-detailed-visual-gaps", "notFoundRecords": "present"},
+  "formalRecordMetadata": {"sourceRefs": "present", "sourceType": "present", "credibility": "present", "canonStatus": "present"},
+  "forbiddenAggregateFilesCreated": false,
+  "sourceRefs": ["campaigns/world-library/manual-curation/type-moon-p1-hybrid/fgo-lb3-lb4-pilot/sources/worldbook-script/lostbelt/ch-096-lb4-chuangshi-miewang-lunhui.txt:1-95"],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

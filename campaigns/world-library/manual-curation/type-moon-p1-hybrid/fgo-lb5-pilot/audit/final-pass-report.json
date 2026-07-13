@@ -1,0 +1,13 @@
+{
+  "schema":"tm-fgo-final-pass-report-v1",
+  "step":"merge-lb5",
+  "status":"passed",
+  "accepted":true,
+  "finalReadOnlyAuditRun":false,
+  "gateVerification":{"sourceTextManifest":{"status":"passed","expected":2,"built":2,"gateStatus":"passed"},"chapterFinalStatuses":[{"chapterId":"fgo-lb5-1-atlantis","status":"passed","openIssues":0,"blockedIssues":0,"canAdvance":true},{"chapterId":"fgo-lb5-2-olympos","status":"passed","openIssues":0,"blockedIssues":0,"canAdvance":true}]},
+  "outputs":{"mergedEventFiles":60,"relationshipEdgeFiles":11,"appearanceRecords":44,"abilityRecords":54,"combatEffectRecords":46,"timelineIndexes":2,"graphIndexes":2,"candidateIndexes":2,"comparisonReports":1},
+  "requiredRetention":{"eventsRetainTriggerCompletionSummaryRaw":true,"relationshipEdgesRetainTimelineIdAndTimeRangeOrRaw":true,"formalRecordsRetainSourceMetadata":true},
+  "forbiddenAggregateFilenamesCreated":{"characters.json":false,"events.json":false,"relationships.json":false},
+  "sourceRefs":["sources/worldbook-script/lostbelt/source-text-manifest.json:1-129","audit/packet-audits/lostbelt/lb5-1-atlantis/final-status.json:1-15","audit/packet-audits/lostbelt/lb5-2-olympos/final-status.json:1-18"],
+  "sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"
+}

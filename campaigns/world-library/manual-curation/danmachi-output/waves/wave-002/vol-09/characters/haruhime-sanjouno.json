@@ -1,0 +1,56 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "haruhime-sanjouno",
+  "volume": "vol-09",
+  "time_range": { "start": "第一章", "end": "第五章" },
+  "sub_arcs": ["薇妮的照顾者", "替贝尔坚定救人意义", "等级升华护送"],
+  "periods": [
+    {
+      "period_id": "vol-09-ch-02-wiene-caretaker",
+      "volume": "vol-09",
+      "time": "第二章 龙娘的同居日常",
+      "label": "最早与薇妮建立亲近关系",
+      "name": { "zh": "三条野·春姬", "en": "Haruhime Sanjouno", "jp": "サンジョウノ・春姫" },
+      "gender": "女",
+      "species": "狐人",
+      "occupation": "冒险者、辅助魔法使用者",
+      "affiliation": "赫斯缇雅眷族",
+      "status": { "level": "Lv.1", "location": "灶火馆", "state": "照顾薇妮并被视为姐姐或母亲般存在" },
+      "summary": "春姬为薇妮擦洗身体、介绍太阳与食物，并以温柔和尾巴游戏让她放下戒心。她被赫斯缇雅评价为有当妈妈的天分。",
+      "key_events": [
+        { "event_id": "wiene-bonds-with-hestia-familia-at-manor", "summary": "陪薇妮认识地表生活。", "sourceRef": "danmachi-main/vol-09/full.txt:1500" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-09/full.txt:1100-2470"]
+    },
+    {
+      "period_id": "vol-09-ch-04-affirming-bell",
+      "volume": "vol-09",
+      "time": "第四章 MISSiON",
+      "label": "请求贝尔不要后悔救薇妮",
+      "status": { "location": "灶火馆", "state": "把自己获救的经历投射到薇妮身上" },
+      "summary": "贝尔因拖累眷族而道歉时，春姬握住他的手，请求他不要后悔救了薇妮。她将薇妮与曾被贝尔救赎的自己相连，成为眷族继续前进的情感支柱。",
+      "key_events": [
+        { "event_id": "hestia-familia-prepares-floor-20-mission", "summary": "鼓励贝尔不要否定救薇妮的选择。", "sourceRef": "danmachi-main/vol-09/full.txt:4805" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-09/full.txt:4700-4860"]
+    },
+    {
+      "period_id": "vol-09-ch-05-level-boost-and-farewell",
+      "volume": "vol-09",
+      "time": "第五章 异端儿",
+      "label": "以等级升华支撑护送任务",
+      "status": { "location": "第19层至第20层秘里", "state": "反复施展万宝槌并承受与薇妮分别" },
+      "summary": "春姬在护送任务中持续对韦尔夫施展等级升华，是队伍突破中层的重要支援。到达秘里后，她与异端儿一起跳舞，最终含泪接受薇妮留在同胞身边。",
+      "key_events": [
+        { "event_id": "hestia-familia-escorts-wiene-through-great-tree-labyrinth", "summary": "用万宝槌强化前卫。", "sourceRef": "danmachi-main/vol-09/full.txt:5250" },
+        { "event_id": "wiene-stays-with-xenos-and-hestia-familia-returns", "summary": "目送薇妮留在秘里。", "sourceRef": "danmachi-main/vol-09/full.txt:8480" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-09/full.txt:5167-8560"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-09/full.txt:1100-8560"]
+}

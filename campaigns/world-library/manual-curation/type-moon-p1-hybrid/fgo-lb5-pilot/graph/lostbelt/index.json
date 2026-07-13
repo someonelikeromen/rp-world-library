@@ -1,0 +1,11 @@
+{
+  "schema":"tm-fgo-graph-derived-index-v1",
+  "graphId":"graph-fgo-lostbelt-5-pilot",
+  "derivedFrom":["merged/events/lostbelt/","merged/relationships/edges/lostbelt/","timeline/lostbelt/master.json"],
+  "nodeCounts":{"chapters":2,"events":60,"relationshipEdges":11,"stageCharacterChapterRecords":2,"worldStateRecords":2},
+  "edgeCounts":{"temporalRelationshipEdges":11},
+  "edgeIndex":"graph/lostbelt/temporal-relationship-edge-index.json",
+  "sourceFirstPolicy":"Graph is derived only from merged source-first records; co-occurrence-only links were not promoted.",
+  "sourceRefs":["sources/worldbook-script/lostbelt/ch-097-lb5-1-atlantis.txt:1-124","sources/worldbook-script/lostbelt/ch-098-lb5-2-olympos.txt:1-125"],
+  "sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"
+}

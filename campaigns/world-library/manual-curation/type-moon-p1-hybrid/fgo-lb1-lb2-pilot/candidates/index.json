@@ -1,0 +1,20 @@
+{
+  "schema": "tm-fgo-candidate-index-v1",
+  "recordType": "candidate_index",
+  "project": "fgo-lb1-lb2-pilot",
+  "stepId": "merge-lb1-lb2-retry",
+  "policy": "Candidate layer keeps source-supported raw variants and unsupported aliases without promoting unsupported labels to formal source-backed names.",
+  "relationshipCandidateFiles": [
+    {"chapterId":"fgo-lb1-anastasia","file":"extracted/lostbelt/lb1-anastasia/candidates/relationship-candidates.json","candidateCount":7,"mergedEdgeDirectory":"merged/relationships/edges/lostbelt/lb1-anastasia/","sourceRefs":["sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:25-130"],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"},
+    {"chapterId":"fgo-lb2-gotterdammerung","file":"extracted/lostbelt/lb2-gotterdammerung/candidates/relationship-candidates.json","candidateCount":7,"mergedEdgeDirectory":"merged/relationships/edges/lostbelt/lb2-gotterdammerung/","sourceRefs":["sources/worldbook-script/lostbelt/ch-094-lb2-gotterdammerung.txt:26-109"],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"}
+  ],
+  "aliasCandidateFiles": [
+    {"chapterId":"fgo-lb1-anastasia","file":"extracted/lostbelt/lb1-anastasia/candidates/alias-candidates.json","candidateRecordCount":5,"unsupportedAliasPolicy":"unsupported-by-current-source entries remain candidate-only","sourceRefs":["sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:23-128"],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"},
+    {"chapterId":"fgo-lb2-gotterdammerung","file":"extracted/lostbelt/lb2-gotterdammerung/candidates/alias-candidates.json","candidateRecordCount":5,"unsupportedAliasPolicy":"unsupported-by-current-source entries remain candidate-only","sourceRefs":["sources/worldbook-script/lostbelt/ch-094-lb2-gotterdammerung.txt:26-109"],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"}
+  ],
+  "counts": {"relationshipCandidates":14,"aliasCandidateRecords":10},
+  "sourceRefs": ["sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:23-130","sources/worldbook-script/lostbelt/ch-094-lb2-gotterdammerung.txt:26-110"],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

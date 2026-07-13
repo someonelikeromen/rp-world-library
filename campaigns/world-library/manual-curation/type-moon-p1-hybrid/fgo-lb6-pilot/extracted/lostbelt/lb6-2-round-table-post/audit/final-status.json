@@ -1,0 +1,23 @@
+{
+  "schema": "tm-fgo-extraction-final-status-v1",
+  "recordId": "lb6-2-round-table-post-extracted-final-status",
+  "packetId": "pkt-fgo-lostbelt-lb6-2-round-table-post-extract",
+  "chapterId": "fgo-lb6-2-round-table-post",
+  "model": "lt-yuyu/gpt-5.5",
+  "status": "passed",
+  "latestAuditStatus": "passed",
+  "openIssues": 0,
+  "blockedIssues": 0,
+  "canAdvance": true,
+  "loopCompleted": "Generator -> Auditor -> Fixer -> Auditor rerun",
+  "latestAuditRound": 2,
+  "outputsAudited": [
+    "extracted/lostbelt/lb6-2-round-table-post/",
+    "normalized/lostbelt/lb6-2-round-table-post/",
+    "audit/packet-audits/lostbelt/lb6-2-round-table-post/"
+  ],
+  "sourceRefs": ["extracted/lostbelt/lb6-2-round-table-post/audit/audit-round-002.json", "normalized/lostbelt/lb6-2-round-table-post/normalization-report.json"],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

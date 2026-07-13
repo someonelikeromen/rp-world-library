@@ -1,0 +1,29 @@
+{
+  "schema":"tm-fgo-lb3-lb4-final-pass-report-v1",
+  "stepId":"merge-lb3-lb4",
+  "model":"lt-yuyu/gpt-5.5",
+  "status":"passed",
+  "accepted":true,
+  "gateVerification": {
+    "sourceTextManifest": {"status":"passed","expected":2,"built":2,"gateStatus":"passed"},
+    "lb3FinalStatus": {"status":"passed","openIssues":0,"blockedIssues":0,"canAdvance":true},
+    "lb4FinalStatus": {"status":"passed","openIssues":0,"blockedIssues":0,"canAdvance":true}
+  },
+  "mergedLayerCounts": {
+    "chapters":2,
+    "events":42,
+    "worldStateRecords":2,
+    "stageCharacterRecords":42,
+    "engineInstructionOnlyRecords":2,
+    "appearanceRecords":19,
+    "abilityRecords":38,
+    "combatEffectRecords":38,
+    "relationshipEdges":9,
+    "aliasCandidatesUnsupportedByCurrentSource":11,
+    "notFoundInSourceRecords":11
+  },
+  "sourcePolicy": {"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like","sourceFirstTerminologyRequired":true},
+  "forbiddenAggregateFiles":"not-created-intentionally",
+  "publication":"not-authorized-not-performed",
+  "finalReadOnlyAudit":"not-run-by-delegation"
+}

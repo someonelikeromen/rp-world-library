@@ -1,0 +1,18 @@
+{
+  "schema": "tm-fgo-packet-audit-report-v1",
+  "packetId": "pkt-fgo-part1-septem-extract",
+  "round": "auditor-rerun",
+  "model": "lt-yuyu/gpt-5.5",
+  "status": "passed",
+  "openIssues": 0,
+  "blockedIssues": 0,
+  "canAdvance": true,
+  "checks": [
+    {"check": "raw events A-P extracted", "result": "passed", "count": 16},
+    {"check": "dialogue lines have dialogueRefs or skipped reason", "result": "passed", "detail": "All quoted dialogue represented in event dialogueRefs."},
+    {"check": "formal files carry sourceRefs", "result": "passed"},
+    {"check": "valid JSON by construction", "result": "passed"},
+    {"check": "no aggregate formal storage", "result": "passed"}
+  ],
+  "sourceRefs": ["sources/worldbook-script/part1/ch-002-septem.txt#world_timeline"]
+}

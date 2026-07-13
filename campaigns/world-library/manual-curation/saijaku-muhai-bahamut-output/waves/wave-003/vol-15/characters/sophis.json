@@ -1,0 +1,44 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "sophis",
+  "volume": "vol-15",
+  "time_range": { "start": "天宫调查", "end": "被菲尔尼格修捕获后释放" },
+  "sub_arcs": ["天宫调查", "菲尔尼格修捕获", "卷末包围弗基尔"],
+  "periods": [
+    {
+      "period_id": "vol-15",
+      "volume": "vol-15",
+      "time": "Great Sanctuary battle",
+      "label": "七龙骑圣之一",
+      "name": { "zh": "苏菲丝", "en": "Sophis", "jp": "ソフィス" },
+      "aliases": ["苏菲丝"],
+      "titles": ["七龙骑圣", "钥匙管理者"],
+      "gender": "female",
+      "species": "human / key-manager lineage",
+      "nationality": "unknown",
+      "occupation": "机龙使",
+      "affiliation": "七龙骑圣; 世界联盟",
+      "status": { "physical": "被菲尔尼格修吸收后释放，卷末重新参战", "mental": "无表情但可靠", "arc": "作为知晓遗迹情报的七龙骑圣支援最终战" },
+      "appearance": { "overview": "无感情表情的少女七龙骑圣。", "physical": { "height": "", "build": "slender", "hair": {}, "eyes": {} }, "attire": { "default": "制服或战斗服", "combat": "神装机龙" }, "voice_quality": { "tone": "flat, calm" }, "distinctive": ["表情少", "说话短促", "对料理会显露微弱开心"] },
+      "personality": { "summary": "寡言冷静、知识丰富，能补充遗迹和钥匙管理者情报。", "core_traits": ["冷静", "寡言", "知识型", "可靠"], "values": ["任务", "同伴"], "fears": [], "desires": ["阻止大圣域落入敌手"], "strengths": ["遗迹知识", "神装机龙操纵", "钥匙管理者知识"], "flaws": ["表达感情少"], "inner_conflict": "unknown", "decision_pattern": { "support": "以知识与冷静判断辅助队伍" } },
+      "voice": { "self_reference": "我", "address_pattern": { "lux-arcadia": "路克斯" }, "register": { "default": "flat and concise" }, "catchphrases": [], "quote_samples": [] },
+      "habits": { "mannerisms": ["淡淡补充说明", "无表情吃东西"], "daily_routine": "随七龙骑圣行动。", "quirks": [], "preferences": { "food": "宴会料理" } },
+      "background": { "birth": { "place": "unknown", "family": ["lee-prica"] }, "upbringing": "钥匙管理者相关人员，熟悉遗迹文献。", "education": { "relic": "月之遗迹资料与钥匙管理者知识" }, "formative_events": [], "pre_story": "七龙骑圣之一，辅佐官里·普莉卡不在场。" },
+      "abilities_owned": ["sophis-divine-drag-ride-mastery", "key-manager-knowledge"],
+      "possessions_owned": ["sophis-divine-drag-ride"],
+      "relationships": { "krulcifer-einfolk": { "type": "ally", "status": "与库露露席法共同调查天宫。" }, "magialca-zen-vanfrick": { "type": "commander", "status": "随玛姬艾儿卡参与攻略。" }, "fugil-arcadia": { "type": "enemy", "status": "卷末与七龙骑圣一起包围弗基尔。" }, "lee-prica": { "type": "aide", "status": "亲如妹妹的自动人形辅佐官本卷不在身边。" } },
+      "knowledge": ["great-sanctuary-trials-purpose", "heaven-palace-investigation"],
+      "secrets": [],
+      "summary": "苏菲丝本卷与库露露席法调查坠毁天宫，随后作为七龙骑圣参与大圣域攻略，被菲尔尼格修吸收后获救，卷末再次包围弗基尔。",
+      "key_events": [
+        { "event_id": "heaven-palace-investigation", "summary": "与库露露席法调查天宫，发现终端被破坏且未得关键情报。", "sourceRef": "saijaku-muhai-bahamut-main/vol-15/full.txt:1090" },
+        { "event_id": "filnigersch-captures-paladins", "summary": "被菲尔尼格修吸收作为动力源。", "sourceRef": "saijaku-muhai-bahamut-main/vol-15/full.txt:7070" },
+        { "event_id": "fugil-epilogue-confrontation", "summary": "卷末与七龙骑圣一起包围弗基尔。", "sourceRef": "saijaku-muhai-bahamut-main/vol-15/full.txt:8370" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["saijaku-muhai-bahamut-main/vol-15/full.txt:1090", "saijaku-muhai-bahamut-main/vol-15/full.txt:7070", "saijaku-muhai-bahamut-main/vol-15/full.txt:8370"]
+    }
+  ],
+  "source_refs": ["saijaku-muhai-bahamut-main/vol-15/full.txt"]
+}

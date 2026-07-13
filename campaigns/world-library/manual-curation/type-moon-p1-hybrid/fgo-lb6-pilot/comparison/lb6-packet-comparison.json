@@ -1,0 +1,8 @@
+{
+  "schema":"tm-fgo-lb6-packet-comparison-v1",
+  "project":"fgo-lb6-pilot",
+  "comparisonStatus":"source-first-merge-ready",
+  "chapters":[{"chapterId":"fgo-lb6-1-avalon-pre","role":"origin/history/intervention/front half and early postpart setup","eventCount":33,"rawEventCodePattern":"duplicated 事件A0, 事件A1-事件A6, 事件A-事件Y"},{"chapterId":"fgo-lb6-2-round-table-post","role":"late-collapse/final-correction packet","eventCount":12,"rawEventCodePattern":"事件A-事件L"}],
+  "mergeDecisions":["Kept LB6.1 and LB6.2 as distinct chapter namespaces.","Preserved both LB6.1 raw 事件A0 records as separate merged events.","Retained source raw times, including relative ranges and not-explicit-in-source values.","Did not promote unsupported external labels outside candidate layer."],
+  "sourceRefs":["normalized/lostbelt/lb6-1-avalon-pre/normalization-report.json","normalized/lostbelt/lb6-2-round-table-post/normalization-report.json"],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"
+}

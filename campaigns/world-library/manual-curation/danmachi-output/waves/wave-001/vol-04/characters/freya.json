@@ -1,0 +1,75 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "freya",
+  "volume": "danmachi-main/vol-04",
+  "time_range": { "start": "vol-04-ch-001", "end": "vol-04-ch-001" },
+  "sub_arcs": ["chapter-001-denatus"],
+  "periods": [
+    {
+      "period_id": "vol-04-ch-001-freya-denatus-intervention",
+      "volume": "danmachi-main/vol-04",
+      "time": "During Denatus at Babel Tower",
+      "label": "Freya steers Denatus away from Bell's secret",
+      "name": { "zh": "芙蕾雅", "en": "Freya", "jp": "フレイヤ" },
+      "aliases": ["美神", "芙蕾雅小姐"],
+      "titles": ["Freya Familia主神", "美神"],
+      "gender": "female",
+      "species": "goddess",
+      "nationality": "",
+      "occupation": "deity and familia patron",
+      "affiliation": "Freya Familia",
+      "status": { "denatus_role": "Attends despite no member of her own familia requiring a new title", "interest": "Bell Cranel" },
+      "appearance": {
+        "overview": "An elegant silver-haired goddess whose smile immediately alters the mood of the gods' meeting.",
+        "physical": { "height": "", "build": "", "hair": { "color": "silver" }, "eyes": {} },
+        "attire": { "default": "", "combat": "" },
+        "voice_quality": { "tone": "beautiful, calm soprano" },
+        "distinctive": ["silver hair", "overwhelmingly beautiful smile", "elegant gestures"]
+      },
+      "personality": {
+        "summary": "Composed, manipulative, and protective of her own interest in Bell; she uses social pressure and plausible reasoning to shut down Loki's interrogation.",
+        "core_traits": ["composed", "seductive", "strategic", "possessive", "socially dominant"],
+        "values": ["privacy when useful", "exclusive interest in Bell", "control of the room"],
+        "fears": [],
+        "desires": ["keep Bell from being exposed to every god", "preserve her own ability to watch him"],
+        "strengths": ["rhetorical control", "beauty-based influence", "political intuition"],
+        "flaws": ["self-serving motives hidden behind courtesy"],
+        "inner_conflict": "",
+        "decision_pattern": { "intervention": "Frames her preference as respect for familia privacy and lets other gods follow her lead." }
+      },
+      "voice": {
+        "self_reference": "",
+        "address_pattern": { "Loki": "洛基", "Hestia": "赫斯缇雅" },
+        "register": { "tone": "soft, elegant, disarming" },
+        "catchphrases": [],
+        "quote_samples": ["既然赫斯缇雅都说没有违规了，那就没有必要硬逼人家说吧？", "既然要取，就替他取个可爱的外号吧？"]
+      },
+      "habits": {
+        "mannerisms": ["leans back calmly while others panic", "tucks silver hair behind her ear", "smiles meaningfully before leaving"],
+        "daily_routine": "Appears at Denatus when Bell's status is at stake.",
+        "quirks": ["can make the room follow a suggestion with a single smile"],
+        "preferences": { "bell_alias_direction": "cute nickname" }
+      },
+      "background": {
+        "birth": { "place": "heaven", "family": [] },
+        "upbringing": "",
+        "education": {},
+        "formative_events": [],
+        "pre_story": "Her familia's Minotaur incident is linked to earlier upper-floor rumors, and she is watching Bell."
+      },
+      "abilities_owned": ["divine-charm-presence"],
+      "possessions_owned": [],
+      "relationships": { "bell-cranel": "Object of interest; she protects his privacy at Denatus while keeping her motives hidden.", "hestia": "Helps Hestia deflect scrutiny, leaving Hestia confused and suspicious.", "loki": "Outmaneuvers Loki verbally by implying jealousy over Ais's broken record.", "ishtar": "Rival beauty goddess who probes her involvement in the Minotaur incident." },
+      "knowledge": ["Knows enough about Bell's Minotaur encounters to propose a plausible explanation for his rapid level-up"],
+      "secrets": ["Her true motive for defending Bell is not stated openly."],
+      "summary": "Freya attends Denatus without her own naming business, defuses Loki's attempt to uncover Bell's secret, frames Bell's Minotaur victory as plausible level-up experience, and instructs the gods to give Bell a cute title before leaving.",
+      "key_events": [
+        { "event_id": "freya-deflects-lokis-questioning", "summary": "Freya protects Bell's status privacy and persuades the gods to stop pressing Hestia.", "sourceRef": "danmachi-main/vol-04/full.txt:1254" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-04/full.txt:1078", "danmachi-main/vol-04/full.txt:1080", "danmachi-main/vol-04/full.txt:1106", "danmachi-main/vol-04/full.txt:1130", "danmachi-main/vol-04/full.txt:1196"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-04/full.txt:1078", "danmachi-main/vol-04/full.txt:1080", "danmachi-main/vol-04/full.txt:1130"]
+}

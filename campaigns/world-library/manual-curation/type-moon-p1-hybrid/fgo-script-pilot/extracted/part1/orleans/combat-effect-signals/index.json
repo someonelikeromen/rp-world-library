@@ -1,0 +1,45 @@
+{
+  "schema": "tm-fgo-combat-effect-signal-index-v1",
+  "chapterKey": "orleans",
+  "chapterId": "fgo-part1-orleans",
+  "status": "supplemented-r2-source-first-label-fix",
+  "signals": [
+    {
+      "signalId": "orleans-combat-fantasy-greatsword-repels-fafnir",
+      "eventId": "fgo-part1-orleans-event-i",
+      "actorRaw": "齐格飞",
+      "effectType": "noble-phantasm",
+      "description": "齐格飞释放来源台词所写『幻想大剑——天魔失坠』并击退法夫纳。",
+      "visualEffect": "not-found-in-source",
+      "result": "法夫纳被击退；齐格飞加入队伍成为屠龙战力。",
+      "affectedTargets": ["法夫纳"],
+      "status": "source-backed",
+      "notFoundReason": "来源记录释放与结果，但未描述视觉机制。",
+      "aliasCandidates": [{"label":"Balmung","status":"unsupported-by-current-source","reason":"当前来源台词为『幻想大剑——天魔失坠』，未出现 Balmung。"}],
+      "sourceRefs": ["sources/worldbook-script/part1/ch-001-orleans.txt#event-I"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "signalId": "orleans-combat-marie-sacrifice",
+      "eventId": "fgo-part1-orleans-event-k",
+      "actorRaw": "玛丽·安托瓦内特",
+      "effectType": "sacrifice",
+      "description": "玛丽留下对抗黑贞德与桑松，让圣乔治撤退治疗齐格飞。",
+      "visualEffect": "not-found-in-source",
+      "result": "玛丽消失，为队伍买到希望。",
+      "affectedTargets": ["圣乔治", "齐格飞", "迦勒底一行"],
+      "status": "source-backed",
+      "notFoundReason": "未描述具体战斗视觉。",
+      "sourceRefs": ["sources/worldbook-script/part1/ch-001-orleans.txt#event-K"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    }
+  ],
+  "sourceRefs": ["sources/worldbook-script/part1/ch-001-orleans.txt"],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

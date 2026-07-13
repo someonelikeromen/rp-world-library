@@ -1,0 +1,44 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "singlen-shelbrit",
+  "volume": "vol-15",
+  "time_range": { "start": "要塞休整", "end": "被路克斯击败并传送外界" },
+  "sub_arcs": ["与路克斯同行", "绑架爱理阴谋", "控制室决战"],
+  "periods": [
+    {
+      "period_id": "vol-15",
+      "volume": "vol-15",
+      "time": "Great Sanctuary battle",
+      "label": "苍蓝暴君",
+      "name": { "zh": "辛格伦·谢布里特", "en": "Singlen Shelbrit", "jp": "シングレン・シェルブリット" },
+      "aliases": ["苍蓝暴君"],
+      "titles": ["七龙骑圣副队长", "白岭骑士团团长", "布拉昆德王国将军"],
+      "gender": "male",
+      "species": "human altered by Baptism",
+      "nationality": "布拉昆德王国",
+      "occupation": "机龙使 / 将军 / 阴谋家",
+      "affiliation": "七龙骑圣; 白岭骑士团; 自身霸道计划",
+      "status": { "physical": "被路克斯击败，依靠洗礼与伪铠石版仍可能复原", "mental": "仍坚持以力量统治新世界", "arc": "从临时队友暴露为夺取大圣域的另一威胁" },
+      "appearance": { "overview": "披深蓝色长袍、戴眼罩、身形较小但压迫感极强的男子。", "physical": { "height": "small", "build": "compact", "hair": {}, "eyes": { "color": "black, one covered" } }, "attire": { "default": "深蓝长袍与眼罩", "combat": "《利维坦》" }, "voice_quality": { "tone": "arrogant, mocking, incisive" }, "distinctive": ["常称路克斯为打杂的", "嘴角带笑但眼神冰冷", "能吃菲尔菲给的甜甜圈并评论口感"] },
+      "personality": { "summary": "极端天才、厌恶人类愚蠢，主张由最强者建立不可推翻的新秩序。", "core_traits": ["傲慢", "洞察力强", "冷酷", "虚无", "支配欲"], "values": ["力量与秩序", "清除腐败者", "以机龙使统治世界"], "fears": ["愚者再次污染世界", "自己放任垃圾扩散"], "desires": ["独占大圣域", "建立由顶级机龙使支配的新世界", "让路克斯成为部下"], "strengths": ["利维坦", "战阵", "真战阵", "水槽与王权", "战术洞察"], "flaws": ["无法真正信任他人", "轻视普通人的可能性", "将创伤转化为霸道"], "inner_conflict": "他承认路克斯的才能，却无法接受路克斯依靠伙伴的道路。", "decision_pattern": { "strategy": "先隐藏目的，利用联盟行动接近大圣域，再以人质和武力控制路克斯" } },
+      "voice": { "self_reference": "我", "address_pattern": { "lux-arcadia": "打杂的", "magialca-zen-vanfrick": "暴发户老太婆", "filuffy-einfolk": "爱格兰姆财团的千金" }, "register": { "default": "mocking and tyrannical" }, "catchphrases": [], "quote_samples": [] },
+      "habits": { "mannerisms": ["无畏地笑", "用挑衅测试他人", "以残酷现实论压迫对方"], "daily_routine": "指挥白岭骑士团并暗中布局。", "quirks": ["接受菲尔菲甜甜圈并认真评价口感"], "preferences": { "combat": "battle array and water-based true battle arrays" } },
+      "background": { "birth": { "place": "布拉昆德王国", "family": ["unnamed-blind-sister"] }, "upbringing": "出身优越但对权力和民众均无兴趣。", "education": { "military": "将军级军事与机龙技术" }, "formative_events": ["退隐村庄被王国士兵袭击，失明姊姊遭虐杀", "十年前遇见弗基尔并获得利维坦与战阵"], "pre_story": "曾平定内乱后被放逐，后以七龙骑圣副队长身份行动。" },
+      "abilities_owned": ["leviathan-water-tank", "leviathan-royal-authority", "battle-array", "true-battle-array", "baptism-regeneration"],
+      "possessions_owned": ["leviathan", "pseudo-armor-slate"],
+      "relationships": { "lux-arcadia": { "type": "rival / desired subordinate", "status": "试图让路克斯加入自己的霸道，最终在控制室败给路克斯。" }, "fugil-arcadia": { "type": "past benefactor", "status": "十年前从弗基尔处获得利维坦与战阵。" }, "zweigbergk-gimle": { "type": "loyal retainer", "status": "命令兹拜贝鲁克绑架爱理。" }, "magialca-zen-vanfrick": { "type": "mutual suspicion", "status": "被玛姬艾儿卡识破独占大圣域的风险。" }, "filuffy-einfolk": { "type": "brief odd interaction", "status": "接受她递来的甜甜圈并评价。" } },
+      "knowledge": ["singlen-ideology-and-past", "fugil-ancient-hero-truth", "great-sanctuary-world-rewrite"],
+      "secrets": ["命令兹拜贝鲁克袭击爱理", "早知大圣域和弗基尔部分真相", "半身接受洗礼并可复活一次"],
+      "summary": "辛格伦本卷表面与路克斯组成第四部队，实则企图借大圣域建立由强者支配的新世界。他派兹拜贝鲁克绑架爱理，后在控制室与路克斯决战，使用利维坦、战阵和真战阵压制路克斯，但最终被路克斯以暴食和神速制御击败。",
+      "key_events": [
+        { "event_id": "singlen-warns-lux", "summary": "向路克斯谈起灾祸、布拉昆德与弗基尔，暗示真相将至。", "sourceRef": "saijaku-muhai-bahamut-main/vol-15/full.txt:390" },
+        { "event_id": "airi-ambush-zweigbergk", "summary": "暗中派兹拜贝鲁克袭击爱理作为人质。", "sourceRef": "saijaku-muhai-bahamut-main/vol-15/full.txt:3110" },
+        { "event_id": "lux-defeats-singlen", "summary": "在大圣域控制室被路克斯击败，并透露真相片段。", "sourceRef": "saijaku-muhai-bahamut-main/vol-15/full.txt:5923" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["saijaku-muhai-bahamut-main/vol-15/full.txt:390", "saijaku-muhai-bahamut-main/vol-15/full.txt:3110", "saijaku-muhai-bahamut-main/vol-15/full.txt:5923"]
+    }
+  ],
+  "source_refs": ["saijaku-muhai-bahamut-main/vol-15/full.txt"]
+}

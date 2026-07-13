@@ -1,0 +1,26 @@
+{
+  "schema": "tm-fgo-normalized-event-v1",
+  "chapterId": "fgo-eor-shinjuku",
+  "id": "shinjuku-event-r",
+  "rawEventCode": "事件R",
+  "orderIndex": 18,
+  "title": "残忍真相",
+  "timeRaw": "1999年 新宿·枪身塔顶",
+  "trigger": "抵达塔顶",
+  "completion": "击杀巴力，善莫里亚蒂揭露反转计划，陨石降临",
+  "dialogueRefs": [
+    "shinjuku-dlg-024",
+    "shinjuku-dlg-025"
+  ],
+  "sourceRefs": [
+    {
+      "sourceUnitId": "src-fgo-eor-shinjuku",
+      "path": "sources/worldbook-script/eor/ch-089-shinjuku.txt",
+      "lineStart": 99,
+      "lineEnd": 101
+    }
+  ],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

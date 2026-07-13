@@ -1,0 +1,15 @@
+{
+  "waveId": "wave-005",
+  "status": "passed",
+  "model": "lt-yuyu/gpt-5.5",
+  "cycle": ["generator", "auditor", "fixer", "auditor-rerun"],
+  "outputs": [
+    "output.json",
+    "audit-report.md",
+    "fix-trail.md",
+    "final-status.json"
+  ],
+  "openIssues": 0,
+  "blockers": [],
+  "notes": "Passed with FZ class-only Servant observations retained as candidates where identity evidence is incomplete."
+}

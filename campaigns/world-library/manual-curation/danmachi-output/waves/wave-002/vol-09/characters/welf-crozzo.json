@@ -1,0 +1,68 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "welf-crozzo",
+  "volume": "vol-09",
+  "time_range": { "start": "第一章", "end": "第五章" },
+  "sub_arcs": ["接受薇妮", "第19层调查", "强制任务前卫", "异端儿接触"],
+  "periods": [
+    {
+      "period_id": "vol-09-ch-02-claws-and-family",
+      "volume": "vol-09",
+      "time": "第二章 龙娘的同居日常",
+      "label": "磨圆薇妮的爪子",
+      "name": { "zh": "韦尔夫·克罗佐", "en": "Welf Crozzo", "jp": "ヴェルフ・クロッゾ" },
+      "gender": "男",
+      "species": "人类",
+      "occupation": "铁匠、冒险者",
+      "affiliation": "赫斯缇雅眷族",
+      "status": { "level": "Lv.2", "location": "灶火馆", "state": "戒备薇妮但选择实际帮助她" },
+      "summary": "韦尔夫从最初的警戒转为协助，凭铁匠技术把薇妮的龙爪磨圆，让她能安心触碰贝尔而不再伤人。",
+      "key_events": [
+        { "event_id": "wiene-bonds-with-hestia-familia-at-manor", "summary": "磨圆薇妮指甲。", "sourceRef": "danmachi-main/vol-09/full.txt:1835" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-09/full.txt:777-2470"]
+    },
+    {
+      "period_id": "vol-09-ch-03-floor-19-investigation",
+      "volume": "vol-09",
+      "time": "第三章 世界、现实与怪物",
+      "label": "与贝尔调查第19层并见到同胞怪兽",
+      "status": { "location": "地下城第19层", "state": "确认薇妮之外还有会说话的怪兽" },
+      "summary": "韦尔夫陪贝尔回到第19层调查，保护心绪动摇的贝尔，并一起遭遇称薇妮为同胞的金翼怪兽。他也在与追捕薇妮的冒险者擦肩时掩护贝尔。",
+      "key_events": [
+        { "event_id": "bell-and-welf-meet-siren-rei-on-floor-19", "summary": "与贝尔一起遇见金翼歌人鸟蕾依。", "sourceRef": "danmachi-main/vol-09/full.txt:3280" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-09/full.txt:2830-3410"]
+    },
+    {
+      "period_id": "vol-09-ch-05-frontline-mission",
+      "volume": "vol-09",
+      "time": "第五章 异端儿",
+      "label": "以魔剑开路突破大树迷宫",
+      "status": { "location": "地下城第19层至第20层", "state": "接受春姬等级升华担任前卫" },
+      "summary": "韦尔夫作为前卫与贝尔并肩战斗，并用克罗佐魔剑烧开怪物之宴与致命黄蜂的包围，牺牲魔剑把小队送入第20层。",
+      "key_events": [
+        { "event_id": "hestia-familia-escorts-wiene-through-great-tree-labyrinth", "summary": "用魔剑轰开通往第20层的生路。", "sourceRef": "danmachi-main/vol-09/full.txt:6010" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-09/full.txt:5167-6100"]
+    },
+    {
+      "period_id": "vol-09-ch-05-xenos-contact",
+      "volume": "vol-09",
+      "time": "第五章 异端儿",
+      "label": "接受怪兽也能成为交谈对象的冲击",
+      "status": { "location": "第20层秘里", "state": "与贝尔一同见证异端儿社会" },
+      "summary": "秘里中，韦尔夫先与红帽哥布林交手，随后见证里德开口道歉与异端儿欢迎贝尔。他虽震惊于怪兽会用魔石灯、饮酒和武装，但逐渐旁观并接受现实。",
+      "key_events": [
+        { "event_id": "xenos-test-hestia-familia-and-greet-bell", "summary": "在异端儿测试后解除战斗。", "sourceRef": "danmachi-main/vol-09/full.txt:6840" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-09/full.txt:6600-8560"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-09/full.txt:777-8560"]
+}

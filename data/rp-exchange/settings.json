@@ -1,0 +1,79 @@
+{
+  "schema": "rp-exchange-settings-v1",
+  "version": 1,
+  "enabledByDefault": false,
+  "owner": "protagonist-only",
+  "currency": {
+    "unitPrefix": "奖励点",
+    "lowestLevel": 1,
+    "conversionRate": 1000,
+    "displayOrder": "highest-to-lowest"
+  },
+  "priceByN": {
+    "N0": { "amount": 1, "pointLevel": 1 },
+    "N1": { "amount": 3, "pointLevel": 1 },
+    "N2": { "amount": 10, "pointLevel": 1 },
+    "N3": { "amount": 30, "pointLevel": 1 },
+    "N4": { "amount": 100, "pointLevel": 1 },
+    "N5": { "amount": 300, "pointLevel": 1 },
+    "N6": { "amount": 1, "pointLevel": 2 },
+    "N7": { "amount": 3, "pointLevel": 2 },
+    "N8": { "amount": 10, "pointLevel": 2 },
+    "N9": { "amount": 30, "pointLevel": 2 },
+    "N10": { "amount": 100, "pointLevel": 2 },
+    "N11": { "amount": 300, "pointLevel": 2 },
+    "N12": { "amount": 1, "pointLevel": 3 },
+    "N13": { "amount": 3, "pointLevel": 3 },
+    "N14": { "amount": 10, "pointLevel": 3 },
+    "N15": { "amount": 30, "pointLevel": 3 },
+    "N16": { "amount": 100, "pointLevel": 3 },
+    "N17": { "amount": 300, "pointLevel": 3 },
+    "N18": { "amount": 1, "pointLevel": 4 },
+    "N19": { "amount": 3, "pointLevel": 4 },
+    "N20": { "amount": 10, "pointLevel": 4 },
+    "N21": { "amount": 30, "pointLevel": 4 },
+    "N22": { "amount": 100, "pointLevel": 4 },
+    "N23": { "amount": 300, "pointLevel": 4 },
+    "N24": { "amount": 1, "pointLevel": 5 }
+  },
+  "allowedTypes": [
+    "physique_bloodline",
+    "energy_foundation",
+    "foundation_based_ability",
+    "non_foundation_body_soul_technique",
+    "item",
+    "knowledge",
+    "contract"
+  ],
+  "allowedContractSubtypes": [
+    "familiar_contract",
+    "specific_character_summon_contract",
+    "teammate_world_travel_contract"
+  ],
+  "forbiddenTypes": [
+    "system_service",
+    "information",
+    "plot_intelligence",
+    "future_knowledge",
+    "fragment",
+    "trial_version",
+    "weakened_version"
+  ],
+  "sourceVerification": {
+    "archivedWorldRequiresWorldQuery": true,
+    "archivedWorldRequiresWebVerification": false,
+    "unarchivedWorldRequiresDoubleSourceVerification": true,
+    "minimumIndependentSources": 2
+  },
+  "achievementIntegration": {
+    "whenEnabledConvertAchievementRewardsToPoints": true,
+    "disableRandomCanonRewardFlow": true
+  },
+  "systemBuiltin": {
+    "basicLanguage": true,
+    "initialIdentity": true,
+    "statusPanel": true,
+    "exchangePanel": true,
+    "otherServices": false
+  }
+}

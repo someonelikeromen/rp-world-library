@@ -1,0 +1,29 @@
+{
+  "schema": "tm-fgo-extraction-report-v1",
+  "recordId": "lb6-2-round-table-post-extraction-report",
+  "packetId": "pkt-fgo-lostbelt-lb6-2-round-table-post-extract",
+  "chapterId": "fgo-lb6-2-round-table-post",
+  "status": "passed-after-audit-rerun",
+  "sourceUnits": ["src-fgo-lb6-2-round-table-post"],
+  "sourceRefsUsed": ["sources/worldbook-script/lostbelt/ch-117-lb6-2-round-table-post.txt:1-70"],
+  "formalRecordsMetadataPolicy": "Every formal record includes sourceRefs, sourceType, credibility, and canonStatus; collection files also include top-level metadata.",
+  "mandatoryCoverage": {
+    "world_state": "covered",
+    "stage_characters": "covered",
+    "all_timeline_events_A_to_L": "covered",
+    "dialogue_refs_for_all_quotes": "covered",
+    "appearance_descriptions": "covered-with-not-found-for-character-specific-detail",
+    "outfit_and_equipment_visuals": "covered-with-not-found-for-shape/color/material-specifics",
+    "ability_noble_phantasm_skill_magecraft_authority_activation": "covered-with-not-found-for-formal-noble-phantasm-names",
+    "combat_effects_results_targets_costs_consequences": "covered-with-not-found-for-animation-detail",
+    "relationships_and_relationship_candidates": "covered-as-source-first-signals",
+    "not_found_markers": "covered"
+  },
+  "forbiddenOutputNamesUsed": [],
+  "normalizationStatus": "completed-after-audit-loop-pass",
+  "auditStatus": "passed-after-rerun",
+  "sourceRefs": ["sources/worldbook-script/lostbelt/ch-117-lb6-2-round-table-post.txt:1-70"],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

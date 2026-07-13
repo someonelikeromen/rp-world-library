@@ -1,0 +1,144 @@
+{
+  "schema": "tm-fgo-source-unit-manifest-v1",
+  "worldId": "type-moon-nasuverse",
+  "project": "fgo-lb6-pilot",
+  "arc": "lostbelt",
+  "status": "prep-gate-ready",
+  "generatedAt": "2026-07-13",
+  "generatedByStep": "prep-lb6",
+  "model": "lt-yuyu/gpt-5.5",
+  "sourceFile": "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/[沙盒]FGO 0.8.worldbook.json",
+  "sourceUnits": [
+    {
+      "unitId": "src-fgo-lb6-1-avalon-pre",
+      "arc": "lostbelt",
+      "chapterId": "fgo-lb6-1-avalon-pre",
+      "chapterOrder": 6.1,
+      "entryIndex": 100,
+      "slug": "lb6-1-avalon-pre",
+      "comment": "FGO_LB6_1_阿瓦隆前篇",
+      "titleRaw": "Lostbelt No.6 妖精圆桌领域 阿瓦隆·勒·菲（前篇）",
+      "sourceFile": "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/[沙盒]FGO 0.8.worldbook.json",
+      "directSourceRefs": [
+        "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/[沙盒]FGO 0.8.worldbook.json:12931-12936"
+      ],
+      "sourceType": "user-file-worldbook-script",
+      "canonStatus": "canon-like",
+      "credibility": "B",
+      "classification": "script-like",
+      "sections": [
+        "world_state",
+        "stage_characters",
+        "world_timeline"
+      ],
+      "eventCountEstimated": 33,
+      "quoteCountEstimated": 27,
+      "observedEventCodeRangeDuringPrep": "duplicated 事件A0, 事件A1-事件A6, 事件A-事件Y",
+      "recommendedUse": [
+        "source-text-build",
+        "event-extraction",
+        "timeline-build",
+        "character-periods",
+        "relationship-temporal-graph",
+        "appearance-extraction",
+        "ability-extraction",
+        "combat-effect-extraction"
+      ],
+      "sourceTextPath": "sources/worldbook-script/lostbelt/ch-100-lb6-1-avalon-pre.txt",
+      "sourceTextStatus": "not-created-in-prep",
+      "sourceTextRequiredBeforeExtraction": true,
+      "entryInspected": true,
+      "blocked": false,
+      "notFoundInSourceRecordsRequired": true,
+      "prepWarnings": [
+        "Two source timeline records share raw code 事件A0; downstream must preserve both and create unique extracted IDs.",
+        "The entry spans 妖精历, 女王历, and actual 2021 time references; downstream must keep raw time strings."
+      ]
+    },
+    {
+      "unitId": "src-fgo-lb6-2-round-table-post",
+      "arc": "lostbelt",
+      "chapterId": "fgo-lb6-2-round-table-post",
+      "chapterOrder": 6.2,
+      "entryIndex": 117,
+      "slug": "lb6-2-round-table-post",
+      "comment": "FGO_LB6_2_圆桌后篇",
+      "titleRaw": "Lostbelt No.6 妖精圆桌领域 阿瓦隆·勒·菲（后篇）",
+      "sourceFile": "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/[沙盒]FGO 0.8.worldbook.json",
+      "directSourceRefs": [
+        "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/[沙盒]FGO 0.8.worldbook.json:15082-15087"
+      ],
+      "sourceType": "user-file-worldbook-script",
+      "canonStatus": "canon-like",
+      "credibility": "B",
+      "classification": "script-like",
+      "sections": [
+        "world_state",
+        "stage_characters",
+        "world_timeline"
+      ],
+      "eventCountEstimated": 12,
+      "quoteCountEstimated": 19,
+      "observedEventCodeRangeDuringPrep": "事件A-事件L",
+      "recommendedUse": [
+        "source-text-build",
+        "event-extraction",
+        "timeline-build",
+        "character-periods",
+        "relationship-temporal-graph",
+        "appearance-extraction",
+        "ability-extraction",
+        "combat-effect-extraction"
+      ],
+      "sourceTextPath": "sources/worldbook-script/lostbelt/ch-117-lb6-2-round-table-post.txt",
+      "sourceTextStatus": "not-created-in-prep",
+      "sourceTextRequiredBeforeExtraction": true,
+      "entryInspected": true,
+      "blocked": false,
+      "notFoundInSourceRecordsRequired": true,
+      "prepWarnings": [
+        "Keep LB6.2 distinct from LB6.1; do not merge packets before audited canonical merge stage.",
+        "Final-correction terminology must remain source-first and not become unsupported formal labels."
+      ]
+    }
+  ],
+  "sourceTextPlanned": 2,
+  "sourceTextBuilt": 0,
+  "workPacketsExpected": 2,
+  "workPacketsPrepared": 2,
+  "extractionGate": "closed-extraction-not-started",
+  "downstreamStageGates": {
+    "sourceTextBuild": "closed-not-built-in-prep",
+    "chapterExtraction": "closed-until-source-text-built",
+    "normalization": "closed-until-packet-final-status-passed",
+    "merge": "closed-until-normalized-layer-passed-and_raw_event_fields_retained",
+    "timelineGraph": "closed-until-canonical-layer-passed-and_temporal_relationship_fields_retained",
+    "publication": "not authorized"
+  },
+  "formalLabelPolicy": {
+    "forbiddenCanonLabels": [
+      "canon-text",
+      "official-script"
+    ],
+    "requiredCanonStatus": "canon-like",
+    "requiredSourceType": "user-file-worldbook-script",
+    "noUnsupportedFormalLabels": true,
+    "sourceFirstTerminologyRequired": true
+  },
+  "mergeRetentionRequirements": {
+    "eventFields": [
+      "triggerRaw",
+      "completionRaw",
+      "summaryRaw"
+    ],
+    "relationshipEdgeFields": [
+      "timelineId",
+      "timeRange"
+    ]
+  },
+  "formalAggregateBan": [
+    "characters.json",
+    "events.json",
+    "relationships.json"
+  ]
+}

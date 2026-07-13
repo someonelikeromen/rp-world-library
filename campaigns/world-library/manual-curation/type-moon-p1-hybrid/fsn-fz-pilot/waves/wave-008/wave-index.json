@@ -1,0 +1,24 @@
+{
+  "schema": "tm-p1-wave-index-v1",
+  "waveId": "wave-008",
+  "name": "Abilities, magecraft, Noble Phantasms",
+  "status": "passed",
+  "agent": { "model": "lt-yuyu/gpt-5.5" },
+  "sourceRefs": [
+    "type-moon-nasuverse/worldbook-text/src-type-moon-filtered.md",
+    "type-moon-nasuverse/worldbook-text/src-fsn-core.md",
+    "type-moon-nasuverse/story-text/fate/ch-002-fate-route.txt",
+    "type-moon-nasuverse/story-text/fate/ch-003-ubw-route.txt",
+    "type-moon-nasuverse/story-text/fate/ch-004-hf-route.txt"
+  ],
+  "outputs": {
+    "abilities": ["output/abilities.json"],
+    "candidates": ["output/ability-candidates.json"]
+  },
+  "reports": {
+    "generation": "reports/generation-report.json",
+    "latestAudit": "reports/audit-round-002.json",
+    "latestFix": "reports/fix-round-001.json",
+    "finalStatus": "reports/final-status.json"
+  }
+}

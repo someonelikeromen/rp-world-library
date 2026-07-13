@@ -1,0 +1,37 @@
+{
+  "schema": "tm-fgo-extracted-world-state-v1",
+  "recordId": "lb6-1-avalon-pre-world-state",
+  "chapterId": "fgo-lb6-1-avalon-pre",
+  "packetId": "pkt-fgo-lostbelt-lb6-1-avalon-pre-extract",
+  "titleRaw": "Lostbelt No.6 妖精圆桌领域 阿瓦隆·勒·菲（前篇）",
+  "eraRaw": "妖精历12000年～女王历2017年 / 实际时间2021年",
+  "placeRaw": "不列颠·妖精国",
+  "ratingRaw": "EX",
+  "environmentFeaturesRaw": "世界由古神尸骸构成，长期受诅咒侵蚀，周期性爆发“大灾厄”。妖精社会以六大氏族为核心，极端不稳定，背叛与暴力常态化；人类为被量产的附属存在。时间结构混乱（妖精历与女王历并存），因果与记忆可产生矛盾但仍维持运行。整体呈现“勉强维持的崩坏世界”。",
+  "abnormalRootRaw": "起源错误在于妖精未锻造圣剑并虐杀科尔努诺斯，导致诅咒与世界失衡。摩根（梣）在多次轮回与背叛后放弃拯救，建立女王统治压制灾厄，但无法根除问题。阿尔托莉雅·卡斯特作为“预言之子”，代表修正世界的外部机制。",
+  "baseLogicRaw": "本质为“错误世界的循环维持”：起源错误 → 灾厄循环 → 强制统治延缓崩坏。摩根的秩序只能拖延毁灭，无法修复根因。破局需通过巡礼之钟恢复预言之子资格，揭露世界真相，并由预言之子完成“纠正”。核心主题：一个从起点就错误的世界，是否应继续存在。",
+  "engineInstructionRefs": [
+    {
+      "rawLabel": "时间线读取规则",
+      "textRaw": "若当前视角为“迦勒底介入”（藤丸立香阵营），则禁止从妖精历事件开始展开剧情。必须从 <world_timeline> 中的「事件H: 序幕·Storm Border出港（2021年）」作为起始节点读取。",
+      "canonFact": false,
+      "sourceRefs": ["sources/worldbook-script/lostbelt/ch-100-lb6-1-avalon-pre.txt:10-13"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "rawLabel": "叙事一致性",
+      "textRaw": "禁止角色在未获得情报前知晓妖精历真相；所有世界真相需通过事件推进逐步揭露",
+      "canonFact": false,
+      "sourceRefs": ["sources/worldbook-script/lostbelt/ch-100-lb6-1-avalon-pre.txt:15-17"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    }
+  ],
+  "sourceRefs": ["sources/worldbook-script/lostbelt/ch-100-lb6-1-avalon-pre.txt:1-19"],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

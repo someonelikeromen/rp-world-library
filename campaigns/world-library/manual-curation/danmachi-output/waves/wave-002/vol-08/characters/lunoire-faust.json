@@ -1,0 +1,32 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "lunoire-faust",
+  "volume": "vol-08",
+  "time_range": { "start": "第一章", "end": "特典 哀求elegy" },
+  "sub_arcs": ["献给某武神的恋歌", "城市姑娘的秘密", "哀求elegy"],
+  "periods": [
+    {
+      "period_id": "vol-08-special-elegy",
+      "volume": "vol-08",
+      "time": "特典 哀求elegy",
+      "label": "希儿料理试吃受害者",
+      "name": { "zh": "露诺娃·浮士德", "en": "Lunoire Faust", "jp": "ルノア・ファウスト" },
+      "gender": "女",
+      "species": "人类",
+      "occupation": "酒馆店员",
+      "affiliation": "丰饶的女主人",
+      "status": { "location": "丰饶的女主人；灶火馆", "state": "被希儿强化料理牵连，参与向贝尔求救" },
+      "appearance": { "overview": "人类女性店员，语气直率。" },
+      "personality": { "summary": "直率、现实、爱吐槽，面对希儿料理时毫不掩饰求生欲。", "core_traits": ["直率", "现实", "吐槽", "怕麻烦"], "values": ["酒馆工作稳定", "远离灾难料理"] },
+      "relationships": { "syr-flova": "同事与料理试吃来源", "ryu-lion": "同事", "chloe-rollo": "同事", "anya-fromel": "同事", "bell-cranel": "求其继续接收希儿午餐的对象" },
+      "summary": "露诺娃指出贝尔最近不来酒馆、希儿被抛弃等玩笑话，间接刺激希儿强化厨艺；随后她也成为试吃受害者之一，和众人一起向贝尔哀求。",
+      "key_events": [
+        { "event_id": "syr-cooking-training-burdens-tavern-staff", "summary": "参与希儿料理风波并向贝尔求助。", "sourceRef": "danmachi-main/vol-08/full.txt:12450" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-08/full.txt:12433", "danmachi-main/vol-08/full.txt:12450"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-08/full.txt:1041-1066", "danmachi-main/vol-08/full.txt:9045-9206", "danmachi-main/vol-08/full.txt:12413-12460"]
+}

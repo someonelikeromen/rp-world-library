@@ -1,0 +1,30 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "typhon-ruthless-fruit",
+  "volume": "vol-15",
+  "periods": [
+    {
+      "period_id": "vol-15",
+      "volume": "vol-15",
+      "time": "Mishis and Filnigersch battles",
+      "name": { "zh": "无情果实", "en": "Ruthless Fruit" },
+      "aliases": ["堤丰神装"],
+      "type": "technology / combat / divine-drag-ride",
+      "description": "《堤丰》的神装，可让目标机龙或神装能力失效。菲尔菲在与菲尔尼格修战斗中用它阻止敌方神装释放人质肉盾。",
+      "details": { "drag_ride": "typhon", "user": "filuffy-einfolk", "risk": "对使用者负担大，菲尔菲凭幻神兽影响得以高强度使用" },
+      "activation": { "condition": "靠近目标并启动神装", "incantation": "", "time": "short-range", "cost": "大量体力与精神力" },
+      "effects": ["无效化敌方神装", "封住自律机龙释放人质的机制", "可反制支配者神域等能力"],
+      "power_level": { "initial": "high", "peak": "key to breaking Filnigersch", "evolution": ["b-blood-typhon enhances delivery and endurance"] },
+      "known_feats": ["被密丝希斯夺取后用来压制赛莉丝", "菲尔菲用其阻止菲尔尼格修吐出七龙骑圣做人质"],
+      "shared_by": ["filuffy-einfolk"],
+      "see_also": ["b-blood-typhon", "filnigersch-control"],
+      "countered_by": ["distance", "rapid physical attack before activation"],
+      "counters": ["divine raiments", "autonomous drag-ride abilities"],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": ["saijaku-muhai-bahamut-main/vol-15/full.txt:4220", "saijaku-muhai-bahamut-main/vol-15/full.txt:7580"]
+    }
+  ],
+  "source_refs": ["saijaku-muhai-bahamut-main/vol-15/full.txt:4220"]
+}

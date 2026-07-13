@@ -1,0 +1,368 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "bell-cranel",
+  "volume": "vol-07",
+  "time_range": {
+    "start": "序章",
+    "end": "终章"
+  },
+  "sub_arcs": [
+    "新生赫斯缇雅眷族初回探索",
+    "新总部搬入与债务危机",
+    "红灯区迷走与春姬邂逅"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-07-prologue",
+      "volume": "vol-07",
+      "time": "序章 女神是残酷的淫都之王",
+      "label": "新生眷族初回探索",
+      "name": {
+        "zh": "贝尔·克朗尼",
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル"
+      },
+      "aliases": [
+        "小新秀"
+      ],
+      "titles": [
+        "小新秀"
+      ],
+      "gender": "男",
+      "species": "人类",
+      "occupation": "冒险者",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {
+        "level": "Lv.2",
+        "location": "地下城第13层",
+        "state": "战争游戏后与新生小队完成委托并遭遇怪物奉送"
+      },
+      "personality": {
+        "summary": "温和而努力，战斗中承担前锋职责；面对突发怪物奉送时优先抱起支援者撤退。",
+        "core_traits": [
+          "善良",
+          "勤奋",
+          "重视同伴"
+        ]
+      },
+      "abilities_owned": [
+        "幸运",
+        "火焰闪电"
+      ],
+      "relationships": {
+        "liliruca-arde": "同队支援者",
+        "welf-crozzo": "同队前锋",
+        "mikoto-yamato": "新加入的中卫同伴"
+      },
+      "summary": "在第13层与莉莉、韦尔夫、命采得红缟玛瑙并清剿怪兽；遭其他冒险者怪物奉送后抱起莉莉撤出地下城。",
+      "key_events": [
+        {
+          "event_id": "hestia-familia-first-expedition-after-war-game",
+          "summary": "参与新生赫斯缇雅眷族初回探索并完成红缟玛瑙委托。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:50"
+        },
+        {
+          "event_id": "hestia-familia-pass-parade-vol-07",
+          "summary": "遭遇怪物奉送后与同伴逃离中层。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:154"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-07/full.txt:50",
+        "danmachi-main/vol-07/full.txt:88",
+        "danmachi-main/vol-07/full.txt:154"
+      ]
+    },
+    {
+      "period_id": "vol-07-ch-01",
+      "volume": "vol-07",
+      "time": "第一章 一帆风顺",
+      "label": "Lv.3团长与新家债务现实",
+      "name": {
+        "zh": "贝尔·克朗尼",
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル"
+      },
+      "aliases": [
+        "小新秀"
+      ],
+      "titles": [
+        "赫斯缇雅眷族团长",
+        "小新秀"
+      ],
+      "gender": "男",
+      "species": "人类",
+      "occupation": "冒险者、团长",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {
+        "level": "Lv.3",
+        "location": "赫斯缇雅眷族新总部",
+        "state": "官方升级并搬入新总部，但因赫斯缇雅之刃债务导致招募失败"
+      },
+      "personality": {
+        "summary": "对新家与眷族扩张满怀期待，愿意相信卡珊德拉的预知梦；债务曝光后请求支持赫斯缇雅。",
+        "core_traits": [
+          "善良",
+          "容易相信他人",
+          "重视家庭",
+          "责任感增强"
+        ]
+      },
+      "abilities_owned": [
+        "幸运",
+        "火焰闪电"
+      ],
+      "possessions_owned": [
+        "赫斯缇雅之刃"
+      ],
+      "relationships": {
+        "hestia": "主神；因匕首债务理解其爱与负担，承诺支持她",
+        "cassandra-ilion": "相信其预知梦并帮她找回枕头",
+        "daphne-lauros": "前阿波罗眷族成员，短暂作为志愿入团者再离开"
+      },
+      "summary": "一个月升至Lv.3震动都市；搬入新总部后帮卡珊德拉找回预知梦中的枕头。招募会因两亿法利借据曝光崩溃后，他理解赫斯缇雅为匕首负债，请求一起承担。",
+      "key_events": [
+        {
+          "event_id": "bell-reaches-level-three",
+          "summary": "一个月升至Lv.3的官方消息传遍欧拉丽。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:320"
+        },
+        {
+          "event_id": "cassandra-pillow-prophecy",
+          "summary": "相信卡珊德拉的预知梦并成功找回枕头。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:602"
+        },
+        {
+          "event_id": "hestia-familia-recruitment-collapse",
+          "summary": "五十多名志愿者因两亿法利债务曝光而退去。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:946"
+        },
+        {
+          "event_id": "hestia-debt-support-pact",
+          "summary": "理解匕首债务后请求支持赫斯缇雅并与同伴制定筹资方针。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:1122"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-07/full.txt:320",
+        "danmachi-main/vol-07/full.txt:602",
+        "danmachi-main/vol-07/full.txt:946",
+        "danmachi-main/vol-07/full.txt:1122"
+      ]
+    },
+    {
+      "period_id": "vol-07-ch-02",
+      "volume": "vol-07",
+      "time": "第二章 跑吧！克朗尼",
+      "label": "误入红灯区与春姬邂逅",
+      "name": {
+        "zh": "贝尔·克朗尼",
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル"
+      },
+      "aliases": [
+        "小新秀",
+        "世界最快白兔",
+        "兔子"
+      ],
+      "titles": [
+        "赫斯缇雅眷族团长",
+        "小新秀"
+      ],
+      "gender": "男",
+      "species": "人类",
+      "occupation": "冒险者、团长",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {
+        "level": "Lv.3",
+        "location": "风月街、伊丝塔眷族势力圈、游廓、代达罗斯路入口",
+        "state": "跟踪命时走散，被伊丝塔眷族亚马逊追捕后由春姬藏匿并送出"
+      },
+      "personality": {
+        "summary": "极度纯情且容易惊慌，但在春姬面前保持善意；得知她被拐卖为娼妇后受到震撼，仍坚称英雄不会弃她不顾。",
+        "core_traits": [
+          "纯情",
+          "善良",
+          "同情心强",
+          "英雄憧憬"
+        ],
+        "fears": [
+          "被亚马逊人捕获",
+          "失去憧憬与自我"
+        ],
+        "values": [
+          "英雄故事",
+          "不抛弃受苦者"
+        ]
+      },
+      "abilities_owned": [
+        "幸运",
+        "火焰闪电"
+      ],
+      "possessions_owned": [
+        "赫斯缇雅之刃",
+        "荷米斯塞来的壮阳药",
+        "春姬交给他的灯笼型魔石灯"
+      ],
+      "relationships": {
+        "mikoto-yamato": "因担心她而参与跟踪",
+        "liliruca-arde": "失散的同伴",
+        "welf-crozzo": "失散的同伴",
+        "hermes": "在游廓偶遇并被其误会、塞药",
+        "aisha-belka": "抓住并追捕他的伊丝塔眷族亚马逊",
+        "phryne-jamil": "压倒性威胁他的伊丝塔眷族干部",
+        "haruhime-sanjouno": "藏匿他、与他分享童话和身世的狐人娼妇",
+        "ishtar": "得知芙蕾雅迷恋他后准备夺取他的美神"
+      },
+      "summary": "贝尔跟踪命进入红灯区后与同伴走散，在游廓首次看见春姬，又被荷米斯误会并塞给壮阳药。随后阿伊莎与亚马逊娼妇认出他并带往女主神娼殿，芙里尼出现后，贝尔从伊丝塔眷族的狩猎中拼命逃跑，闯入春姬房间。春姬误认他为客人后昏倒，醒来后藏匿他，并向他讲述远东贵族出身、被拐卖到欧拉丽和自己作为娼妇的现实。贝尔因她的自弃震撼，坚称英雄不会抛弃她，最后由春姬经代达罗斯路送出风月街。",
+      "key_events": [
+        {
+          "event_id": "bell-gets-lost-in-red-light-district",
+          "summary": "横越东南大街时与同伴走散，独自迷失在风月街。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:1632"
+        },
+        {
+          "event_id": "bell-first-sees-haruhime",
+          "summary": "在游廓张见世中与春姬对视，被她虚幻笑容吸引。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:1740"
+        },
+        {
+          "event_id": "hermes-gives-bell-aphrodisiac",
+          "summary": "被荷米斯误会来风月街消费并塞给壮阳药。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:1824"
+        },
+        {
+          "event_id": "aisha-captures-bell",
+          "summary": "被阿伊莎与亚马逊娼妇认出为小新秀并强行带走。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:1912"
+        },
+        {
+          "event_id": "ishtar-amazons-hunt-bell",
+          "summary": "从女主神娼殿逃出，在风月街遭阿伊莎、芙里尼与娼妇网络追捕。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:2414"
+        },
+        {
+          "event_id": "bell-and-haruhime-share-hero-tales",
+          "summary": "藏在春姬房间，听她身世并讨论英雄谭。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:2988"
+        },
+        {
+          "event_id": "haruhime-guides-bell-to-daedalus-street",
+          "summary": "由春姬带到与代达罗斯路相连的后巷逃离。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:3404"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-07/full.txt:1288",
+        "danmachi-main/vol-07/full.txt:1632",
+        "danmachi-main/vol-07/full.txt:1740",
+        "danmachi-main/vol-07/full.txt:1824",
+        "danmachi-main/vol-07/full.txt:1912",
+        "danmachi-main/vol-07/full.txt:2414",
+        "danmachi-main/vol-07/full.txt:2988",
+        "danmachi-main/vol-07/full.txt:3330",
+        "danmachi-main/vol-07/full.txt:3404"
+      ]
+    },
+    {
+      "period_id": "vol-07-ch-03-to-epilogue",
+      "volume": "vol-07",
+      "time": "第三章 狐兔忧闷 至 终章 若是被温柔拥抱",
+      "label": "救出春姬的英雄",
+      "name": {
+        "zh": "贝尔·克朗尼",
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル"
+      },
+      "aliases": [
+        "小新秀",
+        "兔子"
+      ],
+      "titles": [
+        "赫斯缇雅眷族团长"
+      ],
+      "gender": "男",
+      "species": "人类",
+      "occupation": "冒险者、团长",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {
+        "level": "Lv.3",
+        "location": "欧拉丽风月街、女主神娼殿、灶火馆",
+        "state": "在伊丝塔眷族与芙蕾雅眷族冲突中救出春姬，并迎接她加入赫斯缇雅眷族"
+      },
+      "personality": {
+        "summary": "在春姬问题上经历犹豫、自责与觉悟，最终决定即使舍弃欧拉丽生活也要救她；纯情到抵抗伊丝塔魅惑。",
+        "core_traits": [
+          "善良",
+          "纯情",
+          "英雄憧憬",
+          "不放弃",
+          "愿为弱者承担风险"
+        ]
+      },
+      "abilities_owned": [
+        "幸运",
+        "异常抗性",
+        "火焰闪电",
+        "一心憧憬",
+        "英雄愿望"
+      ],
+      "relationships": {
+        "haruhime-sanjouno": "想拯救并最终带回眷族的新家人",
+        "mikoto-yamato": "共同救援春姬的同伴",
+        "aisha-belka": "以战斗考验他的亚马逊",
+        "ishtar": "试图魅惑并夺取他的敌方主神",
+        "freya": "暗中执着于他的美神"
+      },
+      "summary": "贝尔因红灯区事件被惩罚并向埃伊娜了解伊丝塔眷族；在得知春姬过去与命的关系后，原先试图以赎身和平解决。伊丝塔眷族以委托诱捕赫斯缇雅眷族，贝尔被阿伊莎和芙里尼击败掳走，又由春姬从秘密地下室救出。得知杀生石计划后，他一度因眷族风险而退缩，随后以祖父教诲坚定救援春姬。宫殿攻略中，他抵抗伊丝塔魅惑，粉碎杀生石，要求春姬说出真心，并在春姬万宝槌支援下与芙里尼周旋。芙蕾雅眷族攻入后，他在空中庭园等待等级升华结束后与阿伊莎决斗并获胜，扯断春姬项圈，说出“我来救你了”。两天后，他欢迎春姬加入赫斯缇雅眷族。",
+      "key_events": [
+        {
+          "event_id": "bell-volunteer-punishment-and-consults-eina",
+          "summary": "因风月街事件受罚并向埃伊娜咨询伊丝塔眷族。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:3574"
+        },
+        {
+          "event_id": "bell-and-mikoto-captured-by-ishtar-familia",
+          "summary": "在第14层委托中被伊丝塔眷族诱捕。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:5990"
+        },
+        {
+          "event_id": "bell-resolves-to-save-haruhime",
+          "summary": "在小巷中下定决心即使逃离欧拉丽也要救春姬。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:7796"
+        },
+        {
+          "event_id": "bell-breaks-killing-stone",
+          "summary": "冲过芙里尼拦截并粉碎杀生石。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:10150"
+        },
+        {
+          "event_id": "haruhime-casts-uchide-no-kozuchi-on-bell",
+          "summary": "接受春姬万宝槌的等级升华。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:10362"
+        },
+        {
+          "event_id": "bell-duels-aisha-for-haruhime",
+          "summary": "公平击败阿伊莎，证明带走春姬的觉悟。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:12034"
+        },
+        {
+          "event_id": "bell-removes-haruhime-collar",
+          "summary": "扯断春姬项圈并宣告救援完成。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:12192"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-07/full.txt:3573-12474"
+      ]
+    }
+  ],
+  "source_refs": [
+    "danmachi-main/vol-07/full.txt:1-12474"
+  ]
+}

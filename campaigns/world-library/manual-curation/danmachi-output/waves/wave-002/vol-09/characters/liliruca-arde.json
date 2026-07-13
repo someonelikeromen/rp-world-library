@@ -1,0 +1,71 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "liliruca-arde",
+  "volume": "vol-09",
+  "time_range": { "start": "第一章", "end": "第五章" },
+  "sub_arcs": ["参谋与风险", "情报调查", "扮黑脸", "护送任务"],
+  "periods": [
+    {
+      "period_id": "vol-09-ch-01-reluctant-plan",
+      "volume": "vol-09",
+      "time": "第一章 异性少女",
+      "label": "在风险中安排带薇妮回地表",
+      "name": { "zh": "莉莉露卡·厄德", "en": "Liliruca Arde", "jp": "リリルカ・アーデ" },
+      "aliases": ["莉莉"],
+      "gender": "女",
+      "species": "小人族",
+      "occupation": "支援者、赫斯缇雅眷族参谋",
+      "affiliation": "赫斯缇雅眷族",
+      "status": { "location": "第18层、巴别塔", "state": "虽反对藏匿怪兽，仍为贝尔安排夜间归返" },
+      "summary": "莉莉最初激烈警告贝尔不要对怪兽感情用事，但在听见薇妮会说话且看到贝尔不愿见死不救后妥协，并拟定深夜离开巴别塔的方案。",
+      "key_events": [
+        { "event_id": "hestia-familia-smuggles-wiene-to-manor", "summary": "安排等夜深后带薇妮回灶火馆。", "sourceRef": "danmachi-main/vol-09/full.txt:640" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-09/full.txt:500-776"]
+    },
+    {
+      "period_id": "vol-09-ch-02-investigates-rumors",
+      "volume": "vol-09",
+      "time": "第二章 龙娘的同居日常",
+      "label": "调查会说话怪兽传闻",
+      "status": { "location": "冒险者街地下酒馆、灶火馆", "state": "以变身魔法收集情报并警惕荷米斯眷族" },
+      "summary": "莉莉变身成精灵少女在地下酒馆打探会说话怪兽，遇见荷米斯眷族的露露妮，得知有人也在高价收集相关情报。她被跟踪后用臭袋甩开对方。",
+      "key_events": [
+        { "event_id": "hestia-familia-investigates-talking-monsters", "summary": "发现另有势力追踪会说话怪兽。", "sourceRef": "danmachi-main/vol-09/full.txt:1350" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-09/full.txt:1110-2470"]
+    },
+    {
+      "period_id": "vol-09-ch-03-rescue-and-hard-truth",
+      "volume": "vol-09",
+      "time": "第三章 世界、现实与怪物",
+      "label": "主张分离却亲手救出薇妮",
+      "status": { "location": "灶火馆、欧拉丽街区、教堂隐藏房间", "state": "在保护眷族与保护薇妮之间痛苦摇摆" },
+      "summary": "莉莉冷静分析继续藏匿薇妮会毁掉赫斯缇雅眷族，提出将她送出都市，话语被薇妮听见而导致出走。薇妮在街上暴露后，莉莉立刻用变身魔法救走她，并指示众人前往旧教堂隐藏房间。",
+      "key_events": [
+        { "event_id": "wiene-overhears-lili-and-runs-away", "summary": "提出与薇妮分离的现实判断。", "sourceRef": "danmachi-main/vol-09/full.txt:3550" },
+        { "event_id": "wiene-revealed-in-city-and-lili-rescues-her", "summary": "变身为精灵少女带薇妮逃离人群。", "sourceRef": "danmachi-main/vol-09/full.txt:3990" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-09/full.txt:3400-4180"]
+    },
+    {
+      "period_id": "vol-09-ch-05-supporter-on-mission",
+      "volume": "vol-09",
+      "time": "第五章 异端儿",
+      "label": "支援第20层护送与识破秘里本质",
+      "status": { "location": "第19层、第20层秘里", "state": "作为支援者管理地图、道具和魔剑" },
+      "summary": "莉莉在强制任务中负责地图、道具、魔剑与战利品清理，帮助小队突破大树迷宫。抵达秘里后，她质疑乌拉诺斯与异端儿的关系并推断异端儿真正心愿是踏上地表。",
+      "key_events": [
+        { "event_id": "hestia-familia-escorts-wiene-through-great-tree-labyrinth", "summary": "用魔剑和地图支援护送任务。", "sourceRef": "danmachi-main/vol-09/full.txt:5600" },
+        { "event_id": "xenos-explain-dream-of-surface-and-reincarnation", "summary": "追问异端儿与公会的互惠关系。", "sourceRef": "danmachi-main/vol-09/full.txt:8120" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-09/full.txt:5167-8632"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-09/full.txt:500-8632"]
+}

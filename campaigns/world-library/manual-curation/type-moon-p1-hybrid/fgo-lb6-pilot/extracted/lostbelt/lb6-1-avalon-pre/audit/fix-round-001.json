@@ -1,0 +1,16 @@
+{
+  "schema": "tm-fgo-packet-fix-round-v1",
+  "recordId": "lb6-1-avalon-pre-fix-round-001",
+  "chapterId": "fgo-lb6-1-avalon-pre",
+  "round": 1,
+  "fixerStatus": "completed",
+  "fixes": [
+    {"issueId": "audit-001-stage-groups-metadata", "status": "fixed", "changeRaw": "Added sourceType, credibility, and canonStatus to each nested stage-character group object."},
+    {"issueId": "audit-001-engine-instruction-metadata", "status": "fixed", "changeRaw": "Added sourceType, credibility, and canonStatus to each world-state engineInstructionRefs object."}
+  ],
+  "postFixExpectation": "Auditor rerun should pass with no open or blocked issues.",
+  "sourceRefs": ["extracted/lostbelt/lb6-1-avalon-pre/stage-characters/index.json", "extracted/lostbelt/lb6-1-avalon-pre/world-state.json"],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

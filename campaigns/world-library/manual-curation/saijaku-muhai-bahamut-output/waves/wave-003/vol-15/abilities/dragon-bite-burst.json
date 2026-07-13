@@ -1,0 +1,26 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "dragon-bite-burst",
+  "volume": "vol-15",
+  "periods": [{
+    "period_id": "vol-15", "volume": "vol-15", "time": "Hayes Sacred Eclipse battle",
+    "name": { "zh": "龙咬爆火", "en": "Dragon Bite Burst" },
+    "aliases": ["堤丰爆破技"],
+    "type": "technology / combat / special-armament",
+    "description": "菲尔菲将能量注入《堤丰》特殊武装并引爆的高破坏力攻击。本卷用于粉碎海兹圣蚀化的核心并破坏菲尔尼格修控制剑。",
+    "details": { "drag_ride": "typhon", "user": "filuffy-einfolk", "setup": "often follows Dragon Bite Bind" },
+    "activation": { "condition": "以堤丰贴近或束缚目标并注入能量", "incantation": "《龙咬爆火》", "time": "instant blast", "cost": "高能量和体力消耗" },
+    "effects": ["爆破目标内部或接触点", "粉碎核心", "摧毁特殊武装"],
+    "power_level": { "initial": "very high", "peak": "breaks Hayes/Eclipse core", "evolution": ["enhanced by B-blood Typhon"] },
+    "known_feats": ["菲尔菲用它炸裂海兹身体和核心", "余波粉碎菲尔尼格修机攻壳剑"],
+    "shared_by": ["filuffy-einfolk"],
+    "see_also": ["dragon-bite-bind", "b-blood-typhon"],
+    "countered_by": ["preventing contact", "hostage shielding"],
+    "counters": ["core regeneration", "heavy armor"],
+    "variations": [],
+    "evidence_level": "S",
+    "source_refs": ["saijaku-muhai-bahamut-main/vol-15/full.txt:7670"]
+  }],
+  "source_refs": ["saijaku-muhai-bahamut-main/vol-15/full.txt:7670"]
+}

@@ -1,0 +1,35 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "airi-arcadia",
+  "volume": "vol-08",
+  "periods": [{
+    "period_id": "vol-08-main",
+    "volume": "vol-08",
+    "time": "路克斯赴优密尔期间",
+    "name": { "zh": "爱理·阿卡迪亚", "en": "Airi Arcadia", "jp": "" },
+    "aliases": ["艾丽"],
+    "titles": ["路克斯的妹妹"],
+    "gender": "female",
+    "species": "human",
+    "nationality": "亚提司玛特新王国/旧阿卡迪亚帝国",
+    "occupation": "学生",
+    "affiliation": "王立士官学园",
+    "status": { "state": "alive", "condition": "留守学园" },
+    "appearance": { "overview": "冷静的少女，常与诺珂特同房。" },
+    "personality": { "summary": "嘴上冷淡，实际非常关心兄长。", "core_traits": ["理性", "傲娇", "细心"] },
+    "abilities_owned": [],
+    "possessions_owned": [],
+    "relationships": {
+      "lux-arcadia": { "type": "兄妹", "summary": "担心哥哥无预告前往优密尔；特典中委托他打扫房间。" },
+      "noct-leaflet": { "type": "室友/友人", "summary": "与诺珂特一起留守。" },
+      "sharis-bartshift": { "type": "学园同伴", "summary": "尾声接待葛莱法与柯莱尔。" }
+    },
+    "knowledge": ["giant-soldier-reactivation"],
+    "summary": "爱理在学园发现路克斯离开后虽然强装冷静，仍表现出担忧；尾声与三和音接待梵海姆公国的七龙骑圣来访，并追问世界局势。",
+    "key_events": [{ "event_id": "academy-guest-reception", "summary": "接待葛莱法与柯莱尔并询问世界变化。", "sourceRef": "saijaku-muhai-bahamut-main/vol-08/full.txt:7930" }],
+    "evidence_level": "S",
+    "source_refs": ["saijaku-muhai-bahamut-main/vol-08/full.txt:93", "saijaku-muhai-bahamut-main/vol-08/full.txt:8257"]
+  }],
+  "source_refs": ["saijaku-muhai-bahamut-main/vol-08/full.txt:93"]
+}

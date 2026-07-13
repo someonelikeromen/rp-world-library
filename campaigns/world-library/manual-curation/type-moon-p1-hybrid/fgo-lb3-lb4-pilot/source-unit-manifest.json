@@ -1,0 +1,110 @@
+{
+  "schema": "tm-fgo-source-unit-manifest-v1",
+  "worldId": "type-moon-nasuverse",
+  "project": "fgo-lb3-lb4-pilot",
+  "arc": "lostbelt",
+  "status": "prep-only-source-text-not-built",
+  "generatedAt": "2026-07-12",
+  "generatedByStep": "prep-lb3-lb4",
+  "model": "lt-yuyu/gpt-5.5",
+  "sourceFile": "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/[沙盒]FGO 0.8.worldbook.json",
+  "sourceUnits": [
+    {
+      "unitId": "src-fgo-lb3-renzhi-tonghe-zhenguo",
+      "arc": "lostbelt",
+      "chapterId": "fgo-lb3-renzhi-tonghe-zhenguo",
+      "chapterOrder": 3,
+      "entryIndex": 95,
+      "slug": "lb3-renzhi-tonghe-zhenguo",
+      "comment": "FGO_LB3_人智统合真国",
+      "titleRaw": "Lostbelt No.3 人智统合真国 琴（红之月下美人）",
+      "sourceFile": "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/[沙盒]FGO 0.8.worldbook.json",
+      "directSourceRefs": [
+        "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/[沙盒]FGO 0.8.worldbook.json:12320-12321"
+      ],
+      "sourceType": "user-file-worldbook-script",
+      "canonStatus": "canon-like",
+      "credibility": "B",
+      "classification": "script-like",
+      "sections": ["world_state", "stage_characters", "world_timeline"],
+      "eventCountEstimated": 21,
+      "quoteCountEstimated": 34,
+      "observedEventCodeRangeDuringPrep": "事件A0, 事件A-事件T",
+      "recommendedUse": [
+        "source-text-build",
+        "event-extraction",
+        "timeline-build",
+        "character-periods",
+        "relationship-temporal-graph",
+        "appearance-extraction",
+        "ability-extraction",
+        "combat-effect-extraction"
+      ],
+      "sourceTextPath": "sources/worldbook-script/lostbelt/ch-095-lb3-renzhi-tonghe-zhenguo.txt",
+      "sourceTextStatus": "not-created-in-prep",
+      "sourceTextRequiredBeforeExtraction": true,
+      "entryInspected": true,
+      "blocked": false,
+      "notFoundInSourceRecordsRequired": true
+    },
+    {
+      "unitId": "src-fgo-lb4-chuangshi-miewang-lunhui",
+      "arc": "lostbelt",
+      "chapterId": "fgo-lb4-chuangshi-miewang-lunhui",
+      "chapterOrder": 4,
+      "entryIndex": 96,
+      "slug": "lb4-chuangshi-miewang-lunhui",
+      "comment": "FGO_LB4_创世灭亡轮回",
+      "titleRaw": "Lostbelt No.4 创世灭亡轮回 游迦·俱卢（黑色最后之神）",
+      "sourceFile": "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/[沙盒]FGO 0.8.worldbook.json",
+      "directSourceRefs": [
+        "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/[沙盒]FGO 0.8.worldbook.json:12443-12444"
+      ],
+      "sourceType": "user-file-worldbook-script",
+      "canonStatus": "canon-like",
+      "credibility": "B",
+      "classification": "script-like",
+      "sections": ["world_state", "stage_characters", "world_timeline"],
+      "eventCountEstimated": 21,
+      "quoteCountEstimated": 25,
+      "observedEventCodeRangeDuringPrep": "事件A-事件U",
+      "recommendedUse": [
+        "source-text-build",
+        "event-extraction",
+        "timeline-build",
+        "character-periods",
+        "relationship-temporal-graph",
+        "appearance-extraction",
+        "ability-extraction",
+        "combat-effect-extraction"
+      ],
+      "sourceTextPath": "sources/worldbook-script/lostbelt/ch-096-lb4-chuangshi-miewang-lunhui.txt",
+      "sourceTextStatus": "not-created-in-prep",
+      "sourceTextRequiredBeforeExtraction": true,
+      "entryInspected": true,
+      "blocked": false,
+      "notFoundInSourceRecordsRequired": true
+    }
+  ],
+  "sourceTextPlanned": 2,
+  "sourceTextBuilt": 0,
+  "workPacketsExpected": 2,
+  "workPacketsPrepared": 2,
+  "extractionGate": "closed-source-text-not-built-extraction-not-started",
+  "downstreamStageGates": {
+    "sourceTextBuild": "next-approved-stage-only",
+    "chapterExtraction": "requires sourceTextBuilt == 2 and packet start approval",
+    "normalization": "requires packet final-status passed",
+    "merge": "requires normalized fragments passed",
+    "timelineGraph": "requires canonical source layer passed",
+    "publication": "not authorized"
+  },
+  "formalLabelPolicy": {
+    "forbiddenCanonLabels": ["canon-text", "official-script"],
+    "requiredCanonStatus": "canon-like",
+    "requiredSourceType": "user-file-worldbook-script",
+    "noUnsupportedFormalLabels": true,
+    "sourceFirstTerminologyRequired": true
+  },
+  "formalAggregateBan": ["characters.json", "events.json", "relationships.json"]
+}

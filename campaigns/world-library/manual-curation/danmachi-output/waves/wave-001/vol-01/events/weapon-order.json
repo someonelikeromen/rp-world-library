@@ -1,0 +1,48 @@
+{
+  "_schema": "rp-event-volume-v1",
+  "world": "danmachi",
+  "event_id": "weapon-order",
+  "volume": "vol-01",
+  "time": "第四章至第五章",
+  "periods": [
+    {
+      "period_id": "weapon-order",
+      "volume": "vol-01",
+      "time": "众神之宴后三天",
+      "name": {
+        "zh": "武器锻造——赫斯缇雅之刃的诞生",
+        "en": "Weapon Forging: Hestia Blade"
+      },
+      "type": "milestone",
+      "location": "赫菲斯托丝眷族西北大街分店",
+      "summary": "赫斯缇雅在众神之宴被拒后，在赫菲斯托丝的店内进行30小时土下座（下跪磕头）。赫菲斯托丝被其诚意打动，亲自锻造了成长型武器'赫斯缇雅之刃'。",
+      "cause": "赫斯缇雅希望为贝尔提供好的武器，帮他在变强之路上走得更远",
+      "process": "赫斯缇雅进行了30小时不间断的土下座，赫菲斯托丝最终被感动。两人合作用赫斯缇雅的头发、神血和神圣文字，以秘银为材料锻造了一把刻有神圣文字、会随使用者成长的匕首。赫斯缇雅为此签下35年420期的按揭贷款。",
+      "outcome": "锻造出'赫斯缇雅之刃'——一把会随装备者成长而强化的活武器。只有赫斯缇雅眷族的成员才能使用。",
+      "aftermath": "赫斯缇雅精疲力尽但满怀喜悦地带着武器去找贝尔。在怪物祭当天正巧遇到贝尔。",
+      "participants": [
+        {
+          "id": "hestia",
+          "role": "订购者"
+        },
+        {
+          "id": "hephaestus",
+          "role": "锻造者"
+        }
+      ],
+      "casualties": [],
+      "related_events": [
+        "goddess-banquet",
+        "bell-vs-silverback"
+      ],
+      "significance": "贝尔获得专属武器——赫斯缇雅之刃。这是第一卷最重要的装备获取事件。",
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-01/full.txt:3681-5590"
+      ]
+    }
+  ],
+  "source_refs": [
+    "danmachi-main/vol-01/full.txt:2051-3680"
+  ]
+}
