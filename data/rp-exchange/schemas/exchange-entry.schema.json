@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "rp-exchange-entry.schema.json",
+  "title": "RP Exchange Entry",
+  "type": "object",
+  "required": ["id", "name", "type", "rating", "price", "source", "completeness"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "name": { "type": "string", "minLength": 1 },
+    "type": {
+      "type": "string",
+      "enum": ["physique_bloodline", "energy_foundation", "foundation_based_ability", "non_foundation_body_soul_technique", "item", "knowledge", "contract"]
+    },
+    "subtype": { "type": "string" },
+    "description": { "type": "string" },
+    "rating": {
+      "type": "object",
+      "required": ["n"],
+      "properties": {
+        "n": { "type": "integer", "minimum": 0, "maximum": 24 },
+        "label": { "type": "string" },
+        "evidence": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "price": {
+      "type": "object",
+      "required": ["amount", "pointLevel"],
+      "properties": {
+        "amount": { "type": "integer", "minimum": 0 },
+        "pointLevel": { "type": "integer", "minimum": 1 },
+        "display": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object",
+      "required": ["worldName", "status", "verificationStatus"],
+      "properties": {
+        "worldName": { "type": "string" },
+        "worldSlug": { "type": "string" },
+        "status": { "type": "string", "enum": ["archived", "unarchived"] },
+        "refs": { "type": "array", "items": { "type": "string" } },
+        "webSources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["url", "title", "fetchedAt", "summary"],
+            "properties": {
+              "url": { "type": "string" },
+              "title": { "type": "string" },
+              "fetchedAt": { "type": "string" },
+              "summary": { "type": "string" },
+              "supports": { "type": "array", "items": { "type": "string" } }
+            },
+            "additionalProperties": true
+          }
+        },
+        "verificationStatus": { "type": "string", "enum": ["verified", "pending", "blocked"] },
+        "verificationNotes": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "completeness": {
+      "type": "object",
+      "required": ["isCompleteUnit", "notFragment", "notTrial", "notWeakened"],
+      "properties": {
+        "isCompleteUnit": { "type": "boolean" },
+        "notFragment": { "type": "boolean" },
+        "notTrial": { "type": "boolean" },
+        "notWeakened": { "type": "boolean" },
+        "notes": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "targetModules": { "type": "array", "items": { "type": "string" } }
+  },
+  "additionalProperties": true
+}
