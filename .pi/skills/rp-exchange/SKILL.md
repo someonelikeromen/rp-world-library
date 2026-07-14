@@ -41,15 +41,16 @@
 1. 确认兑换系统已启用。
 2. 读取角色卡 `progression/exchange.json`、`combat/world-adaptation.json`、`memory/world-history.md`。
 3. 确认兑换项类型属于支持范围。
-4. 依据多世界战斗框架判定兑换项自身 N 层级。
-5. 按 `settings.priceByN` 计算价格；不得因其他因素改价。
-6. 来源验证：
+4. 读取多世界评价方式 `rp-combat/framework/02-rating/02-evaluation-method.md`，按扒皮流程评估兑换项自身表现、完整性、常态/峰值/条件上限和排除水分。
+5. 再读取通用评级体系 `rp-combat/framework/02-rating/03-rating-system.md`，将评价结果映射为兑换项自身 N 层级。
+6. 按 `settings.priceByN` 计算价格；不得因其他因素改价。
+7. 来源验证：
    - 已归档世界：用 `world_query` 查询并记录 sourceRef。
    - 非归档世界：联网或外部来源至少双来源验证。
-7. 完整性验证：必须是原著或设定中可独立成立的完整单位。
-8. 用户确认兑换后扣除奖励点。
-9. 写入 `completedExchanges`/`transactions`，并同步具体角色卡模块。
-10. 更新 `memory/world-history.md`，记录来源世界、兑换内容、长期后果与卡模块同步说明。
+8. 完整性验证：必须是原著或设定中可独立成立的完整单位。
+9. 用户确认兑换后扣除奖励点。
+10. 写入 `completedExchanges`/`transactions`，并同步具体角色卡模块。
+11. 更新 `memory/world-history.md`，记录来源世界、兑换内容、长期后果与卡模块同步说明。
 
 ## 成就系统联动
 
@@ -77,3 +78,5 @@
 - 使用说明：`docs/rp-exchange-system.md`
 - 数据目录：`data/rp-exchange/`
 - 多世界框架：`.pi/skills/rp-combat/framework/README.md` 与按需模块
+- 评价方式：`.pi/skills/rp-combat/framework/02-rating/02-evaluation-method.md`（报价前必读）
+- 评级体系：`.pi/skills/rp-combat/framework/02-rating/03-rating-system.md`（评价完成后用于 N 级映射）

@@ -3,7 +3,7 @@
   "$id": "rp-exchange-entry.schema.json",
   "title": "RP Exchange Entry",
   "type": "object",
-  "required": ["id", "name", "type", "rating", "price", "source", "completeness"],
+  "required": ["id", "name", "type", "rating", "evaluation", "price", "source", "completeness"],
   "properties": {
     "id": { "type": "string", "minLength": 1 },
     "name": { "type": "string", "minLength": 1 },
@@ -20,6 +20,25 @@
         "n": { "type": "integer", "minimum": 0, "maximum": 24 },
         "label": { "type": "string" },
         "evidence": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "evaluation": {
+      "type": "object",
+      "required": ["evaluationMethod", "pricingRating", "basis", "evidence"],
+      "properties": {
+        "framework": { "type": "string", "const": "multi-world-combat-rating" },
+        "evaluationMethod": { "type": "string", "const": "multi-world-evaluation-method-v1" },
+        "ratingSystem": { "type": "string", "const": "multi-world-rating-system-n0-n24-v1" },
+        "overall": { "type": "string" },
+        "pricingRating": { "type": "string", "pattern": "^N([0-9]|1[0-9]|2[0-4])$" },
+        "basis": { "type": "string", "minLength": 1 },
+        "dimensions": { "type": "object", "additionalProperties": { "type": "string" } },
+        "evidence": { "type": "array", "items": {} },
+        "limitations": { "type": "array", "items": {} },
+        "disputes": { "type": "array", "items": {} },
+        "excludedInflations": { "type": "array", "items": { "type": "string" } },
+        "confidence": { "type": "string" }
       },
       "additionalProperties": true
     },

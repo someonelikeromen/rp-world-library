@@ -10,13 +10,15 @@ progression/exchange.json
 
 ## 定价原则
 
-定价分两步：
+定价分三步：
 
 ```text
-按多世界战斗/评价框架估价 → 得出兑换项自身 N0–N24 层级 → 只按层级价格表定价
+读取 02-rating/02-evaluation-method.md 完成评价方式/扒皮估价
+→ 读取 02-rating/03-rating-system.md 映射兑换项自身 N0–N24 层级
+→ 只按层级价格表定价
 ```
 
-`price` 只做查表；`quote` 必须检查 entry 是否包含多世界框架估价记录。
+`price` 只做查表；`quote` 必须检查 entry 是否包含多世界框架估价记录，不能只看一个手填 N 级。
 
 价格不受主角、当前世界、稀有度、唯一性、适配度影响。
 
@@ -60,8 +62,11 @@ progression/exchange.json
   },
   "evaluation": {
     "framework": "multi-world-combat-rating",
+    "evaluationMethod": "multi-world-evaluation-method-v1",
+    "ratingSystem": "multi-world-rating-system-n0-n24-v1",
     "overall": "N2",
-    "basis": "依据原文表现与多世界评价框架，完整传承稳定支持墙壁级战斗表现。",
+    "pricingRating": "N2",
+    "basis": "依据原文表现与多世界评价方式扒皮：该完整传承稳定支持墙壁级战斗表现；未按流派名气或稀有度拔高。",
     "dimensions": {
       "overall": "N2",
       "offense": "N2",
@@ -70,6 +75,9 @@ progression/exchange.json
       "mobility": "N1",
       "control": "N2"
     },
+    "evidence": [],
+    "limitations": [],
+    "excludedInflations": ["流派名气", "稀有度"],
     "confidence": "medium"
   }
 }
