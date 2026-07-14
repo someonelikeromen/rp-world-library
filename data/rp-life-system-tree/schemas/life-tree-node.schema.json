@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "rp-life-system-tree-node.schema.json",
+  "title": "RP Life System Tree Node",
+  "type": "object",
+  "required": ["id", "name", "nodeKind", "originType", "category", "layers", "sourceWorld", "unlockModes", "evaluation", "pricing", "effects"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "name": { "type": "string", "minLength": 1 },
+    "nodeKind": { "type": "string", "enum": ["abilityBase", "single", "multiRank", "keystone"] },
+    "originType": { "type": "string", "enum": ["protagonist_baseline", "canon_source", "archived_world_source", "verified_external_source", "in_story_training", "story_event_awakened", "hybrid_training_currency"] },
+    "category": { "type": "string", "minLength": 1 },
+    "layers": { "type": "array", "minItems": 1, "items": { "type": "string", "pattern": "^N([0-9]|1[0-9]|2[0-4])$" } },
+    "isLayerStart": { "type": "boolean" },
+    "isTreeRoot": { "type": "boolean" },
+    "sourceWorld": {
+      "type": "object",
+      "required": ["worldId", "worldName", "sourceType", "status", "verificationStatus"],
+      "properties": {
+        "worldId": { "type": "string", "minLength": 1 },
+        "worldName": { "type": "string", "minLength": 1 },
+        "sourceType": { "type": "string", "enum": ["protagonist_baseline", "canon_source", "archived_world_source", "verified_external_source", "in_story_training", "story_event_awakened", "hybrid_training_currency"] },
+        "status": { "type": "string", "enum": ["baseline", "archived", "unarchived", "story-confirmed"] },
+        "refs": { "type": "array", "items": { "type": "string" } },
+        "webSources": { "type": "array", "items": { "type": "object" } },
+        "verificationStatus": { "type": "string", "enum": ["verified", "pending", "blocked", "inherent", "story-confirmed"] },
+        "notes": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "unlockModes": { "type": "array", "minItems": 1, "items": { "type": "string", "enum": ["inherent", "currency", "selfTraining", "storyAchievement", "hybrid", "sourceAcquisition"] } },
+    "selfAchievable": { "type": "boolean" },
+    "trainingRequirements": { "type": "object", "additionalProperties": true },
+    "evaluation": {
+      "type": "object",
+      "required": ["framework", "evaluationMethod", "ratingSystem", "pricingRating", "basis", "evidence"],
+      "properties": {
+        "framework": { "type": "string", "const": "multi-world-combat-rating" },
+        "evaluationMethod": { "type": "string", "const": "multi-world-evaluation-method-v1" },
+        "ratingSystem": { "type": "string", "const": "multi-world-rating-system-n0-n24-v1" },
+        "baseRating": { "type": ["string", "null"] },
+        "peakRating": { "type": ["string", "null"] },
+        "conditionalRating": { "type": ["string", "null"] },
+        "pricingRating": { "type": "string", "pattern": "^N([0-9]|1[0-9]|2[0-4])$" },
+        "basis": { "type": "string", "minLength": 1 },
+        "evidence": { "type": "array", "items": {} },
+        "limitations": { "type": "array", "items": {} },
+        "disputes": { "type": "array", "items": {} },
+        "excludedInflations": { "type": "array", "items": {} }
+      },
+      "additionalProperties": true
+    },
+    "pricing": { "type": "object", "required": ["mode"], "additionalProperties": true },
+    "effects": { "type": "array", "items": { "type": "object" } }
+  },
+  "additionalProperties": true
+}

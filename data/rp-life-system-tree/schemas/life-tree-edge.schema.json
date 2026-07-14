@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "rp-life-system-tree-edge.schema.json",
+  "title": "RP Life System Tree Edge",
+  "type": "object",
+  "required": ["id", "from", "to", "type", "affectsUnlock"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "from": { "type": "string", "minLength": 1 },
+    "to": { "type": "string", "minLength": 1 },
+    "type": { "type": "string", "enum": ["upgrade", "prerequisite", "synergy", "variant", "sameSourceLine"] },
+    "affectsUnlock": { "type": "boolean" },
+    "basis": { "type": "string" },
+    "sourceWorld": { "type": "object", "additionalProperties": true }
+  },
+  "additionalProperties": true
+}
