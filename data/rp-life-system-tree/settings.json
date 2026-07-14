@@ -1,0 +1,64 @@
+{
+  "schema": "rp-life-system-tree-settings-v1",
+  "version": 1,
+  "enabledByDefault": false,
+  "owner": "protagonist-only",
+  "uiStyle": "sci-fi",
+  "exchangeMutualExclusion": {
+    "defaultMutuallyExclusive": true,
+    "exchangeStatePath": "progression/exchange.json"
+  },
+  "currency": {
+    "unitPrefix": "奖励点",
+    "lowestLevel": 1,
+    "conversionRate": 1000,
+    "defaultVisibleLevels": [1, 2, 3],
+    "allowHigherLevels": true,
+    "displayOrder": "highest-to-lowest"
+  },
+  "pricing": {
+    "source": "data/rp-exchange/settings.json",
+    "initialUnlockMode": "full-price-by-target-N",
+    "layerEntryMode": "full-price-by-target-N",
+    "upgradeMode": "delta-price",
+    "minimumDiscountedCost": { "amount": 1, "pointLevel": 1 },
+    "allowZeroCostForSelfAchieved": true
+  },
+  "displayPolicy": {
+    "maxVisibleRatingOffsetFromProtagonistOverall": 1,
+    "showHiddenNodeSilhouettes": false,
+    "requiresActiveSearchForUnknownAbilityBases": true,
+    "showOnlyUnlockedAbilityBaseTrees": true,
+    "forbidQuestionMarkNodes": true
+  },
+  "allowedNodeKinds": ["abilityBase", "single", "multiRank", "keystone"],
+  "forbiddenNodeKinds": ["navigation", "categoryEntry", "folder", "empty", "original"],
+  "allowedOriginTypes": [
+    "protagonist_baseline",
+    "canon_source",
+    "archived_world_source",
+    "verified_external_source",
+    "in_story_training",
+    "story_event_awakened",
+    "hybrid_training_currency"
+  ],
+  "forbiddenOriginTypes": ["original", "system_original", "unclear", "unknown"],
+  "allowedUnlockModes": ["inherent", "currency", "selfTraining", "storyAchievement", "hybrid", "sourceAcquisition"],
+  "allowedGrantSources": ["defeatStrongEnemy", "worldImpact", "plotDeviation"],
+  "forbiddenGrantHints": ["资源转换", "出售", "卖出", "献祭", "金钱购买", "购买", "刷", "普通任务", "日常训练", "重复劳动"],
+  "sourceVerification": {
+    "archivedWorldRequiresWorldQuery": true,
+    "archivedWorldRequiresWebVerification": false,
+    "unarchivedWorldRequiresDoubleSourceVerification": true,
+    "minimumIndependentSources": 2,
+    "baselineAllowsInherent": true,
+    "storyConfirmedRequiresMemoryRef": true
+  },
+  "evaluation": {
+    "requiredEvaluationMethod": "multi-world-evaluation-method-v1",
+    "requiredRatingSystem": "multi-world-rating-system-n0-n24-v1",
+    "framework": "multi-world-combat-rating",
+    "methodPath": ".pi/skills/rp-combat/framework/02-rating/02-evaluation-method.md",
+    "ratingSystemPath": ".pi/skills/rp-combat/framework/02-rating/03-rating-system.md"
+  }
+}

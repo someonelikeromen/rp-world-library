@@ -53,6 +53,7 @@ Step 1: 全域推演
   ├─ 若启用跑团/安科/安价 → 加载 rules/rp-table-session.md 与 rules/rp-anka-ankage.md
   ├─ 若启用成就系统 → 加载 rules/rp-achievement-system.md 与 rp-achievement skill
   ├─ 若启用兑换系统 → 加载 rules/rp-exchange-system.md 与 rp-exchange skill
+  ├─ 若启用生命系统树 → 加载 rules/rp-life-system-tree-system.md 与 rp-life-system-tree skill
   └─ 动态路由加载对应世界书条目（rules/rp-dynamic-routing.md）
 
 Step 2: 叙事生成
@@ -63,6 +64,7 @@ Step 2: 叙事生成
 Step 3: 状态结算
   ├─ 若启用成就系统 → 判定成就触发；触发后即时生成奖励候选，奖励内容与成就内容无关；若与兑换系统联动则改为发放奖励点
   ├─ 若启用兑换系统 → 处理奖励点发放/扣除、兑换项来源验证、完整性校验与角色卡落盘
+  ├─ 若启用生命系统树 → 处理强敌/世界影响/剧情偏转发点、节点搜索/点亮/升级/自学达成、来源世界观审核与角色卡落盘
   ├─ 更新角色状态（伤势/魔力/关系/资源）
   ├─ 更新 memory/project.md
   └─ 用 `card_edit` 同步 card/*.json 动态字段
@@ -226,6 +228,7 @@ NPC内心用 `*` 包裹穿插正文。触发：言行反差/重大决定/情绪�
 - `rp-dice`：骰子掷骰
 - `rp-achievement`：主角专属隐藏成就、奖励随机或联动兑换点、手动领取与角色卡落盘
 - `rp-exchange`：主角专属奖励点兑换、完整兑换项验证、来源核实与多世界框架落盘
+- `rp-life-system-tree`：主角专属生命系统树、科技 UI、节点搜索/点亮/升级/自学达成、来源世界观审核与多世界框架落盘
 - `png-card-extractor`：PNG 角色卡提取
 - `rp-graph`：关系/知识图谱
 - `rp-curation`：世界归档

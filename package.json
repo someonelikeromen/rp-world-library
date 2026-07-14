@@ -5,8 +5,9 @@
   "scripts": {
     "test:rp-random": "node packages/rp-random/test/run-tests.js",
     "test:rp-achievements": "node packages/rp-achievements/test/run-tests.js",
-    "test:rp-all": "npm run test:rp-random && npm run test:rp-achievements && npm run test:rp-exchange",
-    "test:rp-exchange": "node packages/rp-exchange/test/run-tests.js"
+    "test:rp-all": "npm run test:rp-random && npm run test:rp-achievements && npm run test:rp-exchange && npm run test:rp-life-system-tree",
+    "test:rp-exchange": "node packages/rp-exchange/test/run-tests.js",
+    "test:rp-life-system-tree": "node packages/rp-life-system-tree/test/run-tests.js"
   },
   "workspaces": [
     "packages/*"

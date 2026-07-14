@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "rp-life-system-tree-state.schema.json",
+  "title": "RP Life System Tree State",
+  "type": "object",
+  "required": ["schema", "enabled", "owner", "uiStyle", "masterGraphRef", "displayPolicy", "currency", "storyGraph", "transactions", "auditLog"],
+  "properties": {
+    "schema": { "type": "string", "const": "rp-life-system-tree-state-v1" },
+    "enabled": { "type": "boolean" },
+    "owner": { "type": "string", "const": "protagonist-only" },
+    "uiStyle": { "type": "string", "const": "sci-fi" },
+    "masterGraphRef": { "type": "string" },
+    "masterGraphVersion": { "type": "string" },
+    "displayPolicy": {
+      "type": "object",
+      "required": ["maxVisibleRatingOffsetFromProtagonistOverall", "showHiddenNodeSilhouettes", "requiresActiveSearchForUnknownAbilityBases", "showOnlyUnlockedAbilityBaseTrees"],
+      "properties": {
+        "maxVisibleRatingOffsetFromProtagonistOverall": { "type": "integer", "const": 1 },
+        "showHiddenNodeSilhouettes": { "type": "boolean", "const": false },
+        "requiresActiveSearchForUnknownAbilityBases": { "type": "boolean", "const": true },
+        "showOnlyUnlockedAbilityBaseTrees": { "type": "boolean", "const": true }
+      },
+      "additionalProperties": true
+    },
+    "currency": { "type": "object", "required": ["conversionRate", "balances", "lifetimeEarned", "lifetimeSpent"], "additionalProperties": true },
+    "storyGraph": {
+      "type": "object",
+      "required": ["unlockedAbilityBases", "revealedNodes", "availableNodes", "unlockedNodes", "selfAchievedNodes", "nodeRanks", "visibleEdges"],
+      "properties": {
+        "unlockedAbilityBases": { "type": "array", "items": { "type": "string" } },
+        "revealedNodes": { "type": "array", "items": { "type": "string" } },
+        "availableNodes": { "type": "array", "items": { "type": "string" } },
+        "unlockedNodes": { "type": "array", "items": { "type": "string" } },
+        "selfAchievedNodes": { "type": "array", "items": { "type": "string" } },
+        "nodeRanks": { "type": "object" },
+        "visibleEdges": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": true
+    },
+    "searchRecords": { "type": "array", "items": { "type": "object" } },
+    "sourceAudits": { "type": "array", "items": { "type": "object" } },
+    "transactions": { "type": "array", "items": { "type": "object" } },
+    "auditLog": { "type": "array", "items": { "type": "object" } }
+  },
+  "additionalProperties": true
+}

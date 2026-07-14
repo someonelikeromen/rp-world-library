@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "rp-life-system-tree-transaction.schema.json",
+  "title": "RP Life System Tree Transaction",
+  "type": "object",
+  "required": ["id", "type", "state", "createdAt"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "type": { "type": "string", "enum": ["grant-points", "unlock", "upgrade", "self-achieve", "search", "generate-node", "audit-source"] },
+    "state": { "type": "string", "enum": ["pending", "completed", "blocked"] },
+    "nodeId": { "type": "string" },
+    "price": { "type": "object", "additionalProperties": true },
+    "amount": { "type": "integer" },
+    "pointLevel": { "type": "integer" },
+    "reason": { "type": "string" },
+    "eventRef": { "type": "string" },
+    "createdAt": { "type": "string" },
+    "completedAt": { "type": "string" }
+  },
+  "additionalProperties": true
+}

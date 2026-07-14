@@ -68,7 +68,8 @@
           "inventory": "inventory/items.json",
           "knowledge": "knowledge/knowledge.json",
           "achievements": "progression/achievements.json",
-          "exchange": "progression/exchange.json"
+          "exchange": "progression/exchange.json",
+          "lifeSystemTree": "progression/life-system-tree.json"
         },
         "requiredModules": [
           "index.json",
@@ -89,7 +90,8 @@
           "inventory/items.json",
           "knowledge/knowledge.json",
           "progression/achievements.json",
-          "progression/exchange.json"
+          "progression/exchange.json",
+          "progression/life-system-tree.json"
         ],
         "idArrays": {
           "abilities": "id",
@@ -112,7 +114,15 @@
           "pendingExchanges": "id",
           "completedExchanges": "id",
           "transactions": "id",
-          "sourceVerifications": "id"
+          "sourceVerifications": "id",
+          "unlockedAbilityBases": "id",
+          "revealedNodes": "id",
+          "availableNodes": "id",
+          "unlockedNodes": "id",
+          "selfAchievedNodes": "id",
+          "lifeTreeTransactions": "id",
+          "lifeTreeSearchRecords": "id",
+          "lifeTreeSourceAudits": "id"
         },
         "extensionSlots": {
           "customValidators": [],
