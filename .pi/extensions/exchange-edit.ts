@@ -154,7 +154,7 @@ function evaluateEntry(entry: any): any {
     else warnings.push(`dimension ${k} has invalid N rating`);
   }
   const parsedDims = Object.values(dimRatings).map((x: any) => x.n);
-  let n = tryParseN(ev.overall ?? ev.rating ?? ev.n ?? entry?.rating?.n ?? entry?.rating?.overall);
+  let n = tryParseN(ev.pricingRating ?? ev.overall ?? ev.rating ?? ev.n ?? entry?.rating?.n ?? entry?.rating?.overall);
   if (n === undefined && parsedDims.length > 0) n = Math.max(...parsedDims);
   if (n === undefined) missingEvidence.push("missing evaluated overall N rating or dimension ratings");
   const basis = ev.basis || entry?.rating?.evidence || entry?.evidence?.basis || entry?.evidence?.summary;
@@ -162,8 +162,10 @@ function evaluateEntry(entry: any): any {
   if (parsedDims.length === 0) missingEvidence.push("missing multi-world rating dimensions");
   const knownDims = Object.keys(dimRatings).filter(k => RATING_DIMENSIONS.includes(k));
   if (knownDims.length === 0 && parsedDims.length > 0) warnings.push("dimension names do not match standard multi-world framework dimensions");
+  if (ev.evaluationMethod !== "multi-world-evaluation-method-v1") missingEvidence.push("missing evaluationMethod: multi-world-evaluation-method-v1; read 02-rating/02-evaluation-method.md before assigning N tier");
   if (ev.framework && ev.framework !== "multi-world-combat-rating") warnings.push("evaluation.framework should be multi-world-combat-rating");
-  return { ok: missingEvidence.length === 0, rating: n !== undefined ? { n, label: N_LABELS[n] } : null, dimensions: dimRatings, basis: basis || null, confidence: ev.confidence || "unspecified", missingEvidence, warnings, framework: ev.framework || "multi-world-combat-rating", principle: "先依据多世界评价框架估出兑换项自身 N 层级，再只按层级查价格表" };
+  if (ev.ratingSystem && ev.ratingSystem !== "multi-world-rating-system-n0-n24-v1") warnings.push("evaluation.ratingSystem should be multi-world-rating-system-n0-n24-v1");
+  return { ok: missingEvidence.length === 0, rating: n !== undefined ? { n, label: N_LABELS[n] } : null, dimensions: dimRatings, basis: basis || null, confidence: ev.confidence || "unspecified", missingEvidence, warnings, framework: ev.framework || "multi-world-combat-rating", evaluationMethod: ev.evaluationMethod || null, ratingSystem: ev.ratingSystem || null, principle: "先读取 02-evaluation-method.md 按多世界评价方式估出兑换项自身 N 层级，再读取 03-rating-system.md 映射等级并只按层级查价格表" };
 }
 function quoteEntry(entry: any, state: any | undefined, settings: any): any {
   const basic = validateEntryBasic(entry);

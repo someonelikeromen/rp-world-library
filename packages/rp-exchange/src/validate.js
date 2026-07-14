@@ -57,13 +57,25 @@ function validateSource(entry) {
   throw new Error(`Invalid source status: ${source.status}`);
 }
 
+function validateEvaluation(entry) {
+  const ev = entry.evaluation || {};
+  if (ev.evaluationMethod !== 'multi-world-evaluation-method-v1') throw new Error('Exchange entry evaluation must use multi-world-evaluation-method-v1');
+  if (!ev.framework && !ev.ratingSystem) throw new Error('Exchange entry evaluation requires framework or ratingSystem');
+  const rating = ev.pricingRating ?? ev.overall ?? ev.rating ?? ev.n ?? entry.rating?.n;
+  if (rating === undefined || rating === null || rating === '') throw new Error('Exchange entry evaluation requires pricing/overall N rating');
+  if (!ev.basis && !entry.rating?.evidence) throw new Error('Exchange entry evaluation requires basis/evidence');
+  if (!ev.evidence && !entry.rating?.evidence) throw new Error('Exchange entry evaluation requires evidence record');
+  return true;
+}
+
 function validateEntry(entry) {
   if (!entry || typeof entry !== 'object') throw new Error('Entry must be object');
   if (!entry.id || !entry.name) throw new Error('Entry requires id and name');
   validateType(entry);
   validateCompleteness(entry);
   validateSource(entry);
+  validateEvaluation(entry);
   return true;
 }
 
-module.exports = { validateEntry, validateType, validateCompleteness, validateSource, ALLOWED_TYPES, ALLOWED_CONTRACT_SUBTYPES };
+module.exports = { validateEntry, validateType, validateCompleteness, validateSource, validateEvaluation, ALLOWED_TYPES, ALLOWED_CONTRACT_SUBTYPES };

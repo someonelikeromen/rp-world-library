@@ -9,6 +9,18 @@ function entry(overrides = {}) {
     subtype: 'martial_arts_style',
     description: '原著中可独立成立的完整格斗术流派传承。',
     rating: { n: 2, label: 'N2 墙壁级', evidence: '示例证据' },
+    evaluation: {
+      framework: 'multi-world-combat-rating',
+      evaluationMethod: 'multi-world-evaluation-method-v1',
+      ratingSystem: 'multi-world-rating-system-n0-n24-v1',
+      overall: 'N2',
+      pricingRating: 'N2',
+      basis: '按多世界评价方式拆解证据后，完整格斗术传承稳定支持墙壁级表现。',
+      evidence: ['示例证据'],
+      dimensions: { overall: 'N2', offense: 'N2', defense: 'N1', reaction: 'N2' },
+      excludedInflations: ['流派名气'],
+      confidence: 'medium'
+    },
     price: { amount: 10, pointLevel: 1, display: '10个1级奖励点' },
     source: { worldName: '示例归档世界', status: 'archived', refs: ['world:example:abilities:style'], verificationStatus: 'verified' },
     completeness: { isCompleteUnit: true, notFragment: true, notTrial: true, notWeakened: true, notes: '完整流派。' },
@@ -46,6 +58,7 @@ function testValidation() {
   assert.throws(() => ex.validateEntry(entry({ type: 'contract', subtype: 'random_contract' })), /Invalid contract subtype/);
   assert.throws(() => ex.validateEntry(entry({ completeness: { isCompleteUnit: false, notFragment: true, notTrial: true, notWeakened: true } })), /complete unit/);
   assert.throws(() => ex.validateEntry(entry({ name: '示例碎片', completeness: { isCompleteUnit: true, notFragment: true, notTrial: true, notWeakened: true } })), /Forbidden exchange hint/);
+  assert.throws(() => ex.validateEntry(entry({ evaluation: { framework: 'multi-world-combat-rating', overall: 'N2', basis: '缺少评价方式标记', evidence: ['示例'] } })), /multi-world-evaluation-method-v1/);
   const unarchived = entry({
     source: {
       worldName: '非归档作品',

@@ -1,7 +1,7 @@
 {
   "source": "docs/world-combat-framework.md",
-  "source_sha256": "ea502ac9a9cfd7e44f41f79d2d8aadc808b4d57779c321d09d8f24d794dce309",
-  "policy": "lossless split; no summary; no condensation; no semantic rewrite",
+  "source_sha256": "7455185eefd13754fa13e2e90c3b81bdd4273869a4c49508eda5cedc1a39ee4f",
+  "policy": "progressive split; section 2 separates evaluation method from rating scale; legacy rating path retained as compatibility index",
   "modules": [
     {
       "section": "开头",
@@ -17,9 +17,21 @@
     },
     {
       "section": 2,
-      "title": "通用战力评级体系",
+      "title": "通用战力评级体系（旧路径兼容入口）",
       "path": ".pi/skills/rp-combat/framework/02-rating/02-universal-rating-system.md",
-      "sha256": "1efc4d600a0157eae864a1f8199d9080fdacae696a64debca285a30f21a1b06f"
+      "sha256": "88a18c0e6657ca11838e4c5dd1fcf09295d9704a780ebc7eb7d6eb4288af0f3f"
+    },
+    {
+      "section": "2A",
+      "title": "多世界评价方式 / 评估方法",
+      "path": ".pi/skills/rp-combat/framework/02-rating/02-evaluation-method.md",
+      "sha256": "f2e78d66f7b5f21506aadb7b70148eec654f681db77aea9c34d16205165258b4"
+    },
+    {
+      "section": "2B",
+      "title": "通用评级体系 / N0-N24 等级表",
+      "path": ".pi/skills/rp-combat/framework/02-rating/03-rating-system.md",
+      "sha256": "b3f34825e37dea7a934b07dbbd5e5ca856903b6732063f311799653360ba9089"
     },
     {
       "section": 3,
