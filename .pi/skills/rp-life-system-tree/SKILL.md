@@ -83,6 +83,18 @@
 - 升级：目标 N 级完整价格 - 当前阶段 N 级完整价格。
 - 折扣：最终价格 = 原价 × (1 - 折扣率)，且折扣必须有 evidenceRef。
 
+## 搜索来源池
+
+`data/rp-life-system-tree/sources/` 包含曙光表&口述表的合并兑换数据(12,632项)，作为搜索时的关联信息来源：
+
+- **不直接作为节点**：不预载入 global-graph.json，不批量转换为节点
+- **关联搜索**：用户搜索能力/血统/武器/道具/技能/功法/改造/物品时，自动匹配来源池中的条目
+- **候选来源卡**：搜索命中后只返回候选资料，不显示为可点亮节点
+- **证据包流程**：用户选定候选后，按 `conversion-convention.md` 整理 Evidence Bundle，再由 LLM 综合审核
+- **综合判定要素**：源表定价作为价格先验；描述文本效果提取；战力参考表锚定验证；论战换算表校验；树结构推断；多表冲突处理
+- **N级估价**：支线等级/积分只给 `pricingPriorN`，最终 N 级必须由描述、战力参考与多世界评价综合确定
+- **前置关系**：条目的 prereq 字段只作为父子边候选证据，不自动建边
+
 ## 多世界评价必读
 
 节点评价必须先读取：
@@ -111,4 +123,5 @@
 - 正式规则：`rules/rp-life-system-tree-system.md`
 - 使用说明：`docs/rp-life-system-tree-system.md`
 - 数据目录：`data/rp-life-system-tree/`
+  - `sources/` — 信息来源池。曙光表&口述表合并兑换数据(12,632项)，VB↔曙光↔N级映射。不作为直接节点；按 `conversion-convention.md` 走“搜索→候选来源卡→证据包→LLM审核→节点草案”流程。
 - 逻辑包：`packages/rp-life-system-tree/`

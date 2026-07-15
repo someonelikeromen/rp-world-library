@@ -5,6 +5,8 @@
 ## 多世界战斗框架加载
 
 - 渐进式入口：`framework/README.md`
+- 路径解析规则：`framework/README.md` 必须相对本 skill 目录解析，实际位置为 `.pi/skills/rp-combat/framework/README.md`；不得按项目根目录解析为 `framework/README.md`。
+- 如果读取渐进式入口失败，先检查是否发生了相对路径解析错误，不要据此判定模块化框架不存在。
 - 完整母版：`docs/world-combat-framework.md`
 - 战斗判定时优先读取 `framework/README.md`，再按场景需要读取对应模块；不要默认一次性加载完整母版。
 - 涉及任何 N 级评估时，必须先读取 `framework/02-rating/02-evaluation-method.md`，再读取 `framework/02-rating/03-rating-system.md`；不得只读取 N0–N24 等级表后直接定级。
