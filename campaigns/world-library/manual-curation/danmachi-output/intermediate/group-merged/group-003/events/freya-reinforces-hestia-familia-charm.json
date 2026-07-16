@@ -1,0 +1,43 @@
+{
+  "_schema": "rp-event-volume-v1",
+  "world": "danmachi",
+  "event_id": "freya-reinforces-hestia-familia-charm",
+  "volume": "vol-26",
+  "source_refs": [
+    "danmachi-main/vol-26/chapters/ch-001-箱庭Substory-前篇.txt"
+  ],
+  "_revisions": [
+    {
+      "date": "2026-07-11",
+      "agent": "fix-v26",
+      "note": "将芙蕾雅叠加魅惑事件 participants 中的阿尔弗利克单体 ID 规范为既有实体 gulliver-brothers，保留 hestia-familia faction 引用。"
+    }
+  ],
+  "periods": [
+    {
+      "period_id": "vol-26-ch1-freya-reinforces-charm",
+      "volume": "vol-26",
+      "time": "箱庭Substory 前篇 开端",
+      "name": {
+        "zh": "芙蕾雅对赫斯缇雅眷族叠加魅惑",
+        "en": "Freya Reinforces the Charm on Hestia Familia"
+      },
+      "type": "memory_rewrite",
+      "location": "欧拉丽中央广场至芙蕾雅眷族控制区",
+      "summary": "女神祭最终日中午，芙蕾雅在全都市魅惑后从丰饶之塔下来，确认阿尔弗利克等人已抓住尚未醒来的赫斯缇雅眷族。她判断这些孩子因常与贝尔接触、又有赫斯缇雅神血，最可能抵抗魅惑并让贝尔看破箱庭机关，于是亲自对她们分几次叠加魅惑。结果她们醒来后不仅遗忘『赫斯缇雅眷族的贝尔·克朗尼』，还会把贝尔视为危险人物。",
+      "cause": "芙蕾雅想让贝尔永远留在她创造的箱庭中，必须消除赫斯缇雅眷族这类最接近真实记忆的破绽。",
+      "outcome": "赫斯缇雅眷族成为箱庭中被强制误认的居民，但神血和个人核心仍在后续不断制造裂缝。",
+      "participants": [
+        "freya",
+        "ottar",
+        "gulliver-brothers",
+        "hestia-familia"
+      ],
+      "significance": "奠定本卷所有Substory的前提：箱庭维护并非一次性成功，而是持续压制各角色核心记忆。",
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-26/chapters/ch-001-箱庭Substory-前篇.txt"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "tm-fgo-generation-report-v1",
+  "packetId": "pkt-fgo-eor-shimousa-extract",
+  "chapterId": "fgo-eor-shimousa",
+  "slug": "shimousa",
+  "model": "lt-yuyu/gpt-5.5",
+  "status": "generated",
+  "generatorRound": 1,
+  "sourceGate": "passed",
+  "sourceInputs": ["work-packets/eor/shimousa.json", "sources/worldbook-script/eor/ch-091-shimousa.txt", "source-unit-manifest.json"],
+  "createdRoots": ["extracted/eor/shimousa", "normalized/eor/shimousa", "audit/packet-audits/eor/shimousa"],
+  "summary": "Generated source-first Shimousa extraction covering events A-Q, all 36 source quotes, stage characters, mentions/status, relationship and alias candidates, mandatory appearance/ability/combat-effect layers, and not-found-in-source records.",
+  "sourceRefs": [{"path":"sources/worldbook-script/eor/ch-091-shimousa.txt","lineStart":1,"lineEnd":108}],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

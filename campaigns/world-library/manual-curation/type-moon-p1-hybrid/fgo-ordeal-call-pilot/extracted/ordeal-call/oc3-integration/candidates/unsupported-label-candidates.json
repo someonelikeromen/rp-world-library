@@ -1,0 +1,54 @@
+{
+  "schema": "tm-fgo-unsupported-label-candidates-v1",
+  "chapterId": "fgo-ordeal-call-3-integration",
+  "records": [
+    {
+      "candidateId": "oc3-candidate-external-bb-dubai-variants",
+      "candidateType": "aliasCandidates unsupported-by-current-source",
+      "subjectRaw": "BB迪拜",
+      "candidateLabelsRaw": ["BB Dubai", "B.B. Dubai"],
+      "status": "unsupported-by-current-source",
+      "reasonRaw": "当前源文仅直接支持“BB迪拜”、BB、MoonCancer；英文空格/点号变体未在源文出现。",
+      "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt:10", "sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt:12", "sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt:76-78"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "candidateId": "oc3-candidate-external-kishinami-gendered-names",
+      "candidateType": "aliasCandidates unsupported-by-current-source",
+      "subjectRaw": "岸波白野",
+      "candidateLabelsRaw": ["Hakuno Kishinami", "岸波白野（男）", "岸波白野（女）"],
+      "status": "unsupported-by-current-source",
+      "reasonRaw": "当前源文直接支持“岸波白野”与“他/她”并列指代，但不提供罗马字英文名或性别分支标签。",
+      "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt:18", "sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt:73-75"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "candidateId": "oc3-candidate-external-np-skill-names",
+      "candidateType": "abilityLabelCandidates unsupported-by-current-source",
+      "subjectRaw": "all named Servant/AI entities",
+      "candidateLabelsRaw": ["formal Noble Phantasm names", "formal skill names", "formal magecraft spell names", "wiki/game battle effect names"],
+      "status": "unsupported-by-current-source",
+      "reasonRaw": "当前源文没有正式宝具、技能、咒文、术式或游戏战斗效果名；不得由外部游戏或wiki知识补充为正式事实。",
+      "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt:1-92"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "candidateId": "oc3-candidate-external-foreign-title-spelling",
+      "candidateType": "titleAliasCandidates unsupported-by-current-source",
+      "subjectRaw": "FGO_奏章III_新灵长后继战_Archetype_Inception",
+      "candidateLabelsRaw": ["Ordeal Call III", "OC3"],
+      "status": "unsupported-by-current-source",
+      "reasonRaw": "源文支持“Ordeal Call 3”和“Archetype Inception”，但不直接支持罗马数字III或OC3缩写作为正式标签；本文件仅保留未直接出现的外部/缩写标签。",
+      "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt:1", "sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt:4"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    }
+  ]
+}

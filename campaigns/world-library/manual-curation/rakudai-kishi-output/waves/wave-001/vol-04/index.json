@@ -1,0 +1,59 @@
+{
+  "_schema": "rp-volume-index-v1",
+  "world": "rakudai-kishi",
+  "series": "rakudai-kishi-main",
+  "volume": "vol-04",
+  "volume_title": "落第骑士英雄谭 / Rakudai Kishi no Cavalry - Vol.04 bonus shorts",
+  "source_chapters": [
+    {
+      "chapterIndex": 1,
+      "title": "加加美的秘密跟踪采访/史黛菈篇",
+      "sourceRef": "rakudai-kishi-main/vol-04/chapters/ch-001-加加美的秘密跟踪采访史黛菈篇.txt"
+    },
+    {
+      "chapterIndex": 2,
+      "title": "加加美的秘密跟踪采访/黑铁珠雫篇",
+      "sourceRef": "rakudai-kishi-main/vol-04/chapters/ch-002-加加美的秘密跟踪采访黑铁珠雫篇.txt"
+    }
+  ],
+  "entity_counts": {
+    "characters": 5,
+    "events": 2,
+    "abilities": 0,
+    "items": 0,
+    "locations": 0,
+    "factions": 0,
+    "systems": 0,
+    "knowledge": 0
+  },
+  "entities": {
+    "characters": [
+      "kagami-kusakabe",
+      "stella-vermillion",
+      "shizuku-kurogane",
+      "ikki-kurogane",
+      "nagi-arisuin"
+    ],
+    "events": [
+      "kagami-secret-follow-stella",
+      "kagami-secret-follow-shizuku"
+    ],
+    "abilities": [],
+    "items": [],
+    "locations": [],
+    "factions": [],
+    "systems": [],
+    "knowledge": []
+  },
+  "summary": "Manual extraction for rakudai-kishi-main vol-04's two short bonus chapters. Both chapters are Kagami Kusakabe secret-follow profiles rather than main-plot battles. The Stella chapter follows Stella's ordinary day: dawn running with Ikki, normal classes, a lunch appetite larger than Ikki, Shizuku and Alice combined, afternoon training, and a private lovestruck moment with Ikki's shirt. The Shizuku chapter follows Shizuku's ordinary day: sleepy dorm morning, trusted class health-representative and healer duties, Japanese-set-meal lunch preferences and meat avoidance, obsessive posting in Ikki's fan thread, and repeated short-sword sparring with Alice despite being outmatched.",
+  "notes": [
+    "Only character and event files were created per p1-scan instruction.",
+    "Volume 04 source here contains two short side-story chapters; no main tournament advancement, abilities, items, factions, locations, systems or knowledge files were added.",
+    "Ikki and Alice/Nagi are included because both profiles provide direct daily-routine or relationship evidence for them, even though the chapter focus is Stella and Shizuku."
+  ],
+  "source_refs": [
+    "campaigns/world-library/worlds/rakudai-kishi/sources/split-text/rakudai-kishi-main/vol-04/chapters.json",
+    "rakudai-kishi-main/vol-04/chapters/ch-001-加加美的秘密跟踪采访史黛菈篇.txt",
+    "rakudai-kishi-main/vol-04/chapters/ch-002-加加美的秘密跟踪采访黑铁珠雫篇.txt"
+  ]
+}

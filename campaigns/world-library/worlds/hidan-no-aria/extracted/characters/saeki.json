@@ -1,0 +1,59 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "saeki",
+  "volume": "vol-21",
+  "source_refs": [
+    "hidan-no-aria-main/vol-21/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-21",
+      "volume": "vol-21",
+      "time": "第二十一卷",
+      "name": {
+        "zh": "佐伯",
+        "en": "Saeki",
+        "jp": "佐伯"
+      },
+      "aliases": [],
+      "gender": "female",
+      "species": "human",
+      "occupation": "武侦高中学生",
+      "affiliation": "东京武侦高中",
+      "status": {
+        "end": "被武装检察局邀请参加跳级选拔，但判断武检补是炮灰而拒绝"
+      },
+      "abilities_owned": [
+        "butei-combat"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "kinji": {
+          "type": "co-invitee",
+          "summary": "与金次同样拒绝武检选拔邀请"
+        },
+        "ichishi-masato": {
+          "type": "co-invitee",
+          "summary": "认为接受邀请的一石愚蠢"
+        },
+        "takamagahara": {
+          "type": "teacher/student",
+          "summary": "从高天原处收到通知"
+        }
+      },
+      "summary": "佐伯是被武装检察局列为感兴趣人才的黑发女学生，冷静看穿武检补可能是消耗性炮灰，明确拒绝选拔。",
+      "key_events": [
+        {
+          "event_id": "armed-prosecutor-selection-invitation",
+          "summary": "在教务科谈话间拒绝参加武检选拔",
+          "sourceRef": "hidan-no-aria-main/vol-21/full.txt"
+        }
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "hidan-no-aria-main/vol-21/full.txt"
+      ]
+    }
+  ]
+}

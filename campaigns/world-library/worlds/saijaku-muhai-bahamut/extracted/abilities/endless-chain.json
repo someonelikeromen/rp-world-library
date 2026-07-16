@@ -1,0 +1,181 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "endless-chain",
+  "volume": "vol-03",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-03/full.txt:5379"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-03",
+      "volume": "vol-03",
+      "time": "波赛顿最终战",
+      "name": {
+        "zh": "永久连环",
+        "en": "Endless Chain"
+      },
+      "aliases": [
+        "机龙使奥义"
+      ],
+      "type": "combat / skill",
+      "description": "路克斯交替使用身体操纵与精神操纵，在一个动作结束前持续输入下一动作，实现近乎无间断的连续攻击。",
+      "details": {
+        "principle": "消除机龙操纵连续命令之间的时间差。",
+        "scope": "并非真正永恒，而是直到路克斯预读的战局终点为止。"
+      },
+      "activation": {
+        "condition": "极高机龙操纵熟练度和完整战局蓝图",
+        "incantation": "",
+        "time": "连续战斗中",
+        "cost": "身体与精神负担巨大"
+      },
+      "effects": [
+        "无限连击般切断大量触手",
+        "边回避边攻击并投掷武装",
+        "最终贯穿波赛顿核心"
+      ],
+      "power_level": {
+        "initial": "可维持对多目标触手压制",
+        "peak": "超越波赛顿高速再生并击穿核心",
+        "evolution": []
+      },
+      "known_feats": [
+        "爱理解说此为哥哥奥义",
+        "路克斯用其击败波赛顿"
+      ],
+      "shared_by": [
+        "lux-arcadia"
+      ],
+      "see_also": [
+        "bahamut-devour",
+        "resonance-wave",
+        "lux-defeats-poseidon"
+      ],
+      "countered_by": [
+        "操作者体力耗尽",
+        "无法预读的外部干扰"
+      ],
+      "counters": [
+        "数量型触手攻势",
+        "再生型巨型幻神兽"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-03/full.txt:5379"
+      ]
+    },
+    {
+      "period_id": "vol-04",
+      "volume": "vol-04",
+      "time": "vol-04 final battle",
+      "name": {
+        "zh": "永久连环",
+        "en": "Endless Chain"
+      },
+      "aliases": [
+        "无限持续连击"
+      ],
+      "type": "combat / skill",
+      "description": "路克斯三奥义之一，消除挥剑后的动作破绽，让连续斩击如暴雨般倾注。",
+      "details": {
+        "user": "lux-arcadia"
+      },
+      "activation": {
+        "condition": "保持极限操纵与体力",
+        "incantation": "",
+        "time": "连续",
+        "cost": "累积疲劳与负荷"
+      },
+      "effects": [
+        "持续压制目标",
+        "连续贯穿防御直到接近核心"
+      ],
+      "power_level": {
+        "initial": "可压制大型敌人",
+        "peak": "一度逼近尤克特拉希尔核心",
+        "evolution": []
+      },
+      "known_feats": [
+        "最终战中连续斩开尤克特拉希尔树干"
+      ],
+      "shared_by": [
+        "lux-arcadia"
+      ],
+      "see_also": [
+        "force-over",
+        "bahamut-limit-break"
+      ],
+      "countered_by": [
+        "yggdrasil-rapid-evolution"
+      ],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-04/full.txt:5895"
+      ]
+    },
+    {
+      "period_id": "vol-17",
+      "volume": "vol-17",
+      "time": "箱庭决战",
+      "name": {
+        "zh": "永久连环",
+        "en": "Endless Chain"
+      },
+      "aliases": [
+        "无限连击"
+      ],
+      "type": "combat / skill",
+      "description": "路克斯在超近距离对抗弗基尔克隆体时发动的连续攻击技术,通过消除机龙动作后的空隙,以不断衔接的剑击压迫敌方防御。",
+      "details": {
+        "user": "lux-arcadia",
+        "style": "近距离连续攻击",
+        "requires": "洗礼适应后的身体与机龙控制精度"
+      },
+      "activation": {
+        "condition": "近距离贴身战,持续保持攻势",
+        "incantation": "永久连环",
+        "time": "持续",
+        "cost": "高精神集中与机龙控制负荷"
+      },
+      "effects": [
+        "持续压制敌方机龙",
+        "累积破坏护甲、障壁和武器",
+        "为终极行动形成要害集中伤害"
+      ],
+      "power_level": {
+        "initial": "高等机龙操作技",
+        "peak": "能逼退五年前弗基尔记忆投射",
+        "evolution": [
+          "因路克斯适应洗礼而精度提升"
+        ]
+      },
+      "known_feats": [
+        {
+          "summary": "路克斯双眼泛红,以无限剑光压制弗基尔克隆体。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-17/full.txt:6600"
+        }
+      ],
+      "shared_by": [
+        "lux-arcadia"
+      ],
+      "see_also": [
+        "end-action",
+        "gluttony",
+        "baptism-adaptation"
+      ],
+      "countered_by": [
+        "gluttony"
+      ],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-17/full.txt:6600"
+      ]
+    }
+  ]
+}

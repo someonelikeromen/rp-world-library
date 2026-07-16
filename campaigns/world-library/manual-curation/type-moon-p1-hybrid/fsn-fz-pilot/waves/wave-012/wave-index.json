@@ -1,0 +1,22 @@
+{
+  "schema": "tm-p1-wave-index-v1",
+  "waveId": "wave-012",
+  "name": "Fate/Zero and Fourth Holy Grail War materials",
+  "status": "passed",
+  "agent": { "model": "lt-yuyu/gpt-5.5" },
+  "sourceRefs": [
+    "type-moon-nasuverse/worldbook-text/src-fate-zero.md",
+    "type-moon-nasuverse/worldbook-text/src-type-moon-filtered.md"
+  ],
+  "outputs": {
+    "events": ["output/event-index.json"],
+    "materials": ["output/fourth-war-materials.json"],
+    "candidates": ["output/fz-candidates.json"]
+  },
+  "reports": {
+    "generation": "reports/generation-report.json",
+    "latestAudit": "reports/audit-round-002.json",
+    "latestFix": "reports/fix-round-001.json",
+    "finalStatus": "reports/final-status.json"
+  }
+}

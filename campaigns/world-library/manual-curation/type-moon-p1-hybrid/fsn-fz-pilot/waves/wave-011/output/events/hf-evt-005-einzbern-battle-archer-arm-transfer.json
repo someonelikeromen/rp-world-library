@@ -1,0 +1,25 @@
+{
+  "schema": "tm-p1-event-v1",
+  "event_id": "hf-evt-005-einzbern-battle-archer-arm-transfer",
+  "worldId": "type-moon-nasuverse",
+  "continuity": "fsn",
+  "timelineId": "fsn-hf-route",
+  "route": "hf-route",
+  "canonStatus": "canon-like",
+  "time": { "start": { "value": null, "precision": "relative-only", "relative": "HF route day ten", "orderIndex": 452 }, "end": { "value": null, "precision": "relative-only", "relative": "HF route day eleven", "orderIndex": 464 }, "duration": "two-days", "confidence": "medium" },
+  "timelineNodes": [
+    { "nodeId": "start", "label": "Castle ambush", "time": { "relative": "Day ten castle battle", "orderIndex": 452 }, "summary": "Shadow, True Assassin, and Saber Alter attack at Einzbern Castle." },
+    { "nodeId": "middle-001", "label": "Archer protects Rin", "time": { "relative": "Castle battle", "orderIndex": 456 }, "summary": "Archer takes a lethal wound protecting Rin from the shadow." },
+    { "nodeId": "end", "label": "Arm transfer consequences", "time": { "relative": "Day ten to eleven", "orderIndex": 464 }, "summary": "Shirou loses his left arm and receives Archer's arm, which begins rejecting and eroding him." }
+  ],
+  "participants": ["emiya-shirou", "matou-sakura", "rider-medusa", "tohsaka-rin", "illyasviel-fsn", "archer-emiya", "berserker-heracles", "saber-alter", "true-assassin-hassan", "kotomine-kirei"],
+  "locationRefs": ["einzbern-castle", "emiya-residence"],
+  "cause": "Shirou's group seeks Illya as an ally and is attacked by the shadow-aligned forces.",
+  "process": "Berserker is swallowed, Archer covers the retreat and is mortally wounded, Shirou's left arm is destroyed and replaced with Archer's sealed arm.",
+  "outcome": "Shirou gains a dangerous Archer-arm power source while Rin and Illya move into the Emiya residence and Sakura's unconscious predation escalates.",
+  "stateChanges": ["Archer dies or becomes arm donor", "Shirou gains Archer's arm", "Rin and Illya join the Emiya household", "Sakura sleepwalks and consumes people"],
+  "relationshipChanges": ["Archer sacrifices himself for Rin", "Illya becomes a key source of information for Shirou"],
+  "sourceType": "curated-story-derived",
+  "credibility": "B",
+  "sourceRefs": ["type-moon-nasuverse/story-text/fate/ch-004-hf-route.txt:82", "type-moon-nasuverse/story-text/fate/ch-004-hf-route.txt:83", "type-moon-nasuverse/story-text/fate/ch-004-hf-route.txt:84", "type-moon-nasuverse/story-text/fate/ch-004-hf-route.txt:85", "type-moon-nasuverse/story-text/fate/ch-004-hf-route.txt:86", "type-moon-nasuverse/story-text/fate/ch-004-hf-route.txt:87", "type-moon-nasuverse/story-text/fate/ch-004-hf-route.txt:90"]
+}

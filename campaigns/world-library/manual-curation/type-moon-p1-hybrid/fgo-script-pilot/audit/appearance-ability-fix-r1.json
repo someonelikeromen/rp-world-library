@@ -1,0 +1,14 @@
+{
+  "schema":"tm-fgo-appearance-ability-fix-report-v1",
+  "stepId":"visual-ability-fixer-r1",
+  "model":"lt-yuyu/gpt-5.5",
+  "status":"fixed-and-readonly-audit-pending",
+  "mutationScope":"campaigns/world-library/manual-curation/type-moon-p1-hybrid/fgo-script-pilot/",
+  "constraints":{"writesInsidePilotOnly":true,"noShellOrCodeExecutionToolsUsed":true,"oldCuratedUntouched":true,"sourceImportsUntouched":true,"noWikiOrModelMemoryFacts":true},
+  "inputsRead":["docs/type-moon-fgo-script-p1-plan.md",".pi/skills/type-moon-p1-hybrid-archive/SKILL.md","sources/worldbook-script/part1/ch-000-fuyuki.txt","sources/worldbook-script/part1/ch-001-orleans.txt","sources/worldbook-script/part1/ch-002-septem.txt","sources/worldbook-script/part1/ch-003-okeanos.txt","sources/worldbook-script/part1/ch-004-london.txt","sources/worldbook-script/part1/ch-005-america.txt","sources/worldbook-script/part1/ch-006-camelot.txt","sources/worldbook-script/part1/ch-007-babylonia.txt","sources/worldbook-script/part1/ch-008-solomon.txt","existing audit reports and merged indexes"],
+  "outputsCreatedOrUpdated":{"extractedSignalIndexes":27,"normalizedRecordFiles":27,"mergedCanonicalRecordFiles":27,"mergedLayerIndexes":7,"crossRefIndexes":4,"characterFilesUpdated":5,"chapterFilesDirectlyUpdated":3,"manifestAndEventIndexesUpdated":3},
+  "coverage":{"chapters":9,"appearanceLayers":"present for all 9 chapters with source-backed records and not-found indexes","abilityLayers":"present for all 9 chapters with source-backed records and not-found indexes","combatEffectLayers":"present for all 9 chapters with source-backed records and not-found indexes","priorityEvidence":["Mash shield and Lord Chaldeas / Galahad shield releases","Arash Stella sacrifice","Bedivere returns the holy sword and holy lance disintegrates","Romani/Solomon Ars Nova self-erasure","Goetia light band and Mash sacrifice","Demon Pillar shared-life network","Tiamat black mud and death-concept final kill"]},
+  "notFoundPolicy":"Where source names an activation/result but lacks detailed visual description, records mark visualEffect or outfit as not-found-in-source and include notFoundReason. No game/wiki/model-memory details were added.",
+  "knownIssuesPreserved":["orleans-duplicate-event-n","okeanos-heracles-continuity-tension","solomon-support-cast-partial-fragment-coverage"],
+  "validationStatus":"read-only validation to be recorded after final checks"
+}

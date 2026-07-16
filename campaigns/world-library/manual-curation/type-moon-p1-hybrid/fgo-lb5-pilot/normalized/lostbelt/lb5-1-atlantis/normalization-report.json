@@ -1,0 +1,19 @@
+{
+  "schema":"tm-fgo-normalization-report-v1",
+  "chapterId":"fgo-lb5-1-atlantis",
+  "model":"lt-yuyu/gpt-5.5",
+  "status":"passed",
+  "sourceType":"user-file-worldbook-script",
+  "credibility":"B",
+  "canonStatus":"canon-like",
+  "sourceRefs":["sources/worldbook-script/lostbelt/ch-097-lb5-1-atlantis.txt:1-124"],
+  "inputExtractedPath":"extracted/lostbelt/lb5-1-atlantis/",
+  "outputs":["chapter-index.json","event-sequence.json","entity-role-index.json","temporal-relationship-candidates.json","signal-coverage.json"],
+  "normalizationPolicies":[
+    "Normalized IDs are internal stable IDs only; rawEventCode, title, time_raw, triggerRaw, completionRaw, and summaryRaw are retained in extracted event records and referenced here.",
+    "No formal canon-text or official-script label applied.",
+    "Unsupported external aliases remain aliasCandidates unsupported-by-current-source in extracted candidates file.",
+    "No aggregate characters.json, events.json, or relationships.json fact stores were created."
+  ],
+  "coverage":{"eventSequenceRecords":31,"dialogueRecords":37,"stageCharacterGroups":7,"notFoundRecordsPresent":true,"appearanceAbilityCombatCoverage":"source-backed plus explicit not-found markers"}
+}

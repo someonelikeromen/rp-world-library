@@ -1,0 +1,67 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "oni-engineering",
+  "volume": "vol-19",
+  "source_refs": [
+    "hidan-no-aria-main/vol-19/chapters/ch-004-第十九卷_共跳一段小步舞曲_4弹_时钟塔的双剑双枪.txt:928"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-19",
+      "volume": "vol-19",
+      "time": "第十九卷",
+      "name": {
+        "zh": "鬼族工程术",
+        "en": "Oni engineering"
+      },
+      "type": "technology",
+      "description": "壶作为前伊·U级技术者能用现场零件快速制作装置、遥控车辆并改造陷阱。",
+      "known_feats": [
+        "在幼稚园巴士上临时制作自动驾驶与炸弹系统",
+        "远端操控货柜车配合AH-1撤退"
+      ],
+      "shared_by": [
+        "tsubo"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-19/chapters/ch-004-第十九卷_共跳一段小步舞曲_4弹_时钟塔的双剑双枪.txt:928",
+        "hidan-no-aria-main/vol-19/chapters/ch-004-第十九卷_共跳一段小步舞曲_4弹_时钟塔的双剑双枪.txt:1278"
+      ]
+    },
+    {
+      "period_id": "vol-20",
+      "volume": "vol-20",
+      "time": "第二十卷",
+      "name": {
+        "zh": "壶的鬼族工学",
+        "en": "Tsubo oni engineering"
+      },
+      "type": "technology / skill",
+      "description": "壶作为伊·U旧成员与鬼族发明家展现的工学能力，卷中体现在鬼之国小型石油/瓦斯提炼设备、伊·U舰内地图等背景与行动辅助。",
+      "details": {
+        "known_user": "tsubo"
+      },
+      "activation": {
+        "condition": "壶的发明与制图技能"
+      },
+      "effects": [
+        "机械改造",
+        "设备发明",
+        "复杂舰内地图绘制"
+      ],
+      "known_feats": [
+        "鬼之国油井与提炼设备疑似由壶发明",
+        "为金次绘制伊·U舰内地图"
+      ],
+      "shared_by": [
+        "tsubo"
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "hidan-no-aria-main/vol-20/full.txt"
+      ]
+    }
+  ]
+}

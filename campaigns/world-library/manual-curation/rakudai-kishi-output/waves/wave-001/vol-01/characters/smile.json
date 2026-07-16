@@ -1,0 +1,42 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "rakudai-kishi",
+  "character_id": "smile",
+  "volume": "vol-01",
+  "time_range": { "start": "vol-01 chapter 4", "end": "vol-01 chapter 4" },
+  "sub_arcs": ["rebellion-hostage-antagonist"],
+  "periods": [
+    {
+      "period_id": "vol-01",
+      "volume": "vol-01",
+      "time": "Mall hostage incident",
+      "label": "解放军使徒微笑",
+      "name": { "zh": "微笑", "en": "Smile", "jp": "スマイル" },
+      "aliases": [],
+      "titles": ["解放军使徒", "购物中心袭击队头目"],
+      "gender": "male",
+      "species": "human / Blazer",
+      "nationality": "not stated",
+      "occupation": "terrorist commander",
+      "affiliation": "Rebellion / 解放军",
+      "status": { "captured": true, "injuries": "both hands severed by Ikki before later medical treatment possible" },
+      "appearance": { "overview": "Man with facial tattoos wearing Rebellion apostle clothing.", "physical": { "height": "not stated", "build": "adult", "hair": {}, "eyes": {} }, "attire": { "default": "black coat with gold embroidery identifying a Rebellion Apostle", "combat": "paired Judgment Ring Devices on both middle fingers" }, "voice_quality": { "tone": "sneering, giggling" }, "distinctive": ["distorted smile due to facial tattoos", "repeated giggling"] },
+      "personality": { "summary": "Sadistic, theatrical and manipulative; delights in punishment and humiliation.", "core_traits": ["cruel", "manipulative", "sadistic", "calculating", "hypocritically legalistic"], "values": ["Rebellion hierarchy", "punishment as spectacle", "control through hostages"], "fears": ["losing his ability advantage", "pain and capture"], "desires": ["extract money and goods", "humiliate Stella", "assert Apostle superiority"], "strengths": ["counterattack Device", "hostage leverage", "psychological coercion"], "flaws": ["overconfidence", "relies on knowing opponents will protect innocents"], "inner_conflict": "None shown; his ideology rationalizes cruelty.", "decision_pattern": { "combat": "provokes opponents into attacking so Judgment Ring can absorb and return force" } },
+      "voice": { "self_reference": "本人 / 我", "address_pattern": { "stella": "公主殿下" }, "register": { "default": "mock-formal and vulgar" }, "catchphrases": ["嘻嘻嘻"], "quote_samples": ["有罪就该罚，惩罚即是赦免。"] },
+      "habits": { "mannerisms": ["giggling", "mock bows", "uses hostage threats to force moral choices"], "daily_routine": "Leads a Rebellion funding raid.", "quirks": ["frames abuse as judicial punishment"], "preferences": {} },
+      "background": { "birth": { "place": "not stated", "family": [] }, "upbringing": "Not stated.", "education": {}, "formative_events": [], "pre_story": "Leads a Rebellion cell that raids public facilities for money and goods." },
+      "abilities_owned": ["Judgment Ring"],
+      "possessions_owned": ["handgun", "Rebellion command authority"],
+      "relationships": { "stella-vermillion": "Attempts to humiliate her after exploiting her compassion.", "ikki-kurogane": "Defeated by Ikki's unseen sword strike.", "rebellion-soldiers": "Commands and threatens them." },
+      "knowledge": ["Stella's royal identity", "Rebellion hostage tactics"],
+      "secrets": [],
+      "summary": "Smile leads the Rebellion group that seizes the mall. He captures hostages, exploits a child's mistake to bait Stella, uses Judgment Ring to absorb her attack and force her into public humiliation, but is neutralized when Shizuku's barrier protects the hostages and Ikki cuts off both ring-bearing hands.",
+      "key_events": [
+        { "event_id": "mall-rebellion-hostage-incident", "summary": "Commands the hostage-taking, humiliates Stella, and is defeated by Ikki.", "sourceRef": "ch-004" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["rakudai-kishi-main/vol-01/ch-004"]
+    }
+  ],
+  "source_refs": ["rakudai-kishi-main/vol-01"]
+}

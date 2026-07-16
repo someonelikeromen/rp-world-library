@@ -1,0 +1,61 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "zwei",
+  "volume": "vol-09",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-09/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-09",
+      "volume": "vol-09",
+      "time": "世界高峰会",
+      "name": {
+        "zh": "兹拜贝鲁克·基姆雷",
+        "en": "Zwei Beruk Gimley",
+        "jp": ""
+      },
+      "aliases": [
+        "兹拜",
+        "辛格伦辅佐官"
+      ],
+      "gender": "male",
+      "species": "human",
+      "nationality": "布拉昆德王国",
+      "occupation": "七龙骑圣辅佐官；老兵",
+      "affiliation": "布拉昆德王国",
+      "status": {
+        "condition": "active",
+        "role": "护卫辛格伦并在罗莎挑衅时拔剑维护主君"
+      },
+      "abilities_owned": [
+        "veteran-drag-ride-piloting"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "singlen": {
+          "type": "lord / commander",
+          "summary": "忠于辛格伦，受其命令制止怒火。"
+        },
+        "rosa": {
+          "type": "hostile",
+          "summary": "因罗莎侮辱辛格伦而愤怒。"
+        }
+      },
+      "summary": "兹拜贝鲁克是辛格伦的高瘦老兵辅佐官，在罗莎挑衅辛格伦时差点拔剑，被辛格伦制止。",
+      "key_events": [
+        {
+          "event_id": "heiburg-duel",
+          "summary": "演武战后因罗莎挑衅辛格伦而愤怒。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-09/full.txt:5341"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:1915",
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:5341"
+      ]
+    }
+  ]
+}

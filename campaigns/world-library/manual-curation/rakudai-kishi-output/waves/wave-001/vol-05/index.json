@@ -1,0 +1,35 @@
+{
+  "_schema":"rp-volume-index-v1",
+  "world":"rakudai-kishi",
+  "series":"rakudai-kishi-main",
+  "volume":"vol-05",
+  "volume_title":"落第骑士英雄谭 / Rakudai Kishi no Cavalry - Vol.05",
+  "source_chapters":[
+    {"chapterIndex":1,"title":"序章 雪国的街道","sourceRef":"rakudai-kishi-main/vol-05/chapters/ch-001-序章-雪国的街道.txt"},
+    {"chapterIndex":2,"title":"第一章 强化集训","sourceRef":"rakudai-kishi-main/vol-05/chapters/ch-002-第一章-强化集训.txt"},
+    {"chapterIndex":3,"title":"第二章 阴谋蠢动","sourceRef":"rakudai-kishi-main/vol-05/chapters/ch-003-第二章-阴谋蠢动.txt"},
+    {"chapterIndex":4,"title":"第三章 晓，进军","sourceRef":"rakudai-kishi-main/vol-05/chapters/ch-004-第三章-晓，进军.txt"},
+    {"chapterIndex":5,"title":"第四章 过早的决战","sourceRef":"rakudai-kishi-main/vol-05/chapters/ch-005-第四章-过早的决战.txt"},
+    {"chapterIndex":6,"title":"终章 幕后黑手（fixer）","sourceRef":"rakudai-kishi-main/vol-05/chapters/ch-006-终章-幕后黑手（fixer）.txt"},
+    {"chapterIndex":7,"title":"后记","sourceRef":"rakudai-kishi-main/vol-05/chapters/ch-007-后记.txt"}
+  ],
+  "entity_counts":{"characters":16,"events":21,"abilities":0,"items":0,"locations":0,"factions":0,"systems":0,"knowledge":0},
+  "entities":{
+    "characters":["nagi-arisuin","shizuku-kurogane","ikki-kurogane","stella-vermillion","toka-todo","kagami-kusakabe","amane-shinomiya","ouma-kurogane","reisen-hiraga","wallenstein","edelweiss","nene-saikyo","kurono-shinguji","yuri-orphan","kikyo-hagure","botan-hagure"],
+    "events":["alice-orphan-vow-and-loss","stella-vs-toka-training","ikki-coaches-hagure-sisters","ikki-stella-amane-random-killer","kagami-uncovers-akatsuki-and-alice-stabs","alice-shizuku-last-drink","akatsuki-attacks-hagun-campus","kagami-rescued-and-warns-ikki","alice-confession-and-shadow-bind-reversal","alice-counterplan-fails-amane-foresight","stella-vs-ouma-and-toka-evacuation","ikki-shizuku-pursue-alice","akatsuki-defeats-hagun-student-council","ikki-vs-edelweiss","shizuku-vs-wallenstein-water-rebirth","nene-stops-akatsuki-pursuit","akatsuki-aftermath-and-representative-reshuffle","stella-nene-hell-training","tournament-bracket-ikki-vs-moroboshi","nene-profile-wall-newspaper","kurono-profile-wall-newspaper"],
+    "abilities":[],"items":[],"locations":[],"factions":[],"systems":[],"knowledge":[]
+  },
+  "summary":"Manual extraction for rakudai-kishi-main vol-05. The volume opens with Alice's snowy childhood: he and Yuri lead orphan children, vow to become 'cool adults', then lose everything when officials and mafia violence kill Yuri and lead Wallenstein to recruit Alice into Rebellion. In the present, Hagun and Kyoumon hold a joint Seven Stars training camp where Stella repeatedly challenges Toka, Ikki's strength draws attention, Ouma Kurogane's return is foreshadowed, and Ikki and Stella meet the unsettling Amane Shinomiya. Kagami investigates Amane and the cluster of unknown representatives, discovers the hidden eighth school Akatsuki, and is stabbed by Alice. Akatsuki attacks Hagun as a pre-festival demonstration, but Alice confesses his mission and tries to turn his Shadow Bind ambush against them; Amane's foresight and Sara/Reisen/Ouma's setup foil the counter-plan. The battle splits: Stella is overpowered by Ouma and evacuated by Toka; Hagun's student council delays and loses; Shizuku and Ikki pursue captured Alice to Akatsuki's base. Ikki confronts the world-strongest swordswoman Edelweiss and survives while leaving a tiny wound, while Shizuku defeats Wallenstein with the new Water Rebirth technique and rescues Alice emotionally and physically. In the aftermath Prime Minister Bakuga Tsukikage reveals state backing for Akatsuki, the League forces Akatsuki's inclusion as an eighth Seven Stars school, Hagun's roster is reshuffled with Shizuku entering, Stella begins brutal training under Nene, and Ikki's opening match is announced against reigning Seven Stars Sword King Yuudai Moroboshi.",
+  "notes":["Only character and event files were created per p1-scan instruction; abilities/items/locations/factions/systems/knowledge directories were left without new JSON entries.","Chapter 7 is author afterword; no in-world extraction was added from it beyond listing the source chapter.","Some Akatsuki members who appear mainly as combatants in group scenes (e.g. Rinna, Sara, Tatara) are referenced in event participants but were not given separate character files in this pass because the extracted focus stayed on high-evidence recurring or arc-critical entities.","Source chapter text labels itself as 第四卷 while the requested split directory and output target are vol-05; this index follows the delegated vol-05 scope."
+  ],
+  "source_refs":[
+    "campaigns/world-library/worlds/rakudai-kishi/sources/split-text/rakudai-kishi-main/vol-05/chapters.json",
+    "rakudai-kishi-main/vol-05/chapters/ch-001-序章-雪国的街道.txt",
+    "rakudai-kishi-main/vol-05/chapters/ch-002-第一章-强化集训.txt",
+    "rakudai-kishi-main/vol-05/chapters/ch-003-第二章-阴谋蠢动.txt",
+    "rakudai-kishi-main/vol-05/chapters/ch-004-第三章-晓，进军.txt",
+    "rakudai-kishi-main/vol-05/chapters/ch-005-第四章-过早的决战.txt",
+    "rakudai-kishi-main/vol-05/chapters/ch-006-终章-幕后黑手（fixer）.txt",
+    "rakudai-kishi-main/vol-05/chapters/ch-007-后记.txt"
+  ]
+}

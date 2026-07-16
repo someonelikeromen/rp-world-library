@@ -1,0 +1,48 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "item",
+  "entityId": "orochi-glove",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-09",
+  "periods": [
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:1988",
+        "hidan-no-aria-main/vol-09/full.txt:6875"
+      ],
+      "snapshot": {
+        "name": "大蛇露指手套",
+        "aliases": [
+          "大蛇",
+          "钛金超合金手套",
+          "平贺改造左手装备"
+        ],
+        "type": "protective combat gear",
+        "description": "金次用于单手偏弹与子弹回射的露指手套，表面为镀钛金超合金。本卷金次以大蛇两指夹住飞来的银弹并完成一百八十度回射；卷末他仍需筹钱支付左手费用给平贺。",
+        "details": {
+          "material": "镀钛金超合金",
+          "owner": "kinji",
+          "financial_note": "金次仍欠平贺左手费用"
+        },
+        "owner": "kinji",
+        "status": "active",
+        "features": [
+          "可承受子弹摩擦火花",
+          "辅助螺旋与子弹回射",
+          "需要HSS级操作"
+        ],
+        "associated_abilities": [
+          "bullet-return",
+          "hss-bousou-mode"
+        ],
+        "history": [
+          "天空树战中用于完成子弹回射打中希尔达左腿标记",
+          "卷末金次寻找民间委托以筹钱支付其费用"
+        ],
+        "evidence_level": "A"
+      }
+    }
+  ],
+  "_schema": "rp-item-volume-v1"
+}

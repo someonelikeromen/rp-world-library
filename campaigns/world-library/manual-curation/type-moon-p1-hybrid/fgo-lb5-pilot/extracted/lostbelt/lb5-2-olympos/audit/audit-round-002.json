@@ -1,0 +1,23 @@
+{
+  "schema":"tm-fgo-packet-audit-round-v1",
+  "packetId":"pkt-fgo-lostbelt-lb5-2-olympos-extract",
+  "chapterId":"fgo-lb5-2-olympos",
+  "round":2,
+  "status":"passed",
+  "sourceType":"user-file-worldbook-script",
+  "credibility":"B",
+  "canonStatus":"canon-like",
+  "sourceRefs":["sources/worldbook-script/lostbelt/ch-098-lb5-2-olympos.txt:1-124"],
+  "checks":[
+    {"check":"raw event coverage","status":"passed","evidence":"events/event-index.json lists 29/29 expected events with 事件D3.5 preserved exactly."},
+    {"check":"event formal fields","status":"passed","evidence":"Each event file includes rawEventCode, title, time_raw, triggerRaw, completionRaw, summaryRaw, orderIndex, sourceRefs, sourceType, credibility, and canonStatus."},
+    {"check":"dialogue coverage","status":"passed","evidence":"dialogue/line-index.json reports 41 observed and 41 extracted quote records, skipped 0."},
+    {"check":"visual ability combat layers","status":"passed","evidence":"appearance, ability, combat-effect, and not-found-in-source indexes present with sourceRefs and metadata."},
+    {"check":"relationships","status":"passed","evidence":"Relationship material remains candidate-only and retains timelineId/timeRangeRaw."},
+    {"check":"unsupported labels","status":"passed","evidence":"Unsupported external/game/wiki labels appear only as aliasCandidates with unsupported-by-current-source supportStatus."},
+    {"check":"forbidden aggregate filenames","status":"passed","evidence":"find validation found no characters.json, events.json, or relationships.json under the pilot."}
+  ],
+  "openIssues":0,
+  "blockedIssues":0,
+  "canAdvance":true
+}

@@ -1,0 +1,37 @@
+{
+  "schema": "tm-fgo-packet-audit-v1",
+  "packetId": "pkt-fgo-ordeal-call-oc2-id-prep",
+  "chapterId": "fgo-ordeal-call-2-id",
+  "slug": "oc2-id",
+  "auditPass": "auditor-initial-after-generator-retry",
+  "status": "passed",
+  "blocked": false,
+  "openIssues": 0,
+  "blockedIssues": 0,
+  "checks": {
+    "sourceTextGate": "passed",
+    "requiredExtractedOutputs": "passed",
+    "requiredNormalizedOutputs": "passed",
+    "perPhaseEventFiles": "passed",
+    "appearanceCoverage": "passed",
+    "outfitEquipmentCoverage": "passed",
+    "abilityActivationCoverage": "passed",
+    "combatEffectCoverage": "passed",
+    "explicitNotFoundRecords": "passed",
+    "relationshipTimelineFields": "passed",
+    "sourceRefsOnFormalRecords": "passed",
+    "sourceTypeCredibilityCanonStatusOnFormalRecords": "passed",
+    "sourceFirstLabelsPreserved": "passed",
+    "unsupportedLabelsCandidateOnly": "passed",
+    "forbiddenAggregateFiles": "passed",
+    "jsonValidity": "passed-manual-no-executable-parser"
+  },
+  "notes": [
+    "Initial audit found no content blockers after retry generation.",
+    "JSON validity was reviewed structurally with read/write outputs only; no executable parser was used per task constraint."
+  ],
+  "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:1-89"],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

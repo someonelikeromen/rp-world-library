@@ -1,0 +1,56 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "reyd",
+  "volume": "vol-10",
+  "time_range": { "start": "第七章", "end": "第十章" },
+  "sub_arcs": ["异端儿暴走", "与贝尔的界线", "克诺索斯救援", "地表撤退"],
+  "periods": [
+    {
+      "period_id": "vol-10-ch-07-fails-to-stop-revenge",
+      "volume": "vol-10",
+      "time": "第七章 惨剧之王",
+      "label": "无法阻止同胞复仇",
+      "name": { "zh": "里德", "en": "Reyd", "jp": "リド" },
+      "aliases": ["蜥蜴人异端儿"],
+      "gender": "男",
+      "species": "异端儿、蜥蜴人",
+      "occupation": "异端儿头目之一",
+      "affiliation": "异端儿",
+      "status": { "location": "地下城第24层、第18层", "state": "被同胞怒火裹挟，参与救援薇妮" },
+      "summary": "得知拉涅小队被杀、薇妮被俘后，里德试图阻止古罗斯一派复仇，主张宿愿与地表梦想不能被愤怒毁掉。但他也无法压抑怒火，最终带蕾依等人追上古罗斯，攻击里维拉并寻找狩猎者巢穴。",
+      "key_events": [
+        { "event_id": "xenos-rampage-after-ranie-squad-massacre", "summary": "在反对无果后跟随同胞行动。", "sourceRef": "danmachi-main/vol-10/full.txt:1820" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-10/full.txt:1760-2050"]
+    },
+    {
+      "period_id": "vol-10-ch-09-warns-bell-away",
+      "volume": "vol-10",
+      "time": "第九章 禽兽之梦",
+      "label": "向贝尔划线并拒绝牵连他",
+      "status": { "location": "第18层东部森林", "state": "既恨人类又不愿贝尔受牵连" },
+      "summary": "里德在第18层与贝尔短暂脱离战场，说明薇妮被盗猎者掳走，也承认异端儿袭击了里维拉。他在地面划出界线，要求贝尔回到人类一方，不要因异端儿毁掉人生。",
+      "key_events": [
+        { "event_id": "reyd-reveals-wiene-abduction-to-bell", "summary": "告诉贝尔薇妮被盗猎者掳走。", "sourceRef": "danmachi-main/vol-10/full.txt:4105" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-10/full.txt:4050-4210"]
+    },
+    {
+      "period_id": "vol-10-ch-09-fights-beside-bell",
+      "volume": "vol-10",
+      "time": "第九章 禽兽之梦",
+      "label": "因贝尔的宣言挣脱诅咒",
+      "status": { "location": "克诺索斯囚笼大厅", "state": "以残存理智协助贝尔击倒狄克斯" },
+      "summary": "狄克斯的迷暴诅咒使里德发狂。贝尔宣布只要薇妮在求救就足以成为救她的理由后，里德被这份话语感动，凭意志挣脱诅咒的一部分，向贝尔道歉并与他联手。两人最终逼出贝尔的英雄愿望，重创狄克斯。",
+      "key_events": [
+        { "event_id": "dix-curses-xenos-and-bell-defeats-him-with-reyd", "summary": "与贝尔并肩击倒狄克斯。", "sourceRef": "danmachi-main/vol-10/full.txt:6500" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-10/full.txt:6300-6705"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-10/full.txt:1760-10050"]
+}

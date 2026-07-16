@@ -1,0 +1,80 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "assault-combat",
+  "volume": "vol-21",
+  "source_refs": [
+    "hidan-no-aria-main/vol-21/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-03",
+      "volume": "vol-03",
+      "time": "本卷",
+      "name": {
+        "zh": "强袭科近战/突击术",
+        "en": "Assault Combat"
+      },
+      "aliases": [],
+      "type": "combat",
+      "description": "强袭科学生用于追踪、强袭、射击和格斗的综合战术。莱卡以此担任追踪猎人并训练明里。",
+      "activation": {
+        "condition": "强袭任务",
+        "time": "持续",
+        "cost": "体力和武器"
+      },
+      "effects": [
+        "追踪猎人行动",
+        "格斗踢击",
+        "射击指导"
+      ],
+      "known_feats": [
+        "莱卡在仓库街以原地飞踢踢中夹竹桃头部",
+        "放学后指导明里微型乌兹"
+      ],
+      "shared_by": [
+        "raika",
+        "akari"
+      ],
+      "see_also": [
+        "rifle-marksmanship",
+        "close-quarters-kicks"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-aa/vol-03/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-21",
+      "volume": "vol-21",
+      "time": "第二十一卷",
+      "name": {
+        "zh": "强袭科战斗",
+        "en": "Assault combat"
+      },
+      "aliases": [],
+      "type": "combat / skill",
+      "description": "强袭科学生的近战与火器战斗能力。火野莱卡作为强袭科一年级强者具备此能力。",
+      "details": {},
+      "activation": {
+        "condition": "强袭科任务"
+      },
+      "effects": [
+        "突入",
+        "近战",
+        "火器运用"
+      ],
+      "known_feats": [
+        "金次评价火野在强袭科一年级中相当强悍"
+      ],
+      "shared_by": [
+        "hino-laika"
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "hidan-no-aria-main/vol-21/full.txt"
+      ]
+    }
+  ]
+}

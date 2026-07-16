@@ -1,0 +1,79 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "hotogi-kagura",
+  "volume": "vol-20",
+  "source_refs": [
+    "hidan-no-aria-main/vol-20/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-20",
+      "volume": "vol-20",
+      "time": "第二十卷",
+      "name": {
+        "zh": "星伽巫女神乐",
+        "en": "Hotogi kagura"
+      },
+      "type": "supernatural / ritual",
+      "description": "星伽巫女用于安抚、平息神明的神乐舞。本卷末白雪在绯绯色金原石前以神乐铃和色金杀女变换舞步试图让绯绯神安定。",
+      "details": {
+        "tools": [
+          "神乐铃",
+          "色金杀女"
+        ]
+      },
+      "activation": {
+        "condition": "巫女在御神体前舞蹈"
+      },
+      "effects": [
+        "安抚神格",
+        "仪式性镇静色金"
+      ],
+      "known_feats": [
+        "白雪的神乐未能让完全绯绯神平静"
+      ],
+      "shared_by": [
+        "shirayuki"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-20/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-21",
+      "volume": "vol-21",
+      "time": "第二十一卷",
+      "name": {
+        "zh": "星伽神乐",
+        "en": "Hotogi kagura"
+      },
+      "aliases": [
+        "绯祓舞"
+      ],
+      "type": "supernatural / ritual",
+      "description": "星伽巫女用于从附身对象身上驱除绯绯神的神乐舞。白雪称其为最有效的最终手段，但对完全覆盖的亚莉亚无效。",
+      "details": {
+        "ritual": "绯祓舞"
+      },
+      "activation": {
+        "condition": "星伽巫女以神乐形式施行"
+      },
+      "effects": [
+        "尝试驱离绯绯神",
+        "判断是否已完全覆盖"
+      ],
+      "known_feats": [
+        "绯祓舞未能唤回亚莉亚，成为白雪判断绝望的依据"
+      ],
+      "shared_by": [
+        "shirayuki"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-21/full.txt"
+      ]
+    }
+  ]
+}

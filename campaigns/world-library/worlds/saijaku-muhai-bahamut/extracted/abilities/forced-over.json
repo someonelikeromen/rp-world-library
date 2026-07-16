@@ -1,0 +1,56 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "forced-over",
+  "volume": "vol-13",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-13/full.txt:6900",
+    "saijaku-muhai-bahamut-main/vol-13/full.txt:7050"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-13",
+      "volume": "vol-13",
+      "time": "月内天降魔星战",
+      "name": {
+        "zh": "强制超过",
+        "en": "Forced Over"
+      },
+      "aliases": [
+        "机龙三大奥义之一",
+        "限界突破式斩击"
+      ],
+      "type": "combat / technology",
+      "description": "通过同时施加精神操纵与肉体操纵的矛盾命令，像拉满弓弦般蓄积机龙力量后释放的奥义。",
+      "details": {
+        "user": "lux-arcadia",
+        "risk": "负荷极大，需精确时机与身体承受力",
+        "vol13_use": "与苏菲丝的轨道控制配合斩穿天降魔星核心"
+      },
+      "activation": {
+        "condition": "高等机龙操纵技术与蓄力姿态",
+        "incantation": "强制超过",
+        "time": "需短暂蓄力",
+        "cost": "极高体力与精神负担"
+      },
+      "effects": [
+        "释放极高威力斩击",
+        "击穿终焉神兽天降魔星核心"
+      ],
+      "known_feats": [
+        {
+          "summary": "路克斯在苏菲丝牵引下以强制超过击破天降魔星。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-13/full.txt:7050"
+        }
+      ],
+      "shared_by": [
+        "lux-arcadia"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-13/full.txt:6900",
+        "saijaku-muhai-bahamut-main/vol-13/full.txt:7050"
+      ]
+    }
+  ]
+}

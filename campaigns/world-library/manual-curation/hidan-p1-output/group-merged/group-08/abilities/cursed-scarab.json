@@ -1,0 +1,48 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "ability",
+  "entityId": "cursed-scarab",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-04",
+  "_schema": "rp-ability-volume-v1",
+  "periods": [
+    {
+      "periodId": "vol-04",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-04/full.txt:2995",
+        "hidan-no-aria-main/vol-04/full.txt:5383",
+        "hidan-no-aria-main/vol-04/full.txt:5407"
+      ],
+      "snapshot": {
+        "name": "圣甲虫诅咒",
+        "aliases": [
+          "佩特拉的使魔",
+          "粪金龟",
+          "诅咒的金龟子"
+        ],
+        "type": "supernatural / magic",
+        "description": "佩特拉使用圣甲虫（粪金龟）作为使魔，能够配送魔力、下咒并使接触者不幸。虫本身可以飞行并侵入远程目标，一旦接触则可施加诅咒。",
+        "details": {
+          "scarab_types": "圣甲虫的一种，外表似金龟子",
+          "curse_effects": "眼疾、脚伤、厄运（如水上摩托熄火）",
+          "duration": "约一周自然恢复",
+          "application": "可通过虫直接接触或预先诅咒"
+        },
+        "effects": [
+          "使目标遭遇不幸事件",
+          "引发眼疾（理子右眼暂时失明）",
+          "引发脚伤（贞德的脚被公车辗过）",
+          "使设备故障（亚莉亚的水上摩托熄火）",
+          "渗透建筑（侵入星伽神社偷刀）"
+        ],
+        "known_feats": [
+          "贞德认为是圣甲虫导致其脚被公车辗过",
+          "理子的右眼被下咒后一个礼拜看不见",
+          "亚莉亚在夏日祭时被虫爬入浴衣导致诅咒"
+        ],
+        "evidence_level": "S",
+        "source_refs": []
+      }
+    }
+  ]
+}

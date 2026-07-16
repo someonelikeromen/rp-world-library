@@ -1,0 +1,121 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "petra",
+  "volume": "vol-27",
+  "time_range": {
+    "start": "vol-27",
+    "end": "vol-27"
+  },
+  "sub_arcs": [
+    "petra-key"
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-27/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-27",
+      "volume": "vol-27",
+      "time": "第二十七卷",
+      "label": "怀孕并制造佩特拉之钥",
+      "name": {
+        "zh": "佩特拉",
+        "en": "Petra",
+        "jp": "ペトラ"
+      },
+      "aliases": [
+        "佩特拉大嫂",
+        "法老王女"
+      ],
+      "titles": [
+        "金一之妻",
+        "超超能力者/色金术者"
+      ],
+      "gender": "female",
+      "species": "human/super-supernatural esper",
+      "nationality": "Egyptian lineage / Japanese residence",
+      "occupation": "远山家成员",
+      "affiliation": "远山家",
+      "status": {
+        "physical": "怀孕四个月，因制造佩特拉之钥入院后休养",
+        "mental": "冷静支持救援金天"
+      },
+      "appearance": {
+        "overview": "孕妇状态仍佩戴金饰，气质高贵。",
+        "distinctive": [
+          "金项链",
+          "法老王气质"
+        ]
+      },
+      "personality": {
+        "summary": "高傲但关照家族，愿为金天制造停止反色金的钥匙。",
+        "core_traits": [
+          "高贵",
+          "知识渊博",
+          "家族情",
+          "现实"
+        ],
+        "values": [
+          "家人",
+          "色金知识守秘",
+          "生命"
+        ],
+        "strengths": [
+          "色金与巫术知识",
+          "佩特拉之钥制造"
+        ],
+        "flaws": [
+          "怀孕限制行动"
+        ]
+      },
+      "abilities_owned": [
+        "petra-key-craft",
+        "gold-irokane-magic"
+      ],
+      "possessions_owned": [
+        "petra-key-ring"
+      ],
+      "relationships": {
+        "kinichi": {
+          "type": "husband",
+          "summary": "与金一成婚并怀孕。"
+        },
+        "kinjo": {
+          "type": "sister-in-law/operator",
+          "summary": "把指环交给金女执行停止反色金任务。"
+        },
+        "kinten": {
+          "type": "sister-in-law/protected-family",
+          "summary": "称金天也是妹妹，提供救命手段。"
+        },
+        "kinji": {
+          "type": "brother-in-law",
+          "summary": "告知摘除反色金将杀死金天。"
+        }
+      },
+      "knowledge": [
+        "counter-irokane-kills-host-if-removed",
+        "petra-key-countermeasure",
+        "irokane-secrets"
+      ],
+      "summary": "佩特拉在本卷被揭示怀孕。她指出洛斯阿拉莫斯所谓摘除反色金实际上会杀死金天，并将自己耗费力量制造的佩特拉之钥指环交给金女，说明只要接近金天五十公分即可停止反色金。",
+      "key_events": [
+        {
+          "event_id": "kinten-disposal-revealed",
+          "summary": "告知反色金与生命相连，摘除会导致金天死亡。",
+          "sourceRef": "hidan-no-aria-main/vol-27/full.txt:3850"
+        },
+        {
+          "event_id": "petra-key-entrusted",
+          "summary": "把佩特拉之钥指环交给金女。",
+          "sourceRef": "hidan-no-aria-main/vol-27/full.txt:4200"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-27/full.txt"
+      ]
+    }
+  ]
+}

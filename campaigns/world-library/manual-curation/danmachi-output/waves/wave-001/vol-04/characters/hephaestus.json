@@ -1,0 +1,75 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "hephaestus",
+  "volume": "danmachi-main/vol-04",
+  "time_range": { "start": "vol-04-ch-001", "end": "vol-04-ch-001" },
+  "sub_arcs": ["chapter-001-denatus"],
+  "periods": [
+    {
+      "period_id": "vol-04-ch-001-hephaestus-denatus-support",
+      "volume": "danmachi-main/vol-04",
+      "time": "During Denatus at Babel Tower",
+      "label": "Hephaestus accompanies Hestia at Denatus",
+      "name": { "zh": "赫菲斯托丝", "en": "Hephaestus", "jp": "ヘファイストス" },
+      "aliases": ["赫菲斯托丝"],
+      "titles": ["Hephaestus Familia主神", "锻造女神"],
+      "gender": "female",
+      "species": "goddess",
+      "nationality": "",
+      "occupation": "deity, smithing patron",
+      "affiliation": "Hephaestus Familia",
+      "status": { "denatus_role": "Senior attendee seated beside Hestia" },
+      "appearance": {
+        "overview": "A beautiful red-haired goddess in light top and black trousers, with an eyepatch over the right eye.",
+        "physical": { "height": "", "build": "", "hair": { "color": "red" }, "eyes": { "right": "covered by eyepatch", "left": "red" } },
+        "attire": { "default": "light top and black trousers", "combat": "" },
+        "voice_quality": {},
+        "distinctive": ["right eyepatch", "androgynous charm", "red hair"]
+      },
+      "personality": {
+        "summary": "Experienced, pragmatic, and supportive; she warns Hestia not to rely on her influence and explains the ugly reality of Denatus naming customs.",
+        "core_traits": ["pragmatic", "supportive", "experienced", "dryly humorous"],
+        "values": ["realistic expectations", "friendship with Hestia"],
+        "fears": [],
+        "desires": ["support Hestia without overpromising"],
+        "strengths": ["experience with divine meetings", "clear-eyed judgment"],
+        "flaws": ["limited ability to intervene under majority rules"],
+        "inner_conflict": "She sympathizes with Hestia but cannot control the meeting for her.",
+        "decision_pattern": { "advice": "States constraints plainly and helps Hestia interpret Denatus behavior." }
+      },
+      "voice": {
+        "self_reference": "",
+        "address_pattern": { "Hestia": "赫斯缇雅" },
+        "register": { "tone": "calm, friendly, slightly weary" },
+        "catchphrases": [],
+        "quote_samples": ["在多数决的规定前，我的意见也不过就是一票罢了。"]
+      },
+      "habits": {
+        "mannerisms": ["shrugs when explaining limits", "looks into the distance when recalling naming trauma"],
+        "daily_routine": "Attends Denatus as an established major-familia deity.",
+        "quirks": [],
+        "preferences": {}
+      },
+      "background": {
+        "birth": { "place": "heaven", "family": [] },
+        "upbringing": "",
+        "education": {},
+        "formative_events": [],
+        "pre_story": "Close friend and former host of Hestia."
+      },
+      "abilities_owned": ["smithing-patronage"],
+      "possessions_owned": [],
+      "relationships": { "hestia": "Close friend she advises and sits beside at Denatus.", "bell-cranel": "Indirect beneficiary of her friendship with Hestia." },
+      "knowledge": ["Knows Denatus titles often become embarrassing", "Knows Hestia's vote alone has little weight"],
+      "secrets": [],
+      "summary": "Hephaestus sits beside Hestia, explains that she cannot guarantee a good title under majority rule, and helps frame Denatus as a cruel naming arena rather than the noble meeting Bell imagines.",
+      "key_events": [
+        { "event_id": "denatus-naming-ceremony-begins", "summary": "Hephaestus supports Hestia through the naming ceremony and explains its dangers.", "sourceRef": "danmachi-main/vol-04/full.txt:998" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-04/full.txt:854", "danmachi-main/vol-04/full.txt:870", "danmachi-main/vol-04/full.txt:998"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-04/full.txt:854", "danmachi-main/vol-04/full.txt:870", "danmachi-main/vol-04/full.txt:998"]
+}

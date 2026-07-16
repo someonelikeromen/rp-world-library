@@ -1,0 +1,56 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "diarmat-astral-voice",
+  "volume": "vol-06",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:6420"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-06",
+      "volume": "vol-06",
+      "time": "本卷",
+      "name": {
+        "zh": "天声",
+        "en": "Astral Voice"
+      },
+      "aliases": [
+        "迪亚玛特神装"
+      ],
+      "type": "technology / authority",
+      "description": "迪亚玛特的神装，可形成重力场并操纵局部重力。",
+      "details": {
+        "drag_ride": "diarmat",
+        "applications": [
+          "短暂拖慢巨兵脚步",
+          "配合暴食增强重力使巨兵踏穿地面"
+        ]
+      },
+      "activation": {
+        "condition": "驾驶迪亚玛特",
+        "incantation": "天声",
+        "time": "瞬间",
+        "cost": "机龙能量"
+      },
+      "effects": [
+        "局部重力负荷",
+        "限制巨大目标动作"
+      ],
+      "known_feats": [
+        "王城前阻止巨兵推进"
+      ],
+      "shared_by": [
+        "lisesharte-atismata"
+      ],
+      "see_also": [
+        "bahamut-gluttony",
+        "diarmat"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:6420"
+      ]
+    }
+  ]
+}

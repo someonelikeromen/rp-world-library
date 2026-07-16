@@ -1,0 +1,84 @@
+{
+  "_schema": "world-library.character.v1",
+  "world": "hidan-no-aria",
+  "character_id": "eliza",
+  "volume": "vol-37",
+  "periods": [
+    {
+      "period_id": "vol-37",
+      "name": "埃莉萨",
+      "aliases": [
+        "Eliza",
+        "诺契勒斯副舰长"
+      ],
+      "gender": "female",
+      "species": "Rekuthia-linked humanoid; feline traits implied",
+      "status": "alive; injured by Carbuncle, recovers in Zandra",
+      "affiliations": [
+        "nautilus",
+        "reunion"
+      ],
+      "locations": [
+        "mumbai",
+        "zandra"
+      ],
+      "abilities_owned": [
+        "eliza-translation",
+        "eliza-india-knowledge",
+        "eliza-driving"
+      ],
+      "possessions_owned": [
+        "eliza-nautilus-communicator",
+        "eliza-indian-rupees",
+        "eliza-henna",
+        "zandra-bus"
+      ],
+      "relationships": {
+        "nemo": {
+          "type": "subordinate",
+          "status": "loyal deputy; receives orders to support the field team and monitor Kinji",
+          "sourceRef": "hidan-no-aria-main/vol-37/full.txt:1409"
+        },
+        "kinji": {
+          "type": "ally/creditor",
+          "status": "lends him 50,000 rupees and guides him through India",
+          "sourceRef": "hidan-no-aria-main/vol-37/full.txt:1385"
+        },
+        "lucifelia-moriarty-iv": {
+          "type": "monitor/interpreter",
+          "status": "assigned to watch and translate for Lucifelia",
+          "sourceRef": "hidan-no-aria-main/vol-37/full.txt:215"
+        },
+        "l-watson": {
+          "type": "field ally/medic",
+          "status": "Watson treats her after Carbuncle's internal-impact attack",
+          "sourceRef": "hidan-no-aria-main/vol-37/full.txt:2630"
+        },
+        "carbuncle": {
+          "type": "attacked by",
+          "status": "incapacitated by Carbuncle in Zandra",
+          "sourceRef": "hidan-no-aria-main/vol-37/full.txt:2570"
+        }
+      },
+      "key_events": [
+        {
+          "event_id": "bus-trip-to-zandra",
+          "role": "driver, logistics lead and interpreter",
+          "sourceRef": "hidan-no-aria-main/vol-37/full.txt:1490"
+        },
+        {
+          "event_id": "zandra-investigation",
+          "role": "conducts local HUMINT with Kinji",
+          "sourceRef": "hidan-no-aria-main/vol-37/full.txt:1990"
+        },
+        {
+          "event_id": "carbuncle-raid-zandra",
+          "role": "injured and forced to remain behind",
+          "sourceRef": "hidan-no-aria-main/vol-37/full.txt:2630"
+        }
+      ],
+      "notes": "As an Indian-born Nautilus officer, Eliza supplies local knowledge about food, caste, traffic, water safety, police corruption and rural hazards.",
+      "sourceRef": "hidan-no-aria-main/vol-37/chapters/ch-002-第三十七卷_第三个男人_2弹_第二届伊·U同学会.txt:614"
+    }
+  ]
+}

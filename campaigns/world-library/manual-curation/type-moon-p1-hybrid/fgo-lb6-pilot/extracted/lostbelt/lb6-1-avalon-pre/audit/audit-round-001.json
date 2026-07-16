@@ -1,0 +1,25 @@
+{
+  "schema": "tm-fgo-packet-audit-round-v1",
+  "recordId": "lb6-1-avalon-pre-audit-round-001",
+  "chapterId": "fgo-lb6-1-avalon-pre",
+  "round": 1,
+  "auditorStatus": "needs-fix",
+  "checks": {
+    "sourceTextGatePassed": true,
+    "eventCount33IncludingDuplicateA0": true,
+    "rawTimePreserved": true,
+    "dialogueRefsForQuotes": true,
+    "visualAbilityCombatCoveragePresent": true,
+    "notFoundRecordsPresent": true,
+    "forbiddenAggregateFilenamesAbsent": true,
+    "formalNestedMetadataComplete": false
+  },
+  "issues": [
+    {"issueId": "audit-001-stage-groups-metadata", "severity": "fixable", "status": "fixed-in-round-001", "description": "Stage character group nested records initially carried sourceRefs but lacked repeated sourceType/credibility/canonStatus metadata.", "affectedFile": "extracted/lostbelt/lb6-1-avalon-pre/stage-characters/index.json"},
+    {"issueId": "audit-001-engine-instruction-metadata", "severity": "fixable", "status": "fixed-in-round-001", "description": "world-state engineInstructionRefs initially carried sourceRefs but lacked repeated sourceType/credibility/canonStatus metadata.", "affectedFile": "extracted/lostbelt/lb6-1-avalon-pre/world-state.json"}
+  ],
+  "sourceRefs": ["extracted/lostbelt/lb6-1-avalon-pre/extraction-report.json", "work-packets/lostbelt/lb6-1-avalon-pre.json"],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

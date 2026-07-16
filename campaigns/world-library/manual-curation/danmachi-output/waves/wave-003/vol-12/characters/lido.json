@@ -1,0 +1,30 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "lido",
+  "volume": "vol-12",
+  "time_range": { "start": "序章", "end": "终章" },
+  "sub_arcs": ["地表逃亡", "西路突破", "归还秘里"],
+  "periods": [{
+    "period_id": "vol-12-lido-leads-xenos-escape",
+    "volume": "vol-12",
+    "time": "序章-终章",
+    "label": "带领地表异端儿突破回归地下",
+    "name": { "zh": "里德", "en": "Lido", "jp": "リド" },
+    "gender": "男",
+    "species": "蜥蜴人异端儿",
+    "occupation": "异端儿战士与领袖之一",
+    "affiliation": "异端儿",
+    "status": { "location": "地下城秘里", "state": "带同胞回归并等待亲自向贝尔道谢" },
+    "summary": "里德在下水道击退追猎冒险者，守护刚苏醒的薇妮。撤离作战中，他作为主队前卫冲破代达罗斯路，与费尔斯、韦尔夫等人协同突破洛基眷族阵线。被荷米斯陷阱逼入死路后，他反对牺牲古罗斯却无力阻止。终章里德回到秘里，与费尔斯握手致谢，并决定未来亲口向贝尔表达感谢。",
+    "key_events": [
+      { "event_id": "surface-xenos-hunt-after-daedalus", "summary": "击退摩多等追猎者并保护薇妮。", "sourceRef": "danmachi-main/vol-12/full.txt:1-300" },
+      { "event_id": "welf-mikoto-xenos-breakthrough", "summary": "作为主队前卫冲破西区阵线。", "sourceRef": "danmachi-main/vol-12/full.txt:4953-8194" },
+      { "event_id": "hermes-fake-daedalus-notebook-trap", "summary": "在荷米斯陷阱中反对牺牲同胞。", "sourceRef": "danmachi-main/vol-12/full.txt:8195-9326" },
+      { "event_id": "xenos-return-and-bell-renews-training", "summary": "平安归还秘里。", "sourceRef": "danmachi-main/vol-12/full.txt:10847-11228" }
+    ],
+    "evidence_level": "S",
+    "source_refs": ["danmachi-main/vol-12/full.txt:1-300", "danmachi-main/vol-12/full.txt:4953-9326", "danmachi-main/vol-12/full.txt:10847-11228"]
+  }],
+  "source_refs": ["danmachi-main/vol-12/full.txt:1-300", "danmachi-main/vol-12/full.txt:4953-9326", "danmachi-main/vol-12/full.txt:10847-11228"]
+}

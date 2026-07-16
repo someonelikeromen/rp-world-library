@@ -1,0 +1,96 @@
+{
+  "_schema": "rp-item-volume-v1",
+  "world": "hidan-no-aria",
+  "item_id": "n-rings",
+  "volume": "vol-24",
+  "source_refs": [
+    "hidan-no-aria-main/vol-24/chapters/ch-006-第二十四卷_狂逸的同学会_5弹_伊·U同学会.txt:606"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-24-main",
+      "volume": "vol-24",
+      "time": "N现身",
+      "name": {
+        "zh": "N戒指",
+        "en": "N rings"
+      },
+      "aliases": [
+        "N指环",
+        "深灰色N戒指",
+        "黑色N戒指",
+        "银色N戒指"
+      ],
+      "type": "artifact / key-item",
+      "description": "N成员佩戴的刻有N字样的戒指。金次此前夺走茉斩的深灰色戒指并埋在东京，茉斩本卷要求归还；N其他成员也戴有不同颜色的N戒指。",
+      "details": {
+        "known_colors": [
+          "深灰色",
+          "黑色",
+          "银色"
+        ],
+        "symbol": "N"
+      },
+      "owner": "无特定归属",
+      "status": "active",
+      "features": [
+        "N阵营标识",
+        "可能具有组织或能力意义",
+        "可作为金次与茉斩交易筹码"
+      ],
+      "associated_abilities": [
+        "n-stealth-approach"
+      ],
+      "history": [
+        {
+          "event_id": "n-encounter-at-iu-reunion",
+          "summary": "茉斩在罗马要求金次归还先前被夺走的N戒指。",
+          "sourceRef": "hidan-no-aria-main/vol-24/full.txt:6350"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-24/chapters/ch-006-第二十四卷_狂逸的同学会_5弹_伊·U同学会.txt:606",
+        "hidan-no-aria-main/vol-24/chapters/ch-006-第二十四卷_狂逸的同学会_5弹_伊·U同学会.txt:656"
+      ]
+    },
+    {
+      "period_id": "vol-25",
+      "volume": "vol-25",
+      "time": "第二十五卷 罗马的军神星",
+      "name": {
+        "zh": "N戒指",
+        "en": "N Rings"
+      },
+      "aliases": [
+        "Nautilus戒指",
+        "金银灰黑戒指"
+      ],
+      "type": "key-item / insignia",
+      "description": "N成员佩戴的象征戒指，颜色似乎代表阶级。",
+      "details": {
+        "observed_hierarchy": [
+          "金色：尼莫",
+          "银色：瓦尔基丽雅",
+          "深灰色：古兰督卡",
+          "黑色：伊欧/茉斩等较低阶"
+        ],
+        "symbol": "N"
+      },
+      "owner": "无特定归属",
+      "status": "active",
+      "features": [
+        "识别N成员",
+        "显示阶级"
+      ],
+      "associated_abilities": [],
+      "history": [
+        "金次在广场会谈中观察到尼莫等成员戒指颜色，并推断N内部阶级。"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-25/full.txt"
+      ]
+    }
+  ]
+}

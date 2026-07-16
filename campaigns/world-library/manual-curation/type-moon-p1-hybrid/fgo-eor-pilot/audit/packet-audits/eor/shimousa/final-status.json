@@ -1,0 +1,20 @@
+{
+  "schema": "tm-fgo-packet-final-status-v1",
+  "packetId": "pkt-fgo-eor-shimousa-extract",
+  "chapterId": "fgo-eor-shimousa",
+  "slug": "shimousa",
+  "model": "lt-yuyu/gpt-5.5",
+  "status": "passed",
+  "latestAudit": {"path": "audit-round-002.json", "status": "passed"},
+  "latestAuditStatus": "passed",
+  "openIssues": 0,
+  "blockedIssues": 0,
+  "canAdvance": true,
+  "coverage": {"eventsAThroughQ":true,"eventFiles":17,"dialogueQuotes":36,"dialogueRefsForAllQuotes":true,"appearanceLayer":true,"abilityLayer":true,"combatEffectLayer":true,"notFoundInSourceRecords":true,"normalizedOutputs":true},
+  "outputs": {"extractedRoot":"extracted/eor/shimousa","normalizedRoot":"normalized/eor/shimousa","auditRoot":"audit/packet-audits/eor/shimousa"},
+  "notes": ["Source-first terminology only; alias records are limited to current-source labels/co-references and no unsupported external labels were promoted.", "Mandatory visual, ability, and combat-effect details are source-backed when present and covered by not-found-in-source records when absent.", "No merge was run."],
+  "sourceRefs": [{"path":"sources/worldbook-script/eor/ch-091-shimousa.txt","lineStart":1,"lineEnd":108}],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

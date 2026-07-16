@@ -1,0 +1,95 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "cao-cao-melee",
+  "volume": "vol-14",
+  "periods": [
+    {
+      "period_id": "vol-14-main",
+      "volume": "vol-14",
+      "time": "香港蓝帮城事件",
+      "label": "曹操姊妹·猛妹",
+      "name": {
+        "zh": "猛妹",
+        "en": "Cao Cao Melee Sister"
+      },
+      "aliases": [
+        "眧眧",
+        "曹操姊妹近战型"
+      ],
+      "gender": "female",
+      "species": "human",
+      "nationality": "Chinese / Hong Kong",
+      "occupation": "蓝帮成员/近战战士",
+      "affiliation": "香港蓝帮; 上海蓝帮影响线",
+      "status": {
+        "physical": "一度抓住院美诗并宣读上海委任状，死亡游戏中在一楼迎战白雪",
+        "mental": "好战、重利、冲动，对金次拒绝收编迅速转为决斗"
+      },
+      "personality": {
+        "summary": "残忍、好胜、爱玩死亡游戏；既追逐金钱地位，也很在意曹操姊妹和蓝帮面子。",
+        "core_traits": [
+          "好战",
+          "狡猾",
+          "重利",
+          "不服输"
+        ],
+        "inner_conflict": "希望金次成为蓝帮领袖与自己一方的丈夫/上司，但无法理解其拒绝金钱地位的价值观。"
+      },
+      "abilities_owned": [
+        "cao-cao-drunken-sword",
+        "double-snake-choke",
+        "qinglong-dao-combat"
+      ],
+      "possessions_owned": [
+        "serpent-swords",
+        "xo-brandy"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "recruitment_target_enemy",
+          "summary": "以委任状和政治婚姻逼金次加入蓝帮，被拒绝后发起死亡游戏。"
+        },
+        "shirayuki": {
+          "type": "duel_opponent",
+          "summary": "指名白雪为一楼对手。"
+        },
+        "zhuge-jinghuan": {
+          "type": "superior_resented",
+          "summary": "因诸葛告状和压制而怨恨他，后造反并抓住诸葛。"
+        },
+        "yin-meishi": {
+          "type": "hostage",
+          "summary": "绑住院美诗并拖到巴斯克维尔面前施压。"
+        }
+      },
+      "summary": "猛妹在本卷代表上海蓝帮强硬路线，抓住院美诗并宣读委任状，要求金次和巴斯克维尔加入蓝帮。金次拒绝后，她撕毁卷轴发起死亡游戏，选择蛇剑和白兰地醉剑迎战白雪，担任蓝帮城一楼防守者。",
+      "key_events": [
+        {
+          "event_id": "blue-gang-death-game",
+          "summary": "抓住院美诗并宣读上海蓝帮委任状。",
+          "sourceRef": "hidan-no-aria-main/vol-14/full.txt:3415"
+        },
+        {
+          "event_id": "blue-gang-death-game",
+          "summary": "宣布死亡游戏并由一楼迎战白雪。",
+          "sourceRef": "hidan-no-aria-main/vol-14/full.txt:3715"
+        },
+        {
+          "event_id": "blue-gang-death-game",
+          "summary": "喝下XO白兰地，进入醉剑式不规则动作。",
+          "sourceRef": "hidan-no-aria-main/vol-14/full.txt:3735"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-14/chapters/ch-003-第十四卷_不请自来的海雾_3弹_死亡游戏.txt:131",
+        "hidan-no-aria-main/vol-14/chapters/ch-003-第十四卷_不请自来的海雾_3弹_死亡游戏.txt:431",
+        "hidan-no-aria-main/vol-14/chapters/ch-003-第十四卷_不请自来的海雾_3弹_死亡游戏.txt:451"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-14/chapters/ch-003-第十四卷_不请自来的海雾_3弹_死亡游戏.txt:131"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "self-awareness-declaration",
+  "volume": "vol-03",
+  "source_refs": [
+    "hidan-no-aria-aa/vol-03/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-03",
+      "volume": "vol-03",
+      "time": "自觉宣言篇",
+      "name": {
+        "zh": "自觉宣言",
+        "en": "Self-awareness Declaration"
+      },
+      "aliases": [
+        "自觉宣书"
+      ],
+      "type": "skill",
+      "description": "CVR名产，通过设计场景逼迫目标公开宣誓自己真正重视的对象，使其自觉关系定位。",
+      "activation": {
+        "condition": "目标陷入心理压力且有明确选择对象",
+        "time": "宣读瞬间",
+        "cost": "羞耻与录音风险"
+      },
+      "effects": [
+        "明确关系",
+        "制造证据",
+        "让麒麟获得幸福感"
+      ],
+      "known_feats": [
+        "莱卡被迫喊出‘麒麟是我老婆’"
+      ],
+      "shared_by": [
+        "kirin",
+        "riko"
+      ],
+      "see_also": [
+        "cvr-type-ii-beta"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-aa/vol-03/full.txt"
+      ]
+    }
+  ]
+}

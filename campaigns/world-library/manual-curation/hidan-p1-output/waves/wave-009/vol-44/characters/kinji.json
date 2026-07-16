@@ -1,0 +1,130 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "kinji",
+  "volume": "vol-44",
+  "periods": [
+    {
+      "period_id": "vol-44-main",
+      "volume": "vol-44",
+      "time": "圣诞前后至中心考试第一天",
+      "name": {
+        "zh": "远山金次",
+        "jp": "遠山金次"
+      },
+      "aliases": [
+        "煌仁",
+        "金次"
+      ],
+      "gender": "male",
+      "species": "human",
+      "nationality": "Japanese",
+      "occupation": "武侦/东大考生/煌临时牛郎",
+      "affiliation": "远山家；临时隶属牛郎店煌；原武侦高",
+      "status": {
+        "condition": "在煌潜入监视雷米艾莉雅后离职；中心考试第一科因对卒发作交白卷",
+        "legal": "曾有被捕经历但本卷未被捕",
+        "employment": "煌工资结算仅500日元"
+      },
+      "appearance": {
+        "attire": {
+          "default": "防弹制服",
+          "host": "借用黑色杜嘉班纳西装、GIII海军蓝光泽衬衫、卡地亚山度士表"
+        },
+        "distinctive": [
+          "被霰弹击中后仍行动",
+          "亢奋模式时语调和魅力显著改变"
+        ]
+      },
+      "personality": {
+        "summary": "怕女性且吐槽不断，但责任感强；即使厌恶牛郎行业，也会保护客人与同伴。",
+        "core_traits": [
+          "自嘲",
+          "保护女性",
+          "临场判断强",
+          "考试焦虑"
+        ],
+        "flaws": [
+          "对女性气息和接触极端敏感",
+          "贫穷且易被罚款"
+        ]
+      },
+      "abilities_owned": [
+        "hss",
+        "tooyama-dezu",
+        "butei-close-protection",
+        "holy-extinguishing-light-reflection"
+      ],
+      "possessions_owned": [
+        "kinji-kouei",
+        "kinji-bulletproof-uniform",
+        "kinji-bulletproof-shirt",
+        "kinji-dolce-gabbana-suit",
+        "kinji-butei-smoke-bullet"
+      ],
+      "relationships": {
+        "remielia": {
+          "type": "主从关系反转/监视对象",
+          "summary": "先被认定为仆人，后在屋顶连续两次决斗获胜救下她并成为其上位者。"
+        },
+        "hibiki": {
+          "type": "同事/秘密知情者",
+          "summary": "替响挡霰弹，发现其为女性并保密；被响吻别。"
+        },
+        "tammy": {
+          "type": "麻烦客人/枪击犯",
+          "summary": "曾安抚并制伏她；枪击时替响和雷米艾莉雅挡弹。"
+        },
+        "satsuki-mei": {
+          "type": "短暂担当客人",
+          "summary": "相信她的真话并促使她放弃自杀、回香港与恋人重启人生。"
+        },
+        "suzaka-kei": {
+          "type": "武侦熟人",
+          "summary": "以保密她在煌的私事换取防弹装备介绍。"
+        },
+        "nemo": {
+          "type": "同伴通信对象",
+          "summary": "视频通话得知鹦鹉螺与导航者将在直布罗陀协商。"
+        },
+        "moetsuki-moe": {
+          "type": "东大应考同伴",
+          "summary": "在台场偶遇，互相鼓励备考。"
+        }
+      },
+      "summary": "本卷金次为监视恋上头牌响的雷米艾莉雅，潜入六本木牛郎店煌成为新人牛郎煌仁；经历皋月/冥、塔米枪击、响性别秘密和雷米艾莉雅失恋濒死事件后，用反射断罪的圣熄光救下雷米艾莉雅并赢得主从关系。卷末转入东大中心考试，却因前后左右都是可爱女生而过度紧张，引发对卒，公民科目零分。",
+      "key_events": [
+        {
+          "event_id": "kinji-host-infiltration",
+          "summary": "入职煌并成为新人牛郎煌仁。",
+          "sourceRef": "hidan-no-aria-main/vol-44/full.txt:329"
+        },
+        {
+          "event_id": "tammy-shooting",
+          "summary": "用身体挡下金牛座判官霰弹，保护响与雷米艾莉雅。",
+          "sourceRef": "hidan-no-aria-main/vol-44/full.txt:3990"
+        },
+        {
+          "event_id": "remi-ellia-rooftop-duels",
+          "summary": "在六本木新城屋顶反射断罪的圣熄光，救下并击败雷米艾莉雅。",
+          "sourceRef": "hidan-no-aria-main/vol-44/full.txt:4917"
+        },
+        {
+          "event_id": "center-exam-dezu",
+          "summary": "中心考试第一科开考后对卒发作，未作答。",
+          "sourceRef": "hidan-no-aria-main/vol-44/full.txt:5605"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-44/chapters/ch-001-第一弹_请击穿我的心吧.txt:292",
+        "hidan-no-aria-main/vol-44/chapters/ch-003-第三弹_双倍下注.txt:669",
+        "hidan-no-aria-main/vol-44/chapters/ch-004-第四弹_爱将我灼烧.txt:545",
+        "hidan-no-aria-main/vol-44/chapters/ch-005-Go_For_The_NEXT!!!_16分之1.txt:308"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-44/full.txt"
+  ]
+}

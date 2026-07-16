@@ -1,0 +1,47 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "dan-shigyoh",
+  "volume": "vol-01",
+  "periods": [
+    {
+      "period_id": "vol-01",
+      "volume": "vol-01",
+      "time": "春季",
+      "name": {
+        "zh": "弹子戏法",
+        "en": "Dan Shigyoh (Bullet Trick)",
+        "jp": "弾子戯法"
+      },
+      "aliases": [],
+      "type": "combat",
+      "description": "蕾姬使用的超远距离狙击技术，用自己射出的子弹在空中击中敌方射出的子弹。需要预判目标开枪的时机。",
+      "details": {
+        "principle": "预测敌人开枪时机，同步射出狙击弹以拦截对方子弹",
+        "difficulty": "超能力等级的神技",
+        "distance": "约两公里"
+      },
+      "activation": {
+        "condition": "需要预测对方开枪时机",
+        "time": "同步",
+        "cost": "极高的专注力"
+      },
+      "effects": [
+        "用己方子弹在空中弹开或击毁敌方子弹"
+      ],
+      "known_feats": [
+        "从武侦高中狙击科屋顶弹开RACOON大饭店703号房窗口柯尔特巨蟒射向莱卡的麦格农子弹"
+      ],
+      "shared_by": [
+        "reki"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-aa/vol-01/chapters/ch-013-第一卷_13弹_岛麒麟③.txt:253"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-aa/vol-01/chapters/ch-013-第一卷_13弹_岛麒麟③.txt:253"
+  ]
+}

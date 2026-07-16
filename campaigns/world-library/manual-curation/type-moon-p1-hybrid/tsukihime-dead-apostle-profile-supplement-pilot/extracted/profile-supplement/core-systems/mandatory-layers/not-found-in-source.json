@@ -1,0 +1,97 @@
+{
+  "schema": "tm-tsukihime-not-found-layer-v1",
+  "packetId": "core-systems",
+  "status": "generated-pending-audit",
+  "layer": "not-found-in-source",
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "unknown",
+  "continuityTags": ["source-gap/candidate-only"],
+  "sourceRefs": ["work-packets/core-systems.json:1"],
+  "records": [
+    {
+      "recordId": "nf-appearance-core-summary-units",
+      "surface": "appearance",
+      "scope": "system summary source units: dead-apostle/true-ancestor, mystic-eyes, direct-death, church/conceptual-weapons",
+      "status": "not-found-in-source",
+      "detail": "The system summary entries define systems and organizations but do not give ordinary physical appearances for Dead Apostles, True Ancestors as a class, Mystic Eyes as a class, the Church as an organization, or Conceptual Weapons as a class beyond Direct Death visual lines/points and examples.",
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "unknown",
+      "continuityTags": ["source-gap/candidate-only"],
+      "sourceRefs": ["sources/worldbook-profile/tm-summary-dead-apostle-true-ancestor.txt:16", "sources/worldbook-profile/tm-summary-mystic-eyes.txt:16", "sources/worldbook-profile/tm-summary-mystic-eyes-of-death-perception.txt:18", "sources/worldbook-profile/tm-summary-church-conceptual-weapons.txt:16"]
+    },
+    {
+      "recordId": "nf-outfit-equipment-system-summary-units",
+      "surface": "outfit-equipment",
+      "scope": "general system summaries",
+      "status": "not-found-in-source",
+      "detail": "General system summary entries do not describe outfits/equipment for classes except the Church/conceptual-weapons entry listing Black Keys as an example and profile excerpts describing Mystic Eye Killers, Nanaya knife, and Seventh Holy Scripture.",
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "unknown",
+      "continuityTags": ["source-gap/candidate-only"],
+      "sourceRefs": ["sources/worldbook-profile/tm-summary-church-conceptual-weapons.txt:29", "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:34", "sources/worldbook-profile/dlc-tsukihime-ciel.txt:37"]
+    },
+    {
+      "recordId": "nf-arcueid-charm-activation-scene",
+      "surface": "ability-activation",
+      "scope": "Arcueid Mystic Eyes of Charm",
+      "status": "not-found-in-source",
+      "detail": "The source provides effects for the remake Mystic Eyes of Charm but no staged activation scene, incantation, trigger, target, or visible use sequence.",
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "unknown",
+      "continuityTags": ["remake", "source-gap/candidate-only"],
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:48"]
+    },
+    {
+      "recordId": "nf-arcueid-marble-phantasm-activation-scene",
+      "surface": "ability-activation",
+      "scope": "Arcueid Marble Phantasm",
+      "status": "not-found-in-source",
+      "detail": "The source provides what Marble Phantasm can do but no staged activation scene or explicit target/outcome sequence.",
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "unknown",
+      "continuityTags": ["remake", "source-gap/candidate-only"],
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:49"]
+    },
+    {
+      "recordId": "nf-combat-effect-stage-details",
+      "surface": "combat-effect",
+      "scope": "several ability/equipment descriptions",
+      "status": "not-found-in-source",
+      "detail": "Some source excerpts give ability/equipment capability without a concrete combat scene, target, or aftermath: Ciel's Seventh Holy Scripture forms, Black Keys as a conceptual-weapon example, general Church Executor functions, and Arcueid's general high combat ability are kept as capability/equipment signals rather than fabricated combat outcomes.",
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "unknown",
+      "continuityTags": ["source-gap/candidate-only"],
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:59", "sources/worldbook-profile/tm-summary-church-conceptual-weapons.txt:29", "sources/worldbook-profile/tm-summary-church-conceptual-weapons.txt:22", "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:30"]
+    },
+    {
+      "recordId": "nf-formal-relationships-timeline",
+      "surface": "relationships/timeline",
+      "scope": "core-system packet",
+      "status": "not-created-by-policy",
+      "detail": "The work packet allows relationship categories/signals and raw timeline labels only; it forbids formal graph, formal timeline, merged entity records, and aggregate relationship/timeline files. Therefore this packet emits signal layers only.",
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "unknown",
+      "continuityTags": ["source-gap/candidate-only"],
+      "sourceRefs": ["work-packets/core-systems.json:1"]
+    },
+    {
+      "recordId": "nf-type-lumina-kagetsu-core-system",
+      "surface": "continuity coverage",
+      "scope": "type-lumina and kagetsu-tohya categories",
+      "status": "not-found-in-source",
+      "detail": "The central taxonomy includes type-lumina and kagetsu-tohya, but this packet's Stage 1 source text does not provide source-backed core-system facts for those categories; no facts were invented.",
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "unknown",
+      "continuityTags": ["source-gap/candidate-only"],
+      "sourceRefs": ["source-unit-manifest.json:1", "sources/worldbook-profile/source-text-manifest.json:1"]
+    }
+  ]
+}

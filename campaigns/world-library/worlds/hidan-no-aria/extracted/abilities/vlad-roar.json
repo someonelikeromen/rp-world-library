@@ -1,0 +1,44 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "vlad-roar",
+  "volume": "vol-03",
+  "source_refs": [
+    "hidan-no-aria-main/vol-03/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-03-main",
+      "volume": "vol-03",
+      "time": "6月",
+      "name": {
+        "zh": "弗拉德的咆哮",
+        "en": "Vlad's Roar"
+      },
+      "aliases": [
+        "瓦拉几亚的魔笛"
+      ],
+      "type": "supernatural",
+      "description": "弗拉德的特殊能力。吸入大量空气后发出巨大咆哮，能使整栋大楼震动、撕裂云层。具有解除金次的爆发模式的特殊效果。",
+      "details": {
+        "mechanism": "通过咆哮的声波震荡干扰神经传导物质分泌",
+        "effect_on_HSS": "能精准解除爆发模式"
+      },
+      "effects": [
+        "震耳欲聋的巨响",
+        "使五脏六腑震荡",
+        "解除爆发模式"
+      ],
+      "countered_by": [
+        "earplugs（推测）"
+      ],
+      "counters": [
+        "hss-burst-mode"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-03/chapters/ch-005-第三卷_蜂蜜色的陷阱_5弹_高度296公尺的弹子戏法.txt:1572"
+      ]
+    }
+  ]
+}

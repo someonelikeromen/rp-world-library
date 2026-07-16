@@ -1,0 +1,74 @@
+{
+  "_schema": "rp-item-volume-v1",
+  "world": "hidan-no-aria",
+  "item_id": "otoha-glock26",
+  "volume": "vol-29",
+  "source_refs": [
+    "hidan-no-aria-main/vol-29/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-29",
+      "volume": "vol-29",
+      "time": "第二十九卷 盟约的谍候",
+      "name": {
+        "zh": "乙叶的Glock 26",
+        "en": "Otoha's Glock 26"
+      },
+      "aliases": [
+        "G26",
+        "小型手枪"
+      ],
+      "type": "weapon",
+      "description": "有马鸠雄作为后援时携带的小型手枪，在秋叶原射击事件中一度拔出。",
+      "details": {
+        "role": "后援自卫"
+      },
+      "owner": "arima-hatoo",
+      "status": "active",
+      "features": [
+        "便于隐藏",
+        "适合潜入协力者携带"
+      ],
+      "associated_abilities": [
+        "crossdress-infiltration"
+      ],
+      "history": [
+        {
+          "event_id": "akihabara-shooting-possessed-students",
+          "summary": "乙叶拔枪支援但右肩中弹。"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-29/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-30",
+      "volume": "vol-30",
+      "time": "第三十卷",
+      "name": {
+        "zh": "乙叶的Glock 26"
+      },
+      "aliases": [
+        "Glock",
+        "小型手枪"
+      ],
+      "type": "firearm",
+      "owner": "otoha-maria",
+      "description": "乙叶藏在裙下枪套中的小型手枪。用于ALPHARD逃亡途中牵制金次，败北后也试图举枪自尽但被蕾姬击飞。",
+      "capabilities": [
+        "近距离牵制",
+        "隐蔽携行"
+      ],
+      "key_events": [
+        "otoha-arrest-and-asclepius-recovery"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-30/full.txt"
+      ]
+    }
+  ]
+}

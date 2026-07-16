@@ -1,0 +1,67 @@
+{
+  "schema": "tm-tsukihime-normalized-not-found-fragment-v1",
+  "packetId": "dead-apostles-roa",
+  "recordId": "not-found-in-source",
+  "status": "generated-pending-audit",
+  "candidateOnly": true,
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "mixed-source-status-see-records",
+  "records": [
+    {
+      "recordId": "not-found-roa-standalone-profile",
+      "missingSurface": "standalone-profile",
+      "subject": "米海尔·罗亚·法尔丹姆杨",
+      "summary": "A direct standalone Roa profile entry was not confirmed in Stage 1, so no standalone Roa profile is created.",
+      "continuityTaxonomy": {"category": "sandbox", "rawSourceLabels": ["罗亚", "candidate-only"], "sourceAvailability": "source-gap/candidate-only"},
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:33", "sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:35"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    },
+    {
+      "recordId": "not-found-roa-appearance",
+      "missingSurface": "appearance",
+      "subject": "米海尔·罗亚·法尔丹姆杨",
+      "summary": "No Roa-specific appearance is present in the assigned excerpts; possessed-body appearance is not treated as Roa appearance.",
+      "continuityTaxonomy": {"category": "sandbox", "rawSourceLabels": ["罗亚", "candidate-only"], "sourceAvailability": "source-gap/candidate-only"},
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:10", "sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:33"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    },
+    {
+      "recordId": "not-found-roa-outfit-equipment",
+      "missingSurface": "outfit-equipment",
+      "subject": "米海尔·罗亚·法尔丹姆杨",
+      "summary": "No Roa-specific outfit/equipment details are present in the assigned excerpts.",
+      "continuityTaxonomy": {"category": "sandbox", "rawSourceLabels": ["罗亚", "candidate-only"], "sourceAvailability": "source-gap/candidate-only"},
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:33", "sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:35"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    },
+    {
+      "recordId": "not-found-named-dead-apostle-standalone-profiles",
+      "missingSurface": "standalone-profiles",
+      "subject": "Nero, Vlov, Wallachia Night, Satsuki, Tohno SHIKI, Noel, and other supporting cast",
+      "summary": "Direct standalone profiles may exist but were not confirmed/formalized in Stage 1; all such records remain candidate-only.",
+      "continuityTaxonomy": {"category": "sandbox", "rawSourceLabels": ["candidate-only"], "sourceAvailability": "source-gap/candidate-only"},
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:34", "sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:35"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    },
+    {
+      "recordId": "not-found-class-appearance-equipment",
+      "missingSurface": "appearance/outfit-equipment",
+      "subject": "Dead Apostles as a class",
+      "summary": "The assigned taxonomy source has no class-level appearance or outfit/equipment details for Dead Apostles.",
+      "continuityTaxonomy": {"category": "sandbox", "rawSourceLabels": ["死徒"], "sourceAvailability": "source-gap/candidate-only"},
+      "sourceRefs": ["sources/worldbook-profile/tm-summary-dead-apostle-true-ancestor.txt:22", "sources/worldbook-profile/tm-summary-dead-apostle-true-ancestor.txt:26"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    }
+  ]
+}

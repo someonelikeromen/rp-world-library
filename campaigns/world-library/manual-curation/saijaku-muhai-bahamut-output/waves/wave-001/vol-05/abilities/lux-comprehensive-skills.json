@@ -1,0 +1,36 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "lux-comprehensive-skills",
+  "volume": "vol-05",
+  "periods": [
+    {
+      "period_id": "vol-05",
+      "volume": "vol-05",
+      "time": "vol-05",
+      "name": { "zh": "万能杂役技能", "en": "Universal Chore Skills" },
+      "aliases": ["杂务王子的本领"],
+      "type": "skill",
+      "description": "路克斯在五年杂役生活中练就的全方位生活技能。包括但不限于：料理（可做出高品质料理）、清洁、搬运、物资采购、教材整理、书物整理。在学园中几乎什么杂务都能做。",
+      "details": {
+        "scope": "料理、清洁、搬运、书物整理、机甲维护辅助等",
+        "level": "专业级（料理曾在食堂和酒馆打下手）"
+      },
+      "activation": { "condition": "接受委托" },
+      "effects": ["学园中受人信赖", "能完成几乎所有委托"],
+      "power_level": { "initial": "高" },
+      "known_feats": ["深夜独自做出旧帝国风黄汁烩肉", "预判利夏肚子饿而练习料理"],
+      "shared_by": ["lux-arcadia"],
+      "see_also": [],
+      "countered_by": [],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-05/full.txt:1-442",
+        "saijaku-muhai-bahamut-main/vol-05/full.txt:1381-2226"
+      ]
+    }
+  ],
+  "source_refs": []
+}

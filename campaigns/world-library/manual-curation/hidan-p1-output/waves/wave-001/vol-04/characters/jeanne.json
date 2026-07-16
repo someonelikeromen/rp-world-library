@@ -1,0 +1,61 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "character",
+  "entityId": "jeanne",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-04",
+  "periods": [
+    {
+      "periodId": "vol-04",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-04/full.txt:509",
+        "hidan-no-aria-main/vol-04/full.txt:549",
+        "hidan-no-aria-main/vol-04/full.txt:5326",
+        "hidan-no-aria-main/vol-04/full.txt:5627"
+      ],
+      "snapshot": {
+        "name": "贞德·达鲁克三十世",
+        "aliases": [
+          "贞德",
+          "魔剑",
+          "银冰魔女"
+        ],
+        "gender": "女",
+        "status": "存活；脚伤未愈且受佩特拉诅咒影响，留在后方支援",
+        "role": "前伊·U成员；武侦高中寄宿者；装备与情报支援",
+        "affiliations": [
+          "东京武侦高中",
+          "前伊·U"
+        ],
+        "abilities": [
+          "冰系魔法",
+          "剑术",
+          "伊·U内部知识"
+        ],
+        "equipment": [
+          "杜兰朵改造拐杖剑",
+          "奥尔库斯潜航艇"
+        ],
+        "relationships": [
+          {
+            "target": "kinji",
+            "type": "支援者",
+            "detail": "提供奥尔库斯并解释佩特拉与伊·U内部形势。"
+          },
+          {
+            "target": "shirayuki",
+            "type": "前敌人/临时盟友",
+            "detail": "将断短的杜兰朵借给白雪用于最终救援。"
+          },
+          {
+            "target": "petra",
+            "type": "敌对",
+            "detail": "不希望佩特拉登上伊·U首领位置。"
+          }
+        ],
+        "summary": "贞德本卷因脚伤行动受限，但揭示佩特拉曾是伊·U第二号人物、已被退学，并将自己的潜航艇与杜兰朵借给金次和白雪执行远洋救援。"
+      }
+    }
+  ],
+  "_schema": "rp-character-volume-v1"
+}

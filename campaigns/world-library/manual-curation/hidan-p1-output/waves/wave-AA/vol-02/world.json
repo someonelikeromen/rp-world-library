@@ -1,0 +1,36 @@
+{
+  "_schema": "rp-world-volume-v1",
+  "world": "hidan-no-aria",
+  "series": "hidan-no-aria-aa",
+  "volume": "vol-02",
+  "periods": [
+    {
+      "period_id": "vol-02-main",
+      "volume": "vol-02",
+      "time": "春季，AA主线第14弹至第25弹",
+      "name": { "zh": "武侦高中AA第二卷" },
+      "genre": ["校园武侦", "战姐妹", "小队战", "犯罪组织阴谋"],
+      "summary": "本卷以火野莱卡与岛麒麟的战姐妹缔结为开端，随后间宫明里、佐佐木志乃、火野莱卡、岛麒麟组成间宫小队，参加一年级四对四战并击败高千穗丽小队。后半卷转入志乃与星伽白雪的战姐妹回忆、明里杀人技十弩的暴露、伊·U攻击少女队GGG作战登陆（理子策划公车劫持重伤亚莉亚、贞德与夹竹桃登陆），以及夹竹桃以两年前埋下的符丁毒威胁间宫姐妹的主线危机。",
+      "core_conflict": "明里一方面试图在武侦高中以普通战妹身份成长，另一方面被间宫一族秘术、伊·U袭击和夹竹桃的毒所迫，不得不面对自己封印的过去。",
+      "atmosphere": "前半偏校园喜剧与战姐妹关系，后半急转为雨夜、毒、绑架与犯罪组织压迫下的悬疑危机。",
+      "timeline": [
+        { "event_id": "raika-kirin-sister-contract", "summary": "莱卡与麒麟在秋叶原通过战姐妹测验后结为战姐妹。", "sourceRef": "hidan-no-aria-aa/vol-02/full.txt:1296" },
+        { "event_id": "quartet-poison-sting", "summary": "间宫小队在第十一区以毒之一击规则击败高千穗小队。", "sourceRef": "hidan-no-aria-aa/vol-02/full.txt:3497" },
+        { "event_id": "shino-shirayuki-contract", "summary": "志乃前往恐山星伽神社分社，通过白雪的战姐妹测验。", "sourceRef": "hidan-no-aria-aa/vol-02/full.txt:4314" },
+        { "event_id": "akari-jyuu-dou-revelation", "summary": "亚莉亚强迫明里展示真正枪法，十弩杀人技暴露。", "sourceRef": "hidan-no-aria-aa/vol-02/full.txt:4565" },
+        { "event_id": "ggg-operation", "summary": "理子、贞德、夹竹桃乘坐奥尔库斯登陆学园岛执行GGG作战。", "sourceRef": "hidan-no-aria-aa/vol-02/full.txt:4851" },
+        { "event_id": "aria-bus-hijack-injury", "summary": "理子远程操纵公车劫持，亚莉亚头部中弹住院。", "sourceRef": "hidan-no-aria-aa/vol-02/full.txt:5100" },
+        { "event_id": "kyochikuto-akari-contact", "summary": "夹竹桃在雨中接触明里，设陷阱袭击后被高千穗所救。", "sourceRef": "hidan-no-aria-aa/vol-02/full.txt:5500" },
+        { "event_id": "nonoka-poison-crisis", "summary": "乃乃香符丁毒发作失明，明里在病房门口被亚莉亚阻止后坦白一切。", "sourceRef": "hidan-no-aria-aa/vol-02/full.txt:6073" }
+      ],
+      "rules": [
+        { "system_id": "battle-sister-system", "summary": "战姐妹测验由战姐侧决定，关系可扩展成战姐妹团体。", "sourceRef": "hidan-no-aria-aa/vol-02/full.txt:1267" },
+        { "system_id": "quartet-system", "summary": "四对四战影响学分与武侦等级，并允许雇用、欺骗、使用非杀伤弹。", "sourceRef": "hidan-no-aria-aa/vol-02/full.txt:1537" },
+        { "system_id": "butei-law-article-9", "summary": "武侦活动中不得杀人，明里的十弩因此成为必须矫正的坏习惯。", "sourceRef": "hidan-no-aria-aa/vol-02/full.txt:4461" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["hidan-no-aria-aa/vol-02/full.txt:1", "hidan-no-aria-aa/vol-02/full.txt:6244"]
+    }
+  ],
+  "source_refs": ["hidan-no-aria-aa/vol-02/full.txt:1"]
+}

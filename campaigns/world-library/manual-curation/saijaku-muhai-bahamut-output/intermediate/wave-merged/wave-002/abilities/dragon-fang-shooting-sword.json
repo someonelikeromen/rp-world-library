@@ -1,0 +1,72 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "dragon-fang-shooting-sword",
+  "volume": "vol-07",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-07/full.txt:6900"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-07-main",
+      "volume": "vol-07",
+      "time": "迪尔威迷宫战",
+      "name": {
+        "zh": "龙牙射剑",
+        "en": "Dragon Fang Shooting Sword"
+      },
+      "aliases": [
+        "银闪斩击"
+      ],
+      "type": "technology / combat / weapon-skill",
+      "description": "将能量从剑刃迸发，放出箭矢般斩击的稀有武装技巧；迪尔威以此获得银闪别名。",
+      "details": {
+        "weapon": "龙牙射剑",
+        "combat_role": "中远距离斩击投射"
+      },
+      "activation": {
+        "condition": "装备对应稀有武装并以机龙输出能量",
+        "incantation": "无",
+        "time": "连续挥剑时",
+        "cost": "消耗体力与精神力"
+      },
+      "effects": [
+        "远距离发射弧月形斩击",
+        "可撕裂障壁与地形",
+        "可连续压制多目标"
+      ],
+      "power_level": {
+        "initial": "特级级别技巧",
+        "peak": "幻魔人迪尔威几乎无限连发",
+        "evolution": [
+          "银闪·雹牙为大范围连续形态"
+        ]
+      },
+      "known_feats": [
+        "迪尔威多次以龙牙射剑压制路克斯、葛莱法与三和音"
+      ],
+      "shared_by": [
+        "dielwe-froyas"
+      ],
+      "see_also": [
+        "silver-flash-hail-fang",
+        "flying-dragon-x"
+      ],
+      "countered_by": [
+        "photon-camouflage",
+        "battle-formation-flow"
+      ],
+      "counters": [
+        "special-dragon",
+        "flying-dragon"
+      ],
+      "variations": [
+        "silver-flash-hail-fang"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-07/full.txt:6900"
+      ]
+    }
+  ]
+}

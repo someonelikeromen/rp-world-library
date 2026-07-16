@@ -1,0 +1,60 @@
+{
+  "schema": "tm-tsukihime-extracted-source-signal-v1",
+  "packetId": "mystic-eyes-shiki",
+  "recordId": "extracted-tohno-shiki-original-use-limitations",
+  "subjectId": "tohno-shiki",
+  "subjectLabel": "同人版远野志贵",
+  "continuity": {
+    "rawSourceLabel": "同人版",
+    "canonicalContinuity": "original",
+    "taxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy/rawLabelMapping/同人版"
+  },
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "candidateOnly": false,
+  "sourceRefs": [
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:33",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:34",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:37",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:38",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:39",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:40",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:44",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:45",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:46",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:47"
+  ],
+  "signals": [
+    {
+      "kind": "ability-holder",
+      "summary": "Original Tohno Shiki has Direct Death Mystic Eyes that can see death and kill all things.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:33"]
+    },
+    {
+      "kind": "limitation-suppression",
+      "summary": "To avoid excessive brain burden, he normally wears Mystic Eye Killer glasses to suppress the eyes.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:34"]
+    },
+    {
+      "kind": "equipment",
+      "summary": "The short knife Nanaya carried by Shiki is identified as an ancestral Nanaya item.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:37"]
+    },
+    {
+      "kind": "appearance-outfit",
+      "summary": "The source describes him as a sturdy young man with unruly black hair, rectangular glasses, and a traditional dark-blue gakuran uniform.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:38", "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:39", "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:40"]
+    },
+    {
+      "kind": "awakening-trigger",
+      "summary": "Eight years before the story, Shiki protects Akiha from a fatal attack, receives a huge chest scar, falls into a near-death state, and awakens Direct Death Mystic Eyes after that near-death experience.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:44", "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:45"]
+    },
+    {
+      "kind": "combat-use",
+      "summary": "In the early Tsukihime stage, his demon-hunter blood awakens, killing impulse loses control, and he uses Direct Death Mystic Eyes with the short knife to split a blond woman in white into seventeen pieces.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:46", "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:47"]
+    }
+  ]
+}

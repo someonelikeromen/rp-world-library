@@ -1,0 +1,16 @@
+{
+  "schema":"tm-fgo-packet-generation-report-v1",
+  "recordType":"packet_generation_report",
+  "packetId":"pkt-fgo-lostbelt-lb2-gotterdammerung-extract",
+  "chapterId":"fgo-lb2-gotterdammerung",
+  "stepId":"chapter-lb2-gotterdammerung-retry",
+  "status":"generated",
+  "sourceTextGate":"built",
+  "counts":{"timelineEventsExtracted":19,"dialogueLinesExtracted":30,"appearanceSignalsExtracted":45,"abilitySignalsExtracted":40,"combatEffectSignalsExtracted":32,"notFoundRecords":39},
+  "outputsCreated":["extracted/lostbelt/lb2-gotterdammerung/","normalized/lostbelt/lb2-gotterdammerung/"],
+  "forbiddenOutputsAvoided":["characters.json","events.json","relationships.json"],
+  "sourceRefs":["sources/worldbook-script/lostbelt/ch-094-lb2-gotterdammerung.txt:17-110"],
+  "sourceType":"user-file-worldbook-script",
+  "credibility":"B",
+  "canonStatus":"canon-like"
+}

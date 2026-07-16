@@ -1,0 +1,42 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "kinji",
+  "volume": "vol-42",
+  "periods": [{
+    "period_id": "vol-42",
+    "volume": "vol-42",
+    "time": "罗马Giusto临时活动期",
+    "name": {"zh": "远山金次", "en": "Kinji Tohyama", "jp": "遠山キンジ"},
+    "aliases": ["Giusto 0号", "武士零号", "Enable", "零号"],
+    "gender": "male",
+    "species": "human",
+    "nationality": "日本",
+    "occupation": "武侦/考生/Giusto临时英雄",
+    "affiliation": "远山家；临时协助Giusto",
+    "status": {"physical": "活跃；多次卷入事件", "legal": "与Giusto签订蒙面英雄合同", "location": "罗马"},
+    "abilities_owned": ["kinji-hss", "tohyama-combat-method", "kinji-detective-fieldcraft"],
+    "possessions_owned": ["kinji-beretta", "samurai-zero-mask", "kinji-bulletproof-gakuran", "kinji-kagehikari"],
+    "relationships": {
+      "g3": {"type": "brother/ally", "status": "同行罗马，互相吐槽并协作调查"},
+      "beretta": {"type": "former romantic tension/ally", "status": "重逢后加入Giusto 0号合同，二人仍互有留恋"},
+      "angelica": {"type": "ally/client", "status": "受托调查Giusto内部Villain与神父疑案"},
+      "augusta": {"type": "junior hero/风险对象", "status": "被奥古斯塔尊敬；多次阻止其暴走正义"},
+      "flame-rider": {"type": "ally/investigation target", "status": "调查后确认其保护特拉斯提弗列弱者"},
+      "white-snow": {"type": "ally/suspect", "status": "发现她掌握人工圣骸布情报并与梵蒂冈有关"},
+      "samurai-generic": {"type": "admiring junior", "status": "通用崇拜零号并设计师徒设定"},
+      "grandukka": {"type": "former enemy/ally", "status": "在Giusto重逢并参与奥斯提亚会合"}
+    },
+    "knowledge": ["giusto-commercial-model", "giusto-villain-traitor", "artificial-shroud-secret", "father-poisoning-suspicion"],
+    "summary": "金次随GIII赴罗马逃避东京麻烦，却被Giusto粉丝网站曝光为Giusto 0号并签约为‘武士零号’。他在卷中调查Giusto内部疑云、阻止奥古斯塔杀人、追查人工圣骸布与Setta，并在结尾参与梵蒂冈与N相关的海上会合。",
+    "key_events": [
+      {"event_id": "arrival-in-rome", "summary": "随GIII抵达罗马并接触Giusto。", "sourceRef": "hidan-no-aria-main/vol-42/full.txt:1"},
+      {"event_id": "samurai-zero-contract", "summary": "因伊索拉事件走红并成为Giusto临时0号。", "sourceRef": "hidan-no-aria-main/vol-42/full.txt:619"},
+      {"event_id": "old-fire-station-rescue", "summary": "与奥古斯塔救出女警并阻止其杀害少年。", "sourceRef": "hidan-no-aria-main/vol-42/full.txt:2517"},
+      {"event_id": "vatican-interrogation", "summary": "潜入梵蒂冈地下阻止卢卡斯被处刑。", "sourceRef": "hidan-no-aria-main/vol-42/full.txt:4103"}
+    ],
+    "evidence_level": "S",
+    "source_refs": ["hidan-no-aria-main/vol-42/full.txt"]
+  }],
+  "source_refs": ["hidan-no-aria-main/vol-42/full.txt"]
+}

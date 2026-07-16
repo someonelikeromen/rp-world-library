@@ -1,0 +1,136 @@
+{
+  "schema": "tm-tsukihime-source-text-manifest-v1",
+  "worldId": "type-moon-nasuverse",
+  "project": "tsukihime-dead-apostle-profile-supplement-pilot",
+  "generatedAt": "2026-07-14",
+  "status": "generated-prep-only",
+  "sourceTextPolicy": {
+    "lineAddressable": true,
+    "dedupePolicy": "repeated imported entries from raw worldbooks are represented once as excerpt files with rawEntryComment and location notes",
+    "metadataPolicy": "each source text starts with YAML-like metadata including sourceType, credibility, canonStatus, rawSourceFile, rawEntryComment, rawLabels",
+    "sourceRefFormat": "sources/worldbook-profile/<file>.txt:<line>",
+    "noFormalFactPolicy": "source text excerpts are evidence only; no merged formal records are present",
+    "continuityTaxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy",
+    "continuityTaxonomySummary": {
+      "canonicalCategories": ["original", "remake", "melty-blood", "kagetsu-tohya", "type-lumina", "sandbox"],
+      "sourceGapMarker": "source-gap/candidate-only",
+      "sourceAvailabilityByCategory": {
+        "original": "Stage 1 source text includes 同人版 labels for selected profiles",
+        "remake": "Stage 1 source text includes 重制版 labels for selected profiles",
+        "melty-blood": "Stage 1 source text includes explicit Melty Blood mentions only where excerpted",
+        "kagetsu-tohya": "no Stage 1 source text yet; source-gap/candidate-only",
+        "type-lumina": "no Stage 1 source text yet; source-gap/candidate-only",
+        "sandbox": "policy bucket for mixed/crossover/RP premise and combined cross-continuity prep metadata"
+      },
+      "rawLabelMapping": {
+        "同人版": "original with raw source label preserved",
+        "重制版": "remake with raw source label preserved",
+        "mixed/crossover/RP premise": "sandbox",
+        "Melty Blood mentions": "melty-blood",
+        "歌月十夜": "kagetsu-tohya",
+        "Type Lumina names/mentions if no source": "source-gap/candidate-only"
+      },
+      "categoryNoSourcePolicy": "No source text for a taxonomy category means source-gap/candidate-only; do not invent facts."
+    }
+  },
+  "files": [
+    {
+      "sourceUnitId": "src-tm-summary-dead-apostle-true-ancestor",
+      "path": "sources/worldbook-profile/tm-summary-dead-apostle-true-ancestor.txt",
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "continuity": "tsukihime-general",
+      "contentKind": "system-summary",
+      "lineAddressable": true
+    },
+    {
+      "sourceUnitId": "src-tm-summary-mystic-eyes",
+      "path": "sources/worldbook-profile/tm-summary-mystic-eyes.txt",
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "continuity": "type-moon-general",
+      "contentKind": "system-summary",
+      "lineAddressable": true
+    },
+    {
+      "sourceUnitId": "src-tm-summary-mystic-eyes-death-perception",
+      "path": "sources/worldbook-profile/tm-summary-mystic-eyes-of-death-perception.txt",
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "continuity": "type-moon-general",
+      "contentKind": "ability-system-summary",
+      "lineAddressable": true
+    },
+    {
+      "sourceUnitId": "src-tm-summary-church-conceptual-weapons",
+      "path": "sources/worldbook-profile/tm-summary-church-conceptual-weapons.txt",
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "continuity": "type-moon-general",
+      "contentKind": "organization-equipment-summary",
+      "lineAddressable": true
+    },
+    {
+      "sourceUnitId": "src-dlc-tsukihime-tohno-nanaya",
+      "path": "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt",
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted",
+      "continuity": "mixed-tsukihime-doujin-remake",
+      "contentKind": "character-and-family-profile-excerpt",
+      "lineAddressable": true,
+      "rawLabels": ["同人版", "重制版"]
+    },
+    {
+      "sourceUnitId": "src-dlc-tsukihime-arcueid",
+      "path": "sources/worldbook-profile/dlc-tsukihime-arcueid.txt",
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted",
+      "continuity": "mixed-tsukihime-doujin-remake",
+      "contentKind": "character-profile-excerpt",
+      "lineAddressable": true,
+      "rawLabels": ["同人版", "重制版"]
+    },
+    {
+      "sourceUnitId": "src-dlc-tsukihime-ciel",
+      "path": "sources/worldbook-profile/dlc-tsukihime-ciel.txt",
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted",
+      "continuity": "mixed-tsukihime-doujin-remake",
+      "contentKind": "character-organization-equipment-profile-excerpt",
+      "lineAddressable": true,
+      "rawLabels": ["同人版", "重制版"]
+    },
+    {
+      "sourceUnitId": "src-dlc-tsukihime-locations",
+      "path": "sources/worldbook-profile/dlc-tsukihime-locations.txt",
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted",
+      "continuity": "mixed-tsukihime-doujin-remake",
+      "contentKind": "location-profile-excerpt",
+      "lineAddressable": true
+    },
+    {
+      "sourceUnitId": "src-dlc-tsukihime-dead-apostle-roa-candidates",
+      "path": "sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt",
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted",
+      "continuity": "mixed-tsukihime-doujin-remake",
+      "contentKind": "candidate-indirect-signal-excerpt",
+      "lineAddressable": true,
+      "candidateOnly": true
+    }
+  ],
+  "dedupeNotes": [
+    "型月 (1).worldbook.json appears to contain repeated imported entries; Stage 1 copied each relevant summary once into line-addressable excerpt files.",
+    "DLC long profile entries were excerpted into scoped source text files rather than copied repeatedly into each packet."
+  ]
+}

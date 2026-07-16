@@ -1,0 +1,112 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "hilda-hypnosis",
+  "volume": "vol-08",
+  "source_refs": [
+    "hidan-no-aria-main/vol-08/chapters/ch-003-第八卷_螺旋的天空树_3弹_白银的ICBM.txt:394"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-08-main",
+      "volume": "vol-08",
+      "time": "秋季",
+      "name": {
+        "zh": "希尔达催眠眼",
+        "en": "Hilda Hypnotic Eyes"
+      },
+      "aliases": [
+        "催眠术",
+        "金红眼催眠"
+      ],
+      "type": "vampire_supernatural",
+      "description": "希尔达以略带金色光辉的红色眼眸诱导目标直视并下达命令，使目标违反自身意志放下武器。",
+      "details": {
+        "trigger": "诱导目标看着她的眼睛",
+        "vol08_target": "理子"
+      },
+      "activation": {
+        "condition": "目标直视希尔达眼睛",
+        "incantation": "口头诱导",
+        "time": "短时间内生效",
+        "cost": "目标若避免视线接触可规避"
+      },
+      "effects": [
+        "解除武装",
+        "短暂支配行动",
+        "制造恐惧与无力感"
+      ],
+      "known_feats": [
+        "理子看向希尔达眼睛后放下华尔瑟和头发上的小刀"
+      ],
+      "shared_by": [
+        "hilda"
+      ],
+      "see_also": [
+        "hilda-shadow-electricity"
+      ],
+      "countered_by": [
+        "避免直视",
+        "外部打断"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-08/chapters/ch-003-第八卷_螺旋的天空树_3弹_白银的ICBM.txt:394"
+      ]
+    },
+    {
+      "period_id": "vol-22",
+      "volume": "vol-22",
+      "time": "vol-22",
+      "name": {
+        "zh": "古流催眠术",
+        "en": "Old-Style Hypnosis"
+      },
+      "aliases": [
+        "暗示术"
+      ],
+      "type": "supernatural / technique",
+      "description": "希尔达通过缓慢语言与魔物气质对对象施加暗示。",
+      "details": {
+        "vol22": "她试图对妖刕使用，要求其缓缓伸出脖子，但妖刕表示无效。"
+      },
+      "activation": {
+        "condition": "对方能听见并受暗示影响",
+        "incantation": "缓慢语言诱导",
+        "time": "短时间",
+        "cost": "对部分超常/魔物侵蚀者无效"
+      },
+      "effects": [
+        "诱导行动",
+        "削弱抵抗"
+      ],
+      "power_level": {
+        "initial": "曾骗过金次与理子",
+        "peak": "对妖刕无效",
+        "evolution": []
+      },
+      "known_feats": [
+        {
+          "feat": "对妖刕施术失败。",
+          "sourceRef": "hidan-no-aria-main/vol-22/full.txt:1533"
+        }
+      ],
+      "shared_by": [
+        "hilda"
+      ],
+      "see_also": [
+        "hilda-shadow-electricity"
+      ],
+      "countered_by": [
+        "harada-demon-sword-combat"
+      ],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-22/chapters/ch-001-第二十二卷_愿彗星沉睡于白日梦_1弹_无名氏之死.txt:1533"
+      ]
+    }
+  ]
+}

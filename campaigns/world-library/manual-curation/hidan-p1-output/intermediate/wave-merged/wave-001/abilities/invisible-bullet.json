@@ -1,0 +1,56 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "ability",
+  "entityId": "invisible-bullet",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-04",
+  "_schema": "rp-ability-volume-v1",
+  "periods": [
+    {
+      "periodId": "vol-04",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-04/full.txt:213",
+        "hidan-no-aria-main/vol-04/full.txt:1165",
+        "hidan-no-aria-main/vol-04/full.txt:5170",
+        "hidan-no-aria-main/vol-04/full.txt:5265"
+      ],
+      "snapshot": {
+        "name": "不可视子弹",
+        "aliases": [
+          "看不见手枪的枪击",
+          "Invisible Bullet"
+        ],
+        "type": "combat / technique",
+        "description": "远山金一的招牌超速射射击技巧。利用HSS爆发模式下的超反射神经，配合适合速射的柯尔特SAA和平制造者左轮手枪，以肉眼无法捕捉的速度拔枪射击。",
+        "details": {
+          "principle": "利用柯尔特SAA的构造优势，在HSS下以三十六分之一秒的速度扣扳机",
+          "discovery": "本卷由金次通过分析西部电影与实战验证后识破原理",
+          "limitation": "需要HSS状态，自动手枪不适合此技法"
+        },
+        "activation": {
+          "condition": "HSS爆发模式下",
+          "time": "三十六分之一秒完成拔枪-瞄准-击发"
+        },
+        "effects": [
+          "对手看不见拔枪动作",
+          "看不见瞄准方向",
+          "看不见何时被击中"
+        ],
+        "known_feats": [
+          "能以子弹精确掠断细如手机绳的绳索而不直接射断",
+          "六连射同时命中多个目标",
+          "远距离隔空狙击（教授使用版本）"
+        ],
+        "shared_by": [
+          "tooyama-kinichi",
+          "sherlock-holmes-i"
+        ],
+        "countered_by": [
+          "mirror-shot"
+        ],
+        "evidence_level": "S",
+        "source_refs": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "tm-fgo-extraction-audit-round-v1",
+  "recordId": "lb6-2-round-table-post-extracted-audit-round-002",
+  "packetId": "pkt-fgo-lostbelt-lb6-2-round-table-post-extract",
+  "chapterId": "fgo-lb6-2-round-table-post",
+  "round": 2,
+  "auditorRole": "read-only internal auditor rerun",
+  "status": "passed",
+  "checks": {
+    "eventsAThroughLPresent": "passed",
+    "eventRawFieldsRetained": "passed",
+    "dialogueRefsForAllQuotes": "passed",
+    "stageCharactersCovered": "passed",
+    "relationshipSignalsKeepTimelineAndTimeRange": "passed",
+    "appearanceOutfitEquipmentCoverage": "passed",
+    "abilityMagecraftAuthoritySkillCoverage": "passed",
+    "combatEffectsResultsTargetsCostsConsequences": "passed",
+    "explicitNotFoundRecords": "passed",
+    "sourceMetadataOnFormalRecords": "passed",
+    "sourceFirstRawTerminology": "passed",
+    "unsupportedLabelsCandidateOnly": "passed",
+    "forbiddenAggregateNames": "passed-by-authored-output-review",
+    "lb62NotFoldedIntoLb61": "passed"
+  },
+  "openIssues": 0,
+  "blockedIssues": 0,
+  "canAdvance": true,
+  "sourceRefs": ["extracted/lostbelt/lb6-2-round-table-post/", "normalized/lostbelt/lb6-2-round-table-post/", "sources/worldbook-script/lostbelt/ch-117-lb6-2-round-table-post.txt:1-70"],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

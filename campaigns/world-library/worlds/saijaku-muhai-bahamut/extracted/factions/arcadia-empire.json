@@ -1,0 +1,242 @@
+{
+  "_schema": "rp-faction-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "faction_id": "arcadia-empire",
+  "volume": "vol-01",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-01/full.txt:1",
+    "saijaku-muhai-bahamut-main/vol-01/full.txt:925"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-01",
+      "volume": "vol-01",
+      "time": "historical pre-coup power",
+      "name": {
+        "zh": "阿卡迪亚帝国",
+        "en": "Arcadia Empire"
+      },
+      "aliases": [
+        "旧帝国",
+        "阿卡迪亚旧帝国"
+      ],
+      "type": "nation",
+      "description": "The fallen empire that once ruled one fifth of the world and imposed oppressive patriarchal rule before being overthrown five years before volume 1.",
+      "history": "Under the emperor, the empire monopolized Drag-Rides, oppressed women, imposed heavy taxes, and conducted abusive military policies. It collapsed during the coup shaped by Lux, Earl Atismata, and Fugil's betrayal.",
+      "goals": "Historically, preserve imperial domination and military monopoly; remnants seek restoration.",
+      "structure": "Imperial family, emperor, court nobles, imperial military, and Drag-Knight forces.",
+      "leader": "arcadia-emperor",
+      "headquarters": "arcadia-imperial-castle",
+      "members": [
+        "arcadia-emperor",
+        "lux-arcadia",
+        "airi-arcadia",
+        "fugil-arcadia",
+        "belbet-balt"
+      ],
+      "allies": [],
+      "enemies": [
+        "atismata-new-kingdom",
+        "royal-officer-academy"
+      ],
+      "key_events": [
+        "fall-of-arcadia-castle",
+        "fugil-betrays-lux"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-01/full.txt:1",
+        "saijaku-muhai-bahamut-main/vol-01/full.txt:925",
+        "saijaku-muhai-bahamut-main/vol-01/full.txt:5289"
+      ]
+    },
+    {
+      "period_id": "vol-04",
+      "volume": "vol-04",
+      "time": "flashbacks and legacy",
+      "name": {
+        "zh": "阿卡迪亚旧帝国",
+        "en": "Arcadia Empire"
+      },
+      "aliases": [
+        "旧帝国",
+        "帝国"
+      ],
+      "type": "nation",
+      "description": "已覆灭的暴政帝国，曾统治并压迫周边国家；本卷通过路克斯童年和菲尔菲实验揭示其歧视与黑暗。",
+      "history": "由皇帝迪兹艾特统治，五年前在政变中灭亡。",
+      "goals": "过去维持皇族男性特权与军事扩张；残党试图收复帝都。",
+      "structure": "皇帝与多名皇子、皇族和贵族支配。",
+      "leader": "disdard-arcadia",
+      "headquarters": "old-imperial-palace",
+      "members": [
+        "lux-arcadia",
+        "airi-arcadia",
+        "fugil-arcadia",
+        "abel-arcadia",
+        "wid-arcadia"
+      ],
+      "allies": [],
+      "enemies": [
+        "atismata-new-kingdom"
+      ],
+      "key_events": [
+        "lux-philuffy-first-meeting",
+        "sacred-statue-framing",
+        "lux-family-expelled"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-04/full.txt:1",
+        "saijaku-muhai-bahamut-main/vol-04/full.txt:4121"
+      ]
+    },
+    {
+      "period_id": "vol-05",
+      "volume": "vol-05",
+      "time": "vol-05（已灭亡，仅被提及）",
+      "name": {
+        "zh": "阿卡迪亚旧帝国",
+        "en": "Arcadia Old Empire"
+      },
+      "aliases": [
+        "旧帝国",
+        "阿卡迪亚帝国"
+      ],
+      "type": "nation",
+      "description": "施行数百年暴政与男尊女卑政策的国家。路克斯·阿卡迪亚和艾丽·阿卡迪亚是其最后的王族幸存者。在革命后被新王国推翻而灭亡。",
+      "history": "数百年统治后被革命推翻",
+      "goals": "（已灭亡）",
+      "structure": "帝国（男尊女卑）",
+      "leader": "（最后的王族：lux-arcadia, airi-arcadia）",
+      "headquarters": "旧帝国王宫",
+      "members": [
+        "lux-arcadia",
+        "airi-arcadia"
+      ],
+      "allies": [],
+      "enemies": [
+        "new-kingdom"
+      ],
+      "key_events": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-05/full.txt:495-600（艾丽回忆旧帝国）"
+      ]
+    },
+    {
+      "period_id": "vol-07-main",
+      "volume": "vol-07",
+      "time": "旧帝国历史与本卷秘密线",
+      "name": {
+        "zh": "阿卡迪亚旧帝国",
+        "en": "Old Arcadia Empire"
+      },
+      "aliases": [
+        "旧帝国",
+        "阿卡迪亚帝国"
+      ],
+      "type": "nation / family",
+      "description": "五年前被推翻的帝国，曾对周边国家进行侵略并形成强烈宿怨。本卷通过古文书揭示其名字可能与遗迹创造主有关。",
+      "history": "长期称霸大陆并有男尊女卑与苛政；路克斯与爱理为最后幸存皇族之一。",
+      "goals": "旧体制已灭亡；其遗留罪责与血脉秘密仍影响路克斯和爱理。",
+      "structure": "皇族与帝国军旧体制，现已瓦解。",
+      "leader": "已灭亡/不适用",
+      "headquarters": "旧帝都（本卷未直接登场）",
+      "members": [
+        "lux-arcadia",
+        "airy-arcadia",
+        "fugil-arcadia"
+      ],
+      "allies": [],
+      "enemies": [
+        "new-kingdom",
+        "vanheim-duchy"
+      ],
+      "key_events": [
+        "airy-secret-revealed"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-07/full.txt:1",
+        "saijaku-muhai-bahamut-main/vol-07/full.txt:1700",
+        "saijaku-muhai-bahamut-main/vol-07/full.txt:6820"
+      ]
+    },
+    {
+      "period_id": "vol-15",
+      "volume": "vol-15",
+      "time": "five-year memory / historical shadow",
+      "name": {
+        "zh": "旧阿卡迪亚帝国",
+        "en": "Old Arcadia Empire"
+      },
+      "aliases": [
+        "旧帝国",
+        "阿卡迪亚帝国"
+      ],
+      "type": "nation / dynasty",
+      "description": "五年前被革命推翻的旧帝国，本卷通过路克斯和爱理的记忆揭示其革命日曾被弗基尔介入。",
+      "history": "长期苛政，最终由亚提司玛特伯爵革命与路克斯等人推翻；实际经过被弗基尔和大圣域改写或遮蔽。",
+      "goals": "历史上维持皇权统治；本卷仅以记忆与政治残党形式存在。",
+      "structure": "皇帝、皇族、近卫、贵族与旧帝国派。",
+      "leader": "old-arcadia-emperor",
+      "headquarters": "old-arcadia-capital",
+      "members": [
+        "lux-arcadia",
+        "airi-arcadia",
+        "fugil-arcadia"
+      ],
+      "allies": [],
+      "enemies": [
+        "revolutionary-forces",
+        "new-kingdom"
+      ],
+      "key_events": [
+        "lux-five-years-memory"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-15/full.txt:1",
+        "saijaku-muhai-bahamut-main/vol-15/full.txt:3650"
+      ]
+    },
+    {
+      "period_id": "vol-18-main",
+      "volume": "vol-18",
+      "time": "古代回忆",
+      "name": {
+        "zh": "古阿卡迪亚帝国",
+        "en": "Ancient Arcadia Empire"
+      },
+      "aliases": [
+        "阿卡迪亚帝国"
+      ],
+      "type": "nation / empire",
+      "description": "一千多年前借遗迹力量登上顶峰的帝国。皇室和贵族以万灵药压迫弱者，导致叛徒一族反抗。",
+      "history": "接受管理者家族和遗迹技术后迅速强盛，但因万灵药剥削、阶级压迫和内战走向毁灭。",
+      "goals": "皇室与贵族维持统治和长寿权力；阿榭立亚则试图改革并拯救所有人。",
+      "structure": "皇室、公主、贵族、希尔法技术族群、被压迫民众。",
+      "leader": "古代皇室",
+      "headquarters": "古阿卡迪亚城堡",
+      "members": [
+        "ashley-arcadia",
+        "fukil-arcadia"
+      ],
+      "allies": [
+        "silfa-clan"
+      ],
+      "enemies": [
+        "rebel-clan"
+      ],
+      "key_events": [
+        "archive-conversation"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-18/full.txt:19-40",
+        "saijaku-muhai-bahamut-main/vol-18/full.txt:6246-6421"
+      ]
+    }
+  ]
+}

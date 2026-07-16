@@ -1,0 +1,59 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "grani-purgatory-mechanism",
+  "volume": "vol-20",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-20/full.txt:2845"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-20",
+      "volume": "vol-20",
+      "time": "最终战",
+      "name": {
+        "zh": "炼狱机构",
+        "en": "Purgatory Mechanism"
+      },
+      "aliases": [],
+      "type": "divine-drag-ride enhancement",
+      "description": "葛力尼奇的高倍率力量输出模式，罗莎用其撕裂奥罗波若斯腹部装甲并牵制其腿部。",
+      "details": {
+        "used_by": "rosa-granhide"
+      },
+      "activation": {
+        "condition": "装备葛力尼奇",
+        "incantation": "炼狱机构",
+        "time": "短时强化",
+        "cost": "高负荷"
+      },
+      "effects": [
+        "十倍级力量提升",
+        "近距离撕裂装甲",
+        "强力牵制"
+      ],
+      "power_level": {
+        "initial": "高",
+        "peak": "协助打开奥罗波若斯腹部装甲"
+      },
+      "known_feats": [
+        "罗莎用其牵制奥罗波若斯"
+      ],
+      "shared_by": [
+        "rosa-granhide"
+      ],
+      "see_also": [
+        "grani"
+      ],
+      "countered_by": [
+        "ouroboros-eternal-return"
+      ],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-20/full.txt:2845"
+      ]
+    }
+  ]
+}

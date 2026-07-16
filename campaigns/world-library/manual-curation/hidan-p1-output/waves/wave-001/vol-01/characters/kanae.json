@@ -1,0 +1,167 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "kanae",
+  "volume": "vol-01",
+  "time_range": {
+    "start": "新宿警察署会客",
+    "end": "ANA事件后公审延期"
+  },
+  "sub_arcs": [
+    "冤案核心"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-01-main",
+      "volume": "vol-01",
+      "time": "新宿警察署会客",
+      "label": "亚莉亚的母亲、冤案被告",
+      "name": {
+        "zh": "神崎香苗",
+        "en": "Kanzaki Kanae",
+        "jp": "神崎かなえ"
+      },
+      "aliases": [
+        "香苗女士",
+        "亚莉亚的妈妈"
+      ],
+      "titles": [],
+      "gender": "女",
+      "species": "人类",
+      "nationality": "日本",
+      "occupation": "（被羁押被告）",
+      "affiliation": "神崎家/福尔摩斯家姻亲",
+      "status": {
+        "legal": "被认定为武侦杀手，二审判有期徒刑864年；ANA事件后最高法院审理以年为单位延期",
+        "physical": "羁押中但健康"
+      },
+      "appearance": {
+        "overview": "与亚莉亚枪把浮雕相似的年轻美女。",
+        "physical": {
+          "height": "",
+          "build": "成熟女性",
+          "hair": {
+            "style": "柔顺长发",
+            "color": "黑/深色"
+          },
+          "eyes": {
+            "color": "缟玛瑙般漆黑"
+          }
+        },
+        "attire": {
+          "default": "拘留所会客服",
+          "combat": ""
+        },
+        "voice_quality": {
+          "tone": "温柔稳重但坚定"
+        },
+        "distinctive": [
+          "与亚莉亚神似",
+          "枪膛浮雕上的女性侧脸"
+        ]
+      },
+      "personality": {
+        "summary": "温柔坚韧的母亲，身陷囹圄却更担心女儿冒险。",
+        "core_traits": [
+          "慈爱",
+          "冷静智慧",
+          "坚强"
+        ],
+        "values": [
+          "亚莉亚安全",
+          "找得到伙伴"
+        ],
+        "fears": [
+          "亚莉亚孤身对抗伊·幽"
+        ],
+        "desires": [
+          "亚莉亚学会冷静和寻找伙伴合作"
+        ],
+        "strengths": [
+          "精神支撑亚莉亚",
+          "对家族历史和伊·幽有认识"
+        ],
+        "flaws": [],
+        "inner_conflict": "身陷冤案却无法帮助女儿。",
+        "decision_pattern": {
+          "maternal": "鼓励但警示"
+        }
+      },
+      "voice": {
+        "self_reference": "妈妈/我",
+        "address_pattern": {
+          "aria": "亚莉亚",
+          "kinji": "金次同学"
+        },
+        "register": {
+          "normal": "温柔母亲"
+        },
+        "catchphrases": [
+          "心急误事"
+        ],
+        "quote_samples": [
+          {
+            "text": "你必须要找到能够理解你、让你和社会接轨的伙伴。",
+            "sourceRef": "hidan-no-aria-main/vol-01/full.txt:4195"
+          },
+          {
+            "text": "人生就是要慢步前进，跑得快的孩子容易跌倒。",
+            "sourceRef": "hidan-no-aria-main/vol-01/full.txt:4203"
+          }
+        ]
+      },
+      "habits": {
+        "mannerisms": [
+          "温柔眨眼",
+          "隔着压克力板安慰女儿"
+        ],
+        "daily_routine": "羁押中等待最高法院审理",
+        "quirks": [],
+        "preferences": {}
+      },
+      "background": {
+        "birth": {
+          "place": "未明",
+          "family": [
+            "神崎·H·亚莉亚（女儿）"
+          ]
+        },
+        "upbringing": "未明",
+        "education": {},
+        "formative_events": [
+          "被伊·幽当作代罪羔羊",
+          "被判864年监禁"
+        ],
+        "pre_story": "被警方认定为武侦杀手逮捕。"
+      },
+      "abilities_owned": [],
+      "possessions_owned": [],
+      "relationships": {
+        "aria": "母女，是亚莉亚救母动机的核心",
+        "kinji": "初次见面，认为是重要朋友",
+        "iu": "被亚莉亚认为遭其陷害"
+      },
+      "knowledge": [
+        "knowledge/kanae-false-conviction.json"
+      ],
+      "secrets": [],
+      "summary": "香苗在探监会客中揭示亚莉亚必须寻找伙伴的家族传统与伊·幽威胁的存在；她的冤案是亚莉亚所有行动的动机。ANA事件后公审以年为单位延期。",
+      "key_events": [
+        {
+          "event_id": "kanae-visitation",
+          "summary": "在拘留所会客室与亚莉亚会面并劝其寻找伙伴、不要急躁。",
+          "sourceRef": "hidan-no-aria-main/vol-01/full.txt:4165"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-01/chapters/ch-005-第一卷_4弹_刘海之下.txt:141",
+        "hidan-no-aria-main/vol-01/chapters/ch-005-第一卷_4弹_刘海之下.txt:157",
+        "hidan-no-aria-main/vol-01/chapters/ch-007-第一卷_最终弹_La_bambina_da_I'ARIA…从天而降的少女.txt:163"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-01/chapters/ch-005-第一卷_4弹_刘海之下.txt:141"
+  ]
+}

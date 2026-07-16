@@ -1,0 +1,149 @@
+{
+  "_schema": "rp-item-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "item_id": "wyvern",
+  "volume": "vol-16",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-16/full.txt:1993",
+    "saijaku-muhai-bahamut-main/vol-16/full.txt:2491"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-16",
+      "volume": "vol-16",
+      "time": "战后训练与三和音支援",
+      "name": {
+        "zh": "飞翔机龙",
+        "en": "Wyvern"
+      },
+      "aliases": [
+        "泛用飞翔型机龙"
+      ],
+      "type": "equipment / vehicle / weapon",
+      "description": "常见飞翔型装甲机龙。路克斯在王都竞技场用它整理心情，三和音也用飞翔机龙在游行中撒花祝贺。",
+      "details": {
+        "class": "飞翔型泛用机龙",
+        "users": [
+          "lux-arcadia",
+          "sharis-baltshift",
+          "tillfur-lilmit",
+          "noct-leaflet"
+        ]
+      },
+      "owner": "无特定归属",
+      "status": "active",
+      "features": [
+        "飞行",
+        "基础机龙牙剑与机龙息炮",
+        "训练与仪式表演用途"
+      ],
+      "associated_abilities": [],
+      "history": [
+        "路克斯在游行最后一天早晨用飞翔机龙测试操控并确认心意。"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-16/full.txt:1993",
+        "saijaku-muhai-bahamut-main/vol-16/full.txt:2491"
+      ]
+    },
+    {
+      "period_id": "vol-17",
+      "volume": "vol-17",
+      "time": "游行第二天夜",
+      "name": {
+        "zh": "飞翔机龙",
+        "en": "Wyvern"
+      },
+      "aliases": [
+        "泛用机龙"
+      ],
+      "type": "equipment / vehicle",
+      "description": "路克斯在隐藏机龙库与那鲁夫战斗时为避免巴哈姆特负担而使用的泛用机龙。",
+      "details": {
+        "class": "泛用机龙",
+        "role": "机动作战"
+      },
+      "owner": "lux-arcadia",
+      "status": "active",
+      "features": [
+        "飞行",
+        "基础障壁",
+        "剑战支援"
+      ],
+      "associated_abilities": [
+        "quick-draw"
+      ],
+      "history": [
+        {
+          "summary": "路克斯用飞翔机龙对抗被改造的那鲁夫。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-17/full.txt:3600"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-17/full.txt:3600"
+      ]
+    },
+    {
+      "period_id": "vol-19",
+      "volume": "vol-19",
+      "time": "后方支援",
+      "name": {
+        "zh": "飞翔机龙",
+        "en": "Wyvern"
+      },
+      "aliases": [
+        "媞尔珐机龙"
+      ],
+      "type": "equipment / vehicle",
+      "description": "媞尔珐使用的泛用飞翔机龙，用于后方支援与通讯。",
+      "owner": "tierfa",
+      "status": "active",
+      "features": [
+        "飞行",
+        "支援",
+        "通信"
+      ],
+      "associated_abilities": [],
+      "history": [
+        "在最终战后方临时基地支援伤员防御"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-19/full.txt:2693-6600"
+      ]
+    },
+    {
+      "period_id": "vol-20",
+      "volume": "vol-20",
+      "time": "撤退与护卫行动",
+      "name": {
+        "zh": "飞翔机龙",
+        "en": "Wyvern"
+      },
+      "aliases": [
+        "泛用飞翔机龙"
+      ],
+      "type": "equipment / vehicle",
+      "description": "新王国与私兵机龙使使用的常规飞翔机龙，用于撤退、护卫、侦察与一般战斗。",
+      "owner": "无特定归属",
+      "status": "active",
+      "features": [
+        "飞行",
+        "基础战斗",
+        "撤退护卫"
+      ],
+      "associated_abilities": [
+        "wyvern-command"
+      ],
+      "history": [
+        "尼尔和道拉率领私兵用其管理撤退线"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-20/full.txt:87"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schema": "tm-tsukihime-extracted-source-signal-v1",
+  "packetId": "main-cast-high-confidence",
+  "recordId": "extracted-nanaya-shiki-original-profile-signals",
+  "subjectId": "nanaya-shiki",
+  "subjectLabel": "同人版七夜志贵",
+  "continuity": {
+    "rawSourceLabel": "同人版",
+    "canonicalContinuity": "original",
+    "taxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy/rawLabelMapping/同人版"
+  },
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "candidateOnly": false,
+  "sourceRefs": [
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:50",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:51",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:52",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:53",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:54"
+  ],
+  "signals": [
+    {
+      "kind": "identity-context",
+      "summary": "Nanaya Shiki is identified as Tohno Shiki's original name before taking the Tohno surname.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:50"]
+    },
+    {
+      "kind": "variant-context",
+      "summary": "The name can refer to young Shiki, Shiki under Nanaya demon-hunter blood agitation, Shiki's imagined killer aspect, or a relatively independent killer manifested by TATARI.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:51"]
+    },
+    {
+      "kind": "timeline-candidate-context",
+      "summary": "In the original version, he appears through TATARI as Shiki's fear and unease about his own inversion impulse reflected by Night of Wallachia.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:53"]
+    },
+    {
+      "kind": "ability-caution",
+      "summary": "The source says speech suggests Nanaya may use Mystic Eyes of Death Perception, but later author comment says he does not; ability support is therefore cautionary and not promoted as a formal ability fact here.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:54"]
+    },
+    {
+      "kind": "not-found-in-source",
+      "summary": "No standalone appearance, outfit, or combat-effect detail for Nanaya Shiki is present in the Stage 1 excerpt beyond identity/variant/TATARI context.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:50", "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:54"]
+    }
+  ]
+}

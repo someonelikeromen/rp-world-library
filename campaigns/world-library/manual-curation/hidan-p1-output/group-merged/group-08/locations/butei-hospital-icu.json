@@ -1,0 +1,54 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "location",
+  "entityId": "butei-hospital-icu",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-09",
+  "_schema": "rp-location-volume-v1",
+  "periods": [
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:2533",
+        "hidan-no-aria-main/vol-09/full.txt:2595",
+        "hidan-no-aria-main/vol-09/full.txt:2825"
+      ],
+      "snapshot": {
+        "name": "武侦病院ICU",
+        "aliases": [
+          "武侦医院ICU",
+          "加护病房",
+          "治疗室"
+        ],
+        "type": "medical facility",
+        "description": "天空树战后理子和希尔达被送入的治疗地点。华生与矢常吕老师在此完成理子解毒，华生也在此取出希尔达体内霰弹并处理魔脏。",
+        "details": {
+          "functions": [
+            "重症监护",
+            "毒物解毒",
+            "吸血鬼魔脏缝合试验",
+            "稀有血型输血"
+          ],
+          "staff": [
+            "watson",
+            "yatoro-irin"
+          ]
+        },
+        "controlled_by": "东京武侦高中/武侦医疗体系",
+        "key_events": [
+          "riko-icu-recovery-and-hilda-transfusion"
+        ],
+        "notable_residents": [
+          "riko",
+          "hilda"
+        ],
+        "hazards": [
+          "毒蛇腺液",
+          "吸血鬼俘虏治疗风险",
+          "稀有血型不足"
+        ],
+        "evidence_level": "S"
+      }
+    }
+  ]
+}

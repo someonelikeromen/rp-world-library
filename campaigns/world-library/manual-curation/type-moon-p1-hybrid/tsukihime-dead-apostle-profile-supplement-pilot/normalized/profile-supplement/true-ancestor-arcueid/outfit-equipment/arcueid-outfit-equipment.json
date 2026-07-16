@@ -1,0 +1,32 @@
+{
+  "schema": "tm-tsukihime-normalized-outfit-equipment-set-v1",
+  "packetId": "true-ancestor-arcueid",
+  "records": [
+    {
+      "recordId": "outfit-arcueid-original-traditional",
+      "recordKind": "outfit-equipment",
+      "subjectId": "arcueid-brunestud-original",
+      "continuityTaxonomy": { "category": "original", "rawSourceLabels": ["同人版"] },
+      "outfitComponents": ["长袖白衬衫", "长紫色裙子", "黑色连裤袜", "黑靴子"],
+      "equipmentSignals": [],
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:29"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    },
+    {
+      "recordId": "outfit-arcueid-remake-normal-pendant",
+      "recordKind": "outfit-equipment",
+      "subjectId": "arcueid-brunestud-remake",
+      "continuityTaxonomy": { "category": "remake", "rawSourceLabels": ["重制版"] },
+      "outfitDescription": "朴素衣服",
+      "outfitComponents": ["白色高领毛衣", "只能裹住臀部的蓝色短裙", "黑色连裤袜", "棕色及膝靴"],
+      "equipmentSignals": ["领子上挂钥匙状吊坠"],
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:40"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    }
+  ],
+  "reviewStatus": "generated-pending-audit"
+}

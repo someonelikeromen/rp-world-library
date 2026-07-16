@@ -1,0 +1,30 @@
+{
+  "schema": "tm-fgo-extracted-dialogue-signal-file-v1",
+  "chapterId": "fgo-ordeal-call-3-integration",
+  "records": [
+    {
+      "recordId": "oc3-dialogue-kiara-quoted-motive",
+      "dialogueType": "summary-embedded-quote",
+      "speakerRaw": "杀生院祈荒",
+      "quoteRaw": "除了我之外，谁也不许玩弄人类",
+      "contextRaw": "源文在故事梗概中用该引号内容解释杀生院祈荒与卡兹拉德罗普对抗的动机；不是完整场景台词转写。",
+      "sourceFirstLabels": ["杀生院祈荒", "玩弄人类", "卡兹拉德罗普"],
+      "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt:25"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "recordId": "oc3-dialogue-no-scene-transcript-lines",
+      "dialogueType": "not-found-in-source",
+      "speakerRaw": "all named stage characters",
+      "quoteRaw": null,
+      "contextRaw": "当前源文是结构化梗概，不提供逐场景、逐说话人的对白转写；除第25行的梗概内引号外，未发现可抽取的直接台词。",
+      "sourceFirstLabels": ["结构化梗概", "对白转写", "未发现"],
+      "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt:1-92"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    }
+  ]
+}

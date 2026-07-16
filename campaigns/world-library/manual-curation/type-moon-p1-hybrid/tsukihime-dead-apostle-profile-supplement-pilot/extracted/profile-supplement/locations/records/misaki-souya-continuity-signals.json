@@ -1,0 +1,51 @@
+{
+  "schema": "tm-tsukihime-extracted-record-v1",
+  "packetId": "locations",
+  "recordId": "ext-locations-misaki-souya-continuity-signals",
+  "recordKind": "location-context-signal",
+  "subject": "三咲町 / 总耶市 continuity replacement context",
+  "continuityTaxonomy": {
+    "category": "sandbox",
+    "rawSourceLabels": ["三咲町", "总耶市", "月姬", "重制版"],
+    "policyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy",
+    "note": "Combined location excerpt spans original-name and remake replacement context; downstream formalization must split by continuity."
+  },
+  "sourceUnitIds": ["src-dlc-tsukihime-locations"],
+  "sourceRefs": [
+    "sources/worldbook-profile/dlc-tsukihime-locations.txt:16",
+    "sources/worldbook-profile/dlc-tsukihime-locations.txt:18",
+    "sources/worldbook-profile/dlc-tsukihime-locations.txt:19",
+    "sources/worldbook-profile/dlc-tsukihime-locations.txt:20"
+  ],
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "candidateOnly": false,
+  "signals": [
+    {
+      "signalId": "misaki-town-suburban-tokyo",
+      "surface": "appearance",
+      "summary": "三咲町 is described as a town in suburban Tokyo.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-locations.txt:16"]
+    },
+    {
+      "signalId": "remake-souya-replacement",
+      "surface": "timeline",
+      "summary": "In the Tsukihime remake series, 三咲町 is replaced by 总耶.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-locations.txt:18"]
+    },
+    {
+      "signalId": "misaki-older-name-and-terrain",
+      "surface": "appearance",
+      "summary": "The town is surrounded by mountains and formerly called 三咲市三咲町.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-locations.txt:19"]
+    },
+    {
+      "signalId": "post-town-modernization",
+      "surface": "timeline",
+      "summary": "The source says the post-station town prospered from the Edo period and modernized rapidly in the 1980s.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-locations.txt:20"]
+    }
+  ],
+  "reviewStatus": "generated-pending-audit"
+}

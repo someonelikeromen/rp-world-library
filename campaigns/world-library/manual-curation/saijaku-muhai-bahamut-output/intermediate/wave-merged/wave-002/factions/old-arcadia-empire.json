@@ -1,0 +1,84 @@
+{
+  "_schema": "rp-faction-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "faction_id": "old-arcadia-empire",
+  "volume": "vol-09",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-09/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-09",
+      "volume": "vol-09",
+      "time": "回忆与历史背景",
+      "name": {
+        "zh": "旧阿卡迪亚帝国",
+        "en": "Old Arcadia Empire"
+      },
+      "aliases": [
+        "旧帝国"
+      ],
+      "type": "nation",
+      "description": "革命前的旧帝国，曾实行男尊女卑与贵族压迫，是路克斯、赛莉丝与弗基尔创伤的历史源头。",
+      "history": "五年前被路克斯发动革命推翻，但弗基尔背叛导致革命结果偏离路克斯理想。",
+      "goals": "historical entity only in this volume",
+      "structure": "旧皇族与贵族体制。",
+      "leader": "former imperial family",
+      "headquarters": "former imperial capital",
+      "members": [
+        "lux",
+        "airi",
+        "fugil",
+        "wade"
+      ],
+      "allies": [],
+      "enemies": [
+        "atismata-new-kingdom (successor regime)"
+      ],
+      "key_events": [
+        "celestia-training-advice",
+        "creator-summit"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:1",
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:8125"
+      ]
+    },
+    {
+      "period_id": "vol-10-memory",
+      "volume": "vol-10",
+      "time": "回忆与背景",
+      "name": {
+        "zh": "阿卡迪亚旧帝国",
+        "en": "Old Arcadia Empire"
+      },
+      "aliases": [
+        "旧帝国",
+        "阿卡迪亚帝国"
+      ],
+      "type": "nation / historical",
+      "description": "被新王国推翻的旧政权，曾实行暴政与男尊女卑制度。路克斯与爱理是其皇族残存后裔，夜架曾为旧帝国暗杀者。",
+      "history": "政变后瓦解，皇族后裔被特赦但背负罪人身份。其残党仍与海布格邪恶之王等阴谋线相关。",
+      "goals": "历史政权已瓦解，本卷主要作为人物背景与政治污名存在。",
+      "structure": "皇族、宫廷与旧制度残党。",
+      "leader": "旧皇帝（历史）",
+      "headquarters": "old-empire-palace",
+      "members": [
+        "lux-arcadia",
+        "airi-arcadia",
+        "yakata"
+      ],
+      "allies": [],
+      "enemies": [
+        "atismata-new-kingdom"
+      ],
+      "key_events": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-10/full.txt:57",
+        "saijaku-muhai-bahamut-main/vol-10/full.txt:6385"
+      ]
+    }
+  ]
+}

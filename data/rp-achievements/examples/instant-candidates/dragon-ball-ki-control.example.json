@@ -1,0 +1,37 @@
+{
+  "schema": "rp-achievement-instant-reward-candidate-example-v1",
+  "exampleOnly": true,
+  "generationMode": "instantGeneratedCandidate",
+  "note": "示例不是基础奖励池。奖励内容与成就内容无关，只由即时随机与校验流程决定。",
+  "candidate": {
+    "id": "reward-dragon-ball-ki-control-basic",
+    "name": "龙珠世界 · 气的基础控制体系",
+    "type": "technique",
+    "requiresEnergySystem": true,
+    "rewardRating": {
+      "rating": "N4 建筑级",
+      "score": 1200,
+      "segment": "mid",
+      "relativeToCurrentWorld": "currentWorldRating",
+      "basis": "示例假设当前世界锚点为 N4 建筑级，最低稳定战斗表现按同级中段记录，实际随修炼增长。"
+    },
+    "canon": {
+      "required": true,
+      "sourceType": "manga|anime|official-setting",
+      "work": "龙珠",
+      "appearsAs": "气的感知与控制",
+      "holderOrUser": "多名武道家",
+      "evidence": "原著反复出现的基础战斗体系"
+    },
+    "origin": {
+      "sourceWorld": "龙珠",
+      "originalOwner": "龟仙流及地球武道家群体",
+      "originalOwnerExperience": "长期通过身体锻炼、精神集中与实战积累掌握气的感知、聚集、释放和压制。",
+      "realmOrStage": "地球武道家入门至初级实战阶段",
+      "masteryLevel": "可感知和调动基础气，爆发输出与飞行等高阶应用需持续修炼",
+      "protagonistCurrentUsability": "领取后获得入门控制经验与最低感知框架；若主角无能量体系接触则需按成就能量门规则重抽。",
+      "limitations": "依赖生命能量、体魄训练和精神集中；过度输出会疲劳。"
+    },
+    "targetModules": ["abilities", "knowledge", "resources"]
+  }
+}

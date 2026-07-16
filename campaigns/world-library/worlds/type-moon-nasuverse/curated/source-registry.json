@@ -1,0 +1,18 @@
+{
+  "schema": "rp-source-registry-v1",
+  "worldId": "type-moon-nasuverse",
+  "sources": [
+    {"id": "src-fate-stay-night", "type": "user-file-source", "path": "imports/worldviews/type-moon-nasuverse/worldbooks/Fate stay night.worldbook.json", "description": "FSN角色卡嵌入世界书", "entryCount": 53, "credibility": "B", "scope": "characters", "notes": "含 Saber旧版详述、卫宫士郎、远坂凛、间桐樱等核心角色"},
+    {"id": "src-fsn-sandbox", "type": "user-file-source", "path": "imports/worldviews/type-moon-nasuverse/worldbooks/FateStayNight - 沙盒's Lorebook.worldbook.json", "entryCount": 84, "credibility": "B", "scope": "all", "notes": "含大量 constant 引擎规则条目"},
+    {"id": "src-fgo", "type": "user-file-source", "path": "imports/worldviews/type-moon-nasuverse/worldbooks/[沙盒]FGO 0.8.worldbook.json", "entryCount": 118, "credibility": "B", "scope": "characters+events", "notes": "FGO 角色+事件控制器"},
+    {"id": "src-fate-zero", "type": "user-file-source", "path": "imports/worldviews/type-moon-nasuverse/worldbooks/fatezero.worldbook.json", "entryCount": 1, "credibility": "A", "scope": "characters", "notes": "FZ 总览条目，单条目但高质量"},
+    {"id": "src-type-moon-main", "type": "user-file-source", "path": "imports/worldviews/type-moon-nasuverse/worldbooks/型月 (1).worldbook.json", "entryCount": 535, "credibility": "B", "scope": "all", "notes": "最大的单文件，覆盖全系列"},
+    {"id": "src-tm-dlc", "type": "user-file-source", "path": "imports/worldviews/type-moon-nasuverse/worldbooks/奇妙的世界书DLC_型月篇2026_0126.worldbook.json", "entryCount": 188, "credibility": "B", "scope": "characters+mechanics", "notes": "DLC 扩展，大量 FGO 后期角色和世界机制"},
+    {"id": "src-fairy-history", "type": "user-file-source", "path": "imports/worldviews/type-moon-nasuverse/worldbooks/妖精国历.worldbook.json", "entryCount": 19, "credibility": "B", "scope": "world", "notes": "妖精国不列颠 Lostbelt 完整历史"},
+    {"id": "src-prisma-illya", "type": "user-file-source", "path": "imports/worldviews/type-moon-nasuverse/worldbooks/魔法少女伊莉雅_Worldbooks2.worldbook.json", "entryCount": 40, "credibility": "B", "scope": "characters", "notes": "魔法少女伊莉雅衍生宇宙角色"}
+  ],
+  "conflicts": [
+    {"description": "阿尔托莉雅身高：FSN旧版160cm vs 沙盒版154cm", "resolution": "以官方设定154cm为准"},
+    {"description": "重制版vs同人版月姬角色描述差异", "resolution": "两个版本均保留，标记版本差异"}
+  ]
+}

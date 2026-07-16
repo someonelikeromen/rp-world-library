@@ -1,0 +1,54 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "typhon-ruthless-fruit",
+  "volume": "vol-06",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:7440"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-06",
+      "volume": "vol-06",
+      "time": "本卷",
+      "name": {
+        "zh": "无情果实",
+        "en": "Ruthless Fruit"
+      },
+      "aliases": [
+        "堤丰神装"
+      ],
+      "type": "technology / authority",
+      "description": "堤丰的神装，可释放漆黑波动使其他机龙神装无效化并降低机龙功率。",
+      "details": {
+        "drag_ride": "typhon",
+        "condition": "菲尔菲短时间进入幻神兽化状态后可发动"
+      },
+      "activation": {
+        "condition": "驾驶堤丰并满足发动条件",
+        "incantation": "无情果实",
+        "time": "瞬间",
+        "cost": "身体负担大"
+      },
+      "effects": [
+        "神装无效化",
+        "功率降低",
+        "制造近战命中机会"
+      ],
+      "known_feats": [
+        "菲尔菲以此减速拉葛利多的飞翔机龙X并一拳击败"
+      ],
+      "shared_by": [
+        "philuffy-aingram"
+      ],
+      "see_also": [
+        "typhon",
+        "abyss-factor-resistance"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:7440"
+      ]
+    }
+  ]
+}

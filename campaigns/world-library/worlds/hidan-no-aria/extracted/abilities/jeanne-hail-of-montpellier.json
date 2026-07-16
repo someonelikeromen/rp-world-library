@@ -1,0 +1,60 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "jeanne-hail-of-montpellier",
+  "volume": "vol-40",
+  "source_refs": [
+    "hidan-no-aria-main/vol-40/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-40",
+      "volume": "vol-40",
+      "time": "第四十卷",
+      "name": {
+        "zh": "蒙彼利埃的冰雹",
+        "en": "Grêle de Montpellier"
+      },
+      "aliases": [],
+      "type": "magic/ice",
+      "description": "贞德在莎拉的大龙卷风内部生成大量冰雹，干扰上升气流和风向。",
+      "details": {
+        "interaction": "冰雹被龙卷风卷起，但更多在外围旋转阻碍风场追踪性。"
+      },
+      "activation": {
+        "condition": "贞德举手施法",
+        "incantation": "蒙彼利埃的冰雹",
+        "time": "即时",
+        "cost": "在炎热环境消耗体力"
+      },
+      "effects": [
+        "生成冰雹",
+        "破坏龙卷风追踪性",
+        "掩护CB750F脱离暴风"
+      ],
+      "power_level": {
+        "initial": "局部冰雹",
+        "peak": "可干扰F2级大龙卷风",
+        "evolution": []
+      },
+      "known_feats": [
+        "公路追逐战中救下金次一行"
+      ],
+      "shared_by": [
+        "jeanne"
+      ],
+      "see_also": [
+        "sarah-hell-typhoon"
+      ],
+      "countered_by": [],
+      "counters": [
+        "sarah-hell-typhoon"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-40/full.txt"
+      ]
+    }
+  ]
+}

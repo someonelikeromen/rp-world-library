@@ -1,0 +1,95 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "krulcifer-einfolk",
+  "volume": "vol-05",
+  "time_range": { "start": "post-v04", "end": "pre-v06" },
+  "sub_arcs": [],
+  "periods": [
+    {
+      "period_id": "vol-05",
+      "volume": "vol-05",
+      "time": "初秋",
+      "label": "完美的留学生与弱点的真相",
+
+      "name": { "zh": "库露露希珐", "en": "Krulcifer Einfolk", "jp": "クルルシファー・エインフォルク" },
+      "aliases": ["库露露希珐同学", "留学生"],
+      "titles": ["尤米璐教国留学生", "学年首席"],
+      "gender": "female",
+      "species": "human（与遗迹有关）",
+      "nationality": "尤米璐教国",
+      "occupation": "王立士官学园学生（留学生）",
+      "affiliation": "王立士官学园",
+      "status": { "health": "健康" },
+      "appearance": {
+        "overview": "青白色长发、妖精般美貌的少女。端庄的身线、纤细而女人味十足",
+        "physical": { "height": "中等", "build": "纤细优美", "hair": { "color": "青白", "style": "长直" }, "eyes": { "color": "不明", "shape": "锐利而不失温和" } },
+        "attire": { "default": "王立士官学园制服，整洁无痕", "combat": "机龙装衣" },
+        "voice_quality": {},
+        "distinctive": ["如妖精般的美貌", "长发的耳朵通常被遮住"]
+      },
+      "personality": {
+        "summary": "完美无缺的优等生。头脑聪明、举止优雅、战斗技术和料理均出众。洞察力敏锐，能看穿路克斯的心思。有着轻微的S倾向（喜欢捉弄路克斯）。唯一的弱点是耳朵怕痒。",
+        "core_traits": ["完美主义", "冷静沉着", "机智敏锐", "偶尔腹黑"],
+        "values": ["自尊", "知性", "不让关心的人看到弱点"],
+        "fears": ["在在意的人面前暴露缺点"],
+        "desires": ["让路克斯注意到自己"],
+        "strengths": ["全科目优秀", "白刃战能力", "机龙操作", "料理", "观察力"],
+        "flaws": ["耳朵怕痒", "偶尔控制欲过强", "喜欢捉弄人"],
+        "inner_conflict": "希望被路克斯看到真实的一面，又不想破坏完美形象",
+        "decision_pattern": "深思熟虑，善于设局"
+      },
+      "voice": {
+        "self_reference": "私",
+        "address_pattern": { "路克斯": "路克斯同学" },
+        "register": { "general": "优雅而知性" },
+        "catchphrases": [],
+        "quote_samples": [
+          "在想展现自己魅力的人面前，我不想让他发现我的任何缺点",
+          "路克斯同学，请你稍微反省一下吧。你连女人心都不懂，竟然还想调和女孩子之间的关系，这根本不可能吧？"
+        ]
+      },
+      "habits": {
+        "mannerisms": ["总是保持完美的仪态", "用意味深长的微笑"],
+        "daily_routine": "上课、祷告（在尤米璐教国养成的习惯）、给路克斯补习",
+        "quirks": ["喜欢调侃路克斯"],
+        "preferences": { "food": "不挑食", "activity": "读书" }
+      },
+      "background": {
+        "birth": { "place": "尤米璐教国", "family": [] },
+        "upbringing": "从小为祷告必须早起，养成了极好的生活习惯",
+        "education": { "level": "王立士官学园首席", "highlights": [] },
+        "formative_events": ["来到新王国留学", "与路克斯假扮恋人", "确认自己对路克斯的感情"],
+        "pre_story": "来自尤米璐教国的留学生，学年首席。曾委托路克斯扮演恋人，后假戏真做。"
+      },
+
+      "abilities_owned": ["armored-dragon-mastery", "kulcifer-combat"],
+      "possessions_owned": ["personal-armored-dragon"],
+      "relationships": {
+        "lux arcadia": "补习中的学生兼在意的对象，曾假扮过恋人",
+        "lisha atismata": "情敌兼学园公主",
+        "airi arcadia": "路克斯的妹妹",
+        "philphy einfolk": "青梅竹马",
+        "celistia ralgris": "骑士团长"
+      },
+      "knowledge": [],
+      "secrets": [
+        "出身可能与遗迹有关（库露露希珐在第五卷中暗示不能告诉别人）",
+        "对路克斯的认真感情"
+      ],
+
+      "summary": "本卷中库露露希珐在多个短篇出场：旅馆外宿时主动与路克斯同行购物；在被委托寻找弱点的事件中，最终直接与委托人少女对话解决了问题。揭示了自己的弱点——耳朵怕痒，以及真心话：'在在意的人面前不想暴露任何缺点'。",
+      "key_events": [
+        { "event_id": "secret-night-at-inn", "summary": "在旅馆外宿篇中主动在街上找到路克斯一同购物", "sourceRef": "saijaku-muhai-bahamut-main/vol-05/full.txt:200-250" },
+        { "event_id": "find-weakness-request", "summary": "发现库洛埃尔的委托后直接与之对话解决，过程中暴露了自己耳朵怕痒的弱点", "sourceRef": "saijaku-muhai-bahamut-main/vol-05/full.txt:2227-3082" }
+      ],
+
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-05/full.txt:1-442",
+        "saijaku-muhai-bahamut-main/vol-05/full.txt:2227-3082"
+      ]
+    }
+  ],
+  "source_refs": []
+}

@@ -1,0 +1,89 @@
+{
+  "schema": "tm-tsukihime-prep-generator-report-v1",
+  "project": "tsukihime-dead-apostle-profile-supplement-pilot",
+  "stage": "stage-1-prep-source-layer",
+  "status": "generated",
+  "generatedAt": "2026-07-14",
+  "modelRequestedByDelegation": "lt-yuyu/gpt-5.5",
+  "mutationScopeUsed": "campaigns/world-library/manual-curation/type-moon-p1-hybrid/tsukihime-dead-apostle-profile-supplement-pilot/**",
+  "rawSourcesReadOnly": [
+    "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/型月 (1).worldbook.json",
+    "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/奇妙的世界书DLC_型月篇2026_0126.worldbook.json"
+  ],
+  "rulesAndPlansReadOnly": [
+    ".pi/skills/type-moon-p1-hybrid-archive/SKILL.md",
+    "rules/type-moon-three-agent-loop-rules.md",
+    "docs/type-moon-three-agent-loop-protocol.md",
+    "docs/type-moon-p1-hybrid-archive-plan.md",
+    "docs/type-moon-fgo-script-p1-plan.md"
+  ],
+  "filesCreated": [
+    "STATUS.md",
+    "source-unit-manifest.json",
+    "sources/worldbook-profile/source-text-manifest.json",
+    "sources/worldbook-profile/tm-summary-dead-apostle-true-ancestor.txt",
+    "sources/worldbook-profile/tm-summary-mystic-eyes.txt",
+    "sources/worldbook-profile/tm-summary-mystic-eyes-of-death-perception.txt",
+    "sources/worldbook-profile/tm-summary-church-conceptual-weapons.txt",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt",
+    "sources/worldbook-profile/dlc-tsukihime-arcueid.txt",
+    "sources/worldbook-profile/dlc-tsukihime-ciel.txt",
+    "sources/worldbook-profile/dlc-tsukihime-locations.txt",
+    "sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt",
+    "work-packets/source-classification-dedupe.json",
+    "work-packets/core-systems.json",
+    "work-packets/main-cast-high-confidence.json",
+    "work-packets/tohno-nanaya.json",
+    "work-packets/true-ancestor-arcueid.json",
+    "work-packets/dead-apostles-roa.json",
+    "work-packets/church-ciel.json",
+    "work-packets/mystic-eyes-shiki.json",
+    "work-packets/locations.json",
+    "work-packets/route-summary-events.json",
+    "work-packets/missing-cast-candidates.json",
+    "work-packets/relationships-timeline-visual-gate.json",
+    "audit/prep/generator-report.json"
+  ],
+  "counts": {
+    "sourceUnits": 9,
+    "sourceTextFiles": 9,
+    "workPackets": 12,
+    "formalCharacterRecords": 0,
+    "formalEventRecords": 0,
+    "formalRelationshipRecords": 0,
+    "formalGraphFiles": 0,
+    "formalTimelineFiles": 0
+  },
+  "sourceMetadataDefaults": {
+    "sourceType": "user-file-worldbook-profile",
+    "credibility": "B",
+    "canonStatus": "canon-like/adapted as appropriate"
+  },
+  "rawLabelsPreserved": ["同人版", "重制版", "月姬", "死徒", "真祖", "埋葬机关", "罗亚系"],
+  "continuityTaxonomyUsed": ["original", "remake", "melty-blood", "kagetsu-tohya", "type-lumina", "sandbox"],
+  "continuityTaxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy",
+  "continuityTaxonomyRawLabelMapping": {
+    "同人版": "original/source label preserved",
+    "重制版": "remake/source label preserved",
+    "mixed/crossover/RP premise": "sandbox",
+    "Melty Blood mentions": "melty-blood",
+    "歌月十夜": "kagetsu-tohya",
+    "Type Lumina names/mentions if no source": "source-gap/candidate-only"
+  },
+  "continuitySourceGapPolicy": "Categories with no Stage 1 source text are source-gap/candidate-only rather than invented facts.",
+  "candidateOnlyDecisions": [
+    "Roa and several Dead Apostle signals remain candidate-only because direct standalone profiles were not confirmed in this Stage 1 read.",
+    "Missing/supporting cast such as Akiha, SHIKI, Hisui, Kohaku, Satsuki, Noel, FROV, Nero Chaos, Wallachia, Sion, and Merem remain candidate scopes until direct source entries are read.",
+    "No canonical ID decisions or formal merge decisions were made."
+  ],
+  "validationPerformed": [
+    "Created only within the requested pilot directory.",
+    "No files named characters.json, events.json, or relationships.json were intentionally created.",
+    "No raw imports, old curated, other pilots, or Type-Moon core files were edited."
+  ],
+  "risks": [
+    "Line-addressable source text uses excerpts rather than full raw profile copies to reduce duplicated raw text; future extraction may need to reread raw entries for complete coverage.",
+    "Some rawEntryIndex values are marked unknown because Stage 1 used grep/read location evidence rather than executable JSON parsing.",
+    "Audit is structural/read-only within available tools and does not claim command-based JSON validation."
+  ]
+}

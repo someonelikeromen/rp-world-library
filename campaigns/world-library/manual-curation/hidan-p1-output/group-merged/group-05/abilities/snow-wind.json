@@ -1,0 +1,49 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "snow-wind",
+  "volume": "vol-45",
+  "source_refs": [
+    "hidan-no-aria-main/vol-45/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-45",
+      "volume": "vol-45",
+      "time": "2011-03",
+      "name": {
+        "zh": "雪风",
+        "en": "Snow Wind"
+      },
+      "aliases": [],
+      "type": "combat",
+      "description": "通过极微弱地发动大和与岛风的活塞运动，让自身超高速滚动并卷起碎片如雪的防御移动技。",
+      "activation": {
+        "condition": "远山家技法，需精密控制",
+        "incantation": "雪风",
+        "time": "瞬时",
+        "cost": "高难度"
+      },
+      "effects": [
+        "横向高速滚动",
+        "避开垂直斩落的七进七出"
+      ],
+      "known_feats": [
+        {
+          "summary": "金次用雪风躲开赵云将七进七出转为自上而下的枪刃圆盘。",
+          "sourceRef": "hidan-no-aria-main/vol-45/full.txt:3513"
+        }
+      ],
+      "shared_by": [
+        "kinji"
+      ],
+      "see_also": [
+        "island-wind"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-45/chapters/ch-004-第4弹_玻璃的阶塔.txt:1254"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "tm-fgo-normalized-entity-manifest-v1",
+  "chapterId": "fgo-eor-salem",
+  "note": "Manifest references extracted stage character, mention, and candidate records; this is not a formal aggregate characters.json or relationships.json.",
+  "stageCharacterGroupsRef": "extracted/eor/salem/stage-characters/index.json",
+  "mentionsRef": "extracted/eor/salem/mentions/index.json",
+  "relationshipCandidatesRef": "extracted/eor/salem/candidates/index.json#/relationshipCandidates",
+  "characterCandidatesRef": "extracted/eor/salem/candidates/index.json#/characterCandidates",
+  "stageCharacterGroupCount": 6,
+  "observedStatusRecords": 11,
+  "relationshipCandidateCount": 7,
+  "characterCandidateCount": 4,
+  "sourceRefs": [{"path":"sources/worldbook-script/eor/ch-092-salem.txt","lineStart":30,"lineEnd":83}],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

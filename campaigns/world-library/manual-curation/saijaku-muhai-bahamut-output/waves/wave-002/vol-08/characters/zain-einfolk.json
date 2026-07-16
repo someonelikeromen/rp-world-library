@@ -1,0 +1,35 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "zain-einfolk",
+  "volume": "vol-08",
+  "periods": [{
+    "period_id": "vol-08-main",
+    "volume": "vol-08",
+    "time": "巡礼祭期间",
+    "name": { "zh": "察因·恩芙尔克", "en": "Zain Einfolk", "jp": "" },
+    "aliases": ["恩芙尔克长兄"],
+    "titles": ["恩芙尔克家长男", "神殿骑士团成员"],
+    "gender": "male",
+    "species": "human",
+    "nationality": "优密尔教国",
+    "occupation": "贵族、机龙使、神殿骑士团成员",
+    "affiliation": "恩芙尔克家族；神殿骑士团",
+    "status": { "state": "alive", "condition": "巡礼祭后态度软化" },
+    "appearance": { "overview": "端正但瘦削阴沉的贵族青年。" },
+    "personality": { "summary": "顽固、爱面子，因武艺大赛旧事对库露露席法复杂。", "core_traits": ["骄傲", "不坦率", "家族意识"] },
+    "abilities_owned": ["wyvern-basic-combat"],
+    "possessions_owned": ["wyvern"],
+    "relationships": {
+      "krullcifer-einfolk": { "type": "义兄妹", "summary": "因武艺大赛和家族压力疏远，尾声逐渐恢复交谈。" },
+      "stiel-einfolk": { "type": "父子", "summary": "受父亲要求参与巡礼祭。" },
+      "lux-arcadia": { "type": "质疑后认可", "summary": "起初质疑路克斯来意，后见证其行动。" }
+    },
+    "knowledge": ["stiel-rescue-truth"],
+    "summary": "察因代表恩芙尔克家参与巡礼护卫，早期对路克斯和库露露席法言语带刺。战后他对库露露席法的恶作剧婚约表现出轻松态度，显示家族关系缓和。",
+    "key_events": [{ "event_id": "einfolk-family-reconciliation", "summary": "战后与库露露席法自然交谈。", "sourceRef": "saijaku-muhai-bahamut-main/vol-08/full.txt:7840" }],
+    "evidence_level": "S",
+    "source_refs": ["saijaku-muhai-bahamut-main/vol-08/full.txt:1562", "saijaku-muhai-bahamut-main/vol-08/full.txt:7840"]
+  }],
+  "source_refs": ["saijaku-muhai-bahamut-main/vol-08/full.txt:1562"]
+}

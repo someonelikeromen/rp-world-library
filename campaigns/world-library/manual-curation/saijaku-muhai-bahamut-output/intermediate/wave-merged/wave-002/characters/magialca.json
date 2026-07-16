@@ -1,0 +1,84 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "magialca",
+  "volume": "vol-09",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-09/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-09",
+      "volume": "vol-09",
+      "time": "世界高峰会与卷末特命",
+      "name": {
+        "zh": "玛姬艾儿卡·詹·范弗利克",
+        "en": "Magialca Zen Vanfrick",
+        "jp": ""
+      },
+      "aliases": [
+        "七龙骑圣队长",
+        "范弗利克商会总管",
+        "马卡法王国代表",
+        "菲尔菲的师父"
+      ],
+      "gender": "female",
+      "species": "human",
+      "nationality": "无固定国家 / 受雇于马卡法王国",
+      "occupation": "七龙骑圣队长；商会总管；武术师父",
+      "affiliation": "世界联盟；范弗利克商会；马卡法王国代表席",
+      "status": {
+        "condition": "active",
+        "role": "主持七龙骑圣方针并委托路克斯调查联盟叛徒"
+      },
+      "abilities_owned": [
+        "martial-arts-master",
+        "commerce-network",
+        "strategic-insight"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "lux": {
+          "type": "commander / client",
+          "summary": "欣赏路克斯能力，卷末赋予调查世界联盟叛徒的特命。"
+        },
+        "philuffy": {
+          "type": "student",
+          "summary": "曾教授菲尔菲格斗术。"
+        },
+        "relie": {
+          "type": "old friend",
+          "summary": "与蕾莉熟识并在学园内自由行动。"
+        },
+        "rosa": {
+          "type": "subordinate / rival",
+          "summary": "作为队长约束但也观察罗莎的危险性。"
+        }
+      },
+      "summary": "玛姬艾儿卡是七龙骑圣队长、商会大富豪和菲尔菲的武术师父。她在高峰会中率先警戒创造主的报酬与同盟条件，卷末判断圣蚀出现时机可疑，命令路克斯寻找世界联盟中的叛徒。",
+      "key_events": [
+        {
+          "event_id": "magialca-arrival",
+          "summary": "在学园祭前以强大武艺与轻浮态度现身。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-09/full.txt:715"
+        },
+        {
+          "event_id": "creator-summit",
+          "summary": "在高峰会上代表七龙骑圣质疑创造主动机。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-09/full.txt:1915"
+        },
+        {
+          "event_id": "traitor-hunt-order",
+          "summary": "卷末向路克斯下达寻找并抹杀世界联盟叛徒的特命。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-09/full.txt:8125"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:715",
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:1915",
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:8125"
+      ]
+    }
+  ]
+}

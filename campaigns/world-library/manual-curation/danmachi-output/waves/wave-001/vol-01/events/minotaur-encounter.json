@@ -1,0 +1,32 @@
+{
+  "_schema": "rp-event-volume-v1",
+  "world": "danmachi",
+  "event_id": "minotaur-encounter",
+  "volume": "vol-01",
+  "periods": [
+    {
+      "period_id": "minotaur-encounter",
+      "volume": "vol-01",
+      "time": "序章",
+      "name": { "zh": "弥诺陶洛斯遭遇战", "en": "Minotaur Encounter" },
+      "type": "incident",
+      "location": "地下城第5层",
+      "summary": "贝尔单独探索时误入第5层遭弥诺陶洛斯追杀，在绝境中被艾丝·华伦斯坦所救。贝尔对艾丝一见钟情。",
+      "cause": "贝尔未经准备就尝试下到更深楼层，加上洛基眷族远征归来途中让弥诺陶洛斯逃走",
+      "process": "贝尔在第5层遭遇分类为LV.2的弥诺陶洛斯，攻击完全无效，被迫逃到正方形空间的角落。千钧一发之际艾丝赶到，用剑将弥诺陶洛斯切成肉块。",
+      "outcome": "贝尔获救，全身被怪物的血染红。对艾丝一见钟情。",
+      "aftermath": "贝尔在公会询问艾丝的情报。此事成为他变强的起点。",
+      "participants": [
+        { "id": "bell-cranel", "role": "受害者" },
+        { "id": "ais-wallenstein", "role": "救助者" },
+        { "id": "minotaur", "role": "敌人" }
+      ],
+      "casualties": [],
+      "related_events": ["guild-consultation", "tavern-insult-incident"],
+      "significance": "贝尔命运的转折点——与憧景对象艾丝的初次相遇，也是变强的原动力。",
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-01/full.txt:1-168"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-01/full.txt:1-168"]
+}

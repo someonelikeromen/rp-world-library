@@ -1,0 +1,84 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "celestia-langris",
+  "volume": "vol-12",
+  "time_range": {
+    "start": "vol-12 episode1",
+    "end": "vol-12 episode5"
+  },
+  "sub_arcs": [
+    "assistant-exchange",
+    "macafa-investigation",
+    "final-reinforcement"
+  ],
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-12/full.txt:1235-7224"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-12-main",
+      "volume": "vol-12",
+      "time": "交换辅佐官期间",
+      "label": "骑士团团长与新王国代表辅佐官",
+      "name": {
+        "zh": "赛莉丝缇雅·兰格莉思",
+        "en": "Celestia Ralgris",
+        "jp": ""
+      },
+      "aliases": [
+        "赛莉丝",
+        "赛莉丝学姐"
+      ],
+      "titles": [
+        "骑士团团长",
+        "四大贵族兰格莉思家令嬢",
+        "路克斯辅佐官"
+      ],
+      "gender": "female",
+      "species": "human",
+      "nationality": "新王国",
+      "occupation": "学生;机龙使;七龙骑圣辅佐官",
+      "affiliation": "新王国;骑士团",
+      "status": {
+        "location": "前往马卡法王国同行玛姬艾儿卡",
+        "plot": "发现废都葛尔瑟勒可能是大圣域入口"
+      },
+      "abilities_owned": [],
+      "possessions_owned": [
+        "lindwurm"
+      ],
+      "relationships": {
+        "lux-arcadia": {
+          "type": "ally/love interest",
+          "summary": "担心路克斯安危并在终盘赶回支援"
+        },
+        "magialca-jan-fafnir": {
+          "type": "temporary superior",
+          "summary": "随玛姬艾儿卡前往马卡法并获知大圣域线索"
+        },
+        "yakumo": {
+          "type": "task delegate",
+          "summary": "离开前拜托夜架保护路克斯"
+        }
+      },
+      "summary": "赛莉丝作为交换辅佐官离开新王国，与玛姬艾儿卡前往马卡法王国废都葛尔瑟勒。她得知废都可能是大圣域入口，并在箱庭战后赶回带来关键情报。",
+      "key_events": [
+        {
+          "event_id": "celis-magialca-gelzerle-investigation",
+          "summary": "在马卡法王国废都得知大圣域入口线索",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-12/full.txt:3727-5112"
+        },
+        {
+          "event_id": "moon-ruin-revelation",
+          "summary": "终盘返回并报告大圣域与月相关情报",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-12/full.txt:5113-7224"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-12/full.txt:1235-7224"
+      ]
+    }
+  ]
+}

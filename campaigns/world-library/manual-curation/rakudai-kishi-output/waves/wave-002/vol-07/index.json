@@ -1,0 +1,112 @@
+{
+  "_schema": "rp-volume-index-v1",
+  "world": "rakudai-kishi",
+  "series": "rakudai-kishi-main",
+  "volume": "vol-07",
+  "volume_title": "落第骑士英雄谭 / Rakudai Kishi no Cavalry - Vol.07 (source text labels 第六卷)",
+  "source_chapters": [
+    {
+      "chapterIndex": 1,
+      "title": "间章 反射术士",
+      "sourceRef": "rakudai-kishi-main/vol-07/chapters/ch-001-间章-反射术士.txt"
+    },
+    {
+      "chapterIndex": 2,
+      "title": "第五章 快刀斩乱麻",
+      "sourceRef": "rakudai-kishi-main/vol-07/chapters/ch-002-第五章-快刀斩乱麻.txt"
+    },
+    {
+      "chapterIndex": 3,
+      "title": "第六章 初战终了",
+      "sourceRef": "rakudai-kishi-main/vol-07/chapters/ch-003-第六章-初战终了.txt"
+    },
+    {
+      "chapterIndex": 4,
+      "title": "第七章 七星剑武祭第二轮战·开战",
+      "sourceRef": "rakudai-kishi-main/vol-07/chapters/ch-004-第七章-七星剑武祭第二轮战·开战.txt"
+    },
+    {
+      "chapterIndex": 5,
+      "title": "间章 转暗",
+      "sourceRef": "rakudai-kishi-main/vol-07/chapters/ch-005-间章-转暗.txt"
+    },
+    {
+      "chapterIndex": 6,
+      "title": "后记",
+      "sourceRef": "rakudai-kishi-main/vol-07/chapters/ch-006-后记.txt"
+    }
+  ],
+  "entity_counts": {
+    "characters": 21,
+    "events": 14,
+    "abilities": 0,
+    "items": 0,
+    "locations": 0,
+    "factions": 0,
+    "systems": 0,
+    "knowledge": 0
+  },
+  "entities": {
+    "characters": [
+      "stella-vermillion",
+      "ikki-kurogane",
+      "yui-tatara",
+      "rinna-kazamatsuri",
+      "charlotte-corday",
+      "reisen-hiraga",
+      "mikoto-tsuruya",
+      "amane-shinomiya",
+      "kiriko-yakushi",
+      "shizuku-kurogane",
+      "ouma-kurogane",
+      "sara-bloodlily",
+      "kurashiki-kurando",
+      "byakuya-jonosaki",
+      "toka-todo",
+      "kanata-totokubara",
+      "utakata-misogi",
+      "nagi-arisuin",
+      "kagami-kusakabe",
+      "kurono-shinguji",
+      "yuudai-moroboshi"
+    ],
+    "events": [
+      "reflection-mage-warning",
+      "stella-four-on-one-b-block",
+      "stella-brute-dragon-roar-test",
+      "utakata-wakes-amane-warning",
+      "kiriko-forced-withdrawal",
+      "amane-true-ability-revealed",
+      "shizuku-d-block-first-round-win",
+      "ikki-bathhouse-byakuya-encounter",
+      "ikki-stella-hotel-reunion",
+      "ikki-ouma-night-talk",
+      "compressed-schedule-announcement",
+      "ouma-vs-kaga-second-round",
+      "kurashiki-vs-sara-second-round",
+      "ikki-vs-byakuya-opening-rasetsu"
+    ],
+    "abilities": [],
+    "items": [],
+    "locations": [],
+    "factions": [],
+    "systems": [],
+    "knowledge": []
+  },
+  "summary": "Manual p1 extraction for rakudai-kishi-main vol-07's six listed chapters. The volume completes the first-round focus by showing Stella's unprecedented four-on-one B-block match against Mikoto Tsuruya and Akatsuki fighters Yui Tatara, Rinna Kazamatsuri/Charlotte Corday, and Reisen Hiraga. Stella accepts severe self-injury, overwhelms reflection, shields, beasts, absolute-zero magic and puppet hostage tactics, then uses Brute Dragon Roar in fantasy form to destroy the field while tournament defenders contain the blast. The victory sends her directly to the semifinals but creates broadcast-rights and schedule chaos, forcing same-day second and third rounds. Parallel plotlines reveal Amane Shinomiya's true wish/luck causality ability after Kiriko Yakushi is forced to withdraw, show Utakata Misogi waking to warn about Amane, and deepen Ouma Kurogane's motive for seeking Stella's absolute power. The second-round opening then reveals Sara Bloodlily's A-class hidden ability to materialize drawings and copy Blazers, defeating the newly evolved Kurando Kurashiki with copied Ikkis, before Byakuya Jonosaki's predicted twenty-three-move duel with Ikki is cut short by Ikki's immediate Ittou Rasetsu.",
+  "notes": [
+    "Only character and event files were created per p1-scan instruction; abilities/items/locations/factions/systems folders were not populated.",
+    "Chapter 6 is author afterword and was not extracted as in-world content.",
+    "Source file headings say 第六卷 even though task path and output scope are vol-07; index records both to avoid losing provenance.",
+    "Some battle outcomes in ch-004/ch-005 are cliffhanger/summary-limited: Ouma vs Kaga is only referenced as concluded, and Ikki vs Byakuya is shown as an opening instant blackout rather than a full post-match report."
+  ],
+  "source_refs": [
+    "campaigns/world-library/worlds/rakudai-kishi/sources/split-text/rakudai-kishi-main/vol-07/chapters.json",
+    "rakudai-kishi-main/vol-07/chapters/ch-001-间章-反射术士.txt",
+    "rakudai-kishi-main/vol-07/chapters/ch-002-第五章-快刀斩乱麻.txt",
+    "rakudai-kishi-main/vol-07/chapters/ch-003-第六章-初战终了.txt",
+    "rakudai-kishi-main/vol-07/chapters/ch-004-第七章-七星剑武祭第二轮战·开战.txt",
+    "rakudai-kishi-main/vol-07/chapters/ch-005-间章-转暗.txt",
+    "rakudai-kishi-main/vol-07/chapters/ch-006-后记.txt"
+  ]
+}

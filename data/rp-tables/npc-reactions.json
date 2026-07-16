@@ -1,0 +1,13 @@
+{
+  "id": "npc-reactions",
+  "name": "NPC 反应表",
+  "type": "d100",
+  "entries": [
+    { "range": [1, 10], "id": "hard-reject", "text": "强烈拒绝，并提高警惕" },
+    { "range": [11, 35], "id": "reserved", "text": "保留态度，要求更多证据" },
+    { "range": [36, 65], "id": "watching", "text": "表面接受，暗中观察" },
+    { "range": [66, 85], "id": "conditional", "text": "部分合作，但提出条件" },
+    { "range": [86, 95], "id": "helpful", "text": "主动合作，给出额外线索" },
+    { "range": [96, 100], "id": "hidden-motive", "text": "意外信任或暴露隐藏动机；必须已有伏笔" }
+  ]
+}

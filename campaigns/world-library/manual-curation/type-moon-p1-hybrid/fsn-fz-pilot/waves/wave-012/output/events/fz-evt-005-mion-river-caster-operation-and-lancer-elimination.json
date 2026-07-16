@@ -1,0 +1,25 @@
+{
+  "schema": "tm-p1-event-v1",
+  "event_id": "fz-evt-005-mion-river-caster-operation-and-lancer-elimination",
+  "worldId": "type-moon-nasuverse",
+  "continuity": "fz",
+  "timelineId": "fz-fourth-war",
+  "route": "fz-fourth-war",
+  "canonStatus": "canon-like",
+  "time": { "start": { "value": "1994-11-19T08:36:45", "precision": "YYYY-MM-DDTHH:mm:ss", "relative": "Saber and Irisviel move to Emiya residence", "orderIndex": 35 }, "end": { "value": "1994-11-20T05:22:43", "precision": "YYYY-MM-DDTHH:mm:ss", "relative": "Saber defeats Lancer", "orderIndex": 42 }, "duration": "two-days", "confidence": "high" },
+  "timelineNodes": [
+    { "nodeId": "start", "label": "Emiya residence move", "time": { "relative": "1994-11-19 08:36:45", "orderIndex": 35 }, "summary": "Saber and Irisviel move into the Emiya residence." },
+    { "nodeId": "middle-001", "label": "Mion River Caster operation", "time": { "relative": "1994-11-19 afternoon", "orderIndex": 38 }, "summary": "The third battle begins and ends in the Mion River area as a Caster extermination operation." },
+    { "nodeId": "end", "label": "Lancer team eliminated", "time": { "relative": "1994-11-20 05:22:43", "orderIndex": 42 }, "summary": "Saber defeats Lancer in their decisive duel and eliminates the Lancer team." }
+  ],
+  "participants": ["saber-artoria", "irisviel-von-einzbern", "caster-gilles", "lancer-diarmuid", "kayneth-archibald", "emiya-kiritsugu"],
+  "locationRefs": ["emiya-residence", "mion-river-area"],
+  "cause": "Caster's escalation requires a dedicated extermination operation; Lancer's team remains a direct rival after that operation.",
+  "process": "Saber and Irisviel shift base, the Mion River battle resolves Caster's threat, and Saber defeats Lancer the next morning.",
+  "outcome": "Caster and then the Lancer team are removed from the Fourth War event chain.",
+  "stateChanges": ["Caster operation completed", "Lancer team eliminated"],
+  "relationshipChanges": ["Saber's conflict with Lancer reaches final duel resolution"],
+  "sourceType": "user-file-worldbook",
+  "credibility": "A",
+  "sourceRefs": ["type-moon-nasuverse/worldbook-text/src-fate-zero.md:38", "type-moon-nasuverse/worldbook-text/src-fate-zero.md:39", "type-moon-nasuverse/worldbook-text/src-fate-zero.md:40", "type-moon-nasuverse/worldbook-text/src-fate-zero.md:41", "type-moon-nasuverse/worldbook-text/src-fate-zero.md:42"]
+}

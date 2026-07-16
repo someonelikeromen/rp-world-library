@@ -1,0 +1,290 @@
+{
+  "_schema": "rp-faction-volume-v1",
+  "world": "hidan-no-aria",
+  "faction_id": "blue-gang",
+  "volume": "vol-07",
+  "source_refs": [
+    "hidan-no-aria-main/vol-07/chapters/ch-002-第七卷_火与风的华尔兹_2弹_HURRY_UP.txt:1035",
+    "hidan-no-aria-main/vol-07/chapters/ch-002-第七卷_火与风的华尔兹_2弹_HURRY_UP.txt:1127",
+    "hidan-no-aria-main/vol-07/chapters/ch-002-第七卷_火与风的华尔兹_2弹_HURRY_UP.txt:1129",
+    "hidan-no-aria-main/vol-07/chapters/ch-002-第七卷_火与风的华尔兹_2弹_HURRY_UP.txt:1133"
+  ],
+  "periods": [
+    {
+      "periodId": "vol-08",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-08/full.txt:479",
+        "hidan-no-aria-main/vol-08/full.txt:885"
+      ],
+      "snapshot": {
+        "name": "蓝帮",
+        "aliases": [
+          "蓝帮势力",
+          "诸葛静玄所属组织"
+        ],
+        "type": "underground faction / kenzoku member",
+        "description": "诸葛静玄代表的中国系地下组织。在宣战会议上宣言加入眷属，理由包括蕾姬此前妨碍其生意；壳金分裂后诸葛取得一颗壳金并准备回蓝帮城分析。",
+        "known_members": [
+          "zhuge-jingxuan"
+        ],
+        "affiliated_allies": [
+          "kenzoku"
+        ],
+        "opponents": [
+          "urus",
+          "reki",
+          "shidan"
+        ],
+        "key_events": [
+          "declaration-war-conference",
+          "aria-bitten-shells-stolen"
+        ],
+        "evidence_level": "S"
+      }
+    },
+    {
+      "period_id": "vol-07-main",
+      "volume": "vol-07",
+      "time": "9月下旬",
+      "name": {
+        "zh": "蓝帮",
+        "en": "Blue Gang"
+      },
+      "type": "criminal_organization",
+      "base": "blue-gang-city",
+      "members": [
+        "cao-cao-melee",
+        "cao-cao-sniper",
+        "cao-cao-gunner"
+      ],
+      "goals": [
+        "夺取或绑架HSS金次、绯绯色金关联的亚莉亚与乌鲁斯的蕾姬",
+        "展示爆泡威力并将其商品化",
+        "由曹操姐妹提升在蓝帮中的地位"
+      ],
+      "resources": [
+        "加速炸弹",
+        "爆泡",
+        "远程直升机",
+        "UZI、M700、青龙刀等武装"
+      ],
+      "relationships": {
+        "i-u-remnants": "眧眧曾进入伊·U做生意并学习技术",
+        "urus-tribe": "企图掳走蕾姬并利用乌鲁斯狙击能力",
+        "baskerville-squad": "在希望246号事件中成为直接敌对方"
+      },
+      "summary": "蓝帮是眧眧所属的中国系犯罪组织。曹操三姐妹在本卷以加速炸弹和爆泡劫持希望246号，企图绑架金次、亚莉亚和蕾姬，并通过炸毁列车展示爆泡作为商品的威力。",
+      "key_events": [
+        {
+          "event_id": "hope-246-hijacking",
+          "summary": "以加速炸弹和爆泡控制希望246号。",
+          "sourceRef": "hidan-no-aria-main/vol-07/full.txt:1573"
+        },
+        {
+          "event_id": "cao-cao-sisters-defeat",
+          "summary": "三姐妹在车顶战后被巴斯克维尔成员击败。",
+          "sourceRef": "hidan-no-aria-main/vol-07/full.txt:4447"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-07/chapters/ch-002-第七卷_火与风的华尔兹_2弹_HURRY_UP.txt:1035",
+        "hidan-no-aria-main/vol-07/chapters/ch-002-第七卷_火与风的华尔兹_2弹_HURRY_UP.txt:1127",
+        "hidan-no-aria-main/vol-07/chapters/ch-002-第七卷_火与风的华尔兹_2弹_HURRY_UP.txt:1129",
+        "hidan-no-aria-main/vol-07/chapters/ch-002-第七卷_火与风的华尔兹_2弹_HURRY_UP.txt:1133"
+      ]
+    },
+    {
+      "period_id": "vol-12-main",
+      "volume": "vol-12",
+      "time": "卷末",
+      "name": {
+        "zh": "蓝帮",
+        "en": "Blue Gang"
+      },
+      "aliases": [
+        "中国大组织",
+        "蓝帮方面"
+      ],
+      "type": "organization / underworld / secret-society",
+      "description": "与镜高组合作的中国大组织，派出诸葛静幻、眧眧与猴在镜高组本家屋顶等待金次与GⅢ。",
+      "history": "曾在宣战会议中通过诸葛静幻与金次等接触。",
+      "goals": "参与极东战役，接触或收购金次这类超人战力，并通过日本黑道管道扩大影响。",
+      "structure": "大使诸葛静幻、战斗员眧眧、代表猴等行动单位。",
+      "leader": "未明；猴为极东战役代表",
+      "headquarters": "中国/香港相关势力圈",
+      "members": [
+        "zhuge-seigen",
+        "caocao",
+        "monkey"
+      ],
+      "allies": [
+        "kagamitaka-gumi"
+      ],
+      "enemies": [
+        "legion",
+        "baskerville"
+      ],
+      "key_events": [
+        "blue-gang-monkey-arrival",
+        "monkey-laser-cliffhanger"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-12/chapters/ch-004-第十二卷_洒落狼犬之雪_4弹_镜高菊代.txt:781",
+        "hidan-no-aria-main/vol-12/chapters/ch-005-第十二卷_洒落狼犬之雪_5弹_顿悟之空.txt:2081",
+        "hidan-no-aria-main/vol-12/chapters/ch-005-第十二卷_洒落狼犬之雪_5弹_顿悟之空.txt:2241"
+      ]
+    },
+    {
+      "period_id": "vol-13-main",
+      "volume": "vol-13",
+      "time": "2009年12月下旬",
+      "name": {
+        "zh": "蓝帮",
+        "en": "Blue Gang"
+      },
+      "aliases": [
+        "香港蓝帮",
+        "上海蓝帮"
+      ],
+      "type": "organization / secret-society / criminal-network",
+      "description": "古老中国海贼系组织，香港分部偏反攻型，拥有企业、金融、教育、司法和政府影响圈，并以蓝帮城为移动据点。",
+      "history": "清朝以前以海贼身份活动，后来与伊·U保持交易。",
+      "goals": "在极东战役中代表眷属对抗师团，并保有壳金。",
+      "structure": "上海本部偏进攻，香港分部偏迎击；可用资金购买地位，也用所得保护无家可归者。",
+      "leader": "未明",
+      "headquarters": "blue-gang-city",
+      "members": [
+        "cao-cao-ji-niang",
+        "zhuge",
+        "kou-sun-wukong"
+      ],
+      "allies": [
+        "hong-kong-blue-girls-school"
+      ],
+      "enemies": [
+        "baskerville",
+        "legion"
+      ],
+      "key_events": [
+        "ozone-command-setup",
+        "cao-cao-schoolgirl-ambush"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-13/chapters/ch-002-第十三卷_反击的九龙_2弹_OZONE.txt:219",
+        "hidan-no-aria-main/vol-13/chapters/ch-002-第十三卷_反击的九龙_2弹_OZONE.txt:233",
+        "hidan-no-aria-main/vol-13/chapters/ch-002-第十三卷_反击的九龙_2弹_OZONE.txt:253",
+        "hidan-no-aria-main/vol-13/chapters/ch-003-第十三卷_反击的九龙_3弹_猴与孙.txt:525"
+      ]
+    },
+    {
+      "period_id": "vol-15-main",
+      "volume": "vol-15",
+      "time": "香港油轮事件后",
+      "name": {
+        "zh": "蓝帮",
+        "en": "Blue Gang"
+      },
+      "aliases": [
+        "香港蓝帮",
+        "蓝帮船团"
+      ],
+      "type": "organization / underworld",
+      "description": "香港地下势力，本卷虽在上一阶段被金次等攻略，但在真空炸弹事件中为保护香港而成为临时协力者，动员船团拖拽油轮并协助隐瞒事件。",
+      "history": "原为眷属一大势力，香港战后未被彻底打倒，而是与巴斯克维尔形成临时合作。",
+      "goals": "保护香港、协助阻止油轮灾难，并维护本地秩序与情报控制。",
+      "structure": "诸葛静幻与眧眧等干部调度船团和群众。",
+      "leader": "zhuge-jinghuan",
+      "headquarters": "hong-kong",
+      "members": [
+        "zhuge-jinghuan",
+        "jiao-jiao",
+        "monkey"
+      ],
+      "allies": [
+        "kinji",
+        "baskerville"
+      ],
+      "enemies": [
+        "witch-corps"
+      ],
+      "key_events": [
+        "sima-hari-vacuum-bomb"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-15/chapters/ch-001-第十五卷_哿与银冰_1弹_真空炸弹.txt:623",
+        "hidan-no-aria-main/vol-15/chapters/ch-001-第十五卷_哿与银冰_1弹_真空炸弹.txt:631",
+        "hidan-no-aria-main/vol-15/chapters/ch-001-第十五卷_哿与银冰_1弹_真空炸弹.txt:1195"
+      ]
+    },
+    {
+      "period_id": "vol-16-main",
+      "volume": "vol-16",
+      "time": "妖刕与魔剑警告线",
+      "name": {
+        "zh": "蓝帮",
+        "en": "Blue Gang"
+      },
+      "aliases": [
+        "上海蓝帮",
+        "香港蓝帮相关组织"
+      ],
+      "type": "organization / secret-society",
+      "description": "上一阶段已转向师团的重要组织。本卷妖刕与艾丽斯贝尔都警告金次不要继续与蓝帮扯上关系，显示蓝帮命运仍牵动外部势力。",
+      "goals": "本卷未直接行动；作为命运与势力均衡的关键变量被提及。",
+      "structure": "东亚地下组织网络。",
+      "members": [],
+      "allies": [
+        "shidan"
+      ],
+      "enemies": [],
+      "key_events": [
+        "yojin-brussels-ambush",
+        "alicebell-defeats-meiya"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-16/chapters/ch-001-第十六卷_星之堡垒的秂狼_1弹_深色的挑战者.txt:215",
+        "hidan-no-aria-main/vol-16/chapters/ch-004-第十六卷_星之堡垒的秂狼_4弹_台风中的魔剑.txt:1232"
+      ]
+    },
+    {
+      "period_id": "vol-20",
+      "volume": "vol-20",
+      "time": "第二十卷背景",
+      "name": {
+        "zh": "蓝帮",
+        "en": "Blue Gang"
+      },
+      "aliases": [
+        "香港蓝帮"
+      ],
+      "type": "organization",
+      "description": "香港势力，猴出身和夏洛克接触的背景组织。卷中主要通过猴、王者之剑残材和夏洛克挖角被提及。",
+      "history": "曾持有壳金并参与香港绯绯色金事件。",
+      "goals": "本卷未直接行动；背景上掌握绯绯色金相关人员与装备。",
+      "structure": "未详述。",
+      "leader": "",
+      "headquarters": "Hong Kong",
+      "members": [
+        "hou"
+      ],
+      "allies": [
+        "kinji"
+      ],
+      "enemies": [
+        "hihi-gami"
+      ],
+      "key_events": [
+        "iu-london-arrival"
+      ],
+      "evidence_level": "B",
+      "source_refs": [
+        "hidan-no-aria-main/vol-20/full.txt"
+      ]
+    }
+  ]
+}

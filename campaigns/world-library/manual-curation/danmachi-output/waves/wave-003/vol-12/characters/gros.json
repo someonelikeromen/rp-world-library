@@ -1,0 +1,30 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "gros",
+  "volume": "vol-12",
+  "time_range": { "start": "序章", "end": "终章" },
+  "sub_arcs": ["地表逃亡", "牺牲式报恩"],
+  "periods": [{
+    "period_id": "vol-12-gros-sacrifice-role",
+    "volume": "vol-12",
+    "time": "序章-终章",
+    "label": "自愿扮演暴走怪物报答贝尔",
+    "name": { "zh": "古罗斯", "en": "Gros", "jp": "グロス" },
+    "gender": "男",
+    "species": "石像鬼异端儿",
+    "occupation": "异端儿战士",
+    "affiliation": "异端儿",
+    "status": { "location": "地下城秘里", "state": "从荷米斯安排的牺牲任务中幸存" },
+    "summary": "古罗斯在地表逃亡中与里德、蕾依保护薇妮等同胞。他原本厌恶人族，但承认贝尔救过同胞，并在荷米斯要求牺牲时自愿带有翼异端儿返回地表，扮演暴走怪物袭击避难广场和埃伊娜，逼贝尔杀死自己。贝尔没有下杀手而选择相信他，阿斯泰里奥斯乱入后古罗斯被赫斯缇雅眷族救走，终章平安回到秘里。",
+    "key_events": [
+      { "event_id": "surface-xenos-hunt-after-daedalus", "summary": "在地下水道与同胞躲避追猎。", "sourceRef": "danmachi-main/vol-12/full.txt:1-300" },
+      { "event_id": "hermes-fake-daedalus-notebook-trap", "summary": "接受荷米斯交易，准备牺牲自己救同胞与贝尔名誉。", "sourceRef": "danmachi-main/vol-12/full.txt:8195-9326" },
+      { "event_id": "gros-attacks-eina-and-bell-refuses-to-kill", "summary": "袭击埃伊娜并在贝尔选择相信时停止。", "sourceRef": "danmachi-main/vol-12/full.txt:8195-9326" },
+      { "event_id": "xenos-return-and-bell-renews-training", "summary": "幸存并回到秘里。", "sourceRef": "danmachi-main/vol-12/full.txt:10847-11228" }
+    ],
+    "evidence_level": "S",
+    "source_refs": ["danmachi-main/vol-12/full.txt:1-300", "danmachi-main/vol-12/full.txt:8195-11228"]
+  }],
+  "source_refs": ["danmachi-main/vol-12/full.txt:1-300", "danmachi-main/vol-12/full.txt:8195-11228"]
+}

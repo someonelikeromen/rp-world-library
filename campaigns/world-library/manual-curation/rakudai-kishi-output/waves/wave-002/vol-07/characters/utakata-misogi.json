@@ -1,0 +1,45 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "rakudai-kishi",
+  "character_id": "utakata-misogi",
+  "volume": "vol-07",
+  "time_range": { "start": "vol-07 ch-003", "end": "vol-07 ch-003" },
+  "sub_arcs": ["hagun-hospital-recovery", "amane-truth"],
+  "periods": [
+    {
+      "period_id": "vol-07",
+      "volume": "vol-07",
+      "time": "After Stella's first-round victory",
+      "label": "泡沫苏醒并警告厄运",
+      "name": { "zh": "御祓泡沫", "en": "Utakata Misogi", "jp": "御祓泡沫" },
+      "aliases": ["小沫"],
+      "titles": ["破军学园副会长"],
+      "gender": "male",
+      "species": "human / Blazer",
+      "occupation": "student council vice president; student knight",
+      "affiliation": "Hagun Academy",
+      "status": { "current": "awakens after more than a week unconscious from the Akatsuki attack" },
+      "personality": {
+        "summary": "Normally airy, but wakes in panic because his battle with Amane taught him that fighting Amane risks irreversible disaster.",
+        "core_traits": ["usually calm", "urgent when danger is real", "protective", "traumatized by Amane"],
+        "fears": ["anyone fighting Amane Shinomiya", "irreversible outcomes caused by Amane's power"],
+        "values": ["warning allies", "preventing unwinnable confrontation"]
+      },
+      "abilities_owned": ["绝对不确定", "causality interference defensive revival"],
+      "relationships": {
+        "toka-todo": "Hospital neighbor and student council president who explains current events after he wakes.",
+        "kanata-totokubara": "Present in the hospital and confirms he slept over a week.",
+        "amane-shinomiya": "Opponent who defeated him during the Hagun attack with a power far worse than future prediction.",
+        "ikki-kurogane": "One of the people Utakata indirectly tries to warn through calls/messages."
+      },
+      "summary": "Utakata wakes in the hospital after sleeping for over a week following the Akatsuki attack. At first confused, he panics when he learns the Seven Stars tournament has begun and that Amane Shinomiya is about to fight. He warns Touka and Kanata that Amane's power is not future prediction, but something more violent and absolute, beyond normal strength comparisons. His warning becomes a crucial external confirmation of Ikki's later deduction that Amane can bend causality or luck to fulfill wishes, even overcoming Utakata's own Absolute Uncertainty.",
+      "key_events": [
+        { "event_id": "utakata-wakes-amane-warning", "summary": "Wakes and urgently warns that nobody should fight Amane." },
+        { "event_id": "amane-true-ability-revealed", "summary": "His defeat helps Ikki reason out Amane's real causality/luck ability." }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["rakudai-kishi-main/vol-07/ch-003"]
+    }
+  ],
+  "source_refs": ["rakudai-kishi-main/vol-07"]
+}

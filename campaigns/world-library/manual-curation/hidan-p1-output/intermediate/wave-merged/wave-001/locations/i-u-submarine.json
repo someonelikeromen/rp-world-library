@@ -1,0 +1,91 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "location",
+  "entityId": "i-u-submarine",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-04",
+  "_schema": "rp-location-volume-v1",
+  "periods": [
+    {
+      "periodId": "vol-04",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-04/full.txt:7375",
+        "hidan-no-aria-main/vol-04/full.txt:7404"
+      ],
+      "snapshot": {
+        "name": "伊·U核潜艇东方号",
+        "aliases": [
+          "东方号",
+          "伊·U",
+          "核子潜艇",
+          "超鲨鱼级核子潜艇"
+        ],
+        "type": "vehicle",
+        "description": "过去被称作东方号的史上最大核子潜艇，全长300公尺以上。1979年完工下水后随即遇难失踪。实际被『教授』偷走并作为伊·U的秘密基地。舰身白色大字『伊』『U』。备有战略飞弹，任何军事国家无法对抗。",
+        "details": {
+          "length": "300公尺以上",
+          "original_name": "东方号",
+          "year": "1979年完工后失踪（被伊·U劫持）",
+          "armament": "战略飞弹",
+          "marking": "白色『伊』『U』大字"
+        },
+        "controlled_by": "sherlock-holmes-i / I-U",
+        "affiliation": "伊·U",
+        "significance": "伊·U的真实面貌——一艘被劫持的巨型核潜艇，也是教授的大本营",
+        "key_events": [
+          "professor-reveal"
+        ],
+        "evidence_level": "S",
+        "source_refs": []
+      }
+    },
+    {
+      "period_id": "vol-05-main",
+      "volume": "vol-05",
+      "time": "2009年8月22日",
+      "name": {
+        "zh": "伊·U核子潜艇",
+        "en": "I·U Nuclear Submarine"
+      },
+      "aliases": [
+        "伊·U",
+        "蓝海魔宫"
+      ],
+      "type": "facility",
+      "description": "伊·U的老巢，一艘全长约三百公尺的核子潜艇。原为六十年前日德两国的潜舰代号，舰体是三十年前从白俄罗斯/旧苏联手中偷来的。内部被改造成博物馆/美术馆般的魔宫。",
+      "geography": {
+        "内部结构": "正门大厅（挑高天花板、水晶灯、恐龙化石、各种动物标本）→螺旋楼梯→水槽房间（腔棘鱼等）→植物园（孔雀等）→矿石标本库→书库→音乐厅→武器展示厅→金库→历代舰长墓地室→圣堂（新歌德式天主教堂）→ICBM收纳库（八具ICBM）",
+        "外部": "核子潜艇全长约300公尺"
+      },
+      "population": {},
+      "controlled_by": "夏洛克·福尔摩斯（至2009年8月22日）",
+      "affiliation": "伊·U",
+      "significance": "伊·U的移动基地，装载八具可毁灭大国的ICBM。夏洛克在此完成绯弹传承。",
+      "notable_residents": [
+        "夏洛克·福尔摩斯",
+        "弗拉德·德古拉伯爵",
+        "贞德·达鲁克三十世",
+        "佩特拉"
+      ],
+      "key_events": [
+        "i-u-submarine-battle",
+        "cathedral-duel",
+        "icbm-chase"
+      ],
+      "related_locations": [],
+      "hazards": [
+        "ICBM",
+        "鱼雷",
+        "各种天才的超能力陷阱"
+      ],
+      "secrets": [
+        "本为第二次世界大战轴心国共同计划",
+        "历代舰长肖像画后藏有秘道"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-05/chapters/ch-001-第五卷_序曲的终止线_贯穿弹1_穿越时空的男人.txt:1"
+      ]
+    }
+  ]
+}

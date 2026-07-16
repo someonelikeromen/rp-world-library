@@ -1,0 +1,44 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "ability",
+  "entityId": "anti-ki-barai-barrier",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-09",
+  "_schema": "rp-ability-volume-v1",
+  "periods": [
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:2870",
+        "hidan-no-aria-main/vol-09/full.txt:4515"
+      ],
+      "snapshot": {
+        "name": "驱鬼结界与反驱鬼结界",
+        "aliases": [
+          "东京海岸驱鬼结界",
+          "Anti Ki-Barai-Kekkai",
+          "反驱鬼结界道具"
+        ],
+        "type": "barrier / spiritual system",
+        "description": "玉藻设置覆盖都内海岸的驱鬼结界，能侦测并反击鬼怪类存在。希尔达作为俘虏进入区域时，需要自由石匠请求玉藻准备反驱鬼结界道具，以免被结界诅咒杀死。",
+        "known_users": [
+          "tamamo"
+        ],
+        "effects": [
+          "侦测进入结界的鬼怪类存在",
+          "可由玉藻以印进行反击",
+          "反驱鬼道具可临时保护希尔达这类俘虏"
+        ],
+        "limitations": [
+          "对己方俘虏也可能构成危险，需要特别处理"
+        ],
+        "associated_characters": [
+          "tamamo",
+          "hilda",
+          "watson"
+        ],
+        "evidence_level": "A"
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "ability-wise-blood",
+  "volume": "vol-02",
+  "source_refs": [
+    "vol-02"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-02",
+      "volume": "vol-02",
+      "time": "箱庭任务与教会遗址决斗",
+      "name": {
+        "zh": "财祸睿智",
+        "en": "Wise Blood"
+      },
+      "aliases": [
+        "《法夫纳》的预知未来神装"
+      ],
+      "type": "supernatural / technology / combat",
+      "description": "《法夫纳》的神装，能感应数秒后、半径数十公尺内的未来情景，使库露露席法能预判攻击与反击窗口。",
+      "details": {
+        "drag_ride": "item-fafnir",
+        "range": "半径数十公尺",
+        "forecast": "数秒后未来"
+      },
+      "activation": {
+        "condition": "库露露席法意识发动；保泽里多曾夺取使用",
+        "incantation": "《财祸睿智》",
+        "time": "短时持续",
+        "cost": "精神力和机龙能量"
+      },
+      "effects": [
+        "预知敌方攻击轨迹",
+        "辅助近战与射击反击",
+        "在被《千变魔术》夺取或干扰时会突然失效"
+      ],
+      "power_level": {
+        "initial": "能单独压制巨神兵",
+        "peak": "可在近距离看穿《艾基·达哈卡》攻击",
+        "evolution": []
+      },
+      "known_feats": [
+        "躲避巨神兵拳击并冻结关节",
+        "决斗中一度击碎保泽里多右肩炮台"
+      ],
+      "shared_by": [
+        "krulcifer-einfolk",
+        "balzeride-kreutzer（暂时夺取）"
+      ],
+      "see_also": [
+        "item-fafnir",
+        "ability-thousand-magic"
+      ],
+      "countered_by": [
+        "ability-thousand-magic"
+      ],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "ch-004-Episode3-第六遗迹—箱庭—",
+        "ch-005-Episode4-决斗"
+      ]
+    }
+  ]
+}

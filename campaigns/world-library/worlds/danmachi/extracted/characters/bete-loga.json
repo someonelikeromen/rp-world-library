@@ -1,0 +1,335 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "bete-loga",
+  "volume": "vol-01",
+  "time_range": {
+    "start": "bete-vol01",
+    "end": "vol-03-ch-05"
+  },
+  "sub_arcs": [],
+  "source_refs": [
+    "danmachi-main/vol-03/full.txt:6844",
+    "danmachi-main/vol-03/full.txt:6922"
+  ],
+  "periods": [
+    {
+      "period_id": "bete-vol01",
+      "volume": "vol-01",
+      "time": "vol-01",
+      "label": "羞辱贝尔的兽人",
+      "name": {
+        "zh": "伯特·罗卡",
+        "en": "Bete Loga",
+        "jp": "ベート・ローガ"
+      },
+      "aliases": [],
+      "titles": [],
+      "gender": "male",
+      "species": "兽人（狼人）",
+      "nationality": "未知",
+      "occupation": "冒险者",
+      "affiliation": "洛基眷族",
+      "status": {},
+      "appearance": {
+        "overview": "美形的兽人青年，个性暴躁。",
+        "physical": {
+          "height": "高",
+          "build": "健壮",
+          "hair": {},
+          "eyes": {}
+        },
+        "attire": {
+          "default": "冒险者装备"
+        },
+        "voice_quality": {},
+        "distinctive": [
+          "野兽般的气质"
+        ]
+      },
+      "personality": {
+        "summary": "傲慢好斗，崇尚力量。",
+        "core_traits": [
+          "傲慢",
+          "好斗",
+          "毒舌"
+        ],
+        "values": [
+          "力量"
+        ],
+        "fears": [],
+        "desires": [
+          "强大"
+        ],
+        "strengths": [
+          "LV.5"
+        ],
+        "flaws": [
+          "嘴臭",
+          "歧视弱者"
+        ],
+        "inner_conflict": "",
+        "decision_pattern": "力量至上"
+      },
+      "relationships": {
+        "ais-wallenstein": {
+          "type": "同眷族",
+          "description": "对艾丝有爱慕但没有得到回应"
+        },
+        "bell-cranel": {
+          "type": "侮辱对象",
+          "description": "当众羞辱贝尔"
+        }
+      },
+      "summary": "洛基眷族的兽人青年。在丰饶的女主人当众嘲笑贝尔是'小角色''窝囊废'，导致了贝尔的觉醒。",
+      "key_events": [
+        {
+          "event_id": "tavern-insult-incident",
+          "summary": "当众嘲笑贝尔，称其'小角色配不上艾丝·华伦斯坦'",
+          "sourceRef": "danmachi-main/vol-01/full.txt:827-2050"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-01/full.txt:827-2050"
+      ]
+    },
+    {
+      "period_id": "vol-03-ch-05",
+      "volume": "vol-03",
+      "time": "第五章",
+      "label": "见证贝尔独力击破弥诺陶洛斯",
+      "name": {
+        "zh": "伯特·罗加",
+        "en": "Bete Loga",
+        "jp": "ベート・ローガ"
+      },
+      "aliases": [
+        "伯特"
+      ],
+      "titles": [],
+      "gender": "男",
+      "species": "狼人",
+      "nationality": "",
+      "occupation": "第一级冒险者",
+      "affiliation": "洛基眷族",
+      "status": {
+        "location": "地下城第9层",
+        "condition": "健康"
+      },
+      "appearance": {
+        "overview": "灰发狼人青年，左额至下颚有闪电形刺青。",
+        "physical": {
+          "height": "高挑",
+          "build": "精悍",
+          "hair": {
+            "color": "灰色"
+          },
+          "eyes": {}
+        },
+        "attire": {
+          "default": "远征装备",
+          "combat": ""
+        },
+        "voice_quality": {
+          "tone": "粗鲁、尖刻"
+        },
+        "distinctive": [
+          "狼耳",
+          "闪电形面部刺青"
+        ]
+      },
+      "personality": {
+        "summary": "厌恶软弱与不自量力，却尊重以自身意志承担风险的人。",
+        "core_traits": [
+          "毒舌",
+          "骄傲",
+          "尚武",
+          "别扭",
+          "重视男子气概"
+        ],
+        "values": [
+          "衡量斤两",
+          "凭自己完成选择"
+        ],
+        "fears": [],
+        "desires": [
+          "确认贝尔异常成长的真相"
+        ],
+        "strengths": [
+          "敏锐感官",
+          "战斗判断"
+        ],
+        "flaws": [
+          "言辞侮辱性强",
+          "难以坦率帮助弱者"
+        ],
+        "inner_conflict": "不愿救援自己口中的弱者，却也不愿成为欺负弱小的人。",
+        "decision_pattern": {
+          "style": "先嘲讽评估，看到真正意志后承认对方"
+        }
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {
+          "bell-cranel": "番茄小子、小鬼"
+        },
+        "register": {
+          "default": "粗鲁、讥讽"
+        },
+        "catchphrases": [],
+        "quote_samples": [
+          "竟然，打赢了……"
+        ]
+      },
+      "habits": {
+        "mannerisms": [
+          "不悦时咋舌",
+          "兽耳随情绪下垂"
+        ],
+        "daily_routine": "随洛基眷族远征",
+        "quirks": [],
+        "preferences": {
+          "respect": "有实力与觉悟者"
+        }
+      },
+      "background": {
+        "birth": {
+          "place": "",
+          "family": []
+        },
+        "upbringing": "",
+        "education": {},
+        "formative_events": [],
+        "pre_story": "一个月前曾嘲笑被弥诺陶洛斯追赶的贝尔。"
+      },
+      "abilities_owned": [],
+      "possessions_owned": [],
+      "relationships": {
+        "bell-cranel": {
+          "type": "从轻蔑转为震撼关注",
+          "summary": "亲眼见证贝尔在一个月内从菜鸟成长到独力击败弥诺陶洛斯。"
+        },
+        "liliruca-arde": {
+          "type": "被求助者",
+          "summary": "在莉莉哀求下准备出手，但最终停步旁观死斗。"
+        }
+      },
+      "knowledge": [
+        "贝尔约一个月前还是彻底菜鸟",
+        "贝尔的能力值至少多项达到S"
+      ],
+      "secrets": [],
+      "summary": "伯特起初坚持不干涉贝尔主动选择的战斗，随后被其与弥诺陶洛斯势均力敌的表现震撼；胜负后，他迫切要求确认贝尔能力值。",
+      "key_events": [
+        {
+          "event_id": "bell-defeats-armed-minotaur",
+          "summary": "见证贝尔完成第一次冒险并开始重新评价他。",
+          "sourceRef": "danmachi-main/vol-03/full.txt:6844"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-03/full.txt:6844",
+        "danmachi-main/vol-03/full.txt:6922"
+      ]
+    },
+    {
+      "period_id": "vol-12-bete-stops-haruhime-path",
+      "volume": "vol-12",
+      "time": "第五章-第七章",
+      "label": "追踪贝尔并被春姬、阿伊莎拖住",
+      "name": {
+        "zh": "伯特·罗卡",
+        "en": "Bete Loga"
+      },
+      "gender": "男",
+      "species": "狼人",
+      "occupation": "洛基眷族第一级冒险者",
+      "affiliation": "洛基眷族",
+      "status": {
+        "level": "Lv.6",
+        "location": "代达罗斯路、中央广场周边",
+        "state": "承认春姬的觉悟但仍击败阿伊莎"
+      },
+      "summary": "伯特嗅觉和速度极强，追踪到贝尔带春姬、薇妮穿越代达罗斯路。春姬主动现身阻挡他，虽弱小却不让路，伯特以恶言和杀气试探后承认她的觉悟，把她视作敌人。阿伊莎接受春姬等级升华赶到并与伯特战斗，但最终被他击败。贝尔与阿斯泰里奥斯决斗时，伯特在旁观中没有闹场。",
+      "key_events": [
+        {
+          "event_id": "bell-haruhime-rescue-wiene-and-haruhime-stops-bete",
+          "summary": "被春姬和阿伊莎拖住。",
+          "sourceRef": "danmachi-main/vol-12/full.txt:4953-8194"
+        },
+        {
+          "event_id": "bell-vs-asterius-public-duel",
+          "summary": "旁观决斗并未介入。",
+          "sourceRef": "danmachi-main/vol-12/full.txt:9327-10846"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-12/full.txt:4953-8194",
+        "danmachi-main/vol-12/full.txt:9327-10846"
+      ]
+    },
+    {
+      "period_id": "vol-17-bete-ais-dream",
+      "volume": "vol-17",
+      "time": "短篇 5YEARS AFTER ~Side Ais~",
+      "label": "出现在洛基眷族深层全灭梦中的同伴",
+      "name": {
+        "zh": "伯特·罗卡",
+        "en": "Bete Loga",
+        "jp": "ベート・ローガ"
+      },
+      "gender": "男",
+      "species": "狼人",
+      "occupation": "冒险者",
+      "affiliation": "洛基眷族",
+      "status": {
+        "level": "Lv.6",
+        "location": "艾丝梦境中的深层",
+        "state": "在艾丝梦见的悲伤未来里与眷族同伴倒下"
+      },
+      "summary": "艾丝梦见洛基眷族在深邃迷宫深处全灭，芬恩、里维莉亚、加雷斯、缇奥娜、缇奥涅、伯特、蕾菲亚以及其他团员都浑身是伤倒下，眼睑再也没有睁开。伯特作为该悲伤未来中的核心同伴之一出现。",
+      "key_events": [
+        "ais-dreams-possible-futures-and-her-hero"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-17/chapters/ch-009-5YEARS-AFTER-~Side-Ais~.txt"
+      ]
+    },
+    {
+      "period_id": "vol-28-bete-wolf-recognizes-bell",
+      "volume": "vol-28",
+      "time": "第四章至第五章",
+      "label": "认可贝尔并以炎狼哈提开路的凶狼",
+      "name": {
+        "zh": "伯特·罗加",
+        "en": "Bete Loga",
+        "jp": "ベート・ローガ"
+      },
+      "gender": "男",
+      "species": "狼人",
+      "occupation": "冒险者、洛基眷族第一级冒险者",
+      "affiliation": "洛基眷族",
+      "status": {
+        "level": "Lv.6",
+        "location": "地下城第60层",
+        "state": "远征失败后藏身待援；会合救援队后持续作战至最终战"
+      },
+      "summary": "伯特在魔界中独自撑到救援队抵达，并于艾丝复制体地狱中救下濒死的贝尔。他以凶狼姿态带队高速突破，利用弗洛斯维尔特吸收并反射风与魔法，还与被寄生的缇欧娜苦战并承认贝尔已有资格拯救艾丝。最终战时，他在洛基与赫斯缇亚的刺激下正式对贝尔说出‘如今的你已经不是杂鱼’，并发动秘藏魔法哈提，将魔法与伤害转化为炎狼之牙，粉碎污秽仙精的大屏障，为贝尔终结仙精龙开出道路。",
+      "key_events": [
+        "bete-rejoins-and-breaks-ais-copy-trap",
+        "bete-and-bell-push-through-magic-realm",
+        "bell-and-allies-defeat-corrupted-spirit-and-rescue-ais"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-28/chapters/ch-007-第四章-奇迹的代价.txt",
+        "danmachi-main/vol-28/chapters/ch-008-第五章-The-Noob-is-Gone①.txt",
+        "danmachi-main/vol-28/chapters/ch-010-第五章-The-Noob-is-Gone③.txt"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "schema": "tm-fgo-packet-audit-report-v1",
+  "packetId": "pkt-fgo-part1-fuyuki-extract",
+  "round": "auditor",
+  "model": "lt-yuyu/gpt-5.5",
+  "status": "needs-fixer",
+  "openIssues": 3,
+  "blockedIssues": 0,
+  "canAdvance": false,
+  "checks": [
+    {"check": "canceled r6 output trust", "result": "failed", "detail": "Existing Fuyuki output was treated as suspect and required overwrite/repair."},
+    {"check": "schema consistency", "result": "failed", "detail": "Older event files used a different shard schema label and eventId style."},
+    {"check": "audit artifacts", "result": "failed", "detail": "No packet audit/final-status artifacts existed for Fuyuki."}
+  ],
+  "sourceRefs": ["sources/worldbook-script/part1/ch-000-fuyuki.txt#world_timeline"]
+}

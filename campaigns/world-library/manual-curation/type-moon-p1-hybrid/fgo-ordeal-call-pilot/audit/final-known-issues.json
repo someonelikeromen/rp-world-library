@@ -1,0 +1,45 @@
+{
+  "schema": "tm-fgo-final-known-issues-v1",
+  "mergeStepId": "finalize-ordeal-call-merge",
+  "status": "known-source-limitations-only",
+  "openBlockingIssues": 0,
+  "policyRaw": "No final read-only audit was run in this step by delegation. Known issues are limited to already-recorded source limitations and policy assumptions.",
+  "sourceRefs": [
+    "sources/worldbook-script/ordeal-call/ch-104-oc1-paper-moon.txt:1-87",
+    "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:1-89",
+    "sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt:1-92"
+  ],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like",
+  "records": [
+    {
+      "issueId": "source-summary-not-transcript",
+      "severity": "non-blocking",
+      "issueRaw": "Current sources are structured worldbook script summaries, not full scene transcripts.",
+      "impactRaw": "Direct dialogue, precise visual staging, combat choreography, and formal NP/skill details are often absent and remain not-found or candidate-only.",
+      "sourceRefs": [
+        "sources/worldbook-script/ordeal-call/ch-104-oc1-paper-moon.txt:1-87",
+        "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:1-89",
+        "sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt:1-92"
+      ],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "issueId": "final-read-only-audit-not-run-by-delegation",
+      "severity": "non-blocking",
+      "issueRaw": "This finalization step intentionally did not run a final read-only audit.",
+      "impactRaw": "Final status relies on parent validation statement, packet gate files read in this step, and the minimal creation/repair actions recorded in final pass artifacts.",
+      "sourceRefs": [
+        "sources/worldbook-script/ordeal-call/ch-104-oc1-paper-moon.txt:1-87",
+        "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:1-89",
+        "sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt:1-92"
+      ],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    }
+  ]
+}

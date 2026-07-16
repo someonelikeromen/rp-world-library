@@ -1,0 +1,92 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "creator-authority",
+  "volume": "vol-06",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:2010",
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:2070"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-06",
+      "volume": "vol-06",
+      "time": "本卷",
+      "name": {
+        "zh": "创造主权限",
+        "en": "Creator Authority"
+      },
+      "aliases": [
+        "创造主血统权限"
+      ],
+      "type": "authority / technology",
+      "description": "海兹等创造主凭血与精神命令自动人形、遗迹与改变兵器的权限。",
+      "details": {
+        "known_user": "hayes",
+        "cost": "控制改变兵器需要献上血与精神"
+      },
+      "activation": {
+        "condition": "创造主身份与遗迹控制核心",
+        "incantation": "无",
+        "time": "持续",
+        "cost": "血、精神、生命风险"
+      },
+      "effects": [
+        "命令设施领导者",
+        "启动巨兵",
+        "操纵改变兵器"
+      ],
+      "known_feats": [
+        "海兹命令艾儿·法洁勒启动第五遗迹巨兵"
+      ],
+      "shared_by": [
+        "hayes"
+      ],
+      "see_also": [
+        "gigant-control",
+        "holy-arcadia-royal-names"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:2010",
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:2070"
+      ]
+    },
+    {
+      "period_id": "vol-09",
+      "volume": "vol-09",
+      "time": "vol-09",
+      "name": {
+        "zh": "创造主权威",
+        "en": "Creator Authority"
+      },
+      "aliases": [
+        "旧时代皇族权限"
+      ],
+      "type": "authority / technology",
+      "description": "创造主作为旧时代皇族对遗迹、机龙资源和大圣域情报拥有的权威。",
+      "details": {
+        "used_by": "listelka",
+        "scope": "遗迹所有权宣称、机龙赠与、同盟条件设定"
+      },
+      "activation": {
+        "condition": "创造主皇族身份与遗迹权限",
+        "incantation": "",
+        "time": "political / technical",
+        "cost": "unknown"
+      },
+      "effects": [
+        "启动巨兵证明身份",
+        "提供大量机龙作为报酬",
+        "指定遗迹攻略规则"
+      ],
+      "shared_by": [
+        "listelka"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:1915"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema": "tm-p1-event-v1",
+  "event_id": "fate-evt-004-rider-school-and-skyscraper-defeat",
+  "worldId": "type-moon-nasuverse",
+  "continuity": "fsn",
+  "timelineId": "fsn-fate-route",
+  "route": "fate-route",
+  "canonStatus": "canon-like",
+  "time": { "start": { "value": null, "precision": "relative-only", "relative": "Fate route day nine", "orderIndex": 220 }, "end": { "value": null, "precision": "relative-only", "relative": "Fate route day ten", "orderIndex": 228 }, "duration": "two-days", "confidence": "medium" },
+  "timelineNodes": [
+    { "nodeId": "start", "label": "School barrier activates", "time": { "relative": "Day nine", "orderIndex": 220 }, "summary": "The school barrier activates and students are harmed." },
+    { "nodeId": "middle-001", "label": "Rider retreats", "time": { "relative": "Day nine school battle", "orderIndex": 223 }, "summary": "Saber fights Rider while Shirou defeats Shinji; Rider uses Bellerophon to cover retreat." },
+    { "nodeId": "end", "label": "Rider defeated", "time": { "relative": "Day ten skyscraper battle", "orderIndex": 228 }, "summary": "Saber releases Excalibur and destroys Rider at the skyscraper." }
+  ],
+  "participants": ["emiya-shirou", "saber-artoria", "matou-shinji", "rider-medusa"],
+  "locationRefs": ["homurahara-academy", "shinto-skyscraper"],
+  "cause": "Rider and Shinji escalate the school bounded-field threat.",
+  "process": "The school fight exposes Bellerophon, then the following day Saber uses Excalibur in the skyscraper battle.",
+  "outcome": "Rider is eliminated in Fate route and Saber's true identity as Arthur is exposed.",
+  "stateChanges": ["Rider eliminated", "Saber's magical energy crisis worsens after Excalibur"],
+  "relationshipChanges": ["Shirou and Saber confirm mutual trust"],
+  "sourceType": "curated-story-derived",
+  "credibility": "B",
+  "sourceRefs": ["type-moon-nasuverse/story-text/fate/ch-002-fate-route.txt:69", "type-moon-nasuverse/story-text/fate/ch-002-fate-route.txt:71", "type-moon-nasuverse/story-text/fate/ch-002-fate-route.txt:75", "type-moon-nasuverse/story-text/fate/ch-002-fate-route.txt:76", "type-moon-nasuverse/story-text/fate/ch-002-fate-route.txt:77"]
+}

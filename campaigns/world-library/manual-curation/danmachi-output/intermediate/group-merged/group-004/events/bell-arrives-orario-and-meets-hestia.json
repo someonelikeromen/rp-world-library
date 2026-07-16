@@ -1,0 +1,69 @@
+{
+  "_schema": "rp-event-volume-v1",
+  "world": "danmachi",
+  "event_id": "bell-arrives-orario-and-meets-hestia",
+  "volume": "vol-11",
+  "source_refs": [
+    "danmachi-main/vol-11/full.txt:1-598"
+  ],
+  "_revisions": [
+    {
+      "type": "fix",
+      "description": "收敛事件 participants 至本卷已建角色档案，移除未建档的背景/旁观/可跨卷补充角色，降低 dangling reference 风险。",
+      "source_refs": [
+        "danmachi-main/vol-11/full.txt:1-3374"
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "period_id": "vol-11-bd1",
+      "volume": "vol-11",
+      "time": "BD1短篇 启程之日 开始之日",
+      "name": {
+        "zh": "贝尔抵达欧拉丽并邂逅赫斯缇雅",
+        "en": "Bell Arrives in Orario and Meets Hestia"
+      },
+      "type": "origin",
+      "location": "欧拉丽北门、第一墓地、街道小巷",
+      "summary": "贝尔在祖父遗言与英雄憧憬推动下离开故乡，搭商队马车来到欧拉丽。他入城时被公会与迦尼萨眷族冒险者检查，听见冒险者最重要的是遇见好神明和运气；入城后目睹洛基眷族远征归来与剑姬艾丝，参拜冒险者墓地的古代英雄纪念碑。随后数日他不断被眷族拒绝，钱用尽后险些被孤独压垮，最终在误入小巷前被正在招募成员的赫斯缇雅叫住，答应加入她的眷族，赫斯缇雅眷族由此开始。",
+      "cause": "贝尔失去祖父后遵循其关于欧拉丽、英雄与自选道路的叮嘱，前往迷宫都市寻找邂逅和冒险者之路。",
+      "process": "他进入都市、寻找旅店和眷族，拜访多个派阀却因乡下少年、无恩惠无装备而被拒绝；善良旅店老板给他黑面包并提醒他要学会怀疑别人。",
+      "outcome": "贝尔与赫斯缇雅相遇并加入她的眷族，获得自己在欧拉丽的家人和故事起点。",
+      "participants": [
+        "bell-cranel",
+        "hestia",
+        "ais-wallenstein"
+      ],
+      "related_events": [],
+      "significance": "补完贝尔初到欧拉丽与赫斯缇雅眷族创立的原点，也强调祖父让他自己选择道路的核心价值。",
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-11/full.txt:1-598"
+      ]
+    },
+    {
+      "period_id": "vol-16-ch003-bell-origin",
+      "volume": "vol-16",
+      "time": "第一章 启程之日，起始之日",
+      "name": {
+        "zh": "贝尔初到欧拉丽并遇见赫斯缇雅",
+        "en": "Bell Arrives in Orario and Meets Hestia"
+      },
+      "type": "origin_memory",
+      "location": "欧拉丽北门、第一公墓、东部旅馆、后巷",
+      "summary": "贝尔离开故乡后搭商队马车抵达欧拉丽，入城时听守门冒险者哈桑纳建议冒险者最重要的是遇见好主神与运气。他参拜第一公墓古代英雄碑，却在寻找眷族时屡遭拒绝、钱财耗尽并得到旅馆店主赠送黑面包。孤独绝望时，赫斯缇雅在后巷向他伸手，两人互报姓名，赫斯缇雅眷族由此开始。",
+      "cause": "贝尔追随祖父留下的英雄憧憬，来到迷宫都市寻找邂逅与冒险者道路。",
+      "outcome": "贝尔成为赫斯缇雅第一位眷属，找到自己的归宿。",
+      "participants": [
+        "bell-cranel",
+        "hestia"
+      ],
+      "significance": "赫斯缇雅眷族创始事件，也是贝尔『自己的故事』的起点。",
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-16/chapters/ch-003-第一章-启程之日，起始之日.txt"
+      ]
+    }
+  ]
+}

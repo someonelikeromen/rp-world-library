@@ -1,0 +1,137 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "resonance-wave",
+  "volume": "vol-03",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-03/full.txt:5379"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-03",
+      "volume": "vol-03",
+      "time": "波赛顿最终战",
+      "name": {
+        "zh": "共鸣波动",
+        "en": "Resonance Wave"
+      },
+      "aliases": [
+        "巴哈姆特内藏特殊武装"
+      ],
+      "type": "technology / combat",
+      "description": "巴哈姆特内藏特殊武装，可干涉周围物质形成力场并移动小型物体。",
+      "details": {
+        "limitation": "威力不足以直接破坏物体或轰飞大型目标。",
+        "use_in_volume": "路克斯用其卷起瓦砾与遗落武装，边战斗边远程击落袭击校舍的飞翔机龙。"
+      },
+      "activation": {
+        "condition": "装备巴哈姆特",
+        "incantation": "共鸣波动",
+        "time": "即时",
+        "cost": "与巴哈姆特操作负担叠加"
+      },
+      "effects": [
+        "吸引周围武器",
+        "使瓦砾和机攻壳剑浮起",
+        "辅助远距投掷打击"
+      ],
+      "power_level": {
+        "initial": "移动小型物件",
+        "peak": "在永久连环中连续调度大量遗落武装",
+        "evolution": []
+      },
+      "known_feats": [
+        "击落学园上空多架敌方飞翔机龙",
+        "为路克斯同时救援校舍和攻略波赛顿创造条件"
+      ],
+      "shared_by": [
+        "lux-arcadia"
+      ],
+      "see_also": [
+        "bahamut",
+        "endless-chain"
+      ],
+      "countered_by": [
+        "大型目标直接抗性"
+      ],
+      "counters": [
+        "远处低防御敌机",
+        "缺乏警戒的飞行单位"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-03/full.txt:5379"
+      ]
+    },
+    {
+      "period_id": "vol-14",
+      "volume": "vol-14",
+      "time": "大圣域攻略战",
+      "name": {
+        "zh": "共鸣波动",
+        "en": "Resonance Wave"
+      },
+      "type": "technology / drag-ride special armament",
+      "description": "巴哈姆特内藏特殊武装，可释放波动弹开或推动对象。本卷路克斯用它推动瓦砾干扰库露露席法的零距离射击。",
+      "shared_by": [
+        "lux-arcadia"
+      ],
+      "known_feats": [
+        "弹开瓦砾",
+        "改变近身射击轨道"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-14/full.txt:4800"
+      ]
+    },
+    {
+      "period_id": "vol-21-finale",
+      "volume": "vol-21",
+      "time": "Yatoro duel",
+      "name": {
+        "zh": "共鸣波动",
+        "en": "Resonance Wave"
+      },
+      "aliases": [],
+      "type": "technology / combat",
+      "description": "Lux uses Resonance Wave during the duel to recover thrown daggers and keep up ranged pressure against Yatoro while avoiding her Instant Strike range.",
+      "details": {
+        "user": "lux-arcadia",
+        "tactical_role": "retrieve and reuse thrown weapons"
+      },
+      "activation": {
+        "condition": "compatible Drag-Ride control and deployed weapons",
+        "incantation": "",
+        "time": "short",
+        "cost": "attention split"
+      },
+      "effects": [
+        "recovers dropped blades",
+        "maintains ranged harassment",
+        "helps preserve distance"
+      ],
+      "known_feats": [
+        "Used in Lux's plan to avoid Yatoro's decisive close range."
+      ],
+      "shared_by": [
+        "lux-arcadia"
+      ],
+      "see_also": [
+        "instant-strike"
+      ],
+      "countered_by": [
+        "closing distance faster than retrieval cycle"
+      ],
+      "counters": [
+        "single-use thrown weapon limitation"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-21/full.txt:3541-4448"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "cassandra-ilion",
+  "volume": "vol-06",
+  "time_range": {
+    "start": "第二章",
+    "end": "第五章"
+  },
+  "sub_arcs": [
+    "邀请函",
+    "预知梦",
+    "王座塔雷电预言"
+  ],
+  "source_refs": [
+    "danmachi-main/vol-06/full.txt:1106-8037"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-06-ch-02-invitation",
+      "volume": "vol-06",
+      "time": "第二章 Shall We Dance？",
+      "label": "怯生生的邀请使者",
+      "name": {
+        "zh": "卡珊德拉·伊利翁",
+        "en": "Cassandra Ilion",
+        "jp": "カサンドラ・イリオン"
+      },
+      "gender": "女",
+      "species": "人类",
+      "occupation": "冒险者、治愈师",
+      "affiliation": "阿波罗眷族",
+      "status": {
+        "level": "Lv.2",
+        "location": "公会本部",
+        "state": "与达芙妮递送阿波罗邀请函"
+      },
+      "personality": {
+        "summary": "怯弱、善良，常因说出不祥预感而被达芙妮制止。",
+        "core_traits": [
+          "怯生",
+          "预感敏锐",
+          "善良",
+          "不被相信"
+        ]
+      },
+      "relationships": {
+        "daphne-lauros": "同伴；照顾但不相信她的梦",
+        "bell-cranel": "邀请函目标"
+      },
+      "summary": "卡珊德拉在公会怯生生地把阿波罗宴会邀请函交给贝尔，甚至说不来也没关系，被达芙妮拍头制止。",
+      "key_events": [
+        {
+          "event_id": "apollo-banquet-invitation-delivered",
+          "summary": "递交宴会邀请函。",
+          "sourceRef": "danmachi-main/vol-06/full.txt:1106"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-06/full.txt:1106"
+      ]
+    },
+    {
+      "period_id": "vol-06-ch-03-prophetic-dream",
+      "volume": "vol-06",
+      "time": "第三章 爆发",
+      "label": "受伤兔子的预知梦",
+      "name": {
+        "zh": "卡珊德拉·伊利翁",
+        "en": "Cassandra Ilion",
+        "jp": "カサンドラ・イリオン"
+      },
+      "gender": "女",
+      "species": "人类",
+      "occupation": "治愈师",
+      "affiliation": "阿波罗眷族",
+      "status": {
+        "level": "Lv.2",
+        "location": "欧拉丽屋顶",
+        "state": "随达芙妮追捕贝尔，并预感不应逼迫兔子"
+      },
+      "personality": {
+        "summary": "试图警告同伴不要逼迫贝尔，却仍无人相信。",
+        "core_traits": [
+          "预知梦",
+          "焦虑",
+          "温柔",
+          "无力感"
+        ]
+      },
+      "abilities_owned": [
+        "治愈魔法",
+        "预知梦（不被承认为常规能力）"
+      ],
+      "relationships": {
+        "daphne-lauros": "不相信她的预知梦",
+        "bell-cranel": "梦中的受伤兔子"
+      },
+      "summary": "卡珊德拉治疗被贝尔火焰闪电击伤的同伴，并告诉达芙妮梦见受伤的兔子跳过月亮吞掉太阳，劝她不要把贝尔逼到绝境。",
+      "key_events": [
+        {
+          "event_id": "cassandra-warns-not-to-corner-rabbit",
+          "summary": "以预知梦警告不要刺激贝尔。",
+          "sourceRef": "danmachi-main/vol-06/full.txt:3028"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-06/full.txt:3028"
+      ]
+    },
+    {
+      "period_id": "vol-06-ch-05-thunder-warning",
+      "volume": "vol-06",
+      "time": "第五章 我们的战争游戏",
+      "label": "雷电将升起",
+      "name": {
+        "zh": "卡珊德拉·伊利翁",
+        "en": "Cassandra Ilion",
+        "jp": "カサンドラ・イリオン"
+      },
+      "gender": "女",
+      "species": "人类",
+      "occupation": "治愈师、冒险者",
+      "affiliation": "阿波罗眷族（战败后无眷族）",
+      "status": {
+        "level": "Lv.2",
+        "location": "修利姆古城王座厅",
+        "state": "预感王座厅会被下方雷电毁灭，撞飞雅辛托斯救其一命"
+      },
+      "personality": {
+        "summary": "即使被骂做梦也坚持警告；最后以身体行动保护雅辛托斯。",
+        "core_traits": [
+          "预知",
+          "怯弱但善良",
+          "保护同伴",
+          "不被理解"
+        ]
+      },
+      "relationships": {
+        "hyakinthos-clio": "试图劝其逃离，最后撞飞救他",
+        "liliruca-arde": "决斗中被莉莉撞开阻止干扰贝尔"
+      },
+      "summary": "卡珊德拉在王座厅不断请求雅辛托斯逃走，预言“雷电要升起”。贝尔的蓄力火焰闪电轰穿王座厅前，她撞飞雅辛托斯使其幸存；之后又试图干扰贝尔，被莉莉阻止。",
+      "key_events": [
+        {
+          "event_id": "bell-blasts-apollo-throne-room",
+          "summary": "预言王座厅将被下方雷电轰毁。",
+          "sourceRef": "danmachi-main/vol-06/full.txt:7541"
+        },
+        {
+          "event_id": "bell-defeats-hyakinthos",
+          "summary": "试图干扰贝尔时被莉莉撞开。",
+          "sourceRef": "danmachi-main/vol-06/full.txt:7930"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-06/full.txt:7340",
+        "danmachi-main/vol-06/full.txt:7541",
+        "danmachi-main/vol-06/full.txt:7930"
+      ]
+    },
+    {
+      "period_id": "vol-07-ch-01",
+      "volume": "vol-07",
+      "time": "第一章 一帆风顺",
+      "label": "被相信的预知梦少女",
+      "name": {
+        "zh": "卡珊德拉·伊利翁",
+        "en": "Cassandra Ilion",
+        "jp": "カサンドラ・イリオン"
+      },
+      "aliases": [
+        "卡珊德拉"
+      ],
+      "gender": "女",
+      "species": "人类",
+      "occupation": "冒险者、治疗师",
+      "affiliation": "前阿波罗眷族；志愿加入赫斯缇雅眷族未成",
+      "status": {
+        "location": "赫斯缇雅眷族新总部外",
+        "state": "因预知梦寻找枕头，被贝尔相信后决意入团，却因债务风波被达芙妮带走"
+      },
+      "appearance": {
+        "overview": "长发、三角眼，气质怯弱的少女。",
+        "distinctive": [
+          "三角眼",
+          "长发"
+        ]
+      },
+      "personality": {
+        "summary": "怯弱、爱哭但直觉强烈，极度渴望自己的预知梦被相信；得到贝尔信任后感动到决定加入赫斯缇雅眷族。",
+        "core_traits": [
+          "怯弱",
+          "执着",
+          "感激",
+          "预感敏锐"
+        ],
+        "fears": [
+          "无人相信预知梦",
+          "失去惯用枕头"
+        ]
+      },
+      "abilities_owned": [
+        "预知梦"
+      ],
+      "possessions_owned": [
+        "淡红色枕头"
+      ],
+      "relationships": {
+        "daphne-lauros": "同伴与照看者，对方不相信她的预知梦",
+        "bell-cranel": "相信她并找回枕头的人"
+      },
+      "summary": "紧抱赫斯缇雅眷族总部铁栏杆，坚持预知梦告诉自己枕头在宅邸内。贝尔相信她并找回淡红色枕头后，卡珊德拉深受感动并决定作为志愿入团者出现；债务借据曝光后，达芙妮立即带她离开。",
+      "key_events": [
+        {
+          "event_id": "cassandra-pillow-prophecy",
+          "summary": "预知枕头藏在宅邸并得到贝尔相信。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:602"
+        },
+        {
+          "event_id": "hestia-familia-recruitment-collapse",
+          "summary": "以志愿入团者身份到场后因债务风波被带走。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:984"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-07/full.txt:538",
+        "danmachi-main/vol-07/full.txt:602",
+        "danmachi-main/vol-07/full.txt:676",
+        "danmachi-main/vol-07/full.txt:984"
+      ]
+    },
+    {
+      "period_id": "vol-08-ch-01",
+      "volume": "vol-08",
+      "time": "第一章 献给某武神的恋歌",
+      "label": "从阿波罗到米赫",
+      "name": {
+        "zh": "卡珊德拉·伊利翁",
+        "en": "Cassandra Ilion",
+        "jp": "カサンドラ・イリオン"
+      },
+      "gender": "女",
+      "species": "人类",
+      "occupation": "第三级冒险者",
+      "affiliation": "米赫眷族；原阿波罗眷族",
+      "status": {
+        "location": "天青药铺",
+        "state": "改宗后与达芙妮一同加入米赫眷族"
+      },
+      "appearance": {
+        "overview": "长发、下垂眼的怯懦少女冒险者。"
+      },
+      "personality": {
+        "summary": "怯生生但善良，仍对未能加入赫斯缇雅眷族略感遗憾。",
+        "core_traits": [
+          "胆怯",
+          "温和",
+          "顺从"
+        ],
+        "desires": [
+          "原本想加入赫斯缇雅眷族"
+        ]
+      },
+      "relationships": {
+        "daphne-lauros": "搭档与同伴",
+        "naaza-erisuys": "新眷族同伴",
+        "miach": "新主神"
+      },
+      "summary": "卡珊德拉随达芙妮加入米赫眷族，虽然仍对没能加入赫斯缇雅眷族有些遗憾，但开始作为米赫眷族成员活动。",
+      "key_events": [
+        {
+          "event_id": "daphne-cassandra-join-miach-familia",
+          "summary": "与达芙妮改宗到米赫眷族。",
+          "sourceRef": "danmachi-main/vol-08/full.txt:1244"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-08/full.txt:1214",
+        "danmachi-main/vol-08/full.txt:1244"
+      ]
+    }
+  ]
+}

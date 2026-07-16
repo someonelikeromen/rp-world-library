@@ -1,0 +1,49 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "item",
+  "entityId": "irokaneyame",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-09",
+  "_schema": "rp-item-volume-v1",
+  "periods": [
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:5050",
+        "hidan-no-aria-main/vol-09/full.txt:5200",
+        "hidan-no-aria-main/vol-09/full.txt:7043"
+      ],
+      "snapshot": {
+        "name": "色金杀女",
+        "aliases": [
+          "白雪佩刀",
+          "色金杀女朱红刀鞘",
+          "星伽佩刀"
+        ],
+        "type": "sword / supernatural artifact",
+        "description": "白雪佩刀，本卷在玉藻说明中被指出与绯绯色金、星伽职责和过去佩特拉夺取事件相关。卷末照片中拔出刀鞘的色金杀女与其他巴斯克维尔武器一起被G血族堆放。",
+        "details": {
+          "owner": "shirayuki",
+          "affiliation": "星伽",
+          "artifact_context": "涉及色金、壳金与星伽巫女守护职责"
+        },
+        "owner": "shirayuki",
+        "status": "卷末被敌方暂时夺取展示",
+        "features": [
+          "星伽巫女核心武装",
+          "与色金管理职责相关",
+          "可作为G血族袭击白雪的证据物"
+        ],
+        "associated_systems": [
+          "scarlet-shell-seven-stars",
+          "extreme-east-war"
+        ],
+        "history": [
+          "玉藻提到色金杀女曾被佩特拉夺去，关系到绯弹壳金问题",
+          "卷末与亚莉亚双枪、理子德林吉、蕾姬狙击枪一同被拍照展示"
+        ],
+        "evidence_level": "S"
+      }
+    }
+  ]
+}

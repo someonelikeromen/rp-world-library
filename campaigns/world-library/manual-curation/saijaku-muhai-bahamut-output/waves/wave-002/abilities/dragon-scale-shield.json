@@ -1,0 +1,52 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "dragon-scale-shield",
+  "volume": "vol-06",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:5860"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-06",
+      "volume": "vol-06",
+      "time": "本卷",
+      "name": {
+        "zh": "龙鳞装盾",
+        "en": "Dragon Scale Shield"
+      },
+      "aliases": [
+        "自动防御盾"
+      ],
+      "type": "technology / equipment skill",
+      "description": "法夫纳的自动防御武装，可在危急时保护驾驶者。",
+      "details": {
+        "item": "dragon-scale-shield-item"
+      },
+      "activation": {
+        "condition": "受到攻击或驾驶者控制",
+        "incantation": "无",
+        "time": "瞬间",
+        "cost": "机龙能量"
+      },
+      "effects": [
+        "自动防御",
+        "抵挡炮击爆风"
+      ],
+      "known_feats": [
+        "库露露席法侦察巨兵时靠龙鳞装盾逃过炮击直击"
+      ],
+      "shared_by": [
+        "krulcifer-einfolk"
+      ],
+      "see_also": [
+        "fafnir",
+        "freeze-projector"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:5860"
+      ]
+    }
+  ]
+}

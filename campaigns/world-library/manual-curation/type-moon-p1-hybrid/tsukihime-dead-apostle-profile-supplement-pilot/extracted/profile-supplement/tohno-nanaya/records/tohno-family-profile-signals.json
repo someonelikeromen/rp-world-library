@@ -1,0 +1,49 @@
+{
+  "schema": "tm-tsukihime-extracted-source-signal-v1",
+  "packetId": "tohno-nanaya",
+  "recordId": "extracted-tohno-family-profile-signals",
+  "subjectId": "tohno-family",
+  "subjectLabel": "远野家族",
+  "continuity": {
+    "rawSourceLabel": "远野家族 / mixed-blood context",
+    "canonicalContinuity": "sandbox",
+    "taxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy/rawLabelMapping/mixed/crossover/RP premise"
+  },
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "candidateOnly": false,
+  "sourceRefs": [
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:19",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:20",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:21",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:22",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:23",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:24"
+  ],
+  "signals": [
+    {
+      "kind": "family-system",
+      "summary": "The Tohno family is a mixed-blood family with demonic ancestry and oni-kind blood.",
+      "sourceRefs": [
+        "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:19",
+        "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:21",
+        "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:22"
+      ]
+    },
+    {
+      "kind": "bloodline-effect",
+      "summary": "Tohno blood is associated with power beyond ordinary humans, short lifespans, abnormal deaths, loss of reason, and in some cases appearance changes.",
+      "sourceRefs": [
+        "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:20",
+        "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:22",
+        "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:23"
+      ]
+    },
+    {
+      "kind": "family-head-duty",
+      "summary": "The Tohno family head is responsible for punishing family deviants who lose reason and become man-eating demons.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:24"]
+    }
+  ]
+}

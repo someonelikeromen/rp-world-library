@@ -1,0 +1,69 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "yato-no-kami-forbidden-spell",
+  "volume": "vol-15",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-15/full.txt:4500"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-15",
+      "volume": "vol-15",
+      "time": "Mishis battle",
+      "name": {
+        "zh": "禁咒符号",
+        "en": "Forbidden Spell"
+      },
+      "aliases": [
+        "夜刀神神装"
+      ],
+      "type": "technology / combat / divine-drag-ride",
+      "description": "《夜刀神》的神装，可对目标下达强制命令。夜架在密丝希斯战中通过蜘蛛丝预先命令，短暂封住密丝希斯使用神装。",
+      "details": {
+        "drag_ride": "yato-no-kami",
+        "user": "yoruka-kirihime"
+      },
+      "activation": {
+        "condition": "通过夜刀神与目标接触或媒介连接",
+        "incantation": "《禁咒符号》",
+        "time": "short-term command",
+        "cost": "需要接近，容易被反制"
+      },
+      "effects": [
+        "强制操纵或限制目标行动",
+        "可通过蜘蛛丝媒介施加命令",
+        "能阻止敌人发动神装"
+      ],
+      "power_level": {
+        "initial": "high",
+        "peak": "temporarily disables Thousand Magic",
+        "evolution": []
+      },
+      "known_feats": [
+        "夜架用其限制密丝希斯使用神装并削弱艾基达哈卡装甲足"
+      ],
+      "shared_by": [
+        "yoruka-kirihime"
+      ],
+      "see_also": [
+        "yato-no-kami",
+        "azi-dahaka-thousand-magic"
+      ],
+      "countered_by": [
+        "range",
+        "destroying medium"
+      ],
+      "counters": [
+        "divine raiment activation"
+      ],
+      "variations": [
+        "spider-thread-command"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-15/full.txt:4500"
+      ]
+    }
+  ]
+}

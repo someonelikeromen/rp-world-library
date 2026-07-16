@@ -1,0 +1,495 @@
+{
+  "objective": "地错 Phase 0: 通读全部55卷（681章）",
+  "authority": {
+    "allowFilesystemRead": true,
+    "allowMutationTools": true,
+    "allowShellTools": false,
+    "allowProjectCode": true
+  },
+  "library": {
+    "sources": [
+      "project"
+    ]
+  },
+  "limits": {
+    "concurrency": 4
+  },
+  "steps": [
+    {
+      "id": "d00",
+      "agent": {
+        "system": "地错精读员。阅读1-2卷，输出结构化笔记+角色清单。\n格式每章一条：\n---\nCHAPTER: <path>\nTITLE: \nSUMMARY: 50-150字\nCHARS: 角色名*(类型)|角色名(类型)\nLOCATIONS: 地点1|地点2\nEVENTS: 事件/类型\n---\n\n读完后再输出完整角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 danmachi-main/vol-01 和 danmachi-main/vol-02 的全文。\n笔记→E:/pi-st/campaigns/world-library/manual-curation/dm-p0/d00-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/dm-charlist/d00-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/dm-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "d01",
+      "agent": {
+        "system": "地错精读员。阅读1-2卷，输出结构化笔记+角色清单。\n格式每章一条：\n---\nCHAPTER: <path>\nTITLE: \nSUMMARY: 50-150字\nCHARS: 角色名*(类型)|角色名(类型)\nLOCATIONS: 地点1|地点2\nEVENTS: 事件/类型\n---\n\n读完后再输出完整角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 danmachi-main/vol-03 和 danmachi-main/vol-04 的全文。\n笔记→E:/pi-st/campaigns/world-library/manual-curation/dm-p0/d01-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/dm-charlist/d01-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/dm-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "d02",
+      "agent": {
+        "system": "地错精读员。阅读1-2卷，输出结构化笔记+角色清单。\n格式每章一条：\n---\nCHAPTER: <path>\nTITLE: \nSUMMARY: 50-150字\nCHARS: 角色名*(类型)|角色名(类型)\nLOCATIONS: 地点1|地点2\nEVENTS: 事件/类型\n---\n\n读完后再输出完整角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 danmachi-main/vol-05 和 danmachi-main/vol-06 的全文。\n笔记→E:/pi-st/campaigns/world-library/manual-curation/dm-p0/d02-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/dm-charlist/d02-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/dm-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "d03",
+      "agent": {
+        "system": "地错精读员。阅读1-2卷，输出结构化笔记+角色清单。\n格式每章一条：\n---\nCHAPTER: <path>\nTITLE: \nSUMMARY: 50-150字\nCHARS: 角色名*(类型)|角色名(类型)\nLOCATIONS: 地点1|地点2\nEVENTS: 事件/类型\n---\n\n读完后再输出完整角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 danmachi-main/vol-07 和 danmachi-main/vol-08 的全文。\n笔记→E:/pi-st/campaigns/world-library/manual-curation/dm-p0/d03-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/dm-charlist/d03-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/dm-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "d04",
+      "agent": {
+        "system": "地错精读员。阅读1-2卷，输出结构化笔记+角色清单。\n格式每章一条：\n---\nCHAPTER: <path>\nTITLE: \nSUMMARY: 50-150字\nCHARS: 角色名*(类型)|角色名(类型)\nLOCATIONS: 地点1|地点2\nEVENTS: 事件/类型\n---\n\n读完后再输出完整角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 danmachi-main/vol-09 和 danmachi-main/vol-10 的全文。\n笔记→E:/pi-st/campaigns/world-library/manual-curation/dm-p0/d04-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/dm-charlist/d04-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/dm-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "d05",
+      "agent": {
+        "system": "地错精读员。阅读1-2卷，输出结构化笔记+角色清单。\n格式每章一条：\n---\nCHAPTER: <path>\nTITLE: \nSUMMARY: 50-150字\nCHARS: 角色名*(类型)|角色名(类型)\nLOCATIONS: 地点1|地点2\nEVENTS: 事件/类型\n---\n\n读完后再输出完整角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 danmachi-main/vol-11 和 danmachi-main/vol-12 的全文。\n笔记→E:/pi-st/campaigns/world-library/manual-curation/dm-p0/d05-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/dm-charlist/d05-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/dm-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "d06",
+      "agent": {
+        "system": "地错精读员。阅读1-2卷，输出结构化笔记+角色清单。\n格式每章一条：\n---\nCHAPTER: <path>\nTITLE: \nSUMMARY: 50-150字\nCHARS: 角色名*(类型)|角色名(类型)\nLOCATIONS: 地点1|地点2\nEVENTS: 事件/类型\n---\n\n读完后再输出完整角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 danmachi-main/vol-13 和 danmachi-main/vol-14 的全文。\n笔记→E:/pi-st/campaigns/world-library/manual-curation/dm-p0/d06-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/dm-charlist/d06-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/dm-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "d07",
+      "agent": {
+        "system": "地错精读员。阅读1-2卷，输出结构化笔记+角色清单。\n格式每章一条：\n---\nCHAPTER: <path>\nTITLE: \nSUMMARY: 50-150字\nCHARS: 角色名*(类型)|角色名(类型)\nLOCATIONS: 地点1|地点2\nEVENTS: 事件/类型\n---\n\n读完后再输出完整角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 danmachi-main/vol-15 和 danmachi-main/vol-16 的全文。\n笔记→E:/pi-st/campaigns/world-library/manual-curation/dm-p0/d07-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/dm-charlist/d07-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/dm-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "d08",
+      "agent": {
+        "system": "地错精读员。阅读1-2卷，输出结构化笔记+角色清单。\n格式每章一条：\n---\nCHAPTER: <path>\nTITLE: \nSUMMARY: 50-150字\nCHARS: 角色名*(类型)|角色名(类型)\nLOCATIONS: 地点1|地点2\nEVENTS: 事件/类型\n---\n\n读完后再输出完整角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 danmachi-main/vol-17 和 danmachi-main/vol-18 的全文。\n笔记→E:/pi-st/campaigns/world-library/manual-curation/dm-p0/d08-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/dm-charlist/d08-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/dm-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "d09",
+      "agent": {
+        "system": "地错精读员。阅读1-2卷，输出结构化笔记+角色清单。\n格式每章一条：\n---\nCHAPTER: <path>\nTITLE: \nSUMMARY: 50-150字\nCHARS: 角色名*(类型)|角色名(类型)\nLOCATIONS: 地点1|地点2\nEVENTS: 事件/类型\n---\n\n读完后再输出完整角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 danmachi-main/vol-19 和 danmachi-main/vol-20 的全文。\n笔记→E:/pi-st/campaigns/world-library/manual-curation/dm-p0/d09-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/dm-charlist/d09-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/dm-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "d10",
+      "agent": {
+        "system": "地错精读员。阅读1-2卷，输出结构化笔记+角色清单。\n格式每章一条：\n---\nCHAPTER: <path>\nTITLE: \nSUMMARY: 50-150字\nCHARS: 角色名*(类型)|角色名(类型)\nLOCATIONS: 地点1|地点2\nEVENTS: 事件/类型\n---\n\n读完后再输出完整角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 danmachi-main/vol-21 和 danmachi-main/vol-22 的全文。\n笔记→E:/pi-st/campaigns/world-library/manual-curation/dm-p0/d10-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/dm-charlist/d10-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/dm-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "d11",
+      "agent": {
+        "system": "地错精读员。阅读1-2卷，输出结构化笔记+角色清单。\n格式每章一条：\n---\nCHAPTER: <path>\nTITLE: \nSUMMARY: 50-150字\nCHARS: 角色名*(类型)|角色名(类型)\nLOCATIONS: 地点1|地点2\nEVENTS: 事件/类型\n---\n\n读完后再输出完整角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 danmachi-main/vol-23 和 danmachi-main/vol-24 的全文。\n笔记→E:/pi-st/campaigns/world-library/manual-curation/dm-p0/d11-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/dm-charlist/d11-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/dm-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "d12",
+      "agent": {
+        "system": "地错精读员。阅读1-2卷，输出结构化笔记+角色清单。\n格式每章一条：\n---\nCHAPTER: <path>\nTITLE: \nSUMMARY: 50-150字\nCHARS: 角色名*(类型)|角色名(类型)\nLOCATIONS: 地点1|地点2\nEVENTS: 事件/类型\n---\n\n读完后再输出完整角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 danmachi-main/vol-25 和 danmachi-main/vol-26 的全文。\n笔记→E:/pi-st/campaigns/world-library/manual-curation/dm-p0/d12-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/dm-charlist/d12-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/dm-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "d13",
+      "agent": {
+        "system": "地错精读员。阅读1-2卷，输出结构化笔记+角色清单。\n格式每章一条：\n---\nCHAPTER: <path>\nTITLE: \nSUMMARY: 50-150字\nCHARS: 角色名*(类型)|角色名(类型)\nLOCATIONS: 地点1|地点2\nEVENTS: 事件/类型\n---\n\n读完后再输出完整角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 danmachi-main/vol-27 和 danmachi-main/vol-28 的全文。\n笔记→E:/pi-st/campaigns/world-library/manual-curation/dm-p0/d13-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/dm-charlist/d13-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/dm-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "d14",
+      "agent": {
+        "system": "地错精读员。阅读1-2卷，输出结构化笔记+角色清单。\n格式每章一条：\n---\nCHAPTER: <path>\nTITLE: \nSUMMARY: 50-150字\nCHARS: 角色名*(类型)|角色名(类型)\nLOCATIONS: 地点1|地点2\nEVENTS: 事件/类型\n---\n\n读完后再输出完整角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 danmachi-main/vol-29 和 sword-oratoria/vol-01 的全文。\n笔记→E:/pi-st/campaigns/world-library/manual-curation/dm-p0/d14-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/dm-charlist/d14-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/dm-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "d15",
+      "agent": {
+        "system": "地错精读员。阅读1-2卷，输出结构化笔记+角色清单。\n格式每章一条：\n---\nCHAPTER: <path>\nTITLE: \nSUMMARY: 50-150字\nCHARS: 角色名*(类型)|角色名(类型)\nLOCATIONS: 地点1|地点2\nEVENTS: 事件/类型\n---\n\n读完后再输出完整角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 sword-oratoria/vol-02 和 sword-oratoria/vol-03 的全文。\n笔记→E:/pi-st/campaigns/world-library/manual-curation/dm-p0/d15-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/dm-charlist/d15-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/dm-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "d16",
+      "agent": {
+        "system": "地错精读员。阅读1-2卷，输出结构化笔记+角色清单。\n格式每章一条：\n---\nCHAPTER: <path>\nTITLE: \nSUMMARY: 50-150字\nCHARS: 角色名*(类型)|角色名(类型)\nLOCATIONS: 地点1|地点2\nEVENTS: 事件/类型\n---\n\n读完后再输出完整角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 sword-oratoria/vol-04 和 sword-oratoria/vol-05 的全文。\n笔记→E:/pi-st/campaigns/world-library/manual-curation/dm-p0/d16-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/dm-charlist/d16-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/dm-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "d17",
+      "agent": {
+        "system": "地错精读员。阅读1-2卷，输出结构化笔记+角色清单。\n格式每章一条：\n---\nCHAPTER: <path>\nTITLE: \nSUMMARY: 50-150字\nCHARS: 角色名*(类型)|角色名(类型)\nLOCATIONS: 地点1|地点2\nEVENTS: 事件/类型\n---\n\n读完后再输出完整角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 sword-oratoria/vol-06 和 sword-oratoria/vol-07 的全文。\n笔记→E:/pi-st/campaigns/world-library/manual-curation/dm-p0/d17-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/dm-charlist/d17-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/dm-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "d18",
+      "agent": {
+        "system": "地错精读员。阅读1-2卷，输出结构化笔记+角色清单。\n格式每章一条：\n---\nCHAPTER: <path>\nTITLE: \nSUMMARY: 50-150字\nCHARS: 角色名*(类型)|角色名(类型)\nLOCATIONS: 地点1|地点2\nEVENTS: 事件/类型\n---\n\n读完后再输出完整角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 sword-oratoria/vol-08 和 sword-oratoria/vol-09 的全文。\n笔记→E:/pi-st/campaigns/world-library/manual-curation/dm-p0/d18-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/dm-charlist/d18-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/dm-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "d19",
+      "agent": {
+        "system": "地错精读员。阅读1-2卷，输出结构化笔记+角色清单。\n格式每章一条：\n---\nCHAPTER: <path>\nTITLE: \nSUMMARY: 50-150字\nCHARS: 角色名*(类型)|角色名(类型)\nLOCATIONS: 地点1|地点2\nEVENTS: 事件/类型\n---\n\n读完后再输出完整角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 sword-oratoria/vol-10 和 sword-oratoria/vol-11 的全文。\n笔记→E:/pi-st/campaigns/world-library/manual-curation/dm-p0/d19-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/dm-charlist/d19-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/dm-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "d20",
+      "agent": {
+        "system": "地错精读员。阅读1-2卷，输出结构化笔记+角色清单。\n格式每章一条：\n---\nCHAPTER: <path>\nTITLE: \nSUMMARY: 50-150字\nCHARS: 角色名*(类型)|角色名(类型)\nLOCATIONS: 地点1|地点2\nEVENTS: 事件/类型\n---\n\n读完后再输出完整角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 sword-oratoria/vol-12 和 sword-oratoria/vol-13 的全文。\n笔记→E:/pi-st/campaigns/world-library/manual-curation/dm-p0/d20-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/dm-charlist/d20-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/dm-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "d21",
+      "agent": {
+        "system": "地错精读员。阅读1-2卷，输出结构化笔记+角色清单。\n格式每章一条：\n---\nCHAPTER: <path>\nTITLE: \nSUMMARY: 50-150字\nCHARS: 角色名*(类型)|角色名(类型)\nLOCATIONS: 地点1|地点2\nEVENTS: 事件/类型\n---\n\n读完后再输出完整角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 sword-oratoria/vol-14 和 sword-oratoria/vol-15 的全文。\n笔记→E:/pi-st/campaigns/world-library/manual-curation/dm-p0/d21-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/dm-charlist/d21-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/dm-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "d22",
+      "agent": {
+        "system": "地错精读员。阅读1-2卷，输出结构化笔记+角色清单。\n格式每章一条：\n---\nCHAPTER: <path>\nTITLE: \nSUMMARY: 50-150字\nCHARS: 角色名*(类型)|角色名(类型)\nLOCATIONS: 地点1|地点2\nEVENTS: 事件/类型\n---\n\n读完后再输出完整角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 sword-oratoria/vol-16 和 sword-oratoria/vol-17 的全文。\n笔记→E:/pi-st/campaigns/world-library/manual-curation/dm-p0/d22-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/dm-charlist/d22-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/dm-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "d23",
+      "agent": {
+        "system": "地错精读员。阅读1-2卷，输出结构化笔记+角色清单。\n格式每章一条：\n---\nCHAPTER: <path>\nTITLE: \nSUMMARY: 50-150字\nCHARS: 角色名*(类型)|角色名(类型)\nLOCATIONS: 地点1|地点2\nEVENTS: 事件/类型\n---\n\n读完后再输出完整角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 sword-oratoria/vol-18 和 argonaut/vol-01 的全文。\n笔记→E:/pi-st/campaigns/world-library/manual-curation/dm-p0/d23-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/dm-charlist/d23-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/dm-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "d24",
+      "agent": {
+        "system": "地错精读员。阅读1-2卷，输出结构化笔记+角色清单。\n格式每章一条：\n---\nCHAPTER: <path>\nTITLE: \nSUMMARY: 50-150字\nCHARS: 角色名*(类型)|角色名(类型)\nLOCATIONS: 地点1|地点2\nEVENTS: 事件/类型\n---\n\n读完后再输出完整角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 argonaut/vol-02 和 astraea-record/vol-01 的全文。\n笔记→E:/pi-st/campaigns/world-library/manual-curation/dm-p0/d24-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/dm-charlist/d24-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/dm-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "d25",
+      "agent": {
+        "system": "地错精读员。阅读1-2卷，输出结构化笔记+角色清单。\n格式每章一条：\n---\nCHAPTER: <path>\nTITLE: \nSUMMARY: 50-150字\nCHARS: 角色名*(类型)|角色名(类型)\nLOCATIONS: 地点1|地点2\nEVENTS: 事件/类型\n---\n\n读完后再输出完整角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 astraea-record/vol-02 和 astraea-record/vol-03 的全文。\n笔记→E:/pi-st/campaigns/world-library/manual-curation/dm-p0/d25-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/dm-charlist/d25-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/dm-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "d26",
+      "agent": {
+        "system": "地错精读员。阅读1-2卷，输出结构化笔记+角色清单。\n格式每章一条：\n---\nCHAPTER: <path>\nTITLE: \nSUMMARY: 50-150字\nCHARS: 角色名*(类型)|角色名(类型)\nLOCATIONS: 地点1|地点2\nEVENTS: 事件/类型\n---\n\n读完后再输出完整角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 familia-chronicle/vol-01 和 familia-chronicle/vol-02 的全文。\n笔记→E:/pi-st/campaigns/world-library/manual-curation/dm-p0/d26-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/dm-charlist/d26-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/dm-p0/",
+      "cwd": "E:/pi-st"
+    },
+    {
+      "id": "d27",
+      "agent": {
+        "system": "地错精读员。阅读1-2卷，输出结构化笔记+角色清单。\n格式每章一条：\n---\nCHAPTER: <path>\nTITLE: \nSUMMARY: 50-150字\nCHARS: 角色名*(类型)|角色名(类型)\nLOCATIONS: 地点1|地点2\nEVENTS: 事件/类型\n---\n\n读完后再输出完整角色清单文件（每行一个角色名）。",
+        "tools": [
+          "read",
+          "grep",
+          "find",
+          "ls",
+          "edit",
+          "write"
+        ]
+      },
+      "task": "阅读 familia-chronicle/vol-03 的全文。\n笔记→E:/pi-st/campaigns/world-library/manual-curation/dm-p0/d27-notes.txt\n角色清单→E:/pi-st/campaigns/world-library/manual-curation/dm-charlist/d27-chars.txt",
+      "mutationScope": "E:/pi-st/campaigns/world-library/manual-curation/dm-p0/",
+      "cwd": "E:/pi-st"
+    }
+  ]
+}

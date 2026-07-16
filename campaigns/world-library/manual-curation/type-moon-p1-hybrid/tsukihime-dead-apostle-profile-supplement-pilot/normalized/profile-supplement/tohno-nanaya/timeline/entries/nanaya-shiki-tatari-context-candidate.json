@@ -1,0 +1,29 @@
+{
+  "schema": "tm-tsukihime-normalized-timeline-fragment-v1",
+  "packetId": "tohno-nanaya",
+  "timelineEntryId": "timeline-nanaya-shiki-tatari-context-candidate",
+  "layer": "timeline",
+  "subjectIds": ["nanaya-shiki", "tohno-shiki", "night-of-wallachia-candidate"],
+  "continuity": {
+    "rawSourceLabel": "同人版 / TATARI context",
+    "canonicalContinuity": "original",
+    "taxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy/rawLabelMapping/同人版"
+  },
+  "timelineId": "tsukihime-original-kagetsu-melty-context-candidate",
+  "timeRangeRaw": "同人版七夜志贵 profile signals / TATARI context",
+  "time": {
+    "start": { "precision": "relative-only", "relative": "TATARI manifestation context", "orderIndex": 80 },
+    "end": { "precision": "relative-only", "relative": "TATARI manifestation context", "orderIndex": 89 }
+  },
+  "candidateOnly": true,
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "sourceRefs": [
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:51",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:52",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:53",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:54"
+  ],
+  "summary": "The source says Nanaya Shiki can refer to multiple Shiki contexts, including a killer side or TATARI manifestation; original-version context links it to Shiki's fear of his inversion impulse reflected by Night of Wallachia."
+}

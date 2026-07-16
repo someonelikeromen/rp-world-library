@@ -1,0 +1,197 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "drag-ride-engineering",
+  "volume": "vol-04",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-04/full.txt:1197"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-04",
+      "volume": "vol-04",
+      "time": "vol-04",
+      "name": {
+        "zh": "机龙工程开发",
+        "en": "Drag-Ride Engineering"
+      },
+      "aliases": [
+        "机龙调律",
+        "新武器实用测试"
+      ],
+      "type": "technology / skill",
+      "description": "莉夏解析古代文字、调律机龙并开发武装的技术。本卷用于向路克斯说明机构模式、觉醒型与解除代码。",
+      "details": {
+        "practitioner": "lisesharte-atismata"
+      },
+      "activation": {
+        "condition": "工房、机攻壳剑与机构模式资料",
+        "incantation": "",
+        "time": "持续研究",
+        "cost": "时间与试验风险"
+      },
+      "effects": [
+        "调律装甲机龙",
+        "开发特殊武装",
+        "解析限界突破代码"
+      ],
+      "power_level": {
+        "initial": "王国顶级机龙技师水平",
+        "peak": "成功解出巴哈姆特限界突破代码",
+        "evolution": []
+      },
+      "known_feats": [
+        "指导路克斯进入飞翔机龙机构模式",
+        "最终战前传送巴哈姆特解除程序"
+      ],
+      "shared_by": [
+        "lisesharte-atismata"
+      ],
+      "see_also": [
+        "limit-break-code-analysis"
+      ],
+      "countered_by": [],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-04/full.txt:1197",
+        "saijaku-muhai-bahamut-main/vol-04/full.txt:5895"
+      ]
+    },
+    {
+      "period_id": "vol-06",
+      "volume": "vol-06",
+      "time": "本卷",
+      "name": {
+        "zh": "机龙工程与改造",
+        "en": "Drag-Ride Engineering"
+      },
+      "aliases": [
+        "机龙改装",
+        "工房技术"
+      ],
+      "type": "technology / skill",
+      "description": "莉夏作为技术人员调整、改造与检查装甲机龙的能力。",
+      "details": {
+        "feats": [
+          "为路克斯准备伪装黑色飞翔机龙",
+          "检查迪亚玛特失控疑点"
+        ]
+      },
+      "activation": {
+        "condition": "工房与部件",
+        "incantation": "无",
+        "time": "数小时至更长",
+        "cost": "材料与技术"
+      },
+      "effects": [
+        "机体调整",
+        "伪装外观",
+        "新增战术可能"
+      ],
+      "known_feats": [
+        "路克斯借黑色飞翔机龙骗过拉葛利多消耗巴哈姆特时间的计策"
+      ],
+      "shared_by": [
+        "lisesharte-atismata"
+      ],
+      "see_also": [
+        "lux-black-decoy-wyvern"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:3630",
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:6080"
+      ]
+    },
+    {
+      "period_id": "vol-09",
+      "volume": "vol-09",
+      "time": "vol-09",
+      "name": {
+        "zh": "机龙开发与维修",
+        "en": "Drag-Ride Engineering"
+      },
+      "aliases": [],
+      "type": "technology / skill",
+      "description": "莉夏作为机龙开发者的维修、展示、改造与快速调整能力。",
+      "details": {
+        "used_by": "lisha",
+        "vol_09_usage": "学园祭展示机龙，演武战后赶修巴哈姆特与凛德龙虫。"
+      },
+      "activation": {
+        "condition": "工房、工具与机龙知识",
+        "incantation": "",
+        "time": "varies",
+        "cost": "体力与时间"
+      },
+      "effects": [
+        "修复神装机龙",
+        "改造展示机龙",
+        "调整召唤系统"
+      ],
+      "shared_by": [
+        "lisha"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:3231",
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:5341"
+      ]
+    },
+    {
+      "period_id": "vol-17",
+      "volume": "vol-17",
+      "time": "城堡参观",
+      "name": {
+        "zh": "机龙工学",
+        "en": "Drag-Ride Engineering"
+      },
+      "aliases": [
+        "机龙维护技术"
+      ],
+      "type": "technology / skill",
+      "description": "莉夏作为公主之外擅长的机龙改造、维护和技术指导能力。本卷她在城堡机龙工房中指导维修师并获得认可。",
+      "details": {
+        "user": "lisesharte-atismata",
+        "field": "drag-ride design and maintenance"
+      },
+      "activation": {
+        "condition": "机龙设计、维护或战前调整",
+        "incantation": "",
+        "time": "工作过程",
+        "cost": "专业知识"
+      },
+      "effects": [
+        "改善机龙性能",
+        "指导武装搭配",
+        "获得工房人员认可"
+      ],
+      "power_level": {
+        "initial": "专业级",
+        "peak": "公主身份之外的核心能力",
+        "evolution": []
+      },
+      "known_feats": [
+        {
+          "summary": "莉夏在机龙使工房指导武器与装甲搭配。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-17/full.txt:3180"
+        }
+      ],
+      "shared_by": [
+        "lisesharte-atismata"
+      ],
+      "see_also": [
+        "brand-sword"
+      ],
+      "countered_by": [],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-17/full.txt:3180"
+      ]
+    }
+  ]
+}

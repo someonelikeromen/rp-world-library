@@ -1,0 +1,43 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "location",
+  "entityId": "i-u-submarine",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-04",
+  "periods": [
+    {
+      "periodId": "vol-04",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-04/full.txt:7375",
+        "hidan-no-aria-main/vol-04/full.txt:7404"
+      ],
+      "snapshot": {
+        "name": "伊·U核潜艇东方号",
+        "aliases": [
+          "东方号",
+          "伊·U",
+          "核子潜艇",
+          "超鲨鱼级核子潜艇"
+        ],
+        "type": "vehicle",
+        "description": "过去被称作东方号的史上最大核子潜艇，全长300公尺以上。1979年完工下水后随即遇难失踪。实际被『教授』偷走并作为伊·U的秘密基地。舰身白色大字『伊』『U』。备有战略飞弹，任何军事国家无法对抗。",
+        "details": {
+          "length": "300公尺以上",
+          "original_name": "东方号",
+          "year": "1979年完工后失踪（被伊·U劫持）",
+          "armament": "战略飞弹",
+          "marking": "白色『伊』『U』大字"
+        },
+        "controlled_by": "sherlock-holmes-i / I-U",
+        "affiliation": "伊·U",
+        "significance": "伊·U的真实面貌——一艘被劫持的巨型核潜艇，也是教授的大本营",
+        "key_events": [
+          "professor-reveal"
+        ],
+        "evidence_level": "S",
+        "source_refs": []
+      }
+    }
+  ],
+  "_schema": "rp-location-volume-v1"
+}

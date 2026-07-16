@@ -1,0 +1,73 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "creator-authority",
+  "volume": "vol-17",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-17/full.txt:6550"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-17",
+      "volume": "vol-17",
+      "time": "箱庭救援",
+      "name": {
+        "zh": "创造主权限",
+        "en": "Creator Authority"
+      },
+      "aliases": [
+        "遗迹权限",
+        "钥匙权限"
+      ],
+      "type": "authority / technology",
+      "description": "创造主一族或与其等同的存在能操作遗迹深层设备、解除精神控制系统并取出至高之力。本卷爱莉尔凭此打开箱庭宝库并夺取至高之力。",
+      "details": {
+        "user": "aeril-vi-arcadia",
+        "scope": "ruin controls and Grand Force extraction",
+        "limitation": "需要意识清醒且身体接触/操作设备"
+      },
+      "activation": {
+        "condition": "创造主血统或等同权限接触遗迹控制装置",
+        "incantation": "",
+        "time": "操作期间",
+        "cost": "体力与意识负荷"
+      },
+      "effects": [
+        "打开宝库容器",
+        "解除精神控制系统",
+        "取出至高之力"
+      ],
+      "power_level": {
+        "initial": "遗迹局部控制",
+        "peak": "夺取箱庭至高之力并削弱大圣域共鸣",
+        "evolution": []
+      },
+      "known_feats": [
+        {
+          "summary": "爱莉尔在箱庭最深处用权限解除系统并取出至高之力。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-17/full.txt:6550"
+        }
+      ],
+      "shared_by": [
+        "aeril-vi-arcadia"
+      ],
+      "see_also": [
+        "box-garden-grand-force",
+        "grand-sanctuary"
+      ],
+      "countered_by": [],
+      "counters": [
+        "world-rewrite"
+      ],
+      "variations": [
+        "宝库开启",
+        "至高之力提取",
+        "精神控制解除"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-17/full.txt:6550"
+      ]
+    }
+  ]
+}

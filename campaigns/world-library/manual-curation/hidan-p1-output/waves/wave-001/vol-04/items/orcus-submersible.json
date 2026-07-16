@@ -1,0 +1,44 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "item",
+  "entityId": "orcus-submersible",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-04",
+  "periods": [
+    {
+      "periodId": "vol-04",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-04/full.txt:5543",
+        "hidan-no-aria-main/vol-04/full.txt:5602",
+        "hidan-no-aria-main/vol-04/full.txt:6077"
+      ],
+      "snapshot": {
+        "name": "奥尔库斯潜航艇",
+        "aliases": [
+          "Orcus",
+          "潜航艇"
+        ],
+        "type": "vehicle",
+        "description": "贞德潜入武侦高中时使用的潜航艇。原为三人座，经武藤通宵改造后仅能坐两人。基于超空蚀效应鱼雷技术，水中速度可达约170节（时速314公里），但燃料仅够单程2000公里。最后加奈驾驶此艇冲入金字塔顶部。",
+        "details": {
+          "origin": "贞德持有，原为伊·U技术水平",
+          "speed": "约170节（314km/h）",
+          "capacity": "改造后2人",
+          "range": "2000km单程（燃料极限）",
+          "propulsion": "基于超空蚀效应鱼雷技术",
+          "color": "黑白双色"
+        },
+        "owner": "jeanne",
+        "status": "active（最终被加奈驾驶冲入金字塔）",
+        "features": [
+          "超高速水中航行",
+          "近乎无声",
+          "自动驾驶可能"
+        ],
+        "evidence_level": "S",
+        "source_refs": []
+      }
+    }
+  ],
+  "_schema": "rp-item-volume-v1"
+}

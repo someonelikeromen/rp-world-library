@@ -1,0 +1,31 @@
+{
+  "schema": "tm-tsukihime-normalized-location-fragment-v1",
+  "packetId": "locations",
+  "recordId": "loc-frag-school-residential-park-visual-spatial",
+  "recordKind": "appearance-location-fragment-set",
+  "subjectId": "misaki-local-daily-route-context",
+  "continuityTaxonomy": {
+    "category": "sandbox",
+    "rawSourceLabels": ["三咲町", "学校", "住宅区", "公园"],
+    "policyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy"
+  },
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "candidateOnly": false,
+  "sourceRefs": [
+    "sources/worldbook-profile/dlc-tsukihime-locations.txt:25",
+    "sources/worldbook-profile/dlc-tsukihime-locations.txt:26",
+    "sources/worldbook-profile/dlc-tsukihime-locations.txt:27",
+    "sources/worldbook-profile/dlc-tsukihime-locations.txt:31",
+    "sources/worldbook-profile/dlc-tsukihime-locations.txt:32"
+  ],
+  "appearanceSignals": [
+    {"subject": "住宅区", "signal": "The residential area is the necessary route to school; Ciel's apartment is located there."},
+    {"subject": "学校", "signal": "The local high school is called a second-rate private advancement school by Shiki but is actually a proper prestigious advancement school."},
+    {"subject": "公园", "signal": "The park faces the office district; the plaza is noisy by day and empty at night, and Shiki favors its benches."},
+    {"subject": "三咲市立高中", "signal": "Identified as the local Tsukihime high school with named student associations."},
+    {"subject": "私立浅上女子学园", "signal": "A fully boarding noble girls school attended by Akiha."}
+  ],
+  "reviewStatus": "generated-pending-audit"
+}

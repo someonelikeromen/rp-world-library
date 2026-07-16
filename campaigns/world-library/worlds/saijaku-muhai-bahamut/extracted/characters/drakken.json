@@ -1,0 +1,69 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "drakken",
+  "volume": "vol-09",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-09/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-09",
+      "volume": "vol-09",
+      "time": "圣蚀事件",
+      "name": {
+        "zh": "朵拉肯",
+        "en": "Drakken",
+        "jp": ""
+      },
+      "aliases": [
+        "龙匪贼人龙师团长",
+        "三龙首之一"
+      ],
+      "gender": "female",
+      "species": "human",
+      "nationality": "unknown",
+      "occupation": "龙匪贼师团长；佣兵机龙使",
+      "affiliation": "龙匪贼",
+      "status": {
+        "condition": "escaped",
+        "role": "被葛托汉与拜因趁乱救出，并取回神装机龙阿斯普"
+      },
+      "abilities_owned": [
+        "drag-ride-piloting",
+        "mercenary-command"
+      ],
+      "possessions_owned": [
+        "asp"
+      ],
+      "relationships": {
+        "gatouhan": {
+          "type": "ally",
+          "summary": "葛托汉率队救她逃狱。"
+        },
+        "bain": {
+          "type": "ally",
+          "summary": "拜因协助救援并讨论撤退。"
+        },
+        "lux": {
+          "type": "former opponent",
+          "summary": "过去与路克斯交战后被俘，本卷趁乱逃走。"
+        }
+      },
+      "summary": "朵拉肯原本被关押在学园旧地牢受盘问。本卷圣蚀袭击与停机库混乱中，龙匪贼救出她并夺回阿斯普。",
+      "key_events": [
+        {
+          "event_id": "drakken-rescue",
+          "summary": "龙匪贼趁圣蚀出现救出朵拉肯。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-09/full.txt:6737"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:1",
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:6737",
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:8125"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "_schema": "rp-world-volume-v1",
+  "world": "hidan-no-aria",
+  "volume": "vol-36",
+  "periods": [
+    {
+      "period_id": "vol-36",
+      "volume": "vol-36",
+      "time": "第三十六卷 飞向绮罗月",
+      "name": { "zh": "绯弹的亚莉亚 第三十六卷 飞向绮罗月", "en": "Aria the Scarlet Ammo Vol.36", "jp": "緋弾のアリア 36" },
+      "genre": ["学园武侦", "超自然", "军事", "科幻潜艇", "异世界政治"],
+      "summary": "本卷从丁暴露列库忒亚公会开始，金次等人在红鹤寺发现列库忒亚裔互助社群及其背后的列库忒亚共和联盟。丁试图借七折凶星与水月婚成为路西菲莉亚，金次、亚莉亚和尼莫阻止其计划，路西菲莉亚消耗一条寿命复活并显示第二形态。金次随后宣布走门派稳健融合路线，促使尼莫率诺契勒斯脱离莫里亚蒂的N。后半卷描写诺契勒斯作为战斗舰与学习舰的内部生活，金次逐渐理解列库忒亚人与人类融合的困难，并向尼莫揭示莫里亚蒂真正企图以战争推动第三次接轨。卷末诺契勒斯抵达孟买，蕾姬、夏洛克信件和伊·U出现，引向第二届伊·U同学会。",
+      "core_conflict": "列库忒亚人与人类应通过恐怖主义/战争建国、莫里亚蒂式激进接轨，还是通过学习、爱与稳健融合共存。",
+      "atmosphere": "前半为寺院阴谋与高速空战，后半转为核潜艇密闭生活、文化冲突与政治阴谋，结尾以孟买港新危机收束。",
+      "timeline": [
+        { "event_id": "lectea-guild-investigation", "summary": "金次等参加红鹤寺列库忒亚公会集会。", "sourceRef": "hidan-no-aria-main/vol-36/full.txt:438" },
+        { "event_id": "republican-alliance-proposal", "summary": "丁揭示列库忒亚共和联盟并邀请路西菲莉亚建国。", "sourceRef": "hidan-no-aria-main/vol-36/full.txt:898" },
+        { "event_id": "water-moon-marriage-battle", "summary": "九十九里空战阻止水月婚。", "sourceRef": "hidan-no-aria-main/vol-36/full.txt:2115" },
+        { "event_id": "nautilus-defection", "summary": "尼莫宣布诺契勒斯脱离N。", "sourceRef": "hidan-no-aria-main/vol-36/full.txt:3130" },
+        { "event_id": "nemo-moriarty-revelation", "summary": "金次向尼莫揭示莫里亚蒂战争计划。", "sourceRef": "hidan-no-aria-main/vol-36/full.txt:5048" },
+        { "event_id": "mumbai-arrival", "summary": "诺契勒斯抵达孟买，伊·U出现。", "sourceRef": "hidan-no-aria-main/vol-36/full.txt:5291" }
+      ],
+      "rules": ["sourceRef采用hidan-no-aria-main/vol-36/full.txt:行号", "每实体独立文件", "跨实体引用使用纯ID"],
+      "history_eras": ["第三次接轨前夜", "N内部分裂"],
+      "evidence_level": "S",
+      "source_refs": ["hidan-no-aria-main/vol-36/full.txt:1", "hidan-no-aria-main/vol-36/full.txt:5412"]
+    }
+  ],
+  "source_refs": ["hidan-no-aria-main/vol-36/full.txt:1", "hidan-no-aria-main/vol-36/full.txt:5412"]
+}

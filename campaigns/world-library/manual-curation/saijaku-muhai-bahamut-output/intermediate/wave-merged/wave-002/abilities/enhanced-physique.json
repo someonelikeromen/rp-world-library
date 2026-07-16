@@ -1,0 +1,48 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "enhanced-physique",
+  "volume": "vol-09",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-09/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-09",
+      "volume": "vol-09",
+      "time": "vol-09",
+      "name": {
+        "zh": "强化体能",
+        "en": "Enhanced Physique"
+      },
+      "aliases": [
+        "幻神兽影响体质"
+      ],
+      "type": "genetic / combat",
+      "description": "菲尔菲因过去幻神兽影响而拥有远超常人的身体能力。",
+      "details": {
+        "used_by": "philuffy",
+        "vol_09_usage": "阻止玛姬艾儿卡接近路克斯，并在体术指导中轻易击败男性来宾。"
+      },
+      "activation": {
+        "condition": "常时",
+        "incantation": "",
+        "time": "continuous",
+        "cost": "unknown"
+      },
+      "effects": [
+        "超人力量",
+        "高速反应",
+        "高体术适性"
+      ],
+      "shared_by": [
+        "philuffy"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:715",
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:3231"
+      ]
+    }
+  ]
+}

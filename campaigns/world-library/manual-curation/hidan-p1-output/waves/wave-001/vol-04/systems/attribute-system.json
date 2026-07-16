@@ -1,0 +1,47 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "system",
+  "entityId": "attribute-system",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-04",
+  "periods": [
+    {
+      "periodId": "vol-04",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-04/full.txt:3745",
+        "hidan-no-aria-main/vol-04/full.txt:5801",
+        "hidan-no-aria-main/vol-04/full.txt:6037"
+      ],
+      "snapshot": {
+        "name": "超能力属性相克体系",
+        "aliases": [
+          "S研术语",
+          "属性与相性",
+          "属性猜拳"
+        ],
+        "type": "magic / classification",
+        "description": "超能力/魔术之间存在复杂的属性相克系统，多达70-80种属性和相性。不同攻击属性对特定防御属性可能完全无效。例如火属性攻击对沙/土属性效果较差（如同火怕沙），而某些武器和魔力可形成克制链条。",
+        "details": {
+          "classification_count": "70-80种属性和相性",
+          "complexity": "极其复杂的相生相克系统",
+          "known_examples": "火怕沙/土"
+        },
+        "principles": "不同超能力属性之间存在类似复杂猜拳的相性关系",
+        "known_practitioners": [
+          "petra",
+          "shirayuki",
+          "jeanne"
+        ],
+        "limitations": [
+          "属性选择不当可能导致攻击完全无效"
+        ],
+        "related_systems": [
+          "infinite-mana-pyramid"
+        ],
+        "evidence_level": "S",
+        "source_refs": []
+      }
+    }
+  ],
+  "_schema": "rp-system-volume-v1"
+}

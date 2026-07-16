@@ -1,0 +1,10 @@
+{
+  "schema": "tm-fgo-packet-generator-report-v1",
+  "packetId": "pkt-fgo-part1-septem-extract",
+  "chapterId": "fgo-part1-septem",
+  "model": "lt-yuyu/gpt-5.5",
+  "status": "generated",
+  "outputs": {"worldState": 1, "events": 16, "characterFragments": 17, "relationshipEdges": 7},
+  "notes": ["Generated one file per raw timeline event A-P.", "Preserved rawEventCode, rawTime, trigger, completion, and orderIndex on event files.", "No aggregate characters/events/relationships formal store created."],
+  "sourceRefs": ["sources/worldbook-script/part1/ch-002-septem.txt#world_state", "sources/worldbook-script/part1/ch-002-septem.txt#stage_characters", "sources/worldbook-script/part1/ch-002-septem.txt#world_timeline"]
+}

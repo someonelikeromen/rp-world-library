@@ -1,0 +1,65 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "bone-self-dislocation",
+  "volume": "vol-22",
+  "source_refs": [
+    "hidan-no-aria-main/vol-22/chapters/ch-001-第二十二卷_愿彗星沉睡于白日梦_1弹_无名氏之死.txt:563"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-22",
+      "volume": "vol-22",
+      "time": "vol-22",
+      "name": {
+        "zh": "骨克己",
+        "en": "Self-Dislocation Escape"
+      },
+      "aliases": [
+        "远山家的自我脱臼术"
+      ],
+      "type": "combat / skill",
+      "description": "远山家用于从手铐等拘束中脱出的自我脱臼与复位技术。",
+      "details": {
+        "vol22": "金次踢脱左手腕骨后从警用手铐中脱出，再自行复位继续战斗。"
+      },
+      "activation": {
+        "condition": "被拘束且能承受疼痛",
+        "incantation": "无",
+        "time": "瞬间",
+        "cost": "剧痛，复位失败可能致命"
+      },
+      "effects": [
+        "脱出手铐",
+        "打破对手对拘束状态的预判"
+      ],
+      "power_level": {
+        "initial": "手腕脱臼脱铐",
+        "peak": "可适用于四肢关节",
+        "evolution": []
+      },
+      "known_feats": [
+        {
+          "feat": "从黑色手铐中脱出并用手铐攻击狮堂。",
+          "sourceRef": "hidan-no-aria-main/vol-22/full.txt:563"
+        }
+      ],
+      "shared_by": [
+        "kinji"
+      ],
+      "see_also": [
+        "sakura-techniques"
+      ],
+      "countered_by": [],
+      "counters": [
+        "black-handcuffs"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-22/chapters/ch-001-第二十二卷_愿彗星沉睡于白日梦_1弹_无名氏之死.txt:563",
+        "hidan-no-aria-main/vol-22/chapters/ch-001-第二十二卷_愿彗星沉睡于白日梦_1弹_无名氏之死.txt:799"
+      ]
+    }
+  ]
+}

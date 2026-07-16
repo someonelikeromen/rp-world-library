@@ -1,0 +1,16 @@
+{
+  "schema":"tm-fgo-extraction-report-v1",
+  "packetId":"pkt-fgo-lostbelt-lb5-2-olympos-extract",
+  "chapterId":"fgo-lb5-2-olympos",
+  "status":"passed-after-audit-rerun",
+  "sourceType":"user-file-worldbook-script",
+  "credibility":"B",
+  "canonStatus":"canon-like",
+  "sourceRefs":["sources/worldbook-script/lostbelt/ch-098-lb5-2-olympos.txt:1-124"],
+  "rawEventCoverage":["事件A","事件A1","事件A2","事件B1","事件B2","事件C1","事件C2","事件C3","事件C4","事件D1","事件D2","事件D3","事件D3.5","事件D4","事件D5","事件E1","事件E2","事件E3","事件E4","事件F1","事件F2","事件F3","事件F4","事件G","事件H","事件I","事件J","事件K","事件L"],
+  "dialogueCoverage":{"quoteLinesObserved":41,"quoteRecords":41,"skipped":0},
+  "mandatoryLayerCoverage":{"world_state":"passed","stage_characters":"passed","events":"passed","dialogue":"passed","mentions":"passed","relationship_candidates":"passed","appearance":"passed","outfit_equipment_visual":"passed-with-not-found-specifics","ability_np_skill_magecraft_authority":"passed-with-not-found-specifics","combat_effects":"passed-with-not-found-specifics","not_found_records":"passed"},
+  "validationNotes":["Read source text and packet before extraction.","Used find/grep/read/write/edit tools only; no shell or executable tools were used.","Manual audit/fix/audit rerun completed; no JSON parser execution was run."],
+  "blockedIssues":0,
+  "openIssues":0
+}

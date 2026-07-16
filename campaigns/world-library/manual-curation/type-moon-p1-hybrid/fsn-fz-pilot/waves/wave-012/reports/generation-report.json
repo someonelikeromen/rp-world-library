@@ -1,0 +1,30 @@
+{
+  "schema": "tm-p1-generation-report-v1",
+  "waveId": "wave-012",
+  "status": "generated",
+  "generatedAt": "2026-07-12",
+  "agent": { "model": "lt-yuyu/gpt-5.5" },
+  "sourceRefsRead": [
+    "type-moon-nasuverse/worldbook-text/src-fate-zero.md",
+    "type-moon-nasuverse/worldbook-text/src-type-moon-filtered.md"
+  ],
+  "filesCreated": [
+    "waves/wave-012/output/event-index.json",
+    "waves/wave-012/output/fourth-war-materials.json",
+    "waves/wave-012/output/fz-candidates.json"
+  ],
+  "filesUpdated": [],
+  "counts": {
+    "characters": 0,
+    "events": 8,
+    "relationships": 0,
+    "abilities": 0,
+    "locations": 0,
+    "factions": 0,
+    "knowledge": 0,
+    "materials": 8,
+    "candidates": 1
+  },
+  "candidateOnlyItems": ["Kiritsugu Alimango/Natalia prehistory"],
+  "uncertainties": ["Prewar-unknown Kiritsugu backstory entries are retained as candidate material until period modeling can handle unknown relative ordering."]
+}

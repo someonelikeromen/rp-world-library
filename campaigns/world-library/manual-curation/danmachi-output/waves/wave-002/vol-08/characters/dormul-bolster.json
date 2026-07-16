@@ -1,0 +1,34 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "dormul-bolster",
+  "volume": "vol-08",
+  "time_range": { "start": "第四章", "end": "第四章" },
+  "sub_arcs": ["亲爱的护花使者"],
+  "periods": [
+    {
+      "period_id": "vol-08-ch-04",
+      "volume": "vol-08",
+      "time": "第四章 亲爱的护花使者",
+      "label": "误会贝尔的矮人追求者",
+      "name": { "zh": "多鲁木尔", "en": "Dormul Bolster", "jp": "" },
+      "gender": "男",
+      "species": "矮人",
+      "occupation": "Lv.3冒险者",
+      "affiliation": "未明眷族",
+      "status": { "level": "Lv.3", "location": "欧拉丽北区与公会本部", "state": "误会贝尔企图伤害埃伊娜而袭击他，后求婚失败" },
+      "appearance": { "overview": "身高在矮人中偏高，体格壮硕，没留胡子，双眸常弯成弓形。" },
+      "personality": { "summary": "朴实热情、真心爱慕埃伊娜，但容易得意忘形并被主神馊主意带偏。", "core_traits": ["热情", "单纯", "勇敢", "冲动"], "values": ["埃伊娜安全", "正面求爱", "矮人自尊"], "strengths": ["老练Lv.3战斗经验", "战锤战斗", "韧性"], "flaws": ["误会后先动手", "容易被挑拨", "与精灵斗嘴"] },
+      "relationships": { "eina-tulle": "爱慕并求婚的公会顾问", "luvis-lilix": "情敌与精灵宿敌式对手", "bell-cranel": "误会中的护送竞争者" },
+      "summary": "多鲁木尔原是埃伊娜过去负责的高级冒险者，对她有真心好感；受主神建议暗中守望后，他误会贝尔把埃伊娜带入小巷，向贝尔发动攻击并被自己的雷魔剑电倒。真相暴露后，他与卢维斯同时求婚但失败。",
+      "key_events": [
+        { "event_id": "dormul-attacks-bell-in-alley", "summary": "误会贝尔后用战锤和雷魔剑袭击他。", "sourceRef": "danmachi-main/vol-08/full.txt:7048" },
+        { "event_id": "luvis-and-dormul-revealed-as-secret-guards", "summary": "承认主神让他从背后守望埃伊娜。", "sourceRef": "danmachi-main/vol-08/full.txt:7286" },
+        { "event_id": "eina-uses-bell-as-fake-boyfriend", "summary": "向埃伊娜求婚后被拒绝。", "sourceRef": "danmachi-main/vol-08/full.txt:7370" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-08/full.txt:6010", "danmachi-main/vol-08/full.txt:7048", "danmachi-main/vol-08/full.txt:7370"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-08/full.txt:6010-7448"]
+}

@@ -1,0 +1,34 @@
+{
+  "schema": "tm-tsukihime-normalized-fragment-v1",
+  "packetId": "tohno-nanaya",
+  "fragmentId": "ability-activation-nanaya-family-demon-hunting-impulse",
+  "layer": "ability-activation",
+  "subjectId": "nanaya-family",
+  "continuity": {
+    "rawSourceLabel": "七夜 / 月姬 context",
+    "canonicalContinuity": "sandbox",
+    "taxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy/rawLabelMapping/mixed/crossover/RP premise"
+  },
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "candidateOnly": false,
+  "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:16", "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:18", "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:46"],
+  "assertions": [
+    {
+      "property": "familyAbilityContext",
+      "value": "Nanaya belongs to the four demon-hunting families that possess supernatural abilities",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:16"]
+    },
+    {
+      "property": "bloodlineImpulse",
+      "value": "Nanaya bloodline transmits a demon-hunting impulse and is known for assassination arts",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:18"]
+    },
+    {
+      "property": "shikiActivationSignal",
+      "value": "Shiki's demon-hunter blood awakens during the early Tsukihime encounter, causing killing impulse loss of control",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:46"]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "ganesha",
+  "volume": "vol-08",
+  "time_range": { "start": "第六章", "end": "第六章" },
+  "sub_arcs": ["某女神的恋曲"],
+  "periods": [
+    {
+      "period_id": "vol-08-ch-06",
+      "volume": "vol-08",
+      "time": "第六章 某女神的恋曲",
+      "label": "擅自放行赫斯缇雅的群主",
+      "name": { "zh": "迦尼萨", "en": "Ganesha", "jp": "ガネーシャ" },
+      "titles": ["群主", "迦尼萨眷族主神"],
+      "gender": "男",
+      "species": "神",
+      "occupation": "眷族主神、都市治安协力者",
+      "affiliation": "迦尼萨眷族",
+      "status": { "location": "欧拉丽北门", "state": "返回都市并擅自允许赫斯缇雅出城采药" },
+      "appearance": { "overview": "浅黑肌肤、身材高大结实，戴大象面具。" },
+      "personality": { "summary": "热情、爱摆姿势、声音巨大，真心喜爱下界居民与都市孩子。", "core_traits": ["热血", "善良", "自我主张强", "搞笑", "孩子气"], "values": ["都市居民笑容", "炸薯球", "维护治安"], "flaws": ["擅作主张", "让团员头痛"], "strengths": ["在都市居民间威望高", "与公会关系密切"] },
+      "relationships": { "hestia": "误放出城后被阿瑞斯绑架的女神", "loki": "事后责骂他的神友", "ganesha-familia": "被他吵到会赶他回都市的眷族" },
+      "summary": "迦尼萨从战线返回北门，因认为炸薯球是滋润都市的元气圣品，擅自准许赫斯缇雅出城采药，间接造成她被阿瑞斯绑架；事后被洛基痛骂。",
+      "key_events": [
+        { "event_id": "hestia-leaves-orario-and-is-abducted", "summary": "擅自放行赫斯缇雅离开都市。", "sourceRef": "danmachi-main/vol-08/full.txt:9950" },
+        { "event_id": "asfi-locates-hestia-and-pursuit-begins", "summary": "北门事发后在现场维持混乱秩序。", "sourceRef": "danmachi-main/vol-08/full.txt:10125" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-08/full.txt:9950", "danmachi-main/vol-08/full.txt:10125"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-08/full.txt:9900-10150"]
+}

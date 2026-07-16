@@ -1,0 +1,150 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "glefa",
+  "volume": "vol-18",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-18/full.txt:5346-5456"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-18-main",
+      "volume": "vol-18",
+      "time": "古代森林决战",
+      "name": {
+        "zh": "格莱法",
+        "en": "Glefa / Greifer",
+        "jp": "グライファー"
+      },
+      "aliases": [],
+      "titles": [
+        "七龙骑圣",
+        "梵海姆公国代表"
+      ],
+      "gender": "male",
+      "species": "human",
+      "nationality": "Vanheim Principality",
+      "occupation": "七龙骑圣机龙使",
+      "affiliation": "七龙骑圣；梵海姆公国",
+      "status": {
+        "role": "受玛姬艾儿卡情报诱导，潜入古代森林周边并阻止新王国守卫"
+      },
+      "appearance": {
+        "overview": "金发少年，驾驶空战型神装机龙库耶列布勒。"
+      },
+      "personality": {
+        "summary": "懒散但敏锐，虽记忆未完全恢复仍感到战斗未结束。",
+        "core_traits": [
+          "随性",
+          "敏锐",
+          "反权威",
+          "行动果断"
+        ],
+        "inner_conflict": "未突破世界改写，却被身体和直觉驱使介入。"
+      },
+      "abilities_owned": [],
+      "possessions_owned": [
+        "cuellebre-divine-drag-ride"
+      ],
+      "relationships": {
+        "mel-gisato": {
+          "type": "ally",
+          "summary": "与梅尔一起潜入并对抗尼尔、道拉。"
+        },
+        "neil-helvium": {
+          "type": "enemy",
+          "summary": "在入口处阻挡尼尔介入战局。"
+        },
+        "dora-shaltos": {
+          "type": "enemy",
+          "summary": "质问新王国守卫隐瞒真相。"
+        },
+        "magialca-jan-varfluck": {
+          "type": "informed by",
+          "summary": "被玛姬艾儿卡方面的情报引入古代森林。"
+        }
+      },
+      "knowledge": [],
+      "summary": "格莱法虽未恢复格尔尼卡之战记忆，但因玛姬艾儿卡泄露的爱莉尔与至高之力情报留在新王国，并与梅尔一同阻止四大贵族指挥官进入古代森林深处。",
+      "key_events": [
+        {
+          "event_id": "two-riders-join",
+          "summary": "与梅尔拦住尼尔和道拉。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-18/full.txt:5346-5456"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-18/full.txt:5346-5456"
+      ]
+    },
+    {
+      "period_id": "vol-19",
+      "volume": "vol-19",
+      "time": "宿上方决斗",
+      "label": "七龙骑圣贪狼",
+      "name": {
+        "zh": "格莱法",
+        "en": "Greifer",
+        "jp": ""
+      },
+      "aliases": [
+        "贪狼"
+      ],
+      "titles": [
+        "七龙骑圣"
+      ],
+      "gender": "male",
+      "species": "human",
+      "occupation": "机龙使",
+      "affiliation": "七龙骑圣/路克斯阵营",
+      "status": {
+        "end": "存活，战力耗尽",
+        "mental": "从单打独斗转为主动与梅尔协作"
+      },
+      "personality": {
+        "summary": "傲慢、好战、嘴硬，但能在关键时刻承认团队协作必要性。",
+        "core_traits": [
+          "强者自负",
+          "直觉敏锐",
+          "粗鲁",
+          "可协作"
+        ],
+        "inner_conflict": "习惯独自战斗，却必须借助梅尔和路克斯等人的影响取胜。"
+      },
+      "abilities_owned": [
+        "photon-dive"
+      ],
+      "possessions_owned": [
+        "cuélebre",
+        "dragon-tail-chain-sword"
+      ],
+      "relationships": {
+        "mel-gizatto": {
+          "type": "battle partner",
+          "summary": "与梅尔互相吐槽并联手击破自动人形。"
+        },
+        "lux-arcadia": {
+          "type": "ally / rival respect",
+          "summary": "承认路克斯带来的协作影响。"
+        },
+        "zaibeybeck-kimrei": {
+          "type": "ideological influence",
+          "summary": "提到自己也受辛格伦遗志影响。"
+        }
+      },
+      "summary": "格莱法在宿上方迎战卢·卡里亚，识破羽蛇神引导者扰乱机龙动作的神装，并与梅尔用暗中协作击破残余自动人形。",
+      "key_events": [
+        {
+          "event_id": "greif-mel-vs-automata",
+          "summary": "与梅尔击败卢·卡里亚和涅依·露榭",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-19/full.txt:2693-6600"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-19/full.txt:157-6600"
+      ]
+    }
+  ]
+}

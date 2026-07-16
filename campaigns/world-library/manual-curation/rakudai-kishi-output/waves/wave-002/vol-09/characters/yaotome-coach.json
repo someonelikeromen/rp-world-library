@@ -1,0 +1,35 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "rakudai-kishi",
+  "character_id": "yaotome-coach",
+  "volume": "vol-09",
+  "time_range": { "start": "vol-09 ch-001", "end": "vol-09 ch-004" },
+  "sub_arcs": ["tournament-commentary"],
+  "periods": [
+    {
+      "period_id": "vol-09",
+      "volume": "vol-09",
+      "time": "Festival broadcast booth during second and third rounds",
+      "label": "八乙女教练解说关键战术",
+      "name": { "zh": "八乙女教练", "en": "Coach Yaotome", "jp": "八乙女" },
+      "aliases": [],
+      "titles": ["七星剑武祭解说员", "教练"],
+      "gender": "female",
+      "species": "human",
+      "occupation": "coach; broadcast commentator",
+      "affiliation": "Seven Stars Sword-Art Festival broadcast team",
+      "status": { "current": "serving as technical commentator in place of Muroto", "condition": "sharp and mostly impartial despite admitting she is an Ikki fan" },
+      "personality": { "summary": "Analytical and quick to identify hidden mechanics behind spectacular combat." },
+      "relationships": { "iida-announcer": "Broadcast partner who asks for technical clarification.", "ikki-kurogane": "Subject of repeated analysis; she recognizes both his brilliance and hidden strain." },
+      "summary": "Yaotome replaces Muroto at the commentary desk and explains several key moments: Ikki's 0.8-second Ittou Rasetsu win over Byakuya, Shizuku's hidden water membrane against Momiji, Renji's steel-body Asura technique, Ouma's unknown but overwhelming power, Ikki's use of Nukiachi and body control against Sara's guns, and the nature of Edelweiss's residual vacuum cuts. Her commentary helps establish that many of Ikki's public victories are far less easy than they look.",
+      "key_events": [
+        { "event_id": "ikki-vs-byakuya-record-win", "summary": "Explains the Ittou Rasetsu plus Hiyoku-sword-method opening." },
+        { "event_id": "shizuku-vs-momiji-second-round", "summary": "Identifies Shizuku's arena-wide water membrane." },
+        { "event_id": "ikki-vs-sara-third-round", "summary": "Explains Ikki's footwork, Sara's copied Edelweiss and several combat mechanics." }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["rakudai-kishi-main/vol-09/ch-001", "rakudai-kishi-main/vol-09/ch-002", "rakudai-kishi-main/vol-09/ch-004"]
+    }
+  ],
+  "source_refs": ["rakudai-kishi-main/vol-09"]
+}

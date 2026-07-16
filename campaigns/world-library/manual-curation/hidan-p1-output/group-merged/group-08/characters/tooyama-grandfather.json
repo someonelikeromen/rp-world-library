@@ -1,0 +1,155 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "tooyama-grandfather",
+  "volume": "vol-22",
+  "time_range": {
+    "start": "vol-22",
+    "end": "vol-22"
+  },
+  "sub_arcs": [
+    "愿彗星沉睡于白日梦"
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-22/chapters/ch-003-第二十二卷_愿彗星沉睡于白日梦_3弹_克罗梅德尔的妹妹.txt:1553"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-22",
+      "volume": "vol-22",
+      "time": "金次咨询对卒时",
+      "label": "远山家病理传承告知者",
+      "name": {
+        "zh": "远山家爷爷",
+        "en": "Tooyama Grandfather",
+        "jp": "遠山家祖父"
+      },
+      "aliases": [
+        "爷爷"
+      ],
+      "titles": [
+        "远山家长辈"
+      ],
+      "gender": "男",
+      "species": "人类；远山家男性",
+      "nationality": "日本",
+      "occupation": "远山家长辈",
+      "affiliation": "tooyama-family",
+      "status": {
+        "alive": true,
+        "vol22": "接到金次深夜电话，说明对卒与家族病史"
+      },
+      "appearance": {
+        "overview": "本卷仅以电话登场。"
+      },
+      "personality": {
+        "summary": "粗豪但关心孙子，直言远山家男人胜不过疾病。",
+        "core_traits": [
+          "粗豪",
+          "关怀",
+          "经验丰富"
+        ]
+      },
+      "abilities_owned": [
+        "hss"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "kinji": {
+          "relation": "祖父",
+          "status": "警告金次不要再返对，甚至建议引退。",
+          "sourceRef": "hidan-no-aria-main/vol-22/full.txt:4923"
+        },
+        "tooyama-kinsha": {
+          "relation": "儿子/后辈家族成员",
+          "status": "说明金叉与茉切交手时受对卒影响。",
+          "sourceRef": "hidan-no-aria-main/vol-22/full.txt:4923"
+        }
+      },
+      "knowledge": [
+        "kinji-tai-sotsu-risk"
+      ],
+      "secrets": [
+        "远山家曾祖父也因类似症状早逝"
+      ],
+      "summary": "远山家爷爷通过电话确认金次的头痛高度符合远山家『对卒』，为本卷健康危机提供解释。",
+      "key_events": [
+        {
+          "event_id": "tai-sotsu-revelation",
+          "summary": "向金次说明远山家每两人约有一人返对时出现卒中样症状。",
+          "sourceRef": "hidan-no-aria-main/vol-22/full.txt:4923"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-22/chapters/ch-001-第二十二卷_愿彗星沉睡于白日梦_1弹_无名氏之死.txt:275",
+        "hidan-no-aria-main/vol-22/chapters/ch-003-第二十二卷_愿彗星沉睡于白日梦_3弹_克罗梅德尔的妹妹.txt:1553"
+      ]
+    },
+    {
+      "period_id": "vol-35",
+      "volume": "vol-35",
+      "time": "第三十五卷",
+      "name": {
+        "zh": "远山家祖父",
+        "en": "Tooyama Grandfather",
+        "jp": "遠山家の祖父"
+      },
+      "aliases": [
+        "爷爷",
+        "铁"
+      ],
+      "gender": "male",
+      "species": "human",
+      "nationality": "Japan",
+      "occupation": "远山家长辈",
+      "affiliation": [
+        "远山家"
+      ],
+      "status": {
+        "life": "alive",
+        "condition": "在巢鸭远山家迎接金次等人，保管远山金四郎遗物刀箱",
+        "role": "家族遗物与影打日本刀的提供者"
+      },
+      "appearance": {
+        "overview": "老一辈远山家成员，与雪花互相以旧称争吵。"
+      },
+      "personality": {
+        "summary": "粗豪懒散，保管名刀但不善维护。",
+        "core_traits": [
+          "家族传承",
+          "怕雪花责骂",
+          "粗枝大叶"
+        ],
+        "flaws": [
+          "没有好好保养刀剑"
+        ]
+      },
+      "abilities_owned": [],
+      "possessions_owned": [
+        "ishido-unjusai-shadow-sword"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "grandson",
+          "description": "在雪花建议下把石堂运寿斋影打刀给金次。"
+        },
+        "yukihana": {
+          "type": "old-family-acquaintance",
+          "description": "被雪花斥责未保养刀剑后像蟑螂一样逃走。"
+        }
+      },
+      "key_events": [
+        {
+          "event_id": "yukihana-adopts-tooyama-children",
+          "summary": "在远山家晚餐后取出远山金四郎遗物刀箱，交出影打刀。",
+          "sourceRef": "hidan-no-aria-main/vol-35/full.txt"
+        }
+      ],
+      "evidence_level": "B",
+      "source_refs": [
+        "hidan-no-aria-main/vol-35/full.txt"
+      ]
+    }
+  ]
+}

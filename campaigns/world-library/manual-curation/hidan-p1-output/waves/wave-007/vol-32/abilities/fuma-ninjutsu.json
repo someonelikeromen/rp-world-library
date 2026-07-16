@@ -1,0 +1,76 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "fuma-ninjutsu",
+  "volume": "vol-32",
+  "periods": [
+    {
+      "period_id": "vol-32-main",
+      "volume": "vol-32",
+      "time": "尼加拉与返日",
+      "name": {
+        "zh": "风魔忍术",
+        "en": "Fuma ninjutsu"
+      },
+      "aliases": [
+        "花霞",
+        "隐身术"
+      ],
+      "type": "combat / skill",
+      "description": "风魔阳菜使用的忍者技巧，包括隐藏身形、快速游泳、绳索救援和花瓣障眼离场。",
+      "details": {
+        "signature": "花霞以向日葵花瓣遮掩离场"
+      },
+      "activation": {
+        "condition": "忍者训练与环境利用",
+        "incantation": "",
+        "time": "即时",
+        "cost": "依赖准备和环境"
+      },
+      "effects": [
+        "隐藏",
+        "救援",
+        "追踪规避"
+      ],
+      "power_level": {
+        "initial": "可在尼加拉混乱中隐藏并救援恩蒂米菈",
+        "peak": "以花霞从羽田离开",
+        "evolution": []
+      },
+      "known_feats": [
+        {
+          "summary": "风魔在尼加拉从水中救出恩蒂米菈并用绳索带众人登岸。",
+          "sourceRef": "hidan-no-aria-main/vol-32/full.txt:560"
+        },
+        {
+          "summary": "风魔在羽田以花霞道别。",
+          "sourceRef": "hidan-no-aria-main/vol-32/full.txt:1117"
+        }
+      ],
+      "shared_by": [
+        "fuma-hina"
+      ],
+      "see_also": [
+        "matchlock-shooting"
+      ],
+      "countered_by": [
+        "高感知敌人"
+      ],
+      "counters": [
+        "普通追踪"
+      ],
+      "variations": [
+        "花霞",
+        "水中救援"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-32/chapters/ch-001-第三十二卷_苍穹的密使_1弹_Catch_you_later.txt:560",
+        "hidan-no-aria-main/vol-32/chapters/ch-002-第三十二卷_苍穹的密使_2弹_金钱、人类、精灵.txt:1"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-32/chapters/ch-001-第三十二卷_苍穹的密使_1弹_Catch_you_later.txt:560"
+  ]
+}

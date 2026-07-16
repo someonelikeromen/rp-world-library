@@ -1,0 +1,170 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "reki",
+  "volume": "vol-01",
+  "time_range": {
+    "start": "公车挟持事件",
+    "end": "探病送花后"
+  },
+  "sub_arcs": [
+    "狙击支援"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-01-main",
+      "volume": "vol-01",
+      "time": "公车挟持事件前后",
+      "label": "狙击科S级天才",
+      "name": {
+        "zh": "蕾姬",
+        "en": "Reki",
+        "jp": "レキ"
+      },
+      "aliases": [
+        "机器人女"
+      ],
+      "titles": [
+        "狙击科S级武侦"
+      ],
+      "gender": "女",
+      "species": "人类",
+      "nationality": "未明（姓氏无人知晓）",
+      "occupation": "武侦高中学生",
+      "affiliation": "东京武侦高中狙击科",
+      "status": {
+        "physical": "健在",
+        "role": "完成关键狙击拆弹任务"
+      },
+      "appearance": {
+        "overview": "短发、纤细、五官如CG般整齐，面无表情如机器人。",
+        "physical": {
+          "height": "比亚莉亚高约半头",
+          "build": "纤细",
+          "hair": {
+            "style": "短发"
+          },
+          "eyes": {
+            "impression": "无表情"
+          }
+        },
+        "attire": {
+          "default": "武侦制服",
+          "combat": "携SVD德拉古诺夫轻型半自动狙击步枪"
+        },
+        "voice_quality": {
+          "tone": "无抑扬顿挫、冷淡机械式"
+        },
+        "distinctive": [
+          "常戴耳机",
+          "双眼视力6.0",
+          "抱膝静坐如装饰品"
+        ]
+      },
+      "personality": {
+        "summary": "极端冷静寡言，自称子弹，不以常人情绪行动。",
+        "core_traits": [
+          "寡言",
+          "精准",
+          "无表情",
+          "遵守命令"
+        ],
+        "values": [
+          "命中目标",
+          "狙击就是一切"
+        ],
+        "fears": [],
+        "desires": [],
+        "strengths": [
+          "远距离观察与狙击",
+          "狙击精度极高（可打中炸弹组件将其分离）",
+          "入学考试S级"
+        ],
+        "flaws": [
+          "交流极少",
+          "像个机器"
+        ],
+        "inner_conflict": "未在卷中表现",
+        "decision_pattern": {
+          "combat": "吟诵咒文后精确射击"
+        }
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {
+          "kinji": "（仅简短回答）"
+        },
+        "register": {
+          "normal": "短句无感情"
+        },
+        "catchphrases": [
+          "我是一发子弹，子弹没有人心。故不会思考——只会一味地朝目标飞去。"
+        ],
+        "quote_samples": [
+          {
+            "text": "这是风的声音。",
+            "sourceRef": "hidan-no-aria-main/vol-01/full.txt:3281"
+          },
+          {
+            "text": "——我是一发子弹——",
+            "sourceRef": "hidan-no-aria-main/vol-01/full.txt:3699"
+          }
+        ]
+      },
+      "habits": {
+        "mannerisms": [
+          "抱膝静坐",
+          "狙击前吟诵咒文"
+        ],
+        "daily_routine": "狙击科活动，听风声",
+        "quirks": [
+          "戴耳机听风声（非音乐）"
+        ],
+        "preferences": {}
+      },
+      "background": {
+        "birth": {
+          "place": "未明",
+          "family": []
+        },
+        "upbringing": "姓氏无人知晓，本人似乎也不清楚。",
+        "education": {
+          "current": "狙击科"
+        },
+        "formative_events": [
+          "入学考试与金次同评S级"
+        ],
+        "pre_story": "曾与强袭科时期的金次共事过几次。"
+      },
+      "abilities_owned": [
+        "abilities/reki-sniping.json"
+      ],
+      "possessions_owned": [
+        "items/reki-svd.json"
+      ],
+      "relationships": {
+        "aria": "临时小队队友，曾送白百合探病",
+        "kinji": "曾共事的强袭科/狙击科队友"
+      },
+      "knowledge": [],
+      "secrets": [],
+      "summary": "蕾姬在公车挟持事件中被亚莉亚临时召集，从直升机上狙击摧毁雷诺蜘蛛的枪座和分离炸弹组件，直接避免公交大爆炸。之后送白百合探望受伤的亚莉亚。",
+      "key_events": [
+        {
+          "event_id": "bus-hijacking",
+          "summary": "以SVD击毁无人雷诺跑车的枪座和分离炸弹组件。",
+          "sourceRef": "hidan-no-aria-main/vol-01/full.txt:3699"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-01/chapters/ch-004-第一卷_3弹_强袭科.txt:521",
+        "hidan-no-aria-main/vol-01/chapters/ch-004-第一卷_3弹_强袭科.txt:525",
+        "hidan-no-aria-main/vol-01/chapters/ch-004-第一卷_3弹_强袭科.txt:977"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-01/chapters/ch-004-第一卷_3弹_强袭科.txt:521"
+  ]
+}

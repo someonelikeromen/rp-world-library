@@ -1,0 +1,30 @@
+{
+  "schema": "tm-fgo-normalization-report-v1",
+  "packetId": "pkt-fgo-ordeal-call-oc2-id-prep",
+  "chapterId": "fgo-ordeal-call-2-id",
+  "slug": "oc2-id",
+  "model": "lt-yuyu/gpt-5.5",
+  "status": "completed",
+  "normalizationPolicy": "Source-first raw labels preserved; English/romanized/common labels remain alias candidates unless directly present in current source. No wiki/game/model-memory facts promoted.",
+  "inputExtractedPath": "extracted/ordeal-call/oc2-id/",
+  "outputsCreated": [
+    "normalized/ordeal-call/oc2-id/chapter-record.json",
+    "normalized/ordeal-call/oc2-id/entity-index.json",
+    "normalized/ordeal-call/oc2-id/phase-timeline-index.json",
+    "normalized/ordeal-call/oc2-id/relationship-edge-index.json",
+    "normalized/ordeal-call/oc2-id/signal-index.json",
+    "normalized/ordeal-call/oc2-id/normalization-report.json"
+  ],
+  "checks": {
+    "phaseEventsMapped": 4,
+    "entityRecordsMapped": 7,
+    "relationshipEdgesMapped": 5,
+    "relationshipTimelineFieldsPresent": true,
+    "formalRecordsCarryMetadata": true,
+    "forbiddenAggregateFilesCreated": false
+  },
+  "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:1-89"],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

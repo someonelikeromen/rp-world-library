@@ -1,0 +1,73 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "critical-strike",
+  "volume": "vol-12",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-12/full.txt:1235-7224"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-12-main",
+      "volume": "vol-12",
+      "time": "夜架与路克斯连携战斗",
+      "name": {
+        "zh": "刻击",
+        "en": "Critical Strike"
+      },
+      "aliases": [
+        "意识破绽斩击",
+        "Moment-break strike"
+      ],
+      "type": "combat / skill",
+      "description": "夜架凭魔性之瞳读取敌方意识波动，瞄准意识中断的极短破绽发动的一击。本卷中夜架以禁咒符号操纵《巴哈姆特》，让路克斯身体代行刻击。",
+      "details": {
+        "primary_user": "yakumo",
+        "linked_user": "lux-arcadia"
+      },
+      "activation": {
+        "condition": "读取目标意识波长并捕捉中断瞬间",
+        "incantation": "刻击",
+        "time": "瞬间",
+        "cost": "需要极高洞察与时机判断"
+      },
+      "effects": [
+        "绕过常规反应与防御节奏",
+        "可制造对圣蚀发动暴击的起手机会"
+      ],
+      "power_level": {
+        "initial": "对机龙使极危险",
+        "peak": "可打断圣蚀对路克斯洞察力的模仿",
+        "evolution": [
+          "通过《蜘蛛丝》与《禁咒符号》外借给路克斯身体"
+        ]
+      },
+      "known_feats": [
+        "夜架用刻击攻击辛格伦",
+        "最终战中操纵《巴哈姆特》对圣蚀发动刻击"
+      ],
+      "shared_by": [
+        "yakumo",
+        "lux-arcadia"
+      ],
+      "see_also": [
+        "forbidden-seal",
+        "spider-thread",
+        "devour"
+      ],
+      "countered_by": [
+        "royal-authority",
+        "true-battle-array"
+      ],
+      "counters": [
+        "holy-eclipse-evolution"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-12/full.txt:1235-2298",
+        "saijaku-muhai-bahamut-main/vol-12/full.txt:5113-7224"
+      ]
+    }
+  ]
+}

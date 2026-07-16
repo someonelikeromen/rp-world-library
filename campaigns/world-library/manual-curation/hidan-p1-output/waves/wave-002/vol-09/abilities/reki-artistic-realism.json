@@ -1,0 +1,42 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "ability",
+  "entityId": "reki-artistic-realism",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-09",
+  "periods": [
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:6740",
+        "hidan-no-aria-main/vol-09/full.txt:6780"
+      ],
+      "snapshot": {
+        "name": "蕾姬写实绘画才能",
+        "aliases": [
+          "梦魔海报",
+          "喷枪画",
+          "文化祭海报第一名"
+        ],
+        "type": "artistic skill",
+        "description": "蕾姬意外展现出的精密写实绘画能力。她以故乡流传的梦魔为主题创作喷枪画，被文化祭海报投票评为第一名，画风极其真实恐怖。",
+        "known_users": [
+          "reki"
+        ],
+        "effects": [
+          "超写实视觉表现",
+          "可将梦魔题材画得近似照片",
+          "显示狙击手精密操作与集中力延伸到艺术领域"
+        ],
+        "limitations": [
+          "非战斗能力；本人对获奖反应平淡"
+        ],
+        "associated_events": [
+          "baskerville-butei-hotpot-party"
+        ],
+        "evidence_level": "A"
+      }
+    }
+  ],
+  "_schema": "rp-ability-volume-v1"
+}

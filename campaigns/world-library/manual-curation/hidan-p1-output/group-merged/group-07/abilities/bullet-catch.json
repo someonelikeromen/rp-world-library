@@ -1,0 +1,61 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "bullet-catch",
+  "volume": "vol-25",
+  "source_refs": [
+    "hidan-no-aria-main/vol-25/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-25",
+      "volume": "vol-25",
+      "time": "第二十五卷 罗马的军神星",
+      "name": {
+        "zh": "徒手停弹",
+        "en": "Bullet Catch"
+      },
+      "aliases": [
+        "子弹陀螺停弹"
+      ],
+      "type": "combat / skill",
+      "description": "茉斩以指甲与身体旋转抵消子弹推进力，让子弹像陀螺般停在指尖。",
+      "details": {
+        "mechanism": "中弹瞬间手臂等速后撤，以旋转身体抵销推进力，只保留子弹自旋。"
+      },
+      "activation": {
+        "condition": "精准判断子弹轨道并以手指接触",
+        "incantation": "",
+        "time": "瞬时",
+        "cost": "高风险，需要极高身体控制"
+      },
+      "effects": [
+        "徒手无伤接住子弹",
+        "展示远山系物理技储备"
+      ],
+      "power_level": {
+        "initial": "可停住金次9mm子弹",
+        "peak": "未知",
+        "evolution": []
+      },
+      "known_feats": [
+        "广场会谈中接住金次射向其手指的子弹"
+      ],
+      "shared_by": [
+        "mazari"
+      ],
+      "see_also": [
+        "invisible-bullet"
+      ],
+      "countered_by": [],
+      "counters": [
+        "firearms"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-25/full.txt"
+      ]
+    }
+  ]
+}

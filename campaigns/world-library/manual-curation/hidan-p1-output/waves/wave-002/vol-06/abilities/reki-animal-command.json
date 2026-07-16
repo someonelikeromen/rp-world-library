@@ -1,0 +1,61 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "reki-animal-command",
+  "volume": "vol-06",
+  "periods": [
+    {
+      "period_id": "vol-06-main",
+      "volume": "vol-06",
+      "time": "全卷",
+      "name": {
+        "zh": "蕾姬的动物沟通/命令",
+        "en": "Reki Animal Command"
+      },
+      "aliases": [
+        "动物沟通",
+        "狼与猫的信号"
+      ],
+      "type": "special-skill",
+      "description": "蕾姬能以极少的动作或声音让动物服从，包括指挥高加索银狼艾马基、让猫咖啡店所有猫聚集到脚边。金次推测她能向动物传达强力讯息。",
+      "details": {
+        "animals": [
+          "emaki",
+          "cats"
+        ],
+        "mode": "短促语言、声音或非语言命令",
+        "limits": "对人类沟通反而笨拙"
+      },
+      "activation": {
+        "condition": "面对动物并发出命令/信号",
+        "incantation": "如‘喵呜’等极短声音",
+        "cost": "无明确代价"
+      },
+      "effects": [
+        "命令艾马基监视、攻击、待机",
+        "召集猫咖啡店全部猫咪",
+        "让动物配合战斗或日常行动"
+      ],
+      "known_feats": [
+        "艾马基在狩猎人类中配合她追击金次",
+        "ChatonCALL活动中一声喵呜让所有猫来到脚边"
+      ],
+      "shared_by": [
+        "reki"
+      ],
+      "see_also": [
+        "emaki"
+      ],
+      "countered_by": [],
+      "counters": [],
+      "evidence_level": "A",
+      "source_refs": [
+        "hidan-no-aria-main/vol-06/chapters/ch-001-第六卷_绝对半径2051_1弹_狩猎人类.txt:203",
+        "hidan-no-aria-main/vol-06/chapters/ch-003-第六卷_绝对半径2051_3弹_校外教学.txt:1551"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-06/chapters/ch-003-第六卷_绝对半径2051_3弹_校外教学.txt:1551"
+  ]
+}

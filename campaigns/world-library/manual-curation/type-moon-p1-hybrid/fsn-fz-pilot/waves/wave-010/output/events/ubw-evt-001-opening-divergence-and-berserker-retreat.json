@@ -1,0 +1,25 @@
+{
+  "schema": "tm-p1-event-v1",
+  "event_id": "ubw-evt-001-opening-divergence-and-berserker-retreat",
+  "worldId": "type-moon-nasuverse",
+  "continuity": "fsn",
+  "timelineId": "fsn-ubw-route",
+  "route": "ubw-route",
+  "canonStatus": "canon-like",
+  "time": { "start": { "value": null, "precision": "relative-only", "relative": "UBW route days one to three", "orderIndex": 300 }, "end": { "value": null, "precision": "relative-only", "relative": "UBW route day three return from church", "orderIndex": 306 }, "duration": "multiple-days", "confidence": "medium" },
+  "timelineNodes": [
+    { "nodeId": "start", "label": "Common opening diverges", "time": { "relative": "Days one to three", "orderIndex": 300 }, "summary": "The opening follows Fate route until Saber tries to attack Archer and Rin." },
+    { "nodeId": "middle-001", "label": "Command Spell stop", "time": { "relative": "Day three after Saber summon", "orderIndex": 303 }, "summary": "Shirou uses a Command Spell to stop Saber and Rin takes him to the church." },
+    { "nodeId": "end", "label": "Berserker retreat", "time": { "relative": "After church return", "orderIndex": 306 }, "summary": "Illya retreats after Archer's Caladbolg-like attack injures Saber." }
+  ],
+  "participants": ["emiya-shirou", "saber-artoria", "tohsaka-rin", "archer-emiya", "illyasviel-fsn", "berserker-heracles"],
+  "locationRefs": ["fuyuki-church", "fuyuki-city"],
+  "cause": "UBW route diverges from the Fate opening through Shirou's use of a Command Spell and Archer's intervention.",
+  "process": "Saber is stopped from attacking Rin and Archer; after the church explanation, the party encounters Illya and Berserker.",
+  "outcome": "Archer survives the opening and Illya becomes interested in him before retreating.",
+  "stateChanges": ["Archer remains active", "Saber is injured by Archer's indiscriminate shot"],
+  "relationshipChanges": ["Rin and Shirou move toward alliance while Archer remains hostile to Shirou"],
+  "sourceType": "curated-story-derived",
+  "credibility": "B",
+  "sourceRefs": ["type-moon-nasuverse/story-text/fate/ch-003-ubw-route.txt:25", "type-moon-nasuverse/story-text/fate/ch-003-ubw-route.txt:26", "type-moon-nasuverse/story-text/fate/ch-003-ubw-route.txt:27", "type-moon-nasuverse/story-text/fate/ch-003-ubw-route.txt:28"]
+}

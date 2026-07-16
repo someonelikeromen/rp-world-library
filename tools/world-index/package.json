@@ -1,0 +1,15 @@
+{
+  "name": "world-index",
+  "version": "1.0.0",
+  "description": "Progressive-search index over 63 ACG worldbooks — build once, query fast, read content on demand",
+  "type": "module",
+  "bin": {
+    "wl": "./cli.js"
+  },
+  "scripts": {
+    "build": "node cli.js build",
+    "search": "node cli.js search"
+  },
+  "keywords": ["worldbook", "rp", "lore", "progressive-loading"],
+  "license": "MIT"
+}

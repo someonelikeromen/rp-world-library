@@ -1,0 +1,51 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "star-burst",
+  "volume": "vol-06",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:6440"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-06",
+      "volume": "vol-06",
+      "time": "本卷",
+      "name": {
+        "zh": "星光爆破",
+        "en": "Star Burst"
+      },
+      "aliases": [
+        "广范围爆破光弹"
+      ],
+      "type": "technology / combat",
+      "description": "凛德龙虫的特殊武装，发射压缩光弹造成广范围爆破。",
+      "details": {
+        "weapon": "lindworm special armament"
+      },
+      "activation": {
+        "condition": "驾驶凛德龙虫并充能",
+        "incantation": "星光爆破",
+        "time": "瞬间",
+        "cost": "高能量"
+      },
+      "effects": [
+        "范围爆破",
+        "破坏大型目标部位"
+      ],
+      "known_feats": [
+        "赛莉丝以星光爆破弹飞巨兵左臂并粉碎大量炮口"
+      ],
+      "shared_by": [
+        "celistia-ralgris"
+      ],
+      "see_also": [
+        "lindworm"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:6440"
+      ]
+    }
+  ]
+}

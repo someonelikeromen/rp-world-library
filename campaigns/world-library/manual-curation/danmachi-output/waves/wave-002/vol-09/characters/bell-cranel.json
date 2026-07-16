@@ -1,0 +1,87 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "bell-cranel",
+  "volume": "vol-09",
+  "time_range": { "start": "序章", "end": "特典" },
+  "sub_arcs": ["异形少女", "龙娘同居", "世界与怪物", "强制任务", "异端儿"],
+  "periods": [
+    {
+      "period_id": "vol-09-ch-01-rescues-wiene",
+      "volume": "vol-09",
+      "time": "第一章 异性少女",
+      "label": "救下会哭会说话的龙女",
+      "name": { "zh": "贝尔·克朗尼", "en": "Bell Cranel", "jp": "ベル・クラネル" },
+      "aliases": ["小新秀"],
+      "gender": "男",
+      "species": "人类",
+      "occupation": "冒险者、赫斯缇雅眷族团长",
+      "affiliation": "赫斯缇雅眷族",
+      "status": { "level": "Lv.3", "location": "地下城第19层至灶火馆", "state": "保护受伤的薇妮并秘密带回地表" },
+      "summary": "贝尔在第19层遇见遭怪兽与冒险者追杀、会哭会说话的维维尔少女。他无法杀死她，救她免于火鸟袭击，治疗并隐瞒她，最终说服眷族将她带回灶火馆请赫斯缇雅裁断。",
+      "key_events": [
+        { "event_id": "bell-rescues-wiene-from-firebird-and-adventurers", "summary": "救下维维尔少女并用灵药治疗她。", "sourceRef": "danmachi-main/vol-09/full.txt:260" },
+        { "event_id": "hestia-familia-smuggles-wiene-to-manor", "summary": "与同伴在夜间把她带出巴别塔。", "sourceRef": "danmachi-main/vol-09/full.txt:690" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-09/full.txt:149-776"]
+    },
+    {
+      "period_id": "vol-09-ch-02-family-cohabitation",
+      "volume": "vol-09",
+      "time": "第二章 龙娘的同居日常",
+      "label": "为薇妮取名并建立家人般日常",
+      "status": { "location": "灶火馆", "state": "在保护薇妮的同时被她强烈依赖" },
+      "summary": "贝尔向赫斯缇雅坦白后得到暂时庇护决定，并为龙女取名薇妮。他照顾薇妮、安抚她因抓伤自己而崩溃的心情，听她说出反复梦见袭击人类和临死呼救的噩梦。",
+      "key_events": [
+        { "event_id": "hestia-familia-accepts-wiene-and-names-her", "summary": "为龙女取名薇妮。", "sourceRef": "danmachi-main/vol-09/full.txt:900" },
+        { "event_id": "wiene-bonds-with-hestia-familia-at-manor", "summary": "握住薇妮磨圆的指甲，证明自己不会再受伤。", "sourceRef": "danmachi-main/vol-09/full.txt:1855" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-09/full.txt:777-2470"]
+    },
+    {
+      "period_id": "vol-09-ch-03-world-and-monsters",
+      "volume": "vol-09",
+      "time": "第三章 世界、现实与怪物",
+      "label": "寻找真相并面对现实恶意",
+      "status": { "location": "地下城第19层、欧拉丽街区、教堂隐藏房间", "state": "因薇妮动摇而难以对怪兽下杀手" },
+      "summary": "贝尔与韦尔夫回到第19层调查，遇见同样会说话的金翼怪兽，确认薇妮不是孤例。之后薇妮因听见莉莉主张送她离开而逃出宅邸，在街上暴露龙翼遭市民投石，贝尔赶到却无法公开庇护，只能与眷族转移到旧教堂隐藏房间。",
+      "key_events": [
+        { "event_id": "bell-and-welf-meet-siren-rei-on-floor-19", "summary": "在第19层遇到称薇妮为同胞的金翼怪兽。", "sourceRef": "danmachi-main/vol-09/full.txt:3290" },
+        { "event_id": "wiene-revealed-in-city-and-lili-rescues-her", "summary": "赶到薇妮被市民投石的现场。", "sourceRef": "danmachi-main/vol-09/full.txt:3910" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-09/full.txt:2471-4180"]
+    },
+    {
+      "period_id": "vol-09-ch-04-secret-mission",
+      "volume": "vol-09",
+      "time": "第四章 MISSiON",
+      "label": "接受护送薇妮回地下城的强制任务",
+      "status": { "location": "公会本部、灶火馆、巴别塔", "state": "决定执行公会最高机密强制任务" },
+      "summary": "贝尔从埃伊娜手中收到强制任务，发现公会命令赫斯缇雅眷族带龙族女孩前往第20层。他拒绝把埃伊娜卷入秘密，回到眷族后与同伴决定执行任务，并向薇妮承诺同行。",
+      "key_events": [
+        { "event_id": "eina-delivers-secret-mission-to-bell", "summary": "读取命令时确认公会知道薇妮。", "sourceRef": "danmachi-main/vol-09/full.txt:4555" },
+        { "event_id": "hestia-familia-prepares-floor-20-mission", "summary": "眷族决定执行强制任务。", "sourceRef": "danmachi-main/vol-09/full.txt:4750" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-09/full.txt:4181-5166"]
+    },
+    {
+      "period_id": "vol-09-ch-05-xenos-parting",
+      "volume": "vol-09",
+      "time": "第五章 异端儿",
+      "label": "认识异端儿并与薇妮分别",
+      "status": { "location": "地下城第20层未开拓领域、巴别塔前", "state": "理解异端儿的梦想并把薇妮留给同胞" },
+      "summary": "贝尔护送薇妮突破第19、20层，在隐藏秘里被里德等异端儿测试。他与蜥蜴人里德握手，听闻异端儿向往地表与人类的梦想，也得知怪兽可能轮回转生。最终为保护薇妮与眷族，他含泪让薇妮留在异端儿身边，并在归来后向赫斯缇雅询问地下城的真相。",
+      "key_events": [
+        { "event_id": "xenos-test-hestia-familia-and-greet-bell", "summary": "与蜥蜴人里德交战后握手。", "sourceRef": "danmachi-main/vol-09/full.txt:6810" },
+        { "event_id": "wiene-stays-with-xenos-and-hestia-familia-returns", "summary": "与薇妮约定还会再见。", "sourceRef": "danmachi-main/vol-09/full.txt:8530" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-09/full.txt:5167-8632"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-09/full.txt:149-8632"]
+}

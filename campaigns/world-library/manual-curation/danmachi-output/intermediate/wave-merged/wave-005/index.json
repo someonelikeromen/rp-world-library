@@ -1,0 +1,837 @@
+{
+  "_schema": "rp-index-volume-v1",
+  "world": "hidan-no-aria",
+  "wave": "wave-005",
+  "output": "campaigns/world-library/manual-curation/danmachi-output/intermediate/wave-merged/wave-005",
+  "source_volumes": [
+    "vol-21",
+    "vol-22",
+    "vol-23",
+    "vol-24",
+    "vol-25"
+  ],
+  "counts": {
+    "characters": 51,
+    "abilities": 6,
+    "items": 7,
+    "events": 61,
+    "locations": 12,
+    "factions": 6,
+    "systems": 9,
+    "knowledge": 7
+  },
+  "entities": {
+    "characters": [
+      {
+        "id": "ais-wallenstein",
+        "name": "ais-wallenstein",
+        "type": "characters"
+      },
+      {
+        "id": "aisha-belka",
+        "name": "aisha-belka",
+        "type": "characters"
+      },
+      {
+        "id": "allen-fromel",
+        "name": "allen-fromel",
+        "type": "characters"
+      },
+      {
+        "id": "anya-fromel",
+        "name": "anya-fromel",
+        "type": "characters"
+      },
+      {
+        "id": "asfi-al-andromeda",
+        "name": "asfi-al-andromeda",
+        "type": "characters"
+      },
+      {
+        "id": "astraea",
+        "name": "astraea",
+        "type": "characters"
+      },
+      {
+        "id": "baldr",
+        "name": "baldr",
+        "type": "characters"
+      },
+      {
+        "id": "bell-cranel",
+        "name": "bell-cranel",
+        "type": "characters"
+      },
+      {
+        "id": "bridgit",
+        "name": "bridgit",
+        "type": "characters"
+      },
+      {
+        "id": "cassandra-ilion",
+        "name": "cassandra-ilion",
+        "type": "characters"
+      },
+      {
+        "id": "chloe-rollo",
+        "name": "chloe-rollo",
+        "type": "characters"
+      },
+      {
+        "id": "chris-elvia",
+        "name": "chris-elvia",
+        "type": "characters"
+      },
+      {
+        "id": "daphne-lauros",
+        "name": "daphne-lauros",
+        "type": "characters"
+      },
+      {
+        "id": "dormul-bolster",
+        "name": "dormul-bolster",
+        "type": "characters"
+      },
+      {
+        "id": "eina-tulle",
+        "name": "eina-tulle",
+        "type": "characters"
+      },
+      {
+        "id": "fels",
+        "name": "fels",
+        "type": "characters"
+      },
+      {
+        "id": "finn-deimne",
+        "name": "finn-deimne",
+        "type": "characters"
+      },
+      {
+        "id": "freya",
+        "name": "freya",
+        "type": "characters"
+      },
+      {
+        "id": "freya-syr",
+        "name": "freya-syr",
+        "type": "characters"
+      },
+      {
+        "id": "gulliver-brothers",
+        "name": "gulliver-brothers",
+        "type": "characters"
+      },
+      {
+        "id": "hedin-selland",
+        "name": "hedin-selland",
+        "type": "characters"
+      },
+      {
+        "id": "heith-velvet",
+        "name": "heith-velvet",
+        "type": "characters"
+      },
+      {
+        "id": "hermes",
+        "name": "hermes",
+        "type": "characters"
+      },
+      {
+        "id": "hestia",
+        "name": "hestia",
+        "type": "characters"
+      },
+      {
+        "id": "hitachi-chigusa",
+        "name": "hitachi-chigusa",
+        "type": "characters"
+      },
+      {
+        "id": "hogni-ragnar",
+        "name": "hogni-ragnar",
+        "type": "characters"
+      },
+      {
+        "id": "horn",
+        "name": "horn",
+        "type": "characters"
+      },
+      {
+        "id": "iglin",
+        "name": "iglin",
+        "type": "characters"
+      },
+      {
+        "id": "kashima-ouka",
+        "name": "kashima-ouka",
+        "type": "characters"
+      },
+      {
+        "id": "lekchi",
+        "name": "lekchi",
+        "type": "characters"
+      },
+      {
+        "id": "leon-vardenburg",
+        "name": "leon-vardenburg",
+        "type": "characters"
+      },
+      {
+        "id": "liliruca-arde",
+        "name": "liliruca-arde",
+        "type": "characters"
+      },
+      {
+        "id": "loki",
+        "name": "loki",
+        "type": "characters"
+      },
+      {
+        "id": "lunoire-faust",
+        "name": "lunoire-faust",
+        "type": "characters"
+      },
+      {
+        "id": "luvis-lilix",
+        "name": "luvis-lilix",
+        "type": "characters"
+      },
+      {
+        "id": "mia-grand",
+        "name": "mia-grand",
+        "type": "characters"
+      },
+      {
+        "id": "mikoto-yamato",
+        "name": "mikoto-yamato",
+        "type": "characters"
+      },
+      {
+        "id": "naaza-erisuis",
+        "name": "naaza-erisuis",
+        "type": "characters"
+      },
+      {
+        "id": "nina-tulle",
+        "name": "nina-tulle",
+        "type": "characters"
+      },
+      {
+        "id": "ottar",
+        "name": "ottar",
+        "type": "characters"
+      },
+      {
+        "id": "ouranos",
+        "name": "ouranos",
+        "type": "characters"
+      },
+      {
+        "id": "ryu-lion",
+        "name": "ryu-lion",
+        "type": "characters"
+      },
+      {
+        "id": "sanjouno-haruhime",
+        "name": "sanjouno-haruhime",
+        "type": "characters"
+      },
+      {
+        "id": "syr-flova",
+        "name": "syr-flova",
+        "type": "characters"
+      },
+      {
+        "id": "tarvi",
+        "name": "tarvi",
+        "type": "characters"
+      },
+      {
+        "id": "tiona-hiryute",
+        "name": "tiona-hiryute",
+        "type": "characters"
+      },
+      {
+        "id": "tione-hiryute",
+        "name": "tione-hiryute",
+        "type": "characters"
+      },
+      {
+        "id": "unknown-katana-swordsman",
+        "name": "unknown-katana-swordsman",
+        "type": "characters"
+      },
+      {
+        "id": "uskari",
+        "name": "uskari",
+        "type": "characters"
+      },
+      {
+        "id": "vera",
+        "name": "vera",
+        "type": "characters"
+      },
+      {
+        "id": "welf-crozzo",
+        "name": "welf-crozzo",
+        "type": "characters"
+      }
+    ],
+    "abilities": [
+      {
+        "id": "blue-dragon-aurora-breath",
+        "name": "blue-dragon-aurora-breath",
+        "type": "abilities"
+      },
+      {
+        "id": "dios-aedes-vesta",
+        "name": "dios-aedes-vesta",
+        "type": "abilities"
+      },
+      {
+        "id": "liaris-freese-dormant",
+        "name": "liaris-freese-dormant",
+        "type": "abilities"
+      },
+      {
+        "id": "nina-raguel-kurisheim",
+        "name": "nina-raguel-kurisheim",
+        "type": "abilities"
+      },
+      {
+        "id": "ryu-branch-lv6",
+        "name": "ryu-branch-lv6",
+        "type": "abilities"
+      },
+      {
+        "id": "vana-seier",
+        "name": "vana-seier",
+        "type": "abilities"
+      }
+    ],
+    "items": [
+      {
+        "id": "alvis-justitia",
+        "name": "alvis-justitia",
+        "type": "items"
+      },
+      {
+        "id": "function-weapon",
+        "name": "function-weapon",
+        "type": "items"
+      },
+      {
+        "id": "hestia-knife",
+        "name": "hestia-knife",
+        "type": "items"
+      },
+      {
+        "id": "ryu-white-bow-hairpin",
+        "name": "ryu-white-bow-hairpin",
+        "type": "items"
+      },
+      {
+        "id": "school-district-uniform-and-rapi-disguise",
+        "name": "school-district-uniform-and-rapi-disguise",
+        "type": "items"
+      },
+      {
+        "id": "status-snitch",
+        "name": "status-snitch",
+        "type": "items"
+      },
+      {
+        "id": "winter-staff",
+        "name": "winter-staff",
+        "type": "items"
+      }
+    ],
+    "events": [
+      {
+        "id": "ais-residual-memory-reaffirms-bell",
+        "name": "ais-residual-memory-reaffirms-bell",
+        "type": "events"
+      },
+      {
+        "id": "allen-listens-to-anya-twilight-song",
+        "name": "allen-listens-to-anya-twilight-song",
+        "type": "events"
+      },
+      {
+        "id": "anya-fights-allen-and-debuffs-freya-force",
+        "name": "anya-fights-allen-and-debuffs-freya-force",
+        "type": "events"
+      },
+      {
+        "id": "anya-learns-syr-is-freya-and-ryu-is-captured",
+        "name": "anya-learns-syr-is-freya-and-ryu-is-captured",
+        "type": "events"
+      },
+      {
+        "id": "bell-and-third-squad-survive-middle-floor-collapse",
+        "name": "bell-and-third-squad-survive-middle-floor-collapse",
+        "type": "events"
+      },
+      {
+        "id": "bell-awakens-in-freya-familia-false-world",
+        "name": "bell-awakens-in-freya-familia-false-world",
+        "type": "events"
+      },
+      {
+        "id": "bell-confirms-self-through-training-and-wounds-hedin",
+        "name": "bell-confirms-self-through-training-and-wounds-hedin",
+        "type": "events"
+      },
+      {
+        "id": "bell-enrolls-as-rapi-in-baldr-class",
+        "name": "bell-enrolls-as-rapi-in-baldr-class",
+        "type": "events"
+      },
+      {
+        "id": "bell-levels-up-to-five",
+        "name": "bell-levels-up-to-five",
+        "type": "events"
+      },
+      {
+        "id": "bell-outruns-allen-and-takes-freya-flower",
+        "name": "bell-outruns-allen-and-takes-freya-flower",
+        "type": "events"
+      },
+      {
+        "id": "bell-party-defeats-ottar",
+        "name": "bell-party-defeats-ottar",
+        "type": "events"
+      },
+      {
+        "id": "bell-trains-hestia-familia-with-expanded-tactical-vision",
+        "name": "bell-trains-hestia-familia-with-expanded-tactical-vision",
+        "type": "events"
+      },
+      {
+        "id": "bell-undergoes-folkvangr-washing-training",
+        "name": "bell-undergoes-folkvangr-washing-training",
+        "type": "events"
+      },
+      {
+        "id": "boys-talk-rivira",
+        "name": "boys-talk-rivira",
+        "type": "events"
+      },
+      {
+        "id": "eina-and-nina-estrangement-revealed",
+        "name": "eina-and-nina-estrangement-revealed",
+        "type": "events"
+      },
+      {
+        "id": "eina-and-syr-become-rival-friends",
+        "name": "eina-and-syr-become-rival-friends",
+        "type": "events"
+      },
+      {
+        "id": "faction-war-game-begins",
+        "name": "faction-war-game-begins",
+        "type": "events"
+      },
+      {
+        "id": "finn-trains-lili-as-alliance-commander",
+        "name": "finn-trains-lili-as-alliance-commander",
+        "type": "events"
+      },
+      {
+        "id": "freya-abducts-bell-and-charms-orario",
+        "name": "freya-abducts-bell-and-charms-orario",
+        "type": "events"
+      },
+      {
+        "id": "freya-and-mia-form-old-contract",
+        "name": "freya-and-mia-form-old-contract",
+        "type": "events"
+      },
+      {
+        "id": "freya-fakes-bell-status-update-with-status-snitch",
+        "name": "freya-fakes-bell-status-update-with-status-snitch",
+        "type": "events"
+      },
+      {
+        "id": "freya-familia-is-dissolved",
+        "name": "freya-familia-is-dissolved",
+        "type": "events"
+      },
+      {
+        "id": "freya-negotiates-silence-with-ouranos",
+        "name": "freya-negotiates-silence-with-ouranos",
+        "type": "events"
+      },
+      {
+        "id": "freya-recalls-divine-realm-and-odr-search",
+        "name": "freya-recalls-divine-realm-and-odr-search",
+        "type": "events"
+      },
+      {
+        "id": "freya-recounts-syr-roleplay-origin",
+        "name": "freya-recounts-syr-roleplay-origin",
+        "type": "events"
+      },
+      {
+        "id": "girls-talk-rivira",
+        "name": "girls-talk-rivira",
+        "type": "events"
+      },
+      {
+        "id": "gulliver-brothers-are-defeated",
+        "name": "gulliver-brothers-are-defeated",
+        "type": "events"
+      },
+      {
+        "id": "haruhime-reveals-level-boost",
+        "name": "haruhime-reveals-level-boost",
+        "type": "events"
+      },
+      {
+        "id": "hedin-and-ryu-compete-over-bell-training",
+        "name": "hedin-and-ryu-compete-over-bell-training",
+        "type": "events"
+      },
+      {
+        "id": "hedin-betrays-freya-familia-for-freya",
+        "name": "hedin-betrays-freya-familia-for-freya",
+        "type": "events"
+      },
+      {
+        "id": "hermes-infiltrates-school-district-with-bell",
+        "name": "hermes-infiltrates-school-district-with-bell",
+        "type": "events"
+      },
+      {
+        "id": "hestia-and-asfi-coordinate-sacred-flame-plan",
+        "name": "hestia-and-asfi-coordinate-sacred-flame-plan",
+        "type": "events"
+      },
+      {
+        "id": "hestia-and-freya-declare-war-game",
+        "name": "hestia-and-freya-declare-war-game",
+        "type": "events"
+      },
+      {
+        "id": "hestia-familia-ranked-b-and-school-district-arrives",
+        "name": "hestia-familia-ranked-b-and-school-district-arrives",
+        "type": "events"
+      },
+      {
+        "id": "hestia-familia-victory-banquet-and-freya-penance",
+        "name": "hestia-familia-victory-banquet-and-freya-penance",
+        "type": "events"
+      },
+      {
+        "id": "hestia-sacred-flame-breaks-freya-charm",
+        "name": "hestia-sacred-flame-breaks-freya-charm",
+        "type": "events"
+      },
+      {
+        "id": "hestia-waits-for-vera-to-yield-winter-staff",
+        "name": "hestia-waits-for-vera-to-yield-winter-staff",
+        "type": "events"
+      },
+      {
+        "id": "horn-and-heith-discuss-bell-between-syr-and-horn",
+        "name": "horn-and-heith-discuss-bell-between-syr-and-horn",
+        "type": "events"
+      },
+      {
+        "id": "horn-reveals-syr-freya-truth-to-bell",
+        "name": "horn-reveals-syr-freya-truth-to-bell",
+        "type": "events"
+      },
+      {
+        "id": "mia-encourages-bell-with-adventurer-lesson",
+        "name": "mia-encourages-bell-with-adventurer-lesson",
+        "type": "events"
+      },
+      {
+        "id": "nina-finds-dream-after-blue-dragon-battle",
+        "name": "nina-finds-dream-after-blue-dragon-battle",
+        "type": "events"
+      },
+      {
+        "id": "nina-reunites-with-eina-and-chooses-hestia-familia",
+        "name": "nina-reunites-with-eina-and-chooses-hestia-familia",
+        "type": "events"
+      },
+      {
+        "id": "rapi-joins-third-squad-and-learns-school-life",
+        "name": "rapi-joins-third-squad-and-learns-school-life",
+        "type": "events"
+      },
+      {
+        "id": "ryu-and-asfi-escape-and-infiltrate-orario",
+        "name": "ryu-and-asfi-escape-and-infiltrate-orario",
+        "type": "events"
+      },
+      {
+        "id": "ryu-defeats-hogni",
+        "name": "ryu-defeats-hogni",
+        "type": "events"
+      },
+      {
+        "id": "ryu-if-astraea-reunion-and-vow",
+        "name": "ryu-if-astraea-reunion-and-vow",
+        "type": "events"
+      },
+      {
+        "id": "ryu-if-deep-floor-kiss-and-choice",
+        "name": "ryu-if-deep-floor-kiss-and-choice",
+        "type": "events"
+      },
+      {
+        "id": "ryu-if-ryu-hero-vs-juggernaut",
+        "name": "ryu-if-ryu-hero-vs-juggernaut",
+        "type": "events"
+      },
+      {
+        "id": "ryu-if-ryu-realizes-love",
+        "name": "ryu-if-ryu-realizes-love",
+        "type": "events"
+      },
+      {
+        "id": "ryu-if-skill-dormancy-and-date-life",
+        "name": "ryu-if-skill-dormancy-and-date-life",
+        "type": "events"
+      },
+      {
+        "id": "ryu-if-syr-blesses-relationship",
+        "name": "ryu-if-syr-blesses-relationship",
+        "type": "events"
+      },
+      {
+        "id": "ryu-if-training-begins",
+        "name": "ryu-if-training-begins",
+        "type": "events"
+      },
+      {
+        "id": "ryu-joins-hestia-familia-as-ryu-astrea",
+        "name": "ryu-joins-hestia-familia-as-ryu-astrea",
+        "type": "events"
+      },
+      {
+        "id": "ryu-reunites-with-astrea-and-double-levels",
+        "name": "ryu-reunites-with-astrea-and-double-levels",
+        "type": "events"
+      },
+      {
+        "id": "syr-chooses-life-with-tavern-family",
+        "name": "syr-chooses-life-with-tavern-family",
+        "type": "events"
+      },
+      {
+        "id": "syr-penance-at-hearth-mansion",
+        "name": "syr-penance-at-hearth-mansion",
+        "type": "events"
+      },
+      {
+        "id": "tarvi-sneaks-into-dungeon-for-experience",
+        "name": "tarvi-sneaks-into-dungeon-for-experience",
+        "type": "events"
+      },
+      {
+        "id": "tavern-family-hears-syr-plea",
+        "name": "tavern-family-hears-syr-plea",
+        "type": "events"
+      },
+      {
+        "id": "tavern-staff-enter-war-game",
+        "name": "tavern-staff-enter-war-game",
+        "type": "events"
+      },
+      {
+        "id": "third-squad-defeats-infant-dragon-through-hunt-plan",
+        "name": "third-squad-defeats-infant-dragon-through-hunt-plan",
+        "type": "events"
+      },
+      {
+        "id": "uranus-approves-shaft-plan-and-fels-knossos-lab",
+        "name": "uranus-approves-shaft-plan-and-fels-knossos-lab",
+        "type": "events"
+      }
+    ],
+    "locations": [
+      {
+        "id": "babel-tower-rooftop",
+        "name": "babel-tower-rooftop",
+        "type": "locations"
+      },
+      {
+        "id": "deep-floor-blue-stream-branch",
+        "name": "deep-floor-blue-stream-branch",
+        "type": "locations"
+      },
+      {
+        "id": "dungeon-floor-1",
+        "name": "dungeon-floor-1",
+        "type": "locations"
+      },
+      {
+        "id": "fertility-backyard",
+        "name": "fertility-backyard",
+        "type": "locations"
+      },
+      {
+        "id": "floor-25-great-fall",
+        "name": "floor-25-great-fall",
+        "type": "locations"
+      },
+      {
+        "id": "folkvangr",
+        "name": "folkvangr",
+        "type": "locations"
+      },
+      {
+        "id": "heavenly-sacred-spring",
+        "name": "heavenly-sacred-spring",
+        "type": "locations"
+      },
+      {
+        "id": "meren-port",
+        "name": "meren-port",
+        "type": "locations"
+      },
+      {
+        "id": "old-elven-grove",
+        "name": "old-elven-grove",
+        "type": "locations"
+      },
+      {
+        "id": "rivira-inn",
+        "name": "rivira-inn",
+        "type": "locations"
+      },
+      {
+        "id": "school-district-hringhorni",
+        "name": "school-district-hringhorni",
+        "type": "locations"
+      },
+      {
+        "id": "solingen",
+        "name": "solingen",
+        "type": "locations"
+      }
+    ],
+    "factions": [
+      {
+        "id": "astraea-familia-branch",
+        "name": "astraea-familia-branch",
+        "type": "factions"
+      },
+      {
+        "id": "bielden-royal-escort",
+        "name": "bielden-royal-escort",
+        "type": "factions"
+      },
+      {
+        "id": "faction-alliance-expedition",
+        "name": "faction-alliance-expedition",
+        "type": "factions"
+      },
+      {
+        "id": "freya-familia",
+        "name": "freya-familia",
+        "type": "factions"
+      },
+      {
+        "id": "hestia-familia",
+        "name": "hestia-familia",
+        "type": "factions"
+      },
+      {
+        "id": "school-district",
+        "name": "school-district",
+        "type": "factions"
+      }
+    ],
+    "systems": [
+      {
+        "id": "dungeon-monster-pass-parade",
+        "name": "dungeon-monster-pass-parade",
+        "type": "systems"
+      },
+      {
+        "id": "folkvangr-washing",
+        "name": "folkvangr-washing",
+        "type": "systems"
+      },
+      {
+        "id": "freya-citywide-charm-and-closed-world",
+        "name": "freya-citywide-charm-and-closed-world",
+        "type": "systems"
+      },
+      {
+        "id": "freya-subordinate-god-arrangement",
+        "name": "freya-subordinate-god-arrangement",
+        "type": "systems"
+      },
+      {
+        "id": "girls-and-boys-talk",
+        "name": "girls-and-boys-talk",
+        "type": "systems"
+      },
+      {
+        "id": "guild-shaft-plan",
+        "name": "guild-shaft-plan",
+        "type": "systems"
+      },
+      {
+        "id": "ryu-if-branch-history",
+        "name": "ryu-if-branch-history",
+        "type": "systems"
+      },
+      {
+        "id": "school-district-class-and-curriculum-system",
+        "name": "school-district-class-and-curriculum-system",
+        "type": "systems"
+      },
+      {
+        "id": "seasonal-divine-aftereffects",
+        "name": "seasonal-divine-aftereffects",
+        "type": "systems"
+      }
+    ],
+    "knowledge": [
+      {
+        "id": "bell-preferences-and-ryu-trigger",
+        "name": "bell-preferences-and-ryu-trigger",
+        "type": "knowledge"
+      },
+      {
+        "id": "bell-student-identity-disclosure",
+        "name": "bell-student-identity-disclosure",
+        "type": "knowledge"
+      },
+      {
+        "id": "branch-ending-terminal-risk",
+        "name": "branch-ending-terminal-risk",
+        "type": "knowledge"
+      },
+      {
+        "id": "nina-and-eina-sister-relationship",
+        "name": "nina-and-eina-sister-relationship",
+        "type": "knowledge"
+      },
+      {
+        "id": "syr-freya-horn-identity-triangle",
+        "name": "syr-freya-horn-identity-triangle",
+        "type": "knowledge"
+      },
+      {
+        "id": "tarvi-falna-and-bielden-instability",
+        "name": "tarvi-falna-and-bielden-instability",
+        "type": "knowledge"
+      },
+      {
+        "id": "vera-hidden-mercy-through-winter",
+        "name": "vera-hidden-mercy-through-winter",
+        "type": "knowledge"
+      }
+    ]
+  },
+  "total_files": 159
+}

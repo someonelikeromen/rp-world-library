@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>绯弹的亚里亚 - 知识图谱查看器</title>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Segoe UI','Noto Sans SC',sans-serif; background:#0a0a1a; color:#e0e0e0; overflow:hidden; }
+#app { display:flex; height:100vh; }
+#sidebar { width:340px; background:linear-gradient(180deg,#0f1629,#1a1a3e); padding:16px; overflow-y:auto; border-right:1px solid #2a2a5e; flex-shrink:0; }
+#sidebar h1 { font-size:18px; color:#e94560; margin-bottom:4px; letter-spacing:1px; }
+.subtitle { font-size:12px; color:#666; margin-bottom:16px; }
+.section-title { font-size:13px; color:#888; margin:12px 0 8px; border-bottom:1px solid #2a2a5e; padding-bottom:4px; }
+.stat-grid { display:grid; grid-template-columns:1fr 1fr; gap:6px; margin-bottom:12px; }
+.stat-card { background:#1a1a4e; border-radius:6px; padding:8px 10px; text-align:center; }
+.stat-card .label { font-size:10px; color:#888; }
+.stat-card .value { font-size:16px; font-weight:bold; color:#fff; margin-top:2px; }
+.graph-select { width:100%; padding:8px 10px; background:#1a1a4e; border:1px solid #2a2a5e; color:#e0e0e0; border-radius:6px; font-size:13px; margin-bottom:8px; cursor:pointer; }
+.graph-select:focus { outline:none; border-color:#e94560; }
+.filter-group { margin:8px 0; }
+.filter-group label { display:block; font-size:12px; color:#888; margin-bottom:4px; }
+.filter-group select,.filter-group input { width:100%; padding:6px 8px; background:#1a1a4e; border:1px solid #2a2a5e; color:#e0e0e0; border-radius:4px; font-size:12px; }
+.search-box { width:100%; padding:6px 8px; background:#1a1a4e; border:1px solid #2a2a5e; color:#e0e0e0; border-radius:4px; font-size:12px; margin-bottom:8px; }
+.search-box::placeholder { color:#555; }
+.btn { background:#e94560; color:#fff; border:none; padding:8px 0; border-radius:6px; cursor:pointer; font-size:13px; width:100%; margin:4px 0; transition:0.2s; }
+.btn:hover { background:#c73650; }
+.btn-secondary { background:#1a1a4e; border:1px solid #2a2a5e; }
+.btn-secondary:hover { background:#2a2a5e; }
+#node-detail { background:#1a1a4e; border-radius:6px; padding:10px; min-height:60px; margin-top:8px; font-size:12px; }
+#node-detail h3 { color:#e94560; font-size:13px; margin-bottom:4px; }
+#node-detail p { color:#aaa; margin:2px 0; }
+#graph-area { flex:1; position:relative; }
+#graph-area svg { width:100%; height:100%; }
+.node-label { font-size:9px; pointer-events:none; text-shadow:0 1px 3px rgba(0,0,0,0.9); }
+.legend { display:flex; gap:8px; flex-wrap:wrap; margin:8px 0; }
+.legend-item { display:flex; align-items:center; gap:4px; font-size:11px; color:#aaa; }
+.legend-dot { width:10px; height:10px; border-radius:50%; display:inline-block; }
+.tooltip { position:absolute; background:rgba(15,22,41,0.95); border:1px solid #e94560; border-radius:8px; padding:10px 14px; font-size:12px; pointer-events:none; display:none; max-width:320px; z-index:100; box-shadow:0 4px 20px rgba(0,0,0,0.5); }
+.tooltip h3 { color:#e94560; font-size:13px; margin-bottom:4px; }
+.tooltip p { margin:2px 0; color:#ccc; }
+#loading { display:none; position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); color:#888; font-size:14px; }
+</style>
+</head>
+<body>
+<div id="app">
+  <div id="sidebar">
+    <h1>&#128202; 绯弹知识图谱</h1>
+    <div class="subtitle">Hidan no Aria Knowledge Graph Viewer</div>
+
+    <div class="section-title">选择图谱</div>
+    <select id="graph-selector" class="graph-select" onchange="switchGraph()">
+      <option value="complete-graph">完整关联图谱</option>
+      <option value="char-relations">角色关系图谱</option>
+      <option value="ability-graph">能力图谱</option>
+      <option value="item-graph">物品图谱</option>
+      <option value="event-graph">事件图谱</option>
+      <option value="world-graph">世界图谱</option>
+      <option value="timeline">时间轴</option>
+    </select>
+
+    <div class="stat-grid" id="stats">
+      <div class="stat-card"><div class="label">节点/条目</div><div class="value nodes" id="stat-nodes">-</div></div>
+      <div class="stat-card"><div class="label">边</div><div class="value edges" id="stat-edges">-</div></div>
+    </div>
+
+    <div id="filter-area">
+      <div class="section-title">筛选</div>
+      <div class="filter-group">
+        <label>节点类型</label>
+        <select id="type-filter" multiple size="6">
+          <option value="character" selected>角色</option>
+          <option value="ability" selected>能力</option>
+          <option value="item" selected>物品</option>
+          <option value="event" selected>事件</option>
+          <option value="location" selected>地点</option>
+          <option value="faction" selected>势力</option>
+          <option value="system" selected>体系</option>
+          <option value="knowledge" selected>知识</option>
+          <option value="unknown" selected>其他</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label>搜索</label>
+        <input type="text" class="search-box" id="search-input" placeholder="输入关键词..." oninput="onFilter()">
+      </div>
+    </div>
+
+    <button class="btn" onclick="switchGraph()">&#128259; 重新加载</button>
+    <button class="btn btn-secondary" onclick="resetZoom()">&#9711; 重置视角</button>
+
+    <div class="section-title">图例</div>
+    <div class="legend">
+      <span class="legend-item"><span class="legend-dot" style="background:#e94560"></span>角色</span>
+      <span class="legend-item"><span class="legend-dot" style="background:#533483"></span>能力</span>
+      <span class="legend-item"><span class="legend-dot" style="background:#e07a5f"></span>物品</span>
+      <span class="legend-item"><span class="legend-dot" style="background:#3a5a8a"></span>事件</span>
+    </div>
+
+    <div class="section-title">节点详情</div>
+    <div id="node-detail">
+      <p style="color:#666">点击节点查看详情</p>
+    </div>
+  </div>
+
+  <div id="graph-area">
+    <div id="loading">加载中...</div>
+    <div class="tooltip" id="tooltip"></div>
+    <svg id="svg"></svg>
+  </div>
+</div>
+
+<script>
+/* ── 图谱数据文件路径 ── */
+const DATA_BASE = (function(){
+  // 获取当前 HTML 所在目录
+  var scripts = document.getElementsByTagName('script');
+  var src = scripts[scripts.length-1].src;
+  var dir = src.substring(0, src.lastIndexOf('/')) + '/';
+  if (dir === '/') dir = '';
+  return dir + 'campaigns/world-library/manual-curation/hidan-p1-output/merged/graph/';
+})();
+
+var graphData = null;
+var simulation = null;
+var graphLoaded = false;
+
+const COLOR_MAP = {
+  character:'#e94560', ability:'#533483', item:'#e07a5f',
+  event:'#3a5a8a', location:'#2a8a5a', faction:'#8a5a2a',
+  system:'#6a4a8a', knowledge:'#5a8a7a', unknown:'#555'
+};
+
+/* ── 动态加载 JS 数据文件 ── */
+function switchGraph() {
+  var sel = document.getElementById('graph-selector').value;
+  document.getElementById('loading').style.display = 'block';
+  document.getElementById('stat-nodes').textContent = '…';
+  graphData = null;
+  graphLoaded = false;
+
+  // 移除旧 script
+  var old = document.getElementById('data-script');
+  if (old) old.remove();
+
+  var url = DATA_BASE + sel + '-data.js';
+  var script = document.createElement('script');
+  script.id = 'data-script';
+  script.src = url;
+  script.onload = function() {
+    graphData = window.__graphData;
+    graphLoaded = true;
+    document.getElementById('loading').style.display = 'none';
+    render();
+  };
+  script.onerror = function() {
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('stat-nodes').textContent = 'ERR';
+    document.getElementById('node-detail').innerHTML = '<p style="color:#e94560">加载失败。请确认数据文件存在。</p>';
+  };
+  document.body.appendChild(script);
+}
+
+/* ── 渲染 ── */
+function render() {
+  var types = Array.from(document.getElementById('type-filter').selectedOptions).map(o => o.value);
+  var search = document.getElementById('search-input').value.toLowerCase();
+  var nodes = [], edges = [];
+
+  if (!graphData) return;
+
+  /* 转换不同图谱格式为统一 nodes/edges */
+  if (graphData.nodes && graphData.edges) {
+    nodes = graphData.nodes; edges = graphData.edges;
+  } else if (graphData.relationships) {
+    var snodes = new Map();
+    for (var r of graphData.relationships) {
+      if (!snodes.has(r.source)) snodes.set(r.source, {id:r.source,type:'character'});
+      if (!snodes.has(r.target)) snodes.set(r.target, {id:r.target,type:'character'});
+      edges.push({source:r.source, target:r.target, relation:r.type, category:'relationship'});
+    }
+    for (var a of (graphData.ability_links||[])) {
+      if (!snodes.has(a.character)) snodes.set(a.character,{id:a.character,type:'character'});
+      if (!snodes.has(a.ability)) snodes.set(a.ability,{id:a.ability,type:'ability'});
+      edges.push({source:a.character,target:a.ability,relation:'has_ability',category:'ownership'});
+    }
+    for (var i of (graphData.item_links||[])) {
+      if (!snodes.has(i.character)) snodes.set(i.character,{id:i.character,type:'character'});
+      if (!snodes.has(i.item)) snodes.set(i.item,{id:i.item,type:'item'});
+      edges.push({source:i.character,target:i.item,relation:'owns',category:'ownership'});
+    }
+    nodes = Array.from(snodes.values());
+  } else if (graphData.abilities) {
+    nodes = graphData.abilities.map(a => ({id:a.id, type:'ability'}));
+  } else if (graphData.items) {
+    nodes = graphData.items.map(i => ({id:i.id, type:'item'}));
+  } else if (graphData.events) {
+    nodes = graphData.events.map(e => ({id:e.id, type:'event'}));
+    edges = (graphData.causal_edges||[]).map(c => ({source:c.source,target:c.target,relation:c.relation||'causal',category:'causal'}));
+  } else if (graphData.timeline_entries) {
+    renderTimeline(graphData.timeline_entries);
+    return;
+  } else if (graphData.locations) {
+    for (var k of ['locations','factions','systems','knowledge']) {
+      for (var e of (graphData[k]||[])) nodes.push({id:e.id, type:k==='locations'?'location':k==='factions'?'faction':k==='systems'?'system':'knowledge'});
+    }
+  }
+
+  /* 筛选 */
+  var filteredNodes = nodes.filter(n => types.includes(n.type));
+  var nodeIds = new Set(filteredNodes.map(n => n.id));
+  var filteredEdges = edges.filter(function(e) {
+    var s = typeof e.source === 'object' ? e.source.id : e.source;
+    var t = typeof e.target === 'object' ? e.target.id : e.target;
+    return nodeIds.has(s) && nodeIds.has(t);
+  });
+
+  if (search) {
+    var searchIds = new Set();
+    for (var n of filteredNodes) { if (n.id.includes(search)) searchIds.add(n.id); }
+    for (var e of filteredEdges) {
+      var s = typeof e.source === 'object' ? e.source.id : e.source;
+      var t = typeof e.target === 'object' ? e.target.id : e.target;
+      if (s.includes(search) || t.includes(search)) { searchIds.add(s); searchIds.add(t); }
+    }
+    filteredNodes = filteredNodes.filter(n => searchIds.has(n.id));
+    filteredEdges = filteredEdges.filter(function(e){
+      var s = typeof e.source === 'object' ? e.source.id : e.source;
+      var t = typeof e.target === 'object' ? e.target.id : e.target;
+      return searchIds.has(s) && searchIds.has(t);
+    });
+  }
+
+  document.getElementById('stat-nodes').textContent = filteredNodes.length;
+  document.getElementById('stat-edges').textContent = filteredEdges.length;
+  renderD3(filteredNodes, filteredEdges);
+}
+
+/* ── 时间轴渲染 ── */
+function renderTimeline(entries) {
+  document.getElementById('stat-nodes').textContent = entries.length;
+  document.getElementById('stat-edges').textContent = '-';
+  var svg = d3.select('#svg'); svg.selectAll('*').remove();
+
+  var limit = Math.min(entries.length, 500);
+  var data = entries.slice(0, limit);
+  var margin = {top:20, right:20, bottom:20, left:10};
+  var width = document.getElementById('graph-area').clientWidth - margin.left - margin.right;
+  var height = Math.max(800, data.length * 20 + margin.top + margin.bottom);
+
+  svg.attr('viewBox', [0, 0, width + margin.left + margin.right, height]);
+  var g = svg.append('g').attr('transform', 'translate('+margin.left+','+margin.top+')');
+  svg.call(d3.zoom().scaleExtent([0.5, 5]).on('zoom', function(e) { g.attr('transform', e.transform); }));
+
+  var colW = Math.max(50, (width - 40) / 3);
+  var rows = g.selectAll('g').data(data).join('g')
+    .attr('transform', function(d,i){ return 'translate(0,'+(i*20)+')'; })
+    .attr('cursor','pointer')
+    .on('click', function(e,d){
+      document.getElementById('node-detail').innerHTML =
+        '<h3>'+d.period_id+'</h3><p>实体: '+d.entity_id+' ('+d.entity_type+')</p>'+
+        '<p>卷: '+(d.volume||'-')+' | 时间: '+(d.time||'-')+'</p>'+
+        '<p style="margin-top:4px;color:#888">'+((d.summary||d.label||'').substring(0,200))+'</p>';
+    });
+
+  rows.append('text').attr('x',0).attr('y',13).attr('fill','#888').attr('font-size',10)
+    .text(function(d){ return d.volume||'-'; });
+  rows.append('circle').attr('cx',colW-10).attr('cy',7).attr('r',3)
+    .attr('fill',function(d){ return COLOR_MAP[d.entity_type]||'#555'; });
+  rows.append('text').attr('x',colW).attr('y',13).attr('fill','#ccc').attr('font-size',10)
+    .text(function(d){ return (d.label||d.period_id||'').substring(0,40); });
+  rows.append('text').attr('x',colW+colW).attr('y',13).attr('fill','#666').attr('font-size',9)
+    .text(function(d){ return (d.summary||'').substring(0,50); });
+}
+
+/* ── D3 力导向图 ── */
+function renderD3(nodes, edges) {
+  var svg = d3.select('#svg'); svg.selectAll('*').remove();
+  var width = document.getElementById('graph-area').clientWidth;
+  var height = document.getElementById('graph-area').clientHeight;
+  svg.attr('viewBox', [0, 0, width, height]);
+  var g = svg.append('g');
+
+  svg.call(d3.zoom().scaleExtent([0.1, 8]).on('zoom', function(e) { g.attr('transform', e.transform); }));
+
+  simulation = d3.forceSimulation(nodes)
+    .force('link', d3.forceLink(edges).id(function(d){return d.id;}).distance(function(d){return d.type==='event'?50:70;}))
+    .force('charge', d3.forceManyBody().strength(-120))
+    .force('center', d3.forceCenter(width/2, height/2))
+    .force('collision', d3.forceCollide(12));
+
+  var link = g.append('g').selectAll('line').data(edges).join('line')
+    .attr('stroke','#444').attr('stroke-width',0.8).attr('stroke-opacity',0.25);
+
+  var node = g.append('g').selectAll('g').data(nodes).join('g')
+    .attr('cursor','pointer')
+    .call(d3.drag()
+      .on('start', function(e,d){ if(!e.active) simulation.alphaTarget(0.3).restart(); d.fx=d.x; d.fy=d.y; })
+      .on('drag', function(e,d){ d.fx=e.x; d.fy=e.y; })
+      .on('end', function(e,d){ if(!e.active) simulation.alphaTarget(0); d.fx=null; d.fy=null; })
+    );
+
+  node.append('circle')
+    .attr('r', function(d){ return d.type==='character'?6:4; })
+    .attr('fill', function(d){ return COLOR_MAP[d.type]||'#555'; })
+    .attr('stroke','#fff').attr('stroke-width',0.8);
+
+  node.append('text')
+    .text(function(d){ return d.id.length>13 ? d.id.substring(0,11)+'…' : d.id; })
+    .attr('font-size','8px').attr('fill','#ccc')
+    .attr('x',7).attr('y',3);
+
+  var tooltip = document.getElementById('tooltip');
+  node.on('mouseover', function(e,d){
+    tooltip.style.display='block';
+    var html = '<h3>'+d.id+'</h3><p>类型: '+d.type+'</p>';
+    var rels = edges.filter(function(r){
+      var s = typeof r.source==='object'?r.source.id:r.source;
+      var t = typeof r.target==='object'?r.target.id:r.target;
+      return s===d.id||t===d.id;
+    }).slice(0,15);
+    if(rels.length>0){ html+='<p style="margin-top:6px;font-weight:bold">关联:</p>'; }
+    rels.forEach(function(r){
+      var s = typeof r.source==='object'?r.source.id:r.source;
+      var t = typeof r.target==='object'?r.target.id:r.target;
+      var other = s===d.id?t:s;
+      html += '<p>&#8594; '+other+' <span style="color:#e94560">('+r.relation+')</span></p>';
+    });
+    if(rels.length>15) html+='<p style="color:#888">...还有'+(rels.length-15)+'条</p>';
+    tooltip.innerHTML = html;
+    document.getElementById('node-detail').innerHTML = '<h3>'+d.id+'</h3><p>类型: '+d.type+'</p><p style="margin-top:6px;color:#888">关联数: '+rels.length+'</p>';
+  });
+  node.on('mousemove', function(e){
+    tooltip.style.left = (e.pageX-355+15)+'px';
+    tooltip.style.top = (e.pageY-10)+'px';
+  });
+  node.on('mouseout', function(){ tooltip.style.display='none'; });
+
+  simulation.on('tick', function(){
+    link.attr('x1',function(d){return d.source.x;}).attr('y1',function(d){return d.source.y;})
+        .attr('x2',function(d){return d.target.x;}).attr('y2',function(d){return d.target.y;});
+    node.attr('transform',function(d){return 'translate('+d.x+','+d.y+')';});
+  });
+}
+
+function onFilter() { if(graphData) render(); }
+function resetZoom() { d3.select('#svg').transition().duration(500).call(d3.zoom().transform, d3.zoomIdentity); }
+
+window.addEventListener('resize', function(){
+  if(simulation){
+    var w = document.getElementById('graph-area').clientWidth;
+    var h = document.getElementById('graph-area').clientHeight;
+    simulation.force('center', d3.forceCenter(w/2, h/2));
+    simulation.alpha(0.3).restart();
+  }
+});
+
+switchGraph();
+</script>
+</body>
+</html>

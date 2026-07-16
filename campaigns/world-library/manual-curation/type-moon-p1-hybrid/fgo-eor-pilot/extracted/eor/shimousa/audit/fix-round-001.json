@@ -1,0 +1,22 @@
+{
+  "schema": "tm-fgo-packet-fix-v1",
+  "packetId": "pkt-fgo-eor-shimousa-extract",
+  "chapterId": "fgo-eor-shimousa",
+  "round": 1,
+  "fixer": "internal",
+  "model": "lt-yuyu/gpt-5.5",
+  "status": "fixed",
+  "issuesAddressed": ["shimousa-audit-001-001", "shimousa-audit-001-002", "shimousa-audit-001-003", "shimousa-audit-001-004", "shimousa-audit-001-005"],
+  "fixesApplied": [
+    "Created dialogue/dialogue-index.json with 36 dialogueRefs mapped to events A-Q and source lines 41-108.",
+    "Created appearance-signals/index.json and not-found-in-source/index.json for visual/outfit/equipment coverage.",
+    "Created ability-signals/index.json for 厌离秽土, 宿业系统, 空/零, 村正刀, 妖蛇之术, 大蛇之力, 自爆, 魔化民众, data collection, and 灵基登录/image transmission signals.",
+    "Created combat-effect-signals/index.json with targets, outcomes, consequences, and explicit not-found visual detail statements.",
+    "Created mentions, candidates, normalized chapter/layers, extraction/generation reports, and audit final status outputs."
+  ],
+  "sourceFirstChecks": {"noExternalFactsAdded": true, "stageInstructionNotCanon": true, "noCalendarDatesInvented": true, "aliasesLimitedToCurrentSource": true},
+  "sourceRefs": [{"path":"sources/worldbook-script/eor/ch-091-shimousa.txt","lineStart":1,"lineEnd":108}],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

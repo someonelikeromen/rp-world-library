@@ -1,0 +1,71 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "character",
+  "entityId": "tamamo",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-09",
+  "periods": [
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:4505",
+        "hidan-no-aria-main/vol-09/full.txt:4685",
+        "hidan-no-aria-main/vol-09/full.txt:4960",
+        "hidan-no-aria-main/vol-09/full.txt:5268"
+      ],
+      "snapshot": {
+        "name": "玉藻",
+        "aliases": [
+          "玉藻大人",
+          "狐狸神",
+          "玉藻球"
+        ],
+        "gender": "女",
+        "species": "狐妖/神格存在",
+        "status": "存活；回归并为师团侧说明极东战役与壳金问题",
+        "role": "师团要员；星伽与远山的超常顾问；驱鬼结界设置者",
+        "affiliations": [
+          "师团",
+          "星伽相关神格",
+          "东京驱鬼结界"
+        ],
+        "abilities_owned": [
+          "tamamo-virtual-transformation",
+          "anti-ki-barai-barrier",
+          "tamamo-spirit-knowledge"
+        ],
+        "possessions_owned": [],
+        "equipment": [
+          "袖珍水手服",
+          "五彩线球变化形态"
+        ],
+        "relationships": [
+          {
+            "target": "kinji",
+            "type": "远山家相关/顾问",
+            "detail": "让金次抱她参观文化祭，并向他解释虚物变化与战役。"
+          },
+          {
+            "target": "shirayuki",
+            "type": "星伽旧识/上位者",
+            "detail": "幼时认识白雪，在SSR房间向白雪说明战役和壳金。"
+          },
+          {
+            "target": "aria",
+            "type": "诊断者/说明者",
+            "detail": "卷末前向亚莉亚说明极东战役、壳金与绯弹风险，并将一枚壳金放回。"
+          },
+          {
+            "target": "hilda",
+            "type": "结界管理者",
+            "detail": "因自由石匠请求，允许俘虏希尔达进入驱鬼结界不被诅咒杀死。"
+          }
+        ],
+        "summary": "玉藻在文化祭期间回归，得知金次击败希尔达后称赞他，并与白雪、金次说明极东战役规则、师团/眷属目标、壳金被夺和亚莉亚绯弹风险。她能够以虚物变化变成五彩线球，也维持东京海岸驱鬼结界。",
+        "evidence_level": "S",
+        "source_refs": []
+      }
+    }
+  ],
+  "_schema": "rp-character-volume-v1"
+}

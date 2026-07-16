@@ -1,0 +1,51 @@
+{
+  "schema": "tm-tsukihime-packet-audit-report-v1",
+  "packetId": "main-cast-high-confidence",
+  "stage": "stage-2-wave-1-auditor-rerun-r50-continuity",
+  "status": "passed",
+  "auditorRole": "Auditor rerun",
+  "generatedAt": "2026-07-15",
+  "previousAudit": "r50 audit-main-cast-rerun",
+  "fixReport": "audit/packet-audits/main-cast-high-confidence/fix-round-001.json",
+  "scope": {
+    "auditedIssueOnly": true,
+    "allowedReadRoots": [
+      "campaigns/world-library/manual-curation/type-moon-p1-hybrid/tsukihime-dead-apostle-profile-supplement-pilot/extracted/profile-supplement/main-cast-high-confidence/**",
+      "campaigns/world-library/manual-curation/type-moon-p1-hybrid/tsukihime-dead-apostle-profile-supplement-pilot/normalized/profile-supplement/main-cast-high-confidence/**",
+      "campaigns/world-library/manual-curation/type-moon-p1-hybrid/tsukihime-dead-apostle-profile-supplement-pilot/audit/packet-audits/main-cast-high-confidence/**"
+    ],
+    "mutationRootsCheckedForIssue": [
+      "extracted/profile-supplement/main-cast-high-confidence/**",
+      "normalized/profile-supplement/main-cast-high-confidence/**"
+    ]
+  },
+  "openIssues": 0,
+  "blockedIssues": 0,
+  "canAdvance": true,
+  "findings": [],
+  "requiredFixes": [],
+  "verification": {
+    "blockingIssue": "unsupported canonicalContinuity value mixed-context with candidateOnly false",
+    "targetRecord": "extracted/profile-supplement/main-cast-high-confidence/records/location-continuity-context-signals.json",
+    "targetRecordCanonicalContinuity": "sandbox",
+    "targetRecordCandidateOnly": false,
+    "rawSourceLabelPreserved": "月姬 / 重制版",
+    "manifestTaxonomyApplied": "sandbox is a manifest canonical category for mixed, crossover, or RP-premise material and combined cross-continuity context",
+    "mixedContextSearchInExtractedAndNormalizedData": "no canonicalContinuity mixed-context occurrences found",
+    "canonicalContinuityValuesObservedInExtracted": [
+      "original",
+      "remake",
+      "sandbox",
+      "source-gap/candidate-only"
+    ],
+    "canonicalContinuityValuesObservedInNormalized": [
+      "original",
+      "remake",
+      "source-gap/candidate-only"
+    ],
+    "notes": [
+      "Occurrences of the literal string mixed-context remain only in fix-round-001.json as historical description of the fixed issue, not as packet data.",
+      "No formal graph, timeline, merge outputs, or other packets were audited or modified."
+    ]
+  }
+}

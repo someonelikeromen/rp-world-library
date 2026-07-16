@@ -1,0 +1,50 @@
+{
+  "schema": "tm-fgo-extraction-report-v1",
+  "recordType": "generation_report",
+  "packetId": "pkt-fgo-lostbelt-lb1-anastasia-extract",
+  "chapterId": "fgo-lb1-anastasia",
+  "stepId": "chapter-lb1-anastasia",
+  "model": "lt-yuyu/gpt-5.5",
+  "status": "generated",
+  "sourceTextGate": "built",
+  "sourceUsed": "campaigns/world-library/manual-curation/type-moon-p1-hybrid/fgo-lb1-lb2-pilot/sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt",
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like",
+  "counts": {
+    "timelineEventsExpected": 24,
+    "timelineEventsExtracted": 24,
+    "rawEventCodesExtracted": ["事件A0","事件A1","事件A2","事件A","事件B","事件C","事件D","事件E","事件F","事件G","事件H","事件I","事件J","事件K","事件L","事件M","事件N","事件O","事件P","事件Q","事件R","事件S","事件T","事件U"],
+    "dialogueLinesExpectedFromSourceGrep": 40,
+    "dialogueLinesExtracted": 40,
+    "appearanceSignalsExtracted": 24,
+    "abilitySignalsExtracted": 30,
+    "combatEffectSignalsExtracted": 36,
+    "notFoundRecords": 36
+  },
+  "outputsCreated": [
+    "extracted/lostbelt/lb1-anastasia/world-state.json",
+    "extracted/lostbelt/lb1-anastasia/stage-characters/index.json",
+    "extracted/lostbelt/lb1-anastasia/events/event-A0.json through event-U.json",
+    "extracted/lostbelt/lb1-anastasia/dialogue/dialogue-index.json",
+    "extracted/lostbelt/lb1-anastasia/appearance-signals/appearance-signals.json",
+    "extracted/lostbelt/lb1-anastasia/ability-signals/ability-signals.json",
+    "extracted/lostbelt/lb1-anastasia/combat-effect-signals/combat-effect-signals.json",
+    "extracted/lostbelt/lb1-anastasia/not-found-in-source/required-missing-details.json",
+    "extracted/lostbelt/lb1-anastasia/mentions/character-mentions-index.json",
+    "extracted/lostbelt/lb1-anastasia/candidates/relationship-candidates.json",
+    "extracted/lostbelt/lb1-anastasia/candidates/alias-candidates.json"
+  ],
+  "forbiddenOutputsAvoided": ["characters.json","events.json","relationships.json"],
+  "sourceFirstCompliance": {
+    "externalGameWikiFactsUsed": false,
+    "unsupportedLabelsPromoted": false,
+    "stageInstructionPromotedToCanon": false,
+    "notFoundRecordsForAbsentMandatoryLayers": true,
+    "formalRecordsCarrySourceMetadata": true
+  },
+  "sourceRefs": ["sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:17-130"],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

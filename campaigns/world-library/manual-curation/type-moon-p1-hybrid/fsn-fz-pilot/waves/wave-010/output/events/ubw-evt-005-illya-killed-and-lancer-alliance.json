@@ -1,0 +1,25 @@
+{
+  "schema": "tm-p1-event-v1",
+  "event_id": "ubw-evt-005-illya-killed-and-lancer-alliance",
+  "worldId": "type-moon-nasuverse",
+  "continuity": "fsn",
+  "timelineId": "fsn-ubw-route",
+  "route": "ubw-route",
+  "canonStatus": "canon-like",
+  "time": { "start": { "value": null, "precision": "relative-only", "relative": "UBW route day thirteen", "orderIndex": 344 }, "end": { "value": null, "precision": "relative-only", "relative": "UBW route day thirteen aftermath", "orderIndex": 350 }, "duration": "same-day", "confidence": "medium" },
+  "timelineNodes": [
+    { "nodeId": "start", "label": "Caster past revealed", "time": { "relative": "Day thirteen", "orderIndex": 344 }, "summary": "Caster's betrayal past is revealed and Shirou dreams of the Fuyuki fire." },
+    { "nodeId": "middle-001", "label": "Illya killed", "time": { "relative": "Einzbern Castle arrival", "orderIndex": 347 }, "summary": "Gilgamesh kills Berserker and removes Illya's heart while Shinji mocks." },
+    { "nodeId": "end", "label": "Lancer offers alliance", "time": { "relative": "After Illya's death", "orderIndex": 350 }, "summary": "Lancer intervenes and proposes alliance with Rin and Shirou." }
+  ],
+  "participants": ["emiya-shirou", "tohsaka-rin", "illyasviel-fsn", "berserker-heracles", "gilgamesh", "matou-shinji", "lancer-cu-chulainn", "caster-medea"],
+  "locationRefs": ["einzbern-castle"],
+  "cause": "Rin and Shirou seek Illya as an ally against Caster, but Gilgamesh has already attacked.",
+  "process": "The party arrives too late; Gilgamesh kills Berserker and Illya, then Lancer joins Rin and Shirou out of opposition to Gilgamesh and Archer.",
+  "outcome": "Illya and Berserker are eliminated in UBW, and Lancer becomes a temporary ally.",
+  "stateChanges": ["Illya killed", "Berserker eliminated", "Lancer shifts into alliance with Rin/Shirou"],
+  "relationshipChanges": ["Lancer opposes Gilgamesh and Archer alongside Rin/Shirou"],
+  "sourceType": "curated-story-derived",
+  "credibility": "B",
+  "sourceRefs": ["type-moon-nasuverse/story-text/fate/ch-003-ubw-route.txt:81", "type-moon-nasuverse/story-text/fate/ch-003-ubw-route.txt:83", "type-moon-nasuverse/story-text/fate/ch-003-ubw-route.txt:84", "type-moon-nasuverse/story-text/fate/ch-003-ubw-route.txt:85"]
+}

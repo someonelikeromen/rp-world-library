@@ -1,0 +1,61 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "turk-sledd",
+  "volume": "vol-14",
+  "time_range": {
+    "start": "第一章",
+    "end": "第四章"
+  },
+  "sub_arcs": [
+    "里维拉伪证",
+    "第25层爆破执行者",
+    "莱姆顿操纵者"
+  ],
+  "source_refs": [
+    "danmachi-main/vol-14/full.txt:215-5158"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-14-turk-jura-accomplice",
+      "volume": "vol-14",
+      "time": "第一章-第四章",
+      "label": "协助闍罗嫁祸疾风的狼人同党",
+      "name": {
+        "zh": "塔克·斯雷德",
+        "en": "Turk Sledd"
+      },
+      "gender": "男",
+      "species": "狼人",
+      "occupation": "里维拉镇冒险者、闍罗同党",
+      "affiliation": "里维拉镇；闍罗一伙",
+      "status": {
+        "level": "Lv.2左右",
+        "location": "第18层、第25层水之迷都",
+        "state": "在第25层引爆火炎石并操纵莱姆顿后脱离主视角"
+      },
+      "summary": "塔克作为里维拉镇居民，谎称目击疾风杀死阿让，煽动镇上冒险者组成讨伐队。他与闍罗暗中勾结，在第25层试图引走并杀死莉莉等留守队伍，以红鞭操纵莱姆顿。随后他按闍罗计划在第25层撒布火炎石并以魔剑点燃，造成水之迷都结构大破坏，成为召唤札格纳特的最后触发者。",
+      "key_events": [
+        {
+          "event_id": "rivira-murder-and-ryu-framed",
+          "summary": "塔克做出关键伪证，使琉被认定为里维拉杀人犯。",
+          "sourceRef": "danmachi-main/vol-14/full.txt:215-778"
+        },
+        {
+          "event_id": "floor25-lamton-battle",
+          "summary": "塔克暴露为闍罗同党并放出莱姆顿攻击阿伊莎等人。",
+          "sourceRef": "danmachi-main/vol-14/full.txt:4025-5158"
+        },
+        {
+          "event_id": "jura-summons-juggernaut",
+          "summary": "塔克在第25层引爆火炎石，完成召唤札格纳特的破坏仪式。",
+          "sourceRef": "danmachi-main/vol-14/full.txt:4025-5158"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-14/full.txt:215-5158"
+      ]
+    }
+  ]
+}

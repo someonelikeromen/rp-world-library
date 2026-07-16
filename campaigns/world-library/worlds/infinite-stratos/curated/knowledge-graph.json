@@ -1,0 +1,162 @@
+{
+  "schema": "rp-knowledge-graph-v1",
+  "worldId": "infinite-stratos",
+  "nodes": [
+    {
+      "id": "is-system",
+      "label": "Infinite Stratos系统",
+      "type": "power-system",
+      "visibility": "public",
+      "summary": "近未来个人装备化人形外骨骼/机动兵器体系，通常只有女性能启动。",
+      "detail": "IS通过核心与驾驶员同步，展开装甲、武装、推进、传感与防御系统。它改变世界军事与社会结构，核心稀缺且受国际管制。源世界书强调技术黑箱、标准机械音效、白式本身无客观神秘异象；一夏带来的震撼来自‘男性能驾驶IS’这一事实。",
+      "sourceRefs": ["is-st-worldbook:entry 4", "is-st-worldbook:entry 11"],
+      "evidenceLevel": "A"
+    },
+    {
+      "id": "is-core",
+      "label": "IS核心",
+      "type": "item-system",
+      "visibility": "restricted",
+      "summary": "IS机体的关键稀缺部件，决定机体存在、成长与战略价值。",
+      "detail": "核心数量有限，是国家、企业和秘密组织争夺的核心资源。源剧情提及核心编号、白骑士核心、非标准核心与核心网络，这些可作为沙盒暗线。",
+      "sourceRefs": ["is-st-worldbook:entry 6"],
+      "evidenceLevel": "B"
+    },
+    {
+      "id": "core-network",
+      "label": "核心网络/战术数据库",
+      "type": "information-system",
+      "visibility": "secret",
+      "summary": "源世界书提到的核心网络战术概念，可用于解释IS数据同步、AI辅助与黑客风险。",
+      "detail": "建议作为RP机制而非万能设定：它能提供战斗记录、Package兼容性、异常核心警报等信息，但不能随意破解所有秘密。",
+      "sourceRefs": ["is-st-worldbook:entry 6"],
+      "evidenceLevel": "C"
+    },
+    {
+      "id": "white-shiki",
+      "label": "白式",
+      "type": "is-unit",
+      "visibility": "public",
+      "summary": "织斑一夏驾驶的专用IS。",
+      "detail": "源强调白式外观与音效应保持标准IS规格，不自动散发神秘光芒或超自然气场；其特殊性来自一夏作为男性驾驶员和后续能力觉醒。常识中白式以近战和零落白夜为核心。",
+      "sourceRefs": ["is-st-worldbook:entry 6", "is-st-worldbook:entry 11"],
+      "relatedCharacterIds": ["ichika-orimura"],
+      "evidenceLevel": "A"
+    },
+    {
+      "id": "absolute-defense",
+      "label": "绝对防御",
+      "type": "rule",
+      "visibility": "public",
+      "summary": "IS保护驾驶员的防御/安全机制。",
+      "detail": "适合用于训练与竞技中防止致命伤，并以护盾/能量耗尽作为败北条件；实战中仍可被消耗、突破或导致驾驶员昏迷。",
+      "sourceRefs": ["is-st-worldbook:entry 6"],
+      "evidenceLevel": "A"
+    },
+    {
+      "id": "one-off-ability",
+      "label": "一品能力 / One-off Ability",
+      "type": "power-rule",
+      "visibility": "public",
+      "summary": "专用IS与驾驶员深度适配后显现的个体特殊能力。",
+      "detail": "可作为角色成长节点。白式的零落白夜、红椿的绚烂舞踏等应通过训练、危机或同步率变化逐步显现。",
+      "sourceRefs": ["is-st-worldbook:entry 6"],
+      "evidenceLevel": "A"
+    },
+    {
+      "id": "package-system",
+      "label": "Package/换装系统",
+      "type": "technology-rule",
+      "visibility": "public",
+      "summary": "IS通过装备包或武装配置改变战术定位。",
+      "detail": "源剧情把Package切换作为学园课程和成长项目；适合用于任务前准备、企业测试、束的临时数据卡等剧情。",
+      "sourceRefs": ["is-st-worldbook:entry 6", "is-st-worldbook:entry 7"],
+      "evidenceLevel": "B"
+    },
+    {
+      "id": "is-academy",
+      "label": "IS学园",
+      "type": "organization-location",
+      "visibility": "public",
+      "summary": "培养各国IS驾驶员的国际化学园与主要舞台。",
+      "detail": "含课堂、训练场、竞技场、机库、宿舍、学生会室等。源世界书又称青羽学园/Aethelgard Academy，baseline作为AU别名处理。",
+      "sourceRefs": ["is-st-worldbook:entry 4", "is-st-worldbook:entry 7"],
+      "evidenceLevel": "A"
+    },
+    {
+      "id": "national-candidate-system",
+      "label": "各国代表候补生制度",
+      "type": "organization-system",
+      "visibility": "public",
+      "summary": "国家选拔精英少女作为IS代表候补生并派往学园或国际赛事。",
+      "detail": "角色既是学生也是国家技术和军事实力的窗口，因此同学关系常叠加外交、企业和军方压力。",
+      "sourceRefs": ["is-st-worldbook:entry 6", "is-st-worldbook:entry 9"],
+      "evidenceLevel": "A"
+    },
+    {
+      "id": "alaska-treaty",
+      "label": "阿拉斯加条约/国际IS管制",
+      "type": "law-treaty",
+      "visibility": "public",
+      "summary": "源剧情用于约束IS研究共享、军事用途和VT系统禁忌的国际框架。",
+      "detail": "适合作为国家、企业和学园行动边界；具体条款不宜编造过细，按剧情需要以‘禁止VT系统等危险军事化研究’处理。",
+      "sourceRefs": ["is-st-worldbook:entry 6", "is-st-worldbook:entry 7"],
+      "evidenceLevel": "B"
+    },
+    {
+      "id": "phantom-task",
+      "label": "亡国机业 / Phantom Task",
+      "type": "secret-organization",
+      "visibility": "secret",
+      "summary": "围绕IS核心、禁忌技术与驾驶员袭击的敌对秘密组织。",
+      "detail": "可作为中后期主线反派；目标包括核心数据、白式、一夏、代表候补生与禁忌系统。",
+      "sourceRefs": ["is-st-worldbook:entry 6", "is-st-worldbook:entry 7"],
+      "evidenceLevel": "A"
+    },
+    {
+      "id": "vt-system",
+      "label": "VT系统",
+      "type": "forbidden-technology",
+      "visibility": "restricted",
+      "summary": "源剧情提到的禁忌技术，可与银色福音、亡国机业和条约冲突相连。",
+      "detail": "在RP中用作危险战斗数据回溯/人格模拟/强制控制类技术的统称即可；细节未确认时不要过度展开。",
+      "sourceRefs": ["is-st-worldbook:entry 6", "is-st-worldbook:entry 7"],
+      "evidenceLevel": "B"
+    },
+    {
+      "id": "silver-gospel",
+      "label": "银色福音事件",
+      "type": "event",
+      "visibility": "public-after-event",
+      "summary": "军用IS暴走/压制事件，适合作为团队战与阴谋线入口。",
+      "detail": "源剧情写作第三代军用IS银色福音暴走，操纵者娜塔莎·法鲁斯，武器银之钟；可引出VT系统或亡国机业。",
+      "sourceRefs": ["is-st-worldbook:entry 6"],
+      "evidenceLevel": "B"
+    },
+    {
+      "id": "hoshi-shirube-ai",
+      "label": "端白星AI",
+      "type": "rp-mechanic-ai",
+      "visibility": "optional",
+      "summary": "源世界书中白式/一夏的辅助AI，可作为状态栏与伙伴机制。",
+      "detail": "初始人性化等级10/1000，冰冷工具音；随互动成长出更自然的建议和轻微吐槽。若原作向，可降格为普通OS。",
+      "sourceRefs": ["is-st-worldbook:entry 7", "is-st-worldbook:entry 9"],
+      "relatedCharacterIds": ["ichika-orimura", "hoshi-shirube-ai"],
+      "evidenceLevel": "B"
+    }
+  ],
+  "edges": [
+    { "from": "is-system", "to": "is-core", "type": "requires", "label": "IS依赖核心", "strength": "strong", "visibility": "public", "sourceRefs": ["is-st-worldbook:entry 4"] },
+    { "from": "is-core", "to": "core-network", "type": "supports", "label": "核心数据可形成战术/记录网络", "strength": "medium", "visibility": "secret", "sourceRefs": ["is-st-worldbook:entry 6"] },
+    { "from": "white-shiki", "to": "is-system", "type": "instance-of", "label": "白式是一台IS", "strength": "strong", "visibility": "public", "sourceRefs": ["is-st-worldbook:entry 6"] },
+    { "from": "white-shiki", "to": "one-off-ability", "type": "can-unlock", "label": "可觉醒零落白夜", "strength": "strong", "visibility": "public", "sourceRefs": ["is-st-worldbook:entry 6"] },
+    { "from": "is-system", "to": "absolute-defense", "type": "contains", "label": "IS内建保护机制", "strength": "strong", "visibility": "public", "sourceRefs": ["is-st-worldbook:entry 6"] },
+    { "from": "is-system", "to": "package-system", "type": "supports", "label": "IS可通过Package换装", "strength": "medium", "visibility": "public", "sourceRefs": ["is-st-worldbook:entry 6"] },
+    { "from": "is-academy", "to": "national-candidate-system", "type": "hosts", "label": "学园汇集各国候补生", "strength": "strong", "visibility": "public", "sourceRefs": ["is-st-worldbook:entry 6"] },
+    { "from": "alaska-treaty", "to": "vt-system", "type": "restricts", "label": "条约禁止/限制VT系统", "strength": "medium", "visibility": "public", "sourceRefs": ["is-st-worldbook:entry 6"] },
+    { "from": "phantom-task", "to": "is-core", "type": "targets", "label": "秘密组织觊觎核心", "strength": "strong", "visibility": "secret", "sourceRefs": ["is-st-worldbook:entry 6"] },
+    { "from": "phantom-task", "to": "vt-system", "type": "abuses", "label": "可能滥用禁忌技术", "strength": "medium", "visibility": "secret", "sourceRefs": ["is-st-worldbook:entry 6"] },
+    { "from": "silver-gospel", "to": "phantom-task", "type": "foreshadows", "label": "暴走事件可引出亡国机业", "strength": "medium", "visibility": "restricted", "sourceRefs": ["is-st-worldbook:entry 6"] },
+    { "from": "hoshi-shirube-ai", "to": "white-shiki", "type": "interface-of", "label": "端白星作为白式辅助AI", "strength": "medium", "visibility": "optional", "sourceRefs": ["is-st-worldbook:entry 9"] }
+  ]
+}

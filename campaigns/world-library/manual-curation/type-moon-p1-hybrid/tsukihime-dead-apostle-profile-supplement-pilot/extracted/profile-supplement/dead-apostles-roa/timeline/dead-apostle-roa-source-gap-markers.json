@@ -1,0 +1,35 @@
+{
+  "schema": "tm-tsukihime-extracted-timeline-fragment-v1",
+  "packetId": "dead-apostles-roa",
+  "timelineFragmentId": "dead-apostle-roa-source-gap-markers",
+  "status": "generated-pending-audit",
+  "candidateOnly": true,
+  "continuityTaxonomy": {"category": "sandbox", "rawSourceLabels": ["candidate-only"], "sourceAvailability": "source-gap/candidate-only"},
+  "inventedDates": false,
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:32", "sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:33", "sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:34", "sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:35"],
+  "records": [
+    {
+      "recordId": "tl-gap-roa-direct-profile-not-confirmed-001",
+      "recordType": "timeline-source-gap",
+      "timeRaw": "not confirmed in Stage 1 read",
+      "summaryRaw": "A direct standalone profile entry for Michael Roa Valdamjong was not confirmed in this Stage 1 read; future extraction must search and read direct entries before creating formal records.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:33", "sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:35"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    },
+    {
+      "recordId": "tl-gap-supporting-dead-apostle-profiles-not-confirmed-001",
+      "recordType": "timeline-source-gap",
+      "timeRaw": "not confirmed in Stage 1 read",
+      "summaryRaw": "Direct standalone profiles for Nero, Wallachia Night, Satsuki Yumizuka, Tohno SHIKI, Noel, and Vlov may exist but were not formalized here.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:34"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    }
+  ]
+}

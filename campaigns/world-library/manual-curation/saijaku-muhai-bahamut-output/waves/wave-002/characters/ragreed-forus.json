@@ -1,0 +1,105 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "ragreed-forus",
+  "volume": "vol-06",
+  "time_range": {
+    "start": "vol-06",
+    "end": "vol-06"
+  },
+  "sub_arcs": [
+    "收复帝都计画",
+    "王城正门战"
+  ],
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:2500",
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:7350"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-06",
+      "volume": "vol-06",
+      "time": "王都危机",
+      "label": "叛军总帅",
+      "name": {
+        "zh": "拉葛利多·富鲁斯",
+        "en": "Ragreed Forus",
+        "jp": ""
+      },
+      "aliases": [
+        "拉葛利多"
+      ],
+      "titles": [
+        "旧帝国派大贵族",
+        "叛军总帅"
+      ],
+      "gender": "male",
+      "species": "human",
+      "nationality": "旧阿卡迪亚帝国贵族出身",
+      "occupation": "叛军首领；机龙使",
+      "affiliation": "旧帝国叛军 / 海布格军事部利用对象",
+      "status": {
+        "goal": "作为表面首谋执行收复帝都计画并自称新皇帝",
+        "end_of_volume": "被菲尔菲击败并被捕"
+      },
+      "appearance": {
+        "overview": "旧帝国贵族男性，驾驶强化飞翔机龙X。"
+      },
+      "personality": {
+        "summary": "自私、暴虐、无统治理想，只想享用权力与报复。",
+        "core_traits": [
+          "权力欲",
+          "卑劣",
+          "旧帝国价值观",
+          "轻视弱者"
+        ],
+        "inner_conflict": "无明显内省，甘愿当海布格傀儡换取权力。"
+      },
+      "abilities_owned": [
+        "wyvern-x-ancient-coating",
+        "horn-abyss-control"
+      ],
+      "possessions_owned": [
+        "ragreed-wyvern-x",
+        "horn-of-abyss-control"
+      ],
+      "relationships": {
+        "lux-arcadia": {
+          "type": "旧识与敌人",
+          "status": "曾是阿贝尔友人，幼年时与路克斯有恩怨"
+        },
+        "philuffy-aingram": {
+          "type": "迫害者与复仇对象",
+          "status": "幼年曾试图陷害菲尔菲，本卷被菲尔菲击败"
+        },
+        "hayes": {
+          "type": "被利用的棋子",
+          "status": "接受海布格军师援助发动叛乱"
+        }
+      },
+      "knowledge": [
+        "recapture-imperial-capital-plan"
+      ],
+      "secrets": [],
+      "summary": "拉葛利多是旧帝国叛军总帅，意图借海布格力量登基为傀儡皇帝，最终在王城前被菲尔菲阻止。",
+      "key_events": [
+        {
+          "event_id": "council-decoy-order",
+          "summary": "执政院将他作为收复帝都计画叛军表面首领告知路克斯。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-06/full.txt:2500"
+        },
+        {
+          "event_id": "philuffy-vs-ragreed",
+          "summary": "率叛军和幻神兽进攻王城，被菲尔菲击败。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-06/full.txt:7350"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:2500",
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:5550",
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:7350"
+      ]
+    }
+  ]
+}

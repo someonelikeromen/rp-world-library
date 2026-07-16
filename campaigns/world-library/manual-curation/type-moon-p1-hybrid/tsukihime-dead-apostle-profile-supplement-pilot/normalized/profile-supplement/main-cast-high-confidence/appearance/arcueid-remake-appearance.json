@@ -1,0 +1,18 @@
+{
+  "schema": "tm-tsukihime-normalized-fragment-v1",
+  "packetId": "main-cast-high-confidence",
+  "fragmentId": "appearance-arcueid-remake",
+  "layer": "appearance",
+  "subjectId": "arcueid-brunestud",
+  "continuity": { "rawSourceLabel": "重制版", "canonicalContinuity": "remake", "taxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy/rawLabelMapping/重制版" },
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "candidateOnly": false,
+  "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:39", "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:41", "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:42"],
+  "assertions": [
+    { "property": "hair", "value": "neck-length pale-yellow short hair; longer during French Incident / first Roa meeting", "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:39", "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:41"] },
+    { "property": "eyes", "value": "red cat-like eyes; eyes become gold in combat", "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:39"] },
+    { "property": "formCandidate", "value": "Ciel true ending clothes rapidly change into Red Arcueid outfit", "candidateOnly": true, "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:42"] }
+  ]
+}

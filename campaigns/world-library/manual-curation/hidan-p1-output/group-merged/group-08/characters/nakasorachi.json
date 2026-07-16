@@ -1,0 +1,216 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "nakasorachi",
+  "volume": "vol-08",
+  "time_range": {
+    "start": "秋季",
+    "end": "秋季"
+  },
+  "sub_arcs": [
+    "高度350公尺的螺旋"
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-08/chapters/ch-004-第八卷_螺旋的天空树_4弹_高度350公尺的螺旋.txt:9"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-08-main",
+      "volume": "vol-08",
+      "time": "秋季",
+      "label": "通信科音响搜查",
+      "name": {
+        "zh": "中空知美咲",
+        "en": "Nakasorachi"
+      },
+      "aliases": [
+        "中空知",
+        "小知"
+      ],
+      "titles": [
+        "通信科学生",
+        "贞德室友"
+      ],
+      "gender": "女性",
+      "species": "人类",
+      "nationality": "日本",
+      "occupation": "东京武侦高中通信科学生",
+      "affiliation": "东京武侦高中通信科/第三女生宿舍",
+      "status": {
+        "physical": "健康但极度紧张，眼镜损坏",
+        "mental": "面对男性严重结巴，使用通信设备时能清晰专业播报",
+        "social": "被同学推给打扫工作，唯一朋友是贞德"
+      },
+      "appearance": {
+        "overview": "朴素到几乎与树林同化的高个女生，浏海很长",
+        "attire": {
+          "default": "武侦高中制服"
+        },
+        "distinctive": [
+          "严重结巴",
+          "音响设备前判若两人"
+        ]
+      },
+      "personality": {
+        "summary": "中空知是通信科学生与贞德室友，平时极度怕生结巴，但在音响搜查中展现天才级能力。她用女生宿舍屋顶的极指向性雷射麦克风监听台场餐厅谈话，并为金次追踪华生提供关键信息。",
+        "core_traits": [
+          "胆小",
+          "不擅长男性",
+          "专业时冷静准确",
+          "被动但可靠"
+        ],
+        "strengths": [
+          "远距离音响搜查",
+          "声纹分析",
+          "从脚步声推断体脂肪与车辆路线"
+        ],
+        "flaws": [
+          "社交恐惧",
+          "容易被人使唤"
+        ],
+        "inner_conflict": "渴望被温柔对待，却因紧张和妄想难以正常交流。"
+      },
+      "abilities_owned": [
+        "nakasorachi-audio-surveillance"
+      ],
+      "possessions_owned": [
+        "laser-directional-microphone",
+        "audio-equipment-room"
+      ],
+      "relationships": {
+        "jeanne": "roommate/friend；协助贞德调查华生",
+        "kinji": "ally；被金次帮助打扫后带其见贞德",
+        "l-watson": "surveillance_target；监听其与亚莉亚的餐厅谈话",
+        "aria": "surveillance_subject；判断其语调与心跳变化"
+      },
+      "knowledge": [
+        "watson-holmes-engagement"
+      ],
+      "summary": "中空知在通信科森林被金次帮助后带他去第三女生宿舍见贞德。她随后通过远距离雷射麦克风监听华生和亚莉亚会谈，识别华生车辆、目的地与亚莉亚被药物影响的状态。",
+      "key_events": [
+        {
+          "event_id": "kinji-visits-jeanne",
+          "summary": "带金次进入第三女生宿舍见受伤的贞德",
+          "sourceRef": "hidan-no-aria-main/vol-08/full.txt:5485"
+        },
+        {
+          "event_id": "nakasorachi-wiretaps-watson",
+          "summary": "使用极指向性雷射麦克风监听台场餐厅包厢",
+          "sourceRef": "hidan-no-aria-main/vol-08/full.txt:5985"
+        },
+        {
+          "event_id": "watson-abducts-aria",
+          "summary": "向金次报告华生车辆、路线与亚莉亚昏睡状态",
+          "sourceRef": "hidan-no-aria-main/vol-08/full.txt:6230"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-08/chapters/ch-004-第八卷_螺旋的天空树_4弹_高度350公尺的螺旋.txt:9",
+        "hidan-no-aria-main/vol-08/chapters/ch-004-第八卷_螺旋的天空树_4弹_高度350公尺的螺旋.txt:509",
+        "hidan-no-aria-main/vol-08/chapters/ch-004-第八卷_螺旋的天空树_4弹_高度350公尺的螺旋.txt:754"
+      ]
+    },
+    {
+      "period_id": "vol-15-main",
+      "volume": "vol-15",
+      "time": "欧洲远征",
+      "label": "星座小队通信员",
+      "name": {
+        "zh": "中空知美咲",
+        "en": "Nakasorachi Misaki",
+        "jp": ""
+      },
+      "aliases": [
+        "中空知",
+        "小知"
+      ],
+      "titles": [
+        "星座小队副队长",
+        "通信科学生"
+      ],
+      "gender": "女性",
+      "species": "人类",
+      "nationality": "日本",
+      "occupation": "东京武侦高中通信科学生",
+      "affiliation": "东京武侦高中通信科; 星座小队",
+      "status": {
+        "physical": "戴眼镜，携带大行李和不合身的重型手枪",
+        "mental": "面对面极度结巴，但通信器中表现正常",
+        "mission": "参与欧洲补考，负责通信定位与敌方通讯同步中继"
+      },
+      "appearance": {
+        "overview": "浏海和眼镜遮住视线，行李杂乱",
+        "attire": {
+          "default": "武侦高中制服",
+          "combat": "通信设备、柯尔特巨蟒、肥后守"
+        },
+        "distinctive": [
+          "口头交流结巴",
+          "通信频道中声音流畅",
+          "兴趣是翻花绳"
+        ]
+      },
+      "personality": {
+        "summary": "胆小害羞、自信不足，但在通信专业中能可靠发挥作用。金次起初轻视她，后因其定位支援重新认识星座小队价值。",
+        "core_traits": [
+          "害羞",
+          "善良",
+          "专业时可靠",
+          "举止笨拙"
+        ],
+        "strengths": [
+          "通信定位",
+          "窃听与同步中继",
+          "信息支援"
+        ],
+        "flaws": [
+          "面对面无法流畅说话",
+          "行李管理混乱",
+          "武器选择不合理"
+        ],
+        "inner_conflict": "想履行小队副队长职责，却被社交恐惧拖累。"
+      },
+      "abilities_owned": [
+        "communications-support"
+      ],
+      "possessions_owned": [
+        "nakasorachi-colt-python",
+        "higonokami-knife"
+      ],
+      "relationships": {
+        "kinji": "squadmate; 被其起初视作不可靠，后在救援中证明价值",
+        "jeanne": "leader; 星座小队队长",
+        "shima-ichigo": "squadmate; 一起完成布鲁塞尔课题",
+        "l-watson": "escort/ally; 被华生带往布鲁塞尔"
+      },
+      "knowledge": [
+        "constellation-squad-transfer"
+      ],
+      "summary": "中空知作为星座小队副队长参加欧洲补考，成田机场时表现笨拙并暴露巨蟒手枪与杂乱行李。前往布鲁塞尔后，她协助贞德通过通信与手机情报定位金次，并在虎式战车追击中同步中继敌方通讯。",
+      "key_events": [
+        {
+          "event_id": "constellation-departure",
+          "summary": "在成田机场集合并随星座小队出发",
+          "sourceRef": "hidan-no-aria-main/vol-15/full.txt:2570"
+        },
+        {
+          "event_id": "jeanne-rescue-tank-chase",
+          "summary": "在救援金次时负责通信定位和敌方通讯中继",
+          "sourceRef": "hidan-no-aria-main/vol-15/full.txt:6680"
+        },
+        {
+          "event_id": "brussels-yojin-ambush",
+          "summary": "在布鲁塞尔完成课题后与岛返国，脱离前线",
+          "sourceRef": "hidan-no-aria-main/vol-15/full.txt:6943"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-15/chapters/ch-002-第十五卷_哿与银冰_2弹_哿与银冰.txt:1368",
+        "hidan-no-aria-main/vol-15/chapters/ch-005-第十五卷_哿与银冰_5弹_高歌的铁十字之虎.txt:862",
+        "hidan-no-aria-main/vol-15/chapters/ch-006-第十五卷_哿与银冰_Go_For_The_Next!!!_歌剧院的妖刕.txt:13"
+      ]
+    }
+  ]
+}

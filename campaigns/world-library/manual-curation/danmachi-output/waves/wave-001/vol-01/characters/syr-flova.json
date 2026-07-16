@@ -1,0 +1,82 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "syr-flova",
+  "volume": "vol-01",
+  "time_range": { "start": "chapter-2", "end": "vol-01-end" },
+  "sub_arcs": [],
+  "periods": [
+    {
+      "period_id": "syr-vol01",
+      "volume": "vol-01",
+      "time": "全卷",
+      "label": "丰饶的女主人的女服务员",
+      "name": { "zh": "希儿·福罗瓦", "en": "Syr Flova", "jp": "シル・フローヴァ" },
+      "aliases": [],
+      "titles": [],
+      "gender": "female",
+      "species": "human",
+      "nationality": "欧拉丽",
+      "occupation": "酒馆女服务生",
+      "affiliation": "丰饶的女主人",
+      "status": {},
+      "appearance": {
+        "overview": "淡灰色头发团子头，灰色眼睛，牛奶般白皙皮肤。穿着白色衬衫和嫩叶色背心裙加围裙。",
+        "physical": { "height": "比贝尔稍高", "build": "纤细", "hair": { "color": "灰", "style": "团子头+马尾" }, "eyes": { "color": "灰", "type": "纯真" } },
+        "attire": { "default": "白色衬衫+嫩叶色背心裙+围裙", "combat": "" },
+        "voice_quality": {},
+        "distinctive": ["温柔的笑容"]
+      },
+      "personality": {
+        "summary": "温柔善良但精明的一面。有邻家女孩的魅力。",
+        "core_traits": ["温柔", "精明", "善良", "细心"],
+        "values": ["结识不同的人"],
+        "fears": [],
+        "desires": ["对未知的渴望"],
+        "strengths": ["交际手腕", "体贴"],
+        "flaws": ["有点恶魔的小心思"],
+        "inner_conflict": "",
+        "decision_pattern": "温柔中带点子"
+      },
+      "voice": {
+        "self_reference": "私",
+        "address_pattern": { "bell": "贝尔先生" },
+        "register": {},
+        "catchphrases": [],
+        "quote_samples": ["冒险者先生，您掉了这个。", "我觉得很帅喔。"]
+      },
+      "habits": {
+        "mannerisms": ["害羞时会低头微笑"],
+        "daily_routine": "在酒馆工作",
+        "quirks": ["有点冒失（忘记带钱包）"],
+        "preferences": {}
+      },
+      "background": {
+        "birth": { "place": "欧拉丽", "family": [] },
+        "upbringing": "未知",
+        "education": {},
+        "formative_events": [],
+        "pre_story": "在蜜雅妈妈经营的酒馆工作"
+      },
+      "abilities_owned": [],
+      "possessions_owned": [],
+      "relationships": {
+        "bell-cranel": { "type": "朋友", "description": "互有好感，欣赏贝尔的勇气" },
+        "mia-grand": { "type": "雇主", "description": "在蜜雅妈妈的酒馆打工" }
+      },
+      "knowledge": [],
+      "secrets": [],
+      "summary": "丰饶的女主人的女服务生。在清晨遇见贝尔并送他早餐。性格温柔中有精明的商业头脑。对贝尔有好感。",
+      "key_events": [
+        { "event_id": "morning-encounter-syr", "summary": "清晨遇贝尔，送早餐并邀请他来酒馆", "sourceRef": "danmachi-main/vol-01/full.txt:827-2050" },
+        { "event_id": "monster-festival-chaos", "summary": "怪物祭中照顾精疲力尽的贝尔和赫斯缇雅", "sourceRef": "danmachi-main/vol-01/full.txt:5590-7188" }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-01/full.txt:827-2050",
+        "danmachi-main/vol-01/full.txt:5590-7188"
+      ]
+    }
+  ],
+  "source_refs": []
+}

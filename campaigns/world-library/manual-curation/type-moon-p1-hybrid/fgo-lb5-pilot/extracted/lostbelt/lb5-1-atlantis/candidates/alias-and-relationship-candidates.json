@@ -1,0 +1,20 @@
+{
+  "schema":"tm-fgo-candidates-v1",
+  "chapterId":"fgo-lb5-1-atlantis",
+  "sourceType":"user-file-worldbook-script",
+  "credibility":"B",
+  "canonStatus":"canon-like",
+  "aliasCandidates":[
+    {"candidateId":"alias-lb5-1-leonardo-da-vinci","sourceLabelRaw":"莱昂纳多·达·芬奇","aliasCandidateRaw":"达·芬奇","supportStatus":"source-supported-short-form-in-event-A1","sourceRefs":["sources/worldbook-script/lostbelt/ch-097-lb5-1-atlantis.txt:16","sources/worldbook-script/lostbelt/ch-097-lb5-1-atlantis.txt:26"],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"},
+    {"candidateId":"alias-lb5-1-david-bluebook","sourceLabelRaw":"戴维特·布鲁布克","aliasCandidateRaw":"布鲁布克","supportStatus":"source-supported-dialogue-address","sourceRefs":["sources/worldbook-script/lostbelt/ch-097-lb5-1-atlantis.txt:29-30"],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"},
+    {"candidateId":"alias-lb5-1-corday-external","sourceLabelRaw":"夏洛特·科黛/科黛","aliasCandidateRaw":"Charlotte Corday","supportStatus":"unsupported-by-current-source","sourceRefs":["sources/worldbook-script/lostbelt/ch-097-lb5-1-atlantis.txt:17","sources/worldbook-script/lostbelt/ch-097-lb5-1-atlantis.txt:84-112"],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"},
+    {"candidateId":"alias-lb5-1-storm-border-external","sourceLabelRaw":"Storm Border","aliasCandidateRaw":"ストーム・ボーダー","supportStatus":"unsupported-by-current-source","sourceRefs":["sources/worldbook-script/lostbelt/ch-097-lb5-1-atlantis.txt:99","sources/worldbook-script/lostbelt/ch-097-lb5-1-atlantis.txt:108","sources/worldbook-script/lostbelt/ch-097-lb5-1-atlantis.txt:122"],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"}
+  ],
+  "relationshipCandidates":[
+    {"candidateId":"relcand-lb5-1-I-corday-affection-rikka","subjectRaw":"科黛","predicateRaw":"意识到自己爱上了","objectRaw":"立香","timelineId":"evt-lb5-1-I","timeRange":"2019年12月30日 夜","supportRaw":"科黛意识到自己爱上了立香，巴沙洛缪对此看破不点破。","status":"candidate-source-supported-temporal","sourceRefs":["sources/worldbook-script/lostbelt/ch-097-lb5-1-atlantis.txt:84-85"],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"},
+    {"candidateId":"relcand-lb5-1-L-life-death-contract-mandricardo-mash-rikka","subjectRaw":"曼迪卡尔多、玛修与立香","predicateRaw":"定下同生共死的契约","objectRaw":"彼此","timelineId":"evt-lb5-1-L","timeRange":"2020年1月2日 黎明","supportRaw":"曼迪卡尔多、玛修与立香定下同生共死的契约。","status":"candidate-source-supported-temporal","sourceRefs":["sources/worldbook-script/lostbelt/ch-097-lb5-1-atlantis.txt:102"],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"},
+    {"candidateId":"relcand-lb5-1-P-achilles-summons-hector","subjectRaw":"阿喀琉斯","predicateRaw":"召唤降临","objectRaw":"赫克托耳","timelineId":"evt-lb5-1-P","timeRange":"2020年1月2日 日间","supportRaw":"赫克托耳受阿喀琉斯召唤降临，挡下致命一击。","status":"candidate-source-supported-temporal","sourceRefs":["sources/worldbook-script/lostbelt/ch-097-lb5-1-atlantis.txt:114-116"],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"},
+    {"candidateId":"relcand-lb5-1-B3-wodime-protects-caenis","subjectRaw":"基尔什塔利亚","predicateRaw":"出面维护","objectRaw":"凯妮斯","timelineId":"evt-lb5-1-B3","timeRange":"2019年12月24日～25日","supportRaw":"奥林波斯神族羞辱了凯妮斯，基尔什塔利亚出面维护。","status":"candidate-source-supported-temporal","sourceRefs":["sources/worldbook-script/lostbelt/ch-097-lb5-1-atlantis.txt:49"],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"}
+  ],
+  "policy":"Relationship records are candidates only, source-first, and include timelineId/timeRange. Co-occurrence was not promoted to relationship. No relationships.json file was created."
+}

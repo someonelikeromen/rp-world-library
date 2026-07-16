@@ -1,0 +1,12 @@
+{
+  "schema": "rp-achievement-instant-reward-candidate-schema-v1",
+  "description": "即时生成奖励候选结构。不是预置基础奖励池。",
+  "requiredTopLevel": ["id", "name", "type", "rewardRating", "canon", "targetModules"],
+  "requiredCanonFields": ["required", "sourceType", "work", "appearsAs", "evidence"],
+  "generationRules": {
+    "rewardContentIndependentFromAchievement": true,
+    "requiresCanonEvidence": true,
+    "requiresDedupe": true,
+    "pendingBeforeClaim": true
+  }
+}

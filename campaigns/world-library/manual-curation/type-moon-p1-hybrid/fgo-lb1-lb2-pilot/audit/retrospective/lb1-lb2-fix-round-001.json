@@ -1,0 +1,242 @@
+{
+  "schema": "tm-fgo-retrospective-fix-report-v1",
+  "recordType": "retrospective_fix_report",
+  "stepId": "fix-lb1-lb2-retrospective",
+  "project": "fgo-lb1-lb2-pilot",
+  "arc": "lostbelt",
+  "date": "2026-07-14",
+  "status": "fixed",
+  "scope": {
+    "allowedMutationRoots": [
+      "campaigns/world-library/manual-curation/type-moon-p1-hybrid/fgo-lb1-lb2-pilot/merged/events/lostbelt/lb1-anastasia/*.json",
+      "campaigns/world-library/manual-curation/type-moon-p1-hybrid/fgo-lb1-lb2-pilot/merged/events/lostbelt/lb2-gotterdammerung/*.json",
+      "campaigns/world-library/manual-curation/type-moon-p1-hybrid/fgo-lb1-lb2-pilot/merged/relationships/edges/lostbelt/**/*.json",
+      "campaigns/world-library/manual-curation/type-moon-p1-hybrid/fgo-lb1-lb2-pilot/graph/relationship-edge-index.json if necessary",
+      "campaigns/world-library/manual-curation/type-moon-p1-hybrid/fgo-lb1-lb2-pilot/audit/retrospective/lb1-lb2-fix-round-001.json"
+    ],
+    "forbiddenMutationAreasObserved": [
+      "STATUS.md",
+      "audit/final-acceptance.md",
+      "packet gates",
+      "source text",
+      "extracted events",
+      "visual/ability/combat layers",
+      "old curated",
+      "source imports",
+      "other pilots"
+    ]
+  },
+  "issuesHandled": [
+    {
+      "issueId": "R37-BLOCK-001",
+      "description": "Merged LB1/LB2 event records lacked required triggerRaw, completionRaw, or summaryRaw fields.",
+      "action": "Added triggerRaw, completionRaw, and summaryRaw to the three LB2 merged event records that were missing them. Existing LB1 merged event records and LB2 A-P already retained these fields.",
+      "sourceBasis": "Values copied from matching extracted event trigger, completion, and summary fields without rewriting sourceRefs/sourceType/credibility/canonStatus.",
+      "filesChanged": [
+        {
+          "file": "merged/events/lostbelt/lb2-gotterdammerung/evt-fgo-lb2-Q.json",
+          "sourcePacketFile": "extracted/lostbelt/lb2-gotterdammerung/events/event-Q.json",
+          "fieldsAdded": ["triggerRaw", "completionRaw", "summaryRaw"],
+          "sourceRefs": ["sources/worldbook-script/lostbelt/ch-094-lb2-gotterdammerung.txt:100-102"]
+        },
+        {
+          "file": "merged/events/lostbelt/lb2-gotterdammerung/evt-fgo-lb2-R.json",
+          "sourcePacketFile": "extracted/lostbelt/lb2-gotterdammerung/events/event-R.json",
+          "fieldsAdded": ["triggerRaw", "completionRaw", "summaryRaw"],
+          "sourceRefs": ["sources/worldbook-script/lostbelt/ch-094-lb2-gotterdammerung.txt:104-106"]
+        },
+        {
+          "file": "merged/events/lostbelt/lb2-gotterdammerung/evt-fgo-lb2-S.json",
+          "sourcePacketFile": "extracted/lostbelt/lb2-gotterdammerung/events/event-S.json",
+          "fieldsAdded": ["triggerRaw", "completionRaw", "summaryRaw"],
+          "sourceRefs": ["sources/worldbook-script/lostbelt/ch-094-lb2-gotterdammerung.txt:108-110"]
+        }
+      ]
+    },
+    {
+      "issueId": "R37-BLOCK-002",
+      "description": "Merged relationship edges lacked timelineId and timeRange/timeRangeRaw temporal metadata.",
+      "action": "Added timelineId, eventRefs, timeRange, timeRangeRaw, and temporalEvidenceRaw to all fourteen LB1/LB2 merged relationship edge records.",
+      "sourceBasis": "Temporal metadata was derived from existing relationship sourceRefs, matching merged event records, and chapter timeline files; no exact dates beyond existing event timeRaw values were introduced.",
+      "filesChanged": [
+        "merged/relationships/edges/lostbelt/lb1-anastasia/relcand-lb1-atalante-resistance-leader.json",
+        "merged/relationships/edges/lostbelt/lb1-anastasia/relcand-lb1-avicebron-resistance-chaldea.json",
+        "merged/relationships/edges/lostbelt/lb1-anastasia/relcand-lb1-ivan-lostbelt-rule.json",
+        "merged/relationships/edges/lostbelt/lb1-anastasia/relcand-lb1-kadoc-anastasia-master-servant.json",
+        "merged/relationships/edges/lostbelt/lb1-anastasia/relcand-lb1-kirei-koyanskaya-chaldea-fall.json",
+        "merged/relationships/edges/lostbelt/lb1-anastasia/relcand-lb1-patsy-chaldea-guide.json",
+        "merged/relationships/edges/lostbelt/lb1-anastasia/relcand-lb1-salieri-enemy-to-ally.json",
+        "merged/relationships/edges/lostbelt/lb2-gotterdammerung/relcand-lb2-brynhildr-sigurd.json",
+        "merged/relationships/edges/lostbelt/lb2-gotterdammerung/relcand-lb2-gerda-mash.json",
+        "merged/relationships/edges/lostbelt/lb2-gotterdammerung/relcand-lb2-ophelia-mash.json",
+        "merged/relationships/edges/lostbelt/lb2-gotterdammerung/relcand-lb2-ophelia-sigurd.json",
+        "merged/relationships/edges/lostbelt/lb2-gotterdammerung/relcand-lb2-skadi-subjects.json",
+        "merged/relationships/edges/lostbelt/lb2-gotterdammerung/relcand-lb2-surtr-sigurd.json",
+        "merged/relationships/edges/lostbelt/lb2-gotterdammerung/relcand-lb2-valkyrie-sisters.json"
+      ]
+    },
+    {
+      "issueId": "R37-BLOCK-003",
+      "description": "Formal relationship edges derived from relcand/candidate records needed source-backed formal basis and temporal evidence confirmation.",
+      "action": "Confirmed each formal merged relationship edge resolves to a candidate record with explicit sourceRefs and source-backed support/confidence, then anchored temporal evidence to existing merged events.",
+      "result": "All fourteen relationship edges are confirmable. No candidate-derived relationship required demotion or unresolved/blocking marking in this fixer pass. Candidate ids were preserved as existing edgeId values rather than renamed.",
+      "candidateSourceFiles": [
+        "extracted/lostbelt/lb1-anastasia/candidates/relationship-candidates.json",
+        "extracted/lostbelt/lb2-gotterdammerung/candidates/relationship-candidates.json"
+      ]
+    }
+  ],
+  "relationshipTemporalActions": [
+    {
+      "edgeId": "relcand-lb1-atalante-resistance-leader",
+      "timelineId": "fgo-lb1-anastasia",
+      "eventRefs": ["evt-fgo-lb1-C", "evt-fgo-lb1-U"],
+      "timeRangeRaw": "2018年4月5日—4月6日—2018年4月28日",
+      "candidateBasis": "source-backed-explicit-role-plus-events",
+      "sourceRefs": ["sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:36", "sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:65-66", "sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:128"]
+    },
+    {
+      "edgeId": "relcand-lb1-avicebron-resistance-chaldea",
+      "timelineId": "fgo-lb1-anastasia",
+      "eventRefs": ["evt-fgo-lb1-B", "evt-fgo-lb1-C", "evt-fgo-lb1-S"],
+      "timeRangeRaw": "2018年4月4日—4月5日—2018年4月25日—4月28日",
+      "candidateBasis": "source-backed-explicit-role-plus-events",
+      "sourceRefs": ["sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:36", "sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:61", "sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:65", "sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:120-122"]
+    },
+    {
+      "edgeId": "relcand-lb1-ivan-lostbelt-rule",
+      "timelineId": "fgo-lb1-anastasia",
+      "eventRefs": ["evt-fgo-lb1-A", "evt-fgo-lb1-P"],
+      "timeRangeRaw": "2018年4月4日 傍晚—2018年4月20日—4月22日",
+      "candidateBasis": "source-backed-explicit-role-plus-events",
+      "sourceRefs": ["sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:34", "sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:57", "sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:111-112"]
+    },
+    {
+      "edgeId": "relcand-lb1-kadoc-anastasia-master-servant",
+      "timelineId": "fgo-lb1-anastasia",
+      "eventRefs": ["evt-fgo-lb1-M", "evt-fgo-lb1-U"],
+      "timeRangeRaw": "2018年4月14日—2018年4月28日",
+      "candidateBasis": "source-backed-explicit-role-plus-events",
+      "sourceRefs": ["sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:25", "sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:33", "sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:100", "sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:128"]
+    },
+    {
+      "edgeId": "relcand-lb1-kirei-koyanskaya-chaldea-fall",
+      "timelineId": "fgo-lb1-anastasia",
+      "eventRefs": ["evt-fgo-lb1-A0", "evt-fgo-lb1-A1", "evt-fgo-lb1-A2"],
+      "timeRangeRaw": "2017年12月26日-27日—2017年12月31日",
+      "candidateBasis": "source-backed-events",
+      "sourceRefs": ["sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:44", "sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:49", "sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:53"]
+    },
+    {
+      "edgeId": "relcand-lb1-patsy-chaldea-guide",
+      "timelineId": "fgo-lb1-anastasia",
+      "eventRefs": ["evt-fgo-lb1-A", "evt-fgo-lb1-Q", "evt-fgo-lb1-U"],
+      "timeRangeRaw": "2018年4月4日 傍晚—2018年4月28日",
+      "candidateBasis": "source-backed-explicit-role-plus-events",
+      "sourceRefs": ["sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:35", "sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:57", "sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:114", "sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:128-130"]
+    },
+    {
+      "edgeId": "relcand-lb1-salieri-enemy-to-ally",
+      "timelineId": "fgo-lb1-anastasia",
+      "eventRefs": ["evt-fgo-lb1-L", "evt-fgo-lb1-N", "evt-fgo-lb1-T"],
+      "timeRangeRaw": "2018年4月12日—4月14日—2018年4月28日",
+      "candidateBasis": "source-backed-explicit-role-plus-events",
+      "sourceRefs": ["sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:37", "sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:96", "sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:104-105", "sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:124-126"]
+    },
+    {
+      "edgeId": "relcand-lb2-brynhildr-sigurd",
+      "timelineId": "fgo-lb2-gotterdammerung",
+      "eventRefs": ["evt-fgo-lb2-L", "evt-fgo-lb2-N", "evt-fgo-lb2-R"],
+      "timeRangeRaw": "2018年7月23日 傍晚至深夜—2018年7月24日 夜晚",
+      "candidateBasis": "source-backed-candidate",
+      "sourceRefs": ["sources/worldbook-script/lostbelt/ch-094-lb2-gotterdammerung.txt:82-83", "sources/worldbook-script/lostbelt/ch-094-lb2-gotterdammerung.txt:90-91", "sources/worldbook-script/lostbelt/ch-094-lb2-gotterdammerung.txt:104"]
+    },
+    {
+      "edgeId": "relcand-lb2-gerda-mash",
+      "timelineId": "fgo-lb2-gotterdammerung",
+      "eventRefs": ["evt-fgo-lb2-L"],
+      "timeRangeRaw": "2018年7月23日 傍晚至深夜",
+      "candidateBasis": "source-backed-candidate",
+      "sourceRefs": ["sources/worldbook-script/lostbelt/ch-094-lb2-gotterdammerung.txt:82-84"]
+    },
+    {
+      "edgeId": "relcand-lb2-ophelia-mash",
+      "timelineId": "fgo-lb2-gotterdammerung",
+      "eventRefs": ["evt-fgo-lb2-R"],
+      "timeRangeRaw": "2018年7月24日 夜晚",
+      "candidateBasis": "source-backed-candidate",
+      "sourceRefs": ["sources/worldbook-script/lostbelt/ch-094-lb2-gotterdammerung.txt:104-106"]
+    },
+    {
+      "edgeId": "relcand-lb2-ophelia-sigurd",
+      "timelineId": "fgo-lb2-gotterdammerung",
+      "eventRefs": ["evt-fgo-lb2-J", "evt-fgo-lb2-O"],
+      "timeRangeRaw": "2018年7月23日 早晨—2018年7月24日 下午",
+      "candidateBasis": "source-backed-candidate",
+      "sourceRefs": ["sources/worldbook-script/lostbelt/ch-094-lb2-gotterdammerung.txt:75-76", "sources/worldbook-script/lostbelt/ch-094-lb2-gotterdammerung.txt:94"]
+    },
+    {
+      "edgeId": "relcand-lb2-skadi-subjects",
+      "timelineId": "fgo-lb2-gotterdammerung",
+      "eventRefs": ["evt-fgo-lb2-G", "evt-fgo-lb2-S"],
+      "timeRangeRaw": "2018年7月22日 傍晚至深夜—2018年7月24日 傍晚至次日",
+      "candidateBasis": "source-backed-candidate",
+      "sourceRefs": ["sources/worldbook-script/lostbelt/ch-094-lb2-gotterdammerung.txt:64-65", "sources/worldbook-script/lostbelt/ch-094-lb2-gotterdammerung.txt:108-109"]
+    },
+    {
+      "edgeId": "relcand-lb2-surtr-sigurd",
+      "timelineId": "fgo-lb2-gotterdammerung",
+      "eventRefs": ["evt-fgo-lb2-N", "evt-fgo-lb2-O"],
+      "timeRangeRaw": "2018年7月24日 中午—2018年7月24日 下午",
+      "candidateBasis": "source-backed-candidate",
+      "sourceRefs": ["sources/worldbook-script/lostbelt/ch-094-lb2-gotterdammerung.txt:26", "sources/worldbook-script/lostbelt/ch-094-lb2-gotterdammerung.txt:90", "sources/worldbook-script/lostbelt/ch-094-lb2-gotterdammerung.txt:94"]
+    },
+    {
+      "edgeId": "relcand-lb2-valkyrie-sisters",
+      "timelineId": "fgo-lb2-gotterdammerung",
+      "eventRefs": ["evt-fgo-lb2-K", "evt-fgo-lb2-M"],
+      "timeRangeRaw": "2018年7月23日 中午—2018年7月24日 早晨",
+      "candidateBasis": "source-backed-candidate",
+      "sourceRefs": ["sources/worldbook-script/lostbelt/ch-094-lb2-gotterdammerung.txt:78", "sources/worldbook-script/lostbelt/ch-094-lb2-gotterdammerung.txt:86-88"]
+    }
+  ],
+  "graphIndexDecision": {
+    "relationshipEdgeIndexPath": "graph/relationship-edge-index.json",
+    "action": "not-created-or-updated",
+    "reason": "No graph/relationship-edge-index.json existed in this pilot. Existing graph/index.json already references the relationship edge directories and edge counts; adding per-edge temporal fields did not change edge references or counts. Creating a new graph relationship-edge-index was not necessary for r37 repair scope."
+  },
+  "filesChanged": [
+    "merged/events/lostbelt/lb2-gotterdammerung/evt-fgo-lb2-Q.json",
+    "merged/events/lostbelt/lb2-gotterdammerung/evt-fgo-lb2-R.json",
+    "merged/events/lostbelt/lb2-gotterdammerung/evt-fgo-lb2-S.json",
+    "merged/relationships/edges/lostbelt/lb1-anastasia/relcand-lb1-atalante-resistance-leader.json",
+    "merged/relationships/edges/lostbelt/lb1-anastasia/relcand-lb1-avicebron-resistance-chaldea.json",
+    "merged/relationships/edges/lostbelt/lb1-anastasia/relcand-lb1-ivan-lostbelt-rule.json",
+    "merged/relationships/edges/lostbelt/lb1-anastasia/relcand-lb1-kadoc-anastasia-master-servant.json",
+    "merged/relationships/edges/lostbelt/lb1-anastasia/relcand-lb1-kirei-koyanskaya-chaldea-fall.json",
+    "merged/relationships/edges/lostbelt/lb1-anastasia/relcand-lb1-patsy-chaldea-guide.json",
+    "merged/relationships/edges/lostbelt/lb1-anastasia/relcand-lb1-salieri-enemy-to-ally.json",
+    "merged/relationships/edges/lostbelt/lb2-gotterdammerung/relcand-lb2-brynhildr-sigurd.json",
+    "merged/relationships/edges/lostbelt/lb2-gotterdammerung/relcand-lb2-gerda-mash.json",
+    "merged/relationships/edges/lostbelt/lb2-gotterdammerung/relcand-lb2-ophelia-mash.json",
+    "merged/relationships/edges/lostbelt/lb2-gotterdammerung/relcand-lb2-ophelia-sigurd.json",
+    "merged/relationships/edges/lostbelt/lb2-gotterdammerung/relcand-lb2-skadi-subjects.json",
+    "merged/relationships/edges/lostbelt/lb2-gotterdammerung/relcand-lb2-surtr-sigurd.json",
+    "merged/relationships/edges/lostbelt/lb2-gotterdammerung/relcand-lb2-valkyrie-sisters.json",
+    "audit/retrospective/lb1-lb2-fix-round-001.json"
+  ],
+  "preservation": {
+    "sourceRefs": "preserved on edited formal records",
+    "sourceType": "preserved on edited formal records",
+    "credibility": "preserved on edited formal records",
+    "canonStatus": "preserved on edited formal records"
+  },
+  "validationStatus": {
+    "method": "read-only file listings and text searches with read/grep/find/ls tools; no shell or executable validation was used",
+    "eventRawFieldCheck": "grep for triggerRaw found 24 LB1 merged event files and 19 LB2 merged event files after repair; completionRaw and summaryRaw were added to the same missing LB2 Q/R/S records and were already present on other grepped records.",
+    "relationshipTemporalCheck": "grep for timelineId and timeRangeRaw found all 14 merged relationship edge files after repair.",
+    "jsonParseCheck": "not run with executable validator due task restriction against shell/python/node/deno/powershell/cmd or executable scripts",
+    "graphIndexCheck": "graph/index.json read-only inspection showed edge directory references and counts only; no edge count/reference change required. graph/relationship-edge-index.json was absent and not necessary to create."
+  },
+  "unresolvedIssues": []
+}

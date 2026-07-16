@@ -1,0 +1,48 @@
+{
+  "_schema": "rp-item-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "item_id": "zahhak",
+  "volume": "vol-09",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-09/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-09",
+      "volume": "vol-09",
+      "time": "vol-09",
+      "name": {
+        "zh": "札哈克",
+        "en": "Zahhak"
+      },
+      "aliases": [
+        "神秘神装机龙"
+      ],
+      "type": "weapon / equipment",
+      "description": "身份不明机龙使使用的神装机龙，在盖达夫战中从夜空狙击后消失。",
+      "details": {
+        "category": "Divine Drag-Ride",
+        "pilot": "zahhak-pilot"
+      },
+      "owner": "zahhak-pilot",
+      "status": "active / unknown",
+      "features": [
+        "远距离狙击",
+        "身份隐藏"
+      ],
+      "associated_abilities": [
+        "zahhak-sniping"
+      ],
+      "history": [
+        {
+          "event_id": "mysterious-zahhak-shot",
+          "summary": "狙击盖达夫肩部，使路克斯抓住胜机。"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:6737"
+      ]
+    }
+  ]
+}

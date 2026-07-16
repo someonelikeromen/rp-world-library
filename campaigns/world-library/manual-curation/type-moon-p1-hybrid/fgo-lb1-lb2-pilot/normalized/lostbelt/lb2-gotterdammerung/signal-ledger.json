@@ -1,0 +1,20 @@
+{
+  "schema":"tm-fgo-normalized-signal-ledger-v1",
+  "recordType":"normalized_signal_ledger",
+  "chapterId":"fgo-lb2-gotterdammerung",
+  "appearanceSignalFile":"extracted/lostbelt/lb2-gotterdammerung/appearance-signals/appearance-signals.json",
+  "abilitySignalFile":"extracted/lostbelt/lb2-gotterdammerung/ability-signals/ability-signals.json",
+  "combatEffectSignalFile":"extracted/lostbelt/lb2-gotterdammerung/combat-effect-signals/combat-effect-signals.json",
+  "notFoundFile":"extracted/lostbelt/lb2-gotterdammerung/not-found-in-source/required-missing-details.json",
+  "coverage":{
+    "appearance":"present-plus-explicit-not-found",
+    "outfitEquipmentVisuals":"present-plus-explicit-not-found",
+    "noblePhantasmSkillMagecraftAuthorityActivation":"source-first activations extracted; unsupported formal external labels demoted to aliasCandidates or not-found records",
+    "combatEffects":"present-plus-explicit-not-found",
+    "notFoundRecords":"explicit records for missing visual/ability/combat fields"
+  },
+  "sourceRefs":["sources/worldbook-script/lostbelt/ch-094-lb2-gotterdammerung.txt:24-110"],
+  "sourceType":"user-file-worldbook-script",
+  "credibility":"B",
+  "canonStatus":"canon-like"
+}

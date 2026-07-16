@@ -1,0 +1,73 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "automata-telepathy",
+  "volume": "vol-17",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-17/full.txt:4800"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-17",
+      "volume": "vol-17",
+      "time": "罗菲阵营行动",
+      "name": {
+        "zh": "自动人形心灵通信",
+        "en": "Automata Telepathy"
+      },
+      "aliases": [
+        "纳米接收通信",
+        "心灵感应"
+      ],
+      "type": "technology",
+      "description": "罗菲体内纳米接收器和自动人形系统让她与阿榭立亚及其他领导者在数公里内直接通信并下令。",
+      "details": {
+        "operator": "ashaalia",
+        "range": "数公里半径"
+      },
+      "activation": {
+        "condition": "纳米接收器与自动人形系统连接",
+        "incantation": "",
+        "time": "即时",
+        "cost": "距离限制"
+      },
+      "effects": [
+        "远程下令",
+        "共享情报",
+        "协调自动人形行动"
+      ],
+      "power_level": {
+        "initial": "战术指挥级",
+        "peak": "可指挥七遗迹领导者执行肃清与侦查",
+        "evolution": []
+      },
+      "known_feats": [
+        {
+          "summary": "罗菲直接接收阿榭立亚思想并下达旧帝国派肃清命令。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-17/full.txt:4800"
+        }
+      ],
+      "shared_by": [
+        "roffe-atismata",
+        "ashaalia",
+        "la-krushe",
+        "ney-louches",
+        "liz-kran",
+        "yus-tork",
+        "lu-calia",
+        "el-fajel",
+        "li-prica"
+      ],
+      "see_also": [
+        "grand-sanctuary-operation"
+      ],
+      "countered_by": [],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-17/full.txt:4800"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "liliruca-arde",
+  "volume": "vol-11",
+  "time_range": { "start": "BD3短篇", "end": "BD7短篇" },
+  "sub_arcs": ["灰姑娘", "英雄挽歌"],
+  "periods": [
+    {
+      "period_id": "vol-11-bd3-soma-childhood-and-cinderella",
+      "volume": "vol-11",
+      "time": "BD3短篇 灰姑娘",
+      "label": "在苏摩眷族受虐并觉醒变身魔法",
+      "name": { "zh": "莉莉露卡·厄德", "en": "Liliruca Arde", "jp": "リリルカ・アーデ" },
+      "aliases": ["莉莉", "灰姑娘"],
+      "gender": "女",
+      "species": "小人族",
+      "occupation": "支援者、盗贼式支援者",
+      "affiliation": "苏摩眷族（当时）",
+      "status": { "level": "低阶眷族成员", "location": "欧拉丽、地下城", "state": "被苏摩眷族束缚，憎恨冒险者并为退团金行骗" },
+      "summary": "莉莉幼年被沉迷神酒的父母利用乞讨，父母死后在苏摩眷族中被忽视，只有苏摩曾给过她短暂温暖。桑尼斯用神酒操控眷族后，她被迫为了金钱进入地下城，又因弱小改当支援者并遭冒险者压榨。逃离眷族时收留她的花店老夫妇被牵连，莉莉被拒绝后彻底失去对他人的信任；十三岁觉醒【灰姑娘】后，她开始变身欺骗并抢夺冒险者，把贝尔视作可利用的新猎物。",
+      "key_events": [
+        { "event_id": "lili-endures-soma-familia-and-awakens-cinderella", "summary": "经历苏摩眷族神酒、支援者剥削、逃亡失败与【灰姑娘】觉醒。", "sourceRef": "danmachi-main/vol-11/full.txt:1025" }
+      ],
+      "abilities_owned": ["cinder-ella"],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-11/full.txt:1025-1566"]
+    },
+    {
+      "period_id": "vol-11-bd7-explains-elegy-festival",
+      "volume": "vol-11",
+      "time": "BD7短篇 英雄挽歌",
+      "label": "向贝尔说明挽歌祭",
+      "status": { "location": "巴别塔外中央广场", "state": "与贝尔、韦尔夫护送遗体回地面后参加挽歌祭" },
+      "summary": "莉莉与贝尔、韦尔夫协力讨伐杀死西莉亚的怪物并护送遗体返回。看到中央广场的烛火后，她向刚来欧拉丽不久的贝尔说明挽歌祭不仅悼念古代英雄，也吊唁现代在地下城死去的冒险者。",
+      "key_events": [
+        { "event_id": "elegy-festival-bell-avenges-celia-and-sees-ais-at-hero-grave", "summary": "参与护送遗体并说明挽歌祭的悼念意义。", "sourceRef": "danmachi-main/vol-11/full.txt:3460" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-11/full.txt:3460-3510"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-11/full.txt:1025-1566", "danmachi-main/vol-11/full.txt:3460-3510"]
+}

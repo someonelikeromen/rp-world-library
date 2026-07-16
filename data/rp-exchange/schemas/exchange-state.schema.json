@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "rp-exchange-state.schema.json",
+  "title": "RP Exchange State",
+  "type": "object",
+  "required": ["schema", "enabled", "owner", "currency", "unlockedEntries", "pendingExchanges", "completedExchanges", "transactions"],
+  "properties": {
+    "schema": { "const": "rp-exchange-state-v1" },
+    "enabled": { "type": "boolean" },
+    "owner": { "const": "protagonist-only" },
+    "mode": {
+      "type": "object",
+      "properties": {
+        "achievementIntegration": { "type": "boolean" },
+        "achievementRewardsConvertedToExchangePoints": { "type": "boolean" }
+      },
+      "additionalProperties": true
+    },
+    "currency": {
+      "type": "object",
+      "required": ["conversionRate", "balances", "lifetimeEarned", "lifetimeSpent"],
+      "properties": {
+        "conversionRate": { "type": "integer", "minimum": 1 },
+        "balances": { "type": "object", "additionalProperties": { "type": "integer", "minimum": 0 } },
+        "lifetimeEarned": { "type": "object", "additionalProperties": { "type": "integer", "minimum": 0 } },
+        "lifetimeSpent": { "type": "object", "additionalProperties": { "type": "integer", "minimum": 0 } }
+      },
+      "additionalProperties": true
+    },
+    "unlockedEntries": { "type": "array" },
+    "pendingExchanges": { "type": "array" },
+    "completedExchanges": { "type": "array" },
+    "transactions": { "type": "array" },
+    "sourceVerifications": { "type": "array" },
+    "panel": { "type": "object" },
+    "auditLog": { "type": "array" }
+  },
+  "additionalProperties": true
+}

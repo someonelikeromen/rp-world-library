@@ -1,0 +1,68 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "leviathan-water-control",
+  "volume": "vol-09",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-09/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-09",
+      "volume": "vol-09",
+      "time": "圣蚀事件",
+      "name": {
+        "zh": "利维坦水流操纵",
+        "en": "Leviathan Water Control"
+      },
+      "aliases": [],
+      "type": "technology / supernatural",
+      "description": "辛格伦神装机龙利维坦的能力，能操纵水形成水刃、水盾和高速水弹。",
+      "details": {
+        "used_by": "singlen",
+        "drag_ride": "leviathan"
+      },
+      "activation": {
+        "condition": "利维坦启动",
+        "incantation": "",
+        "time": "instant",
+        "cost": "机龙能量"
+      },
+      "effects": [
+        "水刃斩杀幻神兽",
+        "水盾防御",
+        "远距离高速水弹"
+      ],
+      "shared_by": [
+        "singlen"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:6737"
+      ]
+    },
+    {
+      "period_id": "vol-14",
+      "volume": "vol-14",
+      "time": "终焉神兽最终战",
+      "name": {
+        "zh": "利维坦水控制",
+        "en": "Leviathan Water Control"
+      },
+      "type": "supernatural / drag-ride divine raiment",
+      "description": "利维坦神装可自由改变水的状态。辛格伦将钻入天降魔星体内的大量水分瞬间汽化，以体积膨胀从内部爆破神兽。",
+      "shared_by": [
+        "singlen-shelbrit"
+      ],
+      "known_feats": [
+        "操纵水状态",
+        "水汽化体积膨胀爆破",
+        "兼具斩击与调律战技"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-14/full.txt:7300"
+      ]
+    }
+  ]
+}

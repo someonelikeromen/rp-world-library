@@ -1,0 +1,13 @@
+{
+  "schema":"tm-fgo-timeline-master-v1",
+  "timelineId":"tl-fgo-lostbelt-5-pilot",
+  "eventCount":60,
+  "chapters":["fgo-lb5-1-atlantis","fgo-lb5-2-olympos"],
+  "orderingPolicy":"Chapter order 5.1 then 5.2; within each chapter use source orderIndex/rawEventCode. Source raw date anomalies are preserved and not corrected.",
+  "anomalies":[
+    {"timelineId":"evt-lb5-1-C2","time_raw":"2016年12月26日 日间","policy":"preserved-source-first-not-corrected","sourceRefs":["sources/worldbook-script/lostbelt/ch-097-lb5-1-atlantis.txt:58-60"],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"},
+    {"timelineId":"evt-lb5-1-F","time_raw":"2018年12月28日 日间","policy":"preserved-source-first-not-corrected","sourceRefs":["sources/worldbook-script/lostbelt/ch-097-lb5-1-atlantis.txt:75-76"],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"},
+    {"timelineId":"evt-lb5-2-D3_5","rawEventCode":"事件D3.5","policy":"preserved-source-first-exact-decimal-code-not-renumbered","sourceRefs":["sources/worldbook-script/lostbelt/ch-098-lb5-2-olympos.txt:68-70"],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"}
+  ],
+  "sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"
+}

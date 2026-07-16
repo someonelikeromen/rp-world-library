@@ -1,0 +1,66 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "dragon-roar",
+  "volume": "vol-20",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-20/full.txt:2845"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-20",
+      "volume": "vol-20",
+      "time": "最终战",
+      "name": {
+        "zh": "机龙咆哮",
+        "en": "Drag-Ride Roar"
+      },
+      "aliases": [
+        "咆哮"
+      ],
+      "type": "drag-ride technique",
+      "description": "机龙从头部等部位释放冲击波的通用高等技术。",
+      "details": {
+        "use": "路克斯和弗基尔多次用其干扰对方机动，奥罗波若斯也以咆哮冲击联合军"
+      },
+      "activation": {
+        "condition": "机龙能量聚集",
+        "incantation": "机龙咆哮",
+        "time": "瞬时",
+        "cost": "能量消耗"
+      },
+      "effects": [
+        "冲击波",
+        "打断行动",
+        "击退目标"
+      ],
+      "power_level": {
+        "initial": "中高",
+        "peak": "奥罗波若斯级咆哮可贯穿多名机龙使防御",
+        "evolution": []
+      },
+      "known_feats": [
+        "弗基尔用咆哮反制路克斯",
+        "奥罗波若斯咆哮重创基地守军"
+      ],
+      "shared_by": [
+        "lux-arcadia",
+        "fugil-arcadia",
+        "automaton-arshalia"
+      ],
+      "see_also": [
+        "bahamut",
+        "ouroboros"
+      ],
+      "countered_by": [
+        "bahamut-gluttony"
+      ],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-20/full.txt:2845"
+      ]
+    }
+  ]
+}

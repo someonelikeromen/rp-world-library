@@ -1,0 +1,50 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "kaja-water-magic",
+  "volume": "vol-33",
+  "periods": [
+    {
+      "period_id": "vol-33",
+      "volume": "vol-33",
+      "time": "第三十三卷 花冠的归国兵",
+      "name": {
+        "zh": "厄水魔法",
+        "en": "water magic"
+      },
+      "aliases": [
+        "厄水魔女能力"
+      ],
+      "type": "magic / combat",
+      "description": "卡羯以含入口中的水或携带水壶为媒介发动的水系魔法。本卷她在会谈破局时含水准备攻击，但因突发烟雾弹呛到，后在追击中仍作为战斗准备。",
+      "details": {
+        "medium": "水壶或口中水",
+        "vol33_limitation": "突发烟雾弹导致水逆流呛到，未能在宴会厅发动。"
+      },
+      "activation": {
+        "condition": "水媒介",
+        "incantation": "",
+        "time": "instant",
+        "cost": "需保持水源"
+      },
+      "effects": [
+        "水弹/水枪式攻击",
+        "战斗牵制"
+      ],
+      "known_feats": [
+        "卡羯在燕峰阁会谈中准备发动"
+      ],
+      "shared_by": [
+        "kaja-glace"
+      ],
+      "see_also": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-33/chapters/ch-005-第三十三卷_花冠的归国兵_5弹_花冠的归国兵.txt:1"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-33/chapters/ch-005-第三十三卷_花冠的归国兵_5弹_花冠的归国兵.txt:1"
+  ]
+}

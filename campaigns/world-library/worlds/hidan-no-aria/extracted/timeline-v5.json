@@ -1,0 +1,1256 @@
+{
+  "_meta": {
+    "total_events": 60,
+    "validation_status": "v5",
+    "volumes_covered": [
+      "vol-06",
+      "vol-07",
+      "vol-08",
+      "vol-09",
+      "vol-10"
+    ],
+    "vol_07_range": "2009-09-15 ~ 2009-10-01",
+    "season": "夏末至深秋（8月底暑假结束~11月中旬）",
+    "key_calendar_anchors": [
+      "roof-goodbye=8月31日（vol-05结尾，vol-06起点）",
+      "开学典礼=9月1日（原文标注）",
+      "京都校外教学=9月14日（原文标注）",
+      "希望246号劫持=9月22日18:02（原文标注）",
+      "小队登记截止=9月23日23:59（原文标注）",
+      "宣战会议=10月1日00:00（原文标注十月一日子时）",
+      "文化祭第一天=10月30日（vol-09原文标注十月三十日）",
+      "转学申请=10月31日深夜（vol-09原文标注十月三十一日深夜）",
+      "万圣节改期=11月2日（vol-10原文标注：因为十月底是休假的关系）",
+      "白雪生日/HSS觉醒=11月14日（vol-10原文标注十一月十四日）"
+    ],
+    "precision_notes": "vol-06/07日历锚点来自原文精确标注。vol-08无精确日期→基于宣战会议（10/1）和文化祭（10/30）之间推算。高院判决与天空树事件推定10月20日前后（距文化祭约10天）。vol-09文化祭为精确day级（10/30-31）。vol-10以11/14为精确锚点反向推算。中间事件基于事件间因果关系推算为estimated精度。",
+    "cross_volume_arcs": [
+      "极东战役开幕弧（vol-08~vol-10）：go-for-next-conference→壳金被夺→希尔达战→文化祭→G血族袭击→金女HSS→临时姐妹冲突",
+      "壳金七星回收弧（vol-08~）：五颗壳金被眷属夺走→玉藻说明→希尔达战后回收一枚→剩余四颗待回收",
+      "G血族/HSS弧（vol-09~vol-10）：GⅢ/GⅣ登场→金女命名→女性HSS揭示→双极兄妹理论破产",
+      "转学线（vol-09）：金次确认转学意向→提交申请→以极东战役为引退前最后任务"
+    ],
+    "date_range": "2009-08-31 ~ 2009-11-14",
+    "critical_nodes": [
+      "reki-last-bullet-liberation: 蕾姬从风命令中解放、'光驱者'命名",
+      "baskerville-registration: 巴斯克维尔小队正式成立（金次/亚莉亚/蕾姬/白雪/理子+艾马基）",
+      "aria-bitten-shells-stolen: 壳金七星五颗被夺——极东战役的真正开场",
+      "skytree-duel: 金次发展出螺旋偏弹技术",
+      "sky-tree-hilda-showdown: 希尔达败北，巴斯克维尔首次击败眷属要角",
+      "kaname-naming: 金女从产品编号GⅣ变为拥有名字的人类远山金女",
+      "kaname-hss-awakening: 揭示女性HSS是保护型（非战斗型）→双极兄妹理论破产",
+      "temporary-sisters-showdown: 白雪与金女姐妹/未婚妻身份冲突，vol-10卷末对峙"
+    ],
+    "vol_08_range": "2009-10-01 ~ 2009-10-21",
+    "causal_chains": [
+      "roof-goodbye → reki-human-hunt-proposal → opening-ceremony-squad-talk → caocao-first-ambush → aria-reki-station-clash → reki-investigation → equipment-upgrade → kyoto-field-trip → chaton-date → inn-hachinoko → inn-sniper-ambush → forest-sniper-duel → kinji-carries-reki → caocao-road-confrontation → hoshiga-rescue → reki-princess-revelation → reki-star-shrine-treatment",
+      "urus-riri-revelation → aria-love-consultation → hope-246-hijacking → shinkansen-rooftop-battle → train-decoupling → train-bomb-disposal → caocao-sisters-defeat → reki-last-bullet-liberation → reki-post-wind-conversation → aria-birthday-ring → baskerville-registration → go-for-next-invitation → go-for-next-conference",
+      "go-for-next-conference → aria-bitten-shells-stolen → hihiirokane-briefing → butei-costume-diner-prep → kanae-high-court-sentencing → hilda-attacks-escort-convoy → watson-arrival-icbm → watson-aria-restaurant-surveillance → watson-abducts-aria → skytree-duel → watson-reveals-female-and-alliance → sky-tree-hilda-showdown → riko-icu-recovery → watson-secret-rehabilitation → tamamo-extreme-east-war-briefing → butei-high-culture-festival-day-one → aria-kinji-culture-festival-date → baskerville-butei-hotpot-party → kinji-transfer-application → g-bloodline-ambush → baskerville-ambush → teatro-aqua-rescue → hospital-rearmament → legion-council-g3-g4 → kaname-naming → kaname-cohabitation → watson-rehab-incident → aria-rooftop-kiss → kaname-hss-awakening → temporary-sisters-showdown"
+    ],
+    "vol_06_range": "2009-08-31 ~ 2009-09-15",
+    "vol_10_range": "2009-10-31 ~ 2009-11-14",
+    "main_characters_tracked": [
+      "kinji",
+      "aria",
+      "reki",
+      "riko",
+      "shirayuki",
+      "jeanne",
+      "l-watson",
+      "tooyama-kaname",
+      "g3",
+      "hilda",
+      "tamamo",
+      "meiya-romano",
+      "cao-cao",
+      "cao-cao-melee",
+      "cao-cao-gunner",
+      "cao-cao-sniper",
+      "kazayuki",
+      "ayaka-hiraga",
+      "muto",
+      "shiranuhi",
+      "fuma-hina",
+      "saori-innkeeper",
+      "nakasorachi-misaki",
+      "emaki",
+      "makieda",
+      "petra",
+      "kanae",
+      "kanzaki-kanae",
+      "kage-glasse",
+      "zhuge-jingxuan",
+      "loo-pilot",
+      "ranbyou",
+      "tokito-julia",
+      "yatoro-irin"
+    ],
+    "vol_09_range": "2009-10-21 ~ 2009-10-31"
+  },
+  "world": "hidan-no-aria",
+  "calendar": {
+    "system": "公历",
+    "anchor": "2009年"
+  },
+  "_schema": "rp-timeline-v1",
+  "events": [
+    {
+      "outcome": "hihiirokane-briefing",
+      "event_type": "main",
+      "event_id": "aria-bitten-shells-stolen",
+      "time_span": {
+        "reasoning": "宣战会议中→亚莉亚闯入并攻击LOO引发混战→希尔达从影中制住亚莉亚咬颈→以绯色牙齿剥离壳金七星→五颗被眷属夺走、玉藻/梅雅/贞德仅抢回两颗。vol-08原文标注'秋季夜晚'，紧接宣战会议。",
+        "start": "2009-10-01T01:30:00",
+        "end": "2009-10-01T02:00:00",
+        "precision": "estimated",
+        "duration_display": "约30分钟"
+      },
+      "volume": "vol-08",
+      "participant_ids": [
+        "aria",
+        "kinji",
+        "hilda",
+        "tamamo",
+        "meiya-romano",
+        "jeanne",
+        "reki",
+        "kage-glasse",
+        "zhuge-jingxuan",
+        "petra",
+        "loo-pilot"
+      ],
+      "nodes": [
+        {
+          "timestamp": "2009-10-01T01:35:00",
+          "participants": [
+            "aria",
+            "kinji",
+            "reki",
+            "jeanne",
+            "loo-pilot"
+          ],
+          "node_id": "aria-bitten-shells-stolen.aria-crashes",
+          "label": "亚莉亚闯入宣战会议→攻击LOO→引发混战→蕾姬狙击无效"
+        },
+        {
+          "timestamp": "2009-10-01T01:50:00",
+          "participants": [
+            "hilda",
+            "aria",
+            "kinji",
+            "tamamo",
+            "meiya-romano",
+            "jeanne",
+            "reki",
+            "kage-glasse",
+            "zhuge-jingxuan",
+            "petra"
+          ],
+          "node_id": "aria-bitten-shells-stolen.bite",
+          "label": "希尔达从影中制住亚莉亚→咬颈剥离壳金→绯色光球分裂→玉藻/梅雅/贞德回收两颗→其余被眷属夺走"
+        }
+      ],
+      "label": "希尔达咬伤亚莉亚并夺走壳金——极东战役开幕",
+      "cause": "go-for-next-conference"
+    },
+    {
+      "outcome": "butei-costume-diner-prep",
+      "event_type": "main",
+      "event_id": "hihiirokane-briefing",
+      "time_span": {
+        "reasoning": "金次背昏迷亚莉亚回宿舍后→玉藻说明绯绯色金通过心系侵蚀人心、壳金七星原理、需重夺五颗壳金→梅雅确认亚莉亚无生命危险。vol-08原文'秋季深夜'。",
+        "start": "2009-10-01T02:00:00",
+        "end": "2009-10-01T03:00:00",
+        "precision": "estimated",
+        "duration_display": "约1小时"
+      },
+      "volume": "vol-08",
+      "participant_ids": [
+        "kinji",
+        "tamamo",
+        "meiya-romano",
+        "aria"
+      ],
+      "nodes": [
+        {
+          "timestamp": "2009-10-01T02:15:00",
+          "participants": [
+            "tamamo",
+            "kinji",
+            "meiya-romano",
+            "aria"
+          ],
+          "node_id": "hihiirokane-briefing.tamamo",
+          "label": "玉藻说明色金法系与心系→绯绯神七百年前灾祸→壳金只剩两颗→需百年兼容期重造→夺回五颗壳金是必须的"
+        }
+      ],
+      "label": "玉藻说明绯绯色金与壳金七星——亚莉亚的危机",
+      "cause": "aria-bitten-shells-stolen"
+    },
+    {
+      "outcome": "kanae-high-court-sentencing",
+      "event_type": "main",
+      "event_id": "butei-costume-diner-prep",
+      "time_span": {
+        "reasoning": "文化祭准备期，vol-08原文'秋季文化祭准备期'。十月三十日文化祭开幕前约两周→抽签→制作服装→平贺交付大蛇手套→金次与亚莉亚阳台谈话。推定10月中旬。",
+        "start": "2009-10-15T15:00:00",
+        "end": "2009-10-15T21:00:00",
+        "precision": "estimated",
+        "duration_display": "约6小时（放学后至深夜）"
+      },
+      "volume": "vol-08",
+      "participant_ids": [
+        "kinji",
+        "aria",
+        "riko",
+        "shirayuki",
+        "reki",
+        "jeanne",
+        "muto",
+        "fuma-hina",
+        "ayaka-hiraga"
+      ],
+      "nodes": [
+        {
+          "timestamp": "2009-10-15T16:00:00",
+          "participants": [
+            "kinji",
+            "aria",
+            "riko",
+            "shirayuki",
+            "reki",
+            "jeanne",
+            "muto",
+            "fuma-hina",
+            "ayaka-hiraga"
+          ],
+          "node_id": "butei-costume-diner-prep.lottery",
+          "label": "体育馆抽签：金次警官、亚莉亚小学生、白雪教师、理子西部枪手、蕾姬研究所职员、贞德服务生→众人熬夜制作服装"
+        },
+        {
+          "timestamp": "2009-10-15T20:00:00",
+          "participants": [
+            "kinji",
+            "ayaka-hiraga",
+            "aria"
+          ],
+          "node_id": "butei-costume-diner-prep.orochi",
+          "label": "平贺交付为螺旋偏弹订制的右手露指手套'大蛇'→金次与亚莉亚阳台交谈望见天空树"
+        }
+      ],
+      "label": "变装食堂抽签与服装准备——大蛇手套交付",
+      "cause": "hihiirokane-briefing"
+    },
+    {
+      "outcome": "hilda-attacks-escort-convoy",
+      "event_type": "main",
+      "event_id": "kanae-high-court-sentencing",
+      "time_span": {
+        "reasoning": "vol-08原文'秋季白天'，东京高等法院第800号庭。vol-08 ch3开头即为判决。文化祭前约10天。原文提及'上个月'指9月事件，确认为10月。",
+        "start": "2009-10-20T10:00:00",
+        "end": "2009-10-20T11:00:00",
+        "precision": "estimated",
+        "duration_display": "约1小时"
+      },
+      "volume": "vol-08",
+      "participant_ids": [
+        "kanzaki-kanae",
+        "aria",
+        "kinji",
+        "riko"
+      ],
+      "nodes": [
+        {
+          "timestamp": "2009-10-20T10:30:00",
+          "participants": [
+            "kanzaki-kanae",
+            "aria",
+            "kinji",
+            "riko"
+          ],
+          "node_id": "kanae-high-court-sentencing.verdict",
+          "label": "法官宣读536年刑期→金次疑证据薄弱→亚莉亚大喊不当判决→香苗感谢二人后被带离"
+        }
+      ],
+      "label": "神崎香苗高院败诉——有期徒刑536年",
+      "cause": "butei-costume-diner-prep"
+    },
+    {
+      "outcome": "watson-arrival-icbm",
+      "event_type": "main",
+      "event_id": "hilda-attacks-escort-convoy",
+      "time_span": {
+        "reasoning": "香苗离开高院后→希尔达以高压电和影子突袭六本木押送车队→金次和亚莉亚被电流制住→理子赶来但被诱导失去斗志。紧接法院判决后。",
+        "start": "2009-10-20T11:00:00",
+        "end": "2009-10-20T12:00:00",
+        "precision": "estimated",
+        "duration_display": "约1小时"
+      },
+      "volume": "vol-08",
+      "participant_ids": [
+        "hilda",
+        "kinji",
+        "aria",
+        "riko",
+        "kanzaki-kanae"
+      ],
+      "nodes": [
+        {
+          "timestamp": "2009-10-20T11:30:00",
+          "participants": [
+            "hilda",
+            "kinji",
+            "aria",
+            "riko",
+            "kanzaki-kanae"
+          ],
+          "node_id": "hilda-attacks-escort-convoy.ambush",
+          "label": "车队遭高压电击中停摆→希尔达从影中现身→金次/亚莉亚冲锋被电流制住→理子被希尔达眼神诱导失去斗志"
+        }
+      ],
+      "label": "希尔达袭击香苗押送车队——高压电与暗影",
+      "cause": "kanae-high-court-sentencing"
+    },
+    {
+      "outcome": "watson-aria-restaurant-surveillance",
+      "event_type": "main",
+      "event_id": "watson-arrival-icbm",
+      "time_span": {
+        "reasoning": "希尔达袭击持续中→标有Polaris 05的白银ICBM坠落般抵达→L·华生现身以镀银十字箔剑和银弹逼退希尔达→自称亚莉亚未婚夫。",
+        "start": "2009-10-20T12:00:00",
+        "end": "2009-10-20T12:30:00",
+        "precision": "estimated",
+        "duration_display": "约30分钟"
+      },
+      "volume": "vol-08",
+      "participant_ids": [
+        "l-watson",
+        "aria",
+        "kinji",
+        "hilda",
+        "riko",
+        "kanzaki-kanae"
+      ],
+      "nodes": [
+        {
+          "timestamp": "2009-10-20T12:15:00",
+          "participants": [
+            "l-watson",
+            "aria",
+            "kinji",
+            "hilda",
+            "riko",
+            "kanzaki-kanae"
+          ],
+          "node_id": "watson-arrival-icbm.landing",
+          "label": "Polaris 05 ICBM落地→华生现身以坎特伯雷十字银剑和银弹逼退希尔达→向金次宣称亚莉亚是未婚妻"
+        }
+      ],
+      "label": "华生乘白银ICBM登场——亚莉亚未婚夫现身",
+      "cause": "hilda-attacks-escort-convoy"
+    },
+    {
+      "outcome": "watson-abducts-aria",
+      "event_type": "main",
+      "event_id": "watson-aria-restaurant-surveillance",
+      "time_span": {
+        "reasoning": "vol-08原文'秋季傍晚'→贞德委托中空知用极指向性雷射麦克风从三公里外监听日航东京饭店包厢→华生劝亚莉亚考虑婚约并以华生家资源影响母亲审判为筹码。同日傍晚。",
+        "start": "2009-10-20T17:00:00",
+        "end": "2009-10-20T19:00:00",
+        "precision": "estimated",
+        "duration_display": "约2小时"
+      },
+      "volume": "vol-08",
+      "participant_ids": [
+        "kinji",
+        "jeanne",
+        "nakasorachi-misaki",
+        "l-watson",
+        "aria"
+      ],
+      "nodes": [
+        {
+          "timestamp": "2009-10-20T18:00:00",
+          "participants": [
+            "kinji",
+            "jeanne",
+            "nakasorachi-misaki",
+            "l-watson",
+            "aria"
+          ],
+          "node_id": "watson-aria-restaurant-surveillance.monitor",
+          "label": "中空知在宿舍屋顶用雷射麦克风捕捉饭店包厢对话→贞德说明华生外号西欧忍者→金次听到华生以母亲审判施压→情绪失控进入狂怒爆发"
+        }
+      ],
+      "label": "中空知窃听华生与亚莉亚会谈——华生以母亲审判施压",
+      "cause": "watson-arrival-icbm"
+    },
+    {
+      "outcome": "skytree-duel",
+      "event_type": "main",
+      "event_id": "watson-abducts-aria",
+      "time_span": {
+        "reasoning": "vol-08原文'秋季夜晚'→华生在餐厅麻醉亚莉亚→开保时捷911带往押上东京天空树工地→中空知追踪导航暴露目的地→金次取备用弹匣和大蛇手套追踪。",
+        "start": "2009-10-20T19:00:00",
+        "end": "2009-10-20T20:30:00",
+        "precision": "estimated",
+        "duration_display": "约1.5小时"
+      },
+      "volume": "vol-08",
+      "participant_ids": [
+        "l-watson",
+        "aria",
+        "kinji",
+        "nakasorachi-misaki",
+        "jeanne"
+      ],
+      "nodes": [
+        {
+          "timestamp": "2009-10-20T19:30:00",
+          "participants": [
+            "l-watson",
+            "aria",
+            "kinji",
+            "nakasorachi-misaki",
+            "jeanne"
+          ],
+          "node_id": "watson-abducts-aria.drug",
+          "label": "华生让亚莉亚服麻醉药物→开车带往天空树→中空知报告生命征象异常→车载导航暴露目的地押上1-1-2"
+        }
+      ],
+      "label": "华生药倒亚莉亚并带往天空树——狂怒爆发追踪",
+      "cause": "watson-aria-restaurant-surveillance"
+    },
+    {
+      "outcome": "watson-reveals-female-and-alliance",
+      "event_type": "main",
+      "event_id": "skytree-duel",
+      "time_span": {
+        "reasoning": "vol-08原文'秋季夜晚'→金次到达建设中的东京天空树→与华生枪剑近战→华生注射NEBULA并偷弹匣→金次被逼至高空边缘→借螺旋气流偏弹'螺旋'→救下坠落的华生。本卷标题事件。",
+        "start": "2009-10-20T20:30:00",
+        "end": "2009-10-20T22:00:00",
+        "precision": "estimated",
+        "duration_display": "约1.5小时"
+      },
+      "volume": "vol-08",
+      "participant_ids": [
+        "kinji",
+        "l-watson",
+        "aria"
+      ],
+      "nodes": [
+        {
+          "timestamp": "2009-10-20T21:00:00",
+          "participants": [
+            "kinji",
+            "l-watson",
+            "aria"
+          ],
+          "node_id": "skytree-duel.climb",
+          "label": "金次抵达天空树→华生说明给亚莉亚用药→双方枪剑近战→华生使用SIG P226R和十字剑"
+        },
+        {
+          "timestamp": "2009-10-20T21:45:00",
+          "participants": [
+            "kinji",
+            "l-watson"
+          ],
+          "node_id": "skytree-duel.spiral",
+          "label": "华生注射NEBULA并偷走金次弹匣→金次被逼至高空边缘→借螺旋结构和上升气流创造空手偏弹'螺旋'→挡开致命一发→救下坠落华生"
+        }
+      ],
+      "label": "东京天空树高空决斗——螺旋偏弹诞生",
+      "cause": "watson-abducts-aria"
+    },
+    {
+      "outcome": "sky-tree-hilda-showdown",
+      "event_type": "main",
+      "event_id": "watson-reveals-female-and-alliance",
+      "time_span": {
+        "reasoning": "天空树决斗后→金次发现华生为女扮男装转装生→华生说明被当作男性养育、华生家与福尔摩斯家密约、自由石匠衰退→承认败北并承诺撤回让自由石匠加入眷属的建议。vol-08结尾。",
+        "start": "2009-10-20T22:00:00",
+        "end": "2009-10-20T22:30:00",
+        "precision": "estimated",
+        "duration_display": "约30分钟"
+      },
+      "volume": "vol-08",
+      "participant_ids": [
+        "kinji",
+        "l-watson"
+      ],
+      "nodes": [
+        {
+          "timestamp": "2009-10-20T22:15:00",
+          "participants": [
+            "kinji",
+            "l-watson"
+          ],
+          "node_id": "watson-reveals-female-and-alliance.reveal",
+          "label": "金次发现华生是转装生→华生坦白被当作男性养育→婚约目的是将亚莉亚纳入华生家→自由石匠贵族责任→转为金次一方临时盟友"
+        }
+      ],
+      "label": "华生女性身份揭露与赎罪承诺——转装生的真相",
+      "cause": "skytree-duel"
+    },
+    {
+      "outcome": "riko-icu-recovery-and-hilda-transfusion",
+      "event_type": "main",
+      "event_id": "sky-tree-hilda-showdown",
+      "time_span": {
+        "reasoning": "vol-09 ch1紧接vol-08天空树决斗→华生被希尔达雷球击倒→金次登上第二观景台→理子被希尔达以毒蛇耳环支配→理子反抗并破坏变压器→三人联手击败希尔达第三型态。",
+        "start": "2009-10-20T22:30:00",
+        "end": "2009-10-21T02:00:00",
+        "precision": "estimated",
+        "duration_display": "约3.5小时"
+      },
+      "volume": "vol-09",
+      "participant_ids": [
+        "kinji",
+        "aria",
+        "riko",
+        "hilda",
+        "l-watson"
+      ],
+      "nodes": [
+        {
+          "timestamp": "2009-10-20T23:00:00",
+          "participants": [
+            "kinji",
+            "l-watson",
+            "hilda"
+          ],
+          "node_id": "sky-tree-hilda-showdown.watson-down",
+          "label": "华生被希尔达球状雷电击中倒地→交出银剑、法化银弹和NEBULA→金次登上第二观景台"
+        },
+        {
+          "timestamp": "2009-10-21T00:30:00",
+          "participants": [
+            "riko",
+            "hilda",
+            "kinji",
+            "aria"
+          ],
+          "node_id": "sky-tree-hilda-showdown.riko-resist",
+          "label": "理子伪装的'亚莉亚'诱捕金次→真正亚莉亚被束缚→理子反抗希尔达支配→炸毁棺材变压器→以双刀双枪压制希尔达"
+        },
+        {
+          "timestamp": "2009-10-21T01:30:00",
+          "participants": [
+            "kinji",
+            "aria",
+            "riko",
+            "hilda",
+            "l-watson"
+          ],
+          "node_id": "sky-tree-hilda-showdown.defeat",
+          "label": "金次子弹回射四点攻击→发现假魔脏→希尔达引雷进入第三型态→理子用花束中霰弹枪覆盖全身击破真魔脏→希尔达坠落"
+        }
+      ],
+      "label": "天空树希尔达决战——紫电魔女讨伐战",
+      "cause": "watson-reveals-female-and-alliance"
+    },
+    {
+      "outcome": "watson-secret-rehabilitation-training",
+      "event_type": "main",
+      "event_id": "riko-icu-recovery-and-hilda-transfusion",
+      "time_span": {
+        "reasoning": "vol-09 ch3'与华生及希尔达连续两场战斗后的隔天早晨'→华生紧急治疗理子并送入武侦医院→矢常吕依琳协助解毒→理子主动为稀有血型希尔达输血→双方存活。",
+        "start": "2009-10-21T08:00:00",
+        "end": "2009-10-21T14:00:00",
+        "precision": "estimated",
+        "duration_display": "约6小时"
+      },
+      "volume": "vol-09",
+      "participant_ids": [
+        "riko",
+        "l-watson",
+        "hilda",
+        "kinji",
+        "aria",
+        "yatoro-irin"
+      ],
+      "nodes": [
+        {
+          "timestamp": "2009-10-21T11:00:00",
+          "participants": [
+            "riko",
+            "l-watson",
+            "yatoro-irin",
+            "kinji",
+            "aria"
+          ],
+          "node_id": "riko-icu-recovery-and-hilda-transfusion.recovery",
+          "label": "理子一度心肺停止→华生用药维持生命→救护直升机送武侦医院→矢常吕完成解毒→理子苏醒"
+        },
+        {
+          "timestamp": "2009-10-21T13:00:00",
+          "participants": [
+            "riko",
+            "hilda",
+            "l-watson",
+            "kinji",
+            "aria"
+          ],
+          "node_id": "riko-icu-recovery-and-hilda-transfusion.transfusion",
+          "label": "希尔达Klasies-river B型血不足→理子同血型主动伸手允许抽血→希尔达获救→理子确认获得自由→华生取得魔脏组织样本"
+        }
+      ],
+      "label": "理子ICU复苏与希尔达输血——从支配中解放",
+      "cause": "sky-tree-hilda-showdown"
+    },
+    {
+      "outcome": "tamamo-extreme-east-war-briefing",
+      "event_type": "main",
+      "event_id": "watson-secret-rehabilitation-training",
+      "time_span": {
+        "reasoning": "希尔达战后数日→华生在美术器材室请金次保密女性身份→试图休克疗法克服创伤→金次HSS下温柔收束→华生说明自由石匠加入师团→交出壳金结晶→成为巴斯克维尔卫生武侦协力者。文化祭前约5天。",
+        "start": "2009-10-25T15:00:00",
+        "end": "2009-10-25T16:30:00",
+        "precision": "estimated",
+        "duration_display": "约1.5小时"
+      },
+      "volume": "vol-09",
+      "participant_ids": [
+        "kinji",
+        "l-watson"
+      ],
+      "nodes": [
+        {
+          "timestamp": "2009-10-25T15:30:00",
+          "participants": [
+            "kinji",
+            "l-watson"
+          ],
+          "node_id": "watson-secret-rehabilitation-training.secret",
+          "label": "华生带金次到器材室→坦白女性身份与童年训练创伤→提出复健训练交换保密→金次进入HSS后温柔收束"
+        },
+        {
+          "timestamp": "2009-10-25T16:00:00",
+          "participants": [
+            "kinji",
+            "l-watson"
+          ],
+          "node_id": "watson-secret-rehabilitation-training.contract",
+          "label": "华生说明自由石匠总会决定加入师团→以希尔达魔脏组织为酬劳→交出壳金结晶→签署巴斯克维尔卫生武侦契约"
+        }
+      ],
+      "label": "华生性别秘密与复健训练——成为巴斯克维尔卫生武侦",
+      "cause": "riko-icu-recovery-and-hilda-transfusion"
+    },
+    {
+      "outcome": "butei-high-culture-festival-day-one",
+      "event_type": "main",
+      "event_id": "tamamo-extreme-east-war-briefing",
+      "time_span": {
+        "reasoning": "vol-09 ch4前'过了几天之后——十月三十日'的几天前→玉藻以文化祭参观为名回到学园岛→向白雪说明战役与壳金危机→夜间向亚莉亚单独说明→将一枚回收壳金放回亚莉亚体内。推定文化祭前两天。",
+        "start": "2009-10-28T15:00:00",
+        "end": "2009-10-28T21:00:00",
+        "precision": "estimated",
+        "duration_display": "约6小时"
+      },
+      "volume": "vol-09",
+      "participant_ids": [
+        "tamamo",
+        "kinji",
+        "shirayuki",
+        "aria"
+      ],
+      "nodes": [
+        {
+          "timestamp": "2009-10-28T16:00:00",
+          "participants": [
+            "tamamo",
+            "kinji",
+            "shirayuki"
+          ],
+          "node_id": "tamamo-extreme-east-war-briefing.shirayuki",
+          "label": "玉藻在SSR向白雪说明师团与眷属的极东战役→壳金七星→远山与星伽分尽职责→白雪表态守护金次参战"
+        },
+        {
+          "timestamp": "2009-10-28T20:00:00",
+          "participants": [
+            "tamamo",
+            "aria",
+            "kinji"
+          ],
+          "node_id": "tamamo-extreme-east-war-briefing.aria",
+          "label": "玉藻夜间约亚莉亚单独说明→回收壳金放回左胸→告知四名眷属目标→对齐战役期限至母亲最高法院审判"
+        }
+      ],
+      "label": "玉藻说明极东战役与壳金危机——白雪参战宣言",
+      "cause": "watson-secret-rehabilitation-training"
+    },
+    {
+      "outcome": "aria-kinji-culture-festival-date",
+      "event_type": "main",
+      "event_id": "butei-high-culture-festival-day-one",
+      "time_span": {
+        "reasoning": "vol-09 ch4原文明确'十月三十日'→金次参与变装食堂→兰豹安排厨房→白雪领导管理接待→中空知服务失误引发误会→贞德被学妹称赞可爱。",
+        "start": "2009-10-30T09:00:00",
+        "end": "2009-10-30T17:00:00",
+        "precision": "day",
+        "duration_display": "约8小时"
+      },
+      "volume": "vol-09",
+      "participant_ids": [
+        "kinji",
+        "aria",
+        "riko",
+        "shirayuki",
+        "reki",
+        "jeanne",
+        "muto",
+        "ayaka-hiraga",
+        "ranbyou",
+        "nakasorachi-misaki"
+      ],
+      "nodes": [
+        {
+          "timestamp": "2009-10-30T12:00:00",
+          "participants": [
+            "kinji",
+            "aria",
+            "riko",
+            "shirayuki",
+            "reki",
+            "jeanne",
+            "muto",
+            "ayaka-hiraga",
+            "ranbyou",
+            "nakasorachi-misaki"
+          ],
+          "node_id": "butei-high-culture-festival-day-one.costume",
+          "label": "兰豹嫌金次警官装眼神阴沉赶下厨房→金次用兰豹秘密账号暗示换到大厅接客→白雪以领导能力稳定混乱"
+        }
+      ],
+      "label": "武侦高中文化祭第一天——变装食堂开幕",
+      "cause": "tamamo-extreme-east-war-briefing"
+    },
+    {
+      "outcome": "baskerville-butei-hotpot-party",
+      "event_type": "main",
+      "event_id": "aria-kinji-culture-festival-date",
+      "time_span": {
+        "reasoning": "vol-09 ch5'文化祭第二天'→十月三十一日→亚莉亚主动让金次陪逛校庆→鬼屋→帮助迷路小女孩→贵希章鱼烧→互相喂食→亚莉亚态度明显柔软→金次确认参战至明年三月。",
+        "start": "2009-10-31T10:00:00",
+        "end": "2009-10-31T13:00:00",
+        "precision": "estimated",
+        "duration_display": "约3小时"
+      },
+      "volume": "vol-09",
+      "participant_ids": [
+        "kinji",
+        "aria",
+        "muto"
+      ],
+      "nodes": [
+        {
+          "timestamp": "2009-10-31T11:30:00",
+          "participants": [
+            "kinji",
+            "aria"
+          ],
+          "node_id": "aria-kinji-culture-festival-date.date",
+          "label": "游泳池碰头→亚莉亚口误称约会→逛鬼屋暴露怕鬼弱点→帮助迷路小女孩→购贵希章鱼烧互相喂食→谈到彼此关系"
+        }
+      ],
+      "label": "金次与亚莉亚文化祭休假——章鱼烧约会",
+      "cause": "butei-high-culture-festival-day-one"
+    },
+    {
+      "outcome": "kinji-transfer-application",
+      "event_type": "main",
+      "event_id": "baskerville-butei-hotpot-party",
+      "time_span": {
+        "reasoning": "文化祭结束后→巴斯克维尔围炉吃武侦锅→理子加入极端调味料→白雪重整汤底→众人抢夺米泽牛→兰豹宣布评价与蕾姬海报获奖→金次确认剩余半年守护小队。",
+        "start": "2009-10-31T17:00:00",
+        "end": "2009-10-31T19:00:00",
+        "precision": "estimated",
+        "duration_display": "约2小时"
+      },
+      "volume": "vol-09",
+      "participant_ids": [
+        "kinji",
+        "aria",
+        "shirayuki",
+        "riko",
+        "reki",
+        "ranbyou"
+      ],
+      "nodes": [
+        {
+          "timestamp": "2009-10-31T18:00:00",
+          "participants": [
+            "kinji",
+            "aria",
+            "shirayuki",
+            "riko",
+            "reki"
+          ],
+          "node_id": "baskerville-butei-hotpot-party.pot",
+          "label": "理子加入鹰爪辣椒与阿斯巴甜→亚莉亚加入桃馒→蕾姬加入蓝莓→白雪换汤底重开→众人抢肉"
+        }
+      ],
+      "label": "巴斯克维尔武侦锅庆功会——暗黑火锅与转学决心",
+      "cause": "aria-kinji-culture-festival-date"
+    },
+    {
+      "outcome": "g-bloodline-ambush",
+      "event_type": "main",
+      "event_id": "kinji-transfer-application",
+      "time_span": {
+        "reasoning": "vol-09 ch6原文'十月三十一日深夜，我顺利将转学申请书提交给教务科'→金次在文化祭期间多次确认想转入一般学校→将极东战役视为引退前最后任务→提交申请→翌日寻找民间委托筹钱。",
+        "start": "2009-10-31T22:00:00",
+        "end": "2009-10-31T23:30:00",
+        "precision": "estimated",
+        "duration_display": "约1.5小时"
+      },
+      "volume": "vol-09",
+      "participant_ids": [
+        "kinji"
+      ],
+      "nodes": [
+        {
+          "timestamp": "2009-10-31T23:00:00",
+          "participants": [
+            "kinji"
+          ],
+          "node_id": "kinji-transfer-application.submit",
+          "label": "金次深夜向教务科提交转学申请→内心确认用最后半年守护同伴并完成极东战役"
+        }
+      ],
+      "label": "金次提交转学申请——武侦引退之战决定",
+      "cause": "baskerville-butei-hotpot-party"
+    },
+    {
+      "outcome": "baskerville-ambush",
+      "event_type": "main",
+      "event_id": "g-bloodline-ambush",
+      "time_span": {
+        "reasoning": "金次提交转学后返宿舍→发现艾马基重伤衔着蕾姬手机→照片显示四女武器被堆放→GⅢ与GⅣ视讯挑衅→宣称要杀死接近金次的女性→展示巴斯克维尔四名女性重伤倒在舞台上。vol-09卷末。",
+        "start": "2009-10-31T23:30:00",
+        "end": "2009-11-01T00:00:00",
+        "precision": "estimated",
+        "duration_display": "约30分钟"
+      },
+      "volume": "vol-09",
+      "participant_ids": [
+        "kinji",
+        "emaki",
+        "g3",
+        "tooyama-kaname",
+        "aria",
+        "shirayuki",
+        "riko",
+        "reki"
+      ],
+      "nodes": [
+        {
+          "timestamp": "2009-10-31T23:45:00",
+          "participants": [
+            "kinji",
+            "emaki",
+            "g3",
+            "tooyama-kaname",
+            "aria",
+            "shirayuki",
+            "riko",
+            "reki"
+          ],
+          "node_id": "g-bloodline-ambush.threat",
+          "label": "艾马基携蕾姬手机求援→照片显示亚莉亚双Government、白雪色金杀女、理子德林吉、蕾姬德拉古诺夫被堆放→GⅢ视讯称金次为击败夏洛克之人→GⅣ自称产品编号、宣言清除女性"
+        }
+      ],
+      "label": "G血族袭击巴斯克维尔——四女倒地",
+      "cause": "kinji-transfer-application"
+    },
+    {
+      "outcome": "teatro-aqua-rescue",
+      "event_type": "main",
+      "event_id": "baskerville-ambush",
+      "time_span": {
+        "reasoning": "vol-10 ch1→GⅣ在GⅢ指挥下单人奇袭亚莉亚/白雪/理子/蕾姬和艾马基→以单分子震动刀、磁力纤维盾、手榴弹压倒→GⅢ向金次发送威胁影像。与g-bloodline-ambush所见一致。",
+        "start": "2009-10-31T23:00:00",
+        "end": "2009-11-01T00:00:00",
+        "precision": "estimated",
+        "duration_display": "约1小时"
+      },
+      "volume": "vol-10",
+      "participant_ids": [
+        "tooyama-kaname",
+        "g3",
+        "aria",
+        "shirayuki",
+        "reki",
+        "riko",
+        "emaki",
+        "kinji"
+      ],
+      "nodes": [
+        {
+          "timestamp": "2009-10-31T23:30:00",
+          "participants": [
+            "tooyama-kaname",
+            "g3",
+            "aria",
+            "shirayuki",
+            "reki",
+            "riko",
+            "emaki"
+          ],
+          "node_id": "baskerville-ambush.defeat",
+          "label": "GⅣ击败蕾姬与艾马基→以纤维盾和大刀击败亚莉亚→用手榴弹压制理子→在公园击败白雪并夺走色金杀女→GⅢ发送威胁"
+        }
+      ],
+      "label": "巴斯克维尔奇袭——金女以一敌四",
+      "cause": "g-bloodline-ambush"
+    },
+    {
+      "outcome": "hospital-rearmament",
+      "event_type": "main",
+      "event_id": "teatro-aqua-rescue",
+      "time_span": {
+        "reasoning": "GⅢ以巴斯克维尔为人质召唤金次→金次与华生潜入地下品川水色剧场→GⅣ从天而降袭击金次→GⅢ以威压制止→判断金次未达目标→命令程序γ让GⅣ与金次一起适应HSS。",
+        "start": "2009-11-01T00:00:00",
+        "end": "2009-11-01T02:00:00",
+        "precision": "estimated",
+        "duration_display": "约2小时"
+      },
+      "volume": "vol-10",
+      "participant_ids": [
+        "kinji",
+        "l-watson",
+        "tooyama-kaname",
+        "g3",
+        "aria",
+        "shirayuki",
+        "reki",
+        "riko"
+      ],
+      "nodes": [
+        {
+          "timestamp": "2009-11-01T01:00:00",
+          "participants": [
+            "kinji",
+            "l-watson",
+            "tooyama-kaname",
+            "g3",
+            "aria",
+            "shirayuki",
+            "reki",
+            "riko"
+          ],
+          "node_id": "teatro-aqua-rescue.rescue",
+          "label": "华生和金次潜入水色剧场→发现亚莉亚等人仍活着→GⅢ和GⅣ现身→GⅣ袭击金次→GⅢ威压制止"
+        },
+        {
+          "timestamp": "2009-11-01T01:30:00",
+          "participants": [
+            "g3",
+            "tooyama-kaname",
+            "kinji"
+          ],
+          "node_id": "teatro-aqua-rescue.gamma",
+          "label": "GⅢ使用光曲折迷彩离开→命令程序γ→GⅣ解除武装协助转送伤员→开始接近金次"
+        }
+      ],
+      "label": "水色剧场救援交涉——GⅢ与GⅣ的测试",
+      "cause": "baskerville-ambush"
+    },
+    {
+      "outcome": "legion-council-g3-g4",
+      "event_type": "main",
+      "event_id": "hospital-rearmament",
+      "time_span": {
+        "reasoning": "巴斯克维尔四女住院→迅速恢复并以强化合宿名义准备反击→平贺文交付大蛇手套和纤维弹→白雪拿出M60→梵蒂冈寄来武侦弹仓→希尔达暗中慰问理子。",
+        "start": "2009-11-01T10:00:00",
+        "end": "2009-11-02T12:00:00",
+        "precision": "estimated",
+        "duration_display": "约2天"
+      },
+      "volume": "vol-10",
+      "participant_ids": [
+        "aria",
+        "shirayuki",
+        "reki",
+        "riko",
+        "ayaka-hiraga",
+        "hilda",
+        "kinji"
+      ],
+      "nodes": [
+        {
+          "timestamp": "2009-11-02T10:00:00",
+          "participants": [
+            "aria",
+            "shirayuki",
+            "reki",
+            "riko",
+            "ayaka-hiraga",
+            "hilda",
+            "kinji"
+          ],
+          "node_id": "hospital-rearmament.gear",
+          "label": "理子和蕾姬展示短管霰弹枪和巴雷特M82→平贺交付装备→白雪拿M60→亚莉亚收到武侦弹仓"
+        }
+      ],
+      "label": "武侦医院强化合宿——对GⅣ的反击准备",
+      "cause": "teatro-aqua-rescue"
+    },
+    {
+      "outcome": "kaname-naming",
+      "event_type": "main",
+      "event_id": "legion-council-g3-g4",
+      "time_span": {
+        "reasoning": "vol-10 ch2'隔天'→贞德召集师团→万圣节改到今天举办（原文：因为十月底是休假的关系）→判断GⅢ/GⅣ战力过高→决定以金次接近拉拢GⅣ为优先→华生提出罗密欧式接触。",
+        "start": "2009-11-02T15:00:00",
+        "end": "2009-11-02T16:30:00",
+        "precision": "estimated",
+        "duration_display": "约1.5小时"
+      },
+      "volume": "vol-10",
+      "participant_ids": [
+        "kinji",
+        "jeanne",
+        "tamamo",
+        "l-watson",
+        "meiya-romano"
+      ],
+      "nodes": [
+        {
+          "timestamp": "2009-11-02T15:30:00",
+          "participants": [
+            "kinji",
+            "jeanne",
+            "tamamo",
+            "l-watson",
+            "meiya-romano"
+          ],
+          "node_id": "legion-council-g3-g4.strategy",
+          "label": "贞德说明袭击→玉藻指出偷袭非违规→华生提出利用GⅣ对金次的执着进行接触→梅雅安排梵蒂冈支援→金次被迫承担接近GⅣ任务"
+        }
+      ],
+      "label": "师团会议讨论GⅢ/GⅣ——拉拢优先策略",
+      "cause": "hospital-rearmament"
+    },
+    {
+      "outcome": "kaname-cohabitation",
+      "event_type": "main",
+      "event_id": "kaname-naming",
+      "time_span": {
+        "reasoning": "师团会议后→GⅣ穿武侦高中制服跟随金次乘公交→被学生追问→金次临时取名'远山金女'→金女因得到人类名字喜极而泣→随后用身体挡走火子弹保护金次。",
+        "start": "2009-11-03T08:00:00",
+        "end": "2009-11-03T09:00:00",
+        "precision": "estimated",
+        "duration_display": "约1小时"
+      },
+      "volume": "vol-10",
+      "participant_ids": [
+        "kinji",
+        "tooyama-kaname"
+      ],
+      "nodes": [
+        {
+          "timestamp": "2009-11-03T08:30:00",
+          "participants": [
+            "kinji",
+            "tooyama-kaname"
+          ],
+          "node_id": "kaname-naming.name",
+          "label": "公交车上GⅣ称金次哥哥→金次被迫编出'远山金女'名字→金女在停车场前哭泣感谢→从此以人类身份而非产品编号存在"
+        }
+      ],
+      "label": "金女命名与妹妹身份公开——远山金女诞生",
+      "cause": "legion-council-g3-g4"
+    },
+    {
+      "outcome": "watson-rehab-incident",
+      "event_type": "main",
+      "event_id": "kaname-cohabitation",
+      "time_span": {
+        "reasoning": "金女清除亚莉亚/白雪/理子物品→住进金次宿舍→学习料理和恋爱游戏→以美国武侦厅委托转入一年C班→风魔土遁术监视→在校强化妹妹身份。",
+        "start": "2009-11-03T10:00:00",
+        "end": "2009-11-07T17:00:00",
+        "precision": "day",
+        "duration_display": "约1周"
+      },
+      "volume": "vol-10",
+      "participant_ids": [
+        "kinji",
+        "tooyama-kaname",
+        "fuma-hina"
+      ],
+      "nodes": [
+        {
+          "timestamp": "2009-11-03T15:00:00",
+          "participants": [
+            "kinji",
+            "tooyama-kaname"
+          ],
+          "node_id": "kaname-cohabitation.move-in",
+          "label": "金女占据宿舍→清除三女私人物品→模仿家人生活→时间像回溯到亚莉亚搬进前"
+        },
+        {
+          "timestamp": "2009-11-05T10:00:00",
+          "participants": [
+            "tooyama-kaname",
+            "kinji",
+            "fuma-hina"
+          ],
+          "node_id": "kaname-cohabitation.school",
+          "label": "金女转入一年C班成为模范生→风魔受金次命令土遁术监视→报告一切正常"
+        }
+      ],
+      "label": "金女同居与转学——模范生与监视",
+      "cause": "kaname-naming"
+    },
+    {
+      "outcome": "aria-rooftop-kiss",
+      "event_type": "main",
+      "event_id": "watson-rehab-incident",
+      "time_span": {
+        "reasoning": "华生以共享GⅢ情报为由→在美术器材室说明GⅢ是前美国R级武侦和洛斯阿拉莫斯人工天才→女装复健训练→轻吻金次→被金女偷窥→被不知火撞见误会。",
+        "start": "2009-11-10T15:00:00",
+        "end": "2009-11-10T16:00:00",
+        "precision": "estimated",
+        "duration_display": "约1小时"
+      },
+      "volume": "vol-10",
+      "participant_ids": [
+        "kinji",
+        "l-watson",
+        "tooyama-kaname",
+        "shiranuhi"
+      ],
+      "nodes": [
+        {
+          "timestamp": "2009-11-10T15:30:00",
+          "participants": [
+            "kinji",
+            "l-watson",
+            "tooyama-kaname",
+            "shiranuhi"
+          ],
+          "node_id": "watson-rehab-incident.intel",
+          "label": "华生说明GⅢ身份背景→换女装进行渐进训练→轻吻金次脸颊使其轻微HSS→金次发现钥匙孔外有人偷窥"
+        }
+      ],
+      "label": "华生复健训练误会——GⅢ背景与嫉妒积累",
+      "cause": "kaname-cohabitation"
+    },
+    {
+      "outcome": "kaname-hss-awakening",
+      "event_type": "main",
+      "event_id": "aria-rooftop-kiss",
+      "time_span": {
+        "reasoning": "vol-10 ch4原文'2009年11月上旬黄昏'→亚莉亚在SSR屋顶接受时任茱莉亚念力训练→凭直觉认为金女与金次有太极图特殊羁绊→主动亲吻金次触发HSS→金次发现屋顶有'叛徒'刻痕暗示金女跟踪。",
+        "start": "2009-11-11T16:00:00",
+        "end": "2009-11-11T17:00:00",
+        "precision": "estimated",
+        "duration_display": "约1小时"
+      },
+      "volume": "vol-10",
+      "participant_ids": [
+        "aria",
+        "kinji",
+        "tokito-julia",
+        "tooyama-kaname"
+      ],
+      "nodes": [
+        {
+          "timestamp": "2009-11-11T16:30:00",
+          "participants": [
+            "aria",
+            "kinji",
+            "tokito-julia"
+          ],
+          "node_id": "aria-rooftop-kiss.kiss",
+          "label": "亚莉亚拥抱并亲吻金次→触发HSS→两人讨论金女直觉→发现护栏扭曲和墙上刻有叛徒字样→确认金女偷窥嫉妒"
+        }
+      ],
+      "label": "SSR屋顶亚莉亚亲吻——叛徒刻痕与太极羁绊",
+      "cause": "watson-rehab-incident"
+    },
+    {
+      "outcome": "temporary-sisters-showdown",
+      "event_type": "main",
+      "event_id": "kaname-hss-awakening",
+      "time_span": {
+        "reasoning": "vol-10 ch5原文'今天是十一月十四日，正巧是白雪的生日'→金女因金次与风魔/亚莉亚/华生接触失控→持菜刀和贝瑞塔威胁→金次试验HSS→金女初次HSS→女性HSS让她变弱害怕→双极兄妹理论破产。",
+        "start": "2009-11-13T20:00:00",
+        "end": "2009-11-14T12:00:00",
+        "precision": "day",
+        "duration_display": "约16小时"
+      },
+      "volume": "vol-10",
+      "participant_ids": [
+        "kinji",
+        "tooyama-kaname"
+      ],
+      "nodes": [
+        {
+          "timestamp": "2009-11-13T22:00:00",
+          "participants": [
+            "kinji",
+            "tooyama-kaname"
+          ],
+          "node_id": "kaname-hss-awakening.threat",
+          "label": "金女持菜刀逼问是否违约→夺贝瑞塔射伤金次右膝→金次答应试验HSS→亲密刺激触发金女初次HSS"
+        },
+        {
+          "timestamp": "2009-11-14T10:00:00",
+          "participants": [
+            "kinji",
+            "tooyama-kaname"
+          ],
+          "node_id": "kaname-hss-awakening.theory",
+          "label": "金次推断女性HSS是被保护型→金女变弱害怕→认识到无法成为双极兄妹战斗组件→陷入自我否定"
+        }
+      ],
+      "label": "金女HSS觉醒——女性型HSS是保护型而非战斗型",
+      "cause": "aria-rooftop-kiss"
+    },
+    {
+      "outcome": null,
+      "event_type": "main",
+      "event_id": "temporary-sisters-showdown",
+      "time_span": {
+        "reasoning": "金次在台场礼拜堂委托白雪成为'远山白雪'→白雪入住宿舍→金女在阳台诉说洛斯阿拉莫斯真相→再次亲吻金次→被白雪撞见→白雪以未婚妻/姐姐身份举M60→金女以妹妹身份操纵纤维盾→爆发冲突。vol-10卷末。",
+        "start": "2009-11-14T15:00:00",
+        "end": "2009-11-14T16:00:00",
+        "precision": "estimated",
+        "duration_display": "约1小时"
+      },
+      "volume": "vol-10",
+      "participant_ids": [
+        "kinji",
+        "tooyama-kaname",
+        "shirayuki"
+      ],
+      "nodes": [
+        {
+          "timestamp": "2009-11-14T15:30:00",
+          "participants": [
+            "kinji",
+            "tooyama-kaname",
+            "shirayuki"
+          ],
+          "node_id": "temporary-sisters-showdown.shirayuki-in",
+          "label": "金次在礼拜堂委托白雪成为远山白雪家人/护卫→白雪入住宿舍→金女阳台倾诉人工天才与废弃恐惧→吻金次→白雪目击暴怒"
+        },
+        {
+          "timestamp": "2009-11-14T16:00:00",
+          "participants": [
+            "shirayuki",
+            "tooyama-kaname",
+            "kinji"
+          ],
+          "node_id": "temporary-sisters-showdown.standoff",
+          "label": "白雪举M60宣称未婚妻/姐姐→金女操纵纤维盾宣称妹妹→两人爆发临时姐妹冲突→以混乱对峙收束本卷"
+        }
+      ],
+      "label": "临时姐妹冲突——白雪M60对金女纤维盾",
+      "cause": "kaname-hss-awakening"
+    }
+  ]
+}

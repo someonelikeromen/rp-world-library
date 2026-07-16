@@ -1,0 +1,95 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "bell-cranel",
+  "volume": "vol-01",
+  "time_range": { "start": "prologue", "end": "epilogue" },
+  "sub_arcs": ["awakening", "first-encounter"],
+  "periods": [
+    {
+      "period_id": "bell-prologue",
+      "volume": "vol-01",
+      "time": "prologue",
+      "label": "地下城死斗与邂逅",
+      "name": { "zh": "贝尔·克朗尼", "en": "Bell Cranel", "jp": "ベル・クラネル" },
+      "aliases": ["兔子", "番茄小子", "白发少年"],
+      "titles": [],
+      "gender": "male",
+      "species": "human",
+      "nationality": "未知乡村",
+      "occupation": "冒险者",
+      "affiliation": "赫斯缇雅眷族",
+      "status": { "lv": "1", "class": "newbie" },
+      "appearance": {
+        "overview": "白色头发、红色眼睛的14岁少年。身形纤细。",
+        "physical": { "height": "约165cm", "build": "纤细", "hair": { "color": "白", "style": "短发" }, "eyes": { "color": "红", "type": "深红宝石色" } },
+        "attire": { "default": "冒险者轻铠", "combat": "公会配给品轻铠+短刀" },
+        "voice_quality": {},
+        "distinctive": ["白色头发", "红色眼睛", "显得胆小"]
+      },
+      "personality": {
+        "summary": "天真、胆小但对目标执着。向往英雄谭中的命运邂逅。本性善良。",
+        "core_traits": ["执着", "胆小", "善良", "纯情", "勤奋"],
+        "values": ["家人", "羁绊", "信赖"],
+        "fears": ["失去家人", "被轻视", "无能为力"],
+        "desires": ["变强", "追上艾丝·华伦斯坦", "保护赫斯缇雅"],
+        "strengths": ["成长速度惊人", "执着", "善良本性"],
+        "flaws": ["容易自卑", "感情用事", "缺乏经验"],
+        "inner_conflict": "渴望变强但又害怕冒险",
+        "decision_pattern": "感情驱动的保护欲"
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": { "hestia": "神仙", "eina": "埃伊娜小姐", "ais": "华伦斯坦小姐" },
+        "register": {},
+        "catchphrases": [],
+        "quote_samples": [
+          "我，并没有错。",
+          "我想变强。",
+          "我不想再失去家人了。"
+        ]
+      },
+      "habits": {
+        "mannerisms": ["喜欢贴在武器店橱窗上看"],
+        "daily_routine": "清晨出发去地下城，傍晚回来",
+        "quirks": ["被女生靠近容易脸红"],
+        "preferences": { "weapon_type": "短刀" }
+      },
+      "background": {
+        "birth": { "place": "远离欧拉丽的乡村", "family": [] },
+        "upbringing": "由祖父抚养长大，祖父被怪物杀害后独自从村子跑出来",
+        "education": { "combat": "自学开荒" },
+        "formative_events": ["祖父被怪物杀害", "遇见赫斯缇雅", "被艾丝救下"],
+        "pre_story": "从小听祖父念英雄谭，向往命运邂逅"
+      },
+      "abilities_owned": [
+        { "name": "一心憧憬", "type": "技能", "description": "早熟。与思慕之情同时维持效果。思慕之情越强效果越大。" }
+      ],
+      "possessions_owned": [
+        { "name": "赫斯缇雅之刃", "type": "武器", "description": "赫菲斯托丝锻造的成长型匕首，35年按揭" },
+        { "name": "公会配给短刀", "type": "武器", "description": "最初使用的短刀" }
+      ],
+      "relationships": {
+        "hestia": { "type": "主神与眷属", "description": "最重要的家人" },
+        "ais-wallenstein": { "type": "憧景对象", "description": "一见钟情，变强的动力" },
+        "eina-tulle": { "type": "顾问与挚友", "description": "如同姐姐般的存在" },
+        "syr-flova": { "type": "朋友", "description": "酒馆店员，互有好感" }
+      },
+      "knowledge": ["地下城基础知识", "怪物知识"],
+      "secrets": [],
+      "summary": "14岁的人类少年，赫斯缇雅眷族唯一成员。第一卷中从怯懦的菜鸟冒险者成长为敢于面对银背猿的战士。对艾丝·华伦斯坦一见钟情，以此为目标疯狂成长。",
+      "key_events": [
+        { "event_id": "minotaur-encounter", "summary": "在第5层被弥诺陶洛斯追杀，被艾丝救下", "sourceRef": "danmachi-main/vol-01/full.txt:1-168" },
+        { "event_id": "tavern-insult-incident", "summary": "在丰饶的女主人酒馆被伯特·罗卡当众羞辱", "sourceRef": "danmachi-main/vol-01/full.txt:827-2050" },
+        { "event_id": "bell-vs-silverback", "summary": "在怪物祭事件中用赫斯缇雅之刃一击打倒银背猿", "sourceRef": "danmachi-main/vol-01/full.txt:3681-5590" }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-01/full.txt:1-7348"
+      ]
+    }
+  ],
+  "source_refs": [
+    "danmachi-main/vol-01/full.txt:1-7348"
+  ]
+}

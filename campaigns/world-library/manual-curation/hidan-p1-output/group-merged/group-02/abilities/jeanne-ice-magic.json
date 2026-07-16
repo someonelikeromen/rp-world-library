@@ -1,0 +1,102 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "jeanne-ice-magic",
+  "volume": "vol-15",
+  "source_refs": [
+    "hidan-no-aria-main/vol-15/chapters/ch-005-第十五卷_哿与银冰_5弹_高歌的铁十字之虎.txt:520"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-15-main",
+      "volume": "vol-15",
+      "time": "巴黎与卢森堡行动",
+      "name": {
+        "zh": "贞德冰魔法",
+        "en": "Jeanne Ice Magic"
+      },
+      "aliases": [
+        "银冰魔女术",
+        "奥尔良的冰花"
+      ],
+      "type": "magic / supernatural",
+      "description": "贞德·达鲁克三十世的冰系魔法。本卷用于封冻魔女连队囚室窗墙、制造冰桥、支援突入救援和战场机动。",
+      "details": {
+        "uses": [
+          "冻结窗户与墙壁使其脆化",
+          "在湖面上形成冰桥供附侧座机车通过",
+          "战斗中制造寒气与钻石冰尘"
+        ],
+        "constraints": "璃璃色金粒子浓度高时使用风险上升"
+      },
+      "activation": {
+        "condition": "贞德集中并通过魔术释放寒气",
+        "incantation": "可无明确咒语",
+        "time": "瞬间至持续",
+        "cost": "受色金粒子影响"
+      },
+      "effects": [
+        "冻结物体",
+        "桥面成形",
+        "战场阻断",
+        "救援突入"
+      ],
+      "power_level": {
+        "initial": "局部冻结",
+        "peak": "湖面冰桥与建筑墙体脆化",
+        "evolution": []
+      },
+      "known_feats": [
+        "救出金次时冻结囚室墙壁",
+        "逃离兵器库时制造冰桥"
+      ],
+      "shared_by": [
+        "jeanne"
+      ],
+      "see_also": [
+        "hihiirokane-particle-density"
+      ],
+      "countered_by": [
+        "hihiirokane-particle-density"
+      ],
+      "counters": [
+        "ordinary-stone-wall"
+      ],
+      "variations": [
+        "奥尔良的冰花"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-15/chapters/ch-005-第十五卷_哿与银冰_5弹_高歌的铁十字之虎.txt:520",
+        "hidan-no-aria-main/vol-15/chapters/ch-005-第十五卷_哿与银冰_5弹_高歌的铁十字之虎.txt:592"
+      ]
+    },
+    {
+      "period_id": "vol-17-main",
+      "volume": "vol-17",
+      "time": "龙之港决斗",
+      "name": {
+        "zh": "贞德冰魔法",
+        "en": "Jeanne ice magic"
+      },
+      "aliases": [
+        "银冰魔女魔法"
+      ],
+      "type": "magic / combat",
+      "description": "贞德将寒冰覆盖杜兰朵、冻结炮口盖和敌人脚部的冰系魔法。本卷用于脱困和对抗佩特拉。",
+      "effects": [
+        "冻结炮口盖制造逃脱迹象",
+        "冰覆剑身强化剑战",
+        "冻结佩特拉双脚限制行动"
+      ],
+      "shared_by": [
+        "jeanne"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-17/chapters/ch-001-第十七卷_绯弹的宣叙曲_1弹_热沃当与哿.txt:125",
+        "hidan-no-aria-main/vol-17/chapters/ch-001-第十七卷_绯弹的宣叙曲_1弹_热沃当与哿.txt:440"
+      ]
+    }
+  ]
+}

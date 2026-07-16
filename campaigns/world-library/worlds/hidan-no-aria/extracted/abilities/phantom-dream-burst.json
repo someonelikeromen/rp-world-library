@@ -1,0 +1,106 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "phantom-dream-burst",
+  "volume": "vol-25",
+  "source_refs": [
+    "hidan-no-aria-main/vol-25/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-25",
+      "volume": "vol-25",
+      "time": "第二十五卷 罗马的军神星",
+      "name": {
+        "zh": "幻梦爆发",
+        "en": "Phantom Dream Burst"
+      },
+      "aliases": [],
+      "type": "innate / combat",
+      "description": "依赖想象力与专注进入的爆发模式派生状态。",
+      "details": {
+        "weakness": "注意力被打断会无法发动；尼莫疑似知道这点并通过搭话阻碍金次。"
+      },
+      "activation": {
+        "condition": "高度想象与专注",
+        "incantation": "",
+        "time": "需短暂集中",
+        "cost": "易被干扰"
+      },
+      "effects": [
+        "提高战局想象与超常应对"
+      ],
+      "power_level": {
+        "initial": "可用",
+        "peak": "在亚莉亚刺激下追加蓄积",
+        "evolution": []
+      },
+      "known_feats": [
+        "广场会谈中金次试图发动但被尼莫干扰"
+      ],
+      "shared_by": [
+        "kinji"
+      ],
+      "see_also": [
+        "hss"
+      ],
+      "countered_by": [
+        "nemo-charisma-interruption"
+      ],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-25/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-29",
+      "volume": "vol-29",
+      "time": "第二十九卷 盟约的谍候",
+      "name": {
+        "zh": "幻梦爆发",
+        "en": "Phantom Dream Burst"
+      },
+      "aliases": [
+        "单人进入爆发模式"
+      ],
+      "type": "innate / skill",
+      "description": "金次通过想象触发HSS的秘技。本卷在决战前躲入卧室，以想象巴斯克维尔成员轮流制度迅速进入HSS。",
+      "details": {
+        "context": "避免让队友直接以身体刺激HSS，仍属于金次机密中的机密。"
+      },
+      "activation": {
+        "condition": "集中精神并使用性想象",
+        "incantation": "",
+        "time": "本卷不足三十秒",
+        "cost": "心理羞耻和暴露机密风险"
+      },
+      "effects": [
+        "无需直接接触女性也能进入HSS",
+        "可为战斗前准备争取时间"
+      ],
+      "power_level": {
+        "initial": "稳定触发HSS",
+        "peak": "台风决战前快速触发",
+        "evolution": []
+      },
+      "known_feats": [
+        "海卓拉决战前进入HSS"
+      ],
+      "shared_by": [
+        "kinji"
+      ],
+      "see_also": [
+        "hss"
+      ],
+      "countered_by": [],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-29/full.txt"
+      ]
+    }
+  ]
+}

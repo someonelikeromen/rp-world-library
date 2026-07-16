@@ -1,0 +1,675 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "tiona-hiryute",
+  "volume": "vol-02",
+  "source_refs": [
+    "campaigns/world-library/worlds/danmachi/sources/split-text/danmachi-main/vol-02/full.txt",
+    "danmachi-main/vol-03/full.txt:6202",
+    "danmachi-main/vol-03/full.txt:6844"
+  ],
+  "time_range": {
+    "start": "vol-02-full",
+    "end": "vol-05-ch-04"
+  },
+  "periods": [
+    {
+      "period_id": "vol-02-full",
+      "volume": "vol-02",
+      "label": "第二卷",
+      "name": {
+        "zh": "蒂奥娜·席琉提",
+        "en": "Tiona Hiryute",
+        "jp": "ティオナ・ヒリュテ"
+      },
+      "gender": "female",
+      "species": "亚马逊",
+      "occupation": "冒险者",
+      "affiliation": "洛基眷族",
+      "summary": "洛基眷族的亚马逊姐妹妹妹，性格活泼开朗，关心艾丝。",
+      "evidence_level": "S",
+      "source_refs": [
+        "campaigns/world-library/worlds/danmachi/sources/split-text/danmachi-main/vol-02/full.txt:3470-3550"
+      ]
+    },
+    {
+      "period_id": "vol-03-ch-05",
+      "volume": "vol-03",
+      "time": "第五章",
+      "label": "将贝尔之战比作阿尔戈英雄",
+      "name": {
+        "zh": "蒂奥娜·席吕特",
+        "en": "Tiona Hiryute",
+        "jp": "ティオナ・ヒリュテ"
+      },
+      "aliases": [
+        "蒂奥娜",
+        "大切断"
+      ],
+      "titles": [
+        "大切断"
+      ],
+      "gender": "女",
+      "species": "亚马逊",
+      "nationality": "",
+      "occupation": "第一级冒险者",
+      "affiliation": "洛基眷族",
+      "status": {
+        "location": "地下城第9层",
+        "condition": "健康"
+      },
+      "appearance": {
+        "overview": "小麦色肌肤、黑发，穿暴露度较高民族服饰的亚马逊少女。",
+        "physical": {
+          "height": "",
+          "build": "健美",
+          "hair": {
+            "color": "黑色"
+          },
+          "eyes": {}
+        },
+        "attire": {
+          "default": "亚马逊民族服饰",
+          "combat": "远征装备"
+        },
+        "voice_quality": {
+          "tone": "活泼、直率"
+        },
+        "distinctive": [
+          "小麦色肌肤",
+          "亲切笑容"
+        ]
+      },
+      "personality": {
+        "summary": "活泼亲人、富有同情心，热爱英雄故事并会保护弱者。",
+        "core_traits": [
+          "开朗",
+          "亲切",
+          "好战",
+          "浪漫",
+          "同情弱者"
+        ],
+        "values": [
+          "英雄故事",
+          "不放任弱者送死"
+        ],
+        "fears": [
+          "贝尔被弥诺陶洛斯杀死"
+        ],
+        "desires": [
+          "必要时介入救援",
+          "见证英雄般的战斗"
+        ],
+        "strengths": [
+          "战斗力",
+          "共情",
+          "直觉"
+        ],
+        "flaws": [
+          "行事冲动",
+          "不擅长深思"
+        ],
+        "inner_conflict": "想立刻救贝尔，却逐渐被他主动承担的死斗吸引。",
+        "decision_pattern": {
+          "style": "凭直觉行动，看到勇气后全心关注"
+        }
+      },
+      "voice": {
+        "self_reference": "我、人家",
+        "address_pattern": {
+          "ais-wallenstein": "艾丝"
+        },
+        "register": {
+          "default": "活泼、口语化"
+        },
+        "catchphrases": [],
+        "quote_samples": [
+          "《阿尔戈英雄》……"
+        ]
+      },
+      "habits": {
+        "mannerisms": [
+          "从后面抱住艾丝肩膀",
+          "兴奋时高声欢呼"
+        ],
+        "daily_routine": "随眷族远征",
+        "quirks": [],
+        "preferences": {
+          "story": "阿尔戈英雄"
+        }
+      },
+      "background": {
+        "birth": {
+          "place": "",
+          "family": [
+            "tione-hiryute"
+          ]
+        },
+        "upbringing": "",
+        "education": {},
+        "formative_events": [],
+        "pre_story": "洛基眷族第一级冒险者，喜欢英雄童话。"
+      },
+      "abilities_owned": [],
+      "possessions_owned": [],
+      "relationships": {
+        "ais-wallenstein": {
+          "type": "亲密同伴",
+          "summary": "能使冰山般的艾丝露出温情。"
+        },
+        "bell-cranel": {
+          "type": "英雄故事般的观察对象",
+          "summary": "从担心其送死转为珍视地观看他与怪牛决斗。"
+        }
+      },
+      "knowledge": [
+        "贝尔为LV.1",
+        "贝尔的战斗令人联想到阿尔戈英雄"
+      ],
+      "secrets": [],
+      "summary": "蒂奥娜最初强烈主张救援贝尔，但在看到双方赌命的平等死斗后，将景象比作自己喜爱的《阿尔戈英雄》，并见证贝尔获胜。",
+      "key_events": [
+        {
+          "event_id": "bell-defeats-armed-minotaur",
+          "summary": "旁观并以英雄童话理解贝尔的死斗。",
+          "sourceRef": "danmachi-main/vol-03/full.txt:6202"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-03/full.txt:6202",
+        "danmachi-main/vol-03/full.txt:6844"
+      ]
+    },
+    {
+      "period_id": "vol-05-ch-04",
+      "volume": "vol-05",
+      "time": "第四章 DUNGEON RESORT？",
+      "label": "阿尔戈小英雄的支持者",
+      "name": {
+        "zh": "蒂奥娜·席吕特",
+        "en": "Tiona Hiryute",
+        "jp": "ティオナ・ヒリュテ"
+      },
+      "aliases": [],
+      "titles": [],
+      "gender": "女",
+      "species": "亚马逊",
+      "nationality": "",
+      "occupation": "第一级冒险者",
+      "affiliation": "洛基眷族",
+      "status": {
+        "location": "地下城第18层",
+        "state": "远征归途中休养"
+      },
+      "appearance": {
+        "overview": "褐色肌肤、黑色半短发，体态健康敏捷。",
+        "physical": {
+          "height": "",
+          "build": "健美",
+          "hair": {
+            "color": "黑色",
+            "length": "半短发"
+          },
+          "eyes": {}
+        },
+        "attire": {
+          "default": "轻薄亚马逊战斗装",
+          "combat": ""
+        },
+        "voice_quality": {},
+        "distinctive": []
+      },
+      "personality": {
+        "summary": "开朗亲切、喜欢英雄故事，对贝尔抱有直接好感与好奇。",
+        "core_traits": [
+          "开朗",
+          "直率",
+          "亲切"
+        ],
+        "values": [
+          "英雄故事",
+          "勇敢的冒险者"
+        ],
+        "fears": [],
+        "desires": [
+          "了解贝尔的成长"
+        ],
+        "strengths": [
+          "第一级近战能力",
+          "亲和力"
+        ],
+        "flaws": [
+          "言行随意"
+        ],
+        "inner_conflict": "",
+        "decision_pattern": {}
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {
+          "bell-cranel": "阿尔戈小英雄"
+        },
+        "register": {
+          "style": "活泼"
+        },
+        "catchphrases": [],
+        "quote_samples": []
+      },
+      "habits": {
+        "mannerisms": [
+          "大声欢呼",
+          "主动贴近感兴趣的人"
+        ],
+        "daily_routine": "",
+        "quirks": [],
+        "preferences": {
+          "stories": "阿尔戈英雄"
+        }
+      },
+      "background": {
+        "birth": {
+          "place": "",
+          "family": [
+            "tione-hiryute"
+          ]
+        },
+        "upbringing": "",
+        "education": {},
+        "formative_events": [],
+        "pre_story": "与姊姊同为洛基眷族第一级冒险者。"
+      },
+      "abilities_owned": [
+        "第一级近战能力"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "tione-hiryute": "双胞胎姊姊",
+        "ais-wallenstein": "眷族友人",
+        "bell-cranel": "被她称为阿尔戈小英雄的少年"
+      },
+      "knowledge": [
+        "贝尔击败弥诺陶洛斯并升至Lv.2"
+      ],
+      "secrets": [],
+      "summary": "热情欢迎贝尔，因他的弥诺陶洛斯战斗联想到童话阿尔戈英雄，并对其全能力S的成长方式感兴趣。",
+      "key_events": [
+        {
+          "event_id": "loki-familia-rescues-bell-party",
+          "summary": "在营地与贝尔交流。",
+          "sourceRef": "danmachi-main/vol-05/full.txt:4300"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-05/full.txt:4250-5400"
+      ]
+    },
+    {
+      "period_id": "vol-06-ch-04-training",
+      "volume": "vol-06",
+      "time": "第四章 同伴齐聚",
+      "label": "阿尔戈小英雄的特训帮手",
+      "name": {
+        "zh": "蒂奥娜·席吕特",
+        "en": "Tiona Hiryute",
+        "jp": "ティオナ・ヒリュテ"
+      },
+      "aliases": [
+        "蒂奥娜"
+      ],
+      "gender": "女",
+      "species": "亚马逊人",
+      "occupation": "冒险者",
+      "affiliation": "洛基眷族",
+      "status": {
+        "level": "Lv.5",
+        "location": "黄昏馆附近后巷、市墙",
+        "state": "帮助艾丝秘密训练贝尔，并负责采购食材和武器"
+      },
+      "personality": {
+        "summary": "开朗、直率、喜欢英雄故事，把贝尔称作阿尔戈小英雄并积极支援。",
+        "core_traits": [
+          "开朗",
+          "热心",
+          "好奇",
+          "英雄控"
+        ]
+      },
+      "relationships": {
+        "bell-cranel": "称为阿尔戈小英雄的训练对象",
+        "ais-wallenstein": "好友与训练同伴",
+        "tione-hiryute": "姐姐"
+      },
+      "summary": "蒂奥娜与艾丝在后巷接应贝尔，支持秘密训练。她在市墙训练中采购食材、武器，并加入实战训练，以第一级冒险者攻势锻炼贝尔。",
+      "key_events": [
+        {
+          "event_id": "ais-and-tiona-train-bell",
+          "summary": "与艾丝共同训练贝尔。",
+          "sourceRef": "danmachi-main/vol-06/full.txt:5940"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-06/full.txt:4281",
+        "danmachi-main/vol-06/full.txt:5940"
+      ]
+    },
+    {
+      "period_id": "vol-06-ch-05-cheering",
+      "volume": "vol-06",
+      "time": "第五章 我们的战争游戏",
+      "label": "为贝尔助威",
+      "name": {
+        "zh": "蒂奥娜·席吕特",
+        "en": "Tiona Hiryute",
+        "jp": "ティオナ・ヒリュテ"
+      },
+      "aliases": [
+        "蒂奥娜"
+      ],
+      "gender": "女",
+      "species": "亚马逊人",
+      "occupation": "冒险者",
+      "affiliation": "洛基眷族",
+      "status": {
+        "location": "洛基眷族总部",
+        "state": "观看战争游戏并为贝尔大声加油"
+      },
+      "personality": {
+        "summary": "兴奋地见证贝尔以训练成果取胜。",
+        "core_traits": [
+          "热情",
+          "支持朋友",
+          "乐观"
+        ]
+      },
+      "relationships": {
+        "bell-cranel": "助威对象",
+        "ais-wallenstein": "一起观看贝尔胜利"
+      },
+      "summary": "蒂奥娜在洛基眷族总部观看战争游戏，为贝尔一路助威，战后与艾丝分享喜悦。",
+      "key_events": [
+        {
+          "event_id": "bell-defeats-hyakinthos",
+          "summary": "观看并庆祝贝尔击败雅辛托斯。",
+          "sourceRef": "danmachi-main/vol-06/full.txt:8037"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-06/full.txt:8037"
+      ]
+    },
+    {
+      "period_id": "vol-07-bonus-celebration",
+      "volume": "vol-07",
+      "time": "特典 庆祝？",
+      "label": "理解艾丝想祝贺贝尔",
+      "name": {
+        "zh": "蒂奥娜·席吕特",
+        "en": "Tiona Hiryute",
+        "jp": "ティオナ・ヒリュテ"
+      },
+      "gender": "女",
+      "species": "亚马逊人",
+      "occupation": "冒险者",
+      "affiliation": "洛基眷族",
+      "status": {
+        "location": "洛基眷族客厅",
+        "state": "帮艾丝说出想给贝尔送战争游戏胜利贺礼的心意"
+      },
+      "personality": {
+        "summary": "开朗直率，能迅速理解艾丝不擅表达的想法。",
+        "core_traits": [
+          "开朗",
+          "直率",
+          "善解人意"
+        ]
+      },
+      "relationships": {
+        "ais-wallenstein": "同伴，理解其想法",
+        "bell-cranel": "被其称作阿尔戈诺特君的祝贺对象",
+        "loki": "共同在场的主神"
+      },
+      "summary": "蒂奥娜看出艾丝想祝贺贝尔战争游戏获胜与眷族扩大，与艾丝一起思考送武器、食物或其他礼物，随后洛基介入并提出送花。",
+      "key_events": [
+        {
+          "event_id": "ais-gives-bell-snowdrop-bouquet",
+          "summary": "帮艾丝把想送贝尔贺礼的心意说出口。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:12518"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-07/full.txt:12518",
+        "danmachi-main/vol-07/full.txt:12524"
+      ]
+    },
+    {
+      "period_id": "vol-12-tiona-spares-wiene",
+      "volume": "vol-12",
+      "time": "第五章-第七章",
+      "label": "追击异端儿却因薇妮救人而放手",
+      "name": {
+        "zh": "蒂奥娜·席吕特",
+        "en": "Tiona Hiryute"
+      },
+      "gender": "女",
+      "species": "亚马逊人",
+      "occupation": "洛基眷族第一级冒险者",
+      "affiliation": "洛基眷族",
+      "status": {
+        "level": "Lv.6",
+        "location": "代达罗斯路、中央广场周边",
+        "state": "对异端儿产生动摇"
+      },
+      "summary": "蒂奥娜与蒂奥涅追击异端儿主队，被命的风武吹离战场。她后来在西北区追上薇妮，目睹薇妮救下孤儿小路后，承认自己下不了手，选择放薇妮逃走。贝尔与阿斯泰里奥斯决斗时，她想介入但被芙蕾雅眷族四胞胎阻挡。",
+      "key_events": [
+        {
+          "event_id": "welf-mikoto-xenos-breakthrough",
+          "summary": "追击主队并被风武吹飞。",
+          "sourceRef": "danmachi-main/vol-12/full.txt:4953-8194"
+        },
+        {
+          "event_id": "wiene-saves-lu-and-tiona-spares-her",
+          "summary": "因薇妮救人而放她离开。",
+          "sourceRef": "danmachi-main/vol-12/full.txt:4953-8194"
+        },
+        {
+          "event_id": "bell-vs-asterius-public-duel",
+          "summary": "被芙蕾雅眷族阻止介入决斗。",
+          "sourceRef": "danmachi-main/vol-12/full.txt:9327-10846"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-12/full.txt:4953-8194",
+        "danmachi-main/vol-12/full.txt:9327-10846"
+      ]
+    },
+    {
+      "period_id": "vol-17-tiona-bell-hero-fan",
+      "volume": "vol-17",
+      "time": "短篇7、9、10",
+      "label": "把贝尔视作新英雄谭般亲近",
+      "name": {
+        "zh": "缇奥娜·席吕特",
+        "en": "Tiona Hiryute",
+        "jp": "ティオナ・ヒリュテ"
+      },
+      "gender": "女",
+      "species": "亚马逊",
+      "occupation": "冒险者",
+      "affiliation": "洛基眷族",
+      "status": {
+        "level": "Lv.6",
+        "location": "欧拉丽大街、梦境",
+        "state": "战争游戏后兴奋称赞贝尔；在艾丝与贝尔梦中都作为亲近者出现"
+      },
+      "summary": "战争游戏结束后，缇奥娜在街上看到贝尔便飞扑拥抱，像看到新英雄谭一样兴奋称赞他的表现。贝尔害羞提醒她胸部碰到后脑，反而让常被嘲笑平板的缇奥娜开心地更用力贴近。在艾丝未来梦中，她与提奥涅、蕾菲亚一同谈笑，也在贝尔婚礼梦中加入追求者队列。",
+      "key_events": [
+        "tiona-hugs-bell-after-war-game",
+        "ais-dreams-possible-futures-and-her-hero",
+        "bell-dreams-chaotic-wedding-future"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-17/chapters/ch-007-ai就在你的胸中.txt",
+        "danmachi-main/vol-17/chapters/ch-009-5YEARS-AFTER-~Side-Ais~.txt",
+        "danmachi-main/vol-17/chapters/ch-010-5YEARS-AFTER-~Side-Bell~.txt"
+      ]
+    },
+    {
+      "period_id": "vol-18-tiona-rooftop-training",
+      "volume": "vol-18",
+      "time": "第二至第三章",
+      "label": "把贝尔追逐战变成屋顶实战训练的亚马逊",
+      "name": {
+        "zh": "缇奥娜·席吕特",
+        "en": "Tiona Hiryute",
+        "jp": "ティオナ・ヒリュテ"
+      },
+      "gender": "女",
+      "species": "亚马逊",
+      "occupation": "第一级冒险者",
+      "affiliation": "洛基眷族",
+      "status": {
+        "level": "Lv.5",
+        "location": "欧拉丽水路与屋顶",
+        "state": "偶然撞见贝尔与春姬，天真地加入追赶与训练"
+      },
+      "summary": "缇奥娜与艾丝偶然看到贝尔和春姬在游览船上像被祝福的新郎新娘，提议跳上船。随后在屋顶战斗中加入琉与艾丝的攻势，高兴地检查贝尔是否学会了战争游戏前特训的技术，并提出三人一起攻击贝尔以验证谁的教导最常被使用。",
+      "key_events": [
+        "haruhime-bell-flee-jealous-pursuers"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-18/chapters/ch-002-第二章.txt",
+        "danmachi-main/vol-18/chapters/ch-003-第三章.txt"
+      ]
+    },
+    {
+      "period_id": "vol-19-tiona-witness-date",
+      "volume": "vol-19",
+      "time": "虎穴特典 目击者～亚马逊的场合～",
+      "label": "女神祭边走边吃时目击阿尔戈小英雄约会的亚马逊",
+      "name": {
+        "zh": "缇奥娜·席吕特",
+        "en": "Tiona Hiryute",
+        "jp": "ティオナ・ヒリュテ"
+      },
+      "gender": "女",
+      "species": "亚马逊",
+      "occupation": "第一级冒险者",
+      "affiliation": "洛基眷族",
+      "status": {
+        "level": "Lv.6",
+        "location": "女神祭会场",
+        "state": "完成主干道徽章制霸式边走边吃后目击贝尔与希儿依偎，试图靠近被芙蕾雅眷族拦下"
+      },
+      "summary": "缇奥娜在女神祭中与缇奥涅一起尽情边走边吃，腰间挂满各主干道徽章。她远远看到贝尔与丰饶的女主人店员希儿亲密同行，对阿尔戈小英雄不与艾丝或自己同行感到微妙失落。她天真地想跑去抱住贝尔，却被赫格尼与贾里巴四兄弟挡住，引发另一场小骚动，也间接让贝尔与希儿逃掉。",
+      "key_events": [
+        "tiona-witnesses-bell-syr-date"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-19/chapters/ch-020-虎穴特典-目击者～亚马逊的场合～.txt"
+      ]
+    },
+    {
+      "period_id": "vol-21-tiona-charmed-and-retaliates",
+      "volume": "vol-21",
+      "time": "第五章",
+      "label": "被魅惑后阻拦贝尔并在解除后包围战场原野的亚马逊",
+      "name": {
+        "zh": "缇奥娜·席吕特",
+        "en": "Tiona Hiryute",
+        "jp": "ティオナ・ヒリュテ"
+      },
+      "gender": "女",
+      "species": "亚马逊人",
+      "occupation": "洛基眷族第一级冒险者",
+      "affiliation": "洛基眷族",
+      "status": {
+        "level": "Lv.6",
+        "location": "欧拉丽北区、战场原野外围",
+        "state": "先受魅惑影响敌视芙蕾雅眷族的贝尔，圣火解除后恢复真实认知并随洛基眷族行动"
+      },
+      "summary": "贝尔寻找艾丝确认憧憬时，缇奥娜因芙蕾雅魅惑仍认定贝尔是敌对的芙蕾雅眷族成员，与缇奥涅一起阻拦他接近艾丝。艾丝凭身体残留记忆牵住贝尔后，缇奥娜仍未能主动理解真相。圣火解除魅惑后，她随洛基眷族恢复记忆并包围战场原野，参与压制芙蕾雅眷族的混战。",
+      "key_events": [
+        "ais-residual-memory-reaffirms-bell",
+        "hestia-sacred-flame-breaks-freya-charm"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-21/chapters/ch-006-第五章-在她的世界末日里.txt"
+      ]
+    },
+    {
+      "period_id": "vol-28-tiona-parasite-survivor",
+      "volume": "vol-28",
+      "time": "第四章至尾声",
+      "label": "从寄生亚种中被救回并以太阳笑容支撑贝尔的亚马逊",
+      "name": {
+        "zh": "缇欧娜·席琉缇",
+        "en": "Tiona Hiryute",
+        "jp": "ティオナ・ヒリュテ"
+      },
+      "gender": "女",
+      "species": "亚马逊",
+      "occupation": "冒险者、洛基眷族第一级冒险者",
+      "affiliation": "洛基眷族",
+      "status": {
+        "level": "Lv.6",
+        "location": "地下城第60层；归还后欧拉丽",
+        "state": "被冬虫夏草式亚种寄生并濒死，贝尔用自燃奇迹救回；体内残根直到污秽仙精灭亡后才解除"
+      },
+      "summary": "缇欧娜在远征失败后被不同于普通寄生蜘蛛的亚种寄生，半怪物化后仍不断呼唤艾丝并抵抗控制。伯特准备亲手结束她时，贝尔赌上自己，将寄生体诱入自身，再以火焰闪电从体内烧毁，创造救回缇欧娜的奇迹。即使残根折磨全身，缇欧娜仍加入队伍，鼓励贝尔像阿尔戈诺特那样以笑容化解悲剧。最终战中，她借伯特交给她的弗洛斯维尔特宝珠吸收雷击，并以大热斗濒死补正与异形右臂打出雷拳，与伯特一起击碎大屏障。",
+      "key_events": [
+        "bell-saves-tiona-by-burning-parasite-inside-himself",
+        "bete-and-bell-push-through-magic-realm",
+        "bell-and-allies-defeat-corrupted-spirit-and-rescue-ais"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-28/chapters/ch-007-第四章-奇迹的代价.txt",
+        "danmachi-main/vol-28/chapters/ch-008-第五章-The-Noob-is-Gone①.txt",
+        "danmachi-main/vol-28/chapters/ch-010-第五章-The-Noob-is-Gone③.txt",
+        "danmachi-main/vol-28/chapters/ch-011-尾声-Beautiful-World-II.txt"
+      ]
+    },
+    {
+      "period_id": "vol-29-tiona-hero-fan",
+      "volume": "vol-29",
+      "time": "多篇短篇",
+      "label": "想关注小英雄却害怕登台的亚马逊少女",
+      "name": {
+        "zh": "蒂奥娜·席吕特",
+        "en": "Tiona Hiryute",
+        "jp": "ティオナ・ヒリュテ"
+      },
+      "gender": "女",
+      "species": "亚马逊人",
+      "occupation": "冒险者、洛基眷族第一级冒险者",
+      "affiliation": "洛基眷族",
+      "status": {
+        "level": "Lv.6",
+        "location": "城墙、欧拉丽、黄昏馆书库",
+        "state": "以阿尔戈英雄粉丝身份关注贝尔，同时在封闭世界中感到空虚"
+      },
+      "summary": "蒂奥娜在战争游戏前与艾丝一起训练贝尔，并为三人准备宵夜。女神祭短篇中，她目击贝尔与希儿约会，因贝尔应当与艾丝或她们相关而产生说不清的失落。封闭世界短篇里，她阅读《阿尔戈英雄》却无法沉浸，意识到自己或许一直只想当英雄支持者，而未站上舞台。",
+      "key_events": [
+        "vol29-ch016-ais-and-tiona-war-game-training-night",
+        "vol29-ch055-tiona-intercepted-during-syr-date",
+        "vol29-ch062-tiona-feels-empty-reading-argonaut"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-29/chapters/ch-016-6卷特典-一-特训的插曲.txt",
+        "danmachi-main/vol-29/chapters/ch-055-三-目击者～亚马逊人的情况～.txt",
+        "danmachi-main/vol-29/chapters/ch-062-四-少女的愿望是想要永远关注小英雄.txt"
+      ]
+    }
+  ]
+}

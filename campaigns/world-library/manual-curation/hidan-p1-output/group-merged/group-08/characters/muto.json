@@ -1,0 +1,412 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "muto",
+  "volume": "vol-02",
+  "time_range": {
+    "start": "学生食堂",
+    "end": "亚特希雅杯闭幕"
+  },
+  "source_refs": [
+    "hidan-no-aria-main/vol-02/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-02-main",
+      "volume": "vol-02",
+      "time": "5月",
+      "label": "期间",
+      "name": {
+        "zh": "武藤刚气",
+        "en": "Muto Gouki",
+        "jp": "武藤 剛気"
+      },
+      "aliases": [
+        "交通工具宅"
+      ],
+      "titles": [
+        "车辆科能手"
+      ],
+      "gender": "男性",
+      "species": "人类",
+      "nationality": "日本",
+      "occupation": "武侦高中车辆科学生",
+      "affiliation": "东京武侦高中车辆科",
+      "status": {
+        "physical": "健康",
+        "mental": "稳定",
+        "social": "朋友不多"
+      },
+      "appearance": {
+        "overview": "刺猬头，粗线条外表",
+        "physical": {
+          "build": "粗犷"
+        },
+        "attire": {
+          "default": "制服"
+        },
+        "distinctive": [
+          "刺猬头"
+        ]
+      },
+      "personality": {
+        "summary": "金次的损友，车型宅男，凡是交通工具从汽车到核能潜艇都能驾驭。粗线条但没有女人缘，人不错但太粗犷。",
+        "core_traits": [
+          "粗犷",
+          "热心",
+          "直率"
+        ],
+        "strengths": [
+          "精通一切交通工具"
+        ],
+        "flaws": [
+          "粗线条",
+          "不会看气氛"
+        ],
+        "desires": [
+          "开卡车",
+          "帮白雪搬家"
+        ]
+      },
+      "background": {
+        "education": {
+          "current": "东京武侦高中车辆科二年级"
+        }
+      },
+      "possessions_owned": [
+        "colt-python"
+      ],
+      "relationships": {
+        "kinji.friend": "损友",
+        "shirakawa.crush": "暗恋白雪"
+      },
+      "summary": "在金次与白雪的保镖任务中帮忙搬家，在亚特希雅杯闭幕典礼的乐团担任鼓手。是少数对白雪有好感的男生之一。",
+      "key_events": [
+        {
+          "event_id": "bodyguard-contract",
+          "summary": "帮白雪搬家至金次宿舍",
+          "sourceRef": "hidan-no-aria-main/vol-02/full.txt:2693"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-02/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-07-main",
+      "volume": "vol-07",
+      "time": "希望246号事件与小队申请期",
+      "label": "火与风的华尔兹",
+      "name": {
+        "zh": "武藤刚气",
+        "en": "Muto Gouki",
+        "jp": "武藤剛気"
+      },
+      "gender": "男性",
+      "species": "人类",
+      "occupation": "东京武侦高中车辆科学生",
+      "affiliation": "东京武侦高中车辆科",
+      "status": {
+        "physical": "健康",
+        "mental": "危机中可靠，日常粗线条",
+        "social": "金次友人，协助小队申请前的日常"
+      },
+      "summary": "武藤在希望246号列车上被卷入劫持事件，协助计算时限并承担驾驶失控新干线的任务，在车厢切离后继续驾驶动力车至东京站。他也在小队申请篇与不知火调侃金次的贞德来信。",
+      "abilities_owned": [
+        "vehicle-operation",
+        "crisis-driving"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "kinji": {
+          "type": "friend",
+          "summary": "在关键时刻替金次驾驶新干线"
+        },
+        "shiranui": {
+          "type": "classmate",
+          "summary": "常与不知火一起调侃金次"
+        },
+        "hiraga": {
+          "type": "cooperator",
+          "summary": "事件后与平贺一起离开东京站"
+        }
+      },
+      "key_events": [
+        {
+          "event_id": "hope-246-hijacking",
+          "summary": "协助确认新干线失控时限",
+          "sourceRef": "hidan-no-aria-main/vol-07/full.txt:1475"
+        },
+        {
+          "event_id": "train-bomb-disposal",
+          "summary": "驾驶动力车并在平贺拆弹后紧急煞车",
+          "sourceRef": "hidan-no-aria-main/vol-07/full.txt:4106"
+        },
+        {
+          "event_id": "go-for-next-invitation",
+          "summary": "误把贞德邀请函当情书调侃金次",
+          "sourceRef": "hidan-no-aria-main/vol-07/full.txt:6508"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-07/chapters/ch-002-第七卷_火与风的华尔兹_2弹_HURRY_UP.txt:547",
+        "hidan-no-aria-main/vol-07/chapters/ch-003-第七卷_火与风的华尔兹_3弹_第三位双剑双枪.txt:1570",
+        "hidan-no-aria-main/vol-07/chapters/ch-005-第七卷_火与风的华尔兹_Go_For_The_NEXT!宣战会议.txt:36"
+      ]
+    },
+    {
+      "period_id": "vol-23",
+      "volume": "vol-23",
+      "time": "第二十三卷",
+      "label": "万能驾驶支援者",
+      "name": {
+        "zh": "武藤刚气",
+        "en": "Muto Gouki",
+        "jp": "武藤剛気"
+      },
+      "aliases": [
+        "武藤"
+      ],
+      "titles": [
+        "武侦高中车辆科三年级A级武侦"
+      ],
+      "gender": "男",
+      "species": "人类",
+      "nationality": "日本",
+      "occupation": "车辆科武侦学生/驾驶员",
+      "affiliation": "东京武侦高中车辆科",
+      "status": {
+        "physical": "存活；驾驶不知火游艇与CRRC追逐NDD",
+        "social": "只接受驾驶委托，不追问机密"
+      },
+      "appearance": {
+        "overview": "近一百九十公分，刺猬头，爽快型男生"
+      },
+      "personality": {
+        "summary": "爽朗、好讲话、驾驶狂，愿意为金次赌命",
+        "core_traits": [
+          "驾驶天才",
+          "胆大",
+          "讲义气",
+          "好奇但守分寸"
+        ]
+      },
+      "abilities_owned": [
+        "vehicle-master-driving"
+      ],
+      "possessions_owned": [
+        "muto-three-wheel-bike",
+        "muto-colt-python"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "老朋友/驾驶支援",
+          "detail": "从一年级认识，接受紧急委托载金次追NDD"
+        },
+        "shiranui": {
+          "type": "委托方",
+          "detail": "由不知火临时委托驾驶游艇"
+        },
+        "yojin": {
+          "type": "作战同伴",
+          "detail": "载妖刕靠近NDD并回收落海的他"
+        }
+      },
+      "summary": "武藤在东京湾行动中负责所有关键驾驶：先操纵不知火家的隐形游艇，后驾驶CRRC小艇追逐NDD。他不追问机密但理解金次相关案件通常需要赌命。",
+      "key_events": [
+        {
+          "event_id": "haruna-ndd-crisis",
+          "summary": "受不知火委托驾驶隐形游艇接近春雾",
+          "sourceRef": "hidan-no-aria-main/vol-23/full.txt:3871"
+        },
+        {
+          "event_id": "ndd-chase-deflection",
+          "summary": "驾驶CRRC追上NDD并回收妖刕",
+          "sourceRef": "hidan-no-aria-main/vol-23/full.txt:5641"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-23/chapters/ch-004-第二十三卷_不可知子弹_4弹_不可知子弹.txt:245",
+        "hidan-no-aria-main/vol-23/chapters/ch-004-第二十三卷_不可知子弹_4弹_不可知子弹.txt:2015"
+      ]
+    },
+    {
+      "period_id": "vol-35",
+      "volume": "vol-35",
+      "time": "第三十五卷",
+      "name": {
+        "zh": "武藤刚气",
+        "en": "Gouki Muto",
+        "jp": "武藤剛気"
+      },
+      "aliases": [
+        "武藤",
+        "车辆科武藤"
+      ],
+      "gender": "male",
+      "species": "human",
+      "nationality": "Japan",
+      "occupation": "东京武侦高中车辆科学生/运输GA成员",
+      "affiliation": [
+        "东京武侦高中车辆科",
+        "运输GA"
+      ],
+      "status": {
+        "life": "alive",
+        "condition": "在十六号车库与平贺文等维修亚莉亚和GⅢ装备",
+        "role": "装备维修与交通工具技术支援"
+      },
+      "appearance": {
+        "overview": "在车库向金次打招呼。"
+      },
+      "personality": {
+        "summary": "车辆科技术成员，熟悉金次与亚莉亚的装备委托。",
+        "core_traits": [
+          "技术支援",
+          "熟人吐槽",
+          "可靠维修"
+        ]
+      },
+      "abilities_owned": [],
+      "possessions_owned": [
+        "garage-16"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "friend/classmate",
+          "description": "金次到车库查看装备时与他交谈。"
+        },
+        "aria": {
+          "type": "repair-client",
+          "description": "参与维修亚莉亚委托的YHS/03与奥尔库斯。"
+        },
+        "hiraga-bun": {
+          "type": "technical-collaborator",
+          "description": "把车库作为平贺文维修工作场地。"
+        }
+      },
+      "key_events": [
+        {
+          "event_id": "vehicle-garage-equipment-repair",
+          "summary": "在十六号车库协助维修滞空裙甲、奥尔库斯与加布林。",
+          "sourceRef": "hidan-no-aria-main/vol-35/full.txt"
+        }
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "hidan-no-aria-main/vol-35/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-38",
+      "volume": "vol-38",
+      "time": "金次回国当晚",
+      "label": "武程车司机",
+      "name": {
+        "zh": "武藤",
+        "en": "Muto",
+        "jp": "武藤"
+      },
+      "aliases": [
+        "武程车"
+      ],
+      "titles": [],
+      "gender": "男",
+      "species": "人类",
+      "nationality": "日本",
+      "occupation": "武侦/机车司机",
+      "affiliation": "武侦相关",
+      "status": {
+        "physical": "健康",
+        "mental": "",
+        "location": "霞关→东大赤门"
+      },
+      "appearance": {
+        "overview": "骑BMW K1200R机车在金次从海保直升机下来后载他到东大。",
+        "physical": {
+          "build": "宽阔的背部"
+        },
+        "attire": {},
+        "voice_quality": {},
+        "distinctive": [
+          "被称为武程车"
+        ]
+      },
+      "personality": {
+        "summary": "金次将从霞关到东大的交通手段称为\"武程车\"（武藤当计程车用）。在把金次送到东大赤门后调侃他说\"来到最不适合你的地方了呢～金次\"。",
+        "core_traits": [
+          "可靠",
+          "善于吐槽"
+        ],
+        "values": [],
+        "fears": [],
+        "desires": [],
+        "strengths": [
+          "机车驾驶技术"
+        ],
+        "flaws": [],
+        "inner_conflict": "",
+        "decision_pattern": {}
+      },
+      "voice": {
+        "self_reference": "",
+        "address_pattern": {
+          "kinji": "金次"
+        },
+        "register": "轻松",
+        "catchphrases": [
+          "来到最不适合你的地方了呢～"
+        ],
+        "quote_samples": [
+          {
+            "quote": "来到最不适合你的地方了呢～金次。",
+            "sourceRef": "hidan-no-aria-main/vol-38/full.txt:647"
+          }
+        ]
+      },
+      "habits": {
+        "mannerisms": [],
+        "daily_routine": "",
+        "quirks": [],
+        "preferences": {}
+      },
+      "background": {
+        "birth": {
+          "place": "",
+          "family": []
+        },
+        "upbringing": "",
+        "education": {},
+        "formative_events": [],
+        "pre_story": ""
+      },
+      "abilities_owned": [],
+      "possessions_owned": [
+        "kinji-desert-eagle"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "熟人/代步工具",
+          "status": "在金次急需时用机车载他"
+        }
+      },
+      "knowledge": [],
+      "secrets": [],
+      "summary": "金次从海保直升机下来后，骑BMW K1200R机车将金次从霞关送到东大赤门。被称为\"武程车\"。",
+      "key_events": [
+        {
+          "event_id": "kinji-polestar-return",
+          "summary": "骑机车载金次到东大。",
+          "sourceRef": "hidan-no-aria-main/vol-38/full.txt:645"
+        }
+      ],
+      "evidence_level": "B",
+      "source_refs": [
+        "hidan-no-aria-main/vol-38/chapters/ch-001-第三十八卷_不会忘记爱_1弹_最后的线.txt:645"
+      ]
+    }
+  ]
+}

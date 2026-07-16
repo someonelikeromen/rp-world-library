@@ -1,0 +1,23 @@
+{
+  "schema": "tm-fgo-normalized-event-manifest-v1",
+  "chapterId": "fgo-eor-salem",
+  "note": "Manifest references individual extracted event records; this is not a formal aggregate events.json.",
+  "events": [
+    {"rawEventCode":"事件A","eventId":"salem-event-a","orderIndex":1,"path":"extracted/eor/salem/events/event-A.json","sourceRefs":[{"path":"sources/worldbook-script/eor/ch-092-salem.txt","lineStart":40,"lineEnd":41}],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"},
+    {"rawEventCode":"事件B","eventId":"salem-event-b","orderIndex":2,"path":"extracted/eor/salem/events/event-B.json","sourceRefs":[{"path":"sources/worldbook-script/eor/ch-092-salem.txt","lineStart":43,"lineEnd":45}],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"},
+    {"rawEventCode":"事件C","eventId":"salem-event-c","orderIndex":3,"path":"extracted/eor/salem/events/event-C.json","sourceRefs":[{"path":"sources/worldbook-script/eor/ch-092-salem.txt","lineStart":47,"lineEnd":49}],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"},
+    {"rawEventCode":"事件D","eventId":"salem-event-d","orderIndex":4,"path":"extracted/eor/salem/events/event-D.json","sourceRefs":[{"path":"sources/worldbook-script/eor/ch-092-salem.txt","lineStart":51,"lineEnd":53}],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"},
+    {"rawEventCode":"事件E","eventId":"salem-event-e","orderIndex":5,"path":"extracted/eor/salem/events/event-E.json","sourceRefs":[{"path":"sources/worldbook-script/eor/ch-092-salem.txt","lineStart":55,"lineEnd":56}],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"},
+    {"rawEventCode":"事件F","eventId":"salem-event-f","orderIndex":6,"path":"extracted/eor/salem/events/event-F.json","sourceRefs":[{"path":"sources/worldbook-script/eor/ch-092-salem.txt","lineStart":58,"lineEnd":60}],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"},
+    {"rawEventCode":"事件G","eventId":"salem-event-g","orderIndex":7,"path":"extracted/eor/salem/events/event-G.json","sourceRefs":[{"path":"sources/worldbook-script/eor/ch-092-salem.txt","lineStart":62,"lineEnd":64}],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"},
+    {"rawEventCode":"事件H","eventId":"salem-event-h","orderIndex":8,"path":"extracted/eor/salem/events/event-H.json","sourceRefs":[{"path":"sources/worldbook-script/eor/ch-092-salem.txt","lineStart":66,"lineEnd":68}],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"},
+    {"rawEventCode":"事件I","eventId":"salem-event-i","orderIndex":9,"path":"extracted/eor/salem/events/event-I.json","sourceRefs":[{"path":"sources/worldbook-script/eor/ch-092-salem.txt","lineStart":70,"lineEnd":72}],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"},
+    {"rawEventCode":"事件J","eventId":"salem-event-j","orderIndex":10,"path":"extracted/eor/salem/events/event-J.json","sourceRefs":[{"path":"sources/worldbook-script/eor/ch-092-salem.txt","lineStart":74,"lineEnd":76}],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"},
+    {"rawEventCode":"事件K","eventId":"salem-event-k","orderIndex":11,"path":"extracted/eor/salem/events/event-K.json","sourceRefs":[{"path":"sources/worldbook-script/eor/ch-092-salem.txt","lineStart":78,"lineEnd":79}],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"},
+    {"rawEventCode":"事件L","eventId":"salem-event-l","orderIndex":12,"path":"extracted/eor/salem/events/event-L.json","sourceRefs":[{"path":"sources/worldbook-script/eor/ch-092-salem.txt","lineStart":81,"lineEnd":83}],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"}
+  ],
+  "sourceRefs": [{"path":"sources/worldbook-script/eor/ch-092-salem.txt","lineStart":40,"lineEnd":83}],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

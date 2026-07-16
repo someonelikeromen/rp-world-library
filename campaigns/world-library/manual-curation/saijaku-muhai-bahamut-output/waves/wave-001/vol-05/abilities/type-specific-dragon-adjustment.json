@@ -1,0 +1,35 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "type-specific-dragon-adjustment",
+  "volume": "vol-05",
+  "periods": [
+    {
+      "period_id": "vol-05",
+      "volume": "vol-05",
+      "time": "vol-05",
+      "name": { "zh": "特装机龙调整能力", "en": "Type-Specific Dragon Adjustment" },
+      "aliases": ["特装机龙系统连携"],
+      "type": "technology / skill",
+      "description": "诺珂特·利弗雷特持有的特装机龙《特装机龙》的能力。可以从肩口机械处延伸出长线与其他机龙连接，进行系统级的调整和限制，防止操作失误导致的暴走。",
+      "details": {
+        "mechanism": "通过肩口机械延伸线缆与目标机龙连接",
+        "functions": ["施加命令限制", "防止暴走", "辅助操作"]
+      },
+      "activation": { "condition": "需目标机龙允许系统交托", "time": "实时" },
+      "effects": ["限制其他机龙的反应", "允许安全训练"],
+      "power_level": { "initial": "高" },
+      "known_feats": ["帮助艾丽安全进行机龙基本动作训练"],
+      "shared_by": ["nocot-licret"],
+      "see_also": ["armored-dragon-operation"],
+      "countered_by": [],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-05/full.txt:1000-1100"
+      ]
+    }
+  ],
+  "source_refs": []
+}

@@ -1,0 +1,10 @@
+{
+  "schema":"tm-fgo-source-vs-merged-comparison-v1",
+  "comparisons":[
+    {"chapterId":"fgo-lb5-1-atlantis","sourceEventCount":31,"mergedEventFiles":31,"sourceDialogueQuoteEstimate":37,"rawFieldsRetained":["triggerRaw","completionRaw","summaryRaw"],"relationshipEdgesWithTemporalFields":4,"sourceRefs":["sources/worldbook-script/lostbelt/ch-097-lb5-1-atlantis.txt:1-124"],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"},
+    {"chapterId":"fgo-lb5-2-olympos","sourceEventCount":29,"mergedEventFiles":29,"sourceDialogueQuoteEstimate":41,"rawFieldsRetained":["triggerRaw","completionRaw","summaryRaw"],"relationshipEdgesWithTemporalFields":7,"sourceRefs":["sources/worldbook-script/lostbelt/ch-098-lb5-2-olympos.txt:1-125"],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"}
+  ],
+  "totals":{"sourceEvents":60,"mergedEventFiles":60,"relationshipEdgesWithTemporalFields":11,"openIssues":0,"blockedIssues":0},
+  "sourceFirstConclusion":"Merged layer matches packet event counts and preserves raw source-first terminology and required raw event fields. Final read-only audit was intentionally not run in this merge run.",
+  "sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"
+}

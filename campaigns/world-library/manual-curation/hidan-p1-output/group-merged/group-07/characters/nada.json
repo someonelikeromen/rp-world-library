@@ -1,0 +1,512 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "nada",
+  "volume": "vol-21",
+  "source_refs": [
+    "hidan-no-aria-main/vol-21/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-21",
+      "volume": "vol-21",
+      "time": "第二十一卷",
+      "name": {
+        "zh": "滩",
+        "en": "Nada",
+        "jp": "灘"
+      },
+      "aliases": [
+        "排行十九名的男人"
+      ],
+      "gender": "male",
+      "species": "human",
+      "occupation": "狮堂小队成员",
+      "affiliation": "东京地检特搜部相关逮捕小队",
+      "status": {
+        "end": "随狮堂现身，称自己排行十九，认为杀七十一名金次不会提升排名"
+      },
+      "abilities_owned": [
+        "elite-combat",
+        "ranker-hunting"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "shidou": {
+          "type": "squad-leader",
+          "summary": "听从狮堂的Delta队形命令"
+        },
+        "kinji": {
+          "type": "target",
+          "summary": "将金次视为低排名猎物"
+        },
+        "harada-seiba": {
+          "type": "squadmate",
+          "summary": "同属狮堂五人阵列"
+        }
+      },
+      "summary": "滩是狮堂小队中穿整齐西装的瘦男，SDA排名十九，对逮捕金次表现得不以为然但仍服从队长命令。",
+      "key_events": [
+        {
+          "event_id": "kinji-arrested-by-shidou",
+          "summary": "作为狮堂五人队成员压制金次",
+          "sourceRef": "hidan-no-aria-main/vol-21/full.txt"
+        }
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "hidan-no-aria-main/vol-21/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-22",
+      "volume": "vol-22",
+      "time": "第十三区前零课行动",
+      "label": "前零课战斗成员",
+      "name": {
+        "zh": "滩",
+        "en": "Nada",
+        "jp": ""
+      },
+      "aliases": [],
+      "titles": [
+        "前公安零课成员"
+      ],
+      "gender": "男",
+      "species": "人类",
+      "nationality": "日本",
+      "occupation": "前公安零课成员；东京地检转属人员",
+      "affiliation": "former-public-security-zero",
+      "status": {
+        "alive": true,
+        "vol22": "随狮堂包围金次，并被要求按SDA十九名级别看待爆发后的金次"
+      },
+      "appearance": {
+        "overview": "条纹西装、姿势与眼神凶恶的瘦男子。",
+        "distinctive": [
+          "态度粗鲁",
+          "对加班费和吃饭很现实"
+        ]
+      },
+      "personality": {
+        "summary": "凶悍、现实、服从狮堂指挥但会抱怨。",
+        "core_traits": [
+          "粗暴",
+          "务实",
+          "团队行动",
+          "好战"
+        ]
+      },
+      "abilities_owned": [
+        "former-zero-combat-training"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "shidou": {
+          "relation": "队长",
+          "status": "听从狮堂指挥行动。",
+          "sourceRef": "hidan-no-aria-main/vol-22/full.txt:351"
+        },
+        "kinji": {
+          "relation": "围捕目标",
+          "status": "参与围堵金次退路。",
+          "sourceRef": "hidan-no-aria-main/vol-22/full.txt:1209"
+        },
+        "kamui": {
+          "relation": "同僚",
+          "status": "同属前零课行动组。",
+          "sourceRef": "hidan-no-aria-main/vol-22/full.txt:351"
+        }
+      },
+      "knowledge": [],
+      "secrets": [],
+      "summary": "滩是狮堂麾下的前零课成员之一，在卷首围捕金次的行动中负责形成包围阵势，体现前零课作为团队战斗集团的压迫力。",
+      "key_events": [
+        {
+          "event_id": "zero-arrest-and-interview",
+          "summary": "参与前零课对金次的无名氏之死逮捕与围堵。",
+          "sourceRef": "hidan-no-aria-main/vol-22/full.txt:351"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-22/chapters/ch-001-第二十二卷_愿彗星沉睡于白日梦_1弹_无名氏之死.txt:351",
+        "hidan-no-aria-main/vol-22/chapters/ch-001-第二十二卷_愿彗星沉睡于白日梦_1弹_无名氏之死.txt:1651"
+      ]
+    },
+    {
+      "period_id": "vol-23",
+      "volume": "vol-23",
+      "time": "第二十三卷",
+      "label": "前零课三式班成员",
+      "name": {
+        "zh": "滩",
+        "en": "Nada",
+        "jp": "滩"
+      },
+      "aliases": [
+        "滩先生"
+      ],
+      "titles": [
+        "前公安零课三式班成员"
+      ],
+      "gender": "男",
+      "species": "人类",
+      "nationality": "日本",
+      "occupation": "前零课成员；滩制果家出身",
+      "affiliation": "前公安零课三式班",
+      "status": {
+        "physical": "存活；出国执行任务而未参加春雾战",
+        "social": "家中经营和果子店滩制果"
+      },
+      "appearance": {
+        "overview": "瘦高、名牌西装、羊绒围巾、爱打扮"
+      },
+      "personality": {
+        "summary": "轻浮爱美、好女色、酒量好，但了解零课机密分寸",
+        "core_traits": [
+          "讲究外表",
+          "酒会老练",
+          "吐槽役"
+        ],
+        "flaws": [
+          "爱搭讪",
+          "虚荣"
+        ]
+      },
+      "abilities_owned": [
+        "zero-agent-skills"
+      ],
+      "possessions_owned": [
+        "nada-guitar",
+        "nada-confectionery-gift"
+      ],
+      "relationships": {
+        "shidou": {
+          "type": "同伴/吐槽对象",
+          "detail": "与狮堂互相调侃并同属三式班"
+        },
+        "kinji": {
+          "type": "宴会同席",
+          "detail": "在妖刕家向金次展示零课同伴的一面"
+        },
+        "daimonbou": {
+          "type": "同伴",
+          "detail": "三式班同伴"
+        }
+      },
+      "summary": "滩在妖刕家宴会中登场，原以为是联谊而精心打扮，随后喝酒、调酒、弹吉他唱老歌并参与N话题的限制性谈话。",
+      "key_events": [
+        {
+          "event_id": "zero-party-n-warning",
+          "summary": "参加前零课宴会并在N话题中提醒狮堂别喝过头",
+          "sourceRef": "hidan-no-aria-main/vol-23/full.txt:3007"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-23/chapters/ch-003-第二十三卷_不可知子弹_3弹_Take_note_『N』.txt:299",
+        "hidan-no-aria-main/vol-23/chapters/ch-003-第二十三卷_不可知子弹_3弹_Take_note_『N』.txt:529"
+      ]
+    },
+    {
+      "period_id": "vol-38",
+      "volume": "vol-38",
+      "time": "本卷末尾",
+      "label": "旧公安零课成员",
+      "name": {
+        "zh": "滩",
+        "en": "Nada",
+        "jp": "灘"
+      },
+      "aliases": [],
+      "titles": [
+        "SDA评等第十九名"
+      ],
+      "gender": "男",
+      "species": "人类",
+      "nationality": "日本",
+      "occupation": "公安零课成员",
+      "affiliation": "旧公安零课/警视厅公安部",
+      "status": {
+        "physical": "健康",
+        "mental": "不想做无报酬的战斗",
+        "location": "山渊森林"
+      },
+      "appearance": {
+        "overview": "瘦削身材，穿名牌西装和很贵的皮鞋，长相普通但时尚。",
+        "physical": {
+          "build": "瘦削"
+        },
+        "attire": {
+          "default": "名牌西装（亚曼尼）"
+        },
+        "voice_quality": {},
+        "distinctive": [
+          "讨厌麻烦",
+          "吸七星香烟"
+        ]
+      },
+      "personality": {
+        "summary": "旧公安零课成员，拥有超高速\"没有蓄力的攻击\"的能力。在金次面前展示避开子弹的速度，并打了金次十七拳的连击。认为和金次战斗不划算而放他过去。",
+        "core_traits": [
+          "市井智慧",
+          "实用主义",
+          "冷酷"
+        ],
+        "values": [
+          "自我保全",
+          "舒适"
+        ],
+        "fears": [
+          "西装被弄破"
+        ],
+        "desires": [
+          "不想做无酬工作"
+        ],
+        "strengths": [
+          "超高速攻击和移动",
+          "不蓄力攻击",
+          "SDA第十九名"
+        ],
+        "flaws": [
+          "懒惰",
+          "自我中心"
+        ],
+        "inner_conflict": "",
+        "decision_pattern": {
+          "fight": "只做有报酬的战斗"
+        }
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {
+          "kinji": "远山"
+        },
+        "register": "下町风格",
+        "catchphrases": [
+          "君子不近危"
+        ],
+        "quote_samples": [
+          {
+            "quote": "我的座右铭是『君子不近危』。可是，我被迫过着不断接近危险的生活。可恶。为什么啊？",
+            "sourceRef": "hidan-no-aria-main/vol-38/full.txt:1864"
+          },
+          {
+            "quote": "女人多得像星星一样耶？和爱上的女人哇哇大哭地分手，隔天摸着别的女人的屁股才是强悍的男人啊。",
+            "sourceRef": "hidan-no-aria-main/vol-38/full.txt:1977"
+          }
+        ]
+      },
+      "habits": {
+        "mannerisms": [
+          "抛半美元硬币决定事情",
+          "吸七星香烟"
+        ],
+        "daily_routine": "",
+        "quirks": [
+          "用硬币决策"
+        ],
+        "preferences": {
+          "cigarette": "七星"
+        }
+      },
+      "background": {
+        "birth": {
+          "place": "浅草",
+          "family": []
+        },
+        "upbringing": "浅草下町",
+        "education": {},
+        "formative_events": [],
+        "pre_story": ""
+      },
+      "abilities_owned": [],
+      "possessions_owned": [],
+      "relationships": {
+        "kinji": {
+          "type": "对手",
+          "status": "放金次过去追悠树菜"
+        },
+        "ito-kamui": {
+          "type": "零课同事",
+          "status": "共同执行任务"
+        },
+        "shido-toragon": {
+          "type": "上司",
+          "status": "零课第三号强者部下"
+        }
+      },
+      "knowledge": [],
+      "secrets": [],
+      "summary": "旧公安零课成员，SDA第十九名。在山渊森林与金次对峙，展示超高速移动和十七连击的能力。因认为战斗不划算而放金次去追悠树菜。",
+      "key_events": [
+        {
+          "event_id": "public-security-raid-yamabuchi",
+          "summary": "在山渊森林与金次交战并放行。",
+          "sourceRef": "hidan-no-aria-main/vol-38/full.txt:1864"
+        }
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "hidan-no-aria-main/vol-38/chapters/ch-003-第三十八卷_不会忘记爱_3弹_没想到会在这里遇到这个名字.txt:336",
+        "hidan-no-aria-main/vol-38/chapters/ch-003-第三十八卷_不会忘记爱_3弹_没想到会在这里遇到这个名字.txt:449"
+      ]
+    },
+    {
+      "period_id": "vol-39-main",
+      "volume": "vol-39",
+      "time": "牛义山行动",
+      "name": {
+        "zh": "滩",
+        "en": "Nada",
+        "jp": "滩"
+      },
+      "aliases": [
+        "滩先生"
+      ],
+      "titles": [
+        "旧公安零课成员"
+      ],
+      "gender": "male",
+      "species": "human",
+      "nationality": "Japanese",
+      "occupation": "公安特务",
+      "affiliation": "旧公安零课",
+      "status": {
+        "physical": "被山崩冲入河后生还",
+        "mental": "怕麻烦却会在关键时刻帮忙"
+      },
+      "appearance": {
+        "overview": "西装袖中藏德林吉，行动阴险灵活。",
+        "physical": {
+          "height": "",
+          "build": "敏捷",
+          "hair": {},
+          "eyes": {}
+        },
+        "attire": {
+          "default": "西装",
+          "combat": "手枪、匕首"
+        },
+        "voice_quality": {},
+        "distinctive": [
+          "语气轻浮，常推卸责任"
+        ]
+      },
+      "personality": {
+        "summary": "风流、现实、怕强敌，但懂男人保护女人的心情。",
+        "core_traits": [
+          "狡猾",
+          "风流",
+          "现实主义",
+          "嘴硬心软"
+        ],
+        "values": [
+          "保命",
+          "女性",
+          "同伴最低限度义气"
+        ],
+        "fears": [
+          "与不破全面交战"
+        ],
+        "desires": [
+          "回东京联谊",
+          "弄清金次受美女欢迎秘诀"
+        ],
+        "strengths": [
+          "暗算",
+          "拘捕术",
+          "左翼配合"
+        ],
+        "flaws": [
+          "逃避责任",
+          "嘴毒"
+        ],
+        "inner_conflict": "理性想撤退，但被金次与狮堂拖入救援。",
+        "decision_pattern": {
+          "danger": "先考虑撤退；若认可同伴则最低限度支援"
+        }
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {
+          "kinji": "远山/蠢货",
+          "fuwa": "不破先生"
+        },
+        "register": {
+          "default": "轻浮粗鲁"
+        },
+        "catchphrases": [],
+        "quote_samples": []
+      },
+      "habits": {
+        "mannerisms": [
+          "偷袭",
+          "抽七星香烟",
+          "抱怨乡下无聊"
+        ],
+        "daily_routine": "公安零课行动与联谊。",
+        "quirks": [
+          "用CP值衡量战斗"
+        ],
+        "preferences": {
+          "women": "空姐联谊"
+        }
+      },
+      "background": {
+        "birth": {
+          "place": "日本",
+          "family": []
+        },
+        "upbringing": "旧零课特务。",
+        "education": {},
+        "formative_events": [],
+        "pre_story": "半年前曾与金次等交手。"
+      },
+      "abilities_owned": [
+        "nada-undercover-capture"
+      ],
+      "possessions_owned": [
+        "nada-derringer",
+        "nada-knife"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "reluctant ally",
+          "summary": "起初拘捕金次，后放他一马并协助救援。"
+        },
+        "shido": {
+          "type": "teammate",
+          "summary": "服从但常抱怨狮堂。"
+        },
+        "fuwa": {
+          "type": "feared superior/adversary",
+          "summary": "试图暗算不破却被轻易化解。"
+        },
+        "kamui": {
+          "type": "teammate",
+          "summary": "一起行动和牵制不破。"
+        }
+      },
+      "knowledge": [
+        "japanese-jedi-project"
+      ],
+      "secrets": [],
+      "summary": "滩是旧零课的轻浮特务，反对与不破全面开战，却最终加入救援。他对金次保护悠树菜有所理解，事后嘴硬离开。",
+      "key_events": [
+        {
+          "event_id": "zero-section-alliance",
+          "summary": "在山渊家中与金次争执后加入救援。",
+          "sourceRef": "hidan-no-aria-main/vol-39/full.txt:471"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-39/chapters/ch-001-第三十九卷_荒胫巾的巫女_1弹_不会受伤的男人.txt:1",
+        "hidan-no-aria-main/vol-39/chapters/ch-002-第三十九卷_荒胫巾的巫女_2弹_荒胫巾的巫女.txt:1",
+        "hidan-no-aria-main/vol-39/chapters/ch-003-第三十九卷_荒胫巾的巫女_3弹_稻交.txt:1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "rakudai-kishi",
+  "character_id": "byakuya-jonosaki",
+  "volume": "vol-07",
+  "time_range": { "start": "vol-07 ch-003", "end": "vol-07 ch-005" },
+  "sub_arcs": ["bathhouse-encounter", "c-block-second-round", "ikki-vs-byakuya-opening"],
+  "periods": [
+    {
+      "period_id": "vol-07",
+      "volume": "vol-07",
+      "time": "Night after first round through C-block second-round match",
+      "label": "天眼的二十三手被斩断",
+      "name": { "zh": "城之崎白夜", "en": "Byakuya Jonosaki", "jp": "城之崎白夜" },
+      "aliases": ["天眼"],
+      "titles": ["武曲学园三年级", "上届七星剑武祭亚军"],
+      "gender": "male",
+      "species": "human / Blazer",
+      "occupation": "student knight",
+      "affiliation": "Bukyoku Academy",
+      "status": { "current": "second-round opponent of Ikki; loses consciousness immediately at match start after Ittou Rasetsu" },
+      "personality": {
+        "summary": "Cerebral and elegant, treating duels as intellectual games to be solved before they begin, with an eccentric habit of over-investigating opponents' bodies and preferences.",
+        "core_traits": ["analytical", "polite", "eccentric", "confident", "aesthetic about battle"],
+        "fears": [],
+        "values": ["perfect prediction", "beautiful battle records", "knowledge before combat"]
+      },
+      "abilities_owned": ["白手", "强制移动", "天眼-level prediction through research", "spatial transfer within about fifty meters"],
+      "relationships": {
+        "ikki-kurogane": "Second-round opponent whose body and habits he studies; predicts a 23-move win that Ikki ruins instantly.",
+        "yuudai-moroboshi": "Friend and schoolmate; Moroboshi visits before the match, teasing and warning him not to underestimate Ikki.",
+        "nagi-arisuin": "Investigated as a potential Hagun representative and correctly gives him preferred canned coffee in the bathhouse.",
+        "momiji": "Loved girl mentioned when denying that his body-touching interest is sexual."
+      },
+      "summary": "Byakuya encounters Ikki in the bathhouse and demonstrates White Hand by teleporting drinks into Ikki's and Alice's hands after reading their preferences. Ikki explains that Byakuya's strength is not only forced relocation of objects within range after locking them, but an overwhelming ability to gather data and infer a person's concept before the match. In the preparation room Byakuya frames duels as intellectual chess and predicts that Ikki, needing to save Ittou Shura for Sara, will fight without his trump card and lose on the twenty-third move. His entire scenario collapses when Ikki chooses the supposedly impossible opening: immediate Ittou Rasetsu. Byakuya's memory cuts off at the start signal, implying instant defeat before his planned battle can begin.",
+      "key_events": [
+        { "event_id": "ikki-bathhouse-byakuya-encounter", "summary": "Meets Ikki, studies his body, and demonstrates White Hand with drink teleportation." },
+        { "event_id": "ikki-vs-byakuya-opening-rasetsu", "summary": "Has his predicted twenty-three-move battle cut short by Ikki's immediate Ittou Rasetsu." }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["rakudai-kishi-main/vol-07/ch-003", "rakudai-kishi-main/vol-07/ch-005"]
+    }
+  ],
+  "source_refs": ["rakudai-kishi-main/vol-07"]
+}

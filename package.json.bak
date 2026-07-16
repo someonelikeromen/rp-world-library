@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "iconv-lite": "^0.7.2"
+  },
+  "scripts": {
+    "test:rp-random": "node packages/rp-random/test/run-tests.js",
+    "test:rp-achievements": "node packages/rp-achievements/test/run-tests.js",
+    "test:rp-all": "npm run test:rp-random && npm run test:rp-achievements"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

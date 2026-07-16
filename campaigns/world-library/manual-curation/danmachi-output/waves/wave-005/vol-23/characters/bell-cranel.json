@@ -1,0 +1,81 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "bell-cranel",
+  "volume": "vol-23",
+  "periods": [
+    {
+      "period_id": "vol-23-bell-bd-talks-and-ryu-if",
+      "volume": "vol-23",
+      "time": "全卷；广播剧与琉IF枝史",
+      "label": "派阀联合中心与枝史中的选择者",
+      "name": {
+        "zh": "贝尔·克朗尼",
+        "en": "Bell Cranel"
+      },
+      "aliases": [
+        "小新秀",
+        "贝尔大人"
+      ],
+      "gender": "男",
+      "species": "人类",
+      "affiliation": "赫斯缇雅眷族",
+      "summary": "广播剧中贝尔是男女成员夜谈的核心话题，常被视为迟钝却吸引众多女性的主人公。琉IF枝史中，他向琉拜师、长期接受清晨训练，最终在深层选择琉而非继续追逐艾丝的憧憬。",
+      "personality": {
+        "summary": "纯真、胆小但有强烈意志，重视不伤害他人；在枝史中逐渐学会面对自身恋慕。",
+        "core_traits": [
+          "纯白",
+          "真诚",
+          "不擅长恋爱判断",
+          "愿意背负选择代价"
+        ]
+      },
+      "relationships": {
+        "ryu-lion": "枝史中从师徒、守护对象转为恋人；承认自己喜欢琉。",
+        "ais-wallenstein": "原本憧憬对象；枝史中因选择琉而放弃追逐。",
+        "syr-flova": "重要熟人，曾为琉与贝尔关系提供咨询和祝福。",
+        "liliruca-arde": "被莉莉强烈仰慕与保护。"
+      },
+      "key_events": [
+        {
+          "event_id": "boys-talk-rivira",
+          "summary": "被追问恋爱偏好并坦白憧憬艾丝、偏好金发精灵。"
+        },
+        {
+          "event_id": "ryu-if-training-begins",
+          "summary": "主动请求琉教导战斗。"
+        },
+        {
+          "event_id": "ryu-if-deep-floor-kiss-and-choice",
+          "summary": "在深层接受琉的吻并选择她。"
+        },
+        {
+          "event_id": "ryu-if-ryu-hero-vs-juggernaut",
+          "summary": "醒来后宣告自己喜欢琉并与她并肩击败札格诺特。"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-23/chapters/ch-002-BD4特典广播剧-Dungeon-in-Boys'-Talk.txt",
+        "danmachi-main/vol-23/chapters/ch-003-琉if线「妖精的枝史」前篇.txt",
+        "danmachi-main/vol-23/chapters/ch-004-琉if线「妖精的枝史」后篇.txt"
+      ]
+    }
+  ],
+  "source_refs": [
+    "danmachi-main/vol-23/chapters/ch-002-BD4特典广播剧-Dungeon-in-Boys'-Talk.txt",
+    "danmachi-main/vol-23/chapters/ch-003-琉if线「妖精的枝史」前篇.txt",
+    "danmachi-main/vol-23/chapters/ch-004-琉if线「妖精的枝史」后篇.txt"
+  ],
+  "_revisions": [
+    {
+      "type": "fix",
+      "description": "将顶层 source_refs 从章节目录占位改为本文件 period 已引用的具体 vol-23 章节文件，避免 sourceRef 精确度/可追溯性问题。",
+      "source_refs": [
+        "danmachi-main/vol-23/chapters/ch-002-BD4特典广播剧-Dungeon-in-Boys'-Talk.txt",
+        "danmachi-main/vol-23/chapters/ch-003-琉if线「妖精的枝史」前篇.txt",
+        "danmachi-main/vol-23/chapters/ch-004-琉if线「妖精的枝史」后篇.txt"
+      ]
+    }
+  ]
+}

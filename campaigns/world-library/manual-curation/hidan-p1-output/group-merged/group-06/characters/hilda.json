@@ -1,0 +1,547 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "hilda",
+  "volume": "vol-08",
+  "time_range": {
+    "start": "秋季",
+    "end": "秋季"
+  },
+  "sub_arcs": [
+    "宣战会议",
+    "白银的ICBM",
+    "Go For The NEXT"
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-08/full.txt"
+  ],
+  "periods": [
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:121",
+        "hidan-no-aria-main/vol-09/full.txt:397",
+        "hidan-no-aria-main/vol-09/full.txt:617",
+        "hidan-no-aria-main/vol-09/full.txt:2015",
+        "hidan-no-aria-main/vol-09/full.txt:2885"
+      ],
+      "snapshot": {
+        "name": "希尔达",
+        "aliases": [
+          "紫电魔女",
+          "德古拉女伯爵",
+          "弗拉德之女",
+          "黑暗眷属"
+        ],
+        "gender": "女",
+        "species": "吸血鬼/电气能力者",
+        "status": "重伤存活；被华生救治，因理子输血保住性命，身体恢复中并陷入沉思",
+        "role": "本卷主要反派；眷属阵营吸血鬼要角",
+        "affiliations": [
+          "眷属",
+          "德古拉家",
+          "原伊·U留学生"
+        ],
+        "abilities_owned": [
+          "hilda-electricity-lorenzini",
+          "hilda-suggestion-hypnosis",
+          "hilda-thunder-star-third-form",
+          "vampire-regeneration-magic-organs"
+        ],
+        "possessions_owned": [
+          "hilda-coffin-transformer",
+          "dracula-poison-earring",
+          "hilda-trident"
+        ],
+        "equipment": [
+          "黑色棺材变压器",
+          "毒蛇腺液蝙蝠耳环",
+          "三叉枪",
+          "带电鞭",
+          "小型电锯",
+          "哥德萝莉防电服"
+        ],
+        "relationships": [
+          {
+            "target": "riko",
+            "type": "支配/虐待/被反抗",
+            "detail": "以耳环和童年创伤支配理子，最终被理子反击并由理子输血救命。"
+          },
+          {
+            "target": "kinji",
+            "type": "敌对",
+            "detail": "设计让金次与华生互斗，并在天空树决战中被金次等人击败。"
+          },
+          {
+            "target": "aria",
+            "type": "绑架/敌对",
+            "detail": "企图挖出亚莉亚心脏中的绯弹并用她作为标本。"
+          },
+          {
+            "target": "watson",
+            "type": "欺骗利用",
+            "detail": "假意交易并诱使华生带走亚莉亚，随后以雷球击倒华生。"
+          },
+          {
+            "target": "vlad",
+            "type": "父女",
+            "detail": "为父亲弗拉德复仇，也是德古拉血族最后的重要成员。"
+          }
+        ],
+        "summary": "希尔达以紫电魔女身份现身天空树，拥有吸血鬼回复力、电气能力、粒子操作和暗示术。她利用理子伪装亚莉亚诱捕金次，试图取出亚莉亚心脏中的绯弹；在供电装置被理子炸毁后进入雷雨供能的第三型态，发动雷星。最终她被理子的截短霰弹枪破坏魔脏回复，燃烧坠落但仍存活，战后由华生手术并靠理子稀有血型输血续命。",
+        "evidence_level": "S",
+        "source_refs": []
+      }
+    },
+    {
+      "period_id": "vol-08-main",
+      "volume": "vol-08",
+      "time": "秋季",
+      "label": "德古拉女伯爵参战",
+      "name": {
+        "zh": "希尔达",
+        "en": "Hilda"
+      },
+      "aliases": [
+        "德古拉女伯爵",
+        "吸血鬼少女",
+        "弗拉德之女"
+      ],
+      "titles": [
+        "眷属方吸血鬼大使",
+        "德古拉家主人代理"
+      ],
+      "gender": "女性",
+      "species": "吸血鬼",
+      "nationality": "罗马尼亚系/德古拉家",
+      "occupation": "眷属大使",
+      "affiliation": "德古拉家/眷属",
+      "status": {
+        "physical": "白昼活动时厌恶阳光，惧怕法化银弹与银制圣物",
+        "mental": "好战、嗜血，对亚莉亚血液和弗拉德复仇执着",
+        "social": "眷属阵营核心战力，持有从亚莉亚夺来的壳金多数"
+      },
+      "appearance": {
+        "overview": "金发双马尾哥特萝莉少女，背有蝙蝠翅膀，犬齿尖长",
+        "attire": {
+          "default": "黑色哥特萝莉服、黑阳伞"
+        },
+        "distinctive": [
+          "蝙蝠翅膀",
+          "尖牙",
+          "德古拉眼珠纹样",
+          "红色眼眸"
+        ]
+      },
+      "personality": {
+        "summary": "希尔达是弗拉德之女，在宣战会议上代表眷属参战。她夺走亚莉亚五颗壳金，咬伤亚莉亚并试图猎杀神崎家；拥有影中移动、电击和催眠能力，是本卷直接制造危机的主敌。",
+        "core_traits": [
+          "嗜血",
+          "高傲",
+          "残酷",
+          "好战"
+        ],
+        "strengths": [
+          "影中潜行",
+          "高压电击",
+          "催眠眼",
+          "吸血鬼再生与机动性"
+        ],
+        "flaws": [
+          "厌恶阳光",
+          "对银制圣物和法化银弹抗性不足",
+          "轻敌"
+        ],
+        "inner_conflict": "几乎无内疚感，只以德古拉家复仇与享乐为行动准则。"
+      },
+      "abilities_owned": [
+        "hilda-shadow-electricity",
+        "hilda-hypnosis"
+      ],
+      "possessions_owned": [
+        "hilda-parasol",
+        "hilda-bat-earring",
+        "hihiirokane-shells"
+      ],
+      "relationships": {
+        "aria": "prey/enemy；咬伤亚莉亚并夺走五颗壳金，觊觎其血液",
+        "kinji": "enemy；视其为弗拉德仇人之一",
+        "riko": "former captive/target；以催眠压制理子并赠予蝙蝠耳环",
+        "l-watson": "enemy；被华生银武器逼退，后以电击球袭击",
+        "kage-glasse": "ally；同为眷属方魔物阵营",
+        "vlad": "father；以其仇敌为复仇目标"
+      },
+      "knowledge": [
+        "hihiirokane-heart-link",
+        "far-east-warfare-rules"
+      ],
+      "summary": "希尔达在宣战会议宣布加入眷属，随后立刻袭击亚莉亚并盗走壳金。她在香苗押送路线上以影与电流发动袭击，压制金次、亚莉亚与理子，直到华生携银武器介入。卷末她以更强电击球自天空树上方落下击中华生，宣告战斗继续升级。",
+      "key_events": [
+        {
+          "event_id": "aria-bitten-shells-stolen",
+          "summary": "咬伤亚莉亚并夺取五颗壳金",
+          "sourceRef": "hidan-no-aria-main/vol-08/full.txt:700"
+        },
+        {
+          "event_id": "hilda-attacks-prison-van",
+          "summary": "袭击押送神崎香苗的戒护车并用电击压制众人",
+          "sourceRef": "hidan-no-aria-main/vol-08/full.txt:3586"
+        },
+        {
+          "event_id": "hilda-electric-ball",
+          "summary": "在卷末以大型电击球击中华生",
+          "sourceRef": "hidan-no-aria-main/vol-08/full.txt:7475"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-08/chapters/ch-001-第八卷_螺旋的天空树_1弹_乱世之宵.txt:150",
+        "hidan-no-aria-main/vol-08/chapters/ch-001-第八卷_螺旋的天空树_1弹_乱世之宵.txt:700",
+        "hidan-no-aria-main/vol-08/chapters/ch-003-第八卷_螺旋的天空树_3弹_白银的ICBM.txt:260",
+        "hidan-no-aria-main/vol-08/chapters/ch-005-第八卷_螺旋的天空树_Go_For_The_NEXT!螺旋的天空树.txt:221"
+      ]
+    },
+    {
+      "period_id": "vol-10-main",
+      "volume": "vol-10",
+      "time": "2009年11月上旬",
+      "name": {
+        "zh": "希尔达",
+        "en": "Hilda"
+      },
+      "aliases": [
+        "紫电魔女",
+        "德古拉女伯爵"
+      ],
+      "gender": "female",
+      "species": "vampire",
+      "occupation": "俘虏/师团侧战力候补",
+      "affiliation": "师团侧俘虏",
+      "status": {
+        "physical": "重伤后恢复中，翅膀逐渐再生",
+        "role": "因理子曾救命而偷偷送慰问品"
+      },
+      "personality": {
+        "summary": "高傲且不坦率，嘴上否认但实际关心理子。"
+      },
+      "abilities_owned": [],
+      "possessions_owned": [],
+      "relationships": {
+        "reiki": "曾被其救命，偷偷送草莓牛奶、零食和药物",
+        "kinji": "把金次当临时男佣，表示夜晚可协助",
+        "l-watson": "脖子后仍挂着华生给的十字架"
+      },
+      "summary": "希尔达在武侦医院伪装护士，暗中给理子送慰问品和自制药物。她因璃璃色金状态不佳暂不能出战，但承诺若理子遇险可在夜间协助。",
+      "key_events": [
+        {
+          "event_id": "hospital-rearmament",
+          "summary": "在医院暗中慰问理子并表明可作为夜间战力",
+          "sourceRef": "hidan-no-aria-main/vol-10/full.txt:1067"
+        }
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "hidan-no-aria-main/vol-10/chapters/ch-002-第十卷_禁忌的双极_2弹_师团会议.txt:1"
+      ]
+    },
+    {
+      "period_id": "vol-11-main",
+      "volume": "vol-11",
+      "time": "2009年11月中旬前后",
+      "name": {
+        "zh": "希尔达",
+        "en": "Hilda"
+      },
+      "aliases": [
+        "德古拉女伯爵"
+      ],
+      "gender": "female",
+      "species": "vampire / supernatural",
+      "occupation": "理子相关协力者",
+      "affiliation": "理子周边; 巴斯克维尔临时协力",
+      "status": {
+        "physical": "日落前后以蝙蝠影行动，仍不适合正面参战。",
+        "social": "在华生激将下救援理子、白雪与贞德。"
+      },
+      "personality": {
+        "summary": "高傲、不愿听命于金次，但受不得被质疑能力。",
+        "core_traits": [
+          "傲慢",
+          "自尊强",
+          "容易被激将",
+          "保护理子"
+        ],
+        "inner_conflict": "不承认自己受金次指挥，却会在被激怒后完成救援。"
+      },
+      "abilities_owned": [],
+      "possessions_owned": [],
+      "relationships": {
+        "reiki": "重点保护对象；把落海理子救出。",
+        "l-watson": "被华生精准激将。",
+        "kinji": "看不起但间接协助其阵营。",
+        "shirayuki": "救援对象。",
+        "jeanne-darc": "救援对象。"
+      },
+      "summary": "希尔达在品川战中以蝙蝠影把落海的理子救起。她一开始拒绝金次请求，但华生故意质疑她日光下办不到，成功激将她去把白雪与贞德也拖离战场。",
+      "key_events": [
+        {
+          "event_id": "g3-shinagawa-return",
+          "summary": "用蝙蝠影救出理子并被华生激将救援重伤者。",
+          "sourceRef": "hidan-no-aria-main/vol-11/full.txt:3990"
+        }
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "hidan-no-aria-main/vol-11/chapters/ch-003-第十一卷_G的血族_3弹_永别了，GIV.txt:782"
+      ]
+    },
+    {
+      "period_id": "vol-14-main",
+      "volume": "vol-14",
+      "time": "香港蓝帮城事件",
+      "name": {
+        "zh": "希尔达",
+        "en": "Hilda"
+      },
+      "aliases": [
+        "德古拉女伯爵"
+      ],
+      "gender": "female",
+      "species": "vampire",
+      "occupation": "吸血鬼/理子阵营俘虏/临时支援者",
+      "affiliation": "理子侧; 师团临时协力",
+      "status": {
+        "physical": "夜间以影子形态参战，翅膀仍处于恢复中",
+        "mental": "自尊心强，被金次称赞后愿意协助守住楼梯"
+      },
+      "personality": {
+        "summary": "高傲、嗜虐、喜欢被称赞，实际能在关键时刻提供强力支援。",
+        "core_traits": [
+          "高傲",
+          "夜行性",
+          "嗜虐",
+          "受称赞驱动"
+        ],
+        "inner_conflict": "仍是师团俘虏身份，却因理子和金次的关系介入蓝帮城战。"
+      },
+      "abilities_owned": [
+        "hilda-shadow-electroshock"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "kinji": {
+          "type": "reluctant_ally",
+          "summary": "被金次称赞后负责守住黄金阶梯。"
+        },
+        "riko": {
+          "type": "handler_ally",
+          "summary": "与理子一同阻止炮娘和女仆队追击。"
+        },
+        "cao-cao-gunner": {
+          "type": "combat_opponent",
+          "summary": "用放电击倒女仆队，但炮娘用瓷壶绝缘突破。"
+        }
+      },
+      "summary": "希尔达在蓝帮城死亡游戏中以影子潜入黄金阶梯，释放高压电击击倒女仆盾阵并迫使炮娘撤退。随后她与理子共同留守楼梯，为金次、亚莉亚和蕾姬继续上楼争取时间。",
+      "key_events": [
+        {
+          "event_id": "blue-gang-death-game",
+          "summary": "以影子进入黄金阶梯并显现为德古拉女伯爵。",
+          "sourceRef": "hidan-no-aria-main/vol-14/full.txt:4139"
+        },
+        {
+          "event_id": "blue-gang-death-game",
+          "summary": "释放60～90万伏特高压电流击倒女仆队。",
+          "sourceRef": "hidan-no-aria-main/vol-14/full.txt:4127"
+        },
+        {
+          "event_id": "blue-gang-death-game",
+          "summary": "与理子一起留守楼梯拖延炮娘。",
+          "sourceRef": "hidan-no-aria-main/vol-14/full.txt:4271"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-14/chapters/ch-003-第十四卷_不请自来的海雾_3弹_死亡游戏.txt:843",
+        "hidan-no-aria-main/vol-14/chapters/ch-003-第十四卷_不请自来的海雾_3弹_死亡游戏.txt:855",
+        "hidan-no-aria-main/vol-14/chapters/ch-003-第十四卷_不请自来的海雾_3弹_死亡游戏.txt:987"
+      ]
+    },
+    {
+      "period_id": "vol-15-main",
+      "volume": "vol-15",
+      "time": "圣诞夜",
+      "label": "紫电魔女临时援军",
+      "name": {
+        "zh": "希尔达",
+        "en": "Hilda",
+        "jp": ""
+      },
+      "aliases": [
+        "紫电魔女",
+        "德古拉女伯爵"
+      ],
+      "titles": [
+        "吸血鬼少女",
+        "师团侧临时战力"
+      ],
+      "gender": "女性",
+      "species": "吸血鬼",
+      "nationality": "罗马尼亚系",
+      "occupation": "吸血鬼/战斗者",
+      "affiliation": "德古拉家; 师团侧临时协力",
+      "status": {
+        "physical": "翅膀已彻底复活，可化为蝙蝠群协助飞行",
+        "mental": "与白雪共同作为魔女级援军行动",
+        "mission": "在香港救援金次和亚莉亚"
+      },
+      "appearance": {
+        "overview": "可由蝙蝠群聚成少女形态",
+        "attire": {
+          "default": "吸血鬼风服装",
+          "combat": "三叉枪与翅膀"
+        },
+        "distinctive": [
+          "蝙蝠群",
+          "紫电魔女称号"
+        ]
+      },
+      "personality": {
+        "summary": "高傲但会协助理子和师团侧。本卷作为空中援军解救亚莉亚并与白雪并肩面对卡羯、佩特拉。",
+        "core_traits": [
+          "高傲",
+          "不坦率",
+          "战斗反应快"
+        ],
+        "strengths": [
+          "蝙蝠化",
+          "飞行",
+          "吸血鬼能力",
+          "三叉枪战斗"
+        ],
+        "flaws": [
+          "毒舌",
+          "不善坦率表达"
+        ],
+        "inner_conflict": "原眷属立场与现阶段师团协力之间的残余矛盾。"
+      },
+      "abilities_owned": [
+        "vampire-bat-form"
+      ],
+      "possessions_owned": [
+        "hilda-trident"
+      ],
+      "relationships": {
+        "kinji": "temporary_ally; 香港油轮中救援其同伴",
+        "shirayuki": "temporary_ally; 共同以魔女身份登场",
+        "riko": "close_ally; 借影子和蝙蝠协同行动",
+        "kage-glasse": "enemy",
+        "petra": "enemy"
+      },
+      "knowledge": [],
+      "summary": "希尔达通过蝙蝠群带白雪飞到西玛·哈里号船桥，解除佩特拉对亚莉亚的束缚，并与白雪形成烈焰魔女、紫电魔女对厄水魔女、砂砾魔女的对峙。",
+      "key_events": [
+        {
+          "event_id": "sima-hari-vacuum-bomb",
+          "summary": "以蝙蝠群救援亚莉亚并对峙卡羯、佩特拉",
+          "sourceRef": "hidan-no-aria-main/vol-15/full.txt:409"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-15/chapters/ch-001-第十五卷_哿与银冰_1弹_真空炸弹.txt:409",
+        "hidan-no-aria-main/vol-15/chapters/ch-001-第十五卷_哿与银冰_1弹_真空炸弹.txt:443",
+        "hidan-no-aria-main/vol-15/chapters/ch-001-第十五卷_哿与银冰_1弹_真空炸弹.txt:457"
+      ]
+    },
+    {
+      "period_id": "vol-17-main",
+      "volume": "vol-17",
+      "time": "2月14日凌晨",
+      "label": "协助替身计划的德古拉女伯爵",
+      "name": {
+        "zh": "希尔达",
+        "en": "Hilda",
+        "jp": "ヒルダ"
+      },
+      "aliases": [
+        "德古拉女伯爵",
+        "电力女"
+      ],
+      "titles": [
+        "原眷属强者",
+        "师团侧协力者"
+      ],
+      "gender": "女性",
+      "species": "吸血鬼/德古拉系",
+      "nationality": "欧洲",
+      "occupation": "超常战斗者",
+      "affiliation": "师团侧协力; 理子支援圈",
+      "status": {
+        "mission": "在女仆咖啡厅与理子同场，为亚莉亚替身计划提供强力保镖后盾。"
+      },
+      "appearance": {
+        "overview": "歌德萝莉风格洋装少女，夜行性气质浓厚。",
+        "attire": {
+          "default": "歌德萝莉洋装"
+        },
+        "distinctive": [
+          "喝蜂蜜酒",
+          "可把钮扣电池当配酒小食"
+        ]
+      },
+      "personality": {
+        "summary": "享受夜间狂欢和女仆咖啡厅氛围，虽胡闹但作为战力很可靠。",
+        "core_traits": [
+          "享乐",
+          "夜行性",
+          "强力支援",
+          "傲慢"
+        ],
+        "strengths": [
+          "吸血鬼力量",
+          "电力相关体质",
+          "近身战斗"
+        ],
+        "flaws": [
+          "喜欢夸张享乐"
+        ],
+        "inner_conflict": "本卷无明显冲突。"
+      },
+      "abilities_owned": [
+        "hilda-vampire-power",
+        "hilda-electricity"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "riko": {
+          "type": "ally",
+          "summary": "陪同理子在女仆咖啡厅执行亚莉亚替身计划。"
+        },
+        "aria": {
+          "type": "former-enemy/ally",
+          "summary": "作为强力后盾保护亚莉亚替身计划。"
+        },
+        "kinji": {
+          "type": "ally",
+          "summary": "被金次视为万一出事时可靠的支援战力。"
+        }
+      },
+      "knowledge": [
+        "aria-decoy-plan"
+      ],
+      "summary": "希尔达在理子包场的女仆咖啡厅中出现，穿歌德萝莉服喝蜂蜜酒，享受女仆咖啡厅气氛。她作为德古拉女伯爵级战力，承担理子伪装亚莉亚时的安全后盾。",
+      "key_events": [
+        {
+          "event_id": "maid-cafe-riko-decoy",
+          "summary": "在女仆咖啡厅支援理子执行亚莉亚替身计划。",
+          "sourceRef": "hidan-no-aria-main/vol-17/full.txt:5250"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-17/chapters/ch-005-第十七卷_绯弹的宣叙曲_5弹_乃木坂事件.txt:364"
+      ]
+    }
+  ]
+}

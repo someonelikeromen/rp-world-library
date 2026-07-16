@@ -1,0 +1,34 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "naaza-erisuys",
+  "volume": "vol-08",
+  "time_range": { "start": "第一章", "end": "第一章" },
+  "sub_arcs": ["米赫眷族扩张", "献给某武神的恋歌"],
+  "periods": [
+    {
+      "period_id": "vol-08-ch-01",
+      "volume": "vol-08",
+      "time": "第一章 献给某武神的恋歌",
+      "label": "新同伴与迟钝男神观察者",
+      "name": { "zh": "娜扎·艾莉丝伊斯", "en": "Naaza Erisuys", "jp": "ナァーザ・エリスイス" },
+      "gender": "女",
+      "species": "犬人",
+      "occupation": "药铺店员、冒险者",
+      "affiliation": "米赫眷族",
+      "status": { "location": "天青药铺；灶火馆", "state": "接纳达芙妮与卡珊德拉为新同伴，并旁观命练武" },
+      "appearance": { "overview": "半闭眼、看似昏昏欲睡的犬人少女，右臂为义手银臂。" },
+      "personality": { "summary": "温吞但洞察情感，对迟钝男神们有辛辣吐槽。", "core_traits": ["温和", "敏锐", "吐槽"], "values": ["眷族经营", "真诚接受心意"] },
+      "possessions_owned": ["银臂"],
+      "relationships": { "miach": "主神；同样迟钝令她叹气", "daphne-lauros": "新眷族同伴", "cassandra-ilion": "新眷族同伴", "takemikazuchi": "提醒其接受命心意的对象" },
+      "summary": "娜扎在天青药铺迎接新加入的达芙妮与卡珊德拉，并在建御雷向米赫求教时指出命很可怜，要他仔细想想并接受她的心意。",
+      "key_events": [
+        { "event_id": "daphne-cassandra-join-miach-familia", "summary": "收下达芙妮与卡珊德拉的地下城收入。", "sourceRef": "danmachi-main/vol-08/full.txt:1214" },
+        { "event_id": "miach-and-takemikazuchi-discuss-mikoto", "summary": "提醒建御雷接受命的心意。", "sourceRef": "danmachi-main/vol-08/full.txt:1307" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-08/full.txt:1214", "danmachi-main/vol-08/full.txt:1307", "danmachi-main/vol-08/full.txt:1660"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-08/full.txt:1202-1665"]
+}

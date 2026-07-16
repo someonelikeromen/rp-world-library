@@ -1,0 +1,45 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "ryu-lyon",
+  "volume": "vol-01",
+  "time_range": { "start": "chapter-4", "end": "vol-01-end" },
+  "sub_arcs": [],
+  "periods": [
+    {
+      "period_id": "ryu-vol01",
+      "volume": "vol-01",
+      "time": "vol-01",
+      "label": "丰饶的女主人的精灵店员",
+      "name": { "zh": "琉·璃昂", "en": "Ryu Lion", "jp": "リュー・リオン" },
+      "aliases": [],
+      "titles": [],
+      "gender": "female",
+      "species": "精灵",
+      "nationality": "未知",
+      "occupation": "酒馆女服务生",
+      "affiliation": "丰饶的女主人",
+      "status": {},
+      "appearance": {
+        "overview": "眉清目秀的精灵女性，穿着店员制服",
+        "physical": { "height": "中等", "build": "纤细", "hair": { "color": "金" }, "eyes": {} },
+        "attire": { "default": "店员制服" },
+        "voice_quality": {},
+        "distinctive": ["精灵尖耳", "礼貌但冰冷"]
+      },
+      "personality": {
+        "summary": "冷静礼貌的精灵店员，对希儿很保护。",
+        "core_traits": ["冷静", "忠诚", "保护欲"],
+        "strengths": ["剑术（前冒险者暗示）"],
+        "flaws": ["有时过于严厉"]
+      },
+      "summary": "丰饶的女主人的精灵店员。礼貌但冰冷。曾因希儿伤心而差点拿真剑去找贝尔。",
+      "key_events": [
+        { "event_id": "morning-encounter-syr", "summary": "与阿妮雅一起请贝尔送钱包给希儿", "sourceRef": "danmachi-main/vol-01/full.txt:2513-3680" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-01/full.txt:2513-3680"]
+    }
+  ],
+  "source_refs": []
+}

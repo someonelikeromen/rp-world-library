@@ -1,0 +1,57 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "ais-wallenstein",
+  "volume": "vol-23",
+  "periods": [
+    {
+      "period_id": "vol-23-ais-as-branch-ideal",
+      "volume": "vol-23",
+      "time": "广播剧与琉IF枝史",
+      "label": "贝尔的憧憬与琉的嫉妒对象",
+      "name": {
+        "zh": "艾丝·华伦斯坦",
+        "en": "Ais Wallenstein"
+      },
+      "gender": "女",
+      "affiliation": "洛基眷族",
+      "summary": "艾丝本人未直接出场，但始终作为贝尔的憧憬对象被谈论。女生夜谈中被莉莉视为最强情敌之一；琉IF枝史中，她与贝尔秘密训练一事引发琉的嫉妒，并最终在贝尔选择琉后成为凋零的憧憬象征。",
+      "relationships": {
+        "bell-cranel": "贝尔原本追逐的高岭之花与憧憬。",
+        "ryu-lion": "枝史中成为琉比较与嫉妒的对象。"
+      },
+      "key_events": [
+        {
+          "event_id": "ryu-if-ryu-realizes-love",
+          "summary": "因与贝尔秘密训练引发琉的恋爱自觉。"
+        },
+        {
+          "event_id": "ryu-if-deep-floor-kiss-and-choice",
+          "summary": "作为贝尔放弃的憧憬象征。"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-23/chapters/ch-001-BD2特典广播剧-Dungeon-in-Girls'-Talk.txt",
+        "danmachi-main/vol-23/chapters/ch-003-琉if线「妖精的枝史」前篇.txt",
+        "danmachi-main/vol-23/chapters/ch-004-琉if线「妖精的枝史」后篇.txt"
+      ]
+    }
+  ],
+  "source_refs": [
+    "danmachi-main/vol-23/chapters/ch-001-BD2特典广播剧-Dungeon-in-Girls'-Talk.txt",
+    "danmachi-main/vol-23/chapters/ch-003-琉if线「妖精的枝史」前篇.txt",
+    "danmachi-main/vol-23/chapters/ch-004-琉if线「妖精的枝史」后篇.txt"
+  ],
+  "_revisions": [
+    {
+      "type": "fix",
+      "description": "将顶层 source_refs 从章节目录占位改为本文件 period 已引用的具体 vol-23 章节文件，避免 sourceRef 精确度/可追溯性问题。",
+      "source_refs": [
+        "danmachi-main/vol-23/chapters/ch-001-BD2特典广播剧-Dungeon-in-Girls'-Talk.txt",
+        "danmachi-main/vol-23/chapters/ch-003-琉if线「妖精的枝史」前篇.txt",
+        "danmachi-main/vol-23/chapters/ch-004-琉if线「妖精的枝史」后篇.txt"
+      ]
+    }
+  ]
+}

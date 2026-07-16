@@ -1,0 +1,67 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "shirayuki-magic-detection",
+  "volume": "vol-29",
+  "source_refs": [
+    "hidan-no-aria-main/vol-29/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-29",
+      "volume": "vol-29",
+      "time": "第二十九卷 盟约的谍候",
+      "name": {
+        "zh": "魔力感知",
+        "en": "Magic Detection"
+      },
+      "aliases": [
+        "超能力雷达",
+        "星伽感知"
+      ],
+      "type": "supernatural / skill",
+      "description": "白雪感知魔力与超能力存在的能力。本卷用于判定米泽丽魔力等级、发现海卓拉分体和定位海卓拉核心。",
+      "details": {
+        "range": "近距离可扇形感知，极微弱存在不易察觉。"
+      },
+      "activation": {
+        "condition": "集中精神",
+        "incantation": "",
+        "time": "持续",
+        "cost": "注意力消耗"
+      },
+      "effects": [
+        "检测G等级魔力",
+        "识别被附着的海卓拉分体",
+        "找出海卓拉核心器官"
+      ],
+      "power_level": {
+        "initial": "可发现一般超能力存在",
+        "peak": "在混乱水滩中捏出海卓拉核心",
+        "evolution": []
+      },
+      "known_feats": [
+        "学生昏倒名单与魔力对应",
+        "封印海卓拉核心"
+      ],
+      "shared_by": [
+        "shirayuki"
+      ],
+      "see_also": [
+        "latent-g1-magic",
+        "hydra-magic-drain"
+      ],
+      "countered_by": [
+        "very-weak-fragments"
+      ],
+      "counters": [
+        "hydra-mimicry"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-29/full.txt"
+      ]
+    }
+  ]
+}

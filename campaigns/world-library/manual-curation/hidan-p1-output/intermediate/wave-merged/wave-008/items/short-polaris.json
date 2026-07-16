@@ -1,0 +1,46 @@
+{
+  "_schema": "rp-item-volume-v1",
+  "world": "hidan-no-aria",
+  "item_id": "short-polaris",
+  "volume": "vol-40",
+  "source_refs": [
+    "hidan-no-aria-main/vol-40/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-40",
+      "volume": "vol-40",
+      "time": "第四十卷",
+      "name": {
+        "zh": "短程北极星",
+        "en": "Short Polaris"
+      },
+      "aliases": [
+        "短程弹道载人火箭"
+      ],
+      "type": "vehicle/technology",
+      "description": "平贺文为亚莉亚准备的北极星短程弹道版，使用现成推进器和新造载人弹头舱。",
+      "details": {
+        "launch": "由英国海军运输到沙特后发射",
+        "payload": "亚莉亚与YHS推进裙"
+      },
+      "owner": "aria",
+      "status": "used",
+      "features": [
+        "短程弹道飞行",
+        "助推器分离",
+        "载人弹头开花"
+      ],
+      "associated_abilities": [
+        "aria-yhs-ballistic-reentry"
+      ],
+      "history": [
+        "亚莉亚从沙特发射，飞抵苏伊士战场支援金次"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-40/full.txt"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "_schema": "rp-location-volume-v1",
+  "world": "hidan-no-aria",
+  "location_id": "kinji-apartment-odaiba",
+  "volume": "vol-26",
+  "source_refs": [
+    "hidan-no-aria-main/vol-26/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-26",
+      "volume": "vol-26",
+      "time": "第二十六卷 穿破黑暗的巨蟒 结尾",
+      "label": "台场新居",
+      "name": {
+        "zh": "台场学园岛公寓",
+        "en": "Kinji's Odaiba Apartment"
+      },
+      "aliases": [
+        "金次的台场公寓"
+      ],
+      "type": "residence",
+      "description": "金次辞职后在东京都港区台场七丁目·学园岛南端二十区租的套房。",
+      "details": {
+        "location": "东京都港区台场七丁目·学园岛南端",
+        "features": [
+          "全新建筑",
+          "空调已装好",
+          "租金极便宜（学园岛因交通不便+学生持枪而租金低）"
+        ]
+      },
+      "occupant": "远山金次",
+      "significance": "金次从社长回归学生身份的新起点；结尾神秘少女到访的地点",
+      "events_vol26": [
+        "金次搬入第一天",
+        "神秘少女按门铃自称妹妹请求躲藏"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-26/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-35",
+      "volume": "vol-35",
+      "time": "第三十五卷",
+      "name": {
+        "zh": "金次的台场公寓",
+        "en": "Kinji's Odaiba Apartment"
+      },
+      "aliases": [
+        "台场公寓",
+        "金次房间"
+      ],
+      "type": "building / residence",
+      "description": "金次从巢鸭回到台场后暂回的住处，墙上因GⅢ等人暂住和大矢扫射留下弹孔。",
+      "geography": {
+        "city": "Tokyo",
+        "district": "Odaiba"
+      },
+      "controlled_by": "kinji",
+      "affiliation": "无特定归属",
+      "significance": "金次收到高认及格证并接到亚莉亚电话，转入宿舍共同生活。",
+      "notable_residents": [
+        "kinji"
+      ],
+      "key_events": [
+        "lucifelia-custody-cohabitation"
+      ],
+      "related_locations": [
+        "aria-dorm-room",
+        "tooyama-family-sugamo-house"
+      ],
+      "hazards": [
+        "墙壁弹孔",
+        "大矢催房租风险"
+      ],
+      "secrets": [],
+      "evidence_level": "A",
+      "source_refs": [
+        "hidan-no-aria-main/vol-35/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-40",
+      "volume": "vol-40",
+      "time": "第四十卷",
+      "name": {
+        "zh": "金次台场房间",
+        "en": "Kinji's Odaiba Apartment Room"
+      },
+      "aliases": [
+        "金次房间"
+      ],
+      "type": "building",
+      "description": "金次深夜接到莎拉Skype口信的房间，金女和梅梅特也在此协助定位。",
+      "geography": {
+        "city": "Tokyo/Odaiba"
+      },
+      "population": {},
+      "controlled_by": "kinji",
+      "affiliation": "tooyama-family",
+      "significance": "埃及行动触发点。",
+      "notable_residents": [
+        "kinji",
+        "kintan",
+        "memet"
+      ],
+      "key_events": [
+        "sarah-skype-warning"
+      ],
+      "related_locations": [
+        "suez-canal"
+      ],
+      "hazards": [],
+      "secrets": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-40/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-41-main",
+      "volume": "vol-41",
+      "time": "Tokyo childcare",
+      "name": {
+        "zh": "远山金次的台场公寓",
+        "en": "Kinji's Odaiba apartment"
+      },
+      "type": "residence",
+      "description": "Kinji's cramped apartment where China lives, Baskerville assists, Livia invades through the bath and later nests in the closet.",
+      "controlled_by": "Kinji (tenant)",
+      "significance": "Primary childcare hub and Livia custody site.",
+      "notable_residents": [
+        "kinji",
+        "china",
+        "memet",
+        "livia"
+      ],
+      "key_events": [
+        "china-custody-and-childcare",
+        "livia-capture-at-apartment"
+      ],
+      "source_refs": [
+        "hidan-no-aria-main/vol-41/full.txt"
+      ]
+    }
+  ]
+}

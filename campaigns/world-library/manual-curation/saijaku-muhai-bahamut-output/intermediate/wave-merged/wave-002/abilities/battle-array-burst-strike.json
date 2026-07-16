@@ -1,0 +1,54 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "battle-array-burst-strike",
+  "volume": "vol-08",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-08/full.txt:7580"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-08-main",
+      "volume": "vol-08",
+      "time": "圣都最终战",
+      "name": {
+        "zh": "战阵·暴击",
+        "en": "Battle Array Burst Strike"
+      },
+      "aliases": [
+        "调律暴击"
+      ],
+      "type": "technology / combat",
+      "description": "路克斯借鉴辛格伦的战阵调律，将《暴食》压缩强化作用施加在敌机局部，使敌方机龙强制加速、自毁变形，再接即击终结。",
+      "details": {
+        "user": "lux-arcadia",
+        "source_style": "singlen-shelbrit battle array"
+      },
+      "activation": {
+        "condition": "调律开始后精确命中敌机驱动部位",
+        "incantation": "调律·开始 / 暴食",
+        "time": "瞬间",
+        "cost": "需要高度机龙理解与负伤状态下精密操作"
+      },
+      "effects": [
+        "强制敌机局部过速",
+        "破坏驱动部位",
+        "打开即击破绽"
+      ],
+      "known_feats": [
+        "对朵拉肯《阿斯普》造成决定性损坏"
+      ],
+      "shared_by": [
+        "lux-arcadia"
+      ],
+      "see_also": [
+        "gluttony-sudden-strike",
+        "battle-array"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-08/full.txt:7580"
+      ]
+    }
+  ]
+}

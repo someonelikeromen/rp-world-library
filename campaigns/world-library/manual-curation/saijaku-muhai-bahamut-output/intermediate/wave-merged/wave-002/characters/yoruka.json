@@ -1,0 +1,77 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "yoruka",
+  "volume": "vol-09",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-09/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-09",
+      "volume": "vol-09",
+      "time": "学园祭期间",
+      "name": {
+        "zh": "切姬夜架",
+        "en": "Kirihime Yoruka",
+        "jp": ""
+      },
+      "aliases": [
+        "帝国凶刃",
+        "御主的从仆",
+        "异国骑士"
+      ],
+      "gender": "female",
+      "species": "human",
+      "nationality": "古都国 / 旧帝国相关",
+      "occupation": "王立士官学园学生；暗杀者；骑士团成员",
+      "affiliation": "王立士官学园；路克斯个人阵营",
+      "status": {
+        "condition": "active",
+        "role": "暗中监视危险人物并向赛莉丝提出对罗莎的警告"
+      },
+      "abilities_owned": [
+        "assassination",
+        "enhanced-sight",
+        "swordsmanship"
+      ],
+      "possessions_owned": [
+        "yato-no-kami"
+      ],
+      "relationships": {
+        "lux": {
+          "type": "master",
+          "summary": "将自己视为路克斯的道具，但接受他让自己享受学园祭的命令。"
+        },
+        "celestia": {
+          "type": "ally",
+          "summary": "提醒赛莉丝罗莎与自己同样不受伦理束缚，必须警戒。"
+        },
+        "lisha": {
+          "type": "concerned ally",
+          "summary": "莉夏曾劝她不要只把自己当作道具。"
+        }
+      },
+      "summary": "夜架本卷负责巡逻与监视辛格伦、罗莎和创造主阵营。她以敏锐洞察指出赛莉丝的战斗弱点，并卷末误导赛莉丝学习过度热情的接吻方法。",
+      "key_events": [
+        {
+          "event_id": "yoruka-warning",
+          "summary": "向赛莉丝警告罗莎会利用杀人和犯规意识差。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-09/full.txt:1915"
+        },
+        {
+          "event_id": "academy-festival",
+          "summary": "在学园祭担任异国骑士与体术指导表演。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-09/full.txt:3231"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:715",
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:1915",
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:3231",
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:8125"
+      ]
+    }
+  ]
+}

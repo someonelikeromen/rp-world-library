@@ -1,0 +1,110 @@
+{
+  "world": "saijaku-muhai-bahamut",
+  "volume": "vol-10",
+  "wave": "wave-002",
+  "index_version": "1.1",
+  "generated_at": "2026-07-10",
+  "source": "saijaku-muhai-bahamut-main/vol-10/full.txt",
+  "total_chapters": 11,
+  "total_characters": 17,
+  "total_abilities": 5,
+  "total_events": 12,
+  "total_items": 9,
+  "total_locations": 13,
+  "total_factions": 10,
+  "total_systems": 3,
+  "total_knowledge": 6,
+  "entities": {
+    "characters": [
+      { "id": "lux-arcadia", "name_zh": "路克斯·阿卡迪亚", "type": "protagonist", "path": "characters/lux-arcadia.json" },
+      { "id": "airi-arcadia", "name_zh": "爱理·阿卡迪亚", "type": "heroine", "path": "characters/airi-arcadia.json" },
+      { "id": "lisha-althia", "name_zh": "莉姿夏尔蒂·亚提司玛特", "type": "heroine", "path": "characters/lisha-althia.json" },
+      { "id": "krulcifer-einhorn", "name_zh": "库露露席法·恩芙尔克", "type": "heroine", "path": "characters/krulcifer-einhorn.json" },
+      { "id": "philuffy-aingram", "name_zh": "菲尔菲·爱格兰姆", "type": "heroine", "path": "characters/philuffy-aingram.json" },
+      { "id": "celistia-largreis", "name_zh": "赛莉丝缇雅·兰格莉思", "type": "heroine", "path": "characters/celistia-largreis.json" },
+      { "id": "yakata", "name_zh": "切姬夜架", "type": "heroine", "path": "characters/yakata.json" },
+      { "id": "nocht-ryflete", "name_zh": "诺珂特·理芙蕾特", "type": "supporting", "path": "characters/nocht-ryflete.json" },
+      { "id": "sheris-balthsheft", "name_zh": "谢里丝", "type": "supporting", "path": "characters/sheris-balthsheft.json" },
+      { "id": "tilfa", "name_zh": "媞尔珐", "type": "supporting", "path": "characters/tilfa.json" },
+      { "id": "ralie-aingram", "name_zh": "蕾莉·爱格兰姆", "type": "supporting", "path": "characters/ralie-aingram.json" },
+      { "id": "coale", "name_zh": "柯莱尔", "type": "supporting", "path": "characters/coale.json" },
+      { "id": "legli-barhart", "name_zh": "莱格莉·巴尔哈特", "type": "supporting", "path": "characters/legli-barhart.json" },
+      { "id": "makiakiruka", "name_zh": "玛姬艾儿卡", "type": "supporting", "path": "characters/makiakiruka.json" },
+      { "id": "hugh-leyshed", "name_zh": "休伊·雷雪德", "type": "supporting", "path": "characters/hugh-leyshed.json" },
+      { "id": "nina", "name_zh": "妮娜", "type": "supporting", "path": "characters/nina.json" },
+      { "id": "bain-ashettos", "name_zh": "拜因·亚谢图斯", "type": "antagonist", "path": "characters/bain-ashettos.json" }
+    ],
+    "abilities": [
+      { "id": "drag-ride-system", "name_zh": "装甲机龙操纵", "type": "skill", "path": "abilities/drag-ride-system.json" },
+      { "id": "bahamut", "name_zh": "巴哈姆特", "type": "divine-drag-ride", "path": "abilities/bahamut.json" },
+      { "id": "lin-dragon-insect", "name_zh": "凛德龙虫", "type": "divine-drag-ride", "path": "abilities/lin-dragon-insect.json" },
+      { "id": "domination-god-realm", "name_zh": "支配者神域", "type": "divine-drag-ride-ability", "path": "abilities/domination-god-realm.json" },
+      { "id": "thunder-light-spear", "name_zh": "雷光穿枪", "type": "special-weapon", "path": "abilities/thunder-light-spear.json" }
+    ],
+    "events": [
+      { "id": "airi-armored-training", "name_zh": "爱理的装甲机龙训练", "type": "milestone", "path": "events/airi-armored-training.json" },
+      { "id": "lisha-cooking-battle", "name_zh": "莉夏下厨奋战", "type": "milestone", "path": "events/lisha-cooking-battle.json" },
+      { "id": "krulcifer-weakness-episode", "name_zh": "库露露席法弱点探索", "type": "revelation", "path": "events/krulcifer-weakness-episode.json" },
+      { "id": "philuffy-commerce-trip", "name_zh": "菲尔菲商会见习", "type": "milestone", "path": "events/philuffy-commerce-trip.json" },
+      { "id": "celistia-training-troubles", "name_zh": "赛莉丝训练烦恼", "type": "battle", "path": "events/celistia-training-troubles.json" },
+      { "id": "yakata-school-integration", "name_zh": "夜架的学园融入", "type": "milestone", "path": "events/yakata-school-integration.json" },
+      { "id": "trio-holiday", "name_zh": "三和音假日款待", "type": "milestone", "path": "events/trio-holiday.json" },
+      { "id": "coale-reunion-shadow", "name_zh": "柯莱尔重逢与黑影事件", "type": "battle", "path": "events/coale-reunion-shadow.json" },
+      { "id": "heiburg-undercover-order", "name_zh": "海布格潜入特命", "type": "conspiracy", "path": "events/heiburg-undercover-order.json" },
+      { "id": "heiburg-newlywed-disguise", "name_zh": "海布格新婚夫妇伪装", "type": "milestone", "path": "events/heiburg-newlywed-disguise.json" },
+      { "id": "evil-king-warning", "name_zh": "邪恶之王警告", "type": "revelation", "path": "events/evil-king-warning.json" },
+      { "id": "lux-hugh-encounter", "name_zh": "恋爱谘商骚动", "type": "comedy", "path": "events/lux-hugh-encounter.json" }
+    ],
+    "items": [
+      { "id": "flying-dragon", "name_zh": "飞翔机龙", "type": "drag-ride", "path": "items/flying-dragon.json" },
+      { "id": "special-machine-dragon", "name_zh": "特装机龙", "type": "drag-ride", "path": "items/special-machine-dragon.json" },
+      { "id": "land-machine-dragon", "name_zh": "陆战机龙", "type": "drag-ride", "path": "items/land-machine-dragon.json" },
+      { "id": "thief-cat", "name_zh": "小偷猫", "type": "animal", "path": "items/thief-cat.json" },
+      { "id": "stew-dish", "name_zh": "肉汁炖菜", "type": "food", "path": "items/stew-dish.json" },
+      { "id": "fake-dagger", "name_zh": "赝品短剑", "type": "weapon", "path": "items/fake-dagger.json" },
+      { "id": "aingram-gift-knife", "name_zh": "菲尔菲赠予的小刀", "type": "equipment", "path": "items/aingram-gift-knife.json" },
+      { "id": "coale-dark-blade", "name_zh": "柯莱尔的深色刀刃", "type": "weapon", "path": "items/coale-dark-blade.json" },
+      { "id": "nina-poetry-book", "name_zh": "妮娜的恋爱诗集", "type": "key-item", "path": "items/nina-poetry-book.json" }
+    ],
+    "locations": [
+      { "id": "crossfeld-fortress-city", "name_zh": "城塞都市克罗斯菲德", "type": "city", "path": "locations/crossfeld-fortress-city.json" },
+      { "id": "crossfeld-academy", "name_zh": "王立士官学园", "type": "school", "path": "locations/crossfeld-academy.json" },
+      { "id": "academy-infirmary", "name_zh": "学园医务室", "type": "facility", "path": "locations/academy-infirmary.json" },
+      { "id": "academy-drag-ride-workshop", "name_zh": "装甲机龙工房", "type": "facility", "path": "locations/academy-drag-ride-workshop.json" },
+      { "id": "academy-training-ground", "name_zh": "装甲机龙演习场", "type": "facility", "path": "locations/academy-training-ground.json" },
+      { "id": "academy-dungeon", "name_zh": "学园地牢", "type": "facility", "path": "locations/academy-dungeon.json" },
+      { "id": "aingram-villa", "name_zh": "爱格兰姆别墅", "type": "building", "path": "locations/aingram-villa.json" },
+      { "id": "third-block-commercial", "name_zh": "三号街区商业区", "type": "district", "path": "locations/third-block-commercial.json" },
+      { "id": "woolard-trading-post", "name_zh": "伍尔艾德商会分店", "type": "shop", "path": "locations/woolard-trading-post.json" },
+      { "id": "trio-villa", "name_zh": "谢里丝别墅", "type": "building", "path": "locations/trio-villa.json" },
+      { "id": "old-empire-palace", "name_zh": "旧帝国宫廷", "type": "palace", "path": "locations/old-empire-palace.json" },
+      { "id": "heiburg-capital-exesta", "name_zh": "海布格共和国首都·艾格赛斯塔", "type": "capital", "path": "locations/heiburg-capital-exesta.json" },
+      { "id": "trayport-port-town", "name_zh": "特莱波特", "type": "port-town", "path": "locations/trayport-port-town.json" }
+    ],
+    "factions": [
+      { "id": "atismata-new-kingdom", "name_zh": "亚提司玛特新王国", "type": "nation", "path": "factions/atismata-new-kingdom.json" },
+      { "id": "old-arcadia-empire", "name_zh": "阿卡迪亚旧帝国", "type": "historical-nation", "path": "factions/old-arcadia-empire.json" },
+      { "id": "seven-dragon-saints", "name_zh": "七龙骑圣", "type": "military-order", "path": "factions/seven-dragon-saints.json" },
+      { "id": "knights-order", "name_zh": "骑士团", "type": "school-organization", "path": "factions/knights-order.json" },
+      { "id": "aingram-conglomerate", "name_zh": "爱格兰姆财团", "type": "corporation", "path": "factions/aingram-conglomerate.json" },
+      { "id": "three-harmonies", "name_zh": "三和音", "type": "vigilante-group", "path": "factions/three-harmonies.json" },
+      { "id": "dragon-bandits", "name_zh": "龙匪贼", "type": "mercenary", "path": "factions/dragon-bandits.json" },
+      { "id": "heiburg-republic", "name_zh": "海布格共和国", "type": "nation", "path": "factions/heiburg-republic.json" },
+      { "id": "vanheim-principality", "name_zh": "梵海姆公国", "type": "nation", "path": "factions/vanheim-principality.json" },
+      { "id": "world-alliance", "name_zh": "世界联盟", "type": "alliance", "path": "factions/world-alliance.json" }
+    ],
+    "systems": [
+      { "id": "drag-ride-system", "name_zh": "装甲机龙体系", "type": "technology", "path": "systems/drag-ride-system.json" },
+      { "id": "creators-mechanism", "name_zh": "创造主机制", "type": "supernatural", "path": "systems/creators-mechanism.json" },
+      { "id": "world-alliance-rivalry", "name_zh": "世界联盟遗迹竞争", "type": "political", "path": "systems/world-alliance-rivalry.json" }
+    ],
+    "knowledge": [
+      { "id": "creators-prophecy", "name_zh": "创造主的预言", "type": "prophecy", "path": "knowledge/creators-prophecy.json" },
+      { "id": "evil-king-heiburg", "name_zh": "海布格的邪恶之王", "type": "intel", "path": "knowledge/evil-king-heiburg.json" },
+      { "id": "shadow-phantom-type", "name_zh": "黑影幻神兽", "type": "lore", "path": "knowledge/shadow-phantom-type.json" },
+      { "id": "world-alliance-traitor-intel", "name_zh": "世界联盟叛徒情报", "type": "secret", "path": "knowledge/world-alliance-traitor-intel.json" },
+      { "id": "tower-investigation-rights", "name_zh": "塔调查权归海布格", "type": "intel", "path": "knowledge/tower-investigation-rights.json" },
+      { "id": "coale-body-secret", "name_zh": "柯莱尔的身体秘密", "type": "secret", "path": "knowledge/coale-body-secret.json" }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema": "tm-p1-event-v1",
+  "event_id": "ubw-evt-006-church-battle-archer-identity-and-rin-abduction",
+  "worldId": "type-moon-nasuverse",
+  "continuity": "fsn",
+  "timelineId": "fsn-ubw-route",
+  "route": "ubw-route",
+  "canonStatus": "canon-like",
+  "time": { "start": { "value": null, "precision": "relative-only", "relative": "UBW route day fourteen", "orderIndex": 352 }, "end": { "value": null, "precision": "relative-only", "relative": "UBW route day fourteen end", "orderIndex": 362 }, "duration": "same-day", "confidence": "medium" },
+  "timelineNodes": [
+    { "nodeId": "start", "label": "Lancer vs Archer", "time": { "relative": "Day fourteen church battle", "orderIndex": 352 }, "summary": "Lancer uses Gae Bolg and Archer blocks with Rho Aias." },
+    { "nodeId": "middle-001", "label": "Caster killed", "time": { "relative": "Church battle", "orderIndex": 356 }, "summary": "Rin fights Caster, and Archer kills Caster and Kuzuki after revealing the betrayal was a ploy." },
+    { "nodeId": "end", "label": "Archer identity", "time": { "relative": "After church battle", "orderIndex": 362 }, "summary": "Archer reveals he is Shirou from the future, sets a duel for the next day, and abducts Rin." }
+  ],
+  "participants": ["emiya-shirou", "tohsaka-rin", "saber-artoria", "archer-emiya", "lancer-cu-chulainn", "caster-medea", "souichirou-kuzuki"],
+  "locationRefs": ["fuyuki-church"],
+  "cause": "Rin, Shirou, Saber, and Lancer attack Caster's church position.",
+  "process": "Lancer fights Archer, Rin and Shirou oppose Caster and Kuzuki, Archer kills Caster's side, then turns on Shirou and opens Unlimited Blade Works.",
+  "outcome": "Caster and Kuzuki are eliminated, Saber contracts with Rin, Archer's identity is revealed, and Rin is kidnapped.",
+  "stateChanges": ["Caster eliminated", "Kuzuki eliminated", "Saber contracts with Rin", "Archer identity revealed"],
+  "relationshipChanges": ["Archer and Shirou become explicit same-entity conflict variants", "Rin becomes Archer's hostage"],
+  "sourceType": "curated-story-derived",
+  "credibility": "B",
+  "sourceRefs": ["type-moon-nasuverse/story-text/fate/ch-003-ubw-route.txt:88", "type-moon-nasuverse/story-text/fate/ch-003-ubw-route.txt:89", "type-moon-nasuverse/story-text/fate/ch-003-ubw-route.txt:90", "type-moon-nasuverse/story-text/fate/ch-003-ubw-route.txt:91", "type-moon-nasuverse/story-text/fate/ch-003-ubw-route.txt:92"]
+}

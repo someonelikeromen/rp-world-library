@@ -1,0 +1,107 @@
+{
+  "_schema": "rp-location-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "location_id": "academy-workshop",
+  "volume": "vol-01",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-01/full.txt:3931",
+    "saijaku-muhai-bahamut-main/vol-01/full.txt:7397"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-01",
+      "volume": "vol-01",
+      "time": "academy workshop arc and epilogue",
+      "name": {
+        "zh": "机龙工房",
+        "en": "Academy Drag-Ride Workshop"
+      },
+      "aliases": [
+        "莉夏的工房",
+        "学园工房"
+      ],
+      "type": "facility",
+      "description": "Lisha's academy workshop, filled with metal, oil, parts, tools, experimental machines, and her repair projects.",
+      "geography": {
+        "features": [
+          "workbench",
+          "machine storage room",
+          "sofa used by Lisha after overnight work",
+          "damaged experimental room"
+        ]
+      },
+      "population": {
+        "users": "Lisha and occasional assistants such as Lux"
+      },
+      "controlled_by": "royal-officer-academy",
+      "affiliation": "Royal Officer Academy",
+      "significance": "Where Lux learns Lisha is a genius engineer, where his Wyvern is repaired, and where Bahamut is secretly stored for repair after the final battle.",
+      "notable_residents": [
+        "lisha-atismata",
+        "lux-arcadia"
+      ],
+      "key_events": [
+        "knight-squadron-test",
+        "formal-admission"
+      ],
+      "related_locations": [
+        "fourth-drag-ride-hangar",
+        "drag-ride-training-ground",
+        "royal-officer-academy"
+      ],
+      "hazards": [
+        "experimental explosions",
+        "secret Divine Drag-Ride storage"
+      ],
+      "secrets": [
+        "Bahamut is moved here after Lux's secret is partly exposed"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-01/full.txt:3931",
+        "saijaku-muhai-bahamut-main/vol-01/full.txt:7397"
+      ]
+    },
+    {
+      "period_id": "vol-12-main",
+      "volume": "vol-12",
+      "time": "Episode3",
+      "name": {
+        "zh": "学园机龙工房",
+        "en": "Academy Drag-Ride Workshop"
+      },
+      "aliases": [
+        "工房",
+        "装甲机龙工房"
+      ],
+      "type": "facility",
+      "description": "莉夏开发和维护装甲机龙的工房。路克斯在此看到三架不同于普通泛用机龙的机体，并从莉夏处得知罗菲女王将来访。",
+      "geography": {
+        "within": "royal-officer-academy"
+      },
+      "population": {
+        "workers": [
+          "lisha-arcadia"
+        ]
+      },
+      "controlled_by": "royal-officer-academy",
+      "affiliation": "royal-officer-academy",
+      "significance": "展示莉夏对强化泛用机龙X系统的研发成果。",
+      "notable_residents": [],
+      "key_events": [
+        "rofi-secret-order"
+      ],
+      "related_locations": [
+        "royal-officer-academy"
+      ],
+      "hazards": [],
+      "secrets": [
+        "莉夏正在开发调整三和音用强化型泛用机龙"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-12/full.txt:2299-3726"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "schema": "tm-tsukihime-extracted-record-set-v1",
+  "packetId": "dead-apostles-roa",
+  "recordSetId": "dead-apostle-taxonomy",
+  "status": "generated-pending-audit",
+  "candidateOnly": false,
+  "records": [
+    {
+      "recordId": "ext-dead-apostle-true-ancestor-taxonomy-001",
+      "recordType": "taxonomy-signal",
+      "subject": "吸血种 / 死徒 / 真祖",
+      "summary": "The source summary identifies Dead Apostles and True Ancestors as the two main categories of vampire species in the Type-Moon world, with different essence and origin.",
+      "rawValues": ["死徒与真祖", "吸血种", "两大主要分类", "本质和起源截然不同"],
+      "continuityTaxonomy": {"category": "sandbox", "rawSourceLabels": ["月姬", "死徒", "真祖", "二十七祖"], "sourceAvailability": "supported-world-system-summary"},
+      "sourceRefs": ["sources/worldbook-profile/tm-summary-dead-apostle-true-ancestor.txt:16"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "recordId": "ext-dead-apostle-definition-001",
+      "recordType": "definition-signal",
+      "subject": "死徒",
+      "summary": "Dead Apostles are acquired vampires.",
+      "rawValues": ["后天的吸血鬼"],
+      "continuityTaxonomy": {"category": "sandbox", "rawSourceLabels": ["死徒"], "sourceAvailability": "supported-world-system-summary"},
+      "sourceRefs": ["sources/worldbook-profile/tm-summary-dead-apostle-true-ancestor.txt:22", "sources/worldbook-profile/tm-summary-dead-apostle-true-ancestor.txt:23"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "recordId": "ext-dead-apostle-origin-route-true-ancestor-001",
+      "recordType": "ability-activation-signal",
+      "subject": "死徒 transformation route",
+      "summary": "One listed Dead Apostle origin route is a human transformed into a servant after being blood-sucked by a True Ancestor.",
+      "rawValues": ["被真祖吸血后转化为其奴仆的人类"],
+      "continuityTaxonomy": {"category": "sandbox", "rawSourceLabels": ["死徒", "真祖"], "sourceAvailability": "supported-world-system-summary"},
+      "sourceRefs": ["sources/worldbook-profile/tm-summary-dead-apostle-true-ancestor.txt:24"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "recordId": "ext-dead-apostle-origin-route-magecraft-001",
+      "recordType": "ability-activation-signal",
+      "subject": "死徒 self-transformation route",
+      "summary": "Another listed Dead Apostle origin route is a magus or similar person becoming a vampire through magecraft research.",
+      "rawValues": ["通过魔术研究等手段自行转化为吸血鬼的魔术师"],
+      "continuityTaxonomy": {"category": "sandbox", "rawSourceLabels": ["死徒"], "sourceAvailability": "supported-world-system-summary"},
+      "sourceRefs": ["sources/worldbook-profile/tm-summary-dead-apostle-true-ancestor.txt:24"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "recordId": "ext-dead-apostle-blood-maintenance-001",
+      "recordType": "trait-signal",
+      "subject": "死徒",
+      "summary": "Dead Apostles must drink blood to maintain their existence and power.",
+      "rawValues": ["必须吸食血液来维持存在和力量"],
+      "continuityTaxonomy": {"category": "sandbox", "rawSourceLabels": ["死徒"], "sourceAvailability": "supported-world-system-summary"},
+      "sourceRefs": ["sources/worldbook-profile/tm-summary-dead-apostle-true-ancestor.txt:25"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "recordId": "ext-dead-apostle-ancestors-definition-001",
+      "recordType": "taxonomy-signal",
+      "subject": "死徒二十七祖",
+      "summary": "The source summary says the oldest and strongest twenty-seven Dead Apostles are called the Twenty-seven Dead Apostle Ancestors.",
+      "rawValues": ["最古老", "最强大的27位死徒", "死徒二十七祖"],
+      "continuityTaxonomy": {"category": "sandbox", "rawSourceLabels": ["死徒", "二十七祖"], "sourceAvailability": "supported-world-system-summary"},
+      "sourceRefs": ["sources/worldbook-profile/tm-summary-dead-apostle-true-ancestor.txt:26"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    }
+  ]
+}

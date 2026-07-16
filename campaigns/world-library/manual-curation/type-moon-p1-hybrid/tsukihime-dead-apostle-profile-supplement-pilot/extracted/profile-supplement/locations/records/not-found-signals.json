@@ -1,0 +1,74 @@
+{
+  "schema": "tm-tsukihime-extracted-record-v1",
+  "packetId": "locations",
+  "recordId": "ext-locations-not-found-signals",
+  "recordKind": "not-found-in-source",
+  "subject": "locations packet mandatory source gaps",
+  "continuityTaxonomy": {
+    "category": "sandbox",
+    "sourceGapMarker": "source-gap/candidate-only",
+    "rawSourceLabels": ["Stage 1 source coverage gap"],
+    "policyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy"
+  },
+  "sourceUnitIds": ["src-dlc-tsukihime-locations", "src-dlc-tsukihime-tohno-nanaya", "src-dlc-tsukihime-arcueid", "src-dlc-tsukihime-ciel"],
+  "sourceRefs": [
+    "work-packets/locations.json",
+    "sources/worldbook-profile/dlc-tsukihime-locations.txt:16",
+    "sources/worldbook-profile/dlc-tsukihime-locations.txt:34"
+  ],
+  "sourceType": "packet-plan-and-source-excerpt",
+  "credibility": "C",
+  "canonStatus": "unknown",
+  "candidateOnly": false,
+  "notFound": [
+    {
+      "recordId": "ext-nf-ahnenerbe",
+      "surface": "relationships",
+      "subject": "Ahnenerbe",
+      "status": "not-found-in-source",
+      "reason": "The locations work packet asks for Ahnenerbe if present, but the assigned Stage 1 source excerpts read for this packet do not name Ahnenerbe.",
+      "sourceRefs": ["work-packets/locations.json"],
+      "sourceType": "work-packet-requirement",
+      "credibility": "C",
+      "canonStatus": "unknown",
+      "continuityTaxonomy": {"category": "sandbox", "sourceGapMarker": "source-gap/candidate-only", "rawSourceLabels": ["packet request only"]}
+    },
+    {
+      "recordId": "ext-nf-aozaki-house-physical-location",
+      "surface": "appearance",
+      "subject": "Aozaki house physical location",
+      "status": "not-found-in-source",
+      "reason": "The source supports Aozaki family town control and magic-foundation context but gives no physical Aozaki house description or address.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-locations.txt:21", "sources/worldbook-profile/dlc-tsukihime-locations.txt:22"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "unknown",
+      "continuityTaxonomy": {"category": "sandbox", "rawSourceLabels": ["苍崎家族"]}
+    },
+    {
+      "recordId": "ext-nf-tohno-mansion-ability-activation",
+      "surface": "ability-activation",
+      "subject": "Tohno mansion magical base or territory activation",
+      "status": "not-found-in-source",
+      "reason": "The source describes the mansion and underground facilities but does not state a magical bounded field, territory activation, or base activation for the mansion.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-locations.txt:23", "sources/worldbook-profile/dlc-tsukihime-locations.txt:24"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "unknown",
+      "continuityTaxonomy": {"category": "sandbox", "rawSourceLabels": ["远野家本邸"]}
+    },
+    {
+      "recordId": "ext-nf-route-combat-formalization",
+      "surface": "combat-effect",
+      "subject": "route-specific location combat outcomes",
+      "status": "not-found-in-source",
+      "reason": "The assigned source provides location/event premises for Melty Blood tower and back alley incidents but not route-script combat outcomes or exact event sequences for formalization.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-locations.txt:33", "sources/worldbook-profile/dlc-tsukihime-locations.txt:34"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "unknown",
+      "continuityTaxonomy": {"category": "melty-blood", "sourceGapMarker": "source-gap/candidate-only", "rawSourceLabels": ["Melty Blood"]}
+    }
+  ],
+  "reviewStatus": "generated-pending-audit"
+}

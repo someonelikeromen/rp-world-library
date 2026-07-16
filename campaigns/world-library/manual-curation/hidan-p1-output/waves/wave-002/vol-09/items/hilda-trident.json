@@ -1,0 +1,50 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "item",
+  "entityId": "hilda-trident",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-09",
+  "periods": [
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:1525",
+        "hidan-no-aria-main/vol-09/full.txt:2190",
+        "hidan-no-aria-main/vol-09/full.txt:2250"
+      ],
+      "snapshot": {
+        "name": "希尔达三叉枪",
+        "aliases": [
+          "金色三叉枪",
+          "避雷针长枪",
+          "德古拉长枪"
+        ],
+        "type": "weapon / lightning conductor",
+        "description": "希尔达使用的金色三叉枪，尖端呈山字分岔，既可作为近战武器，也可在雷雨中高举作避雷针吸收落雷，进入第三型态并凝聚雷星。",
+        "details": {
+          "owner": "hilda",
+          "shape": "三叉山字形枪尖",
+          "special_function": "引雷并承载高压电流"
+        },
+        "owner": "hilda",
+        "status": "天空树战后随希尔达败北失控",
+        "features": [
+          "近战刺击命中率高",
+          "可导入自然雷电",
+          "第三型态下攻击可破坏棺材、水泥与钢材"
+        ],
+        "associated_abilities": [
+          "hilda-thunder-star-third-form",
+          "hilda-electricity-lorenzini"
+        ],
+        "history": [
+          "希尔达拔出三叉枪与理子近战",
+          "雷雨中以三叉枪接引落雷进入第三型态",
+          "在雷星反噬时成为电流通道之一"
+        ],
+        "evidence_level": "S"
+      }
+    }
+  ],
+  "_schema": "rp-item-volume-v1"
+}

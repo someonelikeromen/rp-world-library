@@ -1,0 +1,12 @@
+{
+  "schema": "tm-fgo-packet-final-status-v1",
+  "packetId": "pkt-fgo-part1-septem-extract",
+  "chapterId": "fgo-part1-septem",
+  "status": "passed",
+  "openIssues": 0,
+  "blockedIssues": 0,
+  "canAdvance": true,
+  "loopRounds": ["Generator", "Auditor", "Fixer", "Auditor rerun"],
+  "validationSummary": "All 16 Septem raw timeline events extracted with sourceRefs; character fragments and relationship edge files created; no aggregate formal storage created.",
+  "sourceTextAvailability": "verified present: sources/worldbook-script/part1/ch-002-septem.txt"
+}

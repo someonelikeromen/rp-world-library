@@ -1,0 +1,94 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "lion-mask",
+  "volume": "vol-42",
+  "periods": [
+    {
+      "period_id": "vol-42",
+      "volume": "vol-42",
+      "time": "Giusto加入期",
+      "name": {
+        "zh": "狮子面具",
+        "en": "Lion Mask",
+        "jp": "ライオンマスク"
+      },
+      "aliases": [
+        "Giusto 6号",
+        "古兰督卡",
+        "狮子大公"
+      ],
+      "gender": "male",
+      "species": "狮子人（狮头人身）",
+      "nationality": "古罗马/现代意大利",
+      "occupation": "Giusto 6号英雄",
+      "affiliation": "Giusto；N（名义上）",
+      "status": {
+        "physical": "狮头人身的彪形大汉",
+        "mental": "对现状安心，参与Giusto活动",
+        "location": "罗马/Giusto总部"
+      },
+      "abilities_owned": [
+        "lion-mask-combat",
+        "lion-mask-defense"
+      ],
+      "possessions_owned": [
+        "lion-mask-armor",
+        "n-flag-spear"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "前敌/朋友",
+          "status": "互相尊重，在Giusto重逢"
+        },
+        "beretta": {
+          "type": "雇主",
+          "status": "作为Giusto6号活动"
+        },
+        "white-snow": {
+          "type": "监视者/协助者",
+          "status": "白色雪花负责监视其行动"
+        },
+        "augusta": {
+          "type": "同事",
+          "status": "肯定奥古斯塔的领袖气质"
+        },
+        "the-father": {
+          "type": "尊敬对象",
+          "status": "称其理想英雄模范"
+        }
+      },
+      "knowledge": [
+        "father-poisoning-suspicion",
+        "giusto-commercial-model"
+      ],
+      "summary": "古兰督卡以Giusto6号狮子面具身份活动，与女儿伊欧一起在Giusto获得新生。他察觉到自己的价值——梵蒂冈通过白色雪花监视他，是为了将他作为与N进行人质交易（钥匙2交换钥匙3）的筹码。在卷末前往奥斯提亚海上会合，准备与鹦鹉螺号和伊·U接触。",
+      "key_events": [
+        {
+          "event_id": "giusto-headquarters-reunion",
+          "summary": "率领女儿伊欧在Giusto总部与金次重逢。",
+          "sourceRef": "hidan-no-aria-main/vol-42/full.txt:619"
+        },
+        {
+          "event_id": "one-digit-conference",
+          "summary": "参与会议并介绍古罗马历史观。",
+          "sourceRef": "hidan-no-aria-main/vol-42/full.txt:619"
+        },
+        {
+          "event_id": "vatican-interrogation",
+          "summary": "在梵蒂冈地下室提供情报支持。",
+          "sourceRef": "hidan-no-aria-main/vol-42/full.txt:4103"
+        },
+        {
+          "event_id": "ostia-sea-meeting",
+          "summary": "穿戴N铠甲持N旗前往海上会合。",
+          "sourceRef": "hidan-no-aria-main/vol-42/full.txt:4943"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-42/full.txt"
+      ]
+    }
+  ]
+}

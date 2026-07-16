@@ -1,0 +1,67 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "relie",
+  "volume": "vol-11",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-11/full.txt:215",
+    "saijaku-muhai-bahamut-main/vol-11/full.txt:5550"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-11",
+      "volume": "vol-11",
+      "time": "vol-11",
+      "label": "vol-11 snapshot",
+      "name": {
+        "zh": "蕾莉·爱格兰姆",
+        "en": "Relie Aingram",
+        "jp": ""
+      },
+      "aliases": [
+        "学园长"
+      ],
+      "titles": [
+        "王立士官学园学园长",
+        "爱格兰姆财团相关者"
+      ],
+      "gender": "女",
+      "species": "人类",
+      "occupation": "学园长；财团负责人",
+      "affiliation": "新王国；爱格兰姆财团",
+      "status": {
+        "vol_11": "为路克斯潜伏身份、旅馆与藏身资源提供背景支援"
+      },
+      "abilities_owned": [],
+      "possessions_owned": [],
+      "relationships": {
+        "philuffy": {
+          "type": "姐妹",
+          "status": "安排菲尔菲陪同潜伏并接受其休假请求"
+        },
+        "lux": {
+          "type": "支援者",
+          "status": "提供假身份与资源"
+        }
+      },
+      "summary": "幕后支援者，安排路克斯与菲尔菲新婚潜伏设定并提供爱格兰姆财团资源。",
+      "key_events": [
+        {
+          "event_id": "heiburg-infiltration-start",
+          "summary": "协助准备卢迪身份与旅馆",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-11/full.txt:215"
+        },
+        {
+          "event_id": "trapeport-occupation",
+          "summary": "爱格兰姆隐藏别墅成为藏身处",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-11/full.txt:5550"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-11/full.txt:215",
+        "saijaku-muhai-bahamut-main/vol-11/full.txt:5550"
+      ]
+    }
+  ]
+}

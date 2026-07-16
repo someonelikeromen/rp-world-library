@@ -1,0 +1,19 @@
+{
+  "schema": "tm-fgo-final-report-index-v1",
+  "recordType": "final_report_index",
+  "project": "fgo-lb1-lb2-pilot",
+  "stepId": "merge-lb1-lb2-retry",
+  "status": "passed",
+  "accepted": true,
+  "reports": [
+    "audit/final-known-issues.json",
+    "audit/final-pass-report.json",
+    "audit/final-audit-summary.md",
+    "audit/final-acceptance.md"
+  ],
+  "finalReadOnlyAuditRun": false,
+  "sourceRefs": ["sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:17-130","sources/worldbook-script/lostbelt/ch-094-lb2-gotterdammerung.txt:17-110"],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

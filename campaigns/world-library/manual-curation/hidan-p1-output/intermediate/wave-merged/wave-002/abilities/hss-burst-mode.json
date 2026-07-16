@@ -1,0 +1,66 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "hss-burst-mode",
+  "volume": "vol-08",
+  "source_refs": [
+    "hidan-no-aria-main/vol-08/chapters/ch-004-第八卷_螺旋的天空树_4弹_高度350公尺的螺旋.txt:624"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-08-main",
+      "volume": "vol-08",
+      "time": "秋季",
+      "name": {
+        "zh": "爆发模式（HSS）",
+        "en": "Hysteria Savant Syndrome"
+      },
+      "aliases": [
+        "HSS",
+        "爆发模式",
+        "情绪爆发学者症候群"
+      ],
+      "type": "genetic",
+      "description": "远山家男性的特殊状态，性亢奋或强烈情绪可引发战斗、观察、反应能力提升。本卷与狂怒爆发并列，成为金次对抗华生的基础能力。",
+      "details": {
+        "trigger": "性亢奋或衍生情绪状态",
+        "vol08_usage": "金次在多次危机中以HSS知识理解自身狂怒状态与战斗技巧"
+      },
+      "activation": {
+        "condition": "满足HSS触发条件",
+        "incantation": "无",
+        "time": "瞬间",
+        "cost": "解除后可能虚脱，衍生模式会降低理性"
+      },
+      "effects": [
+        "反应速度提升",
+        "近战与射击能力提升",
+        "观察力提升"
+      ],
+      "known_feats": [
+        "金次用HSS衍生狂怒爆发追击华生",
+        "加奈被梅雅回忆为能利用HSS快速记忆圣经"
+      ],
+      "shared_by": [
+        "kinji",
+        "kane"
+      ],
+      "see_also": [
+        "hss-rage-mode"
+      ],
+      "countered_by": [],
+      "variations": [
+        {
+          "name": "狂怒爆发",
+          "practitioner": "kinji",
+          "description": "抢夺型衍生模式"
+        }
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "hidan-no-aria-main/vol-08/chapters/ch-002-第八卷_螺旋的天空树_2弹_变装食堂.txt:215",
+        "hidan-no-aria-main/vol-08/chapters/ch-004-第八卷_螺旋的天空树_4弹_高度350公尺的螺旋.txt:624"
+      ]
+    }
+  ]
+}

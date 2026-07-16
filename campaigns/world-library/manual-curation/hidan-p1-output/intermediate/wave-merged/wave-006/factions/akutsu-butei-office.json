@@ -1,0 +1,70 @@
+{
+  "_schema": "rp-faction-volume-v1",
+  "world": "hidan-no-aria",
+  "faction_id": "akutsu-butei-office",
+  "volume": "vol-26",
+  "source_refs": [
+    "hidan-no-aria-main/vol-26/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-26",
+      "volume": "vol-26",
+      "time": "第二十六卷 穿破黑暗的巨蟒",
+      "label": "阿久津武侦事务所",
+      "name": {
+        "zh": "阿久津武侦事务所",
+        "en": "Akutsu Butei Office",
+        "jp": "阿久津武探事務所"
+      },
+      "aliases": [
+        "阿久津武侦"
+      ],
+      "type": "武侦企业",
+      "status": {
+        "active": "本卷运营中",
+        "legal": "正常",
+        "leader": "阿久津珠穗",
+        "size": "大型武侦事务所（4处分店+多名窗口员工）"
+      },
+      "purpose": "商业武侦业务（表面）→卧底调查警察与宝城院勾结（实际武侦厅委托）",
+      "leader": "阿久津珠穗",
+      "size": "大型（含副社长须坂景、窗口美女武侦数名）",
+      "affiliation": "表参道·六本木·代官山·自由之丘各有一处分店；实际同时为武侦厅卧底",
+      "summary": "阿久津珠穗经营的巨型武侦企业，垄断表参道一带的高端武侦市场。表面友善实则通过操纵治安恶化来增加案件量获取暴利。但实际上阿久津本人是武侦厅安插的卧底，以卧底身份搜集警察·宝城院武器扩张阴谋的证据。",
+      "headquarters": "东京都港区北青山三丁目十一番地（远山武侦事务所隔壁大楼）",
+      "branches": [
+        "表参道总店（本卷主要舞台）",
+        "六本木分店",
+        "代官山分店",
+        "自由之丘分店"
+      ],
+      "key_members": [
+        "阿久津珠穗",
+        "须坂景",
+        "柜台女武侦数名"
+      ],
+      "products": [
+        "侦探·警卫·保全·车辆等全种类武侦服务"
+      ],
+      "relationships": {
+        "tooyama-butei-office": {
+          "type": "隔壁竞争对手→隐藏的协力者",
+          "summary": "先以骗局打压远山武侦，最后关头救下金次一命。"
+        },
+        "hojoin-ryoji": {
+          "type": "卧底目标",
+          "summary": "受武侦厅委托搜集其与警察武器扩张阴谋的证据。"
+        },
+        "原宿警察组织犯罪对策课": {
+          "type": "假合作真调查",
+          "summary": "表面与日向刑警合作放任治安恶化，实为搜集证据。"
+        }
+      },
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-26/full.txt"
+      ]
+    }
+  ]
+}

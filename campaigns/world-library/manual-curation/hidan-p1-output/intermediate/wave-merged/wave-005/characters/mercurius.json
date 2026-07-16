@@ -1,0 +1,99 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "mercurius",
+  "volume": "vol-25",
+  "time_range": {
+    "start": "vol-25",
+    "end": "vol-25"
+  },
+  "sub_arcs": [
+    "nautilus-members",
+    "colosseum-aftermath"
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-25/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-25",
+      "volume": "vol-25",
+      "time": "第二十五卷 罗马的军神星",
+      "label": "未显形的N支援者",
+      "name": {
+        "zh": "墨丘利",
+        "en": "Mercurius",
+        "jp": "メルクリウス"
+      },
+      "aliases": [
+        "墨丘利大人",
+        "绷带男可能身份",
+        "金属水声者"
+      ],
+      "titles": [
+        "N同志"
+      ],
+      "gender": "unknown",
+      "species": "unknown/possibly technology-based",
+      "nationality": "unknown",
+      "occupation": "N支援成员",
+      "affiliation": "Nautilus/N",
+      "status": {
+        "physical": "未完全现身",
+        "role": "疑似广场会谈中的绷带男；竞技场战后执行撤退/空间支援"
+      },
+      "appearance": {
+        "overview": "广场会谈中有发出金属声的绷带男子；竞技场只以咕噜咕噜的液体/金属声和气息出现。",
+        "distinctive": [
+          "金属或液体般声响",
+          "存在难以定位"
+        ]
+      },
+      "personality": {
+        "summary": "服从N命令，保持隐蔽。",
+        "core_traits": [
+          "隐秘",
+          "支援型",
+          "不直接发言或少发言"
+        ]
+      },
+      "abilities_owned": [
+        "mercurius-stealth-support",
+        "spatial-transfer-support"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "granduca": {
+          "type": "ally",
+          "summary": "古兰督卡称其为墨丘利大人，并拒绝其撤退介入。"
+        },
+        "nemo": {
+          "type": "ally/same-faction",
+          "summary": "与尼莫的瞬间移动/撤退行动同时出现。"
+        },
+        "kinji": {
+          "type": "enemy",
+          "summary": "金次仅感知到其声响与空间支援迹象。"
+        }
+      },
+      "knowledge": [],
+      "summary": "墨丘利是本卷仍未揭明的N成员。广场会谈中有一名绷带男子发出类似金属声，竞技场战后又出现同类咕噜声，古兰督卡称其为墨丘利大人。其真实姿态、能力与是否等同绷带男仍未完全确定。",
+      "key_events": [
+        {
+          "event_id": "plaza-conference-n",
+          "summary": "以绷带男子/金属声成员形态列席尼莫阵营。",
+          "sourceRef": "hidan-no-aria-main/vol-25/full.txt"
+        },
+        {
+          "event_id": "nemo-sea-teleport-attack",
+          "summary": "竞技场战后与尼莫空间转移现象同时被感知。",
+          "sourceRef": "hidan-no-aria-main/vol-25/full.txt"
+        }
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "hidan-no-aria-main/vol-25/full.txt"
+      ]
+    }
+  ]
+}

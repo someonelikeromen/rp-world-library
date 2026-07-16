@@ -1,0 +1,171 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "reki-sniping",
+  "volume": "vol-24",
+  "source_refs": [
+    "hidan-no-aria-main/vol-24/chapters/ch-001-第二十四卷_狂逸的同学会_1弹_帕里奥利的手枪技师.txt:30"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-24-main",
+      "volume": "vol-24",
+      "time": "罗马篇",
+      "name": {
+        "zh": "蕾姬狙击术",
+        "en": "Reki Sniping"
+      },
+      "aliases": [
+        "狙击拘禁"
+      ],
+      "type": "combat / skill",
+      "description": "蕾姬以德拉古诺夫与风读能力进行超远距威慑和拘禁。",
+      "details": {
+        "vol_24_usage": "受贝瑞塔雇佣，在机场和外出中防止金次逃跑；金次认为无法正面逃离蕾姬狙击。"
+      },
+      "activation": {
+        "condition": "狙击枪、视线或风读辅助",
+        "incantation": "",
+        "time": "持续压制",
+        "cost": "遵守雇佣任务"
+      },
+      "effects": [
+        "远距拘禁目标",
+        "压制逃跑路线",
+        "与莎拉共同构成双狙击封锁"
+      ],
+      "power_level": {
+        "initial": "S级狙击手级威慑",
+        "peak": "让金次放弃正面逃脱",
+        "evolution": []
+      },
+      "known_feats": [
+        {
+          "event_id": "rome-airport-debt-capture",
+          "summary": "在机场以枪口瞄准丽莎/金次阵营协助拘捕。",
+          "sourceRef": "hidan-no-aria-main/vol-24/full.txt:30"
+        }
+      ],
+      "shared_by": [
+        "reki"
+      ],
+      "see_also": [
+        "reki-wind-reading"
+      ],
+      "countered_by": [],
+      "counters": [
+        "kinji-escape-attempt"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-24/chapters/ch-001-第二十四卷_狂逸的同学会_1弹_帕里奥利的手枪技师.txt:30",
+        "hidan-no-aria-main/vol-24/chapters/ch-002-第二十四卷_狂逸的同学会_2弹_吾之学舍在锅底.txt:782"
+      ]
+    },
+    {
+      "period_id": "vol-25",
+      "volume": "vol-25",
+      "time": "第二十五卷",
+      "name": {
+        "zh": "蕾姬狙击术",
+        "en": "Reki Sniping"
+      },
+      "aliases": [
+        "德拉古诺夫狙击"
+      ],
+      "type": "combat / skill",
+      "description": "蕾姬的超高精度狙击能力，本卷主要用于护卫与威慑。",
+      "details": {
+        "vol25": "广场会谈中需二十七秒准备德拉古诺夫。"
+      },
+      "activation": {
+        "condition": "准备狙击枪与射线",
+        "incantation": "",
+        "time": "依装备状态而定",
+        "cost": "需要视野和枪械组装"
+      },
+      "effects": [
+        "远距离压制",
+        "护卫目标"
+      ],
+      "power_level": {
+        "initial": "S级狙击手级",
+        "peak": "未完全发挥",
+        "evolution": []
+      },
+      "known_feats": [
+        "保护贝瑞塔并准备枪枝"
+      ],
+      "shared_by": [
+        "reki"
+      ],
+      "see_also": [],
+      "countered_by": [],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-25/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-29",
+      "volume": "vol-29",
+      "time": "第二十九卷 盟约的谍候",
+      "name": {
+        "zh": "蕾姬狙击术",
+        "en": "Reki Sniping"
+      },
+      "aliases": [
+        "延脑擦边弹",
+        "环境记忆狙击"
+      ],
+      "type": "combat / skill",
+      "description": "蕾姬以德拉古诺夫进行超精密狙击。本卷她凭环境记忆发现拟态树异常，并在空袭前以延脑擦边弹击倒阿斯库勒庇欧斯。",
+      "details": {
+        "feats": [
+          "发现树木尺寸变化",
+          "从化学社窗口限制角度狙击",
+          "故意让头部喷血以便政府监控判定制压"
+        ]
+      },
+      "activation": {
+        "condition": "狙击点、视线、目标判断",
+        "incantation": "",
+        "time": "瞬时",
+        "cost": "需更换位置避免暴露"
+      },
+      "effects": [
+        "远距离侦查与制压",
+        "非致命击倒目标",
+        "提供战场倒计时"
+      ],
+      "power_level": {
+        "initial": "S级狙击",
+        "peak": "海卓拉体内击倒阿斯库勒庇欧斯",
+        "evolution": []
+      },
+      "known_feats": [
+        "海卓拉决战最终制压"
+      ],
+      "shared_by": [
+        "reki"
+      ],
+      "see_also": [
+        "enemy-presence-detection"
+      ],
+      "countered_by": [
+        "hydra-slime-body"
+      ],
+      "counters": [
+        "asclepios-hydra-symbiosis"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-29/full.txt"
+      ]
+    }
+  ]
+}

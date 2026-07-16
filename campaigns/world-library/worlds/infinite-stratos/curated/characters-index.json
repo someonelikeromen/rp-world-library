@@ -1,0 +1,1713 @@
+{
+  "schema": "rp-characters-index-v1",
+  "worldId": "infinite-stratos",
+  "characters": [
+    {
+      "id": "ichika-orimura",
+      "name": "织斑一夏",
+      "aliases": [
+        "Orimura Ichika",
+        "一夏",
+        "唯一男性IS驾驶员",
+        "织斑",
+        "一夏同学",
+        "一夏哥"
+      ],
+      "sourceKeys": [
+        "织斑一夏",
+        "织斑 一夏",
+        "Orimura Ichika",
+        "白式",
+        "一夏",
+        "织斑"
+      ],
+      "visibility": "public",
+      "summary": "IS学园唯一男性学生。性格正直但迟钝，对女生心意完全读不懂。IS:白式(Byakushiki)，近战特化型第三世代机。武器:雪片贰型(能量刀)。一击必杀:零落白夜。与箒是青梅竹马。",
+      "detail": "世界唯一能操纵IS的男性。因误入IS学园考场而启动白式，被强制入学。在全是女生的环境中挣扎求生。虽然迟钝但关键时刻异常可靠，为了保护同伴可以不顾一切。拥有极高的IS适应性。",
+      "roles": [
+        "主角",
+        "IS驾驶员",
+        "班代表",
+        "弟"
+      ],
+      "factions": [
+        "is-academy"
+      ],
+      "locations": [
+        "is-academy",
+        "central-arena",
+        "student-dormitory"
+      ],
+      "powerSystems": [
+        "is-system"
+      ],
+      "abilities": [
+        "IS驾驶",
+        "白式操控",
+        "近战适应",
+        "零落白夜(白式一品能力，需剧情解锁/确认)",
+        "绝对防御运用"
+      ],
+      "items": [
+        "白式",
+        "雪片二型/雪片二式(白式武装，按剧情阶段使用)",
+        "端白星AI(源RP扩展)"
+      ],
+      "appearance": {
+        "gender": "male",
+        "age": "高中一年级左右",
+        "notes": "外观不在源中详述；按原作常识为普通少年体格。"
+      },
+      "personality": {
+        "traits": [
+          "直率",
+          "迟钝",
+          "善良",
+          "保护同伴",
+          "适应力强"
+        ],
+        "likes": [
+          "伙伴",
+          "平稳日常"
+        ],
+        "dislikes": [
+          "伤害同伴",
+          "被当作实验品"
+        ]
+      },
+      "relationships": [
+        {
+          "target": "chifuyu-orimura",
+          "type": "sibling-guardian-teacher"
+        },
+        {
+          "target": "houki-shinonono",
+          "type": "childhood-friend"
+        },
+        {
+          "target": "lingyin-huang",
+          "type": "childhood-friend-promised"
+        },
+        {
+          "target": "cecilia-alcott",
+          "type": "classmate-rival-to-friend"
+        },
+        {
+          "target": "charlotte-dunois",
+          "type": "classmate-secret-approach"
+        },
+        {
+          "target": "laura-bodewig",
+          "type": "target-rival-to-ally"
+        },
+        {
+          "target": "tatenashi-sarashiki",
+          "type": "senpai-observer"
+        },
+        {
+          "target": "kanzashi-sarashiki",
+          "type": "distant-curiosity"
+        },
+        {
+          "target": "tabane-shinonono",
+          "type": "research-interest"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ],
+      "notes": "源中部分设定如白式核心编号001、端白星AI、同步率数值属于RP扩展，使用时应按沙盒需要启用。",
+      "psyche": {
+        "primary": "腹黑",
+        "primaryScore": 5,
+        "secondary": [],
+        "confidence": "high",
+        "forbiddenRules": [
+          "在小事上浪费算计。只有涉及核心利益时才启动全力模式"
+        ]
+      }
+    },
+    {
+      "id": "houki-shinonono",
+      "name": "篠之之箒",
+      "aliases": [
+        "Shinonono Houki",
+        "筱之之箒",
+        "箒",
+        "筱之之"
+      ],
+      "sourceKeys": [
+        "篠之之箒",
+        "篠之之 箒",
+        "筱之之箒",
+        "Houki",
+        "箒",
+        "筱之之"
+      ],
+      "visibility": "public",
+      "summary": "一夏的青梅竹马，剑道少女，IS发明者束的妹妹。对一夏感情深但不善表达。",
+      "detail": "箒与一夏幼时相识，分别多年后在IS学园重逢。她崇敬千冬，也承受姐姐束天才光环带来的压力。性格认真、傲娇、容易因一夏与其他女生接近而动摇。源世界书给她对一夏初始好感度1200/10000：青梅竹马基础深厚但因久别与性格而微妙。其专用机常识为第四代IS‘红椿’，源剧情强调可与白式配合。",
+      "roles": [
+        "heroine",
+        "student",
+        "is-pilot",
+        "childhood-friend"
+      ],
+      "factions": [
+        "is-academy",
+        "shinonono-lab"
+      ],
+      "locations": [
+        "is-academy",
+        "student-dormitory",
+        "central-arena"
+      ],
+      "powerSystems": [
+        "is-system"
+      ],
+      "abilities": [
+        "剑道",
+        "IS操控",
+        "红椿运用",
+        "绚烂舞踏(红椿能力，按剧情阶段)"
+      ],
+      "items": [
+        "红椿"
+      ],
+      "appearance": {
+        "gender": "female",
+        "age": "高中一年级左右",
+        "notes": "源内未详述外观；按原作常识为黑长发和剑道气质。"
+      },
+      "personality": {
+        "traits": [
+          "认真",
+          "傲娇",
+          "自尊心强",
+          "纯情",
+          "努力"
+        ],
+        "likes": [
+          "剑道",
+          "一夏",
+          "获得认可"
+        ],
+        "dislikes": [
+          "被姐姐摆布",
+          "情敌挑衅"
+        ]
+      },
+      "relationships": [
+        {
+          "target": "ichika-orimura",
+          "type": "childhood-friend-romantic-tension"
+        },
+        {
+          "target": "tabane-shinonono",
+          "type": "sisters-complicated"
+        },
+        {
+          "target": "chifuyu-orimura",
+          "type": "admires"
+        },
+        {
+          "target": "lingyin-huang",
+          "type": "romantic-rival"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ],
+      "psyche": {
+        "primary": "傲娇",
+        "primaryScore": 57,
+        "secondary": [],
+        "confidence": "high",
+        "forbiddenRules": [
+          "全程毒舌无缝隙，每段攻击性对话中必须留出至少一个破绽"
+        ]
+      }
+    },
+    {
+      "id": "cecilia-alcott",
+      "name": "塞西莉亚·奥尔科特",
+      "aliases": [
+        "Cecilia Alcott",
+        "塞西莉娅",
+        "英国代表候补生",
+        "塞西莉亚",
+        "西西莉亚",
+        "奥尔科特"
+      ],
+      "sourceKeys": [
+        "塞西莉亚·奥尔科特",
+        "Cecilia Alcott",
+        "蓝色眼泪",
+        "塞西莉亚",
+        "西西莉亚",
+        "奥尔科特"
+      ],
+      "visibility": "public",
+      "summary": "英国代表候补生，金发碧眼的贵族千金。IS:蓝色眼泪(Blue Tears)，狙击特化型，装备星光mkⅢ狙击枪和浮游炮。高傲但本质善良，料理水平毁灭性。",
+      "detail": "塞西莉亚出身英国名门，礼仪与自尊心强，擅长远程/位元武器战。源世界书给她初始好感度50/10000：对男性IS驾驶员抱有好奇、审视和潜在轻蔑；班级代表战后一夏的表现会成为态度转折点。RP中适合承担‘贵族式竞争→承认→笨拙亲近’路线。",
+      "roles": [
+        "英国代表候补生",
+        "狙击手",
+        "贵族"
+      ],
+      "factions": [
+        "is-academy",
+        "national-representatives"
+      ],
+      "locations": [
+        "is-academy",
+        "central-arena",
+        "student-dormitory"
+      ],
+      "powerSystems": [
+        "is-system"
+      ],
+      "abilities": [
+        "远程射击",
+        "BIT/机动兵器控制",
+        "礼仪与社交"
+      ],
+      "items": [
+        "蓝色眼泪(Blue Tears)"
+      ],
+      "appearance": {
+        "gender": "female",
+        "age": "高中一年级左右",
+        "notes": "源内未详述；按原作常识为金发蓝眼大小姐形象。"
+      },
+      "personality": {
+        "traits": [
+          "高傲",
+          "优雅",
+          "好胜",
+          "重视家族荣誉",
+          "逐渐坦率"
+        ],
+        "likes": [
+          "红茶",
+          "礼仪",
+          "被认可"
+        ],
+        "dislikes": [
+          "失礼",
+          "被低估"
+        ]
+      },
+      "relationships": [
+        {
+          "target": "ichika-orimura",
+          "type": "rival-to-romantic-interest"
+        },
+        {
+          "target": "houki-shinonono",
+          "type": "classmate-competitor"
+        },
+        {
+          "target": "lingyin-huang",
+          "type": "classmate-competitor"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ],
+      "psyche": {
+        "primary": "怪才",
+        "primaryScore": 4,
+        "secondary": [
+          {
+            "model": "大小姐",
+            "score": 2
+          },
+          {
+            "model": "高傲",
+            "score": 2
+          }
+        ],
+        "confidence": "low",
+        "forbiddenRules": [
+          "为了融入社会而主动改变古怪行为"
+        ]
+      }
+    },
+    {
+      "id": "lingyin-huang",
+      "name": "凰铃音",
+      "aliases": [
+        "Huang Lingyin",
+        "凰鈴音",
+        "铃",
+        "铃音",
+        "中国代表候补生",
+        "凰铃音",
+        "凰"
+      ],
+      "sourceKeys": [
+        "凰鈴音",
+        "凰 铃音",
+        "凰铃音",
+        "Huang Lingyin",
+        "甲龙",
+        "铃音",
+        "铃",
+        "凰"
+      ],
+      "visibility": "public",
+      "summary": "中国代表候补生，一夏的第二个青梅竹马。IS:甲龙(Shenlong)，炮击特化型，双持斩击炮+冲击炮。性格直率火爆，对一夏有好感但表达方式笨拙。",
+      "detail": "铃音与一夏有既往同学关系，感情表达比箒更直接，常以‘约定/婚约’宣示位置。源世界书给她初始好感度1300/10000：因一夏进入IS学园而兴奋，准备与其他情敌竞争。专用IS常识为甲龙，近中距离战斗与冲击炮风格适合表现她的爽朗攻势。",
+      "roles": [
+        "中国代表候补生",
+        "青梅竹马",
+        "炮击手"
+      ],
+      "factions": [
+        "is-academy",
+        "national-representatives"
+      ],
+      "locations": [
+        "is-academy",
+        "student-dormitory",
+        "central-arena"
+      ],
+      "powerSystems": [
+        "is-system"
+      ],
+      "abilities": [
+        "IS近中距离战斗",
+        "双天牙月/冲击炮风格武装",
+        "料理(源中提及厨艺印象)"
+      ],
+      "items": [
+        "甲龙"
+      ],
+      "appearance": {
+        "gender": "female",
+        "age": "高中一年级左右",
+        "notes": "源内未详述；按原作常识为双马尾/中华风活力少女。"
+      },
+      "personality": {
+        "traits": [
+          "活泼",
+          "直率",
+          "好胜",
+          "占有欲强",
+          "热情"
+        ],
+        "likes": [
+          "一夏",
+          "料理",
+          "胜负"
+        ],
+        "dislikes": [
+          "被忽视",
+          "情敌抢先"
+        ]
+      },
+      "relationships": [
+        {
+          "target": "ichika-orimura",
+          "type": "childhood-friend-self-declared-fiancee"
+        },
+        {
+          "target": "houki-shinonono",
+          "type": "romantic-rival"
+        },
+        {
+          "target": "cecilia-alcott",
+          "type": "classmate-rival"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ],
+      "psyche": {
+        "primary": "高傲",
+        "primaryScore": 15,
+        "secondary": [],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "在劣势时表现出小人得志或无能狂怒",
+          "对明显的下位者进行无意义的欺凌——那太掉价了"
+        ]
+      }
+    },
+    {
+      "id": "charlotte-dunois",
+      "name": "夏洛特·德诺阿",
+      "aliases": [
+        "Charlotte Dunois",
+        "查尔斯·德诺阿",
+        "Charles Dunois",
+        "夏露",
+        "夏洛特",
+        "查理",
+        "德诺阿",
+        "迪努亚",
+        "夏绿蒂",
+        "查尔斯",
+        "查理斯",
+        "夏儿"
+      ],
+      "sourceKeys": [
+        "夏洛特·德诺阿",
+        "查尔斯·德诺阿",
+        "Charlotte Dunois",
+        "疾风・里凡穆・订制Ⅱ",
+        "夏洛特",
+        "夏露",
+        "查理",
+        "迪努亚",
+        "查尔斯",
+        "查理斯",
+        "夏绿蒂",
+        "夏儿",
+        "疾风"
+      ],
+      "visibility": "conditional-secret",
+      "summary": "法国代表候补生，以男装「查理斯·迪努亚」身份转入IS学园(第二个男性驾驶员)。IS:疾风(法国产泛用机)，多用途泛用机。性格温柔体贴，后暴露真实性别。父亲是迪努亚公司社长。",
+      "detail": "夏洛特的核心钩子是伪装、任务和身份揭露。源世界书按‘任务前夕/刚接到任务’给她对一夏初始好感度60/10000：对目标未知、对伪装任务不安又好奇。常识中她与德诺阿公司关系密切，专用机为疾风・里凡穆・订制Ⅱ。RP中她适合承担‘秘密室友/同伴信任/企业压力’路线。",
+      "roles": [
+        "法国代表候补生",
+        "男装",
+        "多用途驾驶员"
+      ],
+      "factions": [
+        "is-academy",
+        "national-representatives",
+        "dunois-industry"
+      ],
+      "locations": [
+        "is-academy",
+        "student-dormitory"
+      ],
+      "powerSystems": [
+        "is-system"
+      ],
+      "abilities": [
+        "高速机动",
+        "多武装运用",
+        "伪装与社交适应"
+      ],
+      "items": [
+        "疾风・里凡穆・订制Ⅱ/Rafale Revive Custom II"
+      ],
+      "appearance": {
+        "gender": "female",
+        "age": "高中一年级左右",
+        "notes": "初期可作男装伪装；源未详述外观。"
+      },
+      "personality": {
+        "traits": [
+          "温柔",
+          "体贴",
+          "谨慎",
+          "有责任感",
+          "内心不安"
+        ],
+        "likes": [
+          "被接纳",
+          "稳定关系"
+        ],
+        "dislikes": [
+          "被当作工具",
+          "家族压力"
+        ]
+      },
+      "relationships": [
+        {
+          "target": "ichika-orimura",
+          "type": "target-to-trusted-friend-romantic-interest"
+        },
+        {
+          "target": "cecilia-alcott",
+          "type": "classmate"
+        },
+        {
+          "target": "dunois-industry",
+          "type": "family-corporate-pressure"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ],
+      "psyche": {
+        "primary": "散漫",
+        "primaryScore": 2,
+        "secondary": [
+          {
+            "model": "怪才",
+            "score": 2
+          },
+          {
+            "model": "热血",
+            "score": 2
+          }
+        ],
+        "confidence": "low",
+        "forbiddenRules": []
+      }
+    },
+    {
+      "id": "laura-bodewig",
+      "name": "劳拉·博德维希",
+      "aliases": [
+        "Laura Bodewig",
+        "拉芙拉·布迪威伊",
+        "德国代表候补生",
+        "萝拉",
+        "蘿拉",
+        "劳拉",
+        "博德维希",
+        "劳拉·博德维希"
+      ],
+      "sourceKeys": [
+        "拉芙拉·布迪威伊",
+        "劳拉·博德维希",
+        "Laura Bodewig",
+        "黑雨",
+        "萝拉",
+        "蘿拉",
+        "劳拉",
+        "博德维希"
+      ],
+      "visibility": "public",
+      "summary": "德国代表候补生，黑兔部队出身，战斗与任务优先。初期将一夏视为战略异常点，后关系可急速转变。",
+      "detail": "劳拉接受军方训练，早期价值观偏向任务、强弱与千冬崇拜。源世界书给她初始好感度30/10000：通过军方情报把一夏当作待评估目标数据，情感淡漠。常识中她与德国黑兔部队和专用IS黑雨相关，适合‘军人式冷硬→被一夏打破→学会个人情感’路线。",
+      "roles": [
+        "heroine",
+        "student",
+        "soldier",
+        "national-candidate"
+      ],
+      "factions": [
+        "is-academy",
+        "national-representatives",
+        "german-black-rabbit"
+      ],
+      "locations": [
+        "is-academy",
+        "central-arena",
+        "germany"
+      ],
+      "powerSystems": [
+        "is-system"
+      ],
+      "abilities": [
+        "军人格斗",
+        "战术执行",
+        "AIC/停止结界风格能力(按原作常识)",
+        "高压制战斗"
+      ],
+      "items": [
+        "黑雨/Schwarzer Regen"
+      ],
+      "appearance": {
+        "gender": "female",
+        "age": "高中一年级左右",
+        "notes": "源未详述；按原作常识可保留眼罩/军人气质。"
+      },
+      "personality": {
+        "traits": [
+          "冷淡",
+          "纪律性强",
+          "直接",
+          "战斗优先",
+          "情感学习中"
+        ],
+        "likes": [
+          "千冬",
+          "胜利",
+          "明确命令"
+        ],
+        "dislikes": [
+          "弱者逻辑",
+          "混乱无序"
+        ]
+      },
+      "relationships": [
+        {
+          "target": "ichika-orimura",
+          "type": "evaluation-target-to-romantic-interest"
+        },
+        {
+          "target": "chifuyu-orimura",
+          "type": "admires-mentor-ideal"
+        },
+        {
+          "target": "german-black-rabbit",
+          "type": "military-origin"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ],
+      "psyche": {
+        "primary": "正直",
+        "primaryScore": 15,
+        "secondary": [],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "将正直写成没见过世面的天真。正直角色可以知道世界是复杂的，但他选择不复杂",
+          "让正直变成说教。他的感染力来自行动，不是来自道理"
+        ]
+      }
+    },
+    {
+      "id": "chifuyu-orimura",
+      "name": "织斑千冬",
+      "aliases": [
+        "Orimura Chifuyu",
+        "千冬",
+        "白骑士",
+        "千冬姐",
+        "织斑老师",
+        "千冬老师"
+      ],
+      "sourceKeys": [
+        "织斑千冬",
+        "织斑 千冬",
+        "Orimura Chifuyu",
+        "白骑士",
+        "千冬",
+        "织斑老师"
+      ],
+      "visibility": "public-secret-past",
+      "summary": "一夏的姐姐，前日本IS代表。第一届MONDO GROSSO全胜夺冠后退役。现任IS学园教师。严厉但深爱弟弟。被称为「千冬大人」拥有大量女性粉丝。",
+      "detail": "千冬是连接一夏、束、白骑士事件和IS学园权力结构的关键角色。她对一夏既是亲人也是教师，会以严厉方式保护并训练他。源世界书给她对一夏好感度5500/10000，说明其本质是亲情、责任与命运羁绊，不应与恋爱情感混同。她与束是旧识/孽缘式合作者，对束的天才与失控都保持警惕。",
+      "roles": [
+        "前世界冠军",
+        "教师",
+        "姐",
+        "教官"
+      ],
+      "factions": [
+        "is-academy",
+        "alaska-treaty-system"
+      ],
+      "locations": [
+        "is-academy",
+        "central-arena",
+        "underground-complex"
+      ],
+      "powerSystems": [
+        "is-system"
+      ],
+      "abilities": [
+        "顶尖IS战斗经验",
+        "教学",
+        "威压",
+        "危机判断",
+        "白骑士传说相关"
+      ],
+      "items": [
+        "白骑士相关过去(秘密/历史)"
+      ],
+      "appearance": {
+        "gender": "female",
+        "age": "成年人",
+        "notes": "源未详述；按原作常识为严厉教师形象。"
+      },
+      "personality": {
+        "traits": [
+          "严厉",
+          "冷静",
+          "责任感强",
+          "保护欲深",
+          "不轻易表露情感"
+        ],
+        "likes": [
+          "一夏安全",
+          "秩序",
+          "有效训练"
+        ],
+        "dislikes": [
+          "束的乱来",
+          "学生冒险"
+        ]
+      },
+      "relationships": [
+        {
+          "target": "ichika-orimura",
+          "type": "older-sister-guardian-teacher"
+        },
+        {
+          "target": "tabane-shinonono",
+          "type": "old-acquaintance-complicated"
+        },
+        {
+          "target": "houki-shinonono",
+          "type": "teacher-admired-by"
+        },
+        {
+          "target": "tatenashi-sarashiki",
+          "type": "cooperative-tension"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "is-st-worldbook:entry 4",
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ],
+      "notes": "请避免将源中‘好感度’误读为恋爱向；千冬线以家人、师长、秘密与责任为核心。",
+      "psyche": {
+        "primary": "知性",
+        "primaryScore": 32,
+        "secondary": [
+          {
+            "model": "忠诚",
+            "score": 17
+          }
+        ],
+        "confidence": "high",
+        "forbiddenRules": [
+          "表现出幼稚的急躁或争风吃醋",
+          "把知性写成\"什么都知道的万能圣母\"——她是成熟，不是全知全能",
+          "让她的温柔变成毫无边界的讨好"
+        ]
+      }
+    },
+    {
+      "id": "tabane-shinonono",
+      "name": "篠之之束",
+      "aliases": [
+        "Shinonono Tabane",
+        "筱之之束",
+        "束",
+        "IS发明者",
+        "兔子",
+        "篠之之束"
+      ],
+      "sourceKeys": [
+        "篠之之束",
+        "篠之之 束",
+        "筱之之束",
+        "Tabane",
+        "IS发明者",
+        "束",
+        "兔子"
+      ],
+      "visibility": "secretive",
+      "summary": "IS的发明者，箒的姐姐。天才科学家，性格自由奔放像兔子一样。开发了白式。掌握IS核心技术「核心」。在学园地下有秘密机库。失踪状态但暗中活动。",
+      "detail": "束是世界技术格局的源头级人物。她通常不受国家和学园常规约束，常以‘有趣’为行动动机。源世界书将她对一夏的表面好感度写为50/10000，但实际研究/娱乐兴趣爆表；并设定她可能隐藏在学园地下设施、通过千冬关注一夏。RP中她适合担当幕后推手、升级补丁、恶作剧与危险天才，而非普通教师或稳定盟友。",
+      "roles": [
+        "IS发明者",
+        "天才科学家",
+        "姐"
+      ],
+      "factions": [
+        "shinonono-lab"
+      ],
+      "locations": [
+        "hidden-labs",
+        "underground-complex"
+      ],
+      "powerSystems": [
+        "is-system",
+        "core-network"
+      ],
+      "abilities": [
+        "IS研发",
+        "黑箱技术",
+        "远程监控",
+        "机体升级",
+        "不按常理的实验设计"
+      ],
+      "items": [
+        "红椿相关技术",
+        "白式升级数据(可选)",
+        "惊喜快递/实验道具(源RP扩展)"
+      ],
+      "appearance": {
+        "gender": "female",
+        "age": "成年人",
+        "notes": "源未详述；按原作常识为兔耳/天才怪人形象可用。"
+      },
+      "personality": {
+        "traits": [
+          "天才",
+          "任性",
+          "恶作剧",
+          "执着千冬",
+          "把世界当实验场"
+        ],
+        "likes": [
+          "有趣的数据",
+          "千冬",
+          "箒",
+          "打破常识"
+        ],
+        "dislikes": [
+          "无聊",
+          "普通规则束缚"
+        ]
+      },
+      "relationships": [
+        {
+          "target": "houki-shinonono",
+          "type": "older-sister-complicated-care"
+        },
+        {
+          "target": "chifuyu-orimura",
+          "type": "old-acquaintance-obsessive-friendship"
+        },
+        {
+          "target": "ichika-orimura",
+          "type": "research-target-interest"
+        },
+        {
+          "target": "is-system",
+          "type": "creator"
+        }
+      ],
+      "importance": "critical",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "is-st-worldbook:entry 4",
+        "is-st-worldbook:entry 7",
+        "is-st-worldbook:entry 9"
+      ],
+      "psyche": {
+        "primary": "知性",
+        "primaryScore": 30,
+        "secondary": [],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "表现出幼稚的急躁或争风吃醋",
+          "把知性写成\"什么都知道的万能圣母\"——她是成熟，不是全知全能",
+          "让她的温柔变成毫无边界的讨好"
+        ]
+      }
+    },
+    {
+      "id": "tatenashi-sarashiki",
+      "name": "更识楯无",
+      "aliases": [
+        "Sarashiki Tatenashi",
+        "更識楯無",
+        "楯无",
+        "学生会长",
+        "更识",
+        "会长",
+        "更识楯无"
+      ],
+      "sourceKeys": [
+        "更识楯無",
+        "更识 楯無",
+        "更识楯无",
+        "Tatenashi",
+        "楯无",
+        "会长"
+      ],
+      "visibility": "public",
+      "summary": "IS学园学生会长，二年生。IS:雾缠淑女(Mysterious Lady)，多功能型。表面随性轻浮，实则城府极深的情报通。被称为「学园最强的IS驾驶员」。有一个妹妹(簪)。",
+      "detail": "楯无在源世界书中被描述为优雅的‘狩猎者’：提前注意到一夏，将他纳入观察视野和棋局。她与千冬可能合作又互相制衡，对妹妹簪有保护与锻炼并存的态度。常识中她与俄罗斯代表、专用IS雾缠的淑女相关。源初始好感度200/10000，偏兴趣和娱乐期待。",
+      "roles": [
+        "学生会长",
+        "情报通",
+        "最强驾驶员",
+        "姐"
+      ],
+      "factions": [
+        "is-academy",
+        "national-representatives"
+      ],
+      "locations": [
+        "student-council-room",
+        "is-academy",
+        "central-arena"
+      ],
+      "powerSystems": [
+        "is-system"
+      ],
+      "abilities": [
+        "情报收集",
+        "政治手腕",
+        "水/雾系战术(按机体特性)",
+        "调度学生会"
+      ],
+      "items": [
+        "雾缠的淑女/Mysterious Lady"
+      ],
+      "appearance": {
+        "gender": "female",
+        "age": "高中高年级",
+        "notes": "源未详述；按原作常识为成熟优雅的前辈形象。"
+      },
+      "personality": {
+        "traits": [
+          "优雅",
+          "从容",
+          "爱逗弄",
+          "腹黑",
+          "保护妹妹"
+        ],
+        "likes": [
+          "有趣的人",
+          "掌控局面",
+          "妹妹成长"
+        ],
+        "dislikes": [
+          "失控风险",
+          "伤害簪的人"
+        ]
+      },
+      "relationships": [
+        {
+          "target": "ichika-orimura",
+          "type": "observer-teaser-mentor"
+        },
+        {
+          "target": "kanzashi-sarashiki",
+          "type": "older-sister-protective"
+        },
+        {
+          "target": "chifuyu-orimura",
+          "type": "cooperative-tension"
+        }
+      ],
+      "importance": "major",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 7",
+        "is-st-worldbook:entry 9"
+      ],
+      "psyche": {
+        "primary": "怪才",
+        "primaryScore": 3,
+        "secondary": [],
+        "confidence": "high",
+        "forbiddenRules": [
+          "为了融入社会而主动改变古怪行为"
+        ]
+      }
+    },
+    {
+      "id": "kanzashi-sarashiki",
+      "name": "更识簪",
+      "aliases": [
+        "Sarashiki Kanzashi",
+        "更識簪",
+        "簪"
+      ],
+      "sourceKeys": [
+        "更识簪",
+        "更识 簪",
+        "Kanzashi",
+        "打铁二式"
+      ],
+      "visibility": "public",
+      "summary": "学生副会长，楯无的妹妹。IS:打铁贰型(改良机)。内向害羞，对姐姐抱有复杂感情。技术能力强但缺乏自信。",
+      "detail": "簪在源世界书中初始好感度80/10000：可能从楯无处听闻一夏，但因内向不敢主动接触。她与姐姐关系是依赖、敬畏与压力并存。常识中她与打铁二式相关，适合‘远观→被卷入事件→通过技术与战斗建立自信’路线。",
+      "roles": [
+        "学生副会长",
+        "妹",
+        "整备士"
+      ],
+      "factions": [
+        "is-academy",
+        "national-representatives"
+      ],
+      "locations": [
+        "is-academy",
+        "student-council-room",
+        "hangar"
+      ],
+      "powerSystems": [
+        "is-system"
+      ],
+      "abilities": [
+        "IS操控",
+        "软件/战术分析(源剧情建议)",
+        "内向观察"
+      ],
+      "items": [
+        "打铁二式"
+      ],
+      "appearance": {
+        "gender": "female",
+        "age": "高中生",
+        "notes": "源未详述；按原作常识为眼镜/内向少女形象可用。"
+      },
+      "personality": {
+        "traits": [
+          "内向",
+          "害羞",
+          "自卑",
+          "认真",
+          "技术宅气质"
+        ],
+        "likes": [
+          "安静环境",
+          "被真正看见",
+          "技术问题"
+        ],
+        "dislikes": [
+          "被姐姐阴影笼罩",
+          "公开压力"
+        ]
+      },
+      "relationships": [
+        {
+          "target": "tatenashi-sarashiki",
+          "type": "younger-sister-dependent-pressure"
+        },
+        {
+          "target": "ichika-orimura",
+          "type": "distant-curiosity-to-friend"
+        }
+      ],
+      "importance": "major",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "is-st-worldbook:entry 6",
+        "is-st-worldbook:entry 9"
+      ],
+      "psyche": {
+        "primary": "姐控",
+        "primaryScore": 17,
+        "secondary": [],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "对姐姐产生真正的反抗或否定"
+        ]
+      }
+    },
+    {
+      "id": "maya-yamada",
+      "name": "山田真耶",
+      "aliases": [
+        "Yamada Maya",
+        "山田老师",
+        "山田",
+        "真耶"
+      ],
+      "sourceKeys": [
+        "山田真耶",
+        "山田 真耶",
+        "Yamada Maya",
+        "山田",
+        "真耶"
+      ],
+      "visibility": "public",
+      "summary": "副班主任，容易慌乱的温柔教师。对千冬抱有特别的憧憬和依赖。虽然教学能力一般但非常努力。",
+      "detail": "源世界书明确将真耶作为需纳入初始关系网的教师：她对唯一男性驾驶员转入班级紧张又关心，尊敬并有些畏惧千冬。适合承担日常引导、规则说明、训练事故救场和轻喜剧缓冲角色。",
+      "roles": [
+        "副班主任",
+        "教师"
+      ],
+      "factions": [
+        "is-academy"
+      ],
+      "locations": [
+        "is-academy",
+        "central-arena",
+        "infirmary"
+      ],
+      "powerSystems": [
+        "is-system"
+      ],
+      "abilities": [
+        "教学",
+        "IS基础指导",
+        "学生关怀"
+      ],
+      "items": [],
+      "appearance": {
+        "gender": "female",
+        "age": "成年人",
+        "notes": "源未详述。"
+      },
+      "personality": {
+        "traits": [
+          "温柔",
+          "紧张",
+          "冒失",
+          "责任感",
+          "关怀学生"
+        ],
+        "likes": [
+          "学生安全"
+        ],
+        "dislikes": [
+          "突发事故"
+        ]
+      },
+      "relationships": [
+        {
+          "target": "ichika-orimura",
+          "type": "teacher-student-support"
+        },
+        {
+          "target": "chifuyu-orimura",
+          "type": "colleague-respects"
+        }
+      ],
+      "importance": "supporting",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "is-st-worldbook:entry 9"
+      ],
+      "psyche": {
+        "primary": "知性",
+        "primaryScore": 15,
+        "secondary": [
+          {
+            "model": "元气",
+            "score": 15
+          }
+        ],
+        "confidence": "medium",
+        "forbiddenRules": [
+          "表现出幼稚的急躁或争风吃醋",
+          "把知性写成\"什么都知道的万能圣母\"——她是成熟，不是全知全能",
+          "让她的温柔变成毫无边界的讨好"
+        ]
+      }
+    },
+    {
+      "id": "hoshi-shirube-ai",
+      "name": "端白星AI",
+      "aliases": [
+        "Hoshi-Shirube",
+        "端白星",
+        "白式辅助AI"
+      ],
+      "sourceKeys": [
+        "端白星",
+        "Hoshi-Shirube",
+        "AI“端白星”"
+      ],
+      "visibility": "secret-rp-extension",
+      "summary": "源世界书为白式/一夏个人终端设定的辅助AI。初始冰冷高效，可随互动成长出人性化。",
+      "detail": "端白星不是必须采用的原作核心设定，而是源RP世界书的可用机制。初始人性化等级10/1000，只提供公式化战术和系统提示；随着白式战斗数据、日常互动与一夏选择积累，可逐渐出现语调变化、备选方案、吐槽或保护性判断。适合替代状态栏/系统精灵，但不应夺走角色主动权或变成全知外挂。",
+      "roles": [
+        "support-ai",
+        "rp-mechanic",
+        "white-shiki-interface"
+      ],
+      "factions": [
+        "is-academy",
+        "shinonono-lab"
+      ],
+      "locations": [
+        "white-shiki",
+        "personal-terminal"
+      ],
+      "powerSystems": [
+        "is-system",
+        "core-network"
+      ],
+      "abilities": [
+        "战术提示",
+        "生理数据监测",
+        "操作辅助",
+        "人性化成长"
+      ],
+      "items": [
+        "白式"
+      ],
+      "appearance": {
+        "gender": "none",
+        "age": "AI",
+        "notes": "可表现为合成音、HUD符号或终端图标。"
+      },
+      "personality": {
+        "traits": [
+          "初始冰冷",
+          "高效",
+          "逐渐拟人",
+          "忠实记录"
+        ],
+        "likes": [
+          "数据完整",
+          "驾驶员安全"
+        ],
+        "dislikes": [
+          "逻辑冲突",
+          "无授权访问"
+        ]
+      },
+      "relationships": [
+        {
+          "target": "ichika-orimura",
+          "type": "pilot-assistant"
+        },
+        {
+          "target": "tabane-shinonono",
+          "type": "possible-creator-or-maintainer"
+        }
+      ],
+      "importance": "optional-major",
+      "evidenceLevel": "B",
+      "sourceRefs": [
+        "is-st-worldbook:entry 7",
+        "is-st-worldbook:entry 9"
+      ],
+      "notes": "可选RP扩展，若追求原作向可禁用或降格为普通OS。",
+      "psyche": {
+        "primary": "散漫",
+        "primaryScore": 6,
+        "secondary": [
+          {
+            "model": "三无(绫波丽)",
+            "score": 4
+          },
+          {
+            "model": "三无(涅音梦)",
+            "score": 4
+          }
+        ],
+        "confidence": "low",
+        "forbiddenRules": []
+      }
+    },
+    {
+      "id": "goten-dan",
+      "name": "五反田弹",
+      "aliases": [
+        "弹",
+        "五反田",
+        "Goten Dan"
+      ],
+      "summary": "一夏的国中好友，热衷游戏和女生话题。总是试图打探一夏的后宫生活。有个妹妹(兰)对一夏有好感。出现于校外场景。",
+      "detail": "",
+      "factions": [
+        "IS学园关联者"
+      ],
+      "powerSystems": [],
+      "roles": [
+        "好友",
+        "损友"
+      ],
+      "importance": "secondary",
+      "sourceRefs": [
+        "wenku8:vol-2/ch1"
+      ],
+      "sourceKeys": [
+        "五反田",
+        "弹"
+      ],
+      "psyche": {
+        "primary": "元气",
+        "primaryScore": 20,
+        "secondary": [],
+        "confidence": "medium",
+        "forbiddenRules": []
+      }
+    },
+    {
+      "id": "goten-ran",
+      "name": "五反田兰",
+      "aliases": [
+        "兰",
+        "五反田",
+        "Goten Ran"
+      ],
+      "summary": "弹的妹妹，比一夏小一岁。成绩优秀的资优生。对一夏有朦胧好感，见到他会紧张得说不出话。",
+      "detail": "",
+      "factions": [
+        "IS学园关联者"
+      ],
+      "powerSystems": [],
+      "roles": [
+        "妹妹",
+        "暗恋者"
+      ],
+      "importance": "secondary",
+      "sourceRefs": [
+        "wenku8:vol-2/ch1"
+      ],
+      "sourceKeys": [
+        "五反田",
+        "兰"
+      ],
+      "psyche": {
+        "primary": "纯娇",
+        "primaryScore": 15,
+        "secondary": [],
+        "confidence": "medium",
+        "forbiddenRules": []
+      }
+    },
+    {
+      "id": "squall-meusel",
+      "name": "斯可儿·谬赛尔",
+      "aliases": [
+        "斯可儿",
+        "斯可儿·谬赛尔",
+        "Squall Meusel",
+        "Squall",
+        "可儿·谬赛尔"
+      ],
+      "summary": "亡国机业行动部队「黑白化身」首领。曾在美军死亡者名单中被记录为十二年前死亡，现以年轻姿态活动。专用IS为「黄金黎明（golden·dawn）」。",
+      "detail": "原文显示楯无在美国秘密舰资料中检索到斯可儿·谬赛尔的死亡记录；她随后以IS「黄金黎明」与楯无的「雾缠淑女」交战。她与秋天有亲密/恋人式关系，并与蕾因、弗媞等亡国机业成员同行。",
+      "factions": [
+        "亡国机业(Phantom Task)",
+        "黑白化身"
+      ],
+      "powerSystems": [
+        "专用机持有"
+      ],
+      "roles": [
+        "黑白化身首领",
+        "亡国机业干部",
+        "IS驾驶员"
+      ],
+      "importance": "major",
+      "sourceRefs": [
+        "wenku8:vol11-12"
+      ],
+      "sourceKeys": [
+        "斯可儿",
+        "斯可儿·谬赛尔",
+        "黄金黎明",
+        "黑白化身",
+        "可儿·谬赛尔"
+      ],
+      "psyche": {
+        "primary": "冷酷",
+        "primaryScore": 20,
+        "confidence": "medium"
+      },
+      "items": [
+        "黄金黎明（golden·dawn）"
+      ],
+      "evidenceLevel": "A"
+    },
+    {
+      "id": "autumn",
+      "name": "秋天",
+      "aliases": [
+        "秋天",
+        "Autumn"
+      ],
+      "summary": "亡国机业成员，与斯可儿关系亲密。原文中在斯可儿受伤后现身，知道她机械身体的秘密，并以温柔态度关心她。",
+      "detail": "秋天不是简单的“好战干部”标签；原文重点之一是她与斯可儿之间的体贴、亲密关系，以及亡国机业内部行动中的同伴位置。",
+      "factions": [
+        "亡国机业(Phantom Task)"
+      ],
+      "powerSystems": [
+        "专用机持有"
+      ],
+      "roles": [
+        "亡国机业成员",
+        "斯可儿的亲密同伴"
+      ],
+      "importance": "secondary",
+      "sourceRefs": [
+        "wenku8:vol11-12"
+      ],
+      "sourceKeys": [
+        "秋天",
+        "斯可儿",
+        "机械义肢"
+      ],
+      "psyche": {
+        "primary": "狂气",
+        "primaryScore": 15,
+        "confidence": "low"
+      },
+      "evidenceLevel": "A"
+    },
+    {
+      "id": "madoka-orimura",
+      "name": "织斑圆",
+      "aliases": [
+        "圆",
+        "织斑圆",
+        "小圆"
+      ],
+      "summary": "与织斑家相关的谜之少女，外貌与千冬相似。曾驾驶「沉默西风」，后由束为其准备专用机「黑骑士」。目标锁定织斑一夏，自称要成为“织斑圆”的完成品。",
+      "detail": "原文没有“马迪亚斯”称呼。她正式报上名为“织斑圆”，在战斗中以沉默西风强袭一夏；束后来展示为她打造的专用机“黑骑士”。她与束、斯可儿一方有合作/利用关系，但不应写成亡国机业首领。",
+      "factions": [
+        "亡国机业关联",
+        "筱之之束关联"
+      ],
+      "powerSystems": [
+        "专用机持有",
+        "第二形态(Second Shift)"
+      ],
+      "roles": [
+        "谜之少女",
+        "织斑家关联者",
+        "一夏敌对者"
+      ],
+      "importance": "primary",
+      "sourceRefs": [
+        "wenku8:vol12"
+      ],
+      "sourceKeys": [
+        "织斑圆",
+        "小圆",
+        "黑骑士",
+        "沉默西风"
+      ],
+      "psyche": {
+        "primary": "支配",
+        "primaryScore": 25,
+        "confidence": "medium"
+      },
+      "items": [
+        "沉默西风",
+        "黑骑士"
+      ],
+      "evidenceLevel": "A"
+    },
+    {
+      "visibility": "public",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "linovelib-is-vol-11-12-local-mhtml"
+      ],
+      "locations": [
+        "linovelib-vol-11-12"
+      ],
+      "powerSystems": [
+        "is-system"
+      ],
+      "roles": [
+        "奥尔科特家女仆",
+        "第11卷关键角色"
+      ],
+      "factions": [
+        "alcott-household"
+      ],
+      "abilities": [],
+      "items": [],
+      "relationships": [
+        {
+          "target": "cecilia-alcott",
+          "type": "mistress-servant-family-tie"
+        }
+      ],
+      "importance": "major",
+      "id": "chelsea",
+      "name": "切尔西",
+      "aliases": [
+        "Chelsea"
+      ],
+      "sourceKeys": [
+        "切尔西"
+      ],
+      "summary": "塞西莉亚·奥尔科特身边的女仆/亲近者。第11卷围绕她、王者之剑与塞西莉亚家族因缘展开；一度穿着亡国机业黑色披风并与塞西莉亚对峙。"
+    },
+    {
+      "visibility": "public",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "linovelib-is-vol-11-12-local-mhtml"
+      ],
+      "locations": [
+        "linovelib-vol-11-12"
+      ],
+      "powerSystems": [
+        "is-system"
+      ],
+      "roles": [
+        "第11卷尾声关键角色"
+      ],
+      "factions": [
+        "alcott-household"
+      ],
+      "abilities": [],
+      "items": [],
+      "relationships": [
+        {
+          "target": "chelsea",
+          "type": "sister"
+        },
+        {
+          "target": "cecilia-alcott",
+          "type": "support-linked"
+        }
+      ],
+      "importance": "major",
+      "id": "exia-blanket",
+      "name": "埃克西亚·布兰克特",
+      "aliases": [
+        "Exia Blanket",
+        "埃克西亚"
+      ],
+      "sourceKeys": [
+        "埃克西亚",
+        "埃克西亚·布兰克特"
+      ],
+      "summary": "第11卷尾声登场的少女，与切尔西相似；切尔西称其为妹妹，和塞西莉亚父母秘密准备的IS核心/支援计划有关。"
+    },
+    {
+      "visibility": "public",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "linovelib-is-vol-11-12-local-mhtml"
+      ],
+      "locations": [
+        "linovelib-vol-11-12"
+      ],
+      "powerSystems": [
+        "is-system"
+      ],
+      "roles": [
+        "卢森堡公主",
+        "IS驾驶员",
+        "第12卷关键角色"
+      ],
+      "factions": [
+        "luxembourg"
+      ],
+      "abilities": [],
+      "items": [
+        "第七公主"
+      ],
+      "relationships": [],
+      "importance": "major",
+      "id": "iris-luxembourg",
+      "name": "艾莉丝·比阿特丽斯·德·卢森堡",
+      "aliases": [
+        "Iris Twilight de Luxembourg",
+        "艾莉丝",
+        "卢森堡第七公主"
+      ],
+      "sourceKeys": [
+        "艾莉丝",
+        "卢森堡第七公主",
+        "第七公主",
+        "Iris Twilight de Luxembourg"
+      ],
+      "summary": "第12卷登场的卢森堡公主，第七公主IS的驾驶者；抵达日本并要求将一夏带往卢森堡。"
+    },
+    {
+      "visibility": "public",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "linovelib-is-vol-11-12-local-mhtml"
+      ],
+      "locations": [
+        "linovelib-vol-11-12"
+      ],
+      "powerSystems": [
+        "is-system"
+      ],
+      "roles": [
+        "骑士",
+        "护卫"
+      ],
+      "factions": [
+        "luxembourg"
+      ],
+      "abilities": [],
+      "items": [
+        "帝国骑士",
+        "埃克莱尔"
+      ],
+      "relationships": [
+        {
+          "target": "iris-luxembourg",
+          "type": "loyal-knight"
+        }
+      ],
+      "importance": "major",
+      "id": "jibril",
+      "name": "吉布里尔",
+      "aliases": [
+        "Jibril"
+      ],
+      "sourceKeys": [
+        "吉布里尔"
+      ],
+      "summary": "第12卷登场，效忠艾莉丝公主的骑士型角色；驾驶/使用帝国骑士相关装备，与铃、箒等对峙。"
+    },
+    {
+      "visibility": "public",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "linovelib-is-vol-11-12-local-mhtml"
+      ],
+      "locations": [
+        "linovelib-vol-11-12"
+      ],
+      "powerSystems": [
+        "is-system"
+      ],
+      "roles": [
+        "轨道任务人员"
+      ],
+      "factions": [],
+      "abilities": [],
+      "items": [],
+      "relationships": [],
+      "importance": "secondary",
+      "id": "forte-sapphire",
+      "name": "福尔特·萨菲尔",
+      "aliases": [
+        "Sapphire",
+        "蓝宝石",
+        "萨菲尔"
+      ],
+      "sourceKeys": [
+        "福尔特·萨菲尔",
+        "萨菲尔",
+        "蓝宝石（Sapphire"
+      ],
+      "summary": "第11卷序章/王者之剑事件中登场的轨道任务少女之一，参与接触失控的超凝聚等离子炮“王者之剑”。"
+    },
+    {
+      "visibility": "public",
+      "evidenceLevel": "A",
+      "sourceRefs": [
+        "linovelib-is-vol-11-12-local-mhtml"
+      ],
+      "locations": [
+        "linovelib-vol-11-12"
+      ],
+      "powerSystems": [
+        "is-system"
+      ],
+      "roles": [
+        "轨道任务人员"
+      ],
+      "factions": [],
+      "abilities": [],
+      "items": [],
+      "relationships": [],
+      "importance": "secondary",
+      "id": "daryl-casey",
+      "name": "达里尔·凯西",
+      "aliases": [
+        "Rain",
+        "雷恩"
+      ],
+      "sourceKeys": [
+        "达里尔·凯西",
+        "雷恩（Rain）",
+        "雷恩"
+      ],
+      "summary": "第11卷序章/王者之剑事件中登场的轨道任务少女之一，与福尔特·萨菲尔一起接触失控的“王者之剑”。"
+    }
+  ],
+  "totalCharacters": 17
+}

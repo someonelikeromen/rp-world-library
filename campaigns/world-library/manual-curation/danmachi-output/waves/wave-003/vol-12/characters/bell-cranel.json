@@ -1,0 +1,31 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "bell-cranel",
+  "volume": "vol-12",
+  "time_range": { "start": "序章后第四日", "end": "终章后" },
+  "sub_arcs": ["异端儿地表逃亡", "代达罗斯路救援", "神意反抗", "阿斯泰里奥斯再战"],
+  "periods": [{
+    "period_id": "vol-12-bell-xenos-rescue-and-rivalry",
+    "volume": "vol-12",
+    "time": "第一章-终章",
+    "label": "背负污名营救异端儿并败给阿斯泰里奥斯",
+    "name": { "zh": "贝尔·克朗尼", "en": "Bell Cranel", "jp": "ベル・クラネル" },
+    "gender": "男",
+    "species": "人类",
+    "occupation": "冒险者、赫斯缇雅眷族团长",
+    "affiliation": "赫斯缇雅眷族",
+    "status": { "level": "Lv.3", "location": "欧拉丽、代达罗斯路、地下城第1层", "state": "从人族公敌式污名中重新站起，确认要为异端儿与再战变强" },
+    "summary": "贝尔因保护薇妮而遭全城谴责，仍在赫斯缇雅和同伴支持下选择救援异端儿。他担当诱饵、救出薇妮，与艾丝正面对立并说出希望异端儿也能拥有安身之处。荷米斯企图逼他杀死古罗斯时，贝尔拒绝按神意行动，选择相信异端儿。随后阿斯泰里奥斯乱入，全城见证贝尔与宿敌死斗；贝尔虽恢复名誉，却在地下城败北痛哭，并获得除追逐艾丝外的第二目标：与阿斯泰里奥斯再战并实现与异端儿共处的约定。",
+    "key_events": [
+      { "event_id": "bell-public-disgrace-and-hestia-escort", "summary": "在市民谴责中外出并遭孤儿称为叛徒。", "sourceRef": "danmachi-main/vol-12/full.txt:301-1242" },
+      { "event_id": "hestia-familia-chooses-save-xenos", "summary": "接受同伴支持，全员决定营救异端儿。", "sourceRef": "danmachi-main/vol-12/full.txt:1243-2644" },
+      { "event_id": "bell-duels-ais-to-protect-wiene", "summary": "为保护薇妮与艾丝交锋并诉说理想。", "sourceRef": "danmachi-main/vol-12/full.txt:4953-8194" },
+      { "event_id": "gros-attacks-eina-and-bell-refuses-to-kill", "summary": "拒绝杀死古罗斯，反抗荷米斯剧本。", "sourceRef": "danmachi-main/vol-12/full.txt:8195-9326" },
+      { "event_id": "bell-vs-asterius-public-duel", "summary": "与阿斯泰里奥斯公开死斗并败北。", "sourceRef": "danmachi-main/vol-12/full.txt:9327-10846" }
+    ],
+    "evidence_level": "S",
+    "source_refs": ["danmachi-main/vol-12/full.txt:301-10846", "danmachi-main/vol-12/full.txt:10847-11228"]
+  }],
+  "source_refs": ["danmachi-main/vol-12/full.txt:301-11228"]
+}

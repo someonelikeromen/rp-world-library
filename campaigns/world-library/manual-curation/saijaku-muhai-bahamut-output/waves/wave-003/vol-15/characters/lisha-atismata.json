@@ -1,0 +1,44 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "lisha-atismata",
+  "volume": "vol-15",
+  "time_range": { "start": "要塞休整", "end": "圣蚀战后力尽" },
+  "sub_arcs": ["维修巴哈姆特", "密丝希斯战", "菲尔尼格修战"],
+  "periods": [
+    {
+      "period_id": "vol-15",
+      "volume": "vol-15",
+      "time": "Great Sanctuary battle",
+      "label": "新王国公主与机龙工匠",
+      "name": { "zh": "莉姿夏尔蒂·亚提司玛特", "en": "Lisha Atismata", "jp": "リーズシャルテ・アティスマータ" },
+      "aliases": ["莉夏", "公主"],
+      "titles": ["新王国公主", "机龙维修师", "骑士团核心成员"],
+      "gender": "female",
+      "species": "human",
+      "nationality": "新王国",
+      "occupation": "公主 / 机龙使 / 机龙技师",
+      "affiliation": "新王国; 骑士团; 世界联盟",
+      "status": { "physical": "连续使用超越装甲后力尽", "mental": "仍相信路克斯与同伴", "arc": "以王女与伙伴身份承担决战" },
+      "appearance": { "overview": "金发侧马尾的娇小公主，行动直接。", "physical": { "height": "short", "build": "slender", "hair": { "color": "blonde", "style": "side ponytail" }, "eyes": {} }, "attire": { "default": "制服或白袍维修服", "combat": "装衣与《迪亚玛特》" }, "voice_quality": { "tone": "energetic, proud, emotional" }, "distinctive": ["会大声吐槽", "擅长机龙调律与维修", "使用超越装甲"] },
+      "personality": { "summary": "自尊强、感情外露，但关键时刻能作为指挥官快速判断。", "core_traits": ["骄傲", "热情", "技术宅", "勇敢", "嫉妒心强但守约"], "values": ["新王国责任", "路克斯的安全", "骑士团伙伴"], "fears": ["路克斯战死", "自己无法承担公主职责"], "desires": ["赢得战争后正式追求路克斯", "支持罗菲女王和新王国"], "strengths": ["迪亚玛特神装", "超越装甲", "机龙维修", "临场指挥"], "flaws": ["容易情绪化", "不擅长隐藏恋爱心情"], "inner_conflict": "公主职责、恋爱协定与战场生存压力同时压在身上。", "decision_pattern": { "battle": "先看清敌方核心机制，再用技术与神装制造突破口", "personal": "嘴硬但会相信伙伴" } },
+      "voice": { "self_reference": "我", "address_pattern": { "lux-arcadia": "路克斯", "filuffy-einfolk": "天然女孩", "yoruka-kirihime": "好色女" }, "register": { "default": "energetic and blunt" }, "catchphrases": [], "quote_samples": ["我相信你，路克斯。"] },
+      "habits": { "mannerisms": ["跺脚抗议", "维修时披白袍", "对路克斯相关事情反应激烈"], "daily_routine": "休整期间仍负责机龙维修。", "quirks": ["把恋爱也当成重要战斗目标"], "preferences": { "field": "drag-ride engineering" } },
+      "background": { "birth": { "place": "新王国", "family": ["raffy-queen", "atismata-earl"] }, "upbringing": "英杰亚提司玛特伯爵之女，革命后成为新王国公主。", "education": { "engineering": "机龙开发与维修" }, "formative_events": ["被旧帝国当政治工具利用", "与路克斯相遇并获得机龙与自尊"], "pre_story": "作为骑士团成员与路克斯并肩战斗。" },
+      "abilities_owned": ["diamat-heaven-voice", "over-unit", "drag-ride-engineering", "diamat-aerial-fortress"],
+      "possessions_owned": ["diamat", "flying-drag-ride-sky-wing", "land-drag-ride-rending-claw", "wyvern-ram", "bahamut-maintenance-kit"],
+      "relationships": { "lux-arcadia": { "type": "knight / love interest", "status": "维修巴哈姆特并在战场上相信路克斯会回来。" }, "raffy-queen": { "type": "adoptive mother / sovereign", "status": "临别时被托付要由路克斯保护。" }, "krulcifer-einfolk": { "type": "romantic rival / ally", "status": "在协定下竞争路克斯，同时共同战斗。" }, "filuffy-einfolk": { "type": "ally", "status": "与菲尔菲配合击破菲尔尼格修。" }, "mishis-v-exfer": { "type": "enemy", "status": "被密丝希斯夺走天声后失去战斗力，但继续指挥。" }, "fugil-arcadia": { "type": "enemy / past benefactor", "status": "质问五年前为何交给自己迪亚玛特。" } },
+      "knowledge": ["fugil-diamat-past", "drag-ride-specialized-maintenance"],
+      "secrets": [],
+      "summary": "莉夏在本卷负责维修骑士团与路克斯的机龙，随后参与密丝希斯战和圣蚀战。她虽被密丝希斯夺走天声，却继续指挥，并在后段以超越装甲和强化天声协助菲尔菲破坏菲尔尼格修。",
+      "key_events": [
+        { "event_id": "queen-raffy-withdrawal", "summary": "随路克斯会见罗菲女王，承诺大战后协助新王国。", "sourceRef": "saijaku-muhai-bahamut-main/vol-15/full.txt:613" },
+        { "event_id": "knights-defeat-mishis", "summary": "在密丝希斯战中开局牵制并被夺走天声。", "sourceRef": "saijaku-muhai-bahamut-main/vol-15/full.txt:3785" },
+        { "event_id": "filuffy-defeats-hayes-eclipse", "summary": "以超越天声压住菲尔尼格修，为菲尔菲创造破坏机会。", "sourceRef": "saijaku-muhai-bahamut-main/vol-15/full.txt:7580" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["saijaku-muhai-bahamut-main/vol-15/full.txt:613", "saijaku-muhai-bahamut-main/vol-15/full.txt:3785", "saijaku-muhai-bahamut-main/vol-15/full.txt:7160", "saijaku-muhai-bahamut-main/vol-15/full.txt:7580"]
+    }
+  ],
+  "source_refs": ["saijaku-muhai-bahamut-main/vol-15/full.txt"]
+}

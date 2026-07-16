@@ -1,0 +1,20 @@
+{
+  "schema": "tm-tsukihime-normalized-fragment-v1",
+  "packetId": "main-cast-high-confidence",
+  "fragmentId": "ability-activation-arcueid-remake",
+  "layer": "ability-activation",
+  "subjectId": "arcueid-brunestud",
+  "continuity": { "rawSourceLabel": "重制版", "canonicalContinuity": "remake", "taxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy/rawLabelMapping/重制版" },
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "candidateOnly": false,
+  "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:45", "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:48", "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:49", "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:50", "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:51"],
+  "assertions": [
+    { "property": "createdRole", "value": "raised as a weapon specialized to execute Demon Lords and Dead Apostles", "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:45"] },
+    { "property": "mysticEyesOfCharm", "value": "can restrain, brainwash, and manipulate memory without destroying the target's mind", "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:48"] },
+    { "property": "marblePhantasm", "value": "temporarily converts physical phenomena and manipulates natural phenomena and spatial heat", "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:49"] },
+    { "property": "planetSupport", "value": "as a True Ancestor, power comes from planetary support", "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:50"] },
+    { "property": "luminaryCandidate", "value": "Luminary form ability material is candidate-only for later separate extraction", "candidateOnly": true, "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:51"] }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "freya",
+  "volume": "vol-01",
+  "time_range": { "start": "chapter-4", "end": "vol-01-end" },
+  "sub_arcs": [],
+  "periods": [
+    {
+      "period_id": "freya-vol01",
+      "volume": "vol-01",
+      "time": "vol-01",
+      "label": "美神的注目",
+      "name": { "zh": "芙蕾雅", "en": "Freya", "jp": "フレイヤ" },
+      "aliases": ["美神"],
+      "titles": ["美神", "令美为之沉沦的神"],
+      "gender": "female",
+      "species": "goddess",
+      "nationality": "天界",
+      "occupation": "美神",
+      "affiliation": "芙蕾雅眷族",
+      "status": {},
+      "appearance": {
+        "overview": "绝世美神，雪白肌肤、银发银瞳。魔鬼身材黄金比例。",
+        "physical": { "height": "高挑", "build": "无可挑剔", "hair": { "color": "银", "style": "长发" }, "eyes": { "color": "银", "type": "妖艳" } },
+        "attire": { "default": "深蓝长袍", "formal": "金线刺绣礼服" },
+        "voice_quality": {},
+        "distinctive": ["绝世美貌", "银发银瞳"]
+      },
+      "personality": {
+        "summary": "深邃多情的美神，对贝尔一见钟情，暗中观察他的成长。",
+        "core_traits": ["美艳", "深邃", "执着", "任性"],
+        "values": ["美", "纯粹的灵魂"],
+        "fears": [],
+        "desires": ["贝尔"],
+        "strengths": ["魅惑之力", "美貌"],
+        "flaws": ["为达目的不择手段"],
+        "inner_conflict": "",
+        "decision_pattern": "凭感情行事"
+      },
+      "background": {
+        "birth": { "place": "天界", "family": [] },
+        "upbringing": "爱与情欲之神",
+        "formative_events": [],
+        "pre_story": "玩弄男神无数"
+      },
+      "relationships": {
+        "loki": { "type": "旧识", "description": "互相了解对方底细" },
+        "hestia": { "type": "表面友好", "description": "利用赫斯缇雅获取贝尔情报" },
+        "bell-cranel": { "type": "迷恋对象", "description": "对贝尔一见钟情" }
+      },
+      "summary": "美神。在众神之宴上听到赫斯缇雅提起贝尔而产生了兴趣。在怪物祭中为了'逗逗'贝尔，迷幻了看守放出了银背猿。",
+      "key_events": [
+        { "event_id": "goddess-banquet", "summary": "在众神之宴上听到贝尔的事", "sourceRef": "danmachi-main/vol-01/full.txt:2051-3680" },
+        { "event_id": "monster-festival-chaos", "summary": "用魅惑之力放走银背猿", "sourceRef": "danmachi-main/vol-01/full.txt:3681-5590" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-01/full.txt:2051-5590"]
+    }
+  ],
+  "source_refs": []
+}

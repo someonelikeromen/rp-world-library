@@ -1,0 +1,23 @@
+{
+  "schema": "tm-tsukihime-normalized-location-fragment-v1",
+  "packetId": "locations",
+  "recordId": "loc-frag-tohno-underground-facilities",
+  "recordKind": "outfit-equipment-location-fragment",
+  "subjectId": "tohno-underground-kingdom-context",
+  "name": {"zh": "远野家地下王国", "en": "Tohno underground kingdom"},
+  "continuityTaxonomy": {
+    "category": "sandbox",
+    "rawSourceLabels": ["远野家地下王国", "远野家"],
+    "policyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy"
+  },
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "candidateOnly": false,
+  "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-locations.txt:24"],
+  "equipmentOrFacilitySignals": [
+    "Family secret associated with the Tohno household.",
+    "Contains a basement, dungeon, research laboratory, and other suspicious areas."
+  ],
+  "reviewStatus": "generated-pending-audit"
+}

@@ -1,0 +1,61 @@
+{
+  "schema": "tm-tsukihime-normalized-packet-index-v1",
+  "packetId": "locations",
+  "stage": "stage-2-wave-2-packet-generation",
+  "status": "generated-pending-audit",
+  "generatedAt": "2026-07-15",
+  "worldId": "type-moon-nasuverse",
+  "project": "tsukihime-dead-apostle-profile-supplement-pilot",
+  "continuityTaxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy",
+  "allowedIndexOnly": true,
+  "formalizationBoundary": "No formal location, event, relationship, graph, or timeline records are created by this packet.",
+  "forbiddenAggregateCheck": {
+    "charactersJsonCreated": false,
+    "eventsJsonCreated": false,
+    "relationshipsJsonCreated": false,
+    "factsJsonCreated": false,
+    "graphJsonCreated": false,
+    "timelineJsonCreated": false
+  },
+  "layers": {
+    "appearance": [
+      "appearance/misaki-town-visual-spatial.json",
+      "appearance/tohno-mansion-visual-spatial.json",
+      "appearance/school-residential-park-visual-spatial.json"
+    ],
+    "outfitEquipment": [
+      "outfit-equipment/tohno-underground-facilities.json",
+      "outfit-equipment/ciel-apartment-curry-storage.json"
+    ],
+    "abilityActivation": [
+      "ability-activation/aozaki-magic-foundation-context.json",
+      "ability-activation/arcueid-apartment-mystic-eyes.json"
+    ],
+    "combatEffect": [
+      "combat-effect/melty-blood-location-candidates.json"
+    ],
+    "relationships": [
+      "relationships/location-associations-candidate.json"
+    ],
+    "timeline": [
+      "timeline-markers/location-continuity-markers.json"
+    ],
+    "candidates": [
+      "candidates/crossover-location-candidates.json"
+    ],
+    "notFound": [
+      "not-found/not-found-in-source.json"
+    ]
+  },
+  "recordCounts": {
+    "appearance": 3,
+    "outfitEquipment": 2,
+    "abilityActivation": 2,
+    "combatEffect": 1,
+    "relationships": 1,
+    "timelineMarkers": 1,
+    "candidates": 1,
+    "notFound": 1,
+    "totalNormalizedFragmentsExcludingIndex": 12
+  }
+}

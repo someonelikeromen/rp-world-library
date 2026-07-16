@@ -1,0 +1,13 @@
+{
+  "schema":"tm-fgo-lb6-final-pass-report-v1",
+  "project":"fgo-lb6-pilot",
+  "generatedAt":"2026-07-13",
+  "generatedByStep":"merge-lb6",
+  "model":"lt-yuyu/gpt-5.5",
+  "status":"passed",
+  "finalReadOnlyAuditRun":false,
+  "gateVerification":{"sourceTextManifest":{"status":"passed","expected":2,"built":2,"gateStatus":"passed"},"lb6-1-avalon-pre":{"status":"passed","openIssues":0,"blockedIssues":0,"canAdvance":true},"lb6-2-round-table-post":{"status":"passed","openIssues":0,"blockedIssues":0,"canAdvance":true}},
+  "counts":{"mergedEvents":45,"relationshipEdges":21,"appearanceRecords":22,"abilityRecords":32,"combatEffectRecords":36,"stageCharacterGroups":13,"aliasCandidates":16},
+  "requirements":{"eventRawFieldsRetained":true,"duplicateRawEventCodeA0Preserved":true,"relationshipTimelineAndTimeRangeRetained":true,"unsupportedExternalLabelsCandidateOnly":true,"formalAggregateBanObserved":true,"sourceFirstTerminology":true},
+  "sourceRefs":["merged/index.json","sources/worldbook-script/lostbelt/source-text-manifest.json","audit/packet-audits/lostbelt/lb6-1-avalon-pre/final-status.json","audit/packet-audits/lostbelt/lb6-2-round-table-post/final-status.json"],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"
+}

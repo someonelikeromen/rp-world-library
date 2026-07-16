@@ -1,0 +1,61 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "typhon-ruthless-fruit",
+  "volume": "vol-20",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-20/full.txt:2845"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-20",
+      "volume": "vol-20",
+      "time": "最终战",
+      "name": {
+        "zh": "无情果实",
+        "en": "Ruthless Fruit"
+      },
+      "aliases": [],
+      "type": "divine-drag-ride ability",
+      "description": "堤丰神装，可削弱或无效化其他机龙神装。菲尔菲用其消除路克斯身上的暴食反冲。",
+      "details": {
+        "used_by": "philuffy-ainfram"
+      },
+      "activation": {
+        "condition": "装备堤丰并展开范围",
+        "incantation": "无情果实",
+        "time": "范围持续",
+        "cost": "能量"
+      },
+      "effects": [
+        "降低机龙输出",
+        "无效化神装效果",
+        "解除同伴负担"
+      ],
+      "power_level": {
+        "initial": "高",
+        "peak": "解除路克斯暴食后五秒反冲风险",
+        "evolution": []
+      },
+      "known_feats": [
+        "菲尔菲用其让路克斯及时挡住弗基尔攻击"
+      ],
+      "shared_by": [
+        "philuffy-ainfram"
+      ],
+      "see_also": [
+        "typhon",
+        "bahamut-gluttony"
+      ],
+      "countered_by": [],
+      "counters": [
+        "bahamut-gluttony"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-20/full.txt:2845"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "freya",
+  "volume": "vol-06",
+  "time_range": {"start": "第二章", "end": "第五章"},
+  "sub_arcs": ["宴会接近贝尔", "旁观战争游戏"],
+  "periods": [
+    {
+      "period_id": "vol-06-ch-02-banquet",
+      "volume": "vol-06",
+      "time": "第二章 Shall We Dance？",
+      "label": "美神注视白兔",
+      "name": {"zh": "芙蕾雅", "en": "Freya", "jp": "フレイヤ"},
+      "titles": ["美神", "芙蕾雅眷族主神"],
+      "gender": "女",
+      "species": "女神",
+      "occupation": "主神",
+      "affiliation": "芙蕾雅眷族",
+      "status": {"location": "众神之宴", "state": "少见地出席宴会并接近贝尔"},
+      "personality": {"summary": "优雅且危险，享受赫斯缇雅保护贝尔的反应。", "core_traits": ["魅惑", "从容", "占有欲隐秘", "观察者"]},
+      "relationships": {"bell-cranel": "持续关注其灵魂光辉", "hestia": "挑逗其警戒心", "ottar": "随从"},
+      "summary": "芙蕾雅出席阿波罗宴会，引发全场骚动。她走到贝尔面前触碰其脸颊并问今晚能否让自己做个好梦，被赫斯缇雅强行阻止。",
+      "key_events": [{"event_id": "freya-approaches-bell-at-banquet", "summary": "在宴会上接近并挑逗贝尔。", "sourceRef": "danmachi-main/vol-06/full.txt:1544"}],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-06/full.txt:1544"]
+    },
+    {
+      "period_id": "vol-06-ch-04-to-ch-05-observer",
+      "volume": "vol-06",
+      "time": "第四章—第五章",
+      "label": "让贝尔接受试炼",
+      "name": {"zh": "芙蕾雅", "en": "Freya", "jp": "フレイヤ"},
+      "titles": ["美神", "芙蕾雅眷族主神"],
+      "gender": "女",
+      "species": "女神",
+      "occupation": "主神",
+      "affiliation": "芙蕾雅眷族",
+      "status": {"location": "巴别塔最高层与诸神大会", "state": "支持帮手制度但总体静观战争游戏"},
+      "personality": {"summary": "把阿波罗事件视作贝尔灵魂被锻炼的试炼；必要时准备毁掉阿波罗派，但最终选择旁观。", "core_traits": ["审美执着", "危险守护", "旁观", "操纵局势"]},
+      "relationships": {"bell-cranel": "观察其灵魂越受锻炼越闪耀", "apollo": "若过度乱来会毁掉的对象", "hestia": "在诸神大会上侧面支持帮手制度"},
+      "summary": "诸神大会中，芙蕾雅一句“阿波罗怕了吗”推动阿波罗接受一名外援条件。战前她在巴别塔最高层观看贝尔接受艾丝与蒂奥娜训练，认为代理战争的后续值得旁观。",
+      "key_events": [{"event_id": "freya-supports-war-game-helper-rule", "summary": "以言语刺激阿波罗接受帮手制度。", "sourceRef": "danmachi-main/vol-06/full.txt:4530"}],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-06/full.txt:4530", "danmachi-main/vol-06/full.txt:6220"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-06/full.txt:1544-6220"]
+}

@@ -1,0 +1,44 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "anya-alfiel",
+  "volume": "vol-01",
+  "time_range": { "start": "chapter-4", "end": "vol-01-end" },
+  "sub_arcs": [],
+  "periods": [
+    {
+      "period_id": "anya-vol01",
+      "volume": "vol-01",
+      "time": "vol-01",
+      "label": "丰饶的女主人的猫人店员",
+      "name": { "zh": "阿妮雅·芙洛摩", "en": "Anya Alfiel", "jp": "アーニャ・フローム" },
+      "aliases": [],
+      "titles": [],
+      "gender": "female",
+      "species": "猫人",
+      "nationality": "未知",
+      "occupation": "酒馆女服务生",
+      "affiliation": "丰饶的女主人",
+      "status": {},
+      "appearance": {
+        "overview": "猫耳朵和尾巴的少女",
+        "physical": { "build": "娇小", "hair": {}, "eyes": {} },
+        "attire": { "default": "店员制服" },
+        "voice_quality": { "speech_pattern": "后缀带'喵'" },
+        "distinctive": ["猫耳", "猫尾"]
+      },
+      "personality": {
+        "summary": "活泼天真的猫人少女。",
+        "core_traits": ["活泼", "冒失", "热心"],
+        "flaws": ["嘴快"]
+      },
+      "summary": "丰饶的女主人的猫人店员，说话末尾带'喵'。曾骂贝尔是'白发王八蛋'但本性善良。",
+      "key_events": [
+        { "event_id": "morning-encounter-syr", "summary": "与琉一起请贝尔送钱包给希儿", "sourceRef": "danmachi-main/vol-01/full.txt:2513-3680" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-01/full.txt:2513-3680"]
+    }
+  ],
+  "source_refs": []
+}

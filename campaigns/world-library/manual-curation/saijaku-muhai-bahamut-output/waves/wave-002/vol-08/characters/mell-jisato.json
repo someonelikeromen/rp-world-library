@@ -1,0 +1,41 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "mell-jisato",
+  "volume": "vol-08",
+  "periods": [
+    {
+      "period_id": "vol-08-main",
+      "volume": "vol-08",
+      "time": "巡礼祭期间",
+      "name": { "zh": "梅尔·姬萨托", "en": "Mell Jisato", "jp": "" },
+      "aliases": ["征伐者"],
+      "titles": ["优密尔教国七龙骑圣"],
+      "gender": "female",
+      "species": "human",
+      "nationality": "优密尔教国",
+      "occupation": "七龙骑圣、神殿骑士团相关机龙使",
+      "affiliation": "七龙骑圣；姬萨托家族；优密尔教国",
+      "status": { "state": "alive", "condition": "万灵药副作用后衰弱，失去欧露菲尔" },
+      "appearance": { "overview": "外表年幼娇小，白金色秀发，常以天真笑容掩饰锋利心性。" },
+      "personality": { "summary": "自信、好胜、聪明，因七年前家族遇难而对幻神兽抱有强烈执念。", "core_traits": ["天才", "挑衅", "孤独", "复仇冲动"] },
+      "abilities_owned": ["red-white-emperor-temperature", "panacea-demonization"],
+      "possessions_owned": ["red-white-emperor", "panacea-knife"],
+      "relationships": {
+        "krullcifer-einfolk": { "type": "宿敌/和解", "summary": "因武艺大赛败北与灾厄误会敌视她，最终被其救下。" },
+        "oracle-phil": { "type": "生母/监护人", "summary": "长期被欧露菲尔照顾，临终后得知她是自己的母亲。" },
+        "lux-arcadia": { "type": "同僚/救助对象", "summary": "多次戏弄路克斯，暴走时与其敌对，尾声向他道谢。" }
+      },
+      "knowledge": ["oracle-phil-confession", "red-white-emperor-temperature"],
+      "secrets": ["欧露菲尔是其生母"],
+      "summary": "梅尔是优密尔教国的天才七龙骑圣，家族七年前因遗迹失控与幻神兽袭击灭门。她在巡礼祭中表现压倒性战力，却被朵拉肯以伪造的欧露菲尔遗言煽动，使用万灵药攻击库露露席法；失败后得知欧露菲尔真正遗言是救她。",
+      "key_events": [
+        { "event_id": "mell-rampage", "summary": "因伪遗言和万灵药而暴走攻击库露露席法。", "sourceRef": "saijaku-muhai-bahamut-main/vol-08/full.txt:5820" },
+        { "event_id": "oracle-phil-death", "summary": "欧露菲尔临终与血书揭露其真正心愿。", "sourceRef": "saijaku-muhai-bahamut-main/vol-08/full.txt:7350" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["saijaku-muhai-bahamut-main/vol-08/full.txt:460", "saijaku-muhai-bahamut-main/vol-08/full.txt:4111"]
+    }
+  ],
+  "source_refs": ["saijaku-muhai-bahamut-main/vol-08/full.txt:460"]
+}

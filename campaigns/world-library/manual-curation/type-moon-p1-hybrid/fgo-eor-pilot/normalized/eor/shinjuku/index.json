@@ -1,0 +1,30 @@
+{
+  "schema": "tm-fgo-normalized-chapter-index-v1",
+  "chapterId": "fgo-eor-shinjuku",
+  "packetId": "pkt-fgo-eor-shinjuku-extract",
+  "model": "lt-yuyu/gpt-5.5",
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like",
+  "sourceRefs": [{"sourceUnitId":"src-fgo-eor-shinjuku","path":"sources/worldbook-script/eor/ch-089-shinjuku.txt","lineStart":18,"lineEnd":105}],
+  "normalizedFiles": [
+    "normalized/eor/shinjuku/chapter.json",
+    "normalized/eor/shinjuku/events.json",
+    "normalized/eor/shinjuku/entities.json",
+    "normalized/eor/shinjuku/layers.json",
+    "normalized/eor/shinjuku/provenance.json"
+  ],
+  "extractedInputs": [
+    "extracted/eor/shinjuku/world-state.json",
+    "extracted/eor/shinjuku/stage-characters/index.json",
+    "extracted/eor/shinjuku/events/*.json",
+    "extracted/eor/shinjuku/dialogue/dialogue-index.json",
+    "extracted/eor/shinjuku/appearance-signals/index.json",
+    "extracted/eor/shinjuku/ability-signals/index.json",
+    "extracted/eor/shinjuku/combat-effect-signals/index.json",
+    "extracted/eor/shinjuku/not-found-in-source/index.json",
+    "extracted/eor/shinjuku/mentions/index.json",
+    "extracted/eor/shinjuku/candidates/index.json"
+  ],
+  "status": "normalized-packet-ready-no-merge"
+}

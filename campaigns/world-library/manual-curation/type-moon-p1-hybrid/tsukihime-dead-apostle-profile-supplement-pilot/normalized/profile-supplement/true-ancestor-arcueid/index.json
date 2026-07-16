@@ -1,0 +1,43 @@
+{
+  "schema": "tm-tsukihime-packet-normalized-index-v1",
+  "packetId": "true-ancestor-arcueid",
+  "status": "generated-pending-audit",
+  "sourceUnitsRead": [
+    "src-dlc-tsukihime-arcueid",
+    "src-tm-summary-dead-apostle-true-ancestor",
+    "src-tm-summary-mystic-eyes"
+  ],
+  "continuityTaxonomyUsed": ["original", "remake", "sandbox"],
+  "sourceGapMarkerUsed": "source-gap/candidate-only",
+  "outputs": {
+    "entity": [
+      "entity/arcueid-brunestud-original.json",
+      "entity/arcueid-brunestud-remake.json"
+    ],
+    "systems": ["systems/true-ancestor-traits.json"],
+    "appearance": [
+      "appearance/arcueid-appearance-original.json",
+      "appearance/arcueid-appearance-remake.json"
+    ],
+    "outfit-equipment": ["outfit-equipment/arcueid-outfit-equipment.json"],
+    "abilities": [
+      "abilities/arcueid-abilities-original.json",
+      "abilities/arcueid-abilities-remake.json"
+    ],
+    "combat-effects": ["combat-effects/arcueid-combat-effects.json"],
+    "relationships": ["relationships/arcueid-relationship-signals.json"],
+    "timeline": [
+      "timeline/arcueid-timeline-original.json",
+      "timeline/arcueid-timeline-remake.json"
+    ],
+    "candidates": ["candidates/alias-and-form-candidates.json"],
+    "not-found-in-source": ["not-found/mandatory-surfaces-not-found.json"]
+  },
+  "normalizationNotes": [
+    "Original and remake Arcueid records are separated and marked do-not-merge.",
+    "Archetype Earth remains candidate-only because Stage 1 source text does not contain that label.",
+    "Light body and berserk Arcueid are candidate-only form surfaces where Stage 1 only names them as candidates or lists ability terms.",
+    "No graph.json, timeline.json, characters.json, events.json, relationships.json, or facts.json aggregate file was created."
+  ],
+  "reviewStatus": "generated-pending-audit"
+}

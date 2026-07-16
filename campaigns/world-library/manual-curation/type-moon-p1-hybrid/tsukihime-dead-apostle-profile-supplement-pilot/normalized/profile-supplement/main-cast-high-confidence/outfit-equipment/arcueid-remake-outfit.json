@@ -1,0 +1,17 @@
+{
+  "schema": "tm-tsukihime-normalized-fragment-v1",
+  "packetId": "main-cast-high-confidence",
+  "fragmentId": "outfit-equipment-arcueid-remake",
+  "layer": "outfit-equipment",
+  "subjectId": "arcueid-brunestud",
+  "continuity": { "rawSourceLabel": "重制版", "canonicalContinuity": "remake", "taxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy/rawLabelMapping/重制版" },
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "candidateOnly": false,
+  "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:40", "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:42"],
+  "assertions": [
+    { "property": "usualOutfit", "value": "plain clothes: white turtleneck sweater, blue short skirt, black tights, brown knee-high boots, key-shaped pendant", "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:40"] },
+    { "property": "redArcueidOutfitCandidate", "value": "clothing changes into Red Arcueid outfit in Ciel true ending", "candidateOnly": true, "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:42"] }
+  ]
+}

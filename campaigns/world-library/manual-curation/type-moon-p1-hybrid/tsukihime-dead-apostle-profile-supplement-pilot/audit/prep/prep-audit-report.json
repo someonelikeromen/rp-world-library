@@ -1,0 +1,108 @@
+{
+  "schema": "tm-tsukihime-prep-audit-report-v1",
+  "project": "tsukihime-dead-apostle-profile-supplement-pilot",
+  "stage": "stage-1-prep-source-layer",
+  "auditedAt": "2026-07-14",
+  "status": "passed-with-nonblocking-risks",
+  "openIssues": 0,
+  "blockedIssues": 0,
+  "canAdvance": true,
+  "auditMode": "read-only structural/source-prep audit after generation; no shell or executable validation used",
+  "filesCheckedByReadOrFind": [
+    "STATUS.md",
+    "source-unit-manifest.json",
+    "sources/worldbook-profile/source-text-manifest.json",
+    "sources/worldbook-profile/*.txt",
+    "work-packets/*.json",
+    "audit/prep/generator-report.json"
+  ],
+  "requiredOutputs": {
+    "statusMd": true,
+    "sourceUnitManifest": true,
+    "sourceTextManifest": true,
+    "lineAddressableSourceTexts": 9,
+    "workPackets": 12,
+    "generatorReport": true,
+    "prepAuditReport": true
+  },
+  "checks": [
+    {
+      "checkId": "A-001",
+      "name": "Mutation scope",
+      "status": "passed",
+      "evidence": "Find output showed created files only under campaigns/world-library/manual-curation/type-moon-p1-hybrid/tsukihime-dead-apostle-profile-supplement-pilot/. No evidence of writes outside scope from available tool output."
+    },
+    {
+      "checkId": "A-002",
+      "name": "Forbidden aggregate basenames",
+      "status": "passed",
+      "evidence": "find for **/characters.json, **/events.json, and **/relationships.json under the pilot returned no files. Grep hits are only textual forbidden-policy mentions inside packet JSON and generator-report."
+    },
+    {
+      "checkId": "A-003",
+      "name": "Source metadata",
+      "status": "passed",
+      "evidence": "Grep confirmed source text metadata blocks contain sourceType: user-file-worldbook-profile, credibility: B, canonStatus, and rawLabels across all 9 source text files."
+    },
+    {
+      "checkId": "A-004",
+      "name": "Raw labels preserved",
+      "status": "passed",
+      "evidence": "Source text and manifests preserve labels including 同人版, 重制版, 月姬, 死徒, 真祖, 埋葬机关, 罗亚系."
+    },
+    {
+      "checkId": "A-005",
+      "name": "Work packet requirements",
+      "status": "passed",
+      "evidence": "12 packet JSON files exist. Grep confirmed continuityTaxonomy, mandatoryExtractionLayers, not-found-in-source policy, source files/units, and gate/forbidden criteria appear in packet files."
+    },
+    {
+      "checkId": "A-006",
+      "name": "Prep-only boundary",
+      "status": "passed",
+      "evidence": "Generated outputs are manifests, source text excerpts, packet plans, and reports only. No merged/, graph/, timeline/, extracted/, normalized/, or formal entity/event/relationship records were created."
+    },
+    {
+      "checkId": "A-007",
+      "name": "Candidate-only missing cast policy",
+      "status": "passed",
+      "evidence": "missing-cast-candidates.json and dead-apostles-roa.json explicitly forbid formalization from mentions only and require direct source reads for supporting cast / direct Roa or Dead Apostle records."
+    }
+  ],
+  "findings": [
+    {
+      "findingId": "RISK-001",
+      "classification": "source limitation",
+      "severity": "nonblocking",
+      "detail": "Several supporting Tsukihime cast and Dead Apostle figures are included only as candidate scopes or indirect mentions in this Stage 1 prep. Direct profile entries may exist in the raw DLC worldbook but were not exhaustively read in this generator pass.",
+      "requiredFix": false,
+      "recommendedFutureAction": "Future extractor should search/read direct entries for Akiha, SHIKI, Hisui, Kohaku, Satsuki, Noel, FROV, Nero Chaos, Wallachia, Sion, Merem, and Roa before formalization."
+    },
+    {
+      "findingId": "RISK-002",
+      "classification": "process risk",
+      "severity": "nonblocking",
+      "detail": "Audit used structural read/find/grep evidence rather than an executable JSON parser, because shell/scripts were forbidden. JSON appears syntactically formed by inspection and successful tool writes, but no parser command proof is claimed.",
+      "requiredFix": false,
+      "recommendedFutureAction": "A future allowed structural JSON tool, if available, can validate syntax before downstream extraction."
+    },
+    {
+      "findingId": "RISK-003",
+      "classification": "source limitation",
+      "severity": "nonblocking",
+      "detail": "Line-addressable source text files are curated excerpts rather than full raw entries to avoid repeated raw copies. This is acceptable for prep but future extraction may need to return to raw worldbook entries for complete coverage.",
+      "requiredFix": false,
+      "recommendedFutureAction": "Use source-unit-manifest rawEntryComment/rawLabels as search anchors for direct rereads during Stage 2 extraction."
+    }
+  ],
+  "requiredFixes": [],
+  "summary": {
+    "blockingIssues": 0,
+    "nonblockingRisks": 3,
+    "sourceLimitations": 2,
+    "processRisks": 1,
+    "oldCuratedTouched": "no evidence from available tool output",
+    "rawImportsEdited": "no evidence from available tool output",
+    "otherPilotsEdited": "no evidence from available tool output"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "eina-tulle",
+  "volume": "vol-09",
+  "time_range": { "start": "第四章", "end": "第四章" },
+  "sub_arcs": ["秘密强制任务"],
+  "periods": [
+    {
+      "period_id": "vol-09-ch-04-delivers-mission",
+      "volume": "vol-09",
+      "time": "第四章 MISSiON",
+      "label": "把最高机密强制任务交给贝尔",
+      "name": { "zh": "埃伊娜·祖尔", "en": "Eina Tulle", "jp": "エイナ・チュール" },
+      "gender": "女",
+      "species": "半精灵",
+      "occupation": "公会职员、冒险者顾问",
+      "affiliation": "公会",
+      "status": { "location": "公会本部面谈室", "state": "不知任务内容却担忧贝尔痛苦" },
+      "summary": "埃伊娜被公会长洛伊曼命令把最高机密强制任务交给贝尔。她无权知晓内容，却看出贝尔异常痛苦，恳求他相信自己、向自己倾诉；贝尔为不把她卷入秘密而拒绝。",
+      "key_events": [
+        { "event_id": "eina-delivers-secret-mission-to-bell", "summary": "转交公会强制任务。", "sourceRef": "danmachi-main/vol-09/full.txt:4525" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-09/full.txt:4320-4650"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-09/full.txt:4320-4650"]
+}

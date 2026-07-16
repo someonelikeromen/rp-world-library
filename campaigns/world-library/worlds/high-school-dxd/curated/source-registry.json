@@ -1,0 +1,85 @@
+{
+  "schema": "rp-source-registry-v1",
+  "worldId": "high-school-dxd",
+  "sources": [
+    {
+      "id": "dxd-card-worldbook",
+      "type": "adapted-source",
+      "path": "campaigns/world-library/imports/worldviews/high-school-dxd/worldbooks/dxd_card.worldbook.json",
+      "description": "SillyTavern character-card worldbook for High School DxD RP. Contains character profiles, plot summaries, locations, systems, and items.",
+      "fileCount": 1,
+      "entryCount": 379,
+      "extractionTool": "tavern2agent worldbook extraction",
+      "extractionDate": "2026-06-20",
+      "credibility": "B",
+      "scope": "all",
+      "notes": "Derived from a SillyTavern character card worldbook. Contains RP-adapted content (MC-centric framing, some ST-specific mechanics). Canon accuracy is high for main cast, moderate for side characters. Contains 33 empty entries."
+    },
+    {
+      "id": "dxd-standalone-worldbook",
+      "type": "adapted-source",
+      "path": "campaigns/world-library/imports/worldviews/high-school-dxd/worldbooks/恶魔高校.worldbook.json",
+      "description": "Standalone SillyTavern worldbook for High School DxD. Contains character profiles, gameplay systems, locations, items, and style guidance with {{user}} slot placeholders.",
+      "fileCount": 1,
+      "entryCount": 63,
+      "extractionTool": "tavern2agent worldbook extraction",
+      "extractionDate": "2026-06-20",
+      "credibility": "B",
+      "scope": "all",
+      "notes": "Standalone worldbook with {{user}} placeholders for RP adaptation. Canon accuracy is moderate. Overlaps partially with dxd_card.worldbook.json."
+    },
+    {
+      "id": "wenku8-dxd-toc-audit",
+      "type": "canonical-toc-audit",
+      "url": "https://www.wenku8.net/novel/1/1034/index.htm",
+      "path": "imports/working/high-school-dxd/wenku8-dxd-toc-comparison.md",
+      "description": "Wenku8 High School DxD table-of-contents crawl and comparison against current curated story index. Contains no chapter body text; used only to verify volume/short-story coverage and title mapping.",
+      "fileCount": 1,
+      "entryCount": 38,
+      "extractionTool": "imports/working/high-school-dxd/compare-wenku8-index.mjs",
+      "extractionDate": "2026-06-30",
+      "credibility": "A-for-toc-only",
+      "scope": "story-index-coverage",
+      "notes": "Confirms main volumes 1-25 and several DX/BD/EX/HERO groups are covered, but many side stories are aggregate summaries rather than independent story files."
+    },
+    {
+      "id": "wenku8-true-dxd-toc-audit",
+      "type": "canonical-toc-audit",
+      "url": "https://www.wenku8.net/novel/2/2618/index.htm",
+      "path": "imports/working/high-school-dxd/wenku8-dxd-related-toc-comparison.md",
+      "description": "Wenku8 True High School DxD table-of-contents crawl. Stores TOC metadata only and verifies current curated True DxD story entries.",
+      "fileCount": 1,
+      "entryCount": 5,
+      "extractionTool": "imports/working/high-school-dxd/compare-wenku8-related-sources.mjs",
+      "extractionDate": "2026-06-30",
+      "credibility": "A-for-toc-only",
+      "scope": "story-index-coverage:true-dxd",
+      "notes": "Confirms True DxD volumes 1-4 correspond to current curated stories; Wenku8 also has a short-story group not yet represented as an independent story file."
+    },
+    {
+      "id": "wenku8-slashdog-toc-audit",
+      "type": "canonical-toc-audit",
+      "url": "https://www.wenku8.net/novel/2/2524/index.htm",
+      "path": "imports/working/high-school-dxd/wenku8-dxd-related-toc-comparison.md",
+      "description": "Wenku8 SlashDog table-of-contents crawl. Stores TOC metadata only and verifies current curated SlashDog/刃狗 prequel story entries.",
+      "fileCount": 1,
+      "entryCount": 3,
+      "extractionTool": "imports/working/high-school-dxd/compare-wenku8-related-sources.mjs",
+      "extractionDate": "2026-06-30",
+      "credibility": "A-for-toc-only",
+      "scope": "story-index-coverage:slashdog",
+      "notes": "Confirms SlashDog three source volumes correspond by order to current curated prequel stories; source volume titles are generic while curated titles are descriptive."
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "conflict-001",
+      "sources": [
+        "dxd-card-worldbook",
+        "dxd-standalone-worldbook"
+      ],
+      "description": "Both worldbooks contain character profiles for the same characters with slightly different framing. Where overlap exists, dxd_card.worldbook.json is treated as primary due to higher detail and entry count.",
+      "resolution": "Merged into single character entries with sourceRefs to both sources."
+    }
+  ]
+}

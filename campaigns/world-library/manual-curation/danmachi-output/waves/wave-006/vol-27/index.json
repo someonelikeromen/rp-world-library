@@ -1,0 +1,85 @@
+{
+  "_schema": "rp-index-volume-v1",
+  "world": "danmachi",
+  "wave": "wave-006",
+  "output": "campaigns/world-library/manual-curation/danmachi-output/waves/wave-006/vol-27",
+  "source_volumes": ["vol-27"],
+  "source_chapters": {
+    "count": 11,
+    "manifest": "campaigns/world-library/worlds/danmachi/sources/split-text/danmachi-main/vol-27/chapters.json"
+  },
+  "counts": {
+    "characters": 10,
+    "abilities": 4,
+    "items": 2,
+    "events": 19,
+    "locations": 4,
+    "factions": 3,
+    "systems": 2,
+    "knowledge": 1
+  },
+  "entities": {
+    "characters": [
+      { "id": "ais-wallenstein", "name": "艾丝·华伦斯坦", "type": "characters" },
+      { "id": "baldr", "name": "巴德尔", "type": "characters" },
+      { "id": "bell-cranel", "name": "贝尔·克朗尼", "type": "characters" },
+      { "id": "eina-tulle", "name": "埃伊娜·祖尔", "type": "characters" },
+      { "id": "hermes", "name": "荷米斯", "type": "characters" },
+      { "id": "hestia", "name": "赫斯缇雅", "type": "characters" },
+      { "id": "leon-vardenburg", "name": "里昂·瓦登堡", "type": "characters" },
+      { "id": "nina-tulle", "name": "妮娜·祖尔", "type": "characters" },
+      { "id": "ryu-lion", "name": "琉·璃昂", "type": "characters" },
+      { "id": "syr-flova", "name": "希儿·福罗瓦 / 芙蕾雅", "type": "characters" }
+    ],
+    "abilities": [
+      { "id": "bell-argo-vesta-zankou", "name": "圣火残光", "type": "abilities" },
+      { "id": "leon-round-table-blaze", "name": "圆桌光辉 / 十二之剑", "type": "abilities" },
+      { "id": "nina-magia-chris", "name": "魔源神迹", "type": "abilities" },
+      { "id": "nina-raguel-kurisheim", "name": "拉格列尔·库利斯海姆", "type": "abilities" }
+    ],
+    "items": [
+      { "id": "orichalcum-school-district", "name": "最硬金属 / 山铜", "type": "items" },
+      { "id": "welf-adamantite-greatsword", "name": "韦尔夫打造的超硬金属大剑", "type": "items" }
+    ],
+    "events": [
+      { "id": "ais-and-bell-resume-wall-training", "name": "艾丝与贝尔重启城墙训练", "type": "events" },
+      { "id": "bell-and-leon-duel-at-dragon-valley", "name": "贝尔与里昂在龙谷附近进行最终战决斗", "type": "events" },
+      { "id": "bell-infiltrates-school-district-during-protest", "name": "贝尔再度化名拉比潜入抗争中的学区", "type": "events" },
+      { "id": "bell-learns-dragon-valley-and-spirit-storm-truth", "name": "贝尔见证龙谷与仙精风暴的真相", "type": "events" },
+      { "id": "bell-receives-regulus-arne-title", "name": "贝尔获得新绰号狮兔之光", "type": "events" },
+      { "id": "bell-slays-venom-sky-centipede-dragon-with-argo-vesta-zankou", "name": "贝尔以圣火残光斩杀毒天百足龙", "type": "events" },
+      { "id": "hestia-familia-clears-floor-29-expedition", "name": "赫斯缇雅眷族完成第29层强制远征", "type": "events" },
+      { "id": "idunn-visits-syr-and-triggers-youthful-spring-chaos", "name": "伊登拜访希儿并触发青涩春天混乱", "type": "events" },
+      { "id": "leon-receives-dragon-snore-report", "name": "里昂接获龙谷龙鼾报告", "type": "events" },
+      { "id": "leon-reveals-his-past-and-leviathan-war", "name": "里昂向贝尔讲述自身过去与利维坦战争", "type": "events" },
+      { "id": "leon-takes-bell-and-nina-on-dragon-valley-fieldwork", "name": "里昂带贝尔与妮娜前往北方野外调查", "type": "events" },
+      { "id": "loki-familia-expedition-fails-at-floor-60", "name": "洛基眷族第60层远征失败并请求援军", "type": "events" },
+      { "id": "new-fertility-daily-life-after-freya-war", "name": "芙蕾雅眷族残部开始丰饶女主人新日常", "type": "events" },
+      { "id": "nina-begins-hestia-familia-internship", "name": "妮娜到赫斯缇雅眷族接受派系体验", "type": "events" },
+      { "id": "orario-and-school-district-reconcile-after-draw", "name": "欧拉丽与学区在平手后和解并共建立杭计划", "type": "events" },
+      { "id": "orario-athletic-festival-begins", "name": "诸神大会宣布都市竞技庆典", "type": "events" },
+      { "id": "orario-wins-water-battle-with-ryu-aisha-asfi", "name": "琉、阿伊莎与亚丝菲赢下水上三人战", "type": "events" },
+      { "id": "ryu-asks-bell-to-let-her-keep-loving-him", "name": "琉请贝尔允许她继续保有恋情", "type": "events" },
+      { "id": "student-protest-halts-school-district-recruitment", "name": "学区学生抗争迫使眷族招募全面中止", "type": "events" }
+    ],
+    "locations": [
+      { "id": "black-wilderness", "name": "黑色荒野", "type": "locations" },
+      { "id": "dragon-great-wall", "name": "龙之长城 / 大防壁", "type": "locations" },
+      { "id": "dragon-valley", "name": "龙谷", "type": "locations" },
+      { "id": "school-district-hringhorni", "name": "学区 / 灵舡", "type": "locations" }
+    ],
+    "factions": [
+      { "id": "hestia-familia", "name": "赫斯缇雅眷族", "type": "factions" },
+      { "id": "loki-familia", "name": "洛基眷族", "type": "factions" },
+      { "id": "school-district", "name": "学区", "type": "factions" }
+    ],
+    "systems": [
+      { "id": "dragon-valley-seal-and-visitation-system", "name": "龙谷封印与访龙问题", "type": "systems" },
+      { "id": "orario-athletic-festival-system", "name": "都市竞技庆典规则", "type": "systems" }
+    ],
+    "knowledge": [
+      { "id": "leon-and-school-district-origin-from-leviathan-war", "name": "学区源自利维坦讨伐海上要塞", "type": "knowledge" }
+    ]
+  },
+  "total_files": 46
+}

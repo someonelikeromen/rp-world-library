@@ -1,0 +1,16 @@
+{
+  "schema":"tm-fgo-packet-audit-round-v1",
+  "recordType":"packet_audit_round",
+  "packetId":"pkt-fgo-lostbelt-lb2-gotterdammerung-extract",
+  "chapterId":"fgo-lb2-gotterdammerung",
+  "stepId":"chapter-lb2-gotterdammerung-retry",
+  "round":"001",
+  "status":"needs-fix",
+  "issues":[{"id":"audit-lb2-001-normalized-materialization","severity":"required","finding":"Normalized ledgers and packet audit mirror needed materialization.","fixStatus":"fixed-in-fix-round-001"},{"id":"audit-lb2-001-notfound-crosslinks","severity":"required","finding":"Mandatory missing-detail records needed explicit event cross-link coverage.","fixStatus":"fixed-in-fix-round-001"}],
+  "openIssues":2,
+  "blockedIssues":0,
+  "sourceRefs":["sources/worldbook-script/lostbelt/ch-094-lb2-gotterdammerung.txt:17-110"],
+  "sourceType":"user-file-worldbook-script",
+  "credibility":"B",
+  "canonStatus":"canon-like"
+}

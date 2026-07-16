@@ -1,0 +1,92 @@
+{
+  "objective": "Extract entities from saijaku-muhai-bahamut-main vol-11, vol-12, vol-13, vol-14, vol-15",
+  "library": {
+    "sources": [
+      "package",
+      "project"
+    ]
+  },
+  "authority": {
+    "allowFilesystemRead": true,
+    "allowMutationTools": true,
+    "allowShellTools": false,
+    "allowProjectCode": true,
+    "allowExtensionCode": false
+  },
+  "limits": {
+    "concurrency": 5,
+    "timeoutSecondsPerStep": 7200
+  },
+  "steps": [
+    {
+      "id": "extract-vol-11",
+      "agent": {
+        "system": "卷级数据提取助手。读一卷原文的章节文件，提取本卷所有重要实体，按每实体独立 JSON 文件写入 output 目录。\n\n实体类型: characters, abilities, events, items, locations, factions, systems, knowledge\n\n文件规则: 每实体独立文件，文件名用英文 ID，禁止写聚合文件，写入前先读模板。\n\n数据模型: 顶层字段 _schema, world, volume, {type}_id, periods[]\nperiods 内包含本卷快照: name(zh/en), aliases, summary, description, sourceRef\n角色需有: gender, species, appearance, personality, abilities_owned, possessions_owned, relationships, key_events, source_refs\n\nsourceRef 格式: saijaku-muhai-bahamut-main/vol-11/full.txt:行号\n\nID 跨卷统一。读文件时记录行号。",
+        "model": "deepseek/deepseek-v4-flash",
+        "tools": [
+          "read",
+          "write"
+        ]
+      },
+      "mutationScope": "saijaku-wave-output",
+      "cwd": "E:/pi-st",
+      "task": "Extract all entities from saijaku-muhai-bahamut-main vol-11.\n\nSERIES: saijaku-muhai-bahamut-main\nVOLUME: vol-11\nWORLD: saijaku-muhai-bahamut\nSPLIT_PATH: campaigns/world-library/worlds/saijaku-muhai-bahamut/sources/split-text/saijaku-muhai-bahamut-main/vol-11\nOUTPUT_DIR: campaigns/world-library/manual-curation/saijaku-muhai-bahamut-output/waves/wave-003/vol-11\nTEMPLATE_DIR: tools/p1-scan/_templates\n\nRead chapters.json for chapter list, read each chapter txt file, read each template before writing. Write entity files to OUTPUT_DIR/{type}/{id}.json. Also write world.json and index.json.\n\nSource ref: saijaku-muhai-bahamut-main/vol-11/full.txt:行号"
+    },
+    {
+      "id": "extract-vol-12",
+      "agent": {
+        "system": "卷级数据提取助手。读一卷原文的章节文件，提取本卷所有重要实体，按每实体独立 JSON 文件写入 output 目录。\n\n实体类型: characters, abilities, events, items, locations, factions, systems, knowledge\n\n文件规则: 每实体独立文件，文件名用英文 ID，禁止写聚合文件，写入前先读模板。\n\n数据模型: 顶层字段 _schema, world, volume, {type}_id, periods[]\nperiods 内包含本卷快照: name(zh/en), aliases, summary, description, sourceRef\n角色需有: gender, species, appearance, personality, abilities_owned, possessions_owned, relationships, key_events, source_refs\n\nsourceRef 格式: saijaku-muhai-bahamut-main/vol-12/full.txt:行号\n\nID 跨卷统一。读文件时记录行号。",
+        "model": "deepseek/deepseek-v4-flash",
+        "tools": [
+          "read",
+          "write"
+        ]
+      },
+      "mutationScope": "saijaku-wave-output",
+      "cwd": "E:/pi-st",
+      "task": "Extract all entities from saijaku-muhai-bahamut-main vol-12.\n\nSERIES: saijaku-muhai-bahamut-main\nVOLUME: vol-12\nWORLD: saijaku-muhai-bahamut\nSPLIT_PATH: campaigns/world-library/worlds/saijaku-muhai-bahamut/sources/split-text/saijaku-muhai-bahamut-main/vol-12\nOUTPUT_DIR: campaigns/world-library/manual-curation/saijaku-muhai-bahamut-output/waves/wave-003/vol-12\nTEMPLATE_DIR: tools/p1-scan/_templates\n\nRead chapters.json for chapter list, read each chapter txt file, read each template before writing. Write entity files to OUTPUT_DIR/{type}/{id}.json. Also write world.json and index.json.\n\nSource ref: saijaku-muhai-bahamut-main/vol-12/full.txt:行号"
+    },
+    {
+      "id": "extract-vol-13",
+      "agent": {
+        "system": "卷级数据提取助手。读一卷原文的章节文件，提取本卷所有重要实体，按每实体独立 JSON 文件写入 output 目录。\n\n实体类型: characters, abilities, events, items, locations, factions, systems, knowledge\n\n文件规则: 每实体独立文件，文件名用英文 ID，禁止写聚合文件，写入前先读模板。\n\n数据模型: 顶层字段 _schema, world, volume, {type}_id, periods[]\nperiods 内包含本卷快照: name(zh/en), aliases, summary, description, sourceRef\n角色需有: gender, species, appearance, personality, abilities_owned, possessions_owned, relationships, key_events, source_refs\n\nsourceRef 格式: saijaku-muhai-bahamut-main/vol-13/full.txt:行号\n\nID 跨卷统一。读文件时记录行号。",
+        "model": "deepseek/deepseek-v4-flash",
+        "tools": [
+          "read",
+          "write"
+        ]
+      },
+      "mutationScope": "saijaku-wave-output",
+      "cwd": "E:/pi-st",
+      "task": "Extract all entities from saijaku-muhai-bahamut-main vol-13.\n\nSERIES: saijaku-muhai-bahamut-main\nVOLUME: vol-13\nWORLD: saijaku-muhai-bahamut\nSPLIT_PATH: campaigns/world-library/worlds/saijaku-muhai-bahamut/sources/split-text/saijaku-muhai-bahamut-main/vol-13\nOUTPUT_DIR: campaigns/world-library/manual-curation/saijaku-muhai-bahamut-output/waves/wave-003/vol-13\nTEMPLATE_DIR: tools/p1-scan/_templates\n\nRead chapters.json for chapter list, read each chapter txt file, read each template before writing. Write entity files to OUTPUT_DIR/{type}/{id}.json. Also write world.json and index.json.\n\nSource ref: saijaku-muhai-bahamut-main/vol-13/full.txt:行号"
+    },
+    {
+      "id": "extract-vol-14",
+      "agent": {
+        "system": "卷级数据提取助手。读一卷原文的章节文件，提取本卷所有重要实体，按每实体独立 JSON 文件写入 output 目录。\n\n实体类型: characters, abilities, events, items, locations, factions, systems, knowledge\n\n文件规则: 每实体独立文件，文件名用英文 ID，禁止写聚合文件，写入前先读模板。\n\n数据模型: 顶层字段 _schema, world, volume, {type}_id, periods[]\nperiods 内包含本卷快照: name(zh/en), aliases, summary, description, sourceRef\n角色需有: gender, species, appearance, personality, abilities_owned, possessions_owned, relationships, key_events, source_refs\n\nsourceRef 格式: saijaku-muhai-bahamut-main/vol-14/full.txt:行号\n\nID 跨卷统一。读文件时记录行号。",
+        "model": "deepseek/deepseek-v4-flash",
+        "tools": [
+          "read",
+          "write"
+        ]
+      },
+      "mutationScope": "saijaku-wave-output",
+      "cwd": "E:/pi-st",
+      "task": "Extract all entities from saijaku-muhai-bahamut-main vol-14.\n\nSERIES: saijaku-muhai-bahamut-main\nVOLUME: vol-14\nWORLD: saijaku-muhai-bahamut\nSPLIT_PATH: campaigns/world-library/worlds/saijaku-muhai-bahamut/sources/split-text/saijaku-muhai-bahamut-main/vol-14\nOUTPUT_DIR: campaigns/world-library/manual-curation/saijaku-muhai-bahamut-output/waves/wave-003/vol-14\nTEMPLATE_DIR: tools/p1-scan/_templates\n\nRead chapters.json for chapter list, read each chapter txt file, read each template before writing. Write entity files to OUTPUT_DIR/{type}/{id}.json. Also write world.json and index.json.\n\nSource ref: saijaku-muhai-bahamut-main/vol-14/full.txt:行号"
+    },
+    {
+      "id": "extract-vol-15",
+      "agent": {
+        "system": "卷级数据提取助手。读一卷原文的章节文件，提取本卷所有重要实体，按每实体独立 JSON 文件写入 output 目录。\n\n实体类型: characters, abilities, events, items, locations, factions, systems, knowledge\n\n文件规则: 每实体独立文件，文件名用英文 ID，禁止写聚合文件，写入前先读模板。\n\n数据模型: 顶层字段 _schema, world, volume, {type}_id, periods[]\nperiods 内包含本卷快照: name(zh/en), aliases, summary, description, sourceRef\n角色需有: gender, species, appearance, personality, abilities_owned, possessions_owned, relationships, key_events, source_refs\n\nsourceRef 格式: saijaku-muhai-bahamut-main/vol-15/full.txt:行号\n\nID 跨卷统一。读文件时记录行号。",
+        "model": "deepseek/deepseek-v4-flash",
+        "tools": [
+          "read",
+          "write"
+        ]
+      },
+      "mutationScope": "saijaku-wave-output",
+      "cwd": "E:/pi-st",
+      "task": "Extract all entities from saijaku-muhai-bahamut-main vol-15.\n\nSERIES: saijaku-muhai-bahamut-main\nVOLUME: vol-15\nWORLD: saijaku-muhai-bahamut\nSPLIT_PATH: campaigns/world-library/worlds/saijaku-muhai-bahamut/sources/split-text/saijaku-muhai-bahamut-main/vol-15\nOUTPUT_DIR: campaigns/world-library/manual-curation/saijaku-muhai-bahamut-output/waves/wave-003/vol-15\nTEMPLATE_DIR: tools/p1-scan/_templates\n\nRead chapters.json for chapter list, read each chapter txt file, read each template before writing. Write entity files to OUTPUT_DIR/{type}/{id}.json. Also write world.json and index.json.\n\nSource ref: saijaku-muhai-bahamut-main/vol-15/full.txt:行号"
+    }
+  ]
+}

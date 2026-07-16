@@ -1,0 +1,49 @@
+{
+  "schema": "tm-fgo-packet-final-audit-v1",
+  "packetId": "pkt-fgo-ordeal-call-oc1-paper-moon-prep",
+  "chapterId": "fgo-ordeal-call-1-paper-moon",
+  "slug": "oc1-paper-moon",
+  "auditPass": "auditor-rerun-after-fixer",
+  "finalStatus": "passed",
+  "blocked": false,
+  "sourceTextGate": "passed",
+  "generatorStatus": "completed",
+  "auditorStatus": "passed",
+  "fixerStatus": "no-content-fixes-required",
+  "auditorRerunStatus": "passed",
+  "validationSummary": {
+    "requiredExtractedOutputs": "passed",
+    "requiredNormalizedOutputs": "passed",
+    "requiredAuditOutputs": "passed",
+    "sourceFirstLabels": "passed",
+    "unsupportedLabelsCandidateOnly": "passed",
+    "formalMetadata": "passed",
+    "relationshipTimelineFields": "passed",
+    "explicitNotFoundRecords": "passed",
+    "forbiddenAggregateFiles": "passed",
+    "jsonValidity": "passed-manual-no-executable-parser"
+  },
+  "coverageSummary": {
+    "phaseEventFiles": 4,
+    "stageCharacterRecords": 8,
+    "relationshipSignalFiles": 5,
+    "appearanceSignalFiles": 2,
+    "abilitySignalFiles": 1,
+    "combatEffectSignalFiles": 1,
+    "notFoundInSourceFiles": 1,
+    "dialogueFiles": 1,
+    "candidateFiles": 1,
+    "normalizedFiles": 6,
+    "auditFiles": 3
+  },
+  "knownSourceLimitations": [
+    "Current source is a structured worldbook script summary, not a full scene transcript.",
+    "Most character clothing/body/equipment visuals are not present in current source.",
+    "No named Noble Phantasm, named skill, magecraft spell, incantation, or speaker-attributed dialogue lines are present in current source.",
+    "Combat details are limited to broad participants, effects, and outcomes such as 击破, 无差别破坏, 总攻, 硬撼, and 击碎核心."
+  ],
+  "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-104-oc1-paper-moon.txt:1-87"],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

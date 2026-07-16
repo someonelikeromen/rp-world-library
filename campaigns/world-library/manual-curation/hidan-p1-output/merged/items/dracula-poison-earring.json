@@ -1,0 +1,51 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "item",
+  "entityId": "dracula-poison-earring",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-09",
+  "_schema": "rp-item-volume-v1",
+  "periods": [
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:617",
+        "hidan-no-aria-main/vol-09/full.txt:1435",
+        "hidan-no-aria-main/vol-09/full.txt:2585"
+      ],
+      "snapshot": {
+        "name": "德古拉家毒蛇耳环",
+        "aliases": [
+          "蝙蝠型耳环",
+          "杀人耳环",
+          "臣下证明",
+          "毒蛇腺液耳环"
+        ],
+        "type": "control device / poison trap",
+        "description": "希尔达让理子佩戴的黑色蝙蝠型耳环，象征德古拉家正式臣下。若摘下、割耳或希尔达动念，耳环会爆开并把封入的毒蛇腺液注入伤口，十分钟内致死。",
+        "details": {
+          "appearance": "满是尖刺的黑色蝙蝠形耳环",
+          "poison": "毒蛇腺液，十分钟内致命",
+          "control": "希尔达可凭意念引爆"
+        },
+        "owner": "riko",
+        "status": "天空树战中爆裂，毒素后被解毒",
+        "features": [
+          "强制支配回归者",
+          "物理拆除即触发死亡陷阱",
+          "兼具心理威慑与实际毒杀功能"
+        ],
+        "associated_events": [
+          "sky-tree-hilda-showdown",
+          "riko-icu-recovery-and-hilda-transfusion"
+        ],
+        "history": [
+          "希尔达给理子佩戴以洗清背叛罪孽",
+          "理子反抗后希尔达引爆耳环",
+          "理子濒死后由华生与矢常吕老师抢救成功"
+        ],
+        "evidence_level": "S"
+      }
+    }
+  ]
+}

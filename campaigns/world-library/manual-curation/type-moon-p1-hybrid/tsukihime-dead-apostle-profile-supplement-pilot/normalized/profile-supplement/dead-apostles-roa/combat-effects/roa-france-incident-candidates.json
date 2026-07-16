@@ -1,0 +1,45 @@
+{
+  "schema": "tm-tsukihime-normalized-combat-effect-fragment-v1",
+  "packetId": "dead-apostles-roa",
+  "recordId": "roa-france-incident-candidates",
+  "status": "generated-pending-audit",
+  "candidateOnly": true,
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "records": [
+    {
+      "recordId": "france-original-roa-occupies-body-and-kills-town",
+      "kind": "combat-effect-candidate",
+      "summary": "Original Ciel source says Roa occupied Elesia's body, used it for a ritual to lure Arcueid, and all town residents were killed in the France Incident.",
+      "effectRaw": "罗亚彻底占据身体; 罗亚利用这具身体在小镇举行仪式以诱捕爱尔奎特; 全镇居民因此被杀",
+      "continuityTaxonomy": {"category": "original", "rawSourceLabels": ["同人版"], "sourceAvailability": "supported-profile-signal; no standalone Roa profile"},
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:29", "sources/worldbook-profile/dlc-tsukihime-ciel.txt:30"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    },
+    {
+      "recordId": "france-original-arcueid-kills-roa",
+      "kind": "combat-effect-candidate",
+      "summary": "Original Ciel source says Arcueid found and killed Roa two days later, Elesia died too, and the Church recovered the body.",
+      "effectRaw": "爱尔奎特在两天后找到并杀死罗亚，艾蕾西亚随之死亡；教会回收遗体",
+      "continuityTaxonomy": {"category": "original", "rawSourceLabels": ["同人版"], "sourceAvailability": "supported-profile-signal; no standalone Roa profile"},
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:31"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    },
+    {
+      "recordId": "france-remake-roa-controls-town-and-arcueid-kills-fifteenth",
+      "kind": "combat-effect-candidate",
+      "summary": "Remake Ciel source says Roa controlled all town residents, collected blood, invited multiple Ancestors for an anti-Arcueid ritual, and Arcueid killed the fifteenth Roa.",
+      "effectRaw": "罗亚控制全镇居民并收集血液; 邀请多位二十七祖举行针对爱尔奎特的仪式; 爱尔奎特介入击杀第十五世罗亚",
+      "continuityTaxonomy": {"category": "remake", "rawSourceLabels": ["重制版"], "sourceAvailability": "supported-profile-signal; no standalone Roa profile"},
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:50"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    }
+  ]
+}

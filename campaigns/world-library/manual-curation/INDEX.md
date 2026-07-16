@@ -4,6 +4,11 @@
 
 用途：作为 `campaigns/world-library/worlds/*/curated/` 手工整理产物的总索引。详细完成度与未解决项见 `campaigns/world-library/manual-curation/STATUS.md`。
 
+相关目录文档：
+
+- `campaigns/world-library/manual-curation/STATUS.md`：归档完成度与风险状态。
+- `campaigns/world-library/manual-curation/SOURCE-ORIGINALS.md`：按“有小说原著 / 非小说原著 / 混合型”记录 63 个世界，并标注本地原文状态，便于后续补找原文。
+
 ## 标准产物索引说明
 
 每个完成世界的 `curated/` 目录需满足 **7 项最小基线**，可在此基础上任意扩展额外文件。
@@ -27,7 +32,7 @@
 ## 汇总
 
 - 世界目录总数：63
-- 基线完整 curated 世界：63
+- 基线完整 curated 世界：63（62 assumed + 1 已归档）
 - 部分 curated 世界：0
 - 缺失 curated 世界：0
 
@@ -94,14 +99,14 @@
 | toaru | `campaigns/world-library/worlds/toaru/curated/` | 是 | 是 | 是 |
 | tokyo-ghoul | `campaigns/world-library/worlds/tokyo-ghoul/curated/` | 是 | 是 | 是 |
 | toriko | `campaigns/world-library/worlds/toriko/curated/` | 是 | 是 | 是 |
-| type-moon-nasuverse | `campaigns/world-library/worlds/type-moon-nasuverse/curated/` | 是 | 是 | 是 |
+| type-moon-nasuverse | `campaigns/world-library/worlds/type-moon-nasuverse/curated/` | ✅ 已归档+已校验 | 是 | ✅ |
 | world-god-only-knows | `campaigns/world-library/worlds/world-god-only-knows/curated/` | 是 | 是 | 是 |
 | xianjian-1 | `campaigns/world-library/worlds/xianjian-1/curated/` | 是 | 是 | 是 |
 | zero-no-tsukaima | `campaigns/world-library/worlds/zero-no-tsukaima/curated/` | 是 | 是 | 是 |
 
 ## 部分/缺失世界
 
-无。当前 63 个世界均满足 7 项最小基线。
+型月已通过 agent_team 归档（待补 characters-index 合并和图谱），其余 62 个世界仍为 assumed 状态，待后续批次处理。
 
 ## 后续 QA 索引
 

@@ -1,0 +1,61 @@
+{
+  "schema": "tm-fgo-extracted-world-state-v1",
+  "packetId": "pkt-fgo-ordeal-call-oc2-id-prep",
+  "chapterId": "fgo-ordeal-call-2-id",
+  "slug": "oc2-id",
+  "sourceTextPath": "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt",
+  "records": [
+    {
+      "recordId": "oc2-world-title",
+      "recordType": "chapter-title",
+      "titleRaw": "FGO_奏章II_不可逆废弃孔_伊德",
+      "sourceFirstLabels": ["FGO_奏章II_不可逆废弃孔_伊德", "不可逆废弃孔", "伊德"],
+      "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:1"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "recordId": "oc2-world-core-setting",
+      "recordType": "core-setting",
+      "singularityNameRaw": "Ordeal Call 2 不可逆废弃孔 伊德 (Id)",
+      "eraRaw": "2024年 (虚假的现代时间)",
+      "locationRaw": "精神深处·东京 (被隔离的潜意识空间)",
+      "classificationRaw": "奏章 (Ordeal Call) / 职阶清算领域 / 精神世界",
+      "environmentFeaturesRaw": [
+        "表面上是一个和平的现代东京，藤丸立香在这里扮演一个普通的高中生。",
+        "周围的同学、家人都是由精神碎片和从者扮演的幻象（如贞德Alter扮演青梅竹马，黑玛丽扮演转学生）。",
+        "随着剧情推进，和平的表象被撕裂，城市化为充满黑泥与火焰的废弃孔。",
+        "这里没有外部的魔力补给，所有的战斗消耗都直接抽取藤丸立香的精神力和复仇者们自身的灵基。"
+      ],
+      "sourceFirstLabels": ["2024年", "虚假的现代时间", "精神深处·东京", "被隔离的潜意识空间", "精神世界", "黑泥", "火焰", "废弃孔", "外部的魔力补给"],
+      "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:3-11"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "recordId": "oc2-world-anomaly-root",
+      "recordType": "anomaly-root",
+      "actorRaw": "“异星使徒”伯爵（卡里奥斯特罗）",
+      "mechanismRaw": "潜入藤丸立香的精神世界，企图利用潜意识的阴暗面（废弃孔）将御主彻底废人化。",
+      "counterPlanRaw": "迦勒底的复仇者们（以岩窟王和贞德Alter为首）将计就计，将这个精神世界化为试炼场；要在这里彻底终结“复仇”的概念，以此换取通往南极的道路。",
+      "sourceFirstLabels": ["异星使徒", "伯爵", "卡里奥斯特罗", "潜意识的阴暗面", "御主", "废人化", "迦勒底", "复仇者", "岩窟王", "贞德Alter", "试炼场", "复仇", "通往南极的道路"],
+      "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:12"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "recordId": "oc2-world-ending-state",
+      "recordType": "chapter-ending-state",
+      "completionRaw": "试炼完成。藤丸立香在病床上苏醒，获得了第二份通行证，但失去了迦勒底中所有的Avenger。",
+      "chaldeaStatusRaw": "迦勒底管制室确认：所有Avenger职阶的灵基图谱完全变暗，无法再被召唤。",
+      "sourceFirstLabels": ["试炼完成", "第二份通行证", "所有Avenger职阶", "灵基图谱完全变暗", "无法再被召唤"],
+      "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:30", "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:68-69"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    }
+  ]
+}

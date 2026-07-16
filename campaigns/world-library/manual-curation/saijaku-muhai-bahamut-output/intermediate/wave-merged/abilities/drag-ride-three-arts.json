@@ -1,0 +1,59 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "drag-ride-three-arts",
+  "volume": "vol-06",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:6660"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-06",
+      "volume": "vol-06",
+      "time": "本卷",
+      "name": {
+        "zh": "机龙操纵三奥义",
+        "en": "Three Drag-Ride Arts"
+      },
+      "aliases": [
+        "神速制御",
+        "强制超过",
+        "永久连环"
+      ],
+      "type": "combat / skill",
+      "description": "路克斯设计的三种高级机龙操纵术；夜架也掌握同类技术。",
+      "details": {
+        "arts": [
+          "神速制御：身体与精神操纵完全同调的超速动作",
+          "强制超过：制造操纵矛盾以释放破坏性失控一击",
+          "永久连环：身体与精神命令交替叠加的无限连击"
+        ]
+      },
+      "activation": {
+        "condition": "极高机龙操纵能力",
+        "incantation": "无",
+        "time": "瞬间至连续动作",
+        "cost": "巨大集中与身体负担"
+      },
+      "effects": [
+        "超高速斩击",
+        "破坏性一击",
+        "高速连续攻防"
+      ],
+      "known_feats": [
+        "路克斯与夜架在巨兵肩上互相使用三奥义交锋"
+      ],
+      "shared_by": [
+        "lux-arcadia",
+        "kirihime-yoruka"
+      ],
+      "see_also": [
+        "yoruka-kokugeki"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:6660"
+      ]
+    }
+  ]
+}

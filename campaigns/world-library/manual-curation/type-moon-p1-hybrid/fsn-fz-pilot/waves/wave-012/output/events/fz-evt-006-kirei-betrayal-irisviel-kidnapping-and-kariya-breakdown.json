@@ -1,0 +1,25 @@
+{
+  "schema": "tm-p1-event-v1",
+  "event_id": "fz-evt-006-kirei-betrayal-irisviel-kidnapping-and-kariya-breakdown",
+  "worldId": "type-moon-nasuverse",
+  "continuity": "fz",
+  "timelineId": "fz-fourth-war",
+  "route": "fz-fourth-war",
+  "canonStatus": "canon-like",
+  "time": { "start": { "value": "1994-11-20T15:11:25", "precision": "YYYY-MM-DDTHH:mm:ss", "relative": "Tokiomi and Rin speak", "orderIndex": 43 }, "end": { "value": "1994-11-21T21:57:15", "precision": "YYYY-MM-DDTHH:mm:ss", "relative": "Kariya attacks Aoi", "orderIndex": 52 }, "duration": "one-day-plus", "confidence": "high" },
+  "timelineNodes": [
+    { "nodeId": "start", "label": "Tokiomi and Rin speak", "time": { "relative": "1994-11-20 15:11:25", "orderIndex": 43 }, "summary": "Tokiomi and Rin speak before Tokiomi's betrayal and death." },
+    { "nodeId": "middle-001", "label": "Kirei kills Tokiomi", "time": { "relative": "1994-11-21 02:48:32", "orderIndex": 44 }, "summary": "Kirei assassinates Tokiomi with the Azoth sword and contracts with Archer." },
+    { "nodeId": "end", "label": "Kariya breaks down", "time": { "relative": "1994-11-21 21:57:15", "orderIndex": 52 }, "summary": "After Irisviel's kidnapping and Zouken/Kirei moves, Kariya runs amok and attacks Aoi." }
+  ],
+  "participants": ["tohsaka-tokiomi", "tohsaka-rin", "kotomine-kirei", "gilgamesh", "berserker-lancelot", "hisau-maiya", "irisviel-von-einzbern", "saber-artoria", "rider-iskandar", "matou-zouken", "matou-kariya", "aoi-tohsaka", "emiya-kiritsugu"],
+  "locationRefs": ["fuyuki-city"],
+  "cause": "Kirei's betrayal and endgame repositioning destabilize both Tohsaka and Matou threads.",
+  "process": "Kirei kills Tokiomi and contracts with Gilgamesh; Berserker kills Maiya and kidnaps Irisviel; Zouken meets Kirei and Kariya later attacks Aoi.",
+  "outcome": "Kirei becomes an independent endgame actor with Gilgamesh; Tokiomi dies; Kariya collapses into violence.",
+  "stateChanges": ["Tokiomi killed", "Kirei contracts with Archer/Gilgamesh", "Maiya killed", "Irisviel kidnapped", "Aoi attacked by Kariya"],
+  "relationshipChanges": ["Kirei betrays Tokiomi", "Kirei and Gilgamesh become contracted partners", "Kariya's tie to Sakura/Aoi deteriorates into tragedy"],
+  "sourceType": "user-file-worldbook",
+  "credibility": "A",
+  "sourceRefs": ["type-moon-nasuverse/worldbook-text/src-fate-zero.md:43", "type-moon-nasuverse/worldbook-text/src-fate-zero.md:44", "type-moon-nasuverse/worldbook-text/src-fate-zero.md:45", "type-moon-nasuverse/worldbook-text/src-fate-zero.md:46", "type-moon-nasuverse/worldbook-text/src-fate-zero.md:48", "type-moon-nasuverse/worldbook-text/src-fate-zero.md:49"]
+}

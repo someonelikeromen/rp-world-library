@@ -1,0 +1,72 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "character",
+  "entityId": "tooyama-kinichi",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-04",
+  "_schema": "rp-character-volume-v1",
+  "periods": [
+    {
+      "periodId": "vol-04",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-04/full.txt:57",
+        "hidan-no-aria-main/vol-04/full.txt:125",
+        "hidan-no-aria-main/vol-04/full.txt:1541",
+        "hidan-no-aria-main/vol-04/full.txt:4431",
+        "hidan-no-aria-main/vol-04/full.txt:6163"
+      ],
+      "snapshot": {
+        "name": "远山金一",
+        "aliases": [
+          "加奈",
+          "远山金一武侦",
+          "前武侦厅特命武侦",
+          "金次的大哥"
+        ],
+        "gender": "男；以加奈形态行动时呈女性外貌",
+        "status": "存活；潜入伊·U钻研派，卷末被教授以远距离不可视子弹击伤",
+        "role": "金次的兄长；传说级武侦；伊·U内部破坏者",
+        "affiliations": [
+          "远山家",
+          "伊·U钻研派",
+          "前武侦厅"
+        ],
+        "abilities": [
+          "常驻HSS",
+          "不可视子弹",
+          "蝎尾",
+          "空中装弹",
+          "医疗与战术指挥"
+        ],
+        "equipment": [
+          "柯尔特SAA和平制造者",
+          "蝎尾大镰刀",
+          "蝴蝶刀"
+        ],
+        "relationships": [
+          {
+            "target": "kinji",
+            "type": "兄长/考验者",
+            "detail": "试探金次与亚莉亚的牵绊，并在太阳船上被金次的镜击击败。"
+          },
+          {
+            "target": "aria",
+            "type": "目标/可能的首领候选",
+            "detail": "认为若无法暗杀教授，就必须杀死亚莉亚以制造伊·U权力空白。"
+          },
+          {
+            "target": "petra",
+            "type": "上司/暧昧压制",
+            "detail": "能以HSS魅力与战斗力压制佩特拉，后协助金次争取救援机会。"
+          },
+          {
+            "target": "sherlock-holmes-i",
+            "type": "敌方首领/暗杀目标",
+            "detail": "企图以分化内斗摧毁教授统率下的伊·U。"
+          }
+        ],
+        "summary": "金一以加奈形态回归，先声称要杀亚莉亚，后揭示自己潜入伊·U是为分化内斗。他在『第一可能性』与『第二可能性』之间摇摆，最终再次押注金次与亚莉亚的牵绊，现身金字塔牵制佩特拉。"
+      }
+    }
+  ]
+}

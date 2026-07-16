@@ -1,0 +1,31 @@
+{
+  "_schema": "rp-item-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "item_id": "type-specific-dragon",
+  "volume": "vol-05",
+  "periods": [
+    {
+      "period_id": "vol-05",
+      "volume": "vol-05",
+      "time": "vol-05",
+      "name": { "zh": "特装机龙《特装机龙》", "en": "Type-Specific General-Purpose Armored Dragon" },
+      "aliases": ["特装机龙"],
+      "type": "weapon / equipment",
+      "description": "诺珂特·利弗雷特持有的特装型泛用机龙。具备从肩口机械延伸连接线以调整其他机龙系统的特殊能力。",
+      "details": {
+        "type": "特装型泛用机龙",
+        "special_feature": "可以与其他机龙进行系统级连接并施加限制"
+      },
+      "owner": "nocot-licret",
+      "status": "active",
+      "features": ["系统连携调整功能", "安全限制施加"],
+      "associated_abilities": ["type-specific-dragon-adjustment"],
+      "history": ["用于帮助艾丽安全进行机龙基础训练"],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-05/full.txt:1000-1100"
+      ]
+    }
+  ],
+  "source_refs": []
+}

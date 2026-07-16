@@ -1,0 +1,30 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "cassandra-ilion",
+  "volume": "vol-08",
+  "time_range": { "start": "第一章", "end": "第一章" },
+  "sub_arcs": ["米赫眷族扩张"],
+  "periods": [
+    {
+      "period_id": "vol-08-ch-01",
+      "volume": "vol-08",
+      "time": "第一章 献给某武神的恋歌",
+      "label": "从阿波罗到米赫",
+      "name": { "zh": "卡珊德拉·伊利翁", "en": "Cassandra Ilion", "jp": "カサンドラ・イリオン" },
+      "gender": "女",
+      "species": "人类",
+      "occupation": "第三级冒险者",
+      "affiliation": "米赫眷族；原阿波罗眷族",
+      "status": { "location": "天青药铺", "state": "改宗后与达芙妮一同加入米赫眷族" },
+      "appearance": { "overview": "长发、下垂眼的怯懦少女冒险者。" },
+      "personality": { "summary": "怯生生但善良，仍对未能加入赫斯缇雅眷族略感遗憾。", "core_traits": ["胆怯", "温和", "顺从"], "desires": ["原本想加入赫斯缇雅眷族"] },
+      "relationships": { "daphne-lauros": "搭档与同伴", "naaza-erisuys": "新眷族同伴", "miach": "新主神" },
+      "summary": "卡珊德拉随达芙妮加入米赫眷族，虽然仍对没能加入赫斯缇雅眷族有些遗憾，但开始作为米赫眷族成员活动。",
+      "key_events": [ { "event_id": "daphne-cassandra-join-miach-familia", "summary": "与达芙妮改宗到米赫眷族。", "sourceRef": "danmachi-main/vol-08/full.txt:1244" } ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-08/full.txt:1214", "danmachi-main/vol-08/full.txt:1244"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-08/full.txt:1202-1263"]
+}

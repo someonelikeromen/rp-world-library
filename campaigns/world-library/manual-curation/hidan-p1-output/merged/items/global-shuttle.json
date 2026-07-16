@@ -1,0 +1,58 @@
+{
+  "_schema": "rp-item-volume-v1",
+  "world": "hidan-no-aria",
+  "item_id": "global-shuttle",
+  "volume": "vol-18",
+  "source_refs": [
+    "hidan-no-aria-main/vol-18/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-18",
+      "volume": "vol-18",
+      "time": "第十八卷 星条旗的霸道",
+      "name": {
+        "zh": "X-48E Global Shuttle",
+        "en": "X-48E Global Shuttle"
+      },
+      "aliases": [
+        "飞行空母",
+        "飞天炮弹",
+        "翼身融合机"
+      ],
+      "type": "vehicle / weapon",
+      "description": "马许用于运输LOO和掠夺者的巨型翼身融合机，碳化矽外壳极硬，也可作为冲撞兵器。",
+      "details": {
+        "material": "碳化矽陶瓷状外壳",
+        "role": "无人兵器母舰与撞击兵器"
+      },
+      "owner": "marsh-roosevelt",
+      "status": "destroyed",
+      "features": [
+        "搭载LOO",
+        "释放掠夺者",
+        "硬度极高",
+        "自杀式冲撞"
+      ],
+      "associated_abilities": [
+        "marsh-information-warfare"
+      ],
+      "history": [
+        {
+          "event_id": "transam-loo-battle",
+          "summary": "投放LOO并在空中保持追踪",
+          "sourceRef": "hidan-no-aria-main/vol-18/full.txt"
+        },
+        {
+          "event_id": "area51-sakuraboshi-breakthrough",
+          "summary": "试图撞击Trans-Am，被金次和GⅢ以樱星击碎",
+          "sourceRef": "hidan-no-aria-main/vol-18/full.txt"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-18/full.txt"
+      ]
+    }
+  ]
+}

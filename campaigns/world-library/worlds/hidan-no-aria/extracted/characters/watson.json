@@ -1,0 +1,234 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "character",
+  "entityId": "watson",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-09",
+  "_schema": "rp-character-volume-v1",
+  "periods": [
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:25",
+        "hidan-no-aria-main/vol-09/full.txt:87",
+        "hidan-no-aria-main/vol-09/full.txt:121",
+        "hidan-no-aria-main/vol-09/full.txt:2940",
+        "hidan-no-aria-main/vol-09/full.txt:3605"
+      ],
+      "snapshot": {
+        "name": "L·华生",
+        "aliases": [
+          "华生",
+          "L",
+          "自由石匠卫生武侦",
+          "女扮男装的华生"
+        ],
+        "gender": "女（对外长期伪装为男）",
+        "status": "存活；与金次和解并成为巴斯克维尔外部卫生武侦协力者",
+        "role": "自由石匠成员；卫生武侦/医师；亚莉亚原婚约相关人；本卷协力者",
+        "affiliations": [
+          "自由石匠",
+          "东京武侦高中",
+          "师团协力者",
+          "巴斯克维尔外部契约"
+        ],
+        "abilities_owned": [
+          "medical-field-treatment",
+          "watson-espionage-combat"
+        ],
+        "possessions_owned": [
+          "watson-silver-rapier",
+          "nebula-stimulant",
+          "consecrated-silver-bullets"
+        ],
+        "equipment": [
+          "十字箔剑",
+          "法化银弹",
+          "NEBULA中枢神经刺激剂",
+          "耐电处理防弹外套",
+          "保时捷"
+        ],
+        "relationships": [
+          {
+            "target": "kinji",
+            "type": "敌对转友方/秘密训练对象",
+            "detail": "与金次战斗后交出武装并请求救亚莉亚，之后要求金次保密自己是女性并进行复健训练。"
+          },
+          {
+            "target": "aria",
+            "type": "原婚约/守护对象",
+            "detail": "带走亚莉亚原为加入眷属谈判，失败后放弃婚约并向亚莉亚说明华生家状况。"
+          },
+          {
+            "target": "hilda",
+            "type": "被欺骗/医治对象",
+            "detail": "被希尔达设局击倒，战后仍以医师身份救治希尔达并回收素材。"
+          },
+          {
+            "target": "riko",
+            "type": "救治者",
+            "detail": "在天空树第一观景台对理子进行紧急治疗并配合矢常吕老师解毒。"
+          }
+        ],
+        "summary": "华生在卷初被希尔达雷球击倒，仍向金次交出银剑、法化银弹和NEBULA并解释希尔达能力。战后她作为医生救治理子与希尔达，回收希尔达翅膀和魔脏组织，代表自由石匠加入师团并以素材为酬劳成为巴斯克维尔的卫生武侦协力者；同时金次发现并保守其女性身份秘密。",
+        "evidence_level": "S",
+        "source_refs": []
+      }
+    },
+    {
+      "period_id": "vol-19",
+      "volume": "vol-19",
+      "time": "第十九卷",
+      "name": {
+        "zh": "华生",
+        "en": "Watson",
+        "jp": "ワトソン"
+      },
+      "aliases": [
+        "华生卿"
+      ],
+      "titles": [
+        "英国武侦",
+        "自由石匠关系者"
+      ],
+      "gender": "female presenting male",
+      "species": "human",
+      "nationality": "British",
+      "occupation": "Butei / driver / investigator",
+      "affiliation": "Watson family / Freemason contacts",
+      "status": {
+        "alive": true,
+        "location": "London",
+        "condition": "injured but active"
+      },
+      "abilities_owned": [
+        "watson-hidden-blades",
+        "driving-skill",
+        "intelligence-network"
+      ],
+      "possessions_owned": [
+        "watson-porsche-911"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "ally",
+          "status": "guides him in London and assists chase"
+        },
+        "aria": {
+          "type": "friend / helper",
+          "status": "supports Aria's London problem"
+        },
+        "sayon": {
+          "type": "national peer and opponent",
+          "status": "knocked out by Sayon; later hits him by car"
+        },
+        "lisa": {
+          "type": "helper contact",
+          "status": "brings Lisa to care for Kinji"
+        }
+      },
+      "summary": "华生接应金次入伦敦，解释英国王族、福尔摩斯家和MI6风险；她调查赛恩并在追逐战中用保时捷支援金次。",
+      "key_events": [
+        {
+          "event_id": "kinji-london-arrival",
+          "summary": "在史坦斯特机场接到金次并说明亚莉亚处境。",
+          "sourceRef": "hidan-no-aria-main/vol-19/full.txt:600"
+        },
+        {
+          "event_id": "sayon-abbey-road-duel",
+          "summary": "试图保护金次却被赛恩击昏。",
+          "sourceRef": "hidan-no-aria-main/vol-19/full.txt:3600"
+        },
+        {
+          "event_id": "thames-chase",
+          "summary": "驾驶保时捷追击鬼族并撞飞赛恩。",
+          "sourceRef": "hidan-no-aria-main/vol-19/full.txt:4450"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-19/chapters/ch-001-第十九卷_共跳一段小步舞曲_1弹_琉璃色的姊妹神.txt:600",
+        "hidan-no-aria-main/vol-19/chapters/ch-003-第十九卷_共跳一段小步舞曲_3弹_大英帝国的刺客.txt:260",
+        "hidan-no-aria-main/vol-19/chapters/ch-004-第十九卷_共跳一段小步舞曲_4弹_时钟塔的双剑双枪.txt:478"
+      ]
+    },
+    {
+      "period_id": "vol-26",
+      "volume": "vol-26",
+      "time": "第二十六卷 穿破黑暗的巨蟒",
+      "label": "远山武侦事务所无偿顾问",
+      "name": {
+        "zh": "华生",
+        "en": "Watson",
+        "jp": "華生（ワトソン）"
+      },
+      "aliases": [
+        "华生",
+        "华生老师",
+        "顾问大人"
+      ],
+      "titles": [
+        "自由石匠（Freemason）成员",
+        "远山武侦事务所经营顾问"
+      ],
+      "gender": "male-presented（实际女性）",
+      "species": "human",
+      "nationality": "British/Japanese",
+      "occupation": "经营顾问",
+      "affiliation": "自由石匠；远山武侦事务所（顾问）",
+      "status": {
+        "social": "本卷结束后因自由石匠事务离开日本"
+      },
+      "appearance": {
+        "overview": "美少年外表，穿西装打领带；散发出肉桂般的可爱香气；虽然胸部用内衬衣掩饰但仍有曲线。",
+        "attire": {
+          "default": "西装衬衫+领带",
+          "combat": "随身携带SIG手枪"
+        },
+        "voice_quality": "少年音，但实际为女性"
+      },
+      "personality": {
+        "summary": "博学多闻的商业顾问，用专业知识无偿支持远山武侦事务所；尽管真实性别为女但一直以男性身份活动。",
+        "core_traits": [
+          "专业",
+          "冷静",
+          "体贴",
+          "善于经商"
+        ]
+      },
+      "relationships": {
+        "kinji": {
+          "type": "consultant/friend",
+          "summary": "在远山武侦事务所创立后担任无偿顾问，提供从会计税务到经营管理全方位的专业建议；与金次并肩战斗击退准暴力团。"
+        },
+        "nakazora-misaki": {
+          "type": "consultant/colleague",
+          "summary": "辅导中空知的商业能力和管理成长。"
+        }
+      },
+      "knowledge": [
+        "business-management",
+        "accounting-tax",
+        "japan-butei-industry",
+        "freemason-network"
+      ],
+      "summary": "本卷华生作为远山武侦事务所的经营顾问全程参与。从最初的创业资料准备、武侦包市场战略（兰彻斯特战略/小众市场理论）、到与八千代银行的融资谈判、与准暴力团的枪战，提供了全方位的支援。在金次辞职前最后一个礼拜完成了顾问任期。",
+      "key_events": [
+        {
+          "event_id": "butei-manju-launch",
+          "summary": "提出『可以吃的防身道具』概念和兰彻斯特战略，帮助锁定年轻女性市场。",
+          "sourceRef": "hidan-no-aria-main/vol-26/full.txt"
+        },
+        {
+          "event_id": "quasi-gang-attack",
+          "summary": "在准暴力团袭击现场拔枪支援金次，用SIG手枪击退暴徒。",
+          "sourceRef": "hidan-no-aria-main/vol-26/full.txt"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-26/full.txt"
+      ]
+    }
+  ]
+}

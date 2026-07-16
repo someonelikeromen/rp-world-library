@@ -1,0 +1,22 @@
+{
+  "schema": "tm-fgo-packet-audit-fix-round-v1",
+  "recordId": "lb6-2-round-table-post-packet-fix-round-001",
+  "packetId": "pkt-fgo-lostbelt-lb6-2-round-table-post-extract",
+  "chapterId": "fgo-lb6-2-round-table-post",
+  "round": 1,
+  "fixerStatus": "completed",
+  "fixedIssueIds": ["lb6-2-audit-001-001", "lb6-2-audit-001-002"],
+  "filesTouched": [
+    "extracted/lostbelt/lb6-2-round-table-post/not-found-in-source/mandatory-missing-details.json",
+    "extracted/lostbelt/lb6-2-round-table-post/extraction-report.json",
+    "normalized/lostbelt/lb6-2-round-table-post/normalization-report.json",
+    "extracted/lostbelt/lb6-2-round-table-post/audit/final-status.json",
+    "audit/packet-audits/lostbelt/lb6-2-round-table-post/final-status.json"
+  ],
+  "openIssuesAfterFix": 0,
+  "blockedIssuesAfterFix": 0,
+  "sourceRefs": ["extracted/lostbelt/lb6-2-round-table-post/audit/fix-round-001.json"],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

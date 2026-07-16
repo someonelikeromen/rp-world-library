@@ -1,0 +1,55 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "facility-leader-authority",
+  "volume": "vol-06",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:5830",
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:8060"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-06",
+      "volume": "vol-06",
+      "time": "本卷",
+      "name": {
+        "zh": "设施领导者权限",
+        "en": "Facility Leader Authority"
+      },
+      "aliases": [
+        "遗迹管理者权限"
+      ],
+      "type": "technology / authority",
+      "description": "自动人形设施领导者管理遗迹、分身和内部系统的权限。",
+      "details": {
+        "facility": "第五遗迹巨兵"
+      },
+      "activation": {
+        "condition": "设施领导者核心正常",
+        "incantation": "无",
+        "time": "持续",
+        "cost": "系统负载"
+      },
+      "effects": [
+        "操纵巨兵设施",
+        "发出警告与攻击命令",
+        "维持分身网络"
+      ],
+      "known_feats": [
+        "艾儿·法洁勒控制巨兵并在管理室执行最终命令"
+      ],
+      "shared_by": [
+        "aeril-fazelle"
+      ],
+      "see_also": [
+        "gigant-control",
+        "automaton-clone-body"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:5830",
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:8060"
+      ]
+    }
+  ]
+}

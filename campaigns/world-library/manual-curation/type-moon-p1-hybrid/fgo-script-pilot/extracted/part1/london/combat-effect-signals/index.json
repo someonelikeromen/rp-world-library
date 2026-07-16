@@ -1,0 +1,12 @@
+{
+  "schema":"tm-fgo-combat-effect-signal-index-v1",
+  "chapterKey":"london",
+  "chapterId":"fgo-part1-london",
+  "status":"supplemented-r1",
+  "signals":[
+    {"signalId":"london-combat-fog-field-effect","eventId":"fgo-part1-london-event-b","actorRaw":"魔雾","effectType":"field-effect","description":"Lethal magic fog fills London, blocks communications, and endangers humans without Mash's protection.","visualEffect":"dense magic fog; detailed color not-found-in-source","result":"Communication and exploration are obstructed.","affectedTargets":["chaldea-party","london"],"status":"source-backed","notFoundReason":"Detailed appearance not described.","sourceRefs":["sources/worldbook-script/part1/ch-004-london.txt#world_state","sources/worldbook-script/part1/ch-004-london.txt#event-B"],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"},
+    {"signalId":"london-combat-tesla-lightning-fog","eventId":"fgo-part1-london-event-m","actorRaw":"尼古拉·特斯拉","effectType":"field-effect","description":"Tesla manifests and releases powerful lightning that activates the magic fog.","visualEffect":"强力雷电活性化魔雾","result":"Fog becomes a renewed threat; Mordred releases her Noble Phantasm and the party retreats.","affectedTargets":["magic-fog","chaldea-party"],"status":"source-backed","notFoundReason":"Lightning activation is explicit; detailed choreography is not.","sourceRefs":["sources/worldbook-script/part1/ch-004-london.txt#event-M"],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"},
+    {"signalId":"london-combat-solomon-overwhelming-magic","eventId":"fgo-part1-london-event-n","actorRaw":"所罗门","effectType":"attack","description":"Solomon appears in person and uses overwhelming magical power to heavily damage the party before leaving.","visualEffect":"not-found-in-source","result":"Chaldea confirms the final enemy while London is repaired afterward.","affectedTargets":["chaldea-party"],"status":"source-backed","notFoundReason":"No attack visuals are described.","sourceRefs":["sources/worldbook-script/part1/ch-004-london.txt#event-N"],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"}
+  ],
+  "sourceRefs":["sources/worldbook-script/part1/ch-004-london.txt"],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"
+}

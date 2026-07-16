@@ -1,0 +1,25 @@
+{
+  "schema": "tm-fgo-extracted-stage-characters-v1",
+  "chapterId": "fgo-lb5-1-atlantis",
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like",
+  "sourceRefs": ["sources/worldbook-script/lostbelt/ch-097-lb5-1-atlantis.txt:14-23"],
+  "engineInstructionRefs": [
+    {
+      "instructionRaw": "[系统判定：每次推进剧情前，暗中核对 <stage_characters> 与当前事件。若某角色符合触发条件，或已错过前置出场时机，必须以合理逻辑将其强制编入当前段落，严禁遗漏角色。]",
+      "sourceRefs": ["sources/worldbook-script/lostbelt/ch-097-lb5-1-atlantis.txt:15"],
+      "treatment": "engine-instruction-only-not-canon-fact"
+    }
+  ],
+  "groups": [
+    {"groupRaw":"迦勒底","sourceRefs":["sources/worldbook-script/lostbelt/ch-097-lb5-1-atlantis.txt:16"],"members":["藤丸立香(剧情推进/御主)","玛修·基列莱特(守护/前线战斗)","莱昂纳多·达·芬奇(技术支援)","福尔摩斯(战术分析/推理)","戈尔德鲁夫(后方指挥)","希翁(基地统括/战略下达)","尼莫船长(潜航艇统帅)","尼莫水兵(全舰运作)"]},
+    {"groupRaw":"亚特兰蒂斯同盟","sourceRefs":["sources/worldbook-script/lostbelt/ch-097-lb5-1-atlantis.txt:17"],"members":["夏洛特·科黛(暗杀/情感锚点)","巴沙洛缪·罗伯茨(航海向导/掩护牺牲)","曼迪卡尔多(从者支援/舍身防御)","德雷克(传承托付)","伊阿宋(舰队指挥/绝境督战)","阿喀琉斯(强力突击/牵制)","帕里斯(神造材料)","赫克托耳(降临防御)","美狄亚·Lily(情报遗留)","俄里翁(弑神狙击/冠位)","阿耳忒弥斯终端(情感羁绊)"]},
+    {"groupRaw":"隐匿者阵营","sourceRefs":["sources/worldbook-script/lostbelt/ch-097-lb5-1-atlantis.txt:18"],"members":["基尔什塔利亚·沃戴姆(天体魔术/降临主导)","佩佩隆奇诺(情报交换)","戴比特·泽姆·沃伊德(暗中侦察)"]},
+    {"groupRaw":"奥林波斯神系/神权军","sourceRefs":["sources/worldbook-script/lostbelt/ch-097-lb5-1-atlantis.txt:19"],"members":["奥德修斯(舰队统帅/截击指挥)","阿耳忒弥斯(卫星对星炮击)","波塞冬(海神核心阻击)","宙斯(最高神罚授权)","赫淮斯托斯(锻造支援/倒戈掩护)","阿斯特赖亚(试炼考官)","喀戎（异闻带/敌方复制体）(战术伏击)","凯妮斯(前期海上突击)"]},
+    {"groupRaw":"中立/系统外","sourceRefs":["sources/worldbook-script/lostbelt/ch-097-lb5-1-atlantis.txt:20"],"members":["武藏(暗中潜伏/漂流执行)","？？？(51区神秘接头人)"]},
+    {"groupRaw":"奥林波斯驻留者","sourceRefs":["sources/worldbook-script/lostbelt/ch-097-lb5-1-atlantis.txt:21"],"members":["赫斯提亚村民(异闻带平民)","赫拉克勒斯岛居民(拥抱毁灭者)","各岛民众(异闻带平民)"]},
+    {"groupRaw":"异星势力残影","sourceRefs":["sources/worldbook-script/lostbelt/ch-097-lb5-1-atlantis.txt:22"],"members":["村正(异星使徒/斩杀)","拉斯普京(异星使徒)","高扬斯卡娅(异星使徒)"]}
+  ],
+  "appearancePolicy": "Stage-character line roles are extracted as roles/status/mentions only. They are not expanded into unsupported physical descriptions, costumes, or equipment visuals. Missing visual layers are recorded under not-found-in-source."
+}

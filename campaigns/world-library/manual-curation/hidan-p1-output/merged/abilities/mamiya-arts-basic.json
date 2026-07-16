@@ -1,0 +1,46 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "mamiya-arts-basic",
+  "volume": "vol-03",
+  "source_refs": [
+    "hidan-no-aria-aa/vol-03/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-03",
+      "volume": "vol-03",
+      "time": "明里回忆",
+      "name": {
+        "zh": "间宫流基础训练",
+        "en": "Mamiya Basic Training"
+      },
+      "aliases": [],
+      "type": "combat",
+      "description": "乃乃香幼时与明里共同接受的间宫流基础训练，包括旁观鸢穿、学习毒药调配顺序等。",
+      "activation": {
+        "condition": "幼年传承训练",
+        "time": "长期",
+        "cost": "家族指导"
+      },
+      "effects": [
+        "了解间宫流",
+        "基础身体和药物知识"
+      ],
+      "known_feats": [
+        "乃乃香六岁时在母亲训练中为明里鸢穿成功鼓掌"
+      ],
+      "shared_by": [
+        "nonoka",
+        "akari"
+      ],
+      "see_also": [
+        "mamiya-arts"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-aa/vol-03/full.txt"
+      ]
+    }
+  ]
+}

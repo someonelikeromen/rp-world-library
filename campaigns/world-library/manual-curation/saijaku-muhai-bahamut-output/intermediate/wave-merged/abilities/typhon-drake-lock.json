@@ -1,0 +1,52 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "typhon-drake-lock",
+  "volume": "vol-13",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-13/full.txt:6000"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-13",
+      "volume": "vol-13",
+      "time": "伊布力斯战",
+      "name": {
+        "zh": "龙咬缚锁",
+        "en": "Drake Lock"
+      },
+      "aliases": [
+        "《堤丰》的束缚武装"
+      ],
+      "type": "technology / combat",
+      "description": "菲尔菲的《堤丰》从各部位发射钢线锁链，用于拘束、拉扯和甩动大型敌人。",
+      "details": {
+        "user": "philuffy-aingram",
+        "drag_ride": "typhon"
+      },
+      "activation": {
+        "condition": "穿上《堤丰》并发射锁链",
+        "incantation": "无固定咏唱",
+        "time": "即时",
+        "cost": "机龙能量与腕力/机体输出"
+      },
+      "effects": [
+        "束缚伊布力斯",
+        "将终焉神兽甩动并踢上空中以配合莉夏炮击"
+      ],
+      "known_feats": [
+        {
+          "summary": "菲尔菲以龙咬缚锁拘束伊布力斯，为《七头龙首》创造命中机会。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-13/full.txt:6000"
+        }
+      ],
+      "shared_by": [
+        "philuffy-aingram"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-13/full.txt:6000"
+      ]
+    }
+  ]
+}

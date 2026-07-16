@@ -1,0 +1,55 @@
+{
+  "schema": "tm-tsukihime-normalized-system-fragment-v1",
+  "packetId": "core-systems",
+  "recordId": "system-true-ancestor",
+  "status": "generated-pending-audit",
+  "label": "真祖",
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "mixed-source-status-see-records",
+  "continuityTags": ["sandbox", "original", "remake"],
+  "sourceRefs": ["sources/worldbook-profile/tm-summary-dead-apostle-true-ancestor.txt:18", "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:20", "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:36"],
+  "records": [
+    {
+      "recordId": "true-ancestor-definition",
+      "kind": "definition",
+      "summary": "Natural spirits created by Gaia/the planet's will and modeled after Crimson Moon as a planetary defense mechanism.",
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "continuityTags": ["sandbox"],
+      "sourceRefs": ["sources/worldbook-profile/tm-summary-dead-apostle-true-ancestor.txt:18"]
+    },
+    {
+      "recordId": "true-ancestor-traits",
+      "kind": "trait-list",
+      "summary": "Innate vampire species with powerful strength, near-immortal life, and a strong vampiric impulse that suppresses their own power.",
+      "traits": ["天生吸血种", "强大力量", "近乎不死", "吸血冲动"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "continuityTags": ["sandbox"],
+      "sourceRefs": ["sources/worldbook-profile/tm-summary-dead-apostle-true-ancestor.txt:19", "sources/worldbook-profile/tm-summary-dead-apostle-true-ancestor.txt:20"]
+    },
+    {
+      "recordId": "true-ancestor-arcueid-profile-signal",
+      "kind": "profile-cross-signal",
+      "summary": "Arcueid is explicitly described as a True Ancestor princess / last princess in both original and remake profile excerpts.",
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted",
+      "continuityTags": ["original", "remake"],
+      "sourceRefs": ["sources/worldbook-profile/tm-summary-dead-apostle-true-ancestor.txt:21", "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:20", "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:36"]
+    },
+    {
+      "recordId": "true-ancestor-arcueid-remake-origin-signal",
+      "kind": "remake-only-origin-signal",
+      "summary": "Remake Arcueid source adds that True Ancestors originate from Crimson Moon and are planetary-consciousness agents made to defend against human rule; this is preserved as remake-specific source-backed profile context, not generalized beyond the source.",
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted",
+      "continuityTags": ["remake"],
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:43"]
+    }
+  ]
+}

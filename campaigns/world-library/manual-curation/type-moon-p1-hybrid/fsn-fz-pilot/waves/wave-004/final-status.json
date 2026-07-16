@@ -1,0 +1,34 @@
+{
+  "schema": "tm-p1-final-status-v1",
+  "waveId": "wave-004",
+  "status": "passed",
+  "latestAuditStatus": "passed",
+  "model": "lt-yuyu/gpt-5.5",
+  "passedAt": "2026-07-12",
+  "retrospectiveRepair": "fsn-fz-fix-round-001",
+  "openIssues": 0,
+  "blockedIssues": 0,
+  "canAdvance": true,
+  "latestAuditReport": "audit-report.md",
+  "latestFixReport": "fix-trail.md",
+  "outputs": [
+    "output.json",
+    "audit-report.md",
+    "fix-trail.md",
+    "final-status.json"
+  ],
+  "loopEvidence": {
+    "status": "completed",
+    "stages": ["generator", "auditor", "fixer", "auditor-rerun"],
+    "evidenceFiles": ["output.json", "audit-report.md", "fix-trail.md"],
+    "separationEvidence": "historical evidence does not prove true separated agent roles; treated as process risk rather than final acceptance proof"
+  },
+  "processRisks": [
+    {
+      "riskId": "r42-wave-004-historical-internal-loop-evidence",
+      "classification": "nonblocking process risk",
+      "description": "Historical wave status previously listed an internal generator/auditor/fixer/auditor-rerun cycle. This repair preserves the completed-loop record but does not treat it as proof of true separated-agent execution."
+    }
+  ],
+  "notes": "Passed for Masters and war-linked human characters; minor route humans are candidate-only for later review; r42 retrospective repair added machine-checkable gate fields and process-risk labeling."
+}

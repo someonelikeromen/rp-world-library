@@ -1,0 +1,49 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "faction",
+  "entityId": "freemasonry",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-09",
+  "periods": [
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:187",
+        "hidan-no-aria-main/vol-09/full.txt:3650",
+        "hidan-no-aria-main/vol-09/full.txt:3690"
+      ],
+      "snapshot": {
+        "name": "自由石匠",
+        "aliases": [
+          "华生所属组织",
+          "Freemasonry"
+        ],
+        "type": "secret society / butei ally",
+        "description": "华生所属的秘密组织。本卷在希尔达败北后，总会所决定加入师团，并请求玉藻允许俘虏希尔达进入驱鬼结界。华生以自由石匠成员身份成为巴斯克维尔卫生武侦协力。",
+        "known_members": [
+          "watson"
+        ],
+        "allies": [
+          "shidan",
+          "baskerville",
+          "tamamo"
+        ],
+        "enemies": [
+          "kenzoku",
+          "hilda"
+        ],
+        "resources": [
+          "反吸血鬼武装知识",
+          "法化银弹与十字箔剑",
+          "卫生武侦医疗能力"
+        ],
+        "key_events": [
+          "watson-secret-rehabilitation-training",
+          "tamamo-extreme-east-war-briefing"
+        ],
+        "evidence_level": "A"
+      }
+    }
+  ],
+  "_schema": "rp-faction-volume-v1"
+}

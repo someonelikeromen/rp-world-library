@@ -1,0 +1,657 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "jeanne",
+  "volume": "vol-02",
+  "time_range": {
+    "start": "魔剑事件前",
+    "end": "被捕"
+  },
+  "sub_arcs": [
+    "绑架白雪"
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-02/full.txt"
+  ],
+  "periods": [
+    {
+      "periodId": "vol-04",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-04/full.txt:509",
+        "hidan-no-aria-main/vol-04/full.txt:549",
+        "hidan-no-aria-main/vol-04/full.txt:5326",
+        "hidan-no-aria-main/vol-04/full.txt:5627"
+      ],
+      "snapshot": {
+        "name": "贞德·达鲁克三十世",
+        "aliases": [
+          "贞德",
+          "魔剑",
+          "银冰魔女"
+        ],
+        "gender": "女",
+        "status": "存活；脚伤未愈且受佩特拉诅咒影响，留在后方支援",
+        "role": "前伊·U成员；武侦高中寄宿者；装备与情报支援",
+        "affiliations": [
+          "东京武侦高中",
+          "前伊·U"
+        ],
+        "abilities": [
+          "冰系魔法",
+          "剑术",
+          "伊·U内部知识"
+        ],
+        "equipment": [
+          "杜兰朵改造拐杖剑",
+          "奥尔库斯潜航艇"
+        ],
+        "relationships": [
+          {
+            "target": "kinji",
+            "type": "支援者",
+            "detail": "提供奥尔库斯并解释佩特拉与伊·U内部形势。"
+          },
+          {
+            "target": "shirayuki",
+            "type": "前敌人/临时盟友",
+            "detail": "将断短的杜兰朵借给白雪用于最终救援。"
+          },
+          {
+            "target": "petra",
+            "type": "敌对",
+            "detail": "不希望佩特拉登上伊·U首领位置。"
+          }
+        ],
+        "summary": "贞德本卷因脚伤行动受限，但揭示佩特拉曾是伊·U第二号人物、已被退学，并将自己的潜航艇与杜兰朵借给金次和白雪执行远洋救援。"
+      }
+    },
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:3798",
+        "hidan-no-aria-main/vol-09/full.txt:4375",
+        "hidan-no-aria-main/vol-09/full.txt:4410",
+        "hidan-no-aria-main/vol-09/full.txt:4450"
+      ],
+      "snapshot": {
+        "name": "贞德·达鲁克",
+        "aliases": [
+          "贞德",
+          "银冰魔女",
+          "女骑士后裔"
+        ],
+        "gender": "女",
+        "status": "存活；文化祭中克服穿服务生制服面对他人的羞耻感",
+        "role": "巴斯克维尔协力者；原伊·U成员；网球社学姐",
+        "affiliations": [
+          "东京武侦高中",
+          "巴斯克维尔协力者",
+          "师团协力者"
+        ],
+        "abilities_owned": [
+          "ice-magic",
+          "jeanne-leadership"
+        ],
+        "possessions_owned": [],
+        "equipment": [
+          "服务生制服",
+          "冰冻能力"
+        ],
+        "relationships": [
+          {
+            "target": "kinji",
+            "type": "同伴/咨询对象",
+            "detail": "在文化祭前向金次确认服务生制服是否可爱，并要求他负责。"
+          },
+          {
+            "target": "shiranui-ryo",
+            "type": "同校同伴",
+            "detail": "同在文化祭活动中出现。"
+          },
+          {
+            "target": "school-juniors",
+            "type": "受仰慕学姐",
+            "detail": "网球社学妹们称赞她服务生装可爱，使她确认自己也有女性化一面。"
+          }
+        ],
+        "summary": "贞德在文化祭第一天穿上自己喜爱的服务生制服，但因担心被学妹嘲笑而躲避。金次鼓励她后，网球社学妹们真诚称赞她可爱，她虽害羞逃跑，却在仓库独自感到幸福，表现出隐藏的少女心与受后辈仰慕的领导气质。",
+        "evidence_level": "B",
+        "source_refs": []
+      }
+    },
+    {
+      "period_id": "vol-02-main",
+      "volume": "vol-02",
+      "time": "5月",
+      "label": "魔剑事件",
+      "name": {
+        "zh": "贞德·达鲁克",
+        "en": "Jeanne d'Arc 30th",
+        "jp": "ジャンヌ・ダルク30世"
+      },
+      "aliases": [
+        "魔剑（自称不喜此名）",
+        "第三十代贞德·达鲁克",
+        "钻石冰尘魔女"
+      ],
+      "titles": [
+        "魔剑",
+        "伊·幽谋士",
+        "超能力者"
+      ],
+      "gender": "女性",
+      "species": "人类（超能力者）",
+      "nationality": "法国",
+      "occupation": "伊·幽成员",
+      "affiliation": "伊·幽",
+      "status": {
+        "physical": "健康",
+        "mental": "自傲，完美主义",
+        "social": "伊·幽屈指可数的谋士"
+      },
+      "appearance": {
+        "overview": "银发蓝眼的西洋白人美女，眼角如刀刃细长清秀，穿着西洋甲胄",
+        "physical": {
+          "height": "中等",
+          "build": "苗条",
+          "hair": {
+            "color": "银色",
+            "style": "发顶有两条辫子"
+          },
+          "eyes": {
+            "color": "蓝宝石色"
+          }
+        },
+        "attire": {
+          "default": "西洋甲胄",
+          "combat": "西洋甲胄+防刃巫女服变装"
+        },
+        "voice_quality": {
+          "tone": "冷静从容",
+          "pitch": "适中"
+        },
+        "distinctive": [
+          "银发蓝眼",
+          "持有圣剑杜兰朵",
+          "超能力冰冻"
+        ]
+      },
+      "personality": {
+        "summary": "贞德·达鲁克第三十代后裔，伊·幽成员。自认是谋士一族，擅长将计就计。极度自信且讨厌失策，言行中带有贵族式的傲慢。",
+        "core_traits": [
+          "谋略家",
+          "自信过剩",
+          "完美主义",
+          "贵族气质"
+        ],
+        "values": [
+          "计谋的成功",
+          "家族荣誉",
+          "实力的展现"
+        ],
+        "fears": [
+          "火（因初代贞德险些被火刑致死）"
+        ],
+        "desires": [
+          "为伊·幽获取超能力者",
+          "完成计划"
+        ],
+        "strengths": [
+          "冰冻超能力",
+          "杜兰朵剑术高手",
+          "谋略策划",
+          "完美变装"
+        ],
+        "flaws": [
+          "意外应对能力弱",
+          "害怕火焰",
+          "轻敌武侦"
+        ],
+        "inner_conflict": "自认谋士却因轻敌而失策被捕",
+        "decision_pattern": "谋定而后动，遭遇突发情况时会动摇"
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {
+          "kinji": "远山",
+          "aria": "福尔摩斯",
+          "shirakawa": "白雪"
+        },
+        "register": {
+          "default": "优雅有古风",
+          "combat": "冷静中带嘲弄"
+        },
+        "catchphrases": [
+          "Follow Me",
+          "区区一个武侦",
+          "将计就计"
+        ],
+        "quote_samples": [
+          "我们一族在亮光之下，擅长将计就计的谋略。因此我在这个世界上，最讨厌的东西就是'失策'。",
+          "区区一个人类。居然想对抗超能力。愚蠢的东西。",
+          "我是第三十代贞德·达鲁克。"
+        ]
+      },
+      "background": {
+        "birth": {
+          "place": "法国",
+          "family": [
+            "贞德·达鲁克一族（三十代传承）"
+          ]
+        },
+        "upbringing": "代代相传谋士与魔女的力量",
+        "education": {},
+        "formative_events": [],
+        "pre_story": "伊·幽成员，贞德·达鲁克第三十代后裔，使用冰冻超能力和圣剑杜兰朵"
+      },
+      "abilities_owned": [
+        "ice-magic"
+      ],
+      "possessions_owned": [
+        "durandal",
+        "yataghan"
+      ],
+      "relationships": {
+        "riko.associate": "同属伊·幽，理子传授变装术给她",
+        "kinji.enemy": "敌人，被他空手夺白刃制服",
+        "aria.enemy": "敌人",
+        "shirakawa.target": "目标超能力者"
+      },
+      "secrets": [
+        "贞德·达鲁克一族靠影武者逃脱火刑延续至今"
+      ],
+      "summary": "以魔剑之名诱拐超能力武侦的罪犯，实为伊·幽成员。她伪装成白雪长时间潜伏武侦高中，使用冰冻超能力和谋略离间亚莉亚和金次。最终在地下仓库被金次用空手夺白刃、白雪的火焰能力、亚莉亚的手铐三人联手逮捕。",
+      "key_events": [
+        {
+          "event_id": "underground-warehouse-battle",
+          "summary": "被三人联手逮捕",
+          "sourceRef": "hidan-no-aria-main/vol-02/full.txt:5657"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-02/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-03-main",
+      "volume": "vol-03",
+      "time": "6月中旬",
+      "label": "贞德再登场",
+      "name": {
+        "zh": "贞德·达鲁克30世",
+        "en": "Jeanne d'Arc 30-sei",
+        "jp": "ジャンヌ・ダルク30世"
+      },
+      "aliases": [
+        "魔剑",
+        "魔剑贞德",
+        "银冰魔女"
+      ],
+      "titles": [
+        "魔剑",
+        "伊·幽成员",
+        "巴黎武侦高中留学生"
+      ],
+      "gender": "女性",
+      "species": "人类",
+      "nationality": "法国",
+      "occupation": "巴黎武侦高中情报科二年级留学生",
+      "affiliation": "伊·幽（司法交易中）",
+      "status": {
+        "physical": "健康",
+        "mental": "高傲但开始对金次展现善意",
+        "social": "在武侦高中设定为留学生"
+      },
+      "appearance": {
+        "overview": "高挑的银发美少女，两条细长银辫子盘在头上，浓密后发垂背",
+        "physical": {
+          "height": "高",
+          "build": "大小适中的胸部",
+          "hair": {
+            "color": "银色",
+            "style": "两条细长辫子盘头"
+          },
+          "eyes": {
+            "color": "蓝色",
+            "description": "细长的蓝色眼眸"
+          }
+        },
+        "attire": {
+          "default": "武侦高中女生水手服",
+          "combat": "之前穿炫耀腋下的盔甲"
+        },
+        "voice_quality": {},
+        "distinctive": [
+          "银发",
+          "高傲气质",
+          "散发嫩草香的古龙水"
+        ]
+      },
+      "personality": {
+        "summary": "高傲的法国圣女后裔，实力强大的银冰魔女，但在伊·幽中自称战力最低。表面上冷酷高傲，但内心善良。与理子在伊·幽时是好友，互相传授能力（贞德教理子作战计划，理子教贞德变声术）。本卷中因司法交易被迫在武侦高中留学，主动向金次提供弗拉德的情报。",
+        "core_traits": [
+          "高傲",
+          "正直",
+          "一板一眼",
+          "重视礼仪"
+        ],
+        "values": [
+          "家族名誉",
+          "规则",
+          "忠诚"
+        ],
+        "desires": [
+          "完成司法交易"
+        ],
+        "strengths": [
+          "冰结弹",
+          "作战计划策画",
+          "伊·幽内部情报"
+        ],
+        "flaws": [
+          "不擅融入日本社会",
+          "画画极差（弗拉德的画像惨不忍睹）"
+        ],
+        "inner_conflict": "身为伊·幽成员却要向金次提供情报"
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {
+          "kinji": "远山"
+        },
+        "register": {
+          "normal": "法语腔调的日文"
+        },
+        "quote_samples": [
+          "我的战斗能力，是伊·幽里头最低下的。",
+          "理子比任何人都还要渴望变得更有能力。一心一意到，让人悲痛的程度……",
+          "那个怪物的事情，我用说的你也不会懂吧。我把他的样子画给你看。"
+        ]
+      },
+      "background": {
+        "birth": {
+          "place": "法国"
+        },
+        "education": {
+          "current": "巴黎武侦高中情报科二年级（东京武侦高中留学中）"
+        },
+        "formative_events": [
+          {
+            "event_id": "jeanne-vs-kinji-aria",
+            "summary": "上个月在地下仓库与金次和亚莉亚交战",
+            "sourceRef": "hidan-no-aria-main/vol-03/full.txt:3200"
+          }
+        ],
+        "pre_story": "作为魔剑绑架白雪，后被金次和亚莉亚联手击败，正在进行司法交易"
+      },
+      "abilities_owned": [
+        "ice-bullet",
+        "combat-planning"
+      ],
+      "relationships": {
+        "kinji": "former enemy turned informant",
+        "riko": "伊·幽时的好友",
+        "aria": "former enemy"
+      },
+      "knowledge": [
+        "vlad-weakpoints",
+        "e-iyu-truth"
+      ],
+      "summary": "贞德在本卷中因司法交易必须在武侦高中留学。在音乐室弹钢琴时主动找金次谈话，提供关于伊·幽和弗拉德的情报。告诉金次伊·幽的组织结构、理子被弗拉德监禁的过去、弗拉德的四个弱点以及他是不死之身的事实。虽然她画了一张极差的弗拉德画像，但情报本身是可靠的。",
+      "key_events": [
+        {
+          "event_id": "jeanne-info-kinji",
+          "summary": "向金次提供伊·幽和弗拉德的情报",
+          "sourceRef": "hidan-no-aria-main/vol-03/full.txt:3200"
+        },
+        {
+          "event_id": "jeanne-drawing",
+          "summary": "画了弗拉德的涂鸦",
+          "sourceRef": "hidan-no-aria-main/vol-03/full.txt:3800"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-03/chapters/ch-003-第三卷_蜂蜜色的陷阱_3弹_狼与蕾姬.txt:608",
+        "hidan-no-aria-main/vol-03/chapters/ch-003-第三卷_蜂蜜色的陷阱_3弹_狼与蕾姬.txt:1108"
+      ]
+    },
+    {
+      "period_id": "vol-06-main",
+      "volume": "vol-06",
+      "time": "第二学期开学后至校外教学前",
+      "label": "协助调查蕾姬履历与风声录音的情报科学生",
+      "name": {
+        "zh": "贞德·达尔克三十世",
+        "en": "Jeanne d'Arc 30th",
+        "jp": "ジャンヌ・ダルク30世"
+      },
+      "aliases": [
+        "贞德",
+        "银冰魔女"
+      ],
+      "titles": [
+        "东京武侦高中情报科学生",
+        "原伊·U成员"
+      ],
+      "gender": "女",
+      "species": "人类",
+      "occupation": "学生武侦；情报调查者",
+      "affiliation": "东京武侦高中情报科",
+      "status": {
+        "physical": "无伤",
+        "social": "网球社中受女生欢迎；作为金次外援调查蕾姬"
+      },
+      "abilities_owned": [
+        "jeanne-ice-magic",
+        "information-analysis"
+      ],
+      "possessions_owned": [
+        "zastava-cz100"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "协助者",
+          "status": "接受金次委托调查蕾姬"
+        },
+        "reki": {
+          "type": "调查对象",
+          "status": "查到她任务成功率百分百且可能在俄中执行无记录工作"
+        },
+        "misaki-nakasorachi": {
+          "type": "朋友/协作",
+          "status": "带金次去通信科请中空知分析声音"
+        }
+      },
+      "summary": "贞德本卷从情报科角度调查蕾姬，发现她任务成功率百分百、任务类型有限，且曾在俄中活动；同时建议金次用约会和送礼推进与蕾姬的人际关系。",
+      "key_events": [
+        {
+          "event_id": "reki-investigation-nakasorachi",
+          "summary": "向金次提供蕾姬履历调查，并引荐中空知分析风声录音。",
+          "sourceRef": "hidan-no-aria-main/vol-06/full.txt:3383"
+        },
+        {
+          "event_id": "jeanne-gift-advice",
+          "summary": "建议金次在校外教学时送蕾姬衣服等礼物。",
+          "sourceRef": "hidan-no-aria-main/vol-06/full.txt:3670"
+        }
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "hidan-no-aria-main/vol-06/chapters/ch-003-第六卷_绝对半径2051_3弹_校外教学.txt:447",
+        "hidan-no-aria-main/vol-06/chapters/ch-003-第六卷_绝对半径2051_3弹_校外教学.txt:734"
+      ]
+    },
+    {
+      "period_id": "vol-07-main",
+      "volume": "vol-07",
+      "time": "9月下旬",
+      "label": "火与风的华尔兹",
+      "name": {
+        "zh": "贞德·达鲁克30世",
+        "en": "Jeanne d'Arc 30th",
+        "jp": "ジャンヌ・ダルク30世"
+      },
+      "gender": "女性",
+      "species": "人类/超能力者",
+      "occupation": "东京武侦高中情报科学生",
+      "affiliation": "东京武侦高中/原伊·U/Go For The NEXT主持侧",
+      "status": {
+        "physical": "健康",
+        "mental": "冷静调查蕾姬身世并警告最后的子弹文化",
+        "social": "参与香苗再审证人协商，后在宣战会议中担任主持"
+      },
+      "summary": "贞德接到金次电话后确认眧眧不是伊·U狙击手，随后赶到星伽京都分社协助治疗蕾姬。她解释乌鲁斯族、抢婚与最后子弹习俗，并提醒金次蕾姬可能自尽。结尾她以正式书信邀请金次到空地岛，主持Go For The NEXT宣战会议。",
+      "abilities_owned": [
+        "ice-magic",
+        "intelligence-analysis"
+      ],
+      "possessions_owned": [
+        "durandal"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "informant/ally",
+          "summary": "提供乌鲁斯与最后子弹情报并召集其参加宣战会议"
+        },
+        "reiki": {
+          "type": "investigator",
+          "summary": "调查并解释蕾姬乌鲁斯血统"
+        },
+        "aria": {
+          "type": "legal_ally",
+          "summary": "为香苗再审相关证言进行准备"
+        }
+      },
+      "knowledge": [
+        "reki-urus-princess",
+        "reki-last-bullet-truth",
+        "go-for-next"
+      ],
+      "key_events": [
+        {
+          "event_id": "urus-riri-revelation",
+          "summary": "说明乌鲁斯族、抢婚与最后子弹",
+          "sourceRef": "hidan-no-aria-main/vol-07/full.txt:740"
+        },
+        {
+          "event_id": "go-for-next-conference",
+          "summary": "以邀请函召金次到空地岛并主持宣战会议",
+          "sourceRef": "hidan-no-aria-main/vol-07/full.txt:6500"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-07/chapters/ch-001-第七卷_火与风的华尔兹_1弹_状况E8.txt:143",
+        "hidan-no-aria-main/vol-07/chapters/ch-001-第七卷_火与风的华尔兹_1弹_状况E8.txt:740",
+        "hidan-no-aria-main/vol-07/chapters/ch-005-第七卷_火与风的华尔兹_Go_For_The_NEXT!宣战会议.txt:28"
+      ]
+    },
+    {
+      "period_id": "vol-08-main",
+      "volume": "vol-08",
+      "time": "秋季",
+      "label": "钻研派余党与师团大使",
+      "name": {
+        "zh": "贞德·达鲁克",
+        "en": "Jeanne d'Arc"
+      },
+      "aliases": [
+        "贞德",
+        "银冰魔女"
+      ],
+      "titles": [
+        "伊·U钻研派余党",
+        "师团大使",
+        "东京武侦高中学生"
+      ],
+      "gender": "女性",
+      "species": "人类/超能力者",
+      "nationality": "法国",
+      "occupation": "武侦高中学生/师团参战者",
+      "affiliation": "伊·U钻研派余党/师团/东京武侦高中",
+      "status": {
+        "physical": "追踪希尔达后全身肌腱受电击伤害，约半个月无法参战",
+        "mental": "严肃强硬，但私下憧憬萝莉服装并害怕秘密曝光",
+        "social": "主持宣战会议并成为金次获取战役情报的关键盟友"
+      },
+      "appearance": {
+        "overview": "银发高挑少女，常穿重甲或武侦制服；私下收藏大量轻飘洋装",
+        "attire": {
+          "default": "武侦高中制服",
+          "combat": "重甲、杜兰朵",
+          "private": "女仆服与萝莉洋装"
+        },
+        "distinctive": [
+          "冰蓝眼眸",
+          "银发",
+          "秘密服装收藏"
+        ]
+      },
+      "personality": {
+        "summary": "贞德作为伊·U钻研派余党主持宣战会议，宣布加入师团。她追踪眷属并被希尔达电伤，之后在与中空知同住的房间里向金次提供华生情报；严肃外表下有强烈少女服装憧憬。",
+        "core_traits": [
+          "冷静",
+          "责任感强",
+          "自尊高",
+          "隐藏少女趣味"
+        ],
+        "strengths": [
+          "冰魔法",
+          "战役规则知识",
+          "调查力",
+          "杜兰朵剑术"
+        ],
+        "flaws": [
+          "羞于暴露私人喜好",
+          "受伤后战力短期下降"
+        ],
+        "inner_conflict": "以战士与大使身份行动，却渴望更可爱的少女形象。"
+      },
+      "abilities_owned": [
+        "jeanne-ice-magic",
+        "diamond-dust-smoke"
+      ],
+      "possessions_owned": [
+        "durandal-sword",
+        "cz100-pistol"
+      ],
+      "relationships": {
+        "kinji": "ally；向其说明极东战役并协助监听华生",
+        "nakasorachi": "roommate/ally；委托她窃听华生与亚莉亚",
+        "aria": "ally；暂时隐瞒战役真相以免其主动出击",
+        "hilda": "enemy；与其交战后被电击伤害",
+        "meiya-romano": "ally；同属师团但风格差异明显"
+      },
+      "knowledge": [
+        "far-east-warfare-rules",
+        "watson-holmes-engagement"
+      ],
+      "summary": "贞德在空地岛宣告极东战役的规则，并代表伊·U钻研派余党加入师团。她之后追踪希尔达受伤，回到与中空知同住的第三女生宿舍；金次拜访时撞见她的秘密服装收藏。随后她调查华生，借中空知的音响侦查帮助金次追踪亚莉亚。",
+      "key_events": [
+        {
+          "event_id": "declaration-war-conference",
+          "summary": "主持宣战会议并宣布极东战役规则",
+          "sourceRef": "hidan-no-aria-main/vol-08/full.txt:3"
+        },
+        {
+          "event_id": "kinji-visits-jeanne",
+          "summary": "金次在中空知带领下拜访受伤的贞德并发现其秘密收藏",
+          "sourceRef": "hidan-no-aria-main/vol-08/full.txt:5700"
+        },
+        {
+          "event_id": "nakasorachi-wiretaps-watson",
+          "summary": "委托中空知监听华生与亚莉亚会谈",
+          "sourceRef": "hidan-no-aria-main/vol-08/full.txt:5985"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-08/chapters/ch-001-第八卷_螺旋的天空树_1弹_乱世之宵.txt:3",
+        "hidan-no-aria-main/vol-08/chapters/ch-004-第八卷_螺旋的天空树_4弹_高度350公尺的螺旋.txt:224",
+        "hidan-no-aria-main/vol-08/chapters/ch-004-第八卷_螺旋的天空树_4弹_高度350公尺的螺旋.txt:509"
+      ]
+    }
+  ]
+}

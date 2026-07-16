@@ -1,0 +1,52 @@
+{
+  "schema": "tm-tsukihime-packet-audit-rerun-stage2-gate-v1",
+  "packetId": "true-ancestor-arcueid",
+  "stage": "stage-2-gate-evidence-rerun-r55-fix",
+  "role": "Auditor rerun",
+  "status": "passed-with-nonblocking-risks",
+  "generatedAt": "2026-07-15",
+  "boundedValidation": {
+    "readOnlyInputs": [
+      "extracted/profile-supplement/true-ancestor-arcueid/index.json",
+      "normalized/profile-supplement/true-ancestor-arcueid/index.json",
+      "audit/packet-audits/true-ancestor-arcueid/generation-report.json",
+      "audit/packet-audits/true-ancestor-arcueid/final-status.json"
+    ],
+    "checksPerformed": [
+      "Confirmed generator report records 23 extracted records, 14 normalized output files, mandatory surface coverage, not-found records, and candidate-only items.",
+      "Confirmed normalized index enumerates entity, systems, appearance, outfit-equipment, abilities, combat-effects, relationships, timeline fragments, candidates, and not-found-in-source outputs.",
+      "Confirmed candidate-only handling for Archetype Earth, light body, berserk Arcueid, Ciel interpersonal edge, Merem relationship, calendar dates, and Type Lumina labels.",
+      "Confirmed forbidden aggregate basename checks returned no characters.json, events.json, relationships.json, facts.json, graph.json, or timeline.json."
+    ],
+    "factsChanged": false,
+    "candidateOnlyPolicyChanged": false,
+    "sourceGapPolicyChanged": false
+  },
+  "openIssues": 0,
+  "blockedIssues": 0,
+  "canAdvance": true,
+  "requiredFixes": [],
+  "blockedIssueList": [],
+  "openIssueList": [],
+  "nonblockingRisks": [
+    {
+      "riskId": "true-ancestor-source-excerpt-limitation",
+      "classification": "source limitation",
+      "detail": "Packet evidence is based on Stage 1 worldbook/profile excerpts, not official script text."
+    },
+    {
+      "riskId": "true-ancestor-form-label-candidates",
+      "classification": "nonblocking risk",
+      "detail": "Form and alias labels such as Archetype Earth, light body, berserk Arcueid, and Type Lumina continuity labels remain candidate-only/source-gap until direct source reads support formal records."
+    }
+  ],
+  "findings": [],
+  "evidenceRefs": {
+    "generationReport": "audit/packet-audits/true-ancestor-arcueid/generation-report.json",
+    "extractedIndex": "extracted/profile-supplement/true-ancestor-arcueid/index.json",
+    "normalizedIndex": "normalized/profile-supplement/true-ancestor-arcueid/index.json",
+    "notFoundRecords": "normalized/profile-supplement/true-ancestor-arcueid/not-found/mandatory-surfaces-not-found.json",
+    "targetedChecks": ["find pilot for forbidden basenames"]
+  },
+  "decision": "Packet gate evidence validates with nonblocking source and candidate-label limitations recorded."
+}

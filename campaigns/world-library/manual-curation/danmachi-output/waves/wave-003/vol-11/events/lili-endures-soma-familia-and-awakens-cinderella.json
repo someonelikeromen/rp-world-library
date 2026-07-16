@@ -1,0 +1,47 @@
+{
+  "_schema": "rp-event-volume-v1",
+  "world": "danmachi",
+  "event_id": "lili-endures-soma-familia-and-awakens-cinderella",
+  "volume": "vol-11",
+  "periods": [
+    {
+      "period_id": "vol-11-bd3",
+      "volume": "vol-11",
+      "time": "BD3短篇 灰姑娘",
+      "name": {
+        "zh": "莉莉在苏摩眷族受难并觉醒灰姑娘",
+        "en": "Lili Endures Soma Familia and Awakens Cinderella"
+      },
+      "type": "backstory",
+      "location": "欧拉丽、苏摩眷族本部、地下城、雨中小巷",
+      "summary": "莉莉出生在宙斯与赫拉眷族败退后的混乱欧拉丽，被沉溺神酒的父母当作乞讨工具。父母死后，苏摩曾默默给饥饿的她炸薯球并让她在神室睡下，但桑尼斯上台后用偷来的神酒支配团员，莉莉也一度被酒俘虏。她在地下城和支援者工作中被眷族与冒险者剥削，逃离后又连累收留她的老夫妇花店被毁并被拒绝，最终彻底失望。十三岁时莉莉觉醒变身魔法【灰姑娘】，开始伪装成妖精支援者盗取冒险者财物，并在后来把贝尔视作下一个猎物。",
+      "cause": "苏摩眷族以神酒和赚钱竞争扭曲成员，幼小莉莉缺乏家庭、庇护与退团自由。",
+      "process": "莉莉从乞讨、地下城冒险者、支援者到逃亡者不断被压榨；桑尼斯和卡努等人以金钱和暴力控制她，她为退团金与自保学会偷盗。",
+      "outcome": "莉莉形成对冒险者的憎恨和欺骗手段，借【灰姑娘】复仇并将贝尔卷入自己的计划。",
+      "participants": [
+        "liliruca-arde",
+        "soma",
+        "zanis-lustra",
+        "bell-cranel"
+      ],
+      "related_events": [],
+      "significance": "揭示莉莉厌恶冒险者、执着退团金与使用变身魔法行骗的根源。",
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-11/full.txt:1025-1566"
+      ]
+    }
+  ],
+  "source_refs": [
+    "danmachi-main/vol-11/full.txt:1025-1566"
+  ],
+  "_revisions": [
+    {
+      "type": "fix",
+      "description": "收敛事件 participants 至本卷已建角色档案，移除未建档的背景/旁观/可跨卷补充角色，降低 dangling reference 风险。",
+      "source_refs": [
+        "danmachi-main/vol-11/full.txt:1-3374"
+      ]
+    }
+  ]
+}

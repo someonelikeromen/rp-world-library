@@ -1,0 +1,23 @@
+{
+  "schema": "tm-p1-wave-index-v1",
+  "waveId": "wave-007",
+  "name": "Locations",
+  "status": "passed",
+  "agent": { "model": "lt-yuyu/gpt-5.5" },
+  "sourceRefs": [
+    "type-moon-nasuverse/story-text/fate/ch-002-fate-route.txt",
+    "type-moon-nasuverse/story-text/fate/ch-003-ubw-route.txt",
+    "type-moon-nasuverse/story-text/fate/ch-004-hf-route.txt",
+    "type-moon-nasuverse/worldbook-text/src-fate-zero.md"
+  ],
+  "outputs": {
+    "locations": ["output/locations.json"],
+    "candidates": ["output/location-candidates.json"]
+  },
+  "reports": {
+    "generation": "reports/generation-report.json",
+    "latestAudit": "reports/audit-round-002.json",
+    "latestFix": "reports/fix-round-001.json",
+    "finalStatus": "reports/final-status.json"
+  }
+}

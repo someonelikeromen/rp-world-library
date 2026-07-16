@@ -1,0 +1,144 @@
+{
+  "_schema": "world-library.character.v1",
+  "world": "hidan-no-aria",
+  "character_id": "emaki",
+  "volume": "vol-37",
+  "periods": [
+    {
+      "period_id": "vol-37",
+      "name": "艾马基",
+      "aliases": [
+        "白色大型犬",
+        "狼"
+      ],
+      "gender": "unknown",
+      "species": "wolf-like animal companion",
+      "status": "alive; accompanies Reki in Mumbai",
+      "affiliations": [
+        "reki"
+      ],
+      "locations": [
+        "taj-mahal-palace-hotel"
+      ],
+      "abilities_owned": [
+        "animal-senses"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "reki": {
+          "type": "companion",
+          "status": "stays in Reki's hotel room and follows her schedule",
+          "sourceRef": "hidan-no-aria-main/vol-37/full.txt:560"
+        },
+        "lisa-ave-du-ange": {
+          "type": "beast rapport",
+          "status": "rests near Lisa during Reunion",
+          "sourceRef": "hidan-no-aria-main/vol-37/full.txt:1090"
+        }
+      },
+      "key_events": [
+        {
+          "event_id": "reki-ruriirokane-observation",
+          "role": "Reki's animal companion in the hotel",
+          "sourceRef": "hidan-no-aria-main/vol-37/full.txt:560"
+        }
+      ],
+      "notes": "Included as an animal companion because other extracted relationships refer to it.",
+      "sourceRef": "hidan-no-aria-main/vol-37/chapters/ch-001-第三十七卷_第三个男人_1弹_不用害怕，亲爱的孩子.txt:560"
+    },
+    {
+      "period_id": "vol-38",
+      "volume": "vol-38",
+      "time": "本卷开头",
+      "label": "北极星同行",
+      "name": {
+        "zh": "艾马基",
+        "en": "Emaki",
+        "jp": "エマキ"
+      },
+      "aliases": [],
+      "titles": [],
+      "gender": "雄性",
+      "species": "犬科（风之眷属）",
+      "nationality": "",
+      "occupation": "蕾姬的搭档动物",
+      "affiliation": "蕾姬",
+      "status": {
+        "physical": "健康",
+        "mental": "",
+        "location": "孟买→日本"
+      },
+      "appearance": {
+        "overview": "背着Zero Halliburton行李箱的狼，与蕾姬一同乘北极星。",
+        "physical": {},
+        "attire": {},
+        "voice_quality": {},
+        "distinctive": []
+      },
+      "personality": {
+        "summary": "在北极星上与金次挤在货物架下方空间。是公的，因此无法引发金次的爆发模式。",
+        "core_traits": [
+          "忠诚"
+        ],
+        "values": [],
+        "fears": [],
+        "desires": [],
+        "strengths": [],
+        "flaws": [],
+        "inner_conflict": "",
+        "decision_pattern": {}
+      },
+      "voice": {
+        "self_reference": "",
+        "address_pattern": {},
+        "register": "",
+        "catchphrases": [],
+        "quote_samples": []
+      },
+      "habits": {
+        "mannerisms": [],
+        "daily_routine": "",
+        "quirks": [],
+        "preferences": {}
+      },
+      "background": {
+        "birth": {
+          "place": "",
+          "family": []
+        },
+        "upbringing": "",
+        "education": {},
+        "formative_events": [],
+        "pre_story": ""
+      },
+      "abilities_owned": [],
+      "possessions_owned": [
+        "zero-floatplane-fragment"
+      ],
+      "relationships": {
+        "reki": {
+          "type": "主人",
+          "status": "搭档"
+        },
+        "kinji": {
+          "type": "同行者",
+          "status": "在北极星上一起挤在下方空间"
+        }
+      },
+      "knowledge": [],
+      "secrets": [],
+      "summary": "蕾姬的搭档狼，乘北极星从孟买回国。在金次因无法接触女性进入爆发模式时，因为是公的无法帮助。",
+      "key_events": [
+        {
+          "event_id": "kinji-polestar-return",
+          "summary": "乘北极星同行。",
+          "sourceRef": "hidan-no-aria-main/vol-38/full.txt:357"
+        }
+      ],
+      "evidence_level": "B",
+      "source_refs": [
+        "hidan-no-aria-main/vol-38/chapters/ch-001-第三十八卷_不会忘记爱_1弹_最后的线.txt:357"
+      ]
+    }
+  ]
+}

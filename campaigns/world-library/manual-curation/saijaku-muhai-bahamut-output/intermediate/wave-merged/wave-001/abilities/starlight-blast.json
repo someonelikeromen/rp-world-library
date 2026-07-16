@@ -1,0 +1,123 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "starlight-blast",
+  "volume": "vol-03",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-03/full.txt:2451"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-03",
+      "volume": "vol-03",
+      "time": "校内选拔战与波赛顿战",
+      "name": {
+        "zh": "星光爆破",
+        "en": "Starlight Blast"
+      },
+      "aliases": [
+        "星之光弹",
+        "凛德龙虫主炮"
+      ],
+      "type": "technology / combat",
+      "description": "凛德龙虫肩部特殊炮击，将蓄积能量压缩为名为星的光弹，数秒后以光弹为中心产生大范围爆炸。",
+      "details": {
+        "weapon": "starblast-cannon",
+        "blast_radius": "演习场中约半径三百公尺级，可调节威力避免波及观众。"
+      },
+      "activation": {
+        "condition": "肩部炮身充能发射压缩光弹",
+        "incantation": "星光爆破",
+        "time": "数秒延迟爆炸",
+        "cost": "高能量消耗"
+      },
+      "effects": [
+        "大范围爆炎与冲击波",
+        "迫使敌方耗尽障壁能量",
+        "可从目标内部爆破"
+      ],
+      "power_level": {
+        "initial": "击倒莉夏和库露露席法搭档",
+        "peak": "零距离射入波赛顿口中后发动重击",
+        "evolution": []
+      },
+      "known_feats": [
+        "校内战轰炸约八成演习场",
+        "波赛顿战中配合雷光穿枪从内外夹击"
+      ],
+      "shared_by": [
+        "celistia-ralgris"
+      ],
+      "see_also": [
+        "starblast-cannon",
+        "heavy-strike"
+      ],
+      "countered_by": [
+        "提前逃出范围",
+        "高功率障壁消耗防御"
+      ],
+      "counters": [
+        "集群敌人",
+        "大体型目标"
+      ],
+      "variations": [
+        "范围轰炸",
+        "零距离内爆"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-03/full.txt:2451",
+        "saijaku-muhai-bahamut-main/vol-03/full.txt:5379"
+      ]
+    },
+    {
+      "period_id": "vol-04",
+      "volume": "vol-04",
+      "time": "vol-04 final battle",
+      "name": {
+        "zh": "星光爆破",
+        "en": "Starlight Blast"
+      },
+      "aliases": [],
+      "type": "combat / technology",
+      "description": "凛德龙虫使用的广范围轰炸光弹。本卷赛莉丝用以轰击尤克特拉希尔树干，使其一度烧焦折断。",
+      "details": {
+        "drag_ride": "lindwurm",
+        "user": "celistia-ralgris"
+      },
+      "activation": {
+        "condition": "凛德龙虫装备中发射",
+        "incantation": "",
+        "time": "短时轰炸",
+        "cost": "机龙能量"
+      },
+      "effects": [
+        "大范围光弹爆破",
+        "烧毁敌方组织"
+      ],
+      "power_level": {
+        "initial": "高火力轰炸",
+        "peak": "一度重创尤克特拉希尔表层",
+        "evolution": []
+      },
+      "known_feats": [
+        "最终战中击中尤克特拉希尔树干"
+      ],
+      "shared_by": [
+        "celistia-ralgris"
+      ],
+      "see_also": [
+        "yggdrasil-rapid-evolution"
+      ],
+      "countered_by": [
+        "yggdrasil-rapid-evolution"
+      ],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-04/full.txt:5895"
+      ]
+    }
+  ]
+}

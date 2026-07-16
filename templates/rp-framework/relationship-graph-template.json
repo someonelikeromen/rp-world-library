@@ -1,0 +1,38 @@
+{
+  "schema": "rp-relationship-graph-v1",
+  "worldId": "",
+  "nodes": [
+    {
+      "id": "",
+      "label": "",
+      "type": "character / faction / organization / family / party / contract / location / item",
+      "characterRef": "",
+      "factionRef": ""
+    }
+  ],
+  "edges": [
+    {
+      "from": "",
+      "to": "",
+      "types": [],
+      "dimensions": {
+        "trust": { "level": "none", "notes": "" },
+        "suspicion": { "level": "none", "notes": "" },
+        "affection": { "level": "none", "notes": "" },
+        "fear": { "level": "none", "notes": "" },
+        "debt": { "level": "none", "notes": "" },
+        "loyalty": { "level": "none", "notes": "" },
+        "rivalry": { "level": "none", "notes": "" }
+      },
+      "summary": "",
+      "visibility": "public / private / gm-only",
+      "evidenceLevel": "B",
+      "sourceRefs": [],
+      "notes": ""
+    }
+  ],
+  "indices": {
+    "byCharacter": {},
+    "byFaction": {}
+  }
+}

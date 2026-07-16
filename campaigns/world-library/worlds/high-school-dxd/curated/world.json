@@ -1,0 +1,163 @@
+{
+  "schema": "rp-world-v1",
+  "worldId": "high-school-dxd",
+  "worldName": "恶魔高校DxD (High School DxD)",
+  "genre": ["action", "supernatural", "harem", "comedy", "ecchi", "romance"],
+  "summary": "现代日本✕超自然战斗✕后宫喜剧。圣经之神已死，天使、堕天使、恶魔三大势力停战维持脆弱和平。主角兵藤一诚原为普通高中生，被堕天使杀害后被上级恶魔莉雅丝·吉蒙里以恶魔棋子转生为眷属。他持有十三种神灭具之一的「赤龙帝的笼手」，在与各方势力的战斗中不断成长，建立后宫，成为冥界新一代英雄。世界融合了圣经、北欧、希腊、印度、日本、凯尔特、波斯等多神话体系，核心驱动为神灭具持有者间的冲突、排名游戏竞技、以及超越次元的龙神级威胁（Great Red、奥菲斯、666/Trihexa）。",
+  "sandboxPrinciple": "剧情不固定，角色行动与世界事件自然演化。可作为恶魔眷属、神器持有者、神话势力成员等身份切入。",
+  "hasFixedFate": false,
+  "foreignPowerSuppressionDefault": false,
+  "powerSystems": [
+    {
+      "id": "demonic-power",
+      "name": "恶魔之力",
+      "category": "innate-racial",
+      "principle": "恶魔种族固有的魔力，以想象力为催化剂将魔力转化为物理/元素现象。上级恶魔天生魔力量远超下级。可通过修炼和契约提升。",
+      "energySource": "internal-mana",
+      "hasExternalEnergy": false,
+      "energyTraits": ["想象力驱动", "种族固有", "阶级差异巨大", "可遗传"],
+      "levelMapping": [
+        { "localLevel": "下级恶魔", "description": "基础恶魔，魔力有限，普通人稍强的战斗力", "universalRange": { "rank": "N3", "minScore": 100, "maxScore": 500 }, "typicalAttributes": { "output": 10, "durability": 5 } },
+        { "localLevel": "中级恶魔", "description": "能使用多种恶魔魔法，熟练战斗", "universalRange": { "rank": "N4", "minScore": 500, "maxScore": 2000 }, "typicalAttributes": { "output": 30, "durability": 20 } },
+        { "localLevel": "上级恶魔", "description": "持有爵位的纯血恶魔，强大的魔力与战斗技巧", "universalRange": { "rank": "N6", "minScore": 2000, "maxScore": 8000 }, "typicalAttributes": { "output": 100, "durability": 80 } },
+        { "localLevel": "魔王级", "description": "四大魔王等级，可轻易毁灭城市乃至国家", "universalRange": { "rank": "N10", "minScore": 8000, "maxScore": 50000 }, "typicalAttributes": { "output": 500, "durability": 400 } },
+        { "localLevel": "超越魔王级", "description": "瑟杰克斯/阿邱卡等级别，远超普通魔王", "universalRange": { "rank": "N14", "minScore": 50000, "maxScore": 200000 }, "typicalAttributes": { "output": 2000, "durability": 1500 } }
+      ]
+    },
+    {
+      "id": "sacred-gear",
+      "name": "神器 (Sacred Gear)",
+      "category": "implanted-tool",
+      "principle": "圣经之神创造并植入人类灵魂的特殊能力具现。种类繁多，从普通的「Twice Critical」（力量倍增）到十三种神灭具。可通过强烈情感/意志实现「禁手（Balance Breaker）」——神器的进化形态。神灭具内部封印着强大存在（龙、魔兽等）。",
+      "energySource": "user-life-force",
+      "hasExternalEnergy": true,
+      "externalEnergyName": "封印存在（龙魂等）",
+      "energyTraits": ["灵魂绑定", "情感/意志触发", "可进化（禁手）", "封印存在可觉醒"],
+      "levelMapping": [
+        { "localLevel": "普通神器", "description": "Twice Critical等基础能力", "universalRange": { "rank": "N2", "minScore": 50, "maxScore": 300 }, "typicalAttributes": {} },
+        { "localLevel": "高级神器", "description": "魔剑创造、圣母的微笑等", "universalRange": { "rank": "N4", "minScore": 300, "maxScore": 1500 }, "typicalAttributes": {} },
+        { "localLevel": "神灭具·基础", "description": "Longinus基础形态", "universalRange": { "rank": "N6", "minScore": 1500, "maxScore": 8000 }, "typicalAttributes": {} },
+        { "localLevel": "神灭具·禁手", "description": "Longinus禁手形态", "universalRange": { "rank": "N10", "minScore": 8000, "maxScore": 50000 }, "typicalAttributes": {} },
+        { "localLevel": "神灭具·真姿态", "description": "Longinus真·禁手/霸龙/D×D", "universalRange": { "rank": "N16", "minScore": 50000, "maxScore": 500000 }, "typicalAttributes": {} }
+      ]
+    },
+    {
+      "id": "holy-power",
+      "name": "神圣之力",
+      "category": "innate-racial",
+      "principle": "天使族固有的神圣能量，对恶魔/黑暗生物有克制效果。由圣经之神遗留下的「系统」维持运作。天使通过虔诚和祈祷增强力量。堕天使的神圣之力腐化为黑暗圣力。",
+      "energySource": "divine-system",
+      "hasExternalEnergy": true,
+      "externalEnergyName": "圣经之神的系统",
+      "energyTraits": ["对恶魔克制", "系统维持", "虔诚增强", "可腐化（堕天）"],
+      "levelMapping": [
+        { "localLevel": "下级天使", "description": "普通天使", "universalRange": { "rank": "N3", "minScore": 100, "maxScore": 1000 }, "typicalAttributes": {} },
+        { "localLevel": "炽天使/大天使", "description": "米迦勒/加百列等", "universalRange": { "rank": "N10", "minScore": 5000, "maxScore": 30000 }, "typicalAttributes": {} }
+      ]
+    },
+    {
+      "id": "senjutsu",
+      "name": "仙术",
+      "category": "learned-technique",
+      "principle": "操纵生命能量「气」的技术。可用于强化自身、感知、治疗。仙术高级使用者可感知和操纵自然之气。与恶魔之力/龙之力结合产生特殊效果。",
+      "energySource": "internal-ki",
+      "hasExternalEnergy": true,
+      "externalEnergyName": "自然之气",
+      "energyTraits": ["生命能量操纵", "感知强化", "治疗", "可与魔力结合"],
+      "levelMapping": [
+        { "localLevel": "入门", "description": "基础气感与强化", "universalRange": { "rank": "N2", "minScore": 50, "maxScore": 500 }, "typicalAttributes": {} },
+        { "localLevel": "精通", "description": "气感知、千里眼、高级治疗", "universalRange": { "rank": "N5", "minScore": 500, "maxScore": 3000 }, "typicalAttributes": {} },
+        { "localLevel": "仙人级", "description": "斗战胜佛/初代孙悟空级", "universalRange": { "rank": "N12", "minScore": 5000, "maxScore": 50000 }, "typicalAttributes": {} }
+      ]
+    },
+    {
+      "id": "dragon-power",
+      "name": "龙之力",
+      "category": "innate-racial",
+      "principle": "龙族固有的压倒性能量。龙族是立于多神话体系之上的独立种族，拥有极其庞大的魔力和生命力。龙神级（Great Red、奥菲斯）的力量可创造/毁灭世界。",
+      "energySource": "internal-dragon-aura",
+      "hasExternalEnergy": false,
+      "energyTraits": ["极大量魔力", "生命力超强", "独立种族", "可增幅神器"],
+      "levelMapping": [
+        { "localLevel": "龙族", "description": "普通龙种", "universalRange": { "rank": "N8", "minScore": 3000, "maxScore": 15000 }, "typicalAttributes": {} },
+        { "localLevel": "龙王级", "description": "五大龙王", "universalRange": { "rank": "N12", "minScore": 10000, "maxScore": 50000 }, "typicalAttributes": {} },
+        { "localLevel": "天龙级", "description": "赤龙帝/白龙皇", "universalRange": { "rank": "N16", "minScore": 30000, "maxScore": 200000 }, "typicalAttributes": {} },
+        { "localLevel": "龙神级", "description": "Great Red/奥菲斯/666", "universalRange": { "rank": "N22", "minScore": 200000, "maxScore": 1000000 }, "typicalAttributes": {} }
+      ]
+    }
+  ],
+  "factions": [
+    { "id": "devil-underworld", "name": "恶魔/冥界", "type": "race-nation", "description": "由72柱纯血恶魔家族和新魔王政府统治的冥界社会。四大魔王（路西法、别西卜、利维坦、阿斯莫德）为最高行政长官。通过恶魔棋子将其他种族转生为眷属扩大势力。核心制度为排名游戏。主要家族：吉蒙里、西迪、巴力、阿加雷斯等。", "locations": ["underworld", "gremory-territory"] },
+    { "id": "heaven-angels", "name": "天界/天使", "type": "race-nation", "description": "由炽天使米迦勒领导的圣经三势力之一。神已死，依靠「系统」维持运作。无法增加天使数量，处于衰退中。与恶魔停战合作。", "locations": ["heaven"] },
+    { "id": "fallen-angels", "name": "堕天使", "type": "race-nation", "description": "从天界堕落的原天使。由总督阿撒塞勒领导。技术力强，研究神器。与恶魔/天使停战后转向科研。核心组织「神之子监视者」。", "locations": ["fallen-angel-territory"] },
+    { "id": "gremory-family", "name": "吉蒙里家族", "type": "devil-household", "description": "72柱公爵家之一。现任家主瑟杰克斯·吉蒙里（实为魔王路西法），继承人莉雅丝·吉蒙里。领地面积堪比日本本州。核心人物为莉雅丝及其眷属恶魔。", "locations": ["gremory-territory", "kuoh-town"] },
+    { "id": "khaos-brigade", "name": "祸之团", "type": "terrorist-organization", "description": "由无限龙神奥菲斯为首、聚集各势力离反者的恐怖组织。分多个派系：英雄派（曹操领导）、瓦利队、旧魔王派等。目标是颠覆现有秩序。", "locations": ["dimensional-gap"] },
+    { "id": "vali-team", "name": "瓦利队", "type": "independent-team", "description": "白龙皇瓦利·路西法领导的独立战斗团队。成员包括美猴、亚瑟·潘德拉刚、勒菲·潘德拉刚、黑歌等。原属祸之团，后独立行动。以战斗和变强为目的。", "locations": ["nomadic"] },
+    { "id": "hero-faction", "name": "英雄派", "type": "terrorist-faction", "description": "祸之团下属派系，由人类英雄/神灭具持有者曹操领导。成员包括格奥尔克、齐格飞、贞德等。主张人类至上，对抗神话势力。", "locations": ["dimensional-gap"] },
+    { "id": "norse-mythology", "name": "北欧神族", "type": "mythology-pantheon", "description": "以北欧主神奥丁为首的北欧神话势力。与圣经三势力有外交关系。主要战力：奥丁、女武神（罗丝薇瑟等）、雷神托尔、恶神洛基、芬里尔等。", "locations": ["asgard", "norse-realms"] },
+    { "id": "greek-mythology", "name": "希腊神族", "type": "mythology-pantheon", "description": "以奥林匹斯为中心的希腊神话势力。宙斯、哈迪斯、波塞冬为三柱神。哈迪斯曾与祸之团合作对抗恶魔。", "locations": ["olympus", "underworld-greek"] },
+    { "id": "japanese-mythology", "name": "日本神道/妖怪势力", "type": "mythology-pantheon", "description": "以京都为中心的日本本土势力。由九尾狐八坂率领妖怪势力。包括妖怪、神道众神。与恶魔有外交关系，京都妖怪与吉蒙里家有合作。", "locations": ["kyoto"] },
+    { "id": "hindu-mythology", "name": "印度神话势力", "type": "mythology-pantheon", "description": "印度神族，战力极强。主神湿婆、毗湿奴、梵天。被视为最强神话势力之一。帝释天（因陀罗）亦属此体系。", "locations": ["hindu-realm"] },
+    { "id": "sitri-family", "name": "西迪家族", "type": "devil-household", "description": "72柱公爵家之一。继承人支取苍那（索娜·西迪）。以学术和策略著称，眷属组成学生会。与吉蒙里家是盟友/竞争对手。", "locations": ["kuoh-town"] },
+    { "id": "old-satan-faction", "name": "旧魔王派", "type": "rebel-faction", "description": "由旧四大魔王的后裔组成的反政府势力。主张恢复旧恶魔体制。成员包括夏尔巴·别西卜等。与祸之团合作。", "locations": ["underworld-hidden"] }
+  ],
+  "energyEnvironment": {
+    "baseType": "mixed-mythological",
+    "ambientFactors": [
+      { "id": "demonic-mana", "name": "恶魔魔力", "source": "恶魔族/冥界", "intensity": "冥界极高，人间稀薄" },
+      { "id": "holy-light", "name": "神圣光辉", "source": "天使/天界/圣经之神的系统", "intensity": "天界极高，教堂/圣地中等" },
+      { "id": "natural-ki", "name": "自然之气", "source": "地球生命能量", "intensity": "自然界广泛存在，仙术使用者可感知" },
+      { "id": "dragon-aura", "name": "龙气", "source": "龙族", "intensity": "龙族存在处极高，次元间隙最强" }
+    ],
+    "interactions": [
+      "恶魔之力与神圣之力互相克制",
+      "龙之力可增幅所有能量类型",
+      "仙术气可与恶魔魔力兼容（小猫的仙术+恶魔化）",
+      "堕天使的暗黑圣力对恶魔毒性较弱于纯神圣之力"
+    ],
+    "suppressionDefault": false
+  },
+  "locations": [
+    { "id": "kuoh-town", "name": "驹王镇", "type": "town", "description": "日本某地的普通城镇，实为吉蒙里家在日本的重要据点。镇上有驹王学园（神秘学研究社的据点）、旧校舍、兵藤家等。表面和平，暗流涌动。", "factions": ["gremory-family", "sitri-family"] },
+    { "id": "underworld", "name": "冥界", "type": "dimension", "description": "恶魔与堕天使的故乡，与人间同样广阔但没有海洋的异次元空间。天空永远是诡异的紫色。由各恶魔家族分治。主要交通为魔力驱动的列车。", "factions": ["devil-underworld"] },
+    { "id": "gremory-territory", "name": "吉蒙里领地", "type": "territory", "description": "吉蒙里公爵家的领地，面积堪比日本本州。境内有广阔的森林、山脉，宏伟的城堡和别馆。", "factions": ["gremory-family"] },
+    { "id": "heaven", "name": "天界", "type": "dimension", "description": "由圣经之神创造的、充满神圣气息与光芒的最高层维度。天使们的居所，秩序与和平的象征。", "factions": ["heaven-angels"] },
+    { "id": "dimensional-gap", "name": "次元间隙", "type": "dimension", "description": "存在于各世界夹缝中的虚无空间。是无限龙神奥菲斯和伟大之赤（Great Red）的故乡与战场。也是祸之团的据点。", "factions": ["khaos-brigade"] },
+    { "id": "kyoto", "name": "京都", "type": "city", "description": "日本古都，日本妖怪势力的核心。由九尾狐八坂统率。与吉蒙里家有同盟关系。", "factions": ["japanese-mythology"] },
+    { "id": "asgard", "name": "阿斯加德", "type": "realm", "description": "北欧神族的居城，以世界树为中心的领域。由主神奥丁统治。", "factions": ["norse-mythology"] },
+    { "id": "olympus", "name": "奥林匹斯", "type": "realm", "description": "希腊神族的领域。三柱神（宙斯、哈迪斯、波塞冬）各自管辖不同区域。", "factions": ["greek-mythology"] }
+  ],
+  "timelines": [
+    { "id": "great-war", "label": "三大势力战争", "era": "远古-约500年前", "description": "天使、堕天使、恶魔三方的大规模战争。圣经之神与四大魔王在战争中陨落。战争以三方停战协定结束，但三方均元气大伤。", "events": ["biblical-god-death", "four-satans-death"] },
+    { "id": "post-war-era", "label": "战后重建期", "era": "约500年前-现代", "description": "三方停战后重建。恶魔建立新魔王制度和排名游戏体系。天使依靠系统维持。堕天使转向科研。", "events": ["rating-game-established", "evil-pieces-system"] },
+    { "id": "main-story", "label": "主线剧情期", "era": "现代（一诚高中时期）", "description": "兵藤一诚成为恶魔后的冒险。从莉雅丝眷属起步，经历与堕天使、祸之团、英雄派、北欧恶神、冥界哈迪斯等势力的战斗，最终面对次元级威胁。", "events": ["issei-rebirth", "peace-conference", "hero-faction-war", "loki-conflict", "hades-war", "trihexa-seal"] }
+  ],
+  "publicEvents": [
+    { "id": "issei-rebirth", "name": "一诚转生", "type": "story-start", "description": "高中二年级生兵藤一诚被堕天使丽娜丽杀害后，被莉雅丝·吉蒙里以恶魔棋子（8枚Pawn）转生为恶魔眷属，成为「赤龙帝的笼手」持有者。", "timelineRef": "main-story" },
+    { "id": "peace-conference", "name": "三方和谈", "type": "political", "description": "天使、堕天使、恶魔三方在驹王学园举行和平会议。祸之团袭击会场，一诚与瓦利首次激战。和谈最终成功，三方建立合作关系。", "timelineRef": "main-story" },
+    { "id": "rating-game-debut", "name": "排名游戏初战", "type": "competition", "description": "吉蒙里眷属vs菲尼克斯眷属的正式排名游戏。一诚在战斗中觉醒「赤龙帝的笼手」禁手，逆转战局。", "timelineRef": "main-story" },
+    { "id": "hero-faction-war", "name": "英雄派战争", "type": "battle", "description": "祸之团英雄派（曹操等人）攻击各势力。一诚、瓦利、各神话势力联合对抗英雄派。一诚在与曹操战斗中觉醒真·禁手（Cardinal Crimson Promotion）。", "timelineRef": "main-story" },
+    { "id": "trihexa-seal", "name": "666封印战", "type": "apocalyptic", "description": "兽皇666（Trihexa）苏醒。各神话势力主力联合将其封印于隔离空间，多位强者困入其中进行永续战斗。一诚以D×D形态参与战役。", "timelineRef": "main-story" }
+  ],
+  "hiddenEvents": [
+    { "id": "biblical-god-death", "name": "圣经之神之死", "type": "historical-hidden", "description": "在三大势力战争期间，圣经之神与四大魔王同归于尽。此事实对普通人类信徒保密。天使靠神遗留的「系统」维持运作。", "publicKnowledge": false },
+    { "id": "ophis-manipulation", "name": "奥菲斯被操纵", "type": "conspiracy", "description": "祸之团英雄派利用无限龙神奥菲斯渴望回到次元间隙的愿望操纵她。奥菲斯实际上被英雄派利用而非真正的领导者。", "publicKnowledge": false },
+    { "id": "exe-world", "name": "ExE异世界", "type": "secret-invasion", "description": "来自异世界的机械生命体Evie和ExE势力。后期威胁，在23卷后正式登场。由「罗伊根·贝尔芬格」和「鬼神」率领。", "publicKnowledge": false }
+  ],
+  "rules": [
+    { "id": "evil-pieces", "name": "恶魔棋子（Evil Pieces）系统", "description": "由阿邱卡·别西卜发明的转生系统。高级恶魔可用棋子将其他种族转生为恶魔眷属。1组15枚：King(1)、Queen(1)、Rook(2)、Knight(2)、Bishop(2)、Pawn(8)。每个棋子的价值取决于转生者的潜在能力。Pawn在敌方阵地可升变为其他棋子（升变规则）。", "authority": "devil-underworld" },
+    { "id": "rating-game", "name": "排名游戏（Rating Game）", "description": "恶魔社会的核心竞技/政治制度。恶魔眷属间在异空间战场进行战术对抗，击倒敌方King为胜利。结果影响恶魔爵位和领地。分为正式排名游戏和非正式练习赛。", "authority": "devil-underworld" },
+    { "id": "sacred-gear-mechanics", "name": "神器机制", "description": "神器寄宿于持有者灵魂中，通过强烈情感或意志触发。可通过修炼达到「禁手（Balance Breaker）」——神器的进化形态。神灭具级可达到「真·禁手」乃至「霸龙」形态。神器不可移除（除非持有者死亡）。", "authority": "universal" },
+    { "id": "three-faction-peace", "name": "三方和平协定", "description": "天使、堕天使、恶魔三方的正式和平条约。禁止三方间的大规模军事行动。设立联合应对机制处理超越三方的威胁（如祸之团）。", "authority": "biblical-three" },
+    { "id": "mythological-non-interference", "name": "神话不干涉原则", "description": "各神话体系间默认互不干涉内政。重大事件需通过外交渠道沟通。但无强制性执行机制——实力强者可无视。", "authority": "all-mythologies" }
+  ],
+  "extensions": {
+    "noblePhantasms": false,
+    "servantClasses": false,
+    "commandSeals": false,
+    "sacredGearTypes": true,
+    "longinus13": true,
+    "dragonTypes": true,
+    "mythologyPantheons": true
+  }
+}

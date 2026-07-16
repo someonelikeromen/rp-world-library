@@ -1,0 +1,16 @@
+{
+  "schema": "tm-fgo-normalized-provenance-v1",
+  "chapterId": "fgo-eor-salem",
+  "packetId": "pkt-fgo-eor-salem-extract",
+  "model": "lt-yuyu/gpt-5.5",
+  "sourceFirstProtocol": {
+    "formalFactInputs": ["sources/worldbook-script/eor/ch-092-salem.txt", "work-packets/eor/salem.json"],
+    "excludedAsFormalFactInputs": ["summary worldbook outside line-addressable source", "character-profile supplement", "old curated", "engine/ejs/mvu rules", "model memory", "wiki knowledge", "game recollection"],
+    "system判定Handling": "Stored only as stage-characters engineInstructionRefs."
+  },
+  "validationSummary": {"eventRange":"事件A-事件L","eventsExtracted":12,"dialogueRefs":21,"appearanceLayer":true,"abilityLayer":true,"combatEffectLayer":true,"notFoundRecords":true,"mergeRun":false},
+  "sourceRefs": [{"path":"sources/worldbook-script/eor/ch-092-salem.txt","lineStart":1,"lineEnd":83}],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

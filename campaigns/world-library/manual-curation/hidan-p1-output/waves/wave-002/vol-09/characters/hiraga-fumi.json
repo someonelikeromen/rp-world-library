@@ -1,0 +1,56 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "character",
+  "entityId": "hiraga-fumi",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-09",
+  "periods": [
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:3895",
+        "hidan-no-aria-main/vol-09/full.txt:6869"
+      ],
+      "snapshot": {
+        "name": "平贺文",
+        "aliases": [
+          "平贺同学",
+          "装备科技师",
+          "小文"
+        ],
+        "gender": "女",
+        "status": "存活；文化祭中被兰豹投入厨房，金次仍欠她大蛇左手费用",
+        "role": "装备科学生；金次装备改造者；文化祭配角",
+        "affiliations": [
+          "东京武侦高中",
+          "装备科"
+        ],
+        "abilities_owned": [
+          "weapon-modification",
+          "mechanical-engineering"
+        ],
+        "possessions_owned": [],
+        "equipment": [
+          "酒店小姐装扮",
+          "大蛇改造债权"
+        ],
+        "relationships": [
+          {
+            "target": "kinji",
+            "type": "装备提供者/债权人",
+            "detail": "金次在卷末寻找民间委托，目的之一是筹钱支付大蛇左手费用给平贺。"
+          },
+          {
+            "target": "mutou",
+            "type": "厨房搭档",
+            "detail": "文化祭中被兰豹扔进厨房后与武藤一起负责料理。"
+          }
+        ],
+        "summary": "平贺在本卷主要以文化祭配角和装备债权背景出现：她被兰豹以变装不合格为由丢进厨房，同时金次在卷末仍惦记要筹钱支付大蛇左手费用。",
+        "evidence_level": "C",
+        "source_refs": []
+      }
+    }
+  ],
+  "_schema": "rp-character-volume-v1"
+}

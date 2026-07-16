@@ -1,0 +1,49 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "item",
+  "entityId": "colt-peacemaker",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-04",
+  "_schema": "rp-item-volume-v1",
+  "periods": [
+    {
+      "periodId": "vol-04",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-04/full.txt:1243",
+        "hidan-no-aria-main/vol-04/full.txt:6103"
+      ],
+      "snapshot": {
+        "name": "柯尔特SAA 和平制造者",
+        "aliases": [
+          "Peacemaker",
+          "Colt SAA",
+          "老式左轮手枪",
+          "熏银色Colt"
+        ],
+        "type": "weapon",
+        "description": "远山金一的招牌手枪，一款可进博物馆的十九世纪老式左轮手枪。因特别适合速射而被金一选用。本卷中金次以镜击弹回子弹破坏了一把，金一在最终战中拿出了同款新枪。",
+        "details": {
+          "type": "单动式左轮",
+          "era": "19世纪前半开发",
+          "caliber": "通常.45 Colt",
+          "advantage": "手枪史上最适合速射的构造"
+        },
+        "owner": "tooyama-kinichi",
+        "status": "active（一把被毁后又取新枪）",
+        "features": [
+          "适合超速射",
+          "可执行空中装弹魔术"
+        ],
+        "associated_abilities": [
+          "invisible-bullet"
+        ],
+        "history": [
+          "金一在太阳船对决中被金次的镜击破坏一把",
+          "金一在金字塔战中拿出熏银色的同款新枪"
+        ],
+        "evidence_level": "S",
+        "source_refs": []
+      }
+    }
+  ]
+}

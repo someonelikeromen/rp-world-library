@@ -1,0 +1,108 @@
+{
+  "schema": "world-library-entity-v1",
+  "entityType": "faction",
+  "entityId": "freemasonry",
+  "series": "hidan-no-aria-main",
+  "volume": "vol-08",
+  "periods": [
+    {
+      "periodId": "vol-08",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-08/full.txt:333",
+        "hidan-no-aria-main/vol-08/full.txt:5967",
+        "hidan-no-aria-main/vol-08/full.txt:7333",
+        "hidan-no-aria-main/vol-08/full.txt:7381"
+      ],
+      "snapshot": {
+        "name": "自由石匠",
+        "aliases": [
+          "Libertymason",
+          "秘密结社自由石匠"
+        ],
+        "type": "secret-society",
+        "description": "英国贵族幕后社会责任相关的秘密结社。宣战会议上保持中立；华生是其中能干的谍报员，并试图通过与亚莉亚的婚约让华生家重新承担结社职责。决斗后华生承诺改为建议自由石匠加入师团。",
+        "known_members": [
+          "l-watson"
+        ],
+        "stance": "宣战会议中立；卷末由华生准备重新建议加入师团",
+        "key_events": [
+          "declaration-war-conference",
+          "watson-reveals-female-and-alliance"
+        ],
+        "evidence_level": "S"
+      }
+    },
+    {
+      "periodId": "vol-09",
+      "sourceRefs": [
+        "hidan-no-aria-main/vol-09/full.txt:187",
+        "hidan-no-aria-main/vol-09/full.txt:3650",
+        "hidan-no-aria-main/vol-09/full.txt:3690"
+      ],
+      "snapshot": {
+        "name": "自由石匠",
+        "aliases": [
+          "华生所属组织",
+          "Freemasonry"
+        ],
+        "type": "secret society / butei ally",
+        "description": "华生所属的秘密组织。本卷在希尔达败北后，总会所决定加入师团，并请求玉藻允许俘虏希尔达进入驱鬼结界。华生以自由石匠成员身份成为巴斯克维尔卫生武侦协力。",
+        "known_members": [
+          "watson"
+        ],
+        "allies": [
+          "shidan",
+          "baskerville",
+          "tamamo"
+        ],
+        "enemies": [
+          "kenzoku",
+          "hilda"
+        ],
+        "resources": [
+          "反吸血鬼武装知识",
+          "法化银弹与十字箔剑",
+          "卫生武侦医疗能力"
+        ],
+        "key_events": [
+          "watson-secret-rehabilitation-training",
+          "tamamo-extreme-east-war-briefing"
+        ],
+        "evidence_level": "A"
+      }
+    },
+    {
+      "period_id": "vol-10-main",
+      "volume": "vol-10",
+      "time": "2009年11月上旬",
+      "name": {
+        "zh": "自由石匠",
+        "en": "Freemasonry"
+      },
+      "aliases": [
+        "自由石匠总会所"
+      ],
+      "type": "secret-network",
+      "description": "华生所属的情报网络。本卷中华生通过伦敦本部和美国分部调出GⅢ资料，确认其为前美国R级武侦和人工天才。",
+      "members": [
+        "l-watson"
+      ],
+      "leadership": "伦敦总会所及各地分部",
+      "goals": [
+        "提供跨国情报支援",
+        "记录非协助者名册和准机密人物资料"
+      ],
+      "relationships": {
+        "legion": "通过华生向师团共享情报",
+        "usla-los-alamos": "掌握GⅢ相关准机密资料"
+      },
+      "key_events": [
+        "watson-rehab-incident"
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "hidan-no-aria-main/vol-10/chapters/ch-004-第十卷_禁忌的双极_4弹_悖德的三岔路.txt:1080"
+      ]
+    }
+  ]
+}

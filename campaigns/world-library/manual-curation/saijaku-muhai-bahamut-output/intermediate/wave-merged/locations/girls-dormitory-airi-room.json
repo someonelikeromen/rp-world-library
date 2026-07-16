@@ -1,0 +1,64 @@
+{
+  "_schema": "rp-location-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "location_id": "girls-dormitory-airi-room",
+  "volume": "vol-16",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-16/full.txt:465"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-16",
+      "volume": "vol-16",
+      "time": "大战后疗养",
+      "name": {
+        "zh": "女生宿舍爱理房间",
+        "en": "Airi's Girls' Dormitory Room"
+      },
+      "aliases": [
+        "爱理的房间",
+        "三和音疗养房间"
+      ],
+      "type": "building / room",
+      "description": "王立士官学园女生宿舍内爱理与诺珂特的房间，三和音大战后在此疗养并接受路克斯探望。",
+      "geography": {
+        "parent": "royal-officer-academy",
+        "features": [
+          "床铺",
+          "上铺",
+          "沙发",
+          "疗养空间"
+        ]
+      },
+      "population": {
+        "temporary": [
+          "noct-leaflet",
+          "tillfur-lilmit",
+          "sharis-baltshift",
+          "airi-arcadia"
+        ]
+      },
+      "controlled_by": "royal-officer-academy",
+      "affiliation": "knight-squadron; triad",
+      "significance": "路克斯确认三和音伤势与恋爱协定最后阶段的地点。",
+      "notable_residents": [
+        "airi-arcadia",
+        "noct-leaflet"
+      ],
+      "key_events": [
+        "triad-visit-after-battle"
+      ],
+      "related_locations": [
+        "royal-officer-academy"
+      ],
+      "hazards": [],
+      "secrets": [
+        "三和音私下管理少女们的协定并讨论路克斯感情归属"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-16/full.txt:465"
+      ]
+    }
+  ]
+}

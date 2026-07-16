@@ -1,0 +1,131 @@
+{
+  "schema": "tm-fgo-source-inventory-v1",
+  "project": "fgo-lb5-pilot",
+  "worldId": "type-moon-nasuverse",
+  "status": "prep-gate-ready",
+  "generatedAt": "2026-07-13",
+  "generatedByStep": "prep-lb5",
+  "requiredModel": "lt-yuyu/gpt-5.5",
+  "mutationScope": "campaigns/world-library/manual-curation/type-moon-p1-hybrid/fgo-lb5-pilot/",
+  "primarySource": {
+    "sourceId": "src-fgo-worldbook-sandbox-08",
+    "path": "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/[沙盒]FGO 0.8.worldbook.json",
+    "sourceType": "user-file-worldbook-script",
+    "classification": "script-like",
+    "canonStatus": "canon-like",
+    "credibility": "B",
+    "selectedEntryIndexes": [97, 98],
+    "sourceTextStatus": "not-created-in-prep",
+    "formalEventSource": true
+  },
+  "lostbeltEntries": [
+    {
+      "entryIndex": 97,
+      "chapterId": "fgo-lb5-1-atlantis",
+      "slug": "lb5-1-atlantis",
+      "comment": "FGO_LB5_1_亚特兰蒂斯",
+      "titleRaw": "Lostbelt No.5 星间都市山脉 奥林波斯／大西洋异闻带",
+      "arc": "lostbelt",
+      "chapterOrder": 5.1,
+      "estimatedEvents": 31,
+      "estimatedQuotes": 37,
+      "observedEventCodeRangeDuringPrep": "事件A1-事件A4, 事件B-事件B3, 事件C-事件C4, 事件D-事件R",
+      "sectionsInspected": ["world_state", "stage_characters", "world_timeline"],
+      "represented": true,
+      "directSourceRefs": [
+        "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/[沙盒]FGO 0.8.worldbook.json:12566-12567"
+      ],
+      "mirrorSourceRefsObserved": [
+        "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/[沙盒]FGO 0.8.worldbook.json:12606-12607"
+      ],
+      "sourceTextStatus": "not-created-in-prep",
+      "prepNotes": [
+        "Entry present and selected.",
+        "Raw event codes are irregular and include A1-A4 prologue-style events before B; downstream must preserve exact raw codes.",
+        "Source contains raw date strings that appear non-monotonic during prep observation; downstream must preserve source raw time and report any mismatch instead of silently correcting."
+      ]
+    },
+    {
+      "entryIndex": 98,
+      "chapterId": "fgo-lb5-2-olympos",
+      "slug": "lb5-2-olympos",
+      "comment": "FGO_LB5_2_奥林波斯",
+      "titleRaw": "Lostbelt No.5 后篇 星间都市山脉 奥林波斯（神を撃ち落とす日）",
+      "arc": "lostbelt",
+      "chapterOrder": 5.2,
+      "estimatedEvents": 29,
+      "estimatedQuotes": 41,
+      "observedEventCodeRangeDuringPrep": "事件A-事件A2, 事件B1-事件B2, 事件C1-事件C4, 事件D1-事件D5 plus 事件D3.5, 事件E1-事件E4, 事件F1-事件F4, 事件G-事件L",
+      "sectionsInspected": ["world_state", "stage_characters", "world_timeline"],
+      "represented": true,
+      "directSourceRefs": [
+        "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/[沙盒]FGO 0.8.worldbook.json:12689-12690"
+      ],
+      "mirrorSourceRefsObserved": [
+        "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/[沙盒]FGO 0.8.worldbook.json:12729-12730"
+      ],
+      "sourceTextStatus": "not-created-in-prep",
+      "prepNotes": [
+        "Entry present and selected.",
+        "Raw event code 事件D3.5 is decimal-like and must be preserved exactly; do not renumber."
+      ]
+    }
+  ],
+  "secondarySources": [
+    {
+      "path": "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/型月 (1).worldbook.json",
+      "classification": "story-summary",
+      "sourceType": "user-file-worldbook-summary",
+      "use": "cross-check only after explicit later scoping",
+      "formalEventSource": false
+    },
+    {
+      "path": "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/奇妙的世界书DLC_型月篇2026_0126.worldbook.json",
+      "classification": "character-profile",
+      "sourceType": "user-file-character-profile",
+      "use": "profile supplement only; no script fact override",
+      "formalEventSource": false
+    },
+    {
+      "path": "campaigns/world-library/worlds/type-moon-nasuverse/curated/stories/fgo/*.md",
+      "classification": "curated-story-derived-from-worldbook-script",
+      "use": "mirror/comparison only; no overwrite",
+      "formalEventSource": false
+    }
+  ],
+  "excludedForFormalFacts": [
+    "engine-rule",
+    "ejs",
+    "mvu",
+    "sandbox-rule",
+    "rp-engine-rule",
+    "agent-inference",
+    "summary-only claims",
+    "model-memory",
+    "game-memory",
+    "wiki-impression"
+  ],
+  "mandatoryLayers": [
+    "events",
+    "dialogue_refs",
+    "characters",
+    "relationships",
+    "appearances",
+    "abilities_noble_phantasms_skills",
+    "combat_effects",
+    "not_found_in_source_records"
+  ],
+  "mergeRetentionRequirements": {
+    "eventFields": ["triggerRaw", "completionRaw", "summaryRaw"],
+    "relationshipEdgeFields": ["timelineId", "timeRange"]
+  },
+  "stageGates": {
+    "prepGate": "ready",
+    "sourceTextGate": "closed-not-built-in-prep",
+    "extractionGate": "closed-extraction-not-started",
+    "normalizationGate": "closed",
+    "mergeGate": "closed",
+    "timelineGraphGate": "closed",
+    "publicationGate": "closed"
+  }
+}

@@ -1,0 +1,440 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "g3",
+  "volume": "vol-26",
+  "time_range": {
+    "start": "vol-26",
+    "end": "vol-26"
+  },
+  "sub_arcs": [
+    "taisotsu-revelation",
+    "meiji-jingu-battle"
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-26/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-26",
+      "volume": "vol-26",
+      "time": "第二十六卷 穿破黑暗的巨蟒",
+      "label": "休假的美国共和党系武侦",
+      "name": {
+        "zh": "GⅢ",
+        "en": "GIII",
+        "jp": "GⅢ"
+      },
+      "aliases": [
+        "GⅢ",
+        "老弟",
+        "笨老弟"
+      ],
+      "titles": [
+        "远山家三男",
+        "美国共和党系武侦",
+        "伊·U所属"
+      ],
+      "gender": "male",
+      "species": "human",
+      "nationality": "American/Japanese",
+      "occupation": "武侦",
+      "affiliation": "伊·U临时阵营",
+      "status": {
+        "social": "在美国受共和党庇护，因调查父亲对卒相关情报而触发民主党警戒"
+      },
+      "appearance": {
+        "overview": "轻量化义手和护具；常在老家庭院内吃番茄。",
+        "distinctive": [
+          "咬番茄",
+          "美式风格",
+          "义手"
+        ]
+      },
+      "personality": {
+        "summary": "表面轻浮但实际关心家人；对父亲生存可能的调查导致自己被民主党盯上。",
+        "core_traits": [
+          "看似吊儿郎当",
+          "实际关心家族",
+          "唯我独尊但会老实道歉"
+        ]
+      },
+      "relationships": {
+        "kinji": {
+          "type": "younger-brother",
+          "summary": "向金次报告父亲金叉可能仍存活的CIA机密情报；在涩谷观光时被金次借用光曲折迷彩衣；战斗高潮时现身明治神宫支援。"
+        },
+        "golden-girl": {
+          "type": "younger-sister",
+          "summary": "陪同金女一起在老家居留。"
+        },
+        "father-kincha": {
+          "type": "investigation-target",
+          "summary": "调查父亲对卒病情和CIA监视记录，发现父亲在冷战时代和2000年代后频繁入境的线索。"
+        }
+      },
+      "knowledge": [
+        "tooyama-kincha-survival-clue",
+        "n-democratic-party-warning",
+        "cia-kincha-records",
+        "optical-camouflage"
+      ],
+      "summary": "GⅢ在本卷中带部下到日本休假观光。他告知金次父亲远山金叉可能仍存活的线索——在九九九年二月被判定殉职后仍于2000年、2001年、2004年有入境美国记录。同时警告金次因民主党的警戒等级提升，不要随便去美国。金次借用其光曲折迷彩衣潜入阿久津大楼；最终在明治神宫现身，以双枪形式支援金次逼退N阵营。",
+      "key_events": [
+        {
+          "event_id": "g3-reports-father-clue",
+          "summary": "在老家庭院告诉金次父亲金叉可能仍存活的CIA情报。",
+          "sourceRef": "hidan-no-aria-main/vol-26/full.txt"
+        },
+        {
+          "event_id": "g3-loans-camouflage",
+          "summary": "借出光曲折迷彩衣给金次用于调查阿久津。",
+          "sourceRef": "hidan-no-aria-main/vol-26/full.txt"
+        },
+        {
+          "event_id": "g3-joins-meiji-jingu-battle",
+          "summary": "在明治神宫现身逼退N阵营。",
+          "sourceRef": "hidan-no-aria-main/vol-26/full.txt"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-26/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-27",
+      "volume": "vol-27",
+      "time": "第二十七卷",
+      "label": "第一世代兄弟参战",
+      "name": {
+        "zh": "GⅢ",
+        "en": "GIII",
+        "jp": "GⅢ"
+      },
+      "aliases": [
+        "老弟",
+        "GIII",
+        "第一世代人工天才"
+      ],
+      "titles": [
+        "洛斯阿拉莫斯第一世代G系列",
+        "GIII一党首领"
+      ],
+      "gender": "male",
+      "species": "human/artificial-genius",
+      "nationality": "American/Japanese genetic origin",
+      "occupation": "独立行动的人工天才首领",
+      "affiliation": "GIII一党；远山家",
+      "status": {
+        "physical": "左手义肢，装备护具和飞行装备；卷末存活",
+        "mental": "警戒金天但为金次与家族投入救援"
+      },
+      "appearance": {
+        "overview": "美式青年气质，常穿夸张服饰；本卷穿立领学生服与披风，也驾驶黑色玛莎拉蒂。",
+        "distinctive": [
+          "左手义肢",
+          "黑色玛莎拉蒂GranCabrio"
+        ]
+      },
+      "personality": {
+        "summary": "自信、毒舌但重伙伴与家族；对第二世代保持警戒。",
+        "core_traits": [
+          "豪放",
+          "谨慎",
+          "领袖气质",
+          "兄弟情"
+        ],
+        "values": [
+          "伙伴",
+          "美国式自由",
+          "远山家"
+        ],
+        "strengths": [
+          "高战斗力",
+          "指挥部下",
+          "机械装备运用"
+        ],
+        "flaws": [
+          "服装品味差",
+          "嘴毒"
+        ]
+      },
+      "abilities_owned": [
+        "hss",
+        "giii-sonic-kick",
+        "giii-meteor",
+        "giii-prosthetic-tools"
+      ],
+      "possessions_owned": [
+        "giii-maserati-grancabrio",
+        "giii-prosthetic-arm",
+        "giii-gablin",
+        "giii-night-vision-glasses",
+        "giii-transmitter-gum"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "elder-brother/ally",
+          "summary": "支援金次保护金天，救援时共同飞行。"
+        },
+        "kinten": {
+          "type": "younger-sister/guarded-ally",
+          "summary": "初期警戒GV，最终救下她并协助停止反色金。"
+        },
+        "kinjo": {
+          "type": "sister/ally",
+          "summary": "同为远山家救援成员。"
+        },
+        "zii": {
+          "type": "rival/ally-in-crisis",
+          "summary": "互骂失败作，但N袭击时合作。"
+        },
+        "kyuumo": {
+          "type": "subordinate",
+          "summary": "派其护卫金天上学并参与调查。"
+        }
+      },
+      "knowledge": [
+        "second-generation-artificial-geniuses",
+        "counter-irokane-truth",
+        "n-targets-kinten"
+      ],
+      "summary": "GIII协助金次确认金天身份，提醒第二世代可能极危险；高尾基地中对抗墨丘利并用麻醉针阻止被附身的金天。得知废弃计划后动员部下、玛莎拉蒂和加布林参与救援，在空中与金次夺回金天。",
+      "key_events": [
+        {
+          "event_id": "family-meeting-kinten",
+          "summary": "与远山兄弟姊妹见到金天并结成有限同盟。",
+          "sourceRef": "hidan-no-aria-main/vol-27/full.txt:1700"
+        },
+        {
+          "event_id": "takao-mercurius-battle",
+          "summary": "与金次在高尾基地对抗墨丘利并麻醉金天。",
+          "sourceRef": "hidan-no-aria-main/vol-27/full.txt:3300"
+        },
+        {
+          "event_id": "gablin-air-rescue",
+          "summary": "驾驶加布林救回被墨丘利吊走的金天。",
+          "sourceRef": "hidan-no-aria-main/vol-27/full.txt:4900"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-27/full.txt"
+      ]
+    },
+    {
+      "period_id": "vol-28",
+      "volume": "vol-28",
+      "time": "卷末",
+      "label": "金次家中的GⅢ",
+      "name": {
+        "zh": "GⅢ",
+        "en": "G III",
+        "jp": "GIII"
+      },
+      "aliases": [
+        "老弟"
+      ],
+      "titles": [
+        "远山家相关者"
+      ],
+      "gender": "男",
+      "species": "人类",
+      "nationality": "日本/美国相关",
+      "occupation": "武装集团首领/金次弟弟",
+      "affiliation": "GⅢ一党；远山家",
+      "status": {
+        "location": "金次家",
+        "role": "保护金天并照看金次住处"
+      },
+      "appearance": {
+        "overview": "装有义肢的男性。",
+        "physical": {
+          "height": "",
+          "build": "强壮",
+          "hair": {},
+          "eyes": {}
+        },
+        "attire": {
+          "default": "便服",
+          "combat": "义肢与武装"
+        },
+        "voice_quality": {},
+        "distinctive": [
+          "称呼金次为老哥"
+        ]
+      },
+      "personality": {
+        "summary": "嘴贱但关心兄长，确信金次不会死。",
+        "core_traits": [
+          "乐观",
+          "毒舌",
+          "兄弟情深"
+        ],
+        "values": [
+          "家人",
+          "部下"
+        ],
+        "fears": [],
+        "desires": [
+          "保护金天",
+          "支援金次"
+        ],
+        "strengths": [
+          "领导部下",
+          "战斗力"
+        ],
+        "flaws": [
+          "玩笑过火"
+        ],
+        "inner_conflict": "",
+        "decision_pattern": {}
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {
+          "kinji": "老哥"
+        },
+        "register": {},
+        "catchphrases": [],
+        "quote_samples": [
+          "老哥就算进学校也会被退学，然后绝对不会死嘛。"
+        ]
+      },
+      "habits": {
+        "mannerisms": [
+          "嘿嘿笑"
+        ],
+        "daily_routine": "在金次失踪期间带部下住进204号房保护金天。",
+        "quirks": [],
+        "preferences": {}
+      },
+      "background": {
+        "birth": {
+          "place": "",
+          "family": [
+            "kinji",
+            "kinichi",
+            "kinkin",
+            "kinjo"
+          ]
+        },
+        "upbringing": "远山家相关。",
+        "education": {},
+        "formative_events": [],
+        "pre_story": "此前与金次有复杂兄弟关系。"
+      },
+      "abilities_owned": [
+        "g3-combat-skill"
+      ],
+      "possessions_owned": [
+        "g3-prosthetic-arm"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "brother",
+          "summary": "帮金次刷背并听他说明无人岛经历。"
+        },
+        "kinkin": {
+          "type": "protector",
+          "summary": "金次失踪期间保护金天。"
+        },
+        "kukumo": {
+          "type": "subordinate",
+          "summary": "部下之一。"
+        },
+        "marsh": {
+          "type": "subordinate",
+          "summary": "部下之一。"
+        },
+        "atlas": {
+          "type": "subordinate",
+          "summary": "部下之一。"
+        },
+        "collins": {
+          "type": "subordinate",
+          "summary": "部下之一。"
+        }
+      },
+      "knowledge": [],
+      "secrets": [],
+      "summary": "GⅢ在金次失踪期间带部下住进204号房保护金天；金次回来后为他刷背、说明众人反应，并后来告知亚莉亚金次出现。",
+      "key_events": [
+        {
+          "event_id": "return-to-tokyo-and-exam",
+          "summary": "金次回家后与GⅢ重逢。",
+          "sourceRef": "hidan-no-aria-main/vol-28/full.txt:4797"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-28/chapters/ch-006-第二十八卷_远洋孤岛的珊瑚礁_Go_For_The_NEXT！！！依然芳香美丽.txt:1"
+      ]
+    },
+    {
+      "period_id": "vol-30",
+      "volume": "vol-30",
+      "time": "第三十卷",
+      "name": {
+        "zh": "GⅢ"
+      },
+      "aliases": [
+        "金子",
+        "弟弟",
+        "人工天才第一代最强"
+      ],
+      "gender": "male",
+      "species": "artificial genius human",
+      "status": "alive until final cliffhanger; 被贝茨姊妹念力卷入发射井钢铁瀑布下落，生死未明",
+      "affiliation": [
+        "远山家",
+        "GⅢ团队",
+        "美国人工天才计划出身"
+      ],
+      "abilities_owned": [
+        "hss-drug-assisted",
+        "giii-silence-shot",
+        "giii-jet-armor",
+        "giii-intelligence-tradecraft"
+      ],
+      "possessions_owned": [
+        "giii-hk-pistol",
+        "giii-left-prosthetic-arm",
+        "giii-jet-armor",
+        "gold-bullet",
+        "cadillac-eldorado"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "older-brother/mission partner",
+          "description": "与金次一起赴美国寻父，负责机票、租车、美国知识和驾驶。"
+        },
+        "kinza": {
+          "type": "father/search target",
+          "description": "同样想确认父亲生死与对卒风险。"
+        },
+        "fuma-hina": {
+          "type": "ally/fascinated by ninja",
+          "description": "初见风魔时因忍者身份极度兴奋。"
+        },
+        "bates-sisters": {
+          "type": "enemy",
+          "description": "贝茨姊妹称其为人工天才最强并以念力压制。"
+        }
+      },
+      "key_events": [
+        "siblings-kinza-search-council",
+        "la-casita-search",
+        "gas-station-mafia-attack",
+        "poldina-pacino-disclosure",
+        "bates-silo-fight"
+      ],
+      "notes": "本卷还被加奈命令扮成辣妹“金子”参加家庭聚餐。贝茨姊妹提到其还试图接触“F”。",
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-30/full.txt"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "kira-rika",
+  "volume": "vol-44",
+  "periods": [
+    {
+      "period_id": "vol-44-main",
+      "volume": "vol-44",
+      "time": "煌篇",
+      "name": {
+        "zh": "吉良理香"
+      },
+      "aliases": [
+        "晶亮亮借贷的吉良",
+        "理香"
+      ],
+      "gender": "female",
+      "species": "human",
+      "occupation": "地下放贷业者/武侦相关黑暗人士",
+      "affiliation": "晶亮亮借贷；煌共同老板圈；吉良家",
+      "status": {
+        "condition": "在煌饮酒开会，枪击时协助制伏塔米"
+      },
+      "appearance": {
+        "overview": "室内也戴棒球帽的吉良家女性。"
+      },
+      "personality": {
+        "summary": "黑暗金融圈气质，能在店内暴力事件中迅速行动。"
+      },
+      "abilities_owned": [
+        "butei-combat",
+        "loan-sharking"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "kinji": {
+          "type": "债权相关熟人",
+          "summary": "过去曾借钱给金次；美羽表示金次若背皋月欠款可找理香借。"
+        },
+        "kira-miu": {
+          "type": "表亲/合作伙伴",
+          "summary": "与煌共同老板圈和债务链有关。"
+        },
+        "tammy": {
+          "type": "制服对象/潜在债务人",
+          "summary": "塔米枪击后被她和须坂等制服；此前疑似向塔米放贷。"
+        }
+      },
+      "summary": "吉良理香是品川地下钱庄晶亮亮借贷相关人物，与煌、美羽和红羽构成夜场债务网络。圣诞枪击时她逆向冲入现场协助制伏塔米。",
+      "key_events": [
+        {
+          "event_id": "dark-network-meeting",
+          "summary": "与大矢、哉子、美羽等在煌开会，暴露夜场债务链。",
+          "sourceRef": "hidan-no-aria-main/vol-44/full.txt:2060"
+        },
+        {
+          "event_id": "tammy-shooting",
+          "summary": "枪击后冲向塔米并协助制服。",
+          "sourceRef": "hidan-no-aria-main/vol-44/full.txt:4020"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-44/chapters/ch-002-第二弹_路易王妃水晶香槟.txt:294",
+        "hidan-no-aria-main/vol-44/chapters/ch-003-第三弹_双倍下注.txt:699"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-44/full.txt"
+  ]
+}

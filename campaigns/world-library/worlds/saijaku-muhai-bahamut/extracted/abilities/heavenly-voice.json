@@ -1,0 +1,50 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "heavenly-voice",
+  "volume": "vol-08",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-08/full.txt:6680"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-08-main",
+      "volume": "vol-08",
+      "time": "圣都防卫战末段",
+      "name": {
+        "zh": "天声",
+        "en": "Heavenly Voice"
+      },
+      "aliases": [
+        "重力控制神装"
+      ],
+      "type": "technology / combat",
+      "description": "莉夏的神装能力，可控制重力或防护范围。本卷中她以最后力量挡住大圣堂坠落积雪。",
+      "details": {
+        "user": "lisesharte-atismata",
+        "drag_ride": "diamat"
+      },
+      "activation": {
+        "condition": "《迪亚玛特》神装启动",
+        "incantation": "天声",
+        "time": "短时",
+        "cost": "极度疲劳时会解除装甲"
+      },
+      "effects": [
+        "重力防御",
+        "拦截坠落物",
+        "保护友军"
+      ],
+      "known_feats": [
+        "挡住大圣堂积雪保护神殿骑士团"
+      ],
+      "shared_by": [
+        "lisesharte-atismata"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-08/full.txt:6680"
+      ]
+    }
+  ]
+}

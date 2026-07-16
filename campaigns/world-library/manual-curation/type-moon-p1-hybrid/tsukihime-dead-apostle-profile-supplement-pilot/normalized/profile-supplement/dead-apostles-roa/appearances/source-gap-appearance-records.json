@@ -1,0 +1,34 @@
+{
+  "schema": "tm-tsukihime-normalized-not-found-fragment-v1",
+  "packetId": "dead-apostles-roa",
+  "recordId": "source-gap-appearance-records",
+  "status": "generated-pending-audit",
+  "candidateOnly": true,
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "mixed-source-status-see-records",
+  "records": [
+    {
+      "recordId": "dead-apostle-class-appearance-not-found",
+      "missingSurface": "appearance",
+      "subject": "Dead Apostles as a class",
+      "summary": "The assigned taxonomy source has no class-level physical appearance description for Dead Apostles.",
+      "continuityTaxonomy": {"category": "sandbox", "rawSourceLabels": ["死徒"], "sourceAvailability": "source-gap/candidate-only"},
+      "sourceRefs": ["sources/worldbook-profile/tm-summary-dead-apostle-true-ancestor.txt:22", "sources/worldbook-profile/tm-summary-dead-apostle-true-ancestor.txt:26"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "recordId": "roa-appearance-not-found",
+      "missingSurface": "appearance",
+      "subject": "米海尔·罗亚·法尔丹姆杨",
+      "summary": "No standalone Roa appearance is present in the assigned excerpts; Ciel/Elesia appearance is not used as Roa appearance.",
+      "continuityTaxonomy": {"category": "sandbox", "rawSourceLabels": ["罗亚", "candidate-only"], "sourceAvailability": "source-gap/candidate-only"},
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:33", "sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:35"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    }
+  ]
+}

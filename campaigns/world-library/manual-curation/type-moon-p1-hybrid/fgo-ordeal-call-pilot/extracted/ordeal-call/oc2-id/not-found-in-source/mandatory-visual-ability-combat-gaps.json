@@ -1,0 +1,58 @@
+{
+  "schema": "tm-fgo-extracted-not-found-index-v1",
+  "packetId": "pkt-fgo-ordeal-call-oc2-id-prep",
+  "chapterId": "fgo-ordeal-call-2-id",
+  "slug": "oc2-id",
+  "records": [
+    {
+      "recordId": "oc2-nf-character-body-clothing-colors",
+      "missingLayer": "appearance-body-outfit-colors",
+      "findingRaw": "Current source identifies roles such as 普通的高中生, 青梅竹马, 同学, 转学生, 暗杀者, and 恶徒, but does not provide explicit body appearance, costume design, outfit colors, armor, accessories, or face/hair/eye descriptions for the named characters.",
+      "sourceFirstLabels": ["普通的高中生", "青梅竹马", "同学", "转学生", "暗杀者", "恶徒"],
+      "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:8-9", "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:38", "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:56", "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:84-86"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "recordId": "oc2-nf-equipment-weapons",
+      "missingLayer": "outfit-equipment-weapon-visuals",
+      "findingRaw": "Current source mentions 宝具, 暗杀术, 火焰, 复仇之理, 黑炎, and 绝对防御, but does not provide explicit weapon names, equipment visuals, tools, uniforms, or carried items. No formal weapon/equipment fact beyond source terms was created.",
+      "sourceFirstLabels": ["宝具", "暗杀术", "火焰", "复仇之理", "黑炎", "绝对防御"],
+      "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:40", "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:47", "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:57", "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:65-67"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "recordId": "oc2-nf-named-noble-phantasm-skill-magecraft-names",
+      "missingLayer": "named-ability-details",
+      "findingRaw": "Current source directly states 耀星的哈桑解放宝具 and describes 切断星星的暗杀术, Jalter觉醒火焰/Avenger灵基, and Cagliostro操纵幻象, but it does not give proper names, chants, ranks, parameters, exact magecraft systems, or authority labels for these activations.",
+      "sourceFirstLabels": ["解放宝具", "切断星星的暗杀术", "觉醒火焰", "Avenger的灵基", "操纵幻象"],
+      "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:20", "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:40", "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:49", "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:57"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "recordId": "oc2-nf-combat-choreography-stats-damage",
+      "missingLayer": "combat-choreography-damage-numbers",
+      "findingRaw": "Current source provides broad combat outcomes and effects (attack, blocking, forced spiritual-origin expenditure, forcing into a corner, defeat, absolute defense broken) but no turn-by-turn choreography, exact damage, named targets for every blow, numeric costs, or tactical positioning beyond summarized locations.",
+      "sourceFirstLabels": ["发起攻击", "挡在藤丸立香面前", "每一击", "逼入绝境", "击败", "绝对防御"],
+      "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:19-20", "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:47-48", "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:57", "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:66"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "recordId": "oc2-nf-direct-dialogue-lines",
+      "missingLayer": "speaker-attributed-dialogue",
+      "findingRaw": "Current source includes summarized speech acts but no direct dialogue quotations or exact lines. Dialogue file therefore records no direct dialogue facts.",
+      "sourceFirstLabels": ["声称", "最后的忠告", "最后的道别"],
+      "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:18", "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:21", "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:58", "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:67"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    }
+  ]
+}

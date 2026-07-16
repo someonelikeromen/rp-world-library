@@ -1,0 +1,117 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "strategic-command",
+  "volume": "vol-16",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-16/full.txt:1",
+    "saijaku-muhai-bahamut-main/vol-16/full.txt:4371"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-16",
+      "volume": "vol-16",
+      "time": "大圣域最终战",
+      "name": {
+        "zh": "战术指挥",
+        "en": "Strategic Command"
+      },
+      "aliases": [
+        "骑圣队长指挥"
+      ],
+      "type": "skill / combat",
+      "description": "玛姬艾儿卡作为七龙骑圣队长的战术洞察与指挥能力，能在极限战斗中识破敌方规则并指挥同伴配合。",
+      "details": {
+        "user": "magialca-zen-vanfrick",
+        "examples": [
+          "推断生死流转限制",
+          "指挥苏菲丝与爱莉尔配合",
+          "识破大圣域控制室可被攻击"
+        ]
+      },
+      "activation": {
+        "condition": "战场观察与队伍通信",
+        "incantation": "无",
+        "time": "持续指挥",
+        "cost": "需要掌握情报并承担风险"
+      },
+      "effects": [
+        "快速形成反制战术",
+        "维持士气",
+        "整合不同神装能力"
+      ],
+      "power_level": {
+        "initial": "队长级战术",
+        "peak": "短暂逼迫弗基尔暴露奥罗波若斯本体弱点"
+      },
+      "known_feats": [
+        "玛姬艾儿卡在最终战中多次凭判断找到突破口。"
+      ],
+      "shared_by": [
+        "magialca-zen-vanfrick"
+      ],
+      "see_also": [
+        "jormungandr-heavenly-calamity",
+        "jormungandr-mass-lock"
+      ],
+      "countered_by": [],
+      "counters": [
+        "ouroboros-life-and-death-cycle"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-16/full.txt:1",
+        "saijaku-muhai-bahamut-main/vol-16/full.txt:4371"
+      ]
+    },
+    {
+      "period_id": "vol-20",
+      "volume": "vol-20",
+      "time": "最终战与战后",
+      "name": {
+        "zh": "战略指挥与后勤组织",
+        "en": "Strategic Command"
+      },
+      "aliases": [],
+      "type": "command / logistics",
+      "description": "玛姬艾儿卡调配医疗、修理、物资、警戒与战后国际组织构想的能力。",
+      "details": {
+        "user": "magialca-zen-vanfrick"
+      },
+      "activation": {
+        "condition": "拥有人员与资源调配权",
+        "incantation": "",
+        "time": "持续",
+        "cost": "组织资源"
+      },
+      "effects": [
+        "安排宴会休整",
+        "组织医护和维修",
+        "监视战场",
+        "战后筹建国际联盟"
+      ],
+      "power_level": {
+        "initial": "高",
+        "peak": "最终战准备与战后七龙骑圣顾问职责"
+      },
+      "known_feats": [
+        "将耶梦加得调整给爱理使用"
+      ],
+      "shared_by": [
+        "magialca-zen-vanfrick"
+      ],
+      "see_also": [
+        "jormungandr"
+      ],
+      "countered_by": [],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-20/full.txt:87",
+        "saijaku-muhai-bahamut-main/vol-20/full.txt:6501"
+      ]
+    }
+  ]
+}

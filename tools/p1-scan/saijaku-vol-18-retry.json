@@ -1,0 +1,36 @@
+{
+  "objective": "Retry extract vol-18 for saijaku-muhai-bahamut",
+  "library": {
+    "sources": [
+      "package",
+      "project"
+    ]
+  },
+  "authority": {
+    "allowFilesystemRead": true,
+    "allowMutationTools": true,
+    "allowShellTools": false,
+    "allowProjectCode": true,
+    "allowExtensionCode": false
+  },
+  "limits": {
+    "concurrency": 1,
+    "timeoutSecondsPerStep": 7200
+  },
+  "steps": [
+    {
+      "id": "extract-vol-18",
+      "agent": {
+        "system": "卷级数据提取助手。读原文章节文件提取所有重要实体并按每实体独立JSON文件写入。实体类型: characters, abilities, events, items, locations, factions, systems, knowledge。每实体独立文件，写入前先读模板。sourceRef格式: saijaku-muhai-bahamut-main/vol-18/full.txt:行号。ID跨卷统一。",
+        "model": "deepseek/deepseek-v4-flash",
+        "tools": [
+          "read",
+          "write"
+        ]
+      },
+      "mutationScope": "saijaku-wave-output",
+      "cwd": "E:/pi-st",
+      "task": "Extract all entities from saijaku-muhai-bahamut-main vol-18.\n\nSERIES: saijaku-muhai-bahamut-main\nVOLUME: vol-18\nWORLD: saijaku-muhai-bahamut\nSPLIT_PATH: campaigns/world-library/worlds/saijaku-muhai-bahamut/sources/split-text/saijaku-muhai-bahamut-main/vol-18\nOUTPUT_DIR: campaigns/world-library/manual-curation/saijaku-muhai-bahamut-output/waves/wave-004/vol-18\nTEMPLATE_DIR: tools/p1-scan/_templates\n\nRead chapters.json then each chapter txt. Read templates before writing. Write entity files to OUTPUT_DIR/{type}/{id}.json. Also write world.json and index.json."
+    }
+  ]
+}

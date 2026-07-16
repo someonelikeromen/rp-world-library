@@ -1,0 +1,320 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "jeanne",
+  "volume": "vol-15",
+  "time_range": {
+    "start": "星座补考前",
+    "end": "布鲁塞尔妖刕伏击"
+  },
+  "sub_arcs": [
+    "星座小队补考",
+    "巴黎同居与责任告白",
+    "化装舞会",
+    "罗浮宫追踪",
+    "救援金次",
+    "战车逃亡",
+    "布鲁塞尔背叛疑云"
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-15/chapters/ch-003-第十五卷_哿与银冰_3弹_化装舞会.txt:25"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-15-main",
+      "volume": "vol-15",
+      "time": "2009年1月欧洲远征",
+      "label": "银冰魔女与星座小队队长",
+      "name": {
+        "zh": "贞德·达鲁克三十世",
+        "en": "Jeanne d'Arc 30th",
+        "jp": "Jeanne d'Arc"
+      },
+      "aliases": [
+        "贞德",
+        "银冰魔女",
+        "喵德"
+      ],
+      "titles": [
+        "星座小队队长",
+        "伊·U钻研派残党",
+        "师团成员",
+        "东京武侦高中学生"
+      ],
+      "gender": "女性",
+      "species": "人类/超能力者",
+      "nationality": "法国",
+      "occupation": "武侦高中学生/师团战力/星座小队队长",
+      "affiliation": "星座小队; 师团; 原伊·U钻研派; 东京武侦高中",
+      "status": {
+        "physical": "欧洲行动中连续使用冰魔法与剑术并参与战车逃亡",
+        "mental": "因把金次卷入欧洲死地而自责，在巴黎夜晚暴露脆弱一面；战车战中一度被恐怖之歌削弱信心",
+        "social": "作为金次新小队队长，承担补考与欧洲援军双重责任"
+      },
+      "appearance": {
+        "overview": "银发碧眼的法国少女，外表端正高贵，本卷常穿便服、礼服与武侦制服",
+        "attire": {
+          "default": "武侦高中制服或法国便服",
+          "combat": "杜兰朵与轻型铠甲；化装舞会时猫面具与猫耳集音器"
+        },
+        "distinctive": [
+          "白金般银发",
+          "冰蓝色眼眸",
+          "会在法国环境中显露少女感和天然呆"
+        ]
+      },
+      "personality": {
+        "summary": "表面冷静理性，实际背负骑士家系和祖国战线压力。本卷与金次关系显著推进，开始承认自己的脆弱并依赖金次。",
+        "core_traits": [
+          "责任感强",
+          "自尊高",
+          "策士型",
+          "天然呆",
+          "容易因金次与其他女性互动而嫉妒"
+        ],
+        "strengths": [
+          "冰魔法",
+          "剑术",
+          "欧洲地利",
+          "战略判断",
+          "礼仪和语言能力"
+        ],
+        "flaws": [
+          "遇到责任与自卑时会勉强自己",
+          "受到熟悉过去的魔女诅咒歌声影响",
+          "作战有时过于大胆"
+        ],
+        "inner_conflict": "作为贞德家后裔和师团成员必须战斗，但也渴望被当成普通女性看待。"
+      },
+      "abilities_owned": [
+        "jeanne-ice-magic"
+      ],
+      "possessions_owned": [
+        "jeanne-durandal",
+        "jeanne-cat-ear-sound-collector"
+      ],
+      "relationships": {
+        "kinji": "europe_partner; 对他既歉疚又依赖，巴黎夜晚后关系亲密化，战车战中被他重新鼓舞",
+        "meiya-romano": "ally/rival; 同属师团欧洲战力，但围绕金次有轻微嫉妒",
+        "l-watson": "ally; 接受其在欧洲撤退与医疗支援",
+        "nakasorachi": "squadmate; 星座小队副队长与通信支援",
+        "shima-ichigo": "squadmate; 依赖她的车辆能力",
+        "kage-glasse": "enemy; 伊·U时代彼此知根知底，被魔女连队视为弱点目标"
+      },
+      "knowledge": [
+        "europe-front-status",
+        "witch-corps-arsenal-location",
+        "jeanne-family-background"
+      ],
+      "summary": "贞德因星座小队补考带金次前往欧洲，安排巴黎前线与布鲁塞尔避难线。她让金次住进香榭丽舍大道公寓，在心理压力下试图以自身补偿金次，后被金次安抚。随后在化装舞会会合梅雅、罗浮宫追踪卡羯，最后骑附侧座机车突入魔女连队兵器库救出金次，并在虎式战车追击中靠机枪配合金次完成炮弹戏法。结尾她在布鲁塞尔向金次道歉后消失，疑似被敌方用于引出妖刕伏击。",
+      "key_events": [
+        {
+          "event_id": "paris-jeanne-night",
+          "summary": "在巴黎公寓暴露责任感与脆弱，被金次安抚",
+          "sourceRef": "hidan-no-aria-main/vol-15/full.txt:3900"
+        },
+        {
+          "event_id": "garnier-masquerade-meiya",
+          "summary": "带金次参加加尼叶宫化装舞会并会合梅雅",
+          "sourceRef": "hidan-no-aria-main/vol-15/full.txt:3955"
+        },
+        {
+          "event_id": "jeanne-rescue-tank-chase",
+          "summary": "用冰魔法和机车突入兵器库救出金次，随后参与战车逃亡",
+          "sourceRef": "hidan-no-aria-main/vol-15/full.txt:6338"
+        },
+        {
+          "event_id": "brussels-yojin-ambush",
+          "summary": "在布鲁塞尔向金次道歉后消失，引出妖刕伏击",
+          "sourceRef": "hidan-no-aria-main/vol-15/full.txt:7010"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-15/chapters/ch-003-第十五卷_哿与银冰_3弹_化装舞会.txt:25",
+        "hidan-no-aria-main/vol-15/chapters/ch-003-第十五卷_哿与银冰_3弹_化装舞会.txt:1060",
+        "hidan-no-aria-main/vol-15/chapters/ch-003-第十五卷_哿与银冰_3弹_化装舞会.txt:1115",
+        "hidan-no-aria-main/vol-15/chapters/ch-005-第十五卷_哿与银冰_5弹_高歌的铁十字之虎.txt:520",
+        "hidan-no-aria-main/vol-15/chapters/ch-005-第十五卷_哿与银冰_5弹_高歌的铁十字之虎.txt:995",
+        "hidan-no-aria-main/vol-15/chapters/ch-006-第十五卷_哿与银冰_Go_For_The_Next!!!_歌剧院的妖刕.txt:80"
+      ]
+    },
+    {
+      "period_id": "vol-16-main",
+      "volume": "vol-16",
+      "time": "布鲁塞尔失踪至龙之港牢房",
+      "label": "被伪装利用的银冰魔女",
+      "name": {
+        "zh": "贞德·达鲁克三十世",
+        "en": "Jeanne d'Arc 30th",
+        "jp": "ジャンヌ・ダルク30世"
+      },
+      "aliases": [
+        "贞德",
+        "银冰魔女"
+      ],
+      "titles": [
+        "星座小队成员",
+        "伊·U旧成员"
+      ],
+      "gender": "female",
+      "species": "human/supernatural user",
+      "nationality": "French",
+      "occupation": "武侦/策士",
+      "affiliation": "师团; 星座小队",
+      "status": {
+        "physical": "被魔女连队在自助洗衣店伏击并俘虏，杜兰朵被夺",
+        "social": "被伪贞德行动牵连而一度成为内奸嫌疑焦点"
+      },
+      "abilities_owned": [],
+      "possessions_owned": [
+        "durandal"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "teammate",
+          "summary": "金次为保她暂不受处刑而背负内奸嫌疑；两人在牢房共同推理梵蒂冈情报泄漏"
+        },
+        "petra": {
+          "type": "impersonator enemy",
+          "summary": "佩特拉用厄水砂妆伪装成贞德，把金次引到妖刕伏击点"
+        },
+        "lisa": {
+          "type": "awkward ally/rival",
+          "summary": "听闻金次与丽莎共同生活后表现出不悦与追问"
+        },
+        "loretta": {
+          "type": "political enemy",
+          "summary": "萝蕾塔承认梵蒂冈保险策略后导致金次死刑通过"
+        }
+      },
+      "summary": "贞德本卷前期失踪并被误认为可能背叛师团，真相是她在布鲁塞尔自助洗衣店被魔女连队俘虏，佩特拉则伪装成她诱导金次遭妖刕伏击。龙之港牢房中，贞德与金次会合，确认梵蒂冈与梅雅的分层泄密结构，并被眷属预定作为热沃当之兽活祭品。",
+      "key_events": [
+        {
+          "event_id": "petra-jeanne-impersonation-revealed",
+          "summary": "金次在龙之港确认伪贞德是佩特拉，要求见真正的贞德",
+          "sourceRef": "hidan-no-aria-main/vol-16/full.txt:5431"
+        },
+        {
+          "event_id": "vatican-double-betrayal-revelation",
+          "summary": "与金次同时推断内奸关键是梵蒂冈",
+          "sourceRef": "hidan-no-aria-main/vol-16/full.txt:5591"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-16/chapters/ch-005-第十六卷_星之堡垒的秂狼_5弹_远山金次将2度死亡.txt:453",
+        "hidan-no-aria-main/vol-16/chapters/ch-005-第十六卷_星之堡垒的秂狼_5弹_远山金次将2度死亡.txt:613",
+        "hidan-no-aria-main/vol-16/chapters/ch-005-第十六卷_星之堡垒的秂狼_5弹_远山金次将2度死亡.txt:697"
+      ]
+    },
+    {
+      "period_id": "vol-17-main",
+      "volume": "vol-17",
+      "time": "龙之港至2月14日",
+      "label": "银冰魔女与情报支援者",
+      "name": {
+        "zh": "贞德·达鲁克三十世",
+        "en": "Jeanne d'Arc 30th",
+        "jp": "ジャンヌ・ダルク30世"
+      },
+      "aliases": [
+        "贞德",
+        "银冰魔女"
+      ],
+      "titles": [
+        "星座小队队长",
+        "伊·U旧成员",
+        "冰魔女"
+      ],
+      "gender": "女性",
+      "species": "人类/魔女",
+      "nationality": "法国",
+      "occupation": "学生武侦/星座小队队长",
+      "affiliation": "师团; 东京武侦高中; 星座小队",
+      "status": {
+        "physical": "龙之港被铐住准备用作活祭品，被金次和丽莎救出。",
+        "mission": "欧洲停战后留在阿姆斯特丹处理协议，后回国提供情报分析支援。"
+      },
+      "appearance": {
+        "overview": "蓝宝石色眼睛、骑士气质的法国少女。",
+        "attire": {
+          "dragon_port": "活祭品服装，战斗时撕开裙摆提高机动性",
+          "maid_cafe": "在女仆咖啡厅穿自备制服扮演服务生"
+        },
+        "distinctive": [
+          "珍视杜兰朵",
+          "冰覆盖剑身作战"
+        ]
+      },
+      "personality": {
+        "summary": "自尊强、骑士气质浓厚，也有少女化兴趣。她在危机中能迅速恢复战斗，并愿意为金次讨鬼提供情报和装备。",
+        "core_traits": [
+          "骑士精神",
+          "责任感",
+          "自尊",
+          "冷静分析",
+          "隐藏的女仆咖啡厅兴趣"
+        ],
+        "strengths": [
+          "冰魔法",
+          "剑术",
+          "情报分析",
+          "欧洲组织知识"
+        ],
+        "flaws": [
+          "面对佩特拉强势魔女气场时会被压制"
+        ],
+        "inner_conflict": "作为师团成员不能直接破坏停战，却仍以边缘支援帮助金次。"
+      },
+      "abilities_owned": [
+        "jeanne-ice-magic"
+      ],
+      "possessions_owned": [
+        "jeanne-durandal"
+      ],
+      "relationships": {
+        "kinji": {
+          "type": "ally",
+          "summary": "被金次救出后与其并肩战斗，并在讨鬼行动中提供手机与情报。"
+        },
+        "petra": {
+          "type": "rival",
+          "summary": "在龙之港以银冰魔女身份对决砂砾魔女佩特拉。"
+        },
+        "riko": {
+          "type": "support-cooperator",
+          "summary": "在理子包场女仆咖啡厅时一同支援亚莉亚替身计划。"
+        }
+      },
+      "knowledge": [
+        "tsubo-i-u-weapons-genius",
+        "fugaku-revival-tech"
+      ],
+      "summary": "贞德在龙之港被眷属准备用作热沃当之兽活祭品，金次和丽莎破船救出她并归还杜兰朵。她以冰魔法迎战佩特拉并拖到自由石匠援军抵达。回国后，贞德在女仆咖啡厅支援理子替身计划，并通过金次留在富岳的偷拍钮扣影像识别出鬼族兵器技师壶，说明其曾是伊·U初期成员和兵器鬼才。",
+      "key_events": [
+        {
+          "event_id": "dragon-port-counterattack",
+          "summary": "被金次和丽莎救出并重新取得杜兰朵。",
+          "sourceRef": "hidan-no-aria-main/vol-17/full.txt:130"
+        },
+        {
+          "event_id": "maid-cafe-riko-decoy",
+          "summary": "在女仆咖啡厅协助理子和亚莉亚替身计划。",
+          "sourceRef": "hidan-no-aria-main/vol-17/full.txt:5300"
+        },
+        {
+          "event_id": "tsubo-identified",
+          "summary": "识别富岳中的壶为伊·U旧兵器技师。",
+          "sourceRef": "hidan-no-aria-main/vol-17/full.txt:5420"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-17/chapters/ch-001-第十七卷_绯弹的宣叙曲_1弹_热沃当与哿.txt:130",
+        "hidan-no-aria-main/vol-17/chapters/ch-005-第十七卷_绯弹的宣叙曲_5弹_乃木坂事件.txt:414",
+        "hidan-no-aria-main/vol-17/chapters/ch-005-第十七卷_绯弹的宣叙曲_5弹_乃木坂事件.txt:534"
+      ]
+    }
+  ]
+}

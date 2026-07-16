@@ -1,0 +1,27 @@
+{
+  "schema": "tm-fgo-packet-audit-v1",
+  "chapterId": "fgo-eor-shinjuku",
+  "packetId": "pkt-fgo-eor-shinjuku-extract",
+  "round": 2,
+  "auditorModel": "lt-yuyu/gpt-5.5",
+  "status": "passed",
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like",
+  "sourceRefs": [{"sourceUnitId":"src-fgo-eor-shinjuku","path":"sources/worldbook-script/eor/ch-089-shinjuku.txt","lineStart":18,"lineEnd":105}],
+  "checks": [
+    {"id":"audit-001-events","status":"passed","finding":"All raw source events 事件A through 事件S are represented in extracted event files with rawEventCode, title, time_raw, trigger, completion, orderIndex, dialogueRefs, and sourceRefs."},
+    {"id":"audit-002-dialogue","status":"passed","finding":"All 27 quoted source dialogue lines have dialogueRef records; skippedQuotes is empty."},
+    {"id":"audit-003-stage-characters","status":"passed","finding":"Stage characters are extracted with roles/groups from source; system判定 instruction is isolated as engineInstructionRefs only."},
+    {"id":"audit-004-relationships-candidates","status":"passed","finding":"Relationship candidates are source-backed and limited to stated trust transaction, friction, defection, taking-in, and sacrifice/protection signals; no co-occurrence promotion found."},
+    {"id":"audit-005-appearance-layer","status":"passed","finding":"Appearance/outfit/equipment layer has positive signals for 老绅士, motorcycle use, human-converted dolls, fusion form, and disguise infiltration; missing detailed visuals are recorded in not-found-in-source."},
+    {"id":"audit-006-ability-layer","status":"passed","finding":"Ability/mechanic layer covers 幻灵融合技术, 魔弹理论, 真名即弱点, 幻灵 definition, 燕青二重身/变化自如, 罗伯+透明人 fusion, 莫里亚蒂 absorption/reversal plan, and deduction/final identification; missing NP activation detail is recorded."},
+    {"id":"audit-007-combat-effect-layer","status":"passed","finding":"Combat-effect layer covers source-stated bomb, explosion, high-speed attack, heavy damage, switch/ambush, sniping, defeat, sacrifice seal, bait/trap, catapult entry, tower breakthrough, Baal kill, and meteor shattering outcomes; missing choreography is recorded."},
+    {"id":"audit-008-provenance","status":"passed","finding":"Formal records include sourceRefs plus sourceType/credibility/canonStatus; grep readback found no sourceRefs beginning with bare lineStart in extracted or normalized Shinjuku outputs."},
+    {"id":"audit-009-normalized","status":"passed","finding":"normalized/eor/shinjuku index, chapter, events, entities, layers, and provenance files are present; merge status is explicitly not-run."},
+    {"id":"audit-010-json-readback","status":"passed","finding":"Readback/manual JSON syntax review performed during writing; no executable JSON parser was run due to no-code-execution constraint."}
+  ],
+  "openIssues": 0,
+  "blockedIssues": 0,
+  "canAdvance": true
+}

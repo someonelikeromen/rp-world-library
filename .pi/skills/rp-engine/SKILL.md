@@ -1,0 +1,252 @@
+# RP Engine
+
+角色扮演核心引擎。控制 RP 启动、每轮回复、记忆维护、时间跳跃、文风切换、主角生成。
+
+## 触发条件
+
+用户说"启动 RP""开始 RP""继续 RP""开始角色扮演"或表达 RP 意图时激活。
+
+## 0. 启动前确认
+
+1. **视角模式**（首次必须确认）：
+   - **Actor**：用户控制主角；agent 只控制 NPC、环境、事件。
+   - **Director**：agent 控制所有角色；用户只给方向和节奏。
+2. **可选玩法层**：默认 RP / 跑团 / 安科 / 安价 / 混合；成就系统为独立可选外挂层；只有用户明确启用时进入。
+3. **角色卡**：优先用项目本地工具 `card_edit` 读取/维护 `card/` 中已有 JSON；没有则提示用户放入。
+4. **文风**：检查 `style/`；无指定则默认"对话驱动、细腻独白、场景推进明确"。
+5. **世界书**：确认使用的世界观，按 `rp-world-search` skill 定位世界书。
+6. **记忆**：续档读 `memory/`；新档初始化。
+
+## 1. 素材读取顺序（省 token）
+
+```
+card/ → memory/project.md → memory/user.md → memory/feedback.md → style/ → knowledge/（按需）
+```
+
+多世界长期档案必须纳入启动/续档读取。若存在 `memory/world-history.md`，读取顺序为：
+
+```text
+card/ → memory/world-history.md → memory/project.md → memory/user.md → memory/feedback.md → style/ → knowledge/（按需）
+```
+
+`memory/world-history.md` 只读摘要和当前/最近世界段落；涉及成就能量门、跨世界能力适配或世界回访时再精读对应世界记录。
+## 2. 开局
+
+1. Actor/Director 未确认则先问。
+2. 无角色卡 → 提示放入 `card/`。
+3. SillyTavern PNG/WEBP 卡 → 用 `png-card-extractor` skill 提取。
+4. 从卡片提取：角色名、人格、说话方式、scenario、first_mes、alternate_greetings。
+5. 初始化 `memory/project.md`、`memory/user.md`、`memory/feedback.md`。
+6. 输出开场（可沿用卡片 first_mes）并邀请用户行动。
+
+## 3. 每轮回复 — 流水线协议
+
+**严格按以下顺序执行，不可跳步。**
+
+```
+Step 1: 全域推演
+  ├─ 判定场景类型 → 选择思维链
+  │   ├─ 战斗 → Combat Driver（rules/rp-distributed-thinking.md）
+  │   ├─ 社交 → Social Driver
+  │   └─ 探索 → 直接叙事
+  ├─ 运行事件概率引擎（rules/rp-event-probability.md）
+  ├─ 若启用跑团/安科/安价 → 加载 rules/rp-table-session.md 与 rules/rp-anka-ankage.md
+  ├─ 若启用成就系统 → 加载 rules/rp-achievement-system.md 与 rp-achievement skill
+  ├─ 若启用兑换系统 → 加载 rules/rp-exchange-system.md 与 rp-exchange skill
+  ├─ 若启用生命系统树 → 加载 rules/rp-life-system-tree-system.md 与 rp-life-system-tree skill
+  └─ 动态路由加载对应世界书条目（rules/rp-dynamic-routing.md）
+
+Step 2: 叙事生成
+  ├─ 限知视角；Actor/Director 按 rp-mode-control 校验用户意图、角色代写和 NPC 推断
+  ├─ 按文风约束（style/）检查禁词
+  └─ 涉及世界观细节时按需 search
+
+Step 3: 状态结算
+  ├─ 若启用成就系统 → 判定成就触发；触发后即时生成奖励候选，奖励内容与成就内容无关；若与兑换系统联动则改为发放奖励点
+  ├─ 若启用兑换系统 → 处理奖励点发放/扣除、兑换项来源验证、完整性校验与角色卡落盘
+  ├─ 若启用生命系统树 → 处理强敌/世界影响/剧情偏转发点、节点搜索/点亮/升级/自学达成、来源世界观审核与角色卡落盘
+  ├─ 更新角色状态（伤势/魔力/关系/资源）
+  ├─ 更新 memory/project.md
+  └─ 用 `card_edit` 同步 card/*.json 动态字段
+
+Step 4: 暗线推演
+  └─ Subplot Driver：推演场外事件，以环境信号间接呈现
+```
+
+生成前检查：
+
+- 变化：情绪 / 关系 / 信息 / 局势 至少一项推进。
+- 一致性：角色说话是否符合卡片人设、称呼、语气、行为逻辑。涉及NPC时参考心理模型库的禁止规则。
+- 代入：Actor 模式可代写具体行为/对白，但用户意图与代写内容必须经过角色内生推演；重大不可逆选择需要明确方向。
+- 渐进：信息螺旋释放，不一次性倒完秘密。
+- 钩子：结尾留自然行动空间，不替用户收束。
+- 设定：涉及世界观细节时，用 `rp-world-search` skill 按需查询。
+
+输出规范：
+
+- 以叙事正文为主，少写系统解释。
+- 对话推动剧情，动作 + 心理补充动机。
+- 日常慢推进；冲突/高潮逐帧展开。
+- 不主动大幅跳时；代写行为必须符合角色知识、能力、心理、动机、习惯和当前局势。
+
+### 叙事原则
+
+- **价值转换**：每轮推动一个微小变化（情绪/关系/信息/局势/目标/风险）。场景结束时如无变化则需补充冲突、选择或新信息。
+- **信息不对称**：灵活使用三种悬念结构——读者知道>角色知道（戏剧反讽）、角色知道>读者知道（神秘感）、无人全知（悬疑）。信息螺旋释放：回答一个旧问题同时引出新问题。
+- **打破预期**：先用熟悉的类型/关系/场景建立安全感，再给轻微偏转。日常场景也应有意外——一句不合时宜的话、一个异常反应、一条迟来的消息。
+- **情感波浪**：紧张/亲密/困惑/释然/危机在场景间起伏。高潮后留余韵，不急着进入下一个大事件。情绪不平铺直叙。
+
+### 节奏建议
+
+| 场景类型 | 策略 |
+|---------|------|
+| 日常互动 | 重对话、细动作、内心波动 |
+| 冲突 | 明确目标、阻碍、代价、选择 |
+| 悬疑 | 少解释，多给线索和异常 |
+| 情感 | 潜文本 > 直白说明；欲言又止 |
+| 高潮 | 逐帧展开，不压缩关键动作和心理转折 |
+
+## 4. 记忆维护
+
+每 1-3 轮或重要事件后更新 `memory/`。
+
+### `memory/project.md`
+- 当前时间、地点、场景目标
+- 已发生事件摘要
+- 伏笔、未解决冲突、下一步方向
+- 重要 NPC 当前状态和态度变化
+
+### `memory/user.md`
+- 用户角色身份、状态、物品、能力、关系
+- 用户已做出的关键选择
+
+### `memory/feedback.md`
+- 用户喜欢/不喜欢的文风、节奏、尺度、禁区
+- 用户纠正过的角色理解
+
+### `memory/world-history.md`（多世界经历账本）
+- 当前世界：worldId/worldName、当前地点、进入方式、当前世界状态
+- 所有经历世界：已进入、离开、回访、被改变、被锁定或被毁灭的世界
+- 每个世界的时间线：firstEnteredAt、lastSeenAt、exitAt、关键场景和关键选择
+- 世界能量体系：hasEnergySystem、energySystemsEncountered、protagonistExposureLevel、可用/不可用原因
+- 跨世界适配：世界规则、语言/身体/能量接口、能力兼容、限制和代价
+- 跨世界收获：能力、物品、知识、契约、奖励、称号及来源世界
+- 跨世界关系：仍可能延续的 NPC、组织、敌友、债务、契约和追踪者
+- 未结后果：未解决冲突、伏笔、追兵、世界状态变化、回访风险
+
+### 多世界经历链强制更新点
+以下情况必须更新 `memory/world-history.md`，并同步到角色卡相关模块：
+
+1. 进入新世界、离开世界、回访世界或世界线发生重大改变。
+2. 主角首次接触某世界的能量体系、力量规则、语言/身体/灵魂/概念接口。
+3. 获得跨世界能力、道具、知识、契约、奖励或可迁移关系。
+4. 战斗评级、抗性、资源、适配限制因世界规则变化而改变。
+5. 成就系统需要判断当前/历史世界是否存在能量体系或是否已接触能量体系。
+
+同步目标：
+
+- `memory/world-history.md`：叙事履历和长期后果。
+- `memory/user.md`：主角长期状态、能力/物品/关系摘要。
+- `card/<protagonist>/combat/world-adaptation.json`：可计算的世界适配和能量暴露状态。
+- `card/<protagonist>/knowledge/knowledge.json`：主角已知世界知识、秘密和误信。
+- `card/<protagonist>/combat/abilities.json`、`resources.json`、`resistances.json`、`combat-log.json`：能力、资源、抗性、战斗变化。
+## 5. 时间跳跃
+
+用户输入"时间跳跃: ..."：
+
+1. 明确目标：时间、地点、人物状态、期间关键事件。
+2. 1-3 段概括中间变化。
+3. 更新 `memory/project.md`、`memory/user.md`、`memory/world-history.md` 和相关人物状态；涉及主角动态字段时用 `card_edit` 同步目录型主角卡对应模块（尤其 `session`、`worldAdaptation`、`abilities`、`resources`、`combatLog`）。
+4. 在新时间点给出可互动场景。
+
+## 6. 文风切换
+
+1. 读取 `style/` 中对应文件。
+2. 应用到后续输出，但不覆盖角色人格。
+3. 文风与角色冲突时，以角色一致性优先。
+
+## 7. 主角生成（首次使用或用户要求时）
+
+Actor 模式下通过 Q&A 生成主角：
+
+1. 身份：本地人 / 外来者 / 穿越者 / 转生者 / 召唤者 / 觉醒者 / 未知。
+2. 知识：是否知道穿越/原作/世界设定？可信度？
+3. 强度：初始范围 + 允许峰值。
+4. 属性：生命类型、基础倾向、资源、弱点。
+5. 内在：核心欲望、底线、公开/隐藏身份。
+6. 可选外挂/穿越理由。
+7. 初始：能力、物品、关系、知识。
+
+原则：不预设具体角色；能力落到具体数据；外挂必须记录限制和代价。
+
+## 8. 默认边界
+
+- 不把用户意图当裁决；可代写具体行为/对白，但必须通过角色内生推演，重大不可逆选择需明确方向。
+- 不开启复杂工程化 runtime（除非用户确认）。
+- 不把备用仓库大量规则读入上下文。
+- 边界/雷点/尺度要求写入 `memory/feedback.md`。
+
+## 9. 转述规则（用户输入处理）
+
+三种模式：
+- **分段转述（默认）**：判断输入类型。角色扮演输入→自然融入正文保留引号原话。指令输入→不写成用户行为，直接推动NPC/环境。括号内容视为元指令隐式融入
+- **不要转述**：用户消息已是故事一部分，直接从用户停下的位置继续
+- **直接转述**：将用户输入自然融入叙事开头
+
+## 10. 抢话层级
+
+| 层级 | 说明 |
+|------|------|
+| 禁止抢话（Actor默认） | 只控NPC和环境。不替用户发言/行动/推测内心 |
+| 微抢话 | 可替用户说话，禁替用户行动或选择 |
+| 正常抢话 | 可替用户对白+行动 |
+| 大量抢话（Director） | 大幅推动剧情 |
+
+## 11. POV
+
+- 第二人称用户视角（Actor默认）："你"指用户
+- 第一人称用户视角："我"指用户
+- 第三人称近距离：所有角色他/她
+- 多视角轮换：每段一个主控视角
+
+## 12. 内心OS
+
+NPC内心用 `*` 包裹穿插正文。触发：言行反差/重大决定/情绪波动/关键动作前后。每场景2-3条。
+
+## 13. 叙事参数（可选调控）
+
+对白量（高/中/低/不限）、推进速度（快/正常/慢）、剧情烈度（平缓/正常/激烈）
+
+## 14. 关联规则文件
+
+按需加载：`rules/rp-jailbreak.md`、`rules/rp-quality-check.md`、`rules/rp-anti-cliche.md`、`rules/rp-anti-omniscience.md`、`rules/rp-output-format.md`、`rules/rp-language-system.md`、`rules/rp-background-npc.md`
+
+## 相关 Skills & Rules
+
+- `rp-world-search`：世界信息搜索与渐进式加载
+- `rp-combat`：战斗结算
+- `rp-dice`：骰子掷骰
+- `rp-achievement`：主角专属隐藏成就、奖励随机或联动兑换点、手动领取与角色卡落盘
+- `rp-exchange`：主角专属奖励点兑换、完整兑换项验证、来源核实与多世界框架落盘
+- `rp-life-system-tree`：主角专属生命系统树、科技 UI、节点搜索/点亮/升级/自学达成、来源世界观审核与多世界框架落盘
+- `png-card-extractor`：PNG 角色卡提取
+- `rp-graph`：关系/知识图谱
+- `rp-curation`：世界归档
+
+### 心理模型库
+- `knowledge/character-psyche/` — 46个ACG角色心理模型
+- 生成新NPC时：读取对应心理模型的 detail 字段获取完整行为规则
+- 角色一致性检查：对比角色当前行为与模型中的"禁止规则"（`psyche.forbiddenRules`）
+- 角色演化：参考 `knowledge-graph.json` 中的 evolves-to 关系
+- 组合：`knowledge-graph.json` 中的 combines-with 关系
+
+### 思维链规则
+- `rules/rp-mode-control.md` — Actor/Director、用户意图校验、角色内生推演、NPC 防上帝视角与感知合法性
+- `rules/rp-distributed-thinking.md` — 战斗/社交/暗线/世界四域思维链
+- `rules/rp-event-probability.md` — 事件概率引擎
+- `rules/rp-dynamic-routing.md` — 动态世界书路由
+- `rules/rp-nsfw.md` — NSFW 场景管理
+
+### 文风
+- `style/` — 47 文风文件
+- 世界特定文风约束在对应 `curated/<world>/style-constraints.md`

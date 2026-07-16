@@ -1,0 +1,46 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "rakudai-kishi",
+  "character_id": "ikki-kurogane",
+  "volume": "vol-01",
+  "time_range": { "start": "vol-01 prologue", "end": "vol-01 epilogue" },
+  "sub_arcs": ["arrival-roommate-duel", "selection-battle-debut", "stella-romance-rival-promise"],
+  "periods": [
+    {
+      "period_id": "vol-01",
+      "volume": "vol-01",
+      "time": "First school term, selection battle opening",
+      "label": "落第骑士的正式初战",
+      "name": { "zh": "黑铁一辉", "en": "Ikki Kurogane", "jp": "黒鉄一輝" },
+      "aliases": ["落第骑士", "Worst One", "无冕剑王", "Another One"],
+      "titles": ["破军学园一年一班学生骑士", "黑铁龙马曾孙"],
+      "gender": "male",
+      "species": "human / Blazer",
+      "nationality": "Japan",
+      "occupation": "student knight",
+      "affiliation": "Hagun Academy; estranged Kurogane family",
+      "status": { "rank": "F", "selection_battle_record": "1 win after defeating Shizuya Kirihara", "relationship": "becomes Stella Vermillion's boyfriend and rival" },
+      "appearance": { "overview": "Gentle-looking, modest Japanese boy with a trained, lean fighter's body.", "physical": { "height": "average", "build": "lean, hardened by severe daily training", "hair": {}, "eyes": {} }, "attire": { "default": "Hagun uniform or jogging clothes", "combat": "uses the black katana Device Intetsu" }, "voice_quality": {}, "distinctive": ["habitual troubled smile", "broad trained back noticed by Stella"] },
+      "personality": { "summary": "Courteous, self-effacing and stubbornly resilient; he refuses to surrender his dream despite institutional and family rejection.", "core_traits": ["polite", "empathetic", "persistent", "analytical", "self-sacrificing"], "values": ["prove human worth beyond innate talent", "become a magic knight", "honor fair promises", "protect others"], "fears": ["his years of effort being meaningless", "hurting people who believe in him"], "desires": ["win the Seven Stars Sword Art Festival", "become someone who can tell others not to give up", "face Stella again at the summit"], "strengths": ["extreme sword insight", "physical conditioning", "tactical reading", "willpower"], "flaws": ["too used to enduring pain", "can miss his own fear and exhaustion", "socially naive around girls"], "inner_conflict": "He wants to prove himself as a knight while carrying trauma from family rejection, school suppression, and public humiliation.", "decision_pattern": { "combat": "observe, decode, then counter; uses Ittou Shura only when the match must end immediately" } },
+      "voice": { "self_reference": "僕 / 我", "address_pattern": { "stella": "initially 史黛菈同学, later 史黛菈", "shizuku": "珠雫" }, "register": { "default": "polite, mild" }, "catchphrases": [], "quote_samples": ["我将以我的最弱，击破你的最强。", "我绝对会赢。"] },
+      "habits": { "mannerisms": ["smiles apologetically", "bows or apologizes even when not at fault"], "daily_routine": "Runs roughly twenty kilometers each morning with sprint intervals.", "quirks": ["poor at handling aggressive romantic advances", "tends to shoulder blame"], "preferences": { "food": "simple meals such as udon" } },
+      "background": { "birth": { "place": "Kurogane household, Japan", "family": ["Kurogane Ryoma (great-grandfather)", "Kurogane Shizuku (younger sister)"] }, "upbringing": "Born into an elite Blazer family but treated as nonexistent because of F-rank magic; locked away from family gatherings and training.", "education": { "school": "Hagun Academy", "year": "repeating first year due to previous administration blocking practical credits" }, "formative_events": ["Kurogane Ryoma encouraged him not to give up during a childhood snowstorm", "left the Kurogane house four years before vol-01", "was bullied and denied official practice in his first year at Hagun"], "pre_story": "Endured family and institutional pressure intended to keep him from graduating as a magic knight." },
+      "abilities_owned": ["Intetsu", "Ittou Shura", "Blade Steal", "Perfect Vision", "Raikou"],
+      "possessions_owned": ["student handbook", "water bottle", "medical kit"],
+      "relationships": { "stella-vermillion": "Roommate, first defeated opponent, later girlfriend and promised final rival.", "shizuku-kurogane": "Younger sister who loves him intensely; he sees her as precious family.", "nagi-arisuin": "New friend who recognizes his suppressed pain.", "shizuya-kirihara": "Former classmate and bully; defeated in first selection battle.", "shinguji-kurono": "Chairwoman who restored his chance to fight." },
+      "knowledge": ["Kurogane family pressure on Hagun", "Stella's sword rhythm after copying it", "Kirihara's combat psychology after enduring his arrows"],
+      "secrets": ["His Ittou Shura destroys normal limits for one minute but leaves him nearly helpless afterward."],
+      "summary": "Ikki begins the volume as Hagun's F-rank repeat student and alleged Worst One. After an accidental first meeting with Stella, he defeats her in a duel by using Ittou Shura. He reconnects with Shizuku, helps resolve a Rebellion hostage crisis, then overcomes trauma and Kirihara's invisible attacks in his first official selection battle. Stella's public defense restores his spirit, and he ends the volume by confessing to her and promising to meet her in the Seven Stars final.",
+      "key_events": [
+        { "event_id": "morning-room-encounter", "summary": "Accidentally walks in on Stella changing in their assigned dorm room.", "sourceRef": "ch-001" },
+        { "event_id": "ikki-vs-stella-duel", "summary": "Defeats A-rank Stella using Ittou Shura after decoding her swordsmanship.", "sourceRef": "ch-002" },
+        { "event_id": "mall-rebellion-hostage-incident", "summary": "Cuts off Smile's Judgment Ring hands and helps free hostages.", "sourceRef": "ch-004" },
+        { "event_id": "ikki-vs-kirihara-selection-battle", "summary": "Endures Kirihara's invisible arrows, learns his psychology, and wins the first selection match.", "sourceRef": "ch-005" },
+        { "event_id": "moonlit-confession-rival-promise", "summary": "Confesses to Stella and promises to fight her again at the summit.", "sourceRef": "ch-006" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["rakudai-kishi-main/vol-01/ch-001", "rakudai-kishi-main/vol-01/ch-002", "rakudai-kishi-main/vol-01/ch-003", "rakudai-kishi-main/vol-01/ch-004", "rakudai-kishi-main/vol-01/ch-005", "rakudai-kishi-main/vol-01/ch-006"]
+    }
+  ],
+  "source_refs": ["rakudai-kishi-main/vol-01"]
+}

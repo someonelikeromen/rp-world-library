@@ -1,0 +1,52 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "mercenary-command",
+  "volume": "vol-09",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-09/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-09",
+      "volume": "vol-09",
+      "time": "vol-09",
+      "name": {
+        "zh": "佣兵指挥",
+        "en": "Mercenary Command"
+      },
+      "aliases": [
+        "龙匪贼师团指挥"
+      ],
+      "type": "combat / command",
+      "description": "龙匪贼师团长级人物指挥佣兵机龙使、组织撤退和执行遗迹攻略相关行动的能力。",
+      "details": {
+        "users": [
+          "drakken",
+          "gatouhan",
+          "bain"
+        ]
+      },
+      "activation": {
+        "condition": "佣兵部队与作战目标",
+        "incantation": "",
+        "time": "planned operation",
+        "cost": "部队战力"
+      },
+      "effects": [
+        "统率机龙使",
+        "组织袭击与撤退",
+        "执行雇主目标"
+      ],
+      "shared_by": [
+        "drakken",
+        "gatouhan",
+        "bain"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:6737"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "tm-tsukihime-extracted-record-set-v1",
+  "packetId": "dead-apostles-roa",
+  "recordSetId": "france-incident-roa-remake-candidate",
+  "status": "generated-pending-audit",
+  "candidateOnly": true,
+  "records": [
+    {
+      "recordId": "ext-france-remake-body-destruction-impulse-001",
+      "recordType": "combat-effect-candidate",
+      "candidateOnly": true,
+      "subject": "米海尔·罗亚·法尔丹姆杨 / 艾蕾西亚",
+      "summary": "Remake Ciel source says Roa's consciousness began waking when Elesia was twelve and produced impulses toward bodily destruction of others.",
+      "effectRaw": "12岁时罗亚意识开始苏醒; 产生针对他人的肢体破坏冲动",
+      "continuityTaxonomy": {"category": "remake", "rawSourceLabels": ["重制版"], "sourceAvailability": "supported-profile-signal; Roa standalone profile absent"},
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:49"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    },
+    {
+      "recordId": "ext-france-remake-ritual-and-roa-kill-001",
+      "recordType": "combat-effect-candidate",
+      "candidateOnly": true,
+      "subject": "米海尔·罗亚·法尔丹姆杨 / 爱尔奎特 / 二十七祖",
+      "summary": "Remake Ciel source says Roa controlled all town residents, collected blood, invited multiple Twenty-seven Ancestors for an anti-Arcueid ritual, and Arcueid intervened to kill the fifteenth Roa; the Church named the event the France Incident.",
+      "effectRaw": "罗亚控制全镇居民并收集血液; 邀请多位二十七祖举行针对爱尔奎特的仪式; 爱尔奎特介入击杀第十五世罗亚; 法兰西事变",
+      "continuityTaxonomy": {"category": "remake", "rawSourceLabels": ["重制版", "二十七祖"], "sourceAvailability": "supported-profile-signal; no standalone Roa/Ancestor profiles"},
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:50"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    }
+  ]
+}

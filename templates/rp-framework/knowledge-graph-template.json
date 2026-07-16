@@ -1,0 +1,31 @@
+{
+  "schema": "rp-knowledge-graph-v1",
+  "worldId": "",
+  "nodes": [
+    {
+      "id": "",
+      "label": "",
+      "aliases": [],
+      "type": "fact / secret / rumor / event / location / faction / character / item / vehicle / construct / power-system / ability / rule / clue / quest / memory",
+      "visibility": "public / private / gm-only / locked / false-rumor",
+      "summary": "",
+      "detail": "",
+      "sourceRefs": [],
+      "relatedCharacterIds": [],
+      "relatedLocationIds": [],
+      "evidenceLevel": "B"
+    }
+  ],
+  "edges": [
+    {
+      "from": "",
+      "to": "",
+      "type": "causes / reveals / contradicts / requires / located-in / owned-by / belongs-to / teaches / counters / supports / hides / points-to",
+      "label": "",
+      "strength": "weak / medium / strong",
+      "visibility": "public",
+      "sourceRefs": [],
+      "notes": ""
+    }
+  ]
+}

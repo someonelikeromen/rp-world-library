@@ -1,0 +1,141 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "gluttony",
+  "volume": "vol-17",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-17/full.txt:6000"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-17",
+      "volume": "vol-17",
+      "time": "游行循环与箱庭战",
+      "name": {
+        "zh": "暴食",
+        "en": "Gluttony"
+      },
+      "aliases": [
+        "《暴食》",
+        "巴哈姆特神装"
+      ],
+      "type": "technology / combat",
+      "description": "《巴哈姆特》的神装能力,前五秒压缩并弱化能量与现象,后五秒爆发性释放强化效果。路克斯和弗基尔都用它进行高速攻防、时间压缩和反制。",
+      "details": {
+        "drag_ride": "bahamut",
+        "principle": "时间压缩强化与延迟释放",
+        "users": [
+          "lux-arcadia",
+          "fugil-arcadia"
+        ]
+      },
+      "activation": {
+        "condition": "穿戴《巴哈姆特》并启动神装",
+        "incantation": "《暴食》",
+        "time": "瞬时;以五秒为基本节奏",
+        "cost": "高能量消耗与身体负担"
+      },
+      "effects": [
+        "压缩周围或目标时间/能量",
+        "后段大幅加速与强化",
+        "可与敌方暴食叠加制造极端速度差"
+      ],
+      "power_level": {
+        "initial": "高",
+        "peak": "神装机龙级",
+        "evolution": [
+          "路克斯在箱庭利用弗基尔的暴食后段叠加自己的前段,创造决定性速度差"
+        ]
+      },
+      "known_feats": [
+        {
+          "summary": "路克斯和弗基尔在箱庭双双启动暴食进行高速斩击。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-17/full.txt:6000"
+        },
+        {
+          "summary": "路克斯利用双方暴食时间差击败圣蚀克隆体。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-17/full.txt:6700"
+        }
+      ],
+      "shared_by": [
+        "lux-arcadia",
+        "fugil-arcadia"
+      ],
+      "see_also": [
+        "bahamut",
+        "end-action",
+        "endless-chain"
+      ],
+      "countered_by": [],
+      "counters": [],
+      "variations": [
+        "对自身加速",
+        "对目标时间减速",
+        "光线强化遮蔽视野"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-17/full.txt:6000",
+        "saijaku-muhai-bahamut-main/vol-17/full.txt:6700"
+      ]
+    },
+    {
+      "period_id": "vol-18-main",
+      "volume": "vol-18",
+      "time": "古代森林决战",
+      "name": {
+        "zh": "暴食",
+        "en": "Gluttony"
+      },
+      "aliases": [
+        "巴哈姆特神装"
+      ],
+      "type": "technology / combat",
+      "description": "神装机龙巴哈姆特的神装，可压缩或延迟目标时间，制造减速与爆发攻击窗口。",
+      "effects": [
+        "短时间压缩目标时间",
+        "配合神速制御创造决定性反击"
+      ],
+      "shared_by": [
+        "lux-arcadia"
+      ],
+      "see_also": [
+        "bahamut-divine-drag-ride"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-18/full.txt:4826-4870",
+        "saijaku-muhai-bahamut-main/vol-18/full.txt:7148-7168"
+      ]
+    },
+    {
+      "period_id": "vol-19",
+      "volume": "vol-19",
+      "time": "古代森林决战",
+      "name": {
+        "zh": "暴食",
+        "en": "Gluttony"
+      },
+      "aliases": [
+        "巴哈姆特神装"
+      ],
+      "type": "technology / combat",
+      "description": "巴哈姆特的神装，可压缩或减缓指定对象的时间流。路克斯在本卷用其突破莉夏的重力球、减轻天声负荷并发动超加速攻击。",
+      "effects": [
+        "时间压缩强化",
+        "减缓外界现象",
+        "配合神速制御突破重力球"
+      ],
+      "shared_by": [
+        "lux-arcadia"
+      ],
+      "see_also": [
+        "world-rewriting-system"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-19/full.txt:1697-6600"
+      ]
+    }
+  ]
+}

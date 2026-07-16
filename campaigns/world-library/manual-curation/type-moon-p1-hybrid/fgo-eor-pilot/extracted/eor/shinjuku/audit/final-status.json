@@ -1,0 +1,35 @@
+{
+  "schema": "tm-fgo-packet-final-status-v1",
+  "chapterId": "fgo-eor-shinjuku",
+  "packetId": "pkt-fgo-eor-shinjuku-extract",
+  "model": "lt-yuyu/gpt-5.5",
+  "status": "passed",
+  "latestAuditRound": 2,
+  "latestAuditStatus": "passed",
+  "openIssues": 0,
+  "blockedIssues": 0,
+  "canAdvance": true,
+  "mergeRun": false,
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like",
+  "sourceRefs": [{"sourceUnitId":"src-fgo-eor-shinjuku","path":"sources/worldbook-script/eor/ch-089-shinjuku.txt","lineStart":18,"lineEnd":105}],
+  "coverage": {
+    "rawEventRange": "事件A-事件S",
+    "eventsExtracted": 19,
+    "quotesExtracted": 27,
+    "quotesSkipped": 0,
+    "appearanceLayer": "passed",
+    "abilityLayer": "passed",
+    "combatEffectLayer": "passed",
+    "notFoundInSourceRecords": 5,
+    "normalizedOutputs": "present",
+    "packetAuditOutputs": "present"
+  },
+  "validationNotes": [
+    "Source text gate was already passed before extraction.",
+    "Generator -> Auditor -> Fixer -> Auditor rerun completed internally for Shinjuku.",
+    "No bash/shell/python/node/deno/powershell/cmd or executable validation was used.",
+    "Merge was intentionally not run."
+  ]
+}

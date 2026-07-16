@@ -1,0 +1,25 @@
+{
+  "schema": "tm-p1-event-v1",
+  "event_id": "ubw-evt-007-einzbern-ideal-duel-and-grail-vessel-reveal",
+  "worldId": "type-moon-nasuverse",
+  "continuity": "fsn",
+  "timelineId": "fsn-ubw-route",
+  "route": "ubw-route",
+  "canonStatus": "canon-like",
+  "time": { "start": { "value": null, "precision": "relative-only", "relative": "UBW route day fifteen", "orderIndex": 364 }, "end": { "value": null, "precision": "relative-only", "relative": "UBW route day fifteen end", "orderIndex": 376 }, "duration": "same-day", "confidence": "medium" },
+  "timelineNodes": [
+    { "nodeId": "start", "label": "Lancer saves Rin", "time": { "relative": "Day fifteen castle battle", "orderIndex": 364 }, "summary": "Lancer refuses Kirei's order to kill Rin and dies by Command Spell-forced suicide, then retaliates." },
+    { "nodeId": "middle-001", "label": "Shirou vs Archer", "time": { "relative": "Ideal duel", "orderIndex": 370 }, "summary": "Archer reveals his despair as a Counter Guardian; Shirou accepts the ideal as hypocritical but beautiful." },
+    { "nodeId": "end", "label": "Shinji vessel", "time": { "relative": "After Archer duel", "orderIndex": 376 }, "summary": "Gilgamesh reveals the Grail as Angra Mainyu and implants Illya's heart in Shinji as vessel." }
+  ],
+  "participants": ["emiya-shirou", "archer-emiya", "tohsaka-rin", "lancer-cu-chulainn", "kotomine-kirei", "gilgamesh", "matou-shinji"],
+  "locationRefs": ["einzbern-castle"],
+  "cause": "Archer demands a duel with Shirou while Gilgamesh moves toward Grail completion using Rin and Shinji.",
+  "process": "Lancer rescues Rin, Shirou defeats Archer ideologically and physically under Avalon support, and Gilgamesh reveals the polluted Grail vessel plan.",
+  "outcome": "Archer is defeated but later protects Shirou, Lancer and Kirei are removed from the route conflict, and Shinji becomes the Grail vessel.",
+  "stateChanges": ["Lancer dies", "Kirei is burned after Lancer's retaliation", "Archer is defeated", "Shinji becomes Grail vessel"],
+  "relationshipChanges": ["Shirou rejects Archer's despair while retaining the same ideal", "Rin supports Shirou's route away from Archer's fate"],
+  "sourceType": "curated-story-derived",
+  "credibility": "B",
+  "sourceRefs": ["type-moon-nasuverse/story-text/fate/ch-003-ubw-route.txt:95", "type-moon-nasuverse/story-text/fate/ch-003-ubw-route.txt:97", "type-moon-nasuverse/story-text/fate/ch-003-ubw-route.txt:98", "type-moon-nasuverse/story-text/fate/ch-003-ubw-route.txt:99", "type-moon-nasuverse/story-text/fate/ch-003-ubw-route.txt:100", "type-moon-nasuverse/story-text/fate/ch-003-ubw-route.txt:101"]
+}

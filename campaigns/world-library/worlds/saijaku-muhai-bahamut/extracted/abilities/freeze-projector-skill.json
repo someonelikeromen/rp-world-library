@@ -1,0 +1,56 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "freeze-projector-skill",
+  "volume": "vol-06",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:5480",
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:7080"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-06",
+      "volume": "vol-06",
+      "time": "本卷",
+      "name": {
+        "zh": "冻息投射运用",
+        "en": "Freeze Projector Skill"
+      },
+      "aliases": [
+        "冷冻弹狙击"
+      ],
+      "type": "technology / combat",
+      "description": "库露露席法以冻息投射进行高精度冷冻弹射击，封锁目标关节或击停机龙。",
+      "details": {
+        "weapon": "freeze-projector"
+      },
+      "activation": {
+        "condition": "持有冻息投射",
+        "incantation": "无",
+        "time": "瞬间",
+        "cost": "弹药与瞄准"
+      },
+      "effects": [
+        "冷冻部件",
+        "封锁炮口或关节",
+        "零距离冲击机龙核心"
+      ],
+      "known_feats": [
+        "冷冻迪亚玛特失控炮口与巨兵右臂关节，击败葛莱法"
+      ],
+      "shared_by": [
+        "krulcifer-einfolk"
+      ],
+      "see_also": [
+        "fafnir",
+        "freeze-projector"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:5480",
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:6470",
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:7080"
+      ]
+    }
+  ]
+}

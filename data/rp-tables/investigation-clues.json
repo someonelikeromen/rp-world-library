@@ -1,0 +1,12 @@
+{
+  "id": "investigation-clues",
+  "name": "调查线索表",
+  "type": "d100",
+  "entries": [
+    { "range": [1, 20], "id": "none", "text": "未发现有效线索，但可能留下时间消耗" },
+    { "range": [21, 45], "id": "ambiguous", "text": "发现模糊异常，需要进一步确认" },
+    { "range": [46, 70], "id": "partial", "text": "发现部分线索，可缩小范围" },
+    { "range": [71, 90], "id": "clear", "text": "发现明确线索，但不自动得出完整真相" },
+    { "range": [91, 100], "id": "extra", "text": "发现额外线索或隐藏关联；必须符合感知与调查能力" }
+  ]
+}

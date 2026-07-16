@@ -1,0 +1,85 @@
+{
+  "schema": "tm-tsukihime-extracted-source-fragment-v1",
+  "packetId": "core-systems",
+  "recordId": "source-fragment-ciel-core-signals",
+  "status": "generated-pending-audit",
+  "sourceUnitId": "src-dlc-tsukihime-ciel",
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "continuityTags": ["original", "remake"],
+  "rawLabels": ["同人版", "重制版", "希耶尔", "圣堂教会", "埋葬机关", "罗亚系"],
+  "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:21"],
+  "fragments": [
+    {
+      "fragmentId": "ciel-dead-apostle-roa-status-original-001",
+      "kind": "dead-apostle-status-signal",
+      "summary": "Original Ciel is labeled human → Dead Apostle → human, magus, and Dead Apostle (Roa line).",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:17"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted",
+      "continuityTags": ["original"]
+    },
+    {
+      "fragmentId": "ciel-age-metadata-melty-blood-original-001",
+      "kind": "age-metadata-signal",
+      "summary": "Original Ciel age metadata lists body age 16 for Tsukihime, 17 for Melty Blood, and 18 for Melty Blood AA; psychological age 22 and actual age 24 are listed for Tsukihime.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:18"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted",
+      "continuityTags": ["melty-blood"]
+    },
+    {
+      "fragmentId": "ciel-church-burial-agency-original-001",
+      "kind": "organization-signal",
+      "summary": "Original Ciel belongs to the Holy Church Burial Agency, is the seventh-ranked Executor, holds the Seventh Holy Scripture, and was a Roa reincarnation vessel.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:19", "sources/worldbook-profile/dlc-tsukihime-ciel.txt:21"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted",
+      "continuityTags": ["original"]
+    },
+    {
+      "fragmentId": "ciel-church-burial-agency-remake-001",
+      "kind": "organization-signal",
+      "summary": "Remake Ciel is described as a Holy Church Burial Agency seventh-ranked member who was formerly a Roa reincarnation vessel and acts as Shiki's school upperclassman in Souya High.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:42", "sources/worldbook-profile/dlc-tsukihime-ciel.txt:43", "sources/worldbook-profile/dlc-tsukihime-ciel.txt:44"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted",
+      "continuityTags": ["remake"]
+    },
+    {
+      "fragmentId": "ciel-seventh-scripture-001",
+      "kind": "conceptual-weapon-equipment-signal",
+      "summary": "Original source identifies the Seventh Holy Scripture as Ciel's permitted conceptual weapon, an anti-reincarnation instrument embodied as a giant pile-bunker firearm; remake source says she can transform it into pile-driver, greatsword, firearm, and ballista forms.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:37", "sources/worldbook-profile/dlc-tsukihime-ciel.txt:59"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted",
+      "continuityTags": ["original", "remake"]
+    },
+    {
+      "fragmentId": "ciel-france-incident-effect-001",
+      "kind": "timeline-and-combat-effect-signal",
+      "summary": "Original source says Roa took over Elesia's body, used it for a ritual to lure Arcueid, the whole town was killed, and Arcueid killed Roa two days later; remake source states Roa controlled townspeople, gathered blood, invited multiple Twenty-seven Ancestors, and Arcueid intervened to kill the fifteenth Roa.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:29", "sources/worldbook-profile/dlc-tsukihime-ciel.txt:30", "sources/worldbook-profile/dlc-tsukihime-ciel.txt:31", "sources/worldbook-profile/dlc-tsukihime-ciel.txt:49", "sources/worldbook-profile/dlc-tsukihime-ciel.txt:50"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted",
+      "continuityTags": ["original", "remake"]
+    },
+    {
+      "fragmentId": "ciel-remake-principle-blood-ring-001",
+      "kind": "ability-cost-signal",
+      "summary": "Remake source says Principle Blood Rings can weave great magecraft or be consumed as furnaces to replenish magical energy, with costs of bodily burden and loss of humanity.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:60"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted",
+      "continuityTags": ["remake"]
+    }
+  ]
+}

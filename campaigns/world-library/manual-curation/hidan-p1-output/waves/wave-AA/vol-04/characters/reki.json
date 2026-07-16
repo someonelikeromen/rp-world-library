@@ -1,0 +1,37 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "hidan-no-aria",
+  "character_id": "reki",
+  "volume": "vol-04",
+  "time_range": { "start": "台场购物", "end": "台场购物后" },
+  "sub_arcs": ["shachi"],
+  "periods": [
+    {
+      "period_id": "vol-04",
+      "volume": "vol-04",
+      "time": "暑假",
+      "label": "沉默的狙击手",
+      "name": { "zh": "蕾姬", "en": "Reki", "jp": "レキ" },
+      "aliases": [],
+      "titles": ["东京武侦高中狙击手"],
+      "gender": "female",
+      "species": "human",
+      "nationality": "Japanese",
+      "occupation": "武侦高中学生",
+      "affiliation": "tokyo-butei-high",
+      "status": { "alive": true, "condition": "平安" },
+      "appearance": { "overview": "短发美少女，面无表情；带白毛大型犬艾马基。", "distinctive": ["总是面无表情", "携带高加索白银狼艾马基"] },
+      "personality": { "summary": "沉默寡言，行动重于言语。", "core_traits": ["冷静", "寡言", "精准"], "values": [], "strengths": ["超远程狙击"] },
+      "abilities_owned": ["rifle-marksmanship"],
+      "possessions_owned": ["reki-dragunov"],
+      "relationships": { "kanzaki-aria": { "type": "ally/roommate", "summary": "与亚莉亚一起在台场购物，狙击射断缎带救日里。" }, "mamiya-hikari": { "type": "rescuer", "summary": "以德拉古诺夫狙击枪射断吊起日里的缎带。" } },
+      "summary": "蕾姬在本卷台场陪同亚莉亚购物时，以精密狙击射断吊起日里脖子的缎带，救下日里一命。",
+      "key_events": [
+        { "event_id": "shachi-aria-duel", "summary": "在台场远处狙击射断吊起日里的缎带。", "sourceRef": "hidan-no-aria-aa/vol-04/full.txt" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["hidan-no-aria-aa/vol-04/full.txt"]
+    }
+  ],
+  "source_refs": ["hidan-no-aria-aa/vol-04/full.txt"]
+}

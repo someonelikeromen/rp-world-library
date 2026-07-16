@@ -1,0 +1,22 @@
+{
+  "schema": "tm-fgo-packet-audit-v1",
+  "packetId": "pkt-fgo-eor-shimousa-extract",
+  "chapterId": "fgo-eor-shimousa",
+  "round": 1,
+  "auditor": "internal",
+  "model": "lt-yuyu/gpt-5.5",
+  "status": "failed",
+  "openIssues": 5,
+  "blockedIssues": 0,
+  "issues": [
+    {"id":"shimousa-audit-001-001","severity":"error","finding":"Initial Shimousa extraction lacked mandatory dialogue index and all quoted lines were not represented as dialogueRefs beyond event pointers.","requiredFix":"Create dialogue/dialogue-index.json with all 36 quoted lines and no skipped quotes unless source-backed."},
+    {"id":"shimousa-audit-001-002","severity":"error","finding":"Initial Shimousa extraction lacked mandatory appearance-signals and not-found-in-source coverage for missing visual details.","requiredFix":"Create appearance-signals/index.json and not-found-in-source records for absent character/outfit/equipment visuals."},
+    {"id":"shimousa-audit-001-003","severity":"error","finding":"Initial Shimousa extraction lacked mandatory ability/noble-phantasm/skill signals and missing-detail records.","requiredFix":"Create ability-signals/index.json with source-backed mechanics and not-found records for omitted activation visuals."},
+    {"id":"shimousa-audit-001-004","severity":"error","finding":"Initial Shimousa extraction lacked mandatory combat-effect records with targets, results, consequences, and not-found details.","requiredFix":"Create combat-effect-signals/index.json and combat not-found markers."},
+    {"id":"shimousa-audit-001-005","severity":"error","finding":"Normalized outputs and packet audit final-status were absent.","requiredFix":"Create normalized/eor/shimousa outputs and audit/packet-audits/eor/shimousa reports through audit rerun."}
+  ],
+  "sourceRefs": [{"path":"sources/worldbook-script/eor/ch-091-shimousa.txt","lineStart":1,"lineEnd":108}],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

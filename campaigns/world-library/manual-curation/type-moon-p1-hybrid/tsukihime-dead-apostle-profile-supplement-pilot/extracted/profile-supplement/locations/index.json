@@ -1,0 +1,44 @@
+{
+  "schema": "tm-tsukihime-extracted-packet-index-v1",
+  "packetId": "locations",
+  "stage": "stage-2-wave-2-packet-generation",
+  "status": "generated-pending-audit",
+  "generatedAt": "2026-07-15",
+  "worldId": "type-moon-nasuverse",
+  "project": "tsukihime-dead-apostle-profile-supplement-pilot",
+  "sourceRefsRead": [
+    "sources/worldbook-profile/dlc-tsukihime-locations.txt",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt",
+    "sources/worldbook-profile/dlc-tsukihime-arcueid.txt",
+    "sources/worldbook-profile/dlc-tsukihime-ciel.txt"
+  ],
+  "continuityTaxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy",
+  "rawLabelMappingsApplied": {
+    "三咲町": "original-context location label where source lines use the town name",
+    "总耶市": "remake-context replacement label where source lines use the city name",
+    "重制版": "remake",
+    "Melty Blood": "melty-blood explicit mention; candidate-only unless supported by packet source text"
+  },
+  "scopeNotes": [
+    "Locations packet output is source-signal and normalized-fragment only; it does not create formal location, event, relationship, graph, or timeline records.",
+    "Cross-work setting labels from the source are preserved as candidate/context signals rather than promoted into canonical continuity facts.",
+    "Ahnenerbe and Aozaki house are not found in the assigned Stage 1 source text; Aozaki town-control and magic-foundation context is source-backed."
+  ],
+  "recordFiles": [
+    "records/misaki-souya-continuity-signals.json",
+    "records/tohno-mansion-and-underground-signals.json",
+    "records/school-residential-public-location-signals.json",
+    "records/apartment-and-food-location-signals.json",
+    "records/continuity-scoped-profile-location-signals.json",
+    "records/crossover-location-candidate-signals.json",
+    "records/not-found-signals.json"
+  ],
+  "forbiddenAggregateCheck": {
+    "charactersJsonCreated": false,
+    "eventsJsonCreated": false,
+    "relationshipsJsonCreated": false,
+    "factsJsonCreated": false,
+    "graphJsonCreated": false,
+    "timelineJsonCreated": false
+  }
+}

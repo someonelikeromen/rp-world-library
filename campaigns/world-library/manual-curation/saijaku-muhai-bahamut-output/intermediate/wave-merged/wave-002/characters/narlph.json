@@ -1,0 +1,63 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "narlph",
+  "volume": "vol-09",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-09/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-09",
+      "volume": "vol-09",
+      "time": "世界高峰会前会议",
+      "name": {
+        "zh": "那鲁夫宰相",
+        "en": "Narlph",
+        "jp": ""
+      },
+      "aliases": [
+        "新王国宰相"
+      ],
+      "gender": "male",
+      "species": "human",
+      "nationality": "亚提司玛特新王国",
+      "occupation": "宰相",
+      "affiliation": "亚提司玛特新王国政府",
+      "status": {
+        "condition": "active",
+        "role": "安排与创造主相关的政策会议"
+      },
+      "abilities_owned": [
+        "government-administration"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "lux": {
+          "type": "government contact",
+          "summary": "听取路克斯对龙匪贼目标的推理。"
+        },
+        "dist": {
+          "type": "colleague",
+          "summary": "与迪斯特共同代表重臣。"
+        },
+        "lisha": {
+          "type": "government support",
+          "summary": "说明莉夏将代理女王出席会议。"
+        }
+      },
+      "summary": "那鲁夫宰相参与新王国高峰会前会议，负责行政手续与向女王报告遗迹情报。",
+      "key_events": [
+        {
+          "event_id": "pre-summit-policy-meeting",
+          "summary": "主持与创造主、龙匪贼和遗迹情报有关的会议。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-09/full.txt:1"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "syr-flova",
+  "volume": "vol-08",
+  "time_range": { "start": "第五章", "end": "第五章" },
+  "sub_arcs": ["城市姑娘的秘密"],
+  "periods": [
+    {
+      "period_id": "vol-08-ch-05",
+      "volume": "vol-08",
+      "time": "第五章 城市姑娘的秘密",
+      "label": "贫民区孤儿院的城市姑娘",
+      "name": { "zh": "希儿·福罗瓦", "en": "Syr Flova", "jp": "シル・フローヴァ" },
+      "gender": "女",
+      "species": "人类",
+      "occupation": "酒馆店员、孤儿院协助者",
+      "affiliation": "丰饶的女主人",
+      "status": { "location": "代达罗斯路玛丽亚孤儿院；丰饶的女主人", "state": "暂停酒馆工作，照顾孤儿院孩子后返回店里" },
+      "appearance": { "overview": "淡灰色头发、温柔笑容；休假时穿白色连身裙与草帽。" },
+      "personality": { "summary": "温柔、神秘、照顾弱者，也会对贝尔展现调皮和害羞的一面。", "core_traits": ["温柔", "神秘", "照顾人", "调皮", "害羞"], "values": ["孤儿院孩子", "与贝尔的甜蜜回忆", "隐藏私生活"], "fears": ["让酒馆同事发现自己翘班细节", "被贝尔看到过于私人的一面"], "desires": ["给孩子们做饭", "与贝尔共享秘密", "守护自己的日常"], "strengths": ["亲和力", "照顾孩子", "读懂贝尔反应"], "flaws": ["料理破坏力", "会用玩笑逼贝尔就范"] },
+      "relationships": { "bell-cranel": "喜欢捉弄并亲近的少年；让他发现自己的孤儿院秘密", "maria-martel": "孤儿院照顾者与协力对象", "ray": "孤儿院孩子", "fina": "孤儿院孩子", "roux": "孤儿院孩子", "allen-fromel": "暗中护卫自己的芙蕾雅眷族冒险者", "freya": "称希儿为女儿的美神" },
+      "summary": "希儿请假来到玛丽亚孤儿院，为孩子们做便当、陪他们玩耍，并向贝尔透露自己也没有父母、出身贫民区。她在废墟散步中与贝尔共享私密一面，地下通道遭遇野蛮战士后由艾伦救下，之后回到丰饶的女主人。",
+      "key_events": [
+        { "event_id": "bell-discovers-syr-maria-orphanage", "summary": "贝尔发现她常来孤儿院照顾孩子。", "sourceRef": "danmachi-main/vol-08/full.txt:7688" },
+        { "event_id": "syr-reveals-poor-district-childhood", "summary": "向贝尔透露自己没有父母、贫民区长大。", "sourceRef": "danmachi-main/vol-08/full.txt:8385" },
+        { "event_id": "allen-saves-syr-and-returns-to-freya-camp", "summary": "被艾伦暗中保护并救下。", "sourceRef": "danmachi-main/vol-08/full.txt:8895" }
+      ],
+      "evidence_level": "S",
+      "source_refs": ["danmachi-main/vol-08/full.txt:7470", "danmachi-main/vol-08/full.txt:8385", "danmachi-main/vol-08/full.txt:9110"]
+    }
+  ],
+  "source_refs": ["danmachi-main/vol-08/full.txt:7449-9206"]
+}

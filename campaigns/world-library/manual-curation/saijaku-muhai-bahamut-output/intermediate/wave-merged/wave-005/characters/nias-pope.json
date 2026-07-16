@@ -1,0 +1,64 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "nias-pope",
+  "volume": "vol-21",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-21/full.txt:1149-1806"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-21-finale",
+      "volume": "vol-21",
+      "time": "Ymir diplomatic visit",
+      "label": "Pope of Ymir",
+      "name": {
+        "zh": "尼亚斯",
+        "en": "Nias",
+        "jp": ""
+      },
+      "aliases": [
+        "教皇尼亚斯"
+      ],
+      "titles": [
+        "优密尔教国教皇"
+      ],
+      "gender": "male",
+      "species": "human",
+      "nationality": "Ymir Theocracy",
+      "occupation": "pope, head of state",
+      "affiliation": "ymir-theocracy",
+      "status": {
+        "alive": true,
+        "role": "grants audience and permits Kururushifa's ruins inspection"
+      },
+      "summary": "Boyish-looking pope of the Ymir Theocracy. Lux meets him to confirm continuation of the alliance after Lux's succession, and Kururushifa obtains permission for Tunnel inspection.",
+      "relationships": {
+        "lux-arcadia": {
+          "type": "foreign king / ally",
+          "summary": "Receives Lux for formal alliance confirmation."
+        },
+        "kururushifa-enfolderk": {
+          "type": "key manager / national asset",
+          "summary": "Allows her to enter and inspect the Fourth Ruins Tunnel."
+        }
+      },
+      "abilities_owned": [],
+      "possessions_owned": [],
+      "knowledge": [
+        "archae-ruins-management"
+      ],
+      "key_events": [
+        {
+          "event_id": "lux-kururu-ymir-visit",
+          "summary": "Conducts formal audience regarding the Ymir-New Kingdom alliance.",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-21/full.txt:1149"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-21/full.txt:1149-1806"
+      ]
+    }
+  ]
+}

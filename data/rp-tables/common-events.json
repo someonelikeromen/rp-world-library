@@ -1,0 +1,12 @@
+{
+  "id": "common-events",
+  "name": "通用事件表",
+  "type": "weighted",
+  "entries": [
+    { "id": "delay", "weight": 3, "text": "出现延迟、等待或交通/流程阻碍" },
+    { "id": "minor-npc", "weight": 3, "text": "次要 NPC 介入，带来信息或阻碍" },
+    { "id": "resource-pressure", "weight": 2, "text": "资源、时间、体力或注意力受到压力" },
+    { "id": "new-clue", "weight": 2, "text": "出现新线索，但需要合法感知或调查路径" },
+    { "id": "faction-signal", "weight": 1, "text": "势力反应以间接信号出现" }
+  ]
+}

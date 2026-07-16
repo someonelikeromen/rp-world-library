@@ -1,0 +1,73 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "hidan-no-aria",
+  "ability_id": "beretta-revolution-gun-design",
+  "volume": "vol-24",
+  "periods": [
+    {
+      "period_id": "vol-24-main",
+      "volume": "vol-24",
+      "time": "罗马篇",
+      "name": {
+        "zh": "革命枪设计",
+        "en": "Revolution Gun Design"
+      },
+      "aliases": [
+        "革命枪构想"
+      ],
+      "type": "technology / skill",
+      "description": "贝瑞塔设计的塑胶小型单发枪系列，真正革命性部分被她保存在脑中并准备向公司简报。",
+      "details": {
+        "known_components": [
+          "塑胶掌心雷样品",
+          "非穿孔性衰变铀弹",
+          "连射版为秘密"
+        ],
+        "business": "贝瑞塔计划在公司第四季方针简报会上展示，以挽回声誉。"
+      },
+      "activation": {
+        "condition": "贝瑞塔的设计图、样品与公司简报",
+        "incantation": "",
+        "time": "研发型",
+        "cost": "引发公司继承权斗争和N关注"
+      },
+      "effects": [
+        "可能改变未来枪械产业",
+        "被认为足以冲击华尔瑟、柯尔特等厂商"
+      ],
+      "power_level": {
+        "initial": "样品级单发枪",
+        "peak": "二十一世纪尾声可能改变全球枪械格局的构想",
+        "evolution": []
+      },
+      "known_feats": [
+        {
+          "event_id": "beretta-workshop-weapon-disassembly",
+          "summary": "贝瑞塔向金次说明革命枪真正价值仍保密。",
+          "sourceRef": "hidan-no-aria-main/vol-24/full.txt:760"
+        }
+      ],
+      "shared_by": [
+        "beretta"
+      ],
+      "see_also": [
+        "beretta-gunsmithing",
+        "moriarty-butterfly-effect-strategy"
+      ],
+      "countered_by": [],
+      "counters": [],
+      "variations": [
+        "single-shot-sample",
+        "automatic-secret-version"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-24/chapters/ch-001-第二十四卷_狂逸的同学会_1弹_帕里奥利的手枪技师.txt:760",
+        "hidan-no-aria-main/vol-24/chapters/ch-006-第二十四卷_狂逸的同学会_5弹_伊·U同学会.txt:756"
+      ]
+    }
+  ],
+  "source_refs": [
+    "hidan-no-aria-main/vol-24/chapters/ch-001-第二十四卷_狂逸的同学会_1弹_帕里奥利的手枪技师.txt:760"
+  ]
+}

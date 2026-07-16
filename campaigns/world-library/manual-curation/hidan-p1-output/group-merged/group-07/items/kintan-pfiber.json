@@ -1,0 +1,46 @@
+{
+  "_schema": "rp-item-volume-v1",
+  "world": "hidan-no-aria",
+  "item_id": "kintan-pfiber",
+  "volume": "vol-40",
+  "source_refs": [
+    "hidan-no-aria-main/vol-40/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-40",
+      "volume": "vol-40",
+      "time": "第四十卷",
+      "name": {
+        "zh": "磁推进纤盾",
+        "en": "P Fiber"
+      },
+      "aliases": [
+        "科学盾"
+      ],
+      "type": "technology/equipment",
+      "description": "金女的磁推进盾，可飞行、防御、作为踏板，受电力限制。",
+      "details": {
+        "power": "可在邻近科学剑之间共享电力，但本卷追车时缺电"
+      },
+      "owner": "kintan",
+      "status": "active",
+      "features": [
+        "飞行盾",
+        "防御",
+        "移动辅助"
+      ],
+      "associated_abilities": [
+        "kintan-pfiber-control"
+      ],
+      "history": [
+        "开罗追莎拉中作为空中踏板和防御使用",
+        "追公路之星时因速度和耗电不足返回"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "hidan-no-aria-main/vol-40/full.txt"
+      ]
+    }
+  ]
+}

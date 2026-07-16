@@ -1,0 +1,54 @@
+{
+  "schema": "tm-tsukihime-location-candidates-v1",
+  "packetId": "locations",
+  "recordId": "location-crossover-candidates",
+  "status": "generated-pending-audit",
+  "candidateOnly": true,
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "unknown",
+  "continuityTaxonomy": {
+    "category": "sandbox",
+    "sourceGapMarker": "source-gap/candidate-only",
+    "rawSourceLabels": ["歌月十夜", "Melty Blood", "魔法使之夜", "空之境界", "Type Lumina candidate absent"],
+    "policyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy"
+  },
+  "candidates": [
+    {
+      "candidateId": "candidate-cross-work-town-appearance",
+      "kind": "continuity-context",
+      "label": "三咲町 cross-work setting mention",
+      "reason": "The source lists multiple works using or showing the town; this does not by itself create a unified canonical location continuity.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-locations.txt:17"],
+      "confidence": "medium",
+      "status": "candidate"
+    },
+    {
+      "candidateId": "candidate-melty-blood-ritual-skyscraper",
+      "kind": "location-event-premise",
+      "label": "祭祀摩天楼",
+      "reason": "Source names it as Melty Blood event starting place; route/event formalization is outside this packet.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-locations.txt:33"],
+      "confidence": "medium",
+      "status": "candidate"
+    },
+    {
+      "candidateId": "candidate-melty-blood-back-alley",
+      "kind": "location-event-premise",
+      "label": "后巷 / 后巷同盟",
+      "reason": "Source describes back-alley incidents and residents; formal Melty Blood graph/timeline work is outside this packet.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-locations.txt:34"],
+      "confidence": "medium",
+      "status": "candidate"
+    },
+    {
+      "candidateId": "candidate-type-lumina-location-gap",
+      "kind": "source-gap",
+      "label": "Type Lumina location context",
+      "reason": "The locations work packet taxonomy mentions Type Lumina, but assigned Stage 1 locations source text does not include Type Lumina location details.",
+      "sourceRefs": ["work-packets/locations.json"],
+      "confidence": "low",
+      "status": "source-gap/candidate-only"
+    }
+  ]
+}
