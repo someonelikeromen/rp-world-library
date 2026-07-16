@@ -1,0 +1,484 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "bell-cranel",
+  "volume": "vol-11",
+  "time_range": {
+    "start": "BD1短篇",
+    "end": "BD7短篇"
+  },
+  "sub_arcs": [
+    "启程之日",
+    "开始之日",
+    "祈愿",
+    "英雄挽歌"
+  ],
+  "source_refs": [
+    "danmachi-main/vol-11/full.txt:1-598",
+    "danmachi-main/vol-11/full.txt:2090-2178",
+    "danmachi-main/vol-11/full.txt:3375-4008"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-11-bd1-arrival-and-familia-beginning",
+      "volume": "vol-11",
+      "time": "BD1短篇 启程之日 开始之日",
+      "label": "初到欧拉丽并加入赫斯缇雅眷族",
+      "name": {
+        "zh": "贝尔·克朗尼",
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル"
+      },
+      "aliases": [],
+      "gender": "男",
+      "species": "人类",
+      "occupation": "冒险者候补、后来的赫斯缇雅眷族成员",
+      "affiliation": "赫斯缇雅眷族（本篇末加入）",
+      "status": {
+        "level": "无恩惠",
+        "location": "欧拉丽",
+        "state": "失去祖父后初到迷宫都市，遭多家眷族拒绝后被赫斯缇雅接纳"
+      },
+      "summary": "贝尔带着祖父关于欧拉丽、英雄和自选道路的遗言来到迷宫都市。他入城时坦率说出想在地下城寻求邂逅，参拜英雄纪念碑，并连续数日寻找眷族却受挫。钱财耗尽、孤独濒临崩溃时，他被赫斯缇雅叫住并立刻答应加入，从而开始自己的眷族与冒险者故事。",
+      "key_events": [
+        {
+          "event_id": "bell-arrives-orario-and-meets-hestia",
+          "summary": "从抵达欧拉丽、拜访眷族失败到与赫斯缇雅相遇并加入她的眷族。",
+          "sourceRef": "danmachi-main/vol-11/full.txt:1"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-11/full.txt:1-598"
+      ]
+    },
+    {
+      "period_id": "vol-11-bd4-registers-with-eina",
+      "volume": "vol-11",
+      "time": "BD4短篇 祈愿",
+      "label": "向公会注册并遇见埃伊娜",
+      "status": {
+        "location": "欧拉丽公会总部",
+        "state": "热情申请成为新人冒险者，被同僚视作短命但由埃伊娜接手"
+      },
+      "summary": "贝尔以新人身份来到公会窗口，热情地表示想成为冒险者并填写注册申请。他希望由女性妖精族顾问支援；公会同僚私下认为他缺乏前途，甚至拿他能活多久开赌。埃伊娜因此主动申请成为他的顾问，并在面谈室正式向他自我介绍。",
+      "key_events": [
+        {
+          "event_id": "eina-becomes-guild-advisor-and-takes-bell",
+          "summary": "注册冒险者并成为埃伊娜决心守护的新手。",
+          "sourceRef": "danmachi-main/vol-11/full.txt:2095"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-11/full.txt:2090-2178"
+      ]
+    },
+    {
+      "period_id": "vol-11-bd7-elegy-and-first-adventurer-death",
+      "volume": "vol-11",
+      "time": "BD7短篇 英雄挽歌",
+      "label": "直面冒险者死亡与英雄挽歌",
+      "status": {
+        "location": "地下城、中央广场、第一墓地",
+        "state": "受伤战胜怪物，理解英雄愿望中的悲伤"
+      },
+      "summary": "贝尔在地下城第一次亲眼目睹冒险者西莉亚死亡，应埃德加含泪请求与莉莉、韦尔夫一起讨伐下层怪物并护送遗体返回。挽歌祭的烛火和歌声让他意识到欧拉丽既是英雄起源地，也是用无数牺牲筛选英雄的约定之地；他仍想成为英雄，却感到悲伤。次晨他为西莉亚献花，并在英雄墓前遇见给阿尔巴特／佣兵王华伦斯坦献花的艾丝，察觉艾丝姓氏与古代英雄可能有关。",
+      "key_events": [
+        {
+          "event_id": "elegy-festival-bell-avenges-celia-and-sees-ais-at-hero-grave",
+          "summary": "替西莉亚报仇、参加挽歌祭并在英雄墓遇见艾丝。",
+          "sourceRef": "danmachi-main/vol-11/full.txt:3375"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-11/full.txt:3375-4008"
+      ]
+    },
+    {
+      "period_id": "vol-12-bell-xenos-rescue-and-rivalry",
+      "volume": "vol-12",
+      "time": "第一章-终章",
+      "label": "背负污名营救异端儿并败给阿斯泰里奥斯",
+      "name": {
+        "zh": "贝尔·克朗尼",
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル"
+      },
+      "gender": "男",
+      "species": "人类",
+      "occupation": "冒险者、赫斯缇雅眷族团长",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {
+        "level": "Lv.3",
+        "location": "欧拉丽、代达罗斯路、地下城第1层",
+        "state": "从人族公敌式污名中重新站起，确认要为异端儿与再战变强"
+      },
+      "summary": "贝尔因保护薇妮而遭全城谴责，仍在赫斯缇雅和同伴支持下选择救援异端儿。他担当诱饵、救出薇妮，与艾丝正面对立并说出希望异端儿也能拥有安身之处。荷米斯企图逼他杀死古罗斯时，贝尔拒绝按神意行动，选择相信异端儿。随后阿斯泰里奥斯乱入，全城见证贝尔与宿敌死斗；贝尔虽恢复名誉，却在地下城败北痛哭，并获得除追逐艾丝外的第二目标：与阿斯泰里奥斯再战并实现与异端儿共处的约定。",
+      "key_events": [
+        {
+          "event_id": "bell-public-disgrace-and-hestia-escort",
+          "summary": "在市民谴责中外出并遭孤儿称为叛徒。",
+          "sourceRef": "danmachi-main/vol-12/full.txt:301-1242"
+        },
+        {
+          "event_id": "hestia-familia-chooses-save-xenos",
+          "summary": "接受同伴支持，全员决定营救异端儿。",
+          "sourceRef": "danmachi-main/vol-12/full.txt:1243-2644"
+        },
+        {
+          "event_id": "bell-duels-ais-to-protect-wiene",
+          "summary": "为保护薇妮与艾丝交锋并诉说理想。",
+          "sourceRef": "danmachi-main/vol-12/full.txt:4953-8194"
+        },
+        {
+          "event_id": "gros-attacks-eina-and-bell-refuses-to-kill",
+          "summary": "拒绝杀死古罗斯，反抗荷米斯剧本。",
+          "sourceRef": "danmachi-main/vol-12/full.txt:8195-9326"
+        },
+        {
+          "event_id": "bell-vs-asterius-public-duel",
+          "summary": "与阿斯泰里奥斯公开死斗并败北。",
+          "sourceRef": "danmachi-main/vol-12/full.txt:9327-10846"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-12/full.txt:301-10846",
+        "danmachi-main/vol-12/full.txt:10847-11228"
+      ]
+    },
+    {
+      "period_id": "vol-13-bell-lv4-water-capital",
+      "volume": "vol-13",
+      "time": "序章-终章",
+      "label": "升上Lv.4并在下层远征中觉醒圣火英烈斩",
+      "name": {
+        "zh": "贝尔·克朗尼",
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル"
+      },
+      "gender": "男",
+      "species": "人类",
+      "occupation": "冒险者、赫斯缇雅眷族团长",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {
+        "level": "Lv.4",
+        "location": "欧拉丽、地下城第24-25层、里维拉镇",
+        "state": "确立伪善者觉悟，身心逐渐适应Lv.4并开发新必杀"
+      },
+      "summary": "贝尔因与阿斯泰里奥斯的败北与再战愿望升上Lv.4，获得发展能力『逃跑』与对猛牛类特攻技能『斗牛本能』。他接受费尔斯关于攻略地下城最下层才可能实现异端儿共存的提示，主动承担赫斯缇雅眷族首次强制远征。下层第25层中，他面对强化种苔藓巨人、巨苍瀑布水战与闪燕群，完成身心对Lv.4的适应，并在玛璃协助下归队。最终以火焰闪电、英雄愿望与赫斯缇雅之刃融合成『圣火英烈斩』，消灭强化种。终章在里维拉得知『疾风』琉被指认为杀人凶手。",
+      "key_events": [
+        {
+          "event_id": "bell-levels-to-lv4-and-learns-ox-slayer",
+          "summary": "赫斯缇雅更新能力值，确认贝尔升上Lv.4。",
+          "sourceRef": "danmachi-main/vol-13/full.txt:1-852"
+        },
+        {
+          "event_id": "hestia-familia-forms-expedition-alliance",
+          "summary": "贝尔坚持与所有眷族同伴一起变强，促成派系联盟远征。",
+          "sourceRef": "danmachi-main/vol-13/full.txt:853-2676"
+        },
+        {
+          "event_id": "bell-survives-great-fall-and-meets-marie",
+          "summary": "被拖入水战后坠入巨苍瀑布潭，独自击退闪燕并遇见人鱼异端儿玛璃。",
+          "sourceRef": "danmachi-main/vol-13/full.txt:4663-6046"
+        },
+        {
+          "event_id": "bell-returns-and-argo-vesta-kills-moss-huge",
+          "summary": "最大蓄力火焰闪电救场，并以圣火英烈斩击杀强化种。",
+          "sourceRef": "danmachi-main/vol-13/full.txt:6047-7866"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-13/full.txt:1-8038"
+      ]
+    },
+    {
+      "period_id": "vol-14-bell-ryu-juggernaut",
+      "volume": "vol-14",
+      "time": "第一章-第六章",
+      "label": "追查琉的真相并直面地下城灾厄",
+      "name": {
+        "zh": "贝尔·克朗尼",
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル"
+      },
+      "gender": "男",
+      "species": "人类",
+      "occupation": "冒险者、赫斯缇雅眷族团长",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {
+        "level": "Lv.4",
+        "location": "第18层里维拉、第25-27层水之迷都、第37层深层",
+        "state": "重伤后被玛璃救回，最终与琉被莱姆顿吞入并坠入深层"
+      },
+      "summary": "贝尔在第18层目睹疑似琉造成的杀人事件后，选择相信琉并参与讨伐队以抢先接触她。他识破狼人塔克与闍罗的陷害，确认琉不是里维拉凶案真凶。第27层中，他与琉联手对抗闍罗操纵的莱姆顿；札格纳特诞生后，他为保护幸存冒险者迎战灾厄，被破爪斩断右臂并重创。玛璃以人鱼之血救回贝尔，他利用歌利亚围巾和圣火英烈斩重创札格纳特，但又被濒死莱姆顿吞下，与琉一同坠至第37层深层。",
+      "key_events": [
+        {
+          "event_id": "rivira-murder-and-ryu-framed",
+          "summary": "贝尔质疑指认琉为凶手的证词，察觉狼人塔克不自然。",
+          "sourceRef": "danmachi-main/vol-14/full.txt:215-778"
+        },
+        {
+          "event_id": "bell-exposes-jura-frame-job",
+          "summary": "贝尔依据旧伤、火炎石与琉的否认，识破闍罗自导自演。",
+          "sourceRef": "danmachi-main/vol-14/full.txt:2069-4024"
+        },
+        {
+          "event_id": "juggernaut-massacre-and-bell-maimed",
+          "summary": "札格纳特屠杀讨伐队，贝尔为救人迎战并被斩断右臂。",
+          "sourceRef": "danmachi-main/vol-14/full.txt:5159-7656"
+        },
+        {
+          "event_id": "bell-ryu-swallowed-to-floor37",
+          "summary": "贝尔以圣火英烈斩重创札格纳特后，与琉被莱姆顿吞入并坠入深层。",
+          "sourceRef": "danmachi-main/vol-14/full.txt:7657-7830"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-14/full.txt:215-7830"
+      ]
+    },
+    {
+      "period_id": "vol-15-bell-deep-floor-survivor",
+      "volume": "vol-15",
+      "time": "第九章-终章",
+      "label": "与琉坠入第37层并以希望撑过深层",
+      "name": {
+        "zh": "贝尔·克朗尼",
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル"
+      },
+      "gender": "男",
+      "species": "人类",
+      "occupation": "冒险者、赫斯缇雅眷族团长",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {
+        "level": "Lv.4",
+        "location": "第37层白色宫殿、巴别塔治疗设施、欧拉丽西区高台",
+        "state": "在深层重伤生还，左臂经阿蜜德治疗重建，精神上确认不放弃希望的冒险者信念"
+      },
+      "summary": "贝尔与琉被大蛇井带至第37层后，在无补给、重伤、札格纳特追杀的绝境中求生。他依靠琉的深层经验、艾丝曾给予的『希望』忠告和自身不舍弃任何人的信念，不断跨越骸骨羊、蜥蜴人精英、竞技场与札格纳特的逼迫。他用最大蓄力火炎石炸穿竞技场救回琉，又在终战中与琉联手剥除札格纳特外壳，为光明之风创造决定性机会。获异端儿与同伴救出后回到地表。",
+      "key_events": [
+        {
+          "event_id": "bell-ryu-arrive-floor37-and-escape-juggernaut",
+          "summary": "在第37层醒来后背负重伤琉逃离札格纳特，并以蓄力火焰闪电造成坍方拖延追杀。",
+          "sourceRef": "danmachi-main/vol-15/chapters/ch-004-第九章-Hello，深层.txt"
+        },
+        {
+          "event_id": "bell-ryu-loot-dead-adventurers-and-plan-return",
+          "summary": "接受琉建议亵渎死者取得装备、灵药、地图与食物，决定前往第36层甬道。",
+          "sourceRef": "danmachi-main/vol-15/chapters/ch-004-第九章-Hello，深层.txt"
+        },
+        {
+          "event_id": "bell-ryu-colosseum-infiltration-fails",
+          "summary": "与琉试图用骸骨羊皮袍穿越竞技场，却因地生人从脚下诞生而暴露。",
+          "sourceRef": "danmachi-main/vol-15/chapters/ch-009-第十二章-真•迷宫决死行.txt"
+        },
+        {
+          "event_id": "bell-rescues-ryu-with-charged-firestone",
+          "summary": "绕路返回竞技场，以最大蓄力火炎石炸穿地板救回自我牺牲的琉。",
+          "sourceRef": "danmachi-main/vol-15/chapters/ch-009-第十二章-真•迷宫决死行.txt"
+        },
+        {
+          "event_id": "bell-and-ryu-defeat-evolved-juggernaut",
+          "summary": "在第37层与琉联手，先以圣火英烈斩破坏倒桩与右臂，后以火焰闪电从内侧剥除外壳，使琉的光明之风击杀札格纳特。",
+          "sourceRef": "danmachi-main/vol-15/chapters/ch-010-第十三章-穿越上千黑暗.txt"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-15/chapters/ch-004-第九章-Hello，深层.txt",
+        "danmachi-main/vol-15/chapters/ch-009-第十二章-真•迷宫决死行.txt",
+        "danmachi-main/vol-15/chapters/ch-010-第十三章-穿越上千黑暗.txt",
+        "danmachi-main/vol-15/chapters/ch-011-终章-You'll-be-back-Ⅱ.txt"
+      ]
+    },
+    {
+      "period_id": "vol-16-bell-rest-and-origin",
+      "volume": "vol-16",
+      "time": "序章-终章",
+      "label": "远征归来后休养并重访英雄之问",
+      "name": {
+        "zh": "贝尔·克朗尼",
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル"
+      },
+      "gender": "男",
+      "species": "人类",
+      "occupation": "冒险者、赫斯缇雅眷族团长",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {
+        "level": "Lv.4",
+        "location": "欧拉丽、地下城第20层、第一公墓",
+        "state": "左臂康复；仍受深层经历影响而睡眠不稳；在挽歌祭重新思考英雄与冒险者之死"
+      },
+      "summary": "贝尔在远征两周后因乱动左臂被阿蜜德以帝尔坚钢石膏固定，随后休养并更新出惊人熟练度。他回想初到欧拉丽、被各眷族拒绝、在孤独中被赫斯缇雅接纳的起始之日。康复后，他在第20层遇见冒险者希莉亚死亡，应艾德格请求击杀怪物，并在挽歌祭后献花。于第一公墓，他从艾丝向英雄阿尔伯特献花联想到华伦斯坦之名。",
+      "key_events": [
+        "bell-status-update-post-expedition",
+        "bell-arrives-orario-and-meets-hestia",
+        "bell-avenges-fallen-adventurer",
+        "bell-discovers-ais-link-to-albert-wallenstein"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-16/chapters/ch-001-序章-冒险者们的休憩之歌.txt",
+        "danmachi-main/vol-16/chapters/ch-002-间章-成长、现在与黑面包.txt",
+        "danmachi-main/vol-16/chapters/ch-003-第一章-启程之日，起始之日.txt",
+        "danmachi-main/vol-16/chapters/ch-016-终章-英雄挽歌.txt"
+      ]
+    },
+    {
+      "period_id": "vol-17-bell-side-stories",
+      "volume": "vol-17",
+      "time": "全卷短篇",
+      "label": "在多条短篇与特典中成为关系焦点",
+      "name": {
+        "zh": "贝尔·克朗尼",
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル"
+      },
+      "gender": "男",
+      "species": "人类",
+      "occupation": "冒险者、赫斯缇雅眷族团长",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {
+        "level": "依短篇时点变化：早期Lv.1至派阀大战后",
+        "location": "欧拉丽、公会、城墙训练地、外界旅途、梦境/IF线",
+        "state": "频繁被艾丝、埃伊娜、琉、春姬、阿尔忒弥斯等人的短篇关系牵动；在IF梦中立誓成为最后英雄"
+      },
+      "summary": "贝尔在本卷短篇中贯穿多个时间点：早期因见到艾丝逃跑被埃伊娜安排面对面道歉；接受艾丝训练并收到胡萝卜奖励；与害怕幽灵的艾丝调查废屋；被琉、春姬、缇奥娜等人的好感与喜剧互动包围。剧场版特典中，他作为俄里翁与阿尔忒弥斯同行并成为她理解恋的对象。IF梦中，幼年贝尔被阿尔霏亚抚养，听闻她放弃成为邪恶后，承诺自己会成为最后英雄。派阀大战后，他参与赫斯缇雅绳带真相讨论。",
+      "key_events": [
+        "eina-and-ais-corner-bell-for-apology",
+        "ais-carrot-reward-training",
+        "ais-bell-fels-haunted-house",
+        "artemis-learns-love-before-orion",
+        "bell-if-raised-by-alfia-chooses-hero",
+        "orion-arrow-unfading-journey",
+        "hestia-ribbon-mystery-debate"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-17/chapters"
+      ]
+    },
+    {
+      "period_id": "vol-18-bell-haruhime-special",
+      "volume": "vol-18",
+      "time": "全卷",
+      "label": "被春姬的报恩与周围女性好感卷入的温柔少年",
+      "name": {
+        "zh": "贝尔·克朗尼",
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル"
+      },
+      "gender": "男",
+      "species": "人类",
+      "occupation": "冒险者、赫斯缇雅眷族团长",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {
+        "level": "Lv.3",
+        "location": "炉火之馆、欧拉丽街区、地下城中层、诺姆的大图书馆",
+        "state": "战争游戏后名声上涨；对春姬的低落十分在意，主动带她外出散心并最终共同改写英雄谭"
+      },
+      "summary": "贝尔在本卷特典中先被春姬各种误解为侍奉的报恩行为弄得脸红困惑，但能看出她是为了自己努力。春姬被禁足消沉时，他攀到三楼窗外邀请她出门，带她游览冒险者墓地、巴别塔等欧拉丽名胜，并在客船与街头骚动中始终没有抛下她。随后在阿伊莎、蕾娜等协助下，他与春姬进入地下城完成委托，最后在诺姆的大图书馆共同把《比尔迦美斯的冒险》中英雄与娼妇的悲剧改写成互相拯救的故事。广播剧中，他因过度温柔和轻许承诺被赫斯缇雅、莉莉用好感度检测器跟踪，也因向艾丝道谢并被摸头而暴露自己对艾丝的无限憧憬。",
+      "key_events": [
+        "haruhime-serves-bell-and-is-grounded",
+        "bell-takes-haruhime-orario-sightseeing",
+        "haruhime-bell-flee-jealous-pursuers",
+        "haruhime-bell-dungeon-commission-and-library-rewrite",
+        "hestia-lili-first-favorability-survey",
+        "hestia-lili-second-favorability-survey"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-18/chapters/ch-001-第一章.txt",
+        "danmachi-main/vol-18/chapters/ch-002-第二章.txt",
+        "danmachi-main/vol-18/chapters/ch-003-第三章.txt",
+        "danmachi-main/vol-18/chapters/ch-004-第四章.txt",
+        "danmachi-main/vol-18/chapters/ch-005-特典广播剧-对在意的那孩子使用好感度检测器.txt",
+        "danmachi-main/vol-18/chapters/ch-006-特典广播剧-续！这次来对那个孩子使用好感度检测器.txt"
+      ]
+    },
+    {
+      "period_id": "vol-19-bell-goddess-festival",
+      "volume": "vol-19",
+      "time": "全卷",
+      "label": "被希儿告白并拒绝芙蕾雅化身的白兔",
+      "name": {
+        "zh": "贝尔·克朗尼",
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル"
+      },
+      "gender": "男",
+      "species": "人类",
+      "occupation": "冒险者、赫斯缇雅眷族团长",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {
+        "level": "Lv.4",
+        "location": "炉火之馆、女神祭会场、代达罗斯路、圣佛兰德大精堂、英雄桥、水船之匙、商业旅店、废弃工厂",
+        "state": "因希儿来信被卷入芙蕾雅眷族；接受赫定强制礼仪与约会特训；最终拒绝希儿/芙蕾雅的告白"
+      },
+      "summary": "贝尔在调查艾丝与阿尔伯特关联时收到希儿的女神祭约会信。赫定绑架他并进行五天不眠不休的礼仪、护花与约会特训，使他在女神祭首日主动牵手、称赞、保护并带希儿游览欧拉丽。约会中他带希儿到代达罗斯路孤儿院、圣佛兰德大精堂、英雄桥与水上餐厅，并用费尔斯魔道具帮助她摆脱芙蕾雅眷族护卫。旅店夜里他抵抗希儿以银光诱惑，坚守对艾丝的憧憬。翌日他寻找希儿，识破赫伦伪装与暗杀意图，最后在代达罗斯路旧庭园面对希儿真挚告白，痛苦地道歉并拒绝。",
+      "key_events": [
+        "syr-sends-date-letter-to-bell",
+        "hedin-abducts-and-trains-bell-for-date",
+        "bell-and-syr-begin-goddess-festival-date",
+        "bell-syr-visit-daedalus-orphanage",
+        "bell-syr-escape-freya-guards-and-visit-cathedral",
+        "water-ship-key-raid-and-river-escape",
+        "bell-resists-syr-silver-charm-at-inn",
+        "horn-impersonates-syr-and-freya-familia-attacks",
+        "bell-exposes-horn-with-pair-ornament",
+        "syr-confesses-and-bell-rejects-her"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-19/chapters/ch-003-第一章-情书骚动.txt",
+        "danmachi-main/vol-19/chapters/ch-005-第二章-泪水和悲鸣的前夜祭.txt",
+        "danmachi-main/vol-19/chapters/ch-007-第三章-Harvest-Festival.txt",
+        "danmachi-main/vol-19/chapters/ch-009-第四章-公主大骚动！.txt",
+        "danmachi-main/vol-19/chapters/ch-011-第五章-「-」的证明.txt",
+        "danmachi-main/vol-19/chapters/ch-014-第六章-心愿的代价.txt"
+      ]
+    },
+    {
+      "period_id": "vol-20-bell-wiene-correspondence",
+      "volume": "vol-20",
+      "time": "全卷",
+      "label": "以回信支撑薇妮并在过家家中成为父亲象征的少年",
+      "name": {
+        "zh": "贝尔·克朗尼",
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル"
+      },
+      "gender": "男",
+      "species": "人类",
+      "occupation": "冒险者、赫斯缇雅眷族团长",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {
+        "level": "第三季后时点",
+        "location": "炉火之馆、书信往来中的地上",
+        "state": "因异端儿事件后名声上升而难以轻易下地下城会面；通过费尔斯收取并回复薇妮信件"
+      },
+      "summary": "贝尔在异端儿骚动后无法随意去秘境见薇妮，但始终是异端儿们思念和感谢的对象。费尔斯把薇妮等人的信送到炉火之馆，贝尔与春姬等人阅读后写下回信，告诉薇妮自己同样害怕异端儿、地下城与未来，却相信并非孤身一人，仍会为约定之地努力。广播剧中，贝尔陪薇妮玩过家家，多次被安排成爸爸、警察等角色，温柔纠正薇妮不要说让春姬困扰的话，并承诺会保护薇妮和大家。",
+      "key_events": [
+        "xenos-learn-correspondence-with-bell",
+        "wiene-and-asterios-visit-casius",
+        "hestia-familia-plays-house-with-wiene",
+        "whole-familia-plays-house-and-wiene-defines-family"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-20/chapters/ch-001-第一章.txt",
+        "danmachi-main/vol-20/chapters/ch-004-第四章.txt",
+        "danmachi-main/vol-20/chapters/ch-005-特典广播剧-眷族一起过家家.txt",
+        "danmachi-main/vol-20/chapters/ch-006-特典广播剧-眷族全员一起过家家.txt"
+      ]
+    }
+  ]
+}

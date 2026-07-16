@@ -1,0 +1,175 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "divine-speed-control",
+  "volume": "vol-04",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-04/full.txt:4121",
+    "saijaku-muhai-bahamut-main/vol-04/full.txt:5895"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-04",
+      "volume": "vol-04",
+      "time": "vol-04",
+      "name": {
+        "zh": "神速制御",
+        "en": "Divine Speed Control"
+      },
+      "aliases": [],
+      "type": "combat / skill",
+      "description": "路克斯三奥义之一，让肉体操作与精神操作完全同步，使单一动作达到神速。",
+      "details": {
+        "user": "lux-arcadia",
+        "used_with": [
+          "wyvern",
+          "bahamut"
+        ]
+      },
+      "activation": {
+        "condition": "瞬间集中操纵",
+        "incantation": "",
+        "time": "一动作",
+        "cost": "高度集中与身体负担"
+      },
+      "effects": [
+        "以神速斩击或格挡",
+        "在初见限界突破无人机龙时保命"
+      ],
+      "power_level": {
+        "initial": "可削斩欧特鲁斯眼与前脚",
+        "peak": "在最终战中支撑对终焉神兽的高速攻防",
+        "evolution": []
+      },
+      "known_feats": [
+        "欧特鲁斯战中连续命中要害",
+        "挡下无人飞翔机龙限界突破斩击"
+      ],
+      "shared_by": [
+        "lux-arcadia"
+      ],
+      "see_also": [
+        "force-over",
+        "endless-chain"
+      ],
+      "countered_by": [],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-04/full.txt:4121",
+        "saijaku-muhai-bahamut-main/vol-04/full.txt:5895"
+      ]
+    },
+    {
+      "period_id": "vol-07-main",
+      "volume": "vol-07",
+      "time": "辛格伦测验战",
+      "name": {
+        "zh": "神速制御",
+        "en": "Divine Speed Control"
+      },
+      "aliases": [
+        "神速控制"
+      ],
+      "type": "combat / skill",
+      "description": "路克斯以精神操纵与身体操纵完全同步，瞬间完成超高速一击的机龙操纵奥义。",
+      "details": {
+        "style": "在极短时间内完成机体动作与攻击同步",
+        "use_case": "在辛格伦从上方攻击时以反手上刺迎击"
+      },
+      "activation": {
+        "condition": "路克斯高度集中并同步机龙与身体",
+        "incantation": "无",
+        "time": "瞬间",
+        "cost": "高精神集中与体力消耗"
+      },
+      "effects": [
+        "实现极高速反击",
+        "在敌人攻击间隙打出精准刺击"
+      ],
+      "power_level": {
+        "initial": "高等奥义",
+        "peak": "本卷用于反击辛格伦，但被战阵流转拨开",
+        "evolution": []
+      },
+      "known_feats": [
+        "辛格伦战中路克斯以神速制御试图击中其肩口"
+      ],
+      "shared_by": [
+        "lux-arcadia"
+      ],
+      "see_also": [
+        "unlimited-chain",
+        "gluttony"
+      ],
+      "countered_by": [
+        "battle-formation-flow"
+      ],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-07/full.txt:3830"
+      ]
+    },
+    {
+      "period_id": "vol-18-main",
+      "volume": "vol-18",
+      "time": "全卷战斗",
+      "name": {
+        "zh": "神速制御",
+        "en": "Divine Speed Control"
+      },
+      "aliases": [
+        "路克斯独创高速斜击"
+      ],
+      "type": "combat / technique",
+      "description": "路克斯以精准控制机龙惯性和反作用力施展的高速斜击与防反技巧。",
+      "effects": [
+        "利用对手攻击动能反击",
+        "在极短时间内破坏幻创机核或装甲要害"
+      ],
+      "shared_by": [
+        "lux-arcadia",
+        "yaka"
+      ],
+      "see_also": [
+        "bahamut-divine-drag-ride",
+        "yatono-kami-divine-drag-ride"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-18/full.txt:2064-2090",
+        "saijaku-muhai-bahamut-main/vol-18/full.txt:3370-3405",
+        "saijaku-muhai-bahamut-main/vol-18/full.txt:5010-5040"
+      ]
+    },
+    {
+      "period_id": "vol-19",
+      "volume": "vol-19",
+      "time": "古代森林决战",
+      "name": {
+        "zh": "神速制御",
+        "en": "Divine Speed Control"
+      },
+      "aliases": [
+        "路克斯秘技"
+      ],
+      "type": "combat / skill",
+      "description": "路克斯的高等机龙操作秘技。本卷因洗礼提升思考速度与注意力，路克斯能在发动秘技时并行使用共鸣波动等特殊武装。",
+      "effects": [
+        "高速精密操作",
+        "背身反击空挺要塞",
+        "与共鸣波动并用"
+      ],
+      "shared_by": [
+        "lux-arcadia"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-19/full.txt:2693-6600"
+      ]
+    }
+  ]
+}

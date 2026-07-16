@@ -1,0 +1,59 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "armor-purge",
+  "volume": "vol-20",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-20/full.txt:835"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-20",
+      "volume": "vol-20",
+      "time": "最终战",
+      "name": {
+        "zh": "破甲净化",
+        "en": "Armor Purge"
+      },
+      "aliases": [],
+      "type": "drag-ride technique",
+      "description": "舍弃受损或多余装甲，减轻机体并集中剩余能量到可用部位的技术。",
+      "details": {
+        "use": "弗基尔在巴哈姆特半毁后使用，反以轻装形态压制路克斯"
+      },
+      "activation": {
+        "condition": "机龙装备可分离",
+        "incantation": "破甲净化",
+        "time": "瞬时",
+        "cost": "失去防护与障壁"
+      },
+      "effects": [
+        "提升机动",
+        "集中输出",
+        "降低防御"
+      ],
+      "power_level": {
+        "initial": "中高",
+        "peak": "弗基尔轻装巴哈姆特反击",
+        "evolution": []
+      },
+      "known_feats": [
+        "弗基尔以该技避免受损机龙拖累"
+      ],
+      "shared_by": [
+        "lux-arcadia",
+        "fugil-arcadia"
+      ],
+      "see_also": [
+        "bahamut"
+      ],
+      "countered_by": [],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-20/full.txt:835"
+      ]
+    }
+  ]
+}

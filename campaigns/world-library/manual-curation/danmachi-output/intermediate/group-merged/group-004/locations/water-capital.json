@@ -1,0 +1,53 @@
+{
+  "_schema": "rp-location-volume-v1",
+  "world": "danmachi",
+  "location_id": "water-capital",
+  "volume": "vol-13",
+  "source_refs": [
+    "danmachi-main/vol-13/full.txt:2677-6046"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-13-location-water-capital",
+      "volume": "vol-13",
+      "time": "第三章-第六章",
+      "name": {
+        "zh": "水之迷都",
+        "en": "Water Capital"
+      },
+      "type": "dungeon_floor_region",
+      "parent_location": "地下城第25-27层",
+      "summary": "从第25层开始的下层水域，由水晶迷宫、水路、瀑布和多层高低差构成。楼层中心有巨苍瀑布贯穿第25到第27层，所有水道最终通向瀑布。此区域盛产水栖怪兽、人形怪兽与迷宫资源，落水会使冒险者陷入压倒性地形劣势。",
+      "features": [
+        "苍蓝水晶迷宫",
+        "遍布水道和间歇泉陷阱",
+        "水栖怪兽可从水中突袭",
+        "需要水精护布等装备"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-13/full.txt:2677-6046"
+      ]
+    },
+    {
+      "period_id": "vol-14-water-capital-disaster",
+      "volume": "vol-14",
+      "time": "第二章-第六章",
+      "name": {
+        "zh": "水之迷都",
+        "en": "Water Capital"
+      },
+      "type": "dungeon_zone",
+      "summary": "水之迷都是地下城第25至27层的水晶与水流楼层区域，由巨苍瀑布贯通。闍罗利用其楼层联动性质，在第25与第27层同时制造火炎石爆破，使地下城将损伤视为同一楼层过度破坏并召唤札格纳特。第27层遭札格纳特屠杀后，水流被冒险者鲜血染红；卷末安菲斯比纳沿巨苍瀑布上溯至第25层。",
+      "notable_events": [
+        "jura-summons-juggernaut",
+        "juggernaut-massacre-and-bell-maimed",
+        "amphisbaena-early-spawn"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-14/full.txt:779-7830"
+      ]
+    }
+  ]
+}

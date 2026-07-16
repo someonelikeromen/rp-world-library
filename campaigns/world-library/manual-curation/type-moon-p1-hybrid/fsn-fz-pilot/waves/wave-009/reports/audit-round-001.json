@@ -6,7 +6,7 @@
   "auditedAt": "2026-07-12",
   "agent": { "model": "lt-yuyu/gpt-5.5", "role": "internal-auditor" },
   "filesChecked": [
-    "waves/wave-009/output/events.json",
+    "waves/wave-009/output/event-index.json",
     "waves/wave-009/output/event-candidates.json"
   ],
   "sourceRefsVerified": 47,
@@ -15,7 +15,7 @@
       "issueId": "W009-A001",
       "severity": "error",
       "category": "branch-separation",
-      "file": "output/events.json",
+      "file": "output/event-index.json",
       "path": "events",
       "detail": "Initial event pass considered including bad endings as formal route events.",
       "expected": "Keep bad endings candidate-only until variant timeline rules are defined.",

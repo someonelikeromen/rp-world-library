@@ -1,0 +1,61 @@
+{
+  "schema": "tm-tsukihime-packet-fix-report-v1",
+  "packetId": "dead-apostles-roa",
+  "stage": "stage-2-wave-2-fixer-r52-continuity",
+  "stepId": "fix-dead-apostles-roa-continuity",
+  "status": "fixed",
+  "generatedAt": "2026-07-15",
+  "fixerRole": "Fixer",
+  "scope": {
+    "allowedMutationRoots": [
+      "campaigns/world-library/manual-curation/type-moon-p1-hybrid/tsukihime-dead-apostle-profile-supplement-pilot/extracted/profile-supplement/dead-apostles-roa/**",
+      "campaigns/world-library/manual-curation/type-moon-p1-hybrid/tsukihime-dead-apostle-profile-supplement-pilot/normalized/profile-supplement/dead-apostles-roa/**",
+      "campaigns/world-library/manual-curation/type-moon-p1-hybrid/tsukihime-dead-apostle-profile-supplement-pilot/audit/packet-audits/dead-apostles-roa/**"
+    ],
+    "mutationScopeObserved": true
+  },
+  "triggerAudit": {
+    "auditRound": "r52",
+    "status": "failed-blocking",
+    "blockingIssue": "Invalid joined Kagetsu Tohya plus Type Lumina continuityTaxonomy.category appeared in extracted and normalized source-gap records."
+  },
+  "issuesHandled": [
+    {
+      "issueId": "r52-dead-apostles-roa-invalid-combined-continuity-category",
+      "classification": "blocking issue",
+      "description": "The packet used one joined continuityTaxonomy.category for Kagetsu Tohya and Type Lumina source gaps instead of separate allowed categories.",
+      "actions": [
+        "Split the extracted not-found source-gap record into nf-kagetsu-tohya-source-gap-001 with category kagetsu-tohya and nf-type-lumina-source-gap-001 with category type-lumina.",
+        "Split the normalized source-gap candidate into source-gap-kagetsu-tohya with category kagetsu-tohya and source-gap-type-lumina with category type-lumina.",
+        "Preserved source-gap/candidate-only sourceAvailability, sourceRefs, sourceType, credibility, and canonStatus on the split records.",
+        "Did not promote standalone Roa, Nrvnqsr, Vlov, or other named Dead Apostle profiles."
+      ],
+      "result": "fixed"
+    }
+  ],
+  "filesChanged": [
+    {
+      "path": "campaigns/world-library/manual-curation/type-moon-p1-hybrid/tsukihime-dead-apostle-profile-supplement-pilot/extracted/profile-supplement/dead-apostles-roa/not-found/direct-profile-and-mandatory-surface-gaps.json",
+      "change": "Replaced one joined Kagetsu Tohya plus Type Lumina source-gap taxonomy record with two separate allowed-category source-gap records."
+    },
+    {
+      "path": "campaigns/world-library/manual-curation/type-moon-p1-hybrid/tsukihime-dead-apostle-profile-supplement-pilot/normalized/profile-supplement/dead-apostles-roa/candidates/source-gap-candidates.json",
+      "change": "Replaced one joined Kagetsu Tohya plus Type Lumina source-gap candidate with two separate allowed-category source-gap candidates."
+    },
+    {
+      "path": "campaigns/world-library/manual-curation/type-moon-p1-hybrid/tsukihime-dead-apostle-profile-supplement-pilot/audit/packet-audits/dead-apostles-roa/fix-round-001.json",
+      "change": "Created fixer report for r52 blocking issue."
+    }
+  ],
+  "unresolvedIssues": [],
+  "validationStatus": {
+    "readBackValidation": "performed for edited extracted and normalized JSON files",
+    "grepValidation": "performed for the invalid joined category string in extracted and normalized dead-apostles-roa scopes; no matches found",
+    "jsonParserValidation": "not run; task forbids shell/scripts/executable validation commands",
+    "auditorRerun": "not run by this fixer subagent; no agent-spawn tool was available and delegated instructions forbade spawning additional agents"
+  },
+  "notes": [
+    "No final merge, graph, timeline, or other packet outputs were modified.",
+    "All new Kagetsu Tohya and Type Lumina records remain source-gap/candidate-only and are sourced only to source-unit-manifest.json."
+  ]
+}

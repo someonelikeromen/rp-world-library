@@ -1,0 +1,30 @@
+{
+  "schema": "tm-fgo-extraction-report-v1",
+  "packetId": "pkt-fgo-ordeal-call-oc3-integration-prep",
+  "chapterId": "fgo-ordeal-call-3-integration",
+  "slug": "oc3-integration",
+  "sourceTextPath": "sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt",
+  "extractionStatus": "completed",
+  "generatorPass": "completed-source-first",
+  "sourceFirstLabelsPreserved": true,
+  "unsupportedLabelsPromoted": false,
+  "forbiddenAggregateFilesCreated": false,
+  "coverageSummary": {
+    "coreSettingFacts": "covered",
+    "storySummaryEvents": "covered",
+    "phaseUnitsFromStageSection": 4,
+    "stageCharacterRecords": 10,
+    "relationshipSignalFiles": 6,
+    "appearanceSignalFiles": 2,
+    "abilitySignalFiles": 1,
+    "combatEffectSignalFiles": 1,
+    "dialogueFiles": 1,
+    "candidateFiles": 1,
+    "notFoundInSourceFiles": 1
+  },
+  "mandatoryGapPolicyRaw": "Missing appearance, outfit/equipment, named Noble Phantasm, named skill, named magecraft, detailed combat visuals, and summoning mechanics are recorded explicitly in not-found-in-source instead of filled from external knowledge.",
+  "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt:1-92"],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

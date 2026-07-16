@@ -1,0 +1,35 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "danmachi",
+  "ability_id": "soul-light",
+  "volume": "vol-18",
+  "source_refs": [
+    "danmachi-main/vol-18/chapters/ch-004-第四章.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-18-cassandra-soul-light",
+      "volume": "vol-18",
+      "time": "第二季BD特典 英雄与娼妇 第四章",
+      "name": {
+        "zh": "魂光",
+        "en": "Soul Light"
+      },
+      "type": "healing_magic",
+      "owner": "cassandra-ilion",
+      "summary": "卡珊德拉使用的范围回复魔法。第15层临时队伍战斗中，达芙涅判断时机要求卡珊德拉咏唱回复，卡珊德拉用《魂光》将贝尔、蕾娜、达芙涅等人笼罩在太阳般魔力光中，恢复持续连战消耗的体力。",
+      "mechanics": {
+        "chant": "一度曾拒绝的天之光……阳光哟，拜托了请击退破灭",
+        "effect": "对指定范围内数名目标进行回复",
+        "role": "中后卫治疗与持续战斗支援"
+      },
+      "associated_events": [
+        "haruhime-bell-dungeon-commission-and-library-rewrite"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-18/chapters/ch-004-第四章.txt"
+      ]
+    }
+  ]
+}

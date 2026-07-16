@@ -1,0 +1,52 @@
+{
+  "_schema": "rp-location-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "location_id": "cross-feed-government-office",
+  "volume": "vol-13",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-13/full.txt:1500"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-13",
+      "volume": "vol-13",
+      "time": "圣夜祭前",
+      "name": {
+        "zh": "克罗斯菲德官厅",
+        "en": "Cross Feed Government Office"
+      },
+      "aliases": [
+        "官厅"
+      ],
+      "type": "building",
+      "description": "城塞都市官厅，莉夏在此准备年终游行致词与展示用装甲机龙。",
+      "geography": {
+        "parent": "cross-feed-city",
+        "features": [
+          "官厅前广场",
+          "展示鹰架",
+          "机龙展示区"
+        ]
+      },
+      "controlled_by": "atismata-new-kingdom",
+      "affiliation": "亚提司玛特新王国",
+      "significance": "表现莉夏公主职责和新王国政治宣传压力的场所。",
+      "notable_residents": [],
+      "key_events": [
+        "lisha-machine-dragon-exhibition"
+      ],
+      "related_locations": [
+        "cross-feed-city"
+      ],
+      "hazards": [
+        "政治宣传反噬",
+        "战时民众不安"
+      ],
+      "secrets": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-13/full.txt:1500"
+      ]
+    }
+  ]
+}

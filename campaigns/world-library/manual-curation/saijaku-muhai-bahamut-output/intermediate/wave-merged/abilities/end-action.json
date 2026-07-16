@@ -1,0 +1,74 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "end-action",
+  "volume": "vol-17",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-17/full.txt:6680"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-17",
+      "volume": "vol-17",
+      "time": "箱庭决战",
+      "name": {
+        "zh": "终极行动",
+        "en": "End Action"
+      },
+      "aliases": [
+        "隐藏技术新版本"
+      ],
+      "type": "combat / skill",
+      "description": "路克斯在箱庭对抗圣蚀克隆体时使用的隐藏技术新版本。通过将连续攻击造成的损伤集中在幻创机核等关键处,使对手在试图重新释放能量或反击时系统瘫痪。",
+      "details": {
+        "user": "lux-arcadia",
+        "target": "drag_ride_core",
+        "mechanism": "连续精确攻击累积伤害并在神装能量流动时爆发"
+      },
+      "activation": {
+        "condition": "近距离连续战中持续命中同一要害",
+        "incantation": "终极行动",
+        "time": "累积后触发",
+        "cost": "极高操纵精度和战斗读秒"
+      },
+      "effects": [
+        "破坏敌方神装机龙系统",
+        "封锁反击窗口",
+        "为最终暴食叠加创造机会"
+      ],
+      "power_level": {
+        "initial": "路克斯隐藏技",
+        "peak": "足以击破圣蚀克隆体操纵的巴哈姆特",
+        "evolution": [
+          "借洗礼适应后的身体控制精度提升为新版本"
+        ]
+      },
+      "known_feats": [
+        {
+          "summary": "路克斯解释终极行动通过累积伤害瘫痪弗基尔克隆体的巴哈姆特。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-17/full.txt:6680"
+        }
+      ],
+      "shared_by": [
+        "lux-arcadia"
+      ],
+      "see_also": [
+        "endless-chain",
+        "gluttony",
+        "baptism-adaptation"
+      ],
+      "countered_by": [],
+      "counters": [
+        "limit-break",
+        "gluttony"
+      ],
+      "variations": [
+        "新版本集中破坏幻创机核系统"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-17/full.txt:6680"
+      ]
+    }
+  ]
+}

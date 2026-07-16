@@ -1,0 +1,100 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "vil-crozzo",
+  "volume": "vol-08",
+  "time_range": {
+    "start": "第三章",
+    "end": "第三章"
+  },
+  "sub_arcs": [
+    "献给某锻造神的恋歌"
+  ],
+  "source_refs": [
+    "danmachi-main/vol-08/full.txt:4742-5345"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-08-ch-03",
+      "volume": "vol-08",
+      "time": "第三章 献给某锻造神的恋歌",
+      "label": "执迷旧荣耀的父亲",
+      "name": {
+        "zh": "维尔·克罗佐",
+        "en": "Vil Crozzo",
+        "jp": ""
+      },
+      "gender": "男",
+      "species": "人类",
+      "nationality": "拉几亚王国",
+      "occupation": "克罗佐家现任当家、锻造贵族",
+      "affiliation": "克罗佐家族；拉几亚王国",
+      "status": {
+        "location": "欧拉丽后巷与西南仓库",
+        "state": "潜入欧拉丽试图带回韦尔夫，失败后被拘捕"
+      },
+      "appearance": {
+        "overview": "茶色长发束起、满脸皱纹、双眼疲惫的中年男子，容貌像年老的韦尔夫。"
+      },
+      "personality": {
+        "summary": "被家族没落与旧荣耀执念扭曲，视魔剑为家族复兴的唯一道路。",
+        "core_traits": [
+          "执念",
+          "怯弱",
+          "贪恋荣耀",
+          "被压垮的父亲"
+        ],
+        "values": [
+          "克罗佐家复兴",
+          "贵族荣耀",
+          "王国地位"
+        ],
+        "fears": [
+          "家族无处安身",
+          "失去贵族身份"
+        ],
+        "desires": [
+          "让韦尔夫回国打造魔剑",
+          "成就克罗佐宿愿"
+        ],
+        "flaws": [
+          "把武器视为消耗品",
+          "用都市安全威胁儿子",
+          "无法理解锻造师骄傲"
+        ]
+      },
+      "possessions_owned": [
+        "旧克罗佐魔剑"
+      ],
+      "relationships": {
+        "welf-crozzo": "亲生儿子；试图强行带回拉几亚",
+        "galon-crozzo": "父亲与前任当家",
+        "ares": "承诺复兴克罗佐家族的拉几亚主神"
+      },
+      "summary": "维尔潜入欧拉丽接触韦尔夫，威胁用旧克罗佐魔剑纵火逼他回拉几亚；仓库中被韦尔夫用新魔剑击溃后，又因武器观与儿子互殴，最终在加隆劝止下投降。",
+      "key_events": [
+        {
+          "event_id": "welf-confronts-vil-crozzo",
+          "summary": "向韦尔夫透露拉几亚战争目标是夺回魔剑力量。",
+          "sourceRef": "danmachi-main/vol-08/full.txt:4782"
+        },
+        {
+          "event_id": "warehouse-trap-and-crozzo-magic-sword-clash",
+          "summary": "以旧魔剑威胁却被韦尔夫裂进粉碎。",
+          "sourceRef": "danmachi-main/vol-08/full.txt:5097"
+        },
+        {
+          "event_id": "welf-rejects-crozzo-family-legacy",
+          "summary": "与韦尔夫互殴并被其质问锻造师骄傲。",
+          "sourceRef": "danmachi-main/vol-08/full.txt:5200"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-08/full.txt:4742",
+        "danmachi-main/vol-08/full.txt:5097",
+        "danmachi-main/vol-08/full.txt:5200"
+      ]
+    }
+  ]
+}

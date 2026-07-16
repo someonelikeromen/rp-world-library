@@ -1,0 +1,139 @@
+{
+  "schema": "tm-tsukihime-packet-generation-report-v1",
+  "packetId": "church-ciel",
+  "stage": "stage-2-wave-1-packet-generation",
+  "status": "generated-pending-audit",
+  "generatedAt": "2026-07-15",
+  "agentStepId": "gen-ciel",
+  "modelRequestedByTask": "lt-yuyu/gpt-5.5",
+  "scope": {
+    "allowedWriteRoots": [
+      "extracted/profile-supplement/church-ciel/",
+      "normalized/profile-supplement/church-ciel/",
+      "audit/packet-audits/church-ciel/"
+    ],
+    "outOfScopeWrites": []
+  },
+  "sourceUnitsRead": [
+    "src-dlc-tsukihime-ciel",
+    "src-tm-summary-church-conceptual-weapons",
+    "src-dlc-tsukihime-dead-apostle-roa-candidates"
+  ],
+  "sourceFilesRead": [
+    "sources/worldbook-profile/dlc-tsukihime-ciel.txt",
+    "sources/worldbook-profile/tm-summary-church-conceptual-weapons.txt",
+    "sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt"
+  ],
+  "planAndPolicyFilesRead": [
+    "rules/type-moon-three-agent-loop-rules.md",
+    "docs/type-moon-three-agent-loop-protocol.md",
+    "docs/type-moon-p1-hybrid-archive-plan.md",
+    "work-packets/church-ciel.json",
+    "source-unit-manifest.json",
+    "sources/worldbook-profile/source-text-manifest.json"
+  ],
+  "filesCreated": [
+    "extracted/profile-supplement/church-ciel/index.json",
+    "extracted/profile-supplement/church-ciel/records/ciel-original-profile-signals.json",
+    "extracted/profile-supplement/church-ciel/records/ciel-remake-profile-signals.json",
+    "extracted/profile-supplement/church-ciel/records/church-conceptual-weapon-signals.json",
+    "extracted/profile-supplement/church-ciel/records/roa-candidate-signals.json",
+    "normalized/profile-supplement/church-ciel/index.json",
+    "normalized/profile-supplement/church-ciel/characters/ciel-original.json",
+    "normalized/profile-supplement/church-ciel/characters/ciel-remake.json",
+    "normalized/profile-supplement/church-ciel/organizations/holy-church.json",
+    "normalized/profile-supplement/church-ciel/organizations/burial-agency.json",
+    "normalized/profile-supplement/church-ciel/organizations/executor-role.json",
+    "normalized/profile-supplement/church-ciel/items/conceptual-weapons.json",
+    "normalized/profile-supplement/church-ciel/items/black-keys.json",
+    "normalized/profile-supplement/church-ciel/items/seventh-holy-scripture-original.json",
+    "normalized/profile-supplement/church-ciel/items/seventh-holy-scripture-remake.json",
+    "normalized/profile-supplement/church-ciel/items/idea-blood-rings-remake.json",
+    "normalized/profile-supplement/church-ciel/appearances/ciel-original-appearance-outfits.json",
+    "normalized/profile-supplement/church-ciel/appearances/ciel-remake-appearance-outfits.json",
+    "normalized/profile-supplement/church-ciel/abilities/ciel-original-abilities.json",
+    "normalized/profile-supplement/church-ciel/abilities/ciel-remake-abilities.json",
+    "normalized/profile-supplement/church-ciel/combat-effects/ciel-anti-vampire-original.json",
+    "normalized/profile-supplement/church-ciel/combat-effects/ciel-anti-dead-apostle-remake.json",
+    "normalized/profile-supplement/church-ciel/combat-effects/idea-blood-cost-remake.json",
+    "normalized/profile-supplement/church-ciel/events/france-incident-original.json",
+    "normalized/profile-supplement/church-ciel/events/france-incident-remake.json",
+    "normalized/profile-supplement/church-ciel/events/ciel-remake-japan-mission.json",
+    "normalized/profile-supplement/church-ciel/relationships/candidate-edges/ciel-roa-original.json",
+    "normalized/profile-supplement/church-ciel/relationships/candidate-edges/ciel-roa-remake.json",
+    "normalized/profile-supplement/church-ciel/relationships/candidate-edges/ciel-shiki-original.json",
+    "normalized/profile-supplement/church-ciel/relationships/candidate-edges/ciel-shiki-remake.json",
+    "normalized/profile-supplement/church-ciel/relationships/candidate-edges/ciel-arcueid-original.json",
+    "normalized/profile-supplement/church-ciel/relationships/candidate-edges/ciel-arcueid-remake.json",
+    "normalized/profile-supplement/church-ciel/relationships/candidate-edges/ciel-burial-agency-original.json",
+    "normalized/profile-supplement/church-ciel/relationships/candidate-edges/ciel-burial-agency-remake.json",
+    "normalized/profile-supplement/church-ciel/timeline-markers/ciel-original-markers.json",
+    "normalized/profile-supplement/church-ciel/timeline-markers/ciel-remake-markers.json",
+    "normalized/profile-supplement/church-ciel/candidates/alias-candidates.json",
+    "normalized/profile-supplement/church-ciel/candidates/source-gap-candidates.json",
+    "normalized/profile-supplement/church-ciel/not-found/not-found-in-source.json",
+    "audit/packet-audits/church-ciel/generation-report.json",
+    "audit/packet-audits/church-ciel/final-status.json"
+  ],
+  "extractionCoverage": {
+    "cielVariantsSeparated": true,
+    "churchBurialAgencyExecutorCovered": true,
+    "seventhHolyScriptureCovered": true,
+    "blackKeysCovered": true,
+    "roaConnectionCovered": true,
+    "appearanceCovered": true,
+    "outfitEquipmentCovered": true,
+    "abilityActivationCovered": true,
+    "combatEffectsCovered": true,
+    "relationshipsKeptCandidateOnly": true,
+    "timelineMarkersCovered": true,
+    "notFoundRecordsWritten": true
+  },
+  "counts": {
+    "extractedRecordFiles": 4,
+    "normalizedIndexFiles": 1,
+    "characterFragments": 2,
+    "organizationRoleFragments": 3,
+    "itemFragments": 5,
+    "appearanceFragments": 2,
+    "abilityFragments": 2,
+    "eventFragments": 3,
+    "combatEffectFragments": 3,
+    "candidateRelationshipEdges": 8,
+    "timelineMarkerSets": 2,
+    "candidateFiles": 2,
+    "notFoundRecordFiles": 1
+  },
+  "candidateOnlyHandling": {
+    "relationshipPolicy": "Ciel-Roa, Ciel-Shiki, Ciel-Arcueid, and Burial Agency relation files are candidate-only as required by the work packet.",
+    "sourceGapLabels": ["诺耶尔", "Type Lumina", "歌月十夜", "direct Roa profile"],
+    "unsupportedLabelsPromotedToFormal": []
+  },
+  "continuityHandling": {
+    "original": "supported where 同人版 source lines exist",
+    "remake": "supported where 重制版 source lines exist",
+    "melty-blood": "not formalized except age/profile mentions in source; no Melty Blood formal fragment created",
+    "kagetsu-tohya": "source-gap/candidate-only",
+    "type-lumina": "source-gap/candidate-only",
+    "sandbox": "used for general Type-Moon summaries and source-gap policy records"
+  },
+  "forbiddenAggregateCheck": {
+    "charactersJson": false,
+    "eventsJson": false,
+    "relationshipsJson": false,
+    "factsJson": false,
+    "graphJson": false,
+    "timelineJson": false
+  },
+  "validationStatus": {
+    "manualStructureReview": "completed",
+    "readOnlyFindChecks": "completed for created file lists and forbidden aggregate basenames",
+    "jsonParseCommand": "not run; no shell/script execution permitted",
+    "requiresAuditor": true
+  },
+  "uncertainties": [
+    "Source text is user-file worldbook profile material, not official game script; records retain sourceType, credibility, and canonStatus accordingly.",
+    "Direct Roa and Noel profile entries were not available in Stage 1 source text; those remain source-gap/candidate-only.",
+    "Route combat scenes are not present in the packet source excerpts; capability/history signals and not-found records were generated instead."
+  ]
+}

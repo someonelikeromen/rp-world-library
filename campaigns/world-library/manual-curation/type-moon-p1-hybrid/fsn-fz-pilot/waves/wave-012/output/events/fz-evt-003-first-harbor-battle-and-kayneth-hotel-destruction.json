@@ -1,0 +1,25 @@
+{
+  "schema": "tm-p1-event-v1",
+  "event_id": "fz-evt-003-first-harbor-battle-and-kayneth-hotel-destruction",
+  "worldId": "type-moon-nasuverse",
+  "continuity": "fz",
+  "timelineId": "fz-fourth-war",
+  "route": "fz-fourth-war",
+  "canonStatus": "canon-like",
+  "time": { "start": { "value": "1994-11-16T13:44:19", "precision": "YYYY-MM-DDTHH:mm:ss", "relative": "First Fuyuki Harbor battle begins", "orderIndex": 20 }, "end": { "value": "1994-11-16T18:12:48", "precision": "YYYY-MM-DDTHH:mm:ss", "relative": "Kayneth hotel destroyed", "orderIndex": 24 }, "duration": "same-day", "confidence": "high" },
+  "timelineNodes": [
+    { "nodeId": "start", "label": "Harbor battle begins", "time": { "relative": "1994-11-16 13:44:19", "orderIndex": 20 }, "summary": "The first Fuyuki Harbor battle begins." },
+    { "nodeId": "middle-001", "label": "Caster meets Saber", "time": { "relative": "1994-11-16 17:20:17", "orderIndex": 23 }, "summary": "Caster and Saber meet after the harbor battle." },
+    { "nodeId": "end", "label": "Hotel destroyed", "time": { "relative": "1994-11-16 18:12:48", "orderIndex": 24 }, "summary": "Kiritsugu destroys Kayneth's hotel and helps Maiya escape Kirei's attack." }
+  ],
+  "participants": ["saber-artoria", "caster-gilles", "emiya-kiritsugu", "kayneth-archibald", "hisau-maiya", "kotomine-kirei"],
+  "locationRefs": ["fuyuki-harbor", "fuyuki-city"],
+  "cause": "The Fourth War's open combat phase begins after early summons and Assassin's first destruction.",
+  "process": "The harbor battle occurs, Caster fixates on Saber, and Kiritsugu attacks Kayneth's base while Kirei attacks Maiya.",
+  "outcome": "Caster becomes a priority threat thread and Kayneth's team is materially damaged.",
+  "stateChanges": ["Kayneth's hotel base destroyed", "Maiya survives Kirei's attack"],
+  "relationshipChanges": ["Caster fixates on Saber", "Kiritsugu and Kirei move into direct shadow conflict"],
+  "sourceType": "user-file-worldbook",
+  "credibility": "A",
+  "sourceRefs": ["type-moon-nasuverse/worldbook-text/src-fate-zero.md:27", "type-moon-nasuverse/worldbook-text/src-fate-zero.md:28", "type-moon-nasuverse/worldbook-text/src-fate-zero.md:29", "type-moon-nasuverse/worldbook-text/src-fate-zero.md:30"]
+}

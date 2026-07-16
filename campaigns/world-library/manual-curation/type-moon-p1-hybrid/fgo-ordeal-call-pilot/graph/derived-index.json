@@ -1,0 +1,68 @@
+{
+  "schema": "tm-fgo-graph-derived-index-v1",
+  "mergeStepId": "finalize-ordeal-call-merge",
+  "scopeRaw": "Lightweight derived graph summary for Ordeal Call I-III pilot",
+  "policyRaw": "Derived only from source-first merged events, relationship edges, stage-character indexes, and world-state indexes. This is an index/summary, not a new fact source.",
+  "sourceRefs": [
+    "sources/worldbook-script/ordeal-call/ch-104-oc1-paper-moon.txt:1-87",
+    "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:1-89",
+    "sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt:1-92"
+  ],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like",
+  "records": [
+    {
+      "graphSliceId": "oc1-paper-moon-derived",
+      "chapterId": "fgo-ordeal-call-1-paper-moon",
+      "chapterSlug": "oc1-paper-moon",
+      "timelineId": "oc1-paper-moon-phase-timeline",
+      "eventCount": 4,
+      "characterRecordCount": 8,
+      "worldRecordCount": 3,
+      "relationshipEdgeCount": 5,
+      "edgeIndexRef": "merged/relationships/edges/ordeal-call/oc1-paper-moon/",
+      "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-104-oc1-paper-moon.txt:1-87"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "graphSliceId": "oc2-id-derived",
+      "chapterId": "fgo-ordeal-call-2-id",
+      "chapterSlug": "oc2-id",
+      "timelineId": "oc2-id-phase-timeline",
+      "eventCount": 4,
+      "characterRecordCount": 7,
+      "worldRecordCount": 4,
+      "relationshipEdgeCount": 5,
+      "edgeIndexRef": "merged/relationships/edges/ordeal-call/oc2-id/",
+      "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:1-89"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "graphSliceId": "oc3-integration-derived",
+      "chapterId": "fgo-ordeal-call-3-integration",
+      "chapterSlug": "oc3-integration",
+      "timelineId": "oc3-integration-phase-timeline",
+      "eventCount": 4,
+      "characterRecordCount": 10,
+      "worldRecordCount": 4,
+      "relationshipEdgeCount": 6,
+      "edgeIndexRef": "merged/relationships/edges/ordeal-call/oc3-integration/",
+      "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt:1-92"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    }
+  ],
+  "totals": {
+    "chapterCount": 3,
+    "eventCount": 12,
+    "characterRecordCount": 25,
+    "worldRecordCount": 11,
+    "relationshipEdgeCount": 16
+  }
+}

@@ -8,7 +8,7 @@ Closed-loop status: generated, self-audited, fixed, and audit-rerun passed.
 
 Primary outputs:
 
-- `output/events.json`
+- `output/event-index.json`
 - `output/event-candidates.json`
 - `reports/generation-report.json`
 - `reports/audit-round-001.json`

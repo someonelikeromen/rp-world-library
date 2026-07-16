@@ -6,7 +6,7 @@
   "auditedAt": "2026-07-12",
   "agent": { "model": "lt-yuyu/gpt-5.5", "role": "internal-auditor" },
   "filesChecked": [
-    "waves/wave-011/output/events.json",
+    "waves/wave-011/output/event-index.json",
     "waves/wave-011/output/event-candidates.json"
   ],
   "sourceRefsVerified": 65,
@@ -15,7 +15,7 @@
       "issueId": "W011-A001",
       "severity": "error",
       "category": "branch-separation",
-      "file": "output/events.json",
+      "file": "output/event-index.json",
       "path": "events",
       "detail": "Initial pass risked treating HF bad endings and film trilogy changes as formal main-route events.",
       "expected": "Keep route branches and film differences as candidates pending dedicated continuity handling.",

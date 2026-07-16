@@ -1,0 +1,81 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "nocht-leaflet",
+  "volume": "vol-13",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-13/full.txt:250",
+    "saijaku-muhai-bahamut-main/vol-13/full.txt:7000"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-13",
+      "volume": "vol-13",
+      "time": "圣夜祭前后",
+      "label": "三和音成员与探测担当",
+      "name": {
+        "zh": "诺珂特·利芙蕾特",
+        "en": "Noct Leaflet",
+        "jp": ""
+      },
+      "aliases": [
+        "诺珂特"
+      ],
+      "titles": [
+        "三和音成员",
+        "爱理的朋友"
+      ],
+      "gender": "女",
+      "species": "人类",
+      "nationality": "亚提司玛特新王国",
+      "occupation": "学生、机龙使",
+      "affiliation": "王立士官学园；骑士团；三和音",
+      "status": {
+        "vol13": "存活；负责探测、监控与伤员撤离"
+      },
+      "abilities_owned": [
+        "wyvern-detection",
+        "camouflage-support"
+      ],
+      "possessions_owned": [
+        "wyvern-custom-detection"
+      ],
+      "relationships": {
+        "airi-arcadia": {
+          "type": "朋友/护卫对象",
+          "status": "受托监视路克斯独处时的安全"
+        },
+        "lux-arcadia": {
+          "type": "学弟/监控对象",
+          "status": "以特装机龙探测保护其洗浴等薄弱时刻"
+        },
+        "kirihime-yoruka": {
+          "type": "能交流对象",
+          "status": "协助夜架静养与打扮"
+        }
+      },
+      "knowledge": [
+        "girls-romance-pact",
+        "academy-security-protocol"
+      ],
+      "summary": "诺珂特是三和音中最冷静的探测担当，使用特装机龙监视学园和保护路克斯。她在圣夜祭前参与恋爱协议裁判，伊布力斯袭击时迅速用龙声通知骑士团并协助撤离伤者。",
+      "key_events": [
+        {
+          "event_id": "airi-bath-secret-talk",
+          "summary": "以探测装置监视路克斯安全却促成兄妹浴场误会。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-13/full.txt:1900"
+        },
+        {
+          "event_id": "students-mental-pollution-pacified",
+          "summary": "通知骑士团集合并救援库露露席法等人。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-13/full.txt:5461"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-13/full.txt:1900",
+        "saijaku-muhai-bahamut-main/vol-13/full.txt:5461"
+      ]
+    }
+  ]
+}

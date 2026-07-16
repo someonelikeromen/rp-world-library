@@ -1,0 +1,69 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "yato-no-kami-stealth",
+  "volume": "vol-07",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-07/full.txt:6380"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-07-main",
+      "volume": "vol-07",
+      "time": "学园骚动与迷宫救援",
+      "name": {
+        "zh": "夜刀神迷彩与探测",
+        "en": "Yato-no-Kami Stealth and Detection"
+      },
+      "aliases": [
+        "迷彩",
+        "探测装置"
+      ],
+      "type": "technology / combat / support",
+      "description": "夜架的神装机龙夜刀神具备侦敌、迷彩、支援、辅助与修复等特装机能，本卷用于隐藏、探测爱理位置并安全引路。",
+      "details": {
+        "drag_ride": "yato-no-kami",
+        "functions": [
+          "迷彩隐藏",
+          "探测装置",
+          "支援辅助"
+        ]
+      },
+      "activation": {
+        "condition": "装备夜刀神",
+        "incantation": "探测装置·启动",
+        "time": "持续",
+        "cost": "需要操纵者专注"
+      },
+      "effects": [
+        "隐蔽身形",
+        "高速扫描迷宫地形和反应",
+        "定位目标并规划路线"
+      ],
+      "power_level": {
+        "initial": "高",
+        "peak": "在迷宫中定位爱理与三和音并吸引大量幻神兽",
+        "evolution": []
+      },
+      "known_feats": [
+        "夜架在迷宫救援中确认爱理坐标并保障退路"
+      ],
+      "shared_by": [
+        "kirihime-yoruka"
+      ],
+      "see_also": [
+        "yato-no-kami",
+        "air-step"
+      ],
+      "countered_by": [],
+      "counters": [
+        "labyrinth-alert-state"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-07/full.txt:6380"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "dragon-bite-chain",
+  "volume": "vol-04",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-04/full.txt:4121",
+    "saijaku-muhai-bahamut-main/vol-04/full.txt:5895"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-04",
+      "volume": "vol-04",
+      "time": "vol-04",
+      "name": {
+        "zh": "龙咬缚锁",
+        "en": "Dragon Bite Chain"
+      },
+      "aliases": [],
+      "type": "technology / combat",
+      "description": "堤丰特殊武装，蛇颚状钢线可捕捉、拉扯敌人。本卷与巴哈姆特共鸣波动配合，成功捕捉欧特鲁斯。",
+      "details": {
+        "drag_ride": "typhon",
+        "owner": "philuffy-aingram"
+      },
+      "activation": {
+        "condition": "堤丰装备中发射",
+        "incantation": "",
+        "time": "瞬间到持续束缚",
+        "cost": "机龙能量和操纵精度"
+      },
+      "effects": [
+        "远距束缚",
+        "高速拉近目标",
+        "可配合引力/斥力调整轨迹"
+      ],
+      "power_level": {
+        "initial": "捕捉大型幻神兽",
+        "peak": "失控菲尔菲用以牵制神装机龙",
+        "evolution": []
+      },
+      "known_feats": [
+        "捕捉欧特鲁斯",
+        "击飞莉夏迪亚玛特"
+      ],
+      "shared_by": [
+        "philuffy-aingram"
+      ],
+      "see_also": [
+        "typhon-ruthless-fruit"
+      ],
+      "countered_by": [],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-04/full.txt:4121",
+        "saijaku-muhai-bahamut-main/vol-04/full.txt:5895"
+      ]
+    }
+  ]
+}

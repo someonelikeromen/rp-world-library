@@ -1,0 +1,62 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "dormul-bolster",
+  "volume": "vol-13",
+  "time_range": {
+    "start": "第五章",
+    "end": "终章"
+  },
+  "sub_arcs": [
+    "强化种受害者",
+    "矮人支援",
+    "里维拉恢复"
+  ],
+  "source_refs": [
+    "danmachi-main/vol-13/full.txt:4663-8038"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-13-dormul-dwarf-survivor",
+      "volume": "vol-13",
+      "time": "第五章-终章",
+      "label": "中寄生树仍背负精灵同行突围",
+      "name": {
+        "zh": "多鲁木尔·博尔斯特",
+        "en": "Dormul Bolster",
+        "jp": "ドルムル・ボルスター"
+      },
+      "gender": "男",
+      "species": "矮人",
+      "occupation": "冒险者、重战士",
+      "affiliation": "曼尼眷族",
+      "status": {
+        "level": "Lv.3",
+        "location": "地下城第25层、里维拉镇",
+        "state": "被寄生树侵蚀但以矮人体力支援撤退"
+      },
+      "summary": "多鲁木尔率曼尼眷族接下与卢维斯相同的搜索委托，在第25层发现受害者尸体并被强化种袭击、种下寄生树。他与赫斯缇雅眷族会合后，虽与卢维斯互相斗嘴，仍主动背负受伤精灵，带领矮人们作为临时支援者分担负荷。强化种被击杀后他脱离危险，在里维拉感谢赫斯缇雅眷族，并承诺日后相助。",
+      "key_events": [
+        {
+          "event_id": "lili-retreat-plan-and-marie-guides-bell",
+          "summary": "与队伍会合，提供安全楼层遇害者情报并接手背负伤患。",
+          "sourceRef": "danmachi-main/vol-13/full.txt:4663-6046"
+        },
+        {
+          "event_id": "monster-parade-and-kokonoe-mass-level-boost",
+          "summary": "在怪物奉送中即使衰弱仍作为支援者行动。",
+          "sourceRef": "danmachi-main/vol-13/full.txt:6047-7866"
+        },
+        {
+          "event_id": "luvis-dormul-recover-and-ryu-accused",
+          "summary": "在里维拉向赫斯缇雅眷族道谢并承诺回报。",
+          "sourceRef": "danmachi-main/vol-13/full.txt:7867-8038"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-13/full.txt:4663-8038"
+      ]
+    }
+  ]
+}

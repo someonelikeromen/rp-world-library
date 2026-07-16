@@ -1,0 +1,28 @@
+{
+  "schema": "tm-fgo-packet-fixer-report-v1",
+  "packetId": "pkt-fgo-ordeal-call-oc1-paper-moon-prep",
+  "chapterId": "fgo-ordeal-call-1-paper-moon",
+  "slug": "oc1-paper-moon",
+  "fixerPass": "fixer-after-initial-audit",
+  "status": "no-content-fixes-required",
+  "actions": [
+    {
+      "actionId": "fixer-review-required-families",
+      "result": "No missing required extracted, normalized, or audit family was detected before audit artifact creation."
+    },
+    {
+      "actionId": "fixer-review-source-first-policy",
+      "result": "No unsupported formal facts or promoted external labels were detected."
+    },
+    {
+      "actionId": "fixer-review-mandatory-gaps",
+      "result": "Explicit not-found-in-source records already cover missing character outfit visuals, named NP/skill/magecraft activations, combat visual details, and speaker-attributed dialogue."
+    }
+  ],
+  "contentFilesChangedByFixer": [],
+  "noteRaw": "The only files created after the initial audit are audit artifacts and status/log updates; generated extracted and normalized content did not require corrective edits.",
+  "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-104-oc1-paper-moon.txt:1-87"],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

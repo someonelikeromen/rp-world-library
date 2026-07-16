@@ -6,7 +6,7 @@
   "auditedAt": "2026-07-12",
   "agent": { "model": "lt-yuyu/gpt-5.5", "role": "internal-auditor" },
   "filesChecked": [
-    "waves/wave-010/output/events.json",
+    "waves/wave-010/output/event-index.json",
     "waves/wave-010/output/event-candidates.json"
   ],
   "sourceRefsVerified": 50,
@@ -15,7 +15,7 @@
       "issueId": "W010-A001",
       "severity": "error",
       "category": "adaptation-separation",
-      "file": "output/events.json",
+      "file": "output/event-index.json",
       "path": "events",
       "detail": "Initial pass risked mixing anime-only differences with the formal UBW route event sequence.",
       "expected": "Keep anime-only differences candidate-only unless a dedicated adaptation continuity is opened.",

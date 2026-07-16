@@ -1,0 +1,33 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "danmachi",
+  "ability_id": "nina-magia-chris",
+  "volume": "vol-27",
+  "source_refs": [
+    "danmachi-main/vol-27/chapters"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-27-nina-magia-chris",
+      "volume": "vol-27",
+      "time": "第一章至第四章",
+      "name": {
+        "zh": "魔源神迹",
+        "en": "Magia Chris"
+      },
+      "type": "healing_support_magic",
+      "owner": "nina-tulle",
+      "summary": "妮娜的回复魔法可远距离治疗并将自身精神力分给目标，还能延长魔法和道具等增益效果。第29层远征中它延长春姬等级升华并节省灵药；龙谷决战中妮娜用它支援贝尔，使他能承受里昂洗礼并完成圣火残光。",
+      "mechanics": {
+        "effect": "治疗伤势、补给精神力、延长增益持续时间",
+        "tactical_use": "可定点预判高速前锋路径进行治疗",
+        "limitations": "消耗施法者精神力，长时间支援会逼近极限"
+      },
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-27/chapters/ch-002-第一章-Orario-Rumble.txt",
+        "danmachi-main/vol-27/chapters/ch-005-第四章-骑士残光.txt"
+      ]
+    }
+  ]
+}

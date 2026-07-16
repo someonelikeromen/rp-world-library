@@ -8,7 +8,7 @@ Closed-loop status: generated, self-audited, fixed, and audit-rerun passed.
 
 Primary outputs:
 
-- `output/events.json`
+- `output/event-index.json`
 - `output/fourth-war-materials.json`
 - `output/fz-candidates.json`
 - `reports/generation-report.json`

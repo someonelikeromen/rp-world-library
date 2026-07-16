@@ -1,0 +1,74 @@
+{
+  "schema": "tm-tsukihime-extracted-record-set-v1",
+  "packetId": "dead-apostles-roa",
+  "recordSetId": "roa-reincarnation-possession-candidate",
+  "status": "generated-pending-audit",
+  "candidateOnly": true,
+  "records": [
+    {
+      "recordId": "ext-roa-ciel-reincarnation-original-001",
+      "recordType": "ability-activation-candidate",
+      "candidateOnly": true,
+      "subject": "米海尔·罗亚·法尔丹姆杨 / 同人版希耶尔",
+      "summary": "Original Ciel source says Ciel was once Roa's reincarnation body; later history says Roa began manifesting on Elesia's sixteenth birthday and fully occupied her body after isolation exhausted her mind.",
+      "activationRaw": "曾是米海尔·罗亚·法尔丹姆杨的转世体; 十六岁生日时罗亚开始显现; 罗亚彻底占据身体",
+      "continuityTaxonomy": {"category": "original", "rawSourceLabels": ["同人版", "罗亚系"], "sourceAvailability": "supported-profile-signal; no standalone Roa profile"},
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:21", "sources/worldbook-profile/dlc-tsukihime-ciel.txt:29"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    },
+    {
+      "recordId": "ext-roa-ciel-reincarnation-remake-001",
+      "recordType": "ability-activation-candidate",
+      "candidateOnly": true,
+      "subject": "米海尔·罗亚·法尔丹姆杨 / 重制版希耶尔",
+      "summary": "Remake Ciel source says Ciel was once Roa's reincarnation body; Roa's consciousness began waking at age twelve and produced impulses toward bodily destruction of others.",
+      "activationRaw": "曾是米海尔·罗亚·法尔丹姆杨的转世体; 12岁时罗亚意识开始苏醒; 产生针对他人的肢体破坏冲动",
+      "continuityTaxonomy": {"category": "remake", "rawSourceLabels": ["重制版", "罗亚系"], "sourceAvailability": "supported-profile-signal; no standalone Roa profile"},
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:44", "sources/worldbook-profile/dlc-tsukihime-ciel.txt:49"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    },
+    {
+      "recordId": "ext-roa-soul-survival-original-001",
+      "recordType": "ability-aftermath-candidate",
+      "candidateOnly": true,
+      "subject": "米海尔·罗亚·法尔丹姆杨 / 艾蕾西亚",
+      "summary": "Original Ciel source says that because Roa's soul had already reincarnated to the next target, the world maintained the fact of Roa's survival by continually correcting Elesia's body, producing paradoxical immortality.",
+      "activationRaw": "罗亚灵魂已转生至下一目标; 世界为维持'罗亚存活'的事实; 不断修正艾蕾西亚肉体",
+      "continuityTaxonomy": {"category": "original", "rawSourceLabels": ["同人版"], "sourceAvailability": "supported-profile-signal; candidate-only Roa mechanics"},
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:32"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    },
+    {
+      "recordId": "ext-roa-soul-survival-remake-001",
+      "recordType": "ability-aftermath-candidate",
+      "candidateOnly": true,
+      "subject": "米海尔·罗亚·法尔丹姆杨 / 艾蕾西亚",
+      "summary": "Remake Ciel source says Elesia's body revived after six years in Church storage because Roa's soul had not been extinguished and the world judged the body must remain alive, giving it continuous restoration.",
+      "activationRaw": "罗亚灵魂未灭; 世界判定其肉体必须存活; 赋予不断复原特性",
+      "continuityTaxonomy": {"category": "remake", "rawSourceLabels": ["重制版"], "sourceAvailability": "supported-profile-signal; candidate-only Roa mechanics"},
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:51"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    },
+    {
+      "recordId": "ext-roa-shiki-transfer-candidate-001",
+      "recordType": "ability-activation-candidate",
+      "candidateOnly": true,
+      "subject": "罗亚 / 远野四季 / 远野志贵",
+      "summary": "Indirect candidate excerpt says Roa/Tohno SHIKI can transfer into Shiki through a life or soul connection in a Ciel route context. This is not formalized as a standalone Roa ability without direct profile audit.",
+      "activationRaw": "罗亚/远野四季通过生命或灵魂联系可转移至志贵体内 in Ciel route context",
+      "continuityTaxonomy": {"category": "original", "rawSourceLabels": ["同人版", "candidate-only"], "sourceAvailability": "indirect-signal-only"},
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:25"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    }
+  ]
+}

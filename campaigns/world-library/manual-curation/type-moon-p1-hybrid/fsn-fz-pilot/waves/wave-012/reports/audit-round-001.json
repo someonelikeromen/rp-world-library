@@ -6,7 +6,7 @@
   "auditedAt": "2026-07-12",
   "agent": { "model": "lt-yuyu/gpt-5.5", "role": "internal-auditor" },
   "filesChecked": [
-    "waves/wave-012/output/events.json",
+    "waves/wave-012/output/event-index.json",
     "waves/wave-012/output/fourth-war-materials.json",
     "waves/wave-012/output/fz-candidates.json"
   ],
@@ -16,7 +16,7 @@
       "issueId": "W012-A001",
       "severity": "error",
       "category": "unknown-time-handling",
-      "file": "output/events.json",
+      "file": "output/event-index.json",
       "path": "events",
       "detail": "Initial pass considered folding prewar-unknown Kiritsugu Alimango/Natalia incidents into formal Fourth War events.",
       "expected": "Keep prewar-unknown incidents candidate-only until character period review can place them without inventing order.",

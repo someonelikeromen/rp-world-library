@@ -1,0 +1,47 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "sacred-eclipse-regeneration",
+  "volume": "vol-09",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-09/full.txt:6737"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-09",
+      "volume": "vol-09",
+      "time": "vol-09",
+      "name": {
+        "zh": "圣蚀再生与分裂",
+        "en": "Sacred Eclipse Regeneration"
+      },
+      "aliases": [
+        "分体复活"
+      ],
+      "type": "supernatural / technology",
+      "description": "圣蚀被破坏后能从肉块分裂并重生，分体可继承本体。",
+      "details": {
+        "user": "ark",
+        "weakness_in_vol_09": "赛莉丝先散布体液，再以雷击导电同时烧毁分体。"
+      },
+      "activation": {
+        "condition": "圣蚀机体受损",
+        "incantation": "",
+        "time": "rapid",
+        "cost": "unknown"
+      },
+      "effects": [
+        "高速再生",
+        "分裂为多体",
+        "转移本体意识"
+      ],
+      "shared_by": [
+        "ark"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:6737"
+      ]
+    }
+  ]
+}

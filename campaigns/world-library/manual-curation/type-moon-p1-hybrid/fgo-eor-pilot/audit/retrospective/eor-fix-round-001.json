@@ -1,0 +1,70 @@
+{
+  "schema": "tm-fgo-eor-retrospective-fix-report-v1",
+  "model": "lt-yuyu/gpt-5.5",
+  "stepId": "fix-eor-relationship-time",
+  "status": "fixed",
+  "issueId": "EOR-RETRO-BLOCK-001",
+  "issueSummary": "Formal merged EoR relationship edge records in Shinjuku, Agartha, Shimousa, and Salem lacked required temporal metadata timelineId and timeRange/timeRangeRaw.",
+  "scope": {
+    "allowedRelationshipFiles": [
+      "merged/relationships/edges/eor/shinjuku/records.json",
+      "merged/relationships/edges/eor/agartha/records.json",
+      "merged/relationships/edges/eor/shimousa/records.json",
+      "merged/relationships/edges/eor/salem/records.json"
+    ],
+    "derivedIndexTouched": false,
+    "derivedIndexDecision": "graph/derived-edge-index.json was not changed because its chapter-level edgeRef and edgeCount references remained coherent after adding per-edge temporal metadata to the canonical relationship files."
+  },
+  "issuesHandled": [
+    {
+      "issueId": "EOR-RETRO-BLOCK-001",
+      "action": "Added timelineId, structured timeRange, and timeRangeRaw to every formal relationship edge in the four EoR merged relationship records files.",
+      "resolution": "fixed"
+    }
+  ],
+  "filesChanged": [
+    "merged/relationships/edges/eor/shinjuku/records.json",
+    "merged/relationships/edges/eor/agartha/records.json",
+    "merged/relationships/edges/eor/shimousa/records.json",
+    "merged/relationships/edges/eor/salem/records.json",
+    "audit/retrospective/eor-fix-round-001.json"
+  ],
+  "temporalDerivationMethod": [
+    "For single-event relationship edges, timelineId was set to the chapter timelineId and timeRange/timeRangeRaw were copied from the source-backed merged event whose source line range contains or directly supports the edge sourceRefs.",
+    "For relationship edges backed by chapter world_state/bottom-logic records rather than one specific event line, timeRange was anchored to existing source-backed chapter timeline bounds or the relevant reveal/final event; no exact dates beyond existing timeRaw strings were introduced.",
+    "For multi-event edges, timeRange start/end event IDs and raw times were derived from existing merged event records and the relationship sourceRefs."
+  ],
+  "edgeActions": [
+    {"edgeId":"shinjuku-relcand-001","timelineId":"fgo-eor-shinjuku","timeRangeRaw":"1999年 新宿","derivedFromEvents":["shinjuku-event-b"],"sourceRefs":[{"path":"sources/worldbook-script/eor/ch-089-shinjuku.txt","lineStart":46,"lineEnd":48}],"issueId":"EOR-RETRO-BLOCK-001"},
+    {"edgeId":"shinjuku-relcand-002","timelineId":"fgo-eor-shinjuku","timeRangeRaw":"1999年 新宿","derivedFromEvents":["shinjuku-event-f"],"sourceRefs":[{"path":"sources/worldbook-script/eor/ch-089-shinjuku.txt","lineStart":60,"lineEnd":60}],"issueId":"EOR-RETRO-BLOCK-001"},
+    {"edgeId":"shinjuku-relcand-003","timelineId":"fgo-eor-shinjuku","timeRangeRaw":"1999年 新宿·枪身塔顶","derivedFromEvents":["shinjuku-event-r"],"sourceRefs":[{"path":"sources/worldbook-script/eor/ch-089-shinjuku.txt","lineStart":99,"lineEnd":99}],"issueId":"EOR-RETRO-BLOCK-001"},
+    {"edgeId":"shinjuku-relcand-004","timelineId":"fgo-eor-shinjuku","timeRangeRaw":"1999年 新宿","derivedFromEvents":["shinjuku-event-e"],"sourceRefs":[{"path":"sources/worldbook-script/eor/ch-089-shinjuku.txt","lineStart":57,"lineEnd":58}],"issueId":"EOR-RETRO-BLOCK-001"},
+    {"edgeId":"shinjuku-relcand-005","timelineId":"fgo-eor-shinjuku","timeRangeRaw":"1999年 新宿","derivedFromEvents":["shinjuku-event-o"],"sourceRefs":[{"path":"sources/worldbook-script/eor/ch-089-shinjuku.txt","lineStart":90,"lineEnd":90}],"issueId":"EOR-RETRO-BLOCK-001"},
+    {"edgeId":"agartha-relcand-001","timelineId":"fgo-eor-agartha","timeRangeRaw":"A.D.2000年 时间不明—A.D.2000年","derivedFromEvents":["agartha-event-b","agartha-event-q"],"sourceRefs":[{"path":"sources/worldbook-script/eor/ch-090-agartha.txt","lineStart":26,"lineEnd":28}],"issueId":"EOR-RETRO-BLOCK-001"},
+    {"edgeId":"agartha-relcand-002","timelineId":"fgo-eor-agartha","timeRangeRaw":"A.D.2000年 时间不明","derivedFromEvents":["agartha-event-b","agartha-event-p"],"sourceRefs":[{"path":"sources/worldbook-script/eor/ch-090-agartha.txt","lineStart":26,"lineEnd":105}],"issueId":"EOR-RETRO-BLOCK-001"},
+    {"edgeId":"agartha-relcand-003","timelineId":"fgo-eor-agartha","timeRangeRaw":"A.D.2000年 时间不明","derivedFromEvents":["agartha-event-e","agartha-event-n"],"sourceRefs":[{"path":"sources/worldbook-script/eor/ch-090-agartha.txt","lineStart":60,"lineEnd":97}],"issueId":"EOR-RETRO-BLOCK-001"},
+    {"edgeId":"agartha-relcand-004","timelineId":"fgo-eor-agartha","timeRangeRaw":"A.D.2000年 时间不明（事件O揭示此前行动）","derivedFromEvents":["agartha-event-o"],"sourceRefs":[{"path":"sources/worldbook-script/eor/ch-090-agartha.txt","lineStart":99,"lineEnd":99}],"issueId":"EOR-RETRO-BLOCK-001"},
+    {"edgeId":"agartha-relcand-005","timelineId":"fgo-eor-agartha","timeRangeRaw":"A.D.2000年","derivedFromEvents":["agartha-event-q"],"sourceRefs":[{"path":"sources/worldbook-script/eor/ch-090-agartha.txt","lineStart":107,"lineEnd":107}],"issueId":"EOR-RETRO-BLOCK-001"},
+    {"edgeId":"shimousa-relcand-001","timelineId":"fgo-eor-shimousa","timeRangeRaw":"1639年5月7日 午后—1639年5月18日及其后","derivedFromEvents":["shimousa-event-b","shimousa-event-q"],"sourceRefs":[{"path":"sources/worldbook-script/eor/ch-091-shimousa.txt","lineStart":25,"lineEnd":25}],"issueId":"EOR-RETRO-BLOCK-001"},
+    {"edgeId":"shimousa-relcand-002","timelineId":"fgo-eor-shimousa","timeRangeRaw":"1639年5月7日 黄昏","derivedFromEvents":["shimousa-event-c"],"sourceRefs":[{"path":"sources/worldbook-script/eor/ch-091-shimousa.txt","lineStart":48,"lineEnd":51}],"issueId":"EOR-RETRO-BLOCK-001"},
+    {"edgeId":"shimousa-relcand-003","timelineId":"fgo-eor-shimousa","timeRangeRaw":"1639年5月7日 深夜至翌日黎明","derivedFromEvents":["shimousa-event-d"],"sourceRefs":[{"path":"sources/worldbook-script/eor/ch-091-shimousa.txt","lineStart":53,"lineEnd":56}],"issueId":"EOR-RETRO-BLOCK-001"},
+    {"edgeId":"shimousa-relcand-004","timelineId":"fgo-eor-shimousa","timeRangeRaw":"1639年5月7日 午后—1639年5月17日 深夜","derivedFromEvents":["shimousa-event-b","shimousa-event-p"],"sourceRefs":[{"path":"sources/worldbook-script/eor/ch-091-shimousa.txt","lineStart":26,"lineEnd":103}],"issueId":"EOR-RETRO-BLOCK-001"},
+    {"edgeId":"shimousa-relcand-005","timelineId":"fgo-eor-shimousa","timeRangeRaw":"1639年5月16日 黎明至午后—1639年5月17日 午后至夜晚","derivedFromEvents":["shimousa-event-m","shimousa-event-o"],"sourceRefs":[{"path":"sources/worldbook-script/eor/ch-091-shimousa.txt","lineStart":90,"lineEnd":100}],"issueId":"EOR-RETRO-BLOCK-001"},
+    {"edgeId":"shimousa-relcand-006","timelineId":"fgo-eor-shimousa","timeRangeRaw":"1639年5月16日 黎明至午前—1639年5月16日 黎明至午后","derivedFromEvents":["shimousa-event-l","shimousa-event-m"],"sourceRefs":[{"path":"sources/worldbook-script/eor/ch-091-shimousa.txt","lineStart":86,"lineEnd":92}],"issueId":"EOR-RETRO-BLOCK-001"},
+    {"edgeId":"shimousa-relcand-007","timelineId":"fgo-eor-shimousa","timeRangeRaw":"1639年5月14日 白昼至深夜","derivedFromEvents":["shimousa-event-j"],"sourceRefs":[{"path":"sources/worldbook-script/eor/ch-091-shimousa.txt","lineStart":78,"lineEnd":78}],"issueId":"EOR-RETRO-BLOCK-001"},
+    {"edgeId":"salem-relcand-001","timelineId":"fgo-eor-salem","timeRangeRaw":"1692年4月21日 拂晓至深夜—1692年5月1日 早晨","derivedFromEvents":["salem-event-b","salem-event-i"],"sourceRefs":[{"path":"sources/worldbook-script/eor/ch-092-salem.txt","lineStart":25,"lineEnd":25}],"issueId":"EOR-RETRO-BLOCK-001"},
+    {"edgeId":"salem-relcand-002","timelineId":"fgo-eor-salem","timeRangeRaw":"1692年4月21日 拂晓至深夜—塞勒姆最终逗留日","derivedFromEvents":["salem-event-b","salem-event-j"],"sourceRefs":[{"path":"sources/worldbook-script/eor/ch-092-salem.txt","lineStart":25,"lineEnd":25}],"issueId":"EOR-RETRO-BLOCK-001"},
+    {"edgeId":"salem-relcand-003","timelineId":"fgo-eor-salem","timeRangeRaw":"2017年11月29日—1692年4月23日 早晨至深夜","derivedFromEvents":["salem-event-a","salem-event-d"],"sourceRefs":[{"path":"sources/worldbook-script/eor/ch-092-salem.txt","lineStart":40,"lineEnd":52}],"issueId":"EOR-RETRO-BLOCK-001"},
+    {"edgeId":"salem-relcand-004","timelineId":"fgo-eor-salem","timeRangeRaw":"1692年4月25日 早晨至深夜","derivedFromEvents":["salem-event-f"],"sourceRefs":[{"path":"sources/worldbook-script/eor/ch-092-salem.txt","lineStart":58,"lineEnd":60}],"issueId":"EOR-RETRO-BLOCK-001"},
+    {"edgeId":"salem-relcand-005","timelineId":"fgo-eor-salem","timeRangeRaw":"1692年5月1日 早晨","derivedFromEvents":["salem-event-i"],"sourceRefs":[{"path":"sources/worldbook-script/eor/ch-092-salem.txt","lineStart":70,"lineEnd":70}],"issueId":"EOR-RETRO-BLOCK-001"},
+    {"edgeId":"salem-relcand-006","timelineId":"fgo-eor-salem","timeRangeRaw":"1692年4月24日 拂晓至深夜","derivedFromEvents":["salem-event-e"],"sourceRefs":[{"path":"sources/worldbook-script/eor/ch-092-salem.txt","lineStart":55,"lineEnd":55}],"issueId":"EOR-RETRO-BLOCK-001"},
+    {"edgeId":"salem-relcand-007","timelineId":"fgo-eor-salem","timeRangeRaw":"1692年5月1日 早晨—塞勒姆最终逗留日","derivedFromEvents":["salem-event-i","salem-event-j"],"sourceRefs":[{"path":"sources/worldbook-script/eor/ch-092-salem.txt","lineStart":70,"lineEnd":74}],"issueId":"EOR-RETRO-BLOCK-001"}
+  ],
+  "preservation": {
+    "sourceRefs": "preserved from existing merged relationship edge records",
+    "sourceType": "preserved",
+    "credibility": "preserved",
+    "canonStatus": "preserved"
+  },
+  "unresolvedIssues": []
+}

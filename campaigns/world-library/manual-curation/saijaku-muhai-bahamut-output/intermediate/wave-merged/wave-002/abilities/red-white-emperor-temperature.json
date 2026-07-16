@@ -1,0 +1,56 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "red-white-emperor-temperature",
+  "volume": "vol-08",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-08/full.txt:7240"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-08-main",
+      "volume": "vol-08",
+      "time": "巡礼祭战斗期间",
+      "name": {
+        "zh": "《赤帝白皇》的温度神装",
+        "en": "Red and White Emperor Temperature Authority"
+      },
+      "aliases": [
+        "相克天理",
+        "温度操纵"
+      ],
+      "type": "technology / combat",
+      "description": "《赤帝白皇》的神装能力，核心为温度操纵。梅尔用它融化冷冻、冻结敌机、制造强风、雾、幻影及降低机龙控制机能。",
+      "details": {
+        "user": "mell-jisato",
+        "drag_ride": "red-white-emperor"
+      },
+      "activation": {
+        "condition": "《赤帝白皇》启动神装",
+        "incantation": "相克天理",
+        "time": "即时",
+        "cost": "年幼身体长时间使用负担大"
+      },
+      "effects": [
+        "解除冻息投射冻结",
+        "冻结敌方武装",
+        "通过温差制造风与雾",
+        "以热影响机龙控制"
+      ],
+      "known_feats": [
+        "压制路克斯与库露露席法",
+        "被库露露席法看破真相"
+      ],
+      "shared_by": [
+        "mell-jisato"
+      ],
+      "see_also": [
+        "complete-fusion"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-08/full.txt:7240"
+      ]
+    }
+  ]
+}

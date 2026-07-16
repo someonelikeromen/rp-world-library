@@ -1,0 +1,20 @@
+{
+  "schema": "tm-tsukihime-normalized-relationship-signal-v1",
+  "packetId": "mystic-eyes-shiki",
+  "edgeId": "rel-signal-ciel-shiki-monitoring-context",
+  "layer": "relationships",
+  "from": "ciel",
+  "to": "tohno-shiki",
+  "type": "monitoring-target-related-context",
+  "continuity": { "rawSourceLabel": "同人版 / 重制版", "canonicalContinuity": "sandbox", "taxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy" },
+  "timelineId": "tsukihime-route-context",
+  "timeRangeRaw": "route context; source does not tie directly to Mystic Eyes",
+  "confidence": "medium",
+  "reviewStatus": "generated-pending-audit",
+  "candidateOnly": true,
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:31", "sources/worldbook-profile/dlc-tsukihime-ciel.txt:58", "sources/worldbook-profile/dlc-tsukihime-ciel.txt:59"],
+  "summary": "Ciel/Shiki monitoring and lover context is related to the Shiki packet but is not normalized as a Mystic Eye causal fact."
+}

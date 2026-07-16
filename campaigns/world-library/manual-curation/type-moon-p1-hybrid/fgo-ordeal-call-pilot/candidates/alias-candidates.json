@@ -1,0 +1,69 @@
+{
+  "schema": "tm-fgo-alias-candidates-index-v1",
+  "mergeStepId": "finalize-ordeal-call-merge",
+  "policyRaw": "Unsupported external/game/wiki/common labels remain candidate-only and are not promoted to formal merged facts.",
+  "sourceRefs": [
+    "sources/worldbook-script/ordeal-call/ch-104-oc1-paper-moon.txt:1-87",
+    "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:1-89",
+    "sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt:1-92"
+  ],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like",
+  "records": [
+    {
+      "candidateGroupId": "oc1-alias-candidates",
+      "chapterId": "fgo-ordeal-call-1-paper-moon",
+      "chapterSlug": "oc1-paper-moon",
+      "candidateSourceRef": "extracted/ordeal-call/oc1-paper-moon/candidates/unsupported-label-candidates.json",
+      "summaryRaw": "Bhima, Duryodhana, and Rani VIII romanized labels are source-backed in current source; no external Noble Phantasm, personal skill, game profile, or wiki-only labels were promoted.",
+      "sourceRefs": [
+        "sources/worldbook-script/ordeal-call/ch-104-oc1-paper-moon.txt:12",
+        "sources/worldbook-script/ordeal-call/ch-104-oc1-paper-moon.txt:68",
+        "sources/worldbook-script/ordeal-call/ch-104-oc1-paper-moon.txt:71",
+        "sources/worldbook-script/ordeal-call/ch-104-oc1-paper-moon.txt:1-87"
+      ],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "candidateGroupId": "oc2-alias-candidates",
+      "chapterId": "fgo-ordeal-call-2-id",
+      "chapterSlug": "oc2-id",
+      "candidateSourceRef": "extracted/ordeal-call/oc2-id/candidates/unsupported-label-candidates.json",
+      "summaryRaw": "Ordeal Call 2 Id is partially source-supported by components, OC2 Id and several English romanizations remain unsupported-by-current-source candidate labels only.",
+      "sourceRefs": [
+        "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:1",
+        "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:4",
+        "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:16",
+        "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:76-89"
+      ],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "candidateGroupId": "oc3-alias-candidates",
+      "chapterId": "fgo-ordeal-call-3-integration",
+      "chapterSlug": "oc3-integration",
+      "candidateSourceRef": "extracted/ordeal-call/oc3-integration/candidates/unsupported-label-candidates.json",
+      "summaryRaw": "BB Dubai/B.B. Dubai, Hakuno Kishinami, gendered Kishinami labels, formal NP/skill names, Ordeal Call III, and OC3 remain unsupported-by-current-source candidate labels only where not directly present.",
+      "sourceRefs": [
+        "sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt:1",
+        "sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt:4",
+        "sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt:10",
+        "sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt:12",
+        "sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt:18",
+        "sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt:73-78",
+        "sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt:1-92"
+      ],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    }
+  ],
+  "totals": {
+    "candidateGroupCount": 3
+  }
+}

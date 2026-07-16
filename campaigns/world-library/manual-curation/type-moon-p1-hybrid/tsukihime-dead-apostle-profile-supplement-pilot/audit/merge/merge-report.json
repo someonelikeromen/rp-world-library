@@ -1,0 +1,106 @@
+{
+  "schema": "tm-tsukihime-merge-generation-report-v1",
+  "project": "tsukihime-dead-apostle-profile-supplement-pilot",
+  "stepId": "merge-tsukihime-supplement",
+  "stage": "merge-generator",
+  "status": "merge-generated-pending-audit",
+  "generatedAt": "2026-07-15",
+  "mutationScopeObserved": [
+    "campaigns/world-library/manual-curation/type-moon-p1-hybrid/tsukihime-dead-apostle-profile-supplement-pilot/merged/**",
+    "campaigns/world-library/manual-curation/type-moon-p1-hybrid/tsukihime-dead-apostle-profile-supplement-pilot/timeline/**",
+    "campaigns/world-library/manual-curation/type-moon-p1-hybrid/tsukihime-dead-apostle-profile-supplement-pilot/graph/**",
+    "campaigns/world-library/manual-curation/type-moon-p1-hybrid/tsukihime-dead-apostle-profile-supplement-pilot/audit/merge/**",
+    "campaigns/world-library/manual-curation/type-moon-p1-hybrid/tsukihime-dead-apostle-profile-supplement-pilot/audit/final/**"
+  ],
+  "inputs": {
+    "packetFinalStatusRefs": [
+      "audit/packet-audits/church-ciel/final-status.json",
+      "audit/packet-audits/core-systems/final-status.json",
+      "audit/packet-audits/dead-apostles-roa/final-status.json",
+      "audit/packet-audits/locations/final-status.json",
+      "audit/packet-audits/main-cast-high-confidence/final-status.json",
+      "audit/packet-audits/mystic-eyes-shiki/final-status.json",
+      "audit/packet-audits/tohno-nanaya/final-status.json",
+      "audit/packet-audits/true-ancestor-arcueid/final-status.json"
+    ],
+    "normalizedIndexRefs": [
+      "normalized/profile-supplement/church-ciel/index.json",
+      "normalized/profile-supplement/core-systems/index.json",
+      "normalized/profile-supplement/dead-apostles-roa/index.json",
+      "normalized/profile-supplement/locations/index.json",
+      "normalized/profile-supplement/main-cast-high-confidence/index.json",
+      "normalized/profile-supplement/mystic-eyes-shiki/index.json",
+      "normalized/profile-supplement/tohno-nanaya/index.json",
+      "normalized/profile-supplement/true-ancestor-arcueid/index.json"
+    ],
+    "allInputPacketGatesPassed": true,
+    "inputPacketCount": 8
+  },
+  "outputsCreated": [
+    "merged/profile-index.json",
+    "merged/profile-records/arcueid/side-by-side-profile-records.json",
+    "merged/profile-records/ciel/side-by-side-profile-records.json",
+    "merged/profile-records/tohno-nanaya/side-by-side-profile-records.json",
+    "merged/profile-records/mystic-eyes-and-core-systems/side-by-side-system-records.json",
+    "merged/profile-records/dead-apostles-roa/side-by-side-system-records.json",
+    "merged/profile-records/locations/side-by-side-location-records.json",
+    "merged/appearance-signals/index.json",
+    "merged/ability-signals/index.json",
+    "merged/combat-effect-signals/index.json",
+    "merged/relationship-signals/index.json",
+    "merged/not-found/index.json",
+    "timeline/derived-index.json",
+    "graph/derived-index.json",
+    "audit/merge/merge-report.json",
+    "audit/final/final-status.json"
+  ],
+  "mergeDecisions": [
+    {
+      "decision": "side-by-side supplement rather than canonical consolidation",
+      "reason": "Pilot task requires profile supplement layers and continuity separation; packet outputs remain generated-pending-audit fragments whose passed gates permit merge reference but not new unsupported fact invention."
+    },
+    {
+      "decision": "original/remake/sandbox/source-gap separation retained",
+      "reason": "Source unit manifest requires raw 同人版 and 重制版 labels to map to original/remake while preserving raw labels and keeping unsupported categories candidate-only."
+    },
+    {
+      "decision": "relationship outputs kept as relationship-signals",
+      "reason": "Multiple packet final statuses carry nonblocking risks that relationship material remains signal-only or candidate-only pending later merge/audit."
+    },
+    {
+      "decision": "timeline and graph are derived-only indexes",
+      "reason": "Protocol forbids graph/timeline as primary fact stores and requires references back to audited records/signals."
+    }
+  ],
+  "candidateAndSourceGapHandling": {
+    "candidateOnlyRecordsPromoted": false,
+    "sourceGapRecordsPromoted": false,
+    "candidateOnlyIndexes": [
+      "merged/not-found/index.json",
+      "merged/relationship-signals/index.json#rel-roa-candidate-links",
+      "timeline/derived-index.json#source-gap-candidate-timeline-signals",
+      "graph/derived-index.json#graph-rel-roa-candidate-links"
+    ]
+  },
+  "forbiddenAggregateCheck": {
+    "charactersJsonCreated": false,
+    "eventsJsonCreated": false,
+    "relationshipsJsonCreated": false,
+    "factsJsonCreated": false,
+    "graphJsonCreated": false,
+    "timelineJsonCreated": false
+  },
+  "nonblockingRisksCarriedForward": [
+    "Source evidence is Stage 1 worldbook/profile excerpts, not official script text.",
+    "Relationship and timeline material remains signal-only unless a referenced normalized fragment explicitly marks otherwise.",
+    "Unsupported labels, direct Roa/supporting-cast profiles, and several crossover surfaces remain source-gap/candidate-only."
+  ],
+  "validationStatus": "pending-read-only-final-audit",
+  "openIssues": 0,
+  "blockedIssues": 0,
+  "canAdvance": false,
+  "notes": [
+    "This generator report is not final acceptance.",
+    "No source, work-packet, extracted, normalized, raw import, old curated, other pilot, or Type-Moon core paths were intentionally edited."
+  ]
+}

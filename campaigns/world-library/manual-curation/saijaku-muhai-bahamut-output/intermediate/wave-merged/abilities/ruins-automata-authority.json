@@ -1,0 +1,51 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "ruins-automata-authority",
+  "volume": "vol-08",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-08/full.txt:5140"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-08-main",
+      "volume": "vol-08",
+      "time": "坑道调查期间",
+      "name": {
+        "zh": "遗迹自动人形权限",
+        "en": "Ruin Automaton Authority"
+      },
+      "aliases": [
+        "坑道领导者权限"
+      ],
+      "type": "technology / authority",
+      "description": "涅依作为第四遗迹坑道领导者的权限，可识别钥匙管理者、开启书库、操纵展望室和执行传送。",
+      "details": {
+        "user": "nyi-raishy",
+        "ruin": "fourth-ruins-mine"
+      },
+      "activation": {
+        "condition": "自动人形回到遗迹或接触钥匙管理者",
+        "incantation": "",
+        "time": "持续",
+        "cost": "离开遗迹后记忆与权限会受限"
+      },
+      "effects": [
+        "识别钥匙管理者",
+        "开启书库路径",
+        "传送到展望室",
+        "读取遗迹记录"
+      ],
+      "known_feats": [
+        "协助库露露席法读取坑道书库"
+      ],
+      "shared_by": [
+        "nyi-raishy"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-08/full.txt:5140"
+      ]
+    }
+  ]
+}

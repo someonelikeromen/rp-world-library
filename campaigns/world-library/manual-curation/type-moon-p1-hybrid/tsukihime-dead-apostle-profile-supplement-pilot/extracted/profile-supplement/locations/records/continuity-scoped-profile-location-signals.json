@@ -1,0 +1,51 @@
+{
+  "schema": "tm-tsukihime-extracted-record-v1",
+  "packetId": "locations",
+  "recordId": "ext-locations-continuity-scoped-profile-location-signals",
+  "recordKind": "profile-location-context-signal",
+  "subject": "profile-derived original/remake activity-area references",
+  "continuityTaxonomy": {
+    "category": "sandbox",
+    "rawSourceLabels": ["同人版", "重制版", "三咲町", "总耶市"],
+    "policyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy",
+    "note": "This record groups profile location references only as source signals; downstream normalization must split original/remake contexts."
+  },
+  "sourceUnitIds": ["src-dlc-tsukihime-tohno-nanaya", "src-dlc-tsukihime-arcueid", "src-dlc-tsukihime-ciel"],
+  "sourceRefs": [
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:57",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:61",
+    "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:20",
+    "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:36",
+    "sources/worldbook-profile/dlc-tsukihime-ciel.txt:20",
+    "sources/worldbook-profile/dlc-tsukihime-ciel.txt:43",
+    "sources/worldbook-profile/dlc-tsukihime-ciel.txt:53"
+  ],
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "candidateOnly": false,
+  "signals": [
+    {
+      "signalId": "tohno-shiki-remake-souya-activity-area",
+      "surface": "relationships",
+      "continuityTaxonomy": {"category": "remake", "rawSourceLabels": ["重制版"]},
+      "summary": "Remake Tohno Shiki's activity area is given as Souya City and he is described as living in the Tohno family in Souya.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:57", "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:61"]
+    },
+    {
+      "signalId": "arcueid-original-and-remake-activity-areas",
+      "surface": "relationships",
+      "continuityTaxonomy": {"category": "sandbox", "rawSourceLabels": ["同人版", "重制版"]},
+      "summary": "Original Arcueid activity range includes Millennium Castle and Misaki Town; remake Arcueid activity range includes Millennium Castle and Souya City.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:20", "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:36"]
+    },
+    {
+      "signalId": "ciel-original-and-remake-activity-areas",
+      "surface": "relationships",
+      "continuityTaxonomy": {"category": "sandbox", "rawSourceLabels": ["同人版", "重制版"]},
+      "summary": "Original Ciel's activity range is Misaki City and worldwide; remake Ciel's activity range is Souya City and worldwide, and she travels to Japan/Souya City when sensing Roa's reincarnation.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:20", "sources/worldbook-profile/dlc-tsukihime-ciel.txt:43", "sources/worldbook-profile/dlc-tsukihime-ciel.txt:53"]
+    }
+  ],
+  "reviewStatus": "generated-pending-audit"
+}

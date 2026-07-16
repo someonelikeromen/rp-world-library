@@ -34,6 +34,18 @@ source classification
 
 ---
 
+### 0.1 三 agent 强制规则引用
+
+FGO script p1 的 packet / merge / graph / timeline / final-fix / retrospective correction 必须遵守：
+
+```text
+rules/type-moon-three-agent-loop-rules.md
+docs/type-moon-three-agent-loop-protocol.md
+```
+
+本计划中所有 `Generator → Auditor → Fixer → Auditor rerun` 均指**分离 agent 角色**，不得由单一 agent 内部自审代替。
+
+执行确认后只能做确认计划内事项。任何计划外补结构、补 canonical layer、补 wrapper、迁移、发布、或 nonblocking risk 修复，都必须先提交新计划并等待用户确认。
 ## 1. 已核实的 FGO source 结构
 
 ### 1.1 主 source：`[沙盒]FGO 0.8.worldbook.json`
@@ -1840,3 +1852,28 @@ execution-plan-for-current-run.md
 ```
 
 等待确认后，再构建 source text 与 packet 输出。
+
+## 20. 三 Agent 强制执行协议
+
+
+FGO script p1 后续所有新批次、补审、补修和 retrospective correction 以以下文件为最高执行约束：
+
+```text
+rules/type-moon-three-agent-loop-rules.md
+docs/type-moon-three-agent-loop-protocol.md
+```
+
+强制执行规则：
+
+```text
+1. Packet / merge / graph / timeline / final-fix 必须使用分离的 Generator、Auditor、Fixer、Auditor rerun。
+2. 单 agent 内部自称完成三 agent 循环不满足本计划。
+3. Auditor 只读；Fixer 只修 Auditor 指定 blocking/required issues。
+4. Nonblocking risk 默认只记录，不修复。
+5. Parent 不得生成事实内容、补 canonical layer、补 wrapper、补 relationship edge、从 extracted/normalized 派生 formal outputs。
+6. Partial / failed output 不得推进下游；只能重试同一阶段或按用户确认的新计划执行。
+7. 缺 final-status.json 时，不得由 parent 机械补 wrapper；必须由 Fixer/Auditor rerun 产出。
+8. 对既有非严格执行批次，只能走 Retrospective Auditor → Fixer → Auditor rerun。
+```
+
+所有 future batch prompt 必须显式引用上述规则文件，并在任务范围中写明：不得执行计划外事项。

@@ -1,0 +1,69 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "domination-god-realm",
+  "volume": "vol-10",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-10/full.txt:3579"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-10-main",
+      "volume": "vol-10",
+      "time": "深秋",
+      "name": {
+        "zh": "支配者神域",
+        "en": "Domination God Realm"
+      },
+      "aliases": [
+        "凛德龙虫神装"
+      ],
+      "type": "technology / combat / divine-drag-ride-ability",
+      "description": "赛莉丝缇雅的神装机龙《凛德龙虫》神装，在光之领域内实现一定范围的瞬间移动。",
+      "details": {
+        "user": "celistia-largreis",
+        "drag_ride": "lin-dragon-insect",
+        "shown_use": "闪避狮鹫突击并传送至其身后"
+      },
+      "activation": {
+        "condition": "穿戴凛德龙虫并展开神装",
+        "incantation": "支配者神域",
+        "time": "瞬时",
+        "cost": "机龙能量与操纵负荷"
+      },
+      "effects": [
+        "一定范围内瞬间移动",
+        "回避直线突击",
+        "制造背后突刺机会"
+      ],
+      "power_level": {
+        "initial": "高",
+        "peak": "学园最强级别实战运用",
+        "evolution": []
+      },
+      "known_feats": [
+        {
+          "feat": "传送到狮鹫背后并以雷光穿枪贯穿",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-10/full.txt:3579"
+        }
+      ],
+      "shared_by": [
+        "celistia-largreis"
+      ],
+      "see_also": [
+        "lin-dragon-insect",
+        "thunder-light-spear"
+      ],
+      "countered_by": [],
+      "counters": [
+        "高速突击",
+        "近距离奇袭"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-10/full.txt:3579"
+      ]
+    }
+  ]
+}

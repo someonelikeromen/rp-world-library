@@ -1,0 +1,70 @@
+{
+  "schema": "tm-tsukihime-normalized-equipment-fragment-v1",
+  "packetId": "core-systems",
+  "recordId": "equipment-conceptual-weapons",
+  "status": "generated-pending-audit",
+  "label": "概念武装",
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "mixed-source-status-see-records",
+  "continuityTags": ["sandbox", "original", "remake"],
+  "sourceRefs": ["sources/worldbook-profile/tm-summary-church-conceptual-weapons.txt:25", "sources/worldbook-profile/tm-summary-church-conceptual-weapons.txt:26", "sources/worldbook-profile/dlc-tsukihime-ciel.txt:37"],
+  "definition": {
+    "summary": "Special weapons that do not rely on physical destructive power, but impose a concept or law on the opponent to cause harm.",
+    "sourceType": "user-file-worldbook-profile",
+    "credibility": "B",
+    "canonStatus": "canon-like",
+    "continuityTags": ["sandbox"],
+    "sourceRefs": ["sources/worldbook-profile/tm-summary-church-conceptual-weapons.txt:25", "sources/worldbook-profile/tm-summary-church-conceptual-weapons.txt:26"]
+  },
+  "principle": {
+    "summary": "Conceptual Weapons attack an object's existence or attributes rather than flesh; the source gives an example of a definition made into weapon form that can cut immortality by imposing the concept of being cut.",
+    "sourceType": "user-file-worldbook-profile",
+    "credibility": "B",
+    "canonStatus": "canon-like",
+    "continuityTags": ["sandbox"],
+    "sourceRefs": ["sources/worldbook-profile/tm-summary-church-conceptual-weapons.txt:27", "sources/worldbook-profile/tm-summary-church-conceptual-weapons.txt:28"]
+  },
+  "examplesInSource": [
+    {
+      "label": "黑键",
+      "kind": "church-weapon-example",
+      "summary": "Black Keys are listed as a Holy Church conceptual weapon example; remake Ciel's nun outfit can hide many Black Keys.",
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "mixed-source-status-see-sourceRefs",
+      "continuityTags": ["sandbox", "remake"],
+      "sourceRefs": ["sources/worldbook-profile/tm-summary-church-conceptual-weapons.txt:29", "sources/worldbook-profile/dlc-tsukihime-ciel.txt:47"]
+    },
+    {
+      "label": "石化魔眼",
+      "kind": "mystic-eye-example",
+      "summary": "Petrification Mystic Eyes are listed as a conceptual weapon example in the Church/conceptual-weapons source summary.",
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "continuityTags": ["sandbox"],
+      "sourceRefs": ["sources/worldbook-profile/tm-summary-church-conceptual-weapons.txt:29"]
+    },
+    {
+      "label": "Gae Bolg（穿刺死棘之枪）的因果逆转效果",
+      "kind": "causality-effect-example",
+      "summary": "The causality reversal effect of Gae Bolg is listed as an example; this packet does not expand Fate-specific details.",
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "continuityTags": ["sandbox"],
+      "sourceRefs": ["sources/worldbook-profile/tm-summary-church-conceptual-weapons.txt:29"]
+    },
+    {
+      "label": "第七圣典",
+      "kind": "profile-equipment-signal",
+      "summary": "Ciel's Seventh Holy Scripture is a permitted conceptual weapon, described in original as an anti-reincarnation instrument with a giant pile-bunker firearm body, and in remake as capable of pile-driver, greatsword, firearm, and ballista forms.",
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted",
+      "continuityTags": ["original", "remake"],
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:37", "sources/worldbook-profile/dlc-tsukihime-ciel.txt:59"]
+    }
+  ]
+}

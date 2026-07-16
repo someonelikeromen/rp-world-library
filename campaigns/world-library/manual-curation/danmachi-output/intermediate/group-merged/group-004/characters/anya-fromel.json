@@ -1,0 +1,393 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "anya-fromel",
+  "volume": "vol-01",
+  "time_range": {
+    "start": "anya-vol01",
+    "end": "vol-05-ch-02"
+  },
+  "sub_arcs": [],
+  "source_refs": [
+    "campaigns/world-library/worlds/danmachi/sources/split-text/danmachi-main/vol-02/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "anya-vol01",
+      "volume": "vol-01",
+      "time": "vol-01",
+      "label": "丰饶的女主人的猫人店员",
+      "name": {
+        "zh": "阿妮雅·芙洛摩",
+        "en": "Anya Alfiel",
+        "jp": "アーニャ・フローム"
+      },
+      "aliases": [],
+      "titles": [],
+      "gender": "female",
+      "species": "猫人",
+      "nationality": "未知",
+      "occupation": "酒馆女服务生",
+      "affiliation": "丰饶的女主人",
+      "status": {},
+      "appearance": {
+        "overview": "猫耳朵和尾巴的少女",
+        "physical": {
+          "build": "娇小",
+          "hair": {},
+          "eyes": {}
+        },
+        "attire": {
+          "default": "店员制服"
+        },
+        "voice_quality": {
+          "speech_pattern": "后缀带'喵'"
+        },
+        "distinctive": [
+          "猫耳",
+          "猫尾"
+        ]
+      },
+      "personality": {
+        "summary": "活泼天真的猫人少女。",
+        "core_traits": [
+          "活泼",
+          "冒失",
+          "热心"
+        ],
+        "flaws": [
+          "嘴快"
+        ]
+      },
+      "summary": "丰饶的女主人的猫人店员，说话末尾带'喵'。曾骂贝尔是'白发王八蛋'但本性善良。",
+      "key_events": [
+        {
+          "event_id": "morning-encounter-syr",
+          "summary": "与琉一起请贝尔送钱包给希儿",
+          "sourceRef": "danmachi-main/vol-01/full.txt:2513-3680"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-01/full.txt:2513-3680"
+      ]
+    },
+    {
+      "period_id": "vol-02-full",
+      "volume": "vol-02",
+      "label": "第二卷",
+      "name": {
+        "zh": "阿妮雅·弗罗梅尔",
+        "en": "Anya Fromel",
+        "jp": "アーニャ・フローメル"
+      },
+      "gender": "female",
+      "species": "人类",
+      "occupation": "酒馆服务员",
+      "affiliation": "丰饶的女主人",
+      "summary": "丰饶的女主人店员，性格活泼喜欢起哄。",
+      "evidence_level": "S",
+      "source_refs": [
+        "campaigns/world-library/worlds/danmachi/sources/split-text/danmachi-main/vol-02/full.txt:4380"
+      ]
+    },
+    {
+      "period_id": "vol-05-ch-02",
+      "volume": "vol-05",
+      "time": "第二章 离生还还有多少M？",
+      "label": "支持琉救援",
+      "name": {
+        "zh": "阿妮雅·傅洛摩",
+        "en": "Anya Fromel",
+        "jp": "アーニャ・フローメル"
+      },
+      "aliases": [],
+      "titles": [],
+      "gender": "女",
+      "species": "猫人",
+      "nationality": "",
+      "occupation": "酒馆女服务生",
+      "affiliation": "丰饶的女主人",
+      "status": {
+        "location": "丰饶的女主人",
+        "state": "支持琉暂离酒馆营救贝尔"
+      },
+      "appearance": {
+        "overview": "活泼的猫人女服务生。",
+        "physical": {
+          "height": "",
+          "build": "",
+          "hair": {},
+          "eyes": {}
+        },
+        "attire": {
+          "default": "女服务生制服",
+          "combat": ""
+        },
+        "voice_quality": {},
+        "distinctive": [
+          "猫耳"
+        ]
+      },
+      "personality": {
+        "summary": "活泼直率、重视酒馆同伴。",
+        "core_traits": [
+          "活泼",
+          "友善",
+          "重情"
+        ],
+        "values": [
+          "同事安全"
+        ],
+        "fears": [],
+        "desires": [
+          "帮助琉与希儿"
+        ],
+        "strengths": [
+          "团队支持"
+        ],
+        "flaws": [
+          "有时冒失"
+        ],
+        "inner_conflict": "",
+        "decision_pattern": {}
+      },
+      "voice": {
+        "self_reference": "猫们",
+        "address_pattern": {},
+        "register": {
+          "style": "带猫人口癖"
+        },
+        "catchphrases": [],
+        "quote_samples": []
+      },
+      "habits": {
+        "mannerisms": [],
+        "daily_routine": "酒馆工作",
+        "quirks": [],
+        "preferences": {}
+      },
+      "background": {
+        "birth": {
+          "place": "",
+          "family": []
+        },
+        "upbringing": "",
+        "education": {},
+        "formative_events": [],
+        "pre_story": "丰饶的女主人店员。"
+      },
+      "abilities_owned": [],
+      "possessions_owned": [],
+      "relationships": {
+        "ryu-lion": "同事与朋友",
+        "syr-flova": "同事"
+      },
+      "knowledge": [
+        "贝尔在中层失踪"
+      ],
+      "secrets": [],
+      "summary": "与其他店员共同支持琉接受搜索委托，并表示会替她向蜜雅掩饰缺勤。",
+      "key_events": [
+        {
+          "event_id": "rescue-party-descends",
+          "summary": "支持琉加入救援。",
+          "sourceRef": "danmachi-main/vol-05/full.txt:2160"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-05/full.txt:2080-2190"
+      ]
+    },
+    {
+      "period_id": "vol-08-ch-05",
+      "volume": "vol-08",
+      "time": "第五章 城市姑娘的秘密",
+      "label": "不知艾伦近况的酒馆猫娘",
+      "name": {
+        "zh": "阿妮雅·傅洛摩",
+        "en": "Anya Fromel",
+        "jp": "アーニャ・フローメル"
+      },
+      "gender": "女",
+      "species": "猫人",
+      "occupation": "酒馆店员",
+      "affiliation": "丰饶的女主人",
+      "status": {
+        "location": "丰饶的女主人",
+        "state": "与同事一起抱怨希儿连续请假"
+      },
+      "appearance": {
+        "overview": "猫人少女，细尾巴，讲话带猫语尾。"
+      },
+      "personality": {
+        "summary": "活泼、天然、吵闹，料理和记账能力都不可靠。",
+        "core_traits": [
+          "活泼",
+          "天然",
+          "吵闹",
+          "音痴"
+        ],
+        "flaws": [
+          "不会记账",
+          "唱歌会赶跑客人"
+        ]
+      },
+      "relationships": {
+        "syr-flova": "同事",
+        "ryu-lion": "同事",
+        "chloe-rollo": "同事",
+        "lunoire-faust": "同事",
+        "allen-fromel": "兄长，但对方自称断绝关系"
+      },
+      "summary": "阿妮雅与其他店员一起抱怨希儿请假，也参与希儿料理风波。芙蕾雅在军营中提醒艾伦不可以与唯一的妹妹阿妮雅断绝关系。",
+      "key_events": [
+        {
+          "event_id": "allen-saves-syr-and-returns-to-freya-camp",
+          "summary": "被芙蕾雅提及为艾伦唯一的妹妹。",
+          "sourceRef": "danmachi-main/vol-08/full.txt:9110"
+        },
+        {
+          "event_id": "syr-cooking-training-burdens-tavern-staff",
+          "summary": "参与希儿料理风波。",
+          "sourceRef": "danmachi-main/vol-08/full.txt:12450"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-08/full.txt:9045",
+        "danmachi-main/vol-08/full.txt:9110",
+        "danmachi-main/vol-08/full.txt:12450"
+      ]
+    },
+    {
+      "period_id": "vol-14-anya-worries-for-ryu",
+      "volume": "vol-14",
+      "time": "序章 You'll be back",
+      "label": "酒馆同事得知琉离开",
+      "name": {
+        "zh": "阿妮雅·傅洛摩",
+        "en": "Anya Fromel",
+        "jp": "アーニャ・フローメル"
+      },
+      "gender": "女",
+      "species": "猫人",
+      "occupation": "酒馆店员",
+      "affiliation": "丰饶的女主人",
+      "status": {
+        "location": "丰饶的女主人",
+        "state": "因琉突然离开而担忧"
+      },
+      "summary": "阿妮雅在丰饶的女主人得知琉留下书信离开。作为同事，她与希儿、露诺娃、可萝伊等人一起察觉琉状态异常，担忧琉被过去的复仇心带走。",
+      "key_events": [
+        {
+          "event_id": "ryu-leaves-hostess-and-pursues-evils",
+          "summary": "琉离开酒馆时作为同事参与酒馆侧反应。",
+          "sourceRef": "danmachi-main/vol-14/full.txt:1-778"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-14/full.txt:1-778"
+      ]
+    },
+    {
+      "period_id": "vol-15-anya-rescue-ryu",
+      "volume": "vol-15",
+      "time": "幕间-第八章",
+      "label": "为琉奔赴水之迷都",
+      "name": {
+        "zh": "阿妮雅·傅洛摩",
+        "en": "Anya Fromel",
+        "jp": "アーニャ・フローメル"
+      },
+      "gender": "女",
+      "species": "猫人",
+      "occupation": "丰饶的女主人店员、前冒险者",
+      "affiliation": "丰饶的女主人",
+      "status": {
+        "level": "Lv.4",
+        "location": "丰饶的女主人、第18-27层水之迷都",
+        "state": "收到赫斯缇雅带来的求援信后与同事出动"
+      },
+      "summary": "阿妮雅担心失踪的琉，在赫斯缇雅带来莉莉求援信后与可萝伊、露诺娃加入椿的救援队。她们从里维拉得知水之迷都异常，穿越第25层崩坏大空洞并在第26-27层突破怪兽大移动，最终抵达涡帝迈鱼战场，成为莉莉编组深层搜救队的重要Lv.4战力。",
+      "key_events": [
+        {
+          "event_id": "surface-allies-mobilize-for-water-capital",
+          "summary": "收到求援信后从酒馆出动寻找琉。",
+          "sourceRef": "danmachi-main/vol-15/chapters/ch-001-幕间-展开行动的人们.txt"
+        },
+        {
+          "event_id": "xenos-and-surface-aid-save-expedition",
+          "summary": "与可萝伊、露诺娃跟随椿抵达第27层，加入救援队伍。",
+          "sourceRef": "danmachi-main/vol-15/chapters/ch-003-第八章-铁锤之声.txt"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-15/chapters/ch-001-幕间-展开行动的人们.txt",
+        "danmachi-main/vol-15/chapters/ch-003-第八章-铁锤之声.txt"
+      ]
+    },
+    {
+      "period_id": "vol-17-anya-notices-ryu-distracted",
+      "volume": "vol-17",
+      "time": "短篇 精灵的一幕",
+      "label": "察觉琉因贝尔握手而走神",
+      "name": {
+        "zh": "阿妮雅·傅洛摩",
+        "en": "Anya Fromel",
+        "jp": "アーニャ・フローメル"
+      },
+      "gender": "女",
+      "species": "猫人",
+      "occupation": "丰饶女主人店员",
+      "affiliation": "丰饶女主人",
+      "status": {
+        "location": "丰饶女主人",
+        "state": "开店准备中关心琉的异常"
+      },
+      "summary": "阿妮雅在丰饶女主人清晨准备时发现琉一直盯着手掌发呆，关心询问她是否身体不适。她的提问引出琉对贝尔握手、亚莉榭忠告与希儿感情的内心整理。",
+      "key_events": [
+        "ryu-realizes-bell-can-take-her-hand"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-17/chapters/ch-003-精灵的一幕.txt"
+      ]
+    },
+    {
+      "period_id": "vol-19-anya-family-wound",
+      "volume": "vol-19",
+      "time": "全卷",
+      "label": "为保护希儿而面对兄长旧伤的猫人店员",
+      "name": {
+        "zh": "阿妮雅·傅洛摩",
+        "en": "Anya Fromel",
+        "jp": "アーニャ・フローメル"
+      },
+      "gender": "女",
+      "species": "猫人",
+      "occupation": "丰饶的女主人店员、原芙蕾雅眷族相关者",
+      "affiliation": "丰饶的女主人",
+      "status": {
+        "level": "战斗能力高于一般店员，具体等级未明",
+        "location": "丰饶的女主人、女神祭会场、水船之匙、东北区巷战",
+        "state": "与同伴翘班监视希儿约会；被贾里巴兄弟揭开‘战车之分身’旧称并被兄长艾伦压垮"
+      },
+      "summary": "阿妮雅与可萝伊、露诺娃一起用人情债把赫斯缇雅眷族拉来酒吧打工，随后溜出店追踪希儿与贝尔约会。她靠嗅觉追踪两人，并在水船之匙骚动中保护希儿。第六章她与露诺娃、可萝伊迎战贾里巴四兄弟，被揭露曾与芙蕾雅眷族及兄长艾伦有关，旧称【战车之分身】；当艾伦亲自出现并命令她滚开时，她因恐惧与旧创伤让路。",
+      "key_events": [
+        "hostess-staff-spy-on-syr-bell-date",
+        "water-ship-key-raid-and-river-escape",
+        "hostess-staff-and-ais-delay-freya-familia"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-19/chapters/ch-007-第三章-Harvest-Festival.txt",
+        "danmachi-main/vol-19/chapters/ch-009-第四章-公主大骚动！.txt",
+        "danmachi-main/vol-19/chapters/ch-014-第六章-心愿的代价.txt"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema": "tm-tsukihime-extracted-record-v1",
+  "packetId": "true-ancestor-arcueid",
+  "recordId": "ext-taa-timeline-original-profile-sequence",
+  "recordKind": "timeline",
+  "subject": "爱尔奎特·布伦史塔德",
+  "continuityTaxonomy": {
+    "category": "original",
+    "rawSourceLabels": ["同人版"],
+    "rawContinuity": "mixed-tsukihime-doujin-remake"
+  },
+  "sourceUnitIds": ["src-dlc-tsukihime-arcueid"],
+  "sourceRefs": [
+    "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:18",
+    "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:24",
+    "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:25",
+    "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:26"
+  ],
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "extracted": {
+    "timePolicy": "relative-only; no calendar invention beyond raw source age/birth-era signals",
+    "nodes": [
+      {
+        "nodeId": "original-birth-era-signal",
+        "timeRaw": "12世纪",
+        "summary": "Source lists birth era as 12th century."
+      },
+      {
+        "nodeId": "original-roa-blood-impulse-incident",
+        "timeRaw": "第一次因吸血冲动所苦时",
+        "summary": "Roa deceives Arcueid into drinking his blood; her abilities run out of control and she kills other True Ancestors in Brunestud Castle."
+      },
+      {
+        "nodeId": "original-seal-and-roa-cycle",
+        "timeRaw": "在此之后 / 罗亚出现的时候",
+        "summary": "She seals herself, usually sleeps in Millennium Castle, and wakes when Roa appears to execute him."
+      },
+      {
+        "nodeId": "original-shiki-dismemberment-and-cooperation",
+        "timeRaw": "出场 / 月姬 story opening signal",
+        "summary": "Shiki dismembers her into seventeen pieces; after revival she lacks sufficient strength and forces Shiki to cooperate."
+      }
+    ]
+  },
+  "candidateOnly": false,
+  "reviewStatus": "generated-pending-audit"
+}

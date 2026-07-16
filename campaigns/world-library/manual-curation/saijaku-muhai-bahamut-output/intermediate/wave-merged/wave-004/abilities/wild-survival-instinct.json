@@ -1,0 +1,67 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "wild-survival-instinct",
+  "volume": "vol-16",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-16/full.txt:1",
+    "saijaku-muhai-bahamut-main/vol-16/full.txt:4371"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-16",
+      "volume": "vol-16",
+      "time": "大圣域最终战",
+      "name": {
+        "zh": "生存本能",
+        "en": "Wild Survival Instinct"
+      },
+      "aliases": [
+        "贪狼直觉"
+      ],
+      "type": "innate / combat / skill",
+      "description": "葛莱法在生死边缘磨练出的直觉，可在理论反应前判断死亡陷阱与最佳突击时机。",
+      "details": {
+        "user": "greifer-nest",
+        "examples": [
+          "躲开弗基尔配合光子潜行解除的杀招",
+          "率先突入奥罗波若斯怀中"
+        ]
+      },
+      "activation": {
+        "condition": "濒临危险或战斗中",
+        "incantation": "无",
+        "time": "瞬间反应",
+        "cost": "常伴随鲁莽风险"
+      },
+      "effects": [
+        "预判杀意",
+        "抓住攻击空档",
+        "在绝境中保命"
+      ],
+      "power_level": {
+        "initial": "超常战斗直觉",
+        "peak": "面对弗基尔仍能数次避开致命陷阱"
+      },
+      "known_feats": [
+        "葛莱法不是靠理论而是本能躲过弗基尔的杀意。"
+      ],
+      "shared_by": [
+        "greifer-nest"
+      ],
+      "see_also": [
+        "cuelebre-photon-dive"
+      ],
+      "countered_by": [],
+      "counters": [
+        "fugil-traps"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-16/full.txt:1",
+        "saijaku-muhai-bahamut-main/vol-16/full.txt:4371"
+      ]
+    }
+  ]
+}

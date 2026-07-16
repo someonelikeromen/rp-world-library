@@ -1,0 +1,57 @@
+{
+  "schema": "tm-tsukihime-extracted-source-signal-v1",
+  "packetId": "mystic-eyes-shiki",
+  "recordId": "extracted-tohno-shiki-remake-use-limitations",
+  "subjectId": "tohno-shiki",
+  "subjectLabel": "重制版远野志贵",
+  "continuity": {
+    "rawSourceLabel": "重制版",
+    "canonicalContinuity": "remake",
+    "taxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy/rawLabelMapping/重制版"
+  },
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "candidateOnly": false,
+  "sourceRefs": [
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:57",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:58",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:59",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:60",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:61",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:62",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:63"
+  ],
+  "signals": [
+    {
+      "kind": "identity-profile",
+      "summary": "Remake Tohno Shiki includes Tohno Shiki and Nanaya Shiki as names, and is categorized as human demon-hunter and psychic; a half-vampire/Dead Apostle status is limited to the Ciel-line Extra End signal.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:57", "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:58"]
+    },
+    {
+      "kind": "profile-metadata",
+      "summary": "The source provides age, height, weight, birthday, blood type, birthplace at the Nanaya home, activity area in Souya City, and Tohno family affiliation.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:59", "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:60"]
+    },
+    {
+      "kind": "ability-holder",
+      "summary": "Remake Tohno Shiki has Direct Death Mystic Eyes from an earlier event, letting him see death and kill all things.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:61"]
+    },
+    {
+      "kind": "limitation-suppression",
+      "summary": "He normally wears Mystic Eye Killer glasses to suppress the eyes and avoid excessive brain burden.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:62"]
+    },
+    {
+      "kind": "identity-relationship",
+      "summary": "His true identity is the last descendant of the Nanaya demon-hunter family, found by Tohno Makihisa after the Nanaya family was destroyed by the Tohno family.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:63"]
+    },
+    {
+      "kind": "not-found-in-source",
+      "summary": "The assigned Tohno-Nanaya source excerpt does not provide a direct remake activation scene or remake combat use scene for Shiki's eyes; the Arcueid profile provides the remake seventeen-piece result separately.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:61", "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:53"]
+    }
+  ]
+}

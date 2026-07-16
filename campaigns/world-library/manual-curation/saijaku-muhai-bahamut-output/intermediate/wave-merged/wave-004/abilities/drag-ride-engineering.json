@@ -1,0 +1,64 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "drag-ride-engineering",
+  "volume": "vol-17",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-17/full.txt:3180"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-17",
+      "volume": "vol-17",
+      "time": "城堡参观",
+      "name": {
+        "zh": "机龙工学",
+        "en": "Drag-Ride Engineering"
+      },
+      "aliases": [
+        "机龙维护技术"
+      ],
+      "type": "technology / skill",
+      "description": "莉夏作为公主之外擅长的机龙改造、维护和技术指导能力。本卷她在城堡机龙工房中指导维修师并获得认可。",
+      "details": {
+        "user": "lisesharte-atismata",
+        "field": "drag-ride design and maintenance"
+      },
+      "activation": {
+        "condition": "机龙设计、维护或战前调整",
+        "incantation": "",
+        "time": "工作过程",
+        "cost": "专业知识"
+      },
+      "effects": [
+        "改善机龙性能",
+        "指导武装搭配",
+        "获得工房人员认可"
+      ],
+      "power_level": {
+        "initial": "专业级",
+        "peak": "公主身份之外的核心能力",
+        "evolution": []
+      },
+      "known_feats": [
+        {
+          "summary": "莉夏在机龙使工房指导武器与装甲搭配。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-17/full.txt:3180"
+        }
+      ],
+      "shared_by": [
+        "lisesharte-atismata"
+      ],
+      "see_also": [
+        "brand-sword"
+      ],
+      "countered_by": [],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-17/full.txt:3180"
+      ]
+    }
+  ]
+}

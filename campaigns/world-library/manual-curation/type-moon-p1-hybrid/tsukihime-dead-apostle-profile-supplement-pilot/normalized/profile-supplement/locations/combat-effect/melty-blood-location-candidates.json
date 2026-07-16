@@ -1,0 +1,34 @@
+{
+  "schema": "tm-tsukihime-normalized-location-fragment-v1",
+  "packetId": "locations",
+  "recordId": "loc-frag-melty-blood-location-candidates",
+  "recordKind": "combat-effect-candidate-location-fragment-set",
+  "subjectId": "melty-blood-location-event-premises",
+  "continuityTaxonomy": {
+    "category": "melty-blood",
+    "rawSourceLabels": ["月姬格斗 (Melty Blood)", "祭祀摩天楼", "后巷"],
+    "sourceGapMarker": "source-gap/candidate-only",
+    "policyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy"
+  },
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "candidateOnly": true,
+  "sourceRefs": [
+    "sources/worldbook-profile/dlc-tsukihime-locations.txt:33",
+    "sources/worldbook-profile/dlc-tsukihime-locations.txt:34"
+  ],
+  "combatEffectSignals": [
+    {
+      "subject": "祭祀摩天楼",
+      "signal": "Melty Blood events begin here and Tohno Shiki meets Sion Eltnam Atlasia here.",
+      "formalEventCreated": false
+    },
+    {
+      "subject": "后巷",
+      "signal": "A strange space where murders often occur without closure; Satsuki Yumizuka and Sion are forced to live there and form the Back Alley Alliance.",
+      "formalEventCreated": false
+    }
+  ],
+  "reviewStatus": "generated-pending-audit"
+}

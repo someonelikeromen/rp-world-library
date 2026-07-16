@@ -1,0 +1,139 @@
+{
+  "schema": "tm-tsukihime-packet-generator-report-v1",
+  "packetId": "core-systems",
+  "stepId": "gen-core-systems",
+  "role": "Generator",
+  "status": "generated-pending-audit",
+  "generatedAt": "2026-07-15",
+  "worldId": "type-moon-nasuverse",
+  "project": "tsukihime-dead-apostle-profile-supplement-pilot",
+  "mutationScopeUsed": [
+    "extracted/profile-supplement/core-systems/**",
+    "normalized/profile-supplement/core-systems/**",
+    "audit/packet-audits/core-systems/**"
+  ],
+  "rulesRead": [
+    "rules/type-moon-three-agent-loop-rules.md",
+    "docs/type-moon-three-agent-loop-protocol.md",
+    "docs/type-moon-p1-hybrid-archive-plan.md"
+  ],
+  "prepFilesRead": [
+    "campaigns/world-library/manual-curation/type-moon-p1-hybrid/tsukihime-dead-apostle-profile-supplement-pilot/STATUS.md",
+    "campaigns/world-library/manual-curation/type-moon-p1-hybrid/tsukihime-dead-apostle-profile-supplement-pilot/source-unit-manifest.json",
+    "campaigns/world-library/manual-curation/type-moon-p1-hybrid/tsukihime-dead-apostle-profile-supplement-pilot/work-packets/core-systems.json",
+    "campaigns/world-library/manual-curation/type-moon-p1-hybrid/tsukihime-dead-apostle-profile-supplement-pilot/work-packets/relationships-timeline-visual-gate.json",
+    "campaigns/world-library/manual-curation/type-moon-p1-hybrid/tsukihime-dead-apostle-profile-supplement-pilot/sources/worldbook-profile/source-text-manifest.json"
+  ],
+  "sourceRefsRead": [
+    "sources/worldbook-profile/tm-summary-dead-apostle-true-ancestor.txt:16-27",
+    "sources/worldbook-profile/tm-summary-mystic-eyes.txt:16-20",
+    "sources/worldbook-profile/tm-summary-mystic-eyes-of-death-perception.txt:16-24",
+    "sources/worldbook-profile/tm-summary-church-conceptual-weapons.txt:16-29",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:17-62",
+    "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:17-51",
+    "sources/worldbook-profile/dlc-tsukihime-ciel.txt:17-60"
+  ],
+  "sourceUnitsRead": [
+    "src-tm-summary-dead-apostle-true-ancestor",
+    "src-tm-summary-mystic-eyes",
+    "src-tm-summary-mystic-eyes-death-perception",
+    "src-tm-summary-church-conceptual-weapons",
+    "src-dlc-tsukihime-tohno-nanaya",
+    "src-dlc-tsukihime-arcueid",
+    "src-dlc-tsukihime-ciel"
+  ],
+  "filesCreated": [
+    "extracted/profile-supplement/core-systems/index.json",
+    "extracted/profile-supplement/core-systems/source-coverage.json",
+    "extracted/profile-supplement/core-systems/system-profiles/vampire-taxonomy.json",
+    "extracted/profile-supplement/core-systems/system-profiles/mystic-eyes.json",
+    "extracted/profile-supplement/core-systems/system-profiles/church-and-conceptual-weapons.json",
+    "extracted/profile-supplement/core-systems/source-fragments/tohno-nanaya-core-signals.json",
+    "extracted/profile-supplement/core-systems/source-fragments/arcueid-core-signals.json",
+    "extracted/profile-supplement/core-systems/source-fragments/ciel-core-signals.json",
+    "extracted/profile-supplement/core-systems/mandatory-layers/appearance.json",
+    "extracted/profile-supplement/core-systems/mandatory-layers/outfit-equipment.json",
+    "extracted/profile-supplement/core-systems/mandatory-layers/ability-activation.json",
+    "extracted/profile-supplement/core-systems/mandatory-layers/combat-effect.json",
+    "extracted/profile-supplement/core-systems/mandatory-layers/relationship-signals.json",
+    "extracted/profile-supplement/core-systems/mandatory-layers/timeline-signals.json",
+    "extracted/profile-supplement/core-systems/mandatory-layers/not-found-in-source.json",
+    "extracted/profile-supplement/core-systems/alias-candidates.json",
+    "normalized/profile-supplement/core-systems/index.json",
+    "normalized/profile-supplement/core-systems/systems/vampire-taxonomy.json",
+    "normalized/profile-supplement/core-systems/systems/true-ancestor.json",
+    "normalized/profile-supplement/core-systems/systems/dead-apostle.json",
+    "normalized/profile-supplement/core-systems/systems/dead-apostle-ancestors.json",
+    "normalized/profile-supplement/core-systems/abilities/mystic-eyes.json",
+    "normalized/profile-supplement/core-systems/abilities/direct-death-mystic-eyes.json",
+    "normalized/profile-supplement/core-systems/organizations/holy-church-and-burial-agency.json",
+    "normalized/profile-supplement/core-systems/equipment/conceptual-weapons.json",
+    "normalized/profile-supplement/core-systems/mandatory-layers/coverage-index.json",
+    "normalized/profile-supplement/core-systems/candidates/alias-candidates.json",
+    "audit/packet-audits/core-systems/generator-report.json",
+    "audit/packet-audits/core-systems/final-status.json"
+  ],
+  "filesUpdated": [],
+  "counts": {
+    "extractedFiles": 16,
+    "normalizedFiles": 11,
+    "auditFiles": 2,
+    "systemProfiles": 8,
+    "abilityProfiles": 2,
+    "organizationProfiles": 1,
+    "equipmentProfiles": 1,
+    "sourceFragmentFiles": 3,
+    "mandatoryLayerFiles": 7,
+    "notFoundRecords": 7,
+    "aliasCandidates": 6,
+    "formalCharacters": 0,
+    "formalEvents": 0,
+    "formalRelationships": 0,
+    "formalGraphFiles": 0,
+    "formalTimelineFiles": 0
+  },
+  "mandatoryLayerCoverage": {
+    "appearance": "source-backed records plus not-found for system summary classes",
+    "outfit-equipment": "source-backed records plus not-found for general system summaries",
+    "ability-activation": "source-backed activation/effect records plus not-found for unstaged Arcueid abilities",
+    "combat-effect": "source-backed combat/effect records plus not-found for capability-only descriptions",
+    "relationships": "signal layer only by packet policy; no formal edges",
+    "timeline": "raw time signal layer only by packet policy; no formal events/timeline",
+    "not-found-in-source": "created"
+  },
+  "candidateOnlyItems": [
+    "English/cross-language alias labels pending canonical-id audit",
+    "Type Lumina continuity-specific labels with no Stage 1 source text",
+    "Kagetsu Tohya continuity-specific labels with no Stage 1 source text",
+    "Nanaya Kiri Pure Eyes as related eye-ability context rather than Mystic Eyes formal classification",
+    "remake Shiki semi-vampire/Dead Apostle route-limited signal"
+  ],
+  "continuityPolicyApplied": {
+    "rawLabelMapping": {
+      "同人版": "original",
+      "重制版": "remake",
+      "Melty Blood mentions": "melty-blood",
+      "missing Type Lumina source": "source-gap/candidate-only",
+      "missing 歌月十夜 source": "source-gap/candidate-only"
+    },
+    "unsupportedLabelsPolicy": "Unsupported labels and cross-continuity English aliases were kept candidate-only or as raw labels, not promoted to formal facts."
+  },
+  "forbiddenOutputsCheck": {
+    "characters.json": false,
+    "events.json": false,
+    "relationships.json": false,
+    "facts.json": false,
+    "graph.json": false,
+    "timeline.json": false
+  },
+  "uncertainties": [
+    "Source excerpts are user-file worldbook/profile summaries, not official script text; credibility remains B and canonStatus follows source unit metadata.",
+    "Line references are to Stage 1 line-addressable source excerpt files; no raw import files were edited or cited as direct line sources.",
+    "Relationship and timeline content are extracted only as signals because core-systems packet policy forbids audited relationship edges and formal timeline creation."
+  ],
+  "validationStatus": {
+    "manualJsonSyntaxReview": "performed while writing structured JSON; no executable JSON validation was run because shell/scripts are forbidden in task scope",
+    "readBackValidation": "pending-light-readback",
+    "auditRequired": true
+  }
+}

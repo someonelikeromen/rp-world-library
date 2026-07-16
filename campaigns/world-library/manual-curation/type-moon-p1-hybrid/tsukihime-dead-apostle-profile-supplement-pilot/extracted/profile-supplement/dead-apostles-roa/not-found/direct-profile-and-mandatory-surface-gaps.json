@@ -1,0 +1,78 @@
+{
+  "schema": "tm-tsukihime-extracted-not-found-set-v1",
+  "packetId": "dead-apostles-roa",
+  "recordSetId": "direct-profile-and-mandatory-surface-gaps",
+  "status": "generated-pending-audit",
+  "candidateOnly": true,
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "records": [
+    {
+      "recordId": "nf-roa-direct-profile-not-confirmed-001",
+      "missingSurface": "standalone-profile",
+      "subject": "米海尔·罗亚·法尔丹姆杨",
+      "summary": "A direct standalone profile entry for Roa was not confirmed in Stage 1, so this packet does not formalize a standalone Roa character/profile record.",
+      "continuityTaxonomy": {"category": "sandbox", "rawSourceLabels": ["罗亚", "candidate-only"], "sourceAvailability": "source-gap/candidate-only"},
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:33", "sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:35"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    },
+    {
+      "recordId": "nf-roa-appearance-not-found-001",
+      "missingSurface": "appearance",
+      "subject": "米海尔·罗亚·法尔丹姆杨",
+      "summary": "No Roa-specific appearance description appears in the assigned direct or indirect excerpts; possessed-body descriptions are not converted into Roa appearance.",
+      "continuityTaxonomy": {"category": "sandbox", "rawSourceLabels": ["罗亚", "candidate-only"], "sourceAvailability": "source-gap/candidate-only"},
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:10", "sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:33"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    },
+    {
+      "recordId": "nf-roa-outfit-equipment-not-found-001",
+      "missingSurface": "outfit-equipment",
+      "subject": "米海尔·罗亚·法尔丹姆杨",
+      "summary": "No Roa-specific outfit or equipment details appear in the assigned excerpts.",
+      "continuityTaxonomy": {"category": "sandbox", "rawSourceLabels": ["罗亚", "candidate-only"], "sourceAvailability": "source-gap/candidate-only"},
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:33", "sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:35"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    },
+    {
+      "recordId": "nf-named-dead-apostle-profiles-not-confirmed-001",
+      "missingSurface": "standalone-profiles",
+      "subject": "Nero, Vlov, Wallachia Night, Satsuki, Tohno SHIKI, Noel, other supporting cast",
+      "summary": "The candidate excerpt states these direct standalone profiles may exist but were not formalized here; all named signals remain candidate-only until direct entries are read or absence is audited.",
+      "continuityTaxonomy": {"category": "sandbox", "rawSourceLabels": ["candidate-only"], "sourceAvailability": "source-gap/candidate-only"},
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:34", "sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:35"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    },
+    {
+      "recordId": "nf-kagetsu-tohya-source-gap-001",
+      "missingSurface": "continuity-source-text",
+      "subject": "kagetsu-tohya Dead Apostle/Roa surfaces",
+      "summary": "The Stage 1 continuity taxonomy policy says Kagetsu Tohya has no Stage 1 source text unless explicitly excerpted; this packet does not invent continuity facts for this category.",
+      "continuityTaxonomy": {"category": "kagetsu-tohya", "rawSourceLabels": ["source-gap/candidate-only"], "sourceAvailability": "source-gap/candidate-only"},
+      "sourceRefs": ["source-unit-manifest.json"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "unknown"
+    },
+    {
+      "recordId": "nf-type-lumina-source-gap-001",
+      "missingSurface": "continuity-source-text",
+      "subject": "type-lumina Dead Apostle/Roa surfaces",
+      "summary": "The Stage 1 continuity taxonomy policy says Type Lumina has no Stage 1 source text unless explicitly excerpted; this packet does not invent continuity facts for this category.",
+      "continuityTaxonomy": {"category": "type-lumina", "rawSourceLabels": ["source-gap/candidate-only"], "sourceAvailability": "source-gap/candidate-only"},
+      "sourceRefs": ["source-unit-manifest.json"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "unknown"
+    }
+  ]
+}

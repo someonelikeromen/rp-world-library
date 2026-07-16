@@ -1,0 +1,61 @@
+{
+  "_schema": "rp-location-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "location_id": "location-drag-ride-workshop",
+  "volume": "vol-02",
+  "source_refs": [
+    "vol-02"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-02",
+      "volume": "vol-02",
+      "time": "vol-02",
+      "name": {
+        "zh": "机龙工房",
+        "en": "Drag-Ride Workshop"
+      },
+      "aliases": [
+        "莉夏的工房",
+        "开发机龙的工房"
+      ],
+      "type": "facility",
+      "description": "莉夏担任所长的学园机龙开发设施，充满金属与油味，陈列组装中的机龙。",
+      "geography": {
+        "site": "学园内非校舍建筑",
+        "features": [
+          "作业台",
+          "机龙零件",
+          "小厨房"
+        ]
+      },
+      "population": {
+        "staff": "莉夏为核心，路克斯、爱理、诺珂特曾协助"
+      },
+      "controlled_by": "lisha-atismata",
+      "affiliation": "faction-royal-officer-academy",
+      "significance": "路克斯争夺战避难点、巴哈姆特数据分析和莉夏机龙研发地点。",
+      "notable_residents": [
+        "lisha-atismata"
+      ],
+      "key_events": [
+        "event-lux-scramble",
+        "event-bahamut-preparation"
+      ],
+      "related_locations": [
+        "location-royal-officer-academy"
+      ],
+      "hazards": [
+        "实验机龙误用或钻规则漏洞"
+      ],
+      "secrets": [
+        "不装备也能远程操纵的腕臂陆战机龙实验"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "ch-001",
+        "ch-004"
+      ]
+    }
+  ]
+}

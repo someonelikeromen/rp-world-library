@@ -1,0 +1,151 @@
+{
+  "_schema": "rp-item-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "item_id": "ex-wyvern",
+  "volume": "vol-17",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-17/full.txt:5650"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-17",
+      "volume": "vol-17",
+      "time": "阿尔玛行动",
+      "name": {
+        "zh": "EX飞翔机龙",
+        "en": "EX Wyvern"
+      },
+      "aliases": [
+        "阿尔玛的EX飞翔机龙"
+      ],
+      "type": "equipment / vehicle",
+      "description": "阿尔玛驾驶的高级飞翔机龙,可使用伪装并拥有较高输出,用于接触路克斯和入侵箱庭。",
+      "details": {
+        "class": "EX特装/高级飞翔机龙",
+        "owner_character": "alma-kiltzrak"
+      },
+      "owner": "alma-kiltzrak",
+      "status": "active",
+      "features": [
+        "高输出",
+        "伪装功能",
+        "高速突入"
+      ],
+      "associated_abilities": [
+        "quick-draw",
+        "drag-ride-stealth"
+      ],
+      "history": [
+        {
+          "summary": "阿尔玛穿戴该机龙拦住路克斯并带信。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-17/full.txt:4640"
+        },
+        {
+          "summary": "阿尔玛驾驶它率队入侵箱庭。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-17/full.txt:5650"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-17/full.txt:4640",
+        "saijaku-muhai-bahamut-main/vol-17/full.txt:5650"
+      ]
+    },
+    {
+      "period_id": "vol-19",
+      "volume": "vol-19",
+      "time": "后方支援",
+      "name": {
+        "zh": "EX飞翔机龙",
+        "en": "EX Wyvern"
+      },
+      "aliases": [
+        "谢里丝机龙"
+      ],
+      "type": "equipment / vehicle",
+      "description": "谢里丝用于后方侦查与支援的飞翔机龙。",
+      "owner": "sheris-baltshift",
+      "status": "active",
+      "features": [
+        "飞行侦查",
+        "后方支援",
+        "通信协助"
+      ],
+      "associated_abilities": [],
+      "history": [
+        "用于临时基地周边侦查罗菲克隆体与幻神兽"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-19/full.txt:2693-6600"
+      ]
+    },
+    {
+      "period_id": "vol-20",
+      "volume": "vol-20",
+      "time": "最终战",
+      "name": {
+        "zh": "EX飞翔机龙",
+        "en": "EX Wyvern"
+      },
+      "aliases": [],
+      "type": "equipment / vehicle",
+      "description": "高级飞翔机龙，阿尔玛等新王国机龙使在最终战和战后护卫中使用。",
+      "owner": "alma-atismata",
+      "status": "active",
+      "features": [
+        "高速飞行",
+        "护卫支援"
+      ],
+      "associated_abilities": [
+        "ex-wyvern-piloting"
+      ],
+      "history": [
+        "最终战中阿尔玛用其救援莉夏和库露露席法"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-20/full.txt:2845",
+        "saijaku-muhai-bahamut-main/vol-20/full.txt:6501"
+      ]
+    },
+    {
+      "period_id": "vol-21-finale",
+      "volume": "vol-21",
+      "time": "Hounds suppression battle",
+      "name": {
+        "zh": "EX飞翔机龙",
+        "en": "EX Wyvern"
+      },
+      "aliases": [
+        "EX飞翔型机龙"
+      ],
+      "type": "weapon / equipment / vehicle",
+      "description": "Enhanced flying Drag-Ride used by Hounds pilots and by Sharis as an ordinary-machine guard. The Hounds leader's EX Wyvern is disabled by Lux in the epilogue.",
+      "details": {
+        "users": [
+          "hounds-leader",
+          "seren-triaden"
+        ]
+      },
+      "owner": "无特定归属",
+      "status": "active / enemy unit destroyed or captured",
+      "features": [
+        "flight",
+        "Drag-Ride roar",
+        "military-grade mobility"
+      ],
+      "associated_abilities": [
+        "dragon-voice"
+      ],
+      "history": [
+        "Hounds leader attempts to use one to escape and attack Lux.",
+        "Sharis uses an EX Wyvern as a guard in the epilogue."
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-21/full.txt:5985-6566"
+      ]
+    }
+  ]
+}

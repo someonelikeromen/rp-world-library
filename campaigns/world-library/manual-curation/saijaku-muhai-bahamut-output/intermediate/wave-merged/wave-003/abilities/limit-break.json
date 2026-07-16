@@ -1,0 +1,69 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "limit-break",
+  "volume": "vol-15",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-15/full.txt:6290"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-15",
+      "volume": "vol-15",
+      "time": "Lux vs Singlen",
+      "name": {
+        "zh": "限界突破",
+        "en": "Limit Break"
+      },
+      "aliases": [
+        "解除限制代码"
+      ],
+      "type": "technology / combat / forbidden-technique",
+      "description": "解除装甲机龙对机体与使用者负担的限制，使性能、功率与可动域提升到危险水平。路克斯在控制室决战中恢复使用记忆并启动。",
+      "details": {
+        "teacher": "fugil-arcadia",
+        "known_user": "lux-arcadia",
+        "risk": "每次使用都会造成强烈副作用并可能损害记忆或身体"
+      },
+      "activation": {
+        "condition": "知晓解除顺序并穿着对应机龙",
+        "incantation": "限界突破·开始",
+        "time": "temporary",
+        "cost": "巨大身体负担、剧痛、可能记忆损耗"
+      },
+      "effects": [
+        "解除机体限制",
+        "提升巴哈姆特攻击和机动性能",
+        "强化特殊武装作用"
+      ],
+      "power_level": {
+        "initial": "very high",
+        "peak": "enables Lux to contest Singlen's true battle arrays",
+        "evolution": []
+      },
+      "known_feats": [
+        "五年前弗基尔曾传授给路克斯",
+        "路克斯在辛格伦战中启动并将烙印剑和共鸣波动推至极限"
+      ],
+      "shared_by": [
+        "lux-arcadia"
+      ],
+      "see_also": [
+        "bahamut",
+        "bahamut-gluttony",
+        "rapid-control"
+      ],
+      "countered_by": [
+        "user's physical limits"
+      ],
+      "counters": [
+        "ordinary drag-ride performance limits"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-15/full.txt:6290"
+      ]
+    }
+  ]
+}

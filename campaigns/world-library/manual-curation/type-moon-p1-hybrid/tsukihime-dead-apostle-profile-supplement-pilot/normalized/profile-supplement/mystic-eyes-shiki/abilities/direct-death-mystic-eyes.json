@@ -1,0 +1,34 @@
+{
+  "schema": "tm-tsukihime-normalized-ability-fragment-v1",
+  "packetId": "mystic-eyes-shiki",
+  "recordId": "ability-direct-death-mystic-eyes-shiki-packet",
+  "status": "generated-pending-audit",
+  "label": "直死之魔眼",
+  "sourceBackedLabel": "直死之魔眼",
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "mixed-source-status-see-records",
+  "candidateOnly": false,
+  "continuity": { "rawSourceLabel": "直死之魔眼 / 远野志贵 / 同人版 / 重制版", "canonicalContinuity": "sandbox", "taxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy" },
+  "sourceRefs": ["sources/worldbook-profile/tm-summary-mystic-eyes-of-death-perception.txt:16", "sources/worldbook-profile/tm-summary-mystic-eyes-of-death-perception.txt:17", "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:33", "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:61"],
+  "definition": {
+    "summary": "Among the rarest and highest-level Mystic Eyes, allowing the holder to see the death of all things; the source frames it as understanding and connecting to death itself, directly related to the Root, not merely a killing ability.",
+    "sourceRefs": ["sources/worldbook-profile/tm-summary-mystic-eyes-of-death-perception.txt:16", "sources/worldbook-profile/tm-summary-mystic-eyes-of-death-perception.txt:17"]
+  },
+  "visualSurface": [
+    { "label": "死之线", "visualRaw": "black cracks over all things", "effectRaw": "cutting along them with a blade ignores physical strength and defense and directly kills", "sourceRefs": ["sources/worldbook-profile/tm-summary-mystic-eyes-of-death-perception.txt:19", "sources/worldbook-profile/tm-summary-mystic-eyes-of-death-perception.txt:20"] },
+    { "label": "死之点", "visualRaw": "beginning and endpoint of an object's existence", "effectRaw": "stabbing with a blade erases the object's existence; higher application", "sourceRefs": ["sources/worldbook-profile/tm-summary-mystic-eyes-of-death-perception.txt:21", "sources/worldbook-profile/tm-summary-mystic-eyes-of-death-perception.txt:22"] }
+  ],
+  "acquisitionCondition": {
+    "summary": "Requires a special near-death experience in the general summary; original Shiki's profile gives a near-death awakening after shielding Akiha.",
+    "sourceRefs": ["sources/worldbook-profile/tm-summary-mystic-eyes-of-death-perception.txt:23", "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:44", "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:45"]
+  },
+  "holdersInCurrentSource": [
+    { "label": "远野志贵", "continuityTags": ["sandbox", "original", "remake"], "sourceRefs": ["sources/worldbook-profile/tm-summary-mystic-eyes-of-death-perception.txt:24", "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:33", "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:61"] },
+    { "label": "两仪式", "continuityTags": ["sandbox"], "scopeNote": "Holder list only; no Ryougi details are extracted in this packet.", "sourceRefs": ["sources/worldbook-profile/tm-summary-mystic-eyes-of-death-perception.txt:24"] }
+  ],
+  "limitationsAndCautions": [
+    { "summary": "Shiki wears Mystic Eye Killer glasses to suppress the eyes and reduce brain burden.", "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:34", "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:62"] },
+    { "summary": "Nanaya Shiki formal ownership is not supported by this packet because the source states later author comment says he does not have Direct Death Mystic Eyes.", "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:54"] }
+  ]
+}

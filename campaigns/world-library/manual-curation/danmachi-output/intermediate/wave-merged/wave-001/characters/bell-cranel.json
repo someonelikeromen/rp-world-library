@@ -1,0 +1,4013 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "bell-cranel",
+  "volume": "vol-01",
+  "time_range": {
+    "start": "bell-prologue",
+    "end": "vol-05-epilogue"
+  },
+  "sub_arcs": [
+    "awakening",
+    "first-encounter"
+  ],
+  "periods": [
+    {
+      "period_id": "bell-prologue",
+      "volume": "vol-01",
+      "time": "prologue",
+      "label": "地下城死斗与邂逅",
+      "name": {
+        "zh": "贝尔·克朗尼",
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル"
+      },
+      "aliases": [
+        "兔子",
+        "番茄小子",
+        "白发少年"
+      ],
+      "titles": [],
+      "gender": "male",
+      "species": "human",
+      "nationality": "未知乡村",
+      "occupation": "冒险者",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {
+        "lv": "1",
+        "class": "newbie"
+      },
+      "appearance": {
+        "overview": "白色头发、红色眼睛的14岁少年。身形纤细。",
+        "physical": {
+          "height": "约165cm",
+          "build": "纤细",
+          "hair": {
+            "color": "白",
+            "style": "短发"
+          },
+          "eyes": {
+            "color": "红",
+            "type": "深红宝石色"
+          }
+        },
+        "attire": {
+          "default": "冒险者轻铠",
+          "combat": "公会配给品轻铠+短刀"
+        },
+        "voice_quality": {},
+        "distinctive": [
+          "白色头发",
+          "红色眼睛",
+          "显得胆小"
+        ]
+      },
+      "personality": {
+        "summary": "天真、胆小但对目标执着。向往英雄谭中的命运邂逅。本性善良。",
+        "core_traits": [
+          "执着",
+          "胆小",
+          "善良",
+          "纯情",
+          "勤奋"
+        ],
+        "values": [
+          "家人",
+          "羁绊",
+          "信赖"
+        ],
+        "fears": [
+          "失去家人",
+          "被轻视",
+          "无能为力"
+        ],
+        "desires": [
+          "变强",
+          "追上艾丝·华伦斯坦",
+          "保护赫斯缇雅"
+        ],
+        "strengths": [
+          "成长速度惊人",
+          "执着",
+          "善良本性"
+        ],
+        "flaws": [
+          "容易自卑",
+          "感情用事",
+          "缺乏经验"
+        ],
+        "inner_conflict": "渴望变强但又害怕冒险",
+        "decision_pattern": "感情驱动的保护欲"
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {
+          "hestia": "神仙",
+          "eina": "埃伊娜小姐",
+          "ais": "华伦斯坦小姐"
+        },
+        "register": {},
+        "catchphrases": [],
+        "quote_samples": [
+          "我，并没有错。",
+          "我想变强。",
+          "我不想再失去家人了。"
+        ]
+      },
+      "habits": {
+        "mannerisms": [
+          "喜欢贴在武器店橱窗上看"
+        ],
+        "daily_routine": "清晨出发去地下城，傍晚回来",
+        "quirks": [
+          "被女生靠近容易脸红"
+        ],
+        "preferences": {
+          "weapon_type": "短刀"
+        }
+      },
+      "background": {
+        "birth": {
+          "place": "远离欧拉丽的乡村",
+          "family": []
+        },
+        "upbringing": "由祖父抚养长大，祖父被怪物杀害后独自从村子跑出来",
+        "education": {
+          "combat": "自学开荒"
+        },
+        "formative_events": [
+          "祖父被怪物杀害",
+          "遇见赫斯缇雅",
+          "被艾丝救下"
+        ],
+        "pre_story": "从小听祖父念英雄谭，向往命运邂逅"
+      },
+      "abilities_owned": [
+        {
+          "name": "一心憧憬",
+          "type": "技能",
+          "description": "早熟。与思慕之情同时维持效果。思慕之情越强效果越大。"
+        }
+      ],
+      "possessions_owned": [
+        {
+          "name": "赫斯缇雅之刃",
+          "type": "武器",
+          "description": "赫菲斯托丝锻造的成长型匕首，35年按揭"
+        },
+        {
+          "name": "公会配给短刀",
+          "type": "武器",
+          "description": "最初使用的短刀"
+        }
+      ],
+      "relationships": {
+        "hestia": {
+          "type": "主神与眷属",
+          "description": "最重要的家人"
+        },
+        "ais-wallenstein": {
+          "type": "憧景对象",
+          "description": "一见钟情，变强的动力"
+        },
+        "eina-tulle": {
+          "type": "顾问与挚友",
+          "description": "如同姐姐般的存在"
+        },
+        "syr-flova": {
+          "type": "朋友",
+          "description": "酒馆店员，互有好感"
+        }
+      },
+      "knowledge": [
+        "地下城基础知识",
+        "怪物知识"
+      ],
+      "secrets": [],
+      "summary": "14岁的人类少年，赫斯缇雅眷族唯一成员。第一卷中从怯懦的菜鸟冒险者成长为敢于面对银背猿的战士。对艾丝·华伦斯坦一见钟情，以此为目标疯狂成长。",
+      "key_events": [
+        {
+          "event_id": "minotaur-encounter",
+          "summary": "在第5层被弥诺陶洛斯追杀，被艾丝救下",
+          "sourceRef": "danmachi-main/vol-01/full.txt:1-168"
+        },
+        {
+          "event_id": "tavern-insult-incident",
+          "summary": "在丰饶的女主人酒馆被伯特·罗卡当众羞辱",
+          "sourceRef": "danmachi-main/vol-01/full.txt:827-2050"
+        },
+        {
+          "event_id": "bell-vs-silverback",
+          "summary": "在怪物祭事件中用赫斯缇雅之刃一击打倒银背猿",
+          "sourceRef": "danmachi-main/vol-01/full.txt:3681-5590"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-01/full.txt:1-7348"
+      ]
+    },
+    {
+      "period_id": "vol-02-ch01",
+      "volume": "vol-02",
+      "time": "第一章「约会后的支援者」",
+      "label": "深入第七层并与莉莉相遇",
+      "name": {
+        "zh": "贝尔·克朗尼",
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル"
+      },
+      "aliases": [
+        "贝尔",
+        "白发的大哥"
+      ],
+      "titles": [],
+      "gender": "男",
+      "species": "人类",
+      "nationality": "",
+      "occupation": "冒险者",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {
+        "level": "Lv.1",
+        "strength": "E 403",
+        "endurance": "H 99",
+        "dexterity": "E 412",
+        "agility": "D 521",
+        "magic": "I 0",
+        "reached_floor": 7
+      },
+      "appearance": {
+        "overview": "白发少年，身体经过地下城历练后已有明显肌肉；换上钢铁色轻铠甲。",
+        "physical": {
+          "height": "",
+          "build": "精瘦而结实",
+          "hair": {
+            "color": "白色"
+          },
+          "eyes": {}
+        },
+        "attire": {
+          "default": "黑色衬衣与裤子",
+          "combat": "钢铁色轻铠甲、左臂绿宝石色护具"
+        },
+        "voice_quality": {},
+        "distinctive": [
+          "白发",
+          "使用漆黑的赫斯缇雅之刃"
+        ]
+      },
+      "personality": {
+        "summary": "善良、容易害羞且富有行动力；面对危险的陌生少女会本能地挺身保护。",
+        "core_traits": [
+          "善良",
+          "勇敢",
+          "纯真",
+          "勤奋",
+          "容易害羞"
+        ],
+        "values": [
+          "保护女性与弱者",
+          "不辜负赫斯缇雅的心意",
+          "成为配得上武器的冒险者"
+        ],
+        "fears": [
+          "对人战斗",
+          "让关心自己的人失望"
+        ],
+        "desires": [
+          "变强",
+          "追上艾丝·华伦斯坦",
+          "成为优秀冒险者"
+        ],
+        "strengths": [
+          "速度突出",
+          "能够斩断杀人蚁硬壳",
+          "即使害怕仍坚持保护他人"
+        ],
+        "flaws": [
+          "危机意识不足",
+          "容易被女性影响",
+          "对陌生人缺乏戒心"
+        ],
+        "inner_conflict": "一面害怕真正的人类敌意，一面又无法抛下受威胁的少女。",
+        "decision_pattern": {
+          "combat": "抢先攻击并依靠高速闪避",
+          "protecting_others": "先行动保护，再考虑利害"
+        }
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {
+          "eina": "埃伊娜小姐",
+          "hestia": "神仙",
+          "ryu": "琉小姐"
+        },
+        "register": {
+          "default": "礼貌、慌张时结巴"
+        },
+        "catchphrases": [],
+        "quote_samples": []
+      },
+      "habits": {
+        "mannerisms": [
+          "紧张或面对女性时脸红",
+          "害怕时吞口水"
+        ],
+        "daily_routine": "单独进入地下城战斗、回收魔石并到公会兑换。",
+        "quirks": [
+          "把与埃伊娜购物想象成约会"
+        ],
+        "preferences": {
+          "combat_style": "轻装、高速、打带跑"
+        }
+      },
+      "background": {
+        "birth": {
+          "place": "",
+          "family": [
+            "祖父（已故或失踪，据贝尔认知）"
+          ]
+        },
+        "upbringing": "曾为农民，由祖父抚养并阅读英雄故事。",
+        "education": {},
+        "formative_events": [
+          "曾被弥诺陶洛斯逼入绝境并获艾丝救援"
+        ],
+        "pre_story": "成为冒险者尚不足一个月。"
+      },
+      "abilities_owned": [],
+      "possessions_owned": [
+        "赫斯缇雅之刃",
+        "短刀",
+        "韦尔夫·克罗佐制作的钢铁色轻铠甲",
+        "埃伊娜赠送的绿宝石色护具"
+      ],
+      "relationships": {
+        "hestia": "主神与家人般的恩人",
+        "eina-tulle": "信赖的公会顾问；接受其装备建议和礼物",
+        "ais-wallenstein": "仰慕并立志追赶的对象",
+        "liliruca-arde": "在巷中保护的少女；随后接受她自荐为支援者",
+        "ryu-lion": "在对人冲突中出手相助的酒馆店员"
+      },
+      "knowledge": [
+        "杀人蚁会呼唤同伴",
+        "发展能力、锻造与魔剑的基础知识",
+        "巴别塔四至八楼设有赫菲斯托丝眷族商店"
+      ],
+      "secrets": [],
+      "summary": "贝尔凭借快速成长和赫斯缇雅之刃独自攻略第七层。埃伊娜确认其异常高的能力值后带他选购装备，他买下韦尔夫制作的轻铠并获赠护具。回家途中，他保护被追赶的莉莉，次日又接受莉莉自荐担任支援者。",
+      "key_events": [
+        {
+          "event_id": "bell-defeats-killer-ant",
+          "summary": "在第七层斩首杀人蚁。",
+          "sourceRef": "danmachi-main/vol-02/full.txt:79-171"
+        },
+        {
+          "event_id": "eina-verifies-bell-status",
+          "summary": "向埃伊娜展示能力值，证明自己足以探索第七层。",
+          "sourceRef": "danmachi-main/vol-02/full.txt:173-405"
+        },
+        {
+          "event_id": "bell-buys-welf-armor",
+          "summary": "购买韦尔夫制作的轻铠并收下埃伊娜赠送的护具。",
+          "sourceRef": "danmachi-main/vol-02/full.txt:407-1069"
+        },
+        {
+          "event_id": "bell-protects-lili",
+          "summary": "在巷中保护被冒险者追赶的莉莉。",
+          "sourceRef": "danmachi-main/vol-02/full.txt:1071-1264"
+        },
+        {
+          "event_id": "lili-offers-support",
+          "summary": "在巴别塔前接受莉莉自荐为支援者。",
+          "sourceRef": "danmachi-main/vol-02/full.txt:1293-1382"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-02/full.txt:79-1382"
+      ]
+    },
+    {
+      "period_id": "vol-02-ch02",
+      "volume": "vol-02",
+      "time": "第二章「支援者的隐情」",
+      "label": "正式雇用莉莉并平分收益",
+      "name": {
+        "zh": "贝尔·克朗尼",
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル"
+      },
+      "aliases": [
+        "贝尔",
+        "贝尔大人"
+      ],
+      "titles": [],
+      "gender": "男",
+      "species": "人类",
+      "nationality": "",
+      "occupation": "冒险者",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {
+        "level": "Lv.1",
+        "strength": "D 591",
+        "endurance": "G 233",
+        "dexterity": "C 607",
+        "agility": "B 702",
+        "magic": "I 0",
+        "reached_floor": 7,
+        "money": "18900法利"
+      },
+      "appearance": {
+        "overview": "白发红眼的少年冒险者，装备兔铠Mk-II和绿色护身具。",
+        "physical": {
+          "height": "",
+          "build": "精瘦结实",
+          "hair": {
+            "color": "白色"
+          },
+          "eyes": {
+            "color": "深红色"
+          }
+        },
+        "attire": {
+          "default": "",
+          "combat": "兔铠Mk-II、绿色护身具"
+        },
+        "voice_quality": {},
+        "distinctive": [
+          "赫斯缇雅之刃在他持有时恢复蓝紫色光泽"
+        ]
+      },
+      "personality": {
+        "summary": "对莉莉保持基本谨慎，却因同情和信任选择雇用她；坚持公平分配共同劳动所得。",
+        "core_traits": [
+          "善良",
+          "信任他人",
+          "公平",
+          "勤奋",
+          "谦逊"
+        ],
+        "values": [
+          "队友关系",
+          "公平报酬",
+          "不舍弃同伴"
+        ],
+        "fears": [
+          "失去赫斯缇雅之刃"
+        ],
+        "desires": [
+          "继续变强",
+          "回报赫斯缇雅",
+          "与莉莉稳定合作"
+        ],
+        "strengths": [
+          "独自压制第七层魔物群",
+          "长时间战斗与体力分配",
+          "接受支援后效率大增"
+        ],
+        "flaws": [
+          "过度轻信莉莉的伪装和说辞",
+          "容易因愧疚让步"
+        ],
+        "inner_conflict": "察觉莉莉有所隐瞒，却仍不愿以恶意揣测她。",
+        "decision_pattern": {
+          "trust": "咨询埃伊娜后自行承担决定责任",
+          "rewards": "按贡献公平平分而非利用弱势压价"
+        }
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {
+          "lili": "莉莉",
+          "eina": "埃伊娜小姐"
+        },
+        "register": {
+          "default": "礼貌真诚"
+        },
+        "catchphrases": [],
+        "quote_samples": []
+      },
+      "habits": {
+        "mannerisms": [
+          "为弄丢匕首而脸色发白",
+          "赚到高额收入时与莉莉击掌欢呼"
+        ],
+        "daily_routine": "与莉莉进入地下城第七层，专注战斗并由她回收战利品。",
+        "quirks": [],
+        "preferences": {
+          "supporter_relationship": "希望平等相处，但尊重莉莉坚持的称呼规则"
+        }
+      },
+      "background": {
+        "birth": {
+          "place": "",
+          "family": [
+            "祖父"
+          ]
+        },
+        "upbringing": "由祖父抚养，曾是农民。",
+        "education": {},
+        "formative_events": [],
+        "pre_story": "此前一直单独探索地下城。"
+      },
+      "abilities_owned": [
+        "一心憧憬",
+        "高速近战",
+        "长时间单独战斗"
+      ],
+      "possessions_owned": [
+        "赫斯缇雅之刃",
+        "短刀",
+        "兔铠Mk-II",
+        "绿色护身具"
+      ],
+      "relationships": {
+        "liliruca-arde": "正式雇用的支援者；相信她的价值并将收益对半分",
+        "eina-tulle": "向其咨询苏摩眷族和雇用莉莉的风险",
+        "ryu-lion": "从她手中取回被盗的赫斯缇雅之刃",
+        "syr-flova": "在取回匕首现场相遇"
+      },
+      "knowledge": [
+        "苏摩眷族经营酒类且成员异常执着金钱",
+        "支援者长期受到冒险者轻视",
+        "莉莉拥有搬运辅助技能"
+      ],
+      "secrets": [
+        "技能一心憧憬带来随思慕增强的早熟效果"
+      ],
+      "summary": "贝尔试用莉莉后认可其支援能力，并在咨询埃伊娜后正式雇用她。他未察觉莉莉利用变身偷走赫斯缇雅之刃；匕首经琉追回后，他仍相信莉莉。两人合作日赚两万六千法利，贝尔毫不犹豫地将一半交给她。",
+      "key_events": [
+        {
+          "event_id": "bell-and-lili-first-expedition",
+          "summary": "与莉莉首次探索第七层，战斗与回收效率显著提升。",
+          "sourceRef": "danmachi-main/vol-02/full.txt:1560-1900"
+        },
+        {
+          "event_id": "lili-steals-hestia-knife",
+          "summary": "被莉莉调虎离山后失去赫斯缇雅之刃。",
+          "sourceRef": "danmachi-main/vol-02/full.txt:1834-2118"
+        },
+        {
+          "event_id": "ryu-recovers-hestia-knife",
+          "summary": "从琉手中取回赫斯缇雅之刃。",
+          "sourceRef": "danmachi-main/vol-02/full.txt:2199-2480"
+        },
+        {
+          "event_id": "bell-hires-lili",
+          "summary": "经考虑及赫斯缇雅许可后正式雇用莉莉。",
+          "sourceRef": "danmachi-main/vol-02/full.txt:2486-2600"
+        },
+        {
+          "event_id": "bell-splits-earnings-with-lili",
+          "summary": "将两万六千法利收入平分给莉莉。",
+          "sourceRef": "danmachi-main/vol-02/full.txt:2704-2785"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-02/full.txt:1383-2854"
+      ]
+    },
+    {
+      "period_id": "vol-02-interlude",
+      "volume": "vol-02",
+      "time": "插章「幸运女神」",
+      "label": "照顾赫斯缇雅并许下约定",
+      "name": {
+        "zh": "贝尔·克朗尼",
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル"
+      },
+      "aliases": [
+        "贝尔"
+      ],
+      "titles": [],
+      "gender": "男",
+      "species": "人类",
+      "nationality": "",
+      "occupation": "冒险者",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {
+        "activity": "为照顾宿醉赫斯缇雅休息一天"
+      },
+      "appearance": {
+        "overview": "白发少年，面对盛装赫斯缇雅和女神们时频频脸红。",
+        "physical": {
+          "height": "",
+          "build": "精瘦结实",
+          "hair": {
+            "color": "白色"
+          },
+          "eyes": {
+            "color": "深红色"
+          }
+        },
+        "attire": {
+          "default": "新防具",
+          "combat": ""
+        },
+        "voice_quality": {},
+        "distinctive": [
+          "被女神们形容像兔子"
+        ]
+      },
+      "personality": {
+        "summary": "体贴、孝顺且真诚，用新收入回报主神并将失败约会转化为未来约定。",
+        "core_traits": [
+          "体贴",
+          "纯真",
+          "孝顺",
+          "害羞",
+          "乐观"
+        ],
+        "values": [
+          "照顾赫斯缇雅",
+          "回报恩情",
+          "共同回忆"
+        ],
+        "fears": [],
+        "desires": [
+          "请赫斯缇雅吃豪华晚餐",
+          "存更多钱后再次约会"
+        ],
+        "strengths": [
+          "真诚安慰他人",
+          "把失望转为积极约定"
+        ],
+        "flaws": [
+          "面对女性亲密接触毫无抵抗力"
+        ],
+        "inner_conflict": "希望回报赫斯缇雅，却因羞涩难以把二人晚餐称作约会。",
+        "decision_pattern": {
+          "care": "优先停止探索照顾主神",
+          "setback": "寻找当下美好并约定未来补偿"
+        }
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {
+          "hestia": "神仙"
+        },
+        "register": {
+          "default": "礼貌、害羞"
+        },
+        "catchphrases": [],
+        "quote_samples": []
+      },
+      "habits": {
+        "mannerisms": [
+          "喂赫斯缇雅苹果泥",
+          "称赞盛装女性时满脸通红"
+        ],
+        "daily_routine": "探索地下城并照顾主神。",
+        "quirks": [],
+        "preferences": {}
+      },
+      "background": {
+        "birth": {
+          "place": "",
+          "family": [
+            "祖父"
+          ]
+        },
+        "upbringing": "",
+        "education": {},
+        "formative_events": [],
+        "pre_story": "与莉莉合作后首次获得高额收入。"
+      },
+      "abilities_owned": [
+        "一心憧憬"
+      ],
+      "possessions_owned": [
+        "赫斯缇雅之刃",
+        "兔铠Mk-II",
+        "绿色护身具"
+      ],
+      "relationships": {
+        "hestia": "最重要的主神和家人；主动邀请共进晚餐并许诺再次看夜景",
+        "liliruca-arde": "提前联络休息一天的支援者",
+        "demeter": "约会中被其与其他女神围抱"
+      },
+      "knowledge": [
+        "赫斯缇雅因工作疲累且宿醉",
+        "钟楼可俯瞰欧拉丽夜景"
+      ],
+      "secrets": [],
+      "summary": "贝尔为照顾宿醉的赫斯缇雅取消一天探索，并打算用收入请她吃豪华晚餐。约会遭女神群打断后，他带她在钟楼看夜景，真心约定存更多钱后再次二人同行。",
+      "key_events": [
+        {
+          "event_id": "bell-hestia-date-promise",
+          "summary": "照顾赫斯缇雅、邀请晚餐并在钟楼许下下次约会的约定。",
+          "sourceRef": "danmachi-main/vol-02/full.txt:3010-3446"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-02/full.txt:3010-3446"
+      ]
+    },
+    {
+      "period_id": "vol-02-ch03",
+      "volume": "vol-02",
+      "time": "第三章「魔法是召唤膝枕的魔法」",
+      "label": "习得火焰闪电并获艾丝膝枕",
+      "name": {
+        "zh": "贝尔·克朗尼",
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル"
+      },
+      "aliases": [
+        "贝尔",
+        "贝尔大人"
+      ],
+      "titles": [],
+      "gender": "男",
+      "species": "人类",
+      "nationality": "",
+      "occupation": "冒险者",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {
+        "level": "Lv.1",
+        "strength": "B 737",
+        "endurance": "F 355",
+        "dexterity": "B 749",
+        "agility": "A 817",
+        "magic": "I 0",
+        "reached_floor": 7
+      },
+      "appearance": {
+        "overview": "白发红眼少年，装备兔铠Mk-II与绿色护身具。",
+        "physical": {
+          "height": "",
+          "build": "精瘦结实",
+          "hair": {
+            "color": "白色"
+          },
+          "eyes": {
+            "color": "深红色"
+          }
+        },
+        "attire": {
+          "default": "",
+          "combat": "兔铠Mk-II、绿色护身具"
+        },
+        "voice_quality": {},
+        "distinctive": []
+      },
+      "personality": {
+        "summary": "在险些因自大丧命后重新敬畏地下城；对魔法怀有强烈英雄憧憬，习得后兴奋到失控。",
+        "core_traits": [
+          "善良",
+          "勤奋",
+          "易兴奋",
+          "会反省",
+          "仰慕艾丝"
+        ],
+        "values": [
+          "成为英雄",
+          "追上艾丝",
+          "不轻视敌人",
+          "保护同伴"
+        ],
+        "fears": [
+          "因疏忽被魔物压倒",
+          "无法帮助莉莉"
+        ],
+        "desires": [
+          "掌握魔法",
+          "变强到艾丝身边"
+        ],
+        "strengths": [
+          "速攻魔法火焰闪电",
+          "高速近战",
+          "能从致命失误中吸取教训"
+        ],
+        "flaws": [
+          "得意时会失去节制",
+          "滥用新魔法导致精神枯竭",
+          "面对艾丝极度慌乱"
+        ],
+        "inner_conflict": "既想介入莉莉的痛苦，又感到自己无法跨越她的防备。",
+        "decision_pattern": {
+          "failure": "深刻反省并铭记教训",
+          "new_power": "立即反复试用直到超过极限"
+        }
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {
+          "lili": "莉莉",
+          "ais": "华伦斯坦小姐",
+          "hestia": "神仙"
+        },
+        "register": {
+          "default": "礼貌、兴奋时大喊"
+        },
+        "catchphrases": [
+          "火焰闪电！"
+        ],
+        "quote_samples": []
+      },
+      "habits": {
+        "mannerisms": [
+          "兴奋时连续做胜利姿势",
+          "从艾丝膝上醒来后尖叫逃走"
+        ],
+        "daily_routine": "与莉莉探索第七层并训练新魔法。",
+        "quirks": [
+          "把魔法视为英雄的最终王牌"
+        ],
+        "preferences": {}
+      },
+      "background": {
+        "birth": {
+          "place": "",
+          "family": [
+            "祖父"
+          ]
+        },
+        "upbringing": "从小沉迷英雄故事并憧憬魔法。",
+        "education": {},
+        "formative_events": [
+          "艾丝曾从弥诺陶洛斯手中救下他"
+        ],
+        "pre_story": "技能一心憧憬持续推动异常成长。"
+      },
+      "abilities_owned": [
+        "一心憧憬",
+        "火焰闪电",
+        "高速近战"
+      ],
+      "possessions_owned": [
+        "赫斯缇雅之刃",
+        "短刀",
+        "兔铠Mk-II",
+        "绿色护身具"
+      ],
+      "relationships": {
+        "liliruca-arde": "被她以魔剑救命，并担忧其苏摩眷族处境",
+        "hestia": "为他更新能力并发现新魔法的主神",
+        "syr-flova": "从她处借到白色魔导书",
+        "ais-wallenstein": "憧憬对象；精神枯竭时被她救下并膝枕",
+        "freya": "不知情地接受其安排的魔导书"
+      },
+      "knowledge": [
+        "苏摩眷族以酿酒为唯一核心兴趣并向成员规定金额",
+        "魔法会消耗精神力",
+        "火焰闪电无需长咏唱即可瞬发"
+      ],
+      "secrets": [
+        "火焰闪电由芙蕾雅安排的魔导书引导显现"
+      ],
+      "summary": "贝尔因轻敌险些死于第七层，被莉莉用魔剑救下后重新敬畏地下城。他读了芙蕾雅安排的魔导书，显现速攻魔法火焰闪电；深夜反复施放导致精神枯竭，最终被返程的艾丝与里维莉雅发现，并在艾丝膝上醒来后羞惭逃走。",
+      "key_events": [
+        {
+          "event_id": "lili-saves-bell-with-magic-sword",
+          "summary": "因轻敌陷入绝境，被莉莉以魔剑救下。",
+          "sourceRef": "danmachi-main/vol-02/full.txt:4300-4490"
+        },
+        {
+          "event_id": "freya-plants-grimoire",
+          "summary": "从希儿处借到芙蕾雅安排的白色魔导书。",
+          "sourceRef": "danmachi-main/vol-02/full.txt:4568-5100"
+        },
+        {
+          "event_id": "bell-learns-firebolt",
+          "summary": "显现并首次实战使用火焰闪电。",
+          "sourceRef": "danmachi-main/vol-02/full.txt:5000-5440"
+        },
+        {
+          "event_id": "ais-gives-bell-lap-pillow",
+          "summary": "精神枯竭倒在第五层后获艾丝救援和膝枕。",
+          "sourceRef": "danmachi-main/vol-02/full.txt:5430-5534"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-02/full.txt:3447-5534"
+      ]
+    },
+    {
+      "period_id": "vol-02-ch04",
+      "volume": "vol-02",
+      "time": "第四章「神酒」",
+      "label": "拒绝参与陷害莉莉",
+      "name": {
+        "zh": "贝尔·克朗尼",
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル"
+      },
+      "aliases": [
+        "贝尔"
+      ],
+      "titles": [],
+      "gender": "男",
+      "species": "人类",
+      "nationality": "",
+      "occupation": "冒险者",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {
+        "magic": "已习得火焰闪电",
+        "concern": "察觉莉莉遭苏摩眷族成员逼迫"
+      },
+      "appearance": {
+        "overview": "白发红眼少年冒险者。",
+        "physical": {
+          "height": "",
+          "build": "精瘦结实",
+          "hair": {
+            "color": "白色"
+          },
+          "eyes": {
+            "color": "深红色"
+          }
+        },
+        "attire": {
+          "default": "",
+          "combat": "兔铠Mk-II与绿色护身具"
+        },
+        "voice_quality": {},
+        "distinctive": []
+      },
+      "personality": {
+        "summary": "正直且保护同伴，面对利益诱惑明确拒绝陷害莉莉。",
+        "core_traits": [
+          "正直",
+          "保护同伴",
+          "善良",
+          "警惕"
+        ],
+        "values": [
+          "队友忠诚",
+          "公平",
+          "莉莉的安全"
+        ],
+        "fears": [
+          "莉莉遭眷族成员伤害"
+        ],
+        "desires": [
+          "弄清苏摩眷族真相"
+        ],
+        "strengths": [
+          "不受金钱诱惑",
+          "敢于反抗恶意冒险者"
+        ],
+        "flaws": [
+          "仍被莉莉的伪装蒙骗"
+        ],
+        "inner_conflict": "知道莉莉隐瞒事情，却不愿逼迫她。",
+        "decision_pattern": {
+          "betrayal_offer": "立即拒绝并维护支援者尊严"
+        }
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {
+          "lili": "莉莉"
+        },
+        "register": {
+          "default": "礼貌，愤怒时坚定"
+        },
+        "catchphrases": [],
+        "quote_samples": []
+      },
+      "habits": {
+        "mannerisms": [
+          "愤怒时握紧拳头"
+        ],
+        "daily_routine": "准备药品后与莉莉探索地下城。",
+        "quirks": [],
+        "preferences": {}
+      },
+      "background": {
+        "birth": {
+          "place": "",
+          "family": [
+            "祖父"
+          ]
+        },
+        "upbringing": "",
+        "education": {},
+        "formative_events": [],
+        "pre_story": "已与莉莉建立固定支援契约。"
+      },
+      "abilities_owned": [
+        "一心憧憬",
+        "火焰闪电"
+      ],
+      "possessions_owned": [
+        "赫斯缇雅之刃",
+        "兔铠Mk-II",
+        "精神力回复灵药"
+      ],
+      "relationships": {
+        "liliruca-arde": "拒绝协助他人陷害她，并继续尊重她不愿说明的秘密",
+        "nazha-erisuis": "购买回复药和精神力灵药的熟人",
+        "unnamed-male-adventurer": "企图拉拢他抢劫莉莉的敌对冒险者"
+      },
+      "knowledge": [
+        "读过的白书是价值极高的魔导书",
+        "莉莉正被数名苏摩眷族成员索要金钱"
+      ],
+      "secrets": [],
+      "summary": "贝尔得知白色书籍是价值千万法利的魔导书，随后购买精神力灵药。在中央广场，他发现莉莉被同眷族成员逼迫，并坚决拒绝一名冒险者提出的合作陷害与抢劫计划。",
+      "key_events": [
+        {
+          "event_id": "bell-refuses-to-betray-lili",
+          "summary": "拒绝参与诱骗、孤立并抢劫莉莉的计划。",
+          "sourceRef": "danmachi-main/vol-02/full.txt:6120-6320"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-02/full.txt:5535-6320"
+      ]
+    },
+    {
+      "period_id": "vol-02-ch05",
+      "volume": "vol-02",
+      "time": "第五章「重新来过」",
+      "label": "识破背叛仍救回莉莉",
+      "name": {
+        "zh": "贝尔·克朗尼",
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル"
+      },
+      "aliases": [
+        "贝尔",
+        "贝尔大人"
+      ],
+      "titles": [],
+      "gender": "男",
+      "species": "人类",
+      "nationality": "",
+      "occupation": "冒险者",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {
+        "reached_floor": 10,
+        "magic": "火焰闪电",
+        "party": "与莉莉重新缔结真正的搭档关系"
+      },
+      "appearance": {
+        "overview": "白发红眼少年，经历大量战斗后轻铠与身体遍布伤痕。",
+        "physical": {
+          "height": "",
+          "build": "精瘦结实",
+          "hair": {
+            "color": "白色"
+          },
+          "eyes": {
+            "color": "深红色"
+          }
+        },
+        "attire": {
+          "default": "",
+          "combat": "兔铠Mk-II、绿色护身具"
+        },
+        "voice_quality": {},
+        "distinctive": []
+      },
+      "personality": {
+        "summary": "明知莉莉可疑仍因理解她的孤独而选择救助；接受她的罪行后给予重新开始的机会。",
+        "core_traits": [
+          "仁慈",
+          "执着",
+          "包容",
+          "勇敢",
+          "保护同伴"
+        ],
+        "values": [
+          "不舍弃孤独者",
+          "真诚关系",
+          "让人重新来过"
+        ],
+        "fears": [
+          "莉莉被魔物或眷族成员杀死"
+        ],
+        "desires": [
+          "帮助莉莉摆脱孤独",
+          "与莉莉重新组成队伍"
+        ],
+        "strengths": [
+          "火焰闪电速射",
+          "独自击杀大型半兽人",
+          "突破大量魔物营救同伴"
+        ],
+        "flaws": [
+          "明知陷阱仍把贵重武器交到可疑同伴触手可及之处",
+          "保护欲超过风险判断"
+        ],
+        "inner_conflict": "赫斯缇雅和埃伊娜的怀疑有理，但他无法放弃与过去自己同样孤独的莉莉。",
+        "decision_pattern": {
+          "betrayal": "先救人再处理欺骗与损失",
+          "loneliness": "把自己曾获救的温柔传递给对方"
+        }
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {
+          "lili": "莉莉",
+          "hestia": "神仙"
+        },
+        "register": {
+          "default": "真诚温和，战斗时坚定"
+        },
+        "catchphrases": [],
+        "quote_samples": []
+      },
+      "habits": {
+        "mannerisms": [
+          "寻找莉莉时不断呼喊名字",
+          "安慰时轻抚她的头"
+        ],
+        "daily_routine": "深入第十层战斗并与莉莉协作。",
+        "quirks": [],
+        "preferences": {}
+      },
+      "background": {
+        "birth": {
+          "place": "",
+          "family": [
+            "祖父"
+          ]
+        },
+        "upbringing": "曾孤身来到欧拉丽，后被赫斯缇雅接纳。",
+        "education": {},
+        "formative_events": [
+          "从赫斯缇雅处体验被孤独中拯救的温柔"
+        ],
+        "pre_story": "已察觉莉莉可能欺骗自己。"
+      },
+      "abilities_owned": [
+        "一心憧憬",
+        "火焰闪电",
+        "双持短兵器战斗"
+      ],
+      "possessions_owned": [
+        "赫斯缇雅之刃",
+        "短刀",
+        "双刃短剑",
+        "魔法灵药"
+      ],
+      "relationships": {
+        "liliruca-arde": "即使被盗窃背叛仍认定她值得拯救，并从头建立真正搭档关系",
+        "hestia": "理解他的固执并最终尊重决定的主神",
+        "eina-tulle": "担忧其安全并请艾丝支援的顾问",
+        "ais-wallenstein": "暗中清除第十层魔物、让他及时追上莉莉的救援者"
+      },
+      "knowledge": [
+        "莉莉是真正的帕鲁姆并拥有变身魔法",
+        "莉莉长期欺骗分红、道具价款并偷窃装备",
+        "莉莉最深的愿望是被需要并与人作伴"
+      ],
+      "secrets": [],
+      "summary": "贝尔同意前往第十层，击败半兽人后遭莉莉以诱饵和弓箭设计、被盗走赫斯缇雅之刃。艾丝暗中清除魔物后，他追上被同伙抛作诱饵的莉莉，饮用魔法灵药以火焰闪电和双刃救出她。面对莉莉的全部自白，他表示只因她是莉莉便不能舍弃；两日后双方在巴别塔前真正重新开始。",
+      "key_events": [
+        {
+          "event_id": "lili-betrays-bell-on-floor-ten",
+          "summary": "在第十层被莉莉夺走赫斯缇雅之刃并留给半兽人群。",
+          "sourceRef": "danmachi-main/vol-02/full.txt:7200-7660"
+        },
+        {
+          "event_id": "bell-rescues-lili-from-killer-ants",
+          "summary": "突破杀人蚁群并救出遭同伙抛弃的莉莉。",
+          "sourceRef": "danmachi-main/vol-02/full.txt:8200-8620"
+        },
+        {
+          "event_id": "bell-and-lili-start-over",
+          "summary": "接受莉莉全部自白，并在两日后重新邀请她同行。",
+          "sourceRef": "danmachi-main/vol-02/full.txt:8500-8750"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-02/full.txt:6879-8750"
+      ]
+    },
+    {
+      "period_id": "vol-02-special",
+      "volume": "vol-02",
+      "time": "特典「神之支援者」",
+      "label": "与赫斯缇雅首次共同进入地下城",
+      "name": {
+        "zh": "贝尔·克朗尼",
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル"
+      },
+      "aliases": [
+        "贝尔"
+      ],
+      "titles": [],
+      "gender": "男",
+      "species": "人类",
+      "nationality": "",
+      "occupation": "新人冒险者",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {
+        "experience": "成为冒险者约一周",
+        "supporter": "赫斯缇雅临时担任支援者"
+      },
+      "appearance": {
+        "overview": "白发新人冒险者。",
+        "physical": {
+          "height": "",
+          "build": "尚在成长",
+          "hair": {
+            "color": "白色"
+          },
+          "eyes": {
+            "color": "深红色"
+          }
+        },
+        "attire": {
+          "default": "",
+          "combat": "新人冒险装备"
+        },
+        "voice_quality": {},
+        "distinctive": []
+      },
+      "personality": {
+        "summary": "勤奋接受埃伊娜的严格指导，担心赫斯缇雅进入地下城，却无法拒绝主神的信任。",
+        "core_traits": [
+          "勤奋",
+          "谨慎",
+          "体贴",
+          "顺从"
+        ],
+        "values": [
+          "生存知识",
+          "赫斯缇雅安全"
+        ],
+        "fears": [
+          "主神在地下城遇险"
+        ],
+        "desires": [
+          "提高探索效率",
+          "独自坚持成长"
+        ],
+        "strengths": [
+          "认真学习魔物应对知识"
+        ],
+        "flaws": [
+          "资金不足",
+          "难以拒绝赫斯缇雅"
+        ],
+        "inner_conflict": "需要支援者却无力支付报酬，也不愿让主神承担风险。",
+        "decision_pattern": {
+          "hestia_request": "先表达担忧，最终回应信任并同意同行"
+        }
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {
+          "hestia": "神大人",
+          "eina": "埃伊娜"
+        },
+        "register": {
+          "default": "礼貌"
+        },
+        "catchphrases": [],
+        "quote_samples": []
+      },
+      "habits": {
+        "mannerisms": [
+          "学习过度时揉太阳穴"
+        ],
+        "daily_routine": "接受公会资料室培训后独自探索地下城。",
+        "quirks": [],
+        "preferences": {}
+      },
+      "background": {
+        "birth": {
+          "place": "",
+          "family": [
+            "祖父"
+          ]
+        },
+        "upbringing": "",
+        "education": {
+          "teacher": "埃伊娜·祖尔",
+          "subject": "地下城与魔物应对"
+        },
+        "formative_events": [],
+        "pre_story": "赫斯缇雅眷族刚起步，缺乏雇用支援者的资金。"
+      },
+      "abilities_owned": [],
+      "possessions_owned": [],
+      "relationships": {
+        "hestia": "主神兼临时支援者；承诺危险时保护她",
+        "eina-tulle": "进行严格地下城知识指导并建议雇用支援者的顾问"
+      },
+      "knowledge": [
+        "紫飞蛾战斗时需持续注意站位",
+        "普通支援者通常需要订金和探索收入分成"
+      ],
+      "secrets": [],
+      "summary": "新人时期的贝尔在埃伊娜指导下学习地下城知识，却因资金不足无法雇用支援者。赫斯缇雅主动承担该角色，贝尔虽担心神明进入地下城，最终仍与她来到第一层。",
+      "key_events": [
+        {
+          "event_id": "hestia-becomes-bells-supporter",
+          "summary": "接受赫斯缇雅担任临时支援者并带她进入第一层。",
+          "sourceRef": "danmachi-main/vol-02/full.txt:8879-9010"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-02/full.txt:8879-9010"
+      ]
+    },
+    {
+      "period_id": "vol-03-prologue",
+      "volume": "vol-03",
+      "time": "序章",
+      "label": "被观察的成长者",
+      "name": {
+        "zh": "贝尔·克朗尼",
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル"
+      },
+      "aliases": [
+        "那孩子",
+        "少年"
+      ],
+      "titles": [],
+      "gender": "男",
+      "species": "人类",
+      "nationality": "",
+      "occupation": "冒险者",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {
+        "growth": "获得魔法后显著变强",
+        "psychological": "可能仍受弥诺陶洛斯惨败经历束缚"
+      },
+      "appearance": {
+        "overview": "本章未直接登场。",
+        "physical": {
+          "height": "",
+          "build": "",
+          "hair": {},
+          "eyes": {}
+        },
+        "attire": {
+          "default": "",
+          "combat": ""
+        },
+        "voice_quality": {},
+        "distinctive": []
+      },
+      "personality": {
+        "summary": "拥有巨大潜力，但弥诺陶洛斯败北仍可能成为内心荆棘。",
+        "core_traits": [],
+        "values": [],
+        "fears": [
+          "弥诺陶洛斯造成的潜在心灵创伤"
+        ],
+        "desires": [],
+        "strengths": [
+          "高速成长",
+          "潜力巨大"
+        ],
+        "flaws": [],
+        "inner_conflict": "过去败给弥诺陶洛斯的因缘可能阻碍成长。",
+        "decision_pattern": {}
+      },
+      "voice": {
+        "self_reference": "",
+        "address_pattern": {},
+        "register": {},
+        "catchphrases": [],
+        "quote_samples": []
+      },
+      "habits": {
+        "mannerisms": [],
+        "daily_routine": "",
+        "quirks": [],
+        "preferences": {}
+      },
+      "background": {
+        "birth": {
+          "place": "",
+          "family": []
+        },
+        "upbringing": "",
+        "education": {},
+        "formative_events": [
+          "曾被弥诺陶洛斯彻底击败"
+        ],
+        "pre_story": "获得魔法后显著成长。"
+      },
+      "abilities_owned": [],
+      "possessions_owned": [],
+      "relationships": {
+        "freya": {
+          "type": "被关注对象",
+          "summary": "芙蕾雅对其灵魂光辉怀有占有欲。"
+        },
+        "ottar": {
+          "type": "潜在试炼关系",
+          "summary": "奥它获准安排冒险促使他斩断因缘。"
+        }
+      },
+      "knowledge": [],
+      "secrets": [
+        "本人可能尚未觉察败北经历对自己的束缚"
+      ],
+      "summary": "芙蕾雅与奥它判断贝尔仍受弥诺陶洛斯败北束缚。",
+      "key_events": [
+        {
+          "event_id": "freya-authorizes-ottar-to-test-bell",
+          "summary": "成为奥它策划之冒险试炼的对象。",
+          "sourceRef": "danmachi-main/vol-03/full.txt:208"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-03/full.txt:12",
+        "danmachi-main/vol-03/full.txt:56",
+        "danmachi-main/vol-03/full.txt:208"
+      ]
+    },
+    {
+      "period_id": "vol-03-ch-01",
+      "volume": "vol-03",
+      "time": "第一章",
+      "label": "与莉莉重新出发并接受艾丝指导",
+      "name": {
+        "zh": "贝尔·克朗尼",
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル"
+      },
+      "aliases": [
+        "贝尔大人"
+      ],
+      "titles": [],
+      "gender": "男",
+      "species": "人类",
+      "nationality": "",
+      "occupation": "冒险者",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {
+        "location": "欧拉丽北街、公会本部前院",
+        "condition": "健康"
+      },
+      "appearance": {
+        "overview": "白发红眼的少年冒险者。",
+        "physical": {
+          "height": "与艾丝相近",
+          "build": "少年体型",
+          "hair": {
+            "color": "白色"
+          },
+          "eyes": {
+            "color": "深红色"
+          }
+        },
+        "attire": {
+          "default": "",
+          "combat": "绿色护具"
+        },
+        "voice_quality": {
+          "tone": "诚恳、面对艾丝时结巴"
+        },
+        "distinctive": [
+          "白发",
+          "深红色眼睛"
+        ]
+      },
+      "personality": {
+        "summary": "温柔且不愿惩罚莉莉，对艾丝极度憧憬并渴望变强。",
+        "core_traits": [
+          "善良",
+          "宽容",
+          "诚实",
+          "害羞",
+          "上进"
+        ],
+        "values": [
+          "同伴安全",
+          "报恩",
+          "成长"
+        ],
+        "fears": [
+          "莉莉再遭苏摩眷族伤害",
+          "在艾丝面前失态"
+        ],
+        "desires": [
+          "帮助莉莉脱离苏摩眷族",
+          "追上艾丝",
+          "变得更强"
+        ],
+        "strengths": [
+          "真诚",
+          "宽恕",
+          "学习欲"
+        ],
+        "flaws": [
+          "过度单纯",
+          "不善责备他人",
+          "面对艾丝容易慌乱"
+        ],
+        "inner_conflict": "担心眷族纠纷，却无法放弃帮助莉莉；认为自己尚不配接近艾丝，却渴望与她相处。",
+        "decision_pattern": {
+          "style": "优先保护他人，最终服从真诚愿望接受机会"
+        }
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {
+          "liliruca-arde": "莉莉",
+          "hestia": "神仙",
+          "ais-wallenstein": "华伦斯坦小姐",
+          "eina-tulle": "埃伊娜小姐"
+        },
+        "register": {
+          "default": "礼貌、温和"
+        },
+        "catchphrases": [],
+        "quote_samples": [
+          "您救了我好几次……真的，很谢谢您！"
+        ]
+      },
+      "habits": {
+        "mannerisms": [
+          "紧张时搔头",
+          "面对艾丝时脸红并逃跑"
+        ],
+        "daily_routine": "探索地下城并向公会顾问报告",
+        "quirks": [
+          "无法察觉赫斯缇雅与莉莉的争风吃醋"
+        ],
+        "preferences": {
+          "admiration": "艾丝"
+        }
+      },
+      "background": {
+        "birth": {
+          "place": "",
+          "family": []
+        },
+        "upbringing": "",
+        "education": {
+          "combat": "自学"
+        },
+        "formative_events": [
+          "被艾丝多次救下",
+          "救下并原谅莉莉"
+        ],
+        "pre_story": "已与莉莉重新组成小队并抵达地下城第10层。"
+      },
+      "abilities_owned": [],
+      "possessions_owned": [
+        "艾丝归还的绿色护具"
+      ],
+      "relationships": {
+        "liliruca-arde": {
+          "type": "同伴与受保护者",
+          "summary": "原谅莉莉，邀请她加入赫斯缇雅眷族。"
+        },
+        "hestia": {
+          "type": "主神与家人",
+          "summary": "与赫斯缇雅共同接纳莉莉。"
+        },
+        "ais-wallenstein": {
+          "type": "憧憬对象与新任老师",
+          "summary": "终于正式道谢，并接受她的战斗训练。"
+        },
+        "eina-tulle": {
+          "type": "公会顾问",
+          "summary": "信赖并依赖埃伊娜处理苏摩眷族问题。"
+        }
+      },
+      "knowledge": [
+        "莉莉仍属苏摩眷族，不能贸然改宗",
+        "艾丝曾在第10层救下自己并拾回护具"
+      ],
+      "secrets": [],
+      "summary": "贝尔宽恕莉莉并接受艾丝的战斗指导。",
+      "key_events": [
+        {
+          "event_id": "hestia-accepts-lili-as-bell-supporter",
+          "summary": "与赫斯缇雅共同接纳莉莉。",
+          "sourceRef": "danmachi-main/vol-03/full.txt:544"
+        },
+        {
+          "event_id": "ais-offers-to-train-bell",
+          "summary": "接受艾丝指导。",
+          "sourceRef": "danmachi-main/vol-03/full.txt:1064"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-03/full.txt:544",
+        "danmachi-main/vol-03/full.txt:614",
+        "danmachi-main/vol-03/full.txt:916",
+        "danmachi-main/vol-03/full.txt:1064"
+      ]
+    },
+    {
+      "period_id": "vol-03-ch-02",
+      "volume": "vol-03",
+      "time": "第二章",
+      "label": "接受严厉训练并恢复与莉莉组队",
+      "name": {
+        "zh": "贝尔·克朗尼",
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル"
+      },
+      "aliases": [
+        "贝尔大人",
+        "大白兔"
+      ],
+      "titles": [],
+      "gender": "男",
+      "species": "人类",
+      "nationality": "",
+      "occupation": "冒险者",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {
+        "location": "西北市墙、地下城第10层",
+        "condition": "训练造成遍体鳞伤但继续探索"
+      },
+      "appearance": {
+        "overview": "白发红眼少年，训练后常浑身是伤。",
+        "physical": {
+          "height": "少年体型",
+          "build": "轻捷",
+          "hair": {
+            "color": "白色"
+          },
+          "eyes": {
+            "color": "深红色"
+          }
+        },
+        "attire": {
+          "default": "轻铠",
+          "combat": "双匕首与绿色护具"
+        },
+        "voice_quality": {
+          "tone": "真诚、坚定"
+        },
+        "distinctive": [
+          "白发",
+          "深红眼"
+        ]
+      },
+      "personality": {
+        "summary": "即使被艾丝反复击倒仍坚持站起，并将教导迅速运用于地下城实战；对莉莉无条件表达接纳。",
+        "core_traits": [
+          "坚韧",
+          "善良",
+          "好学",
+          "信任同伴"
+        ],
+        "values": [
+          "成长",
+          "同伴协作",
+          "不因过去否定莉莉"
+        ],
+        "fears": [
+          "隐藏的弥诺陶洛斯创伤",
+          "自己与艾丝差距过大"
+        ],
+        "desires": [
+          "追上艾丝",
+          "掌握防御和战斗技术",
+          "与莉莉稳定组队"
+        ],
+        "strengths": [
+          "吸收实战经验快",
+          "忍耐伤痛",
+          "魔法成长性高"
+        ],
+        "flaws": [
+          "防御薄弱",
+          "容易冲动",
+          "对魔法定位缺乏自信"
+        ],
+        "inner_conflict": "训练暴露巨大差距并动摇自信，但他仍选择站起并继续学习。",
+        "decision_pattern": {
+          "style": "在同伴和老师推动下直面不足并立即实践"
+        }
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {
+          "ais-wallenstein": "艾丝小姐",
+          "liliruca-arde": "莉莉"
+        },
+        "register": {
+          "default": "温和、认真"
+        },
+        "catchphrases": [],
+        "quote_samples": [
+          "别担心。我很喜欢莉莉的。所以我不可能瞧不起你，也无法讨厌你。"
+        ]
+      },
+      "habits": {
+        "mannerisms": [
+          "被击倒后咬紧嘴唇重新站起",
+          "把训练动作在实战中复现"
+        ],
+        "daily_routine": "黎明前训练，白天与莉莉探索地下城",
+        "quirks": [
+          "面对莉莉变身后的外貌会直率称赞可爱"
+        ],
+        "preferences": {
+          "weapon": "匕首",
+          "magic": "火焰闪电"
+        }
+      },
+      "background": {
+        "birth": {
+          "place": "",
+          "family": []
+        },
+        "upbringing": "",
+        "education": {
+          "combat": "从自学转为接受艾丝实战指导"
+        },
+        "formative_events": [
+          "被艾丝连续击倒仍坚持训练"
+        ],
+        "pre_story": "已抵达地下城第10层。"
+      },
+      "abilities_owned": [
+        "火焰闪电"
+      ],
+      "possessions_owned": [
+        "女神之刃",
+        "双刃短剑",
+        "短刀",
+        "绿色护具"
+      ],
+      "relationships": {
+        "ais-wallenstein": {
+          "type": "老师与憧憬对象",
+          "summary": "接受其严厉模拟战并学习技术。"
+        },
+        "liliruca-arde": {
+          "type": "稳定同伴",
+          "summary": "明确表示喜欢并接纳莉莉，与她恢复默契协作。"
+        }
+      },
+      "knowledge": [
+        "能力值与技术是两回事",
+        "必须保持开阔视野并消除死角",
+        "火焰闪电的优势是速攻、连发与成长性"
+      ],
+      "secrets": [
+        "不愿向莉莉说明浑身伤势来自艾丝训练"
+      ],
+      "summary": "贝尔在艾丝的刀鞘模拟战中学习防御、读招和忍痛，并在第10层迅速活用；他与莉莉以伪装避开苏摩眷族，恢复队伍协作，也明确表达不会因她的谎言而轻视她。",
+      "key_events": [
+        {
+          "event_id": "ais-begins-combat-training-bell",
+          "summary": "承受艾丝严厉训练并坚持站起。",
+          "sourceRef": "danmachi-main/vol-03/full.txt:1434"
+        },
+        {
+          "event_id": "bell-lili-resume-dungeon-teamwork",
+          "summary": "与莉莉在第10层恢复默契小队行动。",
+          "sourceRef": "danmachi-main/vol-03/full.txt:1892"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-03/full.txt:1120",
+        "danmachi-main/vol-03/full.txt:1406",
+        "danmachi-main/vol-03/full.txt:1434",
+        "danmachi-main/vol-03/full.txt:1892",
+        "danmachi-main/vol-03/full.txt:2228"
+      ]
+    },
+    {
+      "period_id": "vol-03-ch-03-to-epilogue",
+      "volume": "vol-03",
+      "time": "第三章至终章",
+      "label": "从实战测试到完成首次伟业",
+      "name": {
+        "zh": "贝尔·克朗尼",
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル"
+      },
+      "aliases": [
+        "贝尔大人",
+        "白发少年"
+      ],
+      "titles": [
+        "超级新人"
+      ],
+      "gender": "男",
+      "species": "人类",
+      "nationality": "",
+      "occupation": "冒险者",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {
+        "location": "欧拉丽与地下城第9层",
+        "condition": "击破弥诺陶洛斯后精神枯竭并接受治疗",
+        "level": "LV.1，已具备升级资格",
+        "stats": {
+          "strength": "S982",
+          "endurance": "S900",
+          "dexterity": "S988",
+          "agility": "SS1049",
+          "magic": "B751"
+        }
+      },
+      "appearance": {
+        "overview": "白发红眼的十四岁少年，决战中铠甲与衬衣破损。",
+        "physical": {
+          "height": "165cm",
+          "build": "轻捷",
+          "hair": {
+            "color": "白色"
+          },
+          "eyes": {
+            "color": "深红色"
+          }
+        },
+        "attire": {
+          "default": "冒险者轻装",
+          "combat": "女神之刃与短刀"
+        },
+        "voice_quality": {
+          "tone": "平时温和，决战时坚定高亢"
+        },
+        "distinctive": [
+          "白发",
+          "深红眼",
+          "突破界限的敏捷"
+        ]
+      },
+      "personality": {
+        "summary": "从畏惧弥诺陶洛斯、依赖救援的少年，成长为主动承担风险并渴望成为英雄的冒险者。",
+        "core_traits": [
+          "善良",
+          "坚韧",
+          "热血",
+          "好学",
+          "保护同伴"
+        ],
+        "values": [
+          "不再让艾丝救自己",
+          "保护莉莉",
+          "成为英雄"
+        ],
+        "fears": [
+          "弥诺陶洛斯造成的心灵创伤"
+        ],
+        "desires": [
+          "追上艾丝",
+          "成为能保护所爱之人的英雄"
+        ],
+        "strengths": [
+          "异常成长速度",
+          "极高敏捷",
+          "将教导迅速转化为实战"
+        ],
+        "flaws": [
+          "容易因实力差距自卑",
+          "初期面对创伤会僵住"
+        ],
+        "inner_conflict": "逃离强敌即可活命，却无法容许莉莉受害或再次在艾丝面前接受救援。",
+        "decision_pattern": {
+          "style": "在保护同伴与维护憧憬的关键时刻，选择正面冒险"
+        }
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {
+          "ais-wallenstein": "艾丝小姐",
+          "liliruca-arde": "莉莉",
+          "hestia": "神仙"
+        },
+        "register": {
+          "default": "礼貌温和，觉悟后直接坚定"
+        },
+        "catchphrases": [],
+        "quote_samples": [
+          "我不能，再让艾丝·华伦斯坦救我了！",
+          "我想成为英雄。"
+        ]
+      },
+      "habits": {
+        "mannerisms": [
+          "紧张时脸红",
+          "受挫后仍勉强站起",
+          "决战时持续向前"
+        ],
+        "daily_routine": "训练结束后与莉莉探索地下城",
+        "quirks": [
+          "对艾丝的非少女兴趣选择装作没看见"
+        ],
+        "preferences": {
+          "admiration": "艾丝",
+          "stories": "英雄谭"
+        }
+      },
+      "background": {
+        "birth": {
+          "place": "",
+          "family": [
+            "bell-grandfather"
+          ]
+        },
+        "upbringing": "由祖父扶养并听英雄故事长大。",
+        "education": {
+          "combat": "艾丝为期一周的模拟战指导"
+        },
+        "formative_events": [
+          "夜袭中击退同级冒险者",
+          "结束艾丝训练",
+          "独力击破武装弥诺陶洛斯"
+        ],
+        "pre_story": "曾被弥诺陶洛斯追杀并由艾丝救下。"
+      },
+      "abilities_owned": [
+        "火焰闪电",
+        "一心憧憬"
+      ],
+      "possessions_owned": [
+        "赫斯缇雅之刃",
+        "短刀",
+        "史怀哲短剑"
+      ],
+      "relationships": {
+        "ais-wallenstein": {
+          "type": "憧憬对象与老师",
+          "summary": "拒绝再次受她救援，并用其教导完成伟业。"
+        },
+        "liliruca-arde": {
+          "type": "同伴与保护对象",
+          "summary": "为避免怪兽追上莉莉而留下战斗。"
+        },
+        "hestia": {
+          "type": "主神与家人",
+          "summary": "战后由赫斯缇雅更新能力并祝贺。"
+        }
+      },
+      "knowledge": [
+        "升级需要完成丰功伟业",
+        "能力与技术是两回事",
+        "火焰闪电可通过刺入体内实现致命爆发"
+      ],
+      "secrets": [],
+      "summary": "贝尔在夜袭中验证训练成果，结束一周指导后得知升级必须完成伟业；面对武装弥诺陶洛斯，他克服创伤、拒绝艾丝救援，以欺敌、夺剑和体内火焰闪电独力获胜，完成冒险者物语第一页。",
+      "key_events": [
+        {
+          "event_id": "freya-night-ambush-tests-bell",
+          "summary": "用训练技巧击退同级袭击者。",
+          "sourceRef": "danmachi-main/vol-03/full.txt:3266"
+        },
+        {
+          "event_id": "ais-concludes-bell-training",
+          "summary": "首次有效反击艾丝并结束训练。",
+          "sourceRef": "danmachi-main/vol-03/full.txt:4110"
+        },
+        {
+          "event_id": "bell-defeats-armed-minotaur",
+          "summary": "完成第一次真正冒险。",
+          "sourceRef": "danmachi-main/vol-03/full.txt:6822"
+        },
+        {
+          "event_id": "bell-completes-first-page",
+          "summary": "战后能力与英雄道路被正式记录。",
+          "sourceRef": "danmachi-main/vol-03/full.txt:7088"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-03/full.txt:3266",
+        "danmachi-main/vol-03/full.txt:4110",
+        "danmachi-main/vol-03/full.txt:4866",
+        "danmachi-main/vol-03/full.txt:5896",
+        "danmachi-main/vol-03/full.txt:6822",
+        "danmachi-main/vol-03/full.txt:7088"
+      ]
+    },
+    {
+      "period_id": "vol-04-prologue-guild-lv2-announcement",
+      "volume": "danmachi-main/vol-04",
+      "time": "After the Minotaur battle; morning at the Guild before Denatus",
+      "label": "Bell reports his level-up at the Guild",
+      "name": {
+        "zh": "贝尔・克朗尼",
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル"
+      },
+      "aliases": [
+        "贝尔",
+        "白发少年",
+        "冒险者小弟"
+      ],
+      "titles": [
+        "Lv.2冒险者"
+      ],
+      "gender": "male",
+      "species": "human",
+      "nationality": "",
+      "occupation": "adventurer",
+      "affiliation": "Hestia Familia",
+      "status": {
+        "level": "Lv.2",
+        "recent_change": "Leveled up three days before the prologue, roughly one and a half months after becoming an adventurer."
+      },
+      "appearance": {
+        "overview": "A white-haired boy whose arrival is immediately recognizable in the crowded Guild hall.",
+        "physical": {
+          "height": "",
+          "build": "youthful",
+          "hair": {
+            "color": "white"
+          },
+          "eyes": {}
+        },
+        "attire": {
+          "default": "",
+          "combat": ""
+        },
+        "voice_quality": {},
+        "distinctive": [
+          "white-haired head visible in the crowd",
+          "rabbit-like happy movements"
+        ]
+      },
+      "personality": {
+        "summary": "Open, earnest, and unable to hide good news; he approaches Eina with obvious joy after leveling up.",
+        "core_traits": [
+          "earnest",
+          "excitable",
+          "transparent",
+          "polite"
+        ],
+        "values": [
+          "honest reporting to his Guild advisor",
+          "hard work in dungeon exploration"
+        ],
+        "fears": [],
+        "desires": [
+          "share his promotion with Eina"
+        ],
+        "strengths": [
+          "rapid growth",
+          "straightforward communication"
+        ],
+        "flaws": [
+          "does not notice Eina and Misha's shock immediately"
+        ],
+        "inner_conflict": "",
+        "decision_pattern": {
+          "guild_interaction": "Reports major status changes directly and cheerfully to Eina."
+        }
+      },
+      "voice": {
+        "self_reference": "",
+        "address_pattern": {
+          "Eina": "埃伊娜小姐"
+        },
+        "register": {
+          "tone": "polite, excited"
+        },
+        "catchphrases": [],
+        "quote_samples": [
+          "我终于……升上Lv.2了！"
+        ]
+      },
+      "habits": {
+        "mannerisms": [
+          "blushes and smiles when Eina notices him",
+          "touches his smiling cheek when asked if something good happened"
+        ],
+        "daily_routine": "Visits the Guild to consult and report progress.",
+        "quirks": [
+          "very poor at hiding emotions"
+        ],
+        "preferences": {}
+      },
+      "background": {
+        "birth": {
+          "place": "",
+          "family": []
+        },
+        "upbringing": "",
+        "education": {},
+        "formative_events": [
+          "Nearly killed by a Minotaur in the upper floors about a month earlier",
+          "Defeated a Minotaur and reached Lv.2 three days before this scene"
+        ],
+        "pre_story": "Became an adventurer roughly one and a half months before the prologue."
+      },
+      "abilities_owned": [
+        "lv2-status"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "eina-tulle": "Guild advisor who worries about him and reacts strongly to his unprecedented speed of growth.",
+        "misha-flott": "Guild receptionist acquainted with him through Eina's stories."
+      },
+      "knowledge": [
+        "Aware that he reached Lv.2 three days earlier"
+      ],
+      "secrets": [],
+      "summary": "Bell arrives at the crowded Guild in high spirits and tells Eina that he reached Lv.2 only about one and a half months after registering as an adventurer, shocking both Eina and Misha.",
+      "key_events": [
+        {
+          "event_id": "bell-reports-lv2-at-guild",
+          "summary": "Bell announces his promotion to Lv.2 at the Guild counter.",
+          "sourceRef": "danmachi-main/vol-04/full.txt:112"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-04/full.txt:70",
+        "danmachi-main/vol-04/full.txt:80",
+        "danmachi-main/vol-04/full.txt:112",
+        "danmachi-main/vol-04/full.txt:126"
+      ]
+    },
+    {
+      "period_id": "vol-04-ch-001-development-ability-and-title",
+      "volume": "danmachi-main/vol-04",
+      "time": "Same day, before and after Denatus",
+      "label": "Bell chooses Luck, gains Argo Vesta precursor skill, and receives a title",
+      "name": {
+        "zh": "贝尔・克朗尼",
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル"
+      },
+      "aliases": [
+        "贝尔",
+        "小新秀"
+      ],
+      "titles": [
+        "Little Rookie",
+        "小新秀",
+        "Lv.2冒险者"
+      ],
+      "gender": "male",
+      "species": "human",
+      "nationality": "",
+      "occupation": "adventurer",
+      "affiliation": "Hestia Familia",
+      "status": {
+        "level": "Lv.2",
+        "basic_abilities": "Reset to I0 after level-up",
+        "development_ability": "Luck I",
+        "magic": "Firebolt",
+        "skill": "Argonaut / Heroic Desire"
+      },
+      "appearance": {
+        "overview": "Still physically feels unchanged immediately after level-up, though Hestia explains his vessel has advanced.",
+        "physical": {
+          "height": "",
+          "build": "youthful",
+          "hair": {
+            "color": "white"
+          },
+          "eyes": {
+            "color": "red"
+          }
+        },
+        "attire": {
+          "default": "spare shirt after his previous shirt was torn in the Minotaur fight",
+          "combat": ""
+        },
+        "voice_quality": {},
+        "distinctive": [
+          "white hair and red eyes noted by the gods during naming"
+        ]
+      },
+      "personality": {
+        "summary": "Bell is dutiful toward Eina's warnings, earnest in choosing his development ability, thrilled by gaining a skill, and embarrassed that the skill name exposes his hero worship.",
+        "core_traits": [
+          "earnest",
+          "humble",
+          "hero-admiring",
+          "easily embarrassed",
+          "goal-oriented"
+        ],
+        "values": [
+          "survival",
+          "choosing power for a higher goal",
+          "heroic ideals"
+        ],
+        "fears": [
+          "his childish dream of becoming a hero being exposed"
+        ],
+        "desires": [
+          "gain a cool title",
+          "become stronger",
+          "choose the power he currently needs"
+        ],
+        "strengths": [
+          "accepts advice",
+          "takes responsibility for his choice",
+          "unusual potential"
+        ],
+        "flaws": [
+          "reckless enough to fight a Minotaur alone",
+          "sensitive to embarrassment"
+        ],
+        "inner_conflict": "He wants practical strength like Hunter, but chooses Luck because it may support his distant higher goal.",
+        "decision_pattern": {
+          "ability_choice": "Listens to Eina and Hestia, then chooses by trusting his own intuition."
+        }
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {
+          "Eina": "埃伊娜小姐",
+          "Hestia": "神仙",
+          "Ais": "艾丝小姐"
+        },
+        "register": {
+          "tone": "polite, emotional, often excited"
+        },
+        "catchphrases": [],
+        "quote_samples": [
+          "我要选『幸运』能力。",
+          "也就是说，我也可以得到像艾丝小姐那样的绰号啰！"
+        ]
+      },
+      "habits": {
+        "mannerisms": [
+          "sits formally when Eina advises him",
+          "crouches in embarrassment after seeing his skill name",
+          "sparkles with excitement over titles"
+        ],
+        "daily_routine": "Returns from Guild consultation to the church hidden room for Hestia's status update.",
+        "quirks": [
+          "deeply admires heroic tales",
+          "thinks god-given aliases sound cool"
+        ],
+        "preferences": {
+          "development_ability": "Luck over Hunter and Abnormal Resistance"
+        }
+      },
+      "background": {
+        "birth": {
+          "place": "",
+          "family": [
+            "grandfather (remembered through heroic tales)"
+          ]
+        },
+        "upbringing": "Grew up hearing and reading heroic stories, including Argo Hero.",
+        "education": {},
+        "formative_events": [
+          "Chose Luck as his first development ability",
+          "Gained the skill Heroic Desire / Argonaut",
+          "Received the alias Little Rookie at Denatus"
+        ],
+        "pre_story": "His longing for heroes and for Ais is reflected in his skills and behavior."
+      },
+      "abilities_owned": [
+        "luck-i",
+        "firebolt",
+        "argonaut",
+        "liaris-freese"
+      ],
+      "possessions_owned": [
+        "status record sheet"
+      ],
+      "relationships": {
+        "eina-tulle": "Warns him not to die and helps him frame his ability choice around future goals.",
+        "hestia": "Updates his status, keeps Liaris Freese secret, and celebrates/teases his new skill.",
+        "freya": "Unbeknownst to Bell, she protects his secret at Denatus.",
+        "ais-wallenstein": "Bell compares aliases to Ais's Sword Princess title and still sees her as a model."
+      },
+      "knowledge": [
+        "Learns Luck I is now on his status",
+        "Learns he has gained Heroic Desire / Argonaut",
+        "Learns his official alias becomes Little Rookie after Denatus"
+      ],
+      "secrets": [
+        "Bell still does not know about Liaris Freese because Hestia keeps it hidden from him."
+      ],
+      "summary": "Bell recounts defeating the 9th-floor Minotaur, accepts Eina's survival warning, chooses Luck as his Lv.2 development ability, gains the new skill Heroic Desire / Argonaut, and later receives the official title Little Rookie from Denatus.",
+      "key_events": [
+        {
+          "event_id": "bell-consults-eina-on-development-ability",
+          "summary": "Bell asks Eina which development ability to choose and is advised to consider his ultimate goal.",
+          "sourceRef": "danmachi-main/vol-04/full.txt:450"
+        },
+        {
+          "event_id": "bell-status-updated-to-lv2",
+          "summary": "Hestia completes Bell's level-up; Bell chooses Luck and discovers his new skill Heroic Desire / Argonaut.",
+          "sourceRef": "danmachi-main/vol-04/full.txt:596"
+        },
+        {
+          "event_id": "gods-conference-names-bell",
+          "summary": "Denatus settles Bell's alias as Little Rookie.",
+          "sourceRef": "danmachi-main/vol-04/full.txt:1584"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-04/full.txt:246",
+        "danmachi-main/vol-04/full.txt:350",
+        "danmachi-main/vol-04/full.txt:488",
+        "danmachi-main/vol-04/full.txt:596",
+        "danmachi-main/vol-04/full.txt:1584"
+      ]
+    },
+    {
+      "abilities_owned": [
+        "lv2-status",
+        "luck-i",
+        "firebolt",
+        "argonaut",
+        "liaris-freese"
+      ],
+      "affiliation": "Hestia Familia",
+      "aliases": [
+        "贝尔",
+        "小新秀",
+        "世界最快白兔",
+        "白发少年"
+      ],
+      "appearance": {
+        "attire": {
+          "combat": "damaged equipment from the Minotaur battle before Welf remakes his armor",
+          "default": "street clothes and later replacement armor shopping attire"
+        },
+        "distinctive": [
+          "draws stares in the Hostess of Fertility",
+          "still carries the broken Minotaur horn as a memento"
+        ],
+        "overview": "A nervous white-haired boy trying to keep a low profile despite becoming famous overnight.",
+        "physical": {
+          "build": "youthful",
+          "eyes": {
+            "color": "red"
+          },
+          "hair": {
+            "color": "white"
+          },
+          "height": ""
+        },
+        "voice_quality": {}
+      },
+      "background": {
+        "birth": {
+          "family": [
+            "grandfather"
+          ],
+          "place": ""
+        },
+        "education": {},
+        "formative_events": [
+          "Celebrated at the Hostess of Fertility for becoming Lv.2",
+          "Warned by Ryu that two-person party progression into the middle floors is unsafe",
+          "Formed a direct smith contract with Welf Crozzo"
+        ],
+        "pre_story": "His public reputation changes abruptly after the Minotaur fight.",
+        "upbringing": "Still shaped by heroic ideals and modest rural manners."
+      },
+      "evidence_level": "S",
+      "gender": "male",
+      "habits": {
+        "daily_routine": "Returns from rest to equipment preparation and dungeon planning.",
+        "mannerisms": [
+          "bows and apologizes repeatedly when late",
+          "shrinks under public attention",
+          "touches or studies the Minotaur horn when thinking"
+        ],
+        "preferences": {
+          "equipment": "Keeps choosing Welf's work because it fits him well."
+        },
+        "quirks": [
+          "is uncomfortable being praised as a record holder",
+          "naturally treats smith contracts as relationships of trust rather than prestige"
+        ]
+      },
+      "key_events": [
+        {
+          "event_id": "gods-pursue-bell-after-denatus",
+          "sourceRef": "danmachi-main/vol-04/full.txt:1680",
+          "summary": "Gods pursue Bell after his name spreads from Denatus."
+        },
+        {
+          "event_id": "bell-lv2-celebration-at-hostess",
+          "sourceRef": "danmachi-main/vol-04/full.txt:1780",
+          "summary": "Bell's friends celebrate his Lv.2 promotion at the Hostess of Fertility."
+        },
+        {
+          "event_id": "ryu-advises-bell-to-find-third-party-member",
+          "sourceRef": "danmachi-main/vol-04/full.txt:2006",
+          "summary": "Ryu advises Bell and Lili to add another party member before entering the middle floors."
+        },
+        {
+          "event_id": "bell-and-welf-form-smith-contract",
+          "sourceRef": "danmachi-main/vol-04/full.txt:2406",
+          "summary": "Bell chooses Welf's craft, forms a personal smith contract, and hears Welf's request to join the party."
+        }
+      ],
+      "knowledge": [
+        "Learns that fame brings godly recruitment pressure and adventurer jealousy",
+        "Learns from Ryu why three-person parties are the standard for safer dungeon progression",
+        "Learns Welf is the smith behind his previous armor"
+      ],
+      "label": "Bell is celebrated, warned about middle floors, and contracts Welf",
+      "name": {
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル",
+        "zh": "贝尔・克朗尼"
+      },
+      "nationality": "",
+      "occupation": "adventurer",
+      "period_id": "vol-04-ch-002-celebration-and-welf-contract",
+      "personality": {
+        "core_traits": [
+          "humble",
+          "easily embarrassed",
+          "grateful",
+          "protective",
+          "open to advice"
+        ],
+        "decision_pattern": {
+          "party_growth": "Responds to veteran advice by accepting Welf when the request aligns with the party's need for a third member."
+        },
+        "desires": [
+          "resume dungeon exploration",
+          "replace broken armor",
+          "find a trustworthy third party member"
+        ],
+        "fears": [
+          "being exposed to predatory gods and public scrutiny",
+          "overreaching into the middle floors without enough allies"
+        ],
+        "flaws": [
+          "gets flustered under attention",
+          "often makes party decisions before consulting Lili"
+        ],
+        "inner_conflict": "He wants to advance quickly after becoming Lv.2, but Ryu's warning and Lili's concern make him confront the risk of entering the middle floors too lightly.",
+        "strengths": [
+          "accepts veteran guidance",
+          "recognizes Welf's craftsmanship independent of fame"
+        ],
+        "summary": "Bell is shy about praise and sudden fame, grateful for friends' celebration, and practical enough to seek new equipment and party stability before pushing deeper.",
+        "values": [
+          "companionship",
+          "preparation before entering dangerous floors",
+          "honest appreciation of craftsmanship"
+        ]
+      },
+      "possessions_owned": [
+        "minotaur-horn",
+        "welf-made-light-armor"
+      ],
+      "relationships": {
+        "hestia": "Cannot attend the celebration but tells Bell his alias and remains his home base.",
+        "liliruca-arde": "Celebrates with him but scolds him for accepting Welf without consulting her, showing her protective role.",
+        "ryu-lion": "Congratulates Bell and advises him to find another teammate before middle-floor exploration.",
+        "syr-flova": "Hosts and celebrates his level-up at the Hostess of Fertility.",
+        "welf-crozzo": "Becomes Bell's contracted smith and asks to join his party."
+      },
+      "secrets": [],
+      "source_refs": [
+        "danmachi-main/vol-04/full.txt:1680",
+        "danmachi-main/vol-04/full.txt:1780",
+        "danmachi-main/vol-04/full.txt:2006",
+        "danmachi-main/vol-04/full.txt:2406",
+        "danmachi-main/vol-04/full.txt:2640"
+      ],
+      "species": "human",
+      "status": {
+        "level": "Lv.2",
+        "public_reputation": "His record-speed level-up and Minotaur victory make him a sudden subject of gods' recruitment attempts and adventurers' gossip."
+      },
+      "summary": "After Denatus, Bell is chased by gods, celebrated at the Hostess of Fertility, and warned by Ryu that he and Lili need another teammate before challenging the middle floors. The next day he goes to Babel for replacement armor, asks for Welf's work, forms a direct smith contract with him, and receives Welf's request to join the party.",
+      "time": "Evening after Denatus through the next day",
+      "titles": [
+        "Little Rookie",
+        "小新秀",
+        "Lv.2冒险者"
+      ],
+      "voice": {
+        "address_pattern": {
+          "Hestia": "神仙",
+          "Lili": "莉莉",
+          "Ryu": "琉小姐",
+          "Syr": "希儿小姐",
+          "Welf": "韦尔夫先生"
+        },
+        "catchphrases": [],
+        "quote_samples": [
+          "我们是同伴啊。",
+          "我想先在第11层确认一下身体现在的状况。"
+        ],
+        "register": {
+          "tone": "polite, flustered, earnest"
+        },
+        "self_reference": "我"
+      },
+      "volume": "danmachi-main/vol-04"
+    },
+    {
+      "abilities_owned": [
+        "lv2-status",
+        "luck-i",
+        "firebolt",
+        "argonaut",
+        "liaris-freese"
+      ],
+      "affiliation": "Hestia Familia",
+      "aliases": [
+        "贝尔",
+        "小新秀",
+        "白兔"
+      ],
+      "appearance": {
+        "attire": {
+          "combat": "Welf-made light armor with thicker but still light plates, Hestia Knife, and short blades",
+          "default": ""
+        },
+        "distinctive": [
+          "white light particles and bell-like charging sound gather at his right hand when Argonaut manifests"
+        ],
+        "overview": "Bell wears Welf's new light armor while fighting through the 11th floor.",
+        "physical": {
+          "build": "youthful, quick",
+          "eyes": {
+            "color": "red"
+          },
+          "hair": {
+            "color": "white"
+          },
+          "height": ""
+        },
+        "voice_quality": {}
+      },
+      "background": {
+        "birth": {
+          "family": [
+            "grandfather"
+          ],
+          "place": ""
+        },
+        "education": {},
+        "formative_events": [
+          "First three-person run with Lili and Welf",
+          "Saved Welf from Silverbacks",
+          "First battle activation of Argonaut against an Infant Dragon"
+        ],
+        "pre_story": "Previously fought mostly as a lone front-liner supported by Lili.",
+        "upbringing": "His grandfather's heroic tales shape the emotion that triggers Argonaut."
+      },
+      "evidence_level": "S",
+      "gender": "male",
+      "habits": {
+        "daily_routine": "Explores deeper upper-floor routes with Lili and Welf after equipment preparation.",
+        "mannerisms": [
+          "tries to smooth over Lili and Welf's bickering",
+          "stares at his right hand after Argonaut light appears",
+          "throws himself into rescue routes without hesitation"
+        ],
+        "preferences": {
+          "party_style": "Enjoys the excitement of adventuring with companions."
+        },
+        "quirks": [
+          "links the sound of Argonaut to fairy-tale hero imagery"
+        ]
+      },
+      "key_events": [
+        {
+          "event_id": "bell-welf-lili-first-11th-floor-run",
+          "sourceRef": "danmachi-main/vol-04/full.txt:2662",
+          "summary": "Bell's new party fights through a monster party on the 11th floor."
+        },
+        {
+          "event_id": "ryu-explains-crozzo-lagia-elven-history",
+          "sourceRef": "danmachi-main/vol-04/full.txt:4124",
+          "summary": "Bell learns enough Crozzo history to realize Welf carries a heavy name."
+        },
+        {
+          "event_id": "argonaut-first-activation-vs-infant-dragon",
+          "sourceRef": "danmachi-main/vol-04/full.txt:3474",
+          "summary": "Bell first activates Argonaut in battle and saves Lili."
+        },
+        {
+          "event_id": "hestia-explains-argonaut",
+          "sourceRef": "danmachi-main/vol-04/full.txt:3532",
+          "summary": "Hestia explains the Heroic Desire skill as a concentrated reversal strike."
+        }
+      ],
+      "knowledge": [
+        "Learns Welf is a Crozzo and hears the family's cursed magic-sword reputation",
+        "Learns his Lv.2 speed and Firebolt can overwhelm 11th-floor monsters",
+        "Learns Argonaut can charge and amplify a single decisive attack"
+      ],
+      "label": "Bell tests Lv.2 power with Welf and first activates Argonaut",
+      "name": {
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル",
+        "zh": "贝尔・克朗尼"
+      },
+      "nationality": "",
+      "occupation": "adventurer",
+      "period_id": "vol-04-ch-003-first-11th-floor-and-argonaut",
+      "personality": {
+        "core_traits": [
+          "cooperative",
+          "protective",
+          "curious",
+          "hero-admiring",
+          "quick-thinking"
+        ],
+        "decision_pattern": {
+          "combat": "Immediately switches from observation to rescue when a teammate is threatened."
+        },
+        "desires": [
+          "learn how his Lv.2 body and new skill work",
+          "make the new party function"
+        ],
+        "fears": [
+          "teammates being surrounded or hurt",
+          "not understanding his own new skill"
+        ],
+        "flaws": [
+          "can become absorbed in thoughts about heroes even in the dungeon"
+        ],
+        "inner_conflict": "He still does not understand whether his Heroic Desire is a childish dream or a real power until it fires in battle.",
+        "strengths": [
+          "high-speed rescue",
+          "instant magic",
+          "battlefield coordination with Welf and Lili"
+        ],
+        "summary": "Bell is excited by a real three-person party, mediates between Lili and Welf, and instinctively risks himself to save teammates.",
+        "values": [
+          "teamwork",
+          "not abandoning comrades",
+          "becoming worthy of heroic ideals"
+        ]
+      },
+      "possessions_owned": [
+        "welf-made-light-armor",
+        "hestia-knife",
+        "short-knife"
+      ],
+      "relationships": {
+        "hestia": "Later explains Argonaut's practical meaning to Bell.",
+        "liliruca-arde": "Protects and is protected by her support work; saves her from the Infant Dragon.",
+        "welf-crozzo": "Begins functioning as his front-line teammate and learns the value of party support through Bell's rescue."
+      },
+      "secrets": [],
+      "source_refs": [
+        "danmachi-main/vol-04/full.txt:2662",
+        "danmachi-main/vol-04/full.txt:3058",
+        "danmachi-main/vol-04/full.txt:3282",
+        "danmachi-main/vol-04/full.txt:3474",
+        "danmachi-main/vol-04/full.txt:3532"
+      ],
+      "species": "human",
+      "status": {
+        "combat_state": "Newly upgraded; confirms his speed, cutting power, and Firebolt have risen sharply.",
+        "level": "Lv.2",
+        "skill_state": "Unconsciously begins charging Heroic Desire / Argonaut while thinking about heroes and Ais."
+      },
+      "summary": "Bell, Lili, and Welf enter the 11th floor as a new party. Bell tests his Lv.2 abilities, supports Welf during a monster party, and later unconsciously charges Heroic Desire while thinking about heroes. When an Infant Dragon threatens Lili, he releases an Argonaut-enhanced Firebolt that defeats it in one blow.",
+      "time": "Day after Bell and Welf's contract; first 11th-floor party run",
+      "titles": [
+        "Little Rookie",
+        "小新秀",
+        "Lv.2冒险者"
+      ],
+      "voice": {
+        "address_pattern": {
+          "Hestia": "神仙",
+          "Lili": "莉莉",
+          "Welf": "韦尔夫先生"
+        },
+        "catchphrases": [],
+        "quote_samples": [
+          "韦尔夫先生！",
+          "我们是同伴啊。"
+        ],
+        "register": {
+          "tone": "earnest, cooperative, startled when the skill appears"
+        },
+        "self_reference": "我"
+      },
+      "volume": "danmachi-main/vol-04"
+    },
+    {
+      "abilities_owned": [
+        "lv2-status",
+        "luck-i",
+        "firebolt",
+        "argonaut",
+        "liaris-freese"
+      ],
+      "affiliation": "Hestia Familia",
+      "aliases": [
+        "贝尔",
+        "小新秀",
+        "白兔"
+      ],
+      "appearance": {
+        "attire": {
+          "combat": "Welf-made armor, Hestia Knife, and Ushi-Wakamaru",
+          "default": ""
+        },
+        "distinctive": [
+          "dual-wields the Hestia Knife and Welf's Minotaur-horn short sword"
+        ],
+        "overview": "Bell appears as a newly promoted but already fast-improving Lv.2 adventurer preparing for middle-floor entry.",
+        "physical": {
+          "build": "youthful, agile",
+          "eyes": {
+            "color": "red"
+          },
+          "hair": {
+            "color": "white"
+          },
+          "height": ""
+        },
+        "voice_quality": {}
+      },
+      "background": {
+        "birth": {
+          "family": [
+            "grandfather"
+          ],
+          "place": ""
+        },
+        "education": {},
+        "formative_events": [
+          "Welf forges Ushi-Wakamaru from Bell's Minotaur horn",
+          "Eina clears Bell's party for middle-floor entry on the condition of Salamander Wool preparation",
+          "Bell, Lili, and Welf enter the middle floors"
+        ],
+        "pre_story": "Bell's Minotaur fight becomes both a status milestone and the material source of a new weapon.",
+        "upbringing": "Heroic adventure stories make party exploration feel meaningful to him."
+      },
+      "evidence_level": "S",
+      "gender": "male",
+      "habits": {
+        "daily_routine": "Balances Guild consultation, equipment preparation, and deeper dungeon runs.",
+        "mannerisms": [
+          "reports status to Eina before major progression",
+          "smiles when Lili and Welf's bickering starts to feel like party camaraderie",
+          "clenches his fist before entering the unknown"
+        ],
+        "preferences": {
+          "equipment": "Uses Ushi-Wakamaru, forged from the Minotaur horn, alongside the Hestia Knife."
+        },
+        "quirks": [
+          "gets openly excited by classic adventure situations"
+        ]
+      },
+      "key_events": [
+        {
+          "event_id": "welf-forges-ushiwakamaru",
+          "sourceRef": "danmachi-main/vol-04/full.txt:4466",
+          "summary": "Welf forges Ushi-Wakamaru for Bell from the Minotaur horn."
+        },
+        {
+          "event_id": "eina-authorizes-middle-floor-expedition",
+          "sourceRef": "danmachi-main/vol-04/full.txt:5094",
+          "summary": "Eina authorizes Bell's party for middle-floor entry with Salamander Wool as a condition."
+        },
+        {
+          "event_id": "bell-party-enters-middle-floors",
+          "sourceRef": "danmachi-main/vol-04/full.txt:5210",
+          "summary": "Bell, Lili, and Welf enter the middle floors as a three-person party."
+        }
+      ],
+      "knowledge": [
+        "Learns his post-Lv.2 stats have already grown rapidly",
+        "Learns Eina's condition for middle-floor entry: all party members must prepare Salamander Wool",
+        "Learns the party's basic formation for middle floors"
+      ],
+      "label": "Bell receives middle-floor clearance and enters the next stage",
+      "name": {
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル",
+        "zh": "贝尔・克朗尼"
+      },
+      "nationality": "",
+      "occupation": "adventurer",
+      "period_id": "vol-04-epilogue-middle-floor-entry",
+      "personality": {
+        "core_traits": [
+          "determined",
+          "obedient to safety advice",
+          "excited by adventure",
+          "team-oriented"
+        ],
+        "decision_pattern": {
+          "exploration": "Seeks official advice first, prepares according to conditions, then advances with party formation."
+        },
+        "desires": [
+          "advance to the next stage of the dungeon",
+          "prove the new party can function"
+        ],
+        "fears": [
+          "middle-floor danger",
+          "teammates falling behind"
+        ],
+        "flaws": [
+          "his excitement can momentarily override caution"
+        ],
+        "inner_conflict": "He feels fear at the middle-floor entrance but grounds himself in trust for Lili and Welf.",
+        "strengths": [
+          "rapid stat growth",
+          "high-speed support",
+          "decisive battlefield judgment"
+        ],
+        "summary": "Bell is determined but careful: he asks Eina for authorization, accepts her safety condition, and treats the middle floors as a new adventure with comrades.",
+        "values": [
+          "Guild guidance",
+          "proper preparation",
+          "shared adventure"
+        ]
+      },
+      "possessions_owned": [
+        "hestia-knife",
+        "ushiwakamaru",
+        "welf-made-light-armor",
+        "salamander-wool-discount-tickets"
+      ],
+      "relationships": {
+        "eina-tulle": "Checks his Lv.2 status and authorizes middle-floor entry only after imposing safety preparation.",
+        "liliruca-arde": "Plans the party formation and supports Bell's middle role.",
+        "welf-crozzo": "Forged Ushi-Wakamaru and takes the forward role in the middle-floor formation."
+      },
+      "secrets": [],
+      "source_refs": [
+        "danmachi-main/vol-04/full.txt:4466",
+        "danmachi-main/vol-04/full.txt:5094",
+        "danmachi-main/vol-04/full.txt:5126",
+        "danmachi-main/vol-04/full.txt:5210",
+        "danmachi-main/vol-04/full.txt:5400"
+      ],
+      "species": "human",
+      "status": {
+        "basic_abilities": "Strength G267, Endurance H144, Dexterity G288, Agility F375, Magic H189 at Guild check",
+        "development_ability": "Luck I",
+        "level": "Lv.2"
+      },
+      "summary": "About ten days after leveling up, Bell shows Eina his rapidly rising Lv.2 status and asks permission to enter the middle floors. Eina allows it on the condition that every party member prepare Salamander Wool. Armed with Welf's Minotaur-horn short sword Ushi-Wakamaru, Bell fights through the 12th floor with Lili and Welf, helps save Welf during a crisis, and enters the middle floors with the confidence of having companions.",
+      "time": "About ten days after Bell reaches Lv.2; after Welf forges Ushi-Wakamaru",
+      "titles": [
+        "Little Rookie",
+        "小新秀",
+        "Lv.2冒险者"
+      ],
+      "voice": {
+        "address_pattern": {
+          "Eina": "埃伊娜小姐",
+          "Lili": "莉莉",
+          "Welf": "韦尔夫先生"
+        },
+        "catchphrases": [],
+        "quote_samples": [
+          "这样可以去中层了吗？",
+          "大家同心协力，一起冒险这样。"
+        ],
+        "register": {
+          "tone": "polite with Eina, excited with party members"
+        },
+        "self_reference": "我"
+      },
+      "volume": "danmachi-main/vol-04"
+    },
+    {
+      "abilities_owned": [
+        "lv2-status",
+        "luck-i",
+        "firebolt",
+        "argonaut",
+        "liaris-freese"
+      ],
+      "affiliation": "Hestia Familia",
+      "aliases": [
+        "贝尔",
+        "兔子",
+        "白兔"
+      ],
+      "appearance": {
+        "attire": {
+          "combat": "standard exploration gear for upper floors",
+          "default": "street and dungeon gear"
+        },
+        "distinctive": [
+          "looks worn down by Ais's early-morning training"
+        ],
+        "overview": "A tired but responsive Bell is intercepted on the way to the dungeon and pulled into his first serious adventurer request.",
+        "physical": {
+          "build": "youthful but bruised from training",
+          "eyes": {
+            "color": "red"
+          },
+          "hair": {
+            "color": "white"
+          },
+          "height": ""
+        },
+        "voice_quality": {}
+      },
+      "background": {
+        "birth": {
+          "family": [
+            "grandfather"
+          ],
+          "place": ""
+        },
+        "education": {
+          "quest_literacy": "Learns from Lili how Guild-posted and private adventurer requests differ."
+        },
+        "formative_events": [
+          "Accepted Naza's private request for Blue Papillon wings",
+          "Completed the Blue Papillon hunt on the 7th floor",
+          "Discovered Naza had been selling diluted potions to him",
+          "Heard the debt and prosthetic-arm background of Miach Familia"
+        ],
+        "pre_story": "Bell had bought potions from Naza without realizing he was being overcharged for diluted medicine.",
+        "upbringing": ""
+      },
+      "evidence_level": "S",
+      "gender": "male",
+      "habits": {
+        "daily_routine": "Combines Ais's dawn training, dungeon exploration, and errands for allied Familias.",
+        "mannerisms": [
+          "scratches his head when confused",
+          "lets Lili lead negotiations",
+          "gets embarrassed when Naza pats his head"
+        ],
+        "preferences": {
+          "quest_handling": "Prefers helping acquaintances even when compensation is unclear."
+        },
+        "quirks": [
+          "underestimates how easily private requests can be exploitative"
+        ]
+      },
+      "key_events": [
+        {
+          "event_id": "naaza-requests-blue-butterfly-wings",
+          "sourceRef": "danmachi-main/vol-04/full.txt:5510",
+          "summary": "Naza asks Bell to gather Blue Papillon wings."
+        },
+        {
+          "event_id": "bell-completes-blue-papillon-quest",
+          "sourceRef": "danmachi-main/vol-04/full.txt:5980",
+          "summary": "Bell and Lili collect five Blue Papillon wings and return them to Miach Familia."
+        },
+        {
+          "event_id": "lili-exposes-naaza-potion-fraud",
+          "sourceRef": "danmachi-main/vol-04/full.txt:6038",
+          "summary": "Lili proves the potion reward has been diluted and exposes Naza's prior fraud against Bell."
+        },
+        {
+          "event_id": "lili-exposes-naaza-potion-fraud",
+          "sourceRef": "danmachi-main/vol-04/full.txt:6170",
+          "summary": "Miach and Naza reveal the debt pressure behind their shop's conduct."
+        }
+      ],
+      "knowledge": [
+        "Learns adventurer requests are jobs with explicit compensation and credibility risks",
+        "Learns Blue Papillon wings are rare upper-floor drops useful for medicine",
+        "Learns Naza diluted potions and Miach Familia is under debt pressure"
+      ],
+      "label": "Bell learns quest practice and completes Naza's Blue Papillon request",
+      "name": {
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル",
+        "zh": "贝尔・克朗尼"
+      },
+      "nationality": "",
+      "occupation": "adventurer",
+      "period_id": "vol-04-side-quest-x-quest-blue-papillon",
+      "personality": {
+        "core_traits": [
+          "trusting",
+          "forgiving",
+          "teachable",
+          "hard-working",
+          "considerate"
+        ],
+        "decision_pattern": {
+          "quests": "Accepts requests from familiar people first, then learns from Lili that payment and credibility must be verified."
+        },
+        "desires": [
+          "help Naza and Miach",
+          "learn how adventurer requests work",
+          "complete the quest properly"
+        ],
+        "fears": [
+          "being deceived by people he trusts",
+          "causing trouble for Miach and Hestia"
+        ],
+        "flaws": [
+          "too willing to accept private requests without confirming terms",
+          "easily treated as a mark by merchants"
+        ],
+        "inner_conflict": "Bell is embarrassed by being fooled, but still wants to preserve trust with Miach Familia.",
+        "strengths": [
+          "follows Lili's experienced guidance",
+          "upper-floor combat competence",
+          "empathy during Miach Familia's debt crisis"
+        ],
+        "summary": "Bell is trusting toward acquaintances, quick to accept Naza's request, and forgiving when Lili exposes fraud, but he also learns to treat quests and payments more carefully.",
+        "values": [
+          "helping friendly Familias",
+          "fair exchange",
+          "not ruining relationships over money"
+        ]
+      },
+      "possessions_owned": [
+        "blue-papillon-wings",
+        "healing-potions"
+      ],
+      "relationships": {
+        "hestia": "Participates in the informal apology meeting at Miach Familia.",
+        "liliruca-arde": "Acts as Bell's experienced protector in quest evaluation and payment negotiation.",
+        "miach": "Apologizes to Bell and explains the Familia's financial trouble.",
+        "naaza-erisuis": "Requests Blue Papillon wings from Bell and is exposed for prior potion fraud, but remains an acquaintance he does not want to destroy."
+      },
+      "secrets": [],
+      "source_refs": [
+        "danmachi-main/vol-04/full.txt:5510",
+        "danmachi-main/vol-04/full.txt:5596",
+        "danmachi-main/vol-04/full.txt:5914",
+        "danmachi-main/vol-04/full.txt:5980",
+        "danmachi-main/vol-04/full.txt:6038",
+        "danmachi-main/vol-04/full.txt:6170"
+      ],
+      "species": "human",
+      "status": {
+        "level": "Lv.2",
+        "training_state": "Training with Ais before dungeon work and visibly exhausted before taking the quest as a lighter day."
+      },
+      "summary": "Naza intercepts Bell and asks him to gather Blue Papillon wings. Lili uses the situation to teach Bell about adventurer requests, then leads him to a 7th-floor pantry where they ambush Blue Papillons and collect five intact wings. When they return, Lili exposes that Naza has been offering diluted potions, prompting an apology meeting where Bell learns about Miach Familia's debt and Naza's prosthetic arm.",
+      "time": "Quest × Quest side episode; during Bell's Lv.2 training days",
+      "titles": [
+        "Little Rookie",
+        "小新秀",
+        "Lv.2冒险者"
+      ],
+      "voice": {
+        "address_pattern": {
+          "Hestia": "神仙",
+          "Lili": "莉莉",
+          "Miach": "米赫神",
+          "Naza": "娜扎小姐"
+        },
+        "catchphrases": [],
+        "quote_samples": [
+          "冒险者，委托……？",
+          "没事的，请您抬起头来吧。"
+        ],
+        "register": {
+          "tone": "polite, confused, forgiving"
+        },
+        "self_reference": "我"
+      },
+      "volume": "danmachi-main/vol-04"
+    },
+    {
+      "abilities_owned": [
+        "lv1-status"
+      ],
+      "affiliation": "Hestia Familia",
+      "aliases": [
+        "贝尔",
+        "白兔"
+      ],
+      "appearance": {
+        "attire": {
+          "combat": "early low-grade novice gear",
+          "default": "early simple clothes"
+        },
+        "distinctive": [
+          "becomes visibly flustered when Hestia asks what he is hiding"
+        ],
+        "overview": "A novice Bell returns from long dungeon days dirty, tired, and trying badly to hide a surprise from Hestia.",
+        "physical": {
+          "build": "inexperienced youth",
+          "eyes": {
+            "color": "red"
+          },
+          "hair": {
+            "color": "white"
+          },
+          "height": ""
+        },
+        "voice_quality": {}
+      },
+      "background": {
+        "birth": {
+          "family": [
+            "grandfather"
+          ],
+          "place": ""
+        },
+        "education": {},
+        "formative_events": [
+          "First successful goblin kill as a novice",
+          "Secretly earns money for Hestia's ribbon gift",
+          "Gives Hestia the blue ribbons with silver bells"
+        ],
+        "pre_story": "Bell had just become Hestia's first Familia member and was still learning basic dungeon work.",
+        "upbringing": "Still carries his grandfather's romantic heroic notions."
+      },
+      "evidence_level": "S",
+      "gender": "male",
+      "habits": {
+        "daily_routine": "Explores the dungeon for household money while Hestia works at her food-stall job.",
+        "mannerisms": [
+          "rushes home to report small victories",
+          "stammers when hiding a surprise",
+          "works late in the dungeon when motivated"
+        ],
+        "preferences": {
+          "gift_giving": "Chooses blue ribbons with small silver bells for Hestia."
+        },
+        "quirks": [
+          "treats even a first goblin kill as something to proudly report"
+        ]
+      },
+      "key_events": [
+        {
+          "event_id": "bell-first-goblin-and-hestia-familia-early-days",
+          "sourceRef": "danmachi-main/vol-04/full.txt:6738",
+          "summary": "Bell proudly reports his first goblin victory during the Familia's earliest days."
+        },
+        {
+          "event_id": "bell-gifts-hestia-bell-ribbons",
+          "sourceRef": "danmachi-main/vol-04/full.txt:7484",
+          "summary": "Bell gives Hestia the blue ribbons with silver bells."
+        }
+      ],
+      "knowledge": [
+        "Knows Hestia's old hair ribbons are fraying",
+        "Notices Hestia admiring blue ribbons displayed in a shop"
+      ],
+      "label": "Bell secretly earns money to gift Hestia bell ribbons",
+      "name": {
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル",
+        "zh": "贝尔・克朗尼"
+      },
+      "nationality": "",
+      "occupation": "adventurer",
+      "period_id": "vol-04-side-goddess-bell-ribbons-flashback",
+      "personality": {
+        "core_traits": [
+          "devoted",
+          "hard-working",
+          "kind",
+          "bad at lying",
+          "thoughtful"
+        ],
+        "decision_pattern": {
+          "affection": "Acts through concrete labor and gifts rather than direct confession."
+        },
+        "desires": [
+          "buy Hestia the blue ribbons she admired",
+          "make his goddess happy"
+        ],
+        "fears": [
+          "Hestia discovering the surprise too early",
+          "failing as the Familia's only earner"
+        ],
+        "flaws": [
+          "overworks without explaining himself",
+          "cannot lie convincingly"
+        ],
+        "inner_conflict": "He wants to be honest with Hestia but keeps silent to preserve the surprise.",
+        "strengths": [
+          "persistence through long dungeon days",
+          "emotional attentiveness"
+        ],
+        "summary": "Bell is loyal, hardworking, and surprisingly thoughtful, overexerting himself to buy Hestia a gift while trying to keep it secret.",
+        "values": [
+          "gratitude to Hestia",
+          "supporting the Familia household",
+          "making loved ones happy"
+        ]
+      },
+      "possessions_owned": [
+        "blue-ribbon-bells"
+      ],
+      "relationships": {
+        "eina-tulle": "Mistaken by Hestia as a possible target of Bell's gift secrecy.",
+        "hestia": "His first goddess and home; he quietly works to buy her the ribbons that become her signature accessory.",
+        "miach": "A friendly god around the early Familia period."
+      },
+      "secrets": [
+        "Temporarily hides the gift plan from Hestia."
+      ],
+      "source_refs": [
+        "danmachi-main/vol-04/full.txt:6738",
+        "danmachi-main/vol-04/full.txt:7216",
+        "danmachi-main/vol-04/full.txt:7396",
+        "danmachi-main/vol-04/full.txt:7484",
+        "danmachi-main/vol-04/full.txt:7502"
+      ],
+      "species": "human",
+      "status": {
+        "familia_stage": "Hestia Familia's earliest days, before Bell's first major growth arc.",
+        "level": "Lv.1"
+      },
+      "summary": "In the early days of Hestia Familia, Bell is still proud of defeating a single goblin but works hard as the only earner. After noticing Hestia's worn ribbons and seeing her admire a blue accessory, he secretly overworks in the dungeon to buy her blue ribbons with silver bells. He gives them to Hestia at home, reinforcing their family-like bond.",
+      "time": "Flashback to the first week after Hestia Familia's founding",
+      "titles": [
+        "新人冒险者"
+      ],
+      "voice": {
+        "address_pattern": {
+          "Eina": "埃伊娜小姐",
+          "Hestia": "神仙",
+          "Miach": "米赫神"
+        },
+        "catchphrases": [],
+        "quote_samples": [
+          "我成功了，神仙！我打倒哥布林了！",
+          "这是送给神仙的。"
+        ],
+        "register": {
+          "tone": "earnest, apologetic, warmly embarrassed"
+        },
+        "self_reference": "我"
+      },
+      "volume": "danmachi-main/vol-04"
+    },
+    {
+      "abilities_owned": [
+        "lv2-status",
+        "luck-i",
+        "firebolt",
+        "argonaut",
+        "liaris-freese"
+      ],
+      "affiliation": "Hestia Familia",
+      "aliases": [
+        "贝尔",
+        "白兔",
+        "世界最快白兔"
+      ],
+      "appearance": {
+        "attire": {
+          "combat": "standard Lv.2 exploration gear",
+          "default": "post-dungeon street clothes"
+        },
+        "distinctive": [
+          "crying softly when Hestia reassures him that he has a home"
+        ],
+        "overview": "Bell appears as a young adventurer whose new fame creates both support and resentment.",
+        "physical": {
+          "build": "youthful",
+          "eyes": {
+            "color": "red"
+          },
+          "hair": {
+            "color": "white"
+          },
+          "height": ""
+        },
+        "voice_quality": {}
+      },
+      "background": {
+        "birth": {
+          "family": [
+            "grandfather"
+          ],
+          "place": ""
+        },
+        "education": {},
+        "formative_events": [
+          "Receives potion support from Miach Familia as an investment",
+          "Is confronted by jealous adventurers and rescued by Lili and Welf's intervention",
+          "Sells his old knife to a shopkeeper who wants to remember having supported him",
+          "Is comforted by Hestia and reaffirms his home",
+          "Demonstrates extreme loyalty to Hestia in the White Rabbit bonus story"
+        ],
+        "pre_story": "His Lv.2 promotion and Minotaur victory make ordinary errands socially charged.",
+        "upbringing": "His loyalty and innocence remain central even after his social status changes."
+      },
+      "evidence_level": "S",
+      "gender": "male",
+      "habits": {
+        "daily_routine": "Continues dungeon work with Lili and Welf, shops at allied stores, and returns home with Hestia.",
+        "mannerisms": [
+          "tries to divide party income generously",
+          "visits old equipment shops even after gaining Welf as smith",
+          "tears up when Hestia comforts him"
+        ],
+        "preferences": {
+          "relationships": "Prefers old trusted relationships over status-driven treatment."
+        },
+        "quirks": [
+          "fails to recognize romantic traps aimed at him",
+          "keeps deep loyalty to Hestia as ordinary behavior"
+        ]
+      },
+      "key_events": [
+        {
+          "event_id": "special-blue-twilight-naza-invests-in-bell",
+          "sourceRef": "danmachi-main/vol-04/full.txt:4",
+          "summary": "Naza congratulates Bell's Lv.2 and gives potions as an investment."
+        },
+        {
+          "event_id": "special-blue-twilight-jealous-adventurers",
+          "sourceRef": "danmachi-main/vol-04/full.txt:176",
+          "summary": "Bell is cornered by adventurers angry at the record-speed white rabbit's fame."
+        },
+        {
+          "event_id": "special-blue-twilight-old-knife-sold",
+          "sourceRef": "danmachi-main/vol-04/full.txt:276",
+          "summary": "Bell sells an old weapon to a shopkeeper who wants proof he once supported Bell."
+        },
+        {
+          "event_id": "special-blue-twilight-hestia-comforts-bell",
+          "sourceRef": "danmachi-main/vol-04/full.txt:376",
+          "summary": "Hestia reassures Bell after he is shaken by resentment and he tears up at having a home."
+        },
+        {
+          "event_id": "special-white-rabbit-loyalty",
+          "sourceRef": "danmachi-main/vol-04/full.txt:8",
+          "summary": "Bell's loyalty to Hestia is comic but sincere, and he tries to fulfill her strange pillow request."
+        }
+      ],
+      "knowledge": [
+        "Learns some adventurers resent his sudden fame",
+        "Understands that older shopkeepers see his growth as their own pride",
+        "Knows Hestia will always welcome him home"
+      ],
+      "label": "Bell's Lv.2 aftermath in the bonus stories",
+      "name": {
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル",
+        "zh": "贝尔・克朗尼"
+      },
+      "nationality": "",
+      "occupation": "adventurer",
+      "period_id": "vol-04-specials-blue-twilight-through-white-rabbit-loyalty",
+      "personality": {
+        "core_traits": [
+          "humble",
+          "loyal",
+          "emotionally sincere",
+          "fair-minded",
+          "vulnerable to public hostility"
+        ],
+        "decision_pattern": {
+          "after_success": "Responds to fame by thanking supporters and maintaining humble ties rather than boasting."
+        },
+        "desires": [
+          "repay allies' trust",
+          "stay grounded despite fame",
+          "serve Hestia faithfully"
+        ],
+        "fears": [
+          "being hated for rapid success",
+          "becoming unworthy of support"
+        ],
+        "flaws": [
+          "can freeze when confronted by hostile adventurers",
+          "too innocent about Hestia's schemes"
+        ],
+        "inner_conflict": "His public image as a record holder clashes with his self-image as an inexperienced boy still afraid of resentment.",
+        "strengths": [
+          "gratitude",
+          "does not abandon old connections after promotion",
+          "inspires loyalty in Lili and Welf"
+        ],
+        "summary": "Bell remains humble and emotionally vulnerable despite fame; he tries to split rewards fairly, is shaken by jealous adventurers, and is deeply reassured by Hestia's unconditional welcome.",
+        "values": [
+          "fair reward distribution",
+          "old relationships with shopkeepers",
+          "home with Hestia",
+          "loyalty to his goddess"
+        ]
+      },
+      "possessions_owned": [
+        "healing-potions",
+        "party-earnings",
+        "former-short-knife"
+      ],
+      "relationships": {
+        "ais-wallenstein": "Her later visits to Hestia's stall are tied to her previous appearance with Bell.",
+        "hestia": "Comforts Bell after he is shaken and remains the home he can return to; later exploits his loyalty in the White Rabbit bonus comedy.",
+        "liliruca-arde": "Protects Bell from jealous adventurers and coordinates reward distribution.",
+        "miach": "Asks Bell to accept Naza's support and remains dependent on Bell as one of Miach Familia's few reliable customers.",
+        "ryu-lion": "Frames Bell's celebration as the purpose of the gathering in the behind-the-scenes bonus.",
+        "syr-flova": "Connects to the celebration-side bonus through her concern and rivalry over Bell.",
+        "welf-crozzo": "Backs Bell up when adventurers corner him and warns him to be more firm.",
+        "naaza-erisuis": "Gives Bell potions as an investment after congratulating his Lv.2 promotion."
+      },
+      "secrets": [],
+      "source_refs": [
+        "danmachi-main/vol-04/full.txt:4",
+        "danmachi-main/vol-04/full.txt:76",
+        "danmachi-main/vol-04/full.txt:176",
+        "danmachi-main/vol-04/full.txt:240",
+        "danmachi-main/vol-04/full.txt:276",
+        "danmachi-main/vol-04/full.txt:376",
+        "danmachi-main/vol-04/full.txt:50",
+        "danmachi-main/vol-04/full.txt:16",
+        "danmachi-main/vol-04/full.txt:12",
+        "danmachi-main/vol-04/full.txt:8"
+      ],
+      "species": "human",
+      "status": {
+        "level": "Lv.2",
+        "reputation": "Recognized as the record-speed 'white rabbit' and exposed to jealousy as well as support from allies."
+      },
+      "summary": "The bonus stories show Bell's life around the aftermath of Lv.2. In 'Blue Twilight,' Naza and Miach support him with potions, Lili divides party earnings, jealous adventurers confront him, Lili and Welf rescue the situation, and an old shopkeeper buys Bell's former weapon as proof he once supported him. Hestia later reassures Bell that he is not pathetic and always has a home. Other specials show Bell's presence shaping Miach Familia's customer base, Ais's stall visits, the Lv.2 celebration waiting scene, and Bell's almost excessive loyalty to Hestia.",
+      "time": "Volume 4 bonus stories after Bell's Lv.2 promotion and surrounding side moments",
+      "titles": [
+        "Little Rookie",
+        "小新秀",
+        "Lv.2冒险者"
+      ],
+      "voice": {
+        "address_pattern": {
+          "Hestia": "神仙",
+          "Lili": "莉莉",
+          "Miach": "米赫神",
+          "Naza": "娜扎小姐",
+          "Welf": "韦尔夫先生"
+        },
+        "catchphrases": [],
+        "quote_samples": [
+          "谢、谢谢……",
+          "才、才没有呢！"
+        ],
+        "register": {
+          "tone": "polite, self-effacing, emotionally open with Hestia"
+        },
+        "self_reference": "我"
+      },
+      "volume": "danmachi-main/vol-04"
+    },
+    {
+      "period_id": "vol-05-ch-01",
+      "volume": "vol-05",
+      "time": "第一章 中层",
+      "label": "初入第13层",
+      "name": {
+        "zh": "贝尔·克朗尼",
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル"
+      },
+      "aliases": [
+        "小新秀",
+        "世界最快白兔"
+      ],
+      "titles": [
+        "小新秀"
+      ],
+      "gender": "男",
+      "species": "人类",
+      "nationality": "",
+      "occupation": "冒险者",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {
+        "level": "Lv.2",
+        "location": "地下城第13层",
+        "state": "与莉莉、韦尔夫遭怪物奉送后陷入怪兽围攻"
+      },
+      "appearance": {
+        "overview": "白发红眼的少年冒险者。",
+        "physical": {
+          "height": "",
+          "build": "轻捷",
+          "hair": {
+            "color": "白色"
+          },
+          "eyes": {
+            "color": "深红色"
+          }
+        },
+        "attire": {
+          "default": "",
+          "combat": "防具内穿火精织布，装备小型盾与短剑"
+        },
+        "voice_quality": {},
+        "distinctive": [
+          "白发",
+          "红眼"
+        ]
+      },
+      "personality": {
+        "summary": "善良勇敢，危急时优先保护同伴，但缺乏中层经验。",
+        "core_traits": [
+          "勇敢",
+          "善良",
+          "重视同伴"
+        ],
+        "values": [
+          "同伴安全",
+          "正面冒险"
+        ],
+        "fears": [
+          "无法保护队友"
+        ],
+        "desires": [
+          "安全攻略中层"
+        ],
+        "strengths": [
+          "超常敏捷",
+          "瞬发魔法",
+          "临危决断"
+        ],
+        "flaws": [
+          "经验不足",
+          "容易自责"
+        ],
+        "inner_conflict": "面对超出预期的中层威胁仍必须保护队伍。",
+        "decision_pattern": {
+          "crisis": "主动殿后并承担最大风险"
+        }
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {},
+        "register": {
+          "style": "直率温和"
+        },
+        "catchphrases": [
+          "【火焰闪电】"
+        ],
+        "quote_samples": []
+      },
+      "habits": {
+        "mannerisms": [],
+        "daily_routine": "探索地下城",
+        "quirks": [],
+        "preferences": {}
+      },
+      "background": {
+        "birth": {
+          "place": "",
+          "family": []
+        },
+        "upbringing": "",
+        "education": {},
+        "formative_events": [
+          "以世界最快纪录升至Lv.2"
+        ],
+        "pre_story": "击败弥诺陶洛斯并完成升级。"
+      },
+      "abilities_owned": [
+        "火焰闪电"
+      ],
+      "possessions_owned": [
+        "火精织布",
+        "小型盾",
+        "短剑"
+      ],
+      "relationships": {
+        "liliruca-arde": "队友与支援者",
+        "welf-crozzo": "队友与铁匠",
+        "hestia": "主神",
+        "mikoto-yamato": "怪物奉送时短暂对视的冒险者"
+      },
+      "knowledge": [
+        "中层怪兽更强且会使用远程攻击",
+        "地狱犬具有火焰抗性"
+      ],
+      "secrets": [],
+      "summary": "首次进入第13层，与莉莉和韦尔夫展现协同作战；遭建御雷眷族怪物奉送后殿后施放火焰闪电，却仍被地狱犬、落石与新怪兽持续逼入绝境。",
+      "key_events": [
+        {
+          "event_id": "bell-party-enters-middle-floors",
+          "summary": "三人首次进入第13层并击败地狱犬与独角兔。",
+          "sourceRef": "danmachi-main/vol-05/full.txt:208"
+        },
+        {
+          "event_id": "takemikazuchi-familia-pass-parade",
+          "summary": "遭怪物奉送，主动殿后掩护莉莉与韦尔夫。",
+          "sourceRef": "danmachi-main/vol-05/full.txt:1054"
+        },
+        {
+          "event_id": "middle-floor-collapse-and-hellhound-volley",
+          "summary": "经历天花板崩塌后遭地狱犬集体吐火。",
+          "sourceRef": "danmachi-main/vol-05/full.txt:1352"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-05/full.txt:206",
+        "danmachi-main/vol-05/full.txt:1054",
+        "danmachi-main/vol-05/full.txt:1352"
+      ]
+    },
+    {
+      "period_id": "vol-05-ch-02",
+      "volume": "vol-05",
+      "time": "第二章 离生还还有多少M？",
+      "label": "承担队长决断",
+      "name": {
+        "zh": "贝尔·克朗尼",
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル"
+      },
+      "aliases": [
+        "小新秀"
+      ],
+      "titles": [
+        "小新秀"
+      ],
+      "gender": "男",
+      "species": "人类",
+      "nationality": "",
+      "occupation": "冒险者、队长",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {
+        "location": "地下城第15至16层",
+        "state": "搀扶重伤韦尔夫并率队前往第18层"
+      },
+      "appearance": {
+        "overview": "额头带伤、满身尘土的白发少年。",
+        "physical": {
+          "height": "",
+          "build": "疲惫",
+          "hair": {
+            "color": "白色"
+          },
+          "eyes": {
+            "color": "红色"
+          }
+        },
+        "attire": {
+          "default": "",
+          "combat": "受损防具与火精织布"
+        },
+        "voice_quality": {},
+        "distinctive": []
+      },
+      "personality": {
+        "summary": "在恐惧中接受队长责任，选择与同伴主动开辟生路。",
+        "core_traits": [
+          "负责",
+          "勇敢",
+          "重视同伴"
+        ],
+        "values": [
+          "全员生还"
+        ],
+        "fears": [
+          "错误决策害死同伴"
+        ],
+        "desires": [
+          "抵达第18层"
+        ],
+        "strengths": [
+          "承担责任",
+          "耐力"
+        ],
+        "flaws": [
+          "经验不足"
+        ],
+        "inner_conflict": "必须在上行碰运气与深入冒险之间决定同伴命运。",
+        "decision_pattern": {
+          "crisis": "接受同伴信任后选择主动前进"
+        }
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {},
+        "register": {},
+        "catchphrases": [],
+        "quote_samples": []
+      },
+      "habits": {
+        "mannerisms": [],
+        "daily_routine": "",
+        "quirks": [],
+        "preferences": {}
+      },
+      "background": {
+        "birth": {
+          "place": "",
+          "family": []
+        },
+        "upbringing": "",
+        "education": {},
+        "formative_events": [],
+        "pre_story": ""
+      },
+      "abilities_owned": [
+        "火焰闪电"
+      ],
+      "possessions_owned": [
+        "赫斯缇雅之刃",
+        "牛若丸",
+        "火精织布"
+      ],
+      "relationships": {
+        "liliruca-arde": "信赖其判断的队友",
+        "welf-crozzo": "搀扶并绝不放弃的队友"
+      },
+      "knowledge": [
+        "第18层为安全楼层",
+        "第17层歌利亚可能尚未再生"
+      ],
+      "secrets": [],
+      "summary": "火精织布使三人在爆炎中生还；贝尔在物资不足、韦尔夫重伤与迷路的绝境中接受队长职责，决定向第18层前进。",
+      "key_events": [
+        {
+          "event_id": "bell-party-chooses-descent",
+          "summary": "决定放弃上行并向第18层推进。",
+          "sourceRef": "danmachi-main/vol-05/full.txt:1764"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-05/full.txt:1520",
+        "danmachi-main/vol-05/full.txt:1764",
+        "danmachi-main/vol-05/full.txt:2380"
+      ]
+    },
+    {
+      "period_id": "vol-05-ch-03",
+      "volume": "vol-05",
+      "time": "第三章 迷宫决死行",
+      "label": "猛牛杀手与第18层抵达",
+      "name": {
+        "zh": "贝尔·克朗尼",
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル"
+      },
+      "aliases": [
+        "猛牛杀手"
+      ],
+      "titles": [
+        "小新秀"
+      ],
+      "gender": "男",
+      "species": "人类",
+      "nationality": "",
+      "occupation": "冒险者、队长",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {
+        "location": "地下城第18层",
+        "state": "搬运两名同伴逃离歌利亚后重伤昏迷"
+      },
+      "appearance": {
+        "overview": "满脸是血、浑身伤痕的白发少年。",
+        "physical": {
+          "height": "",
+          "build": "耗尽体力",
+          "hair": {
+            "color": "白色"
+          },
+          "eyes": {
+            "color": "红色"
+          }
+        },
+        "attire": {
+          "default": "",
+          "combat": "仅保留最低限度武装"
+        },
+        "voice_quality": {},
+        "distinctive": []
+      },
+      "personality": {
+        "summary": "在同伴全部失去行动能力后独自承担两人的生命，直到失去意识仍优先请求救助同伴。",
+        "core_traits": [
+          "勇敢",
+          "自我牺牲",
+          "坚韧"
+        ],
+        "values": [
+          "同伴生命"
+        ],
+        "fears": [
+          "自己倒下导致同伴死亡"
+        ],
+        "desires": [
+          "把莉莉与韦尔夫送到安全楼层"
+        ],
+        "strengths": [
+          "弥诺陶洛斯战斗经验",
+          "英雄愿望",
+          "极限意志"
+        ],
+        "flaws": [
+          "体力与精神力严重透支"
+        ],
+        "inner_conflict": "身体不断诱使他放弃，但同伴羁绊使他继续前进。",
+        "decision_pattern": {
+          "crisis": "丢弃装备并独自搬运全队"
+        }
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {},
+        "register": {},
+        "catchphrases": [],
+        "quote_samples": []
+      },
+      "habits": {
+        "mannerisms": [],
+        "daily_routine": "",
+        "quirks": [],
+        "preferences": {}
+      },
+      "background": {
+        "birth": {
+          "place": "",
+          "family": []
+        },
+        "upbringing": "",
+        "education": {},
+        "formative_events": [],
+        "pre_story": ""
+      },
+      "abilities_owned": [
+        "英雄愿望",
+        "火焰闪电"
+      ],
+      "possessions_owned": [
+        "赫斯缇雅之刃",
+        "牛若丸"
+      ],
+      "relationships": {
+        "liliruca-arde": "昏迷后由他抱着搬运的同伴",
+        "welf-crozzo": "昏迷后由他肩扛搬运的同伴",
+        "ais-wallenstein": "昏迷前向其请求救援"
+      },
+      "knowledge": [
+        "歌利亚已重新生成"
+      ],
+      "secrets": [],
+      "summary": "独自击破四头弥诺陶洛斯；莉莉与韦尔夫昏迷后丢弃行李搬运两人，突破再生的歌利亚追击抵达第18层。",
+      "key_events": [
+        {
+          "event_id": "bell-defeats-minotaur-pack",
+          "summary": "连续击杀四头弥诺陶洛斯。",
+          "sourceRef": "danmachi-main/vol-05/full.txt:2994"
+        },
+        {
+          "event_id": "goliath-respawns-and-chases-bell",
+          "summary": "带着昏迷同伴逃入第18层。",
+          "sourceRef": "danmachi-main/vol-05/full.txt:3504"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-05/full.txt:2994",
+        "danmachi-main/vol-05/full.txt:3400",
+        "danmachi-main/vol-05/full.txt:3504"
+      ]
+    },
+    {
+      "period_id": "vol-05-ch-04",
+      "volume": "vol-05",
+      "time": "第四章 DUNGEON RESORT？",
+      "label": "获救与第18层休养",
+      "name": {
+        "zh": "贝尔·克朗尼",
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル"
+      },
+      "status": {
+        "location": "地下城第18层",
+        "state": "由洛基眷族救治并与搜索队重逢"
+      },
+      "summary": "被艾丝发现并获洛基眷族治疗；参观安全楼层与里维拉镇，并听取琉的过去。",
+      "relationships": {
+        "ais-wallenstein": "救命恩人及持续追逐的憧憬",
+        "ryu-lion": "得知其过去并获得信任"
+      },
+      "key_events": [
+        {
+          "event_id": "loki-familia-rescues-bell-party",
+          "summary": "与莉莉、韦尔夫获救。",
+          "sourceRef": "danmachi-main/vol-05/full.txt:3513"
+        },
+        {
+          "event_id": "ryu-reveals-astrarea-past",
+          "summary": "听取琉的阿斯特莉亚眷族往事。",
+          "sourceRef": "danmachi-main/vol-05/full.txt:5578"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-05/full.txt:3513-5998"
+      ]
+    },
+    {
+      "period_id": "vol-05-ch-05",
+      "volume": "vol-05",
+      "time": "第五章 暴徒们的飨宴",
+      "label": "决斗与救敌",
+      "name": {
+        "zh": "贝尔·克朗尼",
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル"
+      },
+      "status": {
+        "location": "地下城第18层",
+        "state": "击败摩多后投入黑色歌利亚战场"
+      },
+      "summary": "为救赫斯缇雅接受摩多决斗，在隐身压制下逆转；即使刚遭恶意袭击，仍选择营救摩多等人。",
+      "key_events": [
+        {
+          "event_id": "mord-kidnaps-hestia-and-duels-bell",
+          "summary": "识破隐身并击败摩多。",
+          "sourceRef": "danmachi-main/vol-05/full.txt:6810"
+        },
+        {
+          "event_id": "bell-chooses-to-save-mord",
+          "summary": "决定救助袭击过自己的冒险者。",
+          "sourceRef": "danmachi-main/vol-05/full.txt:7186"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-05/full.txt:5999-7216"
+      ]
+    },
+    {
+      "period_id": "vol-05-ch-06",
+      "volume": "vol-05",
+      "time": "第六章 英雄赞歌",
+      "label": "最后英雄的一击",
+      "name": {
+        "zh": "贝尔·克朗尼",
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル"
+      },
+      "status": {
+        "location": "地下城第18层",
+        "state": "以极限解除击杀黑色歌利亚后生还"
+      },
+      "abilities_owned": [
+        "火焰闪电",
+        "英雄愿望"
+      ],
+      "summary": "在全体冒险者协力下重伤倒地，又被赫斯缇雅与祖父教诲唤醒；以极限解除的三分钟蓄力斩灭黑色歌利亚。",
+      "key_events": [
+        {
+          "event_id": "bell-limit-off-destroys-black-goliath",
+          "summary": "完成对异常楼层主的致命一击。",
+          "sourceRef": "danmachi-main/vol-05/full.txt:8760"
+        },
+        {
+          "event_id": "hermes-identifies-bell-as-last-hero",
+          "summary": "被荷米斯认定为宙斯眷族的最后英雄。",
+          "sourceRef": "danmachi-main/vol-05/full.txt:8810"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-05/full.txt:7217-8838"
+      ]
+    },
+    {
+      "period_id": "vol-05-epilogue",
+      "volume": "vol-05",
+      "time": "终章 射兔者",
+      "label": "归还地面与新威胁",
+      "name": {
+        "zh": "贝尔·克朗尼",
+        "en": "Bell Cranel",
+        "jp": "ベル・クラネル"
+      },
+      "status": {
+        "location": "欧拉丽",
+        "state": "安全返回；第18层功绩遭公会封口但传闻外泄"
+      },
+      "summary": "返回地面后能力值与到达第18层的记录确立；阿波罗因其功绩决定夺取他。",
+      "key_events": [
+        {
+          "event_id": "bell-party-returns-and-guild-suppresses-incident",
+          "summary": "从第18层平安归还。",
+          "sourceRef": "danmachi-main/vol-05/full.txt:8839"
+        },
+        {
+          "event_id": "apollo-targets-bell",
+          "summary": "成为阿波罗的新目标。",
+          "sourceRef": "danmachi-main/vol-05/full.txt:8880"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-05/full.txt:8839-8922"
+      ]
+    }
+  ],
+  "source_refs": [
+    "danmachi-main/vol-01/full.txt:1-7348",
+    "danmachi-main/vol-02/full.txt:79-1382",
+    "danmachi-main/vol-02/full.txt:1383-2854",
+    "danmachi-main/vol-02/full.txt:3010-3446",
+    "danmachi-main/vol-02/full.txt:3447-5534",
+    "danmachi-main/vol-02/full.txt:5535-6320",
+    "danmachi-main/vol-02/full.txt:6879-8750",
+    "danmachi-main/vol-02/full.txt:8879-9010",
+    "danmachi-main/vol-03/full.txt:12",
+    "danmachi-main/vol-03/full.txt:208",
+    "danmachi-main/vol-03/full.txt:544",
+    "danmachi-main/vol-03/full.txt:1064",
+    "danmachi-main/vol-03/full.txt:1120",
+    "danmachi-main/vol-03/full.txt:2228",
+    "danmachi-main/vol-03/full.txt:7088"
+  ]
+}

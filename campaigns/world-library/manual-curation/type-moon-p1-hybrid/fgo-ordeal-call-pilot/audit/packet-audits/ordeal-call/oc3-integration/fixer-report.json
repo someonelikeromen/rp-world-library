@@ -1,0 +1,29 @@
+{
+  "schema": "tm-fgo-packet-fixer-report-v1",
+  "packetId": "pkt-fgo-ordeal-call-oc3-integration-prep",
+  "chapterId": "fgo-ordeal-call-3-integration",
+  "slug": "oc3-integration",
+  "fixerPass": "fixer-after-initial-audit",
+  "status": "content-fix-applied",
+  "actions": [
+    {
+      "actionId": "fixer-candidate-policy-cleanup",
+      "result": "Edited extracted/ordeal-call/oc3-integration/candidates/unsupported-label-candidates.json so oc3-candidate-external-foreign-title-spelling only contains unsupported aliases Ordeal Call III and OC3, while directly source-supported Archetype Inception remains in formal title records instead of candidate-only unsupported records."
+    },
+    {
+      "actionId": "fixer-review-required-families",
+      "result": "No missing required extracted, normalized, or audit family was detected."
+    },
+    {
+      "actionId": "fixer-review-mandatory-gaps",
+      "result": "Explicit not-found-in-source records cover missing character outfit visuals, named NP/skill/magecraft activations, detailed combat visuals, summoning mechanics, and direct scene transcript dialogue."
+    }
+  ],
+  "contentFilesChangedByFixer": [
+    "extracted/ordeal-call/oc3-integration/candidates/unsupported-label-candidates.json"
+  ],
+  "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt:1-92"],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

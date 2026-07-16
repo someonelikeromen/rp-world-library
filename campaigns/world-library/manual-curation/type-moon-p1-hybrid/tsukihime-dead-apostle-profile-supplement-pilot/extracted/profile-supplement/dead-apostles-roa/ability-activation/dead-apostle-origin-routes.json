@@ -1,0 +1,33 @@
+{
+  "schema": "tm-tsukihime-extracted-record-set-v1",
+  "packetId": "dead-apostles-roa",
+  "recordSetId": "dead-apostle-origin-routes",
+  "status": "generated-pending-audit",
+  "candidateOnly": false,
+  "records": [
+    {
+      "recordId": "ext-dead-apostle-activation-true-ancestor-blood-001",
+      "recordType": "ability-activation",
+      "subject": "Dead Apostle conversion",
+      "summary": "Dead Apostle conversion can occur when a human is blood-sucked by a True Ancestor and transformed into a servant.",
+      "activationRaw": "被真祖吸血后转化为其奴仆的人类",
+      "continuityTaxonomy": {"category": "sandbox", "rawSourceLabels": ["死徒", "真祖"], "sourceAvailability": "supported-world-system-summary"},
+      "sourceRefs": ["sources/worldbook-profile/tm-summary-dead-apostle-true-ancestor.txt:24"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "recordId": "ext-dead-apostle-activation-magecraft-research-001",
+      "recordType": "ability-activation",
+      "subject": "Dead Apostle self-transformation",
+      "summary": "Dead Apostle transformation can also occur when a magus becomes a vampire through magecraft research or similar methods.",
+      "activationRaw": "通过魔术研究等手段自行转化为吸血鬼的魔术师",
+      "continuityTaxonomy": {"category": "sandbox", "rawSourceLabels": ["死徒"], "sourceAvailability": "supported-world-system-summary"},
+      "sourceRefs": ["sources/worldbook-profile/tm-summary-dead-apostle-true-ancestor.txt:24"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    }
+  ]
+}

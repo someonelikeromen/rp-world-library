@@ -1,0 +1,59 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "exceed-armor",
+  "volume": "vol-13",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-13/full.txt:6700"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-13",
+      "volume": "vol-13",
+      "time": "龙匪贼决战",
+      "name": {
+        "zh": "超越装甲",
+        "en": "Exceed Armor"
+      },
+      "aliases": [
+        "莉夏的新型机龙系统"
+      ],
+      "type": "technology / combat",
+      "description": "莉夏将泛用机龙分解改造成附加装甲，叠加在神装机龙《迪亚玛特》上，根据战况切换飞翔、陆战、特装强化形态。",
+      "details": {
+        "developer": "lisesharte-atismata",
+        "base": "diamat",
+        "forms": [
+          "飞翔机龙·天翼",
+          "陆战机龙·烈爪",
+          "特装机龙·冲角"
+        ],
+        "limitations": "体力和精神负担极高，全力战斗只能维持数分钟"
+      },
+      "activation": {
+        "condition": "装备特制剑带与改造机龙机攻壳剑",
+        "incantation": "超越装甲·启动",
+        "time": "高速召唤结合",
+        "cost": "极高体力与机龙能量"
+      },
+      "effects": [
+        "天翼提升机动力与机龙咆哮威力",
+        "烈爪追加钻头/高频剑装甲臂",
+        "冲角强化特装探测干扰与最大功率"
+      ],
+      "known_feats": [
+        {
+          "summary": "莉夏用天翼压制葛托汉、烈爪破坏拜因、冲角击败朵拉肯。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-13/full.txt:6700"
+        }
+      ],
+      "shared_by": [
+        "lisesharte-atismata"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-13/full.txt:6700"
+      ]
+    }
+  ]
+}

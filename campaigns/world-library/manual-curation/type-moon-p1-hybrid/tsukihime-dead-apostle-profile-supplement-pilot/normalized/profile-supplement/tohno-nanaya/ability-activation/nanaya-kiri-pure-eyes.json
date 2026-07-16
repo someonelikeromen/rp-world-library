@@ -1,0 +1,24 @@
+{
+  "schema": "tm-tsukihime-normalized-fragment-v1",
+  "packetId": "tohno-nanaya",
+  "fragmentId": "ability-activation-nanaya-kiri-pure-eyes",
+  "layer": "ability-activation",
+  "subjectId": "nanaya-kiri",
+  "continuity": {
+    "rawSourceLabel": "七夜黄理 profile signals",
+    "canonicalContinuity": "sandbox",
+    "taxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy/rawLabelMapping/mixed/crossover/RP premise"
+  },
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "candidateOnly": false,
+  "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:30"],
+  "assertions": [
+    {
+      "property": "pureEyes",
+      "value": "has Pure Eyes that can see a person's inside and know the other's thoughts without conversation",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:30"]
+    }
+  ]
+}

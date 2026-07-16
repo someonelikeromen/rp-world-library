@@ -1,0 +1,33 @@
+{
+  "schema": "tm-tsukihime-candidate-relationship-edge-set-v1",
+  "packetId": "dead-apostles-roa",
+  "recordSetId": "roa-ciel-candidate-edges",
+  "status": "generated-pending-audit",
+  "candidateOnly": true,
+  "edges": [
+    {
+      "edgeId": "candidate-roa-ciel-original",
+      "from": "ciel-original-candidate-id",
+      "to": "michael-roa-valdamjong-candidate-id",
+      "type": "former-reincarnation-body-archenemy-candidate",
+      "summary": "Original Ciel source says Ciel was once Roa's reincarnation body and that Roa is her archenemy and source of pain.",
+      "continuityTaxonomy": {"category": "original", "rawSourceLabels": ["同人版"], "sourceAvailability": "supported-profile-signal; candidate-only edge"},
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:21", "sources/worldbook-profile/dlc-tsukihime-ciel.txt:33"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    },
+    {
+      "edgeId": "candidate-roa-ciel-remake",
+      "from": "ciel-remake-candidate-id",
+      "to": "michael-roa-valdamjong-candidate-id",
+      "type": "former-reincarnation-body-archenemy-curse-source-candidate",
+      "summary": "Remake Ciel source says Ciel was once Roa's reincarnation body and that Roa is her archenemy and curse source.",
+      "continuityTaxonomy": {"category": "remake", "rawSourceLabels": ["重制版"], "sourceAvailability": "supported-profile-signal; candidate-only edge"},
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:44", "sources/worldbook-profile/dlc-tsukihime-ciel.txt:55"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    }
+  ]
+}

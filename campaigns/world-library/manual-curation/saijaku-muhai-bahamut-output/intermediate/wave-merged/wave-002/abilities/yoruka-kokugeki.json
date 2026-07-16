@@ -1,0 +1,53 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "yoruka-kokugeki",
+  "volume": "vol-06",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:6720"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-06",
+      "volume": "vol-06",
+      "time": "本卷",
+      "name": {
+        "zh": "刻击",
+        "en": "Kokugeki"
+      },
+      "aliases": [
+        "意识缝隙斩击"
+      ],
+      "type": "combat / supernatural / skill",
+      "description": "夜架借左眼洗礼强化后完成的剑技，瞄准对手意识中断的下意识缝隙发动斩击，使对手即使看见也难以反应。",
+      "details": {
+        "principle": "观察对手意识波长与动作预备习惯"
+      },
+      "activation": {
+        "condition": "高度集中并使用强化左眼",
+        "incantation": "无",
+        "time": "瞬间",
+        "cost": "集中力，使用时难以同时用神装"
+      },
+      "effects": [
+        "绕过反应",
+        "贯穿障壁造成冲击",
+        "压制普通机龙可一击必杀"
+      ],
+      "known_feats": [
+        "多次命中巴哈姆特，直到路克斯看穿夜架带感情的预备习惯"
+      ],
+      "shared_by": [
+        "kirihime-yoruka"
+      ],
+      "see_also": [
+        "baptism-left-eye",
+        "drag-ride-three-arts"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:6720"
+      ]
+    }
+  ]
+}

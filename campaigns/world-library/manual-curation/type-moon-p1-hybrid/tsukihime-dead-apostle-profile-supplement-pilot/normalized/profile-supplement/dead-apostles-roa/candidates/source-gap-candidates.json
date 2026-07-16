@@ -1,0 +1,56 @@
+{
+  "schema": "tm-tsukihime-candidate-set-v1",
+  "packetId": "dead-apostles-roa",
+  "recordSetId": "source-gap-candidates",
+  "status": "generated-pending-audit",
+  "candidateOnly": true,
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "mixed-source-status-see-records",
+  "candidates": [
+    {
+      "candidateId": "source-gap-roa-direct-profile",
+      "kind": "source-gap",
+      "label": "Roa standalone profile",
+      "reason": "Direct standalone profile was not confirmed in Stage 1 read.",
+      "continuityTaxonomy": {"category": "sandbox", "rawSourceLabels": ["罗亚", "candidate-only"], "sourceAvailability": "source-gap/candidate-only"},
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:33", "sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:35"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    },
+    {
+      "candidateId": "source-gap-named-dead-apostle-profiles",
+      "kind": "source-gap",
+      "label": "Named Dead Apostle supporting profiles",
+      "reason": "Candidate excerpt says direct profiles for several supporting cast may exist but were not formalized here.",
+      "continuityTaxonomy": {"category": "sandbox", "rawSourceLabels": ["candidate-only"], "sourceAvailability": "source-gap/candidate-only"},
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:34", "sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:35"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    },
+    {
+      "candidateId": "source-gap-kagetsu-tohya",
+      "kind": "source-gap",
+      "label": "Kagetsu Tohya Dead Apostle surfaces",
+      "reason": "Source unit manifest policy says this category has no Stage 1 source text and must remain source-gap/candidate-only.",
+      "continuityTaxonomy": {"category": "kagetsu-tohya", "rawSourceLabels": ["source-gap/candidate-only"], "sourceAvailability": "source-gap/candidate-only"},
+      "sourceRefs": ["source-unit-manifest.json"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "unknown"
+    },
+    {
+      "candidateId": "source-gap-type-lumina",
+      "kind": "source-gap",
+      "label": "Type Lumina Dead Apostle surfaces",
+      "reason": "Source unit manifest policy says this category has no Stage 1 source text and must remain source-gap/candidate-only.",
+      "continuityTaxonomy": {"category": "type-lumina", "rawSourceLabels": ["source-gap/candidate-only"], "sourceAvailability": "source-gap/candidate-only"},
+      "sourceRefs": ["source-unit-manifest.json"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "unknown"
+    }
+  ]
+}

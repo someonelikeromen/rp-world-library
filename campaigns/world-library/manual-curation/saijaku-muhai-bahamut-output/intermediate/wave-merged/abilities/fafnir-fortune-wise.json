@@ -1,0 +1,51 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "fafnir-fortune-wise",
+  "volume": "vol-08",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-08/full.txt:7320"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-08-main",
+      "volume": "vol-08",
+      "time": "巡礼祭战斗期间",
+      "name": {
+        "zh": "财祸睿智",
+        "en": "Wise Blood / Fafnir Future Sight"
+      },
+      "aliases": [
+        "未来预测",
+        "财祸睿智·炯眼"
+      ],
+      "type": "technology / combat",
+      "description": "《法夫纳》的神装，能预测数秒后的未来。完全结合后库露露席法进一步以大量预测计算推导胜利路径。",
+      "details": {
+        "user": "krullcifer-einfolk",
+        "drag_ride": "fafnir"
+      },
+      "activation": {
+        "condition": "《法夫纳》神装启动",
+        "incantation": "财祸睿智",
+        "time": "短时",
+        "cost": "视野受阻或敌方高速扰乱会降低效果"
+      },
+      "effects": [
+        "预测敌方动作",
+        "辅助精准狙击",
+        "完全结合后推导反射弹轨迹"
+      ],
+      "known_feats": [
+        "以财祸睿智·炯眼击破《赤帝白皇》"
+      ],
+      "shared_by": [
+        "krullcifer-einfolk"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-08/full.txt:7320"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "tm-tsukihime-work-packet-v1",
+  "packetId": "core-systems",
+  "stage": "future-extraction-plan",
+  "status": "planned",
+  "sourceUnits": ["src-tm-summary-dead-apostle-true-ancestor", "src-tm-summary-mystic-eyes", "src-tm-summary-mystic-eyes-death-perception", "src-tm-summary-church-conceptual-weapons", "src-dlc-tsukihime-tohno-nanaya", "src-dlc-tsukihime-arcueid", "src-dlc-tsukihime-ciel"],
+  "sourceFiles": ["sources/worldbook-profile/tm-summary-dead-apostle-true-ancestor.txt", "sources/worldbook-profile/tm-summary-mystic-eyes.txt", "sources/worldbook-profile/tm-summary-mystic-eyes-of-death-perception.txt", "sources/worldbook-profile/tm-summary-church-conceptual-weapons.txt", "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt", "sources/worldbook-profile/dlc-tsukihime-arcueid.txt", "sources/worldbook-profile/dlc-tsukihime-ciel.txt"],
+  "continuityTaxonomy": ["original", "remake", "melty-blood", "kagetsu-tohya", "type-lumina", "sandbox"],
+  "continuityTaxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy",
+  "continuitySourceGapPolicy": "Categories without Stage 1 source text are source-gap/candidate-only; do not invent continuity facts.",
+  "candidateScopes": ["dead-apostle-vs-true-ancestor taxonomy", "mystic-eyes taxonomy", "mystic-eyes-of-death-perception", "church executor and burial agency", "conceptual weapons", "anti-vampire equipment", "Tohno mixed-blood and Nanaya demon-hunting context"],
+  "mandatoryExtractionLayers": ["appearance", "outfit-equipment", "ability-activation", "combat-effect", "relationships", "timeline", "not-found-in-source"],
+  "visualAbilityCombatRequirements": {
+    "appearance": "record only source-backed visual traits or not-found-in-source",
+    "outfitEquipment": "record source-backed equipment visuals such as Mystic Eye Killers, Seventh Holy Scripture, Black Keys, Arcueid outfit signals, or not-found-in-source",
+    "abilityActivation": "record activation / use scenes for Mystic Eyes, Marble Phantasm, Idea Blood, Church sacraments where text supports it; otherwise not-found-in-source",
+    "combatEffect": "record source-backed combat effect and outcome text; otherwise not-found-in-source"
+  },
+  "relationshipPolicy": "Core-system packet may identify relation categories but must not create audited relationship edges.",
+  "timelinePolicy": "Use raw labels such as 月姬前, 月姬, 重制版, 同人版; no invented dates.",
+  "forbidden": ["formal graph", "formal timeline", "merged entity records", "unsupported canon claims", "characters.json", "events.json", "relationships.json"],
+  "gateCriteria": ["all systems have sourceRefs to line-addressable source files", "system summaries do not override direct profile entries", "raw labels and continuity tags survive", "not-found records exist for mandatory surfaces absent from each source unit"]
+}

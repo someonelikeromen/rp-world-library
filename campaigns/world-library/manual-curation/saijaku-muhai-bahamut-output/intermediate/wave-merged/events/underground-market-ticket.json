@@ -1,0 +1,39 @@
+{
+  "_schema": "rp-event-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "event_id": "underground-market-ticket",
+  "volume": "vol-11",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-11/full.txt:800"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-11",
+      "volume": "vol-11",
+      "time": "vol-11 early",
+      "name": {
+        "zh": "地下市场入场券取得",
+        "en": "Underground Market Tickets Acquired"
+      },
+      "type": "incident",
+      "location": "heidhelm",
+      "summary": "菲尔菲识破宴会商人用假金币压价的骗局，并以三枚金币换得两人份地下市场入场券。",
+      "cause": "路克斯需要潜入地下市场确认违法交易。",
+      "process": "男子试图混入假金币，菲尔菲凭嗅觉识破并反制议价。",
+      "outcome": "路克斯与菲尔菲取得地下市场入场资格。",
+      "participants": [
+        "lux",
+        "philuffy"
+      ],
+      "casualties": [],
+      "related_events": [
+        "heiburg-infiltration-start"
+      ],
+      "significance": "显示菲尔菲的观察力与商业直觉，并推进潜伏任务。",
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-11/full.txt:800"
+      ]
+    }
+  ]
+}

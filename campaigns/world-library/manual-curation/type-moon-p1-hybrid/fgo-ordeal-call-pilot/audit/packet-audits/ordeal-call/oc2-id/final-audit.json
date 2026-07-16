@@ -1,0 +1,51 @@
+{
+  "schema": "tm-fgo-packet-final-audit-v1",
+  "packetId": "pkt-fgo-ordeal-call-oc2-id-prep",
+  "chapterId": "fgo-ordeal-call-2-id",
+  "slug": "oc2-id",
+  "auditPass": "auditor-rerun-after-fixer",
+  "finalStatus": "passed",
+  "blocked": false,
+  "sourceTextGate": "passed",
+  "generatorStatus": "completed-after-retry",
+  "auditorStatus": "passed",
+  "fixerStatus": "completed-normalization-consistency-and-candidate-policy-fixes",
+  "auditorRerunStatus": "passed",
+  "openIssues": 0,
+  "blockedIssues": 0,
+  "validationSummary": {
+    "requiredExtractedOutputs": "passed",
+    "requiredNormalizedOutputs": "passed",
+    "requiredAuditOutputs": "passed",
+    "sourceFirstLabels": "passed",
+    "unsupportedLabelsCandidateOnly": "passed",
+    "formalMetadata": "passed",
+    "relationshipTimelineFields": "passed",
+    "explicitNotFoundRecords": "passed",
+    "forbiddenAggregateFiles": "passed",
+    "jsonValidity": "passed-manual-no-executable-parser"
+  },
+  "coverageSummary": {
+    "phaseEventFiles": 4,
+    "stageCharacterRecords": 7,
+    "relationshipSignalFiles": 5,
+    "appearanceSignalFiles": 2,
+    "abilitySignalFiles": 1,
+    "combatEffectSignalFiles": 1,
+    "notFoundInSourceFiles": 1,
+    "dialogueFiles": 1,
+    "candidateFiles": 1,
+    "normalizedFiles": 6,
+    "auditFiles": 4
+  },
+  "knownSourceLimitations": [
+    "Current source is a structured worldbook script summary, not a full scene transcript.",
+    "Most character clothing/body/equipment visuals are not present in current source and are recorded as not-found-in-source.",
+    "The source gives one explicit 宝具 release for 耀星的哈桑 and broad ability activations, but does not provide proper NP names, incantations, ranks, parameters, or attack choreography.",
+    "Combat details are limited to broad participants, effects, targets, costs, and consequences such as 灵基概念 expenditure, 光流消散, 黑炎, 绝对防御, and 灵基图谱变暗."
+  ],
+  "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:1-89"],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

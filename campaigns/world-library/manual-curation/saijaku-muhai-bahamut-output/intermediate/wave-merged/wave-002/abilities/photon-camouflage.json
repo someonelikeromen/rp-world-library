@@ -1,0 +1,70 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "photon-camouflage",
+  "volume": "vol-07",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-07/full.txt:3500"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-07-main",
+      "volume": "vol-07",
+      "time": "阶层测验与迷宫战",
+      "name": {
+        "zh": "光子潜行/迷彩",
+        "en": "Photon Camouflage"
+      },
+      "aliases": [
+        "迷彩",
+        "光子潜行"
+      ],
+      "type": "technology / combat",
+      "description": "特装机龙或库耶列布勒相关的潜行/无敌化能力。本卷中诺珂特以迷彩隐藏身形，葛莱法的库耶列布勒则以光子潜行短时间无敌化。",
+      "details": {
+        "nokotte_use": "与周围景色同化并隐身",
+        "greifer_use": "神装短时无敌化并弹开攻击"
+      },
+      "activation": {
+        "condition": "装备对应机龙",
+        "incantation": "迷彩/光子潜行",
+        "time": "短时间",
+        "cost": "持续时间有限，需判断时机"
+      },
+      "effects": [
+        "隐蔽位置",
+        "规避攻击",
+        "制造反击机会"
+      ],
+      "power_level": {
+        "initial": "特装机龙辅助功能",
+        "peak": "葛莱法用其承受迪尔威攻击并反击",
+        "evolution": []
+      },
+      "known_feats": [
+        "诺珂特用迷彩配合路克斯击败巴兹赫姆",
+        "葛莱法用光子潜行对抗龙牙射剑"
+      ],
+      "shared_by": [
+        "nokotte-leaflet",
+        "greifer-neste"
+      ],
+      "see_also": [
+        "special-dragon",
+        "cuelebre"
+      ],
+      "countered_by": [
+        "持续攻击超过有效时间"
+      ],
+      "counters": [
+        "dragon-fang-shooting-sword"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-07/full.txt:3500",
+        "saijaku-muhai-bahamut-main/vol-07/full.txt:7000"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "yato-no-kami-forbidden-curse",
+  "volume": "vol-20",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-20/full.txt:4773"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-20",
+      "volume": "vol-20",
+      "time": "最终战",
+      "name": {
+        "zh": "禁咒符号",
+        "en": "Forbidden Curse"
+      },
+      "aliases": [],
+      "type": "divine-drag-ride ability",
+      "description": "夜刀神神装，可向其他机龙写入控制指令。夜架用其控制奥罗波若斯局部装甲，打开肩部幻创机核舱口。",
+      "details": {
+        "used_by": "kirihime-yoruka"
+      },
+      "activation": {
+        "condition": "接触或靠近目标机龙",
+        "incantation": "禁咒符号",
+        "time": "短时持续",
+        "cost": "随目标规模大幅增加"
+      },
+      "effects": [
+        "控制敌方机龙部位",
+        "打开装甲",
+        "限制行动"
+      ],
+      "power_level": {
+        "initial": "高",
+        "peak": "短暂干涉奥罗波若斯",
+        "evolution": []
+      },
+      "known_feats": [
+        "打开奥罗波若斯肩部核心舱口"
+      ],
+      "shared_by": [
+        "kirihime-yoruka"
+      ],
+      "see_also": [
+        "yato-no-kami",
+        "starlight-blast"
+      ],
+      "countered_by": [],
+      "counters": [
+        "ouroboros-eternal-return"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-20/full.txt:4773"
+      ]
+    }
+  ]
+}

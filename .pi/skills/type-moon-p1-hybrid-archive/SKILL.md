@@ -38,6 +38,18 @@
 20. 如果 source 没有明确外貌/宝具/技能/演出描述，必须写入 `not-found-in-source` 记录；不得静默缺失。
 21. 外貌、宝具/技能、战斗演出不得从游戏常识、wiki 印象或模型记忆补写。
 
+### 三 agent 分离硬约束
+
+Type-Moon / FGO p1-hybrid 的 packet / normalization / merge / graph / timeline / final-fix / retrospective correction 必须遵守：
+
+```text
+rules/type-moon-three-agent-loop-rules.md
+docs/type-moon-three-agent-loop-protocol.md
+```
+
+本 skill 中所有 `Generator → Auditor → Fixer → Auditor rerun` 均指**分离 agent 角色**。单一 agent 内部自称完成三 agent 循环，不满足通过条件。
+
+执行确认后只能执行确认计划内动作。任何计划外补结构、补 canonical layer、补 wrapper、补 relationship edge、发布、迁移、或 nonblocking risk 修复，都必须先提出新计划并等待用户确认。
 ## Subagent 模型与工具权限
 
 ### 模型
@@ -390,11 +402,16 @@ merged/combat-effects/<arc>/<chapter>/<effect>.json
 
 ## 详细文档
 
-执行细节见：
+执行规则与细节见：
 
 ```text
+rules/type-moon-three-agent-loop-rules.md
+docs/type-moon-three-agent-loop-protocol.md
 docs/type-moon-p1-hybrid-archive-plan.md
+docs/type-moon-fgo-script-p1-plan.md
 ```
+
+其中 `rules/type-moon-three-agent-loop-rules.md` 是三 agent 分离与 parent 边界的强制规则；若临时计划与该规则冲突，必须先修订计划并重新等待用户确认。
 
 ## 下一步执行前置
 

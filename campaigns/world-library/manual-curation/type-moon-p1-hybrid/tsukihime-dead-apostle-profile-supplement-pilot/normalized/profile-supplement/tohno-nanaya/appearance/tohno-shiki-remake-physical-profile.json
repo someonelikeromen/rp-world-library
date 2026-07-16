@@ -1,0 +1,29 @@
+{
+  "schema": "tm-tsukihime-normalized-fragment-v1",
+  "packetId": "tohno-nanaya",
+  "fragmentId": "appearance-tohno-shiki-remake-physical-profile",
+  "layer": "appearance",
+  "subjectId": "tohno-shiki-remake",
+  "continuity": {
+    "rawSourceLabel": "重制版",
+    "canonicalContinuity": "remake",
+    "taxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy/rawLabelMapping/重制版"
+  },
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "candidateOnly": false,
+  "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:59"],
+  "assertions": [
+    {
+      "property": "ageHeightWeight",
+      "value": "age 17; height 173 cm; weight 57 kg",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:59"]
+    },
+    {
+      "property": "appearanceDetailLimit",
+      "value": "source line gives physical metrics but no hair, facial, or clothing description",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:59"]
+    }
+  ]
+}

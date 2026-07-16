@@ -1,0 +1,130 @@
+{
+  "schema": "tm-fgo-source-unit-manifest-v1",
+  "project": "fgo-ordeal-call-pilot",
+  "generatedAt": "2026-07-13",
+  "generatedByStep": "prep-ordeal-call",
+  "requiredModel": "lt-yuyu/gpt-5.5",
+  "status": "prep-gate-ready",
+  "sourceTextStatus": "not-created-in-prep",
+  "sourceTextRequiredBeforeExtraction": true,
+  "sourceType": "user-file-worldbook-script",
+  "canonStatus": "canon-like",
+  "credibility": "B",
+  "sourceRefs": [
+    "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/[沙盒]FGO 0.8.worldbook.json:13427-13428",
+    "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/[沙盒]FGO 0.8.worldbook.json:13550-13551",
+    "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/[沙盒]FGO 0.8.worldbook.json:13673-13674"
+  ],
+  "units": [
+    {
+      "unitId": "src-fgo-ordeal-call-1-paper-moon",
+      "entryIndex": 104,
+      "slug": "oc1-paper-moon",
+      "chapterId": "fgo-ordeal-call-1-paper-moon",
+      "comment": "FGO_奏章I_纸月",
+      "titleRaw": "FGO_奏章I_虚数罗针内界_纸月",
+      "arc": "ordeal-call",
+      "chapterOrder": 1,
+      "sourceFile": "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/[沙盒]FGO 0.8.worldbook.json",
+      "sourceRefs": [
+        "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/[沙盒]FGO 0.8.worldbook.json:13427-13428"
+      ],
+      "sourceType": "user-file-worldbook-script",
+      "classification": "script-like",
+      "canonStatus": "canon-like",
+      "credibility": "B",
+      "sourceTextStatus": "not-created-in-prep",
+      "sourceTextRequiredBeforeExtraction": true,
+      "plannedSourceTextPath": "sources/worldbook-script/ordeal-call/ch-104-oc1-paper-moon.txt",
+      "packetPath": "work-packets/ordeal-call/oc1-paper-moon.json",
+      "sectionsExpected": [
+        "核心设定",
+        "故事梗概",
+        "阶段划分与日期推测",
+        "重要角色阵容"
+      ],
+      "prepObservedPhaseCount": 4
+    },
+    {
+      "unitId": "src-fgo-ordeal-call-2-id",
+      "entryIndex": 105,
+      "slug": "oc2-id",
+      "chapterId": "fgo-ordeal-call-2-id",
+      "comment": "FGO_奏章II_伊德",
+      "titleRaw": "FGO_奏章II_不可逆废弃孔_伊德",
+      "arc": "ordeal-call",
+      "chapterOrder": 2,
+      "sourceFile": "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/[沙盒]FGO 0.8.worldbook.json",
+      "sourceRefs": [
+        "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/[沙盒]FGO 0.8.worldbook.json:13550-13551"
+      ],
+      "sourceType": "user-file-worldbook-script",
+      "classification": "script-like",
+      "canonStatus": "canon-like",
+      "credibility": "B",
+      "sourceTextStatus": "not-created-in-prep",
+      "sourceTextRequiredBeforeExtraction": true,
+      "plannedSourceTextPath": "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt",
+      "packetPath": "work-packets/ordeal-call/oc2-id.json",
+      "sectionsExpected": [
+        "核心设定",
+        "故事梗概",
+        "阶段划分与日期推测",
+        "重要角色阵容"
+      ],
+      "prepObservedPhaseCount": 4
+    },
+    {
+      "unitId": "src-fgo-ordeal-call-3-integration",
+      "entryIndex": 106,
+      "slug": "oc3-integration",
+      "chapterId": "fgo-ordeal-call-3-integration",
+      "comment": "FGO_奏章III_统合",
+      "titleRaw": "FGO_奏章III_新灵长后继战_Archetype_Inception",
+      "arc": "ordeal-call",
+      "chapterOrder": 3,
+      "sourceFile": "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/[沙盒]FGO 0.8.worldbook.json",
+      "sourceRefs": [
+        "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/[沙盒]FGO 0.8.worldbook.json:13673-13674"
+      ],
+      "sourceType": "user-file-worldbook-script",
+      "classification": "script-like",
+      "canonStatus": "canon-like",
+      "credibility": "B",
+      "sourceTextStatus": "not-created-in-prep",
+      "sourceTextRequiredBeforeExtraction": true,
+      "plannedSourceTextPath": "sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt",
+      "packetPath": "work-packets/ordeal-call/oc3-integration.json",
+      "sectionsExpected": [
+        "核心设定",
+        "故事梗概",
+        "阶段划分与日期推测",
+        "重要角色阵容"
+      ],
+      "prepObservedPhaseCount": 4
+    }
+  ],
+  "downstreamRequirements": {
+    "sourceTextGate": "build planned source text paths before extraction; paths are plans only and were not created in prep",
+    "formalRecordMetadata": [
+      "sourceRefs",
+      "sourceType",
+      "credibility",
+      "canonStatus"
+    ],
+    "mandatoryLayers": [
+      "appearance",
+      "outfit_equipment_visual",
+      "noble_phantasm_skill_magecraft_authority_activation",
+      "combat_effects",
+      "not_found_in_source"
+    ],
+    "formalFileRules": [
+      "per-event formal files required",
+      "per-edge relationship files required",
+      "do not create characters.json",
+      "do not create events.json",
+      "do not create relationships.json"
+    ]
+  }
+}

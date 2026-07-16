@@ -1,0 +1,61 @@
+{
+  "_schema": "rp-location-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "location_id": "woolard-trading-post",
+  "volume": "vol-10",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-10/full.txt:2667"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-10-main",
+      "volume": "vol-10",
+      "time": "菲尔菲商会见习日",
+      "name": {
+        "zh": "伍尔艾德商会分店",
+        "en": "Woolard Trading Post Branch"
+      },
+      "aliases": [
+        "爱格兰姆财团麾下分店"
+      ],
+      "type": "building / shop",
+      "description": "爱格兰姆财团麾下大型商会分店，木材与红砖建筑，内部陈列各地商品并进行高端商谈。",
+      "geography": {
+        "district": "三号街区",
+        "features": [
+          "三层楼卖场",
+          "大型搬货口",
+          "商谈桌"
+        ]
+      },
+      "population": {
+        "groups": [
+          "分店长",
+          "商人",
+          "店员",
+          "顾客"
+        ]
+      },
+      "controlled_by": "aingram-conglomerate",
+      "affiliation": "爱格兰姆财团",
+      "significance": "菲尔菲识破赝品短剑并赠送路克斯小刀的地点。",
+      "notable_residents": [],
+      "key_events": [
+        "philuffy-commerce-trip"
+      ],
+      "related_locations": [
+        "third-block-commercial"
+      ],
+      "hazards": [
+        "旅行商人出售赝品"
+      ],
+      "secrets": [
+        "异国商人试图用真剑带搭配假短剑欺骗客人"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-10/full.txt:2667"
+      ]
+    }
+  ]
+}

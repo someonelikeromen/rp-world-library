@@ -1,0 +1,105 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "lishearlotte-rofu",
+  "volume": "vol-19",
+  "time_range": {
+    "start": "古代森林决战",
+    "end": "罗菲圣蚀被击破后"
+  },
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-19/full.txt:1-6600"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-19",
+      "volume": "vol-19",
+      "time": "古代森林决战",
+      "label": "新王国公主",
+      "name": {
+        "zh": "莉兹夏尔蒂/莉夏",
+        "en": "Lishearlotte",
+        "jp": ""
+      },
+      "aliases": [
+        "莉夏",
+        "朱红战姬",
+        "公主殿下"
+      ],
+      "titles": [
+        "新王国公主"
+      ],
+      "gender": "female",
+      "species": "human",
+      "nationality": "新王国",
+      "occupation": "公主/机龙开发者/机龙使",
+      "affiliation": "新王国",
+      "status": {
+        "end": "存活，解除感知操纵，继承罗菲遗志",
+        "mental": "接受必须亲手阻止义母罗菲的痛苦现实"
+      },
+      "personality": {
+        "summary": "直率、骄傲、重情重义，因父亲与罗菲的创伤而害怕再次被抛弃。",
+        "core_traits": [
+          "责任感",
+          "倔强",
+          "创造力",
+          "重视家人"
+        ],
+        "inner_conflict": "想守护罗菲和新王国，却必须承认罗菲已成为威胁。"
+      },
+      "abilities_owned": [
+        "divine-voice",
+        "baptism-energy-burn"
+      ],
+      "possessions_owned": [
+        "diamat",
+        "wyvern-wing",
+        "land-battle-claw",
+        "special-ram",
+        "seven-dragon-heads",
+        "aerial-fortress"
+      ],
+      "relationships": {
+        "lux-arcadia": {
+          "type": "lover / knight",
+          "summary": "在路克斯告白后摆脱感知操纵，与他共同承担罗菲的终局。"
+        },
+        "queen-rofu": {
+          "type": "adoptive mother",
+          "summary": "互为创伤理解者；最终在罗菲临终时以母女身份告别。"
+        },
+        "krulusifa-enfortis": {
+          "type": "rival / friend",
+          "summary": "被库露露席法逼迫直视自己逃避的现实。"
+        },
+        "airi-arcadia": {
+          "type": "ally after awakening",
+          "summary": "觉醒后与爱理等人合流。"
+        }
+      },
+      "summary": "莉夏在世界改写下将路克斯视为敌人，先后击败路克斯并压制库露露席法。路克斯告白后她恢复认知，选择作为公主和女儿阻止罗菲。",
+      "key_events": [
+        {
+          "event_id": "lux-vs-lishearlotte-vol19",
+          "summary": "击败路克斯",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-19/full.txt:1697-2256"
+        },
+        {
+          "event_id": "lux-confession-to-lishearlotte",
+          "summary": "因路克斯告白恢复认知",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-19/full.txt:2693-6600"
+        },
+        {
+          "event_id": "rofu-queen-death",
+          "summary": "与罗菲最后告别",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-19/full.txt:2693-6600"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-19/full.txt:1-6600"
+      ]
+    }
+  ]
+}

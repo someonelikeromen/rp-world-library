@@ -1,0 +1,37 @@
+{
+  "schema": "tm-tsukihime-normalized-system-fragment-v1",
+  "packetId": "dead-apostles-roa",
+  "recordId": "system-dead-apostle-ancestor-taxonomy",
+  "status": "generated-pending-audit",
+  "label": "死徒二十七祖",
+  "candidateOnly": false,
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "mixed-source-status-see-records",
+  "continuityTags": ["sandbox", "original", "remake"],
+  "sourceRefs": ["sources/worldbook-profile/tm-summary-dead-apostle-true-ancestor.txt:26"],
+  "records": [
+    {
+      "recordId": "dead-apostle-ancestors-definition",
+      "kind": "definition",
+      "candidateOnly": false,
+      "summary": "The Twenty-seven Dead Apostle Ancestors are the oldest and strongest twenty-seven Dead Apostles according to the system summary.",
+      "continuityTaxonomy": {"category": "sandbox", "rawSourceLabels": ["死徒", "二十七祖"], "sourceAvailability": "supported-world-system-summary"},
+      "sourceRefs": ["sources/worldbook-profile/tm-summary-dead-apostle-true-ancestor.txt:26"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "recordId": "dead-apostle-ancestors-named-members-candidate-policy",
+      "kind": "candidate-policy",
+      "candidateOnly": true,
+      "summary": "Named Ancestor mentions such as Nero and Vlov remain candidate-only because the assigned packet has indirect mentions but no direct standalone profile reads.",
+      "continuityTaxonomy": {"category": "sandbox", "rawSourceLabels": ["candidate-only"], "sourceAvailability": "source-gap/candidate-only"},
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:26", "sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:27", "sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:34"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    }
+  ]
+}

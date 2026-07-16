@@ -1,0 +1,82 @@
+{
+  "_schema": "rp-item-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "item_id": "brand-sword",
+  "volume": "vol-17",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-17/full.txt:3650"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-17",
+      "volume": "vol-17",
+      "time": "隐藏机龙库战",
+      "name": {
+        "zh": "烙印剑",
+        "en": "Brand Sword"
+      },
+      "aliases": [
+        "莉夏制造的特殊武装"
+      ],
+      "type": "weapon / equipment",
+      "description": "莉夏为路克斯制作的特殊武装,可将受到阻碍的力量转移到剑上并反击。本卷用于击碎那鲁夫的铁锤并反转战局。",
+      "details": {
+        "maker": "lisesharte-atismata",
+        "user": "lux-arcadia",
+        "function": "受力转移与反击"
+      },
+      "owner": "lux-arcadia",
+      "status": "active",
+      "features": [
+        "吸收/转移阻力",
+        "反击强化",
+        "特殊剑装"
+      ],
+      "associated_abilities": [
+        "quick-draw"
+      ],
+      "history": [
+        {
+          "summary": "路克斯以该武装反击那鲁夫并摧毁其铁锤。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-17/full.txt:3650"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-17/full.txt:3650"
+      ]
+    },
+    {
+      "period_id": "vol-19",
+      "volume": "vol-19",
+      "time": "古代森林决战",
+      "name": {
+        "zh": "烙印剑",
+        "en": "Brand Sword"
+      },
+      "aliases": [
+        "巴哈姆特大剑"
+      ],
+      "type": "weapon",
+      "description": "巴哈姆特使用的大剑，路克斯用其拦截空挺要塞、斩击迪亚玛特并最终贯穿罗菲圣蚀核心。",
+      "owner": "lux-arcadia",
+      "status": "active",
+      "features": [
+        "近战斩击",
+        "可配合暴食超加速",
+        "最终核心贯穿"
+      ],
+      "associated_abilities": [
+        "gluttony",
+        "limit-break"
+      ],
+      "history": [
+        "最终战中承受精神污染接触风险"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-19/full.txt:1697-6600"
+      ]
+    }
+  ]
+}

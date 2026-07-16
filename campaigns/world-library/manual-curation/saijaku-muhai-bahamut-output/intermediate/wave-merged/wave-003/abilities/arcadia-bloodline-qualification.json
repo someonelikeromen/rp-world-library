@@ -1,0 +1,77 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "arcadia-bloodline-qualification",
+  "volume": "vol-15",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-15/full.txt:1450"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-15",
+      "volume": "vol-15",
+      "time": "Great Sanctuary deep layer",
+      "name": {
+        "zh": "阿卡迪亚血脉资格",
+        "en": "Arcadia Bloodline Qualification"
+      },
+      "aliases": [
+        "大圣域资格者权限"
+      ],
+      "type": "authority / genetic / system",
+      "description": "大圣域识别阿卡迪亚皇族或其后裔的资格，用于回应阿榭立亚、接受三项考验并连结中枢。",
+      "details": {
+        "recognized_qualifiers": [
+          "lux-arcadia",
+          "airi-arcadia",
+          "ariel-arcadia",
+          "listelka-arcadia",
+          "hayes-arcadia",
+          "fugil-arcadia"
+        ]
+      },
+      "activation": {
+        "condition": "拥有阿卡迪亚皇族血脉或被机制承认为资格者",
+        "incantation": "",
+        "time": "passive",
+        "cost": "必须接受考验"
+      },
+      "effects": [
+        "阿榭立亚回应提问",
+        "可接受三项考验",
+        "可连结大圣域中枢"
+      ],
+      "power_level": {
+        "initial": "authority-level",
+        "peak": "control of Great Sanctuary after trials",
+        "evolution": []
+      },
+      "known_feats": [
+        "阿榭立亚只回应阿卡迪亚后裔",
+        "在场被判定有六名资格者"
+      ],
+      "shared_by": [
+        "lux-arcadia",
+        "airi-arcadia",
+        "ariel-arcadia",
+        "listelka-arcadia",
+        "hayes-arcadia",
+        "fugil-arcadia"
+      ],
+      "see_also": [
+        "great-sanctuary-interface"
+      ],
+      "countered_by": [
+        "lack of bloodline",
+        "unfinished trials"
+      ],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-15/full.txt:1450",
+        "saijaku-muhai-bahamut-main/vol-15/full.txt:2149"
+      ]
+    }
+  ]
+}

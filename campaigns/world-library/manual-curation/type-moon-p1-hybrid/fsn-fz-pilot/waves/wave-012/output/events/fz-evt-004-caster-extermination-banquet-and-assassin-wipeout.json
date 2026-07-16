@@ -1,0 +1,25 @@
+{
+  "schema": "tm-p1-event-v1",
+  "event_id": "fz-evt-004-caster-extermination-banquet-and-assassin-wipeout",
+  "worldId": "type-moon-nasuverse",
+  "continuity": "fz",
+  "timelineId": "fz-fourth-war",
+  "route": "fz-fourth-war",
+  "canonStatus": "canon-like",
+  "time": { "start": { "value": "1994-11-17T07:44:23", "precision": "YYYY-MM-DDTHH:mm:ss", "relative": "War suspended for Caster elimination", "orderIndex": 25 }, "end": { "value": "1994-11-18T21:05:50", "precision": "YYYY-MM-DDTHH:mm:ss", "relative": "Assassin wiped out by Rider", "orderIndex": 34 }, "duration": "two-days", "confidence": "high" },
+  "timelineNodes": [
+    { "nodeId": "start", "label": "Caster priority order", "time": { "relative": "1994-11-17 07:44:23", "orderIndex": 25 }, "summary": "Risei suspends the war and orders all participants to prioritize Caster." },
+    { "nodeId": "middle-001", "label": "Second battle and workshop destruction", "time": { "relative": "1994-11-17 to 1994-11-18", "orderIndex": 29 }, "summary": "The second battle occurs at Einzbern Castle; Rider later destroys Caster's workshop." },
+    { "nodeId": "end", "label": "Banquet and Assassin wipeout", "time": { "relative": "1994-11-18 evening", "orderIndex": 34 }, "summary": "The Banquet of the Three Kings occurs and Assassin is wiped out by Rider." }
+  ],
+  "participants": ["risei-kotomine", "caster-gilles", "rider-iskandar", "assassin-hundred-faces", "saber-artoria", "gilgamesh"],
+  "locationRefs": ["einzbern-castle", "fuyuki-city"],
+  "cause": "Caster's threat forces a temporary administrative suspension of ordinary war priorities.",
+  "process": "Participants are ordered to target Caster, battles continue, Rider destroys Caster's workshop, and Rider eliminates Assassin after the kings' banquet.",
+  "outcome": "Assassin is eliminated and Rider's ideological presence is emphasized through the banquet.",
+  "stateChanges": ["War temporarily suspended for Caster hunt", "Caster workshop destroyed", "Assassin eliminated"],
+  "relationshipChanges": ["Saber, Rider, and Archer/Gilgamesh are contrasted through kingship at the banquet"],
+  "sourceType": "user-file-worldbook",
+  "credibility": "A",
+  "sourceRefs": ["type-moon-nasuverse/worldbook-text/src-fate-zero.md:31", "type-moon-nasuverse/worldbook-text/src-fate-zero.md:32", "type-moon-nasuverse/worldbook-text/src-fate-zero.md:33", "type-moon-nasuverse/worldbook-text/src-fate-zero.md:35", "type-moon-nasuverse/worldbook-text/src-fate-zero.md:36", "type-moon-nasuverse/worldbook-text/src-fate-zero.md:37"]
+}

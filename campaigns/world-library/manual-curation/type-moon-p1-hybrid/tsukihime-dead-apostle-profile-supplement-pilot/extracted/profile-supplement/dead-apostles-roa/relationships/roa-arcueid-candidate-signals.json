@@ -1,0 +1,48 @@
+{
+  "schema": "tm-tsukihime-extracted-record-set-v1",
+  "packetId": "dead-apostles-roa",
+  "recordSetId": "roa-arcueid-candidate-signals",
+  "status": "generated-pending-audit",
+  "candidateOnly": true,
+  "records": [
+    {
+      "recordId": "ext-roa-arcueid-blood-deception-original-001",
+      "recordType": "relationship-candidate",
+      "candidateOnly": true,
+      "subject": "同人版爱尔奎特 / 罗亚",
+      "summary": "Original Arcueid source says Roa deceived Arcueid during her first vampiric-impulse suffering, causing her to drink his blood; her power went out of control and she killed the other True Ancestors in Castle Brunestud.",
+      "relationshipRaw": "被罗亚欺骗而吸了他的血; 能力失控暴走",
+      "continuityTaxonomy": {"category": "original", "rawSourceLabels": ["同人版"], "sourceAvailability": "supported-profile-signal; relationship candidate-only by packet policy"},
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:25"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    },
+    {
+      "recordId": "ext-roa-arcueid-execution-cycle-original-001",
+      "recordType": "relationship-candidate",
+      "candidateOnly": true,
+      "subject": "同人版爱尔奎特 / 罗亚",
+      "summary": "Original Arcueid source says that after self-sealing, Arcueid normally sleeps in Castle Brunestud and wakes only when Roa appears to execute him.",
+      "relationshipRaw": "只在罗亚出现的时候醒来处决他",
+      "continuityTaxonomy": {"category": "original", "rawSourceLabels": ["同人版"], "sourceAvailability": "supported-profile-signal; relationship candidate-only by packet policy"},
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:26"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    },
+    {
+      "recordId": "ext-roa-arcueid-direct-dead-apostle-remake-001",
+      "recordType": "relationship-candidate",
+      "candidateOnly": true,
+      "subject": "重制版爱尔奎特 / 罗亚",
+      "summary": "Remake Arcueid source says initial Roa deceived Arcueid into blood-sucking, part of her power was taken, and Roa became her direct Dead Apostle.",
+      "relationshipRaw": "初代罗亚欺骗吸血; 部分力量被夺走; 罗亚因此成为其直属死徒",
+      "continuityTaxonomy": {"category": "remake", "rawSourceLabels": ["重制版"], "sourceAvailability": "supported-profile-signal; relationship candidate-only by packet policy"},
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:46", "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:47"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    }
+  ]
+}

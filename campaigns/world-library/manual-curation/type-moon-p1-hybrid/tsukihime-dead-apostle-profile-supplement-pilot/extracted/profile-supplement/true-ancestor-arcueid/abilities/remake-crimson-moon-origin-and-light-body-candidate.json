@@ -1,0 +1,34 @@
+{
+  "schema": "tm-tsukihime-extracted-record-v1",
+  "packetId": "true-ancestor-arcueid",
+  "recordId": "ext-taa-ability-remake-crimson-moon-light-body-candidate",
+  "recordKind": "ability-activation",
+  "subject": "爱尔奎特·布伦史塔德 / 真祖",
+  "continuityTaxonomy": {
+    "category": "remake",
+    "rawSourceLabels": ["重制版"],
+    "rawContinuity": "mixed-tsukihime-doujin-remake",
+    "candidateContinuities": ["type-lumina source-gap/candidate-only"]
+  },
+  "sourceUnitIds": ["src-dlc-tsukihime-arcueid"],
+  "sourceRefs": [
+    "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:43",
+    "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:51"
+  ],
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "extracted": {
+    "crimsonMoonOriginSignal": "真祖一族起源于月球的极致存在“朱月”，是星球意志为了防御人类统治而制造出的“星球意识”代行者。",
+    "separateFormCandidates": ["暴走爱尔奎特", "光体"],
+    "lightBodyAbilitySignals": ["事象收纳", "空想无量化", "地热操作", "大气操作"]
+  },
+  "candidateOnly": true,
+  "candidateOnlyReason": "Source explicitly says 暴走爱尔奎特与光体 are forms to extract separately and lists light-body ability surfaces, but Stage 1 provides no dedicated direct profile lines for a full formal variant. Keep as candidate-only until audited source expansion.",
+  "aliasCandidates": ["朱月", "Crimson Moon", "Brunestud", "光体", "Archetype Earth candidate"],
+  "evidenceQuotes": [
+    "重制版经历: 真祖一族起源于月球的极致存在“朱月”...",
+    "重制版形态: 暴走爱尔奎特与光体是应单独抽取的形态候选..."
+  ],
+  "reviewStatus": "generated-pending-audit"
+}

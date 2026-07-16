@@ -1,0 +1,64 @@
+{
+  "_schema": "rp-item-volume-v1",
+  "world": "danmachi",
+  "item_id": "firestones",
+  "volume": "vol-14",
+  "source_refs": [
+    "danmachi-main/vol-14/full.txt:2069-5158"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-14-firestones-jura",
+      "volume": "vol-14",
+      "time": "第三章-第四章",
+      "name": {
+        "zh": "火炎石",
+        "en": "Firestones"
+      },
+      "type": "explosive_drop_item",
+      "owner": "jura-halmer",
+      "summary": "火炎石是深层怪兽烈焰魔岩的掉落道具，未经加工也具有强自燃性和爆炸性。闍罗与塔克携带大量火炎石，在第27层和第25层水之迷都设置并以魔剑点燃，造成连锁爆炸和迷宫结构崩塌，最终触发地下城防卫本能并召唤札格纳特。贝尔在现场捡到火炎石碎片，成为识破闍罗嫁祸疾风的证据。",
+      "properties": [
+        "深层掉落道具",
+        "可被火焰点燃",
+        "能造成强力爆炸",
+        "大量使用会严重破坏迷宫结构"
+      ],
+      "related_events": [
+        "bell-exposes-jura-frame-job",
+        "jura-summons-juggernaut"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-14/full.txt:2069-5158"
+      ]
+    },
+    {
+      "period_id": "vol-15-firestones",
+      "volume": "vol-15",
+      "time": "第八章-第十二章",
+      "name": {
+        "zh": "火炎石",
+        "en": "Firestones"
+      },
+      "type": "explosive_drop_item",
+      "owner": "ryu-lion / bell-cranel",
+      "summary": "闍罗与楼陀罗眷族使用的爆炸性掉落道具。琉从闍罗同伙身上夺取数颗后，在深层以其炸退怪兽、突破包围；贝尔最后以英雄愿望最大蓄力强化火炎石并用火焰闪电引爆，炸穿第37层竞技场。",
+      "uses": [
+        "炸飞第37层怪兽群",
+        "在培鲁达和地生人包围中制造逃生机会",
+        "最大蓄力后引发白色闪焰炸穿竞技场"
+      ],
+      "risks": [
+        "威力巨大，近距离会波及使用者",
+        "曾是五年前召唤札格纳特的地下城破坏原因"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-15/chapters/ch-005-第十章-白色魔宫.txt",
+        "danmachi-main/vol-15/chapters/ch-009-第十二章-真•迷宫决死行.txt",
+        "danmachi-main/vol-15/chapters/ch-010-第十三章-穿越上千黑暗.txt"
+      ]
+    }
+  ]
+}

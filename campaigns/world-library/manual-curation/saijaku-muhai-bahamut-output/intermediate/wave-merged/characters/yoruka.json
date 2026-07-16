@@ -1,0 +1,136 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "yoruka",
+  "volume": "vol-09",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-09/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-09",
+      "volume": "vol-09",
+      "time": "学园祭期间",
+      "name": {
+        "zh": "切姬夜架",
+        "en": "Kirihime Yoruka",
+        "jp": ""
+      },
+      "aliases": [
+        "帝国凶刃",
+        "御主的从仆",
+        "异国骑士"
+      ],
+      "gender": "female",
+      "species": "human",
+      "nationality": "古都国 / 旧帝国相关",
+      "occupation": "王立士官学园学生；暗杀者；骑士团成员",
+      "affiliation": "王立士官学园；路克斯个人阵营",
+      "status": {
+        "condition": "active",
+        "role": "暗中监视危险人物并向赛莉丝提出对罗莎的警告"
+      },
+      "abilities_owned": [
+        "assassination",
+        "enhanced-sight",
+        "swordsmanship"
+      ],
+      "possessions_owned": [
+        "yato-no-kami"
+      ],
+      "relationships": {
+        "lux": {
+          "type": "master",
+          "summary": "将自己视为路克斯的道具，但接受他让自己享受学园祭的命令。"
+        },
+        "celestia": {
+          "type": "ally",
+          "summary": "提醒赛莉丝罗莎与自己同样不受伦理束缚，必须警戒。"
+        },
+        "lisha": {
+          "type": "concerned ally",
+          "summary": "莉夏曾劝她不要只把自己当作道具。"
+        }
+      },
+      "summary": "夜架本卷负责巡逻与监视辛格伦、罗莎和创造主阵营。她以敏锐洞察指出赛莉丝的战斗弱点，并卷末误导赛莉丝学习过度热情的接吻方法。",
+      "key_events": [
+        {
+          "event_id": "yoruka-warning",
+          "summary": "向赛莉丝警告罗莎会利用杀人和犯规意识差。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-09/full.txt:1915"
+        },
+        {
+          "event_id": "academy-festival",
+          "summary": "在学园祭担任异国骑士与体术指导表演。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-09/full.txt:3231"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:715",
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:1915",
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:3231",
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:8125"
+      ]
+    },
+    {
+      "period_id": "vol-11",
+      "volume": "vol-11",
+      "time": "vol-11",
+      "label": "vol-11 snapshot",
+      "name": {
+        "zh": "切姬夜架",
+        "en": "Yoruka Kirihime",
+        "jp": ""
+      },
+      "aliases": [
+        "帝国凶刃",
+        "色女"
+      ],
+      "titles": [
+        "前古都国暗杀者"
+      ],
+      "gender": "女",
+      "species": "人类",
+      "occupation": "神装机龙使用者；暗杀者",
+      "affiliation": "新王国骑士团；路克斯阵营",
+      "status": {
+        "vol_11": "救出被古德菲莉卡包围的路克斯，击败炎刑比基，结尾决意暗杀辛格伦"
+      },
+      "abilities_owned": [
+        "yatogami-forbidden-curse"
+      ],
+      "possessions_owned": [
+        "yatogami"
+      ],
+      "relationships": {
+        "lux": {
+          "type": "主从式忠诚",
+          "status": "称路克斯为御主并准备排除辛格伦"
+        },
+        "noct": {
+          "type": "友人倾向",
+          "status": "逐渐被三和音接纳"
+        }
+      },
+      "summary": "以隐蔽与暗杀能力活跃，终焉神兽战中通过自伤试探弱点，结尾决定为路克斯刺杀辛格伦。",
+      "key_events": [
+        {
+          "event_id": "trapeport-occupation",
+          "summary": "从古德菲莉卡手中救出路克斯",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-11/full.txt:5400"
+        },
+        {
+          "event_id": "yoruka-assassination-resolution",
+          "summary": "在机龙停机库决意暗杀辛格伦",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-11/full.txt:8030"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-11/full.txt:5400",
+        "saijaku-muhai-bahamut-main/vol-11/full.txt:8030"
+      ]
+    }
+  ]
+}
