@@ -1,0 +1,55 @@
+{
+  "schema": "tm-tsukihime-normalized-timeline-marker-set-v1",
+  "packetId": "locations",
+  "recordId": "location-continuity-marker-set",
+  "recordKind": "timeline-marker-set",
+  "timelineBoundary": "Raw setting and continuity labels only; no formal timeline.json or route timeline is created.",
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "candidateOnly": false,
+  "continuityTaxonomy": {
+    "category": "sandbox",
+    "rawSourceLabels": ["三咲町", "总耶市", "重制版", "Melty Blood"],
+    "policyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy"
+  },
+  "markers": [
+    {
+      "markerId": "loc-marker-edo-post-station",
+      "timeRangeRaw": "从江户时代起",
+      "summary": "Misaki prospered as a post-station town from the Edo period.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-locations.txt:20"],
+      "precision": "relative-only"
+    },
+    {
+      "markerId": "loc-marker-1980s-modernization",
+      "timeRangeRaw": "1980年代",
+      "summary": "The town rapidly modernized in the 1980s.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-locations.txt:20"],
+      "precision": "decade"
+    },
+    {
+      "markerId": "loc-marker-aozaki-centuries-control",
+      "timeRangeRaw": "数百年来",
+      "summary": "The town has been under Aozaki family control for centuries.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-locations.txt:21"],
+      "precision": "relative-only"
+    },
+    {
+      "markerId": "loc-marker-remake-souya-replacement",
+      "timeRangeRaw": "月姬 -A piece of blue glass moon- (重制版) 系列",
+      "summary": "In the remake series, Misaki Town is replaced by Souya.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-locations.txt:18"],
+      "precision": "continuity-label"
+    },
+    {
+      "markerId": "loc-marker-melty-blood-starting-location",
+      "timeRangeRaw": "月姬格斗 (Melty Blood) 事件开始",
+      "summary": "The ritual skyscraper is the place where Melty Blood events begin.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-locations.txt:33"],
+      "precision": "continuity-label",
+      "candidateOnly": true
+    }
+  ],
+  "reviewStatus": "generated-pending-audit"
+}

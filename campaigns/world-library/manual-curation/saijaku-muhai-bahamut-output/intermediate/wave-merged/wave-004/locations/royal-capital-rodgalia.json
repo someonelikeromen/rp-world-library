@@ -1,0 +1,112 @@
+{
+  "_schema": "rp-location-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "location_id": "royal-capital-rodgalia",
+  "volume": "vol-17",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-17/full.txt:330"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-17",
+      "volume": "vol-17",
+      "time": "三日游行循环",
+      "name": {
+        "zh": "王都罗德加利亚",
+        "en": "Royal Capital Rodgalia"
+      },
+      "aliases": [
+        "新王国王都"
+      ],
+      "type": "city",
+      "description": "新王国亚提司玛特的首都,三日新年游行和世界改写循环的主要舞台。",
+      "geography": {
+        "features": [
+          "城堡大门",
+          "主街道",
+          "中央公园",
+          "贵族住宅区"
+        ]
+      },
+      "population": {
+        "state": "游行期间聚集大量民众与各国来宾"
+      },
+      "controlled_by": "roffe-atismata",
+      "affiliation": "new-kingdom",
+      "significance": "世界改写以三日游行为外壳覆盖王都居民和来访者认知。",
+      "notable_residents": [
+        "roffe-atismata",
+        "lisesharte-atismata",
+        "lux-arcadia"
+      ],
+      "key_events": [
+        "lux-deduces-world-rewrite",
+        "award-ceremony-amnesty"
+      ],
+      "related_locations": [
+        "rodgalia-castle",
+        "central-park",
+        "imperial-district"
+      ],
+      "hazards": [
+        "world-rewrite",
+        "perception-manipulation",
+        "automata-surveillance"
+      ],
+      "secrets": [
+        "游行记忆被反复重置,实际时间继续流逝"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-17/full.txt:330",
+        "saijaku-muhai-bahamut-main/vol-17/full.txt:7030"
+      ]
+    },
+    {
+      "period_id": "vol-18-main",
+      "volume": "vol-18",
+      "time": "蔚蓝师团事件",
+      "name": {
+        "zh": "王都罗德加利亚",
+        "en": "Royal Capital Rodgalia"
+      },
+      "aliases": [
+        "王都"
+      ],
+      "type": "city",
+      "description": "新王国首都，本卷新年游行、蔚蓝师团威胁信、贵族区演说和城堡会议均发生于此。",
+      "geography": {
+        "region": "New Kingdom capital"
+      },
+      "population": {},
+      "controlled_by": "new-kingdom",
+      "affiliation": "new-kingdom",
+      "significance": "新王国政治中心，也是罗菲与路克斯暗斗的初始舞台。",
+      "notable_residents": [
+        "rafa-atismata",
+        "lisesharte-atismata"
+      ],
+      "key_events": [
+        "azure-squad-declaration",
+        "lisesharte-kidnapped"
+      ],
+      "related_locations": [
+        "rodgalia-castle",
+        "noble-district",
+        "advanced-inn"
+      ],
+      "hazards": [
+        "圣蚀吞食事件",
+        "蔚蓝师团内战风险"
+      ],
+      "secrets": [
+        "罗菲女王与圣蚀融合后在王都内活动"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-18/full.txt:141-260",
+        "saijaku-muhai-bahamut-main/vol-18/full.txt:1322-1410"
+      ]
+    }
+  ]
+}

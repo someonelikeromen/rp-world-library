@@ -1,0 +1,44 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "godspeed-control",
+  "volume": "vol-09",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-09/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-09",
+      "volume": "vol-09",
+      "time": "vol-09",
+      "name": {
+        "zh": "神速制御",
+        "en": "Godspeed Control"
+      },
+      "aliases": [],
+      "type": "combat / technology",
+      "description": "路克斯以身体与精神同步操纵机龙的高速控制技术，可在极短时间内完成反击。",
+      "details": {
+        "used_by": "lux",
+        "drag_ride": "bahamut"
+      },
+      "activation": {
+        "condition": "高度集中与机龙同步",
+        "incantation": "",
+        "time": "instant",
+        "cost": "高操纵负荷"
+      },
+      "effects": [
+        "超高速斩击",
+        "击破嘉莲希雅武装并牵制罗莎"
+      ],
+      "shared_by": [
+        "lux"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:5341"
+      ]
+    }
+  ]
+}

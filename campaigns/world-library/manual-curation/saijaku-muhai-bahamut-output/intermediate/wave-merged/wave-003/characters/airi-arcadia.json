@@ -1,0 +1,421 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "airi-arcadia",
+  "volume": "vol-12",
+  "time_range": {
+    "start": "vol-12 episode1",
+    "end": "vol-12 epilogue"
+  },
+  "sub_arcs": [
+    "holy-night-management",
+    "box-garden-record",
+    "moon-contract"
+  ],
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-12/full.txt:123-7516"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-12-main",
+      "volume": "vol-12",
+      "time": "本卷全卷",
+      "label": "路克斯的妹妹与月启动关键",
+      "name": {
+        "zh": "爱理·阿卡迪亚",
+        "en": "Airi Arcadia",
+        "jp": ""
+      },
+      "aliases": [
+        "爱理",
+        "妹妹"
+      ],
+      "titles": [
+        "阿卡迪亚旧帝国皇族幸存者"
+      ],
+      "gender": "female",
+      "species": "human",
+      "nationality": "新王国/旧帝国阿卡迪亚血脉",
+      "occupation": "王立士官学园学生;记录员",
+      "affiliation": "新王国;骑士团协力者",
+      "status": {
+        "physical": "被绑架后平安归来",
+        "secret": "与苏菲丝缔结契约并隐瞒自己启动月的事实"
+      },
+      "abilities_owned": [],
+      "possessions_owned": [
+        "horn-flute",
+        "airi-short-sword-poison"
+      ],
+      "relationships": {
+        "lux-arcadia": {
+          "type": "sibling",
+          "summary": "珍视哥哥并害怕成为其负担"
+        },
+        "noct": {
+          "type": "friend",
+          "summary": "诺珂特因未能保护爱理而极度自责"
+        },
+        "sophis-expha": {
+          "type": "captor/contract party",
+          "summary": "苏菲丝绑架爱理并迫使她协助启动月"
+        },
+        "lee-pulica": {
+          "type": "enemy contact",
+          "summary": "在月中与苏菲丝的自动人形妹妹接触"
+        }
+      },
+      "summary": "爱理负责管理圣夜祭礼物与少女们的约定，也作为记录员随行箱庭任务。她在战斗中被苏菲丝一方绑架，因不愿成为人质准备自尽，却被要求以契约方式协助启动月。卷末她隐瞒契约，决定为了保护路克斯继续活下去。",
+      "key_events": [
+        {
+          "event_id": "holy-night-gift-agreement",
+          "summary": "统整众人圣夜祭礼物与暂不抢跑协议",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-12/full.txt:123-1234"
+        },
+        {
+          "event_id": "airi-sophis-contract",
+          "summary": "被苏菲丝绑架后缔结契约并启动月",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-12/full.txt:5113-7516"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-12/full.txt:123-7516"
+      ]
+    },
+    {
+      "period_id": "vol-13",
+      "volume": "vol-13",
+      "time": "圣夜祭前后",
+      "label": "被钥匙管理者盯上的阿卡迪亚血脉",
+      "name": {
+        "zh": "爱理·阿卡迪亚",
+        "en": "Airi Arcadia",
+        "jp": ""
+      },
+      "aliases": [
+        "路克斯的妹妹",
+        "前任皇女"
+      ],
+      "titles": [
+        "王立士官学园学生",
+        "阿卡迪亚旧帝国皇族后裔"
+      ],
+      "gender": "女",
+      "species": "人类",
+      "nationality": "亚提司玛特新王国/旧阿卡迪亚帝国",
+      "occupation": "学生、古文书解读协力者",
+      "affiliation": "王立士官学园；骑士团支援者",
+      "status": {
+        "vol13": "存活；曾被苏菲丝与龙匪贼作为解放遗迹关键目标",
+        "role": "发现并承担阿卡迪亚血脉可能能安放至高之力的秘密"
+      },
+      "abilities_owned": [
+        "ancient-text-deciphering"
+      ],
+      "possessions_owned": [
+        "airi-short-sword"
+      ],
+      "relationships": {
+        "lux-arcadia": {
+          "type": "兄长",
+          "status": "既担心又信任，是路克斯坚持战斗的重要精神支柱"
+        },
+        "sophies-ecfa": {
+          "type": "人质/理解者",
+          "status": "从被胁迫合作转为激励苏菲丝重新相信伙伴"
+        },
+        "rui-prika": {
+          "type": "敌方自动人形",
+          "status": "在月内阻止她被操纵后杀害苏菲丝"
+        },
+        "nocht-leaflet": {
+          "type": "朋友/护卫",
+          "status": "委托诺珂特暗中监视路克斯安全"
+        }
+      },
+      "knowledge": [
+        "airi-secret-pact",
+        "arcadia-bloodline-power",
+        "sophies-key-manager-trauma"
+      ],
+      "summary": "爱理因苏菲丝的秘密协议而陷入背叛新王国与保护路克斯之间的矛盾。她在屋顶交易中被当作解放箱庭的关键，之后与路克斯共同隐瞒苏菲丝被囚一事。最终在『月』内即使受伤也保护苏菲丝，并以妹妹身份的觉悟促使她重新战斗。",
+      "key_events": [
+        {
+          "event_id": "airi-secret-bath-and-pact",
+          "summary": "洗浴后回想苏菲丝以新王国安危胁迫她合作。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-13/full.txt:2140"
+        },
+        {
+          "event_id": "airi-rooftop-meeting-sophies",
+          "summary": "在第四停机库屋顶与苏菲丝会合，卷入玛姬艾儿卡伏击。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-13/full.txt:2253"
+        },
+        {
+          "event_id": "airi-protects-sophies",
+          "summary": "在『月』内以身体保护苏菲丝并说服其反抗。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-13/full.txt:6400"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-13/full.txt:150",
+        "saijaku-muhai-bahamut-main/vol-13/full.txt:2140",
+        "saijaku-muhai-bahamut-main/vol-13/full.txt:2253",
+        "saijaku-muhai-bahamut-main/vol-13/full.txt:6400"
+      ]
+    },
+    {
+      "period_id": "vol-14",
+      "volume": "vol-14",
+      "time": "大圣域攻略战",
+      "name": {
+        "zh": "爱理·阿卡迪亚",
+        "en": "Airi Arcadia",
+        "jp": ""
+      },
+      "aliases": [
+        "爱理"
+      ],
+      "titles": [
+        "阿卡迪亚血脉继承者"
+      ],
+      "gender": "female",
+      "species": "human",
+      "nationality": "亚提司玛特新王国/阿卡迪亚血脉",
+      "occupation": "情报担当；学生",
+      "affiliation": "骑士团；王立士官学园",
+      "status": {
+        "vol_14": "主动随三和音与夜架前往葛尔尼卡，以阿卡迪亚血脉作为诱饵牵制创造主视线。"
+      },
+      "abilities_owned": [
+        "arcadia-blood-authentication"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "lux-arcadia": {
+          "type": "brother",
+          "summary": "为了救哥哥不惜前往死地。"
+        },
+        "nokuto-leaflet": {
+          "type": "friend / escort",
+          "summary": "诺珂特理解并陪伴她的任性。"
+        },
+        "yoruka-kirihime": {
+          "type": "ally",
+          "summary": "夜架同时保护她与路克斯。"
+        }
+      },
+      "summary": "爱理在本卷从后方支援转为主动入局。她判断自己的阿卡迪亚血脉可能影响大圣域认证，并在最终战中现身要塞前方，使夜架有理由牵制七只终焉神兽。",
+      "key_events": [
+        {
+          "event_id": "airi-departs-academy",
+          "summary": "说服蕾莉并与三和音、夜架离开学园前往葛尔尼卡。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-14/full.txt:2550"
+        },
+        {
+          "event_id": "airi-used-as-decoy",
+          "summary": "在要塞前作为诱饵吸引创造主注意，为三和音救出七龙骑圣争取机会。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-14/full.txt:6200"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-14/full.txt:2550",
+        "saijaku-muhai-bahamut-main/vol-14/full.txt:6200"
+      ]
+    },
+    {
+      "period_id": "vol-15",
+      "volume": "vol-15",
+      "time": "Great Sanctuary deep-layer operation",
+      "label": "参与考验的妹妹",
+      "name": {
+        "zh": "爱理·阿卡迪亚",
+        "en": "Airi Arcadia",
+        "jp": "アイリ・アーカディア"
+      },
+      "aliases": [
+        "爱理",
+        "妹妹"
+      ],
+      "titles": [
+        "阿卡迪亚皇族后裔",
+        "路克斯的妹妹",
+        "大圣域资格者"
+      ],
+      "gender": "female",
+      "species": "human",
+      "nationality": "旧阿卡迪亚帝国 / 新王国",
+      "occupation": "文官 / 战地协力者",
+      "affiliation": "世界联盟; 新王国; 阿卡迪亚血脉",
+      "status": {
+        "physical": "由三和音保护并接受第一项考验后疲惫",
+        "mental": "因五年前被挟持的梦境与哥哥安危而不安",
+        "arc": "为了帮助路克斯主动承担资格者风险"
+      },
+      "appearance": {
+        "overview": "体弱气质的银发皇族少女。",
+        "physical": {
+          "height": "",
+          "build": "delicate",
+          "hair": {
+            "color": "silver"
+          },
+          "eyes": {
+            "color": "gray"
+          }
+        },
+        "attire": {
+          "default": "文官风格服装",
+          "combat": "无机龙，受三和音保护"
+        },
+        "voice_quality": {
+          "tone": "polite, sharp when needed"
+        },
+        "distinctive": [
+          "酒后会对哥哥撒娇和抱怨",
+          "擅长调查旧帝国记录"
+        ]
+      },
+      "personality": {
+        "summary": "冷静、毒舌但非常关心哥哥，愿意冒险成为大圣域资格者。",
+        "core_traits": [
+          "聪明",
+          "谨慎",
+          "兄控",
+          "责任感",
+          "直言不讳"
+        ],
+        "values": [
+          "哥哥平安",
+          "新王国稳定",
+          "真相调查"
+        ],
+        "fears": [
+          "成为哥哥拖累",
+          "哥哥被弗基尔或辛格伦利用"
+        ],
+        "desires": [
+          "帮助路克斯",
+          "查明弗基尔真相"
+        ],
+        "strengths": [
+          "调查能力",
+          "政治与文书判断",
+          "阿卡迪亚血脉资格"
+        ],
+        "flaws": [
+          "体力不足",
+          "无法直接穿机龙战斗"
+        ],
+        "inner_conflict": "想保护哥哥却必须接受由别人保护的立场。",
+        "decision_pattern": {
+          "risk": "若能帮助路克斯，即使自身无战斗力也会参与前线行动"
+        }
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {
+          "lux-arcadia": "哥哥",
+          "noct-leaflet": "诺珂特"
+        },
+        "register": {
+          "default": "polite but cutting"
+        },
+        "catchphrases": [],
+        "quote_samples": []
+      },
+      "habits": {
+        "mannerisms": [
+          "对路克斯露出担忧或不满",
+          "必要时压下恐惧分析局势"
+        ],
+        "daily_routine": "平时负责调查、文书与支援。",
+        "quirks": [
+          "喝酒后更坦率"
+        ],
+        "preferences": {}
+      },
+      "background": {
+        "birth": {
+          "place": "阿卡迪亚帝国",
+          "family": [
+            "lux-arcadia",
+            "fugil-arcadia"
+          ]
+        },
+        "upbringing": "旧帝国皇女，年幼时体弱并受到皇室政治压迫。",
+        "education": {
+          "records": "能查阅并分析旧帝国族谱和议事记录"
+        },
+        "formative_events": [
+          "五年前革命日被皇帝挟持的记忆在考验中浮现",
+          "旧帝国崩溃后与路克斯相依为命"
+        ],
+        "pre_story": "作为文官支援路克斯与世界联盟。"
+      },
+      "abilities_owned": [
+        "arcadia-bloodline-qualification"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "lux-arcadia": {
+          "type": "older brother",
+          "status": "担忧路克斯与辛格伦、弗基尔接触，并主动参加考验帮助他。"
+        },
+        "fugil-arcadia": {
+          "type": "nominal elder brother / mystery",
+          "status": "调查族谱时发现弗基尔之名在阿卡迪亚历史中多次出现。"
+        },
+        "sharis-baltshift": {
+          "type": "protector",
+          "status": "谢里丝带三和音保护爱理并为她负伤。"
+        },
+        "tilfur-lilmit": {
+          "type": "protector",
+          "status": "媞尔珐抱着爱理逃离兹拜贝鲁克。"
+        },
+        "noct-leaflet": {
+          "type": "protector",
+          "status": "诺珂特以探测装置和迷彩保护爱理。"
+        },
+        "zweigbergk-gimle": {
+          "type": "attacker",
+          "status": "兹拜贝鲁克企图绑架爱理作为控制路克斯的人质。"
+        }
+      },
+      "knowledge": [
+        "airi-fugil-genealogy",
+        "lux-lost-revolution-memory"
+      ],
+      "secrets": [
+        "考验中梦见自己五年前被皇帝挟持威胁路克斯"
+      ],
+      "summary": "爱理本卷作为阿卡迪亚血脉资格者参加大圣域攻略。她调查弗基尔族谱异常，在考验中梦见被父皇当人质的失落记忆，并在三和音保护下逃过兹拜贝鲁克的绑架。",
+      "key_events": [
+        {
+          "event_id": "airi-fugil-genealogy",
+          "summary": "宴会中告诉路克斯弗基尔之名在阿卡迪亚五百年族谱中多次出现。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-15/full.txt:938"
+        },
+        {
+          "event_id": "airi-first-trial-memory",
+          "summary": "第一项考验后梦见五年前革命日被父皇挟持。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-15/full.txt:3040"
+        },
+        {
+          "event_id": "airi-ambush-zweigbergk",
+          "summary": "兹拜贝鲁克为辛格伦试图绑架她，三和音负伤保护。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-15/full.txt:3110"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-15/full.txt:930",
+        "saijaku-muhai-bahamut-main/vol-15/full.txt:3020",
+        "saijaku-muhai-bahamut-main/vol-15/full.txt:3110"
+      ]
+    }
+  ]
+}

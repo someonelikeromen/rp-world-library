@@ -1,0 +1,64 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "bahamut-gluttony",
+  "volume": "vol-06",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:6160",
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:7960"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-06",
+      "volume": "vol-06",
+      "time": "本卷",
+      "name": {
+        "zh": "暴食",
+        "en": "Gluttony"
+      },
+      "aliases": [
+        "巴哈姆特神装"
+      ],
+      "type": "technology / authority",
+      "description": "巴哈姆特的神装，可压缩并延迟能量、时间或现象，再以倍增状态发动。",
+      "details": {
+        "drag_ride": "bahamut",
+        "applications": [
+          "延迟斩击冲击",
+          "强化迪亚玛特重力场",
+          "强化共鸣波动牵引尼德霍格"
+        ]
+      },
+      "activation": {
+        "condition": "驾驶巴哈姆特",
+        "incantation": "暴食",
+        "time": "前五秒压缩后五秒倍增等应用",
+        "cost": "高能量与高集中"
+      },
+      "effects": [
+        "延迟攻击效果",
+        "强化外部现象",
+        "配合即击造成决定性破坏"
+      ],
+      "known_feats": [
+        "击败葛莱法的光子潜行",
+        "让巨兵踏穿旧帝国地下坑道",
+        "破坏尼德霍格双翼刃剑"
+      ],
+      "shared_by": [
+        "lux-arcadia"
+      ],
+      "see_also": [
+        "bahamut",
+        "diarmat-astral-voice",
+        "diarmat-resonance-wave"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:6160",
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:6400",
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:7960"
+      ]
+    }
+  ]
+}

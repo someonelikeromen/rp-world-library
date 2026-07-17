@@ -1,0 +1,100 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "ray",
+  "volume": "vol-12",
+  "time_range": {
+    "start": "序章",
+    "end": "终章"
+  },
+  "sub_arcs": [
+    "薇妮照护",
+    "撤离战"
+  ],
+  "source_refs": [
+    "danmachi-main/vol-12/full.txt:1-300",
+    "danmachi-main/vol-12/full.txt:3915-9326",
+    "danmachi-main/vol-12/full.txt:10847-11228"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-12-ray-protects-wiene-and-xenos",
+      "volume": "vol-12",
+      "time": "序章-终章",
+      "label": "照护薇妮并随主队撤离",
+      "name": {
+        "zh": "蕾依",
+        "en": "Ray",
+        "jp": "レイ"
+      },
+      "gender": "女",
+      "species": "歌人鸟异端儿",
+      "occupation": "异端儿成员",
+      "affiliation": "异端儿",
+      "status": {
+        "location": "地下城秘里",
+        "state": "随同胞安全返回"
+      },
+      "summary": "蕾依在地下水道照护刚醒来的薇妮，并向她说明走散同胞。撤离战中，她以飞行、羽毛弹丸和怪音波支援队伍，阻挡追兵与飞刀。她对贝尔总是受伤救异端儿感到歉疚，也和里德等人反对古罗斯被迫牺牲。终章随同胞回到秘里。",
+      "key_events": [
+        {
+          "event_id": "surface-xenos-hunt-after-daedalus",
+          "summary": "安抚苏醒的薇妮。",
+          "sourceRef": "danmachi-main/vol-12/full.txt:1-300"
+        },
+        {
+          "event_id": "welf-mikoto-xenos-breakthrough",
+          "summary": "用怪音波和羽毛支援主队。",
+          "sourceRef": "danmachi-main/vol-12/full.txt:4953-8194"
+        },
+        {
+          "event_id": "hermes-fake-daedalus-notebook-trap",
+          "summary": "见证荷米斯逼迫古罗斯牺牲。",
+          "sourceRef": "danmachi-main/vol-12/full.txt:8195-9326"
+        },
+        {
+          "event_id": "xenos-return-and-bell-renews-training",
+          "summary": "回到秘里。",
+          "sourceRef": "danmachi-main/vol-12/full.txt:10847-11228"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-12/full.txt:1-300",
+        "danmachi-main/vol-12/full.txt:3915-9326",
+        "danmachi-main/vol-12/full.txt:10847-11228"
+      ]
+    },
+    {
+      "period_id": "vol-14-ray-visits-marie",
+      "volume": "vol-14",
+      "time": "特典 水都新娘爱白兔",
+      "label": "造访玛璃并听闻贝尔",
+      "name": {
+        "zh": "蕾依",
+        "en": "Ray",
+        "jp": "レイ"
+      },
+      "gender": "女",
+      "species": "塞壬异端儿",
+      "occupation": "异端儿",
+      "affiliation": "异端儿",
+      "status": {
+        "location": "第27层秘里",
+        "state": "完成费尔斯委托后造访玛璃"
+      },
+      "summary": "蕾依随里德、古罗斯、薇妮等异端儿回到第27层秘里看望玛璃。她听玛璃兴奋讲述与贝尔相遇、贝尔吃下她手指以及自己喜欢英雄贝尔等内容，见证玛璃与贝尔建立亲近关系。",
+      "key_events": [
+        {
+          "event_id": "xenos-visit-marie-special",
+          "summary": "与其他异端儿一起听玛璃讲述贝尔。",
+          "sourceRef": "danmachi-main/vol-14/full.txt:7859-7908"
+        }
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "danmachi-main/vol-14/full.txt:7859-7908"
+      ]
+    }
+  ]
+}

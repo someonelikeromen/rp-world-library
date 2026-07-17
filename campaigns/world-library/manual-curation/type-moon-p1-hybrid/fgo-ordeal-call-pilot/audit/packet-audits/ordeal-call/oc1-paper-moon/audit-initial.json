@@ -1,0 +1,67 @@
+{
+  "schema": "tm-fgo-packet-audit-v1",
+  "packetId": "pkt-fgo-ordeal-call-oc1-paper-moon-prep",
+  "chapterId": "fgo-ordeal-call-1-paper-moon",
+  "slug": "oc1-paper-moon",
+  "auditPass": "initial-auditor-after-generator-normalizer",
+  "status": "passed-with-no-fixer-required",
+  "auditMethod": "Read source packet and source text; used find/grep/read-only checks for generated packet-local files; no shell or executable parser used.",
+  "sourceTextGate": {
+    "status": "passed-before-extraction",
+    "sourceTextPath": "sources/worldbook-script/ordeal-call/ch-104-oc1-paper-moon.txt",
+    "lineCountObservedFromPriorGate": 87
+  },
+  "checks": [
+    {
+      "checkId": "required-extracted-families",
+      "status": "passed",
+      "evidenceRaw": "Found world-state, stage-characters/index, four per-event files, dialogue, appearance-signals, ability-signals, combat-effect-signals, not-found-in-source, relationship-signals, candidates, and extraction-report files."
+    },
+    {
+      "checkId": "required-normalized-families",
+      "status": "passed",
+      "evidenceRaw": "Found normalized chapter-record, entity-index, phase-timeline-index, relationship-edge-index, signal-index, and normalization-report."
+    },
+    {
+      "checkId": "forbidden-aggregate-filenames",
+      "status": "passed",
+      "evidenceRaw": "File inventory found no files named characters.json, events.json, or relationships.json under oc1-paper-moon outputs."
+    },
+    {
+      "checkId": "formal-record-source-metadata",
+      "status": "passed",
+      "evidenceRaw": "Record metadata scan found sourceRefs, sourceType, credibility, and canonStatus on formal records in extracted and normalized packet files."
+    },
+    {
+      "checkId": "phase-event-requirements",
+      "status": "passed",
+      "evidenceRaw": "All four source phase units have per-event files preserving titleRaw, timeRangeRaw, triggerRaw, environmentRaw, completionRaw, summaryRaw, orderIndex, and sourceRefs."
+    },
+    {
+      "checkId": "visual-ability-combat-coverage",
+      "status": "passed",
+      "evidenceRaw": "Appearance, outfit/equipment, authority/ability/class-conversion, and combat effect files exist; unsupported visual and named Noble Phantasm/skill/magecraft gaps are recorded in not-found-in-source."
+    },
+    {
+      "checkId": "relationship-timeline-fields",
+      "status": "passed",
+      "evidenceRaw": "Relationship signal files include timelineId and derivable timeRangeRaw values."
+    },
+    {
+      "checkId": "unsupported-label-policy",
+      "status": "passed",
+      "evidenceRaw": "Candidates file records unsupported external NP/skill/game/wiki labels as unsupported-by-current-source and does not promote them."
+    },
+    {
+      "checkId": "json-validity",
+      "status": "passed-manual",
+      "evidenceRaw": "Files were written as JSON objects/arrays and read/grepped back for structural markers. No executable JSON parser was run due task constraints."
+    }
+  ],
+  "findings": [],
+  "fixerRequired": false,
+  "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-104-oc1-paper-moon.txt:1-87"],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

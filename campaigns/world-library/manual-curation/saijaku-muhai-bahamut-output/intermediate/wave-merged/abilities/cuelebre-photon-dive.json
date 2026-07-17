@@ -1,0 +1,166 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "cuelebre-photon-dive",
+  "volume": "vol-06",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:2850",
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:7080"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-06",
+      "volume": "vol-06",
+      "time": "本卷",
+      "name": {
+        "zh": "光子潜行",
+        "en": "Photon Dive"
+      },
+      "aliases": [
+        "库耶列布勒神装",
+        "无敌化"
+      ],
+      "type": "technology / authority",
+      "description": "库耶列布勒的神装，使机体在短时间内被光芒包覆并弹开一定质量与速度的攻击。",
+      "details": {
+        "drag_ride": "cuelebre",
+        "weakness": "零距离贴身射击可绕过弹开条件；效果并非真正绝对无敌"
+      },
+      "activation": {
+        "condition": "驾驶库耶列布勒",
+        "incantation": "光子潜行",
+        "time": "数秒",
+        "cost": "机龙能量"
+      },
+      "effects": [
+        "弹开攻击",
+        "在攻势中制造安全窗口",
+        "诱导对手误判解除时机"
+      ],
+      "known_feats": [
+        "葛莱法曾以此击退路克斯极击，后被暴食延迟冲击和库露露席法零距离射击破解"
+      ],
+      "shared_by": [
+        "greifer"
+      ],
+      "see_also": [
+        "cuelebre",
+        "dragon-tail-chain-sword-skill"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:2850",
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:6160",
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:7080"
+      ]
+    },
+    {
+      "period_id": "vol-16",
+      "volume": "vol-16",
+      "time": "大圣域最终战",
+      "name": {
+        "zh": "光子潜行",
+        "en": "Photon Dive"
+      },
+      "aliases": [
+        "无敌化神装"
+      ],
+      "type": "technology / combat",
+      "description": "《库耶列布勒》的神装，将攻击冲击分散至周围，使使用者短时间近乎无敌。",
+      "details": {
+        "drag_ride": "cuelebre",
+        "user": "greifer-nest",
+        "weakness": "主动接触或零距离持续施力可绕过分散"
+      },
+      "activation": {
+        "condition": "神装启动",
+        "incantation": "《光子潜行》",
+        "time": "数秒",
+        "cost": "持续时间有限，解除时机可被预判"
+      },
+      "effects": [
+        "弹开攻击",
+        "反弹冲击",
+        "保护同伴免受即击"
+      ],
+      "power_level": {
+        "initial": "短时无敌",
+        "peak": "可挡下弗基尔加速斩击",
+        "evolution": []
+      },
+      "known_feats": [
+        "葛莱法用光子潜行挡下弗基尔对爱莉尔的突袭。"
+      ],
+      "shared_by": [
+        "greifer-nest"
+      ],
+      "see_also": [
+        "bahamut-gluttony"
+      ],
+      "countered_by": [
+        "instant-strike"
+      ],
+      "counters": [
+        "direct-physical-attacks"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-16/full.txt:1",
+        "saijaku-muhai-bahamut-main/vol-16/full.txt:4371"
+      ]
+    },
+    {
+      "period_id": "vol-20",
+      "volume": "vol-20",
+      "time": "最终战",
+      "name": {
+        "zh": "光子潜行",
+        "en": "Photon Dive"
+      },
+      "aliases": [
+        "无敌神装"
+      ],
+      "type": "divine-drag-ride ability",
+      "description": "库耶列布勒神装，可令格莱法进入攻击无效/反射状态，但也会使他无法主动防御或攻击。",
+      "details": {
+        "used_by": "greifer"
+      },
+      "activation": {
+        "condition": "装备库耶列布勒",
+        "incantation": "光子潜行",
+        "time": "短时",
+        "cost": "持续时间限制"
+      },
+      "effects": [
+        "暂时无敌",
+        "反射攻击",
+        "规避火焰与爆炸"
+      ],
+      "power_level": {
+        "initial": "高",
+        "peak": "抵挡合成迪亚布罗近身火焰"
+      },
+      "known_feats": [
+        "格莱法用其承受合成迪亚布罗攻击"
+      ],
+      "shared_by": [
+        "greifer"
+      ],
+      "see_also": [
+        "cuelebre"
+      ],
+      "countered_by": [
+        "ouroboros-eternal-return"
+      ],
+      "counters": [
+        "synthetic-diablos"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-20/full.txt:2845"
+      ]
+    }
+  ]
+}

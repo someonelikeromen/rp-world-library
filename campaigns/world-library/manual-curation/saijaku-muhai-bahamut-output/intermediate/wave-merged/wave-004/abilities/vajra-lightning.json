@@ -1,0 +1,120 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "vajra-lightning",
+  "volume": "vol-16",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-16/full.txt:1",
+    "saijaku-muhai-bahamut-main/vol-16/full.txt:4371"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-16",
+      "volume": "vol-16",
+      "time": "大圣域最终战",
+      "name": {
+        "zh": "金刚杵",
+        "en": "Vajra"
+      },
+      "aliases": [
+        "卫星武器雷击"
+      ],
+      "type": "technology / combat",
+      "description": "《弗栗多》的特殊武装，布置卫星武器从空中释放雷击。",
+      "details": {
+        "drag_ride": "vritra",
+        "user": "soffice-xfer"
+      },
+      "activation": {
+        "condition": "卫星武器布署并锁定",
+        "incantation": "无",
+        "time": "即时雷击",
+        "cost": "需预先布置"
+      },
+      "effects": [
+        "雷击目标",
+        "短暂限制机龙功能",
+        "制造远距离牵制"
+      ],
+      "power_level": {
+        "initial": "特殊武装级",
+        "peak": "用于击中弗基尔的巴哈姆特并制造后续机会",
+        "evolution": []
+      },
+      "known_feats": [
+        "苏菲丝从头顶降下雷击支援七龙骑圣。"
+      ],
+      "shared_by": [
+        "soffice-xfer"
+      ],
+      "see_also": [
+        "vritra-wind-majesty"
+      ],
+      "countered_by": [
+        "ouroboros-life-and-death-cycle"
+      ],
+      "counters": [
+        "drag-ride-electronics"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-16/full.txt:1",
+        "saijaku-muhai-bahamut-main/vol-16/full.txt:4371"
+      ]
+    },
+    {
+      "period_id": "vol-20",
+      "volume": "vol-20",
+      "time": "最终战",
+      "name": {
+        "zh": "金刚杵雷击",
+        "en": "Vajra Lightning"
+      },
+      "aliases": [
+        "金刚杵"
+      ],
+      "type": "special armament",
+      "description": "弗栗多卫星武器金刚杵释放的雷击，苏菲丝以树叶遮挡视线后用其麻痹弗基尔。",
+      "details": {
+        "used_by": "sophice-xfer"
+      },
+      "activation": {
+        "condition": "金刚杵展开并锁定目标",
+        "incantation": "金刚杵",
+        "time": "瞬时",
+        "cost": "高能量"
+      },
+      "effects": [
+        "雷击",
+        "麻痹肉体",
+        "制造追击窗口"
+      ],
+      "power_level": {
+        "initial": "高",
+        "peak": "直接命中弗基尔肉体并造成短暂麻痹",
+        "evolution": []
+      },
+      "known_feats": [
+        "给菲尔菲与夜架追击弗基尔创造机会"
+      ],
+      "shared_by": [
+        "sophice-xfer"
+      ],
+      "see_also": [
+        "vritra-wind-grand-force"
+      ],
+      "countered_by": [
+        "ouroboros-life-death-cycle"
+      ],
+      "counters": [
+        "fugil-arcadia"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-20/full.txt:4773"
+      ]
+    }
+  ]
+}

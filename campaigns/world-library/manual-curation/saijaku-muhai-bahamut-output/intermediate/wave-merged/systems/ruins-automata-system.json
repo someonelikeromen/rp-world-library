@@ -1,0 +1,55 @@
+{
+  "_schema": "rp-system-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "system_id": "ruins-automata-system",
+  "volume": "vol-08",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-08/full.txt:3320"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-08-main",
+      "volume": "vol-08",
+      "time": "坑道调查期间",
+      "name": {
+        "zh": "遗迹自动人形系统",
+        "en": "Ruin Automata System"
+      },
+      "aliases": [
+        "领导者自动人形"
+      ],
+      "type": "technology / authority",
+      "description": "各遗迹存在自动人形领导者，负责管理遗迹、识别钥匙管理者和执行权限命令。涅依是第四遗迹坑道的领导者。",
+      "principles": "自动人形遵从钥匙管理者权限，回到遗迹后可恢复部分记忆与功能。",
+      "classification": "古代遗迹管理系统",
+      "levels": [
+        {
+          "name": "领导者",
+          "effect": "管理遗迹并执行高权限操作"
+        },
+        {
+          "name": "钥匙管理者",
+          "effect": "拥有优先命令权"
+        }
+      ],
+      "known_practitioners": [
+        "nyi-raishy",
+        "krullcifer-einfolk"
+      ],
+      "origin": "创造主/古代遗迹文明",
+      "limitations": [
+        "离开遗迹后记忆与功能会受限",
+        "可能被外部势力误用"
+      ],
+      "related_systems": [
+        "key-manager-system",
+        "fourth-ruins-mine"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-08/full.txt:3320",
+        "saijaku-muhai-bahamut-main/vol-08/full.txt:5140"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "_schema": "rp-faction-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "faction_id": "faction-kreutzer-house",
+  "volume": "vol-02",
+  "source_refs": [
+    "vol-02"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-02",
+      "volume": "vol-02",
+      "time": "vol-02",
+      "name": {
+        "zh": "克洛伊查家",
+        "en": "Kreutzer House"
+      },
+      "aliases": [
+        "克洛伊查四大贵族家"
+      ],
+      "type": "family",
+      "description": "从旧帝国时代延续至新王国的四大贵族之一，拥有广大领地、私兵和强烈旧帝国式权力观。",
+      "history": "家族长期以骑士与机龙使名门著称，并传出豢养私兵与篡夺野心。",
+      "goals": "获得新王国军事大权，利用保泽里多讨伐终焉神兽或夺取遗迹力量。",
+      "structure": "瓦格为族长，保泽里多为长男和行动棋子。",
+      "leader": "wag-kreutzer",
+      "headquarters": "克洛伊查领地/海布格地方相关领地",
+      "members": [
+        "wag-kreutzer",
+        "balzeride-kreutzer",
+        "balzeride-private-soldiers"
+      ],
+      "allies": [
+        "black-robed-merchant"
+      ],
+      "enemies": [
+        "lux-arcadia",
+        "krulcifer-einfolk",
+        "faction-knight-squad"
+      ],
+      "key_events": [
+        "event-royal-council-terminal-beast",
+        "event-church-ruins-duel"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "ch-003",
+        "ch-005",
+        "ch-006"
+      ]
+    }
+  ]
+}

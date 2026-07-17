@@ -1,0 +1,54 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "yggdrasil-seed-enhancement",
+  "volume": "vol-13",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-13/full.txt:900"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-13",
+      "volume": "vol-13",
+      "time": "菲尔菲治疗说明与决战",
+      "name": {
+        "zh": "尤克特拉希尔种子强化",
+        "en": "Yggdrasil Seed Enhancement"
+      },
+      "aliases": [
+        "幻神兽化力量",
+        "体内种子强化"
+      ],
+      "type": "genetic / supernatural / combat",
+      "description": "菲尔菲体内残留的尤克特拉希尔种子力量可强化身体与《堤丰》，但伴随幻神兽化负担与精神干涉风险。",
+      "details": {
+        "user": "philuffy-aingram",
+        "risk": "可能被角笛或幻神兽因素影响；需休眠舱或大圣域技术进一步治疗"
+      },
+      "activation": {
+        "condition": "战斗中解放体内幻神兽力量",
+        "incantation": "无",
+        "time": "短时强化",
+        "cost": "身体与精神负荷"
+      },
+      "effects": [
+        "提升菲尔菲肉体与机龙输出",
+        "让她能承受大量幻神兽与拜因的压力"
+      ],
+      "known_feats": [
+        {
+          "summary": "蕾莉说明菲尔菲以休眠舱减轻幻神兽化副作用。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-13/full.txt:900"
+        }
+      ],
+      "shared_by": [
+        "philuffy-aingram"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-13/full.txt:900",
+        "saijaku-muhai-bahamut-main/vol-13/full.txt:5461"
+      ]
+    }
+  ]
+}

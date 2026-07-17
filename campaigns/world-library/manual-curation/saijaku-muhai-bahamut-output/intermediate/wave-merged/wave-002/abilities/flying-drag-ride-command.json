@@ -1,0 +1,44 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "flying-drag-ride-command",
+  "volume": "vol-09",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-09/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-09",
+      "volume": "vol-09",
+      "time": "vol-09",
+      "name": {
+        "zh": "飞翔机龙部队指挥",
+        "en": "Flying Drag-Ride Command"
+      },
+      "aliases": [],
+      "type": "combat / command",
+      "description": "葛托汉统率龙匪贼飞翔机龙部队从空中突袭和投放干扰史莱姆的能力。",
+      "details": {
+        "used_by": "gatouhan"
+      },
+      "activation": {
+        "condition": "飞翔机龙部队与高空突袭位置",
+        "incantation": "",
+        "time": "planned operation",
+        "cost": "部队战力"
+      },
+      "effects": [
+        "高空潜入",
+        "投放干扰史莱姆",
+        "掩护救援朵拉肯"
+      ],
+      "shared_by": [
+        "gatouhan"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-09/full.txt:5341"
+      ]
+    }
+  ]
+}

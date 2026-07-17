@@ -1,0 +1,100 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "ouka-kashima",
+  "volume": "vol-13",
+  "time_range": {
+    "start": "第二章",
+    "end": "第六章"
+  },
+  "sub_arcs": [
+    "远征联盟",
+    "新斧皇刚",
+    "前卫防线"
+  ],
+  "source_refs": [
+    "danmachi-main/vol-13/full.txt:853-7866"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-13-ouka-frontline",
+      "volume": "vol-13",
+      "time": "第二章-第六章",
+      "label": "以重前卫身份支撑赫斯缇雅远征",
+      "name": {
+        "zh": "樱花",
+        "en": "Ouka Kashima",
+        "jp": "カシマ・桜花"
+      },
+      "gender": "男",
+      "species": "人类",
+      "occupation": "冒险者、重前卫",
+      "affiliation": "建御雷眷族",
+      "status": {
+        "level": "Lv.2",
+        "location": "第24-25层",
+        "state": "以盾斧保护千草和春姬等后卫"
+      },
+      "summary": "樱花代表建御雷眷族加入派系联盟远征，并向韦尔夫订制能保护千草和春姬的新武器。韦尔夫为他打造白刚石战斧『皇刚』和大盾。下层中，他作为前卫与韦尔夫并肩挡住怪兽大军，保护支援者和伤患；怪物奉送中他以皇刚和盾牌多次开路，并在千草中寄生树后持续守护她。",
+      "key_events": [
+        {
+          "event_id": "expedition-preparations-and-haruhime-kokonoe",
+          "summary": "向韦尔夫请求打造保护同伴的武器。",
+          "sourceRef": "danmachi-main/vol-13/full.txt:853-2676"
+        },
+        {
+          "event_id": "moss-huge-infects-chigusa-and-luvis",
+          "summary": "千草中寄生树后极度担忧并协助撤退。",
+          "sourceRef": "danmachi-main/vol-13/full.txt:3615-4662"
+        },
+        {
+          "event_id": "monster-parade-and-kokonoe-mass-level-boost",
+          "summary": "作为前卫抵挡怪物奉送和怪物之宴。",
+          "sourceRef": "danmachi-main/vol-13/full.txt:6047-7866"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-13/full.txt:853-7866"
+      ]
+    },
+    {
+      "period_id": "vol-15-ouka-wall",
+      "volume": "vol-15",
+      "time": "第七章-第八章",
+      "label": "作为盾役保护队伍",
+      "name": {
+        "zh": "樱花",
+        "en": "Ouka Kashima",
+        "jp": "カシマ・桜花"
+      },
+      "gender": "男",
+      "species": "人类",
+      "occupation": "冒险者",
+      "affiliation": "建御雷眷族；派系联盟",
+      "status": {
+        "level": "Lv.2（九重升华时拟似Lv.3）",
+        "location": "第25-27层水之迷都",
+        "state": "大盾被安菲斯比纳吐息融毁后仍承担前卫与通道防守"
+      },
+      "summary": "樱花在安菲斯比纳战初始以白刚石大盾斜挡烧夷苍焰，救下达芙妮与卡珊德拉，但盾牌被融毁。之后他接受等级升华参与近战，持续以防御和大战斧支撑前线。第26层韦尔夫锻造时，他和柏斯站在通道口构成防线，保护锻造完成。",
+      "key_events": [
+        {
+          "event_id": "amphisbaena-forces-party-fight",
+          "summary": "以盾挡下楼层主吐息并参与前卫战。",
+          "sourceRef": "danmachi-main/vol-15/chapters/ch-002-第七章-绝望之诗-力克之诗.txt"
+        },
+        {
+          "event_id": "welf-forges-shikou-kazuki-in-dungeon",
+          "summary": "在死路通道口协助防守，保护韦尔夫锻造。",
+          "sourceRef": "danmachi-main/vol-15/chapters/ch-003-第八章-铁锤之声.txt"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-15/chapters/ch-002-第七章-绝望之诗-力克之诗.txt",
+        "danmachi-main/vol-15/chapters/ch-003-第八章-铁锤之声.txt"
+      ]
+    }
+  ]
+}

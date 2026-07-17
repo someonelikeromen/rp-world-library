@@ -1,0 +1,68 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "typhon-dragon-bite-blast",
+  "volume": "vol-03",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-03/full.txt:5379"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-03",
+      "volume": "vol-03",
+      "time": "最终选拔战",
+      "name": {
+        "zh": "龙咬爆火",
+        "en": "Dragon Bite Blast"
+      },
+      "aliases": [
+        "堤丰爆破武装"
+      ],
+      "type": "technology / combat",
+      "description": "堤丰右臂发红光后可将能量注入抓住或接触的物体，使其爆炸。",
+      "details": {
+        "weapon": "philuffy-typhon",
+        "use_in_volume": "菲尔菲抓住演习场地面并爆破，扬起烟尘以压迫赛莉丝。"
+      },
+      "activation": {
+        "condition": "堤丰右臂接触目标并注入能量",
+        "incantation": "龙咬爆火",
+        "time": "即时",
+        "cost": "高武装能量"
+      },
+      "effects": [
+        "引发接触物爆炸",
+        "制造烟尘",
+        "提供近战压制机会"
+      ],
+      "power_level": {
+        "initial": "能破坏演习场地面",
+        "peak": "配合龙咬缚锁形成连续猛攻",
+        "evolution": []
+      },
+      "known_feats": [
+        "菲尔菲以爆破扬起沙尘遮蔽视线并展开近身连打"
+      ],
+      "shared_by": [
+        "philuffy-aingram"
+      ],
+      "see_also": [
+        "philuffy-typhon",
+        "typhon-dragon-bite-chain"
+      ],
+      "countered_by": [
+        "空中回避",
+        "支配者神域瞬移"
+      ],
+      "counters": [
+        "地面目标",
+        "近战防御"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-03/full.txt:5379"
+      ]
+    }
+  ]
+}

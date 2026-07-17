@@ -1,0 +1,150 @@
+{
+  "schema": "tm-fgo-work-packet-v1",
+  "packetId": "pkt-fgo-ordeal-call-oc3-integration-prep",
+  "stage": "prep-packet",
+  "stageStatus": "ready-for-source-text-gate",
+  "arc": "ordeal-call",
+  "chapterId": "fgo-ordeal-call-3-integration",
+  "chapterOrder": 3,
+  "entryIndex": 106,
+  "slug": "oc3-integration",
+  "comment": "FGO_奏章III_统合",
+  "titleRaw": "FGO_奏章III_新灵长后继战_Archetype_Inception",
+  "model": "lt-yuyu/gpt-5.5",
+  "inputUnits": [
+    "src-fgo-ordeal-call-3-integration"
+  ],
+  "inputSourceRefs": [],
+  "directPrepSourceRefs": [
+    "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/[沙盒]FGO 0.8.worldbook.json:13673-13674"
+  ],
+  "sourceRefs": [
+    "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/[沙盒]FGO 0.8.worldbook.json:13673-13674"
+  ],
+  "sourceTextRequiredBeforeExtraction": true,
+  "sourceTextStatus": "not-created-in-prep",
+  "plannedSourceTextPath": "sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt",
+  "sourceMetadata": {
+    "sourceFile": "campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/[沙盒]FGO 0.8.worldbook.json",
+    "sourceType": "user-file-worldbook-script",
+    "canonStatus": "canon-like",
+    "credibility": "B",
+    "classification": "script-like",
+    "sections": [
+      "核心设定",
+      "故事梗概",
+      "阶段划分与日期推测",
+      "重要角色阵容"
+    ],
+    "observedPhaseCountDuringPrep": 4,
+    "formalEventSource": true
+  },
+  "sourceFirstTermsObservedDuringPrep": [
+    "新灵长后继战",
+    "Archetype Inception",
+    "迪拜",
+    "月之背侧",
+    "Mooncell",
+    "BB迪拜",
+    "卡兹拉德罗普",
+    "Kazuradrop",
+    "MoonCancer",
+    "杀生院祈荒",
+    "岸波白野",
+    "新人类"
+  ],
+  "outputsAuthorizedAfterSourceTextGate": [
+    "extracted/ordeal-call/oc3-integration/world-state.json",
+    "extracted/ordeal-call/oc3-integration/stage-characters/index.json",
+    "extracted/ordeal-call/oc3-integration/events/*.json",
+    "extracted/ordeal-call/oc3-integration/dialogue/*.json",
+    "extracted/ordeal-call/oc3-integration/appearance-signals/*.json",
+    "extracted/ordeal-call/oc3-integration/ability-signals/*.json",
+    "extracted/ordeal-call/oc3-integration/combat-effect-signals/*.json",
+    "extracted/ordeal-call/oc3-integration/not-found-in-source/*.json",
+    "extracted/ordeal-call/oc3-integration/relationship-signals/*.json",
+    "extracted/ordeal-call/oc3-integration/candidates/*.json",
+    "extracted/ordeal-call/oc3-integration/extraction-report.json"
+  ],
+  "requiredExtractionAfterSourceTextGate": [
+    "core_setting_facts",
+    "story_summary_events",
+    "phase_units_from_阶段划分与日期推测",
+    "character_roles_status_and_mentions",
+    "relationship_signals_and_candidates",
+    "appearance_descriptions",
+    "outfit_and_equipment_visuals",
+    "noble_phantasm_or_skill_or_magecraft_or_authority_activations",
+    "transformation_or_summoning_records",
+    "combat_visual_effects_results_targets_costs_consequences",
+    "explicit_not_found_in_source_records_for_missing_visual_ability_combat_details",
+    "sourceRefs_on_every_formal_record",
+    "sourceType_credibility_canonStatus_on_every_formal_record",
+    "source_first_raw_terminology",
+    "unsupported_labels_candidate_only",
+    "per_event_formal_files",
+    "per_edge_relationship_formal_files",
+    "no_characters_json_events_json_relationships_json"
+  ],
+  "sourceFirstProtocol": {
+    "mustUseOnly": [
+      "line-addressable source text for entry 106 after source text gate",
+      "source-unit-manifest assignment",
+      "direct worldbook source refs for prep evidence"
+    ],
+    "mustNotUseForFormalFacts": [
+      "summary worldbook",
+      "character-profile supplement",
+      "old curated",
+      "previous pilot outputs",
+      "engine/ejs/mvu rules",
+      "model memory",
+      "wiki knowledge",
+      "game recollection"
+    ],
+    "missingMandatoryLayerPolicy": "create explicit not-found-in-source records; do not silently omit",
+    "terminologyPolicy": "preserve source-first raw Chinese terminology and record normalized IDs only as candidates unless supported",
+    "unsupportedLabelPolicy": "candidate-only until directly supported by current source",
+    "rawTimePolicy": "preserve raw time strings exactly; do not fix dates from outside knowledge"
+  },
+  "forbidden": [
+    "create_source_text_in_prep",
+    "start_extraction_in_prep",
+    "invent_calendar_dates",
+    "invent_visual_or_ability_details",
+    "merge_worldbook_summary_into_script_fact",
+    "write_engine_rules_as_canon",
+    "promote_cooccurrence_to_relationship",
+    "create_formal_aggregate_characters_json",
+    "create_formal_aggregate_events_json",
+    "create_formal_aggregate_relationships_json",
+    "label_as_canon_text",
+    "label_as_official_script",
+    "add_unsupported_formal_labels",
+    "modify_source_imports",
+    "modify_old_curated",
+    "modify_previous_pilots",
+    "use_shell_or_executable_tools"
+  ],
+  "acceptanceAfterSourceTextGate": [
+    "source text exists and is line-addressable before extraction starts",
+    "every source-backed phase/event unit receives a per-event file",
+    "each event preserves raw title, raw time, triggerRaw when present, completionRaw when present, summaryRaw when present, orderIndex, and sourceRefs",
+    "characters, relationships, appearances, abilities/noble phantasms/skills, magecraft/authority activations, and combat effects are extracted source-first",
+    "missing appearance / outfit / equipment / activation / combat details are explicitly recorded as not-found-in-source",
+    "all formal records include sourceRefs, sourceType, credibility, and canonStatus",
+    "source-first raw terminology is preserved and unsupported labels remain candidate-only",
+    "all JSON is valid",
+    "no formal fact uses game/wiki/model-memory knowledge",
+    "no formal aggregate characters.json/events.json/relationships.json is used as fact store"
+  ],
+  "stageGates": {
+    "prepGate": "ready",
+    "sourceTextGate": "must-build-line-addressable-source-text-before-generator",
+    "extractionGate": "closed-until-sourceTextStatus-built",
+    "normalizationGate": "closed",
+    "mergeGate": "closed",
+    "timelineGraphGate": "closed",
+    "publicationGate": "closed-not-authorized"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "schema": "tm-p1-retrospective-filename-guardrail-fix-report-v1",
+  "reportId": "fsn-fz-events-json-basename-fix-round-001",
+  "scope": "campaigns/world-library/manual-curation/type-moon-p1-hybrid/fsn-fz-pilot/",
+  "stepId": "fix-fsn-fz-events-json-basename",
+  "model": "lt-yuyu/gpt-5.5",
+  "fixerRole": "retrospective-fixer",
+  "status": "partially-fixed",
+  "repairType": "filename-guardrail-repair-after-r43",
+  "guardrail": {
+    "forbiddenBasenames": [
+      "characters.json",
+      "events.json",
+      "relationships.json"
+    ],
+    "specificFinding": "Parent mechanical validation found four non-primary FSN/FZ wave indexes still physically using the forbidden event-index basename under waves wave-009 through wave-012 after r43."
+  },
+  "issuesHandled": [
+    {
+      "issueId": "r43-fsn-fz-events-json-basename-001",
+      "description": "Rename/replace non-primary reference indexes in wave-009 through wave-012 from the forbidden event-index basename to an allowed filename and update in-scope references.",
+      "repairStatus": "partially-fixed",
+      "actions": [
+        "Created allowed replacement non-primary reference index files named output/event-index.json for waves wave-009, wave-010, wave-011, and wave-012, preserving the event index content and recordRef/source fields.",
+        "Updated in-scope FSN/FZ references that pointed to the four forbidden wave event-index paths so they now point to output/event-index.json.",
+        "Did not modify per-event formal records under output/events/*.json and did not change event substance.",
+        "Could not physically remove the residual forbidden-basename files because this harness exposes read/grep/find/ls/write/edit but no delete or rename primitive."
+      ]
+    }
+  ],
+  "filesChanged": [
+    "waves/wave-009/output/event-index.json",
+    "waves/wave-010/output/event-index.json",
+    "waves/wave-011/output/event-index.json",
+    "waves/wave-012/output/event-index.json",
+    "waves/wave-009/wave-index.json",
+    "waves/wave-010/wave-index.json",
+    "waves/wave-011/wave-index.json",
+    "waves/wave-012/wave-index.json",
+    "waves/wave-009/README.md",
+    "waves/wave-010/README.md",
+    "waves/wave-011/README.md",
+    "waves/wave-012/README.md",
+    "waves/wave-009/reports/generation-report.json",
+    "waves/wave-010/reports/generation-report.json",
+    "waves/wave-011/reports/generation-report.json",
+    "waves/wave-012/reports/generation-report.json",
+    "waves/wave-009/reports/audit-round-001.json",
+    "waves/wave-010/reports/audit-round-001.json",
+    "waves/wave-011/reports/audit-round-001.json",
+    "waves/wave-012/reports/audit-round-001.json",
+    "waves/wave-009/reports/audit-round-002.json",
+    "waves/wave-010/reports/audit-round-002.json",
+    "waves/wave-011/reports/audit-round-002.json",
+    "waves/wave-012/reports/audit-round-002.json",
+    "waves/wave-009/reports/fix-round-001.json",
+    "waves/wave-010/reports/fix-round-001.json",
+    "waves/wave-011/reports/fix-round-001.json",
+    "waves/wave-012/reports/fix-round-001.json",
+    "group-merged/waves-007-012-formal-merge.json",
+    "comparison/timeline-improvement-report.md",
+    "audit/retrospective/fsn-fz-fix-round-001.json",
+    "audit/retrospective/fsn-fz-events-json-basename-fix-round-001.json"
+  ],
+  "replacementFilesCreated": [
+    {
+      "oldWave": "wave-009",
+      "oldForbiddenBasename": "events.json",
+      "newPath": "waves/wave-009/output/event-index.json",
+      "contentPreserved": true
+    },
+    {
+      "oldWave": "wave-010",
+      "oldForbiddenBasename": "events.json",
+      "newPath": "waves/wave-010/output/event-index.json",
+      "contentPreserved": true
+    },
+    {
+      "oldWave": "wave-011",
+      "oldForbiddenBasename": "events.json",
+      "newPath": "waves/wave-011/output/event-index.json",
+      "contentPreserved": true
+    },
+    {
+      "oldWave": "wave-012",
+      "oldForbiddenBasename": "events.json",
+      "newPath": "waves/wave-012/output/event-index.json",
+      "contentPreserved": true
+    }
+  ],
+  "referencesUpdated": {
+    "absoluteWaveForbiddenPathReferences": "No remaining in-scope current references to the four forbidden wave event-index paths were found by grep after updates outside this repair report's historical/unresolved-issue metadata.",
+    "relativeForbiddenPathReferences": "No remaining current relative references to the forbidden event-index path were found by grep after updates outside this repair report's historical/unresolved-issue metadata."
+  },
+  "unresolvedIssues": [
+    {
+      "issueId": "r43-fsn-fz-events-json-basename-001-residual-files",
+      "severity": "blocking-until-deleted-by-runner-with-delete-capability",
+      "description": "The four forbidden-basename files still appear in directory listings for wave-009, wave-010, wave-011, and wave-012 output directories. The current tool surface has no delete or rename operation, so physical removal could not be completed by this fixer."
+    }
+  ],
+  "validationStatus": {
+    "readRules": [
+      "rules/type-moon-three-agent-loop-rules.md",
+      "docs/type-moon-three-agent-loop-protocol.md"
+    ],
+    "noShellOrExecutableScriptsUsed": true,
+    "eventSubstanceModified": false,
+    "perEventFormalRecordsModified": false,
+    "oldCuratedModified": false,
+    "sourceImportsModified": false,
+    "otherPilotsModified": false,
+    "statusMdModified": false,
+    "finalAcceptanceModified": false,
+    "referenceGrepForForbiddenWavePath": "No current-path matches outside this report after reference updates; this report intentionally records the residual deletion limitation without using those paths as active references.",
+    "directoryListingsStillShowForbiddenBasenameFiles": true,
+    "needsAuditorRerun": true
+  }
+}

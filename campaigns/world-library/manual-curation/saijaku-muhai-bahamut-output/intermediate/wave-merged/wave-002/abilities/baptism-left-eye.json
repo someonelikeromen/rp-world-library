@@ -1,0 +1,56 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "baptism-left-eye",
+  "volume": "vol-06",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:1290",
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:6720"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-06",
+      "volume": "vol-06",
+      "time": "本卷",
+      "name": {
+        "zh": "左眼洗礼",
+        "en": "Baptism Left Eye"
+      },
+      "aliases": [
+        "海兹施加的洗礼"
+      ],
+      "type": "supernatural / technology",
+      "description": "海兹在夜架左眼施加的洗礼强化，使她能使用刻击等超常观察与斩击技巧。",
+      "details": {
+        "recipient": "kirihime-yoruka",
+        "provider": "hayes"
+      },
+      "activation": {
+        "condition": "强化眼发动",
+        "incantation": "无",
+        "time": "持续",
+        "cost": "未知"
+      },
+      "effects": [
+        "增强观察",
+        "读取意识缝隙",
+        "辅助刻击"
+      ],
+      "known_feats": [
+        "夜架在巨兵肩上发动刻击前左眼发出紫色光芒"
+      ],
+      "shared_by": [
+        "kirihime-yoruka"
+      ],
+      "see_also": [
+        "yoruka-kokugeki",
+        "baptism"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:1290",
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:6720"
+      ]
+    }
+  ]
+}

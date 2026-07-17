@@ -1,0 +1,41 @@
+{
+  "schema": "tm-tsukihime-packet-fix-report-v1",
+  "packetId": "main-cast-high-confidence",
+  "stage": "stage-2-wave-1-fixer-r50-continuity",
+  "status": "fixed",
+  "generatedAt": "2026-07-15",
+  "fixerRole": "Fixer",
+  "scope": {
+    "allowedMutationRoots": [
+      "campaigns/world-library/manual-curation/type-moon-p1-hybrid/tsukihime-dead-apostle-profile-supplement-pilot/extracted/profile-supplement/main-cast-high-confidence/**",
+      "campaigns/world-library/manual-curation/type-moon-p1-hybrid/tsukihime-dead-apostle-profile-supplement-pilot/normalized/profile-supplement/main-cast-high-confidence/**",
+      "campaigns/world-library/manual-curation/type-moon-p1-hybrid/tsukihime-dead-apostle-profile-supplement-pilot/audit/packet-audits/main-cast-high-confidence/**"
+    ],
+    "mutationScopeObserved": true
+  },
+  "issuesHandled": [
+    {
+      "sourceAudit": "r50 audit-main-cast-rerun",
+      "classification": "blocking issue",
+      "issueId": "unsupported-canonical-continuity-mixed-context",
+      "description": "extracted/profile-supplement/main-cast-high-confidence/records/location-continuity-context-signals.json used unsupported continuity.canonicalContinuity value mixed-context with candidateOnly false.",
+      "action": "Reclassified the location continuity context record to manifest-supported canonicalContinuity sandbox for mixed/cross-continuity location context while preserving rawSourceLabel 月姬 / 重制版 and candidateOnly false.",
+      "taxonomyBasis": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy/rawLabelMapping/mixed/crossover/RP premise maps mixed context to sandbox and preserves raw source labels."
+    }
+  ],
+  "filesChanged": [
+    {
+      "path": "campaigns/world-library/manual-curation/type-moon-p1-hybrid/tsukihime-dead-apostle-profile-supplement-pilot/extracted/profile-supplement/main-cast-high-confidence/records/location-continuity-context-signals.json",
+      "change": "continuity.canonicalContinuity changed from mixed-context to sandbox"
+    },
+    {
+      "path": "campaigns/world-library/manual-curation/type-moon-p1-hybrid/tsukihime-dead-apostle-profile-supplement-pilot/audit/packet-audits/main-cast-high-confidence/fix-round-001.json",
+      "change": "created fixer report for r50 blocking issue"
+    }
+  ],
+  "unresolvedIssues": [],
+  "notes": [
+    "No normalized, graph, timeline, merge, or other packet outputs were modified.",
+    "Raw source label remains preserved in the extracted record."
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "tilfur-lilmit",
+  "volume": "vol-15",
+  "time_range": {
+    "start": "要塞宴会",
+    "end": "兹拜贝鲁克战后重伤"
+  },
+  "sub_arcs": [
+    "三和音护卫爱理",
+    "龙蹴脚走合作攻势"
+  ],
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-15/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-15",
+      "volume": "vol-15",
+      "time": "Great Sanctuary field operation",
+      "label": "三和音的突击手",
+      "name": {
+        "zh": "媞尔珐·莉尔密特",
+        "en": "Tilfur Lilmit",
+        "jp": "ティルファー・リルミット"
+      },
+      "aliases": [
+        "媞尔珐"
+      ],
+      "titles": [
+        "三和音成员",
+        "骑士团成员"
+      ],
+      "gender": "female",
+      "species": "human",
+      "nationality": "新王国",
+      "occupation": "机龙使 / 学园生",
+      "affiliation": "骑士团; 新王国",
+      "status": {
+        "physical": "被兹拜贝鲁克重伤并折断右手",
+        "mental": "仍以玩笑和勇气面对危机",
+        "arc": "以高速突击证明三和音合作成果"
+      },
+      "appearance": {
+        "overview": "活泼开朗的三和音少女。",
+        "physical": {
+          "height": "",
+          "build": "athletic",
+          "hair": {},
+          "eyes": {}
+        },
+        "attire": {
+          "default": "学园制服",
+          "combat": "陆战机龙X"
+        },
+        "voice_quality": {
+          "tone": "bright, casual"
+        },
+        "distinctive": [
+          "常以轻松语气缓和气氛",
+          "负责抱起爱理逃跑和突击"
+        ]
+      },
+      "personality": {
+        "summary": "开朗、胆大且重友情，在绝境中仍会用玩笑支撑伙伴。",
+        "core_traits": [
+          "活泼",
+          "勇敢",
+          "重友情",
+          "乐观",
+          "行动派"
+        ],
+        "values": [
+          "三和音",
+          "保护爱理",
+          "路克斯委托"
+        ],
+        "fears": [
+          "拖累伙伴",
+          "无法保护爱理"
+        ],
+        "desires": [
+          "活着回去",
+          "完成保护任务"
+        ],
+        "strengths": [
+          "陆战机龙X",
+          "龙蹴脚走",
+          "铁锤突击"
+        ],
+        "flaws": [
+          "直线突击容易被反制",
+          "实力不及七龙骑圣级敌人"
+        ],
+        "inner_conflict": "害怕却不愿让伙伴独自承担。",
+        "decision_pattern": {
+          "combat": "配合诺珂特拘束与谢里丝压制后发动远距离超加速铁锤打击"
+        }
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {
+          "lux-arcadia": "小路克",
+          "airi-arcadia": "爱理妹妹"
+        },
+        "register": {
+          "default": "cheerful and casual"
+        },
+        "catchphrases": [],
+        "quote_samples": []
+      },
+      "habits": {
+        "mannerisms": [
+          "飞扑或热情打招呼",
+          "用开玩笑掩盖恐惧"
+        ],
+        "daily_routine": "与三和音共同训练合作攻势。",
+        "quirks": [],
+        "preferences": {}
+      },
+      "background": {
+        "birth": {
+          "place": "新王国",
+          "family": []
+        },
+        "upbringing": "与谢里丝、诺珂特从小相识。",
+        "education": {
+          "combat": "骑士团训练与莉夏调律的强化机龙"
+        },
+        "formative_events": [
+          "与三和音结成长期友谊"
+        ],
+        "pre_story": "作为三和音成员支援路克斯与骑士团。"
+      },
+      "abilities_owned": [
+        "dragon-kick-run",
+        "triad-cooperation-b"
+      ],
+      "possessions_owned": [
+        "land-drag-ride-x-tilfur",
+        "tilfur-warhammer"
+      ],
+      "relationships": {
+        "sharis-baltshift": {
+          "type": "best friend / leader",
+          "status": "理解谢里丝不想牺牲伙伴的心意。"
+        },
+        "noct-leaflet": {
+          "type": "best friend / teammate",
+          "status": "与诺珂特配合发动三和音必杀合作。"
+        },
+        "airi-arcadia": {
+          "type": "protected target",
+          "status": "抱着爱理撤退并试图避开兹拜贝鲁克。"
+        },
+        "zweigbergk-gimle": {
+          "type": "enemy",
+          "status": "以龙蹴脚走击中他但被背面焦热反制。"
+        }
+      },
+      "knowledge": [
+        "triad-cooperation-b",
+        "zweigbergk-betrayal"
+      ],
+      "secrets": [],
+      "summary": "媞尔珐本卷作为三和音突击手保护爱理。她用龙蹴脚走的高速铁锤打击一度轰飞兹拜贝鲁克，但随后被塔拉司克斯的背面焦热反制并重伤。",
+      "key_events": [
+        {
+          "event_id": "triad-strikes-zweigbergk",
+          "summary": "以龙蹴脚走配合三和音合作攻势击中兹拜贝鲁克。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-15/full.txt:3400"
+        },
+        {
+          "event_id": "airi-ambush-zweigbergk",
+          "summary": "在保护爱理时被兹拜贝鲁克击败并折断右手。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-15/full.txt:3490"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-15/full.txt:3110",
+        "saijaku-muhai-bahamut-main/vol-15/full.txt:3400",
+        "saijaku-muhai-bahamut-main/vol-15/full.txt:3490"
+      ]
+    }
+  ]
+}

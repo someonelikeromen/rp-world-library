@@ -1,0 +1,69 @@
+{
+  "schema": "tm-tsukihime-extracted-source-signal-v1",
+  "packetId": "main-cast-high-confidence",
+  "recordId": "extracted-arcueid-remake-profile-signals",
+  "subjectId": "arcueid-brunestud",
+  "subjectLabel": "重制版爱尔奎特·布伦史塔德",
+  "continuity": {
+    "rawSourceLabel": "重制版",
+    "canonicalContinuity": "remake",
+    "taxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy/rawLabelMapping/重制版"
+  },
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "candidateOnly": false,
+  "sourceRefs": [
+    "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:34",
+    "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:35",
+    "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:36",
+    "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:37",
+    "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:38",
+    "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:39",
+    "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:40",
+    "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:41",
+    "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:42",
+    "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:43",
+    "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:44",
+    "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:45",
+    "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:46",
+    "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:47",
+    "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:48",
+    "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:49",
+    "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:50",
+    "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:51"
+  ],
+  "signals": [
+    {
+      "kind": "profile",
+      "summary": "Remake Arcueid is a female True Ancestor, self-claimed age 17 and actual age 800-900, called the princess of the True Ancestors.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:34", "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:36"]
+    },
+    {
+      "kind": "combat-effect",
+      "summary": "She is dismembered into seventeen pieces by Tohno Shiki at the start and appears again the next day.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:37"]
+    },
+    {
+      "kind": "appearance-outfit",
+      "summary": "The source gives neck-length pale-yellow hair, red cat-like eyes, gold eyes in combat, white turtleneck, blue short skirt, black tights, brown knee-high boots, and key-shaped pendant.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:39", "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:40"]
+    },
+    {
+      "kind": "timeline",
+      "summary": "Roa deceives her into drinking blood, takes part of her power, becomes her direct Dead Apostle, and her rampage kills the other True Ancestors in Castle Brunestud.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:46", "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:47"]
+    },
+    {
+      "kind": "ability-activation",
+      "summary": "Her Mystic Eyes of Charm can restrain, brainwash, and manipulate memory; Marble Phantasm can temporarily convert physical phenomena and manipulate natural phenomena and spatial heat.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:48", "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:49"]
+    },
+    {
+      "kind": "candidate-form",
+      "summary": "Berserk Arcueid and Luminary are explicit form candidates requiring separate later extraction.",
+      "candidateOnly": true,
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:51"]
+    }
+  ]
+}

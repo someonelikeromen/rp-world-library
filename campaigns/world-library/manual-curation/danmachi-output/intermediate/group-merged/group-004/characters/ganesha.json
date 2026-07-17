@@ -1,0 +1,146 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "ganesha",
+  "volume": "vol-01",
+  "time_range": {
+    "start": "ganesha-vol01",
+    "end": "ganesha-vol01"
+  },
+  "sub_arcs": [],
+  "source_refs": [],
+  "periods": [
+    {
+      "period_id": "ganesha-vol01",
+      "volume": "vol-01",
+      "time": "vol-01",
+      "label": "群主迦尼萨",
+      "name": {
+        "zh": "迦尼萨",
+        "en": "Ganesha",
+        "jp": "ガネーシャ"
+      },
+      "aliases": [
+        "群主迦尼萨"
+      ],
+      "titles": [],
+      "gender": "male",
+      "species": "god",
+      "nationality": "天界",
+      "occupation": "主神",
+      "affiliation": "迦尼萨眷族",
+      "status": {},
+      "appearance": {
+        "overview": "浅黑肌肤结实肉体的俊男神，最爱戴大象面具",
+        "physical": {
+          "height": "高",
+          "build": "结实",
+          "hair": {},
+          "eyes": {}
+        },
+        "attire": {},
+        "voice_quality": {},
+        "distinctive": [
+          "大象面具"
+        ]
+      },
+      "personality": {
+        "summary": "爱出风头但认真负责的象头神。",
+        "core_traits": [
+          "爱现",
+          "负责",
+          "善良"
+        ],
+        "values": [
+          "市民安全"
+        ],
+        "strengths": [
+          "庞大眷族",
+          "果断"
+        ],
+        "flaws": [
+          "浮夸"
+        ]
+      },
+      "summary": "主办怪物祭的神明。在怪物脱逃事件中果断下令以市民安全为最优先。",
+      "key_events": [
+        {
+          "event_id": "monster-festival-chaos",
+          "summary": "主办怪物祭并应对怪物脱逃危机",
+          "sourceRef": "danmachi-main/vol-01/full.txt:3681-5590"
+        },
+        {
+          "event_id": "goddess-banquet",
+          "summary": "主办众神之宴",
+          "sourceRef": "danmachi-main/vol-01/full.txt:2051-3680"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-01/full.txt:2051-5590"
+      ]
+    },
+    {
+      "period_id": "vol-10-ch-08-epilogue-crisis-response",
+      "volume": "vol-10",
+      "time": "第八章至终章",
+      "label": "派眷族处理里维拉危机并送别伊刻洛斯",
+      "status": {
+        "location": "欧拉丽",
+        "state": "执行公会强制任务"
+      },
+      "summary": "乌拉诺斯指定迦尼萨眷族负责第18层任务，迦尼萨接收使魔信件后调动团员。事件后，他在北门送别被永久放逐的伊刻洛斯。",
+      "key_events": [
+        {
+          "event_id": "ouranos-assigns-ganesha-and-bell-to-xenos-crisis",
+          "summary": "眷族成为先遣讨伐主力。",
+          "sourceRef": "danmachi-main/vol-10/full.txt:2380"
+        },
+        {
+          "event_id": "ikelos-exiled-and-hermes-negotiates-aftermath",
+          "summary": "送别被放逐的伊刻洛斯。",
+          "sourceRef": "danmachi-main/vol-10/full.txt:10430"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-10/full.txt:2600-2800",
+        "danmachi-main/vol-10/full.txt:10430-10480"
+      ]
+    },
+    {
+      "period_id": "vol-10-ch-06-monsterphilia-truth",
+      "volume": "vol-10",
+      "time": "第六章 暴风雨前的",
+      "label": "向赫斯缇雅说明与乌拉诺斯合作",
+      "name": {
+        "zh": "迦尼萨",
+        "en": "Ganesha",
+        "jp": "ガネーシャ"
+      },
+      "aliases": [
+        "群主"
+      ],
+      "gender": "男",
+      "species": "神",
+      "occupation": "迦尼萨眷族主神",
+      "affiliation": "迦尼萨眷族、公会协力者",
+      "status": {
+        "location": "迦尼萨眷族总部",
+        "state": "秘密协助异端儿共存计划"
+      },
+      "summary": "迦尼萨承认自己知晓异端儿，并在乌拉诺斯请求下通过怪物祭和怪物饲育摸索与怪物的友爱。他表示若怪物真想共存，自己也愿做群众与怪物之主。",
+      "key_events": [
+        {
+          "event_id": "hestia-and-ganesha-discuss-xenos-coexistence",
+          "summary": "与赫斯缇雅共享异端儿情报。",
+          "sourceRef": "danmachi-main/vol-10/full.txt:430"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-10/full.txt:380-650"
+      ]
+    }
+  ]
+}

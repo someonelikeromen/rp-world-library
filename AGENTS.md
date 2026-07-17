@@ -23,8 +23,8 @@
 | `modules` | 列出目录型角色卡的所有模块文件 |
 | `get` | 读取整卡、指定模块或模块内 dot path 字段 |
 | `status` | 聚合目录型角色卡轻量状态摘要 |
-| `set/merge/append/upsert/remove` | 通过 `module + path` 精细编辑模块 JSON |
-| `batch` | 对指定模块执行批量原子操作 |
+| `set/merge/append/upsert/remove` | 通过 `module + path` 精细编辑模块 JSON；默认只返回成功/失败，`outputMode: "tree"` 返回层级摘要，`outputMode: "full"` 返回完整结果 |
+| `batch` | 对指定模块执行批量原子操作；默认只返回成功/失败，`outputMode: "tree"/"full"` 控制结果详细度 |
 | `validate` | 校验目录型角色卡模块完整性与 JSON 合法性 |
 | `register` | 注册兼容旧式外部卡；新建角色优先用 `init` |
 
@@ -89,7 +89,7 @@
 | `rp-curation` | 从 ST worldbook JSON 整理 curated 结构化产物 |
 | `rp-source-ingestion` | 即席摄入外部来源（网页/文件/用户修正） |
 | `rp-exchange` | 用户启用兑换系统、查看兑换面板、消耗奖励点兑换完整能力/血统/物品/知识/契约 |
-| `rp-life-system-tree` | 用户启用生命系统树、查看科技 UI、搜索/点亮/升级节点、通过训练达成节点 |
+| `rp-life-system-tree` | 用户启用生命系统树、查看科技 UI、搜索/点亮/升级节点、通过训练达成节点；生命树修改优先使用 `life_tree_edit`，不要手改状态文件 |
 | `rp-sheet-scraper` | 爬取腾讯文档在线表格；用户说"爬取曙光表"或"爬取口述表" |
 | `rp-sheet-updater` | 基于更新日志增量更新本地数据；用户说"更新曙光表"或"更新口述表" |
 
@@ -104,7 +104,7 @@
 - 用户说"整理 XX 世界书"/"curate XX"：激活 `rp-curation` skill，走分类→writer→图谱→整合→校验→修复的 7 步流水线。
 - 用户说"记录来源"/"摄入 XX 设定"：激活 `rp-source-ingestion` skill。
 - 用户说"启用兑换系统"、"查看兑换面板"、"兑换 XX"：激活 `rp-exchange` skill；按多世界战斗框架定级，只按层级定价；非归档来源必须至少双来源验证；兑换后同步 `progression/exchange.json`、对应角色卡模块与 `memory/world-history.md`。
-- 用户说"启用生命系统树"、"查看生命系统树"、"搜索节点"、"点亮节点"、"升级节点"：激活 `rp-life-system-tree` skill；只显示主角综合评级+1范围；节点必须有来源世界观、禁止原创、能力基点不能是导航节点；节点可货币点亮或通过剧情训练/修行达成；落盘到 `progression/life-system-tree.json`、对应角色卡模块与 `memory/world-history.md`。
+- 用户说"启用生命系统树"、"查看生命系统树"、"搜索节点"、"点亮节点"、"升级节点"：激活 `rp-life-system-tree` skill；只显示主角综合评级+1范围；节点必须有来源世界观、禁止原创、能力基点不能是导航节点；节点可货币点亮或通过剧情训练/修行达成；落盘到 `progression/life-system-tree.json`、对应角色卡模块与 `memory/world-history.md`。生命树状态修改优先走 `life_tree_edit`，不要先手改文件。
 - 用户说"爬取曙光表"：激活 `rp-sheet-scraper` skill；全量爬取 7 个 tab，保存到 `曙光表数据/`。
 - 用户说"爬取口述表"：激活 `rp-sheet-scraper` skill；全量爬取 10 个 tab，保存到 `无限口述规则数据/`。
 - 用户说"更新曙光表"或"检查曙光表更新"：激活 `rp-sheet-updater` skill；拉取更新日志→diff_updates.py 比对→apply_updates.py 生成指令→逐 sheet 合并。
@@ -140,7 +140,7 @@
 
 - `packages/rp-achievements/`：成就系统逻辑包（N0–N24 动态奖励范围、.rd100 世界表、去重、领取、校验）。
 - `data/rp-achievements/`：成就系统世界池、即时奖励候选示例与 schema。
-- `packages/rp-life-system-tree/`：生命系统树逻辑包（节点校验、显示上限、共享图搜索、起点完整价、升级差价、自学/折扣/点亮）。
+- `packages/rp-life-system-tree/`：生命系统树逻辑包（节点校验、显示上限、共享图搜索、起点完整价、升级差价、自学/折扣/点亮）。`life_tree_edit` 写入类 action 默认只回最小结果；需要层级摘要用 `outputMode: "tree"`，需要完整结果用 `outputMode: "full"`。
 - `data/rp-life-system-tree/`：生命系统树共享图、设置和 schema。`sources/` 子目录含曙光表&口述表合并兑换数据(12,632项)及VB↔曙光↔N级战力映射——作为搜索来源池，非直接节点；按 `conversion-convention.md` 走“搜索→候选来源卡→证据包→LLM审核→节点草案”。
 
 - 成就系统：奖励候选即时生成；奖励内容与成就内容无关；不维护基础奖励池。

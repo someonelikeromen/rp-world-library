@@ -1,0 +1,129 @@
+{
+  "_schema": "rp-location-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "location_id": "academy-library",
+  "volume": "vol-03",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-03/full.txt:101"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-03",
+      "volume": "vol-03",
+      "time": "第三卷",
+      "name": {
+        "zh": "学园图书馆",
+        "en": "Academy Library"
+      },
+      "aliases": [
+        "图书馆",
+        "禁止进入区域入口"
+      ],
+      "type": "building / facility",
+      "description": "远离校舍的学园图书馆，夜晚大门深锁，深处存在禁止进入的房间或区域。",
+      "geography": {
+        "features": [
+          "书架通道",
+          "深处锁门",
+          "禁区入口"
+        ]
+      },
+      "population": {
+        "normal": "学生与文官志愿者",
+        "during_incident": "桑妮雅、爱理、媞尔珐、诺珂特"
+      },
+      "controlled_by": "royal-officer-academy",
+      "affiliation": "royal-officer-academy",
+      "significance": "桑妮雅试图进入禁区寻找目标物并暴露海布格间谍身份。",
+      "notable_residents": [],
+      "key_events": [
+        "sania-infiltration-revealed"
+      ],
+      "related_locations": [
+        "royal-officer-academy"
+      ],
+      "hazards": [
+        "海布格间谍潜入",
+        "B-blood飞翔机龙启动"
+      ],
+      "secrets": [
+        "禁区内藏有海布格寻找的某件东西"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-03/full.txt:101",
+        "saijaku-muhai-bahamut-main/vol-03/full.txt:5379"
+      ]
+    },
+    {
+      "period_id": "vol-05",
+      "volume": "vol-05",
+      "time": "vol-05",
+      "name": {
+        "zh": "学园图书馆",
+        "en": "Academy Library"
+      },
+      "aliases": [
+        "图书馆"
+      ],
+      "type": "building / facility",
+      "description": "学园内的图书馆。路克斯经常在此接受库露露希珐的补习。库洛埃尔曾在此跟踪窥探路克斯和库露露希珐的互动。艾丽也曾在此被利夏询问路克斯喜欢的食物。",
+      "geography": {
+        "position": "学园校舍内"
+      },
+      "controlled_by": "王立士官学园",
+      "affiliation": "王立士官学园",
+      "significance": "路克斯和库露露希珐的补习场所，以及委托跟踪的发生地",
+      "notable_residents": [],
+      "key_events": [
+        "find-weakness-request"
+      ],
+      "related_locations": [
+        "royal-armored-dragon-academy"
+      ],
+      "hazards": [],
+      "secrets": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-05/full.txt:2227-3082",
+        "saijaku-muhai-bahamut-main/vol-05/full.txt:1900-2000"
+      ]
+    },
+    {
+      "period_id": "vol-12-main",
+      "volume": "vol-12",
+      "time": "Episode1 夜晚与Epilogue",
+      "name": {
+        "zh": "学园图书馆",
+        "en": "Academy Library"
+      },
+      "aliases": [
+        "图书馆"
+      ],
+      "type": "facility",
+      "description": "路克斯与柯莱尔在休馆后的图书馆整理书籍，聊到圣夜祭与女孩子心情。卷末路克斯也在此查阅遗迹资料整理月与苏菲丝的谜团。",
+      "geography": {
+        "within": "royal-officer-academy"
+      },
+      "population": {},
+      "controlled_by": "royal-officer-academy",
+      "affiliation": "royal-officer-academy",
+      "significance": "既承载柯莱尔与路克斯友谊，也承载卷末对遗迹谜团的整理。",
+      "notable_residents": [],
+      "key_events": [
+        "clare-transfer-and-assistant-exchange",
+        "moon-ruin-revelation"
+      ],
+      "related_locations": [
+        "royal-officer-academy"
+      ],
+      "hazards": [],
+      "secrets": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-12/full.txt:123-1234",
+        "saijaku-muhai-bahamut-main/vol-12/full.txt:7225-7516"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "schema": "tm-tsukihime-packet-generator-report-v1",
+  "packetId": "mystic-eyes-shiki",
+  "stepId": "gen-mystic-eyes-shiki",
+  "role": "Generator",
+  "status": "generated-pending-audit",
+  "generatedAt": "2026-07-15",
+  "worldId": "type-moon-nasuverse",
+  "project": "tsukihime-dead-apostle-profile-supplement-pilot",
+  "mutationScopeUsed": [
+    "extracted/profile-supplement/mystic-eyes-shiki/**",
+    "normalized/profile-supplement/mystic-eyes-shiki/**",
+    "audit/packet-audits/mystic-eyes-shiki/**"
+  ],
+  "rulesRead": [
+    "rules/type-moon-three-agent-loop-rules.md",
+    "docs/type-moon-three-agent-loop-protocol.md",
+    "docs/type-moon-p1-hybrid-archive-plan.md"
+  ],
+  "prepFilesRead": [
+    "campaigns/world-library/manual-curation/type-moon-p1-hybrid/tsukihime-dead-apostle-profile-supplement-pilot/STATUS.md",
+    "campaigns/world-library/manual-curation/type-moon-p1-hybrid/tsukihime-dead-apostle-profile-supplement-pilot/source-unit-manifest.json",
+    "campaigns/world-library/manual-curation/type-moon-p1-hybrid/tsukihime-dead-apostle-profile-supplement-pilot/work-packets/mystic-eyes-shiki.json",
+    "campaigns/world-library/manual-curation/type-moon-p1-hybrid/tsukihime-dead-apostle-profile-supplement-pilot/work-packets/relationships-timeline-visual-gate.json",
+    "campaigns/world-library/manual-curation/type-moon-p1-hybrid/tsukihime-dead-apostle-profile-supplement-pilot/sources/worldbook-profile/source-text-manifest.json"
+  ],
+  "sourceUnitsRead": [
+    "src-tm-summary-mystic-eyes",
+    "src-tm-summary-mystic-eyes-death-perception",
+    "src-dlc-tsukihime-tohno-nanaya",
+    "src-dlc-tsukihime-arcueid",
+    "src-dlc-tsukihime-ciel"
+  ],
+  "sourceRefsRead": [
+    "sources/worldbook-profile/tm-summary-mystic-eyes.txt:16-20",
+    "sources/worldbook-profile/tm-summary-mystic-eyes-of-death-perception.txt:16-24",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:17-63",
+    "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:17-69",
+    "sources/worldbook-profile/dlc-tsukihime-ciel.txt:17-60"
+  ],
+  "filesCreated": [
+    "extracted/profile-supplement/mystic-eyes-shiki/index.json",
+    "extracted/profile-supplement/mystic-eyes-shiki/source-coverage.json",
+    "extracted/profile-supplement/mystic-eyes-shiki/records/general-mystic-eyes-definition.json",
+    "extracted/profile-supplement/mystic-eyes-shiki/records/direct-death-mystic-eyes-definition.json",
+    "extracted/profile-supplement/mystic-eyes-shiki/records/tohno-shiki-original-use-limitations.json",
+    "extracted/profile-supplement/mystic-eyes-shiki/records/tohno-shiki-remake-use-limitations.json",
+    "extracted/profile-supplement/mystic-eyes-shiki/records/nanaya-shiki-caution-signals.json",
+    "extracted/profile-supplement/mystic-eyes-shiki/records/arcueid-encounter-context.json",
+    "extracted/profile-supplement/mystic-eyes-shiki/records/ciel-related-candidate-context.json",
+    "extracted/profile-supplement/mystic-eyes-shiki/mandatory-layers/appearance.json",
+    "extracted/profile-supplement/mystic-eyes-shiki/mandatory-layers/outfit-equipment.json",
+    "extracted/profile-supplement/mystic-eyes-shiki/mandatory-layers/ability-activation.json",
+    "extracted/profile-supplement/mystic-eyes-shiki/mandatory-layers/combat-effect.json",
+    "extracted/profile-supplement/mystic-eyes-shiki/mandatory-layers/relationship-signals.json",
+    "extracted/profile-supplement/mystic-eyes-shiki/mandatory-layers/timeline-signals.json",
+    "extracted/profile-supplement/mystic-eyes-shiki/mandatory-layers/not-found-in-source.json",
+    "extracted/profile-supplement/mystic-eyes-shiki/candidates/continuity-and-ability-candidates.json",
+    "normalized/profile-supplement/mystic-eyes-shiki/index.json",
+    "normalized/profile-supplement/mystic-eyes-shiki/abilities/mystic-eyes-general.json",
+    "normalized/profile-supplement/mystic-eyes-shiki/abilities/direct-death-mystic-eyes.json",
+    "normalized/profile-supplement/mystic-eyes-shiki/appearance/death-lines-and-shiki-glasses.json",
+    "normalized/profile-supplement/mystic-eyes-shiki/appearance/arcueid-eye-color-context.json",
+    "normalized/profile-supplement/mystic-eyes-shiki/outfit-equipment/mystic-eye-killer-glasses.json",
+    "normalized/profile-supplement/mystic-eyes-shiki/outfit-equipment/nanaya-knife.json",
+    "normalized/profile-supplement/mystic-eyes-shiki/ability-activation/general-mystic-eyes-by-sight.json",
+    "normalized/profile-supplement/mystic-eyes-shiki/ability-activation/tohno-shiki-original-direct-death.json",
+    "normalized/profile-supplement/mystic-eyes-shiki/ability-activation/tohno-shiki-remake-direct-death-source-gap.json",
+    "normalized/profile-supplement/mystic-eyes-shiki/combat-effect/direct-death-lines-and-points.json",
+    "normalized/profile-supplement/mystic-eyes-shiki/combat-effect/tohno-shiki-arcueid-seventeen-pieces.json",
+    "normalized/profile-supplement/mystic-eyes-shiki/relationships/signals/tohno-shiki-direct-death-holder.json",
+    "normalized/profile-supplement/mystic-eyes-shiki/relationships/signals/tohno-shiki-arcueid-encounter.json",
+    "normalized/profile-supplement/mystic-eyes-shiki/relationships/signals/ciel-shiki-monitoring-context.json",
+    "normalized/profile-supplement/mystic-eyes-shiki/timeline/entries/direct-death-acquisition-condition.json",
+    "normalized/profile-supplement/mystic-eyes-shiki/timeline/entries/tohno-shiki-original-near-death-awakening.json",
+    "normalized/profile-supplement/mystic-eyes-shiki/timeline/entries/tohno-shiki-arcueid-original-attack.json",
+    "normalized/profile-supplement/mystic-eyes-shiki/timeline/entries/tohno-shiki-arcueid-remake-result.json",
+    "normalized/profile-supplement/mystic-eyes-shiki/not-found/aoko-mystic-eye-killer-provider.json",
+    "normalized/profile-supplement/mystic-eyes-shiki/not-found/nanaya-shiki-formal-direct-death.json",
+    "normalized/profile-supplement/mystic-eyes-shiki/not-found/ciel-mystic-eyes.json",
+    "normalized/profile-supplement/mystic-eyes-shiki/not-found/anti-true-ancestor-limits.json",
+    "normalized/profile-supplement/mystic-eyes-shiki/candidates/continuity-and-ability-candidates.json",
+    "audit/packet-audits/mystic-eyes-shiki/generator-report.json",
+    "audit/packet-audits/mystic-eyes-shiki/final-status.json"
+  ],
+  "filesUpdated": [],
+  "counts": {
+    "extractedFiles": 17,
+    "normalizedFiles": 24,
+    "auditFiles": 2,
+    "sourceUnitsRead": 5,
+    "mandatoryLayerFiles": 7,
+    "notFoundRecords": 9,
+    "candidateOnlyItems": 7,
+    "formalCharacters": 0,
+    "formalEvents": 0,
+    "formalRelationships": 0,
+    "formalGraphFiles": 0,
+    "formalTimelineFiles": 0
+  },
+  "mandatoryLayerCoverage": {
+    "appearance": "death-line visual surface, Shiki glasses/hair context, Arcueid eye-color context, remake Shiki eye visual not-found",
+    "outfit-equipment": "Mystic Eye Killer glasses and Nanaya knife source-backed; Aoko/provider context not-found",
+    "ability-activation": "general sight activation, Direct Death near-death requirement, original Shiki awakening/use; remake activation scene not-found",
+    "combat-effect": "death-line/death-point effects and Shiki/Arcueid seventeen-piece effects; no unsupported anti-True-Ancestor scaling",
+    "relationships": "signal fragments only; holder and Shiki/Arcueid/Ciel context, no graph merge",
+    "timeline": "relative-only signal entries, no formal timeline aggregate",
+    "not-found-in-source": "created with explicit records for Aoko provider, remake activation scene, Nanaya formal Direct Death ownership, Ciel Mystic Eyes, anti-True-Ancestor scaling"
+  },
+  "candidateOnlyItems": [
+    "Aoko as Mystic Eye Killer provider or teacher context",
+    "Nanaya Shiki formal Direct Death Mystic Eyes ownership",
+    "Ciel suggestion classified as Mystic Eyes",
+    "Type Lumina Shiki Mystic Eyes details",
+    "general anti-True-Ancestor limitation or power scaling beyond Arcueid result",
+    "remake Shiki direct activation scene",
+    "Ciel/Shiki monitoring as Mystic Eye causal relationship"
+  ],
+  "continuityPolicyApplied": {
+    "rawLabelMapping": {
+      "同人版": "original",
+      "重制版": "remake",
+      "Melty Blood signal via TATARI context": "candidate/context only",
+      "Type Lumina missing source": "source-gap/candidate-only"
+    },
+    "unsupportedLabelsPolicy": "Unsupported continuity-specific details and model-memory claims were kept candidate-only or not-found, not promoted to formal facts."
+  },
+  "forbiddenOutputsCheck": {
+    "characters.json": false,
+    "events.json": false,
+    "relationships.json": false,
+    "facts.json": false,
+    "graph.json": false,
+    "timeline.json": false
+  },
+  "uncertainties": [
+    "Source excerpts are user-file worldbook/profile summaries, not official script text; credibility remains B.",
+    "Line references are to Stage 1 line-addressable source excerpt files, not raw imports.",
+    "Relationship and timeline material are signal fragments only and must be audited before merge.",
+    "The generator did not run executable JSON validation because shell/scripts are forbidden in this delegated task."
+  ],
+  "validationStatus": {
+    "manualJsonSyntaxReview": "performed while writing JSON objects",
+    "readBackValidation": "selected files read after writing",
+    "auditRequired": true
+  }
+}

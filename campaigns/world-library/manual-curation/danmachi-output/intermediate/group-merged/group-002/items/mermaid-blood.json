@@ -1,0 +1,64 @@
+{
+  "_schema": "rp-item-volume-v1",
+  "world": "danmachi",
+  "item_id": "mermaid-blood",
+  "volume": "vol-14",
+  "source_refs": [
+    "danmachi-main/vol-14/full.txt:5159-7656"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-14-mermaid-blood",
+      "volume": "vol-14",
+      "time": "第五章 灾厄降临",
+      "name": {
+        "zh": "人鱼之血",
+        "en": "Mermaid Blood"
+      },
+      "type": "healing_monster_material",
+      "owner": "marie",
+      "summary": "人鱼之血据说能治愈伤口，是具有神秘回复力的怪物素材。贝尔被札格纳特斩断右臂、濒死落水后，玛璃割伤自己并让血流入贝尔伤口，还把断臂贴回断面，使贝尔重获右臂并恢复到能再战的状态。",
+      "properties": [
+        "强力治愈伤口",
+        "可接合断肢",
+        "需由人鱼献血",
+        "对严重濒死伤势也有效"
+      ],
+      "related_events": [
+        "juggernaut-massacre-and-bell-maimed",
+        "bell-returns-and-argo-vesta-maims-juggernaut"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-14/full.txt:5159-7656"
+      ]
+    },
+    {
+      "period_id": "vol-15-mermaid-blood",
+      "volume": "vol-15",
+      "time": "终章 You'll be back Ⅱ",
+      "name": {
+        "zh": "人鱼的鲜血",
+        "en": "Mermaid Blood"
+      },
+      "type": "healing_material",
+      "owner": "marie / rescue party",
+      "summary": "人鱼异端儿玛璃的鲜血，具备强力治疗效果。因玛璃此前已多次为贝尔放血，提供量有限，但救援队在找到贝尔与琉后用它维持两人的生命，直到返回地表治疗设施。",
+      "constraints": [
+        "需要玛璃自伤供血",
+        "不能大量取得",
+        "更偏向紧急维生而非完全治疗"
+      ],
+      "key_events": [
+        {
+          "event_id": "xenos-rescue-bell-and-ryu-after-juggernaut",
+          "summary": "救援队使用人鱼血维系濒死的贝尔与琉。"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-15/chapters/ch-011-终章-You'll-be-back-Ⅱ.txt"
+      ]
+    }
+  ]
+}

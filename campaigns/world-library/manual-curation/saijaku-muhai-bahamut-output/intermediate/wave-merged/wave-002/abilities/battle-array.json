@@ -1,0 +1,53 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "battle-array",
+  "volume": "vol-08",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-08/full.txt:7560"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-08-main",
+      "volume": "vol-08",
+      "time": "圣都最终战中被借鉴",
+      "name": {
+        "zh": "战阵",
+        "en": "Battle Array"
+      },
+      "aliases": [
+        "调律战技"
+      ],
+      "type": "technology / combat",
+      "description": "辛格伦擅长的机龙调律战技体系。路克斯在与朵拉肯最终战中借鉴其原理，开发战阵·暴击。",
+      "details": {
+        "known_practitioner": "singlen-shelbrit",
+        "derived_user": "lux-arcadia"
+      },
+      "activation": {
+        "condition": "调律机龙资料并转换为战技",
+        "incantation": "调律·开始",
+        "time": "短时",
+        "cost": "需要极高机龙理解"
+      },
+      "effects": [
+        "调整机龙输出",
+        "将调律用于回避、防御或破坏"
+      ],
+      "known_feats": [
+        "路克斯以其理念反制《阿斯普》"
+      ],
+      "shared_by": [
+        "singlen-shelbrit",
+        "lux-arcadia"
+      ],
+      "see_also": [
+        "battle-array-burst-strike"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-08/full.txt:7560"
+      ]
+    }
+  ]
+}

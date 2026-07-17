@@ -1,0 +1,68 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "ability-freezing-cannon",
+  "volume": "vol-02",
+  "source_refs": [
+    "vol-02"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-02",
+      "volume": "vol-02",
+      "time": "箱庭任务、决斗终盘",
+      "name": {
+        "zh": "冻息投射",
+        "en": "Freezing Cannon"
+      },
+      "aliases": [
+        "冰冻狙击炮"
+      ],
+      "type": "technology / combat",
+      "description": "《法夫纳》的特殊武装，外观近似高性能狙击铳炮，命中部位会冻结。",
+      "details": {
+        "drag_ride": "item-fafnir",
+        "weapon_class": "special armament"
+      },
+      "activation": {
+        "condition": "《法夫纳》装备中瞄准射击",
+        "incantation": "《冻息投射》",
+        "time": "瞬发",
+        "cost": "机龙能量"
+      },
+      "effects": [
+        "冻结命中部位",
+        "可封住巨神兵关节",
+        "可一炮冻结受损的《艾基·达哈卡》阻止逃跑"
+      ],
+      "power_level": {
+        "initial": "可压制大型幻神兽关键部位",
+        "peak": "在重伤后仍能准确命中逃亡目标",
+        "evolution": []
+      },
+      "known_feats": [
+        "冻结巨神兵双臂关节",
+        "击中保泽里多残破机体使其倒地"
+      ],
+      "shared_by": [
+        "krulcifer-einfolk"
+      ],
+      "see_also": [
+        "item-fafnir",
+        "ability-wise-blood"
+      ],
+      "countered_by": [
+        "瓦砾遮蔽与间接防御"
+      ],
+      "counters": [
+        "巨神兵关节活动"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "ch-004-Episode3-第六遗迹—箱庭—",
+        "ch-005-Episode4-决斗"
+      ]
+    }
+  ]
+}

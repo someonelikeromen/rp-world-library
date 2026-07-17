@@ -1,0 +1,68 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "brandish",
+  "volume": "vol-11",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-11/full.txt:2200",
+    "saijaku-muhai-bahamut-main/vol-11/full.txt:6900"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-11",
+      "volume": "vol-11",
+      "time": "vol-11",
+      "label": "vol-11 snapshot",
+      "name": {
+        "zh": "布朗狄修",
+        "en": "Brandish",
+        "jp": ""
+      },
+      "aliases": [
+        "断刑"
+      ],
+      "titles": [
+        "六刑士之一"
+      ],
+      "gender": "男",
+      "species": "人类",
+      "occupation": "海布格机龙使",
+      "affiliation": "六刑士；海布格共和国",
+      "status": {
+        "vol_11": "红灯街袭击路克斯后被击败；后试图处决罗莎又被柯莱尔阻止"
+      },
+      "abilities_owned": [
+        "vibrating-blade"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "lux": {
+          "type": "敌对",
+          "status": "在酒吧交战并重伤路克斯"
+        },
+        "rosa-granhide": {
+          "type": "表面直属",
+          "status": "后按真正主使命令企图杀她灭口"
+        }
+      },
+      "summary": "六刑士中的残忍机龙使，使用震动刃并以断刑称号闻名。",
+      "key_events": [
+        {
+          "event_id": "brandish-bar-battle",
+          "summary": "袭击酒吧并用震动刃重伤路克斯",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-11/full.txt:2200"
+        },
+        {
+          "event_id": "calensia-reveal",
+          "summary": "试图杀死罗莎灭口",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-11/full.txt:6900"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-11/full.txt:2200",
+        "saijaku-muhai-bahamut-main/vol-11/full.txt:6900"
+      ]
+    }
+  ]
+}

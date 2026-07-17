@@ -1,0 +1,50 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "wyvern-basic-combat",
+  "volume": "vol-08",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-08/full.txt:1833"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-08-main",
+      "volume": "vol-08",
+      "time": "巡礼祭护卫战",
+      "name": {
+        "zh": "飞翔机龙基础战斗",
+        "en": "Wyvern Basic Combat"
+      },
+      "aliases": [
+        "飞翔型机龙战斗"
+      ],
+      "type": "technology / combat",
+      "description": "神殿骑士团与察因等机龙使使用飞翔型装甲机龙进行巡礼护卫、机龙牙剑格斗和空中支援。",
+      "details": {
+        "drag_ride": "wyvern"
+      },
+      "activation": {
+        "condition": "召唤飞翔机龙",
+        "incantation": "",
+        "time": "持续",
+        "cost": "依使用者体力与适性"
+      },
+      "effects": [
+        "飞行机动",
+        "空中格斗",
+        "巡礼护卫"
+      ],
+      "known_feats": [
+        "察因参与旧神殿护卫战"
+      ],
+      "shared_by": [
+        "zain-einfolk",
+        "temple-knights"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-08/full.txt:1833"
+      ]
+    }
+  ]
+}

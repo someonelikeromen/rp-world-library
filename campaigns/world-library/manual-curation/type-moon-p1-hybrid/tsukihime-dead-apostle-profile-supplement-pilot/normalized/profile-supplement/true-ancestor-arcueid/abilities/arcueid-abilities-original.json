@@ -1,0 +1,52 @@
+{
+  "schema": "tm-tsukihime-normalized-ability-set-v1",
+  "packetId": "true-ancestor-arcueid",
+  "subjectId": "arcueid-brunestud-original",
+  "continuityTaxonomy": {
+    "category": "original",
+    "rawSourceLabels": ["同人版"]
+  },
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "records": [
+    {
+      "recordId": "ability-original-true-ancestor-traits",
+      "recordKind": "ability-activation",
+      "abilityName": "真祖特性",
+      "continuityTaxonomy": { "category": "original", "rawSourceLabels": ["同人版"] },
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted",
+      "activationOrTrait": "trait",
+      "effects": ["可在日光下行走", "流动的水、大蒜、圣水、十字架等驱魔圣物一概无效", "远胜人类的体能", "恢复力", "吸血冲动"],
+      "limitsOrNotes": ["爱尔奎特并不吸血，和一般人吃同样的食物。"],
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:21", "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:22"]
+    },
+    {
+      "recordId": "ability-original-marble-phantasm",
+      "recordKind": "ability-activation",
+      "abilityName": "空想具现化（Marble Phantasm）",
+      "continuityTaxonomy": { "category": "original", "rawSourceLabels": ["同人版"] },
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted",
+      "activationOrTrait": "ability",
+      "effects": ["被称为最大武器", "source states she has super-high combat ability difficult for other vampires to match"],
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:30", "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:31"]
+    },
+    {
+      "recordId": "ability-original-charm-mystic-eyes",
+      "recordKind": "ability-activation",
+      "abilityName": "魅惑之魔眼",
+      "continuityTaxonomy": { "category": "original", "rawSourceLabels": ["同人版"] },
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted",
+      "activationOrTrait": "ability",
+      "activationSignal": "魔眼一般通过视线来启动效果，将魔术的咏唱和启动过程极大地简化。",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:31", "sources/worldbook-profile/tm-summary-mystic-eyes.txt:16", "sources/worldbook-profile/tm-summary-mystic-eyes.txt:17"]
+    }
+  ],
+  "reviewStatus": "generated-pending-audit"
+}

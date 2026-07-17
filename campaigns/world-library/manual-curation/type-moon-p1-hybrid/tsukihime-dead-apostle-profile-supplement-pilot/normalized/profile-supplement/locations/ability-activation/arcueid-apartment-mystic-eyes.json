@@ -1,0 +1,22 @@
+{
+  "schema": "tm-tsukihime-normalized-location-fragment-v1",
+  "packetId": "locations",
+  "recordId": "loc-frag-arcueid-apartment-mystic-eyes",
+  "recordKind": "ability-activation-location-fragment",
+  "subjectId": "arcueid-apartment-mystic-eye-lease-context",
+  "name": {"zh": "爱尔奎特的公寓", "en": "Arcueid's apartment"},
+  "continuityTaxonomy": {
+    "category": "sandbox",
+    "rawSourceLabels": ["爱尔奎特", "魔眼"],
+    "policyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy"
+  },
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "candidateOnly": false,
+  "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-locations.txt:28"],
+  "abilityActivationSignals": [
+    "Arcueid rented the apartment after using Mystic Eyes to brainwash the manager."
+  ],
+  "reviewStatus": "generated-pending-audit"
+}

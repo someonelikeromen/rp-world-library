@@ -13,10 +13,10 @@ Old curated input inspected read-only:
 Pilot inputs:
 
 - `merged/merged-timeline.json`
-- `waves/wave-009/output/events.json`
-- `waves/wave-010/output/events.json`
-- `waves/wave-011/output/events.json`
-- `waves/wave-012/output/events.json`
+- `waves/wave-009/output/event-index.json`
+- `waves/wave-010/output/event-index.json`
+- `waves/wave-011/output/event-index.json`
+- `waves/wave-012/output/event-index.json`
 - `waves/wave-015/output/timeline-skeleton.json`
 - `waves/wave-016/output/event-time-review.json`
 - `waves/wave-017/output/character-periods.json`

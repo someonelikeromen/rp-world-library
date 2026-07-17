@@ -1,0 +1,48 @@
+{
+  "schema": "tm-tsukihime-extracted-record-set-v1",
+  "packetId": "dead-apostles-roa",
+  "recordSetId": "ancestor-combat-signals-candidate",
+  "status": "generated-pending-audit",
+  "candidateOnly": true,
+  "records": [
+    {
+      "recordId": "ext-nero-ancestor-fight-original-candidate-001",
+      "recordType": "combat-effect-candidate",
+      "candidateOnly": true,
+      "subject": "尼禄·卡奥斯 / 死徒二十七祖",
+      "summary": "Indirect candidate excerpt says the original Tohno Shiki source uses Nrvnqsr Chaos as the tenth of the Twenty-seven Dead Apostle Ancestors in an early Tsukihime route fight. No standalone Nero profile is formalized here.",
+      "rawValues": ["尼禄·卡奥斯", "死徒二十七祖第十祖", "Tsukihime early route fight"],
+      "continuityTaxonomy": {"category": "original", "rawSourceLabels": ["同人版", "candidate-only"], "sourceAvailability": "indirect-signal-only"},
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:26"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    },
+    {
+      "recordId": "ext-vlov-ancestor-fight-remake-candidate-001",
+      "recordType": "combat-effect-candidate",
+      "candidateOnly": true,
+      "subject": "弗洛夫·阿尔汉格尔 / 死徒二十七祖",
+      "summary": "Indirect candidate excerpt says remake Arcueid source uses Vlov Arkhangel as the nineteenth of the Twenty-seven Dead Apostle Ancestors and an enemy in the remake route. No standalone Vlov profile is formalized here.",
+      "rawValues": ["弗洛夫·阿尔汉格尔", "死徒二十七祖第十九祖", "enemy in remake route"],
+      "continuityTaxonomy": {"category": "remake", "rawSourceLabels": ["重制版", "candidate-only"], "sourceAvailability": "indirect-signal-only"},
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:27"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    },
+    {
+      "recordId": "ext-ciel-three-ancestor-hunts-remake-candidate-001",
+      "recordType": "combat-history-candidate",
+      "candidateOnly": true,
+      "subject": "重制版希耶尔 / 二十七祖",
+      "summary": "Remake Ciel source says she had defeated three Twenty-seven Ancestors before going to Japan and held their Principle Blood Rings. The three Ancestors are not named in the assigned excerpt.",
+      "rawValues": ["赴日前已讨伐三位二十七祖", "持有其原理血戒"],
+      "continuityTaxonomy": {"category": "remake", "rawSourceLabels": ["重制版"], "sourceAvailability": "supported-profile-signal; unnamed Ancestors"},
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:53"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "alise-lovell",
+  "volume": "vol-11",
+  "time_range": {
+    "start": "BD6短篇",
+    "end": "BD6短篇"
+  },
+  "sub_arcs": [
+    "邂逅的誓言"
+  ],
+  "source_refs": [
+    "danmachi-main/vol-11/full.txt:3065-3374"
+  ],
+  "_revisions": [
+    {
+      "type": "fix",
+      "description": "修正阿丽泽状态等级：原文自称即将成为Lv.2，同时又说明快成为第三级冒险者；避免误写为即将成为第三级冒险者。",
+      "source_refs": [
+        "danmachi-main/vol-11/full.txt:308",
+        "danmachi-main/vol-11/full.txt:434"
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "period_id": "vol-11-bd6-rescues-and-invites-ryu",
+      "volume": "vol-11",
+      "time": "BD6短篇 邂逅的誓言",
+      "label": "救下琉并邀请她加入正义眷族",
+      "name": {
+        "zh": "阿丽泽·罗贝尔",
+        "en": "Alise Lovell",
+        "jp": "アリーゼ・ローヴェル"
+      },
+      "aliases": [],
+      "gender": "女",
+      "species": "人类",
+      "occupation": "冒险者、阿斯特莉亚眷族团长",
+      "affiliation": "阿斯特莉亚眷族",
+      "status": {
+        "level": "即将成为Lv.2（第三级冒险者）",
+        "location": "欧拉丽",
+        "state": "以正义为信念活动的新兴眷族团长"
+      },
+      "summary": "阿丽泽在小巷中阻止鸠拉等人贩子绑架琉，随后直率指出琉把偏执归咎于妖精种族是借口。她认可琉能承认错误的诚实，主动与琉牵手进行特训，并把她带回阿斯特莉亚眷族。阿丽泽向琉阐述眷族要终结欧拉丽黑暗期、让人们重获笑容的正义理想，成为琉第一个能握手的异种族伙伴。",
+      "key_events": [
+        {
+          "event_id": "ryu-meets-alise-and-joins-astrea-familia",
+          "summary": "救下、纠正并招募迷惘中的琉。",
+          "sourceRef": "danmachi-main/vol-11/full.txt:3065"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-11/full.txt:3065-3374"
+      ]
+    }
+  ]
+}

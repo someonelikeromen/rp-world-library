@@ -1,0 +1,44 @@
+{
+  "_schema": "rp-event-volume-v1",
+  "world": "danmachi",
+  "event_id": "midnight-dungeon-run",
+  "volume": "vol-01",
+  "time": "第二章末",
+  "periods": [
+    {
+      "period_id": "midnight-dungeon-run",
+      "volume": "vol-01",
+      "time": "深夜",
+      "name": {
+        "zh": "深夜地下城暴走",
+        "en": "Midnight Dungeon Run"
+      },
+      "type": "incident",
+      "location": "地下城第6层",
+      "summary": "贝尔受辱后冲进地下城，未穿防具仅带短刀，整夜在地下城厮杀，到达第6层后首次遭遇战影，陷入生死危机。",
+      "cause": "贝尔在酒馆被伯特当众羞辱后自暴自弃",
+      "process": "贝尔身穿便服、不带防具闯进地下城，一路杀到第6层。在第6层的宽敞房间遭遇两只战影，陷入苦战。被逼入绝境时爆发潜力，用赤手空拳打穿战影的脸部。后被多只战影和怪物包围，得以逃脱。",
+      "outcome": "贝尔遍体鳞伤回到教堂地下室，赫斯缇雅等了一整夜。",
+      "aftermath": "赫斯缇雅更新能力值时发现能力值大幅增长（合计上升超过160）。贝尔也首次见识到自己超常的成长速度。赫斯缇雅发现了技能'一心憧憬'的存在但选择隐瞒。",
+      "participants": [
+        {
+          "id": "bell-cranel",
+          "role": "主要"
+        }
+      ],
+      "casualties": [],
+      "related_events": [
+        "tavern-insult-incident",
+        "rapid-growth-revelation"
+      ],
+      "significance": "贝尔首次展现在逆境中的潜力，能力值异常成长首次被确认，技能'一心憧憬'被发现。",
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-01/full.txt:2051-2512"
+      ]
+    }
+  ],
+  "source_refs": [
+    "danmachi-main/vol-01/full.txt:827-2050"
+  ]
+}

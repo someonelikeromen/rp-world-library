@@ -1,0 +1,57 @@
+{
+  "schema": "tm-tsukihime-extracted-mandatory-layer-v1",
+  "packetId": "mystic-eyes-shiki",
+  "layer": "combat-effect",
+  "status": "generated-pending-audit",
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "mixed-source-status-see-records",
+  "continuityTaxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy",
+  "records": [
+    {
+      "recordId": "combat-effect-death-lines",
+      "subjectId": "direct-death-mystic-eyes",
+      "continuity": { "rawSourceLabel": "直死之魔眼", "canonicalContinuity": "sandbox", "taxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy" },
+      "effectRaw": "Cutting along death lines with a blade ignores physical strength and defense and directly kills.",
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "candidateOnly": false,
+      "sourceRefs": ["sources/worldbook-profile/tm-summary-mystic-eyes-of-death-perception.txt:20"]
+    },
+    {
+      "recordId": "combat-effect-death-points",
+      "subjectId": "direct-death-mystic-eyes",
+      "continuity": { "rawSourceLabel": "直死之魔眼", "canonicalContinuity": "sandbox", "taxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy" },
+      "effectRaw": "Stabbing a death point with a blade directly erases the object's existence and is a higher application.",
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "candidateOnly": false,
+      "sourceRefs": ["sources/worldbook-profile/tm-summary-mystic-eyes-of-death-perception.txt:21", "sources/worldbook-profile/tm-summary-mystic-eyes-of-death-perception.txt:22"]
+    },
+    {
+      "recordId": "combat-effect-tohno-shiki-original-arcueid-seventeen-pieces",
+      "subjectId": "tohno-shiki--arcueid-brunestud",
+      "continuity": { "rawSourceLabel": "同人版", "canonicalContinuity": "original", "taxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy/rawLabelMapping/同人版" },
+      "effectRaw": "Shiki follows the blond woman in white to an apartment and uses Direct Death Mystic Eyes with the short knife to divide her into seventeen pieces; Arcueid source says she revives but lacks enough power to deal with the enemy alone.",
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted",
+      "candidateOnly": false,
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:46", "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:47", "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:17", "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:24"]
+    },
+    {
+      "recordId": "combat-effect-tohno-shiki-remake-arcueid-seventeen-pieces",
+      "subjectId": "tohno-shiki--arcueid-brunestud",
+      "continuity": { "rawSourceLabel": "重制版", "canonicalContinuity": "remake", "taxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy/rawLabelMapping/重制版" },
+      "effectRaw": "Remake Arcueid source states that she is initially dismembered into seventeen pieces by Tohno Shiki and appears again the next day; the assigned source does not give the detailed activation process.",
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted",
+      "candidateOnly": false,
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:53"]
+    }
+  ],
+  "sourceRefs": ["sources/worldbook-profile/tm-summary-mystic-eyes-of-death-perception.txt:20", "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:47", "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:53"]
+}

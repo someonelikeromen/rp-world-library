@@ -1,0 +1,35 @@
+{
+  "schema": "tm-tsukihime-normalized-ability-fragment-v1",
+  "packetId": "dead-apostles-roa",
+  "recordId": "tatari-dead-apostle-candidates",
+  "status": "generated-pending-audit",
+  "candidateOnly": true,
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "continuityTags": ["melty-blood", "remake"],
+  "records": [
+    {
+      "recordId": "wallachia-tatari-nanaya-shiki-candidate",
+      "kind": "tatari-activation-candidate",
+      "activation": "Nanaya Shiki appears as TATARI when Shiki's fear and anxiety about inversion impulse are reflected by Wallachia Night.",
+      "activationRaw": "志贵对自己反转冲动的畏惧和不安被瓦拉齐亚之夜映照出来，而作为TATARI登场",
+      "continuityTaxonomy": {"category": "melty-blood", "rawSourceLabels": ["瓦拉齐亚之夜", "TATARI"], "sourceAvailability": "supported-mention; direct profile not read"},
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:51", "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:53"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    },
+    {
+      "recordId": "shiki-half-dead-apostle-extra-end-candidate",
+      "kind": "route-limited-status-candidate",
+      "activation": "Remake Shiki is labeled half-vampire/Dead Apostle only in Ciel route Extra End context.",
+      "activationRaw": "希耶尔线 Extra End 限定的半吸血鬼(死徒)",
+      "continuityTaxonomy": {"category": "remake", "rawSourceLabels": ["重制版"], "sourceAvailability": "supported-profile-signal; route-limited candidate"},
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:58"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    }
+  ]
+}

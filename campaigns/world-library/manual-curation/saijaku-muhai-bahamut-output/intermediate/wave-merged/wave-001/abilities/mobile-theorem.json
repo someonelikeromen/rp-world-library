@@ -1,0 +1,69 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "mobile-theorem",
+  "volume": "vol-03",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-03/full.txt:2451"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-03",
+      "volume": "vol-03",
+      "time": "校内选拔战",
+      "name": {
+        "zh": "机动定石",
+        "en": "Mobile Theorem"
+      },
+      "aliases": [
+        "战术定石执行力"
+      ],
+      "type": "combat / skill",
+      "description": "赛莉丝能记住并迅速执行针对各种情况的最有效战术，在短时间逆转复杂战局。",
+      "details": {
+        "nature": "并非单一武装，而是高阶战术判断和执行能力。",
+        "reputation": "王都军人之间以机动定石称呼其才能。"
+      },
+      "activation": {
+        "condition": "赛莉丝进入战斗并识别当前局面",
+        "incantation": "",
+        "time": "即时判断",
+        "cost": "精神集中"
+      },
+      "effects": [
+        "迅速选择最佳反击",
+        "在被拘束或闪光干扰等逆境中恢复优势",
+        "压制同级神装机龙使用者"
+      ],
+      "power_level": {
+        "initial": "对莉夏与库露露席法联手仍保持优势",
+        "peak": "自击解除拘束并遮断法夫纳视野",
+        "evolution": []
+      },
+      "known_feats": [
+        "用雷光穿枪攻击自己解除莉夏拘束",
+        "以闪光干扰财祸睿智"
+      ],
+      "shared_by": [
+        "celistia-ralgris"
+      ],
+      "see_also": [
+        "lightning-flash",
+        "lindwurm-ruler-domain"
+      ],
+      "countered_by": [
+        "完全未知能力",
+        "心理动摇"
+      ],
+      "counters": [
+        "协同战术",
+        "预测未来型神装"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-03/full.txt:2451"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "tm-tsukihime-work-packet-v1",
+  "packetId": "locations",
+  "stage": "future-extraction-plan",
+  "status": "planned",
+  "sourceUnits": ["src-dlc-tsukihime-locations", "src-dlc-tsukihime-tohno-nanaya", "src-dlc-tsukihime-arcueid", "src-dlc-tsukihime-ciel"],
+  "sourceFiles": ["sources/worldbook-profile/dlc-tsukihime-locations.txt", "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt", "sources/worldbook-profile/dlc-tsukihime-arcueid.txt", "sources/worldbook-profile/dlc-tsukihime-ciel.txt"],
+  "continuityTaxonomy": ["original", "remake", "melty-blood", "kagetsu-tohya", "type-lumina", "sandbox"],
+  "continuityTaxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy",
+  "continuitySourceGapPolicy": "Categories without Stage 1 source text are source-gap/candidate-only; do not invent continuity facts.",
+  "candidateScopes": ["三咲町", "总耶市", "远野家本邸", "三咲市立高中", "私立浅上女子学园", "公园", "爱尔奎特公寓", "希耶尔公寓", "祭祀摩天楼", "后巷"],
+  "mandatoryExtractionLayers": ["appearance", "outfit-equipment", "ability-activation", "combat-effect", "relationships", "timeline", "not-found-in-source"],
+  "appearancePolicy": "For locations, appearance means visual/spatial description; extract only text-backed descriptions.",
+  "outfitEquipmentPolicy": "Location-linked equipment/storage only if explicit, such as Ciel curry storage or Tohno underground facilities.",
+  "abilityActivationPolicy": "Extract magical base/territory/concept only if source-backed; otherwise not-found.",
+  "combatEffectPolicy": "Location combat/event signals such as Melty Blood tower or back alley incidents remain candidate-only.",
+  "relationshipPolicy": "Location-to-character/faction associations are candidate refs, not formal edges.",
+  "timelinePolicy": "Use raw setting labels and continuity replacement note: remake replaces 三咲町 with 总耶市.",
+  "notFoundPolicy": "If a location lacks visual, system, or event data, record not-found-in-source for that surface.",
+  "forbidden": ["formal location records", "route event formalization", "characters.json", "events.json", "relationships.json"],
+  "gateCriteria": ["all locations line-cited", "三咲町 vs 总耶市 replacement retained", "cross-work labels preserved", "no unsupported map additions"]
+}

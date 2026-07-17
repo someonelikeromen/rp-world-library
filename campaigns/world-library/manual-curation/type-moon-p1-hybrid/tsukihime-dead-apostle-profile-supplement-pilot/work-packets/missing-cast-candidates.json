@@ -1,0 +1,23 @@
+{
+  "schema": "tm-tsukihime-work-packet-v1",
+  "packetId": "missing-cast-candidates",
+  "stage": "candidate-scope-plan",
+  "status": "planned",
+  "sourceUnits": ["src-dlc-tsukihime-tohno-nanaya", "src-dlc-tsukihime-arcueid", "src-dlc-tsukihime-ciel", "src-dlc-tsukihime-locations", "src-dlc-tsukihime-dead-apostle-roa-candidates"],
+  "sourceFiles": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt", "sources/worldbook-profile/dlc-tsukihime-arcueid.txt", "sources/worldbook-profile/dlc-tsukihime-ciel.txt", "sources/worldbook-profile/dlc-tsukihime-locations.txt", "sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt"],
+  "continuityTaxonomy": ["original", "remake", "melty-blood", "kagetsu-tohya", "type-lumina", "sandbox"],
+  "continuityTaxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy",
+  "continuitySourceGapPolicy": "Categories without Stage 1 source text are source-gap/candidate-only; Type Lumina names/mentions without source stay candidate-only.",
+  "candidateScopes": ["远野秋叶", "远野四季", "翡翠", "琥珀", "弓冢五月", "乾有彦", "有间都古", "诺耶尔", "马里奥", "弗洛夫", "尼禄·卡奥斯", "瓦拉齐亚之夜", "紫苑", "梅涟·所罗门"],
+  "candidatePolicy": "Do not formalize missing cast from mentions only. Search/read direct source entries first in a later stage; if absent, keep candidate-only source gaps.",
+  "mandatoryExtractionLayers": ["appearance", "outfit-equipment", "ability-activation", "combat-effect", "relationships", "timeline", "not-found-in-source"],
+  "appearancePolicy": "Missing cast appearance must not be inferred; direct profile or not-found/source-gap only.",
+  "outfitEquipmentPolicy": "Equipment must remain absent unless directly sourced.",
+  "abilityActivationPolicy": "Abilities such as Mystic Eyes, Dead Apostle powers, maid/Tohno abilities require direct source lines.",
+  "combatEffectPolicy": "Combat roles from route summaries remain candidate-only until direct extraction.",
+  "relationshipPolicy": "Mentioned relations can seed search terms, not formal edges.",
+  "timelinePolicy": "Use mention contexts as search anchors only; no timeline facts from unsourced memory.",
+  "notFoundPolicy": "Record source-gap or not-found-in-source for candidates lacking direct profile text.",
+  "forbidden": ["formal cast completion from model memory", "characters.json", "events.json", "relationships.json"],
+  "gateCriteria": ["all candidate names remain candidate-only", "direct-source search terms listed", "no formal facts for missing cast", "source gaps visible for next stage"]
+}

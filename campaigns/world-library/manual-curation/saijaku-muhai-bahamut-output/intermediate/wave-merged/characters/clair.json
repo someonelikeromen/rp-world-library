@@ -1,0 +1,160 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "clair",
+  "volume": "vol-07",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-07/full.txt:1600"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-07-main",
+      "volume": "vol-07",
+      "time": "梵海姆公国遗迹都市期间",
+      "name": {
+        "zh": "柯莱尔",
+        "en": "Clair",
+        "jp": ""
+      },
+      "aliases": [],
+      "titles": [
+        "葛莱法的辅佐官",
+        "蜜弥爱特公女的护卫"
+      ],
+      "gender": "男（本卷表面身份）",
+      "species": "人类",
+      "occupation": "梵海姆公国士官候补生；辅佐官；机龙使",
+      "affiliation": "梵海姆公国；蜜弥爱特公女阵营；七龙骑圣辅佐体系",
+      "status": {
+        "state": "存活",
+        "role": "协助接待新王国学园并参与迷宫镇压"
+      },
+      "abilities_owned": [],
+      "possessions_owned": [
+        "flying-dragon-x"
+      ],
+      "relationships": {
+        "greifer-neste": {
+          "relation": "辅佐官与搭档",
+          "summary": "负责照看葛莱法，常以轻松口吻调侃他。"
+        },
+        "lux-arcadia": {
+          "relation": "友好同伴",
+          "summary": "邀请路克斯同住并外出饮酒，帮助他缓和迷惘。"
+        },
+        "mimiatt-claudia": {
+          "relation": "护卫对象",
+          "summary": "作为远房亲戚被收留并担任公女护卫。"
+        }
+      },
+      "knowledge": [
+        "second-ruins-labyrinth"
+      ],
+      "secrets": [],
+      "summary": "柯莱尔在本卷负责接待新王国成员，向路克斯介绍遗迹都市与迷宫，并作为葛莱法的辅佐官行动。他表现温和细心，安排路克斯与自己同住，也带路克斯与葛莱法夜访酒馆，间接推动路克斯理解葛莱法的过去。",
+      "key_events": [
+        {
+          "event_id": "seven-dragon-paladin-round-table",
+          "summary": "引导路克斯前往辛格伦主持的会议。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-07/full.txt:1600"
+        },
+        {
+          "event_id": "labyrinth-suppression-operation",
+          "summary": "与路克斯、葛莱法组队进入迷宫，警戒状态后独自甩开幻神兽大军。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-07/full.txt:5520"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-07/full.txt:1600",
+        "saijaku-muhai-bahamut-main/vol-07/full.txt:4200",
+        "saijaku-muhai-bahamut-main/vol-07/full.txt:5520"
+      ]
+    },
+    {
+      "period_id": "vol-13",
+      "volume": "vol-13",
+      "time": "圣夜祭后至大圣域前哨",
+      "label": "伪装成柯莱尔的第二皇女",
+      "name": {
+        "zh": "柯莱尔·艾斯达 / 爱莉尔·薇·阿卡迪亚",
+        "en": "Clair / Ariel vi Arcadia",
+        "jp": ""
+      },
+      "aliases": [
+        "柯莱尔",
+        "爱莉尔",
+        "神圣阿卡迪亚皇国第二皇女"
+      ],
+      "titles": [
+        "梵海姆公国七龙骑圣辅佐官（伪装）",
+        "创造主皇女"
+      ],
+      "gender": "女（长期被认知为男）",
+      "species": "创造主/古代皇族",
+      "nationality": "神圣阿卡迪亚皇国",
+      "occupation": "潜伏者、机龙使、皇女",
+      "affiliation": "创造主；表面为梵海姆公国",
+      "status": {
+        "vol13": "存活；假死后取得月内资料，结尾公开身份并制伏路克斯与葛莱法",
+        "secret": "使用认知改变能力长期伪装身份、性别与血统"
+      },
+      "abilities_owned": [
+        "cognition-alteration",
+        "wyvern-x-control",
+        "ancient-archive-decoding"
+      ],
+      "possessions_owned": [
+        "wyvern-x",
+        "ariel-creator-sword"
+      ],
+      "relationships": {
+        "lux-arcadia": {
+          "type": "朋友/爱慕对象/欺骗对象",
+          "status": "感谢并告白，但为阻止大圣域真相暴露而制伏他"
+        },
+        "gleifer-neste": {
+          "type": "同僚/欺骗对象",
+          "status": "在梵海姆公国长期被其视为辅佐官"
+        },
+        "listica-arcadia": {
+          "type": "姐姐",
+          "status": "同属创造主皇女阵营但理念存在压力"
+        },
+        "heize-arcadia": {
+          "type": "妹妹",
+          "status": "同属皇女，海兹复活后参与大圣域行动"
+        }
+      },
+      "knowledge": [
+        "clair-is-ariel",
+        "great-sanctuary-dangerous-truth",
+        "cognition-alteration-secret"
+      ],
+      "summary": "柯莱尔在本卷先以梵海姆公国辅佐官身份帮助学园，对苏菲丝和伊布力斯危机作出关键判断，并提供万灵药短剑。决战中她假死潜入『月』书斋，发现大圣域和圣蚀相关真相。结尾揭露其真实身份为第二皇女爱莉尔，曾用认知改变能力长期伪装，并为防止世界得知真相而袭击路克斯与葛莱法。",
+      "key_events": [
+        {
+          "event_id": "clair-protects-academy-from-iblis",
+          "summary": "识破伊布力斯精神污染并提供应急万灵药短剑。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-13/full.txt:5461"
+        },
+        {
+          "event_id": "clair-fakes-death-and-searches-lune",
+          "summary": "在爆炸后假死并进入月之书斋调查秘密。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-13/full.txt:6500"
+        },
+        {
+          "event_id": "clair-identity-revealed",
+          "summary": "结尾以爱莉尔身份出现并制伏路克斯与葛莱法。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-13/full.txt:7920"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-13/full.txt:4450",
+        "saijaku-muhai-bahamut-main/vol-13/full.txt:6500",
+        "saijaku-muhai-bahamut-main/vol-13/full.txt:7920"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "schema": "tm-tsukihime-role-fragment-v1",
+  "packetId": "church-ciel",
+  "roleId": "executor-general-fragment",
+  "name": "代行者 / Executor",
+  "continuityTaxonomy": {"category": "sandbox", "rawSourceLabels": ["型月世界", "代行者", "Executor"], "sourceAvailability": "general-summary-supported"},
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "canon-like",
+  "sourceRefs": ["sources/worldbook-profile/tm-summary-church-conceptual-weapons.txt:22"],
+  "records": [
+    {"recordId": "executor-task-definition", "kind": "role-definition", "value": "被派遣到各地执行任务、清除异端的神职人员", "sourceRefs": ["sources/worldbook-profile/tm-summary-church-conceptual-weapons.txt:22"], "sourceType": "user-file-worldbook-profile", "credibility": "B", "canonStatus": "canon-like", "continuityTaxonomy": {"category": "sandbox", "rawSourceLabels": ["型月世界", "代行者"]}},
+    {"recordId": "ciel-original-executor-crossref", "kind": "role-holder-crossref", "value": "同人版希耶尔为埋葬机关第七位代行者", "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:21"], "sourceType": "user-file-worldbook-profile", "credibility": "B", "canonStatus": "adapted", "continuityTaxonomy": {"category": "original", "rawSourceLabels": ["同人版"]}},
+    {"recordId": "ciel-remake-executor-crossref", "kind": "role-holder-crossref", "value": "重制版希耶尔舍弃旧名，以代行者‘希耶尔’身份活动", "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:52"], "sourceType": "user-file-worldbook-profile", "credibility": "B", "canonStatus": "adapted", "continuityTaxonomy": {"category": "remake", "rawSourceLabels": ["重制版"]}}
+  ]
+}

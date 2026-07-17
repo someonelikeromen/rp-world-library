@@ -1,0 +1,32 @@
+{
+  "schema": "tm-tsukihime-normalized-timeline-fragment-v1",
+  "packetId": "tohno-nanaya",
+  "timelineEntryId": "timeline-tohno-shiki-remake-profile-anchor",
+  "layer": "timeline",
+  "subjectIds": ["tohno-shiki-remake", "nanaya-family", "tohno-family"],
+  "continuity": {
+    "rawSourceLabel": "重制版",
+    "canonicalContinuity": "remake",
+    "taxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy/rawLabelMapping/重制版"
+  },
+  "timelineId": "tsukihime-remake-profile-context",
+  "timeRangeRaw": "重制版 profile signals; birthday 1997-10-15 from source line",
+  "time": {
+    "start": { "precision": "relative-only", "relative": "remake profile context; birthdate stated but no event sequence extracted", "orderIndex": 100 },
+    "end": { "precision": "relative-only", "relative": "remake profile context", "orderIndex": 109 }
+  },
+  "candidateOnly": false,
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "sourceRefs": [
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:57",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:58",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:59",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:60",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:61",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:62",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:63"
+  ],
+  "summary": "Remake Shiki profile anchor: names include Tohno Shiki and true name Nanaya Shiki; source gives demographics, affiliations, Mystic Eyes, Mystic Eye Killer glasses, and Nanaya survivor origin."
+}

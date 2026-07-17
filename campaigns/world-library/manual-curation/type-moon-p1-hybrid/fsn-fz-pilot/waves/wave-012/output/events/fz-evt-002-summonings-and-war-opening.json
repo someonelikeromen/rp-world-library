@@ -1,0 +1,25 @@
+{
+  "schema": "tm-p1-event-v1",
+  "event_id": "fz-evt-002-summonings-and-war-opening",
+  "worldId": "type-moon-nasuverse",
+  "continuity": "fz",
+  "timelineId": "fz-fourth-war",
+  "route": "fz-fourth-war",
+  "canonStatus": "canon-like",
+  "time": { "start": { "value": "1994-11-11T02:17:04", "precision": "YYYY-MM-DDTHH:mm:ss", "relative": "Waver receives Command Spell", "orderIndex": 10 }, "end": { "value": "1994-11-13T17:35:12", "precision": "YYYY-MM-DDTHH:mm:ss", "relative": "Fourth Holy Grail War formally opens", "orderIndex": 19 }, "duration": "two-days-plus", "confidence": "high" },
+  "timelineNodes": [
+    { "nodeId": "start", "label": "Waver receives Command Spell", "time": { "relative": "1994-11-11 02:17:04", "orderIndex": 10 }, "summary": "Waver receives a Command Spell and hypnotically influences the Mackenzie couple." },
+    { "nodeId": "middle-001", "label": "Main Servants summoned", "time": { "relative": "1994-11-11 17:51:03", "orderIndex": 14 }, "summary": "Kiritsugu summons Saber; Tokiomi summons Archer; Waver summons Rider; Kariya summons Berserker." },
+    { "nodeId": "end", "label": "Caster summoned", "time": { "relative": "1994-11-13 17:35:12", "orderIndex": 19 }, "summary": "Ryunosuke awakens circuits, receives a Command Spell, summons Caster, and the Fourth War formally opens." }
+  ],
+  "participants": ["waver-velvet", "mackenzie-couple", "kotomine-kirei", "assassin-hundred-faces", "matou-kariya", "emiya-kiritsugu", "saber-artoria", "tohsaka-tokiomi", "gilgamesh", "rider-iskandar", "berserker-lancelot", "uryu-ryunosuke", "caster-gilles"],
+  "locationRefs": ["fuyuki-city"],
+  "cause": "Masters receive Command Spells and perform Servant summonings.",
+  "process": "Multiple Masters summon Servants across November 11, followed by Ryunosuke's Caster summoning on November 13.",
+  "outcome": "The Fourth Holy Grail War formally opens with the principal teams active.",
+  "stateChanges": ["Assassin summoned", "Saber summoned", "Archer summoned", "Rider summoned", "Berserker summoned", "Caster summoned"],
+  "relationshipChanges": ["Master-Servant contracts established for Fourth War teams"],
+  "sourceType": "user-file-worldbook",
+  "credibility": "A",
+  "sourceRefs": ["type-moon-nasuverse/worldbook-text/src-fate-zero.md:21", "type-moon-nasuverse/worldbook-text/src-fate-zero.md:22", "type-moon-nasuverse/worldbook-text/src-fate-zero.md:23", "type-moon-nasuverse/worldbook-text/src-fate-zero.md:24", "type-moon-nasuverse/worldbook-text/src-fate-zero.md:25"]
+}

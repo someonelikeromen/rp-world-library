@@ -1,0 +1,64 @@
+{
+  "schema": "tm-tsukihime-normalized-timeline-fragment-v1",
+  "packetId": "true-ancestor-arcueid",
+  "timelineId": "tsukihime-original-arcueid-profile-relative",
+  "continuityTaxonomy": {
+    "category": "original",
+    "rawSourceLabels": ["同人版"]
+  },
+  "timePolicy": "relative-only; no calendar invention beyond raw source 12th-century birth-era signal",
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "nodes": [
+    {
+      "nodeId": "original-birth-era-signal",
+      "recordKind": "timeline-node",
+      "continuityTaxonomy": { "category": "original", "rawSourceLabels": ["同人版"] },
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted",
+      "orderIndex": 10,
+      "timeRaw": "12世纪",
+      "summaryRaw": "同人版基本信息 lists birth era as 12th century.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:18"]
+    },
+    {
+      "nodeId": "original-roa-blood-impulse-incident",
+      "recordKind": "timeline-node",
+      "continuityTaxonomy": { "category": "original", "rawSourceLabels": ["同人版"] },
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted",
+      "orderIndex": 20,
+      "timeRaw": "第一次因吸血冲动所苦时",
+      "summaryRaw": "Roa deceives Arcueid into drinking his blood; her ability runs out of control and she kills the other True Ancestors in Brunestud Castle.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:25"]
+    },
+    {
+      "nodeId": "original-seal-and-roa-cycle",
+      "recordKind": "timeline-node",
+      "continuityTaxonomy": { "category": "original", "rawSourceLabels": ["同人版"] },
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted",
+      "orderIndex": 30,
+      "timeRaw": "在此之后 / 罗亚出现的时候",
+      "summaryRaw": "She seals herself, sleeps in Millennium Castle, and wakes when Roa appears to execute him.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:26"]
+    },
+    {
+      "nodeId": "original-shiki-dismemberment-and-cooperation",
+      "recordKind": "timeline-node",
+      "continuityTaxonomy": { "category": "original", "rawSourceLabels": ["同人版"] },
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted",
+      "orderIndex": 40,
+      "timeRaw": "出场 / 月姬 story opening signal",
+      "summaryRaw": "Shiki dismembers Arcueid into seventeen pieces; after revival she lacks enough power and forces him to cooperate.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-arcueid.txt:17", "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:24"]
+    }
+  ],
+  "reviewStatus": "generated-pending-audit"
+}

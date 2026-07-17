@@ -1,0 +1,44 @@
+{
+  "schema": "tm-fgo-normalized-signal-index-v1",
+  "packetId": "pkt-fgo-ordeal-call-oc2-id-prep",
+  "chapterId": "fgo-ordeal-call-2-id",
+  "slug": "oc2-id",
+  "signalFiles": {
+    "appearance": [
+      "extracted/ordeal-call/oc2-id/appearance-signals/environment-and-character-visuals.json",
+      "extracted/ordeal-call/oc2-id/appearance-signals/outfit-equipment-visuals.json"
+    ],
+    "ability": [
+      "extracted/ordeal-call/oc2-id/ability-signals/activations-and-authorities.json"
+    ],
+    "combatEffect": [
+      "extracted/ordeal-call/oc2-id/combat-effect-signals/combat-effects.json"
+    ],
+    "relationship": [
+      "extracted/ordeal-call/oc2-id/relationship-signals/fujimaru-jalter-protection-farewell.json",
+      "extracted/ordeal-call/oc2-id/relationship-signals/fujimaru-hassan-protection-alliance.json",
+      "extracted/ordeal-call/oc2-id/relationship-signals/fujimaru-dantes-trial-adversary.json",
+      "extracted/ordeal-call/oc2-id/relationship-signals/fujimaru-black-marie-antagonism.json",
+      "extracted/ordeal-call/oc2-id/relationship-signals/revengers-cagliostro-mutual-use.json"
+    ],
+    "notFoundInSource": [
+      "extracted/ordeal-call/oc2-id/not-found-in-source/mandatory-visual-ability-combat-gaps.json"
+    ],
+    "unsupportedCandidates": [
+      "extracted/ordeal-call/oc2-id/candidates/unsupported-label-candidates.json"
+    ]
+  },
+  "coverageFlags": {
+    "appearanceSignalsPresent": true,
+    "outfitEquipmentSignalsPresent": true,
+    "abilityActivationSignalsPresent": true,
+    "combatEffectSignalsPresent": true,
+    "relationshipSignalsPresent": true,
+    "notFoundSignalsPresent": true,
+    "unsupportedLabelsCandidateOnly": true
+  },
+  "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:1-89"],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

@@ -1,0 +1,75 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "haruhime-sanjouno",
+  "volume": "vol-10",
+  "time_range": {
+    "start": "第六章",
+    "end": "第十章"
+  },
+  "sub_arcs": [
+    "思念薇妮",
+    "地表重逢"
+  ],
+  "source_refs": [
+    "danmachi-main/vol-10/full.txt:129-7700"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-10-ch-09-recognizes-rampaging-wiene",
+      "volume": "vol-10",
+      "time": "第九章 禽兽之梦",
+      "label": "认出失控维维尔就是薇妮",
+      "status": {
+        "location": "代达罗斯路",
+        "state": "面对怪物化薇妮仍呼唤她"
+      },
+      "summary": "薇妮冲上地表后，赫斯缇雅眷族在代达罗斯路遇见她。春姬被她逼近时仍看出那就是薇妮并呼唤她，随后被贝尔救下。",
+      "key_events": [
+        {
+          "event_id": "bell-protects-wiene-from-loki-familia",
+          "summary": "在地表认出怪物化的薇妮。",
+          "sourceRef": "danmachi-main/vol-10/full.txt:7600"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-10/full.txt:7500-7700"
+      ]
+    },
+    {
+      "period_id": "vol-10-ch-06-misses-wiene",
+      "volume": "vol-10",
+      "time": "第六章 暴风雨前的",
+      "label": "无意识为薇妮多摆餐具",
+      "name": {
+        "zh": "三条野·春姬",
+        "en": "Haruhime Sanjouno",
+        "jp": "サンジョウノ・春姫"
+      },
+      "aliases": [
+        "春姬"
+      ],
+      "gender": "女",
+      "species": "狐人",
+      "occupation": "冒险者、赫斯缇雅眷族成员",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {
+        "location": "灶火馆",
+        "state": "因薇妮离去而情绪低落"
+      },
+      "summary": "春姬在早餐时无意识地多摆一份餐具，暴露她对薇妮的思念。她在都市警报后担心薇妮和异端儿会遭讨伐，对可能结局几乎站不稳。",
+      "key_events": [
+        {
+          "event_id": "hestia-familia-grieves-wiene-separation",
+          "summary": "为薇妮空位多摆餐具。",
+          "sourceRef": "danmachi-main/vol-10/full.txt:175"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-10/full.txt:129-3000"
+      ]
+    }
+  ]
+}

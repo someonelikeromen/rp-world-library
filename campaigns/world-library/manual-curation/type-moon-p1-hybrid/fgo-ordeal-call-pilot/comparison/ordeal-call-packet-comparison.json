@@ -1,0 +1,70 @@
+{
+  "schema": "tm-fgo-ordeal-call-packet-comparison-v1",
+  "mergeStepId": "finalize-ordeal-call-merge",
+  "scopeRaw": "Packet-level comparison for Ordeal Call I-III pilot finalization",
+  "policyRaw": "Comparison is derived from passed packet gates and source-first extracted/normalized/merged records; it does not alter source packet facts.",
+  "sourceRefs": [
+    "sources/worldbook-script/ordeal-call/ch-104-oc1-paper-moon.txt:1-87",
+    "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:1-89",
+    "sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt:1-92"
+  ],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like",
+  "records": [
+    {
+      "chapterId": "fgo-ordeal-call-1-paper-moon",
+      "chapterSlug": "oc1-paper-moon",
+      "entryIndex": 104,
+      "titleRaw": "FGO_奏章I_虚数罗针内界_纸月",
+      "packetGateStatus": "passed",
+      "mergedEventCount": 4,
+      "relationshipEdgeCount": 5,
+      "timelineId": "oc1-paper-moon-phase-timeline",
+      "primaryClassClearanceRaw": "Alter Ego清算",
+      "endingStateRaw": "获得人理的认可，Alter Ego清算结束。",
+      "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-104-oc1-paper-moon.txt:1-87"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "chapterId": "fgo-ordeal-call-2-id",
+      "chapterSlug": "oc2-id",
+      "entryIndex": 105,
+      "titleRaw": "FGO_奏章II_不可逆废弃孔_伊德",
+      "packetGateStatus": "passed",
+      "mergedEventCount": 4,
+      "relationshipEdgeCount": 5,
+      "timelineId": "oc2-id-phase-timeline",
+      "primaryClassClearanceRaw": "Avenger/复仇概念清算",
+      "endingStateRaw": "获得第二份通行证；所有Avenger职阶灵基图谱完全变暗，无法再被召唤。",
+      "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:1-89"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "chapterId": "fgo-ordeal-call-3-integration",
+      "chapterSlug": "oc3-integration",
+      "entryIndex": 106,
+      "titleRaw": "FGO_奏章III_新灵长后继战_Archetype_Inception",
+      "packetGateStatus": "passed",
+      "mergedEventCount": 4,
+      "relationshipEdgeCount": 6,
+      "timelineId": "oc3-integration-phase-timeline",
+      "primaryClassClearanceRaw": "MoonCancer本质理解与第三份通行证取得",
+      "endingStateRaw": "BB迪拜宣布旧人类胜出；特异点消散，藤丸立香理解MoonCancer本质并获得第三份通行证。",
+      "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt:1-92"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    }
+  ],
+  "totals": {
+    "chapterCount": 3,
+    "mergedEventCount": 12,
+    "relationshipEdgeCount": 16,
+    "packetGatesPassed": 3
+  }
+}

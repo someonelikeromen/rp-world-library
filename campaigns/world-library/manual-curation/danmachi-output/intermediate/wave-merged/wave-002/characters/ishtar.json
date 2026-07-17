@@ -1,0 +1,149 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "ishtar",
+  "volume": "vol-07",
+  "time_range": {
+    "start": "序章",
+    "end": "第二章"
+  },
+  "sub_arcs": [
+    "伊丝塔眷族阴谋",
+    "夺取贝尔计划"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-07-prologue",
+      "volume": "vol-07",
+      "time": "序章 女神是残酷的淫都之王",
+      "label": "向芙蕾雅宣战的淫都之王",
+      "name": {
+        "zh": "伊丝塔",
+        "en": "Ishtar",
+        "jp": "イシュタル"
+      },
+      "gender": "女",
+      "species": "女神",
+      "occupation": "主神、娼馆街支配者",
+      "affiliation": "伊丝塔眷族",
+      "status": {
+        "location": "红灯区宫殿最高层",
+        "state": "嫉恨芙蕾雅并准备将其从欧拉丽顶点拉下"
+      },
+      "appearance": {
+        "overview": "褐色肌肤、黑紫长辫、佩戴大量金银饰物的美神。",
+        "distinctive": [
+          "褐色肌肤",
+          "黑紫长辫",
+          "奢华饰物",
+          "烟管"
+        ]
+      },
+      "personality": {
+        "summary": "骄傲、嫉妒且支配欲强，将红灯区视为自己的古都，不能容忍芙蕾雅位居自己之上。",
+        "core_traits": [
+          "嫉妒",
+          "傲慢",
+          "煽动性强"
+        ]
+      },
+      "relationships": {
+        "freya": "美神竞争者与仇敌",
+        "aisha-belka": "眷族亚马逊干部",
+        "haruhime-sanjouno": "被其囚禁利用的狐人娼妇"
+      },
+      "summary": "在红灯区宫殿顶层怨恨巴别塔上的芙蕾雅，宣称即将把对方拉下欧拉丽顶点；随后命令眷族娼妇彻夜服侍客人、搜集金钱与情报。",
+      "key_events": [
+        {
+          "event_id": "ishtar-vows-to-overthrow-freya",
+          "summary": "直视巴别塔并咒骂芙蕾雅，暗示计划即将完成。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:230"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-07/full.txt:228",
+        "danmachi-main/vol-07/full.txt:230"
+      ]
+    },
+    {
+      "period_id": "vol-07-ch-02",
+      "volume": "vol-07",
+      "time": "第二章 跑吧！克朗尼",
+      "label": "取得杀生石并盯上贝尔",
+      "name": {
+        "zh": "伊丝塔",
+        "en": "Ishtar",
+        "jp": "イシュタル"
+      },
+      "gender": "女",
+      "species": "女神",
+      "occupation": "主神、女主神娼殿主人",
+      "affiliation": "伊丝塔眷族",
+      "status": {
+        "location": "女主神娼殿高层房间",
+        "state": "从荷米斯处收下杀生石，并逼出芙蕾雅迷恋贝尔的情报"
+      },
+      "appearance": {
+        "overview": "褐色裸体美神，佩戴金银饰物，持烟管。",
+        "distinctive": [
+          "褐色肌肤",
+          "紫水晶般眼眸",
+          "烟管",
+          "黑紫编发"
+        ]
+      },
+      "personality": {
+        "summary": "为击垮芙蕾雅不择手段，善用美神魅力强行榨取情报；得知贝尔是芙蕾雅弱点后立刻决定夺取他。",
+        "core_traits": [
+          "嫉妒",
+          "谋略",
+          "强势",
+          "支配欲"
+        ],
+        "desires": [
+          "击落芙蕾雅",
+          "夺走芙蕾雅迷恋的贝尔"
+        ]
+      },
+      "possessions_owned": [
+        "杀生石"
+      ],
+      "relationships": {
+        "hermes": "机密送货人与被迫吐露情报者",
+        "freya": "想击败并羞辱的美神",
+        "bell-cranel": "被认定为芙蕾雅弱点的新目标",
+        "tammuz": "俊美青年随从",
+        "haruhime-sanjouno": "计划与杀生石相关的狐人眷属"
+      },
+      "summary": "伊丝塔短暂看见被阿伊莎带回的贝尔但暂未理会。深夜密会中，她从荷米斯手中取得杀生石，暗示即将让芙蕾雅在地上爬行；随后以美神手段逼问荷米斯，得知芙蕾雅最近迷恋的孩子正是贝尔·克朗尼，于是决定睡了并夺取他。",
+      "key_events": [
+        {
+          "event_id": "hermes-delivers-killing-stone",
+          "summary": "收下荷米斯运来的杀生石。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:3484"
+        },
+        {
+          "event_id": "ishtar-learns-freya-loves-bell",
+          "summary": "从荷米斯口中得知贝尔是芙蕾雅迷恋对象。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:3556"
+        },
+        {
+          "event_id": "ishtar-targets-bell",
+          "summary": "决定夺取贝尔以打击芙蕾雅。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:3572"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-07/full.txt:2124",
+        "danmachi-main/vol-07/full.txt:3484",
+        "danmachi-main/vol-07/full.txt:3556",
+        "danmachi-main/vol-07/full.txt:3572"
+      ]
+    }
+  ],
+  "source_refs": [
+    "danmachi-main/vol-07/full.txt:190-3572"
+  ]
+}

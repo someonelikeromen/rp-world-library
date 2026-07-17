@@ -1,0 +1,72 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "thunder-light-spear",
+  "volume": "vol-10",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-10/full.txt:3579"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-10-main",
+      "volume": "vol-10",
+      "time": "深秋",
+      "name": {
+        "zh": "雷光穿枪",
+        "en": "Thunder Light Spear"
+      },
+      "aliases": [
+        "特殊武装《雷光穿枪》",
+        "突击枪"
+      ],
+      "type": "technology / combat / special-weapon",
+      "description": "赛莉丝缇雅的特殊武装，能以枪尖释放雷光并配合突刺烧灼幻神兽核心。",
+      "details": {
+        "owner": "celistia-largreis",
+        "associated_drag_ride": "lin-dragon-insect",
+        "weapon_shape": "巨大突击枪"
+      },
+      "activation": {
+        "condition": "穿戴凛德龙虫并举枪攻击",
+        "incantation": "雷闪",
+        "time": "瞬时",
+        "cost": "机龙能量"
+      },
+      "effects": [
+        "雷击烧灼",
+        "突刺贯穿",
+        "拦截飞羽与幻神兽突击"
+      ],
+      "power_level": {
+        "initial": "高",
+        "peak": "可瞬间烧焦狮鹫型幻神兽",
+        "evolution": []
+      },
+      "known_feats": [
+        {
+          "feat": "赛莉丝以雷闪拦截第二只狮鹫并交由路克斯追击",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-10/full.txt:3579"
+        }
+      ],
+      "shared_by": [
+        "celistia-largreis"
+      ],
+      "see_also": [
+        "lin-dragon-insect",
+        "domination-god-realm"
+      ],
+      "countered_by": [],
+      "counters": [
+        "狮鹫型幻神兽",
+        "飞羽箭矢"
+      ],
+      "variations": [
+        "雷闪"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-10/full.txt:3579"
+      ]
+    }
+  ]
+}

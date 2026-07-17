@@ -1,0 +1,70 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "battle-formation-flow",
+  "volume": "vol-07",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-07/full.txt:3750"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-07-main",
+      "volume": "vol-07",
+      "time": "辛格伦测验战与迪尔威最终战",
+      "name": {
+        "zh": "战阵·流转",
+        "en": "Battle Formation: Flow"
+      },
+      "aliases": [
+        "流转"
+      ],
+      "type": "technology / combat / skill",
+      "description": "以调律控制障壁，在攻击命中前产生斜向力场，将对手攻击从正面拨开而非硬挡。",
+      "details": {
+        "principle": "临时生成障壁力场并改变攻击轨道",
+        "risk": "时机失误会直接承受攻击"
+      },
+      "activation": {
+        "condition": "高度掌握机龙调律与战斗节奏",
+        "incantation": "战阵·流转",
+        "time": "命中前瞬间",
+        "cost": "需要极高判断力与精神操纵"
+      },
+      "effects": [
+        "偏转炮击或斩击",
+        "制造反击破绽",
+        "可突破普通防御逻辑"
+      ],
+      "power_level": {
+        "initial": "辛格伦稳定使用",
+        "peak": "路克斯在最终战中学会并反制迪尔威",
+        "evolution": [
+          "迪尔威接受洗礼后也能模仿使用"
+        ]
+      },
+      "known_feats": [
+        "辛格伦用其弹开诺珂特与路克斯攻击",
+        "路克斯用其拨开迪尔威龙牙射剑"
+      ],
+      "shared_by": [
+        "singlen-sharbrit",
+        "dielwe-froyas",
+        "lux-arcadia"
+      ],
+      "see_also": [
+        "tuning",
+        "battle-formation-conflagration"
+      ],
+      "countered_by": [],
+      "counters": [
+        "dragon-fang-shooting-sword"
+      ],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-07/full.txt:3750",
+        "saijaku-muhai-bahamut-main/vol-07/full.txt:7360"
+      ]
+    }
+  ]
+}

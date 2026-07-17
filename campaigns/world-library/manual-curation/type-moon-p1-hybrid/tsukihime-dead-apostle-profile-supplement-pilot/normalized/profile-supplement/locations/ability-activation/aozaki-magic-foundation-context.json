@@ -1,0 +1,27 @@
+{
+  "schema": "tm-tsukihime-normalized-location-fragment-v1",
+  "packetId": "locations",
+  "recordId": "loc-frag-aozaki-magic-foundation-context",
+  "recordKind": "ability-activation-location-fragment",
+  "subjectId": "aozaki-town-control-and-magic-foundation-context",
+  "name": {"zh": "苍崎家族 / 魔法基盘 context", "en": "Aozaki family and magic foundation context"},
+  "continuityTaxonomy": {
+    "category": "sandbox",
+    "rawSourceLabels": ["苍崎家族", "魔法基盘", "三咲町"],
+    "policyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy"
+  },
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "candidateOnly": false,
+  "sourceRefs": [
+    "sources/worldbook-profile/dlc-tsukihime-locations.txt:21",
+    "sources/worldbook-profile/dlc-tsukihime-locations.txt:22"
+  ],
+  "abilityActivationSignals": [
+    "The town has been under Aozaki family control for centuries.",
+    "Although far from the Mage's Association sphere of influence, this land is described as the last remaining magic foundation and as a target coveted by other magi."
+  ],
+  "notFoundCaution": "No physical Aozaki house description is present in the assigned source excerpts.",
+  "reviewStatus": "generated-pending-audit"
+}

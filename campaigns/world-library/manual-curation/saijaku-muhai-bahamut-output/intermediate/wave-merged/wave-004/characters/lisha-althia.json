@@ -1,0 +1,84 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "lisha-althia",
+  "volume": "vol-19",
+  "time_range": {
+    "start": "被苏菲丝保护",
+    "end": "最终战后"
+  },
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-19/full.txt:1-6600"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-19",
+      "volume": "vol-19",
+      "time": "古代森林决战",
+      "label": "莉夏的妹妹/蔚蓝师团协力者",
+      "name": {
+        "zh": "阿尔玛·亚提司玛特",
+        "en": "Alma Atismata",
+        "jp": ""
+      },
+      "aliases": [
+        "阿尔玛"
+      ],
+      "titles": [
+        "亚提司玛特家遗族"
+      ],
+      "gender": "female",
+      "species": "human",
+      "nationality": "新王国",
+      "occupation": "蔚蓝师团协力者",
+      "affiliation": "蔚蓝师团/路克斯阵营",
+      "status": {
+        "end": "存活，与姐姐和解",
+        "mental": "放下对姑姑罗菲与姐姐莉夏的复仇执念"
+      },
+      "personality": {
+        "summary": "曾怀抱复仇心，但理解罗菲与莉夏同样背负痛苦后变得柔和。",
+        "core_traits": [
+          "坚强",
+          "直率",
+          "家族执念",
+          "可和解"
+        ],
+        "inner_conflict": "在复仇与承认姐姐痛苦之间摇摆。"
+      },
+      "abilities_owned": [],
+      "possessions_owned": [],
+      "relationships": {
+        "lishearlotte-rofu": {
+          "type": "sister",
+          "summary": "最终接受莉夏是同样背负痛苦的姐姐。"
+        },
+        "lux-arcadia": {
+          "type": "ally",
+          "summary": "协助蔚蓝师团计划。"
+        },
+        "sofis": {
+          "type": "protected by",
+          "summary": "被苏菲丝从里·普莉卡袭击中救下。"
+        }
+      },
+      "summary": "阿尔玛表面上是蔚蓝师团关键人物之一，本卷被里·普莉卡追击并由苏菲丝保护。最终在真相显露后放下复仇，接受莉夏。",
+      "key_events": [
+        {
+          "event_id": "sofis-vs-li-plicca",
+          "summary": "被苏菲丝保护",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-19/full.txt:157-1696"
+        },
+        {
+          "event_id": "lux-confession-to-lishearlotte",
+          "summary": "莉夏觉醒后姐妹关系缓和",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-19/full.txt:2693-6600"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-19/full.txt:1-6600"
+      ]
+    }
+  ]
+}

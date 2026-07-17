@@ -1,0 +1,35 @@
+{
+  "schema": "tm-tsukihime-extracted-record-set-v1",
+  "packetId": "dead-apostles-roa",
+  "recordSetId": "roa-shiki-candidate-signals",
+  "status": "generated-pending-audit",
+  "candidateOnly": true,
+  "records": [
+    {
+      "recordId": "ext-roa-shiki-transfer-relationship-candidate-001",
+      "recordType": "relationship-candidate",
+      "candidateOnly": true,
+      "subject": "罗亚 / 远野四季 / 远野志贵",
+      "summary": "Indirect candidate excerpt says Roa/Tohno SHIKI can transfer into Shiki through a life or soul connection in Ciel route context. This remains candidate-only because no direct standalone Roa or SHIKI profile was confirmed in Stage 1.",
+      "relationshipRaw": "罗亚/远野四季通过生命或灵魂联系可转移至志贵体内 in Ciel route context",
+      "continuityTaxonomy": {"category": "original", "rawSourceLabels": ["同人版", "candidate-only"], "sourceAvailability": "indirect-signal-only"},
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt:25"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    },
+    {
+      "recordId": "ext-ciel-shiki-roa-suspected-host-remake-001",
+      "recordType": "relationship-candidate",
+      "candidateOnly": true,
+      "subject": "重制版希耶尔 / 远野志贵 / 罗亚",
+      "summary": "Remake Ciel source says Ciel sensed Roa reincarnating again, went to Souya City, and targeted Tohno Shiki as a suspected Roa host while posing as a student by day and purging vampires by night.",
+      "relationshipRaw": "感知罗亚再次转生; 目标锁定疑似罗亚宿主的远野志贵",
+      "continuityTaxonomy": {"category": "remake", "rawSourceLabels": ["重制版"], "sourceAvailability": "supported-profile-signal; relationship candidate-only by packet policy"},
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:54"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted"
+    }
+  ]
+}

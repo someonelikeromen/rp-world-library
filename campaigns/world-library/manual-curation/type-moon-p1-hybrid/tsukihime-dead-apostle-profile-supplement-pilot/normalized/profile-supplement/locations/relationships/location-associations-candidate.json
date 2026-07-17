@@ -1,0 +1,61 @@
+{
+  "schema": "tm-tsukihime-normalized-location-association-set-v1",
+  "packetId": "locations",
+  "recordId": "loc-associations-candidate-set",
+  "recordKind": "relationship-signal-candidate-set",
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "candidateOnly": true,
+  "relationshipBoundary": "Location-to-character/faction associations only; no formal relationship edges are created in this packet.",
+  "continuityTaxonomy": {
+    "category": "sandbox",
+    "rawSourceLabels": ["三咲町", "总耶市", "同人版", "重制版"],
+    "policyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy"
+  },
+  "associations": [
+    {
+      "associationId": "assoc-tohno-family-main-residence",
+      "locationRef": "tohno-family-main-residence-context",
+      "associatedWith": ["远野家族"],
+      "summary": "Tohno family main residence and underground facilities are associated with Tohno family secrets.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-locations.txt:23", "sources/worldbook-profile/dlc-tsukihime-locations.txt:24"]
+    },
+    {
+      "associationId": "assoc-misaki-town-aozaki-family",
+      "locationRef": "misaki-town-context",
+      "associatedWith": ["苍崎家族", "魔术师"],
+      "summary": "The town has been under Aozaki family control for centuries and is coveted by other magi as a magic foundation.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-locations.txt:21", "sources/worldbook-profile/dlc-tsukihime-locations.txt:22"]
+    },
+    {
+      "associationId": "assoc-misaki-municipal-high-students",
+      "locationRef": "misaki-municipal-high-school-context",
+      "associatedWith": ["乾有彦", "希耶尔", "山濑舞子", "有间都古", "弓冢五月", "远野志贵"],
+      "summary": "The source lists known students at Misaki Municipal High School.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-locations.txt:31"]
+    },
+    {
+      "associationId": "assoc-private-asagami-akiha",
+      "locationRef": "private-asagami-girls-academy-context",
+      "associatedWith": ["远野秋叶"],
+      "summary": "Akiha attends the fully boarding noble girls school.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-locations.txt:32"]
+    },
+    {
+      "associationId": "assoc-ciel-apartment-and-messian",
+      "locationRef": "ciel-apartment-and-messian-context",
+      "associatedWith": ["希耶尔"],
+      "summary": "Ciel is associated with her residential-area apartment, instant curry storage, and favorite curry shop Messian.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-locations.txt:29", "sources/worldbook-profile/dlc-tsukihime-locations.txt:30"]
+    },
+    {
+      "associationId": "assoc-profile-activity-areas",
+      "locationRef": "profile-activity-area-context",
+      "associatedWith": ["远野志贵", "爱尔奎特·布伦史塔德", "希耶尔"],
+      "summary": "Profile lines associate original/remake activity areas with Misaki/Souya and wider locations; this remains an association signal only.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:57", "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:61", "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:20", "sources/worldbook-profile/dlc-tsukihime-arcueid.txt:36", "sources/worldbook-profile/dlc-tsukihime-ciel.txt:20", "sources/worldbook-profile/dlc-tsukihime-ciel.txt:43", "sources/worldbook-profile/dlc-tsukihime-ciel.txt:53"]
+    }
+  ],
+  "reviewStatus": "generated-pending-audit"
+}

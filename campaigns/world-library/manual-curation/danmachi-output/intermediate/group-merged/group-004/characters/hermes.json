@@ -1,0 +1,729 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "hermes",
+  "volume": "vol-05",
+  "time_range": {
+    "start": "vol-05-prologue",
+    "end": "vol-05-ch-06"
+  },
+  "sub_arcs": [
+    "荷米斯调查贝尔",
+    "贝尔搜索队",
+    "贝尔英雄资质试炼"
+  ],
+  "source_refs": [
+    "danmachi-main/vol-05/full.txt:126-198",
+    "danmachi-main/vol-05/full.txt:1353-2606",
+    "danmachi-main/vol-05/full.txt:3000-3100",
+    "danmachi-main/vol-05/full.txt:3513-9060"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-05-ch-02",
+      "volume": "vol-05",
+      "time": "第二章 离生还还有多少M？",
+      "label": "操盘搜索行动",
+      "name": {
+        "zh": "荷米斯",
+        "en": "Hermes",
+        "jp": "ヘルメス"
+      },
+      "aliases": [],
+      "titles": [
+        "荷米斯眷族主神"
+      ],
+      "gender": "男",
+      "species": "男神",
+      "nationality": "天界",
+      "occupation": "眷族主神",
+      "affiliation": "荷米斯眷族",
+      "status": {
+        "location": "地下城入口",
+        "state": "随搜索队违规进入地下城"
+      },
+      "appearance": {
+        "overview": "戴羽毛宽边帽的俊美男神。",
+        "physical": {
+          "height": "中等",
+          "build": "纤瘦",
+          "hair": {
+            "color": "橙黄色"
+          },
+          "eyes": {
+            "color": "橙黄色"
+          }
+        },
+        "attire": {
+          "default": "旅人服",
+          "combat": ""
+        },
+        "voice_quality": {},
+        "distinctive": []
+      },
+      "personality": {
+        "summary": "以救援为名推进观察贝尔的计划，善于调动人脉并预先处理政治风险。",
+        "core_traits": [
+          "狡黠",
+          "周密",
+          "好奇"
+        ],
+        "values": [
+          "贝尔的潜力",
+          "自身眷族安全"
+        ],
+        "fears": [
+          "芙蕾雅报复"
+        ],
+        "desires": [
+          "亲眼确认贝尔实力"
+        ],
+        "strengths": [
+          "交涉",
+          "组织",
+          "识人"
+        ],
+        "flaws": [
+          "隐瞒真实目的",
+          "任性"
+        ],
+        "inner_conflict": "确实希望救援贝尔，同时另有观察与考验目的。",
+        "decision_pattern": {}
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {},
+        "register": {},
+        "catchphrases": [],
+        "quote_samples": []
+      },
+      "habits": {
+        "mannerisms": [
+          "装疯卖傻掩饰目的"
+        ],
+        "daily_routine": "",
+        "quirks": [],
+        "preferences": {}
+      },
+      "background": {
+        "birth": {
+          "place": "天界",
+          "family": []
+        },
+        "upbringing": "",
+        "education": {},
+        "formative_events": [],
+        "pre_story": ""
+      },
+      "abilities_owned": [
+        "交涉",
+        "情报网络"
+      ],
+      "possessions_owned": [
+        "搜索委托书"
+      ],
+      "relationships": {
+        "hestia": "以援助名义同行的友神",
+        "asfi-al-andromeda": "负责保护他的团长",
+        "ryu-lion": "招募的强力帮手",
+        "freya": "取得默许并受到警告的美神",
+        "bell-cranel": "救援与观察目标"
+      },
+      "knowledge": [
+        "芙蕾雅看中贝尔",
+        "琉是疾风的璃昂"
+      ],
+      "secrets": [
+        "进入地下城另有确认贝尔实力的目的"
+      ],
+      "summary": "主动加入搜索队，坚持亲自下地下城；招募琉保护两尊神，并先向芙蕾雅取得默许。",
+      "key_events": [
+        {
+          "event_id": "rescue-party-formed",
+          "summary": "带亚丝菲承接搜索委托。",
+          "sourceRef": "danmachi-main/vol-05/full.txt:1880"
+        },
+        {
+          "event_id": "ryu-joins-rescue-party",
+          "summary": "以贝尔与希儿为理由招募琉。",
+          "sourceRef": "danmachi-main/vol-05/full.txt:2098"
+        },
+        {
+          "event_id": "hermes-obtains-freya-permission",
+          "summary": "获得芙蕾雅对观察贝尔的默许。",
+          "sourceRef": "danmachi-main/vol-05/full.txt:2518"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-05/full.txt:1880",
+        "danmachi-main/vol-05/full.txt:2098",
+        "danmachi-main/vol-05/full.txt:2518"
+      ]
+    },
+    {
+      "period_id": "vol-05-ch-06",
+      "volume": "vol-05",
+      "time": "第六章 英雄赞歌",
+      "label": "见证最后英雄",
+      "name": {
+        "zh": "荷米斯",
+        "en": "Hermes",
+        "jp": "ヘルメス"
+      },
+      "status": {
+        "location": "地下城第18层",
+        "state": "以宙斯教诲唤醒贝尔并确认其英雄器量"
+      },
+      "summary": "在贝尔重伤时转述祖父的英雄准则，使其重新站起；胜利后向宙斯宣告贝尔是宙斯眷族的最后英雄。",
+      "key_events": [
+        {
+          "event_id": "hermes-identifies-bell-as-last-hero",
+          "summary": "确认贝尔为货真价实的新时代英雄。",
+          "sourceRef": "danmachi-main/vol-05/full.txt:8810"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-05/full.txt:8400-8838"
+      ]
+    },
+    {
+      "period_id": "vol-05-ch-03",
+      "volume": "vol-05",
+      "time": "第三章 迷宫决死行",
+      "label": "英雄资质考察",
+      "name": {
+        "zh": "荷米斯",
+        "en": "Hermes",
+        "jp": "ヘルメス"
+      },
+      "aliases": [],
+      "titles": [
+        "荷米斯眷族主神"
+      ],
+      "gender": "男",
+      "species": "男神",
+      "nationality": "天界",
+      "occupation": "眷族主神",
+      "affiliation": "荷米斯眷族；搜索队",
+      "status": {
+        "location": "地下城中层",
+        "state": "向赫斯缇雅部分坦白调查目的"
+      },
+      "appearance": {
+        "overview": "俊美而神色沉着的男神。",
+        "physical": {
+          "height": "中等",
+          "build": "纤瘦",
+          "hair": {
+            "color": "橙黄色"
+          },
+          "eyes": {
+            "color": "橙黄色"
+          }
+        },
+        "attire": {
+          "default": "旅人服",
+          "combat": ""
+        },
+        "voice_quality": {},
+        "distinctive": []
+      },
+      "personality": {
+        "summary": "承认自己既受贝尔养育者所托，也想判断贝尔能否成为肩负时代的英雄。",
+        "core_traits": [
+          "好奇",
+          "深谋",
+          "善于隐瞒"
+        ],
+        "values": [
+          "英雄的诞生"
+        ],
+        "fears": [],
+        "desires": [
+          "确认贝尔的英雄器量"
+        ],
+        "strengths": [
+          "情报与交涉"
+        ],
+        "flaws": [
+          "只透露部分真相"
+        ],
+        "inner_conflict": "救援行动与考验英雄的目的并存。",
+        "decision_pattern": {}
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {},
+        "register": {},
+        "catchphrases": [],
+        "quote_samples": []
+      },
+      "habits": {
+        "mannerisms": [],
+        "daily_routine": "",
+        "quirks": [],
+        "preferences": {}
+      },
+      "background": {
+        "birth": {
+          "place": "天界",
+          "family": []
+        },
+        "upbringing": "",
+        "education": {},
+        "formative_events": [],
+        "pre_story": ""
+      },
+      "abilities_owned": [],
+      "possessions_owned": [],
+      "relationships": {
+        "bell-cranel": "受托调查并想确认英雄器量的少年",
+        "hestia": "向其部分坦白的友神",
+        "bell-grandfather": "委托他查看贝尔近况的养育者"
+      },
+      "knowledge": [
+        "贝尔的祖父仍活着并隐居"
+      ],
+      "secrets": [
+        "委托者真实身份与完整缘由"
+      ],
+      "summary": "向赫斯缇雅坦白贝尔祖父假死隐居并委托调查，同时明确表示自己想判断贝尔是否足以肩负时代。",
+      "key_events": [
+        {
+          "event_id": "hermes-reveals-hero-test",
+          "summary": "揭示养育者委托与英雄考察目的。",
+          "sourceRef": "danmachi-main/vol-05/full.txt:3092"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-05/full.txt:3030",
+        "danmachi-main/vol-05/full.txt:3092"
+      ]
+    },
+    {
+      "period_id": "vol-05-ch-04",
+      "volume": "vol-05",
+      "time": "第四章 DUNGEON RESORT？",
+      "label": "暗中制造试炼",
+      "name": {
+        "zh": "荷米斯",
+        "en": "Hermes",
+        "jp": "ヘルメス"
+      },
+      "status": {
+        "location": "地下城第18层",
+        "state": "与贝尔相见并暗中煽动摩多"
+      },
+      "summary": "首次正式与贝尔握手；随后向摩多借出黑帝斯头盔，要求以精彩袭击考验贝尔。",
+      "key_events": [
+        {
+          "event_id": "hermes-arms-mord-against-bell",
+          "summary": "武装摩多制造冒险者洗礼。",
+          "sourceRef": "danmachi-main/vol-05/full.txt:5998"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-05/full.txt:4400-5998"
+      ]
+    },
+    {
+      "period_id": "vol-05-ch-05",
+      "volume": "vol-05",
+      "time": "第五章 暴徒们的飨宴",
+      "label": "旁观冒险者洗礼",
+      "name": {
+        "zh": "荷米斯",
+        "en": "Hermes",
+        "jp": "ヘルメス"
+      },
+      "status": {
+        "location": "第18层树上",
+        "state": "与亚丝菲旁观贝尔对摩多的决斗"
+      },
+      "summary": "承认自己既希望贝尔认识人性的恶意，也从试炼中取乐；黑色歌利亚诞生后判断地下城因神明存在而失控。",
+      "key_events": [
+        {
+          "event_id": "mord-kidnaps-hestia-and-duels-bell",
+          "summary": "旁观并评估贝尔。",
+          "sourceRef": "danmachi-main/vol-05/full.txt:6500"
+        },
+        {
+          "event_id": "black-goliath-spawns",
+          "summary": "解释异常楼层主针对天神而生。",
+          "sourceRef": "danmachi-main/vol-05/full.txt:7040"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-05/full.txt:5999-7216"
+      ]
+    },
+    {
+      "period_id": "vol-05-prologue",
+      "volume": "vol-05",
+      "time": "序章 预兆的前兆",
+      "label": "提前归城",
+      "name": {
+        "zh": "荷米斯",
+        "en": "Hermes",
+        "jp": "ヘルメス"
+      },
+      "aliases": [],
+      "titles": [
+        "荷米斯眷族主神"
+      ],
+      "gender": "男",
+      "species": "男神",
+      "nationality": "天界",
+      "occupation": "眷族主神、旅行者",
+      "affiliation": "荷米斯眷族",
+      "status": {
+        "location": "欧拉丽",
+        "state": "结束短途旅行并提前归城"
+      },
+      "appearance": {
+        "overview": "纤瘦俊美，橙黄色头发，穿旅人服并戴羽毛宽边帽。",
+        "physical": {
+          "height": "中等",
+          "build": "纤瘦",
+          "hair": {
+            "color": "橙黄色"
+          },
+          "eyes": {}
+        },
+        "attire": {
+          "default": "旅人服与羽毛宽边帽",
+          "combat": ""
+        },
+        "voice_quality": {},
+        "distinctive": [
+          "羽毛宽边帽",
+          "花美男相貌"
+        ]
+      },
+      "personality": {
+        "summary": "奔放、善于交际、喜欢捉弄熟人，并对新秀抱有强烈好奇心。",
+        "core_traits": [
+          "奔放",
+          "圆滑",
+          "好奇",
+          "爱捉弄人"
+        ],
+        "values": [
+          "自由旅行",
+          "有趣的新人物"
+        ],
+        "fears": [],
+        "desires": [
+          "尽快见到贝尔·克朗尼"
+        ],
+        "strengths": [
+          "处世周到",
+          "不易树敌"
+        ],
+        "flaws": [
+          "轻佻",
+          "放任眷族"
+        ],
+        "inner_conflict": "",
+        "decision_pattern": {}
+      },
+      "voice": {
+        "self_reference": "",
+        "address_pattern": {
+          "mikoto-yamato": "小命妹妹"
+        },
+        "register": {
+          "style": "轻快戏谑"
+        },
+        "catchphrases": [],
+        "quote_samples": []
+      },
+      "habits": {
+        "mannerisms": [
+          "用手指转帽子",
+          "咧嘴微笑",
+          "靠近对方观察表情"
+        ],
+        "daily_routine": "长期在世界各地旅行",
+        "quirks": [],
+        "preferences": {}
+      },
+      "background": {
+        "birth": {
+          "place": "天界",
+          "family": []
+        },
+        "upbringing": "",
+        "education": {},
+        "formative_events": [],
+        "pre_story": "在欧拉丽设置眷族总部，却经常外游并放任成员自由行动。"
+      },
+      "abilities_owned": [],
+      "possessions_owned": [
+        "羽毛宽边帽"
+      ],
+      "relationships": {
+        "takemikazuchi": "熟识且经常捉弄的友神",
+        "bell-cranel": "产生浓厚兴趣的世界最快升级纪录保持者"
+      },
+      "knowledge": [
+        "命已升级",
+        "贝尔是世界最快升级纪录保持者",
+        "诸神大会出现多名新人"
+      ],
+      "secrets": [],
+      "summary": "异常迅速地结束旅行返回欧拉丽，向建御雷打探贝尔，并明确表示想尽快与贝尔见面。",
+      "key_events": [
+        {
+          "event_id": "hermes-returns-to-investigate-bell",
+          "summary": "为关注诸神大会崭露头角的新人而提前归城，并询问贝尔情报。",
+          "sourceRef": "danmachi-main/vol-05/full.txt:168"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-05/full.txt:136",
+        "danmachi-main/vol-05/full.txt:140",
+        "danmachi-main/vol-05/full.txt:156",
+        "danmachi-main/vol-05/full.txt:168",
+        "danmachi-main/vol-05/full.txt:186",
+        "danmachi-main/vol-05/full.txt:198"
+      ]
+    },
+    {
+      "period_id": "vol-10-ch-08-epilogue-supports-bell-position",
+      "volume": "vol-10",
+      "time": "第八章至终章",
+      "label": "既担心贝尔介入又设法保住其未来",
+      "status": {
+        "location": "荷米斯眷族总部、公会祈祷厅",
+        "state": "与乌拉诺斯谈判，希望恢复贝尔声望"
+      },
+      "summary": "荷米斯认为乌拉诺斯把贝尔卷入异端儿危机风险极大，命亚丝菲、阿伊莎和琉暗中支援。事件后，他向乌拉诺斯提出由自己继续平息骚动，同时要求乌拉诺斯协助挽救贝尔跌落的名声。",
+      "key_events": [
+        {
+          "event_id": "aisha-and-ryu-secretly-follow-bell",
+          "summary": "安排阿伊莎关照贝尔。",
+          "sourceRef": "danmachi-main/vol-10/full.txt:3150"
+        },
+        {
+          "event_id": "ikelos-exiled-and-hermes-negotiates-aftermath",
+          "summary": "与乌拉诺斯谈事件善后。",
+          "sourceRef": "danmachi-main/vol-10/full.txt:10530"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-10/full.txt:3100-3250",
+        "danmachi-main/vol-10/full.txt:10480-10580"
+      ]
+    },
+    {
+      "period_id": "vol-10-ch-06-anticipates-ikelos",
+      "volume": "vol-10",
+      "time": "第六章 暴风雨前的",
+      "label": "预感伊刻洛斯眷族将出手",
+      "name": {
+        "zh": "荷米斯",
+        "en": "Hermes",
+        "jp": "ヘルメス"
+      },
+      "aliases": [],
+      "gender": "男",
+      "species": "神",
+      "occupation": "荷米斯眷族主神、情报神",
+      "affiliation": "荷米斯眷族",
+      "status": {
+        "location": "荷米斯眷族总部",
+        "state": "因跟踪失败而警戒伊刻洛斯眷族"
+      },
+      "summary": "荷米斯听取亚丝菲报告，得知狄克斯识破跟踪并撤退。他判断异端儿迁徙路线可能马上遭袭，命亚丝菲监视中层与里维拉。",
+      "key_events": [
+        {
+          "event_id": "hermes-and-asfi-anticipate-ikelos-strike",
+          "summary": "命亚丝菲监视中层动向。",
+          "sourceRef": "danmachi-main/vol-10/full.txt:650"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-10/full.txt:650-734"
+      ]
+    },
+    {
+      "period_id": "vol-12-hermes-hero-script",
+      "volume": "vol-12",
+      "time": "第二章-终章、附赠广播剧",
+      "label": "为恢复贝尔英雄声望而操纵异端儿",
+      "name": {
+        "zh": "荷米斯",
+        "en": "Hermes",
+        "jp": "ヘルメス"
+      },
+      "gender": "男",
+      "species": "男神",
+      "occupation": "荷米斯眷族主神、乌拉诺斯临时协助者",
+      "affiliation": "荷米斯眷族",
+      "status": {
+        "location": "代达罗斯路、公会地下祈祷厅、欧拉丽",
+        "state": "计谋失败后承认贝尔的未知光辉，但仍坚持为英雄行动"
+      },
+      "summary": "荷米斯打断芬恩对贝尔的试探，劝贝尔不要把异端儿情报告诉洛基眷族，表面作为乌拉诺斯的协助者活动。他让亚丝菲伪造代达罗斯手札，诱导费尔斯与异端儿进入死路，并要求古罗斯等人牺牲自身，逼贝尔在公众前讨伐怪物以恢复英雄名誉。贝尔选择相信古罗斯、阿斯泰里奥斯又乱入后，荷米斯剧本彻底崩坏；他承认自己输给非神意能创造的冒险光景，但仍表示今后会为英雄采取行动。",
+      "key_events": [
+        {
+          "event_id": "finn-and-hermes-probe-bell",
+          "summary": "打断芬恩试探并劝贝尔保密。",
+          "sourceRef": "danmachi-main/vol-12/full.txt:1243-2644"
+        },
+        {
+          "event_id": "hermes-fake-daedalus-notebook-trap",
+          "summary": "用伪手札诱捕异端儿并提出牺牲交易。",
+          "sourceRef": "danmachi-main/vol-12/full.txt:8195-9326"
+        },
+        {
+          "event_id": "gros-attacks-eina-and-bell-refuses-to-kill",
+          "summary": "操纵古罗斯袭击埃伊娜，逼贝尔杀怪。",
+          "sourceRef": "danmachi-main/vol-12/full.txt:8195-9326"
+        },
+        {
+          "event_id": "bell-vs-asterius-public-duel",
+          "summary": "见证阿斯泰里奥斯摧毁剧本并承认败北。",
+          "sourceRef": "danmachi-main/vol-12/full.txt:9327-10846"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-12/full.txt:1243-2644",
+        "danmachi-main/vol-12/full.txt:8195-11228",
+        "danmachi-main/vol-12/full.txt:11311-12564"
+      ]
+    },
+    {
+      "period_id": "vol-13-hermes-apology",
+      "volume": "vol-13",
+      "time": "第一章-第二章",
+      "label": "向贝尔为异端儿事件道歉但仍坚持支持者立场",
+      "name": {
+        "zh": "荷米斯",
+        "en": "Hermes",
+        "jp": "ヘルメス"
+      },
+      "gender": "男",
+      "species": "神",
+      "occupation": "主神",
+      "affiliation": "荷米斯眷族",
+      "status": {
+        "level": "神",
+        "location": "欧拉丽市墙、眷族仓库背景",
+        "state": "被赫斯缇雅踢打后向贝尔道歉"
+      },
+      "summary": "荷米斯在市墙上找到贝尔，为上一卷利用古罗斯等异端儿逼贝尔选择的行为道歉，并承认今后仍可能以支持者身份做让贝尔怨恨的事。远征准备阶段，阿伊莎从荷米斯眷族仓库偷出魔导书给春姬，显示荷米斯眷族资源间接促成春姬觉醒九重。",
+      "key_events": [
+        {
+          "event_id": "bell-levels-to-lv4-and-learns-ox-slayer",
+          "summary": "在市墙上向贝尔道歉并说明自己仍会支持他。",
+          "sourceRef": "danmachi-main/vol-13/full.txt:61-852"
+        },
+        {
+          "event_id": "expedition-preparations-and-haruhime-kokonoe",
+          "summary": "眷族仓库魔导书被阿伊莎偷出给春姬。",
+          "sourceRef": "danmachi-main/vol-13/full.txt:853-2676"
+        }
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "danmachi-main/vol-13/full.txt:61-2676"
+      ]
+    },
+    {
+      "period_id": "vol-17-hermes-orion-journey",
+      "volume": "vol-17",
+      "time": "短篇 剧场版 俄里翁之箭 BD特典广播剧",
+      "label": "旅途专家与暗中见证者",
+      "name": {
+        "zh": "赫尔墨斯",
+        "en": "Hermes",
+        "jp": "ヘルメス"
+      },
+      "gender": "男",
+      "species": "男神",
+      "occupation": "赫尔墨斯眷族主神、旅行之神",
+      "affiliation": "赫尔墨斯眷族",
+      "status": {
+        "location": "俄里翁之箭旅途",
+        "state": "负责旅途安排并暗中祝愿阿尔忒弥斯享受片刻欢乐"
+      },
+      "summary": "赫尔墨斯在俄里翁之箭旅途中参与石头剪刀布闹剧，承担旅行专家角色安排食材、驻扎与行程，也不断以玩笑引发赫斯缇雅不满。他暗中观察赫斯缇雅、贝尔与阿尔忒弥斯在湖边嬉水，祈愿阿尔忒弥斯暂时忘记罪责与使命，让此行成为留在众人心中的永不褪色旅途。",
+      "key_events": [
+        "orion-arrow-unfading-journey"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-17/chapters/ch-014-剧场版-俄里翁之箭-BD特典广播剧-永不褪色的旅途.txt"
+      ]
+    },
+    {
+      "period_id": "vol-18-hermes-device-compensation",
+      "volume": "vol-18",
+      "time": "特典广播剧 对在意的那孩子使用好感度检测器",
+      "label": "因精力剂事件赔出好感度检测器的神",
+      "name": {
+        "zh": "赫尔墨斯",
+        "en": "Hermes",
+        "jp": "ヘルメス"
+      },
+      "gender": "男",
+      "species": "神",
+      "occupation": "赫尔墨斯眷族主神",
+      "affiliation": "赫尔墨斯眷族",
+      "status": {
+        "location": "未直接登场；被赫斯缇雅提及",
+        "state": "与贝尔精力剂事件和检测器来源相关"
+      },
+      "summary": "赫尔墨斯未直接登场。赫斯缇雅提到调查贝尔精力剂事件后又发现与赫尔墨斯有关，因此从他那里抢来或没收了好感度检测器，作为招来误会的赔礼。该道具成为两篇广播剧跟踪贝尔的核心物品。",
+      "key_events": [
+        "hestia-lili-first-favorability-survey"
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "danmachi-main/vol-18/chapters/ch-005-特典广播剧-对在意的那孩子使用好感度检测器.txt"
+      ]
+    },
+    {
+      "period_id": "vol-19-hermes-senses-danger",
+      "volume": "vol-19",
+      "time": "第四章至第六章",
+      "label": "察觉希儿约会危险并临时调停的男神",
+      "name": {
+        "zh": "赫尔墨斯",
+        "en": "Hermes",
+        "jp": "ヘルメス"
+      },
+      "gender": "男",
+      "species": "男神",
+      "occupation": "赫尔墨斯眷族主神、情报神",
+      "affiliation": "赫尔墨斯眷族",
+      "status": {
+        "level": "神",
+        "location": "女神祭街区、东北区",
+        "state": "原本陪亚丝菲休假，见到贝尔与希儿后意识到事态危险；帮助赫斯缇雅寻找贝尔并调动艾丝、亚丝菲"
+      },
+      "summary": "赫尔墨斯在女神祭陪亚丝菲散步时偶遇贝尔与希儿约会，因知道希儿与芙蕾雅关系的危险性而罕见动摇。第六章中赫斯缇雅求助时，他让亚丝菲搜索贝尔，并在东北区面对希儿/赫伦时承认自己对她的本质也只掌握推测。他以调停者之名请艾丝和亚丝菲拖住芙蕾雅眷族，让贝尔继续保护希儿。",
+      "key_events": [
+        "ais-and-hestia-chase-bell-syr-date",
+        "horn-impersonates-syr-and-freya-familia-attacks",
+        "hostess-staff-and-ais-delay-freya-familia"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-19/chapters/ch-009-第四章-公主大骚动！.txt",
+        "danmachi-main/vol-19/chapters/ch-014-第六章-心愿的代价.txt"
+      ]
+    }
+  ]
+}

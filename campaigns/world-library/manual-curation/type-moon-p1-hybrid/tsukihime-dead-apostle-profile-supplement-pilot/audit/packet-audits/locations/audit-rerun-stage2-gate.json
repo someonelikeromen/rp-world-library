@@ -1,0 +1,53 @@
+{
+  "schema": "tm-tsukihime-packet-audit-rerun-stage2-gate-v1",
+  "packetId": "locations",
+  "stage": "stage-2-gate-evidence-rerun-r55-fix",
+  "role": "Auditor rerun",
+  "status": "passed-with-nonblocking-risks",
+  "generatedAt": "2026-07-15",
+  "boundedValidation": {
+    "readOnlyInputs": [
+      "extracted/profile-supplement/locations/index.json",
+      "normalized/profile-supplement/locations/index.json",
+      "audit/packet-audits/locations/generation-report.json",
+      "audit/packet-audits/locations/final-status.json"
+    ],
+    "checksPerformed": [
+      "Confirmed generator report records source units read, output inventory, mandatory layer coverage, not-found records, and candidate-only handling.",
+      "Confirmed normalized index enumerates appearance, outfit-equipment, ability-activation, combat-effect, relationships, timeline markers, candidates, and not-found outputs.",
+      "Confirmed formalization boundary says no formal location, event, relationship, graph, or timeline records are created by this packet.",
+      "Confirmed Melty Blood premises, Ahnenerbe, Aozaki house, Type Lumina locations, and route event outcomes remain candidate-only or not-found where direct support is absent.",
+      "Confirmed forbidden aggregate basename checks returned no characters.json, events.json, relationships.json, facts.json, graph.json, or timeline.json."
+    ],
+    "factsChanged": false,
+    "candidateOnlyPolicyChanged": false,
+    "sourceGapPolicyChanged": false
+  },
+  "openIssues": 0,
+  "blockedIssues": 0,
+  "canAdvance": true,
+  "requiredFixes": [],
+  "blockedIssueList": [],
+  "openIssueList": [],
+  "nonblockingRisks": [
+    {
+      "riskId": "locations-source-excerpt-limitation",
+      "classification": "source limitation",
+      "detail": "Packet evidence is based on Stage 1 worldbook/profile excerpts, not official script text."
+    },
+    {
+      "riskId": "locations-formalization-boundary",
+      "classification": "nonblocking risk",
+      "detail": "Location associations and continuity markers remain candidate/signal fragments and are not formal merged location, event, relationship, graph, or timeline outputs."
+    }
+  ],
+  "findings": [],
+  "evidenceRefs": {
+    "generationReport": "audit/packet-audits/locations/generation-report.json",
+    "extractedIndex": "extracted/profile-supplement/locations/index.json",
+    "normalizedIndex": "normalized/profile-supplement/locations/index.json",
+    "notFoundRecords": "normalized/profile-supplement/locations/not-found/not-found-in-source.json",
+    "targetedChecks": ["find pilot for forbidden basenames"]
+  },
+  "decision": "Packet gate evidence validates with nonblocking source and formalization-boundary limitations recorded."
+}

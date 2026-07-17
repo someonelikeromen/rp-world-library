@@ -1,0 +1,85 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "lyra",
+  "volume": "vol-15",
+  "time_range": {
+    "start": "间章回忆",
+    "end": "第十三章梦境"
+  },
+  "sub_arcs": [
+    "知识化为智慧",
+    "札格纳特牺牲"
+  ],
+  "source_refs": [
+    "danmachi-main/vol-15/chapters"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-15-lyra-memory",
+      "volume": "vol-15",
+      "time": "间章-第十三章",
+      "label": "教导琉把知识变成智慧的小人族",
+      "name": {
+        "zh": "莱拉",
+        "en": "Lyra",
+        "jp": "ライラ"
+      },
+      "gender": "女",
+      "species": "小人族",
+      "occupation": "阿斯特莉亚眷族冒险者、道具与陷阱专家",
+      "affiliation": "阿斯特莉亚眷族",
+      "status": {
+        "level": "Lv.3",
+        "location": "琉的回忆与梦境",
+        "state": "五年前已故；其求生知识在深层帮助琉与贝尔"
+      },
+      "summary": "莱拉是阿斯特莉亚眷族的小人族成员，言行轻浮却洞察犀利，教导琉知识、情报与邪门手段都可成为生存武器，要把知识变成智慧。五年前灾厄中她双目被魔法反射烧毁，最后以特制炸弹夺走札格纳特右手。琉在深层求生、搜集掉落道具、处理黏液怪体液等行为都体现了莱拉的教诲。",
+      "key_events": [
+        {
+          "event_id": "astraea-familia-justice-ideal-debates",
+          "summary": "告诉琉真相由自己决定，并教导她将知识变成智慧。",
+          "sourceRef": "danmachi-main/vol-15/chapters/ch-008-间章-正义的追想.txt"
+        },
+        {
+          "event_id": "astraea-familia-juggernaut-tragedy-revealed",
+          "summary": "在五年前灾厄中以特制炸弹牺牲自己，炸掉札格纳特右手。",
+          "sourceRef": "danmachi-main/vol-15/chapters/ch-010-第十三章-穿越上千黑暗.txt"
+        }
+      ],
+      "evidence_level": "A",
+      "source_refs": [
+        "danmachi-main/vol-15/chapters/ch-008-间章-正义的追想.txt",
+        "danmachi-main/vol-15/chapters/ch-010-第十三章-穿越上千黑暗.txt",
+        "danmachi-main/vol-15/chapters/ch-015-特典-深层求生记.txt"
+      ]
+    },
+    {
+      "period_id": "vol-16-lyra-astraea-familia-introduction",
+      "volume": "vol-16",
+      "time": "第六章 邂逅与誓言（回忆）",
+      "label": "琉入团时在总部见到的小人族成员",
+      "name": {
+        "zh": "莱拉",
+        "en": "Lyra",
+        "jp": "ライラ"
+      },
+      "gender": "女",
+      "species": "小人族",
+      "occupation": "冒险者、阿斯特莉亚眷族成员",
+      "affiliation": "阿斯特莉亚眷族",
+      "status": {
+        "location": "阿斯特莉亚眷族总部",
+        "state": "作为早期成员在大厅中迎接亚莉榭带回琉"
+      },
+      "summary": "亚莉榭把琉带回阿斯特莉亚眷族总部时，莱拉与其他团员在大厅中休息，并打趣亚莉榭又把人捡回来。她是琉最初见到的阿斯特莉亚眷族外族同伴之一，见证琉入团与正义誓言。",
+      "key_events": [
+        "ryu-meets-alise-and-joins-astraea-familia"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-16/chapters/ch-013-第六章-邂逅与誓言.txt"
+      ]
+    }
+  ]
+}

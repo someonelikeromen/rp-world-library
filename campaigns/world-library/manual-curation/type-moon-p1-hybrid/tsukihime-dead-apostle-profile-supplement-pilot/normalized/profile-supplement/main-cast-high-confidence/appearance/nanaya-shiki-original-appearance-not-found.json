@@ -1,0 +1,18 @@
+{
+  "schema": "tm-tsukihime-normalized-fragment-v1",
+  "packetId": "main-cast-high-confidence",
+  "fragmentId": "appearance-nanaya-shiki-original-not-found",
+  "layer": "appearance",
+  "subjectId": "nanaya-shiki",
+  "continuity": { "rawSourceLabel": "同人版", "canonicalContinuity": "original", "taxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy/rawLabelMapping/同人版" },
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "candidateOnly": false,
+  "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:50", "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:54"],
+  "notFoundInSource": true,
+  "assertions": [
+    { "property": "availableIdentityContext", "value": "Nanaya Shiki is Tohno Shiki's original name and variant context is described.", "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:50", "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:51"] },
+    { "property": "missingAppearanceDetails", "value": "No standalone Nanaya Shiki appearance detail appears in this Stage 1 excerpt." }
+  ]
+}

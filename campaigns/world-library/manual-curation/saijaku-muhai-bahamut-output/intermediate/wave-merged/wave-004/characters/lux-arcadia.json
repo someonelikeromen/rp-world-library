@@ -1,0 +1,680 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "lux-arcadia",
+  "volume": "vol-16",
+  "time_range": {
+    "start": "final-battle-aftermath",
+    "end": "parade-reset-revelation"
+  },
+  "sub_arcs": [
+    "postwar-academy",
+    "new-year-parade",
+    "ouroboros-reset"
+  ],
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-16/full.txt:465",
+    "saijaku-muhai-bahamut-main/vol-16/full.txt:7529"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-16",
+      "volume": "vol-16",
+      "time": "大战后两周至新年游行循环",
+      "label": "恢复记忆的公主骑士",
+      "name": {
+        "zh": "路克斯·阿卡迪亚",
+        "en": "Lux Arcadia",
+        "jp": ""
+      },
+      "aliases": [
+        "路克斯",
+        "哥哥",
+        "公主骑士殿下",
+        "英雄殿下",
+        "打杂王子"
+      ],
+      "titles": [
+        "旧帝国皇子",
+        "新王国七龙骑圣",
+        "莉姿夏尔蒂的骑士",
+        "骑士团成员"
+      ],
+      "gender": "male",
+      "species": "human; baptism-enhanced traces",
+      "nationality": "阿卡迪亚旧帝国/新王国",
+      "occupation": "王立士官学园学生、骑士、七龙骑圣",
+      "affiliation": "knight-squadron; new-kingdom-atismata; seven-dragon-paladins",
+      "status": {
+        "physical": "大战后疗养，仍可行动并参加游行",
+        "legal": "循环中一度由女王宣布赦免并摘除罪人项圈",
+        "mental": "受永劫回归影响而多次遗忘，又在辛格伦提示下恢复真相"
+      },
+      "appearance": {
+        "overview": "银发少年，温和端正，颈上长期戴罪人项圈。",
+        "physical": {
+          "height": "中等",
+          "build": "纤细但训练有素",
+          "hair": {
+            "color": "银色"
+          },
+          "eyes": {}
+        },
+        "attire": {
+          "default": "王立士官学园制服",
+          "combat": "飞翔机龙或巴哈姆特装甲"
+        },
+        "voice_quality": {
+          "tone": "礼貌温和"
+        },
+        "distinctive": [
+          "过度认真地承担杂务",
+          "对少女们的好意迟钝但逐渐自觉"
+        ]
+      },
+      "personality": {
+        "summary": "温柔、自责、责任感极强；本卷开始正视恋爱、赦免与被操纵历史的真相。",
+        "core_traits": [
+          "善良",
+          "自我牺牲",
+          "谨慎",
+          "坚韧"
+        ],
+        "values": [
+          "保护弱者",
+          "尊重个人选择",
+          "反对被他人强行改写命运"
+        ],
+        "fears": [
+          "再度失去伙伴",
+          "旧帝国罪责牵连爱理"
+        ],
+        "desires": [
+          "守护新王国与伙伴",
+          "以自己的意志成为莉夏的骑士"
+        ],
+        "strengths": [
+          "战术洞察",
+          "凝聚伙伴",
+          "抵抗认知操纵"
+        ],
+        "flaws": [
+          "自责过重",
+          "感情迟钝"
+        ],
+        "inner_conflict": "在赦免、恋爱与弗基尔操纵历史的事实之间寻找自己的道路。",
+        "decision_pattern": {
+          "default": "先保护他人，再承担代价"
+        }
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {
+          "airi-arcadia": "爱理",
+          "lisesharte-atismata": "莉夏公主",
+          "celistia-ralgris": "赛莉丝学姐"
+        },
+        "register": {
+          "default": "礼貌"
+        },
+        "catchphrases": [],
+        "quote_samples": [
+          "我始终相信女王陛下。"
+        ]
+      },
+      "habits": {
+        "mannerisms": [
+          "遇事先道歉或承担杂务",
+          "紧张时苦笑"
+        ],
+        "daily_routine": "大战后返回学园、上课、探望同伴并处理杂务。",
+        "quirks": [
+          "即使不再是罪人也想完成旧委托"
+        ],
+        "preferences": {
+          "relationships": "重视伙伴间的信赖"
+        }
+      },
+      "background": {
+        "birth": {
+          "place": "阿卡迪亚旧帝国",
+          "family": [
+            "airi-arcadia",
+            "fugil-arcadia"
+          ]
+        },
+        "upbringing": "旧帝国皇族末子，长期远离权力中心并背负革命失败后的罪人身份。",
+        "education": {
+          "school": "王立士官学园"
+        },
+        "formative_events": [
+          "五年前革命",
+          "与弗基尔的决裂",
+          "大圣域决战"
+        ],
+        "pre_story": "为推翻旧帝国与保护妹妹持续战斗。"
+      },
+      "abilities_owned": [
+        "bahamut-gluttony",
+        "limit-break",
+        "instant-strike",
+        "baptism-resistance"
+      ],
+      "possessions_owned": [
+        "wyvern",
+        "bahamut",
+        "criminal-collar"
+      ],
+      "relationships": {
+        "airi-arcadia": {
+          "type": "sibling",
+          "status": "互相保护，赦免必须同时包括爱理"
+        },
+        "lisesharte-atismata": {
+          "type": "liege-and-knight",
+          "status": "接受以自己的意志站在她身边"
+        },
+        "celistia-ralgris": {
+          "type": "romantic",
+          "status": "在一条循环中主动告白并亲吻"
+        },
+        "yoruka-kirihime": {
+          "type": "romantic-retainer",
+          "status": "在一条循环中接受夜架的吻与陪伴"
+        },
+        "ariel-vi-arcadia": {
+          "type": "ally-romantic-tension",
+          "status": "爱莉尔告白并托付大圣域真相"
+        },
+        "fugil-arcadia": {
+          "type": "former-brother/enemy",
+          "status": "恢复其操纵革命与历史重组的记忆"
+        },
+        "singlen-shelbrit": {
+          "type": "rival-informant",
+          "status": "辛格伦以幻影/记忆提示他逃离循环"
+        }
+      },
+      "knowledge": [
+        "eternal-recurrence-can-rewrite-history",
+        "lux-revolution-loop-truth",
+        "wibble-recorded-raffi-betrayal",
+        "raffi-selected-as-king-vessel"
+      ],
+      "secrets": [
+        "在循环中对赛莉丝、夜架等人的恋爱情感具体化"
+      ],
+      "summary": "路克斯从大圣域大战后返回学园，参加新王国游行并接受赦免；在奥罗波若斯多次重置的游行中逐步恢复记忆，发现弗基尔与罗菲利用永劫回归修正历史。",
+      "key_events": [
+        {
+          "event_id": "collar-removal-ceremony",
+          "summary": "罗菲女王宣布赦免路克斯与爱理，准备摘除罪人项圈。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-16/full.txt:2491"
+        },
+        {
+          "event_id": "ariel-reveals-eternal-recurrence",
+          "summary": "爱莉尔向路克斯说明奥罗波若斯能够改写认知与历史。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-16/full.txt:3111"
+        },
+        {
+          "event_id": "lux-discovers-queen-raffi-conspiracy",
+          "summary": "在辛格伦提示下恢复循环记忆，发现罗菲与弗基尔的阴谋。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-16/full.txt:7529"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-16/full.txt:465",
+        "saijaku-muhai-bahamut-main/vol-16/full.txt:2491",
+        "saijaku-muhai-bahamut-main/vol-16/full.txt:7529"
+      ]
+    },
+    {
+      "period_id": "vol-17",
+      "volume": "vol-17",
+      "time": "王都三日游行循环",
+      "label": "被世界改写包围的黑色英雄",
+      "name": {
+        "zh": "路克斯·阿卡迪亚",
+        "en": "Lux Arcadia",
+        "jp": ""
+      },
+      "aliases": [
+        "杂务王子",
+        "新王国的英雄",
+        "黑色英雄"
+      ],
+      "titles": [
+        "七龙骑圣",
+        "前旧帝国第七王子"
+      ],
+      "gender": "male",
+      "species": "human",
+      "nationality": "新王国/旧阿卡迪亚帝国",
+      "occupation": "骑士团成员;七龙骑圣",
+      "affiliation": "骑士团;新王国;秘密协助基尔兹拉克",
+      "status": {
+        "alive": true,
+        "condition": "疲劳发热但在洗礼适应后机龙操纵提升;结尾获特赦并秘密对抗罗菲"
+      },
+      "abilities_owned": [
+        "gluttony",
+        "quick-draw",
+        "end-action",
+        "endless-chain",
+        "baptism-adaptation"
+      ],
+      "possessions_owned": [
+        "bahamut",
+        "wyvern",
+        "criminal-collar",
+        "brand-sword"
+      ],
+      "relationships": {
+        "kurulucifer-einfolk": {
+          "type": "恋人/同伴",
+          "status": "第三次循环中互相确认感情但记忆可能被改写"
+        },
+        "philuffy-ainsgram": {
+          "type": "青梅竹马/最重要之人",
+          "status": "理解菲尔菲因身体负担而退让,决意拯救她"
+        },
+        "lisesharte-atismata": {
+          "type": "骑士与公主",
+          "status": "受莉夏信任并为她与罗菲的羁绊痛苦"
+        },
+        "aeril-vi-arcadia": {
+          "type": "同盟/被救对象",
+          "status": "潜入箱庭救出爱莉尔并夺取至高之力"
+        },
+        "fugil-arcadia": {
+          "type": "兄长/宿敌",
+          "status": "追问英雄使命与圣蚀秘密"
+        },
+        "roffe-atismata": {
+          "type": "女王/敌对真相",
+          "status": "识破罗菲才是世界改写主谋但暂不公开"
+        },
+        "magialca-zen-vanfrick": {
+          "type": "盟友/导师",
+          "status": "受其点醒作为旧帝国王子的使命"
+        },
+        "alma-kiltzrak": {
+          "type": "临时部下/被拯救者",
+          "status": "在箱庭中保护阿尔玛并使其认出真正黑色英雄"
+        }
+      },
+      "knowledge": [
+        "parade-loop-truth",
+        "roffe-true-culprit",
+        "lux-black-hero",
+        "box-garden-grand-force-stolen"
+      ],
+      "secrets": [
+        "利用圣蚀克隆体取回五年前记忆并夺走箱庭至高之力"
+      ],
+      "summary": "路克斯在三日游行循环中识破世界改写,先被引向那鲁夫这一假主谋,再通过夜架与菲尔菲的记录确认罗菲女王才是真凶。他选择不摧毁新王国,而是在基尔兹拉克协助下救出爱莉尔、夺走箱庭至高之力并准备对抗圣蚀与弗基尔。",
+      "key_events": [
+        {
+          "event_id": "lux-deduces-world-rewrite",
+          "summary": "看到弗基尔与圣蚀后恢复世界被改写、游行记忆循环的认知。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-17/full.txt:330"
+        },
+        {
+          "event_id": "lux-kurulucifer-confession",
+          "summary": "在喷泉旁回应库露露席法告白,同时继续伪装未发现循环。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-17/full.txt:2220"
+        },
+        {
+          "event_id": "lux-unmasks-roffe",
+          "summary": "用夜架记录确认罗菲才是消灭旧帝国派与操纵那鲁夫的主谋。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-17/full.txt:3950"
+        },
+        {
+          "event_id": "box-garden-rescue",
+          "summary": "潜入箱庭击败圣蚀克隆体,救出爱莉尔并夺走至高之力。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-17/full.txt:6700"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-17/full.txt:330",
+        "saijaku-muhai-bahamut-main/vol-17/full.txt:2220",
+        "saijaku-muhai-bahamut-main/vol-17/full.txt:3950",
+        "saijaku-muhai-bahamut-main/vol-17/full.txt:6700",
+        "saijaku-muhai-bahamut-main/vol-17/full.txt:7070"
+      ]
+    },
+    {
+      "period_id": "vol-18-main",
+      "volume": "vol-18",
+      "time": "新年游行后至古代森林决战",
+      "name": {
+        "zh": "路克斯·阿卡迪亚",
+        "en": "Lux Arcadia",
+        "jp": "ルクス・アーカディア"
+      },
+      "aliases": [
+        "黑色英雄",
+        "蔚蓝师团真正领导者",
+        "副队长"
+      ],
+      "titles": [
+        "旧帝国皇子",
+        "新王国英雄"
+      ],
+      "gender": "male",
+      "species": "human",
+      "nationality": "New Kingdom / former Arcadia Empire",
+      "occupation": "骑士团成员；秘密叛乱指挥者",
+      "affiliation": "蔚蓝师团；王立士官学园骑士团",
+      "status": {
+        "physical": "洗礼后负伤疲劳但继续作战",
+        "political": "伪装为卧病休养，暗中指挥蔚蓝师团",
+        "end_of_volume": "被莉夏目击真实身份"
+      },
+      "appearance": {
+        "overview": "少年机龙使，行动时戴面具并驾驶黑色巴哈姆特隐藏身份。"
+      },
+      "personality": {
+        "summary": "温柔而承担过重责任，选择独自背负叛乱污名以拯救新王国。",
+        "core_traits": [
+          "自我牺牲",
+          "谋略周密",
+          "重视同伴生命",
+          "不愿牵连亲近者"
+        ],
+        "values": [
+          "保护新王国",
+          "拯救莉夏等人",
+          "阻止圣蚀与世界改写"
+        ],
+        "inner_conflict": "既想保护所有人，又必须亲手击败被罗菲利用的同伴。"
+      },
+      "abilities_owned": [
+        "gluttony",
+        "divine-speed-control",
+        "limit-break",
+        "eternal-chain"
+      ],
+      "possessions_owned": [
+        "bahamut-divine-drag-ride"
+      ],
+      "relationships": {
+        "airi-arcadia": {
+          "type": "sister",
+          "summary": "爱理发现真相后坚持作为间谍支援他。"
+        },
+        "lisesharte-atismata": {
+          "type": "princess/knight bond",
+          "summary": "为了保护她而绑架她，卷末被她看见真身。"
+        },
+        "celistia-atismata": {
+          "type": "trusted senior",
+          "summary": "击败被精神污染操纵的赛莉丝并相信其意志。"
+        },
+        "firfi-eigran": {
+          "type": "childhood friend/love interest",
+          "summary": "在档案馆战斗后互相确认深厚羁绊。"
+        },
+        "kururushifa-enforx": {
+          "type": "ally/opponent",
+          "summary": "在阿尔玛演说事件中与她交战并击败。"
+        },
+        "yaka": {
+          "type": "loyal subordinate",
+          "summary": "委托夜架搜寻大圣域并保护爱理。"
+        },
+        "alma-kirzrak": {
+          "type": "co-conspirator",
+          "summary": "说服阿尔玛放下对莉夏的单纯复仇。"
+        },
+        "ail-fajele": {
+          "type": "enemy",
+          "summary": "在档案馆击败其寄生操控菲尔菲的计划。"
+        },
+        "rafa-atismata": {
+          "type": "enemy ruler",
+          "summary": "双方围绕新王国统治权与圣蚀真相展开智谋战。"
+        },
+        "fukil-arcadia": {
+          "type": "brother/enemy-to-face",
+          "summary": "本卷尚未正面对决，但目标之一是阻止弗基尔与奥罗波若斯。"
+        }
+      },
+      "knowledge": [
+        "sacred-erosion-truth",
+        "fukil-ashley-history",
+        "eternal-return-mechanism"
+      ],
+      "summary": "路克斯以蔚蓝师团为伪装，偷走至高之力、救出爱莉尔、绑架莉夏，并在古代森林中连续与库露露席法、赛莉丝、菲尔菲及自动人形交战；他在档案馆听到阿榭立亚留下的过去记录，却仍未得到圣蚀弱点，卷末身份暴露在莉夏面前。",
+      "key_events": [
+        {
+          "event_id": "azure-squad-declaration",
+          "summary": "暗中组织蔚蓝师团向罗菲宣战。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-18/full.txt:161-213"
+        },
+        {
+          "event_id": "lisesharte-kidnapped",
+          "summary": "驾驶巴哈姆特袭击莉夏和库露露席法并带走莉夏。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-18/full.txt:1698-2176"
+        },
+        {
+          "event_id": "archive-conversation",
+          "summary": "在档案馆听取阿榭立亚的人格记录。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-18/full.txt:6246-6421"
+        },
+        {
+          "event_id": "lux-identity-exposed",
+          "summary": "卷末被莉夏看见与阿尔玛交谈。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-18/full.txt:7387-7424"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-18/full.txt:301-449",
+        "saijaku-muhai-bahamut-main/vol-18/full.txt:1698-2176",
+        "saijaku-muhai-bahamut-main/vol-18/full.txt:4153-5068",
+        "saijaku-muhai-bahamut-main/vol-18/full.txt:5817-7316",
+        "saijaku-muhai-bahamut-main/vol-18/full.txt:7387-7424"
+      ]
+    },
+    {
+      "period_id": "vol-19",
+      "volume": "vol-19",
+      "time": "古代森林决战",
+      "label": "黑色英雄与新王国骑士",
+      "name": {
+        "zh": "路克斯·阿卡迪亚",
+        "en": "Lux Arcadia",
+        "jp": ""
+      },
+      "aliases": [
+        "路克斯",
+        "黑色英雄",
+        "旧帝国王子"
+      ],
+      "titles": [
+        "新王国骑士团成员",
+        "蔚蓝师团幕后指挥"
+      ],
+      "gender": "male",
+      "species": "human",
+      "occupation": "机龙使",
+      "affiliation": "蔚蓝师团/新王国骑士团",
+      "status": {
+        "end": "存活，重伤后休整",
+        "mental": "由逃避莉夏真相转为坦白并共同承担"
+      },
+      "personality": {
+        "summary": "温柔而自责，习惯独自背负责任；本卷承认自己害怕被莉夏讨厌，并学会把真实心意传达给她。",
+        "core_traits": [
+          "责任感强",
+          "自我牺牲",
+          "洞察力高",
+          "迟钝但真诚"
+        ],
+        "inner_conflict": "想秘密击败罗菲以免莉夏背负弑母痛苦，却因此无法发挥洗礼力量。"
+      },
+      "abilities_owned": [
+        "gluttony",
+        "divine-speed-control",
+        "limit-break"
+      ],
+      "possessions_owned": [
+        "bahamut",
+        "brand-sword"
+      ],
+      "relationships": {
+        "lishearlotte-rofu": {
+          "type": "love-interest / partner",
+          "summary": "告白我爱你并打破她的感知操纵束缚，之后并肩讨伐罗菲。"
+        },
+        "queen-rofu": {
+          "type": "enemy / protected-person's mother",
+          "summary": "必须击败与圣蚀融合的罗菲，同时尽量不让莉夏独自承担。"
+        },
+        "krulusifa-enfortis": {
+          "type": "ally / love-interest",
+          "summary": "被她的决斗争取时间和信任唤醒真实心意。"
+        },
+        "philuffy-aingram": {
+          "type": "childhood friend",
+          "summary": "被菲尔菲点醒不是软弱，而是逃避自己的真实心意。"
+        },
+        "airi-arcadia": {
+          "type": "sister",
+          "summary": "爱理协助蔚蓝师团计划并在后方指挥。"
+        },
+        "fugil-arcadia": {
+          "type": "brother / antagonist",
+          "summary": "弗基尔继续推动永劫回归，路克斯必须面对其道路。"
+        }
+      },
+      "summary": "路克斯在古代森林中先败给受操纵的莉夏，后于宿中恢复并被同伴点醒。他向莉夏坦白对罗菲真相的恐惧和爱意，解除她的束缚，最终与莉夏、夜架等人合力击穿圣蚀核心。",
+      "key_events": [
+        {
+          "event_id": "lux-vs-lishearlotte-vol19",
+          "summary": "被莉夏击败",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-19/full.txt:1697-2256"
+        },
+        {
+          "event_id": "lux-confession-to-lishearlotte",
+          "summary": "向莉夏告白并解除感知束缚",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-19/full.txt:2693-6600"
+        },
+        {
+          "event_id": "final-battle-vs-rofu-queen",
+          "summary": "以极限突破贯穿圣蚀核心",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-19/full.txt:2693-6600"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-19/full.txt:1-6600"
+      ]
+    },
+    {
+      "period_id": "vol-20",
+      "volume": "vol-20",
+      "time": "最终决战至三个月后即位",
+      "name": {
+        "zh": "路克斯·阿卡迪亚",
+        "en": "Lux Arcadia",
+        "jp": ""
+      },
+      "aliases": [
+        "小路",
+        "小路克",
+        "杂务王子",
+        "黑色英雄"
+      ],
+      "titles": [
+        "旧帝国王子",
+        "新王国一年期国王"
+      ],
+      "gender": "male",
+      "species": "human",
+      "nationality": "新王国/旧阿卡迪亚帝国皇族",
+      "occupation": "机龙使、学园学生、新王国国王",
+      "affiliation": "新王国、王立士官学园、联合军",
+      "status": {
+        "alive": true,
+        "condition": "最终战后力竭昏睡数日，三个月后即位"
+      },
+      "abilities_owned": [
+        "bahamut-gluttony",
+        "limit-break",
+        "armor-purge",
+        "permanent-link",
+        "dragon-roar",
+        "god-speed-control",
+        "baptism"
+      ],
+      "possessions_owned": [
+        "bahamut"
+      ],
+      "relationships": {
+        "fugil-arcadia": {
+          "type": "义兄/宿敌/导师",
+          "summary": "由弗基尔引导革命并最终亲手终结其千年英雄使命。"
+        },
+        "airi-arcadia": {
+          "type": "妹妹",
+          "summary": "依靠爱理驾驶耶梦加得支援战局。"
+        },
+        "lisha-atismata": {
+          "type": "同伴/恋人候选/政治伙伴",
+          "summary": "互相信任，莉夏冒死破坏奥罗波若斯限界突破，战后共同支撑新王国。"
+        },
+        "krulcifer-einfolk": {
+          "type": "同伴",
+          "summary": "她支援奥罗波若斯战并恢复世界改写中的记忆。"
+        },
+        "celistia-ralgris": {
+          "type": "同伴",
+          "summary": "赛莉丝在与弗基尔战中保护并支援他。"
+        },
+        "philuffy-ainfram": {
+          "type": "青梅竹马/同伴",
+          "summary": "菲尔菲提醒他无法独自拯救所有人，并在最终战中开路。"
+        },
+        "kirihime-yoruka": {
+          "type": "主仆/同伴",
+          "summary": "夜架以禁咒符号协助击落奥罗波若斯。"
+        }
+      },
+      "summary": "本卷主角。路克斯以同伴协作对抗弗基尔的孤独救世体系，识破多重战术、领导联合军保护大圣域中枢，最终击败弗基尔并在战后三个月成为新王国过渡期国王。",
+      "key_events": [
+        {
+          "event_id": "ancient-forest-final-war-council",
+          "summary": "组织众人决定不逃避而迎战弗基尔。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-20/full.txt:87"
+        },
+        {
+          "event_id": "lux-intercepts-fugil",
+          "summary": "借爱理的耶梦加得雷达反制弗基尔突袭。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-20/full.txt:835"
+        },
+        {
+          "event_id": "lux-defeats-fugil",
+          "summary": "在奥罗波若斯被击落后与弗基尔最终决斗并获胜。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-20/full.txt:4773"
+        },
+        {
+          "event_id": "lux-coronation",
+          "summary": "战后三个月被推为新王国一年期国王。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-20/full.txt:6501"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-20/full.txt:1",
+        "saijaku-muhai-bahamut-main/vol-20/full.txt:87",
+        "saijaku-muhai-bahamut-main/vol-20/full.txt:835",
+        "saijaku-muhai-bahamut-main/vol-20/full.txt:4773",
+        "saijaku-muhai-bahamut-main/vol-20/full.txt:6501"
+      ]
+    }
+  ]
+}

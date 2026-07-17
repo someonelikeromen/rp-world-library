@@ -1,0 +1,50 @@
+{
+  "schema": "tm-tsukihime-extracted-source-signal-v1",
+  "packetId": "mystic-eyes-shiki",
+  "recordId": "extracted-nanaya-shiki-caution-signals",
+  "subjectId": "nanaya-shiki",
+  "subjectLabel": "同人版七夜志贵",
+  "continuity": {
+    "rawSourceLabel": "同人版 / Melty Blood signal via TATARI context",
+    "canonicalContinuity": "original",
+    "taxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy"
+  },
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "candidateOnly": true,
+  "sourceRefs": [
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:50",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:51",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:52",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:53",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:54"
+  ],
+  "signals": [
+    {
+      "kind": "identity-context",
+      "summary": "Nanaya Shiki is stated to be Tohno Shiki's original name before taking the Tohno surname.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:50"]
+    },
+    {
+      "kind": "variant-context",
+      "summary": "The source says the label may refer to young Shiki, Shiki under Nanaya blood agitation, Shiki's imagined killer side, or a relatively independent killer manifested by TATARI.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:51"]
+    },
+    {
+      "kind": "disposition",
+      "summary": "The source describes the other Shiki who calls himself Nanaya as having a killing habit, glossed as demon extermination.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:52"]
+    },
+    {
+      "kind": "timeline-candidate-context",
+      "summary": "In the original version, the source says the figure appears as TATARI through Shiki's fear and unease about inversion impulse reflected by Night of Wallachia.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:53"]
+    },
+    {
+      "kind": "ability-caution",
+      "summary": "The source says speech suggests Nanaya may use Direct Death Mystic Eyes, but later author comment says he does not; therefore this packet keeps the ability as candidate/cautionary and not a source-backed formal ability fact for Nanaya Shiki.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:54"]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema": "tm-fgo-extracted-unsupported-label-candidates-v1",
+  "packetId": "pkt-fgo-ordeal-call-oc2-id-prep",
+  "chapterId": "fgo-ordeal-call-2-id",
+  "slug": "oc2-id",
+  "policy": "External/game/wiki/common English labels are retained only as aliasCandidates and are unsupported-by-current-source unless the current source line directly contains them.",
+  "records": [
+    {
+      "recordId": "oc2-candidate-english-chapter-labels",
+      "subjectRaw": "FGO_奏章II_不可逆废弃孔_伊德",
+      "aliasCandidates": [
+        {
+          "label": "Ordeal Call 2 Id",
+          "supportStatus": "partially-supported-by-current-source",
+          "supportRaw": "Current source directly contains Ordeal Call 2, 伊德, and (Id), but not this exact English ordering."
+        },
+        {
+          "label": "OC2 Id",
+          "supportStatus": "unsupported-by-current-source",
+          "supportRaw": "Current source does not contain OC2 abbreviation."
+        }
+      ],
+      "sourceFirstLabels": ["Ordeal Call 2 不可逆废弃孔 伊德 (Id)", "不可逆废弃孔", "伊德"],
+      "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:1", "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:4"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "recordId": "oc2-candidate-character-romanizations",
+      "subjectRaw": "主要角色罗马字/English labels",
+      "aliasCandidates": [
+        {
+          "label": "Jeanne Alter",
+          "supportStatus": "unsupported-by-current-source",
+          "supportRaw": "Current source contains 贞德Alter and Jalter, not Jeanne Alter."
+        },
+        {
+          "label": "Edmond Dantès",
+          "supportStatus": "unsupported-by-current-source",
+          "supportRaw": "Current source contains 爱德蒙·唐泰斯 and 岩窟王, not this romanized spelling."
+        },
+        {
+          "label": "Marie Antoinette Alter",
+          "supportStatus": "unsupported-by-current-source",
+          "supportRaw": "Current source contains 玛丽·安托瓦内特 (Alter) and 玛丽·安托瓦内特 (Avenger), not this exact English label."
+        },
+        {
+          "label": "Alessandro di Cagliostro",
+          "supportStatus": "unsupported-by-current-source",
+          "supportRaw": "Current source contains 亚历山德罗·迪·卡里奥斯特罗 and 卡里奥斯特罗, not the English romanization."
+        }
+      ],
+      "sourceFirstLabels": ["贞德Alter", "Jalter", "爱德蒙·唐泰斯", "玛丽·安托瓦内特 (Alter)", "亚历山德罗·迪·卡里奥斯特罗"],
+      "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:16", "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:76-89"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    }
+  ]
+}

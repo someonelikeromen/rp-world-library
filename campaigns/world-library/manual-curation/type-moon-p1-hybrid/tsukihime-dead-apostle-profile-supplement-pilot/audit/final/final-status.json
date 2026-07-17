@@ -1,0 +1,26 @@
+{
+  "schema": "tm-tsukihime-merge-final-status-v1",
+  "project": "tsukihime-dead-apostle-profile-supplement-pilot",
+  "stepId": "merge-tsukihime-supplement",
+  "stage": "merge-generator-output-final-audit-placeholder",
+  "status": "merge-generated-pending-audit",
+  "latestMergeReport": "audit/merge/merge-report.json",
+  "latestAuditStatus": "not-run-by-separate-auditor",
+  "openIssues": 0,
+  "blockedIssues": 0,
+  "canAdvance": false,
+  "generatedAt": "2026-07-15",
+  "reason": "Generator created controlled merge layers and derived-only indexes. Per three-agent protocol, a separated read-only auditor must verify before this can become passed or accepted.",
+  "requiredNextStep": "read-only merge/final audit by separate auditor",
+  "publicationStatus": "not-published",
+  "curatedMutation": "none-intended",
+  "outputsAwaitingAudit": [
+    "merged/profile-index.json",
+    "merged/profile-records/**/side-by-side-*.json",
+    "merged/*-signals/index.json",
+    "merged/not-found/index.json",
+    "timeline/derived-index.json",
+    "graph/derived-index.json",
+    "audit/merge/merge-report.json"
+  ]
+}

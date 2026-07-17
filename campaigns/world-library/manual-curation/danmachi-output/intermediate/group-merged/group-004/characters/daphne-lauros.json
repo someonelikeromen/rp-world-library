@@ -1,0 +1,447 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "daphne-lauros",
+  "volume": "vol-06",
+  "time_range": {
+    "start": "第二章",
+    "end": "第五章"
+  },
+  "sub_arcs": [
+    "邀请函递送",
+    "追捕贝尔",
+    "守城战"
+  ],
+  "source_refs": [
+    "danmachi-main/vol-06/full.txt:1106-7480"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-06-ch-02-invitation",
+      "volume": "vol-06",
+      "time": "第二章 Shall We Dance？",
+      "label": "递送阿波罗邀请函",
+      "name": {
+        "zh": "达芙妮·拉洛斯",
+        "en": "Daphne Lauros",
+        "jp": "ダフネ・ラウロス"
+      },
+      "gender": "女",
+      "species": "人类",
+      "occupation": "冒险者",
+      "affiliation": "阿波罗眷族",
+      "status": {
+        "level": "Lv.2",
+        "location": "公会本部",
+        "state": "与卡珊德拉把宴会邀请函交给贝尔"
+      },
+      "personality": {
+        "summary": "现实、强势，会照顾卡珊德拉但不相信她的预知梦。",
+        "core_traits": [
+          "务实",
+          "强势",
+          "责任感",
+          "达观"
+        ]
+      },
+      "relationships": {
+        "cassandra-ilion": "同伴；经常制止她的退缩发言",
+        "bell-cranel": "递送邀请函的目标"
+      },
+      "summary": "达芙妮与卡珊德拉在公会找到贝尔，交付阿波罗的宴会邀请函，并以“节哀”暗示不祥。",
+      "key_events": [
+        {
+          "event_id": "apollo-banquet-invitation-delivered",
+          "summary": "交付阿波罗宴会邀请函。",
+          "sourceRef": "danmachi-main/vol-06/full.txt:1106"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-06/full.txt:1106"
+      ]
+    },
+    {
+      "period_id": "vol-06-ch-03-pursuit",
+      "volume": "vol-06",
+      "time": "第三章 爆发",
+      "label": "追捕中的现实主义者",
+      "name": {
+        "zh": "达芙妮·拉洛斯",
+        "en": "Daphne Lauros",
+        "jp": "ダフネ・ラウロス"
+      },
+      "gender": "女",
+      "species": "人类",
+      "occupation": "冒险者",
+      "affiliation": "阿波罗眷族",
+      "status": {
+        "level": "Lv.2",
+        "location": "欧拉丽屋顶",
+        "state": "率队追捕贝尔与赫斯缇雅"
+      },
+      "personality": {
+        "summary": "知道阿波罗会死缠烂打，也同情贝尔，但仍以眷族义务服从命令。",
+        "core_traits": [
+          "达观",
+          "服从组织",
+          "有同情心",
+          "不信预知梦"
+        ]
+      },
+      "relationships": {
+        "apollo": "曾被其追到放弃抵抗而入团",
+        "cassandra-ilion": "不相信她受伤兔子的预知梦",
+        "bell-cranel": "同情但追捕的目标"
+      },
+      "summary": "达芙妮在屋顶劝贝尔投降，说明自己和卡珊德拉也曾被阿波罗追逐到放弃；她拒绝相信卡珊德拉关于受伤兔子跳过月亮吞太阳的梦。",
+      "key_events": [
+        {
+          "event_id": "apollo-familia-hunts-bell-and-hestia",
+          "summary": "率队追捕贝尔与赫斯缇雅。",
+          "sourceRef": "danmachi-main/vol-06/full.txt:2908"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-06/full.txt:2908"
+      ]
+    },
+    {
+      "period_id": "vol-06-ch-05-air-corridor",
+      "volume": "vol-06",
+      "time": "第五章 我们的战争游戏",
+      "label": "空中走廊防线",
+      "name": {
+        "zh": "达芙妮·拉洛斯",
+        "en": "Daphne Lauros",
+        "jp": "ダフネ・ラウロス"
+      },
+      "gender": "女",
+      "species": "人类",
+      "occupation": "冒险者、临时防线指挥者",
+      "affiliation": "阿波罗眷族（战败后无眷族）",
+      "status": {
+        "level": "Lv.2",
+        "location": "修利姆古城空中走廊",
+        "state": "试图拦截贝尔，被韦尔夫反魔法打乱防线"
+      },
+      "personality": {
+        "summary": "能快速判断战况、调度魔导士和弓手，但面对内部间谍导致的失序已无力回天。",
+        "core_traits": [
+          "指挥能力",
+          "务实",
+          "反应快",
+          "被动守责"
+        ]
+      },
+      "relationships": {
+        "welf-crozzo": "空中走廊对手",
+        "hyakinthos-clio": "需保护的大将"
+      },
+      "summary": "达芙妮在空中走廊布置弓箭手和魔导士迎击贝尔，但韦尔夫的反魔法使魔导士自爆，贝尔突破防线，韦尔夫留下与她交战。",
+      "key_events": [
+        {
+          "event_id": "welf-breaks-air-corridor-defense",
+          "summary": "其防线被韦尔夫反魔法破坏。",
+          "sourceRef": "danmachi-main/vol-06/full.txt:7480"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-06/full.txt:7400",
+        "danmachi-main/vol-06/full.txt:7480"
+      ]
+    },
+    {
+      "period_id": "vol-07-ch-01",
+      "volume": "vol-07",
+      "time": "第一章 一帆风顺",
+      "label": "现实主义的前阿波罗冒险者",
+      "name": {
+        "zh": "达芙妮·拉洛斯",
+        "en": "Daphne Lauros",
+        "jp": "ダフネ・ラウロス"
+      },
+      "aliases": [
+        "达芙妮"
+      ],
+      "gender": "女",
+      "species": "人类",
+      "occupation": "冒险者",
+      "affiliation": "前阿波罗眷族；自由身",
+      "status": {
+        "location": "赫斯缇雅眷族新总部外",
+        "state": "考虑转籍去正常主神的眷族，陪卡珊德拉寻找枕头并短暂参与招募"
+      },
+      "appearance": {
+        "overview": "短发、凤眼，态度强势的少女。",
+        "distinctive": [
+          "短发",
+          "凤眼"
+        ]
+      },
+      "personality": {
+        "summary": "现实、果断且照顾卡珊德拉，认为阿波罗眷族解散或许是因祸得福；面对两亿债务立即撤退。",
+        "core_traits": [
+          "现实",
+          "果断",
+          "照顾同伴",
+          "不轻信神秘预言"
+        ]
+      },
+      "relationships": {
+        "cassandra-ilion": "同行同伴，负责阻止其冲动",
+        "bell-cranel": "战争游戏旧敌；认可其无需愧疚"
+      },
+      "summary": "告知贝尔自己与卡珊德拉原本近似被迫加入阿波罗眷族，正在寻找正常主神；虽不信卡珊德拉的预知梦，仍陪她来到旧宅。后来因卡珊德拉想加入赫斯缇雅眷族而到场，但债务曝光后立刻决定离开。",
+      "key_events": [
+        {
+          "event_id": "cassandra-pillow-prophecy",
+          "summary": "阻止卡珊德拉闯入旧宅寻找梦中枕头。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:582"
+        },
+        {
+          "event_id": "hestia-familia-recruitment-collapse",
+          "summary": "看到两亿法利债务后带卡珊德拉离开。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:984"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-07/full.txt:538",
+        "danmachi-main/vol-07/full.txt:568",
+        "danmachi-main/vol-07/full.txt:984"
+      ]
+    },
+    {
+      "period_id": "vol-08-ch-01",
+      "volume": "vol-08",
+      "time": "第一章 献给某武神的恋歌",
+      "label": "从阿波罗到米赫",
+      "name": {
+        "zh": "达芙妮·拉洛斯",
+        "en": "Daphne Lauros",
+        "jp": "ダフネ・ラウロス"
+      },
+      "gender": "女",
+      "species": "人类",
+      "occupation": "第三级冒险者",
+      "affiliation": "米赫眷族；原阿波罗眷族",
+      "status": {
+        "location": "天青药铺",
+        "state": "改宗后与卡珊德拉一同为米赫眷族探索赚钱"
+      },
+      "appearance": {
+        "overview": "短发、吊眼的少女冒险者。"
+      },
+      "personality": {
+        "summary": "现实、吐槽役，对债务和神格判断清醒。",
+        "core_traits": [
+          "现实",
+          "直率",
+          "冷静"
+        ]
+      },
+      "relationships": {
+        "cassandra-ilion": "搭档与同伴",
+        "naaza-erisuys": "新眷族同伴",
+        "miach": "认可其神格的新主神"
+      },
+      "summary": "达芙妮与卡珊德拉在战争游戏后改宗到米赫眷族，接受其债务现实并开始为药铺与眷族经营贡献地下城收入。",
+      "key_events": [
+        {
+          "event_id": "daphne-cassandra-join-miach-familia",
+          "summary": "作为新眷属把今日收入交给娜扎。",
+          "sourceRef": "danmachi-main/vol-08/full.txt:1214"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-08/full.txt:1214",
+        "danmachi-main/vol-08/full.txt:1244"
+      ]
+    },
+    {
+      "period_id": "vol-13-daphne-command-mentor",
+      "volume": "vol-13",
+      "time": "第二章-第六章",
+      "label": "指导莉莉成为指挥官并参与远征",
+      "name": {
+        "zh": "达芙妮·拉洛斯",
+        "en": "Daphne Lauros",
+        "jp": "ダフネ・ラウロス"
+      },
+      "gender": "女",
+      "species": "人类",
+      "occupation": "冒险者",
+      "affiliation": "米赫眷族",
+      "status": {
+        "level": "Lv.2",
+        "location": "灶火馆、第24-25层",
+        "state": "作为游击与护卫加入派系联盟远征"
+      },
+      "summary": "达芙妮与卡珊德拉代表米赫眷族加入远征。她直言莉莉作为Lv.1支援者在下层会成为累赘，但也提出『干脆专职指挥官』的成长方向，并教莉莉指挥方法。远征中她担任中卫游击，保护支援者与伤患；贝尔失散后，她多次指出战术风险，也在亲眼见到莉莉指挥和决断后承认其才能。",
+      "key_events": [
+        {
+          "event_id": "expedition-preparations-and-haruhime-kokonoe",
+          "summary": "建议莉莉以指挥官身份厚起脸皮指挥全队。",
+          "sourceRef": "danmachi-main/vol-13/full.txt:853-2676"
+        },
+        {
+          "event_id": "lili-retreat-plan-and-marie-guides-bell",
+          "summary": "在贝尔失散后保护主队并评估莉莉方案。",
+          "sourceRef": "danmachi-main/vol-13/full.txt:4663-6046"
+        },
+        {
+          "event_id": "monster-parade-and-kokonoe-mass-level-boost",
+          "summary": "接受九重等级升华后参与防线。",
+          "sourceRef": "danmachi-main/vol-13/full.txt:6047-7866"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-13/full.txt:853-7866"
+      ]
+    },
+    {
+      "period_id": "vol-14-daphne-realist-support",
+      "volume": "vol-14",
+      "time": "第一章-第六章",
+      "label": "协助调查疾风疑案并支撑第25层战线",
+      "name": {
+        "zh": "达芙妮·拉洛斯",
+        "en": "Daphne Lauros",
+        "jp": "ダフネ・ラウロス"
+      },
+      "gender": "女",
+      "species": "人类",
+      "occupation": "冒险者",
+      "affiliation": "米赫眷族；派系联盟远征队",
+      "status": {
+        "level": "Lv.2",
+        "location": "第18层至第25层水之迷都",
+        "state": "莱姆顿战后继续保护卡珊德拉并面对安菲斯比纳"
+      },
+      "summary": "达芙妮在里维拉凶案后与莉莉检查尸体，认为琉可能审问过死者但现场有造假。她虽不相信卡珊德拉预知梦，却仍陪同队伍加入讨伐队。第25层莱姆顿战中，她参与破坏热感孔洞并协助维持战线；札格纳特和安菲斯比纳危机使她与卡珊德拉再次陷入预言中的绝境。",
+      "key_events": [
+        {
+          "event_id": "rivira-murder-and-ryu-framed",
+          "summary": "与莉莉检查尸体，指出疾风杀人说法仍有可疑之处。",
+          "sourceRef": "danmachi-main/vol-14/full.txt:215-778"
+        },
+        {
+          "event_id": "floor25-lamton-battle",
+          "summary": "参与第25层协同战，攻击莱姆顿热感孔洞。",
+          "sourceRef": "danmachi-main/vol-14/full.txt:4025-5158"
+        },
+        {
+          "event_id": "amphisbaena-early-spawn",
+          "summary": "与留守队伍一起被安菲斯比纳阻断救援。",
+          "sourceRef": "danmachi-main/vol-14/full.txt:7657-7830"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-14/full.txt:215-7830"
+      ]
+    },
+    {
+      "period_id": "vol-15-daphne-realist-frontline",
+      "volume": "vol-15",
+      "time": "第七章-第八章",
+      "label": "以现实判断和友情维持战线",
+      "name": {
+        "zh": "达芙妮·拉洛斯",
+        "en": "Daphne Lauros",
+        "jp": "ダフネ・ラウロス"
+      },
+      "gender": "女",
+      "species": "人类",
+      "occupation": "冒险者",
+      "affiliation": "米赫眷族",
+      "status": {
+        "level": "Lv.2",
+        "location": "第25-27层水之迷都",
+        "state": "使用拉穆勒参与前卫与机动支援，负责提醒莉莉指挥原则并唤回卡珊德拉"
+      },
+      "summary": "达芙妮在安菲斯比纳战中施展拉穆勒，以敏捷与经验弥补前卫空缺，多次救下命。她提醒莉莉指挥者不是单纯处理局面，而是推动局势，促成莉莉成长。看到卡珊德拉因预言崩溃后，她冒险脱离前线怒斥好友，指出害怕也要为了活下去而战。",
+      "key_events": [
+        {
+          "event_id": "lili-command-mikoto-root-stun-amphisbaena",
+          "summary": "在楼层主战中补位前卫并指导莉莉转为主动指挥。",
+          "sourceRef": "danmachi-main/vol-15/chapters/ch-002-第七章-绝望之诗-力克之诗.txt"
+        },
+        {
+          "event_id": "cassandra-rejoins-and-heals-amphisbaena-frontline",
+          "summary": "冒险脱离战线打醒卡珊德拉，让治疗师重新加入战斗。",
+          "sourceRef": "danmachi-main/vol-15/chapters/ch-002-第七章-绝望之诗-力克之诗.txt"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-15/chapters/ch-002-第七章-绝望之诗-力克之诗.txt",
+        "danmachi-main/vol-15/chapters/ch-003-第八章-铁锤之声.txt"
+      ]
+    },
+    {
+      "period_id": "vol-16-daphne-lv3",
+      "volume": "vol-16",
+      "time": "序章-间章 精灵的动摇",
+      "label": "远征后与卡珊德拉一起升上Lv.3",
+      "name": {
+        "zh": "达芙妮·拉洛斯",
+        "en": "Daphne Lauros",
+        "jp": "ダフネ・ラウロス"
+      },
+      "gender": "女",
+      "species": "人类",
+      "occupation": "冒险者",
+      "affiliation": "米赫眷族",
+      "status": {
+        "level": "Lv.3",
+        "location": "欧拉丽、丰饶的女主人",
+        "state": "因远征丰功伟业升级；继续吐槽卡珊德拉与周围人的失控"
+      },
+      "summary": "达芙妮在诊疗院外被卡珊德拉当成躲避对象而吐槽。远征后宴会中，她与卡珊德拉同因在贝尔深层孤立期间经历严酷冒险、协力击败下层楼层主等战果升上Lv.3；她接受莉莉祝贺，也对娜扎关于缴税与收益的笑容感到发怵。",
+      "key_events": [
+        "cassandra-and-daphne-level-to-lv3"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-16/chapters/ch-001-序章-冒险者们的休憩之歌.txt",
+        "danmachi-main/vol-16/chapters/ch-012-间章-精灵的动摇.txt"
+      ]
+    },
+    {
+      "period_id": "vol-18-daphne-mid-level-commander",
+      "volume": "vol-18",
+      "time": "第四章及广播剧",
+      "label": "在中层临时队伍中展现指挥能力的冒险者",
+      "name": {
+        "zh": "达芙涅·拉洛斯",
+        "en": "Daphne Lauros",
+        "jp": "ダフネ・ラウロス"
+      },
+      "gender": "女",
+      "species": "人类",
+      "occupation": "冒险者",
+      "affiliation": "米赫眷族；原阿波罗眷族",
+      "status": {
+        "level": "Lv.3",
+        "location": "地下城第13至15层、天青药铺",
+        "state": "为米赫眷族财政探索地下城，并协助贝尔一行完成委托"
+      },
+      "summary": "达芙涅与卡珊德拉在中层遇到贝尔、春姬与蕾娜，接受蕾娜提出的战利品分配条件加入临时队伍。她担任指挥者，准确判断怪物位置与后卫回复时机，让临时队伍高效前进到第15层。广播剧中她在天青药铺帮忙搬货，好感度为54，被赫斯缇雅和莉莉视为较正常的关系。",
+      "key_events": [
+        "haruhime-bell-dungeon-commission-and-library-rewrite",
+        "hestia-lili-first-favorability-survey"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-18/chapters/ch-004-第四章.txt",
+        "danmachi-main/vol-18/chapters/ch-005-特典广播剧-对在意的那孩子使用好感度检测器.txt"
+      ]
+    }
+  ]
+}

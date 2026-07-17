@@ -1,0 +1,22 @@
+{
+  "schema": "tm-tsukihime-work-packet-v1",
+  "packetId": "dead-apostles-roa",
+  "stage": "future-extraction-plan",
+  "status": "planned",
+  "sourceUnits": ["src-dlc-tsukihime-dead-apostle-roa-candidates", "src-tm-summary-dead-apostle-true-ancestor", "src-dlc-tsukihime-ciel", "src-dlc-tsukihime-arcueid", "src-dlc-tsukihime-tohno-nanaya"],
+  "sourceFiles": ["sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt", "sources/worldbook-profile/tm-summary-dead-apostle-true-ancestor.txt", "sources/worldbook-profile/dlc-tsukihime-ciel.txt", "sources/worldbook-profile/dlc-tsukihime-arcueid.txt", "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt"],
+  "continuityTaxonomy": ["original", "remake", "melty-blood", "kagetsu-tohya", "type-lumina", "sandbox"],
+  "continuityTaxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy",
+  "continuitySourceGapPolicy": "Categories without Stage 1 source text are source-gap/candidate-only; do not invent continuity facts.",
+  "candidateScopes": ["米海尔·罗亚·法尔丹姆杨 indirect candidate", "尼禄·卡奥斯 indirect candidate", "弗洛夫·阿尔汉格尔 indirect candidate", "瓦拉齐亚之夜 indirect candidate", "弓冢五月 dead-apostle candidate", "二十七祖 taxonomy"],
+  "mandatoryExtractionLayers": ["appearance", "outfit-equipment", "ability-activation", "combat-effect", "relationships", "timeline", "not-found-in-source"],
+  "appearancePolicy": "Do not invent Dead Apostle appearances; direct profile read required or not-found-in-source.",
+  "outfitEquipmentPolicy": "Extract Roa/Ciel/Dead Apostle equipment only if explicit; otherwise not-found.",
+  "abilityActivationPolicy": "Roa reincarnation/possession, Idea Blood, Dead Apostle conversion, TATARI only as source-backed or candidate-only.",
+  "combatEffectPolicy": "Record source-backed killings, conversion, possession, anti-vampire combat as candidate combat effects only.",
+  "relationshipPolicy": "Arcueid-Roa, Ciel-Roa, Shiki-Roa, Dead Apostle ancestor hierarchy are candidates until direct source audited.",
+  "timelinePolicy": "Use raw labels such as 法兰西事变, 月姬前, 月姬, Remake前; no invented dates.",
+  "notFoundPolicy": "Because direct Roa profiles were not confirmed, absent direct appearance/equipment details must be not-found-in-source or source-gap.",
+  "forbidden": ["formal Roa record from indirect mentions alone", "invented Dead Apostle list", "characters.json", "events.json", "relationships.json"],
+  "gateCriteria": ["indirect signals clearly marked candidate-only", "direct-profile search requirements listed", "all Dead Apostle taxonomy claims line-cited", "no formalization without source"]
+}

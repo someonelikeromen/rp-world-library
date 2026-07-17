@@ -1,0 +1,97 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "dist-ralgris",
+  "volume": "vol-06",
+  "time_range": {
+    "start": "vol-06",
+    "end": "vol-06"
+  },
+  "sub_arcs": [
+    "执政院政治",
+    "兰格莉思家族"
+  ],
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:2580",
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:8290"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-06",
+      "volume": "vol-06",
+      "time": "王都全龙战前后",
+      "label": "四大贵族之一",
+      "name": {
+        "zh": "迪斯特·兰格莉思",
+        "en": "Dist Ralgris",
+        "jp": ""
+      },
+      "aliases": [
+        "迪斯特卿"
+      ],
+      "titles": [
+        "四大贵族之一",
+        "赛莉丝之父"
+      ],
+      "gender": "male",
+      "species": "human",
+      "nationality": "亚提司玛特新王国",
+      "occupation": "贵族；政治家；军事会议参与者",
+      "affiliation": "兰格莉思家 / 新王国执政阶层",
+      "status": {
+        "role": "在执政院提出让路克斯担任诱饵的任务，并以家族来信要求赛莉丝监视路克斯",
+        "end_of_volume": "承认低估了路克斯，认为应全力协助其拯救国家"
+      },
+      "appearance": {
+        "overview": "壮年绅士。"
+      },
+      "personality": {
+        "summary": "务实、政治性强，既试探路克斯也能承认判断错误。",
+        "core_traits": [
+          "政治判断",
+          "家族利益",
+          "冷静观察"
+        ],
+        "inner_conflict": "需要判断路克斯是可控棋子还是应协助的王者资质者。"
+      },
+      "abilities_owned": [
+        "noble-politics",
+        "military-planning"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "celistia-ralgris": {
+          "type": "父女",
+          "status": "命令赛莉丝拉拢和管理路克斯"
+        },
+        "lux-arcadia": {
+          "type": "政治试探对象",
+          "status": "通过诱饵任务和后续观察重新评价路克斯"
+        }
+      },
+      "knowledge": [
+        "recapture-imperial-capital-plan",
+        "four-great-nobles-politics"
+      ],
+      "secrets": [],
+      "summary": "迪斯特代表新王国贵族政治压力，一方面试探与利用路克斯，尾声则看出路克斯反过来避开贵族枷锁。",
+      "key_events": [
+        {
+          "event_id": "council-decoy-order",
+          "summary": "在执政院说明诱饵作战并请求路克斯协助。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-06/full.txt:2580"
+        },
+        {
+          "event_id": "council-reward-refusal",
+          "summary": "尾声评价路克斯抢先避开执政官项圈。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-06/full.txt:8290"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:2580",
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:8290"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "schema": "tm-fgo-packet-audit-v1",
+  "packetId": "pkt-fgo-ordeal-call-oc3-integration-prep",
+  "chapterId": "fgo-ordeal-call-3-integration",
+  "slug": "oc3-integration",
+  "auditPass": "initial-auditor-after-generator-normalizer",
+  "status": "requires-fixer",
+  "auditMethod": "Read source packet and source text; used find/grep/read-only checks for generated packet-local files; no shell or executable parser used.",
+  "sourceTextGate": {
+    "status": "passed-before-extraction",
+    "sourceTextPath": "sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt",
+    "lineCountObservedFromReadTool": 93
+  },
+  "checks": [
+    {
+      "checkId": "required-extracted-families",
+      "status": "passed",
+      "evidenceRaw": "Found world-state, stage-characters/index, four per-event files, dialogue, appearance-signals, ability-signals, combat-effect-signals, not-found-in-source, relationship-signals, candidates, and extraction-report files."
+    },
+    {
+      "checkId": "required-normalized-families",
+      "status": "passed",
+      "evidenceRaw": "Found normalized chapter-record, entity-index, phase-timeline-index, relationship-edge-index, signal-index, and normalization-report."
+    },
+    {
+      "checkId": "forbidden-aggregate-filenames",
+      "status": "passed",
+      "evidenceRaw": "Find check found no files named characters.json, events.json, or relationships.json under the pilot output tree."
+    },
+    {
+      "checkId": "formal-record-source-metadata",
+      "status": "passed",
+      "evidenceRaw": "Metadata grep found sourceRefs, sourceType, credibility, and canonStatus throughout extracted and normalized records."
+    },
+    {
+      "checkId": "phase-event-requirements",
+      "status": "passed",
+      "evidenceRaw": "All four source phase units have per-event files preserving titleRaw, timeRangeRaw, triggerRaw, environmentRaw, completionRaw, summaryRaw, orderIndex, and sourceRefs."
+    },
+    {
+      "checkId": "visual-ability-combat-coverage",
+      "status": "passed",
+      "evidenceRaw": "Appearance, outfit/equipment, authority/ability/magecraft/output, and combat effect files exist; missing named NP/skill/magecraft and detailed combat visuals are explicitly recorded in not-found-in-source."
+    },
+    {
+      "checkId": "relationship-timeline-fields",
+      "status": "passed",
+      "evidenceRaw": "All six relationship signal files include timelineId and timeRangeRaw values, with uncertainty stated where the source lacks exact dates."
+    },
+    {
+      "checkId": "unsupported-label-policy",
+      "status": "requires-fixer",
+      "evidenceRaw": "Candidate record oc3-candidate-external-foreign-title-spelling initially mixed directly supported and unsupported title aliases in one record."
+    },
+    {
+      "checkId": "json-validity",
+      "status": "passed-manual",
+      "evidenceRaw": "Files were written as JSON objects/arrays and read/grepped back for structural markers. No executable JSON parser was run due task constraints."
+    }
+  ],
+  "findings": [
+    {
+      "findingId": "oc3-audit-001-candidate-mixed-support",
+      "severity": "low",
+      "status": "requires-fixer",
+      "path": "extracted/ordeal-call/oc3-integration/candidates/unsupported-label-candidates.json",
+      "findingRaw": "One title candidate record included Archetype Inception, a label directly supported by current source, in a candidate-only unsupported-label file."
+    }
+  ],
+  "fixerRequired": true,
+  "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt:1-92"],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

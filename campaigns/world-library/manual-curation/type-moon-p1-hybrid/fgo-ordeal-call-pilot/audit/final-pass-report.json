@@ -1,0 +1,75 @@
+{
+  "schema": "tm-fgo-final-pass-report-v1",
+  "mergeStepId": "finalize-ordeal-call-merge",
+  "status": "completed",
+  "result": "finalized-minimal-scope",
+  "modelRequested": "lt-yuyu/gpt-5.5",
+  "noExecutableToolsUsed": true,
+  "finalReadOnlyAuditRun": false,
+  "sourceRefs": [
+    "sources/worldbook-script/ordeal-call/ch-104-oc1-paper-moon.txt:1-87",
+    "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:1-89",
+    "sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt:1-92"
+  ],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like",
+  "records": [
+    {
+      "actionId": "read-packet-gates",
+      "status": "completed",
+      "summaryRaw": "Read packet final-status gates for OC1, OC2, and OC3; all state passed/canAdvance true with zero open and blocked issues.",
+      "artifactRefs": [
+        "audit/packet-audits/ordeal-call/oc1-paper-moon/final-status.json",
+        "audit/packet-audits/ordeal-call/oc2-id/final-status.json",
+        "audit/packet-audits/ordeal-call/oc3-integration/final-status.json"
+      ],
+      "sourceRefs": [
+        "sources/worldbook-script/ordeal-call/ch-104-oc1-paper-moon.txt:1-87",
+        "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:1-89",
+        "sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt:1-92"
+      ],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "actionId": "create-oc3-relationship-edges",
+      "status": "completed",
+      "summaryRaw": "Created six missing OC3 merged relationship edge files from normalized/extracted OC3 relationship signals; each includes timelineId, timeRangeRaw, direct sourceRefs, sourceType, credibility, and canonStatus.",
+      "artifactRoot": "merged/relationships/edges/ordeal-call/oc3-integration/",
+      "count": 6,
+      "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt:12-92"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "actionId": "create-final-indexes-and-reports",
+      "status": "completed",
+      "summaryRaw": "Created lightweight merged indexes, timeline master/index, graph indexes, candidates/comparison records, final audit/status files, and updated status/log files within scope.",
+      "sourceRefs": [
+        "sources/worldbook-script/ordeal-call/ch-104-oc1-paper-moon.txt:1-87",
+        "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:1-89",
+        "sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt:1-92"
+      ],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    }
+  ],
+  "counts": {
+    "mergedEventsByChapter": {
+      "oc1-paper-moon": 4,
+      "oc2-id": 4,
+      "oc3-integration": 4
+    },
+    "relationshipEdgesByChapter": {
+      "oc1-paper-moon": 5,
+      "oc2-id": 5,
+      "oc3-integration": 6
+    },
+    "totalMergedEvents": 12,
+    "totalRelationshipEdges": 16
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "seris-nul",
+  "volume": "vol-12",
+  "time_range": {
+    "start": "vol-12 episode1",
+    "end": "vol-12 episode5"
+  },
+  "sub_arcs": [
+    "holy-night",
+    "x-machine-growth",
+    "box-garden-support"
+  ],
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-12/full.txt:123-7224"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-12-main",
+      "volume": "vol-12",
+      "time": "本卷学园与箱庭战",
+      "label": "三和音首席与强化机龙使用者",
+      "name": {
+        "zh": "谢里丝",
+        "en": "Sharis / Seris",
+        "jp": ""
+      },
+      "aliases": [
+        "谢里丝",
+        "三和音老大"
+      ],
+      "titles": [
+        "三和音成员",
+        "骑士团成员"
+      ],
+      "gender": "female",
+      "species": "human",
+      "nationality": "新王国",
+      "occupation": "学生;机龙使",
+      "affiliation": "王立士官学园;骑士团",
+      "status": {
+        "physical": "箱庭战中机龙能量耗尽但存活",
+        "growth": "能使用飞翔机龙X并指挥三和音合作"
+      },
+      "abilities_owned": [],
+      "possessions_owned": [
+        "wyvern-x"
+      ],
+      "relationships": {
+        "tirfa": {
+          "type": "teammate",
+          "summary": "三和音伙伴"
+        },
+        "noct": {
+          "type": "teammate",
+          "summary": "三和音伙伴"
+        },
+        "lux-arcadia": {
+          "type": "ally/affection",
+          "summary": "希望在圣夜祭送礼并成为其助力"
+        }
+      },
+      "summary": "谢里丝参与圣夜祭礼物讨论、护卫权比赛司仪，以及箱庭战斗。她与媞尔珐、诺珂特展示强化型泛用机龙X的成果，并在最终战中支援夜架修理夜刀神。",
+      "key_events": [
+        {
+          "event_id": "guard-right-contest",
+          "summary": "协助主持护卫权比赛",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-12/full.txt:1235-2298"
+        },
+        {
+          "event_id": "box-garden-operation-start",
+          "summary": "以飞翔机龙X突破幻神兽包围",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-12/full.txt:2299-3726"
+        },
+        {
+          "event_id": "holy-eclipse-gigas-battle",
+          "summary": "将剩余能量提供给夜架的夜刀神紧急修复",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-12/full.txt:5113-7224"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-12/full.txt:123-7224"
+      ]
+    }
+  ]
+}

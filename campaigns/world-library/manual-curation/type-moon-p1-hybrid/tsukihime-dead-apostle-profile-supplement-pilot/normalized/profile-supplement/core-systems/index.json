@@ -1,0 +1,40 @@
+{
+  "schema": "tm-tsukihime-normalized-packet-index-v1",
+  "packetId": "core-systems",
+  "status": "generated-pending-audit",
+  "generatedAt": "2026-07-15",
+  "worldId": "type-moon-nasuverse",
+  "project": "tsukihime-dead-apostle-profile-supplement-pilot",
+  "normalizationPolicy": "Granular normalized profile fragments only; no merge, graph, formal timeline, or aggregate formal files.",
+  "continuityTaxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy",
+  "continuityTaxonomy": ["original", "remake", "melty-blood", "kagetsu-tohya", "type-lumina", "sandbox"],
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "mixed-source-status-see-records",
+  "continuityTags": ["sandbox"],
+  "sourceRefs": ["campaigns/world-library/manual-curation/type-moon-p1-hybrid/tsukihime-dead-apostle-profile-supplement-pilot/extracted/profile-supplement/core-systems/index.json"],
+  "normalizedOutputs": {
+    "systems": [
+      "systems/vampire-taxonomy.json",
+      "systems/true-ancestor.json",
+      "systems/dead-apostle.json",
+      "systems/dead-apostle-ancestors.json"
+    ],
+    "abilities": [
+      "abilities/mystic-eyes.json",
+      "abilities/direct-death-mystic-eyes.json"
+    ],
+    "organizations": ["organizations/holy-church-and-burial-agency.json"],
+    "equipment": ["equipment/conceptual-weapons.json"],
+    "mandatoryLayers": ["mandatory-layers/coverage-index.json"],
+    "candidates": ["candidates/alias-candidates.json"]
+  },
+  "forbiddenAggregateCheck": {
+    "charactersJsonCreated": false,
+    "eventsJsonCreated": false,
+    "relationshipsJsonCreated": false,
+    "factsJsonCreated": false,
+    "graphJsonCreated": false,
+    "timelineJsonCreated": false
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "dobar-feist",
+  "volume": "vol-04",
+  "time_range": {
+    "start": "arrives at Ries Island",
+    "end": "killed by Yoruka in Ark"
+  },
+  "sub_arcs": [
+    "Unauthorized Ark race",
+    "Yoruka transport",
+    "Airi attempted murder"
+  ],
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-04/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-04",
+      "volume": "vol-04",
+      "time": "vol-04",
+      "label": "贪婪军事顾问，私自介入方舟调查并被夜架处决",
+      "name": {
+        "zh": "多巴尔·菲斯特",
+        "en": "Dobar Feist",
+        "jp": ""
+      },
+      "aliases": [
+        "多巴尔侯爵",
+        "菲斯特卿"
+      ],
+      "titles": [
+        "新王国侯爵",
+        "军事顾问"
+      ],
+      "gender": "male",
+      "species": "human",
+      "nationality": "Atismata New Kingdom",
+      "occupation": "noble, military adviser",
+      "affiliation": "Atismata New Kingdom aristocracy; Dobar private troops",
+      "status": {
+        "life": "deceased in vol-04",
+        "cause": "throat cut by Kirihime Yoruka after ordering Airi killed"
+      },
+      "appearance": {
+        "overview": "微胖秃头、白胡子的中年贵族。",
+        "physical": {
+          "build": "round, overweight",
+          "hair": {
+            "color": "bald/white beard"
+          },
+          "eyes": {}
+        },
+        "attire": {
+          "default": "贵族礼服"
+        },
+        "voice_quality": {
+          "tone": "unctuous and self-serving"
+        },
+        "distinctive": [
+          "笑容谄媚但眼神邪恶"
+        ]
+      },
+      "personality": {
+        "summary": "贪婪、男权、善于攀附权力，为私利牺牲学生与部下。",
+        "core_traits": [
+          "greedy",
+          "cowardly",
+          "opportunistic",
+          "misogynistic",
+          "calculating"
+        ],
+        "values": [
+          "宝藏",
+          "政治功绩",
+          "自身保命"
+        ],
+        "fears": [
+          "阴谋曝光",
+          "死亡"
+        ],
+        "desires": [
+          "抢先取得方舟最深层宝藏与情报"
+        ],
+        "strengths": [
+          "政治嗅觉",
+          "私兵资源"
+        ],
+        "flaws": [
+          "无实战能力",
+          "低估夜架与骑士团"
+        ],
+        "inner_conflict": "无；以新王国大义包装私欲。",
+        "decision_pattern": {
+          "crisis": "推部下冒险，必要时灭口。"
+        }
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {
+          "lisesharte-atismata": "公主殿下",
+          "relie-aingram": "学园长"
+        },
+        "register": {
+          "default": "表面恭敬，实则傲慢"
+        },
+        "catchphrases": [],
+        "quote_samples": []
+      },
+      "habits": {
+        "mannerisms": [
+          "夸张敬礼",
+          "躲到部下身后"
+        ],
+        "daily_routine": "操控私兵谋取政治利益。",
+        "quirks": [
+          "用大义掩饰私吞宝藏"
+        ],
+        "preferences": {
+          "strategy": "让他人承担风险"
+        }
+      },
+      "background": {
+        "birth": {
+          "place": "Atismata New Kingdom",
+          "family": []
+        },
+        "upbringing": "女王远亲，曾为旧帝国军人，退役后成为边境领主与军事顾问。",
+        "education": {},
+        "formative_events": [],
+        "pre_story": "得知方舟将出现在里艾斯岛后率私兵擅自前往。"
+      },
+      "abilities_owned": [],
+      "possessions_owned": [],
+      "relationships": {
+        "kirihime-yoruka": {
+          "type": "temporary pawn / killer",
+          "summary": "将夜架从牢狱带出当王牌，却被她反杀。"
+        },
+        "airi-arcadia": {
+          "type": "victim target",
+          "summary": "发现爱理偷听后命令处死她。"
+        },
+        "relie-aingram": {
+          "type": "political rival at Ark",
+          "summary": "表面协助，实则竞速争夺遗迹成果。"
+        }
+      },
+      "knowledge": [
+        "dobar-conspiracy",
+        "ark-investigation-mission"
+      ],
+      "secrets": [
+        "刻意破坏生产区域门以拖累骑士团",
+        "计划让骑士团受损以提高自身政治价值"
+      ],
+      "summary": "多巴尔是本卷中代表新王国内部腐败的贵族。他私自闯入方舟，使用夜架和私兵抢夺遗迹成果，最终因命令杀害爱理而被夜架处决。",
+      "key_events": [
+        {
+          "event_id": "dobar-arrival",
+          "summary": "率私兵抵达里艾斯岛要求协助调查方舟。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-04/full.txt:1197"
+        },
+        {
+          "event_id": "dobar-conspiracy-revealed",
+          "summary": "爱理偷听到其牺牲骑士团的阴谋。",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-04/full.txt:4121"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-04/full.txt:1197",
+        "saijaku-muhai-bahamut-main/vol-04/full.txt:4121"
+      ]
+    }
+  ]
+}

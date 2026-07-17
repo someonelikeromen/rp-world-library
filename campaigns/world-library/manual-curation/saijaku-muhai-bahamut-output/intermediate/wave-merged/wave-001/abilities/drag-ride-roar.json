@@ -1,0 +1,62 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "drag-ride-roar",
+  "volume": "vol-04",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-04/full.txt:4121",
+    "saijaku-muhai-bahamut-main/vol-04/full.txt:5895"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-04",
+      "volume": "vol-04",
+      "time": "vol-04",
+      "name": {
+        "zh": "机龙咆哮",
+        "en": "Drag-Ride Roar"
+      },
+      "aliases": [],
+      "type": "combat / technology",
+      "description": "装甲机龙基础技术，释放冲击波漩涡。本卷用于在狭窄通道限制欧特鲁斯行动，也被尤克特拉希尔以大量幻创机核放大成圆顶暴风。",
+      "details": {
+        "category": "basic Drag-Ride technique"
+      },
+      "activation": {
+        "condition": "装甲机龙装备中",
+        "incantation": "机龙咆哮",
+        "time": "瞬间",
+        "cost": "机龙能量"
+      },
+      "effects": [
+        "冲击波",
+        "限制敌方冲锋",
+        "大规模使用可形成暴风"
+      ],
+      "power_level": {
+        "initial": "基础牵制",
+        "peak": "尤克特拉希尔多机核放大至全场暴风",
+        "evolution": []
+      },
+      "known_feats": [
+        "路克斯用来诱导欧特鲁斯攻击",
+        "尤克特拉希尔以机龙武装再现"
+      ],
+      "shared_by": [
+        "lux-arcadia",
+        "yggdrasil"
+      ],
+      "see_also": [
+        "drag-ride-system"
+      ],
+      "countered_by": [],
+      "counters": [],
+      "variations": [],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-04/full.txt:4121",
+        "saijaku-muhai-bahamut-main/vol-04/full.txt:5895"
+      ]
+    }
+  ]
+}

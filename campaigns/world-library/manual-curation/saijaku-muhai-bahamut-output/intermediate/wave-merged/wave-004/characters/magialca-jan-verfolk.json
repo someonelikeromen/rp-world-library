@@ -1,0 +1,81 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "magialca-jan-verfolk",
+  "volume": "vol-19",
+  "time_range": {
+    "start": "战后救援",
+    "end": "罗菲战后"
+  },
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-19/full.txt:2693-6688"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-19",
+      "volume": "vol-19",
+      "time": "古代森林决战后段",
+      "label": "七龙骑圣副队长/商会领袖",
+      "name": {
+        "zh": "玛姬艾儿卡·让·韦尔弗克",
+        "en": "Magialca Zen Vanfrick",
+        "jp": ""
+      },
+      "aliases": [
+        "玛姬艾儿卡"
+      ],
+      "titles": [
+        "七龙骑圣副队长",
+        "商人"
+      ],
+      "gender": "female",
+      "species": "human",
+      "occupation": "指挥官/商人",
+      "affiliation": "七龙骑圣/路克斯阵营",
+      "status": {
+        "end": "存活，提供补给与救援",
+        "mental": "仍以精明口吻掩饰关怀"
+      },
+      "personality": {
+        "summary": "精明、玩世不恭、实则会照顾同伴和弱者。",
+        "core_traits": [
+          "精算",
+          "大胆",
+          "关怀隐藏",
+          "指挥能力"
+        ],
+        "inner_conflict": "身体无法灵活行动却仍坚持亲临危险现场。"
+      },
+      "abilities_owned": [],
+      "possessions_owned": [
+        "special-drag-ride-support"
+      ],
+      "relationships": {
+        "lux-arcadia": {
+          "type": "commander / ally",
+          "summary": "曾指导爱理与七龙骑圣，战后带来救援物资。"
+        },
+        "lolo": {
+          "type": "assistant",
+          "summary": "洛洛特驾驶特装机龙护送她进入古代森林。"
+        },
+        "kirihime-yagami": {
+          "type": "ally",
+          "summary": "邀请夜架同行确认战况。"
+        }
+      },
+      "summary": "玛姬艾儿卡在决战后及时抵达，带来蔚蓝师团剩余成员与救济物资，并与洛洛特、夜架一同遭遇罗菲幻影/分身动向。",
+      "key_events": [
+        {
+          "event_id": "rofu-queen-death",
+          "summary": "战后带来救援并准备进入大圣域中枢",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-19/full.txt:6601-6688"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-19/full.txt:2693-6688"
+      ]
+    }
+  ]
+}

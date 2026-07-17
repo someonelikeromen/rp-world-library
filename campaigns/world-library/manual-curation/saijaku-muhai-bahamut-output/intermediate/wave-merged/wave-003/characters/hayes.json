@@ -1,0 +1,62 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "hayes",
+  "volume": "vol-11",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-11/full.txt:500",
+    "saijaku-muhai-bahamut-main/vol-11/full.txt:2500"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-11",
+      "volume": "vol-11",
+      "time": "vol-11",
+      "label": "vol-11 snapshot",
+      "name": {
+        "zh": "海兹",
+        "en": "Hayes",
+        "jp": ""
+      },
+      "aliases": [
+        "黑市商人",
+        "旧帝国第三皇女"
+      ],
+      "titles": [
+        "已故军师"
+      ],
+      "gender": "女",
+      "species": "创造主一族关联",
+      "occupation": "黑市商人；海布格军师",
+      "affiliation": "旧帝国叛军；海布格军方旧势力",
+      "status": {
+        "vol_11": "已死亡，仅作为海布格与龙匪贼交易起源和巨兵生产设施利用者被多次提及"
+      },
+      "abilities_owned": [],
+      "possessions_owned": [],
+      "relationships": {
+        "dragon-marauders": {
+          "type": "幕后起源关联",
+          "status": "被推测参与龙匪贼形成"
+        },
+        "heiburg-republic": {
+          "type": "旧合作对象",
+          "status": "曾与军方勾结扩军"
+        }
+      },
+      "summary": "本卷历史线索人物，解释海布格军政化、龙匪贼装备来源与巨兵生产设施利用。",
+      "key_events": [
+        {
+          "event_id": "heiburg-dragon-marauder-trade",
+          "summary": "被认为与龙匪贼成立和机龙流通有关",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-11/full.txt:500"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-11/full.txt:500",
+        "saijaku-muhai-bahamut-main/vol-11/full.txt:2500"
+      ]
+    }
+  ]
+}

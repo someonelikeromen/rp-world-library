@@ -1,0 +1,46 @@
+{
+  "schema": "tm-tsukihime-extracted-packet-index-v1",
+  "packetId": "main-cast-high-confidence",
+  "stage": "stage-2-wave-1-generator-retry",
+  "status": "generated-pending-audit",
+  "generatedAt": "2026-07-15",
+  "worldId": "type-moon-nasuverse",
+  "project": "tsukihime-dead-apostle-profile-supplement-pilot",
+  "sourceRefsRead": [
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt",
+    "sources/worldbook-profile/dlc-tsukihime-arcueid.txt",
+    "sources/worldbook-profile/dlc-tsukihime-ciel.txt",
+    "sources/worldbook-profile/dlc-tsukihime-locations.txt",
+    "sources/worldbook-profile/dlc-tsukihime-dead-apostle-roa-candidates.txt"
+  ],
+  "continuityTaxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy",
+  "rawLabelMappingsApplied": {
+    "同人版": "original",
+    "重制版": "remake"
+  },
+  "scopeNotes": [
+    "Retry output overwrites only the main-cast-high-confidence packet scope.",
+    "Roa is retained as indirect candidate-only where Stage 1 provides mentions but no confirmed direct profile.",
+    "Aoko-as-linked-teacher/Mystic-Eye-Killer context is recorded as not-found for Aoko; only Shiki wearing Mystic Eye Killer glasses is source-backed."
+  ],
+  "recordFiles": [
+    "records/arcueid-original-profile-signals.json",
+    "records/arcueid-remake-profile-signals.json",
+    "records/ciel-original-profile-signals.json",
+    "records/ciel-remake-profile-signals.json",
+    "records/tohno-shiki-original-profile-signals.json",
+    "records/tohno-shiki-remake-profile-signals.json",
+    "records/nanaya-shiki-original-profile-signals.json",
+    "records/location-continuity-context-signals.json",
+    "records/roa-indirect-candidate-signals.json",
+    "records/aoko-linked-teacher-not-found-signals.json"
+  ],
+  "forbiddenAggregateCheck": {
+    "charactersJsonCreated": false,
+    "eventsJsonCreated": false,
+    "relationshipsJsonCreated": false,
+    "factsJsonCreated": false,
+    "graphJsonCreated": false,
+    "timelineJsonCreated": false
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "_schema": "rp-ability-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "ability_id": "abyss-factor-resistance",
+  "volume": "vol-06",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-06/full.txt:7440"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-06",
+      "volume": "vol-06",
+      "time": "本卷",
+      "name": {
+        "zh": "幻神兽因子抵抗训练",
+        "en": "Abyss Factor Resistance"
+      },
+      "aliases": [
+        "抗角笛训练"
+      ],
+      "type": "genetic / skill",
+      "description": "菲尔菲因体内残留幻神兽因子，经过路克斯与爱理训练后能短时间抵抗角笛操纵并保持自我。",
+      "details": {
+        "risk": "身体负担大，公开会引发社会与法律风险"
+      },
+      "activation": {
+        "condition": "角笛或幻神兽因子被刺激",
+        "incantation": "无",
+        "time": "短时间",
+        "cost": "精神与肉体负担"
+      },
+      "effects": [
+        "抵抗角笛控制",
+        "短暂自主幻神兽化",
+        "发动堤丰神装条件"
+      ],
+      "known_feats": [
+        "菲尔菲在拉葛利多吹奏角笛后仍保持清醒并发动无情果实"
+      ],
+      "shared_by": [
+        "philuffy-aingram"
+      ],
+      "see_also": [
+        "typhon-ruthless-fruit",
+        "horn-of-abyss-control"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-06/full.txt:7440"
+      ]
+    }
+  ]
+}

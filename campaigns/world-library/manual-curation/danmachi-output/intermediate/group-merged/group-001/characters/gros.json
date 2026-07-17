@@ -1,0 +1,81 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "gros",
+  "volume": "vol-10",
+  "time_range": {
+    "start": "第七章",
+    "end": "第十章"
+  },
+  "sub_arcs": [
+    "拉涅之死",
+    "复仇行动",
+    "地表援护"
+  ],
+  "source_refs": [
+    "danmachi-main/vol-10/full.txt:1540-10020"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-10-ch-09-questions-humans-and-helps-bell",
+      "volume": "vol-10",
+      "time": "第九章至第十章",
+      "label": "从不信任人类到援护贝尔",
+      "status": {
+        "location": "克诺索斯、代达罗斯路、风月街",
+        "state": "仍警戒人类，但承认贝尔帮助了同胞"
+      },
+      "summary": "古罗斯在克诺索斯与狄克斯一伙战斗，被诅咒支配后又因贝尔的宣言和同胞情感找回部分理智。他追上地表，见证贝尔保护薇妮并杀死幸存狩猎者格兰，随后与蕾依、里德掩护贝尔和薇妮的最后时间。",
+      "key_events": [
+        {
+          "event_id": "xenos-and-bell-confront-dix-in-knossos",
+          "summary": "参与解放囚禁同胞与对抗狄克斯。",
+          "sourceRef": "danmachi-main/vol-10/full.txt:4950"
+        },
+        {
+          "event_id": "wiene-dies-and-fels-resurrects-her",
+          "summary": "在地表掩护贝尔和薇妮。",
+          "sourceRef": "danmachi-main/vol-10/full.txt:9305"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-10/full.txt:4950-10020"
+      ]
+    },
+    {
+      "period_id": "vol-10-ch-07-rage-after-ranie-death",
+      "volume": "vol-10",
+      "time": "第七章 惨剧之王",
+      "label": "目睹拉涅小队残骸后煽动复仇",
+      "name": {
+        "zh": "古罗斯",
+        "en": "Gros",
+        "jp": "グロス"
+      },
+      "aliases": [
+        "石像鬼异端儿"
+      ],
+      "gender": "男",
+      "species": "异端儿、石像鬼",
+      "occupation": "异端儿头目之一",
+      "affiliation": "异端儿",
+      "status": {
+        "location": "地下城第24层",
+        "state": "愤怒失控，破坏与费尔斯通讯的眼晶"
+      },
+      "summary": "古罗斯通过眼晶看见拉涅小队被狩猎者虐杀，赶到现场只见同胞遗物与尘土。他摔碎与费尔斯通讯的水晶，拒绝再等待地表方指示，主张向人类复仇并救回薇妮。",
+      "key_events": [
+        {
+          "event_id": "xenos-rampage-after-ranie-squad-massacre",
+          "summary": "摔碎眼晶并率众行动。",
+          "sourceRef": "danmachi-main/vol-10/full.txt:1810"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-10/full.txt:1540-1900"
+      ]
+    }
+  ]
+}

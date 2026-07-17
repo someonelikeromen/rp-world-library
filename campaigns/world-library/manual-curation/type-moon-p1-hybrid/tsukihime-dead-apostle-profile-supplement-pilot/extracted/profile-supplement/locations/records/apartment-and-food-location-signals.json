@@ -1,0 +1,43 @@
+{
+  "schema": "tm-tsukihime-extracted-record-v1",
+  "packetId": "locations",
+  "recordId": "ext-locations-apartment-and-food-location-signals",
+  "recordKind": "location-context-signal",
+  "subject": "Arcueid apartment, Ciel apartment, Messian curry shop",
+  "continuityTaxonomy": {
+    "category": "sandbox",
+    "rawSourceLabels": ["三咲町 location excerpt", "爱尔奎特", "希耶尔"],
+    "policyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy"
+  },
+  "sourceUnitIds": ["src-dlc-tsukihime-locations"],
+  "sourceRefs": [
+    "sources/worldbook-profile/dlc-tsukihime-locations.txt:28",
+    "sources/worldbook-profile/dlc-tsukihime-locations.txt:29",
+    "sources/worldbook-profile/dlc-tsukihime-locations.txt:30"
+  ],
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "candidateOnly": false,
+  "signals": [
+    {
+      "signalId": "arcueid-apartment-mystic-eye-lease",
+      "surface": "ability-activation",
+      "summary": "Arcueid's apartment is described as an apartment rented after Arcueid used Mystic Eyes to brainwash the manager.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-locations.txt:28"]
+    },
+    {
+      "signalId": "ciel-apartment-curry-storage",
+      "surface": "outfit-equipment",
+      "summary": "Ciel's apartment is in the residential area, and its closet is piled with instant curry obtained directly from a factory.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-locations.txt:29"]
+    },
+    {
+      "signalId": "messian-curry-shop",
+      "surface": "relationships",
+      "summary": "Messian is identified as a curry shop in Misaki Town and Ciel's favorite shop.",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-locations.txt:30"]
+    }
+  ],
+  "reviewStatus": "generated-pending-audit"
+}

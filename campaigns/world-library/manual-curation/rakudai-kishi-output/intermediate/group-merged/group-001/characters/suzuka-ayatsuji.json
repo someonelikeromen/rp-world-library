@@ -1,0 +1,63 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "rakudai-kishi",
+  "character_id": "suzuka-ayatsuji",
+  "volume": "group-001",
+  "time_range": {
+    "start": "vol-01 prologue",
+    "end": "vol-10 ch-005"
+  },
+  "sub_arcs": [
+    "hospital-family"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-02",
+      "volume": "vol-02",
+      "time": "Morning before Ikki vs Ayase",
+      "label": "病房中的姑姑",
+      "name": {
+        "zh": "凉香",
+        "en": "Suzuka Ayatsuji",
+        "jp": "涼香"
+      },
+      "aliases": [
+        "凉香姑姑"
+      ],
+      "titles": [
+        "绫辻海斗的妹妹或亲族女性"
+      ],
+      "gender": "female",
+      "species": "human",
+      "occupation": "family caregiver / visitor",
+      "affiliation": "Ayatsuji family",
+      "personality": {
+        "summary": "Cheerful, energetic middle-aged relative who visits and cares for Kaito in hospital.",
+        "core_traits": [
+          "bright",
+          "considerate",
+          "family-oriented"
+        ]
+      },
+      "relationships": {
+        "ayase-ayatsuji": "Niece; she leaves the hospital room so Ayase can speak with Kaito.",
+        "kaito-ayatsuji": "Brother or close relative whom she visits in the hospital."
+      },
+      "summary": "Suzuka is present in Kaito's hospital room when Ayase visits before the match against Ikki. She greets Ayase warmly, asks about school, and then excuses herself to the café so father and daughter can have time together.",
+      "key_events": [
+        {
+          "event_id": "ayase-visits-kaito-before-ikki-match",
+          "summary": "Suzuka greets Ayase at Kaito's hospital room and leaves them alone.",
+          "sourceRef": "ch-004"
+        }
+      ],
+      "evidence_level": "B",
+      "source_refs": [
+        "rakudai-kishi-main/vol-02/ch-004"
+      ]
+    }
+  ],
+  "source_refs": [
+    "rakudai-kishi-main/vol-02"
+  ]
+}

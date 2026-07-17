@@ -1,0 +1,160 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "tiona-hiryute",
+  "volume": "vol-06",
+  "time_range": {
+    "start": "第四章",
+    "end": "第五章"
+  },
+  "sub_arcs": [
+    "秘密特训",
+    "观战助威"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-06-ch-04-training",
+      "volume": "vol-06",
+      "time": "第四章 同伴齐聚",
+      "label": "阿尔戈小英雄的特训帮手",
+      "name": {
+        "zh": "蒂奥娜·席吕特",
+        "en": "Tiona Hiryute",
+        "jp": "ティオナ・ヒリュテ"
+      },
+      "aliases": [
+        "蒂奥娜"
+      ],
+      "gender": "女",
+      "species": "亚马逊人",
+      "occupation": "冒险者",
+      "affiliation": "洛基眷族",
+      "status": {
+        "level": "Lv.5",
+        "location": "黄昏馆附近后巷、市墙",
+        "state": "帮助艾丝秘密训练贝尔，并负责采购食材和武器"
+      },
+      "personality": {
+        "summary": "开朗、直率、喜欢英雄故事，把贝尔称作阿尔戈小英雄并积极支援。",
+        "core_traits": [
+          "开朗",
+          "热心",
+          "好奇",
+          "英雄控"
+        ]
+      },
+      "relationships": {
+        "bell-cranel": "称为阿尔戈小英雄的训练对象",
+        "ais-wallenstein": "好友与训练同伴",
+        "tione-hiryute": "姐姐"
+      },
+      "summary": "蒂奥娜与艾丝在后巷接应贝尔，支持秘密训练。她在市墙训练中采购食材、武器，并加入实战训练，以第一级冒险者攻势锻炼贝尔。",
+      "key_events": [
+        {
+          "event_id": "ais-and-tiona-train-bell",
+          "summary": "与艾丝共同训练贝尔。",
+          "sourceRef": "danmachi-main/vol-06/full.txt:5940"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-06/full.txt:4281",
+        "danmachi-main/vol-06/full.txt:5940"
+      ]
+    },
+    {
+      "period_id": "vol-06-ch-05-cheering",
+      "volume": "vol-06",
+      "time": "第五章 我们的战争游戏",
+      "label": "为贝尔助威",
+      "name": {
+        "zh": "蒂奥娜·席吕特",
+        "en": "Tiona Hiryute",
+        "jp": "ティオナ・ヒリュテ"
+      },
+      "aliases": [
+        "蒂奥娜"
+      ],
+      "gender": "女",
+      "species": "亚马逊人",
+      "occupation": "冒险者",
+      "affiliation": "洛基眷族",
+      "status": {
+        "location": "洛基眷族总部",
+        "state": "观看战争游戏并为贝尔大声加油"
+      },
+      "personality": {
+        "summary": "兴奋地见证贝尔以训练成果取胜。",
+        "core_traits": [
+          "热情",
+          "支持朋友",
+          "乐观"
+        ]
+      },
+      "relationships": {
+        "bell-cranel": "助威对象",
+        "ais-wallenstein": "一起观看贝尔胜利"
+      },
+      "summary": "蒂奥娜在洛基眷族总部观看战争游戏，为贝尔一路助威，战后与艾丝分享喜悦。",
+      "key_events": [
+        {
+          "event_id": "bell-defeats-hyakinthos",
+          "summary": "观看并庆祝贝尔击败雅辛托斯。",
+          "sourceRef": "danmachi-main/vol-06/full.txt:8037"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-06/full.txt:8037"
+      ]
+    },
+    {
+      "period_id": "vol-07-bonus-celebration",
+      "volume": "vol-07",
+      "time": "特典 庆祝？",
+      "label": "理解艾丝想祝贺贝尔",
+      "name": {
+        "zh": "蒂奥娜·席吕特",
+        "en": "Tiona Hiryute",
+        "jp": "ティオナ・ヒリュテ"
+      },
+      "gender": "女",
+      "species": "亚马逊人",
+      "occupation": "冒险者",
+      "affiliation": "洛基眷族",
+      "status": {
+        "location": "洛基眷族客厅",
+        "state": "帮艾丝说出想给贝尔送战争游戏胜利贺礼的心意"
+      },
+      "personality": {
+        "summary": "开朗直率，能迅速理解艾丝不擅表达的想法。",
+        "core_traits": [
+          "开朗",
+          "直率",
+          "善解人意"
+        ]
+      },
+      "relationships": {
+        "ais-wallenstein": "同伴，理解其想法",
+        "bell-cranel": "被其称作阿尔戈诺特君的祝贺对象",
+        "loki": "共同在场的主神"
+      },
+      "summary": "蒂奥娜看出艾丝想祝贺贝尔战争游戏获胜与眷族扩大，与艾丝一起思考送武器、食物或其他礼物，随后洛基介入并提出送花。",
+      "key_events": [
+        {
+          "event_id": "ais-gives-bell-snowdrop-bouquet",
+          "summary": "帮艾丝把想送贝尔贺礼的心意说出口。",
+          "sourceRef": "danmachi-main/vol-07/full.txt:12518"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-07/full.txt:12518",
+        "danmachi-main/vol-07/full.txt:12524"
+      ]
+    }
+  ],
+  "source_refs": [
+    "danmachi-main/vol-06/full.txt:4281-8037"
+  ]
+}

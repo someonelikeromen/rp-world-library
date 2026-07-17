@@ -1,0 +1,69 @@
+{
+  "schema": "tm-tsukihime-extracted-mandatory-layer-v1",
+  "packetId": "mystic-eyes-shiki",
+  "layer": "ability-activation",
+  "status": "generated-pending-audit",
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "mixed-source-status-see-records",
+  "continuityTaxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy",
+  "records": [
+    {
+      "recordId": "activation-general-mystic-eyes-by-sight",
+      "subjectId": "mystic-eyes-general",
+      "continuity": { "rawSourceLabel": "魔眼", "canonicalContinuity": "sandbox", "taxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy" },
+      "activationRaw": "Mystic Eyes activate effects through sight and simplify magical chanting and activation.",
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "candidateOnly": false,
+      "sourceRefs": ["sources/worldbook-profile/tm-summary-mystic-eyes.txt:17"]
+    },
+    {
+      "recordId": "activation-direct-death-near-death-requirement",
+      "subjectId": "direct-death-mystic-eyes",
+      "continuity": { "rawSourceLabel": "直死之魔眼", "canonicalContinuity": "sandbox", "taxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy" },
+      "activationRaw": "The source says acquiring Direct Death Mystic Eyes requires a special near-death experience.",
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "candidateOnly": false,
+      "sourceRefs": ["sources/worldbook-profile/tm-summary-mystic-eyes-of-death-perception.txt:23"]
+    },
+    {
+      "recordId": "activation-tohno-shiki-original-awakening",
+      "subjectId": "tohno-shiki",
+      "continuity": { "rawSourceLabel": "同人版", "canonicalContinuity": "original", "taxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy/rawLabelMapping/同人版" },
+      "activationRaw": "After the near-death event where Shiki shields Akiha and receives a huge chest scar, he awakens Direct Death Mystic Eyes.",
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted",
+      "candidateOnly": false,
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:44", "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:45"]
+    },
+    {
+      "recordId": "activation-tohno-shiki-original-arcueid-attack",
+      "subjectId": "tohno-shiki",
+      "continuity": { "rawSourceLabel": "同人版", "canonicalContinuity": "original", "taxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy/rawLabelMapping/同人版" },
+      "activationRaw": "At the early Tsukihime encounter, Shiki's demon-hunter blood awakens, his killing impulse loses control, and he uses Direct Death Mystic Eyes with the short knife.",
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted",
+      "candidateOnly": false,
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:46", "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:47"]
+    },
+    {
+      "recordId": "activation-remake-scene-not-found",
+      "subjectId": "tohno-shiki",
+      "continuity": { "rawSourceLabel": "重制版", "canonicalContinuity": "remake", "taxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy/rawLabelMapping/重制版" },
+      "activationRaw": "not-found-in-source: assigned remake Shiki lines state he has the eyes and suppresses them with glasses, but do not give the direct awakening or activation scene.",
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted",
+      "candidateOnly": true,
+      "notFound": true,
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:61", "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:62"]
+    }
+  ],
+  "sourceRefs": ["sources/worldbook-profile/tm-summary-mystic-eyes.txt:17", "sources/worldbook-profile/tm-summary-mystic-eyes-of-death-perception.txt:23", "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:45"]
+}

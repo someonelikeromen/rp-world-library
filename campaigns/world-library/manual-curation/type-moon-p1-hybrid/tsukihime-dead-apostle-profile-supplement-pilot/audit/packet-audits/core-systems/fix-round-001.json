@@ -1,0 +1,61 @@
+{
+  "schema": "tm-tsukihime-packet-fix-report-v1",
+  "packetId": "core-systems",
+  "stepId": "fix-core-systems-melty-blood",
+  "role": "Fixer",
+  "status": "fixed",
+  "fixedAt": "2026-07-15",
+  "triggerAudit": {
+    "auditRound": "r49 audit-core-systems",
+    "status": "failed-blocking",
+    "blockingIssue": "Unsupported melty-blood continuityTags were promoted onto core-systems records whose cited sourceRefs did not directly support Melty Blood."
+  },
+  "issuesHandled": [
+    {
+      "issueId": "r49-core-systems-melty-blood-continuity-tags",
+      "issue": "Remove unsupported melty-blood continuityTags from records where cited sourceRefs do not directly support Melty Blood.",
+      "actions": [
+        "Removed melty-blood from the Ciel source-fragment file-level continuityTags because its cited sourceRef is dlc-tsukihime-ciel.txt:21, which supports Holy Church/Burial Agency identity rather than Melty Blood.",
+        "Removed melty-blood from ciel-dead-apostle-roa-status-original-001 because dlc-tsukihime-ciel.txt:17 supports original Ciel species/status labels but does not directly support Melty Blood.",
+        "Added a narrow age-metadata signal ciel-age-metadata-melty-blood-original-001, sourced only to dlc-tsukihime-ciel.txt:18, because that line directly mentions Melty Blood and Melty Blood AA body ages.",
+        "Removed melty-blood from the Ciel source-coverage unit continuityTags because its cited sourceRefs dlc-tsukihime-ciel.txt:21 and :43 support original/remake identity/organization claims, not Melty Blood.",
+        "Recorded the retained Melty Blood source-backed signal under source-coverage narrowContinuitySignals with notPromotedTo exclusions for appearance, Dead Apostle status, vampire taxonomy, Church, Mystic Eyes, and coverage inheritance.",
+        "Removed melty-blood from appearance-ciel-original-001 because dlc-tsukihime-ciel.txt:24-25 support original Ciel appearance, not Melty Blood.",
+        "Removed melty-blood from normalized dead-apostle-ciel-roa-line-profile-signal because dlc-tsukihime-ciel.txt:17 and :40 support original/remake Dead Apostle/Roa labels, not Melty Blood.",
+        "Removed melty-blood from normalized appearance coverage-index continuityTags so Melty Blood is not inherited by the appearance layer."
+      ],
+      "result": "fixed"
+    }
+  ],
+  "filesChanged": [
+    "extracted/profile-supplement/core-systems/source-fragments/ciel-core-signals.json",
+    "extracted/profile-supplement/core-systems/source-coverage.json",
+    "extracted/profile-supplement/core-systems/mandatory-layers/appearance.json",
+    "normalized/profile-supplement/core-systems/systems/dead-apostle.json",
+    "normalized/profile-supplement/core-systems/mandatory-layers/coverage-index.json",
+    "audit/packet-audits/core-systems/fix-round-001.json",
+    "audit/packet-audits/core-systems/final-status.json"
+  ],
+  "meltyBloodRetainedSignals": [
+    {
+      "recordId": "ciel-age-metadata-melty-blood-original-001",
+      "scope": "Ciel age/body-age metadata only",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:18"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted",
+      "continuityTags": ["melty-blood"],
+      "notUsedFor": ["appearance", "dead-apostle-status", "vampire-taxonomy", "church", "mystic-eyes", "coverage-inheritance"]
+    }
+  ],
+  "unresolvedIssues": [],
+  "validationStatus": {
+    "readBackValidation": "performed for edited Ciel fragment, source coverage, and normalized coverage index",
+    "grepValidation": "performed for Melty Blood/melty-blood in extracted and normalized core-systems scopes after edits",
+    "jsonParserValidation": "not run; task forbids shell/scripts/executable validation commands"
+  },
+  "notes": [
+    "Fixer did not mark the packet passed. Auditor rerun must verify and close the gate.",
+    "continuityTaxonomy entries named melty-blood were left intact in index taxonomy lists because they are taxonomy declarations, not promoted fact continuityTags."
+  ]
+}

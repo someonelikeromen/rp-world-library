@@ -1,0 +1,68 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "character_id": "coral",
+  "volume": "vol-11",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-11/full.txt:4400",
+    "saijaku-muhai-bahamut-main/vol-11/full.txt:6950"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-11",
+      "volume": "vol-11",
+      "time": "vol-11",
+      "label": "vol-11 snapshot",
+      "name": {
+        "zh": "柯莱尔",
+        "en": "Coral",
+        "jp": ""
+      },
+      "aliases": [],
+      "titles": [
+        "梵海姆公国特务"
+      ],
+      "gender": "不详",
+      "species": "人类",
+      "occupation": "机龙使；特务",
+      "affiliation": "梵海姆公国",
+      "status": {
+        "vol_11": "追查龙匪贼拜因，救助路克斯并按其请求保护罗莎"
+      },
+      "abilities_owned": [],
+      "possessions_owned": [],
+      "relationships": {
+        "lux": {
+          "type": "友人与援军",
+          "status": "救援重伤路克斯并帮助追踪罗莎"
+        },
+        "rosa-granhide": {
+          "type": "保护对象",
+          "status": "按路克斯请求救下罗莎"
+        },
+        "baine": {
+          "type": "追查目标",
+          "status": "奉命调查龙匪贼师团长"
+        }
+      },
+      "summary": "梵海姆公国派来的援军，发现海布格证物与交易货物数量不符的疑点。",
+      "key_events": [
+        {
+          "event_id": "rosa-battle-central-square",
+          "summary": "救援战后濒临极限的路克斯",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-11/full.txt:4400"
+        },
+        {
+          "event_id": "calensia-reveal",
+          "summary": "保护罗莎免遭布朗狄修处决",
+          "sourceRef": "saijaku-muhai-bahamut-main/vol-11/full.txt:6950"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-11/full.txt:4400",
+        "saijaku-muhai-bahamut-main/vol-11/full.txt:6950"
+      ]
+    }
+  ]
+}

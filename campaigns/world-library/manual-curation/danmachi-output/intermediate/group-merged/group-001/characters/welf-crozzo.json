@@ -1,0 +1,1170 @@
+{
+  "_schema": "rp-character-volume-v1",
+  "world": "danmachi",
+  "character_id": "welf-crozzo",
+  "volume": "vol-02",
+  "time_range": {
+    "start": "vol-02-ch01",
+    "end": "vol-05-epilogue"
+  },
+  "sub_arcs": [
+    "equipment-upgrade"
+  ],
+  "source_refs": [
+    "danmachi-main/vol-02/full.txt:899-1005",
+    "danmachi-main/vol-03/full.txt:7960",
+    "danmachi-main/vol-03/full.txt:7970"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-04-ch-003-forge-goal-first-party-run",
+      "volume": "danmachi-main/vol-04",
+      "time": "First party run with Bell and Lili on the 11th floor",
+      "label": "Welf joins Bell to gain Forge and proves his combat value",
+      "name": {
+        "zh": "韦尔夫・克罗佐",
+        "en": "Welf Crozzo",
+        "jp": "ヴェルフ・クロッゾ"
+      },
+      "aliases": [
+        "韦尔夫",
+        "克罗佐大人",
+        "小莉子's temporary target"
+      ],
+      "titles": [
+        "Hephaestus Familia smith-warrior"
+      ],
+      "gender": "male",
+      "species": "human",
+      "nationality": "",
+      "occupation": "blacksmith; front-line adventurer",
+      "affiliation": "Hephaestus Familia; Bell's temporary party",
+      "status": {
+        "level": "Lv.1",
+        "goal": "earn the Forge development ability",
+        "party_role": "front-line heavy weapon user"
+      },
+      "appearance": {
+        "overview": "Wears black work clothes even in the dungeon and fights with a large sword carried over the shoulder.",
+        "physical": {
+          "height": "taller than Bell",
+          "build": "trained but not bulky",
+          "hair": {
+            "color": "red"
+          },
+          "eyes": {}
+        },
+        "attire": {
+          "default": "black smith's work clothes",
+          "combat": "black work clothes, large sword"
+        },
+        "voice_quality": {},
+        "distinctive": [
+          "uses a big blade",
+          "grins even before dangerous monsters"
+        ]
+      },
+      "personality": {
+        "summary": "Bold in battle, grateful to Bell, teasing toward Lili, and proud enough to fight for his own growth despite familia ostracism.",
+        "core_traits": [
+          "brave",
+          "teasing",
+          "grateful",
+          "proud",
+          "team-aware"
+        ],
+        "values": [
+          "earning Forge through real experience",
+          "being useful to comrades",
+          "honest craftsmanship"
+        ],
+        "fears": [
+          "being isolated like in earlier solo attempts",
+          "being reduced to Crozzo bloodline value"
+        ],
+        "desires": [
+          "gain Forge",
+          "prove himself in Bell's party",
+          "make weapons that do not betray their users"
+        ],
+        "strengths": [
+          "strong Lv.1 combat ability",
+          "large-blade technique",
+          "party-awareness after fighting with Bell and Lili"
+        ],
+        "flaws": [
+          "breaks magic stones with heavy finishing blows",
+          "can underestimate encirclement risk"
+        ],
+        "inner_conflict": "He needs dungeon growth but rejects the magic-sword path that would make him famous instantly.",
+        "decision_pattern": {
+          "battle": "Takes the heavy targets, trusts Lili's support, and relies on Bell when surrounded."
+        }
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {
+          "Bell": "贝尔",
+          "Lili": "小莉子"
+        },
+        "register": {
+          "tone": "casual, confident, teasing"
+        },
+        "catchphrases": [],
+        "quote_samples": [
+          "半兽人就交给我。",
+          "有同伴（队友）真的很好呢。"
+        ]
+      },
+      "habits": {
+        "mannerisms": [
+          "rests his large blade on his shoulder",
+          "grins before charging",
+          "trades barbs with Lili"
+        ],
+        "daily_routine": "Explores with Bell to seek the experience needed for Forge.",
+        "quirks": [
+          "hates being called Crozzo",
+          "teases Lili as 'little Lili'"
+        ],
+        "preferences": {
+          "targets": "slow large monsters he can hit cleanly"
+        }
+      },
+      "background": {
+        "birth": {
+          "place": "Crozzo family homeland",
+          "family": [
+            "father",
+            "grandfather",
+            "Crozzo ancestors"
+          ]
+        },
+        "upbringing": "Taught smithing by his father and grandfather but pressured to restore the family through magic swords.",
+        "education": {
+          "smithing": "family instruction and Hephaestus Familia training"
+        },
+        "formative_events": [
+          "Ostracized by Hephaestus Familia peers",
+          "Nearly died trying solo dungeon progress after being excluded"
+        ],
+        "pre_story": "Still lacks Forge and therefore needs dangerous dungeon experience."
+      },
+      "abilities_owned": [
+        "large-sword combat",
+        "blacksmithing",
+        "latent Crozzo magic-sword forging"
+      ],
+      "possessions_owned": [
+        "large sword",
+        "workshop",
+        "smithing tools"
+      ],
+      "relationships": {
+        "bell-cranel": "Party leader/customer who saves him from Silverbacks and accepts his secret without demanding magic swords.",
+        "liliruca-arde": "Supporter whose coordination he quickly recognizes despite their quarrels.",
+        "hestia": "Bell's goddess who investigates his reputation through Hephaestus Familia."
+      },
+      "knowledge": [
+        "Knows he is being used as a temporary member but hopes to prove his worth",
+        "Knows Bell's Lv.2 speed and Firebolt are far beyond normal Lv.1 standards"
+      ],
+      "secrets": [
+        "He can make true Crozzo magic swords but refuses to forge or sell them."
+      ],
+      "summary": "Welf enters Bell's party to earn Forge, fights Orcs effectively with Lili's support, is nearly surrounded by Silverbacks, and learns the relief of having teammates when Bell saves him.",
+      "key_events": [
+        {
+          "event_id": "bell-welf-lili-first-11th-floor-run",
+          "summary": "Welf joins Bell and Lili on the 11th floor to seek experience for Forge.",
+          "sourceRef": "danmachi-main/vol-04/full.txt:2666"
+        },
+        {
+          "event_id": "bell-saves-welf-from-silverbacks",
+          "summary": "Bell breaks a Silverback encirclement and Welf realizes the value of teammates.",
+          "sourceRef": "danmachi-main/vol-04/full.txt:3282"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-04/full.txt:2666",
+        "danmachi-main/vol-04/full.txt:2678",
+        "danmachi-main/vol-04/full.txt:3136",
+        "danmachi-main/vol-04/full.txt:3252",
+        "danmachi-main/vol-04/full.txt:3282"
+      ]
+    },
+    {
+      "period_id": "vol-04-ch-003-smiths-reason-and-ushiwakamaru",
+      "volume": "danmachi-main/vol-04",
+      "time": "Next day in Welf's personal workshop",
+      "label": "Welf explains why he refuses magic swords and forges Ushiwakamaru",
+      "name": {
+        "zh": "韦尔夫・克罗佐",
+        "en": "Welf Crozzo",
+        "jp": "ヴェルフ・クロッゾ"
+      },
+      "aliases": [
+        "韦尔夫",
+        "魔剑锻造师的后裔"
+      ],
+      "titles": [
+        "fallen Crozzo noble line",
+        "blacksmith"
+      ],
+      "gender": "male",
+      "species": "human with spirit blood inheritance",
+      "nationality": "",
+      "occupation": "blacksmith",
+      "affiliation": "Hephaestus Familia",
+      "status": {
+        "crafting_focus": "custom weapon for Bell",
+        "magic_sword_policy": "refuses to forge magic swords"
+      },
+      "appearance": {
+        "overview": "In his soot-darkened smith's work clothes, Welf becomes intensely focused before the furnace.",
+        "physical": {
+          "height": "",
+          "build": "trained",
+          "hair": {
+            "color": "red"
+          },
+          "eyes": {}
+        },
+        "attire": {
+          "default": "black scorched smith's work clothes",
+          "combat": ""
+        },
+        "voice_quality": {},
+        "distinctive": [
+          "work clothes blackened by countless forging jobs",
+          "focused craftsman's face while hammering"
+        ]
+      },
+      "personality": {
+        "summary": "Defines weapons as partners for users, not political tools; rejects magic swords because they corrupt both wielders and smiths and eventually break on their masters.",
+        "core_traits": [
+          "principled",
+          "intense",
+          "craft-proud",
+          "anti-opportunist",
+          "trusting toward Bell"
+        ],
+        "values": [
+          "weapons as a user's right hand",
+          "craft earned through skill",
+          "not exploiting bloodline",
+          "trust between smith and wielder"
+        ],
+        "fears": [
+          "his work being valued only as Crozzo magic swords",
+          "weapons betraying their users"
+        ],
+        "desires": [
+          "make Bell a weapon from the Minotaur horn",
+          "be called like a companion",
+          "prove a smith's reason through craft"
+        ],
+        "strengths": [
+          "custom weapon design",
+          "knowledge of monster materials",
+          "integrity under pressure"
+        ],
+        "flaws": [
+          "stubborn refusal costs him status and wealth"
+        ],
+        "inner_conflict": "He can make true magic swords, but doing so would betray his ideal of weapons and repeat Crozzo corruption.",
+        "decision_pattern": {
+          "craft": "Faces the material directly, hammers his conviction into the weapon, and refuses shortcuts based on bloodline."
+        }
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {
+          "Bell": "贝尔"
+        },
+        "register": {
+          "tone": "frank, philosophical during smithing"
+        },
+        "catchphrases": [],
+        "quote_samples": [
+          "我讨厌魔剑。",
+          "武器既不是政治工具，也不是飞黄腾达的手段，而是使用者的左右手。",
+          "我不打造魔剑。就算打造了，也不卖。"
+        ]
+      },
+      "habits": {
+        "mannerisms": [
+          "tests whether Bell will ask for a magic sword",
+          "lets Bell watch the forging",
+          "names weapons with questionable taste until Bell intervenes"
+        ],
+        "daily_routine": "Works alone in his Hephaestus-provided workshop so techniques do not leak to rivals.",
+        "quirks": [
+          "nearly names the dagger '牛短刀' before Bell pleads for '牛若丸'"
+        ],
+        "preferences": {
+          "weapon_ideal": "durable weapons that never abandon their user"
+        }
+      },
+      "background": {
+        "birth": {
+          "place": "fallen Crozzo homeland",
+          "family": [
+            "Crozzo ancestors",
+            "father",
+            "grandfather"
+          ]
+        },
+        "upbringing": "Loved the old workshop and the feel of smithing until his family pushed him to forge magic swords for restoration of status.",
+        "education": {
+          "smithing": "family craft plus Hephaestus Familia discipline"
+        },
+        "formative_events": [
+          "Ancestor saved a spirit and inherited spirit blood",
+          "Crozzo magic swords ruined lands and drew spirit curses",
+          "Welf alone can again forge Crozzo magic swords but refuses"
+        ],
+        "pre_story": "Left home and was taken in by Hephaestus."
+      },
+      "abilities_owned": [
+        "custom blacksmithing",
+        "monster-material processing",
+        "latent Crozzo magic-sword forging"
+      ],
+      "possessions_owned": [
+        "personal workshop",
+        "furnace",
+        "smithing tools",
+        "Ushiwakamaru short blade"
+      ],
+      "relationships": {
+        "bell-cranel": "Entrusts Bell with his reason and gives him Ushiwakamaru from the Minotaur horn.",
+        "hestia": "Her investigation of him indirectly forces his secret into Bell's awareness.",
+        "ryu-lion": "Her explanation gives Bell historical context on Crozzo magic swords and elves."
+      },
+      "knowledge": [
+        "Knows monster horns can carry metallic Adamant-like properties",
+        "Knows Crozzo origin and curse history",
+        "Knows Bell did not ask for a magic sword"
+      ],
+      "secrets": [
+        "Crozzo magic-sword ability comes from inherited spirit blood and remains active in Welf despite the family curse."
+      ],
+      "summary": "Welf takes Bell to his workshop, tests whether Bell wants a magic sword, explains the spirit-blood origin and curse of Crozzo magic swords, rejects magic swords as corrupting weapons that abandon their users, and forges the Minotaur horn into the short blade Ushiwakamaru before asking Bell to address him as a companion.",
+      "key_events": [
+        {
+          "event_id": "welf-reveals-crozzo-magic-sword-history",
+          "summary": "Welf explains Crozzo's spirit-blood origin, curse, and his refusal to make magic swords.",
+          "sourceRef": "danmachi-main/vol-04/full.txt:4664"
+        },
+        {
+          "event_id": "welf-forges-ushiwakamaru",
+          "summary": "Welf forges Bell's Minotaur horn into the short blade Ushiwakamaru.",
+          "sourceRef": "danmachi-main/vol-04/full.txt:4964"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-04/full.txt:4410",
+        "danmachi-main/vol-04/full.txt:4466",
+        "danmachi-main/vol-04/full.txt:4650",
+        "danmachi-main/vol-04/full.txt:4664",
+        "danmachi-main/vol-04/full.txt:4890",
+        "danmachi-main/vol-04/full.txt:4926",
+        "danmachi-main/vol-04/full.txt:4964",
+        "danmachi-main/vol-04/full.txt:5040"
+      ]
+    },
+    {
+      "period_id": "vol-04-ch-002-welf-smith-contract",
+      "volume": "danmachi-main/vol-04",
+      "time": "The morning after Bell's Lv.2 celebration",
+      "label": "Welf meets Bell and proposes a direct smith contract",
+      "name": {
+        "zh": "韦尔夫・克罗佐",
+        "en": "Welf Crozzo",
+        "jp": "ヴェルフ・クロッゾ"
+      },
+      "aliases": [
+        "韦尔夫",
+        "克罗佐先生",
+        "低层铁匠"
+      ],
+      "titles": [
+        "Hephaestus Familia blacksmith"
+      ],
+      "gender": "male",
+      "species": "human",
+      "nationality": "",
+      "occupation": "blacksmith; adventurer",
+      "affiliation": "Hephaestus Familia",
+      "status": {
+        "rank": "low-ranking smith",
+        "goal": "be Bell's personal smith and party member"
+      },
+      "appearance": {
+        "overview": "Red-haired young smith in black kimono-like work clothes; older and taller than Bell.",
+        "physical": {
+          "height": "taller than Bell",
+          "build": "lean trained",
+          "hair": {
+            "color": "red"
+          },
+          "eyes": {}
+        },
+        "attire": {
+          "default": "black worn work clothes",
+          "combat": "same black work clothes with a large sword"
+        },
+        "voice_quality": {},
+        "distinctive": [
+          "flame-like red hair",
+          "confident craftsman's expression"
+        ]
+      },
+      "personality": {
+        "summary": "Direct, proud, frustrated by poor sales, and deeply moved that Bell genuinely values his work.",
+        "core_traits": [
+          "straightforward",
+          "proud",
+          "craftsmanlike",
+          "ambitious",
+          "warm"
+        ],
+        "values": [
+          "recognition for his own craft",
+          "fair exchange",
+          "direct work with an adventurer"
+        ],
+        "fears": [
+          "losing Bell as his first real customer to other smiths"
+        ],
+        "desires": [
+          "be Bell's exclusive smith",
+          "earn Forge",
+          "join Bell's party"
+        ],
+        "strengths": [
+          "quality armor-making",
+          "initiative",
+          "honesty about motives"
+        ],
+        "flaws": [
+          "quick temper",
+          "sensitive about the Crozzo name"
+        ],
+        "inner_conflict": "He wants recognition for his own craft while being burdened by the inherited Crozzo name.",
+        "decision_pattern": {
+          "business": "Moves fast to secure a fair contract before competitors can approach Bell."
+        }
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {
+          "Bell": "贝尔 / 老主顾一号",
+          "Lili": "小莉子"
+        },
+        "register": {
+          "tone": "bold, informal, craftsmanlike"
+        },
+        "catchphrases": [],
+        "quote_samples": [
+          "要不要直接跟我订契约啊，贝尔·克朗尼？",
+          "让我加入你的小队吧。"
+        ]
+      },
+      "habits": {
+        "mannerisms": [
+          "laughs loudly when Bell asks for his work",
+          "puts an arm around Bell's shoulders",
+          "uses a handshake to seal agreement"
+        ],
+        "daily_routine": "Works in Hephaestus Familia's shop and personal workshop.",
+        "quirks": [
+          "does not like being called by his surname"
+        ],
+        "preferences": {
+          "preferred_address": "Welf rather than Crozzo"
+        }
+      },
+      "background": {
+        "birth": {
+          "place": "",
+          "family": [
+            "fallen Crozzo magic-sword line"
+          ]
+        },
+        "upbringing": "Raised in a smithing family whose elders wanted him to restore Crozzo glory through magic swords.",
+        "education": {
+          "trade": "blacksmithing"
+        },
+        "formative_events": [
+          "Bell bought and returned to buy his armor, becoming his first true fan/customer"
+        ],
+        "pre_story": "His works were shoved into corners, returned by buyers, or ignored despite their quality."
+      },
+      "abilities_owned": [
+        "blacksmithing"
+      ],
+      "possessions_owned": [
+        "white-steel light armor for Bell"
+      ],
+      "relationships": {
+        "bell-cranel": "First genuine customer; Welf asks for a direct contract and then party membership.",
+        "liliruca-arde": "Bell's supporter who distrusts him at first and calls him Crozzo to needle him."
+      },
+      "knowledge": [
+        "Knows Bell is the record-breaking Little Rookie",
+        "Knows other smiths want Bell as a customer"
+      ],
+      "secrets": [
+        "Can forge true Crozzo magic swords but refuses to do so."
+      ],
+      "summary": "Welf reveals himself as the maker of Bell's earlier armor, secures a personal smith contract, offers equipment, and asks to join Bell's party.",
+      "key_events": [
+        {
+          "event_id": "bell-and-welf-form-smith-contract",
+          "summary": "Welf and Bell agree to a direct smith-adventurer contract, after which Welf asks to join Bell's party.",
+          "sourceRef": "danmachi-main/vol-04/full.txt:2534"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-04/full.txt:2446",
+        "danmachi-main/vol-04/full.txt:2534",
+        "danmachi-main/vol-04/full.txt:2640"
+      ]
+    },
+    {
+      "period_id": "vol-02-ch01",
+      "volume": "vol-02",
+      "time": "第一章「约会后的支援者」",
+      "label": "作品被贝尔选中",
+      "name": {
+        "zh": "韦尔夫·克罗佐",
+        "en": "Welf Crozzo",
+        "jp": "ヴェルフ・クロッゾ"
+      },
+      "aliases": [],
+      "titles": [],
+      "gender": "男",
+      "species": "人类",
+      "nationality": "",
+      "occupation": "铁匠",
+      "affiliation": "赫菲斯托丝眷族",
+      "status": {
+        "craftsman_rank": "尚未获准在作品上使用赫菲斯托丝商标"
+      },
+      "appearance": {
+        "overview": "本章本人未登场。",
+        "physical": {
+          "height": "",
+          "build": "",
+          "hair": {},
+          "eyes": {}
+        },
+        "attire": {
+          "default": "",
+          "combat": ""
+        },
+        "voice_quality": {},
+        "distinctive": []
+      },
+      "personality": {
+        "summary": "本章仅通过作品签名被提及。",
+        "core_traits": [],
+        "values": [],
+        "fears": [],
+        "desires": [],
+        "strengths": [
+          "打造轻便且不妨碍动作的轻铠"
+        ],
+        "flaws": [],
+        "inner_conflict": "",
+        "decision_pattern": {}
+      },
+      "voice": {
+        "self_reference": "",
+        "address_pattern": {},
+        "register": {},
+        "catchphrases": [],
+        "quote_samples": []
+      },
+      "habits": {
+        "mannerisms": [],
+        "daily_routine": "制作武器防具。",
+        "quirks": [],
+        "preferences": {}
+      },
+      "background": {
+        "birth": {
+          "place": "",
+          "family": []
+        },
+        "upbringing": "",
+        "education": {},
+        "formative_events": [],
+        "pre_story": "作为赫斯菲斯托丝眷族基层铁匠制作商品。"
+      },
+      "abilities_owned": [
+        "锻造轻铠"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "bell-cranel": "尚未正式相识；贝尔购买并记住了他的作品"
+      },
+      "knowledge": [],
+      "secrets": [],
+      "summary": "韦尔夫本人尚未登场，但他签名制作的钢铁色轻铠在巴别塔店铺被贝尔一眼看中并以九千九百法利买下。",
+      "key_events": [
+        {
+          "event_id": "bell-buys-welf-armor",
+          "summary": "贝尔购买韦尔夫制作的轻铠。",
+          "sourceRef": "danmachi-main/vol-02/full.txt:899-1005"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-02/full.txt:899-1005"
+      ]
+    },
+    {
+      "period_id": "vol-03-special-hephaistos-interlude",
+      "volume": "vol-03",
+      "time": "特典《插曲・赫菲斯托丝》",
+      "label": "撞见主神练习可爱姿势",
+      "name": {
+        "zh": "威尔夫·克洛佐",
+        "en": "Welf Crozzo",
+        "jp": "ヴェルフ・クロッゾ"
+      },
+      "aliases": [
+        "韦尔夫"
+      ],
+      "titles": [],
+      "gender": "男",
+      "species": "人类",
+      "nationality": "",
+      "occupation": "铁匠、冒险者",
+      "affiliation": "赫菲斯托丝眷族",
+      "status": {
+        "location": "赫菲斯托丝办公室门口",
+        "condition": "健康但极度尴尬"
+      },
+      "appearance": {
+        "overview": "穿便服的年轻男性铁匠。",
+        "physical": {
+          "height": "",
+          "build": "",
+          "hair": {},
+          "eyes": {}
+        },
+        "attire": {
+          "default": "便服",
+          "combat": ""
+        },
+        "voice_quality": {
+          "tone": "直接、尴尬时僵硬"
+        },
+        "distinctive": []
+      },
+      "personality": {
+        "summary": "尊敬主神，面对意外撞见的私密场面选择立刻退避。",
+        "core_traits": [
+          "尊敬主神",
+          "知礼",
+          "容易害羞"
+        ],
+        "values": [
+          "礼貌",
+          "不冒犯主神"
+        ],
+        "fears": [
+          "让赫菲斯托丝尴尬"
+        ],
+        "desires": [
+          "原本要进入办公室处理事务"
+        ],
+        "strengths": [
+          "铁匠身份"
+        ],
+        "flaws": [
+          "面对突发羞耻场面只能逃避"
+        ],
+        "inner_conflict": "",
+        "decision_pattern": {
+          "style": "发现不该看的场景后立即关门告退"
+        }
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {
+          "hephaistos": "赫菲斯托丝"
+        },
+        "register": {
+          "default": "直率"
+        },
+        "catchphrases": [],
+        "quote_samples": [
+          "——失礼了。"
+        ]
+      },
+      "habits": {
+        "mannerisms": [
+          "尴尬时面色先红后白",
+          "安静关门退场"
+        ],
+        "daily_routine": "在赫菲斯托丝眷族从事锻造",
+        "quirks": [],
+        "preferences": {}
+      },
+      "background": {
+        "birth": {
+          "place": "",
+          "family": []
+        },
+        "upbringing": "克洛佐家族背景",
+        "education": {
+          "smithing": "赫菲斯托丝眷族铁匠训练"
+        },
+        "formative_events": [],
+        "pre_story": "赫菲斯托丝眷族成员。"
+      },
+      "abilities_owned": [
+        "锻造"
+      ],
+      "possessions_owned": [],
+      "relationships": {
+        "hephaestus": {
+          "type": "主神与眷属",
+          "summary": "意外撞见主神罕见的可爱姿态，立即退避。"
+        }
+      },
+      "knowledge": [
+        "赫菲斯托丝会私下练习可爱姿势"
+      ],
+      "secrets": [
+        "目击主神喊‘火焰战士’的尴尬场面"
+      ],
+      "summary": "威尔夫推门寻找赫菲斯托丝时，撞见她在镜前练习可爱姿势；他瞬间羞红又变白，礼貌告退并被主神追赶。",
+      "key_events": [
+        {
+          "event_id": "hephaistos-cute-pose-interrupted",
+          "summary": "首次出现并撞见赫菲斯托丝的私密练习。",
+          "sourceRef": "danmachi-main/vol-03/full.txt:7960"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-03/full.txt:7960",
+        "danmachi-main/vol-03/full.txt:7970"
+      ]
+    },
+    {
+      "period_id": "vol-05-ch-02",
+      "volume": "vol-05",
+      "time": "第二章 离生还还有多少M？",
+      "label": "重伤与无形鬼火",
+      "name": {
+        "zh": "韦尔夫·克罗佐",
+        "en": "Welf Crozzo",
+        "jp": "ヴェルフ・クロッゾ"
+      },
+      "aliases": [],
+      "titles": [
+        "铁匠"
+      ],
+      "gender": "男",
+      "species": "人类",
+      "nationality": "",
+      "occupation": "铁匠、冒险者",
+      "affiliation": "赫菲斯托丝眷族；贝尔队伍",
+      "status": {
+        "location": "地下城第15至16层",
+        "state": "左腿膝下压碎，依靠贝尔搀扶行动"
+      },
+      "appearance": {
+        "overview": "腿部重伤、持续忍痛前进的青年铁匠。",
+        "physical": {
+          "height": "",
+          "build": "强健",
+          "hair": {},
+          "eyes": {}
+        },
+        "attire": {
+          "default": "",
+          "combat": "火精织布与受损防具"
+        },
+        "voice_quality": {},
+        "distinctive": []
+      },
+      "personality": {
+        "summary": "即使重伤仍不愿拖累同伴，并以特殊魔法承担关键反制职责。",
+        "core_traits": [
+          "坚韧",
+          "重情",
+          "豪爽"
+        ],
+        "values": [
+          "同伴",
+          "堂正战斗"
+        ],
+        "fears": [
+          "成为队伍负担"
+        ],
+        "desires": [
+          "全员抵达第18层"
+        ],
+        "strengths": [
+          "抗魔力魔法",
+          "意志力"
+        ],
+        "flaws": [
+          "无法独自行走"
+        ],
+        "inner_conflict": "一度提出让队友抛下自己，却又选择继续贡献力量。",
+        "decision_pattern": {}
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {},
+        "register": {},
+        "catchphrases": [
+          ""
+        ],
+        "quote_samples": []
+      },
+      "habits": {
+        "mannerisms": [],
+        "daily_routine": "",
+        "quirks": [],
+        "preferences": {}
+      },
+      "background": {
+        "birth": {
+          "place": "",
+          "family": []
+        },
+        "upbringing": "",
+        "education": {},
+        "formative_events": [],
+        "pre_story": ""
+      },
+      "abilities_owned": [
+        "无形鬼火",
+        "锻造"
+      ],
+      "possessions_owned": [
+        "大刀",
+        "火精织布"
+      ],
+      "relationships": {
+        "bell-cranel": "搀扶并信任其决断的队友",
+        "liliruca-arde": "共同求生的队友"
+      },
+      "knowledge": [
+        "无形鬼火可以使地狱犬火焰魔力误爆"
+      ],
+      "secrets": [],
+      "summary": "坠落与土石崩塌使韦尔夫一条腿严重骨折；他仍将决定权交给贝尔，并首次用无形鬼火令地狱犬自爆。",
+      "key_events": [
+        {
+          "event_id": "welf-uses-will-o-wisp",
+          "summary": "以抗魔力魔法击溃三头蓄火地狱犬。",
+          "sourceRef": "danmachi-main/vol-05/full.txt:2276"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-05/full.txt:1520",
+        "danmachi-main/vol-05/full.txt:1760",
+        "danmachi-main/vol-05/full.txt:2276"
+      ]
+    },
+    {
+      "period_id": "vol-05-ch-06",
+      "volume": "vol-05",
+      "time": "第六章 英雄赞歌",
+      "label": "牺牲魔剑火月",
+      "name": {
+        "zh": "韦尔夫·克罗佐",
+        "en": "Welf Crozzo",
+        "jp": "ヴェルフ・クロッゾ"
+      },
+      "status": {
+        "location": "地下城第18层",
+        "state": "以魔剑火月压制歌利亚再生，魔剑随后粉碎"
+      },
+      "abilities_owned": [
+        "无形鬼火",
+        "克罗佐魔剑锻造"
+      ],
+      "summary": "在贝尔与樱花重伤后放弃不使用魔剑的执着，取回火月并释放足以焚毁歌利亚再生能力的烈焰。",
+      "key_events": [
+        {
+          "event_id": "welf-sacrifices-fire-magic-sword",
+          "summary": "使用并牺牲火月保护同伴。",
+          "sourceRef": "danmachi-main/vol-05/full.txt:8620"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-05/full.txt:8380-8650"
+      ]
+    },
+    {
+      "period_id": "vol-05-ch-04",
+      "volume": "vol-05",
+      "time": "第四章 DUNGEON RESORT？",
+      "label": "主神送来的旧作",
+      "name": {
+        "zh": "韦尔夫·克罗佐",
+        "en": "Welf Crozzo",
+        "jp": "ヴェルフ・クロッゾ"
+      },
+      "status": {
+        "location": "地下城第18层",
+        "state": "伤势治愈并收到赫菲斯托丝保管的魔剑"
+      },
+      "summary": "获洛基眷族治疗后醒来，与贝尔、莉莉确认缺一不可；赫斯缇雅转交其眷族处女作及主神的告诫。",
+      "key_events": [
+        {
+          "event_id": "loki-familia-rescues-bell-party",
+          "summary": "重伤获救。",
+          "sourceRef": "danmachi-main/vol-05/full.txt:3513"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-05/full.txt:3513-4700"
+      ]
+    },
+    {
+      "period_id": "vol-05-ch-01",
+      "volume": "vol-05",
+      "time": "第一章 中层",
+      "label": "中层前锋",
+      "name": {
+        "zh": "韦尔夫·克罗佐",
+        "en": "Welf Crozzo",
+        "jp": "ヴェルフ・クロッゾ"
+      },
+      "aliases": [],
+      "titles": [
+        "铁匠"
+      ],
+      "gender": "男",
+      "species": "人类",
+      "nationality": "",
+      "occupation": "铁匠、冒险者",
+      "affiliation": "赫菲斯托丝眷族；贝尔队伍",
+      "status": {
+        "location": "地下城第13层",
+        "state": "负伤并与队伍陷入地狱犬火力齐射"
+      },
+      "appearance": {
+        "overview": "携带大刀的青年铁匠。",
+        "physical": {
+          "height": "",
+          "build": "强健",
+          "hair": {},
+          "eyes": {}
+        },
+        "attire": {
+          "default": "",
+          "combat": "防具内穿红色火精织布和服便装"
+        },
+        "voice_quality": {},
+        "distinctive": [
+          "大刀"
+        ]
+      },
+      "personality": {
+        "summary": "豪爽直接，善于用玩笑缓和紧张，也能可靠承担前锋。",
+        "core_traits": [
+          "豪爽",
+          "可靠",
+          "直率"
+        ],
+        "values": [
+          "队友",
+          "铁匠尊严"
+        ],
+        "fears": [
+          "被地狱犬火葬"
+        ],
+        "desires": [
+          "证明队伍协作能力"
+        ],
+        "strengths": [
+          "大刀战斗",
+          "装备制作"
+        ],
+        "flaws": [
+          "敏捷相对不足"
+        ],
+        "inner_conflict": "对仙精装备性能既认可又感到铁匠自尊受挫。",
+        "decision_pattern": {
+          "combat": "主动冲锋并配合贝尔攻防"
+        }
+      },
+      "voice": {
+        "self_reference": "我",
+        "address_pattern": {},
+        "register": {
+          "style": "随意豪爽"
+        },
+        "catchphrases": [],
+        "quote_samples": []
+      },
+      "habits": {
+        "mannerisms": [
+          "用闲聊缓解队伍紧张"
+        ],
+        "daily_routine": "锻造与地下城探索",
+        "quirks": [
+          "排斥仙精但认可其装备"
+        ],
+        "preferences": {}
+      },
+      "background": {
+        "birth": {
+          "place": "",
+          "family": []
+        },
+        "upbringing": "",
+        "education": {
+          "field": "锻造"
+        },
+        "formative_events": [],
+        "pre_story": "与贝尔直接订立组队契约。"
+      },
+      "abilities_owned": [
+        "锻造",
+        "大刀战斗"
+      ],
+      "possessions_owned": [
+        "大刀",
+        "火精织布"
+      ],
+      "relationships": {
+        "bell-cranel": "队友及武器客户",
+        "liliruca-arde": "队友",
+        "hephaestus": "主神"
+      },
+      "knowledge": [
+        "地狱犬必须优先击杀",
+        "中层怪兽威胁"
+      ],
+      "secrets": [],
+      "summary": "担任贝尔队伍前锋，与贝尔完成防守反击配合；怪物奉送后手臂负伤，并在地下城崩塌与地狱犬齐射中陷入危机。",
+      "key_events": [
+        {
+          "event_id": "bell-party-enters-middle-floors",
+          "summary": "以大刀配合贝尔、莉莉击败地狱犬。",
+          "sourceRef": "danmachi-main/vol-05/full.txt:348"
+        },
+        {
+          "event_id": "middle-floor-collapse-and-hellhound-volley",
+          "summary": "落石后负伤，面对地狱犬集体火焰攻击。",
+          "sourceRef": "danmachi-main/vol-05/full.txt:1332"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-05/full.txt:209",
+        "danmachi-main/vol-05/full.txt:348",
+        "danmachi-main/vol-05/full.txt:1332"
+      ]
+    },
+    {
+      "period_id": "vol-05-epilogue",
+      "volume": "vol-05",
+      "time": "终章 射兔者",
+      "label": "安葬魔剑碎片",
+      "name": {
+        "zh": "韦尔夫·克罗佐",
+        "en": "Welf Crozzo",
+        "jp": "ヴェルフ・クロッゾ"
+      },
+      "status": {
+        "location": "欧拉丽",
+        "state": "平安返回并安葬火月碎片"
+      },
+      "summary": "回到地面后向主神与眷族报告经过，并将为同伴粉碎的武器碎片安葬。",
+      "key_events": [
+        {
+          "event_id": "bell-party-returns-and-guild-suppresses-incident",
+          "summary": "从第18层返回地面。",
+          "sourceRef": "danmachi-main/vol-05/full.txt:8839"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-05/full.txt:8839-8860"
+      ]
+    },
+    {
+      "period_id": "vol-10-ch-06-08-protective-elder-brother",
+      "volume": "vol-10",
+      "time": "第六章至第八章",
+      "label": "担心贝尔并想支援异端儿",
+      "name": {
+        "zh": "韦尔夫·克罗佐",
+        "en": "Welf Crozzo",
+        "jp": "ヴェルフ・クロッゾ"
+      },
+      "aliases": [
+        "铁匠"
+      ],
+      "gender": "男",
+      "species": "人类",
+      "occupation": "铁匠、冒险者",
+      "affiliation": "赫斯缇雅眷族",
+      "status": {
+        "location": "灶火馆、代达罗斯路",
+        "state": "对贝尔和薇妮强烈担忧"
+      },
+      "summary": "韦尔夫在薇妮分别后主动关心贝尔。都市警报后，他对异端儿是否袭击里维拉感到震惊，并在地表战斗中想冲出去帮助倒地的异端儿，被莉莉阻止。",
+      "key_events": [
+        {
+          "event_id": "hestia-familia-grieves-wiene-separation",
+          "summary": "在灶火馆担心贝尔。",
+          "sourceRef": "danmachi-main/vol-10/full.txt:240"
+        },
+        {
+          "event_id": "loki-familia-battles-xenos-and-asterius",
+          "summary": "目睹异端儿被洛基眷族压制并想出手。",
+          "sourceRef": "danmachi-main/vol-10/full.txt:8350"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-10/full.txt:129-8500"
+      ]
+    },
+    {
+      "period_id": "vol-10-ch-10-detects-magic-sword-danger",
+      "volume": "vol-10",
+      "time": "第十章 愚者",
+      "label": "察觉阿斯泰里奥斯魔剑危险",
+      "status": {
+        "location": "代达罗斯路战场",
+        "state": "带同伴躲入里维莉雅结界"
+      },
+      "summary": "阿斯泰里奥斯拔出染血大斧时，韦尔夫比多数人更早察觉那是魔剑并判断情况危险。他抱起莉莉、拉着赫斯缇雅撤往里维莉雅结界内，使同伴避开雷属性魔剑的炮击。",
+      "key_events": [
+        {
+          "event_id": "loki-familia-battles-xenos-and-asterius",
+          "summary": "识破魔剑危险并带同伴避难。",
+          "sourceRef": "danmachi-main/vol-10/full.txt:8450"
+        }
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "danmachi-main/vol-10/full.txt:8420-8500"
+      ]
+    }
+  ]
+}

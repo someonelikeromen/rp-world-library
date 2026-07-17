@@ -1,0 +1,47 @@
+{
+  "schema": "tm-tsukihime-normalized-fragment-v1",
+  "packetId": "tohno-nanaya",
+  "fragmentId": "ability-activation-tohno-shiki-original-death-perception",
+  "layer": "ability-activation",
+  "subjectId": "tohno-shiki",
+  "continuity": {
+    "rawSourceLabel": "同人版",
+    "canonicalContinuity": "original",
+    "taxonomyPolicyRef": "source-unit-manifest.json#/sourcePolicy/continuityTaxonomyPolicy/rawLabelMapping/同人版"
+  },
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "candidateOnly": false,
+  "sourceRefs": [
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:33",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:34",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:45",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:46",
+    "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:47",
+    "sources/worldbook-profile/tm-summary-mystic-eyes-of-death-perception.txt:24",
+    "sources/worldbook-profile/tm-summary-mystic-eyes-of-death-perception.txt:25"
+  ],
+  "assertions": [
+    {
+      "property": "possession",
+      "value": "original-version Tohno Shiki has Mystic Eyes of Death Perception that see death and can kill all things",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:33", "sources/worldbook-profile/tm-summary-mystic-eyes-of-death-perception.txt:24", "sources/worldbook-profile/tm-summary-mystic-eyes-of-death-perception.txt:25"]
+    },
+    {
+      "property": "suppression",
+      "value": "normally wears Mystic Eye Killer glasses to suppress brain burden",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:34"]
+    },
+    {
+      "property": "awakening",
+      "value": "awakens after a near-death experience before Tsukihime",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:45"]
+    },
+    {
+      "property": "combatUse",
+      "value": "uses the Mystic Eyes with the short knife to cut the blond woman in white into seventeen pieces",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:46", "sources/worldbook-profile/dlc-tsukihime-tohno-nanaya.txt:47"]
+    }
+  ]
+}

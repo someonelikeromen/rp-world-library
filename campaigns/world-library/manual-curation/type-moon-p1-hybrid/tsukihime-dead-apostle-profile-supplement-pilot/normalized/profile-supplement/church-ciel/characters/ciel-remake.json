@@ -1,0 +1,84 @@
+{
+  "schema": "tm-tsukihime-character-fragment-v1",
+  "worldId": "type-moon-nasuverse",
+  "packetId": "church-ciel",
+  "characterId": "ciel-remake-candidate-id",
+  "candidateOnly": false,
+  "name": {"zh": "希耶尔", "ja": null, "en": "Ciel"},
+  "aliasCandidates": [
+    {"label": "艾蕾西娅", "raw": "本名艾蕾西亚", "candidateOnly": false, "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:48"], "sourceType": "user-file-worldbook-profile", "credibility": "B", "canonStatus": "adapted", "continuityTaxonomy": {"category": "remake", "rawSourceLabels": ["重制版"]}},
+    {"label": "弓", "raw": "代号‘弓’", "candidateOnly": false, "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:52"], "sourceType": "user-file-worldbook-profile", "credibility": "B", "canonStatus": "adapted", "continuityTaxonomy": {"category": "remake", "rawSourceLabels": ["重制版"]}},
+    {"label": "シエル先生", "raw": "シエル先生20岁", "candidateOnly": false, "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:41"], "sourceType": "user-file-worldbook-profile", "credibility": "B", "canonStatus": "adapted", "continuityTaxonomy": {"category": "remake", "rawSourceLabels": ["重制版"]}}
+  ],
+  "continuityTaxonomy": {
+    "category": "remake",
+    "rawSourceLabels": ["重制版"],
+    "sourceAvailability": "supported",
+    "doNotMergeWith": ["ciel-original-candidate-id"]
+  },
+  "sourceType": "user-file-worldbook-profile",
+  "credibility": "B",
+  "canonStatus": "adapted",
+  "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:40", "sources/worldbook-profile/dlc-tsukihime-ciel.txt:43"],
+  "facts": [
+    {
+      "factId": "ciel-remake-species-lineage",
+      "kind": "identity",
+      "value": "性别女; 人类→死徒→人类(存疑); 魔术师; 死徒(罗亚系)",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:40"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted",
+      "continuityTaxonomy": {"category": "remake", "rawSourceLabels": ["重制版"]}
+    },
+    {
+      "factId": "ciel-remake-activity-affiliation",
+      "kind": "affiliation",
+      "value": "活动范围总耶市与全世界; 所属团体圣堂教会埋葬机关",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:42"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted",
+      "continuityTaxonomy": {"category": "remake", "rawSourceLabels": ["重制版"]}
+    },
+    {
+      "factId": "ciel-remake-school-role",
+      "kind": "school-cover",
+      "value": "远野志贵所在学校三年级学生; 潜伏在总耶高中，扮演远野志贵的学姐",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:43", "sources/worldbook-profile/dlc-tsukihime-ciel.txt:44"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted",
+      "continuityTaxonomy": {"category": "remake", "rawSourceLabels": ["重制版"]}
+    },
+    {
+      "factId": "ciel-remake-executor-role",
+      "kind": "church-role",
+      "value": "圣堂教会埋葬机关第七位成员; 舍弃旧名，以代行者‘希耶尔’身份活动，晋升埋葬机关第七位成员，代号‘弓’",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:43", "sources/worldbook-profile/dlc-tsukihime-ciel.txt:52"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted",
+      "continuityTaxonomy": {"category": "remake", "rawSourceLabels": ["重制版"]}
+    },
+    {
+      "factId": "ciel-remake-roa-history-role",
+      "kind": "roa-connection",
+      "value": "曾是米海尔·罗亚·法尔丹姆杨的转世体",
+      "sourceRefs": ["sources/worldbook-profile/dlc-tsukihime-ciel.txt:44"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted",
+      "continuityTaxonomy": {"category": "remake", "rawSourceLabels": ["重制版"]}
+    }
+  ],
+  "relationshipCandidateRefs": [
+    "relationships/candidate-edges/ciel-roa-remake.json",
+    "relationships/candidate-edges/ciel-shiki-remake.json",
+    "relationships/candidate-edges/ciel-arcueid-remake.json",
+    "relationships/candidate-edges/ciel-burial-agency-remake.json"
+  ],
+  "visualRefs": ["appearances/ciel-remake-appearance-outfits.json"],
+  "abilityRefs": ["abilities/ciel-remake-abilities.json"],
+  "timelineMarkerRefs": ["timeline-markers/ciel-remake-markers.json"]
+}

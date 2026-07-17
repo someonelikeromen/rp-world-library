@@ -1,0 +1,61 @@
+{
+  "_schema": "rp-location-volume-v1",
+  "world": "saijaku-muhai-bahamut",
+  "location_id": "ark-production-area",
+  "volume": "vol-04",
+  "source_refs": [
+    "saijaku-muhai-bahamut-main/vol-04/full.txt"
+  ],
+  "periods": [
+    {
+      "period_id": "vol-04",
+      "volume": "vol-04",
+      "time": "vol-04",
+      "name": {
+        "zh": "方舟第七层生产区域",
+        "en": "Ark Production Area"
+      },
+      "aliases": [
+        "幻神兽生产工厂",
+        "生产区域"
+      ],
+      "type": "facility / dungeon",
+      "description": "方舟第七层中央区域，排列大量装有幻神兽的巨大容器。多巴尔一方强行撬开门触发警报，释放欧特鲁斯。",
+      "geography": {
+        "layer": "7",
+        "layout": "central shortest route with surrounding corridors"
+      },
+      "population": {
+        "contained": "hundreds of Abyss in vessels"
+      },
+      "controlled_by": "ark-system-control",
+      "affiliation": "ark-ruin-location",
+      "significance": "证明方舟具备生产或保存幻神兽的机能，并为尤克特拉希尔积蓄生命力提供来源。",
+      "notable_residents": [
+        "orthrus",
+        "yggdrasil"
+      ],
+      "key_events": [
+        "orthrus-production-alarm",
+        "dobar-conspiracy-revealed"
+      ],
+      "related_locations": [
+        "ark-ruin-location",
+        "ark-management-area"
+      ],
+      "hazards": [
+        "Abyss release",
+        "Ark watchdogs",
+        "structural collapse"
+      ],
+      "secrets": [
+        "尤克特拉希尔吞噬大量此处幻神兽积蓄生命力"
+      ],
+      "evidence_level": "S",
+      "source_refs": [
+        "saijaku-muhai-bahamut-main/vol-04/full.txt:4121",
+        "saijaku-muhai-bahamut-main/vol-04/full.txt:5895"
+      ]
+    }
+  ]
+}
