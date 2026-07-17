@@ -2,6 +2,18 @@
 
 项目扩展工具，AI 可直接调用。配置文件：`.pi/rp-data-tools.json`
 
+## 输出模式
+
+修改类 action 默认只返回成功/失败和最小必要信息，避免把完整变更结果塞回上下文。
+
+| 参数 | 行为 |
+|------|------|
+| 省略 `outputMode` 或 `"status"` | 默认。只返回 `ok`、`action`、目标 card/module/file、`dryRun`、`backup` 等最小信息。 |
+| `outputMode: "tree"` | 返回层级摘要：操作列表、路径、before/after 的类型/长度/键名、校验计数、钩子计数。 |
+| `outputMode: "full"` | 返回完整旧版结果，包含完整 `changes`、`validation`、`hookLogs`。仍受 `maxBytes` 截断限制。 |
+
+适用 action：`bootstrap`、`init`、`register`、`set`、`merge`、`append`、`upsert`、`remove`、`batch`。读取类 action 如 `get/status/modules/validate/cards/quickstart` 保持原本完整用途输出。
+
 ## Actions
 
 | Action | 参数 | 用途 |
@@ -14,7 +26,7 @@
 | `append` | `card?`, `path`, `value` | 追加到数组 |
 | `upsert` | `card?`, `path`, `item`, `id?`, `idField?` | 插入或更新（按 id 匹配） |
 | `remove` | `card?`, `path`, `id?`, `idField?` | 删除（支持按 id 选择数组元素） |
-| `batch` | `card?`, `operations` | 批量原子操作 |
+| `batch` | `card?`, `operations`, `outputMode?` | 批量原子操作，默认只返回成功/失败 |
 | `validate` | `card?` | 一致性校验（路径+自定义规则+cross-field） |
 | `register` | `card`, `cardPath`, `cardLabel?`, `cardAliases?` | 注册 NPC 卡到配置 |
 
@@ -67,7 +79,7 @@
   }
 ```
 
-写入后自动触发 memory 同步，无需手动更新 memory 文件。
+写入后自动触发 memory 同步，无需手动更新 memory 文件。默认返回精简结果；需要查看层级摘要时加 `outputMode: "tree"`，需要完整变更内容时加 `outputMode: "full"`。
 
 ## 目录型统一角色卡
 
@@ -96,6 +108,14 @@
 
 ```json
 { "action": "set", "card": "hero", "module": "resources", "path": "resources[id=mana].current", "value": 120 }
+```
+
+```json
+{ "action": "set", "card": "hero", "module": "resources", "path": "resources[id=mana].current", "value": 120, "outputMode": "tree" }
+```
+
+```json
+{ "action": "set", "card": "hero", "module": "resources", "path": "resources[id=mana].current", "value": 120, "outputMode": "full" }
 ```
 
 ```json

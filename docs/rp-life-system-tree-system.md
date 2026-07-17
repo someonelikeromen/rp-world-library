@@ -46,6 +46,8 @@
 
 ## `life_tree_edit` 计划 actions
 
+写入类 action 默认只返回成功/失败和最小必要信息；如需层级摘要传 `outputMode: "tree"`，如需完整结果传 `outputMode: "full"`。
+
 | Action | 用途 |
 |---|---|
 | `init` | 初始化生命系统树状态 |
@@ -64,4 +66,4 @@
 
 ## 注意
 
-`life_tree_edit` 只维护生命系统树账本和共享图。具体能力、资源、抗性、属性、生命形态、知识和世界适配状态仍需用 `card_edit` 写入对应角色卡模块，并更新 `memory/world-history.md`。
+`life_tree_edit` 只维护生命系统树账本和共享图。具体能力、资源、抗性、属性、生命形态、知识和世界适配状态仍需用 `card_edit` 写入对应角色卡模块，并更新 `memory/world-history.md`。生命树相关状态修改优先使用 `life_tree_edit`，不要先手改状态文件。

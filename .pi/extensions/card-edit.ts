@@ -5,6 +5,7 @@ import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";
 import { Type } from "typebox";
 
 type CardAction = "cards" | "quickstart" | "bootstrap" | "init" | "modules" | "get" | "set" | "merge" | "append" | "upsert" | "remove" | "batch" | "validate" | "status" | "register";
+type OutputMode = "status" | "tree" | "full";
 
 type Operation = {
 	action: Exclude<CardAction, "cards" | "quickstart" | "bootstrap" | "init" | "modules" | "get" | "batch" | "validate" | "status" | "register"> | "set" | "merge" | "append" | "upsert" | "remove";
@@ -41,6 +42,7 @@ const CardEditParams = Type.Object({
 	dryRun: Type.Optional(Type.Boolean({ description: "Preview changes without writing. Default false" })),
 	backup: Type.Optional(Type.Boolean({ description: "Write timestamped backup before mutation. Default true. For init, backup:false allows overwriting an existing target directory." })),
 	note: Type.Optional(Type.String({ description: "Human note stored in tool details" })),
+	outputMode: Type.Optional(StringEnum(["status", "tree", "full"] as const, { description: "Mutation output mode. Default status returns only success/failure and minimal metadata; tree returns hierarchical change summaries; full returns the complete legacy payload." })),
 	maxBytes: Type.Optional(Type.Number({ description: "Max returned bytes. Default 16000; max 50000" })),
 	cardPath: Type.Optional(Type.String({ description: "File path for register action, or directory path for init action, relative to project root" })),
 	cardLabel: Type.Optional(Type.String({ description: "Human label for register action" })),
@@ -88,6 +90,52 @@ function result(payload: unknown, details: Record<string, unknown>, maxBytes: nu
 
 function errorResult(message: string, maxBytes: number, details: Record<string, unknown> = {}) {
 	return result({ ok: false, error: message }, { ok: false, ...details }, maxBytes);
+}
+
+function outputMode(params: any): OutputMode {
+	return params?.outputMode === "tree" || params?.outputMode === "full" ? params.outputMode : "status";
+}
+
+function resultByOutputMode(params: any, fullPayload: any, statusPayload: any, treePayload: any, details: Record<string, unknown>, maxBytes: number) {
+	const mode = outputMode(params);
+	const payload = mode === "full" ? fullPayload : mode === "tree" ? treePayload : statusPayload;
+	return result(payload, { ...details, outputMode: mode }, maxBytes);
+}
+
+function validationSummary(validation: any): any {
+	if (!validation) return undefined;
+	return {
+		ok: !!validation.ok,
+		errorCount: Array.isArray(validation.errors) ? validation.errors.length : 0,
+		warningCount: Array.isArray(validation.warnings) ? validation.warnings.length : 0,
+		hintCount: Array.isArray(validation.hints) ? validation.hints.length : 0,
+		moduleCount: Array.isArray(validation.modules) ? validation.modules.length : undefined,
+		missingModules: Array.isArray(validation.errors) ? validation.errors.filter((e: any) => String(e).startsWith("Missing module") || String(e).startsWith("Missing required module")) : undefined,
+	};
+}
+
+function valueShape(value: any): any {
+	if (value === undefined) return { type: "undefined" };
+	if (value === null) return { type: "null" };
+	if (Array.isArray(value)) return { type: "array", length: value.length };
+	if (typeof value === "object") return { type: "object", keys: Object.keys(value).slice(0, 20), keyCount: Object.keys(value).length };
+	return { type: typeof value, value };
+}
+
+function changesTree(changes: any[]): any[] {
+	return (changes || []).map((change: any, index: number) => ({
+		index,
+		action: change.op?.action,
+		path: change.op?.path || "",
+		id: change.op?.id,
+		idField: change.op?.idField,
+		before: valueShape(change.result?.before),
+		after: valueShape(change.result?.after),
+	}));
+}
+
+function hookSummary(hookLogs: string[]): any {
+	return { count: hookLogs.length, failed: hookLogs.filter(log => log.startsWith("Hook failed")).length };
 }
 
 function normalizeRelPath(file: string): string {
@@ -730,7 +778,9 @@ function quickstartPayload(config: any): any {
 			{ purpose: "One-call protagonist setup", call: { action: "bootstrap", card: defaultCard } },
 			{ purpose: "Show modules", call: { action: "modules", card: defaultCard } },
 			{ purpose: "Read lightweight status", call: { action: "status", card: defaultCard } },
-			{ purpose: "Set name", call: { action: "set", card: defaultCard, module: "identity", path: "identity.name", value: "姓名" } },
+			{ purpose: "Set name (default minimal output)", call: { action: "set", card: defaultCard, module: "identity", path: "identity.name", value: "姓名" } },
+			{ purpose: "Set name with hierarchical result", call: { action: "set", card: defaultCard, module: "identity", path: "identity.name", value: "姓名", outputMode: "tree" } },
+			{ purpose: "Set name with complete result", call: { action: "set", card: defaultCard, module: "identity", path: "identity.name", value: "姓名", outputMode: "full" } },
 			{ purpose: "Update current status", call: { action: "set", card: defaultCard, module: "session", path: "currentStatus.summary", value: "当前状态" } },
 			{ purpose: "Upsert resource", call: { action: "upsert", card: defaultCard, module: "resources", path: "resources", id: "mana", item: { name: "Mana", current: 10, max: 20 } } },
 			{ purpose: "Batch update", call: { action: "batch", card: defaultCard, module: "session", operations: [{ action: "set", path: "currentStatus.summary", value: "状态" }] } },
@@ -801,7 +851,7 @@ export default function (pi: ExtensionAPI) {
 	pi.registerTool({
 		name: "card_edit",
 		label: "Card Edit",
-		description: "AI-facing role-card tool with discoverable quickstart/bootstrap interfaces. Use quickstart for copy-paste examples, bootstrap for one-call protagonist setup, cards to list registered/unregistered cards, and module+path edits for JSON updates. Supports dot paths, id-selected arrays, atomic writes, backups, dry-run, validation, and directory unified-character cards.",
+		description: "AI-facing role-card tool with discoverable quickstart/bootstrap interfaces. Mutation actions default to minimal success/failure output; pass outputMode=tree for hierarchical summaries or outputMode=full for the complete legacy payload. Use quickstart for copy-paste examples, bootstrap for one-call protagonist setup, cards to list registered/unregistered cards, and module+path edits for JSON updates. Supports dot paths, id-selected arrays, atomic writes, backups, dry-run, validation, and directory unified-character cards.",
 		parameters: CardEditParams,
 		async execute(_toolCallId, params, _signal, _onUpdate, _ctx) {
 			const maxBytes = capBytes(params.maxBytes);
@@ -821,17 +871,18 @@ export default function (pi: ExtensionAPI) {
 
 				if (params.action === "bootstrap") {
 					const bootstrapped = bootstrapCard(config, params);
-					return result({ ok: true, bootstrapped }, { ok: true, action: "bootstrap", card: bootstrapped.card, path: bootstrapped.path }, maxBytes);
+					return resultByOutputMode(params, { ok: true, bootstrapped, next: quickstartPayload(loadConfig()).commonCalls }, { ok: true, action: "bootstrap", card: bootstrapped.card, path: bootstrapped.path }, { ok: true, action: "bootstrap", card: bootstrapped.card, path: bootstrapped.path, bootstrapped: { card: bootstrapped.card, path: bootstrapped.path, notes: bootstrapped.notes, initialized: !!bootstrapped.initialized } }, { ok: true, action: "bootstrap", card: bootstrapped.card, path: bootstrapped.path }, maxBytes);
 				}
 
 				if (params.action === "init") {
 					const initialized = initDirectoryCard(config, params);
-					return result({ ok: true, initialized, next: quickstartPayload(loadConfig()).commonCalls }, { ok: true, action: "init", card: params.card, path: initialized.cardPath }, maxBytes);
+					const next = quickstartPayload(loadConfig()).commonCalls;
+					return resultByOutputMode(params, { ok: true, initialized, next }, { ok: true, action: "init", card: params.card, path: initialized.cardPath }, { ok: true, action: "init", card: params.card, path: initialized.cardPath, moduleCount: Array.isArray(initialized.modules) ? initialized.modules.length : undefined, template: initialized.template, registered: initialized.registered ? { path: initialized.registered.path, label: initialized.registered.label } : undefined }, { ok: true, action: "init", card: params.card, path: initialized.cardPath }, maxBytes);
 				}
 
 			if (params.action === "register") {
 				const { configPath, registered } = registerCard(config, params);
-				return result({ ok: true, configPath, registered }, { ok: true, action: "register", configPath }, maxBytes);
+				return resultByOutputMode(params, { ok: true, configPath, registered }, { ok: true, action: "register", configPath }, { ok: true, action: "register", configPath, registered: { path: registered.path, label: registered.label, schema: registered.schema, aliases: registered.aliases } }, { ok: true, action: "register", configPath }, maxBytes);
 			}
 
 				const { key, def, file } = resolveCard(config, params.card);
@@ -875,7 +926,14 @@ export default function (pi: ExtensionAPI) {
 						hookLogs = runDirectoryPostUpdateHooks(file, def, config, params.action, changes, params.note);
 					}
 					const validation = validateDirectoryCard(file, def);
-					return result({ ok: true, card: key, module: target.module, file: rel(target.file), dryRun: !!params.dryRun, backup: backupPath ? rel(backupPath) : undefined, changes, validation, hookLogs, note: params.note }, { ok: true, action: params.action, card: key, module: target.module, file: rel(target.file), dryRun: !!params.dryRun, backup: backupPath ? rel(backupPath) : undefined, beforeHash, afterHash, hookLogs, note: params.note }, maxBytes);
+					return resultByOutputMode(
+						params,
+						{ ok: true, card: key, module: target.module, file: rel(target.file), dryRun: !!params.dryRun, backup: backupPath ? rel(backupPath) : undefined, changes, validation, hookLogs, note: params.note },
+						{ ok: true, action: params.action, card: key, module: target.module, file: rel(target.file), dryRun: !!params.dryRun, backup: backupPath ? rel(backupPath) : undefined },
+						{ ok: true, action: params.action, card: key, module: target.module, file: rel(target.file), dryRun: !!params.dryRun, backup: backupPath ? rel(backupPath) : undefined, changeCount: changes.length, changes: changesTree(changes), validation: validationSummary(validation), hookLogs: hookSummary(hookLogs), note: params.note },
+						{ ok: true, action: params.action, card: key, module: target.module, file: rel(target.file), dryRun: !!params.dryRun, backup: backupPath ? rel(backupPath) : undefined, beforeHash, afterHash, hookLogs, note: params.note },
+						maxBytes,
+					);
 				}
 
 				const originalText = readFileSync(file, "utf8");
@@ -923,16 +981,23 @@ export default function (pi: ExtensionAPI) {
 					hookLogs = runPostUpdateHooks(working, def, config, params.action, params.note);
 				}
 
-				return result({
-					ok: true,
-					card: key,
-					file: rel(file),
-					dryRun: !!params.dryRun,
-					backup: backupPath ? rel(backupPath) : undefined,
-					changes,
-					validation,
-					note: params.note,
-				}, { ok: true, action: params.action, card: key, file: rel(file), dryRun: !!params.dryRun, backup: backupPath ? rel(backupPath) : undefined, beforeHash, afterHash, hookLogs, note: params.note }, maxBytes);
+				return resultByOutputMode(
+					params,
+					{
+						ok: true,
+						card: key,
+						file: rel(file),
+						dryRun: !!params.dryRun,
+						backup: backupPath ? rel(backupPath) : undefined,
+						changes,
+						validation,
+						note: params.note,
+					},
+					{ ok: true, action: params.action, card: key, file: rel(file), dryRun: !!params.dryRun, backup: backupPath ? rel(backupPath) : undefined },
+					{ ok: true, action: params.action, card: key, file: rel(file), dryRun: !!params.dryRun, backup: backupPath ? rel(backupPath) : undefined, changeCount: changes.length, changes: changesTree(changes), validation: validationSummary(validation), hookLogs: hookSummary(hookLogs), note: params.note },
+					{ ok: true, action: params.action, card: key, file: rel(file), dryRun: !!params.dryRun, backup: backupPath ? rel(backupPath) : undefined, beforeHash, afterHash, hookLogs, note: params.note },
+					maxBytes,
+				);
 			} catch (err: any) {
 				return errorResult(err?.stack || err?.message || String(err), maxBytes, { action: params.action, card: params.card });
 			}
