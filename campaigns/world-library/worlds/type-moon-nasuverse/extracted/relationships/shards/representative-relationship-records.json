@@ -1,0 +1,55 @@
+{
+  "schema": "tm-nasuverse-representative-relationship-shard-v1",
+  "worldId": "type-moon-nasuverse",
+  "publicationMode": "representative-source-linked-shard",
+  "records": [
+    {
+      "recordId": "solomon-fou-mash-restoration",
+      "recordType": "relationship-edge",
+      "sourcePilot": "fgo-script-pilot",
+      "continuityScope": ["fgo-part1", "fgo-part1-solomon"],
+      "timelineId": "fgo-part1-solomon",
+      "timeRangeRaw": "事件W / 2016年12月23日 06:45",
+      "sourceEndpointRaw": "凯茜帕鲁格[芙芙]",
+      "targetEndpointRaw": "玛修·基列莱特",
+      "predicateRaw": "牺牲积蓄还原玛修并赐予正常寿命",
+      "eventRefs": ["fgo-part1-solomon-event-w"],
+      "sourceRefs": [
+        "fgo-script-pilot/normalized/part1/solomon/relationships/fou-mash-restoration.json",
+        "fgo-script-pilot/sources/worldbook-script/part1/ch-008-solomon.txt#world_timeline:事件W"
+      ],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "audit": {
+        "pilotStatusRef": "fgo-script-pilot/STATUS.md",
+        "acceptanceStatus": "passed-with-nonblocking-risks",
+        "cooccurrencePromotion": false
+      }
+    },
+    {
+      "recordId": "fgo-ordeal-call-relationship-edge-family",
+      "recordType": "relationship-edge-family",
+      "sourcePilot": "fgo-ordeal-call-pilot",
+      "continuityScope": ["fgo-ordeal-call", "oc1-paper-moon", "oc2-id", "oc3-integration"],
+      "timelineId": "fgo-ordeal-call-derived",
+      "timeRangeRaw": "per-edge timeRangeRaw retained in accepted OC edge files",
+      "sourceRefs": [
+        "fgo-ordeal-call-pilot/merged/relationships/edges/ordeal-call/",
+        "fgo-ordeal-call-pilot/graph/relationship-edge-index.json",
+        "fgo-ordeal-call-pilot/STATUS.md"
+      ],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "audit": {
+        "acceptanceStatus": "accepted-with-nonblocking-risks",
+        "retainedLimitation": "Dedicated merged appearance/ability/combat-effect directories absent; relationship edge merge accepted."
+      }
+    }
+  ]
+}

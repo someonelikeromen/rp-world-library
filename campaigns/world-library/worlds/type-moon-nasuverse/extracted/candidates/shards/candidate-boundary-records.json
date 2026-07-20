@@ -1,0 +1,66 @@
+{
+  "schema": "tm-nasuverse-candidate-boundary-shard-v1",
+  "worldId": "type-moon-nasuverse",
+  "records": [
+    {
+      "recordId": "candidate-boundary-tsukihime-supporting-cast",
+      "recordType": "candidate-boundary",
+      "sourcePilot": "tsukihime-supporting-cast-candidate-supplement-pilot",
+      "candidateOnly": true,
+      "sourceGap": true,
+      "continuityScope": ["tsukihime", "melty-blood", "type-lumina"],
+      "decision": "Do not expose through default formal world_query indexes.",
+      "sourceRefs": [
+        "tsukihime-supporting-cast-candidate-supplement-pilot/candidate-supplement.json",
+        "tsukihime-supporting-cast-candidate-supplement-pilot/source-gap-inventory.json"
+      ],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted",
+      "audit": {
+        "formalFactsCreated": false,
+        "blockedPromotions": ["supporting cast formal character records", "Type Lumina roster facts", "formal graph/timeline facts"]
+      }
+    },
+    {
+      "recordId": "candidate-boundary-prisma-sitonai-shidounai",
+      "recordType": "candidate-boundary",
+      "sourcePilot": "prisma-illya-profile-supplement-pilot",
+      "candidateOnly": true,
+      "sourceGap": true,
+      "continuityScope": ["prisma-illya", "cross-work"],
+      "decision": "Cross-work Sitonai/Shidounai material is not merged into Prisma Illya formal continuity.",
+      "sourceRefs": [
+        "prisma-illya-profile-supplement-pilot/normalized/profile-supplement/prisma-illya/source-gap-index.json#prisma-sitonai-cross-work",
+        "prisma-illya-profile-supplement-pilot/STATUS.md"
+      ],
+      "sourceType": "user-file-worldbook-profile-redacted",
+      "credibility": "B",
+      "canonStatus": "adapted/source-mixed",
+      "audit": {
+        "formalPromotionBlocked": true,
+        "identitySeparationRequired": true
+      }
+    },
+    {
+      "recordId": "candidate-boundary-atlas-sion-human-scope",
+      "recordType": "candidate-boundary",
+      "sourcePilot": "type-moon-core-general-settings-pilot",
+      "candidateOnly": true,
+      "sourceGap": true,
+      "continuityScope": ["type-moon-general", "melty-blood-candidate", "fgo-candidate", "tsukihime-candidate"],
+      "decision": "Atlas/Sion requires human-scope continuity resolution and direct Melty-specific corroboration before formal promotion.",
+      "sourceRefs": [
+        "type-moon-core-general-settings-pilot/source-gap-inventory.json",
+        "type-moon-core-general-settings-pilot/normalized/core-general-settings/index.json#atlas-and-sion-candidate-context"
+      ],
+      "sourceType": "candidate supplement plus FGO script context",
+      "credibility": "B adapted/candidate",
+      "canonStatus": "adapted/source-mixed",
+      "audit": {
+        "humanScopeRequired": true,
+        "formalInstitutionRecordCreated": false
+      }
+    }
+  ]
+}

@@ -1416,3 +1416,134 @@ execution-plan-for-current-run.md
 ```
 
 等待用户确认后，才能创建 source text、启动 agent 或写入试点产物。
+
+
+## 2026-07 当前手工归档状态更新
+
+本节记录 Type-Moon p1-hybrid manual-curation 的当前完成度与后续方向。它不替代上文 FSN/FZ 初始 pilot 设计；上文保留为最早验证方案与通用方法论，本节为后续实际执行后的状态索引。
+
+### 已完成 / 已审计通过的 pilots
+
+以下产物均保持在 side-by-side manual-curation 路径下，未覆盖旧 `curated/`：
+
+```text
+campaigns/world-library/manual-curation/type-moon-p1-hybrid/
+```
+
+| Pilot | 当前状态 | 说明 |
+|---|---|---|
+| `fsn-fz-pilot` | completed / retrospective closed | FSN/FZ 试点完成；retrospective blockers 已通过后续 Fixer/Auditor rerun 关闭；残留 forbidden basename 问题已由只读 Auditor 复核关闭。 |
+| `fgo-script-pilot` | accepted-with-nonblocking-risks | FGO Part 1 script pilot 完成；appearance / ability / combat-effect 强制层已补入并通过 audit。 |
+| `fgo-eor-pilot` | accepted-with-nonblocking-risks | Epic of Remnant 完成；EoR retrospective blocker 已由 Fixer→Auditor rerun 关闭。 |
+| `fgo-lb1-lb2-pilot` | accepted-with-nonblocking-risks | Lostbelt 1–2 完成；retrospective blockers 已关闭。 |
+| `fgo-lb3-lb4-pilot` | accepted-with-nonblocking-risks | Lostbelt 3–4 完成；retrospective audit 通过并保留 nonblocking risks。 |
+| `fgo-lb5-pilot` | accepted-with-nonblocking-risks | Atlantis / Olympus 完成；retrospective audit 通过。 |
+| `fgo-lb6-pilot` | accepted-with-nonblocking-risks | Avalon le Fae 完成；retrospective audit 通过。 |
+| `fgo-ordeal-call-pilot` | accepted-with-nonblocking-risks | Ordeal Call I–III 完成；retrospective audit 通过，保留 process nonblocking risks。 |
+| `tsukihime-dead-apostle-profile-supplement-pilot` | completed / passed-with-nonblocking-risks | 月姬 / 死徒 profile supplement 已完成 controlled merge；final audit 通过；不发布到 Type-Moon core。 |
+
+共同约束：
+
+```text
+- 不覆盖 campaigns/world-library/worlds/type-moon-nasuverse/curated/。
+- 不修改 raw imports。
+- graph / timeline 只允许 derived index，不作为 primary fact store。
+- formal facts 必须保留 sourceRef(s)、sourceType、credibility、canonStatus。
+- candidate-only / source-gap 不得提升为正式事实。
+- 禁止 formal 聚合文件名：characters.json、events.json、relationships.json。
+- profile supplement 阶段额外禁止：facts.json、graph.json、timeline.json。
+```
+
+### 当前计划中 / 下一候选 pilot
+
+| Candidate | 当前状态 | 建议 |
+|---|---|---|
+| `mahoyo-profile-supplement-pilot` | planned / Stage 0 inventory completed | r58 已完成只读 source inventory；建议执行 p1-hybrid / user-file-worldbook-backed profile supplement，不作为 official canon p1-scan。 |
+| Type-Moon core / general settings | deferred | 用户明确选择先做具体作品/人物线，型月总设定最后。 |
+
+## 魔法使之夜 / Mahoyo 当前计划摘要
+
+### 当前结论
+
+r58 `mahoyo-source-inventory-audit` 已完成只读 source inventory。结论：可继续建立 Mahoyo profile supplement pilot，但必须降级标注为：
+
+```text
+p1-hybrid / user-file-worldbook-backed profile supplement
+not official canon p1-scan
+not published curated
+```
+
+推荐 pilot 路径：
+
+```text
+campaigns/world-library/manual-curation/type-moon-p1-hybrid/mahoyo-profile-supplement-pilot/
+```
+
+### 主要 source
+
+```text
+campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/奇妙的世界书DLC_型月篇2026_0126.worldbook.json
+```
+
+可支持：苍崎青子、久远寺有珠、静希草十郎、苍崎橙子、三咲町、第五魔法、魔弹、PLOY / 童话怪物、贝奥武夫、主要关系与相对剧情骨架。
+
+辅助 / 候选 source：
+
+```text
+campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/型月 (1).worldbook.json
+campaigns/world-library/imports/worldviews/type-moon-nasuverse/worldbooks/[沙盒]FGO 0.8.worldbook.json
+```
+
+`型月 (1)` 仅用于五大魔法 / 第五魔法广义支持；`[沙盒]FGO 0.8` 仅作为橙子卢恩等 cross-source candidate，不直接并入 Mahoyo main。
+
+### Mahoyo 后续完整阶段
+
+```text
+Stage 1 Prep / Source Layer
+  Generator → read-only Auditor → Fixer if blocking → Auditor rerun
+
+Stage 2 Packet Extraction / Normalization
+  每个 packet 独立 Generator → Auditor → Fixer if blocking → Auditor rerun
+
+Stage 3 Gate Evidence / Merge Readiness
+  确保项目内 final-status.json 与 audit evidence 均可复核
+
+Stage 4 Controlled Merge
+  只从 passed packet 合并 side-by-side supplement 与 derived-only indexes
+
+Stage 5 Final Audit
+  独立只读 final Auditor 验证后，状态最多 accepted-with-nonblocking-risks
+
+Stage 6 Future Enhancements
+  官方脚本 / 设定集 / scene timeline / combat expansion 等未来增强，不属于当前 worldbook-backed pilot
+```
+
+### 推荐 packets
+
+```text
+packet-001-source-inventory-and-source-text
+packet-002-canonical-id-and-continuity
+packet-003-core-characters
+packet-004-location-and-institutions
+packet-005-mahoyo-plot-skeleton
+packet-006-abilities-and-activation
+packet-007-appearance-outfit-equipment
+packet-008-relationships
+packet-009-candidate-only-cross-work-continuity
+```
+
+### Mahoyo 专项风险
+
+```text
+- worldbook-backed only，不是官方脚本。
+- 青子 / 橙子跨作品 continuity 必须分离。
+- FGO collab 内容必须 candidate-only 或 cross-work continuity。
+- 精确日期、完整对白、逐场景 CG/战斗顺序默认 source-gap。
+- informal/slang/mock labels 只能作为 aliasCandidates 或 unsupported-by-current-source。
+```
+
+详见专项计划：
+
+```text
+docs/type-moon-mahoyo-profile-supplement-plan.md
+```

@@ -1,0 +1,137 @@
+{
+  "schema": "tm-nasuverse-extracted-graph-build-report-v1",
+  "worldId": "type-moon-nasuverse",
+  "stepId": "graph-builder",
+  "buildDate": "2026-07-20",
+  "status": "completed",
+  "mutationScopeUsed": [
+    "campaigns/world-library/worlds/type-moon-nasuverse/extracted/graph/**",
+    "campaigns/world-library/worlds/type-moon-nasuverse/extracted/manifest.json"
+  ],
+  "generatedFiles": [
+    "graph/derived-entity-graph.json",
+    "graph/derived-relationship-index.json",
+    "graph/derived-continuity-index.json",
+    "graph/graph-build-report.json"
+  ],
+  "notGeneratedFiles": [
+    {
+      "path": "graph.json",
+      "reason": "Forbidden aggregate basename; graph outputs are derived indexes only."
+    },
+    {
+      "path": "timeline.json",
+      "reason": "Forbidden aggregate basename; timeline remains derived-timeline-index only."
+    }
+  ],
+  "inputIndexesInspected": [
+    "manifest.json",
+    "sources/index.json",
+    "characters/index.json",
+    "events/index.json",
+    "relationships/index.json",
+    "rules/index.json",
+    "locations/index.json",
+    "abilities/index.json",
+    "organizations/index.json",
+    "items/index.json",
+    "timelines/derived-timeline-index.json",
+    "graphs/derived-graph-index.json",
+    "candidates/index.json",
+    "source-gaps/index.json",
+    "characters/shards/representative-character-records.json",
+    "events/shards/representative-event-records.json",
+    "relationships/shards/representative-relationship-records.json"
+  ],
+  "derivationDecisions": {
+    "primaryFactStoreCreated": false,
+    "derivedOnly": true,
+    "newFactsIntroduced": false,
+    "candidateOnlyPromotedToFormalFacts": false,
+    "sourceGapPromotedToFormalFacts": false,
+    "heldPilotsPromotedToFormalFacts": false,
+    "rawImportsModified": false,
+    "oldCuratedModified": false,
+    "manualCurationPilotsModified": false,
+    "defaultWorldQueryIncludesCandidateOnly": false,
+    "defaultWorldQueryIncludesSourceGaps": false
+  },
+  "coverageSummary": {
+    "formalSourcePilotNodes": 12,
+    "sourceLinkedPilotOutputNodes": 5,
+    "indexNodes": 13,
+    "representativeRecordNodes": 7,
+    "boundaryNodesIncluded": 5,
+    "formalRelationshipFamilyCount": 7,
+    "representativeRelationshipRecordCount": 2,
+    "boundaryRelationshipInventoryCount": 5,
+    "formalContinuityFamilyCount": 9,
+    "boundaryContinuityFamilyCount": 6
+  },
+  "formalPilotCoverage": [
+    "fsn-fz-pilot",
+    "fgo-script-pilot",
+    "fgo-eor-pilot",
+    "fgo-lb1-lb2-pilot",
+    "fgo-lb3-lb4-pilot",
+    "fgo-lb5-pilot",
+    "fgo-lb6-pilot",
+    "fgo-ordeal-call-pilot",
+    "kara-no-kyoukai-profile-supplement-pilot",
+    "prisma-illya-profile-supplement-pilot",
+    "lb6-fairy-calendar-supplement-pilot",
+    "type-moon-core-general-settings-pilot"
+  ],
+  "boundaryCoverage": [
+    {
+      "boundaryId": "tsukihime-supporting-cast-candidates",
+      "policy": "candidateOnly/sourceGap boundary only; no formal characters/events/relationships/graph/timeline facts"
+    },
+    {
+      "boundaryId": "fate-spinoff-source-gap-inventory",
+      "policy": "blocked/source-gap inventory only"
+    },
+    {
+      "boundaryId": "atlas-sion-human-scope-candidate",
+      "policy": "candidateOnly/sourceGap; not a formal merged institution or continuity fact"
+    },
+    {
+      "boundaryId": "prisma-sitonai-shidounai-cross-work",
+      "policy": "candidateOnly/sourceGap; not merged into Prisma or FSN continuity"
+    },
+    {
+      "boundaryId": "held-profile-pilots",
+      "policy": "Tsukihime Dead Apostle remains held/source-gap pending separate final audit; Mahoyo remains held/source-gap pending read-only auditor rerun"
+    }
+  ],
+  "retainedLimitations": [
+    "Ordeal Call signal coverage is referenced from accepted packet signal indexes only; absent dedicated canonical signal directories were not inferred.",
+    "LB6 fairy calendar continuity is relative-only; no month/day precision or Gregorian conversion was inferred.",
+    "Prisma unsafe underage adult-content remains excluded; cross-work Sitonai/Shidounai remains candidate/source-gap.",
+    "Atlas/Sion human-scope continuity remains candidate/source-gap only.",
+    "Type Lumina-specific gaps remain source-gap only.",
+    "Held Mahoyo and Tsukihime Dead Apostle pilots were not promoted."
+  ],
+  "validation": {
+    "forbiddenBasenameCheck": {
+      "status": "passed-after-manifest-update",
+      "method": "find tool over extracted layer for characters.json/events.json/relationships.json/facts.json/graph.json/timeline.json",
+      "matches": []
+    },
+    "pathScopeCheck": {
+      "status": "passed-by-inspection",
+      "method": "writes limited to extracted/graph files plus planned manifest update"
+    },
+    "jsonParserExecuted": false,
+    "jsonParserNote": "No shell/script/parser execution was used; validation is tool read/find inspection and careful direct JSON authoring."
+  },
+  "manifestUpdate": {
+    "needed": true,
+    "plannedIndexes": {
+      "unifiedDerivedEntityGraph": "graph/derived-entity-graph.json",
+      "derivedRelationshipIndex": "graph/derived-relationship-index.json",
+      "derivedContinuityIndex": "graph/derived-continuity-index.json",
+      "graphBuildReport": "graph/graph-build-report.json"
+    }
+  }
+}

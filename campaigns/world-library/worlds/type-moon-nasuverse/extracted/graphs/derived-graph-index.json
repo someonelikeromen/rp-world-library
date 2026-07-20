@@ -1,0 +1,142 @@
+{
+  "schema": "tm-nasuverse-extracted-derived-graph-index-v1",
+  "worldId": "type-moon-nasuverse",
+  "recordType": "derived-graph-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "defaultQueryPolicy": {
+    "candidateOnly": false,
+    "sourceGap": false,
+    "excludeHeldPilots": true,
+    "recordsResolvedFromPrimaryIndexes": ["characters/index.json", "events/index.json", "relationships/index.json", "rules/index.json", "locations/index.json", "abilities/index.json", "organizations/index.json", "items/index.json"]
+  },
+  "graphFamilies": [
+    {
+      "graphFamilyId": "fsn-fz-derived-graph",
+      "sourcePilot": "fsn-fz-pilot",
+      "continuityScope": ["fate-zero", "fate-stay-night"],
+      "summaryCountRefs": ["fsn-fz-pilot/merged/index.json#/summaryCounts/graphNodes", "fsn-fz-pilot/merged/index.json#/summaryCounts/graphEdges"],
+      "sourceRefs": ["fsn-fz-pilot/merged/merged-graph.json", "fsn-fz-pilot/merged/index.json"],
+      "sourceType": "p1-hybrid-local-worldbook-and-story-text",
+      "credibility": "B",
+      "canonStatus": "canon-like/adapted",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "auditStatusRef": "fsn-fz-pilot/audit/final-pass-report.json",
+      "policyNotes": ["Graph edges are derived from audited relationship/event/entity records and include timeline/time-range metadata in the accepted artifact."]
+    },
+    {
+      "graphFamilyId": "fgo-part1-derived-graphs",
+      "sourcePilot": "fgo-script-pilot",
+      "continuityScope": ["fgo-part1"],
+      "sourceRefs": [
+        "fgo-script-pilot/graph/chapter-flow-index.json",
+        "fgo-script-pilot/graph/character-event-bipartite.json",
+        "fgo-script-pilot/graph/character-node-index.json",
+        "fgo-script-pilot/graph/faction-graph.json",
+        "fgo-script-pilot/graph/relationship-edge-index.json",
+        "fgo-script-pilot/graph/relationship-graph.json",
+        "fgo-script-pilot/graph/timeline-graph.json"
+      ],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "auditStatusRef": "fgo-script-pilot/STATUS.md"
+    },
+    {
+      "graphFamilyId": "fgo-eor-derived-graphs",
+      "sourcePilot": "fgo-eor-pilot",
+      "continuityScope": ["fgo-epic-of-remnant"],
+      "sourceRefs": ["fgo-eor-pilot/graph/", "fgo-eor-pilot/merged/relationships/edges/", "fgo-eor-pilot/merged/events/"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "auditStatusRef": "fgo-eor-pilot/STATUS.md"
+    },
+    {
+      "graphFamilyId": "fgo-lostbelt-derived-graphs",
+      "sourcePilot": "fgo-lb1-lb2-pilot; fgo-lb3-lb4-pilot; fgo-lb5-pilot; fgo-lb6-pilot",
+      "continuityScope": ["fgo-lostbelt"],
+      "sourceRefs": [
+        "fgo-lb1-lb2-pilot/graph/index.json",
+        "fgo-lb1-lb2-pilot/graph/lostbelt/derived-index.json",
+        "fgo-lb3-lb4-pilot/graph/index.json",
+        "fgo-lb3-lb4-pilot/graph/nodes/index.json",
+        "fgo-lb3-lb4-pilot/graph/edges/index.json",
+        "fgo-lb5-pilot/graph/lostbelt/index.json",
+        "fgo-lb5-pilot/graph/lostbelt/temporal-relationship-edge-index.json",
+        "fgo-lb6-pilot/graph/derived-index.json",
+        "fgo-lb6-pilot/graph/relationship-edge-index.json"
+      ],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "auditStatusRefs": ["fgo-lb1-lb2-pilot/STATUS.md", "fgo-lb3-lb4-pilot/STATUS.md", "fgo-lb5-pilot/STATUS.md", "fgo-lb6-pilot/STATUS.md"]
+    },
+    {
+      "graphFamilyId": "fgo-ordeal-call-derived-graphs",
+      "sourcePilot": "fgo-ordeal-call-pilot",
+      "continuityScope": ["fgo-ordeal-call"],
+      "sourceRefs": ["fgo-ordeal-call-pilot/graph/derived-index.json", "fgo-ordeal-call-pilot/graph/relationship-edge-index.json", "fgo-ordeal-call-pilot/merged/relationships/edges/ordeal-call/"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "auditStatusRef": "fgo-ordeal-call-pilot/STATUS.md",
+      "nonblockingLimitations": ["Accepted minimal merge; no inference from absent dedicated canonical signal directories."]
+    },
+    {
+      "graphFamilyId": "profile-supplement-derived-graphs",
+      "sourcePilot": "kara-no-kyoukai-profile-supplement-pilot; prisma-illya-profile-supplement-pilot",
+      "continuityScope": ["kara-no-kyoukai", "prisma-illya"],
+      "sourceRefs": ["kara-no-kyoukai-profile-supplement-pilot/graph/derived-index.json", "prisma-illya-profile-supplement-pilot/graph/derived-index.json"],
+      "sourceType": "user-file-worldbook-profile/redacted-profile",
+      "credibility": "B",
+      "canonStatus": "canon-like/adapted",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "auditStatusRefs": ["kara-no-kyoukai-profile-supplement-pilot/STATUS.md", "prisma-illya-profile-supplement-pilot/STATUS.md"],
+      "policyNotes": ["Prisma unsafe sections and cross-work Sitonai/Shidounai are not graph nodes or edges in formal derived graph retrieval."]
+    },
+    {
+      "graphFamilyId": "lb6-fairy-calendar-derived-graph",
+      "sourcePilot": "lb6-fairy-calendar-supplement-pilot",
+      "continuityScope": ["fgo-lostbelt", "lb6-fairy-calendar"],
+      "sourceRefs": ["lb6-fairy-calendar-supplement-pilot/graph/derived-index.json", "lb6-fairy-calendar-supplement-pilot/normalized/calendar-setting/calendar-system.json"],
+      "sourceType": "user-file-worldbook-setting",
+      "credibility": "B",
+      "canonStatus": "canon-like/adapted",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "auditStatusRef": "lb6-fairy-calendar-supplement-pilot/STATUS.md"
+    },
+    {
+      "graphFamilyId": "core-general-settings-derived-graph",
+      "sourcePilot": "type-moon-core-general-settings-pilot",
+      "continuityScope": ["type-moon-general"],
+      "sourceRefs": ["type-moon-core-general-settings-pilot/normalized/core-general-settings/index.json", "type-moon-core-general-settings-pilot/normalized/core-general-settings/settings-supplement.json"],
+      "sourceType": "derived-from-completed-pilot-settings-supplement",
+      "credibility": "B with human-scope limitations",
+      "canonStatus": "adapted/secondary-summary",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "excludedRecordIds": ["atlas-and-sion-candidate-context"],
+      "auditStatusRef": "type-moon-core-general-settings-pilot/audit/final-status.json"
+    }
+  ],
+  "excludedDerivedGraphs": [
+    {"pilotId": "tsukihime-supporting-cast-candidate-supplement-pilot", "reason": "candidate-only/source-gap; no formal graph facts"},
+    {"pilotId": "fate-spinoff-profile-supplement-pilot", "reason": "blocked-insufficient-source; inventory-only"},
+    {"pilotId": "tsukihime-dead-apostle-profile-supplement-pilot", "reason": "hold pending separate final audit"},
+    {"pilotId": "mahoyo-profile-supplement-pilot", "reason": "hold pending read-only auditor rerun"},
+    {"recordId": "atlas-and-sion-candidate-context", "reason": "human-scope candidate/source-gap"},
+    {"recordId": "prisma-sitonai-cross-work", "reason": "cross-work candidate-only/source-gap"}
+  ]
+}

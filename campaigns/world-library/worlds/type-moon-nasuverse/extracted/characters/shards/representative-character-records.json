@@ -1,0 +1,74 @@
+{
+  "schema": "tm-nasuverse-representative-character-shard-v1",
+  "worldId": "type-moon-nasuverse",
+  "publicationMode": "representative-source-linked-shard",
+  "records": [
+    {
+      "recordId": "fgo-part1-solomon-mash-kyrielight",
+      "recordType": "entity",
+      "displayName": "玛修·基列莱特",
+      "sourcePilot": "fgo-script-pilot",
+      "continuityScope": ["fgo-part1", "fgo-part1-solomon"],
+      "roleRaw": "亚从者/守护/舍命",
+      "factionRaw": "迦勒底",
+      "sourceRefs": [
+        "fgo-script-pilot/normalized/part1/solomon/characters/mash.fragment.json",
+        "fgo-script-pilot/sources/worldbook-script/part1/ch-008-solomon.txt#stage_characters",
+        "fgo-script-pilot/sources/worldbook-script/part1/ch-008-solomon.txt#world_timeline"
+      ],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "audit": {
+        "pilotStatusRef": "fgo-script-pilot/STATUS.md",
+        "acceptanceStatus": "passed-with-nonblocking-risks",
+        "publicationDecision": "formal representative record; full family remains at accepted source artifact"
+      }
+    },
+    {
+      "recordId": "knk-ryougi-shiki-profile-core",
+      "recordType": "profile-record",
+      "displayName": "两仪式 / Ryougi Shiki",
+      "sourcePilot": "kara-no-kyoukai-profile-supplement-pilot",
+      "continuityScope": ["kara-no-kyoukai", "future-gospel", "type-moon-general-cross-check"],
+      "sourceRefs": [
+        "kara-no-kyoukai-profile-supplement-pilot/normalized/profile-supplement/ryougi-shiki/identity/profile-core.json",
+        "kara-no-kyoukai-profile-supplement-pilot/sources/worldbook-profile/source-text-manifest.json"
+      ],
+      "sourceType": "local-imported-worldbook-profile-plus-setting-cross-check",
+      "credibility": "medium-local-worldbook-explicit-with-medium-low-cross-check",
+      "canonStatus": "secondary-summary-not-primary-canon",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "audit": {
+        "pilotStatusRef": "kara-no-kyoukai-profile-supplement-pilot/STATUS.md",
+        "acceptanceStatus": "passed-with-nonblocking-risks",
+        "nonblockingRisks": ["worldbook-backed only", "romanization gaps", "Future Gospel dating approximate"]
+      }
+    },
+    {
+      "recordId": "prisma-illya-core-cast-family",
+      "recordType": "profile-record-family",
+      "displayName": "Prisma Illya core SFW profile family",
+      "sourcePilot": "prisma-illya-profile-supplement-pilot",
+      "continuityScope": ["prisma-illya"],
+      "sourceRefs": [
+        "prisma-illya-profile-supplement-pilot/normalized/profile-supplement/prisma-illya/core-records.json",
+        "prisma-illya-profile-supplement-pilot/extracted/profile-supplement/prisma-illya/records/core-prisma-cast.json",
+        "prisma-illya-profile-supplement-pilot/sources/worldbook-profile/source-text-manifest.json"
+      ],
+      "sourceType": "user-file-worldbook-profile-redacted",
+      "credibility": "B",
+      "canonStatus": "canon-like/adapted",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "audit": {
+        "pilotStatusRef": "prisma-illya-profile-supplement-pilot/STATUS.md",
+        "acceptanceStatus": "passed-with-nonblocking-risks",
+        "redactionPolicy": "Unsafe underage adult-content sections excluded; Prisma Illya Illya not merged with FSN Illya."
+      }
+    }
+  ]
+}

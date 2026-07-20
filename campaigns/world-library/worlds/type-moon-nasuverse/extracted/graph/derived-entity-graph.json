@@ -1,0 +1,790 @@
+{
+  "schema": "tm-nasuverse-extracted-derived-entity-graph-v1",
+  "worldId": "type-moon-nasuverse",
+  "recordType": "derived-entity-graph",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "buildStepId": "graph-builder",
+  "buildDate": "2026-07-20",
+  "derivationPolicy": {
+    "derivedFromExtractedIndexesOnly": true,
+    "introducesNewFacts": false,
+    "defaultQueryIncludesCandidateOnly": false,
+    "defaultQueryIncludesSourceGaps": false,
+    "candidateOrGapEdgesAreBoundaryOnly": true,
+    "recordsResolveToPrimaryIndexesOrAcceptedArtifacts": true
+  },
+  "inputIndexes": [
+    "sources/index.json",
+    "characters/index.json",
+    "events/index.json",
+    "relationships/index.json",
+    "rules/index.json",
+    "locations/index.json",
+    "abilities/index.json",
+    "organizations/index.json",
+    "items/index.json",
+    "timelines/derived-timeline-index.json",
+    "graphs/derived-graph-index.json",
+    "candidates/index.json",
+    "source-gaps/index.json",
+    "characters/shards/representative-character-records.json",
+    "events/shards/representative-event-records.json",
+    "relationships/shards/representative-relationship-records.json"
+  ],
+  "nodes": [
+    {
+      "nodeId": "world:type-moon-nasuverse",
+      "nodeType": "world",
+      "label": "Type-Moon Nasuverse extracted publication layer",
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "index:sources",
+      "nodeType": "index",
+      "label": "sources/index.json",
+      "path": "sources/index.json"
+    },
+    {
+      "nodeId": "index:characters",
+      "nodeType": "index",
+      "label": "characters/index.json",
+      "path": "characters/index.json"
+    },
+    {
+      "nodeId": "index:events",
+      "nodeType": "index",
+      "label": "events/index.json",
+      "path": "events/index.json"
+    },
+    {
+      "nodeId": "index:relationships",
+      "nodeType": "index",
+      "label": "relationships/index.json",
+      "path": "relationships/index.json"
+    },
+    {
+      "nodeId": "index:rules",
+      "nodeType": "index",
+      "label": "rules/index.json",
+      "path": "rules/index.json"
+    },
+    {
+      "nodeId": "index:locations",
+      "nodeType": "index",
+      "label": "locations/index.json",
+      "path": "locations/index.json"
+    },
+    {
+      "nodeId": "index:abilities",
+      "nodeType": "index",
+      "label": "abilities/index.json",
+      "path": "abilities/index.json"
+    },
+    {
+      "nodeId": "index:organizations",
+      "nodeType": "index",
+      "label": "organizations/index.json",
+      "path": "organizations/index.json"
+    },
+    {
+      "nodeId": "index:items",
+      "nodeType": "index",
+      "label": "items/index.json",
+      "path": "items/index.json"
+    },
+    {
+      "nodeId": "index:derived-timeline",
+      "nodeType": "derived-index",
+      "label": "timelines/derived-timeline-index.json",
+      "path": "timelines/derived-timeline-index.json",
+      "derivedOnly": true,
+      "primaryFactStore": false
+    },
+    {
+      "nodeId": "index:legacy-derived-graph-index",
+      "nodeType": "derived-index",
+      "label": "graphs/derived-graph-index.json",
+      "path": "graphs/derived-graph-index.json",
+      "derivedOnly": true,
+      "primaryFactStore": false
+    },
+    {
+      "nodeId": "index:candidates",
+      "nodeType": "boundary-index",
+      "label": "candidates/index.json",
+      "path": "candidates/index.json",
+      "candidateOnly": true,
+      "sourceGapMayBeTrue": true,
+      "includeInFormalWorldQuery": false
+    },
+    {
+      "nodeId": "index:source-gaps",
+      "nodeType": "boundary-index",
+      "label": "source-gaps/index.json",
+      "path": "source-gaps/index.json",
+      "candidateOnly": true,
+      "sourceGap": true,
+      "includeInFormalWorldQuery": false
+    },
+    {
+      "nodeId": "pilot:fsn-fz-pilot",
+      "nodeType": "source-pilot",
+      "status": "passed-with-known-risks",
+      "continuityScope": ["fate-stay-night", "fate-zero"],
+      "sourceType": "p1-hybrid-local-worldbook-and-story-text",
+      "credibility": "B",
+      "canonStatus": "canon-like/adapted",
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "pilot:fgo-script-pilot",
+      "nodeType": "source-pilot",
+      "status": "passed-with-nonblocking-risks",
+      "continuityScope": ["fgo-part1"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "pilot:fgo-eor-pilot",
+      "nodeType": "source-pilot",
+      "status": "passed-with-nonblocking-risks",
+      "continuityScope": ["fgo-epic-of-remnant"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "pilot:fgo-lb1-lb2-pilot",
+      "nodeType": "source-pilot",
+      "status": "passed-with-nonblocking-risks",
+      "continuityScope": ["fgo-lostbelt", "lb1-anastasia", "lb2-gotterdammerung"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "pilot:fgo-lb3-lb4-pilot",
+      "nodeType": "source-pilot",
+      "status": "passed-with-nonblocking-risks",
+      "continuityScope": ["fgo-lostbelt", "lb3-renzhi-tonghe-zhenguo", "lb4-chuangshi-miewang-lunhui"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "pilot:fgo-lb5-pilot",
+      "nodeType": "source-pilot",
+      "status": "passed-with-nonblocking-risks",
+      "continuityScope": ["fgo-lostbelt", "lb5-1-atlantis", "lb5-2-olympos"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "pilot:fgo-lb6-pilot",
+      "nodeType": "source-pilot",
+      "status": "passed-with-nonblocking-risks",
+      "continuityScope": ["fgo-lostbelt", "lb6-1-avalon-pre", "lb6-2-round-table-post"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "pilot:fgo-ordeal-call-pilot",
+      "nodeType": "source-pilot",
+      "status": "accepted-with-nonblocking-risks",
+      "continuityScope": ["fgo-ordeal-call", "oc1-paper-moon", "oc2-id", "oc3-integration"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "pilot:kara-no-kyoukai-profile-supplement-pilot",
+      "nodeType": "source-pilot",
+      "status": "passed-with-nonblocking-risks",
+      "continuityScope": ["kara-no-kyoukai", "future-gospel", "type-moon-general-cross-check"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "canon-like/adapted",
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "pilot:prisma-illya-profile-supplement-pilot",
+      "nodeType": "source-pilot",
+      "status": "passed-with-nonblocking-risks",
+      "continuityScope": ["prisma-illya", "fsn-prisma-identity-separation"],
+      "sourceType": "user-file-worldbook-profile-redacted",
+      "credibility": "B",
+      "canonStatus": "canon-like/adapted",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "redactionPolicy": "Unsafe underage adult-content sections excluded from formal facts."
+    },
+    {
+      "nodeId": "pilot:lb6-fairy-calendar-supplement-pilot",
+      "nodeType": "source-pilot",
+      "status": "passed-with-nonblocking-risks",
+      "continuityScope": ["fgo-lostbelt", "lb6-fairy-calendar"],
+      "sourceType": "user-file-worldbook-setting",
+      "credibility": "B",
+      "canonStatus": "canon-like/adapted",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "relativeOnlyPolicy": true
+    },
+    {
+      "nodeId": "pilot:type-moon-core-general-settings-pilot",
+      "nodeType": "source-pilot",
+      "status": "passed-with-human-scope-limitations",
+      "continuityScope": ["type-moon-general"],
+      "sourceType": "derived-from-completed-pilot-settings-supplement",
+      "credibility": "B with human-scope limitations",
+      "canonStatus": "adapted/secondary-summary",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "excludedRecordIds": ["atlas-and-sion-candidate-context"]
+    },
+    {
+      "nodeId": "family:characters:fsn-fz-entities",
+      "nodeType": "record-family",
+      "recordFamily": "characters",
+      "sourcePilot": "fsn-fz-pilot",
+      "recordType": "entity",
+      "continuityScope": ["fate-stay-night", "fate-zero"],
+      "sourceRefs": ["fsn-fz-pilot/merged/merged-entities.json"],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "family:events:fgo-part1-events",
+      "nodeType": "record-family",
+      "recordFamily": "events",
+      "sourcePilot": "fgo-script-pilot",
+      "recordType": "event",
+      "continuityScope": ["fgo-part1"],
+      "sourceRefs": ["fgo-script-pilot/merged/events/part1/", "fgo-script-pilot/timeline/part1-chronological-index.json"],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "family:relationships:fgo-part1-relationship-edges",
+      "nodeType": "record-family",
+      "recordFamily": "relationships",
+      "sourcePilot": "fgo-script-pilot",
+      "recordType": "relationship-edge",
+      "continuityScope": ["fgo-part1"],
+      "sourceRefs": ["fgo-script-pilot/normalized/part1/solomon/relationships/", "fgo-script-pilot/graph/relationship-edge-index.json"],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "family:rules:type-moon-core-general-settings-noncandidate-anchors",
+      "nodeType": "record-family",
+      "recordFamily": "rules",
+      "sourcePilot": "type-moon-core-general-settings-pilot",
+      "recordType": "setting-record",
+      "continuityScope": ["type-moon-general"],
+      "sourceRefs": ["type-moon-core-general-settings-pilot/normalized/core-general-settings/index.json#/records[?candidateOnly!=true && sourceGap!=true]", "type-moon-core-general-settings-pilot/normalized/core-general-settings/settings-supplement.json"],
+      "excludedRecordIds": ["atlas-and-sion-candidate-context"],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:fgo-part1-solomon-mash-kyrielight",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity",
+      "displayName": "玛修·基列莱特",
+      "sourcePilot": "fgo-script-pilot",
+      "continuityScope": ["fgo-part1", "fgo-part1-solomon"],
+      "sourceRefs": ["fgo-script-pilot/normalized/part1/solomon/characters/mash.fragment.json", "fgo-script-pilot/sources/worldbook-script/part1/ch-008-solomon.txt#stage_characters"],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:knk-ryougi-shiki-profile-core",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "profile-record",
+      "displayName": "两仪式 / Ryougi Shiki",
+      "sourcePilot": "kara-no-kyoukai-profile-supplement-pilot",
+      "continuityScope": ["kara-no-kyoukai", "future-gospel", "type-moon-general-cross-check"],
+      "sourceRefs": ["kara-no-kyoukai-profile-supplement-pilot/normalized/profile-supplement/ryougi-shiki/identity/profile-core.json"],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:prisma-illya-core-cast-family",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "profile-record-family",
+      "displayName": "Prisma Illya core SFW profile family",
+      "sourcePilot": "prisma-illya-profile-supplement-pilot",
+      "continuityScope": ["prisma-illya"],
+      "sourceRefs": ["prisma-illya-profile-supplement-pilot/normalized/profile-supplement/prisma-illya/core-records.json"],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:fgo-part1-solomon-event-w",
+      "nodeType": "representative-record",
+      "recordFamily": "events",
+      "recordType": "event",
+      "sourcePilot": "fgo-script-pilot",
+      "continuityScope": ["fgo-part1", "fgo-part1-solomon"],
+      "timelineId": "fgo-part1-solomon",
+      "sourceRefs": ["fgo-script-pilot/extracted/part1/solomon/events/event-w.json"],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:lb6-fairy-calendar-relative-sequence-family",
+      "nodeType": "representative-record",
+      "recordFamily": "events",
+      "recordType": "relative-sequence-record-family",
+      "sourcePilot": "lb6-fairy-calendar-supplement-pilot",
+      "continuityScope": ["fgo-lostbelt", "lb6-fairy-calendar"],
+      "sourceRefs": ["lb6-fairy-calendar-supplement-pilot/normalized/calendar-setting/relative-sequence-records.json"],
+      "candidateOnly": false,
+      "sourceGap": false,
+      "relativeOnlyPolicy": true
+    },
+    {
+      "nodeId": "record:solomon-fou-mash-restoration",
+      "nodeType": "representative-record",
+      "recordFamily": "relationships",
+      "recordType": "relationship-edge",
+      "sourcePilot": "fgo-script-pilot",
+      "continuityScope": ["fgo-part1", "fgo-part1-solomon"],
+      "eventRefs": ["fgo-part1-solomon-event-w"],
+      "sourceRefs": ["fgo-script-pilot/normalized/part1/solomon/relationships/fou-mash-restoration.json"],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:fgo-ordeal-call-relationship-edge-family",
+      "nodeType": "representative-record",
+      "recordFamily": "relationships",
+      "recordType": "relationship-edge-family",
+      "sourcePilot": "fgo-ordeal-call-pilot",
+      "continuityScope": ["fgo-ordeal-call", "oc1-paper-moon", "oc2-id", "oc3-integration"],
+      "sourceRefs": ["fgo-ordeal-call-pilot/merged/relationships/edges/ordeal-call/", "fgo-ordeal-call-pilot/graph/relationship-edge-index.json"],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "output:fsn-fz-accepted-merged-output",
+      "nodeType": "source-linked-pilot-output",
+      "sourcePilot": "fsn-fz-pilot",
+      "artifactRefs": ["fsn-fz-pilot/merged/merged-entities.json", "fsn-fz-pilot/merged/merged-graph.json", "fsn-fz-pilot/merged/merged-timeline.json"],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "output:fgo-script-accepted-graph-output",
+      "nodeType": "source-linked-pilot-output",
+      "sourcePilot": "fgo-script-pilot",
+      "artifactRefs": ["fgo-script-pilot/graph/relationship-edge-index.json", "fgo-script-pilot/graph/timeline-graph.json", "fgo-script-pilot/merged/events/part1/"],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "output:fgo-ordeal-call-accepted-minimal-output",
+      "nodeType": "source-linked-pilot-output",
+      "sourcePilot": "fgo-ordeal-call-pilot",
+      "artifactRefs": ["fgo-ordeal-call-pilot/graph/derived-index.json", "fgo-ordeal-call-pilot/graph/relationship-edge-index.json", "fgo-ordeal-call-pilot/merged/relationships/edges/ordeal-call/"],
+      "candidateOnly": false,
+      "sourceGap": false,
+      "sourceGapLimitations": ["dedicated merged appearance/ability/combat-effect canonical directories absent; packet signal indexes only referenced"]
+    },
+    {
+      "nodeId": "output:profile-supplement-accepted-derived-output",
+      "nodeType": "source-linked-pilot-output",
+      "sourcePilot": "kara-no-kyoukai-profile-supplement-pilot; prisma-illya-profile-supplement-pilot",
+      "artifactRefs": ["kara-no-kyoukai-profile-supplement-pilot/graph/derived-index.json", "prisma-illya-profile-supplement-pilot/graph/derived-index.json"],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "output:candidate-and-source-gap-boundary-output",
+      "nodeType": "source-linked-pilot-output",
+      "sourcePilot": "multiple nonformal or limited pilots",
+      "artifactRefs": ["candidates/index.json", "source-gaps/index.json"],
+      "candidateOnly": true,
+      "sourceGap": true,
+      "candidateOnlyEdge": true,
+      "sourceGapEdge": true,
+      "formalPromotionBlocked": true
+    },
+    {
+      "nodeId": "boundary:candidate:tsukihime-supporting-cast-candidates",
+      "nodeType": "candidate-inventory",
+      "sourcePilot": "tsukihime-supporting-cast-candidate-supplement-pilot",
+      "status": "accepted-with-source-gap-limitations",
+      "continuityScope": ["tsukihime-original", "tsukihime-remake", "melty-blood", "type-lumina", "sandbox"],
+      "publicationDecision": "candidate/source-gap inventory only; no formal characters/events/relationships/graph/timeline facts",
+      "candidateOnly": true,
+      "sourceGap": true,
+      "formalPromotionBlocked": true
+    },
+    {
+      "nodeId": "boundary:candidate:atlas-sion-human-scope-candidate",
+      "nodeType": "candidate-inventory",
+      "sourcePilot": "type-moon-core-general-settings-pilot",
+      "recordId": "atlas-and-sion-candidate-context",
+      "status": "blocked-needs-human-scope",
+      "continuityScope": ["tsukihime-worldline-candidate", "fgo-worldline-candidate", "fgo-script-context", "melty-blood-candidate"],
+      "candidateOnly": true,
+      "sourceGap": true,
+      "formalPromotionBlocked": true
+    },
+    {
+      "nodeId": "boundary:source-gap:fate-spinoff-source-gap-inventory",
+      "nodeType": "source-gap-inventory",
+      "sourcePilot": "fate-spinoff-profile-supplement-pilot",
+      "status": "blocked-insufficient-source / inventory-only",
+      "continuityScope": ["fate-extra", "fate-prototype", "fate-apocrypha", "fate-strange-fake", "gudaguda", "emiya-gohan"],
+      "candidateOnly": true,
+      "sourceGap": true,
+      "formalPromotionBlocked": true
+    },
+    {
+      "nodeId": "boundary:source-gap:tsukihime-dead-apostle-hold",
+      "nodeType": "source-gap-inventory",
+      "sourcePilot": "tsukihime-dead-apostle-profile-supplement-pilot",
+      "status": "hold-from-formal-publication",
+      "continuityScope": ["tsukihime", "dead-apostle", "true-ancestor"],
+      "candidateOnly": false,
+      "sourceGap": true,
+      "formalPromotionBlocked": true
+    },
+    {
+      "nodeId": "boundary:source-gap:mahoyo-hold-pending-auditor-rerun",
+      "nodeType": "source-gap-inventory",
+      "sourcePilot": "mahoyo-profile-supplement-pilot",
+      "status": "hold-from-formal-publication",
+      "continuityScope": ["mahoyo"],
+      "candidateOnly": false,
+      "sourceGap": true,
+      "formalPromotionBlocked": true
+    }
+  ],
+  "edges": [
+    {
+      "edgeId": "world-has-index-sources",
+      "edgeType": "has_index",
+      "from": "world:type-moon-nasuverse",
+      "to": "index:sources",
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "edgeId": "world-has-index-characters",
+      "edgeType": "has_index",
+      "from": "world:type-moon-nasuverse",
+      "to": "index:characters",
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "edgeId": "world-has-index-events",
+      "edgeType": "has_index",
+      "from": "world:type-moon-nasuverse",
+      "to": "index:events",
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "edgeId": "world-has-index-relationships",
+      "edgeType": "has_index",
+      "from": "world:type-moon-nasuverse",
+      "to": "index:relationships",
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "edgeId": "world-has-derived-timeline",
+      "edgeType": "has_derived_index",
+      "from": "world:type-moon-nasuverse",
+      "to": "index:derived-timeline",
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "edgeId": "sources-registers-fsn-fz",
+      "edgeType": "registers_formal_source_pilot",
+      "from": "index:sources",
+      "to": "pilot:fsn-fz-pilot",
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "edgeId": "sources-registers-fgo-script",
+      "edgeType": "registers_formal_source_pilot",
+      "from": "index:sources",
+      "to": "pilot:fgo-script-pilot",
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "edgeId": "sources-registers-fgo-eor",
+      "edgeType": "registers_formal_source_pilot",
+      "from": "index:sources",
+      "to": "pilot:fgo-eor-pilot",
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "edgeId": "sources-registers-lostbelt-pilots",
+      "edgeType": "registers_formal_source_pilot_group",
+      "from": "index:sources",
+      "to": "pilot:fgo-lb1-lb2-pilot",
+      "alsoRegisters": ["pilot:fgo-lb3-lb4-pilot", "pilot:fgo-lb5-pilot", "pilot:fgo-lb6-pilot"],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "edgeId": "sources-registers-ordeal-call",
+      "edgeType": "registers_formal_source_pilot",
+      "from": "index:sources",
+      "to": "pilot:fgo-ordeal-call-pilot",
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "edgeId": "sources-registers-profile-pilots",
+      "edgeType": "registers_formal_source_pilot_group",
+      "from": "index:sources",
+      "to": "pilot:kara-no-kyoukai-profile-supplement-pilot",
+      "alsoRegisters": ["pilot:prisma-illya-profile-supplement-pilot", "pilot:lb6-fairy-calendar-supplement-pilot", "pilot:type-moon-core-general-settings-pilot"],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "edgeId": "pilot-fsn-fz-has-output",
+      "edgeType": "has_source_linked_output",
+      "from": "pilot:fsn-fz-pilot",
+      "to": "output:fsn-fz-accepted-merged-output",
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "edgeId": "pilot-fgo-script-has-output",
+      "edgeType": "has_source_linked_output",
+      "from": "pilot:fgo-script-pilot",
+      "to": "output:fgo-script-accepted-graph-output",
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "edgeId": "pilot-ordeal-call-has-output",
+      "edgeType": "has_source_linked_output",
+      "from": "pilot:fgo-ordeal-call-pilot",
+      "to": "output:fgo-ordeal-call-accepted-minimal-output",
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "edgeId": "profile-pilots-have-output",
+      "edgeType": "has_source_linked_output_group",
+      "from": "pilot:kara-no-kyoukai-profile-supplement-pilot",
+      "to": "output:profile-supplement-accepted-derived-output",
+      "alsoFrom": ["pilot:prisma-illya-profile-supplement-pilot"],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "edgeId": "boundary-output-is-candidate-source-gap-only",
+      "edgeType": "has_source_linked_boundary_output",
+      "from": "index:candidates",
+      "to": "output:candidate-and-source-gap-boundary-output",
+      "alsoFrom": ["index:source-gaps"],
+      "candidateOnly": true,
+      "sourceGap": true,
+      "candidateOnlyEdge": true,
+      "sourceGapEdge": true,
+      "formalPromotionBlocked": true
+    },
+    {
+      "edgeId": "characters-indexes-fsn-fz-family",
+      "edgeType": "indexes_record_family",
+      "from": "index:characters",
+      "to": "family:characters:fsn-fz-entities",
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "edgeId": "events-indexes-fgo-part1-family",
+      "edgeType": "indexes_record_family",
+      "from": "index:events",
+      "to": "family:events:fgo-part1-events",
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "edgeId": "relationships-indexes-fgo-part1-family",
+      "edgeType": "indexes_record_family",
+      "from": "index:relationships",
+      "to": "family:relationships:fgo-part1-relationship-edges",
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "edgeId": "rules-indexes-core-settings-family",
+      "edgeType": "indexes_record_family",
+      "from": "index:rules",
+      "to": "family:rules:type-moon-core-general-settings-noncandidate-anchors",
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "edgeId": "mash-record-derived-from-fgo-script",
+      "edgeType": "record_source_pilot",
+      "from": "record:fgo-part1-solomon-mash-kyrielight",
+      "to": "pilot:fgo-script-pilot",
+      "sourceRefs": ["fgo-script-pilot/normalized/part1/solomon/characters/mash.fragment.json"],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "edgeId": "event-w-derived-from-fgo-script",
+      "edgeType": "record_source_pilot",
+      "from": "record:fgo-part1-solomon-event-w",
+      "to": "pilot:fgo-script-pilot",
+      "sourceRefs": ["fgo-script-pilot/extracted/part1/solomon/events/event-w.json"],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "edgeId": "fou-mash-restoration-links-event-w",
+      "edgeType": "relationship_record_references_event",
+      "from": "record:solomon-fou-mash-restoration",
+      "to": "record:fgo-part1-solomon-event-w",
+      "sourceRefs": ["fgo-script-pilot/normalized/part1/solomon/relationships/fou-mash-restoration.json"],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "edgeId": "boundary-candidates-index-tsukihime-supporting-cast",
+      "edgeType": "indexes_candidate_boundary_inventory",
+      "from": "index:candidates",
+      "to": "boundary:candidate:tsukihime-supporting-cast-candidates",
+      "candidateOnly": true,
+      "sourceGap": true,
+      "candidateOnlyEdge": true,
+      "sourceGapEdge": true,
+      "formalPromotionBlocked": true
+    },
+    {
+      "edgeId": "boundary-candidates-index-atlas-sion",
+      "edgeType": "indexes_candidate_boundary_inventory",
+      "from": "index:candidates",
+      "to": "boundary:candidate:atlas-sion-human-scope-candidate",
+      "candidateOnly": true,
+      "sourceGap": true,
+      "candidateOnlyEdge": true,
+      "sourceGapEdge": true,
+      "formalPromotionBlocked": true
+    },
+    {
+      "edgeId": "boundary-source-gaps-index-fate-spinoff",
+      "edgeType": "indexes_source_gap_inventory",
+      "from": "index:source-gaps",
+      "to": "boundary:source-gap:fate-spinoff-source-gap-inventory",
+      "candidateOnly": true,
+      "sourceGap": true,
+      "candidateOnlyEdge": true,
+      "sourceGapEdge": true,
+      "formalPromotionBlocked": true
+    },
+    {
+      "edgeId": "boundary-source-gaps-index-tsukihime-hold",
+      "edgeType": "indexes_source_gap_hold",
+      "from": "index:source-gaps",
+      "to": "boundary:source-gap:tsukihime-dead-apostle-hold",
+      "candidateOnly": false,
+      "sourceGap": true,
+      "sourceGapEdge": true,
+      "formalPromotionBlocked": true
+    },
+    {
+      "edgeId": "boundary-source-gaps-index-mahoyo-hold",
+      "edgeType": "indexes_source_gap_hold",
+      "from": "index:source-gaps",
+      "to": "boundary:source-gap:mahoyo-hold-pending-auditor-rerun",
+      "candidateOnly": false,
+      "sourceGap": true,
+      "sourceGapEdge": true,
+      "formalPromotionBlocked": true
+    }
+  ],
+  "sourceLinkedPilotOutputs": [
+    {
+      "outputGroupId": "fsn-fz-accepted-merged-output",
+      "sourcePilot": "fsn-fz-pilot",
+      "artifactRefs": ["fsn-fz-pilot/merged/merged-entities.json", "fsn-fz-pilot/merged/merged-graph.json", "fsn-fz-pilot/merged/merged-timeline.json"],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "outputGroupId": "fgo-script-accepted-graph-output",
+      "sourcePilot": "fgo-script-pilot",
+      "artifactRefs": ["fgo-script-pilot/graph/relationship-edge-index.json", "fgo-script-pilot/graph/timeline-graph.json", "fgo-script-pilot/merged/events/part1/"],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "outputGroupId": "fgo-ordeal-call-accepted-minimal-output",
+      "sourcePilot": "fgo-ordeal-call-pilot",
+      "artifactRefs": ["fgo-ordeal-call-pilot/graph/derived-index.json", "fgo-ordeal-call-pilot/graph/relationship-edge-index.json", "fgo-ordeal-call-pilot/merged/relationships/edges/ordeal-call/"],
+      "candidateOnly": false,
+      "sourceGap": false,
+      "sourceGapLimitations": ["dedicated merged appearance/ability/combat-effect canonical directories absent; packet signal indexes only referenced"]
+    },
+    {
+      "outputGroupId": "profile-supplement-accepted-derived-output",
+      "sourcePilot": "kara-no-kyoukai-profile-supplement-pilot; prisma-illya-profile-supplement-pilot",
+      "artifactRefs": ["kara-no-kyoukai-profile-supplement-pilot/graph/derived-index.json", "prisma-illya-profile-supplement-pilot/graph/derived-index.json"],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "outputGroupId": "candidate-and-source-gap-boundary-output",
+      "sourcePilot": "multiple nonformal or limited pilots",
+      "artifactRefs": ["candidates/index.json", "source-gaps/index.json"],
+      "candidateOnly": true,
+      "sourceGap": true,
+      "candidateOnlyEdge": true,
+      "sourceGapEdge": true,
+      "formalPromotionBlocked": true
+    }
+  ],
+  "coverageSummary": {
+    "formalSourcePilotNodes": 12,
+    "indexNodes": 13,
+    "representativeRecordNodes": 7,
+    "sourceLinkedPilotOutputNodes": 5,
+    "boundaryNodesIncluded": 5,
+    "candidateOrSourceGapEdgesMarked": true,
+    "fullRecordResolution": "Use primary extracted indexes and accepted artifact refs listed in sourceLinkedPilotOutputs; this derived graph does not duplicate all primary records."
+  }
+}

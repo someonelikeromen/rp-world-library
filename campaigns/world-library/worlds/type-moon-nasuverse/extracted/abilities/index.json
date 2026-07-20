@@ -1,0 +1,138 @@
+{
+  "schema": "tm-nasuverse-extracted-ability-index-v1",
+  "worldId": "type-moon-nasuverse",
+  "recordFamily": "abilities-appearance-combat-effects-and-systems",
+  "defaultQueryPolicy": {
+    "candidateOnly": false,
+    "sourceGap": false,
+    "excludeUnsupportedAliases": true,
+    "excludeHeldPilots": true
+  },
+  "formalRecordFamilies": [
+    {
+      "familyId": "fsn-fz-abilities-systems-concepts",
+      "sourcePilot": "fsn-fz-pilot",
+      "recordType": "ability-system-or-concept",
+      "continuityScope": ["fate-zero", "fate-stay-night"],
+      "summaryCountRef": "fsn-fz-pilot/merged/index.json#/summaryCounts/abilitiesSystemsConcepts",
+      "acceptedArtifactRefs": ["fsn-fz-pilot/merged/merged-entities.json"],
+      "sourceType": "p1-hybrid-local-worldbook-and-story-text",
+      "credibility": "B",
+      "canonStatus": "canon-like/adapted",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "auditStatusRef": "fsn-fz-pilot/audit/final-pass-report.json"
+    },
+    {
+      "familyId": "fgo-part1-appearance-ability-combat-signals",
+      "sourcePilot": "fgo-script-pilot",
+      "recordType": "appearance-signal; ability-signal; combat-effect-signal",
+      "continuityScope": ["fgo-part1"],
+      "acceptedArtifactRefs": [
+        "fgo-script-pilot/merged/appearances/part1/",
+        "fgo-script-pilot/merged/abilities/part1/",
+        "fgo-script-pilot/merged/combat-effects/part1/",
+        "fgo-script-pilot/normalized/part1/*/abilities/records.json"
+      ],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "auditStatusRef": "fgo-script-pilot/STATUS.md",
+      "policyNotes": ["Unsupported aliases remain candidate-only or legacy slugs; not-found records are explicit source gaps, not inferred facts."]
+    },
+    {
+      "familyId": "fgo-eor-appearance-ability-combat-records",
+      "sourcePilot": "fgo-eor-pilot",
+      "recordType": "appearance-signal; ability-signal; combat-effect-signal",
+      "continuityScope": ["fgo-epic-of-remnant"],
+      "summaryCounts": {"appearanceRecords": 36, "abilityRecords": 50, "combatEffectRecords": 53},
+      "acceptedArtifactRefs": ["fgo-eor-pilot/merged/appearances/", "fgo-eor-pilot/merged/abilities/", "fgo-eor-pilot/merged/combat-effects/"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "auditStatusRef": "fgo-eor-pilot/STATUS.md"
+    },
+    {
+      "familyId": "fgo-lostbelt-appearance-ability-combat-records",
+      "sourcePilot": "fgo-lb1-lb2-pilot; fgo-lb3-lb4-pilot; fgo-lb5-pilot; fgo-lb6-pilot",
+      "recordType": "appearance-signal; ability-signal; combat-effect-signal",
+      "continuityScope": ["fgo-lostbelt"],
+      "summaryCounts": {"lb1lb2Appearance": 69, "lb1lb2Ability": 70, "lb1lb2Combat": 68, "lb3lb4Appearance": 19, "lb3lb4Ability": 38, "lb3lb4Combat": 38, "lb5Appearance": 44, "lb5Ability": 54, "lb5Combat": 46, "lb6Appearance": 22, "lb6Ability": 32, "lb6Combat": 36},
+      "acceptedArtifactRefs": [
+        "fgo-lb1-lb2-pilot/merged/appearances/",
+        "fgo-lb1-lb2-pilot/merged/abilities/",
+        "fgo-lb1-lb2-pilot/merged/combat-effects/",
+        "fgo-lb3-lb4-pilot/merged/appearances/",
+        "fgo-lb3-lb4-pilot/merged/abilities/",
+        "fgo-lb3-lb4-pilot/merged/combat-effects/",
+        "fgo-lb5-pilot/merged/appearances/",
+        "fgo-lb5-pilot/merged/abilities/",
+        "fgo-lb5-pilot/merged/combat-effects/",
+        "fgo-lb6-pilot/merged/appearances/",
+        "fgo-lb6-pilot/merged/abilities/",
+        "fgo-lb6-pilot/merged/combat-effects/"
+      ],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "auditStatusRefs": ["fgo-lb1-lb2-pilot/STATUS.md", "fgo-lb3-lb4-pilot/STATUS.md", "fgo-lb5-pilot/STATUS.md", "fgo-lb6-pilot/STATUS.md"]
+    },
+    {
+      "familyId": "fgo-ordeal-call-packet-signal-coverage",
+      "sourcePilot": "fgo-ordeal-call-pilot",
+      "recordType": "packet-signal-coverage-index",
+      "continuityScope": ["fgo-ordeal-call"],
+      "acceptedArtifactRefs": [
+        "fgo-ordeal-call-pilot/normalized/ordeal-call/oc1-paper-moon/signal-index.json",
+        "fgo-ordeal-call-pilot/normalized/ordeal-call/oc2-id/signal-index.json",
+        "fgo-ordeal-call-pilot/normalized/ordeal-call/oc3-integration/signal-index.json"
+      ],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "auditStatusRef": "fgo-ordeal-call-pilot/STATUS.md",
+      "nonblockingLimitations": ["Dedicated merged appearance/ability/combat-effect canonical directories are absent in the accepted minimal state; do not infer missing canonical signal records."]
+    },
+    {
+      "familyId": "kara-no-kyoukai-abilities-systems",
+      "sourcePilot": "kara-no-kyoukai-profile-supplement-pilot",
+      "recordType": "ability-system-record",
+      "continuityScope": ["kara-no-kyoukai"],
+      "acceptedArtifactRefs": ["kara-no-kyoukai-profile-supplement-pilot/normalized/profile-supplement/ryougi-shiki/systems/abilities-systems.json"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "canon-like/adapted",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "auditStatusRef": "kara-no-kyoukai-profile-supplement-pilot/STATUS.md"
+    },
+    {
+      "familyId": "prisma-illya-world-mechanics-and-cards",
+      "sourcePilot": "prisma-illya-profile-supplement-pilot",
+      "recordType": "mechanics-or-ability-record-redacted",
+      "continuityScope": ["prisma-illya"],
+      "acceptedArtifactRefs": ["prisma-illya-profile-supplement-pilot/normalized/profile-supplement/prisma-illya/world-mechanics.json"],
+      "sourceType": "user-file-worldbook-profile-redacted",
+      "credibility": "B",
+      "canonStatus": "canon-like/adapted",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "auditStatusRef": "prisma-illya-profile-supplement-pilot/STATUS.md",
+      "redactionPolicy": "Unsafe underage adult-content excluded."
+    }
+  ],
+  "excludedFromFormalAbilityIndex": [
+    {"pilotId": "mahoyo-profile-supplement-pilot", "reason": "hold pending auditor rerun"},
+    {"pilotId": "tsukihime-dead-apostle-profile-supplement-pilot", "reason": "hold pending separate final audit"},
+    {"pilotId": "tsukihime-supporting-cast-candidate-supplement-pilot", "reason": "candidate/source-gap only"},
+    {"recordId": "fgo-part1-alias-ars-nova", "reason": "unsupported alias in current source, not formal source-backed label"}
+  ]
+}

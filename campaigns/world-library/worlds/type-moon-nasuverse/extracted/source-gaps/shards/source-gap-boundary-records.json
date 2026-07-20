@@ -1,0 +1,45 @@
+{
+  "schema": "tm-nasuverse-source-gap-boundary-shard-v1",
+  "worldId": "type-moon-nasuverse",
+  "records": [
+    {
+      "recordId": "source-gap-fate-spinoff-inventory-only",
+      "recordType": "source-gap-boundary",
+      "sourcePilot": "fate-spinoff-profile-supplement-pilot",
+      "candidateOnly": true,
+      "sourceGap": true,
+      "decision": "Inventory-only; blocked-insufficient-source; do not promote Fate spinoff worldline summaries into formal facts.",
+      "sourceRefs": ["fate-spinoff-profile-supplement-pilot/source-gap-inventory.json"],
+      "sourceType": "inventory-only-local-worldbook-summary",
+      "credibility": "insufficient-for-formal-merge",
+      "canonStatus": "not-formalized",
+      "audit": {"formalFactsCreated": false, "blocked": true}
+    },
+    {
+      "recordId": "source-gap-type-lumina-supporting-cast",
+      "recordType": "source-gap-boundary",
+      "sourcePilot": "tsukihime-supporting-cast-candidate-supplement-pilot",
+      "candidateOnly": true,
+      "sourceGap": true,
+      "decision": "Type Lumina-specific cast and roster entries remain source-gap/candidate-only.",
+      "sourceRefs": ["tsukihime-supporting-cast-candidate-supplement-pilot/source-gap-inventory.json#Type Lumina / remake"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B for explicit gap evidence",
+      "canonStatus": "adapted/source-gap",
+      "audit": {"formalFactsCreated": false, "typeLuminaFormalized": false}
+    },
+    {
+      "recordId": "source-gap-prisma-redacted-unsafe-sections",
+      "recordType": "safety-source-gap-boundary",
+      "sourcePilot": "prisma-illya-profile-supplement-pilot",
+      "candidateOnly": true,
+      "sourceGap": true,
+      "decision": "Unsafe underage adult-content sections are redacted and excluded from source packets, normalized records, graph indexes, timeline indexes, and formal facts.",
+      "sourceRefs": ["prisma-illya-profile-supplement-pilot/normalized/profile-supplement/prisma-illya/source-gap-index.json#unsafe-underage-adult-content", "prisma-illya-profile-supplement-pilot/STATUS.md"],
+      "sourceType": "user-file-worldbook-profile-redacted",
+      "credibility": "B for redaction boundary",
+      "canonStatus": "excluded-safety-blocker",
+      "audit": {"redactedUnsafeSections": true, "formalFactsCreated": false}
+    }
+  ]
+}

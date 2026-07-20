@@ -1,8 +1,0 @@
-{
-  "schema": "tm-fgo-packet-fixer-report-v1",
-  "packetId": "pkt-fgo-part1-fuyuki-extract",
-  "model": "lt-yuyu/gpt-5.5",
-  "status": "fixed",
-  "fixes": ["Overwrote suspect canceled-r6 Fuyuki event files with tm-fgo-script-event-v1 files.", "Regenerated world-state, character fragments, and relationship edges with sourceRefs.", "Created packet audit artifacts under audit/packet-audits/part1/fuyuki/."],
-  "sourceRefs": ["sources/worldbook-script/part1/ch-000-fuyuki.txt#world_timeline"]
-}

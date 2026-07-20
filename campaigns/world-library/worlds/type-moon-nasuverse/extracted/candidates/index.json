@@ -1,0 +1,116 @@
+{
+  "schema": "tm-nasuverse-extracted-candidate-index-v1",
+  "worldId": "type-moon-nasuverse",
+  "recordFamily": "candidate-only-and-nonformal-records",
+  "defaultQueryPolicy": {
+    "includeInFormalWorldQuery": false,
+    "candidateOnly": true,
+    "sourceGapMayBeTrue": true
+  },
+  "candidateInventories": [
+    {
+      "candidateInventoryId": "tsukihime-supporting-cast-candidates",
+      "sourcePilot": "tsukihime-supporting-cast-candidate-supplement-pilot",
+      "status": "accepted-with-source-gap-limitations",
+      "candidateOnly": true,
+      "sourceGap": true,
+      "continuityScope": ["tsukihime-original", "tsukihime-remake", "melty-blood", "type-lumina", "sandbox"],
+      "publicationDecision": "candidate/source-gap inventory only; no formal characters/events/relationships/graph/timeline facts",
+      "sourceRefs": [
+        "tsukihime-supporting-cast-candidate-supplement-pilot/candidate-supplement.json",
+        "tsukihime-supporting-cast-candidate-supplement-pilot/source-gap-inventory.json",
+        "tsukihime-supporting-cast-candidate-supplement-pilot/STATUS.md"
+      ],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "adapted",
+      "audit": {
+        "finalStatusRef": "tsukihime-supporting-cast-candidate-supplement-pilot/audit/final-status.json",
+        "formalPromotionBlocked": true,
+        "reason": "Pilot explicitly states no formal characters, events, relationships, graph, timeline, or merged facts are created."
+      }
+    },
+    {
+      "candidateInventoryId": "atlas-sion-human-scope-candidate",
+      "sourcePilot": "type-moon-core-general-settings-pilot",
+      "recordId": "atlas-and-sion-candidate-context",
+      "status": "blocked-needs-human-scope",
+      "candidateOnly": true,
+      "sourceGap": true,
+      "continuityScope": ["tsukihime-worldline-candidate", "fgo-worldline-candidate", "fgo-script-context", "melty-blood-candidate"],
+      "publicationDecision": "candidate/source-gap only; not formalized as a merged institution or general Atlas/Sion record",
+      "sourceRefs": [
+        "type-moon-core-general-settings-pilot/normalized/core-general-settings/index.json#atlas-and-sion-candidate-context",
+        "type-moon-core-general-settings-pilot/source-gap-inventory.json",
+        "tsukihime-supporting-cast-candidate-supplement-pilot/candidate-supplement.json#sion-eltnam-sokaris"
+      ],
+      "sourceType": "candidate supplement plus FGO script context",
+      "credibility": "B adapted/candidate",
+      "canonStatus": "adapted/source-mixed",
+      "audit": {
+        "finalStatusRef": "type-moon-core-general-settings-pilot/audit/final-status.json",
+        "humanScopeRequired": ["Atlas/Sion continuity resolution", "Melty-specific corroboration"]
+      }
+    },
+    {
+      "candidateInventoryId": "prisma-sitonai-shidounai-cross-work",
+      "sourcePilot": "prisma-illya-profile-supplement-pilot",
+      "recordId": "prisma-sitonai-cross-work",
+      "status": "candidate-only-not-merged",
+      "candidateOnly": true,
+      "sourceGap": true,
+      "continuityScope": ["prisma-illya", "cross-work-identity-separation"],
+      "publicationDecision": "candidate/source-gap only; not merged into Prisma Illya core continuity and not merged with FSN Illya",
+      "sourceRefs": [
+        "prisma-illya-profile-supplement-pilot/normalized/profile-supplement/prisma-illya/source-gap-index.json#prisma-sitonai-cross-work",
+        "prisma-illya-profile-supplement-pilot/extracted/profile-supplement/prisma-illya/records/source-gap-and-safety-blockers.json#prisma-sitonai-cross-work",
+        "prisma-illya-profile-supplement-pilot/STATUS.md"
+      ],
+      "sourceType": "user-file-worldbook-profile-redacted",
+      "credibility": "B",
+      "canonStatus": "adapted/source-mixed",
+      "audit": {
+        "finalStatusRef": "prisma-illya-profile-supplement-pilot/audit/final-status.json",
+        "formalPromotionBlocked": true
+      }
+    },
+    {
+      "candidateInventoryId": "unsupported-alias-candidates",
+      "sourcePilot": "multiple-fgo-and-profile-pilots",
+      "status": "candidate-unsupported-by-current-source",
+      "candidateOnly": true,
+      "sourceGap": true,
+      "continuityScope": ["multiple"],
+      "publicationDecision": "unsupported aliases may remain as candidate records or legacy slugs only, never as source-backed formal labels",
+      "sourceRefs": [
+        "fgo-script-pilot/STATUS.md",
+        "fgo-eor-pilot/candidates/",
+        "fgo-lb1-lb2-pilot/candidates/",
+        "fgo-lb3-lb4-pilot/candidates/",
+        "fgo-lb5-pilot/candidates/",
+        "fgo-lb6-pilot/candidates/",
+        "fgo-ordeal-call-pilot/candidates/"
+      ],
+      "sourceType": "candidate inventory",
+      "credibility": "varies-by-pilot; not formal",
+      "canonStatus": "unsupported-by-current-source",
+      "audit": {
+        "formalPromotionBlocked": true,
+        "example": "FGO Solomon Ars Nova alias retained as unsupported alias where current source only states first Noble Phantasm/self-erasure."
+      }
+    }
+  ],
+  "heldPilotCandidateRefs": [
+    {
+      "pilotId": "mahoyo-profile-supplement-pilot",
+      "decision": "hold entire pilot from formal publication; candidate-only cross-work continuity remains nonformal",
+      "sourceRefs": ["mahoyo-profile-supplement-pilot/STATUS.md", "mahoyo-profile-supplement-pilot/normalized/profile-supplement/packet-009-candidate-only-cross-work-continuity/cross-work-candidate-index.json"]
+    },
+    {
+      "pilotId": "tsukihime-dead-apostle-profile-supplement-pilot",
+      "decision": "hold entire pilot from formal publication; Type Lumina and other source gaps remain nonformal",
+      "sourceRefs": ["tsukihime-dead-apostle-profile-supplement-pilot/audit/final/final-status.json", "tsukihime-dead-apostle-profile-supplement-pilot/source-unit-manifest.json"]
+    }
+  ],
+  "representativeShardRefs": ["candidates/shards/candidate-boundary-records.json"]
+}

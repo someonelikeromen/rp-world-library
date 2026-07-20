@@ -30,5 +30,12 @@ nul
 # Local temp/intermediate state
 .worktrees/
 tmp/
+work/
 merged/
 *.stackdump
+
+# Manual curation intermediate workspaces (keep local, do not push)
+/campaigns/world-library/manual-curation/*-output/
+/campaigns/world-library/manual-curation/*-p1-output/
+/campaigns/world-library/manual-curation/*-p1-style/
+/campaigns/world-library/manual-curation/type-moon-p1-hybrid/
