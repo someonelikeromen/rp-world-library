@@ -1,0 +1,38 @@
+{
+  "schema": "gundam-seed-legacy-extracted-manifest-v1",
+  "worldId": "gundam-seed",
+  "layer": "extracted",
+  "archiveKind": "world",
+  "status": "legacy-extracted-layer-indexed",
+  "legacyLayer": true,
+  "canUseAsPiExtractedLayer": true,
+  "canReplaceCurated": false,
+  "sourceWorldview": "imports/worldviews/gundam-seed",
+  "indexes": {
+    "timeline": "timeline.json"
+  },
+  "legacyGraphFiles": [
+    "graph/complete-graph.json",
+    "graph/event-graph.json"
+  ],
+  "counts": {
+    "extractedJsonFiles": 22,
+    "characters": 104,
+    "sources": 213,
+    "worldSections": {
+      "powerSystems": 32,
+      "factions": 36,
+      "rules": 44,
+      "locations": 0,
+      "events": 0
+    }
+  },
+  "graphPolicy": {
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "introducesNewFacts": false,
+    "legacyGraphFilesMayUseOlderNames": true
+  },
+  "generatedAt": "2026-07-20T17:12:10.528Z",
+  "note": "Minimal manifest added for consistency with newer world-library extracted layers; existing legacy files were not renamed or rewritten."
+}

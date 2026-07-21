@@ -193,12 +193,16 @@ function build() {
       const files = fs.readdirSync(wbDir).filter(f => f.endsWith('.json'));
       let totalEntries = 0;
       let sampleComments = [];
-      for (const fn of files.slice(0, 3)) {
+      for (const fn of files) {
         try {
           const d = JSON.parse(fs.readFileSync(path.join(wbDir, fn), 'utf-8'));
-          totalEntries += (d.entries || []).length;
-          for (const e of (d.entries || []).slice(0, 50)) {
-            if (e.comment && e.comment.length > 0) sampleComments.push(e.comment);
+          const entries = d.entries || [];
+          totalEntries += entries.length;
+          // Keep the search index compact: only retain comment samples from the first few source files.
+          if (sampleComments.length < 150) {
+            for (const e of entries.slice(0, 50)) {
+              if (e.comment && e.comment.length > 0) sampleComments.push(e.comment);
+            }
           }
         } catch (e) {}
       }

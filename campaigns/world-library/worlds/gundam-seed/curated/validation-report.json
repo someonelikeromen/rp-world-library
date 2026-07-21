@@ -1,0 +1,60 @@
+{
+  "schema": "gundam-seed-curated-validation-report-v2",
+  "generatedAt": "2026-07-20T14:17:52.324Z",
+  "status": "complete-with-recorded-gaps",
+  "summary": "Curated runtime package is readable and source-backed base SEED core is complete with recorded residual review/gaps.",
+  "counts": {
+    "sourceRecords": 213,
+    "worldbookSeedEntries": 128,
+    "characters": 104,
+    "characterGroups": 14,
+    "mobileSuits": 48,
+    "warships": 14,
+    "events": 19,
+    "rules": 44,
+    "relationships": 1885,
+    "semanticAutoPromoted": 412,
+    "semanticReviewCandidates": 70,
+    "knowledgeGraphNodes": 578,
+    "knowledgeGraphEdges": 2069,
+    "plotGraphNodes": 578,
+    "plotGraphEdges": 3356,
+    "completeGraphNodes": 478,
+    "completeGraphEdges": 4116,
+    "eventGraphNodes": 123,
+    "eventGraphEdges": 162,
+    "jsonChecked": 957,
+    "jsonErrors": 0
+  },
+  "gates": {
+    "sourceIngest": "passed",
+    "normalizedCandidateAudit": "passed",
+    "curatedRuntimePackage": "passed",
+    "worldQueryOverview": "passed-prior-tool-validation",
+    "worldQueryCharacters": "passed-prior-tool-validation",
+    "worldQueryGraph": "passed-prior-tool-validation",
+    "semanticRelations": "passed",
+    "worldbookConflict": "passed-with-reference-layer-decisions",
+    "groupDerived": "passed-with-review-needed-residuals",
+    "extendedGate": "accepted-recorded-gaps",
+    "jsonValidation": "passed"
+  },
+  "residualReview": {
+    "groupDerivedReviewNeeded": 10,
+    "semanticReviewCandidates": 70,
+    "fieldConflictsRecorded": 17,
+    "fullImageVisionResidual": true,
+    "extensionLayersRemainIsolated": true
+  },
+  "outputs": {
+    "curatedWorld": "campaigns/world-library/worlds/gundam-seed/curated/world.json",
+    "relationshipGraph": "campaigns/world-library/worlds/gundam-seed/curated/relationship-graph.json",
+    "knowledgeGraph": "campaigns/world-library/worlds/gundam-seed/curated/knowledge-graph.json",
+    "plotGraph": "campaigns/world-library/worlds/gundam-seed/curated/plot-graph.json",
+    "completeGraph": "campaigns/world-library/worlds/gundam-seed/extracted/graph/complete-graph.json",
+    "semanticReport": "campaigns/world-library/manual-curation/gundam-seed-opus-p1-style/reports/semantic-relation-promotion-report.json",
+    "conflictDecisions": "campaigns/world-library/manual-curation/gundam-seed-opus-p1-style/audit/worldbook-conflict-decisions.json",
+    "groupResolution": "campaigns/world-library/manual-curation/gundam-seed-opus-p1-style/audit/group-derived-resolution.json",
+    "extendedGateClosure": "campaigns/world-library/manual-curation/gundam-seed-opus-p1-style/audit/extended-gate-closure.json"
+  }
+}
