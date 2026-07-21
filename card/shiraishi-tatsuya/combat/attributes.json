@@ -1,0 +1,64 @@
+{
+  "attributes": {
+    "output": {
+      "rating": "N0",
+      "score": 0,
+      "basis": "现实侧：现代人范围内的低调异常身体，圣斗士世界人的肉体带来优越身体底子，但当前世界小宇宙不发挥作用；SAO游戏侧输出由登录后的等级、武器、技能熟练度与剑技系统决定。"
+    },
+    "durability": {
+      "rating": "N0",
+      "score": 0,
+      "basis": "现实侧：恢复力、耐力、体能成长优于普通人，但不防刀枪，不是非人类；SAO侧耐久由HP、装备、防御与状态决定。"
+    },
+    "reaction": {
+      "rating": "N0",
+      "score": 0,
+      "basis": "现实侧：反应、平衡感、空间感明显优于普通人，可解释为天赋与训练；SAO侧仍受系统延迟、剑技硬直、动作选择与玩家操作限制。"
+    },
+    "control": {
+      "rating": "N0",
+      "score": 0,
+      "basis": "有兵击与体能训练，具备基础持械对抗意识、距离感、步法、招架、节奏阅读；不锁定武器路线。"
+    },
+    "perception": {
+      "rating": "N0",
+      "score": 0,
+      "basis": "第一世理工训练、写作观察力与圣斗士灵魂带来的精神稳定性，使其对风险和细节较敏感；不是超感知。"
+    },
+    "mentalStrength": {
+      "rating": "N0",
+      "score": 0,
+      "basis": "三世记忆、孤儿经历、自力更生与圣斗士灵魂使其恐惧耐受和压力恢复较强；不免疫创伤，不自动勇敢。"
+    },
+    "computation": {
+      "rating": "N0",
+      "score": 0,
+      "basis": "第一世计算机+数学双本科、华为AI相关工作经历；第三世写作本土化和商业化带来结构拆解能力。"
+    },
+    "fortune": {
+      "rating": "N0",
+      "score": 0,
+      "basis": "未定义超自然幸运；剧情与随机事件按安科/沙盒推演。"
+    }
+  },
+  "modifiers": [
+    {
+      "id": "real_body_saint_seiya_human",
+      "name": "圣斗士世界人的肉体与灵魂（现实层）",
+      "scope": "reality-only / cross-world-origin",
+      "effect": "现实身体与灵魂底子低调异常；当前世界小宇宙不发挥作用；不直接转化为SAO游戏STR、HP或装备。"
+    },
+    {
+      "id": "modern_hema_and_fitness",
+      "name": "兵击与体能训练",
+      "scope": "real training / player operation influence",
+      "effect": "提供持械基础、距离感、步法、招架、节奏阅读、被攻击心理适应；SAO中仅通过玩家操作、判断和训练迁移体现，不绕过系统。"
+    },
+    {
+      "id": "saosystem_separation",
+      "name": "现实-游戏数据分离",
+      "scope": "world rule",
+      "effect": "现实属性、灵魂、训练不得直接等同SAO等级、HP、技能熟练度或装备数值。"
+    }
+  ]
+}

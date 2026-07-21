@@ -1,0 +1,69 @@
+{
+  "resources": [
+    {
+      "id": "real_stamina",
+      "name": "现实体力",
+      "capacity": 0,
+      "current": 0,
+      "unit": "narrative",
+      "recoveryRate": "规律作息与体能训练支持；现实侧具体消耗按叙事与场景判断。",
+      "externalDependency": "现实身体；不等同SAO HP或游戏耐力。",
+      "combatEndurance": "低调异常的现代人水平，仍非超人。",
+      "exhaustionEffects": [
+        "疲劳会影响判断、反应和训练效果。"
+      ]
+    },
+    {
+      "id": "sao_hp",
+      "name": "SAO HP",
+      "capacity": 250,
+      "current": 250,
+      "unit": "HP",
+      "recoveryRate": "由SAO系统、药水、休息与安全区规则结算；当前按归档初始化变量为250/250。",
+      "externalDependency": "SAO游戏系统；HP归零代表现实死亡。",
+      "combatEndurance": "游戏账号层资源，不与现实身体强度混用。",
+      "exhaustionEffects": [
+        "HP降低带来死亡风险；归零死亡。"
+      ]
+    },
+    {
+      "id": "sao_col",
+      "name": "SAO Col",
+      "capacity": null,
+      "current": 500,
+      "unit": "Col",
+      "recoveryRate": "通过任务、掉落、交易、生产等获得；当前按归档初始化变量为500 Col。",
+      "externalDependency": "SAO经济系统。",
+      "combatEndurance": "生存补给、装备维护、情报购买的重要资源。",
+      "exhaustionEffects": [
+        "资金不足会限制装备、补给和安全行动。"
+      ]
+    },
+    {
+      "id": "sao_skill_resource",
+      "name": "SAO技能/耐力资源",
+      "capacity": null,
+      "current": null,
+      "unit": "system-tracked-if-needed",
+      "recoveryRate": "归档状态栏模板存在MP/SP显示口径，但初始化变量未设定SP权威值；战斗中如需剑技/连续行动消耗，由脚本按场景建立并结算。",
+      "externalDependency": "SAO游戏系统。",
+      "combatEndurance": "用于表达剑技、冲刺、连续行动等消耗，但当前不作为已初始化数值资源。",
+      "exhaustionEffects": [
+        "资源不足会限制高强度连续行动和剑技使用。"
+      ]
+    },
+    {
+      "id": "cosmo",
+      "name": "小宇宙",
+      "capacity": 0,
+      "current": 0,
+      "unit": "unavailable",
+      "recoveryRate": "当前世界规则下不发挥作用。",
+      "externalDependency": "圣斗士力量体系；SAO世界不支持。",
+      "combatEndurance": "不可用，不提供属性、技能或爆发。",
+      "exhaustionEffects": [
+        "无。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "currentWorldId": "sword-art-online",
+  "adaptations": [
+    {
+      "worldId": "sword-art-online",
+      "worldName": "刀剑神域 / Sword Art Online",
+      "status": "current-initializing",
+      "entryMode": "第三世出生于SAO现实世界；2022年11月6日主动登录SAO正式服。",
+      "ruleNotes": [
+        "正式运营期艾恩葛朗特规则：无魔法、无治疗术、无远程弓术职业或现代枪械。",
+        "HP归零代表现实死亡；外部强行摘除NERvGear或切断电源同样危险。",
+        "城镇内为安全区，圈外允许怪物伤害与PK风险。",
+        "原作事件作为条件式种子，满足地点、楼层、前置、参与者与局势才发生，用户介入可改变。",
+        "现实人物数据与SAO游戏系统数据分开：现实体质、训练、灵魂不直接等同游戏等级、HP、技能或装备。"
+      ]
+    },
+    {
+      "worldId": "saint-seiya",
+      "worldName": "圣斗士星矢 / Saint Seiya",
+      "status": "origin-prior-life-no-current-access",
+      "entryMode": "第二世转生于圣斗士世界古代，因古代高婴儿死亡率很快夭折。",
+      "ruleNotes": [
+        "角色本质上带有圣斗士世界人的肉体与灵魂。",
+        "拥有小宇宙力量体系潜力。",
+        "当前SAO世界规则下小宇宙不发挥作用，不提供战斗属性或技能。"
+      ]
+    },
+    {
+      "worldId": "real-world-first-life",
+      "worldName": "现实第一世",
+      "status": "memory-origin",
+      "entryMode": "第一世出生并成长于现实世界，死亡后转生。",
+      "ruleNotes": [
+        "计算机/数学/AI工作经验、文学/神话/历史素养、宅文化知识和写作经验完整作为记忆保留。"
+      ]
+    }
+  ],
+  "worldsExperienced": [
+    {
+      "worldId": "real-world-first-life",
+      "worldName": "现实第一世",
+      "firstEnteredAt": "第一世出生",
+      "entryMode": "出生",
+      "status": "past-life-memory"
+    },
+    {
+      "worldId": "saint-seiya",
+      "worldName": "圣斗士星矢",
+      "firstEnteredAt": "第二世出生",
+      "entryMode": "转生",
+      "status": "past-life-body-soul-origin"
+    },
+    {
+      "worldId": "sword-art-online",
+      "worldName": "刀剑神域",
+      "firstEnteredAt": "第三世出生；SAO开服日主动登录游戏",
+      "entryMode": "转生 + 主动登录VR死亡游戏",
+      "status": "current"
+    }
+  ],
+  "energyExposure": {
+    "currentWorld": {
+      "worldId": "sword-art-online",
+      "hasEnergySystem": false,
+      "energySystemsEncountered": [],
+      "protagonistExposureLevel": "no-current-world-energy-access",
+      "notes": "SAO艾恩葛朗特正式运营期规则无魔法、无治疗术；小宇宙潜力在当前世界不发挥作用。"
+    },
+    "experiencedWorldsSummary": {
+      "hasAnyEnergyExposure": true,
+      "energySystemsEncountered": [
+        "圣斗士体系：小宇宙潜力（当前不可用）"
+      ],
+      "worldIds": [
+        "real-world-first-life",
+        "saint-seiya",
+        "sword-art-online"
+      ]
+    },
+    "warnings": [
+      "小宇宙不可作为SAO内战斗资源使用。",
+      "若未来离开SAO世界或世界规则变化，必须重新做世界适配和战斗结算。"
+    ]
+  },
+  "compatibilityNotes": [
+    "SAO游戏账号层：等级、HP、Col、装备、技能熟练度由SAO系统决定。",
+    "现实人物层：圣斗士肉体与灵魂、兵击/体能训练、第一世知识作为背景存在。",
+    "可通过判断、操作、心理稳定、训练迁移影响行动选择，但不得绕过SAO系统。"
+  ]
+}

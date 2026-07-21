@@ -1,0 +1,57 @@
+{
+  "schema": "rp-life-system-tree-state-v1",
+  "enabled": false,
+  "owner": "protagonist-only",
+  "uiStyle": "sci-fi",
+  "masterGraphRef": "data/rp-life-system-tree/global-graph.json",
+  "masterGraphVersion": "v1",
+  "displayPolicy": {
+    "maxVisibleRatingOffsetFromProtagonistOverall": 1,
+    "showHiddenNodeSilhouettes": false,
+    "requiresActiveSearchForUnknownAbilityBases": true,
+    "showOnlyUnlockedAbilityBaseTrees": true,
+    "forbidQuestionMarkNodes": true
+  },
+  "currency": {
+    "conversionRate": 1000,
+    "defaultVisibleLevels": [
+      1,
+      2,
+      3
+    ],
+    "allowHigherLevels": true,
+    "balances": {
+      "1级奖励点": 0,
+      "2级奖励点": 0,
+      "3级奖励点": 0
+    },
+    "lifetimeEarned": {
+      "1级奖励点": 0,
+      "2级奖励点": 0,
+      "3级奖励点": 0
+    },
+    "lifetimeSpent": {
+      "1级奖励点": 0,
+      "2级奖励点": 0,
+      "3级奖励点": 0
+    }
+  },
+  "storyGraph": {
+    "unlockedAbilityBases": [],
+    "revealedNodes": [],
+    "availableNodes": [],
+    "unlockedNodes": [],
+    "selfAchievedNodes": [],
+    "nodeRanks": {},
+    "visibleEdges": []
+  },
+  "searchRecords": [],
+  "sourceAudits": [],
+  "transactions": [],
+  "auditLog": [
+    {
+      "id": "init-disabled",
+      "note": "SAO新档暂不开生命系统树；旧程成档生命树不带入。"
+    }
+  ]
+}

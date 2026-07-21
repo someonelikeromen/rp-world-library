@@ -1,0 +1,106 @@
+{
+  "abilities": [
+    {
+      "id": "first-life-ai-math-compsci",
+      "name": "第一世：计算机/数学/AI经验",
+      "category": "knowledge-skill",
+      "sourceWorldId": "real-world-first-life",
+      "status": "available-reality-and-cognition",
+      "description": "计算机本科与数学本科双学位，华为AI相关工作经验；支持结构拆解、建模、风险分析、信息整理。",
+      "limitations": [
+        "不能直接破解SAO系统。",
+        "SAO内只能通过可感知信息、笔记、交易、路线规划等方式体现。"
+      ]
+    },
+    {
+      "id": "literary-myth-writing",
+      "name": "文学/历史/神话素养与写作能力",
+      "category": "knowledge-skill",
+      "sourceWorldId": "real-world-first-life",
+      "status": "available",
+      "description": "第一世语文、历史、神话、文学素养较高；第三世以“一叶知秋”写作自力更生，擅长长篇结构、本土化改写和IP化表达。",
+      "limitations": [
+        "文抄作品来自第一世记忆，当前世界不存在原作；公开身份仍分圈层可见。"
+      ]
+    },
+    {
+      "id": "saint-seiya-body-soul",
+      "name": "圣斗士世界人的肉体与灵魂",
+      "category": "body-soul-foundation",
+      "sourceWorldId": "saint-seiya",
+      "status": "available-reality / limited-by-current-world",
+      "description": "角色本质上带着圣斗士世界人的肉体与灵魂转生到SAO世界；现实侧表现为低调异常的身体底子、恢复力、协调性、精神韧性。",
+      "limitations": [
+        "当前世界小宇宙不发挥作用。",
+        "不等同SAO游戏数值，不直接提供HP、等级、技能或装备优势。"
+      ]
+    },
+    {
+      "id": "cosmo-potential",
+      "name": "小宇宙力量体系潜力",
+      "category": "energy-potential",
+      "sourceWorldId": "saint-seiya",
+      "status": "unavailable-current-world",
+      "description": "拥有小宇宙体系潜力，但在当前SAO世界规则下完全不发挥作用。",
+      "limitations": [
+        "不觉醒、不放光、不爆发、不加属性。",
+        "如未来跨世界规则变化，需重新进行世界适配与结算。"
+      ]
+    },
+    {
+      "id": "modern-hema-fitness",
+      "name": "兵击与体能训练",
+      "category": "training",
+      "sourceWorldId": "sword-art-online-reality",
+      "status": "available-as-training-background",
+      "description": "开服前进行过一段时间兵击和体能训练；具备基础持械对抗意识、距离感、步法、招架、节奏阅读和良好身体素质。",
+      "limitations": [
+        "不是职业运动员级。",
+        "不锁定武器路线；进入SAO后具体表现由系统、装备、熟练度、场景和用户选择决定。",
+        "不会自动生成SAO武器技能熟练度或剑技。"
+      ]
+    },
+    {
+      "id": "sao-skill-slot-pending",
+      "name": "SAO第二技能槽待确认",
+      "category": "sao-system-pending",
+      "sourceWorldId": "sword-art-online",
+      "status": "pending-second-slot-selection",
+      "description": "LV1基础技能槽=2。第1槽已确认装备「双手长剑」；第2槽仍待用户按RP引擎流程单独确认。",
+      "limitations": [
+        "只有已装备技能生效并增长熟练度。",
+        "技能、剑技与熟练度不能由现实训练直接替代。",
+        "第2槽未确认前，不写入辅助、生活或第二武器技能。"
+      ]
+    },
+    {
+      "id": "sao-two-handed-longsword",
+      "name": "SAO技能：双手长剑",
+      "category": "sao-weapon-skill",
+      "sourceWorldId": "sword-art-online",
+      "status": "equipped-slot-1",
+      "slotIndex": 1,
+      "proficiency": {
+        "current": 0,
+        "stage": "beginner",
+        "nextThreshold": 100
+      },
+      "unlockedSwordSkills": [
+        {
+          "id": "cascade",
+          "name": "重落斩 / Cascade",
+          "hits": 1,
+          "rank": "基础",
+          "description": "双手长剑最基础的单发下劈剑技；前摇明显，攻击距离较长，适合以重击压制轻型武器普通格挡。"
+        }
+      ],
+      "description": "用户选择B后，第1技能槽确认装备双手长剑。该技能只代表SAO技能槽与熟练度起点，不等于已经获得或装备双手剑武器。",
+      "limitations": [
+        "必须装备对应双手长剑/双手剑类武器后才能发动该分支剑技。",
+        "双手武器占用主手与副手，不能同时获得盾牌或副手武器效果。",
+        "当前熟练度从0开始；现实兵击训练只影响判断与动作意识，不增加SAO熟练度。",
+        "第2技能槽仍待确认，路线不因此提前锁死。"
+      ]
+    }
+  ]
+}
