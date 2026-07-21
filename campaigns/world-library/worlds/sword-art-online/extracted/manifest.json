@@ -20,25 +20,30 @@
     "sources": "sources/index.json",
     "relationships": "relationships/index.json",
     "derivedEntityGraph": "graph/derived-entity-graph.json",
-    "derivedRelationshipIndex": "graph/derived-relationship-index.json",
+    "derivedRelationshipIndex": "relationships/index.json",
     "derivedContinuityIndex": "graph/derived-continuity-index.json",
-    "graphBuildReport": "graph/graph-build-report.json"
+    "graphBuildReport": "graph/graph-build-report.json",
+    "derivedTimeline": "timelines/derived-timeline-index.json"
   },
   "counts": {
     "sourceEntries": 35,
     "sourceFiles": 1,
-    "characters": 1,
-    "abilities": 4,
-    "items": 0,
-    "factions": 1,
-    "locations": 1,
-    "events": 0,
-    "systems": 19,
-    "knowledge": 0,
+    "characters": 119,
+    "abilities": 22,
+    "items": 29,
+    "factions": 15,
+    "locations": 124,
+    "events": 641,
+    "systems": 88,
+    "knowledge": 16,
     "engineRules": 9,
-    "graphNodes": 26,
-    "graphEdges": 18,
-    "derivedMentionEdges": 18
+    "graphNodes": 1028,
+    "graphEdges": 2464,
+    "derivedMentionEdges": 18,
+    "engine-rules": 21,
+    "sources": 0,
+    "timelineEvents": 567,
+    "relationships": 1769
   },
   "graphPolicy": {
     "derivedOnly": true,
@@ -49,5 +54,14 @@
   "generatedAt": "2026-07-20T16:57:24.940Z",
   "repairedAt": "2026-07-20T17:04:48.799Z",
   "graphRebuiltAt": "2026-07-21T01:35:04.123Z",
-  "characterRestoreAt": "2026-07-21T01:29:01.296Z"
+  "characterRestoreAt": "2026-07-21T01:29:01.296Z",
+  "sourceEntries": 38,
+  "sourceFiles": 4,
+  "mergedAt": "2026-07-21T13:36:05.860Z",
+  "mergedFrom": [
+    "SAO_Progressive_v1.3.json",
+    "新建 文本文档.txt",
+    "-_1.png"
+  ],
+  "rebuiltAt": "2026-07-21T13:49:07.496Z"
 }

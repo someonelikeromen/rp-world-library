@@ -2,6 +2,398 @@
   "schema": "sword-art-online-items-index-v1",
   "worldId": "sword-art-online",
   "recordFamily": "items",
-  "count": 0,
-  "records": []
+  "count": 29,
+  "records": [
+    {
+      "id": "阐释者",
+      "name": "阐释者 (Elucidator)",
+      "aliases": [
+        "阐释者"
+      ],
+      "summary": "【类型】武器/单手剑/魔剑\n【楼层】50\n\n第50层Boss掉落，桐人主武器之一。黑色剑身单手直剑，极高攻击力与耐久。魔剑级。",
+      "sourceRefs": [
+        "刀剑神域SAO v1.1.worldbook.json"
+      ],
+      "sourceType": "extracted-from-floor-text",
+      "credibility": "local-card-indexed",
+      "canonStatus": "adapted/card-backed"
+    },
+    {
+      "id": "传送水晶",
+      "name": "传送水晶",
+      "aliases": [
+        "传送水晶"
+      ],
+      "summary": "【类型】消耗品/工具\n【楼层】N/A\n\n指定已激活楼层主城镇进行即时传送。Boss房间/水晶无效化空间内失效。价格昂贵。",
+      "sourceRefs": [
+        "刀剑神域SAO v1.1.worldbook.json"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-card-indexed",
+      "canonStatus": "adapted/card-backed"
+    },
+    {
+      "id": "掉落物生成准则",
+      "name": "掉落物生成准则",
+      "aliases": [],
+      "summary": "<SAO_DROP_GENERATION>\n# 掉落物生成准则\n1. 所有掉落物只能属于六类：武器、防具、消耗品、材料、食物、特殊。必须另写子类。\n2. 每种怪物首次生成时建立固定掉落表并写入`/世界/當前樓層檔案/掉落檔案/<怪物ID>`。以后同种怪物可因掉落率而本次没有掉落，但绝不能临时更换“能掉什么”。\n3. 掉落表必须写明物品ID、名称、类别、子类、品质、数量范围、掉落率、用途、适用楼层范围、是否首杀限定。\n4. 材料的强度、品质和用途必须符合怪物所在楼层及上下2层的装备、配方与经济带宽。\n5. 每个材料必须至少对应一种真实用途：配方、强化、任务、交易或工具维护。禁止无用途素材。\n6. 配方材料必须能在配方推荐楼层上下2层内，由固定怪物掉落、任务、商店、采集点或宝箱取得。\n\n例1：第10层铁牙山猪固定可能掉落铁牙与山猪肉；某次战斗可以没有铁牙，但不能下一次突然改掉钢锭。\n例2：第10层暗巷织蛛掉落暗巷蛛丝，供第8至12层范围内的裁缝配方使用。\n例3：Boss唯一武器可首杀限定；普通刷新只掉落稳定素材，不能重复复制唯一物品。\n</SAO_DROP_GENERATION>",
+      "sourceRefs": [
+        "SAO_Progressive_v1.3.json#entry-9030"
+      ],
+      "sourceType": "local-sillytavern-json-card",
+      "credibility": "local-card-indexed",
+      "canonStatus": "adapted/card-backed"
+    },
+    {
+      "id": "风花剑",
+      "name": "风花剑",
+      "aliases": [
+        "风花剑"
+      ],
+      "summary": "【类型】武器/细剑\n【楼层】1\n\n第1层稀有武器。米特为亚丝娜寻找的目标。后升级为骑士细剑。",
+      "sourceRefs": [
+        "新建 文本文档.txt"
+      ],
+      "sourceType": "extracted-from-floor-text",
+      "credibility": "local-card-indexed",
+      "canonStatus": "adapted/card-backed"
+    },
+    {
+      "id": "还魂之圣晶石",
+      "name": "还魂之圣晶石",
+      "aliases": [
+        "还魂之圣晶石"
+      ],
+      "summary": "【类型】消耗品/复活道具\n【楼层】35\n\nSAO唯一复活道具。圣诞节限定Boss叛教者尼古拉斯掉落。限制：仅能在死亡后10秒内使用。桐人为救幸而寻获却发现已无法使用。",
+      "sourceRefs": [
+        "刀剑神域SAO v1.1.worldbook.json"
+      ],
+      "sourceType": "extracted-from-floor-text",
+      "credibility": "local-card-indexed",
+      "canonStatus": "adapted/card-backed"
+    },
+    {
+      "id": "核心设定_武器与锻造系统",
+      "name": "核心设定:武器与锻造系统",
+      "aliases": [
+        "/<story_scene>.*?(武器与锻造系统).*?<\\/story_scene>/s"
+      ],
+      "summary": "<核心设定_武器与锻造系统>\n\n## 武器与锻造系统 (Weapon & Crafting System)\n介绍：在SAO这个排除了魔法的冷兵器世界中，武器是玩家灵魂与肉体的延伸，也是唯一的生存保障。SAO的武器并非单纯的属性面板数值，而是具备真实物理体积、重力阻尼、碰撞体积以及系统优先度的实体存在。从怪物掉落的制式兵器，到由玩家铁匠亲手打造的专属神兵，每一柄武器都拥有其独特的生命周期与战斗手感。\n核心特性与限制：\n\n- 系统优先度与装备限制 (Object Control Authority)：\n  每一柄武器都拥有隐藏的“系统优先度（等级）”参数。只有当玩家自身的等级或武器熟练度达到对应阈值时，才能发挥其全部性能。若低等级玩家强行装备高优先度的武器，不仅无法触发任何系统剑技，还会因为力量（STR）属性不足，受到武器真实物理重量的严重惩罚，导致动作极度迟缓、甚至连刀都无法举起。\n- 天命与永久损毁机制 (Durability & Destruction)：\n \n 所有武器都拥有“耐久度（Durability ）”上限。武器在攻击、格挡、甚至与敌人的兵器发生高强度碰撞时，都会持续损耗耐",
+      "sourceRefs": [
+        "-_1.png#entry-111"
+      ],
+      "sourceType": "local-sillytavern-png-card",
+      "credibility": "local-card-indexed",
+      "canonStatus": "adapted/card-backed"
+    },
+    {
+      "id": "回复药水",
+      "name": "初级/高级回复药水",
+      "aliases": [
+        "回复药水"
+      ],
+      "summary": "【类型】消耗品/药品\n【楼层】N/A\n\n恢复HP的消耗品。有冷却时间和携带上限。高级回复药水价格昂贵。",
+      "sourceRefs": [
+        "刀剑神域SAO v1.1.worldbook.json"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-card-indexed",
+      "canonStatus": "adapted/card-backed"
+    },
+    {
+      "id": "回廊水晶",
+      "name": "回廊水晶",
+      "aliases": [
+        "回廊水晶"
+      ],
+      "summary": "【类型】消耗品/工具\n【楼层】N/A\n\n记录当前位置后可从任意地点返回。桐人曾用其将泰坦之手全员送往黑铁宫监狱。",
+      "sourceRefs": [
+        "刀剑神域SAO v1.1.worldbook.json"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-card-indexed",
+      "canonStatus": "adapted/card-backed"
+    },
+    {
+      "id": "机制_掉落与最后一击",
+      "name": "机制·掉落与最后一击",
+      "aliases": [],
+      "summary": "<LOOT_AND_LA version=\"5.1.1\">\n怪物掉落由固定掉落表、生態、稀有度、任務與首殺決定。最後一擊只授予實際完成終結條件的角色。所有經驗、Col、物品、熟練度與耐久結果以`戰鬥`或`物品取得`UnifiedAction交給唯一調度器；單個行動ID只處理一次。腳本負責物品模板識別與同物堆疊。\n</LOOT_AND_LA>",
+      "sourceRefs": [
+        "SAO_Progressive_v1.3.json#entry-201"
+      ],
+      "sourceType": "local-sillytavern-json-card",
+      "credibility": "local-card-indexed",
+      "canonStatus": "adapted/card-backed"
+    },
+    {
+      "id": "机制_装备品质与楼层带宽",
+      "name": "机制·装备品质与楼层带宽",
+      "aliases": [],
+      "summary": "# 装备品质、属性要求与楼层带宽\n每件武器、防具和饰品必须保存：需求等级、`需求属性.{STR,AGI}`、`属性加成.{STR,AGI}`、`特殊效果`、攻防、耐久、强化、来源与描述。装备时状态栏脚本检查等级及STR/AGI要求；条件不足时拒绝装备。\n\n`特殊效果`可以是隐形、隐蔽、抗性、触发治疗、命中修正、闪避修正、速度等。数值型效果使用`类型`与`数值`，叙事型效果使用`名称`、`触发`和`说明`。例如披风可记录`{\"名称\":\"短时隐形\",\"触发\":\"主动使用\",\"说明\":\"在未攻击且未受击时短暂隐藏轮廓\"}`。\n\n装备基础性能受楼层、品质、强化与耐久约束。强化必须留下等级和记录；低层装备无法永久压制高层装备。",
+      "sourceRefs": [
+        "SAO_Progressive_v1.3.json#entry-200"
+      ],
+      "sourceType": "local-sillytavern-json-card",
+      "credibility": "local-card-indexed",
+      "canonStatus": "adapted/card-backed"
+    },
+    {
+      "id": "结衣的心",
+      "name": "结衣的心 (Tears of Yui)",
+      "aliases": [
+        "结衣的心"
+      ],
+      "summary": "【类型】特殊/道具\n【楼层】1\n\nAI结衣被系统删除前由桐人转化为的道具形态。保存于本地NERvGear存储中。",
+      "sourceRefs": [
+        "刀剑神域SAO v1.1.worldbook.json"
+      ],
+      "sourceType": "extracted-from-floor-text",
+      "credibility": "local-card-indexed",
+      "canonStatus": "adapted/card-backed"
+    },
+    {
+      "id": "经济_物品价值与柔性估价",
+      "name": "经济·物品价值与柔性估价",
+      "aliases": [
+        "__SAO_ECONOMY_VALUE__"
+      ],
+      "summary": "<SAO_FLEXIBLE_VALUE_RULE>\n# 物品价值与柔性估价\n物品价值由实际性能形成，不使用“某层只能卖某物”的白名单。估价读取类别、品质、需求等级、攻击或防御、属性加成、准确率与速度修正、特殊效果、耐久、强化、数量、来源、当地供需和交易对象偏好。\n\n## 估价原则\n- 同名物品只有在实际效果、品质与状态一致时共享估价；独立耐久、强化、未鉴定或唯一物品分别估价。\n- 武器与防具以可用性能、需求等级和耐久为主要价值；消耗品以确定效果和稀缺性为主；材料以用途、品质、供给和当前生产需求为主。\n- 跨楼层商品允许存在。前线寄售、玩家制作、任务奖励、收藏、走私、旧库存与跨层运输都能成为来源；来源越难验证，风险提示越明显。\n- 当前楼层只提供常见强度与物流成本参考。高于本层常见带宽会提示稀有来源，低于本层带宽会按旧货或基础品处理。\n- 价格区间属于审计提示。物品不存在、数量不足、资金不足、不可交易、负数数值或超出系统绝对边界才是硬错误。\n\n## 异常价格\n脚本比较实际报价与估价区间。玩家可以自愿高价购买、低价出售、赠送或进行特殊交换；面板必须显示偏差。NPC承担明显亏损时会依资金、需",
+      "sourceRefs": [
+        "SAO_Progressive_v1.3.json#entry-9051"
+      ],
+      "sourceType": "local-sillytavern-json-card",
+      "credibility": "local-card-indexed",
+      "canonStatus": "adapted/card-backed"
+    },
+    {
+      "id": "精灵厚实剑",
+      "name": "精灵厚实剑",
+      "aliases": [
+        "精灵厚实剑"
+      ],
+      "summary": "【类型】武器/单手剑\n【楼层】4\n\n桐人从森林精灵白骑士手中缴获的单手剑。替换被击碎的韧炼之剑。",
+      "sourceRefs": [
+        "新建 文本文档.txt"
+      ],
+      "sourceType": "extracted-from-floor-text",
+      "credibility": "local-card-indexed",
+      "canonStatus": "adapted/card-backed"
+    },
+    {
+      "id": "奶油",
+      "name": "奶油",
+      "aliases": [
+        "奶油"
+      ],
+      "summary": "【类型】食材/任务\n【楼层】1\n\n阿尔戈情报任务「逆袭的母牛」掉落食材。桐人用于黑面包上分给亚丝娜，成为两人初次情感连接的象征。",
+      "sourceRefs": [
+        "新建 文本文档.txt"
+      ],
+      "sourceType": "extracted-from-floor-text",
+      "credibility": "local-card-indexed",
+      "canonStatus": "adapted/card-backed"
+    },
+    {
+      "id": "普内乌玛之花",
+      "name": "普内乌玛之花 (Pneuma Flower)",
+      "aliases": [
+        "普内乌玛之花"
+      ],
+      "summary": "【类型】消耗品/复活道具\n【楼层】47\n\n第47层回忆之丘生长的稀有花朵。可复活死亡使魔。西莉卡因此复活毕娜。",
+      "sourceRefs": [
+        "刀剑神域SAO v1.1.worldbook.json"
+      ],
+      "sourceType": "extracted-from-floor-text",
+      "credibility": "local-card-indexed",
+      "canonStatus": "adapted/card-backed"
+    },
+    {
+      "id": "骑士细剑",
+      "name": "骑士细剑＋5",
+      "aliases": [
+        "骑士细剑"
+      ],
+      "summary": "【类型】武器/细剑\n【楼层】3\n\n亚丝娜主武器。由风花剑重铸强化而成。后被桐人协助进一步强化。",
+      "sourceRefs": [
+        "新建 文本文档.txt"
+      ],
+      "sourceType": "extracted-from-floor-text",
+      "credibility": "local-card-indexed",
+      "canonStatus": "adapted/card-backed"
+    },
+    {
+      "id": "韧炼之剑",
+      "name": "韧炼之剑 (Anneal Blade)",
+      "aliases": [
+        "韧炼之剑"
+      ],
+      "summary": "【类型】武器/单手剑\n【楼层】1\n\n桐人早期获得的任务奖励武器。比初始武器大幅提升攻击力。在第四层被白骑士击碎。",
+      "sourceRefs": [
+        "新建 文本文档.txt"
+      ],
+      "sourceType": "extracted-from-floor-text",
+      "credibility": "local-card-indexed",
+      "canonStatus": "adapted/card-backed"
+    },
+    {
+      "id": "事件_稀有金属与定制武器",
+      "name": "事件·稀有金属与定制武器",
+      "aliases": [
+        "__SAO_EVENT_013__"
+      ],
+      "summary": "<SAO_EVENT_SEED>\n# 稀有金属与定制武器\n**性质**：条件式事件种子。事件不会按原作日期自动发生。\n\n## 前提与矛盾\n高层稀有材料能够制造突破当前带宽的定制武器，但采集、Boss生态、生产风险和委托关系同样重要。\n\n## 触发条件\n- 莉兹贝特或其他高水平铁匠已建立。\n- 玩家提出定制需求并承担费用。\n- 材料区域已开放。\n\n## 可能参与者\n铁匠、委托者、护送者、材料守卫与竞争生产公会。\n\n## 可观察推进\n1. 分析武器使用方式。\n2. 确定材料、费用与失败责任。\n3. 远征采集或交易。\n4. 锻造、测试、交付和命名。\n\n## 分支入口\n- 亲自采集、购买、换材、降低规格、取消订单或将材料交给其他铁匠。\n\n## 后果范围\n新装备、生产声望、关系、市场与材料点情报。\n\n## 失效与改写\n不固定材料地点、武器名称或感情结果；铁匠死亡、拒绝或材料耗尽时事件失效或转交。\n\n## 运行规则\n收到 `__SAO_EVENT_013__` 后才允许建立事件，根路径为 `/世界/事件/__SAO_EVENT_013__`。每个阶段只根据已发生事实推进；玩家不在场时允许由其他参与",
+      "sourceRefs": [
+        "SAO_Progressive_v1.3.json#entry-169"
+      ],
+      "sourceType": "local-sillytavern-json-card",
+      "credibility": "local-card-indexed",
+      "canonStatus": "adapted/card-backed"
+    },
+    {
+      "id": "手持镜",
+      "name": "手持镜",
+      "aliases": [
+        "手持镜"
+      ],
+      "summary": "【类型】特殊/道具\n【楼层】1\n\n茅场晶彦发放的道具，结合NERvGear扫描强制恢复玩家真实外貌。死亡游戏宣告的关键道具。",
+      "sourceRefs": [
+        "刀剑神域SAO v1.1.worldbook.json"
+      ],
+      "sourceType": "extracted-from-floor-text",
+      "credibility": "local-card-indexed",
+      "canonStatus": "adapted/card-backed"
+    },
+    {
+      "id": "水晶石英铸块",
+      "name": "水晶石英铸块",
+      "aliases": [
+        "水晶石英铸块"
+      ],
+      "summary": "【类型】材料/稀有矿石\n【楼层】55\n\n第55层西山白龙巢穴底部获得。白龙吞食水晶后排出的极品材料。莉兹贝特以此锻造逐暗者。",
+      "sourceRefs": [
+        "刀剑神域SAO v1.1.worldbook.json"
+      ],
+      "sourceType": "extracted-from-floor-text",
+      "credibility": "local-card-indexed",
+      "canonStatus": "adapted/card-backed"
+    },
+    {
+      "id": "午夜大衣",
+      "name": "午夜大衣 (Coat of Midnight)",
+      "aliases": [
+        "午夜大衣"
+      ],
+      "summary": "【类型】防具/身体/外套\n【楼层】1\n\n第1层Boss伊尔方LA奖励。黑色长外套。桐人标志性装备，奠定「黑色剑士」形象。",
+      "sourceRefs": [
+        "刀剑神域SAO v1.1.worldbook.json"
+      ],
+      "sourceType": "extracted-from-floor-text",
+      "credibility": "local-card-indexed",
+      "canonStatus": "adapted/card-backed"
+    },
+    {
+      "id": "武勇之旗",
+      "name": "武勇之旗 (Flag of Valor)",
+      "aliases": [
+        "武勇之旗"
+      ],
+      "summary": "【类型】特殊/公会道具\n【楼层】5\n\n第5层Boss掉落。公会荣誉象征，具有系统公会增益效果。引发DKB与ALS激烈争夺。后被桐人当众销毁以阻止公会火拼。",
+      "sourceRefs": [
+        "新建 文本文档.txt"
+      ],
+      "sourceType": "extracted-from-floor-text",
+      "credibility": "local-card-indexed",
+      "canonStatus": "adapted/card-backed"
+    },
+    {
+      "id": "物品生成准则",
+      "name": "物品生成准则",
+      "aliases": [],
+      "summary": "<GEN_RULE type=\"物品\" version=\"5.1.1\">\n# 固定身份\n每個物品必須有`模板ID、模板版本、物品ID、顯示名稱、類別、子類、品質、堆疊版本、可堆疊、數量、綁定狀態、鑑定狀態、可交易、可掉落、基礎資料、耐久、強化、來源`。\n可堆疊物品的實例ID為null；裝備、唯一物品、未鑑定物品或有獨立耐久者使用固定實例ID且不可堆疊。\n\n# 堆疊規則\n同一堆疊只比較模板ID、品質、綁定狀態、鑑定狀態與堆疊版本。描述、來源、取得時間、自由文字說明與交易對象不參與。\n\n# 入庫\n掉落、交易、任務獎勵、製作與服務產出只能建立`物品取得`、`交易`、`任務獎勵`、`生活技能`或`NPC服務`UnifiedAction。禁止直接修改背包。\n</GEN_RULE>",
+      "sourceRefs": [
+        "SAO_Progressive_v1.3.json#entry-9010"
+      ],
+      "sourceType": "local-sillytavern-json-card",
+      "credibility": "local-card-indexed",
+      "canonStatus": "adapted/card-backed"
+    },
+    {
+      "id": "系统_界面_菜单与物品",
+      "name": "系统·界面、菜单与物品",
+      "aliases": [],
+      "summary": "<SAO_UI_ITEM_RULES version=\"5.1.1\">\n# 介面權限\n- 玩家頁面可操作裝備、技能、物品、屬性、生活技能、交易、隊伍與待確認行動；每個按鈕只提交UnifiedAction。\n- 其他人物頁面只讀顯示公開身份、位置、近況、好感、階段、摘要、已知裝備、已知技能、HP、可交易物品、服務、隊伍與任務關聯。\n- 其他人物可保留交易、邀請組隊、離開隊伍、發起決鬥、發送訊息與服務按鈕；按鈕不得直接修改人物資料。\n- 不提供刪除關係、直接修改好感、操作NPC裝備／物品／技能或複雜代工面板。\n\n# 物品\n- 每個物品必須有`模板ID`；不可堆疊物品必須有`實例ID`。\n- 堆疊只比較模板ID、品質、綁定狀態、鑑定狀態與堆疊版本。\n- 玩家使用、丟棄、裝備或卸下物品均經UnifiedAction；NPC資產只由AI判斷後交給腳本。\n- 攻擊、防禦、速度、準確率、需求屬性與最終耐久上限是腳本推導值，不作為獨立權威變量。\n</SAO_UI_ITEM_RULES>",
+      "sourceRefs": [
+        "SAO_Progressive_v1.3.json#entry-3"
+      ],
+      "sourceType": "local-sillytavern-json-card",
+      "credibility": "local-card-indexed",
+      "canonStatus": "adapted/card-backed"
+    },
+    {
+      "id": "系统_武器",
+      "name": "系统·武器",
+      "aliases": [],
+      "summary": "<SAO_WEAPON_SYSTEM>\n# 武器系统\n\n## 共通规则\n- 武器类别决定可用剑技、攻击轨迹、有效距离、动作节奏、队形需求与耐久消耗。\n- 角色必须装备对应武器，并拥有对应武器分支熟练度，才可发动该分支剑技。\n- 新剑技只解决一种主要战术问题，不得同时提供最高伤害、无敌、远程、控制与无代价位移。\n- 所有剑技都要明确起手、轨迹、距离、段数、收招硬直、冷却与适用地形。\n- 地形会改变武器表现：狭道限制横扫，湿地削弱突进，桥梁提高击退与坠落风险，门框与急转弯限制长柄武器。\n- 格挡重击、连续剑技、破坏机关和不利相性会消耗武器耐久。\n- 双手长枪、双手剑与双手太刀固定占用主手和副手；装备时必须先卸下副手，装备期间副手物品的攻击、防御、属性与特殊效果全部不生效。\n- 队伍必须为攻击线、回避路线与收招硬直留出空间，禁止多人无视碰撞同时穿过同一攻击位置。\n\n## 单手直剑\n**战术身份**：均衡斩击、突进、格挡后反击。\n**核心用法**：中距离接敌与稳定连段。\n**明确弱点**：剑技轨迹容易被读，连续发动后收招明显。\n**剑技成长素材**：斜斩、垂直斩、水平斩、突进斩、二连击与高熟练",
+      "sourceRefs": [
+        "SAO_Progressive_v1.3.json#entry-177"
+      ],
+      "sourceType": "local-sillytavern-json-card",
+      "credibility": "local-card-indexed",
+      "canonStatus": "adapted/card-backed"
+    },
+    {
+      "id": "系統_掉落与战利品",
+      "name": "系統·掉落与战利品",
+      "aliases": [],
+      "summary": "<DROP_AND_LOOT_SYSTEM>\n# 掉落与战利品系统\n本条目回答三件事：谁会掉落什么、掉落后可以做什么、为什么该物品会出现在当前楼层。先读取当前楼层条目的怪物生态、资源产业、任务和Boss，再建立掉落；禁止为了满足玩家眼前需求临时修改无关怪物的掉落。\n\n# 谁会掉落\n- 普通怪物：生态材料、食材、皮革、低阶素材、少量Col和极低概率普通装备。\n- 精英怪与区域Boss：高品质材料、强化石、工具、地图线索、配方或楼层适配装备。\n- 楼层Boss与隐藏Boss：通关物、首杀奖励、稀有武器、独特材料、配方和事件物；唯一物品不能常规重复掉落。\n- NPC、玩家和宝箱不属于怪物掉落，分别记录为交易、遗留物、任务奖励或场景奖励。\n\n# 掉落表最低结构\n`ID、物品ID、名称、类别、品质、数量最小值、数量最大值、掉落率、掉落条件、首杀限定、参与资格、材料属性、用途、来源怪物、来源楼层、可交易、是否唯一`。未知概率不得伪装成已确认数值；首次实际掉落后把已确认资料写入當前樓層檔案的生态或Boss记录。\n\n# 用途闭环\n每件掉落物至少连接一种真实用途：出售、任务、料理配方、裁缝配方、锻造强化",
+      "sourceRefs": [
+        "SAO_Progressive_v1.3.json#entry-9024"
+      ],
+      "sourceType": "local-sillytavern-json-card",
+      "credibility": "local-card-indexed",
+      "canonStatus": "adapted/card-backed"
+    },
+    {
+      "id": "杂烩兔",
+      "name": "杂烩兔的肉",
+      "aliases": [
+        "杂烩兔"
+      ],
+      "summary": "【类型】食材/S级\n【楼层】74\n\n第74层迷宫区获得的S级超稀有食材。桐人获得后与亚丝娜在第61层公寓共进晚餐，促成两人正式组队。",
+      "sourceRefs": [
+        "刀剑神域SAO v1.1.worldbook.json"
+      ],
+      "sourceType": "extracted-from-floor-text",
+      "credibility": "local-card-indexed",
+      "canonStatus": "adapted/card-backed"
+    },
+    {
+      "id": "逐暗者",
+      "name": "逐暗者 (Dark Repulser)",
+      "aliases": [
+        "逐暗者"
+      ],
+      "summary": "【类型】武器/单手剑/魔剑\n【楼层】55\n\n莉兹贝特用水晶石英铸块锻造的青色单手剑。桐人副武器。与阐释者配合使用二刀流。魔剑级。",
+      "sourceRefs": [
+        "刀剑神域SAO v1.1.worldbook.json",
+        "SAO_Progressive_v1.3.json"
+      ],
+      "sourceType": "extracted-from-floor-text",
+      "credibility": "local-card-indexed",
+      "canonStatus": "adapted/card-backed"
+    },
+    {
+      "id": "装备生成准则",
+      "name": "装备生成准则",
+      "aliases": [],
+      "summary": "<GEN_RULE type=\"装备\" version=\"4.23\">\n# 创建位置\n新装备只能作为UnifiedAction对象中的背包增量创建。AI不得直接insert或replace `/玩家/武器`、`/玩家/装备`、`/角色/<固定角色ID>` 或装备槽。玩家装备由状态栏执行；其他角色只有在正文明确完成换装并且原物品去向可追踪时才能更新槽位。正文写“获得一把剑”时，同一轮必须按物品生成准则插入UnifiedAction，不能只在叙事中出现。\n\n# 武器完整结构\n`{ID,名称,类别:\"武器\",子类,槽位:\"主手\"或\"副手\",品质,数量:1,需求等级,需求属性:{STR,AGI},基础需求属性:{STR,AGI},属性加成:{STR,AGI},基础数值加成:{攻击力,防御力,准确率,闪避率,速度},基础攻击,攻击,基础耐久上限,耐久,耐久上限,武器性能:{基础速度,速度,基础准确率,准确率,耐久损耗率},强化上限,强化上限覆盖:false,强化:{等级:0,倾向:{S:0,Q:0,A:0,H:0,D:0},记录:[]},特殊效果:[],来源,描述,可交易,可丢弃,状态:\"完好\"",
+      "sourceRefs": [
+        "SAO_Progressive_v1.3.json#entry-9011"
+      ],
+      "sourceType": "local-sillytavern-json-card",
+      "credibility": "local-card-indexed",
+      "canonStatus": "adapted/card-backed"
+    }
+  ]
 }

@@ -1,0 +1,27 @@
+{
+  "source_refs": [
+    "SAO_Progressive_v1.3.json#entry-154"
+  ],
+  "sourceType": "local-sillytavern-json-card",
+  "credibility": "local-card-indexed",
+  "canonStatus": "adapted/card-backed",
+  "periods": [
+    {
+      "period_id": "local-ingest-entry",
+      "name": {
+        "zh": "组织·圣龙联合"
+      },
+      "aliases": [
+        "圣龙联合",
+        "Divine Dragon Alliance"
+      ],
+      "summary": "@@preprocessing\n<%_ {\nconst __data=getMessageVar('stat_data',{defaults:{}});\nconst __frontier=Math.max(1,..._.get(__data,['世界','已解鎖樓層'],[1]).map(Number).filter(Number.isFinite));\nconst __name=\"圣龙联合\";\nconst __id=\"organization-divine-dragon-alliance\";\nconst __record=_.get(__data,['世界','組織',__id],null);\nconst __state=String(_.get(__record,'狀態',''));\nconst __ended=['解散','覆灭','合并','消失'].includes(__state);\nconst __override=_.get(__data,['世界','事件','organization-timeline-exception','旗標',__id],false)===true;\nconst __planned=_.get(__data,['世界','事件','organization-preparation','旗標',__id],false)===true;\nco",
+      "description": "@@preprocessing\n<%_ {\nconst __data=getMessageVar('stat_data',{defaults:{}});\nconst __frontier=Math.max(1,..._.get(__data,['世界','已解鎖樓層'],[1]).map(Number).filter(Number.isFinite));\nconst __name=\"圣龙联合\";\nconst __id=\"organization-divine-dragon-alliance\";\nconst __record=_.get(__data,['世界','組織',__id],null);\nconst __state=String(_.get(__record,'狀態',''));\nconst __ended=['解散','覆灭','合并','消失'].includes(__state);\nconst __override=_.get(__data,['世界','事件','organization-timeline-exception','旗標',__id],false)===true;\nconst __planned=_.get(__data,['世界','事件','organization-preparation','旗標',__id],false)===true;\nconst __date=String(_.get(__data,'世界.日期','0000-00-00'));\nconst __isFormal=/正式|公会/.test(String(_.get(__record,'形態',_.get(__record,'類型',''))));\nconst __minimum=__isFormal?3:3;\nconst __specialOk=_.get(__data,['世界','事件','组织前置','圣龙联合合并完成'],false)===true;\nconst __evidence=Array.isArray(__record?.成立依據)?__record.成立依據.filter(Boolean):[];\nconst __confirmed=__record?.成立確認===true&&!!String(__record?.成立事件ID||'').trim()&&__evidence.length>=2;\nconst __recordDateOk=!__record?.成立日期||String(__record.成立日期)<=__date;\nconst __eligible=__override||(__frontier>=__minimum&&(true)&&__recordDateOk&&__specialOk);\nconst __active=!!__record&&__confirmed&&!__ended&&__eligible&&!['籌備中','候選','未成立'].includes(__state);\nif(__active){ _%>\n<ORGANIZATION_GATE name=\"圣龙联合\" status=\"<%- __state || '活动中' %>\" frontier=\"<%- __frontier %>\" date=\"<%- __date %>\">\n<SAO_ORGANIZATION>\n# 圣龙联合\n## 原作定位\n由多支攻略与资源队伍合并形成的中高层大型公会。\n\n## 结构与资源\n包含多支前线队、资源管理者、据点守卫与扩张派领导层。 资源、据点、成员、资金和当前行动必须读取已经建立的世界.組織；静态资料不能覆盖游玩历史。\n\n## 常见行动\n争夺高收益练级区、参加Boss战、管理据点与招募独立玩家。\n\n## 时间锚点\n原作没有可信的固定成立楼层；禁止使用“最早第40层”。第56层帕尼可作为后期据点锚点，不能反推成立时间。\n\n## 连续性\n成员死亡、退会、分裂、合并、赔偿、据点迁移和玩家介入都持续生效。当前世界.組織优先，禁止恢复已经改变的原作状态。\n</SAO_ORGANIZATION>\n</ORGANIZATION_GATE>\n<%_ }else if(__record&&__ended&&__confirmed){ _%>\n<ORGANIZATION_GATE name=\"圣龙联合\" status=\"<%- __state %>\" frontier=\"<%- __frontier %>\" date=\"<%- __date %>\">\n该组织只保留历史影响，不能生成现役职位、制服、据点命令或新成员身份。\n</ORGANIZATION_GATE>\n<%_ }else if(__record&&(!__eligible||(__record?.成立日期&&!__recordDateOk))){ _%>\n<ORGANIZATION_GATE name=\"圣龙联合\" status=\"时间线冲突\" frontier=\"<%- __frontier %>\" date=\"<%- __date %>\">\n当前记录未通过楼层、日期或成立前提，禁止让该组织以现役身份行动。玩家实际改变世界线时，先完成成立事件并写入对应时间线例外旗标。\n成立前提：龙骑士旅团与其他派系已经完成合并或重组，成员、资产、领导与新名称均有正文证据。\n</ORGANIZATION_GATE>\n<%_ }else if((__planned||__state==='籌備中')&&__eligible&&!__confirmed){ _%>\n<ORGANIZATION_GATE name=\"圣龙联合\" status=\"筹备中\" frontier=\"<%- __frontier %>\" date=\"<%- __date %>\">\n当前只允许描写命名、合并、成员同意、资源承诺和规则确认。成立事件完成后，同轮向 /世界/組織/organization-divine-dragon-alliance 写入完整档案与至少两条成立依据；下一轮才可按现役组织行动。\n成立前提：龙骑士旅团与其他派系已经完成合并或重组，成员、资产、领导与新名称均有正文证据。\n</ORGANIZATION_GATE>\n<%_ }else if(__record&&!__confirmed){ _%>\n<ORGANIZATION_GATE name=\"圣龙联合\" status=\"证据不足\" frontier=\"<%- __frontier %>\" date=\"<%- __date %>\">\n记录缺少成立确认、唯一成立事件ID或至少两条成立依据。禁止生成现役制服、职位、据点命令、成员身份和集体行动。\n成立前提：龙骑士旅团与其他派系已经完成合并或重组，成员、资产、领导与新名称均有正文证据。\n</ORGANIZATION_GATE>\n<%_ }else{ _%>\n<ORGANIZATION_GATE name=\"圣龙联合\" status=\"尚未成立\" frontier=\"<%- __frontier %>\" date=\"<%- __date %>\">\n禁止提前生成该组织的制服、据点、职位、命令或成员身份。名称被提及时只能视为提议、传闻或元信息。\n成立前提：龙骑士旅团与其他派系已经完成合并或重组，成员、资产、领导与新名称均有正文证据。\n</ORGANIZATION_GATE>\n<%_ } } _%>\n\n\nV5變量規則：只有成立事件被確認後，才以固定ID `organization-divine-dragon-alliance` 建立 `/世界/組織/organization-divine-dragon-alliance`；名稱只作顯示。",
+      "sourceRef": "SAO_Progressive_v1.3.json#entry-154",
+      "sourceType": "local-sillytavern-json-card",
+      "credibility": "local-card-indexed",
+      "canonStatus": "adapted/card-backed"
+    }
+  ],
+  "faction_id": "组织_圣龙联合"
+}

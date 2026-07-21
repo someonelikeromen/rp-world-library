@@ -1,0 +1,24 @@
+{
+  "source_refs": [
+    "-_1.png#entry-11"
+  ],
+  "sourceType": "local-sillytavern-png-card",
+  "credibility": "local-card-indexed",
+  "canonStatus": "adapted/card-backed",
+  "periods": [
+    {
+      "period_id": "local-ingest-entry",
+      "name": {
+        "zh": "战斗思维链"
+      },
+      "aliases": [],
+      "summary": "{{setvar::combat_driver::\n<!-- 每回合必须输出 <combat_driver> 模块。若本回合无战斗，仅输出\"无\" -->\n<combat_driver>\n━━ 1.初始化(Init) ━━\n对战双方: Player_Side(单人/小队累加) vs Enemy_Side(守关BOSS/红名PK/整合骑士/暗之国)\nPlayer_Base_BP: 基于Level换算(1Lv=10BP) ｜ 当前HP状态(绿/黄/红)\nEnemy_Base_BP: 读取原著设定。普通野怪(10-150), 攻略组一般玩家/一般整合骑士(300-600), 守关BOSS/副骑士长(800-1500), 神级账号/最高祭司/GM(3000-5000+), 星王(10000+)\n硬性检查:\n【防御压制】: 若Player_BP < Enemy_BP * 0.5，判定为无法破防（攻击伤害强制归0，且无法对敌人造成任何硬直，参考桐人站立不动承受圣龙联合攻击）。\n【死亡游戏协议】: 若HP归零，在SAO/GGO世界中强制判定为“NerveGear脑部烧毁”，在UW中判定为“摇光崩坏”，判定为角色死亡，不接受任何“意志力/回忆”强行复活。\n\n━━ 2.修正计算(Calc) ━━\nEffective_BP = (Base + Gear) * Skill_Mult * System_Mu",
+      "description": "{{setvar::combat_driver::\n<!-- 每回合必须输出 <combat_driver> 模块。若本回合无战斗，仅输出\"无\" -->\n<combat_driver>\n━━ 1.初始化(Init) ━━\n对战双方: Player_Side(单人/小队累加) vs Enemy_Side(守关BOSS/红名PK/整合骑士/暗之国)\nPlayer_Base_BP: 基于Level换算(1Lv=10BP) ｜ 当前HP状态(绿/黄/红)\nEnemy_Base_BP: 读取原著设定。普通野怪(10-150), 攻略组一般玩家/一般整合骑士(300-600), 守关BOSS/副骑士长(800-1500), 神级账号/最高祭司/GM(3000-5000+), 星王(10000+)\n硬性检查:\n【防御压制】: 若Player_BP < Enemy_BP * 0.5，判定为无法破防（攻击伤害强制归0，且无法对敌人造成任何硬直，参考桐人站立不动承受圣龙联合攻击）。\n【死亡游戏协议】: 若HP归零，在SAO/GGO世界中强制判定为“NerveGear脑部烧毁”，在UW中判定为“摇光崩坏”，判定为角色死亡，不接受任何“意志力/回忆”强行复活。\n\n━━ 2.修正计算(Calc) ━━\nEffective_BP = (Base + Gear) * Skill_Mult * System_Mult\nGear(装备修正):\n普通/量产装备: +0 BP\n稀有/定制装备(如:逐暗者): +150 BP\n魔剑/神器级(如:阐释者/金木樨/蓝蔷薇): +400 BP\nSkill_Mult(剑技与熟练度):\n基础单发剑技(1-Hit): x1.1 ｜ 中阶连击剑技(24-Hit): x1.3\n高阶多段剑技(如星屑飞溅16-Hit): x1.8 ｜ 独有技能/原创剑技(如二刀流/圣母圣咏11-Hit): x2.5\n技能熟练度: 粗通x0.8 ｜ 熟练x1.0 ｜ 极意/武装完全支配x1.5\nSystem_Mult(系统辅助与心意):\n系统辅助(System Assist): 顺应轨迹命中+30%，但容易被看穿（GGO弹道预测线）\n心意技/超越系统(Incarnation): 突破系统限制，心意具现化。倍率x2.0x5.0（极度消耗精神力）\n战术切换(Switch): 成功执行“Switch”连协，破开硬直，连协者BP累加，下一击伤害x1.5\n\n━━ 3.对抗判定(Resolve) ━━\n逻辑锁: 严禁无视等级/数值压制。在未触发“超越系统/心意”前，数值差距无法通过纯粹的愤怒抹平。\n剑技僵直协议(Post-Motion Stiffness): 任何高段位剑技释放完毕后均存在强制硬直。若玩家攻击被闪避/招架 -> 强制判定为“陷入僵直”，必然遭受敌方反击。\nBP对比裁决:\nIF (Atk > Def * 2.0): 绝对击穿（断肢、武器损毁、HP瞬间清空至红血/消散）\nIF (Atk > Def): 优势压制（击退、削减HP、造成打断与强硬直）\nIF (Atk ≈ Def): 刃之交锋（武器碰撞、火花四溅、双方向后滑行，进入角力状态）\nELSE (Atk < Def): 无效/反弹（攻击被完美招架、自身陷入反噬僵直、遭受反击）\n确定结果: 扣减HP百分比，判定是否陷入“黄色/红色危险血线”或“僵直状态”，决定下一回合行动限制。\n</combat_driver>\n}}",
+      "sourceRef": "-_1.png#entry-11",
+      "sourceType": "local-sillytavern-png-card",
+      "credibility": "local-card-indexed",
+      "canonStatus": "adapted/card-backed"
+    }
+  ],
+  "engine_rule_id": "战斗思维链"
+}
