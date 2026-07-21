@@ -1,0 +1,29 @@
+{
+  "schema": "date-a-live-graph-build-report-v1",
+  "worldId": "date-a-live",
+  "status": "completed",
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "validation": {
+    "jsonValid": true,
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "newFactsIntroduced": false,
+    "forbiddenBasenamesGenerated": false
+  },
+  "counts": {
+    "nodes": 27,
+    "edges": 10,
+    "nodeCounts": {
+      "characters": 25,
+      "factions": 1,
+      "systems": 1
+    },
+    "edgeCounts": {
+      "derived-text-mention": 10
+    },
+    "derivedMentionEdges": 10
+  },
+  "warnings": [
+    "Derived graph edges are navigation/search signals, not formal relationship facts."
+  ]
+}

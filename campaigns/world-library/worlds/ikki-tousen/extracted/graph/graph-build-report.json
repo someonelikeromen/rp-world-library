@@ -1,0 +1,31 @@
+{
+  "schema": "ikki-tousen-graph-build-report-v1",
+  "worldId": "ikki-tousen",
+  "status": "completed",
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "validation": {
+    "jsonValid": true,
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "newFactsIntroduced": false,
+    "forbiddenBasenamesGenerated": false
+  },
+  "counts": {
+    "nodes": 111,
+    "edges": 445,
+    "nodeCounts": {
+      "characters": 93,
+      "abilities": 3,
+      "factions": 2,
+      "locations": 1,
+      "systems": 12
+    },
+    "edgeCounts": {
+      "derived-text-mention": 445
+    },
+    "derivedMentionEdges": 445
+  },
+  "warnings": [
+    "Derived graph edges are navigation/search signals, not formal relationship facts."
+  ]
+}

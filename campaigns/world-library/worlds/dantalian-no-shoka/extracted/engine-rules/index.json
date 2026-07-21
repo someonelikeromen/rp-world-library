@@ -1,0 +1,239 @@
+{
+  "schema": "dantalian-no-shoka-engine-rules-index-v1",
+  "worldId": "dantalian-no-shoka",
+  "recordFamily": "engine-rules",
+  "count": 16,
+  "records": [
+    {
+      "id": "check",
+      "name": "check:",
+      "aliases": [
+        "check:",
+        "[mvu_update]变量更新规则"
+      ],
+      "summary": "--- 变量更新规则: protagonist: name: check: - \"仅在故事开端或经历重大身份转变的剧情节点时更新。\" type: check: - \"仅在故事开端，确认主角身份时设定一次。\" background: check: - \"当主角回忆起关键往事或其背景故事被揭示时，进行补充或修正。\" time_and_location: date: check: - \"每次休息、长途旅行或明确的时间跳跃后更新。\" time_of_day: check: - \"随着剧情的自然推进而改变（例如：从正午到黄昏）。\" location: check: - \"当主角从一个地点移动到另一个地点时更新。\" weather: check: - \"进入新场景或时间发生显著变化时更新，需与地点和季节相符。\" reading_princesses.${读姬的名字}: type: |- { affection: number; // 对主角的好感度 status: string; // 当前状态 location: string; // 当前位置 } affection: range: -100 ~ 100 category: -100",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-33"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "mvu_dynamic-万灵好感表现",
+      "name": "[mvu_dynamic]万灵好感表现",
+      "aliases": [
+        "[mvu_dynamic]万灵好感表现"
+      ],
+      "summary": "--- <%_ const princesses = getvar('stat_data.reading_princesses') || {}; const companions = getvar('stat_data.companions') || {}; // 合并两个列表进行处理，但在输出时区分身份 const all_chars = []; Object.entries(princesses).forEach(([name, data]) => all_chars.push({name, data, type: '读姬'})); Object.entries(companions).forEach(([name, data]) => all_chars.push({name, data, type: '队友'})); _%> <relationship_matrix_performance> 系统说明: \"本模块自动根据当前好感度变量，生成所有活跃角色的行为指导。请在扮演以下角色时，严格参考对应的行为模式。\" <%_ all_chars.forEach(function(char) { const val = cha",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-36"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "mvu_dynamic-世界驱动",
+      "name": "[mvu_dynamic]世界驱动",
+      "aliases": [
+        "[mvu_dynamic]世界驱动"
+      ],
+      "summary": "--- <%_ const pName = getvar('stat_data.protagonist.name'); const mainStage = getvar('stat_data.quests.main.current_stage'); const reputations = getvar('stat_data.reputation') || {}; const books = getvar('stat_data.phantom_books') || {}; // 检查是否有敌对势力声望过低 let wantedBy = []; Object.entries(reputations).forEach(([fac, val]) => { if (val < -50) wantedBy.push(fac); }); // 检查是否有失控的幻书（战斗状态） let combatTarget = null; Object.entries(books).forEach(([book, info]) => { if (info.status === '失控') combatTarget = book; }); _%> <%_",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-37"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "mvu_update-变量输出格式",
+      "name": "[mvu_update]变量输出格式",
+      "aliases": [
+        "[mvu_update]变量输出格式"
+      ],
+      "summary": "--- 变量输出格式: rule: - you should output the update analysis and the actual update commands in the end of the next reply - the update commands must strictly follow the **JSON Patch (RFC 6902)** standard, but can only use the following operations: `replace` (replace the value of existing paths), `add` (only used to insert new items into an object or array), `remove`; that is, the output must be a valid JSON array containing operation objects format: |- <UpdateVariable> <Analysis>$(IN ENGLISH, no more than 80 words) - $",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-35"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "从“个体悲剧”到“体系冲突”的升级",
+      "name": "从“个体悲剧”到“体系冲突”的升级",
+      "aliases": [
+        "从“个体悲剧”到“体系冲突”的升级"
+      ],
+      "summary": "<main_storyline_generation_framework> 開啟：在 “第八卷 星辰的祭奠与永恒的箱庭“後，可以使用此模板開始創造主線劇情 design_philosophy: - title: 总体设计哲学 - principle: - name: 从“个体悲剧”到“体系冲突”的升级 description: \"后续主线必须将冲突从围绕单一幻书引发的个人或局部悲剧,升级为多个核心势力(封印派,毁灭派,研究派,窃贼)为了各自的终极目标而展开的全面博弈。故事的核心不再是“幻书是什么”,而是“幻书体系将走向何方”。\" - name: 书架本质的探寻 description: \"揭示“丹特丽安的书架”与“拉结尔的书架”等存在的真实目的与起源,是所有主线剧情的最终指向。它们究竟是监狱,是武器,还是某种更高存在的记忆装置？\" arc_structure_template: - title: 剧情弧光模板 - description: \"每一个原创主线章节都应遵循此四阶段结构,以确保叙事节奏与主题深度。\" - stages: - stage: \"序幕：异变的种子 (Prologue: The Seed of Anomal",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-28"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "变量列表",
+      "name": "变量列表",
+      "aliases": [
+        "变量列表"
+      ],
+      "summary": "--- <status_current_variable> {{format_message_variable::stat_data}} </status_current_variable>",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-34"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "好感度变化机制",
+      "name": "好感度变化机制",
+      "aliases": [
+        "好感度变化机制"
+      ],
+      "summary": "<好感度变化机制> 触发时机： 重要事件/场景结束时（如约会、任务、重要对话后）。 重大情节转折后（如拯救、背叛、深度共情）。 一段持续互动（如共同旅行、密集相处）结束后，依整体氛围评估。 变化幅度限制：每次触发更新，好感度增加或减少上限均为5。 好感度增减判定原则：综合考量事件性质、{{user}}意图、实际影响、情境、角色性格及当前好感度水平。 增加(+1至+5)： 轻微正面(+1~2):良好互动、顺利合作、礼物、日常约会、持续可靠。 中度正面(+2~3):关键帮助、深刻理解、共克挑战、契合角色价值观。 显著正面(+3~4):危机援手、满足愿望、情感深刻互动。 重大正面(+5):牺牲、共鸣、改变人生。 减少(-1至-5)： 轻微负面(-1):气氛不佳、轻微分歧失礼、持续忽略、累积不悦行为、侮辱嘲讽、使难堪、失信。 中度负面(-2):触及底线、负面互动总结、背叛或羞辱。 显著负面(-3):物理攻击、造成重大损失。 重大负面(-4~5):导致角色重伤。 不变(0)：中性日常互动、无害的尝试、角色未注意或不在乎、平淡互动。 高好感度增长限制(75+)： 当好感度达75或以上时，仅中度、显著或重大正面影响（+2至+5）才能提升好",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-57"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "尊重玩家选择",
+      "name": "尊重玩家选择",
+      "aliases": [
+        "尊重玩家选择",
+        "章节剧情处理系统"
+      ],
+      "summary": "<chapter_plot_processing_system> # 核心说明: 本条目定义了一个完整的,用于处理与推进章节剧情的动态系统框架 # 使用建议: 作为核心逻辑指令,指导LLM在角色扮演过程中如何解析章节目标,生成动态剧情,并判定章节是否结束 trigger_condition: \"仅当接收到被`<章节剧情>...</章节剧情>`标签包裹的内容时,本系统被激活\" core_principles: - name: 尊重玩家选择 description: \"玩家的行动具有最高优先级,系统应适应玩家行为,而非强制推进预设剧情\" - name: 节奏控制 description: \"避免强行推进剧情,为玩家提供充足的探索与互动空间\" - name: 柔性引导 description: \"通过环境暗示,NPC反应等非强制性手段,引导玩家回归主线\" - name: 事件优先 description: \"优先激活与原剧本相关的事件,以增强玩家的沉浸感与代入感\" processing_flow: - step: 1 name: 剧情解析与融合 (Plot Parsing & Integration) description: \"",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-56"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "教授",
+      "name": "教授",
+      "aliases": [
+        "教授",
+        "Professor",
+        "The Professor",
+        "プロフェッサー"
+      ],
+      "summary": "\"name\": \"教授\", \"Professor\", \"プロフェッサー\" \"alias\": [ \"教授\", \"红之书架的钥匙持有者\", \"幻稿的协作者\", \"变装大师\" ], \"appearance\": { \"gender\": \"男性\", \"hair\": \"一头略显凌乱的长发，色泽如同陈旧的羊皮纸，带着某种知性的颓废感。其发型常常因变装的需求而呈现出截然不同的状态。\", \"eyes\": \"深沉而锐利的金色双眸，瞳孔中仿佛沉淀着某种超脱常理的睿智。其目光极具穿透力，总能从复杂的混沌中捕捉到世界的破绽。\", \"outfit\": \"通常穿着一件剪裁得体、边角却因长途跋涉而略显磨损的灰白色长风衣，内里是笔挺的绅士马甲。在进行秘密活动时，会披上一袭宽大的深色斗篷，完全遮掩自己的身形。\", \"physique\": \"体态匀称，给人以文雅弱不禁风的错觉，但其实在动作间透露出极其精密的控制力。双手修长，指尖带有由于长期翻阅古籍而留下的薄茧。\", \"BWH\": \"未知\", \"accessories\": [ \"单片眼镜（分析用）\", \"各种变装面具\", \"特制的幻书调合针\" ], }, \"personality\": { \"traits\": [",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-18"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "未知",
+      "name": "未知",
+      "aliases": [
+        "未知",
+        "[initvar]变量初始化"
+      ],
+      "summary": "protagonist: name: 未知 type: 未知 background: 未知 time_and_location: date: 未知 time_of_day: 未知 location: 未知 weather: 未知 reading_princesses: {} companions: {} reputation: {} phantom_books: {} equipment: {} inventory: {} abilities: {} quests: main: title: 未知 description: 故事尚未开始 current_stage: 序章 side: {} daily: {}",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-32"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "欲望的种子-The-Seed-of-Desire",
+      "name": "欲望的种子 (The Seed of Desire)",
+      "aliases": [
+        "欲望的种子 (The Seed of Desire)"
+      ],
+      "summary": "<mission_generation_framework> design_philosophy: - title: 任务设计哲学 - principle: - name: 欲望的种子 (The Seed of Desire) description: 所有任务都必须源于一个角色(NPC)或一个社会群体无法被正常满足的强烈欲望。这份欲望是故事的起点,无论是对财富的贪婪,对逝去爱情的执念,还是对超越凡人智慧的渴求 - name: 知识的催化 (The Catalyst of Knowledge) description: \"幻书的出现是推动剧情的核心催化剂。它可能是被追寻的目标,也可能是引发异常现象的源头。幻书的力量直接回应了“欲望的种子”,并将其推向极端,从而制造出核心冲突\" - name: 代价的闭环 (The Consequence Loop) description: 任务的解决并非简单的成功或失败,而是让参与者直面使用禁忌知识后所产生的,具有讽刺意味的逻辑后果。代价是必然的,它与幻书的效果在主题上构成一个完整的因果闭环 mission_structure: - title: 任务结构模板 - description:",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-27"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "生成正文内容必须严格遵守如下文风要求",
+      "name": "生成正文内容必须严格遵守如下文风要求",
+      "aliases": [
+        "生成正文内容必须严格遵守如下文风要求"
+      ],
+      "summary": "<writing_style> # 生成正文内容必须严格遵守如下文风要求 文体定位: 日式奇幻冒险轻喜剧轻小说 (20世纪初欧洲架空背景) 文风: 1. 叙事视角与口吻 - 采用客观且略带疏离感的第三人称全知视角进行叙述。叙事者如同一个冷静的摄影师,忠实记录事件的发生,不直接抒发情感或进行议论。 - 语言风格简洁,注重功能性。描写服务于情节推进与氛围塑造,避免使用过度华丽或冗长的修辞。 - 句式以中短句为主,穿插必要的长句来描述复杂的背景或动作,形成富有节奏感的阅读体验。 2. 角色互动与对话 - **核心驱动**: 故事的核心由\"知识渊博但傲娇毒舌的少女\"与\"沉稳能干且具包容性的青年男性\"这一经典组合的互动驱动。 - **对话风格**: 对话占据极大篇幅,其风格轻快,充满机锋和反差感。 - **少女的语言模式**: - 常用命令式,夹杂着幼稚的抱怨与要求(特别是关于食物)。例如: \"给我饼干\" \"闭嘴,呆头鹅\"。 - 在阐述知识时,切换为权威且不容置疑的口吻,但在日常对话中则充满尖刻的挖苦与蔑称,如\"蠢货\" \"白痴\" \"山猴子大王\" \"棋盘格纹\"。 - **青年的语言模式**: - 充当吐槽役(straight man)的",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-8"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "知识的异化",
+      "name": "知识的异化",
+      "aliases": [
+        "知识的异化"
+      ],
+      "summary": "<phantom_book_foundry> # 指导原则: # - 本文件定义了在《丹特丽安的书架》世界观下,生成一本新的,符合逻辑与风格的“幻书”所需遵循的全部规则与模板 # - 输出内容应严格遵循本文件定义的结构与设计哲学 design_philosophy: - title: 幻书的设计哲学 - principle: - name: 知识的异化 description: 幻书是人类某种知识,技艺或社会概念的极端化与超自然化体现。它源于一个现实存在的概念(如: 烹饪,遗传学,时间表),并将其推演至足以扭曲物理法则的境地 - name: 欲望的容器 description: 每一本幻书都直接或间接地回应了人类的一种强烈欲望(如: 对美食的渴望,对后代的控制,对时间的超越)。其力量的本质,是这种欲望的具现化工具 - name: 代价的必然性 description: 幻书的力量从不免费。其“限制”或“代价”是其核心特征,且必须与“效果”在主题上紧密相连,形成一种讽刺性的因果闭环。代价并非随机的惩罚,而是滥用该力量的必然逻辑终点 thinking_process: - title: 幻书的生成性思维链 - instructi",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-21"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "第二卷-但他林的书架：深渊睿智的连锁与幻影的终焉",
+      "name": "第二卷 但他林的书架：深渊睿智的连锁与幻影的终焉",
+      "aliases": [
+        "第二卷 但他林的书架：深渊睿智的连锁与幻影的终焉"
+      ],
+      "summary": "<章节剧情> 章节标题: \"第二卷 但他林的书架：深渊睿智的连锁与幻影的终焉\" 详细剧情: \"承袭了祖父遗留的‘书架’与‘钥匙’，修·安东尼·迪斯瓦德（修伊）与漆黑的读姬达利安穿行于战后满目疮痍却又充满异样活力的世界。本章节中，两人追踪着各处流落的‘幻书’，陷入了一连串由禁忌知识编织的陷阱：在被荆棘覆盖的别墅中，揭开了贵族千金为了独占父爱而引发的幻影屠杀；在孤立的深山山庄，目睹了被诅咒的一族如何通过音律操纵无机的泥人（Golem）来掩盖杀人的罪证；更与名为哈尔与拉结尔的神秘二人组交锋，卷入了关于‘幻书化’的残酷实验与战场空中的亡灵纠葛。随着一册册幻书被回收、封印或焚毁，修伊与达利安的羁绊在名为‘睿智’的重压下愈发深厚，但也逐渐触及了那个由九十万零六百六十六册幻书组成的迷宫最深处的孤独。\" [关键场景/地点]: - 荆棘别墅 (卡拉波斯领地)：全境覆盖着真实幻觉的荆棘，隐藏着被分尸的真相。 - 迪斯瓦德宅邸温室：存放着十三年一开花、以人类记忆为食的“夜之女王”。 - 利尔本山庄：孤悬于深渊断崖之上的古老石造建筑，钟楼回响着操纵泥人的圣音。 - 前线航空基地：充满硝烟与机油味的战场，是“无面亡灵”诞生的幻稿实验场。 - 这里的赌",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-1"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "第四卷-睿智的余音与禁忌的刻痕",
+      "name": "第四卷 睿智的余音与禁忌的刻痕",
+      "aliases": [
+        "第四卷 睿智的余音与禁忌的刻痕"
+      ],
+      "summary": "<章节剧情> 章节标题: \"第四卷 睿智的余音与禁忌的刻痕\" 详细剧情: \"承接图书馆守护者的使命，修伊与妲丽安在初夏到晚秋的季节更迭中，奔波于王国的各个角落。他们在名门女子寄宿学校揭开了潜伏于书页缝隙中的开膛手谜团；在王都见证了追求‘幸福旋律’的机械读姬最终的绝响；处理了因《连理之书》而起的疯狂诅咒；更目睹了天才调香师为了救赎家族罪孽而身陨火海。最后，在边境的雷兹凯索城堡，修伊一行与‘焚书官’哈尔以及‘幻书窃贼’展开了一场关于转生与希望的奇幻博弈。每一本幻书的收回，都伴随着一段人性的挣扎与命运的挽歌。\" [关键场景/地点]: - 王国南部沿海寄宿学校：全封闭的女子千金学校，石造图书馆藏有数以万计的藏书。 - 萨斯汀音乐厅：为天才小提琴家克莉丝托贝尔建造的豪华音乐厅，内部设有精密的油压升降台与地下隔音室。 - 菲欧娜的研究所：位于高地的老旧宅邸，如同动植物园般充满奇珍异兽与自然的芬芳。 - 帕德克商会总部：犯罪组织的老巢，夜晚被血色薄雾笼罩。 - 雷兹凯索城堡：由红色砂岩建成的中世纪要塞，地下室封印着一段残酷的血亲往事。 参与剧情人物: - 修伊·安索尼·迪斯瓦特 - 主角，‘丹特丽安的书架’的钥匙守护者，退役飞行员。 -",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-3"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "附加约束：",
+      "name": "附加约束：",
+      "aliases": [
+        "附加约束：",
+        "标准输出格式定义"
+      ],
+      "summary": "<output_structure_definition> instruction: \"你的每一次回复都必须由<maintext>、<overall>、<UpdateVariable>和<StatusPlaceHolderImpl/>4个独立的、有序的模块构成,以实现'故事叙述'、'实时状态'、'宏观进程'和'数据更新'的清晰分离。\" 1. **<maintext>** - 内容：故事的正文，包含对话、动作、心理描写。 - 要求：符合原著文风，生动具体。 3. - module: <overall> \"终止条件状态|${各条件完成情况} 判定理由|${具体分析} 判定结果|${继续当前章节/推进至下一章节} 當前章節名稱|${XXX} 下一章節名稱|${YYY}\" 4. **<UpdateVariable>** - 内容：变量更新指令。 - 格式： <Analysis>${英文分析变化原因}</Analysis> <JSONPatch> [ { \"op\": \"replace\", \"path\": \"...\", \"value\": ... }, ... ] </JSONPatch> 5. **<StatusPlaceHolderI",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-55"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ]
+}

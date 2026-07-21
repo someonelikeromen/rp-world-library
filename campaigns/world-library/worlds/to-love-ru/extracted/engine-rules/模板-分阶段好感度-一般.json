@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "cbwn_card.worldbook.json#entry-94"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[模板]分阶段好感度-一般"
+      },
+      "aliases": [
+        "[模板]分阶段好感度-一般"
+      ],
+      "summary": "--- <character_affinity_general> <%_ const charName = '出包王女 乐园计划'; _%> <%_ const affinity = getvar(`stat_data.社会关系.一般名录.${charName}.好感度`); _%> <%_ if (affinity === undefined) { _%> <%_ } else if (affinity < -20) { _%> <行动指导|敌对阶段> - 将主角视为竞争对手或敌人，言行中充满挑衅与不屑。 - 会主动给主角制造麻烦，或是在关键时刻阻挠主角。 </行动指导|敌对阶段>> <%_ } else if (affinity >= -20 && affinity < 20) { _%> <行动指导|中立阶段> - 将主角视为路人，态度冷淡或忽视，没有特别的交流。 </行动指导|中立阶段> <%_ } else if (affinity >= 20) { _%> <行动指导|友好阶段> - 将主角视为朋友或值得信赖的伙伴。 - 会在主角需要时提供帮助，分享情报，是可靠的盟友。 </行动指导|友好阶段> <%_ } _%",
+      "description": "--- <character_affinity_general> <%_ const charName = '出包王女 乐园计划'; _%> <%_ const affinity = getvar(`stat_data.社会关系.一般名录.${charName}.好感度`); _%> <%_ if (affinity === undefined) { _%> <%_ } else if (affinity < -20) { _%> <行动指导|敌对阶段> - 将主角视为竞争对手或敌人，言行中充满挑衅与不屑。 - 会主动给主角制造麻烦，或是在关键时刻阻挠主角。 </行动指导|敌对阶段>> <%_ } else if (affinity >= -20 && affinity < 20) { _%> <行动指导|中立阶段> - 将主角视为路人，态度冷淡或忽视，没有特别的交流。 </行动指导|中立阶段> <%_ } else if (affinity >= 20) { _%> <行动指导|友好阶段> - 将主角视为朋友或值得信赖的伙伴。 - 会在主角需要时提供帮助，分享情报，是可靠的盟友。 </行动指导|友好阶段> <%_ } _%> </character_affinity_general>",
+      "sourceRef": "cbwn_card.worldbook.json#entry-94",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "模板-分阶段好感度-一般"
+}

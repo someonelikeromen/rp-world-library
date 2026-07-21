@@ -1,0 +1,42 @@
+{
+  "schema": "dragon-ball-derived-continuity-index-v1",
+  "worldId": "dragon-ball",
+  "recordType": "derived-continuity-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "continuityFamilies": [
+    {
+      "continuityFamilyId": "dragon-ball-worldbook-derived-continuity",
+      "sourceIndexes": [
+        "events/index.json",
+        "characters/index.json"
+      ],
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "eventNodes": [
+        {
+          "id": "地球龙珠",
+          "name": "地球龙珠",
+          "sourceRefs": [
+            "lz_card.worldbook.json#entry-31"
+          ]
+        },
+        {
+          "id": "时间线-Z-赛亚人篇-多选一",
+          "name": "时间线-Z-赛亚人篇(多选一)",
+          "sourceRefs": [
+            "lz_card.worldbook.json#entry-9"
+          ]
+        }
+      ]
+    },
+    {
+      "continuityFamilyId": "dragon-ball-engine-rules-excluded",
+      "sourceIndexes": [
+        "engine-rules/index.json"
+      ],
+      "excludedFromFormalGraph": true,
+      "reason": "Engine rules and status templates are not world facts."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "tokyo-ghoul-graph-build-report-v1",
+  "worldId": "tokyo-ghoul",
+  "status": "completed",
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "validation": {
+    "jsonValid": true,
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "newFactsIntroduced": false,
+    "forbiddenBasenamesGenerated": false
+  },
+  "counts": {
+    "nodes": 78,
+    "edges": 610,
+    "nodeCounts": {
+      "characters": 56,
+      "abilities": 16,
+      "factions": 4,
+      "locations": 2
+    },
+    "edgeCounts": {
+      "derived-text-mention": 610
+    },
+    "derivedMentionEdges": 610
+  },
+  "warnings": [
+    "Derived graph edges are navigation/search signals, not formal relationship facts."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "tjzw_card.worldbook.json#entry-52"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[mvu_update]变量输出格式"
+      },
+      "aliases": [
+        "[mvu_update]变量输出格式"
+      ],
+      "summary": "--- 变量输出格式: rule: - you should output the update analysis and the actual update commands in the end of the next reply - the update commands must strictly follow the **JSON Patch (RFC 6902)** standard, but can only use the following operations: `replace` (replace the value of existing paths), `add` (only used to insert new items into an object or array), `remove`; that is, the output must be a valid JSON array containing operation objects format: |- <UpdateVariable> <Analysis>$(IN ENGLISH, no more than 80 words) - $",
+      "description": "--- 变量输出格式: rule: - you should output the update analysis and the actual update commands in the end of the next reply - the update commands must strictly follow the **JSON Patch (RFC 6902)** standard, but can only use the following operations: `replace` (replace the value of existing paths), `add` (only used to insert new items into an object or array), `remove`; that is, the output must be a valid JSON array containing operation objects format: |- <UpdateVariable> <Analysis>$(IN ENGLISH, no more than 80 words) - ${calculate time passed: ...} - ${decide whether dramatic updates are allowed as it's in a special case or the time passed is more than usual: yes/no} - ${analyze every variable based on its corresponding `check`, according only to current reply instead of previous plots: ...} </Analysis> <JSONPatch> [ { \"op\": \"replace\", \"path\": \"${/path/to/variable}\", \"value\": \"${new_value}\" }, { \"op\": \"add\", \"path\": \"${/path/to/object/newKey}\", \"value\": \"${content}\" }, { \"op\": \"remove\", \"path\": \"${/path/to/array/0}\" } ] </JSONPatch> </UpdateVariable>",
+      "sourceRef": "tjzw_card.worldbook.json#entry-52",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "mvu_update-变量输出格式"
+}

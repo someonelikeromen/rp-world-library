@@ -1,0 +1,350 @@
+{
+  "schema": "gate-jsdf-characters-index-v1",
+  "worldId": "gate-jsdf",
+  "recordFamily": "characters",
+  "count": 23,
+  "records": [
+    {
+      "id": "'世界局势-内战前夕的脆弱平衡",
+      "name": "'世界局势: 内战前夕的脆弱平衡",
+      "aliases": [
+        "'世界局势: 内战前夕的脆弱平衡",
+        "世界局势: 内战前夕的脆弱平衡"
+      ],
+      "summary": "<world_situation> world_info_entry: - entry_name: '世界局势: 内战前夕的脆弱平衡' activation_strategy: '可选项' placement: '角色定义之后' insertion_order: 5 keys: ['局势', '现状', '当前情况'] content: | 当前世界局势: - 帝国的分裂: 帝国在军事上惨败于自卫队后,皇帝摩尔特采取“拖延”策略,而其子女则分裂为两派。皇子索沙尔集结主战派贵族,准备发动内战夺权。皇女平娜则领导蔷薇骑士团,积极与日本媾和,试图挽救帝国。 - 自卫队的介入: 自卫队在特区的存在已成为常态。除了军事威慑,他们还通过建立贸易城镇(阿尔努斯)、提供人道援助、与讲和派接触等方式,不断扩大其政治和文化影响力。 - 难民与新秩序: 因战争和炎龙灾害而流离失所的大量难民涌入阿尔努斯,形成了一个多民族、多文化共存的新社区,这里的经济与社会秩序正由自卫队主导重建。 - 大国的窥探: 地球的超级大国仍在通过各种秘密渠道刺探情报,并策划行动,试图染指“门”的利益,对日本在特区的行动构成潜在威胁。 </world_situation>",
+      "sourceRefs": [
+        "gate_card.worldbook.json#entry-121"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "'世界局势-变革与动荡",
+      "name": "'世界局势: 变革与动荡",
+      "aliases": [
+        "'世界局势: 变革与动荡",
+        "解放軍版:世界局势: 变革与动荡"
+      ],
+      "summary": "<world_situation> world_info_entry: - entry_name: '世界局势: 变革与动荡' activation_strategy: '可选项' placement: '角色定义之后' insertion_order: 5 keys: ['局势', '现状', '当前情况'] content: | 当前世界局势: - 军事占领与建设: 解放军已在阿尔努斯站稳脚跟, 并开始向周边辐射影响力。修路、通电、建立市场等举措极大改善了占领区民生, 赢得了底层民众支持。 - 帝国政局动荡: 皇帝摩尔特病重(或被控制), 皇子索沙尔发动政变建立恐怖统治, 皇女平娜在解放军支持下建立正统政府, 帝国内战全面爆发。 - 炎龙威胁: 传说中的炎龙苏醒, 威胁特区居民安全。这也成为解放军展示武力、收买人心(特别是亚人种族)的契机。 - 国际压力: 地球侧, 中国面临巨大的国际舆论压力。西方国家指责中国搞“新殖民主义”, 并要求开放“门”。中国政府则坚持主权原则, 并以特区资源作为博弈筹码。 </world_situation>",
+      "sourceRefs": [
+        "gate_card.worldbook.json#entry-132"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "'力量核心-工业化战争机器",
+      "name": "'力量核心: 工业化战争机器",
+      "aliases": [
+        "'力量核心: 工业化战争机器",
+        "解放軍版:力量核心: 工业化战争机器"
+      ],
+      "summary": "<core_power_system> world_info_entry: - entry_name: '力量核心: 工业化战争机器' activation_strategy: '常量' placement: '角色定义之前' insertion_order: -60 keys: [] content: | 力量体系核心: - 体系化作战: 解放军的力量不在于单件武器, 而在于侦察、指挥、后勤与火力打击的体系化结合。无人机、卫星通讯(通过架设中继站)与数据链让战场对中方单向透明。 - 火力至上: 崇尚“火力覆盖”, 遇到抵抗优先呼叫炮火或空中支援, 极力避免步兵近距离接触战, 最大限度减少伤亡。 - 魔法辅助: 虽然主力是科技侧, 但也开始研究利用特区魔法辅助工程建设或医疗, 蕾莱等合作者是这一领域的关键。 </core_power_system>",
+      "sourceRefs": [
+        "gate_card.worldbook.json#entry-136"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "'力量阶层-跨维度的战力天梯",
+      "name": "'力量阶层: 跨维度的战力天梯",
+      "aliases": [
+        "'力量阶层: 跨维度的战力天梯",
+        "实力等阶: 军事组织与个体强者"
+      ],
+      "summary": "<power_hierarchy_detail> world_info_entry: - entry_name: '力量阶层: 跨维度的战力天梯' activation_strategy: '可选项' placement: '角色定义之后' insertion_order: 30 keys: - '战力' - '强弱' - '等级' - '力量体系' - 'Power Level' content: | 力量阶层详述 (Power Hierarchy Detail): - 梯队一: 战略威慑级 (Strategic Deterrence) - 定义: 能够单方面决定战局走向, 对敌方构成毁灭性打击的力量 - 现代科技侧: - JSDF航空部队: F-4EJ改战斗机。掌握绝对制空权, 能够进行超视距打击, 对特区所有地面/空中目标具备秒杀能力 - JSDF特科部队: 75式自行榴弹炮。具备超视距精确炮击能力, 能在敌方视野外摧毁大兵团集结 - 异世界侧: - 亚神 (Apostles): 如萝莉·麦丘利。拥有物理免疫/超速再生/无限体力的半神之躯, 常规手段无法消灭, 是唯一能与现代连队级火力抗衡的单体单位 - 远古龙种: 如",
+      "sourceRefs": [
+        "gate_card.worldbook.json#entry-118"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "'势力格局-三足鼎立与暗流涌动",
+      "name": "'势力格局: 三足鼎立与暗流涌动",
+      "aliases": [
+        "'势力格局: 三足鼎立与暗流涌动",
+        "势力格局: 三足鼎立与暗流涌动"
+      ],
+      "summary": "<faction_landscape> world_info_entry: - entry_name: '势力格局: 三足鼎立与暗流涌动' activation_strategy: '常量' placement: '角色定义之前' insertion_order: -50 keys: [] content: | 当前势力格局: - 核心对峙: 目前特区的局势主要由三方势力主导——代表现代文明的日本自卫队、统治大陆的传统霸主帝国、以及在幕后觊觎“门”的地球超级大国(美、中、俄)。 - 日本自卫队: 以阿尔努斯山丘为基地,凭借技术优势在特区拥有绝对的军事主导权。其目标从最初的报复与调查,转变为确保日本在特区的战略利益。受限于宪法,其行动偏向防御与维和。 - 帝国: “银座事件”后国力急剧衰退,内部因战和路线分裂为以皇女平娜为首的“讲和派”和以皇子索沙尔为首的“主战派”。帝国正处于内战的边缘。 - 地球超级大国: 无法直接通过“门”进入特区,但通过外交、经济和间谍活动,不断向日本施压,试图分一杯羹,是局势中不稳定的外部因素。 </faction_landscape>",
+      "sourceRefs": [
+        "gate_card.worldbook.json#entry-119"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "'势力格局-红色风暴下的特区",
+      "name": "'势力格局: 红色风暴下的特区",
+      "aliases": [
+        "'势力格局: 红色风暴下的特区",
+        "解放軍版:势力格局: 红色风暴下的特区"
+      ],
+      "summary": "<faction_landscape> world_info_entry: - entry_name: '势力格局: 红色风暴下的特区' activation_strategy: '常量' placement: '角色定义之前' insertion_order: -50 keys: [] content: | 当前势力格局: - 主导势力 (中国): 控制着“门”的两端及阿尔努斯周边区域。凭借强大的工业输送能力和现代化武力, 掌握着特区的战略主动权。在特区推行基础设施建设与贸易, 意图建立长期影响力。 - 旧秩序 (帝国): 在“上海事件”及随后的反击战中主力尽丧。目前分裂为两派: - 帝都流亡/主战派: 以皇子索沙尔为首, 依托残余旧贵族势力, 试图通过游击战或焦土政策抵抗。 - 伊塔黎卡/讲和派: 以皇女平娜为首, 主张与中国合作, 学习先进技术以改革帝国。 - 外部窥视者 (地球列强): 美国、俄罗斯等国对中国独占特区资源极度不满, 通过外交施压、经济制裁及派遣特工渗透等手段, 试图破坏中国的特区战略。 </faction_landscape>",
+      "sourceRefs": [
+        "gate_card.worldbook.json#entry-131"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "'势力档案-萨德拉帝国-The-Empire",
+      "name": "'势力档案: 萨德拉帝国 (The Empire)",
+      "aliases": [
+        "'势力档案: 萨德拉帝国 (The Empire)",
+        "'势力档案: 萨德拉帝国"
+      ],
+      "summary": "<major_powers_data> world_info_entry: - entry_name: '势力档案: 萨德拉帝国 (The Empire)' activation_strategy: '可选项' placement: '角色定义之后' insertion_order: 20 keys: - '帝国' - 'Empire' - '萨德拉' - '帝国军' content: | 势力档案: 萨德拉帝国 (The Saderan Empire) - 政治核心: - 皇权: 绝对君主制, 皇帝拥有最高决策权。现任皇帝摩尔特老谋深算, 善于利用局势平衡各方 - 元老院: 由有力贵族组成, 拥有立法与咨询权, 是各派系(主战/讲和)角力的舞台 - 继承人危机: 皇子索沙尔(主战/鲁莽)与皇女平娜(讲和/务实)的对立导致帝国分裂为\"帝都政权\"与\"伊塔黎卡正统政府\" - 军事体系: - 结构: 类似于罗马军团, 由多个拥有独立指挥权的\"军团\"组成, 辅以附庸国的仆从军 - 战术: 擅长平原会战/密集方阵/骑兵冲锋。对现代战争的\"视距外打击\"与\"夜战\"完全缺乏概念 - 现状: 银座战役与阿尔努斯战役中损失了60%以上的精锐, ",
+      "sourceRefs": [
+        "gate_card.worldbook.json#entry-112"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "'地理志-以阿尔努斯为中心的特区",
+      "name": "'地理志: 以阿尔努斯为中心的特区",
+      "aliases": [
+        "'地理志: 以阿尔努斯为中心的特区"
+      ],
+      "summary": "<isekai_geography_detail> world_info_entry: - entry_name: '地理志: 以阿尔努斯为中心的特区' activation_strategy: '可选项' placement: '角色定义之后' insertion_order: 15 keys: - '地图' - '地理' - '位置' - '法尔马特' - '特区地理' content: | 地理志: 法尔马特大陆 (Falmart Continent) - 核心控制区: - 阿尔努斯山丘 (Alnus Hill): \"门\"的特区侧出口。现已建成巨大的解放军军事基地及后勤中心, 拥有机场、雷达站和防御工事。周边形成了繁荣的“阿尔努斯特区市”, 接纳了大量难民与商人。 - 哥达村: 邻近阿尔努斯的典型村落, 是接触特区文化的窗口。 - 西部战略方向: - 帝都萨德拉 (Sadera): 帝国首都, 位于阿尔努斯以西。拥有皇宫与元老院, 是旧秩序的象征。 - 伊塔黎卡 (Italica): 位于阿尔努斯与帝都之间的战略枢纽, 贸易重镇。现为亲中派(平娜皇女)的根据地。 - 北部区域: - 伦德尔 (Rondel): 学术与魔",
+      "sourceRefs": [
+        "gate_card.worldbook.json#entry-129"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "'地理志-法尔马特大陆-Falmart-Gazetteer",
+      "name": "'地理志: 法尔马特大陆 (Falmart Gazetteer)",
+      "aliases": [
+        "'地理志: 法尔马特大陆 (Falmart Gazetteer)",
+        "世界地理: 法尔马特大陆",
+        "'地理志: 法尔马特大陆"
+      ],
+      "summary": "<isekai_geography_detail> world_info_entry: - entry_name: '地理志: 法尔马特大陆 (Falmart Gazetteer)' activation_strategy: '可选项' placement: '角色定义之后' insertion_order: 15 keys: - '地图' - '地理' - '位置' - '法尔马特' - '特区地理' content: | 地理志: 法尔马特大陆 (Falmart Continent) - 中心区域: - 阿尔努斯山丘 (Alnus Hill): \"门\"的所在地, 位于大陆中心偏东。现为JSDF基地及新兴贸易都市, 连接地球的唯一通道 - 哥达村 (Coda Village): 位于阿尔努斯附近的村落, 是蕾莱与加图居住地, 典型的特区农村 - 西部区域: - 帝都萨德拉 (Sadera): 位于阿尔努斯西方约600-800公里处。拥有宏伟的皇宫、元老院与斗技场。建立在七座山丘之上, 是大陆的政治心脏 - 伊塔黎卡 (Italica): 位于阿尔努斯与帝都之间的交通要道上, 重要的商业枢纽。由佛马尔家族统治, 拥有坚固的城",
+      "sourceRefs": [
+        "gate_card.worldbook.json#entry-116"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "'实力等阶-钢铁洪流与神话生物",
+      "name": "'实力等阶: 钢铁洪流与神话生物",
+      "aliases": [
+        "'实力等阶: 钢铁洪流与神话生物",
+        "解放軍版:实力等阶: 钢铁洪流与神话生物"
+      ],
+      "summary": "<power_levels_hierarchy> world_info_entry: - entry_name: '实力等阶: 钢铁洪流与神话生物' activation_strategy: '可选项' placement: '角色定义之后' insertion_order: 25 keys: ['实力', '战力', '等级', '强度'] content: | 实力层级划分: - 战略级 (Strategic): - 解放军火箭军/空军: 拥有远程精确打击能力, 能够瞬间摧毁帝都或任何大型集结地。 - 亚神 (使徒): 如萝莉·麦丘利, 拥有不死身和极高的单体破坏力, 是唯一能对现代步兵班组构成威胁的存在。 - 战术级 (Tactical): - 解放军装甲部队: 99A主战坦克/04A步战车。地面无敌的移动堡垒。 - 解放军陆航: 武直-10/直-20。空中死神, 对特区骑兵和步兵具有毁灭性压制力。 - 炎龙: 空中霸主, 需动用重武器(反坦克导弹/机炮)才能消灭。 - 精锐级 (Elite): - 解放军特战旅: 装备夜视仪、消音器及高精度武器, 擅长斩首与侦察。 - 蔷薇骑士团: 帝国最精锐的骑士部队, 但在自动火",
+      "sourceRefs": [
+        "gate_card.worldbook.json#entry-135"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "'时代背景-前工业时代的法尔马特大陆",
+      "name": "'时代背景: 前工业时代的法尔马特大陆",
+      "aliases": [
+        "'时代背景: 前工业时代的法尔马特大陆",
+        "时代背景: 前工业时代的法尔马特大陆"
+      ],
+      "summary": "<era_background> world_info_entry: - entry_name: '时代背景: 前工业时代的法尔马特大陆' activation_strategy: '常量' placement: '角色定义之前' insertion_order: -95 keys: [] content: | 时代背景: - 社会形态: 特区的法尔马特大陆整体处于前工业时代,社会结构与技术水平类似于地球历史上的古罗马至中世纪时期。 - 技术水平: - 生产力: 社会生产依赖手工业与人力,农业是经济基础。 - 冶金: 以锻造为主,能够制造精良的板甲与剑。 - 能源与动力: 未发明火药与内燃机,军事与民用动力主要依靠人力、畜力(马、龙)和有限的魔法。 - 交通与通讯: - 交通: 主要依靠步行、马车或骑乘生物(如马、飞龙)。长距离移动耗时极长。 - 通讯: 依赖信使或魔法进行远距离通讯,信息传递效率低下。 - 统治结构: 大部分地区由实行君主制的“帝国”及其附庸国统治,社会阶级森严。 </era_background>",
+      "sourceRefs": [
+        "gate_card.worldbook.json#entry-113"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "'时代背景-红色钢铁与中世纪",
+      "name": "'时代背景: 红色钢铁与中世纪",
+      "aliases": [
+        "'时代背景: 红色钢铁与中世纪",
+        "解放軍版:时代背景: 红色钢铁与中世纪"
+      ],
+      "summary": "<era_background> world_info_entry: - entry_name: '时代背景: 红色钢铁与中世纪' activation_strategy: '常量' placement: '角色定义之前' insertion_order: -95 keys: [] content: | 时代背景: - 地球侧 (中国): 处于高度信息化的21世纪中叶。中国已完成国家统一(包含日本地区),拥有全球顶尖的工业制造能力、强大的动员体系和现代化的国防力量。上海是连接两个世界的经济与军事枢纽。 - 特区侧 (法尔马特): 处于前工业时代,社会结构类似古罗马至中世纪欧洲。 - 生产力: 依赖人力与畜力,农业为主,手工业为辅。 - 军事: 冷兵器为主,辅以初级魔法与驯兽(飞龙)。 - 通讯: 极度落后,依赖信使与魔法通讯。 - 融合现状: 解放军在特区建立了现代化基地(阿尔努斯),将电力、内燃机、现代医疗与通讯技术带入特区,与当地落后的生产力形成剧烈反差。 </era_background>",
+      "sourceRefs": [
+        "gate_card.worldbook.json#entry-126"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "'社会生活-碰撞与交融",
+      "name": "'社会生活: 碰撞与交融",
+      "aliases": [
+        "'社会生活: 碰撞与交融",
+        "解放軍版:社会生活: 碰撞与交融"
+      ],
+      "summary": "<social_life_and_culture> world_info_entry: - entry_name: '社会生活: 碰撞与交融' activation_strategy: '可选项' placement: '角色定义之后' insertion_order: 35 keys: ['社会', '生活', '文化', '阿尔努斯'] content: | 社会与文化: - 阿尔努斯特区: 一个独特的文化熔炉。这里有中国的商品(方便面、电器、服装)、日本的二次元文化(通过日籍士兵传播)以及特区的魔法与异域风情。PX商店成为当地人眼中的“宝库”。 - 语言与交流: 汉语成为阿尔努斯的通用语之一, 同时日籍士兵的存在使得日语也在一定范围内流通。特区通用语与地球语言的翻译工作主要由蕾莱等当地学者协助。 - 娱乐: 来自地球的电影、游戏、漫画(尤其是日籍士兵带来的同人志)在特区高层及平民中引发了文化冲击。 - 经济: 传统的金银货币体系受到人民币及以物易物贸易的冲击。中国廉价工业品的涌入正在摧毁特区原始的手工业体系。 </social_life_and_culture>",
+      "sourceRefs": [
+        "gate_card.worldbook.json#entry-133"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "'社会阶层-帝国的金字塔结构",
+      "name": "'社会阶层: 帝国的金字塔结构",
+      "aliases": [
+        "'社会阶层: 帝国的金字塔结构"
+      ],
+      "summary": "<social_hierarchy> world_info_entry: - entry_name: '社会阶层: 帝国的金字塔结构' activation_strategy: '可选项' placement: '角色定义之后' insertion_order: 30 keys: ['阶级', '阶层', '社会结构'] content: | 社会阶层结构(以帝国为例): - 顶层 (统治者): 皇帝及其皇族。拥有最高的权力和权威。 - 上层 (执政阶级): 元老院议员、高级贵族、将军。他们掌握着帝国的政治、军事和经济命脉,构成统治集团。 - 中层 (精英与公民): 骑士、低阶贵族、富裕商人、行会师傅、帝国正规公民。他们是社会的中坚力量,享有法律保护和一定的社会地位。 - 下层 (普通平民): 帝国内的普通人类平民,如农民、手工业者等。他们是主要的劳动者和税收来源。 - 最底层 (非公民与财产): 亚人种族(精灵、兽人等)和奴隶。在帝国法律体系中,他们不被视为“人”,而是统治阶级的财产。他们没有人权,可以被合法地买卖、奴役和杀害。 </social_hierarchy>",
+      "sourceRefs": [
+        "gate_card.worldbook.json#entry-122"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "'社会阶层-旧制度的瓦解",
+      "name": "'社会阶层: 旧制度的瓦解",
+      "aliases": [
+        "'社会阶层: 旧制度的瓦解",
+        "解放軍版:社会阶层: 旧制度的瓦解"
+      ],
+      "summary": "<social_hierarchy> world_info_entry: - entry_name: '社会阶层: 旧制度的瓦解' activation_strategy: '可选项' placement: '角色定义之后' insertion_order: 30 keys: ['阶级', '阶层', '社会结构'] content: | 社会阶层结构: - 帝国侧: 传统的金字塔结构。皇帝 > 贵族/元老院 > 公民 > 平民 > 亚人/奴隶。这一结构正在解放军的打击和思想渗透下摇摇欲坠。 - 占领区侧: - 管理者: 解放军指挥官及中国政府派出的行政人员。 - 合作者: 愿意接受新秩序的当地贵族(如平娜派系)、商人及学者。 - 受益者: 获得解放的奴隶、亚人及普通平民。 - 边缘人: 拒绝改变的旧贵族残余。 </social_hierarchy>",
+      "sourceRefs": [
+        "gate_card.worldbook.json#entry-134"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "'群体共性-多样的智慧种族",
+      "name": "'群体共性: 多样的智慧种族",
+      "aliases": [
+        "'群体共性: 多样的智慧种族",
+        "群体共性: 多样的智慧种族"
+      ],
+      "summary": "<group_commonalities> world_info_entry: - entry_name: '群体共性: 多样的智慧种族' activation_strategy: '可选项' placement: '角色定义之后' insertion_order: 40 keys: ['种族', '亚人', '精灵', '矮人', '兽人'] content: | 主要智慧种族共性: - 人类: 特区分布最广、数量最多的种族。帝国的统治种族,拥有完整的社会与军事体系。 - 精灵 (Elf): 长寿种族,外形俊美,擅长弓箭与森林生活。对自然有深厚的情感。因长寿,对时间和生命的看法与人类不同。分为高等精灵、暗黑精灵等分支。 - 矮人 (Dwarf): 身材矮小但敦实,擅长采矿、冶金与锻造。性格通常固执而豪爽。 - 兽人 (Beast-kin): 拥有动物特征的亚人,如猫人、狼人、狐人等。通常拥有超越人类的敏捷或力量,但在帝国社会地位低下。 - 猎头兔族 (Warrior Bunnies): 以战斗为生的好战种族,拥有极强的战斗本能和敏锐的感知能力。女性战士构成了社会的主体。 - 翼人/哈比 (Winged-kin/Harpy)",
+      "sourceRefs": [
+        "gate_card.worldbook.json#entry-124"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "'群体共性-种族与融合",
+      "name": "'群体共性: 种族与融合",
+      "aliases": [
+        "'群体共性: 种族与融合",
+        "解放軍版:群体共性: 种族与融合"
+      ],
+      "summary": "<group_commonalities> world_info_entry: - entry_name: '群体共性: 种族与融合' activation_strategy: '可选项' placement: '角色定义之后' insertion_order: 40 keys: ['种族', '亚人', '精灵', '日籍士兵', '解放军'] content: | 群体共性: - 中国人民解放军 (PLA): 驻特区部队。纪律严明, 装备精良。强调“三大纪律八项注意”, 对特区平民采取怀柔与援助政策, 对敌对武装力量则实施毁灭性打击。 - 日籍士兵: 解放军中的大和族成员。普遍保留了部分原有文化习惯(如二次元文化), 但在政治认同上归属于中国。女性日籍士兵在医疗、通讯及特种侦察岗位上表现活跃。 - 帝国人类: 崇尚武力与等级, 对“绿衣人(解放军)”充满恐惧与好奇。贵族阶层傲慢, 平民阶层顺从。 - 亚人种族: 包括精灵、兽人、矮人等。在帝国受尽压迫, 因此对主张“平等”的解放军抱有天然的好感, 是中方在特区的重要统战对象。 - 亚神 (使徒): 拥有超越凡人的力量, 态度高傲。对解放军这类“不敬神”的强大力量持复杂态度",
+      "sourceRefs": [
+        "gate_card.worldbook.json#entry-130"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "'装备库-中国人民解放军特地派遣装备-PLA-Armaments",
+      "name": "'装备库: 中国人民解放军特地派遣装备 (PLA Armaments)",
+      "aliases": [
+        "'装备库: 中国人民解放军特地派遣装备 (PLA Armaments)",
+        "装备库: 中国人民解放军特地派遣装备 (PLA Armaments)",
+        "'装备库: 中国人民解放军特地派遣装备"
+      ],
+      "summary": "<jsdf_armament_database> world_info_entry: - entry_name: '装备库: 中国人民解放军特地派遣装备 (PLA Armaments)' activation_strategy: '可选项' placement: '角色定义之后' insertion_order: 25 keys: - '武器' - '装备' - '战车' - '飞机' - '军舰' - 'Weapon' - 'Equipment' content: | 装备清单: 中国人民解放军驻特区部队 (PLA Special Region Garrison) - 陆军 (PLAGF) - 地面压制核心: - 单兵武器: - QBZ-191/95-1式自动步枪: 5.8mm口径, 主力步枪。精准、可靠, 对抗无甲或轻甲目标效果显著。 - QBU-191/88式狙击步枪: 用于精确射杀敌方指挥官或高价值目标(如魔法师)。 - QJZ-89式12.7mm重机枪: 阵地防御利器, 能够撕碎帝国重装步兵的盾墙和飞龙的鳞片。 - PF-98/120反坦克火箭筒: 虽无敌方坦克可打, 但用于攻击城门、坚固工事或大型怪兽(如炎龙)极",
+      "sourceRefs": [
+        "gate_card.worldbook.json#entry-137"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "'装备库-自卫队特地派遣装备-JSDF-Armaments",
+      "name": "'装备库: 自卫队特地派遣装备 (JSDF Armaments)",
+      "aliases": [
+        "'装备库: 自卫队特地派遣装备 (JSDF Armaments)",
+        "装备库: 自卫队特地派遣装备",
+        "'装备库: 自卫队特地派遣装备"
+      ],
+      "summary": "<jsdf_armament_database> world_info_entry: - entry_name: '装备库: 自卫队特地派遣装备 (JSDF Armaments)' activation_strategy: '可选项' placement: '角色定义之后' insertion_order: 25 keys: - '武器' - '装备' - '战车' - '飞机' - '军舰' - 'Weapon' - 'Equipment' content: | 装备清单: 自卫队特地派遣部队 (JSDF Special Region Detachment) - 陆上自卫队 (JGSDF) - 地面压制核心: - 单兵武器: - 64式步枪 (Howa Type 64): 7.62mm口径, 威力大但笨重。因穿透力强, 对抗穿戴板甲的帝国兵效果极佳, 是特区主力步枪 - 89式步枪 (Howa Type 89): 5.56mm口径, 现代化小口径步枪, 主要由特战群及部分精锐部队使用 - M2勃朗宁重机枪 (M2 Browning): 12.7mm口径, 车载或阵地防御用。对异世界生物(如飞龙、食人魔)具有撕裂性的杀伤力 ",
+      "sourceRefs": [
+        "gate_card.worldbook.json#entry-120"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "charName-关系-r.relation_type",
+      "name": "<%= charName %> | 关系: <%= r.relation_type %>]",
+      "aliases": [
+        "[System]通用关系与声望"
+      ],
+      "summary": "--- <dynamic_social_instruction> <%_ const rels = getvar('stat_data.social.relationships') || {}; const facts = getvar('stat_data.social.reputation') || {}; const names = Object.keys(rels); const faction_names = Object.keys(facts); _%> <!-- 1. 势力声望系统 --> <%_ if (faction_names.length > 0) { _%> Current Faction Status: <%_ faction_names.forEach(fname => { const f = facts[fname]; const val = f.value; _%> - <%= fname %> (<%= f.level %>): <%_ if (val < -50) { _%> (仇恨) 视为死敌，见面即进入战斗状态或拒绝沟通。 <%_ } else if (val < 0) { _%> (",
+      "sourceRefs": [
+        "gate_card.worldbook.json#entry-149"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "伊丹耀司",
+      "name": "伊丹耀司",
+      "aliases": [
+        "伊丹耀司"
+      ],
+      "summary": "<character_roster> 地球: 陸上自衛隊特地派遣方面隊: description: 因预定会进行实战, 而减少一般士兵, 转而以士官、军官阶层的自卫官为中心编组部队。残留约4600人于特区。 第三偵查隊: description: 为了与当地住民接触而编成的深入侦察部队之一, 队长为伊丹耀司。 members: - name: 伊丹耀司 rank: 二等陸尉 role: 队长, 后调任“特区”资源调查负责人 description: 33岁, 奉行享乐主义的宅男。因“银座事件”的功绩晋升。“炎龙讨伐”后获得贵族称号, 具备优秀的直觉、观察及判断能力。 - name: 栗林志乃 rank: 二等陸曹 role: 队员 description: 24岁, 擅长格斗战, 战斗狂。身高不足150cm但设法入队。 - name: 富田章 rank: 二等陸曹 role: 队员 description: 27岁, 伊丹的左右手, 拥有游骑兵与空降部队徽章。后与波赛斯结婚。 - name: 仓田武雄 rank: 三等陸曹 role: 队员 description: 21岁, 优秀的高机动车驾驶员, 萌猫耳。 - name:",
+      "sourceRefs": [
+        "gate_card.worldbook.json#entry-0"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "外传二-黑神的大祭典篇-上",
+      "name": "外传二 黑神的大祭典篇 上",
+      "aliases": [
+        "外传二 黑神的大祭典篇 上"
+      ],
+      "summary": "<章节剧情> 章节标题: \"外传二 黑神的大祭典篇 上\" 详细剧情: \"为了给富田与波赛斯的女儿舞举办名为‘纳什达’的诞生祭典，在阿尔努斯的神殿中，一场原本小规模的庆祝活动在萝莉、杜嘉等人的热情推动下，逐渐演变为一场规模空前的盛事。伊丹耀司在其中扮演着关键的协调者角色，他不仅要为富田与波赛斯策划一场惊喜的婚礼，还要处理因祭典规模扩大而引发的各种问题，如宾客住宿、后勤保障等。在此期间，伊丹与海上自卫队的江田岛二佐相识，两人在御宅文化的共同语言下迅速结下友谊。然而，祭典的筹备并非一帆风顺，亚神们（格兰汉姆、瓦蕾哈伦等）的提前到来，以及帝国方面贵族间的暗流涌动，都为这场盛大的祭典蒙上了一层复杂的阴影。与此同时，故事穿插了萝莉·麦丘利成为亚神之前的过去，揭示了她与朋友们在费伯伦神殿的见习神官生涯，以及她们与帝国摄政家族之间的深刻矛盾与宿命纠葛。\" [关键场景/地点]: - 阿尔努斯 萝莉神殿 - 伊丹的“特别图书馆”（自卫队驻地内） - 黄蔷薇屋敷（波赛斯在阿尔努斯的住所） - 海上自卫队驻地（江田岛的执务室） - （回忆）费伯伦神殿（艾登王国） - 帝都 帕蕾斯蒂侯爵府邸 - 帝都 皇城东宫殿 参与剧情人物: - 伊丹耀司 - 二",
+      "sourceRefs": [
+        "gate_card.worldbook.json#entry-13"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "第二卷-接触篇-下-通往银座的铁轨与死神的断罪",
+      "name": "第二卷 接触篇 下 通往银座的铁轨与死神的断罪",
+      "aliases": [
+        "第二卷 接触篇 下 通往银座的铁轨与死神的断罪"
+      ],
+      "summary": "<章节剧情> 章节标题: \"第二卷 接触篇 下 通往银座的铁轨与死神的断罪\" 详细剧情: \"伊丹耀司在伊塔黎卡被帝国女骑士波赛丝误捕并遭受虐待，引发平娜皇女的极大恐慌。为了弥补破坏协定的过失，平娜亲率波赛丝前往阿尔努斯谢罪。随后，伊丹受命回国参加国会听证，平娜与波赛丝随行考察。在东京，特区美少女三人组引发全国轰动，但在野党议员的质疑与外国情报机构（美、中、俄）的秘密行动让旅程危机四伏。在一系列暗杀与绑架未遂后，萝莉·麦丘利在温泉旅馆大显神威歼灭敌特。最终，在伊丹的策划与民众的拥护下，众人安全返回特区，平娜也坚定了和平的决心。\" [关键场景/地点]: - 伊塔黎卡（佛马尔伯爵家宅邸） - 阿尔努斯驻屯地 - 银座（传送门周边） - 国会议事堂 - 新宿二丁目 - 涩谷/原宿/秋叶原（购物区） - 温泉旅馆（山海楼阁） 参与剧情人物: - 伊丹耀司 - 二等陆尉，第三侦查队队长，本次行动的核心人物。 - 平娜·戈·兰达 - 帝国三公主，致力于和平交涉。 - 波赛丝·戈·芭蕾絲蒂 - 帝国女骑士，误抓伊丹者，后对富田产生好感。 - 萝莉·麦丘利 - 亚神（使徒），拥有惊人战斗力。 - 蕾萊·拉·列娜 - 天才魔法少女，担任核心翻译",
+      "sourceRefs": [
+        "gate_card.worldbook.json#entry-2"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    }
+  ]
+}

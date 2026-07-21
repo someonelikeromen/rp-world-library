@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "cbwn_card.worldbook.json#entry-95"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[模板]动态势力声望"
+      },
+      "aliases": [
+        "[模板]动态势力声望"
+      ],
+      "summary": "--- <faction_reputation_dynamics> <%_ const factionName = '{{faction}}'; _%> <%_ const reputation = getvar(`stat_data.主角信息.勢力聲望.${factionName}.聲望值`); _%> <%_ if (reputation === undefined) { _%> <%_ } else if (reputation === '仇視') { _%> <勢力反應|仇視> - 該勢力將主角視為必須清除的敵人，會派出刺客或艦隊進行追殺。 - 與該勢力相關的任何設施或地點都將對主角關閉並抱有敵意。 </勢力反應> <%_ } else if (reputation === '惡感' || reputation === '默默無聞') { _%> <勢力反應|警惕/中立> - 該勢力對主角持懷疑或漠不關心的態度，不會提供任何幫助。 - 在該勢力範圍內行動會受到監視。 </勢力反應> <%_ } else if (reputation === '觀察對象' || reputation === '友善') { _%> <",
+      "description": "--- <faction_reputation_dynamics> <%_ const factionName = '{{faction}}'; _%> <%_ const reputation = getvar(`stat_data.主角信息.勢力聲望.${factionName}.聲望值`); _%> <%_ if (reputation === undefined) { _%> <%_ } else if (reputation === '仇視') { _%> <勢力反應|仇視> - 該勢力將主角視為必須清除的敵人，會派出刺客或艦隊進行追殺。 - 與該勢力相關的任何設施或地點都將對主角關閉並抱有敵意。 </勢力反應> <%_ } else if (reputation === '惡感' || reputation === '默默無聞') { _%> <勢力反應|警惕/中立> - 該勢力對主角持懷疑或漠不關心的態度，不會提供任何幫助。 - 在該勢力範圍內行動會受到監視。 </勢力反應> <%_ } else if (reputation === '觀察對象' || reputation === '友善') { _%> <勢力反應|友善> - 該勢力對主角抱有好感，可能會提供特殊的任務、情報或物資支援。 - 該勢力的成員在見到主角時會表現出尊敬或友好的態度。 </勢力反應> <%_ } else if (reputation === '核心盟友' || reputation === '崇拜') { _%> <勢力反應|信賴/崇拜> - 該勢力將主角視為自己人，甚至可能是信仰的對象。 - 勢力會無條件支持主角的任何決定，包括他的「樂園計劃」。 </勢力反應> <%_ } _%> </faction_reputation_dynamics>",
+      "sourceRef": "cbwn_card.worldbook.json#entry-95",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "模板-动态势力声望"
+}

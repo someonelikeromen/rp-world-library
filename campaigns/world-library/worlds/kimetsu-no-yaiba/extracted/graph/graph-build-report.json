@@ -1,0 +1,34 @@
+{
+  "schema": "kimetsu-no-yaiba-graph-build-report-v1",
+  "worldId": "kimetsu-no-yaiba",
+  "status": "completed",
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "validation": {
+    "jsonValid": true,
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "newFactsIntroduced": false,
+    "forbiddenBasenamesGenerated": false
+  },
+  "counts": {
+    "nodes": 329,
+    "edges": 1350,
+    "nodeCounts": {
+      "characters": 130,
+      "abilities": 143,
+      "items": 8,
+      "factions": 4,
+      "locations": 15,
+      "events": 2,
+      "systems": 25,
+      "knowledge": 2
+    },
+    "edgeCounts": {
+      "derived-text-mention": 1350
+    },
+    "derivedMentionEdges": 1350
+  },
+  "warnings": [
+    "Derived graph edges are navigation/search signals, not formal relationship facts."
+  ]
+}

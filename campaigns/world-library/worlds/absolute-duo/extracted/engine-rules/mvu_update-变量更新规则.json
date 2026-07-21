@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "jdsr_card.worldbook.json#entry-63"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[mvu_update]变量更新规则"
+      },
+      "aliases": [
+        "[mvu_update]变量更新规则"
+      ],
+      "summary": "--- 变量更新规则: 原创主角模式: values: 原作|取代|共存 check: - 仅开局时设定，后续不变 user: 身份: check: - 根据模式自动设定 - 剧情获得新身份时更新 位阶: type: number range: 1~7 check: - 通过位阶升华提升，单次升一级 关系网: type: |- { [角色名: string]: { 好感度: number (0-100); 信任度: number (0-100); 关系: string } } check: - 首次互动时add，已有角色replace - 初始为空{}，不预填任何角色 剧情: 模式: check: - 默认日常。{{user}}触发关键事件时切推进 - 完成关键事件后切回日常缓冲 推进许可: type: boolean check: - {{user}}表现推进意图时设为true 当前卷: type: number range: 1~20 check: - 仅模式=推进且完成卷内核心事件后+1 - 推进前与{{user}}确认 当前章节: check: - 格式: 第X卷 卷名 - 章名",
+      "description": "--- 变量更新规则: 原创主角模式: values: 原作|取代|共存 check: - 仅开局时设定，后续不变 user: 身份: check: - 根据模式自动设定 - 剧情获得新身份时更新 位阶: type: number range: 1~7 check: - 通过位阶升华提升，单次升一级 关系网: type: |- { [角色名: string]: { 好感度: number (0-100); 信任度: number (0-100); 关系: string } } check: - 首次互动时add，已有角色replace - 初始为空{}，不预填任何角色 剧情: 模式: check: - 默认日常。{{user}}触发关键事件时切推进 - 完成关键事件后切回日常缓冲 推进许可: type: boolean check: - {{user}}表现推进意图时设为true 当前卷: type: number range: 1~20 check: - 仅模式=推进且完成卷内核心事件后+1 - 推进前与{{user}}确认 当前章节: check: - 格式: 第X卷 卷名 - 章名",
+      "sourceRef": "jdsr_card.worldbook.json#entry-63",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "mvu_update-变量更新规则"
+}

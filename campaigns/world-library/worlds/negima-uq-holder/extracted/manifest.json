@@ -1,0 +1,53 @@
+{
+  "schema": "negima-uq-holder-extracted-manifest-v1",
+  "worldId": "negima-uq-holder",
+  "layer": "extracted",
+  "archiveKind": "world",
+  "status": "generated-from-local-worldbook-index",
+  "canUseAsPiExtractedLayer": true,
+  "canReplaceCurated": false,
+  "sourceWorldview": "imports/worldviews/negima-uq-holder",
+  "indexes": {
+    "characters": "characters/index.json",
+    "abilities": "abilities/index.json",
+    "items": "items/index.json",
+    "factions": "factions/index.json",
+    "locations": "locations/index.json",
+    "events": "events/index.json",
+    "systems": "systems/index.json",
+    "knowledge": "knowledge/index.json",
+    "engineRules": "engine-rules/index.json",
+    "sources": "sources/index.json",
+    "relationships": "relationships/index.json",
+    "derivedEntityGraph": "graph/derived-entity-graph.json",
+    "derivedRelationshipIndex": "graph/derived-relationship-index.json",
+    "derivedContinuityIndex": "graph/derived-continuity-index.json",
+    "graphBuildReport": "graph/graph-build-report.json"
+  },
+  "counts": {
+    "sourceEntries": 223,
+    "sourceFiles": 1,
+    "characters": 142,
+    "abilities": 8,
+    "items": 0,
+    "factions": 0,
+    "locations": 0,
+    "events": 0,
+    "systems": 0,
+    "knowledge": 0,
+    "engineRules": 73,
+    "graphNodes": 150,
+    "graphEdges": 97,
+    "derivedMentionEdges": 97
+  },
+  "graphPolicy": {
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "introducesNewFacts": false,
+    "relationshipEdgesAreSignals": true
+  },
+  "generatedAt": "2026-07-20T16:57:24.940Z",
+  "repairedAt": "2026-07-20T17:04:48.799Z",
+  "graphRebuiltAt": "2026-07-21T01:35:04.123Z",
+  "characterRestoreAt": "2026-07-21T01:29:01.296Z"
+}

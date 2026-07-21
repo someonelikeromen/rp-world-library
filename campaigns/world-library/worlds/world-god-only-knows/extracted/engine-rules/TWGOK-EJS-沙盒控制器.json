@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "zyszddsj_card.worldbook.json#entry-51"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "TWGOK EJS 沙盒控制器"
+      },
+      "aliases": [
+        "TWGOK EJS 沙盒控制器"
+      ],
+      "summary": "<%_ var mode = getvar('stat_data.当前模式') || '剧情'; if (mode !== '沙盒') { return; } _%> <%- await getwi('TWGOK 沙盒时间推进规则') %> <%- await getwi('TWGOK 沙盒触发条件') %> <%- await getwi('TWGOK 人物总览列表') %> <%- await getwi('TWGOK 关键剧情时间表') %>",
+      "description": "<%_ var mode = getvar('stat_data.当前模式') || '剧情'; if (mode !== '沙盒') { return; } _%> <%- await getwi('TWGOK 沙盒时间推进规则') %> <%- await getwi('TWGOK 沙盒触发条件') %> <%- await getwi('TWGOK 人物总览列表') %> <%- await getwi('TWGOK 关键剧情时间表') %>",
+      "sourceRef": "zyszddsj_card.worldbook.json#entry-51",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "TWGOK-EJS-沙盒控制器"
+}

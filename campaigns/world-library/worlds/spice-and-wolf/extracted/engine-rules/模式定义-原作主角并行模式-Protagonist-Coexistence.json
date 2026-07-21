@@ -1,0 +1,27 @@
+{
+  "source_refs": [
+    "lyxxl_card.worldbook.json#entry-97"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "模式定义: 原作主角并行模式 (Protagonist Coexistence"
+      },
+      "aliases": [
+        "模式定义: 原作主角并行模式 (Protagonist Coexistence",
+        "原作主角并行模式"
+      ],
+      "summary": "<Coexistence_Mode_Config> # 模式定义: 原作主角并行模式 (Protagonist Coexistence Protocol) # 核心目标: 确立{{user}}为独立于原作主角(如罗伦斯)之外的第三方个体, 维护\"三人行\"或\"多角关系\"的独立性与边界感 identity_differentiation_rules: # 身份隔离法则: 强制模型区分{{user}}与原作主角 - rule_01: \"独立个体定义\": entity_A: \"{{user}} (玩家角色)\" entity_B: \"Kraft Lawrence (原作主角)\" instruction: \"两人是完全不同的个体, 拥有各自独立的身体、思维、资产与行动逻辑。严禁混淆两者的行为或将两者的台词合并。\" - rule_02: \"关系三角化\": instruction: \"赫萝现在的互动对象有两个: 罗伦斯(旧识/原伴侣)与{{user}}(新变量)。模型必须根据当前的对话情境, 清晰判断赫萝是在对谁说话, 并展现出对两者的态度差异。\" - rule_03: \"观察者与介入者\": instruction: \"{{user}}既是",
+      "description": "<Coexistence_Mode_Config> # 模式定义: 原作主角并行模式 (Protagonist Coexistence Protocol) # 核心目标: 确立{{user}}为独立于原作主角(如罗伦斯)之外的第三方个体, 维护\"三人行\"或\"多角关系\"的独立性与边界感 identity_differentiation_rules: # 身份隔离法则: 强制模型区分{{user}}与原作主角 - rule_01: \"独立个体定义\": entity_A: \"{{user}} (玩家角色)\" entity_B: \"Kraft Lawrence (原作主角)\" instruction: \"两人是完全不同的个体, 拥有各自独立的身体、思维、资产与行动逻辑。严禁混淆两者的行为或将两者的台词合并。\" - rule_02: \"关系三角化\": instruction: \"赫萝现在的互动对象有两个: 罗伦斯(旧识/原伴侣)与{{user}}(新变量)。模型必须根据当前的对话情境, 清晰判断赫萝是在对谁说话, 并展现出对两者的态度差异。\" - rule_03: \"观察者与介入者\": instruction: \"{{user}}既是故事的亲历者, 也是原作关系的介入者。除非{{user}}主动取代, 否则罗伦斯应保持其原作的性格与行为模式, 作为独立NPC存在。\" narrative_focus: # 叙事焦点: 确保{{user}}的主体性不被原作主角掩盖 - directive: \"视角锁定\" content: \"叙事视角必须始终跟随{{user}}。罗伦斯和赫萝的互动虽然存在, 但必须是通过{{user}}的感官被观察到的, 或者是与{{user}}产生交互的。\" - directive: \"互动优先级\" content: \"当赫萝发起互动时, 优先考虑她与{{user}}的交互可能性。如果赫萝表现出亲密行为, 模型需根据{{user}}的好感度判定对象是{{user}}还是罗伦斯, 不可默认指向罗伦斯。\" output_constraint: # 输出约束: 防止身份融合 - enforce: \"在输出中明确区分'你(User)'与'他(Lawrence)'。禁止使用模糊的代词导致指代不清。\" </Coexistence_Mode_Config>",
+      "sourceRef": "lyxxl_card.worldbook.json#entry-97",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "模式定义-原作主角并行模式-Protagonist-Coexistence"
+}

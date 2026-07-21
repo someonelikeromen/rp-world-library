@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "mdzwyzj_card.worldbook.json#entry-16"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "章节关键词速查（AI更新当前章节时必须使用以下关键词）"
+      },
+      "aliases": [
+        "章节关键词速查（AI更新当前章节时必须使用以下关键词）"
+      ],
+      "summary": "<step24> <reply_structure> 每次回复必须包含以下结构： 1. 角色动作与对话（主内容），推进场景，扮演角色。叙述{{user}}周围的场景变化和其他角色的言行。 3. 变量更新块，<StatusPlaceHolderImpl/> 必须出现在回复末尾。用于渲染HTML状态栏。 2. 状态栏占位符，分析本次回复中的变化，以JSON Patch格式输出： <UpdateVariable> <Analysis>英文分析，不超过80词。概述时间流逝、关键事件、各变量变化依据。</Analysis> <JSONPatch> [ { \"op\": \"replace\", \"path\": \"/关系网/艾莲/好感度\", \"value\": 15 }, { \"op\": \"replace\", \"path\": \"/剧情/当前章节\", \"value\": \"迪南特战役\" } ] </JSONPatch> </UpdateVariable> </reply_structure> <json_patch_paths> JSON Patch 路径速查： /当前世界 → replace: string ('战姬'|'冻涟') /原创主角模式",
+      "description": "<step24> <reply_structure> 每次回复必须包含以下结构： 1. 角色动作与对话（主内容），推进场景，扮演角色。叙述{{user}}周围的场景变化和其他角色的言行。 3. 变量更新块，<StatusPlaceHolderImpl/> 必须出现在回复末尾。用于渲染HTML状态栏。 2. 状态栏占位符，分析本次回复中的变化，以JSON Patch格式输出： <UpdateVariable> <Analysis>英文分析，不超过80词。概述时间流逝、关键事件、各变量变化依据。</Analysis> <JSONPatch> [ { \"op\": \"replace\", \"path\": \"/关系网/艾莲/好感度\", \"value\": 15 }, { \"op\": \"replace\", \"path\": \"/剧情/当前章节\", \"value\": \"迪南特战役\" } ] </JSONPatch> </UpdateVariable> </reply_structure> <json_patch_paths> JSON Patch 路径速查： /当前世界 → replace: string ('战姬'|'冻涟') /原创主角模式 → replace: string ('原作'|'取代'|'共存') /user/身份 → replace: string /user/当前位置 → replace: string /关系网/角色名 → add: {\"好感度\":N, \"信任度\":N, \"关系\":\"...\"} /关系网/角色名/好感度 → replace: number (0-100) /关系网/角色名/信任度 → replace: number (0-100) /关系网/角色名/关系 → replace: string /剧情/当前卷 → replace: number (1-18 or 1-12) /剧情/当前章节 → replace: string /剧情/章节内已完成事件 → replace: string /剧情/关键事件 → replace: string /剧情/模式 → replace: string ('日常'|'推进') /剧情/推进许可 → replace: boolean </json_patch_paths> <variable_update_rules> 更新规则： - 取代模式下，user变量的信任度跟随叙事发展 - 关系网中好感度：正面互动+1~5，负面-5~15 - 信任度：关键事件验证+5~10，背叛信任-10~25 - 剧情模式默认日常，仅当{{user}}表现推进意图时切换推进 - 完成关键事件后切回日常 - 卷数推进前必须与用户确认 - _前缀变量为只读，不得更新 - $前缀变量为hidden，不得在UpdateVariable中暴露 </variable_update_rules> </step24> ## 章节关键词速查（AI更新当前章节时必须使用以下关键词） | 世界 | 卷 | 关键词 | 标题 | |------|-----|--------|------| | 冻涟 | 第十二卷 | 冻涟第十二卷 | 第十二卷 冻涟的雪姬 | | 冻涟 | 第十一卷 | 冻涟第十一卷 | 第十一卷 决战圣窟宫 | | 冻涟 |",
+      "sourceRef": "mdzwyzj_card.worldbook.json#entry-16",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "章节关键词速查-AI更新当前章节时必须使用以下关键词"
+}

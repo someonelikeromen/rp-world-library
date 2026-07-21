@@ -1,0 +1,28 @@
+{
+  "schema": "jojo-graph-build-report-v1",
+  "worldId": "jojo",
+  "status": "completed",
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "validation": {
+    "jsonValid": true,
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "newFactsIntroduced": false,
+    "forbiddenBasenamesGenerated": false
+  },
+  "counts": {
+    "nodes": 7,
+    "edges": 8,
+    "nodeCounts": {
+      "characters": 1,
+      "abilities": 6
+    },
+    "edgeCounts": {
+      "derived-text-mention": 8
+    },
+    "derivedMentionEdges": 8
+  },
+  "warnings": [
+    "Derived graph edges are navigation/search signals, not formal relationship facts."
+  ]
+}

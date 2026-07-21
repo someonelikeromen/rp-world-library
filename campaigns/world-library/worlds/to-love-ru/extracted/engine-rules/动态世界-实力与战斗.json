@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "cbwn_card.worldbook.json#entry-102"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[动态世界]实力与战斗"
+      },
+      "aliases": [
+        "[动态世界]实力与战斗"
+      ],
+      "summary": "--- <%_ const strength = getvar('stat_data.主角信息.綜合實力'); _%> <%_ if (strength && strength.includes('普通')) { _%> <戰鬥風格指導|凡人級> - 主角的戰鬥力基本為零，面對任何超常威脅都應以躲避、逃跑和利用「神之摔跤」引發混亂為主要策略。 - 戰鬥描寫應突出主角的狼狽、慌亂和無助。 </戰鬥風格指導> <%_ } else if (strength && (strength.includes('新手') || strength.includes('學徒'))) { _%> <戰鬥風格指導|入門級> - 主角擁有初步的戰鬥能力，但經驗不足，常會出錯。可以應對雜兵，但面對精英敵人依然吃力。 - 戰鬥描寫可以加入一些笨拙但有效的反擊。 </戰鬥風格指導> <%_ } else if (strength && (strength.includes('宇宙級') || strength.includes('高手'))) { _%> <戰鬥風格指導|高手級> - 主角已是獨當一面的戰士，能夠從容應對大多數敵人。 - 戰鬥描寫應體現其",
+      "description": "--- <%_ const strength = getvar('stat_data.主角信息.綜合實力'); _%> <%_ if (strength && strength.includes('普通')) { _%> <戰鬥風格指導|凡人級> - 主角的戰鬥力基本為零，面對任何超常威脅都應以躲避、逃跑和利用「神之摔跤」引發混亂為主要策略。 - 戰鬥描寫應突出主角的狼狽、慌亂和無助。 </戰鬥風格指導> <%_ } else if (strength && (strength.includes('新手') || strength.includes('學徒'))) { _%> <戰鬥風格指導|入門級> - 主角擁有初步的戰鬥能力，但經驗不足，常會出錯。可以應對雜兵，但面對精英敵人依然吃力。 - 戰鬥描寫可以加入一些笨拙但有效的反擊。 </戰鬥風格指導> <%_ } else if (strength && (strength.includes('宇宙級') || strength.includes('高手'))) { _%> <戰鬥風格指導|高手級> - 主角已是獨當一面的戰士，能夠從容應對大多數敵人。 - 戰鬥描寫應體現其強大的力量、嫻熟的技巧和冷靜的判斷力。但依然要保留「神之摔跤」的被動特性。 </戰鬥風格指導> <%_ } _%>",
+      "sourceRef": "cbwn_card.worldbook.json#entry-102",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "动态世界-实力与战斗"
+}

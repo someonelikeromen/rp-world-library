@@ -1,0 +1,54 @@
+{
+  "schema": "hidan-no-aria-legacy-extracted-manifest-v1",
+  "worldId": "hidan-no-aria",
+  "layer": "extracted",
+  "archiveKind": "world",
+  "status": "legacy-extracted-layer-indexed",
+  "legacyLayer": true,
+  "canUseAsPiExtractedLayer": true,
+  "canReplaceCurated": false,
+  "sourceWorldview": "imports/worldviews/hidan-no-aria",
+  "indexes": {
+    "timeline_pilot": "timeline-pilot.json",
+    "timeline_v3": "timeline-v3.json",
+    "timeline_v4": "timeline-v4.json",
+    "timeline_v5": "timeline-v5.json",
+    "timeline_v6": "timeline-v6.json",
+    "timeline": "timeline.json"
+  },
+  "legacyGraphFiles": [
+    "graph/_test-inline.json",
+    "graph/ability-graph.json",
+    "graph/ability-ownership.json",
+    "graph/char-relations-core.json",
+    "graph/char-relations.json",
+    "graph/character-index.json",
+    "graph/complete-graph.json",
+    "graph/event-causality.json",
+    "graph/event-graph.json",
+    "graph/item-graph.json",
+    "graph/item-ownership.json",
+    "graph/relationships.json",
+    "graph/timeline.json",
+    "graph/world-graph.json"
+  ],
+  "counts": {
+    "extractedJsonFiles": 4177,
+    "characters": 144,
+    "worldSections": {
+      "powerSystems": 14,
+      "factions": 23,
+      "rules": 6,
+      "locations": 14,
+      "events": 0
+    }
+  },
+  "graphPolicy": {
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "introducesNewFacts": false,
+    "legacyGraphFilesMayUseOlderNames": true
+  },
+  "generatedAt": "2026-07-20T17:12:10.528Z",
+  "note": "Minimal manifest added for consistency with newer world-library extracted layers; existing legacy files were not renamed or rewritten."
+}

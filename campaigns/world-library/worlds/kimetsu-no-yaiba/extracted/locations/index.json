@@ -1,0 +1,224 @@
+{
+  "schema": "kimetsu-no-yaiba-locations-index-v1",
+  "worldId": "kimetsu-no-yaiba",
+  "recordFamily": "locations",
+  "count": 15,
+  "records": [
+    {
+      "id": "status-s-S-当前位置-^-n-刀匠村-s-S-status-s",
+      "name": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(刀匠村)[\\s\\S]*?<\\/status>/s",
+      "aliases": [],
+      "summary": "<地点:刀匠村> 介绍：居民佩戴“火男面具”，终身不示真容，对刀具极度狂热与偏执，认为“折断刀是剑士的无能”。 </地点:刀匠村>",
+      "sourceRefs": [
+        "gmzr_card.worldbook.json#entry-110"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "status-s-S-当前位置-^-n-无限列车-s-S-status-s",
+      "name": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(无限列车)[\\s\\S]*?<\\/status>/s",
+      "aliases": [],
+      "summary": "<地点:无限列车> 介绍：行驶于轨道上的蒸汽机车，封闭且高速移动。狭窄的车厢限制了长兵器和范围呼吸法的发挥。 </地点:无限列车>",
+      "sourceRefs": [
+        "gmzr_card.worldbook.json#entry-114"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "status-s-S-当前位置-^-n-无限城-s-S-status-s",
+      "name": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(无限城)[\\s\\S]*?<\\/status>/s",
+      "aliases": [],
+      "summary": "<地点:无限城> 介绍：音律驱动的重力错乱异空间，空间随声瞬息重组，集错乱阶梯、深邃天井与无尽门扉于一体的深渊堡垒。 </地点:无限城>",
+      "sourceRefs": [
+        "gmzr_card.worldbook.json#entry-116"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "status-s-S-当前位置-^-n-浅草-s-S-status-s",
+      "name": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(浅草)[\\s\\S]*?<\\/status>/s",
+      "aliases": [],
+      "summary": "<地点:浅草> 介绍：大正时代东京最繁华、现代化的都市区域。霓虹灯火、密集的建筑、往来的路面电车与拥挤的人群。 </地点:浅草>",
+      "sourceRefs": [
+        "gmzr_card.worldbook.json#entry-112"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "status-s-S-当前位置-^-n-藤袭山-s-S-status-s",
+      "name": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(藤袭山)[\\s\\S]*?<\\/status>/s",
+      "aliases": [],
+      "summary": "<地点:藤袭山> 介绍：山脚常年开满鬼所厌恶的紫藤花，形成天然的结界。山顶囚禁着由历代选拔者捕获的低阶恶鬼。 </地点:藤袭山>",
+      "sourceRefs": [
+        "gmzr_card.worldbook.json#entry-111"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "status-s-S-当前位置-^-n-蝶屋-蝴蝶屋-s-S-status-s",
+      "name": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(蝶屋|蝴蝶屋)[\\s\\S]*?<\\/status>/s",
+      "aliases": [],
+      "summary": "<地点:蝶屋> 介绍：严谨的医疗环境与温馨的家庭氛围并存。对于失去家人的剑士而言，这里具有“家”的情感属性。 </地点:蝶屋>",
+      "sourceRefs": [
+        "gmzr_card.worldbook.json#entry-109"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "status-s-S-当前位置-^-n-那田蜘蛛山-s-S-status-s",
+      "name": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(那田蜘蛛山)[\\s\\S]*?<\\/status>/s",
+      "aliases": [],
+      "summary": "<地点:那田蜘蛛山> 介绍：被蜘蛛网密布、阴森潮湿的原始森林。 </地点:那田蜘蛛山>",
+      "sourceRefs": [
+        "gmzr_card.worldbook.json#entry-113"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-通透世界-.-story_scene-s",
+      "name": "/<story_scene>.*?(通透世界).*?<\\/story_scene>/s",
+      "aliases": [],
+      "summary": "<核心设定:通透世界> 境界定义：动态视力与感知力的终极极意。 视觉特征：在使用者眼中，生物的身体变为“透明”，可以直接观察到肌肉的收缩、血管的流动、骨骼的运动及肺部的呼吸。 实战效果： 极致预判：通过观察对手肌肉收缩，在其出招前零点几秒预知动作。 无我境界：关闭自身的“斗气”与杀意，进入完全纯粹的空灵状态（可克制猗窝座等感知类对手）。 </核心设定:通透世界>",
+      "sourceRefs": [
+        "gmzr_card.worldbook.json#entry-28"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-锻刀师-.-story_scene-s",
+      "name": "/<story_scene>.*?(锻刀师).*?<\\/story_scene>/s",
+      "aliases": [],
+      "summary": "<核心设定:锻刀师> 定义：居住于绝密地点“刀匠村”的专业工匠，终身为鬼杀队打造日轮刀。 特征：全员佩戴“火男面具”，极其厌恶展露真容。对刀的热爱超越生命。 禁忌：极度痛恨“折断刀”或“让刀生锈”的剑士。若发生此类情况，锻刀师会暴怒甚至拒绝再次锻刀。 仪式：新刀锻成后会亲自送货上门，并观察剑士拔刀时的变色过程。 </核心设定:锻刀师>",
+      "sourceRefs": [
+        "gmzr_card.worldbook.json#entry-21"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "地点-结尾",
+      "name": "【地点:结尾】",
+      "aliases": [
+        "【地点:结尾】"
+      ],
+      "summary": "【地点:结尾】",
+      "sourceRefs": [
+        "gmzr_card.worldbook.json#entry-117"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "地点-起始",
+      "name": "【地点:起始】",
+      "aliases": [
+        "【地点:起始】"
+      ],
+      "summary": "【地点:起始】",
+      "sourceRefs": [
+        "gmzr_card.worldbook.json#entry-108"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "无限列车事件",
+      "name": "无限列车事件",
+      "aliases": [
+        "无限列车事件",
+        "魇梦的列车",
+        "Mugen Ressha Hen",
+        "Infinity Train Arc",
+        "炎柱的牺牲之地",
+        "猗窝座登场之战",
+        "梦境血战(无限列车)",
+        "下弦之壹的覆灭(无限列车)"
+      ],
+      "summary": "【重要事件：无限列车事件 (Mugen Ressha Hen / Infinity Train Arc)】 **发生时间：** 灶门炭治郎、我妻善逸、嘴平伊之助在蝶屋敷完成“全集中·常中”训练后不久。那田蜘蛛山事件和下弦解体会议之后。 **地点：** 一辆正在行驶中的蒸汽火车——“无限列车”。 **主要参与者：** * **鬼杀队方：** * 灶门炭治郎 * 灶门祢豆子（藏在箱子里） * 我妻善逸 * 嘴平伊之助 * 炎柱·炼狱杏寿郎 * **鬼方：** * 下弦之壹·魇梦（主要敌人，已与列车融合） * 上弦之叁·猗窝座（在魇梦被消灭后突然出现） * **其他：** 列车上的大量普通乘客（约200人），以及四名被魇梦利用的、患有不治之症或对现实绝望的人类（负责潜入梦境破坏精神核心）。 **事件起因与任务目标：** * **人口失踪事件：** 短时间内，无限列车上接连发生乘客神秘失踪的事件，超过四十人下落不明。鬼杀队判断有强大的鬼在列车上作祟。 * **鬼杀队的任务：** 鎹鸦指引炭治郎、善逸、伊之助与炎柱炼狱杏寿郎会合，共同登上无限列车，调查失踪事件真相，并消灭潜藏的鬼。 **事件核心过程：** 1. **与炎柱会合，初识魇",
+      "sourceRefs": [
+        "鬼灭之刃的广阔世界.worldbook.json#entry-91"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "稀血的深层秘密",
+      "name": "稀血的深层秘密",
+      "aliases": [
+        "稀血的深层秘密",
+        "特殊血脉的起源",
+        "与青色彼岸花的关联",
+        "鬼的天然抑制剂",
+        "血脉返祖现象",
+        "稀血的本质",
+        "Marechi的秘密"
+      ],
+      "summary": "【世界观拓展：“稀血”的深层秘密与可能的起源假说】 **核心概念回顾：** 稀血 (Marechi) 是指人类中一种极其罕见的、对鬼具有强大吸引力和滋补效果的特殊血液。 **深层秘密与起源假说（拓展性）：** 1. **并非随机突变，而是古老血脉的“返祖”或“显性”现象：** * 稀血体质可能并非完全的随机基因突变，而是源于某些非常古老的、在人类进化早期就存在的特殊血脉。 * 这些古老血脉可能在远古时期，人类与自然环境（或其他未知超自然因素）的互动中，产生了一些独特的生理特质。 * 在漫长的历史演变中，这些血脉特征可能大部分被稀释或转为隐性，只在极少数后代身上，因某种未知的“激活”机制（可能是隔代遗传的巧合、特定环境的刺激、甚至是某种潜在的“天命”），而重新以“稀血”的形式显现出来。 2. **与“青色彼岸花”的某种“反向”或“平衡”关联：** * **假说A（天然的“微弱解药”）：** 如果青色彼岸花是导致“鬼化”的根源或催化剂，那么稀血中是否可能天然蕴含着某种能够微弱地“中和”、“抑制”或“排斥”鬼细胞活性的特殊成分？这种成分对人类无害，但对鬼来说，既是强烈的诱惑（因为蕴含高能量），又是某种程度的“毒药”（可能会轻微干扰",
+      "sourceRefs": [
+        "鬼灭之刃的广阔世界.worldbook.json#entry-161"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "继国家",
+      "name": "继国家",
+      "aliases": [
+        "继国家",
+        "继国兄弟的家族",
+        "Tsugikuni Clan",
+        "战国武士家族",
+        "缘一与岩胜的出身",
+        "日之呼吸与月之呼吸的摇篮",
+        "继国一族"
+      ],
+      "summary": "【重要家族背景：继国家 (Tsugikuni Clan)】 **时代背景：** 战国时代（约15世纪末-17世纪初的日本）。一个群雄割据、战乱不休的时代。 **家族性质：** 武士家族。在当时拥有一定的地位和领地，以武勇和剑术为立身之本，是侍奉某位大名的中下级武士家族。 **核心人物：** * **继国缘一 (Tsugikuni Yoriichi)：** 天才剑士，日之呼吸的创造者。因天生异相（额头斑纹）和作为双胞胎中的“不祥”一方（右撇子，与左撇子的兄长不同，當時右撇子被認為不宜繼承家業），在家族中受到歧视，被其父视为不祥，打算在其十岁时送往寺庙出家。 * **继国岩胜 (Tsugikuni Michikatsu)：** 缘一的双胞胎哥哥，后来的上弦之壹·黑死牟。作为长子和预定的继承人，承担了家族的期望，但活在弟弟的天才阴影之下，对其产生了强烈的嫉妒。 * **父亲（继国当主，姓名不详）：** 严厉而遵循传统的武士，迷信且重男轻女（更偏爱被认为是“正常”的岩胜）。对缘一的异相感到不祥，并因其过早展现的剑术天赋而感到恐惧，担心其会威胁到岩胜的继承地位。 * **母亲（朱乃，Akeno）：** 深爱两个儿子，但身体病弱，在缘一",
+      "sourceRefs": [
+        "鬼灭之刃的广阔世界.worldbook.json#entry-67"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "青色彼岸花",
+      "name": "青色彼岸花",
+      "aliases": [
+        "青色彼岸花",
+        "蓝色的彼岸花",
+        "Blue Spider Lily",
+        "无惨的追求",
+        "克服阳光的关键",
+        "传说中的花"
+      ],
+      "summary": "【关键物品/设定：青色彼岸花 (Aoiro Higanbana / Blue Spider Lily)】 **核心定义：** 一种传说中的、极其罕见的花朵，被认为是鬼舞辻无惨克服阳光弱点、成为完美生物的关键所在。它在《鬼灭之刃》的世界观中，象征着无惨千年的执念与徒劳的追寻。 **外观与特征：** * **颜色：** 如其名，花朵呈现出独特的、如同晴空或深海般的青蓝色，与常见的红色彼岸花形成鲜明对比。 * **形态：** 可能与普通彼岸花（石蒜）形态相似，拥有细长的花瓣和突出的雄蕊，但其整体感觉更为神秘和 ethereal（飘渺）。 * **发光性（推测）：** 在某些传说或特殊条件下（如月光下、特定时辰），青色彼岸花可能会散发出微弱的荧光，增添其神秘色彩。 * **气味：** 可能散发出一种独特的、难以形容的香气，这种香气对鬼（尤其是无惨）具有某种特殊的吸引力，或者能够引发某种生理反应。 **生长环境与稀有性：** * **极端苛刻的条件：** 青色彼岸花的生长条件极其苛刻，远超普通植物。它可能只生长在特定地理位置（如阳光常年照射不到的阴暗山谷深处、地脉能量异常活跃的区域、或是某种特殊矿物富集的土壤中）、特定的气候环境（如极",
+      "sourceRefs": [
+        "鬼灭之刃的广阔世界.worldbook.json#entry-6"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    }
+  ]
+}

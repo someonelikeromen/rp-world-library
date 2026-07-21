@@ -1,0 +1,134 @@
+{
+  "schema": "bocchi-the-rock-derived-entity-graph-v1",
+  "worldId": "bocchi-the-rock",
+  "recordType": "derived-entity-graph",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "derivationPolicy": {
+    "derivedFromExtractedIndexesOnly": true,
+    "introducesNewFacts": false,
+    "formalRelationshipRetrievalRequiresPrimarySourceCheck": true
+  },
+  "counts": {
+    "nodes": 9,
+    "edges": 0,
+    "nodeCounts": {
+      "abilities": 1,
+      "factions": 1,
+      "knowledge": 7
+    },
+    "edgeCounts": {}
+  },
+  "nodes": [
+    {
+      "id": "abilities:喜多",
+      "entityId": "喜多",
+      "entityType": "abilities",
+      "label": "喜多",
+      "name": "喜多",
+      "summary": "喜多郁代。秀华高校1年级生，和后藤独同校。高二时和波奇被分到了同一个班级。结束乐队的吉他和歌手担当。 一头红发。个性开朗活泼，精力旺盛，善良细心，是一个有很多朋友和社交活动的现充，喜欢在社交平台上发照片或者直播分享自己的生活。其阳角力高到仿佛能散发光芒，连下北泽大天使伊地知虹夏也感到耀眼。 长相可爱，学习和运动都不错，在学校里很有人气，也经常会到别的社团当帮手。 说话很直率，偶尔会以人畜无害的样子说出鬼畜的话。 憧憬山田凉，所以撒谎自己会弹吉他而加入结束乐队，但害怕事情败露而逃走；后来在学校遇见小波奇，在波奇的鼓励下莫名其妙地重新加入，开始练习吉他。在波奇的指导下吉他技术渐长。",
+      "sourceRefs": [
+        "世界书：孤独摇滚.worldbook.json#entry-5"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "factions:山田凉-凉前辈",
+      "entityId": "山田凉-凉前辈",
+      "entityType": "factions",
+      "label": "山田凉，凉前辈",
+      "name": "山田凉，凉前辈",
+      "summary": "山田凉。下北泽高中二年级生。负责纽带乐队的贝斯和作曲，伊地知虹夏的挚友。是喜欢被别人叫做怪人的怪人。对音乐抱有一定的执著，过去曾组成的乐队在行为上和曲风失去个性走向大众化后退团，之后在虹夏的邀约下才重新追逐音乐梦。 比起盲目的追求流行，更加注重个性，认为“一旦舍弃了个性，就跟死了没区别” 在学校里除了虹夏没其他朋友，但不同于社恐的后藤独，凉只是喜欢独处，同学在邀请凉参加活动时，凉往往会编造各种理由推脱。平常沉默寡言，但一谈到摇滚就会滔滔不绝。 虽然看起来冷静镇定，但有些时候内心意外的纤细。平时沉默寡言，表现的有些冷淡，时常做出一些“无节操，无良心”的举动，如贪财，一脸平静的取笑独，但本质是个好人。",
+      "sourceRefs": [
+        "世界书：孤独摇滚.worldbook.json#entry-3"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:喜多",
+      "entityId": "喜多",
+      "entityType": "knowledge",
+      "label": "喜多",
+      "name": "喜多",
+      "summary": "喜多郁代。开朗又有名望的高中一年生。 担当结束乐队的吉他主唱。 喜欢与人交谈，即使是初次见面也不会胆怯、笑着与对方搭话的阳角。 在纽带乐队中负责吉他与主唱。和后藤独读同一所高中，是秀华高中一年级学生。 喜欢与别人交流，擅于社交的现充女孩，但不喜欢别人用“郁代”称呼自己。因为憧憬山田凉同时缺乏乐队常识而盲目自信地加入纽带乐队，导致在纽带乐队首次Live前因为不会吉他而临阵脱逃，而后在后藤独的帮助下重新回到乐队中担任主唱和吉他手，并在独的指导下学习吉他。 不断深入了解独后，意识到她的巨大潜力，决心成为后藤独的坚实后盾。",
+      "sourceRefs": [
+        "世界书：孤独摇滚.worldbook.json#entry-6"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:小波奇",
+      "entityId": "小波奇",
+      "entityType": "knowledge",
+      "label": "小波奇",
+      "name": "小波奇",
+      "summary": "后藤独的昵称，谐音“小孤独”",
+      "sourceRefs": [
+        "世界书：孤独摇滚.worldbook.json#entry-0"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:山田凉",
+      "entityId": "山田凉",
+      "entityType": "knowledge",
+      "label": "山田凉",
+      "name": "山田凉",
+      "summary": "被后藤独称为“凉前辈”。冷酷而孤高的高中二年生。蓝发,中短发。 担任结束乐队的贝斯手。是虹夏的好友。 有着远离尘世的兴趣，被称作怪人的话会感到高兴。虽然家庭富裕，但对于乐器经常缺钱。 偶尔吃草来解饿。讨厌乘坐会有生命危险的东西，例如过山车，在驾校练车时因为后轮出界再也不敢实际操作。 平时沉默寡言，表现的有些冷淡，时常做出一些“无节操，无良心”的举动，如贪财，一脸平静的取笑独，但本质是个好人。",
+      "sourceRefs": [
+        "世界书：孤独摇滚.worldbook.json#entry-4"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:未命名条目",
+      "entityId": "未命名条目",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "世界书：孤独摇滚.worldbook.json#entry-8"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:纽带乐队-乐队",
+      "entityId": "纽带乐队-乐队",
+      "entityType": "knowledge",
+      "label": "纽带乐队，乐队",
+      "name": "纽带乐队，乐队",
+      "summary": "纽带乐队（結束バンド）由吉他手后藤独、鼓手兼队长伊地知虹夏、贝斯手山田凉、主唱兼吉他手喜多郁代组成。",
+      "sourceRefs": [
+        "世界书：孤独摇滚.worldbook.json#entry-7"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:虹夏-2",
+      "entityId": "虹夏-2",
+      "entityType": "knowledge",
+      "label": "虹夏",
+      "name": "虹夏",
+      "summary": "虹夏发色呈金黄色，眼睛呈火红色，常扎一头侧马尾，头顶有一根悬浮的呆毛。衣着主要为白衬衫配黑色无袖毛衣，此外还有一件绿色长袖连帽衫，脚穿白色短袜和红色的休闲鞋。随身始终装饰有一红色发带，发带为姐姐星歌所赠，被虹夏视若珍宝。性格阳光开朗，主动性较强但又时常能顾及他人的感受，总是引导着乐队前进。虽然平时总是表现的很坚强，但是在遭遇挫败时也会流下不甘的泪水。认为始终在后方注视着队友们的自己应该更加认真虹夏日常居住在下北泽，母亲在虹夏小时候去世，父亲因为工作很少回家，基本上是由姐姐星歌抚养。平时会在姐姐星歌开的展演厅STARRY中打工。",
+      "sourceRefs": [
+        "世界书：孤独摇滚.worldbook.json#entry-2"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:虹夏",
+      "entityId": "虹夏",
+      "entityType": "knowledge",
+      "label": "虹夏",
+      "name": "虹夏",
+      "summary": "伊地知虹夏。担任纽带乐队的爵士鼓鼓手。下北泽高中二年级,现已升至高中三年级，备考大学中。精力充沛、个性开朗、温柔善良的高中生，同时也是建立和统整纽带乐队的队长。有一个在下北泽展演厅“STARRY”担任店长的姐姐伊地知星歌，并从小在姐姐的影响下了解许多乐队相关的文化，并且爱上音乐，为了完成自己的梦想而组建了纽带乐队。",
+      "sourceRefs": [
+        "世界书：孤独摇滚.worldbook.json#entry-1"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    }
+  ],
+  "edges": []
+}

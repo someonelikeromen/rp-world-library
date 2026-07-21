@@ -1,0 +1,33 @@
+{
+  "schema": "to-love-ru-graph-build-report-v1",
+  "worldId": "to-love-ru",
+  "status": "completed",
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "validation": {
+    "jsonValid": true,
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "newFactsIntroduced": false,
+    "forbiddenBasenamesGenerated": false
+  },
+  "counts": {
+    "nodes": 72,
+    "edges": 120,
+    "nodeCounts": {
+      "characters": 5,
+      "abilities": 22,
+      "factions": 11,
+      "locations": 11,
+      "events": 5,
+      "systems": 3,
+      "knowledge": 15
+    },
+    "edgeCounts": {
+      "derived-text-mention": 120
+    },
+    "derivedMentionEdges": 120
+  },
+  "warnings": [
+    "Derived graph edges are navigation/search signals, not formal relationship facts."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "jdsr_card.worldbook.json#entry-58"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "所有角色关系从0开始自由演绎"
+      },
+      "aliases": [
+        "所有角色关系从0开始自由演绎"
+      ],
+      "summary": "变量更新规则: 原创主角模式: values: 原作|取代|共存 check: - 仅开局时设定，后续不变 - 原作: {{user}}=透流 - 取代: 透流不存在 - 共存: 透流为NPC user: 身份: check: - 根据模式自动设定 - 剧情获得新身份时更新 位阶: type: number range: 1~7 check: - 通过位阶升华提升，单次升一级 - 第四卷可至IV 关系网: type: |- { [角色名: string]: { 好感度: number (0-100); 信任度: number (0-100); 关系: string; } } check: - 首次互动时用add添加:{op:add, path:/关系网/角色名, value:{好感度:0, 信任度:0, 关系:描述}} - 已有角色用replace更新对应字段 - 初始为空{}，不预填任何角色 - 所有角色关系从0开始自由演绎 剧情: 模式: check: - 默认日常。{{user}}触发关键事件时切推进 - 完成关键事件后切回日常缓冲 推进许可: type: boolean check: - {{user}}表现推进意图",
+      "description": "变量更新规则: 原创主角模式: values: 原作|取代|共存 check: - 仅开局时设定，后续不变 - 原作: {{user}}=透流 - 取代: 透流不存在 - 共存: 透流为NPC user: 身份: check: - 根据模式自动设定 - 剧情获得新身份时更新 位阶: type: number range: 1~7 check: - 通过位阶升华提升，单次升一级 - 第四卷可至IV 关系网: type: |- { [角色名: string]: { 好感度: number (0-100); 信任度: number (0-100); 关系: string; } } check: - 首次互动时用add添加:{op:add, path:/关系网/角色名, value:{好感度:0, 信任度:0, 关系:描述}} - 已有角色用replace更新对应字段 - 初始为空{}，不预填任何角色 - 所有角色关系从0开始自由演绎 剧情: 模式: check: - 默认日常。{{user}}触发关键事件时切推进 - 完成关键事件后切回日常缓冲 推进许可: type: boolean check: - {{user}}表现推进意图时设为true 当前卷: type: number range: 1~20 check: - 仅模式=推进且完成卷内核心事件后+1 - 推进前与{{user}}确认 当前章节: check: - 格式: 第X卷 卷名 - 章名 - 卷数变化时更新卷名部分 - 卷内推进时更新章名部分",
+      "sourceRef": "jdsr_card.worldbook.json#entry-58",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "所有角色关系从0开始自由演绎"
+}

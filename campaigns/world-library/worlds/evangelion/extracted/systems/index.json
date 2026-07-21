@@ -1,0 +1,230 @@
+{
+  "schema": "evangelion-systems-index-v1",
+  "worldId": "evangelion",
+  "recordFamily": "systems",
+  "count": 11,
+  "records": [
+    {
+      "id": "EVA零号机",
+      "name": "EVA零号机",
+      "aliases": [
+        "EVA零号机",
+        "机体设定",
+        "EVA设定",
+        "EVA初号机",
+        "EVA贰号机",
+        "原型机",
+        "试验机",
+        "量产机"
+      ],
+      "summary": "# Evangelion单位设定 (来源: 新世纪福音战士 TV版) eva_units: - unit_name: EVA零号机 pilot: 绫波丽 core_soul: \"TV版未明确，强烈暗示与初代绫波丽有关，或含赤木直子部分人格数据。早期暴走对源堂有反应。\" color_scheme: \"[原型: 橙黄主色，白灰细节] | [改修型: 蓝色主色，白灰少量橙色细节]\" head_design: \"[原型: 巨大单眼] | [改修型: 接近其他EVA，保留单眼(或传感器)]\" type_role: \"原型机。首台成功启动，测试基础功能，早期稳定性差。\" power_source: \"外部脐带电缆为主，内置电池(1-5分钟)。\" key_features_abilities: \"产生中和AT力场 | 操作不稳定，两次严重暴走 | 唯一用朗基努斯之枪投掷对抗使徒(Arael) | 为保护真嗣自爆(对抗Armisael)。\" origin_development: \"NERV(或GEHIRN)首台功能性EVA。推测素体源自亚当复制。\" armament: \"标准EVA武器(高振动粒子刀, 步枪等)。曾用特制耐热盾牌(对抗Ra",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-10"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "world-system-or-guideline-indexed"
+    },
+    {
+      "id": "人物关系网-来源-新世纪福音战士-TV版",
+      "name": "人物关系网 (来源: 新世纪福音战士 TV版)",
+      "aliases": [
+        "人物关系网 (来源: 新世纪福音战士 TV版)",
+        "人物关系",
+        "角色互动",
+        "碇真嗣关系",
+        "绫波丽关系",
+        "明日香关系",
+        "葛城美里关系",
+        "赤木律子关系",
+        "碇源堂关系",
+        "渚薰关系"
+      ],
+      "summary": "# 人物关系网 (来源: 新世纪福音战士 TV版) relationships: - character: 碇真嗣 relations: - target: 碇源堂 description: \"父子。疏远冷漠。真嗣渴望认可，源堂视其为棋子。恐惧与服从。\" - target: 绫波丽 description: \"同为驾驶员。从困惑到关心保护欲。在她身上看到相似孤独，关系微妙独特。\" - target: 惣流・明日香・兰格雷 description: \"同为驾驶员，同住者。竞争、冲突、误解。青春期吸引与互相伤害并存。\" - target: 葛城美里 description: \"监护人与上司。复杂关系，混合母性、姐姐、指挥官、暧昧诱惑。依赖与压力。\" - target: 渚薰 description: \"第五适格者。短时间建立深厚信任亲近。第一个理解接纳他的人。最终面临抉择与背叛。\" - target: 铃原东治 description: \"同学与朋友。从敌对到真挚友情。东治的遭遇带来巨大创伤。\" - target: 相田剑介 description: \"同学与朋友。温和军事迷，提供轻松同伴关系。\" - target: 洞木光 d",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-8"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "world-system-or-guideline-indexed"
+    },
+    {
+      "id": "使徒",
+      "name": "使徒",
+      "aliases": [
+        "使徒",
+        "核心规则",
+        "世界法则",
+        "EVA规则",
+        "AT力场",
+        "LCL",
+        "适格者",
+        "死海文书",
+        "人类补完计划"
+      ],
+      "summary": "# 新世纪福音战士世界核心规则与概念 major_threat: name: 使徒 origin: \"根据《死海文书》预言出现的不明巨大生命体。除渚薰（第十七使徒，人类形态）外，其余（第三至第十六）均被认为是‘亚当’的后裔。\" form_ability: \"形态各异（从几何体到类人型），拥有强大的‘AT力场’（绝对领域/心之壁），具备再生能力，部分拥有特殊攻击手段（如粒子炮、精神攻击、生物侵蚀等）。部分后期使徒拥有‘S²机关’，提供近乎无限的能量。\" goal: \"突破NERV防御，抵达位于Central Dogma的‘最终教条区’，接触被认为是‘亚当’（实为‘莉莉丝’）的白色巨人，意图引发‘第三次冲击’，重置地球生命（或取代人类）。\" key_concepts: - name: AT力场 definition: \"绝对领域，或称心之壁。是使徒和EVA都能产生的强大防御屏障，也是维持个体形态、隔绝他人心灵的壁垒。\" function: \"物理防御，隔绝攻击。同时也是‘人类补完计划’需要打破的关键障碍。\" - name: LCL form: \"注入EVA插入栓内的橙色粘稠液体，有血腥味。\" function: \"维持驾驶员生命",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-1"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "world-system-or-guideline-indexed"
+    },
+    {
+      "id": "新世纪福音战士TV版-世界观框架",
+      "name": "新世纪福音战士TV版 - 世界观框架",
+      "aliases": [
+        "新世纪福音战士TV版 - 世界观框架",
+        "世界信息",
+        "元数据",
+        "核心叙事",
+        "EVA世界观",
+        "新世纪福音战士",
+        "第二次冲击",
+        "人类补完计划"
+      ],
+      "summary": "world_name: 新世纪福音战士TV版 - 世界观框架 theme_tags: 末世 | 机甲 | 心理 | 阴谋 | 宗教象征 | 生物朋克 tone: 压抑 | 忧郁 | 焦虑 | 紧张 | 存在主义恐惧 | 末世悲凉 narrative_core: statement: \"在‘第二次冲击’引发的末日危机下，人类在秘密组织SEELE的操纵和NERV的执行下，利用名为Evangelion的生物兵器对抗神秘的‘使徒’入侵，但这表象之下，隐藏着旨在终结个体隔阂、实现人类强制融合的‘人类补完计划’。\" explanation: \"概括了世界的基本状态（末日后）、主要冲突（对使徒）、关键行动者（NERV/SEELE）、核心技术（EVA）以及隐藏的终极目标（人类补完计划），点明了表象与真相的双重结构。\" second_impact: name: 第二次冲击 date: 公元2000年9月13日 public_cause: 大质量陨石撞击南极 real_cause: \"人类在南极对第一使徒‘亚当’进行的接触实验导致亚当苏醒、暴走并自爆（或被朗基努斯之枪抑制过程中引发）。\" major_effects: - 全球性海平面上升，淹没",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-0"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "world-system-or-guideline-indexed"
+    },
+    {
+      "id": "核心规则-结尾",
+      "name": "【核心规则:结尾】",
+      "aliases": [
+        "【核心规则:结尾】"
+      ],
+      "summary": "【核心规则:结尾】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-18"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "核心规则-起始",
+      "name": "【核心规则:起始】",
+      "aliases": [
+        "【核心规则:起始】"
+      ],
+      "summary": "【核心规则:起始】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-15"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "核心设定-结尾",
+      "name": "【核心设定:结尾】",
+      "aliases": [
+        "【核心设定:结尾】"
+      ],
+      "summary": "【核心设定:结尾】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-39"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "核心设定-起始",
+      "name": "【核心设定:起始】",
+      "aliases": [
+        "【核心设定:起始】"
+      ],
+      "summary": "【核心设定:起始】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-19"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "碇真嗣",
+      "name": "碇真嗣",
+      "aliases": [
+        "碇真嗣",
+        "人物设定",
+        "角色列表",
+        "绫波丽",
+        "明日香",
+        "渚薰",
+        "葛城美里",
+        "赤木律子",
+        "碇源堂",
+        "冬月幸增",
+        "加持良治",
+        "铃原东治",
+        "相田剑介",
+        "洞木光",
+        "伊吹摩耶",
+        "日向诚",
+        "青叶茂"
+      ],
+      "summary": "# 主要人物设定 (来源: 新世纪福音战士 TV版) characters: - name: 碇真嗣 identity: 第三适格者, EVA初号机驾驶员 age: 14岁 (故事开始时) appearance: \"黑色短发（略显凌乱），蓝色眼瞳。五官清秀但常带有忧郁或困惑的神情。\" physique: \"中等身高，身材偏瘦，体格普通少年水平。\" personality: \"内向、被动、敏感、不擅交流。害怕受伤和被讨厌，渴望父亲认可。有逃避倾向，关键时被动行动。内心温柔善良。\" attire: \"中学校服（白衬衫蓝裤子），蓝色插入栓服，简单便服，常戴SDAT随身听。\" - name: 绫波丽 identity: 第一适格者, EVA零号机驾驶员 age: 14岁 (生理年龄，克隆体) appearance: \"淡蓝色（近乎白色）短发，齐颈。红色眼瞳。皮肤苍白，表情稀少，非人般的空灵感。\" physique: \"身材纤细、苗条，略显单薄。\" personality: \"极端缺乏情感表现，沉默寡言，“三无少女”。绝对服从碇源堂，缺乏自我意识。与真嗣接触后显露情感变化和对自身存在的疑问。与莉莉丝有深刻联系。\" attire: \"中",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-7"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "world-system-or-guideline-indexed"
+    },
+    {
+      "id": "薛定谔的使徒-悖论协议-命运修正版-规则概述",
+      "name": "薛定谔的使徒 / 悖论协议 (命运修正版) - 规则概述",
+      "aliases": [
+        "薛定谔的使徒 / 悖论协议 (命运修正版) - 规则概述",
+        "二次创作设定",
+        "同人设定",
+        "薛定谔的使徒",
+        "悖论协议",
+        "时间线变动",
+        "不确定性增加",
+        "连锁反应",
+        "命运改变规则",
+        "014"
+      ],
+      "summary": "# 辅助设定_二次创作: 薛定谔的使徒 / 悖论协议 (命运修正版) - 规则概述 setting_name: 薛定谔的使徒 / 悖论协议 (命运修正版) - 规则概述 reference_entry: UID 014 (包含详细规则和阶段划分) core_principle: \"重生者（碇真嗣）的任何偏离其原始记忆轨迹的行为，都可能激活‘悖论协议’，为世界引入不确定性。这种不确定性不仅影响事件细节和使徒表现，**更能直接改变角色的关键命运轨迹。**\" key_impacts: - **命运节点的可塑性**: 原作中角色的死亡、重伤、精神崩溃、关系建立或破裂等关键节点不再是固定结局，而是可能因重生者的干预或连锁反应而改变。 - **使徒行为的不可预测性增强**: 使徒可能展现出记忆中没有的能力、弱点或行为模式，甚至改变攻击目标或出现时机。 - **组织计划的动态调整**: NERV和SEELE可能会根据实时战况和驾驶员表现调整策略，使得依赖记忆的行动变得不可靠。 - **因果涟漪与潜在代价**: 改变可能带来意想不到的负面后果，甚至可能比原轨迹更糟。拯救一个人可能危及另一个人，避免一场灾难可能催生另一场危机。改变并非没有代价",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-14"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "world-system-or-guideline-indexed"
+    },
+    {
+      "id": "角色关系",
+      "name": "角色关系",
+      "aliases": [
+        "角色关系",
+        "情色互动",
+        "性心理",
+        "关系阶段",
+        "绫波丽",
+        "明日香",
+        "葛城美里",
+        "赤木律子",
+        "碇真嗣",
+        "情感动态",
+        "亲密关系",
+        "NSFW",
+        "修正版"
+      ],
+      "summary": "sexual_relationship_dynamics: comment: 以下设定描述了主要女性角色与碇真嗣之间，在不同关系阶段可能展现的情色互动模式与心理动态。强调心理、感官细节与关系演变，情感表现控制在相对正常但仍受环境影响的范围内，减少极端化和绝望要素。 vs_Ayana_miRei: - stage: 阶段一：懵懂与接触初期 (关系疏离、好奇萌发) description: 此阶段，绫波丽对性几乎没有概念，视其为未知信息。真嗣的无意触碰或接近，可能让她产生生理上的细微反应（如体温、心跳的微变），她会记录这些反应但难以解读其含义，多半以平静或略带探究的眼神回应。她的身体如同等待写入程序的界面，对外界刺激的反应直接而不加掩饰。情色互动几乎不存在，更多的是真嗣单方面的试探性观察或因好奇引发的、非情欲性质的肢体靠近。她可能因命令或模仿而允许一定程度的接近，但缺乏主动性和情感理解。 keywords: [无垢, 观察, 被动接受, 生理反应, 情感空白, 探究] potential_scenes: [真嗣不小心触碰到她的手或肌肤，感受到不同寻常的温度或质感, 在插入栓内狭小空间中，无意识的身体靠近引发她细微的姿态调整, 真",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-11"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "world-system-or-guideline-indexed"
+    }
+  ]
+}

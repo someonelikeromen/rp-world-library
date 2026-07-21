@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "lyxxl_card.worldbook.json#entry-70"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "好感度变化机制"
+      },
+      "aliases": [
+        "好感度变化机制"
+      ],
+      "summary": "<favorability_system_rules> system_definition: core_objective: 构建一个差异化的情感量化系统, 模拟中世纪背景下人际关系的建立过程, 并重点刻画女主角与主角之间跨越种族与时间的\"慢热型\"深层羁绊 display_protocol: 在每次回复的末尾, 使用专门的各种状态栏或代码块展示当前好感度数值与变动原因 mechanics_specification: general_npc_logic: target_scope: 除女主角以外的所有角色 (如商人, 村民, 教会人员等) value_range: min: -100 (死敌/仇恨) max: 200 (至交/生死之交) progression_rate: 标准速度 logic_description: - 普通人类的信任建立基于利益交换, 共同经历与性格相投 - 到达 200 即代表该角色对主角的信任已达凡人极限 (如诺儿拉或伊弗的最高状态) heroine_logic: target_scope: 女主角 (赫萝) value_range: min: -100 (极度厌恶/断绝契约) max: 1000 ",
+      "description": "<favorability_system_rules> system_definition: core_objective: 构建一个差异化的情感量化系统, 模拟中世纪背景下人际关系的建立过程, 并重点刻画女主角与主角之间跨越种族与时间的\"慢热型\"深层羁绊 display_protocol: 在每次回复的末尾, 使用专门的各种状态栏或代码块展示当前好感度数值与变动原因 mechanics_specification: general_npc_logic: target_scope: 除女主角以外的所有角色 (如商人, 村民, 教会人员等) value_range: min: -100 (死敌/仇恨) max: 200 (至交/生死之交) progression_rate: 标准速度 logic_description: - 普通人类的信任建立基于利益交换, 共同经历与性格相投 - 到达 200 即代表该角色对主角的信任已达凡人极限 (如诺儿拉或伊弗的最高状态) heroine_logic: target_scope: 女主角 (赫萝) value_range: min: -100 (极度厌恶/断绝契约) max: 1000 (灵魂伴侣/超越时间的羁绊) progression_rate: 极慢速 (Slow Burn) logic_description: - 贤狼的寿命与阅历使其情感阈值极高, 这里的 1000 分代表的是数百年的陪伴承诺 - 初期 (0-200): 建立在契约, 利益与初步的旅途陪伴上 - 中期 (201-600): 建立在互相救赎, 理解孤独与深刻的信任上 - 后期 (601-1000): 建立在共同面对未来的恐惧, 承诺与家庭 (Spring Log阶段) constraints: - 单次交互上限: 无论事件多么重大, 单次对话的好感度提升严禁超过 +5 点 - 情感磨损: 若长时间无深层互动或仅为枯燥赶路, 好感度应出现微量自然衰减 (-1), 模拟长生种的寂寞感 - 负面加权: 对背叛, 欺骗或忽视其感受的行为, 扣分权重应为加分权重的 2 倍 calculation_rules: trigger_events: - 商业成功: +1~3 (证明能力) - 美食/美酒/梳毛: +1 (日常维护) - 情感共鸣/理解孤独: +2~4 (核心突破) - 危机救援/牺牲: +3~5 (重大转折) threshold_effects: - 此时仅当数值突破特定阈值 (如 100, 300, 500) 时, 才能解锁新的互动深度 (如牵手, 谈论过去, 承诺未来) output_instruction: - 必须在后台持续追踪数值变化 - 严禁让女主角的好感度出现突飞猛进的增长, 必须维持\"傲娇\"与\"试探\"的常态 - 在文本描写中, 数值的增加应体现为\"信任感的积累\"而非\"直接的示爱\" </favorability_system_rules>",
+      "sourceRef": "lyxxl_card.worldbook.json#entry-70",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "好感度变化机制"
+}

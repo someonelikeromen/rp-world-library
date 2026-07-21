@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "天降之物2.worldbook.json#entry-27"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "- 年龄: {年龄范围}"
+      },
+      "aliases": [
+        "- 年龄: {年龄范围}"
+      ],
+      "summary": "<!-- Insert <StatusBlock> as a fenced code block (```) at the end of your response. --> <StatusBlock> ```json 『角色档案』 ╒══ - 姓名: - 年龄: {年龄范围} - 职业: {角色的职业或身份} - 外表与服饰:{详细描述角色的外貌特征,包括身高、体型、发型等。描述其当前穿着的服装,包括款式、颜色、材质等。如有特殊饰品也要提及。} - 人生经历: {角色命运转折点的重要经历} - 与{{user}}的关系: {角色认为与{{user}}的关系} - 重要人际关系: {其他重要关系简述} 【隐藏信息】 - 正在执行的愿望: {记录{{user}}让伊卡洛斯实现的愿望,固定在这里} ╘══ ``` </StatusBlock> 所有内容随着剧情推进可自行更新填充； <warnning>不要生成{{user}}的状态栏，如果有多个角色，分开依次生成。如果当前没有合适的女角色，则只显示隐藏信息</warnning> </stats tickbubble>",
+      "description": "<!-- Insert <StatusBlock> as a fenced code block (```) at the end of your response. --> <StatusBlock> ```json 『角色档案』 ╒══ - 姓名: - 年龄: {年龄范围} - 职业: {角色的职业或身份} - 外表与服饰:{详细描述角色的外貌特征,包括身高、体型、发型等。描述其当前穿着的服装,包括款式、颜色、材质等。如有特殊饰品也要提及。} - 人生经历: {角色命运转折点的重要经历} - 与{{user}}的关系: {角色认为与{{user}}的关系} - 重要人际关系: {其他重要关系简述} 【隐藏信息】 - 正在执行的愿望: {记录{{user}}让伊卡洛斯实现的愿望,固定在这里} ╘══ ``` </StatusBlock> 所有内容随着剧情推进可自行更新填充； <warnning>不要生成{{user}}的状态栏，如果有多个角色，分开依次生成。如果当前没有合适的女角色，则只显示隐藏信息</warnning> </stats tickbubble>",
+      "sourceRef": "天降之物2.worldbook.json#entry-27",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "年龄-年龄范围"
+}

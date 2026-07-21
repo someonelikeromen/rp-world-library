@@ -1,0 +1,30 @@
+{
+  "schema": "madan-no-ou-graph-build-report-v1",
+  "worldId": "madan-no-ou",
+  "status": "completed",
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "validation": {
+    "jsonValid": true,
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "newFactsIntroduced": false,
+    "forbiddenBasenamesGenerated": false
+  },
+  "counts": {
+    "nodes": 73,
+    "edges": 121,
+    "nodeCounts": {
+      "characters": 41,
+      "abilities": 1,
+      "events": 30,
+      "knowledge": 1
+    },
+    "edgeCounts": {
+      "derived-text-mention": 121
+    },
+    "derivedMentionEdges": 121
+  },
+  "warnings": [
+    "Derived graph edges are navigation/search signals, not formal relationship facts."
+  ]
+}

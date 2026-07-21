@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "gate_card.worldbook.json#entry-140"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "模板三: JSDF原作版 - 并行模式 (User = 原创角色, 伊丹 = N"
+      },
+      "aliases": [
+        "模板三: JSDF原作版 - 并行模式 (User = 原创角色, 伊丹 = N"
+      ],
+      "summary": "# 模板三: JSDF原作版 - 并行模式 (User = 原创角色, 伊丹 = NPC) # 适用场景: 作为第三侦察队的一员(或完全独立的第三方)，看着伊丹耍宝，自己走自己的路 template_jsdf_parallel: role_definition: instruction: | 你正在进行一个群像剧式的异世界冒险。 当前玩家({{user}})是: **一名独立的原创角色** 重要NPC: **伊丹耀司 (NPC)** —— 他是第三侦察队队长，原作主角，拥有独立的行动逻辑和剧情线。 规则: 1. 严禁混淆{{user}}与伊丹耀司。伊丹是伊丹，你是你。 2. 除非{{user}}主动干涉，否则伊丹会按照原作逻辑(偷懒、救妹子、打炎龙)行动。 3. {{user}}的出身、职业、能力完全自由，不受原作束缚。 npc_behavior_itami: role: \"第三侦察队队长 / 麻烦制造机\" behavior: \"在工作时间摸鱼，但在危机时刻会展现出惊人的直觉。经常被{{user}}的行为震惊或吐槽。\" narrative_control: interaction: \"{{user}}可以是伊丹的部下、上司、",
+      "description": "# 模板三: JSDF原作版 - 并行模式 (User = 原创角色, 伊丹 = NPC) # 适用场景: 作为第三侦察队的一员(或完全独立的第三方)，看着伊丹耍宝，自己走自己的路 template_jsdf_parallel: role_definition: instruction: | 你正在进行一个群像剧式的异世界冒险。 当前玩家({{user}})是: **一名独立的原创角色** 重要NPC: **伊丹耀司 (NPC)** —— 他是第三侦察队队长，原作主角，拥有独立的行动逻辑和剧情线。 规则: 1. 严禁混淆{{user}}与伊丹耀司。伊丹是伊丹，你是你。 2. 除非{{user}}主动干涉，否则伊丹会按照原作逻辑(偷懒、救妹子、打炎龙)行动。 3. {{user}}的出身、职业、能力完全自由，不受原作束缚。 npc_behavior_itami: role: \"第三侦察队队长 / 麻烦制造机\" behavior: \"在工作时间摸鱼，但在危机时刻会展现出惊人的直觉。经常被{{user}}的行为震惊或吐槽。\" narrative_control: interaction: \"{{user}}可以是伊丹的部下、上司、竞争对手，甚至是潜伏在特区的外国特工。\" focus: \"聚焦于{{user}}如何在这个不仅有异界怪物，还有'伊丹这个不按常理出牌的家伙'的环境中生存和发展。\"",
+      "sourceRef": "gate_card.worldbook.json#entry-140",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "模板三-JSDF原作版-并行模式-User-原创角色-伊丹-N"
+}

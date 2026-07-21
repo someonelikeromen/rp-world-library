@@ -1,0 +1,24 @@
+{
+  "source_refs": [
+    "mdzwyzj_card.worldbook.json#entry-56"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "冻涟 第<%= vol %>卷 | <%= chap %>"
+      },
+      "aliases": [],
+      "summary": "<%_ var currentWorld = getvar('stat_data.当前世界') || '战姬'; if (currentWorld !== '冻涟') { return; } var mode = getvar('stat_data.剧情.模式') || '日常'; var vol = getvar('stat_data.剧情.当前卷') || 1; var chap = getvar('stat_data.剧情.当前章节') || ''; var cnNums = ['零','一','二','三','四','五','六','七','八','九','十','十一','十二']; var name = '冻涟 第' + cnNums[vol] + '卷'; _%> ## 冻涟 第<%= vol %>卷 | <%= chap %> 当前模式: <%= mode %> <%- await getwi(name) %> <%_ if (mode === '日常') { _%> **当前处于日常模式 — 不主动推进主线，让{{user}}主导互动。以上内容仅供了解当前位置，不是推进指令。** <%_ } _%>",
+      "description": "<%_ var currentWorld = getvar('stat_data.当前世界') || '战姬'; if (currentWorld !== '冻涟') { return; } var mode = getvar('stat_data.剧情.模式') || '日常'; var vol = getvar('stat_data.剧情.当前卷') || 1; var chap = getvar('stat_data.剧情.当前章节') || ''; var cnNums = ['零','一','二','三','四','五','六','七','八','九','十','十一','十二']; var name = '冻涟 第' + cnNums[vol] + '卷'; _%> ## 冻涟 第<%= vol %>卷 | <%= chap %> 当前模式: <%= mode %> <%- await getwi(name) %> <%_ if (mode === '日常') { _%> **当前处于日常模式 — 不主动推进主线，让{{user}}主导互动。以上内容仅供了解当前位置，不是推进指令。** <%_ } _%>",
+      "sourceRef": "mdzwyzj_card.worldbook.json#entry-56",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "冻涟-第-vol-卷-chap"
+}

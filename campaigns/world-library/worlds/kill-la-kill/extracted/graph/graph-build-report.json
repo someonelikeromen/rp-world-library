@@ -1,0 +1,32 @@
+{
+  "schema": "kill-la-kill-graph-build-report-v1",
+  "worldId": "kill-la-kill",
+  "status": "completed",
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "validation": {
+    "jsonValid": true,
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "newFactsIntroduced": false,
+    "forbiddenBasenamesGenerated": false
+  },
+  "counts": {
+    "nodes": 66,
+    "edges": 88,
+    "nodeCounts": {
+      "characters": 16,
+      "abilities": 19,
+      "factions": 13,
+      "locations": 4,
+      "systems": 3,
+      "knowledge": 11
+    },
+    "edgeCounts": {
+      "derived-text-mention": 88
+    },
+    "derivedMentionEdges": 88
+  },
+  "warnings": [
+    "Derived graph edges are navigation/search signals, not formal relationship facts."
+  ]
+}

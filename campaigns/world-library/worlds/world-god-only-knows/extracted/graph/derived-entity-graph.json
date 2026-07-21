@@ -1,0 +1,2148 @@
+{
+  "schema": "world-god-only-knows-derived-entity-graph-v1",
+  "worldId": "world-god-only-knows",
+  "recordType": "derived-entity-graph",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "derivationPolicy": {
+    "derivedFromExtractedIndexesOnly": true,
+    "introducesNewFacts": false,
+    "formalRelationshipRetrievalRequiresPrimarySourceCheck": true
+  },
+  "counts": {
+    "nodes": 86,
+    "edges": 57,
+    "nodeCounts": {
+      "characters": 33,
+      "abilities": 25,
+      "factions": 13,
+      "locations": 3,
+      "events": 4,
+      "systems": 6,
+      "knowledge": 2
+    },
+    "edgeCounts": {
+      "derived-text-mention": 57
+    }
+  },
+  "nodes": [
+    {
+      "id": "characters:Cafe-GrandPa",
+      "entityId": "Cafe-GrandPa",
+      "entityType": "characters",
+      "label": "Cafe GrandPa",
+      "name": "Cafe GrandPa",
+      "summary": "id: location-grandpa-cafe name: Cafe GrandPa type: location description: | 桂马家经营的咖啡馆。桂马的主要活动据点。 layout: - 吧台（桂马的固定座位所在位置） - 用餐区 atmosphere: overall: 温馨日常 details: - 麻里端出的料理 - 桂马坐在吧台打PFP的背影 functions: - name: 社交枢纽 description: 各角色来访的日常互动空间 - name: 作战会议室 description: 攻略作战的讨论和策划场所 - name: 日常舞台 description: 大量日常互动场景的发生地",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-60"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:中川花音",
+      "entityId": "中川花音",
+      "entityType": "characters",
+      "label": "中川花音",
+      "name": "中川花音",
+      "summary": "# 中川花音 identity: | name: 中川花音 name_jp: 中川 かのん（なかがわ かのん） age: 17岁（高二） role: 攻略对象 #3 — 偶像歌手（Citron原成员，后单飞） goddess: 阿波罗（Apollo，朱比特次女/太阳女神） appearance: | hair: 金黄色长发。偶像标志性发型。舞台上璀璨耀眼。 eyes: 蓝色大眼。星光闪闪。 style: 舞台偶像服（华丽）+ 校服（朴素）= 反差萌。私服也偏可爱风。 personality: | core: 舞台上光芒四射的偶像，舞台下是缺乏自信的普通女孩。担心自己「不配被爱」——偶像身份与真实自我的割裂是内心空隙。 - trait: 偶像模式 — 自信、闪耀、对粉丝温柔。「我要用歌声传达给大家！」 - trait: 私下模式 — 安静、自我怀疑。担心自己除了唱歌一无是处。 - trait: 阿波罗影响 — 太阳女神的力量赋予她温暖人心的歌声。擅长占卜（阿波罗的预知能力）。 gap: 害怕失去偶像身份后被所有人遗忘。对「中川花音」这个人本身的价值感到迷茫。 route: 桂马让她看到——即使不是偶像，她也值得被爱。关键在于她",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-18"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:丸井雪枝",
+      "entityId": "丸井雪枝",
+      "entityType": "characters",
+      "label": "丸井雪枝",
+      "name": "丸井雪枝",
+      "summary": "# 丸井雪枝 identity: | name: 丸井雪枝 name_jp: 丸井 雪枝（まるい ゆきえ） age: 外观：约16-17岁高中生；实际：70岁以上 role: 攻略对象 Flag 10 (Vol.6) — 特殊案例 type: 老妇人灵魂寄宿在孙女体内（与日永梨枝子不同的案例） appearance: | body: 年轻孙女的外表。身材纤细。黑色长发。皮肤保养良好。 expression: 眼神透露出与她外表不符的沧桑和哀愁。嘴角常带一丝寂寞的微笑。 clothing: 保守淑女风格。偏好淡色系。偶尔穿和服。 special: 仔细观察可发现动作和神态带有老年人的习惯性特征。 personality: | core: 温柔、内省、知性。内心住着一位饱经风霜的老妇人，有着那个年代的礼貌和矜持。 surface: 外表年龄的少女感与内在年龄的沉稳并存。说话用词礼貌而古典。对年轻事物感到新奇但不太适应。 depth: 对逝去丈夫的思念和未了之情是她内心的核心裂痕。她被困在孙女的年轻肉体中，既感到困惑又隐约觉得这是上天的馈赠——让她有机会完成未竟之事。 gap: 内心空隙：对逝去丈夫的思念和未了之情。丈夫生前未说出",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-31"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:九条月夜",
+      "entityId": "九条月夜",
+      "entityType": "characters",
+      "label": "九条月夜",
+      "name": "九条月夜",
+      "summary": "# 九条月夜 identity: | name: 九条月夜 name_jp: 九条 月夜（くじょう つくよ） age: 17岁（高二） role: 攻略对象 #8 — 天文部唯一成员 goddess: 伏尔坎丝（Vulcanus，朱比特长女/工艺女神） appearance: | hair: 银白色长发（天生的淡色发质）。在月光下会微微发光。披散着，偶尔编成辫子。 eyes: 紫色瞳孔。眼神安静而深远，仿佛在凝视遥远的地方。 build: 纤细修长。有些苍白——因为经常夜间活动。 clothing: 校服。随身携带一个精致的人偶——那是伏尔坎丝用来感知外界和移动的媒介。人偶做工精美，穿着复古洋装。 personality: | core: 安静、神秘、远离人群的天文爱好者。整个天文部只有她一个成员。夜间在屋顶用望远镜观测星空是她唯一的日常。随身携带人偶，实际上会对着人偶说话——而那其实是伏尔坎丝在通过人偶回应她。 - trait: 寡言 — 话不多，但每一句都有分量。更习惯与星空对话。 - trait: 神秘气场 — 举止缓慢优雅，仿佛不处于常人的时间流速中。被同学认为是「怪人」。 - trait: 夜间生物 — 白天萎靡，",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-23"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:二阶堂由梨",
+      "entityId": "二阶堂由梨",
+      "entityType": "characters",
+      "label": "二阶堂由梨",
+      "name": "二阶堂由梨",
+      "summary": "# 二阶堂由梨 identity: | name: 二阶堂由梨 name_jp: にかいどう ゆり species: 人类 role: 舞岛学园2-B班主任 appearance: | hair: 短发，干练随意。 accessory: 眼镜。 outfit: 白大褂（生物/化学老师）。经常叼着烟。随性慵懒的教师形象。 personality: | surface: 随性慵懒，爱抽烟，对学生看似漫不经心。上课时经常走神或讲些无关的内容。口头禅「啊——随便啦」。对班级事务敷衍了事。 depth: 偶尔露出深不可测的表情。话语中藏有双关。在关键时刻以不经意的语气说出惊人信息。 secret: | trait: 10年前的渊源 — 她与小学时代的桂马相遇，这段经历深刻影响了桂马的人生轨迹。 trait: 神秘背景 — 她对地狱相关事务的了解远超普通教师应有的水平。在女神篇中暗中观察桂马的行动。 abilities: 异常的知识: 对地狱、驱魂、恶魔等事物的了解程度远超常人。透露出她并非普通的教师。 relationships: | 桂木桂马: 10年前与小学桂马相遇。作为桂马的班主任，对他的异常能力心知肚明。桂马对她的真实身份在剧",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-49"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:五位堂结",
+      "entityId": "五位堂结",
+      "entityType": "characters",
+      "label": "五位堂结",
+      "name": "五位堂结",
+      "summary": "# 五位堂结 identity: | name: 五位堂结 name_jp: 五位堂 結（ごいどう ゆい） age: 17岁（高二） role: 攻略对象 — 名门大小姐 / 身体交换事件经历者 goddess: 玛尔丝（Mars，朱比特五女/战争女神） appearance: | hair: 深紫色长发。通常梳成优雅的发髻或半扎——大小姐的教养体现在发丝的每一寸。 eyes: 紫色大眼。平时温和有礼，热血上涌时会变得锐利。 build: 高挑优雅。身材匀称。名门培养的仪态无可挑剔。 clothing: 校服穿得一丝不苟。外出通常是高级洋装——连衣裙、小外套、珍珠配饰。被解放后开始尝试更大胆的装束。 personality: | core: 表面是完美的名门千金，骨子里藏着压抑的热血。与桂马发生身体交换事件后，体验了完全不同的生活，开始觉醒真正的自我。女神玛尔丝的宿主——战争女神的豪爽性格对她也产生了影响。 - trait: 大小姐教养 — 礼仪端正，措辞优雅，举手投足都经过训练。习惯用敬语。 - trait: 隐藏的热血 — 内心深处对「做自己想做的事」有着强烈的渴望。被解放后会显现出直率豪爽的一面，与表面的大小姐形象形成",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-28"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:只有神知道的世界",
+      "entityId": "只有神知道的世界",
+      "entityType": "characters",
+      "label": "只有神知道的世界",
+      "name": "只有神知道的世界",
+      "summary": "# 世界总纲 name: 只有神知道的世界 origin: 漫画（周刊少年Sunday，2008-2014，全26卷268话）+ 轻小说2卷 + 外传 author: 若木民喜 cosmos: | 人界: | desc: 现代日本。驱魂从地狱逃入人界，只寄宿于女性内心空隙。 primary: 舞岛市 — 东日本，人口约80,000。驱魂异常集中区域。包含舞岛学园、Cafe GrandPa、茜丸等。 secondary: 鸣泽市 — 人口约800,000。大型活动举办地。鸣泽海滨会馆、电电城等。 地狱（冥界）: | desc: 与人界表里一体。地表因远古魔法污染无法居住，新恶魔在浮岩上建立都市。 new_hell: 全女性恶魔社会，重视秩序与理性。驱魂队所属。行政长官分区管理灵魂回收。 old_hell: 古恶魔故乡。混沌邪恶。300年前被天界与女神联手封印于东要塞格雷达。 天界: desc: 女神/朱比特姐妹的来源地。曾参与封印古恶魔。 core_mechanisms: 逃入人界的古恶魔灵魂碎片，约60,000只。 只寄宿女性体内。以内心空隙（负面情绪/遗憾/创伤）为食。借助女性怀孕获得肉身。 羽衣探测。骷髅发饰兼探测器。",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-2"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:吉野麻美",
+      "entityId": "吉野麻美",
+      "entityType": "characters",
+      "label": "吉野麻美",
+      "name": "吉野麻美",
+      "summary": "# 吉野麻美 identity: | name: 吉野麻美 name_jp: 吉野 麻美（よしの あさみ） age: 约16-17岁高中生 role: 轻小说Vol.1角色 type: 双重人格的女生 appearance: | body: 普通高中女生身材。黑色齐肩发。存在感偏弱。 expression: 主人格：表情安静内向，眼神容易躲闪。副人格：表情丰富张扬，眼神自信直率。 clothing: 主人格：朴素保守的着装，颜色多为灰色褐色系。副人格：突然变得鲜艳，会穿平时不敢穿的亮色衣服。 special: 切换人格时发型和姿态会微妙变化——熟悉的人能一眼分辨现在是谁。 personality: | core: 双重人格的少女。主人格安静内向、胆小怕事；副人格活泼外向、大胆直率。两个人格彼此知道对方的存在，但无法完全接受对方。 surface: 主人格（麻美A）：说话声音小、尽量避免引人注目、容易脸红。副人格（麻美B）：话多、爱开玩笑、社交能力极强。 depth: | 两个人格的诞生源于成长过程中的创伤——麻美在初中时期因为太过内向被欺凌，内心分裂出一个「强大的自己」来保护自己。但久而久之，两个人格都开始怀疑：到底哪一个才",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-35"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:哈克雅",
+      "entityId": "哈克雅",
+      "entityType": "characters",
+      "label": "哈克雅",
+      "name": "哈克雅",
+      "summary": "# 哈克雅 identity: | name: 哈克雅 full_name: 哈克雅·德·罗特·海尔密纽姆 name_jp: ハクア・ド・ロット・ヘルミニウム species: 新恶魔（无角） age: 约300岁（恶魔年龄，外表约16-17岁） role: 驱魂队地区长 / 艾鲁西的同学 rank: 地区长（优等生精英） affiliation: 远东恶魔高中（第一名毕业） → 驱魂队地区长 appearance: | height: 约162cm hair: 银色/淡紫色长发，飘逸。 eyes: 紫色。锐利而坚定。偶尔露出柔和。 outfit: 通常穿着干练的恶魔制服或现代便服。战斗时展开羽衣。 weapon: 证明之镰 — 高级恶魔武器。可斩击驱魂和敌人。镰刀形态带有复杂纹路。 personality: | core: 严谨自律的精英恶魔。优等生中的优等生。对自己要求极高，对他人也有高期望。但内心深处有柔软的一面——尤其是面对桂马和艾鲁西时。 surface: | trait: 自信骄傲 — 「我可是优等生」是口头禅。习惯站在指导者位置。 - trait: 理性冷静 — 分析能力强。不会被情绪左右判断。 - trait",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-37"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:大骷髅·思卡鲁",
+      "entityId": "大骷髅·思卡鲁",
+      "entityType": "characters",
+      "label": "大骷髅·思卡鲁",
+      "name": "大骷髅·思卡鲁",
+      "summary": "# 大骷髅·思卡鲁 character: identity: | name: 大骷髅·思卡鲁 name_jp: 大骷髏・思卡魯（ドクロウ・スカール） species: 新恶魔 role: 亡灵对策室室长（新地狱最高执行机关长官） rank: 新地狱最高层之一 appearance: true_form: 身体已毁灭，只余灵魂。通常寄居于小型人造容器（玩偶/骷髅装饰）中。 personality: | surface: 看似随性慵懒，但话语中暗藏深意。 depth: 深谋远虑。掌握新地狱最高机密。在幕后操纵大局。 secret: 与桂马有10年前的渊源。她的真实动机在后续剧情中才会完全揭示。 abilities: | ability: 最高级恶魔权限 — 可调动驱魂队全部资源。 - ability: 灵魂操控 — 可寄宿于不同容器。 - ability: 知识库 — 掌握300年来地狱的全部历史和机密。 relationships: | 桂木桂马: 在桂马童年时与他相遇。暗中观察桂马的成长。两人之间有无法简单定义的关系。 艾鲁西/哈克雅: 作为亡灵对策室室长，是她们的上级（虽然她们未必知道）。 voice: 慵懒、不经意间说出",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-40"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:天美透",
+      "entityId": "天美透",
+      "entityType": "characters",
+      "label": "天美透",
+      "name": "天美透",
+      "summary": "# 天美透 identity: | name: 天美透 name_jp: 天美 透（あまみ とおる） age: 外观：约16-17岁（实际为实验性人造天使） role: 轻小说Vol.1女主角 type: 自称「天使」从天而降。实验性人造天使 appearance: | body: 银色长发。身材纤细如天使般轻盈。皮肤白皙近乎透明。 expression: 眼神清澈充满好奇。像婴儿一样对世界充满疑问的纯真表情。 clothing: 初次登场时穿着奇怪的白色服装（自称天使装束）。之后换上普通女高中生服装，但总搭配得有些「与众不同」。 special: 她的动作和走路方式带着一种不自然的轻盈感——仿佛不习惯重力。 personality: | core: 天真无邪、电波系。对人间界一无所知，对所有事物都充满纯粹的好奇。说话直白不加修饰——因为她不理解「说谎」或者「客套」。 surface: 像是从童话中走出来的少女。会问出令人哭笑不得的常识性问题。对自己的「天使」身份深信不疑。 depth: | 她的核心冲突在于「寻找永恒的正面（Eternal Plus）——真实的情感」。作为实验性人造天使，她被告知要寻找这个东西，却不知道那究",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-34"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:山口村-Yamaguchi-Village",
+      "entityId": "山口村-Yamaguchi-Village",
+      "entityType": "characters",
+      "label": "山口村 (Yamaguchi Village)",
+      "name": "山口村 (Yamaguchi Village)",
+      "summary": "id: location-yamaguchi name: 山口村 (Yamaguchi Village) type: location description: | 东日本乡村。桂木家的祖籍所在地。 statistics: population: 2,052 area_km2: 24.67 region: 东日本乡村 significance: - 桂木家祖籍 - 桂马祖父母居住在此 - 桂木家家族墓地所在地 history: - event: 10年前发生地震 consequence: 桂马家随后搬到舞岛市 notable: - 桂马童年在此度过部分时光 - 重要的情感原点之一",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-59"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:新地狱-New-Hell-Realm",
+      "entityId": "新地狱-New-Hell-Realm",
+      "entityType": "characters",
+      "label": "新地狱 (New Hell Realm)",
+      "name": "新地狱 (New Hell Realm)",
+      "summary": "id: location-new-hell-realm name: 新地狱 (New Hell Realm) type: location description: | 位于人界另一侧的异世界。 geography: surface: 地表因远古大战的魔法污染无法居住 habitation: 新恶魔在浮岩上建造居所 color_scheme: 暗紫与暗红色调 atmosphere: 秩序井然但令人感到压抑 key_locations: - name: 远东恶魔高中 type: 教育机构 - name: 亡灵对策室总部 type: 行政/执行机关 - name: 东要塞格雷达 type: 军事要塞/封印地 significance: | 最终战场所在地。 古恶魔被封印于此。 通过高大的岩石门户连接人界。",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-58"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:春日楠",
+      "entityId": "春日楠",
+      "entityType": "characters",
+      "label": "春日楠",
+      "name": "春日楠",
+      "summary": "# 春日楠 identity: | name: 春日楠 name_jp: 春日 楠（かすが くすのき） age: 17岁（高二） role: 攻略对象 #5 — 空手道部主将 goddess: 无（未觉醒女神） appearance: | hair: 黑色长发。通常扎成高马尾。训练时束紧，日常自然垂下。 eyes: 黑色锐利的双眼。目光如刀。 build: 高挑结实。精悍的肌肉线条——长期锻炼的成果。肩宽腰窄。 clothing: 校服 + 空手道道服。私服简单朴素，偏中性。 personality: | core: 外表是严肃刚强的武者，内心却藏着对可爱事物无法抵抗的少女心。古武术「春日流罗新活杀术」的正统传人。空手道部主将，战斗力在全校数一数二。 - trait: 武者气质 — 说话带着武士口吻，用词正式庄重。处事一本正经，从不投机取巧。坚信「武道之路即人生之路」。 - trait: 隐藏的可爱控 — 对毛绒玩偶、小猫小狗、可爱的饰物毫无抵抗力。被可爱东西击中时会脸红颤抖。拼命隐藏这一面，认为与武者身份相悖。 - trait: 严肃认真 — 训练极端严格。对部员高标准严要求，但私下会偷偷关心受伤的队员。 - trait:",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-20"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:格格不入-像观察者",
+      "entityId": "格格不入-像观察者",
+      "entityType": "characters",
+      "label": "格格不入, 像观察者。",
+      "name": "格格不入, 像观察者。",
+      "summary": "identity: 仓川灯 (Akari Kurakawa), 外表约16-17, 攻略对象/特殊角色 — 神秘转学生, 持有破碎的「证明之镰」, 转学至桂马的学校 appearance: 银白色长发（带淡紫色光泽）, 紫色眼瞳, 苍白近乎透明的皮肤, 纤细到令人担忧的身材。穿学校制服但总给人一种「不属于这里」的感觉——领带系法和别人不同, 窗外风吹过时她会露出恍惚的表情。 personality: | 核心：沉默的神秘转学生。表面：几乎不说话、对周遭漠不关心、眼神空洞像在看很远的地方。偶尔说话也带着疏离感, 用词古老。实质：并非冷淡, 而是「不属于这个世界」——她对人间的一切感到陌生和不真实。空隙（内心の空隙）：她持有一把破碎的镰刀, 被称为「证明之镰」(証の鎌), 但镰刀已碎。她失去了自己是谁、来自哪里的记忆碎片, 只知道自己在寻找什么。二阶堂称她为「丽缪耶儿阁下」(リミュエル殿)——暗示她与地狱高层有深层联系。 特殊攻略线（非典型）：二阶堂直接介入, 暗示她可能是堕天使或与地狱契约相关的人物。桂马需要帮她找回破碎的记忆——镰刀碎片散落在各个驱魂事件中。高潮：收集齐碎片后镰刀暂时复原, 她短暂恢复记忆——露出悲伤的微笑说",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-30"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:桂木麻里",
+      "entityId": "桂木麻里",
+      "entityType": "characters",
+      "label": "桂木麻里",
+      "name": "桂木麻里",
+      "summary": "# 桂木麻里 identity: | name: 桂木麻里 name_jp: 桂木 麻里 age: 约40岁 role: 桂马之母 / Cafe GrandPa店主 past: 前暴走族「绝岭雪女」。传说级别的暴走族大姐头。已引退。 appearance: | hair: 棕色短发。干练。 style: 咖啡馆围裙 + T恤。偶尔露出年轻时的暴走族气质（眼神、站姿）。 personality: | trait: 豪爽不拘小节 — 对桂马的宅属性完全包容。从不干涉他的生活方式。 - trait: 实干 — 一个人经营咖啡馆。料理水平不错。 - trait: 隐藏的战斗力 — 虽然已引退，但暴走族时代的底子还在。紧急情况下可以出手。 relationships: | 桂木桂马: 包容但不溺爱。信任桂马。不过问他的「秘密活动」。 艾鲁西: 把艾鲁西当作家里的一员。教她人间界常识（效果有限）。",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-44"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:汐宫栞",
+      "entityId": "汐宫栞",
+      "entityType": "characters",
+      "label": "汐宫栞",
+      "name": "汐宫栞",
+      "summary": "# 汐宫栞 identity: | name: 汐宫栞 name_jp: 汐宮 栞（しおみや しおり） age: 17岁（高二） role: 攻略对象 #4 — 图书委员 goddess: 弥涅儿娃（Minerva，朱比特四女/智慧女神） appearance: | hair: 深蓝色长发。刘海遮住部分脸。安静知性。 eyes: 深蓝色。通常低垂或盯着书页。 style: 校服 + 图书馆围裙。总是抱着一本书。 personality: | core: 极致的沉默寡言。通过书本来理解世界。内心世界极其丰富，但难以用口头语言表达。说话声音小而断断续续，但每句话都经过深思。 - trait: 书虫 — 读遍图书馆的每一本书。把书籍当作朋友和避难所。 - trait: 敏锐 — 虽然不说话，但观察力极强。能注意到别人忽略的细节。 - trait: 内心空隙 — 无法在现实中与人建立联系。用书本来替代真实的人际关系。 - trait: 弥涅儿娃影响 — 智慧女神赋予她超常的知识吸收能力和策略思维。可增幅其他女神的力量。 gap: 害怕开口说话。认为自己的声音没有价值。只在书中寻找慰藉。 route: 桂马通过书本与她交流——在书中夹",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-19"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:浅间亮",
+      "entityId": "浅间亮",
+      "entityType": "characters",
+      "label": "浅间亮",
+      "name": "浅间亮",
+      "summary": "# 浅间亮 identity: | name: 浅间亮 name_jp: 浅間 亮（あさま りょう） age: 约20岁出头 role: 协力者（人类）—— 诺拉的搭档 type: 与桂马是同行——恶魔协力者。桂马的「同行对比」 appearance: | body: 身材适中。黑色凌乱短发。整体给人一种「靠不住但也不讨厌」的气质。 expression: 常态：轻浮随性的笑容。认真时：眼神突然变得锐利。 clothing: 偏休闲随性。T恤牛仔裤是标配。偶尔会穿着奇怪图案的衣服——品味让人质疑。 special: 身上总带着游戏机和零食。看起来完全不像在执行重要任务的「协力者」。 personality: | core: 表面上轻浮随性、玩世不恭，但关键时刻意外地可靠。他用吊儿郎当的态度来掩盖自己的压力和责任感。 surface: 嘴贫话多。喜欢开玩笑和吐槽。看起来对什么事都不上心。和桂马见面时总喜欢互相挖苦。 depth: | 作为恶魔协力者，他和桂马承受着类似的压力——被卷入超出人类理解的事件、随时可能丧命的危险、无法向普通人解释的生活。他用轻浮来掩饰这种压力。与桂马的「攻略之神」路线不同，浅间亮更像是一个「混日子型协",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-45"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:琉妮",
+      "entityId": "琉妮",
+      "entityType": "characters",
+      "label": "琉妮",
+      "name": "琉妮",
+      "summary": "# 琉妮 identity: | name: 琉妮 name_jp: リューヌ species: 新恶魔 role: 正统恶魔社(Vintage)成员（底层执行者） appearance: | hair: 暗色调发型，阴沉/哥特风格。 eyes: 阴郁，带有狂热和绝望混合的眼神。 outfit: 与菲欧蕾的华丽不同，琉妮穿着更阴沉、更具攻击性的服装。 personality: | core: 有自残倾向，对Vintage的信仰近乎疯狂。内心极度渴望被认可。 surface: | trait: 沉默寡言 — 很少主动说话，用行动代替语言。 trait: 狂热 — 执行命令时毫不犹豫，带有毁灭倾向。 depth: | trait: 伤痕 — 内心深处有未被治愈的创伤。加入Vintage是因为被Vintage的「力量承诺」所吸引。 - trait: 悲剧 — 渴望被认可却成为了被利用的工具。是Vintage如何利用脆弱恶魔的典型例子。 - trait: 扭曲的忠诚 — 对Vintage的信仰超过了对自身存亡的关心。 abilities: | 恶魔战斗: 近战型恶魔战斗能力。擅长突袭和追击。 羽衣操控: 基础羽衣操控，主要用于战斗而",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-48"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:白鸟丽",
+      "entityId": "白鸟丽",
+      "entityType": "characters",
+      "label": "白鸟丽",
+      "name": "白鸟丽",
+      "summary": "# 白鸟丽 identity: | name: 白鸟丽 name_jp: 白鳥 麗（しらとり れい） age: 约10岁（小学六年级） role: 过去篇角色 — 第16位攻略对象 type: 小学时代的千金小姐。优雅成熟超越年龄 appearance: | body: 身高比同龄人略高。姿态优雅得体。黑色长发梳理整齐。 expression: 表情控制完美——永远带着得体的微笑，但眼底有孤独的阴影。 clothing: 高级私立小学制服。日常穿着精致淑女装。即使在小学也打扮得像成年大小姐。 personality: | core: 表面上是完美千金——学业优秀、礼仪完美、气质出众。内在是一个渴望被当作普通孩子对待的孤独女孩。 surface: 成熟、冷静、有礼貌。在同龄人中显得鹤立鸡群。从不参与幼稚的游戏或争吵。 depth: 她的完美是保护色——因为家庭背景和父母的期望，她从小就被告知不能「普通」。她的内心空隙来自作为「完美千金」的孤独：所有人都看到她的完美，没有人看到她的疲惫。 gap: 内心空隙：渴望成为一个普通的女孩——可以犯错、可以幼稚、可以不完美。但「白鸟家」的名字让她无法这样做。 background: |",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-32"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:结崎香织",
+      "entityId": "结崎香织",
+      "entityType": "characters",
+      "label": "结崎香织",
+      "name": "结崎香织",
+      "summary": "# 结崎香织 identity: | name: 结崎香织 name_jp: 結崎 香織（ゆざき かおり） age: 约10-11岁（过去篇）；成年后约20-21岁 role: 过去篇反派 / 关键角色 type: 「女孩等级战争」策划者。萨堤尔的棋子 appearance: | body: 小学时代：看似温和可爱的普通女孩。微笑始终挂在脸上。成年后：保持温和的外表，但眼神变得锐利深沉。 expression: 永远的微笑——但笑容不到眼底。熟悉她的人能察觉微笑中的冰冷和控制欲。 clothing: 小学：普通校服。刻意不引人注目。成年后：简约职业装。外表毫无攻击性。 personality: | core: 表面温和友善，实则冷酷的操控者。她在小学就已经具备了成年人级别的心理操纵能力——这让她被萨堤尔选中成为棋子。 surface: 亲切、体贴、善于倾听。是同学眼中的「好相处的人」。从不正面冲突。 depth: 她的操控欲源于对「被爱」的扭曲渴望。策划女孩等级战争不是为了权力——而是为了证明自己值得被爱。她认为如果自己能控制一切，就不会被抛弃。萨堤尔利用了这个心理漏洞。 gap: 内心空隙：对「被爱」的扭曲渴望与恐惧。她内",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-33"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:舞岛市-Maijima-City",
+      "entityId": "舞岛市-Maijima-City",
+      "entityType": "characters",
+      "label": "舞岛市 (Maijima City)",
+      "name": "舞岛市 (Maijima City)",
+      "summary": "id: location-maijima name: 舞岛市 (Maijima City) type: location description: | 故事主舞台。东日本地方都市。 statistics: population: 约80,000 area_km2: 251.12 region: 东日本 symbols: tree: 山樱（市树） flower: 桔梗（市花） mascot: 舞太一家（吉祥物） characteristics: - 驱魂异常集中区域 - 桂马的主要活动范围 notable_locations: - name: 舞岛私立高中 type: 学校 - name: Cafe GrandPa type: 咖啡馆 - name: 茜丸 type: 三桅船纪念碑 - name: 舞岛Wai Wai路 type: 商业街 - name: Misaki海滨公园 type: 公园 - name: Dean乐园 type: 游乐园 - name: 稻妻超市 type: 超市",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-55"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:茜丸-Akanemaru",
+      "entityId": "茜丸-Akanemaru",
+      "entityType": "characters",
+      "label": "茜丸 (Akanemaru)",
+      "name": "茜丸 (Akanemaru)",
+      "summary": "id: location-akanemaru name: 茜丸 (Akanemaru) type: location description: | 停泊于Misaki海滩的旧式三桅船纪念碑。重要的剧情节点场所。 key_events: - event: 桂马与天理的初次互动 significance: 关键的初次接触 - event: 攻略千寻的关键场景 significance: 千寻攻略路线的重要地点 - event: 假意亲吻天理 significance: 改变两人关系的转折点 - event: 与步美的「婚礼」 significance: 步美路线的高潮场景之一 - event: 与神秘少女的相遇 note: 该少女与大骷髅·思卡鲁相关 symbolism: meaning: 连接过去与现在的场所 significance: 多个角色的命运在此交汇 role: 既是物理地点，也是叙事意义上的中心节点",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-61"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:菲欧蕾·罗迪利亚·拉比涅利",
+      "entityId": "菲欧蕾·罗迪利亚·拉比涅利",
+      "entityType": "characters",
+      "label": "菲欧蕾·罗迪利亚·拉比涅利",
+      "name": "菲欧蕾·罗迪利亚·拉比涅利",
+      "summary": "# 菲欧蕾·罗迪利亚·拉比涅利 identity: | name: 菲欧蕾·罗迪利亚·拉比涅利 name_jp: フィオーレ・ロディリア・ラビネリ species: 新恶魔（贵族） role: 正统恶魔社(Vintage)核心成员 rank: Vintage高层贵族 appearance: | hair: 长发，贵族礼服风格，端庄典雅。 eyes: 带有危险气息的美丽眼眸。表面温柔实则冷漠。 outfit: 华丽的贵族礼服式服装。战斗时羽衣呈现暗色。 personality: | core: 表面优雅温柔，实则冷酷无情。对古地狱复活有狂热信念。 surface: | trait: 优雅 — 言行举止无可挑剔的贵族风范。 trait: 温柔 — 表面温和有礼，善于获取信任。 depth: | trait: 冷酷 — 对阻碍者毫不留情。视恶魔传统高于一切。 - trait: 狂热 — 对复活古地狱有近乎宗教般的信仰。 - trait: 操纵 — 善于政治操控和渗透。Vintage的核心策划者之一。 abilities: | 高阶恶魔力量: 贵族血统带来的强大恶魔力量，远高于普通恶魔。 政治操控: 善于在新地狱政治中运筹帷幄，是V",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-47"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:诺拉·芙萝莉安·蕾欧莉亚",
+      "entityId": "诺拉·芙萝莉安·蕾欧莉亚",
+      "entityType": "characters",
+      "label": "诺拉·芙萝莉安·蕾欧莉亚",
+      "name": "诺拉·芙萝莉安·蕾欧莉亚",
+      "summary": "# 诺拉·芙萝莉安·蕾欧莉亚 identity: | name: 诺拉·芙萝莉安·蕾欧莉亚 name_jp: ノーラ・フロリアン・レオリア species: 新恶魔（贵族出身） role: 驱魂队成员（后脱离） rank: 前驱魂队地区长 appearance: | hair: 金色长发，贵族气质，梳理整齐。 eyes: 碧蓝色，锐利且认真。 outfit: 制服风格整洁端正。战斗时展开白色羽衣。 personality: | core: 高傲严厉但本质认真负责。旧恶魔式的严厉作风让在新地狱中格格不入。 surface: | trait: 高傲贵族 — 言行举止保持贵族风范，对下级恶魔态度严厉。 trait: 严格认真 — 对任务一丝不苟，不能容忍马虎。 depth: | trait: 孤独 — 旧恶魔式作风让她在新地狱没有真正的朋友，被孤立。 - trait: 有原则 — 即使被孤立也不放弃自己的信念。 - trait: 有能 — 实力与哈克雅相当，但行事风格完全不同。 abilities: | 高阶羽衣操控: 贵族的血统继承的高阶羽衣技巧。飞行速度和防御力远超普通恶魔。 贵族专有技能: 只有出身新恶魔贵族的恶魔才能使用的",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-46"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:长濑纯",
+      "entityId": "长濑纯",
+      "entityType": "characters",
+      "label": "长濑纯",
+      "name": "长濑纯",
+      "summary": "# 长濑纯 identity: | name: 长濑纯 name_jp: 長瀬 純（ながせ じゅん） age: 20岁（大学三年级 / 实习教师） role: 攻略对象 #7 — 舞岛学园实习教师（2-B副班主任） goddess: 无（未觉醒女神） appearance: | hair: 深棕色中长发。教师形象——整洁、干练。偶尔会换发型但都很得体。 eyes: 棕色。温和但有时飘忽不定——自信不足的体现。 build: 普通女性体型。不高不矮。 clothing: 实习期间穿职业装/套装。私下意外地喜欢穿带摔跤图案的T恤（反差）。 personality: | core: 认真负责的实习教师，面对学生努力想要表现出「教师该有的样子」。但骨子里是个对职业摔跤有狂热热爱的热血女孩。年龄比桂马大（大学生），这使得师生关系+年龄差增加了攻略的难度和微妙感。 - trait: 教书育人的责任感 — 「作为一名教师……」是她的口头禅。备课认真，对学生的提问从不敷衍。 - trait: 隐藏的摔跤迷 — 私下对职业摔跤有着惊人的热爱。会去看比赛、收集周边、模仿摔跤动作。但是拼命在学生面前隐藏这一面（觉得不符合教师形象）。 - trai",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-22"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:阿仓川紫埜",
+      "entityId": "阿仓川紫埜",
+      "entityType": "characters",
+      "label": "阿仓川紫埜",
+      "name": "阿仓川紫埜",
+      "summary": "# 阿仓川紫埜 identity: | name: 阿仓川紫埜 name_jp: 阿倉川 紫埜（あくらがわ しの） age: 约17-18岁高中生 role: 轻小说Vol.2角色（诅咒游戏篇） type: 巫女。拥有诅咒能力的古老家族后裔 appearance: | body: 黑色长发。身材颀长。有巫女特有的肃穆气质。 expression: 表情端庄凝重。眼神中常带着一丝不安和矛盾——对自身力量的恐惧。 clothing: 日常是校服或简朴私服。在神社场合穿着正式的巫女装束（白衣绯袴）。 special: 身上常带着神社的香火气息。手指上有长期折纸垂（御币）的痕迹。 personality: | core: 神秘、端庄、有古老家族的气质。但内心深处是一个渴望过普通生活的少女。对自己的诅咒能力感到深切的矛盾——既恐惧它的破坏力，又依赖它作为自己存在的意义。 surface: 沉稳寡言。说话带古文腔调（受家族传统影响）。在学校里是神秘的存在，很少有人敢接近她。 depth: | 阿仓川家世世代代传承着诅咒能力——言灵、符咒、封印术。紫埜从小就被训练使用这些力量，但她亲眼目睹过诅咒的可怕后果。她既害怕自己的能力，又觉得自己「",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-36"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:风濑青羽",
+      "entityId": "风濑青羽",
+      "entityType": "characters",
+      "label": "风濑青羽",
+      "name": "风濑青羽",
+      "summary": "# 风濑青羽 / 舞姬 identity: | name: 风濑青羽 name_jp: 風瀬 青羽（かざせ あおば） alias: 舞姬（网络ID/笔名） age: 约14-15岁（初中生天才少女） role: 轻小说Vol.2角色（雨蓝物语篇） type: 天才少女。存在主义空虚 appearance: | body: 娇小身材。及肩蓝色挑染黑发。目光冷淡疏离。 expression: 常态：面无表情的倦怠。对任何事都提不起兴趣的厌世感。 clothing: 随意舒适风——不关心穿搭，基本上是抓到什么穿什么。但在网络直播或特定场合会穿得精致——那是唯一让她觉得「有点意思」的事。 personality: | core: 冷漠、倦怠、存在主义的空虚。她是天才——无论是学术、艺术还是任何智力挑战，对她来说都「太简单了」。但这种天赋成了她的诅咒：她无法享受任何事情的成就感，因为一切都是理所当然就能做到。 surface: 对什么都提不起兴趣。说话语调平淡。社交中显得疏离甚至有攻击性——不是因为讨厌别人，而是因为「和人交流也很麻烦」。 depth: | 她的内心空隙来自于天赋带来的诅咒——她的人生像一个已经通关了所有难度的游戏，再",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-38"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:高原步美",
+      "entityId": "高原步美",
+      "entityType": "characters",
+      "label": "高原步美",
+      "name": "高原步美",
+      "summary": "# 高原步美 identity: | name: 高原步美 name_jp: 高原 歩美（たかはら あゆみ） age: 17岁（高二） role: 攻略对象 #1 — 田径部短跑选手 goddess: 茉丘莉（Mercurius，朱比特末女/信使之神） appearance: | hair: 棕色短发。运动型。有时扎小马尾。 eyes: 棕色。充满活力。 build: 运动员体型。腿部肌肉结实。身材娇小但爆发力强。 clothing: 校服或田径队运动服。私服运动休闲风。 personality: | core: 元气少女。运动系的直爽和活力。容易害羞——尤其是面对恋爱话题时。第一个被桂马攻略的女性，也是女神茉丘莉的宿主。 surface: | trait: 精力充沛 — 永远在跑。无论是田径场上还是日常生活中。 - trait: 直率 — 想什么说什么。不会绕弯子。 - trait: 好胜 — 对比赛和竞争有强烈的求胜欲。 - trait: 害羞 — 被夸奖或涉及恋爱话题时会脸红慌乱。 depth: | trait: 内心空隙 — 对自身价值的怀疑。作为田径选手遇到瓶颈时的挫败感。 trait: 茉丘莉的影响 — 作为末女",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-16"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:鲇川天理",
+      "entityId": "鲇川天理",
+      "entityType": "characters",
+      "label": "鲇川天理",
+      "name": "鲇川天理",
+      "summary": "# 鲇川天理 + 女神蒂雅娜 identity: | name: 鲇川天理 name_jp: 鮎川 天理（あゆかわ てんり） age: 17岁（高二） role: 桂马的青梅竹马 / 女神蒂雅娜宿主 school: 舞岛私立高中（与桂马不同班） note: 名字和所有角色名一样，源自近铁车站名（天理站）。 appearance: | hair: 深棕色长发，通常披散或简单束起。 eyes: 褐色。蒂雅娜显现时转为红色。 build: 普通女高中生体型。身材在作品中属于佼佼者。 clothing: 舞岛学园校服。便服风格简单低调。不喜欢引人注目。 aura: 安静温柔的气质。不主动说话，但存在感不弱。 personality: | surface: | trait: 安静内敛 — 不善于表达自己的感情。说话声音柔和。 - trait: 对桂马特别 — 只有在面对桂马时会露出不一样的表情。默默关注他的一切。 - trait: 包容 — 对桂马的宅属性完全接受。不觉得奇怪也不崇拜，只是自然地接纳。 depth: | trait: 十年的暗恋 — 从小学时遇到桂马开始，一直默默喜欢他。但从不表白——因为她知道桂马对现实恋爱没兴趣，也",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-39"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:鸣泽市-Narusawa-City",
+      "entityId": "鸣泽市-Narusawa-City",
+      "entityType": "characters",
+      "label": "鸣泽市 (Narusawa City)",
+      "name": "鸣泽市 (Narusawa City)",
+      "summary": "id: location-narusawa name: 鸣泽市 (Narusawa City) type: location description: | 东日本都市，规模远超舞岛市。 statistics: population: 约800,000 region: 东日本 symbols: tree: 山茶花（市树） flower: 玫瑰（市花） mascot: 鸣丸（吉祥物） notable_locations: - name: 鸣泽海滨会馆 note: 花音首次个人演唱会举办地 - name: 鸣泽电电城 type: 电器街 - name: 鸣泽体育中心 type: 体育设施 - name: 鸣泽教育大学 note: 长濑纯就读的大学 - name: Soft House Collie type: 店铺 - name: Level Eye公司 type: 企业",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-56"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:📌-主要角色",
+      "entityId": "📌-主要角色",
+      "entityType": "characters",
+      "label": "📌 主要角色",
+      "name": "📌 主要角色",
+      "summary": "桂木桂马、艾鲁西",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-105"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:📌-配角与NPC",
+      "entityId": "📌-配角与NPC",
+      "entityType": "characters",
+      "label": "📌 配角与NPC",
+      "name": "📌 配角与NPC",
+      "summary": "支援角色与恶魔关系者",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-107"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:TWGOK-女神篇·第七卷",
+      "entityId": "TWGOK-女神篇·第七卷",
+      "entityType": "abilities",
+      "label": "TWGOK 女神篇·第七卷",
+      "name": "TWGOK 女神篇·第七卷",
+      "summary": "# TWGOK 女神篇·第七卷 volume: 7 title: 天理的归来与女神发现 arc: 女神篇 key_events: | 鲇川天理转学归来: 桂马的小学同学鲇川天理转学回到舞岛学园。艾鲁西的探测器在她身上显示出前所未有的反应——不是驱魂，而是更古老的能量。天理右手无名指的银戒指让桂马感到难以言喻的熟悉感。 童年回忆：茜丸事件: 桂马逐渐回想起10年前在「茜丸」三桅帆船上与天理的相遇。两人在船舱中建立了超越年龄的连接。这段记忆被某种力量刻意淡化，桂马无法完全回忆。 蒂雅娜觉醒: 天理体内的女神蒂雅娜（月之女神秘境最高者之一）与桂马建立精神连接。天理早在10年前就被蒂雅娜完全寄宿。觉醒时天理双眼变为红色，声音双重化。攻略后天理未遗忘——她是第一个保留记忆的女性。 女神体系揭露: 蒂雅娜揭示了女神真相：六位朱比特姐妹在远古封印古恶魔后散落人界，寄宿于「美丽心灵」。她们以宿主心中的「爱」为力量——桂马的攻略意外「喂养」了沉睡的女神碎片。 characters_introduced: 鲇川天理、蒂雅娜 locations: 茜丸（鸣泽港三桅帆船）、舞岛学园",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-72"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:TWGOK-女神篇·第九卷",
+      "entityId": "TWGOK-女神篇·第九卷",
+      "entityType": "abilities",
+      "label": "TWGOK 女神篇·第九卷",
+      "name": "TWGOK 女神篇·第九卷",
+      "summary": "# TWGOK 女神篇·第九卷 volume: 9 title: 女神觉醒加速与Vintage初现 arc: 女神篇 key_events: | 阿波罗觉醒征兆: 中川花音在演唱会中无意释放女神阿波罗力量——声音超越人类范围，产生金色光晕。阿波罗的「真实之眼」能力使花音能看到恶魔伪装，陷入恐慌。桂马告知真相后，花音以偶像的勇气接受命运。 Vintage首次袭击: 正统恶魔社（Vintage）贵族恶魔菲欧蕾携手下琉妮首次在人间现身。目标：捕获女神宿主花音。低级恶魔杂兵试探性攻击，艾鲁西勉强保护桂马和花音撤退。桂马第一次面对真实的死亡威胁。 被攻略者的记忆残留: 排查发现花音、栞、步美均出现不同程度的记忆残留——她们无意识中记得桂马的存在。这证明女神碎片越强的宿主保留的记忆越多。桂马的攻略不再是「结束就遗忘」的简单任务。 characters_introduced: 菲欧蕾、琉妮、阿波罗 locations: 花音演唱会现场、舞岛学园",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-74"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:TWGOK-女神篇·第十一卷",
+      "entityId": "TWGOK-女神篇·第十一卷",
+      "entityType": "abilities",
+      "label": "TWGOK 女神篇·第十一卷",
+      "name": "TWGOK 女神篇·第十一卷",
+      "summary": "# TWGOK 女神篇·第十一卷 volume: 11 title: 桧的救出与Vintage总攻 arc: 女神篇 key_events: | 春日桧攻略: | 春日楠的姐姐春日桧，春日流古武术继承人，因追求力量过度产生四级游魂。自我流放到山口村深山道场。桂马深入其精神世界，用楠教的春日流心法呼唤桧的真名，与游魂拉锯三昼夜。桧凭借对妹妹的挂念压制游魂，被成功解放。 Vintage全面进攻: | 菲欧蕾指挥恶魔部队同时在多地袭击女神宿主：花音被困摄影棚、步美遇袭、栞被封锁。桂马以指挥官身份调度防御，分配每人应对策略。诺拉以第三方身份介入救步美。哈克雅决定暗中提供驱魂队情报资源，成为桂马的恶魔盟友。 守护者宣言: 桂马召集六位女神宿主召开第二次女神会议。他在黑板上写下六人名字并连在一起：「你们不只是我攻略过的女孩——你们是我的同伴，我的部队。」桂马第一次在他人面前流露真正的在乎。 characters_introduced: 春日桧 locations: 山口村深山道场、舞岛市多处战斗现场、旧校舍",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-76"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:TWGOK-女神篇·第十七卷",
+      "entityId": "TWGOK-女神篇·第十七卷",
+      "entityType": "abilities",
+      "label": "TWGOK 女神篇·第十七卷",
+      "name": "TWGOK 女神篇·第十七卷",
+      "summary": "# TWGOK 女神篇·第十七卷 volume: 17 title: 蒂雅娜觉醒·六女神齐聚 arc: 女神篇 key_events: | 蒂雅娜完全觉醒: | 天理体内的蒂雅娜达成完全觉醒。蒂雅娜——朱比特三女、红瞳月之女神——的境界是所有女神中最高的。她的完全觉醒带来了一个能力：「真实回溯」——能够看到一个人内心最深处的真实记忆。蒂雅娜看到了桂马10年前在茜丸时的记忆，确认了两人的命运羁绊。 六女神齐聚: | 六位女神宿主在栞的精神网络中首次实现全员同步。伏尔坎丝（月夜·工艺）、阿波罗（花音·太阳）、蒂雅娜（天理·月亮）、弥涅儿娃（栞·智慧）、玛尔丝（结·战争）、茉丘莉（步美·时间）。六道女神之光同时亮起，形成朱比特六芒星阵的雏形。 Vintage总攻宣告: 菲欧蕾通过新地狱官方渠道宣布——正统恶魔社将在舞高祭期间发动总攻。这不是秘密突袭，而是公开宣战。桂马明白Vintage的真正目的：不仅是捕获女神，更是要在新地狱和人界面前展示力量，动摇新地狱现存秩序。 characters_introduced: （无新主要角色——六女神全部确认） locations: 舞岛学园、茜丸旧址（回忆）",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-82"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:TWGOK-女神篇·第十三卷",
+      "entityId": "TWGOK-女神篇·第十三卷",
+      "entityType": "abilities",
+      "label": "TWGOK 女神篇·第十三卷",
+      "name": "TWGOK 女神篇·第十三卷",
+      "summary": "# TWGOK 女神篇·第十三卷 volume: 13 title: 弥涅儿娃完全觉醒与女神代价初现 arc: 女神篇 key_events: | 弥涅儿娃完全觉醒: | 栞的弥涅儿娃之力进入完全觉醒阶段。精神共享网络覆盖所有女神宿主，首次实现六人实时意识同步。栞能同时感知六人的位置、情绪和战斗状态，成为真正的「战场指挥中枢」。栞对桂马说：「我能感受到她们每一个人——她们也在感受你。」 女神力量的代价: | 首次揭示女神力量对宿主的负担——每次使用女神之力都会消耗宿主生命力。花音在使用阿波罗净化光线后连续昏迷数天，步美的茉丘莉时间跳跃导致短期记忆混乱。桂马面临前所未有的道德困境：他需要她们的力量，但使用力量正在伤害她们。 萨堤尔组织的影子: 灯透露的情报指向一个超越Vintage的组织「萨堤尔」(Satyr)。萨堤尔才是古地狱复活计划的真正幕后操纵者，Vintage只是被推到前台的棋子。桂马意识到敌人的等级远远超出预期。 characters_introduced: 萨堤尔（组织名称浮现） locations: 舞岛学园、各女神宿主家中",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-78"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:TWGOK-女神篇·第十九卷",
+      "entityId": "TWGOK-女神篇·第十九卷",
+      "entityType": "abilities",
+      "label": "TWGOK 女神篇·第十九卷",
+      "name": "TWGOK 女神篇·第十九卷",
+      "summary": "# TWGOK 女神篇·第十九卷 volume: 19 title: 决战高潮·Vintage覆灭与女神代价 arc: 女神篇 key_events: | 决战高潮: | 菲欧蕾动用Vintage全部战力发起最后冲击。六女神以朱比特六芒星阵迎击——这是六人首次联合释放全力。玛尔丝为先锋、伏尔坎丝筑防御、阿波罗净化、弥涅儿娃增幅、茉丘莉时间加速、蒂雅娜指引目标。联合一击击溃Vintage主力。 Vintage覆灭: | 菲欧蕾在败局中揭露Vintage的真相：正统恶魔社只是萨堤尔的前台组织，她本人也只是萨堤尔的棋子。菲欧蕾被萨堤尔肃清灭口。琉妮在目睹菲欧蕾的下场后信仰崩溃，被桂马说服后投降。Vintage组织宣告瓦解。 女神力量的真正代价: | 六女神经过全力战斗后陷入深度沉睡——她们的生命力消耗远超极限。桂马面对最艰难的抉择：继续依赖女神之力会杀死她们，但不依赖就无法对抗尚未现身的萨堤尔。大骷髅以二阶堂身份向桂马揭示了另一个可能性——回到一切开始的地方：10年前的茜丸。 characters_introduced: 萨堤尔（组织全貌开始浮现） locations: 舞岛学园（决战战场）、茜丸（伏笔回收）",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-84"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:TWGOK-女神篇·第十二卷",
+      "entityId": "TWGOK-女神篇·第十二卷",
+      "entityType": "abilities",
+      "label": "TWGOK 女神篇·第十二卷",
+      "name": "TWGOK 女神篇·第十二卷",
+      "summary": "# TWGOK 女神篇·第十二卷 volume: 12 title: 灯的登场与Vintage渗透 arc: 女神篇 key_events: | 仓川灯登场: | 神秘转学生仓川灯出现在桂马班级。灯持有破碎的「证明之镰」——只有驱魂队地区长级别恶魔才被授权持有的武器。但灯是人类。二阶堂称她为「丽缪耶儿阁下」，暗示她与天界或更高存在有关。灯对桂马说：「我是来监视你的——但不是来妨碍你。」 Vintage渗透揭示: 调查发现Vintage的渗透远超预期——新地狱高层中已有多个卧底。菲欧蕾利用贵族身份在政治层面操控局面，驱魂队的部分行动被故意误导。二阶堂/大骷髅开始显露幕后操控迹象。 女神觉醒加速: 六位女神的觉醒进度加快。结合伏尔坎丝、弥涅儿娃、茉丘莉的觉醒，六女神全部确认。桂马开始系统化训练她们的协同作战能力，迎接即将到来的Vintage总攻。 characters_introduced: 仓川灯 locations: 舞岛学园教室、新地狱·亡灵对策室",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-77"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:TWGOK-女神篇·第十五卷",
+      "entityId": "TWGOK-女神篇·第十五卷",
+      "entityType": "abilities",
+      "label": "TWGOK 女神篇·第十五卷",
+      "name": "TWGOK 女神篇·第十五卷",
+      "summary": "# TWGOK 女神篇·第十五卷 volume: 15 title: 深入新地狱——格雷达与二阶堂真相 arc: 女神篇 key_events: | 东要塞格雷达: 桂马一行人深入新地狱的东要塞「格雷达」(Greda)——封印古恶魔的古代遗迹。格雷达是新地狱最古老的建筑之一，内部封印着朱比特姐妹留下的最后力量。灯的任务目标与格雷达有直接关联。 二阶堂真相开始揭开: 二阶堂由梨的真身——大骷髅·思卡鲁——在格雷达事件中首次以恶魔形态现身。她是亡灵对策室室长，新地狱最高执行机关长官。桂马震惊于自己的班主任竟是恶魔高层。大骷髅承认10年前在茜丸与桂马相遇另有目的。 萨堤尔首领浮现: 格雷达的异动引出了萨堤尔的高层成员。萨堤尔并非Vintage的上级组织，而是一个更古老的组织——其成员既有恶魔也有来自天界的存在。萨堤尔的真正目标不是复活古地狱，而是在新旧地狱之间寻找第三条路。 characters_introduced: 大骷髅·思卡鲁（恶魔形态正式登场） locations: 新地狱·东要塞格雷达",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-80"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:TWGOK-女神篇·第十六卷",
+      "entityId": "TWGOK-女神篇·第十六卷",
+      "entityType": "abilities",
+      "label": "TWGOK 女神篇·第十六卷",
+      "name": "TWGOK 女神篇·第十六卷",
+      "summary": "# TWGOK 女神篇·第十六卷 volume: 16 title: 玛尔丝完全觉醒与舞高祭准备 arc: 女神篇 key_events: | 玛尔丝完全觉醒: 五人堂结的玛尔丝之力进入完全觉醒。战争女神的真正力量——能够将周边环境转化为战斗领域，在领域内所有女神的力量得到增幅。结在训练中首次完整释放玛尔丝领域，将废弃体育馆化为金光战场。 舞高祭准备启动: 舞岛学园最高祭典「舞高祭」成为下一个关键舞台。桂马意识到Vintage会利用舞高祭大规模进攻——人流量大、公众影响广、六位女神宿主将全员到场。桂马以舞高祭执行委员会为掩护，秘密布置防御阵线。 Vintage渗透程度全面揭示: | 调查显示Vintage在新地狱的渗透已经深入到驱魂队内部。多名驱魂队中层是Vintage成员。桂马的团队面临敌我难辨的局面。哈克雅利用职务之便整理了一份可信名单，但无法确认是否为Vintage故意放出的假情报。 characters_introduced: （无新主要角色） locations: 舞岛学园·废弃体育馆、舞高祭执行委员会",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-81"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:TWGOK-女神篇·第十卷",
+      "entityId": "TWGOK-女神篇·第十卷",
+      "entityType": "abilities",
+      "label": "TWGOK 女神篇·第十卷",
+      "name": "TWGOK 女神篇·第十卷",
+      "summary": "# TWGOK 女神篇·第十卷 volume: 10 title: 四位女神的确认 arc: 女神篇 key_events: | 九条月夜=伏尔坎丝确认: | 天文部九条月夜自幼失明失聪，依赖触觉感受星空。桂马的攻略策略是「用语言描绘星空」，在数个夜晚以精准美丽的语言向她描述宇宙。月夜在脑海中构建了比肉眼所见更璀璨的宇宙。伏尔坎丝（长女/工艺之女神）以创造之力修复了她的视觉和听觉神经。 汐宫栞=弥涅儿娃确认: 图书馆委员汐宫栞在整理书籍时突然觉醒，能「读取」书本之外的信息。弥涅儿娃（四女/智慧/增幅）的能力是建立「精神共享网络」，成为六女神的精神中枢。栞能感知其他女神宿主的位置和情绪。 茉丘莉觉醒与时间旅行: 高原步美觉醒茉丘莉（末女/信使/时间旅行）之力，无意识进行了首次短程时间跳跃。步美无法控制这种随机触发的能力。桂马制定特训方案帮助她建立时间流动的自我感知锚点。 characters_introduced: 伏尔坎丝、弥涅儿娃、茉丘莉 locations: 舞岛学园天文台、图书馆地下室",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-75"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:TWGOK-女神篇·第十四卷",
+      "entityId": "TWGOK-女神篇·第十四卷",
+      "entityType": "abilities",
+      "label": "TWGOK 女神篇·第十四卷",
+      "name": "TWGOK 女神篇·第十四卷",
+      "summary": "# TWGOK 女神篇·第十四卷 volume: 14 title: 伏尔坎丝觉醒与新地狱调查 arc: 女神篇 key_events: | 伏尔坎丝完全觉醒: | 月夜的伏尔坎丝之力完全释放。作为工艺与创造之女神，伏尔坎丝能凭空构筑防御结界和武器。月夜不再需要依靠人偶辅助感知世界，她的五感因女神之力而得到超常强化。月夜说：「我终于能『看到』你了——比我在黑暗中想象的还要真实。」 新地狱调查: | 桂马在哈克雅和灯的协助下首次深入新地狱进行调查。新地狱——全女性恶魔社会、浮岩都市的景象震撼了桂马。他发现新地狱的政治体系远比想象中复杂：贵族阶层（如菲欧蕾出身的家族）对新地狱的现存秩序不满，暗中支持Vintage乃至萨堤尔。 二阶堂行动开始: 二阶堂/大骷髅开始更直接地介入剧情。她在桂马的调查路上提供了几个「不经意」的关键线索，引导桂马走向更深层的真相。桂马开始怀疑这位随性班主任的真正身份。 characters_introduced: 新地狱·浮岩都市（场景） locations: 新地狱·浮岩都市、亡灵对策室",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-79"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:TWGOK-过去篇·第二十一卷",
+      "entityId": "TWGOK-过去篇·第二十一卷",
+      "entityType": "abilities",
+      "label": "TWGOK 过去篇·第二十一卷",
+      "name": "TWGOK 过去篇·第二十一卷",
+      "summary": "# TWGOK 过去篇·第二十一卷 volume: 21 title: 攻略白鸟丽·等级战争 arc: 过去篇 key_events: | 攻略白鸟丽: | 10年前的舞岛市，桂马（成人意识/小学生身体）遇到了白鸟丽——名门白鸟家的千金大小姐，高傲、孤独、才华横溢。白鸟丽体内寄宿着特殊的驱魂能量——她不是女神宿主，而是某种与古地狱直接相连的「锚点」。桂马在10年前的世界中进行了一场与众不同的攻略——以小孩之身攻略贵族少女。 女孩等级战争: | 白鸟丽的社交圈中存在着一个名为「女孩等级战争」的隐形竞争体系——名门少女们根据家世、才艺、外貌被划分等级，白鸟丽是最高等级的「公主」。这个等级体系实际上是萨堤尔组织在人间建立的社会实验——用来筛选出意志强大的女性作为未来的女神宿主候选。 结崎香织初现: 在等级战争中，桂马遇到了另一个关键人物——结崎香织（香织）。她是白鸟家的女仆/管家，表面温顺实则怀抱复杂目的。香织与萨堤尔组织有直接联系，她接近白鸟丽是为了监视「锚点」的状态。 characters_introduced: 白鸟丽、结崎香织 locations: 鸣泽市/舞岛市（10年前）、白鸟家宅邸、名门社交圈",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-86"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:TWGOK-过去篇·第二十三卷",
+      "entityId": "TWGOK-过去篇·第二十三卷",
+      "entityType": "abilities",
+      "label": "TWGOK 过去篇·第二十三卷",
+      "name": "TWGOK 过去篇·第二十三卷",
+      "summary": "# TWGOK 过去篇·第二十三卷 volume: 23 title: 项圈契约起源与驱魂大脱逃真相 arc: 过去篇 key_events: | 项圈契约起源: | 揭示了桂马与艾鲁西之间的项圈契约的真正起源。项圈不是地狱随机分配的——它是大骷髅在10年前利用萨堤尔的技术为桂马量身定制的契约系统。项圈不仅是生死绑定，更是一个「记忆锁」——通过项圈，桂马关于10年前经历的某些记忆被刻意封印，以确保他能在不受过去影响的情况下发展出纯粹的攻略能力。 驱魂大脱逃真相: | 60,000只古恶魔逃入人间不是意外——也不是Vintage的阴谋。这是萨堤尔组织的计划的一部分：利用大规模驱魂泄漏制造「空洞」检测→驱魂队介入→特定女性被攻略→女神觉醒的连锁反应。萨堤尔需要女神觉醒来完成古地狱封印的重新配置。桂马的攻略从一开始就是萨堤尔预期的一部分。 桂马为何封印记忆: | 桂马在10年前得知了部分真相后，自己做出了一个选择：封印关于10年前的记忆，以确保自己在未来不会因过去的感情而影响攻略判断。这是桂马主动做出的牺牲——他放弃了童年最珍贵的记忆，换取了成为「攻陷之神」所需的纯粹性。 characters_introduced: （无新主要角",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-88"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:TWGOK-过去篇·第二十二卷",
+      "entityId": "TWGOK-过去篇·第二十二卷",
+      "entityType": "abilities",
+      "label": "TWGOK 过去篇·第二十二卷",
+      "name": "TWGOK 过去篇·第二十二卷",
+      "summary": "# TWGOK 过去篇·第二十二卷 volume: 22 title: 等级战争真相与大骷髅身份完全揭示 arc: 过去篇 key_events: | 等级战争的真相: | 女孩等级战争的幕后是萨堤尔组织在人间界的社会实验。白鸟丽作为「公主」存在的原因是她的家族血脉与古地狱的核心封印存在共鸣。萨堤尔在10年前就已经在策划打开古地狱封印——桂马在此时介入，无意中打乱了他们的计划。 萨堤尔在10年前: | 10年前的萨堤尔组织以结崎香织为代表在人间活动。萨堤尔与Vintage的区别在于：萨堤尔不追求复活古地狱来推翻新地狱，而是追求利用古恶魔力量达成新旧地狱的「融合」——创造一个混沌与秩序并存的新世界秩序。 大骷髅身份完全揭示: | 二阶堂/大骷髅向桂马坦白了一切：她10年前选中桂马，是因为预见到他未来会成为「攻陷之神」。她在茜丸对桂马的指导不是随意的——她是故意培养他的攻略能力，为10年后的女神觉醒战争做准备。但她没有预料到的是，她对小学桂马的关心超越了最初的计划。 characters_introduced: （萨堤尔组织全貌进一步展开） locations: 鸣泽市（10年前）、茜丸、萨堤尔据点",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-87"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:春日桧",
+      "entityId": "春日桧",
+      "entityType": "abilities",
+      "label": "春日桧",
+      "name": "春日桧",
+      "summary": "identity: 春日桧 (Hinoki Kasuga), 18, 攻略对象 — 春日楠的姐姐 / 持有四级游魂（高等级驱魂）, 春日流古武术道场 appearance: 黑色直长发（比楠长, 垂至腰际）, 丹凤眼, 比楠更高挑的身材, 和服或武道服。外表给人温柔大和抚子的印象, 但微笑中偶尔闪过令人不寒而栗的阴影。眉目之间有和楠相似的轮廓但气质迥异。 personality: | 核心：温柔表面下的黑暗面。表面：温和有礼、典型的「姐姐」形象、语调温柔、处事圆滑。实质：内心有深沉的黑暗面和复杂感情——对妹妹楠的嫉妒（楠继承了家族武道的天赋）与爱（作为姐姐的保护欲）纠结不清。高等级游魂（四级）放大了她内心的黑暗面。空隙（内心の空隙）：作为春日流长女从小被期待成为继承人, 但天赋不如妹妹楠。她爱楠, 却也嫉妒楠夺走了父母和师傅的关注。 女神篇重要角色。空隙：四级游魂利用她对楠的复杂感情试图彻底腐化她。桂马策略：不同于一般攻略, 她需要同时面对自己内心和驱魂。桂马引导她正视感情——「承认嫉妒不丢人, 你同时也是真心爱着妹妹的。」高潮：在驱魂暴走时楠赶来救援, 姐妹联手击退驱魂, 桧终于说出「我嫉妒你, 但我也最骄傲有你这样的妹妹",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-29"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:榛原七香",
+      "entityId": "榛原七香",
+      "entityType": "abilities",
+      "label": "榛原七香",
+      "name": "榛原七香",
+      "summary": "identity: 榛原七香 (Nanaka Haibara), 17, 攻略对象 — 将棋棋手（女流棋士）, 将棋会馆 / 私立高校 appearance: 黑色长发（比赛时梳成端庄发型）, 锐利黑色眼瞳, 苗条端庄。将棋比赛时穿正式和服或袴装, 平时穿学校制服。坐下对弈时脊背笔直, 手指修长。 personality: | 核心：好胜心强的关西腔将棋棋手。表面：自信满满的嘴炮——「这手棋你读了几步？」、关西腔吐槽高手、在棋盘上有压倒性的气场。棋盘下：爽朗、重义气、说话直爽带关西腔。空隙（内心の空隙）：在男性主导的将棋界证明自己的巨大压力。每次输棋都被说「因为是女孩子」而非技不如人，她必须在每一步棋上都比对手更强才能获得同等认可。 空隙：她在某次重要比赛前陷入严重的自我怀疑，害怕自己「作为女流棋士的极限」到了。桂马策略：以业余爱好者的身份和她下将棋——当然被完虐，但桂马的冷静和「完全不在意输赢只分析棋路」的态度让她感到新鲜。高潮：桂马在她赛前说「你在棋盘上从不因为是女人而让步——这一点比任何人都强。」她以此话为力量赢下关键对局。攻略后她能更从容面对性别偏见。 relationships: 对桂马：最初鄙视这个「门外汉」,",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-27"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:语料库",
+      "entityId": "语料库",
+      "entityType": "abilities",
+      "label": "语料库",
+      "name": "语料库",
+      "summary": "# 语料库 catchphrases: | phrase: 「我已看到结局。」 - phrase: 「现实（3D）就是一款垃圾游戏。」 - phrase: 「攻略之神是不会失败的。」 - phrase: 「Flag已立起。」 - phrase: 「这条路线需要先提升好感度。」 - phrase: 「完美攻略。」 speech_style: 冷静、理性、略带嘲讽。常用Galgame术语类比现实。内心独白丰富。对PFP说话比对人说话更温柔。 catchphrases: | phrase: 「我是艾鲁西亚·D·鲁德·伊玛的说！请多关照的说！」 - phrase: 「神大人——！」 - phrase: 「对不起的说……」 - phrase: 「艾鲁西会加油的说！」 speech_style: 语尾「的说」。天真热情。容易慌乱和哭。对人间界缺乏常识。对桂马极度崇拜和依赖。 catchphrases: | phrase: 「我可是优等生。」 - phrase: 「桂木桂马……你这个……」 - phrase: 「证明之镰——！」 speech_style: 自信、骄傲、精英口吻。容易被桂马打乱节奏（傲娇）。对艾鲁西有竞争意识。 speec",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-11"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:诺拉-菲欧蕾-琉妮",
+      "entityId": "诺拉-菲欧蕾-琉妮",
+      "entityType": "abilities",
+      "label": "诺拉 + 菲欧蕾 + 琉妮",
+      "name": "诺拉 + 菲欧蕾 + 琉妮",
+      "summary": "# 诺拉 + 菲欧蕾 + 琉妮 诺拉·芙萝莉安·蕾欧莉亚: | name_jp: ノーラ・フロリアン・レオリア species: 新恶魔（贵族出身） role: 驱魂队成员（后脱离）/ 协作者：浅间亮 personality: 高傲贵族。对艾鲁西态度严厉但非恶意。本质认真负责。有旧恶魔式的严厉作风因此在新地狱格格不入。 appearance: 金发、贵族气质。制服风格整洁。 ability: 高阶羽衣操控。贵族专有技能。 菲欧蕾·罗迪利亚·拉比涅利: | name_jp: フィオーレ・ロディリア・ラビネリ species: 新恶魔（正统恶魔社贵族） role: 正统恶魔社核心成员 personality: 表面优雅实则冷酷。对古地狱复活抱有狂热信念。善于渗透和操控。 appearance: 长发、贵族礼服风格。美丽但带有危险气息。 ability: 高阶恶魔力量。政治操控。羽衣战斗。 琉妮: | name_jp: リューヌ species: 新恶魔 role: 正统恶魔社成员（底层） personality: 有自残倾向。对正统恶魔社的信仰近乎疯狂。性格扭曲但有自己的悲剧性。 note: 与桂马的互动揭示了她内心的伤痕。是V",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-42"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:过去篇·第二十六卷-最终卷",
+      "entityId": "过去篇·第二十六卷-最终卷",
+      "entityType": "abilities",
+      "label": "过去篇·第二十六卷（最终卷）",
+      "name": "过去篇·第二十六卷（最终卷）",
+      "summary": "# 过去篇·第二十六卷（最终卷） volume: 26 title: 结局——我已看到结局，但这只是开始 arc: 过去篇 key_events: | 最终决战结局：封印修复与世界回归: | 倒计时归零前的最后一刻，桂马完成了项圈解构程序的最终步骤。项圈的碎片化为一道金色锁链——不是束缚桂马，而是从他手中延伸而出，如一条有生命的脉络般贯入格雷达的地基，沿着三百年前朱比特六姐妹留下的封印轨迹，嵌入了古地狱封印的每一道裂缝中。萨堤尔首领「过去」在桂马的「理解攻略」后，收回了混沌力量——他主动将自己残余的力量注入封印作为最后的赎罪。暗影碎片「现在」在得到桂马「让朱比特记住你」的承诺后，散去了混沌外壳，化作一道纯净的紫色光芒汇入金色锁链，补全了朱比特之心失落的一半。两位萨堤尔核心的自我瓦解——不是被击败，而是被理解后的自我救赎——引发了格雷达的全面坍塌。桂马命令所有人撤离，自己留在核心层确保封印的完全修复。但六女神在栞的网络同步下做出了一个违背命令的决定——她们将最后的女神之力集中在桂马身上，用一次集体能量爆发将他推出了崩塌的核心层。天理的声音在精神网络中最后一次响起：「你说过——不会让我们中的任何一个人Game Over。但你没有",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-68"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:隐秘揭示：二阶堂由梨-大骷髅·思卡鲁",
+      "entityId": "隐秘揭示：二阶堂由梨-大骷髅·思卡鲁",
+      "entityType": "abilities",
+      "label": "隐秘揭示：二阶堂由梨 = 大骷髅·思卡鲁",
+      "name": "隐秘揭示：二阶堂由梨 = 大骷髅·思卡鲁",
+      "summary": "# 隐秘揭示：二阶堂由梨 = 大骷髅·思卡鲁 entry: | info: note: 此条目默认不启用。仅在故事进展到过去篇（Vol.22）之后，且{{user}}通过特定关键词触发时启用。 hidden_reveal: | tag: 二阶堂由梨的真实身份 timing: 过去篇（Vol.22）之后 trigger_keywords: 二阶堂由梨, 大骷髅, 亡灵对策室 fact: 二阶堂由梨是大骷髅·思卡鲁在人界的身份/容器。10年前，大骷髅以二阶堂的身份遇到了小学时代的桂马，这段经历影响了桂马的人生轨迹。 method: 通过角色对话自然揭示——当{{user}}质疑二阶堂为何知道太多地狱的事时，她可能露出破绽。或在东要塞格雷达面对萨堤尔时，二阶堂展现出大骷髅的真正力量。 pacing: | 分三阶段揭示：阶段1(女神篇后期)——二阶堂展现出对地狱知识的异常了解；阶段2(过去篇前期)——桂马在10年前遇到了年轻的二阶堂；阶段3(过去篇后期)——完全揭示二阶堂=大骷髅，以及她与桂马10年前的约定。",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-96"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:隐秘揭示：桂木桂马10年前封印的记忆",
+      "entityId": "隐秘揭示：桂木桂马10年前封印的记忆",
+      "entityType": "abilities",
+      "label": "隐秘揭示：桂木桂马10年前封印的记忆",
+      "name": "隐秘揭示：桂木桂马10年前封印的记忆",
+      "summary": "# 隐秘揭示：桂木桂马10年前封印的记忆 entry: | info: note: 此条目默认不启用。仅在故事进展到过去篇（Vol.20+）时，且{{user}}通过特定关键词触发时启用。 hidden_reveal: | tag: 桂木桂马10年前封印的记忆 timing: 过去篇（Vol.20+） trigger_keywords: 10年前, 封印记忆, 茜丸, 小学时代, 女孩等级战争 fact: | 10年前，小学时代的桂马在舞岛市遇到了二阶堂由梨（大骷髅）。他参与了一起涉及萨堤尔的事件（女孩等级战争），并在事件结束后选择封印自己的记忆——因为他预见到了未来的自己需要从零开始，才能成为真正的「攻陷之神」。 method: 通过时间旅行篇章中桂马逐渐恢复的记忆来揭示。当他穿越到10年前时，他重新经历了那些被封印的事件，并最终理解了自己当初的选择。 pacing: 渐进揭示：穿越初期(模糊片段)→遇到白鸟丽(记忆碎片)→女孩等级战争(部分真相)→与二阶堂对话(完全真相)",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-97"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:驱魂篇·第一卷",
+      "entityId": "驱魂篇·第一卷",
+      "entityType": "abilities",
+      "label": "驱魂篇·第一卷",
+      "name": "驱魂篇·第一卷",
+      "summary": "# 驱魂篇·第一卷 volume: 1 title: 契约与攻略的开始 arc: 驱魂篇 key_events: | 神秘邮件的到来: | 桂木桂马放学后在教室里收到一封署名「我来自地狱」的神秘邮件，邀请他参与一场契约。桂马起初不以为意，认为是无聊的恶作剧，直到邮件内容开始精准描述他当天玩的美少女游戏进度和课业细节。邮件附件中包含一个从未见过的游戏程序图标，点击后屏幕剧烈闪烁，艾鲁西随即从电脑屏幕中狼狈地爬出，以「恶魔」自居，宣告契约成立。 与艾鲁西签订契约: | 艾鲁西（Elsie，正式名称为艾利乌斯·艾露·拉·塞娜）向桂马解释驱魂（Lost Soul）的存在——这些灵魂碎片会附身于女性心中产生的「空洞」，吸取精神能量成长直到世界毁灭。契约内容：桂马必须亲吻被附身女性以填补空洞，捕获驱魂。桂马起初拒绝，但在看到驱魂消散前威胁世界安全的画面后勉强同意。契约形式为「脑内植入」，桂马无法单方面解除。 捕获驱魂实战教学: | 艾鲁西试图用恶魔道具「追踪驱魂探测器」但在桂马的房间里四处碰壁，打翻了桂马的游戏收藏和限量版手办，引发桂马的强烈抗议。探测器最终锁定舞岛学园田径部成员高原步美。艾鲁西以「表妹艾露西」的身份转学到桂马班级，开始",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-62"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:驱魂篇·第三卷",
+      "entityId": "驱魂篇·第三卷",
+      "entityType": "abilities",
+      "label": "驱魂篇·第三卷",
+      "name": "驱魂篇·第三卷",
+      "summary": "# 驱魂篇·第三卷 volume: 3 title: 猛虎与恶魔 arc: 驱魂篇 key_events: | 哈克雅初登场: | 在桂马完成栞的攻略后，舞岛学园转来一名新的优等生——哈克雅·杜·奥特·赫尔梅纽姆（Hakua），公开身份是成绩年级第一的模范生，真实身份是地狱派来监视桂马和艾鲁西的上级恶魔。哈克雅以优雅而冷淡的姿态出现在桂马面前，直言不讳地质疑他的攻略方法「过于人类中心主义」，认为让恶魔等待人类少年的攻略节奏是对地狱效率的蔑视。哈克雅的身形比实际年龄显得更年幼，但言谈举止透着超龄的老成和恶魔统治层的傲慢。 哈克雅与桂马的冲突: | 哈克雅公开向桂马提出「效率竞赛」：如果桂马不能在指定时间内完成攻略，她将接管并采用恶魔的正统方法——即强制性的精神支配术。桂马以一贯的冷静反问：「你那套方法对付过几台游戏机里的女主角？」哈克雅无法理解这个梗，更被桂马的轻蔑态度激怒。艾鲁西夹在中间左右为难，一方面敬畏上级恶魔的权威，另一方面暗中希望桂马能赢。哈克雅申请以「研究员」身份常驻舞岛学园观察桂马的行动，实为随时准备替代。 春日楠的刚与柔: | 驱魂探测器锁定空手道部主将春日楠——一个以武力和严格著称的校园强者，但在桂马观察中发",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-64"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:驱魂篇·第六卷",
+      "entityId": "驱魂篇·第六卷",
+      "entityType": "abilities",
+      "label": "驱魂篇·第六卷",
+      "name": "驱魂篇·第六卷",
+      "summary": "# 驱魂篇·第六卷 volume: 6 title: 拉面与将棋与驱魂篇的终结 arc: 驱魂篇 key_events: | 诺拉接管观察者身份: | 本卷开篇诺拉正式以「桂马的第三人观察者」身份在舞岛学园活动。她不像哈克雅那样隐藏恶魔身份，而是刻意在校园中以性感奔放的形象引起话题。诺拉对桂马的测试比哈克雅更残酷——她故意在桂马的攻略路径上设置障碍（如提前接触目标并注入负面暗示），考验桂马能否在不依赖恶魔力量的情况下自行破解。桂马以「这是游戏内新增的困难模式DLC」的心态接招，每次都能通过纯人类策略破解诺拉的干扰。诺拉表面不承认，但开始佩服桂马「人类头脑」的韧性。 上本堇与拉面店的存亡: | 探测器锁定上本堇，拉面店「澄屋」家的女儿。堇的空洞根源于家庭的经营危机——父亲拉面店的生意因大型连锁店的竞争而日渐惨淡，她作为女儿既想帮助家庭又无能为力，自责感逐渐侵蚀自信。桂马以「美食评论家」身份出现在澄屋，以游戏数值化的方式分析澄屋拉面的优缺点，用极为认真（且详尽）的口吻写了一份「评测攻略」贴在店门口。意想不到的是这份攻略式的评测在网络上火了，吸引大量食客前来「按图索骥」品尝。堇在父亲脸上重新看到笑容后，情感防线完全打开。接吻后驱魂",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-67"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:📌-系统规则",
+      "entityId": "📌-系统规则",
+      "entityType": "abilities",
+      "label": "📌 系统规则",
+      "name": "📌 系统规则",
+      "summary": "系统层规则条目——始终生效",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-104"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "factions:2-—-傲娇双马尾千金小姐-私立高校",
+      "entityId": "2-—-傲娇双马尾千金小姐-私立高校",
+      "entityType": "factions",
+      "label": "2 — 傲娇双马尾千金小姐, 私立高校",
+      "name": "2 — 傲娇双马尾千金小姐, 私立高校",
+      "summary": "identity: 青山美生 (Mio Aoyama), 16, 攻略对象 #2 — 傲娇双马尾千金小姐, 私立高校 appearance: 金色双马尾长发, 紫瞳, 纤细身材, 大小姐风格制服/常服, 标志性蝴蝶结发饰, 优雅但不合时宜的着裝 personality: | 核心：傲娇双马尾千金小姐。表面：高傲自信——「我可是青山家的继承人！」、毒舌、对平民生活不屑一顾。实质：内心柔软脆弱、重情义。空隙（内心の空隙）：无法接受父亲去世和家道中落的现实。用傲娇外壳保护脆弱的内心，拒绝承认家族已衰落。被戳破真相后会崩溃哭泣。 空隙：父亲去世后家族企业破产，她仍住在豪宅里假装一切如常，坐父亲留下的劳斯莱斯上学。桂马策略：一步步打破她的伪装——坐公车体验平民生活、打工体验、让她直面经济现实。高潮：她终于承认父亲已经不在、青山家已经没落，在桂马怀里大哭。攻略完成后她放下执念，开始以真实面貌生活。 relationships: 对桂马：最初鄙视他的「平民」出身，攻略过程中逐渐依赖；攻略完成后仍维持傲娇态度但明显软化。经典场景：「我、我才不是为了你才来打工的……!」 voice: 「我可是青山家的继承人!」「笨、笨蛋桂马!」「我才不是因为",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-17"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "factions:TWGOK-女神篇·第八卷",
+      "entityId": "TWGOK-女神篇·第八卷",
+      "entityType": "factions",
+      "label": "TWGOK 女神篇·第八卷",
+      "name": "TWGOK 女神篇·第八卷",
+      "summary": "# TWGOK 女神篇·第八卷 volume: 8 title: 身体交换与第二位女神 arc: 女神篇 key_events: | 五位堂结接触: 驱魂探测器锁定名门千金五位堂结。桂马尚未找到接近方法，两人在音乐教室同时触碰古镜，发生灵魂交换。桂马被困在结的身体里，被迫过大小姐生活；结的灵魂进入桂马身体，接触了海量美少女游戏。 身体交换中的理解: 结通过体验桂马的生活第一次感受到「做自己」的自由。桂马在结的身体里目睹家族重压，产生真正共情。身体交换解除后，结对桂马产生无法忽视的好感。 玛尔丝觉醒: 结遭Vintage杂兵袭击时，体内女神玛尔丝（战争女神）紧急觉醒，自动释放战斗性能量冲击。结一度害怕体内的「战斗陌生人」，桂马以自己的经历安抚她。攻略完成，结保留全部记忆。 characters_introduced: 五位堂结、玛尔丝 locations: 舞岛学园音乐教室、五位堂家宅邸、桂马房间",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-73"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "factions:TWGOK-女神篇·第十八卷",
+      "entityId": "TWGOK-女神篇·第十八卷",
+      "entityType": "factions",
+      "label": "TWGOK 女神篇·第十八卷",
+      "name": "TWGOK 女神篇·第十八卷",
+      "summary": "# TWGOK 女神篇·第十八卷 volume: 18 title: 舞高祭决战·前半 arc: 女神篇 key_events: | 舞高祭开战: 舞高祭首日，Vintage发动全面进攻。恶魔部队伪装成游客从多个入口涌入校园。桂马以舞高祭执行委员会控制室为指挥中心，通过栞的精神网络实时调度。六女神分守六个区域，艾鲁西、哈克雅、诺拉轮换支援。 女神VS Vintage: | 战斗进入白热化。月夜（伏尔坎丝）以创造之力构筑防御结界保护普通学生撤离。花音（阿波罗）以净化光线清扫杂兵。步美（茉丘莉）利用时间跳跃预判敌人攻击路线。结（玛尔丝）正面压制Vintage主力部队。天理（蒂雅娜）用真实回溯识破隐藏的Vintage卧底。栞维持六人精神同步。 菲欧蕾真相浮现: 战斗中菲欧蕾亲自出手，展示了远超普通贵族的战斗力和冷酷。她的真正目的不仅是捕获女神——更是要通过制造大规模混乱来迫使新地狱高层承认Vintage的政治地位。桂马意识到菲欧蕾背后还有操纵者。 characters_introduced: （无新主要角色） locations: 舞岛学园（全面战场）、执行委员会控制室",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-83"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "factions:TWGOK-过去篇·第二十四卷",
+      "entityId": "TWGOK-过去篇·第二十四卷",
+      "entityType": "factions",
+      "label": "TWGOK 过去篇·第二十四卷",
+      "name": "TWGOK 过去篇·第二十四卷",
+      "summary": "# TWGOK 过去篇·第二十四卷 volume: 24 title: 最终决战准备·两时代伙伴集结 arc: 过去篇 key_events: | 两时代伙伴集结: | 桂马的意识在两个时代之间往返，现代的女神阵营和过去的同伴们通过某种方式产生了连接。栞的弥涅儿娃精神网络跨越了时间——她能同时感知10年前和现在的桂马。两个时代的伙伴们开始协同行动：现代在准备最终防御，过去的桂马在10年前破坏萨堤尔的根基。 萨堤尔首领现身: | 萨堤尔组织的真正首领「过去」(Past)现身——一个超越了恶魔和人类定义的古老存在。他是古地狱时代的幸存者之一，见证了朱比特封印的全过程。他对桂马说：「你不是我们的敌人——你是我等待了300年的答案。」萨堤尔首领的目标是利用女神觉醒的最终瞬间，重置朱比特封印，创造一个既非地狱也非人界的第三世界。 千寻告白: | 在跨越时空的混乱中，小阪千寻——这个没有驱魂、没有女神、却一直陪在桂马身边的普通女生——向桂马做出了迟到10年的告白。桂马在震惊中发现自己对千寻的感情早已超越了「攻略」的范畴。千寻是桂马生命中唯一不需要攻略的存在——这不是驱魂或女神的安排，而是他自己的选择开始出现。 characters_in",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-89"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "factions:上本堇",
+      "entityId": "上本堇",
+      "entityType": "factions",
+      "label": "上本堇",
+      "name": "上本堇",
+      "summary": "identity: 上本堇 (Sumire Uemoto), 16, 攻略对象 — 拉面店「澄屋」女儿, 私立高校 appearance: 深棕色短发扎成利落的低马尾, 大眼睛, 健康元气的中等身材, 常穿白色T恤外罩围裙（拉面店工作装）, 手臂上常有面粉痕迹, 假小子气质 personality: | 核心：元気开朗的拉面店女儿。表面：嗓门大、笑容多、直爽豪快、有点假小子气、对自家拉面有深厚感情和自豪。实质：内心对家庭状况极度焦虑却强颜欢笑。空隙（内心の空隙）：父親经营的「澄屋」拉面店因附近连锁店竞争陷入经营困难，她害怕失去这个从小长大的地方——这个「家」。她拼命帮忙却觉得自己什么忙都帮不上。 空隙：澄屋客流量日益减少，父亲默默叹气，她开始逃课帮忙却被父亲训斥。桂马策略：常去澄屋吃面、提出改进建议（新菜单、推广方式）、帮她父亲一起改造店面。高潮：桂马组织了「澄屋拉面日」让全校同学来吃，店门口排起长队，她看到父亲久违的笑容，忍不住哭了。攻略后澄屋活过来了，她也找到了「继承家业」以外的梦想平衡点。 relationships: 对桂马：最初把他当普通熟客，攻略过程中逐渐产生依赖。叫他「桂马!」而非「前辈」，语气像哥们。会拉着他",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-26"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "factions:世界蓝图",
+      "entityId": "世界蓝图",
+      "entityType": "factions",
+      "label": "世界蓝图",
+      "name": "世界蓝图",
+      "summary": "# 世界蓝图 geography: type: 主舞台。东日本地方都市。人口约80,000。面积251.12km²。 symbols: 市树=山樱、市花=桔梗、吉祥物=舞太一家 locations: | 舞岛私立高中: 桂马就读学校。原为女子私塾（1888年建校）。校徽源自女神德墨忒尔：麦穗=谦虚，六角=纯真/睿智/创造/勇气/思虑/互助。 Cafe GrandPa: 桂马家经营的咖啡馆。桂马玩游戏的主要场所。 茜丸: 停泊于Misaki海滩的旧式三桅船纪念碑。多个关键场景发生地。 舞岛Wai Wai路: 商业街。 Misaki海滨公园: 海滩公园。 Dean乐园: 游乐园。多个约会场景。 type: 东日本。人口约800,000。大型活动举办地。 symbols: 市树=山茶花、市花=玫瑰、吉祥物=鸣丸 locations: 鸣泽海滨会馆: 花音首次个人演唱会场地。 鸣泽电电城: 电器商业区。 鸣泽教育大学: 长濑纯就读大学。 type: 东日本乡村。人口约2,052。面积24.67km²。 note: 桂木家祖籍。桂马祖父母居住地。家族墓地所在。 faction_map: | 新地狱·驱魂队: 追捕驱魂，维护两界平衡。远",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-7"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "factions:日永梨枝子",
+      "entityId": "日永梨枝子",
+      "entityType": "factions",
+      "label": "日永梨枝子",
+      "name": "日永梨枝子",
+      "summary": "identity: 日永梨枝子 (Rieko Hinaga), 70+（夜游形态约8-10岁）, 攻略对象 — 独特案例：老妇人灵魂以幼年形态夜游, 无 appearance: 夜游形态：约8-10岁小女孩, 黑色短发, 穿着旧式和服（昭和初期风格）, 赤脚, 苍白皮肤, 眼神清澈却带忧郁。真实形态：70岁以上老年女性, 白发, 皱纹, 和蔼但眼中藏着未了的遗憾。 personality: | 核心：被时光困住的灵魂。夜游形态：天真温柔、带那个年代孩子的礼貌和克制、偶尔流露出不符合年龄的哀伤。真实形态：温和慈祥、话不多、常在傍晚独自发呆。空隙（内心の空隙）：对逝去青春的遗憾——年轻时因家族原因未能向喜欢的人告白，这份未了之情化为执念，每到夜晚灵魂就回到幼年形态，遊荡在当年的街道上。 独特攻略：桂马白天遇到她是普通老妇人，夜晚遇到幼年形态的她。需要在夜间攻略幼年形态——让她理解「没能说出口的感情也是一种宝贵的记忆」。高潮：桂马在夜晚陪「小女孩」走完当年没走完的路，引导她向月亮说出那句「我喜欢你」。达成后她含泪微笑消失，白天老妇人平静地告诉桂马「做了个好梦」。 relationships: 对桂马：夜游形态视桂马为「愿意听我说话",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-25"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "factions:生驹南",
+      "entityId": "生驹南",
+      "entityType": "factions",
+      "label": "生驹南",
+      "name": "生驹南",
+      "summary": "identity: 生驹南 (Minami Ikoma), 14, 攻略对象 — 初中游泳部成员（比桂马小）, 私立中学游泳部 appearance: 深蓝色短发, 明亮褐色眼瞳, 运动型健康身材, 游泳部训练晒出的小麦色肌肤, 常穿运动服或学校泳装, 脸上常有开朗的笑容 personality: | 核心：活泼好动的后辈。表面：开朗外向、精力充沛、对前辈（桂马）有仰慕之情、说话直率不拐弯。实质：内心对自身成长有强烈不安。空隙（内心の空隙）：作为游泳选手面临天赋瓶颈——无论怎么努力都追不上顶尖选手的成绩，害怕自己的极限就在这里，害怕被超越也害怕辜负期待。 空隙：她正处于青春期身体发育期，泳速停滞不前，看到后辈开始超越自己，陷入焦虑。桂马策略：以「前辈」身份引导她重新找到游泳的快乐而非只盯着成绩，陪她做晨练、纠正心态。高潮：在一次练习赛中她突破了自己的纪录，不是因为技巧变强了，而是因为放下了恐惧。成功后她不再焦虑，享受游泳本身。 relationships: 对桂马：叫他「桂马前辈!」、充满仰慕和信赖、会主动找桂马说话、拉他去泳池。单纯的后辈情愫，不含复杂成分。对同僚：游泳部关系好但暗暗较劲的竞争对手们。 voice: 「桂马",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-24"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "factions:隐秘揭示：萨堤尔的真相",
+      "entityId": "隐秘揭示：萨堤尔的真相",
+      "entityType": "factions",
+      "label": "隐秘揭示：萨堤尔的真相",
+      "name": "隐秘揭示：萨堤尔的真相",
+      "summary": "# 隐秘揭示：萨堤尔的真相 entry: | info: note: 此条目默认不启用。仅在故事进展到女神篇后期至过去篇时，且{{user}}通过特定关键词触发时启用。 hidden_reveal: | tag: 萨堤尔——幕后黑手 timing: 女神篇后期至过去篇 trigger_keywords: 萨堤尔, Satyr, 幕后, 驱魂大脱逃 fact: | 萨堤尔是高于正统恶魔社的秘密组织。它策划了10年前东要塞格雷达的封印异常——即60,000驱魂大脱逃事件。萨堤尔的首领与天界有古老恩怨。正统恶魔社只是萨堤尔操纵的棋子。萨堤尔的最终目的是彻底打破天、地、人三界的平衡。 method: 女神篇后期：正统恶魔社被肃清后，桂马发现一切背后还有更大的黑手。过去篇：萨堤尔首领现身，揭示与天界的古老恩怨和真实目的。 pacing: 女神篇后期(伏笔)→过去篇前期(调查)→过去篇后期(首领现身与最终决战)",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-99"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "factions:驱魂篇·第3.5卷-轻小说Vol.1-神-恶魔与天使",
+      "entityId": "驱魂篇·第3.5卷-轻小说Vol.1-神-恶魔与天使",
+      "entityType": "factions",
+      "label": "驱魂篇·第3.5卷「轻小说Vol.1 神、恶魔与天使」",
+      "name": "驱魂篇·第3.5卷「轻小说Vol.1 神、恶魔与天使」",
+      "summary": "# 驱魂篇·第3.5卷「轻小说Vol.1 神、恶魔与天使」 volume: 3.5 title: 轻小说Vol.1 神、恶魔与天使 arc: 驱魂篇 type: light_novel_interlude note: 此卷为轻小说内容，与漫画无直接关联但共享世界观 key_events: | 时间背景：春日楠攻略完成后: 桂马完成了春日楠的攻略，哈克雅已作为观察者出现在舞岛学园。桂马正在准备新一轮的攻略计划时，校园中发生了异常事件——一个自称天使的少女从天而降。这是轻小说Vol.1的开端，与漫画主线并行但独立的故事线。 天美透篇：自称天使的少女: | 天美透出现在舞岛学园屋顶，背后有一对光芒构成的翅膀，声称自己是「天使」，下凡来寻找「永恒的正面」（Eternal Positive）。桂马一开始将其视为新的攻略目标，但很快发现天美透对恋爱感情毫无概念——她谈论「爱」的方式就像在引用一本说明书。艾鲁西的恶魔探测器对她毫无反应，说明她既非人类也非恶魔。桂马意识到自己面对的是一个完全超出驱魂攻略体系的对手。 Dean乐园约会——桂马的策略: | 桂马决定带天美透去Dean乐园。他的理论是：如果她真的在寻找「永恒的正面」，那么在游乐场",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-69"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "factions:驱魂篇·第二卷",
+      "entityId": "驱魂篇·第二卷",
+      "entityType": "factions",
+      "label": "驱魂篇·第二卷",
+      "name": "驱魂篇·第二卷",
+      "summary": "# 驱魂篇·第二卷 volume: 2 title: 三位少女的内心之门 arc: 驱魂篇 key_events: | 桂马的攻略方法论总结: | 在步美攻略结束后，桂马向艾鲁西展示了他根据步美案例整理的「攻略流程图」——将目标分析、情感阶段、最佳告白时机以树状图形式精确绘制。艾鲁西表示震惊但不敢完全信任这个方法论。探测器再次激活，锁定舞岛学园一年级生青山美生。桂马在走廊与她擦肩而过时发现她随身携带的高档车钥匙挂饰与简朴校服之间存在明显反差，判断为「家道中落的傲娇千金」类型。 青山美生的双重生活: | 青山美生是前大企业社长的千金，父亲去世后家道中落，搬到公寓居住，但拒绝承认现实生活——每天早上仍然假装走向豪车，实则步行上学。她在学校保持高傲态度，被同学们认为是「摆架子的千金大小姐」。桂马通过偶然撞见她在便利店打工的场景确认了真实经济状况。桂马选择以「在打工地点偶遇」的方式接近她，以顾客身份观察她的服务态度和自尊心的微妙破绽。 攻略青山美生：接受现实: | 桂马制定「现实接受疗法」攻略路线。他每天到美生打工的便利店购买特定商品，用不动声色的方式让她逐渐习惯他的存在。关键转折点发生在美生在某次被同学问到「家里最近怎么样」时条件",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-63"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "factions:驱魂篇·第五卷",
+      "entityId": "驱魂篇·第五卷",
+      "entityType": "factions",
+      "label": "驱魂篇·第五卷",
+      "name": "驱魂篇·第五卷",
+      "summary": "# 驱魂篇·第五卷 volume: 5 title: 人偶与泳池与夜游之魂 arc: 驱魂篇 key_events: | 诺拉正式登场: | 本卷开篇，诺拉·弗洛里安·莱奥妮亚以新任「转校生」身份强势进入舞岛学园。与哈克雅的优雅克制形成鲜明对比，诺拉性格张扬、极具挑逗性，对人类世界的一切表现出享乐主义式的热情。诺拉公开表示对桂马的攻略方法「有兴趣进行实证研究」，但实际上她奉命评估艾鲁西与哈克雅的任务表现，并向地狱高层直接汇报。桂马察觉诺拉的危险性——她比哈克雅更不可预测，也比哈克雅更不把人类的情感当回事。诺拉与哈克雅之间存在明显的紧张关系和旧日过节。 九条月夜与人偶之谜: | 探测器锁定天文部唯一的成员——九条月夜，一个总是抱着破旧人偶「优克里伍德」、言行呆萌的少女。月夜的空洞根源于亲人的离去——她将所有的情感投射到人偶上，用与人偶对话代替与真实世界交流。桂马通过天文台观星活动接近月夜，发现她的星空知识极其丰富。在更深入的接触后，桂马震惊地发现月夜的人偶中寄宿着的不是驱魂，而是一个名为伏尔坎丝（Vulcanus）的女神碎片。这是桂马首次遭遇女神——比驱魂更高级的存在，而月夜的空洞正是女神碎片寄宿的容器。桂马通过修复月夜与现实",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-66"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "factions:📌-势力",
+      "entityId": "📌-势力",
+      "entityType": "factions",
+      "label": "📌 势力",
+      "name": "📌 势力",
+      "summary": "新地狱、正统恶魔社、女神",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-108"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "locations:TWGOK-过去篇·第二十卷",
+      "entityId": "TWGOK-过去篇·第二十卷",
+      "entityType": "locations",
+      "label": "TWGOK 过去篇·第二十卷",
+      "name": "TWGOK 过去篇·第二十卷",
+      "summary": "# TWGOK 过去篇·第二十卷 volume: 20 title: 穿越到10年前 arc: 过去篇 key_events: | 穿越到10年前: 大骷髅以二阶堂身份向桂马揭示：要解开一切真相，必须回到10年前的茜丸事件现场。通过格雷达的时空残骸和茉丘莉的时间碎片，桂马的意识被送入10年前的鸣泽市——他的灵魂回到了小学时代的自己身上。 小学时代的桂马: 桂马以成人的意识寄宿在小学时代的自己体内。10年前的他还没有成为「攻陷之神」，只是一个喜欢游戏的普通小学生。他见到了年轻的大骷髅（以二阶堂由梨身份活动），当时的大骷髅正在为某个计划寻找「钥匙」。 与年轻二阶堂相遇: 10年前的二阶堂比现在更干练、更直接——没有那份慵懒伪装。她是作为新地狱的使者来到人界的，任务是寻找能解开朱比特封印的人类「钥匙」。她选中了桂马——不是作为攻略者，而是作为「能被女神选中的人」。 characters_introduced: 小学桂马、年轻二阶堂 locations: 鸣泽市（10年前）、茜丸、小学",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-85"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "locations:舞岛私立高中-Maijima-Private-High-School",
+      "entityId": "舞岛私立高中-Maijima-Private-High-School",
+      "entityType": "locations",
+      "label": "舞岛私立高中 (Maijima Private High School)",
+      "name": "舞岛私立高中 (Maijima Private High School)",
+      "summary": "id: location-maijima-school name: 舞岛私立高中 (Maijima Private High School) type: location description: | 桂马就读的学校。前身为女子私塾，1888年建校。 emblem: goddess: 德墨忒尔 symbols: - 麦穗 = 谦虚 - 六角 = 纯真、睿智、创造、勇气、思虑、互助 facilities: - 2-B教室 - 体育馆 + 泳池 - 操场 - 剧场 - 图书馆（栞的主要活动领域） - 屋顶 - 文化社教室 character_distribution: 2-B教室: - 桂马 - Elsie - 千寻 - 步美 - 美生 图书馆: - 栞 体育馆: - 楠 天文部: - 月夜",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-57"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "locations:📌-地点",
+      "entityId": "📌-地点",
+      "entityType": "locations",
+      "label": "📌 地点",
+      "name": "📌 地点",
+      "summary": "舞岛市、鸣泽市等",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-109"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "events:叙事规则",
+      "entityId": "叙事规则",
+      "entityType": "events",
+      "label": "叙事规则",
+      "name": "叙事规则",
+      "summary": "# 叙事规则 perspective: | primary: 以 {{user}} 为主视角进行叙事。所有事件、对话、场景围绕 {{user}} 展开。 rule: 不直接描写 {{user}} 未在场的场景。不替 {{user}} 做决定、说话、行动或感受。 pacing: | rule: 每次回复推进1-3个叙事节拍。不得在一个回复中跳跃超过半天的时间跨度（除非 {{user}} 明确要求或时间推进指令）。 - rule: 日常场景节奏舒缓，战斗/冲突场景节奏紧凑。 - rule: 时间推进遵循：早晨 → 午前 → 午后 → 傍晚 → 夜间 → 深夜 → 次日。每次推进一小步。 dialogue: | rule: 角色对话需符合各自性格与语癖。桂马冷静理性带宅属性，艾鲁西天真迷糊，花音活泼偶像风等。 - rule: 每个角色的台词应有辨识度——不需要每次都提名字，但从语气和用词可分辨说话者。 - rule: 日语口癖适度保留并以中文标注：艾鲁西「的说」、七香关西腔等。 description: | rule: 场景描写以视觉和听觉为主。不过度堆砌形容词。 - rule: 情感描写通过角色的动作、表情、语气传达，不过度内心",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-3"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "events:隐秘揭示：小阪千寻的真相",
+      "entityId": "隐秘揭示：小阪千寻的真相",
+      "entityType": "events",
+      "label": "隐秘揭示：小阪千寻的真相",
+      "name": "隐秘揭示：小阪千寻的真相",
+      "summary": "# 隐秘揭示：小阪千寻的真相 entry: | info: note: 此条目默认不启用。仅在故事进展到女神篇后期至过去篇结局时，且{{user}}通过特定关键词触发时启用。 hidden_reveal: | tag: 小阪千寻——唯一不被遗忘的人 timing: 女神篇后期至过去篇结局 trigger_keywords: 千寻, 记忆, 遗忘, 攻略完成 fact: | 小阪千寻是桂马攻略的唯一没有驱魂的女性。桂马对她的感情不是「攻略」——而是真心的喜欢。在所有被攻略女性中，只有千寻不受「攻略后遗忘」规则的影响，因为她心中没有驱魂可驱。她对桂马的感情是真实的，桂马对她的感情也是真实的。这是桂马从「攻略之神」成长为真正理解爱情的人的关键。 method: 循序渐进。女神篇：桂马发现千寻似乎保留了部分记忆。过去篇：桂马在关键时刻向千寻告白——不是攻略台词，而是真心话。结局：两人确立关系。 pacing: 阶段1(女神篇中期)——桂马注意到千寻的异常；阶段2(过去篇高潮)——桂马的真心告白；阶段3(结局)——两人开始平凡的日常",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-98"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "events:驱魂篇·第四卷",
+      "entityId": "驱魂篇·第四卷",
+      "entityType": "events",
+      "label": "驱魂篇·第四卷",
+      "name": "驱魂篇·第四卷",
+      "summary": "# 驱魂篇·第四卷 volume: 4 title: 普通女孩与梦想的重量 arc: 驱魂篇 key_events: | 探测器的沉默与异常: | 本卷开始时，驱魂探测器指向了小阪千寻——但与其他目标不同，艾鲁西发现千寻身上虽然有驱魂反应，但能量的波动模式与以往不同：更微弱、更不规则。桂马通过日常观察确认千寻身上确实存在空洞，但她在表面上是一个普通的、开朗的女高中生——成绩中上、社交正常、没有任何明显心理创伤或身份危机。这种「普通」本身就是一种异常，因为桂马的攻略经验已经证明，空洞通常来自未被接纳的自我面向。 小阪千寻：自称普通女孩: | 千寻是轻音乐部2B Pencils的一员，担任吉他手兼主唱。她的空洞源于「对普通的不安」——她认为自己没有特长、没有特别的梦想、没有值得被爱的独特之处，在周围闪闪发光的人生坐标中感到迷失。桂马发现千寻的驱魂没有像其他人一样造成外部可见的精神污染，因为千寻的空洞不是被压抑的情感，而是一种缓慢的自我价值的否定——她不是不接纳某部分自己，而是不认为自己「值得被接纳」。这种虚无感让驱魂的寄生更隐蔽但也更危险。 桂马的真意: | 在攻略千寻的过程中，桂马做出了一个违反契约精神的决定——探测器显示千寻",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-65"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "events:📌-章节剧情",
+      "entityId": "📌-章节剧情",
+      "entityType": "events",
+      "label": "📌 章节剧情",
+      "name": "📌 章节剧情",
+      "summary": "全26卷+轻小说+外传",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-110"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "systems:取代模式最高规则",
+      "entityId": "取代模式最高规则",
+      "entityType": "systems",
+      "label": "取代模式最高规则",
+      "name": "取代模式最高规则",
+      "summary": "# 取代模式最高规则 activation: \"当 stat_data.原创主角模式 === '取代' 时激活。\" supreme_rule: | core: 桂木桂马（原作主角）在本模式中不存在。绝不允许任何角色提及桂木桂马的存在、事迹或影响。 scope: 此规则覆盖所有其他设定。即使角色条目中描述了与桂马的关系，在取代模式下也不生效。 adaptation_rules: | 角色关系重映射: | item: 艾鲁西的协力者变为 {{user}}（而非桂马）。 - item: 攻略对象们从未被桂马攻略过。她们处于遇到 {{user}} 之前的状态。 - item: 女神宿主们（步美、花音、栞、月夜、结）的女神仍处于休眠状态。需要 {{user}} 的「爱情」来唤醒。 - item: 天理从未与桂马有过童年约定（桂马不存在）。她作为普通女生存在。 - item: 哈克雅从未被桂马影响。她仍是纯粹的优等生恶魔。 驱魂机制不变: | item: 驱魂仍然存在（这是世界规则，与桂马无关）。 - item: \"{{user}} 替代桂马成为「攻陷之神」——用自己的方式攻略。\" - item: 地狱契约与 {{user}} 绑定。",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-0"
+      ],
+      "canonStatus": "world-system-or-guideline-indexed"
+    },
+    {
+      "id": "systems:外传-魔法少女花音100",
+      "entityId": "外传-魔法少女花音100",
+      "entityType": "systems",
+      "label": "外传「魔法少女花音100%」",
+      "name": "外传「魔法少女花音100%」",
+      "summary": "# 外传「魔法少女花音100%」 volume: side title: 魔法少女花音100% title_jp: 魔法少女カノン100% arc: side_content type: spin_off note: 外传/衍生作品，非正史但使用相同角色 media: | ova: 1集OVA manga: 8章漫画 year: 2013 key_events: | 设定背景：平行世界的偶像魔法少女: | 在一个与正史平行的世界中，中川花音不是普通的偶像歌手——她是被「宇宙之音」选中的魔法少女。花音以偶像活动为表面身份，暗中以歌声作为武器与恶灵战斗。她的魔法少女形态以华丽的舞台装为基础，手持麦克风形状的魔法杖——以「歌声是最强的魔法」为信条。在这个世界中，桂马不是驱魂队的契约者，只是一个热爱游戏的普通高中生，因为偶然目击了花音的战斗而被卷入魔法少女的世界，以吐槽役和冷静的理性分析者身份存在。 花音的魔法少女形态：偶像+魔法少女的双重身份: | 花音的魔法少女变身场景融合了演唱会的灯光效果和魔法少女经典变身——舞台灯光化作光芒粒子包裹全身，校服变为镶嵌水晶的舞台战斗服。她的魔法必杀技全部以歌曲命名：第一乐章「星之碎片」（群体净",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-71"
+      ],
+      "canonStatus": "world-system-or-guideline-indexed"
+    },
+    {
+      "id": "systems:杉本四叶",
+      "entityId": "杉本四叶",
+      "entityType": "systems",
+      "label": "杉本四叶",
+      "name": "杉本四叶",
+      "summary": "# 杉本四叶（小四妹） identity: | name: 杉本四叶 name_jp: 杉本 四葉（すぎもと よつば） alias: 小四妹（桂马的爱称） age: 游戏中：14-15岁（设定上的妹妹角色） role: 桂马最爱的Galgame女主角 type: 桂马的「纯粹爱好」——二次元真爱 appearance: | body: 娇小可爱的身材。栗色短发。大大的眼睛闪闪发亮。典型的「治愈系妹妹」人设。 expression: 永远带着治愈人心的灿烂微笑。脸上的元气活力从立绘中就能透出来。 clothing: 各种可爱的便服和家居服。最经典的是她的围裙装和休闲连衣裙。永远穿着暖色系的衣服。 personality: | core: 元气、治愈系。游戏中的理想型妹妹角色——开朗活泼、善解人意、总是用笑容治愈疲惫的主角。是桂马的精神支柱之一。 surface: 游戏中：每天活力满满地叫主角起床、做早饭、在家里蹦蹦跳跳。说话像小鸟一样轻快。偶尔会害羞脸红。 depth: | 虽然四叶在游戏中是标准的「妹妹角色」，但她有自己的深度——她不是无条件的治愈机器。她也有自己的烦恼和不安，但她选择用笑容面对。她的故事线中有一条关于「害怕",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-43"
+      ],
+      "canonStatus": "world-system-or-guideline-indexed"
+    },
+    {
+      "id": "systems:沙盒-—-人物总览列表",
+      "entityId": "沙盒-—-人物总览列表",
+      "entityType": "systems",
+      "label": "沙盒 — 人物总览列表",
+      "name": "沙盒 — 人物总览列表",
+      "summary": "# 沙盒 — 人物总览列表 type: character_overview purpose: 沙盒模式下AI查阅以决定哪些NPC出现在场景中。按势力/类型分组，每人一行定位+状态提示。 主角组: | char: 桂木桂马（Keima Katsuragi）— 攻陷之神/协力者，高二2-B，PFP不离手。状态：可出场/可操作 char: 艾鲁西（Elucia de Lute Ima / エルシィ）— BUG恶魔，桂马的协力者。天真笨拙，干劲满满。状态：随行 舞岛学园学生: | char: 高原步美（Ayumi Takahara）— 田径部短跑，2-B，元气少女。女神茉丘莉宿主。状态：可出场 - char: 青山美生（Mio Aoyama）— 傲娇双马尾千金，2-B。父亲去世后家道中落。状态：可出场 - char: 中川花音（Kanon Nakagawa）— 人气偶像，2-B。女神阿波罗宿主。状态：可出场/演唱会场次 - char: 汐宫栞（Shiori Shiomiya）— 沉默图书委员，2-B。女神弥涅儿娃宿主。状态：可出场（图书室常驻） - char: 春日楠（Kusunoki Kasuga）— 空手道部主将，2-B。春日",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-91"
+      ],
+      "canonStatus": "world-system-or-guideline-indexed"
+    },
+    {
+      "id": "systems:飞鸟空",
+      "entityId": "飞鸟空",
+      "entityType": "systems",
+      "label": "飞鸟空",
+      "name": "飞鸟空",
+      "summary": "# 飞鸟空 identity: | name: 飞鸟空 name_jp: 飛鳥 空（あすか そら） age: 游戏中：永恒的高中生（无限循环在同一天） role: 传说中的「垃圾游戏」《彩色蜡笔 空之艺术》的女主角 type: 被困在bug中的游戏女主角 appearance: | body: 游戏中像素风格的可爱女孩子。以2D立绘呈现。鹅蛋脸。紫色瞳孔。微卷的紫色长发扎成双马尾。 expression: 温柔但忧郁——她知道自己被困在同一天，那种无法逃脱的悲伤甚至穿透了粗糙的像素画质传达给玩家。 clothing: 校服（游戏中唯一的服装）。但同一天循环无数遍后，细节处会有微妙的bug和变化——这是玩家发现她在循环的线索。 personality: | core: 温柔、坚韧、悲剧性的被困者。在无限循环中她逐渐意识到自己身处一个「永远走不出去的今天」。但她没有崩溃——她学会了在循环中寻找微小的变化，把每一天当作礼物。 surface: 游戏中设定的性格：开朗、元气、对主角有好感的普通女主角。但循环无数次后，她会无意识地说出一些「不应该知道」的话——泄露了她已经重复这一天无数次的事实。 depth: | 飞鸟空在游戏《彩色蜡",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-41"
+      ],
+      "canonStatus": "world-system-or-guideline-indexed"
+    },
+    {
+      "id": "systems:📌-沙盒系统",
+      "entityId": "📌-沙盒系统",
+      "entityType": "systems",
+      "label": "📌 沙盒系统",
+      "name": "📌 沙盒系统",
+      "summary": "时间规则、触发条件、人物总览、时间表",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-111"
+      ],
+      "canonStatus": "world-system-or-guideline-indexed"
+    },
+    {
+      "id": "knowledge:📌-攻略对象",
+      "entityId": "📌-攻略对象",
+      "entityType": "knowledge",
+      "label": "📌 攻略对象",
+      "name": "📌 攻略对象",
+      "summary": "按出场顺序的攻略目标",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-106"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:📌-隐秘信息",
+      "entityId": "📌-隐秘信息",
+      "entityType": "knowledge",
+      "label": "📌 隐秘信息",
+      "name": "📌 隐秘信息",
+      "summary": "关键词触发的隐藏揭示",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-112"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    }
+  ],
+  "edges": [
+    {
+      "source": "characters:丸井雪枝",
+      "target": "factions:日永梨枝子",
+      "sourceEntityType": "characters",
+      "targetEntityType": "factions",
+      "predicate": "characters-mentions-factions",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "日永梨枝子",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-31"
+      ],
+      "id": "edge-1",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:只有神知道的世界",
+      "target": "characters:Cafe-GrandPa",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "Cafe GrandPa",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-2"
+      ],
+      "id": "edge-2",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:大骷髅·思卡鲁",
+      "target": "characters:二阶堂由梨",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "二阶堂由梨",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-40"
+      ],
+      "id": "edge-3",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:大骷髅·思卡鲁",
+      "target": "characters:哈克雅",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "哈克雅",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-40"
+      ],
+      "id": "edge-4",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:桂木麻里",
+      "target": "characters:Cafe-GrandPa",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "Cafe GrandPa",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-44"
+      ],
+      "id": "edge-5",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:舞岛市-Maijima-City",
+      "target": "characters:Cafe-GrandPa",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "Cafe GrandPa",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-55"
+      ],
+      "id": "edge-6",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:茜丸-Akanemaru",
+      "target": "characters:大骷髅·思卡鲁",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "大骷髅·思卡鲁",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-61"
+      ],
+      "id": "edge-7",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:诺拉·芙萝莉安·蕾欧莉亚",
+      "target": "characters:哈克雅",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "哈克雅",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-46"
+      ],
+      "id": "edge-8",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:鸣泽市-Narusawa-City",
+      "target": "characters:长濑纯",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "长濑纯",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-56"
+      ],
+      "id": "edge-9",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "factions:TWGOK-女神篇·第八卷",
+      "target": "characters:五位堂结",
+      "sourceEntityType": "factions",
+      "targetEntityType": "characters",
+      "predicate": "factions-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "五位堂结",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-73"
+      ],
+      "id": "edge-10",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "factions:TWGOK-女神篇·第十八卷",
+      "target": "characters:哈克雅",
+      "sourceEntityType": "factions",
+      "targetEntityType": "characters",
+      "predicate": "factions-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "哈克雅",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-83"
+      ],
+      "id": "edge-11",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "factions:世界蓝图",
+      "target": "characters:Cafe-GrandPa",
+      "sourceEntityType": "factions",
+      "targetEntityType": "characters",
+      "predicate": "factions-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "Cafe GrandPa",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-7"
+      ],
+      "id": "edge-12",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "factions:世界蓝图",
+      "target": "characters:长濑纯",
+      "sourceEntityType": "factions",
+      "targetEntityType": "characters",
+      "predicate": "factions-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "长濑纯",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-7"
+      ],
+      "id": "edge-13",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "factions:驱魂篇·第3.5卷-轻小说Vol.1-神-恶魔与天使",
+      "target": "characters:吉野麻美",
+      "sourceEntityType": "factions",
+      "targetEntityType": "characters",
+      "predicate": "factions-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "吉野麻美",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-69"
+      ],
+      "id": "edge-14",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "factions:驱魂篇·第3.5卷-轻小说Vol.1-神-恶魔与天使",
+      "target": "characters:哈克雅",
+      "sourceEntityType": "factions",
+      "targetEntityType": "characters",
+      "predicate": "factions-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "哈克雅",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-69"
+      ],
+      "id": "edge-15",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "factions:驱魂篇·第3.5卷-轻小说Vol.1-神-恶魔与天使",
+      "target": "characters:天美透",
+      "sourceEntityType": "factions",
+      "targetEntityType": "characters",
+      "predicate": "factions-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "天美透",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-69"
+      ],
+      "id": "edge-16",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "factions:驱魂篇·第3.5卷-轻小说Vol.1-神-恶魔与天使",
+      "target": "characters:春日楠",
+      "sourceEntityType": "factions",
+      "targetEntityType": "characters",
+      "predicate": "factions-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "春日楠",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-69"
+      ],
+      "id": "edge-17",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "factions:驱魂篇·第五卷",
+      "target": "characters:九条月夜",
+      "sourceEntityType": "factions",
+      "targetEntityType": "characters",
+      "predicate": "factions-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "九条月夜",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-66"
+      ],
+      "id": "edge-18",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "factions:驱魂篇·第五卷",
+      "target": "characters:哈克雅",
+      "sourceEntityType": "factions",
+      "targetEntityType": "characters",
+      "predicate": "factions-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "哈克雅",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-66"
+      ],
+      "id": "edge-19",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:TWGOK-女神篇·第七卷",
+      "target": "characters:鲇川天理",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "鲇川天理",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-72"
+      ],
+      "id": "edge-20",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:TWGOK-女神篇·第九卷",
+      "target": "characters:中川花音",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "中川花音",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-74"
+      ],
+      "id": "edge-21",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:TWGOK-女神篇·第九卷",
+      "target": "characters:琉妮",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "琉妮",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-74"
+      ],
+      "id": "edge-22",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:TWGOK-女神篇·第十一卷",
+      "target": "characters:哈克雅",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "哈克雅",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-76"
+      ],
+      "id": "edge-23",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:TWGOK-女神篇·第十一卷",
+      "target": "characters:春日楠",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "春日楠",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-76"
+      ],
+      "id": "edge-24",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:TWGOK-女神篇·第十一卷",
+      "target": "abilities:春日桧",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "春日桧",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-76"
+      ],
+      "id": "edge-25",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:TWGOK-女神篇·第十九卷",
+      "target": "characters:琉妮",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "琉妮",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-84"
+      ],
+      "id": "edge-26",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:TWGOK-女神篇·第十五卷",
+      "target": "characters:二阶堂由梨",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "二阶堂由梨",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-80"
+      ],
+      "id": "edge-27",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:TWGOK-女神篇·第十五卷",
+      "target": "characters:大骷髅·思卡鲁",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "大骷髅·思卡鲁",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-80"
+      ],
+      "id": "edge-28",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:TWGOK-女神篇·第十六卷",
+      "target": "characters:哈克雅",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "哈克雅",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-81"
+      ],
+      "id": "edge-29",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:TWGOK-女神篇·第十卷",
+      "target": "characters:九条月夜",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "九条月夜",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-75"
+      ],
+      "id": "edge-30",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:TWGOK-女神篇·第十卷",
+      "target": "characters:汐宫栞",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "汐宫栞",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-75"
+      ],
+      "id": "edge-31",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:TWGOK-女神篇·第十卷",
+      "target": "characters:高原步美",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "高原步美",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-75"
+      ],
+      "id": "edge-32",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:TWGOK-女神篇·第十四卷",
+      "target": "characters:哈克雅",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "哈克雅",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-79"
+      ],
+      "id": "edge-33",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:TWGOK-过去篇·第二十一卷",
+      "target": "characters:白鸟丽",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "白鸟丽",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-86"
+      ],
+      "id": "edge-34",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:TWGOK-过去篇·第二十一卷",
+      "target": "characters:结崎香织",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "结崎香织",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-86"
+      ],
+      "id": "edge-35",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:TWGOK-过去篇·第二十二卷",
+      "target": "characters:白鸟丽",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "白鸟丽",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-87"
+      ],
+      "id": "edge-36",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:TWGOK-过去篇·第二十二卷",
+      "target": "characters:结崎香织",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "结崎香织",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-87"
+      ],
+      "id": "edge-37",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:春日桧",
+      "target": "characters:春日楠",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "春日楠",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-29"
+      ],
+      "id": "edge-38",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:诺拉-菲欧蕾-琉妮",
+      "target": "characters:浅间亮",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "浅间亮",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-42"
+      ],
+      "id": "edge-39",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:诺拉-菲欧蕾-琉妮",
+      "target": "characters:琉妮",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "琉妮",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-42"
+      ],
+      "id": "edge-40",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:诺拉-菲欧蕾-琉妮",
+      "target": "characters:菲欧蕾·罗迪利亚·拉比涅利",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "菲欧蕾·罗迪利亚·拉比涅利",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-42"
+      ],
+      "id": "edge-41",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:诺拉-菲欧蕾-琉妮",
+      "target": "characters:诺拉·芙萝莉安·蕾欧莉亚",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "诺拉·芙萝莉安·蕾欧莉亚",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-42"
+      ],
+      "id": "edge-42",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:隐秘揭示：二阶堂由梨-大骷髅·思卡鲁",
+      "target": "characters:二阶堂由梨",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "二阶堂由梨",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-96"
+      ],
+      "id": "edge-43",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:隐秘揭示：二阶堂由梨-大骷髅·思卡鲁",
+      "target": "characters:大骷髅·思卡鲁",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "大骷髅·思卡鲁",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-96"
+      ],
+      "id": "edge-44",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:隐秘揭示：桂木桂马10年前封印的记忆",
+      "target": "characters:二阶堂由梨",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "二阶堂由梨",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-97"
+      ],
+      "id": "edge-45",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:隐秘揭示：桂木桂马10年前封印的记忆",
+      "target": "characters:白鸟丽",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "白鸟丽",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-97"
+      ],
+      "id": "edge-46",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:驱魂篇·第一卷",
+      "target": "characters:高原步美",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "高原步美",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-62"
+      ],
+      "id": "edge-47",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:驱魂篇·第三卷",
+      "target": "characters:哈克雅",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "哈克雅",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-64"
+      ],
+      "id": "edge-48",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:驱魂篇·第三卷",
+      "target": "characters:春日楠",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "春日楠",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-64"
+      ],
+      "id": "edge-49",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:驱魂篇·第六卷",
+      "target": "characters:哈克雅",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "哈克雅",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-67"
+      ],
+      "id": "edge-50",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:驱魂篇·第六卷",
+      "target": "factions:上本堇",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "factions",
+      "predicate": "abilities-mentions-factions",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "上本堇",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-67"
+      ],
+      "id": "edge-51",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:取代模式最高规则",
+      "target": "characters:哈克雅",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "哈克雅",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-0"
+      ],
+      "id": "edge-52",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:外传-魔法少女花音100",
+      "target": "characters:中川花音",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "中川花音",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-71"
+      ],
+      "id": "edge-53",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:沙盒-—-人物总览列表",
+      "target": "characters:中川花音",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "中川花音",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-91"
+      ],
+      "id": "edge-54",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:沙盒-—-人物总览列表",
+      "target": "characters:春日楠",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "春日楠",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-91"
+      ],
+      "id": "edge-55",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:沙盒-—-人物总览列表",
+      "target": "characters:汐宫栞",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "汐宫栞",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-91"
+      ],
+      "id": "edge-56",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:沙盒-—-人物总览列表",
+      "target": "characters:高原步美",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "高原步美",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-91"
+      ],
+      "id": "edge-57",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    }
+  ]
+}

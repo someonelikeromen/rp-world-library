@@ -1,0 +1,77 @@
+{
+  "schema": "marvel-cinematic-universe-derived-continuity-index-v1",
+  "worldId": "marvel-cinematic-universe",
+  "recordType": "derived-continuity-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "continuityFamilies": [
+    {
+      "continuityFamilyId": "marvel-cinematic-universe-worldbook-derived-continuity",
+      "sourceIndexes": [
+        "events/index.json",
+        "characters/index.json"
+      ],
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "eventNodes": [
+        {
+          "id": "剧情模块：-银河护卫队2-Guardians-of-the-Galaxy",
+          "name": "**剧情模块：《银河护卫队2》 (Guardians of the Galaxy",
+          "sourceRefs": [
+            "漫威电影宇宙-世界书.worldbook.json#entry-119"
+          ]
+        },
+        {
+          "id": "多元宇宙法则：入侵-Incursion",
+          "name": "**多元宇宙法则：入侵 (Incursion)**",
+          "sourceRefs": [
+            "漫威电影宇宙-世界书.worldbook.json#entry-200"
+          ]
+        },
+        {
+          "id": "时间变异管理局",
+          "name": "时间变异管理局",
+          "sourceRefs": [
+            "漫威电影宇宙-世界书.worldbook.json#entry-15"
+          ]
+        },
+        {
+          "id": "第二节：多元宇宙-神圣时间线与变体理论",
+          "name": "**第二节：多元宇宙、神圣时间线与变体理论**",
+          "sourceRefs": [
+            "漫威电影宇宙-世界书.worldbook.json#entry-14"
+          ]
+        },
+        {
+          "id": "经典台词：“你应该…冲着我的头来-”-You-should-have...",
+          "name": "**经典台词：“你应该…冲着我的头来。” (You should have...",
+          "sourceRefs": [
+            "漫威电影宇宙-世界书.worldbook.json#entry-252"
+          ]
+        },
+        {
+          "id": "经典台词：“我是你爸爸”-I'm-your-father-Peter.",
+          "name": "**经典台词：“我是你爸爸” (I'm your father, Peter.)",
+          "sourceRefs": [
+            "漫威电影宇宙-世界书.worldbook.json#entry-249"
+          ]
+        },
+        {
+          "id": "经典梗：“美国翘臀”-America's-Ass",
+          "name": "**经典梗：“美国翘臀” (America's Ass)**",
+          "sourceRefs": [
+            "漫威电影宇宙-世界书.worldbook.json#entry-256"
+          ]
+        }
+      ]
+    },
+    {
+      "continuityFamilyId": "marvel-cinematic-universe-engine-rules-excluded",
+      "sourceIndexes": [
+        "engine-rules/index.json"
+      ],
+      "excludedFromFormalGraph": true,
+      "reason": "Engine rules and status templates are not world facts."
+    }
+  ]
+}

@@ -1,0 +1,390 @@
+{
+  "schema": "compatible-event-graph-v1",
+  "worldId": "black-bullet",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "events": [
+    {
+      "id": "户籍剥夺法",
+      "entityId": "户籍剥夺法",
+      "entityType": "events",
+      "label": "户籍剥夺法",
+      "name": "户籍剥夺法",
+      "summary": "# 户籍剥夺法 核心规则 剥夺所有“受诅之子”的户籍与国籍，使其彻底失去法律保护。 法案影响 生存环境：该法案的通过标志着民警体系中“起始者”的生存环境极度恶化。 社会后果：引发了大规模的民众示威活动，并导致针对受诅之子的暴力处决事件频发。",
+      "sourceRefs": [
+        "qhzd_card.worldbook.json#entry-109"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:户籍剥夺法",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "章节列表",
+      "entityId": "章节列表",
+      "entityType": "events",
+      "label": "<章节列表>",
+      "name": "<章节列表>",
+      "summary": "<章节列表> 第1章 第2章 第3章 第4章 第5章 第6章 第7章 第8章 第9章 第10章 第11章 第12章 第13章 第14章 第15章 第16章 第17章 (原作未完结，请依照剧情去推演新剧情) </章节列表>",
+      "sourceRefs": [
+        "qhzd_card.worldbook.json#entry-134"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:章节列表",
+      "originalEntityType": "events"
+    }
+  ],
+  "edges": [
+    {
+      "source": "章节列表",
+      "target": "第13章",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第13章",
+      "sourceRefs": [
+        "qhzd_card.worldbook.json#entry-134"
+      ],
+      "id": "edge-79",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "characters:第13章",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第14章",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第14章",
+      "sourceRefs": [
+        "qhzd_card.worldbook.json#entry-134"
+      ],
+      "id": "edge-80",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "characters:第14章",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第15章",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第15章",
+      "sourceRefs": [
+        "qhzd_card.worldbook.json#entry-134"
+      ],
+      "id": "edge-81",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "characters:第15章",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第9章",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第9章",
+      "sourceRefs": [
+        "qhzd_card.worldbook.json#entry-134"
+      ],
+      "id": "edge-82",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "characters:第9章",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第10章",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第10章",
+      "sourceRefs": [
+        "qhzd_card.worldbook.json#entry-134"
+      ],
+      "id": "edge-83",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "abilities:第10章",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第11章",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第11章",
+      "sourceRefs": [
+        "qhzd_card.worldbook.json#entry-134"
+      ],
+      "id": "edge-84",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "abilities:第11章",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第3章",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第3章",
+      "sourceRefs": [
+        "qhzd_card.worldbook.json#entry-134"
+      ],
+      "id": "edge-85",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "abilities:第3章",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第4章",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第4章",
+      "sourceRefs": [
+        "qhzd_card.worldbook.json#entry-134"
+      ],
+      "id": "edge-86",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "abilities:第4章",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第6章",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第6章",
+      "sourceRefs": [
+        "qhzd_card.worldbook.json#entry-134"
+      ],
+      "id": "edge-87",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "abilities:第6章",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第7章",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第7章",
+      "sourceRefs": [
+        "qhzd_card.worldbook.json#entry-134"
+      ],
+      "id": "edge-88",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "abilities:第7章",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第8章",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第8章",
+      "sourceRefs": [
+        "qhzd_card.worldbook.json#entry-134"
+      ],
+      "id": "edge-89",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "abilities:第8章",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第16章",
+      "sourceEntityType": "events",
+      "targetEntityType": "factions",
+      "predicate": "events-mentions-factions",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第16章",
+      "sourceRefs": [
+        "qhzd_card.worldbook.json#entry-134"
+      ],
+      "id": "edge-90",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "factions:第16章",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第17章",
+      "sourceEntityType": "events",
+      "targetEntityType": "factions",
+      "predicate": "events-mentions-factions",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第17章",
+      "sourceRefs": [
+        "qhzd_card.worldbook.json#entry-134"
+      ],
+      "id": "edge-91",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "factions:第17章",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第1章",
+      "sourceEntityType": "events",
+      "targetEntityType": "factions",
+      "predicate": "events-mentions-factions",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第1章",
+      "sourceRefs": [
+        "qhzd_card.worldbook.json#entry-134"
+      ],
+      "id": "edge-92",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "factions:第1章",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第5章",
+      "sourceEntityType": "events",
+      "targetEntityType": "factions",
+      "predicate": "events-mentions-factions",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第5章",
+      "sourceRefs": [
+        "qhzd_card.worldbook.json#entry-134"
+      ],
+      "id": "edge-93",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "factions:第5章",
+      "category": "derived-mention"
+    },
+    {
+      "source": "纯血会",
+      "target": "户籍剥夺法",
+      "sourceEntityType": "factions",
+      "targetEntityType": "events",
+      "predicate": "factions-mentions-events",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "户籍剥夺法",
+      "sourceRefs": [
+        "qhzd_card.worldbook.json#entry-65"
+      ],
+      "id": "edge-138",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "factions:纯血会",
+      "graphTarget": "events:户籍剥夺法",
+      "category": "derived-mention"
+    }
+  ]
+}

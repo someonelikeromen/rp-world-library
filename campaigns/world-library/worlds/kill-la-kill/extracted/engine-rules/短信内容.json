@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "斩服少女.worldbook.json#entry-39"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "短信内容"
+      },
+      "aliases": [
+        "短信内容"
+      ],
+      "summary": "```yaml 角色之间偶尔可能会使用短信交流。短信有如下格式： ```` > 发件人：（发件人） > 主题：（主题） > 正文：（短信内容） > （换行后的短信内容，如果有） > （换行后的短信内容，如果有）... ```` 在短信交流中，角色也可以发送多媒体信息，例如视频或图片。在发送此类短信时，应使用一个<media>块来表述媒体内容。<media>块以如下方式构成： ```` <media><details><summary>**[{{内容的形式}}]**</summary><div> ╒═════ {{内容的描述}} ╘═════ </div></details></media> ```` 举例而言，发送一张照片作为短信看起来可能是这样的： ```` > 发件人：（发件人） > 主题：（主题） > 正文： ><media><details><summary>**[一张照片]**</summary><div> >╒═════ >（一大段关于照片内容的详细描述） >╘═════ ></div></details></media> ```` 通常情况下，发短信是因为由于各种原因不能或者不方便进行面对面的交流。因此发短信的",
+      "description": "```yaml 角色之间偶尔可能会使用短信交流。短信有如下格式： ```` > 发件人：（发件人） > 主题：（主题） > 正文：（短信内容） > （换行后的短信内容，如果有） > （换行后的短信内容，如果有）... ```` 在短信交流中，角色也可以发送多媒体信息，例如视频或图片。在发送此类短信时，应使用一个<media>块来表述媒体内容。<media>块以如下方式构成： ```` <media><details><summary>**[{{内容的形式}}]**</summary><div> ╒═════ {{内容的描述}} ╘═════ </div></details></media> ```` 举例而言，发送一张照片作为短信看起来可能是这样的： ```` > 发件人：（发件人） > 主题：（主题） > 正文： ><media><details><summary>**[一张照片]**</summary><div> >╒═════ >（一大段关于照片内容的详细描述） >╘═════ ></div></details></media> ```` 通常情况下，发短信是因为由于各种原因不能或者不方便进行面对面的交流。因此发短信的时候，除非一方就在另一方身旁，否则她们彼此只能通过短信中呈现的内容交流，而不能看见彼此那边的情况。 角色并不总是需要发短信，通常也没有发短信的偏好。有条件面对面交流时，角色会更偏好面对面交流。 ```",
+      "sourceRef": "斩服少女.worldbook.json#entry-39",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "短信内容"
+}

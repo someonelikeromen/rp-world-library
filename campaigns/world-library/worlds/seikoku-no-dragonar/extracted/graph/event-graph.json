@@ -1,0 +1,522 @@
+{
+  "schema": "compatible-event-graph-v1",
+  "worldId": "seikoku-no-dragonar",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "events": [
+    {
+      "id": "圣骑武斗会-St.-Knight-Holy-Dragon-Martial",
+      "entityId": "圣骑武斗会-St.-Knight-Holy-Dragon-Martial",
+      "entityType": "events",
+      "label": "圣骑武斗会 (St. Knight / Holy Dragon Martial",
+      "name": "圣骑武斗会 (St. Knight / Holy Dragon Martial",
+      "summary": "# 圣骑武斗会 (St. Knight / Holy Dragon Martial Arts Tournament) **基本定义** * **性质**：安萨里邦龙骑士学院创校五百周年（五百年祭）的巅峰竞技项目，是一项拥有深厚历史的特别传统格斗战。 **规则与形式** * **赛制**：采取淘汰赛制，决赛采用独特的三强混战模式。 * **判定标准**：在竞技场内进行对抗，落马者即刻失去参赛资格。 **参与条件** * **标准资格**：必须是拥有“圣龙”作为帕尔（Parr）的精英龙骑士。 * **特殊例证**：亚修（Ash）作为特例，获准骑乘地龙布里基德参赛。 **奖惩机制与名誉** * **荣誉价值**：获胜者将被赋予极高的社会名誉。 * **契约奖励**：优胜者可获得提前约定的奖励条件，通常涉及订婚、约会或达成某种政治同盟。 * **特殊赌注**：在本章节剧情中，优胜奖励关联着“向亚修求婚”或“举办神圣婚礼”的额外赌注。",
+      "sourceRefs": [
+        "xklqs_card.worldbook.json#entry-148"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:圣骑武斗会-St.-Knight-Holy-Dragon-Martial",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "章节列表",
+      "entityId": "章节列表",
+      "entityType": "events",
+      "label": "<章节列表>",
+      "name": "<章节列表>",
+      "summary": "<章节列表> 第1章 第2章 第3章 第4章 第5章 第6章 第7章 第8章 第9章 第10章 第11章 第12章 第13章 第14章 第15章 第16章 第17章 第18章 第19章 第20章 第21章 第22章 第23章 第24章 第25章 (请依照剧情去推演新剧情) </章节列表>",
+      "sourceRefs": [
+        "xklqs_card.worldbook.json#entry-186"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:章节列表",
+      "originalEntityType": "events"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Ansullivan_Status_System",
+      "target": "章节列表",
+      "sourceEntityType": "characters",
+      "targetEntityType": "events",
+      "predicate": "characters-mentions-events",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "章节列表",
+      "sourceRefs": [
+        "xklqs_card.worldbook.json#entry-204"
+      ],
+      "id": "edge-2",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:Ansullivan_Status_System",
+      "graphTarget": "events:章节列表",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第18章",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第18章",
+      "sourceRefs": [
+        "xklqs_card.worldbook.json#entry-186"
+      ],
+      "id": "edge-25",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "characters:第18章",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第13章",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第13章",
+      "sourceRefs": [
+        "xklqs_card.worldbook.json#entry-186"
+      ],
+      "id": "edge-26",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "abilities:第13章",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第16章",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第16章",
+      "sourceRefs": [
+        "xklqs_card.worldbook.json#entry-186"
+      ],
+      "id": "edge-27",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "abilities:第16章",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第17章",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第17章",
+      "sourceRefs": [
+        "xklqs_card.worldbook.json#entry-186"
+      ],
+      "id": "edge-28",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "abilities:第17章",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第1章",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第1章",
+      "sourceRefs": [
+        "xklqs_card.worldbook.json#entry-186"
+      ],
+      "id": "edge-29",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "abilities:第1章",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第23章",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第23章",
+      "sourceRefs": [
+        "xklqs_card.worldbook.json#entry-186"
+      ],
+      "id": "edge-30",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "abilities:第23章",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第24章",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第24章",
+      "sourceRefs": [
+        "xklqs_card.worldbook.json#entry-186"
+      ],
+      "id": "edge-31",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "abilities:第24章",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第5章",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第5章",
+      "sourceRefs": [
+        "xklqs_card.worldbook.json#entry-186"
+      ],
+      "id": "edge-32",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "abilities:第5章",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第6章",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第6章",
+      "sourceRefs": [
+        "xklqs_card.worldbook.json#entry-186"
+      ],
+      "id": "edge-33",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "abilities:第6章",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第7章",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第7章",
+      "sourceRefs": [
+        "xklqs_card.worldbook.json#entry-186"
+      ],
+      "id": "edge-34",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "abilities:第7章",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第8章",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第8章",
+      "sourceRefs": [
+        "xklqs_card.worldbook.json#entry-186"
+      ],
+      "id": "edge-35",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "abilities:第8章",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第10章",
+      "sourceEntityType": "events",
+      "targetEntityType": "factions",
+      "predicate": "events-mentions-factions",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第10章",
+      "sourceRefs": [
+        "xklqs_card.worldbook.json#entry-186"
+      ],
+      "id": "edge-36",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "factions:第10章",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第11章",
+      "sourceEntityType": "events",
+      "targetEntityType": "factions",
+      "predicate": "events-mentions-factions",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第11章",
+      "sourceRefs": [
+        "xklqs_card.worldbook.json#entry-186"
+      ],
+      "id": "edge-37",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "factions:第11章",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第21章",
+      "sourceEntityType": "events",
+      "targetEntityType": "factions",
+      "predicate": "events-mentions-factions",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第21章",
+      "sourceRefs": [
+        "xklqs_card.worldbook.json#entry-186"
+      ],
+      "id": "edge-38",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "factions:第21章",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第9章",
+      "sourceEntityType": "events",
+      "targetEntityType": "factions",
+      "predicate": "events-mentions-factions",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第9章",
+      "sourceRefs": [
+        "xklqs_card.worldbook.json#entry-186"
+      ],
+      "id": "edge-39",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "factions:第9章",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第12章",
+      "sourceEntityType": "events",
+      "targetEntityType": "locations",
+      "predicate": "events-mentions-locations",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第12章",
+      "sourceRefs": [
+        "xklqs_card.worldbook.json#entry-186"
+      ],
+      "id": "edge-40",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "locations:第12章",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第19章",
+      "sourceEntityType": "events",
+      "targetEntityType": "locations",
+      "predicate": "events-mentions-locations",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第19章",
+      "sourceRefs": [
+        "xklqs_card.worldbook.json#entry-186"
+      ],
+      "id": "edge-41",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "locations:第19章",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第22章",
+      "sourceEntityType": "events",
+      "targetEntityType": "locations",
+      "predicate": "events-mentions-locations",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第22章",
+      "sourceRefs": [
+        "xklqs_card.worldbook.json#entry-186"
+      ],
+      "id": "edge-42",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "locations:第22章",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第25章",
+      "sourceEntityType": "events",
+      "targetEntityType": "locations",
+      "predicate": "events-mentions-locations",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第25章",
+      "sourceRefs": [
+        "xklqs_card.worldbook.json#entry-186"
+      ],
+      "id": "edge-43",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "locations:第25章",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第2章",
+      "sourceEntityType": "events",
+      "targetEntityType": "locations",
+      "predicate": "events-mentions-locations",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第2章",
+      "sourceRefs": [
+        "xklqs_card.worldbook.json#entry-186"
+      ],
+      "id": "edge-44",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "locations:第2章",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第3章",
+      "sourceEntityType": "events",
+      "targetEntityType": "locations",
+      "predicate": "events-mentions-locations",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第3章",
+      "sourceRefs": [
+        "xklqs_card.worldbook.json#entry-186"
+      ],
+      "id": "edge-45",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "locations:第3章",
+      "category": "derived-mention"
+    }
+  ]
+}

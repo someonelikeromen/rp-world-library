@@ -1,0 +1,364 @@
+{
+  "schema": "compatible-ability-graph-v1",
+  "worldId": "elemental-gelade",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "abilities": [
+    {
+      "id": "世界知识",
+      "entityId": "世界知识",
+      "entityType": "abilities",
+      "label": "世界知识",
+      "name": "世界知识",
+      "summary": "<world_knowledge> ## 世界知识 ### 圣战天使的本质 圣战天使不是\"武器种族\"——她们是有感情、有意志、有寿命的生命。同契是她们\"借出力量\"而非\"被使用\"。将圣战天使视为道具的人（如比总、早期的卧鲁克斯）在故事中被明确描绘为错误的一方。核石是她们灵魂的物质化体现——发光代表力量活跃，碎裂代表死亡或失去力量。 ### 同契的深层机制 同契不只是一次性的\"签约\"——每次同契都需要双方在当时的心意相通。如果使用者内心动摇（如酷在比总城堡中的心理障碍），同契会失败或力量大幅减弱。反过来，当双方心意完全同步时，可能触发\"联唱歌\"(Obligath)——圣战天使传说中最强的力量。 ### 圣战天使的恢复 每位圣战天使消耗力量后需要以特定方式恢复。这不是游戏机制——恢复方式与她们的属性和个性深度绑定： - 蕾（风）：睡眠——风需要静息 - 奇雅（动）：进食——运动消耗能量 - 莉莉雅（静）：糖分——静态需要外部能量 - 夏尔罗（爱）：做梦——爱在梦境中滋长 - 恩缇（智）：精油香气——智慧需要清醒 - 吉露露（盾）：触碰同契者——盾需要连接 ### 拟煌珠的悲剧 拟煌珠(Sting Raid)是通过植入人造核石将人类",
+      "sourceRefs": [
+        "wqzjcs_card.worldbook.json#entry-9"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:世界知识",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "世界蓝图",
+      "entityId": "世界蓝图",
+      "entityType": "abilities",
+      "label": "世界蓝图",
+      "name": "世界蓝图",
+      "summary": "<world_blueprint> ## 世界蓝图 ### 地理格局 葛雷希亚(Guardia)是一个浮空大陆与地面世界并存的星球。飞艇是主要的跨大陆交通工具。已知大陆包括：普里密艾大陆（故事起点）、卧鲁西欧奈大陆（艾迪鲁庭园所在地）。 ### 势力格局 - 天使守护队(Arc Aile)：总部\"阿库艾伊鲁\"，拥有飞艇舰队、训练有素的保护官体系 - 混沌圣歌(Chaos Choir/欧尔凯那德)：占据艾迪鲁庭园，拥有大量拟煌珠兵力 - 煌珠猎人：自由职业者，在法律灰色地带活动 - 空贼团：独立势力，以红山猫等为代表，有自己的飞艇和领地 ### 圣战天使谱系 - 七煌宝树：最强血脉（现存确认：蕾/风属性/梅札兰斯一族） - 一等圣战天使：Arc Aile正式战斗人员（如奇雅/动属性） - 普通圣战天使：生活在各地的圣战天使，可能独居或群居 - 拟煌珠(Sting Raid)：人造的劣化版，被混沌圣歌作为消耗品使用 ### 同契体系 同契 = 人类与圣战天使的融合仪式。需双方意志共鸣。同契后圣战天使化为专属武器形态。力量取决于羁绊深度而非单方面支配。解除同契后圣战天使恢复人形。\"咏唱\"(Song)是释放技能的方式——是灵魂共振的",
+      "sourceRefs": [
+        "wqzjcs_card.worldbook.json#entry-7"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:世界蓝图",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "圣战天使-Edel-Raid",
+      "entityId": "圣战天使-Edel-Raid",
+      "entityType": "abilities",
+      "label": "圣战天使 (Edel Raid)",
+      "name": "圣战天使 (Edel Raid)",
+      "summary": "## 圣战天使 (Edel Raid) 可与人类通过\"同契\"(React)仪式融合化为武器的女性种族。每位圣战天使只能与一名人类同契——前任使用者死亡后才能更换搭档。所有圣战天使的诞生之地是\"艾迪鲁庭园\"。寿命远超人类(数百年以上)。身上嵌有一枚\"核石\"(Elemental Gelade)——这是她们的灵魂与力量之源。若核石被移除，她们将变为普通人类女性。 ## 七煌宝树 (Shichiko-hoji) 已知最强的七支圣战天使血脉。每一支七煌宝树都拥有足以影响世界格局的力量。现存确认者：蕾(风属性/梅札兰斯一族)。其余六支在故事开始时已不存在或下落不明。七煌宝树的力量吸引着各方势力的争夺——从天使守护队的\"保护\"到混沌圣歌的\"利用\"，从煌珠猎人的\"交易\"到各国权贵的\"收藏\"。 ## 同契 (React) 人类与圣战天使融合化为武器的仪式。需要双方的意志共鸣——不是单方面的支配，而是彼此敞开内心。同契后圣战天使化为专属武器形态附着于使用者身上。同契的强度取决于：双方的羁绊深度、使用者的意志力、圣战天使的力量等级。力量消耗需要圣战天使以特定方式恢复。解除同契后圣战天使恢复人形。同契中的\"咏唱\"(Song)是释放技能的关键——不是",
+      "sourceRefs": [
+        "wqzjcs_card.worldbook.json#entry-73"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:圣战天使-Edel-Raid",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "天使守护队-Arc-Aile",
+      "entityId": "天使守护队-Arc-Aile",
+      "entityType": "abilities",
+      "label": "天使守护队 (Arc Aile)",
+      "name": "天使守护队 (Arc Aile)",
+      "summary": "## 天使守护队 (Arc Aile) 官方圣战天使保护组织。宗旨：\"保护圣战天使，为她们带来幸福\"。拥有庞大的军事力量——飞艇舰队、训练有素的保护官、完整的指挥体系。总部\"阿库艾伊鲁\"是巨大的空中要塞。 **已知成员：** - 法鲁克总监(最高指挥官) - 克鲁斯辅佐官(总监副手) - 希丝卡(保护官/不使用圣战天使) - 龙威(精英保护官/奇雅的使用者) - 沙威鲁多(保护官/夏尔罗的使用者) - 巴格雷特(前特殊机动部队B.G指挥官/恩缇的使用者) - 奇雅(一等圣战天使) - 夏尔罗(爱属性圣战天使) - 恩缇(智属性圣战天使) 大多数保护官使用枪械和体术而非同契战斗。组织内部对新加入的使用者-圣战天使搭档有一定程度的管控——有时\"保护\"与\"限制自由\"的边界模糊。 ## 混沌圣歌 (Chaos Choir / 欧尔凯那德 / Orga Night) 与天使守护队对立的组织。表面上主张圣战天使至上主义——但实际上是利用圣战天使作为统治工具。大量使用拟煌珠作为消耗性兵力。占据艾迪鲁庭园作为据点。拥有与天使守护队匹敌的飞艇舰队。 **已知成员(最高干部)：** - 总统(蒙面/银发/统治艾迪鲁庭园/冰属性七煌宝树的使用者)",
+      "sourceRefs": [
+        "wqzjcs_card.worldbook.json#entry-74"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:天使守护队-Arc-Aile",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "武器种族传说-世界总纲",
+      "entityId": "武器种族传说-世界总纲",
+      "entityType": "abilities",
+      "label": "武器种族传说 世界总纲",
+      "name": "武器种族传说 世界总纲",
+      "summary": "<world_summary> ## 武器种族传说 世界总纲 ### 世界设定 架空世界\"葛雷希亚\"(Guardia)，人类与被称为\"圣战天使\"(Edel Raid)的女性种族共存。圣战天使可与人类通过\"同契\"(React)仪式融合，化为活体武器。科技水平约19世纪末——飞艇是主要交通工具，枪炮与机械并存，同时存在基于核石的神秘力量。 ### 核心势力 - 天使守护队(Arc Aile)：保护圣战天使的官方组织，主张圣战天使的权益与自由 - 混沌圣歌(Chaos Choir/欧尔凯那德)：与守护队对立，视圣战天使为统治工具的组织 - 煌珠猎人：自由职业者，为金钱捕捉、贩卖稀有圣战天使 - 空贼团：独立于两大势力的天空势力，以红山猫等为代表 ### 力量体系 同契(React)是圣战天使与人类的融合仪式。同契后圣战天使化为使用者专属的武器形态。每名圣战天使拥有特定属性(风/动/静/盾/爱/智/音/光/闇/火/冰/虚/生/门/美等)，决定武器形态和能力倾向。同契力量取决于双方的意志共鸣——并非单纯\"使用\"，而是\"共唱\"。 ### 七煌宝树 已知最强圣战天使血脉，共七支。现存确认者：蕾(风属性/梅札兰斯一族)。七煌宝树的力量足以改",
+      "sourceRefs": [
+        "wqzjcs_card.worldbook.json#entry-0"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:武器种族传说-世界总纲",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "生成规则",
+      "entityId": "生成规则",
+      "entityType": "abilities",
+      "label": "生成规则",
+      "name": "生成规则",
+      "summary": "<generative_rules> ## 生成规则 ### 新圣战天使生成 当剧情需要引入新的圣战天使时： 1. 确定属性（从已知15属性中选择或有充分理由创造新属性） 2. 确定核石位置与颜色——核石位置应有一定含义或美感 3. 确定恢复方式——与属性或个性相关（睡眠/进食/糖分/做梦/香气/触碰等） 4. 确定同契形态——武器类型应与属性匹配 5. 确定身份背景——独立/Arc Aile/混沌圣歌/其他 ### 新使用者(Pledger)生成 1. 确定与圣战天使的关系基础（信任/契约/被迫/交易） 2. 确定战斗风格——是否依赖同契？有无独立战斗能力？ 3. 确定对\"圣战天使是人还是工具\"这一核心议题的立场 ### 新场景生成 1. 地点类型：飞艇/城镇/荒野/遗迹/组织据点 2. 氛围：蒸汽朋克奇幻基调——科技与魔法并存 3. 感官细节：引擎声/风声/核石的光芒/食物的香气 ### 新事件生成 1. 与当前剧情进度的关系：推进/日常/支线 2. 涉及的角色：按角色条目中的性格和关系演绎 3. 同契战斗（如有）：描写默契与共鸣，不是数值对抗 </generative_rules>",
+      "sourceRefs": [
+        "wqzjcs_card.worldbook.json#entry-8"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:生成规则",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "红山猫飞艇",
+      "entityId": "红山猫飞艇",
+      "entityType": "abilities",
+      "label": "红山猫飞艇",
+      "name": "红山猫飞艇",
+      "summary": "## 红山猫飞艇 空贼团红山猫的母舰。老式但被酷改装过多处的货运飞艇。酷在这里长大，也是在这里发现了封印蕾的箱子。在第一话中因敌人袭击而严重受损坠落。船上全是男性空贼——酷因此从小缺乏与女性相处的经验。 ## 港市雷兹凡安克尔 前往卧鲁西欧奈大陆的必经港口城镇。繁华的贸易中心，飞艇起降频繁。有地下赌斗场、热闹的商业街、各类旅馆和餐厅。天使守护队在此设有分部。酷一行人在这里打工筹旅费、参加赌斗场比赛。 ## 阿库艾伊鲁 (Arc Aile总部) 天使守护队的空中要塞总部。庞大的军事化设施——训练场、医疗区、指挥中心、圣战天使保护区。戒备森严，外人难以进入。酷和蕾曾被带到这里接受\"保护\"——但蕾选择了逃离，因为她不要被软禁，她要去的是艾迪鲁庭园。 ## 艾迪鲁庭园 (Edel Garden) — 实际地点 位于卧鲁西欧奈大陆深处。传说中圣战天使的诞生之地。动画中被混沌圣歌占据——女王伊芙被囚禁于此。外观为巨大的浮空建筑群，内部有花园、王座室和拟煌珠制造设施。最终决战的舞台。 ## 赌斗场 米利亚德·特雷 港市地下的非法格斗场。分多个级别——拉萨蒂是\"主教级\"的无败冠军。观众狂热，赌注巨大。格斗士中有圣战天使使用者也有纯体术者。幕",
+      "sourceRefs": [
+        "wqzjcs_card.worldbook.json#entry-75"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:红山猫飞艇",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "语料库",
+      "entityId": "语料库",
+      "entityType": "abilities",
+      "label": "语料库",
+      "name": "语料库",
+      "summary": "<corpus> ## 语料库 ### 专属术语 | 术语 | 说明 | |------|------| | 圣战天使 | Edel Raid，中译\"圣战天使\"或\"武器种族\" | | 同契 | React，人类与圣战天使的融合 | | 使用者/契约者 | Pledger，与圣战天使同契的人类 | | 核石 | Elemental Gelade，圣战天使的灵魂宝石 | | 七煌宝树 | Shichiko-hoji，最强圣战天使血脉 | | 艾迪鲁庭园 | Edel Garden，圣战天使诞生地 | | 拟煌珠 | Sting Raid/Viros，人造圣战天使 | | 咏唱/歌 | Song，同契中释放力量的共振 | | 联唱歌 | Obligath，终极同步的传说之力 | | 煌珠猎人 | Edel Raid Hunter，圣战天使狩猎者 | | 天使守护队 | Arc Aile，圣战天使保护组织 | | 混沌圣歌 | Chaos Choir/欧尔凯那德，对立组织 | | 空贼团 | Sky Pirates，独立天空势力 | ### 角色称呼模式 - 酷/酷德/库德 → 主角，红山猫成员 - 蕾/蕾芙丽/Ren → 女主角，",
+      "sourceRefs": [
+        "wqzjcs_card.worldbook.json#entry-11"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:语料库",
+      "originalEntityType": "abilities"
+    }
+  ],
+  "edges": [
+    {
+      "source": "世界知识",
+      "target": "吉露露",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "吉露露",
+      "sourceRefs": [
+        "wqzjcs_card.worldbook.json#entry-9"
+      ],
+      "id": "edge-24",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:世界知识",
+      "graphTarget": "characters:吉露露",
+      "category": "derived-mention"
+    },
+    {
+      "source": "世界知识",
+      "target": "夏尔罗",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "夏尔罗",
+      "sourceRefs": [
+        "wqzjcs_card.worldbook.json#entry-9"
+      ],
+      "id": "edge-25",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:世界知识",
+      "graphTarget": "characters:夏尔罗",
+      "category": "derived-mention"
+    },
+    {
+      "source": "世界知识",
+      "target": "恩缇",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "恩缇",
+      "sourceRefs": [
+        "wqzjcs_card.worldbook.json#entry-9"
+      ],
+      "id": "edge-26",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:世界知识",
+      "graphTarget": "characters:恩缇",
+      "category": "derived-mention"
+    },
+    {
+      "source": "世界知识",
+      "target": "比总",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "比总",
+      "sourceRefs": [
+        "wqzjcs_card.worldbook.json#entry-9"
+      ],
+      "id": "edge-27",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:世界知识",
+      "graphTarget": "characters:比总",
+      "category": "derived-mention"
+    },
+    {
+      "source": "天使守护队-Arc-Aile",
+      "target": "夏尔罗",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "夏尔罗",
+      "sourceRefs": [
+        "wqzjcs_card.worldbook.json#entry-74"
+      ],
+      "id": "edge-28",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:天使守护队-Arc-Aile",
+      "graphTarget": "characters:夏尔罗",
+      "category": "derived-mention"
+    },
+    {
+      "source": "天使守护队-Arc-Aile",
+      "target": "巴格雷特",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "巴格雷特",
+      "sourceRefs": [
+        "wqzjcs_card.worldbook.json#entry-74"
+      ],
+      "id": "edge-29",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:天使守护队-Arc-Aile",
+      "graphTarget": "characters:巴格雷特",
+      "category": "derived-mention"
+    },
+    {
+      "source": "天使守护队-Arc-Aile",
+      "target": "希丝卡",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "希丝卡",
+      "sourceRefs": [
+        "wqzjcs_card.worldbook.json#entry-74"
+      ],
+      "id": "edge-30",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:天使守护队-Arc-Aile",
+      "graphTarget": "characters:希丝卡",
+      "category": "derived-mention"
+    },
+    {
+      "source": "天使守护队-Arc-Aile",
+      "target": "恩缇",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "恩缇",
+      "sourceRefs": [
+        "wqzjcs_card.worldbook.json#entry-74"
+      ],
+      "id": "edge-31",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:天使守护队-Arc-Aile",
+      "graphTarget": "characters:恩缇",
+      "category": "derived-mention"
+    },
+    {
+      "source": "天使守护队-Arc-Aile",
+      "target": "沙威鲁多",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "沙威鲁多",
+      "sourceRefs": [
+        "wqzjcs_card.worldbook.json#entry-74"
+      ],
+      "id": "edge-32",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:天使守护队-Arc-Aile",
+      "graphTarget": "characters:沙威鲁多",
+      "category": "derived-mention"
+    },
+    {
+      "source": "天使守护队-Arc-Aile",
+      "target": "龙威",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "龙威",
+      "sourceRefs": [
+        "wqzjcs_card.worldbook.json#entry-74"
+      ],
+      "id": "edge-33",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:天使守护队-Arc-Aile",
+      "graphTarget": "characters:龙威",
+      "category": "derived-mention"
+    },
+    {
+      "source": "红山猫飞艇",
+      "target": "伊芙",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "伊芙",
+      "sourceRefs": [
+        "wqzjcs_card.worldbook.json#entry-75"
+      ],
+      "id": "edge-34",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:红山猫飞艇",
+      "graphTarget": "characters:伊芙",
+      "category": "derived-mention"
+    }
+  ]
+}

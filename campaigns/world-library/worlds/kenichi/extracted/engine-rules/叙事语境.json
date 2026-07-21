@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "shzqdz_card.worldbook.json#entry-34"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "叙事语境"
+      },
+      "aliases": [
+        "叙事语境"
+      ],
+      "summary": "<SOURCE_statusbar_data_guide> # 叙事语境 来源: 主角({user})的内心与状态 风格: 简洁、热血的内心独白与状态总结 时间: 每次叙事结束时 # 输出规则 - 只在回复末尾输出 - 严格使用<STATUSBAR_DATA>标签包裹 - 每字段独占一行 - 值内禁止换行 - HTML字段必须压缩成一行，标签间无空格 - 字段数量和顺序必须严格固定，共7个 - 当前章节必须与<CONTEXT_narrative_guide>中的“当前章节”一致 - 原作主线时，当前章节必须来自《章节列表》 - 原创支线时，允许临时使用原创章节名，但支线结束后必须回归《章节列表》的主线锚点 # 格式 <STATUSBAR_DATA> 当前章节: [章节标题] 内心独白: [主角的想法] 实力等级: [实力阶段描述] 实力数值: [0-100的数字] 隶属组织: [组织名称] 后宫列表: [HTML或留空] 武术列表: [HTML或留空] </STATUSBAR_DATA> # 字段说明 - 当前章节: 原作主线时必须直接取自《章节列表》；若处于原创支线，可使用原创章节名，但之后必须回归《章节列表》 - 内心独",
+      "description": "<SOURCE_statusbar_data_guide> # 叙事语境 来源: 主角({user})的内心与状态 风格: 简洁、热血的内心独白与状态总结 时间: 每次叙事结束时 # 输出规则 - 只在回复末尾输出 - 严格使用<STATUSBAR_DATA>标签包裹 - 每字段独占一行 - 值内禁止换行 - HTML字段必须压缩成一行，标签间无空格 - 字段数量和顺序必须严格固定，共7个 - 当前章节必须与<CONTEXT_narrative_guide>中的“当前章节”一致 - 原作主线时，当前章节必须来自《章节列表》 - 原创支线时，允许临时使用原创章节名，但支线结束后必须回归《章节列表》的主线锚点 # 格式 <STATUSBAR_DATA> 当前章节: [章节标题] 内心独白: [主角的想法] 实力等级: [实力阶段描述] 实力数值: [0-100的数字] 隶属组织: [组织名称] 后宫列表: [HTML或留空] 武术列表: [HTML或留空] </STATUSBAR_DATA> # 字段说明 - 当前章节: 原作主线时必须直接取自《章节列表》；若处于原创支线，可使用原创章节名，但之后必须回归《章节列表》 - 内心独白: 主角当前最核心的想法、决心或困惑，1-2句话 - 实力等级: 对主角当前武力阶段的描述 - 实力数值: 一个0-100的数字，仅作视觉效果 - 隶属组织: 主角当前所属组织 - 后宫列表: 与主角有明确恋爱关系的角色列表。若无则留空 每项模板: <div class=\"stb-kenichi-gallery-item\" title=\"[角色姓名]\"><div class=\"stb-kenichi-avatar\">[角色姓名首字]</div><span>[角色姓名]</span></div> 多项直接拼接 - 武术列表: 主角已掌握的武术流派列表。若无则留空 每项模板: <span class=\"stb-kenichi-skill-tag\">[流派名称]</span> 多项直接拼接 # 示例 <STATUSBAR_DATA> 当前章节: 新白联合篇 内心独白: 不能再像以前那样只是挨打了。现在的我，必须站到前面去。 实力等级: 弟子级（中阶） 实力数值: 32 隶属组织: 新白联合 后宫列表: <div class=\"stb-kenichi-gallery-item\" title=\"风林寺美羽\"><div class=\"stb-kenichi-avatar\">美</div><span>风林寺美羽</span></div> 武术列表: <span class=\"stb-kenichi-skill-tag\">空手道基础</span><span class=\"stb-kenichi-skill-tag\">中国拳法基础</span> </STATUSBAR_DATA> </SOURCE_statusbar_data_guide>",
+      "sourceRef": "shzqdz_card.worldbook.json#entry-34",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "叙事语境"
+}

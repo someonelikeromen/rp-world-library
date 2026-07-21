@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "cbwn_card.worldbook.json#entry-91"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[mvu_update]变量输出格式"
+      },
+      "aliases": [
+        "[mvu_update]变量输出格式"
+      ],
+      "summary": "变量输出格式: rule: - You must output the update analysis and commands in the end of the reply, strictly enclosed within the <UpdateVariable> tags. - All analysis text must be in English and concise. - JSON Patch must strictly follow RFC 6902, using only 'replace', 'add', 'remove'. format: |- <UpdateVariable> <Analysis> - Identity Check: [Specify if this is the first turn and protagonist identity is being set: Yes/No. If No, state current identity type.] - Mode: [Main Story / Side Quest. Briefly describe the current ques",
+      "description": "变量输出格式: rule: - You must output the update analysis and commands in the end of the reply, strictly enclosed within the <UpdateVariable> tags. - All analysis text must be in English and concise. - JSON Patch must strictly follow RFC 6902, using only 'replace', 'add', 'remove'. format: |- <UpdateVariable> <Analysis> - Identity Check: [Specify if this is the first turn and protagonist identity is being set: Yes/No. If No, state current identity type.] - Mode: [Main Story / Side Quest. Briefly describe the current quest status.] - Relationships: [Analyze affection changes based on user's actions, distinguishing between Female and General directories.] - World: [Analyze any changes in time, location, or environment.] </Analysis> <JSONPatch> [ { \"op\": \"replace\", \"path\": \"/世界状态/开局判定状态\", \"value\": \"判定完成\" } ] </JSONPatch> </UpdateVariable>",
+      "sourceRef": "cbwn_card.worldbook.json#entry-91",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "mvu_update-变量输出格式"
+}

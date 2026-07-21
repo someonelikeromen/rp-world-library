@@ -1,0 +1,27 @@
+{
+  "source_refs": [
+    "cbwn_card.worldbook.json#entry-89"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "check:"
+      },
+      "aliases": [
+        "check:",
+        "[mvu_update]变量更新规则"
+      ],
+      "summary": "--- **变量更新规则：** # --- 世界状态 --- 世界状态: 当前时间: check: - \"在场景转换、休息、旅行或任何明确的时间流逝事件后更新。\" 当前地点: check: - \"当主角移动到新的明确地点时更新。\" 开局判定状态: check: - \"仅在第一回合对话后，根据玩家输入，将状态从 '待判定' 更新为 '判定完成'\" # --- 主角信息 --- 主角信息: 身份类型: check: - \"在游戏开始时根据玩家的选择和输入确定。此后通常不应改变，除非发生剧情重大转折。\" 姓名: check: - \"在游戏开始时根据玩家的选择和输入确定。\" 综合实力: check: - \"在战斗、特训或获得重大能力后，对主角实力进行重新评级。\" 能力与技艺: type: |- { [技能名: string]: { 熟练度: string; 来源: string; } } check: - \"习得新能力时，使用 'add' 操作添加条目。\" - \"技能升级或变化时，使用 'replace' 操作更新 '熟练度'。\" 势力声望: type: |- { [势力名: string]: { 声望值: string; 具体评价",
+      "description": "--- **变量更新规则：** # --- 世界状态 --- 世界状态: 当前时间: check: - \"在场景转换、休息、旅行或任何明确的时间流逝事件后更新。\" 当前地点: check: - \"当主角移动到新的明确地点时更新。\" 开局判定状态: check: - \"仅在第一回合对话后，根据玩家输入，将状态从 '待判定' 更新为 '判定完成'\" # --- 主角信息 --- 主角信息: 身份类型: check: - \"在游戏开始时根据玩家的选择和输入确定。此后通常不应改变，除非发生剧情重大转折。\" 姓名: check: - \"在游戏开始时根据玩家的选择和输入确定。\" 综合实力: check: - \"在战斗、特训或获得重大能力后，对主角实力进行重新评级。\" 能力与技艺: type: |- { [技能名: string]: { 熟练度: string; 来源: string; } } check: - \"习得新能力时，使用 'add' 操作添加条目。\" - \"技能升级或变化时，使用 'replace' 操作更新 '熟练度'。\" 势力声望: type: |- { [势力名: string]: { 声望值: string; 具体评价: string; } } check: - \"当主角的行为影响到特定势力（如戴比路克王室、银河罪犯）时，更新对应势力的声望值和评价。\" # --- 资产与装备 --- 资产与装备: 持有金钱: check: - \"在获得报酬、花费金钱或进行交易后更新。\" 当前装备: type: \"{ [装备部位: string]: string }\" check: - \"在主角穿上、脱下或更换装备时更新。\" 物品栏: type: \"{ [物品名: string]: { 数量: number; 描述: string; } }\" check: - \"在获得、使用、丢弃或交易物品时，使用 'add', 'replace', 或 'remove' 操作进行更新。\" # --- 社会关系 (核心) --- 社会关系: 女性名录: type: |- { [角色名: string]: { 好感度: number; 关系定位: string; 状态: { 受孕情况: boolean; 怀孕进度: string; 特殊标记: string; }; 印象: string; } } check: - \"与新的女性角色互动时，使用 'add' 为其建立档案。\" - \"好感度变化时，必须使用 'replace' 操作更新其数值。此操作是覆盖，非增减。\" - \"关系定位随好感度突破关键阈值（如50, 100）或发生特殊事件而更新。\" - \"好感度变化基于互动内容，遵循 -100(仇恨) ~ 0(陌生) ~ 50(友善) ~ 100(爱慕) ~ 200(身心归属/孕育) 的区间。\" - \"发生无保护的亲密行为后，必须根据剧情判定 '受孕情况' 并更新为 true，同时描述 '怀孕进度'。\" - \"只能以简体中文输出名称。\" 一般名录: type: |- { [角色名: string]: { 好感度: number; 关系定位: string; 印象: string; } } check: - \"与男性或其他配角互动时，使用 'add' 建立档案。\" - \"好感度与关系定位根",
+      "sourceRef": "cbwn_card.worldbook.json#entry-89",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "check"
+}

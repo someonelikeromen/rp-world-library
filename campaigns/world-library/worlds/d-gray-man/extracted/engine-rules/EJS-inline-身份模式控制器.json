@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "qmsn_card.worldbook.json#entry-17"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[EJS]inline:身份模式控制器"
+      },
+      "aliases": [
+        "[EJS]inline:身份模式控制器"
+      ],
+      "summary": "@@generate_before <%_ var mode = getvar('stat_data.身份模式', { defaults: '原作' }); if (mode === '取代') { _%> <%- await getwi('[DGM] 取代模式规则') %> <%_ } else if (mode === '共存') { _%> <%- await getwi('[DGM] 共存模式规则') %> <%_ } _%>",
+      "description": "@@generate_before <%_ var mode = getvar('stat_data.身份模式', { defaults: '原作' }); if (mode === '取代') { _%> <%- await getwi('[DGM] 取代模式规则') %> <%_ } else if (mode === '共存') { _%> <%- await getwi('[DGM] 共存模式规则') %> <%_ } _%>",
+      "sourceRef": "qmsn_card.worldbook.json#entry-17",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "EJS-inline-身份模式控制器"
+}

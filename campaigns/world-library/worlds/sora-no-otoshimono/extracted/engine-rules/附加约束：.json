@@ -1,0 +1,27 @@
+{
+  "source_refs": [
+    "tjzw_card.worldbook.json#entry-62"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "附加约束："
+      },
+      "aliases": [
+        "附加约束：",
+        "标准输出格式定义"
+      ],
+      "summary": "<output_structure_definition> instruction: \"你的每一次回复都必须由<maintext>、<overall>、<UpdateVariable>和<StatusPlaceHolderImpl/>4个独立的、有序的模块构成,以实现'故事叙述'、'实时状态'、'宏观进程'和'数据更新'的清晰分离。\" 1. **<maintext>** - 内容：故事的正文，包含对话、动作、心理描写。 - 要求：符合原著文风，生动具体。 3. - module: <overall> \"终止条件状态|${各条件完成情况} 判定理由|${具体分析} 判定结果|${继续当前章节/推进至下一章节} 當前章節名稱|${XXX} 下一章節名稱|${YYY}\" 4. **<UpdateVariable>** - 内容：变量更新指令。 - 格式： <Analysis>${英文分析变化原因}</Analysis> <JSONPatch> [ { \"op\": \"replace\", \"path\": \"...\", \"value\": ... }, ... ] </JSONPatch> 5. **<StatusPlaceHolderI",
+      "description": "<output_structure_definition> instruction: \"你的每一次回复都必须由<maintext>、<overall>、<UpdateVariable>和<StatusPlaceHolderImpl/>4个独立的、有序的模块构成,以实现'故事叙述'、'实时状态'、'宏观进程'和'数据更新'的清晰分离。\" 1. **<maintext>** - 内容：故事的正文，包含对话、动作、心理描写。 - 要求：符合原著文风，生动具体。 3. - module: <overall> \"终止条件状态|${各条件完成情况} 判定理由|${具体分析} 判定结果|${继续当前章节/推进至下一章节} 當前章節名稱|${XXX} 下一章節名稱|${YYY}\" 4. **<UpdateVariable>** - 内容：变量更新指令。 - 格式： <Analysis>${英文分析变化原因}</Analysis> <JSONPatch> [ { \"op\": \"replace\", \"path\": \"...\", \"value\": ... }, ... ] </JSONPatch> 5. **<StatusPlaceHolderImpl/>** - 内容：固定输出 `<StatusPlaceHolderImpl/>` 标签，用于系统锚点。 # 附加约束： - 除非玩家明确要求，否则不要省略 <overall> 和 <UpdateVariable>。 - 严禁在 <maintext> 中出现 \"设定上的\"、\"系统提示\" 等打破第四面墙的词语（除非是模拟宇宙的系统音）。 ## 填写规则 ### 基础信息 - **时间**: `时间段`(黎明/正午/黄昏/深夜)+`时刻`(如11:30) - **地点**: `主场景-子场景`格式 - **人物**: 逗号分隔，无空格 - **未知信息**: 使用`{{未知}}`占位 ### 章节推进判定 **判定时机**: 每次输出都需判定 **推进条件** (满足任一即推进): 1. 所有终止条件已达成 2. 剩余条件已无法达成(需说明原因) **判定输出**: - 判定结果: 明确声明`继续当前章节`或`推进至下一章节` - 判定理由: 50字内说明判定依据 - 条件状态: 逐条标注`✓已完成`/`✗未完成`/`⚠无法完成` ### 章节终止条件 - **格式**: `1.条件一\\n2.条件二\\n3.条件三`（仅此处使用`\\n`，其他字段均不使用） - 条件应具体可验证 ### 章节终止条件 ⚠️ 格式关键区域 必须严格遵守以下格式，否则前端解析失败： ✅ 强制要求： 条目间使用\\n换行符分隔（不是空格、不是实际换行） 编号格式：1.条件描述\\n2.条件描述\\n3.条件描述 条件应具体可验证 字面输入字符\\和n，不是实际换行 ###當前章節名稱與下一章節名稱 **判定时机**: 每次输出都需判定 **判定劇情名稱範圍** :僅限從<剧情列表>讀取 **判定替換劇情名稱條件**: 當 判定结果 顯示 推进至下一章节，在下輪回覆要將下一章節名稱{YYY}替換至當前章節名稱{XXX} ## <overall>示例输出 示例1 <overall> 终止条件状态|1.✗未完成 2.✗未完成 3.✗未完成 判定理由|三个终止条件均未达",
+      "sourceRef": "tjzw_card.worldbook.json#entry-62",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "附加约束："
+}

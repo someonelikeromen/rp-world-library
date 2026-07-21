@@ -1,0 +1,24 @@
+{
+  "source_refs": [
+    "jdsr_card.worldbook.json#entry-45"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "第<%= vol %>卷 | <%= chap %>"
+      },
+      "aliases": [],
+      "summary": "<%_ var cnNums = ['零','一','二','三','四','五','六','七','八','九','十','十一','十二']; var mode = getvar('stat_data.剧情.模式') || '日常'; var vol = getvar('stat_data.剧情.当前卷') || 1; var chap = getvar('stat_data.剧情.当前章节') || ''; var name = '剧情 第' + cnNums[vol] + '卷'; _%> ## 第<%= vol %>卷 | <%= chap %> 当前模式: <%= mode %> <%- await getwi(name) %> <%_ if (mode === '日常') { _%> **当前为日常模式 — 不主动推进主线，让{{user}}决定何时触发关键事件。以上为当前卷的参考信息。** <%_ } _%>",
+      "description": "<%_ var cnNums = ['零','一','二','三','四','五','六','七','八','九','十','十一','十二']; var mode = getvar('stat_data.剧情.模式') || '日常'; var vol = getvar('stat_data.剧情.当前卷') || 1; var chap = getvar('stat_data.剧情.当前章节') || ''; var name = '剧情 第' + cnNums[vol] + '卷'; _%> ## 第<%= vol %>卷 | <%= chap %> 当前模式: <%= mode %> <%- await getwi(name) %> <%_ if (mode === '日常') { _%> **当前为日常模式 — 不主动推进主线，让{{user}}决定何时触发关键事件。以上为当前卷的参考信息。** <%_ } _%>",
+      "sourceRef": "jdsr_card.worldbook.json#entry-45",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "第-vol-卷-chap"
+}

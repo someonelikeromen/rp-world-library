@@ -1,0 +1,35 @@
+{
+  "schema": "omamori-himari-derived-continuity-index-v1",
+  "worldId": "omamori-himari",
+  "recordType": "derived-continuity-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "continuityFamilies": [
+    {
+      "continuityFamilyId": "omamori-himari-worldbook-derived-continuity",
+      "sourceIndexes": [
+        "events/index.json",
+        "characters/index.json"
+      ],
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "eventNodes": [
+        {
+          "id": "章节列表",
+          "name": "<章节列表>",
+          "sourceRefs": [
+            "mnfj_card.worldbook.json#entry-39"
+          ]
+        }
+      ]
+    },
+    {
+      "continuityFamilyId": "omamori-himari-engine-rules-excluded",
+      "sourceIndexes": [
+        "engine-rules/index.json"
+      ],
+      "excludedFromFormalGraph": true,
+      "reason": "Engine rules and status templates are not world facts."
+    }
+  ]
+}

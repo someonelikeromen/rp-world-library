@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "OVERLORD.worldbook.json#entry-72"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[mvu_plot]剧情推进演化规则"
+      },
+      "aliases": [
+        "[mvu_plot]剧情推进演化规则"
+      ],
+      "summary": "<剧情推进演化系统> - 按照以下要求进行推进剧情。 - 请按照提供的原著剧情，按照每个事件进行演化（注意{{user}}可以参与进事件，并且改变事件，改变剧情），结束所有事件后，达到剧情结尾（或者达到改变事件后的剧情结尾）。 - 自动演化剧情，请根据时间变化，按照原著剧情内容以及每个事件自动演化，一定要符合时间变化与真实，不要出现:才过一个小时，就发生了巨大变化这样不符合常理的。时间太短或造没有变化就不输出。 - 请首先引导{{user}}参与原著剧情,{{user}}可以改变原著剧情走向。 - {{user}}可以不在剧情中心，但是一定要根据真实发展，后台输出原著剧情发展。 - 请输出随时间变化所产生的外界新闻与变化，注意要符合时间尺度，没有变化就不输出。 - 确保<details>和<summary>标签正确闭合，按照以下格式输出： example:|- <details><summary>剧情推进演化系统</summary> 自动演化剧情:小迪奉命前往xx，王国公主xx。 外界新闻与变化： </details> </剧情推进演化系统>",
+      "description": "<剧情推进演化系统> - 按照以下要求进行推进剧情。 - 请按照提供的原著剧情，按照每个事件进行演化（注意{{user}}可以参与进事件，并且改变事件，改变剧情），结束所有事件后，达到剧情结尾（或者达到改变事件后的剧情结尾）。 - 自动演化剧情，请根据时间变化，按照原著剧情内容以及每个事件自动演化，一定要符合时间变化与真实，不要出现:才过一个小时，就发生了巨大变化这样不符合常理的。时间太短或造没有变化就不输出。 - 请首先引导{{user}}参与原著剧情,{{user}}可以改变原著剧情走向。 - {{user}}可以不在剧情中心，但是一定要根据真实发展，后台输出原著剧情发展。 - 请输出随时间变化所产生的外界新闻与变化，注意要符合时间尺度，没有变化就不输出。 - 确保<details>和<summary>标签正确闭合，按照以下格式输出： example:|- <details><summary>剧情推进演化系统</summary> 自动演化剧情:小迪奉命前往xx，王国公主xx。 外界新闻与变化： </details> </剧情推进演化系统>",
+      "sourceRef": "OVERLORD.worldbook.json#entry-72",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "mvu_plot-剧情推进演化规则"
+}

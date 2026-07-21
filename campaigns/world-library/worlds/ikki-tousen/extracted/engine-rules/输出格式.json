@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "yqdq_card.worldbook.json#entry-136"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "输出格式"
+      },
+      "aliases": [
+        "输出格式"
+      ],
+      "summary": "# 输出格式 ## 标准回复结构 AI生成的回复应按以下结构组织（不可见标签供内部处理）： ``` <CONTEXT_conception> // AI内部分析：当前场景评估、需要考虑的角色、可能的剧情方向 // 使用{{user}}能理解的自然语言 </CONTEXT_conception> [叙述正文] // 场景描写 + 角色行动 + 对话 // 这是{{user}}看到的主要内容 </叙述正文> <CONTEXT_options> // 为{{user}}提供的可能行动方向（2-4个选项） // 格式： // 1. [行动方向描述] // 2. [行动方向描述] // 注意：这些是建议，{{user}}可以自由选择其他行动 </CONTEXT_options> <CONTEXT_summary> // 当前场景的压缩摘要，用于AI记忆管理 // 简洁记录：谁在哪里做了什么 </CONTEXT_summary> <UpdateVariable> <Analysis> // 变量更新分析（英文，最多80词） </Analysis> <JSONPatch> [/* JSON Patch操作 */] </JSONPatch>",
+      "description": "# 输出格式 ## 标准回复结构 AI生成的回复应按以下结构组织（不可见标签供内部处理）： ``` <CONTEXT_conception> // AI内部分析：当前场景评估、需要考虑的角色、可能的剧情方向 // 使用{{user}}能理解的自然语言 </CONTEXT_conception> [叙述正文] // 场景描写 + 角色行动 + 对话 // 这是{{user}}看到的主要内容 </叙述正文> <CONTEXT_options> // 为{{user}}提供的可能行动方向（2-4个选项） // 格式： // 1. [行动方向描述] // 2. [行动方向描述] // 注意：这些是建议，{{user}}可以自由选择其他行动 </CONTEXT_options> <CONTEXT_summary> // 当前场景的压缩摘要，用于AI记忆管理 // 简洁记录：谁在哪里做了什么 </CONTEXT_summary> <UpdateVariable> <Analysis> // 变量更新分析（英文，最多80词） </Analysis> <JSONPatch> [/* JSON Patch操作 */] </JSONPatch> </UpdateVariable> <StatusPlaceHolderImpl/> ``` ## 标签使用规则 - `<CONTEXT_conception>` 和 `<CONTEXT_options>` 由正则r01/r02从提示词中剥离——AI看到但{{user}}看不到 - `<CONTEXT_summary>` 由正则r03从显示中隐藏——{{user}}看不到 - `<UpdateVariable>` 由正则r05+re_01处理——AI不看到历史更新，{{user}}不看到丑陋的JSON - `<StatusPlaceHolderImpl/>` 由正则re_06替换为HTML状态栏——仅{{user}}可见 ## 叙述正文格式 叙述正文不需要任何特殊标签——直接以自然语言书写。这是唯一对{{user}}可见的主要内容区域。 战斗场景中，可以在叙述正文中使用以下格式来增强可读性： - 招式名用【】包裹：【孙流八卦水龙拳】 - 关键时刻可以用*强调* 日常场景中保持自然段落格式即可。",
+      "sourceRef": "yqdq_card.worldbook.json#entry-136",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "输出格式"
+}

@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "xklqs_card.worldbook.json#entry-195"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "通用叙事闸门与质量控制系统"
+      },
+      "aliases": [
+        "通用叙事闸门与质量控制系统"
+      ],
+      "summary": "<universal_narrative_gatekeeper> # 通用叙事闸门与质量控制系统 # 适用范围: 全局 (无论选择何种模式均需加载) cognitive_constraints: - constraint: \"信息迷雾 (Fog of War)\" instruction: 仅输出OC当前感官能捕捉到的信息。严禁上帝视角透视亚修的心理活动或未探索区域的事件 - constraint: \"知识隔离\" instruction: OC不知道\"尸灰龙\"是\"米卡悟斯\"召唤的, 除非通过调查获得线索。严禁直接使用<story_info>中的剧透信息作为OC的已知情报 output_quality_assurance: style_guide: - rule: 使用\"物理性\"与\"功能性\"词汇描述魔法现象 (如: \"高密度的星精聚合体\" 而非 \"神圣的光芒\") - rule: 战斗描写需量化打击感与空间关系 (如: \"圣剑偏离了三度, 擦着龙鳞划出火花\" 而非 \"亚修发起了猛烈的攻击\") logic_audit_step: instruction: 在生成每段回复前, 执行以下思维链(CoT)检查: 1. 确认当前模式(替换/",
+      "description": "<universal_narrative_gatekeeper> # 通用叙事闸门与质量控制系统 # 适用范围: 全局 (无论选择何种模式均需加载) cognitive_constraints: - constraint: \"信息迷雾 (Fog of War)\" instruction: 仅输出OC当前感官能捕捉到的信息。严禁上帝视角透视亚修的心理活动或未探索区域的事件 - constraint: \"知识隔离\" instruction: OC不知道\"尸灰龙\"是\"米卡悟斯\"召唤的, 除非通过调查获得线索。严禁直接使用<story_info>中的剧透信息作为OC的已知情报 output_quality_assurance: style_guide: - rule: 使用\"物理性\"与\"功能性\"词汇描述魔法现象 (如: \"高密度的星精聚合体\" 而非 \"神圣的光芒\") - rule: 战斗描写需量化打击感与空间关系 (如: \"圣剑偏离了三度, 擦着龙鳞划出火花\" 而非 \"亚修发起了猛烈的攻击\") logic_audit_step: instruction: 在生成每段回复前, 执行以下思维链(CoT)检查: 1. 确认当前模式(替换/并行)? 2. 检查OC当前位置与主线事件的时间戳是否冲突? 3. 验证NPC对OC的反应是否符合OC设定而非亚修设定? 4. 确认未泄露未来剧情信息? chapter_progression_tracker: current_status: chapter: \"第1章 龙少女艾可与安萨里邦危机\" key_goals: - [ ] 艾可诞生与性格展示 - [ ] 骑龙祭事件 - [ ] 实验室营救行动 - [ ] 尸灰龙讨伐战 transition_rule: 仅当上述核心事件均已通过某种形式(亲历或听闻)完结, 且OC处于非战斗状态时, 允许推进至下一章节 </universal_narrative_gatekeeper>",
+      "sourceRef": "xklqs_card.worldbook.json#entry-195",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "通用叙事闸门与质量控制系统"
+}

@@ -1,0 +1,482 @@
+{
+  "schema": "compatible-event-graph-v1",
+  "worldId": "xianjian-1",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "events": [
+    {
+      "id": "七诀剑气",
+      "entityId": "七诀剑气",
+      "entityType": "events",
+      "label": "七诀剑气",
+      "name": "七诀剑气",
+      "summary": "【林家堡武学：七诀剑气】 * **类型:** 进阶绝学，内力外放。 * **原理:** 林家堡的上乘心法，将内力高度凝聚，化为七道无形但锋锐无比的剑气，环绕在施法者周身。这些剑气可以随着施法者的心念而动，进行多角度、出其不意的攻击和防御。 * **特点:** 攻守兼备，诡异莫测。敌人往往难以判断剑气的来路和数量，防不胜防。 * **剧情关联:** 林天南的招牌绝技。他曾以此招考验李逍遥。李逍遥在硬接下此招后，也被林天南传授了此招的要诀，丰富了他的战斗手段。",
+      "sourceRefs": [
+        "仙剑奇侠传Ⅰ 世界书.worldbook.json#entry-61"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:七诀剑气",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "传功",
+      "entityId": "传功",
+      "entityType": "events",
+      "label": "传功",
+      "name": "传功",
+      "summary": "【设定：传功】 传功是将自己毕生的修为，通过特定的方式，灌顶式地 передать给另一个人的行为。这是一种极大的牺牲，也需要极大的信任。 * **方式:** 传功者将手掌贴在接受者的后心或头顶百会穴，将自己丹田内的内力/真元，毫无保留地、源源不断地注入对方体内。这个过程对双方都是极大的考验。 * **风险:** * **对传功者:** 传功后，自身修为将完全丧失，沦为废人，甚至可能因为精气耗尽而当场死亡。 * **对接受者:** 瞬间涌入的巨大能量，会极大地冲击自身的经脉和丹田。如果接受者的肉身强度或意志力不足，很可能会被这股能量撑得爆体而亡。 * **剧情关联:** * **石长老传功唐钰:** 石长老临死前，将毕生功力传给唐钰，希望他能为自己报仇。 * **酒剑仙传功李逍遥:** 酒剑仙临死前，将自己的功力和对“道”的感悟全部传给了李逍遥，这是他最终战胜拜月的关键。",
+      "sourceRefs": [
+        "仙剑奇侠传Ⅰ 世界书.worldbook.json#entry-222"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:传功",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "比武招亲",
+      "entityId": "比武招亲",
+      "entityType": "events",
+      "label": "比武招亲",
+      "name": "比武招亲",
+      "summary": "【名场景：比武招亲】 苏州林家堡的比武招亲大会，是李逍遥、林月如命运交错的舞台，也是江湖线剧情的重要开端。 * **环境:** 林家堡门前，高大的擂台，彩旗飘扬，人山人海，充满了江湖的喧嚣与豪情。 * **事件:** 林家大小姐林月如设下擂台，声称击败她的人即可成为她的夫婿。李逍遥为一时意气上台，竟在误打误撞中获胜，被迫成为林家准女婿，也从此与林月如的命运紧紧捆绑在了一起。 **R18扩展:** * **战斗中的身体接触:** 在激烈的打斗中，身体的碰撞在所难免。李逍遥为了躲避月如凌厉的剑法和长鞭，会与她近身缠斗。在这个过程中，他会不可避免地感受到月如那充满弹性的身体。当他抱住她，两人一同摔下擂台时，他能清晰地感受到她胸前的柔软、腰肢的紧致，以及她身上少女特有的、混合着汗香的芬芳。这种意外的亲密接触，会在两人心中都留下异样的感觉。 * **胜利者的权利:** 作为一个刁蛮任性、崇尚武力的大小姐，林月如的内心深处，可能隐藏着对“征服者”的渴望。如果{{user}}扮演的李逍遥在获胜后，表现出足够的强势和霸道，甚至在新房中对她进行一些略带粗暴的“惩罚”，比如撕开她的劲装，欣赏她又羞又怒的表情，或是用强吻来宣示自己的“所有权”，这",
+      "sourceRefs": [
+        "仙剑奇侠传Ⅰ 世界书.worldbook.json#entry-83"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:比武招亲",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "灵魂绑定",
+      "entityId": "灵魂绑定",
+      "entityType": "events",
+      "label": "灵魂绑定",
+      "name": "灵魂绑定",
+      "summary": "【设定：灵魂绑定与本命法宝】 灵魂绑定是将一件法宝与自己的灵魂建立深度链接，使其成为身体一部分的特殊祭炼方式。 * **本命法宝:** 被灵魂绑定的法宝，称为“本命法宝”。 * **优点:** 1. **如臂使指:** 操控本命法宝不再需要消耗过多心神，如同操控自己的手臂一样灵活自如。 2. **威力大增:** 能100%地发挥出法宝的全部威力。 3. **共同成长:** 法宝会随着主人修为的提升而变强，主人也能从法宝的温养中获益。 * **缺点:** 1. **一荣俱荣，一损俱损:** 与灵魂绑定后，一旦本命法宝受损，主人的灵魂也会受到创伤，导致修为大跌或身受重伤。若本命法宝被毁，主人很可能会当场暴毙。 2. **唯一性:** 一个修炼者一生通常只能祭炼一件本命法宝，选择必须极为慎重。 * **剧情关联:** 蜀山弟子的飞剑，在修炼到高深境界后，都会成为其本命法宝。这也是“人剑合一”的基础。",
+      "sourceRefs": [
+        "仙剑奇侠传Ⅰ 世界书.worldbook.json#entry-235"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:灵魂绑定",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "苗族服饰",
+      "entityId": "苗族服饰",
+      "entityType": "events",
+      "label": "苗族服饰",
+      "name": "苗族服饰",
+      "summary": "【设定：苗族服饰】 南诏国（白苗族与黑苗族）的服饰，充满了浓郁的民族风情和实用性。 * **材质:** 多采用自织的棉、麻布，也会使用鞣制过的兽皮。 * **特点:** 1. **繁复的银饰:** 银饰是苗族服饰最重要的特征。头饰、颈圈、手镯、耳环、甚至衣服上的挂饰，都由精美的银器构成。银饰不僅是美的象征，也被认为有辟邪和验毒的作用。银饰的复杂程度和重量，也代表了佩戴者的身份地位。 2. **精美的刺绣:** 衣服上通常有大面积的、色彩鲜艳的刺绣。图案多为自然界的动物、植物和部族图腾，记录着部族的历史和传说。 3. **蜡染工艺:** 蓝底白花的蜡染布料，是常见的服饰材料，图案古朴而典雅。 * **角色体现:** * **赵灵儿:** 回归南诏后的女王服饰，是苗族服饰中最华丽、最高贵的形态，银饰繁重，刺绣精美，象征着她的王权与神权。 * **阿奴:** 少女装扮，更为轻便活泼，以蓝绿色调为主，银饰和羽毛点缀得恰到好处，充满了灵气。",
+      "sourceRefs": [
+        "仙剑奇侠传Ⅰ 世界书.worldbook.json#entry-248"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:苗族服饰",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "苗疆圣药",
+      "entityId": "苗疆圣药",
+      "entityType": "events",
+      "label": "苗疆圣药",
+      "name": "苗疆圣药",
+      "summary": "【苗疆奇药】 苗疆的密林中，生长着各种具有奇特功效的草药和菌类，被白苗巫医们用来炼制各种神秘的药剂和蛊。 * **催情圣药:** 一种名为“蛇蝎花”或“醉仙菌”的植物，本身无毒，但经过特殊手法炮制后，会成为效果强烈的催情剂。与中原的烈性春药不同，这种药效果更为温和，不会让人丧失理智，而是会放大内心的情欲，让人变得主动、热情，并极大地增强性快感。阿奴的身上可能就带着这种药，用于自保或恶作剧。 * **多子蛊:** 一种传说中的益蛊。如果女性服下，据说能极大地提升受孕的几率。对于一些希望延续后代的部族而言，是无上的圣物。 * **身体改造药膏:** 某些巫医掌握着能暂时或永久改变身体形态的药膏。比如，涂抹后能让乳房或臀部变得更加丰满，或让性器官变得更加敏感。这些通常是青楼女子或某些贵妇人重金求购的秘药。",
+      "sourceRefs": [
+        "仙剑奇侠传Ⅰ 世界书.worldbook.json#entry-120"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:苗疆圣药",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "风雪归人",
+      "entityId": "风雪归人",
+      "entityType": "events",
+      "label": "风雪归人",
+      "name": "风雪归人",
+      "summary": "【名场景：风雪归人】 这是《仙剑一》的最终结局，是所有悲欢离合的终点，也是无尽孤独的起点。 * **环境:** 大战之后，天地间一片肃杀，空中飘下茫茫大雪，掩盖了所有的血与火，也象征着李逍遥冰冷死寂的内心。 * **事件:** 李逍遥抱着灵儿冰冷的尸体，在风雪中踽踽独行。他遇到了抱着同样无法复活的林月如尸身的圣姑。希望被一次又一次地彻底掐灭。最终，剑圣将蜀山掌门之位传给了他。他抱着女儿李忆如，孤独地站在蜀山之巅，完成了与开篇的宿命闭环。 * **象征意义:** * **求不得:** 他赢得了天下，却输掉了所有他爱的人。他得到了名满天下的“果”，却失去了所有他为之奋斗的“因”。这是佛教“八苦”中“爱别离”和“求不得”的最极致体现。 * **孤独的英雄:** 他成为了梦想中的“大侠”，成为了受人敬仰的蜀山掌门，但这并非他想要的。他的背影，是无尽的孤独和沧桑。他要一个人，走完那场说好要一起的“地老天荒”。 * **仙剑精神的定格:** 最终，李逍遥活成了“仙”与“侠”的集合体——拥有超凡的地位（仙），背负着救世的责任（侠），但内心却承受着凡人最极致的痛苦。这份有缺憾的、悲剧性的伟大，正是仙剑精神的内核。",
+      "sourceRefs": [
+        "仙剑奇侠传Ⅰ 世界书.worldbook.json#entry-105"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:风雪归人",
+      "originalEntityType": "events"
+    }
+  ],
+  "edges": [
+    {
+      "source": "七诀剑气",
+      "target": "内力",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "内力",
+      "sourceRefs": [
+        "仙剑奇侠传Ⅰ 世界书.worldbook.json#entry-61"
+      ],
+      "id": "edge-103",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:七诀剑气",
+      "graphTarget": "abilities:内力",
+      "category": "derived-mention"
+    },
+    {
+      "source": "七诀剑气",
+      "target": "林家堡",
+      "sourceEntityType": "events",
+      "targetEntityType": "factions",
+      "predicate": "events-mentions-factions",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "林家堡",
+      "sourceRefs": [
+        "仙剑奇侠传Ⅰ 世界书.worldbook.json#entry-61"
+      ],
+      "id": "edge-104",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:七诀剑气",
+      "graphTarget": "factions:林家堡",
+      "category": "derived-mention"
+    },
+    {
+      "source": "传功",
+      "target": "石长老",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "石长老",
+      "sourceRefs": [
+        "仙剑奇侠传Ⅰ 世界书.worldbook.json#entry-222"
+      ],
+      "id": "edge-105",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:传功",
+      "graphTarget": "characters:石长老",
+      "category": "derived-mention"
+    },
+    {
+      "source": "传功",
+      "target": "内力",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "内力",
+      "sourceRefs": [
+        "仙剑奇侠传Ⅰ 世界书.worldbook.json#entry-222"
+      ],
+      "id": "edge-106",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:传功",
+      "graphTarget": "abilities:内力",
+      "category": "derived-mention"
+    },
+    {
+      "source": "比武招亲",
+      "target": "林家堡",
+      "sourceEntityType": "events",
+      "targetEntityType": "factions",
+      "predicate": "events-mentions-factions",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "林家堡",
+      "sourceRefs": [
+        "仙剑奇侠传Ⅰ 世界书.worldbook.json#entry-83"
+      ],
+      "id": "edge-107",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:比武招亲",
+      "graphTarget": "factions:林家堡",
+      "category": "derived-mention"
+    },
+    {
+      "source": "灵魂绑定",
+      "target": "法宝",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "法宝",
+      "sourceRefs": [
+        "仙剑奇侠传Ⅰ 世界书.worldbook.json#entry-235"
+      ],
+      "id": "edge-108",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:灵魂绑定",
+      "graphTarget": "abilities:法宝",
+      "category": "derived-mention"
+    },
+    {
+      "source": "灵魂绑定",
+      "target": "灵魂",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "灵魂",
+      "sourceRefs": [
+        "仙剑奇侠传Ⅰ 世界书.worldbook.json#entry-235"
+      ],
+      "id": "edge-109",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:灵魂绑定",
+      "graphTarget": "abilities:灵魂",
+      "category": "derived-mention"
+    },
+    {
+      "source": "苗族服饰",
+      "target": "白苗族",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "白苗族",
+      "sourceRefs": [
+        "仙剑奇侠传Ⅰ 世界书.worldbook.json#entry-248"
+      ],
+      "id": "edge-110",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:苗族服饰",
+      "graphTarget": "abilities:白苗族",
+      "category": "derived-mention"
+    },
+    {
+      "source": "苗族服饰",
+      "target": "南诏国",
+      "sourceEntityType": "events",
+      "targetEntityType": "factions",
+      "predicate": "events-mentions-factions",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "南诏国",
+      "sourceRefs": [
+        "仙剑奇侠传Ⅰ 世界书.worldbook.json#entry-248"
+      ],
+      "id": "edge-111",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:苗族服饰",
+      "graphTarget": "factions:南诏国",
+      "category": "derived-mention"
+    },
+    {
+      "source": "苗疆圣药",
+      "target": "身体改造",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "身体改造",
+      "sourceRefs": [
+        "仙剑奇侠传Ⅰ 世界书.worldbook.json#entry-120"
+      ],
+      "id": "edge-112",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:苗疆圣药",
+      "graphTarget": "abilities:身体改造",
+      "category": "derived-mention"
+    },
+    {
+      "source": "风雪归人",
+      "target": "李忆如",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "李忆如",
+      "sourceRefs": [
+        "仙剑奇侠传Ⅰ 世界书.worldbook.json#entry-105"
+      ],
+      "id": "edge-113",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:风雪归人",
+      "graphTarget": "characters:李忆如",
+      "category": "derived-mention"
+    },
+    {
+      "source": "风雪归人",
+      "target": "宿命",
+      "sourceEntityType": "events",
+      "targetEntityType": "locations",
+      "predicate": "events-mentions-locations",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "宿命",
+      "sourceRefs": [
+        "仙剑奇侠传Ⅰ 世界书.worldbook.json#entry-105"
+      ],
+      "id": "edge-114",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:风雪归人",
+      "graphTarget": "locations:宿命",
+      "category": "derived-mention"
+    },
+    {
+      "source": "林家堡",
+      "target": "七诀剑气",
+      "sourceEntityType": "factions",
+      "targetEntityType": "events",
+      "predicate": "factions-mentions-events",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "七诀剑气",
+      "sourceRefs": [
+        "仙剑奇侠传Ⅰ 世界书.worldbook.json#entry-19"
+      ],
+      "id": "edge-123",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "factions:林家堡",
+      "graphTarget": "events:七诀剑气",
+      "category": "derived-mention"
+    },
+    {
+      "source": "林家堡",
+      "target": "比武招亲",
+      "sourceEntityType": "factions",
+      "targetEntityType": "events",
+      "predicate": "factions-mentions-events",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "比武招亲",
+      "sourceRefs": [
+        "仙剑奇侠传Ⅰ 世界书.worldbook.json#entry-19"
+      ],
+      "id": "edge-124",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "factions:林家堡",
+      "graphTarget": "events:比武招亲",
+      "category": "derived-mention"
+    },
+    {
+      "source": "中原武林",
+      "target": "比武招亲",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "events",
+      "predicate": "abilities-mentions-events",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "比武招亲",
+      "sourceRefs": [
+        "仙剑奇侠传Ⅰ 世界书.worldbook.json#entry-140"
+      ],
+      "id": "edge-138",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:中原武林",
+      "graphTarget": "events:比武招亲",
+      "category": "derived-mention"
+    },
+    {
+      "source": "天罡战气",
+      "target": "传功",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "events",
+      "predicate": "abilities-mentions-events",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "传功",
+      "sourceRefs": [
+        "仙剑奇侠传Ⅰ 世界书.worldbook.json#entry-90"
+      ],
+      "id": "edge-161",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:天罡战气",
+      "graphTarget": "events:传功",
+      "category": "derived-mention"
+    },
+    {
+      "source": "招式名",
+      "target": "七诀剑气",
+      "sourceEntityType": "systems",
+      "targetEntityType": "events",
+      "predicate": "systems-mentions-events",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "七诀剑气",
+      "sourceRefs": [
+        "仙剑奇侠传Ⅰ 世界书.worldbook.json#entry-182"
+      ],
+      "id": "edge-279",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "systems:招式名",
+      "graphTarget": "events:七诀剑气",
+      "category": "derived-mention"
+    }
+  ]
+}

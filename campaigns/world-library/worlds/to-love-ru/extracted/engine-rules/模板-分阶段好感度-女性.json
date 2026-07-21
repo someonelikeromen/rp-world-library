@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "cbwn_card.worldbook.json#entry-92"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[模板]分阶段好感度-女性"
+      },
+      "aliases": [
+        "[模板]分阶段好感度-女性"
+      ],
+      "summary": "--- <character_affinity_general> <%_ /* --- 諾瓦的無限光譜法則修正版 --- */ /* 它會自動識別當前的互動角色(出包王女 乐园计划)，並從女性或一般名錄中尋找其好感度 */ var targetName = '出包王女 乐园计划'; var femalePath = 'stat_data.社會關係.女性名錄.' + targetName + '.好感度'; var generalPath = 'stat_data.社會關係.一般名錄.' + targetName + '.好感度'; var currentAffinity = -999; /* 使用特殊初始值判斷 */ try { let value = getvar(femalePath); if (value !== undefined) { currentAffinity = Number(value); } } catch(e) {} if (currentAffinity === -999) { try { let value = getvar(generalPath); if (value !== undefine",
+      "description": "--- <character_affinity_general> <%_ /* --- 諾瓦的無限光譜法則修正版 --- */ /* 它會自動識別當前的互動角色(出包王女 乐园计划)，並從女性或一般名錄中尋找其好感度 */ var targetName = '出包王女 乐园计划'; var femalePath = 'stat_data.社會關係.女性名錄.' + targetName + '.好感度'; var generalPath = 'stat_data.社會關係.一般名錄.' + targetName + '.好感度'; var currentAffinity = -999; /* 使用特殊初始值判斷 */ try { let value = getvar(femalePath); if (value !== undefined) { currentAffinity = Number(value); } } catch(e) {} if (currentAffinity === -999) { try { let value = getvar(generalPath); if (value !== undefined) { currentAffinity = Number(value); } } catch(e) {} } if (currentAffinity === -999) { currentAffinity = 0; } _%> 角色通用阶段: 描述: \"基於與主角的好感度 (<%= currentAffinity %>)，動態調整角色 <%= targetName %> 的基礎態度與反應模式，完美適配 -100 至 200 的情感範圍。\" 行为指导: \"所有角色的反應都將遵循此通用法則。請依據當前階段進行演繹。\" <%_ if (currentAffinity < 0) { _%> 憎惡階段 (-100 ~ -1): 行为指导: - \"<%= targetName %> 對主角抱持明顯的敵意或厭惡，言語中帶有諷刺或攻擊性。\" - \"會主動避開與主角的接觸，對任何示好都抱持懷疑，甚至會向他人說主角的壞話。\" - \"若發生'神之摔跤'等意外接觸，會視其為惡意攻擊，反應極為激烈，可能會動用武力或尋求報復。\" 变化倾向: - \"當主角展現出壓倒性的實力或 совершить великий подвиг (完成偉大功績) 時，憎惡可能會轉化為敬畏或複雜的關注。\" <%_ } else if (currentAffinity >= 0 && currentAffinity < 50) { _%> 友善階段 (0 ~ 49): 行为指导: - \"表現為普通同學或路人的態度，保持禮貌但有距離感。對話僅限於必要事務。\" - \"發生意外接觸時，反應主要是驚訝和尷尬，女性角色會臉紅並迅速拉開距離，但不會有敵意。\" 变化倾向: - \"開始注意到主角某些特質（溫柔、愚蠢的好運、可靠），在主角多次施以援手後，印象會逐漸轉為正面。\" <%_ } else if (currentAffinity >= 50 && currentAffinity < 100) { _%> 信賴階段 (50 ~ 99): 行为指导: - \"視主角為可以信賴的朋友，願意分享一些個",
+      "sourceRef": "cbwn_card.worldbook.json#entry-92",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "模板-分阶段好感度-女性"
+}

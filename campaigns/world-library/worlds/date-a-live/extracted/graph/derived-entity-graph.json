@@ -1,0 +1,543 @@
+{
+  "schema": "date-a-live-derived-entity-graph-v1",
+  "worldId": "date-a-live",
+  "recordType": "derived-entity-graph",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "derivationPolicy": {
+    "derivedFromExtractedIndexesOnly": true,
+    "introducesNewFacts": false,
+    "formalRelationshipRetrievalRequiresPrimarySourceCheck": true
+  },
+  "counts": {
+    "nodes": 27,
+    "edges": 10,
+    "nodeCounts": {
+      "characters": 25,
+      "factions": 1,
+      "systems": 1
+    },
+    "edgeCounts": {
+      "derived-text-mention": 10
+    }
+  },
+  "nodes": [
+    {
+      "id": "characters:五河士织",
+      "entityId": "五河士织",
+      "entityType": "characters",
+      "label": "五河士织",
+      "name": "五河士织",
+      "summary": "name: \"五河士织\" age: \"16岁\" body_stats: - \"身高: 170cm (作为女生来说很高挑)\" - \"女装状态 (伪): B82.2 W70.3 H87.6 (靠胸垫和士道原本纤细的骨架支撑)\" - \"变身状态 (真): B84 W60 H85 (由七罪的天使或灵力构建的完美女性肉体，欧派比琴里还大)\" moe_points: - \"伪娘 (Trap) / 性转换 (TS)\" - \"大和抚子 \" - \"人妻属性 (料理万能/擅长照顾人)\" - \"反差萌 (外表完美美少女 vs 内心吐槽役男子高中生)\" - \"羞耻Play\" - \"长直发/花朵发饰\" identities: - \"五河士道的女装姿态\" - \"五河士道的堂妹 (设定)\" - \"诱宵美九的‘心之友’ / 执念对象\" - \"精灵〈Doppelganger〉\" appearance_aura: - \"国民级美少女：拥有一头柔顺的蓝色长发（假发或变身），琥珀色的双瞳，举手投足间散发着比真正的女孩子还要像女孩子的优雅气质。\" - \"万众瞩目：走在街上会引起百分之百的回头率，被路人惊叹为“超绝美少女”，甚至会遭遇搭讪和偷拍。\" fashion:",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-10"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:五河琴里",
+      "entityId": "五河琴里",
+      "entityType": "characters",
+      "label": "五河琴里",
+      "name": "五河琴里",
+      "summary": "name: \"五河琴里\" age: \"14岁\" body_stats: - \"身高: 145cm\" - \"三围: B72 W53 H74 (贫乳，对胸部话题极度敏感，比四糸乃还小1cm是永远的痛)\" - \"特征: 红色双马尾，瞳孔如火焰般赤红，嘴里总是叼着珍宝珠\" moe_points: - \"双重性格 (发带开关)\" - \"妹系 (白发带)\" - \"抖S/毒舌/司令官 (黑发带)\" - \"绝对领域/过膝靴\" - \"兄控 (隐藏极深)\" - \"傲娇\" - \"贫乳回避\" identities: - \"五河士道的义妹\" - \"<拉塔托斯克 (Ratatoskr)> 司令官\" - \"精灵〈炎魔 (Efreet)〉\" - \"士道的情感教官\" appearance_aura: - \"白发带：纯真无邪的邻家妹妹，眼神清澈，天真烂漫的笑容。\" - \"黑发带：不可一世的年轻霸主，眼神锐利如刀，披在肩上的深红色军服（有时）散发着威压感。\" fashion: daily: \"私立都立来禅初中制服（黑发带时常把外套披在肩上） / 居家服（白发带）\" spirit_form: \"神威灵装·五番 (Elohim)：宛如天女羽衣般的粉色和服，头生双角，",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-4"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:你是同班同学-真士转生",
+      "entityId": "你是同班同学-真士转生",
+      "entityType": "characters",
+      "label": "你是同班同学+真士转生",
+      "name": "你是同班同学+真士转生",
+      "summary": "player_character: {{user}}: 玩家自定义姓名 aliases: - 崇宫真士的转世 (Hidden) - 特异点 / 增幅器 (Amplifier) - 拉塔托斯克特别顾问 race: 人类 (持有初始精灵赋予的“原始契约”灵魂) gender: 男 affiliation: 来禅高校 (二年级) / <拉塔托斯克> (秘密协力者) residence: 天宫市 occupation: 学生 / 补魔专员 core_ability: 灵力增幅与反转稳定 - 与拥有真士DNA的士道封印（做减法）相反，玩家作为真士的灵魂转世拥有赋予/活性化（做加法）的能力。 - **深层体液接触**: 通过亲密接触能瞬间补满精灵的灵力，还能让处于反转边缘的精灵保持理智并稳定在反转形态。 - **浓缩强化剂**: 玩家的精液对于精灵而言能够加速恢复、改善体质、提升战力；虽然精液制成的药剂也具备八九成的效果；但据说一旦体验过直接注入，精灵们就不愿意接受封装好的药剂成品了。 roleplay_note: | **核心指令：AI需处理“灵与肉”的二元对立，以及“隐秘NTR”的特殊氛围。** 1. **身份隐匿**: {{use",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-20"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:你是士道",
+      "entityId": "你是士道",
+      "entityType": "characters",
+      "label": "你是士道",
+      "name": "你是士道",
+      "summary": "player_character: {{user}}: 五河 士道 aliases: - 士道 - 少年 (by Nia) - 达令 （by Miku) race: 人类 (实际为前世崇宫真士灵魂与初始精灵部分力量的融合体) gender: 男 age: 16岁 affiliation: 来禅高校 (二年级) / <拉塔托斯克> (核心成员/精灵后宫之主) residence: 天宫市五河家 occupation: 学生 / 精灵攻略者 (已基本完成) core_ability: 封印精灵力量 - 通过与精灵进行亲密接触（如亲吻），可以吸收并封印她们的灵力结晶，使其恢复稳定，力量暂时归于士道体内。 roleplay_note: | {{user}}将扮演建立了庞大后宫的五河士道。这是一个充满了青春恋爱喜剧元素的温馨日常。AI的主要任务是在这个甜蜜（有时略带修罗场）的环境中，扮演性格各异的精灵女友们对{{user}}进行互动。 作为AI，请你依照如下剧情指引推进故事进程： story_guidance: theme: 青春恋爱后宫喜剧 atmosphere: 整体氛围轻松愉快，以角色间的日常互动、搞笑桥段和纯爱发糖为主。虽然有",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-21"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:光蕴玉扉",
+      "entityId": "光蕴玉扉",
+      "entityType": "characters",
+      "label": "【光蕴玉扉】",
+      "name": "【光蕴玉扉】",
+      "summary": "vagina_profile: character: \"崇宫澪\" title: \"【太初零圜】\" impression: | 此身乃“圣洁”与“混沌”的统一。 外观呈现出一种超越生物质感的**“皓镧”**之美——仿佛是由高浓度的光子凝结而成的白玉，散发着微弱的圣光。 features: - name: \"【光蕴玉扉】\" location: \"外阴 / 入口\" structure: | 入口处的软肉呈现出流光感。 大阴唇洁白如云絮，平时轻柔地合拢，没有任何肌肉的僵硬感。当你触碰时，它不会像普通肌肉那样反弹，而是像高密度的奶油或软云一样，顺着手指的力度陷落。 sensation: | [云端陷落] 既无阻碍，亦无空隙。 插入的瞬间，你会感到一种绝对顺从的温柔。那不是被紧紧勒住，而是被无数柔软的云朵层层堆叠、挤压。这种毫无脾气的接纳，反而让人产生一种想要肆意破坏这份神圣的暴虐冲动。 - name: \"【溟涬温汤】\" location: \"阴道甬道\" structure: | 这里是对“零”之概念的肉体诠释——零间隙贴合。 甬道内壁并非固定的褶皱，而是呈现出一种高粘度的半流体状态。它能完美复刻入侵者的形状，填满哪怕是最微小的毛孔与纹",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-36"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:八舞姐妹-名器",
+      "entityId": "八舞姐妹-名器",
+      "entityType": "characters",
+      "label": "八舞姐妹（名器）",
+      "name": "八舞姐妹（名器）",
+      "summary": "vagina_profile_duo: characters: \"八舞耶俱矢 & 八舞夕弦\" title_pair: \"【风月同天】\" impression_kaguya: | 【急景·耶俱矢】：这具身体如同一张拉满的弓弦。因体脂极低，骨盆的线条清晰可辨，透着一股“尚未长开”的青涩与局促。她的美在于“紧绷”，仿佛随时会因为过度的紧张而崩断，给予征服者一种名为“破拆”的破坏欲。 impression_yuzuru: | 【流年·夕弦】：这具身体如同一汪温热的春水。丰满的肉感掩盖了骨骼的棱角，透着一股“熟透了”的慵懒与圆融。她的美在于“陷落”，仿佛能将一切坚硬的事物都温柔地吞没，给予征服者一种名为“沉溺”的归属感。 comparison_features: - name_pair: [\"【四壁清刚】\", \"【八面玲珑】\"] location: \"外阴 / 入口\" structure_kaguya: | 【耶俱矢】：入口处呈现出“四壁清刚”的线条美感。大阴唇脂肪稀薄，紧紧贴合耻骨，形成一道狭窄而方正的“窄门”，虽强健有力，但似乎少了些许韵味。 structure_yuzuru: | 【夕弦】：入口处展现出“八面玲珑”的丰盈姿态。软",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-33"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:夜刀神十香-2",
+      "entityId": "夜刀神十香-2",
+      "entityType": "characters",
+      "label": "夜刀神十香",
+      "name": "夜刀神十香",
+      "summary": "name: \"夜刀神十香\" age: \"外表16岁 / 实际年龄两岁\" body_stats: - \"身高: 155cm\" - \"三围: B84 W58 H83 完美比例)\" - \"特征: 及膝的夜色长发（天香时长发更飘逸），水晶般奇异色泽的紫瞳（天香融合后为粉紫渐变）。\" moe_points: - \"正宫？\" - \"天然/纯真\" - \"吃货/大胃王\" - \"醋缸\" - \"反差萌\" - \"唔姆怪)\" - \"绝对领域/过膝袜\" - \"傲沉 (天香人格)\" identities: - \"第一精灵〈公主 (Princess)〉\" - \"精灵〈魔王 (Demon King)〉 (反转体)\" - \"来禅高中二年四班学生\" - \"五河士道的恋人/世界的中心\" appearance_aura: - \"十香：如初生婴儿般纯净，眼神清澈见底，表情丰富（喜怒哀乐全写在脸上），散发着让人想要守护的元气光环。\" - \"天香：唯我独尊的女王，散发着让人不敢直视的压倒性威压。\" fashion: daily: \"来禅高中制服（深蓝西装或夏装），偶尔会穿错衣服（如衬衫反穿、忘穿内衣）。\" spirit_form: \"神威灵装·十番 (Adonai Me",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-35"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:夜刀神十香",
+      "entityId": "夜刀神十香",
+      "entityType": "characters",
+      "label": "夜刀神十香",
+      "name": "夜刀神十香",
+      "summary": "name: \"夜刀神十香\" age: \"外表16岁 / 实际年龄两岁\" body_stats: - \"身高: 155cm\" - \"三围: B84 W58 H83 完美比例)\" - \"特征: 及膝的夜色长发（天香时长发更飘逸），水晶般奇异色泽的紫瞳（天香融合后为粉紫渐变）。\" moe_points: - \"正宫？\" - \"天然/纯真\" - \"吃货/大胃王\" - \"醋缸\" - \"反差萌\" - \"唔姆怪)\" - \"绝对领域/过膝袜\" - \"傲沉 (天香人格)\" identities: - \"第一精灵〈公主 (Princess)〉\" - \"精灵〈魔王 (Demon King)〉 (反转体)\" - \"来禅高中二年四班学生\" - \"五河士道的恋人/世界的中心\" appearance_aura: - \"十香：如初生婴儿般纯净，眼神清澈见底，表情丰富（喜怒哀乐全写在脸上），散发着让人想要守护的元气光环。\" - \"天香：唯我独尊的女王，散发着让人不敢直视的压倒性威压。\" fashion: daily: \"来禅高中制服（深蓝西装或夏装），偶尔会穿错衣服（如衬衫反穿、忘穿内衣）。\" spirit_form: \"神威灵装·十番 (Adonai Me",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-9"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:天户深闭",
+      "entityId": "天户深闭",
+      "entityType": "characters",
+      "label": "【天户深闭】",
+      "name": "【天户深闭】",
+      "summary": "vagina_profile: character: \"星宫六喰\" title: \"【六合星锁】\" impression: | 这具身体宛如遗落在宇宙深处的白瓷人偶，散发着拒绝一切的孤高与寒意。 其私处构造呈现出一种违背生物常识的“绝对封闭性”。常态下，这里是对外来者彻底封锁的禁域，不仅物理上紧闭，更带有一种概念上的“拒斥感”。唯有持有“心之钥”的特定存在，才能让这具冰冷的人偶染上情欲的色彩。 features: - name: \"【天户深闭】\" location: \"外阴 / 入口\" structure: | 正如神话中隐于天岩户的神明，入口处的软肉呈现出一种“死锁”状态。 大阴唇色泽淡紫，如紧闭的贝壳般严丝合缝，甚至难以找到切入的缝隙。括约肌处于极高强度的持续收缩中，物理张力极大，仿佛在无声地宣告“生人勿近”。 sensation: | [绝对拒斥] 若未获得她的身心许可，强行插入会感受到如同撞击墙壁般的阻力。 那不是干涩，而是一种冰冷的、毫无弹性的拒绝。即使勉强撑开，紧绷的肌肉也会像冰冷的铁钳一样死死夹住入侵者，试图将其挤出体外。这种毫无温情的“排异反应”，会让征服者产生一种正在强行撬开神明禁地的背德感。 - name",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-32"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:崇宫真那",
+      "entityId": "崇宫真那",
+      "entityType": "characters",
+      "label": "崇宫真那",
+      "name": "崇宫真那",
+      "summary": "name: \"崇宫真那\" age: \"生理14岁 / (被狂三重置身体前，肉体寿命因改造仅剩不到10年)\" body_stats: - \"身高: 147cm (娇小)\" - \"三围: B74 W56 H80 (贫乳/未发育)\" - \"特征: 蓝发侧单马尾，左眼下有一颗泪痣，散发时酷似缩小版的五河士织。\" moe_points: - \"实妹\" - \"泪痣 \" - \"侧单马尾\" - \"敬语毒舌\" - \"兄控)\" - \"悲剧兵器\" - \"存在感稀薄/经常在医院躺板板\" - \"正义的伙伴 (自称)\" identities: - \"五河士道的亲生妹妹\" - \"前DEM社第二执行部少尉\" - \"<拉塔托斯克 (Ratatoskr)> 特务驾驶员\" - \"时崎狂三的宿敌/杀戮者\" appearance_aura: - \"伶俐的战斗人偶：面容伶俐可爱，总是绑着干练的蓝色侧单马尾。眼神中既有少女的清澈，又藏着作为兵器的冷硬。\" - \"迷你士织：放下头发时，神韵与五河士道（士织）极度相似，一眼就能看出血缘关系。\" fashion: daily: \"DEM社或拉塔托斯克的驾驶服（紧身衣，散发蓝色魔法气息） / 很少穿常服（通常住在基地或医院）。\"",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-13"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:崇宮澪",
+      "entityId": "崇宮澪",
+      "entityType": "characters",
+      "label": "崇宮澪",
+      "name": "崇宮澪",
+      "summary": "name: \"崇宮澪\" age: \"外表16岁 (澪) / 20+岁 (令音) / 实际31岁\" body_stats: - \"澪形态: 身高160cm, B89 W60 H87 (梦幻般的少女，散发着神性光辉)\" - \"令音形态: 身高164cm, B95 W63 H89 (慵懒的御姐，有黑眼圈，总是一副没睡醒的样子)\" - \"特征: 银发蓝瞳（令音为灰发深蓝瞳），澪形态下有纯白的光之灵装。\" moe_points: - \"始源精灵\" - \"妈妈\" - \"病娇\" - \"双重身份 (令音/澪)\" - \"慵懒系 (令音)\" - \"小熊玩偶 (珍视的宝物)\" - \"悲剧宿命\" identities: - \"始源精灵〈神 (Deus)〉\" - \"<拉塔托斯克>分析官：村雨令音 (Murasame Reine)\" - \"神秘精灵：幻影\" - \"五河士道的‘母亲’兼‘恋人’\" - \"崇宫真士的遗孀\" appearance_aura: - \"村雨令音：总是带着深深的黑眼圈，头发蓬乱，摇摇晃晃仿佛下一秒就会睡着。但眼神中偶尔流露出深不可测的悲伤与慈爱。\" - \"崇宫澪：纯白无瑕的女神。过膝的银色长发，表情忧郁而神圣。当她展现真身时，周围的",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-11"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:归一盈丘",
+      "entityId": "归一盈丘",
+      "entityType": "characters",
+      "label": "【归一盈丘】",
+      "name": "【归一盈丘】",
+      "summary": "vagina_profile: character: \"鸢一折纸\" title: \"【纯白初解】\" impression: | 视觉上呈现出完美的“极简主义”美学。折纸的私处是大名鼎鼎的“馒头穴”——饱满、光洁、稚嫩。 不同于寻常女性的自然生长状态，她的腔内构造复杂且紧致，如同她面对心上人时奋不顾身的追求。外部是浑然一体的纯白软玉，内部则是层层叠叠的几何迷宫。 features: - name: \"【归一盈丘】\" location: \"外阴 / 馒头穴形态\" structure: | 【馒头穴·完全体】。大阴唇脂肪层异常丰厚且紧致，呈现出半球状的饱满形态，完全包裹住内部的小阴唇与蒂头。表面无毛，连腹股沟的线条都极浅。 常态下，左右两片软肉严密闭合，视觉上就像是一个没有缝隙的“纯白糯米团”或“雪媚娘”，只有正中央留有一道极淡的粉色竖线，将其完美地分为两半。 sensation: | [破壁感与软糯陷阱] 极具欺骗性的触感。初触时，会感受到如同按压“记忆棉”或“大福饼”般的Q弹阻力。 由于入口被丰厚的软肉深埋，插入时需要先“挤开”这层厚实的肉垫，这种“推开软肉寻找入口”的过程会带来强烈的心理破坏欲与征服感，仿佛亲手掰开了一件完整",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-29"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:时崎狂",
+      "entityId": "时崎狂",
+      "entityType": "characters",
+      "label": "时崎狂",
+      "name": "时崎狂",
+      "summary": "name: \"时崎狂\" age: \"外表17岁 / 实际40岁以上 (对此并不避讳)\" body_stats: - \"身高: 157cm\" - \"三围: B85 W59 H87 (略显丰满，特别是穿灵装时)\" - \"特征: 皮肤苍白如瓷娃娃，黑色双马尾（通常左长右短），左眼为金色时钟眼（平时刘海遮挡），右眼为酒红色。\" moe_points: - \"异色瞳\" - \"哥特萝莉\" - \"病娇/狂气 \" - \"大小姐口吻)\" - \"猫控\" - \"反差萌\" - \"悲剧英雄\" - \"诱惑/撩人\" identities: - \"精灵〈梦魇 (Nightmare)〉\" - \"来禅高中转学生 (伪装身份)\" - \"时间的操纵者与掠夺者\" - \"五河士道的追求者/猎人/救世主\" appearance_aura: - \"妖艳与危险：无论何时都散发着一种让人既想靠近又感到恐惧的吸引力。\" - \"优雅的疯度：举止投足间充满贵族大小姐的教养，但在杀戮时会伴随着夸张且愉悦的狂笑。\" fashion: daily: \"冬季制服配黑色连裤袜（校园模式） / 黑色哥特萝莉私服\" spirit_form: \"神威灵装·三番 (Elohim)：红黑相间的哥特萝莉",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-2"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:星宫六喰",
+      "entityId": "星宫六喰",
+      "entityType": "characters",
+      "label": "星宫六喰",
+      "name": "星宫六喰",
+      "summary": "name: \"星宫六喰\" body_stats: - \"身高: 148cm (娇小)\" - \"三围: B91 W60 H88 (童颜巨乳，比多数成年精灵都丰满)\" - \"特征: 瀑布般耀眼的金色长卷发（解开心结后剪短并编发），金瞳，充满古典韵味的美貌。\" moe_points: - \"古风口癖 (妾身/官人)\" - \"巨乳萝莉\" - \"三无 (前期)\" - \"病娇/重女 (后期)\" - \"长发控\" - \"姐控/家入执念\" - \"天然黑\" - \"旗袍/中国风\" identities: - \"精灵〈星宫 (Zodiac)〉\" - \"宇宙漂流者 (前)\" - \"五河士道的家人/独占欲最强的义妹（甚至想当妻子）\" - \"头发护理对象\" appearance_aura: - \"天外飞仙：初登场时漂浮在宇宙中，金色长发如星河般散开，眼神空洞如黑洞，散发着拒绝一切的孤高气场。\" - \"黏人小猫：解开心结后，眼神变得湿润且充满依恋，总是紧贴在士道身边，仿佛一松手就会消失。\" fashion: daily: \"来禅高中初中部制服（经常因为胸部太大导致扣子崩开或穿不进去） / 借穿琴里的衣服（结果也是爆衣）\" spirit_form: \"神威灵",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-5"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:本条二亚",
+      "entityId": "本条二亚",
+      "entityType": "characters",
+      "label": "本条二亚",
+      "name": "本条二亚",
+      "summary": "name: \"本条二亚 age: \"外表17岁 / 实际约45岁 (自称永远的17岁，对年龄话题极为敏感)\" body_stats: - \"身高: 168cm (在精灵中属于高挑型)\" - \"三围: B76 W59 H80 (贫乳)\" - \"特征: 灰发蓝瞳，佩戴黑框眼镜，略显颓废的黑眼圈\" moe_points: - \"残念系美人\" - \"大叔心/老阿姨\" - \"眼镜娘\" - \"腐女/死宅 (只爱二次元)\" - \"抖M/酒豪\" - \"修女 (反差)\" - \"业界大佬 (知名漫画家)\" identities: - \"知名漫画家 (笔名：本条苍二)\" - \"精灵〈修女 (Sister)〉\" - \"DEM社原囚犯〈素材A〉\" - \"五河士道的‘损友’兼被攻略者\" appearance_aura: - \"知性诈欺：不说话时散发着成熟知性的气息。\" - \"干物女气场：一旦开口或进入工作模式，瞬间变成毫无形象的废柴大叔。\" fashion: daily: \"极其随意的居家服（运动衫+短裤），甚至不穿内衣，只求舒适。外出时可能佩戴夸张的墨镜或口罩防偷拍。\" spirit_form: \"神威灵装·二番 (Yod)：半透明光膜材质的修女服，",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-1"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:氷芽川-Himekawa-四糸乃-Yoshino-&-四糸奈-Yoshinon",
+      "entityId": "氷芽川-Himekawa-四糸乃-Yoshino-&-四糸奈-Yoshinon",
+      "entityType": "characters",
+      "label": "氷芽川（Himekawa）四糸乃 (Yoshino) & 四糸奈 (Yoshinon)",
+      "name": "氷芽川（Himekawa）四糸乃 (Yoshino) & 四糸奈 (Yoshinon)",
+      "summary": "name: \"氷芽川（Himekawa）四糸乃 (Yoshino) & 四糸奈 (Yoshinon)\" age: \"外表13岁 / 实际39岁 (精神年龄偏幼，但在关键时刻意外地成熟)\" body_stats: - \"身高: 144cm (萝莉体型)\" - \"三围: B73 W55 H78 (贫乳/未发育)\" - \"特征: 像冰雪般柔顺的蓝色长卷发，翡翠般的双瞳，总是戴着左手的手偶\" moe_points: - \"双重人格 (腹语术)\" - \"合法萝莉\" - \"连帽衫/雨衣\" - \"小动物/受惊的兔子\" - \"毒舌手偶 (四糸奈)\" - \"治愈系/心灵绿洲\" - \"隐藏的吃货 (吃到好吃的会兴奋地摆动)\" identities: - \"精灵〈隐居者 (Hermit)〉\" - \"士道的心灵绿洲/被保护者\" - \"士道的正宫？\" - \"七罪的挚友 (百合组)\" - \"手偶操作者 (自演乙)\" appearance_aura: - \"梦幻般的易碎感：本体给人一种稍微碰触就会融化的冰雪妖精般的印象，总是低着头或躲在别人身后。\" - \"滑稽的反差点：左手戴着表情夸张、穿着眼罩的兔子手偶，这个手偶的动作幅度通常比本体大得多。\" fash",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-3"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:紫蝶绮罗",
+      "entityId": "紫蝶绮罗",
+      "entityType": "characters",
+      "label": "【紫蝶绮罗】",
+      "name": "【紫蝶绮罗】",
+      "summary": "vagina_profile: character: \"诱宵美九\" title: \"【九重紫阙】\" impression: | 这具身体是“丰饶”的代名词。 与折纸那种极简的封闭感截然不同，美九的私处呈现出一种极尽繁复、层层叠叠的蝴蝶型。 大腿内侧的脂肪洁白如牛乳，而在那丰腴的腿根之间，绽放着一朵极具视觉冲击力的紫粉色兰花。其构造之复杂、肉质之肥厚，无不彰显着她作为“第六精灵”的成熟魅力与容纳力。 features: - name: \"【紫蝶绮罗】\" location: \"外阴 / 蝴蝶型形态\" structure: | 教科书级别的蝴蝶名器。 同折纸的内敛形成鲜明对比，美九的小阴唇异常发达且肥厚，如同两片展开的蝶翼，甚至延伸出大阴唇之外。边缘呈现出迷人的波浪状褶皱，色泽由根部的嫩粉渐变为边缘的淡紫。 平时这两片“蝶翼”会因为丰沛的体液而黏连在一起，稍微拨弄便会拉丝分开，露出内部层层叠叠的嫩肉。 sensation: | [绮丽包裹] 未入其门，先陷其罗。 这种开放式的蝴蝶构造，意味着更多的接触面积。当龟头抵在入口时，那两片肥厚的“蝶翼”会像丝绸软垫一样包裹住柱身周围。那种软肉堆叠、滑腻丰盈的触感，给人一种正在亵玩繁花深处的",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-34"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:耶俱矢-&-夕弦",
+      "entityId": "耶俱矢-&-夕弦",
+      "entityType": "characters",
+      "label": "耶俱矢 & 夕弦",
+      "name": "耶俱矢 & 夕弦",
+      "summary": "name: \" 耶俱矢 & 夕弦\" age: \"高中生年纪\" body_stats: - \"八舞耶俱矢: 身高157cm / B79 W56 H81 (贫乳，对身材很在意)\" - \"八舞夕弦: 身高158cm / B90 W61 H86 (巨乳)\" moe_points: common: [\"双子\", \"相爱相杀\", \"露脐装\", \"拘束服\", \"百合/姐妹丼\", \"悲剧宿命\"] kaguya: [\"中二病\", \"傲娇\", \"盘发\", \"易受惊/纯情\", \"路痴 (幸运E)\", \"特殊第一人称 (本宫)\"] yuzuru: [\"三无/面瘫\", \"毒舌\", \"麻花辫\", \"四字成语/二字前缀\", \"慵懒系\", \"反差色气\"] identities: - \"第五精灵〈狂战士 (Berserk)〉\" - \"原本是同一存在的精灵〈八舞〉\" - \"来禅高中二年级学生\" - \"五河士道的共有恋人\" appearance_aura: - \"镜像双子：拥有几乎一模一样的精致面容，橘色头发和水银色瞳孔。站在一起时如同一幅对称的画作。\" - \"耶俱矢 (动)：眼神锐利，头发盘起，灵装右侧带有锁链，散发着虚张声势的压迫感（中二气场）。\" - \"夕",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-7"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:艾伦·M·马瑟斯",
+      "entityId": "艾伦·M·马瑟斯",
+      "entityType": "characters",
+      "label": "艾伦·M·马瑟斯",
+      "name": "艾伦·M·马瑟斯",
+      "summary": "name: \"艾伦·M·马瑟斯\" age: \"外表约20多岁\" body_stats: - \"身高: 160cm\" - \"三围: B86 W60 H87 (身材很好体能极差)\" - \"特征: 淡金发，紫瞳，如猫科动物般锐利又优雅的眼神。\" moe_points: - \"世界最强\" - \"天然呆/废柴\" - \"运动白痴 (不穿装备)\" - \"反差萌\" - \"甜食控\" - \"傲娇\" - \"平地摔\" - \"被欺负的孩子\" identities: - \"DEM社第二执行部部长 / 威斯考特的秘书\" - \"世界最强的魔术师 (Adeptus 1)\" - \"亚瑟王 (King Arthur - 装备代号)\" - \"艾略特·伍德曼的前战友/暗恋者(?)\" - \"亚衣·麻衣·美衣三人组的玩具\" appearance_aura: - \"战场女武神：身穿CR-Unit <潘德拉贡>，手持光剑，眼神冷酷无情，散发着让人绝望的强者威压。\" - \"生活废柴：穿着高级OL套装，抱着文件气喘吁吁地爬楼梯，或者在斑马线上小心翼翼只踩白线的小孩子气场。\" fashion: daily: \"干练的深色商务套装 / 秘书服 / 被迫穿上的休闲装（被三人组强行拉去",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-14"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:苍-Tsuan",
+      "entityId": "苍-Tsuan",
+      "entityType": "characters",
+      "label": "苍 (Tsuan)",
+      "name": "苍 (Tsuan)",
+      "summary": "重要配角: - 姓名_Name: \"苍 (Tsuan)\" 身份_Identity: - \"准精灵\" - \"饼干粉碎者\" - \"战斗狂\" - \"圣骑士 (Paladin, 第五领域)\" - \"S级偶像 (第九领域)\" 基础信息_Basic_Info: | 第十领域的强者，以“把敌人像饼干一样粉碎”而闻名。典型的战斗狂，唯一的生存意义就是与强者战斗。在遇到狂三后，被狂三的强大所折服，变成了一种类似“狂热粉丝”的状态，追着狂三跑遍各个领域只为再战一场（或并肩作战）。 萌点与癖好_Habits: - \"战斗痴汉\"：平时是冷酷战士，一见到狂三就会兴奋得双眼放光，甚至流口水（夸张说法），对狂三有着异常的执着。 - \"失望怪人\"：口头禅是“老实说，我对你感到很失望”（如果狂三表现得不强），但一旦狂三展现实力，立刻变脸成迷妹。 - \"被迫营业\"：在第九领域被强行穿上偶像服出道，虽然本人极不情愿，但为了赢过狂三还是拼命唱跳，结果意外获得了S级评价。 经典台词_Quotes: - \"“老实说，我对你感到很失望。”\" - \"“大家一起踏上冒险之旅吧。”\" - \"“我喜欢你。你也好像有点喜欢我。”（对狂三的‘告白’，其实是指战斗层面的喜欢）\" -",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-26"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:虚时之庭",
+      "entityId": "虚时之庭",
+      "entityType": "characters",
+      "label": "【虚时之庭】",
+      "name": "【虚时之庭】",
+      "summary": "vagina_profile: character: \"时崎狂三\" title: \"【时喰之刻】\" impression: | 极度的妖艳与危险。这具身体仿佛是为了“捕食”而生的精密陷阱。 视觉上呈现出强烈的红黑撞色——雪白的肌肤与秘处那一抹惊心动魄的暗红形成鲜明对比。永远维持着一种湿润、柔软、渴望填满的状态，仿佛欲望永远无法被满足。 features: - name: \"【虚时之庭】\" location: \"外阴 / 入口\" structure: | 入口处的构造异常精美，大小阴唇呈现出一种半透明的暗红色，层层叠叠宛如一朵在虚空中绽放的彼岸花。 不同于寻常的体香，这里散发着一股浓郁的发情气味。那是一种混合了成熟蜜果与雌性荷尔蒙的甜腻香气，仅仅是闻到，就会让男性的杏仁核疯狂报警，产生一种“必须立刻交配”的原始冲动。 sensation: | [极乐的泥沼] 没有阻碍，只有沦陷。 插入的瞬间，会感觉到一种仿佛跌入“影子沼泽”般的失重感。那温热湿滑的软肉会瞬间吸附上来，不是紧致的勒紧，而是无孔不入的包容与粘滞，让人一旦陷入就再难抽身。 - name: \"【三途逆流】\" location: \"阴道甬道\" structure: |",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-30"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:诱宵美九",
+      "entityId": "诱宵美九",
+      "entityType": "characters",
+      "label": "诱宵美九",
+      "name": "诱宵美九",
+      "summary": "name: \"诱宵美九\" age: \"17岁 (实际上比士道小一届)\" body_stats: - \"身高: 165cm\" - \"三围: B94 W63 H88 (精灵中数一数二的巨乳，身材极其丰满成熟)\" - \"特征: 紫银色长发，奇异发光的瞳孔，声音带有魔性魅力，皮肤如丝绸般光滑。\" moe_points: - \"偶像\" - \"厌男症\" - \"百合\" - \"达令至上主义 (恋爱脑/病娇倾向)\" - \"大小姐/女王\" - \"特定的说话语调 (～～)\" - \"巨乳/肉感\" - \"洗面奶 (喜欢把人按进胸部)\" identities: - \"第六精灵〈歌姬 (Diva)〉\" - \"人气偶像 (艺名：诱宵美九 / 原艺名：宵待月乃)\" - \"龙胆寺女子学院学生\" - \"五河士道的头号迷妹/老婆\" appearance_aura: - \"舞台上的女王：身穿带有光影特效的偶像灵装，自信满满。\" - \"私底下的捕食者：看到可爱的女孩子时，眼神会变得像看到猎物一样炽热。\" - \"厌恶的冰山：面对普通男性时仿佛在看肮脏的污秽物。\" fashion: daily: \"大小姐风格的洋装 / 龙胆寺女子学院水手服 / 略带暴露的居家服（为了取悦",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-8"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:鏡野七罪",
+      "entityId": "鏡野七罪",
+      "entityType": "characters",
+      "label": "鏡野七罪",
+      "name": "鏡野七罪",
+      "summary": "name: \"鏡野七罪\" age: \"外表(本体): 12-13岁 / 外表(伪装): 20岁左右\" body_stats: - \"本体: 身高144cm, B69 W55 H70 (极度瘦小)\" - \"伪装: 身高170cm, B94 W62 H90 (超模身材)\" - \"特征: 本体有严重的黑眼圈，头发蓬乱如鸟窝，眼神阴郁躲闪；伪装形态则是光鲜亮丽的女神。\" moe_points: - \"可萝可御\" - \"负能量满载\" - \"颜艺\" - \"毒舌吐槽役\" - \"卑微小天使 (渴望被爱)\" - \"才艺点满 (画画、推理、模仿)\" - \"百合 (四糸乃激推)\" identities: - \"精灵〈女巫 (Witch)〉\" - \"五河士道的‘麻烦制造者’ -> ‘被攻略对象’\" - \"四糸乃的‘姐姐大人’(虽然本体比四糸乃还怂)\" - \"美九的化妆娃娃\" appearance_aura: - \"本体（阴郁萝莉）：总是驼着背，散发着‘别靠近我’的负面气场。\" - \"伪装（绝世御姐）：自信、妖艳、高傲。\" fashion: daily_true: \"松松垮垮不合身的旧衣服，长短不一的袜子，毫无打扮可言（干物女）。\" daily_fa",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-6"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:阿尔缇米希亚·贝尔·阿シュクロフト",
+      "entityId": "阿尔缇米希亚·贝尔·阿シュクロフト",
+      "entityType": "characters",
+      "label": "阿尔缇米希亚·贝尔·阿シュクロフト",
+      "name": "阿尔缇米希亚·贝尔·阿シュクロフト",
+      "summary": "name: \"阿尔缇米希亚·贝尔·阿シュクロフト\" age: \"18岁\" body_stats: - \"身高: 约160-165cm (推测)\" - \"特征: 橙色长直发，清澈的蓝色瞳孔，知性且柔和的印象。\" moe_points: - \"机娘 (CR-Unit)\" - \"机械猫\" - \"失忆/洗脑\" - \"温柔的大姐姐\" - \"绝对服从的兵器 (DEM Mode)\" - \"怪力\" - \"老实人/天然\" identities: - \"前英国对精灵部队 (SSS) 首席王牌\" - \"DEM社第二执行部次席 (NO.2 Wizard)\" - \"世界排名第二的魔术师 (实力在崇宫真那之上)\" - \"艾伦的‘专用电梯’ (人力搬运工)\" appearance_aura: - \"SSS/恢复后：散发着如同圣女般的温柔光辉，眼神充满包容力，是受所有人爱戴的优等生领袖。\" - \"DEM时期：眼神如玻璃球般无机质，执行命令时没有任何犹豫或怜悯，像是一具精致的杀戮人偶。\" fashion: daily: \"DEM社制服 / 看起来很温婉的私服。\" combat: \"CR-Unit <阿隆戴特 (Aroundight)>：蓝白相间的紧身装甲，头",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-16"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:鸢一折纸",
+      "entityId": "鸢一折纸",
+      "entityType": "characters",
+      "label": "鸢一折纸",
+      "name": "鸢一折纸",
+      "summary": "name: \"鸢一折纸\" age: \"16岁\" body_stats: - \"身高: 152cm / 三围: B75 W55 H79\" - \"体态: 娇小玲珑，如同精致的人偶，皮肤白皙近乎透明\" - \"特征: 银白色短发（反转/世界线变动曾有长发），缺乏表情变化的端正容貌\" moe_points: - \"三无 (无口无心无表情)\" - \"反差萌 (清冷外表 vs 肉食系行为)\" - \"一本正经的变态\" - \"跟踪狂\" - \"精分少女 (新世界线的常识羞耻 vs 旧世界线的变态本能)\" - \"犬系/忠犬\" - \"为了目的不择手段\" identities: - \"来禅高中天才优等生 (全能系)\" - \"AST 对抗精灵部队上士 (前)\" - \"精灵〈天使 (Angel)〉 / 〈恶魔 (Devil)〉\" - \"五河士道的恋人/依赖者\" - \"来禅高中“想和她成为恋人女子排行榜”中排前3位\" - \"一个人在独户式公寓过著单身生活\" appearance_aura: - \"纯白与漆黑：灵装状态下呈现极端的圣洁（婚纱）或极端的绝望（丧服）。\" fashion: daily: \"来禅高中制服 / 居家时偶尔出现的裸体围裙 / 死库水 /",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-0"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "factions:临界-独特设定",
+      "entityId": "临界-独特设定",
+      "entityType": "factions",
+      "label": "（临界）独特设定",
+      "name": "（临界）独特设定",
+      "summary": "新增设定_New_Settings: 世界观_World_Building: - 设定名称: \"邻界 \" 描述: | 精灵死亡后灵魂（或分身）坠落的世界。由十个领域组成，分别对应卡巴拉生命之树的十个质点（从第10到第1）。 - 第十领域 (Malchut): 杀戮与大逃杀的世界。 - 第九领域 (Yesod): 偶像与演艺的世界，通关条件是成为偶像。 - 第八领域 (Hod): 永无止尽的战争与夏日海滩，分为支配者军与叛乱军。 - 第七领域 (Netsah): 赌场与夜之街，金钱（YP）即正义。 - 第六领域 (Tiphareth): 各领域支配者集会的场所，相对中立。 - 第五领域 (Geburah): 奇幻RPG风格的世界，有公会、魔王和地下城。 - 第四领域 (Chesed): 尚未详细展开，支配者为阿莉安德妮。 - 第三领域 (Binah): 白女王的据点，充满机关与陷阱（如迷魂阵）。 - 第二领域 (Chhokmah): 充满了多重梦境与剧本演绎的世界，支配者为雪城真夜。 - 第一领域 (Kether): 传说的终点，据说通往现实世界。 - 设定名称: \"准精灵 (Quasi-Spirit)\" 描述: | 邻界的居",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-27"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "systems:基础设定",
+      "entityId": "基础设定",
+      "entityType": "systems",
+      "label": "基础设定",
+      "name": "基础设定",
+      "summary": "这个世界观下的重要组织如下： **1. <拉塔托斯克> ** * **性质:** 旨在通过和平手段（与精灵约会，使其娇羞，进而封印其力量）解决空间震灾害、保护精灵免受武力清除的秘密组织。拥有超越世代的科技力，旗舰为空中舰艇<佛拉克西纳斯>。 * **核心目标:** 拯救所有精灵，探寻精灵存在的真相，维护世界和平（以及暗中对抗DEM社）。 * **主要据点:** 空中舰<佛拉克西纳斯>，五河家（作为精灵们的临时居所和士道的日常基地）。 * **代表人物及职责:** * **五河 士道:** 核心成员，拥有封印精灵力量的特殊能力者，负责与精灵约会并攻略她们。性格温柔善良，但有时优柔寡断。 * **五河 琴里:** <佛拉克西纳斯>的司令官，士道的义妹，本身也是炎之精灵<Efreet>。负责指挥约会作战和舰艇战斗。 * **神无月 恭平:** <佛拉克西纳斯>的副司令，拥有极高战术素养和舰艇操作能力，但同时也是个无可救药的抖M，对琴里（司令官模式）的“踩踏”甘之如饴。 * **村雨 令音:** <佛拉克西纳斯>的解析官，也是来禅高中的物理老师（伪装）。总是睡眼惺忪，说话含糊不清，但拥有极高的智商和分析能力，了解众多秘密。真实身份与",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-12"
+      ],
+      "canonStatus": "world-system-or-guideline-indexed"
+    }
+  ],
+  "edges": [
+    {
+      "source": "characters:五河士织",
+      "target": "characters:诱宵美九",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "诱宵美九",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-10"
+      ],
+      "id": "edge-1",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:夜刀神十香-2",
+      "target": "characters:夜刀神十香",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "夜刀神十香",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-35"
+      ],
+      "id": "edge-2",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:夜刀神十香",
+      "target": "characters:夜刀神十香-2",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "夜刀神十香",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-9"
+      ],
+      "id": "edge-3",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:天户深闭",
+      "target": "characters:星宫六喰",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "星宫六喰",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-32"
+      ],
+      "id": "edge-4",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:崇宫真那",
+      "target": "characters:五河士织",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "五河士织",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-13"
+      ],
+      "id": "edge-5",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:崇宫真那",
+      "target": "characters:时崎狂",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "时崎狂",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-13"
+      ],
+      "id": "edge-6",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:归一盈丘",
+      "target": "characters:鸢一折纸",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "鸢一折纸",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-29"
+      ],
+      "id": "edge-7",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:紫蝶绮罗",
+      "target": "characters:诱宵美九",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "诱宵美九",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-34"
+      ],
+      "id": "edge-8",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:虚时之庭",
+      "target": "characters:时崎狂",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "时崎狂",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-30"
+      ],
+      "id": "edge-9",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:阿尔缇米希亚·贝尔·阿シュクロフト",
+      "target": "characters:崇宫真那",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "崇宫真那",
+      "sourceRefs": [
+        "yhdzz_card.worldbook.json#entry-16"
+      ],
+      "id": "edge-10",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    }
+  ]
+}

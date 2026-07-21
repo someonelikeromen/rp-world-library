@@ -1,0 +1,29 @@
+{
+  "schema": "cross-ange-graph-build-report-v1",
+  "worldId": "cross-ange",
+  "status": "completed",
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "validation": {
+    "jsonValid": true,
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "newFactsIntroduced": false,
+    "forbiddenBasenamesGenerated": false
+  },
+  "counts": {
+    "nodes": 43,
+    "edges": 60,
+    "nodeCounts": {
+      "characters": 33,
+      "abilities": 5,
+      "systems": 5
+    },
+    "edgeCounts": {
+      "derived-text-mention": 60
+    },
+    "derivedMentionEdges": 60
+  },
+  "warnings": [
+    "Derived graph edges are navigation/search signals, not formal relationship facts."
+  ]
+}

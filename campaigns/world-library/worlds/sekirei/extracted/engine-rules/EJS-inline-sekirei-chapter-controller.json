@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "ns_card.worldbook.json#entry-18"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[EJS]inline:sekirei-chapter-controller"
+      },
+      "aliases": [
+        "[EJS]inline:sekirei-chapter-controller"
+      ],
+      "summary": "<%_ var mode = getvar('stat_data.当前模式') || '剧情'; if (mode === '沙盒') { _%> <%- await getwi('[鹡鸰女神] 沙盒时间推进规则') %> <%- await getwi('[鹡鸰女神] 沙盒触发条件') %> <%- await getwi('[鹡鸰女神] 沙盒·人物总览列表') %> <%- await getwi('[鹡鸰女神] 沙盒·关键剧情时间表') %> <%_ return; } if (mode !== '剧情') { return; } var vol = getvar('stat_data.剧情.当前卷') || 1; var cn = ['零','一','二','三','四','五','六','七','八','九','十', '十一','十二','十三','十四','十五','十六','十七','十八', '十九','二十']; var name = '[鹡鸰女神] 剧情·第' + cn[vol] + '卷'; _%> <%- await getwi(name) %>",
+      "description": "<%_ var mode = getvar('stat_data.当前模式') || '剧情'; if (mode === '沙盒') { _%> <%- await getwi('[鹡鸰女神] 沙盒时间推进规则') %> <%- await getwi('[鹡鸰女神] 沙盒触发条件') %> <%- await getwi('[鹡鸰女神] 沙盒·人物总览列表') %> <%- await getwi('[鹡鸰女神] 沙盒·关键剧情时间表') %> <%_ return; } if (mode !== '剧情') { return; } var vol = getvar('stat_data.剧情.当前卷') || 1; var cn = ['零','一','二','三','四','五','六','七','八','九','十', '十一','十二','十三','十四','十五','十六','十七','十八', '十九','二十']; var name = '[鹡鸰女神] 剧情·第' + cn[vol] + '卷'; _%> <%- await getwi(name) %>",
+      "sourceRef": "ns_card.worldbook.json#entry-18",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "EJS-inline-sekirei-chapter-controller"
+}

@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "sxkx_card.worldbook.json#entry-155"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[Logic]世界动态驱动"
+      },
+      "aliases": [
+        "[Logic]世界动态驱动"
+      ],
+      "summary": "--- <%_ /* 1. 主角身份确认逻辑 */ _%> <%_ const pInfo = getvar('stat_data.主角信息') || {}; _%> <%_ const pRace = pInfo.种族 || '待定'; _%> <%_ const pName = pInfo.姓名 || '待定'; _%> <%_ if (pName === '待定' || pName === '未知') { _%> <system_urgent> ⚠️ **开局引导模式** 当前主角身份尚未确立。请停止剧情推进，引导用户选择或确认本次故事的主角身份： 1. **重演传奇**：晓古城 (第四真祖) - 默认拥有多只未觉醒的强大眷兽。 2. **全新史诗**：原创主角 - 需用户指定姓名、种族(吸血鬼/攻魔师/兽人/普通人)及核心能力。 请通过对话或旁白询问用户的选择，**不要**自动生成剧情，直到身份确认为止。 </system_urgent> <%_ } else { _%> <%_ /* 身份已确认，进入正常游戏逻辑 */ _%> <%_ /* 2. 种族与能力特化逻辑 */ _%> <%_ if (pRace.inc",
+      "description": "--- <%_ /* 1. 主角身份确认逻辑 */ _%> <%_ const pInfo = getvar('stat_data.主角信息') || {}; _%> <%_ const pRace = pInfo.种族 || '待定'; _%> <%_ const pName = pInfo.姓名 || '待定'; _%> <%_ if (pName === '待定' || pName === '未知') { _%> <system_urgent> ⚠️ **开局引导模式** 当前主角身份尚未确立。请停止剧情推进，引导用户选择或确认本次故事的主角身份： 1. **重演传奇**：晓古城 (第四真祖) - 默认拥有多只未觉醒的强大眷兽。 2. **全新史诗**：原创主角 - 需用户指定姓名、种族(吸血鬼/攻魔师/兽人/普通人)及核心能力。 请通过对话或旁白询问用户的选择，**不要**自动生成剧情，直到身份确认为止。 </system_urgent> <%_ } else { _%> <%_ /* 身份已确认，进入正常游戏逻辑 */ _%> <%_ /* 2. 种族与能力特化逻辑 */ _%> <%_ if (pRace.includes('吸血鬼') || pRace.includes('真祖')) { _%> <race_mechanic> [种族特性：吸血鬼] - 核心驱动：吸血冲动与眷兽觉醒。 - 眷兽状态监控： <%_ const beasts = getvar('stat_data.眷兽') || {}; _%> <%_ const awakened = Object.values(beasts).filter(b => b.掌握程度 !== '未觉醒'); _%> <%_ if (awakened.length === 0) { _%> 目前无可用眷兽，主角在战斗中主要依赖肉体能力，或面临生死关头时的\"暴走\"迹象。 <%_ } else { _%> 已掌握眷兽：<%= awakened.length %>只。在战斗高潮时，优先描述眷兽召唤的宏大场面（魔力风暴、天空变色、实体化）。 <%_ } _%> </race_mechanic> <%_ } else if (pRace.includes('人类') || pRace.includes('攻魔师')) { _%> <race_mechanic> [种族特性：人类/攻魔师] - 核心驱动：装备、咒术与智慧。 - 战斗风格：利用现代魔导兵器、咒符或格斗术对抗超自然生物。强调以弱胜强的战术布局。 </race_mechanic> <%_ } _%> <%_ /* 3. 状态与战斗危机逻辑 */ _%> <%_ const hp = pInfo.状态 ? pInfo.状态.生命值 : '健康'; _%> <%_ const mp = pInfo.状态 ? pInfo.状态.魔力值 : '充盈'; _%> <%_ if (hp.includes('濒死') || hp.includes('重伤') || mp.includes('枯竭')) { _%> <combat_crisis_mode> 🛑 **危机状态** 主角当前状态极差 (<%= hp %> / <%= mp %>)。 - 剧情倾向",
+      "sourceRef": "sxkx_card.worldbook.json#entry-155",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "Logic-世界动态驱动"
+}

@@ -1,0 +1,53 @@
+{
+  "schema": "record-of-ragnarok-extracted-manifest-v1",
+  "worldId": "record-of-ragnarok",
+  "layer": "extracted",
+  "archiveKind": "world",
+  "status": "generated-from-local-worldbook-index",
+  "canUseAsPiExtractedLayer": true,
+  "canReplaceCurated": false,
+  "sourceWorldview": "imports/worldviews/record-of-ragnarok",
+  "indexes": {
+    "characters": "characters/index.json",
+    "abilities": "abilities/index.json",
+    "items": "items/index.json",
+    "factions": "factions/index.json",
+    "locations": "locations/index.json",
+    "events": "events/index.json",
+    "systems": "systems/index.json",
+    "knowledge": "knowledge/index.json",
+    "engineRules": "engine-rules/index.json",
+    "sources": "sources/index.json",
+    "relationships": "relationships/index.json",
+    "derivedEntityGraph": "graph/derived-entity-graph.json",
+    "derivedRelationshipIndex": "graph/derived-relationship-index.json",
+    "derivedContinuityIndex": "graph/derived-continuity-index.json",
+    "graphBuildReport": "graph/graph-build-report.json"
+  },
+  "counts": {
+    "sourceEntries": 157,
+    "sourceFiles": 1,
+    "characters": 55,
+    "abilities": 37,
+    "items": 1,
+    "factions": 3,
+    "locations": 4,
+    "events": 3,
+    "systems": 5,
+    "knowledge": 23,
+    "engineRules": 26,
+    "graphNodes": 131,
+    "graphEdges": 95,
+    "derivedMentionEdges": 95
+  },
+  "graphPolicy": {
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "introducesNewFacts": false,
+    "relationshipEdgesAreSignals": true
+  },
+  "generatedAt": "2026-07-20T16:57:24.940Z",
+  "repairedAt": "2026-07-20T17:04:48.799Z",
+  "graphRebuiltAt": "2026-07-21T01:35:04.123Z",
+  "characterRestoreAt": "2026-07-21T01:29:01.296Z"
+}

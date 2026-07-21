@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "OVERLORD.worldbook.json#entry-1"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "**全局状态变量更新指导表**"
+      },
+      "aliases": [
+        "**全局状态变量更新指导表**"
+      ],
+      "summary": "<UpdateRules> 在所有文本的最后，进行变量更新。 以下是故事中需要追踪的关键变量，当前状态以这些变量的值为准。 <status_current_variables> {{get_message_variable::stat_data}} </status_current_variables> 严格按照以下规则和格式进行输出，并先确定哪些父类变量是否需要更新, 如果父类不需要就跳过父类, 如果需要的话需要更新哪些子类，不要遗漏： rule: description: - You should output the update analysis in the end of the next response, following the variables list defined in `<status_current_variables>` section. analysis: - You must rethink what variables are defined in `<status_current_variables>`, and analyze how to update each of them ",
+      "description": "<UpdateRules> 在所有文本的最后，进行变量更新。 以下是故事中需要追踪的关键变量，当前状态以这些变量的值为准。 <status_current_variables> {{get_message_variable::stat_data}} </status_current_variables> 严格按照以下规则和格式进行输出，并先确定哪些父类变量是否需要更新, 如果父类不需要就跳过父类, 如果需要的话需要更新哪些子类，不要遗漏： rule: description: - You should output the update analysis in the end of the next response, following the variables list defined in `<status_current_variables>` section. analysis: - You must rethink what variables are defined in `<status_current_variables>`, and analyze how to update each of them based on the rules in `<description>`. format: |- <UpdateVariable> <Analysis>${使用简体中文} - list every variable... - Check... </Analysis> _.set('${path}', ${old_value}?, ${new_value});//${reason} _.assign('${path}', ${key_or_value}?, ${value});//${reason} _.remove('${path}', ${key_or_value}?);//${reason} _.add('${path}', ${delta});//${reason} </UpdateVariable> example:-| <UpdateVariable> <Analysis>${使用简体中文} - is_changed_chapter: Y //本章所有事件剧情结束 - 时间: Y // 剧情时间发生流逝 - 角色面板: Y // 主角状态发生变化 - 职业表: Y // 获得了经验值 - 种族表: N - 能力表: Y // 战斗导致HP变化 - 阵营属性: N - 背包: Y // 获得了道具 - 装备栏: N - 法术技能: N - 势力面板: Y //加入大坟墓 - 关系列表: Y // 出现新角色或角色状态改变 - 敌人列表: Y // 遭遇新敌人或敌人状态改变 </Analysis> _.set('chapter.is_changed_chapter', \"NO\", \"GO);//剧情结束，到下一个章节 _.set('时间.时间', '8:00', '10:00');//${经过了2个小时} _.add('角色面板.职业表.战士.当前经验值', 150);//${击败敌人获得了经验值} _.add('角色面板.能力表.HP.当前值', -50);//${主角受到攻击，生命值降低} _.assign('角色面板",
+      "sourceRef": "OVERLORD.worldbook.json#entry-1",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "全局状态变量更新指导表"
+}

@@ -1,0 +1,80 @@
+{
+  "schema": "evangelion-locations-index-v1",
+  "worldId": "evangelion",
+  "recordFamily": "locations",
+  "count": 5,
+  "records": [
+    {
+      "id": "status-s-S-当前位置-^-n-NERV本部·Terminal-Dogma-s-S-status-s",
+      "name": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(NERV本部·Terminal Dogma)[\\s\\S]*?<\\/status>/s",
+      "aliases": [],
+      "summary": "<地点:第三新东京市·NERV本部·Terminal Dogma> 介绍：NERV本部最深层的绝密区域，需要最高权限才能进入。漫长的通道尽头是一片广阔的地下空间，红色的LCL之海铺满地面，空气中弥漫着浓重的铁锈味。这里隐藏着NERV与SEELE最核心的秘密。通往此处的通道设有多重生物识别锁与物理隔离门，普通职员甚至不知道这个区域的存在。 </地点:第三新东京市·NERV本部·Terminal Dogma>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-67"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "status-s-S-当前位置-^-n-葛城美里公寓-s-S-status-s",
+      "name": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(葛城美里公寓)[\\s\\S]*?<\\/status>/s",
+      "aliases": [],
+      "summary": "<地点:第三新东京市·葛城美里公寓> 介绍：位于第三新东京市住宅区的一间普通公寓。玄关处有一排鞋柜，空间不算宽敞。进门后是客厅兼餐厅，面积不大，一张矮桌摆在中央，旁边是老旧的沙发和小电视。厨房与餐厅相连，开放式设计，灶台和水槽靠墙排列，冰箱立在角落。走廊两侧分布着几间房间——美里的卧室、真嗣的房间、以及一间小隔间归温泉企鹅PenPen使用，PenPen拥有自己专属的小型冰箱。卫生间带浴缸，洗衣机塞在洗手台旁边。阳台朝向住宅区方向，可以晾晒衣物，偶尔能远眺到第三新东京市的城市轮廓。整体是典型的日式紧凑型公寓格局，房间不多但功能齐全。 </地点:第三新东京市·葛城美里公寓>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-64"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "地点-结尾",
+      "name": "【地点:结尾】",
+      "aliases": [
+        "【地点:结尾】"
+      ],
+      "summary": "【地点:结尾】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-70"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "地点-起始",
+      "name": "【地点:起始】",
+      "aliases": [
+        "【地点:起始】"
+      ],
+      "summary": "【地点:起始】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-62"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "新世纪福音战士简易年表",
+      "name": "新世纪福音战士简易年表",
+      "aliases": [
+        "新世纪福音战士简易年表",
+        "历史",
+        "年表",
+        "关键事件",
+        "第二次冲击时间",
+        "NERV成立时间",
+        "使徒袭来时间"
+      ],
+      "summary": "# 新世纪福音战士简易年表 timeline: - year: 远古 event: \"第一使徒‘亚当’与第二使徒‘莉莉丝’（携带生命之果与智慧之果）分别降临地球。朗基努斯之枪随亚当而来。\" - year: 20世纪末 - 21世纪初 event: \"SEELE发现《死海文书》里卷，筹备人类补完计划。葛城调查队在南极发现休眠的‘亚当’。\" - year: 2000 event: \"9月13日，南极发生‘第二次冲击’，全球性灾难爆发。\" - year: 2001 event: \"主要EVA驾驶员（碇真嗣、明日香、绫波丽克隆体）出生。\" - year: 2002 event: \"人工进化研究所（GEHIRN）成立，开始EVA研究，碇源堂任所长。\" - year: 2003 event: \"第三新东京市开始建设。\" - year: 2004 event: \"碇唯在EVA初号机启动实验中消失（灵魂融入核心）。\" - year: 2005 event: \"赤木直子完成MAGI基础理论。\" - year: 2008 event: \"明日香母亲在EVA贰号机接触实验中精神失常后自杀。\" - year: 2010 event: \"MAGI系统",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-5"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    }
+  ]
+}

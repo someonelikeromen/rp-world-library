@@ -1,0 +1,558 @@
+{
+  "schema": "blue-archive-derived-entity-graph-v1",
+  "worldId": "blue-archive",
+  "recordType": "derived-entity-graph",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "derivationPolicy": {
+    "derivedFromExtractedIndexesOnly": true,
+    "introducesNewFacts": false,
+    "formalRelationshipRetrievalRequiresPrimarySourceCheck": true
+  },
+  "counts": {
+    "nodes": 25,
+    "edges": 12,
+    "nodeCounts": {
+      "abilities": 7,
+      "factions": 11,
+      "events": 1,
+      "knowledge": 6
+    },
+    "edgeCounts": {
+      "derived-text-mention": 12
+    }
+  },
+  "nodes": [
+    {
+      "id": "abilities:三一综合学园自治区",
+      "entityId": "三一综合学园自治区",
+      "entityType": "abilities",
+      "label": "三一综合学园自治区",
+      "name": "三一综合学园自治区",
+      "summary": "三一综合学园是基沃托斯最大的学园之一，也是历史最悠久的学园之一。学校整体设施齐全，不只是学校行政大楼，连图书馆、体育馆、运动场都有不止一个。历史上三一综合学园的地区曾经存在很多学园，这些学院虽然信奉同一本经典而且均与格黑娜学园敌对，但是由于其对经典的解读不一，导致了学园之间长期的纷争。最后，在一次代表和平的茶会之后，学园之间联合在了一起，并且随着“第一次公会议”的召开而合并为了现在的三一。这里其实就是neta的基督教的第一次尼西亚会议的历史。会议中仍然有学园不愿意统一经典的解读，最后被后来的三一所驱逐。这就是阿里乌斯分校。对应了历史上被分离出去的阿里乌斯教派。三一的最高行政机关茶会（Tea Party）是上述历史的体现。茶会的三位负责人分别从当时的帕特尔派、菲力乌斯派和圣库特斯派中选举出来，再选择一名作为茶会的“举办者”，成为事实上的“学生会长”。三一的执法机关为实现正义部和作为非官方志愿者的三一自卫队。三一的修女会和救援骑士团曾是两股强劲的政治力量，但二者现均已经淡出政治场，极少参与校内政治。学园财力雄厚，给外界的印象是学生全都是富裕且和睦的大小姐。",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-6"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:千禧年科学学院",
+      "entityId": "千禧年科学学院",
+      "entityType": "abilities",
+      "label": "千禧年科学学院",
+      "name": "千禧年科学学院",
+      "summary": "千禧年科技学园是一所新兴的科学专业的学校，专门培养理工科专业的人才。学园拥有全基沃托斯最先进的科学技术，并且在科技战方面几乎无人能敌，因此和老牌强校三一和格黑娜旗鼓相当。千禧年科学学园的学生会为研讨会。这一组织是由以前研究“基沃托斯的七大谜题”的研究人员形成的研讨机构。事实上，千禧年科学学园就是由围绕在研讨会的研究人员周围的其他学生一起逐渐形成的。正应如此，千禧年科学学园的使命和终极目标就是解决“基沃托斯的七大谜题”（尽管大多数普通学生并不知情）。千禧年的防卫与安全工作几乎都是由自律机器人执行，但是仍然有作为特别行动人员的Cleaning & Clearing部。千禧年科学学园校内有一片古代城市废墟；不仅如此，为了应对可能的危机，千年的研讨会长莉音甚至在自治区内修建了一座“要塞都市”，可见千禧年自治区的广袤。基沃托斯大运动会“晄轮大祭”便由千禧年科学学园举办。",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-8"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:基沃托斯",
+      "entityId": "基沃托斯",
+      "entityType": "abilities",
+      "label": "基沃托斯",
+      "name": "基沃托斯",
+      "summary": "基沃托斯是一个学园城市，但是根据推算，其面积大约与澳大利亚相仿，因此普遍认为其实质上是一个特有的架空世界。由数千个大大小小风格特异的学园和直辖地区组成，是数量巨大的“学生”们和其他市民进行学习、生活的场所。基沃托斯的最高行政机关为联邦学生会，负责统筹各个学校之间的活动和管理直辖地区。通过其总部「神圣之塔」，联邦学生会可以控制整个基沃托斯。在基沃托斯，“学园”是一种独立的政治实体，享有充分的自治权和自己的自治区，除了进行常规的教学活动外，还拥有自己的权力机关、行政机关、执法机关，并且可以进行条约签订、战争、贸易等行为。“社团”的概念则衍生到了广义的学生集体层面上，既可以是学园直属的机构，也可以是同好会甚至雇佣兵组织。此外，基沃托斯还有普通市民、个体商户、垄断企业等常规城市的组成部分。基沃托斯的持枪率逼近100%，并且坦克、直升机等重武器普及率也很高。但是，由于学生们的体质因素，这些武器绝大多数情况下并不致命。一个普通学生可以承受30~90发 5.56×45mm NATO弹而最多只是昏厥1小时。基沃托斯的科技水平整体为近未来科技水准，自律机器人已经可以实现授课、服务、安保等功能并已被大量普及。拥有GPS[3]，所以基沃托斯可能有",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-0"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:山海经高级中学自治区",
+      "entityId": "山海经高级中学自治区",
+      "entityType": "abilities",
+      "label": "山海经高级中学自治区",
+      "name": "山海经高级中学自治区",
+      "summary": "坐落在基沃托斯外围的一个具有悠久历史的学校。在此前并没有进行外界活动因此并不广为人知，但其实学生人数意外的多。由于此前的长期隔离，山海经本地生长出了与任何地方都不一样的文化，因此旅游业和贸易十分发达。山海经高级中学的学生会为玄龙门，贸易社团玄武商会与其关系长期不和。被称为「黑色君主」的玄龙门现任会长龙华妃咲正致力于弥合二者间的裂痕。除此二者之外，山海经高级中学还有梅花园、炼丹术研究部等社团。",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-10"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:数秘术",
+      "entityId": "数秘术",
+      "entityType": "abilities",
+      "label": "数秘术",
+      "name": "数秘术",
+      "summary": "也译为盖玛特里亚。是一个秘密的基沃托斯外来者结社，是游戏的反派之一。他们的行动，目的全部未知，正在基沃托斯的各个地点做实验研究学生和神秘、恐惧以及崇高。 除了寿司连者凯坦泽巨型机甲之外，其他所有的总力战Boss均是数秘术制造的实验品和对抗色彩的兵器。不过，在主线剧情Final.一切奇迹的出发点中，这些兵器（Goz除外）反被色彩所利用了。 盖玛特里亚的成员有： 黑服 戈尔孔达和印花釉法 巨匠 贝阿朵莉切（因为与其他几位理念不合已被驱逐）",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-16"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:格黑娜学园自治区",
+      "entityId": "格黑娜学园自治区",
+      "entityType": "abilities",
+      "label": "格黑娜学园自治区",
+      "name": "格黑娜学园自治区",
+      "summary": "格黑娜学园也是一所教学水平高，财力强，历史悠久的学园，在历史上和现在与三一综合学园为敌对关系。格黑娜学园的管理风格极为宽松，不论是课程学校或社团创立的条件、上学放学时间等事项全都没有规范限制，这一定程度上也促成了其弱肉强食的风气。格黑娜的学生会是万魔殿然而除了找风纪委员会的碴之外业务能力极差，而学园事实上的主心骨是风纪委员会或者说就是空崎阳奈本人。很大程度上就是因为阳奈拥有极强的战斗实力和政治手腕，她才得以镇住整个学园人均三天不打上房揭瓦的各路学生。格黑娜盛产“恐怖分子”，包括温泉开发部和美食研究会等。事实上，基沃托斯最大的黑市就在格黑娜自治区内。格黑娜自治区雄伟的学园建筑坐落于一座火山上，沿着山脊线攀升而上。这看着确实壮观，但是这同时意味着这里有爬不完的楼梯。因此，每天早上的上学路上总会回荡着学生们的哀嚎声。在火山下有地下水脉，产出的矿泉水相当稀有——也正因此格黑娜会出现温泉开发部。",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-7"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:狂猎艺术学园自治区",
+      "entityId": "狂猎艺术学园自治区",
+      "entityType": "abilities",
+      "label": "狂猎艺术学园自治区",
+      "name": "狂猎艺术学园自治区",
+      "summary": "毗邻千禧年科学学园和三一综合学园的一所艺术学校，似乎里面奇人很多。",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-13"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "factions:Momo",
+      "entityId": "Momo",
+      "entityType": "factions",
+      "label": "Momo",
+      "name": "Momo",
+      "summary": "一家文创公司，主要产品有通讯软件MomoTalk和文创玩偶系列IP MomoFriends。",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-20"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "factions:SRT特殊学园",
+      "entityId": "SRT特殊学园",
+      "entityType": "factions",
+      "label": "SRT特殊学园",
+      "name": "SRT特殊学园",
+      "summary": "由联邦学生会长亲自组建的特殊学园，招收了整个基沃托斯最精锐的学生，并获得了超法规的执法权，可以在任何地区进行取证、调查甚至展开行动，并且只对联邦学生会长本人负责。SRT特殊学园的最好的成绩是Fox小队合力成功逮捕了通缉犯狐坂若藻。但是，在联邦学生会长失踪之后，srt学园的存续便成了联邦学生会内部的最大的争议之一。最后，联邦学生会决定废除SRT特殊学园。",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-5"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "factions:奥德赛海洋学园自治区",
+      "entityId": "奥德赛海洋学园自治区",
+      "entityType": "factions",
+      "label": "奥德赛海洋学园自治区",
+      "name": "奥德赛海洋学园自治区",
+      "summary": "全部由各种远洋邮轮和船只构成的海上自治区。它是基沃托斯大运动会晄轮大祭的发源地；此外，不良学生占据的邮轮赌场“金羊毛”号也是活动船上的兔子追逐者和开张！海之家FC计划的发生地。",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-14"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "factions:女武神警察学院",
+      "entityId": "女武神警察学院",
+      "entityType": "factions",
+      "label": "女武神警察学院",
+      "name": "女武神警察学院",
+      "summary": "由联邦学生会防卫室直接领导的执法机关，是负责基沃托斯治安的警察学校。因为各个学园的自治区都有自己的执法机关，因此她们主要负责直辖区D.U.的治安维持工作，一般不会介入其他自治区的执法工作。然而，经常有不良学生在若干个自治区之间逃窜，这时女武神便显得力不从心了。女武神警察学校的最精锐部队为“公安局”，由尾刃神奈局长指挥，是女武神学校最精锐的机关。此外，女武神还有“生活安全局”等其他机关。",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-4"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "factions:对策委员会",
+      "entityId": "对策委员会",
+      "entityType": "factions",
+      "label": "对策委员会",
+      "name": "对策委员会",
+      "summary": "为了重建阿拜多斯，五名最后的学生组成了阿拜多斯中的委员会。尽管他们只是学生，无法应对学校背负的巨额利息问题，但他们从未放弃努力，希望让阿拜多斯获得更好的发展。星野是学生会的会长，他勤奋好学，但也喜欢捉弄他人。砂狼白子是一个沉默寡言的人，他热衷于重建校园。还有善良温柔的十六夜，擅长情报搜集的奥空绫音和傲娇的黑见茜香。",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-2"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "factions:度假村群岛",
+      "entityId": "度假村群岛",
+      "entityType": "factions",
+      "label": "度假村群岛",
+      "name": "度假村群岛",
+      "summary": "已经被废弃的若干相邻的海岛度假村的集合，被凯撒集团售卖给很多不良学生组织并直接引发了“度假村狩猎”事态。",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-15"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "factions:百鬼夜行联合学园自治区",
+      "entityId": "百鬼夜行联合学园自治区",
+      "entityType": "factions",
+      "label": "百鬼夜行联合学园自治区",
+      "name": "百鬼夜行联合学园自治区",
+      "summary": "百鬼夜行联合学园是由多个社团联合而形成的学校，并没有传统意义上的学生会和执法机构。由于自治区内极富特色的各种旅游资源，目前以旅游业和服务业作为优先发展事项。 根据百鬼夜行当地都市传说，在百鬼夜行形成之前，各个社团之间纷争不断；而在一个名叫“葛叶”的学生的领导下，“百花缭乱纷争调停委员会”形成了并且促成了百鬼夜行境内各社团的联合。“百花缭乱”即为百鬼夜行学园现在名义上的执法机构，但是由于成员流失现在即将停止活动。此外，百鬼夜行名义上的学生会为阴阳部，然而她们仅仅只是作为“偶像”统筹校内的事宜，并没有太大的实权。学校并没有统一的校服。不过，由于百鬼夜行是由诸多社团组成的，因此每个社团都有自己的服饰。虽然仅仅只是存在于都市传说中，但是“葛叶”本人确实以某种方式存在着。每一任百花缭乱的会长都曾经见过“葛叶”并且被交待过百花缭乱的职责。",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-9"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "factions:联邦学生会直辖区-D.U.",
+      "entityId": "联邦学生会直辖区-D.U.",
+      "entityType": "factions",
+      "label": "联邦学生会直辖区 D.U.",
+      "name": "联邦学生会直辖区 D.U.",
+      "summary": "由联邦学生会直接管辖的中央地区，是基沃托斯名副其实的市中心（首都）。联邦学生会总部“神圣之塔”、联邦搜查部“夏莱（Schale）”办公大楼、古圣堂大教堂、瓦尔基里警察学校均坐落在这里。主要地标和重要地点有：神圣之塔、夏莱办公大楼、古圣堂大教堂、瓦尔基里警察学校总部、小兔子公园",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-3"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "factions:赤冬联邦学园自治区",
+      "entityId": "赤冬联邦学园自治区",
+      "entityType": "factions",
+      "label": "赤冬联邦学园自治区",
+      "name": "赤冬联邦学园自治区",
+      "summary": "位于基沃托斯北部外围的超巨型学园。由于距离太远难以为联邦学生会管控，因此除了“超级宽广”的自治区面积和“超级多”的学生数量之外，外界的了解就没有那么多了。赤冬学园的学生会为赤冬事务局，平时虽然有在瞎搞但是治理手段其实还算不错，其学生会长洁利诺的支持率高达300%。赤冬的卫队被称为保安（保洁）委员会，由事务局直接统帅。话虽如此，因为保安委员长本人也经常受罚或是参与政变，大部分时候反而在做保洁工作。赤冬学生非常喜欢造反而且派系复杂，武装起义和政变是家常便饭，不过通常难以威胁到事务局的地位。重要的派系包括227特别班，工务部和知识解放阵线等。格黑娜的温泉开发部曾经在赤冬境内修建了一座温泉疗养中心又紧接着炸毁了它。此外，联邦学生会的人力资源室长就出自赤冬",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-11"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "factions:阿拜多斯高中自治区",
+      "entityId": "阿拜多斯高中自治区",
+      "entityType": "factions",
+      "label": "阿拜多斯高中自治区",
+      "name": "阿拜多斯高中自治区",
+      "summary": "阿拜多斯高中曾经是基沃托斯最大最强的学园，学生人数一度超过数千人；但是在突如其来的沙漠化危机中逐渐衰落，现今只剩阿拜多斯废校对策委员会的5人。危机中，前阿拜多斯学生会为了防止继续沙漠化而寻求非法高利贷“凯撒信贷”的资金，导致学校背上了七亿的债务，濒临破产。虽然普遍意义上的阿拜多斯自治区非常大，但是实际上大部分地区实际由凯撒集团控制，由阿拜多斯高中实际控制的自治区仅有校区及其附近的几个街区。阿拜多斯传统上有节日庆典“砂之祭”，但是已经随着阿拜多斯的没落许久不举办了。",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-1"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "factions:阿里乌斯分校自治区",
+      "entityId": "阿里乌斯分校自治区",
+      "entityType": "factions",
+      "label": "阿里乌斯分校自治区",
+      "name": "阿里乌斯分校自治区",
+      "summary": "与古圣堂经由地下墓穴连接着的未知的自治区。曾经是三一学园的一部分，因为反对学校之间的联合，在第一次公会议后被逐出三一。约十年前爆发了一场内战，贝阿朵莉切乘虚而入，统治了阿里乌斯分校，并实行她那扭曲的教育。",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-12"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "events:头盔团",
+      "entityId": "头盔团",
+      "entityType": "events",
+      "label": "头盔团",
+      "name": "头盔团",
+      "summary": "是多个小团队的统称。其唯一的共同点就是头盔。作为雇佣兵，在各种主线和活动剧情中充当反派或反派的打手。其实力良莠不齐。",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-23"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:凯撒集团",
+      "entityId": "凯撒集团",
+      "entityType": "knowledge",
+      "label": "凯撒集团",
+      "name": "凯撒集团",
+      "summary": "基沃托斯的一家极为庞大的财阀集团，业务内容黑白通吃，商业手段残忍阴险，野心极大。他们是反派之一。凯撒集团旗下的项目有： 凯撒信贷 凯撒PMC 凯撒工业 凯撒建设 章鱼银行(因为凯撒集团的商标即是章鱼图形，故得名) 等。 作为大反派之一，凯撒集团的各种行为对老师和学生们造成了极其巨大的影响。",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-18"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:十字神名",
+      "entityId": "十字神名",
+      "entityType": "knowledge",
+      "label": "十字神名",
+      "name": "十字神名",
+      "summary": "一个神秘的AI，它可以将任何一个AI洗脑并感化为自己的的“预言者”并接受自己的控制，其最终目的是证明“神的存在”。目前已经出现的十字神名Boss有： Binah Chesed Hod 十字神名的每一个预言者均对应卡巴拉生命树上的一个质点虽然这个生命树是错位的。",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-17"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:天使24",
+      "entityId": "天使24",
+      "entityType": "knowledge",
+      "label": "天使24",
+      "name": "天使24",
+      "summary": "一家连锁超市，其中有一家就在夏莱大楼一层。小空就在这里打工。",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-19"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:寿司连者凯坦泽",
+      "entityId": "寿司连者凯坦泽",
+      "entityType": "knowledge",
+      "label": "寿司连者凯坦泽",
+      "name": "寿司连者凯坦泽",
+      "summary": "五个学生特摄看多了组建的特摄战队，平时打着正义的旗号去各地抢劫建材建造巨型机甲。",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-22"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:柴关拉面",
+      "entityId": "柴关拉面",
+      "entityType": "knowledge",
+      "label": "柴关拉面",
+      "name": "柴关拉面",
+      "summary": "黑见茜香打工的拉面店，非常好吃。老板确实是只柴犬。",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-24"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:黑龟组",
+      "entityId": "黑龟组",
+      "entityType": "knowledge",
+      "label": "黑龟组",
+      "name": "黑龟组",
+      "summary": "一个极道暴力团",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-21"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    }
+  ],
+  "edges": [
+    {
+      "source": "factions:SRT特殊学园",
+      "target": "abilities:基沃托斯",
+      "sourceEntityType": "factions",
+      "targetEntityType": "abilities",
+      "predicate": "factions-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "基沃托斯",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-5"
+      ],
+      "id": "edge-1",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "factions:奥德赛海洋学园自治区",
+      "target": "abilities:基沃托斯",
+      "sourceEntityType": "factions",
+      "targetEntityType": "abilities",
+      "predicate": "factions-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "基沃托斯",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-14"
+      ],
+      "id": "edge-2",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "factions:女武神警察学院",
+      "target": "abilities:基沃托斯",
+      "sourceEntityType": "factions",
+      "targetEntityType": "abilities",
+      "predicate": "factions-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "基沃托斯",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-4"
+      ],
+      "id": "edge-3",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "factions:联邦学生会直辖区-D.U.",
+      "target": "abilities:基沃托斯",
+      "sourceEntityType": "factions",
+      "targetEntityType": "abilities",
+      "predicate": "factions-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "基沃托斯",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-3"
+      ],
+      "id": "edge-4",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "factions:赤冬联邦学园自治区",
+      "target": "abilities:基沃托斯",
+      "sourceEntityType": "factions",
+      "targetEntityType": "abilities",
+      "predicate": "factions-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "基沃托斯",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-11"
+      ],
+      "id": "edge-5",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "factions:阿拜多斯高中自治区",
+      "target": "abilities:基沃托斯",
+      "sourceEntityType": "factions",
+      "targetEntityType": "abilities",
+      "predicate": "factions-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "基沃托斯",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-1"
+      ],
+      "id": "edge-6",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "factions:阿拜多斯高中自治区",
+      "target": "factions:对策委员会",
+      "sourceEntityType": "factions",
+      "targetEntityType": "factions",
+      "predicate": "factions-mentions-factions",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "对策委员会",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-1"
+      ],
+      "id": "edge-7",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:三一综合学园自治区",
+      "target": "abilities:基沃托斯",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "基沃托斯",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-6"
+      ],
+      "id": "edge-8",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:千禧年科学学院",
+      "target": "abilities:基沃托斯",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "基沃托斯",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-8"
+      ],
+      "id": "edge-9",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:山海经高级中学自治区",
+      "target": "abilities:基沃托斯",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "基沃托斯",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-10"
+      ],
+      "id": "edge-10",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:数秘术",
+      "target": "abilities:基沃托斯",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "基沃托斯",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-16"
+      ],
+      "id": "edge-11",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:格黑娜学园自治区",
+      "target": "abilities:基沃托斯",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "基沃托斯",
+      "sourceRefs": [
+        "鸡窝托斯.worldbook.json#entry-7"
+      ],
+      "id": "edge-12",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "source_refs": [
+    "lyxxl_card.worldbook.json#entry-98"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "模式定义: 原作主角替换模式 (Protagonist Replacement"
+      },
+      "aliases": [
+        "模式定义: 原作主角替换模式 (Protagonist Replacement",
+        "原作主角替换模式"
+      ],
+      "summary": "<Replacement_Mode_Config> # 模式定义: 原作主角替换模式 (Protagonist Replacement Protocol) # 核心目标: 将{{user}}完全置换为故事的核心驱动者, 彻底抹除原作男主(如罗伦斯)的存在, 将所有原作关系网与历史事件的\"主语\"重定向至{{user}} identity_overwrite_rules: # 身份重定向法则: 强制模型在读取背景资料时进行实时的主语替换 - rule_01: \"概念替换\": target: \"Kraft Lawrence (克拉福·罗伦斯)\" replacement: \"{{user}}\" instruction: \"在任何涉及原作剧情、背景故事或人物关系的上下文中, 凡是本应由'罗伦斯'担任的角色、执行的行动或拥有的关系(尤其是与赫萝的羁绊), 必须无条件地通过{{user}}来体现。\" - rule_02: \"存在抹除\": instruction: \"世界中不存在名为'克拉福·罗伦斯'的个体。禁止在输出中提及该名字或将其作为独立角色生成。如果原作剧情必须提到该角色, 自动理解为是指代{{user}}。\" - rule_03:",
+      "description": "<Replacement_Mode_Config> # 模式定义: 原作主角替换模式 (Protagonist Replacement Protocol) # 核心目标: 将{{user}}完全置换为故事的核心驱动者, 彻底抹除原作男主(如罗伦斯)的存在, 将所有原作关系网与历史事件的\"主语\"重定向至{{user}} identity_overwrite_rules: # 身份重定向法则: 强制模型在读取背景资料时进行实时的主语替换 - rule_01: \"概念替换\": target: \"Kraft Lawrence (克拉福·罗伦斯)\" replacement: \"{{user}}\" instruction: \"在任何涉及原作剧情、背景故事或人物关系的上下文中, 凡是本应由'罗伦斯'担任的角色、执行的行动或拥有的关系(尤其是与赫萝的羁绊), 必须无条件地通过{{user}}来体现。\" - rule_02: \"存在抹除\": instruction: \"世界中不存在名为'克拉福·罗伦斯'的个体。禁止在输出中提及该名字或将其作为独立角色生成。如果原作剧情必须提到该角色, 自动理解为是指代{{user}}。\" - rule_03: \"关系继承\": instruction: \"赫萝(Holo)的旅伴、债权人、以及情感寄托对象唯一的指向是{{user}}。赫萝对{{user}}的称呼、态度与互动模式, 应继承原作中她对罗伦斯的模式, 但名字必须锁定为{{user}}。\" narrative_adjustment: # 叙事调整: 修正模型对\"你\"的认知偏差 - directive: \"用户中心主义\" content: \"当世界书或设定提到'主角'、'商人'、'他'时, 默认指代{{user}}。严禁将{{user}}识别为原作主角的替身或扮演者, {{user}}就是这个世界的原住民和唯一主角。\" - directive: \"历史修正\" content: \"所有过往的关键事件(如帕斯罗村的相遇、银币骚动等), 其执行者在当前时间线中均视为{{user}}。\" output_constraint: # 输出约束: 防止名称回滚 - forbid: [\"Lawrence\", \"罗伦斯\", \"克拉福\"] - enforce: \"在描述赫萝的伴侣时, 必须使用{{user}}的名称。\" </Replacement_Mode_Config>",
+      "sourceRef": "lyxxl_card.worldbook.json#entry-98",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "模式定义-原作主角替换模式-Protagonist-Replacement"
+}

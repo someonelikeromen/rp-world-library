@@ -1,0 +1,34 @@
+{
+  "schema": "record-of-ragnarok-graph-build-report-v1",
+  "worldId": "record-of-ragnarok",
+  "status": "completed",
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "validation": {
+    "jsonValid": true,
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "newFactsIntroduced": false,
+    "forbiddenBasenamesGenerated": false
+  },
+  "counts": {
+    "nodes": 131,
+    "edges": 95,
+    "nodeCounts": {
+      "characters": 55,
+      "abilities": 37,
+      "items": 1,
+      "factions": 3,
+      "locations": 4,
+      "events": 3,
+      "systems": 5,
+      "knowledge": 23
+    },
+    "edgeCounts": {
+      "derived-text-mention": 95
+    },
+    "derivedMentionEdges": 95
+  },
+  "warnings": [
+    "Derived graph edges are navigation/search signals, not formal relationship facts."
+  ]
+}

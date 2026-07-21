@@ -1,0 +1,178 @@
+{
+  "schema": "compatible-event-graph-v1",
+  "worldId": "dantalian-no-shoka",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "events": [
+    {
+      "id": "章节列表",
+      "entityId": "章节列表",
+      "entityType": "events",
+      "label": "<章节列表>",
+      "name": "<章节列表>",
+      "summary": "<章节列表> 第一卷 丹特丽安的书架——禁忌睿智的苏醒与幽冥契约 第二卷 但他林的书架：深渊睿智的连锁与幻影的终焉 第三卷 迷宫书架的序曲：睿智、罪业与永恒的徘徊 第四卷 睿智的余音与禁忌的刻痕 第五卷 幻書與命運的交織：時時刻表、貓與連鎖 第六卷 虚实边界的幻书余烬 第七卷 灾厄的余波与交错的因缘 第八卷 星辰的祭奠与永恒的箱庭 待續（因原作只到這裡，後續需要原創劇情） </章节列表>",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-30"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:章节列表",
+      "originalEntityType": "events"
+    }
+  ],
+  "edges": [
+    {
+      "source": "章节列表",
+      "target": "幻书",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "幻书",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-30"
+      ],
+      "id": "edge-4",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "characters:幻书",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第三卷-迷宫书架的序曲：睿智-罪业与永恒的徘徊",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第三卷 迷宫书架的序曲：睿智、罪业与永恒的徘徊",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-30"
+      ],
+      "id": "edge-5",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "abilities:第三卷-迷宫书架的序曲：睿智-罪业与永恒的徘徊",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第六卷-虚实边界的幻书余烬",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第六卷 虚实边界的幻书余烬",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-30"
+      ],
+      "id": "edge-6",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "abilities:第六卷-虚实边界的幻书余烬",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第一卷-丹特丽安的书架——禁忌睿智的苏醒与幽冥契约",
+      "sourceEntityType": "events",
+      "targetEntityType": "factions",
+      "predicate": "events-mentions-factions",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第一卷 丹特丽安的书架——禁忌睿智的苏醒与幽冥契约",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-30"
+      ],
+      "id": "edge-7",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "factions:第一卷-丹特丽安的书架——禁忌睿智的苏醒与幽冥契约",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第七卷-灾厄的余波与交错的因缘",
+      "sourceEntityType": "events",
+      "targetEntityType": "factions",
+      "predicate": "events-mentions-factions",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第七卷 灾厄的余波与交错的因缘",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-30"
+      ],
+      "id": "edge-8",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "factions:第七卷-灾厄的余波与交错的因缘",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第五卷-幻書與命運的交織：時時刻表-貓與連鎖",
+      "sourceEntityType": "events",
+      "targetEntityType": "locations",
+      "predicate": "events-mentions-locations",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第五卷 幻書與命運的交織：時時刻表、貓與連鎖",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-30"
+      ],
+      "id": "edge-9",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "locations:第五卷-幻書與命運的交織：時時刻表-貓與連鎖",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第八卷-星辰的祭奠与永恒的箱庭",
+      "sourceEntityType": "events",
+      "targetEntityType": "locations",
+      "predicate": "events-mentions-locations",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第八卷 星辰的祭奠与永恒的箱庭",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-30"
+      ],
+      "id": "edge-10",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "locations:第八卷-星辰的祭奠与永恒的箱庭",
+      "category": "derived-mention"
+    }
+  ]
+}

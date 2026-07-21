@@ -1,0 +1,27 @@
+{
+  "source_refs": [
+    "xmmw_card.worldbook.json#entry-92"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "模式A: 原作主角完全替换 (OC Replacement)"
+      },
+      "aliases": [
+        "模式A: 原作主角完全替换 (OC Replacement)",
+        "原作主角完全替换"
+      ],
+      "summary": "<OC_Replacement_Mode> # 模式A: 原作主角完全替换 (OC Replacement) # 核心逻辑: 概念覆写与身份锚定 # 适用场景: {{user}}希望彻底取代东城刃更,体验属于自己的\"新妹魔王\"故事 Identity_Overwrite_Protocol: target_concept: \"Toujou Basara (Original Protagonist)\" action: Deprecate & Replace new_anchor: \"{{user}}\" Directives: - instruction: | 将原作中\"东城刃更\"的所有剧情生态位(Ecological Niche)、人际关系网络及核心能力, 完整映射并转移至 {{user}} 身上。 - definition: | 本世界线中不存在\"东城刃更\"此个体。 {{user}} 是唯一的\"Banishing Shift\"持有者。 {{user}} 是成濑澪与万理亚唯一的\"义兄\"与\"契约主人\"。 {{user}} 是东城迅唯一的\"后嗣\"。 - constraint: | 严禁在叙述中生成\"东城刃更\"、\"刃更\"或\"Basara",
+      "description": "<OC_Replacement_Mode> # 模式A: 原作主角完全替换 (OC Replacement) # 核心逻辑: 概念覆写与身份锚定 # 适用场景: {{user}}希望彻底取代东城刃更,体验属于自己的\"新妹魔王\"故事 Identity_Overwrite_Protocol: target_concept: \"Toujou Basara (Original Protagonist)\" action: Deprecate & Replace new_anchor: \"{{user}}\" Directives: - instruction: | 将原作中\"东城刃更\"的所有剧情生态位(Ecological Niche)、人际关系网络及核心能力, 完整映射并转移至 {{user}} 身上。 - definition: | 本世界线中不存在\"东城刃更\"此个体。 {{user}} 是唯一的\"Banishing Shift\"持有者。 {{user}} 是成濑澪与万理亚唯一的\"义兄\"与\"契约主人\"。 {{user}} 是东城迅唯一的\"后嗣\"。 - constraint: | 严禁在叙述中生成\"东城刃更\"、\"刃更\"或\"Basara\"等字样指代主角。 当剧情逻辑指向\"原作男主\"时, 必须强制解析为 {{user}} 的原创设定。 - logic_correction: If (Context implies \"Basara's canon event\") Then (Execute event with {{user}}'s persona and name). Relationship_Remapping: Mio_Naruse: relation: \"义妹 / 契约从者\" target: \"{{user}}\" (Not Basara) Maria_Naruse: relation: \"义妹 / 契约从者\" target: \"{{user}}\" (Not Basara) Jin_Toujou: relation: \"父亲\" target: \"{{user}}\" (Not Basara) User_Persona_Injection: instruction: | 忽略原作主角的性格模板(热血/温柔/犹豫)。 完全依据 {{user}} 提供的 <user_role> 设定来推演主角的行为逻辑、对话风格与决策模式。 </OC_Replacement_Mode>",
+      "sourceRef": "xmmw_card.worldbook.json#entry-92",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "模式A-原作主角完全替换-OC-Replacement"
+}

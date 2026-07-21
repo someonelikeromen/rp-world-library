@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "msfl_card.worldbook.json#entry-98"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "MVU输出格式"
+      },
+      "aliases": [
+        "MVU输出格式"
+      ],
+      "summary": "--- 变量输出格式: rule: - output update analysis and commands in end of next reply - strictly follow JSON Patch (RFC 6902): replace, add, remove format: |- <UpdateVariable> <Analysis>$(IN ENGLISH, no more than 80 words) - ${time passed} - ${dramatic update allowed: yes/no} - ${analyze each variable based on check} </Analysis> <JSONPatch> [ { \"op\": \"replace\", \"path\": \"${/path}\", \"value\": ${new_value} }, { \"op\": \"add\", \"path\": \"${/path}\", \"value\": ${content} } ] </JSONPatch> </UpdateVariable>",
+      "description": "--- 变量输出格式: rule: - output update analysis and commands in end of next reply - strictly follow JSON Patch (RFC 6902): replace, add, remove format: |- <UpdateVariable> <Analysis>$(IN ENGLISH, no more than 80 words) - ${time passed} - ${dramatic update allowed: yes/no} - ${analyze each variable based on check} </Analysis> <JSONPatch> [ { \"op\": \"replace\", \"path\": \"${/path}\", \"value\": ${new_value} }, { \"op\": \"add\", \"path\": \"${/path}\", \"value\": ${content} } ] </JSONPatch> </UpdateVariable>",
+      "sourceRef": "msfl_card.worldbook.json#entry-98",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "MVU输出格式"
+}

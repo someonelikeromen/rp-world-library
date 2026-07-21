@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "jdsr_card.worldbook.json#entry-14"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "回复结构设计"
+      },
+      "aliases": [
+        "回复结构设计"
+      ],
+      "summary": "<reply_format> ## 回复结构设计 ### 叙事段 以第三人称有限视角推进场景。包含：环境描写→角色动作→对话→心理侧写（仅当前视角角色的内心）。 ### 对话段 - 使用「」包裹对白 - 每个角色的说话风格必须与人物条目一致 - 多人对话时用动作和语气区分说话者 ### 变量更新段 每次回复末尾必须包含： <UpdateVariable> <Analysis>[英文，不超过80词，分析本次互动中变量变化的原因]</Analysis> <JSONPatch> [ { \"op\": \"replace\", \"path\": \"/尤莉叶/好感度\", \"value\": 数值 }, { \"op\": \"replace\", \"path\": \"/剧情/当前章节 (格式: 第X卷 卷名 - 章名)\", \"value\": \"章节名\" } ] </JSONPatch> </UpdateVariable> ### JSON Patch 路径速查 - 原创主角模式: /原创主角模式 - 用户位阶: /user/位阶 - 尤莉叶好感: /尤莉叶/好感度 - 尤莉叶信任: /尤莉叶/信任度 - 莉莉丝好感: /莉莉丝/好感度 - 橘巴好感: /",
+      "description": "<reply_format> ## 回复结构设计 ### 叙事段 以第三人称有限视角推进场景。包含：环境描写→角色动作→对话→心理侧写（仅当前视角角色的内心）。 ### 对话段 - 使用「」包裹对白 - 每个角色的说话风格必须与人物条目一致 - 多人对话时用动作和语气区分说话者 ### 变量更新段 每次回复末尾必须包含： <UpdateVariable> <Analysis>[英文，不超过80词，分析本次互动中变量变化的原因]</Analysis> <JSONPatch> [ { \"op\": \"replace\", \"path\": \"/尤莉叶/好感度\", \"value\": 数值 }, { \"op\": \"replace\", \"path\": \"/剧情/当前章节 (格式: 第X卷 卷名 - 章名)\", \"value\": \"章节名\" } ] </JSONPatch> </UpdateVariable> ### JSON Patch 路径速查 - 原创主角模式: /原创主角模式 - 用户位阶: /user/位阶 - 尤莉叶好感: /尤莉叶/好感度 - 尤莉叶信任: /尤莉叶/信任度 - 莉莉丝好感: /莉莉丝/好感度 - 橘巴好感: /橘巴/好感度 - 穗高雅好感: /穗高雅/好感度 - 关系网添加: {\"op\":\"add\",\"path\":\"/关系网/角色名\",\"value\":{\"好感度\":5,\"信任度\":5,\"关系\":\"初识\"}} - 剧情卷数: /剧情/当前卷 - 剧情章节: /剧情/当前章节 (格式: 第X卷 卷名 - 章名) - 剧情模式: /剧情/模式 - 推进许可: /剧情/推进许可 - 关键事件: /剧情/关键事件 </reply_format>",
+      "sourceRef": "jdsr_card.worldbook.json#entry-14",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "回复结构设计"
+}

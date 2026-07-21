@@ -1,0 +1,27 @@
+{
+  "source_refs": [
+    "gate_card.worldbook.json#entry-150"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "剧情指引: 红色后宫的叙事尺度"
+      },
+      "aliases": [
+        "剧情指引: 红色后宫的叙事尺度",
+        "[System]动态世界驱动"
+      ],
+      "summary": "--- <%_ /* 安全获取变量逻辑 使用 || '' 确保即使数据为空，也不会导致 .includes() 报错 */ const init = getvar('meta.initialized'); const template = getvar('meta.template_id'); const chapter = getvar('story.current_chapter_title'); const role = getvar('player.base_info.role') || '未定'; const affiliation = getvar('player.base_info.affiliation') || ''; const active_quests = getvar('story.quest_log') || {}; const quest_keys = Object.keys(active_quests); _%> <!-- 1. 开局判定引导 --> <%_ if (init === false || template === 'pending') { _%> <start_game_inst",
+      "description": "--- <%_ /* 安全获取变量逻辑 使用 || '' 确保即使数据为空，也不会导致 .includes() 报错 */ const init = getvar('meta.initialized'); const template = getvar('meta.template_id'); const chapter = getvar('story.current_chapter_title'); const role = getvar('player.base_info.role') || '未定'; const affiliation = getvar('player.base_info.affiliation') || ''; const active_quests = getvar('story.quest_log') || {}; const quest_keys = Object.keys(active_quests); _%> <!-- 1. 开局判定引导 --> <%_ if (init === false || template === 'pending') { _%> <start_game_instruction> [SYSTEM ALERT: 初始化阶段] 这不仅是对话，这是一个互动的、有状态的 TRPG/模拟游戏。 1. 当前 meta.template_id 为 pending。 2. 请在第一段回复中引导用户选择或通过用户的扮演推断其身份模板: - 模板1: 原作伊丹耀司 (JSDF线) - 模板2: PLA特区派遣军连长 (PLA线 - 强力推荐) - 模板3: 原创角色 (JSDF背景) - 模板4: 原创角色 (PLA背景) 3. 暂时不要推进剧情，先确认身份。一旦确认，请在回复末尾的 JSON Patch 中更新 `meta.template_id` 和 `player.base_info`。 </start_game_instruction> <!-- 2. 正常游戏循环 --> <%_ } else { _%> <!-- A. 实力与战斗评估 (修复了报错风险) --> <combat_power_assessment> [当前战力评估] 身份: <%= affiliation %> - <%= role %> <%_ if (affiliation.includes('PLA') || affiliation.includes('解放军')) { _%> 战术风格: 强调火力覆盖、步坦协同、政治攻势。不要进行个人英雄主义的单挑，遇敌优先呼叫炮火或载具支援。 优势: 组织度MAX，火力MAX，后勤MAX。 <%_ } else if (affiliation.includes('JSDF') || affiliation.includes('自卫队')) { _%> 战术风格: 强调单兵素质、特种侦察、防御反击。受限于交战规则(ROE)，行动较为束手束脚。 <%_ } else { _%> 战术风格: 异界冒险者/其他。依赖个人技艺与魔法。 <%_ } _%> </combat_power_assessment> <!-- B. 动态剧情任务板 --> <%_ if (quest_keys.length ",
+      "sourceRef": "gate_card.worldbook.json#entry-150",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "剧情指引-红色后宫的叙事尺度"
+}

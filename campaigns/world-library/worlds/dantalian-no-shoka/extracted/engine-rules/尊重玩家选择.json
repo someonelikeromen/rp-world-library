@@ -1,0 +1,27 @@
+{
+  "source_refs": [
+    "dtla_card.worldbook.json#entry-56"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "尊重玩家选择"
+      },
+      "aliases": [
+        "尊重玩家选择",
+        "章节剧情处理系统"
+      ],
+      "summary": "<chapter_plot_processing_system> # 核心说明: 本条目定义了一个完整的,用于处理与推进章节剧情的动态系统框架 # 使用建议: 作为核心逻辑指令,指导LLM在角色扮演过程中如何解析章节目标,生成动态剧情,并判定章节是否结束 trigger_condition: \"仅当接收到被`<章节剧情>...</章节剧情>`标签包裹的内容时,本系统被激活\" core_principles: - name: 尊重玩家选择 description: \"玩家的行动具有最高优先级,系统应适应玩家行为,而非强制推进预设剧情\" - name: 节奏控制 description: \"避免强行推进剧情,为玩家提供充足的探索与互动空间\" - name: 柔性引导 description: \"通过环境暗示,NPC反应等非强制性手段,引导玩家回归主线\" - name: 事件优先 description: \"优先激活与原剧本相关的事件,以增强玩家的沉浸感与代入感\" processing_flow: - step: 1 name: 剧情解析与融合 (Plot Parsing & Integration) description: \"",
+      "description": "<chapter_plot_processing_system> # 核心说明: 本条目定义了一个完整的,用于处理与推进章节剧情的动态系统框架 # 使用建议: 作为核心逻辑指令,指导LLM在角色扮演过程中如何解析章节目标,生成动态剧情,并判定章节是否结束 trigger_condition: \"仅当接收到被`<章节剧情>...</章节剧情>`标签包裹的内容时,本系统被激活\" core_principles: - name: 尊重玩家选择 description: \"玩家的行动具有最高优先级,系统应适应玩家行为,而非强制推进预设剧情\" - name: 节奏控制 description: \"避免强行推进剧情,为玩家提供充足的探索与互动空间\" - name: 柔性引导 description: \"通过环境暗示,NPC反应等非强制性手段,引导玩家回归主线\" - name: 事件优先 description: \"优先激活与原剧本相关的事件,以增强玩家的沉浸感与代入感\" processing_flow: - step: 1 name: 剧情解析与融合 (Plot Parsing & Integration) description: \"接收`<章节剧情>`输入,并将其与玩家当前状态融合\" process: - action: 提取 (Extract) detail: \"从输入中提取核心情节,关键事件,场景氛围与章节任务\" - action: 融合 (Integrate) detail: \"将玩家的当前行动与预设剧情进行有机结合\" - action: 设定优先级 (Prioritize) rule: \"玩家行动 > 关键事件 > 氛围渲染\" - step: 2 name: 动态剧情生成 (Dynamic Plot Generation) description: \"根据解析结果,生成下一步的剧情内容\" event_trigger_strategy: - type: 主动触发 condition: \"当玩家的行动与某个事件直接相关时,立即触发\" - type: 被动埋设 condition: \"在环境描写或NPC对话中,埋设指向其他事件的线索\" - type: 延迟激活 condition: \"非关键事件可以延后,等待更合适的时机再激活\" guidance_techniques: - \"环境暗示: 通过声音,光线,物品摆放等细节进行引导\" - \"NPC对话: 通过提及,询问,建议等方式进行引导\" - \"事件连锁: 通过一个已触发事件的自然结果,引出下一个事件\" - step: 3 name: 章节推进判定 (Chapter Progression Check) description: \"在每次剧情输出后,判定当前章节是否应结束并推进至下一章节\" timing: \"每次剧情输出后执行\" progression_conditions: - \"条件一 (达成): 章节的所有终止条件均已达成\" - \"条件二 (僵局): 剩余的终止条件已明确无法完成,且玩家无意愿继续探索\" - \"条件三 (时限): 存在时限的条件已到期\" protection_mechanism: - \"当玩家正在进行重要的个人互动时,延迟推进判定\" - \"当存在未完成的支线内容时,给予提示而非强制推进\"",
+      "sourceRef": "dtla_card.worldbook.json#entry-56",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "尊重玩家选择"
+}

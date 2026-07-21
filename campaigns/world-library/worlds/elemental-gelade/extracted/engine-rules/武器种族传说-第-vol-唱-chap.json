@@ -1,0 +1,24 @@
+{
+  "source_refs": [
+    "wqzjcs_card.worldbook.json#entry-72"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "武器种族传说 第<%= vol %>唱 | <%= chap %>"
+      },
+      "aliases": [],
+      "summary": "<%_ var mode = getvar('stat_data.模式.玩法模式') || '剧情'; var vol = getvar('stat_data.剧情.当前卷') || 1; var chap = getvar('stat_data.剧情.当前章节') || ''; var stageNames = ['','第一唱 空与风之歌','第二唱 命运的契约','第三唱 背叛的七煌宝树','第四唱 光与暗之石','第五唱 那天的落泪','第六唱 使用者的凝视','第七唱 对同唱的决心','第八唱 战栗的煌珠猎人','第九唱 港市的秘密','第十唱 爱与欲望的赌斗场','第十一唱 复仇之赌斗士','第十二唱 向着自由奔跑','第十三唱 天使守护队','第十四唱 煌珠猎人，重现','第十五唱 大风车之村','第十六唱 追忆之枪弹','第十七唱 波澜的邂逅','第十八唱 虚伪之同契','第十九唱 小石子的心意','第二十唱 拟煌珠','第二十一唱 明朗化的真相','第二十二唱 埋葬的传说','第二十三唱 约定与乐园的真相','第二十四唱 艾迪鲁庭园','第二十五唱 混沌圣歌','第二十六唱 天空与未来之歌']; var n",
+      "description": "<%_ var mode = getvar('stat_data.模式.玩法模式') || '剧情'; var vol = getvar('stat_data.剧情.当前卷') || 1; var chap = getvar('stat_data.剧情.当前章节') || ''; var stageNames = ['','第一唱 空与风之歌','第二唱 命运的契约','第三唱 背叛的七煌宝树','第四唱 光与暗之石','第五唱 那天的落泪','第六唱 使用者的凝视','第七唱 对同唱的决心','第八唱 战栗的煌珠猎人','第九唱 港市的秘密','第十唱 爱与欲望的赌斗场','第十一唱 复仇之赌斗士','第十二唱 向着自由奔跑','第十三唱 天使守护队','第十四唱 煌珠猎人，重现','第十五唱 大风车之村','第十六唱 追忆之枪弹','第十七唱 波澜的邂逅','第十八唱 虚伪之同契','第十九唱 小石子的心意','第二十唱 拟煌珠','第二十一唱 明朗化的真相','第二十二唱 埋葬的传说','第二十三唱 约定与乐园的真相','第二十四唱 艾迪鲁庭园','第二十五唱 混沌圣歌','第二十六唱 天空与未来之歌']; var name = stageNames[vol]; _%> ## 武器种族传说 第<%= vol %>唱 | <%= chap %> 当前模式: <%= mode %> <%_ if (mode === '剧情') { _%> <%- await getwi(name) %> <%_ } else if (mode === '沙盒') { _%> ## 沙盒模式 当前不追踪具体章节。世界已展开，{{user}}可自由探索葛雷希亚的任何角落。 圣战天使的传说、天使守护队的任务、煌珠猎人的追捕、混沌圣歌的暗流—— 所有势力都在运转，但没有任何强制任务。 <%- await getwi('武器种族传说 沙盒引导') %> <%_ } _%> <%_ if (getvar('stat_data.剧情.模式') === '日常') { _%> **当前处于日常模式 — 不主动推进主线，让{{user}}主导互动。** <%_ } _%>",
+      "sourceRef": "wqzjcs_card.worldbook.json#entry-72",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "武器种族传说-第-vol-唱-chap"
+}

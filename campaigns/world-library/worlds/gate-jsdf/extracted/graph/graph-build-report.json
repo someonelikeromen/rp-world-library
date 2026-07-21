@@ -1,0 +1,33 @@
+{
+  "schema": "gate-jsdf-graph-build-report-v1",
+  "worldId": "gate-jsdf",
+  "status": "completed",
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "validation": {
+    "jsonValid": true,
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "newFactsIntroduced": false,
+    "forbiddenBasenamesGenerated": false
+  },
+  "counts": {
+    "nodes": 136,
+    "edges": 106,
+    "nodeCounts": {
+      "characters": 23,
+      "abilities": 45,
+      "factions": 22,
+      "locations": 5,
+      "events": 9,
+      "systems": 7,
+      "knowledge": 25
+    },
+    "edgeCounts": {
+      "derived-text-mention": 106
+    },
+    "derivedMentionEdges": 106
+  },
+  "warnings": [
+    "Derived graph edges are navigation/search signals, not formal relationship facts."
+  ]
+}

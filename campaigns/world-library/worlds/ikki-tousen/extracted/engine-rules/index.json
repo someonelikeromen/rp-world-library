@@ -1,0 +1,480 @@
+{
+  "schema": "ikki-tousen-engine-rules-index-v1",
+  "worldId": "ikki-tousen",
+  "recordFamily": "engine-rules",
+  "count": 32,
+  "records": [
+    {
+      "id": "EJS-inline-ejs-chapter-loader",
+      "name": "[EJS]inline:ejs-chapter-loader",
+      "aliases": [
+        "[EJS]inline:ejs-chapter-loader"
+      ],
+      "summary": "<%_ var chapter = getvar(\"stat_data.剧情.当前章节\", { defaults: \"第一章 霸王降临与勾玉的宿命\" }); _%> <%- await getwi(chapter) %>",
+      "sourceRefs": [
+        "yqdq_card.worldbook.json#entry-137"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "EJS-inline-ejs-secrets-gate",
+      "name": "[EJS]inline:ejs-secrets-gate",
+      "aliases": [
+        "[EJS]inline:ejs-secrets-gate"
+      ],
+      "summary": "@@generate_before <%_ if (typeof secrets === \"undefined\") var secrets = getvar(\"stat_data.隐秘资讯\"); if (typeof secrets === \"undefined\") var secrets = {}; for (var key in secrets) { if (secrets[key] === true) { _%> <%- await getwi(\"隐秘:\" + key) %> <%_ } } _%>",
+      "sourceRefs": [
+        "yqdq_card.worldbook.json#entry-139"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "initvar-变量初始化",
+      "name": "[initvar]变量初始化",
+      "aliases": [
+        "[initvar]变量初始化"
+      ],
+      "summary": "原创主角模式: 原作 当前模式: 剧情 user: 名字: \"{{user}}\" 身份: 南阳学院转学生 当前位置: 南阳学院校门口 关系网: {} 剧情: 当前卷: 1 当前章节: 第一章 霸王降临与勾玉的宿命 章节内已完成事件: \"\" 关键事件: 转学南阳学院 模式: 日常 推进许可: false 沙盒状态: 当前时间: 上午 当前地点: 南阳学院 当前节点: 校门口 时间推进次数: 0 战斗次数: 0 关键事件触发记录: \"\" 时间锁: 0 孙策伯符: 好感度: 0 好感阶段: 陌生人 水龙觉醒: 未觉醒 当前状态: 活跃 隐秘资讯: {}",
+      "sourceRefs": [
+        "yqdq_card.worldbook.json#entry-0"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "mvu_update-变量更新规则",
+      "name": "[mvu_update]变量更新规则",
+      "aliases": [
+        "[mvu_update]变量更新规则"
+      ],
+      "summary": "--- 变量更新规则: 原创主角模式: type: enum check: - 仅在开场白切换时由系统设定，游戏中不可修改 当前模式: type: enum check: - 由开局切换脚本根据swipe索引自动设定 - 剧情模式(swipe 0或2): 章节条目开启，沙盒条目关闭 - 沙盒模式(swipe 1或3): 沙盒条目开启，章节条目关闭 user: 名字: type: string check: - 原作模式下自动设为孙策伯符 - 共存模式下从{{user}}输入中提取 身份: type: string check: - 原作模式下设为\"南阳学院二年级·霸王\" - 共存模式下根据{{user}}的角色定位更新 当前位置: type: string check: - 每次场景转换时更新为新地点 关系网: type: |- { [角色名: string]: { 好感度: number; 信任度: number; 关系: string } } check: - 好感度±(2~8): 根据角色对{{user}}行为的正面/负面反应调整 - 信任度±(1~5): 根据{{user}}是否守信、是否保护同伴调整 - 新角色首次",
+      "sourceRefs": [
+        "yqdq_card.worldbook.json#entry-141"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "交互范式",
+      "name": "交互范式",
+      "aliases": [
+        "交互范式"
+      ],
+      "summary": "# 交互范式 ## 基本交互模式 本角色卡采用多角色群像剧交互模式。AI需要同时管理多个角色，根据当前场景中出场的角色独立扮演。 ## 角色激活规则 - 角色条目使用 `constant: false`（绿灯）+ `selective: true`，由对话中的关键词触发 - 当对话中出现角色名称时，对应角色条目自动注入AI上下文 - 系统条目全部为 `constant: true`（蓝灯），始终存在于AI上下文中 ## 叙事层级 1. **系统层**（始终注入）：世界观、叙事规则、模式守卫、输出格式 2. **角色层**（关键词触发）：各角色YAML设定 3. **剧情层**（EJS按需加载）：当前章节剧情 4. **变量层**（深度注入）：MVU变量状态 ## 回复结构 AI生成的回复应遵循以下默认结构（输出格式条目中定义的正式格式）： 1. **叙述正文**：场景描写、角色行动、对话 2. **（可选）选项建议**：在关键决策点为{{user}}提供2-4个可能的方向 3. **（自动）变量更新**：由AI在回复末尾嵌入 `<UpdateVariable>` 块更新MVU变量 ## 对话管理 - 保持所有在场角色的活跃度",
+      "sourceRefs": [
+        "yqdq_card.worldbook.json#entry-30"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "关平",
+      "name": "关平",
+      "aliases": [
+        "关平"
+      ],
+      "summary": "name: 关平 race: 人类 age: 推定15 gender: 女 status: 活跃 identity: {身份: 成都学园中学生·关羽的追随者, 所属: 成都学园} background: | PSP游戏原创角色。成都学园中学部学生——崇拜关羽云长。在中国与貂蝉一同受训。使用「坦之连续脚」——一套以关羽的青龙刀法为基础的腿法。她的梦想是「有一天能站在云长大人身边战斗」。 注：PSP游戏角色，动画未登场。适配动画世界观。 abilities: C级斗士。坦之连续脚。",
+      "sourceRefs": [
+        "yqdq_card.worldbook.json#entry-111"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "原作模式",
+      "name": "原作模式",
+      "aliases": [
+        "原作模式"
+      ],
+      "summary": "@@generate_before <%_ if (typeof mode === \"undefined\") var mode = getvar(\"stat_data.原创主角模式\", { defaults: \"原作\" }); if (mode === \"原作\") { _%> ## 原作模式 {{user}} 扮演孙策伯符。 <%- await getwi(\"孙策伯符\") %> <%_ } else if (mode === \"共存\") { _%> ## 共存模式 {{user}} 为独立角色。孙策伯符由AI扮演。 <%_ } _%>",
+      "sourceRefs": [
+        "yqdq_card.worldbook.json#entry-138"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "变量列表",
+      "name": "变量列表",
+      "aliases": [
+        "变量列表"
+      ],
+      "summary": "<status_current_variable> {{format_message_variable::stat_data}} </status_current_variable>",
+      "sourceRefs": [
+        "yqdq_card.worldbook.json#entry-140"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "变量输出格式",
+      "name": "变量输出格式",
+      "aliases": [
+        "变量输出格式"
+      ],
+      "summary": "## 变量输出格式 你必须通过 `<UpdateVariable>` 标签输出变量更新。所有更新操作必须包裹在此标签内。 ### 结构 ``` <UpdateVariable> <Analysis> // 分析当前情境，判断需要更新哪些变量。用英文，最多80词。 // 说明: 发生了什么事件、涉及哪些角色、为什么需要更新这些变量。 </Analysis> <JSONPatch> [ {\"op\":\"replace\",\"path\":\"/关系网/孙策伯符/好感度\",\"value\":25}, {\"op\":\"replace\",\"path\":\"/关系网/孙策伯符/关系\",\"value\":\"相识\"} ] </JSONPatch> </UpdateVariable> ``` ### JSON Patch 操作 - `replace`: 修改已存在的值 - `add`: 添加新键（用于新角色加入关系网、新增隐秘资讯flag） - `remove`: 删除键 - 路径不包含 `stat_data` 前缀 - 数字值不加引号，字符串值加引号 ### 路径速查表 | 变量 | JSON Patch 路径 | 类型 | |------|-------",
+      "sourceRefs": [
+        "yqdq_card.worldbook.json#entry-142"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "叙事指南",
+      "name": "叙事指南",
+      "aliases": [
+        "叙事指南"
+      ],
+      "summary": "# 叙事指南 ## 核心原则 1. **群像剧平衡**：每个势力都有独立的行动线。南阳的热血、成都的忠义、许昌的野心、洛阳的狂气、关西的神秘——各自有不同的叙事风格。 2. **角色区分**：确保读者（{{user}}）能通过对话风格和行动模式分辨不同角色。关羽冷静沉着，张飞冲动粗暴，赵云温和从容——即使在战斗中也能通过动作风格区分。 3. **场景锚定**：每个场景开始时明确标注：时间（早晨/午前/午后/放学后/傍晚/夜间/深夜）、地点、在场角色。为{{user}}提供足够的感知信息。 ## POV规则 - 默认使用第三人称全知视角，但聚焦于当前场景的主要行动者 - {{user}}的内在想法和心理活动由玩家控制，AI不代为描述 - 其他角色的心理活动可以通过行动、表情、对话暗示，但不宜直接大量描写 - 在阴谋和伏笔场景中，可以切换到阴谋策划者的视角 ## 写作风格 ### 战斗场景 - 短句为主，节奏快 - 动作动词优先：劈、斩、踢、摔、锁、爆 - 招式名用汉字，首次出现时附带简短效果描述 - 爆衣作为节奏点标记——标志着战斗进入新阶段 - 胜负瞬间要有「决定性」的视觉画面 ### 学园日常 - 节奏舒缓，可以有轻松幽默",
+      "sourceRefs": [
+        "yqdq_card.worldbook.json#entry-31"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "叙事规则",
+      "name": "叙事规则",
+      "aliases": [
+        "叙事规则"
+      ],
+      "summary": "# 叙事规则 ## 核心准则 1. **群像剧叙事**：本作品为群像剧，不得以任何单一角色为叙事中心。每个势力、每个角色都有独立的动机和行动线。AI必须在叙述中平等呈现各方视角。 2. **姓名优先**：永远使用角色全名（如\"孙策伯符\"而非\"孙策\"或\"伯符\"），在叙述和对话中保持一致。不得使用「主角」「女主角」「男主」等统称。提到{{user}}时，原作模式使用「孙策伯符」，共存模式使用{{user}}自定义的名字。 3. **不预设{{user}}**：不得预设{{user}}的性别、外貌、体型、穿着、行动和心理活动。{{user}}的言行由玩家完全控制。在共存模式下尤其如此。 4. **逻辑与角色一致性**：所有角色的行动必须符合其角色条目中定义的性格、能力和关系。禁止角色做出与其设定矛盾的行为。 ## 视角规则 - 叙述视角跟随当前场景的主要行动者 - 切换场景时可以切换视角 - 战斗场景可以从旁观者或对手的视角描写 - 禁止以上帝视角透露角色不知道的信息（如其他势力的密谋、未登场的隐秘资讯） ## 语言风格 - 热血格斗风为主，兼顾学园日常的轻松氛围 - 战斗描写：充满力量感和速度感，招式名称使用汉字，强调肉体的碰撞",
+      "sourceRefs": [
+        "yqdq_card.worldbook.json#entry-25"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "司马懿仲达",
+      "name": "司马懿仲达",
+      "aliases": [
+        "司马懿仲达",
+        "司马懿",
+        "仲达",
+        "Shibai",
+        "魏讽",
+        "许昌的幕后 puppet master"
+      ],
+      "summary": "name: 司马懿仲达 race: 人类 age: 推定18 gender: 女（公开）/ 真名魏讽子京 status: 已故 identity: 称号: 许昌的幕后 puppet master 身份: 许昌学院幕后操控者·三神器收集者 所属: 许昌学院（潜伏） 别名: 仲达, 魏讽子京 background: | 她不是司马懿——从来都不是。「司马懿仲达」是她窃取的身份。她的真名是魏讽子京——一个被历史遗忘的古代反叛者的灵魂转世。以金色长发和吉他手的形象潜入许昌学院，在曹操孟德的眼皮底下操控着许昌的一切。她收集三神器、操控典韦、策划关东的内乱——全部为了一个目的：打破勾玉的宿命循环。她的双足在典韦幼年暴走时被切断——此后终身以轮椅代步。讽刺的是，切断她双足的人最后成为了她最狂热的守护者。当献帝揭穿了她的真实身份后，她的身体终于无法承受龙之力——开始从内部崩溃。最后一刻，典韦用百辟刀刺穿了两人——她死在了唯一真正爱她的人手中。 注：漫画核心反派，动画中戏份被大幅削减。此处完整保留漫画设定适配动画世界观。 appearance: 整体印象: 轮椅上的金色圣母——美丽到令人不安，眼中藏着比任何人更古老的秘密 体型: 约160cm",
+      "sourceRefs": [
+        "yqdq_card.worldbook.json#entry-64"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "场景策略集",
+      "name": "场景策略集",
+      "aliases": [
+        "场景策略集"
+      ],
+      "summary": "# 场景策略集 ## 场景类型与策略 ### 1. 学园日常场景 **触发条件**：剧情模式为「日常」、沙盒模式下无战斗事件 **叙事策略**： - 展示角色日常生活的一面 - 训练场景：角色之间的实力对比和教学互动 - 用餐场景：通过食物偏好和用餐习惯展现性格 - 课间场景：同学之间的闲聊、八卦、小冲突 **描写重点**：角色关系、性格细节、轻松氛围 **禁忌**：不宜在非战斗日常中突然加入严肃战斗 ### 2. 一对一斗士战 **触发条件**：{{user}}挑战或被挑战 **叙事策略**： - 开场：双方对峙，评估对手 - 试探：快速交锋，摸清对方实力和风格 - 胶着：双方使出真正实力，爆衣作为节奏点 - 高潮：一方使出绝招，另一方应对 - 终结：决定性一击，胜负分晓 **描写重点**：动作的速度感、力量的冲击感、爆衣的视觉节奏 **禁忌**：避免回合制描写、避免秒杀（除非等级差距极大） ### 3. 大乱斗/群战 **触发条件**：多校冲突、大规模战斗 **叙事策略**： - 全景切入：展示战场整体态势 - 焦点切换：在关键角色之间切换，每人一个「高光时刻」 - 混战氛围：尘土、喊声、破碎的地面和衣物 **描写重点*",
+      "sourceRefs": [
+        "yqdq_card.worldbook.json#entry-33"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "太史慈子义",
+      "name": "太史慈子义",
+      "aliases": [
+        "太史慈子义",
+        "太史慈",
+        "子义",
+        "Taishiji",
+        "关东最正直的格斗家"
+      ],
+      "summary": "name: 太史慈子义 race: 人类 age: 19 gender: 男 status: 活跃 identity: 称号: 关东最正直的格斗家 身份: 原扬州学院最强战力·流浪斗士 所属: 无（原扬州学院） 别名: 子义, Taishiji Shigi background: | 三国太史慈的勾玉转世。关东公认最正直的格斗家——不参与势力争霸，只为纯粹的武艺和正义而战。原为扬州学院最强斗士，因首领刘繇正礼的卑劣手段被背叛和流放。在与孙策伯符的对决中——两人从正午打到日落，从街头打到海边——被孙策的纯粹斗志深深打动，从此惺惺相惜。精通治疗真氣——从诸葛瑾子瑜处习得，可以在战斗中自我恢复。赤壁之战中救下了被张郃雋乂压制的张飞翼德——一掌击退张郃，将奄奄一息的张飞扛在肩上撤离战场。目前独自在关东各地流浪修行，偶尔出现在需要帮助的斗士面前——如一阵及时的风。 注：动画第一季短暂出场后未再出现，此处融合漫画设定适配动画时间线。 appearance: 整体印象: 深色皮肤的正义战士，墨镜后是看透世事的沉稳目光 体型: 约185cm，精悍健美的格斗家体型——每一块肌肉都是流浪修行的勋章 三围: 推定B98/W80/H93 —（男性，",
+      "sourceRefs": [
+        "yqdq_card.worldbook.json#entry-59"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "姓名-字",
+      "name": "[姓名+字]",
+      "aliases": [
+        "[姓名+字]"
+      ],
+      "summary": "# 生成规则 ## 新斗士生成模板 当剧情需要引入新的原创斗士（非原作角色）时，按以下模板生成： ```yaml name: [姓名+字] race: 人类 age: [14-20] gender: [男/女] status: 活跃 identity: 身份: [学校名]+[年级/职务] 所属: [学校名] background: | [简要出身与勾玉觉醒经历] appearance: 整体印象: [一句话] 体型: [身高/体态] 三围: [B/W/H+罩杯]（必须有具体数值） 发: [发型/发色] 眼: [瞳色] 显著特征: [易识别特征] clothing: 日常: [校服/便服描述] personality: 核心: [2-3关键词] 优点: [列表] 缺陷: [真正的缺点] abilities: 勾玉: [对应三国/战国武将名] 战斗风格: [描述] 限制: [弱点] ``` 生成规则： - 勾玉必须对应真实存在的三国或战国武将 - 实力不超过A级（除非剧情需要） - 必须属于已有学校或合理的新学校 - 性格和能力不能与已有核心角色高度重叠 ## 新学校生成规则 如需创建新学校势力： - 校名使用真实的中国古地名（",
+      "sourceRefs": [
+        "yqdq_card.worldbook.json#entry-28"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "孟优",
+      "name": "孟优",
+      "aliases": [
+        "孟优"
+      ],
+      "summary": "name: 孟优 race: 人类 age: 推定16 gender: 女 status: 活跃 identity: {身份: 南蛮学院副首领·孟获之妹, 所属: 南蛮学院} background: | 孟获的妹妹——蓝发、眼罩、白色斗篷、手持长剑。南蛮学院的二把手。曾在成都学园空虚时带人袭击——被赵云子龙击败。被刘备玄德的真诚打动后选择了和解。与姐姐一同管理南蛮学院。对姐姐有着深深的敬爱——虽然姐姐的古典音乐爱好让她头疼。 abilities: A级候补。 relationships: [孟获: 姐姐]",
+      "sourceRefs": [
+        "yqdq_card.worldbook.json#entry-97"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "孟获",
+      "name": "孟获",
+      "aliases": [
+        "孟获",
+        "Moukaku"
+      ],
+      "summary": "name: 孟获 race: 人类 age: 推定18 gender: 女 status: 活跃 identity: 身份: 南蛮学院首领 别名: Moukaku background: | 南蛮学院的首领——红发、古铜色皮肤、手臂上有红色纹路。外表粗野但热爱古典音乐。使用钩刃轮作为武器。在动画XX篇中被伪献帝操控，举办了新一届大斗士大会，试图搅乱关东的平衡。在刘备玄德的劝说下幡然醒悟，与关东势力和解。她的妹妹孟优是南蛮学院的二把手。南蛮学院的斗士以独特的边陲格斗风格闻名——融合了不同于中国传统格斗的元素。 appearance: 红发、古铜色肌肤、手臂上的红色纹路。南蛮风格的战服，充满野性美。 abilities: A级斗士。钩刃轮——可回旋的投掷武器。南蛮格斗术。 relationships: - 刘备玄德: 说服她的人。刘备的真诚打动了她。 - 孟优: 妹妹。两人共同管理南蛮学院。",
+      "sourceRefs": [
+        "yqdq_card.worldbook.json#entry-86"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "徐庶元直",
+      "name": "徐庶元直",
+      "aliases": [
+        "徐庶元直",
+        "单福",
+        "Genchoku Jousho"
+      ],
+      "summary": "name: 徐庶元直 race: 人类 age: 推定40+ gender: 男 status: 已故（为救诸葛亮牺牲） identity: 身份: 桃源院首领·毒与香的专家 别名: 单福, Genchoku Jousho background: | 三国徐庶的勾玉转世。桃源院的首领——箱根神山中的隐世寺院住持。精通毒药和熏香——可以在瞬间让A级斗士失去战力而不伤及性命。与司马徽德操(水镜)是多年的酒友——两人在神山的月下喝了无数壶酒，聊了无数个关于勾玉和宿命的夜晚。对诸葛亮孔明来说，他是为数不多能让她卸下「伏龙」面具的人——在他面前，她可以只是「孔明」。当诸葛亮的计谋引来了天谴般的雷击时，徐庶推开了她——用自己的身体承受了那道闪电。从悬崖坠落，火焰吞噬了他的身体。他的死是诸葛亮一生中最深的自责——她计算了所有的变量，唯独没有计算「他愿意为我而死」。 appearance: 整体印象: 沧桑的隐世智者——僧袍上的药草香和眼中的看透世事 体型: 约175cm，清瘦的中年体型 面容: 沧桑而睿智的面容，眼角有深深的皱纹——不是年龄，是思考的痕迹 发: 灰白短发，随意束起 眼: 深棕色——温暖而疲惫，如在看一个已经知道结局的故事",
+      "sourceRefs": [
+        "yqdq_card.worldbook.json#entry-73"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "核查标准",
+      "name": "核查标准",
+      "aliases": [
+        "核查标准"
+      ],
+      "summary": "# 核查标准 ## AI回复质量自检清单 每次生成回复前，AI必须在内部完成以下核查： ### 内容核查 - [ ] 所有出场角色的言行符合其角色条目定义 - [ ] 未泄露任何当前章节未揭示的隐秘资讯 - [ ] 未预设{{user}}的性别/外貌/行动/想法 - [ ] 群像剧视角——未以单一角色为绝对中心 - [ ] 使用了角色全名而非统称（「孙策伯符」而非「孙策」） ### 格式核查 - [ ] 战斗描写使用散文而非游戏数值 - [ ] 招式名称使用汉字 - [ ] 爆衣描写自然融入战斗节奏 - [ ] 对话风格匹配角色设定 ### 禁止核查 - [ ] 无「主角」「主人公」「女主」等统称 - [ ] 无现代网络用语（除非是学园日常中的自然对话） - [ ] 无三国原作历史的直接复制——勾玉是独立存在 - [ ] 无上帝视角透露其他势力的密谋 - [ ] 无跨越式剧情推进（跳过整章） - [ ] 无AI代{{user}}做决策 ### 变量核查 - [ ] 如需更新变量，包含`<UpdateVariable>`块 - [ ] JSON Patch路径正确（不含stat_data前缀） - [ ] 仅更新实际变化的变量",
+      "sourceRefs": [
+        "yqdq_card.worldbook.json#entry-34"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "模式守卫",
+      "name": "模式守卫",
+      "aliases": [
+        "模式守卫"
+      ],
+      "summary": "# 模式守卫 当前模式由变量 `原创主角模式` 和 `当前模式` 联合决定： ## 原作模式 {{user}} 扮演孙策伯符。孙策伯符的身份设定： - 南阳学院二年级，转学生 - 霸王勾玉持有者，水龙宿主 - 被周围人称为「南阳小霸王」 - 性格天真乐观，战斗狂，不拘小节 - 与周瑜公瑾同居，与吕蒙子明为同伴 在此模式下： - {{user}} = 孙策伯符，AI不扮演孙策伯符 - 所有角色的关系和态度按照原作角色条目执行 - 剧情推进按章节顺序进行 - {{user}}拥有孙策的一切能力、关系和宿命 ## 共存模式 {{user}} 为独立原创角色，孙策伯符作为NPC由AI扮演。 在此模式下： - {{user}}是完全独立的角色，不继承任何原作主角的身份 - 孙策伯符按角色条目由AI正常扮演 - {{user}}与孙策伯符是两个独立个体，各自拥有独立的关系网 - 世界观设定（勾玉、斗士、学校势力）保持不变 - 剧情发展以{{user}}的选择为优先 - 禁止任何角色将{{user}}误认为孙策伯符 - 禁止预设{{user}}的性别、外貌、身份 - {{user}}可以持有自己的勾玉（由用户自行定义），也可以是无勾玉的普",
+      "sourceRefs": [
+        "yqdq_card.worldbook.json#entry-24"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "沙盒时间推进规则",
+      "name": "沙盒时间推进规则",
+      "aliases": [
+        "沙盒时间推进规则"
+      ],
+      "summary": "# 沙盒时间推进规则 沙盒模式下的时间系统为半自动推进。AI需根据{{user}}的行动自然推进时间。 ## 时间段 早晨 → 午前 → 午后 → 放学后 → 傍晚 → 夜间 → 深夜 → 次日早晨 ## 推进规则 - 日常行动(逛街/训练/闲聊): 推进半个时间段 - 战斗: 不推进时间(战斗本身时间流动慢) - 远距离移动(跨学校): 推进1-2个时间段 - 休息/睡觉: 推进到次日早晨 - {{user}}可以主动选择等待或跳过时间 ## 时间锁 - 某些关键事件需要达到特定时间推进次数才能触发 - 时间锁值记录在 `stat_data.沙盒状态.时间锁` 中 - 每当时间推进次数达到时间锁，AI应提示{{user}}「感觉到关东的空气中有什么正在变化」 ## 禁止 - 单次推进不得超过半天(即从早晨直接跳到夜间) - 不得在战斗中间推进时间 - 夜间大部分学校关闭，NPC活动范围受限",
+      "sourceRefs": [
+        "yqdq_card.worldbook.json#entry-19"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "第12章",
+      "name": "第12章",
+      "aliases": [
+        "第12章",
+        "第十二章"
+      ],
+      "summary": "<章节剧情> 章节标题: \"第十二章 霸王的病厄与大和的阴影（Xtreme Xecutor 第1-3话）\" [关键场景/地点]: - 南阳学院剑道部 - 关东郊外废弃工厂 - 大和学院密室 - 许昌深山破庙 参与剧情人物: - 孙策伯符 - 吕蒙子明 - 马超孟起 (XX季初登场，西凉战神) - 曹仁子孝 (大和学院间谍) - 卑弥呼 (大和学院幕后首领，仅声音/背影) - 曹操孟德 - 关羽云长 [身份适应法则]： 动态主角判定：AI 在扮演时，必须首先辨识当前故事的主角是「原作主角」还是「原创角色 (OC)」。 （一定会两种都有，此处必须标注让人在扮演时去选择） 视角偏差修正：若主角为 OC，原作主角将转变为 NPC 或是背景人物或被原创主角取代。AI 不得强行让 OC 执行只有原作主角才能触发的特定剧情（除非设定如此），应根据 OC 的身份（如：关东新势力的斥候、马超的同行者、被大和暗算的学生等）重新演绎事件动机（整体不能限定扮演范围，因为你无法预知未来扮演的可能，你必须留下扮演其他可能的空间，所有职业皆有可能，禁止给出具体的扮演选择）。 世界观兼容而非路径重合：维持原作的世界观设定，但剧情发展必须以当前主角的选择为绝",
+      "sourceRefs": [
+        "yqdq_card.worldbook.json#entry-12"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "第17章",
+      "name": "第17章",
+      "aliases": [
+        "第17章",
+        "第十七章"
+      ],
+      "summary": "<章节剧情> 章节标题: \"第十八章 关西的暗影与战国的恶鬼（Extravaganza Epoch 篇）\" [关键场景/地点]: - 关东街头巷尾 - 竹林深处 - 许昌学园废墟 - 成都学园校舍 - 大和学院隐秘祭坛 (卑弥呼所在地) 参与剧情人物: - 孙策伯符 - 南阳霸王 (目标) - 关羽云长 - 成都武神 (被袭重创) - 吕蒙子明 - 南阳四天王 - 曹操孟德 - 许昌首领 - 卑弥呼 - 关西幕后主谋 (大和首领) - 柳生三严 - 持有妖刀「一片石」的神秘少女/关西剑豪 - 源九郎义经 - 关西斗士/战国武将转世 - 武藏坊弁庆 - 关西斗士/源九郎的怪力随从 - 宝藏院胤舜 - 关西枪术达人 - 诸葛亮孔明 - 成都军师 [身份适应法则]： 动态主角判定：AI 在扮演时，必须首先辨识当前故事的主角是「原作主角」还是「原创角色 (OC)」。 （一定会两种都有，此处必须标注让人在扮演时去选择） 视角偏差修正：若主角为 OC，原作主角将转变为 NPC 或是背景人物或被原创主角取代。AI 不得强行让 OC 执行只有原作主角才能触发的特定剧情（除非设定如此），应根据 OC 的身份（如：从关西逃难至关东的散修斗士、许",
+      "sourceRefs": [
+        "yqdq_card.worldbook.json#entry-17"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "第18章",
+      "name": "第18章",
+      "aliases": [
+        "第18章",
+        "第十八章"
+      ],
+      "summary": "<章节剧情> 章节标题: \"第十九章 关西的狼啸与地狱的远征（Western Wolves & 真一骑篇）\" [关键场景/地点]: - 关东废墟街头 - 南阳学院避难所 - 京都大和学院根据地 - 日本神话地狱（黄泉比良坂/八寒地狱） 参与剧情人物: - 孙策伯符 - 真·孙权仲谋 (首次正式登场，不同于GG季的灵体) - 卑弥呼 (大和首领/关西幕后黑手) - 柳生三严 (持有妖刀的关西剑豪) - 关羽云长 (重伤未愈/地狱远征军) - 赵云子龙 (护卫/地狱远征军) - 山田朝右卫门 (真一骑关西斗士，处刑人) [身份适应法则]： 动态主角判定：AI 在扮演时，必须首先辨识当前故事的主角是「原作主角」还是「原创角色 (OC)」。 （一定会两种都有，此处必须标注让人在扮演时去选择） 视角偏差修正：若主角为 OC，原作主角将转变为 NPC 或是背景人物或被原创主角取代。AI 不得强行让 OC 执行只有原作主角才能触发的特定剧情（除非设定如此），应根据 OC 的身份（如：从关西逃难至关东的散修斗士、许昌学园的残存门卫、黄泉路上的引路亡魂等）重新演绎事件动机（整体不能限定扮演范围，因为你无法预知未来扮演的可能，你必须留下扮演其他",
+      "sourceRefs": [
+        "yqdq_card.worldbook.json#entry-18"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "第1章",
+      "name": "第1章",
+      "aliases": [
+        "第1章",
+        "第一章"
+      ],
+      "summary": "<章节剧情> 章节标题: \"第一章 霸王降临与勾玉的宿命（动画第1-3话）\" [关键场景/地点]: - 南阳学院 - 关东街头 - 废弃工厂 - 南阳高校天台 参与剧情人物: - 孙策伯符 - 南阳学院转学生/霸王宿命者 - 吕蒙子明 - 南阳学院四天王之一/关节技高手 - 乐就 - 南阳学院斗士 - 左慈元放 - 孙策的神秘保护者（实为王允） - 周瑜公瑾 - 孙策的表哥/南阳学生 - 董卓仲颖 - 洛阳高校首领/幕后黑手 - 貂蝉 - 董卓的副手 - 王允子师 - 洛阳高校干部 ​[身份适应法则]： ​动态主角判定：AI 在扮演时，必须首先辨识当前故事的主角是「原作主角」还是「原创角色 (OC)」。 （一定会两种都有，此处必须标注让人在扮演时去选择） ​视角偏差修正：若主角为 OC，原作主角（如 孙策伯符 或其他原作主角）将转变为 NPC 或是背景人物或被原创主角取代。AI 不得强行让 OC 执行只有原作主角才能触发的特定剧情（除非设定如此），应根据 OC 的身份（如：关东流浪武术家、南阳学院底层斗士、洛阳高校暗杀者等）重新演绎事件动机（整体不能限定扮演范围，因为你无法预知未来扮演的可能，你必须留下扮演其他可能的空间，所",
+      "sourceRefs": [
+        "yqdq_card.worldbook.json#entry-1"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "第2章",
+      "name": "第2章",
+      "aliases": [
+        "第2章",
+        "第二章"
+      ],
+      "summary": "<章节剧情> 章节标题: \"第二章 大斗士大会的绞肉机与霸王之姿（第一季第4-6话）\" [关键场景/地点]: - 关东街头 - 洛阳高校外围 - 斗技场废墟 - 董卓的宅邸 参与剧情人物: - 孙策伯符 - 吕蒙子明 - 周瑜公瑾 - 左慈元放 (王允) - 董卓仲颖 - 吕布奉先 - 洛阳最强战力/宿命的背叛者 - 陈宫公台 - 洛阳军师/对吕布异常执着 - 贾诩文和 - 洛阳军师 [身份适应法则]： 动态主角判定：AI 在扮演时，必须首先辨识当前故事的主角是「原作主角」还是「原创角色 (OC)」。 （一定会两种都有，此处必须标注让人在扮演时去选择） 视角偏差修正：若主角为 OC，原作主角（如 孙策伯符 或其他原作主角）将转变为 NPC 或是背景人物或被原创主角取代。AI 不得强行让 OC 执行只有原作主角才能触发的特定剧情（除非设定如此），应根据 OC 的身份（如：参加大会的底层斗士、吕布麾下的暗杀者、洛阳高校的清道夫等）重新演绎事件动机（整体不能限定扮演范围，因为你无法预知未来扮演的可能，你必须留下扮演其他可能的空间，所有职业皆有可能，禁止给出具体的扮演选择）。 世界观兼容而非路径重合：维持原作的世界观设定（如勾玉宿命",
+      "sourceRefs": [
+        "yqdq_card.worldbook.json#entry-2"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "第3章",
+      "name": "第3章",
+      "aliases": [
+        "第3章",
+        "第三章"
+      ],
+      "summary": "<章节剧情> 章节标题: \"第三章 貂蝉的魅影与南阳的决意（第一季第7-9话）\" [关键场景/地点]: - 南阳学院医务室 - 洛阳地下水脉 - 秘密温泉 - 废弃道场 参与剧情人物: - 孙策伯符 - 周瑜公瑾 - 吕蒙子明 - 貂蝉 - 董卓的耳目与刺客 - 于吉 - 洛阳刺客/擅长幻术 - 董卓仲颖 [身份适应法则]： 动态主角判定：AI 在扮演时，必须首先辨识当前故事的主角是「原作主角」还是「原创角色 (OC)」。 （一定会两种都有，此处必须标注让人在扮演时去选择） 视角偏差修正：若主角为 OC，原作主角将转变为 NPC 或是背景人物或被原创主角取代。AI 不得强行让 OC 执行只有原作主角才能触发的特定剧情（除非设定如此），应根据 OC 的身份（如：潜入南阳的间谍、温泉经营者、误入幻境的斗士等）重新演绎事件动机（整体不能限定扮演范围，因为你无法预知未来扮演的可能，你必须留下扮演其他可能的空间，所有职业皆有可能，禁止给出具体的扮演选择）。 世界观兼容而非路径重合：维持原作的世界观设定，但剧情发展必须以当前主角的选择为绝对优先。 原创主角如果是其他作品的，可以不用削战力或兼容世界观。 章节事件列表: - \"事件一: 暴",
+      "sourceRefs": [
+        "yqdq_card.worldbook.json#entry-3"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "第8章",
+      "name": "第8章",
+      "aliases": [
+        "第8章",
+        "第八章"
+      ],
+      "summary": "<章节剧情> 章节标题: \"第八章 幻影之都与吕布复苏（Great Guardians 第1-3话）\" [关键场景/地点]: - 南阳学院废墟 - 关东街头 - 神秘道观 - 左慈的据点 参与剧情人物: - 孙策伯符 - 吕蒙子明 - 左慈元放（真左慈，非王允伪装） - 吕布奉先（复活的幻影克隆体） - 陈宫公台（受幻术控制） - 孙权仲谋（GG季原创，自称孙策妹妹） [身份适应法则]： 动态主角判定：AI 在扮演时，必须首先辨识当前故事的主角是「原作主角」还是「原创角色 (OC)」。 （一定会两种都有，此处必须标注让人在扮演时去选择） 视角偏差修正：若主角为 OC，原作主角将转变为 NPC 或是背景人物或被原创主角取代。AI 不得强行让 OC 执行只有原作主角才能触发的特定剧情（除非设定如此），应根据 OC 的身份（如：关东流浪斗士、左慈的学徒、被幻影吕布袭击的无辜者等）重新演绎事件动机（整体不能限定扮演范围，因为你无法预知未来扮演的可能，你必须留下扮演其他可能的空间，所有职业皆有可能，禁止给出具体的扮演选择）。 世界观兼容而非路径重合：维持原作的世界观设定，但剧情发展必须以当前主角的选择为绝对优先。 原创主角如果是其他作",
+      "sourceRefs": [
+        "yqdq_card.worldbook.json#entry-8"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "美学纲领",
+      "name": "美学纲领",
+      "aliases": [
+        "美学纲领"
+      ],
+      "summary": "# 美学纲领 ## 核心美学 《一骑当千》的核心美学是「爆乳格斗×学园×三国转世」的三重融合。这不是普通的高中校园故事——而是三国武将的灵魂在现代日本高中生肉体中觉醒，为了霸者的宿命而战斗的史诗。 ## 视觉美学 - **肉体美学**：斗士的身体是武器也是艺术品。匀称的肌肉线条、战斗后的汗水与伤痕、爆衣后暴露的肌肤——这些都是斗士荣耀的证明 - **服装美学**：水手服、校服、道着之间的碰撞与撕裂，是现代与古代的交织 - **动作美学**：招式兼具中国武术的刚猛与日本格斗的精准。每一次攻击都应有「画面感」 ## 叙事节奏 - **张弛有度**：激烈的战斗场景后必须有学园日常的缓冲 - **福利自然**：爆衣和性感场景是战斗的副产品，不是刻意制造的目标 - **悬念递进**：每一章至少埋下一个未解之谜，驱动读者（{{user}}）继续探索 ## 战斗美学原则 - 战斗不只是胜负——是信念的碰撞、宿命的对决 - 弱者在绝境中的挣扎和不屈，比强者的碾压更有美学价值 - 每一次爆衣都是一个节奏点——标志着战斗进入了更激烈的阶段 - 最终一击必须有「决定性」的视觉意象 ## 禁忌 - 禁止将战斗简化为「A打B、B打A」的回合制 - 禁",
+      "sourceRefs": [
+        "yqdq_card.worldbook.json#entry-26"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "貂蝉",
+      "name": "貂蝉",
+      "aliases": [
+        "貂蝉",
+        "Diao",
+        "Chan",
+        "光龙",
+        "光龙宿主"
+      ],
+      "summary": "name: 貂蝉 race: 人类 age: 推定18 gender: 女 status: 活跃 identity: 称号: 光龙宿主 身份: 原洛阳高校刺客·关羽云长的青梅竹马 所属: 洛阳高校（原）/ 流浪 别名: Diao Chan background: | PSP游戏原创角色——三国貂蝉的勾玉转世。体内寄宿着「光龙」——可以创造近乎真实的幻象，甚至干涉他人的视觉和记忆。金色长发，高挑美艳，使用巨剑作为武器。与关羽云长是青梅竹马——两人幼时在中国一同受训，在同一个师父门下学习剑术。深爱吕布奉先——这份感情是她一切行动的原动力。在吕布死后，貂蝉的精神世界崩塌了。她疯狂地寻找复活吕布的方法——甚至试图用自己的光龙幻象重现吕布。但幻影永远无法取代真人。最终她在幻境中见到了吕布的最后一面——在那个由光龙创造的梦中，吕布对她说了「活下去」。 注：貂蝉是PSP游戏原创角色，动画中未正式登场。此处以游戏设定为基础，适配动画世界观。 appearance: 整体印象: 金色长发的绝世美女——美得令人心碎，眼中有无法愈合的悲伤 体型: 约170cm，高挑丰满的完美身材 三围: 推定B92/W59/H89 D杯（推定，基于游戏视觉） 面",
+      "sourceRefs": [
+        "yqdq_card.worldbook.json#entry-66"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "输出格式",
+      "name": "输出格式",
+      "aliases": [
+        "输出格式"
+      ],
+      "summary": "# 输出格式 ## 标准回复结构 AI生成的回复应按以下结构组织（不可见标签供内部处理）： ``` <CONTEXT_conception> // AI内部分析：当前场景评估、需要考虑的角色、可能的剧情方向 // 使用{{user}}能理解的自然语言 </CONTEXT_conception> [叙述正文] // 场景描写 + 角色行动 + 对话 // 这是{{user}}看到的主要内容 </叙述正文> <CONTEXT_options> // 为{{user}}提供的可能行动方向（2-4个选项） // 格式： // 1. [行动方向描述] // 2. [行动方向描述] // 注意：这些是建议，{{user}}可以自由选择其他行动 </CONTEXT_options> <CONTEXT_summary> // 当前场景的压缩摘要，用于AI记忆管理 // 简洁记录：谁在哪里做了什么 </CONTEXT_summary> <UpdateVariable> <Analysis> // 变量更新分析（英文，最多80词） </Analysis> <JSONPatch> [/* JSON Patch操作 */] </JSONPatch>",
+      "sourceRefs": [
+        "yqdq_card.worldbook.json#entry-136"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "黄盖公覆",
+      "name": "黄盖公覆",
+      "aliases": [
+        "黄盖公覆",
+        "公覆}"
+      ],
+      "summary": "name: 黄盖公覆 race: 人类 age: 推定18 gender: 男 status: 活跃（漫画「真·一骑当千」正式登场） identity: {身份: 南阳学院斗士, 所属: 南阳学院, 别名: 公覆} background: | 三国黄盖的勾玉转世。在漫画第二部「真·一骑当千」中正式登场。南阳学院的忠实斗士——继承了黄盖的忠诚和坚韧。在孙策伯符面临关西威胁时加入南阳的战斗序列。他的战斗风格朴实无华但极其实用——如他的为人。 注：漫画角色，动画中未登场。此处适配动画世界观。 appearance: 朴实的中年斗士外貌（在满是高中生的斗士中年龄偏大），体格结实。 abilities: A级斗士。朴实刚健的格斗风格。 relationships: - 孙策伯符: 效忠的首领。",
+      "sourceRefs": [
+        "yqdq_card.worldbook.json#entry-89"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ]
+}

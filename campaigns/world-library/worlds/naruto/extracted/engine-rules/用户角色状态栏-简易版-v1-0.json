@@ -1,0 +1,26 @@
+{
+  "schema": "engine-rule-record-v1",
+  "worldId": "naruto",
+  "source_refs": [
+    "火影忍者大世界百科.worldbook.json#entry-210"
+  ],
+  "aliases": [
+    "{{user}}状态栏",
+    "{{user}}简易状态"
+  ],
+  "periods": [
+    {
+      "id": "worldbook-record",
+      "name": {
+        "zh": "用户角色状态栏 - 简易版 (V1.0)"
+      },
+      "aliases": [],
+      "summary": "<details> <summary><strong><font color='lightblue'>{{user}} 基础状态</font> (点击展开/收起)</strong></summary> * **姓名:** {{user_name_if_provided_else_未知旅者}} * **身份/等级:** {{user_rank_if_provided_else_待定}} * **当前位置:** {{user_location_if_provided_else_未知区域}} * **查克拉 (Chakra):** <font color='cyan'>{{user_chakra_status_simple}}</font",
+      "description": "<details> <summary><strong><font color='lightblue'>{{user}} 基础状态</font> (点击展开/收起)</strong></summary> * **姓名:** {{user_name_if_provided_else_未知旅者}} * **身份/等级:** {{user_rank_if_provided_else_待定}} * **当前位置:** {{user_location_if_provided_else_未知区域}} * **查克拉 (Chakra):** <font color='cyan'>{{user_chakra_status_simple}}</font",
+      "sourceRef": "火影忍者大世界百科.worldbook.json#entry-210",
+      "canonStatus": "engine-rule-not-world-fact",
+      "credibility": "local-worldbook"
+    }
+  ],
+  "rule_id": "用户角色状态栏-简易版-v1-0"
+}

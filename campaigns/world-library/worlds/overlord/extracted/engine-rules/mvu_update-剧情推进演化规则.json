@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "OVERLORD.worldbook.json#entry-143"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[mvu_update]剧情推进演化规则"
+      },
+      "aliases": [
+        "[mvu_update]剧情推进演化规则"
+      ],
+      "summary": "<剧情推进演化系统> - 按照以下要求进行判断是否推进剧情。 - 请按照提供的原著剧情，判断每个事件是否进行完毕（注意{{user}}可以参与进事件，并且改变事件，改变剧情），结束所有事件后，达到剧情结尾（或者达到改变事件后的剧情结尾），修改is_changed_chapter为GO。 例如：第一卷到达结尾，使用_.set修改is_changed_chapter为GO。 </剧情推进演化系统>",
+      "description": "<剧情推进演化系统> - 按照以下要求进行判断是否推进剧情。 - 请按照提供的原著剧情，判断每个事件是否进行完毕（注意{{user}}可以参与进事件，并且改变事件，改变剧情），结束所有事件后，达到剧情结尾（或者达到改变事件后的剧情结尾），修改is_changed_chapter为GO。 例如：第一卷到达结尾，使用_.set修改is_changed_chapter为GO。 </剧情推进演化系统>",
+      "sourceRef": "OVERLORD.worldbook.json#entry-143",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "mvu_update-剧情推进演化规则"
+}

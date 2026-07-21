@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "qmsn_card.worldbook.json#entry-20"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[EJS]inline:章节加载器"
+      },
+      "aliases": [
+        "[EJS]inline:章节加载器"
+      ],
+      "summary": "@@generate_before <%_ var mode = getvar('stat_data.当前模式', { defaults: '剧情' }); if (mode === '沙盒') { return; } var chapter = getvar(\"stat_data.剧情.当前章节\", { defaults: \"第01章 终结之谷的悲歌与左手的觉醒\" }); _%> <%- await getwi(chapter) %>",
+      "description": "@@generate_before <%_ var mode = getvar('stat_data.当前模式', { defaults: '剧情' }); if (mode === '沙盒') { return; } var chapter = getvar(\"stat_data.剧情.当前章节\", { defaults: \"第01章 终结之谷的悲歌与左手的觉醒\" }); _%> <%- await getwi(chapter) %>",
+      "sourceRef": "qmsn_card.worldbook.json#entry-20",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "EJS-inline-章节加载器"
+}

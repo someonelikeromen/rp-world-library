@@ -1,0 +1,102 @@
+{
+  "schema": "compatible-event-graph-v1",
+  "worldId": "overlord",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "events": [
+    {
+      "id": "Epilogue",
+      "entityId": "Epilogue",
+      "entityType": "events",
+      "label": "Epilogue",
+      "name": "Epilogue",
+      "summary": "第十三卷:Epilogue",
+      "sourceRefs": [
+        "OVERLORD.worldbook.json#entry-136"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:Epilogue",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "第七章",
+      "entityId": "第七章",
+      "entityType": "events",
+      "label": "第七章",
+      "name": "第七章",
+      "summary": "第十三卷:第七章:救国英雄",
+      "sourceRefs": [
+        "OVERLORD.worldbook.json#entry-135"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:第七章",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "第五章",
+      "entityId": "第五章",
+      "entityType": "events",
+      "label": "第五章",
+      "name": "第五章",
+      "summary": "第十三卷:第五章:安兹殒命",
+      "sourceRefs": [
+        "OVERLORD.worldbook.json#entry-132"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:第五章",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "第六章",
+      "entityId": "第六章",
+      "entityType": "events",
+      "label": "第六章",
+      "name": "第六章",
+      "summary": "第十三卷:第六章:枪兵与弓兵",
+      "sourceRefs": [
+        "OVERLORD.worldbook.json#entry-134"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:第六章",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "过场",
+      "entityId": "过场",
+      "entityType": "events",
+      "label": "过场",
+      "name": "过场",
+      "summary": "第十三卷:过场",
+      "sourceRefs": [
+        "OVERLORD.worldbook.json#entry-133"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:过场",
+      "originalEntityType": "events"
+    }
+  ],
+  "edges": [
+    {
+      "source": "第五章",
+      "target": "安兹",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "安兹",
+      "sourceRefs": [
+        "OVERLORD.worldbook.json#entry-132"
+      ],
+      "id": "edge-92",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第五章",
+      "graphTarget": "characters:安兹",
+      "category": "derived-mention"
+    }
+  ]
+}

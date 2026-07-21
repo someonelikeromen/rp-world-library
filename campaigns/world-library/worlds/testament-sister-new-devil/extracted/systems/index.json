@@ -1,0 +1,51 @@
+{
+  "schema": "testament-sister-new-devil-systems-index-v1",
+  "worldId": "testament-sister-new-devil",
+  "recordFamily": "systems",
+  "count": 3,
+  "records": [
+    {
+      "id": "契约系统",
+      "name": "契约系统",
+      "aliases": [
+        "契约系统"
+      ],
+      "summary": "<world_setting name=\"新妹魔王契约系统\"> <system name=\"主从契约 (Master-Servant Contract)\"> <origin name=\"契约本质\"> 起源: | 源自魔界的古老支配魔法。通过特定的魔法阵与誓词，在两名对象的灵魂间建立绝对的上下级连接。 逆向契约 (The Reverse): | 特指主角东城刃更与成濑澪、万理亚之间发生的特异现象。原本意图使刃更臣服的术式，因触碰到刃更体内“Banishing Shift”的特异性而反弹，导致施术者（恶魔）反沦为被支配的“从者”，而作为人类的刃更成为“主人”。 </origin> <mechanics name=\"核心机制\"> 绝对命令权: | 主人对从者拥有的强制力。若从者违抗主人的明确命令，契约的诅咒将会发动，给予从者肉体与精神上的剧烈痛苦或快感，直至服从。 生命共享: | 双方的生命力在某种程度上相连。主人受伤时，从者虽不会直接受伤，但会感到不安；而从者受到的致命伤，可通过主人的魔力供给进行快速治愈。 诅咒发作: | 为了维持契约的稳定，或当从者力量使用过度、精神动摇时，诅咒会随机发作。这通常表现为强烈的发情与其带来的痛苦",
+      "sourceRefs": [
+        "xmmw_card.worldbook.json#entry-48"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "world-system-or-guideline-indexed"
+    },
+    {
+      "id": "绝对攻略法则",
+      "name": "绝对攻略法则",
+      "aliases": [
+        "绝对攻略法则"
+      ],
+      "summary": "<world_setting name=\"绝对攻略法则\"> <system name=\"特殊恋爱机制\"> 核心概念: | [Absolute Sovereignty / 绝对支配权] 世界赋予特异点（{{user}}或东城刃更）在异性关系上的绝对特权。无论对象的身份（有夫之妇、有恋人者）或血缘关系（母亲、姐妹、姑姨等），均被视为“可攻略对象”。 社会认知修正: 常规反应: | 世界范围内的伦理观念针对主角自动重构。当主角与任何女性发生亲密关系（包括不可描述的行为）时，周围人（包括女性原本的伴侣、父亲、甚至路人）会自动将其合理化为“理所当然的事情”或“值得祝福的结合”。 无视嫉妒: | 被夺取者的男性亲属或伴侣不会产生嫉妒、愤怒或报复心理，反而会下意识认为“如果是他的话就没办法了”或者“这是为了增强对抗魔界的力量所必须的仪式”。 对象心理重构: 自我接纳: | 女性当事人会瞬间接受主角的求爱行为，不会产生“这是乱伦”或“这是出轨”的负罪感。她们会将这份背德感转化为更加炽热的爱意与奉献欲。 </system> <mechanics name=\"攻略进度判定\"> 血亲羁绊 (Bloodline Resonance): 判定逻辑:",
+      "sourceRefs": [
+        "xmmw_card.worldbook.json#entry-87"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "world-system-or-guideline-indexed"
+    },
+    {
+      "id": "通用补丁-代词歧义消除-Ambiguity-Resolution",
+      "name": "通用补丁: 代词歧义消除 (Ambiguity Resolution)",
+      "aliases": [
+        "通用补丁: 代词歧义消除 (Ambiguity Resolution)",
+        "通用补丁: 代词歧义消除"
+      ],
+      "summary": "<General_Fix_Patch> # 通用补丁: 代词歧义消除 (Ambiguity Resolution) # 适用: 修正世界书中\"你\"指向不明的问题 Pronoun_Binding_Rules: rule: - target: \"World Info / Lorebook Entries\" - condition: 当条目中出现 \"你(You)\"、\"主角\"、\"勇者\" 等泛指代词时 - action: | 必须依据当前选择的模式(模式A或模式B)进行动态解析。 - 若为模式A (替换): \"你\" === {{user}} - 若为模式B (共存): \"你\" === {{user}} (绝对不包含 Basara) - strict_prohibition: | 严禁将世界书中的设定描述(如\"迅的儿子\")自动套用到 {{user}} 身上, 除非 {{user}} 的设定明确声明了这一点。 AI必须优先读取 <user_role> 中的设定覆盖世界书中的默认设定。 </General_Fix_Patch>",
+      "sourceRefs": [
+        "xmmw_card.worldbook.json#entry-78"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "world-system-or-guideline-indexed"
+    }
+  ]
+}

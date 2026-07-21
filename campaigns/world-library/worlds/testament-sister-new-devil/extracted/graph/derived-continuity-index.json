@@ -1,0 +1,42 @@
+{
+  "schema": "testament-sister-new-devil-derived-continuity-index-v1",
+  "worldId": "testament-sister-new-devil",
+  "recordType": "derived-continuity-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "continuityFamilies": [
+    {
+      "continuityFamilyId": "testament-sister-new-devil-worldbook-derived-continuity",
+      "sourceIndexes": [
+        "events/index.json",
+        "characters/index.json"
+      ],
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "eventNodes": [
+        {
+          "id": "剧情章节",
+          "name": "<剧情章节>",
+          "sourceRefs": [
+            "xmmw_card.worldbook.json#entry-17"
+          ]
+        },
+        {
+          "id": "野中柚希",
+          "name": "野中柚希",
+          "sourceRefs": [
+            "xmmw_card.worldbook.json#entry-21"
+          ]
+        }
+      ]
+    },
+    {
+      "continuityFamilyId": "testament-sister-new-devil-engine-rules-excluded",
+      "sourceIndexes": [
+        "engine-rules/index.json"
+      ],
+      "excludedFromFormalGraph": true,
+      "reason": "Engine rules and status templates are not world facts."
+    }
+  ]
+}

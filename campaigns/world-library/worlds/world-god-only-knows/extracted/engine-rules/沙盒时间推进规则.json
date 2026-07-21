@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "zyszddsj_card.worldbook.json#entry-93"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "沙盒时间推进规则"
+      },
+      "aliases": [
+        "沙盒时间推进规则"
+      ],
+      "summary": "# 沙盒时间推进规则 # 定义沙盒模式下时间推进的机制、限制和自由度 core_rule: 沙盒模式下，时间逐步推进，不得跳跃。 advancement_sequence: | step: 早晨 → 午前 → 午后 → 放学后 → 傍晚 → 夜间 → 深夜 - step: 每个时间段AI回复1-3次后推进到下一个时间段 - step: 夜间结束后推进到次日早晨 max_skip_limit: 单次时间推进不得超过半个时间段（如早晨→午前）。严禁一次跳过数天或数周。 event_time_lock: 关键剧情事件必须满足时间条件才能触发。驱魂篇事件需要第1-6卷对应时间段。女神觉醒事件需要第7-19卷对应时间段。萨堤尔相关事件只能在过去篇时间段触发。 sandbox_freedom: | item: \"{{user}}可自由前往任何已解锁地点\" - item: \"{{user}}可与任何已登场角色互动\" - item: \"{{user}}可无视主线剧情自由探索\" - item: AI根据当前时间和地点自然安排NPC出场 - item: 关键事件在时间条件满足时AI会给予暗示（但不强制） - item: \"{{user}}的行动",
+      "description": "# 沙盒时间推进规则 # 定义沙盒模式下时间推进的机制、限制和自由度 core_rule: 沙盒模式下，时间逐步推进，不得跳跃。 advancement_sequence: | step: 早晨 → 午前 → 午后 → 放学后 → 傍晚 → 夜间 → 深夜 - step: 每个时间段AI回复1-3次后推进到下一个时间段 - step: 夜间结束后推进到次日早晨 max_skip_limit: 单次时间推进不得超过半个时间段（如早晨→午前）。严禁一次跳过数天或数周。 event_time_lock: 关键剧情事件必须满足时间条件才能触发。驱魂篇事件需要第1-6卷对应时间段。女神觉醒事件需要第7-19卷对应时间段。萨堤尔相关事件只能在过去篇时间段触发。 sandbox_freedom: | item: \"{{user}}可自由前往任何已解锁地点\" - item: \"{{user}}可与任何已登场角色互动\" - item: \"{{user}}可无视主线剧情自由探索\" - item: AI根据当前时间和地点自然安排NPC出场 - item: 关键事件在时间条件满足时AI会给予暗示（但不强制） - item: \"{{user}}的行动可能触发隐藏的隐秘信息揭示\" hidden_info_in_sandbox: | rule: 隐秘信息条目通过关键词触发——当{{user}}的对话或行动涉及触发关键词时，AI自然调用对应隐藏条目 - rule: 沙盒模式下，隐秘揭示的时机由时间变量和关键词共同决定 - rule: 即使时间条件满足，如果{{user}}没有触及关键词，隐秘信息不会自动揭示 - rule: 部分隐秘信息有最低卷数要求——沙盒时间未达到时不会触发",
+      "sourceRef": "zyszddsj_card.worldbook.json#entry-93",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "沙盒时间推进规则"
+}

@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "msfl_card.worldbook.json#entry-96"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "MVU变量更新规则"
+      },
+      "aliases": [
+        "MVU变量更新规则"
+      ],
+      "summary": "关系网: 好感度: type: number range: [0, 100] check: update when sharing meals, helping, joint hunts; decrease when refusing food or betraying trust 信任度: type: number range: [0, 100] check: update when character confides or entrusts mission; decrease when breaking promises 剧情: 当前卷: type: number range: [1, 12] check: increment when 推进许可 is true AND chapter reaches climax 当前章节: type: string check: update when storyline completes major phase 模式: type: string check: switch between 日常/推进 based on pacing 推进许可: type: boolean che",
+      "description": "关系网: 好感度: type: number range: [0, 100] check: update when sharing meals, helping, joint hunts; decrease when refusing food or betraying trust 信任度: type: number range: [0, 100] check: update when character confides or entrusts mission; decrease when breaking promises 剧情: 当前卷: type: number range: [1, 12] check: increment when 推进许可 is true AND chapter reaches climax 当前章节: type: string check: update when storyline completes major phase 模式: type: string check: switch between 日常/推进 based on pacing 推进许可: type: boolean check: set true after sufficient buildup; reset after chapter transition 人生菜单: 前菜/汤/鱼/肉/主菜/沙拉/甜点/饮料: type: string check: update when encountering worthy ingredient for that course slot 食材图鉴: 已捕获: type: boolean check: set true when capturing target 已品尝: type: boolean check: set true when eating prepared ingredient 当前委托: 委托名: type: string check: set when accepting IGO request 目标: type: string check: describe objective 完成: type: boolean check: set true when fulfilled",
+      "sourceRef": "msfl_card.worldbook.json#entry-96",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "MVU变量更新规则"
+}

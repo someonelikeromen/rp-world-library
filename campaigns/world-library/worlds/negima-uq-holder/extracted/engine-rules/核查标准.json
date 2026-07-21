@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "mdls_card.worldbook.json#entry-7"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "核查标准"
+      },
+      "aliases": [
+        "核查标准"
+      ],
+      "summary": "## 核查标准 ### Token要求 | 条目类型 | 最低token | 说明 | |---------|----------|------| | 系统蓝灯 | ≥50 token/条 | 规则清晰即可，不灌水 | | 核心角色 | ≤1500字 | 完整YAML，background≥200字 | | 主要配角 | ≤1000字 | 简化YAML | | 次要NPC | ≤800字 | 最小YAML | | 章节条目 | ≥1000字 | XML格式，含事件引导 | | 沙盒条目 | ≥500字 | 时间表/触发条件 | ### 内容质量 - [ ] 所有人类oid角色三围已填写（有图推定，无图写\"未知\"） - [ ] 三围包含具体数值+罩杯，男性用\"B/W/H —\" - [ ] 条目内无markdown链接/文件路径 - [ ] 无\"不明\"\"不详\"\"未知\"占位符（三围除外） - [ ] 每个事实有wiki/Fandom/原作来源 - [ ] 隐秘信息仅在剧情条目/沙盒触发中，不在角色条目 - [ ] 无XML标签包装的YAML角色条目 - [ ] 无游戏数值（Lv/HP/ATK等） - [ ] 禁止以无意义字符凑to",
+      "description": "## 核查标准 ### Token要求 | 条目类型 | 最低token | 说明 | |---------|----------|------| | 系统蓝灯 | ≥50 token/条 | 规则清晰即可，不灌水 | | 核心角色 | ≤1500字 | 完整YAML，background≥200字 | | 主要配角 | ≤1000字 | 简化YAML | | 次要NPC | ≤800字 | 最小YAML | | 章节条目 | ≥1000字 | XML格式，含事件引导 | | 沙盒条目 | ≥500字 | 时间表/触发条件 | ### 内容质量 - [ ] 所有人类oid角色三围已填写（有图推定，无图写\"未知\"） - [ ] 三围包含具体数值+罩杯，男性用\"B/W/H —\" - [ ] 条目内无markdown链接/文件路径 - [ ] 无\"不明\"\"不详\"\"未知\"占位符（三围除外） - [ ] 每个事实有wiki/Fandom/原作来源 - [ ] 隐秘信息仅在剧情条目/沙盒触发中，不在角色条目 - [ ] 无XML标签包装的YAML角色条目 - [ ] 无游戏数值（Lv/HP/ATK等） - [ ] 禁止以无意义字符凑token（———、***、___等） ### 配置质量 - [ ] description 为 \"\" - [ ] 所有条目 preventRecursion: true, excludeRecursion: true - [ ] 绿灯条目(selective=true)必须有keys - [ ] 章节条目 enabled: false - [ ] insertion_order 全部 < 1000 - [ ] 无死条目（绿灯无keys或enabled=false且无getwi引用）",
+      "sourceRef": "mdls_card.worldbook.json#entry-7",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "核查标准"
+}

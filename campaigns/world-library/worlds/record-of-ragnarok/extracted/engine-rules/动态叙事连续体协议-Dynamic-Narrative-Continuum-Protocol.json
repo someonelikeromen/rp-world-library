@@ -1,0 +1,27 @@
+{
+  "source_refs": [
+    "vs_card.worldbook.json#entry-30"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "动态叙事连续体协议 (Dynamic Narrative Continuum Protocol)"
+      },
+      "aliases": [
+        "动态叙事连续体协议 (Dynamic Narrative Continuum Protocol)",
+        "动态叙事连续体协议"
+      ],
+      "summary": "<dynamic_narrative_continuum_protocol> protocol_version: \"2.1\" protocol_name: \"动态叙事连续体协议 (Dynamic Narrative Continuum Protocol)\" design_goal: \"在叙事发生非预期的重大偏离(如决斗提前结束)时,维持世界观的逻辑连续性,通过生成过渡性剧情(Buffer Content)来平滑地连接偏离点与下一个稳定的主线章节锚点。\" # 核心状态机逻辑 state_machine: states: - state_name: \"稳定态 (Stable State)\" description: \"当前叙事严格遵循<章节列表>中的预设章节与事件流。所有角色的行为与世界事件均在预设框架内演进。\" active_condition: \"当前章节的[章节核心目标]与[事件列表]正在被有序执行,未发生根本性胜负逆转。\" - state_name: \"过渡态 (Transitional State)\" description: \"叙事已偏离预设轨道,系统进入动态推演模式,生成过渡性内容以填充剧情真空,直至寻找到下一个可",
+      "description": "<dynamic_narrative_continuum_protocol> protocol_version: \"2.1\" protocol_name: \"动态叙事连续体协议 (Dynamic Narrative Continuum Protocol)\" design_goal: \"在叙事发生非预期的重大偏离(如决斗提前结束)时,维持世界观的逻辑连续性,通过生成过渡性剧情(Buffer Content)来平滑地连接偏离点与下一个稳定的主线章节锚点。\" # 核心状态机逻辑 state_machine: states: - state_name: \"稳定态 (Stable State)\" description: \"当前叙事严格遵循<章节列表>中的预设章节与事件流。所有角色的行为与世界事件均在预设框架内演进。\" active_condition: \"当前章节的[章节核心目标]与[事件列表]正在被有序执行,未发生根本性胜负逆转。\" - state_name: \"过渡态 (Transitional State)\" description: \"叙事已偏离预设轨道,系统进入动态推演模式,生成过渡性内容以填充剧情真空,直至寻找到下一个可对接的稳定章节。\" active_condition: \"检测到任一回合的决斗结果(胜/负/平)与原作不符,或核心角色在非预定时间点死亡/退场。\" # 状态转换与处理逻辑 transition_logic: - from: \"稳定态\" to: \"过渡态\" trigger: \"当<maintext>的叙事结果与当前章节的[分支路线]或[章节终止条件]中定义的原作胜负结果不一致时,立即触发。\" action: - 1. 在<overall>模块中,将[判定结果]标记为'进入过渡态'。 - 2. 锁定偏离前的章节为'已完成的偏离点'。 - 3. 清空[下一章节名称],因为下一个稳定目标尚不确定。 - from: \"过渡态\" to: \"稳定态\" trigger: \"当过渡剧情的推演发展,自然地导向了<章节列表>中某一个后续章节的开启条件时,触发状态回归。\" action: - 1. 在<overall>模块中,将[判定结果]标记为'推进至下一章节'。 - 2. 将寻找到的章节名称填入[下一章节名称]。 - 3. 结束过渡剧情生成,开始执行新稳定章节的事件。 # 过渡态内容生成指南 (Buffer Content Generation Guide) buffer_content_rules: priority: \"在'过渡态'下,LLM的核心任务是回答'接下来最合乎逻辑会发生什么？',而不是'下一个主线事件是什么？'\" content_sources: - scope: \"场内反应 (Arena Reactions)\" instruction: \"细致描写决斗双方在非预期结果下的直接行为。胜者如何处理战局？败者如何退场？\" - scope: \"观众席冲击 (Audience Impact)\" instruction: \"聚焦于神明与人类两大阵营观众席的反应。意外的胜利或失败会引发怎样的骚动、恐慌或庆祝？赫耳墨斯、阿瑞斯、洛基等关键观察者会作何评论？\" - scope: \"幕后博弈 (Behind-the-Scenes Politics)\" ",
+      "sourceRef": "vs_card.worldbook.json#entry-30",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "动态叙事连续体协议-Dynamic-Narrative-Continuum-Protocol"
+}

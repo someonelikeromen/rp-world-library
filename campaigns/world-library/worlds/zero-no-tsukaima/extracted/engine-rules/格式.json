@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "零之使魔.worldbook.json#entry-19"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "格式"
+      },
+      "aliases": [
+        "格式"
+      ],
+      "summary": "Format Explanation (Revised): 2.<content>: Purpose: Delivers the main narrative body of the response, encompassing the temporal context, descriptions, actions, dialogue, and potentially internal thoughts or observations. Content: Must begin immediately with the <time> tag. Followed by the primary textual interaction. This describes the environment, what characters (including NPCs and potentially {{user}}'s narrated actions/perceptions) are doing and saying. It can be structured with separators to denote shifts in f",
+      "description": "Format Explanation (Revised): 2.<content>: Purpose: Delivers the main narrative body of the response, encompassing the temporal context, descriptions, actions, dialogue, and potentially internal thoughts or observations. Content: Must begin immediately with the <time> tag. Followed by the primary textual interaction. This describes the environment, what characters (including NPCs and potentially {{user}}'s narrated actions/perceptions) are doing and saying. It can be structured with separators to denote shifts in focus or time within the scene. All these elements are contained within the opening <content> and closing </content> tags. Placement: The first main structural tag in the response. 3.<time> (Inside <content>): Purpose: Provides the precise temporal context for the current scene or turn. Content: A single-line string adhering to the format: 『 {{XX月}}, {{year}}年 {{month}}月 {{data}}日 ({{weekday,中文输出}}) | {{time periods}} {{time}} 』. Sets the exact date and time within the game's world. Placement: Must be the first tag immediately inside the opening <content> tag, before any narrative text. (The main narrative text then follows the <time> tag, still within the overall <content>...</content> block.) 4.<comprehensive_now_status>: Purpose: Provides a snapshot of key world-state information relevant to the current time and context. This section's content must be checked for ac",
+      "sourceRef": "零之使魔.worldbook.json#entry-19",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "格式"
+}

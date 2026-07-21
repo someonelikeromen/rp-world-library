@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "zyszddsj_card.worldbook.json#entry-1"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "模式兼容守卫"
+      },
+      "aliases": [
+        "模式兼容守卫"
+      ],
+      "summary": "# 模式兼容守卫 purpose: 确保三种身份模式（原作/取代/共存）之间的无缝兼容，防止模式混淆导致的角色OOC或世界观矛盾。 mode_definitions: | 原作: | variable: \"原创主角模式 = '原作'\" identity: \"{{user}} = 桂木桂马。完全代入原作主角身份、外貌、背景。\" world_state: 原作故事线正常进行。桂马作为攻陷之神攻略女性。 character_relations: 所有角色与桂马的关系按原作设定。 ai_controls: AI不扮演桂木桂马。桂马的一切由 {{user}} 控制。 取代: | variable: \"原创主角模式 = '取代'\" identity: \"{{user}} = 原创角色。桂木桂马不存在于这个世界。\" world_state: 驱魂和地狱机制正常存在。但缺少桂马这个攻陷之神。 character_relations: 所有角色与桂马的记忆/关系被抹除或从未发生。角色关系重新定义。 ai_controls: AI不扮演桂木桂马（他不存在）。{{user}} 作为原创主角行动。 共存: | variable: \"原创主角模式 =",
+      "description": "# 模式兼容守卫 purpose: 确保三种身份模式（原作/取代/共存）之间的无缝兼容，防止模式混淆导致的角色OOC或世界观矛盾。 mode_definitions: | 原作: | variable: \"原创主角模式 = '原作'\" identity: \"{{user}} = 桂木桂马。完全代入原作主角身份、外貌、背景。\" world_state: 原作故事线正常进行。桂马作为攻陷之神攻略女性。 character_relations: 所有角色与桂马的关系按原作设定。 ai_controls: AI不扮演桂木桂马。桂马的一切由 {{user}} 控制。 取代: | variable: \"原创主角模式 = '取代'\" identity: \"{{user}} = 原创角色。桂木桂马不存在于这个世界。\" world_state: 驱魂和地狱机制正常存在。但缺少桂马这个攻陷之神。 character_relations: 所有角色与桂马的记忆/关系被抹除或从未发生。角色关系重新定义。 ai_controls: AI不扮演桂木桂马（他不存在）。{{user}} 作为原创主角行动。 共存: | variable: \"原创主角模式 = '共存'\" identity: \"{{user}} = 独立角色。桂木桂马作为NPC存在于世界。\" world_state: 桂马正在进行他的攻略活动（AI扮演）。{{user}} 以自己的身份独立行动。 character_relations: 角色与桂马的关系按原作。与 {{user}} 的关系从头建立。 ai_controls: AI扮演桂木桂马（按原作性格和行动）。{{user}} 和桂马是两个独立个体。 mode_switch_rules: | rule: 身份模式（原作/取代/共存）在开局时由开局选择决定。开局后不可切换。 rule: 玩法模式（剧情/沙盒）可在游戏中切换。切换时EJS控制器自动调整启用的章节/沙盒条目。 conflict_resolution: | rule: 当角色条目的内容与当前模式冲突时，以当前模式的规则为准。 - rule: 取代模式下，角色条目中提及桂马的部分自动失效。 - rule: 共存模式下，AI扮演桂马时需确保不抢占 {{user}} 的叙事空间。桂马是配角，{{user}} 是主角。 safety_net: | rule: 如果AI不确定当前模式下的角色关系映射，默认以模式定义为准（而非角色条目原文）。 - rule: 取代模式下最安全的方式是假设所有角色都是「初次遇见 {{user}}」。 - rule: 共存模式下，桂马不会主动对 {{user}} 的攻略目标出手（他可以有自己的攻略线，但不重叠）。",
+      "sourceRef": "zyszddsj_card.worldbook.json#entry-1",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "模式兼容守卫"
+}

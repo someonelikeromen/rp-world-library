@@ -1,0 +1,24 @@
+{
+  "source_refs": [
+    "mdls_card.worldbook.json#entry-218"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "<%= era %> 第<%= vol %>卷 | <%= getvar('st"
+      },
+      "aliases": [],
+      "summary": "<%_ var mode = getvar('stat_data.当前模式') || '剧情'; if (mode !== '剧情') { return; } var era = getvar('stat_data.起始时代') || '魔法老师'; var vol = getvar('stat_data.剧情.当前卷') || 1; var cn = ['零','一','二','三','四','五','六','七','八','九','十', '十一','十二','十三','十四','十五','十六','十七','十八', '十九','二十']; var name = era + ' 第' + cn[Math.min(vol, 20)] + '卷'; _%> ## <%= era %> 第<%= vol %>卷 | <%= getvar('stat_data.剧情.当前章节') || '' %> 当前模式: <%= getvar('stat_data.剧情.模式') || '日常' %> <%- await getwi(name) %> <%_ if (getvar('stat_data.剧情.模式') === '日常') ",
+      "description": "<%_ var mode = getvar('stat_data.当前模式') || '剧情'; if (mode !== '剧情') { return; } var era = getvar('stat_data.起始时代') || '魔法老师'; var vol = getvar('stat_data.剧情.当前卷') || 1; var cn = ['零','一','二','三','四','五','六','七','八','九','十', '十一','十二','十三','十四','十五','十六','十七','十八', '十九','二十']; var name = era + ' 第' + cn[Math.min(vol, 20)] + '卷'; _%> ## <%= era %> 第<%= vol %>卷 | <%= getvar('stat_data.剧情.当前章节') || '' %> 当前模式: <%= getvar('stat_data.剧情.模式') || '日常' %> <%- await getwi(name) %> <%_ if (getvar('stat_data.剧情.模式') === '日常') { _%> **当前处于日常模式 — 不主动推进主线，让{{user}}主导互动。** <%_ } else if (getvar('stat_data.剧情.模式') === '推进') { _%> **当前处于推进模式 — 根据本章剧情发展事件。** <%_ } _%>",
+      "sourceRef": "mdls_card.worldbook.json#entry-218",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "era-第-vol-卷-getvar-'st"
+}

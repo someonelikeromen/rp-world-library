@@ -1,0 +1,56 @@
+{
+  "schema": "world-god-only-knows-derived-continuity-index-v1",
+  "worldId": "world-god-only-knows",
+  "recordType": "derived-continuity-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "continuityFamilies": [
+    {
+      "continuityFamilyId": "world-god-only-knows-worldbook-derived-continuity",
+      "sourceIndexes": [
+        "events/index.json",
+        "characters/index.json"
+      ],
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "eventNodes": [
+        {
+          "id": "叙事规则",
+          "name": "叙事规则",
+          "sourceRefs": [
+            "zyszddsj_card.worldbook.json#entry-3"
+          ]
+        },
+        {
+          "id": "隐秘揭示：小阪千寻的真相",
+          "name": "隐秘揭示：小阪千寻的真相",
+          "sourceRefs": [
+            "zyszddsj_card.worldbook.json#entry-98"
+          ]
+        },
+        {
+          "id": "驱魂篇·第四卷",
+          "name": "驱魂篇·第四卷",
+          "sourceRefs": [
+            "zyszddsj_card.worldbook.json#entry-65"
+          ]
+        },
+        {
+          "id": "📌-章节剧情",
+          "name": "📌 章节剧情",
+          "sourceRefs": [
+            "zyszddsj_card.worldbook.json#entry-110"
+          ]
+        }
+      ]
+    },
+    {
+      "continuityFamilyId": "world-god-only-knows-engine-rules-excluded",
+      "sourceIndexes": [
+        "engine-rules/index.json"
+      ],
+      "excludedFromFormalGraph": true,
+      "reason": "Engine rules and status templates are not world facts."
+    }
+  ]
+}

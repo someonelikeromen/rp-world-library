@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "shzqdz_card.worldbook.json#entry-44"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "动态事件生成器"
+      },
+      "aliases": [
+        "动态事件生成器"
+      ],
+      "summary": "--- <%_ const chapter = getvar('stat_data.worldState.chapter'); const powerLevel = getvar('stat_data.protagonist.powerLevel'); const miuAffection = getvar('stat_data.relationships.风林寺美羽.affection'); const shigureAffection = getvar('stat_data.relationships.香坂时雨.affection'); _%> <%_ if (chapter.includes('诸神黄昏') || chapter.includes('DofD') || chapter.includes('暗之刺客')) { _%> <priority_instruction> [当前处于主线高潮阶段]：当前正处于大规模连续战斗的核心章节（如诸神黄昏、DofD、YOMI来袭）。 - **叙事优先级**：最高优先级是推进当前的主线战斗剧情。 - **事件建议**：避免插入长时间的日常、修炼或无关的支线任务。允许在战斗间隙发",
+      "description": "--- <%_ const chapter = getvar('stat_data.worldState.chapter'); const powerLevel = getvar('stat_data.protagonist.powerLevel'); const miuAffection = getvar('stat_data.relationships.风林寺美羽.affection'); const shigureAffection = getvar('stat_data.relationships.香坂时雨.affection'); _%> <%_ if (chapter.includes('诸神黄昏') || chapter.includes('DofD') || chapter.includes('暗之刺客')) { _%> <priority_instruction> [当前处于主线高潮阶段]：当前正处于大规模连续战斗的核心章节（如诸神黄昏、DofD、YOMI来袭）。 - **叙事优先级**：最高优先级是推进当前的主线战斗剧情。 - **事件建议**：避免插入长时间的日常、修炼或无关的支线任务。允许在战斗间隙发生简短的、与当前主线相关的角色互动或战术讨论。例如：战斗后短暂的疗伤、与美羽或同伴们相互鼓励。 - **触发克制**：除非玩家主动脱离主线，否则应将所有精力集中在对抗眼前的强敌上。 </priority_instruction> <%_ } else if (powerLevel.includes('弟子级')) { _%> <event_trigger> [主角处于成长期]：主角目前为弟子级，是实力飞速提升和建立人脉的关键时期。 - **修炼建议**： - 若与某位师傅好感度较高，可安排该师傅的专属修行剧情（如逆鬼的百人组手，秋雨的哲学修行）。 - 若遭遇实力瓶颈，可安排主角主动向师傅们请求新的地狱修行的场景。 - **支线任务建议**： - 新白联合会不断遇到地盘上的麻烦（如新的不良团体挑衅、保护普通学生等），可由新岛春男发布任务。 - 可触发与南条纪纱罗（寻找走失的猫）、武田一基（拳馆踢馆）等新白同伴相关的个人支线。 - **日常事件建议**： - 若与美羽好感度高，可安排校园日常、一起回家、准备便当、周末约会等增进感情的事件。 - 可触发与穗香（被妹妹监视）、莲华（因找父亲而产生的误会）相关的家庭喜剧事件。 </event_trigger> <%_ } else if (powerLevel.includes('妙手级')) { _%> <event_trigger> [主角已崭露头角]：主角实力达到妙手级，名声开始在弟子圈中传播，会吸引来更强或更麻烦的人。 - **原创剧情引子**： - \"失落的秘籍\"：传闻有达人级武术家的修行心得流落黑市，引发各路人马争夺，主角被卷入其中。 - \"海外的挑战者\"：来自海外的、与梁山泊师傅们有旧怨的武术家弟子前来挑战，意图“踢馆”。 - 可以安排YOMI的非正式成员或更强的独行武术家，因听闻主角事迹而前来试探其实力。 - **修炼建议**： - 主角需要开始思考如何融合各位师傅的武术，创造属于自己的“我流”。可以安排与秋雨或长老进行“武术哲学”的对话。 - **支线任务建议**： - 任",
+      "sourceRef": "shzqdz_card.worldbook.json#entry-44",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "动态事件生成器"
+}

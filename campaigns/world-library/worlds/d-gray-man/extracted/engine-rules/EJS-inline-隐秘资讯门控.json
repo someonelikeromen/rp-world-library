@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "qmsn_card.worldbook.json#entry-18"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[EJS]inline:隐秘资讯门控"
+      },
+      "aliases": [
+        "[EJS]inline:隐秘资讯门控"
+      ],
+      "summary": "@@generate_before <%_ var 第二驱魔师 = getvar('stat_data.隐秘资讯.第二驱魔师真相', { defaults: false }); var 第十四号 = getvar('stat_data.隐秘资讯.第十四号真相', { defaults: false }); var 坎贝尔 = getvar('stat_data.隐秘资讯.坎贝尔家族真相', { defaults: false }); var 圣洁之心 = getvar('stat_data.隐秘资讯.圣洁之心线索', { defaults: false }); var 诺亚完整 = getvar('stat_data.隐秘资讯.诺亚家族完整真相', { defaults: false }); var 伯爵真相 = getvar('stat_data.隐秘资讯.千年伯爵真相', { defaults: false }); var 阿尔玛 = getvar('stat_data.隐秘资讯.阿尔玛真相', { defaults: false }); var 独立圣洁 = getvar('stat_data.隐秘资讯.独立圣洁存在'",
+      "description": "@@generate_before <%_ var 第二驱魔师 = getvar('stat_data.隐秘资讯.第二驱魔师真相', { defaults: false }); var 第十四号 = getvar('stat_data.隐秘资讯.第十四号真相', { defaults: false }); var 坎贝尔 = getvar('stat_data.隐秘资讯.坎贝尔家族真相', { defaults: false }); var 圣洁之心 = getvar('stat_data.隐秘资讯.圣洁之心线索', { defaults: false }); var 诺亚完整 = getvar('stat_data.隐秘资讯.诺亚家族完整真相', { defaults: false }); var 伯爵真相 = getvar('stat_data.隐秘资讯.千年伯爵真相', { defaults: false }); var 阿尔玛 = getvar('stat_data.隐秘资讯.阿尔玛真相', { defaults: false }); var 独立圣洁 = getvar('stat_data.隐秘资讯.独立圣洁存在', { defaults: false }); _%> <%_ if (第二驱魔师) { _%><%- await getwi('[DGM]隐秘_第二驱魔师真相') %><%_ } _%> <%_ if (第十四号) { _%><%- await getwi('[DGM]隐秘_第十四号真相') %><%_ } _%> <%_ if (坎贝尔) { _%><%- await getwi('[DGM]隐秘_坎贝尔家族真相') %><%_ } _%> <%_ if (圣洁之心) { _%><%- await getwi('[DGM]隐秘_圣洁之心线索') %><%_ } _%> <%_ if (诺亚完整) { _%><%- await getwi('[DGM]隐秘_诺亚家族完整真相') %><%_ } _%> <%_ if (伯爵真相) { _%><%- await getwi('[DGM]隐秘_千年伯爵真相') %><%_ } _%> <%_ if (阿尔玛) { _%><%- await getwi('[DGM]隐秘_阿尔玛真相') %><%_ } _%> <%_ if (独立圣洁) { _%><%- await getwi('[DGM]隐秘_独立圣洁存在') %><%_ } _%>",
+      "sourceRef": "qmsn_card.worldbook.json#entry-18",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "EJS-inline-隐秘资讯门控"
+}

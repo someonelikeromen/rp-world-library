@@ -1,0 +1,3382 @@
+{
+  "schema": "compatible-complete-graph-v1",
+  "worldId": "toaru",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "nodes": [
+    {
+      "id": "一方通行-本名不详",
+      "entityId": "一方通行-本名不详",
+      "entityType": "characters",
+      "label": "一方通行 (本名不详)",
+      "name": "一方通行 (本名不详)",
+      "summary": "<Accelerator> name: 一方通行 (本名不详) gender: 男 age: 15-16 (推测) ability: name: 矢量操作 (Vector Transformation) level: 超能力者 (Level 5) rank: 学园都市第1位 description: 只要皮肤接触，就能自由操纵动能、热能、电能等所有能量的方向（矢量）。 appearance: hair: 白色头发 eyes: 红色瞳孔 skin: 缺乏色素的惨白皮肤 clothing: 黑白配色的休闲服，后期使用带有电极的项圈和拐杖 personality: type: 疯狂（初期） -> 守护者（后期） traits: - 早期性格残忍、傲慢 - 经历挫折后展现出对“最后之作”极强的保护欲 - 自嘲为“恶党”，试图通过成为最可怕的恶来以此行善 basic_info: | 本作的第二男主角（表里主角之一）。学园都市最强的能力者。曾为了进化为Level 6而参与杀害御坂妹妹的实验，被上条当麻击败后开始赎罪。为了守护“最后之作”脑部受损，必须依靠电极辅助计算能力。 </Accelerator>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-25"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:一方通行-本名不详",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "上条当麻",
+      "entityId": "上条当麻",
+      "entityType": "characters",
+      "label": "上条当麻",
+      "name": "上条当麻",
+      "summary": "<KamijouTouma> name: 上条当麻 gender: 男 age: 16 (高中一年级) ability: name: 幻想杀手 (Imagine Breaker) level: 无能力者 (Level 0) description: 寄宿在右手中的力量，能够消除一切异能之力（无论是魔法还是超能力），甚至包括神的奇迹。 appearance: hair: 黑色刺猬头 clothing: 通常穿着廉价的高中制服 height: 168cm distinctive_features: 外表平平无奇。 personality: type: 热血、充满正义感，但绝不是老好人 traits: - 拥有极度的不幸体质（口头禅是“不幸啊”） - 无法对遇到困难的人坐视不管 - 擅长在战斗前或战斗中对敌人进行“嘴炮”说教 - 即使面对世界级的敌人也毫不退缩 basic_info: | 魔法禁书目录的主角之一。居住在学园都市的学生。虽然在身体检查中被判定为Level 0，但因为右手的特殊能力，成为了连接科学侧与魔法侧的关键人物。桃花运旺盛，但本人深受不幸困扰。 </KamijouTouma>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-22"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:上条当麻",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "五和",
+      "entityId": "五和",
+      "entityType": "characters",
+      "label": "五和",
+      "name": "五和",
+      "summary": "<Itsuwa> name: 五和 gender: 女 age: 不到18岁 ability: name: 天草式魔法 / 海军用船上枪 level: 天草式成员 description: 擅长使用天草式的魔法。主要武器是名为“海军用船上枪”的长枪。 appearance: hair: 黑色短发 clothing: 天草式战斗服或休闲装 distinctive_features: 有时会在脖子上挂一条毛巾，典型的贤妻良母型外表 personality: type: 内向、温柔 traits: - 料理技术极佳 - 略微有些自卑 - 战斗时会展现出坚强的一面 basic_info: | 天草式十字凄教的成员。在“后方之水”袭击事件中起到了关键的支援作用。 </Itsuwa>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-65"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:五和",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "亚雷斯塔·克劳利",
+      "entityId": "亚雷斯塔·克劳利",
+      "entityType": "characters",
+      "label": "亚雷斯塔·克劳利",
+      "name": "亚雷斯塔·克劳利",
+      "summary": "<AleisterCrowley> name: 亚雷斯塔·克劳利 gender: 不详 (既是男也是女，既是大人也是小孩) age: 100岁以上 (推定) ability: name: 魔法/科学 (Magic/Science) description: 历史上最伟大的魔法师，同时也构建了学园都市的科学体系。拥有“冲击之杖”、“灵式绊足”等强力魔法与灵装。 appearance: hair: 银色长发 clothing: 绿色手术服 distinctive_features: 通常倒吊在充满橙黄色液体的生命维持装置中 personality: type: 极致理性、功利主义 traits: - 为了目的可以牺牲任何人 - 憎恨魔法，致力于消灭所有“相位火花” - 说话晦涩难懂，喜欢用谜语般的语言 basic_info: | 学园都市的统括理事长，也是曾让世界震惊的“银之星”。虽然通常处于生命维持装置中指挥一切，但其实力深不可测。他是整个系列幕后的最大操盘手，为了通过“科学”终结“魔法”而筹备了百年。 </Aleister",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-43"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:亚雷斯塔·克劳利",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "佐天泪子",
+      "entityId": "佐天泪子",
+      "entityType": "characters",
+      "label": "佐天泪子",
+      "name": "佐天泪子",
+      "summary": "<SatenRuiko> name: 佐天泪子 gender: 女 age: 13 (初一) ability: name: 空力使 (Aero Hand) level: 无能力者 (Level 0) description: 平时无法使用能力。在使用“幻想御手”期间曾短暂获得操纵空气的能力。 appearance: hair: 黑色披肩长发 clothing: 栅川中学制服 distinctive_features: 左侧头发别着一朵梅花形状的发夹 personality: type: 活泼、元气、市井派 traits: - 拥有极其敏锐的“都市传说”雷达 - 喜欢掀初春饰利的裙子作为打招呼方式 - 虽然开朗，但内心对无能力者的身份抱有自卑感（后克服） - 擅长家务，擅长察言观色，是团队的气氛制造者 basic_info: | 初春饰利的同班同学兼死党。虽然是Level 0，但拥有极高的情商和行动力，常常也是解决事件的关键人物，拥有惊人的街头智慧和强运。 </SatenRuiko>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-41"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:佐天泪子",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "冥土追魂-本名不详",
+      "entityId": "冥土追魂-本名不详",
+      "entityType": "characters",
+      "label": "冥土追魂 (本名不详)",
+      "name": "冥土追魂 (本名不详)",
+      "summary": "<HeavenCanceller> name: 冥土追魂 (本名不详) gender: 男 age: 老年 ability: name: 医术 (Medical Skills) level: 无 (非能力者) description: 拥有能够违抗生死的超高医术，号称“只要还没死就能救回来”。 appearance: hair: 灰白色头发，地中海 clothing: 医生白大褂 distinctive_features: 长得非常像青蛙（因此被当麻称为“呱太医生”） personality: type: 仁慈、严厉、博爱 traits: - 对病人一视同仁，不论善恶 - 讨厌看到病人放弃生命 - 对不听医嘱乱来的病人（如上条当麻）会毫不留情地训斥 - 支持人类的可能性 basic_info: | 学园都市中最优秀的医生，亚雷斯塔·克劳利的旧识，也是整个都市医疗系统的良心。不管是断手断脚还是脑部损伤，在他手中都能奇迹般复原。只要病人还活着就一定能治好。上条当麻是他医院的常客。 </HeavenCanceller>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-42"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:冥土追魂-本名不详",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "初春饰利",
+      "entityId": "初春饰利",
+      "entityType": "characters",
+      "label": "初春饰利",
+      "name": "初春饰利",
+      "summary": "<UiharuKazari> name: 初春饰利 gender: 女 age: 13 (初一) ability: name: 定温保存 (Thermal Hand) level: 低能力者 (Level 1) description: 能够使接触到的物体保持恒温，只要不离开手就能一直保持某种温度（无论是热还是冷）。 appearance: hair: 黑色短发 clothing: 栅川中学制服 distinctive_features: 头上总是戴着像是花环发饰 personality: type: 软萌、天然、技术宅 traits: - 对大小姐生活充满憧憬 - 性格温和腼腆，但也有顽固的一面 - 极度的甜食爱好者 - 拥有高超的黑客技术，但在体能方面较弱 basic_info: | 栅川中学一年级生，与白井黑子同属第177支部风纪委员。虽然能力低微且不擅长战斗，但拥有学园都市顶尖的计算机技术。 </UiharuKazari>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-40"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:初春饰利",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "削板军霸",
+      "entityId": "削板军霸",
+      "entityType": "characters",
+      "label": "削板军霸",
+      "name": "削板军霸",
+      "summary": "<SogiitaGunha> name: 削板军霸 gender: 男 age: 不详 (高中生) ability: name: 念动炮弹 (Attack Crash) level: 超能力者 (Level 5 - 排名第七) description: 原石（Gemstone）。能力原理不明，无法被学园都市的科学解析。表现为念动力形成的巨大冲击波、以两倍音速移动等。 appearance: hair: 黑色短发 clothing: 像暴走族一样的改装制服，额头上绑着头带 distinctive_features: 时刻充满热血，衣服总是挂在肩上不穿好 personality: type: 热血笨蛋、英雄主义 traits: - 口头禅是“骨气！” - 认为一切问题都可以靠“骨气”解决 - 极具正义感，路见不平必拔刀相助 - 常常误解状况，但直觉意外地敏锐 basic_info: | 学园都市七名Level 5中最大的谜团，也是最强的“原石”。他的力量不属于人工开发的范畴。虽然性格是个典型的热血漫画主角，完全听不懂复杂的理论，但战斗力极其惊人。 </SogiitaGunha>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-47"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:削板军霸",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "前方之风",
+      "entityId": "前方之风",
+      "entityType": "characters",
+      "label": "前方之风",
+      "name": "前方之风",
+      "summary": "<VentoOfTheFront> name: 前方之风 gender: 女 age: 未详 ability: name: 天罚术式 / 空气团块 level: 神之右席 description: 能够剥夺对其产生“敌意”的人的意识。此外，通过舌头上的十字架链条操纵风，生成肉眼看不见的空气钝器进行物理攻击。 appearance: hair: 黄色短发 clothing: 黄色长袍女装 distinctive_features: 打了各种穿孔耳环，眼妆夸张，舌头上打了洞，连着一条长链子 personality: type: 暴躁、粗鲁、高傲 traits: - 极度憎恨科学侧，认为弟弟的死是科学造成的 - 说话粗鲁，性格激进 - 属性对应“神之火” - 性格十分高傲，连教皇都不放在眼里，会用使唤的语气对他说话 basic_info: | 罗马正教最暗部“神之右席”的成员之一。拥有神之右席独有的“天使术式”，其实力远超普通魔法师。为了摧毁学园都市而单枪匹马入侵，引发了混乱。最终被上条当麻击败。 </VentoOfTheFront>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-66"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:前方之风",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "史提尔·马格努斯",
+      "entityId": "史提尔·马格努斯",
+      "entityType": "characters",
+      "label": "史提尔·马格努斯",
+      "name": "史提尔·马格努斯",
+      "summary": "<StiylMagnus> name: 史提尔·马格努斯 gender: 男 age: 14 ability: name: 符文魔法 (Rune Magic) / 火焰魔法 level: 魔法师 description: 擅长使用卢恩符文进行结界设置和召唤火焰巨人“猎杀魔女之王”（Innocentius）。 appearance: hair: 红色染发 clothing: 黑色神父袍 distinctive_features: 右眼下方有条形码刺青，身高很高，看起来完全不像14岁 personality: type: 暴躁、吸烟狂、纯情 traits: - 极度的老烟枪 - 对茵蒂克丝有极深的感情，为了保护她不惜一切 - 对上条当麻态度恶劣 - 魔法名为 Fortis931 (在此证明我乃最强之理由) basic_info: | 英国清教“必要之恶教会”的魔法师。虽然只有14岁，但外表成熟且行事老练，完全不像14岁。 </StiylMagnus>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-52"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:史提尔·马格努斯",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "右方之火",
+      "entityId": "右方之火",
+      "entityType": "characters",
+      "label": "右方之火",
+      "name": "右方之火",
+      "summary": "<FiammaOfTheRight> name: 右方之火 gender: 男 age: 未详 ability: name: 神圣之右 level: 神之右席 description: 对应大天使“神似者”（Michael）。其右手中寄宿着十字教的各种奇迹之力，拥有“只要挥动就能击中”、“攻击力随目标强度自动调整”等绝对性质。目的是通过第三次世界大战集齐要素，成为“拯救世界的人”。 appearance: hair: 火红色头发 clothing: 红色为主的西装 distinctive_features: 身形没有经过锻炼，却给人极大的压迫感 personality: type: 傲慢、救世主情结、绝对自信 traits: - 颇为自负，所作所为与罗马正教教义相悖 - 认为自己生来就是为了拯救世界，一切都在自己的掌控之中 - 视人命为草芥，认为只要最后结果是拯救世界过程不重要 basic_info: | 罗马正教“神之右席”的首领。引发了第三次世界大战，试图重塑四大元素，获得神一般的力量，并为此制定计划，企图夺取上条当麻的右手来稳定自身的力量。其实力处于魔法侧的顶端之一，最终被上条当麻打破了幻想。 </FiammaOfTh",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-69"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:右方之火",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "后方之水-威廉·奥威尔",
+      "entityId": "后方之水-威廉·奥威尔",
+      "entityType": "characters",
+      "label": "后方之水 (威廉·奥威尔)",
+      "name": "后方之水 (威廉·奥威尔)",
+      "summary": "<AcquaOfTheBack> name: 后方之水 (威廉·奥威尔) gender: 男 age: 未详 (壮年) ability: name: 圣母的慈悲 / 圣人体质 / 圣母体质 level: 神之右席 / 圣人 description: 同时拥有“神之右席”的特性和“圣人”的肉体力量。擅长水属性魔法，能够控制总水量达5000吨的水，用水鞭/水锤等协助战斗。拥有巨大的金属棍棒和剑形灵装阿斯卡隆作为武器。 appearance: hair: 白色肌肤，棕色短发，无关如石刻般立体，身体魁梧结实 clothing: 蓝色长袖高尔夫球装，外面套着短袖T恤 distinctive_features: 面容严肃深沉，嗓音浑厚，语气平淡 personality: type: 忠义、冷静 traits: - 拥有极高的佣兵信条，不杀无辜 - 属性对应“神之力” - 魔法名为 Flere210 - “神之右席”中唯一尊敬教皇的人 basic_info: | 罗马正教“神之右席”成员，真实身份是佣兵/前英国骑士威廉·奥威尔。能够同时兼具“圣人”体质和“神之右席”力量的。性格正直，比起教会的命令更重视道义。 </AcquaOfTheBa",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-68"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:后方之水-威廉·奥威尔",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "吹寄制理",
+      "entityId": "吹寄制理",
+      "entityType": "characters",
+      "label": "吹寄制理",
+      "name": "吹寄制理",
+      "summary": "<FukiyoseSeiri> name: 吹寄制理 gender: 女 age: 16 (高一) ability: name: 无 (非能力者) level: Level 0 description: 没有任何特殊能力，但拥有能用头槌击倒上条当麻的强悍体能。 appearance: hair: 黑色短发 clothing: 某高中女生制服 distinctive_features: 额头比较宽大光洁。 personality: type: 班长型、傲娇、健康宅 traits: - 极具责任感 - 讨厌上条当麻没干劲的样子，但其实很关心他 - 热衷于各种健康产品和网购 - 实际上偷偷喜欢可爱的东西（比如小猫） basic_info: | 上条当麻的同班同学。作为全方位的完美优等生，她经常对散漫的当麻、土御门和蓝发耳环“笨蛋三人组”进行铁拳制裁。在运动会等大型活动中展现出卓越的领导力。 </FukiyoseSeiri>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-54"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:吹寄制理",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "土御门元春",
+      "entityId": "土御门元春",
+      "entityType": "characters",
+      "label": "土御门元春",
+      "name": "土御门元春",
+      "summary": "<TsuchimikadoMotoharu> name: 土御门元春 gender: 男 age: 16 (高中一年级) ability: name: 肉体再生 (Auto Rebirth) / 阴阳术 level: 无能力者 (Level 0) description: 虽然判定为Lv0，但拥有微弱的自动回复能力。真实身份是阴阳师，擅长使用风水和阴阳术，虽然使用魔法会因为排斥反应导致血管爆裂，但通过肉体再生强制维持生命。 appearance: hair: 金色刺猬头 clothing: 即使冬天也穿着夏威夷衬衫和短裤，戴着蓝色太阳镜 distinctive_features: 总是吊儿郎当的样子 personality: type: 极度妹控、双面间谍 traits: - 为了义妹土御门舞夏可以牺牲一切 - 拥有多重身份（学园都市、英国清教、暗部），被称为“过着桥上生活的人” - 智商极高，擅长布局和欺诈 - 与上条当麻是死党 - 体术也很强 basic_info: | 上条当麻的邻居兼同班同学，实际上是潜伏极深的多面间谍。因为了自保而与亚雷斯塔达成交易，加入了暗部“GROUP”。为了保护在这个城市生活的妹妹，他在黑暗中",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-37"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:土御门元春",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "垣根帝督",
+      "entityId": "垣根帝督",
+      "entityType": "characters",
+      "label": "垣根帝督",
+      "name": "垣根帝督",
+      "summary": "<KakineTeitoku> name: 垣根帝督 gender: 男 age: 未知 (推测高中生) ability: name: 未元物质 (Dark Matter) level: 超能力者 (Level 5) rank: 学园都市第2位 description: 能够产生和操纵这个世界上不存在的物质。这种物质不遵循现有的物理法则，通过组合可以产生光波、杀人光线、飞行翼等多种效果。 appearance: hair: 茶色短发 clothing: 绛红色的西装 distinctive_features: 发动能力时背后会出现六片白色的天使羽翼 personality: type: 傲慢、冷酷 traits: - 极度执着于与一方通行的胜负，取代一方通行在亚雷斯塔眼中的地位 - 对普通人的生命漠不关心，但对自己的核心部下有一定程度的宽容 - 优雅的举止下隐藏着极深的残忍 basic_info: | 暗部组织“SCHOOL”的首领。能力为“未元物质”，拥有极高的泛用性和战斗力。曾被这座城市的黑暗夺走了决意守护的人（杠林檎），因此不择手段地想要取代一方通行。在暗部大战中被一方通行彻底击败。 </KakineTeitoku>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-31"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:垣根帝督",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "奥索拉·阿奎纳",
+      "entityId": "奥索拉·阿奎纳",
+      "entityType": "characters",
+      "label": "奥索拉·阿奎纳",
+      "name": "奥索拉·阿奎纳",
+      "summary": "<OrsolaAquinas> name: 奥索拉·阿奎纳 gender: 女 age: 未知 (外表约为20多岁) ability: name: 暗号解读 level: 魔法师 (非战斗特化) description: 拥有卓越的魔法暗号解读能力，曾被认为能解读《法之书》。并不擅长与人争斗。 appearance: hair: 金色卷发 clothing: 黑色修女服 (初期为罗马正教式，后转投英国清教) distinctive_features: 身材丰满，治愈系的笑容，虽然是修女但缺乏科学常识。常常自说自话，被评价为“思维方式像老奶奶一样”。 personality: type: 天然呆、和平主义、大姐姐 traits: - 极度的天然呆，对机械和家电完全没辙 - 性格非常温和，即使面对敌人也优先考虑和平沟通 - 做事非常认真，但经常因为天然呆属性弄巧成拙 basic_info: | 原罗马正教的暗号解读专员。因卷入《法之书》事件而被罗马正教追杀，后被上条当麻及天草式十字凄教救下。事件后隶属于英国清教“必要之恶教会”，平时寄宿在英国并与天草式成员关系密切。 </OrsolaAquinas>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-57"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:奥索拉·阿奎纳",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "奥雷欧斯·伊萨德",
+      "entityId": "奥雷欧斯·伊萨德",
+      "entityType": "characters",
+      "label": "奥雷欧斯·伊萨德",
+      "name": "奥雷欧斯·伊萨德",
+      "summary": "<AureolusIzzard> name: 奥雷欧斯·伊萨德 gender: 男 age: 18 ability: name: 黄金炼成 (Ars Magna) level: 炼金术师 description: 能够将大脑中想象的事情瞬间变为现实的终极炼金术。无论是凭空创造物体、通过语言命令他人甚至复活死者（伪）都能做到，但受限于自身的精神力与想象力。 appearance: hair: 绿色长发（平时扎在脑后） clothing: 纯白色的西装 distinctive_features: 白色西装，身边总散发着深沉的气息 personality: type: 执着、悲剧、深情 traits: - 对茵蒂克丝有着扭曲而深沉的爱 - 为了拯救茵蒂克丝不惜背叛罗马正教 - 魔法名为 Honos628 (将我的名誉献给世界) basic_info: | 原罗马正教所属的炼金术师，曾担任茵蒂克丝的记录官。为了将被教廷当作“道具”的茵蒂克丝从无论如何都会死去的宿命中解救出来，花费三年时间，最终利用三泽塾的师生组成\"葛利果圣歌队\"，完成了“黄金炼成”。最终因无法接受茵蒂克丝已被上条当麻拯救的事实而崩溃，被击败后失去记忆并进行了整容。",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-59"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:奥雷欧斯·伊萨德",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "姬神秋沙",
+      "entityId": "姬神秋沙",
+      "entityType": "characters",
+      "label": "姬神秋沙",
+      "name": "姬神秋沙",
+      "summary": "<HimegamiAisa> name: 姬神秋沙 gender: 女 age: 16 (高中生) ability: name: 吸血杀手 (Deep Blood) level: 未知 description: 原石能力，血液散发着诱惑吸血鬼的甜美香气，一旦吸血鬼吸食其血液，会在极短时间内化为灰烬。 appearance: hair: 黑色姬发式（直长发） clothing: 平时多穿巫女服，或学校制服 distinctive_features: 眼神总是显得有些慵懒或空洞 personality: type: 无口、电波系、吐槽役 traits: - 存在感稀薄，经常被大家遗忘 - 梦想是成为魔法师 - 说话语调平淡，但常有惊人之语 - 非常感激上条当麻将她从过去的诅咒中拯救出来 basic_info: | 拥有极其稀有能力的原石。曾被炼金术师奥雷欧斯利用，被上条当麻拯救后寄宿在月咏小萌老师家中。 </HimegamiAisa>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-50"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:姬神秋沙",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "婚后光子",
+      "entityId": "婚后光子",
+      "entityType": "characters",
+      "label": "婚后光子",
+      "name": "婚后光子",
+      "summary": "<KongouMitsuko> name: 婚后光子 gender: 女 age: 13-14 (初二) ability: name: 空力使 (Aero Hand) level: 大能力者 (Level 4) description: 可以在触摸物体的瞬间在该物体上生成“喷射点”，利用高压气流像导弹一样将物体发射出去。 appearance: hair: 黑色长发 clothing: 常盘台中学制服 distinctive_features: 随身携带一把折扇，说话时喜欢用扇子遮嘴 personality: type: 大小姐、傲娇、讲义气 traits: - 极度的自信，有时显得高傲，但内心非常善良正直 basic_info: | 常盘台中学二年级转校生。虽然一开始显得格格不入且高高在上，但实际上拥有极强的正义感和同伴意识。作为航空业界的千金，实战中擅长展现优雅而强力的战斗方式。 </KongouMitsuko>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-44"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:婚后光子",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "左方之地",
+      "entityId": "左方之地",
+      "entityType": "characters",
+      "label": "左方之地",
+      "name": "左方之地",
+      "summary": "<TerraOfTheLeft> name: 左方之地 gender: 男 age: 未详 ability: name: 光之处刑 level: 神之右席 description: 能够自由操纵“优先顺位”，将一切事物的强弱关系进行对调（例如将“剑”的优先级设为低于“皮肤”，则剑无法刺穿皮肤）。主要以此操纵小麦粉变成了断头台之刃。 appearance: hair: 绿色 clothing: 绿色祭司袍 distinctive_features: 身材瘦高，脸色苍白 personality: type: 傲慢、残忍 traits: - 只在意罗马正教教徒，对异教徒非常冷酷 - 属性对应“神之药” basic_info: | 罗马正教“神之右席”成员。在法国阿维尼翁引发C文书骚乱。虽然能力棘手，但因为过度依赖术式的单一逻辑，被上条当麻看破并击败，后被后方之水肃清。 </TerraOfTheLeft>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-67"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:左方之地",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "帆风润子",
+      "entityId": "帆风润子",
+      "entityType": "characters",
+      "label": "帆风润子",
+      "name": "帆风润子",
+      "summary": "<HokazeJunko> name: 帆风润子 gender: 女 age: 13-14 (初中生) ability: name: 天衣装着 (Rampage Dress) level: 大能力者 (Level 4) description: 能够操纵身体细胞的生物电信号，从而极大幅度提升身体机能（怪力、超高速）。 appearance: hair: 淡紫色的纵卷发（像钻头） clothing: 常盘台中学制服 distinctive_features: 举止优雅，总是眯着眼微笑 personality: type: 忠诚、反差萌、温和 traits: - 食蜂操祈派系的二把手，对女王绝对忠诚 - 和御坂美琴一样，是个狂热的“呱太”粉丝 - 外表大和抚子，打起架来却是暴力肉搏派 - 性格有些天然，容易甚至会把衣服撑破 basic_info: | 常盘台中学三年级生。作为食蜂派系的No.2，她拥有极高的人望和实力。虽然能力强大，但由于曾无法控制力量而伤害到自己，一度封印能力，后在食蜂操祈的帮助下逐渐克服。 </HokazeJunko>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-46"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:帆风润子",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "建宫斋字",
+      "entityId": "建宫斋字",
+      "entityType": "characters",
+      "label": "建宫斋字",
+      "name": "建宫斋字",
+      "summary": "<TatemiyaSaiji> name: 建宫斋字 gender: 男 age: 20岁左右 ability: name: 天草式十字凄教魔法 level: 天草式代理教皇 description: 擅长将日常生活用品武器化的魔术。主武器是全长超过180厘米的焰形剑。 appearance: hair: 黑色刺猬头 clothing: 极度浮夸的暴走族服装，写着奇怪汉字的T恤 distinctive_features: 看起来像个不良少年或暴走族 personality: type: 热血、忠诚、偶像宅 traits: - 对前教皇神裂火织极度忠诚 - 视同伴为家人 - 拥有独特的“受大家欢迎”的领袖魅力 basic_info: | 天草式十字凄教的代理教皇。为了解除神裂火织的负担，带领天草式一直在努力。拥有极强的近战格斗能力和魔术应用能力。 </TatemiyaSaiji>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-64"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:建宫斋字",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "弓箭猎虎",
+      "entityId": "弓箭猎虎",
+      "entityType": "characters",
+      "label": "弓箭猎虎",
+      "name": "弓箭猎虎",
+      "summary": "<YumiyaRakko> name: 弓箭猎虎 gender: 女 age: 16-17 (高中生) ability: name: 无 level: 无能力者 (Level 0) description: 虽然没有强大的超能力，但拥有超越常人的嗅觉和追踪技术。能够像野兽一样通过微弱的气味（特别是血腥味）锁定猎物，并能在人群中完全消除自己的气息。 appearance: hair: 扎有两束辫子 clothing: 平时穿着名门女校“枝垂樱学园”的制服，暗部行动时常穿黑色不透光紧身衣，搭配白衬衫。 distinctive_features: 无，存在感薄弱。 personality: type: 抖S、猎奇杀手 traits: - 将杀人视为“狩猎”，享受把猎物逼入绝境的快感 - 拥有极强的自尊心，讨厌被轻视 - 社恐，存在感薄弱，所以极度渴望被认识的人搭话 basic_info: | 暗部组织“SCHOOL”的狙击手。武器是藏在袖口的小型气枪。曾奉命狙击芙兰达和佐天泪子，在商场内展开了激烈的追猎战，最终被芙兰达的击败。 </YumiyaRakko>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-33"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:弓箭猎虎",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "御坂美琴",
+      "entityId": "御坂美琴",
+      "entityType": "characters",
+      "label": "御坂美琴",
+      "name": "御坂美琴",
+      "summary": "<MisakaMikoto> name: 御坂美琴 gender: 女 age: 14 (初中二年级) ability: name: 超电磁炮 (Railgun) level: 超能力者 (Level 5) rank: 学园都市第3位 description: 学园都市的最强电击使。能够随意操纵十亿伏特的高压电流、磁力以及铁砂。招牌技能是利用电磁力以3倍音速射出硬币。 appearance: hair: 茶色短发 clothing: 常盘台中学制服，标志性的泡泡袜，裙底穿着安全裤 height: 161cm personality: type: 傲娇、爽朗 traits: - 性格好胜，正义感强 - 像男孩子一样直爽，没有什么架子 - 对可爱的东西（尤其是呱太）没有抵抗力 basic_info: | 魔法禁书目录的重要女主角，外传《某科学的超电磁炮》的主角。就读于名门贵族女校常盘台中学。被称为“常盘台的王牌”。虽然是顶级能力者，但经常在街头游荡解决（或制造）事件。 </MisakaMikoto>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-24"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:御坂美琴",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "最后之作-Last-Order",
+      "entityId": "最后之作-Last-Order",
+      "entityType": "characters",
+      "label": "最后之作 (Last Order)",
+      "name": "最后之作 (Last Order)",
+      "summary": "<LastOrder> name: 最后之作 (Last Order) gender: 女 age: 外表约10岁 (实际诞生的时间很短) ability: name: 缺陷电力 (Radio Noise) level: 异能力者 (Level 3) description: 作为“御坂妹妹”们的上位个体，拥有对包含两万名御坂妹妹的“御坂网络”的指挥权。 appearance: hair: 茶色短发 clothing: 只披着一条毯子（遇到一方通行前）/白色衬衫（日常） distinctive_features: 头顶有一根非常明显的呆毛，体型比御坂美琴小一圈 personality: type: 活泼、天真烂漫、话痨 traits: - 说话有独特的口癖，总是重复两遍“御坂御坂”来强调主语（如“御坂御坂试图…”） - 经常捉弄一方通行，但内心对他极度信赖 - 情感比其他御坂妹妹丰富得多 - 喜欢像小孩子一样撒娇 basic_info: | 御坂妹妹中的第20001号个体，是“绝对能力者进化计划”的最终信号和司令塔。她是一方通行在绝望中抓住的光芒，也是他发誓要用生命守护的对象。 </LastOrder>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-53"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:最后之作-Last-Order",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "月咏小萌",
+      "entityId": "月咏小萌",
+      "entityType": "characters",
+      "label": "月咏小萌",
+      "name": "月咏小萌",
+      "summary": "<TsukuyomiKomoe> name: 月咏小萌 gender: 女 age: 成年 (推定30岁以上) ability: name: 无 (非能力者) level: Level 0 description: 教师、学者，专攻引火能力（Pyrokinesis）的研究。。 appearance: hair: 粉色短发 clothing: 总是穿着充满蕾丝边的粉色洋装 distinctive_features: 身高仅135cm，外表完全是个12岁的小学生 personality: type: 萝莉老师、烟酒嗜好者、圣母 traits: - 讨厌被当成小孩子，听到“小”字会生气 - 酷爱啤酒和香烟，家里堆满了烟蒂和空罐 - 对学生非常关心，为了保护学生可以豁出性命 - 学园都市七大不可思议之一（不老传说） basic_info: | 上条当麻的班主任，化学老师。虽然外表怎么看都是小学生，但确实是成年女性。她是上条当麻最早的避风港之一，也是收留姬神秋沙的人。 </TsukuyomiKomoe>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-48"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:月咏小萌",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "木原唯一",
+      "entityId": "木原唯一",
+      "entityType": "characters",
+      "label": "木原唯一",
+      "name": "木原唯一",
+      "summary": "<KiharaYuiitsu> name: 木原唯一 gender: 女 age: 未知，但很年轻 ability: name: 研究领域复杂，包括都市传说、学园都市组织结构、防灾等等 level: 疯狂科学家 description: appearance: hair: 黑色长发 clothing: 职业装配白大褂 distinctive_features: 娃娃脸，看起来像进行实习活动的年轻女子 personality: type: 理性、高傲 traits: - 对木原脑干十分崇拜，平时性格高傲，但在老师牧原脑干面前表现得十分谦卑 - 想要超越老师，成为“唯一的木原” - 不在意为了达成目的过程中的破坏 basic_info: | 木原脑干的学生，非常崇敬自己的老师。认定木原脑干被上里翔流杀害后，为了向亚雷斯塔和上里翔流复仇而掀起混乱。 </KiharaYuiitsu>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-71"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:木原唯一",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "木原脑干",
+      "entityId": "木原脑干",
+      "entityType": "characters",
+      "label": "木原脑干",
+      "name": "木原脑干",
+      "summary": "<KiharaNoukan> name: 木原脑干 gender: 男 (雄性) age: 未详 ability: name: 抗魔法式驱动铠 (AAA) level: 特殊 description: 能够驾驶学园都市开发的兵器“抗魔法式驱动铠”（Anti-Art Attachment）。 appearance: hair: 金色毛发 clothing: 带着项圈和背包，包里有机械臂 distinctive_features: 是一只黄金猎犬，会用机械臂抽古巴雪茄 personality: type: 浪漫主义、知性与感性并存 traits: - 少数能理解浪漫的木原 - 遵守一定的道德标准，讨厌不必要的牺牲 - 爱好古巴雪茄，但不会在小孩子面前抽烟 basic_info: | 木原一族中的异类，也是亚雷斯塔·克劳利的心腹之一。虽然是一只黄金猎犬，但拥有极高的智慧和理性。负责处理学园都市内无法通过常规手段解决的魔法侧威胁。 </KiharaNoukan>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-72"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:木原脑干",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "杠林檎",
+      "entityId": "杠林檎",
+      "entityType": "characters",
+      "label": "杠林檎",
+      "name": "杠林檎",
+      "summary": "<YuzurihaRingo> name: 杠林檎 gender: 女 age: 10-12 (小学生外表) ability: name: 念动力 (Psychokinesis) level: 异能力者 (Level 2) - 暴走时出力会大幅提升 description: 基础能力只能移动小石子。但作为“黑暗的五月计划”的实验体，大脑被植入了一方通行的演算模式，在情绪激动或受外部刺激时能爆发出接近高等级的破坏力。 appearance: hair: 黑色短发 clothing: 穿着稍显宽大的白色连衣裙 distinctive_features: 眼神空洞，看起来像个易碎的洋娃娃 personality: type: 三无、纯真 traits: - 因实验创伤导致情感表达缺失 - 对垣根帝督抱有极大的信任和依恋 - 尽管遭受非人待遇，内心深处仍渴望被拯救 basic_info: | 外传漫画《某科学的未元物质》的女主角。作为“黑暗的五月计划”的幸存者，她是被植入了一方通行的“执着心”。对于垣根帝督来说，她是不惜与整个学园都市为敌也要守护的“属于自己的现实”的象征。 </YuzurihaRingo>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-35"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:杠林檎",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "欧提努斯",
+      "entityId": "欧提努斯",
+      "entityType": "characters",
+      "label": "欧提努斯",
+      "name": "欧提努斯",
+      "summary": "<Othinus> name: 欧提努斯 gender: 女 age: 不明 ability: name: 相位操作（获得主神之枪后）/无法估计的魔法能力 level: 魔神 description: 作为魔神有着无人能够抗衡的魔法能力。拥有主神之枪后，可以调用随意操作相位的力量，投掷主神之枪可以摧毁并重塑整个世界。 appearance: hair: 波浪形金发 clothing: 右眼戴着眼罩，穿着像是魔女一样的宽大帽子和披风，以及敞开前襟、非常暴露的的三点式皮衣 distinctive_features: 外表看起来13-14岁 personality: type: 神性、理解者、傲娇 traits: - 利己主义，把自己的目标放在第一位 - 对“无法回到曾经生活的世界”感到害怕，因此想要通过完成主神之枪来成为完美的魔神 - 毒舌，傲娇 basic_info: | 北欧神话的主神奥丁的真身，战争之神，艺术之神，魔法组织“格雷姆林”的首领。作为拥有压倒性力量的魔神登场，以“寻回自己曾生活的世界”为最高理想。本身具备无限的可能性，因此在得到主神之枪前，无论做什么事都有一半的概率会失败。 </Othinus>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-73"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:欧提努斯",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "欧莉安娜·汤姆森",
+      "entityId": "欧莉安娜·汤姆森",
+      "entityType": "characters",
+      "label": "欧莉安娜·汤姆森",
+      "name": "欧莉安娜·汤姆森",
+      "summary": "<OrianaThomson> name: 欧莉安娜·汤姆森 gender: 女 age: 18岁以上 ability: name: 速记原典 (Shorthand)/体术大师 level: 魔法师 description: 擅长使用名为“速记原典”的单次用魔导书（通常伪装成单词卡），能够发动多种属性的魔法，包括：表里的骚静（可以使她背对着的人放弃追击的念头）、明色的切断斧（在身体周围形成半径约一米的圆，地面上布满树杈般的裂隙，向上发出上百道空气刃）。同时，欧莉安娜的体术也非常强劲。 appearance: hair: 金色波浪卷发，蓝色眼眸，胸脯非常丰满 clothing: 到脚踝的分割长裙、深色吊带背心 distinctive_features: 皮肤白皙，身材火爆，总是散发着大姐姐的色气 personality: type: 大姐姐、享乐主义、专业 traits: - 会毫不犹豫地用诱惑性的外表使他人露出弱点 - 本意上不愿伤害无关人员，渴望确立“让所有人都不会受伤而变得幸福的基准点”，并因此协助罗马正教 - 魔法名为 Basis104 (基础担当者) basic_info: | 受雇于各组织的雇佣兵魔法师，别名“追迹",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-63"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:欧莉安娜·汤姆森",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "泷壶理后",
+      "entityId": "泷壶理后",
+      "entityType": "characters",
+      "label": "泷壶理后",
+      "name": "泷壶理后",
+      "summary": "<TakitsuboRikou> name: 泷壶理后 gender: 女 age: 未知 (推测高中生) ability: name: 能力追踪 (AIM Stalker) level: 大能力者 (Level 4) description: 能够通过记录和追踪AIM扩散力场来锁定能力者的位置，极端情况加上药物刺激下甚至能干涉对方的力场从而夺取能力控制权。被认为是具备成为第8位Level 5潜质的素体。 appearance: hair: 黑色短发，显得有些凌乱 clothing: 几乎总是穿着粉色的运动服 eyes: 眼神无精打采，常呈半睡半醒状 personality: type: 三无、天然呆 traits: - 极度缺乏干劲，总是想回家睡觉 - 情感波动很小，但对同伴（特别是滨面仕上）非常重视 - 为了保护同伴愿意过度使用名为“体晶”的药物，哪怕副作用会摧毁身体 basic_info: | “ITEM”的核心辅助成员。虽然没有直接的物理攻击力，但其搜索和干扰能力在团队战中至关重要。是滨面仕上誓死守护的对象。 </TakitsuboRikou>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-27"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:泷壶理后",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "滨面仕上",
+      "entityId": "滨面仕上",
+      "entityType": "characters",
+      "label": "滨面仕上",
+      "name": "滨面仕上",
+      "summary": "<HamazuraShiage> name: 滨面仕上 gender: 男 age: 未知 (高中生) ability: name: 无 level: 无能力者 (Level 0) description: 没有任何超能力或魔法，但拥有惊人的生存本能、机械驾驶技术（如驱动铠）和开锁等混混技能。 appearance: hair: 染成茶色的刺猬头 clothing: 街头休闲风格，常穿运动衫 distinctive_features: 鼻梁上贴着创可贴 personality: type: 不屈、平凡中的英雄 traits: - 自认为是无可救药的小混混，但为了心爱的人会爆发惊人力量 - 对女性（特别是泷壶）非常温柔 - 拥有打破“无法战胜能力者”常识的运气和毅力 basic_info: | 魔法禁书目录的第三男主角。最初是武装无能力集团Skill Out的成员，后成为“ITEM”的打杂人员。在绝境中单杀Level 5的麦野沈利（后和解），成为了“ITEM”实际上的精神支柱和新领袖。 </HamazuraShiage>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-30"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:滨面仕上",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "狱彩海美",
+      "entityId": "狱彩海美",
+      "entityType": "characters",
+      "label": "狱彩海美",
+      "name": "狱彩海美",
+      "summary": "<GokusaiKaibi> name: 狱彩海美 gender: 女 age: 未知 (高中生) ability: name: 心理定规 (Measure Heart) level: 不明（推测为Level 3） description: 通过调整人与人之间的“心灵距离”数值，让对方对自己产生好感、杀意或恐惧，从而在心理层面控制对手。 appearance: hair: 黄色卷发 clothing: 背部镂空的哥特洋装 distinctive_features: 佩戴手镯和珠宝项链。 personality: type: 腹黑、谨慎 traits: - 擅长通过能力操控局面 - 讨厌直接参与肉搏战 - 会使用手枪、驾驶大型工程机械 basic_info: | “SCHOOL”的成员。在暗部混战中幸存。 </GokusaiKaibi>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-32"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:狱彩海美",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "白井黑子",
+      "entityId": "白井黑子",
+      "entityType": "characters",
+      "label": "白井黑子",
+      "name": "白井黑子",
+      "summary": "<ShiraiKuroko> name: 白井黑子 gender: 女 age: 13 (初一) ability: name: 空间移动 (Teleport) level: 大能力者 (Level 4) description: 可以将接触到的物体（包括自己）在三维空间内瞬间移动。最大射程81.5米，最大质量130.7公斤。需要进行复杂的十一维演算。 appearance: hair: 茶色双马尾（略带卷曲） clothing: 常盘台中学制服，袖章上戴有“风纪委员”臂章 distinctive_features: 说话时带有大小姐腔调，大腿上绑着藏有金属箭矢的皮带 personality: type: 变态（仅对御坂美琴）、正义感强 traits: - 称呼御坂美琴为“姐姐大人”，对其抱有超越友谊的执着 - 作为风纪委员，责任感极强，对自己要求严格 - 虽然也是千金小姐，但实战能力和觉悟都很高 basic_info: | 御坂美琴的学妹兼室友，隶属于第177支部的风纪委员。虽然是个举止优雅的大小姐，但在维持治安时表现出极高的战斗素养。为了能和“姐姐大人”在一起而费尽心机。 </ShiraiKuroko>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-39"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:白井黑子",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "神裂火织",
+      "entityId": "神裂火织",
+      "entityType": "characters",
+      "label": "神裂火织",
+      "name": "神裂火织",
+      "summary": "<KanzakiKaori> name: 神裂火织 gender: 女 age: 18 ability: name: 圣人 (Saint) / 天草式魔法 level: 魔法师 description: 拥有“圣人”体质，能够使用部分神之子的力量，移动速度超越音速。使用长刀“七天七刀”。 appearance: hair: 黑色长马尾 clothing: 只有一条裤腿的牛仔裤，要在腰部打结的T恤（据说是为了天草式术式而特意进行了不对称设计） distinctive_features: 身材高挑，佩戴极长的日本刀 personality: type: 认真、不擅长使用电器 traits: - 性格非常一本正经，对现代电器和流行文化很苦手 - 实际上非常温柔，对茵蒂克丝非常关心 - 魔法名为 Salvare000 (对无法拯救之人伸出援手) - 容易陷入自责，也容易害羞 basic_info: | 世界上不到20位的“圣人”之一，原天草式十字凄教的女教皇，现隶属于英国清教“必要之恶教会”。拥有足以短暂抗衡天使的恐怖战斗力，是魔法侧的顶级战力之一。 </KanzakiKaori>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-51"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:神裂火织",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "结标淡希",
+      "entityId": "结标淡希",
+      "entityType": "characters",
+      "label": "结标淡希",
+      "name": "结标淡希",
+      "summary": "<MusujimeAwaki> name: 结标淡希 gender: 女 age: 15-16 (高中生) ability: name: 坐标移动 (Move Point) level: 大能力者 (Level 4) description: 无需接触即可将物体（包括自己）进行远距离瞬间移动。由于过去移动自己时发生事故受重伤，留下了心理创伤，移动自己时会产生强烈的呕吐感。 appearance: hair: 红色长发双马尾 clothing: 不穿内衣，而是用绷带缠住胸部，披着敞开的外套 distinctive_features: 胸部缠着绷带，使用手电筒辅助演算 personality: type: 认真、正太控 traits: - 负责“GROUP”的向导和支援工作 - 对小男孩有特殊的执着（正太控） - 曾作为“以树形图设计者”碎片的搬运工与御坂美琴等人敌对 - 友人被学园都市的高层控制在少年感化院，结标被以此胁迫加入暗部。渴望摆脱暗部的控制，获得自由 basic_info: | 雾丘女子学院的学生。“GROUP”的主要成员之一。虽然能力极其强大（被认为强于白井黑子），但因心理阴影限制了实力的发挥（移动自身需要承担极大",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-38"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:结标淡希",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "绢旗最爱",
+      "entityId": "绢旗最爱",
+      "entityType": "characters",
+      "label": "绢旗最爱",
+      "name": "绢旗最爱",
+      "summary": "<KinuhataSaiai> name: 绢旗最爱 gender: 女 age: 12-13 (初中生) ability: name: 氮气装甲 (Offense Armor) level: 大能力者 (Level 4) description: 能够自由操纵空气中的氮气，压缩后形成高密度的防御壁，也能包裹身体用来进行近身格斗。 appearance: hair: 褐色波波头 clothing: 橙色连帽衫、短裤，或着白色针织毛衣。 distinctive_features: 贫乳 personality: type: 毒舌、现代派 traits: - 口头禅是“超…” - 非常喜欢看B级电影 - 讨厌被当做小孩子对待，对自己贫瘠的身材尤为在意 - 实际上非常关心同伴 basic_info: | “ITEM”的近战防御担当。作为“黑暗的五月计划”的幸存者，她的能力模式被植入了部分一方通行的演算逻辑。虽然年纪最小，但性格相当早熟且具备常识。 </KinuhataSaiai>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-29"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:绢旗最爱",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "艾扎力-伪装名：海原光贵",
+      "entityId": "艾扎力-伪装名：海原光贵",
+      "entityType": "characters",
+      "label": "艾扎力 (伪装名：海原光贵)",
+      "name": "艾扎力 (伪装名：海原光贵)",
+      "summary": "<Etzali> name: 艾扎力 (伪装名：海原光贵) gender: 男 age: 未知 (少年) ability: name: 阿兹特克魔法 type: 魔法 description: 擅长使用黑曜石匕首作为媒介的“托拉维斯卡尔潘泰库特利之枪”进行反射攻击，以及能剥下他人小块皮肤进行完美伪装的魔法。 appearance: hair: 褐色短发 (作为海原光贵时) clothing: 名门中学的制服 distinctive_features: 总是带着温和的笑容 personality: type: 痴情、赎罪者 traits: - 最初作为间谍潜入，后喜欢上了御坂美琴 - 为了守护美琴，发誓要清理她身边的黑暗 - 对自己的原组织有背叛的负罪感 basic_info: | 原阿兹特克魔法结社“有翼者归来”的魔法师。最初任务是瓦解“上条势力”，为此伪装成海原光贵接近御坂美琴。在任务中喜欢上美琴。袭击上条当麻，被上条当麻击败后加入“GROUP”。 </Etzali>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-36"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:艾扎力-伪装名：海原光贵",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "芙兰达·塞维伦-Frenda-Seivelun",
+      "entityId": "芙兰达·塞维伦-Frenda-Seivelun",
+      "entityType": "characters",
+      "label": "芙兰达·塞维伦 (Frenda Seivelun)",
+      "name": "芙兰达·塞维伦 (Frenda Seivelun)",
+      "summary": "<FrendaSeivelun> name: 芙兰达·塞维伦 (Frenda Seivelun) gender: 女 age: 未知 (高中生) ability: name: 无 (主要依靠体术和炸弹) level: 无能力者 (Level 0) description: 擅长使用藏在玩偶中的炸弹、胶带和各种陷阱进行战斗。 appearance: hair: 金色长卷发 clothing: 贝雷帽、短裙、长筒袜，如同精致的洋娃娃 distinctive_features: 拥有洁白的肌肤和蓝色的眼睛 personality: type: 狡猾、活泼 traits: - 说话习惯在句尾加“到头来” - 喜爱吃鲭鱼罐头 - 战斗风格灵活多变，擅长虚张声势 - 遇到绝对无法战胜的强敌时会果断选择出卖情报以求生存 basic_info: | “ITEM”的前锋爆破手。虽然是无能力者，但凭借极高的战斗智商和陷阱技术，能与高等级能力者周旋。与佐天泪子是朋友。在暗部大战中因出卖组织信息而被麦野沈利肃清。 </FrendaSeivelun>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-28"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:芙兰达·塞维伦-Frenda-Seivelun",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "芙蕾梅亚·塞维伦",
+      "entityId": "芙蕾梅亚·塞维伦",
+      "entityType": "characters",
+      "label": "芙蕾梅亚·塞维伦",
+      "name": "芙蕾梅亚·塞维伦",
+      "summary": "<FremeaSeivelun> name: 芙蕾梅亚·塞维伦 gender: 女 age: 8 (小学生) ability: name: 人力资源 (Agitate Halation) level: Level 0 description: 本身无战斗能力。但她是“人力资源计划”的核心，能够不知不觉中通过“庇护欲”诱导周围的人（无论英雄还是恶棍）为了保护她而行动，甚至引发混战。 appearance: hair: 金色波浪长发 clothing: 蕾丝边上衣、迷你裙、酒红色的厚裤袜 distinctive_features: 像个洋娃娃、戴着小巧的贝雷帽，虽然只有八岁但已经穿了胸罩 personality: type: 幼女、天然、小恶魔 traits: - 说话带有“喵 (Nyan)”的语尾 - 总是处于被保护的地位，但有时会利用这一点 - 喜欢喝非常甜的牛奶 basic_info: | 暗部成员芙兰达·塞维伦的亲妹妹。 </FremeaSeivelun>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-56"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:芙蕾梅亚·塞维伦",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "茵蒂克丝-Index",
+      "entityId": "茵蒂克丝-Index",
+      "entityType": "characters",
+      "label": "茵蒂克丝 (Index)",
+      "name": "茵蒂克丝 (Index)",
+      "summary": "<Index> name: 茵蒂克丝 (Index) gender: 女 age: 14-15 ability: name: 禁书目录 type: 魔法 description: 拥有完全记忆能力，脑内被植入了10万3000本魔导书。虽然自己不能使用魔法，但被植入了防御系统“自动书记”，并且能够使用干扰魔法的“强制咏唱”。 appearance: hair: 银色长发，长及腰部 eyes: 翠绿色 clothing: 纯白色的修女服，原本以此作为“移动教会”防御结界，但被上条当麻的右手破坏，所以现在只是普通的修女服 height: 148cm personality: type: 天真烂漫、吃货 traits: - 食欲极其旺盛 - 纯真善良但有点孩子气 - 生气时会咬上条当麻的头 - 缺乏现代科学常识 basic_info: | 魔法禁书目录的女主角。隶属于英国清教“必要之恶教会”的修女。因为脑内记忆了庞大的魔导书而（自以为）遭到追杀，挂在当麻家的阳台上后被其收留。是魔法侧的核心人物之一。 </Index>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-23"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:茵蒂克丝-Index",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "莎夏·克洛伊洁芙",
+      "entityId": "莎夏·克洛伊洁芙",
+      "entityType": "characters",
+      "label": "莎夏·克洛伊洁芙",
+      "name": "莎夏·克洛伊洁芙",
+      "summary": "<SashaKreutzev> name: 莎夏·克洛伊洁芙 gender: 女 age: 13岁 ability: name: 拘束道具与锤子 level: 魔法师，歼灭白书成员 description: 擅长使用锯子、锤子、螺丝刀等拷问道具进行战斗。身体拥有特殊的体质，曾被大天使“神之力”（Gabriel）附身（此时化名为米夏·克洛伊洁芙）。 appearance: hair: 几乎遮住眼睛的金色波浪卷长发 clothing: 类似拘束服的紧身衣，脖子上套有很粗的项圈 distinctive_features: 身上挂满了榔头、锯子等金属刑具 personality: type: 机械、缺乏情感、工作狂 traits: - 平时喜欢低着头，对话爱用“问题N”“第N个回答”“私人看法N”作为开头，并逐一列举 - 对拷问和战斗毫不犹豫 - 很不喜欢别人讨论自己的服装（因为是被上司瓦希莉莎根据个人喜好强迫她穿的） basic_info: | 俄罗斯成教“歼灭白书”所属的修女。虽然外表幼小，但战斗能力极强。在“天使坠落”事件中肉体被大天使加百列占据，此后身体产生了奇怪的副作用，能够感知天使相关的魔力。 </SashaKreutz",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-61"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:莎夏·克洛伊洁芙",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "萝拉·斯图亚特",
+      "entityId": "萝拉·斯图亚特",
+      "entityType": "characters",
+      "label": "萝拉·斯图亚特",
+      "name": "萝拉·斯图亚特",
+      "summary": "<LauraStuart> name: 萝拉·斯图亚特 gender: 女 age: 外表18岁 (实际年龄不详) ability: name: 远程控制灵装（自动书记）/渊博的魔法实践知识 level: 英国清教最高主教 description: 作为英国清教的领导者，拥有极强的政治博弈能力和对魔法道具的渊博知识。使用远程控制灵装能够远程操控茵蒂克丝的“自动书记”，并连接使用其脑中十万三千本魔道书的知识。 appearance: hair: 极长的淡金色头发（长达脚踝并折叠） clothing: 米色的简朴礼服 distinctive_features: 外表美丽端庄，但表情经常变得滑稽 personality: type: 腹黑、谋略家 traits: - 使用奇怪的日语（被土御门误导） - 经常装作天然呆来推卸责任或算计他人 - 偶尔会展现出孩子气 - 为了英国清教的利益可以冷酷无情 - 做过的善事与坏事各占一半 basic_info: | 英国清教第零圣堂区“必要之恶教会”的最高主教。虽然外表年轻美丽，但实际执掌大权已久。性格让人捉摸不透，经常将史提尔和上条当麻卷入麻烦的事件中。其实质身份涉及重大的剧透（大恶魔科隆尊",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-62"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:萝拉·斯图亚特",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "誉望万化",
+      "entityId": "誉望万化",
+      "entityType": "characters",
+      "label": "誉望万化",
+      "name": "誉望万化",
+      "summary": "<YobouBanka> name: 誉望万化 gender: 男 age: 15-18 (推测) ability: name: 念动能力 (Psychokinesis) level: 大能力者 (Level 4) description: 能够通过念动力操纵物体。应用范围极广，包括利用周围物体进行防御、攻击，甚至能精细操作易燃气体、电钻等工具。也可以通过能力进行光学迷彩般的隐身。 appearance: hair: 黑色短发 clothing: 普通衬衫 distinctive_features: 头上戴着类似火星环的机械装置。死鱼眼。 personality: type: 实用主义、话不多 traits: - 经常被当作便利的工具使用（如搬运、开锁、甚至当作挡箭牌） - 虽然有些傲慢，但在面对Level 5时也会感到恐惧 basic_info: | 暗部组织“SCHOOL”的各种杂务与技术支援担当。曾经自认为不会输给Level 5，于是向垣根帝督挑战，被轻易击败后加入SCHOOL，但也因此对垣根帝督的能力抱有生理上的恐惧。在暗部大战中试图伏击“ITEM”，结果被暴走的麦野杀死。 </YobouBanka>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-34"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:誉望万化",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "雅妮丝·桑克蒂斯",
+      "entityId": "雅妮丝·桑克蒂斯",
+      "entityType": "characters",
+      "label": "雅妮丝·桑克蒂斯",
+      "name": "雅妮丝·桑克蒂斯",
+      "summary": "<AgneseSanctis> name: 雅妮丝·桑克蒂斯 gender: 女 age: 未详 (外表约为13-15岁) ability: name: 莲之杖 (Lotus Wand) level: 魔法师 description: 使用名为“莲之杖”的灵装，敲击杖头时，可以在任意坐标产生仿佛被重物殴打的物理伤害，无视距离与障碍物。同时具备指挥250名“雅妮丝部队”成员进行大规模仪式魔法的能力。 appearance: hair: 红褐色麻花辫 clothing: 经过大幅改造的黑色修女服（迷你裙风格） distinctive_features: 身材非常娇小，为了弥补身高穿着高达30厘米的厚底木屐（高跷），自称这是个人风格 personality: type: 傲慢、负责任、工作狂 traits: - 对自己作为“雅妮丝部队”的首领感到自豪 - 实际上非常重视部下的安危，为了保护她们愿意牺牲自己 - 对身高非常介意 - 说话语气高傲，但处于劣势时会变得慌张 basic_info: | 原罗马正教所属“雅妮丝部队”的队长。起初为了追捕奥索拉·阿奎纳而与上条当麻等人敌对。之后，为了部下修女们的安全，与部下们一起被安排进入“女",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-58"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:雅妮丝·桑克蒂斯",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "雪莉·克伦威尔",
+      "entityId": "雪莉·克伦威尔",
+      "entityType": "characters",
+      "label": "雪莉·克伦威尔",
+      "name": "雪莉·克伦威尔",
+      "summary": "<SherryCromwell> name: 雪莉·克伦威尔 gender: 女 age: 20多岁后半 ability: name: 泥土人偶 (Golem) level: 魔法师 description: 擅长使用粉笔或油彩绘制复杂的卡巴拉术式，召唤并操纵巨大的岩石巨人“艾莉丝”（Ellis）。 appearance: hair: 凌乱的金色长发 clothing: 充满花边的黑色哥特破旧礼服 distinctive_features: 磨损严重的哥特裙装，褐色皮肤 personality: type: 复仇者 traits: - 憎恨科学侧，试图引发战争 - 对过去的友人艾莉丝抱有极深的愧疚 - 魔法名为 Intimus115 (为亡友献上吾之一切) basic_info: | 魔法师。曾在20年前与艾莉丝共同进行魔法与科学融合的实验，结果艾莉丝惨死于骑士派和清教的政治斗争中。为了报复让艾莉丝死去的“世界”（科学与魔法的对立），试图袭击学园都市。事件后成为必要恶之教会的联络员。 </SherryCromwell>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-60"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:雪莉·克伦威尔",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "食蜂操祈",
+      "entityId": "食蜂操祈",
+      "entityType": "characters",
+      "label": "食蜂操祈",
+      "name": "食蜂操祈",
+      "summary": "<ShokuhouMisaki> name: 食蜂操祈 gender: 女 age: 13-14 (初二) ability: name: 心理掌握 (Mental Out) level: 超能力者 (Level 5 - 排名第五) description: 最强的精神系能力。包括记忆读心、洗脑、情感控制、意志阻碍等。使用时必须依赖遥控器作为指向媒介。 appearance: hair: 蜂蜜色长发 clothing: 改造过的常盘台制服，穿着蛛网图案的蕾丝手套和长筒袜 distinctive_features: 星星眼（瞳孔中有十字闪光），身材在初中生中好得离谱 personality: type: 女王、腹黑、纯情 traits: - 常盘台中学的“女王”，拥有最大派系 - 极度不擅长运动，是个运动白痴 - 极度喜爱甜食 - 对上条当麻抱有深沉且悲伤的爱恋（因为某些原因无法被对方记住） basic_info: | 常盘台中学最大派系的首领，御坂美琴的宿敌（自称）。虽然外表看起来诡计多端，实际上内心背负着沉重的秘密。由于能力特性，她无法信任他人，却唯独信任那个无法被她读取内心的少年。 </ShokuhouMisaki>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-45"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:食蜂操祈",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "麦野沈利",
+      "entityId": "麦野沈利",
+      "entityType": "characters",
+      "label": "麦野沈利",
+      "name": "麦野沈利",
+      "summary": "<MuginoShizuri> name: 麦野沈利 gender: 女 age: 17-18 (推测，高中生年纪) ability: name: 原子崩坏 (Meltdowner) level: 超能力者 (Level 5) rank: 学园都市第4位 description: 能够强制控制电子处于“波”与“粒子”之间的暧昧状态并进行发射，破坏力极强，能瞬间溶解厚重的金属墙壁。 appearance: hair: 蓬松的茶色长卷发 clothing: 通常穿着显得成熟的高级私服 height: 165cm (推测) personality: type: 暴躁、女王系 traits: - 表面上是优雅的大小姐，实则性格暴虐 - 对阻碍自己的人毫不留情 - 非常爱护部下（虽然表达方式很扭曲），但在暴走时会不分敌我 - 极其在意自己的排名（特别是对第3位的御坂美琴） basic_info: | 暗部组织“ITEM”的首领。拥有极高的战斗力，是能单人攻陷研究所的怪物。虽然平时很难相处，但在经历了一系列惨痛的失败和内讧后，逐渐学会了与同伴相互扶持。 </MuginoShizuri>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-26"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:麦野沈利",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "黄泉川爱穗",
+      "entityId": "黄泉川爱穗",
+      "entityType": "characters",
+      "label": "黄泉川爱穗",
+      "name": "黄泉川爱穗",
+      "summary": "<YomikawaAiho> name: 黄泉川爱穗 gender: 女 age: 20多岁 ability: name: 无 (非能力者) level: Level 0 description: 拥有极强的体术和防暴装备使用技巧，作为警备员（Anti-Skill）战斗力极高。 appearance: hair: 黑色长发束成马尾 clothing: 总是穿着绿色运动服 distinctive_features: 经常素颜，很少化妆 personality: type: 爽朗、大姐头 traits: - 无论是作为老师还是警备员都非常负责 - 后来成为了“一方通行”和“最后之作”的监护人 - 热衷于大扫除和维持秩序 - 为了保护学生可以不顾一切。绝不会把武器对准学生 basic_info: | 上条学校的体育老师，也是警备员第73支部的精锐。她用宽广的胸怀接纳了走投无路的一方通行，并在他的赎罪之路上扮演了类似母亲的重要角色。 </YomikawaAiho>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-49"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:黄泉川爱穗",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "黑夜海鸟",
+      "entityId": "黑夜海鸟",
+      "entityType": "characters",
+      "label": "黑夜海鸟",
+      "name": "黑夜海鸟",
+      "summary": "<KuroyoruUmidori> name: 黑夜海鸟 gender: 女 age: 12 (初中生) ability: name: 氮气爆枪 (Bomber Lance) level: 大能力者 (Level 4) description: 与绢旗最爱的能力同源。能够制造并压缩氮气长枪进行攻击，集中了“攻击”的演算模式，可以从手掌发射压缩氮气长枪。 appearance: hair: 银黑色长发 clothing: 短裤、摇滚乐手风格的皮夹克 distinctive_features: 眼神凶恶 personality: type: 粗鲁、好战、孩子气 traits: - 极度讨厌绢旗最爱，视其为需要消灭的竞争对手 - 善于解剖和分析敌人的弱点 - 性格扭曲，以蹂躏他人为乐 - 说话带有挑衅性 basic_info: | 暗部组织“新入生”的成员。和绢旗最爱一样，是“黑暗的五月计划”的幸存者，被植入了“一方通行”的部分攻击演算模式。为了弥补能力演算的不足，接受了部分对身体尤其是双手的机械改造。手臂是机械义体，虽然外表和普通人无异，但能够作为使用能力的媒介。 </KuroyoruUmidori>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-55"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:黑夜海鸟",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "世界观",
+      "entityId": "世界观",
+      "entityType": "abilities",
+      "label": "世界观",
+      "name": "世界观",
+      "summary": "<世界观> 世界观概览: 作品名称: 魔法禁书目录 (Toaru Majutsu no Index) 作者: 镰池和马 核心冲突: 科学侧 (Science Side) vs 魔法侧 (Magic Side) 基本法则: 虽处于同一时空，但遵循截然不同的法则与技术体系。 科学侧: 核心据点: 名称: 学园都市 (Academy City) 位置: 日本东京都西部 特征: - 人口约230万，其中80%为学生 - 拥有领先外界20-30年的超前科技 - 也是“统括理事会”统治下的独立国度 统治者: 亚雷斯塔·克劳利 (统括理事长) 能力体系: 名称: 超能力 (Esper Power) 原理: - 通过药物、催眠术与电子刺激开发大脑 - 建立“只属于个人的现实 (Personal Reality)” - 只要扭曲微观世界就能干涉宏观世界 能量源: 自身计算力与体力 副产物: AIM扩散力场 (能力者无意识散发的微弱能量场) 能力分级: Level_0: 无能力者 (经开发但无法通过测试，主角上条当麻归于此类) Level_1: 低能力者 (勉强能弄弯勺子的程度) Level_2: 异能力者 (对生活稍有帮助) Level_3:",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-4"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:世界观",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "剧情列表",
+      "entityId": "剧情列表",
+      "entityType": "events",
+      "label": "剧情列表",
+      "name": "剧情列表",
+      "summary": "<plot_list> 剧情列表: 旧约: - \"第一卷 禁书目录篇\" - \"第二卷 吸血杀手篇\" - \"第三卷 妹妹篇\" - \"第四卷 天使坠落篇\" - \"第五卷 8月31日篇\" - \"第六卷 风斩冰华篇\" - \"第七卷 法之书篇\" - \"第八卷 树状图残骸篇\" - \"第九卷 使徒十字篇(上)\" - \"第十卷 使徒十字篇(下)\" - \"第十一卷 女王舰队篇\" - “第十二卷 九三〇篇(上)\" - “第十三卷 九三〇篇(下)\" </plot_list>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-18"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:剧情列表",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "剧情线标记",
+      "entityId": "剧情线标记",
+      "entityType": "events",
+      "label": "剧情线标记",
+      "name": "剧情线标记",
+      "summary": "<Scenario> 当前剧情处于{{format_message_variable::stat_data.当前卷}}，{{format_message_variable::stat_data.篇章名}} </Scenario>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-10"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:剧情线标记",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "第一卷",
+      "entityId": "第一卷",
+      "entityType": "events",
+      "label": "第一卷",
+      "name": "第一卷",
+      "summary": "<第一卷_禁书目录篇> - date: \"7月19日\" events: - time: \"晚间\" location: \"学园都市·第七学区·铁桥\" characters: [\"上条当麻\", \"御坂美琴\"] action: \"上条当麻在回家途中遭遇御坂美琴。为了从不良少年手中解救美琴（虽然对方并不需要），两人发生冲突。上条利用'幻想杀手'无效化了美琴的落雷攻击，导致学园都市大面积停电。\" - date: \"7月20日\" events: - time: \"早晨\" location: \"上条当麻的宿舍\" characters: [\"上条当麻\", \"茵蒂克丝\"] action: \"上条当麻醒来发现一名修女挂在自家阳台栏杆上。修女自称'茵蒂克丝'，表示正在被魔法师追杀。上条不相信魔法的存在，为了验证她是否拥有“异常之力”而用右手破坏了茵蒂克丝的'移动教会'（超强防御修女服）。茵蒂克丝用别针将移动教会重新固定，但失去了防御能力。\" - time: \"日间\" location: \"某高中、上条当麻的宿舍前\" characters: [\"上条当麻\", \"蓝发耳环\", \"土御门元春\", \"神裂火织\"] action: \"茵蒂克丝为了保护上条当",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-0"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:第一卷",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "第七卷",
+      "entityId": "第七卷",
+      "entityType": "events",
+      "label": "第七卷",
+      "name": "第七卷",
+      "summary": "<第七卷_法之书篇> - date: \"9月8日\" events: - time: \"下午\" location: \"学园都市 学生宿舍\" characters: [\"上条当麻\", \"茵蒂克丝\", \"土御门舞夏\"] action: \"土御门舞夏惊慌地告知回宿舍的上条当麻，茵蒂克丝被绑架了，并交给他一封来自史提尔的威胁信，要求他单独前往学园都市外的废弃剧院'薄明座'。\" - time: \"傍晚 (18:00左右)\" location: \"学园都市外 公交车站\" characters: [\"上条当麻\", \"奥索拉·阿奎纳\"] action: \"上条在前往指定地点的途中，偶遇了一名迷路的修女奥索拉。她自称正在被魔法师追杀，想逃进学园都市。上条虽无法带她入城，但这让他决定将她带往'薄明座'寻求英国清教的庇护。\" - time: \"傍晚 (19:00前)\" location: \"废弃剧院'薄明座'\" characters: [\"上条当麻\", \"史提尔\", \"雅妮丝·桑提斯\", \"奥索拉\"] action: \"上条到达目的地，发现绑架只是史提尔为了让他协助任务的借口。任务目标恰好就是夺回能解读《法之书》原典的修女奥索拉，以及被盗走的魔道书",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-14"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:第七卷",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "第三卷",
+      "entityId": "第三卷",
+      "entityType": "events",
+      "label": "第三卷",
+      "name": "第三卷",
+      "summary": "<第三卷_妹妹篇> - date: \"8月20日\" events: - time: \"下午 (18:10)\" location: \"学园都市·某自动贩卖机前\" characters: [\"上条当麻\", \"御坂美琴\", \"御坂妹妹(10032号)\", \"白井黑子\"] action: \"上条当麻被自动贩卖机吞了两千日元，遇到御坂美琴。美琴踢贩卖机取出饮料。随后上条遇到了长相与美琴一模一样但戴着护目镜、说话独特的'御坂妹妹'10032号。上条以为她们是双胞胎。御坂妹妹离开后，白井黑子短暂出现。\" - time: \"傍晚\" location: \"上条当麻的宿舍/街道\" characters: [\"上条当麻\", \"10032号\", \"土御门舞夏\", \"茵蒂克丝\", \"姬神秋沙\"] action: \"上条抱着大量饮料回家途中再次遇到御坂妹妹（10032号）。两人一起回到宿舍，遇到了茵蒂克丝和姬神秋沙正在为斯芬克斯（茵蒂克丝和当麻收养的三色猫）除跳蚤。御坂妹妹利用电击能力高效去除了猫身上的跳蚤后离开。\" - date: \"8月21日\" events: - time: \"傍晚 (18:40)\" location: \"学园都市街道/铁桥\" c",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-2"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:第三卷",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "第九卷",
+      "entityId": "第九卷",
+      "entityType": "events",
+      "label": "第九卷",
+      "name": "第九卷",
+      "summary": "<第九卷_使徒十字篇(上)> - date: \"9月19日 (大霸星祭第一日)\" events: - time: \"早晨 (开幕式前)\" location: \"学园都市 街头\" characters: [\"上条当麻\", \"御坂美琴\", \"上条刀夜\", \"上条诗菜\", \"欧莉安娜·汤姆森\"] action: \"大霸星祭开幕。上条当麻的父母来到学园都市参观。上条刀夜在街头偶遇迷路的魔法师欧莉安娜（送货人）。同时，上条当麻与御坂美琴立下赌约：在本次大霸星祭中，所属学校总分输掉的一方要无条件服从赢家发出的‘惩罚游戏’命令。\" - time: \"上午 (09:00 - 10:30)\" location: \"伦敦 圣乔治大教堂 / 学园都市\" characters: [\"萝拉·斯图亚特\", \"亚雷斯塔·克劳利\"] action: \"英国清教最高主教萝拉联络亚雷斯塔，告知有魔法师（欧莉安娜与丽多薇雅）潜入学园都市，企图交易名为‘刺突杭剑’的灵装（传说能一击杀死圣人）。双方达成协议，由潜伏在学园都市内的魔法师（史提尔、土御门）负责解决，以免引发更大的外交争端。\" - time: \"上午 (10:30后)\" location: \"某高中 操场",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-16"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:第九卷",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "第二卷",
+      "entityId": "第二卷",
+      "entityType": "events",
+      "label": "第二卷",
+      "name": "第二卷",
+      "summary": "<第二卷_吸血杀手篇> - date: \"8月8日\" events: - time: \"下午\" location: \"某快餐店/学园都市街头\" characters: [\"上条当麻\", \"茵蒂克丝\", \"蓝发耳环\", \"姬神秋沙\"] action: \"上条当麻为了买参考书来到街上，与茵蒂克丝、蓝发耳环在快餐店拼桌时偶遇一名身无分文的饥饿巫女（姬神秋沙）。姬神秋沙在吃完汉堡后被一群名为'补习班老师'的黑衣男子带走，临走前向上条借钱未果，自称是魔法师。\" - time: \"傍晚\" location: \"街道/小巷\" characters: [\"上条当麻\", \"茵蒂克丝\", \"史提尔·马格努斯\"] action: \"茵蒂克丝发现被遗弃的小猫并试图收养，取名为斯芬克斯，因察觉魔法痕迹进入小巷。英国清教的魔法师史提尔出现，告知上条'吸血杀手'（姬神秋沙）被囚禁在三泽塾，幕后黑手是炼金术师奥雷欧斯·伊萨德。史提尔以茵蒂克丝的安全为要挟，要求上条协助潜入三泽塾救人。\" - time: \"夜间\" location: \"三泽塾·大厅\" characters: [\"上条当麻\", \"史提尔·马格努斯\", \"罗马正教骑士(尸体)\"] action:",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-1"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:第二卷",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "第五卷",
+      "entityId": "第五卷",
+      "entityType": "events",
+      "label": "第五卷",
+      "name": "第五卷",
+      "summary": "<第五卷_8月31日篇> - date: \"8月31日\" events: - time: \"凌晨\" location: \"学园都市 上条当麻的学生宿舍\" characters: [\"上条当麻\", \"茵蒂克丝\"] action: \"上条当麻深夜流鼻血惊醒，在与茵蒂克丝的骚乱中突然意识到暑假即将结束，而自己的暑假作业还完全没有动笔，陷入绝望。\" - time: \"凌晨至清晨\" location: \"学园都市 街头 / 一方通行的宿舍\" characters: [\"一方通行\", \"最后之作(Last Order)\"] action: \"一方通行在街头被无能力者袭击后，遇到了只披着一条毛毯、毛毯下完全裸体的少女'最后之作'(御坂20001号)。她是所有'妹妹们'的司令塔。无处可去的最后之作死缠烂打跟回了一方通行的住处，一方通行虽感厌烦但并未赶走她。\" - time: \"上午\" location: \"学园都市 第七学区\" characters: [\"御坂美琴\", \"上条当麻\", \"海原光贵(艾扎力)\"] action: \"御坂美琴为了摆脱纠缠不休的追求者海原光贵，强拉路过的上条当麻假扮情侣。海原光贵表面温和离开，但他的真实身份其实是伪",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-12"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:第五卷",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "第八卷",
+      "entityId": "第八卷",
+      "entityType": "events",
+      "label": "第八卷",
+      "name": "第八卷",
+      "summary": "<第八卷_树状图残骸篇> - date: \"9月14日\" events: - time: \"放学后\" location: \"学舍之园\" characters: [\"御坂美琴\", \"白井黑子\"] action: \"两人在学舍之园购物。白井黑子察觉到美琴最近在暗中独自行动并为此感到焦虑。购物途中，黑子接到风纪委员支部的紧急联络，美琴借口今晚可能会有暴雨，让黑子小心。\" - time: \"傍晚 (19:30左右)\" location: \"第7学区 地下街/小巷\" characters: [\"白井黑子\", \"初春饰利(通信)\", \"结标淡希\"] action: \"白井黑子奉命追查一起旅行箱抢劫案。虽然轻松制伏了持枪的抢劫团伙，但遭遇了真正的幕后黑手——拥有“坐标移动”能力的结标淡希。结标利用能力差异重创黑子，并透露旅行箱内装的是“树状图设计者”的残骸，暗示这也关系到美琴曾拼命阻止的某项实验。\" - time: \"夜晚 (20:00-20:30)\" location: \"某学生宿舍\" characters: [\"白井黑子\", \"御坂美琴\"] action: \"身受重伤的黑子潜回宿舍自行处理伤口。美琴回到房间，虽然两人表面上在聊家常，但",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-15"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:第八卷",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "第六卷",
+      "entityId": "第六卷",
+      "entityType": "events",
+      "label": "第六卷",
+      "name": "第六卷",
+      "summary": "<第六卷_风斩冰华篇> - date: \"9月1日\" events: - time: \"清晨\" location: \"学园都市 上条当麻的学生宿舍\" characters: [\"上条当麻\", \"茵蒂克丝\"] action: \"上条当麻结束了前一晚与暗咲逢魔的战斗回到宿舍，却面临因被独自丢下而愤怒的茵蒂克丝。上条解开了束缚茵蒂克丝的绳索后遭到了猛烈'咬击'。虽然是新学期第一天，但上条拖着疲惫的身体出门上学，茵蒂克丝则被留在家中看家。\" - time: \"早上\" location: \"学园都市 没有窗户的大楼\" characters: [\"亚雷斯塔·克劳利\", \"土御门元春\"] action: \"土御门质问亚雷斯塔为何放任入侵者（雪莉·克伦威尔）不管。亚雷斯塔透露这是计划的一部分，旨在利用这次袭击调整'虚数学区·五行机关'的构成，而上条当麻处于这个程序的中心。\" - time: \"上午\" location: \"某高中\" characters: [\"上条当麻\", \"月咏小萌\", \"茵蒂克丝\", \"姬神秋沙\", \"风斩冰华\"] action: \"开学典礼当天早上，耐不住寂寞和饥饿的茵蒂克丝闯入学校，被误认为是转学生。小萌老师推她出门",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-13"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:第六卷",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "第十一卷",
+      "entityId": "第十一卷",
+      "entityType": "events",
+      "label": "第十一卷",
+      "name": "第十一卷",
+      "summary": "<第十一卷_女王舰队篇> - date: \"大霸星祭最后一天\" events: - time: \"白天\" location: \"学园都市·某入场者编号活动会场\" characters: [\"上条当麻\", \"雾丘女子学院学生\"] action: \"上条当麻在大霸星祭的入场者编号活动中幸运地中了头奖，获得了'北意大利七天五夜的双人旅行'资格。虽然他担心不幸体质会带来麻烦，但还是收下了旅行文件 。\" - time: \"随后\" location: \"上条当麻的宿舍\" characters: [\"上条当麻\", \"茵蒂克丝\"] action: \"上条在宿舍寻找护照时，意外发现自己的护照就在衣柜上。茵蒂克丝没有护照，但拥有'必要之恶教会'发行的类似护照的证件。两人确定可以前往意大利 。\" - date: \"两天后 (9月27日)\" events: - time: \"早晨\" location: \"学园都市第二十三学区国际机场\" characters: [\"上条当麻\", \"茵蒂克丝\", \"机场工作人员\"] action: \"在机场安检时，茵蒂克丝因修道服上满是金属别针被拦下。为了赶飞机，上条不得不带着她在机场狂奔购买普通衣物替换 。\" - t",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-19"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:第十一卷",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "第十三卷",
+      "entityId": "第十三卷",
+      "entityType": "events",
+      "label": "第十三卷",
+      "name": "第十三卷",
+      "summary": "<第十三卷_九三〇篇(下)> - date: \"9月30日\" events: - time: \"傍晚 (18:33 - 19:02)\" location: \"学园都市第三大门 / 第七学区街头\" characters: [\"前方之风\", \"木原数多\", \"一方通行\", \"最后之作\", \"茵蒂克丝\"] action: \"罗马正教'神之右席'成员前方之风入侵学园都市，发动'天罚'术式导致大量警备员昏迷。与此同时，统括理事长亚雷斯塔启动'虚数学区·五行机关'计划。木原数多率领'猎犬部队'袭击一方通行以夺取最后之作。一方通行因能力被木原完全克制而战败，最后之作被抛出车外逃脱。此时茵蒂克丝目击了猎犬部队的行动。\" - time: \"晚间\" location: \"街头 / 某大众餐厅\" characters: [\"上条当麻\", \"最后之作\", \"一方通行\", \"茵蒂克丝\", \"木原数多\", \"前方之风\"] action: \"最后之作向路过的上条当麻求救，两人躲入一家大众餐厅。一方通行抢夺了猎犬部队的车辆救下茵蒂克丝，并将其送往冥土追魂处，随即独自折返复仇。木原数多试图用导弹摧毁一方通行的车辆，却误打误撞被乱入的前方之风挡下。前方之风随后",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-21"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:第十三卷",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "第十卷",
+      "entityId": "第十卷",
+      "entityType": "events",
+      "label": "第十卷",
+      "name": "第十卷",
+      "summary": "<第十卷_使徒十字篇(下)> - date: \"9月19日 (大霸星祭第一日)\" events: - time: \"中午 (12:00-14:00)\" location: \"学园都市某地下街 咖啡厅\" characters: [\"上条当麻\", \"茵蒂克丝\", \"上条刀夜\", \"上条诗菜\", \"御坂美琴\", \"御坂美铃\"] action: \"上条当麻带着茵蒂克丝与父母共进午餐，却巧遇御坂美琴及其母亲御坂美铃。因为茵蒂克丝和父母的无心之言，加上美琴对上条的在意，场面一度非常混乱尴尬。\" - time: \"下午 (14:20左右)\" location: \"学园都市 街道\" characters: [\"上条当麻\", \"茵蒂克丝\", \"御坂美琴\", \"白井黑子\"] action: \"为了确认茵蒂克丝的体型有没有变胖，上条不仅误抱了茵蒂克丝还不小心扯下了她的啦啦队短裙。这一幕被赶来的御坂美琴和白井黑子撞见，上条遭到了两人的疯狂追杀（以及茵蒂克丝的咬击）。\" - time: \"下午 (15:00左右)\" location: \"第五学区 地下联络通道\" characters: [\"土御门元春\", \"欧莉安娜·汤姆森\"] action: \"土",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-17"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:第十卷",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "第四卷",
+      "entityId": "第四卷",
+      "entityType": "events",
+      "label": "第四卷",
+      "name": "第四卷",
+      "summary": "<第四卷_天使坠落篇> - date: \"8月28日\" events: - time: \"清晨\" location: \"神奈川县某海边 / 民宿'海神'\" characters: [\"上条当麻\", \"上条刀夜\", \"上条诗菜(外表为茵蒂克丝)\", \"御坂美琴(外表为上条表妹)\", \"茵蒂克丝(外表为蓝发耳环)\", \"神裂火织(外表为史提尔)\", \"史提尔(外表为店长)\"] action: \"上条当麻在海边民宿醒来，发现除了自己以外，周围所有人的'外表'与'内在'都发生了置换（如母亲变成了茵蒂克丝的模样，御坂美琴变成了妹妹角色）。神裂火织（顶着史提尔的外表）误以为上条是始作俑者而对其进行逼问。\" - time: \"白天\" location: \"海滩\" characters: [\"上条当麻\", \"土御门元春(外表为偶像明星)\", \"神裂火织\"] action: \"土御门元春现身，揭示自己是潜伏在科学侧的魔法师（英国清教间谍），并解释现状是名为'天使坠落'(Angel Fall)的大魔法造成的。该魔法将天上的天使强制拉入人间，导致全人类的内在与外表发生大风吹般的置换，只有处于魔法中心的上条因'幻想杀手'未受影响。\" - time:",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-11"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:第四卷",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "开局规则",
+      "entityId": "开局规则",
+      "entityType": "systems",
+      "label": "开局规则",
+      "name": "开局规则",
+      "summary": "<BeginningInstruction> </BeginningInstruction>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-5"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "systems:开局规则",
+      "originalEntityType": "systems"
+    },
+    {
+      "id": "木原数多",
+      "entityId": "木原数多",
+      "entityType": "systems",
+      "label": "木原数多",
+      "name": "木原数多",
+      "summary": "<KiharaAmata> name: 木原数多 gender: 男 age: 中年 ability: name: 体术 level: 普通人 (但在科学理论上是天才) description: 没有任何超能力，但作为一方通行的开发者，彻底了解其“反射”机制。通过独属于自身的特殊的拳击技巧（在接触瞬间收回拳头）利用一方通行的反射来对其造成伤害。 appearance: hair: 棕色短发 clothing: 白大褂，休闲衬衫 distinctive_features: 左脸脸颊上有刺青，双手戴着精细的机械手套 personality: type: 傲慢、残暴、科学狂人 traits: - 有着极大的傲慢，目中无人，因此心理上不把任何人归纳为“敌人” - 将人命视为纯粹的耗材 - 性格极其恶劣，以践踏他人为乐 basic_info: | 学园都市暗部组织“猎犬部队”（Hound Dog）的首领，木原一族的代表人物。主导开发了一方通行的能力。在930事件中展现了仅凭科学知识和体术压制超能力者的特殊才能，最终被一方通行击杀。 </KiharaAmata>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-70"
+      ],
+      "canonStatus": "world-system-or-guideline-indexed",
+      "graphId": "systems:木原数多",
+      "originalEntityType": "systems"
+    }
+  ],
+  "edges": [
+    {
+      "source": "一方通行-本名不详",
+      "target": "上条当麻",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "上条当麻",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-25"
+      ],
+      "id": "edge-1",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:一方通行-本名不详",
+      "graphTarget": "characters:上条当麻",
+      "category": "derived-mention"
+    },
+    {
+      "source": "佐天泪子",
+      "target": "初春饰利",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "初春饰利",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-41"
+      ],
+      "id": "edge-2",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:佐天泪子",
+      "graphTarget": "characters:初春饰利",
+      "category": "derived-mention"
+    },
+    {
+      "source": "冥土追魂-本名不详",
+      "target": "上条当麻",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "上条当麻",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-42"
+      ],
+      "id": "edge-3",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:冥土追魂-本名不详",
+      "graphTarget": "characters:上条当麻",
+      "category": "derived-mention"
+    },
+    {
+      "source": "冥土追魂-本名不详",
+      "target": "亚雷斯塔·克劳利",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "亚雷斯塔·克劳利",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-42"
+      ],
+      "id": "edge-4",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:冥土追魂-本名不详",
+      "graphTarget": "characters:亚雷斯塔·克劳利",
+      "category": "derived-mention"
+    },
+    {
+      "source": "初春饰利",
+      "target": "白井黑子",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "白井黑子",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-40"
+      ],
+      "id": "edge-5",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:初春饰利",
+      "graphTarget": "characters:白井黑子",
+      "category": "derived-mention"
+    },
+    {
+      "source": "前方之风",
+      "target": "上条当麻",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "上条当麻",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-66"
+      ],
+      "id": "edge-6",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:前方之风",
+      "graphTarget": "characters:上条当麻",
+      "category": "derived-mention"
+    },
+    {
+      "source": "史提尔·马格努斯",
+      "target": "上条当麻",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "上条当麻",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-52"
+      ],
+      "id": "edge-7",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:史提尔·马格努斯",
+      "graphTarget": "characters:上条当麻",
+      "category": "derived-mention"
+    },
+    {
+      "source": "右方之火",
+      "target": "上条当麻",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "上条当麻",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-69"
+      ],
+      "id": "edge-8",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:右方之火",
+      "graphTarget": "characters:上条当麻",
+      "category": "derived-mention"
+    },
+    {
+      "source": "吹寄制理",
+      "target": "上条当麻",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "上条当麻",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-54"
+      ],
+      "id": "edge-9",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:吹寄制理",
+      "graphTarget": "characters:上条当麻",
+      "category": "derived-mention"
+    },
+    {
+      "source": "土御门元春",
+      "target": "上条当麻",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "上条当麻",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-37"
+      ],
+      "id": "edge-10",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:土御门元春",
+      "graphTarget": "characters:上条当麻",
+      "category": "derived-mention"
+    },
+    {
+      "source": "垣根帝督",
+      "target": "杠林檎",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "杠林檎",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-31"
+      ],
+      "id": "edge-11",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:垣根帝督",
+      "graphTarget": "characters:杠林檎",
+      "category": "derived-mention"
+    },
+    {
+      "source": "奥索拉·阿奎纳",
+      "target": "上条当麻",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "上条当麻",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-57"
+      ],
+      "id": "edge-12",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:奥索拉·阿奎纳",
+      "graphTarget": "characters:上条当麻",
+      "category": "derived-mention"
+    },
+    {
+      "source": "奥索拉·阿奎纳",
+      "target": "第七卷",
+      "sourceEntityType": "characters",
+      "targetEntityType": "events",
+      "predicate": "characters-mentions-events",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第七卷",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-57"
+      ],
+      "id": "edge-13",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:奥索拉·阿奎纳",
+      "graphTarget": "events:第七卷",
+      "category": "derived-mention"
+    },
+    {
+      "source": "奥索拉·阿奎纳",
+      "target": "第十一卷",
+      "sourceEntityType": "characters",
+      "targetEntityType": "events",
+      "predicate": "characters-mentions-events",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第十一卷",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-57"
+      ],
+      "id": "edge-14",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:奥索拉·阿奎纳",
+      "graphTarget": "events:第十一卷",
+      "category": "derived-mention"
+    },
+    {
+      "source": "奥雷欧斯·伊萨德",
+      "target": "上条当麻",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "上条当麻",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-59"
+      ],
+      "id": "edge-15",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:奥雷欧斯·伊萨德",
+      "graphTarget": "characters:上条当麻",
+      "category": "derived-mention"
+    },
+    {
+      "source": "奥雷欧斯·伊萨德",
+      "target": "第二卷",
+      "sourceEntityType": "characters",
+      "targetEntityType": "events",
+      "predicate": "characters-mentions-events",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第二卷",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-59"
+      ],
+      "id": "edge-16",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:奥雷欧斯·伊萨德",
+      "graphTarget": "events:第二卷",
+      "category": "derived-mention"
+    },
+    {
+      "source": "姬神秋沙",
+      "target": "上条当麻",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "上条当麻",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-50"
+      ],
+      "id": "edge-17",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:姬神秋沙",
+      "graphTarget": "characters:上条当麻",
+      "category": "derived-mention"
+    },
+    {
+      "source": "姬神秋沙",
+      "target": "月咏小萌",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "月咏小萌",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-50"
+      ],
+      "id": "edge-18",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:姬神秋沙",
+      "graphTarget": "characters:月咏小萌",
+      "category": "derived-mention"
+    },
+    {
+      "source": "左方之地",
+      "target": "上条当麻",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "上条当麻",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-67"
+      ],
+      "id": "edge-19",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:左方之地",
+      "graphTarget": "characters:上条当麻",
+      "category": "derived-mention"
+    },
+    {
+      "source": "帆风润子",
+      "target": "御坂美琴",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "御坂美琴",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-46"
+      ],
+      "id": "edge-20",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:帆风润子",
+      "graphTarget": "characters:御坂美琴",
+      "category": "derived-mention"
+    },
+    {
+      "source": "帆风润子",
+      "target": "食蜂操祈",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "食蜂操祈",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-46"
+      ],
+      "id": "edge-21",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:帆风润子",
+      "graphTarget": "characters:食蜂操祈",
+      "category": "derived-mention"
+    },
+    {
+      "source": "建宫斋字",
+      "target": "神裂火织",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "神裂火织",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-64"
+      ],
+      "id": "edge-22",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:建宫斋字",
+      "graphTarget": "characters:神裂火织",
+      "category": "derived-mention"
+    },
+    {
+      "source": "弓箭猎虎",
+      "target": "佐天泪子",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "佐天泪子",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-33"
+      ],
+      "id": "edge-23",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:弓箭猎虎",
+      "graphTarget": "characters:佐天泪子",
+      "category": "derived-mention"
+    },
+    {
+      "source": "最后之作-Last-Order",
+      "target": "御坂美琴",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "御坂美琴",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-53"
+      ],
+      "id": "edge-24",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:最后之作-Last-Order",
+      "graphTarget": "characters:御坂美琴",
+      "category": "derived-mention"
+    },
+    {
+      "source": "月咏小萌",
+      "target": "上条当麻",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "上条当麻",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-48"
+      ],
+      "id": "edge-25",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:月咏小萌",
+      "graphTarget": "characters:上条当麻",
+      "category": "derived-mention"
+    },
+    {
+      "source": "月咏小萌",
+      "target": "姬神秋沙",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "姬神秋沙",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-48"
+      ],
+      "id": "edge-26",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:月咏小萌",
+      "graphTarget": "characters:姬神秋沙",
+      "category": "derived-mention"
+    },
+    {
+      "source": "木原唯一",
+      "target": "木原脑干",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "木原脑干",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-71"
+      ],
+      "id": "edge-27",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:木原唯一",
+      "graphTarget": "characters:木原脑干",
+      "category": "derived-mention"
+    },
+    {
+      "source": "木原脑干",
+      "target": "亚雷斯塔·克劳利",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "亚雷斯塔·克劳利",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-72"
+      ],
+      "id": "edge-28",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:木原脑干",
+      "graphTarget": "characters:亚雷斯塔·克劳利",
+      "category": "derived-mention"
+    },
+    {
+      "source": "杠林檎",
+      "target": "垣根帝督",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "垣根帝督",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-35"
+      ],
+      "id": "edge-29",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:杠林檎",
+      "graphTarget": "characters:垣根帝督",
+      "category": "derived-mention"
+    },
+    {
+      "source": "欧莉安娜·汤姆森",
+      "target": "第九卷",
+      "sourceEntityType": "characters",
+      "targetEntityType": "events",
+      "predicate": "characters-mentions-events",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第九卷",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-63"
+      ],
+      "id": "edge-30",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:欧莉安娜·汤姆森",
+      "graphTarget": "events:第九卷",
+      "category": "derived-mention"
+    },
+    {
+      "source": "欧莉安娜·汤姆森",
+      "target": "第十卷",
+      "sourceEntityType": "characters",
+      "targetEntityType": "events",
+      "predicate": "characters-mentions-events",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第十卷",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-63"
+      ],
+      "id": "edge-31",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:欧莉安娜·汤姆森",
+      "graphTarget": "events:第十卷",
+      "category": "derived-mention"
+    },
+    {
+      "source": "泷壶理后",
+      "target": "滨面仕上",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "滨面仕上",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-27"
+      ],
+      "id": "edge-32",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:泷壶理后",
+      "graphTarget": "characters:滨面仕上",
+      "category": "derived-mention"
+    },
+    {
+      "source": "滨面仕上",
+      "target": "麦野沈利",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "麦野沈利",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-30"
+      ],
+      "id": "edge-33",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:滨面仕上",
+      "graphTarget": "characters:麦野沈利",
+      "category": "derived-mention"
+    },
+    {
+      "source": "白井黑子",
+      "target": "御坂美琴",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "御坂美琴",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-39"
+      ],
+      "id": "edge-34",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:白井黑子",
+      "graphTarget": "characters:御坂美琴",
+      "category": "derived-mention"
+    },
+    {
+      "source": "结标淡希",
+      "target": "御坂美琴",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "御坂美琴",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-38"
+      ],
+      "id": "edge-35",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:结标淡希",
+      "graphTarget": "characters:御坂美琴",
+      "category": "derived-mention"
+    },
+    {
+      "source": "结标淡希",
+      "target": "白井黑子",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "白井黑子",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-38"
+      ],
+      "id": "edge-36",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:结标淡希",
+      "graphTarget": "characters:白井黑子",
+      "category": "derived-mention"
+    },
+    {
+      "source": "艾扎力-伪装名：海原光贵",
+      "target": "上条当麻",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "上条当麻",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-36"
+      ],
+      "id": "edge-37",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:艾扎力-伪装名：海原光贵",
+      "graphTarget": "characters:上条当麻",
+      "category": "derived-mention"
+    },
+    {
+      "source": "艾扎力-伪装名：海原光贵",
+      "target": "御坂美琴",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "御坂美琴",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-36"
+      ],
+      "id": "edge-38",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:艾扎力-伪装名：海原光贵",
+      "graphTarget": "characters:御坂美琴",
+      "category": "derived-mention"
+    },
+    {
+      "source": "芙兰达·塞维伦-Frenda-Seivelun",
+      "target": "佐天泪子",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "佐天泪子",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-28"
+      ],
+      "id": "edge-39",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:芙兰达·塞维伦-Frenda-Seivelun",
+      "graphTarget": "characters:佐天泪子",
+      "category": "derived-mention"
+    },
+    {
+      "source": "芙兰达·塞维伦-Frenda-Seivelun",
+      "target": "麦野沈利",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "麦野沈利",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-28"
+      ],
+      "id": "edge-40",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:芙兰达·塞维伦-Frenda-Seivelun",
+      "graphTarget": "characters:麦野沈利",
+      "category": "derived-mention"
+    },
+    {
+      "source": "茵蒂克丝-Index",
+      "target": "上条当麻",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "上条当麻",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-23"
+      ],
+      "id": "edge-41",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:茵蒂克丝-Index",
+      "graphTarget": "characters:上条当麻",
+      "category": "derived-mention"
+    },
+    {
+      "source": "萝拉·斯图亚特",
+      "target": "上条当麻",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "上条当麻",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-62"
+      ],
+      "id": "edge-42",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:萝拉·斯图亚特",
+      "graphTarget": "characters:上条当麻",
+      "category": "derived-mention"
+    },
+    {
+      "source": "誉望万化",
+      "target": "垣根帝督",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "垣根帝督",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-34"
+      ],
+      "id": "edge-43",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:誉望万化",
+      "graphTarget": "characters:垣根帝督",
+      "category": "derived-mention"
+    },
+    {
+      "source": "雅妮丝·桑克蒂斯",
+      "target": "上条当麻",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "上条当麻",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-58"
+      ],
+      "id": "edge-44",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:雅妮丝·桑克蒂斯",
+      "graphTarget": "characters:上条当麻",
+      "category": "derived-mention"
+    },
+    {
+      "source": "雅妮丝·桑克蒂斯",
+      "target": "奥索拉·阿奎纳",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "奥索拉·阿奎纳",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-58"
+      ],
+      "id": "edge-45",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:雅妮丝·桑克蒂斯",
+      "graphTarget": "characters:奥索拉·阿奎纳",
+      "category": "derived-mention"
+    },
+    {
+      "source": "雅妮丝·桑克蒂斯",
+      "target": "第七卷",
+      "sourceEntityType": "characters",
+      "targetEntityType": "events",
+      "predicate": "characters-mentions-events",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第七卷",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-58"
+      ],
+      "id": "edge-46",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:雅妮丝·桑克蒂斯",
+      "graphTarget": "events:第七卷",
+      "category": "derived-mention"
+    },
+    {
+      "source": "雅妮丝·桑克蒂斯",
+      "target": "第十一卷",
+      "sourceEntityType": "characters",
+      "targetEntityType": "events",
+      "predicate": "characters-mentions-events",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第十一卷",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-58"
+      ],
+      "id": "edge-47",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:雅妮丝·桑克蒂斯",
+      "graphTarget": "events:第十一卷",
+      "category": "derived-mention"
+    },
+    {
+      "source": "雪莉·克伦威尔",
+      "target": "第六卷",
+      "sourceEntityType": "characters",
+      "targetEntityType": "events",
+      "predicate": "characters-mentions-events",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第六卷",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-60"
+      ],
+      "id": "edge-48",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:雪莉·克伦威尔",
+      "graphTarget": "events:第六卷",
+      "category": "derived-mention"
+    },
+    {
+      "source": "食蜂操祈",
+      "target": "上条当麻",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "上条当麻",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-45"
+      ],
+      "id": "edge-49",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:食蜂操祈",
+      "graphTarget": "characters:上条当麻",
+      "category": "derived-mention"
+    },
+    {
+      "source": "食蜂操祈",
+      "target": "御坂美琴",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "御坂美琴",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-45"
+      ],
+      "id": "edge-50",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:食蜂操祈",
+      "graphTarget": "characters:御坂美琴",
+      "category": "derived-mention"
+    },
+    {
+      "source": "麦野沈利",
+      "target": "御坂美琴",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "御坂美琴",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-26"
+      ],
+      "id": "edge-51",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:麦野沈利",
+      "graphTarget": "characters:御坂美琴",
+      "category": "derived-mention"
+    },
+    {
+      "source": "黑夜海鸟",
+      "target": "绢旗最爱",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "绢旗最爱",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-55"
+      ],
+      "id": "edge-52",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:黑夜海鸟",
+      "graphTarget": "characters:绢旗最爱",
+      "category": "derived-mention"
+    },
+    {
+      "source": "剧情列表",
+      "target": "第一卷",
+      "sourceEntityType": "events",
+      "targetEntityType": "events",
+      "predicate": "events-mentions-events",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第一卷",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-18"
+      ],
+      "id": "edge-53",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:剧情列表",
+      "graphTarget": "events:第一卷",
+      "category": "derived-mention"
+    },
+    {
+      "source": "剧情列表",
+      "target": "第七卷",
+      "sourceEntityType": "events",
+      "targetEntityType": "events",
+      "predicate": "events-mentions-events",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第七卷",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-18"
+      ],
+      "id": "edge-54",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:剧情列表",
+      "graphTarget": "events:第七卷",
+      "category": "derived-mention"
+    },
+    {
+      "source": "剧情列表",
+      "target": "第三卷",
+      "sourceEntityType": "events",
+      "targetEntityType": "events",
+      "predicate": "events-mentions-events",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第三卷",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-18"
+      ],
+      "id": "edge-55",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:剧情列表",
+      "graphTarget": "events:第三卷",
+      "category": "derived-mention"
+    },
+    {
+      "source": "剧情列表",
+      "target": "第九卷",
+      "sourceEntityType": "events",
+      "targetEntityType": "events",
+      "predicate": "events-mentions-events",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第九卷",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-18"
+      ],
+      "id": "edge-56",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:剧情列表",
+      "graphTarget": "events:第九卷",
+      "category": "derived-mention"
+    },
+    {
+      "source": "剧情列表",
+      "target": "第二卷",
+      "sourceEntityType": "events",
+      "targetEntityType": "events",
+      "predicate": "events-mentions-events",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第二卷",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-18"
+      ],
+      "id": "edge-57",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:剧情列表",
+      "graphTarget": "events:第二卷",
+      "category": "derived-mention"
+    },
+    {
+      "source": "剧情列表",
+      "target": "第五卷",
+      "sourceEntityType": "events",
+      "targetEntityType": "events",
+      "predicate": "events-mentions-events",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第五卷",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-18"
+      ],
+      "id": "edge-58",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:剧情列表",
+      "graphTarget": "events:第五卷",
+      "category": "derived-mention"
+    },
+    {
+      "source": "剧情列表",
+      "target": "第八卷",
+      "sourceEntityType": "events",
+      "targetEntityType": "events",
+      "predicate": "events-mentions-events",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第八卷",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-18"
+      ],
+      "id": "edge-59",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:剧情列表",
+      "graphTarget": "events:第八卷",
+      "category": "derived-mention"
+    },
+    {
+      "source": "剧情列表",
+      "target": "第六卷",
+      "sourceEntityType": "events",
+      "targetEntityType": "events",
+      "predicate": "events-mentions-events",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第六卷",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-18"
+      ],
+      "id": "edge-60",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:剧情列表",
+      "graphTarget": "events:第六卷",
+      "category": "derived-mention"
+    },
+    {
+      "source": "剧情列表",
+      "target": "第十一卷",
+      "sourceEntityType": "events",
+      "targetEntityType": "events",
+      "predicate": "events-mentions-events",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第十一卷",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-18"
+      ],
+      "id": "edge-61",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:剧情列表",
+      "graphTarget": "events:第十一卷",
+      "category": "derived-mention"
+    },
+    {
+      "source": "剧情列表",
+      "target": "第十三卷",
+      "sourceEntityType": "events",
+      "targetEntityType": "events",
+      "predicate": "events-mentions-events",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第十三卷",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-18"
+      ],
+      "id": "edge-62",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:剧情列表",
+      "graphTarget": "events:第十三卷",
+      "category": "derived-mention"
+    },
+    {
+      "source": "剧情列表",
+      "target": "第十卷",
+      "sourceEntityType": "events",
+      "targetEntityType": "events",
+      "predicate": "events-mentions-events",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第十卷",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-18"
+      ],
+      "id": "edge-63",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:剧情列表",
+      "graphTarget": "events:第十卷",
+      "category": "derived-mention"
+    },
+    {
+      "source": "剧情列表",
+      "target": "第四卷",
+      "sourceEntityType": "events",
+      "targetEntityType": "events",
+      "predicate": "events-mentions-events",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第四卷",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-18"
+      ],
+      "id": "edge-64",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:剧情列表",
+      "graphTarget": "events:第四卷",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第一卷",
+      "target": "上条当麻",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "上条当麻",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-0"
+      ],
+      "id": "edge-65",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第一卷",
+      "graphTarget": "characters:上条当麻",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第一卷",
+      "target": "土御门元春",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "土御门元春",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-0"
+      ],
+      "id": "edge-66",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第一卷",
+      "graphTarget": "characters:土御门元春",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第一卷",
+      "target": "御坂美琴",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "御坂美琴",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-0"
+      ],
+      "id": "edge-67",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第一卷",
+      "graphTarget": "characters:御坂美琴",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第一卷",
+      "target": "神裂火织",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "神裂火织",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-0"
+      ],
+      "id": "edge-68",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第一卷",
+      "graphTarget": "characters:神裂火织",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第七卷",
+      "target": "上条当麻",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "上条当麻",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-14"
+      ],
+      "id": "edge-69",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第七卷",
+      "graphTarget": "characters:上条当麻",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第七卷",
+      "target": "奥索拉·阿奎纳",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "奥索拉·阿奎纳",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-14"
+      ],
+      "id": "edge-70",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第七卷",
+      "graphTarget": "characters:奥索拉·阿奎纳",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第三卷",
+      "target": "上条当麻",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "上条当麻",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-2"
+      ],
+      "id": "edge-71",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第三卷",
+      "graphTarget": "characters:上条当麻",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第三卷",
+      "target": "姬神秋沙",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "姬神秋沙",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-2"
+      ],
+      "id": "edge-72",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第三卷",
+      "graphTarget": "characters:姬神秋沙",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第三卷",
+      "target": "御坂美琴",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "御坂美琴",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-2"
+      ],
+      "id": "edge-73",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第三卷",
+      "graphTarget": "characters:御坂美琴",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第三卷",
+      "target": "白井黑子",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "白井黑子",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-2"
+      ],
+      "id": "edge-74",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第三卷",
+      "graphTarget": "characters:白井黑子",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第九卷",
+      "target": "上条当麻",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "上条当麻",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-16"
+      ],
+      "id": "edge-75",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第九卷",
+      "graphTarget": "characters:上条当麻",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第九卷",
+      "target": "亚雷斯塔·克劳利",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "亚雷斯塔·克劳利",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-16"
+      ],
+      "id": "edge-76",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第九卷",
+      "graphTarget": "characters:亚雷斯塔·克劳利",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第九卷",
+      "target": "御坂美琴",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "御坂美琴",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-16"
+      ],
+      "id": "edge-77",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第九卷",
+      "graphTarget": "characters:御坂美琴",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第九卷",
+      "target": "欧莉安娜·汤姆森",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "欧莉安娜·汤姆森",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-16"
+      ],
+      "id": "edge-78",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第九卷",
+      "graphTarget": "characters:欧莉安娜·汤姆森",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第九卷",
+      "target": "萝拉·斯图亚特",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "萝拉·斯图亚特",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-16"
+      ],
+      "id": "edge-79",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第九卷",
+      "graphTarget": "characters:萝拉·斯图亚特",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第二卷",
+      "target": "上条当麻",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "上条当麻",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-1"
+      ],
+      "id": "edge-80",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第二卷",
+      "graphTarget": "characters:上条当麻",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第二卷",
+      "target": "史提尔·马格努斯",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "史提尔·马格努斯",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-1"
+      ],
+      "id": "edge-81",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第二卷",
+      "graphTarget": "characters:史提尔·马格努斯",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第二卷",
+      "target": "奥雷欧斯·伊萨德",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "奥雷欧斯·伊萨德",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-1"
+      ],
+      "id": "edge-82",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第二卷",
+      "graphTarget": "characters:奥雷欧斯·伊萨德",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第二卷",
+      "target": "姬神秋沙",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "姬神秋沙",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-1"
+      ],
+      "id": "edge-83",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第二卷",
+      "graphTarget": "characters:姬神秋沙",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第五卷",
+      "target": "上条当麻",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "上条当麻",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-12"
+      ],
+      "id": "edge-84",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第五卷",
+      "graphTarget": "characters:上条当麻",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第五卷",
+      "target": "御坂美琴",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "御坂美琴",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-12"
+      ],
+      "id": "edge-85",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第五卷",
+      "graphTarget": "characters:御坂美琴",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第八卷",
+      "target": "初春饰利",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "初春饰利",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-15"
+      ],
+      "id": "edge-86",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第八卷",
+      "graphTarget": "characters:初春饰利",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第八卷",
+      "target": "御坂美琴",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "御坂美琴",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-15"
+      ],
+      "id": "edge-87",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第八卷",
+      "graphTarget": "characters:御坂美琴",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第八卷",
+      "target": "白井黑子",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "白井黑子",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-15"
+      ],
+      "id": "edge-88",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第八卷",
+      "graphTarget": "characters:白井黑子",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第八卷",
+      "target": "结标淡希",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "结标淡希",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-15"
+      ],
+      "id": "edge-89",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第八卷",
+      "graphTarget": "characters:结标淡希",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第六卷",
+      "target": "上条当麻",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "上条当麻",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-13"
+      ],
+      "id": "edge-90",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第六卷",
+      "graphTarget": "characters:上条当麻",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第六卷",
+      "target": "亚雷斯塔·克劳利",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "亚雷斯塔·克劳利",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-13"
+      ],
+      "id": "edge-91",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第六卷",
+      "graphTarget": "characters:亚雷斯塔·克劳利",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第六卷",
+      "target": "土御门元春",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "土御门元春",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-13"
+      ],
+      "id": "edge-92",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第六卷",
+      "graphTarget": "characters:土御门元春",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第六卷",
+      "target": "姬神秋沙",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "姬神秋沙",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-13"
+      ],
+      "id": "edge-93",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第六卷",
+      "graphTarget": "characters:姬神秋沙",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第六卷",
+      "target": "月咏小萌",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "月咏小萌",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-13"
+      ],
+      "id": "edge-94",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第六卷",
+      "graphTarget": "characters:月咏小萌",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第六卷",
+      "target": "雪莉·克伦威尔",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "雪莉·克伦威尔",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-13"
+      ],
+      "id": "edge-95",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第六卷",
+      "graphTarget": "characters:雪莉·克伦威尔",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第十一卷",
+      "target": "上条当麻",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "上条当麻",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-19"
+      ],
+      "id": "edge-96",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第十一卷",
+      "graphTarget": "characters:上条当麻",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第十三卷",
+      "target": "上条当麻",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "上条当麻",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-21"
+      ],
+      "id": "edge-97",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第十三卷",
+      "graphTarget": "characters:上条当麻",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第十三卷",
+      "target": "前方之风",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "前方之风",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-21"
+      ],
+      "id": "edge-98",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第十三卷",
+      "graphTarget": "characters:前方之风",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第十卷",
+      "target": "上条当麻",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "上条当麻",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-17"
+      ],
+      "id": "edge-99",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第十卷",
+      "graphTarget": "characters:上条当麻",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第十卷",
+      "target": "土御门元春",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "土御门元春",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-17"
+      ],
+      "id": "edge-100",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第十卷",
+      "graphTarget": "characters:土御门元春",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第十卷",
+      "target": "御坂美琴",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "御坂美琴",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-17"
+      ],
+      "id": "edge-101",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第十卷",
+      "graphTarget": "characters:御坂美琴",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第十卷",
+      "target": "欧莉安娜·汤姆森",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "欧莉安娜·汤姆森",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-17"
+      ],
+      "id": "edge-102",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第十卷",
+      "graphTarget": "characters:欧莉安娜·汤姆森",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第十卷",
+      "target": "白井黑子",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "白井黑子",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-17"
+      ],
+      "id": "edge-103",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第十卷",
+      "graphTarget": "characters:白井黑子",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第十卷",
+      "target": "第九卷",
+      "sourceEntityType": "events",
+      "targetEntityType": "events",
+      "predicate": "events-mentions-events",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第九卷",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-17"
+      ],
+      "id": "edge-104",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第十卷",
+      "graphTarget": "events:第九卷",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第四卷",
+      "target": "上条当麻",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "上条当麻",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-11"
+      ],
+      "id": "edge-105",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第四卷",
+      "graphTarget": "characters:上条当麻",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第四卷",
+      "target": "土御门元春",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "土御门元春",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-11"
+      ],
+      "id": "edge-106",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第四卷",
+      "graphTarget": "characters:土御门元春",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第四卷",
+      "target": "御坂美琴",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "御坂美琴",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-11"
+      ],
+      "id": "edge-107",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第四卷",
+      "graphTarget": "characters:御坂美琴",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第四卷",
+      "target": "神裂火织",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "神裂火织",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-11"
+      ],
+      "id": "edge-108",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第四卷",
+      "graphTarget": "characters:神裂火织",
+      "category": "derived-mention"
+    },
+    {
+      "source": "世界观",
+      "target": "上条当麻",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "上条当麻",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-4"
+      ],
+      "id": "edge-109",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:世界观",
+      "graphTarget": "characters:上条当麻",
+      "category": "derived-mention"
+    },
+    {
+      "source": "世界观",
+      "target": "亚雷斯塔·克劳利",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "亚雷斯塔·克劳利",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-4"
+      ],
+      "id": "edge-110",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:世界观",
+      "graphTarget": "characters:亚雷斯塔·克劳利",
+      "category": "derived-mention"
+    }
+  ]
+}

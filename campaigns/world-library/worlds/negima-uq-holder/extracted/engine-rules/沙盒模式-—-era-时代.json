@@ -1,0 +1,24 @@
+{
+  "source_refs": [
+    "mdls_card.worldbook.json#entry-219"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "沙盒模式 — <%= era %>时代"
+      },
+      "aliases": [],
+      "summary": "<%_ var mode = getvar('stat_data.当前模式') || '剧情'; if (mode !== '沙盒') { return; } var era = getvar('stat_data.起始时代') || '魔法老师'; _%> ## 沙盒模式 — <%= era %>时代 <%- await getwi(era + '·人物总览列表') %> <%- await getwi(era + '·关键剧情时间表') %> <%- await getwi(era + '·沙盒触发条件') %> > 自由行动：前往[地点] / 调查[目标] / 与[角色]互动 / 触发事件 > 时代规则：魔法老师时代可向前跳到UQ HOLDER，但绝对禁止反向",
+      "description": "<%_ var mode = getvar('stat_data.当前模式') || '剧情'; if (mode !== '沙盒') { return; } var era = getvar('stat_data.起始时代') || '魔法老师'; _%> ## 沙盒模式 — <%= era %>时代 <%- await getwi(era + '·人物总览列表') %> <%- await getwi(era + '·关键剧情时间表') %> <%- await getwi(era + '·沙盒触发条件') %> > 自由行动：前往[地点] / 调查[目标] / 与[角色]互动 / 触发事件 > 时代规则：魔法老师时代可向前跳到UQ HOLDER，但绝对禁止反向",
+      "sourceRef": "mdls_card.worldbook.json#entry-219",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "沙盒模式-—-era-时代"
+}

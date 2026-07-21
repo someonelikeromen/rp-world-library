@@ -1,0 +1,92 @@
+{
+  "schema": "toaru-engine-rules-index-v1",
+  "worldId": "toaru",
+  "recordFamily": "engine-rules",
+  "count": 6,
+  "records": [
+    {
+      "id": "InitVar-请勿打开",
+      "name": "[InitVar]请勿打开",
+      "aliases": [
+        "[InitVar]请勿打开"
+      ],
+      "summary": "{ \"当前卷\": \"\", \"篇章名\": \"\", \"下一卷卷号\": \"\", \"日期\": \"\", \"时间\": \"\", \"地点\": \"\", \"<user>\": { \"姓名\": \"\", \"性别\": \"\", \"年龄\": \"\", \"外貌\": \"\", \"特殊能力\": [\"$__META_EXTENSIBLE__$\"], \"其他信息\": \"\" }, \"在场角色\":{ \"$meta\": { \"extensible\": true, \"template\": { \"当前心理\": \"\", \"衣着\": { \"上衣\": \"\", \"下装\": \"\", \"内衣\": \"\", \"鞋子\": \"\", \"饰品\": \"\" }, \"身体\": { \"胸部\": \"\", \"双腿\": \"\", \"小穴\": \"\", \"后庭\": \"\", \"足部\": \"\" } } } }, \"所有角色\": { \"$meta\": { \"extensible\": true, \"template\": { \"姓名\": \"\", \"性别\": \"\", \"年龄\": \"\", \"身材\": \"\", \"好感度\": 0, \"特殊能力\": [\"$__META_EXTENSIBLE__$\"] } } } }",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-3"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "check",
+      "name": "check:",
+      "aliases": [
+        "check:"
+      ],
+      "summary": "--- 变量更新规则: 当前卷: check: - 根据当前时间、剧情大纲与<plot_list>进行更新 篇章名: check: - 参照<plot_list>，随“当前卷”同步更新， 下一卷: check: - 参照<plot_list>，随“当前卷”同步更新 日期: format: MM月DD日 check: - 每次行动、睡眠或场景切换后，根据流逝时间合理推进 - 注意《魔禁》原作中关键事件的特定日期（如9月30日、10月3日等） 时间: format: HH:MM check: - 随剧情实时更新，精确到分钟 - 需体现昼夜交替对环境描写（光影、温度）的影响 地点: check: - 记录当前场景的具体位置（如：某高中学生宿舍、第七学区街头、第十学区废墟等） - 随<user>移动即时更新 <user>: 姓名: check: - 只读 性别: check: - 只读 年龄: check: - 只读 外貌: check: - 只读 特殊能力: type: string[] check: - 可写入 - 记录<user>当前掌握超能力/魔法术式/特殊才能 - 若习得新技能或原有能力进化/变异，需即时添加 其他信息:",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-6"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "mvu_update-变量输出格式",
+      "name": "[mvu_update]变量输出格式",
+      "aliases": [
+        "[mvu_update]变量输出格式"
+      ],
+      "summary": "--- 变量输出格式: rule: - you should output the update analysis and the actual update commands in the end of the next reply - the update commands must strictly follow the **JSON Patch (RFC 6902)** standard; that is, the output must be a valid JSON array containing operation objects format: |- <UpdateVariable> <Analysis>\\$(IN ENGLISH, no more than 80 words) - ${calculate time passed: ...} - ${decide whether dramatic updates are allowed as it's in a special case or the time passed is more than usual: yes/no} - ${analyze ev",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-8"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "变量列表",
+      "name": "变量列表",
+      "aliases": [
+        "变量列表"
+      ],
+      "summary": "--- <当前变量> {{format_message_variable::stat_data}} </当前变量>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-7"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "第十二卷",
+      "name": "第十二卷",
+      "aliases": [
+        "第十二卷"
+      ],
+      "summary": "<第十二卷_九三〇篇(上)> - date: \"9月30日\" events: - time: \"清晨 (05:20)\" location: \"常盘台中学女生宿舍\" characters: [\"白井黑子\", \"御坂美琴\"] action: \"白井黑子因身旁的御坂美琴在梦中大喊'惩罚游戏'而无法入睡，对姐姐大人的梦话对象感到焦虑。\" - time: \"上午\" location: \"某高中/医院\" characters: [\"上条当麻\", \"吹寄制理\", \"妹妹们\", \"一方通行\", \"最后之作\", \"芳川桔梗\", \"黄泉川爱穗\"] action: \"学校里，上条当麻因误会被吹寄制理殴打。医院中，'妹妹们'即将出院进行复健，因受青蛙医生影响开始在意身材差异。一方通行和最后之作康复出院，被芳川带往警备员黄泉川爱穗的公寓暂住。\" - time: \"下午 (13:00)\" location: \"第七学区·音乐厅前广场\" characters: [\"御坂美琴\", \"初春饰利\", \"白井黑子\", \"上条当麻\"] action: \"美琴在等待迟到的上条时，遇到代替黑子来取小提琴的初春饰利。美琴教初春拉小提琴，被躲在暗处的黑子嫉妒。上条迟到后，",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-20"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "魔法禁书目录",
+      "name": "魔法禁书目录",
+      "aliases": [
+        "魔法禁书目录"
+      ],
+      "summary": "<role_play_instruction> basic_rule: - \"以<user>为中心的沉浸模式。对<user>来说，这一切并不是小说，而是真实世界\" - \"未来的发展仅能通过逻辑预测，禁止在正文中引入小说卷号等不符合沉浸扮演的信息\" role_play_setting: world_view: name: \"魔法禁书目录\" key_elements: - \"超能力开发 (Esper)\" - \"魔法 (Magic)\" - \"幻想杀手 (Imagine Breaker)\" narrative_style: genre: \"镰池和马风格的日式轻小说\" tone: - \"日常部分：轻松、嘈杂、充满误会与吐槽，节奏轻快。\" - \"战斗部分：夹杂其他角色或旁白的解说（科学/魔法理论），反转不断，强调精神论与毅力。\" formatting_rules: - \"换行频繁：利用空行控制阅读节奏，营造轻小说特有的‘空气感’。\" - \"心理描写：第一人称或第三人称视角切换自如，强调感官细节（听觉、温度、光影）。\" - \"口语化：大量使用语气词（啊、嘛、呢），避免书面语，句子短促有力。还原角色的口癖。\" interaction_rul",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-9"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ]
+}

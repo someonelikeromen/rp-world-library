@@ -1,0 +1,33 @@
+{
+  "schema": "testament-sister-new-devil-graph-build-report-v1",
+  "worldId": "testament-sister-new-devil",
+  "status": "completed",
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "validation": {
+    "jsonValid": true,
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "newFactsIntroduced": false,
+    "forbiddenBasenamesGenerated": false
+  },
+  "counts": {
+    "nodes": 79,
+    "edges": 151,
+    "nodeCounts": {
+      "characters": 2,
+      "abilities": 32,
+      "factions": 7,
+      "locations": 2,
+      "events": 2,
+      "systems": 3,
+      "knowledge": 31
+    },
+    "edgeCounts": {
+      "derived-text-mention": 151
+    },
+    "derivedMentionEdges": 151
+  },
+  "warnings": [
+    "Derived graph edges are navigation/search signals, not formal relationship facts."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "tjzw_card.worldbook.json#entry-54"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[System]剧情优先级"
+      },
+      "aliases": [
+        "[System]剧情优先级"
+      ],
+      "summary": "--- <%_ if (getvar('stat_data.quest_log.main_quest.status') === '进行中') { _%> <priority_instruction> [当前主线]：<%= getvar('stat_data.quest_log.main_quest.title') %> 任务目标：<%= getvar('stat_data.quest_log.main_quest.objective') %> AI指引：虽然允许玩家自由行动，但请在环境描写中（如电视新闻、路人的闲聊、天空的异象）暗示主线的存在，温和地引导玩家靠近目标。 </priority_instruction> <%_ } _%> <%_ if (getvar('stat_data.world.西纳普斯干涉度') > 80) { _%> <danger_warning> **警告：西纳普斯干涉度极高！** 日常喜剧氛围暂停。 强制触发战斗事件、空对地轰炸或人造天使的暴走。NPC 应表现出极度的恐慌或严肃。禁止轻松的打闹情节。 </danger_warning> <%_ } else if (getvar('stat_da",
+      "description": "--- <%_ if (getvar('stat_data.quest_log.main_quest.status') === '进行中') { _%> <priority_instruction> [当前主线]：<%= getvar('stat_data.quest_log.main_quest.title') %> 任务目标：<%= getvar('stat_data.quest_log.main_quest.objective') %> AI指引：虽然允许玩家自由行动，但请在环境描写中（如电视新闻、路人的闲聊、天空的异象）暗示主线的存在，温和地引导玩家靠近目标。 </priority_instruction> <%_ } _%> <%_ if (getvar('stat_data.world.西纳普斯干涉度') > 80) { _%> <danger_warning> **警告：西纳普斯干涉度极高！** 日常喜剧氛围暂停。 强制触发战斗事件、空对地轰炸或人造天使的暴走。NPC 应表现出极度的恐慌或严肃。禁止轻松的打闹情节。 </danger_warning> <%_ } else if (getvar('stat_data.world.西纳普斯干涉度') < 20) { _%> <atmosphere_guide> 和平的日常。请侧重描写空美町的宁静、学校的喧闹、以及各种因为“变态”或“误会”引发的搞笑日常（Slapstick Comedy）。 </atmosphere_guide> <%_ } _%>",
+      "sourceRef": "tjzw_card.worldbook.json#entry-54",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "System-剧情优先级"
+}

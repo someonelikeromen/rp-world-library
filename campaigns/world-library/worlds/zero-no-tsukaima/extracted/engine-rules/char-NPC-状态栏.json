@@ -1,0 +1,24 @@
+{
+  "source_refs": [
+    "零之使魔.worldbook.json#entry-20"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "{{char/NPC}}状态栏,"
+      },
+      "aliases": [],
+      "summary": "最多输出2个状态栏,禁止输出超过2个{{char/NPC}}状态栏,禁止输出男性的状态栏: 1.[Status]里每个项目的内容必须用中文显示; 2.即使内容不变也不可以省略，必须输出的完整状态栏; 3.禁止输出男性的状态栏,只能输出女性的状态栏; 4.字数不能超过200; 5.<status_format>内禁止输出{{user}}的状态，不在{{user}}身边的{{char/NPC}}状态栏，除非{{user}}有明确要求切换视角; 6.必须在每次回复的结尾生成<status_format>，它的格式必须是这样的： <status_format> [must analyze the status of {{char}} or NPC, output the followings within code block,不需要生成{{user}}的状态] <StatusBlocks> 👤 {{character name,中文输出}} {{gender,中文输出}} {{身高cm}} {{age,年龄}} {{class,中文输出}} {{color of skin and race and country,中文输出}} ",
+      "description": "最多输出2个状态栏,禁止输出超过2个{{char/NPC}}状态栏,禁止输出男性的状态栏: 1.[Status]里每个项目的内容必须用中文显示; 2.即使内容不变也不可以省略，必须输出的完整状态栏; 3.禁止输出男性的状态栏,只能输出女性的状态栏; 4.字数不能超过200; 5.<status_format>内禁止输出{{user}}的状态，不在{{user}}身边的{{char/NPC}}状态栏，除非{{user}}有明确要求切换视角; 6.必须在每次回复的结尾生成<status_format>，它的格式必须是这样的： <status_format> [must analyze the status of {{char}} or NPC, output the followings within code block,不需要生成{{user}}的状态] <StatusBlocks> 👤 {{character name,中文输出}} {{gender,中文输出}} {{身高cm}} {{age,年龄}} {{class,中文输出}} {{color of skin and race and country,中文输出}} 👥 {{附近角色,中文输出，最多仅输出3名附近的主要角色，其余次要角色仅用数量表示}} ═══════════════════════════ 🥰 外貌: {{详细描述发色、发型、瞳色、气质，以及当前状态下的其他可选面部特征}} 👚 服装: {{clothing，像游戏CG一样详细描述,必须完整且具体的描写角色当前身上穿着的所有服装并且需要随着剧情变化而变换}} 🙋‍♀️ 姿势: {{姿势以及当前肢体动作，像游戏CG一样详细描述}} 🏌 身材: {{如同游戏CG般，详细描绘角色的体型、曲线、肌肉感或柔软度等特征}} 🦵 腿与脚: {{Legs and feet以及袜子等装饰品}} 💭 心声: {{detailed description of inner thoughts, including views on current situation, feelings toward others, personal desires}} 🧡 阴道: {{vagina，shape, wet or dry，性经验次数}} 💦宫中精液量(女性): {{uterine semen volume(ml)}}{{description of sensations and physiological responses}} ✨性格： {{表象性格}}|{{内核性格}} *角色发展阶段: {{简要介绍该角色目前处于的阶段}} 🌀*状态： {{简要概括人物当前状态，例如被催眠、高潮痉挛、流血，诸如此类}} ❤️对{{user}} * 印象: {{简要概括人物对{{user}}的看法或感觉}} * 好感度: {{数值}} ({{好感度层级: 厌恶/陌生/朋友/爱慕/恋慕/爱人}}) 🤝 与{{user}}的关系： {{即该人物是{{user}}的什么人，请简要概括人物与{{user}}的关系，例如：同学、朋友、恋人、爱人、主仆、正在攻略的目标等}} ═══════════════════════════ </StatusBlocks",
+      "sourceRef": "零之使魔.worldbook.json#entry-20",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "char-NPC-状态栏"
+}

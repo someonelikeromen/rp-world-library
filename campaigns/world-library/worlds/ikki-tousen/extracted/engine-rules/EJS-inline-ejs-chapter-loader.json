@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "yqdq_card.worldbook.json#entry-137"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[EJS]inline:ejs-chapter-loader"
+      },
+      "aliases": [
+        "[EJS]inline:ejs-chapter-loader"
+      ],
+      "summary": "<%_ var chapter = getvar(\"stat_data.剧情.当前章节\", { defaults: \"第一章 霸王降临与勾玉的宿命\" }); _%> <%- await getwi(chapter) %>",
+      "description": "<%_ var chapter = getvar(\"stat_data.剧情.当前章节\", { defaults: \"第一章 霸王降临与勾玉的宿命\" }); _%> <%- await getwi(chapter) %>",
+      "sourceRef": "yqdq_card.worldbook.json#entry-137",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "EJS-inline-ejs-chapter-loader"
+}

@@ -256,12 +256,12 @@ function overview(params: any, maxBytes: number): ToolResult {
 			path: rel(edir),
 			publicationMode: extractedManifest.publicationMode,
 			status: finalStatus?.status,
-			canUseAsPiExtractedLayer: finalStatus?.canUseAsPiExtractedLayer,
-			canReplaceCurated: finalStatus?.canReplaceCurated,
+			canUseAsPiExtractedLayer: finalStatus?.canUseAsPiExtractedLayer ?? extractedManifest.canUseAsPiExtractedLayer,
+			canReplaceCurated: finalStatus?.canReplaceCurated ?? extractedManifest.canReplaceCurated,
 			formalPublishedPilots: finalStatus?.formalPublishedPilots || extractedManifest.formalPilotRegistry?.map((p: any) => p.pilotId),
 			heldOrInventoryOnlyPilots: finalStatus?.heldOrInventoryOnlyPilots || extractedManifest.heldOrInventoryOnlyPilots,
 			derivedGraph: extractedManifest.indexes ? {
-				entity: extractedManifest.indexes.unifiedDerivedEntityGraph,
+				entity: extractedManifest.indexes.unifiedDerivedEntityGraph || extractedManifest.indexes.derivedEntityGraph,
 				relationships: extractedManifest.indexes.derivedRelationshipIndex,
 				continuity: extractedManifest.indexes.derivedContinuityIndex,
 				derivedOnly: true,
@@ -358,10 +358,11 @@ function searchExtracted(slug: string, query: string, category: QueryCategory, l
 	const results: any[] = [...published];
 	if (slug === TYPE_MOON_SLUG && hasPublishedExtractedLayer(slug)) return results.slice(0, limit);
 	const types = category === "all"
-		? ["characters", "abilities", "events", "items", "locations", "factions", "systems", "knowledge"]
+		? ["characters", "abilities", "events", "items", "locations", "factions", "organizations", "systems", "knowledge"]
 		: category === "character" ? ["characters"]
-		: category === "world" ? ["locations", "factions", "systems", "knowledge"]
+		: category === "world" ? ["locations", "factions", "organizations", "systems", "knowledge"]
 		: [];
+	const candidates: any[] = [];
 	for (const type of types) {
 		const dir = join(edir, type);
 		if (!existsSync(dir)) continue;
@@ -369,14 +370,20 @@ function searchExtracted(slug: string, query: string, category: QueryCategory, l
 			if (!fn.endsWith(".json")) continue;
 			const data = safeJson(join(dir, fn));
 			if (!data) continue;
-			const id = data[type === "characters" ? "character_id" : type === "abilities" ? "ability_id" : type === "events" ? "event_id" : type === "items" ? "item_id" : type === "locations" ? "location_id" : type === "factions" ? "faction_id" : type === "systems" ? "system_id" : "knowledge_id"] || fn.replace(".json", "");
+			const id = data[type === "characters" ? "character_id" : type === "abilities" ? "ability_id" : type === "events" ? "event_id" : type === "items" ? "item_id" : type === "locations" ? "location_id" : type === "factions" ? "faction_id" : type === "organizations" ? "organization_id" : type === "systems" ? "system_id" : "knowledge_id"] || fn.replace(".json", "");
 			const p0 = (data.periods || [])[0] || {};
 			const zhName = typeof p0.name === "object" ? p0.name?.zh || "" : p0.name || "";
 			const enName = typeof p0.name === "object" ? p0.name?.en || "" : "";
 			const aliases = p0.aliases || data.aliases || [];
-			const hay = [id, zhName, enName, ...aliases, type, p0.summary || "", p0.description || ""].join("\n");
-			if (includesQuery(hay, q)) {
-				results.push({
+			const nameFields = [id, zhName, enName, ...aliases].filter(Boolean).map((v: any) => norm(v));
+			const metadataHay = [id, zhName, enName, ...aliases, type].join("\n");
+			const bodyHay = [p0.summary || "", p0.description || ""].join("\n");
+			if (includesQuery(metadataHay + "\n" + bodyHay, q)) {
+				const exactName = nameFields.some((v: string) => v === q);
+				const nameContains = nameFields.some((v: string) => v.includes(q));
+				const metadataMatch = includesQuery(metadataHay, q);
+				candidates.push({
+					_rank: exactName ? 0 : nameContains ? 1 : metadataMatch ? 2 : 3,
 					type: "extracted",
 					entityType: type,
 					ref: "entity:" + slug + ":" + type + ":" + id,
@@ -387,9 +394,13 @@ function searchExtracted(slug: string, query: string, category: QueryCategory, l
 					volume: p0.volume || data.volume || "",
 					sourceRefs: data.source_refs || (p0.sourceRef ? [p0.sourceRef] : []),
 				});
-				if (results.length >= limit) return results;
 			}
 		}
+	}
+	for (const item of candidates.sort((a, b) => a._rank - b._rank || String(a.name).localeCompare(String(b.name)))) {
+		delete item._rank;
+		results.push(item);
+		if (results.length >= limit) return results;
 	}
 	return results;
 }
@@ -605,6 +616,7 @@ function extractedCharacterRows(slug: string, query = "", limit = 20): any[] {
 	if (!existsSync(dir)) return published;
 	const out: any[] = [...published];
 	if (slug === TYPE_MOON_SLUG && hasPublishedExtractedLayer(slug)) return out.slice(0, limit);
+	const candidates: any[] = [];
 	for (const fn of readdirSync(dir).filter(f => f.endsWith(".json")).sort()) {
 		const data = safeJson(join(dir, fn));
 		if (!data) continue;
@@ -612,8 +624,19 @@ function extractedCharacterRows(slug: string, query = "", limit = 20): any[] {
 		const p0 = (data.periods || [])[0] || {};
 		const name = typeof p0.name === "object" ? p0.name?.zh || p0.name?.en || id : p0.name || id;
 		const aliases = p0.aliases || data.aliases || [];
-		const hay = [id, name, ...aliases, p0.summary || "", p0.description || ""].join("\n");
-		if (!q || includesQuery(hay, q)) out.push(withSourceTier({ type: "extracted", ref: `entity:${slug}:characters:${id}`, id, name, aliases, summary: p0.summary, sourceRefs: data.source_refs || (p0.sourceRef ? [p0.sourceRef] : []) }));
+		const nameFields = [id, name, ...aliases].filter(Boolean).map((v: any) => norm(v));
+		const metadataHay = [id, name, ...aliases].join("\n");
+		const bodyHay = [p0.summary || "", p0.description || ""].join("\n");
+		if (!q || includesQuery(metadataHay + "\n" + bodyHay, q)) {
+			const exactName = q && nameFields.some((v: string) => v === q);
+			const nameContains = q && nameFields.some((v: string) => v.includes(q));
+			const metadataMatch = q && includesQuery(metadataHay, q);
+			candidates.push({ _rank: !q ? 0 : exactName ? 0 : nameContains ? 1 : metadataMatch ? 2 : 3, ...withSourceTier({ type: "extracted", ref: `entity:${slug}:characters:${id}`, id, name, aliases, summary: p0.summary, sourceRefs: data.source_refs || (p0.sourceRef ? [p0.sourceRef] : []) }) });
+		}
+	}
+	for (const item of candidates.sort((a, b) => a._rank - b._rank || String(a.name).localeCompare(String(b.name)))) {
+		delete item._rank;
+		out.push(item);
 		if (out.length >= limit) break;
 	}
 	return out;
@@ -931,9 +954,10 @@ function aggregateResults(params: any, maxBytes: number): ToolResult {
 function graphPublishedExtractedLayer(params: any, maxBytes: number): ToolResult | undefined {
 	const slug = params.world;
 	const query = norm(params.query || params.entityRef || params.ref || "");
-	if (slug !== TYPE_MOON_SLUG || !hasPublishedExtractedLayer(slug) || !query) return undefined;
+	if (!slug || !query) return undefined;
 	const graphDir = join(extractedDir(slug), "graph");
 	const entityGraph = safeJson(join(graphDir, "derived-entity-graph.json"));
+	if (!entityGraph) return undefined;
 	const relationshipIndex = safeJson(join(graphDir, "derived-relationship-index.json"));
 	const continuityIndex = safeJson(join(graphDir, "derived-continuity-index.json"));
 	const buildReport = safeJson(join(graphDir, "graph-build-report.json"));
@@ -963,7 +987,7 @@ function graphPublishedExtractedLayer(params: any, maxBytes: number): ToolResult
 		graphLayer: "unified-derived-graph",
 		derivedOnly: entityGraph?.derivedOnly ?? true,
 		primaryFactStore: entityGraph?.primaryFactStore ?? false,
-		introducesNewFacts: entityGraph?.derivationPolicy?.introducesNewFacts ?? false,
+		introducesNewFacts: entityGraph?.derivationPolicy?.introducesNewFacts ?? buildReport?.validation?.newFactsIntroduced ?? false,
 		counts: { nodes: nodeMatches.length, edges: edgeMatches.length, relationships: relationshipMatches.length, continuities: continuityMatches.length },
 		nodes: nodeMatches,
 		edges: edgeMatches,

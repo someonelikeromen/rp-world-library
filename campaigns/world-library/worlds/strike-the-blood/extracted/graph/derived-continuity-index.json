@@ -1,0 +1,56 @@
+{
+  "schema": "strike-the-blood-derived-continuity-index-v1",
+  "worldId": "strike-the-blood",
+  "recordType": "derived-continuity-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "continuityFamilies": [
+    {
+      "continuityFamilyId": "strike-the-blood-worldbook-derived-continuity",
+      "sourceIndexes": [
+        "events/index.json",
+        "characters/index.json"
+      ],
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "eventNodes": [
+        {
+          "id": "狄珊珀",
+          "name": "狄珊珀",
+          "sourceRefs": [
+            "sxkx_card.worldbook.json#entry-30"
+          ]
+        },
+        {
+          "id": "瑟蕾丝妲·夏缇",
+          "name": "瑟蕾丝妲·夏缇",
+          "sourceRefs": [
+            "sxkx_card.worldbook.json#entry-80"
+          ]
+        },
+        {
+          "id": "第十六卷-虚幻的圣骑士",
+          "name": "第十六卷 虚幻的圣骑士",
+          "sourceRefs": [
+            "sxkx_card.worldbook.json#entry-18"
+          ]
+        },
+        {
+          "id": "葳儿蒂亚娜·卡尔雅纳",
+          "name": "葳儿蒂亚娜·卡尔雅纳",
+          "sourceRefs": [
+            "sxkx_card.worldbook.json#entry-72"
+          ]
+        }
+      ]
+    },
+    {
+      "continuityFamilyId": "strike-the-blood-engine-rules-excluded",
+      "sourceIndexes": [
+        "engine-rules/index.json"
+      ],
+      "excludedFromFormalGraph": true,
+      "reason": "Engine rules and status templates are not world facts."
+    }
+  ]
+}

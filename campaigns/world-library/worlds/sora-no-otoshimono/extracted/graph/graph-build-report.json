@@ -1,0 +1,33 @@
+{
+  "schema": "sora-no-otoshimono-graph-build-report-v1",
+  "worldId": "sora-no-otoshimono",
+  "status": "completed",
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "validation": {
+    "jsonValid": true,
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "newFactsIntroduced": false,
+    "forbiddenBasenamesGenerated": false
+  },
+  "counts": {
+    "nodes": 67,
+    "edges": 158,
+    "nodeCounts": {
+      "characters": 5,
+      "abilities": 23,
+      "factions": 5,
+      "locations": 6,
+      "events": 5,
+      "systems": 3,
+      "knowledge": 20
+    },
+    "edgeCounts": {
+      "derived-text-mention": 158
+    },
+    "derivedMentionEdges": 158
+  },
+  "warnings": [
+    "Derived graph edges are navigation/search signals, not formal relationship facts."
+  ]
+}

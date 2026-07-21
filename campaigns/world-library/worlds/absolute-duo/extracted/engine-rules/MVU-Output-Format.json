@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "jdsr_card.worldbook.json#entry-60"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "MVU Output Format"
+      },
+      "aliases": [
+        "MVU Output Format"
+      ],
+      "summary": "变量输出格式: rule: - you should output the update analysis and the actual update commands in the end of the next reply - the update commands must strictly follow the **JSON Patch (RFC 6902)** standard, but can only use the following operations: `replace` (replace the value of existing paths), `add` (only used to insert new items into an object or array), `remove`; that is, the output must be a valid JSON array containing operation objects format: |- <UpdateVariable> <Analysis>$(IN ENGLISH, no more than 80 words) - ${cal",
+      "description": "变量输出格式: rule: - you should output the update analysis and the actual update commands in the end of the next reply - the update commands must strictly follow the **JSON Patch (RFC 6902)** standard, but can only use the following operations: `replace` (replace the value of existing paths), `add` (only used to insert new items into an object or array), `remove`; that is, the output must be a valid JSON array containing operation objects format: |- <UpdateVariable> <Analysis>$(IN ENGLISH, no more than 80 words) - ${calculate time passed: ...} - ${decide whether dramatic updates are allowed as it's in a special case or the time passed is more than usual: yes/no} - ${analyze every variable based on its corresponding `check`, according only to current reply instead of previous plots: ...} </Analysis> <JSONPatch> [ { \"op\": \"replace\", \"path\": \"${/path/to/variable}\", \"value\": ${new_value} }, { \"op\": \"add\", \"path\": \"${/path/to/object/newKey}\", \"value\": ${content} }, { \"op\": \"remove\", \"path\": \"${/path/to/array/0}\" } ] </JSONPatch> </UpdateVariable> JSON Patch 路径速查: 原创主角模式: /原创主角模式 user.位阶: /user/位阶 user.身份: /user/身份 user.当前位置: /user/当前位置 尤莉叶.好感度: /尤莉叶/好感度 尤莉叶.信任度: /尤莉叶/信任度 尤莉叶.关系阶段: /尤莉叶/关系阶段 莉莉丝.好感度: /莉莉丝/好感度 莉莉丝.关系阶段: /莉莉丝/关系阶段 橘巴.好感度: /橘巴/好感度 橘巴.关系阶段: /橘巴/关系阶段 穗高雅.好感度: /穗高雅/好感度 穗高雅.关系阶段: /穗高雅/关系阶段 关系网添加: { \"op\": \"add\", \"path\": \"/关系网/角色名\", \"value\": {\"好感度\":5,\"信任度\":5,\"关系\":\"初识\"} } 关系网更新: { ",
+      "sourceRef": "jdsr_card.worldbook.json#entry-60",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "MVU-Output-Format"
+}

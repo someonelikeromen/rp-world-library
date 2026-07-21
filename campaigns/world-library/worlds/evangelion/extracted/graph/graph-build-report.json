@@ -1,0 +1,32 @@
+{
+  "schema": "evangelion-graph-build-report-v1",
+  "worldId": "evangelion",
+  "status": "completed",
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "validation": {
+    "jsonValid": true,
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "newFactsIntroduced": false,
+    "forbiddenBasenamesGenerated": false
+  },
+  "counts": {
+    "nodes": 68,
+    "edges": 65,
+    "nodeCounts": {
+      "characters": 25,
+      "abilities": 24,
+      "factions": 1,
+      "locations": 5,
+      "systems": 11,
+      "knowledge": 2
+    },
+    "edgeCounts": {
+      "derived-text-mention": 65
+    },
+    "derivedMentionEdges": 65
+  },
+  "warnings": [
+    "Derived graph edges are navigation/search signals, not formal relationship facts."
+  ]
+}

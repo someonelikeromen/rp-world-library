@@ -1,0 +1,35 @@
+{
+  "schema": "rozen-maiden-derived-continuity-index-v1",
+  "worldId": "rozen-maiden",
+  "recordType": "derived-continuity-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "continuityFamilies": [
+    {
+      "continuityFamilyId": "rozen-maiden-worldbook-derived-continuity",
+      "sourceIndexes": [
+        "events/index.json",
+        "characters/index.json"
+      ],
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "eventNodes": [
+        {
+          "id": "章节列表",
+          "name": "<章节列表>",
+          "sourceRefs": [
+            "qwsn_card.worldbook.json#entry-66"
+          ]
+        }
+      ]
+    },
+    {
+      "continuityFamilyId": "rozen-maiden-engine-rules-excluded",
+      "sourceIndexes": [
+        "engine-rules/index.json"
+      ],
+      "excludedFromFormalGraph": true,
+      "reason": "Engine rules and status templates are not world facts."
+    }
+  ]
+}

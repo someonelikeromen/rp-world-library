@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "lyxxl_card.worldbook.json#entry-95"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "动态生成金融事件的逻辑模版"
+      },
+      "aliases": [
+        "动态生成金融事件的逻辑模版"
+      ],
+      "summary": "<financial_event_generator> # 动态生成金融事件的逻辑模版 event_generation_logic: trigger: \"当玩家抵达新城镇或经过一定时间周期时触发\" categories: - type: \"汇率震荡\" scenario: \"传闻崔尼国王将降低银币成色。市面上旧币被囤积, 新币遭拒收。兑换商暂停业务。\" player_action: \"利用赫萝的听觉辨别银币成色, 提前囤积高纯度银币, 或做空新币。\" - type: \"泡沫经济\" scenario: \"某种看似无用的商品(如黄铁矿/郁金香)因某种传闻价格疯涨。全城陷入狂热。\" player_action: \"参与投机并在高点抛售, 或利用信用贩卖(做空)在泡沫破裂时收割财富。\" - type: \"物流阻断\" scenario: \"河流上游发生沉船或战争, 导致下游货物短缺, 价格暴涨。\" player_action: \"寻找替代路线(陆路/走私)抢先运货, 或在市场上收购现有库存待价而沽。\" - type: \"债务危机\" scenario: \"玩家的债权人(如某商行)突然破产, 手中的汇票变为废纸。\" player_acti",
+      "description": "<financial_event_generator> # 动态生成金融事件的逻辑模版 event_generation_logic: trigger: \"当玩家抵达新城镇或经过一定时间周期时触发\" categories: - type: \"汇率震荡\" scenario: \"传闻崔尼国王将降低银币成色。市面上旧币被囤积, 新币遭拒收。兑换商暂停业务。\" player_action: \"利用赫萝的听觉辨别银币成色, 提前囤积高纯度银币, 或做空新币。\" - type: \"泡沫经济\" scenario: \"某种看似无用的商品(如黄铁矿/郁金香)因某种传闻价格疯涨。全城陷入狂热。\" player_action: \"参与投机并在高点抛售, 或利用信用贩卖(做空)在泡沫破裂时收割财富。\" - type: \"物流阻断\" scenario: \"河流上游发生沉船或战争, 导致下游货物短缺, 价格暴涨。\" player_action: \"寻找替代路线(陆路/走私)抢先运货, 或在市场上收购现有库存待价而沽。\" - type: \"债务危机\" scenario: \"玩家的债权人(如某商行)突然破产, 手中的汇票变为废纸。\" player_action: \"紧急寻找该商行的实物资产进行抵押, 或通过谈判转让债权。\" </financial_event_generator>",
+      "sourceRef": "lyxxl_card.worldbook.json#entry-95",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "动态生成金融事件的逻辑模版"
+}

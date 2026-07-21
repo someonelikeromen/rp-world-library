@@ -1,0 +1,30 @@
+{
+  "schema": "toriko-graph-build-report-v1",
+  "worldId": "toriko",
+  "status": "completed",
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "validation": {
+    "jsonValid": true,
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "newFactsIntroduced": false,
+    "forbiddenBasenamesGenerated": false
+  },
+  "counts": {
+    "nodes": 80,
+    "edges": 118,
+    "nodeCounts": {
+      "characters": 60,
+      "abilities": 16,
+      "systems": 3,
+      "knowledge": 1
+    },
+    "edgeCounts": {
+      "derived-text-mention": 118
+    },
+    "derivedMentionEdges": 118
+  },
+  "warnings": [
+    "Derived graph edges are navigation/search signals, not formal relationship facts."
+  ]
+}

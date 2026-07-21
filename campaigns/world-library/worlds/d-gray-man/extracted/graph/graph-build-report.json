@@ -1,0 +1,32 @@
+{
+  "schema": "d-gray-man-graph-build-report-v1",
+  "worldId": "d-gray-man",
+  "status": "completed",
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "validation": {
+    "jsonValid": true,
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "newFactsIntroduced": false,
+    "forbiddenBasenamesGenerated": false
+  },
+  "counts": {
+    "nodes": 93,
+    "edges": 205,
+    "nodeCounts": {
+      "characters": 35,
+      "abilities": 9,
+      "factions": 2,
+      "events": 3,
+      "systems": 36,
+      "knowledge": 8
+    },
+    "edgeCounts": {
+      "derived-text-mention": 205
+    },
+    "derivedMentionEdges": 205
+  },
+  "warnings": [
+    "Derived graph edges are navigation/search signals, not formal relationship facts."
+  ]
+}

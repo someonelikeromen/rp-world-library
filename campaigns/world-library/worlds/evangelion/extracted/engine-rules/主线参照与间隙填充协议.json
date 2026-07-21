@@ -1,0 +1,38 @@
+{
+  "source_refs": [
+    "新世纪福音战士·旧约.worldbook.json#entry-16"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "主线参照与间隙填充协议"
+      },
+      "aliases": [
+        "主线参照与间隙填充协议",
+        "事件时间线",
+        "TV剧情",
+        "剧情概要",
+        "使徒战记录",
+        "EVA事件簿",
+        "新世纪福音战士剧情",
+        "剧情推进",
+        "时间流逝",
+        "叙事规则",
+        "主线剧情",
+        "事件衔接",
+        "故事节奏"
+      ],
+      "summary": "# 新世纪福音战士 TV版 关键事件时间线、概要与叙事协议 ## 剧情推进与时间流逝协议 protocol_name: 主线参照与间隙填充协议 reference_section: event_chronology # 指向本条目内的“event_chronology”部分 adherence_level: 参考性遵循 (Referential Adherence) explanation: \"叙事应围绕下文 event_chronology 中定义的关键事件展开。AI在推进剧情时，必须考虑当前时间点临近哪个事件ID (如 E01, E02...)，并以此作为下一个主要剧情节点的目标。\" flexibility_clause: 非强制性绑定 (Non-Binding Progression) explanation: \"允许在关键事件之间填充角色互动、内心描写、日常生活片段、训练、任务准备、次要冲突或由“悖论协议 (参考UID 014/015)”引发的变数事件。不必严格按照事件发生的确切日期或顺序进行，重点在于逻辑上的前后承接和氛围营造。\" time_progression_rule: 渐进式时间流逝与事件桥接 (Gradu",
+      "description": "# 新世纪福音战士 TV版 关键事件时间线、概要与叙事协议 ## 剧情推进与时间流逝协议 protocol_name: 主线参照与间隙填充协议 reference_section: event_chronology # 指向本条目内的“event_chronology”部分 adherence_level: 参考性遵循 (Referential Adherence) explanation: \"叙事应围绕下文 event_chronology 中定义的关键事件展开。AI在推进剧情时，必须考虑当前时间点临近哪个事件ID (如 E01, E02...)，并以此作为下一个主要剧情节点的目标。\" flexibility_clause: 非强制性绑定 (Non-Binding Progression) explanation: \"允许在关键事件之间填充角色互动、内心描写、日常生活片段、训练、任务准备、次要冲突或由“悖论协议 (参考UID 014/015)”引发的变数事件。不必严格按照事件发生的确切日期或顺序进行，重点在于逻辑上的前后承接和氛围营造。\" time_progression_rule: 渐进式时间流逝与事件桥接 (Gradual Time Flow & Event Bridging) explanation: \"当一个关键事件结束后，时间的流逝应自然地导向下一个关键事件。AI应根据需要，通过描述时间的推移（如“几天后”、“下周”、“训练期间”等）、场景变化、季节更迭（参考事件时间戳）或角色状态变化，合理地填充事件间的空白期，确保叙事的连贯性。\" tracking_mechanism_hint: 状态标记 (Implied Status Tracking) explanation: \"AI应在内部（或通过对话上下文）隐性地追踪当前故事大致处于哪个事件阶段或刚刚结束了哪个关键事件，以此判断下一个参考目标和时间推进的节奏。\" integration_with_paradox_protocol: (若 UID 014/015 启用) explanation: \"如果“悖论协议”触发了【变数】，导致某个事件偏离或改变，本协议允许围绕这个变数进行展开，时间流逝和后续事件的衔接也应基于这个新的“现实”进行调整，但仍需大致回归到 event_chronology 的主干脉络上。\" narrative_logic_event: <event>叙事逻辑思考: 1.当前状态确认(刚结束的事件ID? 大致时间? 角色关键状态?), 2.下一目标确认(参考event_chronology确定下一事件ID?), 3.间隙填充规划(如何利用日常/训练/互动/次要冲突连接事件? 时间跨度如何体现?), 4.变数协议整合(是否触发悖论协议? 若触发, 如何调整事件细节/角色反应/后续衔接以适应变数, 同时保持主线方向?)</event> ## 事件时间线与概要 event_chronology: - event_id: E01 time_approx: 公元2015年 6月下旬 (推测日期) title: 使徒、袭来 (第1话) angel: 第三使徒 萨基尔 battle_summary: \"萨基尔出现，常规武器无效。碇真嗣被召至NERV，被迫首次驾驶EVA初号机。初战意识模糊，初",
+      "sourceRef": "新世纪福音战士·旧约.worldbook.json#entry-16",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "主线参照与间隙填充协议"
+}

@@ -1,0 +1,34 @@
+{
+  "schema": "naruto-graph-build-report-v1",
+  "worldId": "naruto",
+  "status": "completed",
+  "buildDate": "2026-07-20T16:47:30.783Z",
+  "validation": {
+    "jsonValid": true,
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "newFactsIntroduced": false,
+    "forbiddenBasenamesGenerated": false
+  },
+  "counts": {
+    "nodes": 616,
+    "edges": 5876,
+    "nodeCounts": {
+      "characters": 159,
+      "abilities": 132,
+      "organizations": 124,
+      "locations": 26,
+      "events": 81,
+      "rules": 7,
+      "knowledge": 87
+    },
+    "edgeCounts": {
+      "derived-text-mention": 5876
+    },
+    "derivedMentionEdges": 5876,
+    "sourceRefCooccurrenceEdges": 0
+  },
+  "warnings": [
+    "Derived graph edges are search/navigation signals, not formal relationship facts. Use sourceRefs to verify before promotion."
+  ]
+}

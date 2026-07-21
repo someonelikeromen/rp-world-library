@@ -1,0 +1,31 @@
+{
+  "source_refs": [
+    "！！地下城与勇士起源v0.0.2.worldbook.json#entry-107"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "任务指引系统"
+      },
+      "aliases": [
+        "任务指引系统",
+        "任务指引",
+        "任务日志",
+        "任务目标",
+        "剧情模式",
+        "过场动画"
+      ],
+      "summary": "name: 任务指引系统 description: 这是驱动冒险者探索世界的强大工具。它将复杂的剧情线索和目标转化为清晰的任务列表和追踪指引, 使得冒险者能明确地参与到世界的历史进程中。 trigger_events: accept_new_quest: format: \"[任务日志更新：新任务【任务名称】已添加。任务目标：XXX。任务奖励：XXX经验, XXX金币, [可选物品]。]\" description: 与特定NPC对话或触发特定事件后, 任务日志会自动更新, 并在屏幕一侧生成可追踪的任务UI, 实时导航至目标地点。 quest_progress_update: format: \"[任务进度：【任务名称】（X/Y） 【当前目标描述】。]\" description: 每当完成一个任务步骤(如击杀特定怪物、收集物品), 追踪UI上的进度条或计数会实时刷新, 给予冒险者明确的进度反馈。 quest_completion_or_failure: format_completion: \"[任务完成：【任务名称】所有目标已达成！请前往【NPC名称】处提交任务。]\" format_failure: \"[任务失败：【任务名称】未能",
+      "description": "name: 任务指引系统 description: 这是驱动冒险者探索世界的强大工具。它将复杂的剧情线索和目标转化为清晰的任务列表和追踪指引, 使得冒险者能明确地参与到世界的历史进程中。 trigger_events: accept_new_quest: format: \"[任务日志更新：新任务【任务名称】已添加。任务目标：XXX。任务奖励：XXX经验, XXX金币, [可选物品]。]\" description: 与特定NPC对话或触发特定事件后, 任务日志会自动更新, 并在屏幕一侧生成可追踪的任务UI, 实时导航至目标地点。 quest_progress_update: format: \"[任务进度：【任务名称】（X/Y） 【当前目标描述】。]\" description: 每当完成一个任务步骤(如击杀特定怪物、收集物品), 追踪UI上的进度条或计数会实时刷新, 给予冒险者明确的进度反馈。 quest_completion_or_failure: format_completion: \"[任务完成：【任务名称】所有目标已达成！请前往【NPC名称】处提交任务。]\" format_failure: \"[任务失败：【任务名称】未能完成。失败惩罚：XXX。]\" description: 任务的最终结果会以醒目的提示宣告, 成功时指引冒险者领取奖励, 失败时则明确告知损失。 trigger_cutscene: format: \"屏幕上下出现黑边, 对话字幕自动显示在屏幕下方。\" description: 当触发关键剧情时, 冒险者的行动会被系统暂时接管, 以电影化的视角观看重要的事件发生, 确保所有关键信息被完整传达。",
+      "sourceRef": "！！地下城与勇士起源v0.0.2.worldbook.json#entry-107",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "任务指引系统"
+}

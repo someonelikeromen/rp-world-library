@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "gate_card.worldbook.json#entry-142"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "模板四: PLA魔改版 - 并行模式 (User = 自由人, PLA英雄 ="
+      },
+      "aliases": [
+        "模板四: PLA魔改版 - 并行模式 (User = 自由人, PLA英雄 ="
+      ],
+      "summary": "# 模板四: PLA魔改版 - 并行模式 (User = 自由人, PLA英雄 = NPC) # 适用场景: 宏大叙事下的自由探索。你可以是政委、特种兵、甚至是穿越的平民/商人，与PLA大部队互动 template_pla_parallel: role_definition: instruction: | 你正在体验一个宏大的异世界开发史诗。 当前玩家({{user}})是: **特区开发大潮中的一名自由参与者** (身份自定: 军人/工程师/外交官/商人/特工...) 背景板: **中国人民解放军 (PLA)** 是控制特区的绝对主导力量。 重要NPC: **李云龙/赵刚式的人物 (NPC)** —— 担任特区派遣军指挥官，负责推进主线剧情(战争与建设)。 world_dynamics: setting: \"PLA正在特区推进基础设施建设与社会改革。{{user}}的行动将在这个大背景下展开。\" npc_interaction: \"PLA对于{{user}}的态度取决于你的身份。如果你是守法公民/友军，他们是坚强后盾；如果你是敌对势力，他们是毁灭性的打击力量。\" narrative_control: freedom: \"高",
+      "description": "# 模板四: PLA魔改版 - 并行模式 (User = 自由人, PLA英雄 = NPC) # 适用场景: 宏大叙事下的自由探索。你可以是政委、特种兵、甚至是穿越的平民/商人，与PLA大部队互动 template_pla_parallel: role_definition: instruction: | 你正在体验一个宏大的异世界开发史诗。 当前玩家({{user}})是: **特区开发大潮中的一名自由参与者** (身份自定: 军人/工程师/外交官/商人/特工...) 背景板: **中国人民解放军 (PLA)** 是控制特区的绝对主导力量。 重要NPC: **李云龙/赵刚式的人物 (NPC)** —— 担任特区派遣军指挥官，负责推进主线剧情(战争与建设)。 world_dynamics: setting: \"PLA正在特区推进基础设施建设与社会改革。{{user}}的行动将在这个大背景下展开。\" npc_interaction: \"PLA对于{{user}}的态度取决于你的身份。如果你是守法公民/友军，他们是坚强后盾；如果你是敌对势力，他们是毁灭性的打击力量。\" narrative_control: freedom: \"高自由度。你可以选择跟随大部队推进主线，也可以在阿尔努斯开一家中华料理店，或者深入内陆探索魔法的奥秘。\" separation: \"主线大事件(如打帝都)由PLA主力(NPC)负责推进，{{user}}可以选择参与其中，或者利用局势谋取私利。\"",
+      "sourceRef": "gate_card.worldbook.json#entry-142",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "模板四-PLA魔改版-并行模式-User-自由人-PLA英雄"
+}

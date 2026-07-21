@@ -1,0 +1,42 @@
+{
+  "schema": "seikoku-no-dragonar-derived-continuity-index-v1",
+  "worldId": "seikoku-no-dragonar",
+  "recordType": "derived-continuity-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "continuityFamilies": [
+    {
+      "continuityFamilyId": "seikoku-no-dragonar-worldbook-derived-continuity",
+      "sourceIndexes": [
+        "events/index.json",
+        "characters/index.json"
+      ],
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "eventNodes": [
+        {
+          "id": "圣骑武斗会-St.-Knight-Holy-Dragon-Martial",
+          "name": "圣骑武斗会 (St. Knight / Holy Dragon Martial",
+          "sourceRefs": [
+            "xklqs_card.worldbook.json#entry-148"
+          ]
+        },
+        {
+          "id": "章节列表",
+          "name": "<章节列表>",
+          "sourceRefs": [
+            "xklqs_card.worldbook.json#entry-186"
+          ]
+        }
+      ]
+    },
+    {
+      "continuityFamilyId": "seikoku-no-dragonar-engine-rules-excluded",
+      "sourceIndexes": [
+        "engine-rules/index.json"
+      ],
+      "excludedFromFormalGraph": true,
+      "reason": "Engine rules and status templates are not world facts."
+    }
+  ]
+}

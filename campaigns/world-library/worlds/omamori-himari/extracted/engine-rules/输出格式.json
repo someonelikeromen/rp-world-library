@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "mnfj_card.worldbook.json#entry-59"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "输出格式"
+      },
+      "aliases": [
+        "输出格式"
+      ],
+      "summary": "--- 变量输出格式: rule: - 你必须于下一次回复结束时输出变量更新分析与指令 - 支持: replace, delta, insert, remove, move - 不得更新 _ 前缀的只读变量 format: |- <UpdateVariable> <Analysis>$(IN ENGLISH, no more than 80 words) - ${calculate time passed} - ${decide whether dramatic updates are allowed: yes/no} - ${analyze every variable based on its check} </Analysis> <JSONPatch> [ { \"op\": \"replace\", \"path\": \"/path/to/var\", \"value\": new_value }, { \"op\": \"insert\", \"path\": \"/path/to/array/-\", \"value\": new_item } ] </JSONPatch> </UpdateVariable>",
+      "description": "--- 变量输出格式: rule: - 你必须于下一次回复结束时输出变量更新分析与指令 - 支持: replace, delta, insert, remove, move - 不得更新 _ 前缀的只读变量 format: |- <UpdateVariable> <Analysis>$(IN ENGLISH, no more than 80 words) - ${calculate time passed} - ${decide whether dramatic updates are allowed: yes/no} - ${analyze every variable based on its check} </Analysis> <JSONPatch> [ { \"op\": \"replace\", \"path\": \"/path/to/var\", \"value\": new_value }, { \"op\": \"insert\", \"path\": \"/path/to/array/-\", \"value\": new_item } ] </JSONPatch> </UpdateVariable>",
+      "sourceRef": "mnfj_card.worldbook.json#entry-59",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "输出格式"
+}

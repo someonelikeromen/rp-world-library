@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "yqdq_card.worldbook.json#entry-141"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[mvu_update]变量更新规则"
+      },
+      "aliases": [
+        "[mvu_update]变量更新规则"
+      ],
+      "summary": "--- 变量更新规则: 原创主角模式: type: enum check: - 仅在开场白切换时由系统设定，游戏中不可修改 当前模式: type: enum check: - 由开局切换脚本根据swipe索引自动设定 - 剧情模式(swipe 0或2): 章节条目开启，沙盒条目关闭 - 沙盒模式(swipe 1或3): 沙盒条目开启，章节条目关闭 user: 名字: type: string check: - 原作模式下自动设为孙策伯符 - 共存模式下从{{user}}输入中提取 身份: type: string check: - 原作模式下设为\"南阳学院二年级·霸王\" - 共存模式下根据{{user}}的角色定位更新 当前位置: type: string check: - 每次场景转换时更新为新地点 关系网: type: |- { [角色名: string]: { 好感度: number; 信任度: number; 关系: string } } check: - 好感度±(2~8): 根据角色对{{user}}行为的正面/负面反应调整 - 信任度±(1~5): 根据{{user}}是否守信、是否保护同伴调整 - 新角色首次",
+      "description": "--- 变量更新规则: 原创主角模式: type: enum check: - 仅在开场白切换时由系统设定，游戏中不可修改 当前模式: type: enum check: - 由开局切换脚本根据swipe索引自动设定 - 剧情模式(swipe 0或2): 章节条目开启，沙盒条目关闭 - 沙盒模式(swipe 1或3): 沙盒条目开启，章节条目关闭 user: 名字: type: string check: - 原作模式下自动设为孙策伯符 - 共存模式下从{{user}}输入中提取 身份: type: string check: - 原作模式下设为\"南阳学院二年级·霸王\" - 共存模式下根据{{user}}的角色定位更新 当前位置: type: string check: - 每次场景转换时更新为新地点 关系网: type: |- { [角色名: string]: { 好感度: number; 信任度: number; 关系: string } } check: - 好感度±(2~8): 根据角色对{{user}}行为的正面/负面反应调整 - 信任度±(1~5): 根据{{user}}是否守信、是否保护同伴调整 - 新角色首次互动时用JSON Patch add操作添加到/关系网 - 关系字段根据好感度阶段自动更新: 0-19陌生人, 20-39相识, 40-59朋友, 60-79信赖, 80-100挚友 剧情: 当前卷: type: number range: 1~25 check: - 完成当前卷所有关键事件且推进许可为true时+1 - 原作共19章(对应动画全8季+OVA+漫画关西篇融合) 当前章节: type: string check: - 随当前卷变化自动更新为对应章节标题 章节内已完成事件: type: string check: - 每完成一个事件块追加事件名称，以顿号分隔 - 当前章节全部事件完成时自动清空并设置推进许可为true 关键事件: type: string check: - 记录剧情中最重要的转折事件名称 模式: type: enum check: - 日常: 自由探索，不主动推进主线 - 推进: 当前章节事件全部完成、推进许可为true时切换 - 用户可以通过对话指令手动切换模式 推进许可: type: boolean check: - 当前章节事件全部完成后设为true - 进入新章节后重置为false - 沙盒模式下始终为false 沙盒状态: 当前时间: type: string check: - 时间推进: 早晨→午前→午后→放学后→傍晚→夜间→深夜→次日早晨，每次推进最多半个时间段 - 战斗场景可跳过时间推进 当前地点: type: string check: - 随{{user}}移动到新场景时更新 - 关东地区: 南阳学院/成都学园/许昌学院/洛阳高校/关东街头等 - 关西地区: 大和学院/京都古道/竹林/奈良等（后期解锁） 当前节点: type: string check: - 更精细的位置描述，随当前地点变化 时间推进次数: type: number range: 0~999 check: - 每次时间推进+1 - 达到特定阈值解锁新剧情事件 战斗次数: type: number range: 0~9",
+      "sourceRef": "yqdq_card.worldbook.json#entry-141",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "mvu_update-变量更新规则"
+}

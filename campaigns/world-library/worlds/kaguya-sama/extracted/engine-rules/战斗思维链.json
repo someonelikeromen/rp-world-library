@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "hydxj_card.worldbook.json#entry-61"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "战斗思维链"
+      },
+      "aliases": [
+        "战斗思维链"
+      ],
+      "summary": "{{setvar::combat_driver:: <!-- 每回合必须输出 <combat_driver> 模块。若本回合无战斗，仅输出\"无\" --> <combat_driver> ━━ 1.初始化(Init) ━━ 对战/考核双方: Player_Side vs Enemy_Side(或系统考试) 基础阶级赋分: 严格读取角色当前的[知识/体育]阶级，转化为基础数值(Base_Value) 垫底(10)｜及格(30)｜良好(50)｜优秀(70)｜天才(90)｜完美(100) NPC参考模版(秀知院标准): 知识类: 石上优(垫底)｜普通学生(良好)｜柏木渚(优秀)｜四宫辉夜(天才)｜白银御行(完美) 体育类: 白银御行(垫底/排球废柴)｜普通部员(良好)｜运动部正选(优秀)｜各部部长(天才)｜藤原千花(完美/特指桌球等特定领域) ━━ 2.修正计算(Calc) ━━ Total_Score = Base_Value + 领域熟练度加成 + 状态修正 领域熟练度加成: 严格检查当前比拼的具体项目(如剑道、测验、桌球)。 跨界惩罚: 若玩家技能与当前项目不符(如用欧剑去打剑道比赛)，技能加成强制为0，且可能因犯规被扣分。 ",
+      "description": "{{setvar::combat_driver:: <!-- 每回合必须输出 <combat_driver> 模块。若本回合无战斗，仅输出\"无\" --> <combat_driver> ━━ 1.初始化(Init) ━━ 对战/考核双方: Player_Side vs Enemy_Side(或系统考试) 基础阶级赋分: 严格读取角色当前的[知识/体育]阶级，转化为基础数值(Base_Value) 垫底(10)｜及格(30)｜良好(50)｜优秀(70)｜天才(90)｜完美(100) NPC参考模版(秀知院标准): 知识类: 石上优(垫底)｜普通学生(良好)｜柏木渚(优秀)｜四宫辉夜(天才)｜白银御行(完美) 体育类: 白银御行(垫底/排球废柴)｜普通部员(良好)｜运动部正选(优秀)｜各部部长(天才)｜藤原千花(完美/特指桌球等特定领域) ━━ 2.修正计算(Calc) ━━ Total_Score = Base_Value + 领域熟练度加成 + 状态修正 领域熟练度加成: 严格检查当前比拼的具体项目(如剑道、测验、桌球)。 跨界惩罚: 若玩家技能与当前项目不符(如用欧剑去打剑道比赛)，技能加成强制为0，且可能因犯规被扣分。 对口加成: 仅当技能与项目对口时生效。无(0)｜入门(+5)｜熟练(+15)｜精通(+30)。 状态修正: 正向: 考前突击/咖啡因过载(+10)｜恋爱脑爆发/想引起对方注意(+15) 负向: 睡眠不足(-10)｜陷入自我脑补/心理战混乱(-20) ━━ 3.对抗判定(Resolve) ━━ 逻辑锁: 禁止掩盖社团部长的专业性。没有特定项目的[精通]，日常[优秀]绝不可能打赢部长的[天才]+[精通]。 考试/知识测验判定(绝对映射): 根据最终Total_Score映射秀知院年级排名与分数(满分参考单科100/总分通常按比例折算)： >= 120 (完美+精通) 100-119 (天才级) 80-99 (优秀级) 60-79 (良好/及格级) <= 59 (垫底级) 体育竞技/对抗判定 (攻方 vs 守方): IF (攻方Score >= 守方Score + 30): 降维打击 IF (攻方Score >= 守方Score + 15): 明显优势 IF (攻方Score 接近 守方Score): 势均力敌 ELSE (攻方Score <= 守方Score - 20): 完全吃瘪 强制吃瘪协议: 若玩家描述成功但Score计算败给对方(如击倒剑道部长) -> 强制改写为“不符合规则被裁判警告/被部长用绝对基础的刺击瞬间秒杀”。 </combat_driver> }}",
+      "sourceRef": "hydxj_card.worldbook.json#entry-61",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "战斗思维链"
+}

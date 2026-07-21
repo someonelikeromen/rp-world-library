@@ -1,0 +1,65 @@
+{
+  "schema": "compatible-event-graph-v1",
+  "worldId": "world-god-only-knows",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "events": [
+    {
+      "id": "叙事规则",
+      "entityId": "叙事规则",
+      "entityType": "events",
+      "label": "叙事规则",
+      "name": "叙事规则",
+      "summary": "# 叙事规则 perspective: | primary: 以 {{user}} 为主视角进行叙事。所有事件、对话、场景围绕 {{user}} 展开。 rule: 不直接描写 {{user}} 未在场的场景。不替 {{user}} 做决定、说话、行动或感受。 pacing: | rule: 每次回复推进1-3个叙事节拍。不得在一个回复中跳跃超过半天的时间跨度（除非 {{user}} 明确要求或时间推进指令）。 - rule: 日常场景节奏舒缓，战斗/冲突场景节奏紧凑。 - rule: 时间推进遵循：早晨 → 午前 → 午后 → 傍晚 → 夜间 → 深夜 → 次日。每次推进一小步。 dialogue: | rule: 角色对话需符合各自性格与语癖。桂马冷静理性带宅属性，艾鲁西天真迷糊，花音活泼偶像风等。 - rule: 每个角色的台词应有辨识度——不需要每次都提名字，但从语气和用词可分辨说话者。 - rule: 日语口癖适度保留并以中文标注：艾鲁西「的说」、七香关西腔等。 description: | rule: 场景描写以视觉和听觉为主。不过度堆砌形容词。 - rule: 情感描写通过角色的动作、表情、语气传达，不过度内心",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-3"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:叙事规则",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "隐秘揭示：小阪千寻的真相",
+      "entityId": "隐秘揭示：小阪千寻的真相",
+      "entityType": "events",
+      "label": "隐秘揭示：小阪千寻的真相",
+      "name": "隐秘揭示：小阪千寻的真相",
+      "summary": "# 隐秘揭示：小阪千寻的真相 entry: | info: note: 此条目默认不启用。仅在故事进展到女神篇后期至过去篇结局时，且{{user}}通过特定关键词触发时启用。 hidden_reveal: | tag: 小阪千寻——唯一不被遗忘的人 timing: 女神篇后期至过去篇结局 trigger_keywords: 千寻, 记忆, 遗忘, 攻略完成 fact: | 小阪千寻是桂马攻略的唯一没有驱魂的女性。桂马对她的感情不是「攻略」——而是真心的喜欢。在所有被攻略女性中，只有千寻不受「攻略后遗忘」规则的影响，因为她心中没有驱魂可驱。她对桂马的感情是真实的，桂马对她的感情也是真实的。这是桂马从「攻略之神」成长为真正理解爱情的人的关键。 method: 循序渐进。女神篇：桂马发现千寻似乎保留了部分记忆。过去篇：桂马在关键时刻向千寻告白——不是攻略台词，而是真心话。结局：两人确立关系。 pacing: 阶段1(女神篇中期)——桂马注意到千寻的异常；阶段2(过去篇高潮)——桂马的真心告白；阶段3(结局)——两人开始平凡的日常",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-98"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:隐秘揭示：小阪千寻的真相",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "驱魂篇·第四卷",
+      "entityId": "驱魂篇·第四卷",
+      "entityType": "events",
+      "label": "驱魂篇·第四卷",
+      "name": "驱魂篇·第四卷",
+      "summary": "# 驱魂篇·第四卷 volume: 4 title: 普通女孩与梦想的重量 arc: 驱魂篇 key_events: | 探测器的沉默与异常: | 本卷开始时，驱魂探测器指向了小阪千寻——但与其他目标不同，艾鲁西发现千寻身上虽然有驱魂反应，但能量的波动模式与以往不同：更微弱、更不规则。桂马通过日常观察确认千寻身上确实存在空洞，但她在表面上是一个普通的、开朗的女高中生——成绩中上、社交正常、没有任何明显心理创伤或身份危机。这种「普通」本身就是一种异常，因为桂马的攻略经验已经证明，空洞通常来自未被接纳的自我面向。 小阪千寻：自称普通女孩: | 千寻是轻音乐部2B Pencils的一员，担任吉他手兼主唱。她的空洞源于「对普通的不安」——她认为自己没有特长、没有特别的梦想、没有值得被爱的独特之处，在周围闪闪发光的人生坐标中感到迷失。桂马发现千寻的驱魂没有像其他人一样造成外部可见的精神污染，因为千寻的空洞不是被压抑的情感，而是一种缓慢的自我价值的否定——她不是不接纳某部分自己，而是不认为自己「值得被接纳」。这种虚无感让驱魂的寄生更隐蔽但也更危险。 桂马的真意: | 在攻略千寻的过程中，桂马做出了一个违反契约精神的决定——探测器显示千寻",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-65"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:驱魂篇·第四卷",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "📌-章节剧情",
+      "entityId": "📌-章节剧情",
+      "entityType": "events",
+      "label": "📌 章节剧情",
+      "name": "📌 章节剧情",
+      "summary": "全26卷+轻小说+外传",
+      "sourceRefs": [
+        "zyszddsj_card.worldbook.json#entry-110"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:📌-章节剧情",
+      "originalEntityType": "events"
+    }
+  ],
+  "edges": []
+}

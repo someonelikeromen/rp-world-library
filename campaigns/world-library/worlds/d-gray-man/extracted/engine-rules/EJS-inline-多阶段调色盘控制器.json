@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "qmsn_card.worldbook.json#entry-19"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[EJS]inline:多阶段调色盘控制器"
+      },
+      "aliases": [
+        "[EJS]inline:多阶段调色盘控制器"
+      ],
+      "summary": "@@generate_before <%_ var 亚连阶段 = getvar('stat_data.角色阶段.亚连沃克.好感度阶段', { defaults: 0 }); var 神田阶段 = getvar('stat_data.角色阶段.神田优.好感度阶段', { defaults: 0 }); var 李娜丽阶段 = getvar('stat_data.角色阶段.李娜丽李.好感度阶段', { defaults: 0 }); var 拉比阶段 = getvar('stat_data.角色阶段.拉比.好感度阶段', { defaults: 0 }); var 缇奇阶段 = getvar('stat_data.角色阶段.缇奇米克.好感度阶段', { defaults: 0 }); var 罗德阶段 = getvar('stat_data.角色阶段.罗德嘉美.好感度阶段', { defaults: 0 }); _%> <%_ if (亚连阶段 >= 3) { _%><%- await getwi('[DGM]调色盘_亚连_亲密') %><%_ } else if (亚连阶段 >= 1) { _%><%- await getwi",
+      "description": "@@generate_before <%_ var 亚连阶段 = getvar('stat_data.角色阶段.亚连沃克.好感度阶段', { defaults: 0 }); var 神田阶段 = getvar('stat_data.角色阶段.神田优.好感度阶段', { defaults: 0 }); var 李娜丽阶段 = getvar('stat_data.角色阶段.李娜丽李.好感度阶段', { defaults: 0 }); var 拉比阶段 = getvar('stat_data.角色阶段.拉比.好感度阶段', { defaults: 0 }); var 缇奇阶段 = getvar('stat_data.角色阶段.缇奇米克.好感度阶段', { defaults: 0 }); var 罗德阶段 = getvar('stat_data.角色阶段.罗德嘉美.好感度阶段', { defaults: 0 }); _%> <%_ if (亚连阶段 >= 3) { _%><%- await getwi('[DGM]调色盘_亚连_亲密') %><%_ } else if (亚连阶段 >= 1) { _%><%- await getwi('[DGM]调色盘_亚连_相识') %><%_ } _%> <%_ if (神田阶段 >= 3) { _%><%- await getwi('[DGM]调色盘_神田_亲密') %><%_ } else if (神田阶段 >= 1) { _%><%- await getwi('[DGM]调色盘_神田_相识') %><%_ } _%> <%_ if (李娜丽阶段 >= 3) { _%><%- await getwi('[DGM]调色盘_李娜丽_亲密') %><%_ } else if (李娜丽阶段 >= 1) { _%><%- await getwi('[DGM]调色盘_李娜丽_相识') %><%_ } _%> <%_ if (拉比阶段 >= 3) { _%><%- await getwi('[DGM]调色盘_拉比_亲密') %><%_ } else if (拉比阶段 >= 1) { _%><%- await getwi('[DGM]调色盘_拉比_相识') %><%_ } _%> <%_ if (缇奇阶段 >= 3) { _%><%- await getwi('[DGM]调色盘_缇奇_亲密') %><%_ } else if (缇奇阶段 >= 1) { _%><%- await getwi('[DGM]调色盘_缇奇_相识') %><%_ } _%> <%_ if (罗德阶段 >= 3) { _%><%- await getwi('[DGM]调色盘_罗德_亲密') %><%_ } else if (罗德阶段 >= 1) { _%><%- await getwi('[DGM]调色盘_罗德_相识') %><%_ } _%>",
+      "sourceRef": "qmsn_card.worldbook.json#entry-19",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "EJS-inline-多阶段调色盘控制器"
+}

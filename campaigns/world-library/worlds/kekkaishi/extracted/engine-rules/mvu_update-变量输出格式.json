@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "jjs_card.worldbook.json#entry-99"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[mvu_update]变量输出格式"
+      },
+      "aliases": [
+        "[mvu_update]变量输出格式"
+      ],
+      "summary": "--- 变量输出格式: rule: - output update commands at end of each reply - strictly follow JSON Patch (RFC 6902): replace, add, remove - don't update fields starting with _ (readonly) - don't expose fields starting with $ (hidden) format: |- <UpdateVariable> <Analysis>$(IN ENGLISH, no more than 80 words) - ${calculate time passed} - ${analyze every variable based on check rules} </Analysis> <JSONPatch> [ { \"op\": \"replace\", \"path\": \"${/path}\", \"value\": \"${new_value}\" }, { \"op\": \"add\", \"path\": \"${/path/newKey}\", \"value\": \"${c",
+      "description": "--- 变量输出格式: rule: - output update commands at end of each reply - strictly follow JSON Patch (RFC 6902): replace, add, remove - don't update fields starting with _ (readonly) - don't expose fields starting with $ (hidden) format: |- <UpdateVariable> <Analysis>$(IN ENGLISH, no more than 80 words) - ${calculate time passed} - ${analyze every variable based on check rules} </Analysis> <JSONPatch> [ { \"op\": \"replace\", \"path\": \"${/path}\", \"value\": \"${new_value}\" }, { \"op\": \"add\", \"path\": \"${/path/newKey}\", \"value\": \"${content}\" } ] </JSONPatch> </UpdateVariable>",
+      "sourceRef": "jjs_card.worldbook.json#entry-99",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "mvu_update-变量输出格式"
+}

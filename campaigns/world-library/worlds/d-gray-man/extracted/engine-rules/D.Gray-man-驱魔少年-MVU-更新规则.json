@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "qmsn_card.worldbook.json#entry-111"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "D.Gray-man 驱魔少年 MVU 更新规则"
+      },
+      "aliases": [
+        "D.Gray-man 驱魔少年 MVU 更新规则"
+      ],
+      "summary": "# D.Gray-man 驱魔少年 MVU 更新规则 变量更新规则: 身份模式: check: \"开局时由initvar设定，后续不修改。除非用户明确要求切换模式。\" type: string range: \"[原作|取代|共存]\" 当前模式: check: \"开局由initvar设定。用户通过swipe切换剧情/沙盒模式时由swipe-toggle脚本修改MVU变量。AI不自行修改。\" type: string range: \"[剧情|沙盒]\" user.名称: check: \"开局由initvar设定为{{user}}宏。不修改。\" type: string user.身份: check: \"根据剧情进展和用户选择更新。驱魔师候补→驱魔师→元帅候补等。重要剧情节点后更新。\" type: string user.当前位置: check: \"每次回复根据故事发生地点更新。具体到建筑或区域名。\" type: string 关系网.*.好感度: check: \"根据角色与{{user}}的互动质量变化。正面互动+2~8，负面互动-3~10。关键事件(救命/背叛)可调整±15~30。上限100，下限0。\" type: number",
+      "description": "# D.Gray-man 驱魔少年 MVU 更新规则 变量更新规则: 身份模式: check: \"开局时由initvar设定，后续不修改。除非用户明确要求切换模式。\" type: string range: \"[原作|取代|共存]\" 当前模式: check: \"开局由initvar设定。用户通过swipe切换剧情/沙盒模式时由swipe-toggle脚本修改MVU变量。AI不自行修改。\" type: string range: \"[剧情|沙盒]\" user.名称: check: \"开局由initvar设定为{{user}}宏。不修改。\" type: string user.身份: check: \"根据剧情进展和用户选择更新。驱魔师候补→驱魔师→元帅候补等。重要剧情节点后更新。\" type: string user.当前位置: check: \"每次回复根据故事发生地点更新。具体到建筑或区域名。\" type: string 关系网.*.好感度: check: \"根据角色与{{user}}的互动质量变化。正面互动+2~8，负面互动-3~10。关键事件(救命/背叛)可调整±15~30。上限100，下限0。\" type: number range: [0, 100] 关系网.*.信任度: check: \"基于角色对{{user}}的了解程度和共事经历。共同战斗+1~5，分享秘密+5~15，欺骗/隐瞒-5~20。上限100，下限0。\" type: number range: [0, 100] 关系网.*.关系: check: \"根据好感度和信任度综合更新关系描述词。例：未接触→认识→同僚→朋友→挚友/信赖。若有恋爱线则更新相应描述。\" type: string 剧情.当前篇章: check: \"根据剧情进度更新篇章名称。跨越到新的故事弧时更新。\" type: string 剧情.当前卷: check: \"每完成一章剧情后+1。上限30。\" type: number range: [1, 30] 剧情.当前章节: check: \"每完成一章剧情后更新为下一章的comment字符串。必须与对应章节条目的comment字段完全一致。沙盒模式下为空字符串。\" type: string 剧情.当前事件: check: \"当前章节内的事件编号。每完成一个事件+1。上限10。\" type: number range: [0, 10] 剧情.事件完成.*: check: \"每完成一个章节事件后将该事件名设为true。用于追踪章节内进度。\" type: boolean 剧情.模式: check: \"默认推进。用户主动选择自由活动时切换为日常。\" type: string range: \"[日常|推进]\" 剧情.推进许可: check: \"当前章节所有关键事件完成后设为true，允许推进到下一章。进入新章后重置为false。\" type: boolean 隐秘资讯.*: check: \"当角色或剧情揭示对应真相时设为true。一旦设为true不再回退。由EJS隐秘资讯门控读取以决定是否注入隐藏条目。\" type: boolean 沙盒状态.当前时间: check: \"沙盒模式下追踪游戏内时间。格式：第X天·时段。每次角色完成一个行动或半天过去后更新。单次推进不超过半天。天亮时天数+",
+      "sourceRef": "qmsn_card.worldbook.json#entry-111",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "D.Gray-man-驱魔少年-MVU-更新规则"
+}

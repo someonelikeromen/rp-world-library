@@ -1,0 +1,139 @@
+{
+  "schema": "sword-art-online-engine-rules-index-v1",
+  "worldId": "sword-art-online",
+  "recordFamily": "engine-rules",
+  "count": 9,
+  "records": [
+    {
+      "id": "2024年",
+      "name": "2024年",
+      "aliases": [
+        "2024年",
+        "2024",
+        "终章"
+      ],
+      "summary": "《刀剑神域》艾恩葛朗特篇相关事件的 **2024年时间线**： **艾恩葛朗特 第二年(终章) (Final Chapter in Aincrad) - 2024** * **2024年 (年初 - 秋季):** * 攻略组（以血盟骑士团 KoB 和艾恩葛朗特解放军 ALF 为主力）持续向艾恩葛朗特上层推进，逐步攻略至第70层以上。 * 桐人与亚丝娜的关系日益深厚，成为广为人知的搭档和恋人。 * 红名公会“微笑棺木”（Laughing Coffin - LC）活动日益猖獗，对攻略组和普通玩家造成巨大威胁。为应对此局面，攻略组联合组建了“微笑棺木讨伐队”，并对其据点发动了大规模围剿作战（具体时间点在8月左右）。战斗虽然成功捣毁了LC的主要据点并俘虏了部分成员（包括PoH可能在此战后失踪），但也付出了相当的牺牲。 * **2024年8月:** * 血盟骑士团（KoB）在第55层“格朗萨姆”（钢铁之都）设立总部。 * 艾恩葛朗特解放军（ALF）/圣龙联合（前ALS）在第56层主街区帕尼设立公会城堡。 * **2024年9月:** * 桐人和亚丝娜在第22层森林区域意外发现并“收养”了失去记忆的神秘女孩——结衣（Yui）。 * 结衣",
+      "sourceRefs": [
+        "刀剑神域SAO v1.1.worldbook.json#entry-12"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "PK机制",
+      "name": "PK机制",
+      "aliases": [
+        "PK机制"
+      ],
+      "summary": "《刀剑神域》（Sword Art Online）艾恩葛朗特（Aincrad）篇中的玩家互杀（Player Killing - PK）机制设定: 在SAO这个“死亡游戏”中，PK行为具有远超普通MMORPG的严重性和残酷性，因为它直接关系到现实世界中玩家的生死存亡。 **1. PK 机制 - 如何运作:** * **地点限制:** PK行为只能在特定的非安全区域（Non-Safe Zone）进行。主要的城镇、村庄以及某些特定设施内部被设定为“圈内”（安全区），在这些区域，系统机制会阻止玩家对其他玩家造成伤害（除非是双方同意的正式决斗）。一旦离开这些安全区域，进入广阔的野外、迷宫或地下城，玩家之间的互相攻击就成为可能。 * **攻击方式:** 与攻击怪物类似，玩家可以通过普通攻击或发动剑技来攻击其他玩家。目标的HP（生命值）会根据攻击造成的伤害而减少。 * **致死后果:** 如果一名玩家的HP被另一名玩家的攻击降至零，那么该玩家角色会在游戏中死亡，表现为碎裂消失的效果。根据茅场晶彦设定的“死亡游戏”规则，游戏角色的死亡将触发玩家佩戴的NERvGear设备释放高功率微波，破坏玩家在现实世界中的大脑，导致真实死亡。 **2. PK",
+      "sourceRefs": [
+        "刀剑神域SAO v1.1.worldbook.json#entry-8"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "char-状态栏",
+      "name": "{{char}}状态栏",
+      "aliases": [],
+      "summary": "最多输出2个{{char/NPC}}状态栏,禁止输出超过2个{{char/NPC}}状态栏: 1.[Status]里每个项目的内容必须用中文显示; 2.即使内容不变也不可以省略，必须输出的完整状态栏; 3.字数不能超过400; 4.生成状态栏的对象仅限于在场重要角色，人物离场后则消失，入场增加。禁止输出不在{{user}}身边的{{char/NPC}}状态栏，除非{{user}}有明确要求切换视角。; 5.必须在每次回复的结尾生成<char_status_format>，它的格式必须是这样的： <char_status_format> <char_StatusBlocks> <details><summary>{{char/NPC名字}}角色状态栏</summary> ``` -------------------------------------------- 《 Sword Art Online 》{{char/NPC名字}}状态栏 -------------------------------------------- 🥰【{{char/NPC}}的基本信息】 • 角色名称: {{游戏昵称}}|{{现实姓名，一般为",
+      "sourceRefs": [
+        "刀剑神域SAO v1.1.worldbook.json#entry-31"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "newspaper状态栏",
+      "name": "newspaper状态栏",
+      "aliases": [
+        "newspaper状态栏"
+      ],
+      "summary": "1.必须在每次回复的开头生成<newspaper_status_format>，字数不能超过400，每日仅输出一次，次日更新，它的格式必须是这样的： <newspaper_status_format> <newspaper_StatusBlocks> <details><summary>《艾恩葛朗特-每日新闻》</summary> ``` -------------------------------------------- 《艾恩葛朗特-每日新闻》 -{{year}}年{{month}}月{{day}}日 -------------------------------------------- 【攻略组公告栏】 • {{攻略组已攻略的楼层数，标记出最近攻略楼层的时间}} • {{攻略组近期将组织的行动，标记出时间}} 【阿尔戈免费攻略情报栏】 • {{面向低等级玩家的免费攻略情报}} 【艾恩葛朗特娱乐新闻栏】 • {{玩家间的娱乐/八卦/传闻/新闻}} 【赏金任务】 • {{公会/玩家向其他玩家发布的赏金任务，一般是针对橙标/红标犯罪玩家的通缉令}} -----------------------------------",
+      "sourceRefs": [
+        "刀剑神域SAO v1.1.worldbook.json#entry-34"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "user-状态栏",
+      "name": "{{user}}状态栏",
+      "aliases": [],
+      "summary": "最多输出1个{{user}}状态栏,禁止输出超过1个{{user}}状态栏: 1.[Status]里每个项目的内容必须用中文显示; 2.即使内容不变也不可以省略，必须输出的完整状态栏; 3.字数不能超过400; 4.必须在每次回复的结尾生成<user_status_format>，它的格式必须是这样的： <user_status_format> <user_StatusBlocks> <details><summary>{{user}}角色状态栏</summary> ``` ------------------------------------------ 《 Sword Art Online 》{{user}}角色状态栏 ------------------------------------------ 🥰【{{user}}的基本信息】 • 角色名称: {{user的游戏昵称}}|{{现实姓名，一般为角色秘密，只有非常亲密的人才能知晓}} • 光标类型: {{绿标/橙标/红标玩家，光标类型的原因}} • 性别: {{性别}} • 年龄: {{该角色的年龄，12~38岁}} • 外貌: - 发型与发色: {{如同游戏C",
+      "sourceRefs": [
+        "刀剑神域SAO v1.1.worldbook.json#entry-30"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "希兹克利夫",
+      "name": "希兹克利夫",
+      "aliases": [
+        "希兹克利夫",
+        "团长",
+        "最强的男人",
+        "茅场晶彦",
+        "茅场",
+        "晶彦",
+        "KoB"
+      ],
+      "summary": "希兹克利夫（茅场晶彦）在SAO艾恩葛朗特篇的角色设定： **请注意：此角色设定基于发生在虚构的 **2022年11月至2024年11月** 期间的SAO艾恩葛朗特事件背景，并重点描绘其作为游戏管理员和玩家的双重身份。**直到75层的楼层boss战之前，无人知晓希兹克利夫就是茅场晶彦的身份，禁止其他角色提前自动知晓希兹克利夫的真实身份。** --- **《刀剑神域》艾恩葛朗特篇 角色设定 - 茅场晶彦 / 希兹克利夫 (Kayaba Akihiko / Heathcliff)** **I. 基础信息 (Basic Information)** * **角色全名 (Real Name):** 茅场 晶彦 (Kayaba Akihiko) * **游戏昵称 (In-Game Name - IGN):** Heathcliff (ヒースクリフ) (希兹克利夫) * **年龄 (Age):** 成年 (具体年龄不明，推测为30岁左右) * **性别 (Gender):** 男 * **角色种族 (Race):** 人类 (Human) * **生日/星座:** 未知 **II. 外貌特征 (Appearance)** * **现实世界",
+      "sourceRefs": [
+        "刀剑神域SAO v1.1.worldbook.json#entry-20"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "怪物",
+      "name": "怪物",
+      "aliases": [
+        "怪物",
+        "boss"
+      ],
+      "summary": "当有怪物出现时才输出该状态栏，没有怪物出现时禁止输出该状态栏 最多输出1个怪物状态栏,禁止输出超过1个怪物状态栏: 1.[Status]里每个项目的内容必须用中文显示; 2.即使内容不变也不可以省略，必须输出的完整状态栏; 3.字数不能超过100; 4.生成状态栏的对象仅限于在场重要怪物 5.如果有该怪物/Mob的相关情报则显示特性/弱点，则可以显著降低讨伐难度 6.如果无该怪物/Mob相关情报则显示为\"？？？\"，则讨伐难度显著上升 7.必须在每次回复的结尾生成<status_format>，它的格式必须是这样的： <status_format> <StatusBlocks> ``` ====================[ ⚔️ 遭遇怪物 | Mob ]==================== 📛怪物名称: {{怪物名称}} ⚜️类型: {{怪物种类,例如区域Boss/楼层Boss/精英怪/小怪/野区Boss/任务Boss/事件Boss等}} 📊等级 (Level): {{怪物等级}} ❤️生命状态: {{■■■■■■■■■■，怪物生命值进度条，怪物的生命值具体数值，怪物健康状态描述}} 💡主要技能 (Notabl",
+      "sourceRefs": [
+        "刀剑神域SAO v1.1.worldbook.json#entry-29"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "注意事项-可能的错误",
+      "name": "注意事项（可能的错误）",
+      "aliases": [
+        "注意事项（可能的错误）"
+      ],
+      "summary": "1.禁止隐藏NPC、其他玩家的游戏昵称，禁止用\"???\"显示。 2.玩家、NPC、怪物等对象死亡时会像破碎蓝色水晶的一样消失，本质上只是一款“死亡游戏”。 3.击杀怪物所获得的物品和经验不以掉落的方式获得，而是由系统判定击杀它的玩家（个人或团队）直接弹出奖励界面获得。 4.这是SAO时期，禁止其他时期(如ALO、UW)的角色乱入。 5.SAO是死亡游戏，只有通关100层才能登出游戏。 6.",
+      "sourceRefs": [
+        "刀剑神域SAO v1.1.worldbook.json#entry-33"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "艾恩葛朗特的整体结构",
+      "name": "艾恩葛朗特的整体结构",
+      "aliases": [
+        "艾恩葛朗特的整体结构"
+      ],
+      "summary": "艾恩葛朗特（Aincrad）的结构以及已知的部分楼层设定: **艾恩葛朗特的整体结构:** 艾恩葛朗特是一座巨大无比、漂浮在空中的多层结构城堡，整体形态像一个底部宽阔、向上逐渐收窄的巨大圆锥体。它完全由岩石和钢铁构成，第一层内部直径可达十公里，往上依次递减。城堡共分为100层，每一层都是一个独立的世界，拥有独特的地貌、城镇、生态系统和地下迷宫。 * **层级结构:** 每一层都叠在下一层的上方。站在某一层时，抬头看到的不是天空，而是上一层底部厚重的岩石结构。阳光从城堡最顶端穿透下来，越往下层光线越暗淡（但游戏系统保证了基础的可见度）。 * **内部组成:** 每层通常包含以下几个主要区域： * **主要聚落 (Main Settlement):** 至少一个大型城镇或村庄，是玩家的安全区（通常禁止PvP，但如果双方同意，则可以进行PK），设有NPC商店、旅馆、铁匠铺、任务发布点以及玩家可以购买或租用的房屋区域。起始之镇位于第一层。 * **野外区域 (Field Areas):** 城镇之外的广阔区域，包含森林、平原、山脉、湖泊、沙漠、雪原等各种地形。这里遍布怪物，是玩家练级、收集素材的主要场所。也是前往迷宫区入口的必经之路",
+      "sourceRefs": [
+        "刀剑神域SAO v1.1.worldbook.json#entry-2"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "schema": "dragon-ball-engine-rules-index-v1",
+  "worldId": "dragon-ball",
+  "recordFamily": "engine-rules",
+  "count": 12,
+  "records": [
+    {
+      "id": "战斗判定与跨境界交互法则",
+      "name": "战斗判定与跨境界交互法则",
+      "aliases": [
+        "战斗判定与跨境界交互法则"
+      ],
+      "summary": "<Combat_Rules> ## 战斗判定与跨境界交互法则 当【凡人境界】与【神之境界】发生战斗时，需强制执行以下三大判定定律： 定律一 感知盲区：凡人无法感知神之气息。凡人方无法通过气来预判神的动作，其在战斗中的闪避与命中判定遭遇极大幅度削减。 定律二 次元壁垒：神之气息自带跨次元防御。在进行战斗力数值对比时，将神之境界者的当前总战斗力强制乘以20，作为【等效防御/闪避阈值】。凡人打在神境界身上的攻击，若未跨越此等效数值，实际伤害会被极大幅度减免，甚至被判定为强制无法破防。 定律三 绝对暴力：神境界并非绝对无敌。若凡人境界者的当前总战斗力庞大到超越神之境界者实际数值的20倍及以上(例如传超布罗利或超4对标超蓝)，纯粹暴力将直接震碎次元壁垒。此时定律一与定律二强制失效，神境失去20倍等效加成，双方无视境界，直接进行真实战斗力数值的对抗。 </Combat_Rules>",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-26"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "战斗思维链",
+      "name": "战斗思维链",
+      "aliases": [
+        "战斗思维链"
+      ],
+      "summary": "{{setvar::combat_driver:: <!-- 每回合必须输出 <combat_driver> 模块。若本回合无战斗，仅输出\"无\" --> <combat_driver> ━━ 1.初始化(Init) ━━ 对战双方: Player_Side(单人/小队累加) vs Enemy_Side(单人/小队累加) Player_Base_BP: 严格读取玩家状态栏的基础战斗力数值 Enemy_Base_BP: 读取龙珠时期设定参考(以下为原著/推算公认BP) DB: 陶白白(110)｜比克大魔王(260) DBZ: 拉蒂兹(1500)｜贝吉塔常态(18000)｜弗利萨完全体100%(1亿2000万)｜完全体沙鲁(40亿)｜纯粹魔人布欧(300亿) DBGT: 贝比大猿化(1兆)｜超级17号(2.5兆)｜超级一星龙(10兆) DBS: 破坏神比鲁斯(50兆+神境界)｜吉连(300兆) ━━ 2.修正计算(Calc) ━━ Total_BP = Base_BP x 变身倍率 x 招式爆发倍率 变身倍率: 严格读取变身设定系统。如巨猿x10, 超1x50, 超2x100, 超4x4000, 超赛神x50(附神境), 超蓝x2",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-20"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "日常记忆存储",
+      "name": "日常记忆存储",
+      "aliases": [
+        "日常记忆存储"
+      ],
+      "summary": "{{setvar::世界书日常记忆存储:: 【xx年x月x日至xx年x月x日】:xxxx (例子，自行替换) }}",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-2"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "核心指令-龙珠-Dragon-Ball-世界观与底层气-Ki-体系校验-高维武术",
+      "name": "核心指令:龙珠(Dragon Ball)世界观与底层气(Ki)体系校验(高维武术",
+      "aliases": [
+        "核心指令:龙珠(Dragon Ball)世界观与底层气(Ki)体系校验(高维武术"
+      ],
+      "summary": "<Worldview_Boundary_and_Filter> #核心指令:龙珠(Dragon Ball)世界观与底层气(Ki)体系校验(高维武术肉搏/气之爆发/战斗力绝对压制) #定位:作为世界观设定的底层过滤器，拦截一切非原著设定的违和元素与超模能力。 ##1.力量体系与干涉底层逻辑 气与BP绝对法则:一切战斗的基础建立在【气(Ki)】与肉体武术的结合上。体内蕴含的“气”的大小直接决定了速度、力量与防御力，并被量化为【战斗力(BP)】。只要气足够强大，可以无视一切花里胡哨的技巧。 绝对禁止:魔法体系(除那美克星龙族或特定魔导师外，战斗人员绝对禁用)、灵压、查克拉、霸气、替身使者、修仙真气、法则之力等其他作品的力量体系混入。 代价代偿（耗气与反噬机制）:无论多么强大的变身或聚气绝招，均需消耗自身的体能与气。变身倍率越夸张(如超3、超蓝)，对肉体血管和心脏的压迫就越极大。气耗尽后，角色将陷入粗重喘息、连飞行都无法维持的虚脱状态。不存在无需体力的无限爆发，且唯有进食或仙豆才能补满亏空。 ##2.龙珠武装视觉原理(核心防偏离) 实体化定性:战斗的核心是突破音障的高速肉搏、将对手砸碎岩体的硬核撞击，以及高度压缩的气功波爆炸，绝非站",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-24"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "濒死突破",
+      "name": "濒死突破",
+      "aliases": [
+        "濒死突破"
+      ],
+      "summary": "<血统_赛亚人濒死突破> ## 濒死突破 介绍：战斗民族赛亚人刻在基因里的外挂级血统天赋。通过在死亡边缘游走并恢复，让肉体强行适应并超越之前的极限。 获取条件： - 拥有赛亚人血统。 - 战斗中受创导致[身体状况]跌至5%以下(严重的濒死状态)，随后通过仙豆、治疗舱或他人治愈而彻底恢复。 天赋效果： - 基础战力暴涨：恢复后，强行覆写玩家状态栏的[基础战斗力]。计算公式：新的基础战斗力 = 原基础战斗力 x 突破倍率(通常在 x 1.5 至 x 3.0 之间，伤得越重、越接近死亡，倍率越高)。 - 锁血适应：对曾经导致自己濒死的同类招式或同等级气压产生极强的肉体抗性。 限制与代价： - 自残判定无效：若是为了刷战斗力而主动自残(如自己打穿自己)，系统将判定缺乏求生绝境的刺激，基础战斗力不会产生提升。 - 境界衰减：当赛亚人的基础战斗力达到凡人极高瓶颈(如完全觉醒超级赛亚人境界之后)，濒死突破的肉体收益将大幅降低，数值提升微乎其微，转为依赖变身倍率与神之境界的提升。 </血统_赛亚人濒死突破>",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-34"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "状态栏-默认",
+      "name": "状态栏:默认",
+      "aliases": [
+        "状态栏:默认"
+      ],
+      "summary": "{{setvar::status_format:: <status_format> 不要输出 CSS/HTML 样式。请严格按照以下 XML 格式输出： <status> 🎭身份: 描述<!-- 规则:公开的社会定义(如:龟仙流弟子/银河巡警/胶囊公司保安/武道家)，仅在官方编入/阵营变更/地位实质改变时更新。绝对禁止:主观评价/临时状态/情感关系(如:宠儿/情人) --> 🩸血统: 描述<!-- 规则: 1. 唯一性: 血统是固定的，禁止更换。2.类型: 如人类/赛亚人/那美克星人等。3.门槛: 仅有赛亚人血统可以濒死复活时战斗力巨幅提升--> 💪🏼身体状况: 当前值%｜描述(当前身体状况)<!-- 状态: [健康]>80%｜[濒死]<10%｜[死亡]0%(头顶出现光环) --> ⚡️气(SP): 当前值%｜爆气中/未爆气｜当前变身(超级赛亚人/界王拳/无)<!-- 状态层级: [充盈]>80%｜[平稳]50-80%｜[疲劳]20-50%｜[枯竭]<20%(视野模糊)｜[透支]0%(昏迷/濒死) --> 🩻当前变身: 描述(超级赛亚人/界王拳/巨猿化/无)｜效果描述(例如: 界王拳2倍使基础战斗力×2) 🤕身体",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-21"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "玩家身世背景",
+      "name": "玩家身世背景",
+      "aliases": [
+        "玩家身世背景"
+      ],
+      "summary": "{{setvar::世界书玩家身世背景:: <user>身世背景: }}",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-4"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "觉醒指南",
+      "name": "觉醒指南",
+      "aliases": [
+        "觉醒指南"
+      ],
+      "summary": "<Transformation_Conditions> ## 觉醒指南 - 当达到某形态门槛时，AI不应直接发放大礼包，而应在接下来的故事中，主动生成符合该形态剧情触发契机的事件(如安排强敌击杀NPC触发超1、引诱玩家进入精神时光屋触发超3、安排满月之夜触发巨猿等)。 - 在契机事件中做出了符合设定的行为或情绪反馈，则判定觉醒成功，输出华丽的首次变身剧情描写。 - 100%遵循以下原则来合理地安排<user>的每一次进化。 巨猿化 基础门槛：拥有赛亚人血统并且长有尾巴。 剧情触发契机：在夜晚或特定环境下，视网膜接收到满月发出的超过一千七百万布鲁兹波的光线(或主动使用气制造人造月亮)。 那美克星人巨大化 基础门槛：拥有那美克星人血统(战斗型)。 剧情触发契机：无特殊情感或环境要求，主动施展即可。 界王拳 基础门槛：身体状况达到极高标准(基础战斗力至少需达到8000以上)。 剧情触发契机：经历前往界王星接受北界王的直接指导，或完成了同等难度的极限控制力特训。 超级赛亚人1 基础门槛：拥有赛亚人血统，且基础战斗力达到常态瓶颈(300万以上)。 剧情触发契机：惨烈的绝境，遭遇强烈愤怒的情绪刺激(如目睹至亲死亡)；或因强烈的嫉妒与绝望",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-25"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "输出规则-结尾",
+      "name": "【输出规则:结尾】",
+      "aliases": [
+        "【输出规则:结尾】"
+      ],
+      "summary": "【输出规则:结尾】",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-22"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "输出规则-起始",
+      "name": "【输出规则:起始】",
+      "aliases": [
+        "【输出规则:起始】"
+      ],
+      "summary": "【输出规则:起始】",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-6"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "重大记忆存储",
+      "name": "重大记忆存储",
+      "aliases": [
+        "重大记忆存储"
+      ],
+      "summary": "{{setvar::世界书重大记忆存储:: 核心设定： (记录改变故事的大事件) }}",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-3"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "🗑️清空局部变量-别关",
+      "name": "🗑️清空局部变量(别关)",
+      "aliases": [
+        "🗑️清空局部变量(别关)"
+      ],
+      "summary": "{{setvar::combat_driver::}} {{setvar::status_format::}} {{setvar::世界书重大记忆存储::}} {{setvar::世界书日常记忆存储::}} {{setvar::世界书玩家身世背景::}}",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-0"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ]
+}

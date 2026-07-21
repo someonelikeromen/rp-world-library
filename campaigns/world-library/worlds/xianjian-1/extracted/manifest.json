@@ -1,0 +1,53 @@
+{
+  "schema": "xianjian-1-extracted-manifest-v1",
+  "worldId": "xianjian-1",
+  "layer": "extracted",
+  "archiveKind": "world",
+  "status": "generated-from-local-worldbook-index",
+  "canUseAsPiExtractedLayer": true,
+  "canReplaceCurated": false,
+  "sourceWorldview": "imports/worldviews/xianjian-1",
+  "indexes": {
+    "characters": "characters/index.json",
+    "abilities": "abilities/index.json",
+    "items": "items/index.json",
+    "factions": "factions/index.json",
+    "locations": "locations/index.json",
+    "events": "events/index.json",
+    "systems": "systems/index.json",
+    "knowledge": "knowledge/index.json",
+    "engineRules": "engine-rules/index.json",
+    "sources": "sources/index.json",
+    "relationships": "relationships/index.json",
+    "derivedEntityGraph": "graph/derived-entity-graph.json",
+    "derivedRelationshipIndex": "graph/derived-relationship-index.json",
+    "derivedContinuityIndex": "graph/derived-continuity-index.json",
+    "graphBuildReport": "graph/graph-build-report.json"
+  },
+  "counts": {
+    "sourceEntries": 298,
+    "sourceFiles": 1,
+    "characters": 45,
+    "abilities": 56,
+    "items": 9,
+    "factions": 5,
+    "locations": 17,
+    "events": 7,
+    "systems": 15,
+    "knowledge": 8,
+    "engineRules": 136,
+    "graphNodes": 162,
+    "graphEdges": 303,
+    "derivedMentionEdges": 303
+  },
+  "graphPolicy": {
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "introducesNewFacts": false,
+    "relationshipEdgesAreSignals": true
+  },
+  "generatedAt": "2026-07-20T16:57:24.940Z",
+  "repairedAt": "2026-07-20T17:04:48.799Z",
+  "graphRebuiltAt": "2026-07-21T01:35:04.123Z",
+  "characterRestoreAt": "2026-07-21T01:29:01.296Z"
+}

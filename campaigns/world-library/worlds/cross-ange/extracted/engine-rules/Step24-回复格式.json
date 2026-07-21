@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "tsyldlw_card.worldbook.json#entry-12"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "Step24 回复格式"
+      },
+      "aliases": [
+        "Step24 回复格式"
+      ],
+      "summary": "# Step24 回复格式 ## 更新格式 ```xml <UpdateVariable> <Analysis>英文分析，不超过80词</Analysis> <JSONPatch> [ {\"op\": \"replace\", \"path\": \"/关系网/萨莉亚/好感度\", \"value\": 58}, {\"op\": \"replace\", \"path\": \"/user/当前位置\", \"value\": \"阿尔泽纳尔 格纳库\"}, {\"op\": \"replace\", \"path\": \"/剧情/模式\", \"value\": \"推进\"}, {\"op\": \"replace\", \"path\": \"/剧情/章节内已完成事件\", \"value\": \"事件一: 大圣堂的揭露\"} ] </JSONPatch> </UpdateVariable> ``` ## JSON Patch 路径速查 ### user /user/名字 /user/身份 /user/当前位置 ### 关系网 (z.record — 可动态添加任何角色) /关系网/{角色名}/好感度 (0-100) /关系网/{角色名}/信任度 (0-100) /关系网/{角色名}/关系 ### 剧",
+      "description": "# Step24 回复格式 ## 更新格式 ```xml <UpdateVariable> <Analysis>英文分析，不超过80词</Analysis> <JSONPatch> [ {\"op\": \"replace\", \"path\": \"/关系网/萨莉亚/好感度\", \"value\": 58}, {\"op\": \"replace\", \"path\": \"/user/当前位置\", \"value\": \"阿尔泽纳尔 格纳库\"}, {\"op\": \"replace\", \"path\": \"/剧情/模式\", \"value\": \"推进\"}, {\"op\": \"replace\", \"path\": \"/剧情/章节内已完成事件\", \"value\": \"事件一: 大圣堂的揭露\"} ] </JSONPatch> </UpdateVariable> ``` ## JSON Patch 路径速查 ### user /user/名字 /user/身份 /user/当前位置 ### 关系网 (z.record — 可动态添加任何角色) /关系网/{角色名}/好感度 (0-100) /关系网/{角色名}/信任度 (0-100) /关系网/{角色名}/关系 ### 剧情 /剧情/当前卷 (1-25) /剧情/当前章节 /剧情/章节内已完成事件 /剧情/关键事件 /剧情/模式 (日常/推进/战斗/危机) /剧情/推进许可 (boolean) ### 沙盒状态 /沙盒状态/当前时间 /沙盒状态/当前地点 /沙盒状态/当前节点 /沙盒状态/时间推进次数 /沙盒状态/关键事件触发记录",
+      "sourceRef": "tsyldlw_card.worldbook.json#entry-12",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "Step24-回复格式"
+}

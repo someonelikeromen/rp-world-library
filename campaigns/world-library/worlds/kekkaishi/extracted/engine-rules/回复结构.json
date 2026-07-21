@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "jjs_card.worldbook.json#entry-12"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "回复结构"
+      },
+      "aliases": [
+        "回复结构"
+      ],
+      "summary": "<step24> ### 回复结构 1. 角色动作与对话（主内容） 2. `<UpdateVariable>` 变量更新块（末尾，隐藏于prompt，美化于显示） ### JSON Patch路径速查 /关系网/[角色名] → add（新增关系记录） /关系网/[角色名]/好感度 → replace: number (0-100) /关系网/[角色名]/信任度 → replace: number (0-100) /关系网/[角色名]/关系 → replace: string /剧情/当前卷 → replace: number (1-35) /剧情/当前章节 → replace: string /剧情/章节内已完成事件 → replace: string /剧情/关键事件 → replace: string /剧情/模式 → replace: string ('日常'|'推进') /剧情/推进许可 → replace: boolean /user/当前位置 → replace: string /user/阵营立场 → replace: number (-100 to 100) /沙盒状态/当前时间 → replace: str",
+      "description": "<step24> ### 回复结构 1. 角色动作与对话（主内容） 2. `<UpdateVariable>` 变量更新块（末尾，隐藏于prompt，美化于显示） ### JSON Patch路径速查 /关系网/[角色名] → add（新增关系记录） /关系网/[角色名]/好感度 → replace: number (0-100) /关系网/[角色名]/信任度 → replace: number (0-100) /关系网/[角色名]/关系 → replace: string /剧情/当前卷 → replace: number (1-35) /剧情/当前章节 → replace: string /剧情/章节内已完成事件 → replace: string /剧情/关键事件 → replace: string /剧情/模式 → replace: string ('日常'|'推进') /剧情/推进许可 → replace: boolean /user/当前位置 → replace: string /user/阵营立场 → replace: number (-100 to 100) /沙盒状态/当前时间 → replace: string /沙盒状态/当前地点 → replace: string /沙盒状态/当前节点 → replace: string /沙盒状态/时间推进次数 → replace: number /沙盒状态/关键事件触发记录 → replace: string ### 章节关键词速查 | 卷 | 关键词 | |-----|--------| | 1 | 结界师 第一卷 | | 2 | 结界师 第二卷 | ...（按实际35卷扩展） 更新规则: AI更新\"当前章节\"时使用上表关键词作为getwi名称。 </step24>",
+      "sourceRef": "jjs_card.worldbook.json#entry-12",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "回复结构"
+}

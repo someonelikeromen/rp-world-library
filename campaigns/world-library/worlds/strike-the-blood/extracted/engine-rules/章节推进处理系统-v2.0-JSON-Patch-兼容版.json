@@ -1,0 +1,27 @@
+{
+  "source_refs": [
+    "sxkx_card.worldbook.json#entry-158"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "章节推进处理系统 v2.0 (JSON Patch 兼容版)"
+      },
+      "aliases": [
+        "章节推进处理系统 v2.0 (JSON Patch 兼容版)",
+        "章节推进处理系统 v2.0"
+      ],
+      "summary": "```yaml --- # 章节推进处理系统 v2.0 (JSON Patch 兼容版) # 核心作用: 指导AI在判定章节结束后, 使用正确的MVU命令更新【主線章節名】 ## 判定逻辑 当一个主要事件弧光(例如击败一个重要boss, 解决一个核心谜题, 或剧情发生重大转折)结束后, AI应判定当前章节已完结。 ## 执行指令 判定章节完结后, AI必须在本次回复的末尾, 通过 <UpdateVariable> 的 <JSONPatch> 格式, 提交对 `/劇情進度/主線章節名` 的 `replace` 操作。 ## 可用章节列表 (参考) 在选择下一章节名时, 请参考以下列表, 确保剧情的连贯性。 <% /* 使用EJS模板动态注入你在<剧情章节>中定义的列表 */ const chapters_str = ` 第一卷 圣者的右腕 第二卷 战王的使者 第三卷 天使焚身 第四卷 苍蓝魔女的迷宫 第五卷 观测者之宴 第六卷 炼金术师归来 第七卷 焰光夜伯 第八卷 愚者与暴君 第九卷 黑剑巫 第十卷 玄冥神王的新娘 BD短篇 人偶师的遗产 第十一卷 逃亡的第四真祖 第十二卷 咎神骑士 第十三卷 深渊蔷薇 第十四卷 黄金时光 ",
+      "description": "```yaml --- # 章节推进处理系统 v2.0 (JSON Patch 兼容版) # 核心作用: 指导AI在判定章节结束后, 使用正确的MVU命令更新【主線章節名】 ## 判定逻辑 当一个主要事件弧光(例如击败一个重要boss, 解决一个核心谜题, 或剧情发生重大转折)结束后, AI应判定当前章节已完结。 ## 执行指令 判定章节完结后, AI必须在本次回复的末尾, 通过 <UpdateVariable> 的 <JSONPatch> 格式, 提交对 `/劇情進度/主線章節名` 的 `replace` 操作。 ## 可用章节列表 (参考) 在选择下一章节名时, 请参考以下列表, 确保剧情的连贯性。 <% /* 使用EJS模板动态注入你在<剧情章节>中定义的列表 */ const chapters_str = ` 第一卷 圣者的右腕 第二卷 战王的使者 第三卷 天使焚身 第四卷 苍蓝魔女的迷宫 第五卷 观测者之宴 第六卷 炼金术师归来 第七卷 焰光夜伯 第八卷 愚者与暴君 第九卷 黑剑巫 第十卷 玄冥神王的新娘 BD短篇 人偶师的遗产 第十一卷 逃亡的第四真祖 第十二卷 咎神骑士 第十三卷 深渊蔷薇 第十四卷 黄金时光 短篇 SS THE BLOOD BD短篇 APPEND2 彩昂祭的昼与夜 第十五卷 真祖大战 第十六卷 虚幻的圣骑士 第十七卷 折断的圣枪 第十八卷 真说女武神的王国 观测未来之影与仲夏的试炼 第十九卷 无尽夜宴 第二十卷 再会吸血姬 第二十一卷 十二眷兽与血之从者们 第二十二卷 晓的凯旋 `; const chapters = chapters_str.trim().split('\\n'); %> <chapter_reference> - <%= chapters.join('\\n- ') %> </chapter_reference> ## 输出示例 (AI必须遵循此格式) 当故事从 \"序章\" 推进到 \"第一卷\" 时, 你的 <JSONPatch> 中必须包含: ```json [ { \"op\": \"replace\", \"path\": \"/劇情進度/主線章節名\", \"value\": \"第一卷 圣者的右腕\" } ] ``` ``` #### **第三步：確認初始變量設定** 檢查你的 `[initvar]变量初始化` 條目，確保 `主線章節名` 的初始值是簡潔的。 ```yaml 劇情進度: 主線章節名: 序章 當前任務: {} ``` 將 `序章：命運的開機` 改為更簡潔的 `序章` 即可。這不是必須的，但能讓後續更新更清爽。 --- ### **療效總結** 通过以上改造，你的系統工作流程將變為： * **之前 (堵塞的)**: 1. AI推進劇情。 2. `章节剧情处理系统` 判定章節結束，發出一個AI聽不懂的 `key|value` 指令。 3. MVU系統完全沒收到指令，`主線章節名` 保持不變。 * **之後 (流暢的)**: 1. AI推進劇情。 2. 新的 `[System]章節推進指令` 指導AI：在判定章節結束後，**必須**生成一個標準的 `JSON Patch` 命令。 3. AI在 `<UpdateVariable>` 中輸出 `{ \"op\": \"replace\", \"path\": \"/劇情進度/主線",
+      "sourceRef": "sxkx_card.worldbook.json#entry-158",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "章节推进处理系统-v2.0-JSON-Patch-兼容版"
+}

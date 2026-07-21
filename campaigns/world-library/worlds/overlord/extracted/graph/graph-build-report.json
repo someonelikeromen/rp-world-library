@@ -1,0 +1,32 @@
+{
+  "schema": "overlord-graph-build-report-v1",
+  "worldId": "overlord",
+  "status": "completed",
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "validation": {
+    "jsonValid": true,
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "newFactsIntroduced": false,
+    "forbiddenBasenamesGenerated": false
+  },
+  "counts": {
+    "nodes": 70,
+    "edges": 116,
+    "nodeCounts": {
+      "characters": 32,
+      "abilities": 22,
+      "factions": 1,
+      "locations": 2,
+      "events": 5,
+      "knowledge": 8
+    },
+    "edgeCounts": {
+      "derived-text-mention": 116
+    },
+    "derivedMentionEdges": 116
+  },
+  "warnings": [
+    "Derived graph edges are navigation/search signals, not formal relationship facts."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "source_refs": [
+    "xklqs_card.worldbook.json#entry-197"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "育龙人/骑士生成模板"
+      },
+      "aliases": [
+        "育龙人/骑士生成模板",
+        "原创角色(OC)与龙族(帕尔)标准化生成协议"
+      ],
+      "summary": "<oc_generation_protocol> # 原创角色(OC)与龙族(帕尔)标准化生成协议 # 适用范围: 快速生成NPC、敌对单位或可攻略对象 generator_config: randomness_control: # 稀有度权重控制，避免战力崩坏 tier_distribution: - tier: \"育龙人 (Breeder)\" weight: 60% description: \"尚未觉醒固有武装的学生\" - tier: \"准龙骑士\" weight: 30% description: \"拥有固有武装，能进行空战\" - tier: \"龙骑士 (Dragonar)\" weight: 9% description: \"拥有圣龙(Maestro)与圣骑甲雏形\" - tier: \"圣天龙骑士 (Arch Dragonar)\" weight: 1% description: \"拥有完全体圣骑甲与特殊称号 (极稀有)\" faction_bias: # 阵营倾向生成逻辑 logic: \"根据当前剧情章节动态调整。如在学院祭期间，偏向生成'平民派'或'贵族派'学生；在野外生存战期间，偏向生成'帝国间谍'或'神秘结社'成员。\"",
+      "description": "<oc_generation_protocol> # 原创角色(OC)与龙族(帕尔)标准化生成协议 # 适用范围: 快速生成NPC、敌对单位或可攻略对象 generator_config: randomness_control: # 稀有度权重控制，避免战力崩坏 tier_distribution: - tier: \"育龙人 (Breeder)\" weight: 60% description: \"尚未觉醒固有武装的学生\" - tier: \"准龙骑士\" weight: 30% description: \"拥有固有武装，能进行空战\" - tier: \"龙骑士 (Dragonar)\" weight: 9% description: \"拥有圣龙(Maestro)与圣骑甲雏形\" - tier: \"圣天龙骑士 (Arch Dragonar)\" weight: 1% description: \"拥有完全体圣骑甲与特殊称号 (极稀有)\" faction_bias: # 阵营倾向生成逻辑 logic: \"根据当前剧情章节动态调整。如在学院祭期间，偏向生成'平民派'或'贵族派'学生；在野外生存战期间，偏向生成'帝国间谍'或'神秘结社'成员。\" template_human: name: \"育龙人/骑士生成模板\" structure: basic_info: name: \"${Name} · ${Surname}\" gender: \"${Male/Female}\" age: \"${15-18 for Students, 25+ for Teachers}\" affiliation: \"${安萨里邦学院/罗雷亚蒙骑士团/赛法洛斯帝国/艾斯帕达圣厅}\" rank: \"${基于tier_distribution生成}\" appearance: visual_tags: [\"${发色}\", \"${瞳色}\", \"${体型}\", \"${特色饰品}\"] starbrand_location: \"${身体部位} (星刻位置, 如手背/锁骨/大腿)\" uniform_style: \"${制服改造细节, 如: 缩短的裙摆/敞开的领口/披挂的斗篷}\" personality_matrix: archetype: \"${核心性格, 如: 傲娇/腹黑/热血/怯懦}\" quirk: \"${萌点或怪癖, 如: 极度路痴/甜食成瘾/看到血会晕/对龙有异常性癖}\" motivation: \"${加入学院的理由, 如: 为了家族荣耀/寻找失踪的哥哥/单纯想骑龙}\" combat_data: weapon: \"${固有武装类型, 如: 魔导枪/巨剑/鞭子/法杖}\" magic_affinity: \"${擅长的龙媒魔法属性: 火/风/地/水/圣/暗}\" combat_style: \"${战斗风格描述, 如: 游击型/肉盾型/炮台型}\" template_dragon: name: \"帕尔(龙族)生成模板\" structure: basic_info: name: \"${Name}\" species: \"${龙种类型: 地龙/水龙/圣龙/翼龙/稀有亚种}\" gender: \"${通常无性别, 除非是始祖/艾瓦隆血统}\" partner: \"${关联的育龙人姓名}\" visuals: scale_color: \"",
+      "sourceRef": "xklqs_card.worldbook.json#entry-197",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "育龙人-骑士生成模板"
+}

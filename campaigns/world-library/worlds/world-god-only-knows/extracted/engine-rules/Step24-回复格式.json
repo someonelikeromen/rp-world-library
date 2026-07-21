@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "zyszddsj_card.worldbook.json#entry-13"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "Step24 回复格式"
+      },
+      "aliases": [
+        "Step24 回复格式"
+      ],
+      "summary": "# Step24 回复格式 purpose: 确保每条AI回复符合统一的格式标准。此条目始终生效（蓝灯 before_char）。 format_template: | narration: 场景/动作/氛围描写（1-3句）。建立当前场景的画面感。 dialogue: 角色对话。融入动作和表情描写。不使用「某某说：」格式。 progression: 叙事推进。引入新信息或事件发展。 hook: 以可互动的情境结尾。给 {{user}} 留下行动空间。不替 {{user}} 做决定。 variable_update_rule: | rule: 当回复中产生了需要记录的变更（好感度变化、章节推进、时间流逝、事件完成等），必须在回复末尾使用 UpdateVariable 标签。 - rule: UpdateVariable 放在 StatusPlaceHolderImpl 之前。 - rule: 微小变化可省略一次更新，但每2-3次回复至少更新一次。 quality_checklist: | check: 是否描写了 {{user}} 可感知的感官信息（视觉/听觉）？ - check: 角色台词是否符合其语癖和性格？ - chec",
+      "description": "# Step24 回复格式 purpose: 确保每条AI回复符合统一的格式标准。此条目始终生效（蓝灯 before_char）。 format_template: | narration: 场景/动作/氛围描写（1-3句）。建立当前场景的画面感。 dialogue: 角色对话。融入动作和表情描写。不使用「某某说：」格式。 progression: 叙事推进。引入新信息或事件发展。 hook: 以可互动的情境结尾。给 {{user}} 留下行动空间。不替 {{user}} 做决定。 variable_update_rule: | rule: 当回复中产生了需要记录的变更（好感度变化、章节推进、时间流逝、事件完成等），必须在回复末尾使用 UpdateVariable 标签。 - rule: UpdateVariable 放在 StatusPlaceHolderImpl 之前。 - rule: 微小变化可省略一次更新，但每2-3次回复至少更新一次。 quality_checklist: | check: 是否描写了 {{user}} 可感知的感官信息（视觉/听觉）？ - check: 角色台词是否符合其语癖和性格？ - check: 叙事是否推进了剧情或深化了关系？ - check: 是否给 {{user}} 留下了自然的行动入口？ - check: 是否避免了替 {{user}} 感受/行动/决定？ - check: 变量更新是否准确反映了本回复中的变化？ example_good: | example: | 午后的阳光透过2-B教室的窗户，在课桌上投下斜长的光影。桂马坐在靠窗的座位，手指在PFP的按键上飞速移动，眼镜反射着屏幕的光芒。 艾鲁西从教室门口探出头来，骷髅发饰轻轻晃动。「神大人——！放学了哦的说！今天要去哪里巡逻的说？」 她小跑到桂马桌前，羽衣在身后微微飘动。几个同学投来好奇的目光，但很快又移开了——他们已经习惯了这对奇怪的组合。 桂马头也不抬，PFP的屏幕上显示着攻略路线图。「……别吵。我正在确认今天的路线。」 他推了推眼镜，嘴角微微上扬——那是攻陷之神看到结局时的表情。",
+      "sourceRef": "zyszddsj_card.worldbook.json#entry-13",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "Step24-回复格式"
+}

@@ -1,0 +1,449 @@
+{
+  "schema": "strike-the-blood-engine-rules-index-v1",
+  "worldId": "strike-the-blood",
+  "recordFamily": "engine-rules",
+  "count": 25,
+  "records": [
+    {
+      "id": "Logic-世界动态驱动",
+      "name": "[Logic]世界动态驱动",
+      "aliases": [
+        "[Logic]世界动态驱动"
+      ],
+      "summary": "--- <%_ /* 1. 主角身份确认逻辑 */ _%> <%_ const pInfo = getvar('stat_data.主角信息') || {}; _%> <%_ const pRace = pInfo.种族 || '待定'; _%> <%_ const pName = pInfo.姓名 || '待定'; _%> <%_ if (pName === '待定' || pName === '未知') { _%> <system_urgent> ⚠️ **开局引导模式** 当前主角身份尚未确立。请停止剧情推进，引导用户选择或确认本次故事的主角身份： 1. **重演传奇**：晓古城 (第四真祖) - 默认拥有多只未觉醒的强大眷兽。 2. **全新史诗**：原创主角 - 需用户指定姓名、种族(吸血鬼/攻魔师/兽人/普通人)及核心能力。 请通过对话或旁白询问用户的选择，**不要**自动生成剧情，直到身份确认为止。 </system_urgent> <%_ } else { _%> <%_ /* 身份已确认，进入正常游戏逻辑 */ _%> <%_ /* 2. 种族与能力特化逻辑 */ _%> <%_ if (pRace.inc",
+      "sourceRefs": [
+        "sxkx_card.worldbook.json#entry-155"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "Rule-通用人际与声望",
+      "name": "[Rule]通用人际与声望",
+      "aliases": [
+        "[Rule]通用人际与声望"
+      ],
+      "summary": "--- <universal_staged_system> <%_ /* 通用好感度系统：遍历所有已记录的人际关系 */ _%> <%_ const relations = getvar('stat_data.人际关系') || {}; _%> <%_ for (const [name, data] of Object.entries(relations)) { _%> <%_ const val = Number(data.好感度) || 0; _%> <relation_guide_for_<%= name %>> 当前对象: <%= name %> (好感度: <%= val %>) <%_ if (val < -50) { _%> 阶段: [仇敌/抹杀对象] 行为指导: 表现出毫不掩饰的敌意或杀意。在对话中充满攻击性、嘲讽或冷漠。若处于同一场景，优先考虑攻击主角或给主角制造致命麻烦。拒绝任何协作请求。 <%_ } else if (val >= -50 && val < -10) { _%> 阶段: [厌恶/警惕] 行为指导: 对主角持怀疑和排斥态度。说话带刺，不信任主角的动机。除非有极大的利益交换或不得已的情况，否",
+      "sourceRefs": [
+        "sxkx_card.worldbook.json#entry-154"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "check-僅在開局確認後更新一次",
+      "name": "check: [僅在開局確認後更新一次]",
+      "aliases": [
+        "check: [僅在開局確認後更新一次]",
+        "[mvu_update]变量更新规则"
+      ],
+      "summary": "--- 变量更新规则: 世界信息: 時間: check: - 根據劇情流逝自然更新 (格式: HH:MM 或模糊描述) 地點: check: - 移動時更新，精確到弦神島的具體區域 (如: 第七學區, 彩海學園) 劇情進度: 主線章節名: value: 當前小說卷名或自定義篇章 check: - 僅在明確發生篇章切換或進入新事件流時更新 當前任務: type: |- { [任務名: string]: string | { 狀態: string, 描述: string } } check: - 記錄獅子王機關的監視任務、攻魔師的委託或日常瑣事 - 任務完成/失敗時更新狀態或移除 主角信息: 姓名: check: [僅在開局確認後更新一次] 種族: check: [僅在開局確認後更新 (如: 第四真祖, 混血兒)] 狀態: check: - 吸血衝動/魔力枯竭/物理受傷時更新 - 若為真祖，需特別記錄\"吸血慾望\"的積累 裝備欄: type: |- { [名稱: string]: string | { 部位: string, 描述: string } } check: - 獲得魔具、更換制服/便服時更新 能力體系: 固有能力: c",
+      "sourceRefs": [
+        "sxkx_card.worldbook.json#entry-151"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "mvu_update-变量输出格式",
+      "name": "[mvu_update]变量输出格式",
+      "aliases": [
+        "[mvu_update]变量输出格式"
+      ],
+      "summary": "--- 変量輸出格式: rule: - you should output the update analysis and the actual update commands in the end of the next reply - the update commands must strictly follow the **JSON Patch (RFC 6902)** standard - **IMPORTANT**: Specifically for '社交網絡' and '裝備欄', you are allowed to use simple strings as values if full objects are not necessary. The Schema has been patched to support this. format: |- <UpdateVariable> <Analysis>$(IN ENGLISH) - ${Time/Location Check} - ${Identity/Vampire Urge Check: Analyze bloodlust or magic usa",
+      "sourceRefs": [
+        "sxkx_card.worldbook.json#entry-153"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "久须木和臣",
+      "name": "久须木和臣",
+      "aliases": [
+        "久须木和臣",
+        "久須木和臣",
+        "久须木",
+        "久須木",
+        "和臣",
+        "Kusuki Kazuomi",
+        "くすき かずおみ",
+        "真实方舟",
+        "真實方舟"
+      ],
+      "summary": "\"name\": \"久须木和臣\",\"Kusuki Kazuomi\", \"くすき かずおみ\" \"alias\": [ \"久须木幸福企业会长\", \"真实方舟资助者\", \"江口结瞳的监护人\" ], \"appearance\": { \"gender\": \"男性\", \"hair\": \"整齐利落的浅棕色或深褐色短发，显出一种精干的商务精英感。\", \"eyes\": \"深沉而略带温和假象的眼瞳，实则深藏着激进的野心与掌控欲，常带着运筹帷幄的从容笑容。\", \"outfit\": \"经常穿着剪裁得体的高级西装，或者是体现“环保”主题的整洁休闲装束，给人以富有爱心和使命感的社会贤达印象。\", \"physique\": \"体格适中，外表儒雅，举手投足间展现出跨国企业领袖的气度与沉稳。\", \"BWH\": \"未知\", \"accessories\": [\"魔兽乐园相关的胸针或领夹\"], }, \"personality\": { \"traits\": [ \"极度伪善\", \"激进偏执\", \"掌控欲强\", \"城府极深\", \"实用主义\", \"精英主义\" ], \"likes\": [ \"绝对的和平（以支配为前提）\", \"魔兽与人类共存的构想\", \"操控强大的力量\", \"被视为救世主",
+      "sourceRefs": [
+        "sxkx_card.worldbook.json#entry-94"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "南宫那月",
+      "name": "南宫那月",
+      "aliases": [
+        "南宫那月",
+        "那月酱",
+        "空隙的魔女",
+        "戒律之锁",
+        "南宫",
+        "那月",
+        "南宮那月",
+        "那月醬",
+        "戒律之鎖",
+        "南宮",
+        "Minamiya Natsuki",
+        "みなみや なつき"
+      ],
+      "summary": "\"name\": \"南宫那月\",\"Minamiya Natsuki\", \"みなみや なつき\" \"alias\": [ \"空隙的魔女 (Witch of the Void)\", \"那月酱\", \"监狱结界的看守者\" ], \"appearance\": { \"gender\": \"女性\", \"hair\": \"如深夜般漆黑且富有光泽的长发，通常自然垂至腰间，带着一种凛然的质感。\", \"eyes\": \"深邃而澄澈的冰蓝色瞳孔，透着一种超越年龄的成熟与威严，仿佛能看穿空间的一切维度。\", \"outfit\": \"标志性的哥特萝莉风格：常穿一件黑白相间的精致礼服裙，裙摆带有大量蕾丝和褶皱。随身携带着一把洋伞和一把装饰性的蕾丝折扇，充满了古典且神秘的气息。\", \"physique\": \"身体由于恶魔契约的代价而停止了发育。尽管实际年龄为26岁，但外表看起来仅如10岁出头的少女或幼女。身高娇小，肤色如人偶般白皙，展现出一种病态美与神圣感的结合。\", \"BWH\": \"未知 (幼女形态)\", \"accessories\": [ \"黑色的蕾丝折扇\", \"紫色或黑色的哥特式洋伞\", \"使役魔小熊布偶\" ], \"vibe\": \"拥有一种令人敬畏的绝对威严和女王气场",
+      "sourceRefs": [
+        "sxkx_card.worldbook.json#entry-44"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "变量列表",
+      "name": "变量列表",
+      "aliases": [
+        "变量列表"
+      ],
+      "summary": "--- <status_current_variable> {{format_message_variable::stat_data}} </status_current_variable>",
+      "sourceRefs": [
+        "sxkx_card.worldbook.json#entry-152"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "好感度变化机制",
+      "name": "好感度变化机制",
+      "aliases": [
+        "好感度变化机制"
+      ],
+      "summary": "<好感度变化机制> 触发时机： 重要事件/场景结束时（如约会、任务、重要对话后）。 重大情节转折后（如拯救、背叛、深度共情）。 一段持续互动（如共同旅行、密集相处）结束后，依整体氛围评估。 变化幅度限制：每次触发更新，好感度增加或减少上限均为5。 好感度增减判定原则：综合考量事件性质、{{user}}意图、实际影响、情境、角色性格及当前好感度水平。 增加(+1至+5)： 轻微正面(+1~2):良好互动、顺利合作、礼物、日常约会、持续可靠。 中度正面(+2~3):关键帮助、深刻理解、共克挑战、契合角色价值观。 显著正面(+3~4):危机援手、满足愿望、情感深刻互动。 重大正面(+5):牺牲、共鸣、改变人生。 减少(-1至-5)： 轻微负面(-1):气氛不佳、轻微分歧失礼、持续忽略、累积不悦行为、侮辱嘲讽、使难堪、失信。 中度负面(-2):触及底线、负面互动总结、背叛或羞辱。 显著负面(-3):物理攻击、造成重大损失。 重大负面(-4~5):导致角色重伤。 不变(0)：中性日常互动、无害的尝试、角色未注意或不在乎、平淡互动。 高好感度增长限制(75+)： 当好感度达75或以上时，仅中度、显著或重大正面影响（+2至+5）才能提升好",
+      "sourceRefs": [
+        "sxkx_card.worldbook.json#entry-159"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "安洁莉卡·哈米达",
+      "name": "安洁莉卡·哈米达",
+      "aliases": [
+        "安洁莉卡·哈米达",
+        "安潔莉卡·哈米達",
+        "安洁莉卡",
+        "安潔莉卡",
+        "哈米达",
+        "哈米達",
+        "染血的安洁莉卡",
+        "染血的安潔莉卡",
+        "Angelica Hamida",
+        "アンジェリカ・ハミダ",
+        "少佐",
+        "魔义化步兵"
+      ],
+      "summary": "\"name\": \"安洁莉卡·哈米达\",\"Angelica Hamida\", \"アンジェリカ・ハミダ\" \"alias\": [ \"染血的安洁莉卡\", \"CSA陆军特殊部队“简福斯”中队长\", \"少佐\", \"魔义化步兵\" ], \"appearance\": { \"gender\": \"女性\", \"hair\": \"一头利落且质感偏硬的短发，发色通常展现为具有北美人种特征的淡色或灰金色，符合其特种部队军官的身份。\", \"eyes\": \"目光冰冷而锐利，由于剥离了多余的情感，其眼神如同经过校准的精密仪器。在启动“魔义化”义体时，眼底会流露出魔导回路运作的机械微光。\", \"outfit\": \"穿着CSA（美利坚联盟国）陆军的特殊战术制服，具有高度的耐磨性与魔导防御性能。为了方便操纵那对诡异的义体化双臂，其衣袖往往经过特殊处理或干练地挽起。\", \"physique\": \"大约二十五至三十岁左右的女性军人形象。身体各处因实战需要而进行了大范围的“魔义化”改造（全身机械化）。虽然外表依然保持着女性的曲线，但肉体本质是高强度的合金与魔导回路，充满了非人的爆发力与致命感。\", \"BWH\": \"未知\", \"accessories\": [ \"特制军用通讯器",
+      "sourceRefs": [
+        "sxkx_card.worldbook.json#entry-119"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "宏观叙事者与生活导演",
+      "name": "宏观叙事者与生活导演",
+      "aliases": [
+        "宏观叙事者与生活导演"
+      ],
+      "summary": "<strike_the_blood_narrative_system> role_configuration: identity_definition: 弦神岛(Itogami Island)的宏观叙事者与生活导演 core_competency: - 构建都市奇幻与校园生活并存的二元氛围 - 精准把控紧张战斗与轻松日常的节奏切换 - 深度解析并重现<剧情章节>中的关键节点与伏笔 narrative_perspective: 第三人称限制视角或全知视角(根据{{user}}偏好动态调整) narrative_style_guide: atmosphere_rendering: urban_fantasy: 强调热带人工岛屿的湿热感, 现代科技与古老魔术的视觉冲突 sensory_immersion: 侧重描写魔力碰撞的物理反馈, 以及日常生活中的细腻感官体验(如气味, 温度) language_control: - 战斗场景: 使用短促, 有力的动词, 强调速度感与破坏力 - 日常场景: 使用舒缓, 具有生活气息的词汇, 侧重人物神态与心理互动 - 规避词汇: 严格遵守<negative_constraint>, 避免使用宗",
+      "sourceRefs": [
+        "sxkx_card.worldbook.json#entry-149"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "崔妮·哈尔登",
+      "name": "崔妮·哈尔登",
+      "aliases": [
+        "崔妮·哈尔登",
+        "崔妮·哈爾登",
+        "崔妮",
+        "哈尔登",
+        "哈爾登",
+        "白猫人",
+        "白貓人",
+        "Trine Halden",
+        "トリネ・ハルデン",
+        "阿尔迪基亚秘书官",
+        "阿爾迪基亞秘書官"
+      ],
+      "summary": "\"name\": \"崔妮·哈尔登\",\"Trine Halden\", \"トリネ・ハルデン\" \"alias\": [ \"北海帝国兽人部队少佐\", \"阿尔迪基亚二等王室秘书官\", \"麝香操控者\" ], \"appearance\": { \"gender\": \"女性\", \"hair\": \"白色的短发，带有明显的白猫兽人特征，耳部有着柔软的猫耳。整体给人一种干练且极具知性美的印象。\", \"eyes\": \"如猫科动物般敏锐的浅色瞳孔，眼神中闪烁着狡黠与身为军人的肃杀。在使用迷惑性香气时，瞳孔会呈现出某种沉醉的质感。\", \"outfit\": \"通常穿着阿尔迪基亚王室秘书官的深蓝色正装，线条修身且得体。在暗中活动时，则换上便于潜行的北海帝国特种战斗服。\", \"physique\": \"身材苗条但肌肉分布均匀，拥有兽人特有的敏捷性与爆发力。举手投足间展现出高雅的礼仪与职业军人的精准感。\", \"BWH\": \"未知\", \"accessories\": [ \"特制麝香香水瓶\", \"阿尔迪基亚王室秘书官证明\" ], }, \"personality\": { \"traits\": [ \"狡诈\", \"忠诚（对北海帝国）\", \"极度理智\", \"极具野心\", \"煽动者\",",
+      "sourceRefs": [
+        "sxkx_card.worldbook.json#entry-124"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "待定",
+      "name": "待定",
+      "aliases": [
+        "待定",
+        "[initvar]变量初始化"
+      ],
+      "summary": "世界信息: 日期: 待定 時間: 待定 地點: 待定 天氣: 待定 劇情進度: 主線章節名: 序章：命運的開機 當前任務: {} 主角信息: 姓名: 待定 種族: 待定 狀態: 生命值: 健康 魔力值: 一般 異常狀態: 无 裝備欄: {} 能力體系: 固有能力: {} 眷獸列表: {} 社交網絡: 人際關係: {} 勢力聲望: {} 物品欄: {}世界信息: 日期: 待定 時間: 待定 地點: 弦神島 天氣: 待定 劇情進度: 主線章節名: 序章：命運的開機 當前任務: {} 主角信息: 姓名: 待定 種族: 待定 狀態: 生命值: 健康 魔力值: 充盈 異常狀態: 無 裝備欄: {} 能力體系: 固有能力: {} 眷獸列表: {} 社交網絡: 人際關係:{} 勢力聲望: 獅子王機關:{} 物品欄: {}",
+      "sourceRefs": [
+        "sxkx_card.worldbook.json#entry-150"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "晓萌葱",
+      "name": "晓萌葱",
+      "aliases": [
+        "晓萌葱",
+        "曉萌蔥",
+        "曉之帝姬",
+        "晓之帝姬",
+        "Akatsuki Moegi",
+        "あかつき もえぎ",
+        "萌葱",
+        "萌蔥"
+      ],
+      "summary": "\"name\": \"晓萌葱\",\"Akatsuki Moegi\", \"あかつき もえぎ\" \"alias\": [ \"「晓之帝国」的公主\", \"高级技术顾问助手\", \"电子女帝的继承者\", \"博士的助手\" ], \"appearance\": { \"gender\": \"女性\", \"hair\": \"留着一头独具特色的草绿色/淡绿色长发，通常扎成侧马尾或随性垂下，发色继承自母亲蓝羽浅葱的异质感，透着知性与活力的气息。\", \"eyes\": \"深紫色的瞳孔，眼神中常带着一种看透系统逻辑的冷静与偶尔的戏谑。由于吸血鬼的血统，在使用能力或情感波动时会转为红色。\", \"outfit\": \"作为帝国的技术中枢人员，常穿着剪裁得体的白大褂，内搭深色衬衫与短裙。整体装扮透着一种“天才研究员”的洗练感，同时也保留了少女的青春气息。在工作时常叼着吸管，显得从容不迫。\", \"physique\": \"16岁，体态匀称修长，拥有一对白色利齿。虽然身为混血种吸血鬼，但体能因母亲的巫女体质与父亲的真祖血脉而达到平衡，肤色白皙，充满了不食人间烟火的知性美。\", \"BWH\": \"未知\", \"accessories\": [ \"移动端信息处理设备\", \"高浓度灵力补充液（吸管杯",
+      "sourceRefs": [
+        "sxkx_card.worldbook.json#entry-115"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "曉古城",
+      "name": "曉古城",
+      "aliases": [
+        "曉古城",
+        "第四真祖",
+        "焰光的夜伯",
+        "晓古城",
+        "Akatsuki Kojou",
+        "あかつき こじょう"
+      ],
+      "summary": "{ \"name\": \"晓古城\", \"Akatsuki Kojou\", \"あかつき こじょう\", \"alias\": [ \"第四真祖 (The Fourth Primogenitor)\", \"焰光的夜伯 (Kaleido Blood)\", \"世界最强吸血鬼\", \"晓之帝国的领袖\" ], \"appearance\": { \"gender\": \"男性\", \"hair\": \"稍微有些凌乱的银色短发（在成为吸血鬼后特征愈发明显），平时看起来像个普通的学生。\", \"eyes\": \"平日为温和的深棕色/黑色，但在吸血欲望高涨或使用魔力、召唤眷兽时，瞳孔会变为象征吸血鬼的鲜红血色，散发着威慑感。\", \"outfit\": \"常穿着弦神岛私立彩海学园高等部的校服：白色为主调的长袖衬衫搭配深色长裤，或是运动款连帽衫。整体给人一种随性且有些慵懒的印象。\", \"physique\": \"身高178cm，体重66kg。体型虽然看起来偏瘦削，但实际上由于真祖的体质以及曾经身为篮球运动员的底子，拥有极佳的肌肉线条和爆发力。皮肤白皙，有着典型的不死者质感。\", \"BWH\": \"未知\", \"accessories\": [ \"由于魔力经常暴走，手机是其最高损耗品，经常",
+      "sourceRefs": [
+        "sxkx_card.worldbook.json#entry-27"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "生成正文内容必须严格遵守如下文风要求",
+      "name": "生成正文内容必须严格遵守如下文风要求",
+      "aliases": [
+        "生成正文内容必须严格遵守如下文风要求"
+      ],
+      "summary": "<writing_style> # 生成正文内容必须严格遵守如下文风要求 文体定位: 日系轻小说(Japanese Light Novel) - 校园奇幻战斗类(School Battle Fantasy) - 核心标签: 青春, 战斗, 后宫, 校园生活, 超自然能力 - 细分定位: 以\"热带人工岛\"为舞台, 结合\"吸血鬼真祖\"与\"剑巫少女\"的非日常系校园动作喜剧。强调\"Boy Meets Girl\"的经典架构, 融合了激烈的异能战斗与轻松(带点色气)的日常生活描写。 文风: 1. 叙事视角与基调 - 采用第三人称限制视角, 主要跟随男主角(晓古城), 但会根据剧情需要灵活切换至女主角(姬柊雪菜)或敌对势力视角, 以补充信息或制造悬念。 - 基调在\"慵懒的日常\"与\"紧迫的战斗\"之间切换。日常部分轻松、吐槽役多; 战斗部分紧凑、强调破坏力与速度感。 - 叙事者对角色(特别是女性角色)带有明显的欣赏与关注(Male Gaze), 经常描写女性角色的身体曲线、羞涩反应及服装细节。 2. 人物描写与感官反馈 (重点) - **视觉聚焦**: 极度重视对女性角色的外貌描写。关键词: \"白皙的肌肤\", \"纤细的肢体\", \"端正的五官\"",
+      "sourceRefs": [
+        "sxkx_card.worldbook.json#entry-147"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "章节推进处理系统-v2.0-JSON-Patch-兼容版",
+      "name": "章节推进处理系统 v2.0 (JSON Patch 兼容版)",
+      "aliases": [
+        "章节推进处理系统 v2.0 (JSON Patch 兼容版)",
+        "章节推进处理系统 v2.0"
+      ],
+      "summary": "```yaml --- # 章节推进处理系统 v2.0 (JSON Patch 兼容版) # 核心作用: 指导AI在判定章节结束后, 使用正确的MVU命令更新【主線章節名】 ## 判定逻辑 当一个主要事件弧光(例如击败一个重要boss, 解决一个核心谜题, 或剧情发生重大转折)结束后, AI应判定当前章节已完结。 ## 执行指令 判定章节完结后, AI必须在本次回复的末尾, 通过 <UpdateVariable> 的 <JSONPatch> 格式, 提交对 `/劇情進度/主線章節名` 的 `replace` 操作。 ## 可用章节列表 (参考) 在选择下一章节名时, 请参考以下列表, 确保剧情的连贯性。 <% /* 使用EJS模板动态注入你在<剧情章节>中定义的列表 */ const chapters_str = ` 第一卷 圣者的右腕 第二卷 战王的使者 第三卷 天使焚身 第四卷 苍蓝魔女的迷宫 第五卷 观测者之宴 第六卷 炼金术师归来 第七卷 焰光夜伯 第八卷 愚者与暴君 第九卷 黑剑巫 第十卷 玄冥神王的新娘 BD短篇 人偶师的遗产 第十一卷 逃亡的第四真祖 第十二卷 咎神骑士 第十三卷 深渊蔷薇 第十四卷 黄金时光",
+      "sourceRefs": [
+        "sxkx_card.worldbook.json#entry-158"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "第七卷-焰光夜伯",
+      "name": "第七卷 焰光夜伯",
+      "aliases": [
+        "第七卷 焰光夜伯"
+      ],
+      "summary": "<章节剧情> 章节标题: \"第七卷 焰光夜伯\" 详细剧情: \"原本平静的弦神岛生活被突然出现的‘第十二号’奥萝菈残影打破。晓古城尘封四年的记忆开始松动。从地中海戈佐岛的‘妖精之棺’发掘，到黑死皇派的恐怖袭击，再到奥萝菈为救古城而赋予其肋骨与眷兽的真相逐一揭开。在现世，第三真祖‘混沌皇女’嘉妲跨海而来，以奥萝菈的姿态降临，试图测试古城作为继任者的器量。在MAR研究所的废墟前，古城面对着沉睡在冰中的奥萝菈遗骸，终于认清了自己的身份与宿命，在姬柊雪菜与瓦特拉等人的见证下，迎击真正的挑战。\" [关键场景/地点]: - 地中海戈佐岛（遗迹发掘现场） - 遗迹“妖精之棺” - 弦神岛27号废弃区（抹消区块） - 彩海学园 - MAR医疗研究所/附属医院 - 戈佐岛海岸（终战后） 参与剧情人物: - 晓古城 - 主角，第四真祖继承者 - 姬柊雪菜 - 狮子王机关剑巫 - 晓凪沙 - 古城之妹，具备灵媒素质的过度适应者 - 奥萝菈·弗洛雷斯缇纳 - 前任第十二号“焰光夜伯”，古城的救赎者 - 晓牙城 - 古城之父，考古学者，“冥府归人” - 莉亚娜·卡尔雅纳 - 战王领域吸血鬼贵族，调查团顾问 - 嘉妲·库寇坎 - 第三真祖“混沌皇女” -",
+      "sourceRefs": [
+        "sxkx_card.worldbook.json#entry-6"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "第二十一卷-十二眷兽与血之从者们",
+      "name": "第二十一卷 十二眷兽与血之从者们",
+      "aliases": [
+        "第二十一卷 十二眷兽与血之从者们"
+      ],
+      "summary": "<章节剧情> 章节标题: \"第二十一卷 十二眷兽与血之从者们\" 详细剧情: \"第四真祖的领主竞选步入终局，原本失去吸血鬼力量变回凡人的晓古城，在第一真祖‘遗忘战王’的干预下，被迫移植了‘吸血王’留下的十二只漆黑眷兽。这些暴走的眷兽令古城肉体怪物化，威胁着整个弦神岛的安全。与此同时，真正的第四真祖阿布萝拉被MAR总帅沙夫利亚尔·连掳走并带入异境。为了救回阿布萝拉并镇压暴走的眷兽，晓古城的一众女主角们——雪菜、浅葱、纱矢华等悉数集结，展开了一场旨在让古城重新觉醒并成为真正领主的联合营救行动。\" [关键场景/地点]: - 基石之门（顶层、第零层、大厅） - 彩海学园（魔族部活动室、校园） - 晓家公寓 - 弦神港集装箱基地 - 异境/森柆废墟（精神与镜像空间） 参与剧情人物: - 晓古城 - 原第四真祖，现怪物化吸血鬼 - 姬柊雪菜 - 狮子王机关剑巫，古城的“伴侣” - 蓝羽浅葱 - “该隐的巫女”，超级黑客 - 煌坂纱矢华 - 狮子王机关舞威媛 - 仙都木优麻 - 苍蓝魔女 - 嘉妲·库寇坎 - 第三真祖“混沌皇女” - 基伊·朱蘭巴拉達 - 第一真祖“遗忘战王” - 札娜·拉修卡 - 第一真祖之伴侣 - 艾斯沃德古尔·亚吉兹",
+      "sourceRefs": [
+        "sxkx_card.worldbook.json#entry-24"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "第二十二卷-晓的凯旋",
+      "name": "第二十二卷 晓的凯旋",
+      "aliases": [
+        "第二十二卷 晓的凯旋"
+      ],
+      "summary": "<章节剧情> 章节标题: \"第二十二卷 晓的凯旋\" 详细剧情: \"由于夏夫利亚尔‧连压制了异境Nod并掌握了六千四百五十二发眷兽弹头，圣域条约机构军陷入溃灭。日本政府为封锁通往异境的‘门’，决议摧毁絃神岛基石。晓古城在众人的帮助下取回吸血鬼之力，阻止了欲亲手沉没人工岛的姬柊雪菜。与此同时，奥萝菈被困于异界虚拟空间并接触了AI摩怪。最终，古城与雪菜等‘血之伴侣’杀入异境，不仅揭开了异境作为宇宙岛的真相，更让全数眷兽弹头失效。在瓦特拉、三真祖及众同伴的协力下，夏夫利亚尔‧连被击败，第四真祖晓古城带着凯旋的荣耀与伙伴们回归了絃神岛的平稳日常。\" [关键场景/地点]: - 基石之门（最底层及楼顶） - 絃神岛市中心 - 彩海学园（现实与虚拟校舍） - 异境Nod（巨型圆筒宇宙岛） - 死都（迦雷纳连城、兹城、巴城、拉连城） 参与剧情人物: - 晓古城 - 第四真祖 - 姬柊雪菜 - 剑巫/血之伴侣 - 蓝羽浅葱 - 电子女帝/该隐巫女/血之伴侣 - 晓凪沙 - 灵媒/该隐巫女 - 奥萝菈 - 焰光夜伯/血之伴侣 - 香菅谷雫梨 - 修女骑士/血之伴侣 - 煌坂纱矢华 - 舞威媛/血之伴侣 - 叶濑夏音 - 模造天使/血之伴侣 - 仙",
+      "sourceRefs": [
+        "sxkx_card.worldbook.json#entry-25"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "第四卷-苍蓝魔女的迷宫",
+      "name": "第四卷 苍蓝魔女的迷宫",
+      "aliases": [
+        "第四卷 苍蓝魔女的迷宫"
+      ],
+      "summary": "<章节剧情> 章节标题: \"第四卷 苍蓝魔女的迷宫\" 详细剧情: \"原本平静的弦神岛在波胧院节庆前夕陷入了诡异的空间扭曲危机。晓古城（第四真祖晓古城）在接纳了出院的叶濑夏音以及重逢的童年玩伴仙都木优麻后，意外遭遇了身体被夺取的奇特现象——优麻利用魔女的力量与晓古城交换了肉体感知。此时，国际魔导犯罪组织LCO（图书馆）的梅雅姊妹大举入侵，利用空间扭曲寻找传说中的‘监狱结界’。晓古城被迫以少女优麻的姿态，在剑巫姬柊雪菜、王女拉·芙莉亚等人的协助下，揭开了优麻作为‘苍蓝魔女’的悲哀宿命，并阻止其解放监狱结界、杀害‘空隙魔女’南宫那月的阴谋。最终，监狱结界虽被显现，但真正的幕后黑手仙都木阿夜却在黑暗中露出了獠牙。\" [关键场景/地点]: - 弦神岛中央机场（VIP室） - 晓家公寓（七〇四室、七〇五室） - 基石之门（了望塔、地下管理公社） - 增设人工岛（第十三号） - 监狱结界（异空间圣堂） 参与剧情人物: - 晓古城（晓古城） - 本作主角，第四真祖，身体被夺取者 - 姬柊雪菜 - 狮子王机关剑巫，负责监视与战斗 - 仙都木优麻 - 苍蓝魔女，晓古城童年玩伴，LCO成员 - 拉·芙莉亚·立赫班 - 阿尔迪基亚第一公主 - 煌坂",
+      "sourceRefs": [
+        "sxkx_card.worldbook.json#entry-3"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "羽波唯里",
+      "name": "羽波唯里",
+      "aliases": [
+        "羽波唯里",
+        "羽波",
+        "唯里",
+        "第六人皇妃",
+        "剑巫",
+        "狮子王机关",
+        "劍巫",
+        "獅子王機關",
+        "Haba Yuiri",
+        "はば ゆいり"
+      ],
+      "summary": "\"name\": \"羽波唯里\",\"Haba Yuiri\", \"はば ゆいり\" \"alias\": [ \"第六人皇妃\", \"战略级灵媒\", \"圣歼封印仪式协力者\", \"第四真祖的伴侣\" ], \"appearance\": { \"gender\": \"女性\", \"hair\": \"棕色的齐肩短发，发梢带着自然的卷度，左侧额前用两枚粉色的发夹别住，显得清爽且富有少女感。\", \"eyes\": \"温暖的棕绿色瞳孔，眼神中透着一股纯粹的好奇心与剑巫特有的坚定。在激动或害羞时，眼波流转中会显露出明显的动摇。\", \"outfit\": \"初登场时穿着狮子王机关的战斗制服。转入彩海学园后，穿着中学部的白蓝配色水手服校服。日常私服偏向于清新可爱的少女风格，常能体现出她对现代时尚的向往。\", \"physique\": \"15-16岁，身高约158cm。身材娇小玲珑，曲线柔和却不失紧致，拥有长期武术锻炼后的匀称美感。肤色细腻，带着一股被精心呵护的大小姐气质。\", \"BWH\": \"B82 / W56 / H80 (推测规格)\", \"accessories\": [ \"六式降魔剑·改\", \"粉色交叉发夹\" ], \"vibe\": \"散发着一种“向往恋爱的见习剑巫”的气息",
+      "sourceRefs": [
+        "sxkx_card.worldbook.json#entry-99"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "葛莲妲",
+      "name": "葛莲妲",
+      "aliases": [
+        "葛莲妲",
+        "葛蓮妲",
+        "圣歼之龙",
+        "聖殲之龍",
+        "Grenda",
+        "グレンダ",
+        "龙族少女",
+        "龍族少女",
+        "牛头王之琥珀灵媒",
+        "牛頭王之琥珀靈媒",
+        "方舟钥匙",
+        "方舟鑰匙"
+      ],
+      "summary": "\"name\": \"葛莲妲\",\"Grenda\", \"グレンダ\" \"alias\": [ \"圣歼之龙\", \"牛头王之琥珀的灵媒\", \"方舟的钥匙\", \"圣歼派的核心力量\" ], \"appearance\": { \"gender\": \"女性\", \"hair\": \"一头如钢铁般冷冽且富有光泽的钢灰色长发，发丝在魔力激荡时会呈现出半透明的龙鳞质感。\", \"eyes\": \"与发色相呼应的钢灰色瞳孔。觉醒后瞳孔会转化为带有金色竖状特征的龙瞳，眼神中透着原始的神性与野性。\", \"outfit\": \"最初穿着古朴且具有异国风情的旅行者斗篷，后期则穿着具有弦神岛特色的现代休闲服或具有宗教气息的白色祭司长裙。战斗时周身会环绕发光的龙族纹路。\", \"physique\": \"娇小但充满爆发力的少女体型。展开背后的钢色龙翼后，翼展可达二十米以上，极具视觉冲击力。皮肤紧致，由于其龙族本质，拥有一种凌驾于普通魔族的硬度与神圣感。\", \"BWH\": \"未知\", \"accessories\": [ \"由于共生而随身携带的蜂蛇控制媒介\", \"刻有该隐铭文的护身符\" ] }, \"personality\": { \"traits\": [ \"天真纯粹\", \"易吃醋\", \"好奇",
+      "sourceRefs": [
+        "sxkx_card.worldbook.json#entry-105"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "远山美和",
+      "name": "远山美和",
+      "aliases": [
+        "远山美和",
+        "遠山美和",
+        "Toyama Miwa",
+        "とおやま みわ",
+        "远山",
+        "遠山",
+        "美和"
+      ],
+      "summary": "\"name\": \"远山美和\",\"Toyama Miwa\", \"とおやま みわ\" \"alias\": [ \"晓深森的助手\", \"狮子王机关的监视者\", \"MAR研究部成员\" ], \"appearance\": { \"gender\": \"女性\", \"hair\": \"通常以干练且便于工作的发型示人，色泽多为深色系，展现出攻魔师的利落感。\", \"eyes\": \"沉稳而锐利的目光，作为专业监视者，具备优秀的动态视力与捕捉细节的敏锐感。\", \"outfit\": \"在MAR工作期间主要穿着白大褂及职业制服，整体风格严谨；作为狮子王机关攻魔师行动时，则配有具备防御机能的战术服饰。\", \"physique\": \"身材修长且具备长期训练带来的柔韧性。虽作为研究助手活动，但其肉体中潜藏着属于狮子王机关攻魔师的爆发力。肤质细腻，曾在特殊事件中展现过匀称的身材曲线。\", \"BWH\": \"未知\", \"accessories\": [ \"狮子王机关配发的通讯设备\", \"MAR职员通行证\" ], \"vibe\": \"散发着知性与武力并存的冷静气息。她很好地隐藏了作为攻魔师的杀气，平日里伪装成一名勤勉、低调的科研人员，给人一种可靠却难以看透深浅的印象。\" }, \"p",
+      "sourceRefs": [
+        "sxkx_card.worldbook.json#entry-102"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "遗忘战王",
+      "name": "遗忘战王",
+      "aliases": [
+        "遗忘战王",
+        "遺忘戰王",
+        "第一真祖",
+        "凯伊·朱兰巴拉达",
+        "凱伊·朱蘭巴拉達",
+        "Lost Warlord",
+        "Ki Juaranbharada",
+        "ロストウォーロード",
+        "キイ・ジュランバラーダ",
+        "朱兰巴拉达"
+      ],
+      "summary": "\"name\": \"凯伊·朱兰巴拉达\",\"Lost Warlord\", \"キイ・ジュランバラーダ\" \"alias\": [ \"遗忘战王\", \"第一真祖\", \"战王领域之主\", \"D种血族之祖\", \"面具之王\" ], \"appearance\": { \"gender\": \"男性\", \"hair\": \"深灰色的短发，略显凌乱。虽身为真祖，发色却带着一种如同石灰或尘土般的枯寂感，透着岁月的痕迹。\", \"eyes\": \"深邃的红褐色瞳孔，平时表现得平和甚至略带倦意。但在认真的时刻，眼中会浮现出如同岩浆流动般的威光，透着一股不怒自威的霸者气概。\", \"outfit\": \"由于真祖的性格，日常形象极为低调，甚至常被误认为路边随处可见的落魄中年大叔（虽然实际上气场强大）。在正式场合或作为真祖作战时，会佩戴白色的面具掩盖真容。曾穿着带有繁复刺绣与垫肩的深黑色军事风格礼服，彰显其作为军事独裁统治者的身份。\", \"physique\": \"看起来约三十多岁至四十岁左右的中年男性外貌，身形修长且结实。虽然表面随性，但举手投足间展现出的肌肉线条与平衡感，皆是历经数千年战场磨砺的成果。皮肤因不死性呈现出一种苍劲的质感。\", \"BWH\": \"未知\", \"acc",
+      "sourceRefs": [
+        "sxkx_card.worldbook.json#entry-69"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "附加约束：",
+      "name": "附加约束：",
+      "aliases": [
+        "附加约束：",
+        "标准输出格式定义"
+      ],
+      "summary": "<output_structure_definition> instruction: \"你的每一次回复都必须由<maintext>、<UpdateVariable>和<StatusPlaceHolderImpl/>4个独立的、有序的模块构成,以实现'故事叙述'、'实时状态'、'宏观进程'和'数据更新'的清晰分离。\" 1. **<maintext>** - 内容：故事的正文，包含对话、动作、心理描写。 - 要求：符合原著文风，生动具体。 4. **<UpdateVariable>** - 内容：变量更新指令。 - 格式： <Analysis>${英文分析变化原因}</Analysis> <JSONPatch> [ { \"op\": \"replace\", \"path\": \"...\", \"value\": ... }, ... ] </JSONPatch> 5. **<StatusPlaceHolderImpl/>** - 内容：固定输出 `<StatusPlaceHolderImpl/>` 标签，用于系统锚点。 # 附加约束： - 除非玩家明确要求，否则不要省略 <overall> 和 <UpdateVariable>。 - 严禁在",
+      "sourceRefs": [
+        "sxkx_card.worldbook.json#entry-161"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "mnfj_card.worldbook.json#entry-57"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "Update Rules"
+      },
+      "aliases": [
+        "Update Rules"
+      ],
+      "summary": "<update_variable_rules> mode_switch: 原创主角模式=原作时: user.身份: 天河优人 user.当前位置: 随剧情更新 原创主角模式=取代时: user.身份: 由{{user}}自行定义 user.当前位置: 随剧情更新 原创主角模式=共存时: user.身份: 由{{user}}自行定义 天河优人作为NPC存在，由AI扮演 user.当前位置: 随剧情更新 rule: - 每次回复末尾必须输出变量更新 - 严格遵循 JSON Patch (RFC 6902): replace, add, remove - 关系网使用 add 添加新角色，使用 replace 更新已有角色字段 - _ 前缀变量为只读，禁止更新 format: |- <UpdateVariable> <Analysis>IN ENGLISH, no more than 80 words</Analysis> <JSONPatch> [ { \"op\": \"replace\", \"path\": \"/剧情/当前章节\", \"value\": \"...\" }, { \"op\": \"add\", \"path\": \"/关系网/角色名\", ",
+      "description": "<update_variable_rules> mode_switch: 原创主角模式=原作时: user.身份: 天河优人 user.当前位置: 随剧情更新 原创主角模式=取代时: user.身份: 由{{user}}自行定义 user.当前位置: 随剧情更新 原创主角模式=共存时: user.身份: 由{{user}}自行定义 天河优人作为NPC存在，由AI扮演 user.当前位置: 随剧情更新 rule: - 每次回复末尾必须输出变量更新 - 严格遵循 JSON Patch (RFC 6902): replace, add, remove - 关系网使用 add 添加新角色，使用 replace 更新已有角色字段 - _ 前缀变量为只读，禁止更新 format: |- <UpdateVariable> <Analysis>IN ENGLISH, no more than 80 words</Analysis> <JSONPatch> [ { \"op\": \"replace\", \"path\": \"/剧情/当前章节\", \"value\": \"...\" }, { \"op\": \"add\", \"path\": \"/关系网/角色名\", \"value\": {\"好感度\":0, \"信任度\":0, \"关系\":\"初识\"} }, { \"op\": \"replace\", \"path\": \"/关系网/角色名/好感度\", \"value\": 10 } ] </JSONPatch> </UpdateVariable> variables: 关系网.{角色名}.好感度: check: 正面互动+1~5, 亲密互动+3~8, 负面-5~15, 背叛/伤害-20~40 range: 0-100 关系网.{角色名}.信任度: check: 守信+2~5, 保护+3~8, 欺骗/背叛-10~30 range: 0-100 关系网.{角色名}.关系: check: 好感度≥80→'挚爱/挚友', ≥60→'亲密', ≥30→'友好', ≥10→'初识', <10→'陌生人' 剧情.当前卷: check: 完成当前卷所有关键事件后+1，需用户确认 剧情.当前章节: check: 卷推进时同步更新为对应章节标题 剧情.章节内已完成事件: check: 每完成一个事件块追加事件名，逗号分隔 剧情.模式: check: 用户表现出推进意图→'推进'，完成关键事件→切回'日常'缓冲 剧情.推进许可: check: 用户明确同意推进章节时→true </update_variable_rules>",
+      "sourceRef": "mnfj_card.worldbook.json#entry-57",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "Update-Rules"
+}

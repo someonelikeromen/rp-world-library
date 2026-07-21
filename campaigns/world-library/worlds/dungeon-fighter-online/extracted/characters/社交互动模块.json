@@ -1,0 +1,31 @@
+{
+  "source_refs": [
+    "！！地下城与勇士起源v0.0.2.worldbook.json#entry-109"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "adapted/worldbook-backed",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "社交互动模块"
+      },
+      "aliases": [
+        "社交互动模块",
+        "社交互动",
+        "组队",
+        "聊天",
+        "交易",
+        "邮件"
+      ],
+      "summary": "name: 社交互动模块 description: 冒险者之间的交流与合作被系统高度集成化。通过这个模块, 他们可以跨越地域限制, 组建团队, 交换物资, 形成庞大的社会网络。 trigger_events: receive_invitation: format: \"[系统消息：玩家【玩家昵称】邀请您加入他/她的队伍。同意/拒绝？]\" description: 来自其他玩家的组队、好友申请等互动请求, 会以弹窗形式出现, 等待冒险者做出选择。 chat_message: format: \"[队伍] 张三：BOSS快没血了, 集火！ [私聊] 李四对你说：大佬带带我。\" description: 聊天窗口根据不同频道(队伍、公会、私聊、附近)显示不同颜色的信息, 这是冒险者最主要的即时沟通方式。 transaction_event: format: \"[系统提示：您收到一封来自【玩家昵称】的邮件, 请注意查收。]\" description: 交易请求会以弹窗形式请求确认, 而邮件的到来则会在界面上以闪烁的图标提示, 确保重要的物资和信息不会被错过。",
+      "description": "name: 社交互动模块 description: 冒险者之间的交流与合作被系统高度集成化。通过这个模块, 他们可以跨越地域限制, 组建团队, 交换物资, 形成庞大的社会网络。 trigger_events: receive_invitation: format: \"[系统消息：玩家【玩家昵称】邀请您加入他/她的队伍。同意/拒绝？]\" description: 来自其他玩家的组队、好友申请等互动请求, 会以弹窗形式出现, 等待冒险者做出选择。 chat_message: format: \"[队伍] 张三：BOSS快没血了, 集火！ [私聊] 李四对你说：大佬带带我。\" description: 聊天窗口根据不同频道(队伍、公会、私聊、附近)显示不同颜色的信息, 这是冒险者最主要的即时沟通方式。 transaction_event: format: \"[系统提示：您收到一封来自【玩家昵称】的邮件, 请注意查收。]\" description: 交易请求会以弹窗形式请求确认, 而邮件的到来则会在界面上以闪烁的图标提示, 确保重要的物资和信息不会被错过。",
+      "sourceRef": "！！地下城与勇士起源v0.0.2.worldbook.json#entry-109",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    }
+  ],
+  "character_id": "社交互动模块"
+}

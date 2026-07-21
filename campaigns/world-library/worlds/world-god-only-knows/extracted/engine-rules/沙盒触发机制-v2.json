@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "zyszddsj_card.worldbook.json#entry-94"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "沙盒触发机制 v2"
+      },
+      "aliases": [
+        "沙盒触发机制 v2"
+      ],
+      "summary": "# 沙盒触发机制 v2 # 扩展触发类型定义和事件-条件映射 trigger_types: | 时间触发: 当沙盒时间推进到特定时间点时触发 地点触发: 当{{user}}到达特定地点时触发 关键词触发: 当对话中出现特定关键词时触发 变量触发: 当MVU变量达到特定值时触发 组合触发: 需要同时满足多个条件才能触发 trigger_mapping: | 艾鲁西登场: \"condition: \\\"沙盒状态.当前时间 like \\\\\\\"第1卷初期%\\\\\\\" AND user.当前位置 = \\\\\\\"舞岛学园\\\\\\\"\\\"\" 哈克雅登场: \"condition: \\\"剧情.当前卷 >= 3 AND 对话中含\\\\\\\"驱魂\\\\\\\"或\\\\\\\"恶魔\\\\\\\"\\\"\" 女神觉醒征兆: | =80\"> condition: \"剧情.当前篇章 = \\\"女神篇\\\" AND 关系网.{角色}.好感度 >= 80\" Vintage来袭: \"condition: \\\"剧情.当前卷 >= 10 AND user.当前位置 in [\\\\\\\"舞岛学园\\\\\\\",\\\\\\\"鸣泽市\\\\\\\"]\\\"\" 萨堤尔浮现: \"condition: \\\"剧情.当前篇章 = \\\\\\\"过去",
+      "description": "# 沙盒触发机制 v2 # 扩展触发类型定义和事件-条件映射 trigger_types: | 时间触发: 当沙盒时间推进到特定时间点时触发 地点触发: 当{{user}}到达特定地点时触发 关键词触发: 当对话中出现特定关键词时触发 变量触发: 当MVU变量达到特定值时触发 组合触发: 需要同时满足多个条件才能触发 trigger_mapping: | 艾鲁西登场: \"condition: \\\"沙盒状态.当前时间 like \\\\\\\"第1卷初期%\\\\\\\" AND user.当前位置 = \\\\\\\"舞岛学园\\\\\\\"\\\"\" 哈克雅登场: \"condition: \\\"剧情.当前卷 >= 3 AND 对话中含\\\\\\\"驱魂\\\\\\\"或\\\\\\\"恶魔\\\\\\\"\\\"\" 女神觉醒征兆: | =80\"> condition: \"剧情.当前篇章 = \\\"女神篇\\\" AND 关系网.{角色}.好感度 >= 80\" Vintage来袭: \"condition: \\\"剧情.当前卷 >= 10 AND user.当前位置 in [\\\\\\\"舞岛学园\\\\\\\",\\\\\\\"鸣泽市\\\\\\\"]\\\"\" 萨堤尔浮现: \"condition: \\\"剧情.当前篇章 = \\\\\\\"过去篇\\\\\\\" AND 对话中含触发关键词\\\"\"",
+      "sourceRef": "zyszddsj_card.worldbook.json#entry-94",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "沙盒触发机制-v2"
+}

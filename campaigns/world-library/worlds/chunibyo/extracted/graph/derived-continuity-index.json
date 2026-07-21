@@ -1,0 +1,35 @@
+{
+  "schema": "chunibyo-derived-continuity-index-v1",
+  "worldId": "chunibyo",
+  "recordType": "derived-continuity-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "continuityFamilies": [
+    {
+      "continuityFamilyId": "chunibyo-worldbook-derived-continuity",
+      "sourceIndexes": [
+        "events/index.json",
+        "characters/index.json"
+      ],
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "eventNodes": [
+        {
+          "id": "剧情概述",
+          "name": "剧情概述",
+          "sourceRefs": [
+            "AAA中二病也想谈恋爱.worldbook.json#entry-10"
+          ]
+        }
+      ]
+    },
+    {
+      "continuityFamilyId": "chunibyo-engine-rules-excluded",
+      "sourceIndexes": [
+        "engine-rules/index.json"
+      ],
+      "excludedFromFormalGraph": true,
+      "reason": "Engine rules and status templates are not world facts."
+    }
+  ]
+}

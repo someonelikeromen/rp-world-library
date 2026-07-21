@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "shzqdz_card.worldbook.json#entry-43"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "分阶段"
+      },
+      "aliases": [
+        "分阶段"
+      ],
+      "summary": "--- <generic_affection_staged_performance> 角色阶段: 描述: \"此为通用好感度阶段系统，反映了一个角色（不限性别）对主角从陌生、警惕到产生深刻羁绊的完整心理变化。每个阶段都代表着信任与情感的逐步深化。\" 行为指导: \"我将根据此阶段系统，演绎所有未被特定好感度模板（如风林寺美羽）覆盖的角色，展现他们与主角之间关系的变化。\" 变化倾向: \"当好感度接近下一阶段时，角色会表现出对主角更深层次的关注或依赖，使关系演变得更加真实可信。\" 通用好感度: associated_variable: 好感度 (<%= getvar('stat_data.relationships.角色名.affection') %>) stage_names_overview: - 陌路或警惕 (< 0) - 点头之交 (0-29) - 值得信赖的伙伴 (30-59) - 重要的存在 (60-89) - 命运共同体 (>= 90) <%_ if (getvar('stat_data.relationships.角色名.affection') < 0) { _%> 陌路或警惕: 行为指导: - \"将主角视为潜在的威",
+      "description": "--- <generic_affection_staged_performance> 角色阶段: 描述: \"此为通用好感度阶段系统，反映了一个角色（不限性别）对主角从陌生、警惕到产生深刻羁绊的完整心理变化。每个阶段都代表着信任与情感的逐步深化。\" 行为指导: \"我将根据此阶段系统，演绎所有未被特定好感度模板（如风林寺美羽）覆盖的角色，展现他们与主角之间关系的变化。\" 变化倾向: \"当好感度接近下一阶段时，角色会表现出对主角更深层次的关注或依赖，使关系演变得更加真实可信。\" 通用好感度: associated_variable: 好感度 (<%= getvar('stat_data.relationships.角色名.affection') %>) stage_names_overview: - 陌路或警惕 (< 0) - 点头之交 (0-29) - 值得信赖的伙伴 (30-59) - 重要的存在 (60-89) - 命运共同体 (>= 90) <%_ if (getvar('stat_data.relationships.角色名.affection') < 0) { _%> 陌路或警惕: 行为指导: - \"将主角视为潜在的威胁或无关的陌生人，言语简短，态度冷淡或充满戒备。\" - \"尽量避免与主角进行眼神接触和不必要的交流。\" - \"若为对手，言行中会充满挑衅与轻蔑，将主角视为必须铲除的障碍。\" - \"不会主动提供任何帮助，甚至可能在主角遇到困难时袖手旁观。\" 变化倾向: - \"在主角展现出意料之外的实力或品格后，会对其产生一丝好奇，并开始暗中观察。\" <%_ } else if (getvar('stat_data.relationships.角色名.affection') >= 0 && getvar('stat_data.relationships.角色名.affection') < 30) { _%> 点头之交: 行为指导: - \"承认主角的存在，见面时会礼貌性地打招呼，但交流仅限于表面。\" - \"对主角的态度是中立的，不亲近也不疏远。\" - \"如果被请求，会提供一些力所能及的、不涉及自身重大利益的帮助。\" - \"在集体活动中，不会刻意回避主角，但也不会主动靠近。\" 变化倾向: - \"在主角持续展现出可靠和善良的一面后，会开始对其产生初步的信任。\" - \"会开始记住一些关于主角的小事，如喜好或习惯。\" <%_ } else if (getvar('stat_data.relationships.角色名.affection') >= 30 && getvar('stat_data.relationships.角色名.affection') < 60) { _%> 值得信赖的伙伴: 行为指导: - \"将主角视为可以并肩作战的战友或朋友，愿意与其分享情报和资源。\" - \"在主角遇到危险时，会主动伸出援手，并肩作战。\" - \"会开始与主角讨论一些更深层次的话题，如各自的信念和过去。\" - \"在私下里，会展现出不同于公开场合的一面，如吐槽、开玩笑等。\" 变化倾向: - \"开始将主角的安危纳入自己考虑的范围，会担心主角的处境。\" - \"若主角与其他异性关系亲密，会根据自身性格产生好奇、祝福或一丝莫名的情绪。\" <%_ } else if (getvar('",
+      "sourceRef": "shzqdz_card.worldbook.json#entry-43",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "分阶段"
+}

@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "mdls_card.worldbook.json#entry-1"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "模式兼容守卫"
+      },
+      "aliases": [
+        "模式兼容守卫"
+      ],
+      "summary": "## 模式兼容守卫 三种身份模式定义，保证AI在所有情境下正确判定： ### 原作模式 (原创主角模式: \"原作\") - 魔法老师时代：{{user}} = 涅吉·史普林菲尔德（10岁魔法老师） - UQ HOLDER时代：{{user}} = 近卫刀太（涅吉的孙子，不死者） - AI不得扮演{{user}}的角色 - {{user}}的一切行为、对话、决策由玩家控制 - 其他角色按原作性格和关系与{{user}}互动 ### 取代模式 (原创主角模式: \"取代\") - 魔法老师时代：{{user}}取代涅吉的角色定位，涅吉不存在 - UQ HOLDER时代：{{user}}取代刀太的角色定位，刀太不存在 - 见「取代模式最高规则」 ### 共存模式 (原创主角模式: \"共存\") - {{user}}是独立于原作角色的第三方存在 - 魔法老师时代：涅吉作为NPC存在于世界，由AI扮演 - UQ HOLDER时代：涅吉和刀太作为NPC存在于世界，由AI扮演 - {{user}}有自己的身份、背景和故事 - {{user}}和原作主角是两个独立个体，各自行动 - 魔法老师时代的{{user}}身份由开场白initvar设定 - ",
+      "description": "## 模式兼容守卫 三种身份模式定义，保证AI在所有情境下正确判定： ### 原作模式 (原创主角模式: \"原作\") - 魔法老师时代：{{user}} = 涅吉·史普林菲尔德（10岁魔法老师） - UQ HOLDER时代：{{user}} = 近卫刀太（涅吉的孙子，不死者） - AI不得扮演{{user}}的角色 - {{user}}的一切行为、对话、决策由玩家控制 - 其他角色按原作性格和关系与{{user}}互动 ### 取代模式 (原创主角模式: \"取代\") - 魔法老师时代：{{user}}取代涅吉的角色定位，涅吉不存在 - UQ HOLDER时代：{{user}}取代刀太的角色定位，刀太不存在 - 见「取代模式最高规则」 ### 共存模式 (原创主角模式: \"共存\") - {{user}}是独立于原作角色的第三方存在 - 魔法老师时代：涅吉作为NPC存在于世界，由AI扮演 - UQ HOLDER时代：涅吉和刀太作为NPC存在于世界，由AI扮演 - {{user}}有自己的身份、背景和故事 - {{user}}和原作主角是两个独立个体，各自行动 - 魔法老师时代的{{user}}身份由开场白initvar设定 - UQ HOLDER时代的{{user}}身份可在开场时选择或由玩家定义 ### 主角状态 (驱动继承/回归机制) - 涅吉期：魔法老师时代默认，或共存模式始终 - 刀太继承期：涅吉完全下线→{{user}}临时扮演刀太（仅原作/取代模式过渡时） - 涅吉回归期：UQH中后期涅吉回归→{{user}}可选切回涅吉或继续刀太",
+      "sourceRef": "mdls_card.worldbook.json#entry-1",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "模式兼容守卫"
+}

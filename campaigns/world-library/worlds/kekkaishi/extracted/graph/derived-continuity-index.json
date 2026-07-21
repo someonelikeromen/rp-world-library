@@ -1,0 +1,175 @@
+{
+  "schema": "kekkaishi-derived-continuity-index-v1",
+  "worldId": "kekkaishi",
+  "recordType": "derived-continuity-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "continuityFamilies": [
+    {
+      "continuityFamilyId": "kekkaishi-worldbook-derived-continuity",
+      "sourceIndexes": [
+        "events/index.json",
+        "characters/index.json"
+      ],
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "eventNodes": [
+        {
+          "id": "结界师-第一卷",
+          "name": "结界师 第一卷",
+          "sourceRefs": [
+            "jjs_card.worldbook.json#entry-16"
+          ]
+        },
+        {
+          "id": "结界师-第七卷",
+          "name": "结界师 第七卷",
+          "sourceRefs": [
+            "jjs_card.worldbook.json#entry-22"
+          ]
+        },
+        {
+          "id": "结界师-第三十一卷",
+          "name": "结界师 第三十一卷",
+          "sourceRefs": [
+            "jjs_card.worldbook.json#entry-46"
+          ]
+        },
+        {
+          "id": "结界师-第三十二卷",
+          "name": "结界师 第三十二卷",
+          "sourceRefs": [
+            "jjs_card.worldbook.json#entry-47"
+          ]
+        },
+        {
+          "id": "结界师-第三卷",
+          "name": "结界师 第三卷",
+          "sourceRefs": [
+            "jjs_card.worldbook.json#entry-18"
+          ]
+        },
+        {
+          "id": "结界师-第九卷",
+          "name": "结界师 第九卷",
+          "sourceRefs": [
+            "jjs_card.worldbook.json#entry-24"
+          ]
+        },
+        {
+          "id": "结界师-第二十七卷",
+          "name": "结界师 第二十七卷",
+          "sourceRefs": [
+            "jjs_card.worldbook.json#entry-42"
+          ]
+        },
+        {
+          "id": "结界师-第二十八卷",
+          "name": "结界师 第二十八卷",
+          "sourceRefs": [
+            "jjs_card.worldbook.json#entry-43"
+          ]
+        },
+        {
+          "id": "结界师-第二十六卷",
+          "name": "结界师 第二十六卷",
+          "sourceRefs": [
+            "jjs_card.worldbook.json#entry-41"
+          ]
+        },
+        {
+          "id": "结界师-第二十卷",
+          "name": "结界师 第二十卷",
+          "sourceRefs": [
+            "jjs_card.worldbook.json#entry-35"
+          ]
+        },
+        {
+          "id": "结界师-第二十四卷",
+          "name": "结界师 第二十四卷",
+          "sourceRefs": [
+            "jjs_card.worldbook.json#entry-39"
+          ]
+        },
+        {
+          "id": "结界师-第二卷",
+          "name": "结界师 第二卷",
+          "sourceRefs": [
+            "jjs_card.worldbook.json#entry-17"
+          ]
+        },
+        {
+          "id": "结界师-第五卷",
+          "name": "结界师 第五卷",
+          "sourceRefs": [
+            "jjs_card.worldbook.json#entry-20"
+          ]
+        },
+        {
+          "id": "结界师-第八卷",
+          "name": "结界师 第八卷",
+          "sourceRefs": [
+            "jjs_card.worldbook.json#entry-23"
+          ]
+        },
+        {
+          "id": "结界师-第十七卷",
+          "name": "结界师 第十七卷",
+          "sourceRefs": [
+            "jjs_card.worldbook.json#entry-32"
+          ]
+        },
+        {
+          "id": "结界师-第十九卷",
+          "name": "结界师 第十九卷",
+          "sourceRefs": [
+            "jjs_card.worldbook.json#entry-34"
+          ]
+        },
+        {
+          "id": "结界师-第十五卷",
+          "name": "结界师 第十五卷",
+          "sourceRefs": [
+            "jjs_card.worldbook.json#entry-30"
+          ]
+        },
+        {
+          "id": "结界师-第十八卷",
+          "name": "结界师 第十八卷",
+          "sourceRefs": [
+            "jjs_card.worldbook.json#entry-33"
+          ]
+        },
+        {
+          "id": "结界师-第十六卷",
+          "name": "结界师 第十六卷",
+          "sourceRefs": [
+            "jjs_card.worldbook.json#entry-31"
+          ]
+        },
+        {
+          "id": "结界师-第十四卷",
+          "name": "结界师 第十四卷",
+          "sourceRefs": [
+            "jjs_card.worldbook.json#entry-29"
+          ]
+        },
+        {
+          "id": "结界师-第四卷",
+          "name": "结界师 第四卷",
+          "sourceRefs": [
+            "jjs_card.worldbook.json#entry-19"
+          ]
+        }
+      ]
+    },
+    {
+      "continuityFamilyId": "kekkaishi-engine-rules-excluded",
+      "sourceIndexes": [
+        "engine-rules/index.json"
+      ],
+      "excludedFromFormalGraph": true,
+      "reason": "Engine rules and status templates are not world facts."
+    }
+  ]
+}

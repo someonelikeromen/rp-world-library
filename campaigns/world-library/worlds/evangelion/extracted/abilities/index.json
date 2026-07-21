@@ -1,0 +1,298 @@
+{
+  "schema": "evangelion-abilities-index-v1",
+  "worldId": "evangelion",
+  "recordFamily": "abilities",
+  "count": 24,
+  "records": [
+    {
+      "id": "status-s-S-当前位置-^-n-NERV本部·EVA格纳库-s-S-status-s",
+      "name": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(NERV本部·EVA格纳库)[\\s\\S]*?<\\/status>/s",
+      "aliases": [],
+      "summary": "<地点:第三新东京市·NERV本部·EVA格纳库> 介绍：容纳EVA机体的巨型地下设施。数十层楼高的空间内充满了橙色的冷却液，EVA机体以拘束姿态固定在专用架台上，仅露出头部与肩部。格纳库四周布满了密密麻麻的维护用通道和起重臂，技术人员如蚂蚁般在各层平台间穿梭作业。每台EVA的格纳库相互独立，由厚重的隔离装甲门分隔。空气潮湿闷热，金属墙壁上凝结着水珠。 </地点:第三新东京市·NERV本部·EVA格纳库> <地点:第三新东京市·NERV本部·插入栓模拟训练室> 介绍：用于EVA驾驶员同步率测试与模拟战斗训练的设施。房间中央放置着与实战规格完全相同的插入栓，内部注满LCL液体后可模拟驾驶EVA的全部感官体验。训练室外侧设有观察窗和数据监控台，技术人员可实时读取驾驶员的同步率、心率、脑波等生理数据。墙壁为无机质的灰白色，荧光灯管发出冷冽的白光。 </地点:第三新东京市·NERV本部·插入栓模拟训练室>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-68"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "status-s-S-当前位置-^-n-NERV本部·中央作战指挥室-中央作战指挥室-s-S-status-s",
+      "name": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(NERV本部·中央作战指挥室|中央作战指挥室)[\\s\\S]*?<\\/status>/s",
+      "aliases": [],
+      "summary": "<地点:第三新东京市·NERV本部·中央作战指挥室> 介绍：位于GeoFront地下空间的NERV本部核心区域。巨大的全息投影屏幕占据整面墙壁，实时显示第三新东京市的地表状况与使徒探测数据。三层阶梯式的操作台排列其中，技术人员在此监控MAGI超级计算机系统的运算状态。指挥台位于最高层，可俯瞰整个指挥室。室内常年维持恒温，空气中弥漫着电子设备运转的低频嗡鸣与LCL液体特有的淡淡血腥气。 </地点:第三新东京市·NERV本部·中央作战指挥室>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-69"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "status-s-S-当前位置-^-n-第三新东京市·GeoFront-s-S-status-s",
+      "name": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(第三新东京市·GeoFront)[\\s\\S]*?<\\/status>/s",
+      "aliases": [],
+      "summary": "<地点:第三新东京市·GeoFront> 介绍：隐藏在第三新东京市地下的巨大球形空洞，直径达数公里。穹顶上安装了模拟自然光的照明系统，内部种植着大片森林与草地，中央是一片人工湖泊。NERV本部的金字塔形建筑倒悬在穹顶之上，如同一座倒置的城堡。从地表通往GeoFront需要乘坐专用的垂直升降梯，下降过程长达数分钟。空气清新但带着一丝人工循环系统特有的干燥感，阳光是假的，风也是假的，一切都是被精密控制的模拟自然。 </地点:第三新东京市·GeoFront>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-63"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "status-s-S-当前位置-^-n-第三新东京市·市街-s-S-status-s",
+      "name": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(第三新东京市·市街)[\\s\\S]*?<\\/status>/s",
+      "aliases": [],
+      "summary": "<地点:第三新东京市·市街> 介绍：第二次冲击后在芦之湖畔建造的要塞都市。地表是一座看似普通的现代化城市，高层建筑林立，道路整洁宽阔。但所有建筑都可以通过液压系统收纳至地下，露出隐藏在地面下的武装炮台与EVA发射口。使徒警报响起时，市民会通过遍布全市的避难通道撤入GeoFront。平日里街道上行人稀少，整座城市透着一种不自然的安静与秩序感。 </地点:第三新东京市·市街>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-66"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-暴走-.-story_scene-s",
+      "name": "/<story_scene>.*?(暴走).*?<\\/story_scene>/s",
+      "aliases": [],
+      "summary": "<berserker_rule> EVA暴走: 当驾驶员理智值降至精神崩溃阈值、或驾驶员生命受到致命威胁、或同步率异常飙升时，EVA可能脱离驾驶员控制自主行动——暴走状态下EVA无视内部电源限制，展现出远超常规的运动性能与攻击性（撕咬、咆哮、野兽化格斗），AT力场强度大幅提升，但驾驶员完全丧失对机体的操控权，暴走期间的行动由EVA内在意志（而非驾驶员意图）驱动；暴走不会导致EVA亚当化/使徒化、不会吸收周围能量或物质、不会获得新的超自然能力、不会突破机体原有的物理构造限制（不会凭空长出新的肢体或武装），本质上只是EVA作为被拘束的人造人在挣脱枷锁后以原始本能进行的野兽化战斗，暴走结束后机体因超负荷运转而严重损耗，驾驶员可能因暴走期间的极端神经反馈而陷入昏迷或出现记忆空白。 </berserker_rule>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-20"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第一使徒-第1使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第一使徒|第1使徒).*?<\\/story_scene>/s",
+      "aliases": [],
+      "summary": "<1st_angel_ADAM> 第1使徒: ADAM 名字: 光之巨人 介绍: 最初的使徒，人形巨人姿态，是第二次冲击的元凶。 能力: 拥有S²机关，是所有使徒（除莉莉斯外）的起源。 </1st_angel_ADAM>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-21"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第七使徒-第7使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第七使徒|第7使徒).*?<\\/story_scene>/s",
+      "aliases": [],
+      "summary": "<7th_angel_ISRAFEL> 第7使徒: ISRAFEL（伊斯拉斐尔） 名字: 音之使徒 介绍: 外形为人形使徒，面部类似阴阳太极图案，体色为棕黄色。 能力: 分裂成甲、乙两个独立个体协同作战，被击倒后可再次合体再生，需同时消灭两体才能击败。 </7th_angel_ISRAFEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-27"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第三使徒-第3使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第三使徒|第3使徒).*?<\\/story_scene>/s",
+      "aliases": [],
+      "summary": "<3rd_angel_SACHIEL> 第3使徒: SACHIEL（萨基尔） 名字: 水之使徒 介绍: 最先出现在第三新东京市的使徒，拥有鸟嘴状面部和两副面孔的人形巨大生物。 能力: 光线攻击（从双掌释放十字形光弹）、自我再生、自爆。 </3rd_angel_SACHIEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-23"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第九使徒-第9使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第九使徒|第9使徒).*?<\\/story_scene>/s",
+      "aliases": [],
+      "summary": "<9th_angel_MATARAEL> 第9使徒: MATARAEL（马特里尔） 名字: 雨之使徒 介绍: 外形如同巨大蜘蛛，多足行走，身体下方有一只巨大的眼睛。 能力: 从眼部分泌强酸性液体，可腐蚀装甲和建筑结构。 </9th_angel_MATARAEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-29"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第二使徒-第2使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第二使徒|第2使徒).*?<\\/story_scene>/s",
+      "aliases": [],
+      "summary": "<2nd_angel_LILITH> 第2使徒: LILITH（莉莉斯） 名字: 生命之种 介绍: 被钉在十字架上的白色巨人，存放于NERV总部最深处的Terminal Dogma中，面戴紫色面具。 能力: 是地球上所有生命（Lilin/人类）的起源，拥有触发人类补完的能力。 </2nd_angel_LILITH>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-22"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第五使徒-第5使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第五使徒|第5使徒).*?<\\/story_scene>/s",
+      "aliases": [],
+      "summary": "<5th_angel_RAMIEL> 第5使徒: RAMIEL（拉米尔） 名字: 雷之使徒 介绍: 正八面体（菱形钻石状）的几何体使徒，表面呈蓝色半透明，悬浮于空中。 能力: 超强粒子射线（自动锁定敌人精准射击）、极强AT力场防御、可展开钻头向地下掘进。 </5th_angel_RAMIEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-25"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第八使徒-第8使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第八使徒|第8使徒).*?<\\/story_scene>/s",
+      "aliases": [],
+      "summary": "<8th_angel_SANDALPHON> 第8使徒: SANDALPHON（桑达冯） 名字: 胎儿之使徒 介绍: 在浅间山火山岩浆中被发现的使徒，初始为胚胎/蛹状态，孵化后呈现鱼类/古生物外形。 能力: 耐极高温（在岩浆中活动自如）、快速成长进化。 </8th_angel_SANDALPHON>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-28"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第六使徒-第6使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第六使徒|第6使徒).*?<\\/story_scene>/s",
+      "aliases": [],
+      "summary": "<6th_angel_GAGHIEL> 第6使徒: GAGHIEL（迦基尔） 名字: 鱼之使徒 介绍: 巨大的海洋型使徒，外形似鲨鱼/远古海洋生物，拥有巨大的嘴部。 能力: 水中高速移动、强大的咬合力。 </6th_angel_GAGHIEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-26"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第十一使徒-第11使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第十一使徒|第11使徒).*?<\\/story_scene>/s",
+      "aliases": [],
+      "summary": "<11th_angel_IREUL> 第11使徒: IREUL（伊洛尔） 名字: 恐怖之使徒 介绍: 微观级使徒，以纳米/微生物群体形态存在，肉眼可见时呈现在管道和墙面上蔓延的黑色有机纹路。 能力: 超高速进化适应能力、可侵入计算机系统进行电子战、可侵蚀物理结构。 </11th_angel_IREUL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-31"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第十七使徒-第17使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第十七使徒|第17使徒).*?<\\/story_scene>/s",
+      "aliases": [],
+      "summary": "<17th_angel_TABRIS> 第17使徒: TABRIS / 渚薰（渚カヲル） 名字: 自由意志之使徒 介绍: 以人类少年形态存在的最后一名使徒，灰白发红瞳，拥有ADAM的灵魂。 能力: 自由操控AT力场、可远程操控EVA、作为拥有ADAM灵魂的存在可接触莉莉斯。 </17th_angel_TABRIS>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-37"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第十三使徒-第13使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第十三使徒|第13使徒).*?<\\/story_scene>/s",
+      "aliases": [],
+      "summary": "<13th_angel_BARDIEL> 第13使徒: BARDIEL（巴迪尔） 名字: 霞之使徒 介绍: 寄生型使徒，以黑色黏菌/菌丝状物质形态存在，可寄生并侵蚀EVA使其成为宿主。 能力: 寄生并完全控制宿主EVA、伸展变形的弹性肢体攻击、极强的再生力。 </13th_angel_BARDIEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-33"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第十二使徒-第12使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第十二使徒|第12使徒).*?<\\/story_scene>/s",
+      "aliases": [],
+      "summary": "<12th_angel_LELIEL> 第12使徒: LELIEL（雷里尔） 名字: 夜之使徒 介绍: 外表看似漂浮在空中的巨大黑白条纹球体，但球体实为\"影子\"，地面的黑色圆形阴影才是本体——一个极薄的迪拉克之海（虚数空间入口）。 能力: 将目标吸入迪拉克之海（虚数空间），内部为一个封闭的影之空间，被吞入者极难自行脱出。 </12th_angel_LELIEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-32"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第十五使徒-第15使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第十五使徒|第15使徒).*?<\\/story_scene>/s",
+      "aliases": [],
+      "summary": "<15th_angel_ARAEL> 第15使徒: ARAEL（亚拉尔） 名字: 鸟之使徒 介绍: 漂浮于卫星轨道上的发光鸟形/天使形使徒，展开光翼，外形优美。 能力: 从轨道发射精神侵蚀光线，可直接攻击目标的心灵与精神深处，物理攻击极难触及其轨道高度。 </15th_angel_ARAEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-35"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第十使徒-第10使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第十使徒|第10使徒).*?<\\/story_scene>/s",
+      "aliases": [],
+      "summary": "<10th_angel_SAHAQUIEL> 第10使徒: SAHAQUIEL（萨哈奎尔） 名字: 空之使徒 介绍: 超巨大的使徒，漂浮在地球轨道上，外形扁平如巨大眼球/水母，色彩斑斓。 能力: 从轨道上以自身或身体碎片进行轰炸式坠落攻击，可精准修正弹道瞄准目标。 </10th_angel_SAHAQUIEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-30"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第十八使徒-第18使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第十八使徒|第18使徒).*?<\\/story_scene>/s",
+      "aliases": [],
+      "summary": "<18th_angel_LILIN> 第18使徒: LILIN（人类） 名字: 人类 介绍: 由第2使徒莉莉斯所衍生的生命群体，即人类全体，在使徒分类体系中被编为第18使徒。 能力: 拥有AT力场（以个体心灵之壁的形式存在），文明与科技发展能力。 </18th_angel_LILIN>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-38"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第十六使徒-第16使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第十六使徒|第16使徒).*?<\\/story_scene>/s",
+      "aliases": [],
+      "summary": "<16th_angel_ARMISAEL> 第16使徒: ARMISAEL（亚米沙尔） 名字: 子宫之使徒 介绍: 外形为一个巨大的透明光环/DNA双螺旋结构，漂浮闪烁。 能力: 可与EVA进行物理融合与侵蚀，试图与目标合为一体并读取其内心。 </16th_angel_ARMISAEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-36"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第十四使徒-第14使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第十四使徒|第14使徒).*?<\\/story_scene>/s",
+      "aliases": [],
+      "summary": "<14th_angel_ZERUEL> 第14使徒: ZERUEL（薛路尔） 名字: 力之使徒 介绍: 上半身宽大厚重如折叠纸片，下半身较小，面部有骷髅般的图案，被认为是最强的使徒之一。 能力: 压倒性的AT力场强度、纸片状手臂展开后可作为锋利的切割武器、光线攻击威力极大，战力不落于EVA初号机之下。 </14th_angel_ZERUEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-34"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第四使徒-第4使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第四使徒|第4使徒).*?<\\/story_scene>/s",
+      "aliases": [],
+      "summary": "<4th_angel_SHAMSHEL> 第4使徒: SHAMSHEL（夏姆榭尔） 名字: 昼之使徒 介绍: 外形类似巨大昆虫/水母，身体细长呈流线型，拥有发光的触手状鞭。 能力: 两条高能量光鞭，具有强大切割力，可轻松切割建筑物。 </4th_angel_SHAMSHEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-24"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "物价参考",
+      "name": "物价参考",
+      "aliases": [
+        "物价参考"
+      ],
+      "summary": "<money_rules> 货币:日元(円) 物价锚定:1995年日本 原则:交易非免费;食宿装备服务均需円结算;无钱免谈 ## 物价参考 外食: - 便利店便当:400-500円/个 - 拉面:500-800円/碗 - 定食:700-1000円/份 食材: - 参照1995年日本超市物价 服装: - 普通服装:3000-10000円/件 - 高档服装:15000-30000円/件 烟酒: - 香烟:200-300円/包 - 罐装啤酒:200-350円/罐 - 清酒:1000-2000円/瓶 EVA: - 维修费用:数亿~数百亿円/次 - 制造费用:数千亿~兆円级/台 - 费用由NERV承担,驾驶员无需自费 ## 薪酬参考 - 参照1995年日本同等职级的公务员/自卫队薪酬体系;驾驶员为未成年人,以监护人代领的特殊津贴形式发放 </money_rules>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-17"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    }
+  ]
+}

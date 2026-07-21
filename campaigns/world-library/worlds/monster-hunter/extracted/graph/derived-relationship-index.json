@@ -1,0 +1,51 @@
+{
+  "schema": "monster-hunter-derived-relationship-index-v1",
+  "worldId": "monster-hunter",
+  "recordType": "derived-relationship-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "formalRelationshipFacts": [],
+  "derivedMentionEdges": [
+    {
+      "source": "abilities:怪物猎人-世界观-狩技-战斗风格",
+      "target": "abilities:怪物猎人-世界观",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "怪物猎人-世界观",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-4"
+      ],
+      "id": "edge-1",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:怪物猎人-世界观-虫技",
+      "target": "abilities:怪物猎人-世界观",
+      "sourceEntityType": "systems",
+      "targetEntityType": "abilities",
+      "predicate": "systems-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "怪物猎人-世界观",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-5"
+      ],
+      "id": "edge-2",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    }
+  ],
+  "counts": {
+    "derivedMentionEdges": 2
+  }
+}

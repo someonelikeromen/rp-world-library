@@ -1,0 +1,56 @@
+{
+  "schema": "kaguya-sama-derived-continuity-index-v1",
+  "worldId": "kaguya-sama",
+  "recordType": "derived-continuity-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "continuityFamilies": [
+    {
+      "continuityFamilyId": "kaguya-sama-worldbook-derived-continuity",
+      "sourceIndexes": [
+        "events/index.json",
+        "characters/index.json"
+      ],
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "eventNodes": [
+        {
+          "id": "时间线-第三季-多选一",
+          "name": "时间线-第三季(多选一)",
+          "sourceRefs": [
+            "hydxj_card.worldbook.json#entry-62"
+          ]
+        },
+        {
+          "id": "时间线-第二季-上-多选一",
+          "name": "时间线-第二季-上(多选一)",
+          "sourceRefs": [
+            "hydxj_card.worldbook.json#entry-63"
+          ]
+        },
+        {
+          "id": "时间线-第二季-下-多选一",
+          "name": "时间线-第二季-下(多选一)",
+          "sourceRefs": [
+            "hydxj_card.worldbook.json#entry-79"
+          ]
+        },
+        {
+          "id": "时间线-第二季-中-多选一",
+          "name": "时间线-第二季-中(多选一)",
+          "sourceRefs": [
+            "hydxj_card.worldbook.json#entry-78"
+          ]
+        }
+      ]
+    },
+    {
+      "continuityFamilyId": "kaguya-sama-engine-rules-excluded",
+      "sourceIndexes": [
+        "engine-rules/index.json"
+      ],
+      "excludedFromFormalGraph": true,
+      "reason": "Engine rules and status templates are not world facts."
+    }
+  ]
+}

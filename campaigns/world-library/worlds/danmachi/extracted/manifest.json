@@ -1,0 +1,42 @@
+{
+  "schema": "danmachi-legacy-extracted-manifest-v1",
+  "worldId": "danmachi",
+  "layer": "extracted",
+  "archiveKind": "world",
+  "status": "legacy-extracted-layer-indexed",
+  "legacyLayer": true,
+  "canUseAsPiExtractedLayer": true,
+  "canReplaceCurated": false,
+  "sourceWorldview": "imports/worldviews/danmachi",
+  "indexes": {
+    "index": "index.json",
+    "merge_report": "merge-report.json"
+  },
+  "legacyGraphFiles": [
+    "graph/ability-graph.json",
+    "graph/char-relations.json",
+    "graph/complete-graph.json",
+    "graph/event-graph.json",
+    "graph/item-graph.json",
+    "graph/timeline.json",
+    "graph/world-graph.json"
+  ],
+  "counts": {
+    "extractedJsonFiles": 1010,
+    "worldSections": {
+      "powerSystems": 0,
+      "factions": 0,
+      "rules": 0,
+      "locations": 0,
+      "events": 0
+    }
+  },
+  "graphPolicy": {
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "introducesNewFacts": false,
+    "legacyGraphFilesMayUseOlderNames": true
+  },
+  "generatedAt": "2026-07-20T17:12:10.528Z",
+  "note": "Minimal manifest added for consistency with newer world-library extracted layers; existing legacy files were not renamed or rewritten."
+}

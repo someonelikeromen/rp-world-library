@@ -1,0 +1,26 @@
+{
+  "schema": "chunibyo-graph-build-report-v1",
+  "worldId": "chunibyo",
+  "status": "completed",
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "validation": {
+    "jsonValid": true,
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "newFactsIntroduced": false,
+    "forbiddenBasenamesGenerated": false
+  },
+  "counts": {
+    "nodes": 11,
+    "edges": 0,
+    "nodeCounts": {
+      "characters": 10,
+      "events": 1
+    },
+    "edgeCounts": {},
+    "derivedMentionEdges": 0
+  },
+  "warnings": [
+    "Derived graph edges are navigation/search signals, not formal relationship facts."
+  ]
+}

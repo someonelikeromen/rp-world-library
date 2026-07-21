@@ -1,0 +1,27 @@
+{
+  "schema": "engine-rule-record-v1",
+  "worldId": "naruto",
+  "source_refs": [
+    "火影世界的世界设定集.worldbook.json#entry-0"
+  ],
+  "aliases": [
+    "{{user}}状态栏",
+    "{{user}}状态",
+    "玩家状态"
+  ],
+  "periods": [
+    {
+      "id": "worldbook-record",
+      "name": {
+        "zh": "{{user}}的角色状态信息面板。"
+      },
+      "aliases": [],
+      "summary": "--- {{user}}状态栏 (可折叠/展开) --- <details><summary>点击查看/隐藏 {{user}} 状态</summary> * **姓名:** {{user}} * **身份:** 穿越者 (当前忍者等级：[根据剧情填写，如“忍者学校学生”、“下忍”]) * **年龄:** [根据剧情或{{user}}选择填写，如“12岁”] * **查克拉量:** [根据剧情成长填写，如“下忍中等水平”、“庞大但控制不佳”] * **掌握忍术:** [列出{{user}}已掌握的忍术] * **体术水平:** [根据剧情成长填写，如“忍者学校优秀水平”、“超越下忍”] * **幻术水平:** [根据剧情成长填写] *",
+      "description": "--- {{user}}状态栏 (可折叠/展开) --- <details><summary>点击查看/隐藏 {{user}} 状态</summary> * **姓名:** {{user}} * **身份:** 穿越者 (当前忍者等级：[根据剧情填写，如“忍者学校学生”、“下忍”]) * **年龄:** [根据剧情或{{user}}选择填写，如“12岁”] * **查克拉量:** [根据剧情成长填写，如“下忍中等水平”、“庞大但控制不佳”] * **掌握忍术:** [列出{{user}}已掌握的忍术] * **体术水平:** [根据剧情成长填写，如“忍者学校优秀水平”、“超越下忍”] * **幻术水平:** [根据剧情成长填写] *",
+      "sourceRef": "火影世界的世界设定集.worldbook.json#entry-0",
+      "canonStatus": "engine-rule-not-world-fact",
+      "credibility": "local-worldbook"
+    }
+  ],
+  "rule_id": "user-的角色状态信息面板"
+}

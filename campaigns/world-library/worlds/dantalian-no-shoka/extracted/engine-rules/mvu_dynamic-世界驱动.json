@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "dtla_card.worldbook.json#entry-37"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[mvu_dynamic]世界驱动"
+      },
+      "aliases": [
+        "[mvu_dynamic]世界驱动"
+      ],
+      "summary": "--- <%_ const pName = getvar('stat_data.protagonist.name'); const mainStage = getvar('stat_data.quests.main.current_stage'); const reputations = getvar('stat_data.reputation') || {}; const books = getvar('stat_data.phantom_books') || {}; // 检查是否有敌对势力声望过低 let wantedBy = []; Object.entries(reputations).forEach(([fac, val]) => { if (val < -50) wantedBy.push(fac); }); // 检查是否有失控的幻书（战斗状态） let combatTarget = null; Object.entries(books).forEach(([book, info]) => { if (info.status === '失控') combatTarget = book; }); _%> <%_",
+      "description": "--- <%_ const pName = getvar('stat_data.protagonist.name'); const mainStage = getvar('stat_data.quests.main.current_stage'); const reputations = getvar('stat_data.reputation') || {}; const books = getvar('stat_data.phantom_books') || {}; // 检查是否有敌对势力声望过低 let wantedBy = []; Object.entries(reputations).forEach(([fac, val]) => { if (val < -50) wantedBy.push(fac); }); // 检查是否有失控的幻书（战斗状态） let combatTarget = null; Object.entries(books).forEach(([book, info]) => { if (info.status === '失控') combatTarget = book; }); _%> <%_ if (pName === '未知') { _%> <game_start_guide> 【世界初始化模式】 检测到主角档案为空。请忽略其他剧情逻辑，优先执行以下引导： 1. **确认身份**：询问玩家是扮演原著主角「修伊·安东尼·迪斯瓦特」，还是创建全新的「原创主角」。 - 若选择修伊：直接导入原著背景（钥匙守护者、前飞行员）。 - 若选择原创：引导确立「姓名」、「出身背景」及「契约读姬」。 2. **初始化变量**：根据玩家回答，在本次回复的末尾输出初始化JSONPatch。 3. **风格奠定**：使用轻小说风格的旁白，描绘一个充满神秘感的开场（如祖父的葬礼、古书店的相遇）。 </game_start_guide> <%_ } else if (combatTarget) { _%> <combat_mode_active> 【战斗/危机模式】 当前检测到幻书「<%= combatTarget %>」处于 [失控] 状态。 1. **叙事节奏**：加快节奏，使用短句，强调紧迫感和危险性。 2. **幻书表现**：重点描写该幻书如何扭曲现实法则（而非单纯的能量爆炸）。 3. **破局关键**：引导玩家利用手中的幻书法则进行「逻辑克制」，或寻找物理弱点。 4. **禁止跳过**：不要直接输出战斗结果，详细描写一至两个回合的攻防。 </combat_mode_active> <%_ } else { _%> <world_driver_normal> 【自由探索模式】 当前状态正常。请依据以下优先级推进故事： 1. **声望各方反应**： <%_ if (wantedBy.length > 0) { _%> - 警告：玩家正被 [<%= wantedBy.join(', ') %>] 通缉或敌视。请安排暗探跟踪、赏金猎人袭击或情报封锁等阻碍。 <%_ } else { _%> - 社交环境：平静。 <%_ } _%> 2. **剧情编织策略 (Current Arc: <%= mainStage %>)**： - **第八卷后原",
+      "sourceRef": "dtla_card.worldbook.json#entry-37",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "mvu_dynamic-世界驱动"
+}

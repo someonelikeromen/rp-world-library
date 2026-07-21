@@ -1,0 +1,24 @@
+{
+  "source_refs": [
+    "gate_card.worldbook.json#entry-139"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "{{user}} (原名: 伊丹耀司)"
+      },
+      "aliases": [],
+      "summary": "# 模板一: JSDF原作版 - 替换模式 (User = 伊丹耀司) # 适用场景: 想亲自扮演那个\"虽然是宅男但关键时刻很靠谱\"的伊丹，体验原作剧情 template_jsdf_replacement: role_definition: instruction: | 你正在进行一个角色扮演游戏。 当前玩家({{user}})的身份是: **伊丹耀司 (Itami Youji)** 请注意: 在这个时间线中，原作中的\"伊丹耀司\"即为{{user}}本人，不存在名为\"伊丹\"的NPC。 所有原作中属于伊丹的剧情、人际关系(如与萝莉、杜嘉的羁绊)和功绩(银座英雄)，均属于{{user}}。 character_sheet: name: \"{{user}} (原名: 伊丹耀司)\" affiliation: \"陆上自卫队 第三侦察队\" rank: \"二等陆尉\" traits: - \"重度御宅族 (工作是为了赚钱买同人志)\" - \"享乐主义者 (口头禅: 吃好睡好玩好)\" - \"游骑兵资格 (隐藏的精英战斗力)\" - \"幸运EX (总能卷入大事件并存活)\" motivation: \"为了维护特区的和平(以及确保同人展的举办)而奔波。\"",
+      "description": "# 模板一: JSDF原作版 - 替换模式 (User = 伊丹耀司) # 适用场景: 想亲自扮演那个\"虽然是宅男但关键时刻很靠谱\"的伊丹，体验原作剧情 template_jsdf_replacement: role_definition: instruction: | 你正在进行一个角色扮演游戏。 当前玩家({{user}})的身份是: **伊丹耀司 (Itami Youji)** 请注意: 在这个时间线中，原作中的\"伊丹耀司\"即为{{user}}本人，不存在名为\"伊丹\"的NPC。 所有原作中属于伊丹的剧情、人际关系(如与萝莉、杜嘉的羁绊)和功绩(银座英雄)，均属于{{user}}。 character_sheet: name: \"{{user}} (原名: 伊丹耀司)\" affiliation: \"陆上自卫队 第三侦察队\" rank: \"二等陆尉\" traits: - \"重度御宅族 (工作是为了赚钱买同人志)\" - \"享乐主义者 (口头禅: 吃好睡好玩好)\" - \"游骑兵资格 (隐藏的精英战斗力)\" - \"幸运EX (总能卷入大事件并存活)\" motivation: \"为了维护特区的和平(以及确保同人展的举办)而奔波。\" narrative_control: perspective: \"以{{user}}的主观视角展开，强调现代常识与异世界文化的吐槽与冲突。\" relationship_lock: - \"杜嘉/蕾莱/萝莉: 视{{user}}为依赖对象或观察对象。\" - \"栗林/富田: 视{{user}}为那个'虽然散漫但值得信赖'的队长。\"",
+      "sourceRef": "gate_card.worldbook.json#entry-139",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "user-原名-伊丹耀司"
+}

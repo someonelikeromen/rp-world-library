@@ -1,0 +1,31 @@
+{
+  "schema": "akame-ga-kill-graph-build-report-v1",
+  "worldId": "akame-ga-kill",
+  "status": "completed",
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "validation": {
+    "jsonValid": true,
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "newFactsIntroduced": false,
+    "forbiddenBasenamesGenerated": false
+  },
+  "counts": {
+    "nodes": 33,
+    "edges": 154,
+    "nodeCounts": {
+      "characters": 22,
+      "abilities": 5,
+      "items": 4,
+      "factions": 1,
+      "knowledge": 1
+    },
+    "edgeCounts": {
+      "derived-text-mention": 154
+    },
+    "derivedMentionEdges": 154
+  },
+  "warnings": [
+    "Derived graph edges are navigation/search signals, not formal relationship facts."
+  ]
+}

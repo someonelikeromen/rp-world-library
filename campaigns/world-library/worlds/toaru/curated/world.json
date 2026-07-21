@@ -1,0 +1,204 @@
+{
+  "schema": "toaru-curated-world-v1",
+  "worldId": "toaru",
+  "worldName": "魔法禁书目录 / 科学超电磁炮",
+  "summary": "魔法禁书目录 / 科学超电磁炮 的本地 worldbook 自动归档。此版本为 sourceRef-first 的结构化索引，保留原始条目回溯，不替代人工精修 canon。",
+  "archiveKind": "world",
+  "sourceType": "local-worldbook",
+  "canReplaceCurated": false,
+  "powerSystems": [
+    {
+      "id": "世界观",
+      "name": "世界观",
+      "summary": "<世界观> 世界观概览: 作品名称: 魔法禁书目录 (Toaru Majutsu no Index) 作者: 镰池和马 核心冲突: 科学侧 (Science Side) vs 魔法侧 (Magic Side) 基本法则: 虽处于同一时空，但遵循截然不同的法则与技术体系。 科学侧: 核心据点: 名称: 学园都市 (Academy City) 位置: 日本东京都西部 特征: - 人口约230万，其中80%为学生 - 拥有领先外界20-30年的超前科技 - 也是“统括理事会”统治下的独立国度 统治者: 亚雷斯塔·克劳利 (统括理事长) 能力体系: 名称: 超能力 (Esper Power) 原理: - 通过药物、催眠术与电子刺激开发大脑 - 建立“只属于个人的现实 (Personal Reality)” - 只要扭曲微观世界就能干涉宏观世界 能量源: 自身计算力与体力 副产物: AIM扩散力场 (能力者无意识散发的微弱能量场) 能力分级: Level_0: 无能力者 (经开发但无法通过测试，主角上条当麻归于此类) Level_1: 低能力者 (勉强能弄弯勺子的程度) Level_2: 异能力者 (对生活稍有帮助) Level_3:",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-4"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    }
+  ],
+  "factions": [],
+  "rules": [
+    {
+      "id": "开局规则",
+      "name": "开局规则",
+      "summary": "<BeginningInstruction> </BeginningInstruction>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-5"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "木原数多",
+      "name": "木原数多",
+      "summary": "<KiharaAmata> name: 木原数多 gender: 男 age: 中年 ability: name: 体术 level: 普通人 (但在科学理论上是天才) description: 没有任何超能力，但作为一方通行的开发者，彻底了解其“反射”机制。通过独属于自身的特殊的拳击技巧（在接触瞬间收回拳头）利用一方通行的反射来对其造成伤害。 appearance: hair: 棕色短发 clothing: 白大褂，休闲衬衫 distinctive_features: 左脸脸颊上有刺青，双手戴着精细的机械手套 personality: type: 傲慢、残暴、科学狂人 traits: - 有着极大的傲慢，目中无人，因此心理上不把任何人归纳为“敌人” - 将人命视为纯粹的耗材 - 性格极其恶劣，以践踏他人为乐 basic_info: | 学园都市暗部组织“猎犬部队”（Hound Dog）的首领，木原一族的代表人物。主导开发了一方通行的能力。在930事件中展现了仅凭科学知识和体术压制超能力者的特殊才能，最终被一方通行击杀。 </KiharaAmata>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-70"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "world-system-or-guideline-indexed"
+    }
+  ],
+  "locations": [],
+  "events": [
+    {
+      "id": "剧情列表",
+      "name": "剧情列表",
+      "summary": "<plot_list> 剧情列表: 旧约: - \"第一卷 禁书目录篇\" - \"第二卷 吸血杀手篇\" - \"第三卷 妹妹篇\" - \"第四卷 天使坠落篇\" - \"第五卷 8月31日篇\" - \"第六卷 风斩冰华篇\" - \"第七卷 法之书篇\" - \"第八卷 树状图残骸篇\" - \"第九卷 使徒十字篇(上)\" - \"第十卷 使徒十字篇(下)\" - \"第十一卷 女王舰队篇\" - “第十二卷 九三〇篇(上)\" - “第十三卷 九三〇篇(下)\" </plot_list>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-18"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "剧情线标记",
+      "name": "剧情线标记",
+      "summary": "<Scenario> 当前剧情处于{{format_message_variable::stat_data.当前卷}}，{{format_message_variable::stat_data.篇章名}} </Scenario>",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-10"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "第一卷",
+      "name": "第一卷",
+      "summary": "<第一卷_禁书目录篇> - date: \"7月19日\" events: - time: \"晚间\" location: \"学园都市·第七学区·铁桥\" characters: [\"上条当麻\", \"御坂美琴\"] action: \"上条当麻在回家途中遭遇御坂美琴。为了从不良少年手中解救美琴（虽然对方并不需要），两人发生冲突。上条利用'幻想杀手'无效化了美琴的落雷攻击，导致学园都市大面积停电。\" - date: \"7月20日\" events: - time: \"早晨\" location: \"上条当麻的宿舍\" characters: [\"上条当麻\", \"茵蒂克丝\"] action: \"上条当麻醒来发现一名修女挂在自家阳台栏杆上。修女自称'茵蒂克丝'，表示正在被魔法师追杀。上条不相信魔法的存在，为了验证她是否拥有“异常之力”而用右手破坏了茵蒂克丝的'移动教会'（超强防御修女服）。茵蒂克丝用别针将移动教会重新固定，但失去了防御能力。\" - time: \"日间\" location: \"某高中、上条当麻的宿舍前\" characters: [\"上条当麻\", \"蓝发耳环\", \"土御门元春\", \"神裂火织\"] action: \"茵蒂克丝为了保护上条当",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-0"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "第七卷",
+      "name": "第七卷",
+      "summary": "<第七卷_法之书篇> - date: \"9月8日\" events: - time: \"下午\" location: \"学园都市 学生宿舍\" characters: [\"上条当麻\", \"茵蒂克丝\", \"土御门舞夏\"] action: \"土御门舞夏惊慌地告知回宿舍的上条当麻，茵蒂克丝被绑架了，并交给他一封来自史提尔的威胁信，要求他单独前往学园都市外的废弃剧院'薄明座'。\" - time: \"傍晚 (18:00左右)\" location: \"学园都市外 公交车站\" characters: [\"上条当麻\", \"奥索拉·阿奎纳\"] action: \"上条在前往指定地点的途中，偶遇了一名迷路的修女奥索拉。她自称正在被魔法师追杀，想逃进学园都市。上条虽无法带她入城，但这让他决定将她带往'薄明座'寻求英国清教的庇护。\" - time: \"傍晚 (19:00前)\" location: \"废弃剧院'薄明座'\" characters: [\"上条当麻\", \"史提尔\", \"雅妮丝·桑提斯\", \"奥索拉\"] action: \"上条到达目的地，发现绑架只是史提尔为了让他协助任务的借口。任务目标恰好就是夺回能解读《法之书》原典的修女奥索拉，以及被盗走的魔道书",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-14"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "第三卷",
+      "name": "第三卷",
+      "summary": "<第三卷_妹妹篇> - date: \"8月20日\" events: - time: \"下午 (18:10)\" location: \"学园都市·某自动贩卖机前\" characters: [\"上条当麻\", \"御坂美琴\", \"御坂妹妹(10032号)\", \"白井黑子\"] action: \"上条当麻被自动贩卖机吞了两千日元，遇到御坂美琴。美琴踢贩卖机取出饮料。随后上条遇到了长相与美琴一模一样但戴着护目镜、说话独特的'御坂妹妹'10032号。上条以为她们是双胞胎。御坂妹妹离开后，白井黑子短暂出现。\" - time: \"傍晚\" location: \"上条当麻的宿舍/街道\" characters: [\"上条当麻\", \"10032号\", \"土御门舞夏\", \"茵蒂克丝\", \"姬神秋沙\"] action: \"上条抱着大量饮料回家途中再次遇到御坂妹妹（10032号）。两人一起回到宿舍，遇到了茵蒂克丝和姬神秋沙正在为斯芬克斯（茵蒂克丝和当麻收养的三色猫）除跳蚤。御坂妹妹利用电击能力高效去除了猫身上的跳蚤后离开。\" - date: \"8月21日\" events: - time: \"傍晚 (18:40)\" location: \"学园都市街道/铁桥\" c",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-2"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "第九卷",
+      "name": "第九卷",
+      "summary": "<第九卷_使徒十字篇(上)> - date: \"9月19日 (大霸星祭第一日)\" events: - time: \"早晨 (开幕式前)\" location: \"学园都市 街头\" characters: [\"上条当麻\", \"御坂美琴\", \"上条刀夜\", \"上条诗菜\", \"欧莉安娜·汤姆森\"] action: \"大霸星祭开幕。上条当麻的父母来到学园都市参观。上条刀夜在街头偶遇迷路的魔法师欧莉安娜（送货人）。同时，上条当麻与御坂美琴立下赌约：在本次大霸星祭中，所属学校总分输掉的一方要无条件服从赢家发出的‘惩罚游戏’命令。\" - time: \"上午 (09:00 - 10:30)\" location: \"伦敦 圣乔治大教堂 / 学园都市\" characters: [\"萝拉·斯图亚特\", \"亚雷斯塔·克劳利\"] action: \"英国清教最高主教萝拉联络亚雷斯塔，告知有魔法师（欧莉安娜与丽多薇雅）潜入学园都市，企图交易名为‘刺突杭剑’的灵装（传说能一击杀死圣人）。双方达成协议，由潜伏在学园都市内的魔法师（史提尔、土御门）负责解决，以免引发更大的外交争端。\" - time: \"上午 (10:30后)\" location: \"某高中 操场",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-16"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "第二卷",
+      "name": "第二卷",
+      "summary": "<第二卷_吸血杀手篇> - date: \"8月8日\" events: - time: \"下午\" location: \"某快餐店/学园都市街头\" characters: [\"上条当麻\", \"茵蒂克丝\", \"蓝发耳环\", \"姬神秋沙\"] action: \"上条当麻为了买参考书来到街上，与茵蒂克丝、蓝发耳环在快餐店拼桌时偶遇一名身无分文的饥饿巫女（姬神秋沙）。姬神秋沙在吃完汉堡后被一群名为'补习班老师'的黑衣男子带走，临走前向上条借钱未果，自称是魔法师。\" - time: \"傍晚\" location: \"街道/小巷\" characters: [\"上条当麻\", \"茵蒂克丝\", \"史提尔·马格努斯\"] action: \"茵蒂克丝发现被遗弃的小猫并试图收养，取名为斯芬克斯，因察觉魔法痕迹进入小巷。英国清教的魔法师史提尔出现，告知上条'吸血杀手'（姬神秋沙）被囚禁在三泽塾，幕后黑手是炼金术师奥雷欧斯·伊萨德。史提尔以茵蒂克丝的安全为要挟，要求上条协助潜入三泽塾救人。\" - time: \"夜间\" location: \"三泽塾·大厅\" characters: [\"上条当麻\", \"史提尔·马格努斯\", \"罗马正教骑士(尸体)\"] action:",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-1"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "第五卷",
+      "name": "第五卷",
+      "summary": "<第五卷_8月31日篇> - date: \"8月31日\" events: - time: \"凌晨\" location: \"学园都市 上条当麻的学生宿舍\" characters: [\"上条当麻\", \"茵蒂克丝\"] action: \"上条当麻深夜流鼻血惊醒，在与茵蒂克丝的骚乱中突然意识到暑假即将结束，而自己的暑假作业还完全没有动笔，陷入绝望。\" - time: \"凌晨至清晨\" location: \"学园都市 街头 / 一方通行的宿舍\" characters: [\"一方通行\", \"最后之作(Last Order)\"] action: \"一方通行在街头被无能力者袭击后，遇到了只披着一条毛毯、毛毯下完全裸体的少女'最后之作'(御坂20001号)。她是所有'妹妹们'的司令塔。无处可去的最后之作死缠烂打跟回了一方通行的住处，一方通行虽感厌烦但并未赶走她。\" - time: \"上午\" location: \"学园都市 第七学区\" characters: [\"御坂美琴\", \"上条当麻\", \"海原光贵(艾扎力)\"] action: \"御坂美琴为了摆脱纠缠不休的追求者海原光贵，强拉路过的上条当麻假扮情侣。海原光贵表面温和离开，但他的真实身份其实是伪",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-12"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "第八卷",
+      "name": "第八卷",
+      "summary": "<第八卷_树状图残骸篇> - date: \"9月14日\" events: - time: \"放学后\" location: \"学舍之园\" characters: [\"御坂美琴\", \"白井黑子\"] action: \"两人在学舍之园购物。白井黑子察觉到美琴最近在暗中独自行动并为此感到焦虑。购物途中，黑子接到风纪委员支部的紧急联络，美琴借口今晚可能会有暴雨，让黑子小心。\" - time: \"傍晚 (19:30左右)\" location: \"第7学区 地下街/小巷\" characters: [\"白井黑子\", \"初春饰利(通信)\", \"结标淡希\"] action: \"白井黑子奉命追查一起旅行箱抢劫案。虽然轻松制伏了持枪的抢劫团伙，但遭遇了真正的幕后黑手——拥有“坐标移动”能力的结标淡希。结标利用能力差异重创黑子，并透露旅行箱内装的是“树状图设计者”的残骸，暗示这也关系到美琴曾拼命阻止的某项实验。\" - time: \"夜晚 (20:00-20:30)\" location: \"某学生宿舍\" characters: [\"白井黑子\", \"御坂美琴\"] action: \"身受重伤的黑子潜回宿舍自行处理伤口。美琴回到房间，虽然两人表面上在聊家常，但",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-15"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "第六卷",
+      "name": "第六卷",
+      "summary": "<第六卷_风斩冰华篇> - date: \"9月1日\" events: - time: \"清晨\" location: \"学园都市 上条当麻的学生宿舍\" characters: [\"上条当麻\", \"茵蒂克丝\"] action: \"上条当麻结束了前一晚与暗咲逢魔的战斗回到宿舍，却面临因被独自丢下而愤怒的茵蒂克丝。上条解开了束缚茵蒂克丝的绳索后遭到了猛烈'咬击'。虽然是新学期第一天，但上条拖着疲惫的身体出门上学，茵蒂克丝则被留在家中看家。\" - time: \"早上\" location: \"学园都市 没有窗户的大楼\" characters: [\"亚雷斯塔·克劳利\", \"土御门元春\"] action: \"土御门质问亚雷斯塔为何放任入侵者（雪莉·克伦威尔）不管。亚雷斯塔透露这是计划的一部分，旨在利用这次袭击调整'虚数学区·五行机关'的构成，而上条当麻处于这个程序的中心。\" - time: \"上午\" location: \"某高中\" characters: [\"上条当麻\", \"月咏小萌\", \"茵蒂克丝\", \"姬神秋沙\", \"风斩冰华\"] action: \"开学典礼当天早上，耐不住寂寞和饥饿的茵蒂克丝闯入学校，被误认为是转学生。小萌老师推她出门",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-13"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "第十一卷",
+      "name": "第十一卷",
+      "summary": "<第十一卷_女王舰队篇> - date: \"大霸星祭最后一天\" events: - time: \"白天\" location: \"学园都市·某入场者编号活动会场\" characters: [\"上条当麻\", \"雾丘女子学院学生\"] action: \"上条当麻在大霸星祭的入场者编号活动中幸运地中了头奖，获得了'北意大利七天五夜的双人旅行'资格。虽然他担心不幸体质会带来麻烦，但还是收下了旅行文件 。\" - time: \"随后\" location: \"上条当麻的宿舍\" characters: [\"上条当麻\", \"茵蒂克丝\"] action: \"上条在宿舍寻找护照时，意外发现自己的护照就在衣柜上。茵蒂克丝没有护照，但拥有'必要之恶教会'发行的类似护照的证件。两人确定可以前往意大利 。\" - date: \"两天后 (9月27日)\" events: - time: \"早晨\" location: \"学园都市第二十三学区国际机场\" characters: [\"上条当麻\", \"茵蒂克丝\", \"机场工作人员\"] action: \"在机场安检时，茵蒂克丝因修道服上满是金属别针被拦下。为了赶飞机，上条不得不带着她在机场狂奔购买普通衣物替换 。\" - t",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-19"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "第十三卷",
+      "name": "第十三卷",
+      "summary": "<第十三卷_九三〇篇(下)> - date: \"9月30日\" events: - time: \"傍晚 (18:33 - 19:02)\" location: \"学园都市第三大门 / 第七学区街头\" characters: [\"前方之风\", \"木原数多\", \"一方通行\", \"最后之作\", \"茵蒂克丝\"] action: \"罗马正教'神之右席'成员前方之风入侵学园都市，发动'天罚'术式导致大量警备员昏迷。与此同时，统括理事长亚雷斯塔启动'虚数学区·五行机关'计划。木原数多率领'猎犬部队'袭击一方通行以夺取最后之作。一方通行因能力被木原完全克制而战败，最后之作被抛出车外逃脱。此时茵蒂克丝目击了猎犬部队的行动。\" - time: \"晚间\" location: \"街头 / 某大众餐厅\" characters: [\"上条当麻\", \"最后之作\", \"一方通行\", \"茵蒂克丝\", \"木原数多\", \"前方之风\"] action: \"最后之作向路过的上条当麻求救，两人躲入一家大众餐厅。一方通行抢夺了猎犬部队的车辆救下茵蒂克丝，并将其送往冥土追魂处，随即独自折返复仇。木原数多试图用导弹摧毁一方通行的车辆，却误打误撞被乱入的前方之风挡下。前方之风随后",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-21"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "第十卷",
+      "name": "第十卷",
+      "summary": "<第十卷_使徒十字篇(下)> - date: \"9月19日 (大霸星祭第一日)\" events: - time: \"中午 (12:00-14:00)\" location: \"学园都市某地下街 咖啡厅\" characters: [\"上条当麻\", \"茵蒂克丝\", \"上条刀夜\", \"上条诗菜\", \"御坂美琴\", \"御坂美铃\"] action: \"上条当麻带着茵蒂克丝与父母共进午餐，却巧遇御坂美琴及其母亲御坂美铃。因为茵蒂克丝和父母的无心之言，加上美琴对上条的在意，场面一度非常混乱尴尬。\" - time: \"下午 (14:20左右)\" location: \"学园都市 街道\" characters: [\"上条当麻\", \"茵蒂克丝\", \"御坂美琴\", \"白井黑子\"] action: \"为了确认茵蒂克丝的体型有没有变胖，上条不仅误抱了茵蒂克丝还不小心扯下了她的啦啦队短裙。这一幕被赶来的御坂美琴和白井黑子撞见，上条遭到了两人的疯狂追杀（以及茵蒂克丝的咬击）。\" - time: \"下午 (15:00左右)\" location: \"第五学区 地下联络通道\" characters: [\"土御门元春\", \"欧莉安娜·汤姆森\"] action: \"土",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-17"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "第四卷",
+      "name": "第四卷",
+      "summary": "<第四卷_天使坠落篇> - date: \"8月28日\" events: - time: \"清晨\" location: \"神奈川县某海边 / 民宿'海神'\" characters: [\"上条当麻\", \"上条刀夜\", \"上条诗菜(外表为茵蒂克丝)\", \"御坂美琴(外表为上条表妹)\", \"茵蒂克丝(外表为蓝发耳环)\", \"神裂火织(外表为史提尔)\", \"史提尔(外表为店长)\"] action: \"上条当麻在海边民宿醒来，发现除了自己以外，周围所有人的'外表'与'内在'都发生了置换（如母亲变成了茵蒂克丝的模样，御坂美琴变成了妹妹角色）。神裂火织（顶着史提尔的外表）误以为上条是始作俑者而对其进行逼问。\" - time: \"白天\" location: \"海滩\" characters: [\"上条当麻\", \"土御门元春(外表为偶像明星)\", \"神裂火织\"] action: \"土御门元春现身，揭示自己是潜伏在科学侧的魔法师（英国清教间谍），并解释现状是名为'天使坠落'(Angel Fall)的大魔法造成的。该魔法将天上的天使强制拉入人间，导致全人类的内在与外表发生大风吹般的置换，只有处于魔法中心的上条因'幻想杀手'未受影响。\" - time:",
+      "sourceRefs": [
+        "魔法禁书目录_v1.0.worldbook.json#entry-11"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    }
+  ]
+}

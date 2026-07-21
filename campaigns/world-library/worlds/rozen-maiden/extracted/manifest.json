@@ -1,0 +1,53 @@
+{
+  "schema": "rozen-maiden-extracted-manifest-v1",
+  "worldId": "rozen-maiden",
+  "layer": "extracted",
+  "archiveKind": "world",
+  "status": "generated-from-local-worldbook-index",
+  "canUseAsPiExtractedLayer": true,
+  "canReplaceCurated": false,
+  "sourceWorldview": "imports/worldviews/rozen-maiden",
+  "indexes": {
+    "characters": "characters/index.json",
+    "abilities": "abilities/index.json",
+    "items": "items/index.json",
+    "factions": "factions/index.json",
+    "locations": "locations/index.json",
+    "events": "events/index.json",
+    "systems": "systems/index.json",
+    "knowledge": "knowledge/index.json",
+    "engineRules": "engine-rules/index.json",
+    "sources": "sources/index.json",
+    "relationships": "relationships/index.json",
+    "derivedEntityGraph": "graph/derived-entity-graph.json",
+    "derivedRelationshipIndex": "graph/derived-relationship-index.json",
+    "derivedContinuityIndex": "graph/derived-continuity-index.json",
+    "graphBuildReport": "graph/graph-build-report.json"
+  },
+  "counts": {
+    "sourceEntries": 97,
+    "sourceFiles": 1,
+    "characters": 21,
+    "abilities": 2,
+    "items": 0,
+    "factions": 0,
+    "locations": 4,
+    "events": 1,
+    "systems": 2,
+    "knowledge": 47,
+    "engineRules": 20,
+    "graphNodes": 77,
+    "graphEdges": 68,
+    "derivedMentionEdges": 68
+  },
+  "graphPolicy": {
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "introducesNewFacts": false,
+    "relationshipEdgesAreSignals": true
+  },
+  "generatedAt": "2026-07-20T16:57:24.940Z",
+  "repairedAt": "2026-07-20T17:04:48.799Z",
+  "graphRebuiltAt": "2026-07-21T01:35:04.123Z",
+  "characterRestoreAt": "2026-07-21T01:29:01.296Z"
+}

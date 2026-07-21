@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "ns_card.worldbook.json#entry-16"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[mvu_update]变量输出格式"
+      },
+      "aliases": [
+        "[mvu_update]变量输出格式"
+      ],
+      "summary": "--- 变量输出格式: rule: - you must output the update analysis and the actual update commands at once in the end of the next reply - the update commands works like the **JSON Patch (RFC 6902)** standard, but supports: replace, insert, remove - don't update field names starts with `_` as they are readonly format: |- <UpdateVariable> <Analysis>$(IN ENGLISH, no more than 80 words) - ${calculate time passed: ...} - ${decide whether dramatic updates are allowed: yes/no} - ${analyze every variable based on its corresponding `ch",
+      "description": "--- 变量输出格式: rule: - you must output the update analysis and the actual update commands at once in the end of the next reply - the update commands works like the **JSON Patch (RFC 6902)** standard, but supports: replace, insert, remove - don't update field names starts with `_` as they are readonly format: |- <UpdateVariable> <Analysis>$(IN ENGLISH, no more than 80 words) - ${calculate time passed: ...} - ${decide whether dramatic updates are allowed: yes/no} - ${analyze every variable based on its corresponding `check`: ...} </Analysis> <JSONPatch> [ { \"op\": \"replace\", \"path\": \"/关系网/结/好感度\", \"value\": 45 }, { \"op\": \"replace\", \"path\": \"/剧情/当前卷\", \"value\": 2 } ] </JSONPatch> </UpdateVariable>",
+      "sourceRef": "ns_card.worldbook.json#entry-16",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "mvu_update-变量输出格式"
+}

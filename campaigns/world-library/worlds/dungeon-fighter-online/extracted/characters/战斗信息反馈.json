@@ -1,0 +1,31 @@
+{
+  "source_refs": [
+    "！！地下城与勇士起源v0.0.2.worldbook.json#entry-108"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "adapted/worldbook-backed",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "战斗信息反馈"
+      },
+      "aliases": [
+        "战斗信息反馈",
+        "战斗反馈",
+        "伤害数字",
+        "技能冷却",
+        "状态效果",
+        "死亡复活"
+      ],
+      "summary": "name: 战斗信息反馈 description: 战斗的复杂过程被系统完全数据化, 冒险者通过读取这些即时反馈的数字、图标和记录, 能够精确地执行战术, 判断敌我状态, 这是他们能战胜强大敌人的关键。 trigger_events: damage_event: format: \"伤害数字从目标/自身头顶冒出（暴击为黄色/红色, 普通为白色）。生命条/魔法条实时变动。\" description: 所有伤害和治疗效果都会以具体数值的形式直观呈现, 能让冒险者瞬间判断出攻击的有效性。 skill_usage: format_success: \"[战斗记录：您的技能【技能名称】对【目标名称】造成了XXX点伤害。]\" format_failure: \"[战斗记录：您的攻击被【目标名称】闪避/格挡。]\" description: 技能图标会进入冷却倒计时, 战斗记录中会详细记述每一次攻击的结果, 为战术调整提供依据。 status_change: format_buff: \"[状态提示：您获得了【Buff名称】, 效果：XXX, 持续时间：XX秒。]\" format_debuff: \"[状态提示：您受到了【Debuff名称】, 效果：",
+      "description": "name: 战斗信息反馈 description: 战斗的复杂过程被系统完全数据化, 冒险者通过读取这些即时反馈的数字、图标和记录, 能够精确地执行战术, 判断敌我状态, 这是他们能战胜强大敌人的关键。 trigger_events: damage_event: format: \"伤害数字从目标/自身头顶冒出（暴击为黄色/红色, 普通为白色）。生命条/魔法条实时变动。\" description: 所有伤害和治疗效果都会以具体数值的形式直观呈现, 能让冒险者瞬间判断出攻击的有效性。 skill_usage: format_success: \"[战斗记录：您的技能【技能名称】对【目标名称】造成了XXX点伤害。]\" format_failure: \"[战斗记录：您的攻击被【目标名称】闪避/格挡。]\" description: 技能图标会进入冷却倒计时, 战斗记录中会详细记述每一次攻击的结果, 为战术调整提供依据。 status_change: format_buff: \"[状态提示：您获得了【Buff名称】, 效果：XXX, 持续时间：XX秒。]\" format_debuff: \"[状态提示：您受到了【Debuff名称】, 效果：XXX, 持续时间：XX秒。]\" description: 所有增益与减益状态都会以图标形式出现在状态栏, 鼠标悬停可查看详细描述, 这是战斗中管理自身状态的核心。 death_and_resurrection: format: \"[系统提示：您已阵亡。选择复活点：【城镇名称】/【原地复活（消耗XX道具）】。]\" description: 死亡时, 冒险者的世界会变为灰色, 并出现复活选项。这是一个短暂的惩罚, 但对于天启之人而言, 这是终结。",
+      "sourceRef": "！！地下城与勇士起源v0.0.2.worldbook.json#entry-108",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    }
+  ],
+  "character_id": "战斗信息反馈"
+}
