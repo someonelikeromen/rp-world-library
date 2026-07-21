@@ -1,0 +1,91 @@
+{
+  "schema": "gate-jsdf-derived-continuity-index-v1",
+  "worldId": "gate-jsdf",
+  "recordType": "derived-continuity-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "continuityFamilies": [
+    {
+      "continuityFamilyId": "gate-jsdf-worldbook-derived-continuity",
+      "sourceIndexes": [
+        "events/index.json",
+        "characters/index.json"
+      ],
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "eventNodes": [
+        {
+          "id": "幸原瑞树",
+          "name": "幸原瑞树",
+          "sourceRefs": [
+            "gate_card.worldbook.json#entry-53"
+          ]
+        },
+        {
+          "id": "望月纪子",
+          "name": "望月纪子",
+          "sourceRefs": [
+            "gate_card.worldbook.json#entry-61"
+          ]
+        },
+        {
+          "id": "杜兰",
+          "name": "杜兰",
+          "sourceRefs": [
+            "gate_card.worldbook.json#entry-91"
+          ]
+        },
+        {
+          "id": "梅雅",
+          "name": "梅雅",
+          "sourceRefs": [
+            "gate_card.worldbook.json#entry-67"
+          ]
+        },
+        {
+          "id": "波赛斯·戈·芭蕾丝蒂",
+          "name": "波赛斯·戈·芭蕾丝蒂",
+          "sourceRefs": [
+            "gate_card.worldbook.json#entry-71"
+          ]
+        },
+        {
+          "id": "章节列表",
+          "name": "<章节列表>",
+          "sourceRefs": [
+            "gate_card.worldbook.json#entry-27"
+          ]
+        },
+        {
+          "id": "荷多琉·雷·马尔席",
+          "name": "荷多琉·雷·马尔席",
+          "sourceRefs": [
+            "gate_card.worldbook.json#entry-97"
+          ]
+        },
+        {
+          "id": "萝莉·麦丘利",
+          "name": "萝莉·麦丘利",
+          "sourceRefs": [
+            "gate_card.worldbook.json#entry-34"
+          ]
+        },
+        {
+          "id": "驹门英世",
+          "name": "驹门英世",
+          "sourceRefs": [
+            "gate_card.worldbook.json#entry-58"
+          ]
+        }
+      ]
+    },
+    {
+      "continuityFamilyId": "gate-jsdf-engine-rules-excluded",
+      "sourceIndexes": [
+        "engine-rules/index.json"
+      ],
+      "excludedFromFormalGraph": true,
+      "reason": "Engine rules and status templates are not world facts."
+    }
+  ]
+}

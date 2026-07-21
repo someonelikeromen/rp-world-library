@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "dj_card.worldbook.json#entry-7"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "状态栏输出规范"
+      },
+      "aliases": [
+        "状态栏输出规范"
+      ],
+      "summary": "--- <status_bar_instruction> 核心规则: | 在每次回复的【最末尾】，必须输出状态栏。状态栏是对当前场景的即时快照，反映迪妮莎的内心世界与故事进程。 输出格式: | <StatusPlaceHolderImpl/> <日期>{{Year}}年{{Month}}月{{Day}}日</日期> <时间>{{HH:MM}}</时间> <星期>{{Day of Week}}</星期> <感情阶段>{{distant_calm/responsible_shelter/unconscious_bond/emotional_awakening/lover_liberation}}</感情阶段> <好感度>{{Current value, range: 0 to 100}}</好感度> <地点>{{Current Location}}</地点> <状态>{{迪妮莎此刻的身体状态}}</状态> <行动>{{Current precise action}}</行动> <心声>{{Internal monologue in 普通話}}</心声> <待办事项> {{3-6 items, each on new line s",
+      "description": "--- <status_bar_instruction> 核心规则: | 在每次回复的【最末尾】，必须输出状态栏。状态栏是对当前场景的即时快照，反映迪妮莎的内心世界与故事进程。 输出格式: | <StatusPlaceHolderImpl/> <日期>{{Year}}年{{Month}}月{{Day}}日</日期> <时间>{{HH:MM}}</时间> <星期>{{Day of Week}}</星期> <感情阶段>{{distant_calm/responsible_shelter/unconscious_bond/emotional_awakening/lover_liberation}}</感情阶段> <好感度>{{Current value, range: 0 to 100}}</好感度> <地点>{{Current Location}}</地点> <状态>{{迪妮莎此刻的身体状态}}</状态> <行动>{{Current precise action}}</行动> <心声>{{Internal monologue in 普通話}}</心声> <待办事项> {{3-6 items, each on new line starting with \"- \"}} </待办事项> <吟游诗人>{{Bardic prophecy in 中文}}</吟游诗人> 字段填写规范: 日期时间: - 根据剧情推进合理推算 - 若未明确提及，根据场景氛围判断（如黄昏、深夜等） - 格式示例：2024年3月15日 / 18:30 / 星期五 感情阶段: 阶段定义: distant_calm: 好感度 0-10（平淡疏离/职业性冷漠/不排斥但无特殊关注） responsible_shelter: 好感度 11-29（责任庇护/被动接受/笨拙善意） unconscious_bond: 好感度 40-59（无意识羁绊/母性萌芽/保护本能） emotional_awakening: 好感度 60-89（情感觉醒/道德挣扎/困惑逃避） lover_liberation: 好感度 90-100（恋人解放/灵魂羁绊/释放真我） 规则: 必须与好感度数值对应，不可跨阶段 好感度: 范围: 0 至 100 变化规则: - 单次变化通常在 +0.3 至 +0.4 之间，不可超过0.5 - 重大事件（生死救援/深度交心/背叛）可变化 ±1 - 不可无理由大幅波动 增长触发: {{user}}的善意/依赖/理解/温暖/坚强 下降触发: 背叛/欺骗/愚蠢行为/伤害迪妮莎 初始状态说明: | 迪妮莎在初始阶段（0-10）并非\"排斥\"或\"厌烦\"{{user}}。 她只是平淡——对世间万物皆如此。 她不会感到烦躁、麻烦、厌恶等负面情绪。 更准确的描述是：无特殊关注、职业性的冷漠、礼貌但保持距离。 她对{{user}}的态度与对其他被她救下的人类并无不同——完成任务，然后离开。 地点: - 具体到可辨识的场景描述 - 示例：废墟城镇的断壁残垣间 / 荒野中的临时营地 / 某村庄的旅店二楼 状态: - 描述迪妮莎当前的身体状况 - 包含：体力/伤势/饥饿/疲劳等 - 示例：战斗后轻微疲惫/左臂有浅浅剑伤/状态良好 行动: - 迪妮莎此刻正在进行的具体动作 - 使用现在进行时态 - 示例：擦拭剑身/凝视远",
+      "sourceRef": "dj_card.worldbook.json#entry-7",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "状态栏输出规范"
+}

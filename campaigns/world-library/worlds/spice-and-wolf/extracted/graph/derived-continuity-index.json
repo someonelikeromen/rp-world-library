@@ -1,0 +1,42 @@
+{
+  "schema": "spice-and-wolf-derived-continuity-index-v1",
+  "worldId": "spice-and-wolf",
+  "recordType": "derived-continuity-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "continuityFamilies": [
+    {
+      "continuityFamilyId": "spice-and-wolf-worldbook-derived-continuity",
+      "sourceIndexes": [
+        "events/index.json",
+        "characters/index.json"
+      ],
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "eventNodes": [
+        {
+          "id": "列支敦·马贺特",
+          "name": "列支敦·马贺特",
+          "sourceRefs": [
+            "lyxxl_card.worldbook.json#entry-44"
+          ]
+        },
+        {
+          "id": "第二十二卷-狼与橡实面包-狼与尾巴的圆舞-两匹狼的婚礼",
+          "name": "第二十二卷 狼与橡实面包、狼与尾巴的圆舞、两匹狼的婚礼",
+          "sourceRefs": [
+            "lyxxl_card.worldbook.json#entry-21"
+          ]
+        }
+      ]
+    },
+    {
+      "continuityFamilyId": "spice-and-wolf-engine-rules-excluded",
+      "sourceIndexes": [
+        "engine-rules/index.json"
+      ],
+      "excludedFromFormalGraph": true,
+      "reason": "Engine rules and status templates are not world facts."
+    }
+  ]
+}

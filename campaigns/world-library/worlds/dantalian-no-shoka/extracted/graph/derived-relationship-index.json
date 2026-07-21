@@ -1,0 +1,317 @@
+{
+  "schema": "dantalian-no-shoka-derived-relationship-index-v1",
+  "worldId": "dantalian-no-shoka",
+  "recordType": "derived-relationship-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "formalRelationshipFacts": [],
+  "derivedMentionEdges": [
+    {
+      "source": "characters:世界核心",
+      "target": "characters:幻书",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "幻书",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-25"
+      ],
+      "id": "edge-1",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:模式二-角色共存模型-Character-Coexistence-Model",
+      "target": "characters:幻书",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "幻书",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-31"
+      ],
+      "id": "edge-2",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:活着的书架-The-Living-Archive",
+      "target": "characters:幻书",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "幻书",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-26"
+      ],
+      "id": "edge-3",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "events:章节列表",
+      "target": "characters:幻书",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "幻书",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-30"
+      ],
+      "id": "edge-4",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "events:章节列表",
+      "target": "abilities:第三卷-迷宫书架的序曲：睿智-罪业与永恒的徘徊",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第三卷 迷宫书架的序曲：睿智、罪业与永恒的徘徊",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-30"
+      ],
+      "id": "edge-5",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "events:章节列表",
+      "target": "abilities:第六卷-虚实边界的幻书余烬",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第六卷 虚实边界的幻书余烬",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-30"
+      ],
+      "id": "edge-6",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "events:章节列表",
+      "target": "factions:第一卷-丹特丽安的书架——禁忌睿智的苏醒与幽冥契约",
+      "sourceEntityType": "events",
+      "targetEntityType": "factions",
+      "predicate": "events-mentions-factions",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第一卷 丹特丽安的书架——禁忌睿智的苏醒与幽冥契约",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-30"
+      ],
+      "id": "edge-7",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "events:章节列表",
+      "target": "factions:第七卷-灾厄的余波与交错的因缘",
+      "sourceEntityType": "events",
+      "targetEntityType": "factions",
+      "predicate": "events-mentions-factions",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第七卷 灾厄的余波与交错的因缘",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-30"
+      ],
+      "id": "edge-8",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "events:章节列表",
+      "target": "locations:第五卷-幻書與命運的交織：時時刻表-貓與連鎖",
+      "sourceEntityType": "events",
+      "targetEntityType": "locations",
+      "predicate": "events-mentions-locations",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第五卷 幻書與命運的交織：時時刻表、貓與連鎖",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-30"
+      ],
+      "id": "edge-9",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "events:章节列表",
+      "target": "locations:第八卷-星辰的祭奠与永恒的箱庭",
+      "sourceEntityType": "events",
+      "targetEntityType": "locations",
+      "predicate": "events-mentions-locations",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第八卷 星辰的祭奠与永恒的箱庭",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-30"
+      ],
+      "id": "edge-10",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "factions:洁西卡·艾尔芬斯通",
+      "target": "characters:幻书",
+      "sourceEntityType": "factions",
+      "targetEntityType": "characters",
+      "predicate": "factions-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "幻书",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-12"
+      ],
+      "id": "edge-11",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "factions:第一卷-丹特丽安的书架——禁忌睿智的苏醒与幽冥契约",
+      "target": "characters:幻书",
+      "sourceEntityType": "factions",
+      "targetEntityType": "characters",
+      "predicate": "factions-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "幻书",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-0"
+      ],
+      "id": "edge-12",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "factions:第七卷-灾厄的余波与交错的因缘",
+      "target": "characters:幻书",
+      "sourceEntityType": "factions",
+      "targetEntityType": "characters",
+      "predicate": "factions-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "幻书",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-6"
+      ],
+      "id": "edge-13",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:第三卷-迷宫书架的序曲：睿智-罪业与永恒的徘徊",
+      "target": "characters:幻书",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "幻书",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-2"
+      ],
+      "id": "edge-14",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:第六卷-虚实边界的幻书余烬",
+      "target": "characters:幻书",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "幻书",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-5"
+      ],
+      "id": "edge-15",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:模式一-主角替换模型-Protagonist-Substitution-Mo",
+      "target": "characters:幻书",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "幻书",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-29"
+      ],
+      "id": "edge-16",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    }
+  ],
+  "counts": {
+    "derivedMentionEdges": 16
+  }
+}

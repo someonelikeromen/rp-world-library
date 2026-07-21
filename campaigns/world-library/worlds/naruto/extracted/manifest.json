@@ -1,0 +1,47 @@
+{
+  "schema": "naruto-extracted-manifest-v1",
+  "worldId": "naruto",
+  "layer": "extracted",
+  "archiveKind": "world",
+  "status": "generated-from-local-worldbook-index",
+  "canUseAsPiExtractedLayer": true,
+  "canReplaceCurated": false,
+  "sourceWorldview": "imports/worldviews/naruto",
+  "indexes": {
+    "characters": "characters/index.json",
+    "abilities": "abilities/index.json",
+    "organizations": "organizations/index.json",
+    "locations": "locations/index.json",
+    "events": "events/index.json",
+    "rules": "rules/index.json",
+    "sources": "sources/index.json",
+    "engineRules": "engine-rules/index.json",
+    "relationships": "relationships/index.json",
+    "derivedEntityGraph": "graph/derived-entity-graph.json",
+    "derivedRelationshipIndex": "graph/derived-relationship-index.json",
+    "derivedContinuityIndex": "graph/derived-continuity-index.json",
+    "graphBuildReport": "graph/graph-build-report.json"
+  },
+  "counts": {
+    "sourceEntries": 701,
+    "characters": 159,
+    "abilities": 132,
+    "organizations": 124,
+    "locations": 26,
+    "events": 81,
+    "rules": 7,
+    "engineRules": 85,
+    "knowledge": 87,
+    "graphNodes": 616,
+    "graphEdges": 5876,
+    "derivedMentionEdges": 5876,
+    "sourceRefCooccurrenceEdges": 0
+  },
+  "generatedAt": "2026-07-20T16:10:57.377Z",
+  "graphPolicy": {
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "introducesNewFacts": false,
+    "relationshipEdgesAreSignals": true
+  }
+}

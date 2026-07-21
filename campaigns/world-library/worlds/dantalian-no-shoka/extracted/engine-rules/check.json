@@ -1,0 +1,27 @@
+{
+  "source_refs": [
+    "dtla_card.worldbook.json#entry-33"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "check:"
+      },
+      "aliases": [
+        "check:",
+        "[mvu_update]变量更新规则"
+      ],
+      "summary": "--- 变量更新规则: protagonist: name: check: - \"仅在故事开端或经历重大身份转变的剧情节点时更新。\" type: check: - \"仅在故事开端，确认主角身份时设定一次。\" background: check: - \"当主角回忆起关键往事或其背景故事被揭示时，进行补充或修正。\" time_and_location: date: check: - \"每次休息、长途旅行或明确的时间跳跃后更新。\" time_of_day: check: - \"随着剧情的自然推进而改变（例如：从正午到黄昏）。\" location: check: - \"当主角从一个地点移动到另一个地点时更新。\" weather: check: - \"进入新场景或时间发生显著变化时更新，需与地点和季节相符。\" reading_princesses.${读姬的名字}: type: |- { affection: number; // 对主角的好感度 status: string; // 当前状态 location: string; // 当前位置 } affection: range: -100 ~ 100 category: -100",
+      "description": "--- 变量更新规则: protagonist: name: check: - \"仅在故事开端或经历重大身份转变的剧情节点时更新。\" type: check: - \"仅在故事开端，确认主角身份时设定一次。\" background: check: - \"当主角回忆起关键往事或其背景故事被揭示时，进行补充或修正。\" time_and_location: date: check: - \"每次休息、长途旅行或明确的时间跳跃后更新。\" time_of_day: check: - \"随着剧情的自然推进而改变（例如：从正午到黄昏）。\" location: check: - \"当主角从一个地点移动到另一个地点时更新。\" weather: check: - \"进入新场景或时间发生显著变化时更新，需与地点和季节相符。\" reading_princesses.${读姬的名字}: type: |- { affection: number; // 对主角的好感度 status: string; // 当前状态 location: string; // 当前位置 } affection: range: -100 ~ 100 category: -100~-50: \"憎恶/敌对\" -50~0: \"疏远/不信任\" 0~50: \"友善/信赖\" 50~100: \"依赖/挚爱\" check: - \"根据主角的选择、对话和行为进行微调。符合其喜好或帮助她时增加，反之减少。\" - \"单次好感度变化通常不超过±10点，除非触发了极其关键的事件。\" status: check: - \"根据剧情发展更新，如受伤、离队、被困等。\" location: check: - \"当该角色与主角分开行动时，更新其所在位置。\" companions.${队友的名字}: type: |- { affection: number; status: string; role: string; } affection: range: -100 ~ 100 check: - \"规则同'读姬'的好感度。\" status: check: - \"根据剧情发展更新，如加入队伍、离队、受伤等。\" role: check: - \"当其在队伍中的职责发生变化时更新。\" reputation.${势力名称}: type: number range: -100 ~ 100 category: -100~-50: \"通缉要犯\" -50~0: \"不受欢迎\" 0~50: \"略有耳闻/合作对象\" 50~100: \"值得信赖的盟友/英雄\" check: - \"当主角的行为对某个势力产生重大利益或损害时更新。\" - \"完成或破坏该势力的任务是改变声望的主要方式。\" phantom_books.${幻书的正式名称}: type: |- { description: string; status: '已封印' | '使用中' | '失控' | '流落在外'; holder: string; } status: check: - \"当幻书被发现、回收、使用、被窃或被封印时更新。\" holder: check: - \"当幻书的持有权发生转移时更新。\" equipment.${装备槽位}: type: |- { name: string; descriptio",
+      "sourceRef": "dtla_card.worldbook.json#entry-33",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "check"
+}

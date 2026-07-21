@@ -1,0 +1,42 @@
+{
+  "schema": "black-bullet-derived-continuity-index-v1",
+  "worldId": "black-bullet",
+  "recordType": "derived-continuity-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "continuityFamilies": [
+    {
+      "continuityFamilyId": "black-bullet-worldbook-derived-continuity",
+      "sourceIndexes": [
+        "events/index.json",
+        "characters/index.json"
+      ],
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "eventNodes": [
+        {
+          "id": "户籍剥夺法",
+          "name": "户籍剥夺法",
+          "sourceRefs": [
+            "qhzd_card.worldbook.json#entry-109"
+          ]
+        },
+        {
+          "id": "章节列表",
+          "name": "<章节列表>",
+          "sourceRefs": [
+            "qhzd_card.worldbook.json#entry-134"
+          ]
+        }
+      ]
+    },
+    {
+      "continuityFamilyId": "black-bullet-engine-rules-excluded",
+      "sourceIndexes": [
+        "engine-rules/index.json"
+      ],
+      "excludedFromFormalGraph": true,
+      "reason": "Engine rules and status templates are not world facts."
+    }
+  ]
+}

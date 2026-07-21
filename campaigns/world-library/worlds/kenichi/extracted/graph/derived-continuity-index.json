@@ -1,0 +1,42 @@
+{
+  "schema": "kenichi-derived-continuity-index-v1",
+  "worldId": "kenichi",
+  "recordType": "derived-continuity-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "continuityFamilies": [
+    {
+      "continuityFamilyId": "kenichi-worldbook-derived-continuity",
+      "sourceIndexes": [
+        "events/index.json",
+        "characters/index.json"
+      ],
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "eventNodes": [
+        {
+          "id": "白鸟薰",
+          "name": "白鸟薰",
+          "sourceRefs": [
+            "shzqdz_card.worldbook.json#entry-70"
+          ]
+        },
+        {
+          "id": "第七卷-新岛的崛起与隐者的真身",
+          "name": "第七卷 新岛的崛起与隐者的真身",
+          "sourceRefs": [
+            "shzqdz_card.worldbook.json#entry-211"
+          ]
+        }
+      ]
+    },
+    {
+      "continuityFamilyId": "kenichi-engine-rules-excluded",
+      "sourceIndexes": [
+        "engine-rules/index.json"
+      ],
+      "excludedFromFormalGraph": true,
+      "reason": "Engine rules and status templates are not world facts."
+    }
+  ]
+}

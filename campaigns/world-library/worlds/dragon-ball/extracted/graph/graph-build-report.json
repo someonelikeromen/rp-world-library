@@ -1,0 +1,33 @@
+{
+  "schema": "dragon-ball-graph-build-report-v1",
+  "worldId": "dragon-ball",
+  "status": "completed",
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "validation": {
+    "jsonValid": true,
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "newFactsIntroduced": false,
+    "forbiddenBasenamesGenerated": false
+  },
+  "counts": {
+    "nodes": 203,
+    "edges": 135,
+    "nodeCounts": {
+      "characters": 138,
+      "abilities": 26,
+      "factions": 3,
+      "locations": 26,
+      "events": 2,
+      "systems": 6,
+      "knowledge": 2
+    },
+    "edgeCounts": {
+      "derived-text-mention": 135
+    },
+    "derivedMentionEdges": 135
+  },
+  "warnings": [
+    "Derived graph edges are navigation/search signals, not formal relationship facts."
+  ]
+}

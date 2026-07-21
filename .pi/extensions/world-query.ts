@@ -6,7 +6,7 @@ import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";
 import { Type } from "typebox";
 
 type WorldStatus = "curated" | "raw";
-type QueryAction = "worlds" | "overview" | "search" | "get" | "characters" | "stories" | "aggregate" | "graph";
+type QueryAction = "worlds" | "overview" | "search" | "get" | "characters" | "stories" | "aggregate" | "graph" | "timeline";
 type QueryCategory = "all" | "character" | "world" | "story" | "rule" | "raw" | "source" | "graph";
 
 const ROOT = process.cwd();
@@ -100,7 +100,8 @@ function norm(s: unknown): string {
 }
 
 function includesQuery(value: unknown, q: string): boolean {
-	const hay = norm(value);
+	const raw = typeof value === "string" ? value : JSON.stringify(value ?? "");
+	const hay = norm(raw);
 	if (!q) return true;
 	if (hay.includes(q)) return true;
 	const tokens = q.split(/\s+/).map(t => t.trim()).filter(Boolean);
@@ -216,6 +217,9 @@ function overview(params: any, maxBytes: number): ToolResult {
 	}
 
 	const cdir = curatedDir(slug);
+	const edir = extractedDir(slug);
+	const extractedManifest = safeJson(join(edir, "manifest.json"));
+	const finalStatus = safeJson(join(edir, "audits", "publication-final-status.json"));
 	const worldJson = safeJson(join(cdir, "world.json")) || {};
 	const sources = safeJson(join(cdir, "source-registry.json"));
 	const storiesDir = join(cdir, "stories");
@@ -247,6 +251,23 @@ function overview(params: any, maxBytes: number): ToolResult {
 				return { type: t, count: cnt };
 			}).filter(e => e.count > 0),
 		},
+		extractedPublication: extractedManifest ? {
+			present: true,
+			path: rel(edir),
+			publicationMode: extractedManifest.publicationMode,
+			status: finalStatus?.status,
+			canUseAsPiExtractedLayer: finalStatus?.canUseAsPiExtractedLayer ?? extractedManifest.canUseAsPiExtractedLayer,
+			canReplaceCurated: finalStatus?.canReplaceCurated ?? extractedManifest.canReplaceCurated,
+			formalPublishedPilots: finalStatus?.formalPublishedPilots || extractedManifest.formalPilotRegistry?.map((p: any) => p.pilotId),
+			heldOrInventoryOnlyPilots: finalStatus?.heldOrInventoryOnlyPilots || extractedManifest.heldOrInventoryOnlyPilots,
+			derivedGraph: extractedManifest.indexes ? {
+				entity: extractedManifest.indexes.unifiedDerivedEntityGraph || extractedManifest.indexes.derivedEntityGraph,
+				relationships: extractedManifest.indexes.derivedRelationshipIndex,
+				continuity: extractedManifest.indexes.derivedContinuityIndex,
+				derivedOnly: true,
+				primaryFactStore: false,
+			} : undefined,
+		} : undefined,
 		next: [
 			`world_query { action: "search", world: "${slug}", query: "关键词" }`,
 			`world_query { action: "characters", world: "${slug}", query: "角色名" }`,
@@ -332,12 +353,16 @@ function searchExtracted(slug: string, query: string, category: QueryCategory, l
 	const q = norm(query);
 	const edir = extractedDir(slug);
 	if (!existsSync(edir)) return [];
-	const results: any[] = [];
+	const published = searchPublishedExtractedLayer(slug, query, category, limit);
+	if (published.length >= limit) return published.slice(0, limit);
+	const results: any[] = [...published];
+	if (slug === TYPE_MOON_SLUG && hasPublishedExtractedLayer(slug)) return results.slice(0, limit);
 	const types = category === "all"
-		? ["characters", "abilities", "events", "items", "locations", "factions", "systems", "knowledge"]
+		? ["characters", "abilities", "events", "items", "locations", "factions", "organizations", "systems", "knowledge"]
 		: category === "character" ? ["characters"]
-		: category === "world" ? ["locations", "factions", "systems", "knowledge"]
+		: category === "world" ? ["locations", "factions", "organizations", "systems", "knowledge"]
 		: [];
+	const candidates: any[] = [];
 	for (const type of types) {
 		const dir = join(edir, type);
 		if (!existsSync(dir)) continue;
@@ -345,14 +370,20 @@ function searchExtracted(slug: string, query: string, category: QueryCategory, l
 			if (!fn.endsWith(".json")) continue;
 			const data = safeJson(join(dir, fn));
 			if (!data) continue;
-			const id = data[type === "characters" ? "character_id" : type === "abilities" ? "ability_id" : type === "events" ? "event_id" : type === "items" ? "item_id" : type === "locations" ? "location_id" : type === "factions" ? "faction_id" : type === "systems" ? "system_id" : "knowledge_id"] || fn.replace(".json", "");
+			const id = data[type === "characters" ? "character_id" : type === "abilities" ? "ability_id" : type === "events" ? "event_id" : type === "items" ? "item_id" : type === "locations" ? "location_id" : type === "factions" ? "faction_id" : type === "organizations" ? "organization_id" : type === "systems" ? "system_id" : "knowledge_id"] || fn.replace(".json", "");
 			const p0 = (data.periods || [])[0] || {};
 			const zhName = typeof p0.name === "object" ? p0.name?.zh || "" : p0.name || "";
 			const enName = typeof p0.name === "object" ? p0.name?.en || "" : "";
 			const aliases = p0.aliases || data.aliases || [];
-			const hay = [id, zhName, enName, ...aliases, type, p0.summary || "", p0.description || ""].join("\n");
-			if (includesQuery(hay, q)) {
-				results.push({
+			const nameFields = [id, zhName, enName, ...aliases].filter(Boolean).map((v: any) => norm(v));
+			const metadataHay = [id, zhName, enName, ...aliases, type].join("\n");
+			const bodyHay = [p0.summary || "", p0.description || ""].join("\n");
+			if (includesQuery(metadataHay + "\n" + bodyHay, q)) {
+				const exactName = nameFields.some((v: string) => v === q);
+				const nameContains = nameFields.some((v: string) => v.includes(q));
+				const metadataMatch = includesQuery(metadataHay, q);
+				candidates.push({
+					_rank: exactName ? 0 : nameContains ? 1 : metadataMatch ? 2 : 3,
 					type: "extracted",
 					entityType: type,
 					ref: "entity:" + slug + ":" + type + ":" + id,
@@ -363,9 +394,13 @@ function searchExtracted(slug: string, query: string, category: QueryCategory, l
 					volume: p0.volume || data.volume || "",
 					sourceRefs: data.source_refs || (p0.sourceRef ? [p0.sourceRef] : []),
 				});
-				if (results.length >= limit) return results;
 			}
 		}
+	}
+	for (const item of candidates.sort((a, b) => a._rank - b._rank || String(a.name).localeCompare(String(b.name)))) {
+		delete item._rank;
+		results.push(item);
+		if (results.length >= limit) return results;
 	}
 	return results;
 }
@@ -392,18 +427,196 @@ function searchRaw(slug: string, query: string, limit: number): any[] {
 }
 
 function sourceTier(type: string): string {
-	return type === "extracted" ? "extracted" : type === "raw" ? "raw" : "curated";
+	if (type === "extracted" || type === "extracted-index" || type === "extracted-shard") return "extracted";
+	if (type === "candidate" || type === "source-gap" || type === "held" || type === "boundary") return "extracted-boundary";
+	return type === "raw" ? "raw" : "curated";
 }
 
 function withSourceTier(r: any): any {
-	return { sourceTier: sourceTier(r.type), sourceReliability: r.type === "extracted" ? "source-backed extracted entity" : r.type === "raw" ? "raw worldbook fallback" : "curated index/summary", ...r };
+	const tier = sourceTier(r.type);
+	const reliability = tier === "extracted"
+		? "source-backed extracted publication layer"
+		: tier === "extracted-boundary"
+			? "candidate/source-gap/held boundary from extracted layer"
+			: r.type === "raw" ? "raw worldbook fallback" : "curated index/summary";
+	return { sourceTier: tier, sourceReliability: reliability, ...r };
+}
+
+const TYPE_MOON_SLUG = "type-moon-nasuverse";
+const PUBLISHED_EXTRACTED_INDEXES: Record<string, string> = {
+	sources: "sources/index.json",
+	characters: "characters/index.json",
+	events: "events/index.json",
+	relationships: "relationships/index.json",
+	rules: "rules/index.json",
+	locations: "locations/index.json",
+	abilities: "abilities/index.json",
+	organizations: "organizations/index.json",
+	items: "items/index.json",
+	timelines: "timelines/derived-timeline-index.json",
+	candidates: "candidates/index.json",
+	"source-gaps": "source-gaps/index.json",
+};
+
+function hasPublishedExtractedLayer(slug: string): boolean {
+	const m = safeJson(join(extractedDir(slug), "manifest.json"));
+	return !!(m?.layer === "extracted" && (m?.formalPilotRegistry || m?.formalPublishedPilots || m?.indexes));
+}
+
+function isBoundarySection(section: string): boolean {
+	return section === "candidates" || section === "source-gaps";
+}
+
+function idFromPublishedRecord(record: any, fallback: string): string {
+	return String(record?.recordId || record?.familyId || record?.timelineFamilyId || record?.gapInventoryId || record?.candidateInventoryId || record?.sourceId || record?.pilotId || record?.id || fallback);
+}
+
+function nameFromPublishedRecord(record: any, fallback: string): string {
+	return String(record?.displayName || record?.name || record?.title || record?.familyId || record?.timelineFamilyId || record?.gapInventoryId || record?.candidateInventoryId || record?.recordId || record?.pilotId || fallback);
+}
+
+function publishedRecordArrays(index: any): Array<{ bucket: string; records: any[] }> {
+	if (!index || typeof index !== "object") return [];
+	const out: Array<{ bucket: string; records: any[] }> = [];
+	for (const [bucket, value] of Object.entries(index)) {
+		if (Array.isArray(value) && value.every(v => v && typeof v === "object")) out.push({ bucket, records: value as any[] });
+	}
+	return out;
+}
+
+function publishedIndexPath(slug: string, section: string): string | undefined {
+	const relPath = PUBLISHED_EXTRACTED_INDEXES[section];
+	return relPath ? join(extractedDir(slug), relPath) : undefined;
+}
+
+function publishedIndex(slug: string, section: string): any | undefined {
+	const fp = publishedIndexPath(slug, section);
+	return fp ? safeJson(fp) : undefined;
+}
+
+function publishedShardRecords(slug: string, index: any): Array<{ shardRef: string; record: any }> {
+	const out: Array<{ shardRef: string; record: any }> = [];
+	for (const shardRef of index?.representativeShardRefs || []) {
+		const shard = safeJson(join(extractedDir(slug), shardRef));
+		for (const record of shard?.records || []) out.push({ shardRef, record });
+	}
+	return out;
+}
+
+function publishedRecordResult(slug: string, section: string, bucket: string, record: any, idx: number, shardRef?: string): any {
+	const id = idFromPublishedRecord(record, `${bucket}-${idx}`);
+	const bucketNorm = norm(bucket);
+	const boundary = isBoundarySection(section)
+		|| bucketNorm.includes("excluded")
+		|| bucketNorm.includes("held")
+		|| bucketNorm.includes("nonformal")
+		|| record?.candidateOnly === true
+		|| record?.sourceGap === true
+		|| String(record?.status || "").includes("hold")
+		|| String(record?.decision || "").includes("hold")
+		|| String(record?.publicationDecision || "").toLowerCase().includes("hold");
+	return {
+		type: boundary ? (record?.candidateOnly ? "candidate" : "source-gap") : (shardRef ? "extracted-shard" : "extracted-index"),
+		entityType: section,
+		ref: `exindex:${slug}:${section}:${encodeURIComponent(id)}`,
+		id,
+		name: nameFromPublishedRecord(record, id),
+		match: shardRef ? `representative shard ${shardRef}` : `published ${section} ${bucket}`,
+		summary: previewText(record, 420),
+		sourceLayer: "extracted",
+		publicationLayer: "source-linked-indexes-with-representative-shards",
+		candidateOnly: !!record?.candidateOnly,
+		sourceGap: !!record?.sourceGap,
+		status: record?.status || record?.decision,
+		publicationDecision: record?.publicationDecision || record?.decision || record?.reason,
+		continuityScope: record?.continuityScope,
+		sourcePilot: record?.sourcePilot || record?.pilotId,
+		sourceRefs: record?.sourceRefs || record?.acceptedArtifactRefs || record?.source_refs,
+		sourceType: record?.sourceType,
+		credibility: record?.credibility,
+		canonStatus: record?.canonStatus,
+		audit: record?.audit || { auditStatusRef: record?.auditStatusRef, auditStatusRefs: record?.auditStatusRefs },
+	};
+}
+
+function publishedExtractedSectionsForCategory(category: QueryCategory, includeBoundary = false): string[] {
+	if (category === "character") return ["characters"];
+	if (category === "rule") return ["rules", "abilities"];
+	if (category === "source") return includeBoundary ? ["sources", "candidates", "source-gaps"] : ["sources"];
+	if (category === "graph") return ["relationships", "organizations", "locations"];
+	if (category === "story") return ["events", "timelines"];
+	if (category === "world") return ["rules", "locations", "organizations", "abilities", "items", "timelines"];
+	return includeBoundary
+		? ["characters", "events", "relationships", "rules", "locations", "abilities", "organizations", "items", "timelines", "sources", "candidates", "source-gaps"]
+		: ["characters", "events", "relationships", "rules", "locations", "abilities", "organizations", "items", "timelines", "sources"];
+}
+
+function searchPublishedExtractedLayer(slug: string, query: string, category: QueryCategory, limit: number): any[] {
+	if (slug !== TYPE_MOON_SLUG || !hasPublishedExtractedLayer(slug)) return [];
+	const q = norm(query);
+	const out: any[] = [];
+	const seen = new Set<string>();
+	function pushResult(r: any) {
+		const isBoundary = r.type === "candidate" || r.type === "source-gap" || r.sourceTier === "extracted-boundary";
+		const key = isBoundary
+			? ["boundary", r.sourcePilot || r.id, r.status, r.publicationDecision].filter(Boolean).join("|")
+			: [r.ref, r.id, r.sourcePilot, r.status, r.publicationDecision].filter(Boolean).join("|");
+		if (seen.has(key)) return;
+		seen.add(key);
+		out.push(r);
+	}
+	function scanSections(sections: string[]) {
+		for (const section of sections) {
+			if (out.length >= limit) return;
+			const index = publishedIndex(slug, section);
+			if (!index) continue;
+			let i = 0;
+			for (const { bucket, records } of publishedRecordArrays(index)) {
+				for (const record of records) {
+					if (out.length >= limit) return;
+					if (includesQuery(record, q)) pushResult(publishedRecordResult(slug, section, bucket, record, i));
+					i++;
+				}
+			}
+			for (const shard of publishedShardRecords(slug, index)) {
+				if (out.length >= limit) return;
+				if (includesQuery(shard.record, q)) pushResult(publishedRecordResult(slug, section, "records", shard.record, i++, shard.shardRef));
+			}
+		}
+	}
+	scanSections(publishedExtractedSectionsForCategory(category, false));
+	if (out.length < limit && (category === "all" || category === "source" || out.length === 0)) scanSections(publishedExtractedSectionsForCategory(category, true).filter(isBoundarySection));
+	return out;
+}
+
+function getPublishedExtractedRecord(slug: string, section: string, id: string): any | undefined {
+	if (slug !== TYPE_MOON_SLUG || !hasPublishedExtractedLayer(slug)) return undefined;
+	const index = publishedIndex(slug, section);
+	if (!index) return undefined;
+	let i = 0;
+	for (const { bucket, records } of publishedRecordArrays(index)) {
+		for (const record of records) {
+			const recordId = idFromPublishedRecord(record, `${bucket}-${i}`);
+			if (recordId === id) return { section, bucket, id: recordId, record, path: PUBLISHED_EXTRACTED_INDEXES[section] };
+			i++;
+		}
+	}
+	for (const shard of publishedShardRecords(slug, index)) {
+		const recordId = idFromPublishedRecord(shard.record, "record");
+		if (recordId === id) return { section, bucket: "records", id: recordId, record: shard.record, path: shard.shardRef };
+	}
+	return undefined;
 }
 
 function extractedCharacterRows(slug: string, query = "", limit = 20): any[] {
 	const q = norm(query);
 	const dir = join(extractedDir(slug), "characters");
-	if (!existsSync(dir)) return [];
-	const out: any[] = [];
+	const published = searchPublishedExtractedLayer(slug, query, "character", limit).map(withSourceTier);
+	if (published.length >= limit) return published.slice(0, limit);
+	if (!existsSync(dir)) return published;
+	const out: any[] = [...published];
+	if (slug === TYPE_MOON_SLUG && hasPublishedExtractedLayer(slug)) return out.slice(0, limit);
+	const candidates: any[] = [];
 	for (const fn of readdirSync(dir).filter(f => f.endsWith(".json")).sort()) {
 		const data = safeJson(join(dir, fn));
 		if (!data) continue;
@@ -411,8 +624,19 @@ function extractedCharacterRows(slug: string, query = "", limit = 20): any[] {
 		const p0 = (data.periods || [])[0] || {};
 		const name = typeof p0.name === "object" ? p0.name?.zh || p0.name?.en || id : p0.name || id;
 		const aliases = p0.aliases || data.aliases || [];
-		const hay = [id, name, ...aliases, p0.summary || "", p0.description || ""].join("\n");
-		if (!q || includesQuery(hay, q)) out.push(withSourceTier({ type: "extracted", ref: `entity:${slug}:characters:${id}`, id, name, aliases, summary: p0.summary, sourceRefs: data.source_refs || (p0.sourceRef ? [p0.sourceRef] : []) }));
+		const nameFields = [id, name, ...aliases].filter(Boolean).map((v: any) => norm(v));
+		const metadataHay = [id, name, ...aliases].join("\n");
+		const bodyHay = [p0.summary || "", p0.description || ""].join("\n");
+		if (!q || includesQuery(metadataHay + "\n" + bodyHay, q)) {
+			const exactName = q && nameFields.some((v: string) => v === q);
+			const nameContains = q && nameFields.some((v: string) => v.includes(q));
+			const metadataMatch = q && includesQuery(metadataHay, q);
+			candidates.push({ _rank: !q ? 0 : exactName ? 0 : nameContains ? 1 : metadataMatch ? 2 : 3, ...withSourceTier({ type: "extracted", ref: `entity:${slug}:characters:${id}`, id, name, aliases, summary: p0.summary, sourceRefs: data.source_refs || (p0.sourceRef ? [p0.sourceRef] : []) }) });
+		}
+	}
+	for (const item of candidates.sort((a, b) => a._rank - b._rank || String(a.name).localeCompare(String(b.name)))) {
+		delete item._rank;
+		out.push(item);
 		if (out.length >= limit) break;
 	}
 	return out;
@@ -504,6 +728,23 @@ function getRef(params: any, maxBytes: number): ToolResult {
 		const src = (sr?.sources || []).find((s: any) => String(s.id) === id);
 		if (!src) return errorResult(`Source not found: ${ref}`, maxBytes);
 		return textResult({ ok: true, type: "source", ref, source: src }, { ok: true, action: "get", ref }, maxBytes);
+	}
+	if (kind === "exindex") {
+		const section = parts[2];
+		const id = decodeURIComponent(parts.slice(3).join(":"));
+		const found = getPublishedExtractedRecord(slug, section, id);
+		if (!found) return errorResult(`Extracted publication index record not found: ${ref}`, maxBytes);
+		return textResult({
+			ok: true,
+			sourceTier: "extracted",
+			sourceReliability: "source-backed extracted publication layer",
+			type: "extracted-index",
+			ref,
+			section,
+			id,
+			path: found.path,
+			record: found.record,
+		}, { ok: true, action: "get", ref, sourceTier: "extracted", path: found.path }, maxBytes);
 	}
 	if (kind === "entity") {
 		const entityType = parts[2]; // characters, abilities, etc.
@@ -710,10 +951,59 @@ function aggregateResults(params: any, maxBytes: number): ToolResult {
 	return textResult({ ok: true, query, world: slug, entityCount: entities.length, entities, graphAvailable: entities.some(e => e.graph) }, { ok: true, action: "aggregate", world: slug, query, entityCount: entities.length }, maxBytes);
 }
 
+function graphPublishedExtractedLayer(params: any, maxBytes: number): ToolResult | undefined {
+	const slug = params.world;
+	const query = norm(params.query || params.entityRef || params.ref || "");
+	if (!slug || !query) return undefined;
+	const graphDir = join(extractedDir(slug), "graph");
+	const entityGraph = safeJson(join(graphDir, "derived-entity-graph.json"));
+	if (!entityGraph) return undefined;
+	const relationshipIndex = safeJson(join(graphDir, "derived-relationship-index.json"));
+	const continuityIndex = safeJson(join(graphDir, "derived-continuity-index.json"));
+	const buildReport = safeJson(join(graphDir, "graph-build-report.json"));
+	const limit = capLimit(params.limit);
+	const nodeMatches = (entityGraph?.nodes || []).filter((n: any) => includesQuery(n, query)).slice(0, limit);
+	const edgeMatches = (entityGraph?.edges || []).filter((e: any) => includesQuery(e, query)).slice(0, limit);
+	const relationshipMatches: any[] = [];
+	for (const { bucket, records } of publishedRecordArrays(relationshipIndex)) {
+		for (const record of records) {
+			if (relationshipMatches.length >= limit) break;
+			if (includesQuery(record, query)) relationshipMatches.push({ bucket, ...record });
+		}
+	}
+	const continuityMatches: any[] = [];
+	for (const { bucket, records } of publishedRecordArrays(continuityIndex)) {
+		for (const record of records) {
+			if (continuityMatches.length >= limit) break;
+			if (includesQuery(record, query)) continuityMatches.push({ bucket, ...record });
+		}
+	}
+	return textResult({
+		ok: true,
+		world: slug,
+		query,
+		sourceTier: "extracted",
+		sourceLayer: "extracted",
+		graphLayer: "unified-derived-graph",
+		derivedOnly: entityGraph?.derivedOnly ?? true,
+		primaryFactStore: entityGraph?.primaryFactStore ?? false,
+		introducesNewFacts: entityGraph?.derivationPolicy?.introducesNewFacts ?? buildReport?.validation?.newFactsIntroduced ?? false,
+		counts: { nodes: nodeMatches.length, edges: edgeMatches.length, relationships: relationshipMatches.length, continuities: continuityMatches.length },
+		nodes: nodeMatches,
+		edges: edgeMatches,
+		relationships: relationshipMatches,
+		continuities: continuityMatches,
+		buildReport: buildReport ? { path: "graph/graph-build-report.json", status: buildReport.status, newFactsIntroduced: buildReport.validation?.newFactsIntroduced } : undefined,
+		next: [`world_query { action: "search", world: "${slug}", query: "${params.query || query}" }`],
+	}, { ok: true, action: "graph", world: slug, sourceTier: "extracted" }, maxBytes);
+}
+
 // ─── graph: relation traversal from a character ───
 function graphTraversal(params: any, maxBytes: number): ToolResult {
+	const published = graphPublishedExtractedLayer(params, maxBytes);
+	if (published) return published;
 	const entityRef = params.entityRef || params.ref;
-	if (!entityRef) return errorResult("action=graph requires entityRef or ref", maxBytes);
+	if (!entityRef) return errorResult("action=graph requires entityRef/ref, or world+query for extracted derived graph search", maxBytes);
 
 	const parts = entityRef.split(":");
 	const kind = parts[0];
@@ -939,7 +1229,7 @@ function applyRanking(results: any[], config: any): any[] {
 
 // ─── timeline: time-based event query ───
 function loadTimeline(slug: string): any | undefined {
-	return safeJson(join(extractedDir(slug), "timeline.json"));
+	return safeJson(join(extractedDir(slug), "timeline.json")) || safeJson(join(extractedDir(slug), "timelines", "derived-timeline-index.json"));
 }
 
 function timeline(params: any, maxBytes: number): ToolResult {
@@ -952,6 +1242,25 @@ function timeline(params: any, maxBytes: number): ToolResult {
 	const queryTime = params.time;
 	const queryRange = params.timeRange;
 	const queryEvent = params.query;
+
+	if (events.length === 0 && tl.timelineFamilies) {
+		const q = norm(queryEvent || "");
+		const families = (tl.timelineFamilies || []).filter((f: any) => !q || includesQuery(f, q)).slice(0, capLimit(params.limit));
+		const excluded = (tl.excludedDerivedTimelines || []).filter((f: any) => !q || includesQuery(f, q)).slice(0, capLimit(params.limit));
+		return textResult({
+			ok: true,
+			world: slug,
+			sourceTier: "extracted",
+			sourceLayer: "extracted",
+			timelineLayer: "derived-timeline-index",
+			derivedOnly: tl.derivedOnly ?? true,
+			primaryFactStore: tl.primaryFactStore ?? false,
+			query: queryEvent,
+			count: families.length,
+			timelineFamilies: families,
+			excludedDerivedTimelines: excluded,
+		}, { ok: true, action: "timeline", world: slug, sourceTier: "extracted", derivedOnly: true }, maxBytes);
+	}
 
 	if (queryEvent) {
 		// Single event lookup

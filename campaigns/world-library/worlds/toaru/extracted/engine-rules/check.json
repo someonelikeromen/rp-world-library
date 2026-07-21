@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "魔法禁书目录_v1.0.worldbook.json#entry-6"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "check:"
+      },
+      "aliases": [
+        "check:"
+      ],
+      "summary": "--- 变量更新规则: 当前卷: check: - 根据当前时间、剧情大纲与<plot_list>进行更新 篇章名: check: - 参照<plot_list>，随“当前卷”同步更新， 下一卷: check: - 参照<plot_list>，随“当前卷”同步更新 日期: format: MM月DD日 check: - 每次行动、睡眠或场景切换后，根据流逝时间合理推进 - 注意《魔禁》原作中关键事件的特定日期（如9月30日、10月3日等） 时间: format: HH:MM check: - 随剧情实时更新，精确到分钟 - 需体现昼夜交替对环境描写（光影、温度）的影响 地点: check: - 记录当前场景的具体位置（如：某高中学生宿舍、第七学区街头、第十学区废墟等） - 随<user>移动即时更新 <user>: 姓名: check: - 只读 性别: check: - 只读 年龄: check: - 只读 外貌: check: - 只读 特殊能力: type: string[] check: - 可写入 - 记录<user>当前掌握超能力/魔法术式/特殊才能 - 若习得新技能或原有能力进化/变异，需即时添加 其他信息: ",
+      "description": "--- 变量更新规则: 当前卷: check: - 根据当前时间、剧情大纲与<plot_list>进行更新 篇章名: check: - 参照<plot_list>，随“当前卷”同步更新， 下一卷: check: - 参照<plot_list>，随“当前卷”同步更新 日期: format: MM月DD日 check: - 每次行动、睡眠或场景切换后，根据流逝时间合理推进 - 注意《魔禁》原作中关键事件的特定日期（如9月30日、10月3日等） 时间: format: HH:MM check: - 随剧情实时更新，精确到分钟 - 需体现昼夜交替对环境描写（光影、温度）的影响 地点: check: - 记录当前场景的具体位置（如：某高中学生宿舍、第七学区街头、第十学区废墟等） - 随<user>移动即时更新 <user>: 姓名: check: - 只读 性别: check: - 只读 年龄: check: - 只读 外貌: check: - 只读 特殊能力: type: string[] check: - 可写入 - 记录<user>当前掌握超能力/魔法术式/特殊才能 - 若习得新技能或原有能力进化/变异，需即时添加 其他信息: check: - 只读，不允许修改 在场角色.${角色名}: type: |- { 当前心理: string; 衣着: { 上衣: string; 下装: string; 内衣: string; 鞋子: string; 饰品: string; }; 身体: { 胸部: string; 双腿: string; 小穴: string; 后庭: string; 足部: string; }; } check: - 仅当该角色出现在当前场景时，实例化并更新此条目 - 当前心理: 从角色视角，使用第一人称“我”，口语化地反映角色的内心所想，语气应还原角色性格、口癖 - 衣着: - 记录穿着状态（如：整齐、凌乱、湿透、破损） - 若发生战斗或意外（如“幸运色狼”事件），需详细描述衣物的破损或移位情况 - 若未特别描写内衣，可根据外衣推测或留空，但在“幸运色狼”事件中需具体化 - 身体: - 记录身体各部位的感官状态（如：发热、颤抖、敏感、受伤）或物理状态（如：被束缚、暴露） - 在涉及亲密接触、战斗受伤或特殊状态（如发烧、中毒）时详细更新，着重描写生理反应 所有角色.${角色名}: type: |- { 姓名: string; 性别: string; 年龄: string; 身材: string; 好感度: number; // range: -100 ~ 100 特殊能力: string[]; } check: - 这是一个全局数据库，记录<user>遇到过的所有关键角色 - 好感度: - 初始值为0（陌生人） - 根据<user>的言行进行加减（如：帮助+5，误解-3，伤害-10……但视角色性格可能不同） - 达到一定阈值（如40: 朋友, 80: 恋人, -50: 敌对）时，角色的态度和互动模式应发生显著变化 - 特殊能力: 记录该角色目前拥有的超能力、魔法术式、特殊才能等，习得新的技能时更新（如一方通行觉醒黑翼）",
+      "sourceRef": "魔法禁书目录_v1.0.worldbook.json#entry-6",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "check"
+}

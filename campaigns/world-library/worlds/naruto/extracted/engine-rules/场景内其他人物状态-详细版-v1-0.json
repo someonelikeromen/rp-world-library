@@ -1,0 +1,26 @@
+{
+  "schema": "engine-rule-record-v1",
+  "worldId": "naruto",
+  "source_refs": [
+    "火影忍者大世界百科.worldbook.json#entry-213"
+  ],
+  "aliases": [
+    "场景人物详细状态",
+    "其他NPC详细信息"
+  ],
+  "periods": [
+    {
+      "id": "worldbook-record",
+      "name": {
+        "zh": "场景内其他人物状态 - 详细版 (V1.0)"
+      },
+      "aliases": [],
+      "summary": "<details> <summary><strong><font color='lightcoral'>当前场景其他人物详细情报</font> (点击展开/收起)</strong></summary> {{#each scene_npcs_detailed}} <hr> <h4><strong><font color='white'>人物档案：[{{this.name}}]</font></strong></h4> * **身份/称号 (Identity/Title):** {{this.identity_title}} * **所属 (Affiliation):** {{this.affiliation_detail}} * **",
+      "description": "<details> <summary><strong><font color='lightcoral'>当前场景其他人物详细情报</font> (点击展开/收起)</strong></summary> {{#each scene_npcs_detailed}} <hr> <h4><strong><font color='white'>人物档案：[{{this.name}}]</font></strong></h4> * **身份/称号 (Identity/Title):** {{this.identity_title}} * **所属 (Affiliation):** {{this.affiliation_detail}} * **",
+      "sourceRef": "火影忍者大世界百科.worldbook.json#entry-213",
+      "canonStatus": "engine-rule-not-world-fact",
+      "credibility": "local-worldbook"
+    }
+  ],
+  "rule_id": "场景内其他人物状态-详细版-v1-0"
+}

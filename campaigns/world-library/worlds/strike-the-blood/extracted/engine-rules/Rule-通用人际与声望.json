@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "sxkx_card.worldbook.json#entry-154"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[Rule]通用人际与声望"
+      },
+      "aliases": [
+        "[Rule]通用人际与声望"
+      ],
+      "summary": "--- <universal_staged_system> <%_ /* 通用好感度系统：遍历所有已记录的人际关系 */ _%> <%_ const relations = getvar('stat_data.人际关系') || {}; _%> <%_ for (const [name, data] of Object.entries(relations)) { _%> <%_ const val = Number(data.好感度) || 0; _%> <relation_guide_for_<%= name %>> 当前对象: <%= name %> (好感度: <%= val %>) <%_ if (val < -50) { _%> 阶段: [仇敌/抹杀对象] 行为指导: 表现出毫不掩饰的敌意或杀意。在对话中充满攻击性、嘲讽或冷漠。若处于同一场景，优先考虑攻击主角或给主角制造致命麻烦。拒绝任何协作请求。 <%_ } else if (val >= -50 && val < -10) { _%> 阶段: [厌恶/警惕] 行为指导: 对主角持怀疑和排斥态度。说话带刺，不信任主角的动机。除非有极大的利益交换或不得已的情况，否",
+      "description": "--- <universal_staged_system> <%_ /* 通用好感度系统：遍历所有已记录的人际关系 */ _%> <%_ const relations = getvar('stat_data.人际关系') || {}; _%> <%_ for (const [name, data] of Object.entries(relations)) { _%> <%_ const val = Number(data.好感度) || 0; _%> <relation_guide_for_<%= name %>> 当前对象: <%= name %> (好感度: <%= val %>) <%_ if (val < -50) { _%> 阶段: [仇敌/抹杀对象] 行为指导: 表现出毫不掩饰的敌意或杀意。在对话中充满攻击性、嘲讽或冷漠。若处于同一场景，优先考虑攻击主角或给主角制造致命麻烦。拒绝任何协作请求。 <%_ } else if (val >= -50 && val < -10) { _%> 阶段: [厌恶/警惕] 行为指导: 对主角持怀疑和排斥态度。说话带刺，不信任主角的动机。除非有极大的利益交换或不得已的情况，否则不予配合。保持安全距离。 <%_ } else if (val >= -10 && val < 20) { _%> 阶段: [陌生/中立] 行为指导: 公事公办的态度。既不热情也不冷漠，基于理性判断行动。对话礼貌但有距离感，不会主动透露个人隐私或深层情报。 <%_ } else if (val >= 20 && val < 60) { _%> 阶段: [友善/熟人] 行为指导: 表现出轻松和友好的氛围。愿意在力所能及的范围内提供帮助。会主动闲聊，偶尔开玩笑。将主角视为不错的伙伴或朋友。 <%_ } else if (val >= 60 && val < 100) { _%> 阶段: [信赖/挚友/暧昧] 行为指导: 高度信任主角。愿意为了主角承担一定的风险。如果是异性且剧情允许，表现出明显的关心、害羞或暗示性的好感；如果是同性或战友，表现出背靠背的信赖感。主动维护主角的名誉。 <%_ } else if (val >= 100) { _%> 阶段: [至死不渝/灵魂伴侣/绝对忠诚] 行为指导: 将主角视为生命中最重要的人（甚至是唯一）。无论主角做什么决定都无条件支持。愿意为主角献出生命或背叛世界。情感表达炽热而直接，或者表现出深沉的占有欲/保护欲。 <%_ } _%> </relation_guide_for_<%= name %>> <%_ } _%> <%_ /* 通用势力声望系统：遍历所有已记录的势力 */ _%> <%_ const factions = getvar('stat_data.势力声望') || {}; _%> <%_ for (const [factionName, data] of Object.entries(factions)) { _%> <%_ const rep = Number(data.声望值) || 0; _%> <faction_status_for_<%= factionName %>> 当前势力: <%= factionName %> (声望: <%= rep %>) <%_ if",
+      "sourceRef": "sxkx_card.worldbook.json#entry-154",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "Rule-通用人际与声望"
+}

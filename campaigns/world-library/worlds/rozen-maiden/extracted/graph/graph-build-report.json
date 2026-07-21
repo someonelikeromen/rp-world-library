@@ -1,0 +1,32 @@
+{
+  "schema": "rozen-maiden-graph-build-report-v1",
+  "worldId": "rozen-maiden",
+  "status": "completed",
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "validation": {
+    "jsonValid": true,
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "newFactsIntroduced": false,
+    "forbiddenBasenamesGenerated": false
+  },
+  "counts": {
+    "nodes": 77,
+    "edges": 68,
+    "nodeCounts": {
+      "characters": 21,
+      "abilities": 2,
+      "locations": 4,
+      "events": 1,
+      "systems": 2,
+      "knowledge": 47
+    },
+    "edgeCounts": {
+      "derived-text-mention": 68
+    },
+    "derivedMentionEdges": 68
+  },
+  "warnings": [
+    "Derived graph edges are navigation/search signals, not formal relationship facts."
+  ]
+}

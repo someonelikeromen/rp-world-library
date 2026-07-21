@@ -1,0 +1,754 @@
+{
+  "schema": "majo-no-tabitabi-derived-relationship-index-v1",
+  "worldId": "majo-no-tabitabi",
+  "recordType": "derived-relationship-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "formalRelationshipFacts": [],
+  "derivedMentionEdges": [
+    {
+      "source": "characters:芙兰",
+      "target": "abilities:席拉",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "席拉",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-2"
+      ],
+      "id": "edge-1",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:芙兰",
+      "target": "abilities:魔女",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "魔女",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-2"
+      ],
+      "id": "edge-2",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:芙兰",
+      "target": "abilities:魔女名",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "魔女名",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-2"
+      ],
+      "id": "edge-3",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:席拉",
+      "target": "characters:芙兰",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "芙兰",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-6"
+      ],
+      "id": "edge-4",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:席拉",
+      "target": "abilities:扫帚",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "扫帚",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-6"
+      ],
+      "id": "edge-5",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:席拉",
+      "target": "abilities:沙耶-2",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "沙耶",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-6"
+      ],
+      "id": "edge-6",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:席拉",
+      "target": "abilities:沙耶",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "沙耶",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-6"
+      ],
+      "id": "edge-7",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:席拉",
+      "target": "abilities:美奈",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "美奈",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-6"
+      ],
+      "id": "edge-8",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:席拉",
+      "target": "abilities:魔女",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "魔女",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-6"
+      ],
+      "id": "edge-9",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:席拉",
+      "target": "abilities:魔女名",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "魔女名",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-6"
+      ],
+      "id": "edge-10",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:沙耶-2",
+      "target": "abilities:席拉",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "席拉",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-1"
+      ],
+      "id": "edge-11",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:沙耶-2",
+      "target": "abilities:扫帚",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "扫帚",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-1"
+      ],
+      "id": "edge-12",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:沙耶-2",
+      "target": "abilities:沙耶",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "沙耶",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-1"
+      ],
+      "id": "edge-13",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:沙耶-2",
+      "target": "abilities:美奈",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "美奈",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-1"
+      ],
+      "id": "edge-14",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:沙耶-2",
+      "target": "abilities:魔女",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "魔女",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-1"
+      ],
+      "id": "edge-15",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:沙耶",
+      "target": "abilities:席拉",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "席拉",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-0"
+      ],
+      "id": "edge-16",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:沙耶",
+      "target": "abilities:沙耶-2",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "沙耶",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-0"
+      ],
+      "id": "edge-17",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:沙耶",
+      "target": "abilities:魔女",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "魔女",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-0"
+      ],
+      "id": "edge-18",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:维多利加-妈妈-母亲",
+      "target": "characters:芙兰",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "芙兰",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-9"
+      ],
+      "id": "edge-19",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:维多利加-妈妈-母亲",
+      "target": "abilities:席拉",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "席拉",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-9"
+      ],
+      "id": "edge-20",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:维多利加-妈妈-母亲",
+      "target": "abilities:魔女",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "魔女",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-9"
+      ],
+      "id": "edge-21",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:美奈",
+      "target": "abilities:席拉",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "席拉",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-8"
+      ],
+      "id": "edge-22",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:美奈",
+      "target": "abilities:沙耶-2",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "沙耶",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-8"
+      ],
+      "id": "edge-23",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:美奈",
+      "target": "abilities:沙耶",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "沙耶",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-8"
+      ],
+      "id": "edge-24",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:美奈",
+      "target": "abilities:魔女",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "魔女",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-8"
+      ],
+      "id": "edge-25",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:美奈",
+      "target": "abilities:魔女名",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "魔女名",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-8"
+      ],
+      "id": "edge-26",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:艾丝黛儿",
+      "target": "abilities:魔女",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "魔女",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-14"
+      ],
+      "id": "edge-27",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:艾丝黛儿",
+      "target": "abilities:魔女见习生",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "魔女见习生",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-14"
+      ],
+      "id": "edge-28",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:艾姆妮西亚-2",
+      "target": "abilities:艾姆妮西亚",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "艾姆妮西亚",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-5"
+      ],
+      "id": "edge-29",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:艾姆妮西亚",
+      "target": "abilities:艾姆妮西亚-2",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "艾姆妮西亚",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-4"
+      ],
+      "id": "edge-30",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:艾维莉亚",
+      "target": "abilities:艾姆妮西亚-2",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "艾姆妮西亚",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-7"
+      ],
+      "id": "edge-31",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:艾维莉亚",
+      "target": "abilities:艾姆妮西亚",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "艾姆妮西亚",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-7"
+      ],
+      "id": "edge-32",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:魔女",
+      "target": "abilities:魔女名",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "魔女名",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-10"
+      ],
+      "id": "edge-33",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:魔女",
+      "target": "abilities:魔女见习生",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "魔女见习生",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-10"
+      ],
+      "id": "edge-34",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:魔女名",
+      "target": "abilities:魔女",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "魔女",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-11"
+      ],
+      "id": "edge-35",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:魔女见习生",
+      "target": "abilities:扫帚",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "扫帚",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-12"
+      ],
+      "id": "edge-36",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:魔女见习生",
+      "target": "abilities:魔女",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "魔女",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-12"
+      ],
+      "id": "edge-37",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:魔女见习生",
+      "target": "abilities:魔女名",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "魔女名",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-12"
+      ],
+      "id": "edge-38",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:魔杖",
+      "target": "abilities:魔女",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "魔女",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-13"
+      ],
+      "id": "edge-39",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    }
+  ],
+  "counts": {
+    "derivedMentionEdges": 39
+  }
+}

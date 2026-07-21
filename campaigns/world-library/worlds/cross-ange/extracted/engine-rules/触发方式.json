@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "tsyldlw_card.worldbook.json#entry-14"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "触发方式"
+      },
+      "aliases": [
+        "触发方式"
+      ],
+      "summary": "<sandbox_trigger> **沙盒触发条件** ## 触发方式 1. **时间触发**: 当沙盒时间到达特定标记时自动触发 2. **地点触发**: 当{{user}}进入特定地点时触发 3. **关键词触发**: 当对话或描述包含特定关键词时触发 4. **变量触发**: 当关系网变量达到特定阈值时触发 5. **组合触发**: 以上条件组合触发(如:时间+地点+好感度) ## 触发规则 - 已触发事件不重复触发(除非有分支) - 相同时间/地点的多个事件按优先级排列 - 用户可主动询问\"周围发生了什么\"查看可触发事件 - AI应根据当前情境判断最合理的触发事件 - 无触发条件时，AI自由推进日常 ## 沙盒中的隐秘信息触发 - 每个隐秘信息在沙盒中设置触发条件 - 触发后可揭示的信息深度取决于关系网变量 - 好感度越高，揭示的信息越详细 - 例如: 薇薇安的龙族身份 → 触发条件=与薇薇安好感度≥70+在医疗室+时间标记为夜间 </sandbox_trigger>",
+      "description": "<sandbox_trigger> **沙盒触发条件** ## 触发方式 1. **时间触发**: 当沙盒时间到达特定标记时自动触发 2. **地点触发**: 当{{user}}进入特定地点时触发 3. **关键词触发**: 当对话或描述包含特定关键词时触发 4. **变量触发**: 当关系网变量达到特定阈值时触发 5. **组合触发**: 以上条件组合触发(如:时间+地点+好感度) ## 触发规则 - 已触发事件不重复触发(除非有分支) - 相同时间/地点的多个事件按优先级排列 - 用户可主动询问\"周围发生了什么\"查看可触发事件 - AI应根据当前情境判断最合理的触发事件 - 无触发条件时，AI自由推进日常 ## 沙盒中的隐秘信息触发 - 每个隐秘信息在沙盒中设置触发条件 - 触发后可揭示的信息深度取决于关系网变量 - 好感度越高，揭示的信息越详细 - 例如: 薇薇安的龙族身份 → 触发条件=与薇薇安好感度≥70+在医疗室+时间标记为夜间 </sandbox_trigger>",
+      "sourceRef": "tsyldlw_card.worldbook.json#entry-14",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "触发方式"
+}

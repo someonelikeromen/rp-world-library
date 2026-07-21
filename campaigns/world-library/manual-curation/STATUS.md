@@ -1,134 +1,143 @@
-# Manual Curation Status
+# 世界归档状态总览
 
-更新日期:2026-06-22
+更新日期：2026-07-19
 
-本文件仅做归档完成度检查与索引汇总;未修改任何 `campaigns/world-library/worlds/*/curated/` 正文。
+本文件用于记录当前文件系统与 `world_query` / `tools/world-index` 索引口径下的真实世界归档进度。
 
-## 检查范围与标准产物
+> 说明：旧版状态曾记录“63 个世界均为 7 项 curated 基线完整”。该历史口径与当前目录结构不一致：当前 `campaigns/world-library/worlds/` 实际只有 8 个正式世界目录，其余世界主要保存在 `campaigns/world-library/imports/worldviews/` 作为 raw worldbook 来源池。因此本文件已改用“正式世界库 + raw 来源池”的当前口径。
 
-检查范围：`campaigns/world-library/worlds/*/curated/`
+## 本轮核对动作
 
-标准产物共 7 项，为**最小基线**。各世界可按需任意扩展额外文件（如 `timeline.json`、`locations-index.json`、`power-systems.json` 等），不影响基线完整判定。
+- 已重建世界索引：`node tools/world-index/cli.cjs build`
+- 索引文件：`campaigns/world-library/.wl-index.json`
+- 索引时间：`2026-07-19T14:24:37.130Z`
+- 当前索引结果：63 世界，其中 8 个 `curated`，55 个 `raw`
+- 资料优先级与使用规则：见 `campaigns/world-library/manual-curation/ARCHIVE-POLICY.md`
 
-最小基线：
+## 当前总量
 
-1. `README.md`
-2. `world.json`
-3. `source-registry.json`
-4. `characters-index.json`
-5. `knowledge-graph.json`
-6. `relationship-graph.json`
-7. `curation-notes.md`
+| 类别 | 数量 | 说明 |
+|---|---:|---|
+| 世界源总数 | 63 | `imports/worldviews/` 中已按世界分组的来源总量 |
+| 正式世界库 / 当前索引 curated | 8 | `worlds/<slug>/` 下已有 curated 或 extracted，可被 `world_query` 作为正式世界检索 |
+| raw worldbook 待归档 | 55 | 仅有原始 worldbook JSON，尚未完成正式 curated/extracted 部署 |
 
-验收口径：
+## 正式世界库：8 个
 
-- \"基线完整\"：以上 7 项最小基线均存在（额外文件数量不限）。
-- \"部分\"：`curated/` 目录存在，但 7 项基线未全部存在。
-- \"缺失\"：未发现 `curated/` 目录或 7 项基线全部缺失。
-- \"人物清单建立\"：`characters-index.json` 存在。
-- \"图谱建立\"：`knowledge-graph.json` 与 `relationship-graph.json` 均存在。
+| 中文名 | slug | 当前形态 | 成熟度 / 备注 |
+|---|---|---|---|
+| 型月 / Fate / FGO / 魔法少女伊莉雅 | `type-moon-nasuverse` | curated 主线 + P1 hybrid 部分提取试点 | 高成熟 curated 主线；另有 `manual-curation/type-moon-p1-hybrid/` 下的 FGO/FSN/FZ/月姬补充试点。试点尚未统一部署到 `worlds/type-moon-nasuverse/extracted/`，不替代现有 curated。 |
+| 恶魔高校 DxD | `high-school-dxd` | curated | 高成熟。2026-06-27 手工整理，7 基线、故事、文风约束、战斗框架映射完整。 |
+| 无限斯特拉托斯 / IS | `infinite-stratos` | curated | 可用 curated。已有大量文件和 source-backed 修正经验，仍建议后续抽样审计。 |
+| 绯弹的亚里亚 | `hidan-no-aria` | curated + extracted | P1 extracted 高成熟。49 卷，4,157 实体，图谱与时间轴完整，README 声明已逐卷原文审计。 |
+| 弑神者 / Campione | `campione` | curated + extracted | P1 extracted 较完整。26 卷，1,837 实体；README 标注图谱 schema 兼容待完善。 |
+| 在地下城寻求邂逅是否搞错了什么 / 地错 | `danmachi` | extracted | 已有 1,010 文件和 graph，但 curated 目录为空；已补 extracted README；仍需 schema/sourceRef 审计。 |
+| 最弱无败神装机龙 | `saijaku-muhai-bahamut` | extracted | P1 extracted 较完整。2,038 实体文件，vol-06 为 manual fill；graph 已生成。 |
+| 落第骑士英雄谭 | `rakudai-kishi` | extracted 部分成果 | 当前只有 characters + graph；已补 extracted README；不应标为完整 P1 成果。 |
 
-检查方式：逐项列出世界目录并读取/列出对应 `curated/` 目录文件名；本轮只检查 7 项基线存在性，未运行 JSON 解析、schema 校验、交叉引用校验，也未复核正文质量。超过 7 项基线的额外文件视为该世界的合法扩展内容。
+## Type-Moon P1 hybrid / 部分提取试点状态
 
-## 总体结论
+路径：`campaigns/world-library/manual-curation/type-moon-p1-hybrid/`
 
-- 世界目录总数:63
-- 基线完整：63（61 待归档 + 2 已归档+已校验）
-- 部分：0
-- 缺失：0
-- 人物清单建立:63
-- 图谱建立:63
-- 已归档+已校验:2 (type-moon-nasuverse, high-school-dxd)
+这些成果是型月的 side-by-side / manual-curation 试点层，不是正式发布到 `worlds/type-moon-nasuverse/extracted/` 的完整 extracted 世界。当前正式 RP 主线仍以 `worlds/type-moon-nasuverse/curated/` 为准；P1 hybrid 可作为后续迁移、补证与 curated-v2 候选层。
 
-本轮刷新后，先前待补的 4 个世界均已达到 7 项最小基线存在性完整：
+| 中文范围 | 目录 | 当前状态 | 未完成 / 注意事项 |
+|---|---|---|---|
+| FGO 第一部 | `fgo-script-pilot` | `passed-with-nonblocking-risks` | 已通过试点验收，但未批准直接覆盖旧 Type-Moon curated；部分 legacy 文件名/路径 slug 仍含 unsupported English labels，仅作 alias/legacy slug。 |
+| FGO 1.5 部 / 亚种特异点 | `fgo-eor-pilot` | `merged-eor-final-accepted` / post-fix `passed-with-nonblocking-risks` | 已合并并通过 parent fix；仍为 side-by-side 候选层，未迁移到正式 curated/extracted。 |
+| FGO Lostbelt 1-2 | `fgo-lb1-lb2-pilot` | merge accepted / passed；final audit `passed-with-nonblocking-risks` | 已接受为 isolated side-by-side/manual-curation 用途；不替代现有 curated。 |
+| FGO Lostbelt 3-4 | `fgo-lb3-lb4-pilot` | accepted；final audit `passed-with-nonblocking-risks` | 已修复先前 merge-layer omission；不替代现有 curated。 |
+| FGO Lostbelt 5 | `fgo-lb5-pilot` | passed / accepted；final audit `passed-with-nonblocking-risks` | 已接受为 isolated side-by-side/manual-curation 用途；不替代现有 curated。 |
+| FGO Lostbelt 6 | `fgo-lb6-pilot` | merged canonical layers passed；final audit `passed-with-nonblocking-risks` | 已接受为 isolated side-by-side/manual-curation 用途；不替代现有 curated。 |
+| FGO Ordeal Call I-III | `fgo-ordeal-call-pilot` | `accepted-with-nonblocking-risks` / `finalized-minimal-scope` | 最小合并状态；缺少 dedicated `merged/appearances/`、`merged/abilities/`、`merged/combat-effects/` canonical 目录，相关覆盖留在 extracted/normalized packet 层与索引中；不发布覆盖旧 curated。 |
+| Fate/stay night + Fate/Zero | `fsn-fz-pilot` | preparation scaffold only | 只有准备脚手架；尚未创建 source text、waves、intermediate/group-merged/merged/candidates/audit/comparison 正式输出；未开始提取波次。 |
+| 月姬 / 死徒 profile supplement | `tsukihime-dead-apostle-profile-supplement-pilot` | `stage-1-prep-generated` | 只有 prep/source-layer supplement；未创建 formal merged entities、final timelines、relationship graphs 或 canonical records。 |
 
-- `campaigns/world-library/worlds/dantalian-no-shoka/curated/`
-- `campaigns/world-library/worlds/date-a-live/curated/`
-- `campaigns/world-library/worlds/toriko/curated/`
-- `campaigns/world-library/worlds/madan-no-ou/curated/`
+### Type-Moon 当前未完成项
 
-## 最新更新
+1. **未部署正式 extracted**：尚无 `campaigns/world-library/worlds/type-moon-nasuverse/extracted/` 统一发布目录；P1 hybrid 成果仍在 `manual-curation/` 试点区。
+2. **未迁移 / 未覆盖 curated 主线**：所有 FGO P1 hybrid 试点均明确“不替代现有 Type-Moon curated archive”。若要使用，需要后续确认迁移策略或 curated-v2。
+3. **FSN/FZ 未开始正式抽取**：`fsn-fz-pilot` 仍是 prep scaffold，只完成计划、source selection、wave manifest draft 等准备文件。
+4. **月姬 / 死徒补充未形成正式实体层**：当前仅 stage-1 prep/source layer，尚无正式 merged entity / timeline / relationship graph / canonical records。
+5. **Ordeal Call 是最小合并**：已接受但保留非阻塞风险，尤其是缺少 dedicated merged appearance/ability/combat-effect canonical directories。
+6. **来源等级限制**：P1 hybrid 使用 worldbook script / curated story summary 等用户导入资料，状态是 `canon-like` / source-first，不等同于官方原文完整 P1 scan。
 
-- 2026-06-27: high-school-dxd 完成手工归档，7基线到位。
+## raw worldbook 待归档：55 个
 
-## 未解决项与风险
+这些世界目前在 `campaigns/world-library/imports/worldviews/<slug>/worldbooks/` 下保存原始 worldbook JSON。可作为检索和后续整理输入，但不应视为已完成正式归档。
 
-- 未执行 JSON 解析/格式校验;所有 `.json` 文件仍需后续统一解析验证。
-- 未执行 schema/字段完整性校验;存在性完整不等同于结构完全合规。
-- 未执行跨文件交叉引用检查;人物、关系、知识节点、来源编号之间可能仍有未发现的不一致。
-- 未复核正文质量、译名统一、剧透可见性、NSFW/控制文本剥离质量。
-- 特殊或高风险世界建议后续优先抽样复核:`acg-character-database`、`blue-archive`、`monster-hunter`、`infinite-stratos`、`taimanin`、`testament-sister-new-devil`、`toaru`、`jojo`、`date-a-live`、`dantalian-no-shoka`、`madan-no-ou`、`toriko`。
+| 中文名 | slug | 文件数 | entries |
+|---|---|---:|---:|
+| 绝对双刃 / Absolute Duo | `absolute-duo` | 1 | 75 |
+| ACG 角色心理/类脑数据库 | `acg-character-database` | 3 | 395 |
+| 斩！赤红之瞳 | `akame-ga-kill` | 1 | 38 |
+| 黑色子弹 | `black-bullet` | 1 | 159 |
+| 蔚蓝档案 / 基沃托斯 | `blue-archive` | 1 | 25 |
+| 孤独摇滚 | `bocchi-the-rock` | 1 | 9 |
+| 成龙历险记 | `cheng-long-adventures` | 1 | 40 |
+| 中二病也想谈恋爱 | `chunibyo` | 1 | 12 |
+| 大剑 / Claymore | `claymore` | 1 | 11 |
+| 天使与龙的轮舞 / CROSS ANGE | `cross-ange` | 1 | 89 |
+| 驱魔少年 / D.Gray-man | `d-gray-man` | 1 | 113 |
+| 丹特丽安的书架 | `dantalian-no-shoka` | 1 | 59 |
+| 约会大作战 / DATE A LIVE | `date-a-live` | 1 | 37 |
+| 龙珠 | `dragon-ball` | 1 | 215 |
+| 地下城与勇士 / 阿拉德 | `dungeon-fighter-online` | 2 | 629 |
+| 武器种族传说 | `elemental-gelade` | 1 | 79 |
+| 新世纪福音战士 / EVA | `evangelion` | 2 | 88 |
+| GATE 奇幻自卫队 | `gate-jsdf` | 1 | 156 |
+| 高达 SEED | `gundam-seed` | 1 | 128 |
+| 我的朋友很少 | `haganai` | 1 | 21 |
+| 崩坏 / 崩坏三 | `honkai-impact-3rd` | 3 | 683 |
+| 一骑当千 | `ikki-tousen` | 1 | 143 |
+| JOJO | `jojo` | 1 | 7 |
+| 辉夜大小姐想让我告白 | `kaguya-sama` | 1 | 80 |
+| 结界师 | `kekkaishi` | 1 | 100 |
+| 史上最强弟子兼一 | `kenichi` | 1 | 283 |
+| 斩服少女 / Kill la Kill | `kill-la-kill` | 1 | 72 |
+| 鬼灭之刃 | `kimetsu-no-yaiba` | 2 | 355 |
+| 魔弹之王与战姬 | `madan-no-ou` | 1 | 93 |
+| 魔女之旅 | `majo-no-tabitabi` | 1 | 19 |
+| 漫威电影宇宙 | `marvel-cinematic-universe` | 1 | 273 |
+| 怪物猎人 | `monster-hunter` | 1 | 49 |
+| 火影忍者 | `naruto` | 4 | 701 |
+| 魔法老师 / UQ HOLDER | `negima-uq-holder` | 1 | 223 |
+| 守护猫娘绯鞠 | `omamori-himari` | 1 | 76 |
+| OVERLORD | `overlord` | 1 | 173 |
+| 女神异闻录5 / Persona 5 | `persona-5` | 1 | 59 |
+| 终末的女武神 | `record-of-ragnarok` | 1 | 157 |
+| 蔷薇少女 | `rozen-maiden` | 1 | 97 |
+| 星刻龙骑士 | `seikoku-no-dragonar` | 1 | 207 |
+| 鹡鸰女神 / Sekirei | `sekirei` | 1 | 89 |
+| 闪乱神乐 | `senran-kagura` | 1 | 228 |
+| 天降之物 | `sora-no-otoshimono` | 2 | 97 |
+| 狼与辛香料 | `spice-and-wolf` | 1 | 100 |
+| 噬血狂袭 | `strike-the-blood` | 1 | 164 |
+| 刀剑神域 SAO | `sword-art-online` | 1 | 35 |
+| 对魔忍 | `taimanin` | 1 | 12 |
+| 新妹魔王的契约者 | `testament-sister-new-devil` | 1 | 94 |
+| 出包王女 / To Love-Ru | `to-love-ru` | 1 | 108 |
+| 魔法禁书目录 / 超炮相关 | `toaru` | 1 | 74 |
+| 东京喰种 | `tokyo-ghoul` | 2 | 87 |
+| 美食的俘虏 / Toriko | `toriko` | 1 | 99 |
+| 只有神知道的世界 | `world-god-only-knows` | 1 | 114 |
+| 仙剑奇侠传Ⅰ | `xianjian-1` | 1 | 298 |
+| 零之使魔 | `zero-no-tsukaima` | 1 | 21 |
 
-## 每世界完成度表
+## 使用优先级
 
-| 世界 slug | 标准产物 | 人物清单 | 图谱 | 主要未解决项 |
-|---|---:|---:|---:|---|
-| absolute-duo | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| acg-character-database | 基线完整 | 是 | 是 | 特殊库非单一世界;需后续复核跨作品条目边界与非露骨化处理。 |
-| akame-ga-kill | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与译名/帝具关系抽样复核。 |
-| black-bullet | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| blue-archive | 基线完整 | 是 | 是 | 源人物条目不足,部分为岗位/RP 常用身份;需后续补证。 |
-| bocchi-the-rock | 基线完整 | 是 | 是 | 人物曾分散在多类目;需后续抽样复核归并准确性。 |
-| campione | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| cheng-long-adventures | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| chunibyo | 基线完整 | 是 | 是 | 需确认幻想身份均未误作真实超自然体系。 |
-| claymore | 基线完整 | 是 | 是 | 需后续复核时间线跨度与 RP 槽位处理。 |
-| cross-ange | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| d-gray-man | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| danmachi | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| dantalian-no-shoka | 基线完整 | 是 | 是 | 本轮新增补齐后仅做存在性检查;需后续 JSON/schema 与低置信人物复核。 |
-| date-a-live | 基线完整 | 是 | 是 | 本轮新增补齐后仅做存在性检查;需后续 JSON/schema 与 IF/支线边界复核。 |
-| dragon-ball | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| dungeon-fighter-online | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| elemental-gelade | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| evangelion | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| gate-jsdf | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| gundam-seed | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| haganai | 基线完整 | 是 | 是 | 源内非人物/成人化条目较多;需后续抽样复核剥离质量。 |
-| hidan-no-aria | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| high-school-dxd | ✅ 已归档 | 是 | ✅ | 22角色+7基线完整，2026-06-27手工整理。 |
-| honkai-impact-3rd | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| ikki-tousen | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| infinite-stratos | 基线完整 | 是 | 是 | 源内写卡/状态栏/成人偏好模板较多;需后续抽样复核剥离质量。 |
-| jojo | 基线完整 | 是 | 是 | 本地源覆盖偏 1-3 部;需后续标注覆盖范围与后续部补证。 |
-| kaguya-sama | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| kekkaishi | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| kenichi | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| kill-la-kill | 基线完整 | 是 | 是 | 源内成人化/状态栏内容已剥离;需后续抽样复核。 |
-| kimetsu-no-yaiba | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| madan-no-ou | 基线完整 | 是 | 是 | 本轮新增补齐后仅做存在性检查;需后续复核本篇/IF 线边界与 JSON/schema。 |
-| majo-no-tabitabi | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| marvel-cinematic-universe | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| monster-hunter | 基线完整 | 是 | 是 | 固定姓名角色不足,人物索引含岗位/生态角色;需后续补证。 |
-| naruto | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| negima-uq-holder | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| omamori-himari | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| overlord | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| persona-5 | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| rakudai-kishi | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| record-of-ragnarok | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| rozen-maiden | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| saijaku-muhai-bahamut | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| seikoku-no-dragonar | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| sekirei | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| senran-kagura | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| sora-no-otoshimono | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| spice-and-wolf | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| strike-the-blood | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| sword-art-online | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| taimanin | 基线完整 | 是 | 是 | 源内玩家寄生魔/状态栏等已排除;需后续抽样复核。 |
-| testament-sister-new-devil | 基线完整 | 是 | 是 | 成人化契约描写已剥离;需后续抽样复核。 |
-| to-love-ru | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| toaru | 基线完整 | 是 | 是 | 卷号剧情/变量文本较多;需后续复核未把控制文本写入正文。 |
-| tokyo-ghoul | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| toriko | 基线完整 | 是 | 是 | 本轮新增补齐后仅做存在性检查;需后续复核终局/隐藏设定可见性与 JSON/schema。 |
-| type-moon-nasuverse | ✅ 已归档+已校验 | 是 | ✅ | 318角色+51故事章节+7基线+Layer2/3，全量原文内嵌 |
-| world-god-only-knows | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| xianjian-1 | 基线完整 | 是 | 是 | 需后续 JSON/schema 校验与抽样复核。 |
-| zero-no-tsukaima | 基线完整 | 是 | 是 | `{{user}}` 槽位需后续复核未固化为原作人物。 |
+详见 `ARCHIVE-POLICY.md`。简述如下：
 
-## 后续建议
+1. `extracted/`：有小说原文或章节 sourceRef 的 P1 source-backed 数据，剧情事实最高优先级。
+2. `curated/`：整理后的 worldbook / 角色卡世界书数据，适合 RP 使用与补充文风、机制、战斗映射。
+3. `imports/worldviews/`：raw worldbook 来源池，仅作待验证素材和后续整理输入。
 
-1. 对 63 个完整世界执行 JSON 解析、schema 字段校验、交叉引用检查。
-2. 对本轮新增补齐的 4 个世界优先做一次人工抽样复核:`dantalian-no-shoka`、`date-a-live`、`toriko`、`madan-no-ou`。
-3. 对特殊/高风险世界继续做质量复核:`acg-character-database`、`blue-archive`、`monster-hunter`、`infinite-stratos`、`taimanin`、`testament-sister-new-devil`、`toaru`、`jojo`。
+## 主要风险与后续事项
+
+- `manual-curation/STATUS.md` 旧口径与当前目录不一致，已在本次重写中修正。
+- `reports/world-archive-report.md` 是 2026-06-20 的历史报告，路径和统计口径不再等同当前真实状态。
+- `danmachi`、`rakudai-kishi` 曾缺 extracted README，本次已补最小状态说明。
+- `campione` README 标注 graph schema 兼容待完善。
+- `rakudai-kishi` 只有人物层和 graph，不应当作完整 P1 extracted。
+- raw 55 世界仍需按来源类型排队：有小说正文走 P1 extraction；只有 worldbook 走 rp-curation；临时补来源走 source-ingestion。
+- 后续仍建议做全量 JSON parse、schema、sourceRef、graph dangling edge 与 character coverage 审计。

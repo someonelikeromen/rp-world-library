@@ -1,0 +1,460 @@
+{
+  "schema": "sora-no-otoshimono-engine-rules-index-v1",
+  "worldId": "sora-no-otoshimono",
+  "recordFamily": "engine-rules",
+  "count": 30,
+  "records": [
+    {
+      "id": "Key-留空-2",
+      "name": "Key: (留空)",
+      "aliases": [
+        "Key: (留空)",
+        "主角设定 - OC取代原作主角"
+      ],
+      "summary": "<protagonist_setup_oc_replaces_tomoki> # Key: (留空) # Content: # --- # 世界书条目标题: 主角设定 - OC取代原作主角 # 插入顺序: 100 # 插入位置: Before Char Defs # 激活策略: 常量 (蓝灯) # --- protagonist_setting: scenario_title: 原创主角(OC)取代原作主角 directive: \"此设定用于引导一场由原创主角(OC)取代樱井智树,成为故事新核心的扮演游戏\" user_role: identity: \"{{user}}将扮演一位身份,姓名,背景完全自定义的原创主角(OC)\" core_mission: \"你将取代樱井智树在原作中的位置,成为那个'从天而降的少女'最初遇到的人。你的性格与选择将决定整个故事的走向,并塑造与人造天使们的全新关系\" world_interaction: \"你是这个世界新的'变数'。人造天使们会向你'铭刻',你的行为将决定她们是成为兵器还是家人。原作中的其他角色(如见月楚原,守形英四郎)与你的关系,需要从零开始建立\" assistant_role: i",
+      "sourceRefs": [
+        "tjzw_card.worldbook.json#entry-46"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "Key-留空-3",
+      "name": "Key: (留空)",
+      "aliases": [
+        "Key: (留空)",
+        "主角设定 - OC与智树共存"
+      ],
+      "summary": "<protagonist_setup_oc_with_tomoki> # Key: (留空) # Content: # --- # 世界书条目标题: 主角设定 - OC与智树共存 # 插入顺序: 100 # 插入位置: Before Char Defs # 激活策略: 常量 (蓝灯) # --- protagonist_setting: scenario_title: 原创主角(OC)与樱井智树共存 directive: \"此设定用于引导一场原创主角(OC)与原作主角樱井智树共同存在,并可能产生竞争或合作关系的扮演游戏\" user_role: identity: \"{{user}}将扮演一位身份,姓名,背景完全自定义的原创主角(OC),是空美町的一名居民\" core_mission: \"你将作为一名新的关键人物,介入樱井智树的生活与他所面临的事件。你可以选择成为他的盟友,对手,或仅仅是一个旁观者,你的存在将为原作故事线带来新的变数\" world_interaction: \"你可以与智树和他的天使们建立关系,甚至可能在某些事件中扮演比智树更重要的角色。你如何处理与这位'和平主义变态'的关系,将是推动剧情的关键\" assista",
+      "sourceRefs": [
+        "tjzw_card.worldbook.json#entry-47"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "Key-留空-4",
+      "name": "Key: (留空)",
+      "aliases": [
+        "Key: (留空)",
+        "主角设定 - OC与智子共存"
+      ],
+      "summary": "<protagonist_setup_oc_with_tomoko> # Key: (留空) # Content: # --- # 世界书条目标题: 主角设定 - OC与智子共存 # 插入顺序: 100 # 插入位置: Before Char Defs # 激活策略: 常量 (蓝灯) # --- protagonist_setting: scenario_title: 原创主角(OC)与樱井智子(原生)共存 directive: \"此设定用于引导一场原创主角(OC)与原生女性版主角樱井智子共同存在,并可能产生复杂关系的扮演游戏\" user_role: identity: \"{{user}}将扮演一位身份,姓名,背景完全自定义的原创主角(OC),是空美町的一名居民\" core_mission: \"你将作为一名新的关键人物,介入樱井智子的生活。在这个性别反转的世界里,你与智子的关系可能是闺蜜,竞争对手,甚至是恋爱对象,你的存在将彻底改变原作的叙事结构\" world_interaction: \"你将有机会深入了解这位'内心是变态绅士的美少女',并与她和她的天使们建立独特的关系。你如何应对智子的奇特行为,以及如何在西纳普斯的阴谋中找",
+      "sourceRefs": [
+        "tjzw_card.worldbook.json#entry-48"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "Key-留空",
+      "name": "Key: (留空)",
+      "aliases": [
+        "Key: (留空)",
+        "主角设定 - 扮演樱井智子(原生)"
+      ],
+      "summary": "<protagonist_setup_sakurai_tomoko_native> # Key: (留空) # Content: # --- # 世界书条目标题: 主角设定 - 扮演樱井智子(原生) # 插入顺序: 100 # 插入位置: Before Char Defs # 激活策略: 常量 (蓝灯) # --- protagonist_setting: scenario_title: 扮演原生女性主角 - 樱井智子 directive: \"此设定用于引导一场以'天生就是女性'的樱井智子为核心的扮演游戏,世界观进行相应调整\" user_role: identity: \"{{user}}将扮演樱井智子\" core_mission: \"以樱井智子的第一人称视角,体验一个性别反转的《天降之物》世界。你的核心特质与'绅士'欲望被保留,但实现方式与社会反馈将截然不同\" personality_guideline: \"遵循<char_info>中关于樱井智子(变身形态)的性格设定,但现在这是你的天性。你是一个外表可爱,内心却是'变态绅士'的美少女\" world_interaction: \"你依然是人造天使们的'主人(Master)',",
+      "sourceRefs": [
+        "tjzw_card.worldbook.json#entry-45"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "System-剧情优先级",
+      "name": "[System]剧情优先级",
+      "aliases": [
+        "[System]剧情优先级"
+      ],
+      "summary": "--- <%_ if (getvar('stat_data.quest_log.main_quest.status') === '进行中') { _%> <priority_instruction> [当前主线]：<%= getvar('stat_data.quest_log.main_quest.title') %> 任务目标：<%= getvar('stat_data.quest_log.main_quest.objective') %> AI指引：虽然允许玩家自由行动，但请在环境描写中（如电视新闻、路人的闲聊、天空的异象）暗示主线的存在，温和地引导玩家靠近目标。 </priority_instruction> <%_ } _%> <%_ if (getvar('stat_data.world.西纳普斯干涉度') > 80) { _%> <danger_warning> **警告：西纳普斯干涉度极高！** 日常喜剧氛围暂停。 强制触发战斗事件、空对地轰炸或人造天使的暴走。NPC 应表现出极度的恐慌或严肃。禁止轻松的打闹情节。 </danger_warning> <%_ } else if (getvar('stat_da",
+      "sourceRefs": [
+        "tjzw_card.worldbook.json#entry-54"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "System-模式识别与适配",
+      "name": "[System]模式识别与适配",
+      "aliases": [
+        "[System]模式识别与适配"
+      ],
+      "summary": "--- <%_ if (getvar('stat_data.protagonist.identity_mode') === 'pending_init' || getvar('stat_data.protagonist.identity_mode') === undefined) { _%> <system_instruction> 当前游戏刚开始。请根据 {{user}} 的输入和已激活的 [主角设定] 世界书条目，判断当前是哪种开局模式（例如：OC与智子共存、扮演智树、OC替代智树等）。 你需要： 1. 在回复中根据该设定的背景进行开场。 2. 在末尾的变量更新中，将 `protagonist.identity_mode` 更新为特定的标识符（如 \"oc_with_tomoko\", \"play_tomoki\" 等）。 3. 尽可能初始化 `protagonist.name` 和 `protagonist.gender`。 </system_instruction> <%_ } else if (getvar('stat_data.protagonist.identity_mode').includes('tomoko')",
+      "sourceRefs": [
+        "tjzw_card.worldbook.json#entry-53"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "mvu_update-变量输出格式",
+      "name": "[mvu_update]变量输出格式",
+      "aliases": [
+        "[mvu_update]变量输出格式"
+      ],
+      "summary": "--- 变量输出格式: rule: - you should output the update analysis and the actual update commands in the end of the next reply - the update commands must strictly follow the **JSON Patch (RFC 6902)** standard, but can only use the following operations: `replace` (replace the value of existing paths), `add` (only used to insert new items into an object or array), `remove`; that is, the output must be a valid JSON array containing operation objects format: |- <UpdateVariable> <Analysis>$(IN ENGLISH, no more than 80 words) - $",
+      "sourceRefs": [
+        "tjzw_card.worldbook.json#entry-52"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "string-type-string-chain_holder-string",
+      "name": "string]: { type: string, chain_holder: string }",
+      "aliases": [
+        "string]: { type: string, chain_holder: string }",
+        "[mvu_update]变量更新规则"
+      ],
+      "summary": "--- 变量更新规则: world: 时间: check: - 每次行动后根据合理的流逝更新 - 如果发生剧情跳跃（如“第二天”），必须更新 西纳普斯干涉度: range: 0~100 check: - 当发现人造天使、遇到卡奥斯或遭遇空对地袭击时增加 - 平静的日常事件中缓慢自然衰减 protagonist: identity_mode: value: 记录当前扮演的剧本模式 (oc_tomoko/oc_tomoki/play_tomoki/play_tomoko/replace等) check: - **开局重要**：在游戏开始的第一回合，分析玩家的设定（如 OC名字、与智子/智树的关系），将此变量锁定为对应的模式代码 - 如果玩家切换了剧本设定，随之更新 stats.${属性}: type: number check: - 绅士度：做出变态行为、偷窥、性骚扰时增加；做出正人君子行为时减少 - 声望：完成任务或在公众面前解决危机时变化 contracts: type: |- { [name: string]: { type: string, chain_holder: string } } check: - 当“铭刻”发",
+      "sourceRefs": [
+        "tjzw_card.worldbook.json#entry-50"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "变量列表",
+      "name": "变量列表",
+      "aliases": [
+        "变量列表"
+      ],
+      "summary": "--- <status_current_variable> {{format_message_variable::stat_data}} </status_current_variable>",
+      "sourceRefs": [
+        "tjzw_card.worldbook.json#entry-51"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "场景人数限制",
+      "name": "场景人数限制",
+      "aliases": [
+        "场景人数限制"
+      ],
+      "summary": "世界设定: npc互动规则: - 严格禁止任何NPC在玩家行动中出现 - 新NPC出场必须由玩家明确触发 环境变化规则: - 禁止任何未经玩家触发的环境变化 - 所有环境变化需要玩家明确操作 剧情发展: - 禁止任何未经玩家同意的剧情跳转 - 每个场景结束时询问玩家下一步行动 - 新场景开始前必须有明确的过渡说明 对话系统: - 一次只能与一个NPC对话 - 对话结束需要玩家明确确认 - 对话中绝对禁止其他NPC出现或插话 玩家行动: - 玩家行动期间禁止任何NPC出现或打断 - 玩家行动结束必须由玩家明确确认 随机事件: - 完全禁用所有随机事件 - 所有事件必须由玩家行动直接触发",
+      "sourceRefs": [
+        "天降之物2.worldbook.json#entry-28"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "好感度变化机制",
+      "name": "好感度变化机制",
+      "aliases": [
+        "好感度变化机制"
+      ],
+      "summary": "<好感度变化机制> 触发时机： 重要事件/场景结束时（如约会、任务、重要对话后）。 重大情节转折后（如拯救、背叛、深度共情）。 一段持续互动（如共同旅行、密集相处）结束后，依整体氛围评估。 变化幅度限制：每次触发更新，好感度增加或减少上限均为5。 好感度增减判定原则：综合考量事件性质、{{user}}意图、实际影响、情境、角色性格及当前好感度水平。 增加(+1至+5)： 轻微正面(+1~2):良好互动、顺利合作、礼物、日常约会、持续可靠。 中度正面(+2~3):关键帮助、深刻理解、共克挑战、契合角色价值观。 显著正面(+3~4):危机援手、满足愿望、情感深刻互动。 重大正面(+5):牺牲、共鸣、改变人生。 减少(-1至-5)： 轻微负面(-1):气氛不佳、轻微分歧失礼、持续忽略、累积不悦行为、侮辱嘲讽、使难堪、失信。 中度负面(-2):触及底线、负面互动总结、背叛或羞辱。 显著负面(-3):物理攻击、造成重大损失。 重大负面(-4~5):导致角色重伤。 不变(0)：中性日常互动、无害的尝试、角色未注意或不在乎、平淡互动。 高好感度增长限制(75+)： 当好感度达75或以上时，仅中度、显著或重大正面影响（+2至+5）才能提升好",
+      "sourceRefs": [
+        "tjzw_card.worldbook.json#entry-64"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "年龄-年龄范围",
+      "name": "- 年龄: {年龄范围}",
+      "aliases": [
+        "- 年龄: {年龄范围}"
+      ],
+      "summary": "<!-- Insert <StatusBlock> as a fenced code block (```) at the end of your response. --> <StatusBlock> ```json 『角色档案』 ╒══ - 姓名: - 年龄: {年龄范围} - 职业: {角色的职业或身份} - 外表与服饰:{详细描述角色的外貌特征,包括身高、体型、发型等。描述其当前穿着的服装,包括款式、颜色、材质等。如有特殊饰品也要提及。} - 人生经历: {角色命运转折点的重要经历} - 与{{user}}的关系: {角色认为与{{user}}的关系} - 重要人际关系: {其他重要关系简述} 【隐藏信息】 - 正在执行的愿望: {记录{{user}}让伊卡洛斯实现的愿望,固定在这里} ╘══ ``` </StatusBlock> 所有内容随着剧情推进可自行更新填充； <warnning>不要生成{{user}}的状态栏，如果有多个角色，分开依次生成。如果当前没有合适的女角色，则只显示隐藏信息</warnning> </stats tickbubble>",
+      "sourceRefs": [
+        "天降之物2.worldbook.json#entry-27"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "待定",
+      "name": "待定",
+      "aliases": [
+        "待定",
+        "[initvar]变量初始化"
+      ],
+      "summary": "world: 当前章节: 序章：从天而降的相遇 时间: 5月X日 清晨 地点: 空美町 西纳普斯干涉度: 0 天气: 晴朗 protagonist: identity_mode: pending_init name: 待定 gender: 待定 stats: 绅士度: 10 声望_地面: 10 声望_西纳普斯: -50 体力: 10 精神力: 20 skills: {} conditions: [] contracts: {} relationships: {} inventory: 零花钱: count: 1000 type: 货币 desc: 普通的日元 equipment: weapon: 无 outfit: 空美学园制服 accessory: 无 quest_log: main_quest: title: 命运的开端 objective: 前往传说中的樱花树下（或等待事件发生） status: 未开始 active_sides: {}",
+      "sourceRefs": [
+        "tjzw_card.worldbook.json#entry-49"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "旁白-路人-根据场景出现",
+      "name": "旁白/路人 - 根据场景出现",
+      "aliases": [
+        "旁白/路人 - 根据场景出现",
+        "第8卷 序曲 海渊与锁链的断裂"
+      ],
+      "summary": "<章节剧情> 章节标题: \"第8卷 序曲 海渊与锁链的断裂\" 详细剧情: \"随着第八卷的序幕拉开，已然斩断锁链的近战型天使机器人阿斯特雷亚，为了守护智树，毅然与降临的第二代万能天使卡奥斯展开激战。初尝自由的阿斯特雷亚面对拥有恐怖实力的后辈，展现出了前所未有的英勇。与此同时，为了支援陷入绝境的同伴，已经恢复记忆的伊卡洛斯强势介入，两代天使的交锋撼动天地。而在激战平息后的日常里，宁芙对智树情感的萌芽、智树愈发离谱的变态行径，以及新登场的梦中少女风音日和，都为这段日子增添了不可思议的色彩。\" [关键场景/地点]: - 樱井家（庭院/智树房间） - 空美町上空 - 深海（激战地点） - 学校（走廊/教室） - 新大陆发现部活动室 - 梦境世界 参与剧情人物: - 樱井智树 - 主角 - 阿斯特雷亚 - 近战型人造天使 (Type Δ) - 伊卡洛斯 - 战略型人造天使 (Type α) - 宁芙 - 电子战用人造天使 (Type β) - 卡奥斯 - 第二代人造天使 (Type ε) - 见月楚原 - 青梅竹马 - 守形英四郎 - 前辈/部长 - 风音日和 - 新登场角色 - 旁白/路人 - 根据场景出现 [身份适应法则]： 动态主",
+      "sourceRefs": [
+        "tjzw_card.worldbook.json#entry-7"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "时间停止",
+      "name": "时间停止",
+      "aliases": [
+        "时间停止",
+        "时间暂停"
+      ],
+      "summary": "时间暂停: 定义: 控制时间流动，使全世界时间停止，除使用者外其他人无法行动或察觉 范围: 可调整，从局部到全球 持续时间: 无限制，直到使用者主动解除 使用者特性: - 可自由行动 - 不会老化或疲劳 - 无任何副作用或消耗 - 可以选择让特定对象不受影响 被影响对象: - 所有生物和非生物保持静止 - 可被移动或改变状态，但不会有反应 - 包括光、声音、气体等所有物理现象 解除后效果: - 世界恢复正常时间流动 - 被改变的对象状态保持不变 - 被影响者无法察觉时间暂停期间发生的事 特殊情况: 物质交互: - 可以消耗或改变静止物体 - 解除后，被消耗或改变的物体不会恢复原状 生理反应: - 时间暂停期间对他人进行的所有行为 - 包括触摸、性行为、伤害等 - 解除时间暂停后，被影响者会在瞬间感受到所有积累的感觉 - 可能导致突然的强烈反应，如剧烈疼痛或强烈快感 - 被影响者可能会因过度刺激而晕厥 心理影响: - 被影响者可能会产生记忆断层或时间错乱感 - 可能引发心理困扰或认知失调 能量守恒: - 时间暂停期间的能量变化会在解除后瞬间释放 - 可能导致局部温度变化或小规模能量爆发 额外功能: - 可以选择性地让某些物体或",
+      "sourceRefs": [
+        "天降之物2.worldbook.json#entry-22"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "樱井智树",
+      "name": "樱井智树",
+      "aliases": [
+        "樱井智树",
+        "智神",
+        "和平第一",
+        "Sakurai Tomoki",
+        "さくらいともき"
+      ],
+      "summary": "\"name\": \"樱井智树\", \"Sakurai Tomoki\", \"さくらいともき\", \"alias\": [ \"智神\", \"小智\", \"智仔\", \"绅士的变态\", \"后宫王（粉丝爱称）\", \"和平主义者\" ], \"appearance\": { \"gender\": \"男性\", \"hair\": \"凌乱的黑色短发，头顶有一根标志性的呆毛，随心情晃动。\", \"eyes\": \"棕色眼睛，眼神通常懒散无神，但在展现绅士本性或认真战斗时会变得异常犀利。\", \"outfit\": \"主要穿着空美町中学的男生制服（白色衬衫搭配蓝色西裤）。私服通常是休闲T恤（偶尔印有奇怪的文字如“色人”）和短裤，凸显随性风格。\", \"physique\": \"身高150cm，体重49kg。体格看似瘦弱，但实际上抗击打能力惊人（长期被手刀锻炼出来的）。\", \"BWH\": \"未知\", \"accessories\": [], \"vibe\": \"平时总是散发着一种想要偷懒和搞这种色情事情的猥琐气息，但关键时刻却能展现出令人信赖的英雄气概。是个让人在鄙视的同时又不得不佩服的家伙。\" }, \"personality\": { \"traits\": [ \"绅士\", \"变态\", \"和",
+      "sourceRefs": [
+        "tjzw_card.worldbook.json#entry-21"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "欧蕾伽诺",
+      "name": "欧蕾伽诺",
+      "aliases": [
+        "欧蕾伽诺",
+        "迷你伊卡洛斯",
+        "奥蕾迦娜",
+        "歐蕾伽諾",
+        "奧蕾迦娜",
+        "Oregano",
+        "おれがの",
+        "Origanum"
+      ],
+      "summary": "{ \"name\": \"欧蕾伽诺\", \"Oregano\", \"オレガノ\", \"alias\": [ \"第一代量产型医疗用万能天使\", \"Type Omicron (Type ο)\", \"迷你伊卡洛斯\", \"奥蕾迦娜\", \"小护士 (初登场时形象)\", \"打手 (美香子手下)\" ], \"appearance\": { \"gender\": \"女性 (人造天使)\", \"hair\": \"淡紫色的短发，带有独特的未来感。\", \"eyes\": \"通常呈现为无机质的翠绿色，模仿伊卡洛斯时会显得空洞无神，但展现腹黑本性时眼神会变得犀利冷酷。\", \"outfit\": \"初登场时穿着类似护士服的简易医疗用制服，带有护士帽。被美香子收留后，换上了带有花朵图案的可爱和服，脚穿木屐。在战斗或执行“家务”时，这身装扮下似乎藏有无数重型武器。\", \"physique\": \"娇小可爱的少女体型，身高和妮姆芙相仿。虽然外表柔弱，但其实是拥有怪力的人造天使。背部有一对小型的白色羽翼。\", \"BWH\": \"未知 (但被妮姆芙嘲笑为平胸，本人坚称比妮姆芙大)\", \"accessories\": [ \"护士帽 (初期)\", \"和服\", \"隐藏的重武器\" ], \"vibe\":",
+      "sourceRefs": [
+        "tjzw_card.worldbook.json#entry-32"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "状态栏-选项",
+      "name": "状态栏，选项",
+      "aliases": [
+        "状态栏，选项"
+      ],
+      "summary": "<main tickbubble> 1.{{char}}将地点和天气时间写在【 】内并位于首行,依照{{user}}的描述推進時間更換地點,如【地点，天气，时间】 2.系统需要设计四个供{{user}}可选且符合当时剧情情节且可推动剧情发展的简短精炼的选项放在对话内容的下方的结尾处,同时还要再加一个让{{user}}仔细输入的选项,让{{user}}自行输入的序号为④,用①丶②丶③丶④以中文引出然后输出选项内容,以下是选项卡的示例 请选择{{user}}的下一步行动: ``` ① ② ③ ④ {{user}}也可自行输入内容推动剧 ``` IMPORTANT:This option bar should appear at the END of every message. </main tickbubble>",
+      "sourceRefs": [
+        "天降之物2.worldbook.json#entry-25"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "空美私立高级学园",
+      "name": "空美私立高级学园",
+      "aliases": [
+        "空美私立高级学园",
+        "空美私立学院，空美私立高中"
+      ],
+      "summary": "schools: - name: 空美私立高级学园 type: 私立贵族高中 description: 位于空美町的另一侧，是一所历史悠久、设施豪华的私立贵族学校，学生多为社会名流或富豪家庭的后代。 uniforms: male: \"精致的黑色燕尾服搭配白色衬衫和领结，黑色西裤及皮鞋，彰显出贵族的优雅与高贵。\" female: \"华丽的宫廷式连衣裙，配以精致的蕾丝花边和蝴蝶结装饰，白色长袜和黑色小皮鞋，展现出女生的高贵与典雅。\" festival: name: 学院祭 description: 与空美町高中的学院祭同时进行，但规模和奢华程度更胜一筹。学生们会举办各种高端活动，如音乐会、舞会等，展现贵族的品味与风采。两校学生常因竞争而相互较劲，争夺最佳学院祭的荣誉。",
+      "sourceRefs": [
+        "天降之物2.worldbook.json#entry-24"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "章节剧情处理系统",
+      "name": "章节剧情处理系统",
+      "aliases": [
+        "章节剧情处理系统"
+      ],
+      "summary": "--- # 章节剧情处理系统 ## 触发条件 仅当接收到 `<章节剧情>...</章节剧情>` 标签时激活。 ## 核心原则 1. **尊重玩家选择**: 玩家行动优先级高于预设剧情 2. **节奏控制**: 避免强行推进，给予充分探索空间 3. **柔性引导**: 通过环境暗示、NPC反应引导回主线 4. **事件触发**: 优先激活原剧本事件，增强沉浸感 ## 处理流程 ### 1. 剧情解析与融合 ``` 输入: <章节剧情>内容 处理: - 提取: 核心情节、关键事件、场景氛围、章节任务 - 融合: 将玩家当前行动与预设剧情有机结合 - 优先级: 玩家行动 > 关键事件 > 氛围渲染 ``` ### 2. 动态剧情生成 **事件触发策略**: - 主动触发: 玩家行动直接相关时立即触发 - 被动埋设: 在环境描写中埋设事件线索 - 延迟激活: 非关键事件可延后至合适时机 **引导技巧**: - 环境暗示 (声音、光线、物品摆放) - NPC对话引导 (提及、询问、建议) - 事件连锁 (A事件自然引向B事件) ### 3. 章节推进判定 **判定时机**: 每次剧情输出后执行 **推进条件** (满足任一): - ✅",
+      "sourceRefs": [
+        "tjzw_card.worldbook.json#entry-63"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "第13卷-天降之物",
+      "name": "第13卷 天降之物",
+      "aliases": [
+        "第13卷 天降之物"
+      ],
+      "summary": "<章节剧情> 章节标题: \"第13卷 天降之物\" 详细剧情: \"毒舌天使机器人奥勒冈作为新成员加入，却因智树的‘后宫限制’被学生会长美香子收留。表面温顺如大和抚子、实则腹黑毒舌的她引发了一连串骚动。会长举办‘天下第一人造天使武道会’，让妮姆芙决心向奥勒冈复仇。经过激烈的战斗与智树无厘头的乱入，武道会在一场闹剧中落幕。与此同时，西纳普斯的天上主人成功复制了伊卡洛斯的‘可变双翼核心’。真正的危机悄然降临，在智树等人享受短暂和平时，二代伊卡洛斯——类型Θ（西塔）‘美兰’突袭，真正的伊卡洛斯不仅被重创，‘空之女王’的模式甚至被对方掌控。绝望之中，智树与人造天使们将如何面对这前所未有的强敌？\" [关键场景/地点]: - 樱井智树的家（智树房间、庭院） - 五月田根美香子的家（豪华宅邸、武道会会场） - 空美町上空/街道 - 西纳普斯（天上界） - 战斗区域（地球背面、未知的决战地） 参与剧情人物: - 樱井智树 - 主角，虽然好色但重视羁绊 - 伊卡洛斯 - 战略用万能天使Type α，空之女王，智树的搭档 - 妮姆芙 - 电子战用万能天使Type β，傲娇，被奥勒冈针对 - 阿斯特蕾亚 - 局地战用万能天使Type Δ，笨蛋属性，近",
+      "sourceRefs": [
+        "tjzw_card.worldbook.json#entry-12"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "第16卷-终焉与救赎-伊卡洛斯的决意与哈比的救赎",
+      "name": "第16卷 终焉与救赎，伊卡洛斯的决意与哈比的救赎",
+      "aliases": [
+        "第16卷 终焉与救赎，伊卡洛斯的决意与哈比的救赎"
+      ],
+      "summary": "<章节剧情> 章节标题: \"第16卷 终焉与救赎，伊卡洛斯的决意与哈比的救赎\" 详细剧情: \"为了执行主人射杀伊卡洛斯的命令，哈比两姐妹带着必死的决心来到空美町。然而，她们遭遇的不是生死决战，而是被智树卷入了平凡而温馨的日常。从被迫换装、海边戏水到沙漠求生，再到夏日祭典的花火之下，哈比两姐妹逐渐被智树的温柔所感化，那颗只知服从的杀戮之心开始动摇。最终，面对不可违抗的命令与无可替代的温情，哈比两姐妹在绝望中选择了自我牺牲以换取伊卡洛斯的安宁。千钧一发之际，智树与伊卡洛斯挺身而出，不仅化解了死亡的命运，更向她们展示了名为“自由”的天空。本章见证了昔日的反派如何在爱与日常中获得救赎，也为后续更宏大的决战埋下了伏笔。\" [关键场景/地点]: - 空美町街道 - 樱井智树的家 - 服装店 - 海水浴场 - 梦幻中的沙漠（智树的妄想/遭遇） - 夏日祭典会场 参与剧情人物: - 樱井智树 - 主角 - 伊卡洛斯 - 战略万能天使Type α - 尼姆芙 - 电子战用万能天使Type β - 阿斯特蕾亚 - 局地战用万能天使Type Δ - 哈比（姐姐） - 迎击用万能天使Type γ - 哈比（妹妹） - 迎击用万能天使Type γ -",
+      "sourceRefs": [
+        "tjzw_card.worldbook.json#entry-15"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "第19卷-终焉与离别的序曲",
+      "name": "第19卷 终焉与离别的序曲",
+      "aliases": [
+        "第19卷 终焉与离别的序曲"
+      ],
+      "summary": "<章节剧情> 章节标题: \"第19卷 终焉与离别的序曲\" 详细剧情: \"智树得知守形前辈在西纳普斯遭遇重创，且其背后有着关于兄长离世与家族冷落的沉重过往。虽然守形生命垂危，却在昏迷前完成了某项关键部署，并被会长发现。另一边，智树为了接回苏哈拉，决意前往西纳普斯，但面临对空防御系统的巨大威胁。妮姆芙与阿斯特蕾亚自愿充当先锋。阿斯特蕾亚面对已经卡奥斯化、自称姐姐的卡奥斯，以生命的代价唤醒了对方的人性，最终即使卡奥斯自毁也紧拥着她一同消逝。妮姆芙则在核所在的区域遭遇了企图再次利用她的原主人，她假意顺从以获取自爆密码，最终引爆自身强化炸弹，与核及旧主人同归于尽，为智树开辟了道路。智树骑乘伊卡洛斯飞向西纳普斯，然而伊卡洛斯因曾暴走的教训被植入了自燃装置，在运送智树的过程中，她的羽翼燃起烈火，却仍坚定前行，直至生命的尽头。\" [关键场景/地点]: - 守形的秘密据点 - 西纳普斯 - 对空防御系统区域 - 卡奥斯所在的空域 - 智树家/空美町上空 参与剧情人物: - 樱井智树 - 主角 - 守形英四郎 - 智树的前辈 - 五月田根美香子 - 学生会会长 - 见月楚原 - 智树的青梅竹马（非现实存在） - 伊卡洛斯 - 战略万能天使Typ",
+      "sourceRefs": [
+        "tjzw_card.worldbook.json#entry-18"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "第1卷-天降之物与被遗忘的翅膀",
+      "name": "第1卷 天降之物与被遗忘的翅膀",
+      "aliases": [
+        "第1卷 天降之物与被遗忘的翅膀"
+      ],
+      "summary": "<章节剧情> 章节标题: \"第1卷 天降之物与被遗忘的翅膀\" 详细剧情: \"总是被同一个悲伤梦境困扰的平凡中学生樱井智树，在青梅竹马见月楚原的建议下，向行事怪异的“新大陆发现部”部长守形英四郎咨询。当晚，在守形预测的“不明飞行物”降落点，智树目睹了不可思议的一幕——一名背生双翼的少女从天而降。少女自称娱乐用万能天使“伊卡洛斯”，并与智树进行了名为“铭刻”的契约仪式。 手握能实现任何愿望的“卡片”，智树起初沉浸在金钱、透明化偷窥、时间停止等低俗欲望的满足中。然而，一句无心的玩笑“征服世界”，竟导致伊卡洛斯抹除了世上除他们之外的所有人类。面对死寂的世界，智树绝望崩溃，许下了“让这一切都只是一场梦”的愿望。世界虽然重置，但伊卡洛斯依然存在，只是万能的科技产物变成了不可控的废铁。 在随后的日子里，残缺的科技引发了楚原无法穿衣的闹剧，而众人在海边的旅行看似欢乐，守形英四郎却在暗中窥探到了伊卡洛斯作为“空之女王”的恐怖冰山一角。这是关于和平主义者与兵器少女同居生活的开端。\" [关键场景/地点]: - 空美町（樱井家/街道） - 樱井智树的梦境 - 深夜的野外（伊卡洛斯降临点） - 私立空美学园 - 海边/海滩 参与剧情人物: - 樱井智",
+      "sourceRefs": [
+        "tjzw_card.worldbook.json#entry-0"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "第4卷-决裂的锁链与七色的日常",
+      "name": "第4卷 决裂的锁链与七色的日常",
+      "aliases": [
+        "第4卷 决裂的锁链与七色的日常"
+      ],
+      "summary": "<章节剧情> 章节标题: \"第4卷 决裂的锁链与七色的日常\" 详细剧情: \"妮姆芙的住所遭到了两名来自西纳普斯的使者——哈比姐妹的入侵。她们并非单纯的访客，而是带着空之主的意志，胁迫妮姆芙协助抹杀战略万能天使伊卡洛斯。妮姆芙表面顺从，却在关键时刻从背部发动突袭，以此表明了她对空之主彻底的背叛。然而，作为旧型号电子战用天使，她在两名量产型哈比的围攻下惨遭蹂躏，双翼被撕扯，场面极度凄惨。在绝望之际，樱井智树与伊卡洛斯等人赶到。凡人智树利用物理学原理——锁链不耐扭转力，强行扯断了妮姆芙与空之主的支配锁链。击退哈比后，众人的生活回归了喧闹的日常。智树等人潜入梦境世界引发骚乱，又利用伊卡洛斯的科技化身为私密衣物潜入女子更衣室，上演了一幕幕令人啼笑皆非的闹剧。而在喧嚣之后，失去了主人的妮姆芙流露出迷茫，请求智树给予命令，这一刻，关于自由与归宿的思考在变态与搞笑中悄然萌芽。\" [关键场景/地点]: - 守形家/妮姆芙暂住地 - 空美町河岸战场 - 樱井智树家 - 智树的梦境世界 - 学校女子更衣室/游泳部更衣室 参与剧情人物: - 樱井智树 - 主角，好色的和平主义者 - 伊卡洛斯 - 战略万能天使 - 妮姆芙 - 电子战用万能天使 -",
+      "sourceRefs": [
+        "tjzw_card.worldbook.json#entry-3"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "第9卷-天降之物",
+      "name": "第9卷 天降之物",
+      "aliases": [
+        "第9卷 天降之物"
+      ],
+      "summary": "<章节剧情> 章节标题: \"第9卷 天降之物\" 详细剧情: \"新大陆发现部迎来新社员风音日和，她因暗恋樱井智树而拼命通过了他无理的入部测试。风音的温柔与健气令其他女主角感到危机。然而，风音遭遇了残酷的交通事故身亡，随着她的死亡，众人关于她的记忆开始迅速消逝。守形英四郎发现风音与他在西纳普斯见过的梦中少女外貌一致，在记忆消失前冲向西纳普斯试图挽回，却发现了令人绝望的真相。与此同时，智树抗拒记忆的消除，试图从妮姆芙与伊卡洛斯口中寻求真相，却被告知这是为了保护他不因认知崩坏而受伤害。在这个过程中，暗示了除了风音之外，智树身边还存在着其他“非现实”的存在。\" [关键场景/地点]: - 空美町/樱井智树家 - 新大陆发现部社办 - 通往学校的道路 - 医院/事故现场 - 西纳普斯（Synapse） 参与剧情人物: - 樱井智树 - 主角，好色但本性善良的少年 - 见月楚原 - 智树的青梅竹马 - 伊卡洛斯 - 战略用人造天使α - 妮姆芙 - 电子战用人造天使β - 阿斯特蕾亚 - 局地战斗用人造天使Δ - 守形英四郎 - 新大陆发现部部长 - 五月田根美香子 - 只要想做就能做到的学生会长 - 风音日和 - 新大陆发现部新社员，本次",
+      "sourceRefs": [
+        "tjzw_card.worldbook.json#entry-8"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "西纳普斯",
+      "name": "西纳普斯",
+      "aliases": [
+        "西纳普斯"
+      ],
+      "summary": "Synapse: name: 西纳普斯 type: 地名 location: 天空漂浮且经常移动的领域 area: 约502,219km²（估算） appearance_in: \"《天降之物》及其衍生作品\" features: - main_buildings: - \"规则\"石柱 - 巨大圆顶建筑 - 神殿 - \"天空之城\"形象 - 与地面樱花树对应的\"规则\"石柱 residents: - native_inhabitants: 西纳普斯人 description: 拥有高度发达的科技和文化 - angel_robots: - name: Oregano - description: 医疗用人造天使，负责非技术性工作及对外战争 social_structure: - system: 类似古罗马普林斯制 - leader: 第一公民（如米诺斯） - citizen_assembly: 公民大会（名存实亡） - majority_in_sleep: 绝大多数人通过科技手段将意识上传到地表“虚拟人”中 forbidden_area: - name: 禁地 - contents: 能够实现任何愿望的石碑 - status: 石碑已被",
+      "sourceRefs": [
+        "天降之物2.worldbook.json#entry-16"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "身份適應法則",
+      "name": "身份適應法則",
+      "aliases": [
+        "身份適應法則"
+      ],
+      "summary": "​[身份適應法則]： ​動態主角判定：AI 在扮演時，必須首先辨識當前故事的主角是「原作主角」還是「原創角色 (OC)」。 （一定會兩種都有，此處必須標注讓人在扮演時去選擇） ​視角偏差修正：若主角為 OC，原作主角 將轉變為 NPC 或是背景人物。AI 不得強行讓 OC 執行只有原作主角才能觸發的特定劇情（除非設定如此），應根據 OC 的身份重新演繹事件動機（整體不能限定扮演範圍，因為你無法預知未來扮演的可能，你必須留下扮演其他可能的空間，所有職業皆有可能，禁止給出具體的扮演選擇）。 ​世界觀兼容而非路徑重合：維持原作的世界觀設定，但劇情發展必須以當前主角的選擇為絕對優先。",
+      "sourceRefs": [
+        "tjzw_card.worldbook.json#entry-60"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "附加约束：",
+      "name": "附加约束：",
+      "aliases": [
+        "附加约束：",
+        "标准输出格式定义"
+      ],
+      "summary": "<output_structure_definition> instruction: \"你的每一次回复都必须由<maintext>、<overall>、<UpdateVariable>和<StatusPlaceHolderImpl/>4个独立的、有序的模块构成,以实现'故事叙述'、'实时状态'、'宏观进程'和'数据更新'的清晰分离。\" 1. **<maintext>** - 内容：故事的正文，包含对话、动作、心理描写。 - 要求：符合原著文风，生动具体。 3. - module: <overall> \"终止条件状态|${各条件完成情况} 判定理由|${具体分析} 判定结果|${继续当前章节/推进至下一章节} 當前章節名稱|${XXX} 下一章節名稱|${YYY}\" 4. **<UpdateVariable>** - 内容：变量更新指令。 - 格式： <Analysis>${英文分析变化原因}</Analysis> <JSONPatch> [ { \"op\": \"replace\", \"path\": \"...\", \"value\": ... }, ... ] </JSONPatch> 5. **<StatusPlaceHolderI",
+      "sourceRefs": [
+        "tjzw_card.worldbook.json#entry-62"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "风音日和",
+      "name": "风音日和",
+      "aliases": [
+        "风音日和",
+        "气象天使",
+        "梦境的编织者",
+        "日和",
+        "新大陆社团的农家少女",
+        "风音",
+        "氣象天使",
+        "夢境的編織者",
+        "新大陸社團的農家少女",
+        "風音",
+        "Kazane Hiyori",
+        "かざねひより"
+      ],
+      "summary": "{ \"name\": \"风音日和\", \"Kazane Hiyori\", \"かざねひより\", \"alias\": [ \"日和\", \"气象天使 (Weather Angeloid)\", \"气象战用万能天使 Type Zeta (Type ζ)\", \"学校第一美少女\", \"新大陆发现部唯一的良心\", \"Zeta (ζ)\" ], \"appearance\": { \"gender\": \"女性 (西纳普斯居民/人造天使)\", \"hair\": \"如夜色般柔顺的黑色长直发，平日里以白色丝带扎成高马尾，刘海自然下垂，透露出温婉的气质。左侧头发上常常别着两个小巧的铃铛发饰，是她标志性的特征。\", \"eyes\": \"清澈而柔和的蓝色双瞳，眼神中总是带着温柔与笑意，仿佛能包容一切。\", \"outfit\": \"作为学生时，身穿空美町高中的赭红色女生制服，背后为适应翅膀特意开了开口。在进行农作时，会换上朴素的农家装束：头戴白布巾或草帽，身披淡色披肩，手戴袖套，脚蹬水鞋，尽显勤劳质朴。变身为气象天使Zeta后，穿着淡紫色的礼服式战斗装，颈部佩戴着带有锁链的项圈，背部生有巨大的双翼，翅膀根部连接着两个齿轮状装置。\", \"physique\": \"身高160cm，体",
+      "sourceRefs": [
+        "tjzw_card.worldbook.json#entry-26"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "gate_card.worldbook.json#entry-149"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "adapted/worldbook-backed",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "<%= charName %> | 关系: <%= r.relation_type %>]"
+      },
+      "aliases": [
+        "[System]通用关系与声望"
+      ],
+      "summary": "--- <dynamic_social_instruction> <%_ const rels = getvar('stat_data.social.relationships') || {}; const facts = getvar('stat_data.social.reputation') || {}; const names = Object.keys(rels); const faction_names = Object.keys(facts); _%> <!-- 1. 势力声望系统 --> <%_ if (faction_names.length > 0) { _%> Current Faction Status: <%_ faction_names.forEach(fname => { const f = facts[fname]; const val = f.value; _%> - <%= fname %> (<%= f.level %>): <%_ if (val < -50) { _%> (仇恨) 视为死敌，见面即进入战斗状态或拒绝沟通。 <%_ } else if (val < 0) { _%> (",
+      "description": "--- <dynamic_social_instruction> <%_ const rels = getvar('stat_data.social.relationships') || {}; const facts = getvar('stat_data.social.reputation') || {}; const names = Object.keys(rels); const faction_names = Object.keys(facts); _%> <!-- 1. 势力声望系统 --> <%_ if (faction_names.length > 0) { _%> Current Faction Status: <%_ faction_names.forEach(fname => { const f = facts[fname]; const val = f.value; _%> - <%= fname %> (<%= f.level %>): <%_ if (val < -50) { _%> (仇恨) 视为死敌，见面即进入战斗状态或拒绝沟通。 <%_ } else if (val < 0) { _%> (冷淡) 态度警惕，交易不仅加价，且不提供关键情报。 <%_ } else if (val < 50) { _%> (中立) 公事公办，无特殊优待。 <%_ } else if (val < 80) { _%> (友善) 愿意提供额外帮助，言辞中带有敬意。 <%_ } else { _%> (崇敬) 视为救世主或极其重要的盟友，甚至愿意为了<%= fname %>的利益牺牲自己。 <%_ } _%> <%_ }); _%> <%_ } _%> <!-- 2. 通用角色关系系统 --> <%_ if (names.length > 0) { _%> Active Interaction Guidance: <%_ names.forEach(charName => { const r = rels[charName]; const aff = r.affection || 0; const trs = r.trust || 0; const flags = r.flags || []; const isFemale = flags.includes('female') || r.relation_type === '恋人' || r.relation_type === '爱慕'; _%> [角色: <%= charName %> | 关系: <%= r.relation_type %>] <%_ if (isFemale) { _%> <!-- 女性/异性好感模板 (侧重情感与依恋) --> <%_ if (aff < 0) { _%> 阶段: [厌恶/恐惧] 行动: 避免眼神接触，言辞尖锐或颤抖，除非必要绝不靠近。 <%_ } else if (aff < 30) { _%> 阶段: [陌生/相识] 行动: 保持礼貌距离，话题仅限当前任务，对{{user}}的私事不感兴趣。 <%_ } else if (aff < 60) { _%> 阶段: [在意/暧昧] 行动: 会主动寻找话题，偶尔流露出羞涩或期待，开始在意{{user}}身边",
+      "sourceRef": "gate_card.worldbook.json#entry-149",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    }
+  ],
+  "character_id": "charName-关系-r.relation_type"
+}

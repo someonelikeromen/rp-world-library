@@ -1,0 +1,32 @@
+{
+  "schema": "kekkaishi-derived-relationship-index-v1",
+  "worldId": "kekkaishi",
+  "recordType": "derived-relationship-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "formalRelationshipFacts": [],
+  "derivedMentionEdges": [
+    {
+      "source": "abilities:新妖怪创建",
+      "target": "abilities:地理",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "地理",
+      "sourceRefs": [
+        "jjs_card.worldbook.json#entry-7"
+      ],
+      "id": "edge-1",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    }
+  ],
+  "counts": {
+    "derivedMentionEdges": 1
+  }
+}

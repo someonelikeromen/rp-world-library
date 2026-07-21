@@ -1,0 +1,32 @@
+{
+  "schema": "monster-hunter-graph-build-report-v1",
+  "worldId": "monster-hunter",
+  "status": "completed",
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "validation": {
+    "jsonValid": true,
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "newFactsIntroduced": false,
+    "forbiddenBasenamesGenerated": false
+  },
+  "counts": {
+    "nodes": 44,
+    "edges": 2,
+    "nodeCounts": {
+      "characters": 1,
+      "abilities": 9,
+      "factions": 5,
+      "locations": 7,
+      "systems": 1,
+      "knowledge": 21
+    },
+    "edgeCounts": {
+      "derived-text-mention": 2
+    },
+    "derivedMentionEdges": 2
+  },
+  "warnings": [
+    "Derived graph edges are navigation/search signals, not formal relationship facts."
+  ]
+}

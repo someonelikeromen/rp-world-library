@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "zyszddsj_card.worldbook.json#entry-103"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "AI变量更新规则"
+      },
+      "aliases": [
+        "AI变量更新规则"
+      ],
+      "summary": "# AI变量更新规则 - 原创主角模式: 开局设定后永不修改 - 当前模式: 剧情/沙盒可切换 - user.身份: 取代/共存模式下更新 - user.当前位置: 场景变更时更新 - user.攻略状态: 空闲/攻略中/已完成 - 剧情.当前篇章: 驱魂篇→女神篇→过去篇 - 剧情.当前卷: 1-26, 章节推进时递增 - 剧情.当前章节: 新章节时更新 - 剧情.攻略对象: 攻略开始设为目标名 - 剧情.攻略阶段: 接触→了解→深入→高潮→完成 - 剧情.章节内已完成事件: 追加记录 - 剧情.关键事件: 当前关键事件 - 剧情.模式: 日常/推进 - 剧情.推进许可: 事件完成后=true - 沙盒状态.*: 沙盒模式下更新 - 关系网.{角色}.*: 根据互动更新, 好感度/信任度0-100 _前缀和$前缀变量只读, AI不可修改",
+      "description": "# AI变量更新规则 - 原创主角模式: 开局设定后永不修改 - 当前模式: 剧情/沙盒可切换 - user.身份: 取代/共存模式下更新 - user.当前位置: 场景变更时更新 - user.攻略状态: 空闲/攻略中/已完成 - 剧情.当前篇章: 驱魂篇→女神篇→过去篇 - 剧情.当前卷: 1-26, 章节推进时递增 - 剧情.当前章节: 新章节时更新 - 剧情.攻略对象: 攻略开始设为目标名 - 剧情.攻略阶段: 接触→了解→深入→高潮→完成 - 剧情.章节内已完成事件: 追加记录 - 剧情.关键事件: 当前关键事件 - 剧情.模式: 日常/推进 - 剧情.推进许可: 事件完成后=true - 沙盒状态.*: 沙盒模式下更新 - 关系网.{角色}.*: 根据互动更新, 好感度/信任度0-100 _前缀和$前缀变量只读, AI不可修改",
+      "sourceRef": "zyszddsj_card.worldbook.json#entry-103",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "AI变量更新规则"
+}

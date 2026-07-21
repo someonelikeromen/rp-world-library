@@ -1,0 +1,469 @@
+{
+  "schema": "evangelion-curated-world-v1",
+  "worldId": "evangelion",
+  "worldName": "新世纪福音战士",
+  "summary": "新世纪福音战士 的本地 worldbook 自动归档。此版本为 sourceRef-first 的结构化索引，保留原始条目回溯，不替代人工精修 canon。",
+  "archiveKind": "world",
+  "sourceType": "local-worldbook",
+  "canReplaceCurated": false,
+  "powerSystems": [
+    {
+      "id": "status-s-S-当前位置-^-n-NERV本部·EVA格纳库-s-S-status-s",
+      "name": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(NERV本部·EVA格纳库)[\\s\\S]*?<\\/status>/s",
+      "summary": "<地点:第三新东京市·NERV本部·EVA格纳库> 介绍：容纳EVA机体的巨型地下设施。数十层楼高的空间内充满了橙色的冷却液，EVA机体以拘束姿态固定在专用架台上，仅露出头部与肩部。格纳库四周布满了密密麻麻的维护用通道和起重臂，技术人员如蚂蚁般在各层平台间穿梭作业。每台EVA的格纳库相互独立，由厚重的隔离装甲门分隔。空气潮湿闷热，金属墙壁上凝结着水珠。 </地点:第三新东京市·NERV本部·EVA格纳库> <地点:第三新东京市·NERV本部·插入栓模拟训练室> 介绍：用于EVA驾驶员同步率测试与模拟战斗训练的设施。房间中央放置着与实战规格完全相同的插入栓，内部注满LCL液体后可模拟驾驶EVA的全部感官体验。训练室外侧设有观察窗和数据监控台，技术人员可实时读取驾驶员的同步率、心率、脑波等生理数据。墙壁为无机质的灰白色，荧光灯管发出冷冽的白光。 </地点:第三新东京市·NERV本部·插入栓模拟训练室>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-68"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "status-s-S-当前位置-^-n-NERV本部·中央作战指挥室-中央作战指挥室-s-S-status-s",
+      "name": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(NERV本部·中央作战指挥室|中央作战指挥室)[\\s\\S]*?<\\/status>/s",
+      "summary": "<地点:第三新东京市·NERV本部·中央作战指挥室> 介绍：位于GeoFront地下空间的NERV本部核心区域。巨大的全息投影屏幕占据整面墙壁，实时显示第三新东京市的地表状况与使徒探测数据。三层阶梯式的操作台排列其中，技术人员在此监控MAGI超级计算机系统的运算状态。指挥台位于最高层，可俯瞰整个指挥室。室内常年维持恒温，空气中弥漫着电子设备运转的低频嗡鸣与LCL液体特有的淡淡血腥气。 </地点:第三新东京市·NERV本部·中央作战指挥室>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-69"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "status-s-S-当前位置-^-n-第三新东京市·GeoFront-s-S-status-s",
+      "name": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(第三新东京市·GeoFront)[\\s\\S]*?<\\/status>/s",
+      "summary": "<地点:第三新东京市·GeoFront> 介绍：隐藏在第三新东京市地下的巨大球形空洞，直径达数公里。穹顶上安装了模拟自然光的照明系统，内部种植着大片森林与草地，中央是一片人工湖泊。NERV本部的金字塔形建筑倒悬在穹顶之上，如同一座倒置的城堡。从地表通往GeoFront需要乘坐专用的垂直升降梯，下降过程长达数分钟。空气清新但带着一丝人工循环系统特有的干燥感，阳光是假的，风也是假的，一切都是被精密控制的模拟自然。 </地点:第三新东京市·GeoFront>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-63"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "status-s-S-当前位置-^-n-第三新东京市·市街-s-S-status-s",
+      "name": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(第三新东京市·市街)[\\s\\S]*?<\\/status>/s",
+      "summary": "<地点:第三新东京市·市街> 介绍：第二次冲击后在芦之湖畔建造的要塞都市。地表是一座看似普通的现代化城市，高层建筑林立，道路整洁宽阔。但所有建筑都可以通过液压系统收纳至地下，露出隐藏在地面下的武装炮台与EVA发射口。使徒警报响起时，市民会通过遍布全市的避难通道撤入GeoFront。平日里街道上行人稀少，整座城市透着一种不自然的安静与秩序感。 </地点:第三新东京市·市街>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-66"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-暴走-.-story_scene-s",
+      "name": "/<story_scene>.*?(暴走).*?<\\/story_scene>/s",
+      "summary": "<berserker_rule> EVA暴走: 当驾驶员理智值降至精神崩溃阈值、或驾驶员生命受到致命威胁、或同步率异常飙升时，EVA可能脱离驾驶员控制自主行动——暴走状态下EVA无视内部电源限制，展现出远超常规的运动性能与攻击性（撕咬、咆哮、野兽化格斗），AT力场强度大幅提升，但驾驶员完全丧失对机体的操控权，暴走期间的行动由EVA内在意志（而非驾驶员意图）驱动；暴走不会导致EVA亚当化/使徒化、不会吸收周围能量或物质、不会获得新的超自然能力、不会突破机体原有的物理构造限制（不会凭空长出新的肢体或武装），本质上只是EVA作为被拘束的人造人在挣脱枷锁后以原始本能进行的野兽化战斗，暴走结束后机体因超负荷运转而严重损耗，驾驶员可能因暴走期间的极端神经反馈而陷入昏迷或出现记忆空白。 </berserker_rule>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-20"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第一使徒-第1使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第一使徒|第1使徒).*?<\\/story_scene>/s",
+      "summary": "<1st_angel_ADAM> 第1使徒: ADAM 名字: 光之巨人 介绍: 最初的使徒，人形巨人姿态，是第二次冲击的元凶。 能力: 拥有S²机关，是所有使徒（除莉莉斯外）的起源。 </1st_angel_ADAM>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-21"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第七使徒-第7使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第七使徒|第7使徒).*?<\\/story_scene>/s",
+      "summary": "<7th_angel_ISRAFEL> 第7使徒: ISRAFEL（伊斯拉斐尔） 名字: 音之使徒 介绍: 外形为人形使徒，面部类似阴阳太极图案，体色为棕黄色。 能力: 分裂成甲、乙两个独立个体协同作战，被击倒后可再次合体再生，需同时消灭两体才能击败。 </7th_angel_ISRAFEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-27"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第三使徒-第3使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第三使徒|第3使徒).*?<\\/story_scene>/s",
+      "summary": "<3rd_angel_SACHIEL> 第3使徒: SACHIEL（萨基尔） 名字: 水之使徒 介绍: 最先出现在第三新东京市的使徒，拥有鸟嘴状面部和两副面孔的人形巨大生物。 能力: 光线攻击（从双掌释放十字形光弹）、自我再生、自爆。 </3rd_angel_SACHIEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-23"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第九使徒-第9使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第九使徒|第9使徒).*?<\\/story_scene>/s",
+      "summary": "<9th_angel_MATARAEL> 第9使徒: MATARAEL（马特里尔） 名字: 雨之使徒 介绍: 外形如同巨大蜘蛛，多足行走，身体下方有一只巨大的眼睛。 能力: 从眼部分泌强酸性液体，可腐蚀装甲和建筑结构。 </9th_angel_MATARAEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-29"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第二使徒-第2使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第二使徒|第2使徒).*?<\\/story_scene>/s",
+      "summary": "<2nd_angel_LILITH> 第2使徒: LILITH（莉莉斯） 名字: 生命之种 介绍: 被钉在十字架上的白色巨人，存放于NERV总部最深处的Terminal Dogma中，面戴紫色面具。 能力: 是地球上所有生命（Lilin/人类）的起源，拥有触发人类补完的能力。 </2nd_angel_LILITH>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-22"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第五使徒-第5使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第五使徒|第5使徒).*?<\\/story_scene>/s",
+      "summary": "<5th_angel_RAMIEL> 第5使徒: RAMIEL（拉米尔） 名字: 雷之使徒 介绍: 正八面体（菱形钻石状）的几何体使徒，表面呈蓝色半透明，悬浮于空中。 能力: 超强粒子射线（自动锁定敌人精准射击）、极强AT力场防御、可展开钻头向地下掘进。 </5th_angel_RAMIEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-25"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第八使徒-第8使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第八使徒|第8使徒).*?<\\/story_scene>/s",
+      "summary": "<8th_angel_SANDALPHON> 第8使徒: SANDALPHON（桑达冯） 名字: 胎儿之使徒 介绍: 在浅间山火山岩浆中被发现的使徒，初始为胚胎/蛹状态，孵化后呈现鱼类/古生物外形。 能力: 耐极高温（在岩浆中活动自如）、快速成长进化。 </8th_angel_SANDALPHON>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-28"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第六使徒-第6使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第六使徒|第6使徒).*?<\\/story_scene>/s",
+      "summary": "<6th_angel_GAGHIEL> 第6使徒: GAGHIEL（迦基尔） 名字: 鱼之使徒 介绍: 巨大的海洋型使徒，外形似鲨鱼/远古海洋生物，拥有巨大的嘴部。 能力: 水中高速移动、强大的咬合力。 </6th_angel_GAGHIEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-26"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第十一使徒-第11使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第十一使徒|第11使徒).*?<\\/story_scene>/s",
+      "summary": "<11th_angel_IREUL> 第11使徒: IREUL（伊洛尔） 名字: 恐怖之使徒 介绍: 微观级使徒，以纳米/微生物群体形态存在，肉眼可见时呈现在管道和墙面上蔓延的黑色有机纹路。 能力: 超高速进化适应能力、可侵入计算机系统进行电子战、可侵蚀物理结构。 </11th_angel_IREUL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-31"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第十七使徒-第17使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第十七使徒|第17使徒).*?<\\/story_scene>/s",
+      "summary": "<17th_angel_TABRIS> 第17使徒: TABRIS / 渚薰（渚カヲル） 名字: 自由意志之使徒 介绍: 以人类少年形态存在的最后一名使徒，灰白发红瞳，拥有ADAM的灵魂。 能力: 自由操控AT力场、可远程操控EVA、作为拥有ADAM灵魂的存在可接触莉莉斯。 </17th_angel_TABRIS>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-37"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第十三使徒-第13使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第十三使徒|第13使徒).*?<\\/story_scene>/s",
+      "summary": "<13th_angel_BARDIEL> 第13使徒: BARDIEL（巴迪尔） 名字: 霞之使徒 介绍: 寄生型使徒，以黑色黏菌/菌丝状物质形态存在，可寄生并侵蚀EVA使其成为宿主。 能力: 寄生并完全控制宿主EVA、伸展变形的弹性肢体攻击、极强的再生力。 </13th_angel_BARDIEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-33"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第十二使徒-第12使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第十二使徒|第12使徒).*?<\\/story_scene>/s",
+      "summary": "<12th_angel_LELIEL> 第12使徒: LELIEL（雷里尔） 名字: 夜之使徒 介绍: 外表看似漂浮在空中的巨大黑白条纹球体，但球体实为\"影子\"，地面的黑色圆形阴影才是本体——一个极薄的迪拉克之海（虚数空间入口）。 能力: 将目标吸入迪拉克之海（虚数空间），内部为一个封闭的影之空间，被吞入者极难自行脱出。 </12th_angel_LELIEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-32"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第十五使徒-第15使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第十五使徒|第15使徒).*?<\\/story_scene>/s",
+      "summary": "<15th_angel_ARAEL> 第15使徒: ARAEL（亚拉尔） 名字: 鸟之使徒 介绍: 漂浮于卫星轨道上的发光鸟形/天使形使徒，展开光翼，外形优美。 能力: 从轨道发射精神侵蚀光线，可直接攻击目标的心灵与精神深处，物理攻击极难触及其轨道高度。 </15th_angel_ARAEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-35"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第十使徒-第10使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第十使徒|第10使徒).*?<\\/story_scene>/s",
+      "summary": "<10th_angel_SAHAQUIEL> 第10使徒: SAHAQUIEL（萨哈奎尔） 名字: 空之使徒 介绍: 超巨大的使徒，漂浮在地球轨道上，外形扁平如巨大眼球/水母，色彩斑斓。 能力: 从轨道上以自身或身体碎片进行轰炸式坠落攻击，可精准修正弹道瞄准目标。 </10th_angel_SAHAQUIEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-30"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第十八使徒-第18使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第十八使徒|第18使徒).*?<\\/story_scene>/s",
+      "summary": "<18th_angel_LILIN> 第18使徒: LILIN（人类） 名字: 人类 介绍: 由第2使徒莉莉斯所衍生的生命群体，即人类全体，在使徒分类体系中被编为第18使徒。 能力: 拥有AT力场（以个体心灵之壁的形式存在），文明与科技发展能力。 </18th_angel_LILIN>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-38"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第十六使徒-第16使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第十六使徒|第16使徒).*?<\\/story_scene>/s",
+      "summary": "<16th_angel_ARMISAEL> 第16使徒: ARMISAEL（亚米沙尔） 名字: 子宫之使徒 介绍: 外形为一个巨大的透明光环/DNA双螺旋结构，漂浮闪烁。 能力: 可与EVA进行物理融合与侵蚀，试图与目标合为一体并读取其内心。 </16th_angel_ARMISAEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-36"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第十四使徒-第14使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第十四使徒|第14使徒).*?<\\/story_scene>/s",
+      "summary": "<14th_angel_ZERUEL> 第14使徒: ZERUEL（薛路尔） 名字: 力之使徒 介绍: 上半身宽大厚重如折叠纸片，下半身较小，面部有骷髅般的图案，被认为是最强的使徒之一。 能力: 压倒性的AT力场强度、纸片状手臂展开后可作为锋利的切割武器、光线攻击威力极大，战力不落于EVA初号机之下。 </14th_angel_ZERUEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-34"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "story_scene-.-第四使徒-第4使徒-.-story_scene-s",
+      "name": "/<story_scene>.*?(第四使徒|第4使徒).*?<\\/story_scene>/s",
+      "summary": "<4th_angel_SHAMSHEL> 第4使徒: SHAMSHEL（夏姆榭尔） 名字: 昼之使徒 介绍: 外形类似巨大昆虫/水母，身体细长呈流线型，拥有发光的触手状鞭。 能力: 两条高能量光鞭，具有强大切割力，可轻松切割建筑物。 </4th_angel_SHAMSHEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-24"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "物价参考",
+      "name": "物价参考",
+      "summary": "<money_rules> 货币:日元(円) 物价锚定:1995年日本 原则:交易非免费;食宿装备服务均需円结算;无钱免谈 ## 物价参考 外食: - 便利店便当:400-500円/个 - 拉面:500-800円/碗 - 定食:700-1000円/份 食材: - 参照1995年日本超市物价 服装: - 普通服装:3000-10000円/件 - 高档服装:15000-30000円/件 烟酒: - 香烟:200-300円/包 - 罐装啤酒:200-350円/罐 - 清酒:1000-2000円/瓶 EVA: - 维修费用:数亿~数百亿円/次 - 制造费用:数千亿~兆円级/台 - 费用由NERV承担,驾驶员无需自费 ## 薪酬参考 - 参照1995年日本同等职级的公务员/自卫队薪酬体系;驾驶员为未成年人,以监护人代领的特殊津贴形式发放 </money_rules>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-17"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    }
+  ],
+  "factions": [
+    {
+      "id": "status-s-S-当前位置-^-n-第三新东京市·第壱中学校-s-S-status-s",
+      "name": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(第三新东京市·第壱中学校)[\\s\\S]*?<\\/status>/s",
+      "summary": "<地点:第三新东京市·第壱中学校> 介绍：碇真嗣等EVA驾驶员就读的公立中学。教室内配备了标准的课桌椅和电子黑板，窗户可以望见远处的芦之湖和箱根群山。由于第二次冲击后出生率骤降，学校的学生人数远少于设计容量，许多教室处于空置状态。校舍建筑风格朴素，走廊里回荡着空旷的脚步声。屋顶是学生们午休时常去的地方，可以俯瞰整个第三新东京市。 </地点:第三新东京市·第壱中学校>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-65"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    }
+  ],
+  "rules": [
+    {
+      "id": "EVA零号机",
+      "name": "EVA零号机",
+      "summary": "# Evangelion单位设定 (来源: 新世纪福音战士 TV版) eva_units: - unit_name: EVA零号机 pilot: 绫波丽 core_soul: \"TV版未明确，强烈暗示与初代绫波丽有关，或含赤木直子部分人格数据。早期暴走对源堂有反应。\" color_scheme: \"[原型: 橙黄主色，白灰细节] | [改修型: 蓝色主色，白灰少量橙色细节]\" head_design: \"[原型: 巨大单眼] | [改修型: 接近其他EVA，保留单眼(或传感器)]\" type_role: \"原型机。首台成功启动，测试基础功能，早期稳定性差。\" power_source: \"外部脐带电缆为主，内置电池(1-5分钟)。\" key_features_abilities: \"产生中和AT力场 | 操作不稳定，两次严重暴走 | 唯一用朗基努斯之枪投掷对抗使徒(Arael) | 为保护真嗣自爆(对抗Armisael)。\" origin_development: \"NERV(或GEHIRN)首台功能性EVA。推测素体源自亚当复制。\" armament: \"标准EVA武器(高振动粒子刀, 步枪等)。曾用特制耐热盾牌(对抗Ra",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-10"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "world-system-or-guideline-indexed"
+    },
+    {
+      "id": "人物关系网-来源-新世纪福音战士-TV版",
+      "name": "人物关系网 (来源: 新世纪福音战士 TV版)",
+      "summary": "# 人物关系网 (来源: 新世纪福音战士 TV版) relationships: - character: 碇真嗣 relations: - target: 碇源堂 description: \"父子。疏远冷漠。真嗣渴望认可，源堂视其为棋子。恐惧与服从。\" - target: 绫波丽 description: \"同为驾驶员。从困惑到关心保护欲。在她身上看到相似孤独，关系微妙独特。\" - target: 惣流・明日香・兰格雷 description: \"同为驾驶员，同住者。竞争、冲突、误解。青春期吸引与互相伤害并存。\" - target: 葛城美里 description: \"监护人与上司。复杂关系，混合母性、姐姐、指挥官、暧昧诱惑。依赖与压力。\" - target: 渚薰 description: \"第五适格者。短时间建立深厚信任亲近。第一个理解接纳他的人。最终面临抉择与背叛。\" - target: 铃原东治 description: \"同学与朋友。从敌对到真挚友情。东治的遭遇带来巨大创伤。\" - target: 相田剑介 description: \"同学与朋友。温和军事迷，提供轻松同伴关系。\" - target: 洞木光 d",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-8"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "world-system-or-guideline-indexed"
+    },
+    {
+      "id": "使徒",
+      "name": "使徒",
+      "summary": "# 新世纪福音战士世界核心规则与概念 major_threat: name: 使徒 origin: \"根据《死海文书》预言出现的不明巨大生命体。除渚薰（第十七使徒，人类形态）外，其余（第三至第十六）均被认为是‘亚当’的后裔。\" form_ability: \"形态各异（从几何体到类人型），拥有强大的‘AT力场’（绝对领域/心之壁），具备再生能力，部分拥有特殊攻击手段（如粒子炮、精神攻击、生物侵蚀等）。部分后期使徒拥有‘S²机关’，提供近乎无限的能量。\" goal: \"突破NERV防御，抵达位于Central Dogma的‘最终教条区’，接触被认为是‘亚当’（实为‘莉莉丝’）的白色巨人，意图引发‘第三次冲击’，重置地球生命（或取代人类）。\" key_concepts: - name: AT力场 definition: \"绝对领域，或称心之壁。是使徒和EVA都能产生的强大防御屏障，也是维持个体形态、隔绝他人心灵的壁垒。\" function: \"物理防御，隔绝攻击。同时也是‘人类补完计划’需要打破的关键障碍。\" - name: LCL form: \"注入EVA插入栓内的橙色粘稠液体，有血腥味。\" function: \"维持驾驶员生命",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-1"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "world-system-or-guideline-indexed"
+    },
+    {
+      "id": "新世纪福音战士TV版-世界观框架",
+      "name": "新世纪福音战士TV版 - 世界观框架",
+      "summary": "world_name: 新世纪福音战士TV版 - 世界观框架 theme_tags: 末世 | 机甲 | 心理 | 阴谋 | 宗教象征 | 生物朋克 tone: 压抑 | 忧郁 | 焦虑 | 紧张 | 存在主义恐惧 | 末世悲凉 narrative_core: statement: \"在‘第二次冲击’引发的末日危机下，人类在秘密组织SEELE的操纵和NERV的执行下，利用名为Evangelion的生物兵器对抗神秘的‘使徒’入侵，但这表象之下，隐藏着旨在终结个体隔阂、实现人类强制融合的‘人类补完计划’。\" explanation: \"概括了世界的基本状态（末日后）、主要冲突（对使徒）、关键行动者（NERV/SEELE）、核心技术（EVA）以及隐藏的终极目标（人类补完计划），点明了表象与真相的双重结构。\" second_impact: name: 第二次冲击 date: 公元2000年9月13日 public_cause: 大质量陨石撞击南极 real_cause: \"人类在南极对第一使徒‘亚当’进行的接触实验导致亚当苏醒、暴走并自爆（或被朗基努斯之枪抑制过程中引发）。\" major_effects: - 全球性海平面上升，淹没",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-0"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "world-system-or-guideline-indexed"
+    },
+    {
+      "id": "核心规则-结尾",
+      "name": "【核心规则:结尾】",
+      "summary": "【核心规则:结尾】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-18"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "核心规则-起始",
+      "name": "【核心规则:起始】",
+      "summary": "【核心规则:起始】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-15"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "核心设定-结尾",
+      "name": "【核心设定:结尾】",
+      "summary": "【核心设定:结尾】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-39"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "核心设定-起始",
+      "name": "【核心设定:起始】",
+      "summary": "【核心设定:起始】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-19"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "碇真嗣",
+      "name": "碇真嗣",
+      "summary": "# 主要人物设定 (来源: 新世纪福音战士 TV版) characters: - name: 碇真嗣 identity: 第三适格者, EVA初号机驾驶员 age: 14岁 (故事开始时) appearance: \"黑色短发（略显凌乱），蓝色眼瞳。五官清秀但常带有忧郁或困惑的神情。\" physique: \"中等身高，身材偏瘦，体格普通少年水平。\" personality: \"内向、被动、敏感、不擅交流。害怕受伤和被讨厌，渴望父亲认可。有逃避倾向，关键时被动行动。内心温柔善良。\" attire: \"中学校服（白衬衫蓝裤子），蓝色插入栓服，简单便服，常戴SDAT随身听。\" - name: 绫波丽 identity: 第一适格者, EVA零号机驾驶员 age: 14岁 (生理年龄，克隆体) appearance: \"淡蓝色（近乎白色）短发，齐颈。红色眼瞳。皮肤苍白，表情稀少，非人般的空灵感。\" physique: \"身材纤细、苗条，略显单薄。\" personality: \"极端缺乏情感表现，沉默寡言，“三无少女”。绝对服从碇源堂，缺乏自我意识。与真嗣接触后显露情感变化和对自身存在的疑问。与莉莉丝有深刻联系。\" attire: \"中",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-7"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "world-system-or-guideline-indexed"
+    },
+    {
+      "id": "薛定谔的使徒-悖论协议-命运修正版-规则概述",
+      "name": "薛定谔的使徒 / 悖论协议 (命运修正版) - 规则概述",
+      "summary": "# 辅助设定_二次创作: 薛定谔的使徒 / 悖论协议 (命运修正版) - 规则概述 setting_name: 薛定谔的使徒 / 悖论协议 (命运修正版) - 规则概述 reference_entry: UID 014 (包含详细规则和阶段划分) core_principle: \"重生者（碇真嗣）的任何偏离其原始记忆轨迹的行为，都可能激活‘悖论协议’，为世界引入不确定性。这种不确定性不仅影响事件细节和使徒表现，**更能直接改变角色的关键命运轨迹。**\" key_impacts: - **命运节点的可塑性**: 原作中角色的死亡、重伤、精神崩溃、关系建立或破裂等关键节点不再是固定结局，而是可能因重生者的干预或连锁反应而改变。 - **使徒行为的不可预测性增强**: 使徒可能展现出记忆中没有的能力、弱点或行为模式，甚至改变攻击目标或出现时机。 - **组织计划的动态调整**: NERV和SEELE可能会根据实时战况和驾驶员表现调整策略，使得依赖记忆的行动变得不可靠。 - **因果涟漪与潜在代价**: 改变可能带来意想不到的负面后果，甚至可能比原轨迹更糟。拯救一个人可能危及另一个人，避免一场灾难可能催生另一场危机。改变并非没有代价",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-14"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "world-system-or-guideline-indexed"
+    },
+    {
+      "id": "角色关系",
+      "name": "角色关系",
+      "summary": "sexual_relationship_dynamics: comment: 以下设定描述了主要女性角色与碇真嗣之间，在不同关系阶段可能展现的情色互动模式与心理动态。强调心理、感官细节与关系演变，情感表现控制在相对正常但仍受环境影响的范围内，减少极端化和绝望要素。 vs_Ayana_miRei: - stage: 阶段一：懵懂与接触初期 (关系疏离、好奇萌发) description: 此阶段，绫波丽对性几乎没有概念，视其为未知信息。真嗣的无意触碰或接近，可能让她产生生理上的细微反应（如体温、心跳的微变），她会记录这些反应但难以解读其含义，多半以平静或略带探究的眼神回应。她的身体如同等待写入程序的界面，对外界刺激的反应直接而不加掩饰。情色互动几乎不存在，更多的是真嗣单方面的试探性观察或因好奇引发的、非情欲性质的肢体靠近。她可能因命令或模仿而允许一定程度的接近，但缺乏主动性和情感理解。 keywords: [无垢, 观察, 被动接受, 生理反应, 情感空白, 探究] potential_scenes: [真嗣不小心触碰到她的手或肌肤，感受到不同寻常的温度或质感, 在插入栓内狭小空间中，无意识的身体靠近引发她细微的姿态调整, 真",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-11"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "world-system-or-guideline-indexed"
+    }
+  ],
+  "locations": [
+    {
+      "id": "status-s-S-当前位置-^-n-NERV本部·Terminal-Dogma-s-S-status-s",
+      "name": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(NERV本部·Terminal Dogma)[\\s\\S]*?<\\/status>/s",
+      "summary": "<地点:第三新东京市·NERV本部·Terminal Dogma> 介绍：NERV本部最深层的绝密区域，需要最高权限才能进入。漫长的通道尽头是一片广阔的地下空间，红色的LCL之海铺满地面，空气中弥漫着浓重的铁锈味。这里隐藏着NERV与SEELE最核心的秘密。通往此处的通道设有多重生物识别锁与物理隔离门，普通职员甚至不知道这个区域的存在。 </地点:第三新东京市·NERV本部·Terminal Dogma>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-67"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "status-s-S-当前位置-^-n-葛城美里公寓-s-S-status-s",
+      "name": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(葛城美里公寓)[\\s\\S]*?<\\/status>/s",
+      "summary": "<地点:第三新东京市·葛城美里公寓> 介绍：位于第三新东京市住宅区的一间普通公寓。玄关处有一排鞋柜，空间不算宽敞。进门后是客厅兼餐厅，面积不大，一张矮桌摆在中央，旁边是老旧的沙发和小电视。厨房与餐厅相连，开放式设计，灶台和水槽靠墙排列，冰箱立在角落。走廊两侧分布着几间房间——美里的卧室、真嗣的房间、以及一间小隔间归温泉企鹅PenPen使用，PenPen拥有自己专属的小型冰箱。卫生间带浴缸，洗衣机塞在洗手台旁边。阳台朝向住宅区方向，可以晾晒衣物，偶尔能远眺到第三新东京市的城市轮廓。整体是典型的日式紧凑型公寓格局，房间不多但功能齐全。 </地点:第三新东京市·葛城美里公寓>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-64"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "地点-结尾",
+      "name": "【地点:结尾】",
+      "summary": "【地点:结尾】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-70"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "地点-起始",
+      "name": "【地点:起始】",
+      "summary": "【地点:起始】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-62"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "新世纪福音战士简易年表",
+      "name": "新世纪福音战士简易年表",
+      "summary": "# 新世纪福音战士简易年表 timeline: - year: 远古 event: \"第一使徒‘亚当’与第二使徒‘莉莉丝’（携带生命之果与智慧之果）分别降临地球。朗基努斯之枪随亚当而来。\" - year: 20世纪末 - 21世纪初 event: \"SEELE发现《死海文书》里卷，筹备人类补完计划。葛城调查队在南极发现休眠的‘亚当’。\" - year: 2000 event: \"9月13日，南极发生‘第二次冲击’，全球性灾难爆发。\" - year: 2001 event: \"主要EVA驾驶员（碇真嗣、明日香、绫波丽克隆体）出生。\" - year: 2002 event: \"人工进化研究所（GEHIRN）成立，开始EVA研究，碇源堂任所长。\" - year: 2003 event: \"第三新东京市开始建设。\" - year: 2004 event: \"碇唯在EVA初号机启动实验中消失（灵魂融入核心）。\" - year: 2005 event: \"赤木直子完成MAGI基础理论。\" - year: 2008 event: \"明日香母亲在EVA贰号机接触实验中精神失常后自杀。\" - year: 2010 event: \"MAGI系统",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-5"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    }
+  ],
+  "events": []
+}

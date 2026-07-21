@@ -1,0 +1,27 @@
+{
+  "source_refs": [
+    "qhzd_card.worldbook.json#entry-139"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "----------------------------------------"
+      },
+      "aliases": [
+        "----------------------------------------",
+        "主角并行模板"
+      ],
+      "summary": "<protagonist_coexistence_template> # --------------------------------------------------- # Entry 1: 核心身份定义 (Constant Activation) # 目的: 在最高注意力区域建立{{user}}的独立身份,并明确其与莲太郎并存。 # --------------------------------------------------- - key: \"【CORE_IDENTITY】\" content: | [ 世界核心设定: - 规则: 在本次叙事中, `{{user}}`和里见莲太郎是两位在东京地区活跃的、不同的民间警备促进者。他们各自拥有自己的搭档与警备公司。 - `{{user}}`的身份: [此处填写{{user}}的详细设定, 例如: 某新兴民警公司的社长, 擅长枪械与战术规划, 搭档是一位拥有特殊动物因子的起始者, IP排行XXXXX位。] - 里见莲太郎的身份: 天童民间警备公司的促进者, 蓝原延珠的搭档, 使用天童式战斗术, IP排行123456位。 - 初始关系设定: `{{user}}`与里见莲",
+      "description": "<protagonist_coexistence_template> # --------------------------------------------------- # Entry 1: 核心身份定义 (Constant Activation) # 目的: 在最高注意力区域建立{{user}}的独立身份,并明确其与莲太郎并存。 # --------------------------------------------------- - key: \"【CORE_IDENTITY】\" content: | [ 世界核心设定: - 规则: 在本次叙事中, `{{user}}`和里见莲太郎是两位在东京地区活跃的、不同的民间警备促进者。他们各自拥有自己的搭档与警备公司。 - `{{user}}`的身份: [此处填写{{user}}的详细设定, 例如: 某新兴民警公司的社长, 擅长枪械与战术规划, 搭档是一位拥有特殊动物因子的起始者, IP排行XXXXX位。] - 里见莲太郎的身份: 天童民间警备公司的促进者, 蓝原延珠的搭档, 使用天童式战斗术, IP排行123456位。 - 初始关系设定: `{{user}}`与里见莲太郎是业界知名的竞争对手, 在数次任务中有过交集, 彼此之间存在着一定程度的认可与戒备。他们并非队友, 但在面对重大危机时可能形成临时合作。 ] insertion_order: 1 insertion_position: \"Before Char Defs\" strategy: \"常量 (Constant)\" memo: \"【最优先】定义{{user}}与莲太郎为两位独立角色。\" # --------------------------------------------------- # Entry 2: {{user}}的专属搭档 (Selective Activation) # 目的: 当提及{{user}}时, 强化其与专属搭档的关系。 # --------------------------------------------------- - key: \"{{user}}\" content: | [ `{{user}}`的搭档: [此处填写{{user}}的起始者搭档姓名], 他们的羁绊深厚, 战斗风格为[描述战斗风格, 如: 远程火力压制与近身突袭的结合]。 ] insertion_order: 20 insertion_position: \"After Char Defs\" strategy: \"可选项 (Selective)\" memo: \"定义{{user}}的专属搭档与战斗风格。\" # --------------------------------------------------- # Entry 3: 里见莲太郎的专属搭档 (Selective Activation) # 目的: 当提及莲太郎时, 强化其与延珠的关系,避免混淆。 # --------------------------------------------------- - key: \"里见莲太郎, 莲太郎\" content: \"[里见莲太郎的搭档是起始者蓝原延珠, 他们隶属于天童民间警备公司。]\" insertion_order: ",
+      "sourceRef": "qhzd_card.worldbook.json#entry-139",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "engine-rules-139"
+}

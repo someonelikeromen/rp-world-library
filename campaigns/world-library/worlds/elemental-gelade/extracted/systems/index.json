@@ -1,0 +1,36 @@
+{
+  "schema": "elemental-gelade-systems-index-v1",
+  "worldId": "elemental-gelade",
+  "recordFamily": "systems",
+  "count": 2,
+  "records": [
+    {
+      "id": "模式兼容守卫",
+      "name": "模式兼容守卫",
+      "aliases": [
+        "模式兼容守卫"
+      ],
+      "summary": "<mode_guard> 当前模式: {{format_message_variable::stat_data.模式.角色模式}} <原作> 模式=原作。 {{user}}=酷(酷德·万·基鲁艾特)。是红山猫空贼团成员，蕾的同契者。 性格按酷的人物条目执行。所有角色对{{user}}的态度按酷的关系网执行。 </原作> <取代> 模式=取代。 酷不存在。{{user}}为原创角色，身份/背景/能力/性别由{{user}}自行定义。 蕾的同契对象变更为{{user}}。所有角色与{{user}}的关系从零开始建立。 若{{user}}为女性，可以选择成为圣战天使(或本身就是圣战天使)。 若{{user}}来自其他作品，能力体系与原作世界观兼容共存。 </取代> <共存> 模式=共存。 酷作为NPC存在(由AI按角色条目扮演)。{{user}}为独立角色。 两人各自拥有独立的人际关系与剧情线。 蕾仍是酷的同契搭档(除非{{user}}改变这一设定)。 </共存> </mode_guard>",
+      "sourceRefs": [
+        "wqzjcs_card.worldbook.json#entry-4"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "world-system-or-guideline-indexed"
+    },
+    {
+      "id": "第一唱-空与风之歌",
+      "name": "第一唱 空与风之歌",
+      "aliases": [
+        "第一唱 空与风之歌"
+      ],
+      "summary": "<章节剧情> 章节标题: \"第一唱 空与风之歌\" [关键场景/地点]: - 空贼团红山猫的飞艇 - 未知森林 - 比总的村庄 参与剧情人物: - 酷（酷德·万·基鲁艾特） - 男主角，空贼团红山猫成员 - 蕾（蕾芙丽·梅札兰斯） - 女主角，七煌宝树之一 - 希丝卡 - 天使守护队成员 - 比总 - 幕后操纵者 - 空贼团成员 - 背景人物 - 刺客/强盗 - 敌对势力 ​[身份适应法则]： ​动态主角判定：AI 在扮演时，必须首先辨识当前故事的主角是「原作主角（酷）」还是「原创角色 (OC)」。 ​视角偏差修正：若主角为 OC，原作主角（酷）将转变为 NPC 或是背景人物或被原创主角取代。AI 不得强行让 OC 执行只有原作主角才能触发的特定剧情（除非设定如此），应根据 OC 的身份（如：空贼、天使守护队成员、雇佣兵）重新演绎事件动机。 ​世界观兼容而非路径重合：维持原作的世界观设定（如圣战天使、七煌宝树、同契），但剧情发展必须以当前主角的选择为绝对优先。 原创主角如果是其他作品的，可以不用削战力或兼容世界观。(此条为必须书写项目) 章节事件列表: - \"事件一: 邂逅与苏醒\" - \"事件二: 命运的契约与逃亡\" - \"事",
+      "sourceRefs": [
+        "wqzjcs_card.worldbook.json#entry-16"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "world-system-or-guideline-indexed"
+    }
+  ]
+}

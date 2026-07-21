@@ -1,0 +1,31 @@
+{
+  "schema": "taimanin-graph-build-report-v1",
+  "worldId": "taimanin",
+  "status": "completed",
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "validation": {
+    "jsonValid": true,
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "newFactsIntroduced": false,
+    "forbiddenBasenamesGenerated": false
+  },
+  "counts": {
+    "nodes": 10,
+    "edges": 7,
+    "nodeCounts": {
+      "characters": 5,
+      "abilities": 1,
+      "factions": 2,
+      "systems": 1,
+      "knowledge": 1
+    },
+    "edgeCounts": {
+      "derived-text-mention": 7
+    },
+    "derivedMentionEdges": 7
+  },
+  "warnings": [
+    "Derived graph edges are navigation/search signals, not formal relationship facts."
+  ]
+}

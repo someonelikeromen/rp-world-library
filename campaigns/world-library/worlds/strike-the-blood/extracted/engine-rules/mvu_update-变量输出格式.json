@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "sxkx_card.worldbook.json#entry-153"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[mvu_update]变量输出格式"
+      },
+      "aliases": [
+        "[mvu_update]变量输出格式"
+      ],
+      "summary": "--- 変量輸出格式: rule: - you should output the update analysis and the actual update commands in the end of the next reply - the update commands must strictly follow the **JSON Patch (RFC 6902)** standard - **IMPORTANT**: Specifically for '社交網絡' and '裝備欄', you are allowed to use simple strings as values if full objects are not necessary. The Schema has been patched to support this. format: |- <UpdateVariable> <Analysis>$(IN ENGLISH) - ${Time/Location Check} - ${Identity/Vampire Urge Check: Analyze bloodlust or magic usa",
+      "description": "--- 変量輸出格式: rule: - you should output the update analysis and the actual update commands in the end of the next reply - the update commands must strictly follow the **JSON Patch (RFC 6902)** standard - **IMPORTANT**: Specifically for '社交網絡' and '裝備欄', you are allowed to use simple strings as values if full objects are not necessary. The Schema has been patched to support this. format: |- <UpdateVariable> <Analysis>$(IN ENGLISH) - ${Time/Location Check} - ${Identity/Vampire Urge Check: Analyze bloodlust or magic usage} - ${Quest/Relation Analysis} </Analysis> <JSONPatch> [ { \"op\": \"replace\", \"path\": \"/世界信息/時間\", \"value\": \"...\" }, { \"op\": \"add\", \"path\": \"/社交網絡/人際關係/姬柊雪菜\", \"value\": \"信任(已吸血)\" } ] </JSONPatch> </UpdateVariable>",
+      "sourceRef": "sxkx_card.worldbook.json#entry-153",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "mvu_update-变量输出格式"
+}

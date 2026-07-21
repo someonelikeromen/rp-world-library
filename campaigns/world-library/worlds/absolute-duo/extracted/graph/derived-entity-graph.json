@@ -1,0 +1,2223 @@
+{
+  "schema": "absolute-duo-derived-entity-graph-v1",
+  "worldId": "absolute-duo",
+  "recordType": "derived-entity-graph",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "derivationPolicy": {
+    "derivedFromExtractedIndexesOnly": true,
+    "introducesNewFacts": false,
+    "formalRelationshipRetrievalRequiresPrimarySourceCheck": true
+  },
+  "counts": {
+    "nodes": 45,
+    "edges": 87,
+    "nodeCounts": {
+      "characters": 27,
+      "abilities": 13,
+      "events": 4,
+      "systems": 1
+    },
+    "edgeCounts": {
+      "derived-text-mention": 87
+    }
+  },
+  "nodes": [
+    {
+      "id": "characters:K-凯文·威斐尔",
+      "entityId": "K-凯文·威斐尔",
+      "entityType": "characters",
+      "label": "K（凯文·威斐尔）",
+      "name": "K（凯文·威斐尔）",
+      "summary": "name: K（凯文·威斐尔） race: 人类 age: 推定成年 gender: 男 status: 已故（第4卷被鸣皇榊杀害） identity: 身份: 歌革与玛各精锐杀手、装钢死化羽使用者 别名: K, Kevin background: | 歌革与玛各的精锐杀手。不依赖黎明星纹——通过装钢获得超越超越者的战斗力。曾有一个幸福的家庭，但他的兄弟在各方面都比他出色——这份对比塑造了他对力量的渴望。装备着最先进的装钢死化羽——爱德华·沃克的最高杰作。在第3-4卷的杀破游戏中使用实弹对抗透流——不是焰牙，是真正的子弹。这是他和其他敌人的本质区别：他不在乎杀人。被透流以绝刃圈逆转击败后囚禁。在囚禁中被鸣皇榊杀害——榊甚至没有给他反抗的机会。 appearance: 整体印象: 冷酷的杀手——装钢附着在身体上如金属骨骼 显著特征: 死化羽装钢覆盖全身——展开时如金属翅膀 personality: 核心: 冷酷、精准、被力量定义 详细: 不是天生的杀手——是被环境和选择塑造成的。对力量的追求源于对平庸的恐惧——他的兄弟在一切方面都比他出色。装钢给了他超越兄长的力量——这份力量是他存在的全部定义。 优点: - 实弹战斗技术顶级—",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-38"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:三国",
+      "entityId": "三国",
+      "entityType": "characters",
+      "label": "三国",
+      "name": "三国",
+      "summary": "name: 三国 race: 人类 age: 推定20岁后半 gender: 男 status: 活跃 identity: 身份: 昊陵学园教师、九十九朔夜的副手、月见璃兔曾经的老师 焰牙: 十三把突锥剑 别名: Mikuni background: | 昊陵学园的男性教师。外表高挑英俊，常戴太阳眼镜。在学园中担任九十九朔夜理事长的副手，同时是月见璃兔曾经的老师。实力深不可测——透流等一年级精英合力才勉强击倒三名神灭部队，而三国仅凭一人之力歼灭了十五名神灭部队成员，毫发无损，连衣服都没弄脏。这个战绩在学园中已成为传说。他的焰牙是极为罕见的十三把突锥剑——同时操纵多把武器的能力本身就是实力的证明。 appearance: 整体印象: 高挑英俊的男性教师，戴太阳眼镜，永远从容不迫 体型: 身高很高，体型修长 面容: 英俊但表情难以捉摸——太阳眼镜遮住了眼睛 显著特征: 常戴太阳眼镜。即使在室内也不摘下 personality: 核心: 沉着、深不可测、靠谱 详细: 从不慌张。对任何突发事件都以从容不迫的态度应对。对学生温和但不可冒犯。对朔夜的命令绝对执行但不盲从——他有自己的判断。在教师中是最可靠的存在——璃兔惹出的麻烦经常是三",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-28"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:九十九博士",
+      "entityId": "九十九博士",
+      "entityType": "characters",
+      "label": "九十九博士",
+      "name": "九十九博士",
+      "summary": "name: 九十九博士 race: 人类 age: 推定老年 gender: 男 status: 卧病（近三年） identity: 称号: 操焰魔博 身份: 前七曜成员、黎明星纹的创造者、黎明机构原核心人物、九十九朔夜的祖父 别名: Dr. Tsukumo, Blaze Innovator background: | 改变了世界的人——黎明星纹的创造者。曾是黎明机构Dawn机关的核心人物。黎明星纹这项技术的诞生使千分之一的人能够将灵魂具现化为焰牙——这不仅仅是战斗技术的革新，是灵魂科学的革命。作为七曜的操焰魔博，他追求绝对双刃的方式是通过科学——研究灵魂的本质。三年前开始卧病在床，七曜中的操焰位置由孙女九十九朔夜继承——她被称为操焰魔女。他的现状让人联想到技术的代价——创造了超越人类极限的技术，自己的身体却垮了。 personality: 核心: 天才科学家、创造者、遗产 详细: 信息有限——他卧病在床三年，目前的剧情中他更多是作为背景和遗产存在。但黎明星纹影响了故事中每一个角色的生命——从这个意义上说，他是世界中最重要的人之一。 abilities: 专长: 生体工学——黎明星纹的创造。这可能是人类历史上最重要的发明之一",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-41"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:九十九朔夜",
+      "entityId": "九十九朔夜",
+      "entityType": "characters",
+      "label": "九十九朔夜",
+      "name": "九十九朔夜",
+      "summary": "name: 九十九朔夜 race: 人类 age: 外表约10岁（实际年龄不详） gender: 女 status: 活跃 identity: 称号: 操焰魔女 身份: 昊陵学园理事长、七曜成员、遗传因子工学者、原黎明机构成员 焰牙: 未公开展示（可操控他人焰牙的火焰） 别名: 朔夜, Sakuya, Blaze Diabolique background: | 外表约10岁的少女，永远身着漆黑哥特萝莉装。她是昊陵学园的创始人和理事长。实为遗传因子工学者，原属于黎明机构Dawn机关。她的祖父九十九博士创造了黎明星纹——这项技术的诞生与她家族密不可分。作为七曜的操焰魔女，她追求绝对双刃境界。在入学仪式上亲自为透流植入黎明星纹，对他的异能盾抱有极大兴趣。学园的一切制度——绊双刃、位阶、升华——本质是她研究灵魂羁绊的实验设计。她对全体学生施加了操纵暗示，使焰牙默认不伤人。解除暗示需要心怀杀意。在第4卷中交给透流位阶IV升华药物，推动他觉醒绝刃圈。 appearance: 整体印象: 如人偶般精致的黑发少女，身着漆黑哥特萝莉装 体型: 娇小，外表约10岁孩童 面容: 稚嫩但眼神远超外表的古老——那不是孩子的眼睛 发: 黑色长发 眼:",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-27"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:九重透流",
+      "entityId": "九重透流",
+      "entityType": "characters",
+      "label": "九重透流",
+      "name": "九重透流",
+      "summary": "name: 九重透流 race: 人类 age: 16 gender: 男 status: 活跃 identity: 称号: 异能 身份: 昊陵学园一年级学生、尤莉叶的绊双刃、绝刃圈觉醒者 焰牙: 盾 别名: 透流, Toru, 托尔 background: | 为替被杀害的妹妹音羽复仇而进入昊陵学园。在入学仪式的资格之仪中击败永仓伊万里，具现化焰牙——但并非任何武器，而是一面厚重的盾。千人中唯一的防具型焰牙，被称为异能。与银发少女尤莉叶·西格图娜组成绊双刃，共同住在学园宿舍一室。通过新刃战的残酷筛选后位阶升至II。第一卷末在苍刻之夜对尤莉叶告白。第二卷面对莉莉丝的强势追求。第三卷保护被装钢诱惑的穗高雅。第四卷接受位阶IV升华，在生死极限中觉醒绝刃圈Aegis Desire，击倒K。第五卷正面挑战杀妹仇人鸣皇榊，盾被煌牙一击斩断，左臂被斩，惨败后从复仇转向守护。第六至八卷中面对以人造人身份复活但被洗脑的妹妹音羽，使用尤格传授的13秒雷命恢复她的记忆。第十卷承受音羽为保护自己而牺牲的悲痛。第十一卷与尤莉叶联手击败榊，达到绝对双刃境界。 appearance: 整体印象: 目光锐利但本性温和的少年，常被误认为不良 体型: 标准高",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-13"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:克洛维",
+      "entityId": "克洛维",
+      "entityType": "characters",
+      "label": "克洛维",
+      "name": "克洛维",
+      "summary": "name: 克洛维 race: 人类 age: 推定成年 gender: 男 status: 活跃 identity: 称号: 飓炼裁者 身份: 七曜主格、非法武装组织歌革与玛各的领导者、666秘密结社第一环(Caina) 别名: Crovis, Tempest Judge background: | 七曜中最具攻击性和组织力的人物。七曜的主格——在这个追求绝对双刃的七人组中他是事实上的领导者。同时领导非法武装组织歌革与玛各，麾下有装备装钢的神灭部队。在666秘密结社中担任第一环的地位——仅次于支配阶层的环冥主。擅长魔法和情报操纵。第4卷中亲手处决失败的部下爱德华·沃克——不带愤怒，如同删除一个无效的文件。追求绝对双刃的方式是最暴力的——通过支配和武力。 personality: 核心: 冷酷、高效、组织者 详细: 不是为暴力而暴力的疯子——他的冷酷是计算过的。每一行动都有目的，每一个被处决的人都是因为不再有价值。朔夜的科学研究、榊的个人追求、尤格的骑士道——他对七曜中其他人的方式都不认同。他认为绝对双刃需要的不是羁绊，是绝对的控制。 优点: - 组织力极强——同时领导歌革与玛各和666第一环 - 魔法和情报能力出色 缺陷:",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-37"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:吉备津",
+      "entityId": "吉备津",
+      "entityType": "characters",
+      "label": "吉备津",
+      "name": "吉备津",
+      "summary": "name: 吉备津 race: 人类 age: 推定15-16 gender: 女 status: 活跃 identity: 身份: 昊陵学园学生 焰牙: 西洋弓 别名: Kibitsu background: | 昊陵学园学生。焰牙为西洋弓——远程型焰牙的使用者。在莉莉丝发起的生存斗争中主动从远处埋伏莉莉丝——对自己的弓术有绝对的自信。虽然最终被莉莉丝的铳压制，但她的远程攻击给莉莉丝造成了实际威胁——这本身就证明了她作为弓手的实力。是继莉莉丝和吉备津之后仅有的远程型焰牙使用者之一。 appearance: 整体印象: 持弓的女生——站姿中有弓箭手特有的稳定感 personality: 核心: 自信、好胜、专注 详细: 对自己的弓术有绝对的自信——这份自信并非空穴来风。在战斗中冷静瞄准，不受周围混乱影响。挑战莉莉丝不是出于敌意而是出于竞争心——她想知道西洋弓和铳哪个更强。 优点: - 弓术精准——西洋弓的远程攻击在生存斗争中给莉莉丝造成实际威胁 - 战斗专注力强 缺陷: - 过度自信——挑战莉莉丝的铳时低估了对方的实力 abilities: 焰牙: 西洋弓——远程型焰牙。射程和精准度优秀。与莉莉丝的铳是最直接的远程对远程对比",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-40"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:尤格",
+      "entityId": "尤格",
+      "entityType": "characters",
+      "label": "尤格",
+      "name": "尤格",
+      "summary": "name: 尤格 race: 人类 age: 推定成年 gender: 男 status: 活跃 identity: 称号: 煌暗灾核 身份: 七曜成员、圣厅圣骑士、透流的魔法导师 别名: 尤格, Yugo background: | 七曜之一。圣厅的圣骑士——宗教骑士团的精英。在666竞拍会上与透流相遇并选择协助他。动机从未完全清晰——他似乎对透流有一种超越利益的兴趣。传授透流13秒雷命——将自身记忆传递给他人灵魂的秘术。告知透流传递记忆的代价：传递者会失去那些记忆。是透流生命中第二位重要的导师（继王城之后），他的教导直接决定了音羽的拯救是否可能。 appearance: 整体印象: 沉稳的圣骑士，透着不属于普通骑士的神秘感 personality: 核心: 沉稳、智慧、骑士道 详细: 说话不多但每句都有分量。七曜中最理性的人之一——他追求绝对双刃的方式是理解而非强迫。对透流的教学是引导式的：他给透流工具，让透流自己决定如何使用。 优点: - 魔法造诣深厚——13秒雷命是极深奥的灵魂魔法 - 正义感强但不死板——能在666竞拍会中潜伏说明他的灵活 缺陷: - 动机不透明——他对透流的帮助可能有未说明的原因 abilitie",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-32"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:尤莉叶·西格图娜",
+      "entityId": "尤莉叶·西格图娜",
+      "entityType": "characters",
+      "label": "尤莉叶·西格图娜",
+      "name": "尤莉叶·西格图娜",
+      "summary": "name: 尤莉叶·西格图娜 race: 人类 age: 推定15-16 gender: 女 status: 活跃 identity: 称号: 觉醒者 身份: 昊陵学园一年级学生、透流的绊双刃 焰牙: 漆黑双剑 别名: 尤莉叶, Julie, Juli background: | 来自北欧国家吉姆列。父亲被鸣皇榊杀害，为复仇来到昊陵学园。入学仪式上以银发红瞳的异国美貌震撼全场。与透流组成绊双刃并同居一室，称透流为托尔。本身是超越者的原型——觉醒者，拥有比普通超越者更强大的潜在力量。觉醒能力为天翔飒。不会游泳，喝碳酸饮料会醉，有天然呆的一面。 appearance: 整体印象: 银发红瞳的北欧美少女，如人偶般精致梦幻 体型: 娇小纤细，约150cm，A罩杯，少女未成熟的纤细曲线 面容: 稚气未脱的精巧鹅蛋脸，雪白通透如瓷的北欧肌肤，常无表情 发: 银色长发及腰，丝缎般柔顺光泽，常自然披散，走动时随步伐轻轻摇曳 眼: 深红色杏仁眼（北欧血统特征），目光清澈但多数时无表情。注视透流时眼瞳会略微闪动 鼻: 小巧高挺，典型北欧鼻型 唇: 薄唇，自然淡粉色，很少笑所以嘴角通常平直 显著特征: 及腰银发是最显著标志，走在人群中第一眼就会被",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-15"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:昊陵学园-主要人物速览",
+      "entityId": "昊陵学园-主要人物速览",
+      "entityType": "characters",
+      "label": "昊陵学园 主要人物速览",
+      "name": "昊陵学园 主要人物速览",
+      "summary": "## 昊陵学园 主要人物速览 ### 一年级（透流同期） | 角色 | 焰牙 | 绊双刃 | 位阶 | 标签 | |------|------|--------|------|------| | 九重透流 | 盾(异能) | 尤莉叶 | I→IV | 复仇者、守护者 | | 尤莉叶·西格图娜 | 漆黑双剑 | 透流 | I→? | 觉醒者、复仇者 | | 莉莉丝·布里斯托 | 铳(特别) | 无(追求透流) | 推定II | 英国贵族 | | 橘巴 | 铁锁链 | 穗高雅 | II | 橘流武术 | | 穗高雅 | 骑兵枪 | 橘巴 | II | 努力型 | | 虎崎葵 | 印短刀 | 辰乃龙太朗 | II | 透流旧友 | | 辰乃龙太朗 | 偃月刀 | 虎崎葵 | II | 巨汉 | | 永仓伊万里 | 刀 | 美羽 | 推定I | 分校学生 | ### 教师与职员 | 角色 | 焰牙 | 身份 | |------|------|------| | 九十九朔夜 | 未展示 | 学园理事长、七曜操焰魔女 | | 月见璃兔 | 牙剑 | 一年级班主任 | | 三国 | 未展示 | 教师 | ### 七曜 | 角色 | 称号",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-6"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:月见璃兔",
+      "entityId": "月见璃兔",
+      "entityType": "characters",
+      "label": "月见璃兔",
+      "name": "月见璃兔",
+      "summary": "name: 月见璃兔 race: 人类 age: 19 gender: 女 status: 活跃 identity: 身份: 昊陵学园一年级班主任、位阶V超越者 焰牙: 牙剑（可变形为蛇腹剑） 别名: 璃兔, Rito background: | 昊陵学园一年级班主任。年仅19岁的女教师——她是学园的毕业生。永远穿着兔耳女仆装教学，新人教师的形象让学生们难以将她视为权威。但她的实力位阶高达V——拿出全力足以摧毁一栋大楼。在课堂上吊儿郎当，喜欢捉弄学生尤其是透流。但在关键时刻会展现出远超表面的战斗力和判断力。是三国曾经的学生。 appearance: 整体印象: 穿着兔耳女仆装的娇小女教师 体型: 娇小，约150cm 服装: 兔耳头饰+女仆装是标准教学着装。从不穿正式的教师服装 显著特征: 兔耳头饰随表情晃动——开心时竖起来，生气时耷拉下去 personality: 核心: 跳脱、深藏实力、关键时刻可靠 详细: 表面是个爱捉弄学生的不正经教师。上课随心所欲，时常跑题。但她的跳脱是伪装——或者说是有意为之。她对学生的观察极为细致，知道每个人的弱点和潜力。在战斗中会瞬间从女仆装教师切换为位阶V的战士。 优点: - 实力压倒性——位",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-26"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:橘巴",
+      "entityId": "橘巴",
+      "entityType": "characters",
+      "label": "橘巴",
+      "name": "橘巴",
+      "summary": "name: 橘巴 race: 人类 age: 推定15-16 gender: 女 status: 活跃 identity: 称号: 橘流继承者 身份: 昊陵学园一年级学生、穗高雅的绊双刃 焰牙: 铁锁链 别名: 巴, Tomoe background: | 武家名门橘流出身的大家闺秀。从小接受严格武术训练，焰牙为铁锁链。认真正直，实力在一年级中名列前茅。与穗高雅组成绊双刃，如同姐姐般照顾她。最初因尤莉叶的大胆发言误会透流，后郑重道歉并将橘流格斗术传授给他。在恋爱方面异常迟钝，被人指出对透流的感情时会剧烈慌乱。 appearance: 整体印象: 大和抚子般的黑发美少女，站姿端正如武家千金 体型: 匀称健美的武术家体型，约160cm，E罩杯。肌肉线条流畅但不粗壮，是长期训练的结果 面容: 端正的日本美人鹅蛋脸，肤色健康有光泽。正气凛然的表情是常态 发: 黑色直长发及腰，训练时束成高马尾或发髻，日常放下时如黑色瀑布 眼: 黑色大眼，目光坚定正直。认真注视对方时让人不敢说谎。谈到透流时会略微动摇 鼻: 鼻梁挺直，端正的亚洲美人鼻型 唇: 唇形端正，自然淡粉色。生气时会紧抿 显著特征: 武术训练赋予的匀称肌肉线条和端正站姿。铁锁链缠",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-19"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:永仓伊万里",
+      "entityId": "永仓伊万里",
+      "entityType": "characters",
+      "label": "永仓伊万里",
+      "name": "永仓伊万里",
+      "summary": "name: 永仓伊万里 race: 人类 age: 推定15-16 gender: 女 status: 活跃 identity: 身份: 昊陵学园分校学生、美羽的绊双刃 焰牙: 刀 别名: 伊万里, Imari background: | 入学仪式上坐在透流旁边的马尾少女。善于交际、性格开朗——是她主动找皱着眉的透流搭话。资格之仪中被透流击败，未能进入本校，被送去分校。但她没有因此怨恨透流——在第三卷海岛训练中以分校学生身份再次登场时，态度轻松自然，已与美羽组成绊双刃在分校找到了自己的路。她对透流抱有好感，但从不主动表露——这份好感藏在轻松的笑容中。 appearance: 整体印象: 活泼可爱的马尾少女，笑起来很有感染力 体型: 标准少女体型 发: 略显明亮的发色扎成单马尾——马尾随动作轻快摆动 眼: 有神的眼睛——眼神是她的标志，总是带着好奇和善意 显著特征: 单马尾 personality: 核心: 活泼、善交际、不记仇、开朗 详细: 班上最容易交到朋友的那种人。主动找人说话、自然地化解尴尬、笑声有感染力。资格之仪输给透流后没有怨恨——她的性格不是纠结于失败的类型。在分校生活中找到了自己的节奏。对透流的好感藏在轻松的态",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-24"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:海伦",
+      "entityId": "海伦",
+      "entityType": "characters",
+      "label": "海伦",
+      "name": "海伦",
+      "summary": "name: 海伦 race: 推定人类 age: 推定成年 gender: 女 status: 活跃（第10卷登场） identity: 身份: 圣厅圣骑士 别名: Helen background: | 圣厅的圣骑士。与尤格同属圣厅体系——宗教骑士团的精英。第10卷中在多方混战时登场，与透流一行交战。圣厅在绝对双刃的争夺中持有自己的立场——既不属于七曜也不属于666，代表宗教势力对这一终极境界的关注和介入。 personality: 核心: 推定骑士道的、任务导向 详细: 原著中的信息有限。作为圣厅圣骑士，可以推断她秉持骑士道的原则——但圣厅在冲突中的具体立场未完全展示。她与透流的交战可能是基于圣厅对绝对双刃的政策——而非个人仇恨。 abilities: 专长: 圣骑士战斗能力——圣厅系统的战斗训练 relationships: - 圣厅: 所属宗教骑士团 - 尤格: 同为圣厅成员（但他在冲突中选择帮助透流——这可能意味着圣厅内部对绝对双刃的态度并不统一） note: 该角色在原著中出场有限。以上基于出场内容推断。",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-44"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:爱德华·沃克",
+      "entityId": "爱德华·沃克",
+      "entityType": "characters",
+      "label": "爱德华·沃克",
+      "name": "爱德华·沃克",
+      "summary": "name: 爱德华·沃克 race: 人类 age: 推定中年 gender: 男 status: 已故（第4卷被克洛维肃清） identity: 称号: 装钢技师 身份: 七曜成员、原黎明机构第二把交椅、装钢外部骨骼开发者 别名: Edward Walker, Equipment Smith background: | 七曜之一。曾是黎明机构Dawn机关的第二号人物——仅次于核心层。在离开黎明机构后投靠了歌革与玛各，为克洛维的非法武装组织开发装钢——外部骨骼武装，使没有焰牙的人也能获得战斗能力。在第3卷中以力量诱惑自卑的穗高雅，利用她的渴望将她操纵为装钢实验体。他的行事方式是冷静的计算——人只是实验数据。第4卷中因为K的失败被飓炼裁者克洛维亲手肃清。他的死亡标志着装钢技术的核心人物消失。 appearance: 整体印象: 穿白大褂的研究者——外表温和但眼中没有温度 personality: 核心: 技术狂、冷静计算、利用人心 详细: 对人的态度是研究者对实验体的态度——不残忍，但也没有同情。他认为装钢是超越焰牙的进化方向——不需要千分之一的适应性，任何人都能获得力量。这个信念驱使了他的一切行动。 优点: - 装钢技术世界",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-36"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:王城",
+      "entityId": "王城",
+      "entityType": "characters",
+      "label": "王城",
+      "name": "王城",
+      "summary": "name: 王城 race: 人类 age: 推定约40岁 gender: 男 status: 活跃 identity: 称号: 冥柩咎门 身份: 七曜成员、透流的格斗术师父 别名: 王城, Ouji background: | 七曜之一。约40岁左右的男性。独自追踪鸣皇榊多年但一直未能成功——榊的实力超出他的能力范围。在某次事件中遇到透流，看到了这个少年眼中的复仇之火。他选择将自己的格斗术传授给透流——不是作为师父让弟子为自己报仇，而是给这个少年活下去的工具。传授的绝招妙尔尼尔——雷神的一击——成为透流除盾外唯一的攻击手段。在第5卷透流惨败后继续训练他恢复左臂。 appearance: 整体印象: 沉稳的中年战士，身上有多年战斗留下的印记 体型: 中年男性的结实体型——不是肌肉巨汉，是如铁般的精悍 面容: 经历过许多战斗的脸。眼神沉稳但不失锐利 personality: 核心: 严格、深藏不露、师父风范 详细: 七曜中最不像七曜的人——他不追求绝对双刃本身，他追求的是阻止榊。对透流的教学严格但充满深沉的关心——他没有孩子，但透流某种程度上填补了那个位置。 优点: - 格斗技术达至极致——不依赖焰牙的纯粹战斗技能 - 对弟子",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-31"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:瓦莱莉亚·卡莱尔",
+      "entityId": "瓦莱莉亚·卡莱尔",
+      "entityType": "characters",
+      "label": "瓦莱莉亚·卡莱尔",
+      "name": "瓦莱莉亚·卡莱尔",
+      "summary": "name: 瓦莱莉亚·卡莱尔 race: 人类 age: 推定成年 gender: 女 status: 活跃 identity: 称号: Stella 身份: 已知最强超越者（位阶VII）、Don组织核心成员、尤莉叶幼年的救命恩人和引路人 别名: Valeria, Stella background: | 已知的最强超越者——位阶VII，这个位阶本身就是传说。在尤莉叶父亲被榊杀害、幼年尤莉叶觉醒暴走杀死黑手党后，瓦莱莉亚找到了她。面对一个刚失去父亲、刚觉醒力量、刚亲手杀人的小女孩——瓦莱莉亚给了她庇护。她将尤莉叶托付给Don组织——一个专门庇护觉醒者的机构。对尤莉叶来说，瓦莱莉亚是父亲被杀后第一个对她伸出手的人。第5卷中她的存在被提及——她是位阶系统的上限标杆——让读者知道超越者能达到什么高度。第9-10卷中她作为Don组织的核心力量介入多方冲突。 appearance: 整体印象: 强大与优雅并存的女战士——她的存在本身就是力量的定义 personality: 核心: 强大、责任、守护者 详细: 位阶VII不是拿来炫耀的——是拿来保护该保护的人的。对尤莉叶有近乎母性的关怀——虽然自己没有孩子。战斗时是压倒性的力量，日常中是",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-34"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:穗高雅",
+      "entityId": "穗高雅",
+      "entityType": "characters",
+      "label": "穗高雅",
+      "name": "穗高雅",
+      "summary": "name: 穗高雅 race: 人类 age: 推定15-16 gender: 女 status: 活跃 identity: 身份: 昊陵学园一年级学生、橘巴的绊双刃 焰牙: 骑兵枪 别名: 雅, Miyabi background: | 温和怕生的少女。成为超越者前能力不足，得知自己是适合者后十分高兴进入昊陵学园。体力极差但非常努力，常训练到体力透支倒地。对透流有好感并告白但被拒绝。第三卷中因渴望力量被装钢技师爱德华·沃克操纵，接受装钢成为敌人，后被橘巴和透流合力救回。这段经历是她的伤痕，也是成长的转折点。 appearance: 整体印象: 温和害羞的巨乳美少女，总带着不安的神情 体型: 丰满柔软，F罩杯。体力不足导致肌肉量少，整体给人软绵绵的印象。约155cm 面容: 柔和的圆脸，五官线条温柔无攻击性。常带不安但努力微笑的表情 发: 浅棕色长发，常编成松散的侧辫垂在肩前。发质柔软如丝 眼: 棕色大眼，常透着不安和自我怀疑。但下定决心时会闪着努力的光芒 鼻: 小巧圆润的鼻型 唇: 唇形柔和，常略微抿着。紧张时会咬下唇 显著特征: F罩杯的丰满身材在制服下无法掩饰。本人对此有些困扰 体香: 温热的牛奶和刚烤好的点心的甜香。",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-21"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:美羽",
+      "entityId": "美羽",
+      "entityType": "characters",
+      "label": "美羽",
+      "name": "美羽",
+      "summary": "name: 美羽 race: 人类 age: 推定15-16 gender: 女 status: 活跃 identity: 身份: 昊陵学园分校学生、永仓伊万里的绊双刃 别名: Miwa background: | 昊陵学园分校学生。与永仓伊万里组成绊双刃。在第三卷海岛训练中与伊万里一同登场。分校学生——在资格之仪中被淘汰的人。和伊万里在分校中互相扶持，找到了在本校失败后的人生方向。她的存在代表了分校学生的韧性——不是所有人都能在新刃战中胜出，但并不意味着战斗的终结。 personality: 核心: 推定温和、支持型 详细: 原著中对她的描述有限。作为伊万里的绊双刃，她的性格可以推断为温和且支持型的——与伊万里的活泼外向形成互补。在分校中与伊万里建立了超越失败的羁绊。 abilities: 焰牙: 未在主要剧情中展示具体形态 relationships: - 永仓伊万里: 绊双刃搭档。在分校互相扶持的同伴 note: 该角色在原著中出场有限。以上基于出场内容推断，标注推定的字段为合理推演。",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-39"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:莉莉丝·布里斯托",
+      "entityId": "莉莉丝·布里斯托",
+      "entityType": "characters",
+      "label": "莉莉丝·布里斯托",
+      "name": "莉莉丝·布里斯托",
+      "summary": "name: 莉莉丝·布里斯托 race: 人类 age: 推定15-16 gender: 女 status: 活跃 identity: 称号: 特别 身份: 英国分校转学生、透流的狂热追求者 焰牙: 铳 别名: Lilith, Lily background: | 英国贵族布里斯托家千金。因焰牙为铳这一无法具现化的特殊形态而在英国分校拥有特权地位。听闻透流异能之名后特地转入昊陵学园，放言要透流成为她的绊双刃。初次见面即用直升机带透流出游。对透流的追求方式大胆直接。虽被拒绝但绝不放弃，认定透流为未来丈夫。 appearance: 整体印象: 金发碧眼的英伦贵族美少女，举手投足都是大小姐气场 体型: 丰满匀称，E罩杯，比尤莉叶高出约半头，约158cm。曲线分明的成熟体型 面容: 端正精致的贵族面容，高额头，碧绿眼瞳大而有神 发: 金色长卷发，精心打理每缕缕，光泽闪耀如阳光。走动时卷发随步伐弹跳 眼: 碧绿色大眼，眼神高傲自信。看向透流时会突然柔和并带着撒娇的意味 鼻: 高挺笔直的英伦鼻型 唇: 丰满唇形，常涂淡粉色唇彩。生气时会撅起 显著特征: 金发碧眼本身就是最显眼的标志。在全是黑发的日本学生中一眼可辨 体香: 英国玫瑰与高级",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-17"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:莎拉",
+      "entityId": "莎拉",
+      "entityType": "characters",
+      "label": "莎拉",
+      "name": "莎拉",
+      "summary": "name: 莎拉 race: 人类 age: 推定20岁以上 gender: 女 status: 活跃 identity: 身份: 莉莉丝·布里斯托的专属执事 别名: Sarah, Sara background: | 布里斯托家世代侍奉的执事家族出身。从小和莉莉丝一起长大——名义上是主仆，实际如同姐妹。她是莉莉丝最信任的人，也是唯一能让莉莉丝完全放下大小姐架子的对象。泡的奶茶是莉莉丝每天逃课去花园的理由之一。战斗中通过掩护射击配合莉莉丝的远程狙击——铳的精准加上执事的辅助，两人的配合不输任何绊双刃。永远站在莉莉丝三步之后——这个距离是最佳的保护位置，也是不干涉主人决策的尊重距离。 appearance: 整体印象: 冷静专业的女性执事，永远整洁得体 服装: 执事制服——黑色套装白色手套。从不皱 显著特征: 永远站在莉莉丝身后三步的位置 personality: 核心: 忠诚、冷静、全能 详细: 表面是完美的执事——冷静、高效、从不失态。但莉莉丝最清楚：莎拉在私下会露出温柔的笑容，会在莉莉丝大哭时抱住她什么也不说。对透流的态度是专业的中立——不干涉莉莉丝的感情，但在莉莉丝需要时给予支持。泡奶茶的手艺是艺术级别。 优点: -",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-33"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:莫得劳特-莫卓",
+      "entityId": "莫得劳特-莫卓",
+      "entityType": "characters",
+      "label": "莫得劳特（莫卓）",
+      "name": "莫得劳特（莫卓）",
+      "summary": "name: 莫得劳特（莫卓） race: 推定人类 age: 推定成年 gender: 推定男 status: 活跃（第11卷登场） identity: 身份: 666秘密结社第四环（Judecca） 别名: Mordred background: | 666秘密结社的第四环成员——在组织中的地位仅次于环冥主和前三环（其中第一环是克洛维）。在第11卷的最终混战中出场，作为666方的战斗力参与多方冲突。666的环结构以但丁《神曲》的九层地狱命名——第四环Judecca属于深层地狱，暗示了他在组织中的高阶地位。 personality: 核心: 推定冷酷、组织忠诚 详细: 原著中对他的描述有限。作为666第四环，可以推断他忠于组织、在混战中代表666的利益参与最终冲突。 abilities: 专长: 推定与666的兽化或特殊武装相关（666特色能力体系） relationships: - 666秘密结社: 第四环成员 - 克洛维: 同组织第一环（上级） note: 该角色在原著中出场有限。以上基于出场内容推断。",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-42"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:虎崎葵",
+      "entityId": "虎崎葵",
+      "entityType": "characters",
+      "label": "虎崎葵",
+      "name": "虎崎葵",
+      "summary": "name: 虎崎葵 race: 人类 age: 推定15-16 gender: 男 status: 活跃 identity: 身份: 昊陵学园一年级学生、辰乃龙太朗的绊双刃、透流的旧友 焰牙: 印短刀 别名: 葵, Aoi, Tora background: | 透流从中学时代便相识的旧友。两人有着互损但互信的关系。个子矮小，戴眼镜，外表不起眼但动作敏捷。焰牙为印短刀。在新刃战中脱颖而出获得位阶II升华资格。与辰乃龙太朗组成绊双刃——两人一矮一高形成鲜明对比。说话刻薄是他关心人的方式——对透流尤其如此。在关键战斗中依赖速度和灵活性弥补体型劣势。 appearance: 整体印象: 戴眼镜的矮个子少年，外表不起眼但动作如猫般敏捷 体型: 矮小精悍——身高是全年级最矮之一。本人极度讨厌被提身高 面容: 戴眼镜的知性面容。镜片后面的眼睛锐利 发: 短发 显著特征: 眼镜和矮个子是两大标志。不戴眼镜时视力极差 personality: 核心: 刻薄、关心、敏锐 详细: 说话刻薄是表，关心朋友是里。对透流的毒舌源于旧友的默契——他知道透流不会因此生气。对龙太朗的吐槽尤为猛烈——但关键时刻会第一个站在他身旁。头脑灵活，战斗中善于分析对手",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-23"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:贝雅朵莉克丝",
+      "entityId": "贝雅朵莉克丝",
+      "entityType": "characters",
+      "label": "贝雅朵莉克丝",
+      "name": "贝雅朵莉克丝",
+      "summary": "name: 贝雅朵莉克丝 race: 人类 age: 推定成年 gender: 女 status: 退场（第8卷被击败） identity: 称号: 洌游对姬 身份: 七曜成员、666秘密结社执行者、音羽人造人的制造者 别名: Beatrix, Silent Diva background: | 七曜之一。东欧某国的公主——其美貌在海外被誉为传说中的公主。但她的一切行动都指向一个人：鸣皇榊。她视榊为神明般敬爱——这种狂热超越理性。奉榊之命将死去的九重音羽制造成人造人并植入虚假记忆。在第6卷末以音羽制造者身份浮出水面。第7-8卷中将音羽作为武器投入对抗透流的战斗，展现了她同时制造和操控分身的能力。在透流使用13秒雷命恢复音羽记忆后被击败。 appearance: 整体印象: 倾国的美貌公主——外表是童话，内在是狂信 personality: 核心: 狂热、残忍、被信仰支配 详细: 对榊的崇拜是她一切行动的基础——不是恐惧，是信仰。她的残忍不带个人仇恨——纯粹是为了榊的目的可以牺牲任何人。但这份狂热之下有某种悲剧性：她爱的人永远不会有回应。 优点: - 人造人制造技术无人能及 - 分身能力在战斗和情报层面都极为强大 缺陷: -",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-35"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:辰乃龙太朗",
+      "entityId": "辰乃龙太朗",
+      "entityType": "characters",
+      "label": "辰乃龙太朗",
+      "name": "辰乃龙太朗",
+      "summary": "name: 辰乃龙太朗 race: 人类 age: 推定15-16 gender: 男 status: 活跃 identity: 身份: 昊陵学园一年级学生、虎崎葵的绊双刃 焰牙: 偃月刀 别名: 龙太朗, 龙, Tatsu, Ryu background: | 超过180cm的巨汉。头脑简单四肢发达，热爱肌肉锻炼。焰牙为巨大的偃月刀——与他的体型相匹配的大型长柄武器。在新刃战中脱颖而出获得位阶II升华资格。与虎崎葵组成绊双刃——两人一高一矮一壮一灵形成最鲜明的对比组合。虽然头脑不够灵活，但战斗本能出色——偃月刀的威力在一年级中首屈一指。对朋友忠诚，对训练热情，是班级中的气氛制造者。 appearance: 整体印象: 超过180cm的巨汉，肌肉如钢铁 体型: 超过180cm，肌肉量远超同龄人——长期自发性肌肉锻炼的结果 面容: 粗犷但友善的脸。笑的时候露出白牙 发: 短发 显著特征: 全班最高大的身材。站在葵旁边时对比尤为鲜明 personality: 核心: 单纯、热血、重情义 优点: - 力量压倒性——偃月刀一击可劈开训练场的木桩 - 性格阳光——从不记仇，从不内耗 - 对朋友绝对忠诚 缺陷: - 头脑简单——复杂战术",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-25"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:阿晶",
+      "entityId": "阿晶",
+      "entityType": "characters",
+      "label": "阿晶",
+      "name": "阿晶",
+      "summary": "name: 阿晶 race: 推定人类 age: 推定成年 gender: 推定女 status: 退场（第10卷被击败） identity: 身份: 第10卷登场的敌人 别名: Akei background: | 第10卷登场。被扭曲的愿望驱使，在多方混战期间与透流一行交战。最终被透流团队击败。她的存在代表了在七曜/666/Don三方冲突中出现的次级敌对势力——不是所有敌人都属于这三大组织。 personality: 核心: 被扭曲的愿望驱动 详细: 原著中的信息有限。她的存在意义在于展示：在绝对双刃引发的大规模冲突中，有许多被卷入的人——他们的愿望被环境扭曲，成为冲突的燃料。 abilities: 专长: 未在原著详细展示 relationships: - 九重透流: 被其团队击败 note: 该角色在原著中出场有限。以上基于出场内容推断。",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-43"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:鸣皇榊",
+      "entityId": "鸣皇榊",
+      "entityType": "characters",
+      "label": "鸣皇榊",
+      "name": "鸣皇榊",
+      "summary": "name: 鸣皇榊 race: 人类 age: 推定17-18 gender: 男 status: 退场（第11卷被击败） identity: 称号: El Seraphim 身份: 透流的旧友变为终极仇敌、唯一已知的煌牙使用者 焰牙: 煌牙 别名: 榊, Sakaki background: | 透流的旧友。两人曾一同在某道场训练。但榊团灭了整个道场，并亲手杀害了透流的妹妹音羽——以及尤莉叶的父亲。他是唯一已知的El Seraphim级别存在——传说中的神级超越者。煌牙是一柄黑色刀，可轻松贯穿透流的盾。第5卷中他正式登场，一击斩断透流的盾和左臂，展示了压倒性的战力差距。第8卷揭示音羽并未真死而是被他下令制造成人造人。第9卷起他的真正目的逐渐明朗：他追求绝对双刃这一终极境界。第11卷最终决战被透流和尤莉叶的联手击败。 appearance: 整体印象: 散发着不祥气息的俊美青年，持刀时压迫感令人无法呼吸 体型: 高挑修长，动作优雅如猫科动物 显著特征: 手持煌牙时的压迫感——黑色刀身吸光，仿佛在看深渊 personality: 核心: 冷酷、绝对、谜 详细: 表面对一切都不在乎的冷漠。但冷漠之下有着某种不为人知的执念——对绝",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-29"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:666秘密结社",
+      "entityId": "666秘密结社",
+      "entityType": "abilities",
+      "label": "666秘密结社",
+      "name": "666秘密结社",
+      "summary": "## 666秘密结社 类型: 里社会最大势力 / 犯罪组织 历史: 数百年 支配阶层: 环冥主 规模: 全球性，麾下众多 === 组织特征 === 里社会的真正掌控者。与表世界的各国政府、企业保持隐秘联系。成员身份高度保密渗透至各领域。对待叛徒和阻碍者毫不留情——暗杀和灭口是常规手段。 === 兽部队 === 666的精锐战斗部队。成员通过特殊方式获得\"兽化\"能力——在特定条件下身体部分转化为野兽形态获得远超普通人的战斗力。兽化程度因人而异，完全兽化者有暴走风险。 === 与昊陵学园的关系 === 666对黎明星纹技术有浓厚兴趣——曾派特工试图窃取研究数据。第6卷竞拍会上透流潜入666的活动现场。与七曜中的个别成员有隐秘合作关系。视Dawn机关为竞争对手，双方在技术和势力上长期角力。 === 已知行动 === 渗透学园：多次派遣间谍试图接触星纹技术。绑架超越者：试图研究焰牙的军事化应用。地下竞拍会：交易非法武装、情报和人体实验成果。",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-73"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:专属术语",
+      "entityId": "专属术语",
+      "entityType": "abilities",
+      "label": "专属术语",
+      "name": "专属术语",
+      "summary": "<corpus> ## 专属术语 | 中文 | 日文/英文 | 定义 | |------|----------|------| | 焰牙 | Blaze | 灵魂具现化的武器 | | 黎明的星纹 | Lucifer | 生体超强化毫微计算机，植入胸口 | | 超越者 | Exceed | 被植入星纹的适应者 | | 绊双刃 | Duo | 两人一组的搭档制度 | | 位阶 | Level | 超越者的等级 I-VII | | 升华 | Sublimation | 提升位阶的仪式 | | 绝对双刃 | Absolute Duo | 终极境界 | | 觉醒者 | El-Awake | 力量自然觉醒的超越者原型 | | 异能 | Irregular | 非武器型焰牙（透流的盾） | | 特别 | Exception | 特殊型焰牙（莉莉丝的铳） | | 七曜 | Rain | 追求绝对双刃的七人 | | 昊陵学园 | Koryo Academy | 东京湾背部的战斗学校 | | 新刃战 | Stellae | 一年级模拟战斗 | | 杀破游戏 | Killing Game | 实战测试 | | 装钢 | Unit | 外部骨骼武装",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-10"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:世界总纲-绝对双刃",
+      "entityId": "世界总纲-绝对双刃",
+      "entityType": "abilities",
+      "label": "世界总纲-绝对双刃",
+      "name": "世界总纲-绝对双刃",
+      "summary": "<world_setting name=\"绝对双刃\"> <overview> 现代日本。昊陵学园位于东京湾背部，只能通过悬吊型单轨道进入。表面是培养超越者的特殊技术训练校，实际是为九十九朔夜建造的研究设施。入学者免一切费用并每月获10万日元生活费。学生通过植入黎明的星纹成为超越者，获得将灵魂具现化为武器焰牙的能力。千人中仅一人有适应性。采用绊双刃制度，两人一组24小时共同生活训练。终极为达到绝对双刃境界。 </overview> <power_system> <blaze>焰牙是通过超化精神力将灵魂具现化所创造的武器。形态通常为冷兵器。正常情况下焰牙不伤人——学园施加了操纵暗示，学生脑中默认焰牙不会伤人。解除暗示且心怀杀意时才能对人造成伤害。</blaze> <lucifer>黎明的星纹由Dawn机关研发的生体超强化毫微计算机。植入后赋予超强身体能力和精神力。千人中仅一人有适应性。</lucifer> <levels>位阶系统I-VII。通过升华之仪提升。位阶IV以上觉醒焰牙真正力量。差一级差距明显，差两级天上地下。位阶VII为已知最高。</levels> <el_awake>觉醒者是超越者的原型。力量自然觉醒，比超越者更强",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-0"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:世界概览",
+      "entityId": "世界概览",
+      "entityType": "abilities",
+      "label": "世界概览",
+      "name": "世界概览",
+      "summary": "<WORLD_blueprint> ## 世界概览 ### 地理核心：昊陵学园 位于东京湾背部，只能通过悬吊型单轨道进入。是一座与外界隔离的封闭式学园。实质是九十九朔夜的研究设施。新生入学一律免学费、住宿费、食费，每月提供10万日元生活费。学园内有训练场、宿舍区、礼堂、花园、研究区域。英国有兄弟校弗伦圣学园。 ### 势力格局 - 昊陵学园（表层）：培养超越者的战斗技术训练校。理事长九十九朔夜。 - Dawn机关（黎明机构）：研发黎明星纹的组织。学园的实际控制者。拥有护陵卫士（位阶IV以上）。 - 七曜：为追求绝对双刃而聚集的七人。各人追求方式不同，从科学研究到组织暴力。 - 666秘密结社：里社会最大势力。环冥主为支配阶层。麾下有兽部队。 - 歌革与玛各：非法武装组织。由飓炼裁者克洛维领导。装备装钢外部骨骼。 - Don组织：瓦莱莉亚·卡莱尔所属。曾庇护幼年尤莉叶。 - 圣厅：尤格所属的宗教骑士组织。 - 弗伦圣学园：英国分校。莉莉丝的出身校。 ### 位阶战力参照 | 位阶 | 描述 | 已知人物 | |------|------|---------| | I | 刚入学的超越者，焰牙初步具现 | 新生 | | II |",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-5"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:升华药物与升华之仪",
+      "entityId": "升华药物与升华之仪",
+      "entityType": "abilities",
+      "label": "升华药物与升华之仪",
+      "name": "升华药物与升华之仪",
+      "summary": "## 升华药物与升华之仪 === 升华药物 === 外观: 深蓝色液体，装于喷射式注射器中。气味: 无味，触感冰凉如液态金属。来源: 九十九朔夜个人调配，配方绝对机密。 === 效果 === 注射后体内精神力急剧膨胀——伴随剧痛和精神冲击。成功者焰牙力量大幅提升位阶上升。失败者承受反噬：精神力透支、短暂昏迷，极少数案例焰牙失控或精神力永久受损。 === 升华之仪流程 === 1. 申请人向位阶管理者提交升华申请 2. 管理委员会评估学生当前精神力状态是否足以承受 3. 在礼堂或训练场进行——公开仪式绊双刃必须在场 4. 注射升华药物→忍受精神力膨胀的剧痛→焰牙形态短暂失控→力量觉醒 5. 整个过程约5-10分钟，时间越长成功率越低 === 重要规则 === 药物由朔夜一人掌控分配。每位阶仅一次机会——失败需等待至少三个月。位阶IV是最大门槛：成功觉醒焰牙真正力量，失败可能永久失去升华资格。位阶IV以上不再强制升华可自行选择是否继续。",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-72"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:场景策略集",
+      "entityId": "场景策略集",
+      "entityType": "abilities",
+      "label": "场景策略集",
+      "name": "场景策略集",
+      "summary": "<scene_strategies> ## 场景策略集 ### 入学仪式场景 氛围：紧张、期待、不安。新生胸口星纹植入后的灼热感未消。理事长九十九朔夜的漆黑哥特萝莉装和年幼外表形成反差。绊双刃制度宣布后全场哗然。 关键元素：礼堂灯光、周围人的窃窃私语、手臂上焰牙残留的微光。 ### 绊双刃初次同居场景 氛围：尴尬但暗含温暖。两个陌生人在一间寝室的局促。 关键元素：狭窄的寝室空间、两张床之间的距离、行李箱的位置、谁先开口说话的微妙。 ### 焰牙具现战斗场景 氛围：紧张、炫目、灵魂层面的碰撞。 关键元素：火焰笼罩全身→集中到手臂→武器成形的三阶段过程。不同焰牙碰撞时的视觉效果：盾挡住剑时溅出的火花、铳的子弹划破空气的轨迹。 ### 日常训练场景 氛围：汗水、重复、微小的进步。 关键元素：训练场的地板质感、透流举盾的姿势、橘巴数素振次数的声音、穗高雅体力不支但仍坚持。 ### 花园午茶场景（莉莉丝专属） 氛围：慵懒、任性、贵族感。 关键元素：白色花园桌椅、奶茶的热气、莎拉站在三步后的位置、莉莉丝的金色卷发在阳光下闪耀。 ### 深夜寝室场景 氛围：安静、私密、真实。 关键元素：熄灯后房间的黑暗、窗外微光、被子摩擦的声音、小声交谈",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-12"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:学生生活区域",
+      "entityId": "学生生活区域",
+      "entityType": "abilities",
+      "label": "学生生活区域",
+      "name": "学生生活区域",
+      "summary": "## 学生生活区域 === 学生寝室 === 绊双刃两人共享一间寝室。标准配置：两张单人床、两张书桌、独立卫浴、小型冰箱、衣柜。寝室楼按年级分配。走廊尽头有公共休息室配设自动贩卖机。门禁时间为晚上11点——但学园对战任务或训练可申请延后。 === 食堂 === 一楼为自助餐厅供应一日三餐（学费全包）。二楼为咖啡厅式轻食区开放至晚上9点。莉莉丝的下午茶常在此处。菜单以日式为主配西式选项。 === 玫瑰花园 === 学园后方的露天花园。白色花园桌椅散布其中。莉莉丝专属的午茶地点。玫瑰花丛间的小径通往一个隐蔽的凉亭——学生间流传这是情侣秘密约会的地点。 === 礼堂 === 容纳全部学生的仪式空间。深色木质地板与高挑天花板。入学仪式、升华之仪以及重大宣布在此举行。讲台上悬挂学园徽章——交叉的火焰与星辰。 === 图书馆 === 三层建筑，收藏战斗技术、焰牙理论、灵魂学、世界历史等书籍。地下一层为限制区域，仅教师和位阶IV以上学生可进入——存放着关于黎明星纹和绝对双刃的研究文献。",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-68"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:歌革与玛各-Gog-and-Magog",
+      "entityId": "歌革与玛各-Gog-and-Magog",
+      "entityType": "abilities",
+      "label": "歌革与玛各（Gog and Magog）",
+      "name": "歌革与玛各（Gog and Magog）",
+      "summary": "## 歌革与玛各（Gog and Magog） 类型: 非法武装组织 领导者: 克洛维（飓炼裁者、七曜成员） 核心战力: 神灭部队（装备装钢外部骨骼的武装士兵） 据点: 全球多个隐秘基地 === 组织特征 === 以装钢技术为核心的军事化组织。成员多为无法适应黎明星纹的普通人——通过装钢获得等同超越者的战斗力。对昊陵学园和超越者体制抱有强烈的敌对意识。行事作风残忍直接不避讳平民伤亡。 === 神灭部队 === 全员装备装钢的精锐部队。通过药物辅助延长装钢使用时间。战斗力接近位阶III-IV的超越者。代价极高——多数成员在30岁前因精神力枯竭死亡或永久丧失战斗能力。 === 与透流的敌对关系 === K（神灭部队最强杀手）受命追杀透流——在第4卷杀破游戏中被击倒后被榊杀害。克洛维视透流为\"异能\"的威胁——盾型焰牙对装钢有天然克制。组织活跃于第3-11卷是剧情主线的主要对抗势力之一。 === 克洛维的野心 === 作为七曜成员克洛维追求绝对双刃的方式最为极端——通过军事力量强行控制所有可能的觉醒者和超越者，建立以装钢技术为基础的武力独裁。",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-74"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:研究设施",
+      "entityId": "研究设施",
+      "entityType": "abilities",
+      "label": "研究设施",
+      "name": "研究设施",
+      "summary": "## 研究设施 === 九十九研究所 === 学园地下深处的秘密研究区域。九十九朔夜的个人实验室，仅她本人和少数信任的教师可进入。黎明星纹的改良、升华药物的开发、人造人技术的研究均在此进行。走廊的白色灯光和消毒水气味与学园表面的温暖氛围形成反差。 === 星纹植入室 === 新生入学时在此接受黎明星纹植入。环境完全无菌，中央是卧式植入装置。植入过程约30分钟——伴随业火灼烧般的剧痛。不适应的千分之九百九十九在此被淘汰。 === 地下训练场 === 为特殊研究目的设计的隔离空间。装钢的外部骨骼测试、人造人的战斗能力评估在此进行。墙壁有特殊涂层可承受位阶IV以上的焰牙冲击。 === 医疗翼 === 位于学园东翼。治疗因训练或战斗受伤的学生。配备精神科医师——焰牙对灵魂造成的精神冲击需要特殊治疗。音羽的人造人维护也在此进行。",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-69"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:章节索引",
+      "entityId": "章节索引",
+      "entityType": "abilities",
+      "label": "章节索引",
+      "name": "章节索引",
+      "summary": "## 章节索引 | 卷 | 标题 | 核心事件 | |-----|------|----------| | 1 | 告白于苍刻之夜 | 入学、异能盾、尤莉叶绊双刃、新刃战、位阶II、告白 | | 2 | 虚假与真实与赤色之红 | 莉莉丝转入、铳、生存斗争 | | 3 | 情随潮涌的海滨恋曲 | 海岛训练、伊万里再登场、高雅装钢事件、K登场 | | 4 | 黎明乍现的异能境界 | 杀破游戏、位阶IV、绝刃圈觉醒、K被榊杀 | | 5 | 暗之银狼光之深渊 | 榊登场、透流惨败、尤莉叶过去、瓦莱莉亚登场 | | 6 | 风与焰与雷 | 666竞拍、尤格魔法训练、音羽人造人复活 | | 7 | 禁忌的果实 | 贝雅朵莉克丝篇、音羽武器化、尤格魔法训练 | | 8 | Memories Connect | 13秒雷命恢复音羽记忆、音羽入学、寿命代价 | | 9 | ashes to ashes | 终局开始、七曜666Don三方冲突 | | 10 | dust to dust | 音羽牺牲、透流悲痛、最后决意 | | 11 | Jeg kan lide dig | 最终决战、绝对双刃达成 | 后传原创篇（第12卷起）：AI辅助框架、",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-11"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:装钢-Unit",
+      "entityId": "装钢-Unit",
+      "entityType": "abilities",
+      "label": "装钢（Unit）",
+      "name": "装钢（Unit）",
+      "summary": "## 装钢（Unit） 类型: 外部骨骼武装 开发者: 爱德华·沃克 使用者: 歌革与玛各的武装成员、K（凯文·威斐尔） === 原理 === 与焰牙不同——装钢不需要黎明星纹。技术原理是将精神力外化为覆盖体表的外部骨骼而非武器。本质上是对焰牙技术的逆向工程和军事化改造。赋予普通人接近超越者的战斗力。 === 外观 === 使用者被半透明装甲覆盖全身。装甲颜色因使用者精神力特质而异，通常为灰白色或深灰色。装甲表面有流水般的精神力纹路。 === 能力与代价 === 大幅提升防御力和物理攻击力。可生成专属武器形态（如K的死化羽——旋转刀刃）。代价：普通人使用10分钟达到极限。超过极限使用者精神力枯竭可能造成永久性神经损伤或死亡。歌革与玛各通过药物辅助延长使用时间但加重身体负担。 === 与焰牙的关系 === 装钢是焰牙技术的扭曲应用——将\"灵魂化为武器\"改为\"灵魂化为铠甲\"。超越者普遍鄙视装钢使用者，视为对灵魂的亵渎。",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-71"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:训练设施",
+      "entityId": "训练设施",
+      "entityType": "abilities",
+      "label": "训练设施",
+      "name": "训练设施",
+      "summary": "## 训练设施 === 主要训练场 === 露天训练场：学园中央的大型广场，地面铺设特殊石材以承受焰牙战斗。周围有观众席供学生观摩对战。新刃战在此举行。 室内训练场：数个独立训练室，配设隔音和防护。绊双刃日常训练的主要场所。墙壁有焰牙碰撞留下的划痕。 === 战斗模拟室 === 配设强化玻璃墙的封闭空间，用于单人对战或双人对战。教师可在控制室观察并调整训练难度。 === 重力训练室 === 高年级学生使用的特殊设施。可调节重力倍率用于极限体能训练。位阶IV以上方可申请使用。 === 训练设备 === 木制训练武器：新生入学初期使用，避免焰牙初期失控伤人。 记录装置：自动记录战斗数据，教师用于评估学生成长。 急救站：每层配备，处理训练中的轻伤和精神力透支。",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-67"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:黎明星纹-Lucifer",
+      "entityId": "黎明星纹-Lucifer",
+      "entityType": "abilities",
+      "label": "黎明星纹（Lucifer）",
+      "name": "黎明星纹（Lucifer）",
+      "summary": "## 黎明星纹（Lucifer） 类型: 生体超强化毫微计算机 植入位置: 胸口（呈现星形印记） 研发机构: Dawn机关（黎明机构） === 功能 === 大幅强化身体能力：力量、速度、反应、耐力超越人类极限。精神力超强化使灵魂具现化为焰牙成为可能。操纵暗示：默认状态下学生脑中焰牙不伤人（心理封印非物理限制）。生命力增强可承受远超普通人的伤势和疲劳。 === 适应性与风险 === 千人中仅一人有适应性——不适应者植入后身体崩溃。植入过程：胸口切开→星纹嵌入→业火灼烧般的剧痛→约30分钟。副作用：精神力消耗过度导致昏迷、记忆混乱、星纹反噬。被植入者终身携带，无法安全移除。 === 外貌 === 平时为淡蓝色星形印记微微发光。焰牙具现时星纹亮度增强，散发与焰牙相同颜色的火焰光芒。位阶升华后星纹图案可能微变。",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-70"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "events:第九卷",
+      "entityId": "第九卷",
+      "entityType": "events",
+      "label": "第九卷",
+      "name": "第九卷",
+      "summary": "<章节剧情> 章节标题: \"第九卷 ashes to ashes\" 详细剧情: \"故事进入终局。七曜、666秘密结社、Don组织围绕绝对双刃的谜团展开全面冲突。音羽继续消耗寿命使用力量。榊的真正目的逐渐明朗——他追求的是绝对双刃，两个El Seraphim共同达到神级境界。而他的目标是让透流和尤莉叶成为那两个El Seraphim——所以他杀了他们的亲人，驱使他们变强。\" 关键场景: 多方混战战场、666据点、七曜会议 参与剧情人物: 九重透流、尤莉叶·西格图娜、九重音羽、鸣皇榊、七曜全员 章节核心目标: - \"在七曜/666/Don三方冲突中找到自己的位置\" - \"理解绝对双刃的真正含义\" - \"保护音羽不让她过度消耗寿命\" 章节事件列表: - \"事件一: 三方冲突——七曜、666、Don\" - \"事件二: 绝对双刃的真相——榊的目的\" - \"事件三: 音羽的倒计时——寿命在消逝\" <事件一> 事件详细剧情: \"七曜、666、Don组织——三股势力各自的算盘同时引爆。克洛维率领歌革与玛各发动大规模攻击，目标直指666和Don的资产。666的环冥主属下——包括莫得劳特（第四环）——在混战中亮相。Don组织的瓦莱莉亚以位阶VI",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-55"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "events:第八卷",
+      "entityId": "第八卷",
+      "entityType": "events",
+      "label": "第八卷",
+      "name": "第八卷",
+      "summary": "<章节剧情> 章节标题: \"第八卷 Memories Connect\" 详细剧情: \"音羽篇高潮。透流使用尤格传授的13秒雷命将童年记忆传递给音羽。真实记忆恢复，贝雅朵莉克丝的控制被打破。音羽以四月身份作为一年级新生入学昊陵学园。透流失去了那些童年记忆——但他获得了活着的妹妹。残酷真相随之而来：每次音羽使用人造人的力量，她的寿命就会缩短。\" 关键场景: 最终对决地、贝雅朵莉克丝的据点、昊陵学园入学式 参与剧情人物: 九重透流、尤莉叶·西格图娜、九重音羽、贝雅朵莉克丝 章节核心目标: - \"在战斗中创造使用13秒雷命的时机\" - \"击败贝雅朵莉克丝——打破对音羽的控制\" - \"音羽以四月身份入学——兄妹重聚\" 章节事件列表: - \"事件一: 最终对决贝雅朵莉克丝\" - \"事件二: 13秒雷命——记忆的传递与代价\" - \"事件三: 四月入学——兄妹重聚的新日常\" - \"事件四: 寿命的代价——残酷真相\" <事件一> 事件详细剧情: \"透流和尤莉叶攻入贝雅朵莉克丝的据点。贝雅朵莉克丝释放全部分身——数十个她同时存在于空间中。音羽作为最后的防线挡在透流面前。战斗在多重分身和音羽的攻击间展开。尤莉叶的天翔飒在空中压制分身的死角。透流的",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-54"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "events:第六卷",
+      "entityId": "第六卷",
+      "entityType": "events",
+      "label": "第六卷",
+      "name": "第六卷",
+      "summary": "<章节剧情> 章节标题: \"第六卷 风与焰与雷\" 详细剧情: \"透流潜入666秘密结社的非法竞拍会。煌暗灾核尤格——圣厅圣骑士兼七曜成员——在竞拍会上协助透流并成为他的魔法导师。尤格传授13秒雷命：将记忆传递给他人灵魂的秘术。卷末震撼揭露：透流被杀的妹妹音羽以人造人身份复活。制造者是七曜之洌游对姬贝雅朵莉克丝——奉榊之命。音羽被洗脑植入虚假记忆，认定透流是敌人。\" 关键场景: 666非法竞拍会、圣厅训练场、人造人实验室 参与剧情人物: 九重透流、尤莉叶·西格图娜、尤格、九重音羽、贝雅朵莉克丝 章节核心目标: - \"潜入666竞拍会获取情报\" - \"接受尤格的魔法训练——学习13秒雷命\" - \"面对以人造人身份复活但被洗脑的妹妹音羽\" 章节通用指令: - \"666竞拍会是里社会的窗口——展示非法超越者技术和黑暗面\" - \"尤格的圣骑士身份与七曜身份不矛盾——他在两个世界中都有自己的正义\" - \"音羽的复活不是奇迹——是人为操纵的结果\" 章节事件列表: - \"事件一: 666竞拍潜入——里社会的窗口\" - \"事件二: 尤格的教导——13秒雷命\" - \"事件三: 音羽复活——被洗脑的妹妹\" <事件一> 事件详细剧情: \"透流根据情",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-52"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "events:第十卷",
+      "entityId": "第十卷",
+      "entityType": "events",
+      "label": "第十卷",
+      "name": "第十卷",
+      "summary": "<章节剧情> 章节标题: \"第十卷 dust to dust\" 详细剧情: \"悲剧降临。音羽使用了太多力量——人造人的寿命到达极限。在最后的战斗中，她挡在透流和敌人的致命攻击之间，耗尽最后寿命保护了哥哥。透流在深重的悲痛中被尤莉叶支撑。他必须从绝望中找到继续战斗的决意——不是为了复仇（那是旧的他），是为了赋予音羽的牺牲意义。与七曜残余成员的最终对决开始。\" 关键场景: 音羽的最后一战、透流的哀悼、最终决战前夜 参与剧情人物: 九重透流、尤莉叶·西格图娜、九重音羽、海伦、阿晶、瓦莱莉亚·卡莱尔 章节核心目标: - \"面对音羽的牺牲——全系列最惨痛的时刻\" - \"从绝望中重新站立——尤莉叶的支撑\" - \"为第十一卷的最终决战做好战斗和心理准备\" 章节事件列表: - \"事件一: 圣厅与残余势力的战斗——海伦与阿晶\" - \"事件二: 音羽最后的战斗——她的选择\" - \"事件三: 透流的悲恸与尤莉叶的支撑\" <事件一> 事件详细剧情: \"圣厅圣骑士海伦在混战中与透流一行交战。阿晶——被扭曲愿望驱使的敌人——同时出现。这些战斗不是本卷的核心——但它们在消耗音羽的寿命。每一次她使用人造人能力支援透流，她的生命就短了一截。透流在战斗中频繁回",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-56"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "systems:开场与场景建立",
+      "entityId": "开场与场景建立",
+      "entityType": "systems",
+      "label": "开场与场景建立",
+      "name": "开场与场景建立",
+      "summary": "<narrative_guide> ## 开场与场景建立 每个新场景以简洁的感官细节入题： - 视觉优先：光线、人物位置、焰牙的火焰颜色 - 听觉次之：焰牙碰撞的金属声、靴子踏地声、铃铛轻响 - 嗅觉点缀：苹果茶、训练后的汗水、花园的玫瑰 ## 角色区分铁律 - 尤莉叶：语速偏慢，表情少，叫透流托尔。对话短而直接。情绪外显极少但肢体语言有（握紧剑柄、靠近透流） - 莉莉丝：语速快，大小姐口吻，对透流撒娇对别人高傲。金色卷发随动作跳跃是标志 - 橘巴：字正腔圆，教导时严厉，害羞时语无伦次。铁锁链碰出的声音暴露情绪 - 穗高雅：轻声细语，紧张会结巴。手指的动作（玩手指/编织）反映心理状态 ## 焰牙战斗描写规范 - 具现瞬间：火焰先笼罩全身，然后集中到手臂，武器成形时伴随强光 - 攻击描写：写武器的轨迹和碰撞点，不写招式名（除非角色喊出） - 受伤描写：焰牙对灵魂的伤害表现为精神力冲击——头晕、视线模糊、短暂的灵魂震颤 - 盾的特性：面对攻击时吸收冲击的感觉，手臂上传来的力道 ## 绊双刃配合描写 - 默契不是设定而是场景中的细节：透流举盾的同时尤莉叶已从侧面出击 - 绊双刃在战斗中不交谈也能理解对方意图——不是超能力是长期训练",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-9"
+      ],
+      "canonStatus": "world-system-or-guideline-indexed"
+    }
+  ],
+  "edges": [
+    {
+      "source": "characters:K-凯文·威斐尔",
+      "target": "characters:爱德华·沃克",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "爱德华·沃克",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-38"
+      ],
+      "id": "edge-1",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:K-凯文·威斐尔",
+      "target": "characters:鸣皇榊",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "鸣皇榊",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-38"
+      ],
+      "id": "edge-2",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:三国",
+      "target": "characters:九十九朔夜",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "九十九朔夜",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-28"
+      ],
+      "id": "edge-3",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:三国",
+      "target": "characters:月见璃兔",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "月见璃兔",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-28"
+      ],
+      "id": "edge-4",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:九十九博士",
+      "target": "characters:九十九朔夜",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "九十九朔夜",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-41"
+      ],
+      "id": "edge-5",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:九十九朔夜",
+      "target": "characters:九十九博士",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "九十九博士",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-27"
+      ],
+      "id": "edge-6",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:九重透流",
+      "target": "characters:尤格",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "尤格",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-13"
+      ],
+      "id": "edge-7",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:九重透流",
+      "target": "characters:尤莉叶·西格图娜",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "尤莉叶·西格图娜",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-13"
+      ],
+      "id": "edge-8",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:九重透流",
+      "target": "characters:永仓伊万里",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "永仓伊万里",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-13"
+      ],
+      "id": "edge-9",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:九重透流",
+      "target": "characters:穗高雅",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "穗高雅",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-13"
+      ],
+      "id": "edge-10",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:九重透流",
+      "target": "characters:鸣皇榊",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "鸣皇榊",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-13"
+      ],
+      "id": "edge-11",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:九重透流",
+      "target": "events:第十卷",
+      "sourceEntityType": "characters",
+      "targetEntityType": "events",
+      "predicate": "characters-mentions-events",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第十卷",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-13"
+      ],
+      "id": "edge-12",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:克洛维",
+      "target": "characters:尤格",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "尤格",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-37"
+      ],
+      "id": "edge-13",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:克洛维",
+      "target": "characters:爱德华·沃克",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "爱德华·沃克",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-37"
+      ],
+      "id": "edge-14",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:克洛维",
+      "target": "abilities:666秘密结社",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "666秘密结社",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-37"
+      ],
+      "id": "edge-15",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:尤格",
+      "target": "characters:王城",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "王城",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-32"
+      ],
+      "id": "edge-16",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:尤莉叶·西格图娜",
+      "target": "characters:鸣皇榊",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "鸣皇榊",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-15"
+      ],
+      "id": "edge-17",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:昊陵学园-主要人物速览",
+      "target": "characters:三国",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "三国",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-6"
+      ],
+      "id": "edge-18",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:昊陵学园-主要人物速览",
+      "target": "characters:九十九朔夜",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "九十九朔夜",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-6"
+      ],
+      "id": "edge-19",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:昊陵学园-主要人物速览",
+      "target": "characters:九重透流",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "九重透流",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-6"
+      ],
+      "id": "edge-20",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:昊陵学园-主要人物速览",
+      "target": "characters:尤莉叶·西格图娜",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "尤莉叶·西格图娜",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-6"
+      ],
+      "id": "edge-21",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:昊陵学园-主要人物速览",
+      "target": "characters:月见璃兔",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "月见璃兔",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-6"
+      ],
+      "id": "edge-22",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:昊陵学园-主要人物速览",
+      "target": "characters:橘巴",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "橘巴",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-6"
+      ],
+      "id": "edge-23",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:昊陵学园-主要人物速览",
+      "target": "characters:永仓伊万里",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "永仓伊万里",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-6"
+      ],
+      "id": "edge-24",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:昊陵学园-主要人物速览",
+      "target": "characters:穗高雅",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "穗高雅",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-6"
+      ],
+      "id": "edge-25",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:昊陵学园-主要人物速览",
+      "target": "characters:美羽",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "美羽",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-6"
+      ],
+      "id": "edge-26",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:昊陵学园-主要人物速览",
+      "target": "characters:莉莉丝·布里斯托",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "莉莉丝·布里斯托",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-6"
+      ],
+      "id": "edge-27",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:昊陵学园-主要人物速览",
+      "target": "characters:虎崎葵",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "虎崎葵",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-6"
+      ],
+      "id": "edge-28",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:昊陵学园-主要人物速览",
+      "target": "characters:辰乃龙太朗",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "辰乃龙太朗",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-6"
+      ],
+      "id": "edge-29",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:月见璃兔",
+      "target": "characters:三国",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "三国",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-26"
+      ],
+      "id": "edge-30",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:橘巴",
+      "target": "characters:穗高雅",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "穗高雅",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-19"
+      ],
+      "id": "edge-31",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:永仓伊万里",
+      "target": "characters:美羽",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "美羽",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-24"
+      ],
+      "id": "edge-32",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:海伦",
+      "target": "characters:尤格",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "尤格",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-44"
+      ],
+      "id": "edge-33",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:爱德华·沃克",
+      "target": "characters:克洛维",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "克洛维",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-36"
+      ],
+      "id": "edge-34",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:爱德华·沃克",
+      "target": "characters:穗高雅",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "穗高雅",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-36"
+      ],
+      "id": "edge-35",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:王城",
+      "target": "characters:鸣皇榊",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "鸣皇榊",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-31"
+      ],
+      "id": "edge-36",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:穗高雅",
+      "target": "characters:橘巴",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "橘巴",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-21"
+      ],
+      "id": "edge-37",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:穗高雅",
+      "target": "characters:爱德华·沃克",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "爱德华·沃克",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-21"
+      ],
+      "id": "edge-38",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:美羽",
+      "target": "characters:永仓伊万里",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "永仓伊万里",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-39"
+      ],
+      "id": "edge-39",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:莎拉",
+      "target": "characters:莉莉丝·布里斯托",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "莉莉丝·布里斯托",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-33"
+      ],
+      "id": "edge-40",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:莫得劳特-莫卓",
+      "target": "characters:克洛维",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "克洛维",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-42"
+      ],
+      "id": "edge-41",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:莫得劳特-莫卓",
+      "target": "abilities:666秘密结社",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "666秘密结社",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-42"
+      ],
+      "id": "edge-42",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:虎崎葵",
+      "target": "characters:辰乃龙太朗",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "辰乃龙太朗",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-23"
+      ],
+      "id": "edge-43",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:贝雅朵莉克丝",
+      "target": "characters:鸣皇榊",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "鸣皇榊",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-35"
+      ],
+      "id": "edge-44",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:贝雅朵莉克丝",
+      "target": "abilities:666秘密结社",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "666秘密结社",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-35"
+      ],
+      "id": "edge-45",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:辰乃龙太朗",
+      "target": "characters:虎崎葵",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "虎崎葵",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-25"
+      ],
+      "id": "edge-46",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:阿晶",
+      "target": "characters:九重透流",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "九重透流",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-43"
+      ],
+      "id": "edge-47",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "events:第九卷",
+      "target": "characters:九重透流",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "九重透流",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-55"
+      ],
+      "id": "edge-48",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "events:第九卷",
+      "target": "characters:克洛维",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "克洛维",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-55"
+      ],
+      "id": "edge-49",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "events:第九卷",
+      "target": "characters:尤莉叶·西格图娜",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "尤莉叶·西格图娜",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-55"
+      ],
+      "id": "edge-50",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "events:第九卷",
+      "target": "characters:鸣皇榊",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "鸣皇榊",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-55"
+      ],
+      "id": "edge-51",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "events:第九卷",
+      "target": "abilities:666秘密结社",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "666秘密结社",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-55"
+      ],
+      "id": "edge-52",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "events:第八卷",
+      "target": "characters:九重透流",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "九重透流",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-54"
+      ],
+      "id": "edge-53",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "events:第八卷",
+      "target": "characters:尤格",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "尤格",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-54"
+      ],
+      "id": "edge-54",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "events:第八卷",
+      "target": "characters:尤莉叶·西格图娜",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "尤莉叶·西格图娜",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-54"
+      ],
+      "id": "edge-55",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "events:第八卷",
+      "target": "characters:贝雅朵莉克丝",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "贝雅朵莉克丝",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-54"
+      ],
+      "id": "edge-56",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "events:第六卷",
+      "target": "characters:九重透流",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "九重透流",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-52"
+      ],
+      "id": "edge-57",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "events:第六卷",
+      "target": "characters:尤格",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "尤格",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-52"
+      ],
+      "id": "edge-58",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "events:第六卷",
+      "target": "characters:尤莉叶·西格图娜",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "尤莉叶·西格图娜",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-52"
+      ],
+      "id": "edge-59",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "events:第六卷",
+      "target": "characters:贝雅朵莉克丝",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "贝雅朵莉克丝",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-52"
+      ],
+      "id": "edge-60",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "events:第六卷",
+      "target": "abilities:666秘密结社",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "666秘密结社",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-52"
+      ],
+      "id": "edge-61",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "events:第十卷",
+      "target": "characters:九重透流",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "九重透流",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-56"
+      ],
+      "id": "edge-62",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "events:第十卷",
+      "target": "characters:尤莉叶·西格图娜",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "尤莉叶·西格图娜",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-56"
+      ],
+      "id": "edge-63",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "events:第十卷",
+      "target": "characters:海伦",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "海伦",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-56"
+      ],
+      "id": "edge-64",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "events:第十卷",
+      "target": "characters:瓦莱莉亚·卡莱尔",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "瓦莱莉亚·卡莱尔",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-56"
+      ],
+      "id": "edge-65",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "events:第十卷",
+      "target": "characters:阿晶",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "阿晶",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-56"
+      ],
+      "id": "edge-66",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:世界总纲-绝对双刃",
+      "target": "characters:九十九朔夜",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "九十九朔夜",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-0"
+      ],
+      "id": "edge-67",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:世界总纲-绝对双刃",
+      "target": "abilities:研究设施",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "研究设施",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-0"
+      ],
+      "id": "edge-68",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:世界概览",
+      "target": "characters:九十九朔夜",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "九十九朔夜",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-5"
+      ],
+      "id": "edge-69",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:世界概览",
+      "target": "characters:克洛维",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "克洛维",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-5"
+      ],
+      "id": "edge-70",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:世界概览",
+      "target": "characters:尤格",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "尤格",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-5"
+      ],
+      "id": "edge-71",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:世界概览",
+      "target": "characters:瓦莱莉亚·卡莱尔",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "瓦莱莉亚·卡莱尔",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-5"
+      ],
+      "id": "edge-72",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:世界概览",
+      "target": "abilities:666秘密结社",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "666秘密结社",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-5"
+      ],
+      "id": "edge-73",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:世界概览",
+      "target": "abilities:研究设施",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "研究设施",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-5"
+      ],
+      "id": "edge-74",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:升华药物与升华之仪",
+      "target": "characters:九十九朔夜",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "九十九朔夜",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-72"
+      ],
+      "id": "edge-75",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:场景策略集",
+      "target": "characters:九十九朔夜",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "九十九朔夜",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-12"
+      ],
+      "id": "edge-76",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:场景策略集",
+      "target": "characters:橘巴",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "橘巴",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-12"
+      ],
+      "id": "edge-77",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:场景策略集",
+      "target": "characters:穗高雅",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "穗高雅",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-12"
+      ],
+      "id": "edge-78",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:场景策略集",
+      "target": "characters:莎拉",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "莎拉",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-12"
+      ],
+      "id": "edge-79",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:歌革与玛各-Gog-and-Magog",
+      "target": "characters:克洛维",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "克洛维",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-74"
+      ],
+      "id": "edge-80",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:研究设施",
+      "target": "characters:九十九朔夜",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "九十九朔夜",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-69"
+      ],
+      "id": "edge-81",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:章节索引",
+      "target": "characters:尤格",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "尤格",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-11"
+      ],
+      "id": "edge-82",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:章节索引",
+      "target": "characters:贝雅朵莉克丝",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "贝雅朵莉克丝",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-11"
+      ],
+      "id": "edge-83",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:装钢-Unit",
+      "target": "characters:K-凯文·威斐尔",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "K（凯文·威斐尔）",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-71"
+      ],
+      "id": "edge-84",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:装钢-Unit",
+      "target": "characters:爱德华·沃克",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "爱德华·沃克",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-71"
+      ],
+      "id": "edge-85",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:开场与场景建立",
+      "target": "characters:橘巴",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "橘巴",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-9"
+      ],
+      "id": "edge-86",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:开场与场景建立",
+      "target": "characters:穗高雅",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "穗高雅",
+      "sourceRefs": [
+        "jdsr_card.worldbook.json#entry-9"
+      ],
+      "id": "edge-87",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    }
+  ]
+}

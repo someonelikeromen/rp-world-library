@@ -1,0 +1,90 @@
+{
+  "schema": "tm-nasuverse-extracted-publication-inventory-v1",
+  "worldId": "type-moon-nasuverse",
+  "stepId": "extracted-publisher",
+  "publicationDate": "2026-07-20",
+  "sourceRoot": "campaigns/world-library/manual-curation/type-moon-p1-hybrid/",
+  "destinationRoot": "campaigns/world-library/worlds/type-moon-nasuverse/extracted/",
+  "validationStatus": {
+    "readListFindInspectionCompleted": true,
+    "machineJsonParserRun": false,
+    "reasonMachineJsonParserNotRun": "Task/tool constraints prohibited bash/shell/python/node/deno/powershell/cmd/scripts; JSON was authored by direct write/read workflow only.",
+    "forbiddenBasenameFindChecksRun": true,
+    "forbiddenBasenameMatches": {
+      "characters.json": [],
+      "events.json": [],
+      "relationships.json": [],
+      "facts.json": [],
+      "graph.json": [],
+      "timeline.json": []
+    },
+    "rawImportsModified": false,
+    "oldCuratedModified": false,
+    "manualCurationModified": false
+  },
+  "requiredFilesCreated": [
+    "README.md",
+    "manifest.json",
+    "audits/publication-inventory.md",
+    "audits/publication-inventory.json",
+    "sources/index.json",
+    "characters/index.json",
+    "events/index.json",
+    "relationships/index.json",
+    "rules/index.json",
+    "locations/index.json",
+    "abilities/index.json",
+    "organizations/index.json",
+    "items/index.json",
+    "timelines/derived-timeline-index.json",
+    "candidates/index.json",
+    "source-gaps/index.json"
+  ],
+  "additionalDerivedFilesCreated": [
+    "graphs/derived-graph-index.json",
+    "characters/shards/representative-character-records.json",
+    "events/shards/representative-event-records.json",
+    "relationships/shards/representative-relationship-records.json",
+    "candidates/shards/candidate-boundary-records.json",
+    "source-gaps/shards/source-gap-boundary-records.json"
+  ],
+  "formalPublishedPilotDecisions": [
+    {"pilotId": "fsn-fz-pilot", "decision": "formal-source-linked-indexes", "statusEvidence": "audit/final-pass-report.json canPublishPilotSideBySide true"},
+    {"pilotId": "fgo-script-pilot", "decision": "formal-source-linked-indexes", "statusEvidence": "STATUS.md passed-with-nonblocking-risks"},
+    {"pilotId": "fgo-eor-pilot", "decision": "formal-source-linked-indexes", "statusEvidence": "STATUS.md final accepted / post-fix passed-with-nonblocking-risks"},
+    {"pilotId": "fgo-lb1-lb2-pilot", "decision": "formal-source-linked-indexes", "statusEvidence": "STATUS.md independent final audit passed-with-nonblocking-risks"},
+    {"pilotId": "fgo-lb3-lb4-pilot", "decision": "formal-source-linked-indexes", "statusEvidence": "STATUS.md independent final audit addendum passed-with-nonblocking-risks"},
+    {"pilotId": "fgo-lb5-pilot", "decision": "formal-source-linked-indexes", "statusEvidence": "STATUS.md independent final audit passed-with-nonblocking-risks"},
+    {"pilotId": "fgo-lb6-pilot", "decision": "formal-source-linked-indexes", "statusEvidence": "STATUS.md independent final audit passed-with-nonblocking-risks"},
+    {"pilotId": "fgo-ordeal-call-pilot", "decision": "formal event/relationship/world-state source-linked indexes; packet signal coverage referenced", "statusEvidence": "STATUS.md accepted-with-nonblocking-risks and r31 retrospective compliance passed"},
+    {"pilotId": "kara-no-kyoukai-profile-supplement-pilot", "decision": "formal profile/setting source-linked indexes", "statusEvidence": "STATUS.md final gate passed with nonblocking risks"},
+    {"pilotId": "prisma-illya-profile-supplement-pilot", "decision": "formal SFW redacted source-linked indexes", "statusEvidence": "STATUS.md terminal passed with nonblocking risks after forbidden-basename fix"},
+    {"pilotId": "lb6-fairy-calendar-supplement-pilot", "decision": "formal relative calendar setting indexes", "statusEvidence": "STATUS.md final gate passed with nonblocking risks"},
+    {"pilotId": "type-moon-core-general-settings-pilot", "decision": "formal noncandidate settings anchors only", "statusEvidence": "STATUS.md and audit final status passed with human-scope limitations"}
+  ],
+  "nonFormalOrHeldDecisions": [
+    {"pilotId": "fate-spinoff-profile-supplement-pilot", "decision": "source-gap inventory only", "reason": "blocked-insufficient-source"},
+    {"pilotId": "tsukihime-supporting-cast-candidate-supplement-pilot", "decision": "candidate/source-gap only", "reason": "terminal supplement explicitly creates no formal characters/events/relationships/graph/timeline facts"},
+    {"pilotId": "tsukihime-dead-apostle-profile-supplement-pilot", "decision": "hold from formal publication", "reason": "audit/final/final-status.json says merge-generated-pending-audit, canAdvance false"},
+    {"pilotId": "mahoyo-profile-supplement-pilot", "decision": "hold from formal publication", "reason": "STATUS.md says fixer retry completed pending read-only auditor rerun"},
+    {"recordId": "atlas-and-sion-candidate-context", "decision": "candidate/source-gap only", "reason": "human-scope limitations and no direct Melty-specific corroboration"},
+    {"recordId": "prisma-sitonai-cross-work", "decision": "candidate/source-gap only", "reason": "cross-work Sitonai/Shidounai not merged into Prisma Illya core continuity"},
+    {"gapId": "type-lumina-specific-cast", "decision": "source-gap only", "reason": "no direct Type Lumina-specific source text found in candidate pilot"},
+    {"gapId": "prisma-unsafe-underage-adult-content", "decision": "redacted safety/source-gap only", "reason": "unsafe sections excluded from formal publication"}
+  ],
+  "auditMetadataPreservation": {
+    "sourceRefsPreservedByIndexes": true,
+    "sourceTypePreservedByIndexes": true,
+    "credibilityPreservedByIndexes": true,
+    "canonStatusPreservedByIndexes": true,
+    "continuityScopePreservedByIndexes": true,
+    "candidateOnlyFlagsPreserved": true,
+    "sourceGapFlagsPreserved": true,
+    "auditStatusRefsPreserved": true
+  },
+  "risks": [
+    "This publication uses source-linked indexes and representative shard records rather than converting every detailed accepted artifact into local copied records.",
+    "Machine JSON parsing was not run due to tool constraints; validation is based on write/read/find inspection.",
+    "Accepted pilots retain their documented nonblocking risks and should not be treated as replacements for old curated data."
+  ]
+}

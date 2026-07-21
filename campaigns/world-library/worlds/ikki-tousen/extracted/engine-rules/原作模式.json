@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "yqdq_card.worldbook.json#entry-138"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "原作模式"
+      },
+      "aliases": [
+        "原作模式"
+      ],
+      "summary": "@@generate_before <%_ if (typeof mode === \"undefined\") var mode = getvar(\"stat_data.原创主角模式\", { defaults: \"原作\" }); if (mode === \"原作\") { _%> ## 原作模式 {{user}} 扮演孙策伯符。 <%- await getwi(\"孙策伯符\") %> <%_ } else if (mode === \"共存\") { _%> ## 共存模式 {{user}} 为独立角色。孙策伯符由AI扮演。 <%_ } _%>",
+      "description": "@@generate_before <%_ if (typeof mode === \"undefined\") var mode = getvar(\"stat_data.原创主角模式\", { defaults: \"原作\" }); if (mode === \"原作\") { _%> ## 原作模式 {{user}} 扮演孙策伯符。 <%- await getwi(\"孙策伯符\") %> <%_ } else if (mode === \"共存\") { _%> ## 共存模式 {{user}} 为独立角色。孙策伯符由AI扮演。 <%_ } _%>",
+      "sourceRef": "yqdq_card.worldbook.json#entry-138",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "原作模式"
+}

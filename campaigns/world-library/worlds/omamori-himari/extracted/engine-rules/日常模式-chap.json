@@ -1,0 +1,24 @@
+{
+  "source_refs": [
+    "mnfj_card.worldbook.json#entry-60"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "日常模式 | <%= chap %>"
+      },
+      "aliases": [],
+      "summary": "<%_ var mode = getvar('stat_data.剧情.模式') || '日常'; var vol = getvar('stat_data.剧情.当前卷') || 1; var chap = getvar('stat_data.剧情.当前章节') || '序章'; var event = getvar('stat_data.剧情.关键事件') || ''; if (mode === '日常') { _%> ## 日常模式 | <%= chap %> 当前关键事件: <%= event %> 不主动推进主线。专注角色互动、训练、日常场景。 让{{user}}决定何时发生重要事件。 世界背景参考：第<%= vol %>卷时间线。 <%_ } else if (mode === '推进') { var stageName = 'EJS 第' + vol + '卷 Stage'; _%> ## 推进模式 | <%= chap %> <%= await getwi(stageName) %> <%_ } _%>",
+      "description": "<%_ var mode = getvar('stat_data.剧情.模式') || '日常'; var vol = getvar('stat_data.剧情.当前卷') || 1; var chap = getvar('stat_data.剧情.当前章节') || '序章'; var event = getvar('stat_data.剧情.关键事件') || ''; if (mode === '日常') { _%> ## 日常模式 | <%= chap %> 当前关键事件: <%= event %> 不主动推进主线。专注角色互动、训练、日常场景。 让{{user}}决定何时发生重要事件。 世界背景参考：第<%= vol %>卷时间线。 <%_ } else if (mode === '推进') { var stageName = 'EJS 第' + vol + '卷 Stage'; _%> ## 推进模式 | <%= chap %> <%= await getwi(stageName) %> <%_ } _%>",
+      "sourceRef": "mnfj_card.worldbook.json#entry-60",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "日常模式-chap"
+}

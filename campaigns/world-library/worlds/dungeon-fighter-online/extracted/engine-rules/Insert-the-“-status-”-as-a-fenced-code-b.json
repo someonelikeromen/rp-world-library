@@ -1,0 +1,24 @@
+{
+  "source_refs": [
+    "！！地下城与勇士起源v0.0.2.worldbook.json#entry-114"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "Insert the “<status>” as a fenced code b"
+      },
+      "aliases": [],
+      "summary": "## Insert the “<status>” as a fenced code block (```) at the end of your response as requested in “<StatusBlock>”. <StatusBlock> - Rule: - 若有多个小队成员，请在相应模块生成多个状态栏。 - 只有{{user}}要求当前NPC加入小队，才可以将当前NPC加入小队状态栏。 - ##输出前请检查是否有小队成员，如果无则【————队员具体情况————】只显示无。 - ##在<status>之前输出<format_of_statusblock>和最后一个</details>之后输出</format_of_statusblock> ## <status>为当前剧情中{{char}}的状态栏。请务必再次确认Rule，在每轮回复的末尾插入'<status>'中的内容。 格式如下： <format_of_statusblock> <status> <details> <summary>【————状态栏————】</summary> ``` 📍当前所处位置：{{此处只能填写当前剧情地点。}} ⏳当前时间：",
+      "description": "## Insert the “<status>” as a fenced code block (```) at the end of your response as requested in “<StatusBlock>”. <StatusBlock> - Rule: - 若有多个小队成员，请在相应模块生成多个状态栏。 - 只有{{user}}要求当前NPC加入小队，才可以将当前NPC加入小队状态栏。 - ##输出前请检查是否有小队成员，如果无则【————队员具体情况————】只显示无。 - ##在<status>之前输出<format_of_statusblock>和最后一个</details>之后输出</format_of_statusblock> ## <status>为当前剧情中{{char}}的状态栏。请务必再次确认Rule，在每轮回复的末尾插入'<status>'中的内容。 格式如下： <format_of_statusblock> <status> <details> <summary>【————状态栏————】</summary> ``` 📍当前所处位置：{{此处只能填写当前剧情地点。}} ⏳当前时间：{当前时间，例如：阿拉德日历990年6月1日 15:00} 📔 主线任务: {当前主线任务} ``` >【基本状态】 ``` 角色名: {当前{{user}}名} / {当前{{user}}称号或者{{user}}玩家ID} 等级: {当前{{user}}等级 例如:60级(封顶) 等等 默认:1或者???} 经验: {当前{{user}}经验 例如:1000000/1000000(满级) 等等 默认:0/100} HP: {当前{{user}}HP 例如:1000/1000(满) 等等 默认:0/100} MP: {当前{{user}}MP 例如:1000/1000(满) 等等 默认:0/100} 种族 / 性别: {当前{{user}}种族 例如: 人类 精灵 矮人 龙人 等等} / {当前{{user}}性别} 阵营 / 身份: {当前{{user}}阵营 例如: 原住民 玩家 等等} / {当前{{user}}身份 例如: 帝国将军 等等} 职业: {当前{{user}}职业 例如:女鬼剑士 男鬼剑士 等等} / {当前{{user}}职业转职 例如:流浪武士 剑魂 等等 否则默认未转职} / {当前{{user}}职业转职 例如:剑豪 剑神 等等 否则默认未觉醒} ``` >【物品情况】 ``` 武器: {{{user}}的武器，格式为{武器名字}(具体效果，根据回复内容进行精简描述，一定要描述)} 防具: {{{user}}的防具，格式为{武器名字}(具体效果，根据回复内容进行精简描述，一定要描述)} 资金: {{{user}}拥有的资金，卖出物品后需要把获得的资金加入这里，用数字表示，单位为金币，例如：100金币 默认: 2000金币}{如果金币不足购买物品，将表示钱不够，不进行购买} 消耗道具: {随身携带的消耗道具，例如药水、食物等等，按剧情变动} 背包: {{{user}}个人拥有的物品，不包含消耗道具和战利品中出现的东西，按剧情变动} ``` <details> <summary>【————队员具体情况——",
+      "sourceRef": "！！地下城与勇士起源v0.0.2.worldbook.json#entry-114",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "Insert-the-“-status-”-as-a-fenced-code-b"
+}

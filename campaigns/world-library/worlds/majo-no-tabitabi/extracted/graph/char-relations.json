@@ -1,0 +1,118 @@
+{
+  "schema": "compatible-char-relations-v1",
+  "worldId": "majo-no-tabitabi",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "relationships": [
+    {
+      "source": "芙兰",
+      "target": "席拉",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "席拉",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-2"
+      ],
+      "id": "edge-1",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:芙兰",
+      "graphTarget": "abilities:席拉",
+      "category": "derived-mention"
+    },
+    {
+      "source": "芙兰",
+      "target": "魔女",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "魔女",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-2"
+      ],
+      "id": "edge-2",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:芙兰",
+      "graphTarget": "abilities:魔女",
+      "category": "derived-mention"
+    },
+    {
+      "source": "芙兰",
+      "target": "魔女名",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "魔女名",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-2"
+      ],
+      "id": "edge-3",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:芙兰",
+      "graphTarget": "abilities:魔女名",
+      "category": "derived-mention"
+    },
+    {
+      "source": "席拉",
+      "target": "芙兰",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "芙兰",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-6"
+      ],
+      "id": "edge-4",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:席拉",
+      "graphTarget": "characters:芙兰",
+      "category": "derived-mention"
+    },
+    {
+      "source": "维多利加-妈妈-母亲",
+      "target": "芙兰",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "芙兰",
+      "sourceRefs": [
+        "世界书：魔女之旅.worldbook.json#entry-9"
+      ],
+      "id": "edge-19",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:维多利加-妈妈-母亲",
+      "graphTarget": "characters:芙兰",
+      "category": "derived-mention"
+    }
+  ]
+}

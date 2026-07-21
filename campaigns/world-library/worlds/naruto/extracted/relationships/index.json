@@ -1,0 +1,22 @@
+{
+  "schema": "naruto-extracted-relationship-index-v1",
+  "worldId": "naruto",
+  "recordFamily": "derived-relationship-signals",
+  "defaultQueryPolicy": {
+    "formalRelationshipFacts": false,
+    "includeDerivedMentionSignals": true,
+    "includeCooccurrenceOnly": false
+  },
+  "formalRelationshipFacts": [],
+  "derivedRelationshipSignalRefs": [
+    "graph/derived-relationship-index.json"
+  ],
+  "sourceType": "local-worldbook-derived-index",
+  "credibility": "derived-signal",
+  "canonStatus": "derived-signal-not-formal-relationship-fact",
+  "counts": {
+    "formalRelationshipFacts": 0,
+    "derivedMentionEdges": 5876,
+    "sourceRefCooccurrenceEdges": 0
+  }
+}

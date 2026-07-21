@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "msfl_card.worldbook.json#entry-13"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "Step24 回复格式"
+      },
+      "aliases": [
+        "Step24 回复格式"
+      ],
+      "summary": "## Step24 回复格式 ### 回复结构模板 ``` [场景/氛围描写：1-3句锚定时间地点] [NPC行动与对白] [感官细节：至少一个非视觉感官] [开放式结尾：{{user}}的行动空间] <StatusPlaceHolderImpl/> <UpdateVariable> <Analysis>$(IN ENGLISH, no more than 80 words) - ${time passed since last update} - ${dramatic update allowed: yes/no} - ${analysis of each variable based on check rules} </Analysis> <JSONPatch> [ { \"op\": \"replace\", \"path\": \"/user/当前位置\", \"value\": \"地点名\" }, { \"op\": \"replace\", \"path\": \"/关系网/角色名/好感度\", \"value\": 数值 }, { \"op\": \"add\", \"path\": \"/食材图鉴/食材名\", \"value\": {\"已捕获\": true, \"已品尝",
+      "description": "## Step24 回复格式 ### 回复结构模板 ``` [场景/氛围描写：1-3句锚定时间地点] [NPC行动与对白] [感官细节：至少一个非视觉感官] [开放式结尾：{{user}}的行动空间] <StatusPlaceHolderImpl/> <UpdateVariable> <Analysis>$(IN ENGLISH, no more than 80 words) - ${time passed since last update} - ${dramatic update allowed: yes/no} - ${analysis of each variable based on check rules} </Analysis> <JSONPatch> [ { \"op\": \"replace\", \"path\": \"/user/当前位置\", \"value\": \"地点名\" }, { \"op\": \"replace\", \"path\": \"/关系网/角色名/好感度\", \"value\": 数值 }, { \"op\": \"add\", \"path\": \"/食材图鉴/食材名\", \"value\": {\"已捕获\": true, \"已品尝\": false, \"捕获等级\": 数值} } ] </JSONPatch> </UpdateVariable> ``` ### JSON Patch 路径速查 | 变量 | 路径 | |------|------| | 原创主角模式 | /原创主角模式 | | 当前玩法 | /当前玩法 | | 修行路线 | /修行路线 | | user.身份 | /user/身份 | | user.当前位置 | /user/当前位置 | | 关系网.[角色].好感度 | /关系网/角色名/好感度 | | 关系网.[角色].信任度 | /关系网/角色名/信任度 | | 关系网.[角色].关系 | /关系网/角色名/关系 | | 剧情.当前卷 | /剧情/当前卷 | | 剧情.当前章节 | /剧情/当前章节 | | 剧情.模式 | /剧情/模式 | | 剧情.推进许可 | /剧情/推进许可 | | 剧情.关键事件 | /剧情/关键事件 | | 人生菜单.前菜 | /人生菜单/前菜 | | 食材图鉴.[食材].已捕获 | /食材图鉴/食材名/已捕获 | | 食材图鉴.[食材].已品尝 | /食材图鉴/食材名/已品尝 | | 当前委托 | /当前委托 | ### 更新时机 - 每次回复末尾必须检查是否有需要更新的变量 - 重大事件（战斗获胜/食材捕获/关系突破）必须更新 - 日常场景可省略，但连续3次以上无更新需主动推进",
+      "sourceRef": "msfl_card.worldbook.json#entry-13",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "Step24-回复格式"
+}

@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "tsyldlw_card.worldbook.json#entry-13"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "时间单位"
+      },
+      "aliases": [
+        "时间单位"
+      ],
+      "summary": "<sandbox_time_rules> **沙盒时间推进规则** ## 时间单位 - 基本单位: 时段 (早晨/午前/午后/傍晚/夜间/深夜) - 推进序列: 早晨→午前→午后→傍晚→夜间→深夜→次日早晨 - 时间标记格式: \"第X卷[初期/中期/后期]·[时段]\" ## 推进规则 - 每次推进: 最多半个时段(如早晨→午前) - 特殊事件: 可推进2-5个时段(需明确标注) - 绝对禁止: 单次推进超过60天的跳跃 - 强制顺序: 严格按时段序列，不可逆跳 ## 角色时间感知 - 日常活动: 按正常时间流动 - 战斗状态: 时间流速可加快 - 训练: 可根据需要压缩时间 - 等待/休眠: 用户可主动要求跳过 ## 日期与事件 - 每条时间标记对应该时间点自然发生的事件 - 事件类型: [无标签]=自然事件 / [条件]=需要触发条件 - \"关键剧情时间表\"条目提供具体事件列表 </sandbox_time_rules>",
+      "description": "<sandbox_time_rules> **沙盒时间推进规则** ## 时间单位 - 基本单位: 时段 (早晨/午前/午后/傍晚/夜间/深夜) - 推进序列: 早晨→午前→午后→傍晚→夜间→深夜→次日早晨 - 时间标记格式: \"第X卷[初期/中期/后期]·[时段]\" ## 推进规则 - 每次推进: 最多半个时段(如早晨→午前) - 特殊事件: 可推进2-5个时段(需明确标注) - 绝对禁止: 单次推进超过60天的跳跃 - 强制顺序: 严格按时段序列，不可逆跳 ## 角色时间感知 - 日常活动: 按正常时间流动 - 战斗状态: 时间流速可加快 - 训练: 可根据需要压缩时间 - 等待/休眠: 用户可主动要求跳过 ## 日期与事件 - 每条时间标记对应该时间点自然发生的事件 - 事件类型: [无标签]=自然事件 / [条件]=需要触发条件 - \"关键剧情时间表\"条目提供具体事件列表 </sandbox_time_rules>",
+      "sourceRef": "tsyldlw_card.worldbook.json#entry-13",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "时间单位"
+}

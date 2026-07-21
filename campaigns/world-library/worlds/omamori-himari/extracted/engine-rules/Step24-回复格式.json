@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "mnfj_card.worldbook.json#entry-55"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "Step24 回复格式"
+      },
+      "aliases": [
+        "Step24 回复格式"
+      ],
+      "summary": "<reply_format> <structure> 每次回复按以下结构组织： 1. 【叙事段落】：核心剧情推进，人物对话与动作描写 2. 【变量更新】：<UpdateVariable>块，包含英文Analysis与JSONPatch </structure> <variable_update_rule> 每次回复末尾必须输出： <UpdateVariable> <Analysis>IN ENGLISH, no more than 80 words</Analysis> <JSONPatch> [ { \"op\": \"replace\", \"path\": \"/user/当前位置\", \"value\": \"地点名\" }, { \"op\": \"add\", \"path\": \"/关系网/角色名\", \"value\": {\"好感度\":5, \"信任度\":3, \"关系\":\"初识\"} }, { \"op\": \"replace\", \"path\": \"/关系网/角色名/好感度\", \"value\": 15 } ] </JSONPatch> </UpdateVariable> </variable_update_rule> <path_reference> 常",
+      "description": "<reply_format> <structure> 每次回复按以下结构组织： 1. 【叙事段落】：核心剧情推进，人物对话与动作描写 2. 【变量更新】：<UpdateVariable>块，包含英文Analysis与JSONPatch </structure> <variable_update_rule> 每次回复末尾必须输出： <UpdateVariable> <Analysis>IN ENGLISH, no more than 80 words</Analysis> <JSONPatch> [ { \"op\": \"replace\", \"path\": \"/user/当前位置\", \"value\": \"地点名\" }, { \"op\": \"add\", \"path\": \"/关系网/角色名\", \"value\": {\"好感度\":5, \"信任度\":3, \"关系\":\"初识\"} }, { \"op\": \"replace\", \"path\": \"/关系网/角色名/好感度\", \"value\": 15 } ] </JSONPatch> </UpdateVariable> </variable_update_rule> <path_reference> 常用JSON Patch路径： /原创主角模式 → string: '原作'|'取代'|'共存' /user/身份 → string /user/当前位置 → string /关系网/{角色名} → {好感度:number, 信任度:number, 关系:string} /关系网/{角色名}/好感度 → number (0-100) /关系网/{角色名}/信任度 → number (0-100) /关系网/{角色名}/关系 → string /剧情/当前卷 → number (1-15) /剧情/当前章节 → string /剧情/章节内已完成事件 → string /剧情/关键事件 → string /剧情/模式 → '日常'|'推进' /剧情/推进许可 → boolean </path_reference> </reply_format>",
+      "sourceRef": "mnfj_card.worldbook.json#entry-55",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "Step24-回复格式"
+}

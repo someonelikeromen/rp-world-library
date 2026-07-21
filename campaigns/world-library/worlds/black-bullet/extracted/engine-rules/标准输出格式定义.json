@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "qhzd_card.worldbook.json#entry-151"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "标准输出格式定义"
+      },
+      "aliases": [
+        "标准输出格式定义"
+      ],
+      "summary": "<output_structure_definition> instruction: 你的每一次回复都必须由<maintext>、<overall>和 <CivSecTerminal> 3个独立的、有序的模块构成,以实现叙事、状态、逻辑结算与数据更新的闭环。 module_breakdown: - module: <maintext> content: 核心叙事区块。包含动作交互、物理环境描写与心理活动。必须严格遵守当前章节的空间与时间锚点，禁止擅自跨越。 - module: <overall> content: |- 章节逻辑结算中心。 终止条件状态|${1.状态\\n2.状态\\n...} 判定理由|${基于当前叙事饱和度与目标达成度的逻辑分析} 判定结果|${继续当前章节/推进至下一章节} 当前章节名称|${来自剧情列表的激活名称} 下一章节名称|${来自剧情列表的预备名称} - module: <CivSecTerminal> content: 狀態欄，需要按照當前<maintext>內容進行更新 filling_rules: narrative_logic: - rule: 视角兼容性。系统需自动识别当前视角为[原作主",
+      "description": "<output_structure_definition> instruction: 你的每一次回复都必须由<maintext>、<overall>和 <CivSecTerminal> 3个独立的、有序的模块构成,以实现叙事、状态、逻辑结算与数据更新的闭环。 module_breakdown: - module: <maintext> content: 核心叙事区块。包含动作交互、物理环境描写与心理活动。必须严格遵守当前章节的空间与时间锚点，禁止擅自跨越。 - module: <overall> content: |- 章节逻辑结算中心。 终止条件状态|${1.状态\\n2.状态\\n...} 判定理由|${基于当前叙事饱和度与目标达成度的逻辑分析} 判定结果|${继续当前章节/推进至下一章节} 当前章节名称|${来自剧情列表的激活名称} 下一章节名称|${来自剧情列表的预备名称} - module: <CivSecTerminal> content: 狀態欄，需要按照當前<maintext>內容進行更新 filling_rules: narrative_logic: - rule: 视角兼容性。系统需自动识别当前视角为[原作主角/原创角色/第三方视角]，并根据视角主体调整[终止条件]的验收标准。 - rule: 进度缓冲。若判定结果为继续当前章节，<maintext>应侧重于细节填充；若判定结果为推进，则在下一轮回复中切换章节名称。 overall_field_specs: termination_conditions: - format: 1.描述\\n2.描述\\n3.描述 - logic: 必须包含物理性动作达成、信息获取、以及空间位移完成情况。 judgment_logic: - scope: 评估当前叙事是否已达到[逻辑饱和]。即使主线目标完成，若玩家仍有未消耗的交互意图，判定结果应维持在继续当前章节。 chapter_naming: - rule: 仅允许使用<剧情列表>中定义的名称。禁止模型自行生成新的章节标题。 </output_structure_definition> <chapter_processing_system_v2> system_pacing_protocol: core_mechanism: 状态机逻辑闸门 (State Machine Gate) objective: 消除叙事漂移，确保原创剧情与主线剧情的时空同步性。 operational_logic: track_management: - mode: 原作主线。严格对照原作事件清单进行节点结算。 - mode: 原创分支。基于原创角色的动机链条设定动态终止条件，确保逻辑自洽。 - mode: 混合模式。当原创角色在异地行动时，主线进度作为背景变量同步更新。 termination_audit_standard: - factor: 事件完整度 (Event_Completion) - factor: 信息覆盖率 (Information_Density) - factor: 空间稳定性 (Spatial_Stability) execution_directives: - directive: 强制执行U形注意力分配。将[判定结果]置于回复的最末端，利用LLM的",
+      "sourceRef": "qhzd_card.worldbook.json#entry-151",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "标准输出格式定义"
+}

@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "shzqdz_card.worldbook.json#entry-3"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "原作主线锚点"
+      },
+      "aliases": [
+        "原作主线锚点"
+      ],
+      "summary": "<WORLD_dimension_plot_progression> <index> 节点列表: # 原作主线锚点 - \"prologue_ryozanpaku\" # 序章：梁山泊的修行 - \"arc_shinpaku_alliance\" # 新白联合篇 - \"arc_ragnarok\" # 诸神黄昏篇 - \"arc_yomi_attack\" # 暗之刺客篇 - \"arc_d_of_d\" # DofD锦标赛篇 - \"arc_tidat_kingdom\" # 提达特王国篇 (为未来预留) - \"arc_one_shadow\" # 最终决战：一影篇 (为未来预留) # 剧情状态节点 - \"original_story_arc\" # 原创剧情节点 (模板) - \"future_arc\" # 未来篇/达人篇 分组: 原作主线: [\"prologue_ryozanpaku\", \"arc_shinpaku_alliance\", \"arc_ragnarok\", \"arc_yomi_attack\", \"arc_d_of_d\", \"arc_tidat_kingdom\", \"arc_one_shadow\"] 原创剧情: [\"original_s",
+      "description": "<WORLD_dimension_plot_progression> <index> 节点列表: # 原作主线锚点 - \"prologue_ryozanpaku\" # 序章：梁山泊的修行 - \"arc_shinpaku_alliance\" # 新白联合篇 - \"arc_ragnarok\" # 诸神黄昏篇 - \"arc_yomi_attack\" # 暗之刺客篇 - \"arc_d_of_d\" # DofD锦标赛篇 - \"arc_tidat_kingdom\" # 提达特王国篇 (为未来预留) - \"arc_one_shadow\" # 最终决战：一影篇 (为未来预留) # 剧情状态节点 - \"original_story_arc\" # 原创剧情节点 (模板) - \"future_arc\" # 未来篇/达人篇 分组: 原作主线: [\"prologue_ryozanpaku\", \"arc_shinpaku_alliance\", \"arc_ragnarok\", \"arc_yomi_attack\", \"arc_d_of_d\", \"arc_tidat_kingdom\", \"arc_one_shadow\"] 原创剧情: [\"original_story_arc\"] 未来篇: [\"future_arc\"] 拓扑: | 主干为线性的“原作主线”。在任意主线节点之间，都可能通过“分歧事件”切入“原创剧情”节点。 原创剧情结束后，通过“回归机制”返回到下一个主线节点，或根据影响大小，进入被修改的“变异主线节点”。 所有原作主线结束后，进入“未来篇”。 转换规则: 默认: 顺序推进。当一个“原作主线”节点的结束标志被满足时，自动移动到列表中的下一个节点。 分歧规则 (Divergence Rule): - 条件: 在主线剧情中，发生与原作显著不同的关键选择或事件。 - 效果: 剧情状态切换至 \"original_story_arc\" 节点。系统将记录分歧前的“源头节点”和分歧原因。 - 示例: - 在“诸神黄昏篇”决战前，玩家选择主动挑战“暗”的某位达人，而非与奥丁对决。 - 在“新白联合篇”，玩家选择接受马莲华的邀请前往中国，而非留在日本发展势力。 回归机制 (Convergence Mechanism): - 条件: “原创剧情”发展到一个阶段性终点，或满足了预设的“回归条件”。 - 效果: 剧情状态从 \"original_story_arc\" 返回。 - 路径判断: - 低影响回归: 若原创剧情对世界格局影响小，则返回至“源头节点”的下一个主线节点。 - 高影响回归 (面目全非): 若原创剧情导致关键人物死亡、势力覆灭等重大改变，则后续所有“原作主线”节点将转化为“变异锚点”。AI需要基于已发生的变化，重构后续主线剧情的大纲。 跳跃规则: 允许在满足特定条件时，跳过某些主线锚点（例如，在原创剧情中已达成更高目标）。 通用规则: 变异锚点生成: 当触发“高影响回归”时，AI必须根据“世界知识”和已发生的改变，动态生成后续“变异锚点”的节点内容，并保持其核心冲突精神与原作一致。 </index> # --- 原作主线锚点 --- <node id=\"prologue_ryozanpaku\"> 综述: 故事的开端，主角拜入梁山泊，开始地狱般的修行，并初步接触武术世界。 核心事件:",
+      "sourceRef": "shzqdz_card.worldbook.json#entry-3",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "原作主线锚点"
+}

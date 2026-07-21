@@ -15,7 +15,10 @@
     },
     "standards": {
       "docs": [
-        "campaigns/world-library/manual-curation/reports/subagent-chapter-archive-iteration-plan.md"
+        "campaigns/world-library/manual-curation/gundam-seed-opus-p1-style/PLAN.locked.md",
+        "campaigns/world-library/manual-curation/gundam-seed-opus-p1-style/archive-structure-constraints.md",
+        "campaigns/world-library/manual-curation/gundam-seed-opus-p1-style/extended-coverage-policy.md",
+        "campaigns/world-library/manual-curation/gundam-seed-opus-p1-style/merge-policy.md"
       ],
       "rules": [
         "Read full local sources",
@@ -50,8 +53,8 @@
       }
     },
     "referenceDocs": {
-      "archivePlan": "campaigns/world-library/manual-curation/reports/subagent-chapter-archive-iteration-plan.md",
-      "archivePlanJson": "campaigns/world-library/manual-curation/reports/subagent-chapter-archive-iteration-plan.json"
+      "archivePlan": "campaigns/world-library/manual-curation/gundam-seed-opus-p1-style/PLAN.locked.md",
+      "archivePlanJson": "campaigns/world-library/manual-curation/gundam-seed-opus-p1-style/execution-plan.json"
     },
     "neverLoad": [],
     "selfDocTargets": {},
@@ -59,7 +62,7 @@
   },
   "orchestrator": {
     "orchestrator": {
-      "maxLanes": 3,
+      "maxLanes": 2,
       "worktreeLocation": "subdirectory",
       "worktreePrefix": ".worktrees",
       "batchIdFormat": "timestamp",

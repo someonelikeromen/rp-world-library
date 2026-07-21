@@ -1,0 +1,165 @@
+{
+  "schema": "jojo-derived-relationship-index-v1",
+  "worldId": "jojo",
+  "recordType": "derived-relationship-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "formalRelationshipFacts": [],
+  "derivedMentionEdges": [
+    {
+      "source": "characters:替身",
+      "target": "abilities:替身使者",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "替身使者",
+      "sourceRefs": [
+        "JOJO (1).worldbook.json#entry-1"
+      ],
+      "id": "edge-1",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:世界背景",
+      "target": "abilities:波纹",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "波纹",
+      "sourceRefs": [
+        "JOJO (1).worldbook.json#entry-0"
+      ],
+      "id": "edge-2",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:成为替身使者的方法",
+      "target": "characters:替身",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "替身",
+      "sourceRefs": [
+        "JOJO (1).worldbook.json#entry-6"
+      ],
+      "id": "edge-3",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:成为替身使者的方法",
+      "target": "abilities:替身使者",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "替身使者",
+      "sourceRefs": [
+        "JOJO (1).worldbook.json#entry-6"
+      ],
+      "id": "edge-4",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:替身使者",
+      "target": "characters:替身",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "替身",
+      "sourceRefs": [
+        "JOJO (1).worldbook.json#entry-3"
+      ],
+      "id": "edge-5",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:替身的能力",
+      "target": "characters:替身",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "替身",
+      "sourceRefs": [
+        "JOJO (1).worldbook.json#entry-2"
+      ],
+      "id": "edge-6",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:替身的能力",
+      "target": "abilities:替身使者",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "替身使者",
+      "sourceRefs": [
+        "JOJO (1).worldbook.json#entry-2"
+      ],
+      "id": "edge-7",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:替身类型",
+      "target": "characters:替身",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "替身",
+      "sourceRefs": [
+        "JOJO (1).worldbook.json#entry-4"
+      ],
+      "id": "edge-8",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    }
+  ],
+  "counts": {
+    "derivedMentionEdges": 8
+  }
+}

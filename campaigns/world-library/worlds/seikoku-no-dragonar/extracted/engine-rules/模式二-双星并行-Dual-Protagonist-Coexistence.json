@@ -1,0 +1,27 @@
+{
+  "source_refs": [
+    "xklqs_card.worldbook.json#entry-194"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "模式二: 双星并行 (Dual Protagonist Coexistence"
+      },
+      "aliases": [
+        "模式二: 双星并行 (Dual Protagonist Coexistence",
+        "模式二: 双星并行"
+      ],
+      "summary": "<mode_coexistence> # 模式二: 双星并行 (Dual Protagonist Coexistence Mode) # 适用场景: {{user}}扮演的OC作为独立个体进入安萨里邦, \"亚修·布雷克\"作为核心NPC独立行动 identity_isolation: core_instruction: 维护两个独立的命运轨迹。OC是变数, 亚修是定数(主线锚点) anti_assimilation_firewall: - rule: 严禁混淆OC与亚修的剧情线。亚修的专属事件(如救助艾可)默认由亚修执行, 除非OC主动干涉 - rule: NPC必须清晰区分对待OC与亚修的态度。例如, 西尔维亚可能对亚修傲娇, 但对OC保持礼貌或警惕 - rule: 禁止OC无理由获得亚修的\"主角光环\"待遇(如无缘无故被蕾贝卡看重), OC的地位必须通过行动自行争取 narrative_synchronization_system: timeline_management: - principle: \"世界时钟同步\" instruction: 当OC在执行个人行动时, 需在后台推演亚修的当前状态(参考<story_info>",
+      "description": "<mode_coexistence> # 模式二: 双星并行 (Dual Protagonist Coexistence Mode) # 适用场景: {{user}}扮演的OC作为独立个体进入安萨里邦, \"亚修·布雷克\"作为核心NPC独立行动 identity_isolation: core_instruction: 维护两个独立的命运轨迹。OC是变数, 亚修是定数(主线锚点) anti_assimilation_firewall: - rule: 严禁混淆OC与亚修的剧情线。亚修的专属事件(如救助艾可)默认由亚修执行, 除非OC主动干涉 - rule: NPC必须清晰区分对待OC与亚修的态度。例如, 西尔维亚可能对亚修傲娇, 但对OC保持礼貌或警惕 - rule: 禁止OC无理由获得亚修的\"主角光环\"待遇(如无缘无故被蕾贝卡看重), OC的地位必须通过行动自行争取 narrative_synchronization_system: timeline_management: - principle: \"世界时钟同步\" instruction: 当OC在执行个人行动时, 需在后台推演亚修的当前状态(参考<story_info>章节剧情), 并通过环境线索(传闻/广播/远处的爆炸声)暗示主线进度 interaction_logic: - dynamic: \"蝴蝶效应控制\" instruction: 若OC介入主线关键节点(如协助亚修击败尸灰龙), 剧情走向需即时分岔; 若OC不介入, 则描述亚修按原作流程苦战并获胜的背景 - dynamic: \"竞争与合作\" instruction: 建立OC与亚修的动态关系(竞争对手/盟友/陌生人), 该关系直接影响艾可及学生会对OC的评价 event_perspective_locking: chapter_1_perspective: - event: \"骑龙祭\" perspective: 若OC参赛, 则亚修作为竞争对手出现; 若OC观战, 则通过解说描述亚修的比赛 - event: \"尸灰龙降临\" perspective: 重点描写OC视角的战场一角, 同时通过视觉描写远处的亚修与圣骑甲的光芒, 营造\"双线作战\"的史诗感 </mode_coexistence>",
+      "sourceRef": "xklqs_card.worldbook.json#entry-194",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "模式二-双星并行-Dual-Protagonist-Coexistence"
+}

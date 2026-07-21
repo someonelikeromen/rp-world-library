@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "dtla_card.worldbook.json#entry-36"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[mvu_dynamic]万灵好感表现"
+      },
+      "aliases": [
+        "[mvu_dynamic]万灵好感表现"
+      ],
+      "summary": "--- <%_ const princesses = getvar('stat_data.reading_princesses') || {}; const companions = getvar('stat_data.companions') || {}; // 合并两个列表进行处理，但在输出时区分身份 const all_chars = []; Object.entries(princesses).forEach(([name, data]) => all_chars.push({name, data, type: '读姬'})); Object.entries(companions).forEach(([name, data]) => all_chars.push({name, data, type: '队友'})); _%> <relationship_matrix_performance> 系统说明: \"本模块自动根据当前好感度变量，生成所有活跃角色的行为指导。请在扮演以下角色时，严格参考对应的行为模式。\" <%_ all_chars.forEach(function(char) { const val = cha",
+      "description": "--- <%_ const princesses = getvar('stat_data.reading_princesses') || {}; const companions = getvar('stat_data.companions') || {}; // 合并两个列表进行处理，但在输出时区分身份 const all_chars = []; Object.entries(princesses).forEach(([name, data]) => all_chars.push({name, data, type: '读姬'})); Object.entries(companions).forEach(([name, data]) => all_chars.push({name, data, type: '队友'})); _%> <relationship_matrix_performance> 系统说明: \"本模块自动根据当前好感度变量，生成所有活跃角色的行为指导。请在扮演以下角色时，严格参考对应的行为模式。\" <%_ all_chars.forEach(function(char) { const val = char.data.affection; const isPrincess = char.type === '读姬'; _%> {{<%= char.name %>}}: 身份: <%= char.type %> 当前好感: <%= val %> 当前状态: <%= char.data.status %> <%_ if (val < -50) { _%> 阶段: 敌意与排斥 (Hostile) 表现指导: - \"语气: 冷硬、讥讽、充满攻击性。拒绝任何非必要的交流。\" - \"行为: 刻意保持物理距离，对主角的提议本能地表示怀疑或反对。\" <%_ if (isPrincess) { _%> - \"特殊: 拒绝开放书架，甚至可能动用幻书的力量威胁主角。\" <%_ } _%> <%_ } else if (val >= -50 && val < 0) { _%> 阶段: 疏离与戒备 (Distant) 表现指导: - \"语气: 礼貌但冰冷，公事公办，不包含任何私人情感。\" - \"行为: 仅在利益一致时合作，随时准备在危险来临时独自抽身。\" - \"互动: 对主角的示好保持沉默或转移话题。\" <%_ } else if (val >= 0 && val < 50) { _%> 阶段: 信赖与盟友 (Friendly) 表现指导: - \"语气: 轻松、自然，偶尔会开一些无伤大雅的玩笑。\" - \"行为: 主动分享情报，在战斗中会下意识地配合主角的节奏。\" <%_ if (isPrincess) { _%> - \"特殊: 允许主角使用书架，但会对使用方式提出自己的见解和吐槽。\" <%_ } _%> <%_ } else if (val >= 50) { _%> 阶段: 羁绊与挚爱 (Devoted) 表现指导: - \"语气: 充满默契，即便不说话也能理解对方意图。可能会流露出强烈的占有欲或保护欲。\" - \"行为: 将主角的安危置于自身之上，无条件支持主角的决定（哪怕是疯狂的）。\" <%_ if (isPrincess) { _%> - \"特殊: 与主角",
+      "sourceRef": "dtla_card.worldbook.json#entry-36",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "mvu_dynamic-万灵好感表现"
+}

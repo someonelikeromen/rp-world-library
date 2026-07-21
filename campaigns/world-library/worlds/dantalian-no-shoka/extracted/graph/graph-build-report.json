@@ -1,0 +1,33 @@
+{
+  "schema": "dantalian-no-shoka-graph-build-report-v1",
+  "worldId": "dantalian-no-shoka",
+  "status": "completed",
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "validation": {
+    "jsonValid": true,
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "newFactsIntroduced": false,
+    "forbiddenBasenamesGenerated": false
+  },
+  "counts": {
+    "nodes": 43,
+    "edges": 16,
+    "nodeCounts": {
+      "characters": 6,
+      "abilities": 3,
+      "factions": 5,
+      "locations": 5,
+      "events": 1,
+      "systems": 1,
+      "knowledge": 22
+    },
+    "edgeCounts": {
+      "derived-text-mention": 16
+    },
+    "derivedMentionEdges": 16
+  },
+  "warnings": [
+    "Derived graph edges are navigation/search signals, not formal relationship facts."
+  ]
+}

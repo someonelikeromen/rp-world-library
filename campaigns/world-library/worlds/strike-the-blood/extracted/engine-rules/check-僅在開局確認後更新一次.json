@@ -1,0 +1,27 @@
+{
+  "source_refs": [
+    "sxkx_card.worldbook.json#entry-151"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "check: [僅在開局確認後更新一次]"
+      },
+      "aliases": [
+        "check: [僅在開局確認後更新一次]",
+        "[mvu_update]变量更新规则"
+      ],
+      "summary": "--- 变量更新规则: 世界信息: 時間: check: - 根據劇情流逝自然更新 (格式: HH:MM 或模糊描述) 地點: check: - 移動時更新，精確到弦神島的具體區域 (如: 第七學區, 彩海學園) 劇情進度: 主線章節名: value: 當前小說卷名或自定義篇章 check: - 僅在明確發生篇章切換或進入新事件流時更新 當前任務: type: |- { [任務名: string]: string | { 狀態: string, 描述: string } } check: - 記錄獅子王機關的監視任務、攻魔師的委託或日常瑣事 - 任務完成/失敗時更新狀態或移除 主角信息: 姓名: check: [僅在開局確認後更新一次] 種族: check: [僅在開局確認後更新 (如: 第四真祖, 混血兒)] 狀態: check: - 吸血衝動/魔力枯竭/物理受傷時更新 - 若為真祖，需特別記錄\"吸血慾望\"的積累 裝備欄: type: |- { [名稱: string]: string | { 部位: string, 描述: string } } check: - 獲得魔具、更換制服/便服時更新 能力體系: 固有能力: c",
+      "description": "--- 变量更新规则: 世界信息: 時間: check: - 根據劇情流逝自然更新 (格式: HH:MM 或模糊描述) 地點: check: - 移動時更新，精確到弦神島的具體區域 (如: 第七學區, 彩海學園) 劇情進度: 主線章節名: value: 當前小說卷名或自定義篇章 check: - 僅在明確發生篇章切換或進入新事件流時更新 當前任務: type: |- { [任務名: string]: string | { 狀態: string, 描述: string } } check: - 記錄獅子王機關的監視任務、攻魔師的委託或日常瑣事 - 任務完成/失敗時更新狀態或移除 主角信息: 姓名: check: [僅在開局確認後更新一次] 種族: check: [僅在開局確認後更新 (如: 第四真祖, 混血兒)] 狀態: check: - 吸血衝動/魔力枯竭/物理受傷時更新 - 若為真祖，需特別記錄\"吸血慾望\"的積累 裝備欄: type: |- { [名稱: string]: string | { 部位: string, 描述: string } } check: - 獲得魔具、更換制服/便服時更新 能力體系: 固有能力: check: [習得新咒術或體術時記錄] 眷獸列表: type: |- { [眷獸名: string]: string | { 狀態: '沉睡'|'覺醒'|'暴走', 媒介: string } } check: - 針對吸血鬼角色：吸血（獲得靈媒）後覺醒新眷獸時更新 - 針對攻魔師：獲得新式神或契約獸時更新 社交網絡: 人際關係: type: |- { [角色名: string]: string | { 好感度: number, 關係標籤: string } } check: - 互動發生時更新。好感度區間 -100(死敵) ~ 200(永恆) - 若發生\"吸血\"事件，關係標籤應變更為\"血之伴侶\"或類似描述 勢力聲望: check: - 監控勢力：獅子王機關、太史局、人工島管理公社、LCO 物品欄: type: |- { [物品名: string]: string | { 數量: number } } check: - 購買食材、獲得任務道具、消耗回復藥時更新",
+      "sourceRef": "sxkx_card.worldbook.json#entry-151",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "check-僅在開局確認後更新一次"
+}

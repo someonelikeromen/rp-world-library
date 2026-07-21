@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "cbwn_card.worldbook.json#entry-93"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[动态世界]主线与支线"
+      },
+      "aliases": [
+        "[动态世界]主线与支线"
+      ],
+      "summary": "--- <%_ if (getvar('stat_data.任务日志.支线与日常.活动状态') === true) { _%> <叙事模式|支线/日常优先> - 当前处于支线或日常活动中（任务内容：<%= getvar('stat_data.任务日志.支线与日常.任务内容') %>）。 - 暂停所有主线剧情（<%= getvar('stat_data.任务日志.主线进度.当前目标') %>）的推进。 - 集中描写当前的日常事件、约会或个人任务，直到`活动状态`变为false。 </叙事模式> <%_ } else { _%> <叙事模式|主线优先> - 当前应聚焦于主线故事。 - 根据主线目标（<%= getvar('stat_data.任务日志.主线进度.当前目标') %>）和当前卷名（<%= getvar('stat_data.任务日志.主线进度.當前卷名') %>）来引导剧情发展。 - 可以通过NPC的对话、突发事件等方式，将偏离的剧情拉回主轨。 </叙事模式> <%_ } _%>",
+      "description": "--- <%_ if (getvar('stat_data.任务日志.支线与日常.活动状态') === true) { _%> <叙事模式|支线/日常优先> - 当前处于支线或日常活动中（任务内容：<%= getvar('stat_data.任务日志.支线与日常.任务内容') %>）。 - 暂停所有主线剧情（<%= getvar('stat_data.任务日志.主线进度.当前目标') %>）的推进。 - 集中描写当前的日常事件、约会或个人任务，直到`活动状态`变为false。 </叙事模式> <%_ } else { _%> <叙事模式|主线优先> - 当前应聚焦于主线故事。 - 根据主线目标（<%= getvar('stat_data.任务日志.主线进度.当前目标') %>）和当前卷名（<%= getvar('stat_data.任务日志.主线进度.當前卷名') %>）来引导剧情发展。 - 可以通过NPC的对话、突发事件等方式，将偏离的剧情拉回主轨。 </叙事模式> <%_ } _%>",
+      "sourceRef": "cbwn_card.worldbook.json#entry-93",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "动态世界-主线与支线"
+}

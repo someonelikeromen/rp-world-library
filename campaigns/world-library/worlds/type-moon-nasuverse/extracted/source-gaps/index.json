@@ -1,0 +1,176 @@
+{
+  "schema": "tm-nasuverse-extracted-source-gap-index-v1",
+  "worldId": "type-moon-nasuverse",
+  "recordFamily": "source-gaps-blockers-and-held-material",
+  "defaultQueryPolicy": {
+    "includeInFormalWorldQuery": false,
+    "candidateOnly": true,
+    "sourceGap": true
+  },
+  "sourceGapInventories": [
+    {
+      "gapInventoryId": "fate-spinoff-source-gap-inventory",
+      "sourcePilot": "fate-spinoff-profile-supplement-pilot",
+      "status": "blocked-insufficient-source / inventory-only",
+      "candidateOnly": true,
+      "sourceGap": true,
+      "continuityScope": ["fate-extra", "fate-prototype", "fate-apocrypha", "fate-strange-fake", "gudaguda", "emiya-gohan"],
+      "publicationDecision": "Do not publish formal spinoff facts; preserve inventory only.",
+      "sourceRefs": [
+        "fate-spinoff-profile-supplement-pilot/source-gap-inventory.json",
+        "fate-spinoff-profile-supplement-pilot/source-gap-inventory.md",
+        "fate-spinoff-profile-supplement-pilot/source-unit-manifest.json",
+        "fate-spinoff-profile-supplement-pilot/audit/final-acceptance.md"
+      ],
+      "sourceType": "inventory-only-local-worldbook-summary",
+      "credibility": "insufficient-for-formal-merge",
+      "canonStatus": "not-formalized",
+      "audit": {
+        "formalFactsCreated": false,
+        "reason": "Local source depth is summary-grade or missing for formal merged spinoff supplements."
+      }
+    },
+    {
+      "gapInventoryId": "tsukihime-supporting-cast-and-type-lumina-gaps",
+      "sourcePilot": "tsukihime-supporting-cast-candidate-supplement-pilot",
+      "status": "accepted-with-source-gap-limitations",
+      "candidateOnly": true,
+      "sourceGap": true,
+      "continuityScope": ["tsukihime", "melty-blood", "type-lumina"],
+      "publicationDecision": "Candidate/source-gap only; no formal characters/events/relationships/graph/timeline facts.",
+      "sourceRefs": [
+        "tsukihime-supporting-cast-candidate-supplement-pilot/source-gap-inventory.json",
+        "tsukihime-supporting-cast-candidate-supplement-pilot/candidate-supplement.json",
+        "tsukihime-supporting-cast-candidate-supplement-pilot/STATUS.md"
+      ],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B for explicit signals; insufficient for formal supporting-cast facts",
+      "canonStatus": "adapted/source-gap",
+      "audit": {
+        "typeLuminaPolicy": "Type Lumina-specific records remain blocked/source-gap because no direct Type Lumina source text was found in the read worldbook sources."
+      }
+    },
+    {
+      "gapInventoryId": "atlas-sion-human-scope-gap",
+      "sourcePilot": "type-moon-core-general-settings-pilot",
+      "recordId": "atlas-and-sion-candidate-context",
+      "status": "blocked-needs-human-scope",
+      "candidateOnly": true,
+      "sourceGap": true,
+      "continuityScope": ["tsukihime-worldline-candidate", "fgo-worldline-candidate", "melty-blood-candidate"],
+      "publicationDecision": "Do not promote Atlas/Sion into a formal merged institution or continuity fact without Melty-specific corroboration.",
+      "sourceRefs": [
+        "type-moon-core-general-settings-pilot/source-gap-inventory.json",
+        "type-moon-core-general-settings-pilot/normalized/core-general-settings/index.json#atlas-and-sion-candidate-context"
+      ],
+      "sourceType": "candidate supplement plus FGO script context",
+      "credibility": "B adapted/candidate",
+      "canonStatus": "adapted/source-mixed",
+      "audit": {
+        "finalStatusRef": "type-moon-core-general-settings-pilot/audit/final-status.json",
+        "humanScopeRequired": true
+      }
+    },
+    {
+      "gapInventoryId": "prisma-safety-and-cross-work-gaps",
+      "sourcePilot": "prisma-illya-profile-supplement-pilot",
+      "status": "passed-with-nonblocking-risks; gaps retained",
+      "candidateOnly": true,
+      "sourceGap": true,
+      "continuityScope": ["prisma-illya", "cross-work"],
+      "publicationDecision": "Unsafe underage adult-content, RP/self-insert, Sitonai/Shidounai, and exact chronology gaps are excluded from formal facts.",
+      "sourceRefs": [
+        "prisma-illya-profile-supplement-pilot/normalized/profile-supplement/prisma-illya/source-gap-index.json",
+        "prisma-illya-profile-supplement-pilot/extracted/profile-supplement/prisma-illya/records/source-gap-and-safety-blockers.json",
+        "prisma-illya-profile-supplement-pilot/STATUS.md"
+      ],
+      "sourceType": "user-file-worldbook-profile-redacted",
+      "credibility": "B for safe source-backed records; nonformal for gaps",
+      "canonStatus": "adapted/source-gap",
+      "audit": {
+        "redactedUnsafeSections": true,
+        "crossWorkMerged": false,
+        "formalPromotionBlocked": true
+      }
+    },
+    {
+      "gapInventoryId": "lb6-fairy-calendar-relative-only-gaps",
+      "sourcePilot": "lb6-fairy-calendar-supplement-pilot",
+      "status": "passed-with-nonblocking-risks; relative-only gaps retained",
+      "candidateOnly": true,
+      "sourceGap": true,
+      "continuityScope": ["fgo-lostbelt", "lb6-fairy-calendar"],
+      "publicationDecision": "Formal calendar records are relative-only. Month/day precision and Gregorian conversion remain source gaps.",
+      "sourceRefs": [
+        "lb6-fairy-calendar-supplement-pilot/normalized/calendar-setting/source-gap-markers.json",
+        "lb6-fairy-calendar-supplement-pilot/STATUS.md"
+      ],
+      "sourceType": "user-file-worldbook-setting",
+      "credibility": "B",
+      "canonStatus": "canon-like/adapted/source-gap",
+      "audit": {
+        "monthDayPrecisionInferred": false,
+        "gregorianConversionInferred": false
+      }
+    },
+    {
+      "gapInventoryId": "ordeal-call-signal-coverage-gap",
+      "sourcePilot": "fgo-ordeal-call-pilot",
+      "status": "accepted-with-nonblocking-risks; signal merge limitation retained",
+      "candidateOnly": false,
+      "sourceGap": true,
+      "continuityScope": ["fgo-ordeal-call"],
+      "publicationDecision": "Do not infer dedicated merged appearance/ability/combat-effect canonical records; reference accepted packet signal indexes only.",
+      "sourceRefs": [
+        "fgo-ordeal-call-pilot/normalized/ordeal-call/*/signal-index.json",
+        "fgo-ordeal-call-pilot/STATUS.md"
+      ],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like/source-gap-limited",
+      "audit": {
+        "finalComplianceRef": "fgo-ordeal-call-pilot/STATUS.md#Retrospective Merge Compliance Audit Addendum",
+        "missingDedicatedCanonicalSignalDirs": true
+      }
+    },
+    {
+      "gapInventoryId": "tsukihime-dead-apostle-hold",
+      "sourcePilot": "tsukihime-dead-apostle-profile-supplement-pilot",
+      "status": "hold-from-formal-publication",
+      "candidateOnly": false,
+      "sourceGap": true,
+      "continuityScope": ["tsukihime", "dead-apostle", "true-ancestor"],
+      "publicationDecision": "Hold formal publication pending separate final audit.",
+      "sourceRefs": [
+        "tsukihime-dead-apostle-profile-supplement-pilot/audit/final/final-status.json",
+        "tsukihime-dead-apostle-profile-supplement-pilot/STATUS.md"
+      ],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B pending separate final audit",
+      "canonStatus": "adapted/held",
+      "audit": {
+        "blocker": "audit/final/final-status.json reports merge-generated-pending-audit and canAdvance false."
+      }
+    },
+    {
+      "gapInventoryId": "mahoyo-hold-pending-auditor-rerun",
+      "sourcePilot": "mahoyo-profile-supplement-pilot",
+      "status": "hold-from-formal-publication",
+      "candidateOnly": false,
+      "sourceGap": true,
+      "continuityScope": ["mahoyo"],
+      "publicationDecision": "Hold formal publication pending read-only auditor rerun.",
+      "sourceRefs": [
+        "mahoyo-profile-supplement-pilot/STATUS.md",
+        "mahoyo-profile-supplement-pilot/audit/fixer/mahoyo-fixer-retry-report.json"
+      ],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B pending final auditor rerun",
+      "canonStatus": "adapted/held",
+      "audit": {
+        "blocker": "STATUS.md reports fixer retry completed and pending read-only auditor rerun."
+      }
+    }
+  ],
+  "representativeShardRefs": ["source-gaps/shards/source-gap-boundary-records.json"]
+}

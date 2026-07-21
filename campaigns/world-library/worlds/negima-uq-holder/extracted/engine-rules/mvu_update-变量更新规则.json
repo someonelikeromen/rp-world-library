@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "mdls_card.worldbook.json#entry-221"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[mvu_update]变量更新规则"
+      },
+      "aliases": [
+        "[mvu_update]变量更新规则"
+      ],
+      "summary": "--- 变量更新规则: 起始时代: type: string enum: 魔法老师, UQ HOLDER check: - 魔法老师剧情完成第20卷后可切换为UQ HOLDER - 沙盒中{{user}}主动要求跳时代时切换 - 仅允许魔法老师→UQ HOLDER单向切换，绝对禁止反向 - 切换后永久锁定，不可撤销 原创主角模式: type: string enum: 原作, 取代, 共存 check: - 仅在开局时设定，游戏中不可切换 当前模式: type: string enum: 剧情, 沙盒 check: - 开局时由Swipe决定 - {{user}}明确表达切换意图时更新 - 切换后保留所有关系网数据和剧情进度 主角状态: type: string enum: 涅吉期, 刀太继承期, 涅吉回归期 check: - 涅吉期：魔法老师时代默认状态，或共存模式始终 - 刀太继承期：魔法老师剧情完成且{{user}}确认过渡后。涅吉完全下线，{{user}}临时扮演刀太 - 涅吉回归期：UQ HOLDER中后期(约卷12起)涅吉回归时，{{user}}可选切回涅吉 - 切换后EJS自动更新角色条目视角 关系网: typ",
+      "description": "--- 变量更新规则: 起始时代: type: string enum: 魔法老师, UQ HOLDER check: - 魔法老师剧情完成第20卷后可切换为UQ HOLDER - 沙盒中{{user}}主动要求跳时代时切换 - 仅允许魔法老师→UQ HOLDER单向切换，绝对禁止反向 - 切换后永久锁定，不可撤销 原创主角模式: type: string enum: 原作, 取代, 共存 check: - 仅在开局时设定，游戏中不可切换 当前模式: type: string enum: 剧情, 沙盒 check: - 开局时由Swipe决定 - {{user}}明确表达切换意图时更新 - 切换后保留所有关系网数据和剧情进度 主角状态: type: string enum: 涅吉期, 刀太继承期, 涅吉回归期 check: - 涅吉期：魔法老师时代默认状态，或共存模式始终 - 刀太继承期：魔法老师剧情完成且{{user}}确认过渡后。涅吉完全下线，{{user}}临时扮演刀太 - 涅吉回归期：UQ HOLDER中后期(约卷12起)涅吉回归时，{{user}}可选切回涅吉 - 切换后EJS自动更新角色条目视角 关系网: type: |- { [角色名: string]: { 好感度: number; // 0~100 信任度: number; // 0~100 关系: string; 归属: \"涅吉\" | \"刀太\" | \"无\" | \"共通\"; } } check: - 根据互动质量增减好感度，±1~10；正向增负向减 - 根据关键事件增减信任度，±5~20 - 新角色首次互动用insert添加到/关系网 - 已存在角色用replace更新 - 归属字段创建后不可更改（系统硬约束） - 禁止NPC创建跨归属的好感度增长（涅吉后宫→刀太；刀太后宫→涅吉）。{{user}}不受此限制 剧情: 当前卷: type: number range: 1~20 check: - 魔法老师时代：1~20 - UQ HOLDER时代由EJS章节控制器独立管理 - 完成当前卷所有关键事件后+1 当前章节: type: string check: - 与当前卷对应，格式为各卷章节标题 - 由EJS章节控制器自动匹配 章节内已完成事件: type: string check: - 记录当前章节内已完成的事件名，逗号分隔 关键事件: type: string check: - 记录重大剧情转折或分支选择 模式: type: string enum: 日常, 推进 check: - 日常：不主动推进主线，让{{user}}主导互动 - 推进：根据本章剧情发展事件 推进许可: type: boolean check: - 当前章节事件全部完成后设为true - 下一章开始时重置为false 沙盒状态: 当前时间: type: string check: - 格式：第X卷[初期/中期/后期]·[白天/夜间/异界] - AI根据{{user}}行动和互动完成后自然推进 - 每次最大跳跃不超过半个时间段 当前地点: type: string check: - {{user}}移动到新地点时更新 当前节点: type: string check: - 匹配沙盒节点条目名称 - {{user}",
+      "sourceRef": "mdls_card.worldbook.json#entry-221",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "mvu_update-变量更新规则"
+}

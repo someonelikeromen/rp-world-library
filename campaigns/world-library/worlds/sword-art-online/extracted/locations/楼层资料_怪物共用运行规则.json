@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "SAO_Progressive_v1.3.json#entry-9038"
+  ],
+  "sourceType": "local-sillytavern-json-card",
+  "credibility": "local-card-indexed",
+  "canonStatus": "adapted/card-backed",
+  "periods": [
+    {
+      "period_id": "local-ingest-entry",
+      "name": {
+        "zh": "楼层资料·怪物共用运行规则"
+      },
+      "aliases": [
+        "__SAO_FLOOR_SHARED_RULES__"
+      ],
+      "summary": "<SAO_FLOOR_SHARED_RULES version=\"5.1.1\">\n1. 當前樓層原作錨點優先於原創補全；已發生的世界線歷史優先於靜態種子。\n2. 第一次確認的地點、迷宮、Boss情報、任務與秘密寫入`/世界/當前樓層檔案`，回訪沿用。\n3. 組織使用`/世界/組織/<組織ID>`；角色使用`/角色/<角色ID>`；任務使用`/任務/<任務ID>`；事件使用`/世界/事件/<事件ID>`。\n4. 新怪物個體在條目帶寬內一次確定資料。招式需有前搖、範圍、結果、收招與可執行應對。\n5. 戰鬥開始時建立`/世界/當前遭遇`；結束後由戰鬥處理器寫入HP、經驗、Col、耐久、熟練度與掉落，再清除遭遇。\n6. 任何確定性變化只建立對應UnifiedAction；不直接更新玩家數值與背包。\n7. 樓層切換由腳本保存舊的當前樓層檔案並載入新樓層，禁止同樓層同時存在兩份可變副本。\n</SAO_FLOOR_SHARED_RULES>",
+      "description": "<SAO_FLOOR_SHARED_RULES version=\"5.1.1\">\n1. 當前樓層原作錨點優先於原創補全；已發生的世界線歷史優先於靜態種子。\n2. 第一次確認的地點、迷宮、Boss情報、任務與秘密寫入`/世界/當前樓層檔案`，回訪沿用。\n3. 組織使用`/世界/組織/<組織ID>`；角色使用`/角色/<角色ID>`；任務使用`/任務/<任務ID>`；事件使用`/世界/事件/<事件ID>`。\n4. 新怪物個體在條目帶寬內一次確定資料。招式需有前搖、範圍、結果、收招與可執行應對。\n5. 戰鬥開始時建立`/世界/當前遭遇`；結束後由戰鬥處理器寫入HP、經驗、Col、耐久、熟練度與掉落，再清除遭遇。\n6. 任何確定性變化只建立對應UnifiedAction；不直接更新玩家數值與背包。\n7. 樓層切換由腳本保存舊的當前樓層檔案並載入新樓層，禁止同樓層同時存在兩份可變副本。\n</SAO_FLOOR_SHARED_RULES>",
+      "sourceRef": "SAO_Progressive_v1.3.json#entry-9038",
+      "sourceType": "local-sillytavern-json-card",
+      "credibility": "local-card-indexed",
+      "canonStatus": "adapted/card-backed"
+    }
+  ],
+  "location_id": "楼层资料_怪物共用运行规则"
+}

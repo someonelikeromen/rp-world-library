@@ -1,0 +1,146 @@
+{
+  "schema": "taimanin-derived-relationship-index-v1",
+  "worldId": "taimanin",
+  "recordType": "derived-relationship-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "formalRelationshipFacts": [],
+  "derivedMentionEdges": [
+    {
+      "source": "characters:井河阿莎姬",
+      "target": "characters:秋山凛子",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "秋山凛子",
+      "sourceRefs": [
+        "0010对魔忍.worldbook.json#entry-5"
+      ],
+      "id": "edge-1",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:水城不知火",
+      "target": "factions:黄泉原",
+      "sourceEntityType": "characters",
+      "targetEntityType": "factions",
+      "predicate": "characters-mentions-factions",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "黄泉原",
+      "sourceRefs": [
+        "0010对魔忍.worldbook.json#entry-7"
+      ],
+      "id": "edge-2",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:水城雪风",
+      "target": "characters:水城不知火",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "水城不知火",
+      "sourceRefs": [
+        "0010对魔忍.worldbook.json#entry-6"
+      ],
+      "id": "edge-3",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:水城雪风",
+      "target": "characters:秋山凛子",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "秋山凛子",
+      "sourceRefs": [
+        "0010对魔忍.worldbook.json#entry-6"
+      ],
+      "id": "edge-4",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:秋山凛子",
+      "target": "characters:水城雪风",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "水城雪风",
+      "sourceRefs": [
+        "0010对魔忍.worldbook.json#entry-0"
+      ],
+      "id": "edge-5",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:五车",
+      "target": "characters:井河阿莎姬",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "井河阿莎姬",
+      "sourceRefs": [
+        "0010对魔忍.worldbook.json#entry-11"
+      ],
+      "id": "edge-6",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:五车",
+      "target": "characters:水城雪风",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "水城雪风",
+      "sourceRefs": [
+        "0010对魔忍.worldbook.json#entry-11"
+      ],
+      "id": "edge-7",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    }
+  ],
+  "counts": {
+    "derivedMentionEdges": 7
+  }
+}

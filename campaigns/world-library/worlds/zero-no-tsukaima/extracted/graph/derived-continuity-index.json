@@ -1,0 +1,27 @@
+{
+  "schema": "zero-no-tsukaima-derived-continuity-index-v1",
+  "worldId": "zero-no-tsukaima",
+  "recordType": "derived-continuity-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "continuityFamilies": [
+    {
+      "continuityFamilyId": "zero-no-tsukaima-worldbook-derived-continuity",
+      "sourceIndexes": [
+        "events/index.json",
+        "characters/index.json"
+      ],
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "eventNodes": []
+    },
+    {
+      "continuityFamilyId": "zero-no-tsukaima-engine-rules-excluded",
+      "sourceIndexes": [
+        "engine-rules/index.json"
+      ],
+      "excludedFromFormalGraph": true,
+      "reason": "Engine rules and status templates are not world facts."
+    }
+  ]
+}

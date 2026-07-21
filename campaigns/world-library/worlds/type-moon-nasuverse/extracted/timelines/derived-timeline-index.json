@@ -1,0 +1,119 @@
+{
+  "schema": "tm-nasuverse-extracted-derived-timeline-index-v1",
+  "worldId": "type-moon-nasuverse",
+  "recordType": "derived-timeline-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "defaultQueryPolicy": {
+    "candidateOnly": false,
+    "sourceGap": false,
+    "excludeHeldPilots": true,
+    "recordsResolvedFromPrimaryIndexes": ["events/index.json", "relationships/index.json", "rules/index.json"]
+  },
+  "timelineFamilies": [
+    {
+      "timelineFamilyId": "fsn-fz-route-and-war-timelines",
+      "sourcePilot": "fsn-fz-pilot",
+      "continuityScope": ["fate-zero", "fate-stay-night"],
+      "timelineIds": ["fz-fourth-war", "fsn-fate-route", "fsn-ubw-route", "fsn-hf-route"],
+      "sourceRefs": ["fsn-fz-pilot/merged/merged-timeline.json", "fsn-fz-pilot/merged/index.json"],
+      "sourceType": "p1-hybrid-local-worldbook-and-story-text",
+      "credibility": "B",
+      "canonStatus": "canon-like/adapted",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "auditStatusRef": "fsn-fz-pilot/audit/final-pass-report.json",
+      "policyNotes": ["FSN route timing is relative-only; FZ exact timestamps are preserved where provided by source."]
+    },
+    {
+      "timelineFamilyId": "fgo-part1-derived-timelines",
+      "sourcePilot": "fgo-script-pilot",
+      "continuityScope": ["fgo-part1"],
+      "timelineIds": ["fuyuki", "orleans", "septem", "okeanos", "london", "america", "camelot", "babylonia", "solomon"],
+      "sourceRefs": ["fgo-script-pilot/timeline/part1-chronological-index.json", "fgo-script-pilot/timeline/chapter-event-ranges.json", "fgo-script-pilot/merged/events/part1/"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "auditStatusRef": "fgo-script-pilot/STATUS.md"
+    },
+    {
+      "timelineFamilyId": "fgo-eor-derived-timelines",
+      "sourcePilot": "fgo-eor-pilot",
+      "continuityScope": ["fgo-epic-of-remnant"],
+      "timelineIds": ["shinjuku", "agartha", "shimousa", "salem"],
+      "sourceRefs": ["fgo-eor-pilot/timeline/eor/master.json", "fgo-eor-pilot/timeline/eor/", "fgo-eor-pilot/merged/events/"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "auditStatusRef": "fgo-eor-pilot/STATUS.md"
+    },
+    {
+      "timelineFamilyId": "fgo-lostbelt-derived-timelines",
+      "sourcePilot": "fgo-lb1-lb2-pilot; fgo-lb3-lb4-pilot; fgo-lb5-pilot; fgo-lb6-pilot",
+      "continuityScope": ["fgo-lostbelt"],
+      "timelineIds": ["lb1-anastasia", "lb2-gotterdammerung", "lb3-renzhi-tonghe-zhenguo", "lb4-chuangshi-miewang-lunhui", "lb5-1-atlantis", "lb5-2-olympos", "lb6-1-avalon-pre", "lb6-2-round-table-post"],
+      "sourceRefs": [
+        "fgo-lb1-lb2-pilot/timeline/lostbelt/index.json",
+        "fgo-lb3-lb4-pilot/timeline/lostbelt/index.json",
+        "fgo-lb5-pilot/timeline/lostbelt/index.json",
+        "fgo-lb6-pilot/timeline/lostbelt/index.json"
+      ],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "auditStatusRefs": ["fgo-lb1-lb2-pilot/STATUS.md", "fgo-lb3-lb4-pilot/STATUS.md", "fgo-lb5-pilot/STATUS.md", "fgo-lb6-pilot/STATUS.md"]
+    },
+    {
+      "timelineFamilyId": "fgo-ordeal-call-derived-timelines",
+      "sourcePilot": "fgo-ordeal-call-pilot",
+      "continuityScope": ["fgo-ordeal-call"],
+      "timelineIds": ["oc1-paper-moon", "oc2-id", "oc3-integration"],
+      "sourceRefs": ["fgo-ordeal-call-pilot/timeline/ordeal-call/index.json", "fgo-ordeal-call-pilot/timeline/ordeal-call/master.json", "fgo-ordeal-call-pilot/merged/events/ordeal-call/"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "auditStatusRef": "fgo-ordeal-call-pilot/STATUS.md",
+      "nonblockingLimitations": ["Timeline is accepted derived index for minimal merge; signal coverage gaps remain nonblocking."]
+    },
+    {
+      "timelineFamilyId": "profile-supplement-derived-timelines",
+      "sourcePilot": "kara-no-kyoukai-profile-supplement-pilot; prisma-illya-profile-supplement-pilot",
+      "continuityScope": ["kara-no-kyoukai", "prisma-illya"],
+      "sourceRefs": ["kara-no-kyoukai-profile-supplement-pilot/timeline/derived-index.json", "prisma-illya-profile-supplement-pilot/timeline/derived-index.json"],
+      "sourceType": "user-file-worldbook-profile/redacted-profile",
+      "credibility": "B",
+      "canonStatus": "canon-like/adapted",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "auditStatusRefs": ["kara-no-kyoukai-profile-supplement-pilot/STATUS.md", "prisma-illya-profile-supplement-pilot/STATUS.md"],
+      "policyNotes": ["Prisma exact canonical chronology and cross-work Sitonai/Shidounai are source-gap/candidate-only, not formal timeline facts."]
+    },
+    {
+      "timelineFamilyId": "lb6-fairy-calendar-relative-derived-timeline",
+      "sourcePilot": "lb6-fairy-calendar-supplement-pilot",
+      "continuityScope": ["fgo-lostbelt", "lb6-fairy-calendar"],
+      "sourceRefs": ["lb6-fairy-calendar-supplement-pilot/timeline/derived-index.json", "lb6-fairy-calendar-supplement-pilot/normalized/calendar-setting/relative-sequence-records.json"],
+      "sourceType": "user-file-worldbook-setting",
+      "credibility": "B",
+      "canonStatus": "canon-like/adapted",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "relativeOnlyPolicy": "No month/day precision or Gregorian conversion inferred.",
+      "auditStatusRef": "lb6-fairy-calendar-supplement-pilot/STATUS.md"
+    }
+  ],
+  "excludedDerivedTimelines": [
+    {"pilotId": "tsukihime-supporting-cast-candidate-supplement-pilot", "reason": "candidate-only/source-gap; no formal timeline facts"},
+    {"pilotId": "fate-spinoff-profile-supplement-pilot", "reason": "blocked-insufficient-source; inventory-only"},
+    {"pilotId": "tsukihime-dead-apostle-profile-supplement-pilot", "reason": "hold pending separate final audit"},
+    {"pilotId": "mahoyo-profile-supplement-pilot", "reason": "hold pending read-only auditor rerun"}
+  ]
+}

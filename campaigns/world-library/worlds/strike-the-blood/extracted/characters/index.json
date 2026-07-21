@@ -1,0 +1,92 @@
+{
+  "schema": "strike-the-blood-characters-index-v1",
+  "worldId": "strike-the-blood",
+  "recordFamily": "characters",
+  "count": 6,
+  "records": [
+    {
+      "id": "咒式战斗战技",
+      "name": "咒式战斗战技",
+      "aliases": [
+        "咒式战斗战技"
+      ],
+      "summary": "<Powers_Abilities_Green> - entry_name: 咒式战斗战技 activation_keys: [八雷神法, 八将神法, 灵视, 空间移转, 雾化] 八雷神法: 咒式近身格斗术，将咒力转化为物理冲击。 灵视: 剑巫特有的未来预测能力。 空间移转: 将移动时间归零的高阶位移技术。 雾化: D种血族的物理免疫手段。 </Powers_Abilities_Green>",
+      "sourceRefs": [
+        "sxkx_card.worldbook.json#entry-141"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "弦神岛",
+      "name": "弦神岛",
+      "aliases": [
+        "弦神岛"
+      ],
+      "summary": "<StrikeTheBlood_Factions_Geography> - entry_name: 弦神岛 activation_keys: [弦神岛, Itogami Island, 魔族特区] 定义: 位于太平洋龙脉之上的超大型人工浮岛,行政上属东京都,实为拥有独立政治系统的特别行政区,被称为\"魔族特区\"。 构造: 由四座人工岛与中央的\"基石之门\"构成。总人口约56万,其中约4%为合法魔族居民。气候终年炎热。 真相: 由弦神千罗结合风水术与科技打造,本质是为复活咎神该隐准备的巨大祭坛。 管理机构: 人工岛管理公社,下设特区警备队。 - entry_name: 基石之门 activation_keys: [基石之门] 定义: 连接弦神岛四座人工岛的核心建筑,外形为倒金字塔。 功能: 内部设有市政厅、商业设施,是岛屿的交通与政治枢纽。海面下四十层的管理设施负责吸收与缓冲海流、风浪对岛屿结构造成的冲击。最底层(海面下220米)存放着基石\"圣者的右臂\"。 - entry_name: 战王领域 activation_keys: [战王领域, Warlord's Dominion] 统治者: 第一真祖\"遗忘战王\"凯伊·朱兰巴拉达。 ",
+      "sourceRefs": [
+        "sxkx_card.worldbook.json#entry-143"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "真祖",
+      "name": "真祖",
+      "aliases": [
+        "真祖"
+      ],
+      "summary": "<StrikeTheBlood_Identities_Occupations> - entry_name: 真祖 activation_keys: [真祖, Primogenitor] strategy: selective insertion_order: 5 insertion_position: before_char_defs content: |- 定义: 最初、最强的吸血鬼,统率黑暗血族的帝王,被称为\"始源吸血鬼\"。 力量: 拥有最长久的\"固有堆积时间\",魔力匹敌一国军队,能操控天灾级的眷兽。 不死性: 脑或心脏被毁也能复活,是不死的诅咒的体现。 起源: 由走向灭亡的\"天部\"一族,借由诅咒赋予了最强的眷兽而诞生,本身是代替人类背负灾厄的活祭品。 - entry_name: 吸血鬼 activation_keys: [吸血鬼, Vampire] strategy: selective insertion_order: 10 insertion_position: after_char_defs content: |- 定义: 魔族中最强大的种族之一,以眷兽为主要力量。不老不死,拥有超常的恢复力与身体能力。 弱点: ",
+      "sourceRefs": [
+        "sxkx_card.worldbook.json#entry-144"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "真祖与高阶血族格位",
+      "name": "真祖与高阶血族格位",
+      "aliases": [
+        "真祖与高阶血族格位"
+      ],
+      "summary": "<Identities_Occupations_Green> - entry_name: 真祖与高阶血族格位 activation_keys: [真祖, 第一真祖, 第二真祖, 第三真祖, 第四真祖, 旧世代, 贵族] strategy: selective insertion_order: 20 insertion_position: after_char_defs content: |- 真祖: 吸血鬼的顶点，拥有无限魔力与不朽躯体。其蓄积的固有堆积时间是力量源泉。 旧世代: 存活两百年以上的吸血鬼，具备高度战斗素养与雾化能力。 贵族: 拥有真祖血脉分支的高阶成员，其眷兽威力匹敌大型军事单位。 </Identities_Occupations_Green>",
+      "sourceRefs": [
+        "sxkx_card.worldbook.json#entry-140"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "眷兽",
+      "name": "眷兽",
+      "aliases": [
+        "眷兽"
+      ],
+      "summary": "<StrikeTheBlood_Abilities> - entry_name: 眷兽 activation_keys: [眷兽, Kenjuu, 召唤兽] 定义: 吸血鬼豢养在血液中的异界召唤兽,是具备自我意志的魔力聚合体。 召唤代价: 需吞噬宿主寿命或庞大魔力才能具现化。人类召唤会瞬间耗尽寿命。 特性: 物理攻击几乎无效,需用魔力或神气对抗。为维持存在会不断从周围夺取\"资讯(记忆)\"。 起源: 由\"天部\"创造的极致破坏兵器。后因\"圣歼\",被玷污的众神灵魂以愤怒与绝望孕育出诅咒之兽,成为吸血鬼的眷兽。 - entry_name: 圣歼 activation_keys: [圣歼, 圣闪, Holy Genocide] 定义: 咎神该隐为结束天部战争而创造的高等禁咒,可以改写世界物理法则。 效果: 能将异能之力整个消灭,甚至抹消世界。其力量表现为蕴含太古符文的深红光粒,常规魔力无效化能力无法抵挡。 启动条件: 祭坛(弦神岛) + 禁咒解放(咎神棺材) + 核心组件(巫女意志)。 - entry_name: 神格振动波驱动术式 activation_keys: [神格振动波, DOE] 定义: \"天部\"为消灭眷兽而研发的术式,狮",
+      "sourceRefs": [
+        "sxkx_card.worldbook.json#entry-145"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "雪霞狼",
+      "name": "雪霞狼",
+      "aliases": [
+        "雪霞狼"
+      ],
+      "summary": "<StrikeTheBlood_Items> - entry_name: 雪霞狼 activation_keys: [雪霞狼, 七式突击降魔机枪, Schneewalzer] 全称: 七式突击降魔机枪。 性质: 狮子王机关的秘藏兵器,核心为天部遗产\"破魔圣枪\"。 能力: 枪尖可释放\"神格振动波\",能将魔力无效化,斩断结界,甚至弑杀真祖。 代价: 使用时会吸取使用者的灵力转化为神气,长期使用会导致使用者\"天使化\"而消失。只有特定血脉的适格者才能使用。 祝词: 狻猊之神子暨高神剑巫于此祀求,破魔的曙光,雪霞的神狼,速以钢之神威助我伐灭恶神百鬼！ - entry_name: 煌华麟 activation_keys: [煌华麟, 六式重装降魔弓, Der Freiscütz] 全称: 六式重装降魔弓。 性质: 狮子王机关的制压兵器,用于瘫痪魔族大军。 形态一 (巨剑): 刃长120厘米,拥有\"绝对防御障壁\"使物理攻击无效,其刀刃能斩断空间联结。 形态二 (西洋弓): 搭配\"咒式箭\"使用,可发动\"鸣音镝矢\",大范围干扰魔力与灵力。 祝词: 狻猊之舞伶暨高神真射姬于此诵求。极光的炎驹,煌华的麒麟,汝统天乐及轰雷,乃披愤焰贯射妖灵冥鬼之器",
+      "sourceRefs": [
+        "sxkx_card.worldbook.json#entry-146"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    }
+  ]
+}

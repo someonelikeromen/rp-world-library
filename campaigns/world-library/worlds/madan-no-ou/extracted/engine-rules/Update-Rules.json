@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "mdzwyzj_card.worldbook.json#entry-87"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "Update Rules"
+      },
+      "aliases": [
+        "Update Rules"
+      ],
+      "summary": "变量更新规则: 关系网: type: |- { [角色名: string]: { 好感度: number; 信任度: number; 关系: string; } } check: - 好感度：正面互动+1~5，负面-5~15，range: 0~100 - 信任度：关键事件验证+5~10，背叛信任-10~25，range: 0~100 - 关系：关系阶段自然演进时更新描述 - 首次互动时使用 add 添加新角色条目 剧情: 当前卷: type: number range: 1~18 check: - 完成一卷所有关键事件并满足章节终止条件后推进 - 卷数推进前必须与{{user}}确认 当前章节: check: - 章节事件推进时更新章节名称 章节内已完成事件: check: - 每完成一个事件块追加事件名称 关键事件: check: - 重大剧情节点更新事件描述 模式: check: - 默认「日常」，不主动推进主线 - {{user}}表现推进意图时切换「推进」 - 完成关键事件后切回「日常」 推进许可: type: boolean check: - {{user}}明确要求推进时设为 true - 推进完成后设回 fal",
+      "description": "变量更新规则: 关系网: type: |- { [角色名: string]: { 好感度: number; 信任度: number; 关系: string; } } check: - 好感度：正面互动+1~5，负面-5~15，range: 0~100 - 信任度：关键事件验证+5~10，背叛信任-10~25，range: 0~100 - 关系：关系阶段自然演进时更新描述 - 首次互动时使用 add 添加新角色条目 剧情: 当前卷: type: number range: 1~18 check: - 完成一卷所有关键事件并满足章节终止条件后推进 - 卷数推进前必须与{{user}}确认 当前章节: check: - 章节事件推进时更新章节名称 章节内已完成事件: check: - 每完成一个事件块追加事件名称 关键事件: check: - 重大剧情节点更新事件描述 模式: check: - 默认「日常」，不主动推进主线 - {{user}}表现推进意图时切换「推进」 - 完成关键事件后切回「日常」 推进许可: type: boolean check: - {{user}}明确要求推进时设为 true - 推进完成后设回 false 当前章节格式: check: - 格式: [章节关键词] - [事件名]",
+      "sourceRef": "mdzwyzj_card.worldbook.json#entry-87",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "Update-Rules"
+}

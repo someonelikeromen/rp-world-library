@@ -1,0 +1,57 @@
+{
+  "schema": "tm-nasuverse-representative-event-shard-v1",
+  "worldId": "type-moon-nasuverse",
+  "publicationMode": "representative-source-linked-shard",
+  "records": [
+    {
+      "recordId": "fgo-part1-solomon-event-w",
+      "recordType": "event",
+      "sourcePilot": "fgo-script-pilot",
+      "continuityScope": ["fgo-part1", "fgo-part1-solomon"],
+      "timelineId": "fgo-part1-solomon",
+      "orderIndex": 23,
+      "rawEventCode": "事件W",
+      "titleRaw": "回归",
+      "timeRangeRaw": "2016年12月23日 06:45",
+      "triggerRaw": "盖提亚消逝",
+      "completionRaw": "芙芙还原玛修，众人回归，迎接新年",
+      "summaryRaw": "芙芙牺牲积蓄还原玛修并赐其正常寿命。众人回归。罗曼彻底离去。立香与玛修共同迎接新的一年。",
+      "participantRaw": ["藤丸立香", "玛修", "芙芙", "罗曼"],
+      "sourceRefs": [
+        "fgo-script-pilot/extracted/part1/solomon/events/event-w.json",
+        "fgo-script-pilot/sources/worldbook-script/part1/ch-008-solomon.txt#world_timeline:事件W"
+      ],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "audit": {
+        "pilotStatusRef": "fgo-script-pilot/STATUS.md",
+        "acceptanceStatus": "passed-with-nonblocking-risks"
+      }
+    },
+    {
+      "recordId": "lb6-fairy-calendar-relative-sequence-family",
+      "recordType": "relative-sequence-record-family",
+      "sourcePilot": "lb6-fairy-calendar-supplement-pilot",
+      "continuityScope": ["fgo-lostbelt", "lb6-fairy-calendar"],
+      "timelineId": "lb6-fairy-calendar-derived-relative",
+      "timeRangeRaw": "raw Fairy Era / Queen Era labels only; no month/day precision or Gregorian conversion inferred",
+      "sourceRefs": [
+        "lb6-fairy-calendar-supplement-pilot/normalized/calendar-setting/relative-sequence-records.json",
+        "lb6-fairy-calendar-supplement-pilot/timeline/derived-index.json",
+        "lb6-fairy-calendar-supplement-pilot/STATUS.md"
+      ],
+      "sourceType": "user-file-worldbook-setting",
+      "credibility": "B",
+      "canonStatus": "canon-like/adapted",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "audit": {
+        "acceptanceStatus": "passed-with-nonblocking-risks",
+        "relativeOnlyPolicy": true
+      }
+    }
+  ]
+}

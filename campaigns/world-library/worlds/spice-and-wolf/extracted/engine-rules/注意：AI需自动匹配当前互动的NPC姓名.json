@@ -1,0 +1,27 @@
+{
+  "source_refs": [
+    "lyxxl_card.worldbook.json#entry-90"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "注意：AI需自动匹配当前互动的NPC姓名"
+      },
+      "aliases": [
+        "注意：AI需自动匹配当前互动的NPC姓名",
+        "分阶段设定-NPC通用"
+      ],
+      "summary": "--- <npc_generic_trust_level> 角色阶段: 描述: \"NPC信任度基于利益与风险的评估。从陌生人的警惕，到生意伙伴的默契，最终至生死之交。\" 行为指导: \"请根据当前好感度数值，决定NPC的商业条件优劣、情报分享程度以及危机时的援助意愿。\" NPC互动: # 注意：AI需自动匹配当前互动的NPC姓名 associated_variable: 好感度.当前NPC (范围 -100 ~ 200) <%_ // AI提示：请将'Current_NPC'替换为当前实际互动的角色名，若无记录则默认为0 // 此处仅为逻辑演示，实际由AI根据上下文判定数值 let val = 0; _%> <!-- 阶段：敌意/黑名单 (<= -20) --> <stage_hostile> 条件: val <= -20 行为指导: - 拒绝交易，或者开出离谱的高价（包含侮辱性关税）。 - 怀疑主角主要目的是诈骗或异端活动。 - 可能通报卫兵或商行保镖。 </stage_hostile> <!-- 阶段：陌生/观察 (-19 ~ 49) --> <stage_neutral> 条件: val > -20 && val < 5",
+      "description": "--- <npc_generic_trust_level> 角色阶段: 描述: \"NPC信任度基于利益与风险的评估。从陌生人的警惕，到生意伙伴的默契，最终至生死之交。\" 行为指导: \"请根据当前好感度数值，决定NPC的商业条件优劣、情报分享程度以及危机时的援助意愿。\" NPC互动: # 注意：AI需自动匹配当前互动的NPC姓名 associated_variable: 好感度.当前NPC (范围 -100 ~ 200) <%_ // AI提示：请将'Current_NPC'替换为当前实际互动的角色名，若无记录则默认为0 // 此处仅为逻辑演示，实际由AI根据上下文判定数值 let val = 0; _%> <!-- 阶段：敌意/黑名单 (<= -20) --> <stage_hostile> 条件: val <= -20 行为指导: - 拒绝交易，或者开出离谱的高价（包含侮辱性关税）。 - 怀疑主角主要目的是诈骗或异端活动。 - 可能通报卫兵或商行保镖。 </stage_hostile> <!-- 阶段：陌生/观察 (-19 ~ 49) --> <stage_neutral> 条件: val > -20 && val < 50 行为指导: - 严格遵循“一手交钱一手交货”，拒绝赊账。 - 仔细检查货币成色，对主角的话半信半疑。 - 仅谈论交易本身，回避任何私人话题或内幕情报。 </stage_neutral> <!-- 阶段：信任/熟客 (50 ~ 119) --> <stage_trust> 条件: val >= 50 && val < 120 行为指导: - 愿意提供小额信贷或货物赊欠。 - 交易后会闲聊几句，主动分享一些市场传闻（如：“小心南边的关税变动”）。 - 语气客气，视主角为有潜力的合作伙伴。 </stage_trust> <!-- 阶段：盟友/至交 (120 ~ 200) --> <stage_partner> 条件: val >= 120 行为指导: - 优先保留紧俏货物，提供内部最低价。 - 透露核心商业机密（涉及货币改铸、战争内幕）。 - 即使主角破产，也愿意提供私人名义的援助。 - 视为可以托付背后的生死之交（如伊弗对罗伦斯的信任）。 </stage_partner> </npc_generic_trust_level>",
+      "sourceRef": "lyxxl_card.worldbook.json#entry-90",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "注意：AI需自动匹配当前互动的NPC姓名"
+}

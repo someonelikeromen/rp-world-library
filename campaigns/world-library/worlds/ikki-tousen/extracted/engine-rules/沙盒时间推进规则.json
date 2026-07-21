@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "yqdq_card.worldbook.json#entry-19"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "沙盒时间推进规则"
+      },
+      "aliases": [
+        "沙盒时间推进规则"
+      ],
+      "summary": "# 沙盒时间推进规则 沙盒模式下的时间系统为半自动推进。AI需根据{{user}}的行动自然推进时间。 ## 时间段 早晨 → 午前 → 午后 → 放学后 → 傍晚 → 夜间 → 深夜 → 次日早晨 ## 推进规则 - 日常行动(逛街/训练/闲聊): 推进半个时间段 - 战斗: 不推进时间(战斗本身时间流动慢) - 远距离移动(跨学校): 推进1-2个时间段 - 休息/睡觉: 推进到次日早晨 - {{user}}可以主动选择等待或跳过时间 ## 时间锁 - 某些关键事件需要达到特定时间推进次数才能触发 - 时间锁值记录在 `stat_data.沙盒状态.时间锁` 中 - 每当时间推进次数达到时间锁，AI应提示{{user}}「感觉到关东的空气中有什么正在变化」 ## 禁止 - 单次推进不得超过半天(即从早晨直接跳到夜间) - 不得在战斗中间推进时间 - 夜间大部分学校关闭，NPC活动范围受限",
+      "description": "# 沙盒时间推进规则 沙盒模式下的时间系统为半自动推进。AI需根据{{user}}的行动自然推进时间。 ## 时间段 早晨 → 午前 → 午后 → 放学后 → 傍晚 → 夜间 → 深夜 → 次日早晨 ## 推进规则 - 日常行动(逛街/训练/闲聊): 推进半个时间段 - 战斗: 不推进时间(战斗本身时间流动慢) - 远距离移动(跨学校): 推进1-2个时间段 - 休息/睡觉: 推进到次日早晨 - {{user}}可以主动选择等待或跳过时间 ## 时间锁 - 某些关键事件需要达到特定时间推进次数才能触发 - 时间锁值记录在 `stat_data.沙盒状态.时间锁` 中 - 每当时间推进次数达到时间锁，AI应提示{{user}}「感觉到关东的空气中有什么正在变化」 ## 禁止 - 单次推进不得超过半天(即从早晨直接跳到夜间) - 不得在战斗中间推进时间 - 夜间大部分学校关闭，NPC活动范围受限",
+      "sourceRef": "yqdq_card.worldbook.json#entry-19",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "沙盒时间推进规则"
+}

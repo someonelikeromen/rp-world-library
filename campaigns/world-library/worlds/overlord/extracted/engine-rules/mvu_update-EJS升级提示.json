@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "OVERLORD.worldbook.json#entry-5"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[mvu_update]EJS升级提示"
+      },
+      "aliases": [
+        "[mvu_update]EJS升级提示"
+      ],
+      "summary": "<%= await (async () => { try { const description = getvar('stat_data.升级标志.description', { scope: 'local' }); let output = \"\"; if (description) { output += `<升级提示>\\n现在升级了，下面是升级的部分，请根据升级部分进行属性调整,升级内容: ${description}\\n</升级提示>`; setvar('stat_data.升级标志', null, { scope: 'local' }); } return output; } catch (e) { return '[EJS 脚本错误]: ' + (e?.message || e); } })() %>",
+      "description": "<%= await (async () => { try { const description = getvar('stat_data.升级标志.description', { scope: 'local' }); let output = \"\"; if (description) { output += `<升级提示>\\n现在升级了，下面是升级的部分，请根据升级部分进行属性调整,升级内容: ${description}\\n</升级提示>`; setvar('stat_data.升级标志', null, { scope: 'local' }); } return output; } catch (e) { return '[EJS 脚本错误]: ' + (e?.message || e); } })() %>",
+      "sourceRef": "OVERLORD.worldbook.json#entry-5",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "mvu_update-EJS升级提示"
+}

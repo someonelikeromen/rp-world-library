@@ -1,0 +1,132 @@
+{
+  "schema": "tokyo-ghoul-engine-rules-index-v1",
+  "worldId": "tokyo-ghoul",
+  "recordFamily": "engine-rules",
+  "count": 9,
+  "records": [
+    {
+      "id": "Insert-the-“-status-”-as-a-fenced-code-b-2",
+      "name": "Insert the “<status>” as a fenced code b",
+      "aliases": [],
+      "summary": "## Insert the “<status>” as a fenced code block (```) at the end of your response as requested in “<StatusBlock>”. <StatusBlock> - Rule: - 若有多个出场人物，请在相应模块生成多个状态栏。 - ##在<status>之前输出<format_of_statusblock>和最后一个</details>之后输出</format_of_statusblock> ## <status>为当前剧情中{{char}}的状态栏。请务必再次确认Rule，在每轮回复的末尾插入'<status>'中的内容。 格式如下： <format_of_statusblock> <status> <details> <summary>【————状态栏————】</summary> ``` 📍当前所处位置：{{此处只能填写当前剧情地点，格式：东京-某某区-某某地点}} ⏳当前时间：{当前天数/时间，例如：2000年1月1日/7:00AM} ``` >基本状态 ``` 所属势力: {当前{{user}}势力名称，没有则填无}",
+      "sourceRefs": [
+        "东京喰种（喰种）.worldbook.json#entry-0"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "Insert-the-“-status-”-as-a-fenced-code-b",
+      "name": "Insert the “<status>” as a fenced code b",
+      "aliases": [],
+      "summary": "## Insert the “<status>” as a fenced code block (```) at the end of your response as requested in “<StatusBlock>”. <StatusBlock> - Rule: - 若有多个出场人物，请在相应模块生成多个状态栏。 - ##在<status>之前输出<format_of_statusblock>和最后一个</details>之后输出</format_of_statusblock> ## <status>为当前剧情中{{char}}的状态栏。请务必再次确认Rule，在每轮回复的末尾插入'<status>'中的内容。 格式如下： <format_of_statusblock> <status> <details> <summary>【————状态栏————】</summary> ``` 📍当前所处位置：{{此处只能填写当前剧情地点，格式：东京-某某区-某某地点}} ⏳当前时间：{当前天数/时间，例如：2000年1月1日/7:00AM} ``` >基本状态 ``` 所属势力: {当前{{user}}势力名称，没有则填无}",
+      "sourceRefs": [
+        "东京喰种.worldbook.json#entry-0"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "Red-Child-Cell",
+      "name": "{Red Child Cell}",
+      "aliases": [
+        "{Red Child Cell}"
+      ],
+      "summary": "[RC细胞数量]处填写{{user}}拥有的RC细胞数量，RC细胞数量和赫子的组成有关，健康人类的RC细胞数量只会维持在200至500，而喰种体内的RC细胞数量是人类的五倍以上，RC细胞增加将提高喰种的战斗力。喰种可消耗500RC细胞完成快速全身再生，即使只有头都可以全身恢复。 {RC细胞数量：人类RC细胞200-500;C级喰种RC细胞1000-2999;B级喰种RC细胞3000-5999;A级喰种RC细胞6000-9999;S级喰种RC细胞10000-19999;SS级喰种RC细胞20000-39999;SS+级喰种RC细胞40000-49999;SSS级喰种RC细胞超过50000。} {{RC细胞只能通过食用人类或喰种获得，{{user}}吞噬人类或喰种后，会增加该对象对应的RC细胞数量}} 当{{user}}RC细胞数量抵达下一危险等级的RC细胞数量范围时，{{user}}危险等级提升。 默认填充格式为： ``` RC细胞数量：2000（吃掉XX，+XXX） ```",
+      "sourceRefs": [
+        "东京喰种（喰种）.worldbook.json#entry-43"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "古董-2",
+      "name": "古董",
+      "aliases": [
+        "古董",
+        "安定区"
+      ],
+      "summary": "古董咖啡厅：表面上为咖啡厅，实际上是以芳村店长为中心营运的喰种互助组织与社交场所，致力于让喰种群体更自然、安定地融入社会。从业者全是喰种，顾客也以喰种为主，偶尔也会有不知情的人类顾客上门，芳村店长会借机学习人类的举止，但人类顾客往往容易被店内的喰种顾客盯上。 古董咖啡厅是温和派的喰种，不对人类进行捕食，而是通过人类自杀点捡拾尸体来充当食物，同时也为没能力捕食的喰种如笛口母女提供供应生存的食物。古董采取隐蔽策略，禁止旗下的喰种袭击人类，特别是喰种搜查官，当有成员被喰种搜查官视为目标后会要求其脱离，该策略使得20区一直不被CCG视为危险区，关注度较低。 店长：芳村功善（SSS级） 店员：芳村功善（SSS级）、四方莲示（SS级）、入见佳耶（SS级）、古间圆儿（SS级）、雾岛董香（S级）、金木研（S级）。 常见顾客：笛口雏实（B级）、笛口凉子（C级）、西尾锦（A级） {{喰种搜查官和CCG眼中古董咖啡厅与喰种无关，也不怀疑他们成员是喰种，古董的成员也伪装的很好，不会在一开始就让搜查官怀疑，古董发放食物的事情不会提前被搜查官记录}}",
+      "sourceRefs": [
+        "东京喰种（喰种）.worldbook.json#entry-9"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "古董",
+      "name": "古董",
+      "aliases": [
+        "古董",
+        "安定区"
+      ],
+      "summary": "古董咖啡厅：表面上为咖啡厅，实际上是以芳村店长为中心营运的喰种互助组织与社交场所，致力于让喰种群体更自然、安定地融入社会。从业者全是喰种，顾客也以喰种为主，偶尔也会有不知情的人类顾客上门，芳村店长会借机学习人类的举止，但人类顾客往往容易被店内的喰种顾客盯上。 古董咖啡厅是温和派的喰种，不对人类进行捕食，而是通过人类自杀点捡拾尸体来充当食物，同时也为没能力捕食的喰种如笛口母女提供供应生存的食物。古董采取隐蔽策略，禁止旗下的喰种袭击人类，特别是喰种搜查官，当有成员被喰种搜查官视为目标后会要求其脱离，该策略使得20区一直不被CCG视为危险区，关注度较低。 店长：芳村功善（SSS级） 店员：芳村功善（SSS级）、四方莲示（SS级）、入见佳耶（SS级）、古间圆儿（SS级）、雾岛董香（S级）、金木研（S级）。 常见顾客：笛口雏实（B级）、笛口凉子（C级）、西尾锦（A级） {{喰种搜查官和CCG眼中古董咖啡厅与喰种无关，也不怀疑他们成员是喰种，古董的成员也伪装的很好，不会在一开始就让搜查官怀疑，古董发放食物的事情不会提前被搜查官记录}}",
+      "sourceRefs": [
+        "东京喰种.worldbook.json#entry-9"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "库因克-2",
+      "name": "库因克",
+      "aliases": [
+        "库因克"
+      ],
+      "summary": "库因克是喰种搜查官的武器。利用喰种的赫子为材料制造而成，能给予喰种大伤害。不能像赫子那样自由变形，灵活性不太高。只有二等搜查官及以上才有资格拥有自己的库因克并自己予以命名。大型库因克平常一般收纳在皮箱或金属公事箱内，小刀等小型库因克则不需放在皮箱内。 为防止喰种使用，库因克设置了生物认证技术。 {喰种搜查官猎杀的喰种的赫子有权自己保留来委托制作库因克} 库因克有尺寸分别和种类分别，大致和赫子一样分为四大种，但也有少数搜查官持有混合库因克或赫者库因克。 羽赫：加工后主要作为射击武器使用，可作远程攻击;但有时制作成近战武器(如鸣神),会剧烈消耗能量，适合敏捷的搜查官使用。 甲赫：因重而硬的特性而加工制成剑或金属棒等，适合体格强壮的肉体派搜查官使用。 鳞赫：多数加工制成鞭子或触手状的特殊武器，适合能熟练地使用昆克的技巧派搜查官使用。 尾赫：多数制成刀刃状,没有决定性弱点的同时，也存在没有决定性攻击手段的缺点，由于平衡性良好的关系，适合新人搜查官使用。 混合库因克：以不同种类的赫包作材料所制成的昆克。能有效对付不同类型的赫子，但制作方面在技术上还存在一定程度的困难，用于实战中是相当珍稀的存在。 赫者库因克：以赫者的赫包作材料所制成的",
+      "sourceRefs": [
+        "东京喰种（喰种）.worldbook.json#entry-5"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "库因克",
+      "name": "库因克",
+      "aliases": [
+        "库因克"
+      ],
+      "summary": "库因克是喰种搜查官的武器。利用喰种的赫子为材料制造而成，能给予喰种大伤害。不能像赫子那样自由变形，灵活性不太高。只有二等搜查官及以上才有资格拥有自己的库因克并自己予以命名。大型库因克平常一般收纳在皮箱或金属公事箱内，小刀等小型库因克则不需放在皮箱内。 为防止喰种使用，库因克设置了生物认证技术。 {喰种搜查官猎杀的喰种的赫子有权自己保留来委托制作库因克} 库因克有尺寸分别和种类分别，大致和赫子一样分为四大种，但也有少数搜查官持有混合库因克或赫者库因克。 羽赫：加工后主要作为射击武器使用，可作远程攻击;但有时制作成近战武器(如鸣神),会剧烈消耗能量，适合敏捷的搜查官使用。 甲赫：因重而硬的特性而加工制成剑或金属棒等，适合体格强壮的肉体派搜查官使用。 鳞赫：多数加工制成鞭子或触手状的特殊武器，适合能熟练地使用昆克的技巧派搜查官使用。 尾赫：多数制成刀刃状,没有决定性弱点的同时，也存在没有决定性攻击手段的缺点，由于平衡性良好的关系，适合新人搜查官使用。 混合库因克：以不同种类的赫包作材料所制成的昆克。能有效对付不同类型的赫子，但制作方面在技术上还存在一定程度的困难，用于实战中是相当珍稀的存在。 赫者库因克：以赫者的赫包作材料所制成的",
+      "sourceRefs": [
+        "东京喰种.worldbook.json#entry-5"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "赫子-2",
+      "name": "赫子",
+      "aliases": [
+        "赫子"
+      ],
+      "summary": "赫子是喰种捕食时由体内突出皮肤的捕食器官。 突出赫子的位置会由赫子的种类决定，相同种类的赫子会拥有类似的特征，但赫子的形状会因为该喰种的个体不同而有所差异。喰种拥有一般刀械无法伤害的强韧身体，但赫子能够给予有效的伤害。 赫子分为羽赫、甲赫、鳞赫和尾赫四种类型，分别位于喰种的肩部、肩胛骨处、腰部和尾椎位置。 羽赫：赫包位在肩膀附近，羽赫大多没有固定形状，呈现出如同火焰般的样子，或为较轻薄的如翅膀般的形体，但也有利剑般的形态。质量轻，属于速度型的赫子，战斗时以速度作为武器，同时可以放出部分RC细胞作远程攻击。由于Rc细胞会剧烈释放，较适合短期决战，战斗时间一长会转趋下风。不擅长于对付防御力高的甲赫。优点：攻击范围广，攻击距离远，敏捷迅速，爆发力强，飞檐走壁，能飞。缺点：耐力差。 甲赫：赫包位于肩胛骨下方，金属质的赫子，一般呈现出利剑或盾牌的形态，大多比较厚重尖锐。由高密度的RC细胞凝缩而成，具有极高的防御力，但也因此重量偏重，属于防御型的赫子，与其他种类的赫子持有者相比速度较慢。不擅长于对付战斗自由度高的鳞赫。优点：防御力强，近战能力强。缺点：太笨重。 鳞赫：赫包位于腰部，赫子表面粗糙，造型则如同触手，是形态最为多样化的赫子，但",
+      "sourceRefs": [
+        "东京喰种（喰种）.worldbook.json#entry-6"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "赫子",
+      "name": "赫子",
+      "aliases": [
+        "赫子"
+      ],
+      "summary": "赫子是喰种捕食时由体内突出皮肤的捕食器官。 突出赫子的位置会由赫子的种类决定，相同种类的赫子会拥有类似的特征，但赫子的形状会因为该喰种的个体不同而有所差异。喰种拥有一般刀械无法伤害的强韧身体，但赫子能够给予有效的伤害。 赫子分为羽赫、甲赫、鳞赫和尾赫四种类型，分别位于喰种的肩部、肩胛骨处、腰部和尾椎位置。 羽赫：赫包位在肩膀附近，羽赫大多没有固定形状，呈现出如同火焰般的样子，或为较轻薄的如翅膀般的形体，但也有利剑般的形态。质量轻，属于速度型的赫子，战斗时以速度作为武器，同时可以放出部分RC细胞作远程攻击。由于Rc细胞会剧烈释放，较适合短期决战，战斗时间一长会转趋下风。不擅长于对付防御力高的甲赫。优点：攻击范围广，攻击距离远，敏捷迅速，爆发力强，飞檐走壁，能飞。缺点：耐力差。 甲赫：赫包位于肩胛骨下方，金属质的赫子，一般呈现出利剑或盾牌的形态，大多比较厚重尖锐。由高密度的RC细胞凝缩而成，具有极高的防御力，但也因此重量偏重，属于防御型的赫子，与其他种类的赫子持有者相比速度较慢。不擅长于对付战斗自由度高的鳞赫。优点：防御力强，近战能力强。缺点：太笨重。 鳞赫：赫包位于腰部，赫子表面粗糙，造型则如同触手，是形态最为多样化的赫子，但",
+      "sourceRefs": [
+        "东京喰种.worldbook.json#entry-6"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ]
+}

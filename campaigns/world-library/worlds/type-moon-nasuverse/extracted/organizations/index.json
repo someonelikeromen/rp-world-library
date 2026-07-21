@@ -1,0 +1,94 @@
+{
+  "schema": "tm-nasuverse-extracted-organization-index-v1",
+  "worldId": "type-moon-nasuverse",
+  "recordFamily": "organizations-factions-and-institutions",
+  "defaultQueryPolicy": {
+    "candidateOnly": false,
+    "sourceGap": false,
+    "excludeHumanScopeCandidates": true,
+    "excludeHeldPilots": true
+  },
+  "formalRecordFamilies": [
+    {
+      "familyId": "fsn-fz-factions",
+      "sourcePilot": "fsn-fz-pilot",
+      "recordType": "faction-or-organization",
+      "continuityScope": ["fate-zero", "fate-stay-night"],
+      "summaryCountRef": "fsn-fz-pilot/merged/index.json#/summaryCounts/factions",
+      "acceptedArtifactRefs": ["fsn-fz-pilot/merged/merged-entities.json"],
+      "sourceType": "p1-hybrid-local-worldbook-and-story-text",
+      "credibility": "B",
+      "canonStatus": "canon-like/adapted",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "auditStatusRef": "fsn-fz-pilot/audit/final-pass-report.json"
+    },
+    {
+      "familyId": "fgo-stage-factions-and-world-state-institutions",
+      "sourcePilot": "fgo-script-pilot; fgo-eor-pilot; fgo-lb1-lb2-pilot; fgo-lb3-lb4-pilot; fgo-lb5-pilot; fgo-lb6-pilot; fgo-ordeal-call-pilot",
+      "recordType": "faction-or-institution-signal",
+      "continuityScope": ["fgo-part1", "fgo-epic-of-remnant", "fgo-lostbelt", "fgo-ordeal-call"],
+      "acceptedArtifactRefs": [
+        "fgo-script-pilot/normalized/part1/*/characters/",
+        "fgo-eor-pilot/merged/characters/",
+        "fgo-lb1-lb2-pilot/merged/characters/",
+        "fgo-lb3-lb4-pilot/merged/characters/index.json",
+        "fgo-lb6-pilot/merged/character-stage-index.json",
+        "fgo-ordeal-call-pilot/merged/character-stage-index.json"
+      ],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "auditStatusRefs": ["fgo-script-pilot/STATUS.md", "fgo-eor-pilot/STATUS.md", "fgo-lb1-lb2-pilot/STATUS.md", "fgo-lb3-lb4-pilot/STATUS.md", "fgo-lb5-pilot/STATUS.md", "fgo-lb6-pilot/STATUS.md", "fgo-ordeal-call-pilot/STATUS.md"]
+    },
+    {
+      "familyId": "kara-no-kyoukai-profile-affiliations",
+      "sourcePilot": "kara-no-kyoukai-profile-supplement-pilot",
+      "recordType": "profile-affiliation-signal",
+      "continuityScope": ["kara-no-kyoukai"],
+      "acceptedArtifactRefs": ["kara-no-kyoukai-profile-supplement-pilot/normalized/profile-supplement/ryougi-shiki/identity/profile-core.json"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "canon-like/adapted",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "auditStatusRef": "kara-no-kyoukai-profile-supplement-pilot/STATUS.md"
+    },
+    {
+      "familyId": "prisma-illya-organizational-context",
+      "sourcePilot": "prisma-illya-profile-supplement-pilot",
+      "recordType": "organization-or-opposition-record-redacted",
+      "continuityScope": ["prisma-illya"],
+      "acceptedArtifactRefs": ["prisma-illya-profile-supplement-pilot/extracted/profile-supplement/prisma-illya/records/ainsworth-and-miyu-world-opposition.json", "prisma-illya-profile-supplement-pilot/normalized/profile-supplement/prisma-illya/index.json"],
+      "sourceType": "user-file-worldbook-profile-redacted",
+      "credibility": "B",
+      "canonStatus": "canon-like/adapted",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "auditStatusRef": "prisma-illya-profile-supplement-pilot/STATUS.md"
+    },
+    {
+      "familyId": "type-moon-core-institution-anchors",
+      "sourcePilot": "type-moon-core-general-settings-pilot",
+      "recordType": "institution-anchor",
+      "continuityScope": ["type-moon-general"],
+      "acceptedArtifactRefs": ["type-moon-core-general-settings-pilot/normalized/core-general-settings/index.json#/records[?candidateOnly!=true && sourceGap!=true]"],
+      "includedRecordPolicy": "Formal only when the core settings index does not mark the record candidateOnly or sourceGap.",
+      "excludedRecordIds": ["atlas-and-sion-candidate-context"],
+      "sourceType": "derived-from-completed-pilot-settings-supplement",
+      "credibility": "B with human-scope limitations",
+      "canonStatus": "adapted/secondary-summary",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "auditStatusRef": "type-moon-core-general-settings-pilot/audit/final-status.json"
+    }
+  ],
+  "excludedFromFormalOrganizationIndex": [
+    {"recordId": "atlas-and-sion-candidate-context", "reason": "human-scope candidate/source-gap; not a formal merged institution record"},
+    {"pilotId": "tsukihime-supporting-cast-candidate-supplement-pilot", "reason": "candidate-only/source-gap"},
+    {"pilotId": "mahoyo-profile-supplement-pilot", "reason": "hold pending read-only auditor rerun"},
+    {"pilotId": "tsukihime-dead-apostle-profile-supplement-pilot", "reason": "hold pending separate final audit"}
+  ]
+}

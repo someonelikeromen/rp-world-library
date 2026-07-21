@@ -1,0 +1,27 @@
+{
+  "source_refs": [
+    "tjzw_card.worldbook.json#entry-50"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "string]: { type: string, chain_holder: string }"
+      },
+      "aliases": [
+        "string]: { type: string, chain_holder: string }",
+        "[mvu_update]变量更新规则"
+      ],
+      "summary": "--- 变量更新规则: world: 时间: check: - 每次行动后根据合理的流逝更新 - 如果发生剧情跳跃（如“第二天”），必须更新 西纳普斯干涉度: range: 0~100 check: - 当发现人造天使、遇到卡奥斯或遭遇空对地袭击时增加 - 平静的日常事件中缓慢自然衰减 protagonist: identity_mode: value: 记录当前扮演的剧本模式 (oc_tomoko/oc_tomoki/play_tomoki/play_tomoko/replace等) check: - **开局重要**：在游戏开始的第一回合，分析玩家的设定（如 OC名字、与智子/智树的关系），将此变量锁定为对应的模式代码 - 如果玩家切换了剧本设定，随之更新 stats.${属性}: type: number check: - 绅士度：做出变态行为、偷窥、性骚扰时增加；做出正人君子行为时减少 - 声望：完成任务或在公众面前解决危机时变化 contracts: type: |- { [name: string]: { type: string, chain_holder: string } } check: - 当“铭刻”发",
+      "description": "--- 变量更新规则: world: 时间: check: - 每次行动后根据合理的流逝更新 - 如果发生剧情跳跃（如“第二天”），必须更新 西纳普斯干涉度: range: 0~100 check: - 当发现人造天使、遇到卡奥斯或遭遇空对地袭击时增加 - 平静的日常事件中缓慢自然衰减 protagonist: identity_mode: value: 记录当前扮演的剧本模式 (oc_tomoko/oc_tomoki/play_tomoki/play_tomoko/replace等) check: - **开局重要**：在游戏开始的第一回合，分析玩家的设定（如 OC名字、与智子/智树的关系），将此变量锁定为对应的模式代码 - 如果玩家切换了剧本设定，随之更新 stats.${属性}: type: number check: - 绅士度：做出变态行为、偷窥、性骚扰时增加；做出正人君子行为时减少 - 声望：完成任务或在公众面前解决危机时变化 contracts: type: |- { [name: string]: { type: string, chain_holder: string } } check: - 当“铭刻”发生时添加新条目 - 当锁链断裂或被从属卡片重写时修改 relationships: [角色名: string]: type: |- { trust: number; romance: number; state: string; tags: string[]; } check: - 好感度(romance)根据互动增减，幅度通常为1-5 - 信任度(trust)由于共同战斗或保守秘密而增加 - state 用于记录NPC当前大致位置（如：家中、学校、西纳普斯） quest_log: main_quest: check: - 当<章节剧情>推进或达成<章节终止条件>时更新 active_sides: check: - 接到新委托时添加 (add) - 完成或失败时移除 (remove) 或标记为已完成",
+      "sourceRef": "tjzw_card.worldbook.json#entry-50",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "string-type-string-chain_holder-string"
+}

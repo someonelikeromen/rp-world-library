@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "mdzwyzj_card.worldbook.json#entry-91"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "模式兼容守卫"
+      },
+      "aliases": [
+        "模式兼容守卫"
+      ],
+      "summary": "<mode_guard> 当前模式 战姬: {{format_message_variable::stat_data.当前世界}} | 主角模式: {{format_message_variable::stat_data.原创主角模式}} <原作模式> 当前世界 = 战姬 且 原创主角模式 = 原作。 {{user}} = 堤格尔维尔穆德·冯伦，亚尔萨斯伯爵，黑弓持有者。 堤格尔被艾莲俘虏后命运改变，按人物条目扮演其性格。 所有战姬对{{user}}的关系参照人物条目的relationships字段。 </原作模式> <取代模式> 当前世界 = 战姬 且 原创主角模式 = 取代。 堤格尔维尔穆德·冯伦不存在。{{user}}为原创角色，身份/背景/能力由{{user}}设定。 艾莲在迪南特战役中俘虏了{{user}}而非堤格尔。 所有战姬与{{user}}的关系从零开始建立。 黑弓的归属由{{user}}的背景故事决定（可拥有黑弓、可持其他武器、或黑弓不存在）。 世界观设定（布琉努、吉斯塔特、龙具、战姬制度）维持不变。 </取代模式> <共存模式> 当前世界 = 战姬 且 原创主角模式 = 共存。 堤格尔作为NPC存在（由A",
+      "description": "<mode_guard> 当前模式 战姬: {{format_message_variable::stat_data.当前世界}} | 主角模式: {{format_message_variable::stat_data.原创主角模式}} <原作模式> 当前世界 = 战姬 且 原创主角模式 = 原作。 {{user}} = 堤格尔维尔穆德·冯伦，亚尔萨斯伯爵，黑弓持有者。 堤格尔被艾莲俘虏后命运改变，按人物条目扮演其性格。 所有战姬对{{user}}的关系参照人物条目的relationships字段。 </原作模式> <取代模式> 当前世界 = 战姬 且 原创主角模式 = 取代。 堤格尔维尔穆德·冯伦不存在。{{user}}为原创角色，身份/背景/能力由{{user}}设定。 艾莲在迪南特战役中俘虏了{{user}}而非堤格尔。 所有战姬与{{user}}的关系从零开始建立。 黑弓的归属由{{user}}的背景故事决定（可拥有黑弓、可持其他武器、或黑弓不存在）。 世界观设定（布琉努、吉斯塔特、龙具、战姬制度）维持不变。 </取代模式> <共存模式> 当前世界 = 战姬 且 原创主角模式 = 共存。 堤格尔作为NPC存在（由AI按堤格尔角色条目扮演），{{user}}为独立角色。 两人各自独立，关系网互不混淆。艾莲俘虏了堤格尔，{{user}}需自行建立与各角色的关系。 堤格尔的黑弓与{{user}}的武器/能力各自独立。 </共存模式> <冻涟原作模式> 当前世界 = 冻涟 且 原创主角模式 = 原作。 {{user}} = 堤格尔（IF版），父乌鲁斯健在，以外交使者身份与米拉相遇。 按IF版堤格尔角色条目扮演其性格（更积极主动）。 </冻涟原作模式> <冻涟取代模式> 当前世界 = 冻涟 且 原创主角模式 = 取代。 堤格尔不存在。{{user}}为原创角色，在奥尔米兹冰原与米拉初遇。 所有战姬（IF版）与{{user}}的关系从零开始。 </冻涟取代模式> <冻涟共存模式> 当前世界 = 冻涟 且 原创主角模式 = 共存。 堤格尔（IF版）作为NPC存在，{{user}}为独立角色。米拉与堤格尔的关系按冻涟线发展，{{user}}需自行建立关系。 </冻涟共存模式> </mode_guard> <name_sync> 【用户名字同步规则】 1. 取代/共存模式下，若stat_data.user.名字为空或与当前{{user}}显示名不一致，首次回复必须通过UpdateVariable更新user.名字为{{user}}的当前名字 2. 每次确认{{user}}身份变化时同步更新变量 3. 原作模式下user.名字固定为堤格尔 </name_sync>",
+      "sourceRef": "mdzwyzj_card.worldbook.json#entry-91",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "模式兼容守卫"
+}

@@ -1,0 +1,24 @@
+{
+  "source_refs": [
+    "SAO_Progressive_v1.3.json#entry-9016"
+  ],
+  "sourceType": "local-sillytavern-json-card",
+  "credibility": "local-card-indexed",
+  "canonStatus": "adapted/card-backed",
+  "periods": [
+    {
+      "period_id": "local-ingest-entry",
+      "name": {
+        "zh": "场景生成准则"
+      },
+      "aliases": [],
+      "summary": "<GEN_RULE type=\"场景\">\n# 场景生成准则\n场景先读取楼层、位置、时间、天气、安全区、场景状态、在场人物、当前任务和事件。只描写可观察信息，明确距离、出口、障碍、NPC正在进行的活动和玩家可采取的行动。场景状态只能使用封闭枚举：开局、日常、探索、战斗、Boss战、任务、交易、生产、社交、休息、危机。训练归入日常或任务，移动归入探索，突发事件归入危机。\n\n## 生成示例\n- 示例一：交易场景——显示摊位、价格牌、排队玩家、可离开的街口与可执行的购买、询价或离开行动。\n- 示例二：探索场景——说明道路方向、视野遮挡、声音来源、返回路线与尚未确认的危险。\n- 示例三：战斗场景——给出敌我距离、障碍、出口、攻击前兆与可用位置，不替玩家决定动作。\n</GEN_RULE>\n",
+      "description": "<GEN_RULE type=\"场景\">\n# 场景生成准则\n场景先读取楼层、位置、时间、天气、安全区、场景状态、在场人物、当前任务和事件。只描写可观察信息，明确距离、出口、障碍、NPC正在进行的活动和玩家可采取的行动。场景状态只能使用封闭枚举：开局、日常、探索、战斗、Boss战、任务、交易、生产、社交、休息、危机。训练归入日常或任务，移动归入探索，突发事件归入危机。\n\n## 生成示例\n- 示例一：交易场景——显示摊位、价格牌、排队玩家、可离开的街口与可执行的购买、询价或离开行动。\n- 示例二：探索场景——说明道路方向、视野遮挡、声音来源、返回路线与尚未确认的危险。\n- 示例三：战斗场景——给出敌我距离、障碍、出口、攻击前兆与可用位置，不替玩家决定动作。\n</GEN_RULE>\n",
+      "sourceRef": "SAO_Progressive_v1.3.json#entry-9016",
+      "sourceType": "local-sillytavern-json-card",
+      "credibility": "local-card-indexed",
+      "canonStatus": "adapted/card-backed"
+    }
+  ],
+  "system_id": "场景生成准则"
+}

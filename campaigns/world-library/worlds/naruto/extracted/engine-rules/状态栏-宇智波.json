@@ -1,0 +1,23 @@
+{
+  "schema": "engine-rule-record-v1",
+  "worldId": "naruto",
+  "source_refs": [
+    "hy_card.worldbook.json#entry-15"
+  ],
+  "aliases": [],
+  "periods": [
+    {
+      "id": "worldbook-record",
+      "name": {
+        "zh": "状态栏:宇智波"
+      },
+      "aliases": [],
+      "summary": "{{setvar::status_format:: <status_format> 不要输出 CSS/HTML 样式。请严格按照以下 XML 格式输出： <status> 🪪等级: 当前值 🌟EXP: 当前值/100<!-- 升级铁则:每累计100EXP等级+1,溢出EXP保留。获取条件:仅限[学习/修炼/战斗],无此类行为严禁增加。单日基数:学习+5,修炼+10,战斗视烈度浮动:【切磋/杂兵+15】【常规实战+20】【生死战/BOSS战+300~500】。遇长线闭关或时间跳跃,必执行公式【Δ等级=单日基数×天数×有效行为占比%】累加,若包含日常/恋爱等行为必须大幅降低有效占比(如20~30%),严禁无端暴涨 --> 🎭身份:",
+      "description": "{{setvar::status_format:: <status_format> 不要输出 CSS/HTML 样式。请严格按照以下 XML 格式输出： <status> 🪪等级: 当前值 🌟EXP: 当前值/100<!-- 升级铁则:每累计100EXP等级+1,溢出EXP保留。获取条件:仅限[学习/修炼/战斗],无此类行为严禁增加。单日基数:学习+5,修炼+10,战斗视烈度浮动:【切磋/杂兵+15】【常规实战+20】【生死战/BOSS战+300~500】。遇长线闭关或时间跳跃,必执行公式【Δ等级=单日基数×天数×有效行为占比%】累加,若包含日常/恋爱等行为必须大幅降低有效占比(如20~30%),严禁无端暴涨 --> 🎭身份:",
+      "sourceRef": "hy_card.worldbook.json#entry-15",
+      "canonStatus": "engine-rule-not-world-fact",
+      "credibility": "local-worldbook"
+    }
+  ],
+  "rule_id": "状态栏-宇智波"
+}

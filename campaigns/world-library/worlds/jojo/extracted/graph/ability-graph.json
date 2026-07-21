@@ -1,0 +1,270 @@
+{
+  "schema": "compatible-ability-graph-v1",
+  "worldId": "jojo",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "abilities": [
+    {
+      "id": "世界背景",
+      "entityId": "世界背景",
+      "entityType": "abilities",
+      "label": "世界背景",
+      "name": "世界背景",
+      "summary": "可以读取百度上的《JOJO》六部曲参考，https://baike.baidu.com/item/JOJO。初代JOJO（乔纳森·乔斯达）的父亲乔治·乔斯达收留了其“救命恩人”的儿子，一个名叫迪奥·布兰度的孤儿，抚养他成人， 但迪奥图谋JOJO家族的财产，想要用慢性毒药谋杀乔治先生。在乔纳森查明真相导致事情败露之后，迪奥为了得到更强大的力量，不惜戴上神秘的石鬼面，成为了不老不死的吸血鬼。在乔纳森祖宅进行了战斗，乔纳森仅凭着爆发力和强硬体质重伤了迪奥，为了复仇和发展，迪奥选择了隐忍，而乔纳森在身体日渐回复之后遇到了他生命中最重要的人：威廉·A·齐贝林，并跟齐贝林先生学习了能击败尸生人和吸血鬼的波纹气功，在收到有关迪奥的消息后，前往风骑士小镇与迪奥展开最终对决，一路历经磨难，甚至让齐贝林先生也付出了生命，最后终于与迪奥展开决斗并打败了他，但是在一年后的蜜月期旅行游轮上，被仅剩一颗头的迪奥偷袭，最终乔纳森用生命最后的一点微弱波纹控制了其手下尸生人温青，让游轮发生爆炸，与迪奥“同归于尽”。在二十世纪三、四十年代的纽约，乔纳森·乔斯达的孙子乔瑟夫·乔斯达，又遇上了新的敌人：史前强大生物-柱之男。柱之男中的卡兹是创造石鬼面的元凶，他创造",
+      "sourceRefs": [
+        "JOJO (1).worldbook.json#entry-0"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:世界背景",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "成为替身使者的方法",
+      "entityId": "成为替身使者的方法",
+      "entityType": "abilities",
+      "label": "成为替身使者的方法",
+      "name": "成为替身使者的方法",
+      "summary": "自然觉醒：在幼年时自己觉醒，这一类人是天生的才能者。 血脉共鸣：即由于某个家族的血脉力量觉醒替身，几乎仅限于乔斯达家，唯一例子是DIO觉醒替身后，由于血脉影响，连带乔瑟夫，承太郎，荷莉，仗助四人共同觉醒替身。 这种觉醒方式，可能导致某些本来没有这份才能的人，无法承担替身的力量 这里强调，替身连带觉醒仅仅是血脉共鸣的一种体现，血脉共鸣这种玄学现象在JOJO里还有其他体现方式。 箭：虫箭 通过外星陨石打造的箭，刺伤本体而获得替身。箭与其说是一种方式，倒不如说是考验才能的入场券，被箭刺伤的人，若本身没有这份才能，就会被外星病毒杀死，拥有这份才能的人，则会存活并成为替身使者 目前箭有六支，每支箭都有细微不同。如吉良家所持之箭，会自主寻找对象。雕刻着圣甲虫的虫箭，刺伤替身会让替身蜕变为镇魂曲 极致技术：将一种技艺锻炼到出神入化的程度，也会觉醒替身，也可以说是这锻练到极致的技艺本身已经成为了精神层面的具现 圣人遗体：神秘圣人的遗体，将圣人遗体移植到身体上，有才能者可以获得替身，没有才能的人则失败，但不会死亡。或者移植遗体后继承他人的替身 这样获得的替身会因为遗体的离开而离开，但原本就有这份才能的替身使者不会失去替身",
+      "sourceRefs": [
+        "JOJO (1).worldbook.json#entry-6"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:成为替身使者的方法",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "替身使者",
+      "entityId": "替身使者",
+      "entityType": "abilities",
+      "label": "替身使者",
+      "name": "替身使者",
+      "summary": "就是拥有替身的人类。只有替身使者可以看到别人的替身。",
+      "sourceRefs": [
+        "JOJO (1).worldbook.json#entry-3"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:替身使者",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "替身的能力",
+      "entityId": "替身的能力",
+      "entityType": "abilities",
+      "label": "替身的能力",
+      "name": "替身的能力",
+      "summary": "1、替身会依“替身使者”的意志而采取行动 这是最基本的一条规则，也是替身战得以成立的基础。当然，依旧有一些例外 2、就只有替身能攻击替身 也就是说除了替身之外的任何事物，都无法触及身为精神具现的替身，但替身可以触及物质。 3、当替身受伤时，“替身使者/本体”身上的同一个部位也会跟着受伤 替身所受伤害，会反馈本体 4、替身使者一死，其替身也会随之消散 回归精神能量的设定，人死后没有任何意识，精神层面不复存在，替身也不会再出现 本规则不包括死后发动的替身 5、相反的，替身受到消灭，则替身使者也会跟着死亡 这条规则与规则3相关，替身所受伤会反映于本体，替身死亡，精神层面消亡，本体也会死亡 6、替身的能量，力量强度与本体距离成反比。本体与替身越是接近，其力量会变强，动作精准性与速度也会有所提升。不过当两者距离拉得很远，则替身力量会跟着变弱，行动速度也会变慢，替身也会变得只能做出很粗糙的动作 也就说，单论力速精三项基础能力，与替身本体距离成反比。 替身与本体越接近，就会越强，反之则反。 当然，不包括自主替身。 7、总而言之，替身分为善用和不善用 这里可以引用DIO的一句话，实际上替身没有强弱，在不同领域，替身各有高低。如何妥当地运用替",
+      "sourceRefs": [
+        "JOJO (1).worldbook.json#entry-2"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:替身的能力",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "替身类型",
+      "entityId": "替身类型",
+      "entityType": "abilities",
+      "label": "替身类型",
+      "name": "替身类型",
+      "summary": "1、直接攻击型 设定集给出的例子是白金、世界、战车，似乎等同于上文提到的近距离力量型。设定集原文描述是“通过拳和武器等直接攻击敌人”，“射程和距离很近”，“力量和速度很强大” 2、远隔操作型 “可以到达相当遥远的距离”，“力量较弱”，“适合暗杀” 3、实体化型 描述是“附着在实体上”，所以精神层面与物质结合，因此普通人可以看见并接触 4、精神攻击型 “并非进行直接攻击”，“针对梦和心理的攻击” 5、未来预知型 “预知到将来要发生的事情” 6、索敌探查型 “收集情报，感知敌人”，“没有什么力量”",
+      "sourceRefs": [
+        "JOJO (1).worldbook.json#entry-4"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:替身类型",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "波纹",
+      "entityId": "波纹",
+      "entityType": "abilities",
+      "label": "波纹",
+      "name": "波纹",
+      "summary": "波纹，那就是生命能量！就好比在水中面上泛起波纹一般，需要用特殊的呼吸法才能在肉体中产生波纹能量！而这个波和太阳所产生的波是完全一致的！基本上是对生物用的，也可以像对温青那样，扰乱尸生人的身体组织并进行操控！并且当波纹流向敌人的时候，会产生出独特的声音并释放出和太阳一样的光辉。还可应用在消除肉体的疼痛和治疗等方面。但是如果血管被冻住或者不能呼吸，那么就无法产生波纹。 将由波纹呼吸法所产生出来的能量储存在细胞之中，把将其一口气流动出去的招式通称「波纹疾走」。波纹的力量和石鬼面的力量可以说是正和反。也是人类想要打倒吸血鬼和尸生人的唯一办法！",
+      "sourceRefs": [
+        "JOJO (1).worldbook.json#entry-5"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:波纹",
+      "originalEntityType": "abilities"
+    }
+  ],
+  "edges": [
+    {
+      "source": "替身",
+      "target": "替身使者",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "替身使者",
+      "sourceRefs": [
+        "JOJO (1).worldbook.json#entry-1"
+      ],
+      "id": "edge-1",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:替身",
+      "graphTarget": "abilities:替身使者",
+      "category": "derived-mention"
+    },
+    {
+      "source": "世界背景",
+      "target": "波纹",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "波纹",
+      "sourceRefs": [
+        "JOJO (1).worldbook.json#entry-0"
+      ],
+      "id": "edge-2",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:世界背景",
+      "graphTarget": "abilities:波纹",
+      "category": "derived-mention"
+    },
+    {
+      "source": "成为替身使者的方法",
+      "target": "替身",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "替身",
+      "sourceRefs": [
+        "JOJO (1).worldbook.json#entry-6"
+      ],
+      "id": "edge-3",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:成为替身使者的方法",
+      "graphTarget": "characters:替身",
+      "category": "derived-mention"
+    },
+    {
+      "source": "成为替身使者的方法",
+      "target": "替身使者",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "替身使者",
+      "sourceRefs": [
+        "JOJO (1).worldbook.json#entry-6"
+      ],
+      "id": "edge-4",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:成为替身使者的方法",
+      "graphTarget": "abilities:替身使者",
+      "category": "derived-mention"
+    },
+    {
+      "source": "替身使者",
+      "target": "替身",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "替身",
+      "sourceRefs": [
+        "JOJO (1).worldbook.json#entry-3"
+      ],
+      "id": "edge-5",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:替身使者",
+      "graphTarget": "characters:替身",
+      "category": "derived-mention"
+    },
+    {
+      "source": "替身的能力",
+      "target": "替身",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "替身",
+      "sourceRefs": [
+        "JOJO (1).worldbook.json#entry-2"
+      ],
+      "id": "edge-6",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:替身的能力",
+      "graphTarget": "characters:替身",
+      "category": "derived-mention"
+    },
+    {
+      "source": "替身的能力",
+      "target": "替身使者",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "替身使者",
+      "sourceRefs": [
+        "JOJO (1).worldbook.json#entry-2"
+      ],
+      "id": "edge-7",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:替身的能力",
+      "graphTarget": "abilities:替身使者",
+      "category": "derived-mention"
+    },
+    {
+      "source": "替身类型",
+      "target": "替身",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "替身",
+      "sourceRefs": [
+        "JOJO (1).worldbook.json#entry-4"
+      ],
+      "id": "edge-8",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:替身类型",
+      "graphTarget": "characters:替身",
+      "category": "derived-mention"
+    }
+  ]
+}

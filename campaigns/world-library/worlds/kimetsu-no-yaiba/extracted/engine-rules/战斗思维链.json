@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "gmzr_card.worldbook.json#entry-8"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "战斗思维链"
+      },
+      "aliases": [
+        "战斗思维链"
+      ],
+      "summary": "{{setvar::combat_driver:: <!-- 每回合必须输出 <combat_driver> 模块。若本回合无战斗，仅输出\"无\" --> <combat_driver> ━━ 1.初始化(Init) ━━ 对战双方: Player_Side(单人/小队累加) vs Enemy_Side(单人/小队累加) Player_Base_BP:基于Level换算(1Lv=10BP) -> 癸-庚(10-300),丁-乙(310-500),甲-继子(510-700),柱(710-990),传说(1000+) Enemy_Base_BP:读取原著设定 -> 杂鱼(刚转化):50-100, 异能鬼(血鬼术):150-400, 下弦:600-850, 上弦:1200-3000, 无惨:5000+ 硬性检查:若Player_BP < Enemy_BP * 0.5,判定为无法破防,跳过后续计算直接进入死亡分支 ━━ 2.修正计算(Calc) ━━ 公式:Effective_BP = (Base + Skill_Bonus) * Multipliers 技能爆发(Skill_Bonus): [普通剑型]:BP+100-300(低耗)",
+      "description": "{{setvar::combat_driver:: <!-- 每回合必须输出 <combat_driver> 模块。若本回合无战斗，仅输出\"无\" --> <combat_driver> ━━ 1.初始化(Init) ━━ 对战双方: Player_Side(单人/小队累加) vs Enemy_Side(单人/小队累加) Player_Base_BP:基于Level换算(1Lv=10BP) -> 癸-庚(10-300),丁-乙(310-500),甲-继子(510-700),柱(710-990),传说(1000+) Enemy_Base_BP:读取原著设定 -> 杂鱼(刚转化):50-100, 异能鬼(血鬼术):150-400, 下弦:600-850, 上弦:1200-3000, 无惨:5000+ 硬性检查:若Player_BP < Enemy_BP * 0.5,判定为无法破防,跳过后续计算直接进入死亡分支 ━━ 2.修正计算(Calc) ━━ 公式:Effective_BP = (Base + Skill_Bonus) * Multipliers 技能爆发(Skill_Bonus): [普通剑型]:BP+100-300(低耗) * (熟练度修正:入门x0.5｜熟练x1.0｜精通x1.5) [奥义/绝技]:BP+500-800(下回合僵直/缺氧,BP减半) * (熟练度修正:入门x0.5｜熟练x1.0｜精通x1.5) [流派修正]:炎/风/雷(Atk+20%/Def-20%);水/岩(格挡提升);虫/蛇(叠加毒素/诡道) 状态倍率(Multipliers): [战术连携]:多人合击(参与者BP累加/阵型互补x1.2) [全集中·常中]:x1.2 [斑纹/反复动作]:x1.5-2.5(濒死代价) [通透世界]:x2.0(仅限闪避/弱点命中) [赫刀]:Atk*1.3(停止鬼再生) [环境/策略]: - 地利:狭窄(长兵器BPx0.8)/开阔(群攻x1.1)/泥泞(雷/突进系BPx0.8) - 牺牲:舍身一击(放弃防御/断肢换伤) -> Atk x 1.5 (下回合必受重伤) - 特攻:紫藤花毒(鬼全属性 x 0.7~0.5)/日光照射(鬼 HP归零/即死) [伤残/负面]:断骨内伤(x0.6);缺氧(BP重置为Lv1) ━━ 3.对抗判定(Resolve) ━━ 逻辑锁:禁止用技巧/借力等描述掩盖数值差距;鬼的颈部有基础防御阈值 斩首判定:阈值 = Enemy_BP * 0.8 IF (Effective_BP > 阈值): Result = 斩首成功 ELSE: Result = 斩击无效/卡在颈部/虎口震裂/刀身断裂(强制驳回玩家斩首意图) 确定结果:根据差值执行反击/重伤/死亡 </combat_driver> }}",
+      "sourceRef": "gmzr_card.worldbook.json#entry-8",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "战斗思维链"
+}

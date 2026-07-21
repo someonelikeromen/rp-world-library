@@ -1,0 +1,24 @@
+{
+  "source_refs": [
+    "slsy_card.worldbook.json#entry-188"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "闪乱神乐 第<%= vol %>卷 | <%= chap %>"
+      },
+      "aliases": [],
+      "summary": "<%_ var mode = getvar(\"stat_data.剧情.模式\") || \"日常\"; var vol = Number(getvar(\"stat_data.剧情.当前卷\")) || 1; var chap = getvar(\"stat_data.剧情.当前章\") || \"\"; var chapterMap = { 1:\"SK 第1章 Stage\", 2:\"SK 第2章 Stage\", 3:\"SK 第3章 Stage\", 4:\"SK 第4章 Stage\", 5:\"SK 第5章 Stage\", 6:\"SK 第6章 Stage\", 7:\"SK 第7-8章 Stage\", 8:\"SK 第7-8章 Stage\", 9:\"SK 第9-10章 Stage\", 10:\"SK 第9-10章 Stage\", 11:\"SK 第11-12章 Stage\", 12:\"SK 第11-12章 Stage\", 13:\"SK 第13-15章 Stage\", 14:\"SK 第13-15章 Stage\", 15:\"SK 第13-15章 Stage\", 16:\"SK 第16-20章 Stage\", 17:\"SK 第16-20章 Stage\", 18:",
+      "description": "<%_ var mode = getvar(\"stat_data.剧情.模式\") || \"日常\"; var vol = Number(getvar(\"stat_data.剧情.当前卷\")) || 1; var chap = getvar(\"stat_data.剧情.当前章\") || \"\"; var chapterMap = { 1:\"SK 第1章 Stage\", 2:\"SK 第2章 Stage\", 3:\"SK 第3章 Stage\", 4:\"SK 第4章 Stage\", 5:\"SK 第5章 Stage\", 6:\"SK 第6章 Stage\", 7:\"SK 第7-8章 Stage\", 8:\"SK 第7-8章 Stage\", 9:\"SK 第9-10章 Stage\", 10:\"SK 第9-10章 Stage\", 11:\"SK 第11-12章 Stage\", 12:\"SK 第11-12章 Stage\", 13:\"SK 第13-15章 Stage\", 14:\"SK 第13-15章 Stage\", 15:\"SK 第13-15章 Stage\", 16:\"SK 第16-20章 Stage\", 17:\"SK 第16-20章 Stage\", 18:\"SK 第16-20章 Stage\", 19:\"SK 第16-20章 Stage\", 20:\"SK 第16-20章 Stage\" }; var name = chapterMap[vol] || \"SK 第1章 Stage\"; _%> ## 闪乱神乐 第<%= vol %>卷 | <%= chap %> 当前模式: <%= mode %> <%- await getwi(name) %> <%_ if (mode === \"日常\") { _%> **当前处于日常模式 — 不主动推进主线，让{{user}}主导互动。以上内容仅供了解当前位置，不是推进指令。** <%_ } else if (mode === \"推进\") { _%> **当前处于推进模式 — 根据本章剧情发展事件。完成关键事件后切换回日常模式。** <%_ } else if (mode === \"沙盒\") { _%> **当前处于沙盒模式 — 自由探索。\"/推进\" 切主线。** <%_ } _%>",
+      "sourceRef": "slsy_card.worldbook.json#entry-188",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "闪乱神乐-第-vol-卷-chap"
+}

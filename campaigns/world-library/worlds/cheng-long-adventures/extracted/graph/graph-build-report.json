@@ -1,0 +1,31 @@
+{
+  "schema": "cheng-long-adventures-graph-build-report-v1",
+  "worldId": "cheng-long-adventures",
+  "status": "completed",
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "validation": {
+    "jsonValid": true,
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "newFactsIntroduced": false,
+    "forbiddenBasenamesGenerated": false
+  },
+  "counts": {
+    "nodes": 40,
+    "edges": 65,
+    "nodeCounts": {
+      "characters": 3,
+      "abilities": 17,
+      "factions": 1,
+      "locations": 2,
+      "knowledge": 17
+    },
+    "edgeCounts": {
+      "derived-text-mention": 65
+    },
+    "derivedMentionEdges": 65
+  },
+  "warnings": [
+    "Derived graph edges are navigation/search signals, not formal relationship facts."
+  ]
+}

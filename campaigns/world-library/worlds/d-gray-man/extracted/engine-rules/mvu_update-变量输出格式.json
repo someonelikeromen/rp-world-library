@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "qmsn_card.worldbook.json#entry-112"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[mvu_update]变量输出格式"
+      },
+      "aliases": [
+        "[mvu_update]变量输出格式"
+      ],
+      "summary": "变量输出格式: rule: - 在每次回复末尾同时输出更新分析和实际更新命令 - 更新命令必须是 JSON Patch 风格的 JSON 数组；路径不带 stat_data 根键 - 支持 replace、delta、insert、remove；不要更新字段名以 _ 或 $ 开头的变量 tracked_variables: - 关系网.* - 剧情.* - 隐秘资讯.* - 沙盒状态.* - 角色阶段.* format: |- <UpdateVariable> <Analysis>$(IN ENGLISH, no more than 80 words; analyze only the current reply.)</Analysis> <JSONPatch> [ { \"op\": \"replace\", \"path\": \"/沙盒状态/当前时间\", \"value\": \"第1天·午后\" }, { \"op\": \"replace\", \"path\": \"/关系网/亚连沃克/好感度\", \"value\": 55 }, { \"op\": \"insert\", \"path\": \"/关系网/新角色名\", \"value\": { \"好感度\": 10, ",
+      "description": "变量输出格式: rule: - 在每次回复末尾同时输出更新分析和实际更新命令 - 更新命令必须是 JSON Patch 风格的 JSON 数组；路径不带 stat_data 根键 - 支持 replace、delta、insert、remove；不要更新字段名以 _ 或 $ 开头的变量 tracked_variables: - 关系网.* - 剧情.* - 隐秘资讯.* - 沙盒状态.* - 角色阶段.* format: |- <UpdateVariable> <Analysis>$(IN ENGLISH, no more than 80 words; analyze only the current reply.)</Analysis> <JSONPatch> [ { \"op\": \"replace\", \"path\": \"/沙盒状态/当前时间\", \"value\": \"第1天·午后\" }, { \"op\": \"replace\", \"path\": \"/关系网/亚连沃克/好感度\", \"value\": 55 }, { \"op\": \"insert\", \"path\": \"/关系网/新角色名\", \"value\": { \"好感度\": 10, \"信任度\": 5, \"关系\": \"初识\" } } ] </JSONPatch> </UpdateVariable>",
+      "sourceRef": "qmsn_card.worldbook.json#entry-112",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "mvu_update-变量输出格式"
+}

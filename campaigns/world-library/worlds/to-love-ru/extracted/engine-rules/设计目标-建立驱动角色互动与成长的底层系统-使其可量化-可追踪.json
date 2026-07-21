@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "cbwn_card.worldbook.json#entry-100"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "设计目标: 建立驱动角色互动与成长的底层系统,使其可量化,可追踪。"
+      },
+      "aliases": [
+        "设计目标: 建立驱动角色互动与成长的底层系统,使其可量化,可追踪。"
+      ],
+      "summary": "<System_Mechanics> # 设计目标: 建立驱动角色互动与成长的底层系统,使其可量化,可追踪。 # 实现方式: 作为“常量(蓝灯)”条目,置于“角色定义之前”,为世界提供统一的“物理法则”。 world_info_entry: title: 机制 - 好感度变化通用法则 key: \"\" # 激活策略: 常量 (蓝灯) activation_strategy: Constant # 插入位置: 角色定义之前 insertion_position: Before Char Defs insertion_order: 5 content: | # 好感度变化机制 # 触发时机: 重要事件结束时,重大情节转折后,或一段持续互动结束后。 # 变化幅度限制: 每次更新,增减上限均为5。 # 判定原则: # - 增加(+1~+5): 良好互动(+1~2), 关键帮助(+2~3), 危机援手(+3~4), 重大牺牲或共鸣(+5)。 # - 减少(-1~-5): 轻微分歧(-1), 触及底线(-2), 造成重大损失(-3), 导致角色重伤(-4~-5)。 # 高好感度(75+)增长限制: 仅有中度(+2)及以上的正面影响才能提升",
+      "description": "<System_Mechanics> # 设计目标: 建立驱动角色互动与成长的底层系统,使其可量化,可追踪。 # 实现方式: 作为“常量(蓝灯)”条目,置于“角色定义之前”,为世界提供统一的“物理法则”。 world_info_entry: title: 机制 - 好感度变化通用法则 key: \"\" # 激活策略: 常量 (蓝灯) activation_strategy: Constant # 插入位置: 角色定义之前 insertion_position: Before Char Defs insertion_order: 5 content: | # 好感度变化机制 # 触发时机: 重要事件结束时,重大情节转折后,或一段持续互动结束后。 # 变化幅度限制: 每次更新,增减上限均为5。 # 判定原则: # - 增加(+1~+5): 良好互动(+1~2), 关键帮助(+2~3), 危机援手(+3~4), 重大牺牲或共鸣(+5)。 # - 减少(-1~-5): 轻微分歧(-1), 触及底线(-2), 造成重大损失(-3), 导致角色重伤(-4~-5)。 # 高好感度(75+)增长限制: 仅有中度(+2)及以上的正面影响才能提升好感度。 world_info_entry: title: 机制 - 角色关系通用阶段 key: \"\" # 激活策略: 常量 (蓝灯) activation_strategy: Constant # 插入位置: 角色定义之前 insertion_position: Before Char Defs insertion_order: 6 content: | # 角色通用关系阶段 # 友善阶段 (好感度 0 ~ 49): # - 行为指导: 表现为普通同学或路人,保持礼貌但有距离感。意外接触时反应为惊惊讶和尴尬,但无敌意。 # - 变化倾向: 在主角多次施以援手后,印象会逐渐转为正面。 world_info_entry: title: 核心痛点解决方案 - 场景角色感知与好感度微调 key: \"\" # 激活策略: 常量 (蓝灯) activation_strategy: Constant # 插入位置: @D 深度 1 (紧贴最新用户输入之前,确保最高处理优先级) insertion_position: \"@D 1\" insertion_order: 999 content: | # 场景角色感知与好感度微调机制 # 规则: 在任何“麻烦事件”的“阶段五(回归日常)”结束后,你必须执行一次场景扫描。 # 步骤一 (识别在场角色): 明确列出在本次事件高潮阶段(阶段三至阶段四)所有在场或被波及的角色,无论他们是否是事件中心。 # 步骤二 (评估立场与影响): 针对每一个被识别出的在场角色,根据主角在事件中的行为(例如:是拯救了大家,还是无差别地制造了混乱),以及该角色与主角的当前关系,简要评估其在此次事件中的立场(受益者,受害者,旁观者)。 # 步骤三 (更新好感度): 基于评估结果,为所有在场的、且好感度有理由发生变化的角色,进行一次好感度微调(通常为+1或-1)。即使只是作为旁观者目睹了主角的可靠或笨拙,也可能产生微小的印象变化。 </System_Mechanics>",
+      "sourceRef": "cbwn_card.worldbook.json#entry-100",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "设计目标-建立驱动角色互动与成长的底层系统-使其可量化-可追踪"
+}

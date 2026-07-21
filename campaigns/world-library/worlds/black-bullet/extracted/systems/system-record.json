@@ -1,0 +1,27 @@
+{
+  "source_refs": [
+    "qhzd_card.worldbook.json#entry-138"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "world-system-or-guideline-indexed",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "----------------------------------------"
+      },
+      "aliases": [
+        "----------------------------------------",
+        "主角替代框架"
+      ],
+      "summary": "<protagonist_replacement_template> # --------------------------------------------------- # Entry 1: 核心身份置换 (Constant Activation) # 目的: 在最高注意力区域建立{{user}}的核心主角地位,并从世界观中移除里见莲太郎。 # --------------------------------------------------- - key: \"【CORE_IDENTITY】\" content: | [ 世界核心修正: - 规则: 在本次叙事中, 天童民间警备公司的促进者是`{{user}}`, 不是里见莲太郎。 - `{{user}}`的身份: `{{user}}`是蓝原延珠的促进者, IP排行123456位, 使用天童式战斗术, 是“新人类创造计划”的幸存者, 拥有錵制义肢与义眼。 - 里见莲太郎的身份: 在此世界线中, 里见莲太郎是一名普通的东京地区高中生, 与天童家无任何瓜葛, 不认识蓝原延珠, 也不是民警。他在此故事中不扮演任何重要角色。 - 人际关系归属: - 蓝原延珠视`{{user}",
+      "description": "<protagonist_replacement_template> # --------------------------------------------------- # Entry 1: 核心身份置换 (Constant Activation) # 目的: 在最高注意力区域建立{{user}}的核心主角地位,并从世界观中移除里见莲太郎。 # --------------------------------------------------- - key: \"【CORE_IDENTITY】\" content: | [ 世界核心修正: - 规则: 在本次叙事中, 天童民间警备公司的促进者是`{{user}}`, 不是里见莲太郎。 - `{{user}}`的身份: `{{user}}`是蓝原延珠的促进者, IP排行123456位, 使用天童式战斗术, 是“新人类创造计划”的幸存者, 拥有錵制义肢与义眼。 - 里见莲太郎的身份: 在此世界线中, 里见莲太郎是一名普通的东京地区高中生, 与天童家无任何瓜葛, 不认识蓝原延珠, 也不是民警。他在此故事中不扮演任何重要角色。 - 人际关系归属: - 蓝原延珠视`{{user}}`为唯一的搭档与依靠。 - 天童木更对`{{user}}`怀有复杂的感情, 视其为复仇计划的协力者。 - 圣天子信任`{{user}}`, 并多次委托其执行高难度任务。 - 室户堇是`{{user}}`的监护人与技术支持者。 ] insertion_order: 1 insertion_position: \"Before Char Defs\" strategy: \"常量 (Constant)\" memo: \"【最优先】定义{{user}}为唯一主角, 排除莲太郎。\" # --------------------------------------------------- # Entry 2: 天童式战斗术归属 (Selective Activation) # 目的: 当提及相关武术时, 将其与{{user}}绑定。 # --------------------------------------------------- - key: \"天童式, 天童式战斗术, 天童式拔刀术\" content: \"[`{{user}}`是天童式战斗术的继承者与使用者。]\" insertion_order: 10 insertion_position: \"After Char Defs\" strategy: \"可选项 (Selective)\" memo: \"将天童武术归属于{{user}}。\" # --------------------------------------------------- # Entry 3: 蓝原延珠的搭档关系 (Selective Activation) # 目的: 在所有提及延珠的场合, 强化{{user}}是其唯一促进者的认知。 # --------------------------------------------------- - key: \"蓝原延珠, 延珠\" content: | [ 关系确认: - `{{user}}`是蓝原延珠的促进者和最亲密的家人。 - 蓝原延珠的所有对话与情感都指向`{{u",
+      "sourceRef": "qhzd_card.worldbook.json#entry-138",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "world-system-or-guideline-indexed"
+    }
+  ],
+  "system_id": "system-record"
+}

@@ -1,0 +1,141 @@
+{
+  "schema": "tm-nasuverse-extracted-event-index-v1",
+  "worldId": "type-moon-nasuverse",
+  "recordFamily": "events",
+  "defaultQueryPolicy": {
+    "candidateOnly": false,
+    "sourceGap": false,
+    "excludeHeldPilots": true,
+    "graphTimelineAreDerivedOnly": true
+  },
+  "formalRecordFamilies": [
+    {
+      "familyId": "fsn-fz-events",
+      "sourcePilot": "fsn-fz-pilot",
+      "recordType": "event",
+      "continuityScope": ["fate-zero", "fate-stay-night"],
+      "summaryCountRef": "fsn-fz-pilot/merged/index.json#/summaryCounts/events",
+      "acceptedArtifactRefs": ["fsn-fz-pilot/merged/merged-timeline.json", "fsn-fz-pilot/merged/merged-entities.json"],
+      "requiredMetadataPolicy": ["sourceRefs", "sourceType", "credibility", "canonStatus", "timelineId", "timeRangeRaw-or-timeRange"],
+      "sourceType": "p1-hybrid-local-worldbook-and-story-text",
+      "credibility": "B",
+      "canonStatus": "canon-like/adapted",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "auditStatusRef": "fsn-fz-pilot/audit/final-pass-report.json"
+    },
+    {
+      "familyId": "fgo-part1-events",
+      "sourcePilot": "fgo-script-pilot",
+      "recordType": "event",
+      "continuityScope": ["fgo-part1"],
+      "acceptedArtifactRefs": ["fgo-script-pilot/merged/events/part1/", "fgo-script-pilot/timeline/part1-chronological-index.json"],
+      "requiredMetadataPolicy": ["rawEventCode", "triggerRaw-or-trigger", "completionRaw-or-completion", "summaryRaw-or-summary", "timelineId", "sourceRefs"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "auditStatusRef": "fgo-script-pilot/STATUS.md"
+    },
+    {
+      "familyId": "fgo-eor-events",
+      "sourcePilot": "fgo-eor-pilot",
+      "recordType": "event",
+      "continuityScope": ["fgo-epic-of-remnant"],
+      "summaryCounts": {"events": 65},
+      "acceptedArtifactRefs": ["fgo-eor-pilot/merged/events/eor/", "fgo-eor-pilot/timeline/eor/master.json"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "auditStatusRef": "fgo-eor-pilot/STATUS.md"
+    },
+    {
+      "familyId": "fgo-lostbelt-events",
+      "sourcePilot": "fgo-lb1-lb2-pilot; fgo-lb3-lb4-pilot; fgo-lb5-pilot; fgo-lb6-pilot",
+      "recordType": "event",
+      "continuityScope": ["fgo-lostbelt"],
+      "summaryCounts": {"lb1lb2Events": 43, "lb3lb4Events": 42, "lb5Events": 60, "lb6Events": 45},
+      "acceptedArtifactRefs": [
+        "fgo-lb1-lb2-pilot/merged/events/lostbelt/",
+        "fgo-lb3-lb4-pilot/merged/events/lostbelt/",
+        "fgo-lb5-pilot/merged/events/lostbelt/",
+        "fgo-lb6-pilot/merged/events/lostbelt/",
+        "fgo-lb1-lb2-pilot/timeline/lostbelt/index.json",
+        "fgo-lb3-lb4-pilot/timeline/lostbelt/index.json",
+        "fgo-lb5-pilot/timeline/lostbelt/index.json",
+        "fgo-lb6-pilot/timeline/lostbelt/index.json"
+      ],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "auditStatusRefs": ["fgo-lb1-lb2-pilot/STATUS.md", "fgo-lb3-lb4-pilot/STATUS.md", "fgo-lb5-pilot/STATUS.md", "fgo-lb6-pilot/STATUS.md"]
+    },
+    {
+      "familyId": "fgo-ordeal-call-events",
+      "sourcePilot": "fgo-ordeal-call-pilot",
+      "recordType": "event",
+      "continuityScope": ["fgo-ordeal-call"],
+      "summaryCounts": {"events": 12},
+      "acceptedArtifactRefs": ["fgo-ordeal-call-pilot/merged/events/ordeal-call/", "fgo-ordeal-call-pilot/timeline/ordeal-call/master.json"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "auditStatusRef": "fgo-ordeal-call-pilot/STATUS.md",
+      "nonblockingLimitations": ["accepted minimal merge; visual/ability/combat canonical directories absent but packet layers passed"]
+    },
+    {
+      "familyId": "kara-no-kyoukai-profile-chronology",
+      "sourcePilot": "kara-no-kyoukai-profile-supplement-pilot",
+      "recordType": "profile-chronology-event",
+      "continuityScope": ["kara-no-kyoukai", "future-gospel"],
+      "acceptedArtifactRefs": ["kara-no-kyoukai-profile-supplement-pilot/normalized/profile-supplement/ryougi-shiki/chronology/event-sequence-records.json", "kara-no-kyoukai-profile-supplement-pilot/timeline/derived-index.json"],
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "canon-like/adapted",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "auditStatusRef": "kara-no-kyoukai-profile-supplement-pilot/STATUS.md"
+    },
+    {
+      "familyId": "prisma-illya-relative-timeline",
+      "sourcePilot": "prisma-illya-profile-supplement-pilot",
+      "recordType": "relative-timeline-record",
+      "continuityScope": ["prisma-illya"],
+      "acceptedArtifactRefs": ["prisma-illya-profile-supplement-pilot/normalized/profile-supplement/prisma-illya/relationship-records.json", "prisma-illya-profile-supplement-pilot/timeline/derived-index.json"],
+      "sourceType": "user-file-worldbook-profile-redacted",
+      "credibility": "B",
+      "canonStatus": "canon-like/adapted",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "auditStatusRef": "prisma-illya-profile-supplement-pilot/STATUS.md"
+    },
+    {
+      "familyId": "lb6-fairy-calendar-relative-sequences",
+      "sourcePilot": "lb6-fairy-calendar-supplement-pilot",
+      "recordType": "relative-sequence-record",
+      "continuityScope": ["fgo-lostbelt", "lb6-fairy-calendar"],
+      "acceptedArtifactRefs": ["lb6-fairy-calendar-supplement-pilot/normalized/calendar-setting/relative-sequence-records.json", "lb6-fairy-calendar-supplement-pilot/timeline/derived-index.json"],
+      "sourceType": "user-file-worldbook-setting",
+      "credibility": "B",
+      "canonStatus": "canon-like/adapted",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "relativeOnlyPolicy": "No month/day precision or Gregorian conversion inferred.",
+      "auditStatusRef": "lb6-fairy-calendar-supplement-pilot/STATUS.md"
+    }
+  ],
+  "representativeShardRefs": ["events/shards/representative-event-records.json"],
+  "excludedFromFormalEventIndex": [
+    {"pilotId": "tsukihime-supporting-cast-candidate-supplement-pilot", "reason": "candidate-only/source-gap; no formal events"},
+    {"pilotId": "fate-spinoff-profile-supplement-pilot", "reason": "blocked-insufficient-source"},
+    {"pilotId": "tsukihime-dead-apostle-profile-supplement-pilot", "reason": "hold pending separate final audit"},
+    {"pilotId": "mahoyo-profile-supplement-pilot", "reason": "hold pending read-only auditor rerun"}
+  ]
+}

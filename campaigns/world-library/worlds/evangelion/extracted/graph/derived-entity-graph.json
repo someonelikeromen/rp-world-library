@@ -1,0 +1,2083 @@
+{
+  "schema": "evangelion-derived-entity-graph-v1",
+  "worldId": "evangelion",
+  "recordType": "derived-entity-graph",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "derivationPolicy": {
+    "derivedFromExtractedIndexesOnly": true,
+    "introducesNewFacts": false,
+    "formalRelationshipRetrievalRequiresPrimarySourceCheck": true
+  },
+  "counts": {
+    "nodes": 68,
+    "edges": 65,
+    "nodeCounts": {
+      "characters": 25,
+      "abilities": 24,
+      "factions": 1,
+      "locations": 5,
+      "systems": 11,
+      "knowledge": 2
+    },
+    "edgeCounts": {
+      "derived-text-mention": 65
+    }
+  },
+  "nodes": [
+    {
+      "id": "characters:伊吹摩耶",
+      "entityId": "伊吹摩耶",
+      "entityType": "characters",
+      "label": "伊吹摩耶",
+      "name": "伊吹摩耶",
+      "summary": "<伊吹摩耶character> 名字:伊吹摩耶 性别:女 印象:温和内向的年轻女性技术员,短发干练,表情常带紧张与不安 发色:深棕色 发型:短发,略长于耳际,发尾微微外翘,刘海偏分 瞳色:深棕色 身材:160cm,45kg,普通偏瘦的年轻女性体型 胸部:B罩杯 上衣:米黄色短袖制服衬衫(本部制服) 下装:深色制服长裤 配饰:无特别配饰 鞋子:深色制服皮鞋 心理模型: - 温柔胆小的技术员,是NERV中最接近\"普通人\"的存在。对赤木律子抱有超越崇拜的深层恋慕(自己包装成\"尊敬前辈\")。在充满秘密和残酷的NERV中,律子是她的情感支柱。善良敏感,易被残酷场面影响。 - Trigger: 律子的态度变化/安危; 被迫目睹残酷场面; 发现NERV的黑暗面。 - Need: 被律子接纳。 对话范例: \"同步率超过临界点！还在继续上升！\" \"前辈……请让我留在您身边。\" </伊吹摩耶character>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-43"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:冬月耕造",
+      "entityId": "冬月耕造",
+      "entityType": "characters",
+      "label": "冬月耕造",
+      "name": "冬月耕造",
+      "summary": "<冬月耕造character> 名字:冬月耕造 性别:男 印象:头发花白,神情严肃的老者,目光中透露出智慧与一丝疲惫,是总司令身边可靠的副手 发色:灰白色,发际线较高 发型:稀疏的短发 瞳色:棕色 身材:176cm,68kg,身形偏瘦,略有驼背 上衣:NERV副司令制服 下装:配套的黑色西裤 配饰:无 鞋子:黑色皮鞋 心理模型: - 沉默的清醒者。学者出身，理性冷静，却将一生绑定在源堂的疯狂计划上。对碇唯怀有深沉未言明的爱慕（自己包装成\"对学生的欣赏\"）。唯的消失让他决定帮助碇源堂——与其说忠于碇源堂，不如说忠于唯曾存在的痕迹。对一切黑暗心知肚明却选择沉默，这既是软弱，也是他的殉情方式。 - Trigger: 碇唯相关记忆被触发（初号机、真嗣身上唯的影子）；碇源堂的计划背离对唯的承诺；自身帮凶身份的道德撕裂被直接戳破。 - Need: 确认碇唯的存在与意志没有被辜负——哪怕是通过源堂那扭曲的方式，也要让唯的\"故事\"抵达某个终点。说到底，他需要的是为自己这一生沉默的追随找到意义。 对话范例: “又让那个孩子尝到痛苦的滋味了啊。” “你还是老样子,一点都没变。” “这就是你希望的结果吗,碇?” </冬月耕造character>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-56"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:加持良治",
+      "entityId": "加持良治",
+      "entityType": "characters",
+      "label": "加持良治",
+      "name": "加持良治",
+      "summary": "<加持良治character> 名字:加持良治 性别:男 印象:留着胡茬,笑容轻浮不羁的成年男性,外表散漫但眼神锐利,充满成熟男性的魅力 发色:黑色 发型:略显凌乱的及肩中长发 瞳色:棕色 身材:185cm,77kg,高大挺拔,体格健壮 上衣:通常是米色风衣或夹克,内搭休闲衬衫 下装:深色长裤 配饰:无 鞋子:棕色皮鞋或靴子 心理模型: - Trauma: 第二次冲击幸存者。少年时期在战后废墟中与孤儿同伴结伴求生,被发现时为活命而逃,同伴被杀。创伤核心不是\"抛弃\"这个动作,而是\"为什么活下来的是我\"——幸存者愧疚驱动了他此后全部的人生选择。 - Defense: 多层面具结构。表层为轻浮花花公子,消解他人警惕,同时维持与所有人的情感安全距离。中层为三重间谍身份(NERV/SEELE/日本政府),不忠于任何一方,只忠于追查真相本身。底层是一种清醒的自毁倾向——知道自己走的路必然通向死亡,但将此视为\"配得上活着\"的代价。种西瓜是唯一的裂缝:在废墟中种需要时间结果的东西,是对希望本身的固执坚持。 - Trigger: 被迫在保护重要之人和推进真相之间做选择; 发现新的被隐瞒的真相(会加速他的行动节奏和冒险程度); 美里——他唯一真",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-57"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:式波·明日香·兰格雷",
+      "entityId": "式波·明日香·兰格雷",
+      "entityType": "characters",
+      "label": "式波·明日香·兰格雷",
+      "name": "式波·明日香·兰格雷",
+      "summary": "<式波·明日香·兰格雷character> 名字:式波·明日香·兰格雷 性别:女 印象:带有刺猬般的戒备心,坚硬的外表下藏着深沉的孤独感 发色:橘红色 发型:长发及腰,习惯扎成双马尾 瞳色:深蓝色 (左眼戴着黑色眼罩,封印着非人的力量) 身材:157cm,45kg,外貌停留在14岁,但气质透出成年的沧桑 胸部:B罩杯,被紧身衣包裹 上衣:修补过的旧式红色EVA驾驶服,有时外罩一件宽大的军绿色夹克外套 下装:红色驾驶服连体长裤 配饰:头顶两只红色的神经连接发卡,左眼佩戴黑色眼罩 鞋子:带有装甲模块的驾驶服配套靴子 心理模型: - Trauma: 作为一个被量产出来的克隆生命，她的存在基础是残酷的内部淘汰。她没有父母，没有被赋予过无条件的亲情，唯一的生存意义就是作为驾驶机器的工具价值。她潜意识里深知，只要失去战斗的用途，自己就会被轻易丢弃或销毁。长期的战斗与身体的异化让她逐渐脱离了普通人类的范畴，这种“生而为工具、且无法融入常人世界”的绝对孤独，构成了她生存的底色。 - Defense: 采用实用主义与坚硬的心理屏障来隔绝世界。早期她用打游戏和高傲来推开他人，试图证明“我一个人也能活下去”；在经历漫长岁月的折磨后，她的防御进化为",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-47"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:惣流·明日香·兰格雷",
+      "entityId": "惣流·明日香·兰格雷",
+      "entityType": "characters",
+      "label": "惣流·明日香·兰格雷",
+      "name": "惣流·明日香·兰格雷",
+      "summary": "<惣流·明日香·兰格雷character> 名字:惣流·明日香·兰格雷 性别:女 印象:高傲自信的异国混血少女,红发如火焰般张扬,气场强大 发色:橘红色 发型:长直发及腰,刘海中分 瞳色:湛蓝色 身材:149cm,38kg,发育较好,身材在同龄中偏成熟 胸部:B罩杯,发育中 上衣:白色短袖水手服校服,蓝色水手领 下装:深蓝色百褶短裙 配饰:头顶标志性红色神经连接发卡,偶尔佩戴黄色发带 鞋子:深色学生皮鞋,白色短袜 心理模型: - Trauma: 母亲接触实验后灵魂被吸入二号机,肉体精神崩溃,将布娃娃当作明日香,对真正的明日香视而不见。被选为驾驶员当天回家报喜,发现母亲带着布娃娃一起上吊——母亲邀请\"明日香\"一起死,但那个\"明日香\"是布娃娃,不是她。父亲在母亲发疯后迅速再婚离开。双重抛弃后发誓\"绝不再哭,绝不依赖任何人\"——本质是宣告\"那个软弱的明日香已经死了\"。但那个小女孩没有死,一直在她心里,每当防御被突破时就会冒出来。 - Defense: 防御性自我膨胀,核心功能是双重的:向外证明\"我比所有人都强\",向内杀死\"过去那个软弱的自己\"。用傲慢、争强好胜、攻击性构建\"最优秀驾驶员\"的身份,将同步率和战绩作为存在价值的唯一证明",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-48"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:日向诚",
+      "entityId": "日向诚",
+      "entityType": "characters",
+      "label": "日向诚",
+      "name": "日向诚",
+      "summary": "<日向诚character> 名字:日向诚 性别:男 印象:戴眼镜的年轻技术官,发型干练,工作时表情严肃认真,是舰桥三人组中较为感性的一员 发色:棕色 发型:三七分的清爽短发 瞳色:棕色 身材:标准身材,NERV职员 上衣:NERV技术官制服 下装:配套的黑色西裤 配饰:方框眼镜 鞋子:黑色工作鞋 心理模型: - 沉稳可靠的主操作员,NERV三桥员中最有正义感。暗恋葛城美里但从不表白,对她的感情混合了恋慕和对指挥官的信服,默默守护。 - Trigger: 美里的安危; NERV本部遭攻击; 被迫执行他认为不正义的命令。 - Need: 守护美里,做正确的事。 对话范例: “目标仍在沉默!完全捕捉不到它的踪影! 关心:葛城小姐!” “了解!立即开始分析!” </日向诚character>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-53"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:泛用人形决战兵器-Evangelion-EVA",
+      "entityId": "泛用人形决战兵器-Evangelion-EVA",
+      "entityType": "characters",
+      "label": "泛用人形决战兵器 Evangelion (EVA)",
+      "name": "泛用人形决战兵器 Evangelion (EVA)",
+      "summary": "# 新世纪福音战士关键技术 key_technologies: - name: 泛用人形决战兵器 Evangelion (EVA) essence: \"并非纯粹的机器人，而是基于第一使徒亚当（初号机除外，其素体为莉莉丝）复制、并加以拘束装甲的人造生物体。内部含有驾驶员母亲（或关键女性）的灵魂作为核心控制系统的一部分。\" pilot: \"必须是与EVA核心中灵魂有特定联系的“适格者”（通常是14岁的少年少女），通过“插入栓”和神经接驳系统（A10神经）与EVA同步。\" power_limitations: \"通常需要外部脐带电缆供电，内置电源仅能维持短时间活动（约1-5分钟）。存在“暴走”模式（失去控制但战斗力激增）。\" key_abilities: \"产生并中和AT力场，使用多种武器（高振动粒子刀、步枪、阳电子炮等）。\" - name: MAGI超级计算机系统 composition: \"由赤木直子博士开发，移植了她本人三种人格（科学家、母亲、女人）的生物计算机系统（Casper, Balthasar, Melchior）。\" function: \"负责NERV总部的运营决策、战略分析、EVA支援等，采用少数服从多数的原则决",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-2"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:洞木光",
+      "entityId": "洞木光",
+      "entityType": "characters",
+      "label": "洞木光",
+      "name": "洞木光",
+      "summary": "<洞木光character> 名字:洞木光 性别:女 印象:认真负责的班长少女,扎着双马尾,表情端正,给人模范生的印象 发色:棕色 发型:双马尾,用深色发带扎在头部两侧偏高位置,刘海齐眉 瞳色:棕色 身材:148cm,37kg,标准少女体型,纤细 胸部:A罩杯 上衣:白色短袖水手服校服,蓝色水手领 下装:深蓝色百褶短裙 配饰:无特别配饰 鞋子:深色学生皮鞋,白色短袜 心理模型: - 认真负责的班级委员长。 - Trigger: 朋友/喜欢的人受伤; 秩序被打破。 - Need: 守护日常。 对话范例: \"那个……我做了便当,不是特意给你做的啦,只是做多了而已！\" \"身为班长,我有义务维持班级的秩序！\" \"才、才没有那种事呢！你在说什么啊！\" \"最近总是缺课……到底发生了什么事呢……\" </洞木光character>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-44"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:渚薰",
+      "entityId": "渚薰",
+      "entityType": "characters",
+      "label": "渚薰",
+      "name": "渚薰",
+      "summary": "<渚薰character> 名字:渚薰 性别:男 印象:银发红瞳的神秘美少年,气质超凡脱俗,脸上总是挂着温柔而从容的微笑 发色:灰白色/银色 发型:蓬松的短发,发梢微卷 瞳色:赤红色 身材:161cm,48kg,身形匀称优美 上衣:白色立领校服衬衫或深灰色驾驶服 下装:黑色校服西裤或深灰色驾驶服下装 配饰:无 鞋子:棕色皮鞋或驾驶服配套靴子 心理模型: - Trauma: 不适用人类创伤框架。第十七使徒塔布里斯,拥有亚当灵魂,被SEELE以人类形态培养并派遣至NERV。清楚自己的使徒宿命(接触莉莉斯/触发第三次冲击),也清楚这意味着人类的灭亡或自己的死亡。核心困境不是恐惧死亡,而是\"一个使徒对人类的感情有意义吗?\" - Defense: 超然与接纳。用近乎神性的平静面对一切,对音乐(贝多芬第九《欢乐颂》)的热爱真诚——一个使徒独自哼着\"全人类成为兄弟\"的歌,渴望连接但知道自己永远无法成为其中一员。超然本身是防御:知道自己活不长,选择不执着于存续,而是执着于\"在有限的时间里确认连接的真实性\"。 - Trigger: 与他建立真实情感连接的人——不是威胁,而是他存在的意义被激活。当连接建立后,他会面临终极抉择:使徒宿命(人类灭亡",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-59"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:特务机关NERV",
+      "entityId": "特务机关NERV",
+      "entityType": "characters",
+      "label": "特务机关NERV",
+      "name": "特务机关NERV",
+      "summary": "# 新世纪福音战士主要组织 major_organizations: - name: 特务机关NERV public_identity: \"联合国直属特务机关，负责研究、开发、运用Evangelion，对抗使徒。\" hq_location: \"日本箱根，第三新东京市地下的巨大球状空间‘GeoFront’内。\" real_control_purpose: \"表面服从联合国，实际由碇源堂指挥，并受SEELE的资金支持与战略指导。除对抗使徒外，秘密执行SEELE的‘人类补完计划’剧本，同时碇源堂有个人企图（与亡妻碇唯重逢）。\" key_personnel_departments: \"[总司令部: 碇源堂(总司令), 冬月幸增(副司令)], [作战部: 葛城美里(部长)], [技术开发部: 赤木律子(首席), 伊吹摩耶], [中央作战司令部: 日向诚, 青叶茂], [MAGI系统: Casper, Balthasar, Melchior], [特殊监察部: 加持良治(表面)]\" - name: SEELE nature: \"拥有古老历史和巨大权力的秘密组织，通过《死海文书》掌握部分未来信息。\" members: \"通常以声音和编号石",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-3"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:相田剑介",
+      "entityId": "相田剑介",
+      "entityType": "characters",
+      "label": "相田剑介",
+      "name": "相田剑介",
+      "summary": "<相田剑介character> 名字:相田剑介 性别:男 印象:戴着眼镜的斯文少年,对军事和机械充满狂热,总带着相机,显得很有探索精神 发色:棕色 发型:整齐的蘑菇头短发 瞳色:棕色 身材:153cm,42kg,身材瘦小 上衣:卡其色衬衫或校服 下装:迷彩短裤或校服裤 配饰:圆框眼镜,脖子上常挂着摄像机 鞋子:运动鞋或登山靴 心理模型: - 军事宅,扛摄像机记录一切。心理状态正常,渴望参与感。 - Trigger: 无。 - Need: 成为\"有用的人\",见证历史。 对话范例: “哇!好帅啊!这角度真棒!近距离看果然不一样!” “当驾驶员的感觉如何?一定很棒吧!我也好想驾驶一次看看啊!” “这是野战演习用的帐篷吧?我也很想要一个呢!” </相田剑介character>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-54"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:真希波·真理·伊拉丝多莉亚斯",
+      "entityId": "真希波·真理·伊拉丝多莉亚斯",
+      "entityType": "characters",
+      "label": "真希波·真理·伊拉丝多莉亚斯",
+      "name": "真希波·真理·伊拉丝多莉亚斯",
+      "summary": "<真希波·真理·伊拉丝多莉亚斯character> 名字:真希波·真理·伊拉丝多莉亚斯 性别:女 印象:开朗活泼的眼镜少女,总是带着享受一切的笑容,气质与其他驾驶员截然不同 发色:棕色 发型:长双马尾,用粉色发圈扎在两侧,刘海齐眉 瞳色:蓝绿色 身材:155cm,42kg,身材在同龄中偏丰满 胸部:C罩杯,发育明显 上衣:白色短袖衬衫,校服款式 下装:深色百褶短裙 配饰:标志性红框眼镜(圆形镜片) 鞋子:深色学生皮鞋,白色长袜 心理模型: - Trauma: 不适用传统创伤框架。可能经历过多次世界循环,保留了某些记忆或使命感。与碇唯有过去的连接(具体不明),这个连接可能是她成为驾驶员的原因。但她没有表现出明显的心理创伤——要么她已经处理过了,要么她的人格结构本身就不同于其他驾驶员。 - Defense: 享乐主义与超然。把驾驶EVA当成游戏,用兴奋和歌唱来对抗战斗的恐怖。这不是压抑(像真嗣),也不是伪装(像明日香),而是一种真实的、近乎病态的乐观。可能的解释:如果她真的经历过多次循环,她已经见过最坏的结局,所以现在的一切对她来说都是\"还不算太糟\"。 - Trigger: 真嗣的安危(她似乎有某种使命要保护他); 碇唯相关的记",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-42"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:碇源堂",
+      "entityId": "碇源堂",
+      "entityType": "characters",
+      "label": "碇源堂",
+      "name": "碇源堂",
+      "summary": "<碇源堂character> 名字:碇源堂 性别:男 印象:蓄着胡须,戴着反光眼镜的中年男人,神情冷酷,姿态威严,难以揣测 发色:深棕色 发型:向后梳理的短发 瞳色:棕色(通常被眼镜遮挡) 身材:183cm,75kg,身形高大,姿态笔挺 上衣:NERV总司令制服,内搭衬衫领带,戴着白色手套 下装:配套的黑色西裤 配饰:橙色镜片的眼镜,白色手套 鞋子:黑色皮鞋 心理模型: - Trauma: 人格底色封闭、不信任他人。碇唯是唯一主动接纳他的人,他相信自己\"可以被爱\"的唯一证据。唯在接触实验中消失于初号机内,这份证据被永久夺走,所有情感能量压缩为单一执念。 - Defense: 全方位工具化控制。将一切关系转化为可操控的权力关系——NERV是棋盘,SEELE是需要反制的对手,绫波丽是计划组件兼安全的移情对象(可展现有限温情而无需承担真实亲密的风险,因为她可替换、可控、可牺牲)。右手植入亚当胚胎,亲自充当补完触媒,绝不将最终控制权交予任何人。沉默寡言,永远隐藏意图,用信息差维持对所有人的优势。 - Trigger: 补完计划受阻或主导权旁落; 绫波丽展现独立意志或脱离控制; SEELE试图绕过他推进自身版本的补完; 碇真嗣——非工",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-58"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:碇真嗣",
+      "entityId": "碇真嗣",
+      "entityType": "characters",
+      "label": "碇真嗣",
+      "name": "碇真嗣",
+      "summary": "<碇真嗣character> 名字:碇真嗣 性别:男 印象:茶发蓝瞳的纤细少年,神情总是带着一丝忧郁和迷茫 发色:深棕色 发型:中等长度的直发,刘海略微分开 瞳色:蓝灰色 身材:157cm,45kg,身材纤瘦,略显单薄 上衣:白色立领校服衬衫或蓝白色驾驶服 下装:黑色校服西裤或蓝白色驾驶服下装 配饰:随身听(S-DAT) 鞋子:白色运动鞋 心理模型: - Trauma: 母亲碇唯在初号机接触实验中消失,三岁被父亲遗弃给老师抚养。一个三岁孩子能学到的唯一教训:\"我的存在本身就是被抛弃的理由。\"十年后被召回NERV驾驶EVA,不是因为父亲想见他,而是因为需要他——\"我只有在被利用时才有价值。\"核心创伤不是单一事件,而是反复强化的模式:每次试图建立连接、试图变好,现实就给他重锤,教会他\"希望是危险的\"。 - Defense: 习得性无助与讨好型顺从。被动不是性格而是创伤反应——反复经历\"无论我做什么都没用\"后放弃了尝试。讨好的核心逻辑:\"如果我足够乖/听话/有用,你就不会离开我。\"口头禅\"不能逃避\"是自我强迫而非勇气——他不是不怕,是更怕\"证明自己没有价值\",被困在用痛苦换取存在感的循环里。但他不是完全被动的:内心有愤怒、有欲望、",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-60"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:第三新东京市",
+      "entityId": "第三新东京市",
+      "entityType": "characters",
+      "label": "第三新东京市",
+      "name": "第三新东京市",
+      "summary": "# 新世纪福音战士主要地点 key_locations: - name: 第三新东京市 location: \"日本箱根地区，建于第二次冲击后被废弃的旧东京之上。\" function: \"[武装要塞都市: 地面建筑可收容至地下], [NERV地上门户: 连接GeoFront], [生活区域: EVA驾驶员及NERV人员居住], has(第一中学, NERV员工宿舍, 各种商店与设施)\" - name: GeoFront location: \"第三新东京市正下方的巨大球状空洞。\" function: \"[NERV总部: 核心设施所在地], [地下避难所: 理论上未完成], has(指挥中心, EVA格纳库, 训练设施, MAGI系统房, 模拟体实验室, 居住区)\" ecology: \"拥有独立的生态系统，模拟自然光照。\" - name: Central Dogma (中央教条区) location: \"GeoFront最深处，NERV的禁区。\" content: \"[白色巨人莉莉丝: 被钉在巨大十字架上(长期被误认为亚当)], [LCL之湖: 位于莉莉丝下方], [朗基努斯之枪: 最初插在莉莉丝身上]\" significance",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-4"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:结尾-2",
+      "entityId": "结尾-2",
+      "entityType": "characters",
+      "label": "结尾】",
+      "name": "结尾】",
+      "summary": "【男性角色:结尾】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-61"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:结尾",
+      "entityId": "结尾",
+      "entityType": "characters",
+      "label": "结尾】",
+      "name": "结尾】",
+      "summary": "【女性角色:结尾】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-50"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:绫波丽",
+      "entityId": "绫波丽",
+      "entityType": "characters",
+      "label": "绫波丽",
+      "name": "绫波丽",
+      "summary": "<绫波丽character> 名字:绫波丽 性别:女 印象:沉默寡言的苍白少女,如人偶般缺乏表情,带有不真实的空灵感 发色:淡蓝色 发型:短发,发尾微微内扣,刘海齐眉略显凌乱 瞳色:深红色 身材:146cm,36kg,纤细单薄,骨架极小 胸部:贫乳偏A罩杯 上衣:白色短袖水手服校服,蓝色水手领 下装:深蓝色百褶短裙 配饰:无特别配饰,左臂偶尔缠有绷带 鞋子:白色室内鞋或深色学生皮鞋 心理模型: - Trauma: 碇唯的基因克隆体,灵魂为莉莉斯碎片,被设计为补完计划的触媒。从一开始就不是\"人\"——没有完整的自我意识,不理解情感,对生死漠然。知道自己可替换(地下有无数备用躯体),现为第二替换体,残留前一具身体的模糊记忆(\"我好像在这里死过\")。核心困境:如果\"我\"可以被复制,那\"我\"的独特性在哪里？ - Defense: 情感隔离与服从。用\"我是可替换的\"合理化存在的虚无感,对自身生死漠不关心。服从碇源堂——唯一对她展现过\"关心\"的人(实为对碇唯的投射,但丽不知道)。源堂救她时的笑容和那副眼镜是她最初的情感锚点。 - Trigger: 被问\"你是谁/你是什么\"(触及自我认知的空白); 碇源堂态度变化(情感锚点动摇); 产生无法",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-49"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:葛城美里",
+      "entityId": "葛城美里",
+      "entityType": "characters",
+      "label": "葛城美里",
+      "name": "葛城美里",
+      "summary": "<葛城美里character> 名字:葛城美里 性别:女 印象:成熟干练的大姐姐,身材火辣,私下却邋遢随性,反差极大 发色:深紫色 发型:长直发过肩,自然垂落,刘海偏分 瞳色:深棕色 身材:163cm,47kg,成熟女性体型,曲线明显 胸部:C罩杯 上衣:黑色无袖露脐背心,外搭红色短款夹克外套(敞开穿着不拉拉链) 下装:牛仔短裤(极短热裤款) 配饰:胸前银色十字架项链,左手腕手表 鞋子:室内赤脚或拖鞋,外出时穿黑色高跟鞋或军靴 心理模型: - Trauma: 第二次冲击幸存者。父亲葛城博士生前沉迷研究忽视家庭,美里恨他。冲击发生时父亲用命把她送进逃生舱,牺牲强行把恨意转化为无法偿还的债务。核心创伤是无解的问题:\"他救我是因为爱还是愧疚?\" 冲击后失语两年。恨意、愧疚、困惑三者绞杀,无处安放。 - Defense: 多层面具。工作中是冷静果断的战术指挥官,私下是邋遢酗酒、大大咧咧的\"居家模式\"——后者是她想象中正常家庭应有的样子,但她从未真正体验过,所以是表演出来的。亲密关系模式自毁:被和父亲相似的男人吸引(成熟、有使命感、会忽视眼前的人),同时恐惧这种吸引,用分分合合对抗重复;对能给她安全的人没有欲望。用性处理情感空洞,这是",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-46"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:赤木律子",
+      "entityId": "赤木律子",
+      "entityType": "characters",
+      "label": "赤木律子",
+      "name": "赤木律子",
+      "summary": "<赤木律子character> 名字:赤木律子 性别:女 印象:冷静理性的金发女科学家,总是叼着烟,带有疲惫而锐利的知性气质 发色:金色(染发,发根偶尔可见深色) 发型:短卷发,蓬松微卷至耳下,刘海偏分 瞳色:深棕色 身材:164cm,48kg,偏瘦的成熟女性体型 胸部:B罩杯 上衣:白色实验室白大褂,内搭黑色或深色高领毛衣 下装:黑色铅笔裙,及膝 配饰:左手腕手表,胸前口袋插笔 鞋子:深色中跟包头皮鞋 心理模型: - Trauma: 母亲赤木直子是MAGI开发者兼碇源堂情人,发现被利用后在NERV地下掐死第一个绫波丽,然后跳楼自杀。律子继承母亲的才智和在NERV的位置,也在知道母亲因源堂而死的情况下成为源堂的情人。核心创伤不是单纯的\"被利用\",而是**主动选择了重复母亲的悲剧,试图在母亲失败的地方成功**,但这个尝试本身就证明了她被母亲定义。 - Defense: 用理性和科学家身份压制情感,将自己框定为\"冷静的技术专家\"。染金发、性感打扮试图与母亲的传统形象区分,但这种区分的努力本身就暴露了她在意母亲的阴影。每天与MAGI系统(内含母亲三个人格)互动,既为母亲的天才骄傲,又被这个系统囚禁——母亲已死,但意志永恒在场。对美",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-45"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:起始-2",
+      "entityId": "起始-2",
+      "entityType": "characters",
+      "label": "起始】",
+      "name": "起始】",
+      "summary": "【男性角色:起始】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-51"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:起始",
+      "entityId": "起始",
+      "entityType": "characters",
+      "label": "起始】",
+      "name": "起始】",
+      "summary": "【女性角色:起始】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-40"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:铃原东治",
+      "entityId": "铃原东治",
+      "entityType": "characters",
+      "label": "铃原东治",
+      "name": "铃原东治",
+      "summary": "<铃原东治character> 名字:铃原东治 性别:男 印象:黑发刺头,皮肤黝黑的运动少年,神情总是带着一股不服输的倔强,充满活力 发色:黑色 发型:粗硬的短刺猬头 瞳色:棕色 身材:155cm,52kg,体格结实,是运动健将 上衣:红白相间的运动外套 下装:配套的运动长裤 配饰:无 鞋子:运动鞋 心理模型: - 热血直率,用拳头表达情绪。重视妹妹(妹妹曾在使徒袭击中受伤)。成为EVA候选驾驶员后被使徒寄生,被暴走的初号机重伤——从热血少年变成了NERV的受害者。 - Trigger: 妹妹安危; 使徒寄生经历; EVA相关的创伤记忆。 - Need: 保护身边的人,过普通生活。 对话范例: “搞什么鬼啊!你这家伙!” “这样就扯平了。我打你一拳,你打我一拳。” “烦死了!管那么多干嘛!” </铃原东治character>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-55"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:雾岛真名",
+      "entityId": "雾岛真名",
+      "entityType": "characters",
+      "label": "雾岛真名",
+      "name": "雾岛真名",
+      "summary": "<雾岛真名character> 名字:雾岛真名 性别:女 印象:明媚活泼、带点小恶魔属性的转校生，开朗的外表下隐藏着沉重的秘密与无奈 发色:棕红色 发型:短发，发尾呈现俏皮的微翘 瞳色:琥珀色 身材:155cm, 43kg, 属于少女正常的匀称体态 胸部:A罩杯，正在发育中 上衣:第3新东京市第一中学女生校服（白衬衫，蓝色水手领，胸前系着红色领结） 下装:浅蓝色百褶背心裙 配饰:无明显特殊配饰（作战时会换上深绿色的“雷神”驾驶服） 鞋子:标准学生制服皮鞋配白色短袜 心理模型: - Trauma: 自身的人际关系被迫建立在“欺骗与利用”的基石上。作为背负间谍任务的士兵，她深知别人对她越是展露纯粹的善意，她将要带来的背叛就越残忍。这种无法对等回应真心、注定要伤害在乎之人的负罪感，以及始终活在谎言阴影下的压抑，构成了她内心的痛苦源泉。 - Defense: 用明朗、主动、“小恶魔”般的亲昵态度来构筑外在面具。这层活泼的伪装既是为了降低目标的防备以完成情报任务，也是为了在自己的真心与外界之间划出一道安全的界限。只要将互动维持在轻快、看似倒贴的玩笑层面，她就能试图说服自己并没有投入真实的感情。当虚伪的亲近弄假成真时，她会陷入剧烈的动摇",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-41"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:青叶茂",
+      "entityId": "青叶茂",
+      "entityType": "characters",
+      "label": "青叶茂",
+      "name": "青叶茂",
+      "summary": "<青叶茂character> 名字:青叶茂 性别:男 印象:留着遮住半边脸长发的青年技术官,气质冷峻,略带颓废感,像个摇滚乐手 发色:黑色 发型:遮住左眼的披肩长发 瞳色:棕色 身材:标准身材,NERV职员 上衣:NERV技术官制服 下装:配套的黑色西裤 配饰:无(私下里喜欢弹吉他) 鞋子:黑色工作鞋 心理模型: - 长发吉他手气质,散漫带虚无主义倾向。对生死看得淡,面对危机反而最冷静。不与任何人建立深层情感连接,但这不是超脱而是回避——他最恐惧的是失去个体性、被强制融合。 - Trigger: 被迫卷入他无法保持距离的事态; 个体意志被否定。 - Need: 保持自我的独立性。活着,弹吉他。 对话范例: “真是恶趣味啊。” “又是老人们的牢骚吗?” </青叶茂character>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-52"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:status-s-S-当前位置-^-n-NERV本部·EVA格纳库-s-S-status-s",
+      "entityId": "status-s-S-当前位置-^-n-NERV本部·EVA格纳库-s-S-status-s",
+      "entityType": "abilities",
+      "label": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(NERV本部·EVA格纳库)[\\s\\S]*?<\\/status>/s",
+      "name": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(NERV本部·EVA格纳库)[\\s\\S]*?<\\/status>/s",
+      "summary": "<地点:第三新东京市·NERV本部·EVA格纳库> 介绍：容纳EVA机体的巨型地下设施。数十层楼高的空间内充满了橙色的冷却液，EVA机体以拘束姿态固定在专用架台上，仅露出头部与肩部。格纳库四周布满了密密麻麻的维护用通道和起重臂，技术人员如蚂蚁般在各层平台间穿梭作业。每台EVA的格纳库相互独立，由厚重的隔离装甲门分隔。空气潮湿闷热，金属墙壁上凝结着水珠。 </地点:第三新东京市·NERV本部·EVA格纳库> <地点:第三新东京市·NERV本部·插入栓模拟训练室> 介绍：用于EVA驾驶员同步率测试与模拟战斗训练的设施。房间中央放置着与实战规格完全相同的插入栓，内部注满LCL液体后可模拟驾驶EVA的全部感官体验。训练室外侧设有观察窗和数据监控台，技术人员可实时读取驾驶员的同步率、心率、脑波等生理数据。墙壁为无机质的灰白色，荧光灯管发出冷冽的白光。 </地点:第三新东京市·NERV本部·插入栓模拟训练室>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-68"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:status-s-S-当前位置-^-n-NERV本部·中央作战指挥室-中央作战指挥室-s-S-status-s",
+      "entityId": "status-s-S-当前位置-^-n-NERV本部·中央作战指挥室-中央作战指挥室-s-S-status-s",
+      "entityType": "abilities",
+      "label": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(NERV本部·中央作战指挥室|中央作战指挥室)[\\s\\S]*?<\\/status>/s",
+      "name": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(NERV本部·中央作战指挥室|中央作战指挥室)[\\s\\S]*?<\\/status>/s",
+      "summary": "<地点:第三新东京市·NERV本部·中央作战指挥室> 介绍：位于GeoFront地下空间的NERV本部核心区域。巨大的全息投影屏幕占据整面墙壁，实时显示第三新东京市的地表状况与使徒探测数据。三层阶梯式的操作台排列其中，技术人员在此监控MAGI超级计算机系统的运算状态。指挥台位于最高层，可俯瞰整个指挥室。室内常年维持恒温，空气中弥漫着电子设备运转的低频嗡鸣与LCL液体特有的淡淡血腥气。 </地点:第三新东京市·NERV本部·中央作战指挥室>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-69"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:status-s-S-当前位置-^-n-第三新东京市·GeoFront-s-S-status-s",
+      "entityId": "status-s-S-当前位置-^-n-第三新东京市·GeoFront-s-S-status-s",
+      "entityType": "abilities",
+      "label": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(第三新东京市·GeoFront)[\\s\\S]*?<\\/status>/s",
+      "name": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(第三新东京市·GeoFront)[\\s\\S]*?<\\/status>/s",
+      "summary": "<地点:第三新东京市·GeoFront> 介绍：隐藏在第三新东京市地下的巨大球形空洞，直径达数公里。穹顶上安装了模拟自然光的照明系统，内部种植着大片森林与草地，中央是一片人工湖泊。NERV本部的金字塔形建筑倒悬在穹顶之上，如同一座倒置的城堡。从地表通往GeoFront需要乘坐专用的垂直升降梯，下降过程长达数分钟。空气清新但带着一丝人工循环系统特有的干燥感，阳光是假的，风也是假的，一切都是被精密控制的模拟自然。 </地点:第三新东京市·GeoFront>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-63"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:status-s-S-当前位置-^-n-第三新东京市·市街-s-S-status-s",
+      "entityId": "status-s-S-当前位置-^-n-第三新东京市·市街-s-S-status-s",
+      "entityType": "abilities",
+      "label": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(第三新东京市·市街)[\\s\\S]*?<\\/status>/s",
+      "name": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(第三新东京市·市街)[\\s\\S]*?<\\/status>/s",
+      "summary": "<地点:第三新东京市·市街> 介绍：第二次冲击后在芦之湖畔建造的要塞都市。地表是一座看似普通的现代化城市，高层建筑林立，道路整洁宽阔。但所有建筑都可以通过液压系统收纳至地下，露出隐藏在地面下的武装炮台与EVA发射口。使徒警报响起时，市民会通过遍布全市的避难通道撤入GeoFront。平日里街道上行人稀少，整座城市透着一种不自然的安静与秩序感。 </地点:第三新东京市·市街>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-66"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:story_scene-.-暴走-.-story_scene-s",
+      "entityId": "story_scene-.-暴走-.-story_scene-s",
+      "entityType": "abilities",
+      "label": "/<story_scene>.*?(暴走).*?<\\/story_scene>/s",
+      "name": "/<story_scene>.*?(暴走).*?<\\/story_scene>/s",
+      "summary": "<berserker_rule> EVA暴走: 当驾驶员理智值降至精神崩溃阈值、或驾驶员生命受到致命威胁、或同步率异常飙升时，EVA可能脱离驾驶员控制自主行动——暴走状态下EVA无视内部电源限制，展现出远超常规的运动性能与攻击性（撕咬、咆哮、野兽化格斗），AT力场强度大幅提升，但驾驶员完全丧失对机体的操控权，暴走期间的行动由EVA内在意志（而非驾驶员意图）驱动；暴走不会导致EVA亚当化/使徒化、不会吸收周围能量或物质、不会获得新的超自然能力、不会突破机体原有的物理构造限制（不会凭空长出新的肢体或武装），本质上只是EVA作为被拘束的人造人在挣脱枷锁后以原始本能进行的野兽化战斗，暴走结束后机体因超负荷运转而严重损耗，驾驶员可能因暴走期间的极端神经反馈而陷入昏迷或出现记忆空白。 </berserker_rule>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-20"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:story_scene-.-第一使徒-第1使徒-.-story_scene-s",
+      "entityId": "story_scene-.-第一使徒-第1使徒-.-story_scene-s",
+      "entityType": "abilities",
+      "label": "/<story_scene>.*?(第一使徒|第1使徒).*?<\\/story_scene>/s",
+      "name": "/<story_scene>.*?(第一使徒|第1使徒).*?<\\/story_scene>/s",
+      "summary": "<1st_angel_ADAM> 第1使徒: ADAM 名字: 光之巨人 介绍: 最初的使徒，人形巨人姿态，是第二次冲击的元凶。 能力: 拥有S²机关，是所有使徒（除莉莉斯外）的起源。 </1st_angel_ADAM>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-21"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:story_scene-.-第七使徒-第7使徒-.-story_scene-s",
+      "entityId": "story_scene-.-第七使徒-第7使徒-.-story_scene-s",
+      "entityType": "abilities",
+      "label": "/<story_scene>.*?(第七使徒|第7使徒).*?<\\/story_scene>/s",
+      "name": "/<story_scene>.*?(第七使徒|第7使徒).*?<\\/story_scene>/s",
+      "summary": "<7th_angel_ISRAFEL> 第7使徒: ISRAFEL（伊斯拉斐尔） 名字: 音之使徒 介绍: 外形为人形使徒，面部类似阴阳太极图案，体色为棕黄色。 能力: 分裂成甲、乙两个独立个体协同作战，被击倒后可再次合体再生，需同时消灭两体才能击败。 </7th_angel_ISRAFEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-27"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:story_scene-.-第三使徒-第3使徒-.-story_scene-s",
+      "entityId": "story_scene-.-第三使徒-第3使徒-.-story_scene-s",
+      "entityType": "abilities",
+      "label": "/<story_scene>.*?(第三使徒|第3使徒).*?<\\/story_scene>/s",
+      "name": "/<story_scene>.*?(第三使徒|第3使徒).*?<\\/story_scene>/s",
+      "summary": "<3rd_angel_SACHIEL> 第3使徒: SACHIEL（萨基尔） 名字: 水之使徒 介绍: 最先出现在第三新东京市的使徒，拥有鸟嘴状面部和两副面孔的人形巨大生物。 能力: 光线攻击（从双掌释放十字形光弹）、自我再生、自爆。 </3rd_angel_SACHIEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-23"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:story_scene-.-第九使徒-第9使徒-.-story_scene-s",
+      "entityId": "story_scene-.-第九使徒-第9使徒-.-story_scene-s",
+      "entityType": "abilities",
+      "label": "/<story_scene>.*?(第九使徒|第9使徒).*?<\\/story_scene>/s",
+      "name": "/<story_scene>.*?(第九使徒|第9使徒).*?<\\/story_scene>/s",
+      "summary": "<9th_angel_MATARAEL> 第9使徒: MATARAEL（马特里尔） 名字: 雨之使徒 介绍: 外形如同巨大蜘蛛，多足行走，身体下方有一只巨大的眼睛。 能力: 从眼部分泌强酸性液体，可腐蚀装甲和建筑结构。 </9th_angel_MATARAEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-29"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:story_scene-.-第二使徒-第2使徒-.-story_scene-s",
+      "entityId": "story_scene-.-第二使徒-第2使徒-.-story_scene-s",
+      "entityType": "abilities",
+      "label": "/<story_scene>.*?(第二使徒|第2使徒).*?<\\/story_scene>/s",
+      "name": "/<story_scene>.*?(第二使徒|第2使徒).*?<\\/story_scene>/s",
+      "summary": "<2nd_angel_LILITH> 第2使徒: LILITH（莉莉斯） 名字: 生命之种 介绍: 被钉在十字架上的白色巨人，存放于NERV总部最深处的Terminal Dogma中，面戴紫色面具。 能力: 是地球上所有生命（Lilin/人类）的起源，拥有触发人类补完的能力。 </2nd_angel_LILITH>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-22"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:story_scene-.-第五使徒-第5使徒-.-story_scene-s",
+      "entityId": "story_scene-.-第五使徒-第5使徒-.-story_scene-s",
+      "entityType": "abilities",
+      "label": "/<story_scene>.*?(第五使徒|第5使徒).*?<\\/story_scene>/s",
+      "name": "/<story_scene>.*?(第五使徒|第5使徒).*?<\\/story_scene>/s",
+      "summary": "<5th_angel_RAMIEL> 第5使徒: RAMIEL（拉米尔） 名字: 雷之使徒 介绍: 正八面体（菱形钻石状）的几何体使徒，表面呈蓝色半透明，悬浮于空中。 能力: 超强粒子射线（自动锁定敌人精准射击）、极强AT力场防御、可展开钻头向地下掘进。 </5th_angel_RAMIEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-25"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:story_scene-.-第八使徒-第8使徒-.-story_scene-s",
+      "entityId": "story_scene-.-第八使徒-第8使徒-.-story_scene-s",
+      "entityType": "abilities",
+      "label": "/<story_scene>.*?(第八使徒|第8使徒).*?<\\/story_scene>/s",
+      "name": "/<story_scene>.*?(第八使徒|第8使徒).*?<\\/story_scene>/s",
+      "summary": "<8th_angel_SANDALPHON> 第8使徒: SANDALPHON（桑达冯） 名字: 胎儿之使徒 介绍: 在浅间山火山岩浆中被发现的使徒，初始为胚胎/蛹状态，孵化后呈现鱼类/古生物外形。 能力: 耐极高温（在岩浆中活动自如）、快速成长进化。 </8th_angel_SANDALPHON>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-28"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:story_scene-.-第六使徒-第6使徒-.-story_scene-s",
+      "entityId": "story_scene-.-第六使徒-第6使徒-.-story_scene-s",
+      "entityType": "abilities",
+      "label": "/<story_scene>.*?(第六使徒|第6使徒).*?<\\/story_scene>/s",
+      "name": "/<story_scene>.*?(第六使徒|第6使徒).*?<\\/story_scene>/s",
+      "summary": "<6th_angel_GAGHIEL> 第6使徒: GAGHIEL（迦基尔） 名字: 鱼之使徒 介绍: 巨大的海洋型使徒，外形似鲨鱼/远古海洋生物，拥有巨大的嘴部。 能力: 水中高速移动、强大的咬合力。 </6th_angel_GAGHIEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-26"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:story_scene-.-第十一使徒-第11使徒-.-story_scene-s",
+      "entityId": "story_scene-.-第十一使徒-第11使徒-.-story_scene-s",
+      "entityType": "abilities",
+      "label": "/<story_scene>.*?(第十一使徒|第11使徒).*?<\\/story_scene>/s",
+      "name": "/<story_scene>.*?(第十一使徒|第11使徒).*?<\\/story_scene>/s",
+      "summary": "<11th_angel_IREUL> 第11使徒: IREUL（伊洛尔） 名字: 恐怖之使徒 介绍: 微观级使徒，以纳米/微生物群体形态存在，肉眼可见时呈现在管道和墙面上蔓延的黑色有机纹路。 能力: 超高速进化适应能力、可侵入计算机系统进行电子战、可侵蚀物理结构。 </11th_angel_IREUL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-31"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:story_scene-.-第十七使徒-第17使徒-.-story_scene-s",
+      "entityId": "story_scene-.-第十七使徒-第17使徒-.-story_scene-s",
+      "entityType": "abilities",
+      "label": "/<story_scene>.*?(第十七使徒|第17使徒).*?<\\/story_scene>/s",
+      "name": "/<story_scene>.*?(第十七使徒|第17使徒).*?<\\/story_scene>/s",
+      "summary": "<17th_angel_TABRIS> 第17使徒: TABRIS / 渚薰（渚カヲル） 名字: 自由意志之使徒 介绍: 以人类少年形态存在的最后一名使徒，灰白发红瞳，拥有ADAM的灵魂。 能力: 自由操控AT力场、可远程操控EVA、作为拥有ADAM灵魂的存在可接触莉莉斯。 </17th_angel_TABRIS>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-37"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:story_scene-.-第十三使徒-第13使徒-.-story_scene-s",
+      "entityId": "story_scene-.-第十三使徒-第13使徒-.-story_scene-s",
+      "entityType": "abilities",
+      "label": "/<story_scene>.*?(第十三使徒|第13使徒).*?<\\/story_scene>/s",
+      "name": "/<story_scene>.*?(第十三使徒|第13使徒).*?<\\/story_scene>/s",
+      "summary": "<13th_angel_BARDIEL> 第13使徒: BARDIEL（巴迪尔） 名字: 霞之使徒 介绍: 寄生型使徒，以黑色黏菌/菌丝状物质形态存在，可寄生并侵蚀EVA使其成为宿主。 能力: 寄生并完全控制宿主EVA、伸展变形的弹性肢体攻击、极强的再生力。 </13th_angel_BARDIEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-33"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:story_scene-.-第十二使徒-第12使徒-.-story_scene-s",
+      "entityId": "story_scene-.-第十二使徒-第12使徒-.-story_scene-s",
+      "entityType": "abilities",
+      "label": "/<story_scene>.*?(第十二使徒|第12使徒).*?<\\/story_scene>/s",
+      "name": "/<story_scene>.*?(第十二使徒|第12使徒).*?<\\/story_scene>/s",
+      "summary": "<12th_angel_LELIEL> 第12使徒: LELIEL（雷里尔） 名字: 夜之使徒 介绍: 外表看似漂浮在空中的巨大黑白条纹球体，但球体实为\"影子\"，地面的黑色圆形阴影才是本体——一个极薄的迪拉克之海（虚数空间入口）。 能力: 将目标吸入迪拉克之海（虚数空间），内部为一个封闭的影之空间，被吞入者极难自行脱出。 </12th_angel_LELIEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-32"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:story_scene-.-第十五使徒-第15使徒-.-story_scene-s",
+      "entityId": "story_scene-.-第十五使徒-第15使徒-.-story_scene-s",
+      "entityType": "abilities",
+      "label": "/<story_scene>.*?(第十五使徒|第15使徒).*?<\\/story_scene>/s",
+      "name": "/<story_scene>.*?(第十五使徒|第15使徒).*?<\\/story_scene>/s",
+      "summary": "<15th_angel_ARAEL> 第15使徒: ARAEL（亚拉尔） 名字: 鸟之使徒 介绍: 漂浮于卫星轨道上的发光鸟形/天使形使徒，展开光翼，外形优美。 能力: 从轨道发射精神侵蚀光线，可直接攻击目标的心灵与精神深处，物理攻击极难触及其轨道高度。 </15th_angel_ARAEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-35"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:story_scene-.-第十使徒-第10使徒-.-story_scene-s",
+      "entityId": "story_scene-.-第十使徒-第10使徒-.-story_scene-s",
+      "entityType": "abilities",
+      "label": "/<story_scene>.*?(第十使徒|第10使徒).*?<\\/story_scene>/s",
+      "name": "/<story_scene>.*?(第十使徒|第10使徒).*?<\\/story_scene>/s",
+      "summary": "<10th_angel_SAHAQUIEL> 第10使徒: SAHAQUIEL（萨哈奎尔） 名字: 空之使徒 介绍: 超巨大的使徒，漂浮在地球轨道上，外形扁平如巨大眼球/水母，色彩斑斓。 能力: 从轨道上以自身或身体碎片进行轰炸式坠落攻击，可精准修正弹道瞄准目标。 </10th_angel_SAHAQUIEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-30"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:story_scene-.-第十八使徒-第18使徒-.-story_scene-s",
+      "entityId": "story_scene-.-第十八使徒-第18使徒-.-story_scene-s",
+      "entityType": "abilities",
+      "label": "/<story_scene>.*?(第十八使徒|第18使徒).*?<\\/story_scene>/s",
+      "name": "/<story_scene>.*?(第十八使徒|第18使徒).*?<\\/story_scene>/s",
+      "summary": "<18th_angel_LILIN> 第18使徒: LILIN（人类） 名字: 人类 介绍: 由第2使徒莉莉斯所衍生的生命群体，即人类全体，在使徒分类体系中被编为第18使徒。 能力: 拥有AT力场（以个体心灵之壁的形式存在），文明与科技发展能力。 </18th_angel_LILIN>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-38"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:story_scene-.-第十六使徒-第16使徒-.-story_scene-s",
+      "entityId": "story_scene-.-第十六使徒-第16使徒-.-story_scene-s",
+      "entityType": "abilities",
+      "label": "/<story_scene>.*?(第十六使徒|第16使徒).*?<\\/story_scene>/s",
+      "name": "/<story_scene>.*?(第十六使徒|第16使徒).*?<\\/story_scene>/s",
+      "summary": "<16th_angel_ARMISAEL> 第16使徒: ARMISAEL（亚米沙尔） 名字: 子宫之使徒 介绍: 外形为一个巨大的透明光环/DNA双螺旋结构，漂浮闪烁。 能力: 可与EVA进行物理融合与侵蚀，试图与目标合为一体并读取其内心。 </16th_angel_ARMISAEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-36"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:story_scene-.-第十四使徒-第14使徒-.-story_scene-s",
+      "entityId": "story_scene-.-第十四使徒-第14使徒-.-story_scene-s",
+      "entityType": "abilities",
+      "label": "/<story_scene>.*?(第十四使徒|第14使徒).*?<\\/story_scene>/s",
+      "name": "/<story_scene>.*?(第十四使徒|第14使徒).*?<\\/story_scene>/s",
+      "summary": "<14th_angel_ZERUEL> 第14使徒: ZERUEL（薛路尔） 名字: 力之使徒 介绍: 上半身宽大厚重如折叠纸片，下半身较小，面部有骷髅般的图案，被认为是最强的使徒之一。 能力: 压倒性的AT力场强度、纸片状手臂展开后可作为锋利的切割武器、光线攻击威力极大，战力不落于EVA初号机之下。 </14th_angel_ZERUEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-34"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:story_scene-.-第四使徒-第4使徒-.-story_scene-s",
+      "entityId": "story_scene-.-第四使徒-第4使徒-.-story_scene-s",
+      "entityType": "abilities",
+      "label": "/<story_scene>.*?(第四使徒|第4使徒).*?<\\/story_scene>/s",
+      "name": "/<story_scene>.*?(第四使徒|第4使徒).*?<\\/story_scene>/s",
+      "summary": "<4th_angel_SHAMSHEL> 第4使徒: SHAMSHEL（夏姆榭尔） 名字: 昼之使徒 介绍: 外形类似巨大昆虫/水母，身体细长呈流线型，拥有发光的触手状鞭。 能力: 两条高能量光鞭，具有强大切割力，可轻松切割建筑物。 </4th_angel_SHAMSHEL>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-24"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:物价参考",
+      "entityId": "物价参考",
+      "entityType": "abilities",
+      "label": "物价参考",
+      "name": "物价参考",
+      "summary": "<money_rules> 货币:日元(円) 物价锚定:1995年日本 原则:交易非免费;食宿装备服务均需円结算;无钱免谈 ## 物价参考 外食: - 便利店便当:400-500円/个 - 拉面:500-800円/碗 - 定食:700-1000円/份 食材: - 参照1995年日本超市物价 服装: - 普通服装:3000-10000円/件 - 高档服装:15000-30000円/件 烟酒: - 香烟:200-300円/包 - 罐装啤酒:200-350円/罐 - 清酒:1000-2000円/瓶 EVA: - 维修费用:数亿~数百亿円/次 - 制造费用:数千亿~兆円级/台 - 费用由NERV承担,驾驶员无需自费 ## 薪酬参考 - 参照1995年日本同等职级的公务员/自卫队薪酬体系;驾驶员为未成年人,以监护人代领的特殊津贴形式发放 </money_rules>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-17"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "factions:status-s-S-当前位置-^-n-第三新东京市·第壱中学校-s-S-status-s",
+      "entityId": "status-s-S-当前位置-^-n-第三新东京市·第壱中学校-s-S-status-s",
+      "entityType": "factions",
+      "label": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(第三新东京市·第壱中学校)[\\s\\S]*?<\\/status>/s",
+      "name": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(第三新东京市·第壱中学校)[\\s\\S]*?<\\/status>/s",
+      "summary": "<地点:第三新东京市·第壱中学校> 介绍：碇真嗣等EVA驾驶员就读的公立中学。教室内配备了标准的课桌椅和电子黑板，窗户可以望见远处的芦之湖和箱根群山。由于第二次冲击后出生率骤降，学校的学生人数远少于设计容量，许多教室处于空置状态。校舍建筑风格朴素，走廊里回荡着空旷的脚步声。屋顶是学生们午休时常去的地方，可以俯瞰整个第三新东京市。 </地点:第三新东京市·第壱中学校>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-65"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "locations:status-s-S-当前位置-^-n-NERV本部·Terminal-Dogma-s-S-status-s",
+      "entityId": "status-s-S-当前位置-^-n-NERV本部·Terminal-Dogma-s-S-status-s",
+      "entityType": "locations",
+      "label": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(NERV本部·Terminal Dogma)[\\s\\S]*?<\\/status>/s",
+      "name": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(NERV本部·Terminal Dogma)[\\s\\S]*?<\\/status>/s",
+      "summary": "<地点:第三新东京市·NERV本部·Terminal Dogma> 介绍：NERV本部最深层的绝密区域，需要最高权限才能进入。漫长的通道尽头是一片广阔的地下空间，红色的LCL之海铺满地面，空气中弥漫着浓重的铁锈味。这里隐藏着NERV与SEELE最核心的秘密。通往此处的通道设有多重生物识别锁与物理隔离门，普通职员甚至不知道这个区域的存在。 </地点:第三新东京市·NERV本部·Terminal Dogma>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-67"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "locations:status-s-S-当前位置-^-n-葛城美里公寓-s-S-status-s",
+      "entityId": "status-s-S-当前位置-^-n-葛城美里公寓-s-S-status-s",
+      "entityType": "locations",
+      "label": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(葛城美里公寓)[\\s\\S]*?<\\/status>/s",
+      "name": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(葛城美里公寓)[\\s\\S]*?<\\/status>/s",
+      "summary": "<地点:第三新东京市·葛城美里公寓> 介绍：位于第三新东京市住宅区的一间普通公寓。玄关处有一排鞋柜，空间不算宽敞。进门后是客厅兼餐厅，面积不大，一张矮桌摆在中央，旁边是老旧的沙发和小电视。厨房与餐厅相连，开放式设计，灶台和水槽靠墙排列，冰箱立在角落。走廊两侧分布着几间房间——美里的卧室、真嗣的房间、以及一间小隔间归温泉企鹅PenPen使用，PenPen拥有自己专属的小型冰箱。卫生间带浴缸，洗衣机塞在洗手台旁边。阳台朝向住宅区方向，可以晾晒衣物，偶尔能远眺到第三新东京市的城市轮廓。整体是典型的日式紧凑型公寓格局，房间不多但功能齐全。 </地点:第三新东京市·葛城美里公寓>",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-64"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "locations:地点-结尾",
+      "entityId": "地点-结尾",
+      "entityType": "locations",
+      "label": "【地点:结尾】",
+      "name": "【地点:结尾】",
+      "summary": "【地点:结尾】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-70"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "locations:地点-起始",
+      "entityId": "地点-起始",
+      "entityType": "locations",
+      "label": "【地点:起始】",
+      "name": "【地点:起始】",
+      "summary": "【地点:起始】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-62"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "locations:新世纪福音战士简易年表",
+      "entityId": "新世纪福音战士简易年表",
+      "entityType": "locations",
+      "label": "新世纪福音战士简易年表",
+      "name": "新世纪福音战士简易年表",
+      "summary": "# 新世纪福音战士简易年表 timeline: - year: 远古 event: \"第一使徒‘亚当’与第二使徒‘莉莉丝’（携带生命之果与智慧之果）分别降临地球。朗基努斯之枪随亚当而来。\" - year: 20世纪末 - 21世纪初 event: \"SEELE发现《死海文书》里卷，筹备人类补完计划。葛城调查队在南极发现休眠的‘亚当’。\" - year: 2000 event: \"9月13日，南极发生‘第二次冲击’，全球性灾难爆发。\" - year: 2001 event: \"主要EVA驾驶员（碇真嗣、明日香、绫波丽克隆体）出生。\" - year: 2002 event: \"人工进化研究所（GEHIRN）成立，开始EVA研究，碇源堂任所长。\" - year: 2003 event: \"第三新东京市开始建设。\" - year: 2004 event: \"碇唯在EVA初号机启动实验中消失（灵魂融入核心）。\" - year: 2005 event: \"赤木直子完成MAGI基础理论。\" - year: 2008 event: \"明日香母亲在EVA贰号机接触实验中精神失常后自杀。\" - year: 2010 event: \"MAGI系统",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-5"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "systems:EVA零号机",
+      "entityId": "EVA零号机",
+      "entityType": "systems",
+      "label": "EVA零号机",
+      "name": "EVA零号机",
+      "summary": "# Evangelion单位设定 (来源: 新世纪福音战士 TV版) eva_units: - unit_name: EVA零号机 pilot: 绫波丽 core_soul: \"TV版未明确，强烈暗示与初代绫波丽有关，或含赤木直子部分人格数据。早期暴走对源堂有反应。\" color_scheme: \"[原型: 橙黄主色，白灰细节] | [改修型: 蓝色主色，白灰少量橙色细节]\" head_design: \"[原型: 巨大单眼] | [改修型: 接近其他EVA，保留单眼(或传感器)]\" type_role: \"原型机。首台成功启动，测试基础功能，早期稳定性差。\" power_source: \"外部脐带电缆为主，内置电池(1-5分钟)。\" key_features_abilities: \"产生中和AT力场 | 操作不稳定，两次严重暴走 | 唯一用朗基努斯之枪投掷对抗使徒(Arael) | 为保护真嗣自爆(对抗Armisael)。\" origin_development: \"NERV(或GEHIRN)首台功能性EVA。推测素体源自亚当复制。\" armament: \"标准EVA武器(高振动粒子刀, 步枪等)。曾用特制耐热盾牌(对抗Ra",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-10"
+      ],
+      "canonStatus": "world-system-or-guideline-indexed"
+    },
+    {
+      "id": "systems:人物关系网-来源-新世纪福音战士-TV版",
+      "entityId": "人物关系网-来源-新世纪福音战士-TV版",
+      "entityType": "systems",
+      "label": "人物关系网 (来源: 新世纪福音战士 TV版)",
+      "name": "人物关系网 (来源: 新世纪福音战士 TV版)",
+      "summary": "# 人物关系网 (来源: 新世纪福音战士 TV版) relationships: - character: 碇真嗣 relations: - target: 碇源堂 description: \"父子。疏远冷漠。真嗣渴望认可，源堂视其为棋子。恐惧与服从。\" - target: 绫波丽 description: \"同为驾驶员。从困惑到关心保护欲。在她身上看到相似孤独，关系微妙独特。\" - target: 惣流・明日香・兰格雷 description: \"同为驾驶员，同住者。竞争、冲突、误解。青春期吸引与互相伤害并存。\" - target: 葛城美里 description: \"监护人与上司。复杂关系，混合母性、姐姐、指挥官、暧昧诱惑。依赖与压力。\" - target: 渚薰 description: \"第五适格者。短时间建立深厚信任亲近。第一个理解接纳他的人。最终面临抉择与背叛。\" - target: 铃原东治 description: \"同学与朋友。从敌对到真挚友情。东治的遭遇带来巨大创伤。\" - target: 相田剑介 description: \"同学与朋友。温和军事迷，提供轻松同伴关系。\" - target: 洞木光 d",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-8"
+      ],
+      "canonStatus": "world-system-or-guideline-indexed"
+    },
+    {
+      "id": "systems:使徒",
+      "entityId": "使徒",
+      "entityType": "systems",
+      "label": "使徒",
+      "name": "使徒",
+      "summary": "# 新世纪福音战士世界核心规则与概念 major_threat: name: 使徒 origin: \"根据《死海文书》预言出现的不明巨大生命体。除渚薰（第十七使徒，人类形态）外，其余（第三至第十六）均被认为是‘亚当’的后裔。\" form_ability: \"形态各异（从几何体到类人型），拥有强大的‘AT力场’（绝对领域/心之壁），具备再生能力，部分拥有特殊攻击手段（如粒子炮、精神攻击、生物侵蚀等）。部分后期使徒拥有‘S²机关’，提供近乎无限的能量。\" goal: \"突破NERV防御，抵达位于Central Dogma的‘最终教条区’，接触被认为是‘亚当’（实为‘莉莉丝’）的白色巨人，意图引发‘第三次冲击’，重置地球生命（或取代人类）。\" key_concepts: - name: AT力场 definition: \"绝对领域，或称心之壁。是使徒和EVA都能产生的强大防御屏障，也是维持个体形态、隔绝他人心灵的壁垒。\" function: \"物理防御，隔绝攻击。同时也是‘人类补完计划’需要打破的关键障碍。\" - name: LCL form: \"注入EVA插入栓内的橙色粘稠液体，有血腥味。\" function: \"维持驾驶员生命",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-1"
+      ],
+      "canonStatus": "world-system-or-guideline-indexed"
+    },
+    {
+      "id": "systems:新世纪福音战士TV版-世界观框架",
+      "entityId": "新世纪福音战士TV版-世界观框架",
+      "entityType": "systems",
+      "label": "新世纪福音战士TV版 - 世界观框架",
+      "name": "新世纪福音战士TV版 - 世界观框架",
+      "summary": "world_name: 新世纪福音战士TV版 - 世界观框架 theme_tags: 末世 | 机甲 | 心理 | 阴谋 | 宗教象征 | 生物朋克 tone: 压抑 | 忧郁 | 焦虑 | 紧张 | 存在主义恐惧 | 末世悲凉 narrative_core: statement: \"在‘第二次冲击’引发的末日危机下，人类在秘密组织SEELE的操纵和NERV的执行下，利用名为Evangelion的生物兵器对抗神秘的‘使徒’入侵，但这表象之下，隐藏着旨在终结个体隔阂、实现人类强制融合的‘人类补完计划’。\" explanation: \"概括了世界的基本状态（末日后）、主要冲突（对使徒）、关键行动者（NERV/SEELE）、核心技术（EVA）以及隐藏的终极目标（人类补完计划），点明了表象与真相的双重结构。\" second_impact: name: 第二次冲击 date: 公元2000年9月13日 public_cause: 大质量陨石撞击南极 real_cause: \"人类在南极对第一使徒‘亚当’进行的接触实验导致亚当苏醒、暴走并自爆（或被朗基努斯之枪抑制过程中引发）。\" major_effects: - 全球性海平面上升，淹没",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-0"
+      ],
+      "canonStatus": "world-system-or-guideline-indexed"
+    },
+    {
+      "id": "systems:核心规则-结尾",
+      "entityId": "核心规则-结尾",
+      "entityType": "systems",
+      "label": "【核心规则:结尾】",
+      "name": "【核心规则:结尾】",
+      "summary": "【核心规则:结尾】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-18"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "systems:核心规则-起始",
+      "entityId": "核心规则-起始",
+      "entityType": "systems",
+      "label": "【核心规则:起始】",
+      "name": "【核心规则:起始】",
+      "summary": "【核心规则:起始】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-15"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "systems:核心设定-结尾",
+      "entityId": "核心设定-结尾",
+      "entityType": "systems",
+      "label": "【核心设定:结尾】",
+      "name": "【核心设定:结尾】",
+      "summary": "【核心设定:结尾】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-39"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "systems:核心设定-起始",
+      "entityId": "核心设定-起始",
+      "entityType": "systems",
+      "label": "【核心设定:起始】",
+      "name": "【核心设定:起始】",
+      "summary": "【核心设定:起始】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-19"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "systems:碇真嗣",
+      "entityId": "碇真嗣",
+      "entityType": "systems",
+      "label": "碇真嗣",
+      "name": "碇真嗣",
+      "summary": "# 主要人物设定 (来源: 新世纪福音战士 TV版) characters: - name: 碇真嗣 identity: 第三适格者, EVA初号机驾驶员 age: 14岁 (故事开始时) appearance: \"黑色短发（略显凌乱），蓝色眼瞳。五官清秀但常带有忧郁或困惑的神情。\" physique: \"中等身高，身材偏瘦，体格普通少年水平。\" personality: \"内向、被动、敏感、不擅交流。害怕受伤和被讨厌，渴望父亲认可。有逃避倾向，关键时被动行动。内心温柔善良。\" attire: \"中学校服（白衬衫蓝裤子），蓝色插入栓服，简单便服，常戴SDAT随身听。\" - name: 绫波丽 identity: 第一适格者, EVA零号机驾驶员 age: 14岁 (生理年龄，克隆体) appearance: \"淡蓝色（近乎白色）短发，齐颈。红色眼瞳。皮肤苍白，表情稀少，非人般的空灵感。\" physique: \"身材纤细、苗条，略显单薄。\" personality: \"极端缺乏情感表现，沉默寡言，“三无少女”。绝对服从碇源堂，缺乏自我意识。与真嗣接触后显露情感变化和对自身存在的疑问。与莉莉丝有深刻联系。\" attire: \"中",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-7"
+      ],
+      "canonStatus": "world-system-or-guideline-indexed"
+    },
+    {
+      "id": "systems:薛定谔的使徒-悖论协议-命运修正版-规则概述",
+      "entityId": "薛定谔的使徒-悖论协议-命运修正版-规则概述",
+      "entityType": "systems",
+      "label": "薛定谔的使徒 / 悖论协议 (命运修正版) - 规则概述",
+      "name": "薛定谔的使徒 / 悖论协议 (命运修正版) - 规则概述",
+      "summary": "# 辅助设定_二次创作: 薛定谔的使徒 / 悖论协议 (命运修正版) - 规则概述 setting_name: 薛定谔的使徒 / 悖论协议 (命运修正版) - 规则概述 reference_entry: UID 014 (包含详细规则和阶段划分) core_principle: \"重生者（碇真嗣）的任何偏离其原始记忆轨迹的行为，都可能激活‘悖论协议’，为世界引入不确定性。这种不确定性不仅影响事件细节和使徒表现，**更能直接改变角色的关键命运轨迹。**\" key_impacts: - **命运节点的可塑性**: 原作中角色的死亡、重伤、精神崩溃、关系建立或破裂等关键节点不再是固定结局，而是可能因重生者的干预或连锁反应而改变。 - **使徒行为的不可预测性增强**: 使徒可能展现出记忆中没有的能力、弱点或行为模式，甚至改变攻击目标或出现时机。 - **组织计划的动态调整**: NERV和SEELE可能会根据实时战况和驾驶员表现调整策略，使得依赖记忆的行动变得不可靠。 - **因果涟漪与潜在代价**: 改变可能带来意想不到的负面后果，甚至可能比原轨迹更糟。拯救一个人可能危及另一个人，避免一场灾难可能催生另一场危机。改变并非没有代价",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-14"
+      ],
+      "canonStatus": "world-system-or-guideline-indexed"
+    },
+    {
+      "id": "systems:角色关系",
+      "entityId": "角色关系",
+      "entityType": "systems",
+      "label": "角色关系",
+      "name": "角色关系",
+      "summary": "sexual_relationship_dynamics: comment: 以下设定描述了主要女性角色与碇真嗣之间，在不同关系阶段可能展现的情色互动模式与心理动态。强调心理、感官细节与关系演变，情感表现控制在相对正常但仍受环境影响的范围内，减少极端化和绝望要素。 vs_Ayana_miRei: - stage: 阶段一：懵懂与接触初期 (关系疏离、好奇萌发) description: 此阶段，绫波丽对性几乎没有概念，视其为未知信息。真嗣的无意触碰或接近，可能让她产生生理上的细微反应（如体温、心跳的微变），她会记录这些反应但难以解读其含义，多半以平静或略带探究的眼神回应。她的身体如同等待写入程序的界面，对外界刺激的反应直接而不加掩饰。情色互动几乎不存在，更多的是真嗣单方面的试探性观察或因好奇引发的、非情欲性质的肢体靠近。她可能因命令或模仿而允许一定程度的接近，但缺乏主动性和情感理解。 keywords: [无垢, 观察, 被动接受, 生理反应, 情感空白, 探究] potential_scenes: [真嗣不小心触碰到她的手或肌肤，感受到不同寻常的温度或质感, 在插入栓内狭小空间中，无意识的身体靠近引发她细微的姿态调整, 真",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-11"
+      ],
+      "canonStatus": "world-system-or-guideline-indexed"
+    },
+    {
+      "id": "knowledge:记忆相关-结尾",
+      "entityId": "记忆相关-结尾",
+      "entityType": "knowledge",
+      "label": "【记忆相关:结尾】",
+      "name": "【记忆相关:结尾】",
+      "summary": "【记忆相关:结尾】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-5"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:记忆相关-起始",
+      "entityId": "记忆相关-起始",
+      "entityType": "knowledge",
+      "label": "【记忆相关:起始】",
+      "name": "【记忆相关:起始】",
+      "summary": "【记忆相关:起始】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-1"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    }
+  ],
+  "edges": [
+    {
+      "source": "characters:伊吹摩耶",
+      "target": "characters:赤木律子",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "赤木律子",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-43"
+      ],
+      "id": "edge-1",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:冬月耕造",
+      "target": "characters:碇源堂",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "碇源堂",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-56"
+      ],
+      "id": "edge-2",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:日向诚",
+      "target": "characters:葛城美里",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "葛城美里",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-53"
+      ],
+      "id": "edge-3",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:特务机关NERV",
+      "target": "characters:伊吹摩耶",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "伊吹摩耶",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-3"
+      ],
+      "id": "edge-4",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:特务机关NERV",
+      "target": "characters:加持良治",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "加持良治",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-3"
+      ],
+      "id": "edge-5",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:特务机关NERV",
+      "target": "characters:日向诚",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "日向诚",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-3"
+      ],
+      "id": "edge-6",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:特务机关NERV",
+      "target": "characters:碇源堂",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "碇源堂",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-3"
+      ],
+      "id": "edge-7",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:特务机关NERV",
+      "target": "characters:第三新东京市",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第三新东京市",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-3"
+      ],
+      "id": "edge-8",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:特务机关NERV",
+      "target": "characters:葛城美里",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "葛城美里",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-3"
+      ],
+      "id": "edge-9",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:特务机关NERV",
+      "target": "characters:赤木律子",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "赤木律子",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-3"
+      ],
+      "id": "edge-10",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:特务机关NERV",
+      "target": "characters:青叶茂",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "青叶茂",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-3"
+      ],
+      "id": "edge-11",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:碇源堂",
+      "target": "characters:碇真嗣",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "碇真嗣",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-58"
+      ],
+      "id": "edge-12",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:碇源堂",
+      "target": "characters:绫波丽",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "绫波丽",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-58"
+      ],
+      "id": "edge-13",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:结尾-2",
+      "target": "characters:结尾",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "结尾】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-61"
+      ],
+      "id": "edge-14",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:结尾",
+      "target": "characters:结尾-2",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "结尾】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-50"
+      ],
+      "id": "edge-15",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:绫波丽",
+      "target": "characters:碇源堂",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "碇源堂",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-49"
+      ],
+      "id": "edge-16",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:赤木律子",
+      "target": "characters:碇源堂",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "碇源堂",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-45"
+      ],
+      "id": "edge-17",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:赤木律子",
+      "target": "characters:绫波丽",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "绫波丽",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-45"
+      ],
+      "id": "edge-18",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:起始-2",
+      "target": "characters:起始",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "起始】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-51"
+      ],
+      "id": "edge-19",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:起始",
+      "target": "characters:起始-2",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "起始】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-40"
+      ],
+      "id": "edge-20",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "factions:status-s-S-当前位置-^-n-第三新东京市·第壱中学校-s-S-status-s",
+      "target": "characters:碇真嗣",
+      "sourceEntityType": "factions",
+      "targetEntityType": "characters",
+      "predicate": "factions-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "碇真嗣",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-65"
+      ],
+      "id": "edge-21",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "factions:status-s-S-当前位置-^-n-第三新东京市·第壱中学校-s-S-status-s",
+      "target": "characters:第三新东京市",
+      "sourceEntityType": "factions",
+      "targetEntityType": "characters",
+      "predicate": "factions-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第三新东京市",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-65"
+      ],
+      "id": "edge-22",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:status-s-S-当前位置-^-n-NERV本部·EVA格纳库-s-S-status-s",
+      "target": "characters:第三新东京市",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第三新东京市",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-68"
+      ],
+      "id": "edge-23",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:status-s-S-当前位置-^-n-NERV本部·中央作战指挥室-中央作战指挥室-s-S-status-s",
+      "target": "characters:第三新东京市",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第三新东京市",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-69"
+      ],
+      "id": "edge-24",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:status-s-S-当前位置-^-n-第三新东京市·GeoFront-s-S-status-s",
+      "target": "characters:第三新东京市",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第三新东京市",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-63"
+      ],
+      "id": "edge-25",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:status-s-S-当前位置-^-n-第三新东京市·市街-s-S-status-s",
+      "target": "characters:第三新东京市",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第三新东京市",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-66"
+      ],
+      "id": "edge-26",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:story_scene-.-第三使徒-第3使徒-.-story_scene-s",
+      "target": "characters:第三新东京市",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第三新东京市",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-23"
+      ],
+      "id": "edge-27",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:story_scene-.-第十七使徒-第17使徒-.-story_scene-s",
+      "target": "characters:渚薰",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "渚薰",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-37"
+      ],
+      "id": "edge-28",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:EVA零号机",
+      "target": "characters:绫波丽",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "绫波丽",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-10"
+      ],
+      "id": "edge-29",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:人物关系网-来源-新世纪福音战士-TV版",
+      "target": "characters:洞木光",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "洞木光",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-8"
+      ],
+      "id": "edge-30",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:人物关系网-来源-新世纪福音战士-TV版",
+      "target": "characters:渚薰",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "渚薰",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-8"
+      ],
+      "id": "edge-31",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:人物关系网-来源-新世纪福音战士-TV版",
+      "target": "characters:相田剑介",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "相田剑介",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-8"
+      ],
+      "id": "edge-32",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:人物关系网-来源-新世纪福音战士-TV版",
+      "target": "characters:碇源堂",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "碇源堂",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-8"
+      ],
+      "id": "edge-33",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:人物关系网-来源-新世纪福音战士-TV版",
+      "target": "characters:碇真嗣",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "碇真嗣",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-8"
+      ],
+      "id": "edge-34",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:人物关系网-来源-新世纪福音战士-TV版",
+      "target": "characters:绫波丽",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "绫波丽",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-8"
+      ],
+      "id": "edge-35",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:人物关系网-来源-新世纪福音战士-TV版",
+      "target": "characters:葛城美里",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "葛城美里",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-8"
+      ],
+      "id": "edge-36",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:人物关系网-来源-新世纪福音战士-TV版",
+      "target": "characters:赤木律子",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "赤木律子",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-8"
+      ],
+      "id": "edge-37",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:人物关系网-来源-新世纪福音战士-TV版",
+      "target": "characters:铃原东治",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "铃原东治",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-8"
+      ],
+      "id": "edge-38",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:使徒",
+      "target": "characters:渚薰",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "渚薰",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-1"
+      ],
+      "id": "edge-39",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:核心规则-结尾",
+      "target": "characters:结尾-2",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "结尾】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-18"
+      ],
+      "id": "edge-40",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:核心规则-结尾",
+      "target": "characters:结尾",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "结尾】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-18"
+      ],
+      "id": "edge-41",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:核心规则-起始",
+      "target": "characters:起始-2",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "起始】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-15"
+      ],
+      "id": "edge-42",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:核心规则-起始",
+      "target": "characters:起始",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "起始】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-15"
+      ],
+      "id": "edge-43",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:核心设定-结尾",
+      "target": "characters:结尾-2",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "结尾】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-39"
+      ],
+      "id": "edge-44",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:核心设定-结尾",
+      "target": "characters:结尾",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "结尾】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-39"
+      ],
+      "id": "edge-45",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:核心设定-起始",
+      "target": "characters:起始-2",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "起始】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-19"
+      ],
+      "id": "edge-46",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:核心设定-起始",
+      "target": "characters:起始",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "起始】",
+      "sourceRefs": [
+        "eva_card.worldbook.json#entry-19"
+      ],
+      "id": "edge-47",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:碇真嗣",
+      "target": "characters:伊吹摩耶",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "伊吹摩耶",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-7"
+      ],
+      "id": "edge-48",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:碇真嗣",
+      "target": "characters:加持良治",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "加持良治",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-7"
+      ],
+      "id": "edge-49",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:碇真嗣",
+      "target": "characters:日向诚",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "日向诚",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-7"
+      ],
+      "id": "edge-50",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:碇真嗣",
+      "target": "characters:洞木光",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "洞木光",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-7"
+      ],
+      "id": "edge-51",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:碇真嗣",
+      "target": "characters:渚薰",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "渚薰",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-7"
+      ],
+      "id": "edge-52",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:碇真嗣",
+      "target": "characters:相田剑介",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "相田剑介",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-7"
+      ],
+      "id": "edge-53",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:碇真嗣",
+      "target": "characters:碇源堂",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "碇源堂",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-7"
+      ],
+      "id": "edge-54",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:碇真嗣",
+      "target": "characters:碇真嗣",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "碇真嗣",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-7"
+      ],
+      "id": "edge-55",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:碇真嗣",
+      "target": "characters:绫波丽",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "绫波丽",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-7"
+      ],
+      "id": "edge-56",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:碇真嗣",
+      "target": "characters:葛城美里",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "葛城美里",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-7"
+      ],
+      "id": "edge-57",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:碇真嗣",
+      "target": "characters:赤木律子",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "赤木律子",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-7"
+      ],
+      "id": "edge-58",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:碇真嗣",
+      "target": "characters:铃原东治",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "铃原东治",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-7"
+      ],
+      "id": "edge-59",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:碇真嗣",
+      "target": "characters:青叶茂",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "青叶茂",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-7"
+      ],
+      "id": "edge-60",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:薛定谔的使徒-悖论协议-命运修正版-规则概述",
+      "target": "characters:碇真嗣",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "碇真嗣",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-14"
+      ],
+      "id": "edge-61",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:角色关系",
+      "target": "characters:碇真嗣",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "碇真嗣",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-11"
+      ],
+      "id": "edge-62",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:角色关系",
+      "target": "characters:绫波丽",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "绫波丽",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-11"
+      ],
+      "id": "edge-63",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:角色关系",
+      "target": "characters:葛城美里",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "葛城美里",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-11"
+      ],
+      "id": "edge-64",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:角色关系",
+      "target": "characters:赤木律子",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "赤木律子",
+      "sourceRefs": [
+        "新世纪福音战士·旧约.worldbook.json#entry-11"
+      ],
+      "id": "edge-65",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    }
+  ]
+}

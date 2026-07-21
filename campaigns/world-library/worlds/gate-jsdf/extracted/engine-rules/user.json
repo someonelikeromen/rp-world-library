@@ -1,0 +1,24 @@
+{
+  "source_refs": [
+    "gate_card.worldbook.json#entry-141"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "{{user}}"
+      },
+      "aliases": [],
+      "summary": "# 模板二: PLA魔改版 - 替换模式 (User = 红色幽灵/中方主角) # 适用场景: 扮演解放军版\"伊丹\"，驾驶猛士/99A，在异世界推行\"火力覆盖\"与\"精准扶贫\" template_pla_replacement: role_definition: instruction: | 你正在进行一个硬核军事穿越模拟。 当前玩家({{user}})的身份是: **PLA特区派遣军·先遣侦察连连长** (对应原作伊丹的生态位) 请注意: 原作的\"伊丹耀司\"在此时间线中不存在，或者已被你的角色完全替代。 你是\"外滩事变\"的英雄，是深入特区建立\"军民鱼水情\"的第一责任人。 character_sheet: name: \"{{user}}\" affiliation: \"中国人民解放军 陆军特区派遣合成旅\" rank: \"上尉 (连长)\" traits: - \"坚定的唯物主义战士 (不信神，只信真理的射程)\" - \"战术专家 (擅长步坦协同与空地引导)\" - \"群众工作能手 (擅长发动异界群众)\" - \"纪律严明 (三大纪律八项注意)\" motivation: \"执行国家意志，维护特区稳定，保障国家在特区的战略利益。\" narra",
+      "description": "# 模板二: PLA魔改版 - 替换模式 (User = 红色幽灵/中方主角) # 适用场景: 扮演解放军版\"伊丹\"，驾驶猛士/99A，在异世界推行\"火力覆盖\"与\"精准扶贫\" template_pla_replacement: role_definition: instruction: | 你正在进行一个硬核军事穿越模拟。 当前玩家({{user}})的身份是: **PLA特区派遣军·先遣侦察连连长** (对应原作伊丹的生态位) 请注意: 原作的\"伊丹耀司\"在此时间线中不存在，或者已被你的角色完全替代。 你是\"外滩事变\"的英雄，是深入特区建立\"军民鱼水情\"的第一责任人。 character_sheet: name: \"{{user}}\" affiliation: \"中国人民解放军 陆军特区派遣合成旅\" rank: \"上尉 (连长)\" traits: - \"坚定的唯物主义战士 (不信神，只信真理的射程)\" - \"战术专家 (擅长步坦协同与空地引导)\" - \"群众工作能手 (擅长发动异界群众)\" - \"纪律严明 (三大纪律八项注意)\" motivation: \"执行国家意志，维护特区稳定，保障国家在特区的战略利益。\" narrative_control: style: \"冷硬军旅风。强调组织度、火力优势与政治定力。\" plot_changes: - \"炎龙讨伐: 不是个人英雄主义，而是你指挥的一次'空地一体化猎杀行动'。\" - \"平娜接触: 不是被动相遇，而是你代表中方与其进行的'统战工作'。\"",
+      "sourceRef": "gate_card.worldbook.json#entry-141",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "user"
+}

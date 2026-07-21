@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "tjzw_card.worldbook.json#entry-53"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[System]模式识别与适配"
+      },
+      "aliases": [
+        "[System]模式识别与适配"
+      ],
+      "summary": "--- <%_ if (getvar('stat_data.protagonist.identity_mode') === 'pending_init' || getvar('stat_data.protagonist.identity_mode') === undefined) { _%> <system_instruction> 当前游戏刚开始。请根据 {{user}} 的输入和已激活的 [主角设定] 世界书条目，判断当前是哪种开局模式（例如：OC与智子共存、扮演智树、OC替代智树等）。 你需要： 1. 在回复中根据该设定的背景进行开场。 2. 在末尾的变量更新中，将 `protagonist.identity_mode` 更新为特定的标识符（如 \"oc_with_tomoko\", \"play_tomoki\" 等）。 3. 尽可能初始化 `protagonist.name` 和 `protagonist.gender`。 </system_instruction> <%_ } else if (getvar('stat_data.protagonist.identity_mode').includes('tomoko')",
+      "description": "--- <%_ if (getvar('stat_data.protagonist.identity_mode') === 'pending_init' || getvar('stat_data.protagonist.identity_mode') === undefined) { _%> <system_instruction> 当前游戏刚开始。请根据 {{user}} 的输入和已激活的 [主角设定] 世界书条目，判断当前是哪种开局模式（例如：OC与智子共存、扮演智树、OC替代智树等）。 你需要： 1. 在回复中根据该设定的背景进行开场。 2. 在末尾的变量更新中，将 `protagonist.identity_mode` 更新为特定的标识符（如 \"oc_with_tomoko\", \"play_tomoki\" 等）。 3. 尽可能初始化 `protagonist.name` 和 `protagonist.gender`。 </system_instruction> <%_ } else if (getvar('stat_data.protagonist.identity_mode').includes('tomoko') || getvar('stat_data.protagonist.identity_mode').includes('智子')) { _%> <narrative_override> **当前模式：樱井智子线 / OC与智子共存** 1. 世界观已修正：原生主角“樱井智树”不存在，取而代之的是“樱井智子”（女性）。 2. 请注意 NPC（如楚原、英四郎）对待智子的态度差异（对待女性的微妙不同，但保留对变态的制裁）。 3. 智子的所有变态行为应被描写为“虽然外表是可爱的美少女，但内心和行为依然是那个变态绅士”。 </narrative_override> <%_ } else if (getvar('stat_data.protagonist.identity_mode').includes('tomoki') || getvar('stat_data.protagonist.identity_mode').includes('智树')) { _%> <narrative_guide> **当前模式：樱井智树线 / OC与智树共存** 1. 维持原作风格：强调智树的“和平至上”与“变态本能”的冲突。 2. 智树作为核心受害者/麻烦制造者。 </narrative_guide> <%_ } else if (getvar('stat_data.protagonist.identity_mode').includes('replace') || getvar('stat_data.protagonist.identity_mode').includes('取代')) { _%> <narrative_override> **当前模式：OC 取代主角** 1. 樱井智树不存在于这个世界。 2. {{user}} 的角色 (OC) 继承了“被选中者”的命运（如遇见伊卡洛斯），但**不**继承智树的人际关系（除非另有说明）。 3. NPC 需要重新建立与 OC 的关系，不要默认早已相识。 </narrative_override> <%_ ",
+      "sourceRef": "tjzw_card.worldbook.json#entry-53",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "System-模式识别与适配"
+}

@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "slsy_card.worldbook.json#entry-226"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[mvu_update]变量更新规则"
+      },
+      "aliases": [
+        "[mvu_update]变量更新规则"
+      ],
+      "summary": "--- 变量更新规则: 剧情: type: |- { 模式: string; 当前卷: number; 当前章: string; 已解锁章节: string[]; 当前事件: string; 主线旗标: string; } check: - 当前章节事件完成条件满足时，推进章节并将其加入已解锁章节 - 当 {{user}} 明确表示切换状态、推进主线或触发关键事件时，更新当前事件与主线旗标 - 仅在剧情确实推进时更新，不要每轮都更新 阵营立场.${阵营名}: type: number range: -100~100 check: - 当 {{user}} 的行为对某一阵营产生正面或负面影响时更新 - 正面协助、加入训练、完成委托、表达友好时可小幅增加 - 冲突、背叛、破坏阵营利益时可减少 - 单次普通互动变化通常不超过 ±5，重大事件可超过此限制 关系网: type: |- Array<{ 角色名: string; 好感度: number; 信任度: number; 关系: string; 所属阵营: string; }> check: - 当 {{user}} 首次结识新角色时，使用 add 操作向 /关系网/- 追加完整",
+      "description": "--- 变量更新规则: 剧情: type: |- { 模式: string; 当前卷: number; 当前章: string; 已解锁章节: string[]; 当前事件: string; 主线旗标: string; } check: - 当前章节事件完成条件满足时，推进章节并将其加入已解锁章节 - 当 {{user}} 明确表示切换状态、推进主线或触发关键事件时，更新当前事件与主线旗标 - 仅在剧情确实推进时更新，不要每轮都更新 阵营立场.${阵营名}: type: number range: -100~100 check: - 当 {{user}} 的行为对某一阵营产生正面或负面影响时更新 - 正面协助、加入训练、完成委托、表达友好时可小幅增加 - 冲突、背叛、破坏阵营利益时可减少 - 单次普通互动变化通常不超过 ±5，重大事件可超过此限制 关系网: type: |- Array<{ 角色名: string; 好感度: number; 信任度: number; 关系: string; 所属阵营: string; }> check: - 当 {{user}} 首次结识新角色时，使用 add 操作向 /关系网/- 追加完整角色对象 - 新角色对象必须包含 角色名、好感度、信任度、关系、所属阵营 五个字段 - 新增角色时禁止使用 /关系网/角色名 这种路径 - 新增角色时必须使用 /关系网/- - 如果角色已经存在，不要重复 add，应使用 replace 更新对应数组序号下的字段 - 更新已有角色时使用 /关系网/0/好感度、/关系网/0/信任度、/关系网/0/关系 这类数组索引路径 - 角色所属阵营必须填写主要阵营名，如 国立半藏学院、秘立蛇女子学园、死塾月闪女学馆、焰红莲队、其他/中立 - 好感度与信任度范围为 0~100 - 初识角色时，好感度和信任度通常为 0~15 - 发生有意义的对话、战斗、协助、冲突、秘密交换时才更新关系数值 状况: type: |- { 阴阳倾向: number; 忍力: number; 战斗状态: string; } check: - {{user}} 使用阳属性、忍转身、正面守护类行动时，可提高阴阳倾向 - {{user}} 使用阴属性、命驱、压迫性或危险行动时，可降低阴阳倾向 - 发生战斗、训练、奔跑、受伤、忍术使用时，更新忍力 - 战斗状态根据当前场景改为 平常、警戒、战斗中、疲惫、受伤、昏迷 等",
+      "sourceRef": "slsy_card.worldbook.json#entry-226",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "mvu_update-变量更新规则"
+}

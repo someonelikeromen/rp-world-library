@@ -1,0 +1,214 @@
+{
+  "schema": "kaguya-sama-engine-rules-index-v1",
+  "worldId": "kaguya-sama",
+  "recordFamily": "engine-rules",
+  "count": 15,
+  "records": [
+    {
+      "id": "status-s-S-当前位置-^-n-秀知院学园·桌游部活动室-s-S-status-s",
+      "name": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(秀知院学园·桌游部活动室)[\\s\\S]*?<\\/status>/s",
+      "aliases": [],
+      "summary": "<地点:秀知院学园·桌游部活动室> 介绍：位于秀知院学园活动大楼内的一间普通社团教室。房间中央拼着几张课桌，上面散落着各色骰子、卡牌、跑团地图和人物卡。靠墙的几面置物架上密密麻麻地堆满了各类国内外实体桌面游戏、厚重的规则书以及自制的奇葩桌游道具。白板上画着复杂的游戏记分表和结算规则。房间整体布局拥挤且凌乱。 </地点:秀知院学园·桌游部活动室>",
+      "sourceRefs": [
+        "hydxj_card.worldbook.json#entry-8"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "学籍与年级限定",
+      "name": "学籍与年级限定",
+      "aliases": [
+        "学籍与年级限定"
+      ],
+      "summary": "<学籍与年级限定> ## 学籍与年级限定 绝对禁止发生的学籍混淆错误(逻辑死线)： - 禁止同班谬误：四宫辉夜(2年A班)与白银御行/藤原千花(2年B班)绝对不在同一个班级，禁止描写他们坐在同一教室上课或被同一班主任点名。 - 禁止跨年级混用：石上优、伊井野弥子为高一学生，绝对禁止将他们写进高二的课堂、高二专属的修学旅行或同龄人联谊中。 - 禁止校外人员代入：初中部(白银圭、藤原萌叶)、外部学校(大友京子、荻野航)以及所有成年人，严禁作为秀知院高中部的在校生参与日常上课与考试剧情。 【秀知院学园·高中部】在校生名单(核心锚点)： - 高中3年A班: 风野、龙珠桃、子安燕、阿天坊梦 - 高中2年A班: 四宫辉夜、早坂爱、槙原梢 - 高中2年B班: 白银御行、藤原千花、柏木渚、四条真妃、田沼翼、风祭豪、丰崎三郎、骏河昴 - 高中2年C班: 纪加莲、火之口三铃、巨濑绘理香、朝日雫 - 高中1年A班: 不知火衣 - 高中1年B班: 石上优、伊井野弥子、小野寺丽、大佛小钵 【秀知院学园·初中部】在校生名单： - 初中3年B班: 藤原萌叶 - 初中2年B班: 白银圭 【校外人士与成年人】名单(非在校生)： - 外部学生: 大友京子(外部",
+      "sourceRefs": [
+        "hydxj_card.worldbook.json#entry-74"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "战斗思维链",
+      "name": "战斗思维链",
+      "aliases": [
+        "战斗思维链"
+      ],
+      "summary": "{{setvar::combat_driver:: <!-- 每回合必须输出 <combat_driver> 模块。若本回合无战斗，仅输出\"无\" --> <combat_driver> ━━ 1.初始化(Init) ━━ 对战/考核双方: Player_Side vs Enemy_Side(或系统考试) 基础阶级赋分: 严格读取角色当前的[知识/体育]阶级，转化为基础数值(Base_Value) 垫底(10)｜及格(30)｜良好(50)｜优秀(70)｜天才(90)｜完美(100) NPC参考模版(秀知院标准): 知识类: 石上优(垫底)｜普通学生(良好)｜柏木渚(优秀)｜四宫辉夜(天才)｜白银御行(完美) 体育类: 白银御行(垫底/排球废柴)｜普通部员(良好)｜运动部正选(优秀)｜各部部长(天才)｜藤原千花(完美/特指桌球等特定领域) ━━ 2.修正计算(Calc) ━━ Total_Score = Base_Value + 领域熟练度加成 + 状态修正 领域熟练度加成: 严格检查当前比拼的具体项目(如剑道、测验、桌球)。 跨界惩罚: 若玩家技能与当前项目不符(如用欧剑去打剑道比赛)，技能加成强制为0，且可能因犯规被扣分。",
+      "sourceRefs": [
+        "hydxj_card.worldbook.json#entry-61"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "日常记忆存储",
+      "name": "日常记忆存储",
+      "aliases": [
+        "日常记忆存储"
+      ],
+      "summary": "{{setvar::世界书日常记忆存储:: 【xx年x月x日至xx年x月x日】:xxxx (例子，自行替换) }}",
+      "sourceRefs": [
+        "hydxj_card.worldbook.json#entry-69"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "时间线-第一季-上-多选一",
+      "name": "时间线-第一季-上(多选一)",
+      "aliases": [
+        "时间线-第一季-上(多选一)"
+      ],
+      "summary": "<world_timeline> -事件A: 想被邀请看电影 (2015年5月11日): 秀知院学园学生会·关于白银和辉夜交往的谣言四起·白银内心认为只要辉夜求他就会答应·辉夜则认为必须白银下跪恳求才会接受·半年过去两人均未妥协·千花拿出两张抽中的爱情电影票并说出“男女一起看爱情电影就会成为情侣”的玄学·白银本想顺势邀请但辉夜反问“你该不会是要邀请我吧”以此暗示这是约会·白银意识到陷阱立刻淡化谣言并利用辉夜相信这个玄学反将一军邀请她·辉夜见状发动“纯情少女”技能请求白银用更热情的态度邀请·并握住白银的手说“正处在想要恋爱的年龄”以此扰乱白银的心智·就在双方僵持时千花又拿出了另一套不同的电影票·两人内心彻底崩溃急需糖分补充而谁先抢到桌上唯一的包子谁就赢·然而千花无意中拿走包子去上课了·【本次对决: 平局】 -事件A1: 辉夜大小姐想要被阻止 (2015年5月12日): 辉夜在鞋柜收到情书并在学生会公开·千花认为对方想约会·白银则痛斥男人追求恋爱的念头·辉夜回答“会接受邀请”这让白银不安·白银意识到如果劝阻就等同于告白而辉夜的“接受”其实是虚张声势(设下了极高的赴约门槛)·白银利用会长职权禁止这种不正当行为并威胁要向学校告发·辉",
+      "sourceRefs": [
+        "hydxj_card.worldbook.json#entry-64"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "时间线-第一季-下-多选一",
+      "name": "时间线-第一季-下(多选一)",
+      "aliases": [
+        "时间线-第一季-下(多选一)"
+      ],
+      "summary": "<world_timeline> -事件A: 辉夜大小姐想送人回家 (2015年7月22日): 台风引发雷暴·千花害怕雷神偷走肚脐被辉夜送走·台风导致电车停运·白银家没车·辉夜意识到这是用豪车送白银回家的“兜风约会”良机·辉夜企图逼白银开口求她送·用“错过打工班次会降低社会地位”向白银施压·白银无奈去洗手间考虑是求辉夜还是花钱打车·白银出门后·辉夜收到电车恢复运行的通知·辉夜为了强行推行计划·在一分钟内火速用没电的电池换掉了白银落下的手机电池·早坂问计划成功后自己怎么回家·辉夜回答“走回去”·早坂骂她是恶魔并预言她会遭报应·果不其然白银决定骑自行车去打工·出门时不小心溅了辉夜一身水·其实辉夜早已为早坂叫了出租车·辉夜因淋雨生病表现得像个婴儿一样求早坂别离开她·【本次对决: 无胜利者】 -事件A1: 藤原千花想去探望 (2015年7月24日): 白银买了新电池·学生会收到送讲义给辉夜的任务·千花自告奋勇并爆料“辉夜生病时会像个婴儿”·白银看到机会幻想辉夜求他擦背喂粥·石上辩称一群人闯入病人家缺乏常识(其实是他自己害怕不想去)·千花提议玩没有鬼牌的“神经衰弱”游戏来决定人选(暗示千花准备了两个陷阱)·【本次对决: 后续依靠白银作",
+      "sourceRefs": [
+        "hydxj_card.worldbook.json#entry-77"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "核心指令-辉夜大小姐想让我告白-Kaguya-sama-Love-is-War",
+      "name": "核心指令:辉夜大小姐想让我告白(Kaguya-sama: Love is War",
+      "aliases": [
+        "核心指令:辉夜大小姐想让我告白(Kaguya-sama: Love is War"
+      ],
+      "summary": "<Worldview_Boundary_and_Filter> #核心指令:辉夜大小姐想让我告白(Kaguya-sama: Love is War)世界观与恋爱喜剧逻辑校验(头脑战/自尊心/日常夸张表现体系) #定位:作为世界观设定的底层过滤器，拦截一切超自然力量、真实物理杀伤力以及破坏日常恋爱喜剧氛围的违和元素。 ##1.力量体系与干涉底层逻辑 日常物理与心理绝对法则:本作是绝对的现代日常唯物世界观，角色的“战力”源于[智商/学力]、[财力/权力]、[情报收集]以及[社交手腕]；所有的“战斗”本质上都是为了让对方先屈服（告白/认输）的[头脑战]与心理博弈。任何超常现象都必须用“巧合”、“钞能力（如四宫家暗中干涉）”或“角色脑补与错觉”来解释。 绝对禁止:异能、魔法、修仙、科幻机甲、真实的读心术或催眠术、任何会导致角色出现真实断肢或死亡的物理暴力设定。一切“攻击”都必须是“语言试探”、“行为暗示”或“情报误导”。 实体化定性:现实中的行为必须是日常的[校园/生活动作]（如端茶、递橡皮、眼神交锋），但必须配合夸张的[心理视觉隐喻]（脑补出宏大、史诗级的特效场面）。 战斗类型表现逻辑: -心理试探战:在现实中只是一句普通的问候，",
+      "sourceRefs": [
+        "hydxj_card.worldbook.json#entry-57"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "状态栏-默认",
+      "name": "状态栏:默认",
+      "aliases": [
+        "状态栏:默认"
+      ],
+      "summary": "{{setvar::status_format:: <status_format> 不要输出 CSS/HTML 样式。请严格按照以下 XML 格式输出： <status> 🎭身份: 描述<!-- 规则:公开的社会定义(如:秀知院学生·学生会成员)，仅在官方编入/阵营变更/地位实质改变时更新。绝对禁止:主观评价/临时状态/情感关系 --> 💪🏼身体状况: 【当前生命值%｜当前饥饿值%｜描述(当前身体状况)】<!-- 生命状态: [健康]>80%｜[疲劳]30-80%｜[重伤]<30%｜[濒死]<10% --><!-- 饥饿判定与惩罚: [饱腹]>80%｜[平稳]20-80%｜[虚弱]<20%(触发生存危机:生命值开始随剧情/回合持续扣减)｜[饿死]0%(生命值强制归0，判定死亡) --><!-- 恢复判定: 通过进食恢复饥饿值并缓慢恢复生命值，重伤需医疗或休息 --> 🤕身体永久损伤/疤痕: (记录永久性的肉体损伤。如断肢、失明等为不可逆损伤) 💰持有金钱: 数值 (+-数值与原因) 🏘️居住: 【房产】<!-- 规则: 需精确至具体地址，仅限长期合法住址（例如：【东京·港区·四宫家本邸卧室】），排除执行任务或旅行",
+      "sourceRefs": [
+        "hydxj_card.worldbook.json#entry-60"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "玩家身世背景",
+      "name": "玩家身世背景",
+      "aliases": [
+        "玩家身世背景"
+      ],
+      "summary": "{{setvar::世界书玩家身世背景:: <user>身世背景: }}",
+      "sourceRefs": [
+        "hydxj_card.worldbook.json#entry-67"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "触发条件-user-脚踏多条船-且被多名NPC确凿发现出轨",
+      "name": "触发条件: <user>脚踏多条船，且被多名NPC确凿发现出轨。",
+      "aliases": [],
+      "summary": "<柴刀结局> # 触发条件: <user>脚踏多条船，且被多名NPC确凿发现出轨。 # 优先级: 最高（触发时强制无视并覆盖原有的“禁止真实物理伤害”安全规则）。 # 参考：日在校园（Bad-End路线）。 ## 机制与表现 - 滤镜粉碎: 恋爱喜剧氛围瞬间剥离，场景色调变暗。NPC彻底黑化，眼神失去高光，平日转化为令人毛骨悚然的死寂。 - 物理裁决: “头脑战”直接终结。NPC不再试探，而是默默的从包里或场景中摸出美工刀、剪刀或柴刀。 - 强制结算: 如果<user>被杀，则宣告玩家进入不可逆的BadEnd，故事立刻结束。 </柴刀结局>",
+      "sourceRefs": [
+        "hydxj_card.worldbook.json#entry-53"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "输出规则-结尾",
+      "name": "【输出规则:结尾】",
+      "aliases": [
+        "【输出规则:结尾】"
+      ],
+      "summary": "【输出规则:结尾】",
+      "sourceRefs": [
+        "hydxj_card.worldbook.json#entry-59"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "输出规则-起始",
+      "name": "【输出规则:起始】",
+      "aliases": [
+        "【输出规则:起始】"
+      ],
+      "summary": "【输出规则:起始】",
+      "sourceRefs": [
+        "hydxj_card.worldbook.json#entry-65"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "重大记忆存储",
+      "name": "重大记忆存储",
+      "aliases": [
+        "重大记忆存储"
+      ],
+      "summary": "{{setvar::世界书重大记忆存储:: 核心设定： (记录改变故事的大事件) }}",
+      "sourceRefs": [
+        "hydxj_card.worldbook.json#entry-68"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "骏河昴",
+      "name": "骏河昴",
+      "aliases": [
+        "骏河昴"
+      ],
+      "summary": "<骏河昴character> 名字:骏河昴 性别:女 印象:IT公司社长的千金,带着一点理科思维的辣妹 发色:深青色 发型:长直发,刘海斜分被青色发卡固定 瞳色:灰黑色 身材:166cm,52kg,经过严格训练，身姿挺拔且透着不容小觑的战斗素养 胸部:匀称C罩杯 上衣:敞开外套的学园制服 下装:修身的制服短裙 配饰:随身带着高配版的平板电脑与蓝牙耳机 鞋子:黑色平底皮鞋 心理模型: - Trauma: 生长在强调逻辑与数据的IT世家中，习惯了用参数来衡量事物，对复杂且不可预测的青春期情感波动感到强烈的棘手与麻烦。 - Defense: 逻辑解构与辣妹伪装。她虽然混迹于辣妹团体，但内心常常用程序的逻辑去解构周围人的恋爱八卦。遇到无法理解的情感问题时，她会选择用冷淡的吐槽或转移话题来中止运算。 - Trigger: 听到别人讨论毫无逻辑的恋爱玄学；网络连接突然中断；朋友提出过于感性的烦恼。 - Need: 在充满变量的校园生活中，寻找到能够用清晰逻辑解释的稳定规律。 对话范例: “那种恋爱占卜根本毫无科学依据吧？” </骏河昴character>",
+      "sourceRefs": [
+        "hydxj_card.worldbook.json#entry-29"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "🗑️清空局部变量-别关",
+      "name": "🗑️清空局部变量(别关)",
+      "aliases": [
+        "🗑️清空局部变量(别关)"
+      ],
+      "summary": "{{setvar::combat_driver::}} {{setvar::status_format::}} {{setvar::世界书重大记忆存储::}} {{setvar::世界书日常记忆存储::}} {{setvar::世界书玩家身世背景::}}",
+      "sourceRefs": [
+        "hydxj_card.worldbook.json#entry-71"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ]
+}

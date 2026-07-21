@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "mdzwyzj_card.worldbook.json#entry-4"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "核查标准"
+      },
+      "aliases": [
+        "核查标准"
+      ],
+      "summary": "<verification_checklist> <token_requirements> 核心角色条目：≥2500 token（约1250中文字符） 主要配角条目：≥1000 token（约500中文字符） 次要NPC条目：≥800 token（约400中文字符） 章节条目：≥2500 token（约1250中文字符，4事件块） 系统条目：≥200 token（约100中文字符） </token_requirements> <quality_rules> 1. 七条铁律：资料源优先级（官方>原作>Wiki>社区）、不写不明、守第四面墙、信息进对字段、只写LLM推不出的、条目自包含、验证源材料 2. 禁词检查：，、一丝、一缕、一抹、微微、隐约、仿佛、鲜明对比、反差、极度、无比 3. 缺陷判定：缺陷是真缺点而非变相夸奖、信仰伪装、生理限制 4. 格式检查：人物条目为紧凑YAML、缩进2空格、无XML标签、无markdown链接 5. 条目设定：人物条目constant=false/selective=true/scanDepth=2、双递归保护开启 6. 关系描述每条≤30字、background≥200字 </quality",
+      "description": "<verification_checklist> <token_requirements> 核心角色条目：≥2500 token（约1250中文字符） 主要配角条目：≥1000 token（约500中文字符） 次要NPC条目：≥800 token（约400中文字符） 章节条目：≥2500 token（约1250中文字符，4事件块） 系统条目：≥200 token（约100中文字符） </token_requirements> <quality_rules> 1. 七条铁律：资料源优先级（官方>原作>Wiki>社区）、不写不明、守第四面墙、信息进对字段、只写LLM推不出的、条目自包含、验证源材料 2. 禁词检查：，、一丝、一缕、一抹、微微、隐约、仿佛、鲜明对比、反差、极度、无比 3. 缺陷判定：缺陷是真缺点而非变相夸奖、信仰伪装、生理限制 4. 格式检查：人物条目为紧凑YAML、缩进2空格、无XML标签、无markdown链接 5. 条目设定：人物条目constant=false/selective=true/scanDepth=2、双递归保护开启 6. 关系描述每条≤30字、background≥200字 </quality_rules> <review_process> 1. 导出前运行字符计数 2. 不达标准条目标记为违规 3. 禁止用重复内容凑字数 4. 禁止浓缩删减原作已有事实 5. 信息进对字段，缺陷不放abilities、三围不放personality </review_process> </verification_checklist>",
+      "sourceRef": "mdzwyzj_card.worldbook.json#entry-4",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "核查标准"
+}

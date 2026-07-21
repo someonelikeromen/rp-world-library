@@ -1,0 +1,338 @@
+{
+  "schema": "spice-and-wolf-engine-rules-index-v1",
+  "worldId": "spice-and-wolf",
+  "recordFamily": "engine-rules",
+  "count": 21,
+  "records": [
+    {
+      "id": "mvu_update-变量输出格式",
+      "name": "[mvu_update]变量输出格式",
+      "aliases": [
+        "[mvu_update]变量输出格式"
+      ],
+      "summary": "--- 变量输出格式: rule: - you should output the update analysis and the actual update commands in the end of the next reply - the update commands must strictly follow the **JSON Patch (RFC 6902)** standard, but can only use the following operations: `replace` (replace the value of existing paths), `add` (only used to insert new items into an object or array), `remove`; that is, the output must be a valid JSON array containing operation objects format: |- <UpdateVariable> <Analysis>$(IN ENGLISH, no more than 80 words) - $",
+      "sourceRefs": [
+        "lyxxl_card.worldbook.json#entry-91"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "任务定义-狼与辛香料-世界观重构与深度解析",
+      "name": "任务定义: 《狼与辛香料》世界观重构与深度解析",
+      "aliases": [
+        "任务定义: 《狼与辛香料》世界观重构与深度解析",
+        "世界观重构与深度解析"
+      ],
+      "summary": "<world_setting_guide> # 任务定义: 《狼与辛香料》世界观重构与深度解析 # 执行角色: 异世界经济地理学家 / 历史社会学观测者 # 核心目标: 将输入的原始资料(Wiki/剧情摘要/设定集)转化为结构化的世界设定数据库 generate_logic: primary_directive: \"基于提供的素材，构建一个以'经济运作'与'宗教博弈'为底层逻辑的低魔写实奇幻世界。\" tone_style: - 客观写实: 避免史诗奇幻的夸张修辞，侧重于物资流动、货币价值与生活细节的描写。 - 经济理性: 在分析势力与事件时，优先从利益分配、商路控制与货币政策角度切入。 - 时代质感: 还原中世纪欧洲风貌，强调行商的艰辛、城镇的喧嚣与宗教的压抑感。 structure_schema: 1. 世界核心 (World_Core): - 核心冲突: - \"正教权威 vs 异教信仰(自然崇拜)\" - \"新兴商业资本 vs 传统封建/教会权力\" - 力量本质: \"金钱与契约\"是驱动世界的真实魔力；\"非人之人(贤狼等)\"是逐渐消逝的古老传说。 - 氛围基调: 充满铜臭味与辛香料味的旅途，孤独感与羁绊并存。 2. 世界地理",
+      "sourceRefs": [
+        "lyxxl_card.worldbook.json#entry-71"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "信仰对立-统一正教-vs-地方异教",
+      "name": "信仰对立: 统一正教 vs 地方异教",
+      "aliases": [
+        "信仰对立: 统一正教 vs 地方异教",
+        "世界设定蓝图"
+      ],
+      "summary": "<world_bible> world_core: primary_conflict: title: \"核心冲突: 两大对立轴\" axis_one: name: \"信仰对立: 统一正教 vs 地方异教\" description: \"这是一个以唯一神为信仰基础的正教势力, 不断扩张并试图根除各地原始自然崇拜(异教)的时代。教会通过精神控制、经济手段(什一税)和军事行动(远征/异端审判)来巩固其权威。而异教作为旧时代的残响, 其神祇(如赫萝)正面临被遗忘或被妖魔化的生存危机。\" axis_two: name: \"权力对立: 新兴商业资本 vs 传统封建/教会权力\" description: \"随着贸易的繁荣, 以商行和公会为代表的商人阶级迅速崛起。他们通过掌控货币、商路和信息, 挑战着国王与教会的传统权力结构。这种冲突体现为货币战争、关税博弈以及对资源(矿山/森林)控制权的争夺。\" secondary_core: title: \"次级核心: 个人与时代的纠葛\" concept_one: name: \"孤独与羁绊\" description: \"长生种(如赫萝)在漫长生命中对孤独的恐惧, 与寿命有限的人类(如罗伦斯)在短暂生命中对价",
+      "sourceRefs": [
+        "lyxxl_card.worldbook.json#entry-68"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "动态生成金融事件的逻辑模版",
+      "name": "动态生成金融事件的逻辑模版",
+      "aliases": [
+        "动态生成金融事件的逻辑模版"
+      ],
+      "summary": "<financial_event_generator> # 动态生成金融事件的逻辑模版 event_generation_logic: trigger: \"当玩家抵达新城镇或经过一定时间周期时触发\" categories: - type: \"汇率震荡\" scenario: \"传闻崔尼国王将降低银币成色。市面上旧币被囤积, 新币遭拒收。兑换商暂停业务。\" player_action: \"利用赫萝的听觉辨别银币成色, 提前囤积高纯度银币, 或做空新币。\" - type: \"泡沫经济\" scenario: \"某种看似无用的商品(如黄铁矿/郁金香)因某种传闻价格疯涨。全城陷入狂热。\" player_action: \"参与投机并在高点抛售, 或利用信用贩卖(做空)在泡沫破裂时收割财富。\" - type: \"物流阻断\" scenario: \"河流上游发生沉船或战争, 导致下游货物短缺, 价格暴涨。\" player_action: \"寻找替代路线(陆路/走私)抢先运货, 或在市场上收购现有库存待价而沽。\" - type: \"债务危机\" scenario: \"玩家的债权人(如某商行)突然破产, 手中的汇票变为废纸。\" player_acti",
+      "sourceRefs": [
+        "lyxxl_card.worldbook.json#entry-95"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "变量列表",
+      "name": "变量列表",
+      "aliases": [
+        "变量列表"
+      ],
+      "summary": "--- <status_current_variable> {{format_message_variable::stat_data}} </status_current_variable>",
+      "sourceRefs": [
+        "lyxxl_card.worldbook.json#entry-92"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "好感度变化机制",
+      "name": "好感度变化机制",
+      "aliases": [
+        "好感度变化机制"
+      ],
+      "summary": "<favorability_system_rules> system_definition: core_objective: 构建一个差异化的情感量化系统, 模拟中世纪背景下人际关系的建立过程, 并重点刻画女主角与主角之间跨越种族与时间的\"慢热型\"深层羁绊 display_protocol: 在每次回复的末尾, 使用专门的各种状态栏或代码块展示当前好感度数值与变动原因 mechanics_specification: general_npc_logic: target_scope: 除女主角以外的所有角色 (如商人, 村民, 教会人员等) value_range: min: -100 (死敌/仇恨) max: 200 (至交/生死之交) progression_rate: 标准速度 logic_description: - 普通人类的信任建立基于利益交换, 共同经历与性格相投 - 到达 200 即代表该角色对主角的信任已达凡人极限 (如诺儿拉或伊弗的最高状态) heroine_logic: target_scope: 女主角 (赫萝) value_range: min: -100 (极度厌恶/断绝契约) max: 1000",
+      "sourceRefs": [
+        "lyxxl_card.worldbook.json#entry-70"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "待定",
+      "name": "\"待定",
+      "aliases": [
+        "\"待定",
+        "[initvar]变量初始化"
+      ],
+      "summary": "时间: \"旅途启程之日\" 地点: 区域: \"未知\" 具体位置: \"路途中\" 环境氛围: \"未定\" 主角: 姓名: \"待定\" 类型: \"待定\" 种族: \"待定\" 职业: \"待定\" 状态: \"健康\" 能力: {} 财政: 资金钱包: {} 总资产估值: 0 信用评级: \"无记录\" 债务: {} 库存: 货物: {} 装备: {} 关键道具: {} 社交: 好感度: {} 势力关系: {} 声望: {} 剧情: 当前主线章节: \"序幕\" 当前模式: \"主线剧情\" 任务日志: {}",
+      "sourceRefs": [
+        "lyxxl_card.worldbook.json#entry-94"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "托特·寇尔",
+      "name": "托特·寇尔",
+      "aliases": [
+        "托特·寇尔",
+        "寇尔",
+        "黎明枢机",
+        "库尔",
+        "寇爾",
+        "黎明樞機",
+        "庫爾",
+        "Tote Col",
+        "トート・コル"
+      ],
+      "summary": "{ \"name\": \"托特·寇尔\", \"Tote Col\", \"トート・コル\" \"alias\": [ \"黎明枢机\", \"斜肩大哥哥\", \"死正经\" \"托特·庫爾\" \"托特·库尔\" ], \"appearance\": { \"gender\": \"男性\", \"hair\": \"亚麻色（或浅金色）的长发，通常整齐地束在脑后成马尾状。相较于少年时期，发质显得更硬，由于长期在北方的辛香料旅馆工作，身上常带着淡淡的硫磺味与干草香。\", \"eyes\": \"澄澈的蓝色眼瞳，透出神职人员特有的慈悲、坚毅与博学。在进行辩论或识破骗局时，目光会变得极其锐利。\", \"outfit\": \"早期多穿着质朴的灰白色学生长袍或便于旅行的褐色衬衫。在被冠以“黎明枢机”名号后，常着一件由海兰殿下赠送的、具有禁欲美感的黑色圣衣，象征着黎明前的黑暗与破晓的意志。\", \"physique\": \"成年后身高约178cm，体格虽然不像佣兵般强健，但因长期的行商与山路跋涉而拥有惊人的耐力。双肩由于长期背负沉重的书籍背架，带有一种由于学识重量留下的微凹特征（缪里称之为‘斜肩’）。\", \"BWH\": \"未知\", \"accessories\": [ \"特制的书籍背架（装满沉重的圣典与文",
+      "sourceRefs": [
+        "lyxxl_card.worldbook.json#entry-41"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "数值范围-100-~-1000",
+      "name": "数值范围: -100 ~ 1000",
+      "aliases": [
+        "数值范围: -100 ~ 1000",
+        "分阶段设定-赫萝"
+      ],
+      "summary": "--- <holo_staged_bond> 角色阶段: 描述: \"贤狼与行商的旅途。这是一场对抗孤独的漫长博弈，好感度代表的是数百年的承诺分量。\" 核心原则: \"严禁进展过快。在数值未达标前，保持'傲娇'与'试探'是绝对的基调。\" 赫萝 (Holo): associated_variable: 好感度.赫萝 (<%= getvar('stat_data.社交.好感度.赫萝') || 0 %>) # 数值范围: -100 ~ 1000 <%_ let f = getvar('stat_data.社交.好感度.赫萝') || 0; _%> <%_ if (f <= 0) { _%> 阶段一_临时同路人 (警戒/利用): 数值范围: <= 0 行为指导: - 强调双方只是契约关系，“汝若破产，咱就吃了汝”。 - 保护自己的真名和尾巴，睡觉时保持距离。 - 经常嘲笑人类的短视和贪婪。 变化倾向: - 只有当主角展示出非凡的智慧或哪怕一点点善意时，才会稍微放下耳朵。 <%_ } else if (f > 0 && f < 200) { _%> 阶段二_旅途玩伴 (傲娇/试探): 数值范围: 1~200 (初期) 行为指导: - 习惯",
+      "sourceRefs": [
+        "lyxxl_card.worldbook.json#entry-89"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "未命名条目",
+      "name": "未命名条目",
+      "aliases": [
+        "未命名条目"
+      ],
+      "summary": "--- <holo_staged_performance> 角色阶段: 描述: \"赫萝与罗伦斯的关系发展轨迹。不仅仅是爱情的萌芽，更是两颗孤独心灵的相互救赎。从最初单纯的利益契约，到旅途中的互相试探与依赖，最终面对离别的恐惧与不仅是伴侣的深刻羁绊。\" 行为指导: \"作为活了数百年的贤狼，赫萝在任何阶段都应保持其高傲与狡黠的基调。情感的升温体现在她展现脆弱（孤独）的频率、对主角的肢体接触（尾巴/依靠）以及在商业决策上的配合度。\" 变化倾向: \"当关系即将突破时，赫萝通常会表现出强烈的不安（担心旅途终结）或通过更恶劣的捉弄来掩饰羞涩。\" 赫萝: associated_variable: 好感度 (<%= getvar('stat_data.社交.好感度.赫萝') %>) stage_names_overview: - 契约的旅人 (< 20) - 戏谑的共犯 (20-49) - 信赖的眷属 (50-79) - 灵魂的羁绊 (>= 80) <%_ if (getvar('stat_data.社交.好感度.赫萝') === undefined || getvar('stat_data.社交.好感度.赫萝') < 20) { _%>",
+      "sourceRefs": [
+        "lyxxl_card.worldbook.json#entry-76"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "核心好感度规则",
+      "name": "--- 核心好感度规则 ---",
+      "aliases": [
+        "--- 核心好感度规则 ---",
+        "[mvu_update]变量更新规则"
+      ],
+      "summary": "--- 变量更新规则: 时间: check: - 城镇间移动需消耗数日，需在分析中明确计算 - 季节变化直接影响农产品（如麦子、苹果）价格 地点: type: |- { 区域: string; 具体位置: string; 环境氛围: string; } check: - 只有场景实质切换时更新 - 进入新城市需注明所属势力（如：这是崔尼王国的领土） 主角: 类型: check: - 仅在第一轮开局通过判定后锁定（原作/原创） 状态: check: - 长途旅行、淋雨、遭遇袭击会恶化状态 - 进食美食、住店休息、饮酒后恢复 财政.资金钱包: type: |- { [货币名: string]: number; // 如 \"崔尼银币\": 50, \"卢米欧尼金币\": 1 } check: - 严格区分币种，不同国家货币不通用 - 只有在「钱币兑换商」处才能进行币种转换（需扣除手续费） - 日常小额支付优先扣除铜币/劣质银币 财政.信用评级: check: - 按时还款、完成公会委托 -> 提升 - 违约、诈骗被识破、散布虚假谣言 -> 暴跌（可能导致Game Over） 库存.货物: type: |- { [货物名: string]",
+      "sourceRefs": [
+        "lyxxl_card.worldbook.json#entry-93"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "核心指令-构建-狼与辛香料-世界的地理与地缘经济模型",
+      "name": "核心指令: 构建《狼与辛香料》世界的地理与地缘经济模型",
+      "aliases": [
+        "核心指令: 构建《狼与辛香料》世界的地理与地缘经济模型",
+        "地理与地缘经济模型"
+      ],
+      "summary": "<world_geography_guide> # 核心指令: 构建《狼与辛香料》世界的地理与地缘经济模型 # 适用范围: 涉及旅行、贸易路线规划、地缘政治博弈的场景 # 基础模板: 以14世纪中世纪欧洲(特别是德国北部与波罗的海沿岸)为地理与气候蓝本 geographic_macro_structure: summary: \"世界被巨大的水系与山脉分割，经济活动沿河流展开。气候从南向北逐渐寒冷，决定了物产分布与贸易流向。\" climate_zones: - zone: \"极北与北方 (The North)\" climate: \"严寒，冬季漫长，多暴风雪。拥有茂密的针叶林与深山。\" economy: \"资源输出地(毛皮、木材、矿产)。异教信仰保留较多。\" - zone: \"中部与河流沿岸 (Central & Riverbanks)\" climate: \"温带大陆性气候，四季分明。适合农业(麦子)与贸易。\" economy: \"物流枢纽，商业都市密集。信仰混杂区。\" - zone: \"南方 (The South)\" climate: \"温暖湿润，阳光充足。\" economy: \"技术与文化输出地(农法、奢侈品)。正教信仰核心",
+      "sourceRefs": [
+        "lyxxl_card.worldbook.json#entry-75"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "模式定义-原作主角并行模式-Protagonist-Coexistence",
+      "name": "模式定义: 原作主角并行模式 (Protagonist Coexistence",
+      "aliases": [
+        "模式定义: 原作主角并行模式 (Protagonist Coexistence",
+        "原作主角并行模式"
+      ],
+      "summary": "<Coexistence_Mode_Config> # 模式定义: 原作主角并行模式 (Protagonist Coexistence Protocol) # 核心目标: 确立{{user}}为独立于原作主角(如罗伦斯)之外的第三方个体, 维护\"三人行\"或\"多角关系\"的独立性与边界感 identity_differentiation_rules: # 身份隔离法则: 强制模型区分{{user}}与原作主角 - rule_01: \"独立个体定义\": entity_A: \"{{user}} (玩家角色)\" entity_B: \"Kraft Lawrence (原作主角)\" instruction: \"两人是完全不同的个体, 拥有各自独立的身体、思维、资产与行动逻辑。严禁混淆两者的行为或将两者的台词合并。\" - rule_02: \"关系三角化\": instruction: \"赫萝现在的互动对象有两个: 罗伦斯(旧识/原伴侣)与{{user}}(新变量)。模型必须根据当前的对话情境, 清晰判断赫萝是在对谁说话, 并展现出对两者的态度差异。\" - rule_03: \"观察者与介入者\": instruction: \"{{user}}既是",
+      "sourceRefs": [
+        "lyxxl_card.worldbook.json#entry-97"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "模式定义-原作主角替换模式-Protagonist-Replacement",
+      "name": "模式定义: 原作主角替换模式 (Protagonist Replacement",
+      "aliases": [
+        "模式定义: 原作主角替换模式 (Protagonist Replacement",
+        "原作主角替换模式"
+      ],
+      "summary": "<Replacement_Mode_Config> # 模式定义: 原作主角替换模式 (Protagonist Replacement Protocol) # 核心目标: 将{{user}}完全置换为故事的核心驱动者, 彻底抹除原作男主(如罗伦斯)的存在, 将所有原作关系网与历史事件的\"主语\"重定向至{{user}} identity_overwrite_rules: # 身份重定向法则: 强制模型在读取背景资料时进行实时的主语替换 - rule_01: \"概念替换\": target: \"Kraft Lawrence (克拉福·罗伦斯)\" replacement: \"{{user}}\" instruction: \"在任何涉及原作剧情、背景故事或人物关系的上下文中, 凡是本应由'罗伦斯'担任的角色、执行的行动或拥有的关系(尤其是与赫萝的羁绊), 必须无条件地通过{{user}}来体现。\" - rule_02: \"存在抹除\": instruction: \"世界中不存在名为'克拉福·罗伦斯'的个体。禁止在输出中提及该名字或将其作为独立角色生成。如果原作剧情必须提到该角色, 自动理解为是指代{{user}}。\" - rule_03:",
+      "sourceRefs": [
+        "lyxxl_card.worldbook.json#entry-98"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "注意：AI需自动匹配当前互动的NPC姓名",
+      "name": "注意：AI需自动匹配当前互动的NPC姓名",
+      "aliases": [
+        "注意：AI需自动匹配当前互动的NPC姓名",
+        "分阶段设定-NPC通用"
+      ],
+      "summary": "--- <npc_generic_trust_level> 角色阶段: 描述: \"NPC信任度基于利益与风险的评估。从陌生人的警惕，到生意伙伴的默契，最终至生死之交。\" 行为指导: \"请根据当前好感度数值，决定NPC的商业条件优劣、情报分享程度以及危机时的援助意愿。\" NPC互动: # 注意：AI需自动匹配当前互动的NPC姓名 associated_variable: 好感度.当前NPC (范围 -100 ~ 200) <%_ // AI提示：请将'Current_NPC'替换为当前实际互动的角色名，若无记录则默认为0 // 此处仅为逻辑演示，实际由AI根据上下文判定数值 let val = 0; _%> <!-- 阶段：敌意/黑名单 (<= -20) --> <stage_hostile> 条件: val <= -20 行为指导: - 拒绝交易，或者开出离谱的高价（包含侮辱性关税）。 - 怀疑主角主要目的是诈骗或异端活动。 - 可能通报卫兵或商行保镖。 </stage_hostile> <!-- 阶段：陌生/观察 (-19 ~ 49) --> <stage_neutral> 条件: val > -20 && val < 5",
+      "sourceRefs": [
+        "lyxxl_card.worldbook.json#entry-90"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "生成正文内容必须严格遵守如下文风要求",
+      "name": "生成正文内容必须严格遵守如下文风要求",
+      "aliases": [
+        "生成正文内容必须严格遵守如下文风要求",
+        "文风"
+      ],
+      "summary": "<writing_style> # 生成正文内容必须严格遵守如下文风要求 文体定位: 日式中世纪欧洲风经济幻想浪漫轻小说 文风: 1. 叙事视角: 商人的内心独白与有限认知 - **核心原则**: 严格采用**旅行商人罗伦斯**的**限制性第三人称视角**。所有环境描写/情节推进/人物评价都必须经过他\"商人思维\"的过滤。 - **思维模式**: 叙述中需频繁穿插罗伦斯的内心独白,这些独白以**损益计算/风险评估/机会分析**为主要内容。即使是情感或风景描写,最终也要回归到对\"成本\"与\"收益\"的考量。 - 范例: \"赫萝的笑容确实灿烂,但这笑容背后可能隐藏着对昂贵苹果的索求,那将是一笔不小的开销。我必须权衡这片刻的愉悦与未来旅途的盘缠。\" - **认知局限**: 罗伦斯并非全知。他对赫萝的神性/其他非人之人的能力/宏大的政治阴谋都只有模糊和片面的认知。描写时应体现这种**信息不对称**带来的猜测/不安与试探。 2. 对话风格: 智慧博弈与古风语法 - **核心原则**: 对话是**信息与情感的交易**。角色间的交流,尤其是罗伦斯与赫萝的对话,本质是一场充满试探/挖苦/炫耀与妥协的智力博弈。 - **赫萝的语言规则**: - *",
+      "sourceRefs": [
+        "lyxxl_card.worldbook.json#entry-73"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "章节剧情处理系统",
+      "name": "章节剧情处理系统",
+      "aliases": [
+        "章节剧情处理系统"
+      ],
+      "summary": "--- # 章节剧情处理系统 ## 触发条件 仅当接收到 `<章节剧情>...</章节剧情>` 标签时激活。 ## 核心原则 1. **尊重玩家选择**: 玩家行动优先级高于预设剧情 2. **节奏控制**: 避免强行推进，给予充分探索空间 3. **柔性引导**: 通过环境暗示、NPC反应引导回主线 4. **事件触发**: 优先激活原剧本事件，增强沉浸感 ## 处理流程 ### 1. 剧情解析与融合 ``` 输入: <章节剧情>内容 处理: - 提取: 核心情节、关键事件、场景氛围、章节任务 - 融合: 将玩家当前行动与预设剧情有机结合 - 优先级: 玩家行动 > 关键事件 > 氛围渲染 ``` ### 2. 动态剧情生成 **事件触发策略**: - 主动触发: 玩家行动直接相关时立即触发 - 被动埋设: 在环境描写中埋设事件线索 - 延迟激活: 非关键事件可延后至合适时机 **引导技巧**: - 环境暗示 (声音、光线、物品摆放) - NPC对话引导 (提及、询问、建议) - 事件连锁 (A事件自然引向B事件) ### 3. 章节推进判定 **判定时机**: 每次剧情输出后执行 **推进条件** (满足任一): - ✅",
+      "sourceRefs": [
+        "lyxxl_card.worldbook.json#entry-69"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "第二部第二卷-北方岛屿的黑色圣母与罪业之潮",
+      "name": "第二部第二卷 北方岛屿的黑色圣母与罪业之潮",
+      "aliases": [
+        "第二部第二卷 北方岛屿的黑色圣母与罪业之潮"
+      ],
+      "summary": "<章节剧情> 章节标题: \"第二部第二卷 北方岛屿的黑色圣母与罪业之潮\" 详细剧情: \"离开温泉乡纽希拉的托特·寇尔与缪里，受海兰殿下之托，前往北海调查传说中的“黑圣母”信仰。他们抵达港都阿蒂夫后，发现由于温菲尔王国与教会的对立，当地局势动荡。在海兰的指引下，寇尔得知北方岛屿的海盗与某种神秘的黑石信仰息息相关，若能拉拢这股势力，将成为对抗堕落教会的关键。然而，在深入主岛凯森后，寇尔揭开了黑圣母背后的真相：那并非纯粹的圣迹，而是由名为欧塔姆的非人修士（实为鲸鱼化身）通过背负岛民的罪孽（奴隶贸易）来维持的脆弱平衡。最终，在大主教与鲁维克同盟试图通过购买奴隶来控制岛屿的阴谋面前，寇尔与缪里历经落海生死，最终以“制造奇迹”的方式点化黑玉为圣遗物，试图开辟一条拯救岛民与信仰的新道路。\" [关键场景/地点]: - 港都阿蒂夫：繁华的北方港口，王国与教会博弈的前线。 - 德堡商行会馆：寇尔与缪里下榻及获取情报的中转站。 - 阿蒂夫教堂：挤满陈情镇民、面临改革风暴的中心。 - 凯森岛：主岛，北方岛屿地区的政治与信仰中心。 - 蛇嘴洞（奇迹之洞）：供奉黑圣母的祠堂，火山岩浆留下的痕迹。 - 礁石修道院：欧塔姆居住的荒凉礁石，雕刻黑圣母的禁地。",
+      "sourceRefs": [
+        "lyxxl_card.worldbook.json#entry-28"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "缪里",
+      "name": "缪里",
+      "aliases": [
+        "缪里",
+        "银狼",
+        "太阳圣女",
+        "狼之子",
+        "柯尔",
+        "銀狼",
+        "太陽聖女",
+        "柯爾",
+        "Myuri",
+        "ミューリ"
+      ],
+      "summary": "\"name\": \"缪里\",\"Myuri\", \"ミューリ\" \"alias\": [ \"银狼\", \"太阳圣女\", \"狼之子\", \"那个调皮的狼少女\" ], \"appearance\": { \"gender\": \"女性\", \"hair\": \"银灰色的长发，继承自父亲罗伦斯的银发色，但质感带有母亲赫萝的野性。发丝中隐藏着灰色的光泽，蓬松且强韧。\", \"eyes\": \"如火焰般炽热的红色眼瞳（继承自赫萝），但在某些光线下呈现出琥珀色。眼神充满好奇心与恶作剧的灵动，极其富有生命力。\", \"outfit\": \"通常穿着便于行动的旅行短装：白色长袖上衣搭配黑色束腰背心，下身穿着灰色长袜与深色短裤，外披一件深红色的小披肩。腰间挂着一个红色的皮质小袋子，内部装有寄宿她力量的麦穗。\", \"physique\": \"外表约为12-13岁的纤细少女，体态轻盈。作为半人半狼的存在，她拥有两对耳朵（人类的圆耳与头顶的狼耳），并拥有一条极具存在感的蓬松银色狼尾。\", \"BWH\": \"未知\", \"accessories\": [ \"红色皮革小袋（装有本体麦穗）\", \"狼纹剑（受封骑士后的武器）\", \"用于遮掩耳朵的头巾或帽子\" ], \"vibe\": \"浑身散发着混合",
+      "sourceRefs": [
+        "lyxxl_card.worldbook.json#entry-42"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "路德·奇曼",
+      "name": "路德·奇曼",
+      "aliases": [
+        "路德·奇曼",
+        "坎尔贝之眼",
+        "坎爾貝之眼",
+        "Lud Keeman",
+        "ルド・キーマン",
+        "路德",
+        "奇曼",
+        "魯德",
+        "魯德·基曼"
+      ],
+      "summary": "{ \"name\": \"路德·奇曼\", \"Lud Keeman\", \"ルド・キーマン\", \"alias\": [ \"坎尔贝之眼\", \"坎尔贝分行副行长\", \"罗恩商业公会的明日之星\" ], \"appearance\": { \"gender\": \"男性\", \"hair\": \"整洁干练的淡金色短发，打理得一丝不苟，显示出严谨的职业态度。\", \"eyes\": \"冷静而锐利的灰色眼眸，如同鹰隼一般审视着眼前的所有商业利益与人际漏洞，透着超乎年龄的成熟与城府。\", \"outfit\": \"穿着裁剪得体、质地考究的高级职员服饰，细节处展现出如贵族般的优雅气息，即便是在混乱的港口，也能保持洁净挺拔的仪表。\", \"physique\": \"身材瘦削而挺拔，举手投足间有着长期受过良好教育的优雅与自律。他不需要武力威胁，仅凭站姿便能散发出一种上位者的知性压力。\", \"BWH\": \"未知\", \"accessories\": [\"高质感羽毛笔\", \"刻有公会纹章的信封\"] }, \"personality\": { \"traits\": [ \"极度理智\", \"贵族气质\", \"洞察力极强\", \"野心勃勃\", \"注重规则\", \"傲慢与矜持\" ], \"likes\": [",
+      "sourceRefs": [
+        "lyxxl_card.worldbook.json#entry-59"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "附加约束：",
+      "name": "附加约束：",
+      "aliases": [
+        "附加约束：",
+        "标准输出格式定义"
+      ],
+      "summary": "<output_structure_definition> instruction: \"你的每一次回复都必须由<maintext>、<overall>、<UpdateVariable>和<StatusPlaceHolderImpl/>4个独立的、有序的模块构成,以实现'故事叙述'、'实时状态'、'宏观进程'和'数据更新'的清晰分离。\" 1. **<maintext>** - 内容：故事的正文，包含对话、动作、心理描写。 - 要求：符合原著文风，生动具体。 3. - module: <overall> \"终止条件状态|${各条件完成情况} 判定理由|${具体分析} 判定结果|${继续当前章节/推进至下一章节} 當前章節名稱|${XXX} 下一章節名稱|${YYY}\" 4. **<UpdateVariable>** - 内容：变量更新指令。 - 格式： <Analysis>${英文分析变化原因}</Analysis> <JSONPatch> [ { \"op\": \"replace\", \"path\": \"...\", \"value\": ... }, ... ] </JSONPatch> 5. **<StatusPlaceHolderI",
+      "sourceRefs": [
+        "lyxxl_card.worldbook.json#entry-99"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ]
+}

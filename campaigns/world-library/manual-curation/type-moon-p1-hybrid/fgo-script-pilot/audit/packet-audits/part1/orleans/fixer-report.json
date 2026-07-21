@@ -1,8 +1,0 @@
-{
-  "schema": "tm-fgo-packet-fixer-report-v1",
-  "packetId": "pkt-fgo-part1-orleans-extract",
-  "model": "lt-yuyu/gpt-5.5",
-  "status": "fixed",
-  "fixes": ["Overwrote suspect Orleans event files A-H and added missing source occurrences I-P.", "Represented duplicate raw 事件N as raw-事件N-occurrence-01 and raw-事件N-occurrence-02 while preserving rawEventCode.", "Recorded absent 事件M as a source defect and did not create synthetic 事件M.", "Created Orleans normalized character fragments and relationship edge files."],
-  "sourceRefs": ["sources/worldbook-script/part1/ch-001-orleans.txt#world_timeline"]
-}

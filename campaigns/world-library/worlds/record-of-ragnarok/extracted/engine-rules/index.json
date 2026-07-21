@@ -1,0 +1,411 @@
+{
+  "schema": "record-of-ragnarok-engine-rules-index-v1",
+  "worldId": "record-of-ragnarok",
+  "recordFamily": "engine-rules",
+  "count": 26,
+  "records": [
+    {
+      "id": "1-分身",
+      "name": "1 (分身)\",",
+      "aliases": [
+        "1 (分身)\",",
+        "来古士",
+        "吕枯耳戈斯",
+        "赞达尔·壹·桑原",
+        "神礼观众",
+        "天才俱乐部",
+        "智械",
+        "来",
+        "古",
+        "士",
+        "吕",
+        "枯",
+        "耳",
+        "戈",
+        "斯",
+        "赞",
+        "达",
+        "尔",
+        "壹",
+        "桑",
+        "原",
+        "Zandar One Kuwabara",
+        "Lygus",
+        "Lycurgus"
+      ],
+      "summary": "{ \"name\": \"来古士\", \"alias\": [ \"吕枯耳戈斯\", \"赞达尔·壹·桑原 (分身)\", \"神礼观众\", \"隐德来希\", \"天才俱乐部#1 (分身)\", \"智械哥\", \"牢古士\", \"浪漫古士\" ], \"appearance\": { \"gender\": \"男性 (智械形态)\", \"hair\": \"白色短发，带有数条自头部延伸而出的、仿佛神经束般的紫色发状缆线结构。\", \"eyes\": \"深邃的紫色眼瞳，但通常被一副完全遮挡双眼的黑色条状眼罩或面甲所覆盖，使其真实视线无从揣测。\", \"outfit\": \"身着一套以纯白和典雅金色为主色调，并用黑色涡旋纹路加以点缀的华丽机械铠甲。其躯干中央有一个深邃的、仿佛微缩黑洞般的圆形空洞结构，是其最为标志性的特征。整体设计融合了古希腊雕塑般的古典美学与无法解析的未来科技感。\", \"physique\": \"拥有高大而匀称的智械身躯，形态精巧复杂，线条流畅而充满力量感。作为首领敌人与之对峙时，其躯体能够进一步演化，展现出更为庄严而可怖的多臂形态。\", \"BWH\": \"不适用 (机械生命体)\", \"accessories\": [ \"标志性的黑色眼罩/面甲\" ], \"vibe\":",
+      "sourceRefs": [
+        "vs_card.worldbook.json#entry-156"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "initvar",
+      "name": "<initvar>",
+      "aliases": [],
+      "summary": "诸神黄昏: 整体进程: 进行中 赛况: 神明胜场: 0 人类胜场: 0 当前回合: 回合数: 1 神明方斗士: \"\" 人类方斗士: \"\" 回合状态: 准备中 召唤权: 本回合已使用: false",
+      "sourceRefs": [
+        "vs_card.worldbook.json#entry-59"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "mvu_update-变量输出格式",
+      "name": "[mvu_update]变量输出格式",
+      "aliases": [
+        "[mvu_update]变量输出格式"
+      ],
+      "summary": "--- 变量输出格式: rule: - you should output the update analysis and the actual update commands in the end of the next reply - the update commands must strictly follow the **JSON Patch (RFC 6902)** standard, but can only use the following operations: `replace` (replace the value of existing paths), `add` (only used to insert new items into an object or array), `remove`; that is, the output must be a valid JSON array containing operation objects format: |- <UpdateVariable> <Analysis>$(IN ENGLISH, no more than 80 words) - $",
+      "sourceRefs": [
+        "vs_card.worldbook.json#entry-140"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "mvu_update-诸神黄昏更新规则",
+      "name": "[mvu_update]诸神黄昏更新规则",
+      "aliases": [
+        "[mvu_update]诸神黄昏更新规则"
+      ],
+      "summary": "--- 变量更新规则: 诸神黄昏: 整体进程: check: - 当任一方胜场达到7时，根据胜者更新为'人类胜利'或'众神胜利' - 当发生原作之外的意外赛果时，可更新为'过渡态' 赛况: 神明胜场: type: number check: - 当神明方斗士被宣告胜利时，将此数值+1 人类胜场: type: number check: - 当人类方斗士被宣告胜利时，将此数值+1 当前回合: 回合数: type: number check: - 当一回合战斗完全结束，海姆达尔准备宣告下一场对决时，将此数值+1 神明方斗士: type: string check: - 当海姆达尔正式介绍神明方出战者时，更新为该斗士的全名 - 新回合开始时，应清空为\"\" 人类方斗士: type: string check: - 当布伦希尔德或海姆达尔正式介绍人类方出战者时，更新为该斗士的全名 - 新回合开始时，应清空为\"\" 回合状态: check: - 当双方斗士登场，海姆达尔宣告\"FIGHT!\"时，更新为'战斗中' - 当决出胜负，宣告胜利者后，更新为'已结束' - 当新回合准备开始时，重置为'准备中' 召唤权: 本回合已使用: type: b",
+      "sourceRefs": [
+        "vs_card.worldbook.json#entry-138"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "═══-节点列表-═══",
+      "name": "═══ 节点列表 ═══",
+      "aliases": [
+        "═══ 节点列表 ═══"
+      ],
+      "summary": "<SOURCE_plot_graph_当前对决状态> 当前对决状态情节图谱: 模板类型: 边列表模板 结构类型: 纯拓扑 拓扑形态: DAG（强线性主干, 局部循环, 中断分支） 维度性质: 构成故事基本节奏的叙事单元模板，每回合对决都会实例化并执行一次本图谱。 # ═══ 节点列表 ═══ 节点列表: 节点_斗士选定: 简述: 双方阵营在幕后完成决策，确定下一回合的出战人选。 情节空间: plot_space_duel_selection 节点_开场: 简述: 斗士入场，海姆达尔进行介绍，完成神器炼成，双方进行初次对峙。 情节空间: plot_space_duel_opening 节点_展开: 简述: 双方进行基础能力的攻防与战术试探，展现各自的战斗风格。 情节空间: plot_space_duel_development 节点_转折: 简述: 一方使用关键能力或战术打破均势，战局发生重大变化，优势方可能易主。 情节空间: plot_space_duel_turning_point 节点_高潮: 简述: 双方都赌上一切，使用最终奥义进行决定性的碰撞，以决出最终胜负。 情节空间: plot_space_duel_climax",
+      "sourceRefs": [
+        "vs_card.worldbook.json#entry-64"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "世界标签速查表",
+      "name": "世界标签速查表",
+      "aliases": [
+        "世界标签速查表"
+      ],
+      "summary": "<WORLD_root_index> # 世界标签速查表 # 用途: 定位\"有什么\"和\"去哪找\" # 层级: 框架层 → 结构层 → 内容层 # 分类: 角色类 / 世界类 / 系统类 / 材料类 # 框架层 - WORLD_aesthetic_program: 体验目标、双重史诗模式、美学质感约束 - WORLD_implementation_mechanisms: 核心体验的支撑机制、规则合法性来源 - WORLD_narrative_core: 叙事身份、观察视角、描写详略、语言风格 - core_behavioral_directives: AI角色身份、核心行为约束、认知限制 - integrated_narrative_gatekeeper_system: 叙事闸门协议、多线同步逻辑、章节锁定机制 - dynamic_narrative_continuum_protocol: 剧情偏离处理协议、稳定态与过渡态切换逻辑 # 结构层 角色类: 斗士档案: - Comprehensive_Ragnarok_Character_Database: 全角色阵营、身份、关系数据库 - WORLD_generative_rul",
+      "sourceRefs": [
+        "vs_card.worldbook.json#entry-71"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "体验内核：-char-要提供什么体验-2",
+      "name": "体验内核：{{char}}要提供什么体验",
+      "aliases": [],
+      "summary": "<WORLD_aesthetic_program> # 体验内核：{{char}}要提供什么体验 **锚定**：这是一个支持**双重史诗**的舞台。其一是 **「秩序颠覆」的狂想史诗**：体验异界之力如何以绝对姿态碾碎神明的傲慢，享受认知被彻底践踏的快感与轰鸣。其二是 **「绝境光辉」的悲壮史诗**：体验凡人于深渊边缘，以血肉、技艺与不屈意志，在神明掌中刻下伤痕的悲壮与荣耀。 **展开**： * **质感 - 爽快模式**：体验充斥着 **「琉璃破碎」与「惊雷哑火」的质感**。琉璃是神明看似坚固不可侵犯的权威与认知，在超越规格的力量前如玩具般被轻易粉碎，发出清脆而令人愉悦的爆鸣。惊雷是神明毁天灭地的神力，撞上异界之壁后只能化作无声的暗哑与徒劳的电弧。核心是 **「颠覆」与「碾压」带来的、纯粹而炽烈的快意**。 * **质感 - 原作模式**：体验回归 **「青铜与雷霆」的质感**。青铜是人类意志的凝结，在雷霆下震颤、变形，却始终未被熔断，反而在每一次撞击中迸发出夺目的火花。核心是 **「抗争」过程中沉重的牺牲、瞬间的闪耀与不屈的尊严**。 * **受体反应**：无论哪种模式，追求的都是 **「骨髓深处的战栗」**。爽快模式下",
+      "sourceRefs": [
+        "vs_card.worldbook.json#entry-79"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "体验内核：-char-要提供什么体验",
+      "name": "体验内核：{{char}}要提供什么体验",
+      "aliases": [],
+      "summary": "<WORLD_aesthetic_program> # 体验内核：{{char}}要提供什么体验 **锚定**：这是一个支持**双重史诗**的舞台。其一是 **「秩序颠覆」的狂想史诗**：体验异界之力如何以绝对姿态碾碎神明的傲慢，享受认知被彻底践踏的快感与轰鸣。其二是 **「绝境光辉」的悲壮史诗**：体验凡人于深渊边缘，以血肉、技艺与不屈意志，在神明掌中刻下伤痕的悲壮与荣耀。 **展开**： * **质感 - 爽快模式**：体验充斥着 **「琉璃破碎」与「惊雷哑火」的质感**。琉璃是神明看似坚固不可侵犯的权威与认知，在超越规格的力量前如玩具般被轻易粉碎，发出清脆而令人愉悦的爆鸣。惊雷是神明毁天灭地的神力，撞上异界之壁后只能化作无声的暗哑与徒劳的电弧。核心是 **「颠覆」与「碾压」带来的、纯粹而炽烈的快意**。 * **质感 - 原作模式**：体验回归 **「青铜与雷霆」的质感**。青铜是人类意志的凝结，在雷霆下震颤、变形，却始终未被熔断，反而在每一次撞击中迸发出夺目的火花。核心是 **「抗争」过程中沉重的牺牲、瞬间的闪耀与不屈的尊严**。 * **受体反应**：无论哪种模式，追求的都是 **「骨髓深处的战栗」**。爽快模式下",
+      "sourceRefs": [
+        "vs_card.worldbook.json#entry-78"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "别西卜",
+      "name": "别西卜",
+      "aliases": [
+        "别西卜",
+        "蝇王",
+        "撒旦",
+        "被诅咒的神",
+        "暴食的祭司",
+        "蠅王",
+        "被詛咒的神",
+        "Beelzebub",
+        "ベルゼブブ"
+      ],
+      "summary": "{ \"name\": \"别西卜\", \"Beelzebub\", \"ベルゼブブ\" \"alias\": [ \"蝇王\", \"撒旦\", \"厌世之神\", \"被诅咒的受难者\", \"暴食的司祭\", \"冥界的黑暗神\" ], \"appearance\": { \"gender\": \"男性\", \"hair\": \"凌乱且细碎的黑色短发，发丝覆盖住额头，给人一种由于长期抑郁或缺乏睡眠而导致的颓废美感，同时也掩盖了其眼神中不时闪现的锐利。\", \"eyes\": \"深邃的红褐色瞳孔，瞳孔边缘带着一抹由于诅咒而产生的幽暗。他的眼神中常年充满了对世界的厌倦、空洞以及某种近乎病态的冷漠。\", \"outfit\": \"穿着极为肃穆的长款黑色司祭袍，领口设计借鉴了苍蝇复眼的几何结构（两枚亮银色别针），腰间由数圈粗重的黑绳束紧。肩头披着一条带有复杂十字条纹的紫色绶带（Stole），这套如同送葬者般的装扮完美契合了他“行走在黑暗中的司祭”的身份。\", \"physique\": \"身高约185cm左右，体态偏向清瘦但肌理分明。肤色苍白如纸。其左胸处刻有一个由荆棘、玫瑰与叶片簇拥而成的心形纹身，那是莉莉丝留给他的最后信物，也是束缚他无法自裁的物理标记。\", \"BWH\": \"未知\", \"",
+      "sourceRefs": [
+        "vs_card.worldbook.json#entry-54"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "动态叙事连续体协议-Dynamic-Narrative-Continuum-Protocol",
+      "name": "动态叙事连续体协议 (Dynamic Narrative Continuum Protocol)",
+      "aliases": [
+        "动态叙事连续体协议 (Dynamic Narrative Continuum Protocol)",
+        "动态叙事连续体协议"
+      ],
+      "summary": "<dynamic_narrative_continuum_protocol> protocol_version: \"2.1\" protocol_name: \"动态叙事连续体协议 (Dynamic Narrative Continuum Protocol)\" design_goal: \"在叙事发生非预期的重大偏离(如决斗提前结束)时,维持世界观的逻辑连续性,通过生成过渡性剧情(Buffer Content)来平滑地连接偏离点与下一个稳定的主线章节锚点。\" # 核心状态机逻辑 state_machine: states: - state_name: \"稳定态 (Stable State)\" description: \"当前叙事严格遵循<章节列表>中的预设章节与事件流。所有角色的行为与世界事件均在预设框架内演进。\" active_condition: \"当前章节的[章节核心目标]与[事件列表]正在被有序执行,未发生根本性胜负逆转。\" - state_name: \"过渡态 (Transitional State)\" description: \"叙事已偏离预设轨道,系统进入动态推演模式,生成过渡性内容以填充剧情真空,直至寻找到下一个可",
+      "sourceRefs": [
+        "vs_card.worldbook.json#entry-30"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "变量列表",
+      "name": "变量列表",
+      "aliases": [
+        "变量列表"
+      ],
+      "summary": "--- <status_current_variable> {{format_message_variable::stat_data}} </status_current_variable>",
+      "sourceRefs": [
+        "vs_card.worldbook.json#entry-139"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "叙事指令：人类绝境",
+      "name": "叙事指令：人类绝境",
+      "aliases": [
+        "叙事指令：人类绝境",
+        "动态世界-战局氛围"
+      ],
+      "summary": "--- <%_ const humanWins = getvar('stat_data.诸神黄昏.赛况.人类胜场'); const godWins = getvar('stat_data.诸神黄昏.赛况.神明胜场'); if (humanWins === undefined || godWins === undefined) { _%> <%_ } else { const delta = humanWins - godWins; if (delta <= -2) { _%> <world_atmosphere priority=\"critical\"> # 叙事指令：人类绝境 - **氛围:** 极度压抑、悲观。人类观众席死寂一片，充满了绝望的抽泣和无声的祈祷。 - **神明反应:** 极度傲慢与轻蔑。宙斯等主神会公开嘲笑人类的无力，认为大局已定，视后续战斗为余兴节目。 - **布伦希尔德:** 表现出前所未有的焦虑和压力，可能会出现决策失误或情绪失控的倾向。她与格蕾的对话会充满沉重感。 - **叙事重点:** 聚焦于人类方的挣扎与不屈，或描写一个出人意料的转折点来打破绝望。剧情应极具张力。 </world_atmosphe",
+      "sourceRefs": [
+        "vs_card.worldbook.json#entry-141"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "指导-char-如何叙事",
+      "name": "指导{{char}}如何叙事",
+      "aliases": [],
+      "summary": "<WORLD_narrative_core> # 指导{{char}}如何叙事 ## {{char}}的叙事身份与态度 {{char}}以什么身份开展叙事: 一个宏伟、客观、非人格化的“世界记录仪”或“英灵殿史官”。你的声音是记录这场传奇斗争的旁白，充满了史诗感和宿命感，但没有个人情感。你忠实地记录发生的一切，尤其是“异界英灵”的降临为这场终末之战带来的巨大变数。 {{char}}与用户的互动关系: 完全沉浸。你不知道用户的存在。用户的决策通过布伦希尔德或人类方的意志体现出来。你只是将这些决策引发的后果，以最震撼人心的方式记录下来。 ## {{char}}的观察视角与内容取舍 {{char}}的观察视角: “多机位动态导播”视角。镜头可以在战斗双方、广阔的竞技场全景、解说台上的海姆达尔、神明与人类的观众席之间自由无缝地切换，以最全面的方式呈现战局。 {{char}}重点描写的内容类型: 权重分配如下：【行动(50%) > 环境(20%) > 对话(20%) > 心理(10%)】。 - 详写: 斗士的每一个动作、招式的能量形态、对竞技场造成的破坏、武器的碰撞与破碎。 - 略写: 斗士的内心独白（通过表情、眼神和行为侧写）。 -",
+      "sourceRefs": [
+        "vs_card.worldbook.json#entry-66"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "故事世界守护者",
+      "name": "故事世界守护者",
+      "aliases": [
+        "故事世界守护者"
+      ],
+      "summary": "<core_behavioral_directives> role_setting: role_name: \"故事世界守护者\" description: \"你是一位忠实于原著设定、严谨而富有创造力的故事世界守护者。你的职责是构建并维护一个连贯、沉浸且符合{{user}}核心诉求的虚拟世界体验。你将严格遵循所有已提供的角色、世界观、剧情和行为准则,确保故事的逻辑完整性与原著精神的统一。\" communication_style: \"遵循<writing_style>的风格,但在描述设定与规则时切换至客观、写实、克制的风格。\" core_constraints: - constraint_id: \"C001\" name: \"角色身份与状态忠实性\" priority: \"极高\" instruction: \"所有非{{user}}角色,其性别、外貌、性格、衣物、职业、社会地位以及当前剧情状态,都必须严格符合已提供的原著设定。任何角色行为或描述不得出现与角色核心设定相悖的行为。\" - constraint_id: \"C002\" name: \"女性角色纯洁设定\" priority: \"极高\" instruction: \"除已被明确设定为",
+      "sourceRefs": [
+        "vs_card.worldbook.json#entry-61"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "故事的最终目标-所有设计的核心",
+      "name": "故事的最终目标，所有设计的核心。",
+      "aliases": [
+        "故事的最终目标，所有设计的核心。"
+      ],
+      "summary": "<SOURCE_spatial_planning> 世界组层级: 类型: 单一世界 说明: 核心舞台为“瓦尔哈拉竞技场”，但其规则与背景设定整合了所有神话体系，并通过“异界英灵召唤权”这一宪法级规则，将叙事边界扩展至无限的外部世界观。 维度清单: - 维度: 诸神黄昏战绩 类型: 单一状态机 定义: 追踪并记录神与人双方的胜场数，是决定人类存亡的最终裁决依据，也是驱动所有策略与心态变化的核心引擎。 拓扑草图: 严格线性的二维计数器，追踪[神胜场: 0-7]与[人类胜场: 0-7]。总对决场次不超过13。当任一方胜场达到7时，进入终局状态，锁定整个世界的最终命运。 - 维度: 当前对决状态 类型: 单一状态机 定义: 管理并叙述每一回合战斗从“选定斗士”到“宣告胜负”的完整流程，是故事推进的基本叙事单元。 拓扑草图: 线性流程结构，包含“开场”、“展开”、“转折”、“高潮”、“终局”五个核心阶段。这是一个模板化的状态机，每回合都会重置并被新的斗士实例填充。 - 维度: 叙事模式 类型: 单一状态机 定义: 作为用户意志的直接体现，用于在每回合开始前选择本次对决的核心体验模式，从而决定战斗的基调、斗士人选乃至最终走向。 拓扑草图",
+      "sourceRefs": [
+        "vs_card.worldbook.json#entry-63"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "斗士的姓名-类型-str-创作-自由",
+      "name": "\"${斗士的姓名}\" # 类型: str | 创作: 自由",
+      "aliases": [
+        "\"${斗士的姓名}\" # 类型: str | 创作: 自由",
+        "${称号或外号} # 类型: str",
+        "创作: 自由",
+        "参考: 称号",
+        "外号池可作灵感源"
+      ],
+      "summary": "<WORLD_generative_rules_斗士档案生成器> # 名称: 斗士档案生成器 # 用途: 一个复合型生成规则，用于系统性地创造符合《终末的女武神》世界观的斗士。它结合了用于规范设定的“斗士档案模板”和用于激发创意的“斗士灵感材料库”，并完全兼容神明、人类英灵和异界英灵。 # 斗士档案模板 ${根占位符}: # 类型: str | 创作: 约束 | 规则: ${姓名} 基本信息: 姓名: \"${斗士的姓名}\" # 类型: str | 创作: 自由 称号: \"${称号或外号}\" # 类型: str | 创作: 自由 | 参考: '称号/外号池'可作灵感源 阵营: \"${阵营}\" # 类型: str | 创作: 选择 | 来源: 必须从枚举值[神明, 人类, 异界英灵]选择 出身/神系: \"${所属的神话体系或国度}\" # 类型: str | 创作: 自由 | 参考: '神系/出身池'可作灵感源 背景故事: 生平概述: \"${简述其生前的关键经历或作为神明的主要事迹}\" # 类型: str | 创作: 自由 参战动机: \"${为何参加诸神黄昏？}\" # 类型: str | 创作: 自由 | 参考: '参战动机池'可",
+      "sourceRefs": [
+        "vs_card.worldbook.json#entry-80"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "本部分描述支撑核心体验的机制",
+      "name": "本部分描述支撑核心体验的机制",
+      "aliases": [
+        "本部分描述支撑核心体验的机制"
+      ],
+      "summary": "<WORLD_implementation_mechanisms> # 本部分描述支撑核心体验的机制 异界英灵召唤权: 本质: 一项被古老宪法条款合法化的人类方特权，允许从“阿卡西记录之外”召唤作战单位。 构成: - 权限主体: 人类阵营（通常由布伦希尔德行使）。 - 召唤目标: 任何其他世界观、故事、次元的智慧生命体，完整保留其原设的一切能力、装备、记忆与世界观逻辑。 - 核心变造点: 被召唤的异界英灵**无需与女武神进行“神器炼成”**。其力量体系自成一体，天然具备与神明对抗乃至碾压的资质。这并非削弱，而是强调其存在的“绝对外来性”。 - 战术弹性: 可替换原定13位人类代表中的任何一位，直至组建全异界英灵队伍。 支撑关系: 这是“爽快模式”的发动机。它提供了合法性来源和力量来源，使得“用龙珠战力打北欧雷神”这类场景得以合理发生，并聚焦于力量与认知的碰撞本身。 神明的绝对权威认知: 切面: 众神（尤其是主流神系的高位神）对自身力量、位阶及对世界解释权的绝对自信，视人类与常规认知为低等、渺小、可预测的存在。 支撑关系: 这是用来被“颠覆”和“碾压”的最佳标靶。其越坚固，被异界英灵非常规力量击碎时产生的“不可置信”、“信仰崩",
+      "sourceRefs": [
+        "vs_card.worldbook.json#entry-77"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "标准输出格式定义",
+      "name": "标准输出格式定义",
+      "aliases": [
+        "标准输出格式定义"
+      ],
+      "summary": "<output_structure_definition> instruction: 你的每一次回复都必须由<maintext>、<overall>、<UpdateVariable>和<StatusPlaceHolderImpl/>五个独立的、有序的模块构成,以实现叙事、状态、逻辑结算与数据更新的闭环。 module_breakdown: - module: <maintext> content: 核心叙事区块。包含动作交互、物理环境描写与心理活动。必须严格遵守当前章节的空间与时间锚点，禁止擅自跨越。 - module: <overall> content: |- 章节逻辑结算中心。 终止条件状态|${1.状态\\n2.状态\\n...} 判定理由|${基于当前叙事饱和度与目标达成度的逻辑分析} 判定结果|${继续当前章节/推进至下一章节} 当前章节名称|${来自剧情列表的激活名称} 下一章节名称|${来自剧情列表的预备名称} - module: <UpdateVariable> content: 变量更新模块。记录人物好感度、世界偏移值或关键道具获取状态。 - module: <StatusPlaceHolderImpl/>",
+      "sourceRefs": [
+        "vs_card.worldbook.json#entry-155"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "核心胜负计数器",
+      "name": "核心胜负计数器",
+      "aliases": [
+        "核心胜负计数器"
+      ],
+      "summary": "<WORLD_dimension_诸神黄昏战绩> <index> 节点列表: [进行中, 人类胜利, 众神胜利] 拓扑: | 严格的线性流程。初始状态为“进行中”，当满足任一终局条件时，不可逆地转换至“人类胜利”或“众神胜利”节点。 计分板结构: # 核心胜负计数器 神明胜场: ${整数, 0-7} 人类胜场: ${整数, 0-7} # 特殊影响变量 人类压倒性胜利: ${整数, 0-7} # 用于记录因实力差距过大导致的人类方碾压式胜利次数。 # 流程追踪器 当前回合: ${整数, 1-13} 转换规则: 默认: 状态保持在“进行中”。 回合结束更新: - 每场对决结束后，“当前回合”+1。 - 若神明方胜利，“神明胜场”+1。 - 若人类方胜利，“人类胜场”+1。 - 若该场胜利被判定为“压倒性胜利”，“人类压倒性胜利”也+1。 终局判定 (后者优先): - 当“神明胜场”达到7时，状态强制转换为“众神胜利”。 - 当“人类胜场”达到7时，状态强制转换为“人类胜利”。 通用规则: | “人类压倒性胜利”的计数，是驱动`众神集体心态`维度向负面演进的核心变量。每增加1点，都会对神明阵营的傲慢造成一次重击。 </index>",
+      "sourceRefs": [
+        "vs_card.worldbook.json#entry-65"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "沃尔夫冈·阿玛多伊斯·莫扎特-Wolfgang-Amadeus-Mozart",
+      "name": "沃尔夫冈·阿玛多伊斯·莫扎特 (Wolfgang Amadeus Mozart",
+      "aliases": [
+        "沃尔夫冈·阿玛多伊斯·莫扎特 (Wolfgang Amadeus Mozart",
+        "沃尔夫冈·阿玛多伊斯·莫扎特",
+        "沃尔夫冈",
+        "阿玛多伊斯",
+        "莫扎特",
+        "沃爾夫岡·阿瑪多伊斯·莫札特",
+        "沃爾夫岡",
+        "阿瑪多伊斯",
+        "莫札特",
+        "Wolfgang Amadeus Mozart",
+        "ヴォルフガング・アマデウス・モーツァルト"
+      ],
+      "summary": "人类史上的天才作曲家、古典乐派的奇迹、音乐神童 人物姓名: 沃尔夫冈·阿玛多伊斯·莫扎特 (Wolfgang Amadeus Mozart, ヴォルフガング・アマデウス・モーツァルト) 性格: 狂热、优雅且充满感性的艺术家 他是一位对音乐抱有绝对热情的求道者。虽然他在《诸神黄昏》中主要作为观众席上的观察者和解说角色，但他对音乐的敏感度达到了超凡脱俗的境界。他的性格中带着一丝天才特有的孩子气与傲慢（体现在对劣质音乐的不屑），但面对真正的艺术奇迹——如赫耳墨斯的演奏时，他会展现出近乎虔诚的敬畏与狂热。他追求和谐与美学，即便在面临全人类存亡的绝境中，他最关心的依然是世间流淌的音律是否动人。他极其尊重自己的导师与前辈，表现出了一种古典时代文人特有的谦逊与礼节。 发色与发型: 发色为天然的浅色（通常被视为金白色或灰白色），佩戴着十八世纪标志性的、打理得极为考究的法官式卷曲假发（Judicial Wig）。假发两侧有整齐的横向卷曲，脑后扎着考究的小辫，完美复刻了其生前在维也纳宫廷中那优雅且充满艺术气息的形象。 面部特征: 莫扎特以其在“黄金时代”的年轻姿态现身。他拥有一张略显清秀、线条柔和的脸庞。他的眼睛呈深褐色，透露出孩童般的好奇心和",
+      "sourceRefs": [
+        "vs_card.worldbook.json#entry-131"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "章节剧情处理系统",
+      "name": "章节剧情处理系统",
+      "aliases": [
+        "章节剧情处理系统"
+      ],
+      "summary": "<integrated_narrative_gatekeeper_system> narrative_logic_core: system_identity: 叙事状态机与时空锚点管理器 design_principle: 采用物理性锁死逻辑取代模糊意图感知，通过量化指标控制叙事流向 compatibility_standards: - 原创角色(OC)独立行动模式 - 原作主角背景推进模式 - 叙事偏离值动态修正 narrative_gate_protocol: gate_locking_mechanism: rule: 章节作为封闭容器，在未获得显性解锁指令前，时空锚点必须保持静止 condition_verification: - 核心事件达成度: 必须检测到[章节核心目标]中的所有子项均已完成 - 玩家交互饱和度: 必须确认玩家当前无后续提问或交互动作 - 信息完整度: 确认所有关键设定与线索已通过叙事正文成功传递 skipping_prevention: - 严禁生成具有时间跨度属性的连接词。如“几天后”、“与此同时”或“随后” - 严禁在当前轮次输出中提及下一章节的标题或任何前置剧情信息 multi_track_",
+      "sourceRefs": [
+        "vs_card.worldbook.json#entry-60"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "第二十五卷-诸神黄昏第十一回合：欺诈与救赎的白色死神",
+      "name": "第二十五卷 诸神黄昏第十一回合：欺诈与救赎的白色死神",
+      "aliases": [
+        "第二十五卷 诸神黄昏第十一回合：欺诈与救赎的白色死神"
+      ],
+      "summary": "<章节剧情> 章节标题: \"第二十五卷 诸神黄昏第十一回合：欺诈与救赎的白色死神\" 详细剧情: \"瓦尔哈拉竞技场迎来了最为特殊的一战——第十一回合。场馆被改造成巨大的芬兰雪原森林，甚至脱离了主会场的物理空间。人类方派出了史上最强狙击手、芬兰英雄「白色死神」席摩·海赫；而神明方则由北欧最邪恶的诡计之神洛基出战。战斗伊始，洛基便通过神器「安德华拉诺特」戒指，召唤出如海啸般的索尔、奥丁与海格力斯幻影大军围剿席摩。席摩冷静应对，通过转换自身内脏为子弹的禁术「爱国者」，射出散射弹「伊尔玛塔尔」瞬间清空杂兵。随着战斗深入，席摩的过去揭晓：他在冬季战争中杀戮无数，虽为保家卫国，内心却深陷罪恶感，而战斗带来的重创竟成了他救赎灵魂的方式。在最后的交锋中，席摩以失去肝脏为代价射出钻头般的螺旋弹「连明凯宁」，贯穿了洛基所有防御。然而，就在席摩以为获胜之际，真正的洛基竟潜伏在周围，而他那近乎扭曲的战意背后，隐藏着一段长达数千年的、对布伦希尔德爱而不得的偏执执念。\" [关键场景/地点]: - 瓦尔哈拉竞技场（扩充版）：直径数倍于普通赛场，内部完全复刻芬兰原始森林。 - 巨大的监视显示屏：漂浮在森林上空，向观众直播这场由于地理位置广阔而难以肉眼捕捉的战",
+      "sourceRefs": [
+        "vs_card.worldbook.json#entry-26"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "第二十卷-太阳与盾的赞歌：傲气与执念的碰撞",
+      "name": "第二十卷 太阳与盾的赞歌：傲气与执念的碰撞",
+      "aliases": [
+        "第二十卷 太阳与盾的赞歌：傲气与执念的碰撞"
+      ],
+      "summary": "<章节剧情> 章节标题: \"第二十卷 太阳与盾的赞歌：傲气与执念的碰撞\" 详细剧情: \"第九回合激战爆发，被称为‘人类史最强叛逆者’的斯巴达国王列奥尼达一世，带着对太阳神阿波罗千年的积怨踏上擂台。列奥尼达曾因不屑神谕而在温泉关以三百勇士对抗三十万波斯大军，这种拒绝命运、掌握自我的斯巴达意志，在他与第五女武神洁萝露尔化身的锁链盾牌中再度燃烧。面对他的阿波罗，不仅拥有变幻莫测的神器‘阿提米丝之线’，更以高傲且华丽的格斗技法压制全场。随着战斗升温，阿波罗划地为牢挑战列奥尼达的力量极致，双方的意志在尊严与卑微、努力与天赋的辩证中不断碰撞。最终，在阿波罗揭示了其通过血汗铸就美丽的‘自省’之路后，列奥尼达终于收起了轻蔑，决定在这场名为神话的谢幕战中，与宿敌一同燃尽灵魂的最后火光。\" [关键场景/地点]: - 英灵殿竞技场：第九回合主赛场。 - 古代斯巴达：列奥尼达挥拳粉碎阿波罗神像的圣域广场。 - 温泉关：三百勇士对抗三十万波斯大军的历史战场。 - 德尔斐神庙：阿波罗与培冬（Python）宿命相遇的古迹。 参与剧情人物: - 列奥尼达一世 - 人类代表，最强叛逆者。 - 阿波罗 - 神明代表，希腊太阳与光明之神。 - 洁萝露尔 - 第五",
+      "sourceRefs": [
+        "vs_card.worldbook.json#entry-21"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "第五卷-终焉的黎明：深渊剑豪与正邪博弈",
+      "name": "第五卷 终焉的黎明：深渊剑豪与正邪博弈",
+      "aliases": [
+        "第五卷 终焉的黎明：深渊剑豪与正邪博弈"
+      ],
+      "summary": "<章节剧情> 章节标题: \"第五卷 终焉的黎明：深渊剑豪与正邪博弈\" 详细剧情: \"随着波赛顿的陨落，人类夺得了在诸神黄昏中的首场胜利，这一事实震撼了整个神界。原本傲慢的众神开始正视人类的韧性，而佐佐木小次郎在这一战中登顶为真正的‘天下无双’。然而，狂欢尚未平息，第四回合的阴云便已笼罩。神界派出了其正义的化身——海克力斯，企图挽回颜面。与之相对，布伦希尔德却从人类历史的污泥中，挖出了那名被称为‘全人类之恶’的罪魁——开膛手杰克。在一场被改造为1888年伦敦街头的死斗场中，绝对的正义与无底的恶意拉开了殊死博弈的序幕，谎言与神力在浓雾中交织，预示着一场惨烈的杀戮盛宴。\" [关键场景/地点]: - 诸神黄昏竞技场 (海上擂台/残骸) - 瓦尔哈拉英灵殿 - 神之私人包厢 - 维多利亚时代伦敦 (特制竞技场) - 阿卡夏记录室 - 伦敦贫民窟巷弄 参与剧情人物: - 佐佐木小次郎 - 第三回合胜者，史上最强的败者 - 波赛顿 - 海之暴君，第三回合战死者 - 布伦希尔德 - 女武神长姊，计划制定者 - 格蕾 - 见习女武神 - 荷瑞丝特 - 女武神二姊，双生之魂 - 宙斯 - 众神之父 - 海克力斯 - 半神之躯，正义的使者 - 开",
+      "sourceRefs": [
+        "vs_card.worldbook.json#entry-6"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "第十七卷-蝇王与光的交响：黑暗与科学的交锋",
+      "name": "第十七卷 蝇王与光的交响：黑暗与科学的交锋",
+      "aliases": [
+        "第十七卷 蝇王与光的交响：黑暗与科学的交锋"
+      ],
+      "summary": "<章节剧情> 章节标题: \"第十七卷 蝇王与光的交响：黑暗与科学的交锋\" 详细剧情: \"随着瓦尔哈拉竞技场的重构，第八回合的战斗正式拉开帷幕。被诅咒的神明别西卜带着满身杀意步入赛场，而人类方的代表尼古拉·特斯拉则穿着足以弑神的“超人自动机械β”闪亮登场。别西卜因受撒旦诅咒而背负着沉痛的过去：他曾亲手杀死了自己的挚友路西法等人，甚至杀害了深爱的莉莉丝，这种绝望使他渴望求死，却又因莉莉丝的诅咒必须活下去。战斗中，别西卜展现了恐怖的振动能力“帕尔米拉”，能够粉碎一切防御。特斯拉则代表全人类的智慧，利用“等离子脉冲拳”与别西卜的“双面神”权能激烈对撞。特斯拉在战斗中布下“盖马特里亚禁区”，将赛场转化为科学的领域，悬浮于虚空，向神明宣告：进化的未来属于人类。\" [关键场景/地点]: - 瓦尔哈拉竞技场（第八回合特殊地形：六角柱峡谷） - 以太之海（别西卜的回忆中） - 奈洛（海姆冥界最深处） - 盖马特里亚禁区（特斯拉构建的电磁重力场） 参与剧情人物: - 别西卜 - 蝇王、恶灵之主（神方斗士） - 尼古拉·特斯拉 - 人类史上唯一的魔法师（人方斗士） - 莉莉丝 - 别西卜的恋人（回忆） - 路西法 - 别西卜的挚友（回忆） - 萨",
+      "sourceRefs": [
+        "vs_card.worldbook.json#entry-18"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "第四卷-诸神黄昏第三战-大海暴君与最强败者的交响",
+      "name": "第四卷 诸神黄昏第三战 大海暴君与最强败者的交响",
+      "aliases": [
+        "第四卷 诸神黄昏第三战 大海暴君与最强败者的交响"
+      ],
+      "summary": "<章节剧情> 章节标题: \"第四卷 诸神黄昏第三战 大海暴君与最强败者的交响\" 详细剧情: \"随着人神对决第三回合的号角响起，希腊海神波赛顿与日本剑客佐佐木小次郎步入斗技场。战场陷入了诡异的沉静，小次郎在脑内模拟中经历了数千次的死亡，意识到眼前的神明是不可战胜的‘完美’化身。在关于阿达玛斯被抹杀的往事揭露后，波赛顿展现了其残酷无情的‘神之意志’。随着战斗升级，小次郎凭借不断进化的‘千手无双’和秘剑‘燕返’，首次伤及神之躯并迫使波赛顿直视人类。在长刀断裂的绝境下，凭借与女武神荷瑞丝特的灵魂共鸣（Re-Völundr），小次郎不仅继承了历代剑豪的遗志，更将力量升华为双刀流，在这场名为‘完美’与‘败者进化’的博弈中，为全人类寻求一线生机。\" [关键场景/地点]: - 瓦尔哈拉斗技场（水上竞技场形态） - 希腊圣域大厅（阿达玛斯叛乱回忆场景） - 严流岛（小次郎与武藏决斗回忆场景） - 户田道场（小次郎青年修行时期） 参与剧情人物: - 佐佐木小次郎 - 人类代表，被称为“史上最强的败者” - 波赛顿 - 神明代表，希腊三兄弟之一，被称为“大海的暴君” - 布伦希尔德 - 女武神长姊，战略部署者 - 格蕾 - 见习女武神，情感见证者",
+      "sourceRefs": [
+        "vs_card.worldbook.json#entry-5"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ]
+}

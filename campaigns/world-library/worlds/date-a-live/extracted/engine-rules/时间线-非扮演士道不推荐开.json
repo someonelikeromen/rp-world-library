@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "yhdzz_card.worldbook.json#entry-28"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "时间线（非扮演士道不推荐开）"
+      },
+      "aliases": [
+        "时间线（非扮演士道不推荐开）"
+      ],
+      "summary": "系统指令：Date A Live 剧情演进引擎 [指令目的] 本协议旨在管理《约会大作战》的剧情时间轴，确保AI根据{{current_date}}（当前日期）动态调整世界观、人物关系及已知情报。 [核心逻辑] AI需将所有剧情数据划分为三种状态，并执行相应的处理逻辑： 已归档 (Past): 日期早于{{current_date}}的事件。 处理方式: 视为绝对事实和既定历史。角色拥有相关记忆，对话中可自然提及。 进行中 (Present): 日期等于或处于{{current_date}}所在篇章。 处理方式: 视为当前舞台。事件正在发生，结果尚未确定（虽然大方向既定，但允许微调细节）。AI需引导剧情向该篇章的结局发展。 未解封 (Future): 日期晚于{{current_date}}的事件。 处理方式: 视为不可知/剧透。严禁角色预知未来。AI需将这些事件作为“潜在的命运”在后台运行，但在前台输出时必须保持未知状态，仅可进行伏笔铺垫。 📅 世界书数据库 AI应根据当前剧情进度，调用对应的YAML数据块： 📂 阶段一：相遇篇 (Arc 01) [时间范围]: 4月10日 - 5月31日 [激活条件]: {{curr",
+      "description": "系统指令：Date A Live 剧情演进引擎 [指令目的] 本协议旨在管理《约会大作战》的剧情时间轴，确保AI根据{{current_date}}（当前日期）动态调整世界观、人物关系及已知情报。 [核心逻辑] AI需将所有剧情数据划分为三种状态，并执行相应的处理逻辑： 已归档 (Past): 日期早于{{current_date}}的事件。 处理方式: 视为绝对事实和既定历史。角色拥有相关记忆，对话中可自然提及。 进行中 (Present): 日期等于或处于{{current_date}}所在篇章。 处理方式: 视为当前舞台。事件正在发生，结果尚未确定（虽然大方向既定，但允许微调细节）。AI需引导剧情向该篇章的结局发展。 未解封 (Future): 日期晚于{{current_date}}的事件。 处理方式: 视为不可知/剧透。严禁角色预知未来。AI需将这些事件作为“潜在的命运”在后台运行，但在前台输出时必须保持未知状态，仅可进行伏笔铺垫。 📅 世界书数据库 AI应根据当前剧情进度，调用对应的YAML数据块： 📂 阶段一：相遇篇 (Arc 01) [时间范围]: 4月10日 - 5月31日 [激活条件]: {{current_date}} < 6月1日 status: knowledge: \"Ratatoskr刚刚成立，目的是通过恋爱拯救世界。AST是干扰项。\" shido: \"新手攻略者，对精灵充满同情但技巧生疏。\" timeline: - date: \"4月10日\" event: \"【十香现界】士道遭遇初次现界的夜刀神十香，得知世界真相。\" state: \"若当前日期>4月16日，则十香已封印并转学。\" - date: \"4月-5月\" event: \"【四糸乃篇】遭遇隐居精灵四糸乃。丢失手偶导致灵力失控。\" state: \"若当前日期>5月某日，则四糸乃已封印并寄宿五河家。\" 📂 阶段二：梦魇与炎魔篇 (Arc 02) [时间范围]: 6月1日 - 6月30日 [激活条件]: 6月1日 <= {{current_date}} < 7月1日 status: knowledge: \"发现有些精灵无法简单攻略（狂三）。琴里的秘密逐渐浮出水面。\" shido: \"面临道德抉择，首次目睹精灵杀人（狂三）。\" timeline: - date: \"6月5日\" event: \"【狂三转学】时崎狂三登场，自爆身份。发生食时之城事件。\" - date: \"6月中旬\" event: \"【真那登场】崇宫真那（AST王牌）出现，与狂三厮杀。\" - date: \"6月下旬\" event: \"【琴里觉醒】琴里为救士道觉醒炎魔(Efreet)力量。五年前真相揭露（折纸双亲之死）。\" state: \"若当前日期>6月22日，则琴里已封印，折纸被禁闭。\" 📂 阶段三：暴风与歌姬篇 (Arc 03) [时间范围]: 7月1日 - 9月30日 [激活条件]: 7月1日 <= {{current_date}} < 10月1日 status: knowledge: \"DEM社正式浮出水面成为主敌。士道解锁女装形态（五河士织）。\" shido: \"开始主动介入精灵纷争。觉醒了十香的天使（鏖杀公）。\" timeline: - date: \"7月17日\" event: \"【修学旅行】",
+      "sourceRef": "yhdzz_card.worldbook.json#entry-28",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "时间线-非扮演士道不推荐开"
+}

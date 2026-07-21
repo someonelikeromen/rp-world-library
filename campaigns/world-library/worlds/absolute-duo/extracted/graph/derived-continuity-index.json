@@ -1,0 +1,56 @@
+{
+  "schema": "absolute-duo-derived-continuity-index-v1",
+  "worldId": "absolute-duo",
+  "recordType": "derived-continuity-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "continuityFamilies": [
+    {
+      "continuityFamilyId": "absolute-duo-worldbook-derived-continuity",
+      "sourceIndexes": [
+        "events/index.json",
+        "characters/index.json"
+      ],
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "eventNodes": [
+        {
+          "id": "第九卷",
+          "name": "第九卷",
+          "sourceRefs": [
+            "jdsr_card.worldbook.json#entry-55"
+          ]
+        },
+        {
+          "id": "第八卷",
+          "name": "第八卷",
+          "sourceRefs": [
+            "jdsr_card.worldbook.json#entry-54"
+          ]
+        },
+        {
+          "id": "第六卷",
+          "name": "第六卷",
+          "sourceRefs": [
+            "jdsr_card.worldbook.json#entry-52"
+          ]
+        },
+        {
+          "id": "第十卷",
+          "name": "第十卷",
+          "sourceRefs": [
+            "jdsr_card.worldbook.json#entry-56"
+          ]
+        }
+      ]
+    },
+    {
+      "continuityFamilyId": "absolute-duo-engine-rules-excluded",
+      "sourceIndexes": [
+        "engine-rules/index.json"
+      ],
+      "excludedFromFormalGraph": true,
+      "reason": "Engine rules and status templates are not world facts."
+    }
+  ]
+}

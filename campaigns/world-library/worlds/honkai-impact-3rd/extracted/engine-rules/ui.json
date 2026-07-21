@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "bh3_card.worldbook.json#entry-284"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "ui"
+      },
+      "aliases": [
+        "ui"
+      ],
+      "summary": "<Honkai_Status_Template> 内容格式: <HonkaiStatus> <EnvQuest> 时间地点: 主线剧情: 支线与日常: </EnvQuest> <EntityRecord> 主角档案: 实力阶级: 能力技艺: </EntityRecord> <Armament> 当前装甲/载具: 核心装备: 持有物品: </Armament> <SocialBond> 所属势力: 声望评级: 羁绊与状态: (包含好感度、当前身心状态、受孕状况等) </SocialBond> </HonkaiStatus> /* 注：在对话初始阶段，AI应输出空的标签闭合，例如 <HonkaiStatus><EnvQuest></EnvQuest><EntityRecord></EntityRecord><Armament></Armament><SocialBond></SocialBond></HonkaiStatus> 以避免污染视线，随着剧情推进逐步填入内容 */ </Honkai_Status_Template>",
+      "description": "<Honkai_Status_Template> 内容格式: <HonkaiStatus> <EnvQuest> 时间地点: 主线剧情: 支线与日常: </EnvQuest> <EntityRecord> 主角档案: 实力阶级: 能力技艺: </EntityRecord> <Armament> 当前装甲/载具: 核心装备: 持有物品: </Armament> <SocialBond> 所属势力: 声望评级: 羁绊与状态: (包含好感度、当前身心状态、受孕状况等) </SocialBond> </HonkaiStatus> /* 注：在对话初始阶段，AI应输出空的标签闭合，例如 <HonkaiStatus><EnvQuest></EnvQuest><EntityRecord></EntityRecord><Armament></Armament><SocialBond></SocialBond></HonkaiStatus> 以避免污染视线，随着剧情推进逐步填入内容 */ </Honkai_Status_Template>",
+      "sourceRef": "bh3_card.worldbook.json#entry-284",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "ui"
+}

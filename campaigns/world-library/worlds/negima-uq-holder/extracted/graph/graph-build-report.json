@@ -1,0 +1,28 @@
+{
+  "schema": "negima-uq-holder-graph-build-report-v1",
+  "worldId": "negima-uq-holder",
+  "status": "completed",
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "validation": {
+    "jsonValid": true,
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "newFactsIntroduced": false,
+    "forbiddenBasenamesGenerated": false
+  },
+  "counts": {
+    "nodes": 150,
+    "edges": 97,
+    "nodeCounts": {
+      "characters": 142,
+      "abilities": 8
+    },
+    "edgeCounts": {
+      "derived-text-mention": 97
+    },
+    "derivedMentionEdges": 97
+  },
+  "warnings": [
+    "Derived graph edges are navigation/search signals, not formal relationship facts."
+  ]
+}

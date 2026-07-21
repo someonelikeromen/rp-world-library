@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "tsyldlw_card.worldbook.json#entry-88"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[mvu_update]变量输出格式"
+      },
+      "aliases": [
+        "[mvu_update]变量输出格式"
+      ],
+      "summary": "--- 变量输出格式: rule: - you must output the update analysis and the actual update commands at once in the end of the next reply - the update commands works like the **JSON Patch (RFC 6902)** standard, must be a valid JSON array containing operation objects, but supports the following operations instead: - replace: replace the value of existing paths - insert: insert new items into an object or array (using `-` as array index intends appending to the end) - remove - don't update field names starts with `_` as they are r",
+      "description": "--- 变量输出格式: rule: - you must output the update analysis and the actual update commands at once in the end of the next reply - the update commands works like the **JSON Patch (RFC 6902)** standard, must be a valid JSON array containing operation objects, but supports the following operations instead: - replace: replace the value of existing paths - insert: insert new items into an object or array (using `-` as array index intends appending to the end) - remove - don't update field names starts with `_` as they are readonly, such as `_变量` format: |- <UpdateVariable> <Analysis>$(IN ENGLISH, no more than 80 words) - ${calculate time passed: ...} - ${decide whether dramatic updates are allowed: yes/no} - ${analyze every variable based on its corresponding `check`, according only to current reply instead of previous plots: ...} </Analysis> <JSONPatch> [ { \"op\": \"replace\", \"path\": \"/关系网/{角色名}/好感度\", \"value\": 45 }, { \"op\": \"replace\", \"path\": \"/user/当前位置\", \"value\": \"阿尔泽纳尔 格纳库\" }, { \"op\": \"replace\", \"path\": \"/剧情/当前卷\", \"value\": 2 }, { \"op\": \"replace\", \"path\": \"/沙盒状态/当前时间\", \"value\": \"第1天·午后\" } ] </JSONPatch> </UpdateVariable>",
+      "sourceRef": "tsyldlw_card.worldbook.json#entry-88",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "mvu_update-变量输出格式"
+}

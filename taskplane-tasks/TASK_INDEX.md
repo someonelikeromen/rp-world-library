@@ -1,5 +1,7 @@
 # World Archive Task Index
 
+GSEED task folders for the Gundam SEED opus P1-style archive are tracked alongside the existing WCA inventory in this workspace. They are documented in the `GSEED-001` through `GSEED-004` task folders under `taskplane-tasks/` and are not merged into the WCA table below.
+
 Created: 2026-07-01T17:22:47.957Z
 
 - Total tasks: 155

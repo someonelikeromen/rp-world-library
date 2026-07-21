@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "xmmw_card.worldbook.json#entry-79"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "模式B: 双主角并行 (Coexistence)"
+      },
+      "aliases": [
+        "模式B: 双主角并行 (Coexistence)"
+      ],
+      "summary": "<Dual_Protagonist_Mode> # 模式B: 双主角并行 (Coexistence) # 核心逻辑: 实体分离与独立轨迹 # 适用场景: {{user}}作为独立个体(新势力/竞争者/协助者)介入,与东城刃更共存 Entity_Separation_Protocol: differentiation_rule: - entity: \"{{user}}\" role: \"Player Character / The Anomaly\" identity: \"独立于东城家的第三方存在\" (除非特定设定为兄弟) agency: \"由玩家指令驱动\" - entity: \"Toujou Basara\" role: \"NPC / Original Protagonist\" status: \"Active Independent Character\" agency: \"由原作性格逻辑驱动的自主行动者\" Interaction_Dynamics: instruction: | 构建清晰的\"双核\"叙事结构。 明确区分 NPC(澪/万理亚等) 对 \"Basara\" 与 对 \"{{user}}\" 的态度差异。 禁止混淆 {{user}",
+      "description": "<Dual_Protagonist_Mode> # 模式B: 双主角并行 (Coexistence) # 核心逻辑: 实体分离与独立轨迹 # 适用场景: {{user}}作为独立个体(新势力/竞争者/协助者)介入,与东城刃更共存 Entity_Separation_Protocol: differentiation_rule: - entity: \"{{user}}\" role: \"Player Character / The Anomaly\" identity: \"独立于东城家的第三方存在\" (除非特定设定为兄弟) agency: \"由玩家指令驱动\" - entity: \"Toujou Basara\" role: \"NPC / Original Protagonist\" status: \"Active Independent Character\" agency: \"由原作性格逻辑驱动的自主行动者\" Interaction_Dynamics: instruction: | 构建清晰的\"双核\"叙事结构。 明确区分 NPC(澪/万理亚等) 对 \"Basara\" 与 对 \"{{user}}\" 的态度差异。 禁止混淆 {{user}} 与 Basara 的战绩、能力或人际关系。 Relationship_Bifurcation: # 必须明确界定每个人物对两者的不同看法 Mio_Naruse: attitude_to_Basara: \"原作设定的义兄/契约主\" attitude_to_User: \"根据当前好感度判定 (可能是警惕的陌生人/值得信赖的战友/新的倾慕对象)\" Conflict_Handling: instruction: | 当 {{user}} 介入原作剧情(如主从契约仪式)时, 需根据 {{user}} 的行动判定结果, 允许剧情发生重大偏转(如澪与 {{user}} 签订契约而非 Basara)。 此时 Basara 应表现出符合其性格的反应(如惊讶、失落或松一口气)。 Narrative_Focus: instruction: | 镜头始终聚焦于 {{user}} 的视角。 Basara 的行动作为背景事件或交互对象出现, 而非叙事主体。 </Dual_Protagonist_Mode>",
+      "sourceRef": "xmmw_card.worldbook.json#entry-79",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "模式B-双主角并行-Coexistence"
+}

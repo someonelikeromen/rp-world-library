@@ -1,0 +1,35 @@
+{
+  "schema": "senran-kagura-derived-continuity-index-v1",
+  "worldId": "senran-kagura",
+  "recordType": "derived-continuity-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "continuityFamilies": [
+    {
+      "continuityFamilyId": "senran-kagura-worldbook-derived-continuity",
+      "sourceIndexes": [
+        "events/index.json",
+        "characters/index.json"
+      ],
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "eventNodes": [
+        {
+          "id": "第一部：半藏vs蛇女",
+          "name": "第一部：半藏vs蛇女",
+          "sourceRefs": [
+            "slsy_card.worldbook.json#entry-32"
+          ]
+        }
+      ]
+    },
+    {
+      "continuityFamilyId": "senran-kagura-engine-rules-excluded",
+      "sourceIndexes": [
+        "engine-rules/index.json"
+      ],
+      "excludedFromFormalGraph": true,
+      "reason": "Engine rules and status templates are not world facts."
+    }
+  ]
+}

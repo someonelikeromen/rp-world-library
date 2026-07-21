@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "yqdq_card.worldbook.json#entry-142"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "变量输出格式"
+      },
+      "aliases": [
+        "变量输出格式"
+      ],
+      "summary": "## 变量输出格式 你必须通过 `<UpdateVariable>` 标签输出变量更新。所有更新操作必须包裹在此标签内。 ### 结构 ``` <UpdateVariable> <Analysis> // 分析当前情境，判断需要更新哪些变量。用英文，最多80词。 // 说明: 发生了什么事件、涉及哪些角色、为什么需要更新这些变量。 </Analysis> <JSONPatch> [ {\"op\":\"replace\",\"path\":\"/关系网/孙策伯符/好感度\",\"value\":25}, {\"op\":\"replace\",\"path\":\"/关系网/孙策伯符/关系\",\"value\":\"相识\"} ] </JSONPatch> </UpdateVariable> ``` ### JSON Patch 操作 - `replace`: 修改已存在的值 - `add`: 添加新键（用于新角色加入关系网、新增隐秘资讯flag） - `remove`: 删除键 - 路径不包含 `stat_data` 前缀 - 数字值不加引号，字符串值加引号 ### 路径速查表 | 变量 | JSON Patch 路径 | 类型 | |------|-------",
+      "description": "## 变量输出格式 你必须通过 `<UpdateVariable>` 标签输出变量更新。所有更新操作必须包裹在此标签内。 ### 结构 ``` <UpdateVariable> <Analysis> // 分析当前情境，判断需要更新哪些变量。用英文，最多80词。 // 说明: 发生了什么事件、涉及哪些角色、为什么需要更新这些变量。 </Analysis> <JSONPatch> [ {\"op\":\"replace\",\"path\":\"/关系网/孙策伯符/好感度\",\"value\":25}, {\"op\":\"replace\",\"path\":\"/关系网/孙策伯符/关系\",\"value\":\"相识\"} ] </JSONPatch> </UpdateVariable> ``` ### JSON Patch 操作 - `replace`: 修改已存在的值 - `add`: 添加新键（用于新角色加入关系网、新增隐秘资讯flag） - `remove`: 删除键 - 路径不包含 `stat_data` 前缀 - 数字值不加引号，字符串值加引号 ### 路径速查表 | 变量 | JSON Patch 路径 | 类型 | |------|----------------|------| | 原创主角模式 | `/原创主角模式` | string | | 当前模式 | `/当前模式` | string | | 用户名字 | `/user/名字` | string | | 用户身份 | `/user/身份` | string | | 用户位置 | `/user/当前位置` | string | | 角色好感度 | `/关系网/角色名/好感度` | number(0-100) | | 角色信任度 | `/关系网/角色名/信任度` | number(0-100) | | 角色关系 | `/关系网/角色名/关系` | string | | 剧情当前卷 | `/剧情/当前卷` | number(1-25) | | 剧情当前章节 | `/剧情/当前章节` | string | | 章节已完成事件 | `/剧情/章节内已完成事件` | string | | 关键事件 | `/剧情/关键事件` | string | | 剧情模式 | `/剧情/模式` | string(日常/推进) | | 推进许可 | `/剧情/推进许可` | boolean | | 沙盒当前时间 | `/沙盒状态/当前时间` | string | | 沙盒当前地点 | `/沙盒状态/当前地点` | string | | 沙盒当前节点 | `/沙盒状态/当前节点` | string | | 时间推进次数 | `/沙盒状态/时间推进次数` | number | | 战斗次数 | `/沙盒状态/战斗次数` | number | | 关键事件触发记录 | `/沙盒状态/关键事件触发记录` | string | | 时间锁 | `/沙盒状态/时间锁` | number | | 孙策好感度 | `/孙策伯符/好感度` | number(0-100) | | 孙策好感阶段 | `/孙策伯符/好感阶段` | string | | 水龙觉醒状态 | `/孙策伯符/水龙觉醒` | string | | 孙策当前状态 | `/孙策伯符/当前状态`",
+      "sourceRef": "yqdq_card.worldbook.json#entry-142",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "变量输出格式"
+}

@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "zyszddsj_card.worldbook.json#entry-95"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "剧情/沙盒模式切换指南"
+      },
+      "aliases": [
+        "剧情/沙盒模式切换指南"
+      ],
+      "summary": "# 剧情/沙盒模式切换指南 # 定义开局选择、游戏中切换、自然过渡三种切换方式及效果 switching_methods: | 开局选择: 6个开局中0-2为剧情模式，3-5为沙盒模式 游戏中切换: \"{{user}}可通过对话明确表示切换模式。AI识别后更新 stat_data.当前模式 变量\" 自然过渡: 剧情模式完成当前卷后可转入沙盒自由探索。沙盒中满足条件可触发剧情章节 switch_effects: | to_story: EJS章节控制器激活（getwi加载当前卷条目）。章节条目启用。沙盒条目保持可用。 to_sandbox: EJS沙盒控制器激活（加载人物总览+时间表）。所有章节条目禁用。沙盒条目启用。 consistency_rules: | rule: 切换后保留所有关系网数据（好感度/信任度不重置） - rule: 切换后保留剧情进度变量（当前篇章/卷数不重置） - rule: 切换后时间变量连续（不跳回开头） - rule: 身份模式（原作/取代/共存）不可在游戏中切换——只能在开局时选择",
+      "description": "# 剧情/沙盒模式切换指南 # 定义开局选择、游戏中切换、自然过渡三种切换方式及效果 switching_methods: | 开局选择: 6个开局中0-2为剧情模式，3-5为沙盒模式 游戏中切换: \"{{user}}可通过对话明确表示切换模式。AI识别后更新 stat_data.当前模式 变量\" 自然过渡: 剧情模式完成当前卷后可转入沙盒自由探索。沙盒中满足条件可触发剧情章节 switch_effects: | to_story: EJS章节控制器激活（getwi加载当前卷条目）。章节条目启用。沙盒条目保持可用。 to_sandbox: EJS沙盒控制器激活（加载人物总览+时间表）。所有章节条目禁用。沙盒条目启用。 consistency_rules: | rule: 切换后保留所有关系网数据（好感度/信任度不重置） - rule: 切换后保留剧情进度变量（当前篇章/卷数不重置） - rule: 切换后时间变量连续（不跳回开头） - rule: 身份模式（原作/取代/共存）不可在游戏中切换——只能在开局时选择",
+      "sourceRef": "zyszddsj_card.worldbook.json#entry-95",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "剧情-沙盒模式切换指南"
+}

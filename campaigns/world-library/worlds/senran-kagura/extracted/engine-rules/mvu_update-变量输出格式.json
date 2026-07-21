@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "slsy_card.worldbook.json#entry-227"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[mvu_update]变量输出格式"
+      },
+      "aliases": [
+        "[mvu_update]变量输出格式"
+      ],
+      "summary": "--- 变量输出格式: rule: - you should output the update analysis and the actual update commands at the very end of the assistant reply - the update commands must strictly follow JSON Patch RFC 6902 - only use replace, add, remove - when adding a new character to 关系网, always use path \"/关系网/-\" - never use \"/关系网/角色名\" as the path - if updating an existing character in 关系网, use the correct array index path such as \"/关系网/0/好感度\" - output at most 5 patch operations each time - only update variables that actually changed in the cu",
+      "description": "--- 变量输出格式: rule: - you should output the update analysis and the actual update commands at the very end of the assistant reply - the update commands must strictly follow JSON Patch RFC 6902 - only use replace, add, remove - when adding a new character to 关系网, always use path \"/关系网/-\" - never use \"/关系网/角色名\" as the path - if updating an existing character in 关系网, use the correct array index path such as \"/关系网/0/好感度\" - output at most 5 patch operations each time - only update variables that actually changed in the current assistant reply - the UpdateVariable block must be outside code fences - the UpdateVariable block must not be explained as plain text - the UpdateVariable block must be the final content of the assistant reply format: |- <UpdateVariable> <Analysis>$(IN ENGLISH, no more than 80 words) - calculate time passed - decide whether dramatic updates are allowed - analyze each variable based only on the current assistant reply </Analysis> <JSONPatch> [ { \"op\": \"add\", \"path\": \"/关系网/-\", \"value\": {\"角色名\":\"飞鸟\",\"好感度\":5,\"信任度\":5,\"关系\":\"初识\",\"所属阵营\":\"国立半藏学院\"} }, { \"op\": \"replace\", \"path\": \"/阵营立场/国立半藏学院\", \"value\": 5 } ] </JSONPatch> </UpdateVariable>",
+      "sourceRef": "slsy_card.worldbook.json#entry-227",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "mvu_update-变量输出格式"
+}

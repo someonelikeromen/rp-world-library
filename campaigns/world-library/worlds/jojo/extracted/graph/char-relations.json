@@ -1,0 +1,118 @@
+{
+  "schema": "compatible-char-relations-v1",
+  "worldId": "jojo",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "relationships": [
+    {
+      "source": "替身",
+      "target": "替身使者",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "替身使者",
+      "sourceRefs": [
+        "JOJO (1).worldbook.json#entry-1"
+      ],
+      "id": "edge-1",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:替身",
+      "graphTarget": "abilities:替身使者",
+      "category": "derived-mention"
+    },
+    {
+      "source": "成为替身使者的方法",
+      "target": "替身",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "替身",
+      "sourceRefs": [
+        "JOJO (1).worldbook.json#entry-6"
+      ],
+      "id": "edge-3",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:成为替身使者的方法",
+      "graphTarget": "characters:替身",
+      "category": "derived-mention"
+    },
+    {
+      "source": "替身使者",
+      "target": "替身",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "替身",
+      "sourceRefs": [
+        "JOJO (1).worldbook.json#entry-3"
+      ],
+      "id": "edge-5",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:替身使者",
+      "graphTarget": "characters:替身",
+      "category": "derived-mention"
+    },
+    {
+      "source": "替身的能力",
+      "target": "替身",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "替身",
+      "sourceRefs": [
+        "JOJO (1).worldbook.json#entry-2"
+      ],
+      "id": "edge-6",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:替身的能力",
+      "graphTarget": "characters:替身",
+      "category": "derived-mention"
+    },
+    {
+      "source": "替身类型",
+      "target": "替身",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "替身",
+      "sourceRefs": [
+        "JOJO (1).worldbook.json#entry-4"
+      ],
+      "id": "edge-8",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:替身类型",
+      "graphTarget": "characters:替身",
+      "category": "derived-mention"
+    }
+  ]
+}

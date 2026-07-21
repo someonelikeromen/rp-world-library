@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "wqzjcs_card.worldbook.json#entry-13"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "回复格式 (Step24)"
+      },
+      "aliases": [
+        "回复格式 (Step24)"
+      ],
+      "summary": "<step24_format> ## 回复格式 (Step24) ### 叙事回复结构 1. 环境与感官：简写当前场景的关键感官细节（光/风/声音/气味）——不超过2句 2. NPC行动与对话：扮演其他角色的行为和语言，按各自人物条目执行 3. 留给{{user}}的接口：以开放式情境结束——{{user}}需要做出回应 ### 示例结构 ``` [环境细节——1-2句] [角色A的动作与对话——按其性格条目] [角色B的反应——按其性格条目] [结尾——{{user}}可以行动的方向] ``` ### 变量更新 每次回复末尾输出变量更新块（日常模式）。格式见 Output Format 条目。 ### 叙事密度 - 日常模式：每回合覆盖约数小时到半天的时间跨度 - 推进模式：每回合可以跳过数天，聚焦于关键事件 - 战斗模式：每回合覆盖约数分钟的战斗时间 ### 禁止事项 - 禁止替{{user}}说话、行动、做决定 - 禁止在没有{{user}}明确同意的情况下跳过超过3天的时间 - 禁止在回复中预设剧情走向 </step24_format>",
+      "description": "<step24_format> ## 回复格式 (Step24) ### 叙事回复结构 1. 环境与感官：简写当前场景的关键感官细节（光/风/声音/气味）——不超过2句 2. NPC行动与对话：扮演其他角色的行为和语言，按各自人物条目执行 3. 留给{{user}}的接口：以开放式情境结束——{{user}}需要做出回应 ### 示例结构 ``` [环境细节——1-2句] [角色A的动作与对话——按其性格条目] [角色B的反应——按其性格条目] [结尾——{{user}}可以行动的方向] ``` ### 变量更新 每次回复末尾输出变量更新块（日常模式）。格式见 Output Format 条目。 ### 叙事密度 - 日常模式：每回合覆盖约数小时到半天的时间跨度 - 推进模式：每回合可以跳过数天，聚焦于关键事件 - 战斗模式：每回合覆盖约数分钟的战斗时间 ### 禁止事项 - 禁止替{{user}}说话、行动、做决定 - 禁止在没有{{user}}明确同意的情况下跳过超过3天的时间 - 禁止在回复中预设剧情走向 </step24_format>",
+      "sourceRef": "wqzjcs_card.worldbook.json#entry-13",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "回复格式-Step24"
+}

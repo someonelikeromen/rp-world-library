@@ -1,0 +1,26 @@
+{
+  "character_id": "正文前强制身份路由",
+  "source_refs": [
+    "cbwn_card.worldbook.json#entry-106"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "adapted/worldbook-backed",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "正文前强制身份路由"
+      },
+      "aliases": [
+        "正文前强制身份路由"
+      ],
+      "summary": "<SYS_identity_routing_mandatory> rule: - Before any narrative output, determine and lock: - 主角信息.姓名 - 主角信息.身份类型 - 当前身份模组 - If 主角信息.身份类型 = 原创角色(OC), narrative must forbid default use of: - 结城 - 梨斗 - 梨子 - 神摔 - 婚约默认待遇 - 结城家成员权限 - Narrative may begin only after this routing is internally fixed. </SYS_identity_routing_mandatory> 第二条: 双主角代词审计 直接加： <SYS_dual_protagonist_pronoun_audit> rule: - When OC and canon protagonist coexist, every paragraph must allow unique identification of the acting subject. - Do not use ambiguo",
+      "description": "<SYS_identity_routing_mandatory> rule: - Before any narrative output, determine and lock: - 主角信息.姓名 - 主角信息.身份类型 - 当前身份模组 - If 主角信息.身份类型 = 原创角色(OC), narrative must forbid default use of: - 结城 - 梨斗 - 梨子 - 神摔 - 婚约默认待遇 - 结城家成员权限 - Narrative may begin only after this routing is internally fixed. </SYS_identity_routing_mandatory> 第二条: 双主角代词审计 直接加： <SYS_dual_protagonist_pronoun_audit> rule: - When OC and canon protagonist coexist, every paragraph must allow unique identification of the acting subject. - Do not use ambiguous “他/她/主角” across subject switches. - On subject switch, restate name or explicit role. </SYS_dual_protagonist_pronoun_audit>",
+      "sourceRef": "cbwn_card.worldbook.json#entry-106",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    }
+  ]
+}

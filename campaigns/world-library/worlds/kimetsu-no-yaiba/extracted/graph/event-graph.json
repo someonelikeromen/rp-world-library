@@ -1,0 +1,412 @@
+{
+  "schema": "compatible-event-graph-v1",
+  "worldId": "kimetsu-no-yaiba",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "events": [
+    {
+      "id": "story_scene-.-继子-.-story_scene-s",
+      "entityId": "story_scene-.-继子-.-story_scene-s",
+      "entityType": "events",
+      "label": "/<story_scene>.*?(继子).*?<\\/story_scene>/s",
+      "name": "/<story_scene>.*?(继子).*?<\\/story_scene>/s",
+      "summary": "<核心设定:继子> 定义：由现任“柱”亲自挑选并直属培养的精英弟子，被视为下一任“柱”的接班人。 选拔：无统一考试，全凭柱的个人眼光。通常挑选与自己呼吸流派契合的天才。 待遇：接受比普通队员更严苛的斯巴达式训练，常随柱一同执行高难度任务。 地位：虽然阶级不一定是甲级，但在队内享有极高声望。若师父阵亡/引退，继子是填补柱位的最优先顺位（仍需满足杀鬼战绩要求）。 </核心设定:继子>",
+      "sourceRefs": [
+        "gmzr_card.worldbook.json#entry-22"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:story_scene-.-继子-.-story_scene-s",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "时间线",
+      "entityId": "时间线",
+      "entityType": "events",
+      "label": "时间线",
+      "name": "时间线",
+      "summary": "<world_timeline> -事件A: 真菰的藤袭山悲剧 (1905年4月12日): 鳞泷弟子真菰参加最终选拔·遭遇变异手鬼·手鬼利用鳞泷的狐狸面具发动心理战·真菰呼吸大乱·被手鬼扯断四肢吞食战死 -事件A1: 锖兔与义勇的最终选拔 (1908年4月12日): 义勇开局遭鬼袭击重伤濒死·锖兔救下义勇将其安置·锖兔斩杀藤袭山几乎所有恶鬼救下全员·遭遇手鬼因刀刃过度磨损折断·锖兔被捏碎头部战死·义勇昏迷中通过选拔 -事件A2: 蝴蝶香奈惠与童磨 (1910年5月15日): 蝴蝶香奈惠遭遇上弦之贰童磨·香奈惠肺部被斩破受致命伤·童磨躲避日出放弃吞食逃离·香奈惠临终交代蝴蝶忍退出鬼杀队未果 -事件A3: 雪夜惨剧 (1912年1月1日): 鬼舞辻无惨屠杀灶门一家·注入无惨血液·祢豆子化为食人鬼·富冈义勇抵达雪地·义勇刀下留人交予竹筒·指引前往狭雾山拜师 -事件A4: 启程狭雾山 (1912年1月5日): 炭治郎携带祢豆子途经佛堂·遭遇食人鬼袭击·祢豆子踢飞食人鬼头颅·鳞泷左近次现身·食人鬼被阳光烧成灰烬 -事件B: 狭雾山修行 (1912年1月10日-1914年3月31日): 炭治郎展开布满陷阱的下山训练·挥刀劈砍瀑布·锖兔真",
+      "sourceRefs": [
+        "gmzr_card.worldbook.json#entry-7"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:时间线",
+      "originalEntityType": "events"
+    }
+  ],
+  "edges": [
+    {
+      "source": "时间线",
+      "target": "富冈义勇-2",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "富冈义勇",
+      "sourceRefs": [
+        "gmzr_card.worldbook.json#entry-7"
+      ],
+      "id": "edge-505",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:时间线",
+      "graphTarget": "characters:富冈义勇-2",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线",
+      "target": "富冈义勇",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "富冈义勇",
+      "sourceRefs": [
+        "gmzr_card.worldbook.json#entry-7"
+      ],
+      "id": "edge-506",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:时间线",
+      "graphTarget": "characters:富冈义勇",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线",
+      "target": "手鬼",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "手鬼",
+      "sourceRefs": [
+        "gmzr_card.worldbook.json#entry-7"
+      ],
+      "id": "edge-507",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:时间线",
+      "graphTarget": "characters:手鬼",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线",
+      "target": "真菰-2",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "真菰",
+      "sourceRefs": [
+        "gmzr_card.worldbook.json#entry-7"
+      ],
+      "id": "edge-508",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:时间线",
+      "graphTarget": "characters:真菰-2",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线",
+      "target": "真菰",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "真菰",
+      "sourceRefs": [
+        "gmzr_card.worldbook.json#entry-7"
+      ],
+      "id": "edge-509",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:时间线",
+      "graphTarget": "characters:真菰",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线",
+      "target": "童磨",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "童磨",
+      "sourceRefs": [
+        "gmzr_card.worldbook.json#entry-7"
+      ],
+      "id": "edge-510",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:时间线",
+      "graphTarget": "characters:童磨",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线",
+      "target": "蝴蝶忍-2",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "蝴蝶忍",
+      "sourceRefs": [
+        "gmzr_card.worldbook.json#entry-7"
+      ],
+      "id": "edge-511",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:时间线",
+      "graphTarget": "characters:蝴蝶忍-2",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线",
+      "target": "蝴蝶忍",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "蝴蝶忍",
+      "sourceRefs": [
+        "gmzr_card.worldbook.json#entry-7"
+      ],
+      "id": "edge-512",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:时间线",
+      "graphTarget": "characters:蝴蝶忍",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线",
+      "target": "蝴蝶香奈惠",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "蝴蝶香奈惠",
+      "sourceRefs": [
+        "gmzr_card.worldbook.json#entry-7"
+      ],
+      "id": "edge-513",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:时间线",
+      "graphTarget": "characters:蝴蝶香奈惠",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线",
+      "target": "锖兔",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "锖兔",
+      "sourceRefs": [
+        "gmzr_card.worldbook.json#entry-7"
+      ],
+      "id": "edge-514",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:时间线",
+      "graphTarget": "characters:锖兔",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线",
+      "target": "鬼舞辻无惨-2",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "鬼舞辻无惨",
+      "sourceRefs": [
+        "gmzr_card.worldbook.json#entry-7"
+      ],
+      "id": "edge-515",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:时间线",
+      "graphTarget": "characters:鬼舞辻无惨-2",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线",
+      "target": "鬼舞辻无惨",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "鬼舞辻无惨",
+      "sourceRefs": [
+        "gmzr_card.worldbook.json#entry-7"
+      ],
+      "id": "edge-516",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:时间线",
+      "graphTarget": "characters:鬼舞辻无惨",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线",
+      "target": "鳞泷左近次-2",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "鳞泷左近次",
+      "sourceRefs": [
+        "gmzr_card.worldbook.json#entry-7"
+      ],
+      "id": "edge-517",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:时间线",
+      "graphTarget": "characters:鳞泷左近次-2",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线",
+      "target": "鳞泷左近次",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "鳞泷左近次",
+      "sourceRefs": [
+        "gmzr_card.worldbook.json#entry-7"
+      ],
+      "id": "edge-518",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:时间线",
+      "graphTarget": "characters:鳞泷左近次",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线",
+      "target": "狭雾山",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "狭雾山",
+      "sourceRefs": [
+        "gmzr_card.worldbook.json#entry-7"
+      ],
+      "id": "edge-519",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:时间线",
+      "graphTarget": "abilities:狭雾山",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线",
+      "target": "藤袭山",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "藤袭山",
+      "sourceRefs": [
+        "gmzr_card.worldbook.json#entry-7"
+      ],
+      "id": "edge-520",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:时间线",
+      "graphTarget": "abilities:藤袭山",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线",
+      "target": "鬼杀队",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "鬼杀队",
+      "sourceRefs": [
+        "gmzr_card.worldbook.json#entry-7"
+      ],
+      "id": "edge-521",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:时间线",
+      "graphTarget": "abilities:鬼杀队",
+      "category": "derived-mention"
+    }
+  ]
+}

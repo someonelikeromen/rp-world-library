@@ -1,0 +1,42 @@
+{
+  "schema": "kimetsu-no-yaiba-derived-continuity-index-v1",
+  "worldId": "kimetsu-no-yaiba",
+  "recordType": "derived-continuity-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "continuityFamilies": [
+    {
+      "continuityFamilyId": "kimetsu-no-yaiba-worldbook-derived-continuity",
+      "sourceIndexes": [
+        "events/index.json",
+        "characters/index.json"
+      ],
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "eventNodes": [
+        {
+          "id": "story_scene-.-继子-.-story_scene-s",
+          "name": "/<story_scene>.*?(继子).*?<\\/story_scene>/s",
+          "sourceRefs": [
+            "gmzr_card.worldbook.json#entry-22"
+          ]
+        },
+        {
+          "id": "时间线",
+          "name": "时间线",
+          "sourceRefs": [
+            "gmzr_card.worldbook.json#entry-7"
+          ]
+        }
+      ]
+    },
+    {
+      "continuityFamilyId": "kimetsu-no-yaiba-engine-rules-excluded",
+      "sourceIndexes": [
+        "engine-rules/index.json"
+      ],
+      "excludedFromFormalGraph": true,
+      "reason": "Engine rules and status templates are not world facts."
+    }
+  ]
+}

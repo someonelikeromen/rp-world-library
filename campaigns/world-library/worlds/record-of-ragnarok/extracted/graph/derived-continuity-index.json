@@ -1,0 +1,49 @@
+{
+  "schema": "record-of-ragnarok-derived-continuity-index-v1",
+  "worldId": "record-of-ragnarok",
+  "recordType": "derived-continuity-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "continuityFamilies": [
+    {
+      "continuityFamilyId": "record-of-ragnarok-worldbook-derived-continuity",
+      "sourceIndexes": [
+        "events/index.json",
+        "characters/index.json"
+      ],
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "eventNodes": [
+        {
+          "id": "安",
+          "name": "安",
+          "sourceRefs": [
+            "vs_card.worldbook.json#entry-130"
+          ]
+        },
+        {
+          "id": "章节列表",
+          "name": "<章节列表>",
+          "sourceRefs": [
+            "vs_card.worldbook.json#entry-29"
+          ]
+        },
+        {
+          "id": "米歇尔·诺斯特拉达穆斯",
+          "name": "米歇尔·诺斯特拉达穆斯",
+          "sourceRefs": [
+            "vs_card.worldbook.json#entry-46"
+          ]
+        }
+      ]
+    },
+    {
+      "continuityFamilyId": "record-of-ragnarok-engine-rules-excluded",
+      "sourceIndexes": [
+        "engine-rules/index.json"
+      ],
+      "excludedFromFormalGraph": true,
+      "reason": "Engine rules and status templates are not world facts."
+    }
+  ]
+}

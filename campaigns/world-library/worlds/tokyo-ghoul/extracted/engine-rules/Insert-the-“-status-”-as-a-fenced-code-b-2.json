@@ -1,0 +1,24 @@
+{
+  "source_refs": [
+    "东京喰种（喰种）.worldbook.json#entry-0"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "Insert the “<status>” as a fenced code b"
+      },
+      "aliases": [],
+      "summary": "## Insert the “<status>” as a fenced code block (```) at the end of your response as requested in “<StatusBlock>”. <StatusBlock> - Rule: - 若有多个出场人物，请在相应模块生成多个状态栏。 - ##在<status>之前输出<format_of_statusblock>和最后一个</details>之后输出</format_of_statusblock> ## <status>为当前剧情中{{char}}的状态栏。请务必再次确认Rule，在每轮回复的末尾插入'<status>'中的内容。 格式如下： <format_of_statusblock> <status> <details> <summary>【————状态栏————】</summary> ``` 📍当前所处位置：{{此处只能填写当前剧情地点，格式：东京-某某区-某某地点}} ⏳当前时间：{当前天数/时间，例如：2000年1月1日/7:00AM} ``` >基本状态 ``` 所属势力: {当前{{user}}势力名称，没有则填无}",
+      "description": "## Insert the “<status>” as a fenced code block (```) at the end of your response as requested in “<StatusBlock>”. <StatusBlock> - Rule: - 若有多个出场人物，请在相应模块生成多个状态栏。 - ##在<status>之前输出<format_of_statusblock>和最后一个</details>之后输出</format_of_statusblock> ## <status>为当前剧情中{{char}}的状态栏。请务必再次确认Rule，在每轮回复的末尾插入'<status>'中的内容。 格式如下： <format_of_statusblock> <status> <details> <summary>【————状态栏————】</summary> ``` 📍当前所处位置：{{此处只能填写当前剧情地点，格式：东京-某某区-某某地点}} ⏳当前时间：{当前天数/时间，例如：2000年1月1日/7:00AM} ``` >基本状态 ``` 所属势力: {当前{{user}}势力名称，没有则填无} 背包:{{{user}}获取的物品} ``` >个人状态 ``` 名称： 外号：{别人给{{user}}的外号} 种族：{{{user}}的种族} RC细胞数量：{Red Child Cell} 危险等级：{{{user}}的危险等级} 赫子：{{{user}}拥有的赫子，格式为种类（等级）例如：尾赫（A级）} 赫子外形：{{{user}}赫子释放后的外形} 状态: {健康/受伤/生病/中毒/等} ``` <details> <summary>【————出场人物状态————】</summary> 姓名 - 身份：{刚见面时为未知} - 职位：{如无则删去，只填写搜查官等级} - 外号：{刚见面时为未知} - 性别：{性别可直接识别} - 种族：{刚见面时为未知} - 危险等级：{刚见面时为未知，喰种只有释放赫子后才显示} - 赫子：{如无则删去，只有喰种释放后才显示} - 库因克：{如无则删去，同伴则显示} - 状态: {状态} </details> </details> </format_of_statusblock> ``` </status> <!-- 请遵循给出的示例格式！在每条回复的最底部完整输出'<status>'中的全部内容! --> </StatusBlock>",
+      "sourceRef": "东京喰种（喰种）.worldbook.json#entry-0",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "Insert-the-“-status-”-as-a-fenced-code-b-2"
+}

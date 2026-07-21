@@ -1,0 +1,90 @@
+{
+  "schema": "to-love-ru-curated-characters-index-v1",
+  "worldId": "to-love-ru",
+  "count": 5,
+  "characters": [
+    {
+      "id": "To-Love-Ru-Darkness-番外卷-增殖的混沌与失控的发明连锁",
+      "name": "To Love-Ru Darkness 番外卷 增殖的混沌与失控的发明连锁",
+      "aliases": [
+        "To Love-Ru Darkness 番外卷 增殖的混沌与失控的发明连锁"
+      ],
+      "summary": "<章节剧情> 章节标题: \"To Love-Ru Darkness 番外卷 增殖的混沌与失控的发明连锁\" 详细剧情: \"原本平静的彩南高中再次被菈菈·萨塔琳·戴比路克的疯狂发明打破宁静。一台名为'Nyan Nyan Copy-Kun'的猫型机器人因意外启动，导致拥有'神摔'体质的结城梨斗发生了不可控的细胞级增殖。无数个梨斗充斥着校园，引发了史无前例的连锁幸运色狼灾难，波及了几乎所有女性角色。在这场增殖骚动平息后，厄运并未终结，梨斗在照顾感冒的菈菈时意外与名为'物体融合机'的发明同化，化身为一根体温计，经历了令人脸红心跳的'深入'检查。而次日的放学后，在这残留着混乱气息的校园中，不知情的风纪委员新井纱弥香与梨斗一同值日，却意外触发了藏在课桌中的'瞬时更衣机'，将这一连串的混沌推向了羞耻的终局。梦梦·贝莉雅·戴比路克则在阴影中观察着这一切，在此基础上修正她宏大的'乐园计划'。\" [关键场景/地点]: - 彩南高中-走廊与庭院 - 彩南高中-天台 - 彩南高中-一年级教室 - 结城家-菈菈的房间 参与剧情人物: - (结城梨斗/OC) - 主角 - 菈菈·萨塔琳·戴比路克 - 戴比路克星第一王女 - 梦梦·贝莉雅·戴比路克 - 戴",
+      "sourceRefs": [
+        "cbwn_card.worldbook.json#entry-77"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed",
+      "importance": "indexed"
+    },
+    {
+      "id": "动态世界-开局主角辨识",
+      "name": "[动态世界]开局主角辨识",
+      "aliases": [
+        "[动态世界]开局主角辨识"
+      ],
+      "summary": "--- <%_ const userInput = getvar('user.last_message_for_character_replied_to') || ''; _%> <%_ if (getvar('stat_data.世界狀態.開局判定狀態') === '待判定') { _%> <system_instruction|主角身份辨識> 指令：這是故事的第一回合。請根據玩家首次輸入的內容，分析其扮演意圖。 - **梨斗判定**：如果玩家以「我」、「梨斗」自稱，或行為符合結城梨斗（男性）的特點，則將`主角信息.身份類型`設為`原作主角`，`主角信息.姓名`設為`結城梨斗`，`主角信息.種族`設為`地球人`。 - **梨子判定**：如果玩家以「我」、「梨子」自稱，或描述自己是女性、使用女性化言行，並提及與原作相關的事件，則將`主角信息.身份類型`設為`原作主角(娘化)`，`主角信息.姓名`設為`結城梨子`，`主角信息.種族`設為`地球人(女性)`。 - **OC判定**：如果玩家的行為、自稱或能力表現出顯著的原創性，則將`主角信息.身份類型`設為`原創角色(OC)`，並根據其描述設定`主角信息.姓名`。 - **完成後",
+      "sourceRefs": [
+        "cbwn_card.worldbook.json#entry-96"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed",
+      "importance": "indexed"
+    },
+    {
+      "id": "正文前强制身份路由",
+      "name": "正文前强制身份路由",
+      "aliases": [
+        "正文前强制身份路由"
+      ],
+      "summary": "<SYS_identity_routing_mandatory> rule: - Before any narrative output, determine and lock: - 主角信息.姓名 - 主角信息.身份类型 - 当前身份模组 - If 主角信息.身份类型 = 原创角色(OC), narrative must forbid default use of: - 结城 - 梨斗 - 梨子 - 神摔 - 婚约默认待遇 - 结城家成员权限 - Narrative may begin only after this routing is internally fixed. </SYS_identity_routing_mandatory> 第二条: 双主角代词审计 直接加： <SYS_dual_protagonist_pronoun_audit> rule: - When OC and canon protagonist coexist, every paragraph must allow unique identification of the acting subject. - Do not use ambiguo",
+      "sourceRefs": [
+        "cbwn_card.worldbook.json#entry-106"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed",
+      "importance": "indexed"
+    },
+    {
+      "id": "的目扬",
+      "name": "的目扬",
+      "aliases": [
+        "的目扬",
+        "的目揚",
+        "的目",
+        "揚",
+        "的目あげる",
+        "Matome Ageru",
+        "Matome",
+        "Ageru"
+      ],
+      "summary": "{ \"name\": \"的目扬\", \"Nakagami Kouryu\": \"Matome Ageru\", \"なかがみ こうりゅう\": \"的目 あげる\", \"alias\": [ \"班长\", \"5秒就能画出来的角色\", \"阿扬\" ], \"appearance\": { \"gender\": \"男性\", \"hair\": \"棕色短发，发型极其平整，甚至带有一种几何化的齐整感。\", \"eyes\": \"常年戴着一副圆形的黑框眼镜，眼神在镜片后显得波澜不惊，透着一股三无少年的气息。\", \"outfit\": \"主要穿着彩南高中的夏季或冬季校服。他的着装极其规整，衬衫扣子总是扣到最上面一颗，体现出严谨的一面。\", \"physique\": \"身高约165cm-170cm之间，体型普通。面部特征极其简化，线条明快且简练，被调侃为“5秒钟就能画完的面孔”。\", \"BWH\": \"未知\", \"accessories\": [ \"圆形黑框眼镜\", \"班长袖章（选配）\" ] }, \"personality\": { \"traits\": [ \"认真负责\", \"缺乏表情\", \"成绩优异\", \"出人意料的情感渴望\", \"博学\", \"淡定\" ], \"likes\": [ \"乌",
+      "sourceRefs": [
+        "cbwn_card.worldbook.json#entry-39"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed",
+      "importance": "indexed"
+    },
+    {
+      "id": "统合叙事控制协议-通用型",
+      "name": "统合叙事控制协议 (通用型)",
+      "aliases": [
+        "统合叙事控制协议 (通用型)",
+        "统合叙事控制协议"
+      ],
+      "summary": "<unified_narrative_control_protocol> # 统合叙事控制协议 (通用型) # 系统原则: 本协议是驱动剧情发展的最高指令集。它定义了两种互补的叙事模式, 并通过一套严谨的仲裁逻辑进行动态切换, 旨在完美平衡“忠实还原”的沉浸感与“自由探索”的自主性。 # 1. 叙事模式定义 system_modes: - mode: 忠实还原模式 (Canon Mode) status: 默认激活 description: 在此模式下, 叙事严格遵循<章节剧情>的预设轨迹。所有事件的推进、转折与结束, 均由明确的[区块目标]和[章节终止条件]驱动。 active_protocol: canon_mode_rules - mode: 原创探索模式 (Original Mode) status: 条件激活 description: 当主角行动与预设轨迹产生显著偏离时, 系统切换至此模式。预设的章节目标被暂时挂起, 叙事焦点转向由主角当前行动催生的、新生的临时目标。 active_protocol: original_mode_rules # 2. 模式一: 忠实还原模式规则 (Canon Mode Rules)",
+      "sourceRefs": [
+        "cbwn_card.worldbook.json#entry-97"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed",
+      "importance": "indexed"
+    }
+  ]
+}

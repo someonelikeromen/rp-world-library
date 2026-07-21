@@ -1,0 +1,26 @@
+{
+  "character_id": "傍晚-回庄-晚餐准备",
+  "source_refs": [
+    "ns_card.worldbook.json#entry-30"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "adapted/worldbook-backed",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "傍晚: 回庄、晚餐准备"
+      },
+      "aliases": [
+        "傍晚: 回庄、晚餐准备"
+      ],
+      "summary": "时间单位: 第X卷[初期/中期/后期]·[白天/夜间] 推进限制: 每次最多推进半个时间段。重大事件后可跨一个时间段。 时间触发点: - 早晨: 出云庄早餐、训练、新一天开始 - 午前: 外出探索、帝都活动 - 午后: 战斗多发时段、邂逅新角色 - 傍晚: 回庄、晚餐准备 - 夜间: 澡堂对话、围炉会议、感情深化 推进规则: - AI检查当前时间→在时间表中找到对应事件→检查触发条件→执行或跳过 - 跳过的事件追加到关键事件触发记录 - 每推进一次，时间推进次数+1 - {{user}}主动提出跳过时间时可跳过更长时间段",
+      "description": "时间单位: 第X卷[初期/中期/后期]·[白天/夜间] 推进限制: 每次最多推进半个时间段。重大事件后可跨一个时间段。 时间触发点: - 早晨: 出云庄早餐、训练、新一天开始 - 午前: 外出探索、帝都活动 - 午后: 战斗多发时段、邂逅新角色 - 傍晚: 回庄、晚餐准备 - 夜间: 澡堂对话、围炉会议、感情深化 推进规则: - AI检查当前时间→在时间表中找到对应事件→检查触发条件→执行或跳过 - 跳过的事件追加到关键事件触发记录 - 每推进一次，时间推进次数+1 - {{user}}主动提出跳过时间时可跳过更长时间段",
+      "sourceRef": "ns_card.worldbook.json#entry-30",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    }
+  ]
+}

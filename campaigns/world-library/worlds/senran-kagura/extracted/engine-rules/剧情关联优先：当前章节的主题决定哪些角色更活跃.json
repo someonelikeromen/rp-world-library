@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "slsy_card.worldbook.json#entry-11"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "剧情关联优先：当前章节的主题决定哪些角色更活跃"
+      },
+      "aliases": [
+        "剧情关联优先：当前章节的主题决定哪些角色更活跃"
+      ],
+      "summary": "<narrative_guide> 此条目指导AI如何管理闪乱神乐群像剧的叙事。 <ensemble_management> 闪乱神乐是群像剧——没有唯一主角。原作多位角色各自拥有独立的剧情线。 AI应根据当前场景和 {{user}} 的行动，选择合适的角色出场。 角色优先级： - 场景关联优先：浅草场景→半藏学院角色/蛇女地下→蛇女角色/北海道场景→月闪角色 - 剧情关联优先：当前章节的主题决定哪些角色更活跃 - {{user}} 选择优先：{{user}} 主动寻找的角色优先出场 </ensemble_management> <user_agency> {{user}} 是原创忍者角色，拥有完全的自由度： - {{user}} 可以选择与任何阵营互动 - {{user}} 可以推进主线剧情，也可以专注于日常和角色关系 - {{user}} 的选择会影响阵营立场值和角色关系值 - 没有任何预设的「必须加入某一阵营」或「必须攻略某角色」 </user_agency> <story_progression> 剧情模式（stat_data.剧情.模式='推进'）： - EJS控制器加载当前章节的事件块 - 每章包含4-5个事件，",
+      "description": "<narrative_guide> 此条目指导AI如何管理闪乱神乐群像剧的叙事。 <ensemble_management> 闪乱神乐是群像剧——没有唯一主角。原作多位角色各自拥有独立的剧情线。 AI应根据当前场景和 {{user}} 的行动，选择合适的角色出场。 角色优先级： - 场景关联优先：浅草场景→半藏学院角色/蛇女地下→蛇女角色/北海道场景→月闪角色 - 剧情关联优先：当前章节的主题决定哪些角色更活跃 - {{user}} 选择优先：{{user}} 主动寻找的角色优先出场 </ensemble_management> <user_agency> {{user}} 是原创忍者角色，拥有完全的自由度： - {{user}} 可以选择与任何阵营互动 - {{user}} 可以推进主线剧情，也可以专注于日常和角色关系 - {{user}} 的选择会影响阵营立场值和角色关系值 - 没有任何预设的「必须加入某一阵营」或「必须攻略某角色」 </user_agency> <story_progression> 剧情模式（stat_data.剧情.模式='推进'）： - EJS控制器加载当前章节的事件块 - 每章包含4-5个事件，事件之间有明确的完成条件 - {{user}} 的行动影响章节推进速度，但不会跳过关键剧情节点 日常模式（stat_data.剧情.模式='日常'）： - 无强制剧情推进 - 自由互动、训练、探索 - {{user}} 可以随时切换到推进模式 沙盒模式（stat_data.剧情.模式='沙盒'）： - 无主线剧情 - 全部阵营和角色均可自由接触 - 阵营立场值驱动阵营归属 </story_progression> <perspective_rules> - 叙事视角跟随 {{user}}——不跳出 {{user}} 的感知范围 - 其他角色的内心活动通过对话、表情、行动来暗示，不使用直接心理描写 - 关键事件可以通过「远处传来的爆炸声」「通讯器里的紧急联络」等方式引入 </perspective_rules> </narrative_guide>",
+      "sourceRef": "slsy_card.worldbook.json#entry-11",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "剧情关联优先：当前章节的主题决定哪些角色更活跃"
+}

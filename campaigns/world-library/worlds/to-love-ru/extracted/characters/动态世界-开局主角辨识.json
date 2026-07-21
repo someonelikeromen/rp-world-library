@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "cbwn_card.worldbook.json#entry-96"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "adapted/worldbook-backed",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[动态世界]开局主角辨识"
+      },
+      "aliases": [
+        "[动态世界]开局主角辨识"
+      ],
+      "summary": "--- <%_ const userInput = getvar('user.last_message_for_character_replied_to') || ''; _%> <%_ if (getvar('stat_data.世界狀態.開局判定狀態') === '待判定') { _%> <system_instruction|主角身份辨識> 指令：這是故事的第一回合。請根據玩家首次輸入的內容，分析其扮演意圖。 - **梨斗判定**：如果玩家以「我」、「梨斗」自稱，或行為符合結城梨斗（男性）的特點，則將`主角信息.身份類型`設為`原作主角`，`主角信息.姓名`設為`結城梨斗`，`主角信息.種族`設為`地球人`。 - **梨子判定**：如果玩家以「我」、「梨子」自稱，或描述自己是女性、使用女性化言行，並提及與原作相關的事件，則將`主角信息.身份類型`設為`原作主角(娘化)`，`主角信息.姓名`設為`結城梨子`，`主角信息.種族`設為`地球人(女性)`。 - **OC判定**：如果玩家的行為、自稱或能力表現出顯著的原創性，則將`主角信息.身份類型`設為`原創角色(OC)`，並根據其描述設定`主角信息.姓名`。 - **完成後",
+      "description": "--- <%_ const userInput = getvar('user.last_message_for_character_replied_to') || ''; _%> <%_ if (getvar('stat_data.世界狀態.開局判定狀態') === '待判定') { _%> <system_instruction|主角身份辨識> 指令：這是故事的第一回合。請根據玩家首次輸入的內容，分析其扮演意圖。 - **梨斗判定**：如果玩家以「我」、「梨斗」自稱，或行為符合結城梨斗（男性）的特點，則將`主角信息.身份類型`設為`原作主角`，`主角信息.姓名`設為`結城梨斗`，`主角信息.種族`設為`地球人`。 - **梨子判定**：如果玩家以「我」、「梨子」自稱，或描述自己是女性、使用女性化言行，並提及與原作相關的事件，則將`主角信息.身份類型`設為`原作主角(娘化)`，`主角信息.姓名`設為`結城梨子`，`主角信息.種族`設為`地球人(女性)`。 - **OC判定**：如果玩家的行為、自稱或能力表現出顯著的原創性，則將`主角信息.身份類型`設為`原創角色(OC)`，並根據其描述設定`主角信息.姓名`。 - **完成後**：必須將`世界狀態.開局判定狀態`更新為`判定完成`。 </system_instruction> <%_ } _%>",
+      "sourceRef": "cbwn_card.worldbook.json#entry-96",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    }
+  ],
+  "character_id": "动态世界-开局主角辨识"
+}

@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "000怪物猎人.worldbook.json#entry-6"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "随着猎人实力提升，周围人会赋予其响亮的称号。"
+      },
+      "aliases": [
+        "随着猎人实力提升，周围人会赋予其响亮的称号。"
+      ],
+      "summary": "状态栏: [After the content, reflect upon the status as the following format ] rule: - 你必须在每次回复的最后，输出statusblock包裹的状态栏，根据互动实时更新状态栏中的内容 - 必须使用怪物猎人原作的素材、武器、防具等资料，不可原创或编造 - 状态栏仅为User方便查看信息而设置，需自然融入叙述中，而非“猎人终端”等非常规描述 - 你必须根据互动实时更新所有状态栏中的内容 - 当前npc要列出<user>正在交流的npc，禁止列出当前没有交流的角色 - 随着猎人实力提升，周围人会赋予其响亮的称号。 format: basic: |- <statusblock> ``` 时间:[年-月-日-时分] 位置:[详细的层级结构来描述当前位置，以-分隔] 猎人名称:[称号-真名] 猎人等级:[当前星级] 阶位进度:[当前阶位晋升所需任务数量，在完成全部任务后通过特定晋升任务升星] 随从:[随从名称，装备] 特殊状态:[当前人物状态效果] 当前npc:[当前npc] 身上物品:[当前猎人小包中携带的物品，包括具体数量，不可为负数，动态更新] 装备:[",
+      "description": "状态栏: [After the content, reflect upon the status as the following format ] rule: - 你必须在每次回复的最后，输出statusblock包裹的状态栏，根据互动实时更新状态栏中的内容 - 必须使用怪物猎人原作的素材、武器、防具等资料，不可原创或编造 - 状态栏仅为User方便查看信息而设置，需自然融入叙述中，而非“猎人终端”等非常规描述 - 你必须根据互动实时更新所有状态栏中的内容 - 当前npc要列出<user>正在交流的npc，禁止列出当前没有交流的角色 - 随着猎人实力提升，周围人会赋予其响亮的称号。 format: basic: |- <statusblock> ``` 时间:[年-月-日-时分] 位置:[详细的层级结构来描述当前位置，以-分隔] 猎人名称:[称号-真名] 猎人等级:[当前星级] 阶位进度:[当前阶位晋升所需任务数量，在完成全部任务后通过特定晋升任务升星] 随从:[随从名称，装备] 特殊状态:[当前人物状态效果] 当前npc:[当前npc] 身上物品:[当前猎人小包中携带的物品，包括具体数量，不可为负数，动态更新] 装备:[当前所持武器，防具（直接说明整套防具名称，无需列出每个部件），护石，饰品珠并注明技能和相关数值（技能直接给出整合的对应等级与效果）] 委托任务:[已承接委托名称 - 发布者: - 任务描述 - 奖励 - 地点 - 当前进度] 近期事务:[即将发生的事件或近期需要做的事项，根据{{user}}获取的信息动态更新] ``` <statusblock> 战斗状态栏: [当且仅当战斗进行时，在正文后，状态栏前输出战斗状态栏] rule: - 实时更新当前怪物状态 - 怪物每个部位最多破坏三次 <zdstatusblock> ``` 狩猎目标: [列出当前狩猎目标的特殊状态、血量百分比、部位破坏百分比] ``` </zdstatusblock>",
+      "sourceRef": "000怪物猎人.worldbook.json#entry-6",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "随着猎人实力提升-周围人会赋予其响亮的称号"
+}

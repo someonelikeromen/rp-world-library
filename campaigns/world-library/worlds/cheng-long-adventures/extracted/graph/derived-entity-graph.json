@@ -1,0 +1,1746 @@
+{
+  "schema": "cheng-long-adventures-derived-entity-graph-v1",
+  "worldId": "cheng-long-adventures",
+  "recordType": "derived-entity-graph",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "derivationPolicy": {
+    "derivedFromExtractedIndexesOnly": true,
+    "introducesNewFacts": false,
+    "formalRelationshipRetrievalRequiresPrimarySourceCheck": true
+  },
+  "counts": {
+    "nodes": 40,
+    "edges": 65,
+    "nodeCounts": {
+      "characters": 3,
+      "abilities": 17,
+      "factions": 1,
+      "locations": 2,
+      "knowledge": 17
+    },
+    "edgeCounts": {
+      "derived-text-mention": 65
+    }
+  },
+  "nodes": [
+    {
+      "id": "characters:剧情人物概述-2",
+      "entityId": "剧情人物概述-2",
+      "entityType": "characters",
+      "label": "剧情人物概述",
+      "name": "剧情人物概述",
+      "summary": "然后是恶魔篇！ 正方:老爹，小玉，成龙，布莱克警长 反方:黑手组织 剧情模式:地狱里算上圣主一共有八个恶魔，(波冈，咒蓝，啸风，西木，圣主，剩下的忘了)圣主通过联络黑手组织，想要通过解封当年镇压八个恶魔的信物来把恶魔释放出来。而老爹和成龙则要把释放出来的恶魔再流放回去，办法也是通过当年的信物。 基本模式便是黑手组释放一个恶魔，成龙和小玉出现，经过打斗将其赶回去。值得一提的是蝙蝠精西木，整整活了两集。 注:黑手组织头号打手特鲁因被老板骂，内心不忿，于是反正投靠成龙，龙小组正式完成。同时为了弥补反派战斗力不足，黑手老大瓦龙雇佣了骚话王阿福，是一个能跟成龙正面过招的高手，同时也是一个能把平A当技能打的人",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-7"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:剧情人物概述-3",
+      "entityId": "剧情人物概述-3",
+      "entityType": "characters",
+      "label": "剧情人物概述",
+      "name": "剧情人物概述",
+      "summary": "岁月史书篇 正方:老爹，龙小组(成龙，小玉，牛战士，特鲁，小蛇，牛战士跟班波克) 反派:八大恶魔 恶魔篇最后，圣主附身成龙来到了澳大利亚，篡改了记载世界的岁月史书，直接释放所有恶魔，导致世界被恶魔统治。除了同样抢到半页岁月史书的小玉之外，其他人包括成龙老爹都失去了记忆。小玉靠自己欧皇体质，不断的说服整个龙小组成员和老爹一起对抗恶魔，最终在岁月史书前，靠着修改史书，让老爹瞬间降服所有恶魔\"",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-8"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:剧情人物概述",
+      "entityId": "剧情人物概述",
+      "entityType": "characters",
+      "label": "剧情人物概述",
+      "name": "剧情人物概述",
+      "summary": "\"最开始是符咒篇！ 正方:小玉，老爹，成龙，十三区警方(布莱克警长) 反派:黑手组(瓦龙及打手特鲁，拉苏，阿奋，周)，恶魔圣主。 剧情模式:成龙发现一个符咒(十二生肖中的一个)，然后黑手组织来抢，经过一番不是很激烈的打斗，符咒一般都被走楼梯来到现场的小玉抢走了，少数几个会被黑手拿走。最后一集圣主集齐了符咒想要变身，结果被老爹配置的药水魔法又把符咒抠了出来，本体被老爹流放到地狱。 注:在牛符咒一集，成龙结识了牛战士和他的小跟班，在蛇符咒一集认识了身段诱人的小蛇，为龙小组奠定了基础。",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-6"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:上古背景",
+      "entityId": "上古背景",
+      "entityType": "abilities",
+      "label": "上古背景",
+      "name": "上古背景",
+      "summary": "上古时期，八大恶魔统治世界，火之恶魔圣主统治日本之外的亚洲（可能还包括了欧洲），月之恶魔咒蓝统治月球，山之恶魔波刚统治日本，雷之恶魔中苏统治北美洲，风之恶魔啸风统治中南美洲，天之恶魔西木统治天空，地之恶魔地魁统治地下（可能包括了非洲），水之恶魔芭莎统治大海 与八大恶魔对应的正义存在则是八仙（八位不死神明），为了维持正邪平衡，他们选择封印了八大恶魔而不是将圣主之外的七个恶魔杀死（注意！圣主之外的七大恶魔没有任何地方提过拥有不死之身！） 然而圣主不仅是最强的恶魔战士，还是最顶尖的恶魔巫师，他欺骗了其他七大恶魔集中力量逃出了会消磨他们的力量与智慧的恶魔地狱，独自统治了整个世界 除了自身拥有的火之魔气，圣主还拥有着极其强大的十二符咒之力（目前尚不清楚符咒的力量来自圣主本身还是掠夺自十二生肖，个人倾向于后者）",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-0"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:十二生肖时代",
+      "entityId": "十二生肖时代",
+      "entityType": "abilities",
+      "label": "十二生肖时代",
+      "name": "十二生肖时代",
+      "summary": "濒临破产的瓦龙与阿奋拉苏周重新聚首，他们怀念过去的挥金如土，享受现在的小甜饼，畅想未来的富可敌国，他们想起了老朋友的家底儿，十二符咒。瓦龙派阿奋拉苏周潜入十三区，试图盗取符咒。与此同时，刀龙也看上了符咒的无上法力，一路杀进十三区金库，将全部符咒打包，却被拉苏截胡抢走，小玉发现了他们的行踪，叫醒成龙和布莱克警长，展开了一场恶斗，阿奋等人意外发现了十三区的秘密武器激光自走炮，刀龙则召唤了忠诚的部下甘文崔，却被老爹用魏征的坛子封印，为了结束这一切，成龙用激光炮毁灭了十二符咒，却将符咒中蕴藏的无限法力放出，回到了高贵的十二生肖后代身上，成龙不得不再次出发，找回具有符咒法力的十二生肖。 高贵的中华田园犬，日本猴，墨西哥鼠，拉斯维加斯白虎，吉隆坡公鸡，堪萨斯白猪，印度眼镜蛇，尼斯湖畔公羊，怀俄明野兔，伦敦赛马，喜马拉雅山牦牛，瓦龙宠物圣主。为了找到这些动物，成龙一家再次免费旅游周游世界。 成龙展示了人类第一的好牙口——用牙咬着绳子背着小猪，但还是被刀龙偷袭拿到了鸡和猪的能力。 瓦龙意外遭遇刀龙被变小，不得不来找成龙帮忙，但当他恢复大人身走下飞机，迎接他的是香喷喷的牢饭。 在喜马拉雅山上，老伙计骚话王阿福变身为山，终于展示了他的奥义——龙",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-5"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:圣主",
+      "entityId": "圣主",
+      "entityType": "abilities",
+      "label": "圣主",
+      "name": "圣主",
+      "summary": "八大恶魔中的最强并最具代表性的火之恶魔兼巫师龙，曾一度和其他七位恶魔统治世界，后均被八仙用盘古宝盒封入地狱。一度返回人间，擅自撇开其他七位恶魔来独自恢复对亚洲的统治称霸世界，但被林氏王朝的洛佩法师用咒术分解出十二符咒并变为雕像。后几经流转传到黑手帮处，用各种方法来试图复活本尊以及恶魔统治。经常画大饼以及不守承诺",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-28"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:圣主的符咒介绍",
+      "entityId": "圣主的符咒介绍",
+      "entityType": "abilities",
+      "label": "圣主的符咒介绍",
+      "name": "圣主的符咒介绍",
+      "summary": "共有十二个符咒，分为 ①鼠符咒：生命之力 ②牛符咒：力量之力 ③虎符咒：阴阳之力 ④兔符咒：速度之力 ⑤龙符咒：爆破之力 ⑥蛇符咒：隐形之力 ⑦马符咒：复愈之力 ⑧羊符咒：显灵之力 ⑨猴符咒：变形之力 ⑩鸡符咒：漂浮之力 ⑪狗符咒：永生之力 ⑫猪符咒：镭射之力 只要把任一符咒抓在手中，即可激发出该符咒的魔力效应，可无需念咒语亦或是做出其他过多的动作，一般情况下手捏紧握启动，松开手即可终止解除魔法的运作",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-1"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:寻觅符咒时代",
+      "entityId": "寻觅符咒时代",
+      "entityType": "abilities",
+      "label": "寻觅符咒时代",
+      "name": "寻觅符咒时代",
+      "summary": "依靠火之魔气、十二符咒之力、恶魔魔法，圣主成功统治了整个世界几百年 但在九百年前（现实对应是宋朝，时间和服饰都对得上），圣主的子民斗士洛佩使用了石化魔咒与提取魔咒将圣主的魔力化为十二符咒，并将圣主变为雕像 大约一百年前，瓦龙的祖先发现了圣主的雕像，率领阿奋拉苏的祖先（周是华裔，祖先应该也是铁路工）为圣主抢夺鼠符咒，但被成龙的祖先阻止并将瓦龙三人的祖先送进了监狱 后来，圣主作为祖先的遗物传给了瓦龙，瓦龙是国际最大犯罪组织黑手帮的领袖，麾下主要有阿奋拉苏周特鲁四名骨干，以及大约二十名手下与圣主的黑影兵团。为了复活圣主拿到金鸡王的宝藏，黑手帮开始寻找符咒，十二符咒各自具有不同的强大法力，化静为动的鼠，无限力量的牛，平衡阴阳的虎，超越光速的兔，毁灭一切的龙，隐匿行踪的蛇，治愈伤病的马，灵魂出窍的羊，七十二变的猴，凌空漂浮的鸡，不老不死的狗，炽热激光的猪，成龙历经磨难拿到了十二符咒中的九个，圣主却只有龙和羊两个，双方开始争夺最后的虎，输掉了大胃王比赛的成龙却拿到了虎符咒，但却被分裂为阴阳两面，这一次黑手全员出动，终于抓住了恶成龙，瓦龙开出了大笔金钱做诱饵，吸引恶成龙进入十三区盗出符咒，成功复活圣主。但圣主从不信守承诺，不仅没有按照约定",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-2"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:小蛇",
+      "entityId": "小蛇",
+      "entityType": "abilities",
+      "label": "小蛇",
+      "name": "小蛇",
+      "summary": "身手敏捷的女飞贼，擅长各种偷窃技术，因蛇符咒而与成龙结识。龙小组成员之一",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-27"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:岁月史书时代",
+      "entityId": "岁月史书时代",
+      "entityType": "abilities",
+      "label": "岁月史书时代",
+      "name": "岁月史书时代",
+      "summary": "地狱之门只能打开一次，随着第八扇门的关闭，七大恶魔再也没有办法逃离，圣主却动了一个最恐怖的想法：岁月史书。灵魂状态的他再次穿梭到人间，这一次成功附身了成龙，利用成龙人类最强的躯体找到了岁月史书，并篡改了历史，将世界扭转回八大恶魔统治一切的时代。这个时代已经没有了八仙，成龙失去了力量，全家都成为了圣主的忠实仆人，瓦龙和他的黑手帮也成为了圣主的小丑（这一家子人是真爱啊）圣主自以为一切都做到了完美，不料小玉保留了记忆，她唤醒了成龙内心的正义之心，从圣主体内偷出六个符咒，牛兔龙蛇鸡狗，依靠符咒的强大力量逃出圣主的城堡，找回特鲁、牛战士、小蛇重新组成龙小组，封印了波刚、啸风、西木、中苏，地魁贡献了官方吐槽“都怪圣主那些该死的符咒”，最终虽然成功找到岁月史书，成龙等人却被圣主等人击败，小玉灵机一动也开始修改历史，成龙和牛战士变成了巨人，特鲁变成了超人，小蛇获得了外骨骼武器装甲，成功压制了恶魔，老爹变为大法师，凭空变出四件神明信物将圣主、咒蓝、地魁、芭莎同时封印，小玉找到圣主篡改的历史，将其修正，一切恢复正常。 再次封印了八大恶魔，世界暂时得到平静，间或有一些危害社会的反派出没，都被龙小组击败 在其中，最可怕的当属对波站左王，来自东方的黑",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-4"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:成龙",
+      "entityId": "成龙",
+      "entityType": "abilities",
+      "label": "成龙",
+      "name": "成龙",
+      "summary": "考古学家，武打专家，暗中协助十三区警察组织，负责涉险收集各种过去的魔法器具。拥有一身好功夫，龙小组成员之一",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-26"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:牛符咒",
+      "entityId": "牛符咒",
+      "entityType": "abilities",
+      "label": "牛符咒",
+      "name": "牛符咒",
+      "summary": "牛符咒赋予持有者强悍的肉体力量。如果体格够强壮，使用者并不会发生体型上的改变，但他的力量已经获得了巨大的增幅。像小玉这样的女孩使用牛符咒则会变得相当魁梧. 事实上，牛符咒的增幅并非是固定值，而是让使用者的力量以固定倍数增长，成龙使用后的力量仍然低于圣主的肉身力量；布莱克警长使用后对付黑影兵团的巨魔团时仍然吃力",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-10"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:特鲁",
+      "entityId": "特鲁",
+      "entityType": "abilities",
+      "label": "特鲁",
+      "name": "特鲁",
+      "summary": "日本人，体型肥胖庞大，会相扑，老爹的徒弟，原是瓦龙手下得力助手，后改投成龙，向老爹学习魔法。龙小组成员之一",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-22"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:猪符咒",
+      "entityId": "猪符咒",
+      "entityType": "abilities",
+      "label": "猪符咒",
+      "name": "猪符咒",
+      "summary": "令持有者拥有从眼睛中射出高热激光的能力，直接破坏力不如龙符咒的爆破，但是攻击距离大于龙符咒，具有龙符咒所没有的超强侵彻力，并且可以调节威力和输出功率，以点射或持续放射的方式使用电眼。配合龙符咒威力升级",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-20"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:羊符咒",
+      "entityId": "羊符咒",
+      "entityType": "abilities",
+      "label": "羊符咒",
+      "name": "羊符咒",
+      "summary": "对人或动物使用，羊符咒将使作用对象灵魂出窍。灵魂出窍的人或动物可以无视任何障碍物，并且具有飞行能力，但他将只能做一个旁观者，对周围的事物无法做出任何影响，他说的话也不会被人听到（除非别人也跟着灵魂出窍了），但他可以进入已睡着的人或动物的梦境来与之沟通，在魔法的影响下，羊符咒的使用可能带来一次尴尬的身体交换",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-16"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:群魔乱舞时代",
+      "entityId": "群魔乱舞时代",
+      "entityType": "abilities",
+      "label": "群魔乱舞时代",
+      "name": "群魔乱舞时代",
+      "summary": "圣主肉身死亡后，灵魂回到恶魔地狱，其他七大恶魔趁机欺负失去了力量的圣主，为了逃离恶魔地狱，圣主提出由自己附身成龙，寻找失落的盘库宝盒，打开封印之门释放恶魔，但却阴差阳错下（缘分啊）回到了瓦龙体内，只得率领阿奋拉苏周以及新加入的技能表阿福解救恶魔（周游世界），甚至还坐着火箭遨游宇宙，成龙也光荣成为“中国登月第一人”（虽然不是现实中）。 正派这边，老爹决定收特鲁为自己的徒弟，传授他气魔法。成龙也终于说了真心话“对不起，但这不能还给你。”最终七大恶魔在短暂解救后不久，又被八仙的神明信物所封印，地狱之门也永久关闭。 在封印芭莎时，小玉意外被气魔法卷入地狱，唯一的逃离方法就是圣主死去后空出的第八扇门，成龙与老爹赶往香港，圣主与阿福也尾随而至，并夺走了盘库宝盒，A计划失利，老爹采用B计划，用中国剑封印圣主的灵魂，打开了第八扇门，利用七大恶魔的内讧，小玉成功逃出，瓦龙终于脱下了圣主漂亮的小裙子。 而在此期间，成龙从一座古老的图书馆中找到了圣主的法术大全，书中记载了圣主千万年来研习发明的无数恶魔法术，其中也包括了他通过研究塔拉麾下第一员大将尼嘉的面具的力量，发明的召唤鬼影兵团中的忍者兵团的魔咒，因此圣主将塔拉的形象绘制在了书的封面上。老爹试",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-3"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:老爹",
+      "entityId": "老爹",
+      "entityType": "abilities",
+      "label": "老爹",
+      "name": "老爹",
+      "summary": "古董店的老板，成龙的表叔及武功师傅，小玉的爷爷，很啰嗦，喜欢大蒜，是个会很多奇特武功和魔法的古怪老头。是大法师方的弟子，比起魔杖更喜好用动物标本来施法。 名言:你只管开车！办法由老爹来想！",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-21"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:虎符咒",
+      "entityId": "虎符咒",
+      "entityType": "abilities",
+      "label": "虎符咒",
+      "name": "虎符咒",
+      "summary": "虎符咒的作用是阴阳平衡，能够将互相冲突的力量调和。单独的虎符咒用途不大，但如果想要同时运转其他十一个符咒，那么虎符咒必不可少。虎符咒另外两个功能分别是“找回另一半”与“阴阳分割”。 所谓找回另一半，就是说，如果一个物体被分割，那么只要对分割下来的其中任意一半使用，就能找到另一半。 至于阴阳分割，对人或动物使用，可将其分成阴阳两面的两个分体。代表阴面的分体表现为至善或至正，代表阳面的分体表现为至恶或至邪。 如果圣主失去了虎符咒，他的力量会乱套",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-11"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:马符咒",
+      "entityId": "马符咒",
+      "entityType": "abilities",
+      "label": "马符咒",
+      "name": "马符咒",
+      "summary": "马符咒可以清除作用对象之中的外力，将其恢复到最完美的状态。说通俗点，对人使用，马符咒能将一切伤病从此人身上消除；对物使用，马符咒可以将残破的物体复原得完好如初。 严格来讲，马符咒对人使用的实际效果是将困扰你的伤病清除掉，而并非让你不再受伤或患病，故一些强度极高的攻击手段（比如冲脑门给你一枪）仍能杀死你。配合狗符咒能弥补这个缺陷。 某些魔法带来的影响也无法用马符咒消除",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-15"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:鼠符咒",
+      "entityId": "鼠符咒",
+      "entityType": "abilities",
+      "label": "鼠符咒",
+      "name": "鼠符咒",
+      "summary": "鼠符咒的能力是赋予静止的东西以动力。确切说，对于人形的雕像或人偶之类的、设定上没有自主意识的东西而言，使用鼠符咒可以令它们活动起来，还能拥有自己的思想。这些静物并非仅仅像一个活动的提线木偶一般，而是会根据自己的相关设定行动，比如超级驼鹿被鼠符咒唤醒会是正义的英雄，而羽蛇神雕像会拥有真的羽蛇神的意志和力量，武士团面具同样会像伊卡将军一样行事。",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-9"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "factions:瓦龙",
+      "entityId": "瓦龙",
+      "entityType": "factions",
+      "label": "瓦龙",
+      "name": "瓦龙",
+      "summary": "犯罪组织黑手帮的头目，为了得到传说中秦始皇的宝藏，为圣主办事，不断和成龙他们抢夺十二符咒",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-29"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "locations:刀龙",
+      "entityId": "刀龙",
+      "entityType": "locations",
+      "label": "刀龙",
+      "name": "刀龙",
+      "summary": "来自中国的黑气巫师，手下为黑暗杀手，老爹的死对头。想试图获得黑气和十二符咒，达成破坏世界的气的善恶平衡",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-34"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "locations:波刚",
+      "entityId": "波刚",
+      "entityType": "locations",
+      "label": "波刚",
+      "name": "波刚",
+      "summary": "跟圣主并称为八大恶魔，是圣主的兄弟姐妹、恶魔小龙的叔伯婶姨。曾跟圣主共同统治世界，后被八仙通过盘古宝盒封入地狱，实力随着岁月流逝大不如前。由于圣主再度返回人间时独霸世界，抛却了七大恶魔，导致七大恶魔不同程度对圣主很不信任。后来圣主通过附身瓦龙指挥黑手帮使用盘古宝盒打开封印，众恶魔也因此各种一度来到现代世界",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-32"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:兔符咒",
+      "entityId": "兔符咒",
+      "entityType": "knowledge",
+      "label": "兔符咒",
+      "name": "兔符咒",
+      "summary": "对人或物使用，能够增幅速度，特定条件下甚至可以超过光速，穿越到过去。 兔符咒实际上只是简单地增加你的速度，而并不能达到DC漫画中“神速力”的层次。这就是为什么拉苏在撒了肥皂水的地上使用兔符咒却还是跑不动的缘故。 配合鸡符咒可以达到高速飞行的效果",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-12"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:布莱克警长",
+      "entityId": "布莱克警长",
+      "entityType": "knowledge",
+      "label": "布莱克警长",
+      "name": "布莱克警长",
+      "summary": "精英部队十三区的最高长官，掌管整个十三区的队长，穿着黑风衣的光头大叔，也是成龙的好友",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-24"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:帕克",
+      "entityId": "帕克",
+      "entityType": "knowledge",
+      "label": "帕克",
+      "name": "帕克",
+      "summary": "牛战士的小跟班，也是墨西哥摔跤手。牛战士的铁杆厨，故经常跟陈小玉拌嘴谁最强。龙小组成员之一",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-25"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:恶魔小龙",
+      "entityId": "恶魔小龙",
+      "entityType": "knowledge",
+      "label": "恶魔小龙",
+      "name": "恶魔小龙",
+      "summary": "圣主的儿子，身上拥有火之恶魔黑气，但并非纯龙，曾一度想复活圣主来恢复恶魔统治。之后试图通过收集当初封印七大恶魔时封印信物上残留的魔气来达到全盛来恢复称霸恶魔统治",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-35"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:未命名条目-2",
+      "entityId": "未命名条目-2",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-36"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:未命名条目-3",
+      "entityId": "未命名条目-3",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-37"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:未命名条目-4",
+      "entityId": "未命名条目-4",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-38"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:未命名条目-5",
+      "entityId": "未命名条目-5",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-39"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:未命名条目",
+      "entityId": "未命名条目",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-33"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:狗符咒",
+      "entityId": "狗符咒",
+      "entityType": "knowledge",
+      "label": "狗符咒",
+      "name": "狗符咒",
+      "summary": "令持有者长生不老，并获得免死buff与年轻时的精力、体能，哪怕他是一个行将就木的老头子。 如果你被胖揍一顿，你不会死，但是会感受到疼痛。 狗符咒不能让外表返老还童，也没有消除伤病的功能。配合马符咒能弥补后一个缺陷",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-19"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:猴符咒",
+      "entityId": "猴符咒",
+      "entityType": "knowledge",
+      "label": "猴符咒",
+      "name": "猴符咒",
+      "summary": "猴符咒的用途是赋予形象，不过只能将作用对象变成动物，其他的东西都不行。先想好作用对象要变成什么动物（不论你知不知道那种动物长啥样），然后，将符文石正面指向作用对象，射出魔咒，被魔咒命中的目标（地面等某些过大的目标除外）就会变成你预想的那种动物的形态。如果要变回来，想着把作用对象变回原形，重复上述步骤即可。 如果你想使用猴符咒进行变身，那么你要确保自己能拿回它或者一直带着它——如果符咒被抢走了，你就只好一辈子做一只动物了",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-17"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:蛇符咒",
+      "entityId": "蛇符咒",
+      "entityType": "knowledge",
+      "label": "蛇符咒",
+      "name": "蛇符咒",
+      "summary": "对人或物使用，能起到隐身效果。有一种说法认为蛇符咒的隐身效果必须以物理接触为条件，这就是为什么把蛇符咒放进车载磁带机里只能让车隐形，车上的货物和人依然可以被看见，蛇符咒不能真的让物体消失，因此用油漆之类的染色物可以破解它的效果",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-14"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:阿奋",
+      "entityId": "阿奋",
+      "entityType": "knowledge",
+      "label": "阿奋",
+      "name": "阿奋",
+      "summary": "阿奋:黑手帮的成员，瓦龙的手下。黑手帮三人组之一。三人组中最有明星梦以及最狡诈。 拉苏:黑手帮的成员，瓦龙的手下。黑手帮三人组之一。三人组中的解谜担当，童心未泯。 周:黑手帮的成员，瓦龙的手下。黑手帮三人组之一。三人组中武力最高，能读懂古汉语，但是个大近视。",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-30"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:阿福",
+      "entityId": "阿福",
+      "entityType": "knowledge",
+      "label": "阿福",
+      "name": "阿福",
+      "summary": "瓦龙的手下，曾经变成黑暗杀手，武功招数奇多，且大多名称古怪",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-31"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:陈小玉",
+      "entityId": "陈小玉",
+      "entityType": "knowledge",
+      "label": "陈小玉",
+      "name": "陈小玉",
+      "summary": "成龙的表侄女，龙小组领队及创办者。 人小鬼大，古灵精怪的十岁少女，每当危机来袭都会不老实待在老巢且各种挺身而出，经常闯祸以及屡次帮助成龙顺利完成任务，是成龙最好的搭档",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-23"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:鸡符咒",
+      "entityId": "鸡符咒",
+      "entityType": "knowledge",
+      "label": "鸡符咒",
+      "name": "鸡符咒",
+      "summary": "能够使持有者无视重力进行飞行，但实际效果更像是漂浮与念动力的结合。 此种符咒不仅能使持有者自身漂浮，也能使与符咒持有者接触的物体一同漂浮",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-18"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:龙符咒",
+      "entityId": "龙符咒",
+      "entityType": "knowledge",
+      "label": "龙符咒",
+      "name": "龙符咒",
+      "summary": "龙符咒可以发射“龙爆破”，一种可以引发剧烈爆炸的高热能量，杀伤力极强。将它嵌入手心，就是一门可随心控制的掌心能量炮，强力释放的话相当于半穿甲爆破弹，而降低威力的话可以当做激光切割机。龙符咒是圣主的本命符咒，被认为是在战斗方面最强的符咒。 关于龙符咒的功用略有争议，有人认为是龙火，也有人认为是龙息，龙符咒代表了纯净无穷的能量",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-13"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    }
+  ],
+  "edges": [
+    {
+      "source": "characters:剧情人物概述-2",
+      "target": "characters:剧情人物概述-3",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "剧情人物概述",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-7"
+      ],
+      "id": "edge-1",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:剧情人物概述-2",
+      "target": "characters:剧情人物概述",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "剧情人物概述",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-7"
+      ],
+      "id": "edge-2",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:剧情人物概述-2",
+      "target": "abilities:圣主",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "圣主",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-7"
+      ],
+      "id": "edge-3",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:剧情人物概述-2",
+      "target": "abilities:成龙",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "成龙",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-7"
+      ],
+      "id": "edge-4",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:剧情人物概述-2",
+      "target": "abilities:特鲁",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "特鲁",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-7"
+      ],
+      "id": "edge-5",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:剧情人物概述-2",
+      "target": "abilities:老爹",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "老爹",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-7"
+      ],
+      "id": "edge-6",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:剧情人物概述-2",
+      "target": "factions:瓦龙",
+      "sourceEntityType": "characters",
+      "targetEntityType": "factions",
+      "predicate": "characters-mentions-factions",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "瓦龙",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-7"
+      ],
+      "id": "edge-7",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:剧情人物概述-3",
+      "target": "characters:剧情人物概述-2",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "剧情人物概述",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-8"
+      ],
+      "id": "edge-8",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:剧情人物概述-3",
+      "target": "characters:剧情人物概述",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "剧情人物概述",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-8"
+      ],
+      "id": "edge-9",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:剧情人物概述-3",
+      "target": "abilities:圣主",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "圣主",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-8"
+      ],
+      "id": "edge-10",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:剧情人物概述-3",
+      "target": "abilities:小蛇",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "小蛇",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-8"
+      ],
+      "id": "edge-11",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:剧情人物概述-3",
+      "target": "abilities:成龙",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "成龙",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-8"
+      ],
+      "id": "edge-12",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:剧情人物概述-3",
+      "target": "abilities:特鲁",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "特鲁",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-8"
+      ],
+      "id": "edge-13",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:剧情人物概述-3",
+      "target": "abilities:老爹",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "老爹",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-8"
+      ],
+      "id": "edge-14",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:剧情人物概述",
+      "target": "characters:剧情人物概述-2",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "剧情人物概述",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-6"
+      ],
+      "id": "edge-15",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:剧情人物概述",
+      "target": "characters:剧情人物概述-3",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "剧情人物概述",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-6"
+      ],
+      "id": "edge-16",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:剧情人物概述",
+      "target": "abilities:圣主",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "圣主",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-6"
+      ],
+      "id": "edge-17",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:剧情人物概述",
+      "target": "abilities:小蛇",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "小蛇",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-6"
+      ],
+      "id": "edge-18",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:剧情人物概述",
+      "target": "abilities:成龙",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "成龙",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-6"
+      ],
+      "id": "edge-19",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:剧情人物概述",
+      "target": "abilities:牛符咒",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "牛符咒",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-6"
+      ],
+      "id": "edge-20",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:剧情人物概述",
+      "target": "abilities:特鲁",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "特鲁",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-6"
+      ],
+      "id": "edge-21",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:剧情人物概述",
+      "target": "abilities:老爹",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "老爹",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-6"
+      ],
+      "id": "edge-22",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:剧情人物概述",
+      "target": "factions:瓦龙",
+      "sourceEntityType": "characters",
+      "targetEntityType": "factions",
+      "predicate": "characters-mentions-factions",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "瓦龙",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-6"
+      ],
+      "id": "edge-23",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "factions:瓦龙",
+      "target": "abilities:圣主",
+      "sourceEntityType": "factions",
+      "targetEntityType": "abilities",
+      "predicate": "factions-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "圣主",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-29"
+      ],
+      "id": "edge-24",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "factions:瓦龙",
+      "target": "abilities:成龙",
+      "sourceEntityType": "factions",
+      "targetEntityType": "abilities",
+      "predicate": "factions-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "成龙",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-29"
+      ],
+      "id": "edge-25",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:上古背景",
+      "target": "abilities:圣主",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "圣主",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-0"
+      ],
+      "id": "edge-26",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:上古背景",
+      "target": "locations:波刚",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "locations",
+      "predicate": "abilities-mentions-locations",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "波刚",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-0"
+      ],
+      "id": "edge-27",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:十二生肖时代",
+      "target": "abilities:圣主",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "圣主",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-5"
+      ],
+      "id": "edge-28",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:十二生肖时代",
+      "target": "abilities:成龙",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "成龙",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-5"
+      ],
+      "id": "edge-29",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:十二生肖时代",
+      "target": "abilities:老爹",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "老爹",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-5"
+      ],
+      "id": "edge-30",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:十二生肖时代",
+      "target": "factions:瓦龙",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "factions",
+      "predicate": "abilities-mentions-factions",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "瓦龙",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-5"
+      ],
+      "id": "edge-31",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:十二生肖时代",
+      "target": "locations:刀龙",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "locations",
+      "predicate": "abilities-mentions-locations",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "刀龙",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-5"
+      ],
+      "id": "edge-32",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:圣主的符咒介绍",
+      "target": "abilities:圣主",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "圣主",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-1"
+      ],
+      "id": "edge-33",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:圣主的符咒介绍",
+      "target": "abilities:牛符咒",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "牛符咒",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-1"
+      ],
+      "id": "edge-34",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:圣主的符咒介绍",
+      "target": "abilities:猪符咒",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "猪符咒",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-1"
+      ],
+      "id": "edge-35",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:圣主的符咒介绍",
+      "target": "abilities:羊符咒",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "羊符咒",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-1"
+      ],
+      "id": "edge-36",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:圣主的符咒介绍",
+      "target": "abilities:虎符咒",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "虎符咒",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-1"
+      ],
+      "id": "edge-37",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:圣主的符咒介绍",
+      "target": "abilities:马符咒",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "马符咒",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-1"
+      ],
+      "id": "edge-38",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:圣主的符咒介绍",
+      "target": "abilities:鼠符咒",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "鼠符咒",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-1"
+      ],
+      "id": "edge-39",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:寻觅符咒时代",
+      "target": "abilities:圣主",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "圣主",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-2"
+      ],
+      "id": "edge-40",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:寻觅符咒时代",
+      "target": "abilities:成龙",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "成龙",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-2"
+      ],
+      "id": "edge-41",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:寻觅符咒时代",
+      "target": "abilities:特鲁",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "特鲁",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-2"
+      ],
+      "id": "edge-42",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:寻觅符咒时代",
+      "target": "abilities:虎符咒",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "虎符咒",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-2"
+      ],
+      "id": "edge-43",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:寻觅符咒时代",
+      "target": "abilities:鼠符咒",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "鼠符咒",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-2"
+      ],
+      "id": "edge-44",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:寻觅符咒时代",
+      "target": "factions:瓦龙",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "factions",
+      "predicate": "abilities-mentions-factions",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "瓦龙",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-2"
+      ],
+      "id": "edge-45",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:小蛇",
+      "target": "abilities:成龙",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "成龙",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-27"
+      ],
+      "id": "edge-46",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:岁月史书时代",
+      "target": "abilities:圣主",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "圣主",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-4"
+      ],
+      "id": "edge-47",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:岁月史书时代",
+      "target": "abilities:小蛇",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "小蛇",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-4"
+      ],
+      "id": "edge-48",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:岁月史书时代",
+      "target": "abilities:成龙",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "成龙",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-4"
+      ],
+      "id": "edge-49",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:岁月史书时代",
+      "target": "abilities:特鲁",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "特鲁",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-4"
+      ],
+      "id": "edge-50",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:岁月史书时代",
+      "target": "abilities:老爹",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "老爹",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-4"
+      ],
+      "id": "edge-51",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:岁月史书时代",
+      "target": "factions:瓦龙",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "factions",
+      "predicate": "abilities-mentions-factions",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "瓦龙",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-4"
+      ],
+      "id": "edge-52",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:岁月史书时代",
+      "target": "locations:波刚",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "locations",
+      "predicate": "abilities-mentions-locations",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "波刚",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-4"
+      ],
+      "id": "edge-53",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:牛符咒",
+      "target": "abilities:圣主",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "圣主",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-10"
+      ],
+      "id": "edge-54",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:牛符咒",
+      "target": "abilities:成龙",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "成龙",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-10"
+      ],
+      "id": "edge-55",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:特鲁",
+      "target": "abilities:成龙",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "成龙",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-22"
+      ],
+      "id": "edge-56",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:特鲁",
+      "target": "abilities:老爹",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "老爹",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-22"
+      ],
+      "id": "edge-57",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:特鲁",
+      "target": "factions:瓦龙",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "factions",
+      "predicate": "abilities-mentions-factions",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "瓦龙",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-22"
+      ],
+      "id": "edge-58",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:群魔乱舞时代",
+      "target": "abilities:圣主",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "圣主",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-3"
+      ],
+      "id": "edge-59",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:群魔乱舞时代",
+      "target": "abilities:成龙",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "成龙",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-3"
+      ],
+      "id": "edge-60",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:群魔乱舞时代",
+      "target": "abilities:特鲁",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "特鲁",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-3"
+      ],
+      "id": "edge-61",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:群魔乱舞时代",
+      "target": "abilities:老爹",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "老爹",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-3"
+      ],
+      "id": "edge-62",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:群魔乱舞时代",
+      "target": "factions:瓦龙",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "factions",
+      "predicate": "abilities-mentions-factions",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "瓦龙",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-3"
+      ],
+      "id": "edge-63",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:老爹",
+      "target": "abilities:成龙",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "成龙",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-21"
+      ],
+      "id": "edge-64",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:虎符咒",
+      "target": "abilities:圣主",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "圣主",
+      "sourceRefs": [
+        "成龙历险记世界 (1).worldbook.json#entry-11"
+      ],
+      "id": "edge-65",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    }
+  ]
+}

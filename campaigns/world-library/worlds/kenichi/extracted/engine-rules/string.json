@@ -1,0 +1,27 @@
+{
+  "source_refs": [
+    "shzqdz_card.worldbook.json#entry-41"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "string]: {"
+      },
+      "aliases": [
+        "string]: {",
+        "[mvu_update]变量更新规则"
+      ],
+      "summary": "--- 变量更新规则: protagonist: name: check: - 在故事开局，由用户决定或情节揭晓后，进行唯一一次设定。此后不应更改。 status: type: |- { [状态名称: string]: string; // 状态详情 } check: - 根据战斗、修行、中毒、受伤、顿悟等剧情事件动态增减。 - 状态解除后（如伤愈、毒解），应及时移除对应条目。 powerLevel: value: \"主角的实力阶层，如：弟子级-初阶、达人级\" check: - 仅在主角完成地狱修行、击败强敌、获得顿悟等重大剧情节点后才应更新。 - 更新必须有明确的剧情支撑，不可凭空升级。 martialArts: type: |- { [武术名: string]: { type: \"流派\" | \"招式\" | \"境界\"; description: string; } } check: - 当剧情中出现新的武术流派、招式或武学境界时进行添加。 - 内容应严格基于剧情中的描述，用于构建世界的武学知识库。 factions: type: |- { [势力名: string]: { alignment: \"活人拳\" | \"杀人拳\" ",
+      "description": "--- 变量更新规则: protagonist: name: check: - 在故事开局，由用户决定或情节揭晓后，进行唯一一次设定。此后不应更改。 status: type: |- { [状态名称: string]: string; // 状态详情 } check: - 根据战斗、修行、中毒、受伤、顿悟等剧情事件动态增减。 - 状态解除后（如伤愈、毒解），应及时移除对应条目。 powerLevel: value: \"主角的实力阶层，如：弟子级-初阶、达人级\" check: - 仅在主角完成地狱修行、击败强敌、获得顿悟等重大剧情节点后才应更新。 - 更新必须有明确的剧情支撑，不可凭空升级。 martialArts: type: |- { [武术名: string]: { type: \"流派\" | \"招式\" | \"境界\"; description: string; } } check: - 当剧情中出现新的武术流派、招式或武学境界时进行添加。 - 内容应严格基于剧情中的描述，用于构建世界的武学知识库。 factions: type: |- { [势力名: string]: { alignment: \"活人拳\" | \"杀人拳\" | \"中立\" | \"原创\"; influence: string; // 影响力评级 members: string[]; // 成员列表 } } check: - 当剧情中首次引入新势力（如原创帮派），或现有势力发生重大变化（如领导层更迭、解散、合并）时进行更新。 relationships: type: |- { [角色姓名: string]: { affection: number; // 好感度 relationshipType: string; // 关系类型 isHaremMember: boolean; // 是否为后宫成员 } } check: - 必须从提供的<人物列表>中选择角色姓名。 - affection: 根据主角与角色的互动（如送礼、并肩作战、暖心对话、发生冲突）进行增减。单次变化不宜过大，除非有决定性事件。 - relationshipType: 当关系发生质变时更新，如从‘对手’变为‘盟友’，或从‘朋友’变为‘恋人’、‘师徒’。 - isHaremMember: 仅在角色明确表达爱意且主角接受，或双方关系达到事实上的伴侣状态后，可更新为true。 worldState: time: check: - 每次事件推进、场景切换、休息或旅行后更新，确保时间流逝的合理性。 location: check: - 当主角移动到新的明确地点时更新。 chapter: check: - 仅在主线剧情推进到新的阶段时，从<章节列表>中选择对应的章节名称进行更新。 - 若进入原创剧情，可命名为“原创剧情：xxx”或保持在上一主线章节名后，用任务系统来追踪具体事件。 inventory: money: type: number check: - 完成委托、获得奖金、打工赚钱时增加。 - 购买物品、支付费用、请客等消费时减少。 items: &equipment type: |- { [物品/装备名: string]: { quantity: number; description: string; } } check: ",
+      "sourceRef": "shzqdz_card.worldbook.json#entry-41",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "string"
+}

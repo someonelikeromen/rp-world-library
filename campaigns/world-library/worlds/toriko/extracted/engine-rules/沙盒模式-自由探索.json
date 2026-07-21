@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "msfl_card.worldbook.json#entry-39"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "沙盒模式 - 自由探索"
+      },
+      "aliases": [
+        "沙盒模式 - 自由探索"
+      ],
+      "summary": "<%_ var mode = getvar('stat_data.剧情.模式') || '日常'; var vol = getvar('stat_data.剧情.当前卷') || 1; var curChapter = getvar('stat_data.剧情.当前章节') || '加拉鳄篇'; var play = getvar('stat_data.当前玩法') || '剧情'; var _ch_idx = { 1: '加拉鳄篇', 2: '世纪汤篇', 3: '蔬菜天空篇', 4: '梅尔克山篇', 5: '美食金字塔篇', 6: '美食赌场篇', 7: '食林寺篇', 8: '四兽篇', 9: '烹饪节篇', 10: '美食会战争篇', 11: '美食界八王探索篇', 12: 'NEO决战终章篇' }; if (play === '沙盒') { _%> ## 沙盒模式 - 自由探索 <%= curChapter %>（第<%= vol %>卷）| 可选节点由{{user}}自由触发：加拉鳄→彩虹果实→河豚鲸→宝石之肉→世纪汤→臭氧草→梅尔克星尘→Mellow Cola→流星大蒜→食义修行→四兽→烹饪节→美食界→八王→",
+      "description": "<%_ var mode = getvar('stat_data.剧情.模式') || '日常'; var vol = getvar('stat_data.剧情.当前卷') || 1; var curChapter = getvar('stat_data.剧情.当前章节') || '加拉鳄篇'; var play = getvar('stat_data.当前玩法') || '剧情'; var _ch_idx = { 1: '加拉鳄篇', 2: '世纪汤篇', 3: '蔬菜天空篇', 4: '梅尔克山篇', 5: '美食金字塔篇', 6: '美食赌场篇', 7: '食林寺篇', 8: '四兽篇', 9: '烹饪节篇', 10: '美食会战争篇', 11: '美食界八王探索篇', 12: 'NEO决战终章篇' }; if (play === '沙盒') { _%> ## 沙盒模式 - 自由探索 <%= curChapter %>（第<%= vol %>卷）| 可选节点由{{user}}自由触发：加拉鳄→彩虹果实→河豚鲸→宝石之肉→世纪汤→臭氧草→梅尔克星尘→Mellow Cola→流星大蒜→食义修行→四兽→烹饪节→美食界→八王→NEO决战。 <%_ } else if (mode === '日常') { _%> ## 日常模式 - <%= curChapter %>（第<%= vol %>卷） 不主动推进主线。{{user}}主导节奏。 <%_ } else if (mode === '推进') { var cn = _ch_idx[vol] || curChapter; _%> <%= await getwi(cn) %> <%_ } _%>",
+      "sourceRef": "msfl_card.worldbook.json#entry-39",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "沙盒模式-自由探索"
+}

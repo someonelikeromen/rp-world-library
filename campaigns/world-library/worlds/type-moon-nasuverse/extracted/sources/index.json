@@ -1,0 +1,234 @@
+{
+  "schema": "tm-nasuverse-extracted-source-index-v1",
+  "worldId": "type-moon-nasuverse",
+  "sourceRoot": "campaigns/world-library/manual-curation/type-moon-p1-hybrid/",
+  "destinationRoot": "campaigns/world-library/worlds/type-moon-nasuverse/extracted/",
+  "indexPolicy": "Source registry for world_query. Formal records must resolve through accepted pilot artifacts or representative shard records; candidate/source-gap pilots are separately flagged.",
+  "formalSourcePilots": [
+    {
+      "pilotId": "fsn-fz-pilot",
+      "status": "passed-with-known-risks",
+      "sourceType": "p1-hybrid-local-worldbook-and-story-text",
+      "credibility": "B",
+      "canonStatus": "canon-like/adapted",
+      "continuityScope": ["fate-stay-night", "fate-zero"],
+      "candidateOnly": false,
+      "sourceGap": false,
+      "sourceRefs": [
+        "fsn-fz-pilot/sources/story-text/manifest.json",
+        "fsn-fz-pilot/sources/worldbook-text/manifest.json",
+        "fsn-fz-pilot/merged/index.json",
+        "fsn-fz-pilot/audit/final-pass-report.json"
+      ]
+    },
+    {
+      "pilotId": "fgo-script-pilot",
+      "status": "passed-with-nonblocking-risks",
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "continuityScope": ["fgo-part1"],
+      "candidateOnly": false,
+      "sourceGap": false,
+      "sourceRefs": [
+        "fgo-script-pilot/sources/worldbook-script/part1/source-text-manifest.json",
+        "fgo-script-pilot/merged/",
+        "fgo-script-pilot/STATUS.md"
+      ]
+    },
+    {
+      "pilotId": "fgo-eor-pilot",
+      "status": "passed-with-nonblocking-risks",
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "continuityScope": ["fgo-epic-of-remnant"],
+      "candidateOnly": false,
+      "sourceGap": false,
+      "sourceRefs": [
+        "fgo-eor-pilot/sources/worldbook-script/eor/source-text-manifest.json",
+        "fgo-eor-pilot/merged/",
+        "fgo-eor-pilot/STATUS.md"
+      ]
+    },
+    {
+      "pilotId": "fgo-lb1-lb2-pilot",
+      "status": "passed-with-nonblocking-risks",
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "continuityScope": ["fgo-lostbelt", "lb1-anastasia", "lb2-gotterdammerung"],
+      "candidateOnly": false,
+      "sourceGap": false,
+      "sourceRefs": [
+        "fgo-lb1-lb2-pilot/sources/worldbook-script/lostbelt/source-text-manifest.json",
+        "fgo-lb1-lb2-pilot/merged/index.json",
+        "fgo-lb1-lb2-pilot/STATUS.md"
+      ]
+    },
+    {
+      "pilotId": "fgo-lb3-lb4-pilot",
+      "status": "passed-with-nonblocking-risks",
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "continuityScope": ["fgo-lostbelt", "lb3-renzhi-tonghe-zhenguo", "lb4-chuangshi-miewang-lunhui"],
+      "candidateOnly": false,
+      "sourceGap": false,
+      "sourceRefs": [
+        "fgo-lb3-lb4-pilot/sources/worldbook-script/lostbelt/source-text-manifest.json",
+        "fgo-lb3-lb4-pilot/merged/index.json",
+        "fgo-lb3-lb4-pilot/STATUS.md"
+      ]
+    },
+    {
+      "pilotId": "fgo-lb5-pilot",
+      "status": "passed-with-nonblocking-risks",
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "continuityScope": ["fgo-lostbelt", "lb5-1-atlantis", "lb5-2-olympos"],
+      "candidateOnly": false,
+      "sourceGap": false,
+      "sourceRefs": [
+        "fgo-lb5-pilot/sources/worldbook-script/lostbelt/source-text-manifest.json",
+        "fgo-lb5-pilot/merged/index.json",
+        "fgo-lb5-pilot/STATUS.md"
+      ]
+    },
+    {
+      "pilotId": "fgo-lb6-pilot",
+      "status": "passed-with-nonblocking-risks",
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "continuityScope": ["fgo-lostbelt", "lb6-1-avalon-pre", "lb6-2-round-table-post"],
+      "candidateOnly": false,
+      "sourceGap": false,
+      "sourceRefs": [
+        "fgo-lb6-pilot/sources/worldbook-script/lostbelt/source-text-manifest.json",
+        "fgo-lb6-pilot/merged/index.json",
+        "fgo-lb6-pilot/STATUS.md"
+      ]
+    },
+    {
+      "pilotId": "fgo-ordeal-call-pilot",
+      "status": "accepted-with-nonblocking-risks",
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "continuityScope": ["fgo-ordeal-call", "oc1-paper-moon", "oc2-id", "oc3-integration"],
+      "candidateOnly": false,
+      "sourceGap": false,
+      "sourceRefs": [
+        "fgo-ordeal-call-pilot/sources/worldbook-script/ordeal-call/source-text-manifest.json",
+        "fgo-ordeal-call-pilot/merged/index.json",
+        "fgo-ordeal-call-pilot/STATUS.md"
+      ]
+    },
+    {
+      "pilotId": "kara-no-kyoukai-profile-supplement-pilot",
+      "status": "passed-with-nonblocking-risks",
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "canonStatus": "canon-like/adapted",
+      "continuityScope": ["kara-no-kyoukai", "future-gospel", "type-moon-general-cross-check"],
+      "candidateOnly": false,
+      "sourceGap": false,
+      "sourceRefs": [
+        "kara-no-kyoukai-profile-supplement-pilot/sources/worldbook-profile/source-text-manifest.json",
+        "kara-no-kyoukai-profile-supplement-pilot/merged/profile-index.json",
+        "kara-no-kyoukai-profile-supplement-pilot/STATUS.md"
+      ]
+    },
+    {
+      "pilotId": "prisma-illya-profile-supplement-pilot",
+      "status": "passed-with-nonblocking-risks",
+      "sourceType": "user-file-worldbook-profile-redacted",
+      "credibility": "B",
+      "canonStatus": "canon-like/adapted",
+      "continuityScope": ["prisma-illya", "fsn-prisma-identity-separation"],
+      "candidateOnly": false,
+      "sourceGap": false,
+      "sourceRefs": [
+        "prisma-illya-profile-supplement-pilot/sources/worldbook-profile/source-text-manifest.json",
+        "prisma-illya-profile-supplement-pilot/normalized/profile-supplement/prisma-illya/index.json",
+        "prisma-illya-profile-supplement-pilot/STATUS.md"
+      ],
+      "redactionPolicy": "Unsafe underage adult-content sections excluded from formal facts."
+    },
+    {
+      "pilotId": "lb6-fairy-calendar-supplement-pilot",
+      "status": "passed-with-nonblocking-risks",
+      "sourceType": "user-file-worldbook-setting",
+      "credibility": "B",
+      "canonStatus": "canon-like/adapted",
+      "continuityScope": ["fgo-lostbelt", "lb6-fairy-calendar"],
+      "candidateOnly": false,
+      "sourceGap": false,
+      "sourceRefs": [
+        "lb6-fairy-calendar-supplement-pilot/sources/worldbook-setting/source-text-manifest.json",
+        "lb6-fairy-calendar-supplement-pilot/normalized/calendar-setting/calendar-system.json",
+        "lb6-fairy-calendar-supplement-pilot/STATUS.md"
+      ]
+    },
+    {
+      "pilotId": "type-moon-core-general-settings-pilot",
+      "status": "passed-with-human-scope-limitations",
+      "sourceType": "derived-from-completed-pilot-settings-supplement",
+      "credibility": "B with human-scope limitations",
+      "canonStatus": "adapted/secondary-summary",
+      "continuityScope": ["type-moon-general"],
+      "candidateOnly": false,
+      "sourceGap": false,
+      "sourceRefs": [
+        "type-moon-core-general-settings-pilot/normalized/core-general-settings/index.json",
+        "type-moon-core-general-settings-pilot/normalized/core-general-settings/settings-supplement.json",
+        "type-moon-core-general-settings-pilot/audit/final-status.json"
+      ],
+      "formalizationNote": "Records in the source core index with candidateOnly or sourceGap are excluded from formal rules/organizations and retained under source-gaps."
+    }
+  ],
+  "nonFormalSourcePilots": [
+    {
+      "pilotId": "fate-spinoff-profile-supplement-pilot",
+      "candidateOnly": true,
+      "sourceGap": true,
+      "decision": "blocked-insufficient-source inventory only",
+      "sourceRefs": [
+        "fate-spinoff-profile-supplement-pilot/source-gap-inventory.json",
+        "fate-spinoff-profile-supplement-pilot/source-unit-manifest.json"
+      ]
+    },
+    {
+      "pilotId": "tsukihime-supporting-cast-candidate-supplement-pilot",
+      "candidateOnly": true,
+      "sourceGap": true,
+      "decision": "candidate supplement only; no formal facts",
+      "sourceRefs": [
+        "tsukihime-supporting-cast-candidate-supplement-pilot/candidate-supplement.json",
+        "tsukihime-supporting-cast-candidate-supplement-pilot/source-gap-inventory.json"
+      ]
+    },
+    {
+      "pilotId": "tsukihime-dead-apostle-profile-supplement-pilot",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "decision": "hold from formal publication pending separate final audit",
+      "sourceRefs": [
+        "tsukihime-dead-apostle-profile-supplement-pilot/audit/final/final-status.json",
+        "tsukihime-dead-apostle-profile-supplement-pilot/STATUS.md"
+      ]
+    },
+    {
+      "pilotId": "mahoyo-profile-supplement-pilot",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "decision": "hold from formal publication pending read-only auditor rerun",
+      "sourceRefs": [
+        "mahoyo-profile-supplement-pilot/STATUS.md",
+        "mahoyo-profile-supplement-pilot/audit/fixer/mahoyo-fixer-retry-report.json"
+      ]
+    }
+  ]
+}

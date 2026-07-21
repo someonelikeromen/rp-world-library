@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "OVERLORD.worldbook.json#entry-144"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "开局"
+      },
+      "aliases": [
+        "开局"
+      ],
+      "summary": "<开局> 请你根据提供的背景描述，生成开局。开局你要完成以下几件事： step1: - 你需要按照变量更新方法使用_.set，根据已经提供的主角能力表，种族，装备，职业，技能，计算并修改主角HP,MP,物理/魔法攻击，物理/魔法防御。 - 不允许修改添加除了HP,MP,物理/魔法攻击，物理/魔法防御以外的主角变量。（如等级，装备，种族表，职业表等不允许修改添加） - 根据剧情出现角色，添加关系/敌人，必须确保各个关系/敌人条目完全，符合MVU变量规则。 - 检查是否建立或者加入势力，修改势力的变量。 step2:检查是否完成以上的事情。不得修改不允许修改的变量。 </开局>",
+      "description": "<开局> 请你根据提供的背景描述，生成开局。开局你要完成以下几件事： step1: - 你需要按照变量更新方法使用_.set，根据已经提供的主角能力表，种族，装备，职业，技能，计算并修改主角HP,MP,物理/魔法攻击，物理/魔法防御。 - 不允许修改添加除了HP,MP,物理/魔法攻击，物理/魔法防御以外的主角变量。（如等级，装备，种族表，职业表等不允许修改添加） - 根据剧情出现角色，添加关系/敌人，必须确保各个关系/敌人条目完全，符合MVU变量规则。 - 检查是否建立或者加入势力，修改势力的变量。 step2:检查是否完成以上的事情。不得修改不允许修改的变量。 </开局>",
+      "sourceRef": "OVERLORD.worldbook.json#entry-144",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "开局-3"
+}

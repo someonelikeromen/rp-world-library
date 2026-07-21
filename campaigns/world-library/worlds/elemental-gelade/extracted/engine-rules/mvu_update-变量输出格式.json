@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "wqzjcs_card.worldbook.json#entry-78"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[mvu_update]变量输出格式"
+      },
+      "aliases": [
+        "[mvu_update]变量输出格式"
+      ],
+      "summary": "--- 变量输出格式: rule: - 每次回复末尾必须输出变量更新 - 严格遵循 JSON Patch (RFC 6902): replace, add, remove - 关系网使用 add 添加新角色，使用 replace 更新已有角色字段 - 不更新以 _ 开头的只读字段 - 不暴露以 $ 开头的隐藏字段 format: |- <UpdateVariable> <Analysis>$(IN ENGLISH, no more than 80 words) - ${calculate time passed} - ${analyze every variable based on check rules} </Analysis> <JSONPatch> [ { \"op\": \"replace\", \"path\": \"${/path}\", \"value\": \"${new_value}\" }, { \"op\": \"add\", \"path\": \"${/path/newKey}\", \"value\": \"${content}\" } ] </JSONPatch> </UpdateVariable> 路径速查: /模式/角色模式 → str",
+      "description": "--- 变量输出格式: rule: - 每次回复末尾必须输出变量更新 - 严格遵循 JSON Patch (RFC 6902): replace, add, remove - 关系网使用 add 添加新角色，使用 replace 更新已有角色字段 - 不更新以 _ 开头的只读字段 - 不暴露以 $ 开头的隐藏字段 format: |- <UpdateVariable> <Analysis>$(IN ENGLISH, no more than 80 words) - ${calculate time passed} - ${analyze every variable based on check rules} </Analysis> <JSONPatch> [ { \"op\": \"replace\", \"path\": \"${/path}\", \"value\": \"${new_value}\" }, { \"op\": \"add\", \"path\": \"${/path/newKey}\", \"value\": \"${content}\" } ] </JSONPatch> </UpdateVariable> 路径速查: /模式/角色模式 → string: '原作'|'取代'|'共存' /模式/玩法模式 → string: '剧情'|'沙盒' /user/名字 → string /user/身份 → string /user/当前位置 → string /关系网/角色名 → add: {\"好感度\":number, \"信任度\":number, \"关系\":string} /关系网/角色名/好感度 → replace: number (0-100) /关系网/角色名/信任度 → replace: number (0-100) /关系网/角色名/关系 → replace: string /剧情/当前卷 → number (1-26) /剧情/当前章节 → string /剧情/章节内已完成事件 → string /剧情/关键事件 → string /剧情/模式 → string: '日常'|'推进' /剧情/推进许可 → boolean",
+      "sourceRef": "wqzjcs_card.worldbook.json#entry-78",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "mvu_update-变量输出格式"
+}

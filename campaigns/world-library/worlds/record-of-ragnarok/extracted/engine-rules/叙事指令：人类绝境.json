@@ -1,0 +1,27 @@
+{
+  "source_refs": [
+    "vs_card.worldbook.json#entry-141"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "叙事指令：人类绝境"
+      },
+      "aliases": [
+        "叙事指令：人类绝境",
+        "动态世界-战局氛围"
+      ],
+      "summary": "--- <%_ const humanWins = getvar('stat_data.诸神黄昏.赛况.人类胜场'); const godWins = getvar('stat_data.诸神黄昏.赛况.神明胜场'); if (humanWins === undefined || godWins === undefined) { _%> <%_ } else { const delta = humanWins - godWins; if (delta <= -2) { _%> <world_atmosphere priority=\"critical\"> # 叙事指令：人类绝境 - **氛围:** 极度压抑、悲观。人类观众席死寂一片，充满了绝望的抽泣和无声的祈祷。 - **神明反应:** 极度傲慢与轻蔑。宙斯等主神会公开嘲笑人类的无力，认为大局已定，视后续战斗为余兴节目。 - **布伦希尔德:** 表现出前所未有的焦虑和压力，可能会出现决策失误或情绪失控的倾向。她与格蕾的对话会充满沉重感。 - **叙事重点:** 聚焦于人类方的挣扎与不屈，或描写一个出人意料的转折点来打破绝望。剧情应极具张力。 </world_atmosphe",
+      "description": "--- <%_ const humanWins = getvar('stat_data.诸神黄昏.赛况.人类胜场'); const godWins = getvar('stat_data.诸神黄昏.赛况.神明胜场'); if (humanWins === undefined || godWins === undefined) { _%> <%_ } else { const delta = humanWins - godWins; if (delta <= -2) { _%> <world_atmosphere priority=\"critical\"> # 叙事指令：人类绝境 - **氛围:** 极度压抑、悲观。人类观众席死寂一片，充满了绝望的抽泣和无声的祈祷。 - **神明反应:** 极度傲慢与轻蔑。宙斯等主神会公开嘲笑人类的无力，认为大局已定，视后续战斗为余兴节目。 - **布伦希尔德:** 表现出前所未有的焦虑和压力，可能会出现决策失误或情绪失控的倾向。她与格蕾的对话会充满沉重感。 - **叙事重点:** 聚焦于人类方的挣扎与不屈，或描写一个出人意料的转折点来打破绝望。剧情应极具张力。 </world_atmosphere> <%_ } else if (delta === -1) { _%> <world_atmosphere priority=\"high\"> # 叙事指令：神明优势 - **氛围:** 紧张而沉重。人类方处于劣势，希望能扳回一城，但信心不足。 - **神明反应:** 普遍轻松，带着戏谑的态度观战。阿瑞斯、赫耳墨斯等会从战术角度分析人类的败因，言语间充满优越感。 - **布伦希尔德:** 面色凝重，会更频繁地进行战术推演，对下一位出战者的选择极为审慎。 - **叙事重点:** 强调下一战的重要性，营造“背水一战”的氛围。 </world_atmosphere> <%_ } else if (delta === 0) { _%> <world_atmosphere priority=\"high\"> # 叙事指令：势均力敌 - **氛围:** 极度紧张，一触即发。双方观众都屏息凝神，每一次攻击都能引发山呼海啸般的反应。 - **神明反应:** 收起了最初的轻视，开始认真对待。宙斯会饶有兴致地观察，奥丁等高位神明会睁开眼睛。 - **布伦希尔德:** 精神高度集中，眼中燃烧着希望与决意。 - **叙事重点:** 细致描写场上的每一次交锋，突出双方斗士的意志与技巧的碰撞。 </world_atmosphere> <%_ } else if (delta === 1) { _%> <world_atmosphere priority=\"high\"> # 叙事指令：人类优势 - **氛围:** 惊愕与狂喜交织。人类观众席爆发出前所未有的欢呼，希望之火熊熊燃烧。 - **神明反应:** 震惊、愤怒、难以置信。部分神明会开始互相指责，或质疑出战者的实力。洛基会对此感到极大的愉悦。 - **布伦希尔德:** 虽略有优势，但丝毫不敢放松，她深知众神的真正实力还未展现。 - **叙事重点:** 描写众神的失态与人类的团结，胜利的天平第一次开始倾斜。 </world_atmosphere> <%_ } else if (delta >= 2) { _",
+      "sourceRef": "vs_card.worldbook.json#entry-141",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "叙事指令：人类绝境"
+}

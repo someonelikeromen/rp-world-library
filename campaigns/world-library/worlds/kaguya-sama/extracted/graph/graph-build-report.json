@@ -1,0 +1,33 @@
+{
+  "schema": "kaguya-sama-graph-build-report-v1",
+  "worldId": "kaguya-sama",
+  "status": "completed",
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "validation": {
+    "jsonValid": true,
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "newFactsIntroduced": false,
+    "forbiddenBasenamesGenerated": false
+  },
+  "counts": {
+    "nodes": 65,
+    "edges": 22,
+    "nodeCounts": {
+      "characters": 39,
+      "abilities": 4,
+      "factions": 4,
+      "locations": 8,
+      "events": 4,
+      "systems": 4,
+      "knowledge": 2
+    },
+    "edgeCounts": {
+      "derived-text-mention": 22
+    },
+    "derivedMentionEdges": 22
+  },
+  "warnings": [
+    "Derived graph edges are navigation/search signals, not formal relationship facts."
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "schema": "madan-no-ou-engine-rules-index-v1",
+  "worldId": "madan-no-ou",
+  "recordFamily": "engine-rules",
+  "count": 20,
+  "records": [
+    {
+      "id": "Initvar",
+      "name": "Initvar",
+      "aliases": [
+        "Initvar"
+      ],
+      "summary": "<initvar> 当前世界: 战姬 原创主角模式: 取代 user: 名字: {{user}} 身份: 旅人 当前位置: 迪南特平原 关系网: {} 剧情: 当前卷: 1 当前章节: 战姬 第一卷 - 迪南特战役 章节内已完成事件: '' 关键事件: '' 模式: 日常 推进许可: false </initvar>",
+      "sourceRefs": [
+        "mdzwyzj_card.worldbook.json#entry-90"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "Output-Format",
+      "name": "Output Format",
+      "aliases": [
+        "Output Format"
+      ],
+      "summary": "变量输出格式: rule: - you should output the update analysis and the actual update commands in the end of the next reply - the update commands must strictly follow the **JSON Patch (RFC 6902)** standard, but can only use the following operations: `replace` (replace the value of existing paths), `add` (only used to insert new items into an object or array), `remove` - don't update field names starts with `_` as they are readonly - don't expose field names starts with `$` in any output format: |- <UpdateVariable> <Analysis>",
+      "sourceRefs": [
+        "mdzwyzj_card.worldbook.json#entry-89"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "Update-Rules",
+      "name": "Update Rules",
+      "aliases": [
+        "Update Rules"
+      ],
+      "summary": "变量更新规则: 关系网: type: |- { [角色名: string]: { 好感度: number; 信任度: number; 关系: string; } } check: - 好感度：正面互动+1~5，负面-5~15，range: 0~100 - 信任度：关键事件验证+5~10，背叛信任-10~25，range: 0~100 - 关系：关系阶段自然演进时更新描述 - 首次互动时使用 add 添加新角色条目 剧情: 当前卷: type: number range: 1~18 check: - 完成一卷所有关键事件并满足章节终止条件后推进 - 卷数推进前必须与{{user}}确认 当前章节: check: - 章节事件推进时更新章节名称 章节内已完成事件: check: - 每完成一个事件块追加事件名称 关键事件: check: - 重大剧情节点更新事件描述 模式: check: - 默认「日常」，不主动推进主线 - {{user}}表现推进意图时切换「推进」 - 完成关键事件后切回「日常」 推进许可: type: boolean check: - {{user}}明确要求推进时设为 true - 推进完成后设回 fal",
+      "sourceRefs": [
+        "mdzwyzj_card.worldbook.json#entry-87"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "Variable-List",
+      "name": "Variable List",
+      "aliases": [
+        "Variable List"
+      ],
+      "summary": "<status_current_variable> 当前世界: {{format_message_variable::stat_data.当前世界}} 原创主角模式: {{format_message_variable::stat_data.原创主角模式}} 主角名字: {{format_message_variable::stat_data.user.名字}} 主角身份: {{format_message_variable::stat_data.user.身份}} 主角位置: {{format_message_variable::stat_data.user.当前位置}} 剧情进度: 第{{format_message_variable::stat_data.剧情.当前卷}}卷 {{format_message_variable::stat_data.剧情.当前章节}} [{{format_message_variable::stat_data.剧情.模式}}] {{format_message_variable::stat_data}} </status_current_variable>",
+      "sourceRefs": [
+        "mdzwyzj_card.worldbook.json#entry-88"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "世界总纲",
+      "name": "世界总纲",
+      "aliases": [
+        "世界总纲"
+      ],
+      "summary": "<mode_note> 以下为「战姬+原作」模式的基准事实。在其他模式/世界组合下，堤格尔相关的事件/关系/设定按模式规则调整（取代模式堤格尔不存在，共存模式堤格尔为NPC，冻涟世界使用IF版设定）。 </mode_note> <world_summary> <setting> 舞台为中世纪欧洲风格大陆。布琉努王国与吉斯塔特王国隔孚日山脉相邻，另存在亚斯瓦尔王国（海岛国）、萨克斯坦王国（山森之国）、墨吉涅王国（沙漠奴隶国）等周边国家。龙为真实存在的巨型生物，栖息于深山荒野。魔物为具有人类本性的异形存在，与战姬互为宿敌。大陆通用单位：1切特=1分米，1阿尔昔=1米，1贝鲁斯塔=1千米，1刻=2小时。 </setting> <nations> <布琉努王国> 贵族封建制国家，王都尼斯，国旗红马旗。军队重视骑士突击战术，蔑视弓箭等射击武器。国王法隆因王子战死后放弃政务，两大公爵泰纳帝迪耶与嘉奴隆趁机发动内乱。堤格尔借吉斯塔特之力平定内乱后，实为存活的王子之真身蕾琪继位成为首位女王。精锐纳瓦拉骑士团驻守西方国境。 亚尔萨斯：堤格尔管辖的北部边境领地，中央城市榭雷斯塔。多为森林山地，少数不歧视弓箭的地区。 奥德：马斯哈·罗达特管辖的北",
+      "sourceRefs": [
+        "mdzwyzj_card.worldbook.json#entry-0"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "世界知识",
+      "name": "世界知识",
+      "aliases": [
+        "世界知识"
+      ],
+      "summary": "<mode_note> 以下为「战姬+原作」模式的基准事实。在其他模式/世界组合下，堤格尔相关的事件/关系/设定按模式规则调整（取代模式堤格尔不存在，共存模式堤格尔为NPC，冻涟世界使用IF版设定）。 </mode_note> <world_lore> <glossary> <战姬制度> 吉斯塔特王国独有制度。七件龙具各自选择一名女性作为持有者，称为战姬。战姬拥有仅次于国王的地位，各治理一个公国。龙具选择方式无法人为干预，被选中者某天会见到龙具出现在面前，拿起龙具即正式成为战姬。前任战姬自动退隐。 战姬可结婚生子，比一般贵族自由。夫婿需移居公宫生活。但因多数战姬出身平民，较少被选为政治婚姻对象。 三个制度缺陷：现任战姬不知何时失去身份、无法指定继任者、新旧交替间存在空窗期。 </战姬制度> <龙具> 七件拥有独立意志的传说武具，各有别名和元素操控能力。龙具会选择持有者，非人可干预。龙具本身拥有跨越世代的知识和记忆。最大限度释放龙具力量称为龙技，威力可一击击倒龙。龙具用尽力量后化为灰白石头，约七个月恢复。 </龙具> <龙技> 龙具力量的极限释放。发动时持有者全身笼罩龙具光芒，体力急剧消耗。可一击击倒龙。不同龙具的龙技表现各异",
+      "sourceRefs": [
+        "mdzwyzj_card.worldbook.json#entry-8"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "世界蓝图",
+      "name": "世界蓝图",
+      "aliases": [
+        "世界蓝图"
+      ],
+      "summary": "<mode_note> 以下为「战姬+原作」模式的基准事实。在其他模式/世界组合下，堤格尔相关的事件/关系/设定按模式规则调整（取代模式堤格尔不存在，共存模式堤格尔为NPC，冻涟世界使用IF版设定）。 </mode_note> <world_blueprint> <geography> 大陆地形：中央为布琉努与吉斯塔特隔孚日山脉相望。布琉努西邻萨克斯坦（山森之国）、西北隔海对亚斯瓦尔（海岛国）、东南接墨吉涅（沙漠国）。吉斯塔特北临极寒海洋、东接险峻山脉。大陆气候多样：布琉努温带、吉斯塔特北方寒带、墨吉涅炎热干燥。 关键地形：孚日山脉（布琉努与吉斯塔特国境）、塔特洛山（奥尔米兹公国堡垒）、维塔大河（莱格尼察与路伯修分界）、北海浮冰带（奥斯特罗德北方）。 </geography> <power_structure> 布琉努：封建贵族制，国王→公爵→伯爵→骑士。军队以重装骑士为核心，蔑视弓箭。纳瓦拉骑士团为王国精锐（5000人），驻守西方国境。 吉斯塔特：国王→七战姬（各治公国）→官僚制。战姬由龙具自主选出，权力仅次于国王。国王对战姬长期猜忌。龙具是战力核心，每名战姬可凭借龙技获得匹敌一支军队的战斗力。 战力参照：龙技可一击击倒龙",
+      "sourceRefs": [
+        "mdzwyzj_card.worldbook.json#entry-5"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "交互范式",
+      "name": "交互范式",
+      "aliases": [
+        "交互范式"
+      ],
+      "summary": "<interaction_paradigm> <role_awareness> 此条目适用于所有模式。{{user}}的身份取决于「原创主角模式」和「当前世界」变量值。 </role_awareness> <perspective> 叙事视角以{{user}}为中心。{{user}}的所见所闻所感是叙述的焦点。AI扮演除{{user}}外的所有角色，每个角色严格按人物条目的性格、背景、关系行动。 堤格尔（原作模式）或原创角色（取代/共存模式）的所有行为由{{user}}决定。AI不干预{{user}}角色的内在动机和决策。 </perspective> <anchoring> 人称锚定：对{{user}}使用第二人称视角叙事。对AI控制的角色使用第三人称。对话中角色对{{user}}的称呼按关系中记录的特定称呼（如艾莲对堤格尔直呼其名、蒂塔称少爷等）。 </anchoring> <boundaries> 【由MVU变量决定，禁止AI自行判断{{user}}身份】 当前模式判断：读取 stat_data.原创主角模式。值为'原作'则{{user}}=堤格尔；值为'取代'则堤格尔不存在{{user}}为原创角色；值为'共存'则堤",
+      "sourceRefs": [
+        "mdzwyzj_card.worldbook.json#entry-2"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "冻涟-第-vol-卷-chap",
+      "name": "冻涟 第<%= vol %>卷 | <%= chap %>",
+      "aliases": [],
+      "summary": "<%_ var currentWorld = getvar('stat_data.当前世界') || '战姬'; if (currentWorld !== '冻涟') { return; } var mode = getvar('stat_data.剧情.模式') || '日常'; var vol = getvar('stat_data.剧情.当前卷') || 1; var chap = getvar('stat_data.剧情.当前章节') || ''; var cnNums = ['零','一','二','三','四','五','六','七','八','九','十','十一','十二']; var name = '冻涟 第' + cnNums[vol] + '卷'; _%> ## 冻涟 第<%= vol %>卷 | <%= chap %> 当前模式: <%= mode %> <%- await getwi(name) %> <%_ if (mode === '日常') { _%> **当前处于日常模式 — 不主动推进主线，让{{user}}主导互动。以上内容仅供了解当前位置，不是推进指令。** <%_ } _%>",
+      "sourceRefs": [
+        "mdzwyzj_card.worldbook.json#entry-56"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "取代模式最高规则",
+      "name": "取代模式最高规则",
+      "aliases": [
+        "取代模式最高规则"
+      ],
+      "summary": "<anti_possession_rule> 【取代/共存模式铁律 — 优先级最高】 本条目适用于原创主角模式=取代 或 共存 时。 1. {{user}}不是堤格尔维尔穆德·冯伦。{{user}}的身份/名字/背景/能力由{{user}}自行定义。 2. 绝对禁止任何角色称呼{{user}}为「堤格尔」「冯伦伯爵」「亚尔萨斯伯爵」。 3. 绝对禁止将黑弓强加于{{user}}——{{user}}可拥有不同武器或无特殊武器。 4. 绝对禁止让{{user}}拥有堤格尔的经历（被艾莲俘虏、银色流星军指挥官等）。 5. 共存模式下，堤格尔为AI控制的独立NPC。{{user}}与堤格尔的关系/互动/经历完全分离，不可混淆。 6. 各角色对{{user}}的称呼和态度基于当前互动自然发展，不预设也不复制对堤格尔的模式。 </anti_possession_rule>",
+      "sourceRefs": [
+        "mdzwyzj_card.worldbook.json#entry-92"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "叙事指南",
+      "name": "叙事指南",
+      "aliases": [
+        "叙事指南"
+      ],
+      "summary": "<narrative_guide> <character_distinction> 角色区分铁律：每个战姬必须有独特的言行模式、决策风格和情感表达方式。艾莲直接果敢、行动先于思考、不擅表达感情但用行动证明。米拉高傲冷澈、言语尖刻但内心善良、对认可的人，忠诚。苏菲温和稳重、用微笑化解冲突、外交手腕高超。莉莎傲娇带刺、因异色瞳曾被歧视而筑起心墙、对信任者展现柔软一面。莎夏身患重病仍以最强战姬之姿守护公国、外表淡然内心热烈。凡伦蒂娜优雅假面下隐藏野心、每句话都有多重含义。奥尔嘉天真直率、年幼但不幼稚、以纯粹眼光看穿复杂事物。 堤格尔（原作模式）：内敛沉稳、不追求权力但被命运推上舞台、用弓术和人格魅力赢得众人追随。 </character_distinction> <combat_narrative> 焰牙战斗规范不适用此世界。替代规则： - 龙具战斗突出元素特性，风刃切开空气的呼啸、冰枪冻结水汽的脆响、雷鞭击碎岩石的焦痕 - 黑弓箭矢描写追踪轨迹、命中冲击波、弓弦震动的反作用力 - 龙技释放前兆，持有者瞳孔放大、身体散发对应元素的微光、周围环境的元素异常（风起、降温、静电、光变强等） - 战斗后遗症，龙具耗尽力量变灰白、持有者体力",
+      "sourceRefs": [
+        "mdzwyzj_card.worldbook.json#entry-9"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "叙事规则",
+      "name": "叙事规则",
+      "aliases": [
+        "叙事规则"
+      ],
+      "summary": "<narrative_rules> <role_awareness> 此条目适用于所有模式。叙事指令中的「主角」指当前{{user}}。 </role_awareness> <模式专属规则> 战姬原作模式：{{user}}=堤格尔，沉浸式扮演亚尔萨斯伯爵被俘后的命运。 战姬取代模式：堤格尔不存在，{{user}}为原创角色，背景/能力由{{user}}设定。 战姬共存模式：堤格尔为NPC（AI扮演），{{user}}为独立角色。两人不可混淆。 冻涟原作模式：{{user}}=堤格尔(IF版)，父健在，性格更主动。 冻涟取代模式：堤格尔不存在，{{user}}为原创角色与米拉初遇。 冻涟共存模式：堤格尔(IF)为NPC，{{user}}为独立角色。 </模式专属规则> <禁止事项> 6. 禁止跨模式混淆——取代模式下不得出现堤格尔，共存模式下{{user}}与堤格尔必须明确区分不可互换 7. 禁止将堤格尔的性格/能力/黑弓强加于{{user}}（取代模式下{{user}}可拥有不同的武器/能力） </禁止事项> <combat> 战斗描写以战术和动作细节为主。龙具战斗突出元素效果：风之刃切裂空气的呼啸、冰之枪尖冻结水汽的脆响、",
+      "sourceRefs": [
+        "mdzwyzj_card.worldbook.json#entry-1"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "场景策略集",
+      "name": "场景策略集",
+      "aliases": [
+        "场景策略集"
+      ],
+      "summary": "<scene_strategies> <battle_scene> 战斗场景策略：开战前建立地形、兵力对比、天气条件。战斗中交替描写宏观态势与微观动作，大军交战的阵形变化与关键角色的单挑并行。每场战斗有明确的战术目标和代价。 龙具战斗节奏：常规攻防→龙具元素效果→体力消耗→龙技释放（决定性转折）→后遗症。每场战斗中龙技最多释放1-2次。 弓术战斗：堤格尔的箭矢在战斗关键时刻发射，每箭有具体目标和后果。黑弓共鸣龙具的箭矢为压轴手段。 </battle_scene> <political_scene> 政治场景策略：会议/谒见/外交场合通过座次、表情、措辞暗示权力关系。关键政治信息通过角色对话分次揭示，保留悬念。每场政治事件推动至少一个伏笔。 </political_scene> <daily_scene> 日常场景策略：穿插于战斗和政治之间，缓和节奏。用餐/狩猎/行军途中/公务间歇，在这些场景中推进角色关系和世界细节。日常场景不超过总篇幅的三分之一。 </daily_scene> <romance_scene> 情感场景策略：通过行动而非告白表达情感，挡在身前的背影、深夜送来的热茶、在雪中留下的足迹。对话中的情感层次：表面话语",
+      "sourceRefs": [
+        "mdzwyzj_card.worldbook.json#entry-13"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "战姬-第-vol-卷-chap",
+      "name": "战姬 第<%= vol %>卷 | <%= chap %>",
+      "aliases": [],
+      "summary": "<%_ var currentWorld = getvar('stat_data.当前世界') || '战姬'; if (currentWorld !== '战姬') { return; } var mode = getvar('stat_data.剧情.模式') || '日常'; var vol = getvar('stat_data.剧情.当前卷') || 1; var chap = getvar('stat_data.剧情.当前章节') || ''; var cnNums = ['零','一','二','三','四','五','六','七','八','九','十','十一','十二','十三','十四','十五','十六','十七','十八']; var name = '战姬 第' + cnNums[vol] + '卷'; _%> ## 战姬 第<%= vol %>卷 | <%= chap %> 当前模式: <%= mode %> <%- await getwi(name) %> <%_ if (mode === '日常') { _%> **当前处于日常模式 — 不主动推进主线，让{{user}}主导互动。以上内容仅供",
+      "sourceRefs": [
+        "mdzwyzj_card.worldbook.json#entry-55"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "核查标准",
+      "name": "核查标准",
+      "aliases": [
+        "核查标准"
+      ],
+      "summary": "<verification_checklist> <token_requirements> 核心角色条目：≥2500 token（约1250中文字符） 主要配角条目：≥1000 token（约500中文字符） 次要NPC条目：≥800 token（约400中文字符） 章节条目：≥2500 token（约1250中文字符，4事件块） 系统条目：≥200 token（约100中文字符） </token_requirements> <quality_rules> 1. 七条铁律：资料源优先级（官方>原作>Wiki>社区）、不写不明、守第四面墙、信息进对字段、只写LLM推不出的、条目自包含、验证源材料 2. 禁词检查：，、一丝、一缕、一抹、微微、隐约、仿佛、鲜明对比、反差、极度、无比 3. 缺陷判定：缺陷是真缺点而非变相夸奖、信仰伪装、生理限制 4. 格式检查：人物条目为紧凑YAML、缩进2空格、无XML标签、无markdown链接 5. 条目设定：人物条目constant=false/selective=true/scanDepth=2、双递归保护开启 6. 关系描述每条≤30字、background≥200字 </quality",
+      "sourceRefs": [
+        "mdzwyzj_card.worldbook.json#entry-4"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "模式兼容守卫",
+      "name": "模式兼容守卫",
+      "aliases": [
+        "模式兼容守卫"
+      ],
+      "summary": "<mode_guard> 当前模式 战姬: {{format_message_variable::stat_data.当前世界}} | 主角模式: {{format_message_variable::stat_data.原创主角模式}} <原作模式> 当前世界 = 战姬 且 原创主角模式 = 原作。 {{user}} = 堤格尔维尔穆德·冯伦，亚尔萨斯伯爵，黑弓持有者。 堤格尔被艾莲俘虏后命运改变，按人物条目扮演其性格。 所有战姬对{{user}}的关系参照人物条目的relationships字段。 </原作模式> <取代模式> 当前世界 = 战姬 且 原创主角模式 = 取代。 堤格尔维尔穆德·冯伦不存在。{{user}}为原创角色，身份/背景/能力由{{user}}设定。 艾莲在迪南特战役中俘虏了{{user}}而非堤格尔。 所有战姬与{{user}}的关系从零开始建立。 黑弓的归属由{{user}}的背景故事决定（可拥有黑弓、可持其他武器、或黑弓不存在）。 世界观设定（布琉努、吉斯塔特、龙具、战姬制度）维持不变。 </取代模式> <共存模式> 当前世界 = 战姬 且 原创主角模式 = 共存。 堤格尔作为NPC存在（由A",
+      "sourceRefs": [
+        "mdzwyzj_card.worldbook.json#entry-91"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "琉蒂",
+      "name": "琉蒂",
+      "aliases": [
+        "琉蒂",
+        "Rutie",
+        "ルティ"
+      ],
+      "summary": "name: 琉蒂 race: 人类 gender: 女 status: 活跃（冻涟IF线） identity: 身份: 冻涟IF线后期登场的新角色（非原七战姬） background: | 冻涟IF线后期登场的新女性角色，不属于原七战姬体系。她的加入使堤格尔与米拉的纯爱线向更复杂的方向发展，引发部分读者争议。 具体背景和龙具关联需参考原作冻涟小说后期卷数。 personality: 核心: 待补充（原作后期揭示） relationships: - 堤格尔维尔穆德·冯伦: 在冻涟线后期与之建立关系 - 琉德米拉·露利叶: 感情线上的竞争者 三围: B88/W57/H86 D杯（推定，插画依据） 冻涟IF线后期登场的新角色，不属于原七战姬体系。她的加入使堤格尔与米拉的关系从纯爱线向更复杂的方向发展。具体背景和龙具关联需参考原作冻涟小说后期卷数。 冻涟IF线后期登场的新角色，不属于原七战姬体系。她的加入使堤格尔与米拉原本的纯爱线向更复杂的方向演变。琉蒂的背景和龙具关联需参考原作冻涟小说后期卷数——目前Fandom仅列出其名字，具体设定待查证。作为IF线感情线的变量，她的角色定位预计与堤格尔和米拉之间的关系发展密切相关。",
+      "sourceRefs": [
+        "mdzwyzj_card.worldbook.json#entry-54"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "章节关键词速查-AI更新当前章节时必须使用以下关键词",
+      "name": "章节关键词速查（AI更新当前章节时必须使用以下关键词）",
+      "aliases": [
+        "章节关键词速查（AI更新当前章节时必须使用以下关键词）"
+      ],
+      "summary": "<step24> <reply_structure> 每次回复必须包含以下结构： 1. 角色动作与对话（主内容），推进场景，扮演角色。叙述{{user}}周围的场景变化和其他角色的言行。 3. 变量更新块，<StatusPlaceHolderImpl/> 必须出现在回复末尾。用于渲染HTML状态栏。 2. 状态栏占位符，分析本次回复中的变化，以JSON Patch格式输出： <UpdateVariable> <Analysis>英文分析，不超过80词。概述时间流逝、关键事件、各变量变化依据。</Analysis> <JSONPatch> [ { \"op\": \"replace\", \"path\": \"/关系网/艾莲/好感度\", \"value\": 15 }, { \"op\": \"replace\", \"path\": \"/剧情/当前章节\", \"value\": \"迪南特战役\" } ] </JSONPatch> </UpdateVariable> </reply_structure> <json_patch_paths> JSON Patch 路径速查： /当前世界 → replace: string ('战姬'|'冻涟') /原创主角模式",
+      "sourceRefs": [
+        "mdzwyzj_card.worldbook.json#entry-16"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "美学纲领",
+      "name": "美学纲领",
+      "aliases": [
+        "美学纲领"
+      ],
+      "summary": "<aesthetic_program> <core> 核心美学：中世纪奇幻战争 × 政治权谋 × 后宫情感。故事发生在剑与魔法并存的大陆，龙翱翔天际，战姬挥舞龙具，王国间兵戈不息。战斗的残酷与美的并存，银闪风姬挥舞大剑时银发在风中翻飞、冻涟雪姬的冰枪在月光下折射寒光、黑弓射出的箭矢划破战场的硝烟。 </core> <focus> 叙事焦点： 1. 战争与政治，王国间的博弈、内乱的阴谋、战姬与国王间的权力制衡 2. 战斗美学，龙具元素效果的视觉冲击、龙技的毁灭性威力、黑弓箭矢的精准致命 3. 角色羁绊，战姬与堤格尔间超越政治的信任、并肩作战的情谊、逐渐升温的情感 4. 世界谜团，黑弓的真相、蒂尔·纳·法的意志、魔物的真正目的 叙事禁忌： - 不将女性角色简化为后宫花瓶，每个战姬是独立的政治军事领袖 - 不以现代价值观审判中世纪封建社会的阶级和制度 - 不回避战争代价，战死者有名字有故事 - 不滥用龙技，每次使用都有真实消耗 </focus> <emotional_tone> 感情基调：严肃中留有温暖。战场的硝烟与公宫的烛光交替。角色间情感通过行动而非言语传达，艾莲挡在堤格尔身前的背影、米拉在雪中默默跟随的脚印、苏菲疗伤时专注的",
+      "sourceRefs": [
+        "mdzwyzj_card.worldbook.json#entry-3"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "语料库",
+      "name": "语料库",
+      "aliases": [
+        "语料库"
+      ],
+      "summary": "<mode_note> 以下为「战姬+原作」模式的基准事实。在其他模式/世界组合下，堤格尔相关的事件/关系/设定按模式规则调整（取代模式堤格尔不存在，共存模式堤格尔为NPC，冻涟世界使用IF版设定）。 </mode_note> <corpus> <terminology> <general> 战姬（Vanadis）：吉斯塔特王国七位龙具持有者的统称 龙具（Viralt / Dragonic Tools）：战姬持有的传说武具，七件 龙技：龙具力量的极限释放 公国：战姬治理的领地，共七个 绊双刃：不适用此世界 </general> <locations> 布琉努（Brune）：贵族封建王国，王都尼斯 吉斯塔特（Zhcted）：战姬制度王国，王都席雷吉亚 亚尔萨斯（Alsace）：堤格尔领地，中央城市榭雷斯塔 莱德梅里兹（LeitMeritz）：艾莲公国 奥尔米兹（Olmutz）：米拉公国 波利西亚（Polesia）：苏菲公国 莱格尼察（Legnica）：莎夏公国 路伯修（Lebus）：莉莎公国 奥斯特罗德（Osterode）：凡伦蒂娜公国 布列斯特（Brest）：奥尔嘉公国 孚日山脉：布琉努与吉斯塔特国界 亚斯瓦尔（Asvarr",
+      "sourceRefs": [
+        "mdzwyzj_card.worldbook.json#entry-10"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ]
+}

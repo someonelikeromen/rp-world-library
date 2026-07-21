@@ -1,0 +1,27 @@
+{
+  "source_refs": [
+    "xmmw_card.worldbook.json#entry-80"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "开局：主角身份生成"
+      },
+      "aliases": [
+        "开局：主角身份生成",
+        "[logic]动态世界反馈"
+      ],
+      "summary": "--- # 开局：主角身份生成 <%_ if (getvar('stat_data.主角.基本信息.姓名') == '待定' || getvar('stat_data.世界状态.当前时间') == '故事序幕') { _%> <system_instruction> 【世界初始化程序启动】 检测到主角尚未生成。现在是故事的起点。 请立即停止剧情推进，先向玩家通过交互式选项确认<主角身份>： 1. **东城刃更 (Toujou Basara)**: 继承原作设定。前勇者一族，拥有\"Banishing Shift\"，由于父亲再婚突然多了两个继妹（成濑澪、万理亚）。 - 初始能力: 并在禁手(Banishing Shift)，无次元的执行(Speed Echo) - 初始人际: 澪(义妹/魔王), 万理亚(义妹/梦魔) 2. **原创主角 (Original Character)**: - 请询问玩家期望的：[姓名]、[种族]（人类/勇者/魔族/神/混血）、[核心能力]、[阵营倾向]。 - 询问是否替代东城刃更的位置，还是作为第三方势力介入。 **指令**: 输出完选项后等待玩家回应，获得回应后请使用 JSON Patch 更新 ",
+      "description": "--- # 开局：主角身份生成 <%_ if (getvar('stat_data.主角.基本信息.姓名') == '待定' || getvar('stat_data.世界状态.当前时间') == '故事序幕') { _%> <system_instruction> 【世界初始化程序启动】 检测到主角尚未生成。现在是故事的起点。 请立即停止剧情推进，先向玩家通过交互式选项确认<主角身份>： 1. **东城刃更 (Toujou Basara)**: 继承原作设定。前勇者一族，拥有\"Banishing Shift\"，由于父亲再婚突然多了两个继妹（成濑澪、万理亚）。 - 初始能力: 并在禁手(Banishing Shift)，无次元的执行(Speed Echo) - 初始人际: 澪(义妹/魔王), 万理亚(义妹/梦魔) 2. **原创主角 (Original Character)**: - 请询问玩家期望的：[姓名]、[种族]（人类/勇者/魔族/神/混血）、[核心能力]、[阵营倾向]。 - 询问是否替代东城刃更的位置，还是作为第三方势力介入。 **指令**: 输出完选项后等待玩家回应，获得回应后请使用 JSON Patch 更新 `主角.基本信息` 及 `主角.能力列表`，并将 `世界状态.当前时间` 更新为 \"第一卷序幕\"。 </system_instruction> <%_ } _%> # 战斗模式：实力与氛围 <%_ if (getvar('stat_data.世界状态.环境氛围') && (getvar('stat_data.世界状态.环境氛围').includes('战斗') || getvar('stat_data.世界状态.环境氛围').includes('杀气') || getvar('stat_data.任务栏.当前模式') == '战斗')) { _%> <combat_system> 进入战斗逻辑。当前主角实力评级: <%= getvar('stat_data.主角.实力评级') || '未知' %> 1. **战斗描写**: 请详细描写招式的光影、魔法阵的构建、武器碰撞的火花。 2. **战力差表现**: - 若主角实力远高于敌人: 描写为“碾压”、“戏耍”，敌人感到绝望。 - 若势均力敌: 描写为“千钧一发”、“以伤换伤”，强调意志力的比拼。 - 若主角弱势: 强调“寻找破绽”、“利用环境”、“觉醒前兆”。 3. **技能成长**: 可以在战斗结算时，通过 JSON Patch 提升 `主角.能力列表` 中的技能熟练度。 </combat_system> <%_ } _%> # 双重模式：日常与主线 <%_ if (getvar('stat_data.任务栏.当前模式') == '日常活动') { _%> <daily_routine_mode> 当前处于【日常/支线模式】。 - **氛围**: 轻松、暧昧、轻喜剧 (Love Comedy)。 - **重点**: 增加与角色的互动，触发 `H事件` 或 `幸运色狼` 事件，提升 `好感度`。 - **任务**: 允许玩家探索街道、购买装备、或进行特训。 - **引导**: 不要在此时强行插入灭世危机，除非作为日常结束的转折点。若玩家无事可做，可提示\"似乎到了该回家吃饭的时间\"或\"",
+      "sourceRef": "xmmw_card.worldbook.json#entry-80",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "开局：主角身份生成"
+}

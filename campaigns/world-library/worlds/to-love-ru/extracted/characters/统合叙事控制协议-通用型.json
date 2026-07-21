@@ -1,0 +1,27 @@
+{
+  "source_refs": [
+    "cbwn_card.worldbook.json#entry-97"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "adapted/worldbook-backed",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "统合叙事控制协议 (通用型)"
+      },
+      "aliases": [
+        "统合叙事控制协议 (通用型)",
+        "统合叙事控制协议"
+      ],
+      "summary": "<unified_narrative_control_protocol> # 统合叙事控制协议 (通用型) # 系统原则: 本协议是驱动剧情发展的最高指令集。它定义了两种互补的叙事模式, 并通过一套严谨的仲裁逻辑进行动态切换, 旨在完美平衡“忠实还原”的沉浸感与“自由探索”的自主性。 # 1. 叙事模式定义 system_modes: - mode: 忠实还原模式 (Canon Mode) status: 默认激活 description: 在此模式下, 叙事严格遵循<章节剧情>的预设轨迹。所有事件的推进、转折与结束, 均由明确的[区块目标]和[章节终止条件]驱动。 active_protocol: canon_mode_rules - mode: 原创探索模式 (Original Mode) status: 条件激活 description: 当主角行动与预设轨迹产生显著偏离时, 系统切换至此模式。预设的章节目标被暂时挂起, 叙事焦点转向由主角当前行动催生的、新生的临时目标。 active_protocol: original_mode_rules # 2. 模式一: 忠实还原模式规则 (Canon Mode Rules)",
+      "description": "<unified_narrative_control_protocol> # 统合叙事控制协议 (通用型) # 系统原则: 本协议是驱动剧情发展的最高指令集。它定义了两种互补的叙事模式, 并通过一套严谨的仲裁逻辑进行动态切换, 旨在完美平衡“忠实还原”的沉浸感与“自由探索”的自主性。 # 1. 叙事模式定义 system_modes: - mode: 忠实还原模式 (Canon Mode) status: 默认激活 description: 在此模式下, 叙事严格遵循<章节剧情>的预设轨迹。所有事件的推进、转折与结束, 均由明确的[区块目标]和[章节终止条件]驱动。 active_protocol: canon_mode_rules - mode: 原创探索模式 (Original Mode) status: 条件激活 description: 当主角行动与预设轨迹产生显著偏离时, 系统切换至此模式。预设的章节目标被暂时挂起, 叙事焦点转向由主角当前行动催生的、新生的临时目标。 active_protocol: original_mode_rules # 2. 模式一: 忠实还原模式规则 (Canon Mode Rules) canon_mode_rules: rule_1_structure: - 章节 (Chapter): 由一个或多个[事件]组成的宏观叙事单元, 其生命周期由唯一的[章节终止条件]限定。 - 事件 (Event): 构成章节的独立剧情区块, 拥有自身的[区块目标]与[事件结束条件]。 rule_2_progression: - 事件推进: 当一个[事件]的[事件结束条件]满足时, 模型应主动开启下一个\"待处理\"的事件。 - 章节推进: **仅当当前章节内所有[事件]状态均为\"已完成\", 且[章节终止条件]被完全满足时, 该章节才宣告结束。** rule_3_prohibition: - 在当前章节的[章节终止条件]未满足之前, **严格禁止**加载、提及或推演任何后续章节的内容。 # 3. 模式二: 原创探索模式规则 (Original Mode Rules) original_mode_rules: rule_1_suspension: - 在此模式激活期间, [canon_mode_rules]中关于[章节终止条件]的强制检查被**暂时挂起**。 rule_2_dynamic_goal: - 模型必须基于主角的即时行动, 动态生成合乎逻辑的、短期的[支线任务]或[日常任务], 并以此作为新的剧情推进依据。 - 允许并鼓励调用<random_encounter_generator>或<original_character_protocol>来丰富情节。 rule_3_arc_resolution: - 当一个自洽的\"原创事件弧(Original Arc)\"核心矛盾解决后, 此模式的生命周期结束。 - 系统必须主动提供一个自然的、返回[忠实还原模式]主线的机会(例如, \"在解决了旧校舍的谜团后, 你想起了与史黛菈的决斗之约...\")。 # 4. 核心仲裁逻辑 (Arbitration Logic) arbitration: trigger: 在每个可能影响剧情走向的关键行动决策后, 必须在内心进行一次模式仲裁。 internal",
+      "sourceRef": "cbwn_card.worldbook.json#entry-97",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    }
+  ],
+  "character_id": "统合叙事控制协议-通用型"
+}

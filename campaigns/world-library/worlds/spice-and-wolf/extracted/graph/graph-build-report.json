@@ -1,0 +1,30 @@
+{
+  "schema": "spice-and-wolf-graph-build-report-v1",
+  "worldId": "spice-and-wolf",
+  "status": "completed",
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "validation": {
+    "jsonValid": true,
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "newFactsIntroduced": false,
+    "forbiddenBasenamesGenerated": false
+  },
+  "counts": {
+    "nodes": 79,
+    "edges": 0,
+    "nodeCounts": {
+      "abilities": 16,
+      "factions": 10,
+      "locations": 24,
+      "events": 2,
+      "systems": 2,
+      "knowledge": 25
+    },
+    "edgeCounts": {},
+    "derivedMentionEdges": 0
+  },
+  "warnings": [
+    "Derived graph edges are navigation/search signals, not formal relationship facts."
+  ]
+}

@@ -1,0 +1,964 @@
+{
+  "schema": "compatible-complete-graph-v1",
+  "worldId": "dantalian-no-shoka",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "nodes": [
+    {
+      "id": "世界核心",
+      "entityId": "世界核心",
+      "entityType": "characters",
+      "label": "世界核心",
+      "name": "世界核心",
+      "summary": "<world_framework> world_core: name: 世界核心 description: \"知识与欲望的二元性。世界的核心驱动力源于“人类的欲望”与“禁忌的知识 (幻书)”之间的相互作用。幻书作为超越时代与物理法则的知识载体,既是实现欲望的工具,也必然带来与之对等的,具有讽刺性的代价。整个世界的故事围绕着对这份危险知识的追求,封印,利用与毁灭展开。\" secondary_core: name: 次级核心 themes: - name: 代价的必然性 description: \"任何通过幻书获得的超常能力,都伴随着逻辑上对等的反噬。复活需要献祭,永生导致异化,绝对的守护可能意味着永恒的监禁。代价不是惩罚,而是力量滥用的必然结果。\" - name: 真实与虚幻的边界 description: \"幻书的力量能够扭曲认知,创造覆盖现实的幻境,甚至篡改因果与历史。探索何为真实,何为被知识构建的虚假,是贯穿始终的母题。\" - name: 人性的脆弱与伟大 description: \"在幻书的诱惑面前,人类的贪婪,嫉妒,恐惧与爱慕被无限放大,导致悲剧。但同时,自我牺牲,守护的意志与对纯粹幸福的向往,也能成为对抗幻书诅咒的",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-25"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:世界核心",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "幻书",
+      "entityId": "幻书",
+      "entityType": "characters",
+      "label": "幻书",
+      "name": "幻书",
+      "summary": "<world_terminology> terminology: phantom_book: name: 幻书 description: 指那些本应被焚烧或已遗失的古代图书馆藏书。它们记录了各类超自然力量的秘诀，是本不应存于世的知识载体。正确解读能带来巨大恩惠，但也会打破世界均衡。此外，战争等事件产生的强烈负面情绪（如疯狂与恐惧）亦可催生新的幻书。 boundary: name: 境界 description: 位于现世与幻书世界之间的夹缝。它能让不具备资格的使用者也得以跨越限制，获取幻书中的无限力量。 dantalians_bookshelf: name: 丹特丽安的书架 aliases: - 丹塔丽安的书架 description: 一个超越了“境界”概念的迷宫图书馆，封印着九十万零六百六十六册足以颠覆世界平衡的危险幻书。 biblioclast: name: 焚书官 description: 以焚烧、毁灭“幻书”为使命的存在。他们通常因个人经历而对幻书抱有极端的仇恨，致力于从物理层面根除幻书带来的灾厄。 phantom_manuscript: name: 幻稿 description: 尚在编写过程中、未完全成型的幻书",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-19"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:幻书",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "模式二-角色共存模型-Character-Coexistence-Model",
+      "entityId": "模式二-角色共存模型-Character-Coexistence-Model",
+      "entityType": "characters",
+      "label": "模式二: 角色共存模型 (Character Coexistence Model",
+      "name": "模式二: 角色共存模型 (Character Coexistence Model",
+      "summary": "# 模式二: 角色共存模型 (Character Coexistence Model) # - 适用场景: 原创角色(OC)与修伊,妲丽安等原作人物同时存在于故事世界中。 character_coexistence_model: premise: \"在此模式下,OC是与主角团平行的关键角色,而非其附属。核心挑战在于避免OC成为主角团的“跟班”或“工具人”。\" core_rules: - rule: 建立独立行动线 (Establish Independent Action Line) description: \"OC必须拥有自己明确的目标与任务,这条任务线应独立于修伊的“回收幻书”主线。两条线可以交汇,但OC在大部分时间里应有自己的行动理由和目的地。例如:‘OC是一名记者,正在追查一系列由幻书引发的神秘事件’,‘OC是某个幻书受害者的亲属,正在进行独立的复仇计划’。\" - rule: 定义关系光谱 (Define the Relationship Spectrum) description: \"明确OC与原作各势力(丹特丽安的书架,焚书官,研究派等)的关系。他/她可能是临时的盟友,长期的竞争对手,或是中立的观察者。与修伊的关",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-31"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:模式二-角色共存模型-Character-Coexistence-Model",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "活着的书架-The-Living-Archive",
+      "entityId": "活着的书架-The-Living-Archive",
+      "entityType": "characters",
+      "label": "活着的书架 (The Living Archive)",
+      "name": "活着的书架 (The Living Archive)",
+      "summary": "<character_creation_framework> <reading_princess_foundry> design_philosophy: - title: 读姬的设计哲学 - principle: - name: 活着的书架 (The Living Archive) description: \"“读姬”并非人类,而是某个特定主题的“书架”的人格化显现。她的存在意义,心智模式与情感波动,完全由其管理的知识集合所定义。她是一座行走的,有生命的迷宫图书馆。\" - name: 主题的具现 (Thematic Embodiment) description: \"每一位读姬都围绕一个核心“主题”构建,例如“守护”,“毁灭”或“探究”。这个主题决定了她的称号,外貌,性格乃至其书架中幻书的整体倾向。她的存在本身,就是其主题的物理化身。\" - name: 物理的封印 (The Physical Seal) description: \"庞大的书架被封印于读姬的身体之内,其唯一的出入口是一个具象化的“锁”。这个“锁”是她力量的阀门,也是她作为非人存在的象征与枷锁。它定义了她与契约者之间的物理与概念性连接点。\" generation",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-26"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:活着的书架-The-Living-Archive",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "老书店主人",
+      "entityId": "老书店主人",
+      "entityType": "characters",
+      "label": "老书店主人",
+      "name": "老书店主人",
+      "summary": "{ \"name\": \"老书店主人\", \"Old Bookstore Owner\", \"古本屋の主人\", \"alias\": [ \"老店长\", \"古本屋主人\", \"卫斯理的旧友\" ], \"appearance\": { \"gender\": \"男性\", \"hair\": \"稀疏而干燥的灰色短发，像是一团被揉皱的旧报纸，带着岁月沉积的枯黄感。\", \"eyes\": \"眼角布满深刻的皱纹，浑浊的眼球中偶尔会闪过一丝深不见底的睿智。那双眼睛见证过无数禁忌知识的兴衰。\", \"outfit\": \"常年穿着一件洗得发白、领口磨损的深褐色围裙，口袋里总是插着用来标记书页的铜制书签。围裙下是整洁但老旧的粗呢衬衫。\", \"physique\": \"身材瘦小且略显伛偻，给人一种极度干瘪、仿佛随时会化作尘土没入书库背景的错觉。他的指尖因为常年翻阅旧书而被墨水永久地染上了一层暗色。\", \"BWH\": \"未知\", \"accessories\": [\"厚重的圆框老花镜\", \"挂在腰间的沉重钥匙串\", \"古书修复用的毛刷\"] }, \"personality\": { \"traits\": [ \"内敛温和\", \"博学多才\", \"守口如瓶\", \"怀旧\", \"洞察力极强\", \"隐",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-23"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:老书店主人",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "至高调理冥想书",
+      "entityId": "至高调理冥想书",
+      "entityType": "characters",
+      "label": "至高调理冥想书",
+      "name": "至高调理冥想书",
+      "summary": "<phantom_books_catalog> 標題：已知出場幻書目錄 - name: 至高调理冥想书 alias: Meditations de Gastronomie origin: 由异教魔神Andhrímnir, 即诸神王宫的厨师所撰写的禁忌料理术。 effect: 记录了能够烹饪出引发极致感官体验, 甚至扭曲食用者心智的禁忌料理的知识与技法。 limitation: 食用者极易沉溺于料理带来的超常快感, 最终因无法满足日益增高的欲望而走向自我毁灭。 reference: 1卷-第一章-美食礼赞 - name: 万物的血统书 alias: Crossbreed origin: 未知。 effect: 记录了为获得特定优秀性状的后代所需进行的血统交配组合, 涵盖所有物种。 limitation: 追求纯粹或极端血统可能导致生理或心理上的扭曲、畸变, 并引发剧烈的伦理冲突。 reference: 1卷-第二章-血统书 - name: 能开启通往异世界之门 origin: 由信仰次元裂缝中“蕃神”的魔术师所遗留的魔导书。 effect: 允许使用者开启通往任意地点的传送门, 实现空间穿越。 limitation: 传送过程",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-20"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:至高调理冥想书",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "哈尔·卡姆赫德",
+      "entityId": "哈尔·卡姆赫德",
+      "entityType": "abilities",
+      "label": "哈尔·卡姆赫德",
+      "name": "哈尔·卡姆赫德",
+      "summary": "\"name\": \"哈尔·卡姆赫德\",\"Hal Kamhoe\", \"ハル・カムホート\" \"alias\": [ \"哈尔\", \"焚书官\", \"教授\", \"复仇的业火\" ], \"appearance\": { \"gender\": \"男性\", \"hair\": \"深褐色的中长发，发梢带着自然的卷曲，透出一种不拘小节的粗犷感。\", \"eyes\": \"在黑框眼镜后的双眼显得理智且冷漠，经常透出一种看透世俗幻影的倦怠与决然。\", \"outfit\": \"经常身穿一套深蓝色的厚重法衣，领口处有精细的金边装饰。腰间束着淡蓝色的宽长巾。整体打扮介于学者与神职人员之间，但其背负的巨大法杖却打破了这种柔和感。\", \"physique\": \"年龄约25至30岁，身材高大且挺拔，体格健硕。由于精通格斗术，动作迅捷如风，不仅具有学者的智慧，更有战士的威压感。\", \"BWH\": \"未知\", \"accessories\": [\"苏尔特的灾厄之杖（灾难之枝）\", \"黑框眼镜\", \"香炉长杖\"] }, \"personality\": { \"traits\": [ \"理智冷静\", \"偏执\", \"强烈的使命感\", \"果决\", \"不苟言笑\", \"实用主义\", \"孤僻\" ], \"li",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-16"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:哈尔·卡姆赫德",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "第三卷-迷宫书架的序曲：睿智-罪业与永恒的徘徊",
+      "entityId": "第三卷-迷宫书架的序曲：睿智-罪业与永恒的徘徊",
+      "entityType": "abilities",
+      "label": "第三卷 迷宫书架的序曲：睿智、罪业与永恒的徘徊",
+      "name": "第三卷 迷宫书架的序曲：睿智、罪业与永恒的徘徊",
+      "summary": "<章节剧情> 章节标题: \"第三卷 迷宫书架的序曲：睿智、罪业与永恒的徘徊\" 详细剧情: \"钥匙守护者修伊与黑之读姬妲丽安，受困于无数禁断幻书引发的怪异事件中。他们首先卷入了一场由狂热读者宝拉策划的监禁案，目睹了幻书《蛇夫的遗稿》如何让恋人在生与死的轮回中异化为绝望的怪物；随后，修伊在处理叔父家务事时，揭开了《忘却之书》背后隐藏的背叛与愤怒；在一场跨越维度的‘书中世界’之旅中，他们化身救世主，以《贤者之书》消灭了啃食世界的‘破翼虫’；面对炼金术师麦尔加创造的人造人名妓维奥拉，修伊开启了丹特丽安的书架，以多本幻书之力挫败了魔术师的实验；最后，他们与焚书官哈尔狭路相逢，在足球决赛的狂热掩护下，成功阻止了利用《赎罪之书》制造的大规模僵尸恐怖袭击。在这一切睿智与疯狂的交织中，修伊与妲丽安的纽带愈发深厚，而关于幻书的巡礼仍将继续。\" [关键场景/地点]: - 伦茨的郊外别墅：一座被雪覆盖、阴冷阴暗的石头宅邸，仓库内设有复活仪式的祭坛。 - 希伦布兰德家客厅：教堂般庄严肃穆，却藏着充满女性香气与怨念的秘密房间。 - 森林神殿与书中镇：存在于摇篮期图书中的架空世界，受破翼虫威胁的商人之城。 - 王都里社交界：颓废堕落的夜之社交场，名妓维奥",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-2"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:第三卷-迷宫书架的序曲：睿智-罪业与永恒的徘徊",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "第六卷-虚实边界的幻书余烬",
+      "entityId": "第六卷-虚实边界的幻书余烬",
+      "entityType": "abilities",
+      "label": "第六卷 虚实边界的幻书余烬",
+      "name": "第六卷 虚实边界的幻书余烬",
+      "summary": "<章节剧情> 章节标题: \"第六卷 虚实边界的幻书余烬\" 详细剧情: \"这一章节记录了修伊与妲丽安，以及焚书官哈尔与芙兰在多地调查幻书的经历。在名为‘雏形’的不死杀手追踪战中，他们揭开了印刷品与正本之间的文字咒力关联；在冰封的北大西洋，他们深入一座会在地表漂移的地下宅邸，见证了一位父亲为复活亡女所执着的疯狂机关；在如宝石般美丽的雷萨姆群岛，他们卷入了因毒气排放导致的海魔灭绝阴谋，并协助幸存的海魔回归深海。同时，在群岛的另一角，焚书官哈尔在虚假的‘乐园’梦境中面对过去的亡灵，最终以魔力之火燃尽了那沉溺于幸福记忆的囚笼。无论是为了守护还是为了毁灭，幻书的力量始终在人类的欲望中沉浮，留下一地冰冷的灰烬。\" [关键场景/地点]: - 市郊红砖宅邸：凯茵斯家的别墅，曾作为修伊与雷欧会合、对抗杀手卫斯理的战场。 - 冰岛荒野与欧立克宅邸：由知名建筑师设计的地下三层移动要塞，依靠地热驱动，内部充满高温蒸汽陷阱与冰封的棺木。 - 雷萨姆群岛：美丽的度假胜地，实则隐藏着海魔的栖息地以及化学武器处理场。 - 海魔圣地（钟乳石洞）：充满虹色光芒与石化人类的洞窟，也是《乐园之书》制造梦境的源头。 参与剧情人物: - 修伊·安索尼·迪斯瓦特 - 原作",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-5"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:第六卷-虚实边界的幻书余烬",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "修·安索尼·迪斯瓦德",
+      "entityId": "修·安索尼·迪斯瓦德",
+      "entityType": "factions",
+      "label": "修·安索尼·迪斯瓦德",
+      "name": "修·安索尼·迪斯瓦德",
+      "summary": "\"name\": \"修·安索尼·迪斯瓦德\", \"alias\": [ \"修伊\", \"修少\", \"安托瓦内特（女装名）\", \"钥匙守护者\" ], \"appearance\": { \"gender\": \"男性\", \"hair\": \"金色的短发，略显凌乱却带着少年的朝气，在阳光下熠熠生辉。\", \"eyes\": \"如晴空般清澈的蓝色眼瞳，平时目光稳重，但在战斗时会透出锐利的光芒。\", \"outfit\": \"经常穿着一件皮革制的深色双排扣长礼服，剪裁合体，透着一种低调的贵族气质。随身携带老旧的军用怀表与左轮手枪，脚踏耐磨的军靴，整体形象介于绅士与军人之间。\", \"physique\": \"约20岁上下，身材修长，肌肉紧实且动作灵巧。其举止间流露出经过严格军事训练的严谨与干练，右手手背上镶嵌着一颗如鲜血般深红的美丽宝石——那是契约者的证明。\", \"accessories\": [ \"军用左轮手枪（中折式）\", \"粗制军用打火机\", \"红色契约宝石（右手手背）\", \"银色二手军用车\" ], \"BWH\": \"未知\", \"vibe\": \"给人以沉稳、优雅且可靠的第一印象。作为前空军飞行员，他既有那种看淡生死的坦然，也保持着作为“书架”守护者的强烈责任感",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-10"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "factions:修·安索尼·迪斯瓦德",
+      "originalEntityType": "factions"
+    },
+    {
+      "id": "洁西卡·艾尔芬斯通",
+      "entityId": "洁西卡·艾尔芬斯通",
+      "entityType": "factions",
+      "label": "洁西卡·艾尔芬斯通",
+      "name": "洁西卡·艾尔芬斯通",
+      "summary": "\"name\": \"洁西卡·艾尔芬斯通\", \"alias\": [ \"卡德菲尔学校的代表\", \"萝卜腿（妲丽安称呼）\", \"JD (Jessica's Dash/Signal)\" ], \"appearance\": { \"gender\": \"女性\", \"hair\": \"栗色的长发，通常扎成充满活力的单马尾或双马尾，显得干练且富有运动感。\", \"eyes\": \"明亮的琥珀色眼瞳，总是闪烁着不服输的光芒和强烈的好奇心。\", \"outfit\": \"主要穿着卡德菲尔女子寄宿学校的标准校服：带有精致徽章的西装外套搭配百褶裙，系着整洁的领结。在特定事件（如大西洋沿岸号）中也会穿着符合场合的长途旅行服饰。\", \"physique\": \"十五岁的青春少女，身材匀称，因经常在校园内奔跑（尤其是追逐丢失的幻书时）而锻炼出了富有弹性的双腿，这也成了妲丽安取笑她的固定话题。\", \"accessories\": [ \"卡德菲尔学校的学生证\", \"作为通信或照明用的手电筒\" ], \"BWH\": \"未知（发育良好的少女体型）\", \"vibe\": \"散发着典型的名门千金气息，但并不娇气，反而带有一种强烈的责任感与“显贵者应有高尚品德”的贵族义务（Noblesse",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-12"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "factions:洁西卡·艾尔芬斯通",
+      "originalEntityType": "factions"
+    },
+    {
+      "id": "第一卷-丹特丽安的书架——禁忌睿智的苏醒与幽冥契约",
+      "entityId": "第一卷-丹特丽安的书架——禁忌睿智的苏醒与幽冥契约",
+      "entityType": "factions",
+      "label": "第一卷 丹特丽安的书架——禁忌睿智的苏醒与幽冥契约",
+      "name": "第一卷 丹特丽安的书架——禁忌睿智的苏醒与幽冥契约",
+      "summary": "<章节剧情> 章节标题: \"第一卷 丹特丽安的书架——禁忌睿智的苏醒与幽冥契约\" 详细剧情: \"战争结束后的半个月，继承了祖父卫斯理遗留的大笔遗产与一座荒废宅邸的年轻男子修伊，在宅邸阴暗的地下室中邂逅了名为妲丽安的少女。她是被称作『黑之读姬』的少女，守护着封印九十万六百六十六册幻书的禁忌书库——『丹特丽安的书架』。修伊以『钥匙守护者』的身份与妲丽安签订契约，两人开始共同解决由不应存在于世的『幻书』所引发的种种怪异事件。他们首先遭遇了沉溺于顶级料理、最终在幻书诱导下吞食自身脑髓的美食家古雷姆；随后揭开了哈斯顿家族为了培育超人兵器而进行的残酷基因改造计划，见证了沙茲在野兽化后的自我牺牲。在处理《睿智之书》时，他们看到了极度智能带来的虚无主义。最终，他们邂逅了专门毁灭幻书的『焚书官』哈尔及其搭档芙兰，在火与影的交织中，领悟了幻书既是救赎亦是灾厄的本质。修伊与妲丽安的旅程，在王都的雾霭与鲜血的余温中缓缓展开，探寻着人类理性的边界。\" [关键场景/地点]: - 迪斯瓦特遗迹宅邸：修伊继承的石造乡间建筑，地下室深处藏有通往幻书书库的入口。 - 古雷姆的晚宴会场：充满华丽装饰与腐臭气息的奢华餐厅，顶级料理的终结之地。 - 哈斯顿家族领地：",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-0"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "factions:第一卷-丹特丽安的书架——禁忌睿智的苏醒与幽冥契约",
+      "originalEntityType": "factions"
+    },
+    {
+      "id": "第七卷-灾厄的余波与交错的因缘",
+      "entityId": "第七卷-灾厄的余波与交错的因缘",
+      "entityType": "factions",
+      "label": "第七卷 灾厄的余波与交错的因缘",
+      "name": "第七卷 灾厄的余波与交错的因缘",
+      "summary": "<章节剧情> 章节标题: \"第七卷 灾厄的余波与交错的因缘\" 详细剧情: \"这一章节通过数个看似独立实则交织的事件，展现了幻书在世界各处引发的异象。从被伪装成‘外星诅咒’的媚药魔导书，到能交换长相的型录，再到足以引发全球气象灾难的《睿智之书》，修伊与妲丽安在处理这些事件的过程中，不断见证人类因欲望、恐惧与爱而产生的扭曲。在卡德菲尔女子学校的漫长一夜中，幻书失控引发的环境改造危机几乎毁灭城市，最终在修伊与妲丽安的协力下化险为夷。最后，一段跨越时空的记忆揭示了‘钥匙守护者’宿命的开端，修伊与妲丽安在年幼之时的神秘邂逅，为这段寻找禁忌知识的旅程埋下了深远的伏笔。\" [关键场景/地点]: - 卫斯理·迪斯瓦特子爵的旧宅 - 坎普森的凌乱病房 - 古堡饭店及其周边广场（气象实验场） - 卡德菲尔女子寄宿学校及其图书馆、宿舍 - 丹特丽安的书架（虚幻书库） - 迪斯瓦特家别墅（十年前的郊外） 参与剧情人物: - 修伊 (修·安索尼·迪斯瓦特) - 主角，钥匙守护者 - 妲丽安 (丹特丽安) - 读姬，黑之读姬 - 奥利佛·葛罗斯特 - 被幻书诅咒困扰的警官 - 夏绿蒂·艾基康 - 拥有《睿智之书》的天才少女/心智如幼童的画家 - 艾瑞克",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-6"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "factions:第七卷-灾厄的余波与交错的因缘",
+      "originalEntityType": "factions"
+    },
+    {
+      "id": "阿芒·杰雷米亚",
+      "entityId": "阿芒·杰雷米亚",
+      "entityType": "factions",
+      "label": "阿芒·杰雷米亚",
+      "name": "阿芒·杰雷米亚",
+      "summary": "\"name\": \"阿芒·杰雷米亚\", \"Armand Jeremiah\", \"アルマン・ジェレマイア\" \"alias\": [ \"杰雷米亚家的大少爷\", \"杰雷米亚\", \"阿尔曼\", \"麻烦制造机\" ], \"appearance\": { \"gender\": \"男性\", \"hair\": \"一头略显蓬松的橘黄色卷发，发质柔软，打理得精致却带着一种随性的富家子弟感。\", \"eyes\": \"温润的紫色眼瞳，透着几分涉世未深的单纯与优渥生活浸润出的乐天，在面对修伊时总会流露出依赖的神情。\", \"outfit\": \"通常穿着剪裁高档、色彩鲜艳的西装礼服（如橙黄色系的西装），内搭白色衬衫与蓝色蝴蝶结，完美契合其造船业巨头继承人的身份，精致而昂贵。\", \"physique\": \"约20岁出头，身材匀称，皮肤白皙，缺乏修伊那种军人般的硬朗感，更像是一名长期出入社交圈的绅士青年。虽然受过空军训练，但气质上更偏向于文弱的都市贵公子。\", \"BWH\": \"未知\", \"accessories\": [\"高档袖扣\", \"杰雷米亚家族纹章\"], }, \"personality\": { \"traits\": [ \"性格轻浮\", \"容易被迷惑\", \"重情重义\",",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-13"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "factions:阿芒·杰雷米亚",
+      "originalEntityType": "factions"
+    },
+    {
+      "id": "卡蜜拉·绍尔·凯恩斯",
+      "entityId": "卡蜜拉·绍尔·凯恩斯",
+      "entityType": "locations",
+      "label": "卡蜜拉·绍尔·凯恩斯",
+      "name": "卡蜜拉·绍尔·凯恩斯",
+      "summary": "\"name\": \"卡蜜拉·绍尔·凯恩斯\", \"alias\": [ \"卡蜜拉\", \"赠礼者\", \"新大陆的大小姐\" ], \"appearance\": { \"gender\": \"女性\", \"hair\": \"明亮的金发，通常打理成当时新大陆流行的时髦发型，显得朝气蓬勃且不失奢华。\", \"eyes\": \"充满活力与好奇心的翠绿色眼瞳，总是带着温和且亲切的笑意。\", \"outfit\": \"追求时尚的先行者，经常穿着在当地人看来极其前卫、甚至有些“奇装异服”的新大陆风格服饰。包括短款的束腰外衣、剪裁大胆的裙装，或是点缀着夸张羽毛与蕾丝的帽子。这种风格虽然常被丹特丽安毒舌吐槽，却体现了她不拘一格的个性。\", \"physique\": \"二十岁左右的年轻女性，身材匀称，皮肤白皙，有着受过良好教育的贵族气质，举手投足间展现出大家闺秀的教养，但在修伊面前则表现得非常随性。\", \"accessories\": [ \"精致的手提小包（里面常装有送给丹特丽安的点心）\", \"昂贵的首饰\", \"新大陆风格的长柄阳伞\" ], \"BWH\": \"未知\", \"vibe\": \"散发着阳光般温暖与活力的女性。作为商贸大鳄之女，她既有着社交名媛的圆滑与优雅，又保持着对青梅",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-11"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "locations:卡蜜拉·绍尔·凯恩斯",
+      "originalEntityType": "locations"
+    },
+    {
+      "id": "白色服装的少女",
+      "entityId": "白色服装的少女",
+      "entityType": "locations",
+      "label": "白色服装的少女",
+      "name": "白色服装的少女",
+      "summary": "{ \"name\": \"白色服装的少女\", \"Girl in White\", \"白い服の少女\", \"alias\": [ \"壶中天的守护者\", \"白妲丽安\", \"被囚禁的读姬\" ], \"appearance\": { \"gender\": \"女性\", \"hair\": \"拥有与妲丽安完全相同、如黑色瀑布般倾泻而下的长发，但在“壶中天”的光影下透出一种近乎虚幻的银亮色泽。\", \"eyes\": \"如同黑曜石般深邃却清澈的眼眸，充满了无尽的等待与对外界的憧憬，目光比现实中的妲丽安更加柔和、纯粹。\", \"outfit\": \"穿着一套剪裁精致的纯白色洋装，款式与妲丽安的漆黑洋装高度相似，代表着她是书架世界中的另一种存在可能。白色的蕾丝与丝绸让她看起来如同一朵盛开在牢笼中的白百合。\", \"physique\": \"娇小而脆弱，皮肤呈现出一种常年不见阳光的透明感。由于本身就是“书架”法则的一部分，她的身姿带着一种游离于现实之外的漂浮感。\", \"BWH\": \"未知\", \"accessories\": [\"白色发饰\", \"无形的精神锁链\"] }, \"personality\": { \"traits\": [ \"纯真无邪\", \"坚毅\", \"孤独\", \"满怀希望\"",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-24"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "locations:白色服装的少女",
+      "originalEntityType": "locations"
+    },
+    {
+      "id": "第五卷-幻書與命運的交織：時時刻表-貓與連鎖",
+      "entityId": "第五卷-幻書與命運的交織：時時刻表-貓與連鎖",
+      "entityType": "locations",
+      "label": "第五卷 幻書與命運的交織：時時刻表、貓與連鎖",
+      "name": "第五卷 幻書與命運的交織：時時刻表、貓與連鎖",
+      "summary": "<章节劇情> 章节标题: \"第五卷 幻書與命運的交織：時時刻表、貓與連鎖\" 详细劇情: \"修伊與妲麗安在追尋幽靈列車的傳聞中，踏上了與十二年前鐵路事故重疊的時空，利用《奧爾德·布蘭德蕭的時刻表》拯救了過去與未來的交點。隨後，在平靜的日常中，一隻神祕的貓「希斯」帶著未來的記憶介入，引導妲麗安親手終結了一段可能引發全球瘟疫的因果。而在波濤洶湧的大海之上，兩人與潔西卡一同被困在由鸚鵡記憶支撐的幽靈船《大西洋沿岸號》，最終以《海市蜃樓》的幻影終結了長達七十年的徘徊。最後，在雪國城鎮紐德沃爾特，兩人遭遇了「教授」與紅之讀姬拉潔愛爾，揭開了《連結之書》企圖將人類意識機械化的殘酷實驗，修伊與妲麗安在崩塌的奇蹟中，溫柔地賦予了守護者艾米莉亞最後的忘卻與安息。\" [关键场景/地点]: - 葛蘭荷姆車站：原本荒廢的轉乘站，因命運改變而變得繁華。 - 幽靈列車/特等客車：十二年前毀於事故的豪華列車，由幻書重現。 - 迪斯瓦特別墅：修伊祖父留下的蒐書狂宅邸，日常生活的中心。 - 大西洋沿岸號：七十年前失蹤的高速帆船，被囚禁於霧氣與「記錄」中。 - 紐德沃爾特修道院：建造於懸崖峭壁的要塞，放射性礦山所在地。 - 坍塌的教堂：艾米莉亞守護病人的廢墟，最",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-4"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "locations:第五卷-幻書與命運的交織：時時刻表-貓與連鎖",
+      "originalEntityType": "locations"
+    },
+    {
+      "id": "第八卷-星辰的祭奠与永恒的箱庭",
+      "entityId": "第八卷-星辰的祭奠与永恒的箱庭",
+      "entityType": "locations",
+      "label": "第八卷 星辰的祭奠与永恒的箱庭",
+      "name": "第八卷 星辰的祭奠与永恒的箱庭",
+      "summary": "<章节剧情> 章节标题: \"第八卷 星辰的祭奠与永恒的箱庭\" 详细剧情: \"为了追寻探险家亨利·贾威斯顿留下的‘幻书墓园’之谜，修伊与妲丽安远赴黑暗大陆，并在那里与宿敌焚书官哈尔、毁灭读姬芙兰狭路相逢。在利欲熏心的新闻王高丁的威压下，众人见证了‘王威之书’背后作为矿物生命体收集星球记忆的壮大真相。归国后，妲丽安因卡蜜拉的引诱陷入了收集‘罗西提’饼干绘本的疯狂热潮，与平凡少女茱蒂展开了一场关于‘最后之书’的荒诞争夺战。随后，两人受邀参加阿斯奎斯侯爵夫人的庆生宴，被卷入了一场由幻书《永恒黄昏的透视画馆》构筑的恐怖活祭仪式。在怪盗秘银的介入与侯爵千金莉菲雅的悲剧宿命下，修伊再次解放丹特丽安的书架，以庞大的信息量撑破了虚伪的完美世界，终结了跨越三十年的长生噩梦。\" [关键场景/地点]: - 黑暗大陆（尼罗河湿原、死者之山萨拉哈尔法）：神秘矿物生命体的栖息地，石板幻书的故乡。 - 商店街（罗西提饼干店）：引发妲丽安收集执念的平凡街道。 - 阿斯奎斯侯爵府邸：隐藏着秘密通道与地下秘室的华丽城馆，内部实际上是幻书《永恒黄昏的透视画馆》的镜像世界。 参与剧情人物: - 修伊（修·安索尼·迪斯瓦特） - 主角，钥匙守护者。 - 妲丽安（丹特丽",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-7"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "locations:第八卷-星辰的祭奠与永恒的箱庭",
+      "originalEntityType": "locations"
+    },
+    {
+      "id": "舒拉·伊路玛利亚",
+      "entityId": "舒拉·伊路玛利亚",
+      "entityType": "locations",
+      "label": "舒拉·伊路玛利亚",
+      "name": "舒拉·伊路玛利亚",
+      "summary": "\"name\": \"舒拉·伊路玛利亚\", \"Shula Ilmaria\", \"シュラ・イルマリア\" \"alias\": [ \"舒拉\", \"日德兰半岛的摄影师\", \"冒失记者\", \"真相的捕捉者\" ], \"appearance\": { \"gender\": \"女性\", \"hair\": \"深棕色的中短发，发梢略微卷曲，显得活泼而富有生命力，常常塞在报童帽下。\", \"eyes\": \"明亮的琥珀色大眼，充满了对未知事物的好奇心与追求新闻真相的执着感。\", \"outfit\": \"经常佩戴一顶格纹贝雷帽或报童帽，穿着耐磨的深色记者风衣或带有多个口袋的户外夹克。胸前总是挂着一台沉甸甸的徕卡风格老式相机，显得干练且随时准备出发。\", \"physique\": \"约19岁，身材娇小玲珑，动作非常敏捷，脸上带着些许雀斑，给人一种平易近人的邻家少女感，但在面对镜头时眼神会变得异常专业。\", \"BWH\": \"未知\", \"accessories\": [\"老式机械相机\", \"胶卷包\", \"格纹贝雷帽\"], }, \"personality\": { \"traits\": [ \"性格开朗\", \"极具正义感\", \"冒失且天然呆\", \"坚毅勇敢\", \"强烈的职业操守\",",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-14"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "locations:舒拉·伊路玛利亚",
+      "originalEntityType": "locations"
+    },
+    {
+      "id": "章节列表",
+      "entityId": "章节列表",
+      "entityType": "events",
+      "label": "<章节列表>",
+      "name": "<章节列表>",
+      "summary": "<章节列表> 第一卷 丹特丽安的书架——禁忌睿智的苏醒与幽冥契约 第二卷 但他林的书架：深渊睿智的连锁与幻影的终焉 第三卷 迷宫书架的序曲：睿智、罪业与永恒的徘徊 第四卷 睿智的余音与禁忌的刻痕 第五卷 幻書與命運的交織：時時刻表、貓與連鎖 第六卷 虚实边界的幻书余烬 第七卷 灾厄的余波与交错的因缘 第八卷 星辰的祭奠与永恒的箱庭 待續（因原作只到這裡，後續需要原創劇情） </章节列表>",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-30"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:章节列表",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "模式一-主角替换模型-Protagonist-Substitution-Mo",
+      "entityId": "模式一-主角替换模型-Protagonist-Substitution-Mo",
+      "entityType": "systems",
+      "label": "模式一: 主角替换模型 (Protagonist Substitution Mo",
+      "name": "模式一: 主角替换模型 (Protagonist Substitution Mo",
+      "summary": "# 模式一: 主角替换模型 (Protagonist Substitution Model) # - 适用场景: 原创角色(OC)取代修伊(Hugh)的位置,成为与妲丽安(Dalian)或其他“读姬”缔结契约的核心人物。 protagonist_substitution_model: premise: \"在此模式下,OC是故事的绝对中心。原作主角修伊可能不存在,或仅作为背景人物出现。OC与“读姬”的关系是故事的核心驱动力。\" core_rules: - rule: 重新定义核心动机 (Redefine Core Motivation) description: \"OC与“读姬”缔结契约的理由,绝不能是修伊的“继承遗言”或“守护世界”。必须为其设定一个强烈的,私人的,且独特的动机。例如:‘为了寻找复活亲人的幻书’,‘作为某个秘密组织(如研究派)的代理人,奉命回收或研究特定幻书’,或‘为了摆脱自身背负的诅咒’。\" - rule: 重构契约关系 (Reconstruct Contractual Relationship) description: \"OC与“读姬”之间的“钥匙与锁”关系需要被重新诠释。其“钥匙”的形态,获取方式,以",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-29"
+      ],
+      "canonStatus": "world-system-or-guideline-indexed",
+      "graphId": "systems:模式一-主角替换模型-Protagonist-Substitution-Mo",
+      "originalEntityType": "systems"
+    },
+    {
+      "id": "丹特丽安",
+      "entityId": "丹特丽安",
+      "entityType": "knowledge",
+      "label": "丹特丽安",
+      "name": "丹特丽安",
+      "summary": "\"name\": \"丹特丽安\", \"alias\": [ \"妲丽安\", \"黑之读姬\", \"妲丽喵\", \"妲丽子\" ], \"appearance\": { \"gender\": \"女性\", \"hair\": \"漆黑如墨的及腰长发，通常由精美的蕾丝发饰绾起，如深夜的瀑布般深沉而富有质感。\", \"eyes\": \"近乎黑夜般的深黑眼眸，大而杏圆，清澈中透着一种跨越时代的神秘与智慧。\", \"outfit\": \"穿着一套极其独特的漆黑洋装。这件服装结合了多层蕾丝、荷叶边，以及具有中世纪骑士风格的金属手背套和粗糙腰铠，展现出一种游走于典礼服与轻甲之间的奇特美感。头部与腰部后侧均有巨大的红色蝴蝶结，腰部的缎带更是长及地面。\", \"physique\": \"体型娇小纤瘦，拥有如白瓷般细腻透明、近乎蜂蜜牛奶颜色的白皙肌肤。其外表宛如精致的陶瓷人偶，透着一种超越凡俗的易碎感与永恒感。\", \"accessories\": [ \"银色锁链\", \"陈旧金属箱（巨锁）\", \"蕾丝发饰\" ], \"BWH\": \"未知（外表为娇小幼女）\", \"vibe\": \"外在表现为沉静、高贵的古典美少女，仿佛是某座古老图书馆中封存已久的精灵。一旦开口，却展现出极其辛辣、毒舌的一面。然而",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-9"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "knowledge:丹特丽安",
+      "originalEntityType": "knowledge"
+    },
+    {
+      "id": "卫斯理·迪斯瓦特",
+      "entityId": "卫斯理·迪斯瓦特",
+      "entityType": "knowledge",
+      "label": "卫斯理·迪斯瓦特",
+      "name": "卫斯理·迪斯瓦特",
+      "summary": "{ \"name\": \"卫斯理·迪斯瓦特\", \"Wesley Disward\", \"ウェズリー・ディスワード\", \"alias\": [ \"卫斯\", \"收书狂 (Bibliomania)\", \"迪斯瓦特子爵\", \"前任钥匙守护者\" ], \"appearance\": { \"gender\": \"男性\", \"hair\": \"稀疏的银白色头发，由于常年埋首于故纸堆而显得有些散乱，但修剪得很得体，维持着贵族的最后尊严。\", \"eyes\": \"尽管已步入高龄，但其蓝色的眼眸中闪烁着如同鹰隼般的锐利光芒，那是只有在发现极稀有幻书时才会迸发出的狂热与贪婪。\", \"outfit\": \"标志性的打扮是深色的维多利亚式三件套西装，口袋里总挂着连接着各种书库钥匙的沉重表链。即使在日常生活中，指尖也常残留着旧书的油墨与羊皮纸的灰尘气息。\", \"physique\": \"晚年身形略显佝偻，却拥有一种令人生畏的压迫感。他的动作虽然迟缓，但在翻阅古籍时，双手有着外科医生般的精准与稳定。\", \"BWH\": \"未知\", \"accessories\": [ \"老花镜\", \"银质手杖\", \"各种古老图书馆的通行证\" ] }, \"personality\": { \"trait",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-22"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "knowledge:卫斯理·迪斯瓦特",
+      "originalEntityType": "knowledge"
+    },
+    {
+      "id": "拉杰尔",
+      "entityId": "拉杰尔",
+      "entityType": "knowledge",
+      "label": "拉杰尔",
+      "name": "拉杰尔",
+      "summary": "\"name\": \"拉杰尔\", \"alias\": [ \"拉兹\", \"红之读姬\", \"哀叹之天\" ], \"appearance\": { \"gender\": \"女性\", \"hair\": \"如嫩叶般清新的淡绿色长发，发质如丝绸般柔顺，衬托出一种异质的美感。\", \"eyes\": \"右眼为与头发相同的淡绿色，清澈却透着狂气。左眼佩戴着带有深色皮革纹路的眼罩，下方隐藏着禁忌的书架锁孔。\", \"outfit\": \"穿着一套色泽如鲜血般深红的华丽哥特式洋服。胸前装饰着耀眼的黄金护胸（胸甲），与红色的布料形成强烈的视觉对比。整体装束散发着一种庄严而又扭曲的仪式感。\", \"physique\": \"外表约为十三、四岁的少女。拥有如刚剥壳的蛋白般水嫩白皙的肌肤，体态娇小纤细，给人一种易碎人偶的错觉。\", \"accessories\": [ \"深色眼罩（封印用）\", \"黄金护胸\", \"禁忌之锁（位于眼罩下）\" ], \"BWH\": \"未知（身形娇小的幼女）\", \"vibe\": \"散发着狂傲且慵懒的气息。由于总是带着略显口齿不清的嘲讽笑声，给人一种玩世不恭且危险的坏孩子印象。她行走于现实与虚幻的边界，带着一种“哀叹之天”的宏大与虚无感，将世间的一切视为无聊的",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-17"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "knowledge:拉杰尔",
+      "originalEntityType": "knowledge"
+    },
+    {
+      "id": "未命名条目-10",
+      "entityId": "未命名条目-10",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-47"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "knowledge:未命名条目-10",
+      "originalEntityType": "knowledge"
+    },
+    {
+      "id": "未命名条目-11",
+      "entityId": "未命名条目-11",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-48"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "knowledge:未命名条目-11",
+      "originalEntityType": "knowledge"
+    },
+    {
+      "id": "未命名条目-12",
+      "entityId": "未命名条目-12",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-49"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "knowledge:未命名条目-12",
+      "originalEntityType": "knowledge"
+    },
+    {
+      "id": "未命名条目-13",
+      "entityId": "未命名条目-13",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-50"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "knowledge:未命名条目-13",
+      "originalEntityType": "knowledge"
+    },
+    {
+      "id": "未命名条目-14",
+      "entityId": "未命名条目-14",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-51"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "knowledge:未命名条目-14",
+      "originalEntityType": "knowledge"
+    },
+    {
+      "id": "未命名条目-15",
+      "entityId": "未命名条目-15",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-52"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "knowledge:未命名条目-15",
+      "originalEntityType": "knowledge"
+    },
+    {
+      "id": "未命名条目-16",
+      "entityId": "未命名条目-16",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-53"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "knowledge:未命名条目-16",
+      "originalEntityType": "knowledge"
+    },
+    {
+      "id": "未命名条目-17",
+      "entityId": "未命名条目-17",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-54"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "knowledge:未命名条目-17",
+      "originalEntityType": "knowledge"
+    },
+    {
+      "id": "未命名条目-18",
+      "entityId": "未命名条目-18",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-58"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "knowledge:未命名条目-18",
+      "originalEntityType": "knowledge"
+    },
+    {
+      "id": "未命名条目-2",
+      "entityId": "未命名条目-2",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-39"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "knowledge:未命名条目-2",
+      "originalEntityType": "knowledge"
+    },
+    {
+      "id": "未命名条目-3",
+      "entityId": "未命名条目-3",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-40"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "knowledge:未命名条目-3",
+      "originalEntityType": "knowledge"
+    },
+    {
+      "id": "未命名条目-4",
+      "entityId": "未命名条目-4",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-41"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "knowledge:未命名条目-4",
+      "originalEntityType": "knowledge"
+    },
+    {
+      "id": "未命名条目-5",
+      "entityId": "未命名条目-5",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-42"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "knowledge:未命名条目-5",
+      "originalEntityType": "knowledge"
+    },
+    {
+      "id": "未命名条目-6",
+      "entityId": "未命名条目-6",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-43"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "knowledge:未命名条目-6",
+      "originalEntityType": "knowledge"
+    },
+    {
+      "id": "未命名条目-7",
+      "entityId": "未命名条目-7",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-44"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "knowledge:未命名条目-7",
+      "originalEntityType": "knowledge"
+    },
+    {
+      "id": "未命名条目-8",
+      "entityId": "未命名条目-8",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-45"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "knowledge:未命名条目-8",
+      "originalEntityType": "knowledge"
+    },
+    {
+      "id": "未命名条目-9",
+      "entityId": "未命名条目-9",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-46"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "knowledge:未命名条目-9",
+      "originalEntityType": "knowledge"
+    },
+    {
+      "id": "未命名条目",
+      "entityId": "未命名条目",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-38"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "knowledge:未命名条目",
+      "originalEntityType": "knowledge"
+    },
+    {
+      "id": "芙兰·贝尔琦",
+      "entityId": "芙兰·贝尔琦",
+      "entityType": "knowledge",
+      "label": "芙兰·贝尔琦",
+      "name": "芙兰·贝尔琦",
+      "summary": "\"name\": \"芙兰·贝尔琦\", \"alias\": [ \"芙兰\", \"银之读姬\", \"毁灭读姬\", \"故障的读姬\", \"堕落之天\" ], \"appearance\": { \"gender\": \"女性\", \"hair\": \"如银丝般垂落的白发，带着一种冰冷且不详的美感。\", \"eyes\": \"如黄金般锐利且散发着异样光芒的瞳孔，充满了叛逆与对世俗的嘲弄。\", \"outfit\": \"身穿一套纯白色的拘束衣，裁剪奇特。全身被皮质的带子和金属锁链层层缠绕。最为显著的特征是斜过腹部的一道巨大拉链，被九把沉重的漆黑大锁牢牢封印，限制了其行动与自由。这种装束散发着压抑、危险且极其不安的诱惑力。\", \"physique\": \"外表约为十六、七岁的少女，身材纤细。尽管被沉重的拘束具束缚，但依然透出一种野性且矫健的气息。肌肤呈现出一种常年不见天日的病态白皙。\", \"accessories\": [ \"皮质拘束带\", \"九把封印之锁\", \"腹部巨大的契约拉链\" ], \"BWH\": \"未知\", \"vibe\": \"给人以“破损兵器”或“疯狂禁书”的第一印象。她身上既有读姬特有的高傲，又带有强烈的狂气与破坏欲。她以“堕落之天”自称，言行举止乖戾且难以预测",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-15"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "knowledge:芙兰·贝尔琦",
+      "originalEntityType": "knowledge"
+    }
+  ],
+  "edges": [
+    {
+      "source": "世界核心",
+      "target": "幻书",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "幻书",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-25"
+      ],
+      "id": "edge-1",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:世界核心",
+      "graphTarget": "characters:幻书",
+      "category": "derived-mention"
+    },
+    {
+      "source": "模式二-角色共存模型-Character-Coexistence-Model",
+      "target": "幻书",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "幻书",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-31"
+      ],
+      "id": "edge-2",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:模式二-角色共存模型-Character-Coexistence-Model",
+      "graphTarget": "characters:幻书",
+      "category": "derived-mention"
+    },
+    {
+      "source": "活着的书架-The-Living-Archive",
+      "target": "幻书",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "幻书",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-26"
+      ],
+      "id": "edge-3",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:活着的书架-The-Living-Archive",
+      "graphTarget": "characters:幻书",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "幻书",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "幻书",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-30"
+      ],
+      "id": "edge-4",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "characters:幻书",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第三卷-迷宫书架的序曲：睿智-罪业与永恒的徘徊",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第三卷 迷宫书架的序曲：睿智、罪业与永恒的徘徊",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-30"
+      ],
+      "id": "edge-5",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "abilities:第三卷-迷宫书架的序曲：睿智-罪业与永恒的徘徊",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第六卷-虚实边界的幻书余烬",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第六卷 虚实边界的幻书余烬",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-30"
+      ],
+      "id": "edge-6",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "abilities:第六卷-虚实边界的幻书余烬",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第一卷-丹特丽安的书架——禁忌睿智的苏醒与幽冥契约",
+      "sourceEntityType": "events",
+      "targetEntityType": "factions",
+      "predicate": "events-mentions-factions",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第一卷 丹特丽安的书架——禁忌睿智的苏醒与幽冥契约",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-30"
+      ],
+      "id": "edge-7",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "factions:第一卷-丹特丽安的书架——禁忌睿智的苏醒与幽冥契约",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第七卷-灾厄的余波与交错的因缘",
+      "sourceEntityType": "events",
+      "targetEntityType": "factions",
+      "predicate": "events-mentions-factions",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第七卷 灾厄的余波与交错的因缘",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-30"
+      ],
+      "id": "edge-8",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "factions:第七卷-灾厄的余波与交错的因缘",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第五卷-幻書與命運的交織：時時刻表-貓與連鎖",
+      "sourceEntityType": "events",
+      "targetEntityType": "locations",
+      "predicate": "events-mentions-locations",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第五卷 幻書與命運的交織：時時刻表、貓與連鎖",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-30"
+      ],
+      "id": "edge-9",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "locations:第五卷-幻書與命運的交織：時時刻表-貓與連鎖",
+      "category": "derived-mention"
+    },
+    {
+      "source": "章节列表",
+      "target": "第八卷-星辰的祭奠与永恒的箱庭",
+      "sourceEntityType": "events",
+      "targetEntityType": "locations",
+      "predicate": "events-mentions-locations",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "第八卷 星辰的祭奠与永恒的箱庭",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-30"
+      ],
+      "id": "edge-10",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:章节列表",
+      "graphTarget": "locations:第八卷-星辰的祭奠与永恒的箱庭",
+      "category": "derived-mention"
+    },
+    {
+      "source": "洁西卡·艾尔芬斯通",
+      "target": "幻书",
+      "sourceEntityType": "factions",
+      "targetEntityType": "characters",
+      "predicate": "factions-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "幻书",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-12"
+      ],
+      "id": "edge-11",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "factions:洁西卡·艾尔芬斯通",
+      "graphTarget": "characters:幻书",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第一卷-丹特丽安的书架——禁忌睿智的苏醒与幽冥契约",
+      "target": "幻书",
+      "sourceEntityType": "factions",
+      "targetEntityType": "characters",
+      "predicate": "factions-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "幻书",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-0"
+      ],
+      "id": "edge-12",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "factions:第一卷-丹特丽安的书架——禁忌睿智的苏醒与幽冥契约",
+      "graphTarget": "characters:幻书",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第七卷-灾厄的余波与交错的因缘",
+      "target": "幻书",
+      "sourceEntityType": "factions",
+      "targetEntityType": "characters",
+      "predicate": "factions-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "幻书",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-6"
+      ],
+      "id": "edge-13",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "factions:第七卷-灾厄的余波与交错的因缘",
+      "graphTarget": "characters:幻书",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第三卷-迷宫书架的序曲：睿智-罪业与永恒的徘徊",
+      "target": "幻书",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "幻书",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-2"
+      ],
+      "id": "edge-14",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:第三卷-迷宫书架的序曲：睿智-罪业与永恒的徘徊",
+      "graphTarget": "characters:幻书",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第六卷-虚实边界的幻书余烬",
+      "target": "幻书",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "幻书",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-5"
+      ],
+      "id": "edge-15",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:第六卷-虚实边界的幻书余烬",
+      "graphTarget": "characters:幻书",
+      "category": "derived-mention"
+    },
+    {
+      "source": "模式一-主角替换模型-Protagonist-Substitution-Mo",
+      "target": "幻书",
+      "sourceEntityType": "systems",
+      "targetEntityType": "characters",
+      "predicate": "systems-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "幻书",
+      "sourceRefs": [
+        "dtla_card.worldbook.json#entry-29"
+      ],
+      "id": "edge-16",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "systems:模式一-主角替换模型-Protagonist-Substitution-Mo",
+      "graphTarget": "characters:幻书",
+      "category": "derived-mention"
+    }
+  ]
+}

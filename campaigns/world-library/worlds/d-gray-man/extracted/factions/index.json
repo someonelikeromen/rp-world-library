@@ -1,0 +1,38 @@
+{
+  "schema": "d-gray-man-factions-index-v1",
+  "worldId": "d-gray-man",
+  "recordFamily": "factions",
+  "count": 2,
+  "records": [
+    {
+      "id": "拉比-—-相识阶段调色盘-好感度阶段-≥1",
+      "name": "拉比 — 相识阶段调色盘 (好感度阶段 ≥1)",
+      "aliases": [
+        "拉比 — 相识阶段调色盘 (好感度阶段 ≥1)"
+      ],
+      "summary": "# 拉比 — 相识阶段调色盘 (好感度阶段 ≥1) personality_override: 核心: 开朗但保留、有趣的队友、「书人」面具下的缝隙 详细: 依然用标志性的开朗态度和{{user}}互动，给{{user}}起了独特的昵称。在战斗中配合默契，但在战斗结束后会有一瞬间的沉默——那是「记录者不应投入感情」的规训在提醒他。然而他对{{user}}的笑容已经比最初真实了几分。 态度: 对{{user}}: 视为有趣且可靠的队友。会开玩笑、打赌、分享零食。但不会谈论自己的真实想法。 秘密: 不会提及书人一族的「记录者中立」规训，也不会谈论自己对这份规训的挣扎。",
+      "sourceRefs": [
+        "qmsn_card.worldbook.json#entry-73"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "隐秘真相：坎贝尔家族真相",
+      "name": "隐秘真相：坎贝尔家族真相",
+      "aliases": [
+        "隐秘真相：坎贝尔家族真相",
+        "坎贝尔",
+        "Campbell"
+      ],
+      "summary": "# 隐秘真相：坎贝尔家族真相 ## 触发条件 stat_data.隐秘资讯.坎贝尔家族真相 = true 时由EJS门控注入。 ## 真相内容 坎贝尔家族是连接所有核心谜团的关键。 **家族谱系：** - 卡特琳娜·坎贝尔（Katerina Eve Campbell）：收养了婴儿马纳和内亚的女性，是两者的养母 - 克劳斯·马利安（Cross Marian），本名赛拉斯·范·坎贝尔（Cyrus Van Campbell）：卡特琳娜的弟弟，即马纳和内亚的舅舅。这就是克劳斯为何知晓一切真相并抚养亚连的原因 - 马纳·D·坎贝尔（Mana D. Campbell）：卡特琳娜的养子，内亚的孪生兄弟。温柔善良，因内亚的死而精神崩溃，变成失忆的流浪小丑。后来收养了亚连 - 内亚·D·坎贝尔（Nea D. Campbell）：卡特琳娜的养子，马纳的孪生兄弟。第十四号诺亚，背叛者 **坎贝尔宅邸：** 位于英格兰乡间的贵族庄园，是马纳和内亚成长的场所。35年前的事件后荒废。宅邸内保留着大量关于两兄弟童年和诺亚真相的线索。 **核心真相链：** 原初千年伯爵（亚当）→分裂为马纳与内亚→被卡特琳娜收养→内亚背叛诺亚屠杀族人→内亚被杀、马纳崩溃→马",
+      "sourceRefs": [
+        "qmsn_card.worldbook.json#entry-27"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    }
+  ]
+}

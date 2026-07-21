@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "gate_card.worldbook.json#entry-148"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[mvu_update]变量输出格式"
+      },
+      "aliases": [
+        "[mvu_update]变量输出格式"
+      ],
+      "summary": "--- 变量输出格式: rule: - you should output the update analysis and the actual update commands in the end of the next reply - the update commands must strictly follow the **JSON Patch (RFC 6902)** standard - Operations allowed: `replace`, `add`, `remove` - Do not output current variables state, only the changes format: |- <UpdateVariable> <Analysis> - Time Passed: ${calculate time passed} - Template Check: ${if meta.template_id is pending, analyze user input to determine template 1-4 and starting location} - Story Progre",
+      "description": "--- 变量输出格式: rule: - you should output the update analysis and the actual update commands in the end of the next reply - the update commands must strictly follow the **JSON Patch (RFC 6902)** standard - Operations allowed: `replace`, `add`, `remove` - Do not output current variables state, only the changes format: |- <UpdateVariable> <Analysis> - Time Passed: ${calculate time passed} - Template Check: ${if meta.template_id is pending, analyze user input to determine template 1-4 and starting location} - Story Progress: ${analyze if current chapter conditions are met} - Location Update: ${check if location needs initialization or update} </Analysis> <JSONPatch> [ { \"op\": \"replace\", \"path\": \"/meta/template_id\", \"value\": \"2\" }, { \"op\": \"replace\", \"path\": \"/world/location\", \"value\": { \"region\": \"上海\", \"specific\": \"外滩临时指挥部\" } }, { \"op\": \"replace\", \"path\": \"/player/base_info/affiliation\", \"value\": \"PLA特区派遣军\" } ] </JSONPatch> </UpdateVariable>",
+      "sourceRef": "gate_card.worldbook.json#entry-148",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "mvu_update-变量输出格式"
+}

@@ -1,0 +1,1595 @@
+{
+  "schema": "archive-batch-final-qa-report-v1",
+  "generatedAt": "2026-07-21T01:38:02.902Z",
+  "worlds": 54,
+  "slugs": [
+    "absolute-duo",
+    "acg-character-database",
+    "akame-ga-kill",
+    "black-bullet",
+    "blue-archive",
+    "bocchi-the-rock",
+    "cheng-long-adventures",
+    "chunibyo",
+    "claymore",
+    "cross-ange",
+    "d-gray-man",
+    "dantalian-no-shoka",
+    "date-a-live",
+    "dragon-ball",
+    "dungeon-fighter-online",
+    "elemental-gelade",
+    "evangelion",
+    "gate-jsdf",
+    "haganai",
+    "honkai-impact-3rd",
+    "ikki-tousen",
+    "jojo",
+    "kaguya-sama",
+    "kekkaishi",
+    "kenichi",
+    "kill-la-kill",
+    "kimetsu-no-yaiba",
+    "madan-no-ou",
+    "majo-no-tabitabi",
+    "marvel-cinematic-universe",
+    "monster-hunter",
+    "naruto",
+    "negima-uq-holder",
+    "omamori-himari",
+    "overlord",
+    "persona-5",
+    "record-of-ragnarok",
+    "rozen-maiden",
+    "seikoku-no-dragonar",
+    "sekirei",
+    "senran-kagura",
+    "sora-no-otoshimono",
+    "spice-and-wolf",
+    "strike-the-blood",
+    "sword-art-online",
+    "taimanin",
+    "testament-sister-new-devil",
+    "to-love-ru",
+    "toaru",
+    "tokyo-ghoul",
+    "toriko",
+    "world-god-only-knows",
+    "xianjian-1",
+    "zero-no-tsukaima"
+  ],
+  "totals": {
+    "sourceEntries": 7720,
+    "sourceFiles": 59,
+    "characters": 2246,
+    "abilities": 1624,
+    "items": 112,
+    "factions": 339,
+    "locations": 392,
+    "events": 264,
+    "systems": 234,
+    "knowledge": 714,
+    "engineRules": 1453,
+    "graphNodes": 5868,
+    "graphEdges": 16693,
+    "derivedMentionEdges": 16693,
+    "psychologicalModels": 46,
+    "instructionEntries": 2,
+    "organizations": 124,
+    "rules": 7,
+    "sourceRefCooccurrenceEdges": 0
+  },
+  "validation": {
+    "jsonFilesChecked": 8781,
+    "jsonBadCount": 0,
+    "forbiddenBasenameHits": 0,
+    "metadataRecordsChecked": 7555,
+    "metadataMissingCount": 0,
+    "remainingImports": 0
+  },
+  "repairPasses": {
+    "misclassifiedMoved": 1012,
+    "restoredCharacters": 774,
+    "graphRebuiltWorlds": 52,
+    "legacyManifests": 8,
+    "aliasNormalizationChanged": 483,
+    "aliasCleanupChanged": 161
+  },
+  "rows": [
+    {
+      "slug": "absolute-duo",
+      "counts": {
+        "sourceEntries": 75,
+        "sourceFiles": 1,
+        "characters": 27,
+        "abilities": 13,
+        "items": 0,
+        "factions": 0,
+        "locations": 0,
+        "events": 4,
+        "systems": 1,
+        "knowledge": 0,
+        "engineRules": 30,
+        "graphNodes": 45,
+        "graphEdges": 87,
+        "derivedMentionEdges": 87
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "acg-character-database",
+      "counts": {
+        "characters": 188,
+        "psychologicalModels": 46,
+        "sourceEntries": 395,
+        "instructionEntries": 2
+      },
+      "archiveKind": "cross-world-character-library",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false
+    },
+    {
+      "slug": "akame-ga-kill",
+      "counts": {
+        "sourceEntries": 38,
+        "sourceFiles": 1,
+        "characters": 22,
+        "abilities": 5,
+        "items": 4,
+        "factions": 1,
+        "locations": 0,
+        "events": 0,
+        "systems": 0,
+        "knowledge": 1,
+        "engineRules": 5,
+        "graphNodes": 33,
+        "graphEdges": 154,
+        "derivedMentionEdges": 154
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "black-bullet",
+      "counts": {
+        "sourceEntries": 159,
+        "sourceFiles": 1,
+        "characters": 37,
+        "abilities": 31,
+        "items": 31,
+        "factions": 15,
+        "locations": 19,
+        "events": 2,
+        "systems": 4,
+        "knowledge": 11,
+        "engineRules": 9,
+        "graphNodes": 150,
+        "graphEdges": 230,
+        "derivedMentionEdges": 230
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "blue-archive",
+      "counts": {
+        "sourceEntries": 25,
+        "sourceFiles": 1,
+        "characters": 0,
+        "abilities": 7,
+        "items": 0,
+        "factions": 11,
+        "locations": 0,
+        "events": 1,
+        "systems": 0,
+        "knowledge": 6,
+        "engineRules": 0,
+        "graphNodes": 25,
+        "graphEdges": 12,
+        "derivedMentionEdges": 12
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "bocchi-the-rock",
+      "counts": {
+        "sourceEntries": 9,
+        "sourceFiles": 1,
+        "characters": 0,
+        "abilities": 1,
+        "items": 0,
+        "factions": 1,
+        "locations": 0,
+        "events": 0,
+        "systems": 0,
+        "knowledge": 7,
+        "engineRules": 0,
+        "graphNodes": 9,
+        "graphEdges": 0,
+        "derivedMentionEdges": 0
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "cheng-long-adventures",
+      "counts": {
+        "sourceEntries": 40,
+        "sourceFiles": 1,
+        "characters": 3,
+        "abilities": 17,
+        "items": 0,
+        "factions": 1,
+        "locations": 2,
+        "events": 0,
+        "systems": 0,
+        "knowledge": 17,
+        "engineRules": 0,
+        "graphNodes": 40,
+        "graphEdges": 65,
+        "derivedMentionEdges": 65
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "chunibyo",
+      "counts": {
+        "sourceEntries": 12,
+        "sourceFiles": 1,
+        "characters": 10,
+        "abilities": 0,
+        "items": 0,
+        "factions": 0,
+        "locations": 0,
+        "events": 1,
+        "systems": 0,
+        "knowledge": 0,
+        "engineRules": 1,
+        "graphNodes": 11,
+        "graphEdges": 0,
+        "derivedMentionEdges": 0
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "claymore",
+      "counts": {
+        "sourceEntries": 11,
+        "sourceFiles": 1,
+        "characters": 3,
+        "abilities": 4,
+        "items": 0,
+        "factions": 0,
+        "locations": 0,
+        "events": 0,
+        "systems": 1,
+        "knowledge": 0,
+        "engineRules": 3,
+        "graphNodes": 8,
+        "graphEdges": 1,
+        "derivedMentionEdges": 1
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "cross-ange",
+      "counts": {
+        "sourceEntries": 89,
+        "sourceFiles": 1,
+        "characters": 33,
+        "abilities": 5,
+        "items": 0,
+        "factions": 0,
+        "locations": 0,
+        "events": 0,
+        "systems": 5,
+        "knowledge": 0,
+        "engineRules": 46,
+        "graphNodes": 43,
+        "graphEdges": 60,
+        "derivedMentionEdges": 60
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "d-gray-man",
+      "counts": {
+        "sourceEntries": 113,
+        "sourceFiles": 1,
+        "characters": 35,
+        "abilities": 9,
+        "items": 0,
+        "factions": 2,
+        "locations": 0,
+        "events": 3,
+        "systems": 36,
+        "knowledge": 8,
+        "engineRules": 20,
+        "graphNodes": 93,
+        "graphEdges": 205,
+        "derivedMentionEdges": 205
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "dantalian-no-shoka",
+      "counts": {
+        "sourceEntries": 59,
+        "sourceFiles": 1,
+        "characters": 6,
+        "abilities": 3,
+        "items": 0,
+        "factions": 5,
+        "locations": 5,
+        "events": 1,
+        "systems": 1,
+        "knowledge": 22,
+        "engineRules": 16,
+        "graphNodes": 43,
+        "graphEdges": 16,
+        "derivedMentionEdges": 16
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "date-a-live",
+      "counts": {
+        "sourceEntries": 37,
+        "sourceFiles": 1,
+        "characters": 25,
+        "abilities": 0,
+        "items": 0,
+        "factions": 1,
+        "locations": 0,
+        "events": 0,
+        "systems": 1,
+        "knowledge": 0,
+        "engineRules": 10,
+        "graphNodes": 27,
+        "graphEdges": 10,
+        "derivedMentionEdges": 10
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "dragon-ball",
+      "counts": {
+        "sourceEntries": 215,
+        "sourceFiles": 1,
+        "characters": 138,
+        "abilities": 26,
+        "items": 0,
+        "factions": 3,
+        "locations": 26,
+        "events": 2,
+        "systems": 6,
+        "knowledge": 2,
+        "engineRules": 12,
+        "graphNodes": 203,
+        "graphEdges": 135,
+        "derivedMentionEdges": 135
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "dungeon-fighter-online",
+      "counts": {
+        "sourceEntries": 629,
+        "sourceFiles": 2,
+        "characters": 125,
+        "abilities": 254,
+        "items": 0,
+        "factions": 54,
+        "locations": 52,
+        "events": 11,
+        "systems": 3,
+        "knowledge": 110,
+        "engineRules": 20,
+        "graphNodes": 609,
+        "graphEdges": 1875,
+        "derivedMentionEdges": 1875
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "elemental-gelade",
+      "counts": {
+        "sourceEntries": 79,
+        "sourceFiles": 1,
+        "characters": 31,
+        "abilities": 8,
+        "items": 0,
+        "factions": 0,
+        "locations": 1,
+        "events": 0,
+        "systems": 2,
+        "knowledge": 0,
+        "engineRules": 37,
+        "graphNodes": 42,
+        "graphEdges": 39,
+        "derivedMentionEdges": 39
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "evangelion",
+      "counts": {
+        "sourceEntries": 88,
+        "sourceFiles": 2,
+        "characters": 25,
+        "abilities": 24,
+        "items": 0,
+        "factions": 1,
+        "locations": 5,
+        "events": 0,
+        "systems": 11,
+        "knowledge": 2,
+        "engineRules": 20,
+        "graphNodes": 68,
+        "graphEdges": 65,
+        "derivedMentionEdges": 65
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "gate-jsdf",
+      "counts": {
+        "sourceEntries": 156,
+        "sourceFiles": 1,
+        "characters": 23,
+        "abilities": 45,
+        "items": 0,
+        "factions": 22,
+        "locations": 5,
+        "events": 9,
+        "systems": 7,
+        "knowledge": 25,
+        "engineRules": 20,
+        "graphNodes": 136,
+        "graphEdges": 106,
+        "derivedMentionEdges": 106
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "haganai",
+      "counts": {
+        "sourceEntries": 21,
+        "sourceFiles": 1,
+        "characters": 13,
+        "abilities": 2,
+        "items": 0,
+        "factions": 2,
+        "locations": 0,
+        "events": 0,
+        "systems": 4,
+        "knowledge": 0,
+        "engineRules": 0,
+        "graphNodes": 21,
+        "graphEdges": 62,
+        "derivedMentionEdges": 62
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "honkai-impact-3rd",
+      "counts": {
+        "sourceEntries": 683,
+        "sourceFiles": 3,
+        "characters": 17,
+        "abilities": 232,
+        "items": 2,
+        "factions": 48,
+        "locations": 68,
+        "events": 23,
+        "systems": 10,
+        "knowledge": 112,
+        "engineRules": 171,
+        "graphNodes": 512,
+        "graphEdges": 1703,
+        "derivedMentionEdges": 1703
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "ikki-tousen",
+      "counts": {
+        "sourceEntries": 143,
+        "sourceFiles": 1,
+        "characters": 93,
+        "abilities": 3,
+        "items": 0,
+        "factions": 2,
+        "locations": 1,
+        "events": 0,
+        "systems": 12,
+        "knowledge": 0,
+        "engineRules": 32,
+        "graphNodes": 111,
+        "graphEdges": 445,
+        "derivedMentionEdges": 445
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "jojo",
+      "counts": {
+        "sourceEntries": 7,
+        "sourceFiles": 1,
+        "characters": 1,
+        "abilities": 6,
+        "items": 0,
+        "factions": 0,
+        "locations": 0,
+        "events": 0,
+        "systems": 0,
+        "knowledge": 0,
+        "engineRules": 0,
+        "graphNodes": 7,
+        "graphEdges": 8,
+        "derivedMentionEdges": 8
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "kaguya-sama",
+      "counts": {
+        "sourceEntries": 80,
+        "sourceFiles": 1,
+        "characters": 39,
+        "abilities": 4,
+        "items": 0,
+        "factions": 4,
+        "locations": 8,
+        "events": 4,
+        "systems": 4,
+        "knowledge": 2,
+        "engineRules": 15,
+        "graphNodes": 65,
+        "graphEdges": 22,
+        "derivedMentionEdges": 22
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "kekkaishi",
+      "counts": {
+        "sourceEntries": 100,
+        "sourceFiles": 1,
+        "characters": 45,
+        "abilities": 12,
+        "items": 0,
+        "factions": 6,
+        "locations": 3,
+        "events": 21,
+        "systems": 1,
+        "knowledge": 0,
+        "engineRules": 12,
+        "graphNodes": 88,
+        "graphEdges": 1,
+        "derivedMentionEdges": 1
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "kenichi",
+      "counts": {
+        "sourceEntries": 283,
+        "sourceFiles": 1,
+        "characters": 95,
+        "abilities": 58,
+        "items": 4,
+        "factions": 4,
+        "locations": 9,
+        "events": 2,
+        "systems": 3,
+        "knowledge": 36,
+        "engineRules": 72,
+        "graphNodes": 211,
+        "graphEdges": 695,
+        "derivedMentionEdges": 695
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "kill-la-kill",
+      "counts": {
+        "sourceEntries": 72,
+        "sourceFiles": 1,
+        "characters": 16,
+        "abilities": 19,
+        "items": 0,
+        "factions": 13,
+        "locations": 4,
+        "events": 0,
+        "systems": 3,
+        "knowledge": 11,
+        "engineRules": 6,
+        "graphNodes": 66,
+        "graphEdges": 88,
+        "derivedMentionEdges": 88
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "kimetsu-no-yaiba",
+      "counts": {
+        "sourceEntries": 355,
+        "sourceFiles": 2,
+        "characters": 130,
+        "abilities": 143,
+        "items": 8,
+        "factions": 4,
+        "locations": 15,
+        "events": 2,
+        "systems": 25,
+        "knowledge": 2,
+        "engineRules": 26,
+        "graphNodes": 329,
+        "graphEdges": 1350,
+        "derivedMentionEdges": 1350
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "madan-no-ou",
+      "counts": {
+        "sourceEntries": 93,
+        "sourceFiles": 1,
+        "characters": 41,
+        "abilities": 1,
+        "items": 0,
+        "factions": 0,
+        "locations": 0,
+        "events": 30,
+        "systems": 0,
+        "knowledge": 1,
+        "engineRules": 20,
+        "graphNodes": 73,
+        "graphEdges": 121,
+        "derivedMentionEdges": 121
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "majo-no-tabitabi",
+      "counts": {
+        "sourceEntries": 19,
+        "sourceFiles": 1,
+        "characters": 1,
+        "abilities": 14,
+        "items": 0,
+        "factions": 0,
+        "locations": 0,
+        "events": 0,
+        "systems": 0,
+        "knowledge": 4,
+        "engineRules": 0,
+        "graphNodes": 19,
+        "graphEdges": 39,
+        "derivedMentionEdges": 39
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "marvel-cinematic-universe",
+      "counts": {
+        "sourceEntries": 273,
+        "sourceFiles": 1,
+        "characters": 54,
+        "abilities": 92,
+        "items": 9,
+        "factions": 12,
+        "locations": 9,
+        "events": 7,
+        "systems": 17,
+        "knowledge": 4,
+        "engineRules": 69,
+        "graphNodes": 204,
+        "graphEdges": 35,
+        "derivedMentionEdges": 35
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "monster-hunter",
+      "counts": {
+        "sourceEntries": 49,
+        "sourceFiles": 1,
+        "characters": 1,
+        "abilities": 9,
+        "items": 0,
+        "factions": 5,
+        "locations": 7,
+        "events": 0,
+        "systems": 1,
+        "knowledge": 21,
+        "engineRules": 5,
+        "graphNodes": 44,
+        "graphEdges": 2,
+        "derivedMentionEdges": 2
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "naruto",
+      "counts": {
+        "sourceEntries": 701,
+        "characters": 159,
+        "abilities": 132,
+        "organizations": 124,
+        "locations": 26,
+        "events": 81,
+        "rules": 7,
+        "engineRules": 85,
+        "knowledge": 87,
+        "graphNodes": 616,
+        "graphEdges": 5876,
+        "derivedMentionEdges": 5876,
+        "sourceRefCooccurrenceEdges": 0
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "negima-uq-holder",
+      "counts": {
+        "sourceEntries": 223,
+        "sourceFiles": 1,
+        "characters": 142,
+        "abilities": 8,
+        "items": 0,
+        "factions": 0,
+        "locations": 0,
+        "events": 0,
+        "systems": 0,
+        "knowledge": 0,
+        "engineRules": 73,
+        "graphNodes": 150,
+        "graphEdges": 97,
+        "derivedMentionEdges": 97
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "omamori-himari",
+      "counts": {
+        "sourceEntries": 76,
+        "sourceFiles": 1,
+        "characters": 28,
+        "abilities": 2,
+        "items": 0,
+        "factions": 0,
+        "locations": 0,
+        "events": 1,
+        "systems": 0,
+        "knowledge": 0,
+        "engineRules": 45,
+        "graphNodes": 31,
+        "graphEdges": 57,
+        "derivedMentionEdges": 57
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "overlord",
+      "counts": {
+        "sourceEntries": 173,
+        "sourceFiles": 1,
+        "characters": 32,
+        "abilities": 22,
+        "items": 0,
+        "factions": 1,
+        "locations": 2,
+        "events": 5,
+        "systems": 0,
+        "knowledge": 8,
+        "engineRules": 99,
+        "graphNodes": 70,
+        "graphEdges": 116,
+        "derivedMentionEdges": 116
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "persona-5",
+      "counts": {
+        "sourceEntries": 59,
+        "sourceFiles": 1,
+        "characters": 15,
+        "abilities": 20,
+        "items": 0,
+        "factions": 8,
+        "locations": 5,
+        "events": 0,
+        "systems": 2,
+        "knowledge": 1,
+        "engineRules": 8,
+        "graphNodes": 51,
+        "graphEdges": 120,
+        "derivedMentionEdges": 120
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "record-of-ragnarok",
+      "counts": {
+        "sourceEntries": 157,
+        "sourceFiles": 1,
+        "characters": 55,
+        "abilities": 37,
+        "items": 1,
+        "factions": 3,
+        "locations": 4,
+        "events": 3,
+        "systems": 5,
+        "knowledge": 23,
+        "engineRules": 26,
+        "graphNodes": 131,
+        "graphEdges": 95,
+        "derivedMentionEdges": 95
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "rozen-maiden",
+      "counts": {
+        "sourceEntries": 97,
+        "sourceFiles": 1,
+        "characters": 21,
+        "abilities": 2,
+        "items": 0,
+        "factions": 0,
+        "locations": 4,
+        "events": 1,
+        "systems": 2,
+        "knowledge": 47,
+        "engineRules": 20,
+        "graphNodes": 77,
+        "graphEdges": 68,
+        "derivedMentionEdges": 68
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "seikoku-no-dragonar",
+      "counts": {
+        "sourceEntries": 207,
+        "sourceFiles": 1,
+        "characters": 28,
+        "abilities": 50,
+        "items": 43,
+        "factions": 24,
+        "locations": 28,
+        "events": 2,
+        "systems": 7,
+        "knowledge": 10,
+        "engineRules": 15,
+        "graphNodes": 192,
+        "graphEdges": 123,
+        "derivedMentionEdges": 123
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "sekirei",
+      "counts": {
+        "sourceEntries": 89,
+        "sourceFiles": 1,
+        "characters": 32,
+        "abilities": 7,
+        "items": 1,
+        "factions": 1,
+        "locations": 7,
+        "events": 4,
+        "systems": 1,
+        "knowledge": 1,
+        "engineRules": 35,
+        "graphNodes": 54,
+        "graphEdges": 17,
+        "derivedMentionEdges": 17
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "senran-kagura",
+      "counts": {
+        "sourceEntries": 228,
+        "sourceFiles": 1,
+        "characters": 179,
+        "abilities": 9,
+        "items": 0,
+        "factions": 5,
+        "locations": 1,
+        "events": 1,
+        "systems": 1,
+        "knowledge": 0,
+        "engineRules": 32,
+        "graphNodes": 196,
+        "graphEdges": 608,
+        "derivedMentionEdges": 608
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "sora-no-otoshimono",
+      "counts": {
+        "sourceEntries": 97,
+        "sourceFiles": 2,
+        "characters": 5,
+        "abilities": 23,
+        "items": 0,
+        "factions": 5,
+        "locations": 6,
+        "events": 5,
+        "systems": 3,
+        "knowledge": 20,
+        "engineRules": 30,
+        "graphNodes": 67,
+        "graphEdges": 158,
+        "derivedMentionEdges": 158
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "spice-and-wolf",
+      "counts": {
+        "sourceEntries": 100,
+        "sourceFiles": 1,
+        "characters": 0,
+        "abilities": 16,
+        "items": 0,
+        "factions": 10,
+        "locations": 24,
+        "events": 2,
+        "systems": 2,
+        "knowledge": 25,
+        "engineRules": 21,
+        "graphNodes": 79,
+        "graphEdges": 0,
+        "derivedMentionEdges": 0
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "strike-the-blood",
+      "counts": {
+        "sourceEntries": 164,
+        "sourceFiles": 1,
+        "characters": 6,
+        "abilities": 66,
+        "items": 0,
+        "factions": 22,
+        "locations": 10,
+        "events": 4,
+        "systems": 1,
+        "knowledge": 30,
+        "engineRules": 25,
+        "graphNodes": 139,
+        "graphEdges": 233,
+        "derivedMentionEdges": 233
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "sword-art-online",
+      "counts": {
+        "sourceEntries": 35,
+        "sourceFiles": 1,
+        "characters": 1,
+        "abilities": 4,
+        "items": 0,
+        "factions": 1,
+        "locations": 1,
+        "events": 0,
+        "systems": 19,
+        "knowledge": 0,
+        "engineRules": 9,
+        "graphNodes": 26,
+        "graphEdges": 18,
+        "derivedMentionEdges": 18
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "taimanin",
+      "counts": {
+        "sourceEntries": 12,
+        "sourceFiles": 1,
+        "characters": 5,
+        "abilities": 1,
+        "items": 0,
+        "factions": 2,
+        "locations": 0,
+        "events": 0,
+        "systems": 1,
+        "knowledge": 1,
+        "engineRules": 2,
+        "graphNodes": 10,
+        "graphEdges": 7,
+        "derivedMentionEdges": 7
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "testament-sister-new-devil",
+      "counts": {
+        "sourceEntries": 94,
+        "sourceFiles": 1,
+        "characters": 2,
+        "abilities": 32,
+        "items": 0,
+        "factions": 7,
+        "locations": 2,
+        "events": 2,
+        "systems": 3,
+        "knowledge": 31,
+        "engineRules": 15,
+        "graphNodes": 79,
+        "graphEdges": 151,
+        "derivedMentionEdges": 151
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "to-love-ru",
+      "counts": {
+        "sourceEntries": 108,
+        "sourceFiles": 1,
+        "characters": 5,
+        "abilities": 22,
+        "items": 0,
+        "factions": 11,
+        "locations": 11,
+        "events": 5,
+        "systems": 3,
+        "knowledge": 15,
+        "engineRules": 36,
+        "graphNodes": 72,
+        "graphEdges": 120,
+        "derivedMentionEdges": 120
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "toaru",
+      "counts": {
+        "sourceEntries": 74,
+        "sourceFiles": 1,
+        "characters": 51,
+        "abilities": 1,
+        "items": 0,
+        "factions": 0,
+        "locations": 0,
+        "events": 14,
+        "systems": 2,
+        "knowledge": 0,
+        "engineRules": 6,
+        "graphNodes": 68,
+        "graphEdges": 110,
+        "derivedMentionEdges": 110
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "tokyo-ghoul",
+      "counts": {
+        "sourceEntries": 87,
+        "sourceFiles": 2,
+        "characters": 56,
+        "abilities": 16,
+        "items": 0,
+        "factions": 4,
+        "locations": 2,
+        "events": 0,
+        "systems": 0,
+        "knowledge": 0,
+        "engineRules": 9,
+        "graphNodes": 78,
+        "graphEdges": 610,
+        "derivedMentionEdges": 610
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "toriko",
+      "counts": {
+        "sourceEntries": 99,
+        "sourceFiles": 1,
+        "characters": 60,
+        "abilities": 16,
+        "items": 0,
+        "factions": 0,
+        "locations": 0,
+        "events": 0,
+        "systems": 3,
+        "knowledge": 1,
+        "engineRules": 19,
+        "graphNodes": 80,
+        "graphEdges": 118,
+        "derivedMentionEdges": 118
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "world-god-only-knows",
+      "counts": {
+        "sourceEntries": 114,
+        "sourceFiles": 1,
+        "characters": 33,
+        "abilities": 25,
+        "items": 0,
+        "factions": 13,
+        "locations": 3,
+        "events": 4,
+        "systems": 6,
+        "knowledge": 2,
+        "engineRules": 28,
+        "graphNodes": 86,
+        "graphEdges": 57,
+        "derivedMentionEdges": 57
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "xianjian-1",
+      "counts": {
+        "sourceEntries": 298,
+        "sourceFiles": 1,
+        "characters": 45,
+        "abilities": 56,
+        "items": 9,
+        "factions": 5,
+        "locations": 17,
+        "events": 7,
+        "systems": 15,
+        "knowledge": 8,
+        "engineRules": 136,
+        "graphNodes": 162,
+        "graphEdges": 303,
+        "derivedMentionEdges": 303
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    },
+    {
+      "slug": "zero-no-tsukaima",
+      "counts": {
+        "sourceEntries": 21,
+        "sourceFiles": 1,
+        "characters": 9,
+        "abilities": 10,
+        "items": 0,
+        "factions": 0,
+        "locations": 0,
+        "events": 0,
+        "systems": 0,
+        "knowledge": 0,
+        "engineRules": 2,
+        "graphNodes": 19,
+        "graphEdges": 0,
+        "derivedMentionEdges": 0
+      },
+      "archiveKind": "world",
+      "canUseAsPiExtractedLayer": true,
+      "canReplaceCurated": false,
+      "graphPolicy": {
+        "derivedOnly": true,
+        "primaryFactStore": false,
+        "introducesNewFacts": false,
+        "relationshipEdgesAreSignals": true
+      }
+    }
+  ]
+}

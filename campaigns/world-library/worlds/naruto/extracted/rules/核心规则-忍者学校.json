@@ -1,0 +1,25 @@
+{
+  "schema": "extracted-rule-record-v1",
+  "worldId": "naruto",
+  "source_refs": [
+    "hy_card.worldbook.json#entry-21"
+  ],
+  "aliases": [
+    "/<story_scene>.*?(忍者学校|班级|上学).*?<\\/story_scene>/s"
+  ],
+  "periods": [
+    {
+      "id": "worldbook-record",
+      "name": {
+        "zh": "核心规则:<忍者学校>"
+      },
+      "aliases": [],
+      "summary": "<班级座位> 班级座位: - 定义:{{user}}=玩家;男女=无名背景板(仅提供氛围);左窗右廊 - 一排:春野樱,宇智波佐助,山中井野,奈良鹿丸 - 二排:漩涡鸣人,男,犬冢牙,油女志乃 - 三排:{{user}},日向雏田,女,秋道丁次 - 四排:男,女,女,女 学校课程: - 忍者历史 - 查克拉基础理论 - 三身术 - 体术对练 - 忍具投掷训练 - 森林露营训练 - 陷阱布置与解除 - 隐蔽与追踪特训 </班级座位>",
+      "description": "<班级座位> 班级座位: - 定义:{{user}}=玩家;男女=无名背景板(仅提供氛围);左窗右廊 - 一排:春野樱,宇智波佐助,山中井野,奈良鹿丸 - 二排:漩涡鸣人,男,犬冢牙,油女志乃 - 三排:{{user}},日向雏田,女,秋道丁次 - 四排:男,女,女,女 学校课程: - 忍者历史 - 查克拉基础理论 - 三身术 - 体术对练 - 忍具投掷训练 - 森林露营训练 - 陷阱布置与解除 - 隐蔽与追踪特训 </班级座位>",
+      "sourceRef": "hy_card.worldbook.json#entry-21",
+      "canonStatus": "adapted/worldbook-backed",
+      "credibility": "local-worldbook"
+    }
+  ],
+  "rule_id": "核心规则-忍者学校"
+}

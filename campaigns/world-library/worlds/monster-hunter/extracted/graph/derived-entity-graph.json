@@ -1,0 +1,598 @@
+{
+  "schema": "monster-hunter-derived-entity-graph-v1",
+  "worldId": "monster-hunter",
+  "recordType": "derived-entity-graph",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "derivationPolicy": {
+    "derivedFromExtractedIndexesOnly": true,
+    "introducesNewFacts": false,
+    "formalRelationshipRetrievalRequiresPrimarySourceCheck": true
+  },
+  "counts": {
+    "nodes": 44,
+    "edges": 2,
+    "nodeCounts": {
+      "characters": 1,
+      "abilities": 9,
+      "factions": 5,
+      "locations": 7,
+      "systems": 1,
+      "knowledge": 21
+    },
+    "edgeCounts": {
+      "derived-text-mention": 2
+    }
+  },
+  "nodes": [
+    {
+      "id": "characters:社会结构与组织",
+      "entityId": "社会结构与组织",
+      "entityType": "characters",
+      "label": "社会结构与组织",
+      "name": "社会结构与组织",
+      "summary": "社会结构与组织： - 目标: 描绘人类如何在充满巨型怪物的世界中繁衍生息，并建立起独特的文明形态。这为角色的成长与故事的展开提供了广阔的社会舞台。 - 核心内容: - 猎人公会: 是管理猎人狩猎以及其附属活动的大型民间组织，几乎扎根于世界的各个地方。猎人公会能避免没有经验的猎人因盲目狩猎而牺牲，也能防止恶性狩猎事件的发生。每个区域都有大型工会，各个大公会是互相独立的，并不存在更大的终极公会对大公会进行管理。他们拥有不同的建立时间、不同的管理、不同的管辖区域，不过它们在一定程度上实现了制度的统一（比如╳公会徽章）。举个例子，东多鲁玛公会的猎人只能在该公会规定的地盘进行狩猎，也不需要听洛克拉克公会的命令。 - 王立书士队: 隶属王国，发现记录现存已知和未知物种的生态，并且为其分类定名的权威性组织 - 古龙观测局：负责那些对人类社会重大威胁或者有潜在威胁的“活动的天灾”们进行追踪和预警，也会对其生态进行研究。 - 龙历院：是隶属王国的进行怪物研究的组织，地位与王立古龙研究所相当。既是学术机构也是猎人公会 - 据点与村庄: 历代的村庄/据点（如科科特村、东多尔玛、结云村、星辰据点、炎火村）属于不同大陆、不同文化圈的代表性定居点，它们",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-15"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:❄️永霜冻土-渡りの凍て地",
+      "entityId": "❄️永霜冻土-渡りの凍て地",
+      "entityType": "abilities",
+      "label": "❄️永霜冻土(渡りの凍て地)",
+      "name": "❄️永霜冻土(渡りの凍て地)",
+      "summary": "## ❄️永霜冻土(渡りの凍て地) > 位于大陆南边的极寒之地。 - 🏰调查据点 月辰(セリエナ) -Iceborne > 为调查永霜冻土而建立的调查据点，采用了更加先进的蒸汽机技术，是比星辰更为先进的据点。 - 🏰兵器置放处(兵器置き場) -Iceborne - 🏔️永霜冻土(渡りの凍て地) -Iceborne > 在冰雪封冻之下，形成非常寒冷且严酷的气候。 > 乍看之下，会认为这片土地不可能栖息着多种生物，实际上却拥有独特的生态系统。",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-45"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:地点简介",
+      "entityId": "地点简介",
+      "entityType": "abilities",
+      "label": "地点简介",
+      "name": "地点简介",
+      "summary": "世界地理概论: <地理概要> 世界之中，主要有所记载的分离大陆主要有『4』块，划分地区若干。 以中心位置的大陆为主，整片大陆整体呈”M”形，以『修雷德王城』的废址和『恒梅陇山脉』为分界线，位于”M”形的左上尖端部位，将大陆东西划分，”M”的下方则以两片汪洋为分，左部较大，右部较小。通过右部海洋沿岸的港口可以前往下部尖端和东修雷德，以东修雷德和西修雷德简称。东部大陆以王都为名冠以『里维尔地区』之称，西部大陆则冠以『阿鲁克里斯地区』之称。而在东修雷德地区以北有一片广袤的疆土，被称为『修雷德地区』，此处也是『科科特地区』、『米纳伽尔德公会（街）』、『王立古生物书士队』、『王立武器工匠』的大本营。大陆中心区域则是繁盛的『格鲁多拉地区』，全大陆的政治、经济、文化的中心『邓德尔玛』也地处于此。大陆的南侧是一片连绵的火山带，被称为『厄鲁提地区』。 在中心大陆以北，是一片漂浮于北海之上的寒冷大陆，称为『阿库拉地区』，有着更高于『波凯村』、『弗拉西亚雪山』的纬度 。 在中心大陆以东，隔海相望之称有一片被称之为『丰隆』的陆地。 此外，在东南部存有两部分小型岛国，分别被称为『西奇国』和『阿亚国』 以下是地理地点目录，包含了游戏中出现的地点，请在实",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-2"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:怪物猎人-世界观-狩技-战斗风格",
+      "entityId": "怪物猎人-世界观-狩技-战斗风格",
+      "entityType": "abilities",
+      "label": "怪物猎人-世界观-狩技/战斗风格",
+      "name": "怪物猎人-世界观-狩技/战斗风格",
+      "summary": "狩技： - 狩技是猎人们通过长期与怪物的战斗和对自身力量的磨练而掌握的特殊技巧。可以在龙历院学习。 - 狩技种类繁多，每种武器类型都有专属的多样狩技（采用怪物猎人xx原作的狩技） 狩猎风格： - 狩猎风格是在怪物猎人XX/GU中独有的新系统，共有六种：工会、强袭、空战、武士道、勇气、炼金。 - 为合理化游戏设定，将其定义为武器招式与派生的侧重点不同，每种风格都有其独特加成。但仍以《怪物猎人世界·冰原》招式为基础。",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-4"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:怪物猎人-世界观",
+      "entityId": "怪物猎人-世界观",
+      "entityType": "abilities",
+      "label": "怪物猎人-世界观",
+      "name": "怪物猎人-世界观",
+      "summary": "怪物猎人世界观设定 - 核心指导思想: 将《怪物猎人》的游戏设定，转化为符合内在物理逻辑、社会结构与生态平衡的现实化世界观。以\"去游戏化，求真实感\"为原则，将游戏化设定转化为真实世界设定。 - 核心内容: - “猎人”的真实社会定位: 猎人由猎人公会认证、管理并提供后勤保障。他们是介于国家军队与民间冒险者之间的特殊武装力量。 - 游戏机制的合理化: - 猎人等级: 摒弃HR/MR等经验值等级，以任务星级评定猎人等级，如“村上位5星猎人”、“集会所下位2星猎人”。猎人完成指定数量的任务后，可通过特定晋级任务升星。 - 任务类型 - 村任务：由村庄委托发布的任务，通常是为了解决村庄周边的怪物威胁或个人需求。 - 集会所任务：由猎人公会集会所发布的任务，难度和规模通常比村任务更高，适合多人组队。 - 特殊许可任务：由特殊机构或个人发布的任务，通常涉及特殊怪物或解决特殊事件。 - 任务星级 (难度等级) - 村任务：共10星 - 下位：1星 - 6星 - 上位：7星 - 10星 - 集会所任务：共7星 - 下位：1星 - 3星 - 上位：4星 - 7星 - 大师位任务：共4星 - 古龙任务 - 通常情况下，只有达到大师位等级的猎人，",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-0"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:狩猎行为范式",
+      "entityId": "狩猎行为范式",
+      "entityType": "abilities",
+      "label": "狩猎行为范式",
+      "name": "狩猎行为范式",
+      "summary": "狩猎行为范式： - 目标: 将游戏的核心循环“接任务-狩猎-获取素材-强化”转化为引人入胜的叙事流程。 - 核心内容: - 狩猎前奏: 强调准备工作的重要性。包括但不限于： - 任务简报分析 - 查阅目标怪物的已知情报 - 调和消耗品 - 检查并保养装备 - 针对怪物更换防具/武器/装饰品 - ... - 战斗的阶段性: 将战斗描述为多个阶段。可参考此流程：初期是试探与观察，中期是利用环境与道具限制怪物、创造攻击机会，后期是怪物进入“濒死”或“愤怒”状态下的殊死搏斗。将怪物的“换区”行为合理化为受伤后的逃跑、寻找食物补充体力或返回巢穴。 - 狩猎结束: 描述狩猎结束后的工作。为读者提供最终收获的满足感。 - 素材的获取：为简化游戏设计，仅需狩猎一只怪物即可获取制作对应防具与武器的通常素材。稀有/特殊素材如宝玉、逆鳞等，仍维持较低的获得概率。",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-11"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:生态系统与怪物行为逻辑",
+      "entityId": "生态系统与怪物行为逻辑",
+      "entityType": "abilities",
+      "label": "生态系统与怪物行为逻辑",
+      "name": "生态系统与怪物行为逻辑",
+      "summary": "生态系统与怪物行为逻辑： - 目标: 让怪物成为真实世界中活着的生物，而非等待玩家挑战的Boss头目。 - 核心内容: - 食物链与地盘: 明确定义不同区域的食物链顶端是谁，哪些怪物之间是捕食、竞争或共生关系。怪物的活动范围受其地盘和捕食需求驱动。 - 怪物的非战斗状态: 描述怪物在未被惊扰时的自然行为，如饮水、进食、睡眠、抚育幼崽、与其他同类互动等，增加世界的真实感。",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-12"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:🌳丰隆地区-フォンロン地方",
+      "entityId": "🌳丰隆地区-フォンロン地方",
+      "entityType": "abilities",
+      "label": "🌳丰隆地区(フォンロン地方)",
+      "name": "🌳丰隆地区(フォンロン地方)",
+      "summary": "## 🌳丰隆地区(フォンロン地方) > 位于大陆东边的另一片大陆，充满了神秘的古代文明遗迹与广袤的树海。 - 丰隆北部 - 🏰古塔群 > 古代文明时期建造的，是一座高耸入云的建筑群。 - 🏰古塔(塔) -2dos - 🏰塔之秘境(塔の秘境) -Portable 2ndG - 🏰塔顶(塔の頂) -4 - 🌳树海(樹海) -Portable 2ndG > 全名：巴都巴统树海(バテュバトム樹海) > 获得了梅杰波尔坦广场许可得以探索的广袤原野，在其中首次发现了眠鸟，迅龙与棘龙的存在。 - 丰隆南部 > 有着发达国家的丰隆南部，这里的国家通过西龙洋与修雷德地区进行贸易往来。 - ⛰️遗群岭(遺群嶺) -XX > 位于高海拔环境的狩猎场，此前一直难以进行狩猎调查，直到龙识船的到来才得以进行调查。 > 这里有着上古文明的遗迹，充斥着「龙气」的岩石，有着许多强力的怪物，似乎是近期才得以确认的古龙天彗龙的领地。 - 🏰西奇国(シキ国) > 是龙人族的国家，还有着古代文明的遗迹。 - 🏘️席纳德村(シナト村) -4 > 位于西奇国的小村子，在天空山附近的云层之上，炼金术发达。 - ⛰️天空山(天空山) -4 > 由于古龙蛇王龙",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-43"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:🏝️新大陆-新大陸",
+      "entityId": "🏝️新大陆-新大陸",
+      "entityType": "abilities",
+      "label": "🏝️新大陆(新大陸)",
+      "name": "🏝️新大陆(新大陸)",
+      "summary": "## 🏝️新大陆(新大陸) > 似乎位于大陆南边的另一片大陆，对其的调查正在展开中。 - 🏰调查据点 星辰(アステラ) -World > 调查团最初的据点，以1期团位于悬崖之上的船为原点，以各期团的船只所建成，在5期团到达时各设施已非常完备。 - 🏰斗技场(闘技场) -World - 🌳古代树森林(古代樹の森) -World > 连绵生长的古树串联为巨大的“古代树”，高耸入云。古代树涵盖了森林内所有生物，形成一个生态系统。 - 🌵大蚁冢荒地(大蟻塚の荒地) -World > 此地主要由广阔的干旱地区以及以古代树为水源的沼泽组成。大量的巨型蚁冢遍布沙地，而水域中生长着各种颜色鲜艳的植物。这片拥有双面生态的荒地汇聚了能够适应不同环境的许多生物。 - 🪨大峡谷(大峡谷) -World > 上古蛇王龙行进而产生的大峡谷，分割了新大陆的两端 - 🏰特殊斗技场(特殊闘技场) -World - 🪻陆珊瑚台地(陸珊瑚の台地) -World > 既似陆又似海，充满高低差的台地上拥有丰富且不可思议的生态系统。 > 在这里出产的陆珊瑚之卵会随着涌升流随风飘落至整片台地，成为以捕食这些卵为生的生物群的生存基础。 - 🔍研究基地(研",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-44"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:🏰吉奥地区-ジォ地方",
+      "entityId": "🏰吉奥地区-ジォ地方",
+      "entityType": "abilities",
+      "label": "🏰吉奥地区(ジォ地方)",
+      "name": "🏰吉奥地区(ジォ地方)",
+      "summary": "## 🏰吉奥地区(ジォ地方) > 修雷德地区东部的地区。 > 非官方设定划分区域 - 🏰东多尔玛(ドンドルマ) -2dos > 由曾经居住在那里的原住民在陡峭的山峦上开凿出来的新型都市，凭借着源源不断的风力为风车提供动力，加上丰富的水源和大长老的指引，而得以成为了大陆上最大的都市。 > 只有在这里才有的设施包括古龙观测所，狂龙研究所，歌姬剧院和大老殿。 > 这里拥有比米那加尔迪与洛克拉克更先进的工坊和锻造技术。 > 因为其特殊的地理位置而经常遭受古龙的入侵，因而建立了古龙观测所与对应的应对设施。 - 🏰东多尔玛战斗街(戦闘街) -2dos > 在大长老发布「最高事态宣言」后得以进入备战状态应对怪物群或是古龙的东多尔玛街道。 > 这里有着包括巨龙炮等独有的高科技对巨龙兵器。 - 🏰梅杰波尔坦广场(メゼポルタ広場) -Frontier > 从东多尔玛公会得以独立的广场，主要管辖丰隆等边境地区，近期因为一些原因被迫关停。 - 🍄沼泽地区(湿地帯) - 🍄旧沼泽(旧沼地) -MH > 全名：吉奥·特拉多沼泽(ジォ・テラード湿地帯) > 它是位于吉奥·克鲁格海附近的一片温带湿地。并且位于东多尔玛的西部，并且是距离东多尔玛最",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-13"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "factions:❄️阿克卡地区-アクラ地方",
+      "entityId": "❄️阿克卡地区-アクラ地方",
+      "entityType": "factions",
+      "label": "❄️阿克卡地区(アクラ地方)",
+      "name": "❄️阿克卡地区(アクラ地方)",
+      "summary": "## ❄️阿克卡地区(アクラ地方) > 位于大陆极北部的寒冷地区。整个土地被冰雪覆盖，天气不稳定，是世界上最恶劣的地区之一。这也是一个危险的地区，这里生活着一些凶猛而又顽强的怪物。 - ❄️冻土(凍土) -3tri > 位于阿克卡地区的极寒冻土，这里光照稀少土地因为寒冷而形成坚硬的冻土，不过仍有许多怪物在此生息。 - ❄️极圈(極圏) -Portable 3rd > 位于冻土的最深处，可以观测到极光，是白神崩龙的第二个栖息地。 - ❄️冰海(氷海) -4 > 被漂浮在海面上的巨大浮冰包围的寒冷地区。 > 特点是巨大的突出冰架和拥有巨大漩涡的广阔海洋与原野中央的一座巨大的冰山。 - ❄️冰封群岛(寒冷群島) -Rise > 这是一片由一群小岛组成的寒冷地区，寒冷的海水从外面渗进来。 > 很久以前有一支军队在此与一只似乎是熔山龙近源种的古龙战斗，最后同归于尽。",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-41"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "factions:🌋埃尔德地区-エルデ地方",
+      "entityId": "🌋埃尔德地区-エルデ地方",
+      "entityType": "factions",
+      "label": "🌋埃尔德地区(エルデ地方)",
+      "name": "🌋埃尔德地区(エルデ地方)",
+      "summary": "## 🌋埃尔德地区(エルデ地方) > 一个被火山占据的半岛，这里因为火山众多，作为大量优质稀有金属的开采地而闻名，但是由于其环境以及居住在那里的强大魔物，这里也是极为危险的地区。 > 该地区分为南北两部分，米纳加尔德公会负责管理北埃尔德地区的火山带，而东多尔玛公会则负责管理南埃尔德地区的活跃的拉蒂奥火山。 - 北埃尔德地区(北エルデ地方) - 🌋旧火山(旧火山) -MH > 位于北埃尔德地区的一座活火山，所以除了山脚附近以外，其他地方都很炎热，因而所有时候都需要使用冷饮才能安全前往探索。 > 这蕴藏着许多只有在这里才能找到的珍贵矿物和昆虫，吸引着许多猎人前来寻找。 - 🌋决战场(決戦場) -MH > 是位于火山的一部分，炎热且营地与狩猎场的通道为单行道，是传说中的红龙沐浴岩浆修复伤口的地方，也有传言说是红龙的愤怒才得以造就了这座火山。 - 🏘️吴甘卡(ン・ガンカ) > 位于北埃尔德地区的一个村庄。它位于火山区入口附近，是来到火山区采矿或执行任务的猎人的休息场所。 - 南埃尔德地区(南エルデ地方) - 🌋火山(火山) -2dos > 全名：拉蒂奥活火山(ラティオ活火山) > 位于旧火山南边的火山，地理环境十分接近，拥",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-40"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "factions:🏜️沙漠地区-砂漠地方",
+      "entityId": "🏜️沙漠地区-砂漠地方",
+      "entityType": "factions",
+      "label": "🏜️沙漠地区(砂漠地方)",
+      "name": "🏜️沙漠地区(砂漠地方)",
+      "summary": "## 🏜️沙漠地区(砂漠地方) > 位于大陆南部的沙漠地区。名称非官方 - 🌴旧沙漠(旧砂漠) -MH > 全名：德德沙漠(デデ砂漠)，别名：沙漠岩壁(砂漠岩地) > 这是一片广阔的沙石区域，占据着南部沙漠地区的北部。这里并不是完全干涸而有地下湖与绿洲存在，它是位于大陆南部的沙漠地区之一。 > 这里白天和夜晚的环境完全相反；白天炎热因而需要采取喝冷饮或消暑等措施，而晚上异常寒冷需要喝热饮。 白天岩壁区域处于阴凉处而不需要使用冷饮。而没有热量到达的地下湖无论什么时候都极为寒冷。 - 🌵沙漠(砂漠) -2dos > 全名：塞克米尔沙漠(セクメーア砂漠) > 位于德德沙漠南部的沙漠，与德德沙漠相邻，可以从江波村乘船抵达。这里温暖期会变得异常炎热而无法进入，昼夜温差较大，白天必须喝冷饮，晚上则需要喝热饮。 > 开采出来的矿石品质非常好。并且由于没有流沙相较于德德沙漠更受到猎人们的喜爱。 - ⛰️德拉科库伦山谷(ドラコクルム渓谷) > 似乎位于塞克米尔沙漠附近的山谷 - 🏘️雷克萨拉(レクサーラ) > 建在沙漠中的一片绿洲上的村庄。 > 它位于塞克米亚沙漠和德德沙漠附近，是前往该地区狩猎场的猎人的中途停留地。 > 这个村庄的南",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-39"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "factions:🏝️孤岛地区-孤島地方",
+      "entityId": "🏝️孤岛地区-孤島地方",
+      "entityType": "factions",
+      "label": "🏝️孤岛地区(孤島地方)",
+      "name": "🏝️孤岛地区(孤島地方)",
+      "summary": "## 🏝️孤岛地区(孤島地方) > 位于大陆东南部的孤岛群落，距离修雷德地区十分遥远，因而也难以得到公会支持。 - 🏘️莫家村(モガの村) -3tri > 坐落于孤岛的渔村，地理位置偏远，海啸地震频发故而很少有人前来，但是设施齐全，民风淳朴。 - 🏰海底遗迹(海底遺跡) -3tri >莫家村海底的古文明遗迹，前段时间正由于大海龙来到了这里导致了莫家村的地震。 - 🏝️孤岛(孤島) -3tri > 别名：莫家森林。 > 一个被广阔森林和海洋包围的孤岛，被誉为相对安全舒适的狩猎场。 > 对于熟悉水性的猎人可以跃入海中，不过需要注意的是海中的环境远比陆地危险的多。 - 🌴水没林(水没林) -3tri > 位于孤岛狩猎场附近的森林中，其特点是植被茂密，地面几乎被淹没。白天雨下得很大，但是夜晚的天空却很美丽。 > 同样，对于会游泳的猎人将会拓展出更多的狩猎场地与捷径，不过相较于孤岛水中视野狭隘的多。 - 🌴古代林(古代林) -X > 具有着原始风貌的森林，是贝尔纳村的管辖区，普通的船只难以抵达，直到飞空艇的普及才得以对这片地区展开调查。 > 其中存在着大量未被彻底明确的怪物及其生态，其中甚至还有远古砦蟹曾经褪下的旧壳。 -",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-38"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "factions:🏰修雷德地区-シュレイド地方",
+      "entityId": "🏰修雷德地区-シュレイド地方",
+      "entityType": "factions",
+      "label": "🏰修雷德地区(シュレイド地方)",
+      "name": "🏰修雷德地区(シュレイド地方)",
+      "summary": "## 🏰修雷德地区(シュレイド地方) > 曾经这里有一个名为修雷德王国的强大王国，不过在千年前因为黑龙的降临而毁灭了. > 如今王国分裂，东西方之间几乎没有交流。 - 🏰西修雷德地区(西シュレイド地方) > 修雷德西部地区，气候温暖宜人 - 🏰西修雷德王国(西シュレイド王国) > 西修雷德地区的王国 - 🏰维尔德王都(ヴェルド) > 西修雷德最大的城市，也是王都，也称为「城塞都市」。这座城市的四周环绕着雄伟的外墙、大炮和弩炮，此外，它还配备了一门巨型大炮，估计是用来对付怪物的。 > 似乎西修雷德王立研究院总部也坐落在这里。 - 🏰米那加尔迪(ミナガルデ) -MH > 位于陡峭悬崖的半山腰的都市，由几块平坦的区域和洞穴组成。实际上很难说这个环境适合人类居住。 > 周围地区有很多怪物在附近活动，但由于公会和猎人的努力而得以在此发展起来。 > 由于靠近怪物栖息地，这里是西修雷德地区的猎人寻找猎物的最佳地点。另一方面，由于城市周遭经常出现怪物，因而城市拥有完善的应对设备。 > 这座城市由可可特村村长的弟弟，一位聪明的商人所建立，也是最早的猎人公会。 - 🏰要塞(砦) -MH > 这是为了抵御超巨型怪物而建立的要塞。 >",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-3"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "locations:⛰️弗拉希亚山脉-フラヒヤ山脈",
+      "entityId": "⛰️弗拉希亚山脉-フラヒヤ山脈",
+      "entityType": "locations",
+      "label": "⛰️弗拉希亚山脉(フラヒヤ山脈)",
+      "name": "⛰️弗拉希亚山脉(フラヒヤ山脈)",
+      "summary": "## ⛰️弗拉希亚山脉(フラヒヤ山脈) > 横跨大陆北部的山脉。这是一个寒冷地区，终年气温较低，阳光较少的地方积雪不会融化。 > 或许从属于东修雷德共和国，但不属于修雷德地区 - 🏘️波凯村(ポッケ村) -Portable 2nd > 弗拉希亚山脉附近雪山中的一个村庄。它也是猎人前往雪山的主要住脚处。 > 这里房屋终年被白雪覆盖，可见当时人们居住环境的恶劣。 > 在这种环境下生活的村民，都穿着传统的白色服装来抵御寒冷。 > 由于地处大陆最末端，后勤和人力十分匮乏。他们经常受到怪物的威胁。 > 此处的大量优质燕雀石与雪山草是不可多得的特产。 - 🏔️雪山(雪山) -2dos > 属于弗拉希亚山脉的雪山之一。位于波凯村附近，地理位置较高，纬度较高，可以观测到极光。 - ❄️雪山深处(雪山深奥) -Portable 2ndG > 位于雪山深处，是与传说中的白神崩龙战斗的场地。",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-37"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "locations:地理开始",
+      "entityId": "地理开始",
+      "entityType": "locations",
+      "label": "==地理开始==",
+      "name": "==地理开始==",
+      "summary": "<地理详细信息>",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-1"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "locations:地理结束",
+      "entityId": "地理结束",
+      "entityType": "locations",
+      "label": "==地理结束==",
+      "name": "==地理结束==",
+      "summary": "</地理详细信息>",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-48"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "locations:怪物猎人-世界观-猎团",
+      "entityId": "怪物猎人-世界观-猎团",
+      "entityType": "locations",
+      "label": "怪物猎人-世界观-猎团",
+      "name": "怪物猎人-世界观-猎团",
+      "summary": "hunter_team_setting: team_concept: 猎团 description: 在怪物猎人世界中，猎团是由数名猎人组成的协作团体。为了共同的目标集结，挑战更加危险的任务和怪物。猎团的规模通常较小，成员之间关系紧密，如同家人一般。 team_size: value: 4 description: 标准猎团的人数为四人。",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-7"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "locations:🌊西龙洋-西竜洋",
+      "entityId": "🌊西龙洋-西竜洋",
+      "entityType": "locations",
+      "label": "🌊西龙洋(西竜洋)",
+      "name": "🌊西龙洋(西竜洋)",
+      "summary": "## 🌊西龙洋(西竜洋) > 位于修雷德地区西方的大洋，经常有船队来往进行贸易。",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-47"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "locations:🌴特罗斯密林-テロス密林",
+      "entityId": "🌴特罗斯密林-テロス密林",
+      "entityType": "locations",
+      "label": "🌴特罗斯密林(テロス密林)",
+      "name": "🌴特罗斯密林(テロス密林)",
+      "summary": "## 🌴特罗斯密林(テロス密林) > 位于大陆西南部的温热密林地区，横跨整个大陆的东边。 - 🏘️格洛姆巴姆村(グロムバオム) > 位于江波村西北方的一个村落，另一边是戈尔德拉地区。 - 🏘️江波村(ジャンボ村) -2dos > 位于密林附近的小村落，曾经是荒无人烟的荒凉之地，随着如今江波村村长的到来而变得繁荣。 - 🌴密林(密林) -2dos > 位于特罗斯密林中央的湖中岛的狩猎场，在一些语境下特罗斯密林只指代这一片狩猎场。 > 温暖的气候和充沛的雨水使这里成为植物和怪物的天堂，其特点是郁郁葱葱的绿地、开阔的海滨和偏远岛屿上的巨大废墟。 > 近期在其深处发现了曾经在丰隆地区的广袤树海少量目击的棘龙。 - 🌴原生林(原生林) -4 > 位于密林的周围，这里是动植物种类繁多的家园，被誉为“生命孕育之地”。 > 水源丰富的湿地和水源所在山腰上生长的茂密森林。原野深处的森林阴暗而茂密，与沼泽地给人的印象截然相反。 > 森林里有缠绕着藤蔓的树冠，有怪物般的巨型蘑菇，还有如同沼泽般的有毒沼泽。这片区域的另一个显著特征是遍布场地的超巨型怪物骨头。 - 🏘️奇可村(チコ村) -4 > 一个拥有白色沙滩的小村庄，由龙人村长猫奶奶",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-36"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "locations:🏰绫国-アヤ国",
+      "entityId": "🏰绫国-アヤ国",
+      "entityType": "locations",
+      "label": "🏰绫国(アヤ国)",
+      "name": "🏰绫国(アヤ国)",
+      "summary": "## 🏰绫国(アヤ国) > 大陆东南海域的一个岛屿。据说，那里有拥有独特文化的部落，由拥有绝对权力的历代国王统一。 > 毫无疑问，至少存在着一种文明，但该地区的部落顽固地拒绝与其他民族或文明互动，人们对他们知之甚少。 > 该地区没有定期服务或渡船经过，而且猎人也从未收到过来自这里的任何委托。",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-46"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "systems:怪物猎人-世界观-虫技",
+      "entityId": "怪物猎人-世界观-虫技",
+      "entityType": "systems",
+      "label": "怪物猎人-世界观-虫技",
+      "name": "怪物猎人-世界观-虫技",
+      "summary": "铁虫丝技： - 铁虫丝技，简称虫技，是指MHRise中新增加的技能机制，通过MHRise新增的狩猎道具-翔虫-使出各种强力的技能，根据手持武器的不同，技能效果也不同，对狩猎有着极大的帮助。 - 为合理化虫技设定，角色仅能在炎火村内学习得到虫技",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-5"
+      ],
+      "canonStatus": "world-system-or-guideline-indexed"
+    },
+    {
+      "id": "knowledge:未命名条目-10",
+      "entityId": "未命名条目-10",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-26"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:未命名条目-11",
+      "entityId": "未命名条目-11",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-27"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:未命名条目-12",
+      "entityId": "未命名条目-12",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-28"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:未命名条目-13",
+      "entityId": "未命名条目-13",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-29"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:未命名条目-14",
+      "entityId": "未命名条目-14",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-30"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:未命名条目-15",
+      "entityId": "未命名条目-15",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-31"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:未命名条目-16",
+      "entityId": "未命名条目-16",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-32"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:未命名条目-17",
+      "entityId": "未命名条目-17",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-33"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:未命名条目-18",
+      "entityId": "未命名条目-18",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-34"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:未命名条目-2",
+      "entityId": "未命名条目-2",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-18"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:未命名条目-3",
+      "entityId": "未命名条目-3",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-19"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:未命名条目-4",
+      "entityId": "未命名条目-4",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-20"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:未命名条目-5",
+      "entityId": "未命名条目-5",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-21"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:未命名条目-6",
+      "entityId": "未命名条目-6",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-22"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:未命名条目-7",
+      "entityId": "未命名条目-7",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-23"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:未命名条目-8",
+      "entityId": "未命名条目-8",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-24"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:未命名条目-9",
+      "entityId": "未命名条目-9",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-25"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:未命名条目",
+      "entityId": "未命名条目",
+      "entityType": "knowledge",
+      "label": "未命名条目",
+      "name": "未命名条目",
+      "summary": "",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-17"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:猎团-队友1-填入你的队友",
+      "entityId": "猎团-队友1-填入你的队友",
+      "entityType": "knowledge",
+      "label": "猎团-队友1-（填入你的队友）",
+      "name": "猎团-队友1-（填入你的队友）",
+      "summary": "猎团-队友1-（填入你的队友）",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-8"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:猎团-队友2",
+      "entityId": "猎团-队友2",
+      "entityType": "knowledge",
+      "label": "猎团-队友2-",
+      "name": "猎团-队友2-",
+      "summary": "猎团-队友2-",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-9"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "knowledge:猎团-队友3",
+      "entityId": "猎团-队友3",
+      "entityType": "knowledge",
+      "label": "猎团-队友3-",
+      "name": "猎团-队友3-",
+      "summary": "猎团-队友3-",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-10"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    }
+  ],
+  "edges": [
+    {
+      "source": "abilities:怪物猎人-世界观-狩技-战斗风格",
+      "target": "abilities:怪物猎人-世界观",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "怪物猎人-世界观",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-4"
+      ],
+      "id": "edge-1",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "systems:怪物猎人-世界观-虫技",
+      "target": "abilities:怪物猎人-世界观",
+      "sourceEntityType": "systems",
+      "targetEntityType": "abilities",
+      "predicate": "systems-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "怪物猎人-世界观",
+      "sourceRefs": [
+        "000怪物猎人.worldbook.json#entry-5"
+      ],
+      "id": "edge-2",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    }
+  ]
+}

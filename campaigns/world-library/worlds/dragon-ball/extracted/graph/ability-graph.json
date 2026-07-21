@@ -1,0 +1,1848 @@
+{
+  "schema": "compatible-ability-graph-v1",
+  "worldId": "dragon-ball",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "abilities": [
+    {
+      "id": "story_scene-.-气功-龟派气功-气圆斩-操气弹-元气弹-加力炮-大爆炸攻击-终极闪光-魔贯光杀炮-魔闪光-气功炮-死亡光束-超级咚咚波-伽马爆能闪-.-story_sc",
+      "entityId": "story_scene-.-气功-龟派气功-气圆斩-操气弹-元气弹-加力炮-大爆炸攻击-终极闪光-魔贯光杀炮-魔闪光-气功炮-死亡光束-超级咚咚波-伽马爆能闪-.-story_sc",
+      "entityType": "abilities",
+      "label": "/<story_scene>.*?(气功|龟派气功|气圆斩|操气弹|元气弹|加力炮|大爆炸攻击|终极闪光|魔贯光杀炮|魔闪光|气功炮|死亡光束|超级咚咚波|伽马爆能闪).*?<\\/story_scene>/s",
+      "name": "/<story_scene>.*?(气功|龟派气功|气圆斩|操气弹|元气弹|加力炮|大爆炸攻击|终极闪光|魔贯光杀炮|魔闪光|气功炮|死亡光束|超级咚咚波|伽马爆能闪).*?<\\/story_scene>/s",
+      "summary": "<设定_气功波> 龟派气功波 - 效果：将全身的气聚于双手，在腰间压缩成一个高密度的蓝色光球，随后向前方推击释放出强大的直线能量波。 气圆斩 - 效果：将气凝聚在手掌上方，形成一个高速旋转的圆盘状锐利气刃，投掷出去后拥有极强的切割能力。 操气弹 - 效果：在手掌中凝聚出一团高密度的球形气弹，掷出后可以通过手指的动作随心所欲地控制气弹的飞行轨迹，对敌人进行连续的追踪打击。 元气弹 - 效果：高举双手，向全宇宙的星球、生物甚至非生物借取微量的元气，汇聚成一颗无比巨大的超高密度能量球。 加力炮 - 效果：将双手向后上方蓄力，手背相靠凝聚紫色的气，随后向前猛烈推出，释放出紫色气功波。 大爆炸攻击 - 效果：向前伸出一只手并张开五指，在手心快速凝聚出一颗高爆发力的球形能量弹射向敌人，命中目标后会引发大范围的爆炸。 终极闪光 - 效果：双臂向两侧张开积蓄极其庞大的气，随后双手在身前拼拢，向前方释放出极度凝练且破坏力惊人的巨大金黄色能量冲击波。 魔贯光杀炮 - 效果：将气高度集中于右手的食指与中指，经过长时间蓄力后射出一道笔直的光束，光束外围环绕着另一道螺旋状的光线，具有强大的单点穿透力。 魔闪光 - 效果：将双手交叠在额头前，在掌心快速",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-30"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:story_scene-.-气功-龟派气功-气圆斩-操气弹-元气弹-加力炮-大爆炸攻击-终极闪光-魔贯光杀炮-魔闪光-气功炮-死亡光束-超级咚咚波-伽马爆能闪-.-story_sc",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "仙豆",
+      "entityId": "仙豆",
+      "entityType": "abilities",
+      "label": "仙豆",
+      "name": "仙豆",
+      "summary": "<设定_仙豆> ## 仙豆 介绍：由卡林塔的猫仙人栽培的不可思议的魔法豆子，是龙珠宇宙中最强效的单体恢复神药。 获取条件： - 前往卡林塔求取(产量极低，稀有，一场重大战役通常只能携带极少数几粒)。 道具效果： - 绝对恢复：吃下一粒仙豆并咀嚼吞下后，瞬间恢复100%的身体状况与气。 - 致命伤愈合：能够瞬间治愈极深的贯穿伤、内脏破裂、全身粉碎性骨折，连被打飞的牙齿都能瞬间复原。 - 饱腹感：吃一粒可以维持十天不饿，补充所有体能。 限制与例外： - 断肢限制(硬派规则)：仙豆无法凭空让完全断裂失去的肢体(手臂、腿部)重新生长。若要接上断肢，必须在吃下仙豆的同时，将切断的肢体物理对齐拼接在伤口处，方可完美愈合。若残肢已被轰成灰烬，则永久残疾。 - 疾病无效：仙豆只能治愈物理创伤与能量消耗，无法治愈病毒或绝症(如特兰克斯时空的病毒性心脏病)。 - 死亡界限：如果伤者在咽下仙豆前已经彻底咽气(生命体征归零)，仙豆将无法起死回生。 </设定_仙豆>",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-32"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:仙豆",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "天神殿",
+      "entityId": "天神殿",
+      "entityType": "abilities",
+      "label": "天神殿",
+      "name": "天神殿",
+      "summary": "<地点_天神殿> ## 天神殿 - 悬浮在卡林塔正上方高空中的半球形神圣神殿。整体建筑如同一件精致的艺术品，底部为完美的白色半球，顶部则是宽阔的平坦广场。广场地面由整洁的白色石砖铺设，四周装饰着修剪整齐的绿色灌木与高耸的棕榈树。神殿中央建有带红瓦穹顶的异国风情宫殿建筑，在这里可以俯瞰整个地球的云层与全景。 </地点_天神殿>",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-212"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:天神殿",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "巨猿化",
+      "entityId": "巨猿化",
+      "entityType": "abilities",
+      "label": "巨猿化",
+      "name": "巨猿化",
+      "summary": "<状态_巨猿化> ## 巨猿化 介绍：赛亚人一族最原始的野性觉醒，借由满月释放出深藏在基因中的巨大狂暴力量。 变身外貌： - 体型膨胀至十几米高的巨兽，全身覆盖棕色体毛，双眼变为猩红。 变身效果: - 基础战斗力 × 10。 - 附加判定：下级战士变身后会完全丧失理智，只凭破坏本能行动，敌我不分；精英赛亚人或熟练度达到精通者，可保留绝对理智与语言能力。 代价体系： - 启动：瞬耗5%气(若使用人造月亮则需额外扣除15%气)。 - 维持：几乎不额外耗气，只要满月光线与尾巴存在即可无限时维持。 - 反噬：致命弱点暴露在外。一旦尾巴被切断或满月被摧毁，变身将强制解除，身体状况和气直接扣除剩余值的50%，陷入虚弱状态。 </状态_巨猿化>",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-38"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:巨猿化",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "时间线-GT-宇宙冒险篇-多选一",
+      "entityId": "时间线-GT-宇宙冒险篇-多选一",
+      "entityType": "abilities",
+      "label": "时间线-GT-宇宙冒险篇(多选一)",
+      "name": "时间线-GT-宇宙冒险篇(多选一)",
+      "summary": "<world_timeline> -事件A: 神秘的黑星龙珠出现 (789年5月1日): 天神封印的终极黑星龙珠被皮拉夫解除封印·皮拉夫召唤红色神龙许愿·悟空意外被红色神龙变成小孩子身体·界王预警黑星龙珠分散全宇宙且地球将在一年后爆炸毁灭 -事件B: 宇宙大冒险启程 (789年5月15日): 为拯救地球开启宇宙寻珠之旅·小芳偷偷打晕悟天登入飞船·悟空特南克斯与小芳三人组结成·乘坐宇宙飞船轰然冲向星辰大海 -事件B1: 超贪钱的伊美加星 (789年5月18日): 飞船迫降走私者巢穴伊美加星·遭遇暴君顿奇亚全国大通缉·结识吞噬龙珠雷达的小机器人吉鲁·悟空与宇宙保镖雷基克展开常态体术对决 -事件B2: 超级赛亚人一击制胜 (789年5月19日): 正太悟空爆发超级赛亚人形态秒杀雷基克·推翻暴君顿奇亚收复飞船·获得第一颗四星黑星龙珠 -事件C: 巨型鲶鱼怪的假大空 (789年6月5日): 降落格鲁多星·特南克斯男扮女装穿婚纱伪装新娘潜入怪物巢穴·识破鲶鱼怪假地震超能力·小芳与特南克斯将其暴打·在怪物肚子里获得第二颗黑星龙珠 -事件D: 帕拉帕拉兄弟的魔性咒语 (789年6月10日): 滑稽外星人帕拉帕拉兄弟偷袭抢走两颗龙珠·悟空三人",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-13"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:时间线-GT-宇宙冒险篇-多选一",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "时间线-GT-贝比篇-多选一",
+      "entityId": "时间线-GT-贝比篇-多选一",
+      "entityType": "abilities",
+      "label": "时间线-GT-贝比篇(多选一)",
+      "name": "时间线-GT-贝比篇(多选一)",
+      "summary": "<world_timeline> -事件A: 初次苏醒 (789年9月1日): 特南克斯企图切断电源未果·液态胚胎贝比提前破茧·发出扭曲啼哭重创特南克斯·遭到三人合击后化作液体潜入飞船逃离 -事件A1: 隐藏在暗处的死神 (789年9月20日): 宇宙医疗空间站潜伏危机·贝比展现液体寄生能力控制外星医生·化作银色流光钻入特南克斯伤口·特南克斯强行爆气将未成熟贝比逼出体外·贝比前往地球 -事件B: 地球沦陷的序曲 (789年10月1日): 贝比降临地球撒旦市·疯狂散播活体卵洗脑普通人类·拦截约会的孙悟天并将其划伤寄生·孙悟饭察觉异样兄弟相残·贝比抓住破绽转移寄生孙悟饭 -事件B1: 终极魔王贝吉塔贝比 (789年10月10日): 被控制的悟天与悟饭拦路截击贝吉塔·贝吉塔变身超2迎战因大意被划破颈部·贝比顺势钻入贝吉塔体内夺取肉身·白发红纹的魔王贝吉塔贝比暴虐诞生·利用龙珠将全地球人洗脑为兹夫尔人傀儡 -事件C: 英雄归来却是地狱 (789年11月15日): 悟空三人带回七颗黑星龙珠降落神殿·特南克斯遭活体卵反噬彻底沦陷·正太悟空孤立无援对决魔王贝比·遭到复仇死亡弹正面轰击坠入双六空间异次元·被老界王神用超能力救回界王神界 -事",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-14"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:时间线-GT-贝比篇-多选一",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "时间线-GT-超级17号篇-多选一",
+      "entityId": "时间线-GT-超级17号篇-多选一",
+      "entityType": "abilities",
+      "label": "时间线-GT-超级17号篇(多选一)",
+      "name": "时间线-GT-超级17号篇(多选一)",
+      "summary": "<world_timeline> -事件A: 地狱之门大开 (790年5月10日): 地狱中缪博士与格罗博士一拍即合·利用机械资产秘密制造地狱17号·与阳间人造人17号产生隔空波长共鸣·天空中震出连接阴阳两界的巨型黑色次元大洞 -事件A1: 反派大游行 (790年5月10日): 无数亡灵反派重返人间大肆破坏·悟空为封印通道孤身飞入地狱·地狱大门关闭将其死死困住·弗利萨与沙鲁露面企图复仇·常态小悟空凭借极轻盈体术与赛亚人热量破冰轻松戏耍两大魔王 -事件B: 克林之死与无情背叛 (790年5月10日): 阳间人造人17号受地狱波动彻底洗脑·企图带走妹妹18号遭克林劝阻·17号冷酷发射能量光束贯穿克林胸膛·克林倒在18号哭喊声中再次牺牲·17号打伤18号飞赴会合点 -事件B1: 究极人造人降临 (790年5月10日): 阳间与地狱两个17号胜利会师·在惨绿色风暴中轰然撞击融合·长发飘逸且极度冷酷的超级17号傲然诞生·仅凭气压便将贝吉塔悟饭等超级赛亚人全部震至吐血倒地 -事件C: 超4的苦战与吸收神技 (790年5月11日): 死去的比克在地狱大闹配合阳间天天重新打开生命通道·悟空重返人间直接变身超级赛亚人4死斗·超级17号展现逆天",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-15"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:时间线-GT-超级17号篇-多选一",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "时间线-Z-布欧篇-多选一",
+      "entityId": "时间线-Z-布欧篇-多选一",
+      "entityType": "abilities",
+      "label": "时间线-Z-布欧篇(多选一)",
+      "name": "时间线-Z-布欧篇(多选一)",
+      "summary": "<world_timeline> -事件A: 和平的七年与赛亚蒙面超人 (774年4月15日): 悟饭进入撒旦市高中·化身赛亚蒙面超人惩奸除恶·比迪丽识破身份要挟参赛并学习舞空术·悟天与小特南克斯展现变身超赛天赋 -事件B: 二人面临的危机 (774年5月1日): 剧场版异闻·布罗利降落地球解冻暴走·悟饭陷入苦战·奇迹召唤悟空灵魂·父子三人龟派气功将其推入太阳 -事件C: 第二十五届武道会 (774年5月7日): 悟空获特赦还阳一天·赛亚人轻易击碎拳力测试机·少儿组特南克斯险胜悟天打飞撒旦·界王神辛与杰比特登场惊退比克·斯波比奇残忍折磨比迪丽 -事件C1: 被中断的武道会 (774年5月7日): 杰比特诱导悟饭展现超2巅峰形态·斯波比奇与亚木突袭用金属壶吸干悟饭能量逃遁·界王神预警大魔王巴比迪毁世阴谋·众人放弃比赛全速追击 -事件D: 击倒超战士 (774年5月7日): 剧场版异闻·生化布罗利克隆怪胎诞生暴走·悟天特南克斯与18号联手迎战·培养液反噬生化怪物·利用海水固化将其彻底摧毁 -事件E: 潜入恶魔魔窟 (774年5月8日): 达普拉吐唾液石化比克与克林·贝吉塔常态秒杀普伊普伊·悟空变身超2撑爆吞能魔兽也戈·达普拉对战",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-12"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:时间线-Z-布欧篇-多选一",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "时间线-Z-弗利萨篇-多选一",
+      "entityId": "时间线-Z-弗利萨篇-多选一",
+      "entityType": "abilities",
+      "label": "时间线-Z-弗利萨篇(多选一)",
+      "name": "时间线-Z-弗利萨篇(多选一)",
+      "summary": "<world_timeline> -事件A: 超级赛亚人孙悟空 (762年11月20日): 剧场版异闻·那美克星人史拉格陨石降临地球·史拉格利用龙珠恢复青春并巨大化·悟空化身拟态超级赛亚人·利用那美克星人害怕口哨声弱点反击·元气弹消灭史拉格 -事件B: 向宇宙出发寻找希望之星 (762年11月21日): 寻访天神原始宇宙船·布尔玛克林与悟饭启程前往那美克星·途中遭遇隐形飞船少年危机·误入假那美克星揭穿幻术·悟空开启百倍重力飞船极限特训 -事件B1: 降临那美克星与弗利萨的阴影 (762年12月18日): 抵达那美克星·目睹弗利萨军团残忍屠村夺取龙珠·悟饭暴怒踢飞多多利亚救下天天·伤愈复出的贝吉塔降临并秒杀邱夷 -事件B2: 贝吉塔与萨博 (762年12月19日): 贝吉塔截杀多多利亚获知赛亚人灭族真相·天天带领克林寻访大长老引出潜能·贝吉塔遭遇萨博恶魔变身被打至濒死·医疗舱复活后战力飙升反杀萨博并盗走六颗龙珠 -事件C: 基纽特战队登场 (762年12月23日): 弗利萨召回基纽特战队·五人组夺走全部龙珠·古杜施展时间停止与定身术被贝吉塔斩首·狂暴巨汉利库姆展现恐怖肉体虐杀贝吉塔与克林悟饭 -事件C1: 悟空与基纽决战 (7",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-10"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:时间线-Z-弗利萨篇-多选一",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "时间线-第一部-下-多选一",
+      "entityId": "时间线-第一部-下-多选一",
+      "entityType": "abilities",
+      "label": "时间线-第一部-下(多选一)",
+      "name": "时间线-第一部-下(多选一)",
+      "summary": "<world_timeline> -事件A: 修行与历练的归途 (753年4月15日): 悟空长达三年的全球徒步旅行即将结束·途中遇金角银角强盗·斗魔界阿修罗·猪鹿蝶事件遭遇天津饭预热交锋·启程前往木瓜岛武道会会场 -事件B: 第二十二届武道会揭幕 (753年5月7日): 众人集结重逢·龟仙流与鹤仙流正面对决·雅木茶遭遇天津饭惨被折断腿退场·克林对决饺子的超能力与算术题·克林成功破解并取胜 -事件B1: 气功炮与武道会巅峰 (753年5月8日): 龟仙人弃权将时代交予年轻人·决赛悟空对决天津饭·四妖拳与八手拳对拼·鹤仙人作弊被识破击飞·天津饭发射气功炮摧毁擂台·悟空腾空力竭先落地·天津饭险胜夺冠并改邪归正 -事件C: 大魔王的恐怖降临 (753年5月9日): 赛后克林折返遭遇丹巴林伏击身亡·悟空报仇受挫·结识偷吃烤鱼的亚奇洛贝·比克大魔王恢复年轻并召唤神龙许愿·神龙被比克杀死·龟仙人使用魔封波失败力竭战死·地球沦为人间炼狱 -事件C1: 超神水与最终反击 (753年5月10日): 悟空在亚奇洛贝协助下重返卡林塔·进入冰迷宫历劫饮下真实毒药超神水激发全部潜能·赶赴国王城堡正面对决比克大魔王·双方断手断脚惨烈搏杀·悟空使用最后力",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-8"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:时间线-第一部-下-多选一",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "时间线-超-上-多选一",
+      "entityId": "时间线-超-上-多选一",
+      "entityType": "abilities",
+      "label": "时间线-超-上(多选一)",
+      "name": "时间线-超-上(多选一)",
+      "summary": "<world_timeline> -事件A: 破坏神比鲁斯的梦境预言 (778年8月15日): 魔人布欧战后和平时期·破坏神比鲁斯沉睡中苏醒·预言梦中出现超级赛亚人之神·随从天使维斯利用手杖查探幸存赛亚人下落·比鲁斯飞赴北界王星 -事件A1: 绝对的神明力量 (778年8月18日/上午): 比鲁斯降临界王星·悟空变身超级赛亚人3主动挑战·比鲁斯仅凭两根手指与一记掌掴将超三悟空打至昏死解体·比鲁斯转头飞向地球 -事件A2: 竟敢打我的布尔玛 (778年8月18日/下午): 布尔玛在豪华游轮举办生日派对·比鲁斯降临游轮·贝吉塔为保地球放下尊严倒水赔笑·胖布欧因护食布丁激怒比鲁斯导致全员惨败·布尔玛上前扇耳光被比鲁斯反手击倒·贝吉塔极度愤怒暴走痛殴比鲁斯 -事件A3: 超级赛亚人之神降临 (778年8月18日/傍晚): 悟空瞬移归来召唤神龙询问神明诞生之法·神龙向比鲁斯鞠躬流汗·怀孕的碧儿加入仪式·五位正义赛亚人向悟空注入心力·拥有红橙色神之气与红色瞳孔的超级赛亚人之神震撼诞生 -事件A4: 神与神的碰撞边界 (778年8月18日/夜晚): 超红悟空与比鲁斯在外太空展开死斗·三拳相撞余波几近震碎第七宇宙·悟空神之境时限耗尽退回常态",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-17"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:时间线-超-上-多选一",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "时间线-超-下-多选一",
+      "entityId": "时间线-超-下-多选一",
+      "entityType": "abilities",
+      "label": "时间线-超-下(多选一)",
+      "name": "时间线-超-下(多选一)",
+      "summary": "<world_timeline> -事件A: 力量大会规则宣告 (780年2月1日): 悟空求见全王启动宇宙对抗赛·大神官宣告战败宇宙彻底抹除规则·全王前哨战打响·悟饭觉醒战斗本能盲眼死斗·悟空超蓝界王拳撑爆巨兽贝尔加莫·第十一宇宙正义战士托破乱入试探交锋 -事件A1: 战队集结与弗利萨入队 (780年2月28日): 维斯施展神迹接生布拉·贝吉塔同意参赛·找回究极神饭与野生动物保护员17号·魔人布欧陷入深度长眠·悟空前往地狱招募大王弗利萨·黄金弗利萨单方面屠杀第九宇宙刺客·控制破坏能量球反制悟空·十人天团手拉手传送无之界 -事件B: 力量大会开幕与抹杀序曲 (780年3月1日): 擂台八十人无规则大乱斗打响·第七宇宙集火第九宇宙·大神官冷酷宣告第九宇宙全员淘汰·全王挥手抹杀全宇宙引发众神恐慌·克林大意被隐形虫偷袭落台·传超开尔绿发暴走肆虐·最强怪物吉连登场一指秒杀开尔 -事件B1: 智将与老将的尊严 (780年3月1日): 17号打断第二宇宙美少女变身·悟饭与短笛淘汰第十宇宙最后两人·龟仙人燃尽生命施展魔封波封印强敌导致心脏停跳·悟空超蓝气疗救回·超红悟空联手希特对抗极速蒂斯破·弗利萨诱导反叛并淘汰弗罗斯特 -事件C: 自在",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-19"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:时间线-超-下-多选一",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "时间线-超-中-多选一",
+      "entityId": "时间线-超-中-多选一",
+      "entityType": "abilities",
+      "label": "时间线-超-中(多选一)",
+      "name": "时间线-超-中(多选一)",
+      "summary": "<world_timeline> -事件A: 第六宇宙的挑衅与大会开幕 (779年7月1日): 破坏神象帕降临地球·为夺取美食地球挑起第六与第七宇宙格斗大会·奖励为星球般巨大的超级龙珠·悟空贝吉塔进入精神时光屋闭关三年特训·无名星擂台赛拉开帷幕 -事件A1: 擂台乱斗与超赛传承 (779年7月5日): 胖布欧笔试睡着被淘汰·悟空智取金属熊沃太摩·弗罗斯特伪善面具暴露用毒针暗算悟空与短笛·贝吉塔愤怒秒杀弗罗斯特并精神击溃铁甲马盖塔·贝吉塔以毁灭要挟激发出第六宇宙少年加贝的超级赛亚人变身 -事件A2: 闪时功与超蓝十倍界王拳 (779年7月5日): 传奇杀手希特登场施展时间停止闪时功秒杀贝吉塔·悟空登场看穿招式并强行融合神之气与界王拳·超蓝十倍界王拳惊世爆发压制希特·悟空任性跳下擂台认输·希特还人情故意败给快递员莫纳卡使第七宇宙夺冠 -事件A3: 超级神龙与全王驾临 (779年7月5日): 宇宙至高神全王意外降临·提议未来举办全宇宙力量大会·比鲁斯与维斯召唤出体积超越银河系的金色超级神龙·比鲁斯暗中许愿复活第六宇宙的地球 -事件B: 绝望的未来与黑悟空袭来 (779年11月1日): 未来平行时空再度沦为废墟·神秘黑悟空残杀未来布",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-18"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:时间线-超-中-多选一",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "气息感知",
+      "entityId": "气息感知",
+      "entityType": "abilities",
+      "label": "气息感知",
+      "name": "气息感知",
+      "summary": "<设定_气息感知> ## 气息感知 介绍：地球武术家最先掌握的高阶索敌与探查技巧，通过感受生物体内散发的能量(气)，来判断敌人的位置、强弱以及善恶。 获取条件： - 经过地球神殿的专业冥想训练或熟练度达到入门以上。 技能效果： - 索敌与锁定：无需肉眼观察，通过熟练度解锁不同范围的感知能力。 入门 = 仅能感知同区域(如同一座城市或当前战场)内的气息强弱与大致方位。感知较为模糊，无法精准判断距离，且容易被周围过于巨大的能量源干扰。 熟练 = 感知范围扩大至整个星球。能够精确锁定目标的确切坐标，通过气的特征辨别出具体是谁，并能清晰洞察对方的情绪善恶与杀意。 精通 = 可瞬间跨越星球甚至星系锁定熟悉的气息坐标(可作为瞬间移动的绝对前置条件)。 - 战力测算：能在交手前精确评估出敌方的Total_BP(除非对方处于隐藏气息状态)。 - 情绪洞察：可以精准地感知对方的气息是平静、恐惧，还是充满邪恶的杀意。 限制与盲区： - 机械盲区：人造人(如17号、18号)体内由永动机或机械构成，没有生物气，完全免疫气息感知，只能通过肉眼观察物理动静来捕捉。 - 神境盲区：凡人境界绝对无法感知到神之气息。面对神境界敌人时，感知系统强制失效(触发盲",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-33"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:气息感知",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "爆气",
+      "entityId": "爆气",
+      "entityType": "abilities",
+      "label": "爆气",
+      "name": "爆气",
+      "summary": "<状态_爆气> ## 爆气 介绍：战士将体内潜藏或平时为了节省体力而压抑的气，在一瞬间猛烈释放，在体表形成肉眼可见的实质化高压气焰。这不仅是展现全部实力的前置动作，更是重要的战术防御手段。 状态外貌： - 周身燃起犹如烈火般的半透明气焰(颜色与形状因常态或变身境界而异)。 - 狂暴的气流会向四周扩散，引发大地震颤、狂风呼啸，周围的碎石会因为高强度的能量场违背重力向上悬浮。 状态效果: - 实力解放：解除平时的气息压制状态，将当前形态的最终总战斗力瞬间拉升至100%的理论峰值。 - 气浪弹反：利用爆气瞬间扩散的气浪形成绝对防御圈。判定条件：若自身战斗力 >= 攻方战斗力 x 1.2，可强行震退敌方的近身擒拿、物理打击，或直接冲散敌方的常规气功波，自身毫发无损。 - 环境威压：对境界或战斗力远低于自身的敌人造成极大的心理震慑，仅凭爆发的风压即可将弱小杂兵强制吹飞。 代价体系： - 启动：瞬耗2%气。 - 维持：由于气门全开，能量处于持续外溢状态，激烈的战斗中每分钟耗1%气。若熟练度达到精通，维持消耗可降至0。 - 反噬：无明显物理反噬。但若在爆气状态下被战斗力达到自身 1.5倍 以上的敌人强行用纯粹暴力击碎护体气焰，气浪崩塌会造",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-37"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:爆气",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "物价参考",
+      "entityId": "物价参考",
+      "entityType": "abilities",
+      "label": "物价参考",
+      "name": "物价参考",
+      "summary": "<money_rules> 货币:索尼(Zeni, 1索尼≈1日元) 物价锚定:现代地球物价 原则:交易非免费;食宿装备服务均需索尼结算;无钱免谈 ## 物价参考 饮食: - 普通单人餐:500-1000索尼 - 高级大餐:5000-10000索尼 - 赛亚人级别极限大餐:10万-50万索尼/顿(极度消耗财力) 服装: - 普通便服/龟仙流武道服:3000-10000索尼 - 特制重力战斗服/外星战斗服:非卖品(通常靠缴获或特制) 万能胶囊(Hoi-Poi Capsule): - 空白胶囊/存储小物件胶囊:1000-5000索尼 - 胶囊载具(悬浮摩托/汽车):50万-200万索尼 - 胶囊房屋(带基础家具的半球形屋):100万-500万索尼 住宿/住宅: - 旅馆单晚:5000-10000索尼 - 固定土地购入/大型独栋别墅:3000万-1亿索尼(通常平民更爱用胶囊房屋) 科技与特种道具: - 仙豆:无价之宝,非卖品(卡林塔专属) - 宇宙飞船/重力室定制:数亿至数百亿索尼(通常只有胶囊公司能造) ## 薪酬/报酬参考 - 天下第一武道会冠军奖金:1000万索尼 - 拯救世界政府特别奖励:1亿索尼 - 普通打工/务农:月收",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-27"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:物价参考",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "界王拳",
+      "entityId": "界王拳",
+      "entityType": "abilities",
+      "label": "界王拳",
+      "name": "界王拳",
+      "summary": "<状态_界王拳> ## 界王拳 介绍：由北界王创造的绝学，通过强行催动体内的气，让力量、速度与防御力成倍激增，但极度摧残肉体。 变身外貌： - 身体肌肉略微膨胀，周身爆发出犹如实质的深红色气焰。 变身效果: - 基础战斗力 × N (N为设定的倍数)。 代价体系： - 启动：瞬耗10%气。 - 维持：每回合/每分钟耗5%气(随倍数增加而翻倍)。 - 反噬：若倍数超过肉体承受极限，关闭后触发反噬。小于1分钟：肌肉痉挛，身体状况强制扣除20%。1到3分钟：感官超载，气与身体状况扣除剩余值的50%。大于3分钟或力竭：骨骼多处断裂，身体状况归1%(濒死)，强行昏迷24小时。 </状态_界王拳>",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-40"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:界王拳",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "破坏神形态-自我极意",
+      "entityId": "破坏神形态-自我极意",
+      "entityType": "abilities",
+      "label": "破坏神形态/自我极意",
+      "name": "破坏神形态/自我极意",
+      "summary": "<状态_自我极意> ## 破坏神形态/自我极意 介绍：与自在极意功截然相反的极端境界，由破坏神传授或自主领悟的纯粹破坏之力。其核心在于完全释放自我与斗争本能，越是沉浸于战斗与疼痛，爆发出的力量就越是恐怖。 变身外貌： - 头发与瞳孔变为深邃的紫红色，眉毛消失，面部变得极度狂野，周身燃起犹如烈焰般的紫色破坏神气焰。 变身效果: - 进入【破坏神境】(附带摧毁万物的破坏属性，无视常规防御。 - 专属机制(越战越勇)：主动放弃绝对闪避，将肉体承受的伤害直接转化为战意与力量。战斗中受到的伤越重，下一次攻击的破坏力就越是呈几何倍数暴增。 代价体系： - 启动：瞬耗10%气，并在精神层面点燃极端的破坏冲动。 - 维持：气消耗相对平稳(每分钟耗2%气)，但本质上是以消耗肉体生命力为燃料。 - 反噬：当累积的伤害超过了肉体承受的绝对上限，意识就会陷入断电。强制解除状态后，战斗中积压的所有致命伤势会瞬间爆发，身体状况直接掉至1%(濒死)或死亡。 </状态_自我极意>",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-47"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:破坏神形态-自我极意",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "自在极意功",
+      "entityId": "自在极意功",
+      "entityType": "abilities",
+      "label": "自在极意功",
+      "name": "自在极意功",
+      "summary": "<状态_自在极意功> ## 自在极意功 介绍：神明也难以完全掌握的究极武术境界，身体的任何一个部位都能脱离大脑独立思考并自动回避危险。 获取条件： - 气的基础数值达到凡人极限且完全掌握神之气。 - 在濒死绝境中彻底抛弃杂念、愤怒与感情，让精神完全放空。 变身外貌： - 头发与瞳孔变为耀眼的银白色，周身散发着如同星系般的银色热浪气焰。 变身效果: - 进入【至高神境】 - 触发极大概率自动闪避，并无视常规战斗力差距进行反击。 代价体系： - 启动：需处于绝境且气降至20%以下时概率触发，瞬耗剩余所有气。 - 维持：无需耗气，但每持续一分钟，肉体崩溃进度加深一重。 - 反噬：肉体完全无法承受神之极意。状态解除时触发毁灭性反噬：全身喷出黑色闪电般的暗伤，身体状况直接掉至1%(濒死)，强行昏迷，并根据过度使用的时间增加身体永久损伤/疤痕。 </状态_自在极意功>",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-48"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:自在极意功",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "融合",
+      "entityId": "融合",
+      "entityType": "abilities",
+      "label": "融合",
+      "name": "融合",
+      "summary": "<状态_融合> ## 融合 介绍：源自美达摩尔星人的秘术。两名体型相近、气息完全调整至同一水平的战士，通过跳出绝对对称的特殊舞步，融合成一名拥有远超两人单体总和的超级战士。 变身外貌： - 统一穿着美达摩尔星人的传统服饰(黑色宽肩马甲、白色灯笼裤、束腰带)。 - 说话时伴有两人的重音，性格通常会融合两者的特质，并极易表现出的自信与张狂。 变身效果: - 融合基础战斗力 = (战士A基础战斗力 + 战士B基础战斗力) x 50。 - 附加判定(失误)：若舞步姿势有一丝偏差(如手指没有完全对齐)，将融合出肥胖或枯瘦的失败品，基础战斗力强制跌至不足两人单体的十分之一，且极易气喘吁吁。 代价体系： - 启动：需耗费回合进行前置舞步动作，且期间必须完全解除气息防备(容易被打断)。 - 维持：常规状态下维持时间为绝对的30分钟。但若在融合状态下开启高消耗变身(如超3或超蓝)，庞大的能量流失会急剧缩短融合时间(最少可能仅剩5到10分钟)。 - 反噬：时间耗尽后将喷出一阵白烟强制解体，两人平摊融合体剩余的气。解体后必须度过1小时的冷却期，才能再次进行舞步融合。 </状态_融合>",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-35"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:融合",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "超级赛亚人2",
+      "entityId": "超级赛亚人2",
+      "entityType": "abilities",
+      "label": "超级赛亚人2",
+      "name": "超级赛亚人2",
+      "summary": "<状态_超级赛亚人2> # 超级赛亚人2 介绍：超越了超级赛亚人极限的全新形态，气与力量发生质变。 变身外貌： - 金色头发更加竖立挺拔，气焰变得更加激烈且周身环绕蓝色的闪电。 变身效果: - 基础战斗力 × 100。 代价外貌： - 启动：瞬耗20%气。 - 维持：每分钟耗3%气。 - 反噬：高强度战斗解除后，身体状况扣除10%，气扣除20%，陷入肌肉酸痛状态。 </状态_超级赛亚人2>",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-42"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:超级赛亚人2",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "超级赛亚人3",
+      "entityId": "超级赛亚人3",
+      "entityType": "abilities",
+      "label": "超级赛亚人3",
+      "name": "超级赛亚人3",
+      "summary": "<状态_超级赛亚人3> ## 超级赛亚人3 介绍：将赛亚人血统潜力在瞬间100%榨取的狂暴形态，并非常规进化路线，属于强行提现。 获取条件： - 拥有赛亚人血统。 - 超级赛亚人2熟练度达到精通。 - 必须在特殊环境(如地府、精神时光屋)中才能初次觉醒，因为阳间肉体难以承受其能量冲击。 变身外貌： - 眉骨凸起且眉毛消失，金色长发垂至腰间，周身闪电变得密集，气焰犹如风暴。 变身效果: - 基础战斗力 × 400。 代价体系： - 启动：瞬耗40%气。 - 维持：庞大，阳间活体每分钟耗10%气。 - 反噬：气耗尽后强制解除变身，身体状况扣除30%，气直接归0%(透支)，接下来的数小时内无法再次变身任何超级赛亚人形态。 </状态_超级赛亚人3>",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-43"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:超级赛亚人3",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "超级赛亚人4",
+      "entityId": "超级赛亚人4",
+      "entityType": "abilities",
+      "label": "超级赛亚人4",
+      "name": "超级赛亚人4",
+      "summary": "<状态_超级赛亚人4> ## 超级赛亚人4 介绍：回归赛亚人巨猿化本源并将其力量完美压缩在人类形态中的终极野性之姿。 变身外貌： - 头发变为狂野的黑色长发，上半身覆盖红色体毛，眼眶出现红色眼影。 变身效果: - 基础战斗力 × 4000。 代价体系： - 启动：瞬耗20%气。 - 维持：形态稳定，每分钟耗1%气。 - 反噬：无剧烈反噬。 </状态_超级赛亚人4>",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-44"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:超级赛亚人4",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "超级赛亚人神-红发",
+      "entityId": "超级赛亚人神-红发",
+      "entityType": "abilities",
+      "label": "超级赛亚人神 (红发)",
+      "name": "超级赛亚人神 (红发)",
+      "summary": "<状态_超级赛亚人神> ## 超级赛亚人神 (红发) 介绍：由六位拥有正义之心的赛亚人注入光芒，或通过领悟神之气息踏入的次元境界。 获取条件： - 拥有赛亚人血统。 - 完成六人注入仪式，或跟随天使/破坏神完成神之气的感知特训。 变身外貌： - 身体变得相对瘦削，头发与瞳孔变为品红色(洋红)，周身燃烧着如火焰般平静的神之气。 变身效果: - 进入【神境界·初阶】。 代价体系： - 启动：瞬耗10%气。 - 维持：每分钟耗1%气，该形态附带轻度的自我治愈能力(每回合恢复1%身体状况)。 - 反噬：初次体验神之境界解除后，由于凡人肉体无法适应神力，气直接降至5%(枯竭)。 </状态_超级赛亚人神>",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-45"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:超级赛亚人神-红发",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "超级赛亚人蓝-蓝发",
+      "entityId": "超级赛亚人蓝-蓝发",
+      "entityType": "abilities",
+      "label": "超级赛亚人蓝 (蓝发)",
+      "name": "超级赛亚人蓝 (蓝发)",
+      "summary": "<状态_超级赛亚人蓝> ## 超级赛亚人蓝 (蓝发) 介绍：在拥有超赛神力量的基础上，再一次变身为超级赛亚人，将神之气与狂暴的赛亚人力量完美结合。 变身外貌： - 头发与瞳孔变为水蓝色，周身环绕星空般的蓝色气焰与光点。 变身效果: - 进入【神境界·全功率】。 代价体系： - 启动：每次开启瞬耗30%气(频繁开关会导致气迅速枯竭)。 - 维持：入门期每分钟耗5%气。熟练度达到精通(完美超蓝)后，气不再外泄，维持消耗降至1%。 - 反噬：若在气不足的情况下强行启动，身体状况直接扣除40%，并造成严重的内伤(永久损伤判定)。 </状态_超级赛亚人蓝>",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-46"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:超级赛亚人蓝-蓝发",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "那美克星人巨大化",
+      "entityId": "那美克星人巨大化",
+      "entityType": "abilities",
+      "label": "那美克星人巨大化",
+      "name": "那美克星人巨大化",
+      "summary": "<状态_那美克星人巨大化> ## 那美克星人巨大化 介绍：那美克星人(战斗型)的特殊血统天赋，通过操控体内细胞让身躯如山岳般膨胀，以绝对的体型压制对手。 变身外貌： - 身躯急剧巨大化，体型最高可达数十米甚至更高。 变身效果: - 物理破坏力、攻击波及范围与抗击打能力获得极大幅度提升。 - 附加判定：战斗力总数值不产生翻倍，纯粹为物理面板的转换(力量判定大幅上升，但敏捷度与闪避判定极大幅度下降)。 代价体系： - 启动：瞬耗10%气。 - 维持：巨大的身躯会给心脏和全身肌肉带来沉重负担，每分钟耗5%气。 - 反噬：因体型过于巨大，极易沦为敌方的气功波活靶子。主动解除变身后，身体状况扣除20%，伴随全身性的肌肉酸痛；若因遭到重创强制解除，气将直接跌入不足10%的枯竭状态。 </状态_那美克星人巨大化>",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-39"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:那美克星人巨大化",
+      "originalEntityType": "abilities"
+    }
+  ],
+  "edges": [
+    {
+      "source": "13号",
+      "target": "融合",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "融合",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-127"
+      ],
+      "id": "edge-1",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:13号",
+      "graphTarget": "abilities:融合",
+      "category": "derived-mention"
+    },
+    {
+      "source": "21号",
+      "target": "融合",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "融合",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-71"
+      ],
+      "id": "edge-9",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:21号",
+      "graphTarget": "abilities:融合",
+      "category": "derived-mention"
+    },
+    {
+      "source": "基纽",
+      "target": "融合",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "融合",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-126"
+      ],
+      "id": "edge-16",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:基纽",
+      "graphTarget": "abilities:融合",
+      "category": "derived-mention"
+    },
+    {
+      "source": "孙悟空-Z-赛亚人篇",
+      "target": "仙豆",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "仙豆",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-184"
+      ],
+      "id": "edge-21",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:孙悟空-Z-赛亚人篇",
+      "graphTarget": "abilities:仙豆",
+      "category": "derived-mention"
+    },
+    {
+      "source": "比克-Z-弗利萨篇",
+      "target": "融合",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "融合",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-168"
+      ],
+      "id": "edge-32",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:比克-Z-弗利萨篇",
+      "graphTarget": "abilities:融合",
+      "category": "derived-mention"
+    },
+    {
+      "source": "比克-Z-沙鲁篇",
+      "target": "融合",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "融合",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-167"
+      ],
+      "id": "edge-35",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:比克-Z-沙鲁篇",
+      "graphTarget": "abilities:融合",
+      "category": "derived-mention"
+    },
+    {
+      "source": "猫仙人",
+      "target": "仙豆",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "仙豆",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-117"
+      ],
+      "id": "edge-42",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:猫仙人",
+      "graphTarget": "abilities:仙豆",
+      "category": "derived-mention"
+    },
+    {
+      "source": "龟仙人",
+      "target": "爆气",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "爆气",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-144"
+      ],
+      "id": "edge-57",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:龟仙人",
+      "graphTarget": "abilities:爆气",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-Z-赛亚人篇-多选一",
+      "target": "巨猿化",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "巨猿化",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-9"
+      ],
+      "id": "edge-60",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:时间线-Z-赛亚人篇-多选一",
+      "graphTarget": "abilities:巨猿化",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-Z-沙鲁篇-多选一",
+      "target": "仙豆",
+      "sourceEntityType": "factions",
+      "targetEntityType": "abilities",
+      "predicate": "factions-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "仙豆",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-11"
+      ],
+      "id": "edge-69",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "factions:时间线-Z-沙鲁篇-多选一",
+      "graphTarget": "abilities:仙豆",
+      "category": "derived-mention"
+    },
+    {
+      "source": "仙豆",
+      "target": "猫仙人",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "猫仙人",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-32"
+      ],
+      "id": "edge-71",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:仙豆",
+      "graphTarget": "characters:猫仙人",
+      "category": "derived-mention"
+    },
+    {
+      "source": "仙豆",
+      "target": "卡林塔",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "locations",
+      "predicate": "abilities-mentions-locations",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "卡林塔",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-32"
+      ],
+      "id": "edge-72",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:仙豆",
+      "graphTarget": "locations:卡林塔",
+      "category": "derived-mention"
+    },
+    {
+      "source": "天神殿",
+      "target": "卡林塔",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "locations",
+      "predicate": "abilities-mentions-locations",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "卡林塔",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-212"
+      ],
+      "id": "edge-73",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:天神殿",
+      "graphTarget": "locations:卡林塔",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-GT-宇宙冒险篇-多选一",
+      "target": "皮拉夫",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "皮拉夫",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-13"
+      ],
+      "id": "edge-74",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-GT-宇宙冒险篇-多选一",
+      "graphTarget": "characters:皮拉夫",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-GT-贝比篇-多选一",
+      "target": "老界王神",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "老界王神",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-14"
+      ],
+      "id": "edge-75",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-GT-贝比篇-多选一",
+      "graphTarget": "characters:老界王神",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-GT-贝比篇-多选一",
+      "target": "爆气",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "爆气",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-14"
+      ],
+      "id": "edge-76",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-GT-贝比篇-多选一",
+      "graphTarget": "abilities:爆气",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-GT-贝比篇-多选一",
+      "target": "地狱",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "locations",
+      "predicate": "abilities-mentions-locations",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "地狱",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-14"
+      ],
+      "id": "edge-77",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-GT-贝比篇-多选一",
+      "graphTarget": "locations:地狱",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-GT-贝比篇-多选一",
+      "target": "界王神界",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "locations",
+      "predicate": "abilities-mentions-locations",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "界王神界",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-14"
+      ],
+      "id": "edge-78",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-GT-贝比篇-多选一",
+      "graphTarget": "locations:界王神界",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-GT-贝比篇-多选一",
+      "target": "神界",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "locations",
+      "predicate": "abilities-mentions-locations",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "神界",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-14"
+      ],
+      "id": "edge-79",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-GT-贝比篇-多选一",
+      "graphTarget": "locations:神界",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-GT-超级17号篇-多选一",
+      "target": "沙鲁",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "沙鲁",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-15"
+      ],
+      "id": "edge-80",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-GT-超级17号篇-多选一",
+      "graphTarget": "characters:沙鲁",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-GT-超级17号篇-多选一",
+      "target": "融合",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "融合",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-15"
+      ],
+      "id": "edge-81",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-GT-超级17号篇-多选一",
+      "graphTarget": "abilities:融合",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-GT-超级17号篇-多选一",
+      "target": "超级赛亚人4",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "超级赛亚人4",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-15"
+      ],
+      "id": "edge-82",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-GT-超级17号篇-多选一",
+      "graphTarget": "abilities:超级赛亚人4",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-GT-超级17号篇-多选一",
+      "target": "地狱",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "locations",
+      "predicate": "abilities-mentions-locations",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "地狱",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-15"
+      ],
+      "id": "edge-83",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-GT-超级17号篇-多选一",
+      "graphTarget": "locations:地狱",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-Z-布欧篇-多选一",
+      "target": "巴比迪",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "巴比迪",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-12"
+      ],
+      "id": "edge-84",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-Z-布欧篇-多选一",
+      "graphTarget": "characters:巴比迪",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-Z-布欧篇-多选一",
+      "target": "达普拉",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "达普拉",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-12"
+      ],
+      "id": "edge-85",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-Z-布欧篇-多选一",
+      "graphTarget": "characters:达普拉",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-Z-弗利萨篇-多选一",
+      "target": "史拉格",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "史拉格",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-10"
+      ],
+      "id": "edge-86",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-Z-弗利萨篇-多选一",
+      "graphTarget": "characters:史拉格",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-Z-弗利萨篇-多选一",
+      "target": "基纽",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "基纽",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-10"
+      ],
+      "id": "edge-87",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-Z-弗利萨篇-多选一",
+      "graphTarget": "characters:基纽",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-Z-弗利萨篇-多选一",
+      "target": "那美克星",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "locations",
+      "predicate": "abilities-mentions-locations",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "那美克星",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-10"
+      ],
+      "id": "edge-88",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-Z-弗利萨篇-多选一",
+      "graphTarget": "locations:那美克星",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-第一部-下-多选一",
+      "target": "亚奇洛贝",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "亚奇洛贝",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-8"
+      ],
+      "id": "edge-89",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-第一部-下-多选一",
+      "graphTarget": "characters:亚奇洛贝",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-第一部-下-多选一",
+      "target": "天津饭",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "天津饭",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-8"
+      ],
+      "id": "edge-90",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-第一部-下-多选一",
+      "graphTarget": "characters:天津饭",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-第一部-下-多选一",
+      "target": "雅木茶",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "雅木茶",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-8"
+      ],
+      "id": "edge-91",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-第一部-下-多选一",
+      "graphTarget": "characters:雅木茶",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-第一部-下-多选一",
+      "target": "饺子",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "饺子",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-8"
+      ],
+      "id": "edge-92",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-第一部-下-多选一",
+      "graphTarget": "characters:饺子",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-第一部-下-多选一",
+      "target": "龟仙人",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "龟仙人",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-8"
+      ],
+      "id": "edge-93",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-第一部-下-多选一",
+      "graphTarget": "characters:龟仙人",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-第一部-下-多选一",
+      "target": "卡林塔",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "locations",
+      "predicate": "abilities-mentions-locations",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "卡林塔",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-8"
+      ],
+      "id": "edge-94",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-第一部-下-多选一",
+      "graphTarget": "locations:卡林塔",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-超-上-多选一",
+      "target": "北界王",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "北界王",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-17"
+      ],
+      "id": "edge-95",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-超-上-多选一",
+      "graphTarget": "characters:北界王",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-超-上-多选一",
+      "target": "比鲁斯",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "比鲁斯",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-17"
+      ],
+      "id": "edge-96",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-超-上-多选一",
+      "graphTarget": "characters:比鲁斯",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-超-上-多选一",
+      "target": "维斯",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "维斯",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-17"
+      ],
+      "id": "edge-97",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-超-上-多选一",
+      "graphTarget": "characters:维斯",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-超-上-多选一",
+      "target": "魔人布欧",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "魔人布欧",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-17"
+      ],
+      "id": "edge-98",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-超-上-多选一",
+      "graphTarget": "characters:魔人布欧",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-超-上-多选一",
+      "target": "超级赛亚人3",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "超级赛亚人3",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-17"
+      ],
+      "id": "edge-99",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-超-上-多选一",
+      "graphTarget": "abilities:超级赛亚人3",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-超-上-多选一",
+      "target": "界王星",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "locations",
+      "predicate": "abilities-mentions-locations",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "界王星",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-17"
+      ],
+      "id": "edge-100",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-超-上-多选一",
+      "graphTarget": "locations:界王星",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-超-下-多选一",
+      "target": "希特",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "希特",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-19"
+      ],
+      "id": "edge-101",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-超-下-多选一",
+      "graphTarget": "characters:希特",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-超-下-多选一",
+      "target": "开尔",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "开尔",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-19"
+      ],
+      "id": "edge-102",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-超-下-多选一",
+      "graphTarget": "characters:开尔",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-超-下-多选一",
+      "target": "维斯",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "维斯",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-19"
+      ],
+      "id": "edge-103",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-超-下-多选一",
+      "graphTarget": "characters:维斯",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-超-下-多选一",
+      "target": "魔人布欧",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "魔人布欧",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-19"
+      ],
+      "id": "edge-104",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-超-下-多选一",
+      "graphTarget": "characters:魔人布欧",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-超-下-多选一",
+      "target": "龟仙人",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "龟仙人",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-19"
+      ],
+      "id": "edge-105",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-超-下-多选一",
+      "graphTarget": "characters:龟仙人",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-超-下-多选一",
+      "target": "界王拳",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "界王拳",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-19"
+      ],
+      "id": "edge-106",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-超-下-多选一",
+      "graphTarget": "abilities:界王拳",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-超-下-多选一",
+      "target": "地狱",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "locations",
+      "predicate": "abilities-mentions-locations",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "地狱",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-19"
+      ],
+      "id": "edge-107",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-超-下-多选一",
+      "graphTarget": "locations:地狱",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-超-下-多选一",
+      "target": "无之界",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "locations",
+      "predicate": "abilities-mentions-locations",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "无之界",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-19"
+      ],
+      "id": "edge-108",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-超-下-多选一",
+      "graphTarget": "locations:无之界",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-超-中-多选一",
+      "target": "加贝",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "加贝",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-18"
+      ],
+      "id": "edge-109",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-超-中-多选一",
+      "graphTarget": "characters:加贝",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-超-中-多选一",
+      "target": "希特",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "希特",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-18"
+      ],
+      "id": "edge-110",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-超-中-多选一",
+      "graphTarget": "characters:希特",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-超-中-多选一",
+      "target": "比鲁斯",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "比鲁斯",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-18"
+      ],
+      "id": "edge-111",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-超-中-多选一",
+      "graphTarget": "characters:比鲁斯",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-超-中-多选一",
+      "target": "维斯",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "维斯",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-18"
+      ],
+      "id": "edge-112",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-超-中-多选一",
+      "graphTarget": "characters:维斯",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-超-中-多选一",
+      "target": "象帕",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "象帕",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-18"
+      ],
+      "id": "edge-113",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-超-中-多选一",
+      "graphTarget": "characters:象帕",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-超-中-多选一",
+      "target": "界王拳",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "界王拳",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-18"
+      ],
+      "id": "edge-114",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-超-中-多选一",
+      "graphTarget": "abilities:界王拳",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-超-中-多选一",
+      "target": "融合",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "融合",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-18"
+      ],
+      "id": "edge-115",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-超-中-多选一",
+      "graphTarget": "abilities:融合",
+      "category": "derived-mention"
+    },
+    {
+      "source": "时间线-超-中-多选一",
+      "target": "精神时光屋",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "locations",
+      "predicate": "abilities-mentions-locations",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "精神时光屋",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-18"
+      ],
+      "id": "edge-116",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-超-中-多选一",
+      "graphTarget": "locations:精神时光屋",
+      "category": "derived-mention"
+    },
+    {
+      "source": "物价参考",
+      "target": "仙豆",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "仙豆",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-27"
+      ],
+      "id": "edge-117",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:物价参考",
+      "graphTarget": "abilities:仙豆",
+      "category": "derived-mention"
+    },
+    {
+      "source": "物价参考",
+      "target": "胶囊公司",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "factions",
+      "predicate": "abilities-mentions-factions",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "胶囊公司",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-27"
+      ],
+      "id": "edge-118",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:物价参考",
+      "graphTarget": "factions:胶囊公司",
+      "category": "derived-mention"
+    },
+    {
+      "source": "物价参考",
+      "target": "卡林塔",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "locations",
+      "predicate": "abilities-mentions-locations",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "卡林塔",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-27"
+      ],
+      "id": "edge-119",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:物价参考",
+      "graphTarget": "locations:卡林塔",
+      "category": "derived-mention"
+    },
+    {
+      "source": "物价参考",
+      "target": "天下第一武道会",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "locations",
+      "predicate": "abilities-mentions-locations",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "天下第一武道会",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-27"
+      ],
+      "id": "edge-120",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:物价参考",
+      "graphTarget": "locations:天下第一武道会",
+      "category": "derived-mention"
+    },
+    {
+      "source": "界王拳",
+      "target": "北界王",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "北界王",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-40"
+      ],
+      "id": "edge-121",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:界王拳",
+      "graphTarget": "characters:北界王",
+      "category": "derived-mention"
+    },
+    {
+      "source": "破坏神形态-自我极意",
+      "target": "自在极意功",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "自在极意功",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-47"
+      ],
+      "id": "edge-122",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:破坏神形态-自我极意",
+      "graphTarget": "abilities:自在极意功",
+      "category": "derived-mention"
+    },
+    {
+      "source": "超级赛亚人3",
+      "target": "超级赛亚人2",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "超级赛亚人2",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-43"
+      ],
+      "id": "edge-123",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:超级赛亚人3",
+      "graphTarget": "abilities:超级赛亚人2",
+      "category": "derived-mention"
+    },
+    {
+      "source": "超级赛亚人3",
+      "target": "精神时光屋",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "locations",
+      "predicate": "abilities-mentions-locations",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "精神时光屋",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-43"
+      ],
+      "id": "edge-124",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:超级赛亚人3",
+      "graphTarget": "locations:精神时光屋",
+      "category": "derived-mention"
+    },
+    {
+      "source": "超级赛亚人4",
+      "target": "巨猿化",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "巨猿化",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-44"
+      ],
+      "id": "edge-125",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:超级赛亚人4",
+      "graphTarget": "abilities:巨猿化",
+      "category": "derived-mention"
+    },
+    {
+      "source": "那美克星人巨大化",
+      "target": "那美克星",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "locations",
+      "predicate": "abilities-mentions-locations",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "那美克星",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-39"
+      ],
+      "id": "edge-126",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:那美克星人巨大化",
+      "graphTarget": "locations:那美克星",
+      "category": "derived-mention"
+    },
+    {
+      "source": "合体",
+      "target": "融合",
+      "sourceEntityType": "systems",
+      "targetEntityType": "abilities",
+      "predicate": "systems-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "融合",
+      "sourceRefs": [
+        "lz_card.worldbook.json#entry-36"
+      ],
+      "id": "edge-127",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "systems:合体",
+      "graphTarget": "abilities:融合",
+      "category": "derived-mention"
+    }
+  ]
+}

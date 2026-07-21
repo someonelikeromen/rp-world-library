@@ -1,0 +1,49 @@
+{
+  "schema": "d-gray-man-derived-continuity-index-v1",
+  "worldId": "d-gray-man",
+  "recordType": "derived-continuity-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "continuityFamilies": [
+    {
+      "continuityFamilyId": "d-gray-man-worldbook-derived-continuity",
+      "sourceIndexes": [
+        "events/index.json",
+        "characters/index.json"
+      ],
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "eventNodes": [
+        {
+          "id": "拉比-—-亲密阶段调色盘-好感度阶段-≥3",
+          "name": "拉比 — 亲密阶段调色盘 (好感度阶段 ≥3)",
+          "sourceRefs": [
+            "qmsn_card.worldbook.json#entry-74"
+          ]
+        },
+        {
+          "id": "李娜丽·李-—-亲密阶段调色盘-好感度阶段-≥3",
+          "name": "李娜丽·李 — 亲密阶段调色盘 (好感度阶段 ≥3)",
+          "sourceRefs": [
+            "qmsn_card.worldbook.json#entry-72"
+          ]
+        },
+        {
+          "id": "罗德·嘉美-—-相识阶段调色盘-好感度阶段-≥1",
+          "name": "罗德·嘉美 — 相识阶段调色盘 (好感度阶段 ≥1)",
+          "sourceRefs": [
+            "qmsn_card.worldbook.json#entry-77"
+          ]
+        }
+      ]
+    },
+    {
+      "continuityFamilyId": "d-gray-man-engine-rules-excluded",
+      "sourceIndexes": [
+        "engine-rules/index.json"
+      ],
+      "excludedFromFormalGraph": true,
+      "reason": "Engine rules and status templates are not world facts."
+    }
+  ]
+}

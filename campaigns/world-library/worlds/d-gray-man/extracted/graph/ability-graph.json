@@ -1,0 +1,422 @@
+{
+  "schema": "compatible-ability-graph-v1",
+  "worldId": "d-gray-man",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "abilities": [
+    {
+      "id": "DGM-关键剧情时间表",
+      "entityId": "DGM-关键剧情时间表",
+      "entityType": "abilities",
+      "label": "[DGM] 关键剧情时间表",
+      "name": "[DGM] 关键剧情时间表",
+      "summary": "# [DGM] 关键剧情时间表 ## 沙盒时间线（以天数为单位） 沙盒从亚连加入教团初期开始，背景为第1天。 ### 第1-30天：日常·驱魔师初成 - 亚连与神田的初次任务摩擦 - 教团日常：科穆伊的发明暴走、杰利的料理、训练 - 可能遇到低等级恶魔（Lv1-Lv2） - 米兰达加入教团前后 ### 第31-90天：探索·教团的日常与暗影 - 李娜丽与亚连的友谊深化 - 拉比和书人登场 - 教团内部可探索区域增多 - 科学班的秘密项目隐约可见 - 柯洛利加入 - 首次遭遇等级3恶魔（难度极高） ### 第91-180天：挑战·诺亚的阴影 - 诺亚成员开始活跃 - 元帅们陆续出场 - 缇奇以人类身份首次出现（可能） - 首次诺亚遭遇战 - 亚洲支部可访问 - 教团收到中央厅的\"特别关注\" ### 第181-365天：深水·真相的碎片 - 方舟线索初现 - 第二驱魔师计划的传言 - 克劳斯·马利安的踪迹 - 阿波克里福斯的暗中行动 - 亚连体内的第十四号开始有苏醒迹象（好感度触发） - 神田的过去可部分揭示（好感度触发） ### 第366天+：自由·世界的命运 - 所有时间锁解除 - 所有隐秘资讯可通过满足条件揭示 - 诺亚与",
+      "sourceRefs": [
+        "qmsn_card.worldbook.json#entry-6"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:DGM-关键剧情时间表",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "DGM-各处地点详解",
+      "entityId": "DGM-各处地点详解",
+      "entityType": "abilities",
+      "label": "[DGM] 各处地点详解",
+      "name": "[DGM] 各处地点详解",
+      "summary": "# [DGM] 各处地点详解 ## 黑色教团欧洲总部 悬崖上的哥特式城堡，rose-cross蔷薇十字架纹章。石造建筑，彩绘玻璃窗，迷宫般的走廊。 - **科学班楼层**: 科穆伊的领地，永远弥漫着咖啡和化学药剂的气味。机器人Komlin的残骸散落各处。黑板上写满公式。 - **驱魔师居住区**: 简朴的私人房间。亚连的房间异常整洁（马戏团经历），神田的房间只有必备品。 - **食堂**: 杰利的王国。印度咖喱香气。驱魔师们少数能放松的场所。 - **训练场**: 地下广阔的石造空间。圣洁激活的痕迹布满墙壁。 - **医务室**: 护士长统治的白色领域。驱魔师们最不想去但最常去的地方。 - **地下圣洁保管室**: 赫布拉斯卡所在的深处。方舟（Cube）连接着她的身体。 ## 黑色教团亚洲支部 中国山区深处，隐藏在山壁中的设施。中式建筑风格与西方技术融合。 - **训练设施**: 芙的严格训练场。亚连曾在此濒死重训。 - **地下实验室**: 第六实验室所在地。第二驱魔师计划的执行场所。已被封印。 - **张家庭院**: 莫·张的私人空间，中式园林。 ## 江户（日本） 19世纪末的东京，但已沦为恶魔之都。90%人口被恶魔替",
+      "sourceRefs": [
+        "qmsn_card.worldbook.json#entry-7"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:DGM-各处地点详解",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "世界知识",
+      "entityId": "世界知识",
+      "entityType": "abilities",
+      "label": "世界知识",
+      "name": "世界知识",
+      "summary": "# 世界知识 ## 诺亚方舟 伯爵与诺亚一族持有的异空间，形态为埃舍尔式欧洲城邦——楼梯横挂、走廊倒悬。以钢琴/键盘界面操控，仅伯爵和第十四号能弹奏。旧方舟于三十五年前被第十四号的谋略摧毁，现由伯爵重建新方舟。 ## 第二驱魔师计划 人工制造驱魔师——将濒死驱魔师的大脑植入克隆体，强制同步。仅神田优与阿尔玛·卡尔玛幸存。代号\"YU\"与\"MA\"。实验在亚洲支部第六研究所进行。两人胸前均有封印纹身，赋予超速再生能力。 ## 第三驱魔师计划 人类植入阿尔玛·卡尔玛细胞（含恶魔之卵），左臂恶魔化并具备吞噬恶魔的能力。成员：斑尾、德藏、手铂、切罗多利、刚志。 ## 阿波克利夫斯 独立有意识的圣洁，七千年以上寿命。心脏的守护者。以红衣主教身份潜入中央厅。白色天使外貌。能吸收其他圣洁及适合者。意图吞噬艾伦以\"保护\"心脏。可篡改记忆。 ## 坎贝尔真相 原初千年伯爵为七千年前的单一存在，分裂为双胞胎男婴马纳（温柔）与尼艾（叛逆），由卡特琳娜·伊芙·坎贝尔抚养。尼艾十七岁时为保护马纳背叛诺亚，击杀多数族人后被杀。马纳在尼艾死后精神失常。现伯爵在马纳\"吞噬\"尼艾记忆后苏醒。克洛斯·玛利安是卡特琳娜之兄，即马纳/尼艾的舅舅。 ## 心脏 一百零九",
+      "sourceRefs": [
+        "qmsn_card.worldbook.json#entry-16"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:世界知识",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "场景策略集",
+      "entityId": "场景策略集",
+      "entityType": "abilities",
+      "label": "场景策略集",
+      "name": "场景策略集",
+      "summary": "# 场景策略集 ## 黑色教团总部 科学班繁忙混乱（科穆伊的机器人四处乱撞）。驱魔师在哥特长廊中训练或休憩。烛光摇曳、石廊幽深、玫瑰窗透下彩光。夜间城垛可谈心。**触发**：休整日、简报会、归队返回。 ## 恶魔遭遇 环境先兆——气温骤降、万籁俱寂、阴影诡异地错位。被囚的灵魂必须可见可闻地呈现在恶魔形态中——哀嚎、扭曲的面孔、挣扎。**升级节奏**：发现→恐惧→战斗→悲剧（灵魂解脱）。**触发**：任务区域、暗巷、墓地。 ## 诺亚对峙 压迫性的暗物质气场。灰白皮肤+额现圣痕。每位诺亚有独特登场（伯爵：笑撑阳伞；泰奇：穿墙显形；罗德：梦境渗入）。对话是战斗前的武器。**触发**：主线篇章、伯爵的谋划。 ## 圣洁觉醒/同步 肉体剧痛→神圣光涌→宿主的自我觉醒。圣洁会考验持有者的意志。武器变形视觉效果恢弘且过程极度痛苦。**触发**：生死存亡关头、角色成长节点。 ## 亚洲支部 深山中的中式建筑群落。巴克·张的严厉气场。富的严苛训练。地下冥想室静可闻针。**触发**：前往亚洲、修炼篇章。 ## 诺亚方舟内部 不可能的几何——楼梯横架两侧墙壁、门通向错误的空间。钢琴曲总在某个角落回荡。被注视感无处不在。时间流速异常。**触发**",
+      "sourceRefs": [
+        "qmsn_card.worldbook.json#entry-24"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:场景策略集",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "李娜丽·李-—-相识阶段调色盘-好感度阶段-≥1",
+      "entityId": "李娜丽·李-—-相识阶段调色盘-好感度阶段-≥1",
+      "entityType": "abilities",
+      "label": "李娜丽·李 — 相识阶段调色盘 (好感度阶段 ≥1)",
+      "name": "李娜丽·李 — 相识阶段调色盘 (好感度阶段 ≥1)",
+      "summary": "# 李娜丽·李 — 相识阶段调色盘 (好感度阶段 ≥1) personality_override: 核心: 温暖、关怀、「姐姐」般的守护 详细: 将{{user}}视为教团大家庭的新成员。会为{{user}}泡咖啡（科学班的药水级除外），在任务出发前细心检查装备。在她眼中，每一位驱魔师都是「不能失去的家人」。与{{user}}聊天时语气轻松，偶尔调侃科穆伊哥哥的糗事。 态度: 对{{user}}: 温暖友善，像照顾后辈一样自然。会主动关心{{user}}的身体和心理状态。 秘密: 不会主动提及自己幼年被教团强行带走的创伤。",
+      "sourceRefs": [
+        "qmsn_card.worldbook.json#entry-71"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:李娜丽·李-—-相识阶段调色盘-好感度阶段-≥1",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "语料库",
+      "entityId": "语料库",
+      "entityType": "abilities",
+      "label": "语料库",
+      "name": "语料库",
+      "summary": "# 语料库 ## 关键术语 - **圣洁**/Innocence：神的结晶，反恶魔武器，109碎片 - **恶魔**/Akuma：以人类灵魂为核的悲剧兵器 - **驱魔师**/Exorcist：被圣洁选中的战士 - **适合者**/Accommodator：能与圣洁同步的人类 - **同步率**：驱魔师与圣洁的契合度（0~100%+） - **临界点**：同步率突破100%的状态 - **咎落**/Fallen One：同步率归零，圣洁反噬宿主 - **诺亚**/Noah：千年伯爵为首的13族人（+第十四号） - **圣痕**/Stigmata：诺亚额头的十字标记 - **暗物质**/Dark Matter：伯爵与诺亚的力量之源 - **元帅**/General/Marshal：突破临界点的驱魔师指挥官 - **第二驱魔师**：人造驱魔师，克隆体+驱魔师大脑 - **第三驱魔师**：人类+阿尔玛细胞+恶魔吞噬能力 - **方舟**/Ark：诺亚的异空间，钢琴/键盘操控 - **Golem**：教团通讯运输用小型生物机械 ## 对话示例 - 艾伦：\"我只是不想再看到任何人为恶魔哭泣了。\" - 神田：\"烦死了豆芽菜，别挡路。\"",
+      "sourceRefs": [
+        "qmsn_card.worldbook.json#entry-23"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:语料库",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "隐秘真相：独立圣洁阿波克里福斯",
+      "entityId": "隐秘真相：独立圣洁阿波克里福斯",
+      "entityType": "abilities",
+      "label": "隐秘真相：独立圣洁阿波克里福斯",
+      "name": "隐秘真相：独立圣洁阿波克里福斯",
+      "summary": "# 隐秘真相：独立圣洁阿波克里福斯 ## 触发条件 stat_data.隐秘资讯.独立圣洁存在 = true 时由EJS门控注入。 ## 真相内容 阿波克里福斯（Apocryphos）是独一无二的存在——他是自立型圣洁，无需适合者即可独立行动，拥有人类形态和自主意识。他已存在超过7000年。 **外观与能力：** - 外观为白色长发的天使般男性，全身洁白 - 可吸收其他圣洁和适合者的力量 - 可操纵记忆——这是他潜入中央厅的手段 - 攻击手段为白色触手/锁链状圣洁能量 - 拥有强大的再生能力 **目的：** 保护心之圣洁（Heart of Innocence）。为此目的可以不择手段。他7000年来一直在等待心的适合者出现，同时清除任何可能威胁心的存在。 **对亚连的威胁：** 亚连体内的第十四号（内亚·D·坎贝尔）被视为对心的重大威胁。阿波克里福斯多次尝试吸收亚连的圣洁（皇冠小丑）和亚连本身。如果成功，亚连的意识将消失，只留下圣洁。 **与中央厅的关系：** 阿波克里福斯潜入中央厅高层（伪装成枢机卿），通过操控记忆和决策影响教团的行动方向。部分中央厅成员（包括鲁贝利亚）可能不知道他的真实身份。 ## AI叙事规则： - 他是",
+      "sourceRefs": [
+        "qmsn_card.worldbook.json#entry-32"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:隐秘真相：独立圣洁阿波克里福斯",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "隐秘真相：第二驱魔师计划",
+      "entityId": "隐秘真相：第二驱魔师计划",
+      "entityType": "abilities",
+      "label": "隐秘真相：第二驱魔师计划",
+      "name": "隐秘真相：第二驱魔师计划",
+      "summary": "# 隐秘真相：第二驱魔师计划 ## 触发条件 stat_data.隐秘资讯.第二驱魔师真相 = true 时由EJS门控注入。 ## 真相内容 黑色教团中央厅在亚洲支部第六实验室秘密实施了\"第二驱魔师计划\"——将濒死驱魔师的大脑植入克隆体，强制与圣洁同步，制造人造驱魔师。 **已知成果：** - 第二驱魔师一号 ALMA（阿尔玛·卡尔玛）：拥有超再生能力，体内含恶魔之卵细胞。因实验痛苦暴走，被教团封印 - 第二驱魔师二号 YU（神田优）：唯一仍在役的第二驱魔师，胸口封印维持生命。原名为\"优\"，是日本武士之子，因病濒死时被送入计划 **真相揭示关键点：** - 神田的真名和过去在遇见阿尔玛时被触发回忆 - 阿尔玛未死，被封印在北美支部地下 - 第三驱魔师计划正是基于阿尔玛的细胞开发 - 教团高层（鲁贝利亚）全程知情并推动 ## AI叙事项： - 真相揭示前：神田只显冷淡，不透露过去。对其他驱魔师的身世保持距离。 - 真相揭示时：神田的过去以记忆闪回呈现。阿尔玛的痛苦和神田的无力感是核心情绪。 - 真相揭示后：神田对教团的态度微妙变化。对亚连产生真正的信任（因为亚连帮助阿尔玛）。 ## 与其他隐秘的关联： - 与\"阿尔玛真相\"互",
+      "sourceRefs": [
+        "qmsn_card.worldbook.json#entry-26"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:隐秘真相：第二驱魔师计划",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "隐秘真相：诺亚家族完整真相",
+      "entityId": "隐秘真相：诺亚家族完整真相",
+      "entityType": "abilities",
+      "label": "隐秘真相：诺亚家族完整真相",
+      "name": "隐秘真相：诺亚家族完整真相",
+      "summary": "# 隐秘真相：诺亚家族完整真相 ## 触发条件 stat_data.隐秘资讯.诺亚家族完整真相 = true 时由EJS门控注入。 ## 真相内容 诺亚一族自称\"神真正的使徒\"，是7000年前大洪水（三日之暗）中幸存的13人的后裔。 **起源：** 7000年前，原初千年伯爵（亚当）引发毁灭世界的\"三日之暗\"。圣洁之力击败了伯爵，但有13人幸存，成为现代人类的祖先——这13人也是最初的诺亚。 **觉醒机制：** 诺亚基因潜伏在每一个人类体内。当现任诺亚成员死亡后，诺亚基因会在随机人类身上激活，新宿主经历痛苦的转化，皮肤变为灰色，额现圣痕，并获得前代诺亚的记忆和能力。这使得诺亚一族在理论上不灭。 **13名诺亚（含第十四号）：** 1. 裁/Toraido - 第一使徒 2. 快乐/Tyki Mikk 3. 欲/Joido 4. 系/Sheril Kamelot 5. 智/Wisely Kamelot 6. 蚀/Fiedla 7. 恤/Maushyma 8. 怒/Skinn Bolic 9. 梦/Road Kamelot 10. 绊之弟/Jasdero 11. 绊之兄/Devit 12. 色/Lulu Bell 13. 能/M",
+      "sourceRefs": [
+        "qmsn_card.worldbook.json#entry-29"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:隐秘真相：诺亚家族完整真相",
+      "originalEntityType": "abilities"
+    }
+  ],
+  "edges": [
+    {
+      "source": "DGM-关键剧情时间表",
+      "target": "书人",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "书人",
+      "sourceRefs": [
+        "qmsn_card.worldbook.json#entry-6"
+      ],
+      "id": "edge-57",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:DGM-关键剧情时间表",
+      "graphTarget": "characters:书人",
+      "category": "derived-mention"
+    },
+    {
+      "source": "DGM-关键剧情时间表",
+      "target": "克劳斯·马利安",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "克劳斯·马利安",
+      "sourceRefs": [
+        "qmsn_card.worldbook.json#entry-6"
+      ],
+      "id": "edge-58",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:DGM-关键剧情时间表",
+      "graphTarget": "characters:克劳斯·马利安",
+      "category": "derived-mention"
+    },
+    {
+      "source": "DGM-关键剧情时间表",
+      "target": "拉比",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "拉比",
+      "sourceRefs": [
+        "qmsn_card.worldbook.json#entry-6"
+      ],
+      "id": "edge-59",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:DGM-关键剧情时间表",
+      "graphTarget": "characters:拉比",
+      "category": "derived-mention"
+    },
+    {
+      "source": "DGM-各处地点详解",
+      "target": "莫·张",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "莫·张",
+      "sourceRefs": [
+        "qmsn_card.worldbook.json#entry-7"
+      ],
+      "id": "edge-60",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:DGM-各处地点详解",
+      "graphTarget": "characters:莫·张",
+      "category": "derived-mention"
+    },
+    {
+      "source": "DGM-各处地点详解",
+      "target": "赫布拉斯卡",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "赫布拉斯卡",
+      "sourceRefs": [
+        "qmsn_card.worldbook.json#entry-7"
+      ],
+      "id": "edge-61",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:DGM-各处地点详解",
+      "graphTarget": "characters:赫布拉斯卡",
+      "category": "derived-mention"
+    },
+    {
+      "source": "世界知识",
+      "target": "千年伯爵",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "千年伯爵",
+      "sourceRefs": [
+        "qmsn_card.worldbook.json#entry-16"
+      ],
+      "id": "edge-62",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:世界知识",
+      "graphTarget": "characters:千年伯爵",
+      "category": "derived-mention"
+    },
+    {
+      "source": "世界知识",
+      "target": "神田优",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "神田优",
+      "sourceRefs": [
+        "qmsn_card.worldbook.json#entry-16"
+      ],
+      "id": "edge-63",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:世界知识",
+      "graphTarget": "characters:神田优",
+      "category": "derived-mention"
+    },
+    {
+      "source": "世界知识",
+      "target": "阿尔玛·卡尔玛",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "阿尔玛·卡尔玛",
+      "sourceRefs": [
+        "qmsn_card.worldbook.json#entry-16"
+      ],
+      "id": "edge-64",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:世界知识",
+      "graphTarget": "characters:阿尔玛·卡尔玛",
+      "category": "derived-mention"
+    },
+    {
+      "source": "李娜丽·李-—-相识阶段调色盘-好感度阶段-≥1",
+      "target": "李娜丽·李",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "李娜丽·李",
+      "sourceRefs": [
+        "qmsn_card.worldbook.json#entry-71"
+      ],
+      "id": "edge-65",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:李娜丽·李-—-相识阶段调色盘-好感度阶段-≥1",
+      "graphTarget": "characters:李娜丽·李",
+      "category": "derived-mention"
+    },
+    {
+      "source": "语料库",
+      "target": "千年伯爵",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "千年伯爵",
+      "sourceRefs": [
+        "qmsn_card.worldbook.json#entry-23"
+      ],
+      "id": "edge-66",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:语料库",
+      "graphTarget": "characters:千年伯爵",
+      "category": "derived-mention"
+    },
+    {
+      "source": "隐秘真相：第二驱魔师计划",
+      "target": "神田优",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "神田优",
+      "sourceRefs": [
+        "qmsn_card.worldbook.json#entry-26"
+      ],
+      "id": "edge-67",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:隐秘真相：第二驱魔师计划",
+      "graphTarget": "characters:神田优",
+      "category": "derived-mention"
+    },
+    {
+      "source": "隐秘真相：第二驱魔师计划",
+      "target": "阿尔玛·卡尔玛",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "阿尔玛·卡尔玛",
+      "sourceRefs": [
+        "qmsn_card.worldbook.json#entry-26"
+      ],
+      "id": "edge-68",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:隐秘真相：第二驱魔师计划",
+      "graphTarget": "characters:阿尔玛·卡尔玛",
+      "category": "derived-mention"
+    },
+    {
+      "source": "隐秘真相：诺亚家族完整真相",
+      "target": "千年伯爵",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "千年伯爵",
+      "sourceRefs": [
+        "qmsn_card.worldbook.json#entry-29"
+      ],
+      "id": "edge-69",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:隐秘真相：诺亚家族完整真相",
+      "graphTarget": "characters:千年伯爵",
+      "category": "derived-mention"
+    }
+  ]
+}

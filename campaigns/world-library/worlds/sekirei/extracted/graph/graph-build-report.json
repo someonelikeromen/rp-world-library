@@ -1,0 +1,34 @@
+{
+  "schema": "sekirei-graph-build-report-v1",
+  "worldId": "sekirei",
+  "status": "completed",
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "validation": {
+    "jsonValid": true,
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "newFactsIntroduced": false,
+    "forbiddenBasenamesGenerated": false
+  },
+  "counts": {
+    "nodes": 54,
+    "edges": 17,
+    "nodeCounts": {
+      "characters": 32,
+      "abilities": 7,
+      "items": 1,
+      "factions": 1,
+      "locations": 7,
+      "events": 4,
+      "systems": 1,
+      "knowledge": 1
+    },
+    "edgeCounts": {
+      "derived-text-mention": 17
+    },
+    "derivedMentionEdges": 17
+  },
+  "warnings": [
+    "Derived graph edges are navigation/search signals, not formal relationship facts."
+  ]
+}

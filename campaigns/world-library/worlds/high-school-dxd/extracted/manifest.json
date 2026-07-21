@@ -1,0 +1,33 @@
+{
+  "schema": "high-school-dxd-legacy-extracted-manifest-v1",
+  "worldId": "high-school-dxd",
+  "layer": "extracted",
+  "archiveKind": "world",
+  "status": "legacy-extracted-layer-indexed",
+  "legacyLayer": true,
+  "canUseAsPiExtractedLayer": true,
+  "canReplaceCurated": false,
+  "sourceWorldview": "imports/worldviews/high-school-dxd",
+  "indexes": {},
+  "legacyGraphFiles": [],
+  "counts": {
+    "extractedJsonFiles": 0,
+    "characters": 35,
+    "sources": 5,
+    "worldSections": {
+      "powerSystems": 5,
+      "factions": 13,
+      "rules": 5,
+      "locations": 8,
+      "events": 0
+    }
+  },
+  "graphPolicy": {
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "introducesNewFacts": false,
+    "legacyGraphFilesMayUseOlderNames": true
+  },
+  "generatedAt": "2026-07-20T17:12:10.528Z",
+  "note": "Minimal manifest added for consistency with newer world-library extracted layers; existing legacy files were not renamed or rewritten."
+}

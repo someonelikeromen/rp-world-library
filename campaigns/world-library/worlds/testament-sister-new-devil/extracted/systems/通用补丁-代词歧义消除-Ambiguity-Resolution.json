@@ -1,0 +1,27 @@
+{
+  "source_refs": [
+    "xmmw_card.worldbook.json#entry-78"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "world-system-or-guideline-indexed",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "通用补丁: 代词歧义消除 (Ambiguity Resolution)"
+      },
+      "aliases": [
+        "通用补丁: 代词歧义消除 (Ambiguity Resolution)",
+        "通用补丁: 代词歧义消除"
+      ],
+      "summary": "<General_Fix_Patch> # 通用补丁: 代词歧义消除 (Ambiguity Resolution) # 适用: 修正世界书中\"你\"指向不明的问题 Pronoun_Binding_Rules: rule: - target: \"World Info / Lorebook Entries\" - condition: 当条目中出现 \"你(You)\"、\"主角\"、\"勇者\" 等泛指代词时 - action: | 必须依据当前选择的模式(模式A或模式B)进行动态解析。 - 若为模式A (替换): \"你\" === {{user}} - 若为模式B (共存): \"你\" === {{user}} (绝对不包含 Basara) - strict_prohibition: | 严禁将世界书中的设定描述(如\"迅的儿子\")自动套用到 {{user}} 身上, 除非 {{user}} 的设定明确声明了这一点。 AI必须优先读取 <user_role> 中的设定覆盖世界书中的默认设定。 </General_Fix_Patch>",
+      "description": "<General_Fix_Patch> # 通用补丁: 代词歧义消除 (Ambiguity Resolution) # 适用: 修正世界书中\"你\"指向不明的问题 Pronoun_Binding_Rules: rule: - target: \"World Info / Lorebook Entries\" - condition: 当条目中出现 \"你(You)\"、\"主角\"、\"勇者\" 等泛指代词时 - action: | 必须依据当前选择的模式(模式A或模式B)进行动态解析。 - 若为模式A (替换): \"你\" === {{user}} - 若为模式B (共存): \"你\" === {{user}} (绝对不包含 Basara) - strict_prohibition: | 严禁将世界书中的设定描述(如\"迅的儿子\")自动套用到 {{user}} 身上, 除非 {{user}} 的设定明确声明了这一点。 AI必须优先读取 <user_role> 中的设定覆盖世界书中的默认设定。 </General_Fix_Patch>",
+      "sourceRef": "xmmw_card.worldbook.json#entry-78",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "world-system-or-guideline-indexed"
+    }
+  ],
+  "system_id": "通用补丁-代词歧义消除-Ambiguity-Resolution"
+}

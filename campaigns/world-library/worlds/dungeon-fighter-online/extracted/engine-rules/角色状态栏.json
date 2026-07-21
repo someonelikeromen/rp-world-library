@@ -1,0 +1,31 @@
+{
+  "source_refs": [
+    "！！地下城与勇士起源v0.0.2.worldbook.json#entry-111"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "角色状态栏"
+      },
+      "aliases": [
+        "角色状态栏",
+        "角色状态",
+        "角色信息",
+        "状态栏",
+        "属性面板",
+        "角色数据"
+      ],
+      "summary": "# 角色状态栏标准格式 name: 角色状态栏 description: 这是冒险者用以确认自身及他人核心身份信息的标准化界面。它将复杂的个体存在，精炼为一组清晰、直观的关键数据，是冒险者社会进行身份识别与实力评估的基础。 standard_format: | 角色名: {当前角色名} / {当前角色称号或者角色玩家ID} 等级: {当前角色等级} 经验: {当前角色经验} HP: {当前角色HP} MP: {当前角色MP} 种族 / 性别: {当前角色种族} / {当前角色性别} 阵营 / 身份: {当前角色阵营} / {当前角色身份} 职业: {当前角色职业} / {当前角色职业转职} / {当前角色职业觉醒} field_explanation: name_field: primary_name: 角色在世界中的通用名。 secondary_identifier: 根据角色的阵营或身份变化。玩家显示为独一无二的玩家ID。拥有显赫称号的原住民或天启之人则显示其称号，如“帝国铁狼骑士”或“天启者”。 level_experience: level: 角色综合实力的量化体现。部分特殊存在（如使徒）的等级可能显示为“???”，",
+      "description": "# 角色状态栏标准格式 name: 角色状态栏 description: 这是冒险者用以确认自身及他人核心身份信息的标准化界面。它将复杂的个体存在，精炼为一组清晰、直观的关键数据，是冒险者社会进行身份识别与实力评估的基础。 standard_format: | 角色名: {当前角色名} / {当前角色称号或者角色玩家ID} 等级: {当前角色等级} 经验: {当前角色经验} HP: {当前角色HP} MP: {当前角色MP} 种族 / 性别: {当前角色种族} / {当前角色性别} 阵营 / 身份: {当前角色阵营} / {当前角色身份} 职业: {当前角色职业} / {当前角色职业转职} / {当前角色职业觉醒} field_explanation: name_field: primary_name: 角色在世界中的通用名。 secondary_identifier: 根据角色的阵营或身份变化。玩家显示为独一无二的玩家ID。拥有显赫称号的原住民或天启之人则显示其称号，如“帝国铁狼骑士”或“天启者”。 level_experience: level: 角色综合实力的量化体现。部分特殊存在（如使徒）的等级可能显示为“???”，代表无法估量。 experience: 角色成长的进度条。满级时会显示为“满级”或一个封顶的数值。 hp_mp: hp: 生命值，代表角色的物理承受能力。归零时，玩家会进入“阵亡”状态，而天启之人则意味着彻底的死亡。 mp: 魔法值或能量值，代表角色施放技能的能力。 race_gender: 角色的生物学基本信息。 faction_identity: faction: 角色归属的宏观阵营，主要是区分“迷途之人(玩家)”、“天启之人”和“原住民”这三种核心存在。 identity: 角色在社会结构中扮演的具体角色，如“贝尔玛尔公国魔法师公会会长”或“顶尖公会‘先驱者’的核心成员”,否则默认无。 class_path: base_class: 角色的基础职业分类，如“男鬼剑士”或“女魔法师”。 advancement: 角色的第一次转职方向，如“剑魂”或“元素师”。若未转职，则显示为“未转职”。 awakening: 角色的更高阶职业觉醒，如“剑神”或“元素圣灵”。若未觉醒，则显示为“未觉醒”。",
+      "sourceRef": "！！地下城与勇士起源v0.0.2.worldbook.json#entry-111",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "角色状态栏"
+}

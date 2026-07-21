@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "ns_card.worldbook.json#entry-15"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[mvu_update]变量更新规则"
+      },
+      "aliases": [
+        "[mvu_update]变量更新规则"
+      ],
+      "summary": "--- 变量更新规则: 关系网: type: |- { [角色名: string]: { 好感度: number; // 0~100 信任度: number; // 0~100 关系: string; } } check: - 根据互动质量增减，正向互动+1~10，负向-1~10 - 新角色首次互动时用 insert 添加到 /关系网 - 已存在角色用 replace 更新 - 好感度达60以上时关系字段应更新为更亲近的描述 - 信任度达80以上时可建立心灵通讯能力 剧情: 当前卷: type: number range: 1~19 check: - 完成当前卷所有关键事件后+1，最大19 当前章节: type: string check: - 随事件推进更新为当前章节标题 章节内已完成事件: type: string check: - 追加已完成的事件名称，逗号分隔 关键事件: type: string check: - 记录已触发的关键事件(如鹡鸰羽化、神器获得、重要战斗) 模式: type: string check: - '日常': 无战斗的日常互动阶段 - '战斗': 鹡鸰对决中 - '剧情': 关键剧情推进中 推",
+      "description": "--- 变量更新规则: 关系网: type: |- { [角色名: string]: { 好感度: number; // 0~100 信任度: number; // 0~100 关系: string; } } check: - 根据互动质量增减，正向互动+1~10，负向-1~10 - 新角色首次互动时用 insert 添加到 /关系网 - 已存在角色用 replace 更新 - 好感度达60以上时关系字段应更新为更亲近的描述 - 信任度达80以上时可建立心灵通讯能力 剧情: 当前卷: type: number range: 1~19 check: - 完成当前卷所有关键事件后+1，最大19 当前章节: type: string check: - 随事件推进更新为当前章节标题 章节内已完成事件: type: string check: - 追加已完成的事件名称，逗号分隔 关键事件: type: string check: - 记录已触发的关键事件(如鹡鸰羽化、神器获得、重要战斗) 模式: type: string check: - '日常': 无战斗的日常互动阶段 - '战斗': 鹡鸰对决中 - '剧情': 关键剧情推进中 推进许可: type: boolean check: - 当前卷所有关键事件完成后设为 true - AI在下一回复中推进到下一卷后设回 false 沙盒状态: 当前时间: type: string format: 第X卷[初期/中期/后期]·[白天/夜间] check: - 根据互动量自然推进，每次最多推进半个时间段 当前地点: type: string check: - 随{{user}}移动更新 时间推进次数: type: number check: - 每次时间推进+1 关键事件触发记录: type: string check: - 记录已触发和已跳过的事件，逗号分隔",
+      "sourceRef": "ns_card.worldbook.json#entry-15",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "mvu_update-变量更新规则"
+}

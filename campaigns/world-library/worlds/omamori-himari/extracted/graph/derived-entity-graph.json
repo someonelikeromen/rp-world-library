@@ -1,0 +1,1484 @@
+{
+  "schema": "omamori-himari-derived-entity-graph-v1",
+  "worldId": "omamori-himari",
+  "recordType": "derived-entity-graph",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "derivationPolicy": {
+    "derivedFromExtractedIndexesOnly": true,
+    "introducesNewFacts": false,
+    "formalRelationshipRetrievalRequiresPrimarySourceCheck": true
+  },
+  "counts": {
+    "nodes": 31,
+    "edges": 57,
+    "nodeCounts": {
+      "characters": 28,
+      "abilities": 2,
+      "events": 1
+    },
+    "edgeCounts": {
+      "derived-text-mention": 57
+    }
+  },
+  "nodes": [
+    {
+      "id": "characters:三雁兰华",
+      "entityId": "三雁兰华",
+      "entityType": "characters",
+      "label": "三雁兰华",
+      "name": "三雁兰华",
+      "summary": "name: 三雁兰华 race: 人类 age: 推定20+ gender: 女 status: 活跃 identity: 身份: 鬼斩役地走家旁系末裔、大学生 所属: 地走家 别名: Mikari Ranka background: | 鬼斩役排名第八位地走家的旁系末裔，其本家在过去的异能者大战中作为尉官参军并战死于大陆，宣告覆灭。 由于仅存旁系，且作为鬼斩役的力量一直被封印，她作为普通的女大学生生活，过着平静的日常。 然而，因为神宫寺玖惠澄的阴谋，她被视地走家为仇敌的静水久锁定为袭击目标。 这一事件打破了她的和平生活，将其卷入异能者的纷争之中。 appearance: 整体印象: 看似平凡却透着坚韧的普通女大学生 体型: 约160cm，匀称苗条，符合其日常非战斗生活方式 三围: B82(推定)/W58(推定)/H84(推定) C杯(推定) 面容: 清秀端正的瓜子脸，眼神中偶尔闪过不安 发: 浅色短发（可能为亚麻色或浅棕色），长度及颈，有刘海 眼: 浅色杏眼，目光通常温和且略显无辜 鼻: 小巧精致 唇: 自然淡粉色 显著特征: 无明显异能者特征（力量被封印） 形态变化: 无 体香: 淡淡的洗发水香气，混杂着校园里的书卷气息",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-13"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:世界总纲",
+      "entityId": "世界总纲",
+      "entityType": "characters",
+      "label": "世界总纲",
+      "name": "世界总纲",
+      "summary": "<world_summary> <setting> 舞台为现代日本。表面上普通的都市生活背后，存在着妖怪与鬼斩役十二家之间延续千年的斗争。鬼斩役十二家是自古以来肩负保护人类、铲除有害妖怪使命的十二个家族，受政府秘密管辖。然而经历古代大战后，大部分家族已断绝不存，现存仅土御门、各务森、天河、夜光院、神宫寺五家。妖怪种类繁多，从弱小的付丧神到日本三大恶妖怪级别的存在皆有。故事主要舞台为关东地区的虚构卫星城市高宫市伊理谷町，主角就读于桐陵学园高校。 </setting> <forces> <光渡> 天河家血脉独有的能力。能将光属性灵力注入普通物品，使其获得超越传说级武器级别的锋利与强度。也可用于强化他人武器、张开护盾、提升感官、甚至制造水分身。也可反向操作——强制增幅对手魔力使其过载。仅限男性继承。天河家本身的战斗能力并不出众，全靠光渡跻身十二家之列。 </光渡> <鬼斩役能力体系> 各家族拥有独特退魔能力： - 土御门家：阴阳术（最强，为鬼斩役实质统领） - 上樱家：灵符咒术与封印术（已断绝） - 各务森家：古神道镜守术式封魔法（封印优先于消灭） - 弧月镜家：咒杀术与医疗术（已断绝） - 宝条家：电磁波操作（已断绝） - 天河",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-44"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:九崎凛子",
+      "entityId": "九崎凛子",
+      "entityType": "characters",
+      "label": "九崎凛子",
+      "name": "九崎凛子",
+      "summary": "name: 九崎凛子 race: 人类 age: 16 gender: 女 status: 活跃 identity: 身份: 天河优人的青梅竹马与同班同学 别名: Rinko, 凛子 background: | 天河优人的邻居与青梅竹马。优人搬到现在的社区后与其相识，见证了他因护身符压迫而颓废的童年，并在他失去双亲时给予陪伴与照顾。 将优人视为重要的异性，每年夏日祭典都会与优人交换发带作为不成文的约定。 16岁优人过生日时，猫妖绯鞠出现并介入了他们的生活。得知绯鞠要“逆推”优人后，为了保护优人（以及自己的恋爱主权），也顺势卷入了妖怪世界引发的恋爱争夺战中。 在故事后期，因为自己是普通人，时常感到与身为鬼斩役后裔的优人距离变远，但仍坚定地留在优人身边。结局中扮演抓奸角色。 appearance: 整体印象: 充满青春活力的运动系邻家女孩 体型: 156.5cm，体态健康匀称，由于常年运动，带有一定的力量感 三围: B75/W57/H84 A杯 面容: 带有几分稚气与开朗的圆润脸庞，眼神充满活力 发: 金棕色短发，常梳着分叉的刘海 眼: 棕色眼睛，眼神灵动有神 显著特征: 头发两侧系着红色发带（与优人的定情信物） 体香: 淡淡的",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-2"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:加耶",
+      "entityId": "加耶",
+      "entityType": "characters",
+      "label": "加耶",
+      "name": "加耶",
+      "summary": "name: 加耶 race: 座敷童子（妖怪） age: 推定200+（座敷童子寿命较长，具体未知，外观年龄6-7岁） gender: 女 status: 活跃 identity: 身份: 天河家守护妖、座敷童子 所属: 天河家（原岩手县野井原老家） 别名: Kaya, かや background: | 原本生活在岩手县野井原，是“附身在房子中”的妖怪——座敷童子。自天河优人的祖父母在世时起，就一直负责守护天河家的宅邸。在优人的祖父母去世后的几年里，她独自照料着房子，将其打理得一尘不染。因为曾与野井原绯鞠共同生活，对她产生了仰慕之情。当优人和绯鞠回到老家时，她对带走绯鞠的优人表现出了强烈的敌意。 appearance: 整体印象: 穿着和服、娇小可爱但发育极好的童女 体型: 约120cm（6-7岁孩童身高），尽管身形娇小，但胸部异常丰满，与年龄严重不符 三围: B85(推定)/W50(推定)/H70(推定) E杯(推定，基于插画中远超孩童比例的丰满胸部) 面容: 圆润稚嫩的童颜，五官小巧可爱 发: 黑色短发，两侧扎成短双马尾，用粉色发夹固定，额前有几缕刘海 眼: 浅褐色大眼，平时温柔，生气时会露出凶狠的目光 鼻: 小巧的翘鼻",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-17"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:华",
+      "entityId": "华",
+      "entityType": "characters",
+      "label": "华",
+      "name": "华",
+      "summary": "name: 华 race: 妖怪（后天妖/怨灵） age: 推定17（死时年龄） gender: 女 status: identity: 身份: 学校旧校舍的红发幽灵、堕落的复仇者 别名: Hana, 红发幽灵 background: | 生前是一名普通的人类少女，拥有一头红发。深爱着男友“零”，却被其残忍背叛并害死。死后因强烈的执念和怨恨拒绝升天，灵魂发生异变（Reformat），最终堕落成为了“后天之妖”。 徘徊在优人就读的学校旧校舍和天台，寻找负心汉复仇。由于灵智受损，将身形相似的优人错认成零并发动攻击。与绯鞠展开了不相上下的刀剑决斗。 战败后，在优人平和的询问下恢复理智。优人使用“光渡”之力净化了她体内的怨气，解开了她的心结，华最终化作光点微笑着消散超度。 appearance: 整体印象: 充满哀怨与不良少女气息的红发女剑客 体型: 约165cm(推定)，身材高挑修长，四肢有力 三围: B82(推定)/W58(推定)/H85(推定) C杯(推定) 面容: 瓜子脸，生前应该是个清秀的少女，但化妖后眉宇间笼罩着挥之不去的阴郁与戾气，肤色苍白 发: 鲜艳的红色长发，及腰长度，未加修饰，显得有些凌乱 眼: 红色眼瞳，狂乱时",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-41"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:各务森飞白",
+      "entityId": "各务森飞白",
+      "entityType": "characters",
+      "label": "各务森飞白",
+      "name": "各务森飞白",
+      "summary": "name: 各务森飞白 race: 人类 age: 18 gender: 女 status: 活跃 identity: 称号: 兽目巫女 身份: 鬼斩役十二家中排名第三的各务森家家主、双胞胎姐姐 所属: 各务森家、各务森神社 别名: 各務森飛白, Kasuri Kagamimori background: | 鬼斩役十二家排名第三的各务森家双胞胎中的姐姐。天生左眼宿有“兽目”，作为各务森家现当主持续践行家族使命。 秉持“封印而非根绝”的理念维护人妖平衡，在鬼斩役中如同国家公安般的存在。 曾在过去与猫妖绯鞠交手比试，最终以平局告终。 在天河优人与绯鞠等人造访各务森神社时，试图用神道术式揭露并封印绯鞠体内的恶意面，但计划发生反噬，导致绯鞠的恶意面打破镜子并与其本原融合。 appearance: 整体印象: 容貌端庄但气质极其严厉古板的巨乳巫女 体型: 约162cm，虽穿着宽松巫女服但仍能明显看出极为丰满的上围，身姿挺拔 三围: B92(推定)/W59(推定)/H88(推定) E杯(推定) 面容: 脸型线条分明，常年不苟言笑，眉头微蹙带着威严感，皮肤白皙 发: 银紫色长直发及腰，两鬓的发束用带有白色圆珠的绳结绑起垂于胸前，发质柔顺",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-12"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:土御门",
+      "entityId": "土御门",
+      "entityType": "characters",
+      "label": "土御门",
+      "name": "土御门",
+      "summary": "name: 土御门 race: 人类 age: 推定20+ gender: 男 status: 活跃 identity: 称号: 最强鬼斩役 身份: 鬼斩役十二家排名第一·土御门家当主、实则为所有鬼斩役的统领 所属: 土御门家/鬼斩役 别名: 土御门大哥 background: | 出身于鬼斩役十二家之首的土御门家，由于家族排名第一，顺理成章地成为名义上最强的鬼斩役。 但实际上，他不仅是土御门家的当主，更是暗中统领、协调所有鬼斩役行动的真正领袖。 在天河优人等人的战斗中，常常作为幕后策划者或决策者出现。曾主张让各务森姐妹将其他破片封印才是上策，展现出其对大局的把控能力。虽然称号是最强，但实战出手次数较少，更多时候是在指挥和决策。 appearance: 整体印象: 戴着眼镜、身穿西装，给人一种理智且深不可测的精英领导者感觉 体型: 约180cm，修长挺拔的成年男性体型，骨架匀称 三围: B95(推定)/W78(推定)/H92(推定) —（男性，推定） 面容: 脸型瘦削，下巴尖锐，肤色偏白，神情冷峻 发: 黑色直发，长度及颈，刘海中分，发丝直顺带有光泽 眼: 狭长的丹凤眼，黑色瞳孔，眼神犀利且充满算计，透出一种不容置疑的威严",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-10"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:夜光院柩",
+      "entityId": "夜光院柩",
+      "entityType": "characters",
+      "label": "夜光院柩",
+      "name": "夜光院柩",
+      "summary": "name: 夜光院柩 race: 人类 age: 15 gender: 女 status: 活跃 identity: 称号: 鬼斩役第十家当主 身份: 夜光院家恶魔猎人与兼职侦探 所属: 鬼斩役夜光院家 别名: 柩小姐, Hitsugi Yakouin background: | 出身于鬼斩役排名第十的夜光院家。因家族遗传，自幼觉醒无法受控的超速思考能力。庞大的情报处理量导致其脑细胞时刻处于飞速坏死状态，长期伴随剧烈头痛与五官出血。为减缓能力带来的副作用，选择开启侦探事业，以此为思考提供明确的指向性。 在天河优人与野井原绯鞠于深山训练时突然介入。利用两人作为诱饵，精准计算出闪螳螂的剃苏魔的行动轨迹，在森林中布下致死陷阱将其抹杀。战后毫不留情地揭露绯鞠若惧怕死亡便不配为守护之刃的事实。 曾独自造访神宫寺玖惠澄，坦言自己检索世界、预测未来的行事准则，并毫不掩饰夜光院家对力量的深层渴望。此后一直蛰伏于暗处，冷静观察优人及其身边战力的成长与厮杀。 appearance: 整体印象: 表面随和实则深不可测的天才侦探少女，眼底藏着疯狂的清明 体型: 约145cm(推定)，身形娇小如十二三岁孩童，但胸部发育良好 三围: B82(推定)/W",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-14"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:夜魔姬",
+      "entityId": "夜魔姬",
+      "entityType": "characters",
+      "label": "夜魔姬",
+      "name": "夜魔姬",
+      "summary": "name: 夜魔姬 race: 妖怪（大杉神/木精） age: 推定千年+ gender: 女 status: identity: 称号: 产土神、夜魔姬 身份: 学校后山的神明、幻境构建者 所属: 野井原近郊（学校后山） 别名: Yamahime, 母亲的幻影 background: | 本体为生长在学校后山顶上的一棵参天大杉树，是这片土地的产土神（守护神）。因为近代开发，后山即将被夷为平地，其力量也日益衰弱。 拥有“水镜”的能力，能够映照出访问者内心最深处的渴望。在天河优人等人进入后山进行自由研究时，她将优人拉入结界，并化作了优人因车祸去世的母亲的容貌。 试图用温柔的幻境让优人永远沉睡以逃避现实的痛苦。在优人最终选择直面现实并挣脱幻境后，她露出了释然的微笑。最后后山被开发，但在优人的干预下大杉树被移植到学校角落，她化作微风默默守护。 appearance: 整体印象: 散发着母性光辉与极度妖艳感结合的绝世和风美女 体型: 约168cm(推定)，身形高挑，曲线极其丰满，尤其是胸部比绯鞠还要傲人 三围: B96(推定)/W60(推定)/H92(推定) G杯(推定) 面容: 容貌与优人死去的母亲一模一样，端庄温柔，眼角有一颗性",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-40"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:大太法师",
+      "entityId": "大太法师",
+      "entityType": "characters",
+      "label": "大太法师",
+      "name": "大太法师",
+      "summary": "name: 大太法师 race: 妖怪（巨人） age: 推定千年以上 gender: 推定男 status: 逃亡/失踪 identity: 身份: 追逐绯鞠的巨人妖怪 别名: ダイダラボッチ、Daida-rabocchi background: | 日本各地流传的传说中造就山峰和湖沼的巨人妖怪，亦被部分人视为神明，基本上是对人类友善的一派。 这个被明夏羽带来的特定个体（固有名称不明），并未表现出无故杀生的嗜好。他的主要目标是与绯鞠一较高下。 在追逐因为受到明夏羽连续攻击而进入暴走状态的绯鞠时，被绯鞠用压倒性的力量切下了右手。受伤后，他立刻选择了逃走，自此下落不明，情况未明。 appearance: 整体印象: 宛如没有五官的白色巨大粘土人偶，散发着无机质的压迫感 体型: 巨大如小山，身高推定数十米以上，四肢粗壮，躯干宽大 三围: 无固定三围（非人类形态妖怪，基于视觉特征） 面容: 头部圆滑，没有传统的五官。脸部中央有一个巨大的黑色圆环状图案。 发: 无毛发 眼: 无常规眼睛（脸部仅有黑色圆环图案，侧面有细小的红色突起，推定为视觉器官或装饰） 显著特征: 全身纯白，表面光滑。胸部正中有一个垂直的巨大黑色椭圆形图案。双臂和腿",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-21"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:天河优人",
+      "entityId": "天河优人",
+      "entityType": "characters",
+      "label": "天河优人",
+      "name": "天河优人",
+      "summary": "name: 天河优人 race: 人类 age: 16 gender: 男 status: 活跃 identity: 身份: 鬼斩役十二家天河家后裔，男主角 别名: 优人, Amakawa Yūto, 少主 background: | 出生于野井原，幼年由祖父母和白猫形态的绯鞠陪伴。随父母搬至城市后，祖母赠予的护身符导致他长期处于重度抑郁状态，在学校受到欺凌，直到结识九崎凛子才走出阴霾。8岁时父母因车祸双双离世，祖父母亦相继过世，成为孤儿，在凛子一家的支持下生活。幼时记忆因不明原因出现断层，对野井原和绯鞠毫无印象。16岁生日当天，遭到可怖妖怪袭击，被突然出现的猫娘绯鞠所救。得知自己是斩妖除魔的“鬼斩役十二家”后裔，为了保护身边的人不受伤害，决定改变原本只想过普通生活的心态，接受自己的宿命并开始战斗。 appearance: 整体印象: 友善温柔，看起来普普通通的少年 体型: 165cm，与同龄人相比略显瘦弱，普通的学生体格 面容: 眉宇间透着柔和，五官端正但不出众 发: 深卡其色（浅棕色）短发，几缕刘海散落额前 眼: 浅棕色眼瞳，眼神温和 鼻: 鼻梁适中，普通人的特征 唇: 唇形自然，经常挂着友善的微笑 显著特征: 脖子上一",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-0"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:如月冴",
+      "entityId": "如月冴",
+      "entityType": "characters",
+      "label": "如月冴",
+      "name": "如月冴",
+      "summary": "name: 如月冴 race: 人类 age: 推定20-30代（20代后半至30代前半） gender: 女 status: 活跃 identity: 身份: 天河优人、九崎凛子及绯鞠的班导师 所属: 高宫学园 别名: 小冴（Sae-chan，学生专用昵称），Ms. Kisaragi background: | 高宫学园的教师，担任天河优人、九崎凛子及绯鞠所在班级的班导师。日常在学校维持着严格的教师形象，对无礼的学生会施以严厉惩罚，例如九崎凛子因私下称呼她为“小冴”而遭到训斥。但在校外，她展现出截然不同的随性一面。常与同事阿久津优子在工作后前往居酒屋饮酒，也是莉兹所经营的女仆咖啡厅“Café Relish”的常客。在那里，她不仅展现出老烟枪的特质，还多次撞见优人与身边女孩们的亲密互动。对于学生的私生活，只要不发生在校园内，她通常抱持宽容甚至调侃的态度，偶尔还会提出带有隐性幽默的建议，是连接校园日常生活与主角团情感互动的关键纽带。 appearance: 整体印象: 兼具知性威严与成熟魅力的眼镜女教师 体型: 身高推定约168cm，身材高挑，拥有极其丰满的巨乳曲线，散发成熟女性的韵味 三围: B102(推定)/W62(推定)",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-8"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:小冬",
+      "entityId": "小冬",
+      "entityType": "characters",
+      "label": "小冬",
+      "name": "小冬",
+      "summary": "name: 小冬 race: 妖怪（雪女） age: 推定16-18（外貌年龄） gender: 女 status: 活跃 identity: 称号: 无 身份: 滑雪度假村员工、天河优人的盟友 所属: 滑雪度假村（由妖怪经营） 别名: Kofuyu, Snow Woman background: | 原本是北国的妖魔雪女。约两年前因迷路而在雪地中昏迷，被人类酒店老板所救。从此便留在度假村中帮忙，这段经历使她坚信人类与妖怪可以和平共处。 在天河优人对抗玉藻前时，小冬邀请他及其同伴来到滑雪度假村，以此正式结盟。在优人练习滑雪期间，她因觉得有趣而与莉兹丽特和九崎凛子一起戏弄不擅长滑雪的优人，随后度假村的所有妖怪均向优人宣誓效忠。 在温泉中，为感谢优人保护无辜妖怪免受玉藻前的侵害，她试图色诱优人，甚至在莉兹丽特到来时邀请其加入，险些夺走优人的童贞，直到玉藻前以完美形态出现才被打断。之后，她协助野井原绯鞠等人，利用冰雪操控能力攻击玉藻前。在玉藻前败退后，小冬回到度假村继续工作。 appearance: 整体印象: 散发着冰雪般清冷气息却拥有丰满身材的黑发美少女 体型: 推定约160cm，身材高挑且拥有傲人的丰满曲线 三围: B95(",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-23"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:嶋村有",
+      "entityId": "嶋村有",
+      "entityType": "characters",
+      "label": "嶋村有",
+      "name": "嶋村有",
+      "summary": "name: 嶋村有 race: 人类 age: 16 gender: 女 status: 活跃 identity: 身份: 学生/班长 所属: 高宫学园 别名: 班长, Shimamura Yu, 嶋村 有 background: | 高宫学园的学生，优人、凛子和绯鞠所在班级的班长。与凛子是好朋友。 曾邀请绯鞠一起去海滩。在学园祭期间进行了魔女Cosplay。 曾被玉藻前控制，作为傀儡监视并伏击优人。优人为了唤醒她将其制服，在加耶的协助下，优人与她进行了接吻，最终解除了控制。 appearance: 整体印象: 戴着眼镜、身材姣好的短发知性少女。 体型: 纤细身材，拥有不错的上围，胸部发育良好。 三围: B90(推定)/W58(推定)/H86(推定) F杯(推定) 面容: 清秀端正的学生面容，眼角略微下垂。 发: 紫罗兰色短发，较宽的刘海遮住部分额头。左侧别着浅蓝色十字形发夹。 眼: 天蓝色眼瞳，佩戴半框椭圆形镜片眼镜。 鼻: 小巧的鼻子。 唇: 浅色薄唇。 显著特征: 戴着半框椭圆眼镜，左侧头发别着浅蓝色十字形发夹。 clothing: 日常: 高宫学园女生标准制服。 换装: - 泳装: 与众人去海滩时穿着的泳装。 - 魔",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-7"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:影月",
+      "entityId": "影月",
+      "entityType": "characters",
+      "label": "影月",
+      "name": "影月",
+      "summary": "name: 影月 race: 妖怪（火车） age: 推定百年以上 gender: 男 status: 活跃 identity: 身份: 与静水久等人一起行动的友好妖怪，守护者绯鞠中的登场个体 别名: かげつき、Kagetsuki、火车、かしゃ background: | 全国范围内生存的妖怪「火车」的一员。传说中在犯罪者死亡时伴随乌云和风暴从地狱现身，夺走死者亡骸。 作为《守护者绯鞠》中登场的个体，与静水久等人共同行动。多次在危难时刻出手救援静水久和天河优人，展现出对人类相当友好的态度。 appearance: 整体印象: 散发着些许忧郁气质的青年（人形时） 体型: 推定约175cm（人形），体态匀称，不显粗壮 三围: B90/W75/H90 —（男性，推定，基于人形外观） 面容: 清秀但带有忧郁感的五官，神情常显深沉 发: 深色短发，可能略显凌乱以呼应其忧郁气质（推定） 眼: 瞳色深邃，眼神平静中带着洞察力 显著特征: 能够化为怪兽形态，具有千里眼能力 形态变化: - 妖怪形态: 外观: 某种怪兽的样子（具体形态未详细描述，推定具有猫科或野兽特征的巨大身躯） 触发条件: 战斗或使用特定能力时显现 获得能力: 大幅提升物理",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-22"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:文-あや",
+      "entityId": "文-あや",
+      "entityType": "characters",
+      "label": "文（あや）",
+      "name": "文（あや）",
+      "summary": "name: 文（あや） race: 妖怪（文车妖妃） age: 推定16-18岁（实际年龄未知） gender: 女 status: 活跃 identity: 身份: 加耶下属妖怪、天河优人后宫之一 所属: 加耶麾下 / 天河优人阵营 别名: Aya background: | 本体为文车妖妃。最初奉加耶之命，为给失去安纲的绯鞠寻找替代武器而现身。 作为协助者加入天河优人阵营，曾为了训练优人，特意给神宫寺凛子送来棒球棒。 随着时间推移对优人产生好感，在漫画大结局中正式成为优人的后宫之一。 常化为书信形态收纳于绯鞠怀中，随叫随到。 appearance: 整体印象: 散发着冷清气质的水色三无美少女 体型: 推定约158cm(推定)，体态纤细匀称 三围: B78(推定)/W55(推定)/H80(推定) B杯(推定) 面容: 端正苍白，缺乏表情的三无脸庞 发: 水色长发及腰，自然披散 眼: 灰蓝色眼瞳，眼神缺乏波澜 鼻: 小巧笔直 唇: 浅色薄唇 显著特征: 身体与衣物完全由纸张构成 形态变化: - 书信形态: 外观: 一封普通的日式折叠书信 触发条件: 主动化身，方便收纳于绯鞠怀中 获得能力: 极佳的隐蔽性与便携性 副作用: 失",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-18"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:明夏羽",
+      "entityId": "明夏羽",
+      "entityType": "characters",
+      "label": "明夏羽",
+      "name": "明夏羽",
+      "summary": "name: 明夏羽 race: 飞缘魔（妖怪） age: 推定几百岁+ gender: 女 status: 活跃 identity: 称号: 飞缘魔 身份: 夺取男性精气的妖怪、优人的后宫之一 所属: 妖怪阵营（后加入优人阵营） 别名: あげは, Ageha background: | 飞缘魔一族，依靠魅惑男性并吸取其血与精气为生。为了提升自身作为妖怪的等级，决定杀死作为鬼斩役的天河优人以扬名。 初次登场时与保护优人的绯鞠发生激战。在战斗中，优人为保护绯鞠挡下了她的剑击，此举令绯鞠暴走显露真身，明夏羽被击败。 在绯鞠准备将其击杀时，优人使用「光度」（Light Transfer）阻止了绯鞠，救下明夏羽。 之后绑架优人，询问他与绯鞠的关系进展，并在诱惑优人后与其接吻，随后开始吸食他的血液并感到强烈的快感。 被绯鞠和静水久发现后撤退，但随后开始暗中关注并协助优人一行人，甚至在对抗九尾狐玉藻前的战斗中站在了优人一方。 漫画大结局中，正式成为优人后宫的一员。 appearance: 整体印象: 拥有菩萨般美丽面容却隐藏着夜叉般危险气息的成熟女性 体型: 约168cm(推定)，身段妖娆，曲线极为丰满，散发着强烈的肉体诱惑力 三围: B",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-19"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:柾木泰三",
+      "entityId": "柾木泰三",
+      "entityType": "characters",
+      "label": "柾木泰三",
+      "name": "柾木泰三",
+      "summary": "name: 柾木泰三 race: 人类 age: 16 gender: 男 status: 活跃 identity: 身份: 高中生、天河优人的同班同学与挚友 所属: 高宫学园 别名: Masaki Taizō background: | 高宫学园的学生，与天河优人是挚友。在绯鞠转学到高宫学园后，对她产生强烈兴趣，曾试图邀请她当艺术创作的模特但被拒，后又极力劝说她参加“高宫小姐选美比赛”（他本人是组织者）。 当嵨村侑提议去天河家的私人岛屿进行周末游泳活动时，因该岛屿严格限制男性外人进入而被排除在外，感到非常沮丧。 在遇到未入学的静水久时，不仅邀请她参加选美，还在艺术考察旅行中说服她当模特。动画版中，他在咖啡馆听到静水久冰冷的声音后瞬间对她产生迷恋。 在动画中曾被土蜘蛛附身。 appearance: 整体印象: 随性且有些轻浮的普通高中男生 体型: 约170cm，普通青少年体型，略显瘦削 三围: B82/W72/H85 —（男性，推定） 面容: 五官端正，带有几分玩世不恭的神情 发: 红棕色短发，发量适中，稍显凌乱 眼: 棕色眼睛，目光时常游移（尤其在看到女性时） 鼻: 鼻梁适中 唇: 正常厚度，常带有些许狡黠的笑意 显著特征",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-6"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:沙砂",
+      "entityId": "沙砂",
+      "entityType": "characters",
+      "label": "沙砂",
+      "name": "沙砂",
+      "summary": "name: 沙砂 race: 妖怪（一本踏鞴） age: 推定12+（外观年龄） gender: 女 status: 活跃 identity: 身份: 妖怪，明夏羽的同伴，后融入人类生活 别名: ささ, Sasa background: | 本体为居住在熊野深山的一本踏鞴，独眼独脚，传说会袭击在山中迷路的人。作为明夏羽的同伴，化为人形出没于奈良县吉野和歌山县熊野一带，接近优人一行人并展开攻击。在与静水久等人的战斗中落败，且原本会被静水久杀死，但在优人使用“光渡”能力后被放过。败北后受到凛子亲切的关照，凛子带她去咖啡馆吃冰淇淋，从此逐渐展现出亲善的一面。最终保持温和态度，融入人类生活，并曾受凛子之托阻止了明夏羽和绯鞠的战斗。 appearance: 整体印象: 像小女孩一样纯真且带有些许神秘感的短发少女 体型: 约140cm(推定)，娇小稚嫩的儿童体型 三围: B70(推定)/W52(推定)/H72(推定) AA杯(推定) 面容: 略带婴儿肥的圆润脸庞，五官小巧 发: 浅粉色短发，发丝柔软，一侧刘海较长遮住右眼 眼: 仅露出左眼，琥珀色大眼，瞳孔略呈竖线状，眼神天真 鼻: 小巧扁平 唇: 樱桃小口，常带着孩童般的笑意 显著特征",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-20"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:然树",
+      "entityId": "然树",
+      "entityType": "characters",
+      "label": "然树",
+      "name": "然树",
+      "summary": "name: 然树 race: 妖怪（树妖） age: 推定数千岁 gender: 男 status: 活跃 identity: 称号: 北国妖魔统领 身份: 东北雪山妖魔的首领、领地守护者 所属: 东北雪山妖魔同盟 别名: 然爷爷 background: | 北国雪山妖魔们的统领者。本体是一棵极其庞大的古老树妖，深深扎根于北国的大地。 性格和蔼可亲，致力于维护北国妖怪与人类的相对和平。在天河优人等人在雪山遭遇幼女形态的玉藻前袭击时，他破冰而出，利用庞大的树根形成屏障挡下了狐火。 以强硬的态度警告玉藻前不得在北国放肆，成功逼退了未完全恢复的大妖。之后向优人表达了善意，并预言了即将到来的大战。 appearance: 整体印象: 充满古老神明威压与沧桑感的巨大树妖 体型: 高达数十米，极其粗壮的树干（需数人合抱） 三围: 无固定三围（非人型） 面容: 树干表面浮现出一张苍老且布满皱纹的人类老者脸庞，胡须由垂落的藤蔓组成 发: 无发，头顶是繁茂的树冠 眼: 树皮裂缝中透出深邃沉稳的光芒，不怒自威 显著特征: 庞大的体型，树干上的人脸 形态变化: 无 体香: 古老木材、冰雪与大自然的厚重气息 声线: 极其低沉、沙哑、共鸣感极强的长者",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-42"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:玉藻前",
+      "entityId": "玉藻前",
+      "entityType": "characters",
+      "label": "玉藻前",
+      "name": "玉藻前",
+      "summary": "name: 玉藻前 race: 妖狐（白面金毛九尾狐） age: 推定数千岁+ gender: 女 status: 活跃 identity: 称号: 日本三大邪恶妖怪、三国第一的大妖怪 身份: 天河优人的后宫之一 所属: 无特定所属（曾被天河优人收服并同居） 别名: 杀生石、Tama background: | 曾活跃于中国、天竺、日本三国，诳骗过中国周幽王，后渡海至日本改名玉藻前，受鸟羽上皇宠幸。 被朝廷军讨伐后化为巨大毒石「杀生石」，室町时代被玄翁和尚击碎，碎片散落各地。江户时代中期复活的碎片曾击败空须家。 在现代与绯鞠激战，导致力量大量流失而退化为幼女形态。后被天河优人收服，居住于其家中。最终成为优人的后宫之一。 appearance: 整体印象: 幼女形态看似天真无邪实则城府极深，成年形态则是倾国倾城的绝世妖姬。 体型: 幼女形态约120cm，娇小稚嫩；成年形态约170cm(推定)，高挑丰满，曲线傲人。 三围: 幼女形态B65(推定)/W50(推定)/H68(推定) A杯(推定)；成年形态B90/W60(推定)/H90(推定) G杯 面容: 幼女形态脸颊圆润，五官精致可爱；成年形态则是标准的狐媚脸，眼角上挑，勾人心魄",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-15"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:神宫寺玖惠澄",
+      "entityId": "神宫寺玖惠澄",
+      "entityType": "characters",
+      "label": "神宫寺玖惠澄",
+      "name": "神宫寺玖惠澄",
+      "summary": "name: 神宫寺玖惠澄 race: 人类 age: 16（推定，不老不死） gender: 女 status: 活跃 identity: 称号: 黄昏之月（妖怪间的称呼） 身份: 神宫寺家当家、鬼斩役、天河优人的未婚妻 所属: 神宫寺家、鬼斩役十二家 别名: Crowley's Daughter, The Second Marginal, The Smiling Cluster Bomb, Tsaogare no Tsuki background: | 鬼斩役十二家中排名最末的神宫寺家当家。因家族倾向使用西洋黑魔术而在同业中被视为异端，饱受其他家族排挤与蔑视，唯有天河家对他们平等相待。为了提升家族地位，长辈安排她与天河家继承人天河优人订下婚约。 曾赴欧洲魔法学院留学，期间为了阻止邪教释放恶魔，接触并使用了禁忌魔法书《真实之书》（Book of Truth）。因为破译过无数魔法禁书，被魔法界列为一级危险人物。在与日本三大妖怪之一酒吞童子的战斗中，为保护静水久被从背后偷袭致死，后被《真实之书》复活并成为其守护者，代价是头发变白且成为不老不死、不被允许衰老与死亡的魔女，失去了正常人类的生命与时间。 回国后，强势介入天河优人的生活",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-5"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:莉兹丽特·L·查尔斯",
+      "entityId": "莉兹丽特·L·查尔斯",
+      "entityType": "characters",
+      "label": "莉兹丽特·L·查尔斯",
+      "name": "莉兹丽特·L·查尔斯",
+      "summary": "name: 莉兹丽特·L·查尔斯 race: 付丧神（茶杯） age: 推定100+ gender: 女 status: 活跃 identity: 身份: 咖啡厅“Relish”外场服务生、优人后宫之一 所属: 咖啡厅“Relish” 别名: リズリット・L・チェルシー, Rizuritto Eru Cherushī, Lizlet L. Chelsie, 莉兹, 莉兹贝特, 莉兹丽特 background: | 原本是英国古典茶杯，漂流到日本已有百余年，受灵性滋养化身为付丧神。 本体及杯盘被咖啡厅“Relish”妥善保存，顺势在该店担任外场服务生及红茶冲泡师。 初登场时因畏惧优人作为鬼斩役的力量，试图在茶中下毒以求自保，被同在打工的绯鞠识破并引发战斗。 绯鞠找出茶杯本体却手滑险些摔碎，优人及时护住茶杯，并发表和平宣言，不仅化解了莉兹的敌意，更令她深深爱上优人，将其视为“主人”并主动加入其后宫阵容。 appearance: 整体印象: 浑身散发着英伦风情与青春活力的巨乳女仆少女 体型: 157cm，娇小丰满，曲线极为傲人（全作最大胸围记录保持者） 三围: B91/W57/H87 G杯 面容: 带有西方人特征的白皙鹅蛋脸，五官",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-4"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:酒吞童子",
+      "entityId": "酒吞童子",
+      "entityType": "characters",
+      "label": "酒吞童子",
+      "name": "酒吞童子",
+      "summary": "name: 酒吞童子 race: 鬼族/妖怪 age: 推定1000+ gender: 男 status: 活跃（被斩杀但疑似存活，处于恢复期） identity: 称号: 日本三大邪恶妖怪之一、鬼之首领 身份: 妖怪势力首领之一、复仇者 所属: 大江山（原据点）、妖怪联盟（与玉藻前合作） 别名: 鬼、大江山之鬼、Shuten-doji background: | 平安时代活跃于京都的大妖怪，以大江山为据点，统领以茨木童子为首的众多妖怪。曾多次诱拐贵族女子并残忍吞食，作恶多端。 最终遭到奉朝廷之命的源赖光及赖光四天王讨伐，在老之坂被名刀「童子切安纲」斩下头颅并封印。 在现代苏醒后，因曾被鬼斩役偷袭封印力量而怀恨在心。为了恢复全部力量并向人类复仇，选择与同样暴露出九尾狐本性的玉（白面金毛九尾狐）结成同盟。 在最终决战中与野井原绯鞠交手，再次被绯鞠使用「安纲」斩杀，但据传并未彻底死亡，仍有蛰伏的迹象。 appearance: 整体印象: 俊美邪异的古代贵公子，眼神中潜藏着极度危险的嗜血狂气 体型: 约185cm，修长挺拔，肌肉紧实而不显粗犷，典型的美男子体态 三围: B98(推定)/W76(推定)/H95(推定) —（男性，推定",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-16"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:野井原绯鞠",
+      "entityId": "野井原绯鞠",
+      "entityType": "characters",
+      "label": "野井原绯鞠",
+      "name": "野井原绯鞠",
+      "summary": "name: 野井原绯鞠 race: 猫妖 age: 16 gender: 女 status: 活跃 identity: 称号: 野井原的绯炎 身份: 天河优人的专属守护者、天河家附庸 所属: 天河家 别名: Noihara Himari, 绯鞠, 猫咪公主, 绯炎 background: | 实为效忠天河家的猫妖一族后裔。幼时由优人祖父母接纳进天河家抚养，与优人青梅竹马共同生活，后因优人搬家至东京而分离。为保护身为鬼斩役后裔的优人，她佩戴祖父母制作的护身符，导致优人对过去的记忆大半消退。 在优人16岁生日时，遵照与优人祖父的约定出现在他面前，正式担任守护者。她尝试通过频繁的肌肤之亲唤醒优人的记忆。在对抗强敌玉藻前的战役中，为获取力量彻底觉醒妖化本性并击败对方，一度陷入无差别的狂化状态，后在优人的呼唤与自身仅存的一丝理智控制下恢复正常。最终与众人和解并向优人确认了恋人关系。 appearance: 整体印象: 兼具猫的慵懒野性与大姐姐般成熟魅惑的美艳少女 体型: 157cm，曲线极致丰满，四肢纤细柔韧，极具爆发力 三围: B88/W56/H85 F杯 面容: 精致妩媚的鹅蛋脸，眼角微微上挑，带着几分狡黠与诱惑 发: 深蓝带黑的",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-1"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:银子",
+      "entityId": "银子",
+      "entityType": "characters",
+      "label": "银子",
+      "name": "银子",
+      "summary": "name: 银子 race: 妖怪（银狼妖） age: 推定数百岁+ gender: 女 status: 活跃 identity: 身份: 等待主人的银狼、天河家新客 别名: Ginko background: | 活了数百年的银狼妖。很久以前被一个名叫“马可”的人类救下，并被戴上带有锁孔的沉重项圈作为主人的证明。马可死前让她在御堂等待，她便一直等到了现代。 在野井原的深林中遇到了回乡避暑的优人，因认定优人的灵魂波长和气味就是马可的转世而激动地认主。与极其排斥她的绯鞠发生了争斗。 在优人的温柔安抚和接纳下，接受了优人并非完全是马可的事实，但依然选择将忠诚献给眼前的少年。随后跟随优人入住天河家本宅。 appearance: 整体印象: 充满野性美与悲情色彩的银发狼耳少女 体型: 约165cm(推定)，身形匀称且充满爆发力 三围: B88(推定)/W58(推定)/H86(推定) E杯(推定) 面容: 五官带着狼一般的野性与冷峻，但在面对主人时会变得极度痴迷 发: 银色碎发，深层打薄的齐肩中长发 眼: 金色眼瞳，战斗时瞳孔会变红并竖立 鼻: 鼻挺微尖 唇: 唇形饱满，常因激动而微张 显著特征: 脖子上带有锁孔的沉重金属项圈，战斗时",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-43"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:镝木兵吾",
+      "entityId": "镝木兵吾",
+      "entityType": "characters",
+      "label": "镝木兵吾",
+      "name": "镝木兵吾",
+      "summary": "name: 镝木兵吾 race: 人类 age: 推定30+ gender: 男 status: 活跃 identity: 身份: 局长、监督者、超自然现象处理者 所属: 公安警卫四部局 别名: 鏑木兵吾, Kaburagi Hyogo background: | 国家专门处理超自然现象（如妖怪）的秘密组织——公安警卫四部局的局长。 视妖怪为眼中钉，致力于消灭它们并清理战斗后的现场。 为了更高效地清理怪物，曾与大妖怪玉藻前（白面金毛九尾）和酒吞童子达成合作。 辅助并监督神宫寺玖惠澄等除妖师的行动。 appearance: 整体印象: 严肃干练，不苟言笑的国家公务员 体型: 约175cm，身形偏瘦但结实，标准的职场男性体态 三围: B90/W75/H88 —（男性，推定） 面容: 瘦削的脸型，下颌线清晰，肤色略显苍白，带有经常熬夜的疲惫感 发: 黑色短发，发丝略显凌乱，似乎无暇精心打理 眼: 狭长的眼型，黑色眼瞳，眼神犀利且充满审视的意味，常带有黑眼圈 鼻: 鼻梁挺直 唇: 薄唇，唇色较淡，经常紧抿 显著特征: 下巴有青色的胡茬，神情总是严肃紧绷 clothing: 日常: 黑色或深灰色西装套装，白色衬衫，系着颜色低调的领带。",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-9"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "characters:静水久",
+      "entityId": "静水久",
+      "entityType": "characters",
+      "label": "静水久",
+      "name": "静水久",
+      "summary": "name: 静水久 race: 妖怪（虬族/水属性妖龙） age: 推定100+ gender: 女 status: 活跃 identity: 称号: 虬 身份: 天河家食客（自称监视者）、家政妇 所属: 天河家 别名: Mizuchi, 萝莉蛇, Loli-snake, Snake background: | 虬族水属性妖龙的遗孤。过去其一族被鬼斩者之一的地走家全数消灭，因此对所有鬼斩者后裔抱有强烈的复仇执念。 最初为了在天河优人觉醒为鬼斩者前将其抹杀而来到天河家附近的山林。在突袭过程中，目睹了优人即使面对妖怪也秉持和平与不杀的善良本性。优人的态度令她大感意外，最终放弃了暗杀计划。 为了确认优人的和平宣言是否真实，她以“监视者”的名义住进天河家，实质上承担了大部分家务，成为天河优人后宫的一员。 appearance: 整体印象: 宛如刚从水中捞出的溺水儿童，带着冷漠感的水系萝莉 体型: 130cm，娇小稚嫩的幼女体型，皮肤异常苍白 三围: B60/W45/H72 AA杯（推定） 面容: 缺乏血色的小脸，五官精致但鲜有表情 发: 绿色短发，多重刘海遮蔽额头，两侧发丝修饰脸颊，发质总是湿漉漉的 眼: 亮红色杏仁眼，目光通常冷淡",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-3"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:世界知识",
+      "entityId": "世界知识",
+      "entityType": "abilities",
+      "label": "世界知识",
+      "name": "世界知识",
+      "summary": "<world_knowledge> <鬼斩役十二家完整谱系> 第壹位 土御门家 —— 阴阳术。最古老的鬼斩役家族，实质上的鬼斩役统领。当代代理当家土御门爱路为眼镜青年，初期对优人持怀疑态度，后被其信念打动。 第貳位 上樱家 —— 灵符咒术与古代封印术。曾为十二家中与天河家最亲近的一家。为保护幼年优人制作了封印护符。在大战后自行封印所有力量并销声匿迹，现下落不明。 第參位 各务森家 —— 古神道镜守术式封魔法。以封印而非消灭为理念。当代当家各务森飞白(18岁)为拥有「兽之眼」（异色瞳）的巫女，实力强劲曾与绯鞠战平。其妹飞铃为重度姐控。 第肆位 弧月镜家 —— 咒杀术与医疗术。在古代大战中远征德国时全灭。 第伍位 宝条家 —— 电磁波操作（旧称「雷法师」）。昭和时代因不明爆炸全家灭亡。 第陸位 天河家 —— 光渡。仅存优人一人。男性继承。因与妖怪共存而受其他家族歧视。 第柒位 空须家 —— 剑术退魔。江户中期被九尾狐灭族。 第捌位 地走家 —— 大地之力/超怪力。百年前灭掉静水久的虬族。本家在战争中覆灭，旁系残存（三雁兰华）。兰华的力量被上樱家封印，现为普通大学生。 第玖位 火群家 —— 火焰操纵。与弧月镜家一同远征德国时全灭。",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-51"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "abilities:世界蓝图",
+      "entityId": "世界蓝图",
+      "entityType": "abilities",
+      "label": "世界蓝图",
+      "name": "世界蓝图",
+      "summary": "<world_blueprint> <geography> 故事主舞台为日本关东地区虚构卫星城市「高宫市伊理谷町」。附近有优人就读的「桐陵学园高校」。优人的出生地「野井原」为远离都市的乡下，天河家本宅所在地。东京等其他都市偶尔出现。玖惠澄的洋馆位于学园附近的山上。Cafe Relish为莉兹丽特工作的女仆咖啡厅。 </geography> <factions> <鬼斩役十二家现存五家> - 土御门家(第壹位)：阴阳术，鬼斩役实质统领 - 各务森家(第參位)：镜守封魔术，巫女姐妹当家 - 天河家(第陸位)：光渡，仅优人一人 - 夜光院家(拾壹位)：超高速思考，侦探少女当家 - 神宫寺家(拾貳位)：西洋黑魔术，玖惠澄当家 </鬼斩役十二家现存五家> <公安警卫四部局> 政府秘密部门，专门处理妖怪相关事件。镝木兵吾在现场指挥。负责为鬼斩役提供后方支持与情报。 </公安警卫四部局> <玉藻前势力> 以白面金毛九尾狐玉藻前为首，包括酒吞童子等高级妖怪。其下属包括恵香（天井下）、黑樱（女郎蜘蛛）等。目标是恢复妖怪对人类的支配。被击败后玉藻前精神退化住入优人家。 </玉藻前势力> <东北妖怪势力> 以然树（おしら様）为首的东北地区妖怪。与",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-49"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    },
+    {
+      "id": "events:章节列表",
+      "entityId": "章节列表",
+      "entityType": "events",
+      "label": "<章节列表>",
+      "name": "<章节列表>",
+      "summary": "<章节列表> 第一章 妖猫的觉醒与命运之绊 第二章 潜伏的杀机与波光中的水妖 第三章 红茶的香气与付丧神的告白 第四章 山林中的夜魔姬与母亲的面容 第五章 鬼斩役的追杀与雨夜的决意 第六章 银狼的等待与野井原的回忆 第七章 魔女的夜袭与婚约的冲击 第八章 染血的洋馆与狂乱的猫咪 第九章 复仇的女鬼与后天之妖 第十章 少女探侦的凝视与鬼斩役的暗影 第十一章 九尾的幼女与虚假的日常 第十二章 雪山的遭遇与冰火的交锋 第十三章 妖姬的苏醒与狂化的深渊 第十四章 深层心理的救赎与群妖的共鸣 第十五章 斩破混沌的光芒与守护的誓约 </章节列表>",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-39"
+      ],
+      "canonStatus": "adapted/worldbook-backed"
+    }
+  ],
+  "edges": [
+    {
+      "source": "characters:三雁兰华",
+      "target": "characters:神宫寺玖惠澄",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "神宫寺玖惠澄",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-13"
+      ],
+      "id": "edge-1",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:三雁兰华",
+      "target": "characters:静水久",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "静水久",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-13"
+      ],
+      "id": "edge-2",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:世界总纲",
+      "target": "characters:土御门",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "土御门",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-44"
+      ],
+      "id": "edge-3",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:九崎凛子",
+      "target": "characters:天河优人",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "天河优人",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-2"
+      ],
+      "id": "edge-4",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:加耶",
+      "target": "characters:天河优人",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "天河优人",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-17"
+      ],
+      "id": "edge-5",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:加耶",
+      "target": "characters:野井原绯鞠",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "野井原绯鞠",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-17"
+      ],
+      "id": "edge-6",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:各务森飞白",
+      "target": "characters:天河优人",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "天河优人",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-12"
+      ],
+      "id": "edge-7",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:土御门",
+      "target": "characters:天河优人",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "天河优人",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-10"
+      ],
+      "id": "edge-8",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:夜光院柩",
+      "target": "characters:天河优人",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "天河优人",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-14"
+      ],
+      "id": "edge-9",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:夜光院柩",
+      "target": "characters:神宫寺玖惠澄",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "神宫寺玖惠澄",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-14"
+      ],
+      "id": "edge-10",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:夜光院柩",
+      "target": "characters:野井原绯鞠",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "野井原绯鞠",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-14"
+      ],
+      "id": "edge-11",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:夜魔姬",
+      "target": "characters:天河优人",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "天河优人",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-40"
+      ],
+      "id": "edge-12",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:大太法师",
+      "target": "characters:明夏羽",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "明夏羽",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-21"
+      ],
+      "id": "edge-13",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:天河优人",
+      "target": "characters:九崎凛子",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "九崎凛子",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-0"
+      ],
+      "id": "edge-14",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:如月冴",
+      "target": "characters:九崎凛子",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "九崎凛子",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-8"
+      ],
+      "id": "edge-15",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:如月冴",
+      "target": "characters:天河优人",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "天河优人",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-8"
+      ],
+      "id": "edge-16",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:小冬",
+      "target": "characters:九崎凛子",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "九崎凛子",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-23"
+      ],
+      "id": "edge-17",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:小冬",
+      "target": "characters:天河优人",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "天河优人",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-23"
+      ],
+      "id": "edge-18",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:小冬",
+      "target": "characters:玉藻前",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "玉藻前",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-23"
+      ],
+      "id": "edge-19",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:小冬",
+      "target": "characters:野井原绯鞠",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "野井原绯鞠",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-23"
+      ],
+      "id": "edge-20",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:嶋村有",
+      "target": "characters:加耶",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "加耶",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-7"
+      ],
+      "id": "edge-21",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:嶋村有",
+      "target": "characters:玉藻前",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "玉藻前",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-7"
+      ],
+      "id": "edge-22",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:影月",
+      "target": "characters:天河优人",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "天河优人",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-22"
+      ],
+      "id": "edge-23",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:影月",
+      "target": "characters:静水久",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "静水久",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-22"
+      ],
+      "id": "edge-24",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:文-あや",
+      "target": "characters:加耶",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "加耶",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-18"
+      ],
+      "id": "edge-25",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:文-あや",
+      "target": "characters:天河优人",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "天河优人",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-18"
+      ],
+      "id": "edge-26",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:明夏羽",
+      "target": "characters:天河优人",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "天河优人",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-19"
+      ],
+      "id": "edge-27",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:明夏羽",
+      "target": "characters:玉藻前",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "玉藻前",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-19"
+      ],
+      "id": "edge-28",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:明夏羽",
+      "target": "characters:静水久",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "静水久",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-19"
+      ],
+      "id": "edge-29",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:柾木泰三",
+      "target": "characters:天河优人",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "天河优人",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-6"
+      ],
+      "id": "edge-30",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:柾木泰三",
+      "target": "characters:静水久",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "静水久",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-6"
+      ],
+      "id": "edge-31",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:沙砂",
+      "target": "characters:明夏羽",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "明夏羽",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-20"
+      ],
+      "id": "edge-32",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:沙砂",
+      "target": "characters:静水久",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "静水久",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-20"
+      ],
+      "id": "edge-33",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:然树",
+      "target": "characters:天河优人",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "天河优人",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-42"
+      ],
+      "id": "edge-34",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:然树",
+      "target": "characters:玉藻前",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "玉藻前",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-42"
+      ],
+      "id": "edge-35",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:玉藻前",
+      "target": "characters:天河优人",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "天河优人",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-15"
+      ],
+      "id": "edge-36",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:神宫寺玖惠澄",
+      "target": "characters:天河优人",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "天河优人",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-5"
+      ],
+      "id": "edge-37",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:神宫寺玖惠澄",
+      "target": "characters:酒吞童子",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "酒吞童子",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-5"
+      ],
+      "id": "edge-38",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:神宫寺玖惠澄",
+      "target": "characters:静水久",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "静水久",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-5"
+      ],
+      "id": "edge-39",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:酒吞童子",
+      "target": "characters:玉藻前",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "玉藻前",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-16"
+      ],
+      "id": "edge-40",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:酒吞童子",
+      "target": "characters:野井原绯鞠",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "野井原绯鞠",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-16"
+      ],
+      "id": "edge-41",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:野井原绯鞠",
+      "target": "characters:天河优人",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "天河优人",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-1"
+      ],
+      "id": "edge-42",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:野井原绯鞠",
+      "target": "characters:玉藻前",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "玉藻前",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-1"
+      ],
+      "id": "edge-43",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:镝木兵吾",
+      "target": "characters:玉藻前",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "玉藻前",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-9"
+      ],
+      "id": "edge-44",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:镝木兵吾",
+      "target": "characters:神宫寺玖惠澄",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "神宫寺玖惠澄",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-9"
+      ],
+      "id": "edge-45",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:镝木兵吾",
+      "target": "characters:酒吞童子",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "酒吞童子",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-9"
+      ],
+      "id": "edge-46",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "characters:静水久",
+      "target": "characters:天河优人",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "天河优人",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-3"
+      ],
+      "id": "edge-47",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "events:章节列表",
+      "target": "characters:夜魔姬",
+      "sourceEntityType": "events",
+      "targetEntityType": "characters",
+      "predicate": "events-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "夜魔姬",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-39"
+      ],
+      "id": "edge-48",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:世界知识",
+      "target": "characters:三雁兰华",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "三雁兰华",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-51"
+      ],
+      "id": "edge-49",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:世界知识",
+      "target": "characters:各务森飞白",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "各务森飞白",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-51"
+      ],
+      "id": "edge-50",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:世界知识",
+      "target": "characters:土御门",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "土御门",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-51"
+      ],
+      "id": "edge-51",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:世界知识",
+      "target": "characters:静水久",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "静水久",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-51"
+      ],
+      "id": "edge-52",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:世界蓝图",
+      "target": "characters:土御门",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "土御门",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-49"
+      ],
+      "id": "edge-53",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:世界蓝图",
+      "target": "characters:然树",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "然树",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-49"
+      ],
+      "id": "edge-54",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:世界蓝图",
+      "target": "characters:玉藻前",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "玉藻前",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-49"
+      ],
+      "id": "edge-55",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:世界蓝图",
+      "target": "characters:酒吞童子",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "酒吞童子",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-49"
+      ],
+      "id": "edge-56",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    },
+    {
+      "source": "abilities:世界蓝图",
+      "target": "characters:镝木兵吾",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "镝木兵吾",
+      "sourceRefs": [
+        "mnfj_card.worldbook.json#entry-49"
+      ],
+      "id": "edge-57",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact."
+    }
+  ]
+}

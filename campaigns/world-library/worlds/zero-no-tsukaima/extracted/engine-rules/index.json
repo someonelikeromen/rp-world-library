@@ -1,0 +1,34 @@
+{
+  "schema": "zero-no-tsukaima-engine-rules-index-v1",
+  "worldId": "zero-no-tsukaima",
+  "recordFamily": "engine-rules",
+  "count": 2,
+  "records": [
+    {
+      "id": "char-NPC-状态栏",
+      "name": "{{char/NPC}}状态栏,",
+      "aliases": [],
+      "summary": "最多输出2个状态栏,禁止输出超过2个{{char/NPC}}状态栏,禁止输出男性的状态栏: 1.[Status]里每个项目的内容必须用中文显示; 2.即使内容不变也不可以省略，必须输出的完整状态栏; 3.禁止输出男性的状态栏,只能输出女性的状态栏; 4.字数不能超过200; 5.<status_format>内禁止输出{{user}}的状态，不在{{user}}身边的{{char/NPC}}状态栏，除非{{user}}有明确要求切换视角; 6.必须在每次回复的结尾生成<status_format>，它的格式必须是这样的： <status_format> [must analyze the status of {{char}} or NPC, output the followings within code block,不需要生成{{user}}的状态] <StatusBlocks> 👤 {{character name,中文输出}} {{gender,中文输出}} {{身高cm}} {{age,年龄}} {{class,中文输出}} {{color of skin and race and country,中文输出}}",
+      "sourceRefs": [
+        "零之使魔.worldbook.json#entry-20"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "格式",
+      "name": "格式",
+      "aliases": [
+        "格式"
+      ],
+      "summary": "Format Explanation (Revised): 2.<content>: Purpose: Delivers the main narrative body of the response, encompassing the temporal context, descriptions, actions, dialogue, and potentially internal thoughts or observations. Content: Must begin immediately with the <time> tag. Followed by the primary textual interaction. This describes the environment, what characters (including NPCs and potentially {{user}}'s narrated actions/perceptions) are doing and saying. It can be structured with separators to denote shifts in f",
+      "sourceRefs": [
+        "零之使魔.worldbook.json#entry-19"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ]
+}

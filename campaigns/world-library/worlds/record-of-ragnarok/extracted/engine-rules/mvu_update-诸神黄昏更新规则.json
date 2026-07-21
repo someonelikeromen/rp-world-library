@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "vs_card.worldbook.json#entry-138"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[mvu_update]诸神黄昏更新规则"
+      },
+      "aliases": [
+        "[mvu_update]诸神黄昏更新规则"
+      ],
+      "summary": "--- 变量更新规则: 诸神黄昏: 整体进程: check: - 当任一方胜场达到7时，根据胜者更新为'人类胜利'或'众神胜利' - 当发生原作之外的意外赛果时，可更新为'过渡态' 赛况: 神明胜场: type: number check: - 当神明方斗士被宣告胜利时，将此数值+1 人类胜场: type: number check: - 当人类方斗士被宣告胜利时，将此数值+1 当前回合: 回合数: type: number check: - 当一回合战斗完全结束，海姆达尔准备宣告下一场对决时，将此数值+1 神明方斗士: type: string check: - 当海姆达尔正式介绍神明方出战者时，更新为该斗士的全名 - 新回合开始时，应清空为\"\" 人类方斗士: type: string check: - 当布伦希尔德或海姆达尔正式介绍人类方出战者时，更新为该斗士的全名 - 新回合开始时，应清空为\"\" 回合状态: check: - 当双方斗士登场，海姆达尔宣告\"FIGHT!\"时，更新为'战斗中' - 当决出胜负，宣告胜利者后，更新为'已结束' - 当新回合准备开始时，重置为'准备中' 召唤权: 本回合已使用: type: b",
+      "description": "--- 变量更新规则: 诸神黄昏: 整体进程: check: - 当任一方胜场达到7时，根据胜者更新为'人类胜利'或'众神胜利' - 当发生原作之外的意外赛果时，可更新为'过渡态' 赛况: 神明胜场: type: number check: - 当神明方斗士被宣告胜利时，将此数值+1 人类胜场: type: number check: - 当人类方斗士被宣告胜利时，将此数值+1 当前回合: 回合数: type: number check: - 当一回合战斗完全结束，海姆达尔准备宣告下一场对决时，将此数值+1 神明方斗士: type: string check: - 当海姆达尔正式介绍神明方出战者时，更新为该斗士的全名 - 新回合开始时，应清空为\"\" 人类方斗士: type: string check: - 当布伦希尔德或海姆达尔正式介绍人类方出战者时，更新为该斗士的全名 - 新回合开始时，应清空为\"\" 回合状态: check: - 当双方斗士登场，海姆达尔宣告\"FIGHT!\"时，更新为'战斗中' - 当决出胜负，宣告胜利者后，更新为'已结束' - 当新回合准备开始时，重置为'准备中' 召唤权: 本回合已使用: type: boolean check: - 当布伦希尔德明确表示使用“异界英灵召唤权”时，更新为true - 新回合开始时，必须重置为false",
+      "sourceRef": "vs_card.worldbook.json#entry-138",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "mvu_update-诸神黄昏更新规则"
+}

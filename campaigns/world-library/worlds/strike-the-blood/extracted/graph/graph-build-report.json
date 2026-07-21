@@ -1,0 +1,33 @@
+{
+  "schema": "strike-the-blood-graph-build-report-v1",
+  "worldId": "strike-the-blood",
+  "status": "completed",
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "validation": {
+    "jsonValid": true,
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "newFactsIntroduced": false,
+    "forbiddenBasenamesGenerated": false
+  },
+  "counts": {
+    "nodes": 139,
+    "edges": 233,
+    "nodeCounts": {
+      "characters": 6,
+      "abilities": 66,
+      "factions": 22,
+      "locations": 10,
+      "events": 4,
+      "systems": 1,
+      "knowledge": 30
+    },
+    "edgeCounts": {
+      "derived-text-mention": 233
+    },
+    "derivedMentionEdges": 233
+  },
+  "warnings": [
+    "Derived graph edges are navigation/search signals, not formal relationship facts."
+  ]
+}

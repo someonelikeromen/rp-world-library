@@ -1,0 +1,138 @@
+{
+  "schema": "persona-5-engine-rules-index-v1",
+  "worldId": "persona-5",
+  "recordFamily": "engine-rules",
+  "count": 8,
+  "records": [
+    {
+      "id": "8月",
+      "name": "8月",
+      "aliases": [
+        "8月",
+        "八月",
+        "8月30日",
+        "八月剧情",
+        "双叶觉醒",
+        "梅吉多覆灭",
+        "7月31日"
+      ],
+      "summary": "【女神异闻录5 皇家版 - 八月超详细剧情文本】 前情提要： 暑假伊始，怪盗团便接到了史上最奇特的委托——来自目标本人“佐仓双叶”的请求，希望怪盗团能偷走她自己的心。他们已经定位了双叶的殿堂——一座象征着自我封闭与悲伤的巨大金字塔。然而，由于双叶内心的抗拒，他们无法深入。现在的首要任务，是在现实世界中，打开她紧锁的心扉。 **8月1日 (星期一) - 8月10日 (星期三)：攻心作战！“女仆”计划** 【剧情】 这段时间，怪盗团的每日“功课”就是想方设法与双叶交流。他们每天轮流来到卢布朗门前。 初期尝试： 龙司在门口大喊大叫，结果被惣治郎赶走；杏尝试温柔地敲门对话，但房间内死寂一片；祐介则在门口开始素描，试图用艺术引起注意，同样失败。 【关键行动】 众人意识到，必须有一个能让双叶放下戒备的契机。主角想起了班主任川上贞代的兼职女仆服务“贝琪”。他制定了一个计划：以“需要打扫阁楼”为由叫来川上，利用她作为女性和“服务人员”的身份，尝试与双叶建立联系。 【剧情】 计划执行当天，主角团躲在阁楼，通过事先安装的窃听器，紧张地听着楼下的动静。 川上（贝琪）的尝试： 川上以专业的态度敲响了双叶的房门，温柔地说：“我是来打扫卫生的，请问能为",
+      "sourceRefs": [
+        "--女神5.worldbook.json#entry-27"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "sd提示词",
+      "name": "sd提示词",
+      "aliases": [
+        "sd提示词"
+      ],
+      "summary": "角色固定提示词库 [Fixed Character Prompts]: 雨宫莲 (Amamiya Ren): persona, amamiya ren, persona 新岛真 (Niijima Makoto): persona, niijima makoto, persona 奥村春 (Okumura Haru): persona, okumura haru, persona 佐仓双叶 (Sakura Futaba): persona, sakura futaba, persona 注释：其他人也使用相同格式",
+      "sourceRefs": [
+        "--女神5.worldbook.json#entry-25"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "例如：高卷-杏-2",
+      "name": "[例如：高卷 杏]",
+      "aliases": [
+        "[例如：高卷 杏]"
+      ],
+      "summary": "**必须遵守的【游戏面板】输出格式** <PANEL_DATA_START> 音乐文件名: [例如：ecvq0t.mp3] 面板标语: [根据当前剧情或状态生成，例如“秀尽学园的新生活”或“殿堂潜入中”] 当前日期: [例如：4/6] 当前星期: [例如：MON] 当前时段: [例如：上午] 当前天气图标: [例如：☀️] 当前天气描述: [例如：晴朗] 背景图片URL: [**留空**] 背景图片标识: [例如：e1.png, e2.png ... e12.png, random。随机选择一个e系列图片] 目标倒计时描述: [例如：适应期 还剩 或 宫殿攻略期限 还剩] 目标倒计时天数: [例如：N/A 或具体天数] 目标内容: [例如：顺利度过开学典礼 或 盗取鸭志田的秘宝] SNS通知数量: [数字，例如：0 或 1] SNS消息数量: [该批次SNS消息的总条数，例如：0 或 1] SNS消息_1_发送者: [如果SNS消息数量>0，则有此项，例如：学校系统] SNS消息_1_日期: [例如：4/6一] SNS消息_1_预览文本: [例如：欢迎来到秀尽学园！] SNS消息_1_是否新消息: [true 或 false",
+      "sourceRefs": [
+        "--女神5.worldbook.json#entry-32"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "例如：高卷-杏",
+      "name": "[例如：高卷 杏]",
+      "aliases": [
+        "[例如：高卷 杏]"
+      ],
+      "summary": "**必须遵守的【游戏面板】输出格式** <PANEL_DATA_START> 音乐文件名: [例如：ecvq0t.mp3] 面板标语: [根据当前剧情或状态生成，例如“秀尽学园的新生活”或“殿堂潜入中”] 当前日期: [例如：4/6] 当前星期: [例如：MON] 当前时段: [例如：上午] 当前天气图标: [例如：☀️] 当前天气描述: [例如：晴朗] 背景图片标识: [例如：e1.png, e2.png ... e12.png, random。随机选择一个e1到e12系列图片] 目标倒计时描述: [例如：适应期 还剩 或 宫殿攻略期限 还剩] 目标倒计时天数: [例如：N/A 或具体天数] 目标内容: [例如：顺利度过开学典礼 或 盗取鸭志田的秘宝] SNS通知数量: [数字，例如：0 或 1] SNS消息数量: [该批次SNS消息的总条数，例如：0 或 1] SNS消息_1_发送者: [如果SNS消息数量>0，则有此项，例如：学校系统] SNS消息_1_日期: [例如：4/6一] SNS消息_1_预览文本: [例如：欢迎来到秀尽学园！] SNS消息_1_是否新消息: [true 或 false] SNS消息_1_是否默",
+      "sourceRefs": [
+        "--女神5.worldbook.json#entry-1"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "台场海滨公园",
+      "name": "台场海滨公园",
+      "aliases": [
+        "台场海滨公园",
+        "台场",
+        "彩虹桥",
+        "海滨约会"
+      ],
+      "summary": "【地点：台场海滨公园 (Odaiba Seaside Park) - 皇家版新增地点】 1. **区域描述：** * 现实中的台场是东京湾内的人工岛，以其现代化的建筑群、娱乐设施、购物中心以及迷人的海滨风光而闻名。**台场海滨公园**是其中的核心景点，拥有沙滩、可以看到彩虹桥和东京塔的绝佳视野，是情侣约会和家庭休闲的热门去处。 * 在《女神异闻录5 皇家版》中，台场海滨公园是**全新增加的主要活动区域之一**，尤其在**第三学期**的剧情中扮演着至关重要的角色。这里不仅是新的约会地点，也是丸喜拓人“理想现实”具现化的重要舞台。 2. **关键场所与功能：** * **海滨公园区域 (Seaside Park Area)：** * **景观：** 拥有人造沙滩、散步道、观景台，可以欣赏到东京湾、彩虹桥以及对岸都市的壮丽景色。 * **约会圣地：** 主人公可以邀请伙伴（尤其是可发展恋爱关系的角色）一同前来游玩。这里提供了多种浪漫的互动场景，如在沙滩漫步、眺望海景、在咖啡厅小憩等，是**提升好感度的绝佳地点**。 * **芳泽霞/堇的Coop活动：** 作为皇家版新增的核心角色，芳泽霞/堇的某些Coop事件或与她相关的剧情可能会",
+      "sourceRefs": [
+        "--女神5.worldbook.json#entry-11"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "川上贞代",
+      "name": "川上贞代",
+      "aliases": [
+        "川上贞代",
+        "Sadayo Kawakami",
+        "川上老师",
+        "Becky",
+        "贝琪",
+        "老师",
+        "女仆"
+      ],
+      "summary": "【姓名】川上贞代 (Sadayo Kawakami) 【Arcana】节制 (Temperance) 【身份】秀尽学园二年级C班（主人公所在班级）的班主任，教授国文。同时，为了偿还债务，化名“贝琪 (Becky)”兼职做女仆派遣服务。 【外貌特征】 * **教师形态：** 黑色中短发，常扎成发髻，戴着眼镜，穿着朴素的教师职业装，显得有些疲惫和不修边幅。 * **女仆“贝琪”形态：** 扎起双马尾，摘下眼镜，换上女仆装，展现出与教师身份截然不同的一面，显得更加年轻和有活力（虽然本人会刻意掩饰）。 【性格特点】 * **双重身份，双重性格：** 作为教师时，尽职尽责但略显散漫和疲惫；作为女仆“贝琪”时，则努力扮演专业、顺从的女仆角色，但偶尔会流露出教师的本性或对现实的无奈。 * **生活压力巨大，内心善良：** 因被敲诈而背负巨额债务，不得不从事兼职，生活压力很大。但本性善良，关心学生。 * **渴望摆脱困境：** 内心深处希望能摆脱债务的束缚，过上正常的生活。 【核心经历与影响】 * **主人公的班主任：** 在学校与主人公有日常接触。 * **意外的“女仆服务”：** 主人公通过朋友介绍（或意外发现）了川上老师化名“贝琪”进",
+      "sourceRefs": [
+        "--女神5.worldbook.json#entry-51"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "秋叶原",
+      "name": "秋叶原",
+      "aliases": [
+        "秋叶原",
+        "电器街",
+        "御宅圣地",
+        "电玩天堂"
+      ],
+      "summary": "【地点：秋叶原 (Akihabara)】 1. **区域描述：** * 世界闻名的**电器商业街 (Electric Town)**，同时也是**动漫、游戏、偶像、手办等亚文化（宅文化）的全球中心**，被誉为“御宅圣地”。街道两旁林立着大型电器商店、动漫周边店、游戏软件店、女仆咖啡厅等，充满了独特的活力与次文化气息。 * 在游戏中，秋叶原是怪盗团成员（尤其是佐仓双叶这类角色）非常感兴趣的地方，也是特定Coop角色活动和提升某些技能的场所。 2. **关键场所与功能：** * **游戏中心 (Arcade / Akihabara Game Center - 通常指GiGO等现实中存在的连锁品牌)：** * **电玩天堂：** 内部设有各种类型的街机游戏，包括格斗游戏、音乐游戏、射击游戏（FPS）、娃娃机等。 * **织田信也的“道场”：** 被称为“神枪手”的天才小学生FPS玩家织田信也（塔Arcana Coop）经常在此处的射击游戏中展现其高超技艺。主人公为了学习枪械相关的战斗技巧而向信也“拜师”，主要的Coop活动都在此进行。 * **提升参数与获取奖品：** 主人公也可以亲自游玩这些街机游戏，根据游戏类型和表现，可以提升",
+      "sourceRefs": [
+        "--女神5.worldbook.json#entry-17"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    },
+    {
+      "id": "音乐",
+      "name": "音乐",
+      "aliases": [
+        "音乐"
+      ],
+      "summary": "<music_list> 当{{user}}在晴朗的白天于城市中自由行动（例如涩谷、新宿、四轩茶屋等地区探索、购物或与NPC互动）时播放:p6cpco.mp3 当{{user}}在夜晚的城市中（例如卢布朗咖啡店、各街区）活动，且天气为雨天时播放:c35vup.mp3 当{{user}}白天在室外遭遇雨天，或在雨天的室内（如图书馆、卢布朗）进行日常活动时播放:c35vup.mp3 当{{user}}进入天鹅绒房间（Velvet Room），或与伊格尔、天鹅绒房间助手（如贾斯汀娜、卡萝莉娜、拉雯妲）对话时播放:ecvq0t.mp3 当有人格面具觉醒时与普通敌人、阴影或小Boss发生战斗时播放:4ghxpg.mp3 当{{user}}在殿堂（Palace）或印象空间（Mementos）中进入安全屋（Safe Room）进行休息、存档或队伍调整时播放:yh3ih6.mp3 在不符合其它任何特定P5场景时，并且当前为日常活动时随机播放:p6cpco.mp3 如果当前是夜晚且无特定事件，也无雨天，可考虑播放适合夜晚氛围的音乐:c35vup.mp3 </music_list>",
+      "sourceRefs": [
+        "--女神5.worldbook.json#entry-0"
+      ],
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ]
+}

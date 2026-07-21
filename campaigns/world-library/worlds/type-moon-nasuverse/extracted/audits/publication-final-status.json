@@ -1,0 +1,103 @@
+{
+  "schema": "tm-nasuverse-extracted-publication-final-status-v1",
+  "worldId": "type-moon-nasuverse",
+  "layer": "extracted",
+  "status": "passed-with-nonblocking-risks",
+  "publishedAt": "2026-07-20",
+  "publicationMode": "source-linked-indexes-with-representative-shards",
+  "sourceRoot": "campaigns/world-library/manual-curation/type-moon-p1-hybrid/",
+  "destinationRoot": "campaigns/world-library/worlds/type-moon-nasuverse/extracted/",
+  "formalPublishedPilots": [
+    "fsn-fz-pilot",
+    "fgo-script-pilot",
+    "fgo-eor-pilot",
+    "fgo-lb1-lb2-pilot",
+    "fgo-lb3-lb4-pilot",
+    "fgo-lb5-pilot",
+    "fgo-lb6-pilot",
+    "fgo-ordeal-call-pilot",
+    "kara-no-kyoukai-profile-supplement-pilot",
+    "prisma-illya-profile-supplement-pilot",
+    "lb6-fairy-calendar-supplement-pilot",
+    "type-moon-core-general-settings-pilot"
+  ],
+  "heldOrInventoryOnlyPilots": [
+    {
+      "pilotId": "fate-spinoff-profile-supplement-pilot",
+      "decision": "source-gap-inventory-only",
+      "reason": "blocked-insufficient-source"
+    },
+    {
+      "pilotId": "tsukihime-supporting-cast-candidate-supplement-pilot",
+      "decision": "candidate-only-source-gap-only",
+      "reason": "terminal candidate supplement creates no formal facts"
+    },
+    {
+      "pilotId": "tsukihime-dead-apostle-profile-supplement-pilot",
+      "decision": "hold-from-formal-publication",
+      "reason": "pilot-local final status remains merge-generated-pending-audit / not-published pending separate read-only final audit"
+    },
+    {
+      "pilotId": "mahoyo-profile-supplement-pilot",
+      "decision": "hold-from-formal-publication",
+      "reason": "pilot-local status remains fixer-retry-completed-pending-auditor-rerun / not-published"
+    }
+  ],
+  "requiredFilesPresent": true,
+  "jsonValidation": {
+    "tool": "node JSON.parse over manual-curation + extracted JSON files",
+    "jsonFiles": 2791,
+    "badCount": 0
+  },
+  "forbiddenBasenameValidation": {
+    "scope": "campaigns/world-library/worlds/type-moon-nasuverse/extracted/",
+    "forbiddenBasenames": ["characters.json", "events.json", "relationships.json", "facts.json", "graph.json", "timeline.json"],
+    "matches": []
+  },
+  "guardrails": {
+    "rawImportsModified": false,
+    "oldCuratedModified": false,
+    "candidateOnlyPromotedToFormalFacts": false,
+    "sourceGapPromotedToFormalFacts": false,
+    "graphTimelineDerivedOnly": true,
+    "forbiddenBasenamesCreatedInExtractedLayer": false
+  },
+  "statusReconciliation": {
+    "mahoyo": "reconciled as held/not-published pending read-only auditor rerun",
+    "tsukihimeDeadApostle": "reconciled as held/not-published pending separate final audit",
+    "evidence": [
+      "audits/status-reconciliation-r10.md",
+      "campaigns/world-library/manual-curation/type-moon-p1-hybrid/STATUS.md",
+      "campaigns/world-library/manual-curation/type-moon-p1-hybrid/mahoyo-profile-supplement-pilot/STATUS.md",
+      "campaigns/world-library/manual-curation/type-moon-p1-hybrid/tsukihime-dead-apostle-profile-supplement-pilot/STATUS.md"
+    ]
+  },
+  "indexes": {
+    "manifest": "manifest.json",
+    "sources": "sources/index.json",
+    "characters": "characters/index.json",
+    "events": "events/index.json",
+    "relationships": "relationships/index.json",
+    "rules": "rules/index.json",
+    "locations": "locations/index.json",
+    "abilities": "abilities/index.json",
+    "organizations": "organizations/index.json",
+    "items": "items/index.json",
+    "timelines": "timelines/derived-timeline-index.json",
+    "graphEntity": "graph/derived-entity-graph.json",
+    "graphRelationships": "graph/derived-relationship-index.json",
+    "graphContinuity": "graph/derived-continuity-index.json",
+    "graphBuildReport": "graph/graph-build-report.json",
+    "candidates": "candidates/index.json",
+    "sourceGaps": "source-gaps/index.json"
+  },
+  "nonblockingRisks": [
+    "Publication uses source-linked indexes and representative shard records rather than fully copying every detailed accepted artifact.",
+    "Source layer is p1-hybrid/manual-curation and local worldbook/import-backed, not a replacement for old curated or primary canon.",
+    "Mahoyo and Tsukihime Dead Apostle remain held/not-published until their required final auditor gates pass.",
+    "Fate spinoff remains blocked-insufficient-source inventory-only.",
+    "Candidate-only and source-gap boundaries must stay excluded from default formal retrieval."
+  ],
+  "canUseAsPiExtractedLayer": true,
+  "canReplaceCurated": false
+}

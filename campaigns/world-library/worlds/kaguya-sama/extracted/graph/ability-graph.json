@@ -1,0 +1,110 @@
+{
+  "schema": "compatible-ability-graph-v1",
+  "worldId": "kaguya-sama",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "abilities": [
+    {
+      "id": "status-s-S-当前位置-^-n-四宫家本邸-s-S-status-s",
+      "entityId": "status-s-S-当前位置-^-n-四宫家本邸-s-S-status-s",
+      "entityType": "abilities",
+      "label": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(四宫家本邸)[\\s\\S]*?<\\/status>/s",
+      "name": "/<status>[\\s\\S]*?当前位置:[^\\n<]*(四宫家本邸)[\\s\\S]*?<\\/status>/s",
+      "summary": "<地点:四宫家本邸> 介绍：占地面积广阔的豪华庄园。外围被高墙和严密的安保系统环绕，大门处有守卫全天值守。内部建筑融合了日式传统宅邸与西式洋房的风格。主楼大厅挑高极高，铺设有红地毯和华丽的水晶吊灯。庄园内包含修剪整齐的巨大日式庭院、人工湖、树林以及佣人们居住的附属建筑。大小姐的私人房间宽敞且装潢考究，配有顶级的家具与大床。 </地点:四宫家本邸>",
+      "sourceRefs": [
+        "hydxj_card.worldbook.json#entry-7"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:status-s-S-当前位置-^-n-四宫家本邸-s-S-status-s",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "时间线-第一季-中-多选一",
+      "entityId": "时间线-第一季-中-多选一",
+      "entityType": "abilities",
+      "label": "时间线-第一季-中(多选一)",
+      "name": "时间线-第一季-中(多选一)",
+      "summary": "<world_timeline> -事件A: 辉夜大小姐想完成任务 (2015年6月12日): 渚拜访辉夜寻求恋爱建议·希望能和翼分手·辉夜内心纠结因为自己没经验·但因为白银做过所以强迫自己接下·渚解释因为被告白而交往但双方一直保持距离·为了解关系辉夜询问翼的优点·并给出了一些让她联想到白银的特质·辉夜回过神后慌乱掩饰继续声称“关注优点击能培养爱”(谎称听熟人说的)·恋爱侦探千花闯入对话·要求渚想象翼和其他女人的场景(辉夜也对白银进行了同样想象)·两女反应分别变得阴郁和烦躁·千花宣称情感嫉妒越深爱意越大·辉夜为了不被冷落提出了“罗密欧与朱丽叶效应”(障碍促进爱情)·千花指出他们没有障碍所以社会就是他们的敌人·随后千花发表了关于社会现状的格言·深受鼓舞的渚跑去找翼共同对抗社会·千花向不安的辉夜保证一切都会好起来·结果证明翼和渚带着三个孩子在市中心收集捐款·白银也被发现正在帮他们·【本次对决: 辉夜败】 -事件A1: 白银御行想展示 (2015年6月15日): 白银虽学术顶尖但毫无协调性·白银独自在体育馆练习排球扣球惨败·千花因忘记东西来到体育馆吓到了白银·白银害怕秘密暴露但认为千花的看法不影响声誉·得知白银在练排球千花在看到他",
+      "sourceRefs": [
+        "hydxj_card.worldbook.json#entry-76"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:时间线-第一季-中-多选一",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "物价参考",
+      "entityId": "物价参考",
+      "entityType": "abilities",
+      "label": "物价参考",
+      "name": "物价参考",
+      "summary": "<money_rules> 货币:日元(円) 物价锚定:现代日本(2015年) 原则:交易非免费;食宿装备服务均需円结算;无钱免谈 核心特征:存在极端的贫富差距(平民与顶级财阀) ## 物价参考 饮食(外食): - 罐装咖啡/饮料:120-150円/罐 - 便利店便当/快餐:500-800円/份 - 拉面(藤原千花最爱):800-1200円/碗 - 平民家庭餐厅(如萨莉亚):1000-2000円/人 - 财阀级高级餐厅/料亭:30000-100000円以上/人 饮食(食材): - 参照现代日本超市物价(特价鸡蛋、打折便当是平民的生命线) 服装: - 平民便服(如优衣库):2000-5000円/件 - 高级成衣/奢侈品牌:5万-50万円/件 - 财阀专属定制服装:100万円以上/件 娱乐与杂项: - 电影票:1800円/张 - KTV(学生价):1000-2000円/小时 - 智能手机(最新款):10万-15万円/台 住宿/住宅: - 破旧老式公寓月租(白银家级别):4万-6万円/月 - 现代高档公寓月租:20万-50万円/月 - 豪华一户建购入:5000万-1亿円以上 - 顶级财阀庄园(四宫家级别):数十亿至数百亿円以上(含",
+      "sourceRefs": [
+        "hydxj_card.worldbook.json#entry-56"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:物价参考",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "秀知院学园课程体系",
+      "entityId": "秀知院学园课程体系",
+      "entityType": "abilities",
+      "label": "秀知院学园课程体系",
+      "name": "秀知院学园课程体系",
+      "summary": "<设秀知院学园课程> ## 秀知院学园课程体系 介绍：以培养未来国家栋梁、财阀继承人及各界精英为目标的综合教育体系。在符合常规高中的教育标准基础上，融入大量难度极高的学术内容与贵族素养培育项目。 基础学科分类： - 核心文化课：包含高标准的国语、数学、英语、理科（物理、化学、生物）与社会科（日本史、世界史、地理、现代社会等）。教学进度快，教材难度远超普通高中。 - 国际外语课：除英语必修外，提供第二外语选修。由于现任校长具有法国背景，法语是学校的重要交流语言之一，也设有专门的法语课程与国际交流活动。 素养与技能课程： - 体育课程：除了常规的田径、体操、球类与游泳，还设有专门的社交舞课程、剑道课程，部分校区及社团涉及马术等贵族运动。 - 艺术与家政：提供正统的传统文化教养（如茶道、花道）、古典音乐欣赏、美术，以及包含高级烹饪与餐桌礼仪在内的家政课程。 考核与竞争机制： - 定期测验：每学期举行严格的期中与期末考试，考场纪律森严。 - 成绩公示榜：每次大型考试结束后，全校总成绩排名前50名的学生名单与具体分数会被公开张贴在走廊的巨型布告栏上，校内竞争氛围极为激烈。 - 学业压力：无论是初中部直升的“纯院”贵族学生，还是凭借高分",
+      "sourceRefs": [
+        "hydxj_card.worldbook.json#entry-54"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:秀知院学园课程体系",
+      "originalEntityType": "abilities"
+    }
+  ],
+  "edges": [
+    {
+      "source": "时间线-第一季-中-多选一",
+      "target": "白银御行",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "白银御行",
+      "sourceRefs": [
+        "hydxj_card.worldbook.json#entry-76"
+      ],
+      "id": "edge-13",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:时间线-第一季-中-多选一",
+      "graphTarget": "characters:白银御行",
+      "category": "derived-mention"
+    },
+    {
+      "source": "物价参考",
+      "target": "藤原千花",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "藤原千花",
+      "sourceRefs": [
+        "hydxj_card.worldbook.json#entry-56"
+      ],
+      "id": "edge-14",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:物价参考",
+      "graphTarget": "characters:藤原千花",
+      "category": "derived-mention"
+    }
+  ]
+}

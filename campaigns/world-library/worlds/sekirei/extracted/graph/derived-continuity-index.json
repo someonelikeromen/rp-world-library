@@ -1,0 +1,56 @@
+{
+  "schema": "sekirei-derived-continuity-index-v1",
+  "worldId": "sekirei",
+  "recordType": "derived-continuity-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "continuityFamilies": [
+    {
+      "continuityFamilyId": "sekirei-worldbook-derived-continuity",
+      "sourceIndexes": [
+        "events/index.json",
+        "characters/index.json"
+      ],
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "eventNodes": [
+        {
+          "id": "11-B94-W58-H90-D杯-响-Hibiki",
+          "name": "11) B94/W58/H90 D杯 / 响(Hibiki,",
+          "sourceRefs": [
+            "ns_card.worldbook.json#entry-46"
+          ]
+        },
+        {
+          "id": "xml-剧情结束标签",
+          "name": "[xml]剧情结束标签",
+          "sourceRefs": [
+            "ns_card.worldbook.json#entry-28"
+          ]
+        },
+        {
+          "id": "xml-剧情起始标签",
+          "name": "[xml]剧情起始标签",
+          "sourceRefs": [
+            "ns_card.worldbook.json#entry-27"
+          ]
+        },
+        {
+          "id": "第1卷初期·白天",
+          "name": "第1卷初期·白天",
+          "sourceRefs": [
+            "ns_card.worldbook.json#entry-68"
+          ]
+        }
+      ]
+    },
+    {
+      "continuityFamilyId": "sekirei-engine-rules-excluded",
+      "sourceIndexes": [
+        "engine-rules/index.json"
+      ],
+      "excludedFromFormalGraph": true,
+      "reason": "Engine rules and status templates are not world facts."
+    }
+  ]
+}

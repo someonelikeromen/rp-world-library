@@ -1,0 +1,63 @@
+{
+  "schema": "overlord-derived-continuity-index-v1",
+  "worldId": "overlord",
+  "recordType": "derived-continuity-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "continuityFamilies": [
+    {
+      "continuityFamilyId": "overlord-worldbook-derived-continuity",
+      "sourceIndexes": [
+        "events/index.json",
+        "characters/index.json"
+      ],
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "eventNodes": [
+        {
+          "id": "Epilogue",
+          "name": "Epilogue",
+          "sourceRefs": [
+            "OVERLORD.worldbook.json#entry-136"
+          ]
+        },
+        {
+          "id": "第七章",
+          "name": "第七章",
+          "sourceRefs": [
+            "OVERLORD.worldbook.json#entry-135"
+          ]
+        },
+        {
+          "id": "第五章",
+          "name": "第五章",
+          "sourceRefs": [
+            "OVERLORD.worldbook.json#entry-132"
+          ]
+        },
+        {
+          "id": "第六章",
+          "name": "第六章",
+          "sourceRefs": [
+            "OVERLORD.worldbook.json#entry-134"
+          ]
+        },
+        {
+          "id": "过场",
+          "name": "过场",
+          "sourceRefs": [
+            "OVERLORD.worldbook.json#entry-133"
+          ]
+        }
+      ]
+    },
+    {
+      "continuityFamilyId": "overlord-engine-rules-excluded",
+      "sourceIndexes": [
+        "engine-rules/index.json"
+      ],
+      "excludedFromFormalGraph": true,
+      "reason": "Engine rules and status templates are not world facts."
+    }
+  ]
+}

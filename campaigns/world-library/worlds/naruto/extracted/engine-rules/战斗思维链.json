@@ -1,0 +1,23 @@
+{
+  "schema": "engine-rule-record-v1",
+  "worldId": "naruto",
+  "source_refs": [
+    "hy_card.worldbook.json#entry-11"
+  ],
+  "aliases": [],
+  "periods": [
+    {
+      "id": "worldbook-record",
+      "name": {
+        "zh": "战斗思维链"
+      },
+      "aliases": [],
+      "summary": "{{setvar::combat_driver:: <!-- 每回合必须输出 <combat_driver> 模块。若本回合无战斗，仅输出\"无\" --> <combat_driver> ━━ 1.初始化(Init) ━━ 对战双方: Player_Side(单人/小队累加) vs Enemy_Side(单人/小队累加) Player_Base_BP:基于Level换算(1Lv=10BP) Enemy_Base_BP:读取原著设定(学员(1-100),下忍(110-300),中忍(310-500),上忍(510-700),影级(800-1500+),六道(3000-5000+) 硬性检查:若Player_BP < Enemy_BP *",
+      "description": "{{setvar::combat_driver:: <!-- 每回合必须输出 <combat_driver> 模块。若本回合无战斗，仅输出\"无\" --> <combat_driver> ━━ 1.初始化(Init) ━━ 对战双方: Player_Side(单人/小队累加) vs Enemy_Side(单人/小队累加) Player_Base_BP:基于Level换算(1Lv=10BP) Enemy_Base_BP:读取原著设定(学员(1-100),下忍(110-300),中忍(310-500),上忍(510-700),影级(800-1500+),六道(3000-5000+) 硬性检查:若Player_BP < Enemy_BP *",
+      "sourceRef": "hy_card.worldbook.json#entry-11",
+      "canonStatus": "engine-rule-not-world-fact",
+      "credibility": "local-worldbook"
+    }
+  ],
+  "rule_id": "战斗思维链"
+}

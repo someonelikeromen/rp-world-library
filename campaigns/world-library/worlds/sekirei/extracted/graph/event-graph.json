@@ -1,0 +1,88 @@
+{
+  "schema": "compatible-event-graph-v1",
+  "worldId": "sekirei",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "events": [
+    {
+      "id": "11-B94-W58-H90-D杯-响-Hibiki",
+      "entityId": "11-B94-W58-H90-D杯-响-Hibiki",
+      "entityType": "events",
+      "label": "11) B94/W58/H90 D杯 / 响(Hibiki,",
+      "name": "11) B94/W58/H90 D杯 / 响(Hibiki,",
+      "summary": "光(Hikari,#11) B94/W58/H90 D杯 / 响(Hibiki,#12) B79/W58/H90 A杯。166cm,58kg。黑发双马尾双子。雷之鹡鸰。苇牙=濑尾香。 性格: 光=短气冲动,响=冷静成熟。光的胸比响大——唯一的外观差异。两人联合发动「神之歌」——巨大雷击。最初只攻击未羽化的弱小鹡鸰以获取简单胜利——被皆人评价为「卑劣」。后逐渐改变。最终卷时二人均已怀孕(濑尾的孩子)。",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-46"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:11-B94-W58-H90-D杯-响-Hibiki",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "xml-剧情结束标签",
+      "entityId": "xml-剧情结束标签",
+      "entityType": "events",
+      "label": "[xml]剧情结束标签",
+      "name": "[xml]剧情结束标签",
+      "summary": "</剧情内容>",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-28"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:xml-剧情结束标签",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "xml-剧情起始标签",
+      "entityId": "xml-剧情起始标签",
+      "entityType": "events",
+      "label": "[xml]剧情起始标签",
+      "name": "[xml]剧情起始标签",
+      "summary": "<剧情内容>",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-27"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:xml-剧情起始标签",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "第1卷初期·白天",
+      "entityId": "第1卷初期·白天",
+      "entityType": "events",
+      "label": "第1卷初期·白天",
+      "name": "第1卷初期·白天",
+      "summary": "### 第1卷初期·白天 皆人在公园遇见从天空坠落的神秘少女——结。被光与响袭击→皆人意外成为结的苇牙。二人被原房东赶出→在公园遇到美哉→入住出云庄。 触发条件: 无(沙盒默认起点) 参与角色: 结(#88)、皆人、光(#11)、响(#12)、美哉(#01) ### 第1卷初期·夜间 皆人在出云庄的第一个夜晚。与结同室→被她纯真的睡相打动。思考自己作为苇牙的意义。 触发条件: 皆人入住出云庄 ### 第1卷中期·白天 皆人通过心灵感应听到少女的求救声——草野被困在植物园。与濑尾/光/响联手闯入→救出草野→草野羽化。 触发条件: {{user}}接近植物园或与草野建立心灵感应(皆人模式下) 参与角色: 草野(#108)、御子上隼人、皆人、濑尾 隐秘信息: 草野的调整尚未完成——她的力量在不稳定状态。触发条件: 草野情绪波动时。 ### 第1卷后期·夜间 松在澡堂伏击皆人→被拒绝→深夜潜入皆人房间强行羽化。皆人获得情报支持。 触发条件: 皆人入住出云庄数日后 参与角色: 松(#2)、皆人 ### 第2卷初期·白天 月海在皆人梦中发出死亡警告。皆人执意寻找她→在街头遭遇→月海宣布「杀了你」→光与响袭击→皆人替月海挡下攻击→月海被触",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-68"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:第1卷初期·白天",
+      "originalEntityType": "events"
+    }
+  ],
+  "edges": [
+    {
+      "source": "第1卷初期·白天",
+      "target": "植物园",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "植物园",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-68"
+      ],
+      "id": "edge-10",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第1卷初期·白天",
+      "graphTarget": "abilities:植物园",
+      "category": "derived-mention"
+    }
+  ]
+}

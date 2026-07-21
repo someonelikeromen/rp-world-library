@@ -1,0 +1,29 @@
+{
+  "schema": "omamori-himari-graph-build-report-v1",
+  "worldId": "omamori-himari",
+  "status": "completed",
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "validation": {
+    "jsonValid": true,
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "newFactsIntroduced": false,
+    "forbiddenBasenamesGenerated": false
+  },
+  "counts": {
+    "nodes": 31,
+    "edges": 57,
+    "nodeCounts": {
+      "characters": 28,
+      "abilities": 2,
+      "events": 1
+    },
+    "edgeCounts": {
+      "derived-text-mention": 57
+    },
+    "derivedMentionEdges": 57
+  },
+  "warnings": [
+    "Derived graph edges are navigation/search signals, not formal relationship facts."
+  ]
+}

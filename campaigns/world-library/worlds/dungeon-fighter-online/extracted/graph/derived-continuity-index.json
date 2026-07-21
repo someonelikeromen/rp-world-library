@@ -1,0 +1,105 @@
+{
+  "schema": "dungeon-fighter-online-derived-continuity-index-v1",
+  "worldId": "dungeon-fighter-online",
+  "recordType": "derived-continuity-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "continuityFamilies": [
+    {
+      "continuityFamilyId": "dungeon-fighter-online-worldbook-derived-continuity",
+      "sourceIndexes": [
+        "events/index.json",
+        "characters/index.json"
+      ],
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "eventNodes": [
+        {
+          "id": "乌希尔教",
+          "name": "乌希尔教",
+          "sourceRefs": [
+            "阿拉德历险记.worldbook.json#entry-76"
+          ]
+        },
+        {
+          "id": "圣贝欧纳修道会修道者",
+          "name": "圣贝欧纳修道会修道者",
+          "sourceRefs": [
+            "阿拉德历险记.worldbook.json#entry-484"
+          ]
+        },
+        {
+          "id": "埃里克",
+          "name": "埃里克",
+          "sourceRefs": [
+            "阿拉德历险记.worldbook.json#entry-404"
+          ]
+        },
+        {
+          "id": "库喃喋",
+          "name": "库喃喋",
+          "sourceRefs": [
+            "阿拉德历险记.worldbook.json#entry-20"
+          ]
+        },
+        {
+          "id": "查威尔",
+          "name": "查威尔",
+          "sourceRefs": [
+            "阿拉德历险记.worldbook.json#entry-339"
+          ]
+        },
+        {
+          "id": "梅娅",
+          "name": "梅娅",
+          "sourceRefs": [
+            "阿拉德历险记.worldbook.json#entry-348"
+          ]
+        },
+        {
+          "id": "毛勒图斯",
+          "name": "毛勒图斯",
+          "sourceRefs": [
+            "阿拉德历险记.worldbook.json#entry-376"
+          ]
+        },
+        {
+          "id": "灰血之手",
+          "name": "灰血之手",
+          "sourceRefs": [
+            "阿拉德历险记.worldbook.json#entry-196"
+          ]
+        },
+        {
+          "id": "第一英雄",
+          "name": "第一英雄",
+          "sourceRefs": [
+            "阿拉德历险记.worldbook.json#entry-355"
+          ]
+        },
+        {
+          "id": "维纳斯教",
+          "name": "维纳斯教",
+          "sourceRefs": [
+            "阿拉德历险记.worldbook.json#entry-78"
+          ]
+        },
+        {
+          "id": "血手",
+          "name": "血手",
+          "sourceRefs": [
+            "阿拉德历险记.worldbook.json#entry-206"
+          ]
+        }
+      ]
+    },
+    {
+      "continuityFamilyId": "dungeon-fighter-online-engine-rules-excluded",
+      "sourceIndexes": [
+        "engine-rules/index.json"
+      ],
+      "excludedFromFormalGraph": true,
+      "reason": "Engine rules and status templates are not world facts."
+    }
+  ]
+}

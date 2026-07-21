@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "zyszddsj_card.worldbook.json#entry-100"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[EJS]inline:ejs-chapter-controller"
+      },
+      "aliases": [
+        "[EJS]inline:ejs-chapter-controller"
+      ],
+      "summary": "<%_ var mode = getvar('stat_data.当前模式') || '剧情'; if (mode !== '剧情') { return; } var arc = getvar('stat_data.剧情.当前篇章') || '驱魂篇'; var name = ''; if (arc === '驱魂篇') { name = 'TWGOK 驱魂篇'; } else if (arc === '女神篇') { name = 'TWGOK 女神篇'; } else if (arc === '过去篇') { name = 'TWGOK 过去篇'; } _%> <%- await getwi(name) %>",
+      "description": "<%_ var mode = getvar('stat_data.当前模式') || '剧情'; if (mode !== '剧情') { return; } var arc = getvar('stat_data.剧情.当前篇章') || '驱魂篇'; var name = ''; if (arc === '驱魂篇') { name = 'TWGOK 驱魂篇'; } else if (arc === '女神篇') { name = 'TWGOK 女神篇'; } else if (arc === '过去篇') { name = 'TWGOK 过去篇'; } _%> <%- await getwi(name) %>",
+      "sourceRef": "zyszddsj_card.worldbook.json#entry-100",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "EJS-inline-ejs-chapter-controller"
+}

@@ -1,0 +1,24 @@
+{
+  "source_refs": [
+    "SAO_Progressive_v1.3.json#entry-19"
+  ],
+  "sourceType": "local-sillytavern-json-card",
+  "credibility": "local-card-indexed",
+  "canonStatus": "adapted/card-backed",
+  "periods": [
+    {
+      "period_id": "local-ingest-entry",
+      "name": {
+        "zh": "运行·EJS当前楼层注入控制器"
+      },
+      "aliases": [],
+      "summary": "@@preprocessing\n<%_ {\nconst __data=getMessageVar('stat_data',{defaults:{}});\nconst __floor=_.clamp(Number(_.get(__data,'世界.當前樓層',1))||1,1,100);\nconst __entry='楼层资料·第'+__floor+'层';\nconst __shared=await getwi('楼层资料·怪物共用运行规则');\nconst __floorContent=await getwi(__entry);\n_%>\n<CURRENT_FLOOR_INJECTION floor=\"<%- __floor %>\" source=\"<%- __entry %>\">\n<%- __shared %>\n\n<%- __floorContent %>\n</CURRENT_FLOOR_INJECTION>\n<%_ } _%>\n",
+      "description": "@@preprocessing\n<%_ {\nconst __data=getMessageVar('stat_data',{defaults:{}});\nconst __floor=_.clamp(Number(_.get(__data,'世界.當前樓層',1))||1,1,100);\nconst __entry='楼层资料·第'+__floor+'层';\nconst __shared=await getwi('楼层资料·怪物共用运行规则');\nconst __floorContent=await getwi(__entry);\n_%>\n<CURRENT_FLOOR_INJECTION floor=\"<%- __floor %>\" source=\"<%- __entry %>\">\n<%- __shared %>\n\n<%- __floorContent %>\n</CURRENT_FLOOR_INJECTION>\n<%_ } _%>\n",
+      "sourceRef": "SAO_Progressive_v1.3.json#entry-19",
+      "sourceType": "local-sillytavern-json-card",
+      "credibility": "local-card-indexed",
+      "canonStatus": "adapted/card-backed"
+    }
+  ],
+  "engine_rule_id": "运行_EJS当前楼层注入控制器"
+}

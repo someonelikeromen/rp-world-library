@@ -1,0 +1,35 @@
+{
+  "schema": "blue-archive-derived-continuity-index-v1",
+  "worldId": "blue-archive",
+  "recordType": "derived-continuity-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "continuityFamilies": [
+    {
+      "continuityFamilyId": "blue-archive-worldbook-derived-continuity",
+      "sourceIndexes": [
+        "events/index.json",
+        "characters/index.json"
+      ],
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "eventNodes": [
+        {
+          "id": "头盔团",
+          "name": "头盔团",
+          "sourceRefs": [
+            "鸡窝托斯.worldbook.json#entry-23"
+          ]
+        }
+      ]
+    },
+    {
+      "continuityFamilyId": "blue-archive-engine-rules-excluded",
+      "sourceIndexes": [
+        "engine-rules/index.json"
+      ],
+      "excludedFromFormalGraph": true,
+      "reason": "Engine rules and status templates are not world facts."
+    }
+  ]
+}

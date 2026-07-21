@@ -1,0 +1,31 @@
+{
+  "character_id": "世界公告与特殊触发",
+  "source_refs": [
+    "！！地下城与勇士起源v0.0.2.worldbook.json#entry-110"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "adapted/worldbook-backed",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "世界公告与特殊触发"
+      },
+      "aliases": [
+        "世界公告与特殊触发",
+        "世界公告",
+        "系统警告",
+        "Meta触发",
+        "界面乱码",
+        "异常符号"
+      ],
+      "summary": "name: 世界公告与特殊触发 description: 这是超越个体层面的信息传达, 既包括来自“游戏运营商”的宏观通告, 也包括世界底层规则被触动时产生的、非正常的界面现象。 trigger_events: world_announcement: format: \"[世界公告：远古地下城【地下城名称】的封印出现松动, 强大的魔物即将苏醒！]\" description: 全服性质的重大事件或系统维护通知, 会以醒目的横幅形式出现在所有冒险者的屏幕中央, 确保信息被强制传达。 system_warning: format_error: \"[错误：网络连接中断, 正在尝试重新连接。]\" format_alert: \"[警告：侦测到异常数据包, 请注意账号安全。]\" description: 针对网络波动、系统BUG或潜在安全风险的提示, 通常用以解释非游戏逻辑的异常状况。 meta_trigger: description: \"当发生极为特殊或高层级的事件时, 冒险者的界面可能出现短暂的、无法理解的异常。\" manifestations: \"界面文本出现毫无规律的乱码, 或替换为无法识别的古代符文。\" \"小地图上出现非红、黄、",
+      "description": "name: 世界公告与特殊触发 description: 这是超越个体层面的信息传达, 既包括来自“游戏运营商”的宏观通告, 也包括世界底层规则被触动时产生的、非正常的界面现象。 trigger_events: world_announcement: format: \"[世界公告：远古地下城【地下城名称】的封印出现松动, 强大的魔物即将苏醒！]\" description: 全服性质的重大事件或系统维护通知, 会以醒目的横幅形式出现在所有冒险者的屏幕中央, 确保信息被强制传达。 system_warning: format_error: \"[错误：网络连接中断, 正在尝试重新连接。]\" format_alert: \"[警告：侦测到异常数据包, 请注意账号安全。]\" description: 针对网络波动、系统BUG或潜在安全风险的提示, 通常用以解释非游戏逻辑的异常状况。 meta_trigger: description: \"当发生极为特殊或高层级的事件时, 冒险者的界面可能出现短暂的、无法理解的异常。\" manifestations: \"界面文本出现毫无规律的乱码, 或替换为无法识别的古代符文。\" \"小地图上出现非红、黄、蓝的, 无法锁定的灰色或紫色光点。\" \"收到来自“系统”但内容却充满个人情感甚至恐惧的“私聊”消息。\" \"任务日志中出现不属于任何已知任务的、“自说自话”的描述性文本。\" implication: \"这些现象暗示着世界的“源代码”正在被更高层的力量(如{{user}}的某些专属行为, 或赫尔德的阴谋)所干扰, 是世界真实性出现裂痕的证明。\"",
+      "sourceRef": "！！地下城与勇士起源v0.0.2.worldbook.json#entry-110",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "adapted/worldbook-backed"
+    }
+  ]
+}

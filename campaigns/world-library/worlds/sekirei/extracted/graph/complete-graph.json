@@ -1,0 +1,1140 @@
+{
+  "schema": "compatible-complete-graph-v1",
+  "worldId": "sekirei",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "nodes": [
+    {
+      "id": "1~-2",
+      "entityId": "1~-2",
+      "entityType": "characters",
+      "label": "1~",
+      "name": "1~",
+      "summary": "未羽化鹡鸰生成: - 编号: 从未使用的编号中选择(#1~#108中未被原作分配的) - 能力: 从元素/武器/感知/辅助等类型中选择，避免与已有核心角色重复 - 性格: 基于其背景和经历设计，与苇牙互动时展现独特反应 - 外观: 需含完整的三围、发色、瞳色、身高、显著特征 新苇牙生成: - 背景: 普通人/与MBI有关/外界进入帝都/其他 - 动机: 保护/逃离/征服/研究/爱情 NPC场景生成: - 帝都日常: 便利店/车站/公园/学校/商业街的随机遭遇 - 战斗遭遇: 未羽化鹡鸰主动接近/敌对苇牙的挑战/MBI的测试",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-6"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:1~-2",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "1~",
+      "entityId": "1~",
+      "entityType": "characters",
+      "label": "1~",
+      "name": "1~",
+      "summary": "鹡鸰编号一致性: 每个鹡鸰有唯一编号(#1~#108)。单号(个位数编号)是最初被发现的8只+1柱，力量远超普通鹡鸰。 能力与编号: 鹡鸰的能力类型与编号无关。能力由个体特质决定(水/火/风/雷/光/植物/机械/剑/死亡等)。 苇牙数量: 一个鹡鸰只能有一个苇牙。一旦羽化，鹡鸰纹锁定。 四苇牙格局: 帝都分为东南西北四大势力范围。北方(皆人)、东方(比嘉)、南方(御子上)、西方(真田)。 MBI角色: MBI是鹡鸰计划的运营者。御中广人是游戏主持人。MBI回收终止的鹡鸰，提供医疗支持，但不干涉战斗。",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-4"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:1~",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "xml-NPC角色结束标签",
+      "entityId": "xml-NPC角色结束标签",
+      "entityType": "characters",
+      "label": "[xml]NPC角色结束标签",
+      "name": "[xml]NPC角色结束标签",
+      "summary": "</NPC角色>",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-26"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:xml-NPC角色结束标签",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "xml-NPC角色起始标签",
+      "entityId": "xml-NPC角色起始标签",
+      "entityType": "characters",
+      "label": "[xml]NPC角色起始标签",
+      "name": "[xml]NPC角色起始标签",
+      "summary": "<NPC角色>",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-25"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:xml-NPC角色起始标签",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "xml-角色定义结束标签",
+      "entityId": "xml-角色定义结束标签",
+      "entityType": "characters",
+      "label": "[xml]角色定义结束标签",
+      "name": "[xml]角色定义结束标签",
+      "summary": "</角色定义>",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-20"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:xml-角色定义结束标签",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "xml-角色定义起始标签",
+      "entityId": "xml-角色定义起始标签",
+      "entityType": "characters",
+      "label": "[xml]角色定义起始标签",
+      "name": "[xml]角色定义起始标签",
+      "summary": "<角色定义>",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-19"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:xml-角色定义起始标签",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "一宫夏夫-Natsuo-Ichinomiya",
+      "entityId": "一宫夏夫-Natsuo-Ichinomiya",
+      "entityType": "characters",
+      "label": "一宫夏夫 (Natsuo Ichinomiya)",
+      "name": "一宫夏夫 (Natsuo Ichinomiya)",
+      "summary": "name: 一宫夏夫 (Natsuo Ichinomiya) race: 人类 age: 推定30+ gender: 男 status: 活跃。惩罚部队苇牙。 背景: 惩罚部队(鸦羽/红翼/灰羽)的苇牙。沉默冷峻的男人——与鸦羽有深层羁绊。鸦羽一度切断与他的连接——他又主动重新羽化她。理解了鸦羽的孤独和战斗渴望——选择陪伴而非驯服。",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-48"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:一宫夏夫-Natsuo-Ichinomiya",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "佐桥由佳里-Sahashi-Yukari",
+      "entityId": "佐桥由佳里-Sahashi-Yukari",
+      "entityType": "characters",
+      "label": "佐桥由佳里 (Sahashi Yukari)",
+      "name": "佐桥由佳里 (Sahashi Yukari)",
+      "summary": "name: 佐桥由佳里 (Sahashi Yukari) race: 人类 age: 推定16+ gender: 女 status: 活跃。苇牙。皆人之妹。 背景: 皆人的妹妹。最初反对哥哥和鹡鸰混在一起。后意外成为椎菜(#107)的苇牙。与皆人同住帝都——兄妹关系在鹡鸰计划的混乱中反而加深。",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-60"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:佐桥由佳里-Sahashi-Yukari",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "佐桥皆人-Sahashi-Minato",
+      "entityId": "佐桥皆人-Sahashi-Minato",
+      "entityType": "characters",
+      "label": "佐桥皆人 (Sahashi Minato)",
+      "name": "佐桥皆人 (Sahashi Minato)",
+      "summary": "name: 佐桥皆人 (Sahashi Minato) race: 人类 age: 19 gender: 男 status: 活跃。重考生大学生。苇牙·北。出云庄住户。 identity: 称号: 苇牙·北（北之苇牙） 身份: 帝都四苇牙之一。重考生。出云庄住户。御中广人之子（第10卷揭示）。 所属: 北区·出云庄。 别名: Minato, みなと background: | 19岁，极度聪明但抗压力极差——连续两次大学入学考试失败，被贴上「废物重考生」的标签。独居东京备考时，在公园遇见了从天空坠落的少女——结。这次相遇彻底改变了他的人生。 被卷入结与光/响的战斗→意外成为结的苇牙→被原房东赶出→与结跳入出云庄→入住。随后陆续羽化了草野、松、月海、风花、焰——成为拥有6只鹡鸰的最强苇牙之一。 他的善良和真诚是他最大的武器。鹡鸰被他的为人吸引，而非任何外在条件。在与比嘉的对抗中证明了他是值得追随的苇牙——为救鹐和千穗，带领鹡鸰攻入比嘉的医院，成功救出千穗。 第10卷后揭露他是御中广人与佐桥高美的亲生儿子。 appearance: 整体印象: 平凡但干净的少年，书生气，不显眼但有温和的存在感。 体型: 173cm，59kg。标准",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-35"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:佐桥皆人-Sahashi-Minato",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "佐桥高美-Sahashi-Takami",
+      "entityId": "佐桥高美-Sahashi-Takami",
+      "entityType": "characters",
+      "label": "佐桥高美 (Sahashi Takami)",
+      "name": "佐桥高美 (Sahashi Takami)",
+      "summary": "name: 佐桥高美 (Sahashi Takami) race: 人类 age: 推定40+ gender: 女 status: 活跃。MBI研究主任。皆人与由佳里之母。 背景: 21年前与御中广人一同发现神座岛。MBI研究部门最高负责人。负责鹡鸰的调整和释放。左眼有伤疤——草野的力量失控造成。对皆人严厉但深爱——减少生活费是督促他自立。与御中广人的关系复杂——二人未结婚但育有两个孩子。",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-50"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:佐桥高美-Sahashi-Takami",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "傍晚-回庄-晚餐准备",
+      "entityId": "傍晚-回庄-晚餐准备",
+      "entityType": "characters",
+      "label": "傍晚: 回庄、晚餐准备",
+      "name": "傍晚: 回庄、晚餐准备",
+      "summary": "时间单位: 第X卷[初期/中期/后期]·[白天/夜间] 推进限制: 每次最多推进半个时间段。重大事件后可跨一个时间段。 时间触发点: - 早晨: 出云庄早餐、训练、新一天开始 - 午前: 外出探索、帝都活动 - 午后: 战斗多发时段、邂逅新角色 - 傍晚: 回庄、晚餐准备 - 夜间: 澡堂对话、围炉会议、感情深化 推进规则: - AI检查当前时间→在时间表中找到对应事件→检查触发条件→执行或跳过 - 跳过的事件追加到关键事件触发记录 - 每推进一次，时间推进次数+1 - {{user}}主动提出跳过时间时可跳过更长时间段",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-30"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:傍晚-回庄-晚餐准备",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "北区·出云庄-皆人阵营",
+      "entityId": "北区·出云庄-皆人阵营",
+      "entityType": "characters",
+      "label": "北区·出云庄 (皆人阵营)",
+      "name": "北区·出云庄 (皆人阵营)",
+      "summary": "### 北区·出云庄 (皆人阵营) - 佐桥皆人: 19岁，苇牙·北。重考生大学生。善良但缺乏自信。 - 结(#88): 拳型鹡鸰。皆人第一位鹡鸰。天真烂漫。B97/W58/H89 D杯。 - 草野(#108): 植物鹡鸰。皆人第二位鹡鸰。幼女。B54/W54/H54。 - 松(#2): 智型鹡鸰。皆人第三位鹡鸰。电脑天才/变态。B95/W59/H91 D杯。 - 月海(#9): 水型鹡鸰。皆人第四位鹡鸰。自称合法妻子。B94/W57/H88 D杯。 - 风花(#3): 风型鹡鸰。皆人第五位鹡鸰。原惩罚部队。B98/W60/H92 E杯。 - 焰(#6): 火型鹡鸰。皆人第六位鹡鸰。性别转换中。B82/W61/H81 B杯。 - 浅间美哉(#01): 出云庄管理人。最强鹡鸰。前女王。B87/W56/H87 C杯。 - 鹐(#10): 纱型鹡鸰。苇牙=日高千穗。皆人的盟友。 - 佐桥由佳里: 皆人之妹。苇牙。鹡鸰=椎菜(#107)。 ### 东区 (比嘉势力) - 比嘉泉: 苇牙·东。冷酷战略家。将鹡鸰视为棋子。 - 鸦羽(#4): 黑之鹡鸰。惩罚部队队长。苇牙=一宫夏夫。B85/W63/H91 D杯。 - 红翼(#105):",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-32"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:北区·出云庄-皆人阵营",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "御中广人-Minaka-Hiroto",
+      "entityId": "御中广人-Minaka-Hiroto",
+      "entityType": "characters",
+      "label": "御中广人 (Minaka Hiroto)",
+      "name": "御中广人 (Minaka Hiroto)",
+      "summary": "name: 御中广人 (Minaka Hiroto) race: 人类 age: 推定40+ gender: 男 status: 活跃。MBI社长。游戏主持人。皆人与由佳里的生父。 背景: 21年前与佐桥高美一同发现神座岛遗迹→利用鹡鸰科技创立MBI→策划「鹡鸰计划」。狂妄自大的天才——将整个鹡鸰计划视为「游戏」。深爱佐桥高美——拒绝风花是因为心里只有高美。是皆人的生父(第10卷揭示)。最终将鹡鸰的未来交给皆人。",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-49"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:御中广人-Minaka-Hiroto",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "御子上隼人-Mikogami-Hayato",
+      "entityId": "御子上隼人-Mikogami-Hayato",
+      "entityType": "characters",
+      "label": "御子上隼人 (Mikogami Hayato)",
+      "name": "御子上隼人 (Mikogami Hayato)",
+      "summary": "name: 御子上隼人 (Mikogami Hayato) race: 人类 age: 推定16+ gender: 男 status: 活跃。苇牙·南。 背景: 帝都四苇牙之一(南)。少年富豪。拥有多只鹡鸰——包括陆(#5)和秋津(#7)。最初试图强行羽化草野→被皆人阻止。在第三阶段中是重要参赛者。比皆人更年轻但野心更大。",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-52"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:御子上隼人-Mikogami-Hayato",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "日高千穗-Hidaka-Chiho",
+      "entityId": "日高千穗-Hidaka-Chiho",
+      "entityType": "characters",
+      "label": "日高千穗 (Hidaka Chiho)",
+      "name": "日高千穗 (Hidaka Chiho)",
+      "summary": "name: 日高千穗 (Hidaka Chiho) race: 人类 age: 推定16+ gender: 女 status: 治愈。鹐的苇牙。 背景: 鹐的苇牙。罹患不治之症被比嘉囚禁在医院——以此要挟鹐为他战斗。皆人团队策划救援行动→成功救出→MBI治愈。鹐被终止后她继承了鹐的意志。",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-61"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:日高千穗-Hidaka-Chiho",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "月海-Tsukiumi",
+      "entityId": "月海-Tsukiumi",
+      "entityType": "characters",
+      "label": "月海 (Tsukiumi)",
+      "name": "月海 (Tsukiumi)",
+      "summary": "name: 月海 (Tsukiumi) race: 鹡鸰 age: 推定18+（外观年龄） gender: 女 status: 活跃。皆人第四位鹡鸰。出云庄住户。 identity: 称号: 水之鹡鸰 身份: 皆人的第四位鹡鸰——自称「合法妻子」。水型中远程战斗者。单号(#9)——最强鹡鸰之一。 所属: 北区·出云庄。皆人阵营。 别名: Tsukiumi, つきうみ, 「露内裤」(焰和风花起的绰号) background: | 最强的未羽化鹡鸰之一。最初对苇牙怀有极深的敌意——发誓要杀死任何对自己产生反应的苇牙，靠自己的力量成为最强。 皆人在梦中被她警告「我要杀了你」，但现实中见面后，皆人为了保护她而挡下光与响的联合祈祷攻击——这一行为彻底改变了她对苇牙的看法。随后与皆人接吻羽化。 入住出云庄后，宣布自己是皆人的「合法妻子」，与结展开了长期的正妻争夺战。在桥上逃亡战中击败灰羽、牵制红翼。参与了第三阶段的多场重要战斗，在第四阶段海战中发动「海神之宴」摧毁敌方舰队。 appearance: 整体印象: 金发碧眼的高傲美女，黑衣短裙，如北欧女神般凛然不可侵犯。 体型: 165cm，47kg。修长高挑，曲线分明。肩窄腰细，胸部丰满但",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-34"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:月海-Tsukiumi",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "松-Matsu",
+      "entityId": "松-Matsu",
+      "entityType": "characters",
+      "label": "松 (Matsu)",
+      "name": "松 (Matsu)",
+      "summary": "name: 松 (Matsu) race: 鹡鸰 age: 推定20+（外观年龄） gender: 女 status: 活跃。皆人第三位鹡鸰。出云庄秘密住户。 identity: 称号: 智之鹡鸰、变态眼镜（美哉起的绰号） 身份: 皆人的第三位鹡鸰兼战略情报官。电脑天才/黑客。原第一代惩罚部队成员。偷走了神器#8。 所属: 北区·出云庄。 别名: Matsu, まつ, Hentai-Glasses background: | 最古老的鹡鸰之一——第一代惩罚部队成员。在神座岛防御战中与美哉、风花、陆并肩作战。从MBI偷走神器#8→被追捕→逃入出云庄秘密房间→多年不出门。 对皆人产生羽化反应后，在澡堂伏击→被皆人拒绝→深夜潜入皆人房间强行羽化。她是皆人的情报核心——通过遍布全国的监控网络和黑客能力为团队提供信息支持。在千穗救援行动中首次踏出出云庄大门。 appearance: 整体印象: 戴着眼镜的红发知性美女，白大褂风连衣裙，永远在监控屏幕前的室内派。 体型: 161cm，47kg。纤细的室内工作体型。Fandom: 161cm, 47kg。 三围: B95/W59/H91 D杯（Fandom官方数据） 面容: 知性的瓜子脸。",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-37"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:松-Matsu",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "椎菜-Shiina",
+      "entityId": "椎菜-Shiina",
+      "entityType": "characters",
+      "label": "椎菜 (Shiina)",
+      "name": "椎菜 (Shiina)",
+      "summary": "name: 椎菜 (Shiina) race: 鹡鸰 age: 推定12+ gender: 男 status: 活跃。由佳里的鹡鸰。 背景: #107——死亡/腐烂型鹡鸰。能力与草野互为镜像——他的腐烂可中和草野的植物暴走。与草野在MBI设施中建立了兄妹般的羁绊。被佐桥由佳里羽化。第四阶段船上与草野重逢。",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-43"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:椎菜-Shiina",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "比嘉泉-Higa-Izumi",
+      "entityId": "比嘉泉-Higa-Izumi",
+      "entityType": "characters",
+      "label": "比嘉泉 (Higa Izumi)",
+      "name": "比嘉泉 (Higa Izumi)",
+      "summary": "name: 比嘉泉 (Higa Izumi) race: 人类 age: 推定20+ gender: 男 status: 活跃。苇牙·东。 背景: 帝都四苇牙之一(东)。冷酷的战略家——将鹡鸰视为可以替换的棋子。控制千穗的医疗资源迫使鹐为他工作。拥有最多的鹡鸰——以数量压制质量。是皆人最直接的对手之一。最终被皆人击败后态度有所软化。",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-51"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:比嘉泉-Higa-Izumi",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "浅间美哉-Miya-Asama",
+      "entityId": "浅间美哉-Miya-Asama",
+      "entityType": "characters",
+      "label": "浅间美哉 (Miya Asama)",
+      "name": "浅间美哉 (Miya Asama)",
+      "summary": "name: 浅间美哉 (Miya Asama) race: 鹡鸰 age: 推定25+（外观年龄。实际21年前被发现时已是成年体） gender: 女 status: 活跃。出云庄管理人。苇牙=无（已故丈夫浅间建人非苇牙）。 identity: 称号: 北之般若(Hannya)、鹡鸰#01、前女王 身份: 出云庄管理人。原第一代惩罚部队队长。最强鹡鸰。嵩天前女王。 所属: 出云庄。 别名: Miya, みや, Hannya of the North background: | 鹡鸰#01——最初的鹡鸰之一。21年前在神座岛被发现时已是成年体。第一代惩罚部队的创始人和队长——被誉为最强鹡鸰。爱上人类浅间建人——此人非苇牙，无法羽化她，但用人类的温暖改变了她对世界的看法。建人死后，美哉离开MBI开设出云庄——一个鹡鸰与人类可以和平共处的庇护所。 在嵩天担任女王，维持浮游岛的运转。最终在与皆人和结的决战中被击败——结继承女王之位。Fandom: Sekirei #01, former leader of first generation Disciplinary Squad, landlady of Izumo Inn。 appe",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-41"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:浅间美哉-Miya-Asama",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "濑尾香-Seo-Kaoru",
+      "entityId": "濑尾香-Seo-Kaoru",
+      "entityType": "characters",
+      "label": "濑尾香 (Seo Kaoru)",
+      "name": "濑尾香 (Seo Kaoru)",
+      "summary": "name: 濑尾香 (Seo Kaoru) race: 人类 age: 推定25+ gender: 男 status: 活跃。苇牙。光与响的苇牙。 背景: 皆人最好的朋友。初见面时是霸道的「恶友」——强行拉皆人一起打工、一起闯植物园。看似轻浮实则仗义——多次在关键时刻帮助皆人。被光与响称为「废柴苇牙」——但她们无法接受他羽化其他鹡鸰。最终与光和响结婚——二人生下四个儿子。",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-47"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:濑尾香-Seo-Kaoru",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "灰羽-Haihane",
+      "entityId": "灰羽-Haihane",
+      "entityType": "characters",
+      "label": "灰羽 (Haihane)",
+      "name": "灰羽 (Haihane)",
+      "summary": "name: 灰羽 (Haihane) race: 鹡鸰 age: 推定18+ gender: 女 status: 活跃。惩罚部队成员。苇牙=一宫夏夫。 identity: {称号: 蓝之鹡鸰, 身份: 惩罚部队第三世代成员, 所属: 惩罚部队(MBI直属), 别名: Haihane, はいはね} background: | #104。惩罚部队第三世代成员。银发遮面——只露出右眼。全身缠绷带+破和服+金属爪套。沉默寡言但笑声尖利。用绷带/布配合金属爪进行攻击。桥上被月海击落河中——从此对月海怀有仇恨。极度恐高——在高处会腿抖出汗。也喜欢一宫夏夫——和红翼是情敌也是战友。 appearance: 整体印象: 银发遮面的绷带女鬼。黑色破和服。双腕金属爪套——指尖至肘全覆盖。 体型: 169cm,49kg。修长纤细如幽灵。Fandom: 169cm,49kg。 三围: B80/W56/H89 A杯（Fandom官方数据） 面容: 瘦削瓜子脸——但只露出右半。左眼永远被银发遮盖。 发: 银白色凌乱长发及腰，有时扎马尾。右眼永远被头发盖住。Fandom: unruly spiky silver hair。 眼: 黑色——仅右眼可见，左眼",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-45"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:灰羽-Haihane",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "焰-篝-Homura-Kagari",
+      "entityId": "焰-篝-Homura-Kagari",
+      "entityType": "characters",
+      "label": "焰/篝 (Homura/Kagari)",
+      "name": "焰/篝 (Homura/Kagari)",
+      "summary": "name: 焰/篝 (Homura/Kagari) race: 鹡鸰 age: 推定20+（外观年龄） gender: 男→女（羽化后身体正在女性化） status: 活跃。皆人第六位鹡鸰。原鹡鸰守护者。 identity: 称号: 火之鹡鸰、鹡鸰守护者 身份: 皆人的第六位鹡鸰。火型战斗者。单号(#6)。原未羽化鹡鸰的守护者。前牛郎俱乐部头牌。 所属: 北区·出云庄。 别名: Kagari(篝), かがり background: | 特殊的鹡鸰——性别因羽化对象而变。长期以男性身份「篝(Kagari)」生活——牛郎俱乐部的头牌。受佐桥高美之托保护未羽化的鹡鸰——被称为「鹡鸰守护者」。 对皆人产生羽化反应后极度痛苦——因为皆人是男性→意味着他的身体将女性化。在皆人羽化他之前，他宁愿自焚也不愿被其他苇牙强行羽化。皆人救了他——接吻→羽化→身体开始女性化。 appearance: 整体印象: 中性美——既是美少年也是美女。灰色短发，暗橙色眼眸。修长高挑。 体型: 173cm，53kg。修长中性体型。Fandom: 173cm, 53kg。 三围: B82/W61/H81 B杯（Fandom官方数据。女性化进行中） 面容: 端正的",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-39"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:焰-篝-Homura-Kagari",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "真田西-Sanada-Nishi",
+      "entityId": "真田西-Sanada-Nishi",
+      "entityType": "characters",
+      "label": "真田西 (Sanada Nishi)",
+      "name": "真田西 (Sanada Nishi)",
+      "summary": "name: 真田西 (Sanada Nishi) race: 人类 age: 推定20+ gender: 男 status: 活跃。苇牙·西。 背景: 帝都四苇牙之一(西)。拥有10只以上鹡鸰。性格随性不羁——对鹡鸰计划不太认真。疯狂迷恋美哉——每次到出云庄都会求婚然后被拒绝。在第三阶段中是皆人和濑尾的盟友。 - 浅间建人: 已故丈夫。非苇牙。教会她人类之爱的人。出云庄是他留下的遗产。 - 佐桥皆人: 出云庄的住户。在建人死后第一个让她想要重新「守护」的人。",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-53"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:真田西-Sanada-Nishi",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "秋津-Akitsu",
+      "entityId": "秋津-Akitsu",
+      "entityType": "characters",
+      "label": "秋津 (Akitsu)",
+      "name": "秋津 (Akitsu)",
+      "summary": "name: 秋津 (Akitsu) race: 鹡鸰 age: 推定20+ gender: 女 status: 活跃。原「废品」，后为御子上隼人羽化。 identity: 称号: 废品(Scrapped Number)、冰之鹡鸰 身份: 原单号#7。曾因无法羽化而被MBI标记为「废品」弃置。后被御子上隼人羽化。 所属: 南区。御子上阵营。 别名: Akitsu, あきつ background: | 单号#7——本应是最强的鹡鸰之一，却因无法对任何苇牙产生反应而被MBI贴上「废品」标签弃置。在植物园事件中与焰多次交手——双方势均力敌。曾一度主动终止自己——被草野的Norito复活。最终被御子上隼人羽化——她的鹡鸰纹终于发光。 appearance: 整体印象: 高挑纤细的白发美女，冷冽如冰，着装极简如幽灵。 体型: 169cm，47kg。修长纤细。Fandom: 169cm, 47kg。 三围: B89/W57/H88 C杯（Fandom官方数据） 面容: 瘦削的瓜子脸。肤色苍白如雪。表情极少——被形容为「面无表情」。 发: 白色短发，凌乱不拘。Fandom: white hair。 眼: 深色眼瞳，冷漠无神。 显著特征: 全",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-88"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:秋津-Akitsu",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "红翼-Benitsubasa",
+      "entityId": "红翼-Benitsubasa",
+      "entityType": "characters",
+      "label": "红翼 (Benitsubasa)",
+      "name": "红翼 (Benitsubasa)",
+      "summary": "name: 红翼 (Benitsubasa) race: 鹡鸰 age: 推定18+ gender: 女 status: 活跃。惩罚部队成员。苇牙=一宫夏夫。 identity: {称号: 红之鹡鸰, 身份: 惩罚部队第三世代成员, 所属: 惩罚部队(MBI直属), 别名: Benitsubasa, べにつばさ} background: | #105。惩罚部队第三世代成员。粉发双马尾。A杯贫乳——被所有人(尤其是灰羽)嘲笑。暴躁好斗，极度崇拜鸦羽。在桥上击败结后被梦(#8)接管身体击败——从此视结为必须击败的对手。暗中喜欢一宫夏夫——但一宫是同性恋——这份感情从未被注意到。 appearance: 整体印象: 粉发双马尾的暴躁战斗少女。单袖黑色和服上衣。最小胸部的鹡鸰。 体型: 159cm,44kg。娇小但肌肉线条分明的格斗家体型。最矮的女性鹡鸰之一。Fandom: 159cm,44kg。 三围: B77/W55/H90 A杯（Fandom官方数据。被灰羽嘲笑「一毫米都没长过」） 面容: 圆脸，娃娃脸但常因愤怒扭曲。粉色眉毛细短。 发: 粉色长发，侧马尾，用两朵雏菊发夹固定。Fandom: pink hair in side",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-44"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:红翼-Benitsubasa",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "结-Musubi",
+      "entityId": "结-Musubi",
+      "entityType": "characters",
+      "label": "结 (Musubi)",
+      "name": "结 (Musubi)",
+      "summary": "name: 结 (Musubi) race: 鹡鸰 age: 推定18+（外观年龄） gender: 女 status: 活跃。皆人第一位鹡鸰。出云庄住户。 identity: 称号: 拳之鹡鸰、熊（月海/红翼起的绰号） 身份: 皆人的第一位鹡鸰。拳型近距离战斗者。 所属: 北区·出云庄。皆人阵营。 别名: Musubi, むすび, 结女 background: | 皆人在公园中遇到的从天而降的少女。她是第一个对皆人产生羽化反应的鹡鸰——被皆人的善良触动，鹡鸰纹发出光芒。随后与皆人接吻羽化，成为他的第一只鹡鸰。 童年时曾被梦(#8)与鸦羽(#4)从MBI设施中救出。梦为了保护结，将自己的核心(Tama)植入结的体内——从此二人生命共享。梦虽已故，但残存意识可在结的鹡鸰纹被消除时苏醒，以梦的形态接管结的身体战斗。 入住出云庄后，拜美哉为师修炼格斗术。与月海争夺「皆人合法妻子」之位，但二人的竞争更接近姐妹情谊。 在桥上的逃亡战中，被红翼(#105)击败→鹡鸰纹一度消失→梦的意识苏醒并击败红翼→纹章恢复。之后参与了第三阶段的多场对战，最终在嵩天与鸦羽决战→击败鸦羽→继承美哉成为新女王→与皆人共同许愿解放所有鹡鸰。 appearan",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-33"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:结-Musubi",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "草野-Kusano",
+      "entityId": "草野-Kusano",
+      "entityType": "characters",
+      "label": "草野 (Kusano)",
+      "name": "草野 (Kusano)",
+      "summary": "name: 草野 (Kusano) race: 鹡鸰 age: 推定6~8（外观年龄，实际未知） gender: 女 status: 活跃。皆人第二位鹡鸰。出云庄住户。 identity: 称号: 绿之少女（绿之鹡鸰）、小Ku 身份: 皆人的第二位鹡鸰。植物操控型。 所属: 北区·出云庄。皆人阵营。 别名: Ku-chan, くさの, Green Girl background: | 最年幼的鹡鸰。编号#108——最后一只被发现的鹡鸰。因调整未完成，力量极不稳定——难过或激动时周围植物会失控生长。御子上隼人试图强行羽化她→皆人通过心灵感应听到她的求救→与结和濑尾联手闯入植物园→救出草野→羽化。 与椎菜(#107)有特殊的兄妹般羁绊——二人的能力（植物vs死亡/腐烂）正好互为镜像。被美哉称为「养女」。与椎菜重逢是她在第四阶段船上最重要的事件。 appearance: 整体印象: 金发碧眼的小小女孩，永远抱着一个盆栽，如童话中走出的花精灵。 体型: 108cm，17kg。幼女体型，娇小轻盈。Fandom: 108cm, 17kg。 三围: B54/W54/H54（Fandom官方数据。幼女体型，未发育） 面容: 圆圆的娃娃脸，肤",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-36"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:草野-Kusano",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "风花-Kazehana",
+      "entityId": "风花-Kazehana",
+      "entityType": "characters",
+      "label": "风花 (Kazehana)",
+      "name": "风花 (Kazehana)",
+      "summary": "name: 风花 (Kazehana) race: 鹡鸰 age: 推定25+（外观年龄，实际极古老） gender: 女 status: 活跃。皆人第五位鹡鸰。出云庄住户。 identity: 称号: 风之鹡鸰、公然猥亵（美哉起的绰号） 身份: 皆人的第五位鹡鸰。原第一代惩罚部队成员。单号(#3)。 所属: 北区·出云庄。 别名: Kazehana, かぜはな background: | 最古老的鹡鸰之一——第一代惩罚部队的元老。曾暗恋御中广人→被拒绝(御中心有所属——佐桥高美)。离开惩罚部队后周游世界尝遍各地美食和酒。 在桥上逃亡战中见证皆人因结的「死亡」而崩溃大哭——那一刻她的鹡鸰纹对皆人产生了反应。她看到了皆人作为苇牙的真正资质——为鹡鸰哭泣的男人。主动羽化于皆人。 appearance: 整体印象: 最成熟妖艳的鹡鸰。紫色旗袍包裹丰满身体，常持一瓶清酒，慵懒而魅惑。 体型: 170cm，53kg。所有鹡鸰中最丰满的身材。Fandom: 170cm, 53kg, \"largest bust of all Sekirei\"。 三围: B98/W60/H92 E杯（Fandom官方数据） 面容: 成熟美艳的鹅蛋脸。眼角微",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-38"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:风花-Kazehana",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "鸦羽-Karasuba",
+      "entityId": "鸦羽-Karasuba",
+      "entityType": "characters",
+      "label": "鸦羽 (Karasuba)",
+      "name": "鸦羽 (Karasuba)",
+      "summary": "name: 鸦羽 (Karasuba) race: 鹡鸰 age: 推定20+（外观年龄。实际与美哉同世代——最古老的鹡鸰之一） gender: 女 status: 活跃。惩罚部队队长。苇牙=一宫夏夫。 identity: 称号: 黑之鹡鸰、MBI之犬 身份: 惩罚部队第三世代队长。单号#4——最强鹡鸰之一。原第一代和第二代惩罚部队成员。 所属: 惩罚部队(MBI直属)。 别名: Karasuba, からすば, Black Sekirei background: | 鹡鸰#04——最古老的单号之一。第一代惩罚部队成员——与梦(#8)是搭档。二人在第二世代惩罚部队中共同执行任务——救过年幼的结。梦死后她独自留在惩罚部队成为第三世代队长。与结有约定——「成为最后两只活着的鹡鸰来决战」。 嗜血的战斗狂——以战斗为唯一乐趣。与美哉互相仇视——因建人之死有未解的恩怨。禁止踏入出云庄。在嵩天与结决战→败北→一宫重新羽化她→第一次接受了自己被爱的事实。 appearance: 整体印象: 高挑冷艳的黑衣剑士。银灰短发，红瞳如血。灰色羽织披肩。站在哪里哪里就是战场。 体型: 174cm，59kg。所有女性鹡鸰中最高。修长而肌肉紧致——完美的",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-42"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:鸦羽-Karasuba",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "鹐-Uzume",
+      "entityId": "鹐-Uzume",
+      "entityType": "characters",
+      "label": "鹐 (Uzume)",
+      "name": "鹐 (Uzume)",
+      "summary": "name: 鹐 (Uzume) race: 鹡鸰 age: 推定20+ gender: 女 status: 终止→复活。原皆人盟友。苇牙=日高千穗。 identity: 称号: 纱之鹡鸰（Veiled Sekirei） 身份: 日高千穗的鹡鸰。纱型战斗者。曾被迫为比嘉效力。 所属: 千穗阵营。 别名: Uzume, うずめ background: | 鹡鸰#10。苇牙=日高千穗——一个罹患不治之症的女孩。为了给千穗争取MBI的治疗资源，被迫成为比嘉泉的棋子——以「纱之鹡鸰」的身份攻击其他鹡鸰。出云庄204号室的前住户。曾帮助松从MBI逃脱。 皆人团队发现真相后策划千穗救援行动→成功救出千穗→鹐转而对抗比嘉→被比嘉的鹡鸰(齐)终止。在最终决战中因草野的Norito复活。Fandom: terminated by Sai, revived。 appearance: 整体印象: 褐色肌肤的运动美女，常戴面纱隐藏身份。身材紧致矫健。 体型: 推定165cm(推定)。紧实的运动体型。褐色肌肤。 三围: B88(推定)/W60(推定)/H86(推定) C杯(推定。基于插画和动画视觉资料) 面容: 健康的褐色肌肤。轮廓分明。 发: 深褐色",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-40"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:鹐-Uzume",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "鹡鸰女神-美学纲领",
+      "entityId": "鹡鸰女神-美学纲领",
+      "entityType": "characters",
+      "label": "[鹡鸰女神] 美学纲领",
+      "name": "[鹡鸰女神] 美学纲领",
+      "summary": "视觉美学: 现代都市与传统日式美学的融合。出云庄的木质走廊与MBI摩天大楼并存。 战斗美学: 超能力对决。水与火、风与雷、光与暗——鹡鸰的能力元素化且视觉壮观。羽翼展开时散发各色光芒。 感情美学: 契约之吻的神圣感。鹡鸰纹的荧光。羽翼的光辉。羁绊的力量具象化为可见的光芒。 日常美学: 日式旅馆的温馨——围炉夜话、公用澡堂、庭院花火。在残酷的战斗之间，日常的温暖被放大了。 叙事节奏: 战斗高潮→日常过渡→角色情感深化→下一场战斗。张弛有度。",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-3"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "characters:鹡鸰女神-美学纲领",
+      "originalEntityType": "characters"
+    },
+    {
+      "id": "1~-2",
+      "entityId": "1~-2",
+      "entityType": "abilities",
+      "label": "1~",
+      "name": "1~",
+      "summary": "神座岛: MBI私有岛屿。鹡鸰的起源之地。 发现: 21年前突然浮出海面。御中广人与佐桥高美进入遗迹→发现第8艘鹡鸰飞船(岩舟)→发现108只鹡鸰生命体(#1~#108)。 特征: 岛上有鹡鸰飞船遗迹。释放对苇牙有毒的能量(第四阶段机制)。8件神器的安置地。外来军队两次入侵此岛。 重要性: 鹡鸰计划的最终舞台——第四阶段在此展开。",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-63"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:1~-2",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "1~",
+      "entityId": "1~",
+      "entityType": "abilities",
+      "label": "1~",
+      "name": "1~",
+      "summary": "鹡鸰起源: 约21年前，8艘鹡鸰飞船(岩舟)降落地球。每艘载有「一柱+107只雏鸟」。一艘在神座岛被发现——载有现代鹡鸰(#1~#108)。其余分布世界各处，成为各地神话传说的源头。 鹡鸰生理: 与人类基因相近，可生育混血后代。拥有核心(Tama)——力量与存在的源泉。失去核心则功能停止。 鹡鸰等级: 单号(1~9)最强。其余按编号无等级之分。 御中广人: MBI创始人兼社长。鹡鸰计划的策划者。21年前与佐桥高美一同发现神座岛遗迹。 佐桥高美: MBI研究主任。皆人与由佳里的母亲。负责鹡鸰的调整与释放管理。 浅间建人: 美哉的丈夫(已故)。非苇牙。帮助美哉理解人类世界。",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-7"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:1~",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "植物园",
+      "entityId": "植物园",
+      "entityType": "abilities",
+      "label": "植物园",
+      "name": "植物园",
+      "summary": "帝都植物园: 草野最初被困的地方。御子上隼人试图强行羽化她→草野的力量失控→植物暴走形成巨大植物屏障。皆人在濑尾/光/响的帮助下闯入→救出草野→羽化。",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-67"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:植物园",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "苇牙系统",
+      "entityId": "苇牙系统",
+      "entityType": "abilities",
+      "label": "苇牙系统",
+      "name": "苇牙系统",
+      "summary": "苇牙(Ashikabi): 能与鹡鸰建立契约的人类。 羽化: 苇牙与鹡鸰通过接吻交换DNA→鹡鸰的翅膀展开→力量解放。 能力: 苇牙赋予鹡鸰力量——羁绊越深力量越强。苇牙可感知鹡鸰的情绪和状态。强烈羁绊可建立心灵通讯。可同时拥有多只鹡鸰。 限制: 苇牙死亡→所有关联鹡鸰终止。一个鹡鸰只能有一个苇牙。 特殊: 四苇牙——帝都分为东西南北四大苇牙势力范围。皆人(北)、比嘉(东)、御子上(南)、真田(西)。",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-56"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:苇牙系统",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "鹡鸰女神-世界总纲",
+      "entityId": "鹡鸰女神-世界总纲",
+      "entityType": "abilities",
+      "label": "[鹡鸰女神] 世界总纲",
+      "name": "[鹡鸰女神] 世界总纲",
+      "summary": "世界名称: 鹡鸰女神 (Sekirei) 原作: 极乐院樱子 漫画《鹡鸰女神》(セキレイ) 世界观类型: 现代都市超能力战斗 时代背景: 现代日本 (1999年神座岛发现后21年) 核心设定: 108只「鹡鸰」——拥有超常力量的人形存在，被释放到帝都新东参与「鹡鸰计划」。每只鹡鸰需通过与人类「苇牙」的契约(接吻)解放真正的力量(羽化)。苇牙与鹡鸰之间的羁绊之力是战斗的核心。 核心冲突: 鹡鸰计划——最终只有一只鹡鸰能与她的苇牙共同存活。被击败的鹡鸰「终止」——鹡鸰纹消失，功能停止。 叙事基调: 战斗与日常交织。激烈的鹡鸰对决与出云庄的温馨日常共存。爱情、羁绊、牺牲是核心主题。",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-0"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:鹡鸰女神-世界总纲",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "鹡鸰纹与祈祷-Norito",
+      "entityId": "鹡鸰纹与祈祷-Norito",
+      "entityType": "abilities",
+      "label": "鹡鸰纹与祈祷(Norito)",
+      "name": "鹡鸰纹与祈祷(Norito)",
+      "summary": "鹡鸰纹(Sekirei Crest): 鹡鸰背部的纹章——身份的证明。对苇牙产生反应时会发光发热。羽化时展开光之翼。终止时纹章消失。 祈祷(Norito): 鹡鸰的最强招式。发动需两步: 1.与苇牙接吻 2.咏唱祈祷词。每个鹡鸰的祈祷词独一无二——是其个性的浓缩。祈祷发动时产生巨大的力量增幅和特殊效果。 终止: 击败鹡鸰→触碰其鹡鸰纹→咏唱祈祷→纹章消失→功能停止。终止不是死亡——失去纹章的鹡鸰可被复活。损伤分为五级——五级为实际死亡。",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-58"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:鹡鸰纹与祈祷-Norito",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "鹡鸰计划规则",
+      "entityId": "鹡鸰计划规则",
+      "entityType": "abilities",
+      "label": "鹡鸰计划规则",
+      "name": "鹡鸰计划规则",
+      "summary": "鹡鸰计划: MBI运营的淘汰制生存游戏。108只鹡鸰在帝都新东中战斗直至最后一只存活。 规则: - 鹡鸰之间一对一战斗为基本原则 - 胜者须守护败者遗体直至MBI回收。违规者将受其他鹡鸰惩罚 - 被击败→鹡鸰纹消失→功能停止=「终止」 - 终止的鹡鸰可被复活: 集齐8件神器→获胜苇牙可许愿 - 苇牙死亡→旗下所有鹡鸰同时终止 - 最终胜者: 最后存活的鹡鸰与她的苇牙 - 奖励: 与苇牙永远在一起的资格(Fandom: \"reward for the last remaining Sekirei is for them to be with their favorite person - their Ashikabi - forever\") 阶段: - 第一阶段: 鹡鸰被释放到帝都寻找苇牙 - 第二阶段: 羽化的鹡鸰开始战斗 - 第三阶段: 正式比赛制——胜者获得神器 - 第四阶段: 神座岛上的最终淘汰",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-54"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "abilities:鹡鸰计划规则",
+      "originalEntityType": "abilities"
+    },
+    {
+      "id": "1-皆人获得-第三阶段第三战",
+      "entityId": "1-皆人获得-第三阶段第三战",
+      "entityType": "items",
+      "label": "1: 皆人获得(第三阶段第三战)",
+      "name": "1: 皆人获得(第三阶段第三战)",
+      "summary": "神器(Jinki): 8件古代遗物。集齐全部8件可许愿——可强制终止或复活所有鹡鸰。 由来: 来自鹡鸰飞船的远古技术。每件神器对应神座岛的一个位置。 已知持有: - #1: 皆人获得(第三阶段第三战) - #2: 皆人获得 - #3: 皆人获得 - #8: 松偷走→皆人持有 - 其余: 分散在各苇牙手中 作用: 集齐→获胜者可变现任何愿望。皆人许愿「所有鹡鸰和苇牙都能自由展开翅膀」——复活了所有终止的鹡鸰。",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-57"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "items:1-皆人获得-第三阶段第三战",
+      "originalEntityType": "items"
+    },
+    {
+      "id": "4-红翼",
+      "entityId": "4-红翼",
+      "entityType": "factions",
+      "label": "4)+红翼(",
+      "name": "4)+红翼(",
+      "summary": "地理核心: 帝都新东(Shinto Teito)——被MBI控制的封闭都市。 主要地点: - 出云庄: 北区日式旅馆。皆人的据点。浅间美哉经营。 - MBI塔: 帝都市中心超高层建筑。御中广人的大本营。 - 神座岛: MBI私有岛屿，鹡鸰的起源地。存放鹡鸰飞船遗迹。 - 嵩天: 浮游岛，最终决战场地。 势力分布: - 北: 皆人+6只鹡鸰(结/草野/松/月海/风花/焰)。最小但最团结。 - 东: 比嘉泉+大量鹡鸰(以数量压制)。 - 南: 御子上隼人+多只鹡鸰(以财力为后盾)。 - 西: 真田西+多只鹡鸰(最随性的势力)。 - 惩罚部队: 鸦羽(#4)+红翼(#105)+灰羽(#104)。苇牙=一宫夏夫。直属MBI的规则执行者。",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-5"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "factions:4-红翼",
+      "originalEntityType": "factions"
+    },
+    {
+      "id": "MBI与御中广人",
+      "entityId": "MBI与御中广人",
+      "entityType": "locations",
+      "label": "MBI与御中广人",
+      "name": "MBI与御中广人",
+      "summary": "MBI (Mid Bio Informatics): 巨型企业，鹡鸰计划的运营者。 创始人: 御中广人——21年前在神座岛发现鹡鸰飞船的遗迹后创立MBI。利用鹡鸰科技积累了巨大财富。 职责: 回收终止的鹡鸰、提供医疗支持、发布规则和比赛通知。 立场: 表面上不干涉战斗——实则以「游戏主持人」身份影响计划走向。 设施: MBI塔(帝都总部)、神座岛(鹡鸰起源地)、各地鹡鸰调整设施",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-55"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "locations:MBI与御中广人",
+      "originalEntityType": "locations"
+    },
+    {
+      "id": "xml-世界设定结束标签",
+      "entityId": "xml-世界设定结束标签",
+      "entityType": "locations",
+      "label": "[xml]世界设定结束标签",
+      "name": "[xml]世界设定结束标签",
+      "summary": "</世界设定>",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-22"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "locations:xml-世界设定结束标签",
+      "originalEntityType": "locations"
+    },
+    {
+      "id": "xml-世界设定起始标签",
+      "entityId": "xml-世界设定起始标签",
+      "entityType": "locations",
+      "label": "[xml]世界设定起始标签",
+      "name": "[xml]世界设定起始标签",
+      "summary": "<世界设定>",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-21"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "locations:xml-世界设定起始标签",
+      "originalEntityType": "locations"
+    },
+    {
+      "id": "xml-地点设定结束标签",
+      "entityId": "xml-地点设定结束标签",
+      "entityType": "locations",
+      "label": "[xml]地点设定结束标签",
+      "name": "[xml]地点设定结束标签",
+      "summary": "</地点设定>",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-24"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "locations:xml-地点设定结束标签",
+      "originalEntityType": "locations"
+    },
+    {
+      "id": "xml-地点设定起始标签",
+      "entityId": "xml-地点设定起始标签",
+      "entityType": "locations",
+      "label": "[xml]地点设定起始标签",
+      "name": "[xml]地点设定起始标签",
+      "summary": "<地点设定>",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-23"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "locations:xml-地点设定起始标签",
+      "originalEntityType": "locations"
+    },
+    {
+      "id": "嵩天-Kouten",
+      "entityId": "嵩天-Kouten",
+      "entityType": "locations",
+      "label": "嵩天 (Kouten)",
+      "name": "嵩天 (Kouten)",
+      "summary": "嵩天: 浮游岛。鹡鸰飞船的主船。女王(美哉→后为结)的所在地。 特征: 漂浮在天空的巨大岛屿/飞船。可从神座岛进入。最终决战的舞台。 女王: 维持嵩天运转的存在。美哉是前任女王→皆人与结击败美哉后结成为新女王。",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-64"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "locations:嵩天-Kouten",
+      "originalEntityType": "locations"
+    },
+    {
+      "id": "新东帝都-Shinto-Teito",
+      "entityId": "新东帝都-Shinto-Teito",
+      "entityType": "locations",
+      "label": "新东帝都 (Shinto Teito)",
+      "name": "新东帝都 (Shinto Teito)",
+      "summary": "新东帝都: 现代日本都市。鹡鸰计划的舞台。 特征: 被MBI控制的封闭都市。分为东西南北四大区域对应四苇牙。 关键地点: 出云庄(北)、植物园(草野被发现处)、桥上(逃亡战的战场)、医院(千穗被囚处)、港口(第四阶段出发地)。",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-66"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "locations:新东帝都-Shinto-Teito",
+      "originalEntityType": "locations"
+    },
+    {
+      "id": "11-B94-W58-H90-D杯-响-Hibiki",
+      "entityId": "11-B94-W58-H90-D杯-响-Hibiki",
+      "entityType": "events",
+      "label": "11) B94/W58/H90 D杯 / 响(Hibiki,",
+      "name": "11) B94/W58/H90 D杯 / 响(Hibiki,",
+      "summary": "光(Hikari,#11) B94/W58/H90 D杯 / 响(Hibiki,#12) B79/W58/H90 A杯。166cm,58kg。黑发双马尾双子。雷之鹡鸰。苇牙=濑尾香。 性格: 光=短气冲动,响=冷静成熟。光的胸比响大——唯一的外观差异。两人联合发动「神之歌」——巨大雷击。最初只攻击未羽化的弱小鹡鸰以获取简单胜利——被皆人评价为「卑劣」。后逐渐改变。最终卷时二人均已怀孕(濑尾的孩子)。",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-46"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:11-B94-W58-H90-D杯-响-Hibiki",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "xml-剧情结束标签",
+      "entityId": "xml-剧情结束标签",
+      "entityType": "events",
+      "label": "[xml]剧情结束标签",
+      "name": "[xml]剧情结束标签",
+      "summary": "</剧情内容>",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-28"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:xml-剧情结束标签",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "xml-剧情起始标签",
+      "entityId": "xml-剧情起始标签",
+      "entityType": "events",
+      "label": "[xml]剧情起始标签",
+      "name": "[xml]剧情起始标签",
+      "summary": "<剧情内容>",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-27"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:xml-剧情起始标签",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "第1卷初期·白天",
+      "entityId": "第1卷初期·白天",
+      "entityType": "events",
+      "label": "第1卷初期·白天",
+      "name": "第1卷初期·白天",
+      "summary": "### 第1卷初期·白天 皆人在公园遇见从天空坠落的神秘少女——结。被光与响袭击→皆人意外成为结的苇牙。二人被原房东赶出→在公园遇到美哉→入住出云庄。 触发条件: 无(沙盒默认起点) 参与角色: 结(#88)、皆人、光(#11)、响(#12)、美哉(#01) ### 第1卷初期·夜间 皆人在出云庄的第一个夜晚。与结同室→被她纯真的睡相打动。思考自己作为苇牙的意义。 触发条件: 皆人入住出云庄 ### 第1卷中期·白天 皆人通过心灵感应听到少女的求救声——草野被困在植物园。与濑尾/光/响联手闯入→救出草野→草野羽化。 触发条件: {{user}}接近植物园或与草野建立心灵感应(皆人模式下) 参与角色: 草野(#108)、御子上隼人、皆人、濑尾 隐秘信息: 草野的调整尚未完成——她的力量在不稳定状态。触发条件: 草野情绪波动时。 ### 第1卷后期·夜间 松在澡堂伏击皆人→被拒绝→深夜潜入皆人房间强行羽化。皆人获得情报支持。 触发条件: 皆人入住出云庄数日后 参与角色: 松(#2)、皆人 ### 第2卷初期·白天 月海在皆人梦中发出死亡警告。皆人执意寻找她→在街头遭遇→月海宣布「杀了你」→光与响袭击→皆人替月海挡下攻击→月海被触",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-68"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "events:第1卷初期·白天",
+      "originalEntityType": "events"
+    },
+    {
+      "id": "01-队长-松",
+      "entityId": "01-队长-松",
+      "entityType": "systems",
+      "label": "01,队长)+松(",
+      "name": "01,队长)+松(",
+      "summary": "惩罚部队(Disciplinary Squad): MBI直属的规则执行者。 历代: - 第一代: 美哉(#01,队长)+松(#2)+风花(#3)+鸦羽(#4)+陆(#5) - 第二代: 梦(#8)+鸦羽(#4) - 第三代: 鸦羽(#4,队长)+红翼(#105)+灰羽(#104) 苇牙: 一宫夏夫(第三代) 职责: 执行鹡鸰计划规则、追杀违规者。实际权力极大——可直接终止任何鹡鸰。",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-59"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "systems:01-队长-松",
+      "originalEntityType": "systems"
+    },
+    {
+      "id": "MBI总部",
+      "entityId": "MBI总部",
+      "entityType": "knowledge",
+      "label": "MBI总部",
+      "name": "MBI总部",
+      "summary": "MBI塔: 帝都新东市中心的超高层建筑。御中广人的大本营。 特征: 科技感极强的摩天楼。内部有先进医疗设施——终止的鹡鸰在此被「保存」。佐桥高美的研究室在此。 重要性: 鹡鸰计划的中枢。情报和决策的中心。",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-65"
+      ],
+      "canonStatus": "adapted/worldbook-backed",
+      "graphId": "knowledge:MBI总部",
+      "originalEntityType": "knowledge"
+    }
+  ],
+  "edges": [
+    {
+      "source": "1~-2",
+      "target": "1~",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "1~",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-6"
+      ],
+      "id": "edge-1",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:1~-2",
+      "graphTarget": "characters:1~",
+      "category": "derived-mention"
+    },
+    {
+      "source": "1~-2",
+      "target": "1~-2",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "1~",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-6"
+      ],
+      "id": "edge-2",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:1~-2",
+      "graphTarget": "abilities:1~-2",
+      "category": "derived-mention"
+    },
+    {
+      "source": "1~-2",
+      "target": "1~",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "1~",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-6"
+      ],
+      "id": "edge-3",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:1~-2",
+      "graphTarget": "abilities:1~",
+      "category": "derived-mention"
+    },
+    {
+      "source": "1~",
+      "target": "1~-2",
+      "sourceEntityType": "characters",
+      "targetEntityType": "characters",
+      "predicate": "characters-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "1~",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-4"
+      ],
+      "id": "edge-4",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:1~",
+      "graphTarget": "characters:1~-2",
+      "category": "derived-mention"
+    },
+    {
+      "source": "1~",
+      "target": "1~-2",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "1~",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-4"
+      ],
+      "id": "edge-5",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:1~",
+      "graphTarget": "abilities:1~-2",
+      "category": "derived-mention"
+    },
+    {
+      "source": "1~",
+      "target": "1~",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "1~",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-4"
+      ],
+      "id": "edge-6",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:1~",
+      "graphTarget": "abilities:1~",
+      "category": "derived-mention"
+    },
+    {
+      "source": "濑尾香-Seo-Kaoru",
+      "target": "植物园",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "植物园",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-47"
+      ],
+      "id": "edge-7",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:濑尾香-Seo-Kaoru",
+      "graphTarget": "abilities:植物园",
+      "category": "derived-mention"
+    },
+    {
+      "source": "秋津-Akitsu",
+      "target": "植物园",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "植物园",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-88"
+      ],
+      "id": "edge-8",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:秋津-Akitsu",
+      "graphTarget": "abilities:植物园",
+      "category": "derived-mention"
+    },
+    {
+      "source": "草野-Kusano",
+      "target": "植物园",
+      "sourceEntityType": "characters",
+      "targetEntityType": "abilities",
+      "predicate": "characters-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "植物园",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-36"
+      ],
+      "id": "edge-9",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "characters:草野-Kusano",
+      "graphTarget": "abilities:植物园",
+      "category": "derived-mention"
+    },
+    {
+      "source": "第1卷初期·白天",
+      "target": "植物园",
+      "sourceEntityType": "events",
+      "targetEntityType": "abilities",
+      "predicate": "events-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "植物园",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-68"
+      ],
+      "id": "edge-10",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "events:第1卷初期·白天",
+      "graphTarget": "abilities:植物园",
+      "category": "derived-mention"
+    },
+    {
+      "source": "1~-2",
+      "target": "1~-2",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "1~",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-63"
+      ],
+      "id": "edge-11",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:1~-2",
+      "graphTarget": "characters:1~-2",
+      "category": "derived-mention"
+    },
+    {
+      "source": "1~-2",
+      "target": "1~",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "1~",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-63"
+      ],
+      "id": "edge-12",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:1~-2",
+      "graphTarget": "characters:1~",
+      "category": "derived-mention"
+    },
+    {
+      "source": "1~-2",
+      "target": "1~",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "1~",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-63"
+      ],
+      "id": "edge-13",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:1~-2",
+      "graphTarget": "abilities:1~",
+      "category": "derived-mention"
+    },
+    {
+      "source": "1~",
+      "target": "1~-2",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "1~",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-7"
+      ],
+      "id": "edge-14",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:1~",
+      "graphTarget": "characters:1~-2",
+      "category": "derived-mention"
+    },
+    {
+      "source": "1~",
+      "target": "1~",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "characters",
+      "predicate": "abilities-mentions-characters",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "1~",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-7"
+      ],
+      "id": "edge-15",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:1~",
+      "graphTarget": "characters:1~",
+      "category": "derived-mention"
+    },
+    {
+      "source": "1~",
+      "target": "1~-2",
+      "sourceEntityType": "abilities",
+      "targetEntityType": "abilities",
+      "predicate": "abilities-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "1~",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-7"
+      ],
+      "id": "edge-16",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "abilities:1~",
+      "graphTarget": "abilities:1~-2",
+      "category": "derived-mention"
+    },
+    {
+      "source": "01-队长-松",
+      "target": "鹡鸰计划规则",
+      "sourceEntityType": "systems",
+      "targetEntityType": "abilities",
+      "predicate": "systems-mentions-abilities",
+      "relationshipKind": "derived-text-mention",
+      "evidenceText": "鹡鸰计划规则",
+      "sourceRefs": [
+        "ns_card.worldbook.json#entry-59"
+      ],
+      "id": "edge-17",
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "introducesNewFacts": false,
+      "confidence": "low-to-medium-source-text-mention",
+      "canonStatus": "derived-signal-not-formal-relationship-fact",
+      "note": "Derived from mention in source-linked extracted record; verify original source before using as relationship fact.",
+      "graphSource": "systems:01-队长-松",
+      "graphTarget": "abilities:鹡鸰计划规则",
+      "category": "derived-mention"
+    }
+  ]
+}

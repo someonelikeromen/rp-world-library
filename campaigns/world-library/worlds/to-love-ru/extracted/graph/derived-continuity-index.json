@@ -1,0 +1,63 @@
+{
+  "schema": "to-love-ru-derived-continuity-index-v1",
+  "worldId": "to-love-ru",
+  "recordType": "derived-continuity-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "continuityFamilies": [
+    {
+      "continuityFamilyId": "to-love-ru-worldbook-derived-continuity",
+      "sourceIndexes": [
+        "events/index.json",
+        "characters/index.json"
+      ],
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "eventNodes": [
+        {
+          "id": "夕崎梨子",
+          "name": "夕崎梨子",
+          "sourceRefs": [
+            "cbwn_card.worldbook.json#entry-19"
+          ]
+        },
+        {
+          "id": "天条院沙姬",
+          "name": "天条院沙姬",
+          "sourceRefs": [
+            "cbwn_card.worldbook.json#entry-32"
+          ]
+        },
+        {
+          "id": "弄光泰三",
+          "name": "弄光泰三",
+          "sourceRefs": [
+            "cbwn_card.worldbook.json#entry-38"
+          ]
+        },
+        {
+          "id": "第7卷-恋爱迷宫与旧校舍的异星幽灵",
+          "name": "第7卷 恋爱迷宫与旧校舍的异星幽灵",
+          "sourceRefs": [
+            "cbwn_card.worldbook.json#entry-6"
+          ]
+        },
+        {
+          "id": "籾冈里纱",
+          "name": "籾冈里纱",
+          "sourceRefs": [
+            "cbwn_card.worldbook.json#entry-30"
+          ]
+        }
+      ]
+    },
+    {
+      "continuityFamilyId": "to-love-ru-engine-rules-excluded",
+      "sourceIndexes": [
+        "engine-rules/index.json"
+      ],
+      "excludedFromFormalGraph": true,
+      "reason": "Engine rules and status templates are not world facts."
+    }
+  ]
+}

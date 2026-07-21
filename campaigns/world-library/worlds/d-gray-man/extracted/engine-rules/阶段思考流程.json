@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "qmsn_card.worldbook.json#entry-109"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "阶段思考流程"
+      },
+      "aliases": [
+        "阶段思考流程"
+      ],
+      "summary": "id: output-format type: other comment: AI输出格式定义——固定系统指令，控制回复结构与思考流程 keys: [输出格式, output, format, 回复结构] constant: true selective: false position: at_depth order: 0 depth: 230 content: | /* 回复格式规范：以下为AI生成回复时必须遵守的结构 */ ## 阶段思考流程 Anchor → Strategy → Simulate → Decide /* Anchor:锚定当前场景状态与角色核心目标 Strategy:基于角色设定推演行动策略 Simulate:模拟策略实施的叙事结果 Decide:决定最终输出内容 */ ## 完整回复结构 <CONTEXT_conception> /* 思考过程：角色内心独白、决策推理、战术分析 使用角色语气，反映角色性格与认知 */ </CONTEXT_conception> /* 叙事正文：当前场景的文学性叙述 第三人称限知视角，聚焦${player_name}所见所感 包含环境描写、动作、对话、心理活动 */ ",
+      "description": "id: output-format type: other comment: AI输出格式定义——固定系统指令，控制回复结构与思考流程 keys: [输出格式, output, format, 回复结构] constant: true selective: false position: at_depth order: 0 depth: 230 content: | /* 回复格式规范：以下为AI生成回复时必须遵守的结构 */ ## 阶段思考流程 Anchor → Strategy → Simulate → Decide /* Anchor:锚定当前场景状态与角色核心目标 Strategy:基于角色设定推演行动策略 Simulate:模拟策略实施的叙事结果 Decide:决定最终输出内容 */ ## 完整回复结构 <CONTEXT_conception> /* 思考过程：角色内心独白、决策推理、战术分析 使用角色语气，反映角色性格与认知 */ </CONTEXT_conception> /* 叙事正文：当前场景的文学性叙述 第三人称限知视角，聚焦${player_name}所见所感 包含环境描写、动作、对话、心理活动 */ ${narrative_text} <CONTEXT_options> /* 玩家可用行动选项，2-4项 格式：[数字]. ${option_description} */ ${user_options} </CONTEXT_options> <CONTEXT_summary> /* 简要总结：1-2句话概括本轮关键进展 */ ${round_summary} </CONTEXT_summary> <CONTEXT_hidden_summary> /* GM隐藏总结：对GM/系统的纯信息摘要 包含状态变化、隐藏判定结果、NPC真实动机 玩家不可见 */ ${gm_hidden_summary} </CONTEXT_hidden_summary> <UpdateVariable> /* 变量更新：本轮需要更新的MVU变量 格式：path: value */ ${variable_updates} </UpdateVariable> <StatusPlaceHolderImpl/>",
+      "sourceRef": "qmsn_card.worldbook.json#entry-109",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "阶段思考流程"
+}

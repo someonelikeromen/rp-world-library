@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "qmsn_card.worldbook.json#entry-22"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[EJS]inline:沙盒场景控制器"
+      },
+      "aliases": [
+        "[EJS]inline:沙盒场景控制器"
+      ],
+      "summary": "@@generate_before <%_ _%> <%- await getwi('[DGM] 沙盒时间推进规则') %> <%- await getwi('[DGM] 沙盒触发条件') %> <%- await getwi('[DGM] 沙盒人物总览列表') %> <%- await getwi('[DGM] 沙盒关键剧情时间表') %> <%- await getwi('[DGM] 沙盒各处地点详解') %>",
+      "description": "@@generate_before <%_ _%> <%- await getwi('[DGM] 沙盒时间推进规则') %> <%- await getwi('[DGM] 沙盒触发条件') %> <%- await getwi('[DGM] 沙盒人物总览列表') %> <%- await getwi('[DGM] 沙盒关键剧情时间表') %> <%- await getwi('[DGM] 沙盒各处地点详解') %>",
+      "sourceRef": "qmsn_card.worldbook.json#entry-22",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "EJS-inline-沙盒场景控制器"
+}

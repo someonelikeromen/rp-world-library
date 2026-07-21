@@ -1,0 +1,63 @@
+{
+  "schema": "sora-no-otoshimono-derived-continuity-index-v1",
+  "worldId": "sora-no-otoshimono",
+  "recordType": "derived-continuity-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "continuityFamilies": [
+    {
+      "continuityFamilyId": "sora-no-otoshimono-worldbook-derived-continuity",
+      "sourceIndexes": [
+        "events/index.json",
+        "characters/index.json"
+      ],
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "eventNodes": [
+        {
+          "id": "樱井智子",
+          "name": "樱井智子",
+          "sourceRefs": [
+            "tjzw_card.worldbook.json#entry-20"
+          ]
+        },
+        {
+          "id": "第10卷-泪雨中的气象天使与爱的超进化",
+          "name": "第10卷 泪雨中的气象天使与爱的超进化",
+          "sourceRefs": [
+            "tjzw_card.worldbook.json#entry-9"
+          ]
+        },
+        {
+          "id": "第2卷-天才-爆弹与电子战用天使",
+          "name": "第2卷 天才、爆弹与电子战用天使",
+          "sourceRefs": [
+            "tjzw_card.worldbook.json#entry-1"
+          ]
+        },
+        {
+          "id": "第5卷-恋爱脉动与笨蛋天使的降临",
+          "name": "第5卷 恋爱脉动与笨蛋天使的降临",
+          "sourceRefs": [
+            "tjzw_card.worldbook.json#entry-4"
+          ]
+        },
+        {
+          "id": "第6卷-西纳普斯的彼端与笨蛋的日常",
+          "name": "第6卷 西纳普斯的彼端与笨蛋的日常",
+          "sourceRefs": [
+            "tjzw_card.worldbook.json#entry-5"
+          ]
+        }
+      ]
+    },
+    {
+      "continuityFamilyId": "sora-no-otoshimono-engine-rules-excluded",
+      "sourceIndexes": [
+        "engine-rules/index.json"
+      ],
+      "excludedFromFormalGraph": true,
+      "reason": "Engine rules and status templates are not world facts."
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "schema": "tm-nasuverse-extracted-publication-manifest-v1",
+  "worldId": "type-moon-nasuverse",
+  "layer": "extracted",
+  "publicationDate": "2026-07-20",
+  "publisherStepId": "extracted-publisher",
+  "sourceRoot": "campaigns/world-library/manual-curation/type-moon-p1-hybrid/",
+  "destinationRoot": "campaigns/world-library/worlds/type-moon-nasuverse/extracted/",
+  "publicationMode": "source-linked-indexes-with-representative-shards",
+  "queryDefaults": {
+    "includeFormal": true,
+    "includeCandidateOnly": false,
+    "includeSourceGaps": false,
+    "derivedGraphTimelineArePrimaryFacts": false
+  },
+  "guardrails": {
+    "rawImportsModified": false,
+    "oldCuratedModified": false,
+    "forbiddenBasenamesCreatedInExtractedLayer": [],
+    "forbiddenBasenames": [
+      "characters.json",
+      "events.json",
+      "relationships.json",
+      "facts.json",
+      "graph.json",
+      "timeline.json"
+    ],
+    "candidateOnlyPromotedToFormalFacts": false,
+    "sourceGapPromotedToFormalFacts": false
+  },
+  "formalPilotRegistry": [
+    {
+      "pilotId": "fsn-fz-pilot",
+      "status": "passed-with-known-risks",
+      "canonStatus": "canon-like/adapted",
+      "sourceType": "p1-hybrid-local-worldbook-and-story-text",
+      "credibility": "B",
+      "publicationDecision": "formal-source-linked-indexes",
+      "acceptedArtifactRefs": [
+        "fsn-fz-pilot/merged/index.json",
+        "fsn-fz-pilot/merged/merged-entities.json",
+        "fsn-fz-pilot/merged/merged-graph.json",
+        "fsn-fz-pilot/merged/merged-timeline.json",
+        "fsn-fz-pilot/audit/final-pass-report.json"
+      ],
+      "auditStatus": "canPublishPilotSideBySide true; canReplaceCurated false"
+    },
+    {
+      "pilotId": "fgo-script-pilot",
+      "status": "passed-with-nonblocking-risks",
+      "canonStatus": "canon-like",
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "publicationDecision": "formal-source-linked-indexes",
+      "acceptedArtifactRefs": [
+        "fgo-script-pilot/merged/",
+        "fgo-script-pilot/graph/",
+        "fgo-script-pilot/timeline/",
+        "fgo-script-pilot/STATUS.md"
+      ],
+      "auditStatus": "accepted with nonblocking risks after visual/ability/combat audit rerun"
+    },
+    {
+      "pilotId": "fgo-eor-pilot",
+      "status": "passed-with-nonblocking-risks",
+      "canonStatus": "canon-like",
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "publicationDecision": "formal-source-linked-indexes",
+      "acceptedArtifactRefs": [
+        "fgo-eor-pilot/merged/",
+        "fgo-eor-pilot/graph/",
+        "fgo-eor-pilot/timeline/eor/",
+        "fgo-eor-pilot/audit/final-acceptance.md"
+      ],
+      "auditStatus": "final accepted after parent forbidden-basename repair"
+    },
+    {
+      "pilotId": "fgo-lb1-lb2-pilot",
+      "status": "passed-with-nonblocking-risks",
+      "canonStatus": "canon-like",
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "publicationDecision": "formal-source-linked-indexes",
+      "acceptedArtifactRefs": [
+        "fgo-lb1-lb2-pilot/merged/index.json",
+        "fgo-lb1-lb2-pilot/graph/lostbelt/derived-index.json",
+        "fgo-lb1-lb2-pilot/timeline/lostbelt/index.json"
+      ],
+      "auditStatus": "independent final audit passed with nonblocking risks"
+    },
+    {
+      "pilotId": "fgo-lb3-lb4-pilot",
+      "status": "passed-with-nonblocking-risks",
+      "canonStatus": "canon-like",
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "publicationDecision": "formal-source-linked-indexes",
+      "acceptedArtifactRefs": [
+        "fgo-lb3-lb4-pilot/merged/index.json",
+        "fgo-lb3-lb4-pilot/graph/index.json",
+        "fgo-lb3-lb4-pilot/timeline/lostbelt/index.json"
+      ],
+      "auditStatus": "independent final audit addendum passed with nonblocking risks"
+    },
+    {
+      "pilotId": "fgo-lb5-pilot",
+      "status": "passed-with-nonblocking-risks",
+      "canonStatus": "canon-like",
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "publicationDecision": "formal-source-linked-indexes",
+      "acceptedArtifactRefs": [
+        "fgo-lb5-pilot/merged/index.json",
+        "fgo-lb5-pilot/graph/lostbelt/index.json",
+        "fgo-lb5-pilot/timeline/lostbelt/index.json"
+      ],
+      "auditStatus": "independent final audit passed with nonblocking risks"
+    },
+    {
+      "pilotId": "fgo-lb6-pilot",
+      "status": "passed-with-nonblocking-risks",
+      "canonStatus": "canon-like",
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "publicationDecision": "formal-source-linked-indexes",
+      "acceptedArtifactRefs": [
+        "fgo-lb6-pilot/merged/index.json",
+        "fgo-lb6-pilot/graph/derived-index.json",
+        "fgo-lb6-pilot/timeline/lostbelt/index.json"
+      ],
+      "auditStatus": "independent final audit passed with nonblocking risks"
+    },
+    {
+      "pilotId": "fgo-ordeal-call-pilot",
+      "status": "accepted-with-nonblocking-risks",
+      "canonStatus": "canon-like",
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "publicationDecision": "formal-source-linked-indexes; packet signal coverage referenced, not inferred",
+      "acceptedArtifactRefs": [
+        "fgo-ordeal-call-pilot/merged/index.json",
+        "fgo-ordeal-call-pilot/graph/derived-index.json",
+        "fgo-ordeal-call-pilot/timeline/ordeal-call/index.json",
+        "fgo-ordeal-call-pilot/normalized/ordeal-call/"
+      ],
+      "auditStatus": "r31 retrospective merge compliance passed with nonblocking risks"
+    },
+    {
+      "pilotId": "kara-no-kyoukai-profile-supplement-pilot",
+      "status": "passed-with-nonblocking-risks",
+      "canonStatus": "canon-like/adapted",
+      "sourceType": "user-file-worldbook-profile",
+      "credibility": "B",
+      "publicationDecision": "formal-source-linked-profile-and-setting-indexes",
+      "acceptedArtifactRefs": [
+        "kara-no-kyoukai-profile-supplement-pilot/merged/profile-index.json",
+        "kara-no-kyoukai-profile-supplement-pilot/normalized/profile-supplement/",
+        "kara-no-kyoukai-profile-supplement-pilot/graph/derived-index.json",
+        "kara-no-kyoukai-profile-supplement-pilot/timeline/derived-index.json"
+      ],
+      "auditStatus": "final gate passed with nonblocking risks"
+    },
+    {
+      "pilotId": "prisma-illya-profile-supplement-pilot",
+      "status": "passed-with-nonblocking-risks",
+      "canonStatus": "canon-like/adapted",
+      "sourceType": "user-file-worldbook-profile-redacted",
+      "credibility": "B",
+      "publicationDecision": "formal-SFW-redacted-source-linked-indexes",
+      "acceptedArtifactRefs": [
+        "prisma-illya-profile-supplement-pilot/normalized/profile-supplement/prisma-illya/index.json",
+        "prisma-illya-profile-supplement-pilot/graph/derived-index.json",
+        "prisma-illya-profile-supplement-pilot/timeline/derived-index.json"
+      ],
+      "auditStatus": "terminal passed after forbidden-basename fix; unsafe sections excluded"
+    },
+    {
+      "pilotId": "lb6-fairy-calendar-supplement-pilot",
+      "status": "passed-with-nonblocking-risks",
+      "canonStatus": "canon-like/adapted",
+      "sourceType": "user-file-worldbook-setting",
+      "credibility": "B",
+      "publicationDecision": "formal-relative-calendar-setting-indexes",
+      "acceptedArtifactRefs": [
+        "lb6-fairy-calendar-supplement-pilot/normalized/calendar-setting/calendar-system.json",
+        "lb6-fairy-calendar-supplement-pilot/normalized/calendar-setting/relative-sequence-records.json",
+        "lb6-fairy-calendar-supplement-pilot/graph/derived-index.json",
+        "lb6-fairy-calendar-supplement-pilot/timeline/derived-index.json"
+      ],
+      "auditStatus": "final gate passed with nonblocking risks"
+    },
+    {
+      "pilotId": "type-moon-core-general-settings-pilot",
+      "status": "passed-with-human-scope-limitations",
+      "canonStatus": "adapted/secondary-summary",
+      "sourceType": "derived-from-completed-pilot-settings-supplement",
+      "credibility": "B with human-scope limitations",
+      "publicationDecision": "formal indexes for non-candidate setting anchors only; Atlas/Sion retained as source-gap",
+      "acceptedArtifactRefs": [
+        "type-moon-core-general-settings-pilot/normalized/core-general-settings/index.json",
+        "type-moon-core-general-settings-pilot/normalized/core-general-settings/settings-supplement.json",
+        "type-moon-core-general-settings-pilot/audit/final-status.json"
+      ],
+      "auditStatus": "passed with human-scope limitations; canAdvance true"
+    }
+  ],
+  "heldOrInventoryOnlyPilots": [
+    {
+      "pilotId": "fate-spinoff-profile-supplement-pilot",
+      "decision": "source-gap-inventory-only",
+      "reason": "blocked-insufficient-source"
+    },
+    {
+      "pilotId": "tsukihime-supporting-cast-candidate-supplement-pilot",
+      "decision": "candidate-only-source-gap-only",
+      "reason": "terminal candidate supplement creates no formal facts"
+    },
+    {
+      "pilotId": "tsukihime-dead-apostle-profile-supplement-pilot",
+      "decision": "hold-from-formal-publication",
+      "reason": "pilot-local final status remains not-published pending separate read-only final audit"
+    },
+    {
+      "pilotId": "mahoyo-profile-supplement-pilot",
+      "decision": "hold-from-formal-publication",
+      "reason": "fixer retry completed pending read-only auditor rerun"
+    }
+  ],
+  "indexes": {
+    "sources": "sources/index.json",
+    "characters": "characters/index.json",
+    "events": "events/index.json",
+    "relationships": "relationships/index.json",
+    "rules": "rules/index.json",
+    "locations": "locations/index.json",
+    "abilities": "abilities/index.json",
+    "organizations": "organizations/index.json",
+    "items": "items/index.json",
+    "derivedTimeline": "timelines/derived-timeline-index.json",
+    "derivedGraph": "graphs/derived-graph-index.json",
+    "unifiedDerivedEntityGraph": "graph/derived-entity-graph.json",
+    "derivedRelationshipIndex": "graph/derived-relationship-index.json",
+    "derivedContinuityIndex": "graph/derived-continuity-index.json",
+    "graphBuildReport": "graph/graph-build-report.json",
+    "candidates": "candidates/index.json",
+    "sourceGaps": "source-gaps/index.json",
+    "publicationAudit": "audits/publication-inventory.json"
+  }
+}

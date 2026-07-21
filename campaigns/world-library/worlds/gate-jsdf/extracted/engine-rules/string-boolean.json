@@ -1,0 +1,27 @@
+{
+  "source_refs": [
+    "gate_card.worldbook.json#entry-146"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "string]: boolean }"
+      },
+      "aliases": [
+        "string]: boolean }",
+        "[mvu_update]变量更新规则"
+      ],
+      "summary": "--- 变量更新规则: meta: template_id: type: enum('pending', '1', '2', '3', '4') check: - 仅在开场第一次交互中，根据玩家的选择或扮演倾向确定身份模板 - 1=JSDF伊丹(替换), 2=PLA连长(替换), 3=原创角色(JSDF并行), 4=原创角色(PLA并行) initialized: type: boolean check: - 当 template_id 从 pending 变为具体数值时，设为 true - 必须同时触发对 player.base_info 和 world.location 的初始化填充 turn_count: type: number check: - 每次剧情推进（Update）时 +1 world: location: type: |- { region: string; // 大区域 specific: string; // 具体地点 } check: - 【开局初始化】： - 若 template_id=1 (JSDF伊丹): 视时间线而定，若为银座事件当天则为\"东京/银座\"，若已派遣则为\"阿尔努斯/驻屯地\" - ",
+      "description": "--- 变量更新规则: meta: template_id: type: enum('pending', '1', '2', '3', '4') check: - 仅在开场第一次交互中，根据玩家的选择或扮演倾向确定身份模板 - 1=JSDF伊丹(替换), 2=PLA连长(替换), 3=原创角色(JSDF并行), 4=原创角色(PLA并行) initialized: type: boolean check: - 当 template_id 从 pending 变为具体数值时，设为 true - 必须同时触发对 player.base_info 和 world.location 的初始化填充 turn_count: type: number check: - 每次剧情推进（Update）时 +1 world: location: type: |- { region: string; // 大区域 specific: string; // 具体地点 } check: - 【开局初始化】： - 若 template_id=1 (JSDF伊丹): 视时间线而定，若为银座事件当天则为\"东京/银座\"，若已派遣则为\"阿尔努斯/驻屯地\" - 若 template_id=2 (PLA连长): 视时间线而定，若为外滩事变当天则为\"上海/外滩\"，若已派遣则为\"阿尔努斯/综合保障基地\" - 若 template_id=3/4 (自由人): 根据玩家第一句话的描述设定（可能在东京、上海、甚至帝都） - 【游戏中】：玩家移动或场景转换时更新 - 严禁赋值字符串，必须是对象结构 world_flags: type: |- { [FlagName: string]: boolean } check: - 记录世界级大事件状态 (如: \"银座事件已发生\": true, \"外滩事变已平息\": true) story: current_chapter_title: check: - 必须且只能从 <剧情章节> 列表中选取下一章 quest_log: type: |- { [QuestName: string]: { type: string, status: string, description: string } } check: - 任务状态变更时更新 player: base_info: type: object check: - 【开局初始化】： - 模版1: name=伊丹耀司, affiliation=JSDF, role=二等陆尉 - 模版2: name=兵藤一诚, affiliation=PLA, role=上尉/连长 - 模版3/4: 根据玩家设定填充 - 军衔(rank)和势力(affiliation)随剧情重大转折更新 condition: check: - 受伤、疲劳时更新 assets: inventory: type: |- { [ItemName: string]: { count: number, type: string } } check: - 获得/消耗物品时更新 equipment: type: |- { [Slot: string]: string } check: - 【开局初始化】： - PLA线会自动获得 95/191式步枪, 07/21式",
+      "sourceRef": "gate_card.worldbook.json#entry-146",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "string-boolean"
+}

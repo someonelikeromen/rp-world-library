@@ -1,0 +1,23 @@
+{
+  "schema": "engine-rule-record-v1",
+  "worldId": "naruto",
+  "source_refs": [
+    "hy_card.worldbook.json#entry-4"
+  ],
+  "aliases": [],
+  "periods": [
+    {
+      "id": "worldbook-record",
+      "name": {
+        "zh": "玩家身世背景"
+      },
+      "aliases": [],
+      "summary": "{{setvar::世界书玩家身世背景:: <user>身世背景: }}",
+      "description": "{{setvar::世界书玩家身世背景:: <user>身世背景: }}",
+      "sourceRef": "hy_card.worldbook.json#entry-4",
+      "canonStatus": "engine-rule-not-world-fact",
+      "credibility": "local-worldbook"
+    }
+  ],
+  "rule_id": "玩家身世背景"
+}

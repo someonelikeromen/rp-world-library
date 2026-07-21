@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "wqzjcs_card.worldbook.json#entry-77"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "蕾的好感度/信任度初始已有基础(因唤醒之恩)"
+      },
+      "aliases": [
+        "蕾的好感度/信任度初始已有基础(因唤醒之恩)"
+      ],
+      "summary": "--- 变量更新规则: 模式: 角色模式: type: string ('原作'|'取代'|'共存') check: 由开局选择设定，剧情中不自动切换 玩法模式: type: string ('剧情'|'沙盒') check: 由开局选择设定，剧情中不自动切换 关系网: type: |- { [角色名: string]: { 好感度: number; 信任度: number; 关系: string } } check: - 好感度：正面互动+1~5，负面-5~15，range: 0~100 - 信任度：关键事件验证+5~10，背叛信任-10~25，range: 0~100 - 关系：关系阶段自然演进时更新描述(陌生人→相识→朋友→亲密→...) - 首次互动时使用 add 添加新角色 - 蕾的好感度/信任度初始已有基础(因唤醒之恩) 剧情: 当前卷: check: - 完成一卷所有关键事件后推进 - 卷数推进前必须与{{user}}确认 - 沙盒模式不推进卷数 当前章节: check: - 章节事件推进时更新 - 沙盒模式不追踪章节 章节内已完成事件: check: 每完成一个事件块，追加事件名称 关键事件: check: ",
+      "description": "--- 变量更新规则: 模式: 角色模式: type: string ('原作'|'取代'|'共存') check: 由开局选择设定，剧情中不自动切换 玩法模式: type: string ('剧情'|'沙盒') check: 由开局选择设定，剧情中不自动切换 关系网: type: |- { [角色名: string]: { 好感度: number; 信任度: number; 关系: string } } check: - 好感度：正面互动+1~5，负面-5~15，range: 0~100 - 信任度：关键事件验证+5~10，背叛信任-10~25，range: 0~100 - 关系：关系阶段自然演进时更新描述(陌生人→相识→朋友→亲密→...) - 首次互动时使用 add 添加新角色 - 蕾的好感度/信任度初始已有基础(因唤醒之恩) 剧情: 当前卷: check: - 完成一卷所有关键事件后推进 - 卷数推进前必须与{{user}}确认 - 沙盒模式不推进卷数 当前章节: check: - 章节事件推进时更新 - 沙盒模式不追踪章节 章节内已完成事件: check: 每完成一个事件块，追加事件名称 关键事件: check: 发生重大转折时更新 模式: check: - 默认「日常」，{{user}}表现推进意图时切换「推进」 - 完成关键事件后切回「日常」 - 沙盒玩法模式下始终为「日常」 推进许可: check: {{user}}明确表达推进章节意图时设为true，完成后切回false user: 当前位置: check: 随旅行进程更新 身份: check: 取代/共存模式下由{{user}}设定，原作模式固定为酷德的背景",
+      "sourceRef": "wqzjcs_card.worldbook.json#entry-77",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "蕾的好感度-信任度初始已有基础-因唤醒之恩"
+}

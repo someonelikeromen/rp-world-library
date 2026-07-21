@@ -1,0 +1,34 @@
+{
+  "schema": "xianjian-1-graph-build-report-v1",
+  "worldId": "xianjian-1",
+  "status": "completed",
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "validation": {
+    "jsonValid": true,
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "newFactsIntroduced": false,
+    "forbiddenBasenamesGenerated": false
+  },
+  "counts": {
+    "nodes": 162,
+    "edges": 303,
+    "nodeCounts": {
+      "characters": 45,
+      "abilities": 56,
+      "items": 9,
+      "factions": 5,
+      "locations": 17,
+      "events": 7,
+      "systems": 15,
+      "knowledge": 8
+    },
+    "edgeCounts": {
+      "derived-text-mention": 303
+    },
+    "derivedMentionEdges": 303
+  },
+  "warnings": [
+    "Derived graph edges are navigation/search signals, not formal relationship facts."
+  ]
+}

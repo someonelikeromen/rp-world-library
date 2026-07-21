@@ -1,0 +1,77 @@
+{
+  "schema": "xianjian-1-derived-continuity-index-v1",
+  "worldId": "xianjian-1",
+  "recordType": "derived-continuity-index",
+  "derivedOnly": true,
+  "primaryFactStore": false,
+  "continuityFamilies": [
+    {
+      "continuityFamilyId": "xianjian-1-worldbook-derived-continuity",
+      "sourceIndexes": [
+        "events/index.json",
+        "characters/index.json"
+      ],
+      "derivedOnly": true,
+      "primaryFactStore": false,
+      "eventNodes": [
+        {
+          "id": "七诀剑气",
+          "name": "七诀剑气",
+          "sourceRefs": [
+            "仙剑奇侠传Ⅰ 世界书.worldbook.json#entry-61"
+          ]
+        },
+        {
+          "id": "传功",
+          "name": "传功",
+          "sourceRefs": [
+            "仙剑奇侠传Ⅰ 世界书.worldbook.json#entry-222"
+          ]
+        },
+        {
+          "id": "比武招亲",
+          "name": "比武招亲",
+          "sourceRefs": [
+            "仙剑奇侠传Ⅰ 世界书.worldbook.json#entry-83"
+          ]
+        },
+        {
+          "id": "灵魂绑定",
+          "name": "灵魂绑定",
+          "sourceRefs": [
+            "仙剑奇侠传Ⅰ 世界书.worldbook.json#entry-235"
+          ]
+        },
+        {
+          "id": "苗族服饰",
+          "name": "苗族服饰",
+          "sourceRefs": [
+            "仙剑奇侠传Ⅰ 世界书.worldbook.json#entry-248"
+          ]
+        },
+        {
+          "id": "苗疆圣药",
+          "name": "苗疆圣药",
+          "sourceRefs": [
+            "仙剑奇侠传Ⅰ 世界书.worldbook.json#entry-120"
+          ]
+        },
+        {
+          "id": "风雪归人",
+          "name": "风雪归人",
+          "sourceRefs": [
+            "仙剑奇侠传Ⅰ 世界书.worldbook.json#entry-105"
+          ]
+        }
+      ]
+    },
+    {
+      "continuityFamilyId": "xianjian-1-engine-rules-excluded",
+      "sourceIndexes": [
+        "engine-rules/index.json"
+      ],
+      "excludedFromFormalGraph": true,
+      "reason": "Engine rules and status templates are not world facts."
+    }
+  ]
+}

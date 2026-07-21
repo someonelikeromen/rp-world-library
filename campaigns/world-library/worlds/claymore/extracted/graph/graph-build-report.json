@@ -1,0 +1,29 @@
+{
+  "schema": "claymore-graph-build-report-v1",
+  "worldId": "claymore",
+  "status": "completed",
+  "buildDate": "2026-07-21T01:35:04.123Z",
+  "validation": {
+    "jsonValid": true,
+    "derivedOnly": true,
+    "primaryFactStore": false,
+    "newFactsIntroduced": false,
+    "forbiddenBasenamesGenerated": false
+  },
+  "counts": {
+    "nodes": 8,
+    "edges": 1,
+    "nodeCounts": {
+      "characters": 3,
+      "abilities": 4,
+      "systems": 1
+    },
+    "edgeCounts": {
+      "derived-text-mention": 1
+    },
+    "derivedMentionEdges": 1
+  },
+  "warnings": [
+    "Derived graph edges are navigation/search signals, not formal relationship facts."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "source_refs": [
+    "SAO_Progressive_v1.3.json#entry-9054"
+  ],
+  "sourceType": "local-sillytavern-json-card",
+  "credibility": "local-card-indexed",
+  "canonStatus": "adapted/card-backed",
+  "periods": [
+    {
+      "period_id": "local-ingest-entry",
+      "name": {
+        "zh": "机制·动态事件"
+      },
+      "aliases": [],
+      "summary": "<DYNAMIC_EVENT_SYSTEM>\n# 公共事件边界\n- 动态事件是区域危机、事故、冲突、公共传闻发展或世界状态变化，写入`/世界/事件/<ID>`。它不代表玩家已经接取任务。\n- 首次建立需要实际前兆、参与者、资源来源、开始条件、升级条件、停止条件与可能后果。世界书候选被注入不能代替剧情触发。\n- 已建立事件只推进原ID；完成、失败、失效或被玩家改写后保留结果，不因再次进入地点而重播。\n\n# 与任务的连接\n- 事件可以促使具名NPC发布任务。NPC实际提出且玩家接取后，另建正式任务并互相记录关联ID；事件继续保存公共局势，任务只保存玩家承担的目标。\n- 尚未接取的任务种子、组织传闻和公共警报继续作为事件，禁止提前写入当前任务。\n</DYNAMIC_EVENT_SYSTEM>",
+      "description": "<DYNAMIC_EVENT_SYSTEM>\n# 公共事件边界\n- 动态事件是区域危机、事故、冲突、公共传闻发展或世界状态变化，写入`/世界/事件/<ID>`。它不代表玩家已经接取任务。\n- 首次建立需要实际前兆、参与者、资源来源、开始条件、升级条件、停止条件与可能后果。世界书候选被注入不能代替剧情触发。\n- 已建立事件只推进原ID；完成、失败、失效或被玩家改写后保留结果，不因再次进入地点而重播。\n\n# 与任务的连接\n- 事件可以促使具名NPC发布任务。NPC实际提出且玩家接取后，另建正式任务并互相记录关联ID；事件继续保存公共局势，任务只保存玩家承担的目标。\n- 尚未接取的任务种子、组织传闻和公共警报继续作为事件，禁止提前写入当前任务。\n</DYNAMIC_EVENT_SYSTEM>",
+      "sourceRef": "SAO_Progressive_v1.3.json#entry-9054",
+      "sourceType": "local-sillytavern-json-card",
+      "credibility": "local-card-indexed",
+      "canonStatus": "adapted/card-backed"
+    }
+  ],
+  "system_id": "机制_动态事件"
+}

@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "tsyldlw_card.worldbook.json#entry-87"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[mvu_update]变量更新规则"
+      },
+      "aliases": [
+        "[mvu_update]变量更新规则"
+      ],
+      "summary": "--- 变量更新规则: user: 名字: check: - 不可被AI自动更改。仅当{{user}}在对话中主动告知新名字时才更新 身份: check: - 不可被AI自动更改。仅在剧情产生实质身份变化时由{{user}}确认后更新 当前位置: check: - 随{{user}}移动实时更新。地点必须在世界设定中存在（阿尔泽纳尔内部各区域/米斯尔奇皇国/原始地球/孤岛等） 关系网: type: |- { [角色名: string]: { 好感度: number; // 0~100 信任度: number; // 0~100 关系: string; // 描述两人当前关系 } } check: - 根据互动质量增减好感度，每次+-1~10；正向互动增加，负向减少 - 根据守诺或背叛调整信任度；重大事件可+-20~30 - 关系描述随好感度/信任度及剧情发展演变 - 新角色首次互动时用insert添加到/关系网，已存在角色用replace更新 剧情: 当前卷: type: number range: 1~25 check: - 完成当前卷所有关键事件后+1 - 手动推进时AI确认本章节事件完成后才可增加 当前章节: chec",
+      "description": "--- 变量更新规则: user: 名字: check: - 不可被AI自动更改。仅当{{user}}在对话中主动告知新名字时才更新 身份: check: - 不可被AI自动更改。仅在剧情产生实质身份变化时由{{user}}确认后更新 当前位置: check: - 随{{user}}移动实时更新。地点必须在世界设定中存在（阿尔泽纳尔内部各区域/米斯尔奇皇国/原始地球/孤岛等） 关系网: type: |- { [角色名: string]: { 好感度: number; // 0~100 信任度: number; // 0~100 关系: string; // 描述两人当前关系 } } check: - 根据互动质量增减好感度，每次+-1~10；正向互动增加，负向减少 - 根据守诺或背叛调整信任度；重大事件可+-20~30 - 关系描述随好感度/信任度及剧情发展演变 - 新角色首次互动时用insert添加到/关系网，已存在角色用replace更新 剧情: 当前卷: type: number range: 1~25 check: - 完成当前卷所有关键事件后+1 - 手动推进时AI确认本章节事件完成后才可增加 当前章节: check: - 由EJS控制器自动匹配，格式为\"[CROSS ANGE] 剧情·第X卷\"(中文数字) - 不可手动修改 章节内已完成事件: check: - 记录本章节内已完成的事件名称列表 - 每完成一个事件追加记录，以顿号分隔 关键事件: check: - 记录全局重大剧情转折事件 模式: check: - 日常/推进/战斗/危机，根据当前场景自动设定 推进许可: type: boolean check: - AI判断当前卷所有关键事件已完成时设为true 沙盒状态: 当前时间: check: - 格式\"第X天·时段\"，时段为早晨/午前/午后/傍晚/夜间/深夜 - 每次最多推进半个时段，特殊事件可推进2-5天 当前地点: check: - 随{{user}}移动更新，必须在世界设定中存在的地点 当前节点: check: - 记录当前所处的事件节点或特殊场景标识 时间推进次数: type: number check: - 每次时间推进+1 关键事件触发记录: check: - 记录沙盒模式中已触发的隐秘信息和关键事件，防止重复触发",
+      "sourceRef": "tsyldlw_card.worldbook.json#entry-87",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "mvu_update-变量更新规则"
+}

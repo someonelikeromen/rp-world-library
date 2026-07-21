@@ -1,0 +1,26 @@
+{
+  "source_refs": [
+    "zyszddsj_card.worldbook.json#entry-101"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "[EJS]inline:ejs-sandbox-controller"
+      },
+      "aliases": [
+        "[EJS]inline:ejs-sandbox-controller"
+      ],
+      "summary": "<%_ var mode = getvar('stat_data.当前模式') || '剧情'; if (mode !== '沙盒') { return; } _%> <%- await getwi('TWGOK 人物总览列表') %> <%- await getwi('TWGOK 关键剧情时间表') %>",
+      "description": "<%_ var mode = getvar('stat_data.当前模式') || '剧情'; if (mode !== '沙盒') { return; } _%> <%- await getwi('TWGOK 人物总览列表') %> <%- await getwi('TWGOK 关键剧情时间表') %>",
+      "sourceRef": "zyszddsj_card.worldbook.json#entry-101",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "EJS-inline-ejs-sandbox-controller"
+}

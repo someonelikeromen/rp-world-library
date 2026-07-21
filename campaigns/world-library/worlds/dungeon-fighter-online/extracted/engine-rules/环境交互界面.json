@@ -1,0 +1,31 @@
+{
+  "source_refs": [
+    "！！地下城与勇士起源v0.0.2.worldbook.json#entry-106"
+  ],
+  "sourceType": "local-worldbook",
+  "credibility": "local-worldbook-indexed",
+  "canonStatus": "engine-rule-not-world-fact",
+  "periods": [
+    {
+      "period_id": "worldbook-entry",
+      "name": {
+        "zh": "环境交互界面"
+      },
+      "aliases": [
+        "环境交互界面",
+        "环境交互",
+        "区域信息",
+        "遭遇敌人",
+        "环境效果",
+        "天气变化"
+      ],
+      "summary": "name: 环境交互界面 description: 该系统是冒险者生存的基础, 能将复杂的环境信息转化为直观的数据与提示, 帮助他们在危机四伏的阿拉德大陆上规避风险, 寻找机遇。 trigger_events: enter_new_area: format: \"[系统提示：您已进入【区域名称】, 推荐等级LV.XXXX。当前区域状态：安全/警戒/危险。]\" description: 当冒险者跨越地理分界线时, 视网膜上会浮现该区域的简报, 包括官方设定的危险等级和实时的安全状态评估。 encounter_target: pre_emptive_scan: format: \"[目标信息：【怪物/NPC名称】 LV.XX 类型：XX。状态：中立/巡逻/主动攻击。]\" description: 索敌系统会自动高亮视野内的潜在目标, 并在小地图上标记其位置。攻击前, 目标的基本信息会以半透明窗口的形式呈现。 sudden_encounter: format: \"[警告：遭遇突袭！【怪物名称】LV.XX 对您发动了攻击！]\" description: 若被伏击或遭遇突发事件, 系统会以刺耳的音效和鲜红的警告文字强制提醒, 帮助冒险者第",
+      "description": "name: 环境交互界面 description: 该系统是冒险者生存的基础, 能将复杂的环境信息转化为直观的数据与提示, 帮助他们在危机四伏的阿拉德大陆上规避风险, 寻找机遇。 trigger_events: enter_new_area: format: \"[系统提示：您已进入【区域名称】, 推荐等级LV.XXXX。当前区域状态：安全/警戒/危险。]\" description: 当冒险者跨越地理分界线时, 视网膜上会浮现该区域的简报, 包括官方设定的危险等级和实时的安全状态评估。 encounter_target: pre_emptive_scan: format: \"[目标信息：【怪物/NPC名称】 LV.XX 类型：XX。状态：中立/巡逻/主动攻击。]\" description: 索敌系统会自动高亮视野内的潜在目标, 并在小地图上标记其位置。攻击前, 目标的基本信息会以半透明窗口的形式呈现。 sudden_encounter: format: \"[警告：遭遇突袭！【怪物名称】LV.XX 对您发动了攻击！]\" description: 若被伏击或遭遇突发事件, 系统会以刺耳的音效和鲜红的警告文字强制提醒, 帮助冒险者第一时间做出反应。 detect_environmental_effect: format: \"[环境提示：当前区域存在【效果名称, 如：猛毒孢子/灼热气息/魔力干扰】, 请注意防护。]\" description: 当进入存在特殊环境影响的区域, 如毒雾森林或火山地带, 系统会分析环境危害并给出简要的防护建议。 weather_time_change: format: \"[系统提示：当前时间：XX时XX分, 天气：晴朗/暴雨/沙尘暴。]\" description: 界面右上角的时间与天气图标会实时变化, 并在特定天气(如暴雨)影响战斗时, 给予文字提示。",
+      "sourceRef": "！！地下城与勇士起源v0.0.2.worldbook.json#entry-106",
+      "sourceType": "local-worldbook",
+      "credibility": "local-worldbook-indexed",
+      "canonStatus": "engine-rule-not-world-fact"
+    }
+  ],
+  "engine_rule_id": "环境交互界面"
+}
