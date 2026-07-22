@@ -1,6 +1,6 @@
 {
   "schema": "gundam-seed-curated-validation-report-v2",
-  "generatedAt": "2026-07-20T14:17:52.324Z",
+  "generatedAt": "2026-07-21T17:22:37.621Z",
   "status": "complete-with-recorded-gaps",
   "summary": "Curated runtime package is readable and source-backed base SEED core is complete with recorded residual review/gaps.",
   "counts": {
@@ -23,8 +23,18 @@
     "completeGraphEdges": 4116,
     "eventGraphNodes": 123,
     "eventGraphEdges": 162,
-    "jsonChecked": 957,
-    "jsonErrors": 0
+    "imageInventoryImages": 6114,
+    "imageRecognitionQueue": 4931,
+    "imageVisionDone": 4899,
+    "imageVisionBlocked": 31,
+    "imageVisionFailed": 1,
+    "imageVisionCompletionRate": 0.9935,
+    "jsonChecked": 961,
+    "jsonErrors": 0,
+    "imageEvidenceRecords": 6114,
+    "imageEvidenceRecognized": 4899,
+    "imageEvidenceBlocked": 31,
+    "imageEvidenceFailed": 1
   },
   "gates": {
     "sourceIngest": "passed",
@@ -36,7 +46,7 @@
     "semanticRelations": "passed",
     "worldbookConflict": "passed-with-reference-layer-decisions",
     "groupDerived": "passed-with-review-needed-residuals",
-    "extendedGate": "accepted-recorded-gaps",
+    "extendedGate": "passed-with-provider-blocked-residuals",
     "jsonValidation": "passed"
   },
   "residualReview": {
@@ -44,7 +54,12 @@
     "semanticReviewCandidates": 70,
     "fieldConflictsRecorded": 17,
     "fullImageVisionResidual": true,
-    "extensionLayersRemainIsolated": true
+    "imageVisionDone": 4899,
+    "imageVisionBlocked": 31,
+    "imageVisionFailed": 1,
+    "extensionLayersRemainIsolated": true,
+    "imageEvidenceBlocked": 31,
+    "imageEvidenceFailed": 1
   },
   "outputs": {
     "curatedWorld": "campaigns/world-library/worlds/gundam-seed/curated/world.json",
@@ -55,6 +70,41 @@
     "semanticReport": "campaigns/world-library/manual-curation/gundam-seed-opus-p1-style/reports/semantic-relation-promotion-report.json",
     "conflictDecisions": "campaigns/world-library/manual-curation/gundam-seed-opus-p1-style/audit/worldbook-conflict-decisions.json",
     "groupResolution": "campaigns/world-library/manual-curation/gundam-seed-opus-p1-style/audit/group-derived-resolution.json",
-    "extendedGateClosure": "campaigns/world-library/manual-curation/gundam-seed-opus-p1-style/audit/extended-gate-closure.json"
+    "extendedGateClosure": "campaigns/world-library/manual-curation/gundam-seed-opus-p1-style/audit/extended-gate-closure.json",
+    "imageRecognitionReport": "campaigns/world-library/manual-curation/gundam-seed-opus-p1-style/reports/image-recognition-final-report.json"
+  },
+  "imageEvidence": {
+    "integratedAt": "2026-07-22T02:42:45.018Z",
+    "status": "integrated-with-retryable-gaps",
+    "counts": {
+      "inventoryImages": 6114,
+      "evidenceRecords": 6114,
+      "recognitionQueue": 4931,
+      "resultFiles": 4931,
+      "recognized": 4899,
+      "registerOnly": 1183,
+      "blocked": 31,
+      "failed": 1,
+      "missingResult": 0,
+      "duplicates": 49,
+      "completionRate": 0.9935
+    },
+    "gapReasons": {
+      "api-http-524": 1,
+      "api-http-503": 30,
+      "connect ETIMEDOUT 172.66.175.201:443": 1
+    },
+    "outputs": {
+      "imageEvidenceIndex": "campaigns/world-library/worlds/gundam-seed/curated/image-evidence-index.json",
+      "imageEvidenceSummary": "campaigns/world-library/worlds/gundam-seed/curated/image-evidence-summary.json",
+      "imageEvidenceGaps": "campaigns/world-library/worlds/gundam-seed/curated/image-evidence-gaps.json",
+      "sourceTriageReport": "work/gundam-seed/source-ingest-v2/image-triage/image-triage-report.json",
+      "sourceVisionReport": "work/gundam-seed/source-ingest-v2/vision-triage/image-recognition-final-report.json"
+    },
+    "canonPolicy": {
+      "imageEvidenceMetadataOnly": true,
+      "noImageOnlyCanonPromotion": true,
+      "sourceBackedTextRemainsPrimary": true
+    }
   }
 }

@@ -62,6 +62,7 @@ function main() {
   const expanded = readJson(path.join(planDir, 'candidates', 'curated-draft', 'characters-expanded.json'), { items: [] }).items || [];
   const finalPass = readJson(path.join(planDir, 'audit', 'final-pass-report.json'), {});
   const visionSample = readJson(path.join(planDir, 'vision-sample-report.json'), {});
+  const imageRecognition = readJson(path.join(planDir, 'reports', 'image-recognition-final-report.json'), null);
 
   const groupDerived = expanded.filter(x => (x.layers || []).includes('group-derived-review-needed') || x.groupDerived);
   const groupResolved = groupDerived.filter(x => (x.sourceRefs || []).length || (x.seedRefs || []).length);
@@ -95,7 +96,32 @@ function main() {
   };
   writeJson(path.join(planDir, 'audit', 'worldbook-conflict-decisions.json'), conflictDecision);
 
-  const extendedGate = {
+  const imageCounts = imageRecognition?.counts || null;
+  const extendedGate = imageCounts ? {
+    schema: 'gundam-seed-extended-gate-closure-v2',
+    generatedAt,
+    status: imageCounts.blocked || imageCounts.failed ? 'passed-with-provider-blocked-residuals' : 'passed',
+    minimumGate: 'passed',
+    reason: 'image layer was first triaged from Bilibili raw paragraph context, then the recognition queue was executed; remaining gaps are provider/network residuals',
+    imagePolicy: 'vision/OCR output remains image evidence metadata only and cannot become canon fact without text/source corroboration',
+    counts: {
+      inventoryImages: imageCounts.inventoryImages,
+      recognitionQueue: imageCounts.recognitionQueue,
+      registerOnly: imageCounts.registerOnly,
+      resultFiles: imageCounts.resultFiles,
+      visionDone: imageCounts.done,
+      visionBlocked: imageCounts.blocked,
+      visionFailed: imageCounts.failed,
+      completionRate: imageCounts.completionRate
+    },
+    residualGaps: imageCounts.blocked || imageCounts.failed ? [
+      `${imageCounts.blocked + imageCounts.failed} queued images remain provider/network blocked`,
+      'image-only diagrams remain non-canonical evidence until source-backed text corroborates them'
+    ] : [
+      'image-only diagrams remain non-canonical evidence until source-backed text corroborates them'
+    ],
+    decision: 'image triage and queued recognition were executed; residual provider/network failures are recorded and retryable'
+  } : {
     schema: 'gundam-seed-extended-gate-closure-v1',
     generatedAt,
     status: 'accepted-recorded-gaps',
@@ -137,6 +163,12 @@ function main() {
     completeGraphEdges: (completeGraph.edges || []).length,
     eventGraphNodes: (eventGraph.nodes || []).length,
     eventGraphEdges: (eventGraph.edges || []).length,
+    imageInventoryImages: imageCounts?.inventoryImages || 0,
+    imageRecognitionQueue: imageCounts?.recognitionQueue || 0,
+    imageVisionDone: imageCounts?.done || 0,
+    imageVisionBlocked: imageCounts?.blocked || 0,
+    imageVisionFailed: imageCounts?.failed || 0,
+    imageVisionCompletionRate: imageCounts?.completionRate || 0,
     jsonChecked: jsonValidation.checked,
     jsonErrors: jsonValidation.errors.length
   };
@@ -165,7 +197,10 @@ function main() {
       groupDerivedReviewNeeded: groupUnresolved.length,
       semanticReviewCandidates: counts.semanticReviewCandidates,
       fieldConflictsRecorded: conflictReview.counts?.fieldConflicts || 0,
-      fullImageVisionResidual: true,
+      fullImageVisionResidual: Boolean((imageCounts?.blocked || 0) + (imageCounts?.failed || 0)),
+      imageVisionDone: imageCounts?.done || 0,
+      imageVisionBlocked: imageCounts?.blocked || 0,
+      imageVisionFailed: imageCounts?.failed || 0,
       extensionLayersRemainIsolated: true
     },
     jsonValidation,
@@ -178,7 +213,8 @@ function main() {
       semanticReport: rel(path.join(planDir, 'reports', 'semantic-relation-promotion-report.json')),
       conflictDecisions: rel(path.join(planDir, 'audit', 'worldbook-conflict-decisions.json')),
       groupResolution: rel(path.join(planDir, 'audit', 'group-derived-resolution.json')),
-      extendedGateClosure: rel(path.join(planDir, 'audit', 'extended-gate-closure.json'))
+      extendedGateClosure: rel(path.join(planDir, 'audit', 'extended-gate-closure.json')),
+      imageRecognitionReport: imageRecognition ? rel(path.join(planDir, 'reports', 'image-recognition-final-report.json')) : null
     }
   };
 
@@ -197,9 +233,10 @@ function main() {
     tableRow('Semantic auto promoted', counts.semanticAutoPromoted),
     tableRow('Semantic review candidates', counts.semanticReviewCandidates),
     tableRow('Complete graph', `${counts.completeGraphNodes} nodes / ${counts.completeGraphEdges} edges`),
+    tableRow('Image vision', `${counts.imageVisionDone}/${counts.imageRecognitionQueue} done; ${counts.imageVisionBlocked} blocked; ${counts.imageVisionFailed} failed`),
     tableRow('JSON validation', `${counts.jsonChecked} checked / ${counts.jsonErrors} errors`)
   ].join('\n');
-  const md = `# Gundam SEED Full Auto Completion Report\n\n- Generated: ${generatedAt}\n- World: gundam-seed\n- Status: ${report.status}\n\n| Item | Value |\n|---|---:|\n${rows}\n\n## Gate Summary\n\n${Object.entries(report.gates).map(([k,v]) => `- ${k}: ${v}`).join('\n')}\n\n## Residual Review\n\n- Group-derived review-needed characters: ${groupUnresolved.length}\n- Semantic review candidates: ${counts.semanticReviewCandidates}\n- Field conflicts recorded: ${conflictReview.counts?.fieldConflicts || 0}\n- Full image/diagram vision pass: recorded gap, not claimed complete\n- Destiny/Freedom/Astray/MSV: remain isolated extension layers\n\n## Conclusion\n\nThe base SEED source-backed curated runtime layer is complete and queryable. The archive is closed as complete-with-recorded-gaps, not as an exhaustive multimedia/all-continuity archive.\n`;
+  const md = `# Gundam SEED Full Auto Completion Report\n\n- Generated: ${generatedAt}\n- World: gundam-seed\n- Status: ${report.status}\n\n| Item | Value |\n|---|---:|\n${rows}\n\n## Gate Summary\n\n${Object.entries(report.gates).map(([k,v]) => `- ${k}: ${v}`).join('\n')}\n\n## Residual Review\n\n- Group-derived review-needed characters: ${groupUnresolved.length}\n- Semantic review candidates: ${counts.semanticReviewCandidates}\n- Field conflicts recorded: ${conflictReview.counts?.fieldConflicts || 0}\n- Image recognition queue: ${counts.imageVisionDone}/${counts.imageRecognitionQueue} done, ${counts.imageVisionBlocked} blocked, ${counts.imageVisionFailed} failed\n- Destiny/Freedom/Astray/MSV: remain isolated extension layers\n\n## Conclusion\n\nThe base SEED source-backed curated runtime layer is complete and queryable. The image layer has been triaged and the recognition queue executed; remaining image gaps are provider/network residuals, not skipped workflow.\n`;
   writeText(path.join(planDir, 'reports', 'full-auto-completion-report.md'), md);
   writeText(path.join(planDir, 'audit', 'full-auto-final-audit.md'), md);
 
