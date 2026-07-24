@@ -1,0 +1,94 @@
+{
+  "slug": "sword-art-online",
+  "stage": "source-split-only",
+  "generatedAt": "2026-07-22T07:52:56.259Z",
+  "sourceRoot": "campaigns/world-library/imports/worldviews/sword-art-online/",
+  "outputRoot": "campaigns/world-library/manual-curation/sword-art-online/source-split/",
+  "sourceCount": 4,
+  "sources": [
+    {
+      "id": "wb-sao-v1-1",
+      "kind": "worldbook-json",
+      "path": "worldbooks/刀剑神域SAO v1.1.worldbook.json",
+      "entriesPath": [
+        "entries"
+      ],
+      "sourcePath": "worldbooks/刀剑神域SAO v1.1.worldbook.json",
+      "units": 35,
+      "bytes": 571048
+    },
+    {
+      "id": "card-sao-progressive-v1-3",
+      "kind": "character-card-json",
+      "path": "local-ingest/SAO_Progressive_v1.3.json",
+      "entriesPath": [
+        "data",
+        "character_book",
+        "entries"
+      ],
+      "sourcePath": "local-ingest/SAO_Progressive_v1.3.json",
+      "units": 269,
+      "bytes": 4365237
+    },
+    {
+      "id": "card-local-1",
+      "kind": "character-card-json",
+      "path": "local-ingest/-_1.card.json",
+      "entriesPath": [
+        "data",
+        "character_book",
+        "entries"
+      ],
+      "sourcePath": "local-ingest/-_1.card.json",
+      "units": 199,
+      "bytes": 1121835
+    },
+    {
+      "id": "txt-aincrad-trpg-floor-module",
+      "kind": "txt-structured",
+      "path": "local-ingest/新建 文本文档.txt",
+      "sourcePath": "local-ingest/新建 文本文档.txt",
+      "units": 637,
+      "bytes": 227687
+    }
+  ],
+  "totals": {
+    "units": 1140,
+    "jsonEntryUnits": 494,
+    "cardTextFieldUnits": 9,
+    "txtUnits": 637,
+    "duplicateNameCandidates": 17
+  },
+  "categoryCounts": {
+    "characters": 65,
+    "character-voice": 98,
+    "relationships": 323,
+    "factions": 337,
+    "locations": 981,
+    "floor-data": 636,
+    "events": 423,
+    "timeline": 201,
+    "systems": 592,
+    "engine-rules": 544,
+    "runtime-prompts": 248,
+    "abilities": 451,
+    "items": 579,
+    "bosses": 337,
+    "monsters": 366,
+    "quests": 319,
+    "world-basics": 123,
+    "terminology": 18,
+    "narrative-scenes": 142,
+    "style-tone": 163,
+    "mixed": 691,
+    "duplicate-candidate": 34,
+    "conflict-candidate": 0,
+    "unclear": 13
+  },
+  "boundaries": [
+    "No formal worlds/sword-art-online archive is created.",
+    "No facts are merged, corrected, canonicalized, graphed, or promoted.",
+    "Categories are heuristic material labels only.",
+    "Runtime prompt/template material is isolated as engine-rules/runtime-prompts when detected."
+  ]
+}

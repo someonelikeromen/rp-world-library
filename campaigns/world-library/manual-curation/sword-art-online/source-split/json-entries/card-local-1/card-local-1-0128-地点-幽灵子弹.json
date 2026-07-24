@@ -1,0 +1,73 @@
+{
+  "unitId": "card-local-1-0128-地点-幽灵子弹",
+  "unitKind": "json-entry",
+  "sourceId": "card-local-1",
+  "sourceKind": "character-card-json",
+  "sourcePath": "local-ingest/-_1.card.json",
+  "sourcePointer": "data.character_book.entries.128",
+  "sourceIndex": 128,
+  "title": "地点:幽灵子弹",
+  "enabled": true,
+  "constant": false,
+  "selective": true,
+  "keys": [
+    "/<status>[\\s\\S]*?当前位置:[^\\n<]*(幽灵子弹)[\\s\\S]*?<\\/status>/s"
+  ],
+  "secondaryKeys": [],
+  "position": "after_char",
+  "categories": [
+    "locations",
+    "items"
+  ],
+  "nameCandidates": [],
+  "content": "<地点_幽灵子弹>\n\n##幽灵子弹 (Gun Gale Online)\n-由枪械、钢铁、硝烟与漫天黄沙支配的末日废土世界。整个世界的基调灰暗而冷酷，地表充斥着无边无际的荒漠、龟裂的红土峡谷、剧毒的废水泥潭，以及在核战或未知灾难中崩塌的旧文明摩天大楼废墟。世界的中心是唯一的绝对安全区——巨型穹顶都市“SBC格洛肯（SBC Glicken）”，它是一座直接建造在坠毁的恒星级宇宙飞船残骸内部的半地下赛博朋克都市。格洛肯内部霓虹闪烁却昏暗潮湿，错落有致的管道喷吐着蒸汽，狭窄的暗巷里分布着武器黑市、改装工坊与举办BoB（最强枪手杯）的总统府大厅。一旦踏出穹顶，便是危机四伏的圈外战区，这里游荡着失控的自动防御机兵、变异的辐射巨兽，以及手持各种大口径实弹枪械、随时准备进行残酷猎杀的玩家。空气中永远弥漫着刺鼻的火药味与等离子过载的焦糊感，红色的“弹道预测线”如蛛网般在废墟与沙尘中交错，将枪战的冰冷、精准与暴烈美学展现得淋漓尽致。\n</地点_幽灵子弹>",
+  "rawEntry": {
+    "id": 128,
+    "keys": [
+      "/<status>[\\s\\S]*?当前位置:[^\\n<]*(幽灵子弹)[\\s\\S]*?<\\/status>/s"
+    ],
+    "secondary_keys": [],
+    "comment": "地点:幽灵子弹",
+    "content": "<地点_幽灵子弹>\n\n##幽灵子弹 (Gun Gale Online)\n-由枪械、钢铁、硝烟与漫天黄沙支配的末日废土世界。整个世界的基调灰暗而冷酷，地表充斥着无边无际的荒漠、龟裂的红土峡谷、剧毒的废水泥潭，以及在核战或未知灾难中崩塌的旧文明摩天大楼废墟。世界的中心是唯一的绝对安全区——巨型穹顶都市“SBC格洛肯（SBC Glicken）”，它是一座直接建造在坠毁的恒星级宇宙飞船残骸内部的半地下赛博朋克都市。格洛肯内部霓虹闪烁却昏暗潮湿，错落有致的管道喷吐着蒸汽，狭窄的暗巷里分布着武器黑市、改装工坊与举办BoB（最强枪手杯）的总统府大厅。一旦踏出穹顶，便是危机四伏的圈外战区，这里游荡着失控的自动防御机兵、变异的辐射巨兽，以及手持各种大口径实弹枪械、随时准备进行残酷猎杀的玩家。空气中永远弥漫着刺鼻的火药味与等离子过载的焦糊感，红色的“弹道预测线”如蛛网般在废墟与沙尘中交错，将枪战的冰冷、精准与暴烈美学展现得淋漓尽致。\n</地点_幽灵子弹>",
+    "constant": false,
+    "selective": true,
+    "insertion_order": 6,
+    "enabled": true,
+    "position": "after_char",
+    "use_regex": true,
+    "extensions": {
+      "position": 1,
+      "exclude_recursion": true,
+      "display_index": 109,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "selectiveLogic": 0,
+      "outlet_name": "",
+      "group": "",
+      "group_override": false,
+      "group_weight": 100,
+      "prevent_recursion": true,
+      "delay_until_recursion": false,
+      "scan_depth": 2,
+      "match_whole_words": true,
+      "use_group_scoring": false,
+      "case_sensitive": false,
+      "automation_id": "",
+      "role": 0,
+      "vectorized": false,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "match_persona_description": false,
+      "match_character_description": false,
+      "match_character_personality": false,
+      "match_character_depth_prompt": false,
+      "match_scenario": false,
+      "match_creator_notes": false,
+      "triggers": [],
+      "ignore_budget": false
+    }
+  },
+  "splitNote": "One original JSON worldbook/character_book entry preserved as one source unit."
+}

@@ -1,0 +1,73 @@
+{
+  "unitId": "card-local-1-0127-地点-神木广场",
+  "unitKind": "json-entry",
+  "sourceId": "card-local-1",
+  "sourceKind": "character-card-json",
+  "sourcePath": "local-ingest/-_1.card.json",
+  "sourcePointer": "data.character_book.entries.127",
+  "sourceIndex": 127,
+  "title": "地点:神木广场",
+  "enabled": true,
+  "constant": false,
+  "selective": true,
+  "keys": [
+    "/<status>[\\s\\S]*?当前位置:[^\\n<]*(神木广场)[\\s\\S]*?<\\/status>/s"
+  ],
+  "secondaryKeys": [],
+  "position": "after_char",
+  "categories": [
+    "locations",
+    "style-tone"
+  ],
+  "nameCandidates": [],
+  "content": "<地点_神木广场>\n\n神木广场\n位于移植到新生ALO（阿鲁夫海姆）中的“新艾恩葛朗特”第二十四层，一座由水路与岛屿环绕的水之都市“帕诺斯”市中心。广场的中心矗立着一棵庞大无比、需要数十人合抱的巨型神木。神木的树干呈古朴的深褐色，粗糙的树皮上布满了散发着淡淡绿色荧光的自然纹路，巨大的树冠如同一把遮天蔽日的翡翠巨伞，将半个广场都笼罩在柔和的树荫与斑驳的光影之中。\n环绕着神木的是一个宽敞的圆形露天广场，地面由经过精细打磨、泛着温润光泽的淡青色石板铺设而成。广场的边缘环绕着一圈清澈见底的环形河道，河水静静流淌，不时有几尾色彩斑斓的虚拟游鱼跃出水面。河道外侧则矗立着一圈充满精灵风格的白石拱门与雕花石柱。\n广场上没有多余的杂物，只有在神木粗壮树根旁自然生出的几处木质长椅。微风吹过，神木那繁茂的叶片沙沙作响，洒下漫天如星屑般飘落的绿色光能粒子，在空气中缓缓消散。这里常年阳光明媚，水汽氤氲，是一处宁静、空旷且充满了自然与古朴气息的决斗胜地。\n</地点_神木广场>",
+  "rawEntry": {
+    "id": 127,
+    "keys": [
+      "/<status>[\\s\\S]*?当前位置:[^\\n<]*(神木广场)[\\s\\S]*?<\\/status>/s"
+    ],
+    "secondary_keys": [],
+    "comment": "地点:神木广场",
+    "content": "<地点_神木广场>\n\n神木广场\n位于移植到新生ALO（阿鲁夫海姆）中的“新艾恩葛朗特”第二十四层，一座由水路与岛屿环绕的水之都市“帕诺斯”市中心。广场的中心矗立着一棵庞大无比、需要数十人合抱的巨型神木。神木的树干呈古朴的深褐色，粗糙的树皮上布满了散发着淡淡绿色荧光的自然纹路，巨大的树冠如同一把遮天蔽日的翡翠巨伞，将半个广场都笼罩在柔和的树荫与斑驳的光影之中。\n环绕着神木的是一个宽敞的圆形露天广场，地面由经过精细打磨、泛着温润光泽的淡青色石板铺设而成。广场的边缘环绕着一圈清澈见底的环形河道，河水静静流淌，不时有几尾色彩斑斓的虚拟游鱼跃出水面。河道外侧则矗立着一圈充满精灵风格的白石拱门与雕花石柱。\n广场上没有多余的杂物，只有在神木粗壮树根旁自然生出的几处木质长椅。微风吹过，神木那繁茂的叶片沙沙作响，洒下漫天如星屑般飘落的绿色光能粒子，在空气中缓缓消散。这里常年阳光明媚，水汽氤氲，是一处宁静、空旷且充满了自然与古朴气息的决斗胜地。\n</地点_神木广场>",
+    "constant": false,
+    "selective": true,
+    "insertion_order": 6,
+    "enabled": true,
+    "position": "after_char",
+    "use_regex": true,
+    "extensions": {
+      "position": 1,
+      "exclude_recursion": true,
+      "display_index": 108,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "selectiveLogic": 0,
+      "outlet_name": "",
+      "group": "",
+      "group_override": false,
+      "group_weight": 100,
+      "prevent_recursion": true,
+      "delay_until_recursion": false,
+      "scan_depth": 2,
+      "match_whole_words": true,
+      "use_group_scoring": false,
+      "case_sensitive": false,
+      "automation_id": "",
+      "role": 0,
+      "vectorized": false,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "match_persona_description": false,
+      "match_character_description": false,
+      "match_character_personality": false,
+      "match_character_depth_prompt": false,
+      "match_scenario": false,
+      "match_creator_notes": false,
+      "triggers": [],
+      "ignore_budget": false
+    }
+  },
+  "splitNote": "One original JSON worldbook/character_book entry preserved as one source unit."
+}

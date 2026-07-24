@@ -1,0 +1,10 @@
+{
+  "id": "sao-00169",
+  "type": "character",
+  "name": "NPC生成准则",
+  "source": "card-sao-progressive-v1-3",
+  "sourceFile": "card-sao-progressive-v1-3-0016-NPC生成准则.md",
+  "description": "# NPC生成准则\n\n- NPC首次有姓名並實際互動、發布任務、提供服務或參與事件時，以固定ID建立`/角色/<角色ID>`的基礎資料。\n- 守衛、敵人或長期同行者需要戰鬥時才建立`戰鬥`模組；商人需要`交易`模組；服務者使用固定`服務`項目。\n- NPC的庫存、報酬與情報必須有來源，不能全知、跨越未開放樓層或憑空持有高層稀有物品。\n- 正式與私人任務都寫入全域`/任務/<任務ID>`，以`類型`區分；人物只保存關聯ID。\n- NPC簡化服務使用固定價格、材料、產出與耗時，不模擬NPC熟練度與成功率。\n",
+  "attributes": {},
+  "relations": []
+}

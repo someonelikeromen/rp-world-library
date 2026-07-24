@@ -1,0 +1,35 @@
+{
+  "unitId": "txt-aincrad-trpg-floor-module-0403-Floor_62-BOSS机制",
+  "unitKind": "txt-unit",
+  "sourceId": "txt-aincrad-trpg-floor-module",
+  "sourceKind": "txt-structured",
+  "sourcePath": "local-ingest/新建 文本文档.txt",
+  "sourcePointer": "line:1203",
+  "sourceIndex": 403,
+  "title": "Floor_62 / BOSS机制",
+  "enabled": null,
+  "constant": null,
+  "selective": null,
+  "keys": [],
+  "secondaryKeys": [],
+  "position": null,
+  "categories": [
+    "locations",
+    "floor-data",
+    "systems",
+    "engine-rules",
+    "items",
+    "bosses",
+    "mixed"
+  ],
+  "nameCandidates": [
+    "熔炉监工"
+  ],
+  "content": "BOSS机制:\n      名称: 熔炉监工\n      形态描述: 浑身流淌着铁水的巨型矮人构装体，双手直接连接着两把高温铁锤。\n      TRPG核心机制:\n        - 场地熔化: 战斗在一个巨大的铁砧型平台上进行。Boss的重击会不断加热平台，玩家站立的区域会逐渐变红。必须不断进行小范围的走位，如果站在红区超过2回合，鞋类防具将被直接烧毁，并附加永久的【烧伤】Debuff。\n        - 机械呼叫: Boss会拉动身后的拉杆，从四面八方的管道中召唤出自爆机械鼠，队伍必须分配专人进行高频清理，绝不能让它们靠近坦克。",
+  "rawEntry": {
+    "startLine": 1203,
+    "endLine": 1209,
+    "floor": "Floor_62"
+  },
+  "splitNote": "TXT split by Floor_N and four-space YAML-like section boundaries."
+}

@@ -1,0 +1,36 @@
+{
+  "unitId": "txt-aincrad-trpg-floor-module-0191-Floor_29-BOSS机制",
+  "unitKind": "txt-unit",
+  "sourceId": "txt-aincrad-trpg-floor-module",
+  "sourceKind": "txt-structured",
+  "sourcePath": "local-ingest/新建 文本文档.txt",
+  "sourcePointer": "line:597",
+  "sourceIndex": 191,
+  "title": "Floor_29 / BOSS机制",
+  "enabled": null,
+  "constant": null,
+  "selective": null,
+  "keys": [],
+  "secondaryKeys": [],
+  "position": null,
+  "categories": [
+    "locations",
+    "floor-data",
+    "systems",
+    "engine-rules",
+    "abilities",
+    "items",
+    "bosses",
+    "mixed"
+  ],
+  "nameCandidates": [
+    "腐败领主"
+  ],
+  "content": "BOSS机制:\n      名称: 腐败领主\n      形态描述: 浑身长满剧毒真菌的亡灵将军，挥舞着一把滴着绿液的斩马大刀。\n      TRPG核心机制:\n        - 剧毒光环: Boss周围存在永久的毒素光环，近战玩家每回合都会受到微量毒素伤害。必须频繁轮换前排坦克以重置毒素层数。\n        - 枯萎一击: 对单体目标造成极高的物理伤害，并施加禁疗（无法被回复HP）效果长达2回合，极其考验队伍的减伤技能分配。",
+  "rawEntry": {
+    "startLine": 597,
+    "endLine": 603,
+    "floor": "Floor_29"
+  },
+  "splitNote": "TXT split by Floor_N and four-space YAML-like section boundaries."
+}

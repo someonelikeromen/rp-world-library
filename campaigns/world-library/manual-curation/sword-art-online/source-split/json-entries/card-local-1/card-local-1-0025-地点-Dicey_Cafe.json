@@ -1,0 +1,73 @@
+{
+  "unitId": "card-local-1-0025-地点-Dicey_Cafe",
+  "unitKind": "json-entry",
+  "sourceId": "card-local-1",
+  "sourceKind": "character-card-json",
+  "sourcePath": "local-ingest/-_1.card.json",
+  "sourcePointer": "data.character_book.entries.25",
+  "sourceIndex": 25,
+  "title": "地点:Dicey_Cafe",
+  "enabled": true,
+  "constant": false,
+  "selective": true,
+  "keys": [
+    "/<status>[\\s\\S]*?当前位置:[^\\n<]*(Dicey_Cafe)[\\s\\S]*?<\\/status>/s"
+  ],
+  "secondaryKeys": [],
+  "position": "after_char",
+  "categories": [
+    "locations",
+    "world-basics"
+  ],
+  "nameCandidates": [],
+  "content": "<地点_Dicey_Cafe>\n\n##艾基尔的酒馆「Dicey Cafe」\n  -位于东京都武藏野市吉祥寺一角，闹中取静的复古风咖啡馆兼小酒馆。其门面低调而雅致，深色的木质招牌上用花体字雕刻着“Dicey Cafe”，入夜后，招牌旁小巧的霓虹灯会亮起温暖的橘黄色微光，透过明亮的玻璃窗，将店内的融融暖意洒向安静的街道。推开贴着复古贴纸的木门，伴随着清脆的黄铜风铃声，白天是浓郁的咖啡豆香与烘焙甜香，夜晚则转化为淡淡的麦芽酒香与威士忌的醇厚气息。\n酒馆内部采用经典的美国美式复古木质装潢，深褐色的实木地板与墙壁在暖色调壁灯与吊灯的晕染下，折射出柔和而沉静的岁月质感。吧台区由一整块打磨光滑的厚重橡木制成，吧台后方是高耸的黑胶唱片架与酒架，整齐地陈列着来自世界各地的洋酒、精酿啤酒与各种调酒器具，在射灯的照耀下折射出五彩斑斓的琉璃光泽。艾基尔（安德鲁）高大魁梧的身影经常在吧台后忙碌，熟练地操作着那台泛着金属光泽的复古半自动咖啡机，或是为熟客调制饮品。\n吧台旁摆放着一排皮革高脚圆凳，而靠窗和内侧的区域，则布置着几组宽敞舒适的深色卡座。这里不仅是艾基尔夫妻赖以生计的温馨小店，更是SAO“幸存者”们在现实世界中最为核心、也最安全的避风港。每当夜幕降临，舒缓的爵士乐在角落的音响中静静流淌，桐人、亚丝娜、克莱因、莉兹贝特、西莉卡等在前线并肩作战的战友们便会聚在最深处的卡座里。在这里，他们可以毫无顾忌地谈论那些普通人无法理解的虚拟世界经历，分享关于GGO“死枪”的危险线索，或是通宵达旦地分析UW与Ocean Turtle的下落。对于这些在死亡游戏中烙下灵魂伤痕的少年少女而言，这家小小的Dicey Cafe，是他们脱下重甲、卸下防备后，最能感受到“大家还活着”的温热归宿。\n</地点_Dicey_Cafe>",
+  "rawEntry": {
+    "id": 25,
+    "keys": [
+      "/<status>[\\s\\S]*?当前位置:[^\\n<]*(Dicey_Cafe)[\\s\\S]*?<\\/status>/s"
+    ],
+    "secondary_keys": [],
+    "comment": "地点:Dicey_Cafe",
+    "content": "<地点_Dicey_Cafe>\n\n##艾基尔的酒馆「Dicey Cafe」\n  -位于东京都武藏野市吉祥寺一角，闹中取静的复古风咖啡馆兼小酒馆。其门面低调而雅致，深色的木质招牌上用花体字雕刻着“Dicey Cafe”，入夜后，招牌旁小巧的霓虹灯会亮起温暖的橘黄色微光，透过明亮的玻璃窗，将店内的融融暖意洒向安静的街道。推开贴着复古贴纸的木门，伴随着清脆的黄铜风铃声，白天是浓郁的咖啡豆香与烘焙甜香，夜晚则转化为淡淡的麦芽酒香与威士忌的醇厚气息。\n酒馆内部采用经典的美国美式复古木质装潢，深褐色的实木地板与墙壁在暖色调壁灯与吊灯的晕染下，折射出柔和而沉静的岁月质感。吧台区由一整块打磨光滑的厚重橡木制成，吧台后方是高耸的黑胶唱片架与酒架，整齐地陈列着来自世界各地的洋酒、精酿啤酒与各种调酒器具，在射灯的照耀下折射出五彩斑斓的琉璃光泽。艾基尔（安德鲁）高大魁梧的身影经常在吧台后忙碌，熟练地操作着那台泛着金属光泽的复古半自动咖啡机，或是为熟客调制饮品。\n吧台旁摆放着一排皮革高脚圆凳，而靠窗和内侧的区域，则布置着几组宽敞舒适的深色卡座。这里不仅是艾基尔夫妻赖以生计的温馨小店，更是SAO“幸存者”们在现实世界中最为核心、也最安全的避风港。每当夜幕降临，舒缓的爵士乐在角落的音响中静静流淌，桐人、亚丝娜、克莱因、莉兹贝特、西莉卡等在前线并肩作战的战友们便会聚在最深处的卡座里。在这里，他们可以毫无顾忌地谈论那些普通人无法理解的虚拟世界经历，分享关于GGO“死枪”的危险线索，或是通宵达旦地分析UW与Ocean Turtle的下落。对于这些在死亡游戏中烙下灵魂伤痕的少年少女而言，这家小小的Dicey Cafe，是他们脱下重甲、卸下防备后，最能感受到“大家还活着”的温热归宿。\n</地点_Dicey_Cafe>",
+    "constant": false,
+    "selective": true,
+    "insertion_order": 2,
+    "enabled": true,
+    "position": "after_char",
+    "use_regex": true,
+    "extensions": {
+      "position": 1,
+      "exclude_recursion": true,
+      "display_index": 120,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "selectiveLogic": 0,
+      "outlet_name": "",
+      "group": "",
+      "group_override": false,
+      "group_weight": 100,
+      "prevent_recursion": true,
+      "delay_until_recursion": false,
+      "scan_depth": 2,
+      "match_whole_words": true,
+      "use_group_scoring": false,
+      "case_sensitive": false,
+      "automation_id": "",
+      "role": 0,
+      "vectorized": false,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "match_persona_description": false,
+      "match_character_description": false,
+      "match_character_personality": false,
+      "match_character_depth_prompt": false,
+      "match_scenario": false,
+      "match_creator_notes": false,
+      "triggers": [],
+      "ignore_budget": false
+    }
+  },
+  "splitNote": "One original JSON worldbook/character_book entry preserved as one source unit."
+}

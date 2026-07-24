@@ -1,0 +1,36 @@
+{
+  "unitId": "txt-aincrad-trpg-floor-module-0530-Floor_82-BOSS机制",
+  "unitKind": "txt-unit",
+  "sourceId": "txt-aincrad-trpg-floor-module",
+  "sourceKind": "txt-structured",
+  "sourcePath": "local-ingest/新建 文本文档.txt",
+  "sourcePointer": "line:1579",
+  "sourceIndex": 530,
+  "title": "Floor_82 / BOSS机制",
+  "enabled": null,
+  "constant": null,
+  "selective": null,
+  "keys": [],
+  "secondaryKeys": [],
+  "position": null,
+  "categories": [
+    "relationships",
+    "locations",
+    "floor-data",
+    "systems",
+    "engine-rules",
+    "bosses",
+    "monsters",
+    "mixed"
+  ],
+  "nameCandidates": [
+    "狂乱的纺织者"
+  ],
+  "content": "BOSS机制:\n      名称: 狂乱的纺织者\n      形态描述: 占据整个洞穴顶部的超巨型人面蜘蛛，腹部有着令人作呕的鲜红斑纹，能够吐出带有强腐蚀性的蛛丝。\n      TRPG核心机制:\n        - 茧化捕食: Boss会随机向场地喷射大量蛛丝球。被击中的玩家必须在一回合内由队友进行[力量/破坏]检定强行斩断蛛丝。如果一回合内未能解救，该玩家将被拖入空中包裹成茧，承受每回合最大生命值10%的溶解伤害。\n        - 猛毒喷发: 当血量降至红区时，Boss会咬破自己的毒腺，整个房间的地面将被毒液覆盖。队伍必须攀爬至场地四周摇摇欲坠的钟乳石上进行艰苦的空战输出。",
+  "rawEntry": {
+    "startLine": 1579,
+    "endLine": 1585,
+    "floor": "Floor_82"
+  },
+  "splitNote": "TXT split by Floor_N and four-space YAML-like section boundaries."
+}

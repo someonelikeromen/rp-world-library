@@ -1,0 +1,10 @@
+{
+  "id": "sao-00160",
+  "type": "character",
+  "name": "运行·EJS当前楼层注入控制器",
+  "source": "card-sao-progressive-v1-3",
+  "sourceFile": "card-sao-progressive-v1-3-0008-运行·EJS当前楼层注入控制器.md",
+  "description": "# 运行·EJS当前楼层注入控制器\n\ncategories: locations, systems, engine-rules, runtime-prompts, monsters\nenabled: true\nconstant: true\nselective: false\nposition: after_char\n\n当前楼层注入控制器（EJS 预处理脚本）。\n\n## 脚本逻辑（自然语言描述）\n\n1. 从消息变量 `stat_data` 中读取数据（默认值 `{}`）。\n2. 提取 `世界.當前樓層` 字段，夹钳到 1–100 范围，默认为 1。\n3. 拼接世界信息条目键名 `楼层资料·第{楼层}层`。\n4. 异步获取共用怪物运行规则世界信息条目 `楼层资料·怪物共用运行规则`。\n5. 异步获取当前楼层对应的世界信息条目。\n6. 将共用规则与楼层资料一并注入当前上下文，以 `CURRENT_FLOOR_INJECTION` 包裹，附带当前楼层号和来源条目名作为属性。\n\n## 注入内容结构\n\n——共用怪物运行规则世界信息条目内容——\n——当前楼层世界信息条目内容——\n\n## 原始 EJS 代码\n\n```\n@@preprocessing\n<%_ {\nconst __data=getMessageVar('stat_data',{defaults:{}});\nconst __floor=_.clamp(Number(_.get(__data,'世界.當前樓層',1))||1,1,100);\nconst __entry='楼层资料·第'+__floor+'层';\nconst __shared=await getwi('楼层资料·怪物共用运行规则');\nconst __floorContent=await getwi(__entry);\n_%>\n<CURRENT_FLOOR_INJECTION floor=\"<%- __floor %>\" source=\"<%- __entry %>\">\n<%- __shared %>\n\n<%- __floorContent %>\n</CURRENT_FLOOR_INJECTION>\n<%_ } _%>\n```\n\n---\n\n## 元数据\n\n- **unitId**：`card-sao-progressive-v1-3-0008-运行·EJS当前楼层注入控制器`\n- **角色卡**：`card-sao-progressive-v1-3`\n- **源指针**：`data.character_book.entries.8`\n- **插入位置**：`after_char`（角色定义之后）\n- **常量条目**：是\n- **启用**：是\n- **选择性**：否\n- **分类**：locations, systems, engine-rules, runtime-prompts, monsters\n",
+  "attributes": {},
+  "relations": []
+}

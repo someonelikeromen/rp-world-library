@@ -1,0 +1,10 @@
+{
+  "id": "sao-00353",
+  "type": "meta",
+  "name": "🗑️清空局部变量(别关)",
+  "source": "txt-aincrad-trpg-floor-module",
+  "sourceFile": "txt-aincrad-trpg-floor-module-0000-🗑️清空局部变量(别关).md",
+  "description": "# 🗑️清空局部变量(别关)\n\n在本条世界书记录启用时，清空以下局部变量，避免上一轮或递归上下文残留影响后续输出：\n\n- 清空 `combat_driver`。\n- 清空 `status_format`。\n- 清空 `世界书重大记忆存储`。\n- 清空 `世界书日常记忆存储`。\n- 清空 `世界书玩家身世背景`。\n",
+  "attributes": {},
+  "relations": []
+}

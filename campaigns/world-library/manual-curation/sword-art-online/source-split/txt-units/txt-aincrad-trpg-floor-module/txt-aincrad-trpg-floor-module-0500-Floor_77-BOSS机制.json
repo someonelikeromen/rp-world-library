@@ -1,0 +1,36 @@
+{
+  "unitId": "txt-aincrad-trpg-floor-module-0500-Floor_77-BOSS机制",
+  "unitKind": "txt-unit",
+  "sourceId": "txt-aincrad-trpg-floor-module",
+  "sourceKind": "txt-structured",
+  "sourcePath": "local-ingest/新建 文本文档.txt",
+  "sourcePointer": "line:1493",
+  "sourceIndex": 500,
+  "title": "Floor_77 / BOSS机制",
+  "enabled": null,
+  "constant": null,
+  "selective": null,
+  "keys": [],
+  "secondaryKeys": [],
+  "position": null,
+  "categories": [
+    "locations",
+    "floor-data",
+    "systems",
+    "engine-rules",
+    "abilities",
+    "items",
+    "bosses",
+    "mixed"
+  ],
+  "nameCandidates": [
+    "时光守门人"
+  ],
+  "content": "BOSS机制:\n      名称: 时光守门人\n      形态描述: 拥有四个手臂的机械神明，背负着一个巨大的青铜沙漏。\n      TRPG核心机制:\n        - 岁月流逝: Boss的攻击带有极强的“老化”诅咒，被击中的玩家除了掉血，装备的最大耐久度会被永久性削减，是一场极其消耗资源的惨烈战斗。\n        - 时间回溯: 当Boss血量降至30%时，会发动时间回溯，将自己的血量恢复至70%，并复活场上所有被击杀的小怪。队伍必须在其吟唱回溯魔法的3回合内，打出超越极限的爆发伤害将其秒杀，否则战斗将陷入无解的死循环。",
+  "rawEntry": {
+    "startLine": 1493,
+    "endLine": 1499,
+    "floor": "Floor_77"
+  },
+  "splitNote": "TXT split by Floor_N and four-space YAML-like section boundaries."
+}

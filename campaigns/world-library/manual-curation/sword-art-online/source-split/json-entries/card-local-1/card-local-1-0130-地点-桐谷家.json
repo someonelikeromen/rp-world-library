@@ -1,0 +1,73 @@
+{
+  "unitId": "card-local-1-0130-地点-桐谷家",
+  "unitKind": "json-entry",
+  "sourceId": "card-local-1",
+  "sourceKind": "character-card-json",
+  "sourcePath": "local-ingest/-_1.card.json",
+  "sourcePointer": "data.character_book.entries.130",
+  "sourceIndex": 130,
+  "title": "地点:桐谷家",
+  "enabled": true,
+  "constant": false,
+  "selective": true,
+  "keys": [
+    "/<status>[\\s\\S]*?当前位置:[^\\n<]*(桐谷家)[\\s\\S]*?<\\/status>/s"
+  ],
+  "secondaryKeys": [],
+  "position": "after_char",
+  "categories": [
+    "locations",
+    "items"
+  ],
+  "nameCandidates": [],
+  "content": "<地点_桐谷家>\n##桐谷家\n   -位于埼玉县川越市郊外一片宁静住宅区内的标准日式两层独栋民居（一戸建て）。房屋外墙呈温和的米白色，配以深灰色的瓦顶，门前有一个打理得井井有条的小庭院，种植着矮灌木与时令花卉。一楼是充满生活气息的家庭公共区域，包含铺设着木地板的温馨客厅、飘着饭菜香气的厨房，以及一间供奉着祖先、铺有榻榻米的传统和室。沿着木制楼梯上到二楼，便是和人与妹妹直叶的个人卧室。直叶的房间整洁明亮，角落里整齐地码放着竹刀与剑道护具；而隔壁和人的房间，则是整个住宅中科技感最密集的“异质空间”。这间十平米左右的男生卧室里，除了一张单人床，最显眼的是一张巨大的L型工作台，上面架设着多台高分辨率显示器、定制的水冷主机、各种散发着微光的路由器与数据线，以及整齐收纳在架子上的Amusphere（第二代潜行头盔）和各种VR调试外设。拉上遮光窗帘，房间里便只剩下主机风扇轻微的嗡嗡声与屏幕荧光的闪烁，这里不仅是和人作为天才黑客与游戏玩家的秘密基地，也是他无数次将意识投射向无尽虚拟世界的现实起点。\n</地点_地点_桐谷家>",
+  "rawEntry": {
+    "id": 130,
+    "keys": [
+      "/<status>[\\s\\S]*?当前位置:[^\\n<]*(桐谷家)[\\s\\S]*?<\\/status>/s"
+    ],
+    "secondary_keys": [],
+    "comment": "地点:桐谷家",
+    "content": "<地点_桐谷家>\n##桐谷家\n   -位于埼玉县川越市郊外一片宁静住宅区内的标准日式两层独栋民居（一戸建て）。房屋外墙呈温和的米白色，配以深灰色的瓦顶，门前有一个打理得井井有条的小庭院，种植着矮灌木与时令花卉。一楼是充满生活气息的家庭公共区域，包含铺设着木地板的温馨客厅、飘着饭菜香气的厨房，以及一间供奉着祖先、铺有榻榻米的传统和室。沿着木制楼梯上到二楼，便是和人与妹妹直叶的个人卧室。直叶的房间整洁明亮，角落里整齐地码放着竹刀与剑道护具；而隔壁和人的房间，则是整个住宅中科技感最密集的“异质空间”。这间十平米左右的男生卧室里，除了一张单人床，最显眼的是一张巨大的L型工作台，上面架设着多台高分辨率显示器、定制的水冷主机、各种散发着微光的路由器与数据线，以及整齐收纳在架子上的Amusphere（第二代潜行头盔）和各种VR调试外设。拉上遮光窗帘，房间里便只剩下主机风扇轻微的嗡嗡声与屏幕荧光的闪烁，这里不仅是和人作为天才黑客与游戏玩家的秘密基地，也是他无数次将意识投射向无尽虚拟世界的现实起点。\n</地点_地点_桐谷家>",
+    "constant": false,
+    "selective": true,
+    "insertion_order": 4,
+    "enabled": true,
+    "position": "after_char",
+    "use_regex": true,
+    "extensions": {
+      "position": 1,
+      "exclude_recursion": true,
+      "display_index": 118,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "selectiveLogic": 0,
+      "outlet_name": "",
+      "group": "",
+      "group_override": false,
+      "group_weight": 100,
+      "prevent_recursion": true,
+      "delay_until_recursion": false,
+      "scan_depth": 2,
+      "match_whole_words": true,
+      "use_group_scoring": false,
+      "case_sensitive": false,
+      "automation_id": "",
+      "role": 0,
+      "vectorized": false,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "match_persona_description": false,
+      "match_character_description": false,
+      "match_character_personality": false,
+      "match_character_depth_prompt": false,
+      "match_scenario": false,
+      "match_creator_notes": false,
+      "triggers": [],
+      "ignore_budget": false
+    }
+  },
+  "splitNote": "One original JSON worldbook/character_book entry preserved as one source unit."
+}

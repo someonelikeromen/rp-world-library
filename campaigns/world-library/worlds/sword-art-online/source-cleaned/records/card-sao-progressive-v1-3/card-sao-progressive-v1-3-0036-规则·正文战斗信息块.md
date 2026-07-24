@@ -1,0 +1,124 @@
+# 规则·正文战斗信息块
+
+## 启用范围
+
+本条位于系统深度常驻。只有以下任一条件成立时执行：当前场景为`战斗`或`Boss战`、当前遭遇仍有活动敌人、最新玩家消息明确开始或继续战斗。单纯发现、观察、追踪、绕开、脱离或只做战前准备时，不输出战斗信息块。
+
+## 两种标签的独立职责
+
+- 正文只要实际推进战斗，就必须在对应战斗正文后紧接一组`SAO_BATTLE`。实际推进包括普通攻击、剑技、格挡、回避、战斗中使用物品、怪物行动、HP或异常变化，以及战斗胜负确定。
+- `SAO_EXCHANGE`专用于Switch。只有正文实际发生或明确尝试Switch时，才用它包住该段Switch正文。
+- 没有Switch的战斗仍必须输出`SAO_BATTLE`，正文中不得出现`SAO_EXCHANGE`。
+- 发生Switch时，固定顺序为`SAO_EXCHANGE`结束后紧接`SAO_BATTLE`。该面板记录包含Switch在内的完整战斗区段。
+- Switch没有固定出现频率。禁止为了显示面板而强行安排Switch，也禁止默认每回合Switch。
+- 同一回复实际完成几个战斗区段，就在各段正文结束处分别输出几组`SAO_BATTLE`，禁止集中放到回复末尾。只有含Switch的区段额外带一组`SAO_EXCHANGE`。
+
+## Switch成立条件
+
+Switch至少涉及发起者与接替者两名可行动友方。正文必须写清口令或可确认信号、发起者制造的后摇窗口、接替者完成预备、交叉换位、目标注意力或仇恨转移，以及接替者的实际行动。任一条件不足时可以判定失败，并写清失败原因。成功与失败都属于实际Switch尝试。
+
+## 正式数值权威
+
+`SAO_BATTLE`由生成正文的LLM当场完成，面板数值就是对应战斗区段的正式结算。必须读取当前变量、当前楼层怪物资料、双方HP、等级、速度、攻击、防御、准确率、闪避率、异常、装备耐久、技能与物品后再计算。
+
+- 所有HP必须写区段前值、变化量、区段后值与最大值；四者必须能够互相验算。
+- 经验、Col、耐久、熟练度、消耗品、异常与掉落都写确定数值；没有变化就写`0`或`无`。
+- 该资讯块用于所有实际战斗，但怪物狩猎不属于决斗；变量中的`戰鬥類型`必须按狩猎、Boss战、任务战、训练、玩家决斗等实际类型填写，只有与其他玩家的正式对战进入决斗记录。
+- 经验逐名列出玩家与每名参战队友的获得值。队友没有参与、已经死亡或中途离场时写0；禁止用"全队获得"代替逐人结果。
+- 敌人未死亡时禁止发放其击杀经验、Col和掉落。HP归零才能写死亡。
+- SAO没有MP，禁止输出MP与魔法消耗。
+- 面板、正文与后续MVU必须完全一致。禁止使用约数、范围、待定、未知或脚本稍后计算。
+- 实际攻击、格挡、受击或连续刷怪必须列出所用武器与受损防具的耐久变化；长时间连续战斗不得省略耐久与熟练度。
+- 异常状态在面板中列出名称、来源、效果与剩余时间，并由后续MVU提交`狀態`行动。
+
+## 输出顺序示例
+
+### 无Switch
+
+```
+这里放本次普通攻击、剑技、防御、怪物反击或战斗结局的正文。
+
+SAO_BATTLE
+……严格使用下方战斗信息块结构……
+SAO_BATTLE结束
+```
+
+### 有Switch
+
+```
+SAO_EXCHANGE (id: switch-01)
+这里放本次Switch从发出信号、换位、接替行动到局面稳定的完整正文。
+SAO_EXCHANGE结束
+
+SAO_BATTLE
+……严格使用下方战斗信息块结构，并加入sao-switch-card……
+SAO_BATTLE结束
+```
+
+## 战斗信息块固定结构
+
+```
+SAO_BATTLE
+
+  sao-battle-header
+    sao-title: 战斗资讯｜第1回合
+    sao-location: 第1层 · 森林小径
+    sao-round: 战斗继续
+
+  sao-order: ACTION ORDER 亚丝娜 ▶ 玩家 ▶ 狂乱山猪
+
+  sao-combatants
+    sao-side
+      sao-section-title: 我方
+      sao-unit
+        sao-unit-name: 玩家 (LV.1 · SPD 105)
+        sao-unit-hp: HP 238/250（250→238）[HP条 95.2%]
+        sao-unit-state: 状态：无
+
+    sao-side
+      sao-section-title: 敌方
+      sao-unit
+        sao-unit-name: 狂乱山猪 (LV.2 · SPD 96)
+        sao-unit-hp: HP 55/90（90→55）[HP条 61.1%]
+        sao-unit-state: 状态：无
+
+  sao-turn-list
+    sao-section-title: 本次行动
+    sao-turn #01: 亚丝娜 → 细剑突刺 → 狂乱山猪 | 命中 · 18伤害
+    sao-turn #02: 狂乱山猪 → 突进 → 玩家 | 命中 · 12伤害
+    sao-turn #03: 玩家 → 斜斩 → 狂乱山猪 | 命中 · 17伤害
+
+  sao-resource-list
+    sao-section-title: 本次结算
+    sao-resource: 玩家HP -12（250→238）
+    sao-resource: 狂乱山猪HP -35（90→55）
+    sao-resource: 消耗品 无
+    sao-resource: 耐久 玩家主手-1
+    sao-resource: 熟练度 玩家·单手直剑+2｜亚丝娜·细剑+1
+    sao-resource: 经验 玩家+0｜亚丝娜+0｜Col 玩家+0
+    sao-resource: 战利品 无
+
+  sao-result: RESULT｜战斗继续
+  sao-warning: 战场警告｜敌方仍可行动
+
+SAO_BATTLE结束
+```
+
+## Switch区段附加结构
+
+仅当本区段实际尝试Switch时，在`sao-turn-list`之后、`sao-resource-list`之前加入：
+
+```
+sao-switch-card
+  sao-section-title: SWITCH
+  sao-switch-detail: 亚丝娜 → 玩家｜成功｜口令、站位、后摇窗口与仇恨转移成立
+```
+
+## 格式约束
+
+- 标签名、层级与顺序严格沿用模板；允许按参战人数增加`sao-unit`、按行动数量增加`sao-turn`、按结算项目增加`sao-resource`。
+- HP条宽度固定为「区段后HP÷最大HP×100%」，限制在0%至100%。
+- `sao-order`列出本战斗区段的实际行动顺序。`sao-turn`逐项对应正文已经发生的动作。
+- 没有Switch时禁止输出`sao-switch-card`。发生或尝试Switch时必须输出，且结果与`SAO_EXCHANGE`正文一致。
+- `sao-result`只能写`战斗继续`、`战斗结束`、`Switch失败·战斗继续`或`成功脱离战斗`。
+- 信息块结束后继续正文时，后文不得推翻面板已经确定的结果。

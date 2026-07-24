@@ -1,0 +1,73 @@
+{
+  "unitId": "card-local-1-0101-地点-暗影之岛",
+  "unitKind": "json-entry",
+  "sourceId": "card-local-1",
+  "sourceKind": "character-card-json",
+  "sourcePath": "local-ingest/-_1.card.json",
+  "sourcePointer": "data.character_book.entries.101",
+  "sourceIndex": 101,
+  "title": "地点:暗影之岛",
+  "enabled": true,
+  "constant": false,
+  "selective": true,
+  "keys": [
+    "/<status>[\\s\\S]*?当前位置:[^\\n<]*(暗影之岛)[\\s\\S]*?<\\/status>/s"
+  ],
+  "secondaryKeys": [],
+  "position": "after_char",
+  "categories": [
+    "locations",
+    "systems"
+  ],
+  "nameCandidates": [],
+  "content": "<地点_暗影之岛>\n\n##暗影之岛\n  -幽灵子弹（GGO）中用于举办第三届BoB（最强枪手杯）总决赛的巨型荒野对战地图。整座岛屿的直径达到数公里，其地貌环境极其复杂且恶劣，是一个将末日废土、自然侵蚀与现代战争遗迹完美融合的残酷战场。\n岛屿的中心是一片死寂的“废墟都市区”，高耸的摩天大楼只剩下焦黑的钢筋混凝土骨架，街道上堆满了锈迹斑斑的废弃车辆与坍塌的瓦砾，空气中常年弥漫着刺鼻的烟尘与火药味。都市外围则分布着大片干涸开裂的“黄金沙漠区”、由剧毒工业废水汇聚而成的“酸雨沼泽”，以及常年笼罩在迷雾中的“枯萎密林”。\n一条宽阔而干涸的古老河道将岛屿一分为二，河道上横跨着数座半坍塌的钢筋吊桥，是连接各区域的战略要道。岛上没有任何安全区，系统随机刷新的恶劣天气（如沙尘暴、酸雨）会不断强行削减玩家的视野与护甲。在废墟的阴影间、沙丘的起伏处，红色的“弹道预测线”不时如闪电般划破黑暗，将这座荒凉的岛屿化为一处充斥着冷枪、埋伏与生死博弈的无声绞肉机。\n</地点_暗影之岛>",
+  "rawEntry": {
+    "id": 101,
+    "keys": [
+      "/<status>[\\s\\S]*?当前位置:[^\\n<]*(暗影之岛)[\\s\\S]*?<\\/status>/s"
+    ],
+    "secondary_keys": [],
+    "comment": "地点:暗影之岛",
+    "content": "<地点_暗影之岛>\n\n##暗影之岛\n  -幽灵子弹（GGO）中用于举办第三届BoB（最强枪手杯）总决赛的巨型荒野对战地图。整座岛屿的直径达到数公里，其地貌环境极其复杂且恶劣，是一个将末日废土、自然侵蚀与现代战争遗迹完美融合的残酷战场。\n岛屿的中心是一片死寂的“废墟都市区”，高耸的摩天大楼只剩下焦黑的钢筋混凝土骨架，街道上堆满了锈迹斑斑的废弃车辆与坍塌的瓦砾，空气中常年弥漫着刺鼻的烟尘与火药味。都市外围则分布着大片干涸开裂的“黄金沙漠区”、由剧毒工业废水汇聚而成的“酸雨沼泽”，以及常年笼罩在迷雾中的“枯萎密林”。\n一条宽阔而干涸的古老河道将岛屿一分为二，河道上横跨着数座半坍塌的钢筋吊桥，是连接各区域的战略要道。岛上没有任何安全区，系统随机刷新的恶劣天气（如沙尘暴、酸雨）会不断强行削减玩家的视野与护甲。在废墟的阴影间、沙丘的起伏处，红色的“弹道预测线”不时如闪电般划破黑暗，将这座荒凉的岛屿化为一处充斥着冷枪、埋伏与生死博弈的无声绞肉机。\n</地点_暗影之岛>",
+    "constant": false,
+    "selective": true,
+    "insertion_order": 5,
+    "enabled": true,
+    "position": "after_char",
+    "use_regex": true,
+    "extensions": {
+      "position": 1,
+      "exclude_recursion": true,
+      "display_index": 111,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "selectiveLogic": 0,
+      "outlet_name": "",
+      "group": "",
+      "group_override": false,
+      "group_weight": 100,
+      "prevent_recursion": true,
+      "delay_until_recursion": false,
+      "scan_depth": 2,
+      "match_whole_words": true,
+      "use_group_scoring": false,
+      "case_sensitive": false,
+      "automation_id": "",
+      "role": 0,
+      "vectorized": false,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "match_persona_description": false,
+      "match_character_description": false,
+      "match_character_personality": false,
+      "match_character_depth_prompt": false,
+      "match_scenario": false,
+      "match_creator_notes": false,
+      "triggers": [],
+      "ignore_budget": false
+    }
+  },
+  "splitNote": "One original JSON worldbook/character_book entry preserved as one source unit."
+}

@@ -1,0 +1,73 @@
+{
+  "unitId": "card-local-1-0108-地点-大峡谷_东大门",
+  "unitKind": "json-entry",
+  "sourceId": "card-local-1",
+  "sourceKind": "character-card-json",
+  "sourcePath": "local-ingest/-_1.card.json",
+  "sourcePointer": "data.character_book.entries.108",
+  "sourceIndex": 108,
+  "title": "地点:大峡谷_东大门",
+  "enabled": true,
+  "constant": false,
+  "selective": true,
+  "keys": [
+    "/<status>[\\s\\S]*?当前位置:[^\\n<]*(大峡谷_东大门)[\\s\\S]*?<\\/status>/s"
+  ],
+  "secondaryKeys": [],
+  "position": "after_char",
+  "categories": [
+    "locations",
+    "systems"
+  ],
+  "nameCandidates": [],
+  "content": "<地点_大峡谷_东大门>\n## 大峡谷·东大门\n- 位于摇光世界（Underworld）人界与暗之国（Dark Territory）的唯一物理通道——“东大门大峡谷”最狭窄处的终极防御关卡。这里是整个人界防卫的最前线，其地貌环境极其雄伟、荒凉且充斥着史诗般的悲壮与肃杀。\n- 峡谷两侧是拔地而起、高达数百米且寸草不生的暗红色绝壁，岩石表面布满了风化与古老战争留下的斑驳伤痕。在这道天险的最窄处，横亘着一堵由公理教会动用神圣术、耗费数十年光阴砌成的巨型白色石造防壁。而防壁的正中央，便是那道高耸、厚重、通体由黑铁与未知合金熔铸而成的“东大门（Eastern Gate）”。\n- 东大门高达数十米，表面雕刻着无数狰狞的魔怪浮雕与密密麻麻的系统禁制符文，其天命（耐久度）被设定为近乎无限。在门前，是一片由灰色碎石与开裂红土铺设而成的宽阔荒原，狂风裹挟着细沙在峡谷间呼啸，发出如野兽低吼般的轰鸣。\n- 门后的防地上，整齐地排列着人界防卫军的白石营帐与高耸的防御箭塔，城墙上插着代表着四大帝国的战旗。而门外，则是暗之国那翻滚着暗红色雷云的无尽荒漠。这道巍峨的黑铁巨门，千百年来宛如一堵绝对的物理长城，将人界的祥和与暗之国的暴烈死死隔绝。然而，随着大门天命指针的不断倒计时，巨门表面不时泛起暗红色的系统崩溃微光，整座大门在狂风中隐隐颤动，将决战前夕、两个文明即将碰撞绞杀的压迫感烘托到了极致。\n</地点_大峡谷_东大门>",
+  "rawEntry": {
+    "id": 108,
+    "keys": [
+      "/<status>[\\s\\S]*?当前位置:[^\\n<]*(大峡谷_东大门)[\\s\\S]*?<\\/status>/s"
+    ],
+    "secondary_keys": [],
+    "comment": "地点:大峡谷_东大门",
+    "content": "<地点_大峡谷_东大门>\n## 大峡谷·东大门\n- 位于摇光世界（Underworld）人界与暗之国（Dark Territory）的唯一物理通道——“东大门大峡谷”最狭窄处的终极防御关卡。这里是整个人界防卫的最前线，其地貌环境极其雄伟、荒凉且充斥着史诗般的悲壮与肃杀。\n- 峡谷两侧是拔地而起、高达数百米且寸草不生的暗红色绝壁，岩石表面布满了风化与古老战争留下的斑驳伤痕。在这道天险的最窄处，横亘着一堵由公理教会动用神圣术、耗费数十年光阴砌成的巨型白色石造防壁。而防壁的正中央，便是那道高耸、厚重、通体由黑铁与未知合金熔铸而成的“东大门（Eastern Gate）”。\n- 东大门高达数十米，表面雕刻着无数狰狞的魔怪浮雕与密密麻麻的系统禁制符文，其天命（耐久度）被设定为近乎无限。在门前，是一片由灰色碎石与开裂红土铺设而成的宽阔荒原，狂风裹挟着细沙在峡谷间呼啸，发出如野兽低吼般的轰鸣。\n- 门后的防地上，整齐地排列着人界防卫军的白石营帐与高耸的防御箭塔，城墙上插着代表着四大帝国的战旗。而门外，则是暗之国那翻滚着暗红色雷云的无尽荒漠。这道巍峨的黑铁巨门，千百年来宛如一堵绝对的物理长城，将人界的祥和与暗之国的暴烈死死隔绝。然而，随着大门天命指针的不断倒计时，巨门表面不时泛起暗红色的系统崩溃微光，整座大门在狂风中隐隐颤动，将决战前夕、两个文明即将碰撞绞杀的压迫感烘托到了极致。\n</地点_大峡谷_东大门>",
+    "constant": false,
+    "selective": true,
+    "insertion_order": 2,
+    "enabled": true,
+    "position": "after_char",
+    "use_regex": true,
+    "extensions": {
+      "position": 1,
+      "exclude_recursion": true,
+      "display_index": 116,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "selectiveLogic": 0,
+      "outlet_name": "",
+      "group": "",
+      "group_override": false,
+      "group_weight": 100,
+      "prevent_recursion": true,
+      "delay_until_recursion": false,
+      "scan_depth": 2,
+      "match_whole_words": true,
+      "use_group_scoring": false,
+      "case_sensitive": false,
+      "automation_id": "",
+      "role": 0,
+      "vectorized": false,
+      "sticky": 0,
+      "cooldown": 0,
+      "delay": 0,
+      "match_persona_description": false,
+      "match_character_description": false,
+      "match_character_personality": false,
+      "match_character_depth_prompt": false,
+      "match_scenario": false,
+      "match_creator_notes": false,
+      "triggers": [],
+      "ignore_budget": false
+    }
+  },
+  "splitNote": "One original JSON worldbook/character_book entry preserved as one source unit."
+}

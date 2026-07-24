@@ -1,0 +1,10 @@
+{
+  "id": "sao-00314",
+  "type": "location",
+  "name": "事件·共用生成与运行规则",
+  "source": "card-sao-progressive-v1-3",
+  "sourceFile": "card-sao-progressive-v1-3-0238.md",
+  "description": "# 事件·共用生成与运行规则\n\n事件只描述世界中发生或可能发生的变化，以固定 ID 写入 `/世界/事件/<事件ID>`；任务不得塞入事件。旗标保存在同一事件的 `旗标` 子对象。\n\n事件需具备名称、状态、阶段、楼层、地点、时间、参与角色 ID、前置条件与失败或失效条件。静态世界书条目只是候选种子；门槛未成立、正文未发生时不得写成既成事实。事件造成的数值、资产、队伍、关系与时间后果一律交给对应 UnifiedAction 结算。\n",
+  "attributes": {},
+  "relations": []
+}

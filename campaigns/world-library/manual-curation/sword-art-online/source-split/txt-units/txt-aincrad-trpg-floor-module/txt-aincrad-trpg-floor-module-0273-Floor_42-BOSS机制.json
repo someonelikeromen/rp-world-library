@@ -1,0 +1,36 @@
+{
+  "unitId": "txt-aincrad-trpg-floor-module-0273-Floor_42-BOSS机制",
+  "unitKind": "txt-unit",
+  "sourceId": "txt-aincrad-trpg-floor-module",
+  "sourceKind": "txt-structured",
+  "sourcePath": "local-ingest/新建 文本文档.txt",
+  "sourcePointer": "line:830",
+  "sourceIndex": 273,
+  "title": "Floor_42 / BOSS机制",
+  "enabled": null,
+  "constant": null,
+  "selective": null,
+  "keys": [],
+  "secondaryKeys": [],
+  "position": null,
+  "categories": [
+    "locations",
+    "floor-data",
+    "events",
+    "systems",
+    "engine-rules",
+    "items",
+    "bosses",
+    "mixed"
+  ],
+  "nameCandidates": [
+    "棱镜切割者"
+  ],
+  "content": "BOSS机制:\n      名称: 棱镜切割者\n      形态描述: 身体由无数锋利的水晶棱柱构成的巨大构造体，没有固定的四肢，完全依靠晶体的旋转和射出进行攻击。\n      TRPG核心机制:\n        - 死亡折射: Boss会发射一道持续的高能光束，光束遇到场地边缘的水晶柱会发生无规律的多次折射，形成一张死亡光网。队伍必须时刻进行[敏捷/空间预判]检定，在光网的缝隙中寻找生机。\n        - 碎晶护甲: 每次受到物理攻击都会溅射出锋利的水晶碎片，近战输出必须配备极高的物理防御或者由治疗者时刻维持减伤护盾，否则会被反伤致死。",
+  "rawEntry": {
+    "startLine": 830,
+    "endLine": 836,
+    "floor": "Floor_42"
+  },
+  "splitNote": "TXT split by Floor_N and four-space YAML-like section boundaries."
+}

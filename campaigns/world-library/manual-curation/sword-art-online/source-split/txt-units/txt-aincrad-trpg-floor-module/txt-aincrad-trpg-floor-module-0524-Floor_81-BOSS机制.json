@@ -1,0 +1,36 @@
+{
+  "unitId": "txt-aincrad-trpg-floor-module-0524-Floor_81-BOSS机制",
+  "unitKind": "txt-unit",
+  "sourceId": "txt-aincrad-trpg-floor-module",
+  "sourceKind": "txt-structured",
+  "sourcePath": "local-ingest/新建 文本文档.txt",
+  "sourcePointer": "line:1562",
+  "sourceIndex": 524,
+  "title": "Floor_81 / BOSS机制",
+  "enabled": null,
+  "constant": null,
+  "selective": null,
+  "keys": [],
+  "secondaryKeys": [],
+  "position": null,
+  "categories": [
+    "locations",
+    "floor-data",
+    "systems",
+    "engine-rules",
+    "abilities",
+    "items",
+    "bosses",
+    "mixed"
+  ],
+  "nameCandidates": [
+    "黑暗骑士·沙暴巨魔"
+  ],
+  "content": "BOSS机制:\n      名称: 黑暗骑士·沙暴巨魔\n      形态描述: 浑身由黑沙与古代盔甲构成的巨大无头骑士，骑乘着一头完全由流沙构成的战马。\n      TRPG核心机制:\n        - 流沙领域: Boss会在战斗场地中心制造一个巨大的流沙旋涡。所有玩家每回合结束时都会向中心滑移。一旦被卷入旋涡中心，将受到高额的真实挤压伤害并被附加【窒息】。玩家必须在战斗中不断进行[敏捷/位移]以保持在场地边缘。\n        - 狂沙斩击: Boss挥舞的巨剑会卷起大范围的沙尘暴，被击中的玩家如果未通过[体质]检定，其武器的耐久度将瞬间掉落20%，极度考验队伍中铁匠的战地抢修能力。",
+  "rawEntry": {
+    "startLine": 1562,
+    "endLine": 1568,
+    "floor": "Floor_81"
+  },
+  "splitNote": "TXT split by Floor_N and four-space YAML-like section boundaries."
+}
