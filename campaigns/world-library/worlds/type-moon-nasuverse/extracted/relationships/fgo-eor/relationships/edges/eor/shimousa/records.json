@@ -1,0 +1,161 @@
+{
+  "schema": "tm-fgo-eor-merged-relationship-edge-records-v1",
+  "chapterId": "fgo-eor-shimousa",
+  "promotionRule": "source-backed relationship candidates only; no co-occurrence promotion",
+  "records": [
+    {
+      "id": "shimousa-relcand-001",
+      "subject": "妖术师/天草四郎时贞",
+      "predicate": "co-leads-anomaly-with",
+      "object": "芦屋道满",
+      "basis": "异常根源称由妖术师与异星使徒芦屋道满共同主导。",
+      "timelineId": "fgo-eor-shimousa",
+      "timeRange": {
+        "precision": "chapter-world-state-anchored",
+        "startEventId": "shimousa-event-b",
+        "startOrderIndex": 2,
+        "startTimeRaw": "1639年5月7日 午后",
+        "endEventId": "shimousa-event-q",
+        "endOrderIndex": 17,
+        "endTimeRaw": "1639年5月18日及其后"
+      },
+      "timeRangeRaw": "1639年5月7日 午后—1639年5月18日及其后",
+      "sourceRefs": [{"path":"sources/worldbook-script/eor/ch-091-shimousa.txt","lineStart":25,"lineEnd":25}],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "id": "shimousa-relcand-002",
+      "subject": "芦屋道满/Caster Limbo",
+      "predicate": "implants-karma-in",
+      "object": "宝藏院胤舜/Lancer Purgatorio",
+      "basis": "胤舜被道满以宿业侵蚀改造，堕落为英灵剑豪。",
+      "timelineId": "fgo-eor-shimousa",
+      "timeRange": {
+        "precision": "event-anchored",
+        "startEventId": "shimousa-event-c",
+        "startOrderIndex": 3,
+        "startTimeRaw": "1639年5月7日 黄昏",
+        "endEventId": "shimousa-event-c",
+        "endOrderIndex": 3,
+        "endTimeRaw": "1639年5月7日 黄昏"
+      },
+      "timeRangeRaw": "1639年5月7日 黄昏",
+      "sourceRefs": [{"path":"sources/worldbook-script/eor/ch-091-shimousa.txt","lineStart":48,"lineEnd":51}],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "id": "shimousa-relcand-003",
+      "subject": "宫本武藏",
+      "predicate": "uses-muramasa-blade-to-end",
+      "object": "宝藏院胤舜/Lancer Purgatorio",
+      "basis": "武藏借用村正的失败品宝刀斩断宿业灵核并终结胤舜。",
+      "timelineId": "fgo-eor-shimousa",
+      "timeRange": {
+        "precision": "event-anchored",
+        "startEventId": "shimousa-event-d",
+        "startOrderIndex": 4,
+        "startTimeRaw": "1639年5月7日 深夜至翌日黎明",
+        "endEventId": "shimousa-event-d",
+        "endOrderIndex": 4,
+        "endTimeRaw": "1639年5月7日 深夜至翌日黎明"
+      },
+      "timeRangeRaw": "1639年5月7日 深夜至翌日黎明",
+      "sourceRefs": [{"path":"sources/worldbook-script/eor/ch-091-shimousa.txt","lineStart":53,"lineEnd":56}],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "id": "shimousa-relcand-004",
+      "subject": "千子村正",
+      "predicate": "supports-causality-cutting-for",
+      "object": "宫本武藏/攻略流程",
+      "basis": "村正锻造都牟刈村正斩断因果与结界链接，并舍命锻刀斩断秽土城命脉。",
+      "timelineId": "fgo-eor-shimousa",
+      "timeRange": {
+        "precision": "chapter-world-state-with-final-event",
+        "startEventId": "shimousa-event-b",
+        "startOrderIndex": 2,
+        "startTimeRaw": "1639年5月7日 午后",
+        "endEventId": "shimousa-event-p",
+        "endOrderIndex": 16,
+        "endTimeRaw": "1639年5月17日 深夜"
+      },
+      "timeRangeRaw": "1639年5月7日 午后—1639年5月17日 深夜",
+      "sourceRefs": [{"path":"sources/worldbook-script/eor/ch-091-shimousa.txt","lineStart":26,"lineEnd":103}],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "id": "shimousa-relcand-005",
+      "subject": "风魔小太郎",
+      "predicate": "recognizes-as-mother",
+      "object": "加藤段藏",
+      "basis": "小太郎认出段藏即为母亲，并继承母亲遗志破阵。",
+      "timelineId": "fgo-eor-shimousa",
+      "timeRange": {
+        "precision": "event-span-anchored",
+        "startEventId": "shimousa-event-m",
+        "startOrderIndex": 13,
+        "startTimeRaw": "1639年5月16日 黎明至午后",
+        "endEventId": "shimousa-event-o",
+        "endOrderIndex": 15,
+        "endTimeRaw": "1639年5月17日 午后至夜晚"
+      },
+      "timeRangeRaw": "1639年5月16日 黎明至午后—1639年5月17日 午后至夜晚",
+      "sourceRefs": [{"path":"sources/worldbook-script/eor/ch-091-shimousa.txt","lineStart":90,"lineEnd":100}],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "id": "shimousa-relcand-006",
+      "subject": "黑绳地狱/Rider黑绳地狱",
+      "predicate": "protects-hostages-through-empathy",
+      "object": "阿缝/田助",
+      "basis": "黑绳地狱保护人质产生共情，没有下手杀害孩子。",
+      "timelineId": "fgo-eor-shimousa",
+      "timeRange": {
+        "precision": "event-span-anchored",
+        "startEventId": "shimousa-event-l",
+        "startOrderIndex": 12,
+        "startTimeRaw": "1639年5月16日 黎明至午前",
+        "endEventId": "shimousa-event-m",
+        "endOrderIndex": 13,
+        "endTimeRaw": "1639年5月16日 黎明至午后"
+      },
+      "timeRangeRaw": "1639年5月16日 黎明至午前—1639年5月16日 黎明至午后",
+      "sourceRefs": [{"path":"sources/worldbook-script/eor/ch-091-shimousa.txt","lineStart":86,"lineEnd":92}],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "id": "shimousa-relcand-007",
+      "subject": "众合地狱",
+      "predicate": "infuses-power-into",
+      "object": "Assassin Paraiso",
+      "basis": "众合地狱将大蛇之力灌入Paraiso令其暴走。",
+      "timelineId": "fgo-eor-shimousa",
+      "timeRange": {
+        "precision": "event-anchored",
+        "startEventId": "shimousa-event-j",
+        "startOrderIndex": 10,
+        "startTimeRaw": "1639年5月14日 白昼至深夜",
+        "endEventId": "shimousa-event-j",
+        "endOrderIndex": 10,
+        "endTimeRaw": "1639年5月14日 白昼至深夜"
+      },
+      "timeRangeRaw": "1639年5月14日 白昼至深夜",
+      "sourceRefs": [{"path":"sources/worldbook-script/eor/ch-091-shimousa.txt","lineStart":78,"lineEnd":78}],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    }
+  ]
+}

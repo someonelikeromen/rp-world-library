@@ -1,0 +1,20 @@
+{
+  "schema": "tm-fgo-canonical-chapter-entity-v1",
+  "entityId": "chapter:fgo-part1-fuyuki",
+  "chapterKey": "fuyuki",
+  "chapterId": "fgo-part1-fuyuki",
+  "chapterOrder": 0,
+  "title": "燃烧污染都市 冬木 (Singularity F)",
+  "factRefs": {
+    "worldState": "extracted/part1/fuyuki/world-state.json",
+    "events": "extracted/part1/fuyuki/events/*.json",
+    "characterFragments": "normalized/part1/fuyuki/characters/*.fragment.json",
+    "relationships": "normalized/part1/fuyuki/relationships/*.json",
+    "packetStatus": "audit/packet-audits/part1/fuyuki/final-status.json",
+    "appearanceRefs": ["merged/appearances/part1/fuyuki/records.json"],
+    "abilityRefs": ["merged/abilities/part1/fuyuki/records.json"],
+    "combatEffectRefs": ["merged/combat-effects/part1/fuyuki/records.json"]
+  },
+  "counts": {"events": 11, "characterFragments": 8, "relationships": 4, "worldStates": 1},
+  "status": "passed"
+}

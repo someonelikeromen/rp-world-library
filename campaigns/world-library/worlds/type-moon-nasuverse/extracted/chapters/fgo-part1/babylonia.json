@@ -1,0 +1,17 @@
+{
+  "schema": "tm-fgo-canonical-chapter-entity-v1",
+  "entityId": "chapter:fgo-part1-babylonia",
+  "chapterKey": "babylonia",
+  "chapterId": "fgo-part1-babylonia",
+  "chapterOrder": 7,
+  "title": "绝对魔兽战线 巴比伦尼亚",
+  "factRefs": {
+    "worldState": "extracted/part1/babylonia/world-state.json",
+    "events": "extracted/part1/babylonia/events/*.json",
+    "characterFragments": "normalized/part1/babylonia/characters/*.fragment.json",
+    "relationships": "normalized/part1/babylonia/relationships/*.json",
+    "packetStatus": "audit/packet-audits/part1/babylonia/final-status.json"
+  },
+  "counts": {"events": 23, "characterFragments": 20, "relationships": 8, "worldStates": 1},
+  "status": "passed"
+}

@@ -1,0 +1,13 @@
+{
+  "schema": "tm-fgo-canonical-character-entity-v1",
+  "entityId": "character:jeanne",
+  "canonicalName": "贞德",
+  "mergeStatus": "canonicalized-distinct-from-jeanne-alter",
+  "fragmentRefs": [
+    "normalized/part1/orleans/characters/jeanne.fragment.json",
+    "normalized/part1/solomon/characters/jeanne.fragment.json"
+  ],
+  "chapterCoverage": ["orleans", "solomon"],
+  "distinctEntityRefs": ["normalized/part1/orleans/characters/jeanne-alter.fragment.json"],
+  "notes": ["Jeanne Alter remains a separate entity despite shared name root."]
+}

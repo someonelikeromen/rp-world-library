@@ -1,0 +1,137 @@
+{
+  "schema": "tm-fgo-normalized-entity-index-v1",
+  "packetId": "pkt-fgo-ordeal-call-oc2-id-prep",
+  "chapterId": "fgo-ordeal-call-2-id",
+  "slug": "oc2-id",
+  "records": [
+    {
+      "entityId": "oc2-entity-fujimaru-ritsuka",
+      "primaryNameRaw": "藤丸立香",
+      "normalizationStatus": "source-first-name-only",
+      "aliasCandidates": [
+        {
+          "label": "Fujimaru Ritsuka",
+          "supportStatus": "unsupported-by-current-source"
+        }
+      ],
+      "entityType": "person/master",
+      "sourceFirstLabels": ["藤丸立香", "御主"],
+      "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:8", "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:15-16", "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:30"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "entityId": "oc2-entity-jeanne-alter",
+      "primaryNameRaw": "贞德 (Alter)",
+      "aliasesRaw": ["贞德Alter", "Jalter", "贞德 (Avenger)"],
+      "normalizationStatus": "source-first-with-candidate-aliases",
+      "aliasCandidates": [
+        {
+          "label": "Jeanne Alter",
+          "supportStatus": "unsupported-by-current-source"
+        }
+      ],
+      "entityType": "servant-avenger",
+      "sourceFirstLabels": ["贞德 (Alter)", "贞德Alter", "Jalter", "贞德 (Avenger)"],
+      "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:16", "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:73-75"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "entityId": "oc2-entity-edmond-dantes",
+      "primaryNameRaw": "爱德蒙·唐泰斯",
+      "aliasesRaw": ["岩窟王", "岩窟王·爱德蒙·唐泰斯", "爱德蒙·唐泰斯 (Avenger)"],
+      "normalizationStatus": "source-first-with-candidate-aliases",
+      "aliasCandidates": [
+        {
+          "label": "Edmond Dantes",
+          "supportStatus": "unsupported-by-current-source"
+        },
+        {
+          "label": "Edmond Dantès",
+          "supportStatus": "unsupported-by-current-source"
+        }
+      ],
+      "entityType": "servant-avenger",
+      "sourceFirstLabels": ["爱德蒙·唐泰斯", "岩窟王", "Avenger", "恶意吞噬者"],
+      "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:21", "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:26", "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:76-78"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "entityId": "oc2-entity-marie-antoinette-alter",
+      "primaryNameRaw": "玛丽·安托瓦内特 (Alter)",
+      "aliasesRaw": ["黑玛丽", "玛丽·安托瓦内特 (Avenger)"],
+      "normalizationStatus": "source-first-with-candidate-aliases",
+      "aliasCandidates": [
+        {
+          "label": "Marie Antoinette Alter",
+          "supportStatus": "unsupported-by-current-source"
+        }
+      ],
+      "entityType": "servant-avenger",
+      "sourceFirstLabels": ["玛丽·安托瓦内特 (Alter)", "黑玛丽", "转学生", "复仇之理"],
+      "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:19", "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:42-48", "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:79-81"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "entityId": "oc2-entity-shining-star-hassan",
+      "primaryNameRaw": "耀星的哈桑",
+      "aliasesRaw": ["哈桑·萨巴赫 (Assassin)"],
+      "normalizationStatus": "source-first-with-candidate-aliases",
+      "aliasCandidates": [
+        {
+          "label": "Shining Star Hassan",
+          "supportStatus": "unsupported-by-current-source"
+        }
+      ],
+      "entityType": "servant-assassin",
+      "sourceFirstLabels": ["耀星的哈桑", "哈桑·萨巴赫", "Assassin", "切断星辰光芒"],
+      "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:18", "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:57", "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:84-86"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "entityId": "oc2-entity-cagliostro",
+      "primaryNameRaw": "亚历山德罗·迪·卡里奥斯特罗",
+      "aliasesRaw": ["卡里奥斯特罗", "伯爵", "卡里奥斯特罗 (Pretender / 异星使徒)"],
+      "normalizationStatus": "source-first-with-candidate-aliases",
+      "aliasCandidates": [
+        {
+          "label": "Alessandro di Cagliostro",
+          "supportStatus": "unsupported-by-current-source"
+        }
+      ],
+      "entityType": "pretender-alien-god-apostle",
+      "sourceFirstLabels": ["亚历山德罗·迪·卡里奥斯特罗", "卡里奥斯特罗", "伯爵", "Pretender", "异星使徒"],
+      "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:12", "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:49", "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:87-89"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "entityId": "oc2-entity-revengers-collective",
+      "primaryNameRaw": "复仇者们 / 所有Avenger职阶",
+      "aliasesRaw": ["迦勒底的复仇者们", "所有的复仇者", "复仇者残影"],
+      "normalizationStatus": "source-first-with-descriptive-candidate",
+      "aliasCandidates": [
+        {
+          "label": "Avenger collective",
+          "supportStatus": "descriptive-candidate-based-on-source-first-labels"
+        }
+      ],
+      "entityType": "collective-servant-class-group",
+      "sourceFirstLabels": ["复仇者们", "所有Avenger职阶", "复仇者残影", "灵基图谱完全变暗", "无法再被召唤"],
+      "sourceRefs": ["sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:12", "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:24", "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:29-30", "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:50", "sources/worldbook-script/ordeal-call/ch-105-oc2-id.txt:68"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "tm-fgo-canonical-chapter-entity-v1",
+  "entityId": "chapter:fgo-part1-okeanos",
+  "chapterKey": "okeanos",
+  "chapterId": "fgo-part1-okeanos",
+  "chapterOrder": 3,
+  "title": "封锁终局四海 俄刻阿诺斯",
+  "factRefs": {
+    "worldState": "extracted/part1/okeanos/world-state.json",
+    "events": "extracted/part1/okeanos/events/*.json",
+    "characterFragments": "normalized/part1/okeanos/characters/*.fragment.json",
+    "relationships": "normalized/part1/okeanos/relationships/*.json",
+    "packetStatus": "audit/packet-audits/part1/okeanos/final-status.json"
+  },
+  "counts": {"events": 14, "characterFragments": 18, "relationships": 7, "worldStates": 1},
+  "status": "passed",
+  "sourceDefectsPreserved": ["event K/L Heracles continuity tension preserved without invented repair"]
+}

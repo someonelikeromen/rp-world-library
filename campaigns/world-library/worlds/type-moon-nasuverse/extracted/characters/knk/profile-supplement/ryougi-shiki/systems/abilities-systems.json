@@ -1,0 +1,36 @@
+{
+  "schema": "tm-knk-abilities-supplement-v1",
+  "recordId": "ryougi-shiki-abilities-systems",
+  "status": "generated-pending-audit",
+  "sourceRefs": ["src-dlc-ryougi-shiki", "src-tm-summary-root", "src-tm-summary-mystic-eyes-death-perception"],
+  "sourceType": "local-imported-worldbook-profile-plus-setting-cross-check",
+  "credibility": "medium-local-worldbook-explicit-with-medium-low-cross-check",
+  "canonStatus": "secondary-summary-not-primary-canon",
+  "continuity": ["original", "type-moon-general"],
+  "candidateOnly": false,
+  "sourceGap": false,
+  "abilities": {
+    "mysticEyesOfDeathPerception": {
+      "sourceLabel": "直死之魔眼",
+      "type": "supernatural ability / Mystic Eyes; source says not ordinary magecraft",
+      "mechanism": "sees death lines; cutting them kills or disables what possesses a death concept",
+      "scopeSignals": ["living beings", "nonliving things", "spirits/intangible phenomena", "concepts/future/memories/magecraft where death can be understood"],
+      "limitations": ["abstract death comprehension can burden the brain in general; local source says Shiki adapted during two-year coma", "this pilot does not independently verify rank comparisons with Tohno Shiki"]
+    },
+    "rootConnection": {
+      "sourceLabel": "根源 / Void/root personality",
+      "normalizedAs": "profile aspect; not merged with FGO Saber form",
+      "summary": "source states the body/root personality connects directly to the Root and is near-omnipotent at the level of source summary",
+      "confidence": "source-backed but secondary-summary only"
+    },
+    "combatTraining": ["Ryougi-family martial training", "knife fighting", "aikido/self-style close combat", "Japanese sword/self-suggestion with 九字兼定"],
+    "prostheticArm": {
+      "maker": "苍崎橙子",
+      "reason": "left arm lost/disabled in confrontation with 浅上藤乃",
+      "properties": ["magical/intelligent prosthetic", "can grasp distant or intangible targets", "source says stronger than original arm"]
+    }
+  },
+  "candidateNotes": [
+    "Fate/EXTRA, FGO, Melty Blood and other crossover combat feats are excluded from this original-profile ability record and should be handled as candidate-only crossover packets."
+  ]
+}

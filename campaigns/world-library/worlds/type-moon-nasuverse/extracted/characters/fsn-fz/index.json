@@ -1,0 +1,62 @@
+{
+  "schema": "tm-p1-merged-index-v1",
+  "worldId": "type-moon-nasuverse",
+  "scope": "fsn-fz-pilot",
+  "generatedAt": "2026-07-12",
+  "generatedByStep": "finalize-retry",
+  "model": "lt-yuyu/gpt-5.5",
+  "status": "passed-with-known-risks",
+  "sourcePolicy": "p1-hybrid: imported/user worldbooks and curated story summaries; not official canon source-backed p1-scan",
+  "primaryFiles": {
+    "entities": "merged/merged-entities.json",
+    "graph": "merged/merged-graph.json",
+    "timeline": "merged/merged-timeline.json"
+  },
+  "groupMergeInputs": [
+    "group-merged/waves-001-006-formal-merge.json",
+    "group-merged/waves-007-012-formal-merge.json",
+    "group-merged/waves-013-018-derived-merge.json"
+  ],
+  "candidateInputs": [
+    "candidates/waves-013-018-candidate-rollup.json",
+    "candidates/waves-013-018-group-prep.json"
+  ],
+  "summaryCounts": {
+    "charactersAndServants": 25,
+    "factions": 7,
+    "locations": 11,
+    "abilitiesSystemsConcepts": 18,
+    "formalWorldRules": 10,
+    "events": 40,
+    "relationships": 20,
+    "graphNodes": 29,
+    "graphEdges": 11,
+    "timelines": 4,
+    "crossRouteAlignments": 2
+  },
+  "waveStatusSummary": {
+    "totalWaves": 18,
+    "passed": 18,
+    "openIssues": 0,
+    "blockedIssues": 0,
+    "rerunPerformed": false
+  },
+  "finalIntegrationRepairs": [
+    {
+      "file": "merged/merged-graph.json",
+      "repair": "Historical finalize-retry added required timeRange objects to all 11 formal graph edges using existing route/FZ timeline bands and relative-only orderIndex ranges.",
+      "retrospectiveDisposition": "acknowledged-as-repaired-by-retrospective-fixer",
+      "notParentOrFinalizeProof": true,
+      "fixReportRef": "audit/retrospective/fsn-fz-fix-round-001.json"
+    }
+  ],
+  "knownIssueRefs": ["SRC-001", "SRC-002", "SRC-003", "ID-RECON-001", "MIGRATION-001"],
+  "validationStatus": {
+    "manualReadbackCompleted": true,
+    "machineJsonValidationRun": false,
+    "curatedArchiveModified": false,
+    "sourceImportsModified": false,
+    "formalCandidateSeparationPreserved": true,
+    "recommendation": "publish-curated-v2-pilot-side-by-side"
+  }
+}

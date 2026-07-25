@@ -1,0 +1,27 @@
+{
+  "schema": "tm-fgo-merged-relationship-edge-v1",
+  "mergeStepId": "finalize-ordeal-call-merge",
+  "record": {
+    "edgeId": "oc3-edge-bb-dubai-election-chaldea-new-humans",
+    "chapterId": "fgo-ordeal-call-3-integration",
+    "chapterSlug": "oc3-integration",
+    "subjectId": "bb-dubai",
+    "objectId": "chaldea-and-new-humans",
+    "relationshipTypeRaw": "选举主持者/管理者要求双方角逐延续资格",
+    "timelineId": "oc3-integration-phase-timeline",
+    "timeRangeRaw": "第1日 ~ 第8日; 规则战（选举战）在前篇至中篇推进",
+    "linkedEventRefs": [
+      "oc3-phase-01-false-future-perfect-humans",
+      "oc3-phase-02-successor-election-insect-shadow"
+    ],
+    "sourceSignalFile": "extracted/ordeal-call/oc3-integration/relationship-signals/bb-dubai-election-chaldea-new-humans.json",
+    "sourceRefs": [
+      "sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt:12",
+      "sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt:19",
+      "sources/worldbook-script/ordeal-call/ch-106-oc3-integration.txt:42-44"
+    ],
+    "sourceType": "user-file-worldbook-script",
+    "credibility": "B",
+    "canonStatus": "canon-like"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "tm-fgo-canonical-chapter-entity-v1",
+  "entityId": "chapter:fgo-part1-solomon",
+  "chapterKey": "solomon",
+  "chapterId": "fgo-part1-solomon",
+  "chapterOrder": 8,
+  "title": "冠位时间神殿 所罗门",
+  "factRefs": {
+    "worldState": "extracted/part1/solomon/world-state.json",
+    "events": "extracted/part1/solomon/events/*.json",
+    "characterFragments": "normalized/part1/solomon/characters/*.fragment.json",
+    "relationships": "normalized/part1/solomon/relationships/*.json",
+    "packetStatus": "audit/packet-audits/part1/solomon/final-status.json",
+    "appearanceRefs": ["merged/appearances/part1/solomon/records.json"],
+    "abilityRefs": ["merged/abilities/part1/solomon/records.json"],
+    "combatEffectRefs": ["merged/combat-effects/part1/solomon/records.json"]
+  },
+  "counts": {"events": 23, "characterFragments": 20, "relationships": 8, "worldStates": 1},
+  "status": "passed",
+  "representationPolicy": "large support cast represented by key fragments and front edge files"
+}

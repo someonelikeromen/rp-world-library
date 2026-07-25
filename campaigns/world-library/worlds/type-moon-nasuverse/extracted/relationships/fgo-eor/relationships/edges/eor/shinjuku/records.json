@@ -1,0 +1,117 @@
+{
+  "schema": "tm-fgo-eor-merged-relationship-edge-records-v1",
+  "chapterId": "fgo-eor-shinjuku",
+  "promotionRule": "source-backed relationship candidates only; no co-occurrence promotion",
+  "records": [
+    {
+      "id": "shinjuku-relcand-001",
+      "subject": "藤丸立香",
+      "predicate": "trust-transaction-with",
+      "object": "新宿的Archer",
+      "basis": "双方达成信任交易。",
+      "timelineId": "fgo-eor-shinjuku",
+      "timeRange": {
+        "precision": "event-anchored",
+        "startEventId": "shinjuku-event-b",
+        "startOrderIndex": 2,
+        "startTimeRaw": "1999年 新宿",
+        "endEventId": "shinjuku-event-b",
+        "endOrderIndex": 2,
+        "endTimeRaw": "1999年 新宿"
+      },
+      "timeRangeRaw": "1999年 新宿",
+      "sourceRefs": [{"path":"sources/worldbook-script/eor/ch-089-shinjuku.txt","lineStart":46,"lineEnd":48}],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "id": "shinjuku-relcand-002",
+      "subject": "贞德·Alter",
+      "predicate": "has-friction-with",
+      "object": "阿尔托莉雅·Alter",
+      "basis": "黑贞加入队伍并与黑王产生嫌隙。",
+      "timelineId": "fgo-eor-shinjuku",
+      "timeRange": {
+        "precision": "event-anchored",
+        "startEventId": "shinjuku-event-f",
+        "startOrderIndex": 6,
+        "startTimeRaw": "1999年 新宿",
+        "endEventId": "shinjuku-event-f",
+        "endOrderIndex": 6,
+        "endTimeRaw": "1999年 新宿"
+      },
+      "timeRangeRaw": "1999年 新宿",
+      "sourceRefs": [{"path":"sources/worldbook-script/eor/ch-089-shinjuku.txt","lineStart":60,"lineEnd":60}],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "id": "shinjuku-relcand-003",
+      "subject": "卫宫·Alter",
+      "predicate": "temporarily-defects-to-assist-against",
+      "object": "巴力",
+      "basis": "卫宫·Alter临阵倒戈协助击杀巴力。",
+      "timelineId": "fgo-eor-shinjuku",
+      "timeRange": {
+        "precision": "event-anchored",
+        "startEventId": "shinjuku-event-r",
+        "startOrderIndex": 18,
+        "startTimeRaw": "1999年 新宿·枪身塔顶",
+        "endEventId": "shinjuku-event-r",
+        "endOrderIndex": 18,
+        "endTimeRaw": "1999年 新宿·枪身塔顶"
+      },
+      "timeRangeRaw": "1999年 新宿·枪身塔顶",
+      "sourceRefs": [{"path":"sources/worldbook-script/eor/ch-089-shinjuku.txt","lineStart":99,"lineEnd":99}],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "id": "shinjuku-relcand-004",
+      "subject": "阿尔托莉雅·Alter",
+      "predicate": "takes-in",
+      "object": "流浪狗",
+      "basis": "圣黑王收留流浪狗。",
+      "timelineId": "fgo-eor-shinjuku",
+      "timeRange": {
+        "precision": "event-anchored",
+        "startEventId": "shinjuku-event-e",
+        "startOrderIndex": 5,
+        "startTimeRaw": "1999年 新宿",
+        "endEventId": "shinjuku-event-e",
+        "endOrderIndex": 5,
+        "endTimeRaw": "1999年 新宿"
+      },
+      "timeRangeRaw": "1999年 新宿",
+      "sourceRefs": [{"path":"sources/worldbook-script/eor/ch-089-shinjuku.txt","lineStart":57,"lineEnd":58}],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "id": "shinjuku-relcand-005",
+      "subject": "黑森",
+      "predicate": "sacrifices-self-to-protect",
+      "object": "罗伯",
+      "basis": "黑森舍命护主。",
+      "timelineId": "fgo-eor-shinjuku",
+      "timeRange": {
+        "precision": "event-anchored",
+        "startEventId": "shinjuku-event-o",
+        "startOrderIndex": 15,
+        "startTimeRaw": "1999年 新宿",
+        "endEventId": "shinjuku-event-o",
+        "endOrderIndex": 15,
+        "endTimeRaw": "1999年 新宿"
+      },
+      "timeRangeRaw": "1999年 新宿",
+      "sourceRefs": [{"path":"sources/worldbook-script/eor/ch-089-shinjuku.txt","lineStart":90,"lineEnd":90}],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    }
+  ]
+}

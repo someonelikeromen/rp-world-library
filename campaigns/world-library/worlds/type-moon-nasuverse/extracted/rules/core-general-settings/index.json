@@ -1,0 +1,169 @@
+{
+  "schema": "tm-core-general-settings-normalized-index-v1",
+  "pilot": "type-moon-core-general-settings-pilot",
+  "status": "passed-with-human-scope-limitations",
+  "derivedOnly": true,
+  "sourceRefs": [
+    "normalized/core-general-settings/settings-supplement.json",
+    "source-unit-manifest.json"
+  ],
+  "records": [
+    {
+      "recordId": "root-general-summary",
+      "systemName": "Root / 根源",
+      "supportDecision": "source-backed-secondary-summary",
+      "continuityScope": ["type-moon-general", "kara-no-kyoukai-cross-check"],
+      "sourceType": "completed-pilot-local-worldbook-summary",
+      "credibility": "medium-low-summary-cross-check plus B filtered anchor",
+      "canonStatus": "secondary-summary-not-primary-canon",
+      "sourceRefs": [
+        "kara-no-kyoukai-profile-supplement-pilot/sources/worldbook-profile/tm-summary-root-excerpt.txt:9",
+        "fsn-fz-pilot/sources/worldbook-text/src-type-moon-filtered.md:48"
+      ]
+    },
+    {
+      "recordId": "magic-and-magecraft-general",
+      "systemName": "Magic / 魔法 and Magecraft / 魔术",
+      "supportDecision": "source-backed-limited",
+      "continuityScope": ["type-moon-general", "mahoyo-main-support"],
+      "sourceType": "completed-pilot-local-worldbook-summary",
+      "credibility": "B-/medium-low-summary",
+      "canonStatus": "canon-like/adapted/unknown secondary summary",
+      "sourceRefs": [
+        "kara-no-kyoukai-profile-supplement-pilot/sources/worldbook-profile/tm-summary-root-excerpt.txt:10",
+        "mahoyo-profile-supplement-pilot/sources/worldbook-profile/tm1-world-rules-five-true-magics.txt:L001-L005"
+      ]
+    },
+    {
+      "recordId": "fifth-magic-mahoyo-instance",
+      "systemName": "Fifth Magic / 魔法・青 in Mahoyo",
+      "supportDecision": "source-backed-work-specific-instance",
+      "continuityScope": ["mahoyo-main"],
+      "sourceType": "user-file-worldbook-profile plus general support excerpt",
+      "credibility": "B with B- support",
+      "canonStatus": "canon-like/adapted/unknown",
+      "sourceRefs": [
+        "mahoyo-profile-supplement-pilot/sources/worldbook-profile/dlc-063-aoko-aozaki.txt:L006-L012",
+        "mahoyo-profile-supplement-pilot/sources/worldbook-profile/tm1-world-rules-five-true-magics.txt:L004-L005"
+      ]
+    },
+    {
+      "recordId": "mages-association-general-anchor",
+      "systemName": "Mage's Association / 魔术协会",
+      "supportDecision": "source-backed-thin-anchor",
+      "continuityScope": ["type-moon-general-anchor", "fsn-fz", "mahoyo-context", "tsukihime-context", "prisma-context"],
+      "sourceType": "completed-pilot-derived-worldbook-anchors",
+      "credibility": "B thin anchor",
+      "canonStatus": "canon-like/adapted/unknown",
+      "sourceRefs": [
+        "fsn-fz-pilot/sources/worldbook-text/src-type-moon-filtered.md:37",
+        "mahoyo-profile-supplement-pilot/sources/worldbook-profile/dlc-056-misaki-town.txt:L003"
+      ]
+    },
+    {
+      "recordId": "holy-church-and-conceptual-weapons",
+      "systemName": "Holy Church / 圣堂教会 and Conceptual Weapons / 概念武装",
+      "supportDecision": "source-backed-secondary-summary",
+      "continuityScope": ["type-moon-general", "tsukihime-church-ciel-context"],
+      "sourceType": "user-file-worldbook-profile summary and Tsukihime profile signal",
+      "credibility": "B",
+      "canonStatus": "canon-like/adapted",
+      "sourceRefs": [
+        "tsukihime-dead-apostle-profile-supplement-pilot/sources/worldbook-profile/tm-summary-church-conceptual-weapons.txt:16",
+        "tsukihime-dead-apostle-profile-supplement-pilot/sources/worldbook-profile/dlc-tsukihime-ciel.txt:21"
+      ]
+    },
+    {
+      "recordId": "dead-apostles-and-true-ancestors",
+      "systemName": "Dead Apostles / 死徒 and True Ancestors / 真祖",
+      "supportDecision": "source-backed-secondary-summary",
+      "continuityScope": ["tsukihime-general", "type-moon-general-crosswork-candidate"],
+      "sourceType": "user-file-worldbook-profile summary plus Tsukihime profile excerpts",
+      "credibility": "B",
+      "canonStatus": "canon-like/adapted",
+      "sourceRefs": [
+        "tsukihime-dead-apostle-profile-supplement-pilot/sources/worldbook-profile/tm-summary-dead-apostle-true-ancestor.txt:16-27",
+        "tsukihime-dead-apostle-profile-supplement-pilot/sources/worldbook-profile/dlc-tsukihime-arcueid.txt:19-23"
+      ]
+    },
+    {
+      "recordId": "mystic-eyes-general-and-death-perception",
+      "systemName": "Mystic Eyes / 魔眼 and Mystic Eyes of Death Perception / 直死之魔眼",
+      "supportDecision": "source-backed-secondary-summary",
+      "continuityScope": ["type-moon-general", "kara-no-kyoukai-original", "tsukihime-general"],
+      "sourceType": "user-file-worldbook-profile summary and profile excerpts",
+      "credibility": "B plus medium-low cross-check",
+      "canonStatus": "canon-like/adapted/secondary-summary",
+      "sourceRefs": [
+        "tsukihime-dead-apostle-profile-supplement-pilot/sources/worldbook-profile/tm-summary-mystic-eyes.txt:16-20",
+        "tsukihime-dead-apostle-profile-supplement-pilot/sources/worldbook-profile/tm-summary-mystic-eyes-of-death-perception.txt:16-25"
+      ]
+    },
+    {
+      "recordId": "bounded-fields-limited-examples",
+      "systemName": "Bounded Fields / 结界",
+      "supportDecision": "source-backed-examples-only",
+      "continuityScope": ["kara-no-kyoukai-original", "fsn-fz-anchor-context", "tsukihime-not-found-context"],
+      "sourceType": "completed-pilot-derived-location/profile records",
+      "credibility": "medium-local-worldbook-explicit for KnK examples; B candidate context elsewhere",
+      "canonStatus": "secondary-summary/adapted",
+      "sourceRefs": [
+        "kara-no-kyoukai-profile-supplement-pilot/sources/worldbook-profile/dlc-mifune-city-locations-excerpt.txt:10",
+        "fsn-fz-pilot/waves/wave-008/output/abilities.json:285-287"
+      ]
+    },
+    {
+      "recordId": "servant-heroic-spirit-and-throne-thin-anchor",
+      "systemName": "Heroic Spirits, Servants, and Throne of Heroes / 英灵座",
+      "supportDecision": "partial-source-backed-with-throne-gap",
+      "continuityScope": ["fsn-fz-anchor", "prisma-illya-separated-derivative"],
+      "sourceType": "completed-pilot-worldbook anchors",
+      "credibility": "B thin anchor",
+      "canonStatus": "canon-like/adapted/unknown",
+      "sourceRefs": [
+        "fsn-fz-pilot/sources/worldbook-text/src-type-moon-filtered.md:21-25",
+        "prisma-illya-profile-supplement-pilot/sources/worldbook-profile/prisma-000-world-view.txt:13"
+      ]
+    },
+    {
+      "recordId": "reality-marble-thin-anchor",
+      "systemName": "Reality Marble / 固有结界",
+      "supportDecision": "source-backed-thin-anchor",
+      "continuityScope": ["type-moon-general-anchor", "fsn-fz-route-specific-context"],
+      "sourceType": "completed-pilot-worldbook anchor plus route-derived ability output",
+      "credibility": "B thin anchor",
+      "canonStatus": "canon-like/adapted",
+      "sourceRefs": [
+        "fsn-fz-pilot/sources/worldbook-text/src-type-moon-filtered.md:57-60",
+        "fsn-fz-pilot/waves/wave-008/output/abilities.json:73-75"
+      ]
+    },
+    {
+      "recordId": "counter-force-thin-anchor",
+      "systemName": "Counter Force / 抑止力",
+      "supportDecision": "source-backed-thin-anchor",
+      "continuityScope": ["type-moon-general-anchor", "fsn-fz-rule-context"],
+      "sourceType": "completed-pilot-worldbook filtered anchor",
+      "credibility": "B thin anchor",
+      "canonStatus": "canon-like",
+      "sourceRefs": [
+        "fsn-fz-pilot/sources/worldbook-text/src-type-moon-filtered.md:62-65"
+      ]
+    },
+    {
+      "recordId": "atlas-and-sion-candidate-context",
+      "systemName": "Atlas Institute / 阿特拉斯院 candidate context",
+      "supportDecision": "candidate-only-source-mixed",
+      "continuityScope": ["tsukihime-worldline-candidate", "fgo-worldline-candidate", "fgo-script-context"],
+      "candidateOnly": true,
+      "sourceGap": true,
+      "sourceType": "candidate supplement plus FGO script context",
+      "credibility": "B adapted/candidate",
+      "canonStatus": "adapted/source-mixed",
+      "sourceRefs": [
+        "tsukihime-supporting-cast-candidate-supplement-pilot/sources/worldbook-profile/tm-general-sion-profile-excerpt.txt:17-27",
+        "fgo-script-pilot/sources/worldbook-script/part1/ch-006-camelot.txt:113-131"
+      ]
+    }
+  ]
+}

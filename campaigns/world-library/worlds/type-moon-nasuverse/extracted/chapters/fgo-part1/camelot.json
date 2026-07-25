@@ -1,0 +1,20 @@
+{
+  "schema": "tm-fgo-canonical-chapter-entity-v1",
+  "entityId": "chapter:fgo-part1-camelot",
+  "chapterKey": "camelot",
+  "chapterId": "fgo-part1-camelot",
+  "chapterOrder": 6,
+  "title": "神圣圆桌领域 卡美洛",
+  "factRefs": {
+    "worldState": "extracted/part1/camelot/world-state.json",
+    "events": "extracted/part1/camelot/events/*.json",
+    "characterFragments": "normalized/part1/camelot/characters/*.fragment.json",
+    "relationships": "normalized/part1/camelot/relationships/*.json",
+    "packetStatus": "audit/packet-audits/part1/camelot/final-status.json",
+    "appearanceRefs": ["merged/appearances/part1/camelot/records.json"],
+    "abilityRefs": ["merged/abilities/part1/camelot/records.json"],
+    "combatEffectRefs": ["merged/combat-effects/part1/camelot/records.json"]
+  },
+  "counts": {"events": 33, "characterFragments": 22, "relationships": 8, "worldStates": 1},
+  "status": "passed"
+}

@@ -1,0 +1,16 @@
+{
+  "schema": "tm-fgo-canonical-character-entity-v1",
+  "entityId": "character:mordred",
+  "canonicalName": "莫德雷德",
+  "mergeStatus": "canonicalized",
+  "fragmentRefs": [
+    "normalized/part1/london/characters/mordred.fragment.json",
+    "normalized/part1/camelot/characters/mordred.fragment.json",
+    "normalized/part1/solomon/characters/mordred.fragment.json"
+  ],
+  "chapterCoverage": ["london", "camelot", "solomon"],
+  "appearanceRefs": ["merged/appearances/part1/london/records.json#london-appearance-mordred-armored-girl"],
+  "abilityRefs": ["merged/abilities/part1/london/records.json#london-ability-mordred-np-disperses-fog"],
+  "combatEffectRefs": [],
+  "notes": ["London ally role, Camelot round-table opposition, and Solomon support-front appearance are kept as chapter-scoped facts."]
+}

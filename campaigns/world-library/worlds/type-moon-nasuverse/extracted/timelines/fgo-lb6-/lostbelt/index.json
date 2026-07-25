@@ -1,0 +1,10 @@
+{
+  "schema":"tm-fgo-lostbelt-timeline-index-v1",
+  "project":"fgo-lb6-pilot",
+  "timelineId":"fgo-lostbelt-6-avalon-le-fae-pilot",
+  "eventCount":45,
+  "chapters":[{"chapterId":"fgo-lb6-1-avalon-pre","chapterOrder":6.1,"eventCount":33,"eventDirectory":"merged/events/lostbelt/lb6-1-avalon-pre/","normalizedIndexRef":"normalized/lostbelt/lb6-1-avalon-pre/timeline-event-index.json"},{"chapterId":"fgo-lb6-2-round-table-post","chapterOrder":6.2,"eventCount":12,"eventDirectory":"merged/events/lostbelt/lb6-2-round-table-post/","normalizedIndexRef":"normalized/lostbelt/lb6-2-round-table-post/timeline-event-index.json"}],
+  "retention":{"rawFields":["rawEventCode","titleRaw","time_raw","triggerRaw","completionRaw","summaryRaw"],"duplicateRawEventCode":"LB6.1 事件A0 retained as timeline ids lb6-1-avalon-pre-tl-001 and lb6-1-avalon-pre-tl-002."},
+  "masterRef":"timeline/lostbelt/master.json",
+  "sourceRefs":["normalized/lostbelt/lb6-1-avalon-pre/timeline-event-index.json","normalized/lostbelt/lb6-2-round-table-post/timeline-event-index.json"],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"
+}

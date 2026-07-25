@@ -1,0 +1,101 @@
+{
+  "schema": "tm-p1-merged-entities-v1",
+  "worldId": "type-moon-nasuverse",
+  "scope": "fsn-fz-pilot",
+  "generatedAt": "2026-07-12",
+  "model": "lt-yuyu/gpt-5.5",
+  "status": "passed-with-recorded-risks",
+  "sourcePolicy": "p1-hybrid: user/imported worldbooks and curated story summaries; not official p1-scan canon",
+  "formalEntitySourceGroups": [
+    "group-merged/waves-001-006-formal-merge.json",
+    "group-merged/waves-007-012-formal-merge.json",
+    "group-merged/waves-013-018-derived-merge.json"
+  ],
+  "idNormalization": [
+    { "canonicalId": "character-emiya-shirou-fsn", "aliases": ["emiya-shirou-fsn", "tohsaka-rin event participant spelling excluded"], "type": "character" },
+    { "canonicalId": "character-tohsaka-rin-fsn", "aliases": ["tohsaka-rin-fsn"], "type": "character" },
+    { "canonicalId": "character-matou-sakura-fsn", "aliases": ["matou-sakura-fsn", "matou-sakura"], "type": "character" },
+    { "canonicalId": "character-matou-sakura-hf-dark", "aliases": ["matou-sakura-hf-blackened", "black-sakura"], "type": "character" },
+    { "canonicalId": "character-kotomine-kirei-fsn-fz", "aliases": ["kotomine-kirei-fz-fsn", "kotomine-kirei-fz", "kotomine-kirei-fsn"], "type": "character" },
+    { "canonicalId": "character-emiya-kiritsugu-fz", "aliases": ["emiya-kiritsugu-fz", "emiya-kiritsugu"], "type": "character" },
+    { "canonicalId": "character-illyasviel-fsn-fz", "aliases": ["illyasviel-fsn", "illyasviel-fsn-fz"], "type": "character" },
+    { "canonicalId": "servant-saber-artoria-fsn", "aliases": ["saber-artoria-fsn", "saber-artoria-fz", "saber-artoria-fsn-fz"], "type": "character", "riskNote": "FZ same-identity use appears in later graph/period outputs; earlier servant wave kept FZ Saber class-only as candidate." },
+    { "canonicalId": "servant-saber-alter-hf", "aliases": ["saber-alter-fsn", "saber-alter"], "type": "character" },
+    { "canonicalId": "servant-archer-emiya-fsn", "aliases": ["archer-emiya-fsn"], "type": "character", "doNotMergeWith": ["character-emiya-shirou-fsn"] },
+    { "canonicalId": "servant-rider-medusa-fsn", "aliases": ["rider-medusa-fsn"], "type": "character" },
+    { "canonicalId": "servant-caster-medea-fsn", "aliases": ["caster-medea-fsn"], "type": "character" },
+    { "canonicalId": "servant-lancer-cu-fsn", "aliases": ["lancer-cu-fsn", "lancer-cu-chulainn"], "type": "character" },
+    { "canonicalId": "servant-berserker-heracles-fsn", "aliases": ["berserker-heracles-fsn"], "type": "character" },
+    { "canonicalId": "servant-assassin-sasaki-fsn", "aliases": ["assassin-sasaki-fsn"], "type": "character" },
+    { "canonicalId": "servant-true-assassin-hassan-hf", "aliases": ["true-assassin-hassan", "servant-true-assassin-hassan-hf"], "type": "character" },
+    { "canonicalId": "servant-gilgamesh-fsn-fz", "aliases": ["archer-gilgamesh-fz-fsn", "archer-gilgamesh-fz", "archer-gilgamesh-fsn", "gilgamesh"], "type": "character" }
+  ],
+  "formalCollections": {
+    "charactersAndServants": {
+      "count": 25,
+      "representativeIds": [
+        "character-emiya-shirou-fsn",
+        "character-tohsaka-rin-fsn",
+        "character-matou-sakura-fsn",
+        "character-matou-shinji-fsn",
+        "character-kotomine-kirei-fsn-fz",
+        "character-emiya-kiritsugu-fz",
+        "character-illyasviel-fsn-fz",
+        "character-tohsaka-tokiomi-fz",
+        "character-matou-kariya-fz",
+        "character-waver-velvet-fz",
+        "character-uryu-ryunosuke-fz",
+        "character-zouken-matou-fsn-fz",
+        "character-kuzuki-souichirou-fsn",
+        "servant-saber-artoria-fsn",
+        "servant-saber-alter-hf",
+        "servant-archer-emiya-fsn",
+        "servant-rider-medusa-fsn",
+        "servant-caster-medea-fsn",
+        "servant-lancer-cu-fsn",
+        "servant-berserker-heracles-fsn",
+        "servant-assassin-sasaki-fsn",
+        "servant-true-assassin-hassan-hf",
+        "servant-gilgamesh-fsn-fz",
+        "character-irisviel-von-einzbern-fz",
+        "character-tohsaka-tokiomi-fz"
+      ]
+    },
+    "factions": {
+      "count": 7,
+      "ids": ["faction-mages-association", "faction-holy-church-fuyuki", "faction-tohsaka-family", "faction-matou-family", "faction-einzbern-family", "faction-emiya-household-fsn", "faction-caster-kuzuki-temple-group"]
+    },
+    "locations": {
+      "count": 11,
+      "ids": ["fuyuki-city", "homurahara-academy", "fuyuki-church", "emiya-residence", "ryuudou-temple", "ryuudou-temple-great-cavern", "einzbern-castle", "matou-residence", "shinto-skyscraper", "fuyuki-harbor", "mion-river-area"]
+    },
+    "abilitiesSystemsConcepts": {
+      "count": 18,
+      "ids": ["servant-class-summoning-system", "command-spells", "noble-phantasm-concept", "reality-marble", "unlimited-blade-works", "projection-magecraft", "excalibur", "avalon", "rule-breaker", "gate-of-babylon", "ea", "bellerophon", "mystic-eyes-petrification", "blood-fort-andromeda", "gae-bolg", "rho-aias", "third-magic-heavens-feel", "sakura-shadow-corruption"]
+    },
+    "worldRules": {
+      "formalCount": 10,
+      "mergeAllowedClasses": ["canon-like-world-rule", "sandbox-rule"],
+      "supportOnlyClasses": ["rp-engine-rule", "discarded-engine-mechanic", "style-constraint"],
+      "ids": ["rule-fsn-fz-core-sequence", "rule-hgw-foundational-roles", "rule-servants-class-summoning", "rule-seven-base-servant-classes", "rule-command-spells-authority", "rule-grail-contamination-route-risk", "rule-third-magic-centrality", "wr-sandbox-independent-world", "wr-sandbox-knowledge-boundary", "wr-sandbox-day-night-layering"]
+    },
+    "events": {
+      "count": 40,
+      "sets": [
+        { "source": "wave-012", "timelineId": "fz-fourth-war", "count": 8 },
+        { "source": "wave-009", "timelineId": "fsn-fate-route", "count": 8 },
+        { "source": "wave-010", "timelineId": "fsn-ubw-route", "count": 8 },
+        { "source": "wave-011", "timelineId": "fsn-hf-route", "count": 8 },
+        { "source": "wave-016", "timelineId": "mixed-representative-time-review", "count": 8 }
+      ]
+    },
+    "relationships": {
+      "count": 20,
+      "sources": ["wave-014 formalRelationships", "wave-018 temporal graph edges"],
+      "requirementsMet": ["sourceRefs", "confidence >= medium", "reviewStatus audited", "timelineId", "timeRange"]
+    }
+  },
+  "auditStatus": "passed",
+  "openIssues": 0,
+  "recordedRisks": ["SRC-001", "SRC-002", "SRC-003", "ID-RECON-001", "MIGRATION-001"]
+}

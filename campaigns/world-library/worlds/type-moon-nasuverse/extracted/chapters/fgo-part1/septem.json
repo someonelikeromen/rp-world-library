@@ -1,0 +1,17 @@
+{
+  "schema": "tm-fgo-canonical-chapter-entity-v1",
+  "entityId": "chapter:fgo-part1-septem",
+  "chapterKey": "septem",
+  "chapterId": "fgo-part1-septem",
+  "chapterOrder": 2,
+  "title": "永续疯狂帝国 七丘之城",
+  "factRefs": {
+    "worldState": "extracted/part1/septem/world-state.json",
+    "events": "extracted/part1/septem/events/*.json",
+    "characterFragments": "normalized/part1/septem/characters/*.fragment.json",
+    "relationships": "normalized/part1/septem/relationships/*.json",
+    "packetStatus": "audit/packet-audits/part1/septem/final-status.json"
+  },
+  "counts": {"events": 16, "characterFragments": 17, "relationships": 7, "worldStates": 1},
+  "status": "passed"
+}

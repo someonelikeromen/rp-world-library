@@ -1,0 +1,14 @@
+{
+  "schema": "tm-fgo-merged-combat-effect-records-v1",
+  "recordType": "merged_combat_effect_records",
+  "chapterId": "fgo-lb2-gotterdammerung",
+  "recordCount": 32,
+  "canonicalization": "Combat-effect records are retained source-first from the passed packet signal file; costs, targets, mechanics, or casualties not in source remain not-found rather than invented.",
+  "sourcePacketFile": "extracted/lostbelt/lb2-gotterdammerung/combat-effect-signals/combat-effect-signals.json",
+  "recordIdPrefix": "combat-lb2-",
+  "notFoundFile": "extracted/lostbelt/lb2-gotterdammerung/not-found-in-source/required-missing-details.json",
+  "sourceRefs": ["sources/worldbook-script/lostbelt/ch-094-lb2-gotterdammerung.txt:44-110"],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

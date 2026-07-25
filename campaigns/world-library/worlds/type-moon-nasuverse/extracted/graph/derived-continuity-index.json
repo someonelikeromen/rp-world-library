@@ -32,24 +32,75 @@
   "formalContinuityFamilies": [
     {
       "continuityFamilyId": "fate-stay-night-fate-zero",
-      "sourcePilots": ["fsn-fz-pilot"],
-      "continuityScope": ["fate-zero", "fate-stay-night"],
-      "recordIndexes": ["characters/index.json", "events/index.json", "relationships/index.json", "rules/index.json", "locations/index.json", "abilities/index.json", "organizations/index.json", "items/index.json", "timelines/derived-timeline-index.json", "graphs/derived-graph-index.json"],
-      "acceptedArtifactRefs": ["fsn-fz-pilot/merged/merged-entities.json", "fsn-fz-pilot/merged/merged-graph.json", "fsn-fz-pilot/merged/merged-timeline.json"],
+      "sourcePilots": [
+        "fsn-fz-pilot"
+      ],
+      "continuityScope": [
+        "fate-zero",
+        "fate-stay-night"
+      ],
+      "recordIndexes": [
+        "characters/index.json",
+        "events/index.json",
+        "relationships/index.json",
+        "rules/index.json",
+        "locations/index.json",
+        "abilities/index.json",
+        "organizations/index.json",
+        "items/index.json",
+        "timelines/derived-timeline-index.json",
+        "graphs/derived-graph-index.json"
+      ],
+      "acceptedArtifactRefs": [
+        "characters/fsn-fz/merged-entities.json",
+        "characters/fsn-fz/merged-graph.json",
+        "timelines/fsn-fz-timeline.json"
+      ],
       "sourceType": "p1-hybrid-local-worldbook-and-story-text",
       "credibility": "B",
       "canonStatus": "canon-like/adapted",
       "candidateOnly": false,
       "sourceGap": false,
-      "policyNotes": ["Route timing remains route-specific/relative where represented that way by the accepted pilot."]
+      "policyNotes": [
+        "Route timing remains route-specific/relative where represented that way by the accepted pilot."
+      ]
     },
     {
       "continuityFamilyId": "fgo-part1",
-      "sourcePilots": ["fgo-script-pilot"],
-      "continuityScope": ["fgo-part1"],
-      "timelineIds": ["fuyuki", "orleans", "septem", "okeanos", "london", "america", "camelot", "babylonia", "solomon"],
-      "recordIndexes": ["characters/index.json", "events/index.json", "relationships/index.json", "rules/index.json", "locations/index.json", "abilities/index.json", "organizations/index.json", "items/index.json", "timelines/derived-timeline-index.json", "graphs/derived-graph-index.json"],
-      "acceptedArtifactRefs": ["fgo-script-pilot/merged/", "fgo-script-pilot/graph/", "fgo-script-pilot/timeline/part1-chronological-index.json"],
+      "sourcePilots": [
+        "fgo-script-pilot"
+      ],
+      "continuityScope": [
+        "fgo-part1"
+      ],
+      "timelineIds": [
+        "fuyuki",
+        "orleans",
+        "septem",
+        "okeanos",
+        "london",
+        "america",
+        "camelot",
+        "babylonia",
+        "solomon"
+      ],
+      "recordIndexes": [
+        "characters/index.json",
+        "events/index.json",
+        "relationships/index.json",
+        "rules/index.json",
+        "locations/index.json",
+        "abilities/index.json",
+        "organizations/index.json",
+        "items/index.json",
+        "timelines/derived-timeline-index.json",
+        "graphs/derived-graph-index.json"
+      ],
+      "acceptedArtifactRefs": [
+        "fgo-script-pilot/merged/",
+        "fgo-script-pilot/graph/",
+        "timelines/fgo-part1/part1-chronological-index.json"
+      ],
       "sourceType": "user-file-worldbook-script",
       "credibility": "B",
       "canonStatus": "canon-like",
@@ -58,11 +109,35 @@
     },
     {
       "continuityFamilyId": "fgo-epic-of-remnant",
-      "sourcePilots": ["fgo-eor-pilot"],
-      "continuityScope": ["fgo-epic-of-remnant"],
-      "timelineIds": ["shinjuku", "agartha", "shimousa", "salem"],
-      "recordIndexes": ["characters/index.json", "events/index.json", "relationships/index.json", "rules/index.json", "locations/index.json", "abilities/index.json", "organizations/index.json", "items/index.json", "timelines/derived-timeline-index.json", "graphs/derived-graph-index.json"],
-      "acceptedArtifactRefs": ["fgo-eor-pilot/merged/", "fgo-eor-pilot/graph/", "fgo-eor-pilot/timeline/eor/master.json"],
+      "sourcePilots": [
+        "fgo-eor-pilot"
+      ],
+      "continuityScope": [
+        "fgo-epic-of-remnant"
+      ],
+      "timelineIds": [
+        "shinjuku",
+        "agartha",
+        "shimousa",
+        "salem"
+      ],
+      "recordIndexes": [
+        "characters/index.json",
+        "events/index.json",
+        "relationships/index.json",
+        "rules/index.json",
+        "locations/index.json",
+        "abilities/index.json",
+        "organizations/index.json",
+        "items/index.json",
+        "timelines/derived-timeline-index.json",
+        "graphs/derived-graph-index.json"
+      ],
+      "acceptedArtifactRefs": [
+        "fgo-eor-pilot/merged/",
+        "graph/fgo-eor/",
+        "timelines/fgo-eor/master.json"
+      ],
       "sourceType": "user-file-worldbook-script",
       "credibility": "B",
       "canonStatus": "canon-like",
@@ -71,11 +146,51 @@
     },
     {
       "continuityFamilyId": "fgo-lostbelt",
-      "sourcePilots": ["fgo-lb1-lb2-pilot", "fgo-lb3-lb4-pilot", "fgo-lb5-pilot", "fgo-lb6-pilot"],
-      "continuityScope": ["fgo-lostbelt", "lb1-anastasia", "lb2-gotterdammerung", "lb3-renzhi-tonghe-zhenguo", "lb4-chuangshi-miewang-lunhui", "lb5-1-atlantis", "lb5-2-olympos", "lb6-1-avalon-pre", "lb6-2-round-table-post"],
-      "timelineIds": ["lb1-anastasia", "lb2-gotterdammerung", "lb3-renzhi-tonghe-zhenguo", "lb4-chuangshi-miewang-lunhui", "lb5-1-atlantis", "lb5-2-olympos", "lb6-1-avalon-pre", "lb6-2-round-table-post"],
-      "recordIndexes": ["characters/index.json", "events/index.json", "relationships/index.json", "rules/index.json", "locations/index.json", "abilities/index.json", "organizations/index.json", "items/index.json", "timelines/derived-timeline-index.json", "graphs/derived-graph-index.json"],
-      "acceptedArtifactRefs": ["fgo-lb1-lb2-pilot/merged/index.json", "fgo-lb3-lb4-pilot/merged/index.json", "fgo-lb5-pilot/merged/index.json", "fgo-lb6-pilot/merged/index.json"],
+      "sourcePilots": [
+        "fgo-lb1-lb2-pilot",
+        "fgo-lb3-lb4-pilot",
+        "fgo-lb5-pilot",
+        "fgo-lb6-pilot"
+      ],
+      "continuityScope": [
+        "fgo-lostbelt",
+        "lb1-anastasia",
+        "lb2-gotterdammerung",
+        "lb3-renzhi-tonghe-zhenguo",
+        "lb4-chuangshi-miewang-lunhui",
+        "lb5-1-atlantis",
+        "lb5-2-olympos",
+        "lb6-1-avalon-pre",
+        "lb6-2-round-table-post"
+      ],
+      "timelineIds": [
+        "lb1-anastasia",
+        "lb2-gotterdammerung",
+        "lb3-renzhi-tonghe-zhenguo",
+        "lb4-chuangshi-miewang-lunhui",
+        "lb5-1-atlantis",
+        "lb5-2-olympos",
+        "lb6-1-avalon-pre",
+        "lb6-2-round-table-post"
+      ],
+      "recordIndexes": [
+        "characters/index.json",
+        "events/index.json",
+        "relationships/index.json",
+        "rules/index.json",
+        "locations/index.json",
+        "abilities/index.json",
+        "organizations/index.json",
+        "items/index.json",
+        "timelines/derived-timeline-index.json",
+        "graphs/derived-graph-index.json"
+      ],
+      "acceptedArtifactRefs": [
+        "fgo-lb1-lb2-pilot/merged/index.json",
+        "fgo-lb3-lb4-pilot/merged/index.json",
+        "fgo-lb5-pilot/merged/index.json",
+        "fgo-lb6-pilot/merged/index.json"
+      ],
       "sourceType": "user-file-worldbook-script",
       "credibility": "B",
       "canonStatus": "canon-like",
@@ -84,24 +199,75 @@
     },
     {
       "continuityFamilyId": "fgo-ordeal-call",
-      "sourcePilots": ["fgo-ordeal-call-pilot"],
-      "continuityScope": ["fgo-ordeal-call", "oc1-paper-moon", "oc2-id", "oc3-integration"],
-      "timelineIds": ["oc1-paper-moon", "oc2-id", "oc3-integration"],
-      "recordIndexes": ["characters/index.json", "events/index.json", "relationships/index.json", "rules/index.json", "locations/index.json", "abilities/index.json", "organizations/index.json", "items/index.json", "timelines/derived-timeline-index.json", "graphs/derived-graph-index.json"],
-      "acceptedArtifactRefs": ["fgo-ordeal-call-pilot/merged/index.json", "fgo-ordeal-call-pilot/graph/derived-index.json", "fgo-ordeal-call-pilot/timeline/ordeal-call/index.json", "fgo-ordeal-call-pilot/normalized/ordeal-call/*/signal-index.json"],
+      "sourcePilots": [
+        "fgo-ordeal-call-pilot"
+      ],
+      "continuityScope": [
+        "fgo-ordeal-call",
+        "oc1-paper-moon",
+        "oc2-id",
+        "oc3-integration"
+      ],
+      "timelineIds": [
+        "oc1-paper-moon",
+        "oc2-id",
+        "oc3-integration"
+      ],
+      "recordIndexes": [
+        "characters/index.json",
+        "events/index.json",
+        "relationships/index.json",
+        "rules/index.json",
+        "locations/index.json",
+        "abilities/index.json",
+        "organizations/index.json",
+        "items/index.json",
+        "timelines/derived-timeline-index.json",
+        "graphs/derived-graph-index.json"
+      ],
+      "acceptedArtifactRefs": [
+        "fgo-ordeal-call-pilot/merged/index.json",
+        "graph/fgo-ordeal-call/derived-index.json",
+        "timelines/fgo-ordeal-call/ordeal-call/index.json",
+        "normalized/fgo-ordeal-call/*/signal-index.json"
+      ],
       "sourceType": "user-file-worldbook-script",
       "credibility": "B",
       "canonStatus": "canon-like/source-gap-limited",
       "candidateOnly": false,
       "sourceGap": false,
-      "retainedSourceGapLimitations": ["Do not infer dedicated merged appearance/ability/combat-effect canonical directories; packet signal indexes are referenced only."]
+      "retainedSourceGapLimitations": [
+        "Do not infer dedicated merged appearance/ability/combat-effect canonical directories; packet signal indexes are referenced only."
+      ]
     },
     {
       "continuityFamilyId": "kara-no-kyoukai",
-      "sourcePilots": ["kara-no-kyoukai-profile-supplement-pilot"],
-      "continuityScope": ["kara-no-kyoukai", "future-gospel", "type-moon-general-cross-check"],
-      "recordIndexes": ["characters/index.json", "events/index.json", "relationships/index.json", "rules/index.json", "locations/index.json", "abilities/index.json", "organizations/index.json", "items/index.json", "timelines/derived-timeline-index.json", "graphs/derived-graph-index.json"],
-      "acceptedArtifactRefs": ["kara-no-kyoukai-profile-supplement-pilot/merged/profile-index.json", "kara-no-kyoukai-profile-supplement-pilot/normalized/profile-supplement/", "kara-no-kyoukai-profile-supplement-pilot/graph/derived-index.json", "kara-no-kyoukai-profile-supplement-pilot/timeline/derived-index.json"],
+      "sourcePilots": [
+        "kara-no-kyoukai-profile-supplement-pilot"
+      ],
+      "continuityScope": [
+        "kara-no-kyoukai",
+        "future-gospel",
+        "type-moon-general-cross-check"
+      ],
+      "recordIndexes": [
+        "characters/index.json",
+        "events/index.json",
+        "relationships/index.json",
+        "rules/index.json",
+        "locations/index.json",
+        "abilities/index.json",
+        "organizations/index.json",
+        "items/index.json",
+        "timelines/derived-timeline-index.json",
+        "graphs/derived-graph-index.json"
+      ],
+      "acceptedArtifactRefs": [
+        "characters/knk/profile-index.json",
+        "characters/knk/profile-supplement/",
+        "graph/knk-derived-index.json",
+        "timelines/knk-derived.json"
+      ],
       "sourceType": "user-file-worldbook-profile",
       "credibility": "B",
       "canonStatus": "canon-like/adapted",
@@ -110,10 +276,30 @@
     },
     {
       "continuityFamilyId": "prisma-illya",
-      "sourcePilots": ["prisma-illya-profile-supplement-pilot"],
-      "continuityScope": ["prisma-illya", "fsn-prisma-identity-separation"],
-      "recordIndexes": ["characters/index.json", "events/index.json", "relationships/index.json", "rules/index.json", "locations/index.json", "abilities/index.json", "organizations/index.json", "items/index.json", "timelines/derived-timeline-index.json", "graphs/derived-graph-index.json"],
-      "acceptedArtifactRefs": ["prisma-illya-profile-supplement-pilot/normalized/profile-supplement/prisma-illya/index.json", "prisma-illya-profile-supplement-pilot/graph/derived-index.json", "prisma-illya-profile-supplement-pilot/timeline/derived-index.json"],
+      "sourcePilots": [
+        "prisma-illya-profile-supplement-pilot"
+      ],
+      "continuityScope": [
+        "prisma-illya",
+        "fsn-prisma-identity-separation"
+      ],
+      "recordIndexes": [
+        "characters/index.json",
+        "events/index.json",
+        "relationships/index.json",
+        "rules/index.json",
+        "locations/index.json",
+        "abilities/index.json",
+        "organizations/index.json",
+        "items/index.json",
+        "timelines/derived-timeline-index.json",
+        "graphs/derived-graph-index.json"
+      ],
+      "acceptedArtifactRefs": [
+        "characters/prisma-illya/profile-supplement/prisma-illya/index.json",
+        "graph/prisma-illya-derived-index.json",
+        "timelines/prisma-illya-derived.json"
+      ],
       "sourceType": "user-file-worldbook-profile-redacted",
       "credibility": "B",
       "canonStatus": "canon-like/adapted",
@@ -123,10 +309,25 @@
     },
     {
       "continuityFamilyId": "lb6-fairy-calendar-relative",
-      "sourcePilots": ["lb6-fairy-calendar-supplement-pilot"],
-      "continuityScope": ["fgo-lostbelt", "lb6-fairy-calendar"],
-      "recordIndexes": ["events/index.json", "rules/index.json", "timelines/derived-timeline-index.json", "graphs/derived-graph-index.json"],
-      "acceptedArtifactRefs": ["lb6-fairy-calendar-supplement-pilot/normalized/calendar-setting/calendar-system.json", "lb6-fairy-calendar-supplement-pilot/normalized/calendar-setting/relative-sequence-records.json", "lb6-fairy-calendar-supplement-pilot/graph/derived-index.json", "lb6-fairy-calendar-supplement-pilot/timeline/derived-index.json"],
+      "sourcePilots": [
+        "lb6-fairy-calendar-supplement-pilot"
+      ],
+      "continuityScope": [
+        "fgo-lostbelt",
+        "lb6-fairy-calendar"
+      ],
+      "recordIndexes": [
+        "events/index.json",
+        "rules/index.json",
+        "timelines/derived-timeline-index.json",
+        "graphs/derived-graph-index.json"
+      ],
+      "acceptedArtifactRefs": [
+        "fgo-lb6-/calendar-setting/calendar-system.json",
+        "fgo-lb6-/calendar-setting/relative-sequence-records.json",
+        "graph/fgo-lb6-/derived-index.json",
+        "timelines/fgo-lb6-/calendar-derived.json"
+      ],
       "sourceType": "user-file-worldbook-setting",
       "credibility": "B",
       "canonStatus": "canon-like/adapted",
@@ -136,23 +337,44 @@
     },
     {
       "continuityFamilyId": "type-moon-general-noncandidate-settings",
-      "sourcePilots": ["type-moon-core-general-settings-pilot"],
-      "continuityScope": ["type-moon-general"],
-      "recordIndexes": ["rules/index.json", "organizations/index.json", "graphs/derived-graph-index.json"],
-      "acceptedArtifactRefs": ["type-moon-core-general-settings-pilot/normalized/core-general-settings/index.json#/records[?candidateOnly!=true && sourceGap!=true]", "type-moon-core-general-settings-pilot/normalized/core-general-settings/settings-supplement.json"],
+      "sourcePilots": [
+        "type-moon-core-general-settings-pilot"
+      ],
+      "continuityScope": [
+        "type-moon-general"
+      ],
+      "recordIndexes": [
+        "rules/index.json",
+        "organizations/index.json",
+        "graphs/derived-graph-index.json"
+      ],
+      "acceptedArtifactRefs": [
+        "rules/core-general-settings/index.json#/records[?candidateOnly!=true && sourceGap!=true]",
+        "rules/core-general-settings/settings-supplement.json"
+      ],
       "sourceType": "derived-from-completed-pilot-settings-supplement",
       "credibility": "B with human-scope limitations",
       "canonStatus": "adapted/secondary-summary",
       "candidateOnly": false,
       "sourceGap": false,
-      "excludedRecordIds": ["atlas-and-sion-candidate-context"]
+      "excludedRecordIds": [
+        "atlas-and-sion-candidate-context"
+      ]
     }
   ],
   "boundaryContinuityFamilies": [
     {
       "continuityFamilyId": "tsukihime-supporting-cast-and-type-lumina-boundary",
-      "sourcePilots": ["tsukihime-supporting-cast-candidate-supplement-pilot"],
-      "continuityScope": ["tsukihime-original", "tsukihime-remake", "melty-blood", "type-lumina", "sandbox"],
+      "sourcePilots": [
+        "tsukihime-supporting-cast-candidate-supplement-pilot"
+      ],
+      "continuityScope": [
+        "tsukihime-original",
+        "tsukihime-remake",
+        "melty-blood",
+        "type-lumina",
+        "sandbox"
+      ],
       "boundaryType": "candidate/source-gap inventory",
       "publicationDecision": "candidate/source-gap only; no formal characters/events/relationships/graph/timeline facts",
       "candidateOnly": true,
@@ -160,12 +382,25 @@
       "candidateOnlyEdge": true,
       "sourceGapEdge": true,
       "formalPromotionBlocked": true,
-      "sourceRefs": ["tsukihime-supporting-cast-candidate-supplement-pilot/candidate-supplement.json", "tsukihime-supporting-cast-candidate-supplement-pilot/source-gap-inventory.json", "tsukihime-supporting-cast-candidate-supplement-pilot/STATUS.md"]
+      "sourceRefs": [
+        "tsukihime-supporting-cast-candidate-supplement-pilot/candidate-supplement.json",
+        "tsukihime-supporting-cast-candidate-supplement-pilot/source-gap-inventory.json",
+        "tsukihime-supporting-cast-candidate-supplement-pilot/STATUS.md"
+      ]
     },
     {
       "continuityFamilyId": "fate-spinoff-inventory-boundary",
-      "sourcePilots": ["fate-spinoff-profile-supplement-pilot"],
-      "continuityScope": ["fate-extra", "fate-prototype", "fate-apocrypha", "fate-strange-fake", "gudaguda", "emiya-gohan"],
+      "sourcePilots": [
+        "fate-spinoff-profile-supplement-pilot"
+      ],
+      "continuityScope": [
+        "fate-extra",
+        "fate-prototype",
+        "fate-apocrypha",
+        "fate-strange-fake",
+        "gudaguda",
+        "emiya-gohan"
+      ],
       "boundaryType": "blocked/source-gap inventory",
       "publicationDecision": "inventory only; no formal spinoff facts",
       "candidateOnly": true,
@@ -173,12 +408,23 @@
       "candidateOnlyEdge": true,
       "sourceGapEdge": true,
       "formalPromotionBlocked": true,
-      "sourceRefs": ["fate-spinoff-profile-supplement-pilot/source-gap-inventory.json", "fate-spinoff-profile-supplement-pilot/source-unit-manifest.json"]
+      "sourceRefs": [
+        "fate-spinoff-profile-supplement-pilot/source-gap-inventory.json",
+        "fate-spinoff-profile-supplement-pilot/source-unit-manifest.json"
+      ]
     },
     {
       "continuityFamilyId": "atlas-sion-human-scope-boundary",
-      "sourcePilots": ["type-moon-core-general-settings-pilot", "tsukihime-supporting-cast-candidate-supplement-pilot"],
-      "continuityScope": ["tsukihime-worldline-candidate", "fgo-worldline-candidate", "fgo-script-context", "melty-blood-candidate"],
+      "sourcePilots": [
+        "type-moon-core-general-settings-pilot",
+        "tsukihime-supporting-cast-candidate-supplement-pilot"
+      ],
+      "continuityScope": [
+        "tsukihime-worldline-candidate",
+        "fgo-worldline-candidate",
+        "fgo-script-context",
+        "melty-blood-candidate"
+      ],
       "recordId": "atlas-and-sion-candidate-context",
       "boundaryType": "human-scope candidate/source-gap",
       "publicationDecision": "not formalized as a merged institution or general Atlas/Sion record",
@@ -187,12 +433,20 @@
       "candidateOnlyEdge": true,
       "sourceGapEdge": true,
       "formalPromotionBlocked": true,
-      "sourceRefs": ["type-moon-core-general-settings-pilot/source-gap-inventory.json", "type-moon-core-general-settings-pilot/normalized/core-general-settings/index.json#atlas-and-sion-candidate-context"]
+      "sourceRefs": [
+        "type-moon-core-general-settings-pilot/source-gap-inventory.json",
+        "rules/core-general-settings/index.json#atlas-and-sion-candidate-context"
+      ]
     },
     {
       "continuityFamilyId": "prisma-cross-work-identity-boundary",
-      "sourcePilots": ["prisma-illya-profile-supplement-pilot"],
-      "continuityScope": ["prisma-illya", "cross-work-identity-separation"],
+      "sourcePilots": [
+        "prisma-illya-profile-supplement-pilot"
+      ],
+      "continuityScope": [
+        "prisma-illya",
+        "cross-work-identity-separation"
+      ],
       "recordId": "prisma-sitonai-cross-work",
       "boundaryType": "candidate/source-gap identity surface",
       "publicationDecision": "not merged into Prisma Illya core continuity and not merged with FSN Illya",
@@ -201,31 +455,49 @@
       "candidateOnlyEdge": true,
       "sourceGapEdge": true,
       "formalPromotionBlocked": true,
-      "sourceRefs": ["prisma-illya-profile-supplement-pilot/normalized/profile-supplement/prisma-illya/source-gap-index.json#prisma-sitonai-cross-work"]
+      "sourceRefs": [
+        "characters/prisma-illya/profile-supplement/prisma-illya/source-gap-index.json#prisma-sitonai-cross-work"
+      ]
     },
     {
       "continuityFamilyId": "tsukihime-dead-apostle-held-boundary",
-      "sourcePilots": ["tsukihime-dead-apostle-profile-supplement-pilot"],
-      "continuityScope": ["tsukihime", "dead-apostle", "true-ancestor"],
+      "sourcePilots": [
+        "tsukihime-dead-apostle-profile-supplement-pilot"
+      ],
+      "continuityScope": [
+        "tsukihime",
+        "dead-apostle",
+        "true-ancestor"
+      ],
       "boundaryType": "held/source-gap",
       "publicationDecision": "hold formal publication pending separate final audit",
       "candidateOnly": false,
       "sourceGap": true,
       "sourceGapEdge": true,
       "formalPromotionBlocked": true,
-      "sourceRefs": ["tsukihime-dead-apostle-profile-supplement-pilot/audit/final/final-status.json", "tsukihime-dead-apostle-profile-supplement-pilot/STATUS.md"]
+      "sourceRefs": [
+        "tsukihime-dead-apostle-profile-supplement-pilot/audit/final/final-status.json",
+        "tsukihime-dead-apostle-profile-supplement-pilot/STATUS.md"
+      ]
     },
     {
       "continuityFamilyId": "mahoyo-held-boundary",
-      "sourcePilots": ["mahoyo-profile-supplement-pilot"],
-      "continuityScope": ["mahoyo"],
+      "sourcePilots": [
+        "mahoyo-profile-supplement-pilot"
+      ],
+      "continuityScope": [
+        "mahoyo"
+      ],
       "boundaryType": "held/source-gap",
       "publicationDecision": "hold formal publication pending read-only auditor rerun",
       "candidateOnly": false,
       "sourceGap": true,
       "sourceGapEdge": true,
       "formalPromotionBlocked": true,
-      "sourceRefs": ["mahoyo-profile-supplement-pilot/STATUS.md", "mahoyo-profile-supplement-pilot/audit/fixer/mahoyo-fixer-retry-report.json"]
+      "sourceRefs": [
+        "mahoyo-profile-supplement-pilot/STATUS.md",
+        "mahoyo-profile-supplement-pilot/audit/fixer/mahoyo-fixer-retry-report.json"
+      ]
     }
   ],
   "continuityBoundaryRules": [

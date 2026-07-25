@@ -1,0 +1,27 @@
+{
+  "schema": "tm-profile-supplement-normalized-source-gap-index-v1",
+  "pilot": "prisma-illya-profile-supplement-pilot",
+  "status": "generated-pending-audit",
+  "gaps": [
+    {
+      "id": "unsafe-underage-adult-content",
+      "type": "safety-blocker",
+      "status": "excluded"
+    },
+    {
+      "id": "prisma-user-self-insert",
+      "type": "source-gap",
+      "status": "candidate-only"
+    },
+    {
+      "id": "prisma-sitonai-cross-work",
+      "type": "candidate-only",
+      "status": "not-merged"
+    },
+    {
+      "id": "chronology-gap",
+      "type": "source-gap",
+      "status": "not-normalized"
+    }
+  ]
+}

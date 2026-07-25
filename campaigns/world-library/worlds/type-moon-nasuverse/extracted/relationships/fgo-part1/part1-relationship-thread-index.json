@@ -1,0 +1,20 @@
+{
+  "schema": "tm-fgo-relationship-thread-index-v1",
+  "purpose": "Reference-only index for relationship thread files and chapter relationship shard groups. This is not a formal relationships aggregate.",
+  "canonicalThreadFiles": [
+    "merged/relationships/chaldea-field-alliance-thread.json",
+    "merged/relationships/mash-roman-goetia-endgame-thread.json"
+  ],
+  "chapterRelationshipGroups": [
+    {"chapter": "fuyuki", "relationshipGlob": "normalized/part1/fuyuki/relationships/*.json", "count": 4},
+    {"chapter": "orleans", "relationshipGlob": "normalized/part1/orleans/relationships/*.json", "count": 8},
+    {"chapter": "septem", "relationshipGlob": "normalized/part1/septem/relationships/*.json", "count": 7},
+    {"chapter": "okeanos", "relationshipGlob": "normalized/part1/okeanos/relationships/*.json", "count": 7},
+    {"chapter": "london", "relationshipGlob": "normalized/part1/london/relationships/*.json", "count": 8},
+    {"chapter": "america", "relationshipGlob": "normalized/part1/america/relationships/*.json", "count": 12},
+    {"chapter": "camelot", "relationshipGlob": "normalized/part1/camelot/relationships/*.json", "count": 8},
+    {"chapter": "babylonia", "relationshipGlob": "normalized/part1/babylonia/relationships/*.json", "count": 8},
+    {"chapter": "solomon", "relationshipGlob": "normalized/part1/solomon/relationships/*.json", "count": 8}
+  ],
+  "counts": {"relationshipFiles": 70, "threadFilesCreated": 2}
+}

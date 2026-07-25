@@ -1,0 +1,87 @@
+{
+  "schema": "tm-knk-relationship-signals-v1",
+  "recordId": "ryougi-shiki-relationship-signals",
+  "status": "generated-pending-audit",
+  "sourceRefs": ["src-dlc-ryougi-shiki"],
+  "sourceType": "local-imported-worldbook-profile",
+  "credibility": "medium-local-worldbook-explicit",
+  "canonStatus": "secondary-summary-not-primary-canon",
+  "continuity": ["original", "future-gospel"],
+  "candidateOnly": false,
+  "sourceGap": false,
+  "signals": [
+    {
+      "target": "黑桐干也 / Kokutou Mikiya",
+      "relationshipType": ["high-school acquaintance", "core emotional anchor", "lover", "future spouse"],
+      "sourceBackedSignals": ["visited Shiki during the two-year coma", "source describes him as exception/light and someone she cannot kill", "future-gospel notes marriage and daughter"],
+      "continuity": ["original", "future-gospel"],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "target": "两仪织 / SHIKI",
+      "relationshipType": ["male/yang personality aspect", "sacrificial counterpart"],
+      "sourceBackedSignals": ["bears destructive/kill impulse but is cheerful/open", "disappears/dies in the 1996 accident to protect Shiki and Mikiya's future"],
+      "continuity": ["original"],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "target": "苍崎橙子 / Aozaki Touko",
+      "relationshipType": ["employer", "mentor/handler", "prosthetic maker"],
+      "sourceBackedSignals": ["recruits Shiki to Garan no Dou", "guides her after Mystic Eyes awakening", "makes magical prosthetic arm"],
+      "continuity": ["original"],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "target": "浅上藤乃 / Asagami Fujino",
+      "relationshipType": ["opponent", "survivor saved by Shiki"],
+      "sourceBackedSignals": ["Fujino twists Shiki's left arm", "Shiki defeats her and cuts/kills the appendicitis instead of killing Fujino"],
+      "continuity": ["original"],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "target": "臙条巴 / Enjou Tomoe",
+      "relationshipType": ["sheltered runaway", "ally in Ogawa Apartment case"],
+      "sourceBackedSignals": ["Shiki shelters him", "he escapes the apartment loop and sacrifices himself challenging Araya"],
+      "continuity": ["original"],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "target": "荒耶宗莲 / Araya Souren",
+      "relationshipType": ["enemy", "Root-seeking mage"],
+      "sourceBackedSignals": ["uses Ogawa Apartment experiment", "defeated/killed by Shiki with 九字兼定"],
+      "continuity": ["original"],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "target": "白纯里绪 / Shirazumi Lio",
+      "relationshipType": ["classmate", "serial-killer antagonist"],
+      "sourceBackedSignals": ["true culprit of later murder case", "obsessed with Shiki", "killed by Shiki after conflict around Mikiya"],
+      "continuity": ["original"],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "target": "两仪未那 / Ryougi Mana",
+      "relationshipType": ["daughter"],
+      "sourceBackedSignals": ["future-gospel notes Shiki and Mikiya have daughter Mana"],
+      "continuity": ["future-gospel"],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "target": "Other named relationship candidates",
+      "relationshipType": ["candidate-only list"],
+      "sourceBackedSignals": ["黑桐鲜花", "巫条雾绘", "砚木秋隆", "两仪要", "两仪祖父", "观布子之母", "仓密目琉夏", "玄雾皋月", "黄路美沙夜"],
+      "continuity": ["original", "future-gospel"],
+      "candidateOnly": true,
+      "sourceGap": "mentioned in source but not expanded into separate records in this pilot"
+    }
+  ],
+  "normalizationNotes": ["This file is a relationship-signal supplement, not a formal relationship graph or final relationship record aggregate."]
+}

@@ -1,0 +1,24 @@
+{
+  "schema": "tm-fgo-normalization-report-v1",
+  "recordType": "normalization_report",
+  "chapterId": "fgo-lb1-anastasia",
+  "status": "passed",
+  "openIssues": 0,
+  "blockedIssues": 0,
+  "normalizedOutputs": [
+    "normalized/lostbelt/lb1-anastasia/chapter-record.json",
+    "normalized/lostbelt/lb1-anastasia/event-ledger.json",
+    "normalized/lostbelt/lb1-anastasia/character-ledger.json",
+    "normalized/lostbelt/lb1-anastasia/signal-ledger.json"
+  ],
+  "constraints": {
+    "mergeGraphTimelinePublicationNotPerformed": true,
+    "formalAggregateCharactersEventsRelationshipsJsonAvoided": true,
+    "sourceFirstTerminology": true,
+    "unsupportedAliasesDemoted": true
+  },
+  "sourceRefs": ["sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:17-130"],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

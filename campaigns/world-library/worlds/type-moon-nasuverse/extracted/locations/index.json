@@ -12,21 +12,31 @@
       "familyId": "fsn-fz-locations",
       "sourcePilot": "fsn-fz-pilot",
       "recordType": "location",
-      "continuityScope": ["fate-zero", "fate-stay-night"],
-      "summaryCountRef": "fsn-fz-pilot/merged/index.json#/summaryCounts/locations",
-      "acceptedArtifactRefs": ["fsn-fz-pilot/merged/merged-entities.json"],
+      "continuityScope": [
+        "fate-zero",
+        "fate-stay-night"
+      ],
+      "summaryCountRef": "characters/fsn-fz/index.json#/summaryCounts/locations",
+      "acceptedArtifactRefs": [
+        "characters/fsn-fz/merged-entities.json"
+      ],
       "sourceType": "p1-hybrid-local-worldbook-and-story-text",
       "credibility": "B",
       "canonStatus": "canon-like/adapted",
       "candidateOnly": false,
       "sourceGap": false,
-      "auditStatusRef": "fsn-fz-pilot/audit/final-pass-report.json"
+      "auditStatusRef": "STATUS.md#fsn-fz-audit"
     },
     {
       "familyId": "fgo-chapter-world-state-locations",
       "sourcePilot": "fgo-script-pilot; fgo-eor-pilot; fgo-lb1-lb2-pilot; fgo-lb3-lb4-pilot; fgo-lb5-pilot; fgo-lb6-pilot; fgo-ordeal-call-pilot",
       "recordType": "location-or-world-state-context",
-      "continuityScope": ["fgo-part1", "fgo-epic-of-remnant", "fgo-lostbelt", "fgo-ordeal-call"],
+      "continuityScope": [
+        "fgo-part1",
+        "fgo-epic-of-remnant",
+        "fgo-lostbelt",
+        "fgo-ordeal-call"
+      ],
       "acceptedArtifactRefs": [
         "fgo-script-pilot/extracted/part1/*/world-state.json",
         "fgo-eor-pilot/merged/world-state/",
@@ -40,38 +50,65 @@
       "canonStatus": "canon-like",
       "candidateOnly": false,
       "sourceGap": false,
-      "auditStatusRefs": ["fgo-script-pilot/STATUS.md", "fgo-eor-pilot/STATUS.md", "fgo-lb1-lb2-pilot/STATUS.md", "fgo-lb3-lb4-pilot/STATUS.md", "fgo-lb5-pilot/STATUS.md", "fgo-lb6-pilot/STATUS.md", "fgo-ordeal-call-pilot/STATUS.md"]
+      "auditStatusRefs": [
+        "STATUS.md#fgo-part1",
+        "STATUS.md#eor",
+        "STATUS.md#lb1-lb2",
+        "STATUS.md#lb3-lb4",
+        "STATUS.md#lb5",
+        "STATUS.md#lb6",
+        "STATUS.md#ordeal-call"
+      ]
     },
     {
       "familyId": "kara-no-kyoukai-mifune-city-settings",
       "sourcePilot": "kara-no-kyoukai-profile-supplement-pilot",
       "recordType": "setting-location-record",
-      "continuityScope": ["kara-no-kyoukai"],
-      "acceptedArtifactRefs": ["kara-no-kyoukai-profile-supplement-pilot/work-packets/mifune-city-settings.json", "kara-no-kyoukai-profile-supplement-pilot/merged/profile-index.json"],
+      "continuityScope": [
+        "kara-no-kyoukai"
+      ],
+      "acceptedArtifactRefs": [
+        "kara-no-kyoukai-profile-supplement-pilot/work-packets/mifune-city-settings.json",
+        "characters/knk/profile-index.json"
+      ],
       "sourceType": "user-file-worldbook-profile",
       "credibility": "B",
       "canonStatus": "canon-like/adapted",
       "candidateOnly": false,
       "sourceGap": false,
-      "auditStatusRef": "kara-no-kyoukai-profile-supplement-pilot/STATUS.md"
+      "auditStatusRef": "STATUS.md#knk"
     },
     {
       "familyId": "prisma-illya-world-mechanics-locations",
       "sourcePilot": "prisma-illya-profile-supplement-pilot",
       "recordType": "location-and-mechanics-record",
-      "continuityScope": ["prisma-illya"],
-      "acceptedArtifactRefs": ["prisma-illya-profile-supplement-pilot/extracted/profile-supplement/prisma-illya/records/world-mechanics-and-locations.json", "prisma-illya-profile-supplement-pilot/normalized/profile-supplement/prisma-illya/world-mechanics.json"],
+      "continuityScope": [
+        "prisma-illya"
+      ],
+      "acceptedArtifactRefs": [
+        "prisma-illya-profile-supplement-pilot/extracted/profile-supplement/prisma-illya/records/world-mechanics-and-locations.json",
+        "characters/prisma-illya/profile-supplement/prisma-illya/world-mechanics.json"
+      ],
       "sourceType": "user-file-worldbook-profile-redacted",
       "credibility": "B",
       "canonStatus": "canon-like/adapted",
       "candidateOnly": false,
       "sourceGap": false,
-      "auditStatusRef": "prisma-illya-profile-supplement-pilot/STATUS.md"
+      "auditStatusRef": "STATUS.md#prisma-illya"
     }
   ],
   "excludedFromFormalLocationIndex": [
-    {"pilotId": "tsukihime-supporting-cast-candidate-supplement-pilot", "reason": "candidate/source-gap only, including Type Lumina gaps"},
-    {"pilotId": "tsukihime-dead-apostle-profile-supplement-pilot", "reason": "hold pending separate final audit"},
-    {"pilotId": "mahoyo-profile-supplement-pilot", "reason": "hold pending auditor rerun"}
+    {
+      "pilotId": "tsukihime-supporting-cast-candidate-supplement-pilot",
+      "reason": "candidate/source-gap only, including Type Lumina gaps"
+    },
+    {
+      "pilotId": "tsukihime-dead-apostle-profile-supplement-pilot",
+      "reason": "hold pending separate final audit"
+    },
+    {
+      "pilotId": "mahoyo-profile-supplement-pilot",
+      "reason": "hold pending auditor rerun"
+    }
   ]
 }

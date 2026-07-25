@@ -1,0 +1,30 @@
+{
+  "schema": "tm-fgo-part1-character-fragment-coverage-index-v1",
+  "purpose": "Reference-only coverage index for every normalized Part 1 character fragment group. This is not a formal characters aggregate and contains no replacement character facts.",
+  "coveragePolicy": "Recurring/high-risk identities have canonical files in merged/characters. Other observed character entities remain represented by their normalized per-character fragment files until reviewed migration mapping creates additional canonical IDs.",
+  "chapterGroups": [
+    {"chapter": "fuyuki", "fragmentGlob": "normalized/part1/fuyuki/characters/*.fragment.json", "count": 8},
+    {"chapter": "orleans", "fragmentGlob": "normalized/part1/orleans/characters/*.fragment.json", "count": 16},
+    {"chapter": "septem", "fragmentGlob": "normalized/part1/septem/characters/*.fragment.json", "count": 17},
+    {"chapter": "okeanos", "fragmentGlob": "normalized/part1/okeanos/characters/*.fragment.json", "count": 18},
+    {"chapter": "london", "fragmentGlob": "normalized/part1/london/characters/*.fragment.json", "count": 20},
+    {"chapter": "america", "fragmentGlob": "normalized/part1/america/characters/*.fragment.json", "count": 25},
+    {"chapter": "camelot", "fragmentGlob": "normalized/part1/camelot/characters/*.fragment.json", "count": 22},
+    {"chapter": "babylonia", "fragmentGlob": "normalized/part1/babylonia/characters/*.fragment.json", "count": 20},
+    {"chapter": "solomon", "fragmentGlob": "normalized/part1/solomon/characters/*.fragment.json", "count": 20}
+  ],
+  "totalCharacterFragments": 166,
+  "canonicalFilesForRecurringOrHighRiskEntities": [
+    "merged/characters/fujimaru-ritsuka.json",
+    "merged/characters/mash-kyrielight.json",
+    "merged/characters/roman-romani-archaman-solomon.json",
+    "merged/characters/da-vinci.json",
+    "merged/characters/merlin.json",
+    "merged/characters/mordred.json",
+    "merged/characters/nero-claudius.json",
+    "merged/characters/jeanne.json"
+  ],
+  "appearanceRefs": ["merged/characters/visual-ability-combat-ref-index.json", "merged/appearances/part1/index.json"],
+  "abilityRefs": ["merged/characters/visual-ability-combat-ref-index.json", "merged/abilities/part1/index.json"],
+  "combatEffectRefs": ["merged/characters/visual-ability-combat-ref-index.json", "merged/combat-effects/part1/index.json"]
+}

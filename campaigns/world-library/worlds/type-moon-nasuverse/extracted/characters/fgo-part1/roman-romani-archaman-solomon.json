@@ -1,0 +1,22 @@
+{
+  "schema": "tm-fgo-canonical-character-entity-v1",
+  "entityId": "character:roman-romani-archaman-solomon",
+  "canonicalName": "罗曼医生/罗玛尼·阿其曼/所罗门",
+  "mergeStatus": "canonicalized-with-late-identity-reveal",
+  "fragmentRefs": [
+    "normalized/part1/fuyuki/characters/romani-archaman.fragment.json",
+    "normalized/part1/orleans/characters/romani-archaman.fragment.json",
+    "normalized/part1/septem/characters/romani-archaman.fragment.json",
+    "normalized/part1/okeanos/characters/roman.fragment.json",
+    "normalized/part1/london/characters/roman.fragment.json",
+    "normalized/part1/camelot/characters/roman.fragment.json",
+    "normalized/part1/babylonia/characters/roman.fragment.json",
+    "normalized/part1/solomon/characters/roman-solomon.fragment.json"
+  ],
+  "chapterCoverage": ["fuyuki", "orleans", "septem", "okeanos", "london", "camelot", "babylonia", "solomon"],
+  "appearanceRefs": [],
+  "abilityRefs": ["merged/abilities/part1/solomon/records.json#solomon-ability-romani-first-noble-phantasm-self-erasure"],
+  "combatEffectRefs": ["merged/combat-effects/part1/solomon/records.json#solomon-combat-first-noble-phantasm-root-sever"],
+  "identityCaution": "London's separate solomon.fragment.json is not merged here; it is treated as antagonist/Goetia-facing presentation pending old-curated comparison.",
+  "notes": ["Solomon final chapter fragment roman-solomon is merged with Roman/Romani fragments as the late identity reveal."]
+}

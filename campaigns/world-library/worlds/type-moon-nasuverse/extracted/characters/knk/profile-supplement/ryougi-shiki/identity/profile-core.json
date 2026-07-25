@@ -1,0 +1,34 @@
+{
+  "schema": "tm-knk-profile-core-v1",
+  "recordId": "ryougi-shiki-profile-core",
+  "status": "generated-pending-audit",
+  "entityName": "两仪式 / Ryougi Shiki",
+  "sourceRefs": ["src-dlc-ryougi-shiki", "src-tm-summary-root", "src-tm-summary-mystic-eyes-death-perception"],
+  "sourceType": "local-imported-worldbook-profile-plus-setting-cross-check",
+  "credibility": "medium-local-worldbook-explicit-with-medium-low-cross-check",
+  "canonStatus": "secondary-summary-not-primary-canon",
+  "continuity": ["original", "future-gospel", "type-moon-general"],
+  "candidateOnly": false,
+  "sourceGap": false,
+  "identity": {
+    "primaryNames": ["两仪式", "Ryougi Shiki", "両儀式"],
+    "personaOrAspectNames": ["式", "织 / SHIKI", "两仪式 / Void/root personality"],
+    "gender": "female body; source describes female personality 式 and male personality 织",
+    "raceOrNature": ["human", "exorcist-family heir", "psychic/spirited ability user", "Root-connected body/personality"],
+    "birth": {"date": "1980-02-17", "place": "观布子市", "bloodType": "AB"},
+    "measurements": {"heightCm": 160, "weightKg": 47, "bwh": "B75/W54/H77"},
+    "ageByContinuity": [
+      {"age": 16, "context": "chapter 2 / 1996", "continuity": "original"},
+      {"age": 18, "context": "chapters 1, 3, 4, 5, 6 / 1998", "continuity": "original"},
+      {"age": 19, "context": "chapter 7 / 1999", "continuity": "original"},
+      {"age": 30, "context": "未来福音 / 2010", "continuity": "future-gospel"}
+    ],
+    "affiliations": ["两仪家", "伽蓝之堂"],
+    "successionStatus": "source states she becomes the legitimate Ryougi family successor because her brother 两仪要 could not manifest the second personality"
+  },
+  "normalizationNotes": [
+    "This is a supplement, not a final canonical entity record.",
+    "Void/root personality and SHIKI are retained as profile aspects because the source frames them inside the same body/profile.",
+    "FGO/EXTRA/Melty Blood mentions in the long source entry are not promoted into original continuity facts here."
+  ]
+}

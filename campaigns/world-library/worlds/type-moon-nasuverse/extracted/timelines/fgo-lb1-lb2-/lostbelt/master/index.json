@@ -1,0 +1,17 @@
+{
+  "schema": "tm-fgo-master-timeline-index-v1",
+  "recordType": "master_timeline_index",
+  "project": "fgo-lb1-lb2-pilot",
+  "arc": "lostbelt",
+  "mergeStepId": "merge-lb1-lb2-retry",
+  "eventCount": 43,
+  "orderingPolicy": "chapterOrder then per-chapter orderIndex; LB1 irregular raw event codes 事件A0/事件A1/事件A2 precede 事件A through 事件U as in normalized ledger.",
+  "chapterTimelines": [
+    {"chapterId":"fgo-lb1-anastasia","chapterOrder":1,"timelineFile":"timeline/lostbelt/lb1-anastasia.json","eventCount":24,"sourceRefs":["sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:44-130"],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"},
+    {"chapterId":"fgo-lb2-gotterdammerung","chapterOrder":2,"timelineFile":"timeline/lostbelt/lb2-gotterdammerung.json","eventCount":19,"sourceRefs":["sources/worldbook-script/lostbelt/ch-094-lb2-gotterdammerung.txt:44-110"],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"}
+  ],
+  "sourceRefs": ["sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:44-130","sources/worldbook-script/lostbelt/ch-094-lb2-gotterdammerung.txt:44-110"],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

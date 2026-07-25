@@ -1,0 +1,35 @@
+{
+  "schema": "tm-profile-supplement-normalized-index-v1",
+  "pilot": "prisma-illya-profile-supplement-pilot",
+  "status": "generated-pending-audit",
+  "supplementFiles": {
+    "relationshipRecords": "normalized/profile-supplement/prisma-illya/relationship-records.json"
+  },
+  "records": [
+    {
+      "entity": "伊莉雅丝菲尔·冯·爱因兹贝伦",
+      "continuity": "Prisma Illya",
+      "doNotMergeWith": ["FSN Illya"],
+      "relatedForms": ["Fate/stay night Illya reference only"],
+      "sourceRefs": ["魔法少女伊莉雅_Worldbooks2.worldbook.json:entry 1"]
+    },
+    {
+      "entity": "美游·艾德费尔特",
+      "continuity": "Prisma Illya",
+      "sourceRefs": ["魔法少女伊莉雅_Worldbooks2.worldbook.json:entry 3"]
+    },
+    {
+      "entity": "克洛伊·冯·爱因兹贝伦",
+      "continuity": "Prisma Illya",
+      "doNotMergeWith": ["FSN Illya"],
+      "relatedForms": ["Illya-derived half-body in Prisma continuity"],
+      "sourceRefs": ["魔法少女伊莉雅_Worldbooks2.worldbook.json:entry 4"]
+    },
+    {
+      "entity": "志度内",
+      "continuity": "cross-work candidate-only",
+      "statusFlag": "candidate-only",
+      "sourceRefs": ["魔法少女伊莉雅_Worldbooks2.worldbook.json:entry 13"]
+    }
+  ]
+}

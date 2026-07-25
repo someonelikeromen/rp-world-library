@@ -1,0 +1,117 @@
+{
+  "schema": "tm-fgo-eor-merged-relationship-edge-records-v1",
+  "chapterId": "fgo-eor-agartha",
+  "promotionRule": "source-backed relationship candidates only; no co-occurrence promotion",
+  "records": [
+    {
+      "id": "agartha-relcand-001",
+      "subject": "魔神柱菲尼克斯",
+      "predicate": "co-constructed-singularity-with",
+      "object": "山鲁佐德",
+      "basis": "特异点由魔神柱菲尼克斯与从者山鲁佐德共同构建。",
+      "timelineId": "fgo-eor-agartha",
+      "timeRange": {
+        "precision": "chapter-world-state-anchored",
+        "startEventId": "agartha-event-b",
+        "startOrderIndex": 2,
+        "startTimeRaw": "A.D.2000年 时间不明",
+        "endEventId": "agartha-event-q",
+        "endOrderIndex": 17,
+        "endTimeRaw": "A.D.2000年"
+      },
+      "timeRangeRaw": "A.D.2000年 时间不明—A.D.2000年",
+      "sourceRefs": [{"path":"sources/worldbook-script/eor/ch-090-agartha.txt","lineStart":26,"lineEnd":28}],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "id": "agartha-relcand-002",
+      "subject": "山鲁佐德",
+      "predicate": "uses-fear-to-cooperate-with",
+      "object": "魔神柱",
+      "basis": "山鲁佐德因对死亡的极度恐惧而协助魔神柱毁灭世界。",
+      "timelineId": "fgo-eor-agartha",
+      "timeRange": {
+        "precision": "chapter-world-state-with-reveal-event",
+        "startEventId": "agartha-event-b",
+        "startOrderIndex": 2,
+        "startTimeRaw": "A.D.2000年 时间不明",
+        "endEventId": "agartha-event-p",
+        "endOrderIndex": 16,
+        "endTimeRaw": "A.D.2000年 时间不明"
+      },
+      "timeRangeRaw": "A.D.2000年 时间不明",
+      "sourceRefs": [{"path":"sources/worldbook-script/eor/ch-090-agartha.txt","lineStart":26,"lineEnd":105}],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "id": "agartha-relcand-003",
+      "subject": "Rider/哥伦布",
+      "predicate": "leads-then-betrays",
+      "object": "反抗军/主角方",
+      "basis": "Rider先展现领袖气质并联手讨伐，后恢复记忆为哥伦布并暴露奴隶商人本性反戈。",
+      "timelineId": "fgo-eor-agartha",
+      "timeRange": {
+        "precision": "event-span-anchored",
+        "startEventId": "agartha-event-e",
+        "startOrderIndex": 5,
+        "startTimeRaw": "A.D.2000年 时间不明",
+        "endEventId": "agartha-event-n",
+        "endOrderIndex": 14,
+        "endTimeRaw": "A.D.2000年 时间不明"
+      },
+      "timeRangeRaw": "A.D.2000年 时间不明",
+      "sourceRefs": [{"path":"sources/worldbook-script/eor/ch-090-agartha.txt","lineStart":60,"lineEnd":97}],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "id": "agartha-relcand-004",
+      "subject": "哥伦布",
+      "predicate": "killed-and-burned",
+      "object": "海伦娜·布拉瓦茨基",
+      "basis": "事件O揭示哥伦布此前杀害海伦娜并纵火。",
+      "timelineId": "fgo-eor-agartha",
+      "timeRange": {
+        "precision": "event-anchored-revealed-prior-action",
+        "startEventId": "agartha-event-o",
+        "startOrderIndex": 15,
+        "startTimeRaw": "A.D.2000年 时间不明",
+        "endEventId": "agartha-event-o",
+        "endOrderIndex": 15,
+        "endTimeRaw": "A.D.2000年 时间不明"
+      },
+      "timeRangeRaw": "A.D.2000年 时间不明（事件O揭示此前行动）",
+      "sourceRefs": [{"path":"sources/worldbook-script/eor/ch-090-agartha.txt","lineStart":99,"lineEnd":99}],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "id": "agartha-relcand-005",
+      "subject": "武则天",
+      "predicate": "cooperates-with",
+      "object": "弗格斯",
+      "basis": "事件Q称武则天配合弗格斯合力阻截。",
+      "timelineId": "fgo-eor-agartha",
+      "timeRange": {
+        "precision": "event-anchored",
+        "startEventId": "agartha-event-q",
+        "startOrderIndex": 17,
+        "startTimeRaw": "A.D.2000年",
+        "endEventId": "agartha-event-q",
+        "endOrderIndex": 17,
+        "endTimeRaw": "A.D.2000年"
+      },
+      "timeRangeRaw": "A.D.2000年",
+      "sourceRefs": [{"path":"sources/worldbook-script/eor/ch-090-agartha.txt","lineStart":107,"lineEnd":107}],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    }
+  ]
+}

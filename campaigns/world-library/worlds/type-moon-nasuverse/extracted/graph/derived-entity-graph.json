@@ -7,12 +7,13 @@
   "buildStepId": "graph-builder",
   "buildDate": "2026-07-20",
   "derivationPolicy": {
-    "derivedFromExtractedIndexesOnly": true,
-    "introducesNewFacts": false,
+    "derivedFromExtractedIndexesOnly": false,
+    "introducesNewFacts": true,
     "defaultQueryIncludesCandidateOnly": false,
     "defaultQueryIncludesSourceGaps": false,
     "candidateOrGapEdgesAreBoundaryOnly": true,
-    "recordsResolveToPrimaryIndexesOrAcceptedArtifacts": true
+    "recordsResolveToPrimaryIndexesOrAcceptedArtifacts": false,
+    "dataInlinedFromPilotOutputs": true
   },
   "inputIndexes": [
     "sources/index.json",
@@ -132,7 +133,10 @@
       "nodeId": "pilot:fsn-fz-pilot",
       "nodeType": "source-pilot",
       "status": "passed-with-known-risks",
-      "continuityScope": ["fate-stay-night", "fate-zero"],
+      "continuityScope": [
+        "fate-stay-night",
+        "fate-zero"
+      ],
       "sourceType": "p1-hybrid-local-worldbook-and-story-text",
       "credibility": "B",
       "canonStatus": "canon-like/adapted",
@@ -143,7 +147,9 @@
       "nodeId": "pilot:fgo-script-pilot",
       "nodeType": "source-pilot",
       "status": "passed-with-nonblocking-risks",
-      "continuityScope": ["fgo-part1"],
+      "continuityScope": [
+        "fgo-part1"
+      ],
       "sourceType": "user-file-worldbook-script",
       "credibility": "B",
       "canonStatus": "canon-like",
@@ -154,7 +160,9 @@
       "nodeId": "pilot:fgo-eor-pilot",
       "nodeType": "source-pilot",
       "status": "passed-with-nonblocking-risks",
-      "continuityScope": ["fgo-epic-of-remnant"],
+      "continuityScope": [
+        "fgo-epic-of-remnant"
+      ],
       "sourceType": "user-file-worldbook-script",
       "credibility": "B",
       "canonStatus": "canon-like",
@@ -165,7 +173,11 @@
       "nodeId": "pilot:fgo-lb1-lb2-pilot",
       "nodeType": "source-pilot",
       "status": "passed-with-nonblocking-risks",
-      "continuityScope": ["fgo-lostbelt", "lb1-anastasia", "lb2-gotterdammerung"],
+      "continuityScope": [
+        "fgo-lostbelt",
+        "lb1-anastasia",
+        "lb2-gotterdammerung"
+      ],
       "sourceType": "user-file-worldbook-script",
       "credibility": "B",
       "canonStatus": "canon-like",
@@ -176,7 +188,11 @@
       "nodeId": "pilot:fgo-lb3-lb4-pilot",
       "nodeType": "source-pilot",
       "status": "passed-with-nonblocking-risks",
-      "continuityScope": ["fgo-lostbelt", "lb3-renzhi-tonghe-zhenguo", "lb4-chuangshi-miewang-lunhui"],
+      "continuityScope": [
+        "fgo-lostbelt",
+        "lb3-renzhi-tonghe-zhenguo",
+        "lb4-chuangshi-miewang-lunhui"
+      ],
       "sourceType": "user-file-worldbook-script",
       "credibility": "B",
       "canonStatus": "canon-like",
@@ -187,7 +203,11 @@
       "nodeId": "pilot:fgo-lb5-pilot",
       "nodeType": "source-pilot",
       "status": "passed-with-nonblocking-risks",
-      "continuityScope": ["fgo-lostbelt", "lb5-1-atlantis", "lb5-2-olympos"],
+      "continuityScope": [
+        "fgo-lostbelt",
+        "lb5-1-atlantis",
+        "lb5-2-olympos"
+      ],
       "sourceType": "user-file-worldbook-script",
       "credibility": "B",
       "canonStatus": "canon-like",
@@ -198,7 +218,11 @@
       "nodeId": "pilot:fgo-lb6-pilot",
       "nodeType": "source-pilot",
       "status": "passed-with-nonblocking-risks",
-      "continuityScope": ["fgo-lostbelt", "lb6-1-avalon-pre", "lb6-2-round-table-post"],
+      "continuityScope": [
+        "fgo-lostbelt",
+        "lb6-1-avalon-pre",
+        "lb6-2-round-table-post"
+      ],
       "sourceType": "user-file-worldbook-script",
       "credibility": "B",
       "canonStatus": "canon-like",
@@ -209,7 +233,12 @@
       "nodeId": "pilot:fgo-ordeal-call-pilot",
       "nodeType": "source-pilot",
       "status": "accepted-with-nonblocking-risks",
-      "continuityScope": ["fgo-ordeal-call", "oc1-paper-moon", "oc2-id", "oc3-integration"],
+      "continuityScope": [
+        "fgo-ordeal-call",
+        "oc1-paper-moon",
+        "oc2-id",
+        "oc3-integration"
+      ],
       "sourceType": "user-file-worldbook-script",
       "credibility": "B",
       "canonStatus": "canon-like",
@@ -220,7 +249,11 @@
       "nodeId": "pilot:kara-no-kyoukai-profile-supplement-pilot",
       "nodeType": "source-pilot",
       "status": "passed-with-nonblocking-risks",
-      "continuityScope": ["kara-no-kyoukai", "future-gospel", "type-moon-general-cross-check"],
+      "continuityScope": [
+        "kara-no-kyoukai",
+        "future-gospel",
+        "type-moon-general-cross-check"
+      ],
       "sourceType": "user-file-worldbook-profile",
       "credibility": "B",
       "canonStatus": "canon-like/adapted",
@@ -231,7 +264,10 @@
       "nodeId": "pilot:prisma-illya-profile-supplement-pilot",
       "nodeType": "source-pilot",
       "status": "passed-with-nonblocking-risks",
-      "continuityScope": ["prisma-illya", "fsn-prisma-identity-separation"],
+      "continuityScope": [
+        "prisma-illya",
+        "fsn-prisma-identity-separation"
+      ],
       "sourceType": "user-file-worldbook-profile-redacted",
       "credibility": "B",
       "canonStatus": "canon-like/adapted",
@@ -243,7 +279,10 @@
       "nodeId": "pilot:lb6-fairy-calendar-supplement-pilot",
       "nodeType": "source-pilot",
       "status": "passed-with-nonblocking-risks",
-      "continuityScope": ["fgo-lostbelt", "lb6-fairy-calendar"],
+      "continuityScope": [
+        "fgo-lostbelt",
+        "lb6-fairy-calendar"
+      ],
       "sourceType": "user-file-worldbook-setting",
       "credibility": "B",
       "canonStatus": "canon-like/adapted",
@@ -255,13 +294,17 @@
       "nodeId": "pilot:type-moon-core-general-settings-pilot",
       "nodeType": "source-pilot",
       "status": "passed-with-human-scope-limitations",
-      "continuityScope": ["type-moon-general"],
+      "continuityScope": [
+        "type-moon-general"
+      ],
       "sourceType": "derived-from-completed-pilot-settings-supplement",
       "credibility": "B with human-scope limitations",
       "canonStatus": "adapted/secondary-summary",
       "candidateOnly": false,
       "sourceGap": false,
-      "excludedRecordIds": ["atlas-and-sion-candidate-context"]
+      "excludedRecordIds": [
+        "atlas-and-sion-candidate-context"
+      ]
     },
     {
       "nodeId": "family:characters:fsn-fz-entities",
@@ -269,8 +312,13 @@
       "recordFamily": "characters",
       "sourcePilot": "fsn-fz-pilot",
       "recordType": "entity",
-      "continuityScope": ["fate-stay-night", "fate-zero"],
-      "sourceRefs": ["fsn-fz-pilot/merged/merged-entities.json"],
+      "continuityScope": [
+        "fate-stay-night",
+        "fate-zero"
+      ],
+      "sourceRefs": [
+        "characters/fsn-fz/merged-entities.json"
+      ],
       "candidateOnly": false,
       "sourceGap": false
     },
@@ -280,8 +328,13 @@
       "recordFamily": "events",
       "sourcePilot": "fgo-script-pilot",
       "recordType": "event",
-      "continuityScope": ["fgo-part1"],
-      "sourceRefs": ["fgo-script-pilot/merged/events/part1/", "fgo-script-pilot/timeline/part1-chronological-index.json"],
+      "continuityScope": [
+        "fgo-part1"
+      ],
+      "sourceRefs": [
+        "events/fgo-part1/",
+        "timelines/fgo-part1/part1-chronological-index.json"
+      ],
       "candidateOnly": false,
       "sourceGap": false
     },
@@ -291,8 +344,13 @@
       "recordFamily": "relationships",
       "sourcePilot": "fgo-script-pilot",
       "recordType": "relationship-edge",
-      "continuityScope": ["fgo-part1"],
-      "sourceRefs": ["fgo-script-pilot/normalized/part1/solomon/relationships/", "fgo-script-pilot/graph/relationship-edge-index.json"],
+      "continuityScope": [
+        "fgo-part1"
+      ],
+      "sourceRefs": [
+        "fgo-script-pilot/normalized/part1/solomon/relationships/",
+        "graph/fgo-part1/relationship-edge-index.json"
+      ],
       "candidateOnly": false,
       "sourceGap": false
     },
@@ -302,9 +360,16 @@
       "recordFamily": "rules",
       "sourcePilot": "type-moon-core-general-settings-pilot",
       "recordType": "setting-record",
-      "continuityScope": ["type-moon-general"],
-      "sourceRefs": ["type-moon-core-general-settings-pilot/normalized/core-general-settings/index.json#/records[?candidateOnly!=true && sourceGap!=true]", "type-moon-core-general-settings-pilot/normalized/core-general-settings/settings-supplement.json"],
-      "excludedRecordIds": ["atlas-and-sion-candidate-context"],
+      "continuityScope": [
+        "type-moon-general"
+      ],
+      "sourceRefs": [
+        "rules/core-general-settings/index.json#/records[?candidateOnly!=true && sourceGap!=true]",
+        "rules/core-general-settings/settings-supplement.json"
+      ],
+      "excludedRecordIds": [
+        "atlas-and-sion-candidate-context"
+      ],
       "candidateOnly": false,
       "sourceGap": false
     },
@@ -315,8 +380,14 @@
       "recordType": "entity",
       "displayName": "玛修·基列莱特",
       "sourcePilot": "fgo-script-pilot",
-      "continuityScope": ["fgo-part1", "fgo-part1-solomon"],
-      "sourceRefs": ["fgo-script-pilot/normalized/part1/solomon/characters/mash.fragment.json", "fgo-script-pilot/sources/worldbook-script/part1/ch-008-solomon.txt#stage_characters"],
+      "continuityScope": [
+        "fgo-part1",
+        "fgo-part1-solomon"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/mash.fragment.json",
+        "fgo-script-pilot/sources/worldbook-script/part1/ch-008-solomon.txt#stage_characters"
+      ],
       "candidateOnly": false,
       "sourceGap": false
     },
@@ -327,8 +398,14 @@
       "recordType": "profile-record",
       "displayName": "两仪式 / Ryougi Shiki",
       "sourcePilot": "kara-no-kyoukai-profile-supplement-pilot",
-      "continuityScope": ["kara-no-kyoukai", "future-gospel", "type-moon-general-cross-check"],
-      "sourceRefs": ["kara-no-kyoukai-profile-supplement-pilot/normalized/profile-supplement/ryougi-shiki/identity/profile-core.json"],
+      "continuityScope": [
+        "kara-no-kyoukai",
+        "future-gospel",
+        "type-moon-general-cross-check"
+      ],
+      "sourceRefs": [
+        "characters/knk/profile-supplement/ryougi-shiki/identity/profile-core.json"
+      ],
       "candidateOnly": false,
       "sourceGap": false
     },
@@ -339,8 +416,12 @@
       "recordType": "profile-record-family",
       "displayName": "Prisma Illya core SFW profile family",
       "sourcePilot": "prisma-illya-profile-supplement-pilot",
-      "continuityScope": ["prisma-illya"],
-      "sourceRefs": ["prisma-illya-profile-supplement-pilot/normalized/profile-supplement/prisma-illya/core-records.json"],
+      "continuityScope": [
+        "prisma-illya"
+      ],
+      "sourceRefs": [
+        "characters/prisma-illya/profile-supplement/prisma-illya/core-records.json"
+      ],
       "candidateOnly": false,
       "sourceGap": false
     },
@@ -350,9 +431,14 @@
       "recordFamily": "events",
       "recordType": "event",
       "sourcePilot": "fgo-script-pilot",
-      "continuityScope": ["fgo-part1", "fgo-part1-solomon"],
+      "continuityScope": [
+        "fgo-part1",
+        "fgo-part1-solomon"
+      ],
       "timelineId": "fgo-part1-solomon",
-      "sourceRefs": ["fgo-script-pilot/extracted/part1/solomon/events/event-w.json"],
+      "sourceRefs": [
+        "fgo-script-pilot/extracted/part1/solomon/events/event-w.json"
+      ],
       "candidateOnly": false,
       "sourceGap": false
     },
@@ -362,8 +448,13 @@
       "recordFamily": "events",
       "recordType": "relative-sequence-record-family",
       "sourcePilot": "lb6-fairy-calendar-supplement-pilot",
-      "continuityScope": ["fgo-lostbelt", "lb6-fairy-calendar"],
-      "sourceRefs": ["lb6-fairy-calendar-supplement-pilot/normalized/calendar-setting/relative-sequence-records.json"],
+      "continuityScope": [
+        "fgo-lostbelt",
+        "lb6-fairy-calendar"
+      ],
+      "sourceRefs": [
+        "fgo-lb6-/calendar-setting/relative-sequence-records.json"
+      ],
       "candidateOnly": false,
       "sourceGap": false,
       "relativeOnlyPolicy": true
@@ -374,9 +465,16 @@
       "recordFamily": "relationships",
       "recordType": "relationship-edge",
       "sourcePilot": "fgo-script-pilot",
-      "continuityScope": ["fgo-part1", "fgo-part1-solomon"],
-      "eventRefs": ["fgo-part1-solomon-event-w"],
-      "sourceRefs": ["fgo-script-pilot/normalized/part1/solomon/relationships/fou-mash-restoration.json"],
+      "continuityScope": [
+        "fgo-part1",
+        "fgo-part1-solomon"
+      ],
+      "eventRefs": [
+        "fgo-part1-solomon-event-w"
+      ],
+      "sourceRefs": [
+        "fgo-script-pilot/normalized/part1/solomon/relationships/fou-mash-restoration.json"
+      ],
       "candidateOnly": false,
       "sourceGap": false
     },
@@ -386,8 +484,16 @@
       "recordFamily": "relationships",
       "recordType": "relationship-edge-family",
       "sourcePilot": "fgo-ordeal-call-pilot",
-      "continuityScope": ["fgo-ordeal-call", "oc1-paper-moon", "oc2-id", "oc3-integration"],
-      "sourceRefs": ["fgo-ordeal-call-pilot/merged/relationships/edges/ordeal-call/", "fgo-ordeal-call-pilot/graph/relationship-edge-index.json"],
+      "continuityScope": [
+        "fgo-ordeal-call",
+        "oc1-paper-moon",
+        "oc2-id",
+        "oc3-integration"
+      ],
+      "sourceRefs": [
+        "relationships/fgo-ordeal-call/",
+        "graph/fgo-ordeal-call/relationship-edge-index.json"
+      ],
       "candidateOnly": false,
       "sourceGap": false
     },
@@ -395,7 +501,11 @@
       "nodeId": "output:fsn-fz-accepted-merged-output",
       "nodeType": "source-linked-pilot-output",
       "sourcePilot": "fsn-fz-pilot",
-      "artifactRefs": ["fsn-fz-pilot/merged/merged-entities.json", "fsn-fz-pilot/merged/merged-graph.json", "fsn-fz-pilot/merged/merged-timeline.json"],
+      "artifactRefs": [
+        "characters/fsn-fz/merged-entities.json",
+        "characters/fsn-fz/merged-graph.json",
+        "timelines/fsn-fz-timeline.json"
+      ],
       "candidateOnly": false,
       "sourceGap": false
     },
@@ -403,7 +513,11 @@
       "nodeId": "output:fgo-script-accepted-graph-output",
       "nodeType": "source-linked-pilot-output",
       "sourcePilot": "fgo-script-pilot",
-      "artifactRefs": ["fgo-script-pilot/graph/relationship-edge-index.json", "fgo-script-pilot/graph/timeline-graph.json", "fgo-script-pilot/merged/events/part1/"],
+      "artifactRefs": [
+        "graph/fgo-part1/relationship-edge-index.json",
+        "graph/fgo-part1/timeline-graph.json",
+        "events/fgo-part1/"
+      ],
       "candidateOnly": false,
       "sourceGap": false
     },
@@ -411,16 +525,25 @@
       "nodeId": "output:fgo-ordeal-call-accepted-minimal-output",
       "nodeType": "source-linked-pilot-output",
       "sourcePilot": "fgo-ordeal-call-pilot",
-      "artifactRefs": ["fgo-ordeal-call-pilot/graph/derived-index.json", "fgo-ordeal-call-pilot/graph/relationship-edge-index.json", "fgo-ordeal-call-pilot/merged/relationships/edges/ordeal-call/"],
+      "artifactRefs": [
+        "graph/fgo-ordeal-call/derived-index.json",
+        "graph/fgo-ordeal-call/relationship-edge-index.json",
+        "relationships/fgo-ordeal-call/"
+      ],
       "candidateOnly": false,
       "sourceGap": false,
-      "sourceGapLimitations": ["dedicated merged appearance/ability/combat-effect canonical directories absent; packet signal indexes only referenced"]
+      "sourceGapLimitations": [
+        "dedicated merged appearance/ability/combat-effect canonical directories absent; packet signal indexes only referenced"
+      ]
     },
     {
       "nodeId": "output:profile-supplement-accepted-derived-output",
       "nodeType": "source-linked-pilot-output",
       "sourcePilot": "kara-no-kyoukai-profile-supplement-pilot; prisma-illya-profile-supplement-pilot",
-      "artifactRefs": ["kara-no-kyoukai-profile-supplement-pilot/graph/derived-index.json", "prisma-illya-profile-supplement-pilot/graph/derived-index.json"],
+      "artifactRefs": [
+        "graph/knk-derived-index.json",
+        "graph/prisma-illya-derived-index.json"
+      ],
       "candidateOnly": false,
       "sourceGap": false
     },
@@ -428,7 +551,10 @@
       "nodeId": "output:candidate-and-source-gap-boundary-output",
       "nodeType": "source-linked-pilot-output",
       "sourcePilot": "multiple nonformal or limited pilots",
-      "artifactRefs": ["candidates/index.json", "source-gaps/index.json"],
+      "artifactRefs": [
+        "candidates/index.json",
+        "source-gaps/index.json"
+      ],
       "candidateOnly": true,
       "sourceGap": true,
       "candidateOnlyEdge": true,
@@ -440,7 +566,13 @@
       "nodeType": "candidate-inventory",
       "sourcePilot": "tsukihime-supporting-cast-candidate-supplement-pilot",
       "status": "accepted-with-source-gap-limitations",
-      "continuityScope": ["tsukihime-original", "tsukihime-remake", "melty-blood", "type-lumina", "sandbox"],
+      "continuityScope": [
+        "tsukihime-original",
+        "tsukihime-remake",
+        "melty-blood",
+        "type-lumina",
+        "sandbox"
+      ],
       "publicationDecision": "candidate/source-gap inventory only; no formal characters/events/relationships/graph/timeline facts",
       "candidateOnly": true,
       "sourceGap": true,
@@ -452,7 +584,12 @@
       "sourcePilot": "type-moon-core-general-settings-pilot",
       "recordId": "atlas-and-sion-candidate-context",
       "status": "blocked-needs-human-scope",
-      "continuityScope": ["tsukihime-worldline-candidate", "fgo-worldline-candidate", "fgo-script-context", "melty-blood-candidate"],
+      "continuityScope": [
+        "tsukihime-worldline-candidate",
+        "fgo-worldline-candidate",
+        "fgo-script-context",
+        "melty-blood-candidate"
+      ],
       "candidateOnly": true,
       "sourceGap": true,
       "formalPromotionBlocked": true
@@ -462,7 +599,14 @@
       "nodeType": "source-gap-inventory",
       "sourcePilot": "fate-spinoff-profile-supplement-pilot",
       "status": "blocked-insufficient-source / inventory-only",
-      "continuityScope": ["fate-extra", "fate-prototype", "fate-apocrypha", "fate-strange-fake", "gudaguda", "emiya-gohan"],
+      "continuityScope": [
+        "fate-extra",
+        "fate-prototype",
+        "fate-apocrypha",
+        "fate-strange-fake",
+        "gudaguda",
+        "emiya-gohan"
+      ],
       "candidateOnly": true,
       "sourceGap": true,
       "formalPromotionBlocked": true
@@ -472,7 +616,11 @@
       "nodeType": "source-gap-inventory",
       "sourcePilot": "tsukihime-dead-apostle-profile-supplement-pilot",
       "status": "hold-from-formal-publication",
-      "continuityScope": ["tsukihime", "dead-apostle", "true-ancestor"],
+      "continuityScope": [
+        "tsukihime",
+        "dead-apostle",
+        "true-ancestor"
+      ],
       "candidateOnly": false,
       "sourceGap": true,
       "formalPromotionBlocked": true
@@ -482,10 +630,752 @@
       "nodeType": "source-gap-inventory",
       "sourcePilot": "mahoyo-profile-supplement-pilot",
       "status": "hold-from-formal-publication",
-      "continuityScope": ["mahoyo"],
+      "continuityScope": [
+        "mahoyo"
+      ],
       "candidateOnly": false,
       "sourceGap": true,
       "formalPromotionBlocked": true
+    },
+    {
+      "nodeId": "record:fgo-part1-char-fragments-fuyuki",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-fragments",
+      "displayName": "特异点F·冬木 角色片段 (8 fragments)",
+      "sourcePilot": "fgo-script-pilot",
+      "continuityScope": [
+        "fgo-part1",
+        "fgo-part1-fuyuki"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/fragments/fuyuki/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:fgo-part1-char-fragments-orleans",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-fragments",
+      "displayName": "第一特异点·奥尔良 角色片段 (16 fragments)",
+      "sourcePilot": "fgo-script-pilot",
+      "continuityScope": [
+        "fgo-part1",
+        "fgo-part1-orleans"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/fragments/orleans/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:fgo-part1-char-fragments-septem",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-fragments",
+      "displayName": "第二特异点·七丘之城 角色片段 (17 fragments)",
+      "sourcePilot": "fgo-script-pilot",
+      "continuityScope": [
+        "fgo-part1",
+        "fgo-part1-septem"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/fragments/septem/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:fgo-part1-char-fragments-okeanos",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-fragments",
+      "displayName": "第三特异点·俄刻阿诺斯 角色片段 (18 fragments)",
+      "sourcePilot": "fgo-script-pilot",
+      "continuityScope": [
+        "fgo-part1",
+        "fgo-part1-okeanos"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/fragments/okeanos/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:fgo-part1-char-fragments-london",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-fragments",
+      "displayName": "第四特异点·伦敦 角色片段 (20 fragments)",
+      "sourcePilot": "fgo-script-pilot",
+      "continuityScope": [
+        "fgo-part1",
+        "fgo-part1-london"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/fragments/london/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:fgo-part1-char-fragments-america",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-fragments",
+      "displayName": "第五特异点·合众为一 角色片段 (25 fragments)",
+      "sourcePilot": "fgo-script-pilot",
+      "continuityScope": [
+        "fgo-part1",
+        "fgo-part1-america"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/fragments/america/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:fgo-part1-char-fragments-camelot",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-fragments",
+      "displayName": "第六特异点·卡美洛 角色片段 (22 fragments)",
+      "sourcePilot": "fgo-script-pilot",
+      "continuityScope": [
+        "fgo-part1",
+        "fgo-part1-camelot"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/fragments/camelot/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:fgo-part1-char-fragments-babylonia",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-fragments",
+      "displayName": "第七特异点·巴比伦尼亚 角色片段 (20 fragments)",
+      "sourcePilot": "fgo-script-pilot",
+      "continuityScope": [
+        "fgo-part1",
+        "fgo-part1-babylonia"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/fragments/babylonia/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:fgo-part1-char-fragments-solomon",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-fragments",
+      "displayName": "终局特异点·所罗门 角色片段 (20 fragments)",
+      "sourcePilot": "fgo-script-pilot",
+      "continuityScope": [
+        "fgo-part1",
+        "fgo-part1-solomon"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/fragments/solomon/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:fgo-lb1-lb2-pilot-char-lb1-anastasia",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-index",
+      "displayName": "lb1-anastasia 角色索引",
+      "sourcePilot": "fgo-lb1-lb2-pilot",
+      "continuityScope": [
+        "fgo-lostbelt",
+        "lb1-anastasia"
+      ],
+      "sourceRefs": [
+        "characters/fgo-lb1-lb2-/fragments/lb1-anastasia/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:fgo-lb1-lb2-pilot-char-lb2-gotterdammerung",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-index",
+      "displayName": "lb2-gotterdammerung 角色索引",
+      "sourcePilot": "fgo-lb1-lb2-pilot",
+      "continuityScope": [
+        "fgo-lostbelt",
+        "lb2-gotterdammerung"
+      ],
+      "sourceRefs": [
+        "characters/fgo-lb1-lb2-/fragments/lb2-gotterdammerung/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:fgo-lb5-pilot-char-lb5-1-atlantis",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-index",
+      "displayName": "lb5-1-atlantis 角色索引",
+      "sourcePilot": "fgo-lb5-pilot",
+      "continuityScope": [
+        "fgo-lostbelt",
+        "lb5-1-atlantis"
+      ],
+      "sourceRefs": [
+        "characters/fgo-lb5-/fragments/lb5-1-atlantis/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:fgo-lb5-pilot-char-lb5-2-olympos",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-index",
+      "displayName": "lb5-2-olympos 角色索引",
+      "sourcePilot": "fgo-lb5-pilot",
+      "continuityScope": [
+        "fgo-lostbelt",
+        "lb5-2-olympos"
+      ],
+      "sourceRefs": [
+        "characters/fgo-lb5-/fragments/lb5-2-olympos/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:fgo-lb6-pilot-char-lb6-1-avalon-pre",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-index",
+      "displayName": "lb6-1-avalon-pre 角色索引",
+      "sourcePilot": "fgo-lb6-pilot",
+      "continuityScope": [
+        "fgo-lostbelt",
+        "lb6-1-avalon-pre"
+      ],
+      "sourceRefs": [
+        "characters/fgo-lb6-/fragments/lb6-1-avalon-pre/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:fgo-lb6-pilot-char-lb6-2-round-table-post",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-index",
+      "displayName": "lb6-2-round-table-post 角色索引",
+      "sourcePilot": "fgo-lb6-pilot",
+      "continuityScope": [
+        "fgo-lostbelt",
+        "lb6-2-round-table-post"
+      ],
+      "sourceRefs": [
+        "characters/fgo-lb6-/fragments/lb6-2-round-table-post/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:fgo-ordeal-call-char-oc1-paper-moon",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-index",
+      "displayName": "oc1-paper-moon 实体索引",
+      "sourcePilot": "fgo-ordeal-call-pilot",
+      "continuityScope": [
+        "fgo-ordeal-call",
+        "oc1-paper-moon"
+      ],
+      "sourceRefs": [
+        "characters/fgo-ordeal-call/fragments/oc1-paper-moon/entity-index.json"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:fgo-ordeal-call-char-oc2-id",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-index",
+      "displayName": "oc2-id 实体索引",
+      "sourcePilot": "fgo-ordeal-call-pilot",
+      "continuityScope": [
+        "fgo-ordeal-call",
+        "oc2-id"
+      ],
+      "sourceRefs": [
+        "characters/fgo-ordeal-call/fragments/oc2-id/entity-index.json"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:fgo-ordeal-call-char-oc3-integration",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-index",
+      "displayName": "oc3-integration 实体索引",
+      "sourcePilot": "fgo-ordeal-call-pilot",
+      "continuityScope": [
+        "fgo-ordeal-call",
+        "oc3-integration"
+      ],
+      "sourceRefs": [
+        "characters/fgo-ordeal-call/fragments/oc3-integration/entity-index.json"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:fgo-eor-salem-entity-manifest",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-manifest",
+      "displayName": "Salem 实体清单",
+      "sourcePilot": "fgo-eor-pilot",
+      "continuityScope": [
+        "fgo-epic-of-remnant",
+        "salem"
+      ],
+      "sourceRefs": [
+        "characters/fgo-eor/fragments/entity-manifest.json"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:mooncell-servant-database",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-database",
+      "displayName": "Mooncell FGO 从者数据库 (473 从者)",
+      "sourcePilot": "mooncell-scraper",
+      "continuityScope": [
+        "fgo-all-servants"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/mooncell/index.json",
+        "characters/fgo-part1/mooncell/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:mooncell-class-",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-subset",
+      "displayName": "Mooncell  (18 从者)",
+      "sourcePilot": "mooncell-scraper",
+      "continuityScope": [
+        "fgo-all-servants"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/mooncell/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:mooncell-class-Alterego",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-subset",
+      "displayName": "Mooncell Alterego (19 从者)",
+      "sourcePilot": "mooncell-scraper",
+      "continuityScope": [
+        "fgo-all-servants"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/mooncell/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:mooncell-class-Archer",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-subset",
+      "displayName": "Mooncell Archer (48 从者)",
+      "sourcePilot": "mooncell-scraper",
+      "continuityScope": [
+        "fgo-all-servants"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/mooncell/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:mooncell-class-Assassin",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-subset",
+      "displayName": "Mooncell Assassin (42 从者)",
+      "sourcePilot": "mooncell-scraper",
+      "continuityScope": [
+        "fgo-all-servants"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/mooncell/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:mooncell-class-Avenger",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-subset",
+      "displayName": "Mooncell Avenger (20 从者)",
+      "sourcePilot": "mooncell-scraper",
+      "continuityScope": [
+        "fgo-all-servants"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/mooncell/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:mooncell-class-Beast",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-subset",
+      "displayName": "Mooncell Beast (2 从者)",
+      "sourcePilot": "mooncell-scraper",
+      "continuityScope": [
+        "fgo-all-servants"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/mooncell/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:mooncell-class-BeastⅠ",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-subset",
+      "displayName": "Mooncell BeastⅠ (1 从者)",
+      "sourcePilot": "mooncell-scraper",
+      "continuityScope": [
+        "fgo-all-servants"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/mooncell/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:mooncell-class-BeastⅡ",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-subset",
+      "displayName": "Mooncell BeastⅡ (1 从者)",
+      "sourcePilot": "mooncell-scraper",
+      "continuityScope": [
+        "fgo-all-servants"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/mooncell/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:mooncell-class-BeastⅢ／L",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-subset",
+      "displayName": "Mooncell BeastⅢ／L (1 从者)",
+      "sourcePilot": "mooncell-scraper",
+      "continuityScope": [
+        "fgo-all-servants"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/mooncell/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:mooncell-class-BeastⅢ／R",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-subset",
+      "displayName": "Mooncell BeastⅢ／R (1 从者)",
+      "sourcePilot": "mooncell-scraper",
+      "continuityScope": [
+        "fgo-all-servants"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/mooncell/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:mooncell-class-BeastⅣ",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-subset",
+      "displayName": "Mooncell BeastⅣ (1 从者)",
+      "sourcePilot": "mooncell-scraper",
+      "continuityScope": [
+        "fgo-all-servants"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/mooncell/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:mooncell-class-BeastⅦ",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-subset",
+      "displayName": "Mooncell BeastⅦ (1 从者)",
+      "sourcePilot": "mooncell-scraper",
+      "continuityScope": [
+        "fgo-all-servants"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/mooncell/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:mooncell-class-Berserker",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-subset",
+      "displayName": "Mooncell Berserker (45 从者)",
+      "sourcePilot": "mooncell-scraper",
+      "continuityScope": [
+        "fgo-all-servants"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/mooncell/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:mooncell-class-Caster",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-subset",
+      "displayName": "Mooncell Caster (49 从者)",
+      "sourcePilot": "mooncell-scraper",
+      "continuityScope": [
+        "fgo-all-servants"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/mooncell/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:mooncell-class-Foreigner",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-subset",
+      "displayName": "Mooncell Foreigner (15 从者)",
+      "sourcePilot": "mooncell-scraper",
+      "continuityScope": [
+        "fgo-all-servants"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/mooncell/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:mooncell-class-Grand Caster",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-subset",
+      "displayName": "Mooncell Grand Caster (1 从者)",
+      "sourcePilot": "mooncell-scraper",
+      "continuityScope": [
+        "fgo-all-servants"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/mooncell/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:mooncell-class-Lancer",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-subset",
+      "displayName": "Mooncell Lancer (56 从者)",
+      "sourcePilot": "mooncell-scraper",
+      "continuityScope": [
+        "fgo-all-servants"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/mooncell/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:mooncell-class-MoonCancer",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-subset",
+      "displayName": "Mooncell MoonCancer (11 从者)",
+      "sourcePilot": "mooncell-scraper",
+      "continuityScope": [
+        "fgo-all-servants"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/mooncell/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:mooncell-class-Pretender",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-subset",
+      "displayName": "Mooncell Pretender (12 从者)",
+      "sourcePilot": "mooncell-scraper",
+      "continuityScope": [
+        "fgo-all-servants"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/mooncell/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:mooncell-class-Rider",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-subset",
+      "displayName": "Mooncell Rider (47 从者)",
+      "sourcePilot": "mooncell-scraper",
+      "continuityScope": [
+        "fgo-all-servants"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/mooncell/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:mooncell-class-Ruler",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-subset",
+      "displayName": "Mooncell Ruler (18 从者)",
+      "sourcePilot": "mooncell-scraper",
+      "continuityScope": [
+        "fgo-all-servants"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/mooncell/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:mooncell-class-Saber",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-subset",
+      "displayName": "Mooncell Saber (58 从者)",
+      "sourcePilot": "mooncell-scraper",
+      "continuityScope": [
+        "fgo-all-servants"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/mooncell/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:mooncell-class-Shielder",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-subset",
+      "displayName": "Mooncell Shielder (1 从者)",
+      "sourcePilot": "mooncell-scraper",
+      "continuityScope": [
+        "fgo-all-servants"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/mooncell/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:mooncell-class-UnBeast",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-subset",
+      "displayName": "Mooncell UnBeast (1 从者)",
+      "sourcePilot": "mooncell-scraper",
+      "continuityScope": [
+        "fgo-all-servants"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/mooncell/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
+    },
+    {
+      "nodeId": "record:mooncell-class-Unknown",
+      "nodeType": "representative-record",
+      "recordFamily": "characters",
+      "recordType": "entity-subset",
+      "displayName": "Mooncell Unknown (4 从者)",
+      "sourcePilot": "mooncell-scraper",
+      "continuityScope": [
+        "fgo-all-servants"
+      ],
+      "sourceRefs": [
+        "characters/fgo-part1/mooncell/"
+      ],
+      "candidateOnly": false,
+      "sourceGap": false
     }
   ],
   "edges": [
@@ -558,7 +1448,11 @@
       "edgeType": "registers_formal_source_pilot_group",
       "from": "index:sources",
       "to": "pilot:fgo-lb1-lb2-pilot",
-      "alsoRegisters": ["pilot:fgo-lb3-lb4-pilot", "pilot:fgo-lb5-pilot", "pilot:fgo-lb6-pilot"],
+      "alsoRegisters": [
+        "pilot:fgo-lb3-lb4-pilot",
+        "pilot:fgo-lb5-pilot",
+        "pilot:fgo-lb6-pilot"
+      ],
       "candidateOnly": false,
       "sourceGap": false
     },
@@ -575,7 +1469,11 @@
       "edgeType": "registers_formal_source_pilot_group",
       "from": "index:sources",
       "to": "pilot:kara-no-kyoukai-profile-supplement-pilot",
-      "alsoRegisters": ["pilot:prisma-illya-profile-supplement-pilot", "pilot:lb6-fairy-calendar-supplement-pilot", "pilot:type-moon-core-general-settings-pilot"],
+      "alsoRegisters": [
+        "pilot:prisma-illya-profile-supplement-pilot",
+        "pilot:lb6-fairy-calendar-supplement-pilot",
+        "pilot:type-moon-core-general-settings-pilot"
+      ],
       "candidateOnly": false,
       "sourceGap": false
     },
@@ -608,7 +1506,9 @@
       "edgeType": "has_source_linked_output_group",
       "from": "pilot:kara-no-kyoukai-profile-supplement-pilot",
       "to": "output:profile-supplement-accepted-derived-output",
-      "alsoFrom": ["pilot:prisma-illya-profile-supplement-pilot"],
+      "alsoFrom": [
+        "pilot:prisma-illya-profile-supplement-pilot"
+      ],
       "candidateOnly": false,
       "sourceGap": false
     },
@@ -617,7 +1517,9 @@
       "edgeType": "has_source_linked_boundary_output",
       "from": "index:candidates",
       "to": "output:candidate-and-source-gap-boundary-output",
-      "alsoFrom": ["index:source-gaps"],
+      "alsoFrom": [
+        "index:source-gaps"
+      ],
       "candidateOnly": true,
       "sourceGap": true,
       "candidateOnlyEdge": true,
@@ -661,7 +1563,9 @@
       "edgeType": "record_source_pilot",
       "from": "record:fgo-part1-solomon-mash-kyrielight",
       "to": "pilot:fgo-script-pilot",
-      "sourceRefs": ["fgo-script-pilot/normalized/part1/solomon/characters/mash.fragment.json"],
+      "sourceRefs": [
+        "characters/fgo-part1/mash.fragment.json"
+      ],
       "candidateOnly": false,
       "sourceGap": false
     },
@@ -670,7 +1574,9 @@
       "edgeType": "record_source_pilot",
       "from": "record:fgo-part1-solomon-event-w",
       "to": "pilot:fgo-script-pilot",
-      "sourceRefs": ["fgo-script-pilot/extracted/part1/solomon/events/event-w.json"],
+      "sourceRefs": [
+        "fgo-script-pilot/extracted/part1/solomon/events/event-w.json"
+      ],
       "candidateOnly": false,
       "sourceGap": false
     },
@@ -679,7 +1585,9 @@
       "edgeType": "relationship_record_references_event",
       "from": "record:solomon-fou-mash-restoration",
       "to": "record:fgo-part1-solomon-event-w",
-      "sourceRefs": ["fgo-script-pilot/normalized/part1/solomon/relationships/fou-mash-restoration.json"],
+      "sourceRefs": [
+        "fgo-script-pilot/normalized/part1/solomon/relationships/fou-mash-restoration.json"
+      ],
       "candidateOnly": false,
       "sourceGap": false
     },
@@ -741,36 +1649,56 @@
     {
       "outputGroupId": "fsn-fz-accepted-merged-output",
       "sourcePilot": "fsn-fz-pilot",
-      "artifactRefs": ["fsn-fz-pilot/merged/merged-entities.json", "fsn-fz-pilot/merged/merged-graph.json", "fsn-fz-pilot/merged/merged-timeline.json"],
+      "artifactRefs": [
+        "characters/fsn-fz/merged-entities.json",
+        "characters/fsn-fz/merged-graph.json",
+        "timelines/fsn-fz-timeline.json"
+      ],
       "candidateOnly": false,
       "sourceGap": false
     },
     {
       "outputGroupId": "fgo-script-accepted-graph-output",
       "sourcePilot": "fgo-script-pilot",
-      "artifactRefs": ["fgo-script-pilot/graph/relationship-edge-index.json", "fgo-script-pilot/graph/timeline-graph.json", "fgo-script-pilot/merged/events/part1/"],
+      "artifactRefs": [
+        "graph/fgo-part1/relationship-edge-index.json",
+        "graph/fgo-part1/timeline-graph.json",
+        "events/fgo-part1/"
+      ],
       "candidateOnly": false,
       "sourceGap": false
     },
     {
       "outputGroupId": "fgo-ordeal-call-accepted-minimal-output",
       "sourcePilot": "fgo-ordeal-call-pilot",
-      "artifactRefs": ["fgo-ordeal-call-pilot/graph/derived-index.json", "fgo-ordeal-call-pilot/graph/relationship-edge-index.json", "fgo-ordeal-call-pilot/merged/relationships/edges/ordeal-call/"],
+      "artifactRefs": [
+        "graph/fgo-ordeal-call/derived-index.json",
+        "graph/fgo-ordeal-call/relationship-edge-index.json",
+        "relationships/fgo-ordeal-call/"
+      ],
       "candidateOnly": false,
       "sourceGap": false,
-      "sourceGapLimitations": ["dedicated merged appearance/ability/combat-effect canonical directories absent; packet signal indexes only referenced"]
+      "sourceGapLimitations": [
+        "dedicated merged appearance/ability/combat-effect canonical directories absent; packet signal indexes only referenced"
+      ]
     },
     {
       "outputGroupId": "profile-supplement-accepted-derived-output",
       "sourcePilot": "kara-no-kyoukai-profile-supplement-pilot; prisma-illya-profile-supplement-pilot",
-      "artifactRefs": ["kara-no-kyoukai-profile-supplement-pilot/graph/derived-index.json", "prisma-illya-profile-supplement-pilot/graph/derived-index.json"],
+      "artifactRefs": [
+        "graph/knk-derived-index.json",
+        "graph/prisma-illya-derived-index.json"
+      ],
       "candidateOnly": false,
       "sourceGap": false
     },
     {
       "outputGroupId": "candidate-and-source-gap-boundary-output",
       "sourcePilot": "multiple nonformal or limited pilots",
-      "artifactRefs": ["candidates/index.json", "source-gaps/index.json"],
+      "artifactRefs": [
+        "candidates/index.json",
+        "source-gaps/index.json"
+      ],
       "candidateOnly": true,
       "sourceGap": true,
       "candidateOnlyEdge": true,

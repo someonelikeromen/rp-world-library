@@ -28,107 +28,165 @@
       "relationshipFamilyId": "fsn-fz-formal-relationship-edges",
       "sourcePilot": "fsn-fz-pilot",
       "recordType": "relationship-edge",
-      "continuityScope": ["fate-zero", "fate-stay-night"],
-      "summaryCountRef": "fsn-fz-pilot/merged/index.json#/summaryCounts/relationships",
-      "acceptedArtifactRefs": ["fsn-fz-pilot/merged/merged-graph.json", "fsn-fz-pilot/merged/merged-entities.json"],
-      "requiredMetadataPolicy": ["endpoints", "predicate", "timelineId", "timeRange", "sourceRefs", "sourceType", "credibility", "canonStatus"],
+      "continuityScope": [
+        "fate-zero",
+        "fate-stay-night"
+      ],
+      "summaryCountRef": "characters/fsn-fz/index.json#/summaryCounts/relationships",
+      "acceptedArtifactRefs": [
+        "characters/fsn-fz/merged-graph.json",
+        "characters/fsn-fz/merged-entities.json"
+      ],
+      "requiredMetadataPolicy": [
+        "endpoints",
+        "predicate",
+        "timelineId",
+        "timeRange",
+        "sourceRefs",
+        "sourceType",
+        "credibility",
+        "canonStatus"
+      ],
       "sourceType": "p1-hybrid-local-worldbook-and-story-text",
       "credibility": "B",
       "canonStatus": "canon-like/adapted",
       "candidateOnly": false,
       "sourceGap": false,
-      "auditStatusRef": "fsn-fz-pilot/audit/final-pass-report.json"
+      "auditStatusRef": "STATUS.md#fsn-fz-audit"
     },
     {
       "relationshipFamilyId": "fgo-part1-relationship-edges",
       "sourcePilot": "fgo-script-pilot",
       "recordType": "relationship-edge",
-      "continuityScope": ["fgo-part1"],
-      "acceptedArtifactRefs": ["fgo-script-pilot/normalized/part1/solomon/relationships/", "fgo-script-pilot/graph/relationship-edge-index.json"],
-      "sourceType": "user-file-worldbook-script",
-      "credibility": "B",
-      "canonStatus": "canon-like",
-      "candidateOnly": false,
-      "sourceGap": false,
-      "auditStatusRef": "fgo-script-pilot/STATUS.md"
-    },
-    {
-      "relationshipFamilyId": "fgo-eor-relationship-edges",
-      "sourcePilot": "fgo-eor-pilot",
-      "recordType": "relationship-edge",
-      "continuityScope": ["fgo-epic-of-remnant"],
-      "summaryCounts": {"relationshipEdges": 24},
-      "acceptedArtifactRefs": ["fgo-eor-pilot/merged/relationships/edges/", "fgo-eor-pilot/graph/"],
-      "sourceType": "user-file-worldbook-script",
-      "credibility": "B",
-      "canonStatus": "canon-like",
-      "candidateOnly": false,
-      "sourceGap": false,
-      "auditStatusRef": "fgo-eor-pilot/STATUS.md"
-    },
-    {
-      "relationshipFamilyId": "fgo-lostbelt-relationship-edges",
-      "sourcePilot": "fgo-lb1-lb2-pilot; fgo-lb3-lb4-pilot; fgo-lb5-pilot; fgo-lb6-pilot",
-      "recordType": "relationship-edge",
-      "continuityScope": ["fgo-lostbelt"],
-      "summaryCounts": {"lb1lb2Edges": 14, "lb3lb4Edges": 9, "lb5Edges": 11, "lb6Edges": 21},
+      "continuityScope": [
+        "fgo-part1"
+      ],
       "acceptedArtifactRefs": [
-        "fgo-lb1-lb2-pilot/merged/relationships/edges/lostbelt/",
-        "fgo-lb3-lb4-pilot/merged/relationships/edges/lostbelt/",
-        "fgo-lb5-pilot/merged/relationships/edges/lostbelt/",
-        "fgo-lb6-pilot/merged/relationships/edges/lostbelt/",
-        "fgo-lb1-lb2-pilot/graph/lostbelt/derived-index.json",
-        "fgo-lb3-lb4-pilot/graph/edges/index.json",
-        "fgo-lb5-pilot/graph/lostbelt/temporal-relationship-edge-index.json",
-        "fgo-lb6-pilot/graph/relationship-edge-index.json"
+        "fgo-script-pilot/normalized/part1/solomon/relationships/",
+        "graph/fgo-part1/relationship-edge-index.json"
       ],
       "sourceType": "user-file-worldbook-script",
       "credibility": "B",
       "canonStatus": "canon-like",
       "candidateOnly": false,
       "sourceGap": false,
-      "auditStatusRefs": ["fgo-lb1-lb2-pilot/STATUS.md", "fgo-lb3-lb4-pilot/STATUS.md", "fgo-lb5-pilot/STATUS.md", "fgo-lb6-pilot/STATUS.md"]
+      "auditStatusRef": "STATUS.md#fgo-part1"
     },
     {
-      "relationshipFamilyId": "fgo-ordeal-call-relationship-edges",
-      "sourcePilot": "fgo-ordeal-call-pilot",
+      "relationshipFamilyId": "fgo-eor-relationship-edges",
+      "sourcePilot": "fgo-eor-pilot",
       "recordType": "relationship-edge",
-      "continuityScope": ["fgo-ordeal-call"],
-      "summaryCounts": {"relationshipEdges": 16},
-      "acceptedArtifactRefs": ["fgo-ordeal-call-pilot/merged/relationships/edges/ordeal-call/", "fgo-ordeal-call-pilot/graph/relationship-edge-index.json"],
+      "continuityScope": [
+        "fgo-epic-of-remnant"
+      ],
+      "summaryCounts": {
+        "relationshipEdges": 24
+      },
+      "acceptedArtifactRefs": [
+        "relationships/fgo-eor/edges/",
+        "graph/fgo-eor/"
+      ],
       "sourceType": "user-file-worldbook-script",
       "credibility": "B",
       "canonStatus": "canon-like",
       "candidateOnly": false,
       "sourceGap": false,
-      "auditStatusRef": "fgo-ordeal-call-pilot/STATUS.md",
-      "nonblockingLimitations": ["Accepted minimal merge; packet signal coverage referenced where dedicated canonical signal directories are absent."]
+      "auditStatusRef": "STATUS.md#eor"
+    },
+    {
+      "relationshipFamilyId": "fgo-lostbelt-relationship-edges",
+      "sourcePilot": "fgo-lb1-lb2-pilot; fgo-lb3-lb4-pilot; fgo-lb5-pilot; fgo-lb6-pilot",
+      "recordType": "relationship-edge",
+      "continuityScope": [
+        "fgo-lostbelt"
+      ],
+      "summaryCounts": {
+        "lb1lb2Edges": 14,
+        "lb3lb4Edges": 9,
+        "lb5Edges": 11,
+        "lb6Edges": 21
+      },
+      "acceptedArtifactRefs": [
+        "relationships/fgo-lb1-lb2-/edges/lostbelt/",
+        "relationships/fgo-lb3-lb4-/edges/lostbelt/",
+        "relationships/fgo-lb5-/edges/lostbelt/",
+        "relationships/fgo-lb6-/edges/lostbelt/",
+        "timelines/fgo-lb1-lb2-/lostbelt/index.json",
+        "graph/fgo-lb3-lb4-/edges/index.json",
+        "graph/fgo-lb5-/temporal-relationship-edge-index.json",
+        "graph/fgo-lb6-/relationship-edge-index.json"
+      ],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "auditStatusRefs": [
+        "STATUS.md#lb1-lb2",
+        "STATUS.md#lb3-lb4",
+        "STATUS.md#lb5",
+        "STATUS.md#lb6"
+      ]
+    },
+    {
+      "relationshipFamilyId": "fgo-ordeal-call-relationship-edges",
+      "sourcePilot": "fgo-ordeal-call-pilot",
+      "recordType": "relationship-edge",
+      "continuityScope": [
+        "fgo-ordeal-call"
+      ],
+      "summaryCounts": {
+        "relationshipEdges": 16
+      },
+      "acceptedArtifactRefs": [
+        "relationships/fgo-ordeal-call/",
+        "graph/fgo-ordeal-call/relationship-edge-index.json"
+      ],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "candidateOnly": false,
+      "sourceGap": false,
+      "auditStatusRef": "STATUS.md#ordeal-call",
+      "nonblockingLimitations": [
+        "Accepted minimal merge; packet signal coverage referenced where dedicated canonical signal directories are absent."
+      ]
     },
     {
       "relationshipFamilyId": "kara-no-kyoukai-relationship-signals",
       "sourcePilot": "kara-no-kyoukai-profile-supplement-pilot",
       "recordType": "relationship-signal",
-      "continuityScope": ["kara-no-kyoukai"],
-      "acceptedArtifactRefs": ["kara-no-kyoukai-profile-supplement-pilot/normalized/profile-supplement/ryougi-shiki/relationships/relationship-signals.json", "kara-no-kyoukai-profile-supplement-pilot/graph/derived-index.json"],
+      "continuityScope": [
+        "kara-no-kyoukai"
+      ],
+      "acceptedArtifactRefs": [
+        "characters/knk/profile-supplement/ryougi-shiki/relationships/relationship-signals.json",
+        "graph/knk-derived-index.json"
+      ],
       "sourceType": "user-file-worldbook-profile",
       "credibility": "B",
       "canonStatus": "canon-like/adapted",
       "candidateOnly": false,
       "sourceGap": false,
-      "auditStatusRef": "kara-no-kyoukai-profile-supplement-pilot/STATUS.md"
+      "auditStatusRef": "STATUS.md#knk"
     },
     {
       "relationshipFamilyId": "prisma-illya-relationship-records",
       "sourcePilot": "prisma-illya-profile-supplement-pilot",
       "recordType": "relationship-record",
-      "continuityScope": ["prisma-illya"],
-      "acceptedArtifactRefs": ["prisma-illya-profile-supplement-pilot/normalized/profile-supplement/prisma-illya/relationship-records.json", "prisma-illya-profile-supplement-pilot/graph/derived-index.json"],
+      "continuityScope": [
+        "prisma-illya"
+      ],
+      "acceptedArtifactRefs": [
+        "characters/prisma-illya/profile-supplement/prisma-illya/relationship-records.json",
+        "graph/prisma-illya-derived-index.json"
+      ],
       "sourceType": "user-file-worldbook-profile-redacted",
       "credibility": "B",
       "canonStatus": "canon-like/adapted",
       "candidateOnly": false,
       "sourceGap": false,
-      "auditStatusRef": "prisma-illya-profile-supplement-pilot/STATUS.md",
+      "auditStatusRef": "STATUS.md#prisma-illya",
       "redactionPolicy": "Unsafe and cross-work candidate sections excluded from formal edges."
     }
   ],
@@ -137,14 +195,22 @@
       "recordId": "solomon-fou-mash-restoration",
       "recordType": "relationship-edge",
       "sourcePilot": "fgo-script-pilot",
-      "continuityScope": ["fgo-part1", "fgo-part1-solomon"],
+      "continuityScope": [
+        "fgo-part1",
+        "fgo-part1-solomon"
+      ],
       "timelineId": "fgo-part1-solomon",
       "timeRangeRaw": "事件W / 2016年12月23日 06:45",
       "sourceEndpointRaw": "凯茜帕鲁格[芙芙]",
       "targetEndpointRaw": "玛修·基列莱特",
       "predicateRaw": "牺牲积蓄还原玛修并赐予正常寿命",
-      "eventRefs": ["fgo-part1-solomon-event-w"],
-      "sourceRefs": ["fgo-script-pilot/normalized/part1/solomon/relationships/fou-mash-restoration.json", "fgo-script-pilot/sources/worldbook-script/part1/ch-008-solomon.txt#world_timeline:事件W"],
+      "eventRefs": [
+        "fgo-part1-solomon-event-w"
+      ],
+      "sourceRefs": [
+        "fgo-script-pilot/normalized/part1/solomon/relationships/fou-mash-restoration.json",
+        "fgo-script-pilot/sources/worldbook-script/part1/ch-008-solomon.txt#world_timeline:事件W"
+      ],
       "sourceType": "user-file-worldbook-script",
       "credibility": "B",
       "canonStatus": "canon-like",
@@ -155,10 +221,19 @@
       "recordId": "fgo-ordeal-call-relationship-edge-family",
       "recordType": "relationship-edge-family",
       "sourcePilot": "fgo-ordeal-call-pilot",
-      "continuityScope": ["fgo-ordeal-call", "oc1-paper-moon", "oc2-id", "oc3-integration"],
+      "continuityScope": [
+        "fgo-ordeal-call",
+        "oc1-paper-moon",
+        "oc2-id",
+        "oc3-integration"
+      ],
       "timelineId": "fgo-ordeal-call-derived",
       "timeRangeRaw": "per-edge timeRangeRaw retained in accepted OC edge files",
-      "sourceRefs": ["fgo-ordeal-call-pilot/merged/relationships/edges/ordeal-call/", "fgo-ordeal-call-pilot/graph/relationship-edge-index.json", "fgo-ordeal-call-pilot/STATUS.md"],
+      "sourceRefs": [
+        "relationships/fgo-ordeal-call/",
+        "graph/fgo-ordeal-call/relationship-edge-index.json",
+        "STATUS.md#ordeal-call"
+      ],
       "sourceType": "user-file-worldbook-script",
       "credibility": "B",
       "canonStatus": "canon-like",
@@ -176,7 +251,10 @@
       "candidateOnlyEdge": true,
       "sourceGapEdge": true,
       "formalPromotionBlocked": true,
-      "sourceRefs": ["tsukihime-supporting-cast-candidate-supplement-pilot/candidate-supplement.json", "tsukihime-supporting-cast-candidate-supplement-pilot/source-gap-inventory.json"]
+      "sourceRefs": [
+        "tsukihime-supporting-cast-candidate-supplement-pilot/candidate-supplement.json",
+        "tsukihime-supporting-cast-candidate-supplement-pilot/source-gap-inventory.json"
+      ]
     },
     {
       "boundaryId": "candidate:atlas-sion-human-scope-candidate",
@@ -188,7 +266,10 @@
       "candidateOnlyEdge": true,
       "sourceGapEdge": true,
       "formalPromotionBlocked": true,
-      "sourceRefs": ["type-moon-core-general-settings-pilot/source-gap-inventory.json", "type-moon-core-general-settings-pilot/normalized/core-general-settings/index.json#atlas-and-sion-candidate-context"]
+      "sourceRefs": [
+        "type-moon-core-general-settings-pilot/source-gap-inventory.json",
+        "rules/core-general-settings/index.json#atlas-and-sion-candidate-context"
+      ]
     },
     {
       "boundaryId": "candidate:prisma-sitonai-shidounai-cross-work",
@@ -200,7 +281,9 @@
       "candidateOnlyEdge": true,
       "sourceGapEdge": true,
       "formalPromotionBlocked": true,
-      "sourceRefs": ["prisma-illya-profile-supplement-pilot/normalized/profile-supplement/prisma-illya/source-gap-index.json#prisma-sitonai-cross-work"]
+      "sourceRefs": [
+        "characters/prisma-illya/profile-supplement/prisma-illya/source-gap-index.json#prisma-sitonai-cross-work"
+      ]
     },
     {
       "boundaryId": "source-gap:ordeal-call-signal-coverage-gap",
@@ -210,7 +293,10 @@
       "sourceGap": true,
       "sourceGapEdge": true,
       "formalPromotionBlocked": false,
-      "sourceRefs": ["fgo-ordeal-call-pilot/normalized/ordeal-call/*/signal-index.json", "fgo-ordeal-call-pilot/STATUS.md"]
+      "sourceRefs": [
+        "normalized/fgo-ordeal-call/*/signal-index.json",
+        "STATUS.md#ordeal-call"
+      ]
     },
     {
       "boundaryId": "source-gap:held-profile-pilots",
@@ -220,16 +306,37 @@
       "sourceGap": true,
       "sourceGapEdge": true,
       "formalPromotionBlocked": true,
-      "sourceRefs": ["tsukihime-dead-apostle-profile-supplement-pilot/audit/final/final-status.json", "mahoyo-profile-supplement-pilot/STATUS.md"]
+      "sourceRefs": [
+        "tsukihime-dead-apostle-profile-supplement-pilot/audit/final/final-status.json",
+        "mahoyo-profile-supplement-pilot/STATUS.md"
+      ]
     }
   ],
   "excludedRelationshipSurfaces": [
-    {"recordId": "atlas-and-sion-candidate-context", "reason": "candidateOnly/sourceGap/human-scope; needs Melty-specific corroboration"},
-    {"recordId": "prisma-sitonai-cross-work", "reason": "candidateOnly/sourceGap cross-work identity surface"},
-    {"pilotId": "tsukihime-supporting-cast-candidate-supplement-pilot", "reason": "candidate-only/source-gap; no formal relationships"},
-    {"pilotId": "fate-spinoff-profile-supplement-pilot", "reason": "blocked-insufficient-source inventory-only"},
-    {"pilotId": "tsukihime-dead-apostle-profile-supplement-pilot", "reason": "hold pending separate final audit"},
-    {"pilotId": "mahoyo-profile-supplement-pilot", "reason": "hold pending read-only auditor rerun"}
+    {
+      "recordId": "atlas-and-sion-candidate-context",
+      "reason": "candidateOnly/sourceGap/human-scope; needs Melty-specific corroboration"
+    },
+    {
+      "recordId": "prisma-sitonai-cross-work",
+      "reason": "candidateOnly/sourceGap cross-work identity surface"
+    },
+    {
+      "pilotId": "tsukihime-supporting-cast-candidate-supplement-pilot",
+      "reason": "candidate-only/source-gap; no formal relationships"
+    },
+    {
+      "pilotId": "fate-spinoff-profile-supplement-pilot",
+      "reason": "blocked-insufficient-source inventory-only"
+    },
+    {
+      "pilotId": "tsukihime-dead-apostle-profile-supplement-pilot",
+      "reason": "hold pending separate final audit"
+    },
+    {
+      "pilotId": "mahoyo-profile-supplement-pilot",
+      "reason": "hold pending read-only auditor rerun"
+    }
   ],
   "coverageSummary": {
     "formalRelationshipFamilyCount": 7,

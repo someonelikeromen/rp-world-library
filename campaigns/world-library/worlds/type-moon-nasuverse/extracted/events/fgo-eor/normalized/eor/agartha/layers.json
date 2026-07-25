@@ -1,0 +1,18 @@
+{
+  "schema":"tm-fgo-normalized-layer-summary-v1",
+  "chapterId":"fgo-eor-agartha",
+  "sourceType":"user-file-worldbook-script",
+  "credibility":"B",
+  "canonStatus":"canon-like",
+  "sourceRefs":[{"path":"sources/worldbook-script/eor/ch-090-agartha.txt","lineStart":19,"lineEnd":108}],
+  "counts":{"events":17,"dialogueQuotes":32,"stageCharacters":13,"appearanceSignals":9,"abilitySignals":10,"combatEffectSignals":12,"notFoundMarkers":5},
+  "mandatoryLayerStatus":[
+    {"layer":"appearance/outfit/equipment","status":"present-with-not-found-coverage","recordsRef":"extracted/eor/agartha/appearance-signals/index.json","notFoundRef":"extracted/eor/agartha/not-found-in-source/index.json","sourceRefs":[{"lineStart":21,"lineEnd":108}],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"},
+    {"layer":"ability/noble_phantasm/skill","status":"present-with-not-found-coverage","recordsRef":"extracted/eor/agartha/ability-signals/index.json","notFoundRef":"extracted/eor/agartha/not-found-in-source/index.json","sourceRefs":[{"lineStart":26,"lineEnd":108}],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"},
+    {"layer":"combat-effects","status":"present-with-not-found-coverage","recordsRef":"extracted/eor/agartha/combat-effect-signals/index.json","notFoundRef":"extracted/eor/agartha/not-found-in-source/index.json","sourceRefs":[{"lineStart":52,"lineEnd":108}],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"}
+  ],
+  "sourceFirstDecisions":[
+    {"id":"agartha-decision-001","decision":"No old curated/wiki/game-memory facts used; only line-addressable ch-090 source and packet metadata used.","sourceRefs":[{"lineStart":1,"lineEnd":108}],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"},
+    {"id":"agartha-decision-002","decision":"Stage-character system判定 text treated as engine instruction only, not canon fact.","sourceRefs":[{"lineStart":32,"lineEnd":32}],"sourceType":"user-file-worldbook-script","credibility":"B","canonStatus":"canon-like"}
+  ]
+}

@@ -13,21 +13,31 @@
       "familyId": "fsn-fz-items-and-ability-concepts",
       "sourcePilot": "fsn-fz-pilot",
       "recordType": "item-or-ability-concept",
-      "continuityScope": ["fate-zero", "fate-stay-night"],
-      "summaryCountRef": "fsn-fz-pilot/merged/index.json#/summaryCounts/abilitiesSystemsConcepts",
-      "acceptedArtifactRefs": ["fsn-fz-pilot/merged/merged-entities.json"],
+      "continuityScope": [
+        "fate-zero",
+        "fate-stay-night"
+      ],
+      "summaryCountRef": "characters/fsn-fz/index.json#/summaryCounts/abilitiesSystemsConcepts",
+      "acceptedArtifactRefs": [
+        "characters/fsn-fz/merged-entities.json"
+      ],
       "sourceType": "p1-hybrid-local-worldbook-and-story-text",
       "credibility": "B",
       "canonStatus": "canon-like/adapted",
       "candidateOnly": false,
       "sourceGap": false,
-      "auditStatusRef": "fsn-fz-pilot/audit/final-pass-report.json"
+      "auditStatusRef": "STATUS.md#fsn-fz-audit"
     },
     {
       "familyId": "fgo-equipment-appearance-and-combat-signals",
       "sourcePilot": "fgo-script-pilot; fgo-eor-pilot; fgo-lb1-lb2-pilot; fgo-lb3-lb4-pilot; fgo-lb5-pilot; fgo-lb6-pilot; fgo-ordeal-call-pilot",
       "recordType": "equipment-or-combat-signal",
-      "continuityScope": ["fgo-part1", "fgo-epic-of-remnant", "fgo-lostbelt", "fgo-ordeal-call"],
+      "continuityScope": [
+        "fgo-part1",
+        "fgo-epic-of-remnant",
+        "fgo-lostbelt",
+        "fgo-ordeal-call"
+      ],
       "acceptedArtifactRefs": [
         "fgo-script-pilot/merged/appearances/",
         "fgo-script-pilot/merged/combat-effects/",
@@ -41,48 +51,80 @@
         "fgo-lb5-pilot/merged/combat-effects/",
         "fgo-lb6-pilot/merged/appearances/",
         "fgo-lb6-pilot/merged/combat-effects/",
-        "fgo-ordeal-call-pilot/normalized/ordeal-call/*/signal-index.json"
+        "normalized/fgo-ordeal-call/*/signal-index.json"
       ],
       "sourceType": "user-file-worldbook-script",
       "credibility": "B",
       "canonStatus": "canon-like",
       "candidateOnly": false,
       "sourceGap": false,
-      "auditStatusRefs": ["fgo-script-pilot/STATUS.md", "fgo-eor-pilot/STATUS.md", "fgo-lb1-lb2-pilot/STATUS.md", "fgo-lb3-lb4-pilot/STATUS.md", "fgo-lb5-pilot/STATUS.md", "fgo-lb6-pilot/STATUS.md", "fgo-ordeal-call-pilot/STATUS.md"],
-      "nonblockingLimitations": ["Ordeal Call canonical merged signal directories are absent; packet-layer signal indexes only are referenced."]
+      "auditStatusRefs": [
+        "STATUS.md#fgo-part1",
+        "STATUS.md#eor",
+        "STATUS.md#lb1-lb2",
+        "STATUS.md#lb3-lb4",
+        "STATUS.md#lb5",
+        "STATUS.md#lb6",
+        "STATUS.md#ordeal-call"
+      ],
+      "nonblockingLimitations": [
+        "Ordeal Call canonical merged signal directories are absent; packet-layer signal indexes only are referenced."
+      ]
     },
     {
       "familyId": "kara-no-kyoukai-outfit-and-systems-items",
       "sourcePilot": "kara-no-kyoukai-profile-supplement-pilot",
       "recordType": "outfit-visual-or-system-record",
-      "continuityScope": ["kara-no-kyoukai"],
-      "acceptedArtifactRefs": ["kara-no-kyoukai-profile-supplement-pilot/normalized/profile-supplement/ryougi-shiki/appearance/outfit-visual-profile.json", "kara-no-kyoukai-profile-supplement-pilot/normalized/profile-supplement/ryougi-shiki/systems/abilities-systems.json"],
+      "continuityScope": [
+        "kara-no-kyoukai"
+      ],
+      "acceptedArtifactRefs": [
+        "characters/knk/profile-supplement/ryougi-shiki/appearance/outfit-visual-profile.json",
+        "characters/knk/profile-supplement/ryougi-shiki/systems/abilities-systems.json"
+      ],
       "sourceType": "user-file-worldbook-profile",
       "credibility": "B",
       "canonStatus": "canon-like/adapted",
       "candidateOnly": false,
       "sourceGap": false,
-      "auditStatusRef": "kara-no-kyoukai-profile-supplement-pilot/STATUS.md"
+      "auditStatusRef": "STATUS.md#knk"
     },
     {
       "familyId": "prisma-illya-cards-and-mechanics-redacted",
       "sourcePilot": "prisma-illya-profile-supplement-pilot",
       "recordType": "mechanics-or-item-record-redacted",
-      "continuityScope": ["prisma-illya"],
-      "acceptedArtifactRefs": ["prisma-illya-profile-supplement-pilot/normalized/profile-supplement/prisma-illya/world-mechanics.json", "prisma-illya-profile-supplement-pilot/extracted/profile-supplement/prisma-illya/records/world-mechanics-and-locations.json"],
+      "continuityScope": [
+        "prisma-illya"
+      ],
+      "acceptedArtifactRefs": [
+        "characters/prisma-illya/profile-supplement/prisma-illya/world-mechanics.json",
+        "prisma-illya-profile-supplement-pilot/extracted/profile-supplement/prisma-illya/records/world-mechanics-and-locations.json"
+      ],
       "sourceType": "user-file-worldbook-profile-redacted",
       "credibility": "B",
       "canonStatus": "canon-like/adapted",
       "candidateOnly": false,
       "sourceGap": false,
-      "auditStatusRef": "prisma-illya-profile-supplement-pilot/STATUS.md",
+      "auditStatusRef": "STATUS.md#prisma-illya",
       "redactionPolicy": "Unsafe underage adult-content excluded; no unredacted raw character-card import published."
     }
   ],
   "excludedFromFormalItemIndex": [
-    {"pilotId": "mahoyo-profile-supplement-pilot", "reason": "hold pending auditor rerun"},
-    {"pilotId": "tsukihime-dead-apostle-profile-supplement-pilot", "reason": "hold pending separate final audit"},
-    {"pilotId": "tsukihime-supporting-cast-candidate-supplement-pilot", "reason": "candidate/source-gap only"},
-    {"candidateType": "unsupported-external-label", "reason": "unsupported aliases and legacy path slugs are not formal item labels"}
+    {
+      "pilotId": "mahoyo-profile-supplement-pilot",
+      "reason": "hold pending auditor rerun"
+    },
+    {
+      "pilotId": "tsukihime-dead-apostle-profile-supplement-pilot",
+      "reason": "hold pending separate final audit"
+    },
+    {
+      "pilotId": "tsukihime-supporting-cast-candidate-supplement-pilot",
+      "reason": "candidate/source-gap only"
+    },
+    {
+      "candidateType": "unsupported-external-label",
+      "reason": "unsupported aliases and legacy path slugs are not formal item labels"
+    }
   ]
 }

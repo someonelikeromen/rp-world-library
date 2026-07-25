@@ -1,0 +1,36 @@
+{
+  "schema": "tm-knk-profile-supplement-index-v1",
+  "recordId": "ryougi-shiki-profile-supplement-index",
+  "status": "generated-pending-audit",
+  "entityName": "两仪式 / Ryougi Shiki",
+  "sourceRefs": ["src-dlc-ryougi-shiki", "src-tm-summary-root", "src-tm-summary-mystic-eyes-death-perception"],
+  "sourceType": "local-imported-worldbook-profile-plus-setting-cross-check",
+  "credibility": "medium-local-worldbook-explicit-with-medium-low-cross-check",
+  "canonStatus": "secondary-summary-not-primary-canon",
+  "continuity": ["original", "future-gospel", "type-moon-general"],
+  "candidateOnly": false,
+  "sourceGap": false,
+  "records": {
+    "identity": "identity/profile-core.json",
+    "appearance": "appearance/outfit-visual-profile.json",
+    "systems": "systems/abilities-systems.json",
+    "chronology": "chronology/event-sequence-records.json",
+    "relationships": "relationships/relationship-signals.json"
+  },
+  "sourceLayer": "extracted/profile-supplement/ryougi-shiki/source-signal-extraction.json",
+  "mergedLayer": "merged/profile-records/ryougi-shiki/side-by-side-profile-records.json",
+  "derivedIndexes": [
+    "timeline/derived-index.json",
+    "graph/derived-index.json"
+  ],
+  "sourceCoverage": {
+    "explicitKnKMaterial": true,
+    "profileCoverage": ["identity", "appearance", "abilities", "chronology", "relationships"],
+    "gaps": ["primary-canon adjudication", "full KnK supporting cast expansion", "formal graph/timeline aggregation outside derived-only indexes"]
+  },
+  "notes": [
+    "This index links the extracted layer, normalized record set, and side-by-side merged outputs.",
+    "FGO and other crossover references remain candidate-only unless explicitly expanded in a later pilot packet."
+  ],
+  "forbiddenBasenameAvoidance": ["characters.json", "events.json", "relationships.json", "facts.json", "graph.json", "timeline.json"]
+}

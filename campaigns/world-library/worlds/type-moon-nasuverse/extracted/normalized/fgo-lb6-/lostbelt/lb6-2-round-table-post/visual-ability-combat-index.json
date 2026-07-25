@@ -1,0 +1,19 @@
+{
+  "schema": "tm-fgo-normalized-visual-ability-combat-index-v1",
+  "chapterId": "fgo-lb6-2-round-table-post",
+  "appearanceSignalCount": 12,
+  "abilitySignalCount": 16,
+  "combatEffectSignalCount": 18,
+  "notFoundRecordCount": 6,
+  "sourceFiles": {
+    "appearanceSignals": "extracted/lostbelt/lb6-2-round-table-post/appearance-signals/source-visual-signals.json",
+    "abilitySignals": "extracted/lostbelt/lb6-2-round-table-post/ability-signals/source-ability-signals.json",
+    "combatEffectSignals": "extracted/lostbelt/lb6-2-round-table-post/combat-effect-signals/source-combat-effects.json",
+    "notFound": "extracted/lostbelt/lb6-2-round-table-post/not-found-in-source/mandatory-missing-details.json"
+  },
+  "coverageRaw": "Source-backed visual, outfit/equipment, magecraft/authority/skill-like activation, transformation/summoning, and combat effect records were indexed. Character physical appearance, outfit shape/color/material, formal Noble Phantasm names/chants, combat animation detail, and explicit raw time for events C-L are recorded as not-found or partial-not-found in current source.",
+  "sourceRefs": ["extracted/lostbelt/lb6-2-round-table-post/appearance-signals/source-visual-signals.json", "extracted/lostbelt/lb6-2-round-table-post/ability-signals/source-ability-signals.json", "extracted/lostbelt/lb6-2-round-table-post/combat-effect-signals/source-combat-effects.json", "extracted/lostbelt/lb6-2-round-table-post/not-found-in-source/mandatory-missing-details.json"],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

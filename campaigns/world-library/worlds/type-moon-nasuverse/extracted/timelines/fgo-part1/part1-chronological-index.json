@@ -1,0 +1,17 @@
+{
+  "schema": "tm-fgo-part1-timeline-index-v1",
+  "purpose": "Reference-only chronological index. Event facts remain in per-event shards; this file must not be treated as a formal events aggregate.",
+  "chapterOrder": [
+    {"chapterOrder": 0, "chapterKey": "fuyuki", "chapterId": "fgo-part1-fuyuki", "eventGlob": "extracted/part1/fuyuki/events/*.json", "eventCount": 11, "orderRange": [0, 10]},
+    {"chapterOrder": 1, "chapterKey": "orleans", "chapterId": "fgo-part1-orleans", "eventGlob": "extracted/part1/orleans/events/*.json", "eventCount": 16, "orderRange": [0, 15]},
+    {"chapterOrder": 2, "chapterKey": "septem", "chapterId": "fgo-part1-septem", "eventGlob": "extracted/part1/septem/events/*.json", "eventCount": 16, "orderRange": [0, 15]},
+    {"chapterOrder": 3, "chapterKey": "okeanos", "chapterId": "fgo-part1-okeanos", "eventGlob": "extracted/part1/okeanos/events/*.json", "eventCount": 14, "orderRange": [0, 13]},
+    {"chapterOrder": 4, "chapterKey": "london", "chapterId": "fgo-part1-london", "eventGlob": "extracted/part1/london/events/*.json", "eventCount": 14, "orderRange": [0, 13]},
+    {"chapterOrder": 5, "chapterKey": "america", "chapterId": "fgo-part1-america", "eventGlob": "extracted/part1/america/events/*.json", "eventCount": 23, "orderRange": [0, 22]},
+    {"chapterOrder": 6, "chapterKey": "camelot", "chapterId": "fgo-part1-camelot", "eventGlob": "extracted/part1/camelot/events/*.json", "eventCount": 33, "orderRange": [0, 32]},
+    {"chapterOrder": 7, "chapterKey": "babylonia", "chapterId": "fgo-part1-babylonia", "eventGlob": "extracted/part1/babylonia/events/*.json", "eventCount": 23, "orderRange": [0, 22]},
+    {"chapterOrder": 8, "chapterKey": "solomon", "chapterId": "fgo-part1-solomon", "eventGlob": "extracted/part1/solomon/events/*.json", "eventCount": 23, "orderRange": [0, 22]}
+  ],
+  "totalEvents": 173,
+  "orderingPolicy": "Sort by chapterOrder, then event orderIndex inside the event shard. Preserve rawEventCode exactly, including duplicate Orleans 事件N."
+}

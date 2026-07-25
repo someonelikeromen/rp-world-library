@@ -1,0 +1,18 @@
+{
+  "schema": "tm-fgo-canonical-chapter-entity-v1",
+  "entityId": "chapter:fgo-part1-orleans",
+  "chapterKey": "orleans",
+  "chapterId": "fgo-part1-orleans",
+  "chapterOrder": 1,
+  "title": "邪龙百年战争 奥尔良",
+  "factRefs": {
+    "worldState": "extracted/part1/orleans/world-state.json",
+    "events": "extracted/part1/orleans/events/*.json",
+    "characterFragments": "normalized/part1/orleans/characters/*.fragment.json",
+    "relationships": "normalized/part1/orleans/relationships/*.json",
+    "packetStatus": "audit/packet-audits/part1/orleans/final-status.json"
+  },
+  "counts": {"events": 16, "characterFragments": 16, "relationships": 8, "worldStates": 1},
+  "status": "passed",
+  "sourceDefectsPreserved": ["duplicate raw event code 事件N with two occurrences", "absent raw 事件M"]
+}

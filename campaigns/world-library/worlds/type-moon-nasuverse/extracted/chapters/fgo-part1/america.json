@@ -1,0 +1,17 @@
+{
+  "schema": "tm-fgo-canonical-chapter-entity-v1",
+  "entityId": "chapter:fgo-part1-america",
+  "chapterKey": "america",
+  "chapterId": "fgo-part1-america",
+  "chapterOrder": 5,
+  "title": "北美神话大战 合众为一",
+  "factRefs": {
+    "worldState": "extracted/part1/america/world-state.json",
+    "events": "extracted/part1/america/events/*.json",
+    "characterFragments": "normalized/part1/america/characters/*.fragment.json",
+    "relationships": "normalized/part1/america/relationships/*.json",
+    "packetStatus": "audit/packet-audits/part1/america/final-status.json"
+  },
+  "counts": {"events": 23, "characterFragments": 25, "relationships": 12, "worldStates": 1},
+  "status": "passed"
+}

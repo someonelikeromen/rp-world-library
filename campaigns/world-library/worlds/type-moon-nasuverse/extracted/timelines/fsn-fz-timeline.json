@@ -1,0 +1,92 @@
+{
+  "schema": "tm-p1-merged-timeline-v1",
+  "worldId": "type-moon-nasuverse",
+  "scope": "fsn-fz-pilot",
+  "generatedAt": "2026-07-12",
+  "model": "lt-yuyu/gpt-5.5",
+  "sourceInputs": [
+    "waves/wave-012/output/events.json",
+    "waves/wave-009/output/events.json",
+    "waves/wave-010/output/events.json",
+    "waves/wave-011/output/events.json",
+    "waves/wave-015/output/timeline-skeleton.json",
+    "waves/wave-016/output/event-time-review.json"
+  ],
+  "orderIndexBands": { "fz-fourth-war": "000-099", "fsn-main": "100-199", "fsn-fate-route": "200-299", "fsn-ubw-route": "300-399", "fsn-hf-route": "400-499", "epilogues": "900-999" },
+  "datePolicy": {
+    "fz-fourth-war": "Use exact timestamp values where Fate/Zero source provides them.",
+    "fsn-routes": "Use relative-only route days; no calendar dates invented.",
+    "epilogues": "Use 900-999 order band for route endings and Last Episode/ending variants."
+  },
+  "timelines": [
+    {
+      "timelineId": "fz-fourth-war",
+      "name": "Fate/Zero and Fourth Holy Grail War",
+      "continuity": "fz",
+      "orderRange": { "start": 0, "end": 99 },
+      "events": [
+        { "eventId": "fz-evt-001-prewar-command-spells-and-family-setup", "orderStart": 0, "orderEnd": 9, "precision": "relative-only", "summary": "Prewar command spells, Kirei/Tokiomi preparation, Sakura transfer to Matou." },
+        { "eventId": "fz-evt-002-summonings-and-war-opening", "orderStart": 10, "orderEnd": 19, "precision": "YYYY-MM-DDTHH:mm:ss", "summary": "Waver receives Command Spell, principal Servants summoned, Ryunosuke summons Caster and Fourth War opens." },
+        { "eventId": "fz-evt-003-first-harbor-battle-and-kayneth-hotel-destruction", "orderStart": 20, "orderEnd": 24, "precision": "YYYY-MM-DDTHH:mm:ss", "summary": "First harbor battle, Caster meets Saber, Kayneth hotel destroyed." },
+        { "eventId": "fz-evt-004-caster-extermination-banquet-and-assassin-wipeout", "orderStart": 25, "orderEnd": 34, "precision": "YYYY-MM-DDTHH:mm:ss", "summary": "Caster priority order, Einzbern Castle battle, banquet, Assassin eliminated." },
+        { "eventId": "fz-evt-005-mion-river-caster-operation-and-lancer-elimination", "orderStart": 35, "orderEnd": 42, "precision": "YYYY-MM-DDTHH:mm:ss", "summary": "Mion River Caster operation and Lancer team elimination." },
+        { "eventId": "fz-evt-006-kirei-betrayal-irisviel-kidnapping-and-kariya-breakdown", "orderStart": 43, "orderEnd": 52, "precision": "YYYY-MM-DDTHH:mm:ss", "summary": "Kirei kills Tokiomi, contracts Gilgamesh, Irisviel is kidnapped, Kariya breaks down." },
+        { "eventId": "fz-evt-007-final-night-battles-and-grail-destruction", "orderStart": 55, "orderEnd": 70, "precision": "YYYY-MM-DDTHH:mm:ss", "summary": "Final night battles and Grail destruction." },
+        { "eventId": "fz-evt-008-postwar-fsn-causal-bridge", "orderStart": 80, "orderEnd": 99, "precision": "mixed exact/year", "summary": "Kirei/Gilgamesh survive, Shirou is rescued, Kiritsugu dies later from curse." }
+      ]
+    },
+    {
+      "timelineId": "fsn-fate-route",
+      "name": "Fate route",
+      "continuity": "fsn",
+      "orderRange": { "start": 200, "end": 299 },
+      "events": [
+        { "eventId": "fate-evt-001-rin-prologue-and-shirou-rescue", "orderStart": 200, "orderEnd": 203, "precision": "relative-only" },
+        { "eventId": "fate-evt-002-shirou-summons-saber-and-enters-war", "orderStart": 204, "orderEnd": 208, "precision": "relative-only" },
+        { "eventId": "fate-evt-003-alliance-training-and-ryuudou-investigation", "orderStart": 210, "orderEnd": 218, "precision": "relative-only" },
+        { "eventId": "fate-evt-004-rider-school-and-skyscraper-defeat", "orderStart": 220, "orderEnd": 228, "precision": "relative-only" },
+        { "eventId": "fate-evt-005-einzbern-berserker-and-caliburn", "orderStart": 230, "orderEnd": 238, "precision": "relative-only" },
+        { "eventId": "fate-evt-006-saber-wish-and-gilgamesh-reveal", "orderStart": 240, "orderEnd": 248, "precision": "relative-only" },
+        { "eventId": "fate-evt-007-finale-church-ryuudou-grail-destruction", "orderStart": 250, "orderEnd": 260, "precision": "relative-only" },
+        { "eventId": "fate-evt-008-true-end-and-last-episode", "orderStart": 900, "orderEnd": 910, "precision": "relative-only" }
+      ]
+    },
+    {
+      "timelineId": "fsn-ubw-route",
+      "name": "Unlimited Blade Works route",
+      "continuity": "fsn",
+      "orderRange": { "start": 300, "end": 399 },
+      "events": [
+        { "eventId": "ubw-evt-001-opening-divergence-and-berserker-retreat", "orderStart": 300, "orderEnd": 306, "precision": "relative-only" },
+        { "eventId": "ubw-evt-002-caster-investigation-rider-death-and-archer-hostility", "orderStart": 308, "orderEnd": 318, "precision": "relative-only" },
+        { "eventId": "ubw-evt-003-kuzuki-caster-identity-and-shirou-projection", "orderStart": 320, "orderEnd": 330, "precision": "relative-only" },
+        { "eventId": "ubw-evt-004-caster-seizes-saber-and-archer-betrays-rin", "orderStart": 332, "orderEnd": 342, "precision": "relative-only" },
+        { "eventId": "ubw-evt-005-illya-killed-and-lancer-alliance", "orderStart": 344, "orderEnd": 350, "precision": "relative-only" },
+        { "eventId": "ubw-evt-006-church-battle-archer-identity-and-rin-abduction", "orderStart": 352, "orderEnd": 362, "precision": "relative-only" },
+        { "eventId": "ubw-evt-007-einzbern-ideal-duel-and-grail-vessel-reveal", "orderStart": 364, "orderEnd": 376, "precision": "relative-only" },
+        { "eventId": "ubw-evt-008-ryuudou-final-gilgamesh-defeat-and-endings", "orderStart": 378, "orderEnd": 910, "precision": "relative-only" }
+      ]
+    },
+    {
+      "timelineId": "fsn-hf-route",
+      "name": "Heaven's Feel route",
+      "continuity": "fsn",
+      "orderRange": { "start": 400, "end": 499 },
+      "events": [
+        { "eventId": "hf-evt-001-sakura-focus-and-war-opening", "orderStart": 400, "orderEnd": 408, "precision": "relative-only" },
+        { "eventId": "hf-evt-002-zouken-and-shadow-enter-war", "orderStart": 410, "orderEnd": 424, "precision": "relative-only" },
+        { "eventId": "hf-evt-003-shadow-escalation-and-saber-alter", "orderStart": 426, "orderEnd": 438, "precision": "relative-only" },
+        { "eventId": "hf-evt-004-school-sakura-reveal-and-shirou-choice", "orderStart": 440, "orderEnd": 450, "precision": "relative-only" },
+        { "eventId": "hf-evt-005-einzbern-battle-archer-arm-transfer", "orderStart": 452, "orderEnd": 464, "precision": "relative-only" },
+        { "eventId": "hf-evt-006-sakura-shadow-identity-and-black-sakura", "orderStart": 466, "orderEnd": 482, "precision": "relative-only" },
+        { "eventId": "hf-evt-007-kirei-alliance-nine-lives-and-jewel-sword", "orderStart": 484, "orderEnd": 494, "precision": "relative-only" },
+        { "eventId": "hf-evt-008-great-cavern-final-battle-and-endings", "orderStart": 496, "orderEnd": 920, "precision": "relative-only" }
+      ]
+    }
+  ],
+  "crossRouteAlignment": [
+    { "alignmentId": "align-common-day3-saber-summon", "sharedStage": "FSN day 3 Saber summoning crisis", "timelineIds": ["fsn-main", "fsn-fate-route", "fsn-ubw-route", "fsn-hf-route"] },
+    { "alignmentId": "align-route-final-day15-16", "sharedStage": "route final confrontations", "timelineIds": ["fsn-fate-route", "fsn-ubw-route", "fsn-hf-route"] }
+  ],
+  "auditDecision": "Timeline passed: every formal route/FZ event set contains start/end time and timelineNodes in source waves; FSN absolute dates were not invented."
+}

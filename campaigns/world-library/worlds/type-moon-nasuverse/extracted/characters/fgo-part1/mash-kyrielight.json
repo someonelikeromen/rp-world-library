@@ -1,0 +1,23 @@
+{
+  "schema": "tm-fgo-canonical-character-entity-v1",
+  "entityId": "character:mash-kyrielight",
+  "canonicalName": "玛修/玛修·基列莱特",
+  "mergeStatus": "canonicalized-with-aliases",
+  "fragmentRefs": [
+    "normalized/part1/fuyuki/characters/mash-kyrielight.fragment.json",
+    "normalized/part1/orleans/characters/mash-kyrielight.fragment.json",
+    "normalized/part1/septem/characters/mash-kyrielight.fragment.json",
+    "normalized/part1/okeanos/characters/mash.fragment.json",
+    "normalized/part1/london/characters/mash-kyrielight.fragment.json",
+    "normalized/part1/america/characters/mash-kyrielight.fragment.json",
+    "normalized/part1/camelot/characters/mash.fragment.json",
+    "normalized/part1/babylonia/characters/mash.fragment.json",
+    "normalized/part1/solomon/characters/mash.fragment.json"
+  ],
+  "chapterCoverage": ["fuyuki", "orleans", "septem", "okeanos", "london", "america", "camelot", "babylonia", "solomon"],
+  "appearanceRefs": ["merged/appearances/part1/fuyuki/records.json#fuyuki-appearance-mash-shield", "merged/appearances/part1/camelot/records.json#camelot-appearance-mash-round-table-shield"],
+  "abilityRefs": ["merged/abilities/part1/fuyuki/records.json#fuyuki-ability-mash-lord-chaldeas", "merged/abilities/part1/camelot/records.json#camelot-ability-mash-galahad-true-name"],
+  "combatEffectRefs": ["merged/combat-effects/part1/fuyuki/records.json#fuyuki-combat-mash-pseudo-np-defense", "merged/combat-effects/part1/septem/records.json#septem-combat-mash-intercepts-god-whip", "merged/combat-effects/part1/camelot/records.json#camelot-combat-mash-blocks-holy-lance", "merged/combat-effects/part1/solomon/records.json#solomon-combat-mash-blocks-light-band"],
+  "aliasDecision": "mash.fragment.json and mash-kyrielight.fragment.json are treated as one entity for Part 1 merge.",
+  "notes": ["Alias normalization is backed by continuous companion role across packet fragments."]
+}

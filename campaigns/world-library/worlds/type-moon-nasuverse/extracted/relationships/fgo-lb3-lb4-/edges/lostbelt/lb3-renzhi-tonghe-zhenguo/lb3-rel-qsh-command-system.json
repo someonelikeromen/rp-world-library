@@ -1,0 +1,41 @@
+{
+  "schema": "tm-fgo-merged-relationship-edge-v1",
+  "record": {
+    "edgeId": "lb3-rel-qsh-command-system",
+    "chapterId": "fgo-lb3-renzhi-tonghe-zhenguo",
+    "subjectsRaw": [
+      "始皇帝",
+      "项羽",
+      "韩信",
+      "秦良玉"
+    ],
+    "relationshipRaw": "始皇帝通过骊山冻眠/唤醒制度调度骊山英杰，并派项羽增援、唤醒秦良玉与韩信。",
+    "eventRefs": [
+      "lb3-event-F",
+      "lb3-event-G",
+      "lb3-event-I"
+    ],
+    "supportStatus": "source-supported",
+    "sourceRefs": [
+      "campaigns/world-library/manual-curation/type-moon-p1-hybrid/fgo-lb3-lb4-pilot/sources/worldbook-script/lostbelt/ch-095-lb3-renzhi-tonghe-zhenguo.txt:18",
+      "campaigns/world-library/manual-curation/type-moon-p1-hybrid/fgo-lb3-lb4-pilot/sources/worldbook-script/lostbelt/ch-095-lb3-renzhi-tonghe-zhenguo.txt:47",
+      "campaigns/world-library/manual-curation/type-moon-p1-hybrid/fgo-lb3-lb4-pilot/sources/worldbook-script/lostbelt/ch-095-lb3-renzhi-tonghe-zhenguo.txt:50",
+      "campaigns/world-library/manual-curation/type-moon-p1-hybrid/fgo-lb3-lb4-pilot/sources/worldbook-script/lostbelt/ch-095-lb3-renzhi-tonghe-zhenguo.txt:56"
+    ],
+    "sourceType": "user-file-worldbook-script",
+    "credibility": "B",
+    "canonStatus": "canon-like",
+    "timelineId": "timeline-lostbelt-lb3-renzhi-tonghe-zhenguo",
+    "timeRange": {
+      "type": "event-set",
+      "timeRawStart": "2018年12月12日 昼",
+      "timeRawEnd": "2018年12月13日 昼",
+      "eventRefs": [
+        "lb3-event-F",
+        "lb3-event-G",
+        "lb3-event-I"
+      ],
+      "source": "derived-from-linked-source-backed-events"
+    }
+  }
+}

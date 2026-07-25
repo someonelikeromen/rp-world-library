@@ -1,0 +1,32 @@
+{
+  "schema": "tm-profile-supplement-normalized-relationships-v1",
+  "pilot": "prisma-illya-profile-supplement-pilot",
+  "status": "generated-pending-audit",
+  "records": [
+    {
+      "source": "魔法少女伊莉雅_Worldbooks2.worldbook.json:entry 3",
+      "subject": "伊莉雅丝菲尔·冯·爱因兹贝伦",
+      "relation": "closest bond with Miyu",
+      "target": "美游·艾德费尔特"
+    },
+    {
+      "source": "魔法少女伊莉雅_Worldbooks2.worldbook.json:entry 4",
+      "subject": "伊莉雅丝菲尔·冯·爱因兹贝伦",
+      "relation": "shadow-half relation",
+      "target": "克洛伊·冯·爱因兹贝伦"
+    },
+    {
+      "source": "魔法少女伊莉雅_Worldbooks2.worldbook.json:entries 5, 6, 17, 18",
+      "subject": "伊莉雅丝菲尔·冯·爱因兹贝伦",
+      "relation": "shared class-card recovery circle",
+      "targets": ["远坂凛", "露维亚瑟琳塔·艾德费尔特", "魔法红宝石", "魔法蓝宝石"]
+    },
+    {
+      "source": "Fate stay night.worldbook.json / FateStayNight - 沙盒's Lorebook.worldbook.json",
+      "subject": "伊莉雅丝菲尔·冯·爱因兹贝伦",
+      "relation": "identity separation only",
+      "target": "FSN Illya",
+      "doNotMergeWith": true
+    }
+  ]
+}

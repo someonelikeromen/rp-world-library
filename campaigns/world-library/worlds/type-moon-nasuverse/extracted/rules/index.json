@@ -12,21 +12,31 @@
       "familyId": "fsn-fz-formal-world-rules",
       "sourcePilot": "fsn-fz-pilot",
       "recordType": "world-rule",
-      "continuityScope": ["fate-stay-night", "fate-zero"],
-      "summaryCountRef": "fsn-fz-pilot/merged/index.json#/summaryCounts/formalWorldRules",
-      "acceptedArtifactRefs": ["fsn-fz-pilot/merged/merged-entities.json"],
+      "continuityScope": [
+        "fate-stay-night",
+        "fate-zero"
+      ],
+      "summaryCountRef": "characters/fsn-fz/index.json#/summaryCounts/formalWorldRules",
+      "acceptedArtifactRefs": [
+        "characters/fsn-fz/merged-entities.json"
+      ],
       "sourceType": "p1-hybrid-local-worldbook-and-story-text",
       "credibility": "B",
       "canonStatus": "canon-like/adapted",
       "candidateOnly": false,
       "sourceGap": false,
-      "auditStatusRef": "fsn-fz-pilot/audit/final-pass-report.json"
+      "auditStatusRef": "STATUS.md#fsn-fz-audit"
     },
     {
       "familyId": "fgo-world-state-records",
       "sourcePilot": "fgo-script-pilot; fgo-eor-pilot; fgo-lb1-lb2-pilot; fgo-lb3-lb4-pilot; fgo-lb5-pilot; fgo-lb6-pilot; fgo-ordeal-call-pilot",
       "recordType": "world-state",
-      "continuityScope": ["fgo-part1", "fgo-epic-of-remnant", "fgo-lostbelt", "fgo-ordeal-call"],
+      "continuityScope": [
+        "fgo-part1",
+        "fgo-epic-of-remnant",
+        "fgo-lostbelt",
+        "fgo-ordeal-call"
+      ],
       "acceptedArtifactRefs": [
         "fgo-script-pilot/merged/world-state/",
         "fgo-eor-pilot/merged/world-state/",
@@ -40,67 +50,108 @@
       "canonStatus": "canon-like",
       "candidateOnly": false,
       "sourceGap": false,
-      "auditStatusRefs": ["fgo-script-pilot/STATUS.md", "fgo-eor-pilot/STATUS.md", "fgo-lb1-lb2-pilot/STATUS.md", "fgo-lb3-lb4-pilot/STATUS.md", "fgo-lb5-pilot/STATUS.md", "fgo-lb6-pilot/STATUS.md", "fgo-ordeal-call-pilot/STATUS.md"]
+      "auditStatusRefs": [
+        "STATUS.md#fgo-part1",
+        "STATUS.md#eor",
+        "STATUS.md#lb1-lb2",
+        "STATUS.md#lb3-lb4",
+        "STATUS.md#lb5",
+        "STATUS.md#lb6",
+        "STATUS.md#ordeal-call"
+      ]
     },
     {
       "familyId": "kara-no-kyoukai-root-and-mystic-eyes-settings",
       "sourcePilot": "kara-no-kyoukai-profile-supplement-pilot",
       "recordType": "setting-record",
-      "continuityScope": ["kara-no-kyoukai", "type-moon-general-cross-check"],
-      "acceptedArtifactRefs": ["kara-no-kyoukai-profile-supplement-pilot/normalized/profile-supplement/ryougi-shiki/systems/abilities-systems.json", "kara-no-kyoukai-profile-supplement-pilot/merged/profile-index.json"],
+      "continuityScope": [
+        "kara-no-kyoukai",
+        "type-moon-general-cross-check"
+      ],
+      "acceptedArtifactRefs": [
+        "characters/knk/profile-supplement/ryougi-shiki/systems/abilities-systems.json",
+        "characters/knk/profile-index.json"
+      ],
       "sourceType": "user-file-worldbook-profile",
       "credibility": "B",
       "canonStatus": "canon-like/adapted",
       "candidateOnly": false,
       "sourceGap": false,
-      "auditStatusRef": "kara-no-kyoukai-profile-supplement-pilot/STATUS.md"
+      "auditStatusRef": "STATUS.md#knk"
     },
     {
       "familyId": "prisma-illya-world-mechanics",
       "sourcePilot": "prisma-illya-profile-supplement-pilot",
       "recordType": "mechanics-record",
-      "continuityScope": ["prisma-illya"],
-      "acceptedArtifactRefs": ["prisma-illya-profile-supplement-pilot/normalized/profile-supplement/prisma-illya/world-mechanics.json", "prisma-illya-profile-supplement-pilot/extracted/profile-supplement/prisma-illya/records/world-mechanics-and-locations.json"],
+      "continuityScope": [
+        "prisma-illya"
+      ],
+      "acceptedArtifactRefs": [
+        "characters/prisma-illya/profile-supplement/prisma-illya/world-mechanics.json",
+        "prisma-illya-profile-supplement-pilot/extracted/profile-supplement/prisma-illya/records/world-mechanics-and-locations.json"
+      ],
       "sourceType": "user-file-worldbook-profile-redacted",
       "credibility": "B",
       "canonStatus": "canon-like/adapted",
       "candidateOnly": false,
       "sourceGap": false,
-      "auditStatusRef": "prisma-illya-profile-supplement-pilot/STATUS.md"
+      "auditStatusRef": "STATUS.md#prisma-illya"
     },
     {
       "familyId": "lb6-fairy-calendar-system",
       "sourcePilot": "lb6-fairy-calendar-supplement-pilot",
       "recordType": "calendar-system-record",
-      "continuityScope": ["fgo-lostbelt", "lb6-fairy-calendar"],
-      "acceptedArtifactRefs": ["lb6-fairy-calendar-supplement-pilot/normalized/calendar-setting/calendar-system.json"],
+      "continuityScope": [
+        "fgo-lostbelt",
+        "lb6-fairy-calendar"
+      ],
+      "acceptedArtifactRefs": [
+        "fgo-lb6-/calendar-setting/calendar-system.json"
+      ],
       "sourceType": "user-file-worldbook-setting",
       "credibility": "B",
       "canonStatus": "canon-like/adapted",
       "candidateOnly": false,
       "sourceGap": false,
       "relativeOnlyPolicy": true,
-      "auditStatusRef": "lb6-fairy-calendar-supplement-pilot/STATUS.md"
+      "auditStatusRef": "STATUS.md#lb6-fairy-calendar"
     },
     {
       "familyId": "type-moon-core-general-settings-noncandidate-anchors",
       "sourcePilot": "type-moon-core-general-settings-pilot",
       "recordType": "setting-record",
-      "continuityScope": ["type-moon-general"],
-      "acceptedArtifactRefs": ["type-moon-core-general-settings-pilot/normalized/core-general-settings/index.json#/records[?candidateOnly!=true && sourceGap!=true]", "type-moon-core-general-settings-pilot/normalized/core-general-settings/settings-supplement.json"],
+      "continuityScope": [
+        "type-moon-general"
+      ],
+      "acceptedArtifactRefs": [
+        "rules/core-general-settings/index.json#/records[?candidateOnly!=true && sourceGap!=true]",
+        "rules/core-general-settings/settings-supplement.json"
+      ],
       "includedRecordPolicy": "Only non-candidate, non-source-gap anchors from the accepted core index are formal here.",
-      "excludedRecordIds": ["atlas-and-sion-candidate-context"],
+      "excludedRecordIds": [
+        "atlas-and-sion-candidate-context"
+      ],
       "sourceType": "derived-from-completed-pilot-settings-supplement",
       "credibility": "B with human-scope limitations",
       "canonStatus": "adapted/secondary-summary",
       "candidateOnly": false,
       "sourceGap": false,
-      "auditStatusRef": "type-moon-core-general-settings-pilot/audit/final-status.json"
+      "auditStatusRef": "rules/core-general-settings/audit-final-status.json"
     }
   ],
   "excludedFromFormalRulesIndex": [
-    {"recordId": "atlas-and-sion-candidate-context", "sourcePilot": "type-moon-core-general-settings-pilot", "reason": "candidateOnly/sourceGap/human-scope; needs Melty-specific corroboration"},
-    {"pilotId": "mahoyo-profile-supplement-pilot", "reason": "hold pending read-only auditor rerun"},
-    {"pilotId": "tsukihime-dead-apostle-profile-supplement-pilot", "reason": "hold pending separate final audit"}
+    {
+      "recordId": "atlas-and-sion-candidate-context",
+      "sourcePilot": "type-moon-core-general-settings-pilot",
+      "reason": "candidateOnly/sourceGap/human-scope; needs Melty-specific corroboration"
+    },
+    {
+      "pilotId": "mahoyo-profile-supplement-pilot",
+      "reason": "hold pending read-only auditor rerun"
+    },
+    {
+      "pilotId": "tsukihime-dead-apostle-profile-supplement-pilot",
+      "reason": "hold pending separate final audit"
+    }
   ]
 }

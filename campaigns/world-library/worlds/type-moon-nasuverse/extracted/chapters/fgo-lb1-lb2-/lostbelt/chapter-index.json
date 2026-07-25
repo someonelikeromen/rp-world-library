@@ -1,0 +1,46 @@
+{
+  "schema": "tm-fgo-merged-chapter-index-v1",
+  "recordType": "merged_chapter_index",
+  "project": "fgo-lb1-lb2-pilot",
+  "arc": "lostbelt",
+  "mergeStepId": "merge-lb1-lb2-retry",
+  "model": "lt-yuyu/gpt-5.5",
+  "sourceFirstPolicy": "Formal chapter labels use current source text only. Legacy path slugs are kept only as file-path identifiers, not source-backed English titles.",
+  "records": [
+    {
+      "chapterId": "fgo-lb1-anastasia",
+      "chapterOrder": 1,
+      "legacyPathSlug": "lb1-anastasia",
+      "titleRaw": "Lostbelt No.1 永久冻土帝国 安娜塔西亚（兽国的皇女）",
+      "mergedEventDirectory": "merged/events/lostbelt/lb1-anastasia/",
+      "mergedRelationshipDirectory": "merged/relationships/edges/lostbelt/lb1-anastasia/",
+      "mergedCharacterIndex": "merged/characters/lostbelt/lb1-anastasia/character-index.json",
+      "mergedWorldStateIndex": "merged/world-state/lostbelt/world-state-index.json",
+      "sourceRefs": ["sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:17-130"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    },
+    {
+      "chapterId": "fgo-lb2-gotterdammerung",
+      "chapterOrder": 2,
+      "legacyPathSlug": "lb2-gotterdammerung",
+      "titleRaw": "Lostbelt No.2 无间冰焰世纪 诸神黄昏（不灭之炎的好汉）",
+      "mergedEventDirectory": "merged/events/lostbelt/lb2-gotterdammerung/",
+      "mergedRelationshipDirectory": "merged/relationships/edges/lostbelt/lb2-gotterdammerung/",
+      "mergedCharacterIndex": "merged/characters/lostbelt/lb2-gotterdammerung/character-index.json",
+      "mergedWorldStateIndex": "merged/world-state/lostbelt/world-state-index.json",
+      "sourceRefs": ["sources/worldbook-script/lostbelt/ch-094-lb2-gotterdammerung.txt:17-110"],
+      "sourceType": "user-file-worldbook-script",
+      "credibility": "B",
+      "canonStatus": "canon-like"
+    }
+  ],
+  "sourceRefs": [
+    "sources/worldbook-script/lostbelt/ch-093-lb1-anastasia.txt:17-130",
+    "sources/worldbook-script/lostbelt/ch-094-lb2-gotterdammerung.txt:17-110"
+  ],
+  "sourceType": "user-file-worldbook-script",
+  "credibility": "B",
+  "canonStatus": "canon-like"
+}

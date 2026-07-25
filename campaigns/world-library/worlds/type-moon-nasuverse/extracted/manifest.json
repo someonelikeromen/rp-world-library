@@ -37,11 +37,11 @@
       "credibility": "B",
       "publicationDecision": "formal-source-linked-indexes",
       "acceptedArtifactRefs": [
-        "fsn-fz-pilot/merged/index.json",
-        "fsn-fz-pilot/merged/merged-entities.json",
-        "fsn-fz-pilot/merged/merged-graph.json",
-        "fsn-fz-pilot/merged/merged-timeline.json",
-        "fsn-fz-pilot/audit/final-pass-report.json"
+        "characters/fsn-fz/index.json",
+        "characters/fsn-fz/merged-entities.json",
+        "characters/fsn-fz/merged-graph.json",
+        "timelines/fsn-fz-timeline.json",
+        "STATUS.md#fsn-fz-audit"
       ],
       "auditStatus": "canPublishPilotSideBySide true; canReplaceCurated false"
     },
@@ -53,10 +53,13 @@
       "credibility": "B",
       "publicationDecision": "formal-source-linked-indexes",
       "acceptedArtifactRefs": [
-        "fgo-script-pilot/merged/",
-        "fgo-script-pilot/graph/",
-        "fgo-script-pilot/timeline/",
-        "fgo-script-pilot/STATUS.md"
+        "characters/fgo-part1/entity-resolution-index.json",
+        "characters/fgo-part1/character-fragment-coverage-index.json",
+        "characters/fgo-part1/fragments/",
+        "characters/fgo-part1/",
+        "graph/fgo-part1/",
+        "timelines/fgo-part1/",
+        "STATUS.md#fgo-part1"
       ],
       "auditStatus": "accepted with nonblocking risks after visual/ability/combat audit rerun"
     },
@@ -69,9 +72,9 @@
       "publicationDecision": "formal-source-linked-indexes",
       "acceptedArtifactRefs": [
         "fgo-eor-pilot/merged/",
-        "fgo-eor-pilot/graph/",
-        "fgo-eor-pilot/timeline/eor/",
-        "fgo-eor-pilot/audit/final-acceptance.md"
+        "graph/fgo-eor/",
+        "timelines/fgo-eor/",
+        "STATUS.md#eor-audit"
       ],
       "auditStatus": "final accepted after parent forbidden-basename repair"
     },
@@ -84,8 +87,8 @@
       "publicationDecision": "formal-source-linked-indexes",
       "acceptedArtifactRefs": [
         "fgo-lb1-lb2-pilot/merged/index.json",
-        "fgo-lb1-lb2-pilot/graph/lostbelt/derived-index.json",
-        "fgo-lb1-lb2-pilot/timeline/lostbelt/index.json"
+        "timelines/fgo-lb1-lb2-/lostbelt/index.json",
+        "timelines/fgo-lb1-lb2-/lostbelt/index.json"
       ],
       "auditStatus": "independent final audit passed with nonblocking risks"
     },
@@ -97,9 +100,9 @@
       "credibility": "B",
       "publicationDecision": "formal-source-linked-indexes",
       "acceptedArtifactRefs": [
-        "fgo-lb3-lb4-pilot/merged/index.json",
-        "fgo-lb3-lb4-pilot/graph/index.json",
-        "fgo-lb3-lb4-pilot/timeline/lostbelt/index.json"
+        "characters/fgo-lb3-lb4-/index.json",
+        "graph/fgo-lb3-lb4-/",
+        "timelines/fgo-lb3-lb4-/lostbelt/index.json"
       ],
       "auditStatus": "independent final audit addendum passed with nonblocking risks"
     },
@@ -111,9 +114,9 @@
       "credibility": "B",
       "publicationDecision": "formal-source-linked-indexes",
       "acceptedArtifactRefs": [
-        "fgo-lb5-pilot/merged/index.json",
-        "fgo-lb5-pilot/graph/lostbelt/index.json",
-        "fgo-lb5-pilot/timeline/lostbelt/index.json"
+        "characters/fgo-lb5-/fragments/",
+        "graph/fgo-lb5-/",
+        "timelines/fgo-lb5-/lostbelt/index.json"
       ],
       "auditStatus": "independent final audit passed with nonblocking risks"
     },
@@ -125,9 +128,11 @@
       "credibility": "B",
       "publicationDecision": "formal-source-linked-indexes",
       "acceptedArtifactRefs": [
-        "fgo-lb6-pilot/merged/index.json",
-        "fgo-lb6-pilot/graph/derived-index.json",
-        "fgo-lb6-pilot/timeline/lostbelt/index.json"
+        "characters/fgo-lb6-/character-stage-index.json",
+        "characters/fgo-lb6-/fragments/",
+        "graph/fgo-lb6-/derived-index.json",
+        "graph/fgo-lb6-/relationship-edge-index.json",
+        "timelines/fgo-lb6-/lostbelt/index.json"
       ],
       "auditStatus": "independent final audit passed with nonblocking risks"
     },
@@ -140,9 +145,9 @@
       "publicationDecision": "formal-source-linked-indexes; packet signal coverage referenced, not inferred",
       "acceptedArtifactRefs": [
         "fgo-ordeal-call-pilot/merged/index.json",
-        "fgo-ordeal-call-pilot/graph/derived-index.json",
-        "fgo-ordeal-call-pilot/timeline/ordeal-call/index.json",
-        "fgo-ordeal-call-pilot/normalized/ordeal-call/"
+        "graph/fgo-ordeal-call/derived-index.json",
+        "timelines/fgo-ordeal-call/ordeal-call/index.json",
+        "normalized/fgo-ordeal-call/"
       ],
       "auditStatus": "r31 retrospective merge compliance passed with nonblocking risks"
     },
@@ -154,10 +159,10 @@
       "credibility": "B",
       "publicationDecision": "formal-source-linked-profile-and-setting-indexes",
       "acceptedArtifactRefs": [
-        "kara-no-kyoukai-profile-supplement-pilot/merged/profile-index.json",
-        "kara-no-kyoukai-profile-supplement-pilot/normalized/profile-supplement/",
-        "kara-no-kyoukai-profile-supplement-pilot/graph/derived-index.json",
-        "kara-no-kyoukai-profile-supplement-pilot/timeline/derived-index.json"
+        "characters/knk/profile-index.json",
+        "characters/knk/profile-supplement/",
+        "graph/knk-derived-index.json",
+        "timelines/knk-derived.json"
       ],
       "auditStatus": "final gate passed with nonblocking risks"
     },
@@ -169,9 +174,9 @@
       "credibility": "B",
       "publicationDecision": "formal-SFW-redacted-source-linked-indexes",
       "acceptedArtifactRefs": [
-        "prisma-illya-profile-supplement-pilot/normalized/profile-supplement/prisma-illya/index.json",
-        "prisma-illya-profile-supplement-pilot/graph/derived-index.json",
-        "prisma-illya-profile-supplement-pilot/timeline/derived-index.json"
+        "characters/prisma-illya/profile-supplement/prisma-illya/index.json",
+        "graph/prisma-illya-derived-index.json",
+        "timelines/prisma-illya-derived.json"
       ],
       "auditStatus": "terminal passed after forbidden-basename fix; unsafe sections excluded"
     },
@@ -183,10 +188,10 @@
       "credibility": "B",
       "publicationDecision": "formal-relative-calendar-setting-indexes",
       "acceptedArtifactRefs": [
-        "lb6-fairy-calendar-supplement-pilot/normalized/calendar-setting/calendar-system.json",
-        "lb6-fairy-calendar-supplement-pilot/normalized/calendar-setting/relative-sequence-records.json",
-        "lb6-fairy-calendar-supplement-pilot/graph/derived-index.json",
-        "lb6-fairy-calendar-supplement-pilot/timeline/derived-index.json"
+        "fgo-lb6-/calendar-setting/calendar-system.json",
+        "fgo-lb6-/calendar-setting/relative-sequence-records.json",
+        "graph/fgo-lb6-/derived-index.json",
+        "timelines/fgo-lb6-/calendar-derived.json"
       ],
       "auditStatus": "final gate passed with nonblocking risks"
     },
@@ -198,9 +203,9 @@
       "credibility": "B with human-scope limitations",
       "publicationDecision": "formal indexes for non-candidate setting anchors only; Atlas/Sion retained as source-gap",
       "acceptedArtifactRefs": [
-        "type-moon-core-general-settings-pilot/normalized/core-general-settings/index.json",
-        "type-moon-core-general-settings-pilot/normalized/core-general-settings/settings-supplement.json",
-        "type-moon-core-general-settings-pilot/audit/final-status.json"
+        "rules/core-general-settings/index.json",
+        "rules/core-general-settings/settings-supplement.json",
+        "rules/core-general-settings/audit-final-status.json"
       ],
       "auditStatus": "passed with human-scope limitations; canAdvance true"
     }

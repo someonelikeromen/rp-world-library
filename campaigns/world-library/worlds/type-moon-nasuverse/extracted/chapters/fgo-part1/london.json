@@ -1,0 +1,17 @@
+{
+  "schema": "tm-fgo-canonical-chapter-entity-v1",
+  "entityId": "chapter:fgo-part1-london",
+  "chapterKey": "london",
+  "chapterId": "fgo-part1-london",
+  "chapterOrder": 4,
+  "title": "死界魔雾都市 伦敦",
+  "factRefs": {
+    "worldState": "extracted/part1/london/world-state.json",
+    "events": "extracted/part1/london/events/*.json",
+    "characterFragments": "normalized/part1/london/characters/*.fragment.json",
+    "relationships": "normalized/part1/london/relationships/*.json",
+    "packetStatus": "audit/packet-audits/part1/london/final-status.json"
+  },
+  "counts": {"events": 14, "characterFragments": 20, "relationships": 8, "worldStates": 1},
+  "status": "passed"
+}

@@ -12,52 +12,87 @@
       "familyId": "fsn-fz-entities",
       "sourcePilot": "fsn-fz-pilot",
       "recordType": "entity",
-      "continuityScope": ["fate-stay-night", "fate-zero"],
-      "summaryCountRef": "fsn-fz-pilot/merged/index.json#/summaryCounts/charactersAndServants",
-      "acceptedArtifactRefs": ["fsn-fz-pilot/merged/merged-entities.json"],
+      "continuityScope": [
+        "fate-stay-night",
+        "fate-zero"
+      ],
+      "summaryCountRef": "characters/fsn-fz/index.json#/summaryCounts/charactersAndServants",
+      "acceptedArtifactRefs": [
+        "characters/fsn-fz/merged-entities.json"
+      ],
       "sourceType": "p1-hybrid-local-worldbook-and-story-text",
       "credibility": "B",
       "canonStatus": "canon-like/adapted",
       "candidateOnly": false,
       "sourceGap": false,
-      "auditStatusRef": "fsn-fz-pilot/audit/final-pass-report.json"
+      "auditStatusRef": "STATUS.md#fsn-fz-audit"
     },
     {
       "familyId": "fgo-part1-character-fragments",
       "sourcePilot": "fgo-script-pilot",
-      "recordType": "entity-fragment",
-      "continuityScope": ["fgo-part1"],
-      "acceptedArtifactRefs": ["fgo-script-pilot/normalized/part1/solomon/characters/", "fgo-script-pilot/merged/characters/"],
+      "recordType": "entity-fragment-per-chapter",
+      "continuityScope": [
+        "fgo-part1"
+      ],
+      "acceptedArtifactRefs": [
+        "characters/fgo-part1/entity-resolution-index.json",
+        "characters/fgo-part1/character-fragment-coverage-index.json",
+        "characters/fgo-part1/fragments/fuyuki/",
+        "characters/fgo-part1/fragments/orleans/",
+        "characters/fgo-part1/fragments/septem/",
+        "characters/fgo-part1/fragments/okeanos/",
+        "characters/fgo-part1/fragments/london/",
+        "characters/fgo-part1/fragments/america/",
+        "characters/fgo-part1/fragments/camelot/",
+        "characters/fgo-part1/fragments/babylonia/",
+        "characters/fgo-part1/fragments/solomon/",
+        "characters/fgo-part1/fujimaru-ritsuka.json",
+        "characters/fgo-part1/mash-kyrielight.json",
+        "characters/fgo-part1/da-vinci.json",
+        "characters/fgo-part1/jeanne.json",
+        "characters/fgo-part1/merlin.json",
+        "characters/fgo-part1/mordred.json",
+        "characters/fgo-part1/nero-claudius.json",
+        "characters/fgo-part1/roman-romani-archaman-solomon.json"
+      ],
       "sourceType": "user-file-worldbook-script",
       "credibility": "B",
       "canonStatus": "canon-like",
       "candidateOnly": false,
       "sourceGap": false,
-      "auditStatusRef": "fgo-script-pilot/STATUS.md"
+      "auditStatusRef": "STATUS.md#fgo-part1",
+      "summaryCountRef": "characters/fgo-part1/entity-resolution-index.json#/counts"
     },
     {
       "familyId": "fgo-eor-character-indexes",
       "sourcePilot": "fgo-eor-pilot",
       "recordType": "entity-index",
-      "continuityScope": ["fgo-epic-of-remnant"],
-      "acceptedArtifactRefs": ["fgo-eor-pilot/merged/characters/", "fgo-eor-pilot/normalized/eor/"],
+      "continuityScope": [
+        "fgo-epic-of-remnant"
+      ],
+      "acceptedArtifactRefs": [
+        "characters/fgo-eor/character-index/",
+        "characters/fgo-eor/fragments/"
+      ],
       "sourceType": "user-file-worldbook-script",
       "credibility": "B",
       "canonStatus": "canon-like",
       "candidateOnly": false,
       "sourceGap": false,
-      "auditStatusRef": "fgo-eor-pilot/STATUS.md"
+      "auditStatusRef": "STATUS.md#eor"
     },
     {
       "familyId": "fgo-lostbelt-character-indexes",
       "sourcePilot": "fgo-lb1-lb2-pilot; fgo-lb3-lb4-pilot; fgo-lb5-pilot; fgo-lb6-pilot",
       "recordType": "entity-index",
-      "continuityScope": ["fgo-lostbelt"],
+      "continuityScope": [
+        "fgo-lostbelt"
+      ],
       "acceptedArtifactRefs": [
-        "fgo-lb1-lb2-pilot/merged/characters/",
-        "fgo-lb3-lb4-pilot/merged/characters/index.json",
-        "fgo-lb5-pilot/merged/",
-        "fgo-lb6-pilot/merged/character-stage-index.json"
+        "characters/fgo-lb1-lb2-/fragments/",
+        "characters/fgo-lb5-/fragments/",
+        "characters/fgo-lb6-/fragments/",
+        "characters/fgo-lb6-/character-stage-index.json"
       ],
       "sourceType": "user-file-worldbook-script",
       "credibility": "B",
@@ -65,59 +100,108 @@
       "candidateOnly": false,
       "sourceGap": false,
       "auditStatusRefs": [
-        "fgo-lb1-lb2-pilot/STATUS.md",
-        "fgo-lb3-lb4-pilot/STATUS.md",
-        "fgo-lb5-pilot/STATUS.md",
-        "fgo-lb6-pilot/STATUS.md"
+        "STATUS.md#lb1-lb2",
+        "STATUS.md#lb3-lb4",
+        "STATUS.md#lb5",
+        "STATUS.md#lb6"
       ]
     },
     {
       "familyId": "fgo-ordeal-call-entity-indexes",
       "sourcePilot": "fgo-ordeal-call-pilot",
       "recordType": "entity-index",
-      "continuityScope": ["fgo-ordeal-call"],
-      "acceptedArtifactRefs": ["fgo-ordeal-call-pilot/merged/character-stage-index.json", "fgo-ordeal-call-pilot/normalized/ordeal-call/*/entity-index.json"],
+      "continuityScope": [
+        "fgo-ordeal-call"
+      ],
+      "acceptedArtifactRefs": [
+        "characters/fgo-ordeal-call/fragments/",
+        "characters/fgo-ordeal-call/character-stage-index.json"
+      ],
       "sourceType": "user-file-worldbook-script",
       "credibility": "B",
       "canonStatus": "canon-like",
       "candidateOnly": false,
       "sourceGap": false,
-      "auditStatusRef": "fgo-ordeal-call-pilot/STATUS.md",
-      "nonblockingLimitations": ["dedicated merged appearance/ability/combat-effect directories absent; packet signal coverage referenced separately"]
+      "auditStatusRef": "STATUS.md#ordeal-call",
+      "nonblockingLimitations": [
+        "dedicated merged appearance/ability/combat-effect directories absent; packet signal coverage referenced separately"
+      ]
     },
     {
       "familyId": "kara-no-kyoukai-profile-records",
       "sourcePilot": "kara-no-kyoukai-profile-supplement-pilot",
       "recordType": "profile-record",
-      "continuityScope": ["kara-no-kyoukai"],
-      "acceptedArtifactRefs": ["kara-no-kyoukai-profile-supplement-pilot/normalized/profile-supplement/ryougi-shiki/index.json", "kara-no-kyoukai-profile-supplement-pilot/merged/profile-index.json"],
+      "continuityScope": [
+        "kara-no-kyoukai"
+      ],
+      "acceptedArtifactRefs": [
+        "characters/knk/profile-supplement/ryougi-shiki/index.json",
+        "characters/knk/profile-index.json"
+      ],
       "sourceType": "user-file-worldbook-profile",
       "credibility": "B",
       "canonStatus": "canon-like/adapted",
       "candidateOnly": false,
       "sourceGap": false,
-      "auditStatusRef": "kara-no-kyoukai-profile-supplement-pilot/STATUS.md"
+      "auditStatusRef": "STATUS.md#knk"
     },
     {
       "familyId": "prisma-illya-sfw-profile-records",
       "sourcePilot": "prisma-illya-profile-supplement-pilot",
       "recordType": "profile-record-redacted",
-      "continuityScope": ["prisma-illya"],
-      "acceptedArtifactRefs": ["prisma-illya-profile-supplement-pilot/normalized/profile-supplement/prisma-illya/core-records.json"],
+      "continuityScope": [
+        "prisma-illya"
+      ],
+      "acceptedArtifactRefs": [
+        "characters/prisma-illya/profile-supplement/prisma-illya/core-records.json"
+      ],
       "sourceType": "user-file-worldbook-profile-redacted",
       "credibility": "B",
       "canonStatus": "canon-like/adapted",
       "candidateOnly": false,
       "sourceGap": false,
-      "auditStatusRef": "prisma-illya-profile-supplement-pilot/STATUS.md",
+      "auditStatusRef": "STATUS.md#prisma-illya",
       "redactionPolicy": "Unsafe underage adult-content excluded; cross-work Sitonai/Shidounai not merged."
+    },
+    {
+      "familyId": "mooncell-servant-database",
+      "sourcePilot": "mooncell-scraper",
+      "recordType": "entity",
+      "continuityScope": [
+        "fgo-all-servants"
+      ],
+      "acceptedArtifactRefs": [
+        "characters/fgo-part1/mooncell/search-index.json",
+        "characters/fgo-part1/mooncell/index.json",
+        "characters/fgo-part1/mooncell/"
+      ],
+      "summaryCountRef": "characters/fgo-part1/mooncell/search-index.json#/totalCharacters",
+      "sourceType": "mooncell-wiki-api",
+      "credibility": "B",
+      "canonStatus": "canon-like",
+      "candidateOnly": false,
+      "sourceGap": false
     }
   ],
-  "representativeShardRefs": ["characters/shards/representative-character-records.json"],
+  "representativeShardRefs": [
+    "characters/shards/representative-character-records.json"
+  ],
   "excludedFromFormalCharacterIndex": [
-    {"pilotId": "tsukihime-supporting-cast-candidate-supplement-pilot", "reason": "candidate-only/source-gap"},
-    {"pilotId": "fate-spinoff-profile-supplement-pilot", "reason": "blocked-insufficient-source"},
-    {"pilotId": "tsukihime-dead-apostle-profile-supplement-pilot", "reason": "hold pending separate final audit"},
-    {"pilotId": "mahoyo-profile-supplement-pilot", "reason": "hold pending read-only auditor rerun"}
+    {
+      "pilotId": "tsukihime-supporting-cast-candidate-supplement-pilot",
+      "reason": "candidate-only/source-gap"
+    },
+    {
+      "pilotId": "fate-spinoff-profile-supplement-pilot",
+      "reason": "blocked-insufficient-source"
+    },
+    {
+      "pilotId": "tsukihime-dead-apostle-profile-supplement-pilot",
+      "reason": "hold pending separate final audit"
+    },
+    {
+      "pilotId": "mahoyo-profile-supplement-pilot",
+      "reason": "hold pending read-only auditor rerun"
+    }
   ]
 }

@@ -1,0 +1,321 @@
+{
+  "schema": "tm-core-general-settings-supplement-v1",
+  "pilot": "type-moon-core-general-settings-pilot",
+  "stepId": "core-generator-retry",
+  "status": "generated-with-human-scope-limitations",
+  "sourcePolicy": {
+    "sourceFirst": true,
+    "derivedOnly": true,
+    "formalCanonArchive": false,
+    "doNotCollapseWorkContinuities": true,
+    "candidateOnlyPreserved": true,
+    "sourceGapPreserved": true,
+    "rawImportsMutated": false,
+    "oldCuratedMutated": false
+  },
+  "records": [
+    {
+      "recordId": "root-general-summary",
+      "systemName": "Root / 根源",
+      "supportDecision": "source-backed-secondary-summary",
+      "continuityScope": ["type-moon-general", "kara-no-kyoukai-cross-check"],
+      "sourceRefs": [
+        "kara-no-kyoukai-profile-supplement-pilot/sources/worldbook-profile/tm-summary-root-excerpt.txt:9",
+        "kara-no-kyoukai-profile-supplement-pilot/sources/worldbook-profile/tm-summary-root-excerpt.txt:10",
+        "kara-no-kyoukai-profile-supplement-pilot/sources/worldbook-profile/tm-summary-root-excerpt.txt:11",
+        "kara-no-kyoukai-profile-supplement-pilot/sources/worldbook-profile/tm-summary-root-excerpt.txt:12",
+        "fsn-fz-pilot/sources/worldbook-text/src-type-moon-filtered.md:48",
+        "fsn-fz-pilot/sources/worldbook-text/src-type-moon-filtered.md:49"
+      ],
+      "sourceType": "completed-pilot-local-worldbook-summary",
+      "credibility": "medium-low-summary-cross-check plus B filtered anchor",
+      "canonStatus": "secondary-summary-not-primary-canon",
+      "statements": [
+        "The Root is described as the source/origin point of all phenomena and as recording causes and results across past, present, and future.",
+        "Magic is described as technology directly connected to the Root, while magecraft imitates miracles under existing laws.",
+        "The Holy Grail War is described in one summary as originally intended to open a path toward the Root.",
+        "Ryougi Shiki's body/root personality is identified in the Kara no Kyoukai source layer as connected to the Root."
+      ],
+      "limits": [
+        "This record does not resolve all work-specific Root mechanics or route variants.",
+        "The source is secondary summary/worldbook material, not official primary text."
+      ]
+    },
+    {
+      "recordId": "magic-and-magecraft-general",
+      "systemName": "Magic / 魔法 and Magecraft / 魔术",
+      "supportDecision": "source-backed-limited",
+      "continuityScope": ["type-moon-general", "mahoyo-main-support"],
+      "sourceRefs": [
+        "kara-no-kyoukai-profile-supplement-pilot/sources/worldbook-profile/tm-summary-root-excerpt.txt:10",
+        "mahoyo-profile-supplement-pilot/sources/worldbook-profile/tm1-world-rules-five-true-magics.txt:L001-L005"
+      ],
+      "sourceType": "completed-pilot-local-worldbook-summary",
+      "credibility": "B-/medium-low-summary",
+      "canonStatus": "canon-like/adapted/unknown secondary summary",
+      "statements": [
+        "True Magic is described as a set of miracles above magecraft and directly interfering with or connected to the Root.",
+        "The Five True Magics source unit says miracles impossible for human power in their era may be downgraded to magecraft as science develops, while five magics currently remain.",
+        "The same unit identifies Second Magic as parallel-world interference by Zelretch, Third Magic as Heaven's Feel/soul materialization, and Fifth Magic as Magic Blue used by Aoko Aozaki and related to time travel.",
+        "First and Fourth Magic remain unknown within the read source unit."
+      ],
+      "limits": [
+        "Do not use this as a complete Association curriculum or full thaumaturgical taxonomy.",
+        "Mahoyo event details for Fifth Magic are separated into the Aoko/Mahoyo continuity record."
+      ]
+    },
+    {
+      "recordId": "fifth-magic-mahoyo-instance",
+      "systemName": "Fifth Magic / 魔法・青 in Mahoyo",
+      "supportDecision": "source-backed-work-specific-instance",
+      "continuityScope": ["mahoyo-main"],
+      "sourceRefs": [
+        "mahoyo-profile-supplement-pilot/sources/worldbook-profile/dlc-063-aoko-aozaki.txt:L006-L012",
+        "mahoyo-profile-supplement-pilot/sources/worldbook-profile/dlc-065-soujuurou-shizuki.txt:L010-L011",
+        "mahoyo-profile-supplement-pilot/sources/worldbook-profile/dlc-067-touko-aozaki.txt:L008",
+        "mahoyo-profile-supplement-pilot/sources/worldbook-profile/tm1-world-rules-five-true-magics.txt:L004-L005"
+      ],
+      "sourceType": "user-file-worldbook-profile plus general support excerpt",
+      "credibility": "B with B- support",
+      "canonStatus": "canon-like/adapted/unknown",
+      "statements": [
+        "Aoko Aozaki is identified as one of the few extant magicians and user of the Fifth Magic.",
+        "In the Mahoyo source event, after Soujuurou is killed by Touko, Aoko activates the Fifth Magic, moves the five fatal minutes to the far future, borrows roughly ten years of Soujuurou's time, temporarily becomes a ten-years-later state, defeats Touko, and curses Touko away from Misaki for ten years.",
+        "The source explicitly says details of the Fifth Magic are unclear; the event mechanics above must remain Mahoyo-instance facts rather than universal extrapolation."
+      ],
+      "limits": [
+        "Do not merge Aoko's Tsukihime/Melty/FGO cross-work material into Mahoyo-main.",
+        "Do not infer the full theory of Fifth Magic beyond the cited event description."
+      ]
+    },
+    {
+      "recordId": "mages-association-general-anchor",
+      "systemName": "Mage's Association / 魔术协会",
+      "supportDecision": "source-backed-thin-anchor",
+      "continuityScope": ["type-moon-general-anchor", "fsn-fz", "mahoyo-context", "tsukihime-context", "prisma-context"],
+      "sourceRefs": [
+        "fsn-fz-pilot/sources/worldbook-text/src-type-moon-filtered.md:37",
+        "fsn-fz-pilot/sources/worldbook-text/src-type-moon-filtered.md:39",
+        "fsn-fz-pilot/sources/worldbook-text/src-type-moon-filtered.md:40",
+        "mahoyo-profile-supplement-pilot/sources/worldbook-profile/dlc-056-misaki-town.txt:L003",
+        "mahoyo-profile-supplement-pilot/sources/worldbook-profile/dlc-067-touko-aozaki.txt:L002-L006",
+        "tsukihime-dead-apostle-profile-supplement-pilot/sources/worldbook-profile/tm-summary-church-conceptual-weapons.txt:16",
+        "prisma-illya-profile-supplement-pilot/sources/worldbook-profile/prisma-000-world-view.txt:13"
+      ],
+      "sourceType": "completed-pilot-derived-worldbook-anchors",
+      "credibility": "B thin anchor",
+      "canonStatus": "canon-like/adapted/unknown",
+      "statements": [
+        "The Mage's Association is identified in the FSN/FZ filtered anchor as a key secrecy-and-control institution relevant to the Clock Tower and broader mage society.",
+        "Mahoyo source excerpts place Misaki's rare magic foundation outside strong Association influence and place Touko in a Clock Tower/Association background before returning to Misaki.",
+        "The Holy Church source says the Church and Mage's Association mutually monitor each other and sometimes conflict.",
+        "Prisma Illya source mentions the Mage's Association as a force/mechanic within that separate derivative universe."
+      ],
+      "limits": [
+        "This is not enough to formalize a complete Association hierarchy, department map, or Clock Tower politics.",
+        "Atlas and Wandering Sea are only candidate/contextual in currently read files, except as work-specific mentions."
+      ]
+    },
+    {
+      "recordId": "holy-church-and-conceptual-weapons",
+      "systemName": "Holy Church / 圣堂教会 and Conceptual Weapons / 概念武装",
+      "supportDecision": "source-backed-secondary-summary",
+      "continuityScope": ["type-moon-general", "tsukihime-church-ciel-context"],
+      "sourceRefs": [
+        "tsukihime-dead-apostle-profile-supplement-pilot/sources/worldbook-profile/tm-summary-church-conceptual-weapons.txt:16",
+        "tsukihime-dead-apostle-profile-supplement-pilot/sources/worldbook-profile/tm-summary-church-conceptual-weapons.txt:17",
+        "tsukihime-dead-apostle-profile-supplement-pilot/sources/worldbook-profile/tm-summary-church-conceptual-weapons.txt:18",
+        "tsukihime-dead-apostle-profile-supplement-pilot/sources/worldbook-profile/tm-summary-church-conceptual-weapons.txt:19",
+        "tsukihime-dead-apostle-profile-supplement-pilot/sources/worldbook-profile/tm-summary-church-conceptual-weapons.txt:21",
+        "tsukihime-dead-apostle-profile-supplement-pilot/sources/worldbook-profile/tm-summary-church-conceptual-weapons.txt:22",
+        "tsukihime-dead-apostle-profile-supplement-pilot/sources/worldbook-profile/tm-summary-church-conceptual-weapons.txt:23",
+        "tsukihime-dead-apostle-profile-supplement-pilot/sources/worldbook-profile/tm-summary-church-conceptual-weapons.txt:25-29",
+        "tsukihime-dead-apostle-profile-supplement-pilot/sources/worldbook-profile/dlc-tsukihime-ciel.txt:21"
+      ],
+      "sourceType": "user-file-worldbook-profile summary and Tsukihime profile signal",
+      "credibility": "B",
+      "canonStatus": "canon-like/adapted",
+      "statements": [
+        "The Holy Church is described as a large organization managing 'God's principles', mutually monitoring and sometimes conflicting with the Mage's Association.",
+        "Its mandate includes spreading the Gospel while hunting heresy; mysteries such as magecraft and vampires are within its hunting scope.",
+        "The Eighth Holy Sacrament is named as a relic recovery/management department, the Burial Agency as a force for hunting the most dangerous heresies, and Executors as clergy sent to clear heresies.",
+        "The source says the Church usually intervenes in Holy Grail Wars as a supervisor to maintain basic rules.",
+        "Conceptual weapons are defined as weapons that impose a concept/law on an opponent rather than relying on physical damage; examples include Black Keys and Ciel's Seventh Holy Scripture context."
+      ],
+      "limits": [
+        "The Church record is general-summary grade and must not replace work-specific Church portrayals.",
+        "Conceptual-weapon examples should retain their originating work and equipment context."
+      ]
+    },
+    {
+      "recordId": "dead-apostles-and-true-ancestors",
+      "systemName": "Dead Apostles / 死徒 and True Ancestors / 真祖",
+      "supportDecision": "source-backed-secondary-summary",
+      "continuityScope": ["tsukihime-general", "type-moon-general-crosswork-candidate"],
+      "sourceRefs": [
+        "tsukihime-dead-apostle-profile-supplement-pilot/sources/worldbook-profile/tm-summary-dead-apostle-true-ancestor.txt:16-27",
+        "tsukihime-dead-apostle-profile-supplement-pilot/sources/worldbook-profile/dlc-tsukihime-arcueid.txt:19-23",
+        "tsukihime-dead-apostle-profile-supplement-pilot/sources/worldbook-profile/dlc-tsukihime-arcueid.txt:49-56",
+        "tsukihime-dead-apostle-profile-supplement-pilot/sources/worldbook-profile/dlc-tsukihime-ciel.txt:17-22"
+      ],
+      "sourceType": "user-file-worldbook-profile summary plus Tsukihime profile excerpts",
+      "credibility": "B",
+      "canonStatus": "canon-like/adapted",
+      "statements": [
+        "Dead Apostles and True Ancestors are described as two main classifications of bloodsuckers with different essence and origin.",
+        "True Ancestors are described as natural spirits created by the planet/Gaia's will, modeled after Crimson Moon, with powerful near-immortal nature and blood-drinking impulse used to suppress their own power.",
+        "Arcueid Brunestud is identified as a True Ancestor princess and combat-specialized True Ancestor; original and remake profile signals must remain continuity-separated.",
+        "Dead Apostles are described as acquired vampires, either humans turned by True Ancestors or magi who transformed through research, requiring blood to maintain existence and power.",
+        "The twenty-seven oldest/strongest Dead Apostles are called the Twenty-Seven Dead Apostle Ancestors in this source."
+      ],
+      "limits": [
+        "The source notes importance beyond Tsukihime, but this supplement does not merge Fate/strange Fake or other work-specific Dead Apostle continuities.",
+        "Original Tsukihime and remake labels remain separate raw source labels."
+      ]
+    },
+    {
+      "recordId": "mystic-eyes-general-and-death-perception",
+      "systemName": "Mystic Eyes / 魔眼 and Mystic Eyes of Death Perception / 直死之魔眼",
+      "supportDecision": "source-backed-secondary-summary",
+      "continuityScope": ["type-moon-general", "kara-no-kyoukai-original", "tsukihime-general"],
+      "sourceRefs": [
+        "tsukihime-dead-apostle-profile-supplement-pilot/sources/worldbook-profile/tm-summary-mystic-eyes.txt:16-20",
+        "tsukihime-dead-apostle-profile-supplement-pilot/sources/worldbook-profile/tm-summary-mystic-eyes-of-death-perception.txt:16-25",
+        "kara-no-kyoukai-profile-supplement-pilot/sources/worldbook-profile/tm-summary-mystic-eyes-death-perception-excerpt.txt:9-12",
+        "kara-no-kyoukai-profile-supplement-pilot/sources/worldbook-profile/dlc-ryougi-shiki-excerpt.txt:13-16",
+        "mahoyo-profile-supplement-pilot/sources/worldbook-profile/dlc-067-touko-aozaki.txt:L003",
+        "mahoyo-profile-supplement-pilot/sources/worldbook-profile/dlc-067-touko-aozaki.txt:L009"
+      ],
+      "sourceType": "user-file-worldbook-profile summary and profile excerpts",
+      "credibility": "B plus medium-low cross-check",
+      "canonStatus": "canon-like/adapted/secondary-summary",
+      "statements": [
+        "Mystic Eyes are defined as supernatural abilities housed in the eyes that interfere with the external world or others through sight, simplifying chant/activation processes.",
+        "The source ranks Mystic Eyes by ability/rarity, including ordinary, jewel, gold, rainbow, and exceptional divine-level examples.",
+        "Mystic Eyes of Death Perception are described as rare top-level Mystic Eyes that let holders see the death of all things and directly relate to the Root.",
+        "Death lines appear as black cracks; cutting along them ignores physical strength/defense and kills the target. Death points are treated as the start/end of existence and can erase the object's existence when pierced.",
+        "Known holders named in the source are Ryougi Shiki and Tohno Shiki.",
+        "Touko Aozaki is separately described in Mahoyo as having innate Mystic Eyes of enchantment and glasses that are Mystic Eye Killers."
+      ],
+      "limits": [
+        "Do not merge Ryougi Shiki and Tohno Shiki ability records; work-specific limits and adaptation differences remain separate.",
+        "Touko's Mystic Eyes are a profile-specific signal, not a complete Mystic Eye taxonomy."
+      ]
+    },
+    {
+      "recordId": "bounded-fields-limited-examples",
+      "systemName": "Bounded Fields / 结界",
+      "supportDecision": "source-backed-examples-only",
+      "continuityScope": ["kara-no-kyoukai-original", "fsn-fz-anchor-context", "tsukihime-not-found-context"],
+      "sourceRefs": [
+        "kara-no-kyoukai-profile-supplement-pilot/sources/worldbook-profile/dlc-mifune-city-locations-excerpt.txt:10",
+        "kara-no-kyoukai-profile-supplement-pilot/sources/worldbook-profile/dlc-mifune-city-locations-excerpt.txt:14",
+        "fsn-fz-pilot/waves/wave-008/output/abilities.json:285-287",
+        "tsukihime-dead-apostle-profile-supplement-pilot/normalized/profile-supplement/locations/not-found/not-found-in-source.json:43-45"
+      ],
+      "sourceType": "completed-pilot-derived-location/profile records",
+      "credibility": "medium-local-worldbook-explicit for KnK examples; B candidate context elsewhere",
+      "canonStatus": "secondary-summary/adapted",
+      "statements": [
+        "Garan no Dou is described in the Kara no Kyoukai location excerpt as protected by a bounded field that unconsciously diverts people with no business there.",
+        "Ogawa Apartment is described as a Root-reaching experiment where Araya Souren repurposes Touko's original taiji design and sets a strong barrier.",
+        "FSN/FZ wave material has a bounded-field-related Rider/Medusa school-barrier candidate, but it is not used here as a general definition.",
+        "Tsukihime location extraction explicitly recorded some mansion/base bounded-field ideas as not found in source."
+      ],
+      "limits": [
+        "No universal definition of bounded fields is formalized here because the available direct sources are example-level and uneven.",
+        "Do not infer bounded fields for locations where the local pilot marked them not found."
+      ]
+    },
+    {
+      "recordId": "servant-heroic-spirit-and-throne-thin-anchor",
+      "systemName": "Heroic Spirits, Servants, and Throne of Heroes / 英灵座",
+      "supportDecision": "partial-source-backed-with-throne-gap",
+      "continuityScope": ["fsn-fz-anchor", "prisma-illya-separated-derivative"],
+      "sourceRefs": [
+        "fsn-fz-pilot/sources/worldbook-text/src-type-moon-filtered.md:21-25",
+        "fsn-fz-pilot/sources/worldbook-text/src-type-moon-filtered.md:27-35",
+        "prisma-illya-profile-supplement-pilot/sources/worldbook-profile/prisma-000-world-view.txt:13"
+      ],
+      "sourceType": "completed-pilot-worldbook anchors",
+      "credibility": "B thin anchor",
+      "canonStatus": "canon-like/adapted/unknown",
+      "statements": [
+        "FSN/FZ filtered anchors state that Heroic Spirits become Servants through class summoning and magical supply, and that Servants are bounded by class roles and the Holy Grail War framework.",
+        "Noble Phantasms are described as crystallized trump cards of Heroic Spirits and core combat/identity anchors.",
+        "Command Spells are described as a Master's limited authority over a Servant.",
+        "Prisma Illya separately mentions 英灵座 / Throne of Heroes as one mechanic in that derivative universe's class-card framework."
+      ],
+      "limits": [
+        "The completed pilot corpus did not provide a direct general definition of the Throne of Heroes beyond Prisma's separated mention; do not formalize a universal Throne model from this pass.",
+        "Class-card mechanics remain Prisma-continuity records and are not merged with FSN/FZ Servant summoning."
+      ]
+    },
+    {
+      "recordId": "reality-marble-thin-anchor",
+      "systemName": "Reality Marble / 固有结界",
+      "supportDecision": "source-backed-thin-anchor",
+      "continuityScope": ["type-moon-general-anchor", "fsn-fz-route-specific-context"],
+      "sourceRefs": [
+        "fsn-fz-pilot/sources/worldbook-text/src-type-moon-filtered.md:57-60",
+        "fsn-fz-pilot/waves/wave-008/output/abilities.json:73-75",
+        "fsn-fz-pilot/waves/wave-008/output/abilities.json:100-102"
+      ],
+      "sourceType": "completed-pilot-worldbook anchor plus route-derived ability output",
+      "credibility": "B thin anchor",
+      "canonStatus": "canon-like/adapted",
+      "statements": [
+        "The filtered Type-Moon anchor describes Reality Marbles as manifesting the inner world as a bounded reality and as a high-end magecraft concept used later for route-specific extraction.",
+        "The FSN/FZ ability output records Unlimited Blade Works as a route-specific Reality Marble associated with Archer EMIYA and Shirou, but this supplement treats that as route-specific context only."
+      ],
+      "limits": [
+        "This is not enough for a complete taxonomy of Reality Marbles or all known users.",
+        "Route-specific UBW details remain in FSN/FZ outputs."
+      ]
+    },
+    {
+      "recordId": "counter-force-thin-anchor",
+      "systemName": "Counter Force / 抑止力",
+      "supportDecision": "source-backed-thin-anchor",
+      "continuityScope": ["type-moon-general-anchor", "fsn-fz-rule-context"],
+      "sourceRefs": [
+        "fsn-fz-pilot/sources/worldbook-text/src-type-moon-filtered.md:62-65"
+      ],
+      "sourceType": "completed-pilot-worldbook filtered anchor",
+      "credibility": "B thin anchor",
+      "canonStatus": "canon-like",
+      "statements": [
+        "The filtered anchor describes the Counter Force as a corrective world response.",
+        "The same anchor says it belongs in rules and timeline reasoning, not in character merging."
+      ],
+      "limits": [
+        "No Alaya/Gaia split, Counter Guardian model, or work-specific intervention taxonomy is formalized from this pass because the completed candidate outputs did not provide direct line-addressable support."
+      ]
+    },
+    {
+      "recordId": "atlas-and-sion-candidate-context",
+      "systemName": "Atlas Institute / 阿特拉斯院 candidate context",
+      "supportDecision": "candidate-only-source-mixed",
+      "continuityScope": ["tsukihime-worldline-candidate", "fgo-worldline-candidate", "fgo-script-context"],
+      "candidateOnly": true,
+      "sourceGap": true,
+      "sourceRefs": [
+        "tsukihime-supporting-cast-candidate-supplement-pilot/sources/worldbook-profile/tm-general-sion-profile-excerpt.txt:17-27",
+        "tsukihime-supporting-cast-candidate-supplement-pilot/audit/generator-report.json:blockedOrGapAreas",
+        "fgo-script-pilot/sources/worldbook-script/part1/ch-006-camelot.txt:113-131"
+      ],
+      "sourceType": "candidate supplement plus FGO script context",
+      "credibility": "B adapted/candidate",
+      "canonStatus": "adapted/source-mixed",
+      "statements": [
+        "The Sion candidate excerpt names Sion as an Atlas alchemist, identifies Atlas as one of the Mage's Association's three major departments, and mixes Tsukihime-worldline and FGO-worldline history.",
+        "FGO Camelot script-pilot source uses Atlas Institute as a specific location/knowledge repository in that chapter context.",
+        "Because the supporting-cast retry explicitly kept Sion and Melty continuity candidate/source-mixed, this core supplement does not promote Atlas/Sion into a general merged institution record."
+      ],
+      "limits": [
+        "Requires human scope or stronger direct source to formalize Atlas, Wandering Sea, and department relations across works.",
+        "No Melty-specific Sion profile is promoted."
+      ]
+    }
+  ]
+}

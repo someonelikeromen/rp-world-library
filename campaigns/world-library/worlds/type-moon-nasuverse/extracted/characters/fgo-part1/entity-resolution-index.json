@@ -1,0 +1,35 @@
+{
+  "schema": "tm-fgo-character-entity-resolution-index-v1",
+  "purpose": "Reference-only index for canonical character files and unresolved fragment families. This is not a formal characters aggregate.",
+  "coverageRef": "merged/characters/character-fragment-coverage-index.json",
+  "canonicalEntityFiles": [
+    "merged/characters/fujimaru-ritsuka.json",
+    "merged/characters/mash-kyrielight.json",
+    "merged/characters/roman-romani-archaman-solomon.json",
+    "merged/characters/da-vinci.json",
+    "merged/characters/merlin.json",
+    "merged/characters/mordred.json",
+    "merged/characters/nero-claudius.json",
+    "merged/characters/jeanne.json"
+  ],
+  "singleChapterFragmentFamilies": [
+    {"chapter": "fuyuki", "fragmentGlob": "normalized/part1/fuyuki/characters/*.fragment.json", "canonicalization": "defer to migration pass unless fragment is covered by canonicalEntityFiles"},
+    {"chapter": "orleans", "fragmentGlob": "normalized/part1/orleans/characters/*.fragment.json", "canonicalization": "defer to migration pass unless fragment is covered by canonicalEntityFiles"},
+    {"chapter": "septem", "fragmentGlob": "normalized/part1/septem/characters/*.fragment.json", "canonicalization": "defer to migration pass unless fragment is covered by canonicalEntityFiles"},
+    {"chapter": "okeanos", "fragmentGlob": "normalized/part1/okeanos/characters/*.fragment.json", "canonicalization": "defer to migration pass unless fragment is covered by canonicalEntityFiles"},
+    {"chapter": "london", "fragmentGlob": "normalized/part1/london/characters/*.fragment.json", "canonicalization": "defer to migration pass unless fragment is covered by canonicalEntityFiles"},
+    {"chapter": "america", "fragmentGlob": "normalized/part1/america/characters/*.fragment.json", "canonicalization": "defer to migration pass unless fragment is covered by canonicalEntityFiles"},
+    {"chapter": "camelot", "fragmentGlob": "normalized/part1/camelot/characters/*.fragment.json", "canonicalization": "defer to migration pass unless fragment is covered by canonicalEntityFiles"},
+    {"chapter": "babylonia", "fragmentGlob": "normalized/part1/babylonia/characters/*.fragment.json", "canonicalization": "defer to migration pass unless fragment is covered by canonicalEntityFiles"},
+    {"chapter": "solomon", "fragmentGlob": "normalized/part1/solomon/characters/*.fragment.json", "canonicalization": "defer to migration pass unless fragment is covered by canonicalEntityFiles"}
+  ],
+  "doNotCollapseWithoutReview": [
+    {"nameFamily": "Jeanne", "reason": "Jeanne and Jeanne Alter are distinct source-backed entities", "refs": ["normalized/part1/orleans/characters/jeanne.fragment.json", "normalized/part1/orleans/characters/jeanne-alter.fragment.json"]},
+    {"nameFamily": "Solomon/Roman/Goetia", "reason": "Roman identity reveal, London Solomon manifestation, and Goetia antagonist presentation require curated migration review", "refs": ["normalized/part1/london/characters/solomon.fragment.json", "normalized/part1/solomon/characters/roman-solomon.fragment.json", "normalized/part1/solomon/characters/goetia.fragment.json"]},
+    {"nameFamily": "Lion King/Artoria variants", "reason": "Camelot Lion King and Solomon support-front Lion King should retain chapter context", "refs": ["normalized/part1/camelot/characters/lion-king.fragment.json", "normalized/part1/solomon/characters/lion-king.fragment.json"]}
+  ],
+  "appearanceRefs": ["merged/characters/visual-ability-combat-ref-index.json", "merged/appearances/part1/index.json"],
+  "abilityRefs": ["merged/characters/visual-ability-combat-ref-index.json", "merged/abilities/part1/index.json"],
+  "combatEffectRefs": ["merged/characters/visual-ability-combat-ref-index.json", "merged/combat-effects/part1/index.json"],
+  "counts": {"chapterCharacterFragments": 166, "canonicalCharacterFilesCreated": 8, "visualAbilityCombatCrossRefIndexCreated": 1}
+}
