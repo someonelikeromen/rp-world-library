@@ -4,11 +4,11 @@
 
 ## 原则
 
-- **【强制】方案确认前置规则**：用户要求执行任何任务时，必须先写出完整方案/提示词，等待用户明确确认「方案可以」或「开始执行」后，才能开始执行。不得在用户确认方案前擅自启动任何 agent、脚本或写入操作。
+- **【强制】方案确认前置规则**：用户要求执行任何任务时，必须先写出完整方案/提示词，等待用户明确确认「方案可以」或「开始执行」后，才能开始执行。不得在用户确认方案前擅自启动任何 agent、脚本或写入操作。**例外**：用户已明确授权 `Two-Pass Runtime` 长期实现轨道可按 `docs/rp-two-pass-runtime-iteration-plan.md`、`docs/rp-two-pass-runtime-roadmap.md` 和 `taskplane-tasks/two-pass-runtime/` 自行分批迭代直到完成；该轨道内无需每批再次确认方案，但仍必须遵守 Windows 环境规则、只改 `E:/pi-st`、不污染 RP 剧情 memory/card、不直接修改发布版 `E:/pi-rp`，并在高风险动作（真实启用 `--no-skills`、正式 lifecycle 拦截发布、custom message 正式投递、release 同步、删除/迁移核心规则或核心工具改写）前停止并请求用户确认。
 - **Windows 环境规则**：当前项目按 Windows 环境处理，不默认假设 Linux/Unix 工具可用。不得依赖 `apply_patch`、here-doc、`sed`、`awk`、`cat > file`、管道拼接等 Linux 写法完成关键操作；读取文件优先用 `read`，精确修改优先用 `edit`，新建或整篇重写优先用 `write`。必须运行脚本或命令时，优先使用 Windows 可用方式或项目已有工具，并说明原因。
 - 常驻提示词保持极简；重内容按需读取，避免每轮加载过多提示词。
 - RP 核心由 `.pi/skills/` 中的正式 skill 驱动，pi 自动发现并条件加载，不需要每轮手动读规则文件。
-- **Two-Pass Runtime 方向**：吸收 `docs/2026-07-27-two-pass-prose-render.md` 时，目标不是继续增加长规则，而是按 `docs/rp-two-pass-runtime-system-plan.md` 转向运行机制：RP Runtime Orchestrator、输入分流、Source Bundle 原文资料包、细分 Pass A/Pass B、A9/B8 最终校验、编辑审稿角色、Direction Packet / Render Packet、硬闸工具、turn-ledger、生命周期拆分、preview widget、custom prose message、渐进式按需 skill/prompt 装配。长期自动迭代按 `docs/rp-two-pass-runtime-iteration-plan.md` 用 roadmap/taskplane/orchestrator 分批推进；每批执行前必须用户确认，不得无限自启动。资料读取/查询阶段应找到正确原文并原样传递，不用 LLM 摘要替代事实源；前端面板和选项按钮不是当前重点；preview widget 属于 runtime 安全预览层，需要纳入方案；`--no-skills` 只能在 runtime 已能接管按需加载后再评估，不能直接破坏现有 `.pi/skills/` 架构。
+- **Two-Pass Runtime 方向**：吸收 `docs/2026-07-27-two-pass-prose-render.md` 时，目标不是继续增加长规则，而是按 `docs/rp-two-pass-runtime-system-plan.md` 转向运行机制：RP Runtime Orchestrator、输入分流、Source Bundle 原文资料包、细分 Pass A/Pass B、A9/B8 最终校验、编辑审稿角色、Direction Packet / Render Packet、硬闸工具、turn-ledger、生命周期拆分、preview widget、custom prose message、渐进式按需 skill/prompt 装配。长期自动迭代按 `docs/rp-two-pass-runtime-iteration-plan.md` 用 roadmap/taskplane/orchestrator 分批推进；当前用户已授权该轨道自行迭代直到完成，不需要每批重复确认，但必须在高风险动作前暂停请求确认。资料读取/查询阶段应找到正确原文并原样传递，不用 LLM 摘要替代事实源；前端面板和选项按钮不是当前重点；preview widget 属于 runtime 安全预览层，需要纳入方案；`--no-skills` 只能在 runtime 已能接管按需加载后再评估，不能直接破坏现有 `.pi/skills/` 架构。
 - `tavern2agent/`、`AIRP_ClaudeCode/`、`pi-stage/`、`AIRP-MCP-Server/`、`output-phrasing-engineering/` 是备用参考仓库，不作为本项目每轮 RP 的常驻上下文。
 - **双版本架构**：`E:/pi-st` 是测试/开发版，`E:/pi-rp` 是发布版（正式 RP 在此运行）。测试通过后运行 `tools/sync-release.sh` 或等价 Windows 可用方式同步，详见 `RELEASE.md`。
 

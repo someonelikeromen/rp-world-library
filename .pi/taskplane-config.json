@@ -50,11 +50,21 @@
         "path": "taskplane-tasks",
         "prefix": "WCA",
         "context": "taskplane-tasks/CONTEXT.md"
+      },
+      "two-pass-runtime": {
+        "path": "taskplane-tasks/two-pass-runtime",
+        "prefix": "TPR",
+        "context": "taskplane-tasks/two-pass-runtime/CONTEXT.md"
       }
     },
     "referenceDocs": {
       "archivePlan": "campaigns/world-library/manual-curation/gundam-seed-opus-p1-style/PLAN.locked.md",
-      "archivePlanJson": "campaigns/world-library/manual-curation/gundam-seed-opus-p1-style/execution-plan.json"
+      "archivePlanJson": "campaigns/world-library/manual-curation/gundam-seed-opus-p1-style/execution-plan.json",
+      "twoPassRuntimeSystemPlan": "docs/rp-two-pass-runtime-system-plan.md",
+      "twoPassRuntimeIterationPlan": "docs/rp-two-pass-runtime-iteration-plan.md",
+      "twoPassRuntimeRoadmap": "docs/rp-two-pass-runtime-roadmap.md",
+      "twoPassRuntimeAcceptance": "docs/rp-two-pass-runtime-acceptance.md",
+      "twoPassRuntimeAdr": "docs/rp-two-pass-runtime-adr.md"
     },
     "neverLoad": [],
     "selfDocTargets": {},
