@@ -5,10 +5,12 @@
 ## 原则
 
 - **【强制】方案确认前置规则**：用户要求执行任何任务时，必须先写出完整方案/提示词，等待用户明确确认「方案可以」或「开始执行」后，才能开始执行。不得在用户确认方案前擅自启动任何 agent、脚本或写入操作。
+- **Windows 环境规则**：当前项目按 Windows 环境处理，不默认假设 Linux/Unix 工具可用。不得依赖 `apply_patch`、here-doc、`sed`、`awk`、`cat > file`、管道拼接等 Linux 写法完成关键操作；读取文件优先用 `read`，精确修改优先用 `edit`，新建或整篇重写优先用 `write`。必须运行脚本或命令时，优先使用 Windows 可用方式或项目已有工具，并说明原因。
 - 常驻提示词保持极简；重内容按需读取，避免每轮加载过多提示词。
 - RP 核心由 `.pi/skills/` 中的正式 skill 驱动，pi 自动发现并条件加载，不需要每轮手动读规则文件。
+- **Two-Pass Runtime 方向**：吸收 `docs/2026-07-27-two-pass-prose-render.md` 时，目标不是继续增加长规则，而是按 `docs/rp-two-pass-runtime-system-plan.md` 转向运行机制：RP Runtime Orchestrator、输入分流、Source Bundle 原文资料包、细分 Pass A/Pass B、A9/B8 最终校验、编辑审稿角色、Direction Packet / Render Packet、硬闸工具、turn-ledger、生命周期拆分、preview widget、custom prose message、渐进式按需 skill/prompt 装配。长期自动迭代按 `docs/rp-two-pass-runtime-iteration-plan.md` 用 roadmap/taskplane/orchestrator 分批推进；每批执行前必须用户确认，不得无限自启动。资料读取/查询阶段应找到正确原文并原样传递，不用 LLM 摘要替代事实源；前端面板和选项按钮不是当前重点；preview widget 属于 runtime 安全预览层，需要纳入方案；`--no-skills` 只能在 runtime 已能接管按需加载后再评估，不能直接破坏现有 `.pi/skills/` 架构。
 - `tavern2agent/`、`AIRP_ClaudeCode/`、`pi-stage/`、`AIRP-MCP-Server/`、`output-phrasing-engineering/` 是备用参考仓库，不作为本项目每轮 RP 的常驻上下文。
-- **双版本架构**：`E:/pi-st` 是测试/开发版，`E:/pi-rp` 是发布版（正式 RP 在此运行）。测试通过后运行 `bash tools/sync-release.sh` 同步，详见 `RELEASE.md`。
+- **双版本架构**：`E:/pi-st` 是测试/开发版，`E:/pi-rp` 是发布版（正式 RP 在此运行）。测试通过后运行 `tools/sync-release.sh` 或等价 Windows 可用方式同步，详见 `RELEASE.md`。
 
 - **多世界长期经历框架**：本项目默认面向多世界长期 RP，不是单世界短篇。主角经历过的所有世界、进入/离开方式、能量体系接触、关键事件、跨世界关系、长期后果都必须持续记录。
 - **多世界战斗框架是核心基础设施**：`rp-combat/framework` 与统一角色卡的 `combat/world-adaptation.json` 不只是战斗附属模块；能力、资源、抗性、世界适配、奖励、成就与跨世界结算都必须通过该框架落盘。
